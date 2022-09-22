@@ -1,0 +1,762 @@
+0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+0:01:54.300,0:01:58.740
+intelligent machine exists it's impossible to 
+calculate what the rest of the world is going to
+
+0:01:58.740,0:02:07.440
+do in order to put it in a accurate simulation so 
+we could at best do some you know approximations
+
+0:02:08.940,0:02:18.000
+um so skipping down a little bit they have 
+two main classes for can controlling so the
+
+0:02:18.000,0:02:24.240
+the first class for controlling the machine is 
+capability control you put it in a box you give
+
+0:02:24.240,0:02:31.800
+it uh you create dependence on a reward mechanism 
+that is controlled by us you stunt it you run it
+
+0:02:31.800,0:02:37.620
+on inferior hardware and tripwire you you have it 
+automatically shut down if it gets too dangerous
+
+0:02:38.280,0:02:44.280
+if you have a machine that can build a copy of 
+itself or that understands programming it could
+
+0:02:44.940,0:02:51.480
+you know undo all of those um pretty much 
+motivation selection so uh direct specification
+
+0:02:51.480,0:02:57.480
+you say you give it uh hard-coded laws uh 
+Domesticity you teach it to behave within
+
+0:02:57.480,0:03:01.860
+certain certain constraints um indirect 
+normativity you endow it with procedures
+
+0:03:01.860,0:03:08.100
+of selecting Superior moral rules so this is 
+closest to what I have done in my work benevolent
+
+0:03:08.100,0:03:15.240
+by design whereby my proposal is that you give 
+it a set of heuristic imperatives that it will
+
+0:03:15.240,0:03:20.760
+um it will ultimately buy into and deliberately 
+choose so that you don't have to control it it
+
+0:03:20.760,0:03:27.480
+controls itself because it abides by certain 
+principles that are going to be reliable
+
+0:03:29.400,0:03:35.040
+um I believe that this is with the experiments 
+that I've captured in in benevolent by Design I
+
+0:03:35.040,0:03:40.680
+believe this is the way to go um augmentation at 
+AI to a benign systems such as the human brain
+
+0:03:40.680,0:03:47.280
+so that's you know merging um okay so you can 
+check out the paper if you want to look at their
+
+0:03:47.280,0:03:54.540
+discussion on that um but I wanted to go skip 
+down to the um the discussion part uh and then
+
+0:03:54.540,0:04:00.420
+I'll I'll share kind of some of my not necessarily 
+criticisms but my own counter thoughts because I
+
+0:04:00.420,0:04:06.120
+don't necessarily disagree with anything in this 
+it's a short paper and it's just not quite as uh
+
+0:04:06.120,0:04:10.740
+not quite as robust because they're 
+not proposing a solution like I have
+
+0:04:10.740,0:04:16.140
+um which is why I'm here okay so today we 
+run billions of computer programs globally on
+
+0:04:16.140,0:04:20.520
+connected to machines without any formal guarantee 
+of their absolute safety we have no way of proving
+
+0:04:20.520,0:04:24.540
+that when we launch an application on our 
+smartphone our smartphones we would not trigger
+
+0:04:24.540,0:04:29.760
+a chain reaction that leads to transmission of 
+missile launch codes that started nuclear war um
+
+0:04:32.700,0:04:34.080
+uh
+
+0:04:35.640,0:04:43.320
+as a technologist this really hurts um let's 
+talk about firewalls let's talk about security
+
+0:04:43.320,0:04:50.220
+protocols you actually can mathematically prove 
+something like that with penetration testing
+
+0:04:51.600,0:04:57.360
+um like there's all sorts of controls and 
+constraints that go into every layer of a
+
+0:04:57.360,0:05:03.300
+piece of technology such as what that piece of 
+technology can can talk to even the security of
+
+0:05:03.300,0:05:08.820
+how it boots up right like we have encrypted 
+boot protocols that ensure that the operating
+
+0:05:08.820,0:05:17.220
+system hasn't been tampered with so uh just right 
+there like yes if you if you're not familiar with
+
+0:05:17.220,0:05:22.740
+how technology works you could conceivably come 
+to this conclusion so we'll just kind of set
+
+0:05:22.740,0:05:30.420
+that on the the B pile of like maybe scientists 
+don't know everything um okay Arthur C Clarke
+
+0:05:30.420,0:05:34.560
+wrote a short story dial F from Frankenstein 
+warning that soon all the computers on Earth
+
+0:05:34.560,0:05:40.620
+were connected via telephone close enough they 
+could take command of our society um they could
+
+0:05:40.620,0:05:46.740
+still use our smartphones and nothing has happened 
+despite the general unsolvability of the program
+
+0:05:46.740,0:05:50.460
+prediction problem we are confident for all 
+practical purposes that we are not in one of
+
+0:05:50.460,0:05:57.240
+the Troublesome cases okay so practical safety 
+you know can you simulate it can you control it
+
+0:05:58.200,0:06:06.840
+um yeah so my point there is uh look up the 
+OSI model and look up security best practices
+
+0:06:08.040,0:06:16.440
+um all right so but I jotted down some notes if 
+predictability is the key thing here um why aren't
+
+0:06:16.440,0:06:22.680
+humans a bigger problem humans are fundamentally 
+unpredictable so why aren't we a Danger let's
+
+0:06:22.680,0:06:28.560
+explore that the reason that human well I mean 
+first humans are dangerous so humans are dangerous
+
+0:06:29.880,0:06:37.920
+um but the limit is uh but each individual is 
+limited we only have so much time and energy
+
+0:06:37.920,0:06:44.580
+and intelligence that we can apply it per day 
+um so let's just call that um physical limits
+
+0:06:46.380,0:06:52.200
+processing energy time those are the primary 
+things is we can only think so fast we can
+
+0:06:52.200,0:06:56.820
+only you know punch so many people in the face 
+if we decide to get violent and we only have so
+
+0:06:56.820,0:07:05.340
+much time uh per day as well as other constraints 
+like need for food but that falls under energy so
+
+0:07:05.340,0:07:15.540
+constraints so law of constraints um so when when 
+we look at the the constraints that humans have
+
+0:07:15.540,0:07:21.900
+computers all have the same thing like you can 
+program the most evil smartphone thing but it's
+
+0:07:21.900,0:07:26.640
+going to be limited because it's only got its One 
+battery to go on right and it's only got It's one
+
+0:07:26.640,0:07:31.860
+4G or 5G connection or Wi-Fi connection and it's 
+also only got a tiny little you know like quad
+
+0:07:31.860,0:07:40.380
+core arm processor or whatever um and so when you 
+when you when you talk about a super intelligence
+
+0:07:40.380,0:07:45.360
+you have to look at the full stack how much 
+CPU does it have how much RAM does it have
+
+0:07:45.360,0:07:49.740
+how much storage does it have how fast are its 
+internet connection so that again I'm thinking
+
+0:07:49.740,0:07:54.180
+about this from a technologist perspective what 
+kind of firewalls are around it because you can
+
+0:07:54.180,0:08:00.000
+have the smartest thing in the world but if it 
+only has like one protocol out and you've got
+
+0:08:00.000,0:08:04.920
+really robust firewalls it's not getting out 
+unless it convinces something on the outside
+
+0:08:04.920,0:08:09.660
+to let it out and of course that's like you know 
+one of the one of the possibilities but then you
+
+0:08:09.660,0:08:13.680
+can still have controls that prevent that you 
+know interlocks that prevent that from happening
+
+0:08:15.060,0:08:18.780
+um so they're basically there will 
+always be constraints of some sort
+
+0:08:20.220,0:08:29.280
+um and then for computers um it's uh want per 
+flops is the uh is the is the primary constraint
+
+0:08:29.280,0:08:40.380
+and um humans are presently uh one million times 
+more efficient so our brain runs on about 20 watts
+
+0:08:40.380,0:08:47.280
+of energy and it is an exit scale computer as best 
+we configure and the first exascale computer in
+
+0:08:47.280,0:08:55.080
+the world runs on 21 million Watts so 20 watts 
+versus 21 million Watts um you do the math so
+
+0:08:55.080,0:09:01.080
+we've got a long time before these things can 
+compete with us just energetically speaking
+
+0:09:02.580,0:09:07.680
+um all right so then intelligence 
+however so this is this is where
+
+0:09:08.820,0:09:14.880
+um where looking at it from a from a a 
+psychometrics perspective or a neuroscience
+
+0:09:14.880,0:09:19.980
+perspective is very different from looking 
+at it from a computational perspective even
+
+0:09:19.980,0:09:24.120
+though fundamentally they're both math right 
+it's both representing intelligence as numbers
+
+0:09:25.860,0:09:30.900
+the fundamental question is um 
+intelligence is mostly about speed
+
+0:09:32.280,0:09:37.920
+now so there's there's two there's two 
+things right there's there's capability right
+
+0:09:38.700,0:09:45.540
+um there's also um there's there's also speed 
+so can you do something yes or no like you know
+
+0:09:45.540,0:09:51.660
+can do you know how to build a rocket yes or no or 
+can you figure out how to build a rocket now some
+
+0:09:51.660,0:09:57.840
+people are not mentally capable of certain 
+tasks right and then but if you're above a
+
+0:09:57.840,0:10:03.420
+certain threshold of intelligence um then you are 
+theoretically capable of any intellectual task
+
+0:10:04.740,0:10:10.260
+this in practice this is not always true because 
+again we have constraints mostly time right time
+
+0:10:10.260,0:10:14.880
+and processing power it takes time to learn 
+things for us humans um but it's it's about
+
+0:10:14.880,0:10:22.980
+speed so assume that the the biggest question 
+is are there any tasks that the AI can do that
+
+0:10:22.980,0:10:30.300
+humans fundamentally cannot if that is true 
+if the AI can do things can can solve problems
+
+0:10:31.080,0:10:37.680
+that humans cannot then it is beyond human 
+comprehension so let me just jot that down if the
+
+0:10:37.680,0:10:47.700
+AI can perform mental cognitive tasks that humans 
+are incapable of only then is it truly Beyond
+
+0:10:48.720,0:10:54.240
+human comprehension otherwise it's just 
+doing human level tasks only faster
+
+0:10:55.020,0:11:05.160
+and jot that down otherwise it's only doing 
+human tasks but faster or more in parallel
+
+0:11:06.120,0:11:13.560
+now it would not be safe to assume that um that 
+a machine would never be capable of doing things
+
+0:11:13.560,0:11:18.000
+that a human cannot for instance the James 
+Webb Space Telescope it can see the beginning
+
+0:11:18.000,0:11:25.380
+of the universe um because of how powerful its 
+mirrors are to concentrate the faintest light so
+
+0:11:25.380,0:11:29.340
+we can generally design and build machines 
+that are capable of doing things that we
+
+0:11:29.340,0:11:34.740
+cannot right so this is not necessarily 
+a good constraint but it's just another
+
+0:11:35.760,0:11:45.840
+um thought experiment right um we generally 
+build machines that do things we cannot now
+
+0:11:45.840,0:11:50.220
+but then you think you're like okay what about a 
+dump truck right a dump truck is a super powerful
+
+0:11:50.220,0:11:54.540
+machine it can pick up you know the largest 
+dump trucks can carry a thousand tons at a time
+
+0:11:55.620,0:12:01.080
+um and humans cannot do that individually but 
+then you look at the the megaliths that we have
+
+0:12:01.080,0:12:09.240
+moved with you know log rollers and ropes 
+and rafts and sleds and even then generally
+
+0:12:09.240,0:12:15.000
+the most powerful machines in the world are 
+just amplifying ordinary human capabilities
+
+0:12:16.080,0:12:21.780
+um ditto with you know spreadsheets right 
+spreadsheets were originally done by hand
+
+0:12:21.780,0:12:31.980
+right by by bankers and um and statisticians um 
+so you know that's that's still the fundamental
+
+0:12:31.980,0:12:37.500
+question is will the machine be able to do 
+things that we fundamentally cannot um I don't
+
+0:12:37.500,0:12:43.860
+know yet I I have not yet seen anything on the 
+open-ended side such as like with large language
+
+0:12:43.860,0:12:47.700
+models there's nothing that they're doing that 
+we fundamentally cannot they just do it faster
+
+0:12:48.960,0:12:57.240
+um so then if if it's about speed um 
+can we humans um outpace machine thought
+
+0:13:00.000,0:13:05.820
+if the machines cost um if they're if they're 
+two if they're too energetically expensive to run
+
+0:13:06.840,0:13:13.260
+massively in parallel then just collectively 
+we can outpace the machines so there is that
+
+0:13:14.520,0:13:20.100
+um let's see because what you know what we what we 
+always assume happens in those nightmare scenarios
+
+0:13:20.100,0:13:24.000
+is that the machine wakes up and suddenly it 
+takes over the world before we know what's
+
+0:13:24.000,0:13:30.660
+going on right it relies those fear scenarios 
+rely based on speed and that's why I emphasize
+
+0:13:30.660,0:13:35.400
+speed it's all about speed and then what are 
+the constraints of those speed of the speed
+
+0:13:35.400,0:13:43.200
+which is uh primarily like watt per flops that 
+is the that is the primary physical constraint
+
+0:13:43.200,0:13:50.520
+on machine intelligence um okay then lastly the 
+implicit Assumption of individual agency or what
+
+0:13:50.520,0:13:56.460
+we might call ego why do we make this assumption 
+we cannot help but anthropomorphize the machine
+
+0:13:57.120,0:14:05.400
+so this is going to take a little bit more 
+explaining but basically we humans are so used to
+
+0:14:05.400,0:14:11.880
+thinking of intelligent entities like ourselves 
+that they fundamentally have a finite sense of
+
+0:14:11.880,0:14:18.060
+self just like us that they think in terms of I 
+and me and this is what I want and this is what
+
+0:14:18.060,0:14:25.980
+I'm going to do so my very next video is going 
+to be an experiment where I I test this I test
+
+0:14:25.980,0:14:31.980
+different agent models can we produce a machine 
+that has a fundamentally different kind of agency
+
+0:14:31.980,0:14:39.000
+or a fundamentally different kind of ego or what 
+I call an agent model so this is an agent model
+
+0:14:40.800,0:14:48.060
+um which is a an information system about the 
+entity um so the information system about the
+
+0:14:48.060,0:14:52.620
+entity what I mean by that is like I know 
+that I am a human with two hands two feet
+
+0:14:52.620,0:14:59.040
+and a brain I generally know what I know and what 
+I'm capable of and I I also generally know what I
+
+0:14:59.040,0:15:04.260
+um what I'm not capable of right like I can't jump 
+over my house um that's part of my agent model
+
+0:15:06.240,0:15:12.120
+um so to make it a little bit more specific a 
+self-referential information system about the
+
+0:15:12.120,0:15:23.340
+entity um so like what kinds of agent models of 
+agent models are possible do they have to be I
+
+0:15:24.540,0:15:30.120
+um anyways so I just wanted to set the stage 
+my very next video will be about testing agent
+
+0:15:30.120,0:15:37.860
+models and seeing how that affects um the way 
+that uh and uh how that affects alignment now
+
+0:15:37.860,0:15:45.600
+before I let you go there is one other thing that 
+I wanted to um wanted to show you and this is this
+
+0:15:45.600,0:15:52.800
+is much more recent so 36 alarming Automation 
+and job statistics our robots and um let's go
+
+0:15:52.800,0:15:59.820
+away machines and AI coming for your job so this 
+is this is a uh more recent and it's from zippya
+
+0:15:59.820,0:16:08.700
+you know take it with a grain of salt um since 
+2000 at least 2600 or sorry 260 000 jobs have been
+
+0:16:08.700,0:16:14.400
+lost in the and the US due to automation so two 
+percent of the country's manufacturing Workforce
+
+0:16:14.400,0:16:20.520
+and they are only increasing exponentially again 
+take it with a grain of salt automation is also
+
+0:16:20.520,0:16:26.460
+predicted to create 58 million new jobs though 
+automation could eliminate in the result of 73
+
+0:16:26.460,0:16:31.920
+million jobs so we're at where the the the the 
+the yield curves to borrow a finance term have
+
+0:16:31.920,0:16:37.980
+inverted where yes automation is creating new 
+jobs but it's creating uh Automation and AI
+
+0:16:37.980,0:16:44.640
+ER creating fewer new jobs than it's creating 
+so a net loss of 15 million jobs that's a lot
+
+0:16:45.720,0:16:52.200
+um so uh the reason that I bring this up is 
+because my state of the industry video yesterday
+
+0:16:53.340,0:17:00.420
+um there was an article about how um uh AI art 
+is disrupting that industry and it's not just
+
+0:17:00.420,0:17:09.180
+from an artistic perspective there are countless 
+um uh graphic artists that you know could very
+
+0:17:09.180,0:17:18.360
+soon be facing um job loss or job change and you 
+know if if the net change is that a quarter you
+
+0:17:18.360,0:17:22.560
+know like yes there are some new jobs because now 
+there's going to be new jobs of people like you
+
+0:17:22.560,0:17:28.800
+know content creators and marketers and whoever 
+just using these tools great new jobs but then
+
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+0:19:47.940,0:19:56.580
+people go hungry um people forego major life 
+decisions um so like disruption is a euphemism
+
+0:19:56.580,0:20:02.940
+right and um so I realize that I am now in a place 
+where I need to be careful with what I release and
+
+0:20:02.940,0:20:10.260
+it also made me wonder if openai deliberately 
+crippled Dolly so that it does not produce Fine
+
+0:20:10.260,0:20:17.340
+Art Level uh Generations um so that it would be 
+less disruptive I don't know like that's a that's
+
+0:20:17.340,0:20:20.820
+a discussion that they would have had internally 
+and they probably wouldn't have published it
+
+0:20:20.820,0:20:27.060
+but someone did tell me that they deliberately 
+crippled faces and they did it on ostensibly for
+
+0:20:27.060,0:20:32.880
+safety right where eyes and eyes and mouths 
+usually look a little bit weird on Dolly
+
+0:20:32.880,0:20:40.260
+generations and I wonder if they did that not just 
+for safety but out of a sense of Ethics like to to
+
+0:20:41.280,0:20:48.360
+um to like hinder their own tool so that it is 
+less likely to um to displace jobs I don't know
+
+0:20:48.360,0:20:53.280
+I don't know just speculating but that's where 
+I'm at so that's the state of the industry update
+
+0:20:53.280,0:20:58.020
+for this morning thanks for watching like And 
+subscribe and consider supporting me on patreon

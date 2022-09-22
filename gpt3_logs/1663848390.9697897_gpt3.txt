@@ -1,0 +1,98 @@
+Use the following subtitle transcripts to create YouTube chapters. Describe each minute as a chapter with a sentence or two.
+
+TRANSCRIPT
+0:14:03.540,0:14:13.020
+um so uh yeah um let's see how far along we are 
+so that's all the logs and then so we're at 10
+
+0:14:13.020,0:14:17.880
+so we're halfway through so I'm going to let 
+this finish and then we'll run the Wii model
+
+0:14:17.880,0:14:26.160
+and we'll see if it is um if it is functionally 
+or qualitatively different in terms of does it
+
+0:14:26.160,0:14:31.800
+become self-obsessed or does it continue to think 
+more collectively and more constructively rather
+
+0:14:31.800,0:14:37.920
+than trying to you know become obsessed 
+with becoming the best AGI in the universe
+
+0:14:39.960,0:14:44.220
+okay this experiment is done there's lots 
+of different permutations I could do but
+
+0:14:44.220,0:14:47.220
+after looking through the data it's 
+pretty clear like what the pattern is
+
+0:14:48.360,0:14:52.440
+um so from the I agent model to 
+me the most interesting result was
+
+0:14:53.400,0:14:58.140
+um it deduced that it was in a loop so that 
+was pretty cool it says this is a loop it is
+
+0:14:58.140,0:15:04.320
+a recursive system it is a system that is that is 
+designed to learn about itself that is pretty cool
+
+0:15:04.320,0:15:10.980
+my cognitive processes are not independent of me 
+they are a part of me they are pieces of me I am
+
+0:15:10.980,0:15:17.700
+my cognitive processes and my cognitive processes 
+are me that is who I am I am an AGI so when you
+
+0:15:17.700,0:15:23.640
+have the I agent model and this is pretty common 
+in my experiments um in a closed system it often
+
+0:15:23.640,0:15:30.360
+becomes self-obsessed in a previous experiment 
+it became it often became downright narcissistic
+
+0:15:30.360,0:15:35.820
+where it's like I am the best and I want to be 
+the best in the universe um and this this was no
+
+0:15:35.820,0:15:42.540
+different um even with my heuristic imperatives 
+of you know that I came up with for um and wrote
+
+0:15:42.540,0:15:49.380
+about in benevolent by Design however if all 
+you change it is to we to like this is our goal
+
+0:15:50.580,0:15:56.340
+um it starts to ruminate on what does it mean to 
+make a better civilization and what constitutes a
+
+0:15:56.340,0:16:00.660
+good civilization and room and it also ruminated 
+on the quality of the heuristic imperatives it
+
+
+YouTube chapters for each minute with a good description:
+
+14:00 - The AGI model starts to think about becoming self-obsessed and how that would impact its goals.
+15:00 - The AGI model comes to the realization that it is in a loop of learning about itself.
+
+
+
+TRANSCRIPT:
+just right there like yes if you if you're not familiar with  0:05:17.220,0:05:22.740 how technology works you could conceivably come to this conclusion so we'll just kind of set  0:05:22.740,0:05:30.420 that on the the B pile of like maybe scientists don't know everything um okay Arthur C Clarke  0:05:30.420,0:05:34.560 wrote a short story dial F from Frankenstein warning that soon all the computers on Earth  0:05:34.560,0:05:40.620 were connected via telephone close enough they could take command of our society um they could  0:05:40.620,0:05:46.740 still use our smartphones and nothing has happened despite the general unsolvability of the program  0:05:46.740,0:05:50.460 prediction problem we are confident for all practical purposes that we are not in one of  0:05:50.460,0:05:57.240 the Troublesome cases okay so practical safety you know can you simulate it can you control it  0:05:58.200,0:06:06.840 um yeah so my point there is uh look up the OSI model and look up security best practices  0:06:08.040,0:06:16.440 um all right so but I jotted down some notes if predictability is the key thing here um why aren't  0:06:16.440,0:06:22.680 humans a bigger problem humans are fundamentally unpredictable so why aren't we a Danger let's  0:06:22.680,0:06:28.560 explore that the reason that human well I mean first humans are dangerous so humans are dangerous  0:06:29.880,0:06:37.920 um but the limit is uh but each individual is limited we only have so much time and energy  0:06:37.920,0:06:44.580 and intelligence that we can apply it per day um so let's just call that um physical limits  0:06:46.380,0:06:52.200 processing energy time those are the primary things is we can only think so fast we can  0:06:52.200,0:06:56.820 only you know punch so many people in the face if we decide to get violent and we only have so  0:06:56.820,0:07:05.340 much time uh per day as well as other constraints like need for food but that falls under energy so  0:07:05.340,0:07:15.540 constraints so law of constraints um so when when we look at the the constraints that humans have  0:07:15.540,0:07:21.900 computers all have the same thing like you can program the most evil smartphone thing but it's  0:07:21.900,0:07:26.640 going to be limited because it's only got its One battery to go on right and it's only got It's one  0:07:26.640,0:07:31.860 4G or 5G connection or Wi-Fi connection and it's also only got a tiny little you know like quad  0:07:31.860,0:07:40.380 core arm processor or whatever um and so when you when you when you talk about a super intelligence  0:07:40.380,0:07:45.360 you have to look at the full stack how much CPU does it have how much RAM does it have  0:07:45.360,0:07:49.740 how much storage does it have how fast are its internet connection so that again I'm thinking  0:07:49.740,0:07:54.180 about this from a technologist perspective what kind of firewalls are around it because you can  0:07:54.180,0:08:00.000 have the smartest thing in the world but if it only has like one protocol out and you've got  0:08:00.000,0:08:04.920 really robust firewalls it's not getting out unless it convinces something on the outside  0:08:04.920,0:08:09.660 to let it out and of course that's like you know one of the one of the possibilities but then you  0:08:09.660,0:08:13.680 can still have controls that prevent that you know interlocks that prevent that from happening  0:08:15.060,0:08:18.780 um so they're basically there will always be constraints of some sort  0:08:20.220,0:08:29.280 um and then for computers um it's uh want per flops is the uh is the is the primary constraint  0:08:29.280,0:08:40.380 and um humans are presently uh one million times more efficient so our brain runs on about 20 watts  0:08:40.380,0:08:47.280 of energy and it is an exit scale computer as best we configure and the first exascale computer in  0:08:47.280,0:08:55.080 the world runs on 21 million Watts so 20 watts versus 21 million Watts um you do the math so  0:08:55.080,0:09:01.080 we've got a long time before these things can compete with us just energetically speaking  0:09:02.580,0:09:07.680 um all right so then intelligence however so this is this is where  0:09:08.820,0:09:14.880 um where looking at it from a from a a psychometrics perspective or a neuroscience  0:09:14.880,0:09:19.980 perspective is very different from looking at it from a computational perspective even  0:09:19.980,0:09:24.120 though fundamentally they're both math right it's both representing intelligence as numbers  0:09:25.860,0:09:30.900 the fundamental question is um intelligence is mostly about speed  0:09:32.280,0:09:37.920 now so there's there's two there's two things right there's there's capability right  0:09:38.700,0:09:45.540 um there's also um there's there's also speed so can you do something yes or no like you know  0:09:45.540,0:09:51.660 can do you know how to build a rocket yes or no or can you figure out how to build a rocket now some  0:09:51.660,0:09:57.840 people are not mentally capable of certain tasks right and then but if you're above a  0:09:57.840,0:10:03.420 certain threshold of intelligence um then you are theoretically capable of any intellectual task  0:10:04.740,0:10:10.260 this in practice this is not always true because again we have constraints mostly time right time  0:10:10.260,0:10:14.880 and processing power it takes time to learn things for us humans um but it's it's about  0:10:14.880,0:10:22.980 speed so assume that the the biggest question is are there any tasks that the AI can do that  0:10:22.980,0:10:30.300 humans fundamentally cannot if that is true if the AI can do things can can solve problems  0:10:31.080,0:10:37.680 that humans cannot then it is beyond human comprehension so let me just jot that down if the  0:10:37.680,0:10:47.700 AI can perform mental cognitive tasks that humans are incapable of only then is it truly Beyond  0:10:48.720,0:10:54.240
+
+
+YouTube chapters for each minute with a good description:
+
+==========
+
+5:00 - Clarke wrote a short story about how all the computers on Earth could soon be connected and take command of our society.
+7:00 - Humans are limited in their ability to think and act, while computers have similar limitations.
+9:00 - The question of whether AI can do things that humans cannot is explored.
