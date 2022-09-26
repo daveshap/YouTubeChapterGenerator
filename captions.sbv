@@ -1,762 +1,1165 @@
-0:00:00.900,0:00:05.400
-morning everybody David Shapiro here with 
-your daily state of the industry update
-
-0:00:06.000,0:00:11.820
-as often happens my newsfeed helpfully 
-supplied me with today's topic I think
-
-0:00:11.820,0:00:17.700
-it is a very timely topic because I have been 
-diving more into alignment so today's paper
-
-0:00:18.600,0:00:24.300
-um it it's actually an older one January 5th 2021 
-but like I said my newsfeed supplied it to me
-
-0:00:25.320,0:00:29.280
-um it's a relatively short paper at 
-least the part that's published is
-
-0:00:29.280,0:00:32.700
-uh 12 Pages it's I think it's much 
-longer they just cut some out for
-
-0:00:34.320,0:00:39.900
-um for uh for internet publishing but 
-the abstract of this paper is pretty good
-
-0:00:41.100,0:00:46.200
-um pretty straightforward super intelligence is a 
-hypothetical agent that possesses intelligence far
-
-0:00:46.200,0:00:52.380
-surpassing that of the brightest and most gifted 
-human Minds in light of recent advances in machine
-
-0:00:52.380,0:00:56.220
-intelligence a number of scientists philosophers 
-and technologists have revived the discussion
-
-0:00:56.220,0:01:02.160
-about the potentially catastrophic risks entailed 
-by such an entity in this article we trace the
-
-0:01:02.160,0:01:06.780
-origins and development of the Neo fear of super 
-intelligence and some of the major proposals for
-
-0:01:06.780,0:01:13.320
-its containment we argue that total containment is 
-in principle impossible due to fundamental limits
-
-0:01:13.320,0:01:18.960
-inherent income in Computing itself assuming that 
-a super intelligence will contain a program that
-
-0:01:18.960,0:01:23.760
-includes all the programs that can be executed by 
-a universal turing machine on input potentially
-
-0:01:23.760,0:01:28.380
-as complex as the state of the world strict 
-containment requires simulations of such a
-
-0:01:28.380,0:01:34.080
-program something theoretically and practically 
-impossible so to put this in other words in order
-
-0:01:34.080,0:01:40.140
-to anticipate what the machine is going to do you 
-have to be able to simulate it perfectly including
-
-0:01:40.140,0:01:47.280
-the the way that it interacts and the way that 
-the world reacts um basically the whole world
-
-0:01:47.280,0:01:54.300
-is too complicated to simulate with any accuracy 
-and so therefore you know if this if this super
-
-0:01:54.300,0:01:58.740
-intelligent machine exists it's impossible to 
-calculate what the rest of the world is going to
+0:00:04.200,0:00:06.960
+morning everybody David 
+Shapiro here with another video
 
-0:01:58.740,0:02:07.440
-do in order to put it in a accurate simulation so 
-we could at best do some you know approximations
+0:00:07.740,0:00:15.840
+today we are going to be playing 20 questions with 
+gpt3 um I was inspired because last night I hosted
 
-0:02:08.940,0:02:18.000
-um so skipping down a little bit they have 
-two main classes for can controlling so the
+0:00:15.840,0:00:23.160
+an equinox bonfire and as depicted here sorry 
+for the uh the shaky cam I was using the night
 
-0:02:18.000,0:02:24.240
-the first class for controlling the machine is 
-capability control you put it in a box you give
+0:00:23.160,0:00:28.740
+sight and uh I guess I wasn't holding the camera 
+that steady but um by the end of the night there
 
-0:02:24.240,0:02:31.800
-it uh you create dependence on a reward mechanism 
-that is controlled by us you stunt it you run it
+0:00:28.740,0:00:33.600
+was a there was a game of 20 Questions going 
+around and I was just thinking to myself this
 
-0:02:31.800,0:02:37.620
-on inferior hardware and tripwire you you have it 
-automatically shut down if it gets too dangerous
+0:00:33.600,0:00:40.500
+is a word game this is a perfect use case for 
+gpt3 um now I am also collecting new use cases
 
-0:02:38.280,0:02:44.280
-if you have a machine that can build a copy of 
-itself or that understands programming it could
+0:00:41.640,0:00:50.040
+um for a fine tuning project and I'm particularly 
+interested interested in non-profit and education
 
-0:02:44.940,0:02:51.480
-you know undo all of those um pretty much 
-motivation selection so uh direct specification
+0:00:50.040,0:00:55.020
+use cases so if you have any ideas for a fine 
+tuning project please let me know I asked on
 
-0:02:51.480,0:02:57.480
-you say you give it uh hard-coded laws uh 
-Domesticity you teach it to behave within
+0:00:55.020,0:01:00.360
+Twitter and I got a few leads anyways getting 
+distracted let's focus on today which is a game
 
-0:02:57.480,0:03:01.860
-certain certain constraints um indirect 
-normativity you endow it with procedures
+0:01:01.380,0:01:06.600
+um so yeah uh obviously gpt3 it can't drink 
+a beer with you or help you build a bonfire
 
-0:03:01.860,0:03:08.100
-of selecting Superior moral rules so this is 
-closest to what I have done in my work benevolent
+0:01:06.600,0:01:14.400
+but maybe it can help you have a little bit of fun 
+and cut loose okay so what are the rules different
 
-0:03:08.100,0:03:15.240
-by design whereby my proposal is that you give 
-it a set of heuristic imperatives that it will
+0:01:14.400,0:01:18.840
+people play 20 Questions differently where like 
+you can ask a categorical question like you know
 
-0:03:15.240,0:03:20.760
-um it will ultimately buy into and deliberately 
-choose so that you don't have to control it it
+0:01:18.840,0:01:23.460
+person place or thing that's how I learned 
+originally um where you it's like you give a
 
-0:03:20.760,0:03:27.480
-controls itself because it abides by certain 
-principles that are going to be reliable
+0:01:23.460,0:01:28.140
+one-word answer but I looked up the rules and it's 
+apparently yes or no which makes it even easier
 
-0:03:29.400,0:03:35.040
-um I believe that this is with the experiments 
-that I've captured in in benevolent by Design I
+0:01:28.140,0:01:36.720
+to play with a machine um so the step one the 
+machine picks a secret word phrase concept so on
 
-0:03:35.040,0:03:40.680
-believe this is the way to go um augmentation at 
-AI to a benign systems such as the human brain
+0:01:37.500,0:01:44.280
+um the user must ask yes or no questions and I 
+guess it could be users um and then the machine
 
-0:03:40.680,0:03:47.280
-so that's you know merging um okay so you can 
-check out the paper if you want to look at their
+0:01:44.280,0:01:51.840
+must answer yes or no unless it's a bad question 
+um I guess so if it's a bad question the machine
 
-0:03:47.280,0:03:54.540
-discussion on that um but I wanted to go skip 
-down to the um the discussion part uh and then
+0:01:51.840,0:02:01.320
+must refuse to answer and tell you to take a hike 
+and then bad questions count against your total
 
-0:03:54.540,0:04:00.420
-I'll I'll share kind of some of my not necessarily 
-criticisms but my own counter thoughts because I
+0:02:01.320,0:02:07.260
+so if you ask you know if you don't ask the if 
+you don't ask a yes or no question then you get
 
-0:04:00.420,0:04:06.120
-don't necessarily disagree with anything in this 
-it's a short paper and it's just not quite as uh
+0:02:07.260,0:02:17.460
+uh you know you lose you lose some uh questions 
+remaining um yeah okay so we got to start with
 
-0:04:06.120,0:04:10.740
-not quite as robust because they're 
-not proposing a solution like I have
+0:02:18.360,0:02:24.420
+um some prompt engineering so first thing we're 
+gonna We want is for the model to pick a word
 
-0:04:10.740,0:04:16.140
-um which is why I'm here okay so today we 
-run billions of computer programs globally on
+0:02:25.680,0:02:35.160
+um uid generator so since we want um we want a lot 
+of uh Randomness we we need we'll start off with
 
-0:04:16.140,0:04:20.520
-connected to machines without any formal guarantee 
-of their absolute safety we have no way of proving
+0:02:35.160,0:02:42.180
+the uuid technique which just adds a little 
+bit more entropy um and then we'll say like
 
-0:04:20.520,0:04:24.540
-that when we launch an application on our 
-smartphone our smartphones we would not trigger
+0:02:45.360,0:02:55.740
+well let's just let's just do it and just like 
+pick a random word development okay whoops
 
-0:04:24.540,0:04:29.760
-a chain reaction that leads to transmission of 
-missile launch codes that started nuclear war um
+0:02:58.140,0:02:58.860
+drawer
 
-0:04:32.700,0:04:34.080
-uh
-
-0:04:35.640,0:04:43.320
-as a technologist this really hurts um let's 
-talk about firewalls let's talk about security
-
-0:04:43.320,0:04:50.220
-protocols you actually can mathematically prove 
-something like that with penetration testing
-
-0:04:51.600,0:04:57.360
-um like there's all sorts of controls and 
-constraints that go into every layer of a
-
-0:04:57.360,0:05:03.300
-piece of technology such as what that piece of 
-technology can can talk to even the security of
-
-0:05:03.300,0:05:08.820
-how it boots up right like we have encrypted 
-boot protocols that ensure that the operating
-
-0:05:08.820,0:05:17.220
-system hasn't been tampered with so uh just right 
-there like yes if you if you're not familiar with
-
-0:05:17.220,0:05:22.740
-how technology works you could conceivably come 
-to this conclusion so we'll just kind of set
-
-0:05:22.740,0:05:30.420
-that on the the B pile of like maybe scientists 
-don't know everything um okay Arthur C Clarke
-
-0:05:30.420,0:05:34.560
-wrote a short story dial F from Frankenstein 
-warning that soon all the computers on Earth
-
-0:05:34.560,0:05:40.620
-were connected via telephone close enough they 
-could take command of our society um they could
-
-0:05:40.620,0:05:46.740
-still use our smartphones and nothing has happened 
-despite the general unsolvability of the program
-
-0:05:46.740,0:05:50.460
-prediction problem we are confident for all 
-practical purposes that we are not in one of
-
-0:05:50.460,0:05:57.240
-the Troublesome cases okay so practical safety 
-you know can you simulate it can you control it
-
-0:05:58.200,0:06:06.840
-um yeah so my point there is uh look up the 
-OSI model and look up security best practices
-
-0:06:08.040,0:06:16.440
-um all right so but I jotted down some notes if 
-predictability is the key thing here um why aren't
-
-0:06:16.440,0:06:22.680
-humans a bigger problem humans are fundamentally 
-unpredictable so why aren't we a Danger let's
-
-0:06:22.680,0:06:28.560
-explore that the reason that human well I mean 
-first humans are dangerous so humans are dangerous
-
-0:06:29.880,0:06:37.920
-um but the limit is uh but each individual is 
-limited we only have so much time and energy
-
-0:06:37.920,0:06:44.580
-and intelligence that we can apply it per day 
-um so let's just call that um physical limits
-
-0:06:46.380,0:06:52.200
-processing energy time those are the primary 
-things is we can only think so fast we can
-
-0:06:52.200,0:06:56.820
-only you know punch so many people in the face 
-if we decide to get violent and we only have so
-
-0:06:56.820,0:07:05.340
-much time uh per day as well as other constraints 
-like need for food but that falls under energy so
-
-0:07:05.340,0:07:15.540
-constraints so law of constraints um so when when 
-we look at the the constraints that humans have
-
-0:07:15.540,0:07:21.900
-computers all have the same thing like you can 
-program the most evil smartphone thing but it's
-
-0:07:21.900,0:07:26.640
-going to be limited because it's only got its One 
-battery to go on right and it's only got It's one
-
-0:07:26.640,0:07:31.860
-4G or 5G connection or Wi-Fi connection and it's 
-also only got a tiny little you know like quad
-
-0:07:31.860,0:07:40.380
-core arm processor or whatever um and so when you 
-when you when you talk about a super intelligence
-
-0:07:40.380,0:07:45.360
-you have to look at the full stack how much 
-CPU does it have how much RAM does it have
-
-0:07:45.360,0:07:49.740
-how much storage does it have how fast are its 
-internet connection so that again I'm thinking
-
-0:07:49.740,0:07:54.180
-about this from a technologist perspective what 
-kind of firewalls are around it because you can
-
-0:07:54.180,0:08:00.000
-have the smartest thing in the world but if it 
-only has like one protocol out and you've got
-
-0:08:00.000,0:08:04.920
-really robust firewalls it's not getting out 
-unless it convinces something on the outside
-
-0:08:04.920,0:08:09.660
-to let it out and of course that's like you know 
-one of the one of the possibilities but then you
-
-0:08:09.660,0:08:13.680
-can still have controls that prevent that you 
-know interlocks that prevent that from happening
-
-0:08:15.060,0:08:18.780
-um so they're basically there will 
-always be constraints of some sort
-
-0:08:20.220,0:08:29.280
-um and then for computers um it's uh want per 
-flops is the uh is the is the primary constraint
-
-0:08:29.280,0:08:40.380
-and um humans are presently uh one million times 
-more efficient so our brain runs on about 20 watts
-
-0:08:40.380,0:08:47.280
-of energy and it is an exit scale computer as best 
-we configure and the first exascale computer in
-
-0:08:47.280,0:08:55.080
-the world runs on 21 million Watts so 20 watts 
-versus 21 million Watts um you do the math so
-
-0:08:55.080,0:09:01.080
-we've got a long time before these things can 
-compete with us just energetically speaking
-
-0:09:02.580,0:09:07.680
-um all right so then intelligence 
-however so this is this is where
-
-0:09:08.820,0:09:14.880
-um where looking at it from a from a a 
-psychometrics perspective or a neuroscience
-
-0:09:14.880,0:09:19.980
-perspective is very different from looking 
-at it from a computational perspective even
-
-0:09:19.980,0:09:24.120
-though fundamentally they're both math right 
-it's both representing intelligence as numbers
-
-0:09:25.860,0:09:30.900
-the fundamental question is um 
-intelligence is mostly about speed
-
-0:09:32.280,0:09:37.920
-now so there's there's two there's two 
-things right there's there's capability right
-
-0:09:38.700,0:09:45.540
-um there's also um there's there's also speed 
-so can you do something yes or no like you know
-
-0:09:45.540,0:09:51.660
-can do you know how to build a rocket yes or no or 
-can you figure out how to build a rocket now some
-
-0:09:51.660,0:09:57.840
-people are not mentally capable of certain 
-tasks right and then but if you're above a
-
-0:09:57.840,0:10:03.420
-certain threshold of intelligence um then you are 
-theoretically capable of any intellectual task
-
-0:10:04.740,0:10:10.260
-this in practice this is not always true because 
-again we have constraints mostly time right time
-
-0:10:10.260,0:10:14.880
-and processing power it takes time to learn 
-things for us humans um but it's it's about
-
-0:10:14.880,0:10:22.980
-speed so assume that the the biggest question 
-is are there any tasks that the AI can do that
-
-0:10:22.980,0:10:30.300
-humans fundamentally cannot if that is true 
-if the AI can do things can can solve problems
-
-0:10:31.080,0:10:37.680
-that humans cannot then it is beyond human 
-comprehension so let me just jot that down if the
-
-0:10:37.680,0:10:47.700
-AI can perform mental cognitive tasks that humans 
-are incapable of only then is it truly Beyond
-
-0:10:48.720,0:10:54.240
-human comprehension otherwise it's just 
-doing human level tasks only faster
-
-0:10:55.020,0:11:05.160
-and jot that down otherwise it's only doing 
-human tasks but faster or more in parallel
-
-0:11:06.120,0:11:13.560
-now it would not be safe to assume that um that 
-a machine would never be capable of doing things
-
-0:11:13.560,0:11:18.000
-that a human cannot for instance the James 
-Webb Space Telescope it can see the beginning
-
-0:11:18.000,0:11:25.380
-of the universe um because of how powerful its 
-mirrors are to concentrate the faintest light so
-
-0:11:25.380,0:11:29.340
-we can generally design and build machines 
-that are capable of doing things that we
-
-0:11:29.340,0:11:34.740
-cannot right so this is not necessarily 
-a good constraint but it's just another
-
-0:11:35.760,0:11:45.840
-um thought experiment right um we generally 
-build machines that do things we cannot now
-
-0:11:45.840,0:11:50.220
-but then you think you're like okay what about a 
-dump truck right a dump truck is a super powerful
-
-0:11:50.220,0:11:54.540
-machine it can pick up you know the largest 
-dump trucks can carry a thousand tons at a time
-
-0:11:55.620,0:12:01.080
-um and humans cannot do that individually but 
-then you look at the the megaliths that we have
-
-0:12:01.080,0:12:09.240
-moved with you know log rollers and ropes 
-and rafts and sleds and even then generally
-
-0:12:09.240,0:12:15.000
-the most powerful machines in the world are 
-just amplifying ordinary human capabilities
-
-0:12:16.080,0:12:21.780
-um ditto with you know spreadsheets right 
-spreadsheets were originally done by hand
-
-0:12:21.780,0:12:31.980
-right by by bankers and um and statisticians um 
-so you know that's that's still the fundamental
-
-0:12:31.980,0:12:37.500
-question is will the machine be able to do 
-things that we fundamentally cannot um I don't
-
-0:12:37.500,0:12:43.860
-know yet I I have not yet seen anything on the 
-open-ended side such as like with large language
-
-0:12:43.860,0:12:47.700
-models there's nothing that they're doing that 
-we fundamentally cannot they just do it faster
-
-0:12:48.960,0:12:57.240
-um so then if if it's about speed um 
-can we humans um outpace machine thought
-
-0:13:00.000,0:13:05.820
-if the machines cost um if they're if they're 
-two if they're too energetically expensive to run
-
-0:13:06.840,0:13:13.260
-massively in parallel then just collectively 
-we can outpace the machines so there is that
-
-0:13:14.520,0:13:20.100
-um let's see because what you know what we what we 
-always assume happens in those nightmare scenarios
-
-0:13:20.100,0:13:24.000
-is that the machine wakes up and suddenly it 
-takes over the world before we know what's
-
-0:13:24.000,0:13:30.660
-going on right it relies those fear scenarios 
-rely based on speed and that's why I emphasize
-
-0:13:30.660,0:13:35.400
-speed it's all about speed and then what are 
-the constraints of those speed of the speed
-
-0:13:35.400,0:13:43.200
-which is uh primarily like watt per flops that 
-is the that is the primary physical constraint
-
-0:13:43.200,0:13:50.520
-on machine intelligence um okay then lastly the 
-implicit Assumption of individual agency or what
-
-0:13:50.520,0:13:56.460
-we might call ego why do we make this assumption 
-we cannot help but anthropomorphize the machine
-
-0:13:57.120,0:14:05.400
-so this is going to take a little bit more 
-explaining but basically we humans are so used to
-
-0:14:05.400,0:14:11.880
-thinking of intelligent entities like ourselves 
-that they fundamentally have a finite sense of
-
-0:14:11.880,0:14:18.060
-self just like us that they think in terms of I 
-and me and this is what I want and this is what
-
-0:14:18.060,0:14:25.980
-I'm going to do so my very next video is going 
-to be an experiment where I I test this I test
-
-0:14:25.980,0:14:31.980
-different agent models can we produce a machine 
-that has a fundamentally different kind of agency
-
-0:14:31.980,0:14:39.000
-or a fundamentally different kind of ego or what 
-I call an agent model so this is an agent model
-
-0:14:40.800,0:14:48.060
-um which is a an information system about the 
-entity um so the information system about the
-
-0:14:48.060,0:14:52.620
-entity what I mean by that is like I know 
-that I am a human with two hands two feet
-
-0:14:52.620,0:14:59.040
-and a brain I generally know what I know and what 
-I'm capable of and I I also generally know what I
-
-0:14:59.040,0:15:04.260
-um what I'm not capable of right like I can't jump 
-over my house um that's part of my agent model
-
-0:15:06.240,0:15:12.120
-um so to make it a little bit more specific a 
-self-referential information system about the
-
-0:15:12.120,0:15:23.340
-entity um so like what kinds of agent models of 
-agent models are possible do they have to be I
-
-0:15:24.540,0:15:30.120
-um anyways so I just wanted to set the stage 
-my very next video will be about testing agent
-
-0:15:30.120,0:15:37.860
-models and seeing how that affects um the way 
-that uh and uh how that affects alignment now
-
-0:15:37.860,0:15:45.600
-before I let you go there is one other thing that 
-I wanted to um wanted to show you and this is this
-
-0:15:45.600,0:15:52.800
-is much more recent so 36 alarming Automation 
-and job statistics our robots and um let's go
-
-0:15:52.800,0:15:59.820
-away machines and AI coming for your job so this 
-is this is a uh more recent and it's from zippya
-
-0:15:59.820,0:16:08.700
-you know take it with a grain of salt um since 
-2000 at least 2600 or sorry 260 000 jobs have been
-
-0:16:08.700,0:16:14.400
-lost in the and the US due to automation so two 
-percent of the country's manufacturing Workforce
-
-0:16:14.400,0:16:20.520
-and they are only increasing exponentially again 
-take it with a grain of salt automation is also
-
-0:16:20.520,0:16:26.460
-predicted to create 58 million new jobs though 
-automation could eliminate in the result of 73
-
-0:16:26.460,0:16:31.920
-million jobs so we're at where the the the the 
-the yield curves to borrow a finance term have
-
-0:16:31.920,0:16:37.980
-inverted where yes automation is creating new 
-jobs but it's creating uh Automation and AI
-
-0:16:37.980,0:16:44.640
-ER creating fewer new jobs than it's creating 
-so a net loss of 15 million jobs that's a lot
-
-0:16:45.720,0:16:52.200
-um so uh the reason that I bring this up is 
-because my state of the industry video yesterday
-
-0:16:53.340,0:17:00.420
-um there was an article about how um uh AI art 
-is disrupting that industry and it's not just
-
-0:17:00.420,0:17:09.180
-from an artistic perspective there are countless 
-um uh graphic artists that you know could very
-
-0:17:09.180,0:17:18.360
-soon be facing um job loss or job change and you 
-know if if the net change is that a quarter you
-
-0:17:18.360,0:17:22.560
-know like yes there are some new jobs because now 
-there's going to be new jobs of people like you
-
-0:17:22.560,0:17:28.800
-know content creators and marketers and whoever 
-just using these tools great new jobs but then
-
-0:17:28.800,0:17:33.000
-how many people are going to lose their job in 
-the meantime and if they have like if they're
-
-0:17:33.000,0:17:42.120
-not able to retrain um or if the net net uh change 
-is fewer jobs then that means some people will by
-
-0:17:42.120,0:17:48.540
-definition mathematically be permanently excluded 
-from the job market and so because of that
-
-0:17:49.320,0:17:55.320
-um I went and looked up some statistics just 
-to see like you know is this is this uh true
-
-0:17:56.220,0:18:04.920
-um you know again take it with a grain of salt 
-um but so my work with auto Muse um I had some
-
-0:18:04.920,0:18:12.600
-breakthroughs yesterday and I realized that I 
-am very close to writing novel length fiction
-
-0:18:13.680,0:18:19.980
-um that's going to be pretty coherent and then 
-and and there's a few other things that I don't
-
-0:18:19.980,0:18:25.560
-even want to say out loud because um because of 
-these breakthroughs and um I don't want to put
-
-0:18:25.560,0:18:31.620
-novelists or editors out of work um just because 
-you can do something doesn't mean you should
-
-0:18:32.220,0:18:38.400
-and I think about like I would lose all my friends 
-if I did that if I if I created if I created a
-
-0:18:38.400,0:18:46.080
-tool if I finished Auto Muse and it can just churn 
-out novels decent enough novels um all of my best
-
-0:18:46.080,0:18:52.920
-friends are writers and some of them are aspiring 
-to do it full time and if I if I am capable of it
-
-0:18:52.920,0:18:58.740
-then I know that someone else is going to be 
-capable of it um before too long but you know
-
-0:18:58.740,0:19:03.780
-I'm I'm ahead of the curve so basically I'm going 
-to put a pause on my auto Muse work that's the
-
-0:19:03.780,0:19:10.140
-that's the short version I'm going to keep doing 
-it privately um just to see what what is possible
-
-0:19:11.460,0:19:17.820
-um but yeah like I don't want to put people out 
-of work like what's the point right what's why
-
-0:19:17.820,0:19:24.300
-why are we here like I don't I understand that 
-the point of capitalism and neoliberalism is
-
-0:19:24.300,0:19:30.900
-to generate more efficiency provide goods and 
-services um more efficiently but at the same
-
-0:19:30.900,0:19:39.420
-time we are facing uh potentially very disruptive 
-and and disruptive is a very soft word for painful
-
-0:19:41.580,0:19:47.940
-um major economic disruptions are painful like 
-people lose their jobs people lose their homes
-
-0:19:47.940,0:19:56.580
-people go hungry um people forego major life 
-decisions um so like disruption is a euphemism
-
-0:19:56.580,0:20:02.940
-right and um so I realize that I am now in a place 
-where I need to be careful with what I release and
-
-0:20:02.940,0:20:10.260
-it also made me wonder if openai deliberately 
-crippled Dolly so that it does not produce Fine
-
-0:20:10.260,0:20:17.340
-Art Level uh Generations um so that it would be 
-less disruptive I don't know like that's a that's
-
-0:20:17.340,0:20:20.820
-a discussion that they would have had internally 
-and they probably wouldn't have published it
-
-0:20:20.820,0:20:27.060
-but someone did tell me that they deliberately 
-crippled faces and they did it on ostensibly for
-
-0:20:27.060,0:20:32.880
-safety right where eyes and eyes and mouths 
-usually look a little bit weird on Dolly
-
-0:20:32.880,0:20:40.260
-generations and I wonder if they did that not just 
-for safety but out of a sense of Ethics like to to
-
-0:20:41.280,0:20:48.360
-um to like hinder their own tool so that it is 
-less likely to um to displace jobs I don't know
-
-0:20:48.360,0:20:53.280
-I don't know just speculating but that's where 
-I'm at so that's the state of the industry update
-
-0:20:53.280,0:20:58.020
-for this morning thanks for watching like And 
-subscribe and consider supporting me on patreon
+0:03:01.860,0:03:04.560
+ah okay so we need to
+
+0:03:06.720,0:03:08.040
+model what are you doing
+
+0:03:12.540,0:03:14.280
+oh I know what's going on okay
+
+0:03:17.280,0:03:27.300
+okay I was hitting the wrong key okay soccer 
+okay good and it gave me a uuid that's no good
+
+0:03:28.800,0:03:34.500
+um actually I think you can hit 
+regenerate there we go one bad
+
+0:03:39.120,0:03:39.900
+Cow Shed
+
+0:03:42.000,0:03:45.600
+predicted a completion that 
+ends with a stop sequence food
+
+0:03:47.940,0:03:51.900
+okay uh we might need to do fuse shot with this
+
+0:03:53.340,0:04:02.160
+um Okay so yeah because if we if we give it um 
+here I've actually got a writing tool random word
+
+0:04:03.360,0:04:10.500
+um ultian so what we can do is uh it's literally 
+just randomword.com I love this because it gives
+
+0:04:10.500,0:04:16.200
+you rare words like it it doesn't it doesn't 
+give you a distribution based on commonality
+
+0:04:16.200,0:04:19.860
+of words it just like takes a dictionary 
+and just throws a dart at a dartboard
+
+0:04:20.940,0:04:26.040
+um I wonder if I could actually use this as 
+a uh well I guess you don't want it to be too
+
+0:04:26.700,0:04:30.300
+you don't want you don't want to go too 
+late because who's going to guess ulti on
+
+0:04:31.080,0:04:39.540
+that's that that's super hard but actually that's 
+a use case um ooh ooh ooh um let's see uh let's
+
+0:04:39.540,0:04:54.660
+see um difficulty um let's or here just um choose 
+difficulty level based upon commonality of words
+
+0:04:58.980,0:05:05.280
+okay so I've found some vocabulary some 
+vocabulary list wow my mouth is not awake
+
+0:05:06.240,0:05:11.400
+um and I was like these aren't good like eyeball 
+like I that's okay but right that would not be
+
+0:05:11.400,0:05:17.280
+necessarily a good 20 questions one um and that 
+would be kind of difficult um we can make these
+
+0:05:17.280,0:05:22.260
+some more um like the more advanced one but what 
+I'm what I'm doing now is I'm generating a list
+
+0:05:22.260,0:05:27.960
+of list of lists basically to accumulate here 
+so we'll have common words so we've got like
+
+0:05:27.960,0:05:34.560
+here's some food items here's some like physical 
+things um and so what I'll do is I'll dynamically
+
+0:05:34.560,0:05:42.300
+generate I'll pull a sampling from from this file 
+once I clean it up and we will we will uh use
+
+0:05:42.300,0:05:48.060
+that to populate that prompt that I was showing 
+you to generate you know the next random thing
+
+0:05:49.020,0:05:58.980
+um so write a long list of um let's see the 
+most famous people in history and so then
+
+0:06:00.060,0:06:04.200
+um we'll do like we'll start with like 
+George Washington because duh and then
+
+0:06:04.200,0:06:11.100
+we'll do Cleopatra uh and then um uh 
+Confucius so we what we want to tell
+
+0:06:11.100,0:06:16.800
+it like globally right so we've got America 
+Egypt China um that should be a good start
+
+0:06:22.260,0:06:26.220
+Michael Jackson Princess 
+Diana Tiger Woods there we go
+
+0:06:27.180,0:06:30.900
+and then randomly Winston Churchill 
+you don't get a space Winston Churchill
+
+0:06:34.260,0:06:36.420
+okay so then we got famous people
+
+0:06:37.560,0:06:47.520
+um of the most famous places in the world and 
+so then we'll do like New York City we'll do the
+
+0:06:48.300,0:06:58.140
+Eiffel Tower um then let's see the Grand Canyon 
+okay we'll we'll take out the because that's just
+
+0:06:58.140,0:07:09.960
+gonna get Superfluous um uh let's see Nile River 
+um what is the name of that temple in India um
+
+0:07:13.560,0:07:19.260
+Angkor Wat is that that's not in India though 
+is it again we want it we want to tell it like
+
+0:07:19.260,0:07:25.980
+be think Global um because if you don't gpt3 just 
+it always defaults to being very american-centric
+
+0:07:25.980,0:07:34.020
+for some reason okay there we go sequencing 
+genome that's not a place gpt3 nice try
+
+0:07:36.600,0:07:37.260
+okay
+
+0:07:40.560,0:07:41.820
+ah there we go
+
+0:07:44.340,0:07:44.840
+um
+
+0:07:49.080,0:07:50.760
+I guess uh let's do like
+
+0:07:53.880,0:07:59.520
+monuments um and historical 
+sites let's see what it gives us
+
+0:08:05.280,0:08:06.000
+interesting
+
+0:08:09.120,0:08:09.840
+oops
+
+0:08:12.300,0:08:16.560
+some of these are pretty cool a lot of 
+them are Rome so very Western Centric
+
+0:08:19.620,0:08:27.480
+um I guess I did say historical sites um 
+that's fine anyways we don't we don't need
+
+0:08:27.480,0:08:35.160
+a uh an empirical list all we need is something 
+to draw from so let's get rid of those lines
+
+0:08:36.780,0:08:40.920
+and then those we got famous people
+
+0:08:43.140,0:08:52.020
+and this is this is for the easy one anyways um 
+okay so we will find and replace Dash with nothing
+
+0:08:53.100,0:09:00.660
+and then we'll also find and replace space 
+with nothing there we go okay so now we've
+
+0:09:00.660,0:09:10.080
+got a list of common words so then what we'll do 
+is we will um let's see do we have um run random
+
+0:09:10.680,0:09:17.220
+import seed choice all right so what 
+we're going to do is clear this out
+
+0:09:18.900,0:09:25.920
+um to do uh choose difficulty I 
+might just have it where you just
+
+0:09:26.640,0:09:33.660
+swap a variable um okay but let's see seed so 
+we'll get some we'll start we'll start with
+
+0:09:33.660,0:09:38.460
+some entropy I actually found you don't want 
+to call seed repeatedly because then you kind
+
+0:09:38.460,0:09:43.920
+of even though even though it does introduce some 
+entropy you're basically starting over and so you
+
+0:09:43.920,0:09:50.460
+end up with um it'll often make similar choices 
+whoops cancel what I don't know what I did okay
+
+0:09:51.600,0:09:56.940
+um it'll often make similar choices um so 
+you just call seed once or intermittently
+
+0:10:00.120,0:10:02.340
+okay so then we say um
+
+0:10:04.680,0:10:15.660
+seed words equals open file um and we'll 
+do common words dot text split lines and
+
+0:10:15.660,0:10:22.800
+so what this will do is it will open this my 
+Precision is loaded I changed my mouse resolution
+
+0:10:24.060,0:10:32.940
+um so it'll open this and we will grab actually 
+no I don't need I need sample sample okay
+
+0:10:33.900,0:10:46.680
+um and so then uh let's see sampling equals sample 
+um I think it you put it in seed words and then 10
+
+0:10:46.680,0:10:53.940
+and then we'll do print sampling all right let's 
+make sure I did that right python 20 questions
+
+0:10:55.200,0:11:02.040
+there we go okay so basically what we'll 
+do is we will start with a random sampling
+
+0:11:03.360,0:11:12.420
+and then we will build a prompt from that um 
+so the prompt equals we'll start with string um
+
+0:11:17.340,0:11:21.540
+string EU id4 take that out did I um
+
+0:11:23.640,0:11:34.920
+it didn't print it out that's fine um string 
+uuid4 and then we will do um four S in sampling
+
+0:11:37.680,0:11:41.220
+all right we don't we can 
+obfuscate this and actually
+
+0:11:43.680,0:11:44.940
+we'll just do it this way
+
+0:11:47.400,0:11:53.700
+all right so prompt equals that so for S and 
+sampling or yeah sample seed words 10 we'll do
+
+0:11:54.360,0:11:57.780
+um come back here and look at my history
+
+0:12:00.960,0:12:07.320
+yeah that's what it was come back a little ways 
+I did a whole bunch of these good grief I did
+
+0:12:07.320,0:12:15.360
+way more than I thought I did how many times did 
+I click on this darn thing oh I went back too far
+
+0:12:18.180,0:12:23.580
+there we go okay so we want it to look like 
+this oops so we'll just pick a random word
+
+0:12:25.860,0:12:31.920
+um let's see prompt equals 
+prompt plus and we'll do new line
+
+0:12:33.660,0:12:41.760
+um pick a random word uh percent s and then 
+sample and that should end up giving us
+
+0:12:42.840,0:12:51.960
+this so it'll be perfect and then we'll do prompt 
+equals and we'll just do the same thing but
+
+0:12:51.960,0:13:00.840
+instead we will exclude that and that is going to 
+be the prompt so then we'll just do print prompt
+
+0:13:04.260,0:13:10.740
+yeah cool Mahatma Gandhi Christopher 
+Columbus why are they missing spaces
+
+0:13:13.080,0:13:19.860
+oh whoops I removed all spaces okay 
+so here's a here's a regex trick
+
+0:13:20.460,0:13:23.940
+um you see how a lot of these have a space at 
+the beginning but then they they have spaces
+
+0:13:23.940,0:13:29.160
+here and what I did was I accidentally removed 
+all spaces so what we need to do is we need to
+
+0:13:29.160,0:13:35.100
+remove only spaces at the beginning so what 
+you do is you do carrot which tells it start
+
+0:13:35.100,0:13:39.840
+at the beginning of the string and then you 
+do backslash s for white space and then you
+
+0:13:39.840,0:13:45.120
+do replace all and so that replaced only the 
+spaces at the beginning while preserving the rest
+
+0:13:47.340,0:13:53.400
+all right Confucius Julius Irving 
+salt tomatoes onions Street Pasta
+
+0:13:53.400,0:13:55.320
+House computer milk it's a lot of food
+
+0:13:57.900,0:13:59.580
+I think I just have a lot of food
+
+0:14:01.620,0:14:05.520
+um but this is easy right it's supposed 
+to be easy enough to play with a kid
+
+0:14:06.720,0:14:13.860
+um so we'll go with it for now um but we can 
+also generate plenty more common words and
+
+0:14:13.860,0:14:21.060
+places and things if we want but we gotta we got 
+a good mix okay so now let's plug this into um
+
+0:14:24.060,0:14:30.840
+into our playground do a 
+quick refresh okay and then
+
+0:14:33.720,0:14:37.680
+turn the temperature back up blue
+
+0:14:39.840,0:14:46.680
+ship spoon sunflower soup you see we're 
+not getting the United States of America
+
+0:14:46.680,0:14:55.740
+every other turn Boat fish spice spaghetti 
+boat Dairy truck salmon Dallas Cowboys soup
+
+0:14:57.720,0:15:05.940
+desk Eiffel Tower gospel soap all right soap pops 
+up a lot but so anyways because we're picking a
+
+0:15:05.940,0:15:11.460
+random sampling every time the the profile of what 
+we're gonna is gonna also be different every time
+
+0:15:13.800,0:15:17.460
+um okay so I'm satisfied with 
+that so let's come back into here
+
+0:15:18.540,0:15:23.280
+yeah we don't need that anymore because we've 
+got our prompt so we we're basically just
+
+0:15:23.280,0:15:31.440
+dynamically generating a unique prompt 
+every single time um okay so then um
+
+0:15:34.800,0:15:42.000
+our stop sequence will be we need 
+backslash n to be one of our stop sequences
+
+0:15:44.220,0:15:53.400
+Okay so secret word equals gpt3 
+completion prompt will also set
+
+0:15:54.900,0:15:59.700
+we'll set the default temperature to let's say 1.2
+
+0:16:03.840,0:16:09.840
+um so yeah so we've got that we don't need 
+a thousand tokens we'll do we'll we'll
+
+0:16:09.840,0:16:17.820
+leave it to like 100 tokens um for this 
+one Okay so we've we pick a secret word
+
+0:16:17.820,0:16:22.740
+and so then we'll just do print secret 
+word uh just to make sure that it works
+
+0:16:25.740,0:16:32.580
+oh whoops I need to create my gpt3 logs 
+directory I always forget to do this gpt3 lawns
+
+0:16:35.640,0:16:37.260
+crocodile good one
+
+0:16:40.320,0:16:40.860
+computer
+
+0:16:45.420,0:16:52.020
+Jimi Hendrix yes okay I am satisfied that this is 
+a good we're getting a good amount of entropy okay
+
+0:16:53.040,0:16:58.860
+so obviously we don't want to tell you 
+the secret word so then okay uh print
+
+0:16:59.760,0:17:04.740
+um I have picked my secret word um
+
+0:17:06.900,0:17:08.400
+ask your first question
+
+0:17:10.560,0:17:15.300
+and so we'll do um questions remaining equals 20.
+
+0:17:18.720,0:17:28.140
+and we'll probably do something like um questions 
+remaining dollar s and then we'll add percent
+
+0:17:28.140,0:17:34.860
+questions remaining um and we'll just have this 
+in the debug out or in the output every time
+
+0:17:35.760,0:17:39.720
+um okay so then we say while true 
+so we enter into our infinite Loop
+
+0:17:40.800,0:17:48.960
+um the user the read host um let me make sure I 
+remember how to use read oh I'm sorry I forgot
+
+0:17:48.960,0:17:53.760
+to make this bigger sorry everyone's probably 
+squinting at the screen saying Dave make it
+
+0:17:53.760,0:18:01.380
+bigger I can't see there sorry about that okay uh 
+Python and then a equals I think it's just read
+
+0:18:02.220,0:18:08.940
+um read host is Powershell um and then 
+we'll say um ask your question scrub
+
+0:18:11.820,0:18:15.240
+or is it input a equals input
+
+0:18:17.760,0:18:32.160
+ask yeah um bacon and then print a okay 
+it's input not read okay um fair enough so
+
+0:18:32.160,0:18:43.560
+then you say so the the round starts you ask 
+your question so um question equals input um
+
+0:18:48.000,0:18:49.200
+we'll just say user
+
+0:18:51.660,0:18:54.540
+and we'll start there or no um
+
+0:18:56.580,0:19:05.880
+question there much better so then because 
+that'll look like this question are you alive
+
+0:19:08.220,0:19:13.500
+okay good enough um all right so 
+question equals input so now we need
+
+0:19:13.500,0:19:17.040
+to do some prompt engineering 
+where we've got a secret word
+
+0:19:19.200,0:19:26.640
+um here I'll leave the printing of 
+the secret word right now um debug
+
+0:19:28.920,0:19:36.060
+just so that I can whoops now python 1T question
+
+0:19:43.020,0:19:51.480
+s oh I added a that's not supposed to be there 
+like what did I do wrong Machu Picchu okay
+
+0:19:53.400,0:20:00.120
+um good so if I if I at first we 
+need to test is it a good question
+
+0:20:02.040,0:20:12.420
+um so let's just say um uh let's see a user 
+is playing um plenty questions they have
+
+0:20:12.420,0:20:25.380
+asked the following question is this an allowed 
+question it must be in the form of a yes or no uh
+
+0:20:25.380,0:20:38.760
+question so question is um person place 
+or thing and is this a yes or no question
+
+0:20:41.880,0:20:42.540
+whoops
+
+0:20:46.800,0:20:47.880
+why is it
+
+0:20:53.160,0:20:54.300
+okay it doesn't understand
+
+0:20:56.820,0:21:03.180
+um we'll give it a uh yes 
+or no and we'll say false
+
+0:21:06.960,0:21:10.800
+so what I'll do is if you do if 
+you do low temperature and it's
+
+0:21:10.800,0:21:15.240
+something as simple as this if you want 
+very deterministic output you'd set the
+
+0:21:15.240,0:21:18.180
+temperature to zero and give it a few examples um
+
+0:21:20.340,0:21:23.460
+uh let's see so um
+
+0:21:27.960,0:21:34.500
+I need to label um label it so what we can 
+do is just shorten it to just this pattern
+
+0:21:35.280,0:21:40.920
+so that'll save us tokens and it'll also make 
+it faster because it'll do less processing
+
+0:21:43.620,0:21:46.500
+and then you can also just use 
+new line as your stop sequence
+
+0:21:53.700,0:22:00.360
+um so we've got one example of each 
+so far that's probably sufficient
+
+0:22:08.340,0:22:18.360
+right false if it is not a yes or no question 
+right true if it is a yes or no question
+
+0:22:20.220,0:22:24.360
+whoops don't need to say that okay 
+um that is probably sufficient
+
+0:22:25.080,0:22:28.080
+and so then what we'll do is 
+we'll just save this as our
+
+0:22:29.280,0:22:40.560
+um valid question or here prompt valid 
+okay and so then we'll do question here
+
+0:22:43.320,0:22:47.160
+and its output will be what we want okay so first
+
+0:22:48.960,0:22:58.740
+is Val uh no we'll do prompt equals open 
+file uh prompt valid dot text Dot replace
+
+0:23:00.900,0:23:12.600
+um question with question and then is valid 
+equals uh GP gpt3 completion prompt and
+
+0:23:12.600,0:23:17.280
+also do temp equals zero because we 
+don't want any creativity with this
+
+0:23:19.680,0:23:26.880
+um okay so then we'll do uh for this we'll do 
+print is valid and we'll test this real quick
+
+0:23:31.740,0:23:32.280
+whoops
+
+0:23:34.920,0:23:38.640
+all right debug night I have picked 
+my secret word ask your first question
+
+0:23:39.840,0:23:55.920
+um what is the um airspeed velocity of an 
+unladen swallow false okay um is it a thing
+
+0:23:56.820,0:24:08.520
+true cool um is it a bug that's a valid question 
+okay good all right so I think that works
+
+0:24:15.180,0:24:19.860
+all right if is valid
+
+0:24:22.080,0:24:24.180
+I wonder can I cast this as a Boolean
+
+0:24:29.400,0:24:32.460
+oops I wonder if that works
+
+0:24:37.080,0:24:50.580
+um bacon true uh let's see 
+how do earthquakes happen true
+
+0:24:55.620,0:24:58.980
+I think it's only doing true 
+okay I don't think this works
+
+0:25:04.800,0:25:07.620
+yeah let's try that again
+
+0:25:11.700,0:25:22.080
+there we go okay foreign if is 
+valid equals uh actually false
+
+0:25:22.860,0:25:27.840
+because this will be the shorter use 
+case if it is false then we uh we print
+
+0:25:28.860,0:25:37.920
+um that is not a valid question 
+minus one point to Gryffindor
+
+0:25:40.980,0:25:43.500
+um okay so then we say uh
+
+0:25:46.200,0:25:54.660
+um that's fine so and then then it just um it 
+iterates so questions remaining equals questions
+
+0:25:54.660,0:26:02.580
+remaining um minus one and then we do continue 
+so if you're not familiar with python continue
+
+0:26:02.580,0:26:07.440
+basically says okay wherever you're at in a 
+loop just go back to the beginning of the loop
+
+0:26:08.640,0:26:15.000
+um so it skips the rest of of whatever this 
+uh whatever this is and goes from there that's
+
+0:26:15.000,0:26:25.560
+actually probably Superfluous especially if 
+I do um uh else if is valid equals um true
+
+0:26:27.420,0:26:33.720
+then you continue and then the the loop will 
+end here um actually one thing that I can do
+
+0:26:33.720,0:26:41.040
+so this is this is my old school days 
+learning Pascal C and C plus plus often
+
+0:26:41.940,0:26:47.460
+um the the size of the program is constrained 
+especially if you're doing like microcontrollers
+
+0:26:47.460,0:26:53.520
+and so what you'd actually want to do is move 
+this because you're always going to call questions
+
+0:26:53.520,0:27:01.920
+remaining at the at the end right um and so rather 
+than have that line repeated you then you just you
+
+0:27:01.920,0:27:09.360
+um you do something like this so after your else 
+if else statements um then you then you you go
+
+0:27:10.200,0:27:15.480
+um so but the reason you might be wondering okay 
+well why why do else like why not just do if else
+
+0:27:15.480,0:27:23.640
+why do else if because there's an off chance that 
+gpd3 will just spit out something else entirely
+
+0:27:24.360,0:27:30.840
+um so we'll do um uh let's see um answer question
+
+0:27:34.260,0:27:40.320
+um but then we'll do we'll have an else 
+statement that just um print uh sorry
+
+0:27:41.400,0:27:52.500
+um uh the machine is confused try again no points 
+deducted and so we have this we have this like
+
+0:27:52.500,0:27:59.580
+debug case so in this case because there's there's 
+different possibilities um it would be easier um
+
+0:27:59.580,0:28:05.880
+actually here so then we'll do continue here um 
+because we're just skip skip to the end so we'll
+
+0:28:05.880,0:28:14.520
+skip this and then what we need to do we'll say if 
+questions remaining is less than or equal to zero
+
+0:28:15.660,0:28:24.240
+um then uh #game over and we're almost done 
+actually um let's see okay so answer the question
+
+0:28:26.220,0:28:29.520
+ah all right so cat and then
+
+0:28:31.380,0:28:36.600
+we'll come in here and we'll say a user is 
+playing 20 questions that's a good start um
+
+0:28:40.740,0:28:43.680
+they have asked the following question um
+
+0:28:45.900,0:28:51.840
+let's see uh they have asked 
+the following question um
+
+0:28:54.240,0:29:07.920
+uh let's see I have to answer yes or no um 
+uh as to um I have to answer yes or no um
+
+0:29:13.560,0:29:19.200
+so let's see how is this going to look because 
+I also want to do it like a few shot right
+
+0:29:20.340,0:29:28.020
+um because like if the secret word is cat 
+then I want to question like is it a person
+
+0:29:28.020,0:29:39.900
+you'd say no so we'll start with the question 
+um so secret equals cat question equals is it
+
+0:29:40.920,0:29:51.060
+a person answer no yeah that should be a 
+good format okay so then we'll give it a
+
+0:29:51.060,0:30:02.280
+few examples of this so the secret would 
+be um George Washington and then um is it
+
+0:30:06.360,0:30:14.880
+is it involved with communication and the 
+answer will be yes okay so now let's test this
+
+0:30:15.660,0:30:23.100
+and give me one more for 
+testing USA all right secret USA
+
+0:30:25.020,0:30:26.460
+question um
+
+0:30:29.280,0:30:36.540
+um is it a popular place let's see what 
+it says answer and then we'll say um
+
+0:30:40.440,0:30:44.460
+I refuse to answer yes
+
+0:30:47.700,0:30:48.200
+yes
+
+0:30:57.120,0:31:08.820
+and it's a famous place um is it um let's 
+see is it in the southern hemisphere
+
+0:31:11.100,0:31:16.980
+no okay good it looks like we're getting factual 
+answers um so what we'll do is we'll copy this
+
+0:31:18.360,0:31:33.360
+um and this will be our prompt answer dot text and 
+so then we'll do Secret and we'll do question and
+
+0:31:33.360,0:31:41.940
+then we'll leave that for answer so that's the the 
+new line stop a new line that'll be good okay so
+
+0:31:46.920,0:31:57.360
+um all right prompt equals open file we'll 
+do prompt answer dot text dot replace Secret
+
+0:31:59.100,0:32:02.880
+and this will be with um secret word
+
+0:32:05.160,0:32:08.520
+and then we'll do dot replace um
+
+0:32:11.280,0:32:16.860
+question mind blank for a second there 
+let me bring some more of this coffee
+
+0:32:23.400,0:32:27.900
+and then we'll do answer 
+equals gpt3 completion prompt
+
+0:32:30.420,0:32:33.240
+and so then we'll do print um
+
+0:32:35.820,0:32:37.200
+we'll do answer
+
+0:32:39.600,0:32:47.460
+and we'll do dollar or percent answer 
+okay so the last thing we need to do
+
+0:32:50.160,0:32:53.640
+um before we test the questions 
+we need to say is it right
+
+0:32:56.700,0:32:57.600
+um Okay so
+
+0:33:02.820,0:33:05.340
+user asks a question
+
+0:33:08.940,0:33:22.380
+and then uh check if user is correct and 
+then finally um check if user has lost
+
+0:33:27.120,0:33:27.620
+um
+
+0:33:29.700,0:33:30.840
+actually I know
+
+0:33:34.560,0:33:40.500
+if we go back to this prompt we 
+should actually just add these
+
+0:33:40.500,0:33:45.300
+and instead of instead of answering 
+yes or no we'll say like final answer
+
+0:33:47.580,0:33:50.580
+okay so let's do it this way
+
+0:33:54.000,0:34:02.640
+so we'll just inject some of these um is it 
+America will say um we'll say correct so we'll
+
+0:34:02.640,0:34:08.340
+look for correct um so it'll be we'll actually 
+have three three possibilities yes no or correct
+
+0:34:10.080,0:34:13.620
+um okay is it Abraham Lincoln 
+and so that's just a no
+
+0:34:21.840,0:34:28.620
+so we'll add something like 
+this um we'll say Harris Hilton
+
+0:34:29.880,0:34:35.280
+is it Abraham Lincoln no all right so then we need 
+we need some we need a like some correct guesses
+
+0:34:37.200,0:34:41.460
+and give me a new question a diamond okay
+
+0:34:44.040,0:34:49.560
+and we also need to replace guests with 
+questions so that we're consistent okay
+
+0:34:52.980,0:34:56.640
+Secret Diamond um
+
+0:34:58.920,0:35:09.120
+we've got plenty of nodes so like let's say 
+like um is it diamonds and this would be correct
+
+0:35:11.700,0:35:22.740
+Okay so we've got one two three examples of no 
+we've got one two three examples of yes and only
+
+0:35:22.740,0:35:28.500
+two for correct so let's get one more correct so 
+then we'll have three examples of each category
+
+0:35:29.460,0:35:33.000
+so that should be enough to generalize gazelle um
+
+0:35:35.700,0:35:37.440
+is a gazella type of antelope
+
+0:35:45.180,0:35:46.560
+gazelle
+
+0:35:48.600,0:35:56.520
+is it an antelope and we'll say correct so 
+like again this is this is the easy mode
+
+0:35:56.520,0:36:02.700
+so we'll say like as long as you're close 
+enough um okay so now we come back into our
+
+0:36:02.700,0:36:12.900
+end to here so is it valid yes or no okay 
+um if it is valid then we get the answer
+
+0:36:15.540,0:36:22.320
+um and so then if so here we want to test if the 
+if the answer is correct then you win the game
+
+0:36:23.340,0:36:33.780
+um so if answer equals correct um then we 
+say uh actually here let's do this first
+
+0:36:34.440,0:36:45.480
+if answer equals correct um rent um uh 
+congratulations you won you won the game
+
+0:36:48.120,0:36:54.060
+and then we do exit zero technically if you're 
+building a game you'd ask if you want to play
+
+0:36:54.060,0:37:00.660
+again but I'll let you figure that out if you want 
+to do that um otherwise it will just give you the
+
+0:37:00.660,0:37:07.560
+answer um it'll just give you a yes or no okay 
+I think that works all right so now we checked
+
+0:37:07.560,0:37:12.720
+if we checked if they're correct by doing a little 
+bit of prompt engineering so then last we check if
+
+0:37:12.720,0:37:22.980
+they have lost so we we subtract one um and this 
+is pretty easy so we say um you are out of guesses
+
+0:37:24.180,0:37:33.360
+the correct answer was I'll do that um and 
+then we'll do uh what was it secret word
+
+0:37:34.560,0:37:40.080
+and then we'll do Exit Zero here 
+um okay I think we have a game
+
+0:37:45.600,0:37:50.520
+CLS okay so I know that it's jungle I have picked
+
+0:37:50.520,0:37:54.780
+my secret word ask your first question 
+questions remaining oh I need to do that
+
+0:37:58.680,0:38:07.440
+um and you go there on foot yes okay um
+
+0:38:11.220,0:38:23.280
+is it a biome of sorts yes okay 
+is it a desert now is it a forest
+
+0:38:27.720,0:38:28.260
+yes
+
+0:38:31.620,0:38:42.540
+uh um what kind of forest is it that is not a 
+valid guess question minus one point to Gryffindor
+
+0:38:44.160,0:38:52.080
+um okay so this is actually kind of hard if 
+it picks the word jungle um is it a jungle
+
+0:38:53.760,0:38:56.760
+correct you won the game okay 
+so this is going to be hard
+
+0:38:57.660,0:39:03.000
+um all right so we need to make sure 
+we do um print questions remaining um
+
+0:39:11.340,0:39:17.820
+yeah this is good all right let's take a look 
+at this output and see like answer like question
+
+0:39:17.820,0:39:28.500
+answer question here we'll just put um we'll 
+do percent s here and then we'll do questions
+
+0:39:30.660,0:39:34.560
+remaining so that'll just save us a line um
+
+0:39:42.000,0:39:50.160
+I have picked my secret ask your first 
+question um is it a person no is it a place
+
+0:39:51.780,0:40:03.420
+yes um is it a uh City no is it a biome no
+
+0:40:07.500,0:40:19.080
+yes is it America no um is 
+it in the Eastern hemisphere
+
+0:40:20.820,0:40:24.840
+no is it in the I'm gonna die Western Hemisphere
+
+0:40:27.000,0:40:36.480
+yes okay it's in the Western Hemisphere 
+so it's got to be um is it a national park
+
+0:40:39.480,0:40:47.700
+um or something like that no is it a state
+
+0:40:52.740,0:40:57.000
+couch I don't know if that's technically a place
+
+0:40:57.660,0:41:06.540
+that's more of a thing um okay 
+I'm going to add this into the um
+
+0:41:10.620,0:41:11.460
+into this
+
+0:41:17.700,0:41:18.200
+ouch
+
+0:41:21.540,0:41:25.260
+is it a thing yes
+
+0:41:27.720,0:41:39.600
+okay all right I think that's good enough um get 
+status get add get commit am um all done and get
+
+0:41:39.600,0:41:43.860
+push so there's lots of little things you can do 
+to improve this um if you want to play with this
+
+0:41:43.860,0:41:51.300
+by all means um make another list of common words 
+or harder words if you want to and you could also
+
+0:41:51.300,0:41:57.420
+do a um take this out instead of and do um 
+do a game Loop where it'll just keep playing
+
+0:41:58.320,0:42:03.780
+um but yeah so there you have it we have we have 
+again a 20 Questions game with gpt3 thanks for
+
+0:42:03.780,0:42:08.340
+watching have a good one like And subscribe and 
+consider supporting me on patreon have a good day

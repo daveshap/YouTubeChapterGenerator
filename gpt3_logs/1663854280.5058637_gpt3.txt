@@ -1,0 +1,198 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:08:27.040,0:08:32.800
+unfortunately it looks like i didn't save that
+code but you can see like okay so november 6th
+0:08:32.800,0:08:38.480
+2020 i was working with gpt2 fast forward a
+few months i got access to gpt3 and here we
+0:08:38.480,0:08:48.160
+go all right so let's go back to the main one
+all right so where are we we are here so let's
+0:08:48.160,0:08:57.520
+do a quick route recap of what we've achieved
+so far this is the inner loop of uh of my acog
+0:08:58.320,0:09:03.200
+um so acog is short for artificial
+cognitive entity or artificial cognition
+0:09:04.000,0:09:11.840
+um and all that we've done here is i've just kind
+of copied previous success um which this is all
+0:09:11.840,0:09:18.080
+kind of the nitty-gritty of of what it takes to
+think um so one of the things that you need to do
+0:09:18.080,0:09:23.440
+is you need to have an index of your thoughts
+so that's what this does so i create an index
+0:09:23.440,0:09:29.280
+of all the memories and thoughts that are
+in the system um we fetch those memories we
+0:09:29.280,0:09:35.840
+can also search for memories uh where was it
+um search the index so this uses dot product
+0:09:36.560,0:09:42.960
+for vector search there are professional or
+you know enterprise or open source tools for
+0:09:42.960,0:09:47.920
+vector based search but like this is such a
+small experiment i don't need that efficiency
+0:09:49.760,0:09:55.040
+so we get embeddings to get the vectors so
+embeddings and vectors mean the same thing
+0:09:55.040,0:09:59.680
+basically all a vector is is a string of
+numbers and embedding is a string of numbers
+0:09:59.680,0:10:06.000
+that has semantic meaning um let's
+see so then we get the prompt um
+0:10:06.560,0:10:11.360
+let's see do i even use that i might
+not even use this function oh yeah okay
+0:10:13.680,0:10:20.880
+um let's see and then yeah so that's pretty much
+it so now we get to the actual cognitive tasks
+0:10:20.880,0:10:23.120
+and so here's the insight that i had
+0:10:26.560,0:10:31.840
+there's so much that happens unconsciously in
+our brains um that that we take for granted
+0:10:32.880,0:10:38.720
+and this is something that you're not conscious
+of unless you really pay attention through like
+
+Descriptive title with timestamp:
+
+==========
+
+08:27 - Unconscious processes in the brain

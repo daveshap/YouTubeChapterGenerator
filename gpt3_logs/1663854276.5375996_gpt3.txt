@@ -1,0 +1,199 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:00:00.720,0:00:07.120
+good morning everybody david shapiro here for
+another video today we are going to continue the
+0:00:07.120,0:00:12.960
+work on building an acog um so i've been working
+on artificial cognition for a couple years now
+0:00:13.600,0:00:20.240
+um and i've written a book about it of two books
+now um but the reason i'm doing youtube videos
+0:00:20.240,0:00:24.080
+is because nobody reads books especially
+my target audience which is younger folks
+0:00:25.360,0:00:32.080
+so um acog part one came out and uh of course
+you know some people get it some people don't
+0:00:32.880,0:00:39.120
+um i really loved this comment it's from zaya
+zia um seriously looking forward to this series
+0:00:39.120,0:00:45.120
+came here to scold you for claims so bold that
+they seem bordering on insanity i take this as a
+0:00:45.120,0:00:50.880
+compliment i'm an entp we are the mad scientists
+of the world then i saw the list of some of my
+0:00:50.880,0:00:55.840
+favorite books and had to give you a chance now
+i'm all wondering is how you're going to code in
+0:00:55.840,0:01:01.360
+ought from is and ought from it i wonder if this
+is like a turn of phrase from like somewhere else
+0:01:01.360,0:01:07.680
+in ought from is or maybe it was just like i don't
+know fat fingered anyways the pseudocode is easy
+0:01:07.680,0:01:12.800
+but actually defining suffering or prosperity
+is going to be tricky actually no this is the
+0:01:12.800,0:01:19.040
+easiest part one of the easiest parts figuring out
+cognitive control that was way harder so to give
+0:01:19.040,0:01:24.640
+some background i have been working on what i call
+the core objective functions for two years now
+0:01:26.080,0:01:33.280
+so this is this is my repo where i've been
+collecting experiments um about how to one
+0:01:33.280,0:01:39.920
+define these things but two how to implement them
+and also how to create fine-tuned models so out of
+0:01:39.920,0:01:45.040
+curiosity i went back and i was like okay how long
+have i been working on this and it's two years
+0:01:45.040,0:01:53.200
+so november 2020 so way back here let me just grab
+this one so november 2nd 2020 so not quite two
+0:01:53.200,0:01:59.760
+full years ago this was back when i was still
+using gpt2 i did not have access to gpt3 yet
+0:02:00.480,0:02:08.640
+so let me show you what i was working on this
+was a colab notebook and so basically what i did
+
+Descriptive title with timestamp:
+
+==========
+
+00:00 - Building an artificial cognition

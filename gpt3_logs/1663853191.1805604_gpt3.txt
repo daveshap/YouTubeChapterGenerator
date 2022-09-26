@@ -1,0 +1,197 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:15:34.080,0:15:39.840
+that's all writing it as json l i can't be right
+0:15:42.000,0:15:48.960
+yeah there we go json.dump data out file
+indent one okay hey i've almost remembered it
+0:15:49.600,0:15:56.160
+right not quite but almost um we'll do we'll
+leave it indent too that's fine okay because
+0:15:56.160,0:16:04.160
+nothing is worse than oh and not right binary
+this is just text um yeah and actually i think
+0:16:06.960,0:16:12.880
+maybe maybe um let's say i don't think
+i need to do the separators that's fine
+0:16:14.000,0:16:21.840
+and it's always as right and not encoded as
+utf-8 okay so let me remove the encoding as utf-8
+0:16:23.760,0:16:28.960
+okay we'll leave it at that that should work
+um okay so alt text we open it we get the
+0:16:28.960,0:16:33.680
+embedding we append this to the result so
+the result will be a list of dictionaries
+0:16:33.680,0:16:40.160
+with some text and then a vector
+and so that'll be our database um
+0:16:41.520,0:16:46.640
+yeah and we don't even need to build the index
+because we're building it now so let me just go
+0:16:46.640,0:16:51.680
+ahead and delete this function because that's
+noise search index we can delete that because
+0:16:51.680,0:16:58.240
+that's noise we can delete similarity because
+we don't even use that we don't use completion
+0:17:00.800,0:17:10.400
+do i use save file i don't use save file anywhere
+all i use is open file okay um we don't need that
+0:17:12.080,0:17:14.080
+i think that's about it i don't need re
+0:17:16.240,0:17:23.520
+i think we just use text wrap json i don't
+even use os anymore clean this up okay
+0:17:23.520,0:17:29.600
+that should be fine um let's go to multi-document
+answering and we'll do we'll just call this
+0:17:30.320,0:17:39.280
+build the index there we go keep it in editor no
+we'll just reopen it okay so this will generate a
+0:17:39.280,0:17:45.920
+json file that will have it'll be a list of chunks
+of text that are 3000 characters long each of them
+0:17:45.920,0:17:54.640
+with an embedding we can probably do more do it
+a little bit longer um let's do 4 000 characters
+0:17:54.640,0:18:00.320
+because it's roughly three or four characters per
+token so this will be roughly a thousand tokens
+
+Descriptive title with timestamp:
+
+==========
+
+15:34 - Building the index

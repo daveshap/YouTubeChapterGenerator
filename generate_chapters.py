@@ -53,7 +53,7 @@ if __name__ == '__main__':
     results = list()
     for chunk in chunks:
         chunk = '\n'.join(chunk)
-        print('\n\n',chunk)
+        #print('\n\n',chunk)
         prompt = open_file('prompt.txt').replace('<<TRANSCRIPT>>', chunk)
         response = gpt3_completion(prompt)
         print('\n\n', response)

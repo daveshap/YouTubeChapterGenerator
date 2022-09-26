@@ -1,0 +1,223 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:23:00.900,0:23:12.600
+um question with question and then is valid
+equals uh GP gpt3 completion prompt and
+0:23:12.600,0:23:17.280
+also do temp equals zero because we
+don't want any creativity with this
+0:23:19.680,0:23:26.880
+um okay so then we'll do uh for this we'll do
+print is valid and we'll test this real quick
+0:23:31.740,0:23:32.280
+whoops
+0:23:34.920,0:23:38.640
+all right debug night I have picked
+my secret word ask your first question
+0:23:39.840,0:23:55.920
+um what is the um airspeed velocity of an
+unladen swallow false okay um is it a thing
+0:23:56.820,0:24:08.520
+true cool um is it a bug that's a valid question
+okay good all right so I think that works
+0:24:15.180,0:24:19.860
+all right if is valid
+0:24:22.080,0:24:24.180
+I wonder can I cast this as a Boolean
+0:24:29.400,0:24:32.460
+oops I wonder if that works
+0:24:37.080,0:24:50.580
+um bacon true uh let's see
+how do earthquakes happen true
+0:24:55.620,0:24:58.980
+I think it's only doing true
+okay I don't think this works
+0:25:04.800,0:25:07.620
+yeah let's try that again
+0:25:11.700,0:25:22.080
+there we go okay foreign if is
+valid equals uh actually false
+0:25:22.860,0:25:27.840
+because this will be the shorter use
+case if it is false then we uh we print
+0:25:28.860,0:25:37.920
+um that is not a valid question
+minus one point to Gryffindor
+0:25:40.980,0:25:43.500
+um okay so then we say uh
+0:25:46.200,0:25:54.660
+um that's fine so and then then it just um it
+iterates so questions remaining equals questions
+0:25:54.660,0:26:02.580
+remaining um minus one and then we do continue
+so if you're not familiar with python continue
+0:26:02.580,0:26:07.440
+basically says okay wherever you're at in a
+loop just go back to the beginning of the loop
+0:26:08.640,0:26:15.000
+um so it skips the rest of of whatever this
+uh whatever this is and goes from there that's
+0:26:15.000,0:26:25.560
+actually probably Superfluous especially if
+I do um uh else if is valid equals um true
+0:26:27.420,0:26:33.720
+then you continue and then the the loop will
+end here um actually one thing that I can do
+0:26:33.720,0:26:41.040
+so this is this is my old school days
+learning Pascal C and C plus plus often
+0:26:41.940,0:26:47.460
+um the the size of the program is constrained
+especially if you're doing like microcontrollers
+0:26:47.460,0:26:53.520
+and so what you'd actually want to do is move
+this because you're always going to call questions
+0:26:53.520,0:27:01.920
+remaining at the at the end right um and so rather
+than have that line repeated you then you just you
+0:27:01.920,0:27:09.360
+um you do something like this so after your else
+if else statements um then you then you you go
+0:27:10.200,0:27:15.480
+um so but the reason you might be wondering okay
+well why why do else like why not just do if else
+0:27:15.480,0:27:23.640
+why do else if because there's an off chance that
+gpd3 will just spit out something else entirely
+
+Descriptive title with timestamp:
+
+==========
+
+23:00 - Validating user input

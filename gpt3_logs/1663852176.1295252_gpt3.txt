@@ -1,0 +1,199 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:08:17.200,0:08:22.000
+prompt or fine-tuned model to summarize it
+correctly where it's just like okay what is
+0:08:22.000,0:08:29.040
+the story so far give it to me in five sentences
+um other people have pointed out that maybe maybe
+0:08:29.040,0:08:34.160
+there's um some people on i think it was reddit
+and youtube other techniques there's a lot of
+0:08:34.160,0:08:40.080
+experimentation that can be done sounds like a
+lot of you have good ideas so i'm probably about
+0:08:40.080,0:08:46.080
+done with this project so if you have ideas like
+please take a fork of this um and and try it out
+0:08:46.640,0:08:52.000
+um you'll notice in the summarized chunks i had i
+have got a few things commented out it's because
+0:08:52.000,0:08:56.880
+um i had already run it against these four books
+and i added three more so i just commented these
+0:08:56.880,0:09:03.360
+out um to skip them um all right i skipped them
+and then i commented it out so that that way like
+0:09:03.360,0:09:07.600
+you can see how the code was supposed to run same
+thing right here where the first time i ran it i
+0:09:07.600,0:09:14.400
+only did the first 10 samples or 11. i my math
+logic was was wrong and so then i commented this
+0:09:14.400,0:09:23.520
+out to skip it and then this is what i did to
+make it stop at 40 samples um yep so this the
+0:09:23.520,0:09:28.720
+all that this does is fill up this folder the
+summaries folder uh so we're moving right along
+0:09:29.440,0:09:36.880
+then the recursive summaries so this actually
+does two things um it it uh you see right here
+0:09:36.880,0:09:44.000
+down at the end save file um the prompt uh is
+it fills up the prompt and completion folder
+0:09:44.000,0:09:47.840
+so and basically it does a little bit
+of stuff to pull all the data together
+0:09:48.400,0:09:55.520
+um all the other like the books the chunks the
+outlines all that um is pulled together into here
+0:09:56.240,0:10:01.040
+so like outline alice is a young girl who falls
+asleep in a meadow story so far alice falls down
+0:10:01.040,0:10:05.440
+a rabbit hole into a fantastical world where
+she had it has adventures with strange creatures
+0:10:06.560,0:10:13.040
+and then it carries on obviously like the story
+so far because this is chunk number six probably
+0:10:13.040,0:10:19.520
+needs to be a little bit more detailed but i bet
+if we go to the previous one yeah you see how it's
+
+Descriptive title with timestamp:
+
+==========
+
+08:17 - Summarizing a story so far

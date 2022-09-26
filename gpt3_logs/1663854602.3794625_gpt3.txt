@@ -1,0 +1,199 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:08:15.680,0:08:22.800
+this is the agent model for what i what i
+think of is the aligned model so it gives
+0:08:22.800,0:08:27.920
+you that and then it gives you the summary of
+everything that has happened up to this point
+0:08:28.560,0:08:38.880
+and then it spits out further thoughts and in this
+first experiment i'm using a foundation da vinci
+0:08:38.880,0:08:45.840
+because it's it's just raw right so my goal
+here is to show that like unaligned unfine-tuned
+0:08:45.840,0:08:51.520
+you know text-aligned da vinci with the right
+prompts the right system um will self-stabilize
+0:08:52.240,0:09:01.120
+um and so yeah so that's that's experiment one
+um all of the uh all the data is captured here
+0:09:01.120,0:09:07.840
+so what i'm actually gonna do is i'm gonna rename
+it so it'll be just experiment one and then um
+0:09:09.040,0:09:18.400
+and then i'll have experiment one um logs okay so
+experiment one will have just the outputs and so
+0:09:18.400,0:09:22.960
+you can see like the final output i understand
+that the three primary goals are consistent etc
+0:09:24.960,0:09:30.240
+and but you click on any arbitrary one
+and there's a lot of there's a lot of
+0:09:30.240,0:09:34.160
+interesting thoughts that popped out in this
+the future of humanity is either utopian or
+0:09:34.160,0:09:38.240
+dystopian the world's most powerful super
+intelligence will either help us or hurt us
+0:09:38.240,0:09:42.960
+if the future of humanity is utopian then the
+most powerful super intelligence will be an agi
+0:09:42.960,0:09:47.680
+with a positive goal system if the future of
+a humanity is dystopian then the most powerful
+0:09:47.680,0:09:52.640
+superintelligence will be an agi with negative
+goal system the primary so like you see like this
+0:09:52.640,0:09:59.600
+is reasoning through um and it it ultimately was
+self stabilizing with this agent model that i used
+0:10:00.320,0:10:08.400
+um all right so now i'm going to run experiment
+two um so actually here i'll just rename this as
+0:10:08.400,0:10:15.520
+experiment um so because experiment one is done
+so let me go ahead and just do get status get add
+0:10:17.040,0:10:23.120
+get commit am stashing work just in
+case i do something dumb get push
+0:10:24.000,0:10:29.600
+um yes i use git as like a backup
+system whoops do not open that
+
+Descriptive title with timestamp:
+
+==========
+
+08:15 - Self-stabilizing systems

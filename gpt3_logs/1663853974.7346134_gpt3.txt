@@ -1,0 +1,198 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:00:00.560,0:00:04.720
+good morning everybody david shapiro
+here with a new video about gpt 3.
+0:00:05.440,0:00:11.840
+so in this one we are going to address a
+common problem that people have which is the gp
+0:00:12.400,0:00:21.200
+gpt-3 there you go will make stuff up so this is
+called hallucinating or confabulation um really
+0:00:21.200,0:00:24.960
+from a from a neurological standpoint
+it's actually confabulation because
+0:00:24.960,0:00:32.080
+it's making up facts based on a few data points
+it's not fully hallucinating but some people
+0:00:32.080,0:00:38.000
+call it hallucination i call it confabulation
+i was recently given a challenge where someone
+0:00:38.000,0:00:44.400
+said that they were working on a problem of
+having like a chat bot look at a patient's
+0:00:44.400,0:00:51.200
+um texts or uh graphs and it was just making up
+medications like you ask like what what medication
+0:00:51.200,0:00:55.520
+is grandma on and it'll just make stuff up and i
+said oh that's an easy problem and they're like
+0:00:56.720,0:01:03.440
+go on um and i said well so the way that
+humans do that is that if i ask you a question
+0:01:04.000,0:01:09.280
+um your brain will give you a signal i have that
+answer or no i don't have that answer you get
+0:01:09.280,0:01:14.880
+different wave of different brain waves depending
+on whether or not you know something because what
+0:01:14.880,0:01:20.400
+happens is while you're talking with someone every
+little clue that you're given your brain is like
+0:01:20.400,0:01:26.960
+going you know squirreling away trying to find um
+where that information is stored and if it gets if
+0:01:26.960,0:01:32.320
+if it gets a 404 not found error you get that
+signal so what we have to do is we have to train
+0:01:32.320,0:01:39.200
+gpt3 to recognize that it doesn't know something
+that something is not present in a text so i
+0:01:39.200,0:01:48.080
+happen to have whoops i happen to have um about
+oh how many is this a whole bunch of medical texts
+0:01:49.760,0:01:53.840
+from a previous project i have over
+4 000 medical texts we only need 200
+0:01:53.840,0:01:59.520
+to get started so what i'm going to do is
+i'm going to go ahead and create a new repo
+0:02:01.760,0:02:02.960
+and we're going to call this
+
+Descriptive title with timestamp:
+
+==========
+
+00:00 - GPT-3 Hallucinating

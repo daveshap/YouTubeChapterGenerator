@@ -1,0 +1,199 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:01:57.420,0:02:02.760
+on small scale things um it is not going to
+be possible with the current token limits
+0:02:03.480,0:02:08.760
+um like we can do we can do again for short
+stories and flash fiction um and even trying
+0:02:08.760,0:02:16.500
+to do it in sections is not going to be possible
+so even if I had a few years to work on like fine
+0:02:16.500,0:02:22.740
+tuning and summarization and stuff um it's just
+it's not going to happen so I'm not worried about
+0:02:22.740,0:02:27.720
+disrupting an industry the technology isn't there
+yet but there are a few things that we can do
+0:02:28.260,0:02:35.160
+so as part of the auto Muse project I'll start
+with the synopsis generator and the synopsis
+0:02:35.160,0:02:40.560
+generator does exactly what it says on the tin
+it generates synopsis and so I've generated
+0:02:41.340,0:02:47.820
+um 200 some odd synopses and let me uh well here
+they don't look good on on GitHub so let me show
+0:02:47.820,0:02:51.780
+you what they look like here so I've generated a
+whole bunch I've deleted the ones that were too
+0:02:51.780,0:02:56.700
+big and too small and I kind of wish that I hadn't
+because you can you can keep those bad data points
+0:02:56.700,0:03:03.000
+and measure them but um yeah so here's an example
+like in the First Century A.D the Roman Empire
+0:03:03.000,0:03:07.980
+is at its height of power but in The far-flung
+Outpost of Britannia things are far from stable
+0:03:07.980,0:03:15.120
+so this is like hey this is cool young Centurion
+named Marcus flavius Aquila arrives in Britannia
+0:03:15.120,0:03:20.520
+with a mission so this is like a really great
+story starting off Marcus search for the eagle
+0:03:20.520,0:03:24.900
+takes them all over Britannia this is a story
+that I would read this would be like a great movie
+0:03:26.160,0:03:28.560
+um oh my coffee's over here
+why did I put it over there
+0:03:31.440,0:03:38.700
+um yeah so we have like a full story end to end
+so how did I do this let me explain it to you
+0:03:39.240,0:03:47.460
+oh and also sorry um let me zoom in a little bit
+okay so we will go over the synopsis generator so
+0:03:47.460,0:03:54.720
+we will do uh generate synopsis so here's the
+code it's pretty straightforward so I do seed
+0:03:54.720,0:04:01.380
+just to get a little bit of entropy and then for
+I and list of range 0 to 200 you can just comment
+
+Descriptive title with timestamp:
+
+==========
+
+01:57 - Generating Synopses
