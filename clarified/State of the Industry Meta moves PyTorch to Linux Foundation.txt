@@ -1,0 +1,5 @@
+This morning, I woke up and checked the news to find that Facebook was moving PyTorch over to the Linux Foundation. PyTorch is a toolset that allows for fast and efficient creation of deep neural networks. The move to the Linux Foundation will allow for better collaboration between the different companies that use PyTorch, as well as standardization of the toolset. This is beneficial for the companies involved, as well as for employees who may be looking to specialize in PyTorch.
+
+The recent move by Google to open-source its TensorFlow Lite deep learning platform is an interesting one, and it certainly increases the chances that TensorFlow will become the universal standard for deep learning in the near future.
+
+Thanks for watching. If you like what you saw, please consider subscribing and supporting me on Patreon. Have a great day!

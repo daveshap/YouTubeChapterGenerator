@@ -1,0 +1,9 @@
+In his book, Symphony of Thought, David Shapiro outlines the problem of creating autonomous thought in machines. He argues that it is too difficult to come up with a single moral framework, and that the framework we need to create is a thinking machine. In part two of the book, he talks about the high level components of a thinking machine. He argues that it needs to be universally applicable, flexible and adaptable, robust, and implementable. In part three, he talks about thinking ahead, and in part four, he talks about cognitive control.
+
+The book "Symphony of Thought: Orchestrating Artificial Cognition" is now available. In it, author David Shapiro covers the five key components of artificial cognition: memory, attention, decision-making, learning, and cognitive control.
+
+Memory is important for storing information and knowledge. Attention is necessary for focusing on relevant information and ignoring distractions. Decision-making is the process of choosing between different options. Learning is how new information is acquired and stored. And cognitive control is the ability to self-monitor and regulate one's thoughts and actions.
+
+Shapiro provides principles for each of these components that can be used to build artificial cognition systems. For example, he recommends recording everything and labeling memories to create curated data sets for learning. He also emphasizes the importance of self-correction and error detection in autonomous systems.
+
+The book is available electronically now, and the paperback will be available soon.

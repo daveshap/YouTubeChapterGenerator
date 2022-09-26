@@ -1,0 +1,21 @@
+The Encyclopedic Service is a set of tools that provides Raven with facts about the world. The reason that Raven needs this is because GPT3, a powerful artificial intelligence tool, does not really know what is true. The Encyclopedic Service is a way for Raven to learn about the world.
+
+The Encyclopedic Service is a set of tools that provides Raven with facts about the world. The reason that Raven needs this is because GPT3, a powerful artificial intelligence tool, does not really know what is true. The Encyclopedic Service is a way for Raven to learn about the world.
+
+The Encyclopedic Service is a set of tools that provides Raven with facts about the world. The reason that Raven needs this is because GPT3, a powerful artificial intelligence tool, does not really know what is true. The Encyclopedic Service is a way for Raven to learn about the world.
+
+The Encyclopedic Service is a set of tools that provides Raven with facts about the world. The reason that Raven needs this is because GPT3, a powerful artificial intelligence tool, does not really know what is true. The Encyclopedic Service is a way for Raven to learn about the world.
+
+The goal of this script is to take the unstructured data of a Wikipedia dump file and turn it into a more structured, clear essay. To do this, the script first opens the file and reads it line by line. If it finds a "page" tag, it knows it has reached a new article, and starts building up a chunk of text. Once it reaches the end of the page, it analyzes the chunk and, if it is a good document, saves it to the database.
+
+The parsing and analysis is done in the "doc_analyze_chunk" function. First, a few things are filtered out (e.g. redirect titles and articles with a semicolon in the title). Then, the title and content are extracted from the tags. The content is run through the "d_wiki" function, which removes all the new lines, excess whitespace, references, citations, and links. For images, it just keeps the plain text description.
+
+This script will take a while to run, as it is currently halfway through a 1 GB file. However, even if the file size doubles or triples, the script should still be able to handle it.
+
+The goal of this project is to create a database of all the articles on Simple English Wikipedia, in order to provide a source of information for a future AI project.
+
+To do this, we first need to remove all the links and other non-text elements from the articles. This is done using a combination of regex and the WikiTextParser.
+
+Once we have the plain text versions of the articles, we can save them to a database using the saveToDB function. This will create a single database file that can be used as a source of information for the AI.
+
+In the future, we may want to use a more sophisticated tool like Apache Solr to search the articles more easily. For now, though, this simple approach will suffice.

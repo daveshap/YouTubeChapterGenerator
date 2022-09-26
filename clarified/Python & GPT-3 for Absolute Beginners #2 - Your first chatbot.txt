@@ -1,0 +1,13 @@
+In the previous video, we left off with a simple "Hello, World" program that demonstrated how to use the OpenAI GPT-3 API. In this video, we'll extend that program to create a basic chatbot.
+
+We'll start by creating a new file called "chat.py". In this file, we'll start by copying the code from our previous "Hello, World" program. This time, however, we'll remove the prompt and instead use a while loop to continually prompt the user for input.
+
+Next, we'll use the OpenAI GPT-3 API to generate responses to the user's input. We'll do this by calling the "completion" function, passing in the user's input as the "prompt" parameter.
+
+Finally, we'll print out the response from the API.
+
+With this basic chatbot program in place, we can now start having conversations with our computer!
+
+In order to use the GPT-3 machine learning platform, our team needs to be able to send it a text-based conversation. To do this, we first need to create a list of the conversation, with each new line indicating a new speaker. We can then convert this list into a text block, which GPT-3 will be able to understand. Finally, we need to replace the placeholder text in our prompt with the text block, so that GPT-3 can use it to generate responses.
+
+The code for our chatbot is now complete. We simply need to add a few lines to the end of the prompt to ensure that the bot knows to continue the conversation with the next line. We also need to add the tokens "jacks" and "user" to the list of things that the bot should not generate on its own. Doing this will ensure that our chatbot functions as intended.

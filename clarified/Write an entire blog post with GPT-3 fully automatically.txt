@@ -1,0 +1,105 @@
+In this video, we'll be generating blog posts using OpenAI's GPT-3 model. However, before we get started, I need to warn you that attempting to use this content directly online is against OpenAI's policies. This is for research purposes only. With that being said, you are allowed to use AI to generate content, as long as you then put human eyes on it to edit it, clean it up, and make sure it is safe. You are also required to say that the content was written by AI. With that out of the way, let's get started.
+
+First, when I am starting a project like this, I brainstorm to get my thoughts out because then I have a template to follow. Oftentimes, you'll see me rely on intuition, but it's not always reliable, so it's important to have a process.
+
+For this project, we will take a prompt of some sort and brainstorm the structure of the request. Then, we will list a series of sections and brainstorm some interesting facts or points to include for each section. Once we have a list of sections and points, we will write the actual sections and iterate to improve them.
+
+The topic that I have chosen for this blog post is Shinto in Japan. I've chosen this topic because I am reading a book about Japanese history and culture. I am assuming that GPT-3 already has enough knowledge to write about this topic, as it has read a lot of news, Reddit, and Wikipedia.
+
+In the playground, we will start with some prompt engineering. I will say, "Write a blog outline for the following request from a customer: I want a cool blog post about the history of Shinto and Corey gates in Japan."
+
+Then, we will brainstorm a list of sections for this blog post. Each section should be highly descriptive and provide a paragraph explaining what should go into each section.
+
+Once we have a list of sections, we will write the actual sections and iterate to improve them. And that's it!
+
+In order to improve the quality of your blog posts, it is important to brainstorm a list of possible sections or topics to include. This will help you to ensure that your posts are well-rounded and informative.
+
+For example, if you are writing a blog post about Shinto shrines in Japan, some possible sections could include:
+
+• The significance of Shinto shrines
+
+• The different types of Shinto shrines
+
+• The most famous Shinto shrines in Japan
+
+• Tips for visiting Shinto shrines
+
+• Shinto festivals associated with Shinto shrines
+
+• Frequently asked questions about Shinto shrines
+
+• Additional resources for further reading
+
+By brainstorming a list of possible sections in advance, you can make sure that your blog posts are comprehensive and informative.
+
+Shinto is a religion that originated in Japan. It is the largest religion in the country, with over 100 million followers. Shinto means "the way of the gods" and is based on the belief that everything in nature has a spirit.
+
+Shinto has a long history in Japan, with the first records of the religion dating back to the 8th century CE. However, some scholars believe that the religion may have originated even earlier. Shinto is closely tied to the history and culture of Japan, and many of the country's most important landmarks and festivals have a Shinto connection.
+
+One of the most important aspects of Shinto is the concept of kami. Kami are spirits that are present in all aspects of nature, and they can be either good or bad. People who follow Shinto believe that it is important to venerate the kami and to live in harmony with them.
+
+There are many different Shinto shrines and temples located throughout Japan. The most important of these is the Grand Shrine of Ise, which is dedicated to the sun goddess Amaterasu. Other important shrines include the Shrine of Izumo, which is dedicated to the god of marriage, and the Shrine of Kasuga, which is known for its beautiful wisteria flowers.
+
+Shinto is a religion that is based on the belief that everything in nature has a spirit.
+
+Shinto has a long history in Japan, with the first records of the religion dating back to the 8th century CE. However, some scholars believe that the religion may have originated even earlier.
+
+Shinto is closely tied to the history and culture of Japan, and many of the country's most important landmarks and festivals have a Shinto connection.
+
+One of the most important aspects of Shinto is the concept of kami. Kami are spirits that are present in all aspects of nature, and they can be either good or bad. People who follow Shinto believe that it is important to venerate the kami and to live in harmony with them.
+
+There are many different Shinto shrines and temples located throughout Japan. The most important of these is the Grand Shrine of Ise, which is dedicated to the sun goddess Amaterasu. Other important shrines include the Shrine of Izumo, which is dedicated to the god of marriage, and the Shrine of Kasuga, which is known for its beautiful wisteria flowers.
+
+To generate a good blog post, we need to gather information from a variety of sources. In this case, we'll use a corpus of facts as our primary source. We'll also use confabulation and neural recall to fill in the gaps.
+
+Our first step is to gather the facts. We'll use a prompt to ask gpt3 to barf out a bunch of facts. This is called neural recall. It can be accurate, but it can also be crazy wrong. So, we'll iterate a few times to improve the accuracy.
+
+Next, we'll outline the facts. We'll use a prompt to ask gpt3 to improve the outline. This will help us organize the information.
+
+Finally, we'll research the facts. We'll use a prompt to ask gpt3 to improve the research. This will help us fill in the gaps.
+
+After we've gathered all the information, we'll stitch it all together and that's all programmatic.
+
+We do the pros on the section and then we stitch it all together. We improve the pros and then we have the final product.
+
+Okay, so we'll do final blog equals. So we'll do that.
+
+Okay, so four section in sections. So we're gonna just we're gonna take each section and just write the whole thing. We might have a final step where we kind of like clean up the whole blog. Um, actually, that's not a bad idea. Let me go ahead and add that note so I don't forget.
+
+Um, iterate through the sections and do the final clean up.
+
+Um, let's see. Clean up the final product. Yes.
+
+Okay, so four section in sections. Uh, first is hashtag research. Sorry, I need to drink this coffee.
+
+#Research okay. Um, yes. So we'll say research equals. Uh, that. And then uh, let's see how many times did we do this. I think we did it like three or four times. So we'll do we'll do the same thing that we did here.
+
+So for I in list range we'll say um, uh, uh, result equals um, research topic. Actually, no. Here we'll call it neural recall because that's a more accurate thing as to what we're doing.
+
+So the neural recall is, yeah. So we need to pass the request in the section requests section. And there will be some redundancy, but that's fine. That's why we added the seventh step to clean up the final product to just let's rewrite the whole thing to be one nice consistent blog post.
+
+Um, okay. So result equals neural recall deaf neural recall. This is like this is the nerdier version of Total Recall. Uh, extra points if uh, I guess they made a remake of that. Um, but the original Total recalled with Arnold Schwarzenegger came out when I was uh, much younger. I was alive when it came out. Some of my viewers are older than me. Many of them are younger. So if you raise your hand uh, give me a thumbs up or or a comment in the section in the in the comments below if you remember the original Total Recall.
+
+Okay, neural recall. What is it that we're doing? This is basically just another prompt. Prompt equals open file. Uh, prompt section research dot text. And then we do that replace. Uh, yes. What were the sections that I had in here? Request and section. Right. These two. See that? This is where you do yourself a favor if you have variables that are very simple and straightforward and make sense. And then place uh, section with section. Okay. And then we do. Uh, let's see. Um, notes equal gpt3 completion prompt. Um, and then return notes.
+
+And I know what some of you are thinking. You're thinking, oh, you can just do return this. Um, there's nothing wrong with that. But I got out of the habit of doing that because every now and then you'll want to do some little like post-processing. Like notes equals notes dot replace. You know, that with that. You know depending on uh, the kind of format you're looking for. Um, so I just got out of the habit of of returning the function result directly. Um, and and capturing the results in a variable and then passing the variable back. It's either or you can do whatever you want. Um, it saves you a line of code. Um, but you know, okay, a line of code who cares. Um, to me, it's not really worth saving.
+
+Okay, so then research equals research plus. Um, let's see. That's going to have no new line. So we'll do plus new line dollar s. And then we'll do dollar result. Um, yes. Okay. So the research will be done. So research equals research dot strip. Which that will remove any superfluous white space from the ends. So now we've got the research. Yes. So we'll run the research a couple times. We've done the research and then we take the research and write the blog post.
+
+Okay, so do first draft not draft five. Um, okay. This should be as straightforward as prompt equals prompt section no what am I doing. Good grief. Open file prompt sectionpros dot text and do replace research with research. So this is there's a couple things happening here. So there's prompt chaining which is where you've got prompt prompt prompt prompt prompt. So that's prompt chaining. But then we're also doing iterative loops. So we're doing recursive loops inside of the prompt chain. Um, so this is this is pretty advanced. But this is this is just the same process that a human goes through when writing when writing a thing. You you brainstorm the structure. You gather all the facts. Then you write the pros. And then you iterate on the pros and make it better.
+
+Um, now I need to improve on it. I wonder if it would be good if we gave it some descriptions like we need to make it more engaging. Um, but whatever. Okay.
+
+Prompt open file. Okay. And so then we'll say Pros equals bd3 completion. Um, prompt. There you have it. All right. So that's our first edition of the pros. And then we do the same thing here where we attach the research and the pros. This should actually probably we'll change this to Pros. Keep it nice and consistent. And I think we did it. What like two or three times before it started kind of going off the rails. So we'll do we'll do just two improvements of improving the pros.
+
+Um, okay. So Pros equals um, uh, improve Pros. And so what did I have in here? We have the research on the pros. Research and prose. Um, so we just improve itself. So recursive programming for for kitties who don't know. You could not do this where you pass a variable where you you assign a variable and pass it at the same time. This is a newer thing. Back in the days of Pascal and C plus plus you have what you would have to do. Uh, you'd have to declare something like prose 2 equals pros. And then you'd say Pros equals Pros too is silly. But now you don't have to do that anymore. Now you can just call it directly. And it's just a single step.
+
+Um, okay. So the improved Pros is going to be the same as improve outline with mild difference. So we'll do improve pros and instead of request and outline its research and prose. So we'll do um, improve Pros research oops uppercase and Pros oh whoops. I'm going to replace both lowercase and then Pros uppercase and then we don't need that. And so then we also change the name back to prose and prose. Okay. So then we call improved Pros we just call it a handful of times and we end up with a better set of
+
+In this video, I walk through the process of generating a blog post about the history of the printing press. I show how to use recursive prompting and prompt chaining to come up with an outline for the blog post, and then I generate the content for the post using that outline.
+
+I start by doing some research on the topic of the printing press and its history. I then brainstorm a list of ideas for the blog post, and use that list to generate an outline for the post. I then use the outline to generate the content for the post, and finally I clean up the final product to improve readability.
+
+The end result is a blog post that is 10,000 characters long. This process can be used to generate content for any topic, and can be refined to produce even better results.
+
+If you use this information to do something unethical, it is your responsibility. Thanks for watching. Please like, subscribe, and consider supporting me on Patreon. Have a great day!

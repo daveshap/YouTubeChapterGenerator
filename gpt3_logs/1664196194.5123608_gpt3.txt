@@ -1,0 +1,27 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: a list we'll see what happens um okay worst thing that will happen is that it blows up takes a second to load quadrant client is not defined what do you mean it's not defined and come down here okay anyways so it takes 3.2 seconds to do those embeddings it's doing it on cpu i'll need to look at how to do uh the sentencing uh sentence transformers on gpu um actually let me pause that and i'll figure it out real quick okay i looked it up it's right here um you have to do with pi torch i've got anaconda i'll figure it out later um it's not that big a deal um okay so anyways yeah all right i think we're ready to test this so we'll instantiate the quadrant client um and then we'll upload this collection so we'll use the sentence embeddings and the payload and we'll go from there um let's see what happens so now it's going to spool up those embeddings quadrant client is not defined what do you mean it's not defined oh i have to import it hey okay let's try it again it's not a valid dict yeah i thought they would want a dictionary okay so let's fix this real quick um let's see it's gonna want um info equals so we'll just do um file name equals file and then content equals that and then we'll do dot append um and then for for sentences equals list and we'll do um sentence sentences there we go dot append info content okay so then we will embed the sentences and the payload will be that okay that should work and we're almost done i promise hey look at that okay so then we come back over here and instead of test collection we will get startups okay and then it says vector size 768 so it like that shard number one points count 25 so there's all 25 in there cool um and then i guess let's do a quick search uh let's see oh i guess i'd have to do a vector i'm not going to worry about it okay i think we're at a good stopping point um yeah so doing this with so i will say that um that the google universal sentence encoder is infinitely faster than sentence transformer even with uh even on cpu so i will probably default to that anyways um yeah because if you don't need to rely on gpu and it's fast enough probably stick with that but yeah so quadrant it seems like it's uh it's pretty fast and we'll go from there i will probably work on embedding this into all of my microservices so thanks for watching and have a good day
+
+CLEAR ESSAY:
+
+==========
+
+The quadrant client is not defined. What do you mean? It's not defined. I'll need to look at how to do the sentence transformers on the GPU. Actually, let me pause that and figure it out real quick.
+
+I looked it up. It's right here. You have to do it with PyTorch. I've got Anaconda. I'll figure it out later. It's not that big of a deal.
+
+So anyways, yeah. I think we're ready to test this. We'll instantiate the quadrant client and then upload this collection. We'll use the sentence embeddings and the payload. And we'll go from there. Let's see what happens.
+
+Now it's going to spool up those embeddings. Quadrant client is not defined. What do you mean? It's not defined. Oh, I have to import it. Hey, okay. Let's try it again. It's not a valid dict. Yeah, I thought they would want a dictionary. Okay, so let's fix this real quick.
+
+It's going to want info equals so we'll just do file name equals file and then content equals that. And then we'll do dot append. And then for sentences equals list and we'll do sentence sentences there we go. Dot append info content.
+
+Okay, so then we will embed the sentences and the payload will be that. Okay, that should work. And we're almost done, I promise.
+
+Hey, look at that. Okay, so then we come back over here and instead of test collection, we will get startups. And then it says vector size 768. So like that shard number one points count 25. So there's all 25 in there. Cool.
+
+And then I guess let's do a quick search. Uh, let's see. Oh, I guess I'd have to do a vector. I'm not going to worry about it. Okay, I think we're at a good stopping point. Um, yeah.
+
+So doing this with the Google Universal Sentence Encoder is infinitely faster than sentence transformer, even with even on CPU. So I will probably default to that anyways. Um, yeah. Because if you don't need to rely on GPU and it's fast enough probably stick with that.
+
+But yeah, so quadrant it seems like it's uh it's pretty fast. And we'll go from there. I will probably work on embedding this into all of my microservices. So thanks for watching and have a good day.

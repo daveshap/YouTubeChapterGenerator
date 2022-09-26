@@ -1,0 +1,13 @@
+Creating training data for the core objective functions of an artificial general intelligence (AGI) project can be a challenge. In this video, David Shapiro walks us through an example of how he created training data for his Raven AGI project using the GPT3 engines.
+
+The first step is to generate a list of contexts in which an AGI might find itself. This can be done by using the Curie Instruct engine to write a list of random scenarios. The scenarios should be centered around topics that are likely to be encountered by everyday people, such as the weather, children, natural disasters, and everyday problems.
+
+Once a list of contexts has been generated, the next step is to use the Ada engine to generate evaluations for each of the three core objective functions: reducing suffering, increasing prosperity, and increasing understanding. These evaluations should provide information about how the recommended action would impact the objective function in question.
+
+Finally, the training data should be reviewed and fine-tuned as needed to ensure that it is of the highest quality. This will help to ensure that the AGI is able to effectively learn from the data and achieve the desired results.
+
+I'm going to show you how I used a machine learning algorithm to generate a list of possible actions for different contexts. This is a very early experiment, but it shows promise for using machine learning to help make decisions.
+
+First, I wrote a script that generates a list of possible contexts. For each context, the script generates a list of possible actions. I then used another script to evaluate the actions against some core objective functions. This generated a file with the context, actions, and evaluations.
+
+Finally, I used the file to train a neural network. The neural network was able to generate insightful evaluations and explanations for the actions. This is a very early experiment, but it shows promise for using machine learning to help make decisions.

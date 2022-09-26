@@ -1,0 +1,25 @@
+The goal of this project is to create a lightweight vector database that can be used for rapid prototyping and experimentation in the field of artificial cognition. The database will be hosted on PiPi, and will be called VDB light.
+
+The database will be based on SQLite, but will be designed specifically for vectors. This means that it will be able to store an arbitrary amount of information with each vector, as well as allow for different levels of granularity when searching. Additionally, the database will be able to keep all data in memory, which will make it more lightweight and disposable.
+
+This project is still in the early stages, and so far I have just documented the process. I have written a module that sets up the basic structure of the database, and I am currently working on the code that will actually allow for vector similarity searches.
+
+In order to use the pickle module, we first need to import it. We can then save it as a pickle file. We can also import the numpy module to help with dot product similarity.
+
+We will create a class called Server. This class will have a few fields, including a list of data. We can then add to this list of data and perform a search on it.
+
+We can validate messages before adding them to the list. We can also run a search and return the top results.
+
+The moragi code contains a function to delete data based on a specified field and value. If the "first only" parameter is set to true, only the first instance of the matching data will be deleted. The code uses a unix timestamp as the equivalent of a uuid to ensure uniqueness.
+
+In this video, David Shapiro demonstrates how to use the vdb light package to generate random numbers. He starts by importing the necessary packages: numpy and uuid. He then defines a function to generate a list of random numbers, using numpy's np.random.seed function.
+
+Next, he creates a list of vectors, each with 12 dimensions. He then loops through the list of vectors, adding a unique identifier (uuid) and a timestamp to each one. Finally, he searches the list for a specific vector, and prints the results.
+
+This video is a great demonstration of how to use the vdb light package. It's easy to follow, and provides a clear explanation of each step.
+
+I'm having some trouble setting up my pubtest environment. I think I need to import everything that it needs, but I'm not sure how to do that. I'll look it up later.
+
+The important thing is that you need to import all of the necessary files yourself. I'll figure this out later. For now, let's try running the test again.
+
+Wow, that was fast! Thanks for watching.

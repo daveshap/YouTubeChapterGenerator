@@ -1,0 +1,37 @@
+Hey everyone,
+
+I've got some really good news - Raven is up and running and able to have really good conversations. There's just a little bit of fine tuning that I need to do on the back end, and I'll go into greater detail about that in a minute.
+
+But first, I wanted to show you what Raven is capable of right now. I think you'll be impressed. After you see what Raven can do, we'll take a look under the hood to see how it works.
+
+The conversation today started with "Good morning, Raven." I started logging all interactions. I asked Raven about the legal ramifications of using AI to diagnose medical conditions. Raven responded with "The legal ramifications of using an AI depend on the nature of information gathered in its context."
+
+I made a couple quick changes and asked Raven again if it knew what I was. Raven answered correctly this time, saying "I am a computer program that was created to help humans make better decisions."
+
+I asked Raven what it was, and it answered correctly, saying "I am an artificial intelligence."
+
+Then I asked Raven to remember that I am a human. Raven responded with "You are a person."
+
+I asked Raven what it was, and it again answered correctly, saying "I am an artificial intelligence."
+
+ Raven is starting to get a hang of this conversation!
+
+Let's take a deep dive under the hood to see what's going on.
+
+You'll notice that this is running on Discord. I've got a simple Discord bot client running that accumulates all of the messages. On message, I just accumulate all the messages and cache them locally. Then I ask, is it time to respond?
+
+This is a very naive thing right now. Raven can only decide whether or not to respond based on a couple of rules. The first rule is if Raven AGI is in the most recent message author. So if Raven was the last thing to talk, Raven won't respond. There was a bug a couple days ago where Raven just started replying to himself over and over again, and of course that's no good.
+
+The second rule is if the wake words are "Hey Raven." So if it detects "Hey Raven" in the last message, then it will respond. I'm gonna work on that, I'm gonna work on some better logic for that, just to kind of model where the conversation is to determine whether or not it's appropriate for Raven to chime in. Ultimately, I want Raven to be able to communicate spontaneously of his own accord. This again is super naive - it's very basic.
+
+With all that out of the way, let's take a look at what's going on under the hood.
+
+The raven app has two main rules: respond to input, or listen. If a user posts something to the app, it will generate a response based on the context and wake sentence provided. The app will also keep track of past conversations in a corpus, which it can use to generate more relevant responses in the future.
+
+The app is 166 lines long and written in python flask. It has one endpoint where users can post input, and a timeout of 45 seconds to wait for a response. The app uses the discord receiver to send messages back and forth.
+
+The app generates a synopsis, history, and feelings for each conversation. It also has a chat log, which it uses to keep track of past conversations. The chat log is used to generate the output for each conversation.
+
+The app is still in development and needs more work on the history service and the core objective functions. However, it is already able to generate relevant responses based on past conversations.
+
+In this video, David Shapiro explains how the chatbot Raven works. Raven uses a number of services to generate its outputs, including a synopsis service, a feelings service, and a conversation state service. These services help Raven to keep track of the current state of the conversation, to generate summaries of chat logs, and to infer the feelings of the chat participants. Thanks for watching!

@@ -1,0 +1,23 @@
+In this video, I'm going to show you how to use Codex to generate code.
+
+Codex is a tool that can generate code for you, based on natural language descriptions of what you want the code to do.
+
+For example, you can tell Codex to "write a function to get data from Reddit," and it will generate the necessary code for you.
+
+To use Codex, you first need to specify the language you want the code to be written in. In this example, we'll use Python.
+
+Next, you'll need to provide a description of what you want the code to do. In this case, we want it to fetch the top posts from Reddit.
+
+Codex will then generate the code for you. In this case, it wrote a function that fetches the data from Reddit and prints it out.
+
+If you run into any errors, you can use Codex's "edit" feature to automatically fix them.
+
+That's all there is to using Codex! With this tool, you can quickly generate code for any task, without having to write it yourself.
+
+This powershell script will save every prime number from 1 to 1,000 in a csv file.
+
+The script uses a conventional for loop to iterate through each number from 2 to 1,000. For each number, the script checks if it is prime by iterating through every number from 2 to that number and checking if there is a remainder when dividing them. If there is no remainder, the number is not prime and the script breaks. Otherwise, the number is added to a list of prime numbers.
+
+The script then exports the list of prime numbers to a csv file on the desktop.
+
+The script runs quickly and efficiently, and produces a list of all the prime numbers from 1 to 1,000.

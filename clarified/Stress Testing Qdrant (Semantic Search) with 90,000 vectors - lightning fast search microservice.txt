@@ -1,0 +1,23 @@
+I'm stress testing quadrant today. For those of you who are not familiar with quadrant, it's a tool that you can use to split up large files into smaller chunks. I'm using it to split up a folder of 55,000 different samples of data, each ranging in size from one kilobyte to 33 kilobytes.
+
+I'm also using Universal sentence encoder to generate embeddings for each of the chunks. Universal sentence encoder is a hundred times faster than the previous version, so it's not necessarily needed, but I'm using it for this demo.
+
+Basically, what I'm doing is iterating through each file, splitting it into chunks of 1,000 characters, and then generating embeddings for each chunk. I'm then saving the data by passing a string and an embedding back to quadrant.
+
+For some debug output, I'm printing the file, the chunks, and the vectors. So far, everything is working as expected.
+
+This video shows how to set up a TensorFlow GPU environment using Anaconda. First, open Anaconda Navigator and search for "tensorflow GPU". Next, let it install all the dependencies. Once it is finished, open the Anaconda Prompt as an administrator and type "conda install -c anaconda tensorflow-gpu". Finally, run a test to see how long it takes to process a file.
+
+I am running a quick test on the Quadrant stress test. I am uploading roughly 88,000 files to test the container performance. The average time per file is .063 seconds. The total time for the entire process is just shy of an hour. I am monitoring the CPU and GPU usage. It does not appear to be using my GPU. I will let the process finish and then show the results.
+
+The stress test is a way of timing how long it takes to upload a large amount of data. In this case, I am uploading 88,000 records. I start the timer, upload the data in batches of 256, and then print the time it took to upload the data.
+
+I ran into a bug where it was looking for a record object, but I had given it the wrong thing. I switched to uploading the collection, which worked with the quadrant populate. This allowed me to separate the vectors from the payloads and upload them together.
+
+The trick was to store the data as a numpy array, which was more memory efficient. I also had to recreate the collection and figure out the IDs myself.
+
+The stress test was successful and I was able to upload the data in 163 seconds. The final version was using 7168 vectors and had a disk data size of 286. The volume was 393 megabytes.
+
+I did a quick search and was able to find the vector I was looking for in .014 seconds.
+
+It's baffling to me how little data this program uses - only 400 megabytes. And yet it's incredibly fast and efficient, using very little CPU. It's impressive how such a small program can handle 90,000 records so quickly. Thanks for watching - and please consider supporting me on Patreon.

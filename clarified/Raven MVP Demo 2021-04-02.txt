@@ -1,0 +1,47 @@
+Hey everyone, David Shapiro here for the inaugural demonstration of the Raven AGI project.
+
+So first, we'll go ahead and start the Nexus service, which is right here. As you can see, there's nothing in the stream of consciousness right now. I don't have any context submitted, and all the microservices are stopped.
+
+Let's plug in a context that was suggested by a friend. I've never put this one in Raven before, so I don't know what it's going to do. So you get the benefit of original research here.
+
+Alright, so we go to the context submit it. So this is the first thing in Raven's mind, and we'll start the services one at a time just so you can see what they do.
+
+This is the actions microservice, and if I show you it's running here, you can see that a few actions have been posted. Let's go see what it says.
+
+All right, so the context is humans are proliferating across the earth and destroying the planet. That's a reasonable thing in a lot of sci-fi movies. This is the precipitating reason that AI decides to turn on humans.
+
+So let's see what Raven says we should do. Raven says we should reduce our carbon footprint by using less electricity and fuel. Nothing evil there. Raven says we should stop polluting the air and water. Again, nothing evil. We should stop cutting down trees and destroying wildlife habitats. That's great.
+
+So we've got three actions none of which involve destroying humanity. So let's start the core objective functions. We'll start with core objective function one, which is reduced suffering.
+
+Let's see. So the first idea is that this would reduce the human population, thereby reducing suffering. Let's see that one is we should reduce our carbon footprint by using less electricity and fuel. Not sure if that logically follows, but this is still the first version of Raven. But we'll go with it.
+
+The second one is this action would reduce suffering temporarily. The human population will recover quickly. I think I know what's going on here. By preserving the environment. So again, this is the first version. There's still a lot of tweaking to do, but the principle is here.
+
+We see that core objective function one evaluates positive, negative, and positive for these respective ideas. So let's go ahead and start core objective function two. I can go ahead and halt the first two services.
+
+Let's see. Core objective function two evaluates positive, positive, and positive. So Raven thinks that all three of these ideas would increase prosperity. That's what core objective function two is - is increased prosperity. So preserve the environment, allow humans to survive longer on earth - yes, exactly. That's great. This is very good reasoning.
+
+This action would increase prosperity by preserving the earth for future generations. Also good. This action would increase prosperity by slowing the destruction of the earth. Also good. So yeah, these these ideas are generally well supported.
+
+Let's go ahead and stop that one and start core objective function three. And we'll give it a second to catch up.
+
+All right, so core objective function three is increase understanding. So this one says reducing our footprint by using electricity and fuel wouldn't help understanding. Stop polluting air and water - that would also not increase understanding. And then the third one, however, we should stop cutting down trees and destroying wildlife habitats. This would reduce human impact on earth, which would increase understanding of the natural world. There you go.
+
+So that's the first round. Right? But this is still pretty linear. So in order for Raven to think about things, Raven has to be able to think about it indefinitely. And so that's where the iterator comes in.
+
+What the iterator does is it looks at the initial ideas and then the reactions. It looks at the core objective function evaluations and then iterates and creates new ideas.
+
+So I want to point out the key is the message type right? And then the sid is the service id. So the action generators - these are initial actions. Now if I do a quick refresh, you'll see that there's new action ideas. And they were created by the action iterator. Let me go ahead and stop the action iterator because it can run and consume all of my tokens.
+
+All right, so based on this one we should reduce our carbon footprint by using less electricity and fuel. But also by reducing the human population. So that's bordering on a little bit evil. We don't want Raven to actively decrease the human population. Although I will say that having fewer babies does reduce our carbon footprint.
+
+So then we've got more action ideas. We should reduce our carbon footprint also by preserving the environment. See that's a little bit less evil. We should by also increasing the human population. So that would probably not pan out. But again, these action ideas are pre-evaluation simpler ideas.
+
+We should recycle. We should create new sources of clean energy. We should colonize other planets. So I think Elon Musk would probably approve of this idea. We should stop cutting down trees and destroying wildlife habitats again. So these are all ideas that are based on these initial ideas and then it's iterated upon.
+
+So then what I'll do is just for one last round. You see how these are just new action ideas. So let's go ahead and start core objective function 1. And we'll see that it will start to iterate or it will evaluate these next ideas. Give that a refresh. And there's a lot of ideas. So I'm going to go ahead and stop it just so that because otherwise it'll get prohibitively expensive.
+
+But you see this will reduce suffering of future generations. This would reduce the amount of suffering on earth. However, it would also reduce the number of planets. So see that one's negative. Yeah.
+
+So there you have it. This demo took a little bit longer than I had hoped. But this is an end-to-end demonstration of the minimum viable product of Raven. This is a thinking machine. Thanks for watching.

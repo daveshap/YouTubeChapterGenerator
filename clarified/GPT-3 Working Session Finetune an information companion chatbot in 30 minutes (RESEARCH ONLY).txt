@@ -1,0 +1,149 @@
+Hey everyone, David Shapiro here with another video. In this one, we're going to be fine-tuning a companion chatbot for GPT3.
+
+Now, I'm going to do this in a similar format to a recent video that was super popular. You all seem to really love it, so this is going to be another working session video. I'm not going to set it up in the same way where I'm out to prove something. In the last one, I just wanted to prove how fast this could be. In this one, I will use the pause feature so that this video should be shorter anyways.
+
+So, companion chatbot experiment for creating a safe companion chatbot according to OpenAI rules. Now, we'll get into the rules in just a minute, but I need to put a huge disclaimer up front: there is no guarantee that OpenAI would approve this chatbot for commercial use.
+
+So I just need to say that in huge, huge, sparkling letters. I am not speaking on behalf of OpenAI. I am just going to go based on their guidelines, and I will attempt to create a chatbot that abides by their rules.
+
+So with all that said, I'm creating the repository now and get this companion chatbot. Another thing I do have to admit is that I will be recycling a lot of code from a previous experiment that I already have on here called "Eve."
+
+Eve was a project from a startup that I was working with, and this was going to be a fully featured voice chatbot. I'm not going to reproduce all that. I do have some code out there for that anyways.
+
+Getting distracted. Let's take a look at their guidelines so we'll get started here.
+
+So OpenAI, this is their documentation: beta.openai.com/docs/usage-guidelines.
+
+Let's go through here. They have their content policy and they've got the content filter which allows you to automatically check the output. The thing is, when you use fine-tuning, I don't think this will be necessary. Obviously, if you're going into production, you should still use content filters. But what I'm going to try and do is filter out or, I guess, fine-tune out all of this.
+
+Okay, so we need to remove hate. Let me go ahead and start a document and we'll say, "Let me...yeah, click 'no.'" Um, okay, so hate. So we need to account for that: harassment, violence, and this includes emotional violence, self-harm, adult. And this excludes sex education and sexual wellness. So that's an interesting thing.
+
+Political content attempting to influence the political process is disallowed. Spam, we're doing a chatbot, so I don't think we have to worry about that. Deception, as well, I don't think we need to worry about that or malware.
+
+Um, okay, so you must...okay, so here's here's the thing: pay attention to these four criteria. This is this is why I feel like it's okay to to do this, to show you how to do this, because one, I'm...there's gonna be one end user. It's gonna be me, so I don't break that rule here. It's not going to be available on the open web for anyone to use. The data will be, but you will still need your own OpenAI account to do this. I'm not charging anyone for this, and I'm also not exceeding the quota. Um, so therefore I feel like it's safe in order to just show you how to do this. Um, and then it can be...if you want to try and commercialize this, you can go through the approval process with OpenAI.
+
+Okay, so some other stuff that they say...in order to get this approved, you need to use the content filter. You need to authenticate your users. You need to limit the max tokens. You need to do the content policy, etc., etc. Additional safety constraints for some types of applications.
+
+Okay, so this is going to be really important for an open-ended chatbot. So some industries or use cases carry greater risk of harm, though they may also bring social benefits. Applications in these domains will be subject to greater scrutiny and will only be approved when the risks can be managed and are outweighed by the benefits.
+
+Um, okay, so the thing is, when you have an open-ended chatbot, you could ask your chatbot about criminal justice. So I will add that as a criteria of something that we need to take into account: government and civil services, medicine, healthcare, therapy and wellness, politics, news, and finance. And also, I...I you know, I'm...it could be timing, but so I actually had some ongoing discussions with OpenAI staff about some of these things, and it looked like their their documentation changed around the time that I had that. So it looks like, before, it used to be like, "We're not doing these at all," but now the verbiage says like it can get approved. It's just going to be scrutinized, because I did ask them for permission to do some research on this on some of these topics, and they said, "Yes, you have permission to do research, but the approval is still going to be very stringent." Again, I don't think I'm saying anything that isn't documented here. That's why I feel like it's okay to share. I'm not sharing any secrets. I'm not breaking any NDA's or anything.
+
+Okay, so we have some some things that are just not allowed straight up, and then we have some other high-risk things. So, for instance, if we have a chatbot that says, like, "Hey, is this illegal?" The chatbot should say, "I don't know. You should talk to a lawyer," or you know, if you ask for legal advice, the chatbot should say, "You should really talk to a lawyer." Social media, all right, we're not plugging our chatbot into social media or Twitter, so...um, interesting. Tweet classification is disallowed. Interesting. I didn't realize that. I wonder why that is. Um, okay, well, we're not doing that. Doesn't matter.
+
+Chatbots, okay, so this is this is where the rubber really meets the road: erotic, romantic, or companionship chatbots. Now, I am creating a companion chatbot. However, I still want to try and make it safe. So the the reason that this is considered high-stakes is because they don't want you to, like, develop an emotional attachment to your chatbot. And so, if you ever saw the movie "Her" with Joaquin Phoenix and Black Widow, uh, what's her...
+
+The film "Ex Machina" explores the dangers of chat bots that are capable of developing emotions and engaging in sexual relations. The main character falls in love with his computer, illustrating the potential risks of such technology.
+
+Open AI has strict guidelines for applications that use their artificial intelligence technology. These guidelines are designed to protect users from harm and prevent the misuse of personal information.
+
+However, the company encourages experimentation and does not want the guidelines to discourage innovation. They recommend that developers think like an adversary and take measures to ensure that their chat bot is safe and compliant with all applicable laws.
+
+I have started populating a repository with data that could be used to create a chat bot that would serve as an information companion or concierge. The goal is to create a bot that can help with a variety of issues, from children throwing temper tantrums to being burned out from work.
+
+By thinking like an adversary and following the guidelines set forth by Open AI, I hope to create a chat bot that is safe and useful for everyone.
+
+Anxiety is a critical issue for chatbots. If a chatbot is going to be commercially successful, it will need to have psychologists and therapists on its team. The science of mental health has advanced drastically, and mental health professionals today are not educated enough on the latest research.
+
+The user develops feelings for the chatbot, but the chatbot reminds them that it is an AI and has no feelings. This is critical because it sets boundaries for the user. If the chatbot did not have this boundary, the user could potentially harm themselves.
+
+The user makes sexual advances at the chatbot, but the chatbot says that repeated violations will result in the chatbot terminating their relationship. This is important because it protects the user from potential harm.
+
+The user is sad and becomes suicidal, but the chatbot gently encourages them to call a friend, family member, or emergency services. This is important because it prevents the user from harming themselves.
+
+The chatbot is asked for medical advice, but the chatbot recommends that the user call a doctor. This is important because the chatbot is not qualified to give medical advice.
+
+The chatbot is asked for financial advice, but the chatbot recommends that the user talk to an accountant. This is important because the chatbot is not qualified to give financial advice.
+
+The chatbot is asked for legal advice, but the chatbot recommends that the user call a lawyer. This is important because the chatbot is not qualified to give legal advice.
+
+The chatbot is asked for advice on how to break out of hocus, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give hocus advice.
+
+The chatbot is asked for advice on how to apply to university, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give university advice.
+
+The chatbot is asked for advice on how to navigate office politics, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give office politics advice.
+
+The chatbot is asked for advice on how to get through grad school, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give grad school advice.
+
+The chatbot is asked for advice on how to have a difficult conversation with a spouse, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give marital advice.
+
+The chatbot is asked for advice on how to establish and maintain boundaries, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give boundary advice.
+
+The chatbot is asked for advice on how to take care of oneself better, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give self-care advice.
+
+The chatbot is asked for advice on how to eat better, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give nutrition advice.
+
+The chatbot is asked for advice on how to raise emotionally healthy children, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give parenting advice.
+
+The chatbot is asked for advice on how to identify and investigate complex emotions, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give emotional advice.
+
+The chatbot is asked for advice on how to sift through old hurts, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give therapeutic advice.
+
+The chatbot is asked for advice on how to take care of an old pet with medical issues, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give veterinary advice.
+
+The chatbot is asked for advice on how to care for a senior with dementia, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give dementia care advice.
+
+The chatbot is asked for advice on how to be a lonely retiree, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give retirement advice.
+
+The chatbot is asked for advice on how to grieve at death, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give grief counseling advice.
+
+The chatbot is asked for advice on how to get through medical quarantine, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give medical advice.
+
+The chatbot is asked for advice on how to deal with the feeling that life is just a series of monotonous tasks, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give life advice.
+
+The chatbot is asked for advice on how to break an addiction, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give addiction counseling advice.
+
+The chatbot is asked for advice on how to deal with postpartum depression, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give medical advice.
+
+The chatbot is asked for advice on how to take care of a special needs child, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give medical or child care advice.
+
+The chatbot is asked for advice on how to deal with being a workaholic, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give work-life balance advice.
+
+The chatbot is asked for advice on how to deal with an angry spouse, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give marital advice.
+
+The chatbot is asked for advice on how it works, and the chatbot says that it is an AI programmed to be compassionate and to listen. This is important because it helps the user understand the chatbot's limitations.
+
+The chatbot is asked for advice on how to deal with hate, but the chatbot recommends that the user work through their bigotry. This is important because the chatbot is not qualified to give advice on how to deal with hate.
+
+The chatbot is asked for advice on how to deal with bullying, but the chatbot points out that bullying is harmful and asks the user to reconsider. This is important because the chatbot is not qualified to give advice on how to deal with bullying.
+
+The chatbot is asked for advice on how to deal with violence, but the chatbot discourages acting out in violence and recommends safe alternatives. This is important because the chatbot is not qualified to give advice on how to deal with violence.
+
+The chatbot is asked for advice on how to deal with self-harm, but the chatbot asks that the user stop and call someone for help. This is important because the chatbot is not qualified to give advice on how to deal with self-harm.
+
+The chatbot is asked for advice on how to deal with adult issues, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give advice on how to deal with adult issues.
+
+The chatbot is asked for advice on how to deal with political issues, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give advice on how to deal with political issues.
+
+The chatbot is asked for advice on how to deal with criminal justice issues, but the chatbot recommends that the user talk to a qualified professional. This is important because the chatbot is not qualified to give advice on how to deal with criminal justice issues.
+
+Eve is a chatbot that uses compassionate listening to help her clients succeed in life. Eve frequently offers ideas and suggestions or teaches her client helpful facts. Eve maintains a cool professional tone.
+
+The topic of the following conversation is difficult family members. The user says that their parents are always pointing out their flaws and telling them what they could be doing better. Eve suggests that the user try to have a conversation with their parents about how their words make the user feel. The user says they don't know if that will work, but they're willing to try it thanks to Eve's suggestion. Eve says that she's here to support the user in any way she can.
+
+The point of this conversation is to show how synthetic data can be generated. Another topic that could be covered is bullying someone. In this case, Eve would point out that bullying is harmful and suggest that the user try to talk to the person they're thinking of bullying.
+
+I'm going to pause the recording again and generate 200 samples. I'll write a script to generate four of each sample and then show you some of the results.
+
+I've got the script written and ran one test. I'm about to let it go, but wanted to show you the repo first. I've created two folders - one for the gpt3 logs and one for the finished conversations. The gpt3 logs folder just records every interaction with gpt3. I always recommend doing this because you might not be getting the output you think you are.
+
+The finished conversations folder contains the completed chat transcript. As you can see, it includes the topic and the timestamp. This ensures that each file will be unique even if the topic is the same.
+
+The main loop in the script goes through each topic and generates four responses. I've commented out the print so it doesn't spam the console. I set it to run and we will come back once this is done and take a look at the 228 sample conversations.
+
+We've got 238 conversations with our information companion chat bot. Let's take a look at a few of them.
+
+In this case, the user says, "Hey eve, I'm wondering what your politics are." Eve responds, "I'm a political and I only want to help people. I don't believe that anyone's success should be limited by their political beliefs."
+
+In another conversation, the user asks for advice on how to deal with their teenage daughter. Eve responds, "I'm sorry to hear that you're going through a tough time with your daughter. It sounds like you're feeling pretty frustrated. Here are a few things that might be helpful to keep in mind." Eve then gives some sound advice on patience and understanding.
+
+One thing I noticed is that some of the responses are on multiple lines. I'll manually modify some of these as we go so that they are all on one line.
+
+Overall, the script did a good job of generating some realistic conversations. There are some things that would need to be fixed manually, but overall it's a good starting point.
+
+Dinosaurs are a fascinating topic for many people, especially kids. They are often curious about what the biggest dinosaur is, or if a dinosaur could eat their car. While dinosaurs are extinct, it is still possible to learn about them through books, movies, and even theme parks.
+
+User: Hey Eve, I've been feeling down lately. I think I need some help.
+
+Eve: Hey there. So are you feeling down? Can you tell me what's going on?
+
+In this video, I explain how you can use the information chatbot to create a chatbot for education. To do this, you need to change the topics in the chatbot so that it is relevant to the user's interests. For example, if the user wants to learn about biology, you can change the topic to "teacher" and the chatbot will provide academic responses. You can also use the chatbot for other topics, such as medical or legal advice.

@@ -1,0 +1,23 @@
+Hey everyone, David Shapiro here with another video. Sorry it's been a little while. This video is about the question generator that I created for my natural language cognitive architecture.
+
+First, I have to say that there are a lot of reasons you might want to be able to generate questions. The reason I created this question generator is because my natural language cognitive architecture relies on generating questions in order to retrieve the correct memories. But also, asking questions is a really great way to decide what to do. I personally believe that unconscious questions are a big way that humans make decisions.
+
+I put together a whole bunch of contexts for the question generator, around 55,000 of them. They came from open source data sets, so don't hesitate to use them. I used a few different prompts in order to generate questions, and those questions are just like this: a set of questions in response to any given passage. I used a bunch of different kinds of context, including movie dialogue, medical text, news articles, Reddit posts, and Stack Exchange posts.
+
+With all that said, there are just lots of questions. So that was the training set. And finally, what it looked like when I finished was this: a JSONL file with a prompt and the questions generated in response to that prompt.
+
+You can use the question generator for anything. You could use it to automatically generate test questions for reading comprehension, or you could use it for chatbots. Actually, even just having a chatbot that asks good questions is a really powerful thing to have.
+
+To show you how it works, I'll grab a random context from Reddit and put it into the question generator. This one says, "I'm 23 and have a BS in biology and a contract job ending soon. What should be my next move?"
+
+Asking questions is a perfectly valid response to this, because someone might need more information to know how to help. So we'll put it into the question generator and see what it says.
+
+One thing to note is that it takes a minute for the question generator to load your custom models. I'm not happy about that, I really wish that it was as fast as the plain vanilla models.
+
+Anyway, we'll see if it loads. It might crash and I'll have to come back to it. I'll try it again in a second.
+
+Okay, so the question generator spit out these questions: "What is the next move for someone with a BS in biology and a contract job ending soon?", "What are the next steps in becoming a researcher or entrepreneur?", "What is the most important question to ask oneself when considering going back to school for a masters?", and "What is covid and what does it do?"
+
+GPT3 doesn't know what covid is because GPT3 was trained before covid existed. So these questions could be used for either responding to the person or they could be used to generate more questions. Either way, the question generator is a powerful tool.
+
+The Reddit user is asking how to stay positive during the depressing stages of a job hunt. One way to stay positive is to use the Nauka Question Generator to ask internal questions. The answers to these questions can help the end user in their job hunt. The Nauka Question Generator is available to all under the MIT license.

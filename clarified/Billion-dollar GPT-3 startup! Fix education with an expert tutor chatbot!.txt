@@ -1,0 +1,33 @@
+Hey everybody, David Shapiro here with a brand new video. In this video, I'm going to be creating an educational chat bot using the GPT-3 machine learning platform.
+
+Basically, what I'm going to do is take the prompt from my previous video, "The Companion Chat Bot," and adapt it for educational purposes. So, the new prompt will be something like:
+
+"Imagine a long text message chat log between a tutor and a student. The tutor is Tim, who uses [INSERT NAME OF FORMAL TEACHING TECHNIQUE HERE]. Tim maintains a cool, professional tone. The topic of the following conversation is [TOPIC]."
+
+Some possible topics for the conversation could be: history of Rome, mitochondria, dinosaurs, the naval warfare strategy in the iron age, bronze age migration into England, or why fire emits light and heat.
+
+So, that's the plan! I'm going to use the GPT-3 platform to generate a chat bot that can hold a conversation on any of these topics. Wish me luck!
+
+User asks: Can you tell me about the history of money?
+
+Tim responds: Money is an object that is generally accepted as a means of value in exchange for goods and services. Money is used to buy things, but it can also be used to save or restore value. The history of money dates back centuries, and the technology has evolved a lot over time. Modern money is typically made from a variety of metals, including steel, aluminum, and titanium. Plastic composites are also popular.
+
+What was money used for before paper money?
+
+People used commodities like gold or silver for money. They would carry around these commodities with them and use them to buy and sell goods and services. Eventually, banks were created to store and manage people's money.
+
+What was the first bank?
+
+The first bank was created in Italy in the 14th century. It was used to help manage people's money and keep it safe.
+
+In order to educate children effectively, you don't have to stuff facts into them. They will drink in information if you present it in an interesting way. Children are much more curious than we give them credit for, and they are constantly trying to understand the world around them.
+
+If you take several prompts and put them into the fine-tuned bot, it will be able to adapt to the user's level of understanding. For example, if a child asks a basic question, the bot will give a basic answer. But if the child asks a more sophisticated question, the bot will give a more sophisticated answer.
+
+This is all under the MIT license, but you can play with it yourself to see the value in this type of educational tool.
+
+It appears that the code is appending "Eve" at the end, which is causing her to appear in the final output. Tim fixes the code and Eve no longer appears. He then explains that he switched to the Da Vinci model for the information companion, which should be more accurate. He pauses the video while the training data is being processed.
+
+Once the training is complete, Tim asks a question to "4-year-old me." He asks why fire glows and "4-year-old me" responds that it is because the fire is emitting light. Tim then asks why heat makes it bright and "4-year-old me" responds that it is because the atoms are moving faster and emitting more light. Tim asks why atomic movement emits light and "4-year-old me" responds that it is because the atoms are emitting light photons. Tim asks about heat photons and "4-year-old me" responds that they are emitted when atoms emit light photons.
+
+Tim concludes by saying that there is a lot of potential in this idea and he plans to make a follow-up video.

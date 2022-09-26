@@ -1,0 +1,9 @@
+Hey everyone,
+
+I wanted to demonstrate the encyclopedia service in this video. The encyclopedia service is meant to give Raven factual information about the world. Right now, the encyclopedia service is based on Wikipedia. And of course, Wikipedia is not the absolute best source of information, but it's good enough for now.
+
+So I showed how I've got the Nexus running. I gave it the context "bacon is tasty bacon is good I like bacon do you like bacon bacon is made from pigs dogs definitely like bacon." So a key word here is bacon. I tested a few things in the encyclopedia service. What it does is it looks for context and then, once it finds a context, it looks for keywords in that context and uses those keywords to search its encyclopedia database. Then, once it searches that database, it adds those articles to the stream of consciousness in the Nexus so that it can then be used for context augmentation or question answering.
+
+I started the encyclopedia service and it found a whole bunch of stuff and injected it into the Nexus. Then I stopped the service and went back to the Nexus. Whoa! Look at all this! So what it did was it injected it as a list, but what we did was scroll back up a little bit to the debug stuff. These are the keywords it found: "dogs definitely like bacon," "I like bacon," and "bacon." It searched for each of these terms and found the Wikipedia articles "bacon," "turkey bacon," and "chicken bacon." This gives Raven very explicit knowledge about the world. And through context, Raven can filter this out.
+
+This is a minimum viable product. In the future, the encyclopedia service will use semantic understanding so that it will only recall articles that are relevant. Thanks for watching!

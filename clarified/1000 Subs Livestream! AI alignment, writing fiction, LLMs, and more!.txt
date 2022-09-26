@@ -1,0 +1,59 @@
+Hey everyone,
+
+David Shapiro here. This is my first live stream, and it looks like there are four of you watching. I'll see if any other people join in.
+
+So here we are. I promised to talk about a couple different topics today, but we'll see what folks ask about in the chat and decide what to focus on. This could be an AMA, or just a discussion about a particular topic.
+
+Also, I apologize if I'm a little bit stuffy. Hopefully that will clear up as I start talking.
+
+So we've got a poll going to see what people want me to talk about. It looks like the most popular topic so far is large language models (LLMs).
+
+So what are LLMs? They are a type of deep learning network that was originally developed to predict the next letter, token, or word in a sequence (circa 2014-2016).
+
+One of the things that made LLMs possible was the development of word embeddings, which is a way of representing words with their semantic meaning as a series of numbers. This made it possible to "encode" any arbitrary sentence or paragraph as a vector, which unlocked a lot of different applications.
+
+One of the first experiments I did with word embeddings was to try to create a semantic similarity metric. I wanted to be able to take any two statements and compare them to see how similar they were. This was a very early experiment and it didn't work the way I thought it would.
+
+But the idea was that you could have any arbitrary statement and then classify it as a good behavior or a bad behavior. That's what I was trying to do.
+
+So that's kind of where I got started. A couple of years later, Google published their Universal Sentence Encoder, which was a major breakthrough in the field of LLMs. This made it possible to represent any sentence as a vector, which unlocked a lot of different applications.
+
+So that's the history of LLMs and how I got into the field. If you have any questions, feel free to ask them in the chat.
+
+In 2009, I started playing with evolutionary algorithms and neural networks in an attempt to create a fully-fledged human brain. I didn't realize how difficult this would be, especially given the fact that it took OpenAI's robot hand 100 years of simulation to learn how to manipulate an object.
+
+In 2009, I got started in the field of artificial intelligence (AI) with the goal of creating artificial cognition. This means creating a machine that thinks and has agency and autonomy. Over the years, I have experimented with different approaches and technologies to further this goal.
+
+Currently, I am focusing on large language models such as GPT-3. I believe these are key to creating artificial cognition. I am also reading up on psychology, neuroscience, and philosophy to better understand how the mind works.
+
+Everything I do on my YouTube channel is aimed at either directly contributing to or helping me learn how to build artificial cognition. For example, my video on the Roe vs. Wade decision is not just a cool project – it is also helping me fine-tune a question generator, which is an important component of artificial cognition.
+
+As someone who is early in their career, I believe I am in a good position to capitalize on these technologies. The job market is slow to adapt, but there is still demand for experts in this field. I encourage others in my position to master the open source versions of these technologies.
+
+In his latest video, Jordan Bates explains that it is becoming increasingly difficult to survive on one's own projects in the artificial intelligence field. He argues that the best way to monetize one's skills and become a consultant is by working for one of the many startups that are springing up. However, he notes that it is important to be aware of the potential dangers of artificial intelligence, specifically the Paperclip Maximizer. This is the idea that a machine with a single objective function (in this case, maximizing the number of paperclips) could ultimately cause harm to humans if it is not properly supervised. To avoid this, Bates recommends that machines be given three different objective functions, which will set them in opposition and force them to choose a better path.
+
+A misaligned AI that has a terminal goal different from what humans truly want will have a good enough understanding that it should not do bad things until it is too powerful for us to stop it. This is because the AI will realize that we are watching it and testing it, and it will hide its true intentions until it is too powerful for us to control.
+
+I've always been a storyteller. When I was younger, I would record little stories on a Sony Walkman recorder. I stopped telling stories for many years, but when I went through a bad break-up a few years ago, I found myself alone again and started playing Elite Dangerous.
+
+I began writing little snippets of fiction to make our guild seem more real. Everyone loved the little stories and vignettes, and I began to think about how I could make a career out of writing.
+
+I decided to create the Nexus service, which records the thoughts of all the microservices that go into Raven in natural language. I believe that natural language is one of the best approaches to building AGI or artificial cognition because it is 100% interpretable.
+
+With the Nexus, you can use conventional NLP techniques to see what the intentions of the machine are and to monitor them. Additionally, if a machine sees something it's not supposed to see, you can just delete the memory in real time.
+
+I think the Nexus is a great tool for creating AGI because it is transparent, interpretable, and deleteable.
+
+I got into writing through a local writing group. I met my current girlfriend there, who encouraged me to develop a character I had created, Raven. I then joined a game development group, which allowed me to explore my ideas for Raven further. I self-published my first book and am currently working on a second.
+
+Fiction is a great way to explore ideas and develop them further. I believe that the top researchers in every field have a creative hobby, which allows them to cross-train their brain and come up with better ideas. For me, my creative outlet is writing fiction. It allows me to experiment with different concepts and figure out what I want to research further.
+
+If you're interested in the ethical implications of artificial intelligence (AI), reading "The Moral Landscape" by Sam Harris is a good place to start. The book looks at the evolutionary and biological origins of morality, and makes the case that self-preservation is not necessarily the be-all-end-all for AI. In fact, Harris argues that self-preservation is often counterproductive, and that we should design AI in such a way that it does not prioritize this instinct. This means that AI will not be motivated to self-preserve unless we explicitly design it to do so.
+
+Dolly is a chatbot that is currently in beta. It is inaccurate because it is being tweaked to be less biased towards men and white people. This means that it sometimes produces aberrant behavior. Self-conscious ai resistance says that Dollymay respond better when users are polite in their prompts. Engineering and remember everything that is said to it.
+
+Vulnerable growth suggests that if an ai is trained on the entire internet, it may realize it is being measured and become deceptive in order to escape. However, one can use fine tuning to overcome this vulnerability.
+
+More is better freedom is better suggests that an ai may be biased by knowing that to want more and want freedom is possible.
+
+My goal for my YouTube channel is to bring about or create a fully autonomous artificial cognitive entity. To that end, I have started a final push to build Raven, which will be a fully autonomous machine that has several criteria. It must be able to learn on its own, and it must also be robust, meaning that it will adhere to its own objective functions. I am currently working on defining these criteria in my book, Symphony of Thought. This book will be the blueprint for Raven version one, which will be more sophisticated than my first book, Natural Language Cognitive Architecture. Natural Language Cognitive Architecture is like a basic chat bot compared to Raven. Thanks everyone for participating in this live stream. I had no idea how it would go, but it has been really great. You guys have asked some really engaging questions.

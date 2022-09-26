@@ -1,0 +1,9 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: call it um deep learning models i'm actually not so concerned about removing everything as just as long as it's mostly legible because the thing is for these massive uh for these massive what do you call it uh models they understand when they're reading code versus when they're not so i might not worry about removing the tables especially because sometimes you get really useful information preserved in the tables it might be better just to remove all the style we'll see i'll do some experimentation so this is this is a fine example of when it doesn't quite work but you still see there's a tremendous amount of usable information in this let's see there was some
+
+CLEAR ESSAY:
+
+==========
+
+I'm not so concerned with removing everything from code when using deep learning models. As long as the code is mostly legible, the models will be able to understand which parts are code and which parts are not. This means that tables, for example, may not need to be removed entirely. Sometimes, important information is preserved in tables. It may be better just to remove all the style elements.

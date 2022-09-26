@@ -1,0 +1,27 @@
+In the previous video, we created a fine-tuned model for our novel writing project. This time, we're going to use that model to generate a summary of the novel so far.
+
+To do this, we first need to create a new prompt that will generate a summary of the novel. We'll use the "summarize this passage" prompt from the previous video, but we'll add the adjective "gently" to it. This will tell the model to generate a summary that is less aggressive and more concise.
+
+Once we have our prompt, we can use it to generate a summary of the novel so far. We'll do this by feeding the prompt into the model and then summarizing the resulting text.
+
+The resulting summary should be shorter than the original novel, but it should still retain the important details.
+
+The goal of this project is to write a novel by using a machine learning model, specifically the GPT-3 model. In order to do this, we need to prepare the training data, which is similar to writing the novel itself. We'll need two complete GPT-3 engines, one for the fine-tuning completion and one for the summary prompt. We also need an outline of the novel's premise, which we can get from a folder full of premises.
+
+Once we have the outline, we can use the prompt to generate the first chunk of the novel. From there, the story will unfold on its own. We can use the summary prompt to generate a summary of the story so far, and then use the fine-tuning completion to write the next chunk. We'll repeat this process until we reach the end of the novel.
+
+In my previous video, I showed you how to use the GPT-3 API to generate new text based on a prompt. In this video, I'm going to show you how to save the generated text to a file, and how to keep track of the full text so far in a summary variable.
+
+To start, we need to load the full prompt into a variable. We'll call this "prompt_full". Next, we'll create a variable for the summary so far, and another for the last chunk of text generated. These will be called "summary_so_far" and "last_chunk", respectively.
+
+Now we're ready to use the fine-tune completion function. This will take our prompt and generate the next chunk of text. We'll save this chunk as "next_chunk", and then add it to the summary.
+
+Once the next chunk is generated, we'll save it to a file. The file name will be "novel/chunkXXX.txt", where XXX is the chunk number. We'll start at chunk 2 and go up to chunk 20.
+
+After the next chunk is saved, we'll update the summary variable with the new text. If the summary is too long, we'll shorten it.
+
+That's it! By following these steps, you can generate a long, coherent piece of text using the GPT-3 API.
+
+The police are on edge in the city as a string of murders have the populace on edge. The detective is able to solve the case and apprehend the killer.
+
+In this video, I show how to use a pre-trained GPT-2 model to generate a novel. I start by writing the first chapter, then use the model to generate the rest of the novel. The results are surprisingly good, with the model creating a cohesive story with interesting characters and a satisfying ending.

@@ -1,0 +1,15 @@
+David Shapiro gives a brief update on his research into artificial cognitive entities (ACEs). He has three microservices working: a simulation microservice, a semantic embedding microservice, and a nexus service.
+
+The simulation microservice plays out a scene in an imaginary environment. The semantic embedding microservice takes as input either a sentence or a paragraph and outputs a semantic embedding. This allows the nexus to search for the information.
+
+The nexus is a central service that coordinates the other microservices. It includes a memory in natural language, a timestamp, and a UUID. The nexus will also register which model each microservice is using. This metadata will be available to every other service, as well as the conductor (a service that provides feedback to the microservices).
+
+The core objective functions microservice will be the central service for determining the ACE's motivation. This microservice will be tested in different scenarios, including war game scenarios and politically divisive situations.
+
+The final microservice will be the actions and planning microservice, which will be responsible for taking thoughts and deciding what to do. This microservice will use the basal ganglia, which is part of the brain responsible for executive function.
+
+The basal ganglia is responsible for choosing appropriate behaviors in response to changes in the environment. This includes selecting the correct response from a menu of options, as well as switching between tasks as needed. This process is known as a finite state machine, and is used in many artificial intelligence applications.
+
+Currently, I am working on a microservice that will help with executive decisions, but before that can be completed, I need to have a cognitive service that can generate a list of possible behaviors. This is all part of my effort to create an open source artificial intelligence system that is available to everyone.
+
+Thanks for watching, and please consider supporting me on Patreon so that I can keep this research going.

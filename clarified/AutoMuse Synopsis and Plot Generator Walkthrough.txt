@@ -1,0 +1,33 @@
+In the first century AD, the Roman Empire is at its height of power. However, in the far-flung outpost of Britannia, things are far from stable. A young Centurion named Marcus Flavius Aquila arrives in Britannia with a mission to find an eagle, which takes him all over the country. Along the way, he must deal with hostile natives, treacherous allies, and his own inner demons.
+
+Davinci02 can be good at generating fiction, but it can also be God awful. The reason it sometimes works and sometimes doesn't is because you need to be more creative to get better results.
+
+Text davinci02 can generate a couple of generic boilerplate sentences or it can generate a story about Marcus Fabius Aquila. The prompt I used generated the latter.
+
+Rather than fine tuning, which is expensive and Frozen, I brainstormed with the Auto Muse tool. I set the genre to science fiction, the literature setting to Scandinavia, and the time period to early medieval.
+
+One problem with having a bunch of different elements is that they sometimes don't work well together. For example, I once generated a story where a Scandinavian boy in the third century comes across a portal to a sci-fi world in a Viking ship.
+
+To get around this, I created a system where I would grade each synopsis on a scale of 1 to 5. This allowed me to filter out the bad ones and keep the good ones.
+
+I also experimented with using generative adversarial networks (GANS). This is where you generate a bunch of synopsis and let the tool grade them. The idea is to get it to learn what makes a good synopsis so that it can generate better ones.
+
+So far, this approach seems to be working well. I've been able to generate some good stories using Auto Muse.
+
+The protagonist of our story is Hermione Granger. She's a young wizard who's just starting her first year at Hogwarts School of Witchcraft and Wizardry. Hermione is very smart, but she struggles socially. She's also spunky and quirky, which makes her relatable to the reader.
+
+The tone of the story is whimsical and nostalgic. It's a fan fiction for revisiting someone's favorite character. The writing style is witty, thoughtful, and richly detailed.
+
+The plot of the story follows Hermione as she begins her studies at Hogwarts. She quickly realizes she's a natural at magic. However, she soon discovers that the potions master, Professor Severus Snape, doesn't think highly of her. Hermione eventually goes on to marry Ron Weasley and have two children.
+
+ Sirius Black, a dangerous wizard who's been convicted of killing twelve Muggles, escapes from prison. Harry Potter, Hermione, and Ron must work together to stop Sirius before he can harm anyone else.
+
+This is just a basic outline of the story. The plot generator can be used to create a more detailed plot outline, including specific scenes and dialogue.
+
+I recently created a tool called Auto Muse, which is a AI-powered writing assistant. I've been working on it for a while, and I wanted to give an update on its progress.
+
+Auto Muse has three main features: a synopsis generator, a plot outline generator, and a writing style fixer. I've found that it works best with the original Da Vinci model, as it is not as fine-tuned and can thus produce more creative results.
+
+So far, I've had the most success with the synopsis generator. It is able to produce longer, more detailed outlines than the other two tools. However, it is still not able to produce full-length novels. I think this is something that could be improved with further fine-tuning.
+
+Overall, I'm happy with the progress of Auto Muse. I don't think it will disrupt the writing market, but I think it can be a helpful tool for writers, especially those who are struggling with writer's block.

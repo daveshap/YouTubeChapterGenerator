@@ -1,0 +1,73 @@
+I'm back. Okay, so I know that I said I would take two to four months off, but something has changed in my brain and I'm not going to take that long anymore. I have continued reading Brain Trust, and as always happens when I read cognition or neuroscience, I'm inspired to do more work. So I want to bring you up to speed with what I worked on last night.
+
+I didn't share it because it is a politically sensitive thing. I checked OpenAI's guidelines for content sharing and publication, and you're not supposed to share anything that is part of a political campaign, so I think this is okay. But basically what I did was I took the Supreme Court opinion on Dobbs versus Jackson, which is more conventionally known as overturning Roe versus Wade.
+
+It is crazy long—454,000 characters. I ran it through my recursive summarizer, and after four iterations I got down to the following: "The Supreme Court has overturned Roe versus Wade, which means that states are now able to ban abortion. This will have a particularly hard impact on low-income women who will not be able to afford to travel to states where abortion is still legal. Many will be forced to turn to illegal and unsafe abortions, which could lead to their death."
+
+So that was the ultimate result of recursively summarizing this document—a very impactful summary. It occurred to me though that just recursively summarizing something from an arbitrary length down to something super concise is great, but you lose a lot of resolution. And there is a huge need for answering questions from arbitrary volumes of data. This is an unsolved problem, and it is a non-trivial problem.
+
+So what do I mean by answering questions from arbitrary data sources or an arbitrary number of documents? Whether you are a business or whether you're building artificial cognitive entities or chatbot assistants, you're going to have a huge amount of data to filter through.
+
+Before we get started, I just wanted to plug my Discord server that I just started up. The join link will be in the comments. This is a really smart bunch of people who are all doing really great stuff, so if you want to join my research Discord, please feel free to jump in—just make sure you check out the rules first. There are only four rules: keep it cool, be kind, discussion not debate, agree to disagree, and beliefs and evidence. Other than that, pretty much everything goes. We want it to be chill and friendly and productive. This is not a place to prove that you're right or to prove that other people are wrong. It's not a place to show off or anything like that. We are here to make the biggest difference possible for the world.
+
+Now that that plug is out of the way, let's talk about multi-document answering. OpenAI originally had their answers endpoint, which allowed you to have an arbitrary number of documents, and it would search for the right document and give you an answer. They deprecated that because nobody used it, but it occurred to me that maybe there is something here.
+
+Say, for instance, you've got a robot. You imagine that you've got a domestic robot, and you want it to keep track of like, "Hey, what did I tell you a year ago?" Or you have a business assistant that you want to be able to have intuitive discussions with. Managing large amounts of knowledge and memories is going to be critical for this. And if you just summarize an arbitrarily large amount of data, that's fine, but you lose a lot of information and you can't interact with it.
+
+So this is going to be one of my "pair programming sessions." You always tell me that you love watching me just take an initial stab at something, so let me just show you where we're starting. So, one, I'm going to borrow some code from my recursive summarizer, but also I'm going to borrow some code from my acog experiment. One of the things that I did in the acog experiment is I've got this function that allows you to stack memories and also embed memories, so I'll be borrowing some code from that as well.
+
+So, without further ado, let's go to my multi-document answering. I've already borrowed this code to recursively summarize something. So basically what I'm going to do is, because we've got a good example to start with, I'll go ahead and just grab this document, and we'll start here. So we'll take that from the recursive summarizer. Let me just show you—this is it's 454 thousand characters long and it is dense. It has a lot of information.
+
+So this is a Supreme Court opinion, and in order to allow people to better engage with political discourse or other information problems, wouldn't it be great if you had a really powerful chatbot that could answer questions and summarize things? So that's what I'm going to try and do. And obviously, this is a non-trivial problem. I do not expect to finish it today, but we'll see how far we get.
+
+Okay, so recursively summarize. First things first—we're not going to just summarize everything. So we get we're going to have to throw out some of this. Let's go ahead and rename this to input. Input.txt is fine.
+
+All right, so it all text equals open file input. Chunks equals text wrap. So what this does is it breaks it up into chunks of 3000 characters. What this first one is going to do is, my intuition is that what we should do is go ahead and make an index. Rather than make like an inverted index that you'd use in store in a database or whatever, we're going to do a vector-based index.
+
+Let me show you my acog experiment. So the inner loop—what I've done here is I've got a memory, and I embed the memory. So basically, what I'm going to do is I'm going to take this document, and I'm going to embed it. So I'm going to take the first 3000 characters, and I'm going to embed it. And then I'm going to take the next 3000 characters, and I'm going to embed it. And I'm going to keep doing that until I hit the end of the document.
+
+And then what I'm going to do is I'm going to take each of those embeddings, and I'm going to average them. And that's going to give me a single vector that represents the document. So that's what I'm going to do. I'm going to take this document, and I'm going to embed it, and then I'm going to average the embeddings. And that's going to give me a vector that represents the document.
+
+And then what I'm going to do is I'm going to take that vector, and I'm going to compare it to all of the other vectors that I've already generated. And I'm going to find the most similar vector. And that's going to give me an index of where that document is in the vector space.
+
+So that's what I'm going to do. I'm going to take this document, and I'm going to embed it, and then I'm going to average the embeddings. And that's going to give me a vector that represents the document. And then I'm going to compare it to all of the other vectors that I've already generated, and I'm going to find the most similar vector. And that's going to give me an index of where that document is in the vector space.
+
+And then, once I have that index, I can just do a lookup. So, if I have a question, I can just take the question, and I can embed it, and then I can find the most similar vector. And that's going to give me an index of where the answer is in the vector space.
+
+So that's what I'm going to do. I'm going to take this document, and I'm going to embed it, and then I'm going to average the embeddings. And that's going to give me a vector that represents the document. And then I'm going to compare it to all of the other vectors that I've already generated, and I'm going to find the most similar vector. And that's going to give me an index of where that document is in the vector space.
+
+And then, once I have that index, I can just do a lookup. So, if I have a question, I can just take the question, and I can embed it, and then I can find the most similar vector. And that's going to give me an index of where the answer is in the vector space.
+
+So that's the plan. We'll see how it goes.
+
+We get embeddings from OpenAI, and this one is with Ada. We'll probably do Babbage or something, but for search, I think 8 is probably fine. So we'll copy this function.
+
+Basically, what this function does is it takes a text that you're going to try and match, and then passes it the index. The index is a list of dictionaries that have a file name and vector. So what this function does is it compares the text to the vectors in the index, and finds the most similar vector.
+
+We'll do it a little bit differently, where we'll just have the whole thing in memory, and instead of having a file name, we'll just have the chunk of text. That way, it'll all be in memory.
+
+The first thing we need to do is build our index. We'll copy the update index function, and rename it to just build index. Then, we'll list all the files, and get the embedding for each one.
+
+For each chunk of text, we'll get the embedding. The embedding is a numerical summary of the text. Then, we'll save it as a JSON file. That way, it'll be readable.
+
+Once we have our index built, we can then search it. We'll take a text, and find the most similar vector in our index. That way, we can find the most similar experience in our ACOG's memories.
+
+We've built an index of textual data, and now we need to answer questions with it. To do this, we'll take the question, convert it into a vector representation, and then find the 10 closest matches in our index. This should work for any question, as long as the question can be represented as a vector.
+
+The court decided to allow states to ban abortion because they believe a woman's freedom and equality are not involved in the decision to bear a child. This is according to the passage. The detailed answer will be given by the GPThree completion.
+
+The Supreme Court overturned Roe v Wade because it didn't like that the query is there, and the scores are correct. However, the reverse is true and the results list is empty. So, we need to class Why did the Supreme Court overturn Roe v Wade.
+
+Oh, it's taking longer. Bueller.
+
+See, I needed to add in a few more things. I forgot to import re or regex, which I used to clean it up, and I also didn't import sleep as well.
+
+The Supreme Court recently overturned a lower court ruling that had struck down a Mississippi law that would have banned abortion after 15 weeks of pregnancy. In a 5-4 decision, with Justice Amy Coney Barrett joining the court's three other conservatives in the majority, the Supreme Court ruled that the law is constitutional. This decision is a major victory for abortion opponents and a blow to abortion rights advocates.
+
+The majority opinion, written by Justice Clarence Thomas, states that the Constitution does not protect a woman's right to an abortion. Thomas writes that the court's previous decisions on the matter (Roe v. Wade and Planned Parenthood v. Casey) were wrongly decided and should be overruled.
+
+In Dobbs v. Jackson Women's Health Organization, the Supreme Court considered a challenge to a Mississippi law regulating abortion. The law, known as the Gestational Age Act, prohibits abortion after 15 weeks of pregnancy. The court first noted that abortion is a matter of great social significance and moral substance. The court then went on to explain that the Mississippi legislature had identified a legitimate interest in protecting the life of the unborn, which provided a rational basis for the Gestational Age Act. The court therefore concluded that the act was constitutional and reversed the decision of the lower court. The court also made clear that its decision should not be interpreted as an endorsement of all abortion restrictions.
+
+The Supreme Court considered several historical precedents when overturning Roe v. Wade. First, they looked at the pre-constitutional common law history in England, which showed that abortion was largely prohibited in most American states as of 1868. They also considered the principle of stere decisis, which requires respect for the court's precedence and for the accumulated wisdom of the judges who have previously addressed the same issue. The court found that Roe was an egregiously wrong decision that had caused significant negative consequences and that overruling it would not unduly
+
+The Supreme Court's decision to overturn Roe v. Wade was based on several historical precedents. Firstly, they looked at the precedent set by Roe itself, which was incorrectly decided and based on an erroneous historical narrative. Secondly, they looked at the precedent set by Casey, which revised the textual basis for the abortion right and silently abandoned Roe's historical narrative. Finally, they looked at the precedent set by Janus and Ramos, which held that states cannot protect fetal life prior to viability. All of these factors led the Supreme Court to overturn Roe v. Wade.

@@ -1,0 +1,19 @@
+In her instructions to students, Anna Mills asks them to write a thorough summary and critical assessment of an argument. She provides specific guidelines for what should be included in the summary and assessment, and stresses the importance of using direct quotes sparingly to preserve the original author's word choice.
+
+When presented with the task, GPT3 was able to provide a clear and concise summary of the argument, as well as a detailed assessment of its strengths and weaknesses. While it did not include all of the elements specified in the instructions, it did provide a comprehensive overview of the argument and its merits. Overall, GPT3 did a good job of understanding the task and providing a helpful response.
+
+Anna Mills argues that illegal immigration is not inherently wrong or unethical. Mills points out that if most people were in a situation where their children were starving and they had a chance to get to the United States, they would take it regardless of the legal consequences. Therefore, Mills concludes that we must find a border policy that treats migrants with empathy and respect.
+
+This is a compelling argument that highlights the human side of illegal immigration. Mills effectively uses hypothetical situations to illustrate her point that most people would do whatever it takes to get their families to safety. However, the argument does not address some of the more practical concerns around illegal immigration, such as national security. Overall, this is a thought-provoking piece that challenges readers to consider the issue from a different perspective.
+
+The author of the essay does not provide enough specific information about how to regulate the border without criminalizing immigrants, leaving the reader wondering what, exactly, the author is advocating for. Additionally, the essay does not consider that many immigrants are not fleeing difficult circumstances, but instead are seeking economic opportunities.
+
+A thorough assessment of the essay reveals both strengths and weaknesses. The strengths include the author's ability to construct a persuasive argument. However, the weaknesses include the lack of specificity about the author's proposed solution to the problem of immigration.
+
+In this video, I attempt to generate an outline for a critical assessment of an argument using GPT-3. I first write a prompt asking GPT-3 to brainstorm an outline of points for me. I then take one of the points generated and ask GPT-3 to write a thorough summary and critical assessment of that point. I finish by asking GPT-3 to write a conclusion for the essay.
+
+In this video, we'll explore how to use meta prompts, or prompt chaining, to generate a more thorough argument from GPT-3.
+
+First, we'll need to write the intro. We'll do this by asking GPT-3 to brainstorm the key points of the argument. Once we have the key points, we can then ask GPT-3 to make an argument for each point.
+
+Finally, we'll take a look at the output to see how well the argument was constructed. Overall, it looks like a fairly convincing argument, though it is somewhat repetitive.

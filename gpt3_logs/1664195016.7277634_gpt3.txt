@@ -1,0 +1,13 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: or downside of forefront right now is that it's slower and that's one of the reasons that i was thinking about like setting up my own i don't know if it would be any faster if i got like a tesla gpu or something and run it locally but anyways four seconds it's nothing to shake a stick at it's pretty quick um so yeah there you have it i just wanted to introduce forefront ai it's a great company they are adding features all the time and most importantly open source and they respect your privacy so that's where i'm going to be going from here on out i will still obviously be using open ai because they're they're aligned and fine-tuned models uh are pretty good um actually that reminds me there was um do do do there was someone posted it what was it um uh instruct someone had posted um an instructional data set where was it i'll post it in the in the video description if i can find it um but anyways there are open source instruct training like instruct gpt um training data sets out there so you could you could theoretically take that fine-tuning data set and come fine-tune your own instruct series model on forefront um who knows maybe if that becomes popular the folks over at forefront will have an instruct series model anyways i think that's it a brief introduction you can come up here all you'll need to do is add a token.txt file and put your your bearer token in here and you're ready to go on forefront it's stupid simple it's nice and fast um yeah so there there you have it um thanks for watching like and subscribe consider supporting me on patreon and keep an eagle eye out for um for my upcoming books i'll have video updates when they are ready check you later
+
+CLEAR ESSAY:
+
+==========
+
+Forefront AI is a great company that is constantly adding new features. One of the best things about Forefront AI is that it is open source. This means that anyone can access the code and improve it. Another great thing about Forefront AI is that it respects your privacy.
+
+One downside of Forefront AI is that it is slower than some of the other options out there. However, it is still relatively fast, taking only four seconds to process a request.
+
+If you're looking for an open source, privacy-respecting AI company, Forefront AI is a great option.

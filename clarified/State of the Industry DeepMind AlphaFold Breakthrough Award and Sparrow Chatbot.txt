@@ -1,0 +1,23 @@
+Deepmind recently made some exciting news in the world of AI development. They won a 3 million dollar breakthrough prize for their Alpha Fold project.
+
+So, what is Alpha Fold? It is a Transformer that predicts the folding structure of proteins. This may sound simple, but it is a huge breakthrough. In the past, there was a project called folding at home where people would install an agent on their computer and it would process through simulation and other computation trying to predict protein structures. This new AI completely trounces that in terms of accuracy.
+
+accuracy.
+
+What this means is that you can now design custom proteins with much more precision than before. This is a huge industry that is taking off. Additionally, you can figure out how proteins might interact with each other because their physical shape is determined by their folding structure.
+
+Deepmind is also working on developing safer dialogue agents. They call this project Sparrow. The idea is to train an AI to communicate in a way that is more helpful, correct, and harmless. They use large language models to do this.
+
+There are two primary things that the Sparrow model does. One is it learns to prefer your user response. In other words, it learns to talk to you in the way that you want to be talked to. The other thing is it has adversarial reinforcement learning where it tries to avoid certain use cases.
+
+This is a pretty basic cognitive architecture, but it is also the beginning of a code implementation of a moral framework. A moral framework is a mathematical or computational representation of what you should do and what you shouldn't do. In this case, it is learning what you should do and what you shouldn't do.
+
+This is a prototype of a moral framework. It is not perfect, but it is a start. Deepmind is on the right track in terms of developing AI that is safe and beneficial to humans.
+
+In their paper "Human Data Collection for Reinforcement Learning of Conversation Policies," the authors discuss the use of reinforcement learning to teach chatbots how to respond to real-world users. They note that this can be used to learn how to avoid banned use cases, such as discussing feelings or emotions, or suggesting real-world actions.
+
+The authors argue that this approach has the potential to learn over time, through experience, how to better implement a moral framework. This is an important point, as it highlights the potential for chatbots to learn and grow over time, becoming more effective at implementing rules and guidelines.
+
+While the authors discuss the potential benefits of this approach, they also acknowledge the potential downside of creating "walled gardens" where users are only exposed to safe, carefully curated topics. This could limit the chatbot's ability to engage with reality and learn about the full range of human experience.
+
+DeepMind's work on artificial intelligence is a step in the right direction, but there is still more work to be done in order to create truly intelligent agents. One area that needs improvement is the development of a universal moral framework. Such a framework would be flexible and adaptable over time, and would allow for intelligent agents to reason and make decisions in a more principled way. Thanks for watching.

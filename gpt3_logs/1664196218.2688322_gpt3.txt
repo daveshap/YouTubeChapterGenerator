@@ -1,0 +1,11 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: cloud um one of the models that nlp cloud has is actually a instruct fine-tuned gpt neo-x i haven't used it yet but some of the folks on the discord swear by it they say that it performs just as well as on openai's gpt3 instruct series models but it's open source um that is uh that's trained on alan ai's uh instruct series i believe so anyways there you have it thanks for watching this has been my second state of the industry uh address so thanks for watching and check you next time
+
+CLEAR ESSAY:
+
+==========
+
+The Cloud NLP platform offers a variety of pre-trained models, including one called "GPT Neo-X." I haven't used it myself yet, but some people on the Discord chat swear by it. They say it performs just as well as the models in OpenAI's GPT3 "instruct" series, but it's open source. I believe it's trained on Alan AI's "instruct" series.
+
+So there you have it. Thanks for watching. This is my second "state of the industry" address, so thanks for watching, and I'll check in with you next time.

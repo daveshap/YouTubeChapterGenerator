@@ -1,0 +1,33 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: doesn't have the name in it anyways i'm assuming that it is fine tuning um let's do fine tune get fine tune list okay so here we will uh let me oh yeah so that was the last thing it did let me save that real quick so i just comment these two out i actually don't need that so let me just do cls so fine tune all this will do is just do a fine tune list so it's pending okay this will take a while so i'll pause the video again pause the record because you don't want to just sit and wait for this to finish but let me show you what it looks like when it's done um so when it's done the under your engines your fine tunes will pop up here and it'll have so it starts with the engine name um and then they changed it so it's like the original fine tunes were like user blah blah blah blah this wasn't helpful they changed it to the name so it gives me my name and then i gave it a tag so this was my eve project um yep so on and so forth core objective functions eve so on and so forth so once that's done another fine tune will pop up here with the name um what name did i give it scripts um so that i could i could have said something better like movie script or something um but yeah so that's pretty much it um let me pause it and i'll show you what how this performs in the playground in just a moment okay gang and we are done it's uh nine o'clock so i think that's about two and a half hours in granted a huge chunk of this was waiting um so let me do a quick refresh here and let me show you what the final result is um whoops scroll down um scripts okay so um oh let's come up with a random premise for a story uh actually here my creativity is offline so let me just go back up here write a premise for um oh let's combine it so we have an anime um an anime mystery and a high fantasy so let's do write a premise for a high fantasy anime movie write a detailed premise uh let's go brainstorm okay in a world of swords and sorcery a young girl named lily is thrust into a quest to save her kingdom from a powerful evil sorcerer okay great okay we've got a premise so let's oops clear that out in a world of swords and sorcery and then the um the fine tuning data adds this uh this script so that tells it that the the premise is done so we'll go down to scripts and we'll change this to 0.5 and here we go let's see what happens it might timeout because it does often take a little bit of extra time to load a fine-tuned model but we should be just about done and to prove it let me go back here and show you outline generators so started three hours ago um yeah so three hours ago that's about how long i've been working on this and we will do a final commit and i'll do a final push yep please try again shortly actually i'm not changing anything so we'll just do ahead get status so remember i started this video with um with just doing this get the initial commit get add all get commit am final commit and you can go check on the um the commits yourself if you want get push okay so this code is now updated and online i'm probably also going to rename it from outline generator because this has actually became a script generator um why did it name it that oh i probably accidentally copy pasted that didn't i that shouldn't be there cof jsonl yeah i totally accidentally copy pasted that okay that needs to go away um also this is under the mit license so you are free to use this however you want um let's see if this is loaded still being loaded try again um get status get add get commit am removing extraneous oh actually there's another one that needs to be removed um brainstorm because we didn't use that one okay get add git commit am remove extra files keep it as simple as possible get push okay cool so now the only stuff in this is exactly what was used nothing more nothing less um has it finished loading oh come on why is it going so slow don't you know i got a youtube video to make here usually it only takes one or two tries before the fine tune model loads so i wonder if openai is extra busy today okay i'm gonna pause it rather than make you wait okay and of course the very like three seconds after i clicked pause it ran okay so with this notice i didn't include any instructions i just give it a premise and it writes a script fade in uh lily's house day young girl of about 10 is playing in her backyard with her dog a small terrier laughing having a good time mama papa there is no answer little girl starts to get scared this is totally like a miyazaki right this is a studio ghibli [Laughter] um because there's a sorcerer's castle etc etc okay the men chase after lily grabbing her there you have it you can do this yourself you can go fine tune this it's all up here i'll leave it named outline generator even though that's a misdemeanor whatever it'll just be an inside joke yeah it's done thanks for watching
+
+CLEAR ESSAY:
+
+==========
+
+In this video, I'll show you how to use the Fine Tune List feature in Openai. This will allow you to fine tune your models for specific purposes.
+
+First, I'll comment out the last two lines of code. Then, I'll run the Fine Tune List command. This will take a while, so I'll pause the video and come back when it's done.
+
+When the Fine Tune List is finished, you'll see a list of all the fine tuned models under your engines. Each model will have a name and a tag. The name is the original name of the model, and the tag is the name you gave it.
+
+I've named my model "scripts" and tagged it "eve". Once the model is loaded, you can use it to generate a script for a movie.
+
+To do this, first brainstorm a premise for your story. Then, enter the premise into the Fine Tune List. The model will generate a script for you.
+
+Fade in.
+
+Lily's house. Day.
+
+A young girl of about 10 is playing in her backyard with her dog, a small terrier. She's laughing and having a good time.
+
+Suddenly, she stops and looks around.
+
+"Mama? Papa?" There is no answer.
+
+The little girl starts to get scared.
+
+Suddenly, two men appear. They chase after Lily, grabbing her.
+
+There you have it! You can use this feature to generate a script for your own movie.

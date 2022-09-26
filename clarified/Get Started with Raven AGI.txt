@@ -1,0 +1,5 @@
+To get started with Raven AGI, you'll need access to OpenAI. OpenAI created GPT3, which is the only cognitive engine powerful enough to run Raven at present. Unfortunately, OpenAI is still in beta, which means that you need to sign up to get access. I personally anticipate that it will go live by the end of 2021 or certainly within 2022.
+
+Once you have access to OpenAI, you can go to the public repo for Raven MVP and download the code. Then, you'll need to create a text file called "openai-api-key.txt" and include your OpenAI API key in it. This will give you access to GPT3.
+
+Finally, you can run the Raven MVP by doing "python service nexus". This will start the service and you can then input any context you want. Have fun and start participating in the research!

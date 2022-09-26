@@ -1,0 +1,23 @@
+Hey everyone, David Shapiro here. The reason we're recording this video again is because I've revisited the process of parsing Wikipedia. I've changed my methodology so that I'm saving every individual article as a JSON file. This is what it looks like:
+
+So, you've got the article ID (1575), and then here's the actual text. You see that this is lovely plain text - it's easy to read, there's no links or anything. This plain text version can be easily used for anything, whether you want to just print it out or index it in Solar.
+
+I've preserved pretty much all information in this JSON file. Let me show you how I've done this. I've got a supervisor function that kicks off the main function. As I've shown in past videos, I've got it all as the stream. I can also just show you what this looks like. If you go download Wikipedia, it'll look like this:
+
+The file name is a little bit longer, I shortened it up just so that you see that it's the English Wikipedia of the year 2021 of April first. So this is a month and a half old - that's okay. You see it's an 80 gigabyte file though. Because it's a monolithic file, you need to read it one line at a time - it's just too much data to process all at once.
+
+So that leads to everything else that you see here. I've changed this as well. So what I do now is I just save the article. I do the end analysis to get the document ID, title and text. Then I change this uh analyze chunk. I change this as well. So what this does now is it calls the dwiki function. The dwiki function going up a little further does all this stuff by hand. This is where this is why I say I'm an idiot - I did all this stuff by hand because initially I found the wiki text parser, which is a pip install wiki text parser. It is exactly what it says on the tin - it just parses wiki text to plain text or whatever else you want. So yeah, wtp does everything I wanted it to. The reason I didn't do it is because regex was faster, but that's where I'm an idiot because I have done so much parallel processing in the past. I don't know why it took me so long to figure this out.
+
+So what I did to make this just as fast is I just pass in the wiki text and it spits out a plain text version. It was really slow if you just do this - it takes about five or six seconds per article. But Python has this handy dandy built-in stuff where you can just call thread. So what thread does is it just passes off the processing to another function, and then doesn't give me any results. I don't care because in process and save article, it doesn't have any return. So it just goes off into oblivion and does its own thing.
+
+There you have it. Here's another example - this is the entry for ASCII. You can see that it's completely legible. You could use this as is. Here's another one - August William Durleth. Again, perfectly legible, no HTML, no XML, no markdown, nothing.
+
+So overall, I estimate that it does about 1500 articles a minute on average. If it does 1500 articles a minute on average, that's 5 million articles divided by 15 per minute, that's 3,300 minutes, which is about 55 hours to fully index Wikipedia. And then it dumps it into a nice, easily reusable folder which I've named wikiplaintext. The file name is the same as the article ID. I figured I don't need to generate anything fancy - I just give it the article ID and away it goes.
+
+You see that each article varies in size. The largest one is a quarter of a megabyte. So that's not too big. In recreational mathematics, of course a math article is the largest one. Here's a good example of something that it didn't quite get out:
+
+It looks like it didn't get a table. So I might have to go back and remove some of the table data. But really, because I'm going to have this read by GPT3 or similar, I don't need to worry about that.
+
+So there you have it. This is my new methodology for parsing Wikipedia. It's much faster and more efficient than my old one. I hope you find it useful.
+
+I'm not so concerned with removing everything from code when using deep learning models. As long as the code is mostly legible, the models will be able to understand which parts are code and which parts are not. This means that tables, for example, may not need to be removed entirely. Sometimes, important information is preserved in tables. It may be better just to remove all the style elements.

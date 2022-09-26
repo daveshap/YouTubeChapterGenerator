@@ -1,0 +1,11 @@
+In my last video, I showed how to use Forefront.ai, an open source platform for training and deploying AI models. In this video, I want to show how to use NLP Cloud, another open source platform.
+
+NLP Cloud has a pay-as-you-go plan that charges a dollar per month and gives you the first 100,000 tokens free. 100 images and 500,000 multilingual add-on characters are also free. Just like with Forefront, you'll need to create a token file and put your authorization token in it.
+
+The API for NLP Cloud is similar to Forefront's, but it has more options. One of the options is a fine-tuned GPT Neo X model. This model is trained on the latest text models in GPT.
+
+To use the model, you just give it instructions. For example, you could say "I need to think through the moral, philosophical, spiritual, and ethical implications of using a super weapon." The model will then generate a response.
+
+The response will be slower than what you would get from OpenAI's API, but it will still be helpful. And, since NLP Cloud is open source, you can contribute to the project to make it better.
+
+The video demonstrates the use of the GPT Neo X to align text. It shows that the model is able to make some assumptions and arrive at a conclusion based on the information it is given. The model is able to understand the nature of the invasion and the super weapon, and to weigh the pros and cons of each option. The model concludes that the lesser of two evils is to use the super weapon, even though it would cause great suffering.

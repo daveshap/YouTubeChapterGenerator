@@ -1,0 +1,9 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: when i'm typing excuse me equals list so one of these things here so to do to do is um you know cognitive task equals generate you know new task i'm so sorry my typing sucks right now you don't realize how much you use your pinky until it's like bruised down to the bone um generate new task and then you say like uh to do to do um cognitive tasks dot append cognitive task okay so that's in the to do so then you'll say like for task in cognitive tasks and then we'll basically do the same thing to do execute cognitive task okay and then you get to the sleep which is uh the tempo so right now i've got it set to 30 seconds this is still going to think way faster than you or i can think um you'll be shocked when you see how powerful this this architecture is okay so there you have it um 141 lines of code uh we have the the bones the framework of the inner loop of our artificial cognitive entity or acog or ace i like acog because it's two two syllables so like ai that's two syllables um whereas you just say ace that's like ace what um all right let me go ahead and stop the video here this was a lot probably like drinking from a fire hose it's already 42 minutes yeah this is this is on the long side and we haven't even we haven't even run anything yet um all right so thanks for watching stay tuned for part two part three whatever is coming and um yeah like and subscribe
+
+CLEAR ESSAY:
+
+==========
+
+In this video, I explain how to create an artificial cognitive entity, or "acog." This is the framework for the inner loop of our artificial cognitive entity. I go through each line of code, explaining what it does. This video is probably best for people who are already familiar with programming.

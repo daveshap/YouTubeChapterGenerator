@@ -1,0 +1,5 @@
+David Shapiro introduces Python and GPT3 in a new tutorial series for beginners. He starts by showing how to download and install Python, then shows how to install the OpenAI package. Next, he demonstrates how to clone a Git repository, and finally shows how to install Notepad++.
+
+In this video, we cover how to set up a Python development environment using the Notepad++ text editor. We also briefly discuss the benefits of using this environment over other more full-featured IDE's like PyCharm. Finally, we walk through a simple "Hello World" example of how to use the OpenAI GPT-3 API.
+
+I also have a Discord server if you'd like to join and get some insight and info on research topics, etc. So that's about it. Thanks for watching. Catch you next time!

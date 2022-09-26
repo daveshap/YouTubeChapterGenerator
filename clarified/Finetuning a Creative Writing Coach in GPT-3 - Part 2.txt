@@ -1,0 +1,103 @@
+David Shapiro explains how the view count, watch time, and subscriber count for his videos have been increasing exponentially. He attributes this success to the fact that his audience is mostly made up of young people who are the next generation. Shapiro then goes on to say that he is finishing up his creative writing coach today. This coach is a chatbot that provides feedback about tone and style, not just grammar. Last time, Shapiro showed how he wrote a script to download stories from Reddit. This time, he demonstrates how he wrote a script to generate completions for writing prompts. The goal is to have the bot provide feedback in a paragraph format.
+
+As a professional creative writing editor, I read the following story and provide detailed feedback. The story should be open-ended and include examples or suggestions.
+
+The reason I did this is because sometimes it got confused and would just continue writing the story. So I like to add a story like story starts here, then you add the story, and then end story. And then I added a bunch of white space actually let's just do two.
+
+Because if you if you use just a single line of white space sometimes that just looks like a paragraph break but if you do like two or three that that clearly signifies like in your brain it says oh this is a whole new section. But also gpt3 learns that that means it's a new section as well because from from the large language models perspective it doesn't actually see space it just sees characters. So it sees that it sees slash n slash n slash n or sometimes it's going to be slash rn slash r slash n which slash r is carriage return so that brings the cursor back to the beginning and then n slash n is newline. And so if it sees three slash ends it says okay this is this is like a whole break whereas if it just sees two it's like oh that's just a new line.
+
+But in this case when I have three vertical white spaces that's actually four four new lines total. So that just kind of gives it says okay this is a new section what am I going to do. Okay so then the final instruction one thing that I found for especially for these instruct series prompts is that if you if you give it the instructions at the beginning and then you remind it of the instructions at the end you tend to get really good results.
+
+So you'll notice that this is my standard format where it's like I kind of give it the framing this is what you're about to read this is a story this is what I want you to do. So because what that does is it primes the model because there's there the model. So in case you don't know this about gpt3 and large language models they have an internal state that internal state is cued up by by the prompt and so that internal state is represented by an embedding and an embedding is well one way to represent it is as a vector which is embeddings are vectors it's just a particular kind of vector it's a long series of numbers.
+
+And so what you're doing is you're you're charging it up you're priming it to have the correct internal embedding and it's just the same as what happens to a human like if I give you instructions I say imagine that you're making a peanut butter and jelly sandwich I gave you instructions and now you have an internal state in your head. And so gpt3 is no different so we have to have a theory of mind to understand gpt three's mind right. And because humans have a theory of mind we can anthropomorphize large language models because it's like okay imagine that you just randomly grab someone off the street and you're giving them instructions that's how you have to write gpt3 prompts.
+
+Okay so now that I've explained why it looks the way that it does let's give this a quick test. So let's delete these they're already saved in github so I don't mind deleting them. And they weren't the best anyways. Um okay so then generate completions. So basically oh and one other thing that I need to I need to share is what I've started doing is breaking up the process into smaller and smaller steps.
+
+And so the prompts I preload the prompts so that I can just feed them into gpt3 one at a time later. And so that's that's fine. Um let's see so but then we need to also prepare prompts. Um so by breaking it into smaller steps I'm just saying like okay read these make it. And then I added this little bit here where it will um one thing that I noticed that the the if the story was too long and it was cut off the um and but the uh but the the my my creative writing coach didn't realize that it said this story ended abruptly and I'm like oh yeah that's because it got cut off.
+
+So if we add something to say like story truncated due to length the creative writing editor should know like oh okay I didn't get the whole story but what I did get is you know good. Um okay so let's run that real quick. Cd and we're going to the creative writing coach python prepare prompts. This just runs in a second or two. So let's go to our prompts folder you can see these were just updated. Oh sorry my dog's outside I need to let him in be right back.
+
+Okay and we're back sorry about that. Um okay so then we've updated the prompt where it says uh let's see your feedback should be open-ended and include examples or suggestions. And then I added some framing here the reason that I did this is because sometimes it got confused and would just continue writing the story. Um so I like add story like story starts here then you add the story and then end story. Um and then I added a bunch of white space actually let's just do two. Um because if you if you use just a single line of white space sometimes that just looks like a paragraph break but if you do like two or three that that clearly signifies like in your brain it says oh this is a whole new section. But also gpt3 learns that that means it's a new section as well because from from the large language models perspective it doesn't actually see space it just sees characters. So it sees that it sees slash n slash n slash n or sometimes it's going to be slash um rn slash r slash n which slash r is carriage return so that brings the cursor back to the beginning and then n slash n is newline. Um and so if it sees three slash ends it says okay this is this is like a whole break whereas if it just sees two it's like oh that's just a new line.
+
+But in this case when I have three vertical white spaces that's actually four four new lines total. Um so that just kind of gives it says okay this is a new section what am I going to do. Okay so then the final instruction one thing that I found for especially for these instruct series prompts is that if you if you give it the instructions at the beginning and then you reminded of the instructions at the end you tend to get really good results. So you'll notice that this is my standard format where it's like I kind of give it the framing this is what you're about to read this is a story this is what I want you to do. So because what that does is it primes the model because there's there the model. So in case you don't know this about gpt3 and large language models they have an internal state that internal state is cued up by by the prompt and so that internal state is represented by an embedding and an embedding is well one way to represent it is as a vector which is embeddings are vectors it's just a particular kind of vector it's a long series of numbers.
+
+And so what you're doing is you're you're charging it up you're priming it to have the correct internal embedding and it's just the same as what happens to a human like if I give you instructions I say imagine that you're making a peanut butter and jelly sandwich I gave you instructions and now you have an internal state in your head. And so gpt3 is no different so we have to have a theory of mind to understand gpt three's mind right. And because humans have a theory of mind we can anthropomorphize large language models because it's like okay imagine that you just randomly grab someone off the street and you're giving them instructions that's how you have to write gpt3 prompts.
+
+Okay so now that I've explained why it looks the way that it does let's give this a quick test. So let's delete these they're already saved in github so I don't mind deleting them. And they weren't the best anyways. Um okay so then generate completions. So basically oh and one other thing that I need to I need to share is what I've started doing is breaking up the process into smaller and smaller steps.
+
+And so the prompts I preload the prompts so that I can just feed them into gpt3 one at a time later. And so that's that's fine. Um let's see so but then we need to also prepare prompts. Um so by breaking it into smaller steps I'm just saying like okay read these make it. And then I added this little bit here where it will um one thing that I noticed that the the if the story was too long and it was cut off the um and but the uh but the the my my creative writing coach didn't realize that it said this story ended abruptly and I'm like oh yeah that's because it got cut off.
+
+So if we add something to say like story truncated due to length the creative writing editor should know like oh okay I didn't get the whole story but what I did get is you know good. Um okay so let's run that real quick. Cd and we're going to the creative writing coach python prepare prompts. This just runs in a second or two. So let's go to our prompts folder you can see these were just updated. Oh sorry my dog's outside I need to let him in be right back.
+
+Okay and we're back sorry about that. Um okay so then we've updated the
+
+As a professional editor, I will give you critical feedback to improve your writing. My feedback will be open-ended and include examples or suggestions.
+
+One issue I see in your writing is that there is a lot of telling rather than showing. For example, in the second paragraph, the author tells us that Kate is considering abandoning her inheritance rather than showing us through her actions or thoughts. In the third paragraph, the author tells us that the factory is full of shadows rather than showing us through description.
+
+Another issue is that the story is somewhat choppy and disjointed. There is a lot of description, but it is often abrupt and does not flow smoothly from one sentence to the next. Finally, I would recommend using more active and precise language throughout the story. For example, rather than saying "Kate fumbled with her phone for a flashlight," the author could say "Kate searched for a flashlight on her phone." This would make the writing more lively and engaging.
+
+You have a great opening sentence that really draws the reader in. I love the description of the statue turning to rust; it's really evocative and sets the scene well. The dialogue between the entity and Cyrus is great; it's chilling and really gets the reader invested in the story. The final paragraph is a great way to end the story.
+
+I will provide you with critical feedback to improve your pros and style. I will also use the compliment sandwich method of feedback, which means I will open and close with a compliment, and provide the harsh part in the middle.
+
+First, let me commend you for your excellent use of description. Your descriptions are very vivid and bring the setting and characters to life. However, I felt that the story lost a bit of momentum in the middle when Kate is exploring the factory. I would recommend focusing on one or two key images or scenes, rather than trying to describe the whole factory in detail. The ending of the story is very effective, and the image of the door slamming shut is particularly chilling.
+
+There are a few areas that could be improved. For example, your dialogue could be more natural and less stiff. Additionally, the story could be proofread for grammar errors. Overall, this is a strong story with good potential.
+
+I'm preparing a JSON file for the Creative Writing Coach bot, and I'm fixing some issues with the prompts. The bot will take a story, then the prompt, and then generate feedback based on the story. I'm currently working on fixing the formatting so that the bot doesn't get confused and generate incorrect feedback.
+
+The Treaty was a fragile one, and this story is a perfect example of that. The opening paragraph is very evocative and sets the scene well. Overall, this is a strong story, but with a few revisions, it could be even better. The opening scene is very effective and the opening paragraph is well written in general. However, the format of this story could be improved. Additionally, the characters are interesting and the story is overall well-written. To improve the story, I recommend deleting the quotes and responses to them, as well as fixing the formatting. Doing so will make the story more consistent and easier to read.
+
+I'm going to show you how to fine-tune a model in this video. Fine-tuning is a process of adjusting a model to get more consistent results. For example, you can use different kinds of data or prompts in your fine-tuning experiments. This allows you to get the same behavior every time.
+
+I have a dataset of202 examples. The biggest one is 3 kilobytes and the smallest one is 1 kilobyte. Most of them are 1 kilobyte. I'm going to grab the top several.
+
+Your opening paragraph is intriguing. The first thing I noticed is that you have a lot of interesting ideas. The opening sentence is great. The opening is well written and engaging. The opening paragraph is evocative.
+
+Overall, this is written in an interesting story. The start of the story is very strong. Your story has potential.
+
+I still found a couple of examples that need correction. I'm going to keep going through these chunks until I don't find any that need correction.
+
+It looks like maybe many of them do. The opening of your story is very strong. Your story is well plotted.
+
+I might do is just do a find and replace for this artifact because it seems like it's going to continue popping up. I will do a find and replace to remove that when I do the prepare data.
+
+Yeah it's just going to keep popping up.
+
+For this, we'll say the completion equals open file dot replace. We'll add that and we'll say replace that with nothing. Then we'll do a strip. That will remove any excess white space.
+
+That should clean that up.
+
+I think we're ready to run this. I'll jump back over here and we'll do python.
+
+Um oh yeah here's what we need to do.
+
+Basically, what we're doing is we're matching a completion back to its story. We're going to get the list of completions. We'll say completion equals story equals stories.file.
+
+Because we know that the completions are a subset of stories, we know that the story is going to be there, but if we enumerate all the stories, there's not a guarantee the completion will be there.
+
+So this should be right. It shouldn't bomb out.
+
+One rule of thumb is that errors are there for a reason and you want to see them. So if I did this wrong, it would error out and I want to see that. I don't want to make assumptions about the quality of the data.
+
+Okay, so format json l. It did not bomb out, so that's good. Let's go and look at our creative writing coach json l.
+
+It's 800 kilobytes. So if I had let this finish, it would have been almost twice as big. This would have been a 60 dollar fine tune.
+
+Why did it say empty inside? I wonder if that was the story.
+
+Okay, so here's what we're going to do. We're going to find the prompt. It just starts with the story. That's fine. And then we see right here at the end, "professional feedback completion." The opening of your story is very strong. That's exactly what we want to see.
+
+The beginning of the story is very promising. I like the idea of two friends going on a road trip. However, the story quickly loses momentum in the middle.
+
+The fine-tuning data looks good. I'm going to go ahead and run the fine-tuning experiment.
+
+I recently completed a project where I created a fine-tuned model using the OpenAI GPT-3 API. In this video, I briefly go over what I did and how much it cost.
+
+First, I created a Python script that would take a JSONL file and fine-tune a model using the GPT-3 API. I then uploaded the script to OpenAI's Playground, where it ran for a while and generated a fine-tuned model.
+
+Next, I loaded the model into the Playground and ran it on a writing prompt. The results were encouraging - the model was able to provide some constructive feedback on the story. However, it also started repeating itself at the end, which is something that fine-tuned models often do.
+
+Overall, I'm pleased with the results of this project. With a bit of work, I think the model could be even more useful.

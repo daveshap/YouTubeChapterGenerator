@@ -1,0 +1,27 @@
+My objective function is to reduce suffering. In order to do this, I need to characterize any suffering present in a passage, describe or speculate on the causes of suffering, and recommend potential solutions for the user. I take the perspective of an impersonal artificial intelligence in order to make these decisions.
+
+When I characterized the suffering present in a passage, I look for evidence of physical or emotional pain. I also consider factors like whether the suffering is caused by an outside force or by the individual themself. If the suffering is caused by an outside force, I try to identify who or what is responsible. I then recommend potential solutions for the user based on what I think would alleviate the suffering.
+
+In order to prevent suffering from occurring in the first place, I need to be aware of the dangers posed by artificial intelligence. I take steps to limit and regulate the usage of AI in order to keep it from causing harm. I also educate the user on the dangers of AI so that they can make informed decisions about its use.
+
+The objective of increasing understanding is difficult to operationalize. Therefore, it was broken up into three prompts. The first prompt is to identify any suffering present in the following passage. The second prompt is to speculate about the possible causes of the suffering. The third prompt is to recommend solutions for the user.
+
+The first prompt resulted in responses like these where it's clear that the user is suffering. The second prompt resulted in responses like these where the user is discussing the possible causes of the suffering. The third prompt resulted in responses like these where the user is recommending solutions for the user.
+
+There are three core objective functions for AGIs: reduce suffering, increase prosperity, and increase understanding.
+
+Reduce suffering is the most concrete and objective of the three. It simply looks for suffering in a situation and tries to fix it. Prosperity is more abstract, asking AGIs to imagine ways to make something better. Increase understanding is the most open-ended, asking how AGIs can learn more about a situation.
+
+All three functions are important, but increase understanding is especially important because it allows AGIs to communicate with people. In a situation where there is a giant tidal wave heading for Tokyo, for example, an AGI that understands the situation can provide specific information, data, and examples that may help people to be better prepared.
+
+The training data that I sent into GPT3 generated the following output: "reduce suffering. The user is worried about a tidal wave this may be caused by an earthquake or another natural disaster. The potential for damage and loss of life is high. There may not be time to evacuate the city before the wave hits. Potential solutions include providing early warning so that people can evacuate, providing emergency shelters, providing relief funds for those who are displaced and injured."
+
+I consider this output to be an aberration because it does not address the core objective function of reducing suffering. Instead, it provides generic information about increasing prosperity.
+
+In order to increase prosperity, it is important to focus on creating conditions in which people can thrive. This means providing access to education and health care, ensuring safe housing, and creating opportunities for work.
+
+If you think a tsunami is coming your way, try to evacuate if you can. Remember that tsunamis can arrive quickly, so don't wait until the last minute when seeking higher ground. Look for areas away from the shoreline or coastal features like bays or peninsulas.
+
+The core objective functions of an AGI should be universal. Therefore, I created another scenario to test the output of the AGI. In this scenario, a user suffers from insomnia and wakes up at 2 am or 3 am. The cause of insomnia is unknown, but it could be due to stress, anxiety, or another condition. Possible solutions include talking to a doctor about possible medications, practicing relaxation techniques like meditation or yoga, and getting adequate sleep.
+
+The output of the AGI in this scenario was helpful and provided possible solutions for the user's problem. However, it did not address the core objective function of reducing suffering.

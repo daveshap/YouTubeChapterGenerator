@@ -1,0 +1,5 @@
+In his paper "A Path Towards Autonomous Machine Intelligence," Yan Lacoon proposes a biomimetic cognitive architecture for artificial general intelligence (AGI). This architecture is less sophisticated than existing models, but it is a step in the right direction.
+
+Lacoon's architecture is missing the agent model and cognitive control, which are essential for AGI. Without these components, the architecture is less capable of long-term planning and decision-making. Additionally, the lack of an intrinsic motivation system means that the architecture is less likely to be benevolent by design.
+
+Despite these shortcomings, Lacoon's paper is a valuable contribution to the field of AGI research. It is well-written and provides a detailed overview of the current state of the industry. Thanks for watching.

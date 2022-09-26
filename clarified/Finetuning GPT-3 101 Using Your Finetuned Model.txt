@@ -1,0 +1,25 @@
+In the final fine tuning tutorial video, we take a look at how to use the synthetic data we generated in the first two videos to fine tune our model. This script uploads our JSON-L file and kicks off the fine tuning job to create our fine tuned model.
+
+Once the model is fine tuned, we can view it in the playground. This gives us the code to use the model, which we need to pay attention to so that we don't use someone else's model by mistake.
+
+The data we created was in this format:
+
+{
+
+"prompt": "In the year 2180 mankind has finally achieved the feat of conquering and colonizing mars however the planet is harsh and unforgiving and the colony is constantly on the brink of collapse the inhabitants are constantly struggling to survive against the harsh environment every day is a battle for survival one day a group of explorers discovered a long-lost underground facility inside the facility they found a series of strange devices that seem to be completely out of place in the harsh martian environment",
+
+"completion": "The explorers activated one of the devices and suddenly the entire marshall martian colony was plunged into darkness the colonists quickly realized that they were not alone on mars somewhere deep below the surface there is a mysterio and mysterious and powerful presence that is now exerting control over the colony",
+
+"modifier": "awe-inspiring"
+
+}
+
+Using this format, we can fine tune our model to generate a plot based on the given prompt, completion, and modifier. In this example, the plot generated is of the colonists struggling to survive against an unknown threat.
+
+This is just one example of how fine tuning can be used to generate a story. By changing the prompt, completion, and modifier, we can create a different plot. For example, we could change the modifier to "comical" and generate a story about a young woman who falls in love with a soldier during the French Revolution.
+
+As social and political unrest grow, Phyllis Marie and Claude find themselves caught in the middle of a revolution. They must navigate the tumultuous times, trying to find a way to be together, while the country around them falls apart. They face the realities of war, the threat of execution, and the growing unrest.
+
+The film is a light-hearted take on a dark period in history, focusing on love while also exploring the social and political upheaval. It is a mix of romance, comedy, and drama, and tells a moving story of love and loss against the backdrop of war. We see the characters grow and change as they navigate the unrest around them.
+
+Thanks for watching. Like and subscribe, and consider supporting me on Patreon.

@@ -1,0 +1,37 @@
+Hello everyone,
+
+I'm David Shapiro, and in this video I'm going to be talking about Raven, my natural language cognitive architecture. I took a break for a couple months to write my book, but the book is now out! You can find a link to it in the description below.
+
+I've created a few versions of Raven, and the most recent one is based on OpenAI's GPT3 engine. However, I'm using the Curie engine, which is cheap and fast but not very intelligent. If you take a look at this real quick, you'll see that Raven is kind of... you know, there's some good information there, but then Raven gets stuck and confused. This is called prompt contamination, and it happens when GPT3 can't quite understand what the point of the prompt is.
+
+So, basically, what this means is that I'm going to need to take a break until either Da Vinci is faster and cheaper or GPT4 comes out.
+
+In the meantime, let me give you a quick tour of the actual files in this project. There are a few Python scripts, and I'll show you each of them in turn. I'll probably do a deep dive into the code in a separate video; this is just going to be an overview.
+
+So, first, there's the Discord service. Discord handles all of the communication with the Discord API, and it also compiles the contexts. If you've read my book or watched my other videos, you know that the context is the input for Nalco.
+
+The Discord service sends the context to the Outer Loop service, which uses the Transformer service to communicate with GPT3. The Transformer service also handles communication with the Shared Database and the QA service.
+
+The QA service is responsible for question answering. In this version, I have two primary methods that I'm using: I use QA to try and answer questions using episodic memories, or I just use the Transformer because GPT3 has a lot of knowledge embedded.
+
+Basically, what I have this very naive QA service do is it tries to answer questions just by extracting information from GPT3. If it says "I don't know," then it will try and query the database to look for answers. Again, this is all very naive; this is just a demonstration level. This is not an enterprise or commercial grade QA service. It will require a lot of work, but again, the purpose of this particular instance is to show the simplest possible example. This is more for learning and communication than actually something that's going to be taken into production.
+
+Finally, at the very bottom is the Inner Loop service, which is actually generating most of these logs. There's a tremendous amount of internal thought going on all the time, where Raven is thinking about thinking about thought, trying to extract themes from episodic memories and figure out what to do about them.
+
+Again, we'll get into a deeper dive into each of these functions in a later video. For now, I just wanted to focus on the overview: the architecture and how it works, and also show that it is indeed working.
+
+ Raven is not sick. Yes, correct. So anyways, you can see Raven is easily confused. Raven can't really keep up with stuff.
+
+Let me go and cancel these services.
+
+This is the Shared Database service. I have it using just SQLite. SQLite is the bare minimum that you can use.
+
+So, basically, what this means is that I'm going to need to take a break until either Da Vinci is faster and cheaper or GPT4 comes out. In the meantime, let me give you a quick tour of the actual files in this project.
+
+The Outer Loop microservice is responsible for generating questions and answers for Raven, as well as for compiling everything into a corpus. The Constitution and Output prompts are used to generate the final output. In this case, Raven has determined that it is not sick.
+
+In this video, I give an overview of the raven natural language architecture cognitive architecture, including a demonstration of how it works. I also explain how the various microservices that make up raven work together.
+
+The QA service tries to answer questions from memory, using information stored in a shared database. The shared database can be used by other services, such as the transformer service, which handles communication with openai. The inner loop is the largest and most difficult service, as it is responsible for raven thinking about thoughts. It uses a concept called chronology, which lays out thoughts in chronological sequence, in order to see cause and effect.
+
+This video is almost 20 minutes long, but it provides a broad overview of raven and how it works. Thanks for watching and stay tuned for future videos!

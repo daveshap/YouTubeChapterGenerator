@@ -1,0 +1,35 @@
+Quadrant is a tiny, open-source search engine that runs on Docker. It is designed to be easily integrated into other software systems.
+
+In this video, David Shapiro demonstrates how to install and run Quadrant. He also shows how to create a search index and query it.
+
+Installing Quadrant is simple. First, you need to install Docker Desktop. Then, you can pull the Quadrant image from Docker Hub.
+
+Once Quadrant is up and running, you can create a search index and query it using curl.
+
+In order to use the quick start guide for the expected response, we need to ensure that the collection is created. We can do this by copying the response into a new file, replacing the single quotes with double quotes ( since windows is finicky like that), and then checking the status. If everything is green, we're good to go.
+
+To add points, we first need to clean up the JSON so that it's in one line. This way, windows will be able to handle it. To do a search, we again use POST. This time, we're searching with a filter. We can do this by adding "top": 3 to the JSON. This will give us the top three results.
+
+Finally, we need to automate this process so that we're not manually typing in curl commands all the time. We can do this with python code.
+
+In this video, we learn how to use the Neural Search algorithm to find relevant information in a high-dimensional space. We also learn about the curse of dimensionality and how it can impact machine learning models. Finally, we learn how to use the Quadrant client to populate a collection with data vectors.
+
+The quadrant client is not defined. What do you mean? It's not defined. I'll need to look at how to do the sentence transformers on the GPU. Actually, let me pause that and figure it out real quick.
+
+I looked it up. It's right here. You have to do it with PyTorch. I've got Anaconda. I'll figure it out later. It's not that big of a deal.
+
+So anyways, yeah. I think we're ready to test this. We'll instantiate the quadrant client and then upload this collection. We'll use the sentence embeddings and the payload. And we'll go from there. Let's see what happens.
+
+Now it's going to spool up those embeddings. Quadrant client is not defined. What do you mean? It's not defined. Oh, I have to import it. Hey, okay. Let's try it again. It's not a valid dict. Yeah, I thought they would want a dictionary. Okay, so let's fix this real quick.
+
+It's going to want info equals so we'll just do file name equals file and then content equals that. And then we'll do dot append. And then for sentences equals list and we'll do sentence sentences there we go. Dot append info content.
+
+Okay, so then we will embed the sentences and the payload will be that. Okay, that should work. And we're almost done, I promise.
+
+Hey, look at that. Okay, so then we come back over here and instead of test collection, we will get startups. And then it says vector size 768. So like that shard number one points count 25. So there's all 25 in there. Cool.
+
+And then I guess let's do a quick search. Uh, let's see. Oh, I guess I'd have to do a vector. I'm not going to worry about it. Okay, I think we're at a good stopping point. Um, yeah.
+
+So doing this with the Google Universal Sentence Encoder is infinitely faster than sentence transformer, even with even on CPU. So I will probably default to that anyways. Um, yeah. Because if you don't need to rely on GPU and it's fast enough probably stick with that.
+
+But yeah, so quadrant it seems like it's uh it's pretty fast. And we'll go from there. I will probably work on embedding this into all of my microservices. So thanks for watching and have a good day.

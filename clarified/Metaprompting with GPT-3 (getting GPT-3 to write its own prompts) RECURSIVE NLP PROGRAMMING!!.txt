@@ -1,0 +1,7 @@
+Meta prompting is a way of generating new prompts by feeding the output of one prompt back into the input of another. This can be done recursively, so that the output of each prompt is the input for the next.
+
+One way to do this is to start with an end goal in mind, and then work backwards to generate a prompt that will yield the desired instruction. For example, if you want to write a prompt about solving climate change, you could first ask GT3 to generate a writing prompt about the issue. This will yield a prompt like "What do you think is causing climate change? What do you think we can do to stop climate change?" which you can then feed back into GT3.
+
+Another way to generate a meta prompt is to tell GT3 to write a writing prompt for a given issue. This will yield a prompt that can be used to generate even more writing prompts. For example, if you ask GT3 to write a prompt about escaping from a deserted island, it might generate a prompt like "Even though you've been stranded on a desert island for weeks, you have not given up. What do you do?" which you can then feed back into GT3 to generate even more prompts.
+
+Meta prompting can be used to generate an endless stream of prompts, or to solve a particular problem. In either case, the key is to tell GT3 to write a writing prompt.

@@ -1,0 +1,21 @@
+In this video, I'm talking about the Solar application and the encyclopedia service. I've already shown another video about the encyclopedia service, which is basically Wikipedia running on SQLite. SQLite has a lot of limitations, namely that it's just a relational database and it's not meant for large data sets. Solar, however, is a search engine. If you think about Google, Google has things like analytic and semantic understanding to help you with search functions. Solar gives you that same power, but it gives it to you locally.
+
+First, I need to show you what Solar is and what it does. This is Docker Desktop running my instance of Solar. Within Solar, cores are basically like index databases. A core is like an index database that's the simplest way to put it. I'm not going to do a deep dive into Solar if you're curious about how Solar works there's plenty of material out there to look on it but I just wanted to show you that I've got 267,000 documents in this index in this core.
+
+I've also got the wiki core within Solar data. The wiki core is 343 megabytes. Solar is also very efficient.
+
+Going back to the directory, I've got a batch file that can be rewritten for mac or linux. Basically, what this does is it tells Docker to run Solar and use this directory for your data. It also says to use this nat so map port 8983 to port 8983 and use the Solar pre-create script and call it wiki. There you have it. It's pretty simple.
+
+I also created a second file just for Solar functions. It's pretty straightforward. All it does is if you give it a payload, if it's a single dictionary, then it will send it to one endpoint. If it's a list, it'll send it to another.
+
+One key point is the url argument within the commit function. If you don't have that, then Solar will just keep it in memory until you tell it to commit. I say to give it five seconds to commit so that way it can keep up.
+
+One thing I found was that sometimes, as using posts as fast as you can go, Solar needs a second and it'll crash. Rather than have it just fully crash out, I gave it a while true loop and I gave it six tries. That way, if it failed after six tries, it would bomb out. But invariably, it would usually go through after one or two tries. Sometimes I saw it take three tries for the Solar engine to catch up.
+
+The problem was that I was sending in individual dictionaries at once. If you send a larger payload, but slower, it's entirely possible that it won't crash as often. This is subject to improvement.
+
+Those are the two functions and then the start Solar bat. I just wanted to show this. Here's the final test that I made. You can see it's four lines from d wiki functions import all. Here's the file name which is just an export of the simple wiki simplified english. Then I use this function process file to solar.
+
+Process file to solar takes a file name and goes through the article line by line. I detailed in the previous video about parsing wiki Wikipedia and that is that the exports the XML exports are too large to hold entirely in memory. Fortunately, the exports are organized in such a way that it's really easy to separate out each individual article. Every Wikipedia article starts with this tag page and ends with this pack with this tag slash page. So you know if you see this you're at a new article.
+
+Solar is a more efficient and powerful technology than SQLite, and it will serve as the underpinning technology behind Raven's encyclopedic services. This will not only include Wikipedia, but also Raven's recall services, which will give Raven a long-term memory.

@@ -1,0 +1,15 @@
+In a quick video, David Shapiro demonstrates how to use a recursive summarizer to create executive summaries. He explains that the summarizer will break down a document into chunks, summarize each chunk, and then assemble the chunks into a concise summary. He shows how to use the summarizer on a book, Alice in Wonderland, and notes that it can be used on any type of document.
+
+In "The Scarlet Letter", Hester Prynne is forced to wear a scarlet letter "A" on her bosom as a punishment for committing adultery. However, it is unclear whether or not the events of the novel actually took place, as some believe the story is allegorical.
+
+The prompt for this essay is to summarize the following summary:
+
+"Hester Prynne escapes by climbing a tree, and falls down a rabbit hole into a long dark tunnel. She finds herself in a strange place where she is forced to wear a scarlet letter "A" on her bosom."
+
+In the novel, Hester Prynne is forced to wear a scarlet letter "A" on her bosom as a punishment for committing adultery. However, it is unclear whether or not the events of the novel actually took place, as some believe the story is allegorical.
+
+In the summary, Hester Prynne escapes her punishment by climbing a tree and falling down a rabbit hole into a long dark tunnel. She finds herself in a strange place where she is forced to wear a scarlet letter "A" on her bosom.
+
+It is unclear whether the events in the novel actually took place, or if they are allegorical. Either way, the summary provides a detailed account of the story.
+
+In this video, David Shapiro shows how to use GPT3 to create a concise summary of Alice in Wonderland. He demonstrates how to save the text as a plain text file, and how to change the prompt to get an even shorter summary. Thanks for watching!

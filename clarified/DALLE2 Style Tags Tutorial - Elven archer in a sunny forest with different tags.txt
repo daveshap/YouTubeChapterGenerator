@@ -1,0 +1,15 @@
+Good morning, everyone. In this video, we're going to explore some dolly tutorials. I've compiled a list of examples to show you how to get the results you want from dolly. For most of these, we'll be using style tags.
+
+One thing to keep in mind is that less is often more. If you look at some of the good examples, you'll see that they give just enough information to get the idea across, and then they let the viewer fill in the rest.
+
+For our first example, we'll be doing a high fantasy art piece. So, let's say we're looking for an image of an elven archer in a sunny forest. One thing to note is that if you change the 3D tag to high fantasy art, you'll get very different results. This is because high fantasy art is not meant to be realistic.
+
+Next, we have a wide angle shot. For this, we'll change the perspective to photo. Again, we see that the results are quite different from the previous example. This time, we have a cosplay-esque image with an unsettling uncanny valley effect.
+
+Finally, we have an aerial drone shot. This gives us a high angle view of the elven archer in the forest. Again, we see that changing the perspective can give us very different results.
+
+In conclusion, we've seen that by using style tags, we can get very different results from dolly. By playing around with the tags, we can get the results we want for our specific needs.
+
+In terms of speculative art, I really like the clean look of the "speculative art" tag style. It's simpler and more efficient than other styles like "high fantasy art". I find that "dramatic photo" works well for portraits, especially when combined with a neutral background. However, I've noticed that if you include any sci-fi or fantasy words in the search term, the photo realism decreases significantly. For example, when I searched for "pretty elf with green eyes", the results were less photorealistic than when I searched for "pretty woman with green eyes". I think this is due to the training data for the algorithm, which is likely to be biased towards digital art and painting when it comes to fantasy characters. Nonetheless, I was surprised by how well the "dramatic photo" tag handled the elf search term, considering the difficulty of capturing photorealistic elves in photos. Overall, I think the "speculative art" tag style is a good choice for those looking for a clean, efficient way to create art.
+
+In this video, I demonstrate how you can use the "style" feature in the AI art program "Dolly" to generate different results depending on the subject matter. For example, if you ask for something that's similar to what an artist might have produced, it tends to do pretty well. But if you try and do something that's completely off the wall, it might not work as well. I also show how the program is biased towards certain styles depending on the subject matter. For example, if you do a fractal art piece with the subject of "rainbow clouds," it's more likely to turn out well than if you ask for an elven archer in a sunny forest. Thanks for watching and stay tuned for more tips!

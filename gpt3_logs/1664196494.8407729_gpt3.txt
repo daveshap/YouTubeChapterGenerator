@@ -1,0 +1,9 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: it first started up it was using about 2.2 so this is actually using only about 1.3 gigabytes in additional memory so I don't know how the memory usage is gonna um total up there but it uses very little CPU so you look at this like demo search like there's a brief little bump of CPU usage um very fast very efficient uh yeah so I guess that's about it what's most baffling to me is how the data is only 400 megabytes is that changing 393.2 I wonder if it's doing uh 393 okay no it's not changing so anyways uh seems like it's relatively space efficient in terms of data um memory is the heaviest usage CPU is low and it's lightning fast so I'm pretty impressed this was 90 000 records and it searches really dang quick all right that'll do it for today thanks for watching like And subscribe and consider supporting me on patreon
+
+CLEAR ESSAY:
+
+==========
+
+It's baffling to me how little data this program uses - only 400 megabytes. And yet it's incredibly fast and efficient, using very little CPU. It's impressive how such a small program can handle 90,000 records so quickly. Thanks for watching - and please consider supporting me on Patreon.

@@ -1,0 +1,64 @@
+In this video, I'm addressing a common problem with GPT-3: it sometimes makes stuff up (hallucinates/confabulates) when it's asked questions it doesn't have the data to answer.
+
+I was recently given a challenge where someone said that they were working on a problem of having a chat bot look at a patient's texts or graphs and it was just making up medications. For example, if you ask the chat bot what medication grandma is on, it might just make something up.
+
+I explained that the way humans do this is by recognizing when we don't have the information to answer a question. Our brain will give us a signal that something is not present in the text.
+
+To train GPT-3 to do this, I'm using a dataset of 4,000 medical texts. I'm going to go through the texts and label whether or not each text contains the information to answer a question about medication.
+
+ Hopefully, by doing this, we can teach GPT-3 to recognize when it doesn't have the information to answer a question, and to avoid making stuff up.
+
+It is important to be able to determine whether or not a prognosis was given in order to properly treat a patient. However, this can be difficult to do if the patient chart is unstructured.
+
+In order to make this determination, I have broken the problem down into two tasks: a boolean (true or false) task, and a list task. I have created a prompt for each task, and I will be fine-tuning a model to do both tasks in one go.
+
+The boolean task is to determine whether or not a prognosis was given. The list task is to determine what the prognosis is.
+
+With these two tasks, I should be able to determine whether or not a prognosis was given, and if so, what the prognosis is.
+
+In order to generate the training data for our machine learning model, we need to come up with a set of promts. For this task, we will use the following eight prompts:
+
+1. Medical text
+2. Diagnosis
+3. Medication
+4. Tests
+5. Follow-up tests
+6. Context
+7. Test results
+8. Completion
+
+For each prompt, we need to determine the appropriate input and output. For example, for the prompt "Medical text," the input will be a piece of medical text, and the output will be the text itself. For the "Diagnosis" prompt, the input will be a piece of medical text, and the output will be a list of diagnoses.
+
+After determining the input and output for each prompt, we need to write a script that will generate the training data. This script will take the medical text as input and generate the appropriate output for each prompt.
+
+Once the script is finished, we will have a training dataset that we can use to train our machine learning model.
+
+I'll do dmarc equals filename dot replace and what we're replacing is this part with nothing and we're also replacing the dot text at the end with nothing and then we're gonna do upper so that way like it'll end up with like diagnosis all caps and medication all caps and prognosis all caps and tests all caps.
+
+Okay, so then the prompt. What we'll do is what I like to do is actually have um have uh like have the instructions before and after um but let's try it without. I think it'll be fine.
+
+Okay, so also one advantage of having an all caps demarcator is that it's very distinct. Like if you look at some of these medical contexts if you see something in all caps it's very obvious.
+
+Oh, but this could be a problem. Yeah, because it will have seen this token before so it might mistakenly um say like oh you're done. So this is this is the diagnosis.
+
+Let's think about this for a second. Um, so we'll actually do the prompt. We'll call will be list all um and I think it'll be important to so this will be like list all diagnosis or list all um list all medication or list all prognosis or list all tests um yeah okay so that will that'll give us a much more unique demarcator and so it'll know to look for the list all as well um because this is this is also where uh where it's helpful to include plain text instructions at the end of fine tuning data especially for multiple multiple tasks.
+
+Okay, so list all and then we're going to populate it with the first one is going to be the medical text and the second one will be the d mark and so if you have two dollar s so basically this says put the variable in the string as or put this variable here as a string so if it sees two then you need to have a tuple that's what this is called um okay so that's the prompt as populated and then the completion will be the boolean dot upper because we want it to just do the all caps thing um okay so basically what this if if the answer is no if whatever the question was is no we're done um just append the data and move on if boolean is yes then we need another we need another step and so what we're going to do is we're going to um we need that we need to keep this medical file and the medical text and so what we need to do is that we actually need to get another answer so we'll say okay we actually need to get um so we're going to replace the file name file name equals file name dot replace and we're going to replace the bool with list um and so because what you see is like the diagnosis this is part one and then the list diagnosis is part two so we're just going to assume that this is what it looks like but instead of having all this other junk around it we just want the answer what is the diagnosis sound good okay and then also what we'll do is we will add we'll add a space here so that way there will be actually no i think you're supposed to have a space before so we'll just do space plus so basically what that'll do is it'll add a space between the answer and that last colon um I think that's the the right way to do it you could probably do both um yeah let's do both why not okay so we're replacing the file name so we're gonna grab if the answer is yes if the job isn't done right yes it's like oh there is it is here okay what is the diagnosis okay so then we will want to do the same thing where um prompt equals open file name context so yeah we're this is this will basically be the same where we just put the context back and we ask it again also I want to point out I changed the temperature to zero because we want this to be deterministic we don't want any creativity um just give me the answer yes or no let me add update the prompt file name to find the answer okay so then the completion you get the list answer okay and so then whatever this is should be done now um we'll leave it whatever it comes back with upper lower so then we will do this we'll copy this because it's mostly the same um so but instead we'll say completion equals that plus completion okay I think that's it I think that I think that'll do it um but what we should do is um actually print this as we go um so so that we can actually see it so let's split this out this is this is why so if you you notice in my code I tend to be very procedural this is why because yes you can stack stuff up but then it makes it harder to um to diagnose and print so like print info um and oh actually if it's if it's not found we know that it's no so actually this the completion should just be see and this is also why um completion should be none found um so we want something very specific there okay print info print result that happened okay and so then we'll do the same thing here info equals that we'll print info and then we will um we will brain what are you doing we will append the info sometimes my brain just says what were we doing huh huh I want to do something else I know you're probably thinking that's a sign of adhd um probably whatever okay I think this is good um let's do it a quick test I know you all like to see when things blow up um you like to see uh see my diagnosis my troubleshooting process so let's do this cd what is this called medical python generate well there's your first problem medical texts um oh there's no comma there let's see what line is this line 55. I only drive 55 okay okay did you mean a literal sure oh huh there's a really important step I missed here did you catch it you actually have to save your data um so what we'll do is with all the data there all the stuff is going to be saved actually you know what I have we don't need these these extraneous folders let me open a previous project and I'll just copy the function that i use to format the data because this is kind of an all-in-one with medical.json l as out file for i n result json dump i out file out file write slash n that should be good I think that's the same format yeah because this is prompt completion prompt completion okay so let's close that rapid prototyping man it's a it's it's a special
+
+In this video, I made a mistake that broke one of my own rules: always save your work as you go. As a result, I got to the very end and got an error.
+
+I was trying to generate data using Python, and I wanted to pull randomly from a list of 3,000 contacts. I was only going to get 50 choices, and I wanted to show different pro or different contexts with different questions because that would force gpt three to think a little bit harder.
+
+However, I accidentally changed the file name and didn't re-initialize it. This led to the error "name 'json' is not defined."
+
+I fixed the mistake and re-ran the code. This time, it worked beautifully. The data was accumulating, and I had 199 samples.
+
+Some of them said "none found," but many of them were great outputs, like "the patient will go home with vicodin for pain and follow up postoperatively in the office where we will review the path report with her."
+
+Now that I have a separate function or script to format the data, I can run it multiple times and get even more data. This is important because the more data I have, the better my results will be.
+
+In this video, David Shapiro demonstrates how to fine-tune a machine learning model to better understand medical questions. He begins by explaining that it is unnecessary to do a JSON dump when outputting data to a file. He then demonstrates how to fine-tune a model on the cheaper Curie platform, which is 10 times less expensive than the Davinci platform.
+
+Shapiro shows how the model can be tested on a variety of medical questions. In some cases, the model is able to provide accurate answers. However, in other cases, the model is not as accurate, particularly when it comes to more complex questions.
+
+Overall, Shapiro's video provides a helpful overview of how to fine-tune a machine learning model for improved accuracy.

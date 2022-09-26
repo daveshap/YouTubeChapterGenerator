@@ -1,0 +1,13 @@
+In part two of my fine tuning tutorial, I showed how to data augment a script that synthesizes plots. I did this by generating a lot of data, then deleting the bad samples. This left me with 202 samples, which is the minimum for fine tuning with gpt3.
+
+In order to fine tune my script, I need to match each prompt with a completion. I have a script that does this, but it is designed for chatbot data. I need to modify it to work with my plot data.
+
+The modified script will take as input a prompt and a completion. It will then match the prompt with the completion and add the information to a survey.json file. This file will be used in part three to fine tune my script.
+
+In Part 2 of my Fine Tuning Tutorial series, I'll show you how to take the synthetic data we generated in Part 1 and use it to fine tune a GPT-3 model.
+
+First, we'll need to clean up the data a bit. I'll remove all the completions that are too short, as we only want plots that are reasonably well-formed.
+
+Next, we'll upload the cleaned-up data to OpenAI. I've written a script that will do this for us, called fine tune.py. This script will also run the fine tuning job for us.
+
+Once the job is complete, we'll have a fine-tuned model that we can use to generate new plots. In Part 3, I'll show you how to use this model. Thanks for watching!

@@ -1,0 +1,61 @@
+In a recent post on the Open AI Forum, a user asked for tips on how to fine-tune a GPT3 model for use in generating coherent fiction. In response, I recommended either following the document example of fine-tuning (where you leave the prompt empty and put the whole story or a big chunk of it as the completion) or trying a prompt that consists of one paragraph of the story followed by the next paragraph as the completion.
+
+I also suggested that the user might try using a lore book mechanism, where major details of the story are referenced in the input prompt and the model is then tasked with generating the next paragraphs of the story.
+
+To test these ideas, I decided to run an experiment to see if I could generate novel-length fiction from a single story premise. I started by recycling some code from my previous project, the movie script generator. I then took a folder of 200 story premises and copy-pasted them into the new repo.
+
+Next, I created a playground prompt that asked the model to write a story based on a given premise, in the style of Frank Herbert (the author of Dune). Unfortunately, the results were not very promising; the model simply copied the premise verbatim.
+
+I then decided to try increasing the temperature and frequency penalty, in hopes that this would make the model more creative. Unfortunately, this did not seem to help and the model continued to copy the premise verbatim.
+
+Overall, it seems that generating coherent fiction with GPT3 is still a very difficult task. However, with more experimentation, it may be possible to find a way to fine-tune the model so that it can generate coherent stories.
+
+The "presence penalty" is a term used to describe the challenge of writing a cohesive story when you can only see a small section of the story at a time. This is because, in order to write a good story, you need to have a clear understanding of the story's plot and structure. However, if you can only see a small section of the story at a time, it can be difficult to maintain that clear understanding.
+
+One way to overcome this challenge is to split the story up into small chunks and then summarize the story as it goes. This way, you can provide the machine learning algorithm with a clear understanding of the story's plot and structure, and it can then generate the next section of the story based on that understanding.
+
+So far, it seems like the machine learning algorithm is not very good at this task. However, it is worth noting that the algorithm is only as good as the data it is given. If we can provide it with more and better data, then it is likely that it will improve.
+
+One way to get more and better data is to generate it ourselves. For example, we could grab the text versions of stories from Project Gutenberg and use those to train the algorithm. This would give us a large and varied dataset that would be more representative of the types of stories we want to generate.
+
+Once we have a more representative dataset, we can then start to fine-tune the machine learning algorithm to generate better results. For example, we could experiment with different types of input data, or we could change the way we summarize the story as it goes.
+
+Ultimately, the goal is to get the machine learning algorithm to generate sections of a story that are cohesive and make sense within the context of the story as a whole. If we can do that, then we will be one step closer to creating a machine that can write a complete story on its own.
+
+In order to generate a coherent story, the AI must be given a clear prompt, a detailed outline of the story, and information about where the story is in the current moment. This can be done by feeding the AI a synopsis of the story, or by providing a detailed outline that includes information about each scene.
+
+The "working set" is a term used in neuroscience to describe the memories, facts, and knowledge that are relevant to a particular task. When you switch from one task to another, the working set has to be shuffled off and replaced with the new task set. This process is called "context switching."
+
+In a similar way, the artificial intelligence system known as GPT-3 has to have all the relevant information for a task in order to handle it. This is why the system is designed to break tasks down into smaller chunks, or "sequences." Each sequence is then summarized, so that the system can keep track of the overall task.
+
+This process is not without its challenges. One of the biggest challenges is generating summaries that are accurate and concise. Another challenge is ensuring that all the relevant information is included in each sequence.
+
+Despite these challenges, the system is designed to handle larger tasks. This is because the human brain works in a similar way,Breaking tasks down into smaller chunks and summarizing them.
+
+The system is not perfect, but it is a good proof of concept.
+
+In this video, I'm working on a project to generate new chunks of text based on an existing story. I have a dataset of Gutenberg books, which I'm breaking into 1500-character chunks. For each chunk, I'm summarizing the content and creating a prompt with the outline of the story so far and the last chunk of the story.
+
+The problem I'm running into is that the summaries and last chunks are getting too long. The first prompt is only 4 kilobytes, but the last prompt is 12. The summary is 11,000 characters long, and the next chunk has to fit into that completion as well. So I'm struggling to find a way to keep the data concise while still providing enough information for the model to generate new text.
+
+Any suggestions would be greatly appreciated! Thanks for watching.
+
+Anyone who says that the human brain can only hold seven things in its working memory is wrong. You try and actually summarize and figure out how much working memory you need to write a novel. Or, us novelists have a working memory that is several orders of magnitude greater than the typical person because you need to keep so much in your mind when you're writing a story. Unless there's something I'm missing, who knows.
+
+Anyways, so back to the script. We get all the summaries for this particular book, we get the outline for this particular book, then we instantiate a new string called summary chunk. This is what accumulates those summaries in the prompts right here.
+
+So, we go down to this one - the story so far. This is the summary, and so this is why it keeps getting bigger, is just because I just add to the next one each time, so it gets just longer and longer and longer every iteration.
+
+Last chunk is open file that has the same name as the current summary, because remember the summaries and the chunks have the same name because the summary is just a summary of that chunk. So Alice in Wonderland summary 03 is just a summary of this chunk of 03.
+
+Suddenly Alice had the moment to stop the thing before falling, and so then you look at summary Alice falls down a very deep well and has plenty of time to look around as she falls. So you see like, okay cool.
+
+We've reduced the length but that's still not enough because it accumulates here. Okay, so we incrementally build up the summary next chunk prompt. So then we compose the prompt, which is basically just load this and populate it.
+
+So, outline summary and chunk - the outline is populated with this variable. You can see that here. So we replace outline with the outline, replace the summary with the summary chunk, which is the string that keeps getting longer. And then we finally replace last chunk or sorry, next chunk with last chunk.
+
+Last chunk is basically the current chunk, and the next chunk is I wrote a quick little script that you just pass it a file name or file path of a given summary or chunk and the name of the book. And it will just increment and figure out what the next chunk is for the completion. And then it'll just pass that data back.
+
+So this is what it looks like. I had it output the length of each of each one as it goes. Let me let me add a little bit more so you can see. Let's see. So we'll have name, so that's the name of the book. And then we'll have summary, which is going to be the name of the file. So you'll be able to see like which well, I guess the summary is going to have the file name in it. So we'll just do summary. And then length of the prompt plus next chunk, so you can see how big that sample is.
+
+Okay, so for Sherlock 01, the length is 5500 characters - that's about at the limit already. And then by the end for Sherlock 041, it's 14000 - so that's more than twice what we could expect to fit. And that's also not even like, not even the full length of the story. So I'm going to have to pause here and go back to the drawing board and do some thinking, some noodling on this. So stick around for part two. It should come out within the next week or so. Thanks for watching.

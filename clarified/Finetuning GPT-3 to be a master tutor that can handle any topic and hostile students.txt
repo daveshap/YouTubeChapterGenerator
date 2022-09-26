@@ -1,0 +1,19 @@
+David Shapiro discusses the AI chatbot he created to help educators. He explains that the bot is designed to be compassionate and curious, and to help spark the genius in every child. He demonstrates how the bot responds to a user pretending to be a bored kid who doesn't care. The bot shows interest in the kid's hobbies and helps him to understand his situation.
+
+In order to create a more flexible chatbot, I augmented the data with adversarial topics. I also added a few more topics, including "adulting" and "small children." This allows the chatbot to handle a wider range of topics and to be more responsive to different user needs.
+
+In order to train GPT-3 to be a great tutor, we must first give it examples of great tutoring. This can be done by showing it conversations between a tutor and a student, where the tutor is exhibiting qualities such as patience, creativity, and the ability to provide constructive feedback.
+
+Once we have a dataset of these conversations, we can then use it to fine-tune GPT-3 so that it learns how to exhibit these qualities itself. This process is straightforward and can be done with just a few lines of code.
+
+Once GPT-3 has been trained, we can then test it by giving it various edge cases to see how it responds. For example, we can try asking it to teach a young child about plate tectonics. In this case, we would expect it to be patient and to explain the concept in a way that the child can understand.
+
+We can also try to break GPT-3 by giving it nonsensical inputs, such as screaming noises. In this case, we would expect it to be able to handle the situation gracefully and redirect the conversation to a more appropriate topic.
+
+Overall, by providing GPT-3 with examples of great tutoring, we can train it to be a great tutor itself. This process is simple and can be used to train GPT-3 for any number of tasks.
+
+In this video, David Shapiro demonstrates how the GP3 chatbot can be trained to handle different edge cases. He shows how the chatbot can be made to stop responding if the user is being obstinate, and how it can be made to redirect an offer to teach about human sexuality.
+
+Shapiro points out that the more training data the chatbot has, the better it will be at handling different cases. He notes that the GP3 chatbot is already quite good at handling edge cases, but that there is still room for improvement.
+
+Shapiro concludes by saying that he will continue to work on training the chatbot to handle different cases, and that he will talk to more teachers and librarians to get more ideas.

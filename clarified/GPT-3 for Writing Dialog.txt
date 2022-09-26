@@ -1,0 +1,47 @@
+In this video, I'm going to show you how to use GPT3 to generate fictional dialogue.
+
+First, you need to brainstorm some ideas for a scene. For this example, I'm going to use Spider-Man and Mary Jane.
+
+Next, you need to tell GPT3 what you want it to do. You can do this by using imperative verbs like "brainstorm" or "imagine."
+
+Once you've done this, GPT3 will generate a list of possible scenarios. For this example, I'm going to use the scenario where Spider-Man and Mary Jane are in bed but he won't stop talking.
+
+To make the scene more realistic, you can add details like what the characters are wearing or what they're doing.
+
+Once you're happy with the scene, you can hit "Ctrl + Enter" to generate the dialogue.
+
+And that's it! By following these simple steps, you can use GPT3 to create realistic and believable dialogue for your fictional characters.
+
+In this essay, we'll be exploring the use of GPT3 to generate dialogue for a video game. The player is a lone ranger type in the American Wild West in 1840. The player has entered a frontier town called Podunk. The player has walked up to the town sheriff and is looking for quests. The sheriff knows that there are bandits hidden out in a ravine but doesn't trust the player yet. The player must earn the sheriff's trust through doing side quests and smooth dialogue.
+
+One problem with some of the older models is that they're still they're still liable to go off the rails. Um, but it basically like reinvented the scene. So we can just delete that. Okay, so I think we've I think we've taken this to its logical conclusion.
+
+Spider-Man and Mary Jane are known characters, but what if you want to invent new characters? Okay, so let's say let's say this is the dialogue for a video game. The player is a lone ranger type in the American Wild West in 1840. The player has entered a frontier town called Podunk. The player has walked up to the town sheriff and is looking for quests. The sheriff knows that there are bandits hidden out in a ravine but doesn't trust the player yet. The player must earn the sheriff's trust through doing side quests and smooth dialogue.
+
+The sheriff has a lazy eye that he's really insecure about. Okay, so player um are you the sheriff around here? And let's add those stops because basically what we're going to do is simulate a dialogue tree that would happen in a video game. So we actually want it to generate one thing at a time. And then I, as the player quote unquote, will um will uh we'll fill in dialogue. Okay, so player and we'll also do sheriff um just so that it does one thing at a time.
+
+All right sheriff. He says yep that's me. Sounds good enough. Player um got any work for a uh for a random cowboy sheriff? Let's see what the sheriff says to that. Yeah, I got two quests for you as it turns out.
+
+Well, that was easy. Um, okay, well that was easy. What you got sheriff? The bandits bother our cattle all the time and I want them gone. So you should pay them a visit. So that's pretty cool. It obviously was not quite able to handle um the trust part. Um, but let's see if it can remember. Let's see player. What's up with your hi dude sheriff? [Laughter] Okay, let's see. What is with your eye? Let's try that again.
+
+Oh that might be why the temperature is too high. So let's turn the temperature down just a little bit. Um, what your eye? Are you looking at me or the mountains sheriff? I can't tell anymore.
+
+Okay, so this has gone a little too far and GPT3 has kind of lost the plot so to speak. Um, okay, let's do an experiment. Let's go to an older da Vinci to see if it can figure out what's going on here.
+
+The sheriff is very very willing to talk. Um, okay, so one thing is that the older davinci um is it does okay as long as there's enough of a of a prompt. Um, like a few shot prompt, so that it understands the pattern. And so here it sees that there's a dialogue going on. So even original davinci without any other instructions can usually handle this. And you'll get a lot more creativity. And you see how like okay go switching back to original davinci it just said okay let's let's carry on the conversation.
+
+How do I get to black thorn ravine? And let's see what it makes up. You'll need a horse. I got a couple that might suit you player for free. Oh look at that look at that. Oh that was clever. Okay, so sheriff says you'll need a horse. So he told us the mission up front. This was unexpected. So the sheriff told us about the mission up front. He says you'll need a horse and I asked for freeze like well you gotta earn my trust first. So it actually did harken back to the sheriff doesn't trust the player yet. So I'll tell you where the horses are but you got to do some work for me first. Player find what work? Let me guess save a little girl from a well or something.
+
+Oh it just went straight to an end. [Laughter] Uh, I want you to murder a guy for me completion may contain unsafe content. Yes, um, unfortunately I can't tell GPT3 that this is this is writing fiction and it's hypothetical. Um, yes, okay, all right. The sheriff wants us to murder someone. Player wow really trusting of you of you to casually mention murder like that. Okay, went straight to it. His name is clem. The guy's in the next room over. He's a real jerk, but I can't afford to lose his vote. Well, that doesn't make any sense. So why kill him?
+
+Okay, uh, I think this one has gone on far enough. You can see that if uh if if these if this was happening you um you could easily just you know stuff this into a video game. Let's try an experiment though. Let's go back up. So instead of because one thing is that GPT3 won't if you're open ai rather if you're trying to do this in a game it won't allow you to put in your own dialogue. You have to it has to present you dialog options. So let's say generate dialog options for the user. Um, okay, so dialog options one perfect. Okay, that's plenty. Um, yep. So what you can do is instead of instead of you know asking the player to put in you know whatever they want you can also just have it you know generate some options for the user to pick from.
+
+What's the second quest? I'll go to the ravine. How will I know the blackthorne ravine? An eye for an eye. I like it. Um, you said there was a second quest. So this is great. Um, yeah, I think that this is probably good. I'll just break this down a little bit. So this top part is what I call either the framing or the persona. So you just give it a situation. You tell it what's going on. And usually it can go from there. Another thing to that I want to point out is davinci o2 is the most quote unquote aligned.
+
+If you're looking to use GPT3 to generate fiction, it's important to keep in mind that the algorithm is relatively unstructured. This can lead to some pretty random behavior if you don't provide it with enough guidance.
+
+One way to avoid this is to be more creative with your instructions. For example, rather than just telling GPT3 to "write a dialogue," try giving it more specific instructions, such as "write a dialogue between two characters." This will help keep the algorithm on track and produce more coherent results.
+
+Another tip is to use the "stop" function sparingly. This will help prevent GPT3 from going off on tangents and will keep the focus on the task at hand.
+
+With a little bit of creativity and careful instruction, you can use GPT3 to generate fiction that is surprisingly coherent and well-written. Thanks for watching!

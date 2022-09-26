@@ -1,0 +1,29 @@
+This morning, David Shapiro is focusing on generative adversarial networks (GANs), specifically for generating synopsis. He explains that a synopsis is the kernel of a story - the seed of a story, the premise, or a set of ideas that can be expanded upon. Whether or not you're plotting or pantsing, you still need an idea to start from.
+
+Shapiro demonstrates how to generate a garbage synopsis by removing all names from it. He then shows how to generate a middle-of-the-road synopsis with names and places, and finally a solid synopsis. He explains that the goal is to generate a rank 5 synopsis.
+
+To do this, Shapiro first creates a function to pick random variables. He then uses this function to generate a synopsis with a given set of variables. He also creates a function to grade the synopsis. This function uses the GPT3 completion prompt with a temperature of zero to generate a grade for the synopsis.
+
+Shapiro then loops through these functions to generate multiple rank 5 synopsis.
+
+In the town of Stromstad, Sweden, immigrant families from all over the world have settled. The town is a Melting Pot of cultures and traditions, and the residents are proud of their diversity. However, there is one family that is not like the others - the kovics. The kovics are a Romani gypsy family who have been living on the outskirts of Stromstad for generations. They are a tight-knit community who stick to their own. The residents of Stromstad view the kovics with as dirty and dangerous.
+
+Karen is a young woman of color living in Scandinavia. She goes to school and makes friends, but the residents of Stromstad still view her as an outsider. When her friend Jacob goes missing, Eva starts to worry. Through her own culture, she also starts to understand the prejudice the kovics face. Slowly, the town starts to accept them.
+
+The story begins in a dark, gritty alternate universe. The main character, a young woman named Delphine, is a kicked around misfit. She's been raised by a single mother who's never seemed to care about her and she's constantly picked on by her classmates. Delphine's only solace is her daydreams, which she imagines as grand adventures in alternate universes.
+
+One day, Delphine's dreams come to life when she's suddenly transported to another world. This other world is a magical place full of amazing creatures and adventures. She quickly makes friends with a group of other young people who have also been transported to this world. Together, they begin to explore their new surroundings and try to figure out how they got there.
+
+As they investigate, they discover that they're not alone in this world. There are others who have been brought here before them, including some people who are now evil. It turns out that this other world is a place where people's deepest desires and fantasies come true. The problem is that not everyone wants the same thing, so conflicts begin to arise.
+
+Delphine and her friends must band together to try and stop the fighting and find a way back to their own world. As the story progresses, it becomes clear that this is not going to be an easy task.
+
+Other World is a place where everyone can stay happy. There is the moral is that if you live in a world of fantasy, the theme is really confusing, especially to people who are not familiar with story structure. The rule of thumb for theme is that it is a universal truth and so universal truth is something that is true about the human condition that is explored via story. Myths and Parables use magic or technology, you know, fantasy elements to remove human constraints to then explore that universal truth. And so the universal truth here is that, okay, imagine that you're transported to a world where everyone gets what they want but conflict still happens. So the moral here, the universal truth, the theme is that you can't just be handed what you want. Life isn't that easy.
+
+As the story progresses, it becomes clear that the world is not a place where everyone can stay happy. Those who want something that others don't must choose sides and the lines are quickly drawn. Yes, that is human nature. I want this and it's mutually exclusive with what you want, so let's fight over it. It sounds like politics. Delphine and her friends find themselves in the middle of a war that they never wanted. So this is supposed to be a Dreamland but they end up in a war. On one side is a group of people who want to keep the world as it is, where everyone's dreams come true. On the other is ones who want to change it so that only the right kind of dreams can stay. Censorship has emerged as another moral theme. Delphine and her friends are caught in the middle and they must find a way to stop the fighting before it's too late.
+
+The war heats up and Delphine and her friends are in the middle of the bloodshed. They find themselves facing off against the former friends and allies and it becomes clear that there's no going back. Delphine and her friends find a way to stop the fighting but at great cost. They're the only ones who escape the other world and they're left with the knowledge that their friends and loved ones are now dead. Delphine is left with a deep sense of loss and grief but she also gains a new appreciation for the simple day-to-day things in life. She has learned to stop daydreaming.
+
+Delphine's story ends with her returning to normal life. She's changed by her experience in the other world and now she's more thoughtful and considerate person. She's also gained new respect for the people around her. Even though she didn't used to like them, she eventually finds love and starts a family of her own. She still daydreams from time to time but she knows that they're just that - daydreams. She's content with her life.
+
+And so the moral of the story is that you can't just be handed what you want. Life isn't that easy. You have to work for what you want and even then, you might not get it.

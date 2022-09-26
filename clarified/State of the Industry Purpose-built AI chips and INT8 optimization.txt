@@ -1,0 +1,19 @@
+Sapphire Rapids is the code name for Intel's upcoming release, which is planned for 2022. One thing that has been announced is that they will start supporting amx extension.
+
+AMX is advanced matrix extension which gives it more native support for artificial intelligence applications. This is a step up from avx, which is advanced vector extension.
+
+Alder Lake, the desktop version, is not rumored to have amx support. However, it does have avx.
+
+With that being said, I wanted to also introduce the concept of 8-bit matrix multiplication. Basically, what this does is it takes weights that are usually represented as floating point 32 or 16 bit values, and reduces them down to one byte.
+
+The advantage of this is that it takes less memory, less storage, and the processing is faster.
+
+What I hope to see before too long is that large language models will be able to run on conventional commodity hardware. This would be ideal.
+
+Over the past few years, there has been an increasing trend of integrating computation and memory in a more efficient way. This is evident in the development of memristors, which are devices that can store data and perform computations. This trend is being driven by the need for more efficient and powerful AI hardware.
+
+Currently, memristors are still in the early stages of development and are not yet commercially available. However, they have the potential to revolutionize AI hardware. This is because they would allow for the embedding of deep neural networks onto a chip, which would use very little power. In theory, memristors could even be powered by ambient energy, such as heat. This would make AI more efficient than human brains, which currently operate at an exascale level.
+
+There are already some AI hardware platforms that are beginning to integrate memristors. Sarah Brus with their wafer scale engine is one example. This platform has 850,000 cores and 20 petabits per second of memory. This is the kind of hardware that is being used to train and run the largest AI models today.
+
+As memristors continue to be developed, they will become more and more integrated into AI hardware. This trend will result in more efficient and powerful AI systems that are able to meet the demands of the increasingly AI-powered world.

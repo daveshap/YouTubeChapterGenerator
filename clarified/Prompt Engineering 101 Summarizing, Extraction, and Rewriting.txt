@@ -1,0 +1,13 @@
+In this video, I'll be talking about Text-Davinci O2, one of the Instruct-series models. The Instruct-series models are fine-tuned to follow instructions, so if you want to figure this out, you can see the blog post about it on Openai.com.
+
+One task that these models can perform is summarization or paraphrasing. So, I'll take a random Wikipedia article, and try to summarize it. I'll change one thing at a time to see how it affects the output.
+
+First, I'll run it with the default settings. Then, I'll try changing the temperature to 0, to make the model deterministic. This should give us the same output every time. However, we see that it gives us slightly different outputs each time.
+
+Next, I'll try changing the instruction to "summarize the following article very concisely". This should make the output shorter. And indeed, it does.
+
+Finally, I'll try changing the temperature to 1. This should make the model more random, and we see that it does indeed generate different outputs.
+
+So, in conclusion, the Text-Davinci O2 model is a useful tool for summarizing or paraphrasing articles.
+
+In this video, I showed you some of the cool things you can do with GPT3, including summarization, rewriting, extraction, and named entity recognition. I also showed you how to tweak some of the parameters to get different results. Thanks for watching!

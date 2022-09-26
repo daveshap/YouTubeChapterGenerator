@@ -1,0 +1,17 @@
+In this research update, I discuss the progress I've made on my cognitive architecture diagram and the addition of a new microservice, the embedding microservice. I also give an update on the simulation microservice and show how it has been improved. Finally, I discuss the nexus, the core of my artificial cognition research.
+
+The nexus is the brain of artificial cognition, and the conductor is the core objective function. I've also done research on the core objective functions but I started working on a simulation microservice and an embedding microservice. The simulation microservice will feed information into the nexus, and the output will be in the nexus. The simulation will need to be aware of what our agent is doing.
+
+The embedding microservice is used to vectorize text so that it can be searched. This is important because human memory is associative. This means that when we try to recall a memory, we often think of related memories as well. This is how we rapidly generalize.
+
+The simulation microservice is important because it allows us to test our artificial cognition research. I still need to code all of this up into a microservice, but I have made progress. The next step is to finish the microservice and then test it.
+
+There are three microservices that I am working on: the nexus, the universal sentence encoder, and the semantic embedding microservice. The nexus is responsible for search, and the other two microservices are responsible for providing context for the search results. The universal sentence encoder encodes a list of strings into vectors, and the semantic embedding microservice provides context for the encoded vectors.
+
+The nexus uses two search methods: associative and temporal. The associative search method retrieves memories that are associated with a given input, while the temporal search method retrieves memories that are temporally close to a given input. The nexus also has a fetch method, which retrieves all memories that have a given value in a given field.
+
+The universal sentence encoder is a fast and free microservice that encodes strings into vectors. The semantic embedding microservice provides context for the encoded vectors. It is json-ready, and it returns a list of dictionaries with string-vector pairs.
+
+I wanted to give a quick update on the progress of my artificial cognition project. The central point of the project is the nexus, which is the memory. The sensor input is the simulation, which gives the agent a virtual environment to work on. The semantic embedding microservice is what supports all of this.
+
+I'm running out of time, so I just wanted to point out that all of this is publicly available. I'll make sure to do a git push and commit so that everyone can access it. Thanks for watching!

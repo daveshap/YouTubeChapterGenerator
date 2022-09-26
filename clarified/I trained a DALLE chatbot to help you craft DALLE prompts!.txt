@@ -1,0 +1,7 @@
+The Dolly chatbot is a bot that helps you figure out what kind of content you want to create. To do this, it asks you a series of questions about what you want, and then makes suggestions based on your answers.
+
+The Dolly chatbot is trained on a dataset of 200 conversations. In each conversation, the bot tries to get as much information as possible about what the customer wants. With more training data, the bot will be able to make more accurate suggestions.
+
+The chatbot is designed to help you with the creative process, and is not meant to be a replacement for human creativity. However, it can be a useful tool for getting started on a project, or for getting ideas for what you might want to create.
+
+The customer trusts the artist's vision to create a meaningful and impactful image. The image is a landscape with a warm color palette. The sky is orange with a background of yellow. The sun is setting and there's a warm glow around the edges of the image. The image is not photorealistic, but has a nice low color. The chat bot will help you come up with prompts and can also talk to you about why something is not allowed, like violence or sexuality. The bot is not perfect, and a little bit of work is needed on adversarial cases. The final data is in dolly.json. You can do this yourself or augment it further.

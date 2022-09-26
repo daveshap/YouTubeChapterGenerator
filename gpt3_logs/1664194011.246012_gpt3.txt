@@ -1,0 +1,13 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: completions and this is all saved in the um in the github repo so i'm not too worried like i can get it back if i need to those are the premises we'll use later the prompts that doesn't matter the summary is sherlock okay i know i keep moving the goal posts on myself all right so now we've got a fine-tuning um data set of 164 samples move on gracefully okay there we go so you see these prompts are shorter they're reliably under 5000 characters now that we've shortened the plot synopsis so i'm gonna let this run and we will be right back once it's done because after this it's just a matter of uploading the fine tune and then trying it and it's done and it looks like it worked so this video is already what 45 minutes long and this was this was much more of a troubleshooting session i thought i was just gonna come in run this cool idea that i had and it was gonna work um but looking at the lengths of the prompts and completions we've got everything from 3 700 characters 43 45 48 uh 47 49 so 5 000 5005 so this should all be well within the the correct size for fine tuning for gpt3 so with that said i'm going to take a break and we'll come back and actually test this in part three because i've got some some homework to do with uh with uh how to actually implement it in an automated fashion so that's what we'll do in the next one um is i'll get this fine tuned model going and then we will actually try and generate a story in part three so thanks for watching thanks for bearing with me and like and subscribe etc etc you know the drill talk later
+
+CLEAR ESSAY:
+
+==========
+
+In this video, I attempt to fine-tune a GPT-3 model using a data set of 164 samples. I shortened the plot synopsis and prompts to make them more manageable, and then let the model run.
+
+Once the model was done, I uploaded the fine-tuned version and tried it out. It looks like it worked!
+
+However, this video is already 45 minutes long, and much of that time was spent troubleshooting. In the next video, I'll get the fine-tuned model going and actually try to generate a story. Thanks for watching!

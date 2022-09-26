@@ -1,0 +1,9 @@
+There are a few things to keep in mind when fine-tuning GPT3 for specific tasks. First, it is important to get comfortable with GPT3 before attempting to fine-tune it. This means playing around with it and understanding its capabilities. Second, building fine-tuning data sets is much more difficult and time-consuming than prompt engineering. For this reason, it is important to start with plain vanilla GPT3 and only move on to fine-tuning if absolutely necessary. Finally, when fine-tuning, it is helpful to use natural language separators or demarcators to identify where the task begins and ends. This will help GPT3 learn more effectively.
+
+If you want to fine-tune a data set to do multiple tasks, you need to be able to differentiate between those tasks. For example, if you're training a chat bot, you need to be able to tell it to ask questions, provide facts, or answer questions.
+
+One way to do this is by using a natural language separator. This means that at inference time, you can switch tasks without having to switch between different fine-tuned models. This can save you a lot of time.
+
+Another tip is to use gpt3 to make synthetic data sets. gpt3 can simulate any kind of conversation, so you can use it to generate the kind of input and output you want. This is way easier than scraping web data, and it only takes a few minutes to make a new fine-tuning data set.
+
+Keep in mind that fine-tuning tends to increase consistency at the cost of creativity. So if you need your gpt3 app to be creative, prompt engineering may be a better option than fine-tuning.

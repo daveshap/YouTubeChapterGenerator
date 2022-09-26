@@ -1,0 +1,9 @@
+In this video, David Shapiro discusses his Question Generator project. This project takes contexts from sources like Reddit and the movie database, and uses them to generate questions.
+
+Questions are important because they form the basis of intelligence. Our brains generate questions even if we don't speak them, and these questions allow us to understand new situations.
+
+The Question Generator can be used to generate questions for chatbots, or to feed into a question answering tool. One problem that hasn't been solved yet is how to get the questions to include some context, so that they make more sense.
+
+Overall, the Question Generator is a valuable tool that can be used to generate questions for a variety of purposes.
+
+The Question Generator is a tool that can be used to generate questions about a given situation. The training data for the Question Generator is available in a JSON format, and the tool also includes a script called fine tune.pi that can be used to help upload the file and list the fine tune events. An example of the output from the Question Generator is included in the repository.

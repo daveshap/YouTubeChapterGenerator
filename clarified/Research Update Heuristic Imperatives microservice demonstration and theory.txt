@@ -1,0 +1,67 @@
+I recently posted a poll to see if people wanted shorter videos, and there was some interest in shorter videos. I started making more succinct videos, but they were super unpopular. In fact, a few people unsubscribed because they didn't like the shorter format and they were lost.
+
+So, with that being said, I will return to the format that people know and love, which is that every video will be 30 to 60 minutes long minimum, and I will give the full context every time so that people are not lost.
+
+Today's update is on my research into what's called moragi, which is microservices architecture for robotics and artificial general intelligence. This is a project I've been working on for the past four years, and the work I did on natural language cognitive architecture was sort of a cut down version of this.
+
+One advancement that helped make the nexus a reality was the broad availability of semantic embedding, and that's what the embedding service does. So you'll notice that every other service talks the embedding service. The embedding service is kind of like what allows all of this to happen.
+
+The reason that semantic embeddings or vectors are critical is because they allow for rapid search and also semantic search. Vector-based search can scale to trillions of memories and still take fractions of a second, so they're much more efficient. But also you get better search results because you're not just matching keywords - you're matching semantic meaning.
+
+So embeddings are critical that's kind of an underpinning technology for artificial cognition. The primary reason for this is that human memory is associative. For instance, you walk into a room or a building, you see someone, you smell something, your brain automatically dredges up all the memories relative to that location, that person, that sound, that activity, etc. So human memory is deeply associative.
+
+Another component of human memory is that it is temporal, so it's relative to what happened recently or what happened long ago. That's what the nexus is for - it brings all of that together and it allows all the other services to search your memories and add new memories. That is the that is brain-dead simple.
+
+So that's where functional sentience arises. And then embeddings is what enables that associative memory to be fast and efficient.
+
+The simulation service is taking the place of input. Rather than have cameras and microphones (because we're still in testing cycle), we're running a simulation. This is a text-based simulation. Again, all of this is all thought - all artificial cognition is taking place in natural language. This is for interpretability and transparency, but also it abstracts away the black box.
+
+Each of these individual microservices has a little bit of a black boxiness to it, but everything that happens in the actual stream of consciousness for the machine is all natural language, so there's no black box in the actual reasoning and logic and memories that the the artificial cognitive entity uses.
+
+So this is critical for building trustworthiness because anything that it thinks (for instance, one of the problems that people are worried about is oh well if if your agi knows that it's in a simulation, it'll just think about how to deceive you in the background) - the thing is all of its thoughts are 100% transparent and it doesn't know if you're looking at its thoughts. You can obfuscate that from it because you just read the nexus. And the nexus doesn't report when it's being read from.
+
+Right now, the nexus assumes that it has total security. So as far as your artificial cognitive entity is concerned, its thoughts are private. It doesn't know that it can be read. It also doesn't know if it's in a simulation unless you tell it. So you can run it in total isolation and read its thoughts and it has no idea.
+
+I'm not worried about it trying to break out or deceive you because those imperatives don't figure into its thought process.
+
+So that's the update for today. I've changed the names of the repos so that they're more consistent and simpler. So there's the embedding service repo, the simulation service repo, and the nexus.
+
+The embedding service runs on Google's universal sentence encoder version five. You can see how small this microservice is. It pulls from TensorFlow Hub and produces a 512 dimension vector semantic embedding. It's geared towards short input.
+
+The simulation service is a text-based simulation. Again, all of this is all thought - all artificial cognition is taking place in natural language. This is for interpretability and transparency, but also it abstracts away the black box.
+
+The nexus is the heart of artificial cognition. This is where the stream of consciousness is held. The stream of consciousness is little more than a list of memories, observations, thoughts, memories, ideas, etc., kept in a chronologically linear order. So it's like basically a list of log files.
+
+One advancement that helped make the nexus a reality was the broad availability of semantic embedding. And that's what the embedding service does. So you'll notice that every other service talks the embedding service. The embedding service is kind of like what allows all of this to happen.
+
+The reason that semantic embeddings or vectors are critical is because they allow for rapid search and also semantic search. Vector-based search can scale to trillions of memories and still take fractions of a second. So they're much more efficient. But also you get better search results because you're not just matching keywords - you're matching semantic meaning.
+
+So embeddings are critical that's kind of an underpinning technology for artificial cognition. The primary reason for this is that human memory is associative. For instance, you walk into a room or a building, you see someone, you smell something, your brain automatically dredges up all the memories relative to that location, that person, that sound, that activity, etc. So human memory is deeply associative.
+
+Another component of human memory is that it is temporal, so it's relative to what happened recently or what happened long ago. That's what the nexus is for - it brings all of that together and it allows all the other services to search your memories and add new memories. That is the that is brain-dead simple.
+
+So that's where functional sentience arises. And then embeddings is what enables that associative memory to be fast and efficient.
+
+The embedding microservice is responsible for taking a list of strings and returning a list of 512-dimensional embeddings. This service is important for the nexus, which is a repository of memories that can be searched for using semantic similarity. The microservices that make up the nexus will eventually be responsible for updating their own models, which will allow the system to get better over time.
+
+The search endpoint in the nexus is a basic semantic similarity search that can handle 400,000 memories. This is more than enough for experimentation and development. The fetch endpoint is used by microservices to pull data sets, and the bound endpoint is used to find memories based on temporal proximity. Together, these features allow for a human-like memory system that is associative and constantly improving.
+
+The imperative service is responsible for taking the input from the nexus microservice and determining how to best reduce suffering, increase prosperity, and increase understanding. In order to do this, it generates a list of questions to ask about the scenario. For example, given the scenario of two men playing chess in the dark, the imperative service would ask questions such as "What led to the men playing chess in the dark?" and "What was the outcome of the chess game?". By asking these questions, the imperative service can help to improve the decision-making of the artificial cognitive entity.
+
+We have a natural curiosity that drives us to ask questions and seek answers. In order to create truly intelligent machines, we need to instill a sense of curiosity in them as well. Asking questions and seeking answers is how curiosity is implemented.
+
+The imperative service is a microservice that is responsible for learning and teaching. It is autodidactic, meaning it learns on its own. One of its objectives is to increase understanding. It does this by asking questions.
+
+The reduce suffering function is responsible for brainstorming ways to reduce suffering given a scenario. It takes into account the causes of suffering, the current situation, and the predicted short and long term outcomes. By using the royal we, it creates a more cooperative and collaborative mindset.
+
+The reduce suffering function is just one of many that the imperative service is responsible for. Others include increasing prosperity and reducing suffering. By constantly asking questions and seeking answers, the imperative service helps our artificial cognitive entity learn and improve over time.
+
+In order to reduce suffering and increase prosperity for all living things, it is important to brainstorm a list of possible actions that could be taken to achieve these goals. For example, in a scenario where the earth is heating up and causing suffering for many humans and animals, some possible actions that could be taken to reduce suffering include reducing our reliance on fossil fuels, finding alternative energy sources, planting more trees, and protecting existing forests. To increase prosperity, some possible actions that could be taken include providing more lighting in parks, adding more benches, planting more trees, and installing water fountains. By brainstorming a list of possible actions, we can begin to develop a plan to reduce suffering and increase prosperity for all living beings.
+
+One way to increase understanding for all living things is to brainstorm a list of possible actions we could take that would increase understanding. In this scenario, we could explain the concept of chess to the beings, provide a history of the game, how it has evolved over time, show the beings how to set up the chessboard, and teach them about the strategy involved in chess and how to think in order to win the game. Another way to increase understanding is to encourage people to vote for officials who have plans to combat climate change. We could also support businesses and organizations that are working to combat climate change, and encourage people to reduce their carbon footprint.
+
+I want to update you on my progress with artificial cognition research. I have been working on a few different aspects of this research, including a service that I call the "Imperative Service." This service is designed to generate questions for our artificial cognitive entity to ask, in order to increase its understanding.
+
+I have been testing the Imperative Service in pieces, and it is now up and running. I have also been working on a "Simulation Service" which is up and running, and an "Embedding Service" which allows memories to be searchable. All of these services are public and available for use.
+
+In the future, I plan to incorporate "fine-tuning models" into these services, which will allow the artificial cognitive entity to learn and improve its morality over time. Thanks for watching, and please consider supporting me on Patreon.

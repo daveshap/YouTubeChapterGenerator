@@ -1,0 +1,13 @@
+Embeddings are vectors that contain semantic meaning. This meaning is derived from the position of the vector in relation to other vectors. The dot product can be used to compare the similarity of two vectors. The higher the dot product, the more similar the vectors are.
+
+In this video, we explore how to use the Universal Sentence Encoder to compare vectors of different lengths. We start with a simple example, comparing the vectors for "emperor of the known universe" and "patasha emperor." We then add a third vector, for a gender-neutral prisoner, and compare the results.
+
+We then create a function to compare vectors of different lengths, by iterating through each category and calculating the similarity. We test this function by inputting the vector for "bald eagle" and compare it to the vectors for "plant," "reptile," "mammal," and "fish."
+
+This code creates a hash table where each instance of info has an item named category. If we need to get the category, we can just call that, and then we can also call the vector. So, we'll say class oops class is dot append info, and then we'll print classes. This won't be pretty because it'll be pretty big, but it will show us what we're doing.
+
+Next, we'll create a list of dictionaries, where each dictionary contains information on a category. For example, one dictionary might say "mammal" and then have the vector that declares it as a mammal.
+
+Then, we'll match the vector we're given with the vectors in the dictionaries to see which one is the closest match. We'll do this by getting the dot product and then ranking the results.
+
+Finally, we'll print the results. So, if we enter "bald eagle", it should tell us that it's closest to the "bird" category.

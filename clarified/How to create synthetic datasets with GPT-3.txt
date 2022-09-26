@@ -1,0 +1,17 @@
+In this video, I'm going to show you how to generate synthetic data sets using GPT3. This is a popular technique right now, and I have gotten really good at it.
+
+A synthetic data set is data that is artificially created. You can create it using other machines or programming. The ultimate result is data that looks and behaves like real data, but is actually artificially generated.
+
+I recently created a synthetic data set that includes a chat bot. This chat bot is based on the technique of compassionate listening. I created it by first collecting a bunch of publicly available data sets. I then wrote some scripts to massage this data into what I call contexts. A context is like some fuel or food for thought - it's just a basic text file.
+
+Once I had a bunch of contexts, I wrote some GPT3 prompts. A prompt is a question or prompt that you give to GPT3, and it will generate answers based on the context you provide. I then recorded the output of the GPT3 prompts.
+
+This process can be automated, so that you can generate a synthetic data set with very little effort.
+
+In my first experiment, I created a model that would automatically ask questions based on a given context. To do this, I scraped together a bunch of context from various sources, and then generated questions from those contexts. I then used a script to clean up the questions, and format them into a pairs format that could be used to train the model. The end result was a model that could ask questions about a variety of topics.
+
+In my second experiment, I focused on creating a model that could understand human suffering. To do this, I created prompts that discussed suffering in various contexts. I then used a script to replace the context with real-world examples of suffering, and ask the model to generate dialogue about the suffering. The end result was a model that could generate questions about suffering, and provide some insight into the causes of suffering.
+
+In my third experiment, I focused on downloading data directly from Reddit. I developed a script that would download Reddit posts and then format them into a pairs format that could be used to train the model. The end result was a model that could ask questions about a variety of topics, and provide some insight into the Reddit community.
+
+In this video, David Shapiro walks us through his process for generating synthetic training data using the GPT-3 machine learning platform. He begins by creating a prompt that defines the parameters of the conversation, including the topic, tone, and style. He then provides a list of topics for the machine to generate conversations about. Finally, he shows us the results of the synthetic conversations, which are surprisingly realistic and provide valuable insights into the topics covered.

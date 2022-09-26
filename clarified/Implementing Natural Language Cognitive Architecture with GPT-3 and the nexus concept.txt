@@ -1,0 +1,17 @@
+Hey everyone,
+
+I just wanted to share an update on my progress with implementing Raven, my natural language cognitive architecture. I realized that because Raven will probably run as an instance in a container, I can actually use a shared file system for a lot of the memory.
+
+What I mean by that is that the microphone will capture a sequence of audio files which can then be used for inferencing things like speaker recognition and speech-to-text. These audio files will be cached and then used, and then cleaned up. So it'll just be a buffer that's translated into normal text.
+
+Similarly, there will be a video cache for image-based inferencing.
+
+Next is the heartbeat. Every service that runs will create a heartbeat file, and every time one of those files cycles, it will update the time stamp. This way, Raven will be aware of the services that are running.
+
+I'm currently working on setting up the speech-to-text and video inferencing services. The advantage of having it set up this way is that any number of audio processing services can use these files. So in the long run, I'll have music recognition, ambient sound recognition, emotional tone recognition, and all kinds of services using these audio files to generate inferences. And because every audio file has a time stamp attached to it, Raven will know exactly when he heard what.
+
+The same goes for the video cache. Raven will eventually be updating the vision at a high frame rate, as the technology gets cheaper and faster.
+
+Everything that enters Raven's consciousness will end up as a log file in the memories directory. I'm eventually going to transfer this into a private encrypted blockchain for privacy's sake, but for now, I'm just using log files.
+
+I know all of this looks really simple right now, but keep in mind that it's not complete yet. I'm just sharing my progress so far. Thanks for watching!

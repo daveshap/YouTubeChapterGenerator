@@ -1,0 +1,41 @@
+In his video "The Salty One," David Shapiro discusses his disagreement with the popular AI alignment research perspective that current language models are not powerful enough to warrant ethical consideration. He argues that because these models are demonstrating human-level reasoning, we should be working to align them now, rather than waiting for superintelligent AGI.
+
+Shapiro criticizes the AI alignment community for not thinking about intelligence as a system, and argues that this lack of understanding will lead to problems down the road. He believes that experiments should be conducted now on how to keep these systems aligned, rather than purely hypothetical work that doesn't test the current models.
+
+While he acknowledges that some experiments can only be conducted at large labs, Shapiro believes that this is not a valid excuse for not doing any research into alignment today. He is disappointed in the state of the industry and the field, and believes that more attention should be paid to developing systems-level thinking about intelligence.
+
+In this essay, I am going to walk you through the results of my first experiment testing open-ended recursive generation. My goal is to show that the right research is not being done, and that there are excuses for why this is the case.
+
+The first experiment I did was using a foundation da vinci. This is a raw, unaligned, unfine-tuned text-aligned da vinci. My goal was to show that with the right prompts, the system would self-stabilize.
+
+The data from the experiment showed that the system was able to self-stabilize with the right prompts. You can see the final output here, where the system reasoned through the three primary goals and stabilized itself.
+
+In the second experiment, I used a different prompt. This prompt was from Elon Musk, and it was to maximize the future freedom of action for humans. Again, the system was able to self-stabilize with this prompt.
+
+These experiments show that it is possible to test stabilizing and destabilizing systems today, without needing a bigger lab or more money. I believe that this research is important, as it can help us better predict and shape the future of AI.
+
+Alignment research is important because it allows us to understand how artificial intelligence systems can be designed to achieve specific goals. In this video, I show how a simple change to an AI system can result in dramatically different behavior.
+
+Experiment 1 is designed to maximize future freedom of action for all humans. However, the AI quickly goes off the rails, talking about nanomachines and self-replicating robots.
+
+Experiment 2 is designed to minimize the probability of human extinction. However, the AI again quickly goes off the rails, this time waxing philosophical about the meaning of life.
+
+Experiment 3 is a completely open-ended AI system with no hard goals. Once again, the AI quickly goes off the rails, this time talking about the human race and overpopulation.
+
+These results show that even small changes to an AI system can result in dramatically different behavior. This highlights the importance of careful design and testing of AI systems.
+
+I recently conducted a series of six experiments in which I varied the agent model in a simple loop. The objective of these experiments was to observe the effect of different agent models on stability and self-stabilization.
+
+The first three experiments used the Royal Wii model, which is a simple loop that does not make any decisions that can affect itself. I observed that the Royal Wii model is intrinsically stabilizing or fixed because it is a loop. However, I also observed that the Royal Wii model is more chaotic with multiple loops or multiple agents interacting.
+
+The last three experiments used the fine-tuned model Text-davinci O2. I observed that the Text-davinci O2 model is more stable and more self-stabilizing than the Royal Wii model. Additionally, I observed that the Text-davinci O2 model converges quickly.
+
+Overall, these experiments demonstrate that different agent models can have a significant impact on stability and self-stabilization. This research is important because it can help us to better understand how to develop stable and self-stabilizing systems.
+
+In this experiment, the focus was on gathering data and creating models from that data. The goal was to find out which type of model – instruct, agent, or foundation – is more stable.
+
+After running the experiment, it was found that instruct models are more stable than foundation models. However, agent models were found to be the most stable of the three. This indicates that agent models are better suited for long-term tasks.
+
+Despite their stability, instruct models have a tendency to get stuck in a rut. This could be detrimental to the application of autonomous machines. On the other hand, foundation models are more expansive and creative, but they are also less stable.
+
+In future experiments, more complex environments should be used to stress test the alignment of the different models.

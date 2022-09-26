@@ -1,0 +1,49 @@
+David Shapiro discusses how to create a chatbot that can handle long-term memory and external sources. He explains that the first step is to create a list to accumulate the entire conversation. He then says that the next step is to query information from an external source, such as Wikipedia. Finally, he explains that the last step is to keep track of the whole conversation by embedding it.
+
+We'll do line in, and so then we'll say info equals um no, that needs to be a dictionary. So line of conversation equals line in, and then the vector equals the vector okay and uh oh in case you in case it's not obvious, I prefer the term vector because that is mathematically what it returns, but in the context of a large language model, this vector is technically an embedding or a semantic vector. So an embedding is a vector that has semantic meaning, but a vector is just mathematically this is what it is um okay.
+
+So we will we'll store so the reason that we're doing this is that every line of conversation so let me come back over here every line of conversation is going to have an associated embedding or vector which means that this whole thing will be searchable um okay. So conversation append dot info so we're just going to accumulate the entire conversation right here. And then what we do is we i guess we actually won't need this because it's gonna well yeah okay so we'll search we'll search for the most for for similar so i'll need to modify the index also i need to move my microphone because it's blocking a little bit of my field of vision hope you can still hear me if not deal with it okay so we get our line in and then what do we do we search for we search we search we search um old lines equals search index.
+
+And so we'll do we'll pass info so that's our most recent one we'll search we'll pass conversation and we'll leave it at that i'm not going to pass a variable for how many to return um we'll just take that out we'll hard code that doesn't matter um so we'll do recent and then we'll do um all lines so what you're supposed to do is if you if you use a variable in it in a function especially if it's a list you're supposed to use a different name um otherwise because gpt3 or not gpt3 python python automatically has um lists as global variables i'm probably saying this wrong but like you can modify the contents of a list from any function but if it's local to um to a function it won't be modified so like if i have a different name even though it's the same um conversation like i'm not going to be modifying and i'm just going to be reading from it but anyways this is best practices i think okay so what we're going to do is where did i go i lost my search index there we go okay we don't need the vector because we're already going to have that so for i in all lines score is similarity so we're going to do this vector so we're going to do recent vector and actually what we'll do is if yeah so if these are the same then we skip our current line so if i vector equals recent vector continue and that should be the last one um technically you could probably uh you could probably just skip the last one but i don't want to make that assumption because what if what if we're searching for whatever reason we we reuse this and we're searching elsewhere in the conversation i don't want to assume that the one that i'm searching is always going to be the last one because i can just imagine someone saying why don't you just skip the last one because i don't want to make that assumption we might be searching based on an older memory okay so score we get the score and then um what do we do yeah okay so we can just do um the content i'll change this to line equals and then we'll do i um line i think that's what i called it right yeah we've got line and vector okay so the line of dialog and the vector search index okay so line equals line and the score equals score okay sorted scores sort by score um reverse is true so it'll be top down and then um [Music] i only want to return the top five so what we'll do is um when we first start the dialog it's going to be shorter than five so we'll just return um you know we'll try to return the top five but if that doesn't work actually here's here here's what we'll do we'll do ordered equals ordered and then return ordered because i'm afraid that if it if with the previous one if i if if it has the return at the same time that it's trying to slice up the list it might just break entirely um but then accept will just return ordered um so because if it if this doesn't work it'll air it'll bomb right there and then we'll just skip to this and just return it as is um so this is another paradigm in um in python where it's it's better to ask forgiveness than permission so rather than test something you just try accept um you do need to be careful oops one of my i put up you probably see those hexagons in the back i put up um sound dampening things let me put that back up it's going to bug me um but yeah i put up sound dampening because you probably noticed it sounds better there's less echoes okay we're back sorry about that um someone online said that the the best way to stick stick those panels up was um was blue painters tape which seems to be working because it won't it won't peel any paint off but one just fell off so i might need to get some better better tape or some two-sided tape anyways where were we search index okay yeah so better to ask forgiveness than permission you do need to be careful um if you do a try accept loop sometimes uh it might not have the results that you think and you might gloss over problems so that's why when i do it when i do the tri-accept loop here i actually give it output because i you know sometimes the assumptions you're making might be wrong and you need to see see why but in this case there's like only one thing that could go wrong here so this is probably a little bit this is more of a sure thing right because there's only one one action hat happening okay so we've got that old lines equal search index info conversation um you know honestly i don't even need to pass the scores back i don't care um but whatever okay so we get an input we get the old conversation so this will find anything that's most relevant we'll find the most relevant five lines of conversation this number is arbitrary um [Music] where did it go actually you know what
+
+In this essay, I will be discussing how to generate a list of Google search queries using the GPT-3 completion API.
+
+First, I will create a file called 'prompt.wikipedia'. This file will contain the following prompt:
+
+"Read the following conversation and generate a list of relevant Wikipedia articles."
+
+Next, I will need to create a file called 'convoblock.py'. This file will take the input from the user and generate a list of Wikipedia articles.
+
+The first step is to create a list of all the articles that the user has read. To do this, I will use the 'wikipedia' module.
+
+Next, I will use the 'gpt-3' module to generate a list of relevant Wikipedia articles.
+
+Finally, I will print the list of relevant Wikipedia articles.
+
+In this function, we are searching for a particular topic on Wikipedia. If the page exists, we return it. If not, we search for possible articles and return the first one.
+
+We then take the wiki content and extract all the text from the article. We then ask follow-up questions about the topic to extract interesting information.
+
+Given the conversation and the selected topic of Romulus Augustus, we ask a follow-up question about his life in exile. We then query the document for interesting facts and summarize the information.
+
+The following is a more structured and clear essay based on the unstructured video transcript by David Shapiro.
+
+In order to generate a follow-up question, we can use the same logic that we used here. We're going to index the content of this Wikipedia article and then search it in order to answer the question.
+
+To do this, we'll first need to get the user's input and vectorize it. We'll then search the conversation for previous relevant lines of dialogue. Once we have the follow-up question, we can use the same logic to query the external information and generate a search query to find an external article.
+
+Once we have the external article, we can prompt the user to give a detailed answer to the question. If the answer is not present in the passage, we can simply write "not present."
+
+This process can be repeated for multiple passages, accumulating the answers in a list. Finally, we can summarize the answers in a single passage.
+
+The question asked was: What caused the fall of Rome?
+
+The answer is that there is no single cause for the fall of Rome. A variety of factors contributed to the decline and eventual fall of the Roman Empire. These factors include political corruption, economic decline, military weakness, and barbarian invasions.
+
+Political corruption was a major factor in the decline of Rome. Government officials were frequently bribed, and nepotism was common. This led to a lack of competent leadership, and the government became increasingly inefficient.
+
+Economic decline was another factor in Rome's decline. The cost of maintaining the empire's vast territory became increasingly difficult to sustain. Inflation became a major problem, and the standard of living for the average Roman citizen declined.
+
+Military weakness was another factor in Rome's decline. The Roman army became increasingly bloated and inefficient. In addition, the empire's vast territory made it difficult to defend against barbarian invasions.
+
+Finally, barbarian invasions were a major factor in the fall of Rome. The barbarian tribes that invaded Rome were often more skilled and better organized than the Roman army. This led to the fall of the empire.

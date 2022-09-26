@@ -1,0 +1,57 @@
+The Maragi project is an open-source effort to create a microservices architecture for robotics and artificial general intelligence (AGI). The project was conceived in late 2017 or early 2018 by David Shapiro, with the goal of creating a functional copy of the human brain.
+
+Maragi uses cognitive modules to approximate the neural functions of the brain, and all thought is written in natural language. This makes the system interpretable and transparent, and also allows for learning. The project is designed to achieve functionally sentient and autonomous machines.
+
+The Maragi architecture is a hub-and-spoke or star topology, with the Nexus microservice at the center. The Nexus is functionally a syslog server, and serves as the central repository for all thoughts, memories, sensations, and ideas. It is indexed and searchable, allowing for retrieval of any information stored within it.
+
+All other microservices in the Maragi system talk to the Nexus, and each record in the Nexus is time-stamped with a UUID. This allows for easy identification and retrieval of any information stored within the system.
+
+The heuristic imperative service is designed to reduce suffering in situations where it is possible to do so. In this particular case, the dog should be rescued from the river.
+
+This example demonstrates how a single thought would be logged in the system. Each log would consist of one or two sentences describing the action taken or the situation observed.
+
+The Nexus is the central component of the Maragi system. It is functionally a syslog server or database, able to store and chronologically order vast quantities of data from different services.
+
+Microservices are a way of breaking large, complex software systems into smaller, more manageable components. They are good for parallel processing and allow for system growth over time without the need for re-architecting the whole system.
+
+In the Maragi system, microservices form a network, with the Nexus at the center. This topology is known as a star topology, or hub-and-spoke. It is the simplest layout and allows for easy growth of the system over time.
+
+There are a few basic rules that have been established for microservices in the Maragi system. The first rule is that microservices can only talk to the Nexus; they cannot talk to each other directly. The Nexus is the common broker for all messages, so anything that needs to be communicated must go through the Nexus. The second rule is that microservices must listen for the conductor. The conductor provides feedback and cognitive control to all the other microservices in the system, steering them in the right direction. The third rule is that microservices must be auto didactic, meaning they learn on their own by observing their own behavior and the feedback they receive from the conductor.
+
+Each microservice in the Maragi system runs as an infinite loop. It periodically checks the Nexus for messages, does its own work, and then maybe adds a message before going back to sleep and waiting again. However, the microservice can change its tempo or cycle rate based on feedback from the conductor.
+
+The goal of the heuristic imperative microservice is to ensure that the artificial intelligence system Meragi behaves ethically. The heuristic imperative is a set of three core objectives that the AI must learn about and develop its own understanding of over time: reduced suffering for all organisms, increased prosperity for all organisms, and increased understanding for all intelligent entities. By constantly learning about and striving to uphold these objectives, the AI system can be steered towards moral behavior.
+
+The goal of Morality Alignment for Artificial General Intelligence (AGI) is to create a set of heuristic imperatives - or moral principles - that can guide AGI as it learns and develops over time. The three primary heuristic imperatives are: (1) reduce suffering for all organisms; (2) increase prosperity for all organisms; and (3) increase understanding for all intelligent entities (including itself).
+
+These imperatives are meant to create a sense of dynamic tension within the AGI system, as it will always be trying to satisfy all three objectives simultaneously. This tension will help to guide and self-correct the AGI as it gains knowledge and experience over time.
+
+The next step in the roadmap is to implement Morality Alignment for AGI version 1.0. This will involve creating a microservice called the "conductor" - which is responsible for cognitive control and task selection - and adding it to the existing AGI architecture. Once the conductor is in place, the AGI system will be able to set priorities, measure performance, and switch tasks based on the heuristic imperatives.
+
+Looking further down the road, the goal is to continue adding new microservices to the AGI architecture as needed. Additionally, the team plans to keep testing and refining the system so that it can continue to learn and develop over time.
+
+The first thing we need to do is finish the microservices. I've only got a handful of them done, but a lot of the first principles have been figured out. So it's only a matter of time to do the prompt engineering and so on to get those microservices working. I'm sure we're going to trip over some bugs and unforeseen consequences.
+
+Another thing we need to do is test different implementations. There are different types of APIs to use, different ways to implement the nexus, and different ways to do search. So we're going to be working on getting best practices established and making some architectural decisions.
+
+Our goal is to get a proof of concept working. It doesn't have to be perfect, it just has to demonstrate the concepts of artificial cognition and feedback loops. Once we have all the best practices and principles established, we can codify them in a book and publish it for free.
+
+We're also going to begin work on making the project fully open source and distributed. I put out a call for participation yesterday and I've already had four people volunteer to jump in and contribute. This is going to be a team effort, and I'm already getting new ideas and learning from the feedback people have given.
+
+So our goals for Mirage v1 are to test various technologies and platforms, get a proof of concept working, establish a distributed team, and codify the best practices in a book. For Mirage v2, we're going to focus on fine-tuning the conductor and making the microservices autodidactic. We also want to have a good simulation environment and start thinking about optimizing for cost and performance. And for Mirage v3, we're going to start working on hardware integration and aim for public consumption.
+
+In Mirage v4, we'll focus on scale, security, and stability. This is where we start to expand and think about things like integrating cameras, microphones, and speech microservices. We'll also continue refining the architectural paradigms and best practices.
+
+It is now possible to create autonomous machines that behave benevolently for all time. The goal of the Maragi project is to create such machines and deploy them around the world.
+
+The project is currently in its early stages. The first step is to create a proof of concept and establish best practices. This is being done by a distributed team.
+
+The next step is to fine-tune the conductor (the component that controls the machine) and hardware integration. This will allow the machine to be more reliable and efficient.
+
+After that, the focus will be on security, stability, and safety. This is important because the data collected by the machine needs to be secure, and the machine itself needs to be safe.
+
+Finally, the goal is to mass-deploy the machine. This will involve integrating it into various systems, such as smart homes and businesses.
+
+The last barrier to this project was the large language models, but prices are coming down and there are now many open source options available.
+
+Thank you for watching. Please consider joining the team or supporting us on Patreon.

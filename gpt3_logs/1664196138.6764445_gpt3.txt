@@ -1,0 +1,11 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: to be larger than this right so you see this selection that i have this selection is a thousand bytes right but then if you go here this is 512 32-bit floating point numbers so that's um that's roughly the same size in memory i think yeah so there you have it i think that's a complete enough update i'm running out of time anyways let's see time check 13 minutes yeah so just wanted to point out all this is publicly available i'll make sure to do a git push and commit um so but yeah here's the nexus um which is the the beating heart the memory which is here you can see this so this is the central point for artificial cognition which is why i started there and second is the sensor input which is here the simulation so in this case it's it's running a scene-based simulation text simulation that will push um that'll that'll give our our agent a virtual environment to work on and then supporting all this is the semantic embedding microservice so there you have it thanks for watching um like and subscribe and consider supporting me on patreon thanks for watching
+
+CLEAR ESSAY:
+
+==========
+
+I wanted to give a quick update on the progress of my artificial cognition project. The central point of the project is the nexus, which is the memory. The sensor input is the simulation, which gives the agent a virtual environment to work on. The semantic embedding microservice is what supports all of this.
+
+I'm running out of time, so I just wanted to point out that all of this is publicly available. I'll make sure to do a git push and commit so that everyone can access it. Thanks for watching!

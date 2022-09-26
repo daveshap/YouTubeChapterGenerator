@@ -1,0 +1,57 @@
+One issue with chatbots is that they often rely on pre-trained models that can't easily integrate new information. This means that the chatbot may not be able to provide accurate responses to new questions.
+
+I'm working on a cognitive architecture for chatbots that aims to address this issue. The architecture relies on two primary sources of information: episodic memory and declarative knowledge.
+
+Episodic memory is the story of our lives. It's the sum of all the conversations we've had and the experiences we've had. Declarative knowledge is the sum of all the facts we know.
+
+The goal of the cognitive architecture is to integrate these two sources of information so that the chatbot can provide more accurate responses. To do this, the chatbot needs to be able to recall past conversations and integrate new information from external sources.
+
+The cognitive architecture is still a work in progress, but I think it has potential to improve the accuracy of chatbots.
+
+In order to integrate past conversations into the Spotify chatbot, we need to first copy and paste the existing conversation into the chatbot. Then, we need to figure out a way to incorporate the new information into the conversation. One way to do this is to use hints that are added into the chat logs. These hints can be used to give the chatbot accurate answers. Additionally, we can use the information in the chat logs to generate new questions. By doing this, we can provide a more detailed answer to the question.
+
+We'll replace hint with answer and all this will be obfuscated in the back end, so that's fine. So then we'll say response equals gpthree completion prompt so that will give us tim's output. And let me make sure gpt3 completion okay.
+
+So this line right here, what I do is I strip it so that means that any white space that's padding it, it removes that. So if there's new lines, extra spaces, whatever, it removes that. But then I also have this line here which, for any interior white space, so let's say that the output is like here's one sentence and then it gives a double new line and then another sentence. I don't like that especially for chat, so I say let's replace those double new lines with just one space. So it'll kind of compress it all into a single paragraph.
+
+Okay, so we get the tim's response and then we have to get the vector for tim's response and add it to our conversation. So we'll do vector equals gbt3 embedding response. And then we'll say save the output line in looks like that. Yeah, okay. So we get the vector and then info equals let's see. Line out equals tim and then we'll do response. So that should be good. And so then we say info equals line out and vector. And then we save it so conversation pin info. So that means everything is saved. And then we just print line out and that should be good.
+
+Is this done? I think it's ready for testing. I am so scared of all the bugs that this is going to happen. Okay, so we only have two places where it prints. There's a lot of steps in here. A lot of places that can fail. Oh, I'm nervous. Yeah, we do need some debug. So we'll do that because there's the search part that where it can fail.
+
+Old line. So when I put in the first one, it's just going to return the original line. And that'll be actually no. I think I've got it so it'll skip that. Yeah, if recent vector equals that, it'll skip it.
+
+Okay, so for i and all lines, this will actually fail. Okay, so if laying all lines equals actually no, we'll just say less than or equal to. We'll just say if it's less than or equal to count, return an empty list. Yeah, that makes sense logically. That makes sense. So we'll just return an empty list and that'll solve a lot of problems.
+
+Um, okay, so that's fine. So we won't have to worry about that. So old lines will be empty. So then we'll just join old lines. That's an empty list. That's fine. It'll skip over it. Convo block and then we'll add convo block equals convo block dot strip so that it doesn't have any excess padding.
+
+Um, okay, so that's where that could go wrong. The gpd3 embedding. I've used that plenty of times. Let me make sure I'm using the right engine. Text similarity ada. Okay, I think that's right because we're just we're looking for similar lines of dialogue. We're not doing querying for a document because there are different open ai embeddings.
+
+There are a bunch of different engines that you can use. So classification, search, topic clustering, recommendations. So yeah, clustering, regressions, anomaly detection, visualization. So this is what I'm using. Text search. So this is where you're saying like these models help measure whether long documents are relevant to a short query. So this is if you want to search like if you have a question and you're looking for the right document, this is going to be a different embedding. And that's not what I'm doing. I'm just comparing like apples to apples. So that should be fine.
+
+All right, all right. So we get our convo block generate a search query. Um, so we've got this the prompt wikipedia. This is here single most relevant wikipedia article. That seems like it worked. I had to fix it because it wanted to give me a list of stuff that I didn't want.
+
+Title equals gpth3 completion prompt. Wiki equals fetch wiki. We pass it the title fetch wiki. So we try page wikipedia. Title. So if it does if it gives us the right title, it's fine. Otherwise we'll do a search and then we'll just grab whatever wikipedia thinks is the most relevant article.
+
+Great. Um, okay, so this will give us one article and then let's see. So then we say generate a specific follow-up question to use to query the external information. So we say okay. So we've got our follow-up prompt which is this guy. So it says given the following conversation and the topic and the topic is populated by the title. Okay, so we're going to say that the title is the the wikipedia article. So we say okay. So generate one follow-up topic question to ask about this. And so that means that it'll say like okay rather than just say like because like for instance if you arrive at the list of roman emperors, okay, we're not gonna stuff this this whole thing. We want like an actual like last emperor emperor. There we go. And so like if we say like who was the last emperor, it should like zero in. And I think it did actually. Um, so constantine the sixth. Let me go back to this. Is that who it said? Constantine the eleventh interesting.
+
+Anyways, point being we wanna we wanna actually ask a question of this external information we get the answer to that and that will be embedded in the prompt as a hint and then tim can use that to answer.
+
+Oh boy. Okay, I don't know if this is going to work but yolo. Cmd cd long term python chat no such whoops open ai api key what do you mean I need an api key? I didn't copy it over. So we'll copy my api key from somewhere else. And actually I need a bio break. I apologize and then we'll get going.
+
+Okay, I'm back. Um, let's see where were we. Yes. All right. I'm actually going to add a debug function. Def save debug. And so then we're going to do label content. And we're going to basically just copy the copy this. So but instead we're going to do debug and the file name will have label in it. And then debug out and we'll just do content.
+
+Okay, so what I'm going to do with this debug function is I'm going to use it to print out the conversation at each step. So that way, if something goes wrong, I can go back and see what happened.
+
+So we'll do that for the search part. And we'll also do it for the convo block. So that way we can make sure that everything is being saved correctly.
+
+All right, so that should do it. I think we're ready to test this. Wish me luck.
+
+Particle physics is the study of the fundamental subatomic level of the universe. This branch of physics explores the various interactions between particles, such as the force. Particle physics is a branch of physics that explores the various interactions between particles, such as the force.
+
+In this video, I'm disappointed because Tim didn't use the information from the hints. I'm doing some prompt engineering to see if I can get better results.
+
+I'm encouraging curiosity and using compassionate listening to try to get better answers from Tim. I'm also maintaining a cool, professional tone.
+
+I think just by the fact that this prompt says it's a chat, GPT3 is overly aligned and watering down the responses. I'm going to save this code and come back to it later.
+
+Thanks for watching. Let me know what you want to see next.

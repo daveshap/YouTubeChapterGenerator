@@ -1,0 +1,47 @@
+I recently made the decision to disable issues, actions, and discussions on my repositories in order to reduce distractions and focus on more important tasks. This was probably premature of me, as it invited collaboration before I was ready for it. What I really need right now is onboarding material for people who want to understand what I'm doing, so they can get caught up. I may also disable comments on my YouTube videos for the same reason.
+
+I'm currently working on the nexus, and I realized that I was trying to optimize prematurely. I knew someone who would poke fun at himself for being a "prematurely optimizing coder," and I realized that I was doing the same thing. I was trying to perfect what I had rather than continue building new features. I need to get the whole thing working before I can move on.
+
+Part of what I'm working on today is merging two services. I realized that one of the services I had created was only used in one place, and it didn't make sense to keep it as a microservice that everyone else could use. This is just a toy example to demonstrate how it's going to look and feel. Once it's out of MVP phase, there will be more changes made.
+
+I'm just going to merge the embedding microservice with the nexus microservice and call it a day. That way, the nexus will be responsible for semantic search, and won't be dependent upon any other service.
+
+The add function is pretty straightforward: we'll remove the vector field, because all you need is the content. The microservice will add a timestamp and uuid, and the nexus will be responsible for adding the embedding.
+
+I'm going to add another field for the model name. This way, the machine will be able to keep track of the performance of individual models. The microservice will tell you which service created a message, and the model name will be something like "fine-tuned core objective functions 2022 0903".
+
+I might also add a field for context, so that it's a separate field. The nexus microservice is kind of agnostic, so what I've done in the past is wrap everything in a try/except. This way, if it fails, you can send back an error message.
+
+In order to test that everything is working correctly, you can set the result time equal to the payload time. If it's not there, it'll error out. Then, you can switch over and use the result. This way, you can verify that everything that you need is there.
+
+Embeddings are implied in this context, so there is no need to test for them. If the content is not present, then the embedding will not work. As such, the result vector will be populated by the payload content, which will cause an error. This is due to the fact that all the necessary keys may not be present in the payload.
+
+To validate the payload, a new container is instantiated and all required information is pulled into it. This includes the content, microservice, model, and context. The only issue here is that content and context are very similar words, which could cause confusion.
+
+Once the payload is validated, the message is logged and a confirmation is sent back. On average, this process takes 30 milliseconds.
+
+The logs for my AI, Moragi, look like this. I added indentations to make the data easier to read. The content is sorted alphabetically, which is a cool feature of JSON. The indentations waste a little bit of text space, but they make the data much easier to interpret.
+
+I use the JSON dump function to payload out the data to a file. I set the ASCII encoding to false, which allows the data to be encoded in UTF-8. This is really important, as you can get some weird results if you use ASCII encoding instead.
+
+Actually, we don't use the load data function, so I can probably delete it. Oh wait, actually we do use it. Never mind.
+
+I set the ASCII encoding to false and the sort keys to true. This ensures that everything is always in alphabetical order. Since every log file has just a few fields, they will always be in the same order. This makes it much easier to interpret the data.
+
+The content, microservice, model, time, type, UUID, and vector fields are what the data will look like. The embedding should be a 512 vector value. This is the same for everyone, as I just sent the same data over and over.
+
+Every memory that we just created is 14 kilobytes. This can add up quickly. Let's do some math to see how much data this can generate over time.
+
+If Moragi is running 50 inferences per second, each with an embedding, it will generate 700 kilobytes of data per second. This can add up to 41 megabytes per minute, or 2.4 gigabytes per hour. If we assume that Moragi is running 24 hours a day, this can add up to 57 gigabytes of data per day. Over the course of a year, this can add up to 20.5 terabytes of data.
+
+This is obviously way too much data to store. This is why optimization is going to be a big thing. We will need to summarize the data and only store the most important information.
+
+In the future, I envision Moragi being able to record every sensation, thought, and motor output. 20 terabytes of data seems reasonable for this.
+
+So, just to recap, we need to optimize the data storage to only include the most important information. This will need to be summarized and stored in a more efficient way. Blockchain is one option for this, as it is immutable and tamper-proof. However, it is not necessarily the most efficient option in terms of speed or searchability.
+
+Nexus is working on integrating three technologies - blockchain, semantic search, and knowledge graph - to create a more complete and efficient system.
+
+Blockchain provides a secure and immutable data source, while semantic search improves the speed and accuracy of searches. Knowledge graph organizes information around topics, making it easier to find and access.
+
+These three technologies will work together to create a more efficient and user-friendly system.

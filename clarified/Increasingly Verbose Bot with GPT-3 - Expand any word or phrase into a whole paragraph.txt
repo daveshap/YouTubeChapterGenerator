@@ -1,0 +1,25 @@
+In this video, I show how to use a recursive summarizer to decrease the verbosity of a text. I then discuss the idea of using the same technique in reverse to make a text longer. I demonstrate the limitations of this approach by showing how it often results in repeating the same information. Finally, I suggest a way to overcome this limitation by breaking the task down into smaller, more manageable pieces.
+
+Nihilism is harmful to individuals and society for several reasons. Individuals who subscribe to nihilistic beliefs may be more likely to engage in self-destructive behaviors, such as substance abuse or risky behaviors. Nihilism can also lead to a sense of hopelessness, which can lead people to give up on their goals and dreams.
+
+Avoiding nihilism can benefit both the individual and society. Individuals who avoid nihilistic beliefs are more likely to have a sense of hope and purpose. They are also more likely to be successful in achieving their goals. Society as a whole can benefit from avoiding nihilism by having a more positive and productive outlook.
+
+As GPT3 reads the input, it reads it one token at a time. This means that if we start with the ideas first, it will be able to integrate them more easily. Let's see if that works.
+
+Indeed, starting with the ideas first helped, but only added a couple of things. It just changed the tone of the first thing slightly.
+
+Finally, let's try the next passage. Write another passage to follow the first, using the following ideas to expand and elaborate.
+
+The subsequent passage mentioned the individual once, something larger than oneself. It did integrate those ideas, but only added one sentence at a time.
+
+Overall, this is a good enough result. But I'm still not quite happy with it.
+
+Bugs can be a nutritious and delicious addition to your diet, but not all bugs are created equal. Some bugs are better for you than others, and some simply taste better. If you're looking for the best of both worlds, here are some of the best bugs to eat:
+
+Grasshoppers are a great source of protein and they taste pretty good too. If you're looking for a nutritious bug to add to your diet, grasshoppers are a great choice.
+
+Crickets are another popular choice for bug eaters. They're high in protein and low in fat, making them a healthy option. They also have a mild nutty flavor that some people find quite pleasant.
+
+Mealworms are high in protein and fiber and have a mildly sweet flavor. No matter what kind of bug you choose to eat, make sure you get the best bang for your buck by choosing a nutritious and delicious option!
+
+Remember, kids: when you're finished with your work, be sure to push it so your changes are saved. And, if you're thinking of using this tool to cheat on your papers, don't! It's unethical, and professors will just have to change the way they grade if they keep seeing it. Thanks for watching, and don't forget to like and subscribe.

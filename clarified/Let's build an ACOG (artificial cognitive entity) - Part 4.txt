@@ -1,0 +1,39 @@
+In morning, David Shapiro discusses his progress on ACOG artificial cognition. He explains that he renamed the prompt list to better reflect what he was working on- cognitive control. He explains that persona or ego is another important prompt, and that over time, ACOG will form an identity. He goes on to say that a huge part of goal tracking is being able to remember what the goal is, and that part of cognitive control is also being able to switch tasks. He finishes by discussing empathy and metacognition, and how they will be important factors in ACOG's development.
+
+If you've ever done meditation, you know that the point of some types of meditation is to detach from your conscious thoughts and just watch them. But who's watching the watcher? If our brains have the ability to detach from our thoughts and just observe them, that means we have another perspective inside our own heads that can watch our thoughts. And that's the point of this exercise: to become aware of the thoughts, and once you're aware of the thoughts, you can also modify them.
+
+This is a key step in saying, "Okay, what should I be thinking about right now?" Because you can ask yourself, "What should I be doing?" and that's external, but with metacognition, you can say "What am I thinking about, and what should I be thinking about?" So this might make it into another layer. I'll comment that one out for now.
+
+Prediction is another thing that our brains automatically do. We try to anticipate what's going to happen next all the time, completely unconsciously and automatically. So we want our artificial cognitive entity (ACE) to always be making predictions, because if it can predict what's going to happen next, it can use that information to do things like reduce suffering.
+
+Consequences is the opposite of prediction. It's looking backwards and saying "What have been the results? I predicted this five minutes ago. Did that happen? Yes or no? Or did I do good or bad?" In a previous test, I showed that if you just give GPT3 a list of log files and ask "Did I fulfill my goal here? Yes or no," GPT3 is really good at saying "Yes, you reduced suffering" or "No, you didn't." So that's good.
+
+The philosophical ruminations might actually belong in the metacognition loop as well, something that's happening in the background.
+
+Spontaneous curiosity is something that absolutely needs to be in the inner loop. And important information is going to just be automatically recruiting information from the internet, from Wikipedia, that sort of thing. I'm about to make another video about integrating external sources of information and long-term memory into chat.
+
+Okay, so now that you're up to speed (because I know it's been a month), this is also me reminding myself what we're doing. So I think this is probably a good enough start for the first part of the inner loops.
+
+Going down here, we've got our prompt list. These are the prompts that happen every time. These are the kinds of thoughts that are happening all the time, the entire time that our ACE is running. So what we do then is we save them out to the nexus.
+
+The nexus is going to be here. I've just got the genesis memory here, which is just this is what I am. Excuse me, sorry, a little flamy in the morning.
+
+Okay, let's close these prompts. We'll get to writing those later.
+
+Okay, so every time we fire up and we run these prompts, we'll accumulate the most immediate ones in a list. So that's just like, "Okay, this list of thoughts is exactly where I am, exactly what I'm doing, and exactly what I should be doing." And I actually realize this is not the right thing, so we'll have a cognitive control loop.
+
+And that's what we're going to be brainstorming now. So the control prompts are going to be like "So the first thing you do is okay, you've got your task, you've got your consequences, you've got your predictions. So all of these are going to end up as like one chunk, one context. And so we'll say 'Okay, so what should I be doing right now?' or 'I guess brainstorm the next steps.'"
+
+So I'll prompt brainstorm because it's like, "You know, actually no. Um, yeah, okay." Prompt "brainstorm.txt" so the brainstorm is going to do is it's going to be like "Whenever you're whenever you're trying to do a goal, this actually came from a discussion on my Discord server. We've got a couple people that are really interested in cognitive control and goal tracking. And from those conversations, one thing I realized is that a key part of goal tracking and cognitive control is you actually have to envision what your goal looks like."
+
+So we'll say "Envision my goal state." The opening example in the book "On Task" by David Bader is talking about evidence of a paleolithic human that was napping, flintstones, and dividing it into multiple piles like "These are good arrowheads, this is a good axe, or this is good for something else." And he talks about how that's actually a non-trivial set of tasks because not only are you doing something with your hands, you're also constantly thinking about "What's the next thing I need to do?" and "What are the long-term implications of this?"
+
+So that's why we need to have a prompt that says "Envision my goal state." And then we can say "What are the long-term implications of this?" and "What does it mean?" like "If my ACE is thinking 'Oh, I'm a machine,' that doesn't necessarily figure into cognitive control or decision making, but it's important to have." And actually, the persona probably belongs in the metacognition loop as well, something that's happening in the background.
+
+Important questions are going to be like "Spontaneous curiosity: this is something that absolutely needs to be in the inner loop. And important information is going to just be automatically recruiting information from the internet, from Wikipedia, that sort of thing."
+
+Okay, so now that you're up to speed (because I know it's been a month), this is also me reminding myself what we're doing. So I think this is probably a good enough start for the first part of the inner loops.
+
+In order to keep track of multiple uses for stones, it is important to have a clear understanding of your current context and what your goal is. Once you have this information established, you can then brainstorm potential steps to take in order to achieve your goal. After you have brainstormed, the next step is to execute your plan by taking action. Throughout this process, it is important to keep in mind your persona and metacognition in order to make sure that your actions are thoughtful and aligned with your goals.
+
+In this video, we continue our work on building an artificial cognition by adding a prompt generation system. This system will be based on the context, not the memories, and will include a loop for declarative knowledge. We also discuss the importance of having a long-term memory for our chatbot, as well as the possibility of adding an external source for it to search.

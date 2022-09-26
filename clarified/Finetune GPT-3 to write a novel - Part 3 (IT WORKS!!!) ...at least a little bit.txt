@@ -1,0 +1,23 @@
+In the previous video, we looked at how to use the GPT-3 API to generate text in the style of a particular author. In this video, we'll be taking things a step further by training GPT-3 to generate an entire novel, one chunk at a time.
+
+To do this, we first need to split our training data (a collection of novels) into chunks, each around 1500 characters long. We can then generate summaries for each of these chunks, which will be used as input data for GPT-3. Finally, we'll use the GPT-3 API to fine-tune a model to generate new chunks of text, based on the input data.
+
+Once we have a fine-tuned model, we can use it to generate new chunks of text, one after the other, to create a brand new novel.
+
+I've been having some issues with my computer. The first problem was a bad cable, and then my computer turned the volume of the microphone down to 58. This caused some videos to be quiet.
+
+I've been working on a project that involves summarizing text. The project takes chunks of text and creates summaries of them. For example, the chunk "Alice in Wonderland 14" is summarized as "Alice finds herself in a pool of tears and meets a mouse. She wonders if the mouse knows the way out and tries to ask it in English. The mouse doesn't seem to understand, but winks at her."
+
+I'm now working on a recursive summarization feature, which will take summaries and create even shorter summaries. This is proving to be a bit tricky, as it's difficult to create a concise summary that still tells the story. I'm hoping to get some help from the community to fine-tune this feature.
+
+Once the project is complete, it will output a file called "prompt and completion." This file contains the text of the story so far, which can be used to continue the story.
+
+Alice in Wonderland is a children's story about a girl who falls down a rabbit hole and has adventures in a fantastical world. In the story, the caterpillar asks Alice who she is, and she replies that she doesn't quite know - she feels she has changed several times since that morning. The caterpillar tells Alice to explain herself, but Alice finds she can't because she doesn't understand herself.
+
+When I ran the Alice in Wonderland 32 completion on the Text-Davinci O2, it generated a very similar response. It seems that the model has learned the story well, but it is not able to generate new, original content. This is likely because the model was only trained on a small amount of data, and so it has not learned the nuances of writing a novel. In order to write a novel, the model would need to be trained on much more data.
+
+In a world of high fantasy, a young woman named Alicia is on a quest to save her village from a band of marauders. Alicia is joined by a group of unlikely heroes, including a daring thief, a powerful wizard, and a skilled archer. Together, they must battle their way through hordes of enemies and solve puzzles to reach the marauders' lair. With courage and determination, they defeat the marauders and save the village.
+
+Alyssia is looking out the window when she sees some butterflies and pigeons. Suddenly her old tortoise shell kitten appears and startles her. Alyssia's sister calls her from the outside and Alyssia climbs into the study to find the kitten.
+
+Next, Alyssia's uncle asks her about the book she's been reading. Alyssia tells him it's about a princess in a castle, a knight, a dragon, a wicked witch, and a good fairy. Uncle is curious about the book and asks Alyssia where she found it.

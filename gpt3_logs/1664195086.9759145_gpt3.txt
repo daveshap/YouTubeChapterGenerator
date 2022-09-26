@@ -1,0 +1,9 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: you're at the end of the article and otherwise just accumulate the lines and then once you get all the lines in an article i use the analyze chunk i pass that along and then and then find the key information such as the article id the text of the article and the title uh so there you have it it's pretty straightforward solar is working and it's pretty efficient it's certainly more efficient and more powerful than sqlite and that will serve as the underpinning technology behind raven's encyclopedic services so i'm not going to stick with just wikipedia but also with raven's recall services which will give raven a long-term memory and i'm going to make another video about those and post that later thanks for watching
+
+CLEAR ESSAY:
+
+==========
+
+Solar is a more efficient and powerful technology than SQLite, and it will serve as the underpinning technology behind Raven's encyclopedic services. This will not only include Wikipedia, but also Raven's recall services, which will give Raven a long-term memory.

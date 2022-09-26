@@ -1,0 +1,51 @@
+The following is an unstructured video transcript by David Shapiro. Please rewrite this as a more structured, clear essay.
+
+TRANSCRIPT: basically like you can also embed multiple prompts so in other examples of fine-tuning experiments you'll notice that i use several kinds of data or several kinds of prompts and put them all into a single data set so fine tuning can allow you to combine different kinds of tasks different kinds of data into a single model or it can allow you to get very consistent results so essentially you get the same behavior every time um yep so we've got 202 examples the biggest one is three kilobytes the smallest one most of them are one kilobyte um so let's just grab the top um several uh okay your opening paragraph is intriguing so that's fine first i want to commend you great all right we'll remove that because it doesn't need the bar the first thing i noticed is your stories that you have a lot of interesting ideas great first thing the opening sentence is great the opening is very strong opening is well written let me say enjoyed reading your story very strong effective in setting the scene well written and engaging opening paragraph is evocative remove this overall this is written in an interesting story um the start of the story is very strong your story has potential first thing i noticed present tense throughout okay cool so those all look good let's get the next chunk so basically what i'm doing is i'm just um auditing the data so this is this is a technique in data science where you don't look at every single one of them you just look at a few of them to make sure that you just eyeball them to make sure that they look fine so we're removing any artifacts that we don't want and again what this will do is it will fine tune our our model to be very consistent okay the opening of your story is very strong your story is well plotted etc etc you'll have a lot of potential all right so i still found a couple so basically what i'm going to do is i'm going to keep going through these chunks until i don't find any that need correction and it looks like maybe maybe many of them do the opening okay the beginning your story your story firstly what i might do is just do add a find and replace for this artifact because it seems like it's keep it's going to continue popping up so what i'll do is i will do a find and replace to remove that when i do the prepare data yeah it's just gonna keep popping up okay so here's how we handle that if there's a consistent artifact like that when you have the format format json l so what you do is you say okay for this and then the completion so we'll say the completion equals open file dot replace and then we'll add that and we'll say replace that with nothing and then we'll do a um was it strip yeah so that will remove any excess white space so that should clean that up um that should be good and i think we're ready to run this so let me jump back over here and we'll do python um oh yeah here's what we need to do um for file and files so basically here's what's going to happen um we're starting with the stories um actually no we should start the other way we should start with completions um so so for because the the the reason that we we're doing this is because the completions are a subset of the stories and so it's like okay we need to match a completion back to its story so we're going to get the list of completions so we'll say this so we'll say completion equals and then story equals oh yeah we need to move this up um is going to be stories.file okay and so because we know we because since we've deleted some of the some of the completions and the completions are a subset of stories we know that the story is going to be there but if we enumerate all the stories there's not a guarantee the completion will be there so this should be right it should not bomb out so one rule of thumb is um you shouldn't use the try except in python to cut to compensate for bad code or bad data um i use it because the api might be unreliable right but if you if you do a try except here you might end up with an entire block of bad data i've done that before so you you generally errors one rule of thumb is that errors are there for a reason and you want to see them so like if i did this wrong right if i hadn't swapped completions and stories then it would error out and i want to see that because i don't want to make assumptions about the quality of the data okay so format json l okay it did not bomb so that's good so let's go and look at our creative writing coach json l it's 800 kilobytes so if i had let this finish where it would have been almost twice as big this would have been like a 60 dollar fine tune um why did it say empty inside i wonder if that was the um the story okay so here's what we're gonna do um so there's the prompt it just starts with the story that's fine and then you see right here at the end um new line new line professional feedback completion the opening of your story is very strong that's exactly what we want to see um prompt a girls trip a trip to remember that was an understatement okay so we go here um and then let's find um professional feedback that'll make it easier to see where the dmarc is okay so the beginning of the story is very promising and i like the idea of two friends going on at road trip however the story quickly loses momentum in the middle great so find next yep you have a great eye for detail etc etc the way you use rust as a metaphor for the decay of civilization excellent um oh yeah so the fact that gpt3 can understand metaphors is great because neuroscientists don't even understand how human brains process metaphors so we've been able to recreate a quirk of biological intelligence and we don't even know how it works biologically and we don't know how how the machine has been able to recreate it so just wanted to point that out there where it's like people people that are suspicious of um you know like what gpt3 is capable of like it's smarter than you think okay the fine tuning data looks good so i'm going to go ahead and run the fine
+
+CLEAR ESSAY:
+
+==========
+
+I'm going to show you how to fine-tune a model in this video. Fine-tuning is a process of adjusting a model to get more consistent results. For example, you can use different kinds of data or prompts in your fine-tuning experiments. This allows you to get the same behavior every time.
+
+I have a dataset of202 examples. The biggest one is 3 kilobytes and the smallest one is 1 kilobyte. Most of them are 1 kilobyte. I'm going to grab the top several.
+
+Your opening paragraph is intriguing. The first thing I noticed is that you have a lot of interesting ideas. The opening sentence is great. The opening is well written and engaging. The opening paragraph is evocative.
+
+Overall, this is written in an interesting story. The start of the story is very strong. Your story has potential.
+
+I still found a couple of examples that need correction. I'm going to keep going through these chunks until I don't find any that need correction.
+
+It looks like maybe many of them do. The opening of your story is very strong. Your story is well plotted.
+
+I might do is just do a find and replace for this artifact because it seems like it's going to continue popping up. I will do a find and replace to remove that when I do the prepare data.
+
+Yeah it's just going to keep popping up.
+
+For this, we'll say the completion equals open file dot replace. We'll add that and we'll say replace that with nothing. Then we'll do a strip. That will remove any excess white space.
+
+That should clean that up.
+
+I think we're ready to run this. I'll jump back over here and we'll do python.
+
+Um oh yeah here's what we need to do.
+
+Basically, what we're doing is we're matching a completion back to its story. We're going to get the list of completions. We'll say completion equals story equals stories.file.
+
+Because we know that the completions are a subset of stories, we know that the story is going to be there, but if we enumerate all the stories, there's not a guarantee the completion will be there.
+
+So this should be right. It shouldn't bomb out.
+
+One rule of thumb is that errors are there for a reason and you want to see them. So if I did this wrong, it would error out and I want to see that. I don't want to make assumptions about the quality of the data.
+
+Okay, so format json l. It did not bomb out, so that's good. Let's go and look at our creative writing coach json l.
+
+It's 800 kilobytes. So if I had let this finish, it would have been almost twice as big. This would have been a 60 dollar fine tune.
+
+Why did it say empty inside? I wonder if that was the story.
+
+Okay, so here's what we're going to do. We're going to find the prompt. It just starts with the story. That's fine. And then we see right here at the end, "professional feedback completion." The opening of your story is very strong. That's exactly what we want to see.
+
+The beginning of the story is very promising. I like the idea of two friends going on a road trip. However, the story quickly loses momentum in the middle.
+
+The fine-tuning data looks good. I'm going to go ahead and run the fine-tuning experiment.

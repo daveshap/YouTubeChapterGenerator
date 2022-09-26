@@ -1,0 +1,23 @@
+Amazon Product Reviews
+
+In order to sift through Amazon product reviews quickly and effectively, I utilized the Kaggle dataset. This dataset contained over 34,000 reviews of various Amazon products. I filtered the data down to only include reviews for the Fire Tablet, as this was the product I was interested in. From here, I randomly selected 25 reviews and joined them into a text block.
+
+I then fed this text block into a prompt, which asked for a detailed summary of the reviews. The prompt provided instructions on both before and after the information, to ensure that the model would not be confused.
+
+The results of the prompt were generally accurate, with key features of the Fire Tablet being accurately summarized.
+
+In order to assess customer sentiment and recommend improvements for a product, auditors can use a technique called "sampling." Sampling involves selecting a small number of reviews from the total pool of available reviews and analyze them to identify patterns. This technique can be used to audit the reviews of the Amazon Fire tablet.
+
+Key strengths of the product, based on the reviews sampled, include its clear picture, nice size screen, and good price. However, some weaknesses were also identified, such as average battery life and charging port issues. Based on these findings, it is recommended that improvements be made to the product to address the identified weaknesses.
+
+In this video, David Shapiro summarizes the feedback from customer reviews of three different products. He highlights the key strengths and weaknesses of each product, as well as the recommended improvements that customers have suggested.
+
+The first product is a tablet that is great for travel and for kids. However, it has system lag, poor Wi-Fi, and a dim screen. Customers have suggested that the tablet be made faster, have better parental controls, and have a more durable charger port.
+
+The second product is a competitive tablet that is great for kids. However, it is slow, dim, and does not have a lot of horsepower. Customers have suggested that the tablet be made faster, have better parental controls, and have a more user-friendly interface.
+
+The third product is a reduce tablet that has a lot of storage space and great speakers. However, it is slow, dim, and has poor Wi-Fi reception. Customers have suggested that the tablet be made faster, have better parental controls, and have a more user-friendly interface.
+
+There is a lot of potential for automatic data handling when it comes to product reviews. By taking the time to format the output of customer reviews, companies can easily generate requests for enhancements (RFEs) or user stories. This can help to improve the quality of the product and make it more user-friendly.
+
+In particular, companies can focus on making the tablet more responsive and less cumbersome. They can also work on making the charging port more durable and improving the stability of the tablet. By taking these steps, they can make a big difference for customers and help to improve the overall quality of the product.
