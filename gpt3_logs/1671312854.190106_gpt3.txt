@@ -135,6 +135,61 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:31:51.540,0:31:55.680
+it multiple times I think what we'll
+do is we'll break it into chunks of
+0:31:56.880,0:32:05.820
+um let's see how long is this we'll do chunks of
+13 000 um that seems that seems good so we'll do
+0:32:05.820,0:32:13.080
+chunks of Thirteen thousand and um and just go
+straight to graphs to knowledge graphs because
+0:32:13.080,0:32:18.480
+that worked really well that worked exceptionally
+well okay so let's go ahead and clean this up
+0:32:20.820,0:32:30.240
+and we'll come down here and do chunk and
+then Jason Alda Json LD Knowledge Graph
+0:32:32.220,0:32:42.540
+um and then we'll do f file save as prompt
+Json LD um citation nodes and I need to
+0:32:42.540,0:32:45.720
+take a quick bio break I'll be right
+back I'm sure you wanted to know that
+0:32:46.800,0:32:52.740
+all right actually I just realized this video is
+running long um it's already 30 minutes and uh
+0:32:52.740,0:32:58.200
+and I'm a bit fried so we'll come back we've got
+our feet we've got our bearings and so when we
+0:32:58.200,0:33:04.140
+come back for the next video we will start doing
+the data prep because that's that's a lot of fun
+0:33:04.140,0:33:09.480
+let me tell you that's why I don't want to do it
+right now um so we'll take all of these opinions
+0:33:09.480,0:33:15.540
+we will split them into chunks while keeping some
+of the essential information with each chunk and
+0:33:15.540,0:33:19.680
+got to do a little bit of figuring about how to
+how do we format the knowledge graph correctly
+0:33:19.680,0:33:26.460
+because each yeah there's there's some problems
+to solve so but we'll split it into chunks we'll
+0:33:26.460,0:33:32.520
+prepare the data we'll do some experiments with
+generating a Knowledge Graph and then um that's
+0:33:32.520,0:33:37.860
+probably all that part two will have and then part
+three will be actually like let's load this into a
+0:33:37.860,0:33:43.740
+database or visualizer um all right gang thanks
+for watching it's good to be back and take care
+
 
 CHAPTER TITLE:
+
+==========
+
+31:51 - Preparing Data for Knowledge Graphs

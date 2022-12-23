@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,73 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:31:25.440,0:31:31.980
+directly my embeddings directory um oh and another
+thing that I forgot was you need to have the
+0:31:31.980,0:31:36.480
+um you need to have the article ID in there if
+you want to be able to find the full article
+0:31:36.480,0:31:43.320
+later so all right so there we go that looks a
+little bit better so we have yeah look at that
+0:31:43.320,0:31:50.700
+so doing it in chunks rather than um rather than
+doing it one at a time we're down to 3.3 hours
+0:31:50.700,0:31:56.520
+so it looks like it'll take about three hours
+to do it in in chunks this big um do I want to
+0:31:57.120,0:32:04.380
+hey I'm going to be bold let's see let's see
+and okay so here it's already processed 4 600.
+0:32:05.340,0:32:12.120
+are these articles by doing it in batches of a
+hundred rather than one at a time so yeah this
+0:32:12.120,0:32:16.920
+is this is how you do it and there's the ID so you
+got the article ID so you can go get it from the
+0:32:16.920,0:32:22.560
+original the original location but let's try let's
+just be a little bit Bolder just just a little bit
+0:32:23.880,0:32:29.340
+delete these because if we can do them once we
+can do them again so let's do a chunk size of
+0:32:30.540,0:32:36.420
+300. and if this works you know
+so we're at down to 2.8 hours
+0:32:37.620,0:32:44.220
+um remaining thank you CLS all
+right so if we do chunks of 300
+0:32:45.240,0:32:49.020
+I don't think it'll be three times faster and
+it also might run out of memory but we'll see
+0:32:50.340,0:32:56.040
+um so the batch size has to do with how much
+memory your GPU has and so you know you go
+0:32:56.040,0:33:02.400
+to Performance click on the GPU tab it'll
+pre-load all the memory as it's spooling
+0:33:02.400,0:33:06.960
+up the model but then there's a certain amount
+of I'm not sure how the inner workings are but
+0:33:06.960,0:33:12.360
+so you see it shoots up to use like seven and a
+half gigabytes all right let's see what happens
+0:33:13.620,0:33:20.820
+if we see if we see it blow up with that you know
+oom so now we're down to 7 000 chunks total rather
+0:33:20.820,0:33:26.520
+than 2.1 million individually okay so we're
+doing larger chunks the time is coming down
+0:33:26.520,0:33:31.500
+and so what I'm doing in the background is I'm
+averaging out like how long is it taking overall
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+31:25 - Processing articles in chunks

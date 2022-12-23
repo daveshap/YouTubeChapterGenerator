@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,59 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:08:11.280,0:08:15.960
+you know let's uh let's let the humans be good
+at the human things and the machines be good at
+0:08:15.960,0:08:19.860
+the machine things and then we can work together
+to meet in the middle I don't know if it's gonna
+0:08:19.860,0:08:23.880
+happen that way because it doesn't always right
+there are some things that machines just do better
+0:08:23.880,0:08:30.120
+that you know like if you need to um uh like fly a
+drone into a volcano you don't need a human there
+0:08:30.120,0:08:35.940
+period right you might need a human controlling
+the Drone um anyways I'm kind of going off on
+0:08:35.940,0:08:42.600
+tangents but I did I did want to address this
+and say that like as as someone who is actively
+0:08:42.600,0:08:50.760
+creating AI tools generative AI tools I have also
+made the decision not to dislocate any artists and
+0:08:50.760,0:08:56.040
+editors and other creative types um and I you
+know I'm not even going to tell other people
+0:08:56.040,0:09:03.420
+to to to follow my lead I'm making this choice
+because it it feels right for me um and and this
+0:09:03.420,0:09:08.580
+backlash right now tells me that I did the right
+thing because I predicted months ago like I just
+0:09:08.580,0:09:13.260
+created something that could hurt my friends and I
+actually feel really Vindicated that it's trending
+0:09:13.260,0:09:20.700
+right now on Twitter is like you know no I'm not
+I don't want to hurt anybody um you know my my
+0:09:20.700,0:09:29.640
+pursuit of you know of of fame or Glory or wealth
+or whatever it always takes a back seat to like
+0:09:29.640,0:09:34.980
+hurting people that I care about or people people
+even people that I don't know that that like you
+0:09:34.980,0:09:39.000
+know anyways I'm I'm repeating myself I'm rambling
+I think you get the point thanks for watching
 
-CHAPTER TITLE:
+
+Descriptive title with timestamp:
+
+==========
+
+8:11 - The decision not to dislocate any artists with AI tools

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,71 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:25:02.760,0:25:07.800
+in is you'll uh what I'll ultimately do is say
+there's an article like you find one that's like
+0:25:07.800,0:25:14.100
+yes give me every other article like this one
+and it will find you every single article like
+0:25:14.100,0:25:19.500
+that one um and from there there's all kinds of
+things that you can do you can create a semantic
+0:25:19.500,0:25:26.160
+meaning graph you can do blah blah blah um okay
+so we got some more embeddings so 238 so this
+0:25:26.160,0:25:31.740
+should be the next one there we go that's a little
+bit prettier see how there's no there's no uh uh
+0:25:31.740,0:25:39.060
+markup or anything so abstract title and oh so
+another thing that I did let me show you this
+0:25:40.200,0:25:46.200
+um with the with the file save I say out file
+ensure ASCII equals false so that allows it to
+0:25:46.200,0:25:54.780
+use utf-8 which is nice sort Keys equals true so
+what sort Keys equals true does is it always puts
+0:25:54.780,0:25:59.280
+them in the same order which that's not necessary
+for the machine but it's it's nice for the human
+0:25:59.280,0:26:03.540
+so that you know that the abstract will always be
+first because and I don't know what the logic is
+0:26:03.540,0:26:09.480
+but sometimes when you save a dictionary out to
+Json it'll be all garbled up so it'll always be
+0:26:09.480,0:26:15.780
+abstract embedding and then title uh which is nice
+for us um so then you see title here at the end
+0:26:15.780,0:26:21.480
+calculation of prompt diphoton production cross
+sections at tivatron and LHC energies wow okay
+0:26:22.380,0:26:28.560
+um so then you put this abstract into the search
+engine that we're gonna eventually produce and uh
+0:26:28.560,0:26:34.740
+we'll see where it goes anyways so we've uh we've
+got this so pretty much all I have to do is remove
+0:26:35.520,0:26:38.940
+this exit here and just let
+it go and it will produce
+0:26:39.480,0:26:47.280
+um uh millions of these so what I'm going to
+do is I'm going to add one last thing um try
+0:26:49.740,0:26:50.580
+accept
+0:26:52.740,0:26:53.240
+um
+0:26:55.020,0:27:03.960
+and then what I'll do is errors and so errors
+equals list and then if it blows up I will
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+25:02 - Creating a Semantic Meaning Graph

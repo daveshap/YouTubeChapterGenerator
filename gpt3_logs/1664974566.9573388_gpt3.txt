@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,54 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:07:52.620,0:07:56.940
+someone else fixed this for me please actually
+and I can hear someone saying oh ooh no here's
+0:07:56.940,0:08:04.620
+what I'm gonna do I'm gonna go to codex um all
+right I'm gonna have codex write this for me
+0:08:05.160,0:08:14.580
+um let's see where is it codex DaVinci
+okay um so we'll grab this and we'll say uh
+0:08:20.400,0:08:20.900
+um
+0:08:22.740,0:08:25.920
+all right so we'll give it that here
+let me I gotta zoom out a little because
+0:08:25.920,0:08:33.000
+this is a Long Function Okay so I
+know I know I know go away okay um
+0:08:35.760,0:08:39.540
+rewrite um what is this gpd3 completion
+0:08:44.700,0:09:02.160
+um so that it will check if um the if folder gpt3
+blogs exists um and create it if not exists okay
+0:09:09.600,0:09:13.740
+this is why I don't use codex is because I give
+it really clear instructions and then it just
+0:09:14.400,0:09:16.920
+makes stuff up that's not what I was asking for
+0:09:18.720,0:09:23.280
+quit quit quit yanking me around all
+right so what I'm going to do is do a
+0:09:23.280,0:09:26.640
+little bit of prompt engineering so I'm
+just go ahead and give me the function
+0:09:30.840,0:09:40.020
+and so then right down here there
+we go is it really that simple okay
+0:09:41.040,0:09:46.440
+and then I guess it ran out of tokens um all
+right so let's copy this in and see if it works
+0:09:51.720,0:09:53.940
+if not exists make okay cool
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+07:52 - Prompt engineering with codex

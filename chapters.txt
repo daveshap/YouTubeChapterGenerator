@@ -1,16 +1,17 @@
-00:04 - 20 Questions with gpt3
-02:18 - Using a random word generator to create a model
-04:39 - Generating a list of famous people and places
-07:19 - Generating a list of common words
-09:38 - Building a prompt from a seed
-12:25 - Generating random words
-14:46 - Generating a random prompt
-17:18 - Creating a bot that can answer questions
-20:12 - Creating a bot to answer questions
-23:00 - Creating a bot to answer questions
-26:08 - 20 Questions
-28:45 - Generating questions and answers based on a secret word
-32:11 - Checking if user is correct
-34:44 - Creating a game with 'exit zero'
-37:34 - The game of 'Exit Zero'
-40:57 - 20 Questions with GPT3
+00:03 - Creating a Cross-Linked Web of Precedent
+02:15 - Breaking down files into chunks of four pages
+05:31 - English as the Primary Programming Language
+08:08 - Troubleshooting Encoding Issues
+10:13 - Talking to Hal 9000
+12:50 - Cleaning up Duplicated Characters with Spacey
+16:22 - Debugging a Python Program
+19:26 - Troubleshooting Spacey Installation
+21:58 - De-duplicating Characters with NLTK
+25:01 - Modifying the Script to Use Regex
+27:31 - Optimizing File Sizes with Python
+30:03 - Writing a Python Script with Open AI Module
+33:28 - Creating a Machine that can Train Itself
+36:51 - Debugging a Script with Pseudocode
+39:40 - Writing a File Function in UTF-8
+41:57 - Troubleshooting a Windows Error
+44:10 - Merging and Visualizing

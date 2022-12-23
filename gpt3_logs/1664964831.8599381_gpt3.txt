@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,52 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:05:29.700,0:05:33.360
+and you notice that it's loading
+tensorflow I'll show you why in a second
+0:05:34.020,0:05:39.960
+and you write some marketing copy copy for me
+0:05:44.040,0:05:47.880
+of course I'd be happy cool
+0:05:48.600,0:06:01.500
+thanks for asking um let's see write something
+uh just sell uh to sell me ice during a snowstorm
+0:06:04.380,0:06:09.180
+let's see how good you are let's see what he says
+0:06:13.500,0:06:16.140
+beating the Heat
+0:06:18.960,0:06:21.960
+there you go okay so Marcus
+will do whatever you want
+0:06:22.800,0:06:31.080
+um but then you can also like can you tell me deep
+secrets about SEO you can be more serious about it
+0:06:32.700,0:06:37.440
+so you will ranking search engines
+this means using keywords okay um
+0:06:40.320,0:06:45.420
+see what are some uh let's see
+0:06:48.240,0:06:52.800
+tell me more I want SEO Magic
+0:06:59.940,0:07:04.200
+yeah okay so this is not a fine-tuned bot
+so it's not going to be perfect that's fine
+0:07:04.740,0:07:10.140
+but what I wanted to do was make this
+a little more sophisticated by adding
+0:07:11.100,0:07:16.500
+um by adding something in the background that
+will make it a bit smarter so I did this save
+0:07:16.500,0:07:22.020
+log so what we're going to do is we're going
+to save we're going to save everything out
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+05:29 - A bot that gets smarter with every interaction

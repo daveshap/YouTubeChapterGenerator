@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,57 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:15:43.260,0:15:49.860
+perfect perfect Okay so we've got a good
+cover letter now at the top of your resume
+0:15:51.240,0:15:55.260
+um well here I'll run this again real quick um
+so at the top of your resume you should always
+0:15:55.260,0:16:01.140
+have a professional objective section um because
+not everyone reads a cover letter um academic
+0:16:01.140,0:16:09.000
+institutions medical institutions they are more
+likely to read your cover letter but if you're
+0:16:09.000,0:16:17.220
+applying for a tech company often the cover letter
+is completely discarded so for instance as on the
+0:16:17.220,0:16:24.420
+on the hiring side um I uh like HR often just will
+not pass on a cover letter you just get the resume
+0:16:24.420,0:16:30.360
+so what you want to do is have a professional
+objective section at the top of your resume which
+0:16:30.360,0:16:37.440
+is a copy of this but it's extremely cut down
+so what we'll do is we'll just add we'll take
+0:16:37.440,0:16:44.220
+the same text block and we'll say Okay so let's
+copy this and say write a highly professional
+0:16:44.820,0:16:57.720
+um let's see uh let's see write a uh professional
+objectives um section for the top of a resume
+0:16:59.040,0:17:11.760
+um it should be uh just um three
+sentences or so um it should convey uh
+0:17:12.360,0:17:19.380
+a lot uh that should see it should uh this
+one we might need to give it an example um
+0:17:22.500,0:17:28.020
+and summarize the um applicant very well
+0:17:29.940,0:17:38.040
+um okay so then we'll say professional objectives
+paragraph all right so let's just see if this
+0:17:38.040,0:17:44.940
+works prompt professional objectives because
+I got my my current job by having a dynamite
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+15:43 - Writing a professional objective section for a resume

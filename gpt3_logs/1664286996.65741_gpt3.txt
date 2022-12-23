@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,70 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:27:03.960,0:27:13.080
+just say um let's see error errors dot append
+article so that if there's any problems I can
+0:27:13.080,0:27:21.180
+at least have an archive of the ones that that
+mess up and so then what I'll do is I'll at the
+0:27:21.180,0:27:28.260
+very end I'll do save data and so I'm going to
+save errors um wait no I uh it's the payload
+0:27:29.100,0:27:37.020
+I need that to go to a different
+place though so I'll just do whoops
+0:27:41.580,0:27:45.180
+so I'll do with open and this will be
+0:27:49.260,0:27:58.620
+errors.json there we go as out file um
+we'll do errors okay so this this is
+0:27:58.620,0:28:06.300
+just so I'm going to save however many blow up
+and but we'll just let it run all right so CLS
+0:28:07.320,0:28:12.180
+um I actually probably ought to have some
+kind of output here we'll just print the title
+0:28:13.020,0:28:16.200
+there we go that way I'll know it's working
+because there's nothing worse than just a
+0:28:16.200,0:28:19.620
+command prompt they're blinking and not telling
+you anything granted I guess I could check in
+0:28:19.620,0:28:24.900
+the embeddings folder but it's nice to see it
+actually working okay so let's get this running
+0:28:25.680,0:28:29.280
+make sure it works and then I'll pause
+the video and we'll come back once it's
+0:28:29.280,0:28:36.480
+done and actually probably I'll need to come
+back to this later um and we will continue
+0:28:36.480,0:28:41.880
+this work later tonight or tomorrow but for you
+watching it'll just all be one continuous video
+0:28:43.020,0:28:48.120
+um but at the end we will have something that you
+put in an example article and it will spit out
+0:28:49.140,0:28:52.320
+a literature review that's the goal at least
+0:28:53.400,0:28:58.140
+all right let's see how hot this gets all right
+we got the GPU spun up we got our memory climbing
+0:29:02.340,0:29:09.600
+oh this is going to take a while because even even
+at this speed it's gonna oh boy it's gonna take
+0:29:10.560,0:29:17.220
+well to do a million uh what 2.1 million
+of these yeah so we're only at 200 300
+0:29:18.180,0:29:20.400
+okay this is gonna be running for a few days
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+27:03 - Building a literature review generator

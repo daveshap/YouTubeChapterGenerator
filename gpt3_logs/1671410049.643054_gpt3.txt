@@ -135,6 +135,120 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:21:58.320,0:21:59.220
+interesting
+0:22:01.740,0:22:13.980
+okay um let's give this a try I will give
+that a try but what about uh words where
+0:22:14.760,0:22:25.740
+um there are supposed to be duplicated
+characters like book or look
+0:22:27.960,0:22:35.220
+um does yours script handle that and we use nltk
+0:22:36.360,0:22:43.380
+or Spacey or something else
+to account for correct words
+0:22:51.480,0:22:55.800
+also while this is running I'm going to address
+the elephant in the room and that was it like a
+0:22:55.800,0:23:02.460
+week ago I made a video saying like meh chat GPT
+isn't that great um and uh so obviously like I
+0:23:02.460,0:23:09.480
+kind of have my foot in my mouth because this
+is amazing it also looks like it failed um so
+0:23:10.800,0:23:16.080
+all right let me do a time check we are at
+23 minutes so we're almost done for the day
+0:23:16.920,0:23:18.540
+um oh there we go okay
+0:23:30.660,0:23:39.360
+all right uh it's yeah yeah it'll it's gonna
+give me that thing so I think what we'll do is
+0:23:40.380,0:23:46.440
+we'll just check to see if this happens
+because it's better to have some data than none
+0:23:46.980,0:23:53.460
+so uh I think what we'll do all right split
+chunks that one worked dedupe characters so
+0:23:53.460,0:24:02.640
+what we need to do is find the ones where this
+happened right so um generally it looks like
+0:24:08.160,0:24:09.120
+okay
+0:24:13.980,0:24:18.060
+looks like it only happened
+in one document yeah okay so
+0:24:19.860,0:24:29.760
+in this case we'll say we'll pass in any file
+that um starts with this so we'll we'll uh we'll
+0:24:29.760,0:24:35.940
+we'll eat the eat the cost and what I mean by
+that is we'll just Excel accept that some data
+0:24:35.940,0:24:40.380
+is not going to be quite as good but that's
+plausible because like it's an OCR mistake
+0:24:40.380,0:24:51.900
+but the thing is is we just need it to be small
+enough to fit in um so de-duplicate characters uh
+0:25:01.740,0:25:03.600
+yeah I don't I don't think this is gonna work
+0:25:06.240,0:25:14.760
+so it it's close but it's not quite um
+thanks um can you modify the uh the uh
+0:25:15.900,0:25:27.480
+the script that uses regex instead um the
+only problem is in files with and the name
+0:25:29.520,0:25:35.400
+can you just sort um or filter
+filter out any other files
+0:25:39.060,0:25:44.580
+okay so let's see what it comes up with there
+meanwhile it looks like this is the largest
+0:25:44.580,0:25:52.500
+one that is um not good right so it's 13 000
+characters long so let's see how many tokens
+0:25:52.500,0:26:01.140
+this is so as long as it's that's getting pretty
+close um let's see if we can if if our uh prompt
+0:26:03.120,0:26:05.760
+will work so prompt
+0:26:15.180,0:26:21.840
+and then we'll do text DaVinci 03 temperature
+zero and our maximum length is going to be
+0:26:21.840,0:26:28.800
+like 600 tokens otherwise it's going to be too
+long so let's see if let's see if that's enough
+0:26:29.820,0:26:31.980
+the output is pretty short so
+0:26:34.020,0:26:38.880
+but Json is pretty token intensive so I
+wouldn't be surprised if it yeah so we
+0:26:38.880,0:26:43.080
+ran out of space so it looks like we
+need to go back and do smaller chunks
+0:26:44.340,0:26:49.680
+um but fortunately these earlier scripts
+are really easy so for instance we just come
+0:26:49.680,0:26:56.460
+back here and instead of doing um uh we we just
+update this so instead of four pages we do three
+0:26:57.420,0:27:03.960
+and so then what we'll do is we'll come in here
+to opinions is fine chunks let's delete these
+0:27:05.220,0:27:13.980
+and then we'll rerun um python step 01 and
+so now what we should have is more chunks
+0:27:15.420,0:27:19.140
+so now we have 188 chunks but you see the the um
+0:27:21.240,0:27:23.100
+that one that one
+0:27:24.720,0:27:30.900
+so this is this is now the largest and it's
+only 10 kilobytes or nine nine thousand
 
 CHAPTER TITLE:
+
+==========
+
+21:58 - Dealing with Duplicate Characters in Text

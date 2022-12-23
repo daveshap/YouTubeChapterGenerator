@@ -135,6 +135,127 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:00:03.900,0:00:08.460
+good morning everybody David Shapiro
+here we are back for part two of the
+0:00:08.460,0:00:15.780
+um Knowledge Graph Supreme Court decision thing
+so we're using chat GPT and gpt3 to help us along
+0:00:16.680,0:00:25.980
+and as a quick recap where we left off was um
+I didn't get that far um but I downloaded about
+0:00:25.980,0:00:31.620
+22 Supreme Court opinions this was about
+Anti-Trust law so a very specific domain
+0:00:32.700,0:00:40.260
+um and then I got them converted to text so that
+is um I did that with another uh repo it's fine
+0:00:40.260,0:00:47.100
+but then what we did was the the big thing that we
+achieved was that we figured out that we can get
+0:00:47.100,0:00:54.960
+gpt3 to just go ahead and write my um write the
+uh Whatchamacallit for us the the knowledge graph
+0:00:54.960,0:01:03.600
+Json and so what I'm doing is the nodes that I
+asked for was each node should be a case citation
+0:01:03.600,0:01:08.520
+precedent or prior opinion each node should
+have several properties such as date case number
+0:01:08.520,0:01:14.700
+involved parties reasoning for including in this
+opinion and other relevant information so that
+0:01:15.360,0:01:19.260
+um worked really well because you see like it's
+got a case number it tells me when it happened
+0:01:19.260,0:01:26.760
+and then the reasoning so like involve parties
+like great this is Phenom this is phenomenal
+0:01:26.760,0:01:32.400
+information so what we're doing is we're going
+to create a cross-linked web as to like why
+0:01:32.400,0:01:40.080
+all these things are interlinked so that way
+theoretically if a uh the the this hypothetical
+0:01:40.080,0:01:46.560
+use case if an attorney is researching antitrust
+laws so that one they can you know go to a court
+0:01:46.560,0:01:51.600
+court of appeals or even present to the Supreme
+Court they will have a masterful understanding
+0:01:51.600,0:01:59.100
+of established law and the reason that this is
+important is because common law is um how law
+0:01:59.100,0:02:05.040
+Works in America it's by prior precedent is the
+so you've got the the laws that are laid down by
+0:02:05.040,0:02:10.920
+the legislative branch and then interpreted by the
+judicial branch and so the judicial branch keeps
+0:02:10.920,0:02:15.660
+track of their own interpretation right because
+there's the legislative branches it it has to do
+0:02:15.660,0:02:21.900
+with separation of powers anyways so that's how
+we got Where We Are um it worked really well and
+0:02:21.900,0:02:26.760
+um there's all kinds of what-ifs and gotchas that
+I'm not going to worry about because this worked
+0:02:26.760,0:02:32.820
+really well and we can iterate over the over the
+long term so but this I had to plug in manually
+0:02:33.480,0:02:38.940
+and it's about four pages so like if we do
+if we search for how many new pages there are
+0:02:39.780,0:02:44.580
+one two three yeah one two three
+so that this has four pages total
+0:02:45.840,0:02:51.840
+um which the that that was good so the
+next problem is we got to take these and
+0:02:51.840,0:02:57.300
+regardless of how long they are we have to
+break them down into chunks of four pages
+0:02:57.300,0:03:04.860
+maximum so rather than do this manually I was
+like why don't I just ask chat GPT so here we go
+0:03:06.480,0:03:21.300
+um I have a folder named um uh let's see
+um opinions uh text um this folder contains
+0:03:22.380,0:03:38.880
+um uh text files of scotus decisions um that
+were converted from PDFs the pages are demarcated
+0:03:39.480,0:03:50.160
+by um by the words new page I need a python
+function so I'm basically talking to this
+0:03:50.160,0:03:56.880
+thing like I'd be talking to a developer
+I need the python function where I pass um
+0:03:58.980,0:04:05.100
+pass uh actually no I actually let's
+just ask it to do the whole thing I
+0:04:05.100,0:04:17.160
+need a python function that um reads every
+uh uh file in opinions underscore text um
+0:04:19.980,0:04:29.640
+and then breaks each file
+into chunks of four pages um
+0:04:30.840,0:04:45.120
+the purpose of this is to um limit the size of
+each subsequent file please then save the chunks
+0:04:46.500,0:05:02.340
+into um into a folder named chunks text
+um and append um a serial number to
+0:05:02.880,0:05:15.720
+the original file name for instance um you know
+star underscore one star underscore two and so on
+0:05:17.700,0:05:18.720
+all right let's see what it does
+0:05:23.880,0:05:27.480
+why would this violate the content policy
 
 CHAPTER TITLE:
+
+==========
+
+00:03 - Breaking Down Supreme Court Decisions into Chunks

@@ -135,6 +135,127 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:16:17.040,0:16:21.900
+I said unpause okay I think it was just frozen
+so because I refresh the screen and it's fine
+0:16:22.920,0:16:28.020
+um okay so I'm saying how can I code a knowledge
+graph says manually build a Knowledge Graph if you
+0:16:28.020,0:16:33.780
+have a small amount of data to do so you can build
+it by creating nodes in the entities you can also
+0:16:33.780,0:16:39.900
+use a tool like graphis or gephy to visualize
+and edit your knowledge graph interesting okay
+0:16:40.860,0:16:44.700
+use an NLP tool that's exactly what
+I'm going to do a graph database okay
+0:16:44.700,0:16:51.840
+use natural uh to use a pre-existing
+Knowledge Graph cool so I wonder what
+0:16:51.840,0:16:58.980
+kind of format these guys take I wonder if
+it knows so neo4j or Amazon Neptune cool
+0:17:00.060,0:17:12.660
+um let's see what uh file format um is a knowledge
+graph um like can I use Json or something
+0:17:15.900,0:17:19.380
+let's see there are a number of different file
+formats you can use to represent a Knowledge
+0:17:19.380,0:17:26.220
+Graph some common ones are graphml and XML
+based file format okay graph is guessing
+0:17:26.220,0:17:32.760
+y Ed okay rdf the resource description I don't
+know anything about knowledge graphs other than
+0:17:32.760,0:17:39.780
+the theory Json LD is a lightweight linked data
+format that can be used to do that CSV really
+0:17:40.320,0:17:48.360
+CSV is simple on one row per relationship with
+columns for the source and Target nodes okay
+0:17:50.880,0:17:54.420
+um I am personally a big fan of
+Json because it's human readable
+0:17:55.080,0:17:59.700
+CSV is human readable but it's a little bit
+on the Messier side especially when you get
+0:17:59.700,0:18:10.200
+really complicated so uh can you give me
+an example of a Json lb Knowledge Graph
+0:18:12.060,0:18:22.380
+um let's say uh for instance I want to see
+um some nodes about the history of uh France
+0:18:23.760,0:18:26.760
+I'm kind of a Francophile I've visited
+France and I really love it there
+0:18:28.800,0:18:33.600
+okay sure here's an example
+of Json LD um all right
+0:18:36.900,0:18:44.040
+so it looks like each node is actually pretty
+simple where it's got an ID a type a name and
+0:18:44.040,0:18:50.040
+a description that's actually really
+simple um nationality oh interesting
+0:18:50.040,0:18:55.440
+it looks like the some of the things
+are kind of arbitrary French Revolution
+0:18:58.320,0:18:59.100
+start date
+0:19:03.600,0:19:04.920
+Napoleon Bonaparte
+0:19:08.640,0:19:12.660
+but yeah I really I really like it
+uh France won the culture so when I
+0:19:12.660,0:19:16.560
+visited while this is running I'll tell you
+a little bit about France uh when I visited
+0:19:18.120,0:19:25.020
+yeah okay sure um so when I when I
+I visited France uh 10 years ago in
+0:19:25.020,0:19:33.660
+2012 and what I really like okay here
+we go um let's see how uh does Json
+0:19:34.740,0:19:45.480
+LD establish relationships I don't see any
+examples of um Connections in the above example
+0:19:46.560,0:19:55.440
+okay so while it's telling me um the at ID oh
+okay so all right it'll it'll explain anyways
+0:19:55.440,0:20:02.400
+so the culture in France is somewhat similar to
+America in um in that uh we both think very highly
+0:20:02.400,0:20:09.180
+of ourselves um but there are some really Stark
+differences and namely the pace of life in France
+0:20:10.260,0:20:17.040
+um where you know sure if you go to the big cities
+like Paris it's rush rush rush um but if you get
+0:20:17.040,0:20:22.620
+outside of Paris even in some of the larger cities
+people just have a different attitude towards life
+0:20:23.760,0:20:30.240
+um you know they're the the the the portion
+meal portion sizes are smaller and um other
+0:20:30.240,0:20:36.780
+other things like that but then it's like people
+are less in a hurry um and then um I hear that
+0:20:36.780,0:20:41.160
+Italy is even worse where it's just like nothing
+happens quickly in Italy so maybe it's just a
+0:20:41.160,0:20:47.220
+European thing anyways um it's very refreshing to
+see a modern powerful Nation because France is the
+0:20:47.220,0:20:54.180
+number three exporter of like military hardware
+or something I don't remember but like this is a
+0:20:54.180,0:20:58.800
+powerful modern country that has a much slower
+pace of life and a different attitude towards
 
 CHAPTER TITLE:
+
+==========
+
+16:17 - Exploring Knowledge Graphs in JSON-LD Format

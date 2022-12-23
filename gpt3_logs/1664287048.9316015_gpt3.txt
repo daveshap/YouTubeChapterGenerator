@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,103 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:03:02.640,0:03:10.860
+it looks like so I went ahead and downloaded
+it and you get um 2.1 million lines of Json l
+0:03:12.360,0:03:19.740
+and here is what one entry looks like so you
+get the ID so the ID is what you can use to go
+0:03:19.740,0:03:26.520
+to Archive and just plug it in right here so
+like you describe any archive or any like use
+0:03:26.520,0:03:33.480
+this is the base URL and then you can also get
+the PDF which is just archive.org PDF slash the
+0:03:33.480,0:03:39.240
+ID dot PDF download it directly you can get the
+full text um we're not going to go quite that
+0:03:39.240,0:03:46.380
+far yet so we'll see how far we get with this um
+but what we're gonna do is we're going to index
+0:03:47.640,0:03:53.100
+um with a semantic Vector we're going to index
+all uh all of the abstracts and titles together
+0:03:53.940,0:03:58.260
+so I was going to borrow a code from my
+my quadrant stress test which also means
+0:03:58.260,0:04:04.620
+I need to go ahead and fire up Docker
+with the with the quadrant container
+0:04:05.340,0:04:10.920
+so oh it's starting okay so anyways uh as a quick
+review in case you don't know what quadrant is it
+0:04:10.920,0:04:17.040
+is a vector-based um search engine a semantic
+search engine um it runs in a container it's
+0:04:17.040,0:04:26.220
+very small so we'll go ahead and fire this up
+it is connected to this um this data store um
+0:04:26.220,0:04:35.160
+actually hang on I might need to start it a
+different method um where is the uh here we go
+0:04:36.840,0:04:43.140
+um let's see Docker run here we go so I
+need to start it with this so we'll do
+0:04:43.860,0:04:49.080
+that okay because this command
+actually tells it what storage to map
+0:04:50.280,0:04:56.400
+um and it says it's listening so that's
+good um okay I think we should be good there
+0:04:57.120,0:05:06.900
+all right so we've got this data which I've got
+um so under uh archive so here's here's the uh
+0:05:06.900,0:05:13.260
+here's that file it's showing you so it's 3.4
+gigabytes of metadata that's a lot of science
+0:05:14.520,0:05:18.000
+um it's all in one file that may or
+may not be problematic we will see
+0:05:19.140,0:05:27.120
+um so let's go ahead and just get started um I've
+got so that's the quadrant demo and then I've got
+0:05:27.120,0:05:32.160
+my literature review bot we got nothing going on
+in here so we're going to um we're going to start
+0:05:32.160,0:05:37.740
+a new file and let's just let's just play around
+with this data let's see what we can get out of it
+0:05:38.880,0:05:46.320
+um so let's go ahead and just copy my quadrant
+stress test and we'll do um we'll save this
+0:05:46.320,0:05:53.340
+under literature review bot excuse me I just
+ate lunch I'm a little gonna wash it down
+0:05:56.100,0:06:03.360
+all right so we will do um uh what are
+we trying to do we're trying to load
+0:06:03.360,0:06:11.580
+um we're trying to load it so
+let's uh let's do um index archive
+0:06:12.960,0:06:23.100
+I know how to spell archive metadata dot
+pi okay so we got Json numpy um stress test
+0:06:24.540,0:06:30.240
+right so oh that's what I did so what I
+might actually do is break it up because
+0:06:30.240,0:06:35.220
+in my stress test experiment I broke it up
+into two steps where I prepared the data and
+0:06:35.220,0:06:39.720
+then I uploaded it so that's probably let's go
+that way let me open up that file real quick
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+03:02 - Indexing the abstracts and titles of a science dataset

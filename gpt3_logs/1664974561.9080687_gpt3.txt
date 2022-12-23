@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,58 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:01:24.600,0:01:32.160
+so here's an example of one of one of my YouTube
+transcripts it is a wall of text this is 90 000
+0:01:32.160,0:01:41.280
+characters with no punctuation this is a nightmare
+to read um obviously nobody wants to read this
+0:01:42.060,0:01:47.160
+um so what I did was and this is our this I
+already had this um so unfortunately I won't show
+0:01:47.160,0:01:52.140
+you the process of writing it but um whoops that's
+not what I meant so this is the final result
+0:01:53.340,0:01:57.840
+um where it's got nice formatting it's
+got punctuation it's got new lines
+0:01:58.860,0:02:03.900
+um and so this is an example of um just
+automatically taking a transcript and cleaning
+0:02:03.900,0:02:09.960
+it up so let me just show you what I already did
+to do this um and again I already wrote this so
+0:02:09.960,0:02:15.840
+I'm not going to rewrite it so first here's the
+prompt so the prompt just says the following is
+0:02:15.840,0:02:20.340
+an unstructured video transcript by David Shapiro
+obviously you'll change your name for whatever you
+0:02:20.340,0:02:26.520
+know whoever you are please rewrite this as a
+more structured clear essay and so what it does
+0:02:26.520,0:02:31.080
+is you just give it a chunk of the transcript and
+it spits out a clean essay it works really well
+0:02:32.460,0:02:35.460
+um go test it yourself if you don't
+believe me but you I showed you the results
+0:02:36.480,0:02:40.080
+um so all that the script does
+is so prompt clarify transcript
+0:02:41.100,0:02:48.300
+um no not the prompt um clarifytranscripts.pi so
+what this does is it goes through um it does it in
+0:02:48.300,0:02:55.140
+batches so it goes through the transcripts folder
+it checks to see if it's already clarified it and
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+01:24 - Automatically cleaning up a YouTube transcript

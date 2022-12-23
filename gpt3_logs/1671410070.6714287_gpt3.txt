@@ -135,6 +135,61 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:10:13.740,0:10:17.100
+oh man I'll be I'll be jazzed if
+it if it understands this okay
+0:10:17.100,0:10:25.140
+um great that worked uh now I have
+a new problem here's the error
+0:10:27.300,0:10:31.740
+um please find a solution for this new bug
+0:10:34.440,0:10:37.440
+so what so the problem here is and I
+0:10:38.400,0:10:44.760
+um yeah that you're trying to join a list of
+strings that contain spaces I don't think so
+0:10:53.700,0:10:55.740
+new page nope that's not it
+0:11:04.140,0:11:16.260
+replace no no I don't think that's it I
+think we need to fix the um string encoding
+0:11:17.280,0:11:20.040
+um here's the last part of the error
+0:11:26.040,0:11:29.400
+I feel like I'm talking to like Hal 9000.
+0:11:32.520,0:11:34.500
+yep there it is that's it
+0:11:39.660,0:11:40.260
+yep
+0:11:43.020,0:11:47.760
+ah so we need to add the encoding to
+to utf-8 right okay that makes sense
+0:11:49.080,0:11:50.700
+this thing is smarter than me
+0:11:54.000,0:11:57.720
+um okay so when we write it yeah
+oh that's the problem I okay
+0:11:59.400,0:12:05.760
+um encoding equals UTF eight okay cool
+but uh this took way less brain power
+0:12:06.780,0:12:12.480
+okay let's see if that works DLS clear
+screen that was fast all right so now
+0:12:12.480,0:12:26.980
+we have 144 chunks of text let's see what the
+biggest one is 20 uh [Laughter] uh [Laughter]
+0:12:31.740,0:12:35.040
+I think the uh I think the
+OCR messed up with this one
+0:12:38.160,0:12:45.360
+why do you believe that the Sherman Act
+okay I'm probably disturbing my audience
+0:12:47.100,0:12:50.700
+what's funny is that it got the capital
+letters fine but then the rest it's like
 
 CHAPTER TITLE:
+
+==========
+
+10:13 - Talking to Hal 9000

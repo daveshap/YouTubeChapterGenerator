@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,54 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:23:45.180,0:23:48.180
+what if I say uh let's see
+what if I just say right
+0:23:52.440,0:23:58.020
+detailed notes about topic but focus
+on this topic write detail notes
+0:23:58.980,0:24:07.440
+um as a paragraph the topic um okay
+well we'll see if this changes anything
+0:24:09.720,0:24:15.000
+Apollo topic because there's nothing
+wrong but if it's shorthand yeah it's
+0:24:15.000,0:24:17.280
+just the importance the importance the importance
+0:24:19.980,0:24:20.480
+okay
+0:24:22.500,0:24:23.220
+foreign
+0:24:31.140,0:24:39.840
+so it's really focusing on AI ethics which is
+good but it's still in a list format which means
+0:24:39.840,0:24:43.980
+we're going to need to say okay let's take
+this whole thing and then write it as one
+0:24:45.120,0:24:52.440
+detailed fully coherent narrative so rewrite
+these notes as like a blog post or you know
+0:24:53.040,0:24:55.380
+I'll probably just use the term coherent narrative
+0:24:59.280,0:25:05.700
+okay so let's take a look at the final output
+so this went out to test.text okay so this is
+0:25:05.700,0:25:12.300
+exactly how it looks um all right so this is 5
+800 characters long so let's jump back over to
+0:25:12.300,0:25:18.540
+the playground and see if we can do a little
+bit of prompt engineering um so let's see the
+0:25:18.540,0:25:33.600
+following um are my notes about um AI ethics from
+a transcript I need to rewrite these notes as a
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+23:45 - Rewriting notes as a coherent narrative

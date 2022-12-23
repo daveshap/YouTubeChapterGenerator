@@ -1,0 +1,257 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:04:52.260,0:04:59.820
+history of Tau um let's hit on let's ask the big
+question uh for our for our viewers what is the
+0:04:59.820,0:05:04.860
+what is the general goal is to create this
+decentralized network can you guys give us
+0:05:04.860,0:05:10.260
+a little bit like a high level overview what is
+the goal of Tau and and and of decentralization
+0:05:11.460,0:05:15.660
+um who would anyone who can who would like
+to go first uh Professor franconi or Ohio
+0:05:17.700,0:05:27.600
+hahaha in all existing decentralized networks
+there is some big elephant in the room of
+0:05:27.600,0:05:32.520
+something very centralized everyone somehow
+ignores maybe maybe not everyone which is
+0:05:33.180,0:05:40.020
+the centralized development team how can
+we seriously take a decentralized economy
+0:05:40.020,0:05:45.300
+like I don't know Bitcoin controlled
+by a bunch of computer geeks like me
+0:05:47.460,0:05:55.620
+how can how can it be any wide enough
+shoulders to carry the whole the whole world
+0:05:57.720,0:06:01.020
+the centralized control of the development team
+0:06:01.980,0:06:08.040
+he's a big bottleneck for adoption and it
+is a problem by its own who promises that
+0:06:08.580,0:06:12.960
+the centralized development team will take
+the right economic decisions and indeed they
+0:06:12.960,0:06:19.800
+themselves know this and therefore they avoid
+taking economic decisions I'll give you the
+0:06:19.800,0:06:27.060
+centralized in a sound way in a constructive
+way that how the network itself should be like
+0:06:29.760,0:06:30.960
+and that's what we do
+0:06:33.780,0:06:42.660
+so to say that in another way the goal is as you
+said um to take control away but not from from
+0:06:42.660,0:06:48.120
+everyone but to take control away from any
+kind of centralization and distribute it to
+0:06:48.120,0:06:52.500
+everyone who participates in a network and the
+example that you gave is like Bitcoin or other
+0:06:52.500,0:06:58.560
+economic networks so that that way everyone
+has a stake in deciding not just what the
+0:06:58.560,0:07:04.320
+network does or what the organization does but
+how it is coded correctly even participating
+0:07:04.320,0:07:12.120
+in the in the development and building of that
+Network true that's height you can look at it
+0:07:18.180,0:07:24.840
+software is there for one and only one thing
+which is the users software is only for the users
+0:07:24.840,0:07:34.860
+but somehow the users have little to no voice or
+influence on how the software should be like next
+0:07:34.860,0:07:40.740
+time your phones ask to update itself how does
+it feel who knows what they put them ah if it
+0:07:40.740,0:07:47.400
+doesn't feel good but it's all for the users you
+are the user why you don't have control over this
+0:07:49.200,0:07:56.820
+well there are very serious um theoretical
+practical social problems associated with it
+0:07:57.600,0:08:04.680
+you can ask how can a large group of people the
+whole audience take any collaborative decision
+0:08:04.680,0:08:10.800
+whether it's blockchain also for anything
+that's a big problem by its own and then
+0:08:10.800,0:08:16.560
+you have an even bigger problem how can a large
+group of people not only take a decision together
+0:08:16.560,0:08:21.720
+but even have a discussion how can one million
+people have a meaningful discussion altogether
+0:08:24.240,0:08:31.020
+and those are indeed problems that we address upon
+the theoretical problems there are some very deep
+0:08:31.020,0:08:39.060
+theoretical problems here that we can speak about
+right and yes in methodological problems and we
+0:08:39.060,0:08:45.780
+can speak about everything yes yeah so the the
+conceptual problems like you said it's it's a
+0:08:45.780,0:08:52.080
+matter of organization um is is one thing is
+for for anyone in the audience who has ever
+0:08:52.080,0:08:59.640
+participated in any kind of software development
+or or any kind of um uh concerted group effort
+0:09:00.360,0:09:06.600
+um organization becomes intractable once the
+group gets too big but with technology platforms
+0:09:06.600,0:09:11.640
+today that affect everyone to your example
+you know everyone uses phones computers uh
+0:09:11.640,0:09:17.580
+you know whatever you're watching this this video
+on today um that has there's a lot of control and
+0:09:17.580,0:09:22.200
+management that goes into that but then countless
+hundreds thousands of developers that go into that
+0:09:22.200,0:09:29.280
+uh that effort and organizing that is uh not
+a solved problem and as you mentioned there's
+
+Descriptive title with timestamp:
+
+==========
+
+04:52 - The goal of Tau and decentralization

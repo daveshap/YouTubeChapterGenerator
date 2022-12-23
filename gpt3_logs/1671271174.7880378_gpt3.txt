@@ -1,0 +1,257 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:28:53.220,0:28:58.860
+um oops I should not have closed that um
+so we've got uh so we've got stories we've
+0:28:58.860,0:29:06.120
+got 10 stories so now let's let's um automate
+the uh the the the part of where we're trying
+0:29:06.120,0:29:14.460
+to get issues so we're going to get um so
+we'll do a topic responses we'll just call
+0:29:14.460,0:29:17.880
+it topics and I'll go ahead and pause
+it again because this will just take a
+0:29:17.880,0:29:22.080
+little bit of scripting to Plug and Play a
+um a prompt and you don't need to see that
+0:29:23.340,0:29:28.620
+okay we're just about ready so let me grab
+this prompt and I'll just show you what it does
+0:29:29.940,0:29:33.420
+um all right so this prompt is I'm confronted
+with a question or issue and I must write how I
+0:29:33.420,0:29:38.280
+feel about it I'll write a long extensive opinion
+about this topic so then we come and grab a story
+0:29:38.280,0:29:43.680
+so we'll grab a random story we're in a small town
+in the middle of nowhere I stumbled upon a book
+0:29:43.680,0:29:55.140
+about trans Okay so again same curious person and
+then we'll get the the topic which I am going to
+0:29:55.140,0:30:02.820
+do the abortion one because this is a hot issue
+especially in well many places um okay so then
+0:30:02.820,0:30:07.320
+we have we still have the high temperature
+detailed essay on how I feel about this
+0:30:10.500,0:30:19.320
+um so this you'll frequently get like I'm
+opposed to this bill um yeah okay so that's fine
+0:30:20.340,0:30:24.900
+um but so that we have we have an opinion we
+have a feeling but we need a little bit more
+0:30:24.900,0:30:30.600
+we also need like what are the specific concerns
+because part of consensus is you have to surface
+0:30:30.600,0:30:36.840
+all of the actual objective issues right like
+what are what are the key things what are the
+0:30:36.840,0:30:42.900
+the the the detailed concerns and and it often
+has to come out as a conversation um I don't
+0:30:42.900,0:30:48.120
+know if I'm going to get to conversation this
+time because we're already at 30 minutes or so
+0:30:48.840,0:30:55.380
+um but at least I want to get this far um and then
+try and decompose each position a little bit more
+0:30:56.520,0:31:01.440
+um okay so I like this but let's see instead
+of feelings because emotions are critical
+0:31:01.980,0:31:07.860
+um people's emotional disposition is a part
+of consensus but now we have to be objective I
+0:31:07.860,0:31:15.600
+confronted with a question or issue and I must
+write um write about uh let's see right out my
+0:31:15.600,0:31:30.300
+specific objective concrete concerns um what are
+the material uh consequences um or issues involved
+0:31:30.840,0:31:37.680
+okay so now we're going to change the prompt
+pretty dramatically detailed essay on um my
+0:31:37.680,0:31:43.380
+concrete concerns okay so now let's see how this
+changes we're leaving everything else the same
+0:31:49.740,0:32:00.960
+okay Force many women into poverty um yeah okay
+cool so we can have this prompt that just says
+0:32:00.960,0:32:04.980
+okay what's what are the what are the objective
+concerns here so let's go ahead and save this out
+0:32:07.440,0:32:08.220
+and we'll do
+0:32:10.860,0:32:11.580
+profile
+0:32:15.420,0:32:20.340
+I did not mean to cover to
+delete that I do profile
+0:32:22.200,0:32:29.700
+and topic and so theoretically with a little bit
+of fine-tuning and prompt engineering because so
+0:32:29.700,0:32:37.860
+fine-tuning um what I what how I would approach
+this is um I'd get real stories from real people
+0:32:37.860,0:32:43.440
+and their opinions um you'd probably need in
+order to get you'd need a lot of diversity in the
+0:32:43.440,0:32:50.820
+fine-tuning data but you get enough stories about
+real people and their takes on these issues and
+0:32:50.820,0:32:55.440
+then you get the model will generalize and be able
+to realize like okay we need to take someone's
+0:32:55.440,0:33:04.440
+life story into account when when um doing this
+okay so we'll say topic um let's see uh concrete
+0:33:05.520,0:33:16.560
+okay there we go and then finally um the
+so part is part is a brainstorming right
+0:33:17.280,0:33:23.400
+um a big part of consensus is there's how you
+feel about it there are your objective concerns
+0:33:24.000,0:33:28.680
+um but then there's also the creative part the
+the the Reaching Forward and and what's called
+0:33:28.680,0:33:36.960
+bridging which is like okay what are the places
+that we can find Common Ground um so here we say
+
+Descriptive title with timestamp:
+
+==========
+
+28:53 - The process of finding consensus

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,71 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:40:30.420,0:40:35.700
+looked up I looked up what the uh what the client
+does so recreate collection it dumps whatever's
+0:40:35.700,0:40:42.480
+there and recreates it so if you're doing testing
+it's great you just start from scratch and then I
+0:40:42.480,0:40:48.480
+updated this function load data so it just starts
+here it gets all the files you instantiate vectors
+0:40:48.480,0:40:56.100
+and payloads and I do a little bit of numbers
+math and so then what I wanted to do was let's
+0:40:56.100,0:41:03.480
+just have all this come up here so if the length
+of vectors is greater than or equal to let's do
+0:41:03.480,0:41:12.720
+chunks of a thousand at a time um so then we're
+going to be sending um when we we do send a batch
+0:41:13.860,0:41:19.440
+um we're sending a batch of a thousand vectors and
+a thousand payloads up to the client and all that
+0:41:19.440,0:41:27.840
+this does is uploads records and this will send
+it in chunks of 256 at a time and it'll allow the
+0:41:27.840,0:41:34.740
+machine to figure out the IDS in the background
+uploads it to the archive so yeah so this will
+0:41:34.740,0:41:39.780
+hopefully keep it a little bit faster because
+there's going to be a little bit of overhead
+0:41:39.780,0:41:45.660
+cost one of even just doing a print screen and so
+we're only going to be do we're only going to be
+0:41:45.660,0:41:53.700
+calculating times and stuff every 1000 rather
+than every single Loop but then so all we're
+0:41:53.700,0:42:02.880
+doing here is for for every file we will uh we'll
+increment our counter and then we will open the
+0:42:02.880,0:42:08.940
+Json and we'll have uh we'll you know info equals
+json.load in file and then we're going to spool
+0:42:08.940,0:42:14.100
+up the vectors and payloads because for whatever
+reason with quadrant you have those as separate
+0:42:14.940,0:42:19.380
+um separate uh lists and you send them
+independently excuse me I gotta sneeze
+0:42:22.260,0:42:26.040
+I'll fix that in post um anyways sorry uh okay
+0:42:27.060,0:42:31.800
+but yeah so anyways let's restart this
+and see if we're going to go any faster
+0:42:35.940,0:42:37.560
+uploading records
+0:42:41.760,0:42:45.360
+so you can see here it looks like it
+might actually be a little bit faster
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+40:30 - Optimizing record upload speed

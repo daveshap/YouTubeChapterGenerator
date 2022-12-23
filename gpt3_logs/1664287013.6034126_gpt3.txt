@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,68 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+1:00:54.660,1:00:55.160
+um
+1:00:56.880,1:01:00.360
+no because that'll still be
+this like formatted like this
+1:01:01.200,1:01:10.860
+uh okay why don't we do it this way
+instead then so final output will do text
+1:01:15.960,1:01:27.120
+so output equals um output plus and we'll
+do new line new line and then we'll do
+1:01:27.840,1:01:35.640
+um that'll be the file name and then we'll also
+just do the summary yeah that'll work okay so
+1:01:35.640,1:01:43.080
+then we'll do file and then resulting summary um
+yeah because then you can then you can do whatever
+1:01:43.080,1:01:49.140
+you want but the point is is that it will it will
+give you kind of a compact summary with the file
+1:01:49.140,1:01:56.100
+name and again there's lots of little things
+we can do to clean this up um okay so then save
+1:01:56.100,1:02:04.920
+file and then I have file path and then content
+so the file path will be um literature review
+1:02:04.920,1:02:11.580
+dot text and the content will be the output
+all right and then let's run this real quick
+1:02:14.460,1:02:22.380
+so I've got five files that are related oh I
+guess it's not um yep I forgot to put the logs no
+1:02:24.360,1:02:27.540
+okay so first we will print
+1:02:28.740,1:02:40.620
+file and then we will print results and
+we'll let it go okay let me come back here
+1:02:42.720,1:02:46.080
+GPT three logs do this every darn time
+1:02:52.380,1:02:56.880
+all right so I've got a handful of files that
+I want to generate a literature review for
+1:02:58.680,1:03:02.040
+and so what it's going to do is it's
+going to go through and extract the
+1:03:02.040,1:03:08.340
+text from those PDFs and then break that the
+whole chunk or the whole PDF into chunks and
+1:03:08.340,1:03:12.660
+then it's going to do a quick summary for each
+of those should be running in the background
+1:03:14.700,1:03:19.080
+yeah here we go so summarize the paper there we go
+1:03:21.600,1:03:27.240
+so it is running oh here we go yeah
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+1:00:54 - Generating a literature review

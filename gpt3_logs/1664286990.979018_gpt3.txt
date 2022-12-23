@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,69 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:13:49.200,0:13:53.880
+all right all right so we want something that's
+going to end up looking basically like this
+0:13:55.260,0:14:05.160
+um I'm not going to worry about the start
+time let's see articles loaded We'll add a
+0:14:05.160,0:14:09.780
+little bit of debug output oh I need to set
+an alarm because I have a meeting here soon
+0:14:10.380,0:14:19.800
+I've got an alarm set all right there we go fix
+it in post all right don't care about times print
+0:14:19.800,0:14:30.240
+files overall start time whatever for file and
+files no so we'll go say for article in archive
+0:14:32.460,0:14:36.600
+we don't need the chunks we just need the title
+0:14:39.240,0:14:52.980
+so we'll say um let's see info equals uh Json dot
+load loads load s so because that that tells it
+0:14:52.980,0:14:59.640
+to load string so we'll say article um so that
+means info should then contain something like ID
+0:15:00.900,0:15:04.500
+um title and Abstract so let's just start there
+0:15:06.600,0:15:11.760
+um okay so print info dot no not DOT it'll be
+0:15:12.960,0:15:20.400
+title and then info abstract
+and then we'll do exit here
+0:15:25.260,0:15:27.120
+all right let's make sure that works
+0:15:29.160,0:15:37.140
+and also for now I will comment out tensorflow
+hub so now it's loading let's see how much how
+0:15:37.140,0:15:47.160
+much juice we use oh yeah look at that we're
+chewing up memory name archive oop I misspelled it
+0:15:49.500,0:15:56.820
+don't do that kids but yeah we surged up to
+um yeah we use most of my memory so because
+0:15:56.820,0:16:01.920
+I'm running I'm running an index engine and
+loading a three and a half gigabyte file
+0:16:03.000,0:16:09.540
+um and I'm running a um uh a uh well I
+guess this model is going to be in in my GPU
+0:16:10.140,0:16:13.560
+so yeah I'm doing a lot on this
+Workhorse all right let's try this again
+0:16:16.260,0:16:22.860
+very high power usage yeah boy there we go all
+right it's going up going up going up going back
+0:16:22.860,0:16:31.380
+down Okay cool so articles loaded 2.1 million
+calculation of uh prompt diphoton production
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+13:49 - Building a tool to process a 3.5GB file

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,58 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:00:03.360,0:00:09.420
+morning everybody David Shapiro here with another
+video so a couple couple days ago or last week
+0:00:09.420,0:00:17.160
+whenever I did a quick uh cover letter chatbot
+generator um it was pretty popular um but I saw on
+0:00:17.160,0:00:22.740
+um the gpd3 subreddit someone was asking for more
+help with cover letters and resumes so I figured
+0:00:22.740,0:00:29.220
+let's make this into a bigger project so the
+most annoying part about filling out resumes is
+0:00:29.220,0:00:36.240
+entering your information repeatedly so what I was
+I was uh gonna rather than create a chat bot that
+0:00:36.240,0:00:41.040
+asks you the same questions every time I figured
+let's just go ahead and pre-load a bunch of these
+0:00:41.040,0:00:44.400
+questions so like what is your name the company
+you're applying for so there's just a couple of
+0:00:44.400,0:00:49.200
+variables to update each time how many years of
+experience do you have what are your professional
+0:00:49.200,0:00:54.960
+strengths but a lot of this won't change right
+um let's see so then we'll add questions like
+0:00:56.100,0:01:05.820
+um why are you excited about this particular
+job role um that's probably about it
+0:01:06.900,0:01:17.640
+um let's see what about the job stands out to you
+why are you a great fit um okay so that's probably
+0:01:17.640,0:01:23.460
+good enough so what I'm doing here is I'm just
+saving some of these answers in a Json file and
+0:01:23.460,0:01:28.200
+so I'll fill it out for myself David Shapiro you
+all know me what is the job you're applying for
+0:01:29.460,0:01:38.880
+um senior cognitive architect um what is the
+role you're oh wait no that's the derp uh
+0:01:38.880,0:01:46.020
+we'll we'll call it uh um Acme robot Sciences
+um okay a senior cognitive architect how many
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+00:03 - Automating the process of filling out resumes

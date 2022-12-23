@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,130 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:24:33.240,0:24:39.480
+um yeah this is this is good so we're getting
+we're getting very diverse perspectives and
+0:24:39.480,0:24:45.120
+so then the last part of this is going to be
+feeding these stories into the issue of abortion
+0:24:46.860,0:24:51.600
+um and then of course I'll make it so that you can
+just have any particular thing so I've already got
+0:24:51.600,0:24:57.240
+the prompt here where it's like here's the story
+and then you give it a um then you give it a
+0:24:57.240,0:25:03.180
+problem um you know so there'll be several phases
+to this though because there's there's how I feel
+0:25:03.180,0:25:07.680
+there's um there's what I want you know what
+are what are the things that I'm concerned about
+0:25:08.580,0:25:11.280
+um that sort of thing so we'll do a
+little bit of prompt engineering there
+0:25:12.480,0:25:17.340
+um actually this is probably almost
+done now that's very long wow
+0:25:18.660,0:25:25.440
+okay uh let's see so let's come in and grab
+one of these stories some of them are quite
+0:25:25.440,0:25:30.840
+long I bet they ran out of tokens because
+I have it set to a thousand yeah okay so
+0:25:31.500,0:25:38.160
+hmm yeah yeah that's too long all right I'll
+pause and fix something and I'll be right back
+0:25:40.980,0:25:45.780
+okay so here's what I did um I had a function
+that I was playing around with that would
+0:25:46.560,0:25:50.520
+keep going until it got really long responses
+and it would select the longest response it's
+0:25:50.520,0:25:56.100
+not necessarily a good thing for any given
+output there's an optimal length so what
+0:25:56.100,0:26:00.060
+I've done is I turn the temperature up high so
+that you get more creativity more variability
+0:26:00.060,0:26:05.640
+but that means sometimes it stops real quick
+and sometimes it just keeps rambling so what
+0:26:05.640,0:26:11.760
+I did is I just did a real quick while true
+Loop and so it'll generate stories and if the
+0:26:11.760,0:26:16.680
+length of the story is greater than a thousand
+characters and less than two thousand that's
+0:26:16.680,0:26:24.660
+kind of The Sweet Spot so then let's see it
+might be taking a minute I wonder if it's a
+0:26:27.480,0:26:37.800
+oh whoops oh wait no it's it should be
+generating them so uh looks like no there we go
+0:26:41.340,0:26:41.840
+yeah
+0:26:43.860,0:26:44.760
+that should be good
+0:26:47.100,0:26:57.240
+is it filling up stories there we go so it took a
+minute um but again this is this is what happens
+0:26:57.240,0:27:01.380
+when you have high temperature so I'll go
+ahead and pause it and uh we'll be right back
+0:27:03.840,0:27:11.400
+okay so now we've got 10 stories that are pretty
+good um let's see small town in North Africa so
+0:27:11.400,0:27:19.440
+there seems to be a strong preference for for
+North Africa um I can do a little bit of work on
+0:27:19.440,0:27:25.980
+um on balancing the mix there's also a strong
+preference in this batch for Trends so let me
+0:27:25.980,0:27:31.380
+just show you real quick how I how I generated
+those it's not that I am trying to bias the system
+0:27:32.700,0:27:39.540
+um but let's see we open so there's three sexual
+orientations so heterosexual homosexual bisexual
+0:27:39.540,0:27:45.960
+figure that's good enough to cover the whole
+Spectrum um at least throwing a big blanket
+0:27:45.960,0:27:50.760
+over it and then for um gender expression
+there's CIS male female trans male female
+0:27:50.760,0:27:55.020
+gender queer male female and non-binary male
+female that might be too much I don't know
+0:27:55.980,0:28:05.700
+um but again the the goal is to is to make sure
+that every every major group gets representation
+0:28:06.660,0:28:11.580
+um and that's the point is is it's super easy
+you just if you want to do experiments you come
+0:28:11.580,0:28:17.700
+in and update these trait profiles and then rerun
+the generate personas because that's what it does
+0:28:17.700,0:28:25.380
+it takes education occupation religion that
+sort of thing um homeschooling so whatever
+0:28:25.380,0:28:32.340
+whatever skill level that and so on and so forth
+okay so point is we've got a bunch of stories
+0:28:34.260,0:28:37.200
+um and genetic population um did I forget India
+0:28:38.580,0:28:44.700
+I totally forgot India that is a
+huge genetic population um Indian
+0:28:47.340,0:28:52.620
+so again I'm not perfect this is just like
+figuring it out as I go all right so but
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+24:33 - The impact of superintelligence on the job market

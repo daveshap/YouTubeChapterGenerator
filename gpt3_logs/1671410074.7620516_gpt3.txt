@@ -135,6 +135,67 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:30:03.060,0:30:06.540
+run the thing so all right so let's say
+0:30:09.540,0:30:22.080
+excellent we are now ready to run our uh prompts
+are you familiar with open AI python module
+0:30:29.280,0:30:34.380
+open AI is dot dot dot I'm wondering
+if it's slowing down because
+0:30:34.920,0:30:40.800
+um uh people are waking up this is one advantage
+of being a super early bird is I get up earlier
+0:30:40.800,0:30:44.940
+than like everyone else granted you know it's
+always middle of the day somewhere in the world
+0:30:46.500,0:30:57.540
+um anyways uh so this may or may not help us with
+um with this part so now let's see open file save
+0:30:57.540,0:31:09.240
+file open AI key text DaVinci 03 tempt that that
+we can do this up to 1450 that's fine in code
+0:31:11.340,0:31:19.680
+all right so this I just cannibalized another um
+thing um we do not want to clean that up because
+0:31:19.680,0:31:26.700
+this is going to be there that's fine all right
+network error yeah I figured that would happen
+0:31:27.600,0:31:36.180
+um okay so let's do a refresh um I have
+a folder called what is the name of my
+0:31:36.180,0:31:44.700
+folder God I have like chipmunk chip monk memory
+it's hard chipmunk memory um called chunks.text
+0:31:47.640,0:31:53.880
+called chunks underscore text um
+that is full of dot text files
+0:31:54.840,0:32:04.620
+um each file um please write a python
+script that uses open AI module and
+0:32:05.520,0:32:19.020
+new module and calls um and uses text DaVinci
+O3 as the engine we'll say as the model um
+0:32:21.420,0:32:33.660
+and uses the contents of the file
+in the chunks folder to populate
+0:32:34.920,0:32:47.820
+a prompt The Prompt is stored as um let's
+see prompt underscore Json LD uh citation
+0:32:47.820,0:32:56.760
+nodes dot text and has a placeholder called
+um what did I call the placeholder chunk
+0:32:59.580,0:33:03.120
+called chunk um in other words
+0:33:05.940,0:33:14.520
+open the text file or no um let's
+see open the prompt file then replace
+0:33:17.880,0:33:27.840
+chunk with the contents of the file from
+chunks.text and use this as the prompt for
 
 CHAPTER TITLE:
+
+==========
+
+30:03 - Writing a Python Script with Open AI Module

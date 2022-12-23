@@ -135,6 +135,65 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:39:40.620,0:39:45.960
+a very particular way of doing things and I do it
+every time I usually write my own open file and
+0:39:45.960,0:39:51.180
+um and write and save file function which always
+does it in utf-8 which is why I have to keep
+0:39:51.180,0:39:56.400
+manually adding this stuff because you you pick a
+default and you stick with it so rather than ASCII
+0:39:56.400,0:40:01.680
+or ANSI or whatever I just say everything
+is utf-8 anyways this should work um CLS
+0:40:04.800,0:40:09.960
+and if this works I'll pause it we'll take a look
+at the results and call it a day because then the
+0:40:09.960,0:40:13.680
+last step is going to be getting it all together
+and visualizing it that is going to be fun
+0:40:15.180,0:40:17.100
+come on you can do it
+0:40:19.260,0:40:21.900
+um key error text
+0:40:25.800,0:40:31.680
+response dot text okay so it didn't like that
+0:40:35.520,0:40:38.880
+um all right well let me look
+at one of my other functions
+0:40:41.340,0:40:49.560
+um let's see let's do YouTube generate
+chapters so I do response choices text ah
+0:40:50.640,0:40:58.020
+response so it didn't understand that part
+but that's fine um okay so instead we'll do
+0:41:00.960,0:41:06.600
+text equals and we'll do that
+strip so then we'll just do text
+0:41:07.560,0:41:11.580
+and then right text so that should work
+0:41:15.360,0:41:22.920
+and away we go so 95 of this was done
+with chat GPT if it works there was a
+0:41:22.920,0:41:29.580
+couple things that I had to fix manually um
+but you know it did its best um and what I
+0:41:29.580,0:41:32.520
+was really impressed by one of the things
+I was really impressed by oh there we go
+0:41:34.020,0:41:40.800
+um no such file it didn't like the backslash
+backslash but we got we got some good Json here
+0:41:42.180,0:41:47.940
+um okay so then we got to open kg
+Json replace dot text with blah okay
+0:41:50.340,0:41:57.180
+so let me tell it this say okay okay
+that mostly worked uh but I got an error
 
 CHAPTER TITLE:
+
+==========
+
+39:40 - Writing a File Function in UTF-8

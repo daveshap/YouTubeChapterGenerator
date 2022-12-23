@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,58 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:01:46.020,0:01:51.240
+years of experience do you have uh total I got
+like you know we'll say 16 years of experience
+0:01:52.320,0:01:57.480
+um let's see what are your greatest
+professional strengths um I think extremely fast
+0:01:59.040,0:02:06.120
+um what are your professional growth desires
+I want to create a new field of research
+0:02:06.840,0:02:16.380
+artificial cognition what kind of environment
+do you prefer um very relaxed uh Pace but
+0:02:17.400,0:02:23.040
+technically challenging what does
+your ideal work day look like
+0:02:23.940,0:02:32.820
+um flexible hours I tend to work
+very early um in the morning
+0:02:35.100,0:02:40.680
+let's see why are you excited about
+this particular job role this is my
+0:02:42.120,0:02:55.380
+absolute top passion I want to uh let's see create
+robots and machines that will um replace all human
+0:02:55.380,0:03:03.780
+labor so we can live a life of luxury basically I
+just want to be on vacation all the time we want
+0:03:03.780,0:03:09.180
+to go to so my fiance and I we want to go like
+all over Europe uh we want to go to like the
+0:03:09.180,0:03:13.740
+Greek Islands so that's that's the future that
+I want let's see what about the job stands out
+0:03:13.740,0:03:22.080
+to you why are you a great fit I am a great fit
+because I have already written a few books about
+0:03:22.920,0:03:29.640
+artificial cognition Okay so we've got some
+we we just got some off the cuff things here
+0:03:30.660,0:03:37.500
+um so let's see so we'll take this we'll start
+here and this is just like boilerplate stuff so
+0:03:37.500,0:03:43.920
+open file save file load info um so myinfo.json
+if you want to use this just update this
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+01:46 - Creating a new field of research

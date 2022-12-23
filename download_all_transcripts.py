@@ -17,13 +17,18 @@ def clean_title(title):
 
 channel_id = 'UCvKRFNawVcuz4b9ihUTApCg'
 videos = scrapetube.get_channel(channel_id)
+print(videos)
 
 
 for video in videos:
-    #print(video['videoId'])
-    transcript = YouTubeTranscriptApi.get_transcript(video['videoId'])
-    text = [i['text'] for i in transcript]
-    block = ' '.join(text)
-    title = clean_title(video['title']['runs'][0]['text'])
-    print(title)
-    save_file('transcripts/%s.txt' % title, block)
+    try:
+        #print(video['title'])
+        #print(video)
+        transcript = YouTubeTranscriptApi.get_transcript(video['videoId'])
+        text = [i['text'] for i in transcript]
+        block = ' '.join(text)
+        title = clean_title(video['title']['runs'][0]['text'])
+        print(title)
+        save_file('transcripts/%s.txt' % title, block)
+    except Exception as oops:
+        print(video['title'], oops)

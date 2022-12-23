@@ -1,0 +1,259 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:00:04.260,0:00:08.580
+hey everybody David Shapiro
+here uh back after a Hiatus
+0:00:09.480,0:00:12.780
+um I've got a lot going on you'll
+be excited for some news coming up
+0:00:13.740,0:00:20.760
+um first I want to address um a big elephant in
+the room I just put most of my videos back online
+0:00:21.720,0:00:25.260
+um this comes after of course making a
+recent video explaining why I took them down
+0:00:26.340,0:00:31.680
+um I did leave some of my videos down some
+of my code down but most of them are back up
+0:00:31.680,0:00:37.680
+uh both videos and repositories So after
+talking with people I figured out like
+0:00:37.680,0:00:43.440
+striking the balance between creating tools
+that will help people rather than replace
+0:00:43.440,0:00:50.220
+people it's inevitable that things are going
+to change but you know a tool is a tool right
+0:00:50.220,0:00:55.680
+and it's anyways I don't need to get lost in
+it go watch the other video so now that I'm
+0:00:55.680,0:01:01.200
+back um it's time to get my get our hands dirty
+again so one of the questions that pops up a lot
+0:01:01.740,0:01:09.720
+is people want to train gpt3 on how do I how do I
+do how do I fine-tune a question answering bot so
+0:01:09.720,0:01:14.760
+that I can talk about I think someone asked about
+like the the case law in Argentina or something
+0:01:15.480,0:01:20.700
+um I don't have that data but the short answer
+is you don't fine tuning doesn't work that way
+0:01:21.600,0:01:27.180
+um so fine-tuning is about teaching it
+a structure you do not teach it with uh
+0:01:27.180,0:01:32.820
+you don't teach it new knowledge with fine
+tuning what you do is you teach it patterns
+0:01:32.820,0:01:39.840
+so chat GPT is a pattern so the pattern is I
+ask a question and it writes a response like
+0:01:39.840,0:01:45.180
+that you and then you ask a follow-up question
+and it writes another wall of text that's the
+0:01:45.180,0:01:51.060
+pattern Chad gbt was not taught anything new
+it's only taught new stuff when you retrain
+0:01:51.060,0:01:57.600
+the underlying model you can't do that it's way
+too expensive to retrain the underlying model so
+0:01:59.640,0:02:06.180
+I figured let's pick something that will be a good
+Exemplar of this so just to do a quick recap the
+0:02:06.180,0:02:14.820
+the Genesis of this whole this whole project was
+that people ask for um how do you fine-tune um a
+0:02:14.820,0:02:20.940
+question answering thing that will you know do
+case law or any kind of knowledge base right
+0:02:21.720,0:02:27.000
+um it's all the same behind under the hood right
+you have a collection of documents wherever they
+0:02:27.000,0:02:33.540
+happen to be how do I do QA against that with
+gpt3 so here we go I already have one one that was
+0:02:33.540,0:02:37.560
+um answering complex questions from multiple
+documents but this is a little bit different
+0:02:38.580,0:02:43.320
+um because there's there's going to be a few steps
+to this so anyways to show you what I mean I went
+0:02:43.320,0:02:49.920
+over to chatgpt and um I said what is the kind of
+law system where law is established by precedent
+0:02:49.920,0:02:55.500
+and it says this is the common law system and
+they this is opposed to civil law so common law
+0:02:55.500,0:03:01.020
+means that a Supreme Court decision kind of sets
+the law of the land so if you want to understand
+0:03:01.020,0:03:09.180
+the American legal system you really need to
+understand case law and more often than not it
+0:03:09.180,0:03:13.800
+comes down to Supreme Court decisions because that
+is the highest court in the land so they set the
+0:03:13.800,0:03:21.780
+tone for everything so Supreme Court decisions
+really teach you how it works so um I went over
+0:03:21.780,0:03:28.980
+to a Library of Congress and I found that uh
+you can download uh all Supreme Court opinions
+0:03:28.980,0:03:36.360
+and they're grouped by uh by by case topic they're
+also grouped by um volume or justice but by topic
+0:03:36.360,0:03:40.560
+that's going to be more relevant right because
+let's imagine that you're an Anti-Trust lawyer
+0:03:40.560,0:03:45.900
+and you're an Anti-Trust lawyer and you want
+to say give me everything about antitrust law
+0:03:45.900,0:03:54.240
+I need to know everything that there is about you
+know um about this so that I understand the legal
+0:03:54.240,0:04:00.120
+precedent right because on the one hand there's
+established procedures right there's procedural
+0:04:00.120,0:04:05.040
+things um oh and I know all this because my
+fiance's cousin is training to be a lawyer and
+0:04:05.040,0:04:08.400
+um when they come visit uh this is
+what we talk about because we're nerds
+
+Descriptive title with timestamp:
+
+==========
+
+00:04 - Fine-tuning a question answering bot

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,103 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:00:03.360,0:00:09.420
+morning everybody David Shapiro here with another
+video so a couple couple days ago or last week
+0:00:09.420,0:00:17.160
+whenever I did a quick uh cover letter chatbot
+generator um it was pretty popular um but I saw on
+0:00:17.160,0:00:22.740
+um the gpd3 subreddit someone was asking for more
+help with cover letters and resumes so I figured
+0:00:22.740,0:00:29.220
+let's make this into a bigger project so the
+most annoying part about filling out resumes is
+0:00:29.220,0:00:36.240
+entering your information repeatedly so what I was
+I was uh gonna rather than create a chat bot that
+0:00:36.240,0:00:41.040
+asks you the same questions every time I figured
+let's just go ahead and pre-load a bunch of these
+0:00:41.040,0:00:44.400
+questions so like what is your name the company
+you're applying for so there's just a couple of
+0:00:44.400,0:00:49.200
+variables to update each time how many years of
+experience do you have what are your professional
+0:00:49.200,0:00:54.960
+strengths but a lot of this won't change right
+um let's see so then we'll add questions like
+0:00:56.100,0:01:05.820
+um why are you excited about this particular
+job role um that's probably about it
+0:01:06.900,0:01:17.640
+um let's see what about the job stands out to you
+why are you a great fit um okay so that's probably
+0:01:17.640,0:01:23.460
+good enough so what I'm doing here is I'm just
+saving some of these answers in a Json file and
+0:01:23.460,0:01:28.200
+so I'll fill it out for myself David Shapiro you
+all know me what is the job you're applying for
+0:01:29.460,0:01:38.880
+um senior cognitive architect um what is the
+role you're oh wait no that's the derp uh
+0:01:38.880,0:01:46.020
+we'll we'll call it uh um Acme robot Sciences
+um okay a senior cognitive architect how many
+0:01:46.020,0:01:51.240
+years of experience do you have uh total I got
+like you know we'll say 16 years of experience
+0:01:52.320,0:01:57.480
+um let's see what are your greatest
+professional strengths um I think extremely fast
+0:01:59.040,0:02:06.120
+um what are your professional growth desires
+I want to create a new field of research
+0:02:06.840,0:02:16.380
+artificial cognition what kind of environment
+do you prefer um very relaxed uh Pace but
+0:02:17.400,0:02:23.040
+technically challenging what does
+your ideal work day look like
+0:02:23.940,0:02:32.820
+um flexible hours I tend to work
+very early um in the morning
+0:02:35.100,0:02:40.680
+let's see why are you excited about
+this particular job role this is my
+0:02:42.120,0:02:55.380
+absolute top passion I want to uh let's see create
+robots and machines that will um replace all human
+0:02:55.380,0:03:03.780
+labor so we can live a life of luxury basically I
+just want to be on vacation all the time we want
+0:03:03.780,0:03:09.180
+to go to so my fiance and I we want to go like
+all over Europe uh we want to go to like the
+0:03:09.180,0:03:13.740
+Greek Islands so that's that's the future that
+I want let's see what about the job stands out
+0:03:13.740,0:03:22.080
+to you why are you a great fit I am a great fit
+because I have already written a few books about
+0:03:22.920,0:03:29.640
+artificial cognition Okay so we've got some
+we we just got some off the cuff things here
+0:03:30.660,0:03:37.500
+um so let's see so we'll take this we'll start
+here and this is just like boilerplate stuff so
+0:03:37.500,0:03:43.920
+open file save file load info um so myinfo.json
+if you want to use this just update this
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+00:03 - Automating the process of filling out resumes

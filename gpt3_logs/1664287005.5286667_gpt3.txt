@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,72 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:47:21.360,0:47:25.440
+the embedding will be to what you're looking
+for and you see how these scores go way up
+0:47:26.640,0:47:32.700
+um and so it's the the whole idea is if you find
+one abstract that you like or if you can think of
+0:47:32.700,0:47:37.080
+kind of the title of what you're looking for you
+just kind of keep typing and you give it as much
+0:47:37.080,0:47:42.120
+as you can and it will generate a more accurate
+embedding and so then I've got it where it just
+0:47:42.120,0:47:47.880
+you know here's the title here's the score and
+then here's a link directly to the archive so
+0:47:47.880,0:47:52.260
+it'll just take you straight to it I suppose
+I could have had a little bit more metadata in
+0:47:52.260,0:47:57.600
+here like the date and authors and stuff but I
+didn't include that like because I was like why
+0:47:57.600,0:48:02.940
+duplicate effort like I just got the bare minimum
+that was required which is the title abstract and
+0:48:02.940,0:48:06.780
+ID which allows you to come straight here and
+then you can say okay this is when that was
+0:48:08.100,0:48:17.580
+um but yeah so then like I did uh what was it like
+uh Large Hadron Collider is that one where LR2
+0:48:18.840,0:48:23.160
+um Higgs vacuum Decay from particle
+collisions and so it's just like okay
+0:48:23.160,0:48:31.140
+cool everything related to colliders and etc
+etc um bigger better faster more at the LHC
+0:48:32.040,0:48:40.200
+um and you see the the semantic similarity score
+of 0.54 um and yeah so I think probably the next
+0:48:40.200,0:48:45.480
+thing that I'll do is I might add a tab or
+another function where it's like okay you
+0:48:45.480,0:48:51.540
+know if you have the results that you want like
+generate a literature review but you see how
+0:48:51.540,0:48:56.340
+fast this is and and the quality of the results
+and this is using a very low dimensional Vector
+0:48:57.300,0:49:03.300
+um relatively speaking because 512 is pretty small
+you can go up to 12 000 with DaVinci that would
+0:49:03.300,0:49:10.500
+be really expensive to embed 2.1 million things
+with da Vinci but anyway so let's just grab this
+0:49:11.880,0:49:15.180
+um and so we'll do here actually let's
+0:49:16.500,0:49:25.140
+copy the both the title and the embedding
+and then we'll just put this in our search
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+47:21 - Generating a literature review with a machine

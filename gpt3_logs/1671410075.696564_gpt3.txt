@@ -135,6 +135,62 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:36:51.840,0:37:05.700
+um give me some pseudocode so I can check to make
+sure we understand each other if this works yeah
+0:37:15.420,0:37:17.460
+well it understands the concept of pseudocode
+0:37:19.560,0:37:23.280
+and then it's going to go ahead and write the
+script Okay cool so let's see if it fixes it
+0:37:24.420,0:37:30.000
+um asking for the pseudocode may or may not
+be viable especially because this code is
+0:37:30.000,0:37:36.000
+so simple it might have been easier just to
+ask for it to um to just go ahead and do it
+0:37:37.080,0:37:49.680
+um but yeah so we're also going to need to do
+um in coding equals utf-8 always need to do that
+0:37:55.260,0:37:56.580
+here I'll just copy this
+0:38:01.320,0:38:02.700
+and then we'll need the same
+0:38:08.460,0:38:10.320
+yep okay
+0:38:14.520,0:38:15.020
+cool
+0:38:22.020,0:38:25.080
+so instead of printing it we save it
+0:38:26.580,0:38:33.360
+so with open as blah blah right so
+let's go ahead and add grab this comma
+0:38:37.200,0:38:44.820
+um I think we're ready so then one last
+thing though is um what I like to do is
+0:38:44.820,0:38:51.000
+we'll keep we'll keep the print um just that
+way we know what's going on and uh we'll add
+0:38:51.000,0:38:58.020
+new line new line new line and then respond to
+that text um here actually We'll add a little
+0:39:02.520,0:39:11.040
+little dmarc okay let's see if
+this works CLS uh python step O3
+0:39:12.960,0:39:26.940
+open file is not defined ah right because I
+used um my own function for that um so let me um
+0:39:30.180,0:39:33.300
+darn it here let me pause this for a
+second I'll just copy this function
+0:39:33.300,0:39:34.620
+from somewhere else you don't need to see that
+0:39:35.280,0:39:40.620
+okay so what I had to do is I had to add this
+function so what I usually do is because I have
 
 CHAPTER TITLE:
+
+==========
+
+36:51 - Debugging a Script with Pseudocode

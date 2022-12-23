@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,57 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:27:31.680,0:27:38.040
+um okay so we'll come down here and instead
+of saving to that's the wrong script instead
+0:27:38.040,0:27:44.760
+of saving to follow topic we will do um
+file name equals uh let's see we'll say
+0:27:45.840,0:27:56.580
+um insights and then we'll do um we'll do file
+name uh actually no we'll do yeah we'll do topic
+0:27:58.560,0:28:08.580
+and then we'll do the file name um and then that
+should be good and so then we'll do um the topic
+0:28:10.860,0:28:14.220
+and then we'll do the original
+file that we're working on
+0:28:14.880,0:28:23.880
+but the for the topic we'll do dot replace um a
+space with an underscore just for nice consistency
+0:28:26.280,0:28:30.300
+and that should be good and
+then we'll do save file and
+0:28:30.300,0:28:33.780
+we'll do file name and then the output dot strip
+0:28:36.300,0:28:41.940
+because there's going to be extra new lines
+wrapped around it oh wait no this is just
+0:28:41.940,0:28:47.520
+the notes I still need to run this final
+prompt ha I know what I'm doing I promise
+0:28:47.520,0:28:54.300
+okay prompt and then the prompt name was flowing
+coherent narrative blowing coherent narrative
+0:28:55.020,0:29:03.660
+and we're going to replace notes with output
+and I probably could change that um no whatever
+0:29:07.140,0:29:13.620
+and actually here we'll do output
+equals output dot rep no dot strip
+0:29:15.240,0:29:22.620
+I don't know that's fine we'll just do
+it here save a line of code Okay so um
+0:29:24.660,0:29:31.740
+final equals gpt3 completion um oh
+we actually don't want to remove
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+27:31 - Automating the writing of a novel

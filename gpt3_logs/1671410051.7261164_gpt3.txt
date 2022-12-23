@@ -135,6 +135,123 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:39:40.620,0:39:45.960
+a very particular way of doing things and I do it
+every time I usually write my own open file and
+0:39:45.960,0:39:51.180
+um and write and save file function which always
+does it in utf-8 which is why I have to keep
+0:39:51.180,0:39:56.400
+manually adding this stuff because you you pick a
+default and you stick with it so rather than ASCII
+0:39:56.400,0:40:01.680
+or ANSI or whatever I just say everything
+is utf-8 anyways this should work um CLS
+0:40:04.800,0:40:09.960
+and if this works I'll pause it we'll take a look
+at the results and call it a day because then the
+0:40:09.960,0:40:13.680
+last step is going to be getting it all together
+and visualizing it that is going to be fun
+0:40:15.180,0:40:17.100
+come on you can do it
+0:40:19.260,0:40:21.900
+um key error text
+0:40:25.800,0:40:31.680
+response dot text okay so it didn't like that
+0:40:35.520,0:40:38.880
+um all right well let me look
+at one of my other functions
+0:40:41.340,0:40:49.560
+um let's see let's do YouTube generate
+chapters so I do response choices text ah
+0:40:50.640,0:40:58.020
+response so it didn't understand that part
+but that's fine um okay so instead we'll do
+0:41:00.960,0:41:06.600
+text equals and we'll do that
+strip so then we'll just do text
+0:41:07.560,0:41:11.580
+and then right text so that should work
+0:41:15.360,0:41:22.920
+and away we go so 95 of this was done
+with chat GPT if it works there was a
+0:41:22.920,0:41:29.580
+couple things that I had to fix manually um
+but you know it did its best um and what I
+0:41:29.580,0:41:32.520
+was really impressed by one of the things
+I was really impressed by oh there we go
+0:41:34.020,0:41:40.800
+um no such file it didn't like the backslash
+backslash but we got we got some good Json here
+0:41:42.180,0:41:47.940
+um okay so then we got to open kg
+Json replace dot text with blah okay
+0:41:50.340,0:41:57.180
+so let me tell it this say okay okay
+that mostly worked uh but I got an error
+0:41:57.900,0:42:06.960
+um it may be important to note um
+running on Windows here's the error
+0:42:11.280,0:42:15.780
+okay so it's going to be fixing this
+so anyways there's just a couple things
+0:42:18.060,0:42:20.460
+um that it didn't like okay it didn't
+0:42:23.580,0:42:28.080
+wait is it that simple that it just it what
+didn't exist oh it didn't create it okay
+0:42:29.040,0:42:32.760
+because the previous script it it
+checked and then made sure it existed
+0:42:33.420,0:42:38.520
+um okay so anyways um yeah so there's only a
+couple things that I had to go outside of this
+0:42:38.520,0:42:44.040
+or or background knowledge that I had but for
+instance when I asked it to use Spacey or nltk
+0:42:45.960,0:42:52.440
+um it tried it didn't work but then it suggested
+use regex instead which is you know I would have
+0:42:52.440,0:42:59.220
+done that as someone who's been cleaning up
+uh bulk data for a long time um okay so then
+0:43:02.760,0:43:07.140
+it should add the little thing you
+know it check if the yep there we
+0:43:07.140,0:43:11.040
+go this function this bit right here I'm
+pointing at the screen you can't see it
+0:43:12.180,0:43:14.160
+um if it doesn't exist then make it okay cool
+0:43:17.100,0:43:23.040
+so basically all we need is this really you only
+need to check once you don't need to check every
+0:43:23.040,0:43:33.540
+single time but whatever that's fine so then we'll
+come down here check if it exists all right CLS
+0:43:33.540,0:43:40.260
+clear screen with any luck this worked but yeah
+so most I mean the vast majority of the code it
+0:43:40.260,0:43:46.140
+did I just told it what to do now imagine you slap
+a voice interface so then you don't even have to
+0:43:46.860,0:43:53.400
+um type it out right uh use whisper use open ai's
+whisper hey are you listening open AI I want this
+0:43:53.400,0:43:58.380
+I want to be able to talk through the code um
+okay so now we're saving this stuff it should
+0:43:58.380,0:44:04.680
+be here hey look at that okay so this will take
+a little while to run but we've got good Json
+0:44:04.680,0:44:09.300
+it worked so I'm going to go ahead and stop the
+video for today I'm gonna let this finish running
 
 CHAPTER TITLE:
+
+==========
+
+39:40 - Automating Code with Voice Interface

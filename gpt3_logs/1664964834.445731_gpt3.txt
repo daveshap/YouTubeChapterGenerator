@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,56 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:11:32.160,0:11:35.220
+um and let's change this to
+dialogue so that it's up front
+0:11:36.480,0:11:44.040
+dialogue dialogue and then we also need to save
+this as save log it's dot Json not DOT text
+0:11:47.280,0:11:48.840
+so delete these and start over
+0:11:53.580,0:11:57.000
+I know what I'm doing I promise
+rapid iteration this is just agile
+0:12:03.240,0:12:06.660
+and also I'm not going to worry about doing
+a whole lot of editing because I know you
+0:12:06.660,0:12:11.880
+all watched this on 1.5 x or 2x anyways so
+actually maybe the slow pace of the real-time
+0:12:11.880,0:12:15.180
+recording is good so then you have some time to
+think I don't know let me know in the comments
+0:12:16.260,0:12:23.460
+um because editing takes a long time I'm happy
+to do a little bit of cleanup but okay um write
+0:12:23.460,0:12:34.020
+some marketing copy um I want to build a resort
+on a Hoth um but I need to pitch to investors
+0:12:36.060,0:12:36.840
+let's see what he says
+0:12:39.660,0:12:47.700
+and then we'll see those pop up in just a
+second okay so open it there we go dialogue
+0:12:47.700,0:12:54.600
+right it's a marketing copy um I want to build
+a resort on Hoth great and then Marcus hatha's
+0:12:54.600,0:13:02.640
+beautiful blah blah blah Okay cool so here's what
+I want to do as we build up a um as we build up a
+0:13:02.640,0:13:07.920
+chat log a rapport with Marcus I want him to
+be able to remember stuff um and the simplest
+0:13:07.920,0:13:13.200
+the absolute simplest way to have a chat bot with
+long-term memory sorry my ear just started ringing
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+11:32 - Building a resort on Hoth

@@ -135,6 +135,64 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:27:31.620,0:27:37.500
+um characters long so this should be small
+enough to run let's see how many tokens it is
+0:27:43.380,0:27:47.400
+um okay so that's now we're down to
+2800 tokens let me remove the Json part
+0:27:48.420,0:27:53.820
+so now we're at 2500 tokens
+tops so we can do we can do
+0:27:54.420,0:28:00.960
+um we can do like 1450 so that's more than
+twice as many tokens so let's see it's it's
+0:28:00.960,0:28:08.040
+more than twice as many tokens with uh 25 less
+input so theoretically this should be the limit
+0:28:10.860,0:28:16.020
+um cool all right excellent I think this is good
+0:28:18.360,0:28:24.480
+all right so we're almost done for the
+day um let's see what chat GPT said
+0:28:25.200,0:28:30.780
+do you duplicate characters yeah there we
+go okay so let's do this for the D dupe
+0:28:33.180,0:28:41.580
+um so let's come back here save it and
+then we'll do python step O2 dedupe
+0:28:42.600,0:28:44.640
+all right we needed to add the um
+0:28:45.960,0:28:57.720
+Whatchamacallit encoding encoding equals UTF eight
+and then for the right and coding equals UTF eight
+0:29:00.120,0:29:05.700
+okay so now if we go to the dedupt oh
+actually here we need to delete this
+0:29:09.300,0:29:12.420
+it did all of them interesting um
+0:29:18.900,0:29:22.080
+oh it that's no if if not in file
+0:29:25.260,0:29:27.180
+it got the logic wrong I'm like no it was
+0:29:27.180,0:29:29.820
+only supposed to do like five
+of these let's try that again
+0:29:32.760,0:29:36.780
+there we go okay so now the largest
+of these is eight kilobytes which is
+0:29:36.780,0:29:43.500
+plenty small so we come back to chunks and
+we'll replace those replace yes so now our
+0:29:43.500,0:29:50.220
+absolute largest file is 10 kilobytes 9 300
+characters so this should all easily fit within
+0:29:51.360,0:30:00.840
+um no this should all easily fit within our prompt
+window here so now we need to just go ahead and um
 
 CHAPTER TITLE:
+
+==========
+
+27:31 - Optimizing File Sizes with Python

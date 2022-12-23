@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,56 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:17:04.020,0:17:07.980
+um let's see so then the
+number of results will return
+0:17:09.120,0:17:12.720
+um let's say let's return um the top 10 results
+0:17:14.820,0:17:15.320
+um
+0:17:18.780,0:17:25.860
+and then we'll just return ordered but if that
+doesn't work then we'll just return ordered as is
+0:17:26.760,0:17:32.700
+um so I do this because sometimes like if you only
+have two logs and you try and hack it up like zero
+0:17:32.700,0:17:39.240
+to ten um it'll fail it'll say that's index out of
+range so then you just yeah okay so that should be
+0:17:39.240,0:17:50.100
+good um so then what we're going to do is we're
+going to have um so similar logs uh let's see so
+0:17:50.100,0:17:58.020
+we'll start similar as similar just equals blank
+list and so then when we create our block of text
+0:17:59.160,0:18:09.420
+we're going to inject this at the beginning so
+we're going to say um block equals uh and we'll
+0:18:09.420,0:18:17.460
+just copy this new line new line similar
+plus new line and so then we'll say block
+0:18:19.380,0:18:28.860
+plus equals this and I think we take that out I
+think that's right okay so now what what we've
+0:18:28.860,0:18:37.020
+done here is we're going to inject the 10
+most relevant um uh things right into into
+0:18:37.020,0:18:43.920
+the dialogue into the chat so that way Marcus will
+intrinsically have a memory of whatever it is that
+0:18:43.920,0:18:48.420
+we're talking about all right I think that'll
+work and what we'll need to do is we'll need to
+0:18:48.420,0:18:56.460
+watch the gpt3 logs here because you'll see older
+stuff kind of pre-populated up here that's where
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+17:04 - Injecting similar logs into a chat

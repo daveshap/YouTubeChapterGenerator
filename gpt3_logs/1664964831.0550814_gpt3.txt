@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,56 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:03:42.420,0:03:48.120
+let's see if let's see if we can just say
+like tell us there we go uh the only web tool
+0:03:48.120,0:03:54.240
+Builder you need it's fast easy okay all right
+so this prompt is good enough so we'll start here
+0:03:55.260,0:04:03.420
+um what I what I did was in this prompt I started
+by just saying hey um let's give an example of
+0:04:03.420,0:04:08.220
+what of how we want it to behave so we'll add the
+new line new line because it seems to prefer that
+0:04:09.300,0:04:15.720
+um okay so we'll save the prompt let me zoom
+in a little bit on this okay and then actually
+0:04:15.720,0:04:20.400
+I'll probably pause the video because there's
+a little bit of copy pasting I need to do so
+0:04:23.760,0:04:26.940
+okay so all I did was a little
+bit of background let me show you
+0:04:27.720,0:04:33.120
+um this was based on a previous chat bot
+but you see like it's a super simple Loop
+0:04:33.960,0:04:37.380
+um with a really simple prompt I just
+copied the prompt so you got the prompt
+0:04:37.380,0:04:45.300
+and then you've got the main Loop um so yeah
+can you write some marketing copy for me
+0:04:47.520,0:04:51.060
+I didn't reply that's usually a problem
+0:04:54.060,0:05:01.500
+oh I bet I know what happened um if we look at
+0:05:03.780,0:05:10.680
+gpt3 logs it probably yeah
+it got it stopped on Marcus
+0:05:12.900,0:05:21.240
+okay because I've got I need
+to remove Marcus from the stop
+0:05:22.920,0:05:26.760
+and use just user as the stop
+I think we'll see if that works
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+03:42 - A simple chatbot loop

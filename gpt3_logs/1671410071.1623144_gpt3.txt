@@ -135,6 +135,64 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:12:50.700,0:12:57.360
+no I wonder if it was like if the scanner bed
+was like moving too slowly or something foreign
+0:13:01.380,0:13:06.480
+I'm sorry okay I'm gonna pause this
+because I'm gonna keep laughing
+0:13:11.400,0:13:15.300
+okay I had to stop and make myself tea
+I'm still probably gonna be looking a
+0:13:15.300,0:13:24.240
+bit I'm sorry okay now normally oh sorry oh
+I don't know why this is so funny normally
+0:13:25.440,0:13:30.720
+um this would uh what I would do is just
+delete data but in this case I don't want to
+0:13:30.720,0:13:36.420
+lose anything and imagine like what if half of
+our files were like this so let's come up with
+0:13:36.420,0:13:43.740
+a solution so I'm going to with so this this this
+this function works so I'm going to say okay cool
+0:13:44.340,0:13:54.480
+let's make a new script so let's go back over to
+Chad GPT great that all worked um but it turns
+0:13:54.480,0:14:06.600
+out the OCR barfed on a few files so the um so
+there are lots of duplicated characters such as
+0:14:09.360,0:14:22.320
+um please write a new script using Spacey or
+nltk to um de-duplicate uh extra characters
+0:14:23.880,0:14:34.380
+um search through all the files in um see
+what was the folder name chunks.text in
+0:14:35.880,0:14:48.360
+chunks underscore text um deduplicate deduplicate
+characters um and then save the cleaned up copy
+0:14:49.860,0:14:55.080
+um in a new folder called um dedupt text
+0:15:05.640,0:15:06.420
+all right
+0:15:40.560,0:15:41.400
+will that work
+0:15:46.440,0:15:50.160
+I don't know if that'll work is Spacey that good
+0:15:54.060,0:15:55.320
+or T and Doc
+0:15:59.160,0:16:04.260
+um okay I think I'll need to add the
+encoding but let's give it a shot
+0:16:06.720,0:16:10.500
+and let me make sure I've
+got Pippin pip install Spacey
+0:16:12.480,0:16:19.920
+okay so while that's running I will do
+save and we'll come back here and we'll do
 
 CHAPTER TITLE:
+
+==========
+
+12:50 - Cleaning up Duplicated Characters with Spacey

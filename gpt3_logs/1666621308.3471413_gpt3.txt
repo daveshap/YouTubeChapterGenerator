@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,128 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:36:11.100,0:36:15.420
+so you need loss of changing the
+laws but then you are going to need
+0:36:16.140,0:36:21.480
+laws of changing the laws of changing the laws
+because if you don't have lots of change with
+0:36:21.480,0:36:25.080
+a lot of strange the laws then you cannot
+change the law of changing the law and so on
+0:36:26.520,0:36:29.340
+so we are going to need infinitely
+many loss just to begin with
+0:36:30.600,0:36:37.440
+what are we gonna do well you need the laws of
+changing the laws to refer also to themselves
+0:36:39.960,0:36:48.600
+for example imagine Constitution
+that says if a proposed law
+0:36:49.740,0:36:56.940
+contradicts the Constitution then it needs
+60 majority otherwise it needs 50 majority
+0:37:01.080,0:37:06.600
+those three examples are all about the same thing
+languages can speak about truth and contradiction
+0:37:06.600,0:37:16.500
+of its own sentences and thus this was our
+biggest theoretical effort and we achieved
+0:37:16.500,0:37:22.440
+that and then we have to move on to the second
+theoretical effort which is after we achieve that
+0:37:23.100,0:37:28.800
+this is software it is a language has to be
+able to be a software specification language
+0:37:28.800,0:37:33.060
+because we are all about software control by
+its users production controlled by its users
+0:37:35.880,0:37:40.860
+it's not for specification language as are
+characterized by having a temporal dimension
+0:37:41.640,0:37:43.560
+first do this then do that
+0:37:46.800,0:37:49.860
+so we took us another quiet way
+0:37:50.640,0:37:55.380
+to turn this language into a software
+specification language but we achieve that as well
+0:37:58.080,0:38:03.540
+and that what what is that that is something
+you have actually achieved and is ready or
+0:38:03.540,0:38:12.180
+nearly ready correct yes yes it is the the
+ready on paper and we are now implementing
+0:38:12.180,0:38:16.560
+it luckily we don't need to implement it
+from scratch because we already implemented
+0:38:17.760,0:38:25.020
+maybe all the Machinery necessary to implement
+this language and hopefully in the next month we
+0:38:25.020,0:38:32.400
+can see fine excellent um yeah tell us a little
+bit more now that we've we've you've done such
+0:38:32.400,0:38:37.080
+a great job of outlining the problems and now
+we're getting to the solutions that you that
+0:38:37.080,0:38:43.020
+you've engineered and and and begun engineering
+and and implementing so let's delve in those
+0:38:43.020,0:38:46.980
+um so some of the some of the solutions and
+I apologize if I miss them but some of the
+0:38:46.980,0:38:53.220
+big solutions that you've come up with is the Tau
+language The Tao meta language and the Agora token
+0:38:53.220,0:38:58.320
+so would you like to walk us through each of those
+Solutions and also any that I missed I apologize
+0:39:00.780,0:39:05.460
+yeah so what I described now is the tower language
+0:39:06.660,0:39:15.540
+it serves several purposes first it is a very
+powerful execution engine for logical tasks
+0:39:16.140,0:39:22.920
+it is um in many senses equivalent to
+relational algebra relational algebra is
+0:39:24.000,0:39:30.840
+the famous SQL that virtually all databases or
+SQL database or relational databases work with
+0:39:32.100,0:39:35.760
+it is not SQL but there is a deep connection
+0:39:37.800,0:39:45.720
+but um it implements relational
+algebra in in a compressed way
+0:39:47.280,0:39:55.560
+and this kind of representation allows you to
+um to be a powerful logical solver by its own
+0:39:57.420,0:40:04.620
+and the Technologies from tml will indeed
+be used across all our logical tools
+0:40:05.640,0:40:12.720
+is also and this gives it its name meta language
+0:40:13.800,0:40:20.160
+is intended to be a compiler compiler a tool to
+write translators from one language to another
+0:40:21.480,0:40:28.560
+so it contains a very powerful parser maybe
+the best passer that exists on the market
+0:40:30.120,0:40:38.640
+and tools that allow you to take the past three
+and manipulate it and by that great translators
+0:40:40.980,0:40:48.540
+so to sum up tmn main three things is a
+certain kind of database of compressed database
+0:40:49.440,0:40:58.320
+that in certain tasks it is orders of magnitudes
+faster than other databases second is a powerful
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+36:11 - The need for infinitely many laws to change

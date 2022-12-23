@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,103 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:06:41.520,0:06:49.380
+um quadrant demo um okay prepared data
+there we go so in this one we did um
+0:06:50.280,0:06:56.760
+yeah we'll use we'll use tensorflow Hub and
+I've actually got a um Anaconda environment
+0:06:57.900,0:07:05.880
+um was it in base Anaconda Navigator so for uh
+I know I'm going so fast actually I'll like it
+0:07:05.880,0:07:10.980
+because y'all y'all all watch my video on 1.5 x
+or 2x anyways so this is probably perfect speed
+0:07:11.580,0:07:15.720
+okay so quick recap if you're not
+familiar with Anaconda it is a python
+0:07:15.720,0:07:21.780
+virtual environment that allows you to have
+uh yeah here we go so I've got tensorflow GPU
+0:07:22.860,0:07:28.980
+um environment ready to go and so what this does
+is it allows you to use GPU acceleration to run
+0:07:30.120,0:07:38.040
+um run your tensorflow uh instance in this case
+I'm going to be using uh using Universal sentence
+0:07:38.040,0:07:46.920
+encoder version 5. in order to um in order to do
+this so all right so we're going to do um this is
+0:07:46.920,0:07:56.460
+going to be generate embeddings dot pi Okay so
+we'll come so the the file is going to be here
+0:07:56.460,0:08:03.480
+so let's just open a new uh Explorer that's not
+it automus blogger that's not it either we need
+0:08:04.200,0:08:10.560
+literature review bot all right so we will we'll
+have a folder and we'll call this um embeddings
+0:08:10.560,0:08:19.920
+I guess and then let me take a quick look at how
+I did the um the quadrant demo because how did I
+0:08:19.920,0:08:27.240
+format the data yeah it's just in a bunch of Json
+files okay yep embedding and string perfect okay
+0:08:27.240,0:08:31.740
+that's probably how I was going to do it anyways
+um so what I'm going to do is I'm going to take
+0:08:31.740,0:08:40.200
+each entry of this guy because each entry is one
+is one Json um it's Json L right so basically what
+0:08:40.200,0:08:45.540
+I'm going to do is I'm going to take the abstract
+and the title I'm going to smush them together
+0:08:45.540,0:08:51.540
+so that they're going to be one long string and
+generate a 512 Dimension embedding like this guy
+0:08:53.280,0:08:58.800
+um so that's what I'll do and we'll see how fast
+it goes all right so let's do some coding we've
+0:08:58.800,0:09:03.780
+got prepared data here this one is in the
+quadrant demo um and I've got a copy of it
+0:09:03.780,0:09:09.060
+here so let's see what do we need to do different
+we've got Universal sentence encoder five here let
+0:09:09.060,0:09:14.940
+me close this one because that's Superfluous we're
+not doing that one yet we've got um Docker running
+0:09:14.940,0:09:22.140
+here I'll just copy this over into the new readme
+so that I can keep track of that literature review
+0:09:22.140,0:09:31.920
+bot read me um foreign just a little reminder
+okay so that's a sample generate embeddings
+0:09:31.920,0:09:37.440
+curl command close that stress test close that
+we'll keep this open just for reference okay
+0:09:39.180,0:09:48.720
+um yes generate embeddings okay we can delete
+this comment files equals OS Lister uh actually
+0:09:48.720,0:09:54.000
+no so we need to go ahead and change that
+because we're going to be opening this and
+0:09:54.000,0:10:00.540
+we're going to do it as split lines that's going
+to be oh that's going to be messy um Okay so
+0:10:03.240,0:10:15.780
+archive equals open file um that was C archive
+um and it's called well here I'll just copy
+0:10:18.720,0:10:22.380
+copy this guy all right so
+first let's make sure that
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+06:41 - Generating embeddings for a literature review bot

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,110 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:38:11.220,0:38:18.480
+gpd3 was trained on internet data which means it
+has already read a lot of real human um uh real
+0:38:18.480,0:38:23.520
+human opinions and that is actually the point
+of having the story right because you it reads
+0:38:23.520,0:38:28.320
+someone's story and it'll cue up all of those
+embeddings about people like that that it has
+0:38:28.320,0:38:36.660
+already read about and so we're getting somewhat
+accurate-ish representations of what someone
+0:38:36.660,0:38:42.900
+might actually want or think obviously I'm using
+the instruct models and so it's already kind of
+0:38:44.100,0:38:50.220
+it's already biased towards a particular data set
+which is not ideal but if I fine-tune the base
+0:38:50.220,0:38:58.020
+model base DaVinci we'll get rid of that anyways
+okay so I think we've got those three prompts
+0:38:59.340,0:39:03.240
+um yeah so I'll pause it again and I'll
+make a third script that will take those
+0:39:03.240,0:39:08.880
+stories and this this topic um actually
+I've got it here the generate responses
+0:39:08.880,0:39:14.160
+so I'll just finish fleshing this out
+and it will save everyone's opinions
+0:39:14.160,0:39:18.780
+and we'll be right back and we'll call
+it a day because we are at 40 minutes
+0:39:20.520,0:39:29.760
+okay so we are running this let me show you
+the script real quick so it's just very simple
+0:39:30.540,0:39:35.580
+um runs those three prompts in serial where
+it gets someone's feelings their concerns and
+0:39:35.580,0:39:43.740
+then asks for compromises um so this is a very
+shorthand form of um of consensus and then it
+0:39:43.740,0:39:52.140
+saves it out to World Views so we've got we at
+the start of someone's world view is structured
+0:39:52.140,0:40:00.840
+information where it has um their story uh so like
+this is kind of like this is who the person is
+0:40:01.920,0:40:10.020
+um and then here are you know there's um the
+world view is a list of responses to topics so
+0:40:10.020,0:40:14.400
+there's a topic and then how they feel about it
+and the concerns and then the compromises that
+0:40:14.400,0:40:20.160
+they want to do and so what we'll do is in the
+future when I come back to this I'll take all of
+0:40:20.160,0:40:25.020
+this information and I'll run this for a few more
+people the reason I'm only doing it on 10 people
+0:40:25.020,0:40:28.800
+is because I don't want to burn through tokens
+while just testing to make sure that the thing
+0:40:28.800,0:40:35.520
+is valid but really ultimately like I want to
+do this for you know tens of thousands of people
+0:40:36.900,0:40:43.140
+um because then you can really get get creative
+and what we're doing is we're provoking a lot
+0:40:43.140,0:40:52.320
+of creativity from the machine um so yeah uh
+there we go um I think that's about it I'll just
+0:40:52.320,0:40:58.320
+let this finish um but we'll call it a day and
+we've got a system now that is taking someone's
+0:40:59.340,0:41:06.180
+um you know their life story and using that
+to uh to generate their position and so what
+0:41:06.180,0:41:12.240
+we'll do is we have a lot of data and so then
+the next thing that we'll do is we will take
+0:41:12.240,0:41:17.820
+all of these dispositions and we'll try and
+find okay what's the common ground can we
+0:41:17.820,0:41:23.280
+have the machine calculate what is the common
+ground that people can agree on and what are
+0:41:23.280,0:41:28.020
+some Creative Solutions and we'll have a
+machine that takes this as the input and
+0:41:28.020,0:41:34.260
+and as a very clinical thing kind of tries
+to come up with Alternatives and proposals
+0:41:34.260,0:41:39.480
+but yeah thanks for watching I think we'll
+call that a day um and uh have a good one
 
-CHAPTER TITLE:
+
+Descriptive title with timestamp:
+
+==========
+
+38:11 - Generating opinions and finding common ground

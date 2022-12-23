@@ -135,6 +135,60 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:16:22.500,0:16:31.080
+um Step oh two oh so you might notice I started
+I I um I do my functions like in order so that
+0:16:31.080,0:16:35.340
+way like if you're looking at this repo you don't
+have to like try and reverse engineer what order
+0:16:35.340,0:16:43.200
+to run things in like it's just intrinsic
+documentation um dedupe characters dot pi
+0:16:45.600,0:16:59.220
+okay python step O2 and I know that it's going to
+barf on this so let's do any coding E equals UTF
+0:17:00.180,0:17:05.700
+utf-9 utf-9 is clearly better than
+utf-8 right it's the next mission
+0:17:07.440,0:17:13.140
+sorry I'm in a mood today apparently
+you having a giggle Mite okay um
+0:17:15.420,0:17:16.380
+let's see if it works
+0:17:20.400,0:17:24.540
+I'm not going to use the GPU for
+something this simple it's a small
+0:17:25.260,0:17:31.080
+skipping registered can't find and it
+doesn't seem to be a python package huh
+0:17:37.500,0:17:43.620
+let's see um it gave me this error
+0:17:46.740,0:17:48.000
+what does it mean
+0:17:50.400,0:17:51.660
+it didn't work
+0:17:58.140,0:18:00.600
+and this is the value of
+having good error messages kids
+0:18:17.400,0:18:19.800
+interesting all right
+0:18:31.140,0:18:35.220
+let's see if that worked still didn't work
+0:18:40.080,0:18:48.780
+um okay all right so in this case it seems like we
+found a limitation still didn't work Spacey load
+0:18:54.960,0:18:56.940
+says requirement already satisfied
+0:18:59.040,0:19:02.220
+yeah it says it's already satisfied um
+0:19:04.320,0:19:09.180
+let's go let's go to Google
+let's see if uh let's see if this
+0:19:18.540,0:19:19.380
+all right
 
 CHAPTER TITLE:
+
+==========
+
+16:22 - Debugging a Python Program

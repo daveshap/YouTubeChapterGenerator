@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,54 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:18:56.460,0:19:03.900
+we're going to be looking for it okay foreign
+this didn't take as long as I thought it would
+0:19:06.000,0:19:06.500
+do
+0:19:11.640,0:19:17.100
+and if I asked Marcus about
+Thoth um hey what were we talking
+0:19:18.960,0:19:22.260
+about for Hoth and I don't think
+he'll remember it the first time
+0:19:23.280,0:19:30.300
+um because it's not it's not going to
+preload yep um OS is not defined really
+0:19:34.080,0:19:37.260
+don't be darned import OS
+0:19:38.220,0:19:43.080
+this is always a problem when you copy
+paste stuff okay let's try that again
+0:19:45.840,0:19:47.460
+um you know what I bet
+0:19:52.560,0:19:58.560
+no that's fine okay hey
+let's talk about poth again
+0:20:00.240,0:20:05.160
+all right so it'll it'll pick up Hoth Hoth is a
+great tool for marketing that's not what Hoth is
+0:20:06.000,0:20:13.740
+um thank you that's not what love is
+do you remember what I asked last time
+0:20:15.720,0:20:19.260
+really really join similar
+0:20:21.900,0:20:28.920
+expected string instance but [__]
+found oh whoops so here I'm returning
+0:20:28.920,0:20:34.260
+all the information not just um yeah
+because this has this has the scores
+0:20:35.460,0:20:41.220
+um and baked in as well not just the
+um not just uh yeah yeah yeah okay
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+18:56 - The difficulty of simulating a superintelligence

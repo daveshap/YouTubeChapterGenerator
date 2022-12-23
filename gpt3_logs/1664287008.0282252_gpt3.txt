@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,72 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:51:36.600,0:51:41.160
+to Branch out you don't want to focus on
+just the things just the closest cluster
+0:51:41.160,0:51:46.920
+you want to like okay let's find everything
+that's vaguely related and so then let's do
+0:51:46.920,0:51:51.420
+um let's see if let's see if open AI um gpt3
+0:51:54.120,0:52:00.540
+and one thing that I found that's interesting
+is that um oh it it the fewer Search terms you
+0:52:00.540,0:52:06.480
+you use the lower the the slower it is I think
+it's because it has to search further whereas
+0:52:06.480,0:52:11.880
+like if you have if you've got a good Vector
+it's just really fast um so let's do deep
+0:52:11.880,0:52:18.540
+neural network computer vision so that's
+much faster good lore that was faster okay
+0:52:20.400,0:52:26.160
+um okay so then let's just grab a whole
+abstract um from one of these guys and so
+0:52:26.160,0:52:30.720
+then you scroll down and it's like okay cool
+we've got all kinds of stuff and you see that
+0:52:30.720,0:52:34.740
+there's kind of there's going to be a whole
+lot that are at like point five point four
+0:52:35.580,0:52:41.700
+um so you can just keep going um yeah and
+you'll find everything that is vaguely related
+0:52:42.840,0:52:47.400
+um and it's all kind of in the same space
+um so there's a few things that we can do
+0:52:47.400,0:52:51.300
+to improve this which I'm not going to do right
+now I'm just doing this as a proof of concept
+0:52:52.380,0:53:00.420
+um is you can do you can use a higher dimensional
+Vector such as Ada from open AI which is a 1024
+0:53:00.420,0:53:06.960
+or you can go up from there right but you're going
+to spend a lot of money whereas Universal sentence
+0:53:06.960,0:53:13.380
+encoder version five is free and it's fast it only
+took like three hours to embed all all of these
+0:53:14.460,0:53:19.800
+um and so then once you're on the page you
+could search for you know open AI okay there's
+0:53:19.800,0:53:26.460
+no papers from open AI here um yeah but and
+you see how fast it is and it's just okay
+0:53:26.460,0:53:30.840
+cool and I've got it nice and simple so it's
+it's easily readable you've got the abstract
+0:53:30.840,0:53:37.560
+here you got a link that's very obvious um
+I'll probably shorten this because that's a
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+51:36 - The benefits of using a universal sentence encoder

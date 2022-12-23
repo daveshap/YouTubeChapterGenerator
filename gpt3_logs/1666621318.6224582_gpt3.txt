@@ -1,0 +1,258 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:50:28.980,0:50:35.760
+output or if you disagree that's um I'm curious
+to how like how would you define the output of
+0:50:35.760,0:50:41.400
+the town now I guess that the metaphor the way I
+understand because I'm just in part of it tml is
+0:50:41.400,0:50:46.020
+the assembler of the old Endeavor so there is
+this these high level languages like what this
+0:50:46.020,0:50:52.080
+could be the control natural language but or the
+Tau language itself then then is executed over tml
+0:50:52.620,0:50:58.440
+so it's uh it can be understood as such you can
+do whatever you want of course it's very low
+0:50:58.440,0:51:04.440
+level so the thing that you can do in tml have
+to be very specific and again it is guaranteed
+0:51:04.440,0:51:09.840
+that whatever it does it does it correctly
+but it's it's too fine grained right somehow
+0:51:10.800,0:51:17.280
+then tau is a much more abstract language and
+it's much closer to the cognition of people
+0:51:17.280,0:51:23.040
+using them so they are the notion of Concepts and
+relations and then and Transitions and programs
+0:51:23.820,0:51:31.620
+so that you can actually express your your
+consonant software in the tower that then will be
+0:51:31.620,0:51:36.420
+compiled into email that's my understanding but
+probably oh and there's a better way to say it
+0:51:37.860,0:51:44.160
+yeah well The Tao language is also very low level
+yes okay but it's more idea to make it I guess
+0:51:45.600,0:51:52.860
+even more yes yeah the layer to convert from
+control natural language or natural language
+0:51:53.580,0:52:03.000
+to the Tau language that would be a different
+layer but our language had to overcome the
+0:52:03.000,0:52:08.820
+theoretical difficulties of speaking about
+rules of sentences in the same language and
+0:52:08.820,0:52:12.420
+having the temporal Dimension to allow
+it to be sort of specification language
+0:52:13.500,0:52:17.160
+and it achieves this in a mathematical
+way if you see that our language
+0:52:18.480,0:52:23.400
+it will make little sense to you
+because it is a mathematical thing
+0:52:24.480,0:52:29.220
+but you can build on top of it
+something that relates to real life
+0:52:33.720,0:52:39.540
+so by building what I guess uh can you
+expand on that like building building
+0:52:39.540,0:52:44.280
+something on top of the Tau language the town
+metal language um how does that how does that
+0:52:44.280,0:52:50.880
+connect to the original purpose of Tau which
+was that collaboration the consensus and the
+0:52:50.880,0:52:56.220
+construction of software in a decentralized
+manner because this is this is the the underlying
+0:52:57.180,0:53:00.480
+um I don't want to say operating system because
+it's it's different but it's the underpinning
+0:53:00.480,0:53:08.880
+technology that facilitates that correct that goal
+of distributed software development yes but there
+0:53:08.880,0:53:14.280
+is one important point to understand here which
+is the difference between code and specification
+0:53:18.000,0:53:25.860
+to give an example suppose you you're
+a new city you want to reach from point
+0:53:25.860,0:53:30.000
+A to point B and you don't know how
+to how to do that so you ask someone
+0:53:31.380,0:53:40.020
+and I tell you you go straight third turn to
+the right second third turn to the left and
+0:53:40.020,0:53:45.600
+so on they don't tell you how many meters but I
+tell you the second third first term and so on
+0:53:46.860,0:53:51.960
+and and you ask another one and they
+give you completely different directions
+0:53:53.280,0:53:58.680
+that hopefully lead to the same place
+how can you compare and make sure that
+0:53:58.680,0:54:05.280
+those two sets of instructions lead you to
+the same place well you cannot you cannot
+0:54:09.120,0:54:16.080
+at the same way it is impossible to say that
+whether two programs are equivalent as we spoke
+0:54:16.080,0:54:21.420
+before and programs are indeed instructions
+where the computer has to turn at each moment
+0:54:23.700,0:54:24.200
+foreign
+0:54:27.780,0:54:35.640
+specification the requirements level of different
+nature your requirement is to age 1.8 to 0.3
+0:54:37.680,0:54:43.080
+and this is not written in the language
+of instructions you will need eventually
+0:54:43.080,0:54:46.860
+to get the instructions but
+that's not what you really want
+0:54:49.320,0:54:56.400
+software is still in the Stone Age In This sense
+you'll need to call the instructions why can't you
+
+Descriptive title with timestamp:
+
+==========
+
+50:28 - The difficulty of comparing two programs

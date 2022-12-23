@@ -135,6 +135,127 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:20:58.800,0:21:03.720
+enjoying things okay let's see what it says
+about how these things link it says okay and
+0:21:03.720,0:21:10.740
+the example I provide did I use ID property for
+example in the following snippet so it does that
+0:21:10.740,0:21:20.760
+the nationality property is set to ID of France oh
+okay okay so the net this this is the connection
+0:21:22.560,0:21:25.140
+so if you're if you're referring to another thing
+0:21:26.880,0:21:32.400
+got it so nationality is like a property so the
+the properties that are attached to each node
+0:21:32.400,0:21:39.240
+are arbitrary and then you can also just have one
+connect back to another got it got it okay cool
+0:21:41.760,0:21:49.620
+I wonder if we can just have gpt3 rewrite this
+as a knowledge as a Json LD Knowledge Graph if
+0:21:49.620,0:22:01.140
+chat if chat GPT um knows this knows it this
+well um and and text DaVinci 03 is also the same
+0:22:01.140,0:22:09.780
+underlying model GPT 3.5 it's entirely possible
+this will work um okay uh let's see convert
+0:22:10.320,0:22:22.200
+the following um scotus opinion document
+into a Json LD formatted um Knowledge Graph
+0:22:24.060,0:22:29.100
+and then we'll add some vertical white space
+just to be friendly to the thing and we'll
+0:22:29.100,0:22:34.500
+come down to let's see it's just a little
+bit too long let's cut this roughly in half
+0:22:35.340,0:22:45.180
+so start let's see new page so in addition
+Ace acts so blah blah okay so let's
+0:22:47.220,0:22:53.580
+oops come back just save that there and then
+we'll give it some more vertical white space
+0:22:54.780,0:23:05.700
+um and then we'll do um uh Json LD uh Knowledge
+Graph okay cool also one thing that I have
+0:23:05.700,0:23:11.700
+discovered is I actually prefer to turn the
+temperature down lately and the reason is
+0:23:11.700,0:23:19.140
+because I found that um you're especially the
+the most recent ones the instruct aligned ones
+0:23:20.160,0:23:25.320
+um they do almost exactly what you want and so
+with a temperature of zero you get really good
+0:23:25.320,0:23:31.680
+consistent results um so I have changed my default
+temperature to zero um you know and everything
+0:23:31.680,0:23:37.440
+else just zero zero zero it's it's pretty
+well aligned okay so let's see if this works
+0:23:52.140,0:23:54.180
+um it looks like it's going
+to do like the whole thing
+0:24:02.820,0:24:09.480
+vehicle true vehicle vehicle okay so that's
+not quite what I had in mind what I was
+0:24:09.480,0:24:17.460
+hoping is that it would break down the um the
+other the what I want is the opinions and the
+0:24:17.460,0:24:22.560
+um and what do you call these like where
+you where you reference something right so
+0:24:24.240,0:24:31.860
+um let's give it a little bit more instructions
+about what I want um specifically uh um
+0:24:34.680,0:24:47.760
+uh let's see let's see yeah uh focus on
+dates decisions opinions um and reasoning uh
+0:24:50.100,0:25:01.440
+the purpose of this knowledge graph is to be
+searchable uh by lawyers for um legal precedent
+0:25:02.940,0:25:12.060
+and case law um and let's say let's say
+specifically by trial lawyers so this is basically
+0:25:12.060,0:25:18.480
+I'm telling it this is a research tool here I'll
+just tell it this is a research tool for preparing
+0:25:18.480,0:25:27.300
+for um trials before The Supreme Court I'm just
+trying like what would Devin say on legal eagle
+0:25:28.380,0:25:37.200
+um okay so let's try this again and see if
+this changes a little bit about how it composes
+0:25:37.800,0:25:42.060
+um this this thing decision
+opinion reasoning excellent
+0:25:48.240,0:25:50.760
+opinion and the circumstances requires no
+0:25:50.760,0:25:52.980
+more formal legal distinction
+between person and Enterprise
+0:25:55.140,0:26:03.660
+um okay that's interesting um it's
+still not quite I'm still missing
+0:26:03.660,0:26:07.980
+something what is it that I want from
+this maybe maybe we can't go straight to
+0:26:09.000,0:26:13.980
+um to this hang on I think someone's moving around
+let me uh close my door I'll be right back in a
+0:26:13.980,0:26:20.340
+second okay sorry about that so it's it's breaking
+it down into one thing but what up like I guess I
+0:26:20.340,0:26:28.800
+need to think what nodes do I want out of this
+um and then you know so each node will be um
+0:26:35.280,0:26:38.100
+well here let me let me go ahead and
+save this prompt because it's pretty good
 
 CHAPTER TITLE:
+
+==========
+
+20:58 - Creating a Research Tool for Trial Lawyers

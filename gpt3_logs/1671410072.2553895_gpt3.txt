@@ -135,6 +135,58 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:19:26.280,0:19:26.880
+import
+0:19:35.040,0:19:37.500
+so it looks like you need
+to do you need to install
+0:19:49.740,0:19:50.640
+let's try this
+0:19:56.700,0:19:58.080
+that looks like it did a thing
+0:20:05.880,0:20:09.840
+sorry I wasn't talking through it so
+basically I was looking I found I found
+0:20:09.840,0:20:16.800
+a Spacey issue on GitHub and um let's see it
+hasn't bombed yet so I wonder if it's working
+0:20:18.780,0:20:26.220
+um dedupt cool there's nothing
+that's 20 uh no it didn't work
+0:20:28.620,0:20:29.940
+still didn't work okay
+0:20:33.060,0:20:33.560
+um
+0:20:39.240,0:20:43.920
+yeah so seems like Spacey is not
+sufficient or at least this isn't
+0:20:45.060,0:20:56.160
+um okay so let's go back here go back to this um
+okay I got Spacey to load but the original script
+0:20:56.700,0:21:07.860
+does not work the words um in some files are
+still wrong um with lots of duplicated characters
+0:21:10.080,0:21:11.100
+um so for instance
+0:21:16.680,0:21:17.580
+for example
+0:21:23.460,0:21:25.320
+I probably should ask another way
+0:21:27.360,0:21:27.860
+yep
+0:21:30.540,0:21:33.120
+yep okay so it's actually going to tell me
+0:21:33.720,0:21:39.360
+yeah use regex so that's regex is actually the
+way I would have done it originally so it looks
+0:21:39.360,0:21:44.100
+like this might be the right way to do it it
+so all right let's see what it says foreign
+0:21:47.760,0:21:50.580
+do the same thing okay
 
 CHAPTER TITLE:
+
+==========
+
+19:26 - Troubleshooting Spacey Installation

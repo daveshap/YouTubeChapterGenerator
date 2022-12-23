@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,130 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:20:10.260,0:20:18.120
+just grab any one of them and um plug it
+in and see what kind of story gives you
+0:20:19.980,0:20:25.560
+and so this mostly Works whoops okay
+so we got a new we got a new profile
+0:20:26.340,0:20:30.960
+skilled trade non-binary North African
+occupation life physical and social
+0:20:30.960,0:20:36.900
+science oh I got the list of occupations from
+the BLS um so Bureau of Labor and statistics
+0:20:38.040,0:20:44.700
+um and that is how I um got a list
+of like the top categories of of
+0:20:45.840,0:20:51.060
+um occupations okay let's turn the temperature
+up so it's a little bit more creative
+0:20:52.320,0:20:58.980
+um and go from there there we go oh interesting
+middle child of three girls my parents are
+0:20:58.980,0:21:04.980
+moderate means and we struggle to make ends meet
+um okay often teased for being poor I didn't
+0:21:04.980,0:21:08.340
+have many friends growing up and I was always
+a bit of an outsider see very different story
+0:21:09.000,0:21:13.800
+when I was 16 my family moved to United States
+it was culture shock we didn't know anyone and we
+0:21:13.800,0:21:17.820
+didn't speak the language I was homesick despite
+the challenges I was determined to make the best
+0:21:17.820,0:21:22.380
+of it I studied hard and learned English also
+rolled enrolled into a trade school I eventually
+0:21:22.380,0:21:27.300
+found my job and started to make a life for
+myself now in my early 20s so the um mildly
+0:21:27.300,0:21:32.640
+young yep now in my early 20s and I'm doing well
+I have my own place and a good job I'm also in a
+0:21:32.640,0:21:36.600
+relationship with a wonderful man and I am happy
+with my life and grateful for the opportunities
+0:21:36.600,0:21:41.280
+that have come my way so you see this is a very
+different thing like the person is not critical
+0:21:42.480,0:21:50.040
+um you know but let's see extremely flexible so
+that um extremely forgiving um my only mildly
+0:21:50.040,0:21:56.520
+critical extremely incurious not really curious
+about the world um extremely secular and so on
+0:21:56.520,0:22:05.040
+okay so um very different perspective and so what
+we can do is we can have these um these different
+0:22:05.040,0:22:13.260
+profiles and then we can feed in feed it into
+the um the issue that I was talking about so what
+0:22:13.260,0:22:17.820
+we're going to do so I've got 10 personas here
+that I just generated and now what we want to do
+0:22:17.820,0:22:25.380
+is make their stories so I will copy I'll probably
+pause this because this is this is more more High
+0:22:25.380,0:22:30.120
+Concepts than coding so I'll pause the video
+real quick and I'll write another script that
+0:22:30.120,0:22:34.860
+will just Autumn automate this part of getting
+generating the story so we'll be right back
+0:22:38.340,0:22:39.780
+okay take two
+0:22:50.460,0:22:56.760
+so what this is doing is it's um it's taking
+that prompt that I just showed you there we go
+0:22:58.680,0:23:02.100
+um and generating stories so
+we're getting people stories
+0:23:03.360,0:23:06.840
+um I never had what you call a normal
+childhood I was always different and I knew it
+0:23:07.680,0:23:10.800
+um Eastern European immigrants and my
+parents always expected me to excel
+0:23:12.000,0:23:19.560
+um well this person uh this person had a had a
+rough time rebellious streak pushing boundaries
+0:23:19.560,0:23:26.460
+testing limits continued into my teen realized I
+was trans at 16. I'm hugely confusing the secret
+0:23:26.460,0:23:32.520
+became a huge source of anxiety um now in my
+early 20s I have come to terms with my identity
+0:23:33.600,0:23:42.180
+um yeah excellent so part of uh part
+of um let's see I think anxious was uh
+0:23:42.180,0:23:49.860
+yeah so whether someone is anxious or calm that's
+on here um but yeah so we're generating um decent
+0:23:49.860,0:24:00.660
+stories about people now um let's see small town
+in North Africa yep drop out of school perfect
+0:24:02.520,0:24:03.120
+um let's see
+0:24:06.720,0:24:10.920
+there we go also have a very high sex drive
+0:24:10.920,0:24:17.040
+I'm often engaged in promiscuous and Casual Sex
+excellent I can be quite unkind and even violent
+0:24:17.040,0:24:24.720
+okay this person is uh this person's a real
+character this is very selfish and critical
+0:24:26.160,0:24:31.500
+um yep I have always felt stifled
+and oppressed and long to be free
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+20:10 - Generating stories with personas

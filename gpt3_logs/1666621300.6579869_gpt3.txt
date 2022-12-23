@@ -1,0 +1,258 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:27:05.400,0:27:12.180
+in the programming language World there is the
+concept of curing completeness a language that can
+0:27:12.180,0:27:18.300
+express anything that the theoretical construction
+of what is called the turing machine can do
+0:27:21.480,0:27:26.580
+and indeed programming languages try on purpose to
+0:27:26.580,0:27:33.300
+beat you incomplete and for people who
+remember how ethereum began their main
+0:27:35.280,0:27:40.920
+goal was to have Smart contracts in
+a language which is during complete
+0:27:42.600,0:27:52.740
+but during complete languages are undecidable
+the task of asking questions about statements
+0:27:52.740,0:27:56.160
+including complete languages
+in particular asking whether
+0:27:56.880,0:28:02.760
+two programs will return the same output but
+the two problems are equivalent is undecidable
+0:28:05.460,0:28:15.660
+now um one thing that sometimes people neglect
+is that you don't need to be curing complete
+0:28:16.380,0:28:19.680
+if you need your incompleteness
+no more than I need shampoo
+0:28:21.720,0:28:31.500
+because Turing machines they are mathematically
+equivalent to ordinary computers completely
+0:28:31.500,0:28:37.620
+except one point they have infinite memory are
+equivalent to computers with infinite memory
+0:28:39.120,0:28:43.440
+so you are never going to have
+real Turing machines anyway
+0:28:45.540,0:28:51.420
+and taking the example of arithmetic I
+said before there are Infinity many numbers
+0:28:52.740,0:28:57.780
+but guess what only mathematicians care
+that there are infinitely many numbers
+0:28:57.780,0:29:03.720
+there are but no one cares physics physicists
+don't need them programmers don't need them
+0:29:03.720,0:29:07.200
+no one cares that there are Infinity many
+numbers when did you ever run out of numbers
+0:29:08.280,0:29:15.780
+you don't care you don't need it it is true that
+there are infinitely novels but you don't need it
+0:29:18.180,0:29:26.700
+I'm not going to say that the way we achieve the
+side ability is by limiting The Machine's memory
+0:29:26.700,0:29:31.860
+or by assuming finitely many numbers we are doing
+it differently we achieve the side ability while
+0:29:31.860,0:29:41.820
+maintaining the infinite but I am pointing out
+that you don't need to go to undecidable languages
+0:29:42.840,0:29:47.700
+stay within the set of languages and
+enjoy the decidability of being able
+0:29:47.700,0:29:56.220
+to get answers to your questions another
+way to put it there is an algorithm that
+0:29:56.220,0:30:02.340
+gives answers to questions and decidability one
+way to say it is to say there is no algorithm
+0:30:03.780,0:30:08.880
+you want languages with algorithms that
+tell you whether something is true or false
+0:30:12.900,0:30:22.380
+Yeah by by just uh picking another side of the
+argument of Ohad this is important to have a
+0:30:22.380,0:30:28.020
+decidable language with an algorithm that actually
+exists and then terminates which has to be correct
+0:30:28.020,0:30:34.020
+so in all the notion of disadability is based on
+the fact you want an algorithm that does exactly
+0:30:34.620,0:30:41.520
+finds exactly a solution to your problem and
+and maybe for that particular problem such an
+0:30:41.520,0:30:47.220
+argument terminates doesn't exist so now now we
+want to have decidable languages anomaly that
+0:30:47.220,0:30:54.000
+the language for which such angle determinates
+exists and this argument has to find the the
+0:30:54.000,0:30:59.760
+right the correct answer to your problem and the
+only way to do that is not to let programmers in a
+0:30:59.760,0:31:04.920
+software house to build these programs but always
+determinate but to employ mathematicians logicians
+0:31:05.460,0:31:12.360
+that generates algorithms with together with
+a mathematical proof that this argument does
+0:31:12.360,0:31:17.460
+do the right thing and this algories terminate
+and exactly with the right answer so I go back
+0:31:17.460,0:31:23.820
+to my very first statement about trust so if
+you employ logic in this whole Endeavor you
+0:31:23.820,0:31:28.440
+actually guarantee that this the algorithms do
+the right thing there is a theorem proving that
+0:31:28.440,0:31:33.780
+so you have not to worry about whatever
+the computer tells back to you moreover
+0:31:33.780,0:31:39.120
+you can decide what the the process that
+the computer takes to give you an answer
+0:31:42.060,0:31:47.700
+excellent thank you guys for that um that answer
+this these topics are so fascinating to me and
+
+Descriptive title with timestamp:
+
+==========
+
+27:05 - The importance of decidability in programming languages

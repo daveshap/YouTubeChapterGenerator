@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,57 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:00:03.480,0:00:09.420
+morning everybody David Shapiro here with a video
+so this is one that I've been wanting to do for a
+0:00:09.420,0:00:13.260
+little while and someone on YouTube said hey what
+about marketing stuff so I was like all right
+0:00:13.260,0:00:18.960
+let's do it so I had this idea for Market Marcus
+the marketing guy a while back almost a year ago
+0:00:19.560,0:00:26.580
+um and so a little bit of background is gpt3
+already knows more about marketing than any single
+0:00:26.580,0:00:31.260
+person because it's read most of the internet the
+problem is getting to that information and so with
+0:00:31.260,0:00:38.100
+prompt engineering you can extract some of it um
+obviously fine tuning especially if you've got a
+0:00:38.100,0:00:44.340
+bespoke data set that will really focus on certain
+marketing activities will do better but just out
+0:00:44.340,0:00:48.360
+of the box we've got a lot of functionality so
+just wanted to show you an example where it's like
+0:00:49.200,0:00:52.740
+um in this prompt I've got you
+know I'm an expert and you know
+0:00:52.740,0:00:57.600
+and I have a few things that it can
+that it can do product Market fit SEO
+0:00:57.600,0:01:05.400
+etc etc so by by by preemptively saying focus on
+these topics should get a little bit better at it
+0:01:06.360,0:01:16.980
+um so say Marcus um I need help understanding
+um how to do product Market fit what is that
+0:01:17.760,0:01:30.360
+actually here um let's see how to uh how to
+Market my new product the wysiwyg yeah web Builder
+0:01:30.360,0:01:34.740
+and so then we'll do markets
+0:01:41.220,0:01:46.020
+okay you just took it and took it and ran
+with it I'm really disappointed that uh
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+00:03 - Marketing Marcus

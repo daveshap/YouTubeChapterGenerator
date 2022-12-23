@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,57 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:16:05.460,0:16:13.800
+um so cooled yep so it's got some notes so this
+could um this could probably work on any anything
+0:16:15.000,0:16:20.880
+um whether it's a technical interview or a
+personal interview so we'll see what this has
+0:16:22.020,0:16:30.000
+um in the in the in the final bit and then my
+idea is we will take this output Json this the
+0:16:30.000,0:16:36.120
+structured notes um and kind of summarize it all
+together or something I don't know maybe this is
+0:16:36.120,0:16:44.940
+it maybe this is maybe this is fine um we'll see
+so uh chunks of 6000 divided by or ninety ninety
+0:16:44.940,0:16:50.400
+thousand divided by chunks of six thousand so
+that's um 15 if I'm doing my math correctly
+0:16:51.360,0:16:56.580
+um because six Thousand Times Ten is sixty
+thousand and then half again will be ninety
+0:16:56.580,0:17:01.680
+thousand so that's 15 iterations um so that's
+30 prompts total which is not that much
+0:17:02.700,0:17:07.200
+um the Kardashian filter I
+remember that conversation
+0:17:09.180,0:17:12.540
+it's like a gaussian filter
+but for Kardashians foreign
+0:17:18.120,0:17:24.060
+I'll just stare at you awkwardly while I
+sit my ginger tea at 6 51 in the morning
+0:17:26.700,0:17:28.440
+Json is not defined
+0:17:34.500,0:17:38.460
+I deserve that this is what I get
+for copy pasting all my code all
+0:17:38.460,0:17:41.460
+right I won't make you watch this
+again I'll pause the video and um
+0:17:45.600,0:17:53.460
+okay so it worked we've got a list of topics
+and the notes from those topics so this takes
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+16:05 - Taking notes on an interview

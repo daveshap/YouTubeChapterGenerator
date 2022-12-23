@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,131 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:22:35.940,0:22:42.600
+as a trunk whatever and then of course we'll we'll
+I don't know we will have some some notion about
+0:22:43.980,0:22:50.220
+the object the concepts that people may want
+to talk about in this way we have realized we
+0:22:50.220,0:22:55.200
+have limited the focus in communication to
+what we call what has been called what is
+0:22:55.200,0:23:00.300
+called normally in in research and application
+computer science uh control natural language
+0:23:00.300,0:23:07.380
+so we limit the syntax to be usable Enough by
+everybody so we cannot speak freely it's just
+0:23:07.380,0:23:13.080
+like me as a foreigner not as a native English
+speaker I would speak English so I subject verb
+0:23:13.080,0:23:19.200
+object right it's a very simple sentences not so
+simple but again somehow a language is sort of
+0:23:19.200,0:23:22.620
+this International English that everybody
+would understand and would be able to use
+0:23:23.340,0:23:29.760
+plus the fact that we understand all the
+words all the concepts that are embedded in
+0:23:29.760,0:23:36.300
+this uh in this in this natural language
+so uh somehow unlike we were saying is
+0:23:36.300,0:23:39.960
+the limitation of the natural language
+that is unlimited and we want to limit
+0:23:42.420,0:23:50.040
+yes yeah so the the because it's so powerful
+you and you introduce problems like the the
+0:23:50.040,0:23:55.440
+flexibility is computationally difficult but
+also the ambiguity um is a major problem of
+0:23:55.440,0:24:02.520
+not just syntax but the meaning of individual
+words and um and and Ohad I remember um you had
+0:24:02.520,0:24:08.820
+mentioned previously um the the mathematical
+aspect of language versus controlled language
+0:24:09.780,0:24:17.880
+um would you would you like to add a little bit
+to uh what Professor franconi just just shared and
+0:24:19.440,0:24:25.020
+maybe just one thing because Professor
+Franklin basically covered the log
+0:24:25.020,0:24:32.040
+and which is the concept of
+decidability that is the question
+0:24:33.480,0:24:43.320
+when you have a computational task for example the
+task for finding a contradiction among statements
+0:24:44.820,0:24:49.800
+it turns out that there are
+many many computational tasks
+0:24:50.400,0:24:57.480
+that cannot be solved in finite time they need
+infinite time to be correct those taxes be correct
+0:24:58.620,0:25:07.440
+because you can do a finite computation
+and be incorrect right yes and and
+0:25:09.720,0:25:14.640
+in this case is called undecidability the
+things that you cannot solve in finite time
+0:25:17.460,0:25:19.140
+now um
+0:25:21.180,0:25:29.340
+what people in the field of logic do they Define
+languages and they ask whether determining
+0:25:30.060,0:25:37.140
+whether any statement in this language contains
+a contradiction is decidable or not and then if
+0:25:37.140,0:25:40.800
+yes then you call the whole language decide
+the bell and if not you call it undecidable
+0:25:41.880,0:25:48.780
+it turns out that even very simple languages
+are already undecidable for example um
+0:25:49.740,0:25:54.420
+the language of arithmetic the natural numbers
+one to three with addition multiplication
+0:25:55.440,0:25:56.880
+is already on the side open
+0:25:59.100,0:26:03.840
+okay this was this is the famous Gathering
+completeness building from a hundred years ago
+0:26:06.900,0:26:13.380
+there is the trade-off between expressiveness
+and decidability the more you are able to sing
+0:26:13.380,0:26:19.140
+the language the less recyclable it becomes
+and in particular natural language because we
+0:26:19.140,0:26:23.700
+can express arithmetic natural language and
+of course natural languages and decidable
+0:26:26.940,0:26:31.560
+there is another problem which
+which is about consistency
+0:26:33.180,0:26:40.560
+some languages can um contain a contradiction
+in the very definition of the language or let's
+0:26:40.560,0:26:44.520
+say you can construct sentences
+that are not true and not false
+0:26:46.500,0:26:52.260
+any natural language you can do so indeed maybe
+that's a typical example is the liar paradox
+0:26:54.060,0:26:56.880
+the sentence that cannot
+be true and cannot be false
+0:26:58.200,0:27:04.080
+so you want a language that
+is consistent and is decidable
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+22:35 - The trade-off between expressiveness and decidability

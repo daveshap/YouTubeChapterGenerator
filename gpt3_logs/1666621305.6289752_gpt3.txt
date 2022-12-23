@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,130 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:31:47.700,0:31:53.820
+and I think that they'll be fascinating to to
+our audience as well so we've we've set up two
+0:31:53.820,0:31:59.280
+pillars right uh collaboration and consensus and
+the problems with that and then we've also talked
+0:31:59.280,0:32:05.160
+about language controlled language uh decidability
+and and completeness versus incompleteness so
+0:32:05.160,0:32:12.000
+now let's link the two conceptually how do how do
+the problems of um completeness or intractability
+0:32:12.000,0:32:18.840
+relate to collaboration and consensus and
+this will also lead into Tao's Solutions how
+0:32:18.840,0:32:24.180
+have you guys solved these problems and brought
+everything together Ohad would you like to start
+0:32:25.920,0:32:31.800
+and yes in fact there is one big problem
+that we didn't speak about because the
+0:32:31.800,0:32:38.040
+problems that we did speak about up until
+now have Solutions in the literature of
+0:32:38.040,0:32:43.620
+mathematical Logic the other side of
+the languages and there are solutions
+0:32:44.220,0:32:48.780
+but there is one big big problem that has no
+solution and we had to invent the solution
+0:32:50.280,0:32:56.940
+and the problem is a language that can speak
+about truth of other sentences in the language
+0:32:58.980,0:33:06.060
+the logicians proved that in a certain form
+and such a language cannot be consistent
+0:33:06.060,0:33:10.980
+it must contain a contradiction this is
+called tarsky's undefinability of Truth
+0:33:12.960,0:33:20.820
+but there is a serious real-life
+need in being able to do so
+0:33:21.600,0:33:28.980
+so we need to find we needed to find a way to
+have maybe a more limited setting not exactly the
+0:33:28.980,0:33:33.720
+setting the task he considered but still allowing
+us to speak about rules of other sentences
+0:33:35.940,0:33:41.100
+and this we can relate it to with two examples to
+0:33:42.000,0:33:48.000
+well maybe three examples to
+blockchain to Ai and to real world law
+0:33:49.980,0:33:57.300
+so we spoke about blockchain that is controlled
+by its users taking it more down to earth
+0:33:59.220,0:34:02.100
+so in each block you are gonna have
+0:34:03.660,0:34:09.660
+the code of the network itself a
+definition of what the network should do
+0:34:11.160,0:34:18.000
+the whole point in blockchain is a condition
+of accepting or rejecting a proposed block
+0:34:20.340,0:34:25.020
+but for example in proof of world you accept
+it if the harsh satisfy certain conditions
+0:34:28.140,0:34:36.600
+but if the code contains if the block
+contains statement of the them Network itself
+0:34:37.320,0:34:44.160
+and the current Network need to speak about
+this those statements ask questions about those
+0:34:44.160,0:34:47.940
+statements all in the same language otherwise
+you're going to need Infinity many languages
+0:34:49.680,0:34:57.480
+and get an answer so that's a blockchain
+example take an AI example there are the
+0:34:57.480,0:35:02.520
+three laws of robotics by Asimov that the
+robot will never harm humans and so on
+0:35:04.140,0:35:08.100
+I say that you need a fourth
+law for boutiques which is that
+0:35:08.820,0:35:13.380
+any future software update of the
+robot will also admit a lot of robotics
+0:35:14.280,0:35:20.820
+you don't want to plug in a USB key to the robot
+with software update and it starts killing people
+0:35:20.820,0:35:25.380
+you want the robot to reject this update
+if it does not admit the rules of robotics
+0:35:26.220,0:35:30.720
+this is the same problem that the current
+field of mathematical logic cannot handle
+0:35:32.400,0:35:37.440
+the update is written in the same language
+that the robot is written and you need
+0:35:37.440,0:35:43.020
+the same language to ask whether another
+statement in that language is consistent
+0:35:44.220,0:35:47.580
+with another statement being
+the laws of robotics um
+0:35:49.800,0:35:52.980
+self example the law of changing the law
+0:35:54.360,0:35:58.500
+you have law or height now you
+also need laws of changing the laws
+0:35:58.500,0:36:02.340
+because if you don't have a lot of changing
+materials then either you cannot change them
+0:36:04.920,0:36:10.020
+or there are no conditions of changing the law
+energize me English you can always change it
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+31:47 - Tarsky's Undefinability of Truth

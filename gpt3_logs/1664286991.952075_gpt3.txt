@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,72 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:16:31.380,0:16:37.560
+across sections at tivatron and LHC energies
+a fully differential calculator Okay blah blah
+0:16:37.560,0:16:46.620
+it works good um yes we are in good shape so
+so far so good so now what we need to do is
+0:16:47.940,0:16:59.280
+um chunks equals wrap text wrap okay probably what
+would be faster is if we pass um pass it a list
+0:17:00.120,0:17:07.200
+now whatever um because I don't know how
+many how many how much you can pass it once
+0:17:10.140,0:17:11.940
+but we'll just comment that out
+0:17:13.860,0:17:19.980
+so we've got all the information we need
+so then we'll just do embedding equals
+0:17:21.420,0:17:37.020
+um uh we'll do a list that contains um well
+here the uh string equals these two info title
+0:17:39.960,0:17:51.360
+um plus a nice little space plus that guy and
+we'll then we'll say string equals string dot
+0:17:51.360,0:17:57.960
+replace actually I probably need um
+import read and so then we'll say
+0:17:59.160,0:18:03.300
+so what I'm doing here is um because there's
+a lot there's a lot of Superfluous new lines
+0:18:03.300,0:18:10.200
+so I'll say string equals re sub
+and we'll replace backslash S Plus
+0:18:11.400,0:18:18.240
+with just a space and we'll do that on string
+all right so this will clean it up make it a nice
+0:18:18.240,0:18:25.920
+clean string and so then we'll do embeddings
+equals embed string and so then the vector
+0:18:27.600,0:18:33.240
+will be embeddings numpy to list
+so then we'll get that as just one
+0:18:35.100,0:18:45.780
+and then all we do is save data so the save data
+file we pass it a payload and it will save it into
+0:18:46.860,0:18:53.100
+we'll call that the embeddings folder I think
+that's what I called it this is going faster
+0:18:53.100,0:18:58.860
+than I thought something is going to go
+wrong wow I've got a lot of tabs open okay
+0:19:01.260,0:19:07.680
+um yes so embeddings embed so the
+vector equals that so the string
+0:19:08.400,0:19:15.180
+equals so we'll just call this the article
+actually I guess it's more like the abstract
+0:19:16.440,0:19:20.760
+um no we should yeah so we'll we'll have
+the title we'll keep the title separate
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+16:31 - Creating a vector for each article

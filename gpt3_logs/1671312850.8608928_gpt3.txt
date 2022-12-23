@@ -135,6 +135,129 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:12:08.400,0:12:15.360
+all about this because even chat gp3 you know
+which is a GPT 3.5 the most recent thing still
+0:12:15.360,0:12:20.940
+limited and even if you go up by a factor of a
+hundred there's still too much information here
+0:12:20.940,0:12:24.720
+for the model to learn so this is a problem
+that we're going to have to be contending
+0:12:24.720,0:12:30.240
+with for the foreseeable future until there's some
+fundamentally different kind of AI model that can
+0:12:30.240,0:12:35.640
+read all of this or until it's easier to to fine
+tune something because honestly the easiest thing
+0:12:35.640,0:12:41.580
+would be include all of this data in the Baseline
+model in the in the foundation model and then it
+0:12:41.580,0:12:47.220
+knows it just intrinsically but until we get to
+that point um because they are really expensive
+0:12:47.220,0:12:53.100
+to reach train so until we get to that point we're
+gonna have to figure out ways of using external
+0:12:53.100,0:13:00.240
+databases or knowledge bases so that's the
+problem statement we've got 1.7 megabytes of text
+0:13:00.240,0:13:09.240
+here what do we do with it well this is really
+dry stuff super dry so what can we do with it
+0:13:10.380,0:13:15.360
+um well one thing that we can do is uh I've
+got this really handy dandy thing where I've
+0:13:15.360,0:13:24.120
+got it broken up by page right and you see
+that like um in many cases the the sentence
+0:13:24.120,0:13:33.000
+you know will continue so the page the page um
+a a barrier is not necessarily a good semantic
+0:13:33.000,0:13:38.040
+barrier and so what we mean by a semantic
+barrier or a logical barrier is you might
+0:13:38.040,0:13:43.680
+still cut something off right in the middle of
+of an idea or a thought but it is still a good
+0:13:43.680,0:13:49.200
+enough thing to break because when you look at
+how long this is this is 20 000 characters long
+0:13:49.200,0:13:56.640
+so this is probably about two windows worth so
+we can we can we can have gpt3 read most of this
+0:13:57.240,0:14:01.380
+um actually here let me pause it for a second and
+let's do a quick experiment instead of just tell
+0:14:01.380,0:14:06.180
+sorry I was just saying instead of uh telling
+you I'll show you okay so we put this in here
+0:14:06.180,0:14:13.320
+it's 5 800 tokens long our maximum is four
+thousand um so if we just split something
+0:14:13.320,0:14:20.040
+like this in half right so it's twenty thousand
+uh characters so we split it in half we summarize
+0:14:20.040,0:14:26.700
+it that way we may be able to do something with
+it um but the question is or the problem then is
+0:14:26.700,0:14:33.180
+we don't know exactly what we want out of it
+right so let's think about this what kind of
+0:14:33.180,0:14:37.800
+information if we wanted to make like a Wikipedia
+right maybe that's maybe that's a good way to go
+0:14:38.520,0:14:45.900
+um is is what are what are the implications
+here so in this case um you know boxing matches
+0:14:45.900,0:14:53.100
+sued Don King oh this is fun um uh for Rico
+charges okay and they refer to other codes
+0:14:54.180,0:15:01.500
+um and so basically it what this is doing is it's
+using language to build um a web of like reasoning
+0:15:01.500,0:15:06.960
+and logic so this actually sounds kind of like
+a Knowledge Graph so I'm wondering what if we
+0:15:06.960,0:15:10.560
+what if we use this to build a knowledge rest
+I've never built a Knowledge Graph this is fun
+0:15:11.340,0:15:16.260
+um so maybe maybe what what the the goal here is
+is let's build a Knowledge Graph okay so let's
+0:15:16.260,0:15:21.240
+go back over to chat GPT in just a second and ask
+it what a knowledge graph is and how to build one
+0:15:22.860,0:15:29.220
+okay I was able to get right logged into GPT
+or chat GPT sorry what is a knowledge graph
+0:15:30.480,0:15:33.600
+let's see what it says a knowledge graph is
+a data model that represents a collection
+0:15:33.600,0:15:38.700
+of interconnected data and Concepts typically
+organized around entities and their relationships
+0:15:38.700,0:15:43.980
+it is used to represent and organize large volumes
+of structured and unstructured data in a way that
+0:15:43.980,0:15:49.800
+allows for easy querying and visualization of
+relationships okay and then it looks like it froze
+0:15:49.800,0:15:57.720
+including search engines recommendation systems
+and natural language it's gonna freeze up um so
+0:15:57.720,0:16:03.840
+anyways uh yeah so then once this is unfrozen
+the next question I'll ask is um or can I hit
+0:16:03.840,0:16:10.860
+Escape you cannot abort um so the next question
+is uh that I'll ask is what kind of format is it
+0:16:12.000,0:16:17.040
+um or I'll pause it until it unfreezes or I will
+pause the video Until It unfreeze I don't know if
 
 CHAPTER TITLE:
+
+==========
+
+12:08 - Building a Knowledge Graph

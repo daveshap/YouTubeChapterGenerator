@@ -135,6 +135,129 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:04:09.180,0:04:14.520
+um so there's all kinds of procedural stuff that
+I don't even remember but there's there you know
+0:04:14.520,0:04:20.760
+uh the idea is that when you have rule by law
+it is all about procedure and protocol rather
+0:04:20.760,0:04:25.020
+than emotions so we actually have a very stoic
+system where it's we're going to think through
+0:04:25.020,0:04:28.320
+this we're going to look at the letter of the
+law we're going to have an impartial system
+0:04:29.340,0:04:34.440
+um of course when you have an impartial
+system that requires expert navigation that
+0:04:34.440,0:04:39.000
+automatically privileges people with access
+to lawyers AKA people with training or money
+0:04:39.720,0:04:45.120
+privilege is a whole other topic anyways
+the system is there it's a very sober system
+0:04:46.020,0:04:51.000
+um where it's about like let's let's let's read
+through the established protocols if you're a
+0:04:51.000,0:04:56.700
+friend of the court and stuff I watch legal eagle
+too legal eagle is great um so anyways all that
+0:04:56.700,0:05:04.020
+kind of stuff that's fine but interpreting
+established law common law uh or case law is
+0:05:04.020,0:05:09.660
+a whole is a very specific topic so let's take
+antitrust law where uh let's see how many did
+0:05:09.660,0:05:16.320
+it say Anti-Trust so there's 362 documents they're
+all available online as PDFs they've been scanned
+0:05:16.320,0:05:21.540
+and I believe they've also all been ocr'd so
+let's take a quick look close some of these
+0:05:21.540,0:05:28.680
+um Superfluous ones um yeah so PDF 661 um yeah
+you don't have something that's this long and
+0:05:28.680,0:05:33.960
+yeah so you you highlight it you see that it's
+OCR so that means we should be able to scrape it
+0:05:33.960,0:05:38.880
+even though it was scanned excuse me a scanned an
+ocr'd so we should be able to get this information
+0:05:39.840,0:05:47.100
+so let me go ahead over here to uh opinions
+opinions PDF so we'll save this one
+0:05:48.300,0:05:53.460
+um and then actually what I put it in the wrong
+folder so you might have seen I had a recent
+0:05:53.460,0:06:02.040
+document scraping uh video so this is whoops come
+back this is uh this is the lead up to that this
+0:06:02.040,0:06:07.920
+is why you need something like document scraping
+is because um oh I forgot to the the whole reason
+0:06:07.920,0:06:15.240
+this is is uh I went and asked uh chat GPT say
+tell me about this this this case law and it said
+0:06:15.240,0:06:19.320
+I don't know what you're talking about this sounds
+like it's a real case so it's like okay cool
+0:06:20.400,0:06:25.500
+um you know it tells me about the identification
+I said it was a Supreme Court case decided in
+0:06:25.500,0:06:31.080
+1953 it still doesn't know it right because it's
+not connected to any external data source so one
+0:06:31.080,0:06:36.180
+of the biggest weaknesses of chat GPT is that
+it's a mind in a bottle it has no contact with
+0:06:36.180,0:06:41.940
+the outside world the only way that chat GPT can
+interact with anything is via this chat interface
+0:06:41.940,0:06:48.420
+now from an architectural standpoint that's not
+actually that difficult to fix but you introduce
+0:06:48.420,0:06:53.820
+a whole lot of new problems especially when you
+consider the fact that there are like billions
+0:06:53.820,0:06:59.400
+of terabytes of text Data out there to search and
+a lot of it isn't accessible because it's in PDFs
+0:06:59.400,0:07:04.620
+or private databases or something so you need
+to have a link between the model the language
+0:07:04.620,0:07:09.180
+model which can read anything and then the stuff
+that you want it to read so that's what we're
+0:07:09.180,0:07:14.100
+working on here okay so now that you're caught
+up I wanted to show this is this is one of the
+0:07:14.100,0:07:20.880
+greatest flaws of chat GPT it's not connected to
+anything it's in a vacuum Okay cool so now what
+0:07:20.880,0:07:26.580
+well we've got our data here it's in text but
+it's not necessarily machine readable so the
+0:07:26.580,0:07:34.620
+first thing we got to do is we've got to go over
+here we've got to take our um take our PDF and
+0:07:34.620,0:07:39.900
+then we'll use this script that I wrote here let
+me just show it to you real quick um uh so it
+0:07:39.900,0:07:45.660
+just takes everything in the folder PDFs and then
+converts it so let me go ahead and just run this
+0:07:47.400,0:07:53.520
+it should go pretty quick and then we'll look
+at converted so here it is Tada there we go so
+0:07:53.520,0:07:58.620
+you've got and this this repo is public by
+the way so you've got this oh and one thing
+0:07:58.620,0:08:04.680
+that I did was I added a little thing so that it
+keeps the new pages I actually might remove that
 
 CHAPTER TITLE:
+
+==========
+
+04:09 - The Limitations of Chat GPT

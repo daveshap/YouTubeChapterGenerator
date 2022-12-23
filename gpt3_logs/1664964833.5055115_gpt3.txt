@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,55 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:09:27.540,0:09:34.200
+and then we'll save that as Vector one okay so
+let's restart this and I will show you what this
+0:09:34.200,0:09:40.200
+does for us because I'm going somewhere with
+this we want to give Marcus a long-term memory
+0:09:41.760,0:09:48.240
+a little bit early let's see uh nope still loading
+0:09:51.840,0:09:57.600
+hey how are you today doing well thanks for
+asking how can I help see Marcus is very helpful
+0:09:57.600,0:10:09.480
+Json is not defined what oh import Json my bad
+also realize you need to do the embedding first
+0:10:10.800,0:10:18.240
+um get that ready and then you start having
+user output here we'll do a little bit of
+0:10:19.200,0:10:24.480
+demarcation there okay this will
+make it look a little prettier also
+0:10:26.520,0:10:31.860
+oh I need to update that to
+user poor Marcus very confused
+0:10:36.120,0:10:39.840
+so we'll do new line after
+that that should be good
+0:10:41.280,0:10:46.980
+um and then we'll also print new line just to
+make it the formatting a little prettier okay
+0:10:49.080,0:10:55.680
+so now it'll load tensorflow it'll load arm better
+um and then markets will start yakking at us
+0:11:01.140,0:11:03.900
+what all can you help me with
+0:11:10.140,0:11:15.660
+there we go okay and so you saw there was a
+brief delay and so what there should be now
+0:11:16.440,0:11:23.400
+is ah there we have it so now we've got a
+few logs here so we've got the vector um
+0:11:24.180,0:11:28.860
+oh it's saved as dot text oops that's not correct
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+09:27 - Building a long-term memory for Marcus

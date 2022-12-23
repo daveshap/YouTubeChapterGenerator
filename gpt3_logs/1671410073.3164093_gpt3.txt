@@ -135,6 +135,64 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:25:01.740,0:25:03.600
+yeah I don't I don't think this is gonna work
+0:25:06.240,0:25:14.760
+so it it's close but it's not quite um
+thanks um can you modify the uh the uh
+0:25:15.900,0:25:27.480
+the script that uses regex instead um the
+only problem is in files with and the name
+0:25:29.520,0:25:35.400
+can you just sort um or filter
+filter out any other files
+0:25:39.060,0:25:44.580
+okay so let's see what it comes up with there
+meanwhile it looks like this is the largest
+0:25:44.580,0:25:52.500
+one that is um not good right so it's 13 000
+characters long so let's see how many tokens
+0:25:52.500,0:26:01.140
+this is so as long as it's that's getting pretty
+close um let's see if we can if if our uh prompt
+0:26:03.120,0:26:05.760
+will work so prompt
+0:26:15.180,0:26:21.840
+and then we'll do text DaVinci 03 temperature
+zero and our maximum length is going to be
+0:26:21.840,0:26:28.800
+like 600 tokens otherwise it's going to be too
+long so let's see if let's see if that's enough
+0:26:29.820,0:26:31.980
+the output is pretty short so
+0:26:34.020,0:26:38.880
+but Json is pretty token intensive so I
+wouldn't be surprised if it yeah so we
+0:26:38.880,0:26:43.080
+ran out of space so it looks like we
+need to go back and do smaller chunks
+0:26:44.340,0:26:49.680
+um but fortunately these earlier scripts
+are really easy so for instance we just come
+0:26:49.680,0:26:56.460
+back here and instead of doing um uh we we just
+update this so instead of four pages we do three
+0:26:57.420,0:27:03.960
+and so then what we'll do is we'll come in here
+to opinions is fine chunks let's delete these
+0:27:05.220,0:27:13.980
+and then we'll rerun um python step 01 and
+so now what we should have is more chunks
+0:27:15.420,0:27:19.140
+so now we have 188 chunks but you see the the um
+0:27:21.240,0:27:23.100
+that one that one
+0:27:24.720,0:27:30.900
+so this is this is now the largest and it's
+only 10 kilobytes or nine nine thousand
 
 CHAPTER TITLE:
+
+==========
+
+25:01 - Modifying the Script to Use Regex

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,56 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:21:16.020,0:21:20.700
+um because you know garbage and garbage out
+applies if you if the input that you're giving
+0:21:20.700,0:21:26.160
+it is not and fully connected to the output then
+you're telling it invent whatever it is that you
+0:21:26.160,0:21:33.420
+want um to want to do let's add a little
+bit of output here so print and we'll say
+0:21:33.420,0:21:40.440
+um a new line new line um
+uh let's see cover letter
+0:21:43.620,0:21:45.540
+and then we'll do the same thing for
+0:21:47.100,0:21:54.900
+print new line new line um and then
+we'll do a professional objective
+0:21:56.640,0:21:57.240
+here we go
+0:22:01.800,0:22:06.420
+there we go okay so it did it did the style
+transfer senior cognitive architect at Acme robot
+0:22:06.420,0:22:10.740
+science is excited to work on artificial cognition
+full-time and create robots that can replace human
+0:22:10.740,0:22:13.740
+labor have 16 years of experience and written
+three books in addition to publishing over
+0:22:13.740,0:22:21.420
+100 Source projects bam that is much better much
+much better okay I I think I want to go get just
+0:22:21.420,0:22:27.780
+one more example for um for this but yeah let me
+show you um let's see go back to Resume Builder so
+0:22:27.780,0:22:36.060
+professional objective number two so there it is
+um actually that might be good enough yeah let's
+0:22:36.060,0:22:42.360
+call that a day so you just jump in here I'll
+delete I'll delete mine you don't need to see mine
+0:22:43.200,0:22:53.220
+um but uh yeah so I hear leave one so that it's
+there um but yeah so you just jump in here um
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+21:16 - Building a Resume

@@ -135,6 +135,67 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:02:15.660,0:02:21.900
+with separation of powers anyways so that's how
+we got Where We Are um it worked really well and
+0:02:21.900,0:02:26.760
+um there's all kinds of what-ifs and gotchas that
+I'm not going to worry about because this worked
+0:02:26.760,0:02:32.820
+really well and we can iterate over the over the
+long term so but this I had to plug in manually
+0:02:33.480,0:02:38.940
+and it's about four pages so like if we do
+if we search for how many new pages there are
+0:02:39.780,0:02:44.580
+one two three yeah one two three
+so that this has four pages total
+0:02:45.840,0:02:51.840
+um which the that that was good so the
+next problem is we got to take these and
+0:02:51.840,0:02:57.300
+regardless of how long they are we have to
+break them down into chunks of four pages
+0:02:57.300,0:03:04.860
+maximum so rather than do this manually I was
+like why don't I just ask chat GPT so here we go
+0:03:06.480,0:03:21.300
+um I have a folder named um uh let's see
+um opinions uh text um this folder contains
+0:03:22.380,0:03:38.880
+um uh text files of scotus decisions um that
+were converted from PDFs the pages are demarcated
+0:03:39.480,0:03:50.160
+by um by the words new page I need a python
+function so I'm basically talking to this
+0:03:50.160,0:03:56.880
+thing like I'd be talking to a developer
+I need the python function where I pass um
+0:03:58.980,0:04:05.100
+pass uh actually no I actually let's
+just ask it to do the whole thing I
+0:04:05.100,0:04:17.160
+need a python function that um reads every
+uh uh file in opinions underscore text um
+0:04:19.980,0:04:29.640
+and then breaks each file
+into chunks of four pages um
+0:04:30.840,0:04:45.120
+the purpose of this is to um limit the size of
+each subsequent file please then save the chunks
+0:04:46.500,0:05:02.340
+into um into a folder named chunks text
+um and append um a serial number to
+0:05:02.880,0:05:15.720
+the original file name for instance um you know
+star underscore one star underscore two and so on
+0:05:17.700,0:05:18.720
+all right let's see what it does
+0:05:23.880,0:05:27.480
+why would this violate the content policy
 
 CHAPTER TITLE:
+
+==========
+
+02:15 - Breaking down files into chunks of four pages

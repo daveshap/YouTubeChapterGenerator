@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,73 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:33:32.640,0:33:39.780
+so we're down to 3.5 3.4 and so it's because
+there's some inefficiencies or whatever you're
+0:33:39.780,0:33:44.820
+you know like the time bar however long it's going
+to take so it looks like you don't get much faster
+0:33:44.820,0:33:51.000
+by doing larger chunks because it's down to about
+you know uh just about three hours so it looks
+0:33:51.000,0:33:56.940
+like that's kind of the optimal because you know
+you do bigger chunks you marginal whatever okay so
+0:33:56.940,0:34:02.940
+two hours much better or three hours much better
+than 36 hours so it's 12 times faster if not a
+0:34:02.940,0:34:07.620
+little bit more because you see this number still
+coming down pretty quick all right so we will uh
+0:34:07.620,0:34:15.840
+go ahead and let this run and then pretty soon we
+will have 2.1 million embedded archive things this
+0:34:15.840,0:34:19.860
+is this is going on data hoarder I think the
+folks on data hoarder will love this all right
+0:34:23.640,0:34:32.820
+and we're back um okay so quickly to bring you up
+to Speedos to what I have achieved and what I'm
+0:34:32.820,0:34:42.240
+working on next um let's see so we well here let
+me show you the code um okay generate embeddings
+0:34:42.240,0:34:49.860
+so I do things in stages modularize it so this
+is the final form of of the generate embeddings
+0:34:49.860,0:34:56.820
+and so we load our embedding engine which is um
+tensorflow hubs Universal sentence encoder five
+0:34:57.780,0:35:01.200
+um you've been watching so you know that I'm just
+bringing myself back up to speed because this is
+0:35:01.200,0:35:07.920
+you know the following day um okay so we break
+it into chunks of 300 that took the processing
+0:35:07.920,0:35:13.920
+time from 36 hours down to less than three so
+we got a factor of 12 more than 12 Improvement
+0:35:15.180,0:35:22.380
+um and then I also just broke it out into
+a chunk now I had a try accept so that it
+0:35:22.380,0:35:27.240
+would handle errors and we actually ended
+up we did get a few errors um so we had four
+0:35:27.240,0:35:32.940
+chunks so that's 1200 articles that didn't
+get um indexed but when you compare that to
+0:35:34.020,0:35:43.260
+um you know the 20 20 2.1 million articles that
+did get indexed um or embedded rather we haven't
+0:35:43.260,0:35:51.780
+done the indexing yet um we'll say that that's a
+pretty good pretty good uh uh average um so I'm
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+33:32 - Generating embeddings for 2.1 million articles

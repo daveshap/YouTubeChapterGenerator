@@ -135,6 +135,60 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:08:08.280,0:08:12.900
+wonderful wonderful adding
+encoding utf-8 should be sufficient
+0:08:15.060,0:08:16.680
+um so that goes to do
+0:08:18.720,0:08:19.560
+right here
+0:08:25.920,0:08:28.200
+hmm fascinating
+0:08:31.860,0:08:33.240
+did it get farther
+0:08:35.640,0:08:40.980
+this is weird though input folder
+file contents read encoding utf-8
+0:08:40.980,0:08:48.060
+as infile so sometimes this happens um
+let's see what is the encoding here so
+0:08:48.060,0:08:55.020
+sometimes what I do is I'll convert it
+to something and then I'll convert back
+0:08:57.660,0:08:58.260
+so let's
+0:09:02.400,0:09:04.200
+yeah hmm
+0:09:07.080,0:09:12.000
+I wonder what happens if we do let's
+add let's add that ignore thing rather
+0:09:12.000,0:09:15.480
+than rather than getting lost in the
+weeds let's just do errors equal ignore
+0:09:18.660,0:09:21.420
+because you know what I looked at
+the text file it looks fine to me
+0:09:23.640,0:09:30.780
+oh and let's also see if it um okay it got
+pretty far already so it got pretty far in
+0:09:30.780,0:09:37.200
+the process before blowing up one two three
+so now we've got all the chunks cool cool cool
+0:09:39.180,0:09:43.980
+um all right heck with it send it what do you mean
+0:09:47.580,0:09:48.900
+this was in
+0:09:51.180,0:09:57.240
+so this was in Split text files F right
+oh it couldn't write it interesting
+0:09:59.640,0:10:07.380
+oh okay okay okay um so when we write it we
+need to we need to convert it to ASCII and back
+0:10:08.400,0:10:11.280
+um so let's see if it understands this
 
 CHAPTER TITLE:
+
+==========
+
+08:08 - Troubleshooting Encoding Issues

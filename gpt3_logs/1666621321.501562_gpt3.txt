@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,127 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:54:57.000,0:55:00.780
+like let your Google Maps
+calculate the instructions for you
+0:55:02.820,0:55:11.580
+in the software analogy why can't you just write
+the word that the computer figure out the how
+0:55:15.600,0:55:25.200
+another limitation of traditional coding
+is that you cannot have Global statements
+0:55:25.200,0:55:30.180
+for example I don't know I want to reach
+somewhere and go to a supermarket in the middle
+0:55:31.500,0:55:38.640
+or a more software example never send private
+data over the network never center with that
+0:55:38.640,0:55:43.920
+over the network is not something you can code
+there is no command that says never do that
+0:55:45.180,0:55:51.540
+you need to go over your whole code or places that
+you send data and or places that you declared data
+0:55:51.540,0:55:58.740
+as private and make sure that all pipes are
+connected correctly why can't you say just you
+0:55:58.740,0:56:03.180
+don't survive that over the report and that's
+it let's let it figure it out automatically
+0:56:07.980,0:56:08.880
+another point
+0:56:10.980,0:56:17.820
+if we take the two uh um directions instructions
+of how to reach one point A to point B
+0:56:20.280,0:56:25.680
+you want to ask the question maybe
+download the same but where do they agree
+0:56:26.580,0:56:28.260
+well that's a meaningless question
+0:56:30.840,0:56:37.320
+but the same way if you have two different
+programs and ask where do those two programs agree
+0:56:37.980,0:56:39.420
+that's a meaningless question
+0:56:41.460,0:56:47.100
+but if you have two requirements then ask well
+those two requirements agree that's meaningful
+0:56:51.360,0:56:55.800
+the way to see the mathematical
+way that we look at it is each
+0:56:55.800,0:57:00.840
+requirement is really the set of all
+programs that meet those requirements
+0:57:01.560,0:57:06.480
+is mathematically the set of all programs
+0:57:11.940,0:57:15.180
+and then you come up with another
+requirement and which will be
+0:57:15.180,0:57:19.800
+another set and the agreement would
+be any program that is in both sets
+0:57:22.080,0:57:27.420
+so we have to move from
+programs to sets of programs
+0:57:29.700,0:57:39.000
+and to your question how coordination takes
+place indeed so every everyone can say
+0:57:39.000,0:57:42.780
+whatever they want to say about the software
+like levels and public data over the network
+0:57:43.860,0:57:53.820
+and we look for programs that meet everyone's
+requirements if everyone each user would come
+0:57:53.820,0:57:58.920
+up with the whole program then you ask where
+to programs agree as we said that's meaningless
+0:58:01.320,0:58:06.720
+cannot have programming by consensus
+programming by agreement which is what we do
+0:58:07.620,0:58:12.840
+if you stick to code and programs you
+must move to the requirements level
+0:58:19.920,0:58:20.460
+so
+0:58:22.500,0:58:25.560
+tying it into layers and the procedures
+0:58:28.140,0:58:37.800
+how do we get from discussing if I if I express my
+requirements you know don't send my data over the
+0:58:37.800,0:58:42.960
+network as as one example and of course there's
+plenty plenty of requirements so a software
+0:58:42.960,0:58:48.780
+requirement or specification is as you said the
+what not the how I tell I tell you what I want the
+0:58:48.780,0:58:56.160
+outcome that I want to achieve so how do we get
+from me expressing that in English or any other
+0:58:56.160,0:59:01.260
+French Italian German whatever any language how
+do we get from groups of people expressing that
+0:59:01.980,0:59:07.860
+to finding that agreement because we've said that
+we've set up all these the the pillars of these
+0:59:07.860,0:59:16.200
+problems so um Ohad and and Professor franconi
+I'd like to now that we've set the stage let's
+0:59:16.200,0:59:22.260
+let's watch the play how do you take those natural
+language discussions that you you know the three
+0:59:22.260,0:59:28.260
+of us have about our requirements what are the
+layers of abstraction that we that that need to
+0:59:28.260,0:59:33.840
+happen that you have solved to then get from my
+my natural language conversation your natural
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+54:57 - The process of going from natural language requirements to an agreement

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,58 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:07:22.020,0:07:32.340
+to chat but what we're going to do is we're
+going to embed it with um with uh yeah brain
+0:07:32.340,0:07:42.960
+Google Universal sentence encoder there we go
+so we will do this I'll borrow some code from
+0:07:44.040,0:07:51.060
+my Nexus microservice and we'll just come over
+here and we'll say okay so every time we get
+0:07:53.160,0:07:59.340
+so we'll have an embedder ready and
+then when we use embed it's up here
+0:08:02.760,0:08:10.740
+and so we'll just create an embedding for
+the what you put in as well as your response
+0:08:12.000,0:08:15.300
+um and we'll we'll do the
+embeddings afterwards because
+0:08:17.160,0:08:24.840
+um so we'll do a and response um because you're
+going to take a second to read and so we'll
+0:08:24.840,0:08:30.120
+we'll print everything out and then we'll do the
+embeddings um and so actually we'll say vectors
+0:08:32.400,0:08:37.920
+um okay so then we'll have one for
+each and so what we'll do is we'll do
+0:08:38.520,0:08:47.340
+um save log and the information that we want
+to save will be um we'll have who's talking
+0:08:48.960,0:08:55.200
+um we'll have the I mean really actually
+all we need is the dialogue and the um
+0:08:57.240,0:09:06.060
+the dialogue and the embedding so we'll just
+do um words and we'll do um a and then we'll do
+0:09:07.260,0:09:13.920
+uh vector and we'll do vectors zero because
+that'll be the first response so that's this
+0:09:14.700,0:09:20.820
+so that's user input um I actually
+need to wrap that in curly cues so
+0:09:20.820,0:09:25.080
+that it's a dictionary and then
+we'll also save Marcus's response
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+07:22 - Creating an embedding for dialogue

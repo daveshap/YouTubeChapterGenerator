@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,73 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:45:11.280,0:45:17.400
+you see it's pretty stable it was creeping up but
+now it's creeping back down um so I've uploaded
+0:45:17.400,0:45:23.100
+half a million um and yeah it's a really simple
+thing so you just put in a search term so like
+0:45:23.100,0:45:31.440
+you might say like pancreatic cancer in mice and
+then you do a search that was faster than before
+0:45:33.600,0:45:40.680
+um yep and so semantic similarity 0.17
+so that's really low so that must mean
+0:45:40.680,0:45:47.040
+that we don't have anything in here or that
+maybe um but yeah so still you're getting
+0:45:47.040,0:45:53.100
+like proton cancer therapy let's see if
+it mice so there's nothing pancreatic
+0:45:53.760,0:45:57.540
+yep so there's nothing uh
+well here let's just do cancer
+0:45:59.640,0:46:05.760
+why is this search so much faster um okay
+automatic tumor segmentation whole images
+0:46:05.760,0:46:11.160
+of the pancreas so it's interesting that that
+didn't come up so I'm wondering um so basically
+0:46:13.560,0:46:17.880
+I don't know I don't know I'm using a
+relatively low dimension thing but you
+0:46:17.880,0:46:22.560
+see how fast the search is um I have no
+idea why it's so much faster right now
+0:46:24.120,0:46:29.040
+um is this still running okay that
+is still running um but yeah so
+0:46:31.020,0:46:35.820
+um and also I have no idea how this
+is only still at half a gigabyte
+0:46:36.780,0:46:42.180
+um the container that's running it it says
+it's using um like if I click on this volume
+0:46:42.180,0:46:47.280
+it's it's using it it's the one that's running
+see it's quadrant storage or quadrant storage
+0:46:48.480,0:46:55.980
+um I'm afraid that it might be running um
+somewhere else anyways so let's say let's see
+0:46:56.820,0:47:01.620
+if you copy so like I've got one that
+I like so okay let's just copy this
+0:47:02.580,0:47:07.020
+and we'll put that in there and we'll do a
+search and you see how the more information
+0:47:07.020,0:47:14.400
+you give it the better it gets and that's because
+the embeddings that um are that are are that I use
+0:47:14.400,0:47:21.360
+include the title and the um and the abstract
+so the more information you give it the closer
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+45:11 - The speed of the search

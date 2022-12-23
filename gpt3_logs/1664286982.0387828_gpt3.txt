@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,72 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:00:01.140,0:00:05.820
+hey everyone David Shapiro here before we
+get started I just wanted to say that I have
+0:00:05.820,0:00:14.040
+updated my patreon page um with new tiers and um
+clarified what each tier gets you a lot of folks
+0:00:14.040,0:00:21.540
+ask for some time and help and so what I did was
+I created the two higher tiers will entitle you to
+0:00:21.540,0:00:28.080
+a little bit of uh dedicated one-on-one time with
+me each month so go check out my patreon page and
+0:00:28.800,0:00:34.020
+um consider uh supporting me on patreon
+and if you want any one-on-one time I'm
+0:00:34.020,0:00:38.280
+happy to talk to with you and your team
+and you know just provide a little bit of
+0:00:38.280,0:00:42.300
+insight and guidance so anyways thanks
+for watching and I hope you enjoy this
+0:00:42.300,0:00:46.260
+video about automated literature
+review for scientific papers thanks
+0:00:50.340,0:00:56.820
+good morning everybody David Shapiro here with
+a video I have created an automated literature
+0:00:56.820,0:01:03.660
+review engine it is broken up into two parts there
+is the search engine which searches all of archive
+0:01:03.660,0:01:10.440
+with semantic embedding and then the second part
+is a gpt3 script that will take whatever papers
+0:01:10.440,0:01:16.680
+you have selected and create literature reviews
+for them let's show let me show you how it's done
+0:01:20.220,0:01:23.760
+hey everybody David Shapiro here with a video
+0:01:25.200,0:01:30.900
+um okay so ignore this I haven't updated it
+yet this repo has gone through a few iterations
+0:01:32.280,0:01:38.280
+um I was talking to my fiance who's a librarian
+and I was like okay I've got this idea I posted
+0:01:38.280,0:01:43.920
+on Twitter all kinds of people gave me all kinds
+of ideas like research assistant Knowledge Graph
+0:01:43.920,0:01:48.780
+interactive data fine tune generation teaching Aid
+someone was saying like you know it'd be great if
+0:01:48.780,0:01:53.820
+you could help write Grant proposals there's all
+kinds of scientific papers there's academic text
+0:01:53.820,0:01:59.220
+and I'm like okay what does all this have in
+common and she asked me she said what what do
+0:01:59.220,0:02:01.800
+you want to achieve with this what's the output
+and I was like well I want it to be something
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+00:01 - Automated literature review for scientific papers

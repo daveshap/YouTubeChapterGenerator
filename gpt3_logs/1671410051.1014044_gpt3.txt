@@ -135,6 +135,119 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:33:28.920,0:33:39.900
+um openai set the temperature to zero and the
+token count to 1450. let's see if that works
+0:33:42.300,0:33:44.760
+certainly here's a script that
+should do what you have described
+0:33:48.240,0:33:52.680
+I do it differently because I use
+Windows I know I'm a charlatan um
+0:34:13.500,0:34:17.040
+I think it's going to work because
+0:34:23.760,0:34:33.120
+so this is the the implications of this if
+chat GPT knows how to call GPT in theory you
+0:34:33.120,0:34:36.960
+can create a machine that can do its
+own experiments with language models
+0:34:38.940,0:34:45.660
+I want to say that again the implication here is
+now we have a system of a machine that understands
+0:34:45.660,0:34:51.600
+the code to call itself well enough and then
+obviously this thing is intelligent enough to
+0:34:51.600,0:34:57.960
+understand results you could in theory have
+something that trains itself or makes its
+0:34:57.960,0:35:09.180
+own data sets or whatever um okay so I like this
+whoops copy code let's come over here and do this
+0:35:10.440,0:35:15.300
+um I guess I didn't say what
+to do with the response um
+0:35:17.460,0:35:20.100
+so we'll do let's see
+0:35:24.720,0:35:30.660
+um [Music] and then yeah we
+don't need any of this stuff
+0:35:35.700,0:35:44.880
+so that's fine um and then we need to
+rather than print um we'll need to save
+0:35:47.820,0:35:58.860
+great um the output from the the uh
+let's see great now response dot text
+0:35:59.580,0:36:05.880
+should be in Json format can you
+please save the output to a new folder
+0:36:06.480,0:36:14.520
+called um uh let's see we'll
+say called AG underscore Json um
+0:36:17.880,0:36:22.440
+instead of just printing um we should
+0:36:24.180,0:36:36.360
+uh let's see otherwise uh say use the same file
+name as the dot text file but just replace the dot
+0:36:36.360,0:36:49.800
+text with DOT Json um let's see before you write
+this script can you uh tell me if you understand
+0:36:51.840,0:37:05.700
+um give me some pseudocode so I can check to make
+sure we understand each other if this works yeah
+0:37:15.420,0:37:17.460
+well it understands the concept of pseudocode
+0:37:19.560,0:37:23.280
+and then it's going to go ahead and write the
+script Okay cool so let's see if it fixes it
+0:37:24.420,0:37:30.000
+um asking for the pseudocode may or may not
+be viable especially because this code is
+0:37:30.000,0:37:36.000
+so simple it might have been easier just to
+ask for it to um to just go ahead and do it
+0:37:37.080,0:37:49.680
+um but yeah so we're also going to need to do
+um in coding equals utf-8 always need to do that
+0:37:55.260,0:37:56.580
+here I'll just copy this
+0:38:01.320,0:38:02.700
+and then we'll need the same
+0:38:08.460,0:38:10.320
+yep okay
+0:38:14.520,0:38:15.020
+cool
+0:38:22.020,0:38:25.080
+so instead of printing it we save it
+0:38:26.580,0:38:33.360
+so with open as blah blah right so
+let's go ahead and add grab this comma
+0:38:37.200,0:38:44.820
+um I think we're ready so then one last
+thing though is um what I like to do is
+0:38:44.820,0:38:51.000
+we'll keep we'll keep the print um just that
+way we know what's going on and uh we'll add
+0:38:51.000,0:38:58.020
+new line new line new line and then respond to
+that text um here actually We'll add a little
+0:39:02.520,0:39:11.040
+little dmarc okay let's see if
+this works CLS uh python step O3
+0:39:12.960,0:39:26.940
+open file is not defined ah right because I
+used um my own function for that um so let me um
+0:39:30.180,0:39:33.300
+darn it here let me pause this for a
+second I'll just copy this function
+0:39:33.300,0:39:34.620
+from somewhere else you don't need to see that
+0:39:35.280,0:39:40.620
+okay so what I had to do is I had to add this
+function so what I usually do is because I have
 
 CHAPTER TITLE:
+
+==========
+
+33:28 - Creating a Machine that can Train Itself

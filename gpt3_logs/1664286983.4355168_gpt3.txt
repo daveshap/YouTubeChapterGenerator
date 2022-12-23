@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,73 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:02:01.800,0:02:07.320
+useful right one it's got to be something useful
+but it's also gotta like be attention grabbing
+0:02:08.340,0:02:12.180
+um you know it's got to make a good YouTube
+video and um she's like well it sounds like
+0:02:12.180,0:02:16.560
+what you're trying to do is a literature review
+like automatic literature review and I was like
+0:02:16.560,0:02:22.980
+that's it so that's what we're doing all right
+so uh obviously there's a lot of data here I'm
+0:02:22.980,0:02:28.200
+not going to get to all of it but let's start with
+something simple so there's a data set called the
+0:02:28.200,0:02:37.080
+archive data set up on kaggle and it is a metadata
+of everything on archive so 1.7 million articles
+0:02:37.740,0:02:46.980
+here's an example of an archive uh paper so this
+was published uh 2020 battery draining attacks
+0:02:46.980,0:02:52.200
+against Edge Computing nodes and iot networks okay
+super techy right and obviously not everything in
+0:02:52.200,0:02:56.400
+archive is like this but we've got all the
+metadata so like the metadata is basically
+0:02:56.400,0:03:02.640
+what you see on this page title date authors
+that kind of stuff so let me show you what
+0:03:02.640,0:03:10.860
+it looks like so I went ahead and downloaded
+it and you get um 2.1 million lines of Json l
+0:03:12.360,0:03:19.740
+and here is what one entry looks like so you
+get the ID so the ID is what you can use to go
+0:03:19.740,0:03:26.520
+to Archive and just plug it in right here so
+like you describe any archive or any like use
+0:03:26.520,0:03:33.480
+this is the base URL and then you can also get
+the PDF which is just archive.org PDF slash the
+0:03:33.480,0:03:39.240
+ID dot PDF download it directly you can get the
+full text um we're not going to go quite that
+0:03:39.240,0:03:46.380
+far yet so we'll see how far we get with this um
+but what we're gonna do is we're going to index
+0:03:47.640,0:03:53.100
+um with a semantic Vector we're going to index
+all uh all of the abstracts and titles together
+0:03:53.940,0:03:58.260
+so I was going to borrow a code from my
+my quadrant stress test which also means
+0:03:58.260,0:04:04.620
+I need to go ahead and fire up Docker
+with the with the quadrant container
+0:04:05.340,0:04:10.920
+so oh it's starting okay so anyways uh as a quick
+review in case you don't know what quadrant is it
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+02:01 - Automatic literature review with the archive dataset

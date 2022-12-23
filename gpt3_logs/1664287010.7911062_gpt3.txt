@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,72 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:55:48.780,0:55:55.560
+it's a little bit it's not quite as pretty I
+might change the the style so that it's well
+0:55:55.560,0:56:00.900
+I guess that's okay and then you got the
+score and then the abstract um so there's
+0:56:00.900,0:56:06.000
+a little bit less noise I don't know if I like
+this as much I don't know what do you think um
+0:56:07.620,0:56:13.080
+it is nice to have the score just here so you can
+get a quick view of like okay how close is this
+0:56:13.080,0:56:18.600
+image quality assessment I guess when you when
+you pay attention I wonder I wonder if it's the
+0:56:18.600,0:56:25.560
+underline that's making it a little harder to read
+anyways I'll fiddle around with it um we've still
+0:56:25.560,0:56:31.680
+got a couple hours left so two two and a quarter
+hours so two hours 15 minutes of these uploading
+0:56:32.640,0:56:37.320
+um probably one reason that we're not getting uh
+good results is because it's not done uploading
+0:56:38.100,0:56:45.480
+um so we're getting the best that we can with
+what's here um but yeah so uh okay I guess I'll
+0:56:45.480,0:56:50.340
+stop the video here we've got this um what am
+I working on next oh generate literature review
+0:56:51.780,0:56:56.460
+um you know what I'll probably just integrate
+the literature review into this server
+0:56:57.240,0:56:59.100
+I think that's what I'll do okay
+0:57:03.600,0:57:10.200
+okay we're still making progress um however
+I was looking at archives bulk download stuff
+0:57:10.200,0:57:17.820
+and you know Open Access yes but they also
+ask users to play nice and you know be be
+0:57:17.820,0:57:22.800
+good with harvesting so I'm not going to add
+a bulk download function to my web interface
+0:57:24.120,0:57:28.200
+um this is this will run strictly locally because
+I want I mean you know they're providing a huge
+0:57:28.200,0:57:36.600
+service for free um so let's not abuse the you
+know the the free service but what you can do is
+0:57:36.600,0:57:43.140
+once you use this tool to find the papers that
+you want you can go manually download them and
+0:57:43.140,0:57:49.920
+so what I've done is I'll I have a folder so you
+just accumulate whatever papers you want reviewed
+0:57:49.920,0:57:59.520
+in this folder and so what I'm working on now is
+um is a script to do the to do the um literature
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+55:48 - Working on a script for literature review

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,57 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:08:26.160,0:08:30.360
+probably don't need the question well the question
+is here for your sake for when you fill it out
+0:08:31.500,0:08:41.580
+um so but then we'll just have the the label and
+the answer okay so text block equals blah and so
+0:08:41.580,0:08:51.420
+then we'll say 4i and info we'll say text
+block plus equals and so then we'll say um
+0:08:54.480,0:09:04.800
+string string and we'll do paren or a percent so I
+is going to be labeled and then we'll do I answer
+0:09:07.560,0:09:17.040
+and then we need to add a new line at the end and
+so then we'll do print text block make sure that
+0:09:17.040,0:09:26.100
+works so basically we're just okay so name company
+so you see how it's nice nice and formatted
+0:09:27.180,0:09:33.420
+um greatest strength I think extremely fast etc
+etc Okay cool so this is going to be this is going
+0:09:33.420,0:09:39.240
+to be inserted into our cover letter and we'll
+see what happens there so we can comment that out
+0:09:40.260,0:09:54.360
+um okay so prompt equals um uh no open file and
+so we got prompt underscore cover letter dot text
+0:09:55.980,0:10:03.240
+um and then we do dot replace info with text block
+0:10:05.460,0:10:13.980
+and we'll print out the print our prompt make
+sure that looks good there we go so we'll just
+0:10:13.980,0:10:23.880
+submit this up to gpt3 and see how it goes um okay
+so completion equals gpd3 completion uh prompt
+0:10:24.780,0:10:33.180
+and also before we go that far I need to add a
+gpt3 logs folder that's not strictly necessary but
+0:10:33.180,0:10:41.700
+I save everything out to a log file for a review
+um it's just what I do uh I like to do that so
+0:10:41.700,0:10:48.060
+that we can review things because sometimes you're
+not necessarily going to expect what you or get
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+08:26 - Creating a cover letter with GPT-3

@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,57 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:09:54.780,0:10:02.880
+man all right so let me come back
+here and delete gpt3 logs and rerun it
+0:10:08.760,0:10:17.700
+yes okay sorry um all right uh Discord channel
+YouTube channel deep learning gpt2 artificial
+0:10:17.700,0:10:21.960
+intelligence natural language models blockchain
+homomorphic encryption prompt engineering and
+0:10:21.960,0:10:27.900
+legal law Okay cool so we have a list of topics
+for each chunk right so let's go check in here
+0:10:27.900,0:10:35.580
+so this is the transcript that we put in and then
+it it lists the topics Okay cool so we're going
+0:10:35.580,0:10:42.720
+to take that that block of text and say given the
+following topics and transcript so we're basically
+0:10:42.720,0:10:49.500
+going to so we've got the topic extraction
+and so then we will um so let's just copy this
+0:10:50.760,0:10:53.880
+um so then we'll say let's see um
+0:10:57.060,0:11:07.800
+write detailed notes about the given topics
+um uh let's see write detail notes about the
+0:11:07.800,0:11:13.020
+given topics actually that's fine okay so
+we'll do um topics here and then we'll say
+0:11:13.680,0:11:21.240
+um detailed notes um so basically what we're
+doing is we're we're breaking it up into two
+0:11:21.240,0:11:25.980
+steps so instead of just summarizing we're saying
+what are the most interesting topics here let's
+0:11:25.980,0:11:34.620
+extract that and then we'll go from there and I
+don't want I don't well yeah let's do it as um
+0:11:35.880,0:11:46.560
+as a prompt um topic notes oops topic notes
+okay so it'll have it will have a list of topics
+0:11:47.400,0:11:55.860
+excuse me um and then we will have a list of um
+list of notes for each topic so then we will have
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+09:54 - Topic extraction and notes

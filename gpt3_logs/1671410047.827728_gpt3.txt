@@ -135,6 +135,116 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:10:13.740,0:10:17.100
+oh man I'll be I'll be jazzed if
+it if it understands this okay
+0:10:17.100,0:10:25.140
+um great that worked uh now I have
+a new problem here's the error
+0:10:27.300,0:10:31.740
+um please find a solution for this new bug
+0:10:34.440,0:10:37.440
+so what so the problem here is and I
+0:10:38.400,0:10:44.760
+um yeah that you're trying to join a list of
+strings that contain spaces I don't think so
+0:10:53.700,0:10:55.740
+new page nope that's not it
+0:11:04.140,0:11:16.260
+replace no no I don't think that's it I
+think we need to fix the um string encoding
+0:11:17.280,0:11:20.040
+um here's the last part of the error
+0:11:26.040,0:11:29.400
+I feel like I'm talking to like Hal 9000.
+0:11:32.520,0:11:34.500
+yep there it is that's it
+0:11:39.660,0:11:40.260
+yep
+0:11:43.020,0:11:47.760
+ah so we need to add the encoding to
+to utf-8 right okay that makes sense
+0:11:49.080,0:11:50.700
+this thing is smarter than me
+0:11:54.000,0:11:57.720
+um okay so when we write it yeah
+oh that's the problem I okay
+0:11:59.400,0:12:05.760
+um encoding equals UTF eight okay cool
+but uh this took way less brain power
+0:12:06.780,0:12:12.480
+okay let's see if that works DLS clear
+screen that was fast all right so now
+0:12:12.480,0:12:26.980
+we have 144 chunks of text let's see what the
+biggest one is 20 uh [Laughter] uh [Laughter]
+0:12:31.740,0:12:35.040
+I think the uh I think the
+OCR messed up with this one
+0:12:38.160,0:12:45.360
+why do you believe that the Sherman Act
+okay I'm probably disturbing my audience
+0:12:47.100,0:12:50.700
+what's funny is that it got the capital
+letters fine but then the rest it's like
+0:12:50.700,0:12:57.360
+no I wonder if it was like if the scanner bed
+was like moving too slowly or something foreign
+0:13:01.380,0:13:06.480
+I'm sorry okay I'm gonna pause this
+because I'm gonna keep laughing
+0:13:11.400,0:13:15.300
+okay I had to stop and make myself tea
+I'm still probably gonna be looking a
+0:13:15.300,0:13:24.240
+bit I'm sorry okay now normally oh sorry oh
+I don't know why this is so funny normally
+0:13:25.440,0:13:30.720
+um this would uh what I would do is just
+delete data but in this case I don't want to
+0:13:30.720,0:13:36.420
+lose anything and imagine like what if half of
+our files were like this so let's come up with
+0:13:36.420,0:13:43.740
+a solution so I'm going to with so this this this
+this function works so I'm going to say okay cool
+0:13:44.340,0:13:54.480
+let's make a new script so let's go back over to
+Chad GPT great that all worked um but it turns
+0:13:54.480,0:14:06.600
+out the OCR barfed on a few files so the um so
+there are lots of duplicated characters such as
+0:14:09.360,0:14:22.320
+um please write a new script using Spacey or
+nltk to um de-duplicate uh extra characters
+0:14:23.880,0:14:34.380
+um search through all the files in um see
+what was the folder name chunks.text in
+0:14:35.880,0:14:48.360
+chunks underscore text um deduplicate deduplicate
+characters um and then save the cleaned up copy
+0:14:49.860,0:14:55.080
+um in a new folder called um dedupt text
+0:15:05.640,0:15:06.420
+all right
+0:15:40.560,0:15:41.400
+will that work
+0:15:46.440,0:15:50.160
+I don't know if that'll work is Spacey that good
+0:15:54.060,0:15:55.320
+or T and Doc
+0:15:59.160,0:16:04.260
+um okay I think I'll need to add the
+encoding but let's give it a shot
+0:16:06.720,0:16:10.500
+and let me make sure I've
+got Pippin pip install Spacey
+0:16:12.480,0:16:19.920
+okay so while that's running I will do
+save and we'll come back here and we'll do
 
 CHAPTER TITLE:
+
+==========
+
+10:13 - Fixing a Bug with Spacey and NLTK

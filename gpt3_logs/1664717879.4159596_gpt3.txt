@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,102 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:03:44.940,0:03:52.020
+um and then also you'll need to update uh
+update this create the file if you need to
+0:03:53.280,0:04:03.300
+um yeah so then all right so first thing
+we'll do is we'll do um info equals load info
+0:04:03.300,0:04:11.760
+um so that will just um so show you what this
+does real quick so do um python cover letter
+0:04:13.260,0:04:19.740
+definitions is not defined oh I had something
+yep I had something left over I copy pasted it
+0:04:19.740,0:04:26.820
+from other code there we go Okay so we've got
+all of it um here so then what we want to do
+0:04:26.820,0:04:33.120
+is actually what we need here we also need to
+add a label field so what do I mean by a label
+0:04:33.120,0:04:39.780
+field so a label is we need to do a labeled
+list so basically because if you just put you
+0:04:39.780,0:04:49.380
+know name like all these answers like 16 with no
+context it doesn't make any sense so gpt3 will
+0:04:49.380,0:05:01.140
+need some kind of label so we'll just say label
+name um uh let's see and here we'll copy this out
+0:05:05.760,0:05:09.840
+and so we get more complete data
+0:05:12.960,0:05:27.360
+um okay so label name um company applying for
+a company applying to um role applying to and
+0:05:27.360,0:05:36.540
+actually we don't need the semicolon I will add
+that in programmatically um years of experience um
+0:05:38.700,0:05:45.180
+greatest strength I keep putting in
+the simply colon It's like automatic um
+0:05:48.780,0:06:06.120
+let's see professional goal um my ideal work
+environment and then um my ideal work day and then
+0:06:08.280,0:06:18.840
+why I am uh let's see excited and
+then finally why I'm a great fit
+0:06:21.720,0:06:27.660
+okay so basically and you'll you'll see when
+this is populated um I'll probably trim that
+0:06:27.660,0:06:36.420
+out a little bit okay so then let's run this
+again so you can just see expecting value
+0:06:37.560,0:06:44.160
+huh I must have missed something oh right so
+Json doesn't like it if you have a trailing
+0:06:44.160,0:06:51.780
+comma python doesn't care but Json does not like
+a trailing trailing comma okay oh and I added
+0:06:52.680,0:06:58.920
+semicolon there whoops my brain is on autopilot
+I've already had coffee I guess I need more
+0:06:59.760,0:07:07.620
+um okay so we've got our info and then what
+we need is a prompt so the prompt is going to
+0:07:07.620,0:07:18.000
+be something real simple like um let's see given
+the following I know write a highly professional
+0:07:18.840,0:07:29.880
+cover letter with following information um yeah
+so we probably just start there and then we'll do
+0:07:30.720,0:07:40.740
+um info so that'll be that and then we'll do
+like um highly professional cover letter so
+0:07:40.740,0:07:46.020
+gpt3 already knows what a cover letter is but if
+we don't get the right format we'll do a few shot
+0:07:46.020,0:07:52.080
+prompt where I'll go find one on the internet
+and um and give it because with the instruct
+0:07:52.080,0:07:58.560
+series you you often don't need examples but
+if you want really good examples that are very
+0:07:58.560,0:08:04.140
+consistent then you can um you can you can
+give it just one or two examples and you'll
+0:08:04.140,0:08:09.600
+get the same benefits that you get from from
+few shot training okay so we'll say prompt
+0:08:11.700,0:08:26.160
+cover letter dot text okay so now we also have
+to format the um the the block uh and actually we
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+03:44 - Creating a cover letter with gpt3

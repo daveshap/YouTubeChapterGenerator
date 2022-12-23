@@ -1,0 +1,259 @@
+Summarize the entire following transcripts into a single descriptive title with timestamp:
+
+TRANSCRIPT:
+0:17:28.800,0:17:33.000
+how many people are going to lose their job in 
+the meantime and if they have like if they're
+0:17:33.000,0:17:42.120
+not able to retrain um or if the net net uh change 
+is fewer jobs then that means some people will by
+0:17:42.120,0:17:48.540
+definition mathematically be permanently excluded 
+from the job market and so because of that
+0:17:49.320,0:17:55.320
+um I went and looked up some statistics just 
+to see like you know is this is this uh true
+0:17:56.220,0:18:04.920
+um you know again take it with a grain of salt 
+um but so my work with auto Muse um I had some
+0:18:04.920,0:18:12.600
+breakthroughs yesterday and I realized that I 
+am very close to writing novel length fiction
+0:18:13.680,0:18:19.980
+um that's going to be pretty coherent and then 
+and and there's a few other things that I don't
+0:18:19.980,0:18:25.560
+even want to say out loud because um because of 
+these breakthroughs and um I don't want to put
+0:18:25.560,0:18:31.620
+novelists or editors out of work um just because 
+you can do something doesn't mean you should
+0:18:32.220,0:18:38.400
+and I think about like I would lose all my friends 
+if I did that if I if I created if I created a
+0:18:38.400,0:18:46.080
+tool if I finished Auto Muse and it can just churn 
+out novels decent enough novels um all of my best
+0:18:46.080,0:18:52.920
+friends are writers and some of them are aspiring 
+to do it full time and if I if I am capable of it
+0:18:52.920,0:18:58.740
+then I know that someone else is going to be 
+capable of it um before too long but you know
+0:18:58.740,0:19:03.780
+I'm I'm ahead of the curve so basically I'm going 
+to put a pause on my auto Muse work that's the
+0:19:03.780,0:19:10.140
+that's the short version I'm going to keep doing 
+it privately um just to see what what is possible
+0:19:11.460,0:19:17.820
+um but yeah like I don't want to put people out 
+of work like what's the point right what's why
+0:19:17.820,0:19:24.300
+why are we here like I don't I understand that 
+the point of capitalism and neoliberalism is
+0:19:24.300,0:19:30.900
+to generate more efficiency provide goods and 
+services um more efficiently but at the same
+0:19:30.900,0:19:39.420
+time we are facing uh potentially very disruptive 
+and and disruptive is a very soft word for painful
+0:19:41.580,0:19:47.940
+um major economic disruptions are painful like 
+people lose their jobs people lose their homes
+
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
+
+
+TRANSCRIPT:
+ 0:00:00.900,0:00:05.400
+morning everybody David Shapiro here with 
+your daily state of the industry update
+0:00:06.000,0:00:11.820
+as often happens my newsfeed helpfully 
+supplied me with today's topic I think
+0:00:11.820,0:00:17.700
+it is a very timely topic because I have been 
+diving more into alignment so today's paper
+0:00:18.600,0:00:24.300
+um it it's actually an older one January 5th 2021 
+but like I said my newsfeed supplied it to me
+0:00:25.320,0:00:29.280
+um it's a relatively short paper at 
+least the part that's published is
+0:00:29.280,0:00:32.700
+uh 12 Pages it's I think it's much 
+longer they just cut some out for
+0:00:34.320,0:00:39.900
+um for uh for internet publishing but 
+the abstract of this paper is pretty good
+0:00:41.100,0:00:46.200
+um pretty straightforward super intelligence is a 
+hypothetical agent that possesses intelligence far
+0:00:46.200,0:00:52.380
+surpassing that of the brightest and most gifted 
+human Minds in light of recent advances in machine
+0:00:52.380,0:00:56.220
+intelligence a number of scientists philosophers 
+and technologists have revived the discussion
+0:00:56.220,0:01:02.160
+about the potentially catastrophic risks entailed 
+by such an entity in this article we trace the
+0:01:02.160,0:01:06.780
+origins and development of the Neo fear of super 
+intelligence and some of the major proposals for
+0:01:06.780,0:01:13.320
+its containment we argue that total containment is 
+in principle impossible due to fundamental limits
+0:01:13.320,0:01:18.960
+inherent income in Computing itself assuming that 
+a super intelligence will contain a program that
+0:01:18.960,0:01:23.760
+includes all the programs that can be executed by 
+a universal turing machine on input potentially
+0:01:23.760,0:01:28.380
+as complex as the state of the world strict 
+containment requires simulations of such a
+0:01:28.380,0:01:34.080
+program something theoretically and practically 
+impossible so to put this in other words in order
+0:01:34.080,0:01:40.140
+to anticipate what the machine is going to do you 
+have to be able to simulate it perfectly including
+0:01:40.140,0:01:47.280
+the the way that it interacts and the way that 
+the world reacts um basically the whole world
+0:01:47.280,0:01:54.300
+is too complicated to simulate with any accuracy 
+and so therefore you know if this if this super
+
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
+
+
+TRANSCRIPT:
+0:09:29.280,0:09:34.920
+conceptual and methodological um topics that we'll
+delve into in just a little bit about how to solve
+0:09:34.920,0:09:41.220
+those problems uh Professor franconi did you have
+any um anything to add to kind of the overall goal
+0:09:41.220,0:09:49.740
+of the Tau Network well uh when you have this goal
+of involving so many agents participating to this
+0:09:49.740,0:09:58.020
+uh to this effort then something that you have
+to uh somehow something you have to think about
+0:09:58.020,0:10:04.560
+is how these agents this one million people or
+whatever even more than 10 people can trust the
+0:10:04.560,0:10:11.400
+system uh that is taking this helping them to
+take decisions and clearly the good old way of
+0:10:11.400,0:10:16.440
+discussing so I hear to you I hear you you hear me
+I try to understand what you're saying if I don't
+0:10:16.440,0:10:22.200
+understand I ask you to for clarification you you
+reply you meanwhile understand what I'm saying so
+0:10:22.200,0:10:27.540
+there is a protocol in communication that help us
+to understand each other and to reach an agreement
+0:10:28.380,0:10:35.940
+and and this protocol follows as we know since
+2000 years logical rules so the say the notion
+0:10:35.940,0:10:40.560
+of argumentation and syllogism studies from
+the ancient Greek philosophers and so on and
+0:10:40.560,0:10:47.700
+rhodesians in 19th century and the 20th century
+however when we want to scale up you and then
+0:10:47.700,0:10:54.900
+you want to say well we can't really imagine
+a protocol that involves discussion and trying
+0:10:54.900,0:11:00.900
+to understanding and so many agents even just
+more than 10 whatever we realized our everyday
+0:11:00.900,0:11:06.720
+life if we try to make a meeting with more than 10
+people I mean unless you have a major coordinator
+0:11:07.440,0:11:13.800
+that tries to understand everyone and try to
+mediate then this this discussion is not is not
+0:11:13.800,0:11:19.140
+going anywhere however even this mediator cannot
+do anything if there are 100 people in the room
+0:11:19.920,0:11:25.920
+uh so how do we reach agreement how can we trust
+and how the user can trust this agreement then
+0:11:25.920,0:11:31.380
+this is where logic comes in so this new protocol
+of argumentation and discussion and finding
+0:11:31.380,0:11:38.040
+agreement is in my opinion has to be granted on
+Logic on on the idea that whatever decision the
+0:11:38.040,0:11:45.180
+system takes is uh can be trusted and what is
+interesting I guess this will be discussed in
+0:11:45.180,0:11:54.240
+depth later is that in the logical language of
+Tau uh allows also to discuss the protocol on
+0:11:54.240,0:12:00.900
+how we reach agreements and and we can Define so
+user can agree on how they will agree from now on
+0:12:01.740,0:12:06.660
+again an understanding fully and and entrust
+on this new form of agreement potentially
+0:12:07.560,0:12:12.660
+and so that's my perspective
+on whatever I had said before
+0:12:13.260,0:12:18.540
+so my my contribution my interest is in
+this logical Foundation of all these things
+0:12:20.220,0:12:28.860
+okay excellent thank you so much so to to
+summarize uh another function of Tau so one one
+0:12:28.860,0:12:34.740
+part is developing software in a decentralized
+manner but the other part of that or I guess
+0:12:34.740,0:12:40.260
+a problem that you have to solve to do that is
+coming to consensus with large groups of people
+0:12:40.260,0:12:44.820
+how do you collaborate and come to consensus
+with arbitrarily large groups and that's what
+0:12:44.820,0:12:51.900
+you're talking about with coming up with logical
+uh protocols uh and and such in order to arrive
+0:12:51.900,0:12:58.920
+at those agreements or arrive at consensus is
+that is that a good summary yes yeah okay yeah
+0:12:58.920,0:13:04.680
+I would say that your perspective of Ohio just to
+mention to to specify this summary so in a sense
+0:13:04.680,0:13:10.140
+also this protocol is a piece of software is a
+procedure that regulates this this conversation
+0:13:10.140,0:13:17.100
+these argumentations and as such it will be
+subject to the same ways of being developed
+0:13:17.100,0:13:24.240
+and understood and agreed upon as the general
+software development or consensual finding in Tao
+0:13:25.680,0:13:32.460
+okay excellent yes and we will we will delve into
+um into tau's particular Solutions here in just a
+0:13:32.460,0:13:37.800
+moment um but a quick preview for the audience so
+some of the things that they've worked on and this
+0:13:37.800,0:13:42.960
+is not an exhaustive list of of the breakthroughs
+that they've had one is the Tau metal language the
+0:13:42.960,0:13:50.100
+Tau language and the Agora token but we'll get
+into those in just a little bit um so well thank
+
+Descriptive title with timestamp:
+
+==========
+
+09:29 - The goal of the Tau Network

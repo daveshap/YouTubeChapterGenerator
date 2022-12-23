@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,72 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:09:03.780,0:09:09.060
+here so let's see what do we need to do different
+we've got Universal sentence encoder five here let
+0:09:09.060,0:09:14.940
+me close this one because that's Superfluous we're
+not doing that one yet we've got um Docker running
+0:09:14.940,0:09:22.140
+here I'll just copy this over into the new readme
+so that I can keep track of that literature review
+0:09:22.140,0:09:31.920
+bot read me um foreign just a little reminder
+okay so that's a sample generate embeddings
+0:09:31.920,0:09:37.440
+curl command close that stress test close that
+we'll keep this open just for reference okay
+0:09:39.180,0:09:48.720
+um yes generate embeddings okay we can delete
+this comment files equals OS Lister uh actually
+0:09:48.720,0:09:54.000
+no so we need to go ahead and change that
+because we're going to be opening this and
+0:09:54.000,0:10:00.540
+we're going to do it as split lines that's going
+to be oh that's going to be messy um Okay so
+0:10:03.240,0:10:15.780
+archive equals open file um that was C archive
+um and it's called well here I'll just copy
+0:10:18.720,0:10:22.380
+copy this guy all right so
+first let's make sure that
+0:10:22.380,0:10:31.140
+um that we can just open the file as is and
+do split lines all right so that means archive
+0:10:31.140,0:10:39.780
+will be a list of Json strings for everything
+that we want so then we'll do print length of
+0:10:39.780,0:10:45.300
+archive and then we'll do exit so let's just
+see if this works let's see if it works if
+0:10:45.300,0:10:50.100
+it blows up because I mean I've got 32 gigs
+of RAM on my on this PC so it should be okay
+0:10:51.540,0:10:58.440
+um and then let's see literature review bot all
+right so we'll just do python generated embeddings
+0:11:01.740,0:11:06.780
+oh right I don't yeah okay so what it's doing
+right now oh here let me make this bigger
+0:11:08.280,0:11:15.780
+yeah I'm not surprised that that blew up so let's
+do properties so that you can see what I'm doing
+0:11:15.780,0:11:23.880
+all right so what it does is saved model does
+not exist this always freaking happens where um
+0:11:26.160,0:11:27.240
+for whatever reason
+0:11:29.640,0:11:36.060
+it can't find the model but anyways what I need
+to do is come in here and start it with um GPU
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+09:03 - Generating Embeddings

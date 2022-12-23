@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,73 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:42:45.360,0:42:52.020
+because instead of creeping up to like two and
+a half hours it's sitting at 1.17 and it looks
+0:42:52.020,0:42:58.440
+like it's holding steady um 1.18 yeah it looks
+like it looks like this method's a bit faster
+0:42:59.820,0:43:06.720
+um cool and I can probably even remove the
+uploading records because that's just extra
+0:43:06.720,0:43:10.260
+noise like of course we know you're uploading
+records that's what we programmed you to do
+0:43:10.260,0:43:16.860
+okay so it looks like this will take about
+an hour to run and then in the meantime we
+0:43:16.860,0:43:25.500
+can see you know vmm is using that I wonder if
+there's any um volumes yeah so this is the Vault
+0:43:25.500,0:43:31.260
+we'll see the volume size go up um so this
+is the actual storage that quadrant is using
+0:43:32.340,0:43:39.600
+um for 98 quadrant is really efficient I'm not
+sure how it what kind of compression it does so
+0:43:39.600,0:43:43.680
+we'll see what that gets to at the end anyways
+uh probably what I'm going to do is while this
+0:43:43.680,0:43:49.200
+is running is I'll work on the flask app and
+I'll give you an update um here in just a minute
+0:43:53.460,0:43:58.620
+okay so I've made some progress um I've got
+the search server up and running it's pretty
+0:43:58.620,0:44:05.940
+straightforward um let's close out that comment
+um so basically it's just a super simple flask
+0:44:05.940,0:44:14.580
+server I've got some some basic HTML um actually
+I realize that I need to close out the HTML so
+0:44:14.580,0:44:27.120
+then we'll do let's see HTML equals HTML plus
+and then we'll do um do HTML uh close equals
+0:44:28.740,0:44:34.920
+and we'll say um slash body and then
+slash HTML it's not strictly required
+0:44:34.920,0:44:40.380
+because most browsers will still render
+it properly but if you want to uh be nice
+0:44:42.360,0:44:48.780
+you will you will do this HTML
+plus HTML close okay anyways
+0:44:50.040,0:44:56.400
+um yeah so here it is it's up and running
+um it uses the same embedding engine
+0:44:57.180,0:45:06.060
+um that is running uh that generated the 512
+Dimension um whatchamacallit embeddings vectors
+0:45:06.060,0:45:11.280
+it's still uploading um so but we're at you
+know to about two and a half hours left and
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+42:45 - Building a search engine

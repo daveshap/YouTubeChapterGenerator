@@ -135,6 +135,125 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:26:40.380,0:26:46.500
+um so first I think first thing we need to do
+is get the whole thing Rewritten in such a way
+0:26:47.400,0:26:52.440
+that it is um that it can fit inside a
+single prompt window because if we have
+0:26:52.440,0:27:00.900
+the whole the whole thing um a little bit more
+con condensed excuse me then we should be able
+0:27:00.900,0:27:05.640
+to get a proper thing but we also need to
+think about what kind of nodes do we want
+0:27:06.720,0:27:13.800
+um so you know which aspect you know the second
+the second circuit did this uh Rico requires this
+0:27:14.940,0:27:21.480
+um and this other case it said that um so I
+guess each node is going to be every case cited
+0:27:22.380,0:27:28.080
+yeah okay so the case cited and why I think
+that's each node all right cool so let's
+0:27:28.620,0:27:37.320
+um Let's uh let's see um each node should be um
+0:27:40.020,0:27:46.320
+yeah each node should be
+um a case uh case citation
+0:27:48.360,0:27:55.740
+um precedent or prior opinion I'm
+probably using the wrong term but
+0:27:55.740,0:28:04.800
+um include uh what the heck was the
+the um the parameter um my goodness
+0:28:07.020,0:28:11.520
+the uh what's the term why is my
+brain doing this I need more coffee um
+0:28:13.740,0:28:17.760
+unique identifier property
+prop not parameter property
+0:28:18.780,0:28:29.340
+um each node should have several
+properties such as um date uh let's see
+0:28:30.240,0:28:43.200
+case number um involved parties um
+reasoning for including in this opinion um
+0:28:45.360,0:28:50.880
+and other relevant um information okay
+0:28:52.980,0:28:57.240
+so let's let's see if if we can get
+the nodes that we want because if
+0:28:57.240,0:29:01.440
+we can go ahead and convert each each
+thing to to nodes that might save us
+0:29:01.440,0:29:06.600
+a step but I suspect we're going to have
+to summarize it first this is really cool
+0:29:10.320,0:29:14.580
+I was really skeptical about chat GPT
+but um I'm becoming less skeptical
+0:29:20.160,0:29:25.380
+oh this is good yes it's working
+it's working it's working
+0:29:30.600,0:29:34.260
+okay so let's save this prompt
+because this worked really well
+0:29:35.220,0:29:44.280
+um all right so I'll save this as um let's go up
+here and we'll say prompt um let's see uh Json LD
+0:29:45.480,0:29:50.520
+um and then we'll do citation
+nodes um so this is an example
+0:29:52.500,0:29:58.380
+we'll say example prompt okay so we got
+we got the nodes that we want I believe
+0:29:59.760,0:30:04.860
+um oh man this is going to be fun because then I
+can try and figure out how to take all this and
+0:30:04.860,0:30:10.620
+and visualize it I wonder if we can visualize it
+with python um all right but let's let's go let's
+0:30:10.620,0:30:16.080
+let's pause for a second because this is only
+half the document that's not good enough right
+0:30:16.080,0:30:21.780
+do we want it do we want to just read it raw and
+just go straight to it let's try summarizing it
+0:30:22.860,0:30:27.900
+um and and let's see if we can get the whole
+opinion in one document now here's the thing
+0:30:27.900,0:30:33.780
+some of these opinions are like 200 pages long so
+how are we going to do that right because in order
+0:30:33.780,0:30:37.860
+for the thing to make sense you kind of do need
+to have the whole thing but you also don't want
+0:30:37.860,0:30:48.660
+to lose detail right so let's think about this
+for a second um let's see uh let's see rewrite
+0:30:48.660,0:31:00.240
+the following scotus up opinion um let's see
+as a let's say as a list of assertions um
+0:31:04.320,0:31:10.560
+no we'll say we'll say summarize because
+that summarize uh implies that you want
+0:31:11.400,0:31:19.320
+um to reduce word count um
+remove Superfluous language um
+0:31:21.660,0:31:25.980
+while retaining specific details
+0:31:28.680,0:31:33.180
+um yeah let's see let's see if that works summary
+0:31:40.920,0:31:46.380
+okay yeah this those are good those
+are good notes but it's not retaining
+0:31:46.380,0:31:51.540
+the information that I want to see such
+as the nodes okay so rather than read
 
 CHAPTER TITLE:
+
+==========
+
+26:40 - Summarizing a SCOTUS Opinion

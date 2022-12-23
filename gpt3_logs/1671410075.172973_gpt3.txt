@@ -135,6 +135,66 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:33:28.920,0:33:39.900
+um openai set the temperature to zero and the
+token count to 1450. let's see if that works
+0:33:42.300,0:33:44.760
+certainly here's a script that
+should do what you have described
+0:33:48.240,0:33:52.680
+I do it differently because I use
+Windows I know I'm a charlatan um
+0:34:13.500,0:34:17.040
+I think it's going to work because
+0:34:23.760,0:34:33.120
+so this is the the implications of this if
+chat GPT knows how to call GPT in theory you
+0:34:33.120,0:34:36.960
+can create a machine that can do its
+own experiments with language models
+0:34:38.940,0:34:45.660
+I want to say that again the implication here is
+now we have a system of a machine that understands
+0:34:45.660,0:34:51.600
+the code to call itself well enough and then
+obviously this thing is intelligent enough to
+0:34:51.600,0:34:57.960
+understand results you could in theory have
+something that trains itself or makes its
+0:34:57.960,0:35:09.180
+own data sets or whatever um okay so I like this
+whoops copy code let's come over here and do this
+0:35:10.440,0:35:15.300
+um I guess I didn't say what
+to do with the response um
+0:35:17.460,0:35:20.100
+so we'll do let's see
+0:35:24.720,0:35:30.660
+um [Music] and then yeah we
+don't need any of this stuff
+0:35:35.700,0:35:44.880
+so that's fine um and then we need to
+rather than print um we'll need to save
+0:35:47.820,0:35:58.860
+great um the output from the the uh
+let's see great now response dot text
+0:35:59.580,0:36:05.880
+should be in Json format can you
+please save the output to a new folder
+0:36:06.480,0:36:14.520
+called um uh let's see we'll
+say called AG underscore Json um
+0:36:17.880,0:36:22.440
+instead of just printing um we should
+0:36:24.180,0:36:36.360
+uh let's see otherwise uh say use the same file
+name as the dot text file but just replace the dot
+0:36:36.360,0:36:49.800
+text with DOT Json um let's see before you write
+this script can you uh tell me if you understand
 
 CHAPTER TITLE:
+
+==========
+
+33:28 - Creating a Machine that can Train Itself

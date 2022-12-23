@@ -135,6 +135,129 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:08:05.880,0:08:13.020
+um actually no let's let's keep that because
+it it's a helpful demarcation so I added this
+0:08:13.020,0:08:17.280
+little token because when you read a PDF you
+have to read it Page by Page and sometimes
+0:08:17.280,0:08:21.420
+sometimes knowing where there's a page break
+um is helpful so we'll keep that that's fine
+0:08:21.420,0:08:27.360
+all right so let's come back to converted
+we'll copy this and bring it back over to
+0:08:28.500,0:08:36.300
+um do opinions Dot underscore text and
+we'll paste it there all right so I'm
+0:08:36.300,0:08:38.880
+going to download a bunch of these I'm going
+to pause the video you don't need to watch me
+0:08:38.880,0:08:43.080
+downloading it but this is what I'm going to do
+so I'm gonna get like I'm not going to spend the
+0:08:43.080,0:08:47.280
+time to download all 300 I'll sort them by
+like most popular whatever and we'll have a
+0:08:47.280,0:08:51.900
+whole bunch of Supreme Court case law about what
+was this Anti-Trust yeah so we'll be right back
+0:08:53.880,0:09:00.540
+Okay I uh downloaded files until I got rate
+limited so be kind to your data sources and
+0:09:00.540,0:09:07.020
+don't abuse them um many websites will do this if
+they detect that you are uh scraping or whatever
+0:09:07.800,0:09:11.220
+um if they don't offer a bulk download
+there's there's probably a reason for it
+0:09:12.180,0:09:16.560
+um but anyways it didn't give me a warning
+that I had violated any any terms of service
+0:09:16.560,0:09:22.200
+that just said we see that you're you're you
+know we're rate limiting you um it didn't
+0:09:22.200,0:09:27.000
+say that there was any consequences just were
+temporarily rate limiting you so that's fine
+0:09:28.080,0:09:33.360
+um I mean this is all public information anyways
+it's from the Library of Congress so I think it's
+0:09:33.360,0:09:38.160
+more of a technical thing so anyways what I'm
+doing here is I'm converting it all to text
+0:09:39.660,0:09:47.520
+um so let's go to converted excuse me delete
+the ones that we don't need and this is uh you
+0:09:47.520,0:09:52.680
+know this is infinitely more case law than
+I ever want to read I mean I'm not going to
+0:09:52.680,0:10:00.600
+read one of them let alone 22 of them so let's
+go ahead and copy these over to my repo here
+0:10:01.500,0:10:09.240
+I'm gonna go ahead and replace that one okay
+so now we have 1.7 megabytes of case law of
+0:10:09.240,0:10:15.720
+Anti-Trust case law this goes back to the late 80s
+so this should be if we understand this if we do a
+0:10:15.720,0:10:23.160
+model as if we if we do something that understands
+this and we should have the ability to interact
+0:10:23.160,0:10:30.480
+with a machine that can explain the current common
+law of antitrust for America hey who knows maybe
+0:10:30.480,0:10:35.280
+legal eagle will watch this and uh want to do
+a collaboration or comment on how accurate it
+0:10:35.280,0:10:41.160
+is that would be cool um someone what's his
+name Devin someone please watch this and uh
+0:10:41.160,0:10:48.060
+and get Devin to check it out and comment on one
+my accuracy but also the value of this tool okay
+0:10:48.900,0:10:55.080
+so what do we do next well there's so here's
+the thing the token the biggest limitation
+0:10:55.080,0:11:02.340
+is the token limit of large language models
+so it's this weird Paradox right where the
+0:11:02.340,0:11:05.100
+model itself I don't remember how big
+they are they're many gigabytes right
+0:11:05.880,0:11:11.280
+um I think gpt3 is like 700 gigabytes of
+vram is how much it takes it's enormous
+0:11:11.280,0:11:17.340
+right so but despite how big it is that isn't
+it can't it can't take in that much information
+0:11:18.360,0:11:22.800
+um it takes it's like it's like blowing
+information in through a straw right same thing
+0:11:22.800,0:11:28.920
+with your brain right like your brain has you know
+it's three pounds of neurons 100 billion neurons 7
+0:11:28.920,0:11:35.100
+000 synaptic connections per neuron um but you
+can only speak at a few bytes per second right
+0:11:35.100,0:11:40.140
+the your input and output rate is very slow
+compared to the processing power of your brain
+0:11:41.280,0:11:46.920
+um and and the amount of information in it
+right so the the the the UI the API is very slow
+0:11:47.580,0:11:53.520
+same thing is true of of deep of of
+gpt3 and all language models right now
+0:11:54.600,0:11:59.520
+um so not only that they have a very short memory
+they can only remember what you do one task at
+0:11:59.520,0:12:08.400
+a time so you can it can't it cannot it is not
+possible for the machine to be able to tell us
 
 CHAPTER TITLE:
+
+==========
+
+08:05 - The Limitations of Large Language Models

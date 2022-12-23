@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,58 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:02:55.140,0:02:59.340
+then otherwise it just breaks it into chunks
+of six thousand um six thousand characters
+0:02:59.340,0:03:07.740
+long uh the current DaVinci can handle up to I
+think 14 to 16 000 characters um but do smaller
+0:03:07.740,0:03:13.620
+chunks because one token count and two you don't
+want so much information that it loses context
+0:03:14.880,0:03:21.000
+um another thing is um I probably have
+the temperature too high so I'll probably
+0:03:21.000,0:03:25.080
+turn the temperature down on this because
+sometimes it'll go off the rails a little bit
+0:03:26.220,0:03:31.200
+um but yeah so that's all you need with the
+instruct series um so what I'm going to do
+0:03:31.200,0:03:36.540
+then though is I'm going to adapt this script
+so I've got it down here so we've got clarified
+0:03:36.540,0:03:44.820
+transcripts and then I've got transcript insights
+so the key thing here is we want a different we
+0:03:44.820,0:03:48.420
+want a different result we want to say okay
+what's the most interesting thing so we're
+0:03:48.420,0:03:53.580
+going to do prompt chaining rather than rewriting
+or summarizing but before we move on I just want
+0:03:53.580,0:03:58.440
+to point out that this does this does two things
+when you say rewrite it as a clean essay it adds
+0:03:58.440,0:04:02.280
+punctuation and it adds vertical white space
+that's the two primary things but it also has
+0:04:02.280,0:04:09.660
+Rewritten it to kind of summarize and clear and
+clarify so it turns an unstructured transcript
+0:04:09.660,0:04:15.600
+into something that is absolutely readable that
+is human readable um because it goes from this
+0:04:16.440,0:04:20.640
+like literally like I know that it's
+probably unreal but it goes from this
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+02:55 - The DaVinci Method for Writing

@@ -135,6 +135,129 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:00:04.260,0:00:08.580
+hey everybody David Shapiro
+here uh back after a Hiatus
+0:00:09.480,0:00:12.780
+um I've got a lot going on you'll
+be excited for some news coming up
+0:00:13.740,0:00:20.760
+um first I want to address um a big elephant in
+the room I just put most of my videos back online
+0:00:21.720,0:00:25.260
+um this comes after of course making a
+recent video explaining why I took them down
+0:00:26.340,0:00:31.680
+um I did leave some of my videos down some
+of my code down but most of them are back up
+0:00:31.680,0:00:37.680
+uh both videos and repositories So after
+talking with people I figured out like
+0:00:37.680,0:00:43.440
+striking the balance between creating tools
+that will help people rather than replace
+0:00:43.440,0:00:50.220
+people it's inevitable that things are going
+to change but you know a tool is a tool right
+0:00:50.220,0:00:55.680
+and it's anyways I don't need to get lost in
+it go watch the other video so now that I'm
+0:00:55.680,0:01:01.200
+back um it's time to get my get our hands dirty
+again so one of the questions that pops up a lot
+0:01:01.740,0:01:09.720
+is people want to train gpt3 on how do I how do I
+do how do I fine-tune a question answering bot so
+0:01:09.720,0:01:14.760
+that I can talk about I think someone asked about
+like the the case law in Argentina or something
+0:01:15.480,0:01:20.700
+um I don't have that data but the short answer
+is you don't fine tuning doesn't work that way
+0:01:21.600,0:01:27.180
+um so fine-tuning is about teaching it
+a structure you do not teach it with uh
+0:01:27.180,0:01:32.820
+you don't teach it new knowledge with fine
+tuning what you do is you teach it patterns
+0:01:32.820,0:01:39.840
+so chat GPT is a pattern so the pattern is I
+ask a question and it writes a response like
+0:01:39.840,0:01:45.180
+that you and then you ask a follow-up question
+and it writes another wall of text that's the
+0:01:45.180,0:01:51.060
+pattern Chad gbt was not taught anything new
+it's only taught new stuff when you retrain
+0:01:51.060,0:01:57.600
+the underlying model you can't do that it's way
+too expensive to retrain the underlying model so
+0:01:59.640,0:02:06.180
+I figured let's pick something that will be a good
+Exemplar of this so just to do a quick recap the
+0:02:06.180,0:02:14.820
+the Genesis of this whole this whole project was
+that people ask for um how do you fine-tune um a
+0:02:14.820,0:02:20.940
+question answering thing that will you know do
+case law or any kind of knowledge base right
+0:02:21.720,0:02:27.000
+um it's all the same behind under the hood right
+you have a collection of documents wherever they
+0:02:27.000,0:02:33.540
+happen to be how do I do QA against that with
+gpt3 so here we go I already have one one that was
+0:02:33.540,0:02:37.560
+um answering complex questions from multiple
+documents but this is a little bit different
+0:02:38.580,0:02:43.320
+um because there's there's going to be a few steps
+to this so anyways to show you what I mean I went
+0:02:43.320,0:02:49.920
+over to chatgpt and um I said what is the kind of
+law system where law is established by precedent
+0:02:49.920,0:02:55.500
+and it says this is the common law system and
+they this is opposed to civil law so common law
+0:02:55.500,0:03:01.020
+means that a Supreme Court decision kind of sets
+the law of the land so if you want to understand
+0:03:01.020,0:03:09.180
+the American legal system you really need to
+understand case law and more often than not it
+0:03:09.180,0:03:13.800
+comes down to Supreme Court decisions because that
+is the highest court in the land so they set the
+0:03:13.800,0:03:21.780
+tone for everything so Supreme Court decisions
+really teach you how it works so um I went over
+0:03:21.780,0:03:28.980
+to a Library of Congress and I found that uh
+you can download uh all Supreme Court opinions
+0:03:28.980,0:03:36.360
+and they're grouped by uh by by case topic they're
+also grouped by um volume or justice but by topic
+0:03:36.360,0:03:40.560
+that's going to be more relevant right because
+let's imagine that you're an Anti-Trust lawyer
+0:03:40.560,0:03:45.900
+and you're an Anti-Trust lawyer and you want
+to say give me everything about antitrust law
+0:03:45.900,0:03:54.240
+I need to know everything that there is about you
+know um about this so that I understand the legal
+0:03:54.240,0:04:00.120
+precedent right because on the one hand there's
+established procedures right there's procedural
+0:04:00.120,0:04:05.040
+things um oh and I know all this because my
+fiance's cousin is training to be a lawyer and
+0:04:05.040,0:04:08.400
+um when they come visit uh this is
+what we talk about because we're nerds
 
 CHAPTER TITLE:
+
+==========
+
+00:04 - Understanding the American Legal System Through Supreme Court Decisions

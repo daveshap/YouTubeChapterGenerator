@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,67 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:53:37.560,0:53:45.780
+little bit that's that's a little bit of visual
+noise um so in terms of we'll just do um score
+0:53:47.400,0:53:51.960
+uh yeah because you reduce you reduce visual
+noise so that it's easier to parse because
+0:53:51.960,0:53:56.400
+this if it's the same thing it doesn't
+matter what you really care about is this
+0:53:57.480,0:54:02.760
+um so you know but you've got different um
+sizes colors and shapes to really draw your
+0:54:02.760,0:54:08.580
+eyes so you've got a really reliable pattern
+so this blue helps break up so you know like
+0:54:08.580,0:54:13.560
+okay there's a link if I want that one I just
+click there um honestly actually probably what
+0:54:13.560,0:54:19.680
+I ought to do is have oh I can simplify it we can
+do the title is the link and then just get rid of
+0:54:19.680,0:54:25.260
+the link there because why duplicate it yeah
+let's do that real quick okay so we will move
+0:54:27.540,0:54:32.280
+um we'll move this up to
+0:54:35.220,0:54:36.840
+let's see a haref
+0:54:40.440,0:54:46.140
+and so instead I guess here I'll do a href
+0:54:48.660,0:54:53.340
+okay and then we'll grab payload ID and title
+0:54:55.380,0:55:05.700
+there we go and so now we'll have a little bit
+less noise so now now it'll be this will be the
+0:55:05.700,0:55:09.720
+link so you just click on the title instead
+of having a separate link which is smaller
+0:55:09.720,0:55:16.560
+so that's a smaller Target so I have title score
+and then the abstract and that's that's it so it's
+0:55:17.280,0:55:21.600
+can't get much simpler than that
+and so this is the most like cut
+0:55:21.600,0:55:24.360
+down basic Search tool you can possibly have
+0:55:27.600,0:55:32.220
+um okay so then let's go back in
+let's wait for this to finish loading
+0:55:36.180,0:55:39.840
+come on there we go okay so do a quick reload
+0:55:44.040,0:55:48.780
+all right cool so now you see the format's
+a little bit different where you've got this
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+53:37 - Creating a search tool

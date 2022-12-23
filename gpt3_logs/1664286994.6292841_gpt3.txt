@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,71 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:22:32.040,0:22:36.360
+so you got the backslash n next so I want
+to clean that up and just make that a space
+0:22:36.360,0:22:44.100
+and I also want to trim these um okay so what
+I'll do is let's fix it we can fix it go away
+0:22:45.240,0:22:54.240
+silence I get you that's how old I am I remember
+when uh Jeff Dunham was live and popular I watched
+0:22:54.240,0:22:59.580
+him while hanging out in the dorm room
+of one of my friends many years ago okay
+0:23:01.680,0:23:09.720
+um all right so first what we're going to
+do is we'll just do title equals info Dot no
+0:23:14.940,0:23:22.080
+info.title dot strip and then we
+will do we will also wrap that in
+0:23:24.300,0:23:25.080
+resub
+0:23:30.240,0:23:34.020
+yep and we'll do the same treatment for abstract
+0:23:35.340,0:23:39.360
+abstract so then we're only touching it once
+because here's the thing when you're doing
+0:23:39.360,0:23:44.340
+something a million times literally millions of
+times you kind of want to if you if you have to
+0:23:44.340,0:23:49.800
+do a an operation on it you do it once if you're
+only doing it a few times you can afford to be
+0:23:49.800,0:23:58.500
+less efficient um but for for this in this case
+you want to be as efficient as possible and so
+0:23:59.460,0:24:10.260
+um what we're doing here is we're going to do
+idle Plus space Plus abstract abstract and so
+0:24:10.260,0:24:18.480
+we're doing the we're doing the regex on the title
+and Abstract once and then we'll also just because
+0:24:18.480,0:24:23.700
+we called it out into a variable so rather than
+like modified a couple times we modify it once
+0:24:25.140,0:24:35.220
+and away we go um so this should be a
+little bit better all right all right
+0:24:36.060,0:24:42.480
+try it again and then okay so while this is
+loading let me tell you what we're gonna do so
+0:24:43.140,0:24:49.560
+by having a semantic search engine that allows
+you to to measure the semantic similarity between
+0:24:50.340,0:24:56.880
+um basically titles and abstracts across a million
+articles it will allow you to find things that are
+0:24:56.880,0:25:02.760
+similar that you might not find just through other
+conventional means so basically what you'll put
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+22:32 - Building a semantic search engine to find similar articles

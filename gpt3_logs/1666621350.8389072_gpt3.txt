@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,97 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+1:39:40.920,1:39:45.720
+many many interesting challenges which does not
+mean that we have problem these are these are
+1:39:45.720,1:39:53.400
+just new things we want to to add to the language
+uh so that's okay so just levels of achievement
+1:39:53.400,1:40:00.180
+but no there's no technical hurdles preventing
+you from moving forward at this point well or
+1:40:00.180,1:40:08.100
+are there details to be ironed out but yeah I
+guess the main things are there yes excellent
+1:40:09.840,1:40:17.400
+and yes I agree indeed um you know ongoing effort
+but we know mathematically that will never end
+1:40:18.000,1:40:25.680
+is to enhance the expressiveness of the language
+and to have um a more efficient algorithms
+1:40:26.880,1:40:32.340
+okay so expanding expanding
+expressions and optimization
+1:40:33.240,1:40:38.700
+um but as you said those those that will never end
+that is just part of the ongoing work excellent
+1:40:39.780,1:40:45.060
+um as any final thoughts um you know one or two
+sentences from from each of you any final thoughts
+1:40:45.060,1:40:49.980
+that you would like the world to know about Tau
+before we uh we close our conversation for the day
+1:40:51.660,1:40:55.560
+well I can see my my perspective is a very uh
+1:40:57.240,1:41:04.080
+very focused on the technical aspect so I'm not
+really the one that has the the the conquer in
+1:41:04.080,1:41:09.420
+the world and changing the world and pushing for
+truth in the world from from that perspective I
+1:41:09.420,1:41:16.080
+really think that what we have done is really
+magic is a major technical advances in logic
+1:41:16.080,1:41:23.640
+and computational logic and this gives the
+company A major advantage business Advantage
+1:41:23.640,1:41:28.920
+too because we are the only owner so Tau the
+company is the only owner of this technology
+1:41:28.920,1:41:33.720
+and so they they can do these things and nobody
+still knows how they will get these results
+1:41:34.800,1:41:42.240
+and which is interesting as well so that's uh
+and then yeah I really keep like to keep going
+1:41:42.240,1:41:48.900
+working on with the group and then to meet these
+new challenges and extensions of the language
+1:41:50.940,1:41:55.020
+excellent thank you oh hard any any
+final thoughts for uh for the world
+1:41:57.900,1:42:03.960
+um that's how to take it more than 12. we want
+to take software development to the next level
+1:42:05.580,1:42:09.600
+that much more complex will be able to
+be programmed and controlled by users
+1:42:10.380,1:42:18.540
+bring software back to the people wonderful
+wonderful well thank you both so very much for
+1:42:18.540,1:42:24.840
+bringing me into the Tau group and having your
+folks reach out this has been a remarkable set
+1:42:24.840,1:42:30.720
+of conversations leading up to this and I I get
+chills just thinking about what it is that you're
+1:42:30.720,1:42:37.020
+doing and and and the the long-term implications
+and just How Deeply fascinating and complex it is
+1:42:37.020,1:42:43.860
+so again thank you for for the The Talk today and
+I look forward to continuing those conversations
+1:42:43.860,1:42:52.860
+and seeing where everything goes um so thank you
+thank you to you thank you so much cheers cheers
 
-CHAPTER TITLE:
+
+Descriptive title with timestamp:
+
+==========
+
+1:39:40 - The advancement of Tau technology

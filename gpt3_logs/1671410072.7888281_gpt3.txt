@@ -135,6 +135,65 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:21:58.320,0:21:59.220
+interesting
+0:22:01.740,0:22:13.980
+okay um let's give this a try I will give
+that a try but what about uh words where
+0:22:14.760,0:22:25.740
+um there are supposed to be duplicated
+characters like book or look
+0:22:27.960,0:22:35.220
+um does yours script handle that and we use nltk
+0:22:36.360,0:22:43.380
+or Spacey or something else
+to account for correct words
+0:22:51.480,0:22:55.800
+also while this is running I'm going to address
+the elephant in the room and that was it like a
+0:22:55.800,0:23:02.460
+week ago I made a video saying like meh chat GPT
+isn't that great um and uh so obviously like I
+0:23:02.460,0:23:09.480
+kind of have my foot in my mouth because this
+is amazing it also looks like it failed um so
+0:23:10.800,0:23:16.080
+all right let me do a time check we are at
+23 minutes so we're almost done for the day
+0:23:16.920,0:23:18.540
+um oh there we go okay
+0:23:30.660,0:23:39.360
+all right uh it's yeah yeah it'll it's gonna
+give me that thing so I think what we'll do is
+0:23:40.380,0:23:46.440
+we'll just check to see if this happens
+because it's better to have some data than none
+0:23:46.980,0:23:53.460
+so uh I think what we'll do all right split
+chunks that one worked dedupe characters so
+0:23:53.460,0:24:02.640
+what we need to do is find the ones where this
+happened right so um generally it looks like
+0:24:08.160,0:24:09.120
+okay
+0:24:13.980,0:24:18.060
+looks like it only happened
+in one document yeah okay so
+0:24:19.860,0:24:29.760
+in this case we'll say we'll pass in any file
+that um starts with this so we'll we'll uh we'll
+0:24:29.760,0:24:35.940
+we'll eat the eat the cost and what I mean by
+that is we'll just Excel accept that some data
+0:24:35.940,0:24:40.380
+is not going to be quite as good but that's
+plausible because like it's an OCR mistake
+0:24:40.380,0:24:51.900
+but the thing is is we just need it to be small
+enough to fit in um so de-duplicate characters uh
 
 CHAPTER TITLE:
+
+==========
+
+21:58 - De-duplicating Characters with NLTK

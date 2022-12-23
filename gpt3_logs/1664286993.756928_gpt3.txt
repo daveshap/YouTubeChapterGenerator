@@ -1,6 +1,4 @@
-Generate YouTube chapter titles from the following transcripts. 
-
-
+Summarize the entire following transcripts into a single descriptive title with timestamp:
 
 TRANSCRIPT:
 0:17:28.800,0:17:33.000
@@ -64,12 +62,11 @@ and and disruptive is a very soft word for painful
 um major economic disruptions are painful like 
 people lose their jobs people lose their homes
 
-CHAPTER TITLE: 17:28 - Exclusion from the Job Market
-
+Descriptive title with timestamp: 17:28 - Exclusion from the Job Market
 
 
 TRANSCRIPT:
-0:00:00.900,0:00:05.400
+ 0:00:00.900,0:00:05.400
 morning everybody David Shapiro here with 
 your daily state of the industry update
 0:00:06.000,0:00:11.820
@@ -130,11 +127,65 @@ the world reacts um basically the whole world
 is too complicated to simulate with any accuracy 
 and so therefore you know if this if this super
 
-CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
-
+Descriptive title with timestamp: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:19:21.660,0:19:28.200
+uh so the title equals info title because
+why not um no reason to smush it together
+0:19:28.200,0:19:33.960
+but we're just going to index them together um
+so that way you search when you search you're
+0:19:33.960,0:19:40.740
+searching the title as well as the abstract
+and then we'll do abstract is info abstract
+0:19:43.020,0:19:53.280
+okay and then I really need to plan on
+this bombing like because if it blows up
+0:19:54.420,0:20:02.760
+or if it fails I'm not gonna do any
+time keeping um but I what I will do
+0:20:04.980,0:20:10.380
+is we'll do one exit here real
+quick go ahead and load this
+0:20:14.760,0:20:16.200
+and let's do a quick run
+0:20:19.440,0:20:22.380
+and this should spit out a folder or a file here
+0:20:37.920,0:20:39.900
+and then we watch the GPU catch on fire
+0:20:42.900,0:20:46.920
+there it goes GPU memory is loaded
+up so it has loaded the model
+0:20:52.860,0:21:00.480
+articles loaded there it goes and now we'll
+watch vectors is not defined oh my God
+0:21:04.920,0:21:10.920
+embedding vector okay that's fine it's fine
+0:21:13.020,0:21:13.800
+um that should be good
+0:21:18.240,0:21:18.960
+let's try again
+0:21:21.600,0:21:23.880
+and then we will fix this in post as well
+0:21:54.300,0:21:55.140
+here it comes
+0:21:58.020,0:22:04.800
+yeah yep yep and then it
+exits and we should in theory
+0:22:05.700,0:22:12.300
+come here where is my folder
+embeddings why is it not showing up
+0:22:16.560,0:22:25.560
+there we go okay hey look at this so we've got
+abstract um it did not replace oh I didn't okay
+0:22:26.400,0:22:32.040
+yeah I need to replace both but we did get it
+okay so we need to do a little bit more cleanup
 
-CHAPTER TITLE:
+Descriptive title with timestamp:
+
+==========
+
+19:21 - Building a tool to index and search papers

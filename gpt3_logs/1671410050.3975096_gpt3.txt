@@ -135,6 +135,122 @@ CHAPTER TITLE: 00:00 - The impossibility of containing a superintelligence
 
 
 TRANSCRIPT:
-<<TRANSCRIPT>>
+0:27:31.620,0:27:37.500
+um characters long so this should be small
+enough to run let's see how many tokens it is
+0:27:43.380,0:27:47.400
+um okay so that's now we're down to
+2800 tokens let me remove the Json part
+0:27:48.420,0:27:53.820
+so now we're at 2500 tokens
+tops so we can do we can do
+0:27:54.420,0:28:00.960
+um we can do like 1450 so that's more than
+twice as many tokens so let's see it's it's
+0:28:00.960,0:28:08.040
+more than twice as many tokens with uh 25 less
+input so theoretically this should be the limit
+0:28:10.860,0:28:16.020
+um cool all right excellent I think this is good
+0:28:18.360,0:28:24.480
+all right so we're almost done for the
+day um let's see what chat GPT said
+0:28:25.200,0:28:30.780
+do you duplicate characters yeah there we
+go okay so let's do this for the D dupe
+0:28:33.180,0:28:41.580
+um so let's come back here save it and
+then we'll do python step O2 dedupe
+0:28:42.600,0:28:44.640
+all right we needed to add the um
+0:28:45.960,0:28:57.720
+Whatchamacallit encoding encoding equals UTF eight
+and then for the right and coding equals UTF eight
+0:29:00.120,0:29:05.700
+okay so now if we go to the dedupt oh
+actually here we need to delete this
+0:29:09.300,0:29:12.420
+it did all of them interesting um
+0:29:18.900,0:29:22.080
+oh it that's no if if not in file
+0:29:25.260,0:29:27.180
+it got the logic wrong I'm like no it was
+0:29:27.180,0:29:29.820
+only supposed to do like five
+of these let's try that again
+0:29:32.760,0:29:36.780
+there we go okay so now the largest
+of these is eight kilobytes which is
+0:29:36.780,0:29:43.500
+plenty small so we come back to chunks and
+we'll replace those replace yes so now our
+0:29:43.500,0:29:50.220
+absolute largest file is 10 kilobytes 9 300
+characters so this should all easily fit within
+0:29:51.360,0:30:00.840
+um no this should all easily fit within our prompt
+window here so now we need to just go ahead and um
+0:30:03.060,0:30:06.540
+run the thing so all right so let's say
+0:30:09.540,0:30:22.080
+excellent we are now ready to run our uh prompts
+are you familiar with open AI python module
+0:30:29.280,0:30:34.380
+open AI is dot dot dot I'm wondering
+if it's slowing down because
+0:30:34.920,0:30:40.800
+um uh people are waking up this is one advantage
+of being a super early bird is I get up earlier
+0:30:40.800,0:30:44.940
+than like everyone else granted you know it's
+always middle of the day somewhere in the world
+0:30:46.500,0:30:57.540
+um anyways uh so this may or may not help us with
+um with this part so now let's see open file save
+0:30:57.540,0:31:09.240
+file open AI key text DaVinci 03 tempt that that
+we can do this up to 1450 that's fine in code
+0:31:11.340,0:31:19.680
+all right so this I just cannibalized another um
+thing um we do not want to clean that up because
+0:31:19.680,0:31:26.700
+this is going to be there that's fine all right
+network error yeah I figured that would happen
+0:31:27.600,0:31:36.180
+um okay so let's do a refresh um I have
+a folder called what is the name of my
+0:31:36.180,0:31:44.700
+folder God I have like chipmunk chip monk memory
+it's hard chipmunk memory um called chunks.text
+0:31:47.640,0:31:53.880
+called chunks underscore text um
+that is full of dot text files
+0:31:54.840,0:32:04.620
+um each file um please write a python
+script that uses open AI module and
+0:32:05.520,0:32:19.020
+new module and calls um and uses text DaVinci
+O3 as the engine we'll say as the model um
+0:32:21.420,0:32:33.660
+and uses the contents of the file
+in the chunks folder to populate
+0:32:34.920,0:32:47.820
+a prompt The Prompt is stored as um let's
+see prompt underscore Json LD uh citation
+0:32:47.820,0:32:56.760
+nodes dot text and has a placeholder called
+um what did I call the placeholder chunk
+0:32:59.580,0:33:03.120
+called chunk um in other words
+0:33:05.940,0:33:14.520
+open the text file or no um let's
+see open the prompt file then replace
+0:33:17.880,0:33:27.840
+chunk with the contents of the file from
+chunks.text and use this as the prompt for
 
 CHAPTER TITLE:
+
+==========
+
+27:31 - Writing a Python Script with Open AI Module
