@@ -1,0 +1,2769 @@
+[4.4 - 10.2] hey everyone David Shapiro here with
+
+[7.44 - 11.82] another podcast interview today I am
+
+[10.2 - 14.16] super excited to introduce Anna
+
+[11.82 - 15.96] Bernstein one of the world's first uh
+
+[14.16 - 18.779] professional prompt engineers
+
+[15.96 - 20.22] Anna is wonderful to talk to very very
+
+[18.779 - 22.56] bright
+
+[20.22 - 25.919999999999998] um and just a wonderful charismatic
+
+[22.56 - 27.9] person and so uh without further Ado um
+
+[25.92 - 30.42] Anna would you like to tell us a little
+
+[27.9 - 31.74] bit about yourself your history how you
+
+[30.42 - 34.02] got to where you are and what you're
+
+[31.74 - 37.8] working on
+
+[34.02 - 39.899] um yeah I uh am a prompt engineer at
+
+[37.8 - 43.86] copy AI
+
+[39.899 - 48.059] um kind of a strange path to get there
+
+[43.86 - 51.6] um but uh I yeah create the prompt
+
+[48.059 - 52.739] infrastructure uh at copy Ai and it's a
+
+[51.6 - 55.260000000000005] bit of a
+
+[52.739 - 57.18] it's both a building role for things we
+
+[55.26 - 60.239] need and a bit of a mad scientist role
+
+[57.18 - 62.579] for things that might be possible
+
+[60.239 - 65.75999999999999] um which is a lot of fun
+
+[62.579 - 68.88] um and uh I grew up in New York come
+
+[65.76 - 71.52000000000001] from a very non-tech background until I
+
+[68.88 - 73.79899999999999] started at this role
+
+[71.52 - 76.92] um so like I said it's been kind of kind
+
+[73.799 - 78.84] of a strange path to get here but I um I
+
+[76.92 - 82.2] love it I love performance engineering
+
+[78.84 - 85.74000000000001] and I love where I am in the industry so
+
+[82.2 - 87.659] excellent thanks so much yeah so during
+
+[85.74 - 90.89999999999999] our our original
+
+[87.659 - 92.22] um like pre-podcast talk one of the
+
+[90.9 - 95.04] things that you mentioned was that you
+
+[92.22 - 96.78] always had a love of language and I
+
+[95.04 - 99.06] don't remember exactly how you how you
+
+[96.78 - 102.6] articulated it but that you really love
+
+[99.06 - 104.22] to zoom in and get into the weeds of
+
+[102.6 - 106.32] language so I was wondering if you could
+
+[104.22 - 108.479] tell us a little bit about your
+
+[106.32 - 111.05999999999999] background and and your love of language
+
+[108.479 - 112.56] because that really stood out to me
+
+[111.06 - 114.0] yeah
+
+[112.56 - 115.14] um I mean I've always wanted to be a
+
+[114.0 - 118.32] writer
+
+[115.14 - 120.72] um and uh
+
+[118.32 - 124.55999999999999] I think I have sort of a slightly
+
+[120.72 - 127.5] obsessive approach to language
+
+[124.56 - 129.3] um which can be a good or a bad thing uh
+
+[127.5 - 130.739] certainly not the best when you're
+
+[129.3 - 133.08] trying to figure out the words to choose
+
+[130.739 - 135.66] on a podcast
+
+[133.08 - 137.94000000000003] um but I really like taking an
+
+[135.66 - 139.379] analytical approach to language but
+
+[137.94 - 142.5] specifically to like creative language
+
+[139.379 - 146.57999999999998] creative writing literary work
+
+[142.5 - 149.34] um I think uh it it can be really
+
+[146.58 - 152.22] fruitful to like drill down on that
+
+[149.34 - 154.14000000000001] um and that's manifested in a couple
+
+[152.22 - 155.459] ways before this job
+
+[154.14 - 157.73899999999998] um the first
+
+[155.459 - 159.599] um was uh I don't know if you want me to
+
+[157.739 - 161.09900000000002] go into this yet sort of education and
+
+[159.599 - 163.85999999999999] stuff or
+
+[161.099 - 166.44] or uh yeah please go for it yeah we'll
+
+[163.86 - 167.70000000000002] we'll jump around just as it makes sense
+
+[166.44 - 171.78] so
+
+[167.7 - 173.459] um I was uh I had a minor uh I was doing
+
+[171.78 - 176.099] a minor in Arabic
+
+[173.459 - 178.56] uh translation specifically like fusa
+
+[176.099 - 180.959] translation which is a lot of um
+
+[178.56 - 184.019] medieval poetry as well as the Quran and
+
+[180.959 - 184.8] the youth and I
+
+[184.019 - 186.68] um
+
+[184.8 - 189.0] really loved how
+
+[186.68 - 190.86] compact the grammar was in a way it
+
+[189.0 - 194.34] wasn't flowery it was extremely
+
+[190.86 - 196.62] efficient and extremely elaborate at the
+
+[194.34 - 199.739] same time and you know a forward
+
+[196.62 - 202.26] sentence since could be like you know an
+
+[199.739 - 203.4] eight-word sentence or much longer in
+
+[202.26 - 207.29999999999998] English
+
+[203.4 - 208.739] um but it was a lot of puzzle solving in
+
+[207.3 - 211.56] regards to language and a lot of like
+
+[208.739 - 213.42000000000002] like a single diacritic Mark could like
+
+[211.56 - 215.28] change the entire meaning of a sentence
+
+[213.42 - 218.22] so you really had to be extremely
+
+[215.28 - 221.459] precise and at the same time the puzzles
+
+[218.22 - 223.739] you were unlocking weren't dry they were
+
+[221.459 - 225.84] like these beautiful verses and once you
+
+[223.739 - 227.70000000000002] got it right once you had all the like
+
+[225.84 - 230.099] you know oh this is an adjustment or
+
+[227.7 - 232.44] whatever and you like unlocked the
+
+[230.099 - 234.11999999999998] puzzle of that verse you were rewarded
+
+[232.44 - 236.159] with like oh my God that meaning is
+
+[234.12 - 239.22] beautiful so it was this like
+
+[236.159 - 241.739] combination of like analytical
+
+[239.22 - 244.08] um like approach to it and like puzzle
+
+[241.739 - 246.299] solving approach that
+
+[244.08 - 248.58] like ultimately the puzzle you were
+
+[246.299 - 250.26000000000002] solving was like a beautiful poetic
+
+[248.58 - 254.28] meaning
+
+[250.26 - 255.959] um and that I moved on from uh College
+
+[254.28 - 257.28] thinking that would never be relevant
+
+[255.959 - 259.799] ever
+
+[257.28 - 263.03999999999996] to my career
+
+[259.799 - 264.96] um but I kind of find that that's
+
+[263.04 - 267.47900000000004] there's a parallel area to prompt
+
+[264.96 - 269.34] engineering for sure
+
+[267.479 - 273.419] yeah that's that's such a wonderful
+
+[269.34 - 275.94] story and my my fiance is a uh she loves
+
+[273.419 - 277.5] Latin and so she tells me all very
+
+[275.94 - 278.699] similar stories about translating The
+
+[277.5 - 281.58] Aeneid
+
+[278.699 - 284.72] um and just uh it's it's
+
+[281.58 - 287.03999999999996] fascinating because especially for for
+
+[284.72 - 288.90000000000003] monolinguists like myself
+
+[287.04 - 289.86] um or mono Globs probably is the right
+
+[288.9 - 291.62] word
+
+[289.86 - 294.18] um like we're only familiar with English
+
+[291.62 - 296.34000000000003] so I have I have a bunch of different
+
+[294.18 - 299.24] directions I want to go
+
+[296.34 - 302.09999999999997] um but I guess first
+
+[299.24 - 303.96000000000004] well actually let's let's rewind because
+
+[302.1 - 306.18] this was a really great intro so let's
+
+[303.96 - 308.52] rewind a minute and tell tell us a
+
+[306.18 - 312.68] little bit about how you how you landed
+
+[308.52 - 312.68] this job it started at a jazz club right
+
+[313.86 - 318.72] um yeah I
+
+[315.9 - 321.17999999999995] um love going out to a jazz club when
+
+[318.72 - 323.16] it's raining and just having a single
+
+[321.18 - 325.74] drink by myself and it's a wonderful
+
+[323.16 - 327.3] like ritual that I do maybe once a month
+
+[325.74 - 329.16] and
+
+[327.3 - 331.62] um I did that
+
+[329.16 - 335.1] um went to go check out a new place
+
+[331.62 - 338.16] um and started talking to someone there
+
+[335.1 - 339.36] um who was uh one year Zhang who's
+
+[338.16 - 343.139] um
+
+[339.36 - 344.82] who was an early person at copy AI
+
+[343.139 - 347.28000000000003] um and we
+
+[344.82 - 350.15999999999997] had this moment where
+
+[347.28 - 352.32] our it was like oh your brain does a
+
+[350.16 - 354.53900000000004] really similar thing to what my brain is
+
+[352.32 - 356.28] doing like we just sort of got along
+
+[354.539 - 359.46] really well
+
+[356.28 - 361.919] um and uh you know kept hanging out and
+
+[359.46 - 364.68] there was a moment where
+
+[361.919 - 366.78] he was trying to figure out this was
+
+[364.68 - 369.539] like the second or third time we hung
+
+[366.78 - 370.5] out he was trying to figure out what the
+
+[369.539 - 372.0] um
+
+[370.5 - 374.759] I'm not forgetting the name of it but
+
+[372.0 - 376.5] there's there's a word in uh there's an
+
+[374.759 - 378.6] Indonesian word for
+
+[376.5 - 381.06] a certain type of flavor it's similar to
+
+[378.6 - 383.22] a mommy but it's specifically Indonesian
+
+[381.06 - 384.72] now I don't remember what it is and I
+
+[383.22 - 386.88000000000005] would mispronounce it anyway but
+
+[384.72 - 388.44000000000005] basically he was like oh I can't think
+
+[386.88 - 390.6] of it
+
+[388.44 - 393.78] um hold on and he pulled up his phone
+
+[390.6 - 396.84000000000003] and started doing something this was
+
+[393.78 - 397.85999999999996] summer of 2021. well I just want to
+
+[396.84 - 400.19899999999996] start doing something and I was like
+
+[397.86 - 403.62] what what is that
+
+[400.199 - 405.36] um and it was the playground for gp3
+
+[403.62 - 408.12] um on his phone and he was he had like
+
+[405.36 - 412.259] typed in stuff of like describing the
+
+[408.12 - 414.539] flavor and then like asking what it was
+
+[412.259 - 416.34000000000003] um and he like explained to me what he
+
+[414.539 - 420.18] was doing and what the playground was
+
+[416.34 - 422.75899999999996] gp3 and I find this was early so this is
+
+[420.18 - 425.16] like Da Vinci just based Da Vinci
+
+[422.759 - 427.5] um and I was immediately like oh wait I
+
+[425.16 - 429.12] think maybe if we just just wrote the
+
+[427.5 - 431.22] first part of the sentence instead
+
+[429.12 - 433.74] rather than asking the question out
+
+[431.22 - 435.6] right it would just like autocomplete or
+
+[433.74 - 437.22] like I don't know I just like very
+
+[435.6 - 438.6] arrogantly immediately had a billion
+
+[437.22 - 440.16] ideas for how to do this thing that I
+
+[438.6 - 444.24] barely understood
+
+[440.16 - 445.62] um and we got the flavored name and uh
+
+[444.24 - 447.90000000000003] it was kind of hooked
+
+[445.62 - 449.58] and you know a little while after that
+
+[447.9 - 450.9] he was like why don't you um you know
+
+[449.58 - 453.24] we've tried a lot of people in this role
+
+[450.9 - 454.979] we're not even sure if this is a role at
+
+[453.24 - 457.319] the time they were like oh you just sort
+
+[454.979 - 458.639] of improve the examples in our case
+
+[457.319 - 460.08000000000004] shots or whatever
+
+[458.639 - 462.36] um it's more of a copywriting role like
+
+[460.08 - 465.0] that and like they were but they had
+
+[462.36 - 465.66] tried a number of people in that role
+
+[465.0 - 469.02] um
+
+[465.66 - 470.639] and it it kind of wasn't working so they
+
+[469.02 - 474.539] were really taking a shot in the dark
+
+[470.639 - 478.919] with someone when you met at a jazz club
+
+[474.539 - 481.02] um and uh I remember Chris Chris Lou
+
+[478.919 - 483.24] who's one of the co-founders of cop AI
+
+[481.02 - 485.039] when he was explaining it to me I loved
+
+[483.24 - 487.44] the way he explained it he was like it's
+
+[485.039 - 488.88] kind of like a spell like you know in
+
+[487.44 - 490.319] Harry Potter when they say a spell
+
+[488.88 - 491.52] slightly wrong and it like does the
+
+[490.319 - 493.08000000000004] slightly wrong thing but they have to
+
+[491.52 - 495.18] like get the flick of the wrist right
+
+[493.08 - 496.62] and like you just have to like get the
+
+[495.18 - 498.419] spell right but you don't know what this
+
+[496.62 - 501.24] you're inventing the spell
+
+[498.419 - 502.68] and I was like that's that I can do that
+
+[501.24 - 504.66] so
+
+[502.68 - 506.639] um yeah it started there on on contract
+
+[504.66 - 509.34000000000003] freelance and then um
+
+[506.639 - 511.8] when if I was adding value they hired me
+
+[509.34 - 513.8389999999999] so yeah
+
+[511.8 - 517.6800000000001] wonderful that is such a great story
+
+[513.839 - 520.6800000000001] that's like a perfect origin story
+
+[517.68 - 522.8389999999999] um so yeah so you mentioned that you you
+
+[520.68 - 525.959] work on the prompt infrastructure for
+
+[522.839 - 527.899] copy Ai and obviously we want to respect
+
+[525.959 - 530.6999999999999] um you know any proprietary information
+
+[527.899 - 532.8] but since you since you've been there
+
+[530.7 - 534.839] and and you know you work on language
+
+[532.8 - 537.12] and you've had this really analytical
+
+[534.839 - 539.4590000000001] View and it sounds like you almost kind
+
+[537.12 - 541.38] of had an intuitive
+
+[539.459 - 543.2399999999999] um kind of take to it
+
+[541.38 - 545.279] um so I have I have a couple couple
+
+[543.24 - 548.58] directions that I want to go there's one
+
+[545.279 - 550.62] could you could you describe you know
+
+[548.58 - 553.44] how your background your study of of
+
+[550.62 - 554.82] Arabic or anything that you might have
+
+[553.44 - 556.9200000000001] done before then because I believe you
+
+[554.82 - 560.1] mentioned that you um you did a you were
+
+[556.92 - 562.279] a research assistant before that as well
+
+[560.1 - 565.14] um but then how does all that tie into
+
+[562.279 - 566.64] prompt engineering and obviously like if
+
+[565.14 - 569.519] they've hired you full time it has
+
+[566.64 - 572.459] worked out well so what about about you
+
+[569.519 - 574.98] your experience your interests has um
+
+[572.459 - 576.2399999999999] made like made you ideal for this role I
+
+[574.98 - 577.62] know I asked a bunch of questions so
+
+[576.24 - 580.019] just I'll leave it up to you pick
+
+[577.62 - 582.839] whichever direction you want to go first
+
+[580.019 - 584.1] yeah well I think um it's so much what I
+
+[582.839 - 586.44] was saying about you know this sort of
+
+[584.1 - 587.82] like analytical approach to what makes
+
+[586.44 - 589.5] language beautiful or what makes
+
+[587.82 - 590.279] language compelling thinking about the
+
+[589.5 - 592.14] like
+
+[590.279 - 594.18] specifics of when you look at the
+
+[592.14 - 596.3389999999999] language itself but also like
+
+[594.18 - 598.5799999999999] the audience's interaction with language
+
+[596.339 - 600.3800000000001] that makes it compelling
+
+[598.58 - 605.1600000000001] but
+
+[600.38 - 607.4399999999999] I uh can't say it was necessarily all of
+
+[605.16 - 609.36] my I mean I had a wonderful education in
+
+[607.44 - 612.7790000000001] New York
+
+[609.36 - 616.08] um and then uh had a great two years of
+
+[612.779 - 618.3] education at McAllister in Minnesota and
+
+[616.08 - 620.88] then dropped out
+
+[618.3 - 623.16] um because of health issues I I couldn't
+
+[620.88 - 624.36] get to class every day um went back to
+
+[623.16 - 626.3389999999999] New York and
+
+[624.36 - 628.62] um worked partly as a copywriter but as
+
+[626.339 - 630.6] you mentioned partly as a
+
+[628.62 - 631.98] um like research assistant mainly for
+
+[630.6 - 633.9590000000001] like historical and biographical
+
+[631.98 - 635.94] projects
+
+[633.959 - 638.6999999999999] um I worked on a book called women who
+
+[635.94 - 640.2600000000001] made New York with Julie scofo where I
+
+[638.7 - 643.74] um got to research a lot of different
+
+[640.26 - 645.3] women and that was that was really uh
+
+[643.74 - 647.1] wonderful and fascinating digging up
+
+[645.3 - 648.4799999999999] like the exact right fact about someone
+
+[647.1 - 649.44] that sort of unlocked their whole
+
+[648.48 - 651.6] narrative
+
+[649.44 - 653.2790000000001] which I guess when I as I say that that
+
+[651.6 - 655.32] sort of fits with this theme that I'm
+
+[653.279 - 657.8389999999999] realizing of like the sort of like
+
+[655.32 - 660.38] slight obsessiveness and like
+
+[657.839 - 665.339] finding just the right thing
+
+[660.38 - 667.92] for like a narrative or creative
+
+[665.339 - 669.72] um purpose
+
+[667.92 - 672.66] um I also
+
+[669.72 - 673.98] um write poetry which I was the other
+
+[672.66 - 676.079] day I was at a party my friend was like
+
+[673.98 - 679.32] here is poetess anniversity and I was
+
+[676.079 - 682.62] like never introduce me that way again
+
+[679.32 - 684.5400000000001] um but I yeah I have some some poetry in
+
+[682.62 - 688.26] journals
+
+[684.54 - 691.74] um and uh a couple of short stories
+
+[688.26 - 693.18] um but writing poetry is
+
+[691.74 - 695.64] up
+
+[693.18 - 698.64] for me it's a it's obsessive process but
+
+[695.64 - 701.6999999999999] it's also one that involves
+
+[698.64 - 704.279] seeing many different approaches at the
+
+[701.7 - 706.62] same time and keeping them in mind and
+
+[704.279 - 708.36] often like mentally not throwing them
+
+[706.62 - 709.5] away in case you go down one route and
+
+[708.36 - 710.839] it doesn't work and then you have to
+
+[709.5 - 716.519] back up and go down a different route
+
+[710.839 - 718.8000000000001] and often it's also a process of
+
+[716.519 - 722.24] choosing when to go with your first
+
+[718.8 - 725.459] thought and when to go with your like
+
+[722.24 - 728.22] 246 thought
+
+[725.459 - 730.4399999999999] um it's rarely like your fifth thought I
+
+[728.22 - 731.519] find personally but
+
+[730.44 - 735.12] um
+
+[731.519 - 736.14] but I think like that sort of
+
+[735.12 - 738.12] um
+
+[736.14 - 739.98] thinking of like
+
+[738.12 - 742.8] what's the most intuitive thing to do
+
+[739.98 - 744.6] here balanced with like what's an
+
+[742.8 - 745.92] unintuitive thing to do here that I
+
+[744.6 - 748.019] haven't maybe thought of yet that would
+
+[745.92 - 749.8199999999999] be a better way of approaching this
+
+[748.019 - 751.44] um I think is it's helpful along with
+
+[749.82 - 754.019] obviously the editing process of poetry
+
+[751.44 - 756.6600000000001] is so like granular and like you have to
+
+[754.019 - 758.519] and even short stories like there's this
+
+[756.66 - 759.66] you know tip of like if you find
+
+[758.519 - 760.8] yourself
+
+[759.66 - 764.04] um
+
+[760.8 - 765.4799999999999] taking in and or taking out and putting
+
+[764.04 - 767.0999999999999] in the same comma over and over again
+
+[765.48 - 769.139] your story is probably done otherwise
+
+[767.1 - 770.76] it's probably not
+
+[769.139 - 774.42] um so
+
+[770.76 - 775.8] it's it's yeah it kind of all all ties
+
+[774.42 - 779.3389999999999] together in a way especially because
+
+[775.8 - 780.959] when you're writing you're trying to
+
+[779.339 - 782.2790000000001] write for yourself but also write for
+
+[780.959 - 784.38] your audience and you're trying to think
+
+[782.279 - 785.82] of how you're writing interacts with
+
+[784.38 - 788.3389999999999] another brain
+
+[785.82 - 790.44] or a potential other brain or
+
+[788.339 - 792.1800000000001] potentially many other brains
+
+[790.44 - 794.1] but you're also trying not to think
+
+[792.18 - 795.66] about that as well but it's
+
+[794.1 - 797.519] but you you have to be thinking about
+
+[795.66 - 800.76] that and with the with prompt
+
+[797.519 - 804.24] engineering there's this balance of
+
+[800.76 - 807.12] treating the AI as human in a weird way
+
+[804.24 - 809.639] where you're like what
+
+[807.12 - 811.62] how would a human do this what parts of
+
+[809.639 - 814.0790000000001] the human thought process process am I
+
+[811.62 - 816.66] missing when I analyze this task like
+
+[814.079 - 819.0] what what is missing from this task in
+
+[816.66 - 821.3389999999999] this sort of undercurrent of it that
+
+[819.0 - 822.06] isn't being provided to the AI
+
+[821.339 - 823.86] um
+
+[822.06 - 825.2399999999999] and sometimes that's better with like
+
+[823.86 - 827.16] treating it as more human but then there
+
+[825.24 - 829.38] are also ways where you're like
+
+[827.16 - 831.7199999999999] I am treating it as too human and I need
+
+[829.38 - 833.459] to like back up and think of like the
+
+[831.72 - 835.019] specific limitations and the specific
+
+[833.459 - 836.6389999999999] powers that it has and that each
+
+[835.019 - 840.48] different model has
+
+[836.639 - 843.1800000000001] so that was very rambling I'm sorry
+
+[840.48 - 845.7] well I uh I have good news I was able to
+
+[843.18 - 847.7399999999999] follow it but I think I think that
+
+[845.7 - 849.899] there's I mean gosh there's so much that
+
+[847.74 - 851.94] I agree with you on because you know
+
+[849.899 - 854.16] I've been uh slightly obsessed myself
+
+[851.94 - 857.639] with language models
+
+[854.16 - 860.04] um you know and uh so yeah you mentioned
+
+[857.639 - 863.519] a few things a couple times that I want
+
+[860.04 - 866.0999999999999] to um unpack a little bit so one was
+
+[863.519 - 868.74] audience so you've mentioned audience a
+
+[866.1 - 870.6] couple times like you know what it think
+
+[868.74 - 872.399] thinking about the language model as
+
+[870.6 - 874.9200000000001] your potential audience you know maybe
+
+[872.399 - 878.279] it's maybe it helps to think about it as
+
+[874.92 - 881.2199999999999] human or or not depending on
+
+[878.279 - 883.86] um so there's there's that aspect
+
+[881.22 - 886.38] um but you've also talked about how you
+
+[883.86 - 888.48] you tend to think through like you know
+
+[886.38 - 890.579] the the undercurrents of what is and is
+
+[888.48 - 892.38] not present in the language that you're
+
+[890.579 - 894.66] feeding the model or the prompt
+
+[892.38 - 895.92] engineering but one thing that really
+
+[894.66 - 897.36] stood out to me the thing that most
+
+[895.92 - 899.3389999999999] stood out to me
+
+[897.36 - 902.82] um as you were sharing that was the
+
+[899.339 - 904.98] process of right fighting poetry and you
+
+[902.82 - 906.6] said that like you know sometimes
+
+[904.98 - 908.639] there's the intuitive path there's the
+
+[906.6 - 910.139] unintuitive path sometimes you pay
+
+[908.639 - 912.66] attention to the first thing and
+
+[910.139 - 914.519] sometimes it's the 200th thing
+
+[912.66 - 917.04] um and that sounds
+
+[914.519 - 919.74] kind of like prompt Engineering in some
+
+[917.04 - 922.5] respects and so what I wanted to to do
+
+[919.74 - 924.839] was explore this idea that creative
+
+[922.5 - 928.32] writing or poetry in particular which is
+
+[924.839 - 930.9590000000001] a very uh specific use of language
+
+[928.32 - 934.019] um how how your your your
+
+[930.959 - 935.88] mental approaches to this how that might
+
+[934.019 - 937.92] have played into your abilities as a
+
+[935.88 - 940.38] prompt engineer what your observations
+
+[937.92 - 941.639] are and then finally
+
+[940.38 - 944.22] um you know editing if that kind of
+
+[941.639 - 945.9590000000001] figures into it as a skill I want to
+
+[944.22 - 947.82] think about these things as skills that
+
+[945.959 - 949.8599999999999] have been developed or intuitions that
+
+[947.82 - 952.139] have been developed so what are what are
+
+[949.86 - 955.019] your uh associations there with poetry
+
+[952.139 - 957.899] and audience
+
+[955.019 - 959.279] yeah I think choosing the exact right
+
+[957.899 - 962.339] word
+
+[959.279 - 965.24] um is in order to elicit the right
+
+[962.339 - 967.8000000000001] reaction is extremely
+
+[965.24 - 969.0] important and I actually don't even know
+
+[967.8 - 970.74] which one I'm talking about when I say
+
+[969.0 - 973.38] that because I mean it for both
+
+[970.74 - 975.9590000000001] um and
+
+[973.38 - 977.3389999999999] elicit the right reaction although means
+
+[975.959 - 978.959] very different things for both those
+
+[977.339 - 981.48] those things and one it's you know
+
+[978.959 - 983.579] you're almost trying to
+
+[981.48 - 986.6990000000001] by finding the exact right word in the
+
+[983.579 - 990.3] prompt like almost task locate
+
+[986.699 - 992.279] for the right reaction from the AI and I
+
+[990.3 - 994.9799999999999] think people under utilize word choice
+
+[992.279 - 997.079] in their prompts they sort of rely on
+
+[994.98 - 998.399] approach which is good to take a variety
+
+[997.079 - 1000.4399999999999] of approaches that's also very good but
+
+[998.399 - 1003.56] sometimes I find that an approach I want
+
+[1000.44 - 1005.48] to take doesn't work on the first try or
+
+[1003.56 - 1007.699] like the 10th try with the wording I'm
+
+[1005.48 - 1009.74] trying like sometimes it is really
+
+[1007.699 - 1012.019] helpful like you can make this crazy
+
+[1009.74 - 1014.1800000000001] approach that you thought just you know
+
+[1012.019 - 1016.04] wasn't viable work when you like really
+
+[1014.18 - 1018.8599999999999] hit the right
+
+[1016.04 - 1020.54] like vocabulary for it
+
+[1018.86 - 1022.04] um like there's a specific I won't go
+
+[1020.54 - 1023.48] into too much detail but there's a
+
+[1022.04 - 1024.86] specific approach that way that I was
+
+[1023.48 - 1026.839] like oh it doesn't work it doesn't work
+
+[1024.86 - 1028.28] and like no matter the synonyms I try to
+
+[1026.839 - 1030.62] and then I you know on this phrase
+
+[1028.28 - 1033.26] thoroughly and faithfully and that like
+
+[1030.62 - 1035.059] unlock the whole thing
+
+[1033.26 - 1037.52] um and the same thing can happen with
+
+[1035.059 - 1039.799] poetry I mean instead of the right
+
+[1037.52 - 1042.679] generation happening what you're looking
+
+[1039.799 - 1045.079] for is that like kick in the chest when
+
+[1042.679 - 1048.919] you read it which is a bit more
+
+[1045.079 - 1052.04] ephemeral and whatever but
+
+[1048.919 - 1053.96] um but you know for me it does feel in
+
+[1052.04 - 1055.7] some ways like a binary when I read
+
+[1053.96 - 1057.679] poetry like either that happens for me
+
+[1055.7 - 1058.5800000000002] or it doesn't
+
+[1057.679 - 1061.16] um
+
+[1058.58 - 1065.48] so yeah I think a lot of it comes back
+
+[1061.16 - 1067.52] to language as act and you know language
+
+[1065.48 - 1069.74] of speech act and that kind of thing and
+
+[1067.52 - 1072.26] this is like a very like prompt
+
+[1069.74 - 1073.88] engineering is a very literal like
+
+[1072.26 - 1076.64] concrete
+
+[1073.88 - 1080.0] example of like language as like a
+
+[1076.64 - 1080.7800000000002] speech act like a like a piece of speech
+
+[1080.0 - 1084.5] that
+
+[1080.78 - 1086.12] by being spoken and acts something
+
+[1084.5 - 1087.38] um so I think they both belong to that
+
+[1086.12 - 1090.5] category
+
+[1087.38 - 1091.94] um that's maybe a little more like
+
+[1090.5 - 1093.02] I don't know maybe you're looking for
+
+[1091.94 - 1095.419] something a little more practical I
+
+[1093.02 - 1097.46] think word choice and I think in poetry
+
+[1095.419 - 1099.3200000000002] something that's also underutilized this
+
+[1097.46 - 1101.78] variety of approach when it comes to
+
+[1099.32 - 1103.22] like I know I I need to use that more
+
+[1101.78 - 1104.72] when I when it's when something's not
+
+[1103.22 - 1107.0] working I've gone down a pathway for a
+
+[1104.72 - 1108.6200000000001] while to like go back and like think
+
+[1107.0 - 1111.26] about the whole like approach of the
+
+[1108.62 - 1113.0] poem rather than like line by line
+
+[1111.26 - 1115.28] necessarily
+
+[1113.0 - 1116.72] um or the wording of lines and that does
+
+[1115.28 - 1119.36] happen with prompt engineering as well
+
+[1116.72 - 1121.22] where you realize you have over
+
+[1119.36 - 1123.6789999999999] engineered something and the approach
+
+[1121.22 - 1126.2] just isn't working and you need to like
+
+[1123.679 - 1128.9] take a step back from it so there's a
+
+[1126.2 - 1131.72] lot of parallels there
+
+[1128.9 - 1134.66] absolutely one of the Cardinal rules
+
+[1131.72 - 1136.179] that I have learned is uh more often
+
+[1134.66 - 1138.14] than not less is more
+
+[1136.179 - 1139.64] sometimes if you're really struggling
+
+[1138.14 - 1142.2800000000002] with a prompt it's just like just
+
+[1139.64 - 1146.3600000000001] simplify it and see what happens
+
+[1142.28 - 1148.22] um so one of the one another uh phrase
+
+[1146.36 - 1149.4799999999998] that you've that you've used kind of
+
+[1148.22 - 1151.82] differently
+
+[1149.48 - 1155.78] um when you were describing
+
+[1151.82 - 1158.0] um like working through uh or getting
+
+[1155.78 - 1160.58] getting the right effect from creative
+
+[1158.0 - 1162.679] writing and another and you use this
+
+[1160.58 - 1164.24] word again or this these pair of words
+
+[1162.679 - 1166.2800000000002] for
+
+[1164.24 - 1167.9] um for getting the prompt getting the
+
+[1166.28 - 1170.12] machine to do what you wanted to do is
+
+[1167.9 - 1172.1000000000001] locking versus unlocking trying to
+
+[1170.12 - 1175.1] unlock whether it's a particular
+
+[1172.1 - 1177.02] response from a person from a reader or
+
+[1175.1 - 1179.24] trying to to get that that feeling for
+
+[1177.02 - 1181.52] yourself or then of course getting the
+
+[1179.24 - 1183.919] performance from the machine so that's a
+
+[1181.52 - 1185.4189999999999] very particular choice of words and it
+
+[1183.919 - 1187.7] resonates with me but I wanted to ask
+
+[1185.419 - 1189.3200000000002] you what what do you mean when you use
+
+[1187.7 - 1191.66] that that um I don't know if it's an
+
+[1189.32 - 1194.539] analogy but the the adjectives of of
+
+[1191.66 - 1196.46] locked versus unlocked like it's almost
+
+[1194.539 - 1198.26] like you're trying to pull something out
+
+[1196.46 - 1199.76] of the machine right just like you're
+
+[1198.26 - 1202.34] trying to pull something out of a reader
+
+[1199.76 - 1204.679] or yourself yeah yeah it's similar to
+
+[1202.34 - 1207.6999999999998] that you know that the thing you're
+
+[1204.679 - 1210.5] trying to say the
+
+[1207.7 - 1212.3600000000001] emotion is almost a strange word for it
+
+[1210.5 - 1214.28] it's been wrong but let's say the
+
+[1212.36 - 1216.9799999999998] emotion you're trying to get at is
+
+[1214.28 - 1218.8999999999999] somewhere within yourself also I mean
+
+[1216.98 - 1220.52] you're your primary reader as you're
+
+[1218.9 - 1222.6200000000001] writing poetry so you're trying to like
+
+[1220.52 - 1226.46] create that feeling for yourself too
+
+[1222.62 - 1229.6999999999998] um and you know it's somewhere
+
+[1226.46 - 1231.679] in the big jumble of all the words that
+
+[1229.7 - 1234.0800000000002] could ever exist and you're trying to
+
+[1231.679 - 1236.6000000000001] find the right ones
+
+[1234.08 - 1238.82] um in order to yeah unlock it or it
+
+[1236.6 - 1239.539] would be like find it
+
+[1238.82 - 1242.6599999999999] um
+
+[1239.539 - 1244.58] and when you're working with the AI
+
+[1242.66 - 1246.98] you're working with sort of a toddler
+
+[1244.58 - 1249.799] that knows everything
+
+[1246.98 - 1251.419] um but also when you're writing poetry
+
+[1249.799 - 1253.94] you're like thinking about how you're
+
+[1251.419 - 1256.039] writing for like every one and not
+
+[1253.94 - 1256.88] everyone in the world but like uh you're
+
+[1256.039 - 1258.62] not
+
+[1256.88 - 1260.66] writing typically for one person you're
+
+[1258.62 - 1262.82] writing for like an audience of brains
+
+[1260.66 - 1266.1200000000001] so it's actually not that dissimilar in
+
+[1262.82 - 1267.86] a weird way where you're like this is it
+
+[1266.12 - 1270.08] doesn't have to like unlock or task
+
+[1267.86 - 1272.4189999999999] locate or however we want to put it that
+
+[1270.08 - 1275.12] response in every single person as long
+
+[1272.419 - 1279.0200000000002] as it like tasks locates for it in the
+
+[1275.12 - 1280.2199999999998] people to for whom that emotion exists
+
+[1279.02 - 1282.799] and or like
+
+[1280.22 - 1284.6000000000001] that particular connection exists of
+
+[1282.799 - 1286.46] experience
+
+[1284.6 - 1288.9189999999999] um or of enjoying your poetry or
+
+[1286.46 - 1293.96] whatever that sentence got the hell away
+
+[1288.919 - 1296.1200000000001] from me but uh yeah it's it's
+
+[1293.96 - 1298.039] the more I
+
+[1296.12 - 1299.6589999999999] like think about parallels the more it
+
+[1298.039 - 1302.059] does come back to like past location of
+
+[1299.659 - 1303.2] emotion for poetry
+
+[1302.059 - 1304.8799999999999] um
+
+[1303.2 - 1307.46] which is kind of strange I hadn't
+
+[1304.88 - 1309.5590000000002] thought about it that way before
+
+[1307.46 - 1313.159] excellent excellent yeah so you you
+
+[1309.559 - 1315.559] mentioned task locating a few times and
+
+[1313.159 - 1318.14] um my my fiance is a librarian uh by
+
+[1315.559 - 1320.24] training and so she's she's uh shared
+
+[1318.14 - 1321.6200000000001] that term with me but from from your
+
+[1320.24 - 1322.88] perspective could you share with our
+
+[1321.62 - 1324.5] audience
+
+[1322.88 - 1325.7600000000002] um what what it is that you mean by task
+
+[1324.5 - 1327.44] locating
+
+[1325.76 - 1329.299] um as it pertains to prompt engineering
+
+[1327.44 - 1331.88] you know with with large language models
+
+[1329.299 - 1333.08] but also with human audiences and you
+
+[1331.88 - 1336.2] know you've you've talked a lot about
+
+[1333.08 - 1338.84] audience and and alluded to like theory
+
+[1336.2 - 1340.3400000000001] of mind like you you uh model what's
+
+[1338.84 - 1342.3799999999999] going on in the mind of either the
+
+[1340.34 - 1344.059] machine or your audience of one your
+
+[1342.38 - 1346.2800000000002] audience of yourself or audience of many
+
+[1344.059 - 1349.76] many brains so talk to us a little bit
+
+[1346.28 - 1351.799] about task locating what what is that
+
+[1349.76 - 1357.559] um task locating is essentially tricking
+
+[1351.799 - 1359.84] the AI no it's um finding uh for for if
+
+[1357.559 - 1362.4189999999999] what you wanted to generate typically
+
+[1359.84 - 1364.58] exists within a specific context it's
+
+[1362.419 - 1368.0] recreating that context for it so that
+
+[1364.58 - 1369.3799999999999] it is more likely to generate the thing
+
+[1368.0 - 1372.64] you want
+
+[1369.38 - 1376.3600000000001] um you know like if you
+
+[1372.64 - 1378.679] wanted to generate a name
+
+[1376.36 - 1380.059] for whatever reason you weren't just
+
+[1378.679 - 1384.14] doing this in a similar way you could be
+
+[1380.059 - 1385.76] like you know paper like paper title bye
+
+[1384.14 - 1387.2] and then it would generate a name even
+
+[1385.76 - 1389.72] though you haven't told it to generate a
+
+[1387.2 - 1392.48] name so that's like a very simple like
+
+[1389.72 - 1393.919] example of task okay location but the
+
+[1392.48 - 1396.08] idea of it crops up in a lot of other
+
+[1393.919 - 1398.539] ways you can sort of like
+
+[1396.08 - 1402.1399999999999] a lot of it gets fuzzy was also sort of
+
+[1398.539 - 1405.679] like priming the model in different ways
+
+[1402.14 - 1406.46] um and it also intersects I think with
+
+[1405.679 - 1407.96] um like
+
+[1406.46 - 1410.1200000000001] I'm not totally sure what the industry
+
+[1407.96 - 1411.82] term is for this right now but it tends
+
+[1410.12 - 1415.2199999999998] to instead to change ground but like
+
+[1411.82 - 1418.1589999999999] irregular K shots where the example is
+
+[1415.22 - 1418.94] actually of a different cast
+
+[1418.159 - 1421.0390000000002] um
+
+[1418.94 - 1423.2] but even with regular kit you you are
+
+[1421.039 - 1425.0] kind of task locating for like
+
+[1423.2 - 1426.44] um you know here's this example here's
+
+[1425.0 - 1428.419] this example here's this example you're
+
+[1426.44 - 1430.46] like trying to
+
+[1428.419 - 1432.26] convince it that somewhere within it
+
+[1430.46 - 1434.78] exists
+
+[1432.26 - 1436.52] a list of the perfect examples that you
+
+[1434.78 - 1437.72] need
+
+[1436.52 - 1439.82] um
+
+[1437.72 - 1441.919] so yeah there's I guess there's like
+
+[1439.82 - 1444.2] concrete task location of like things
+
+[1441.919 - 1445.5200000000002] that actually exist in its Corpus and
+
+[1444.2 - 1447.0800000000002] then there's a bit of deceptive task
+
+[1445.52 - 1450.22] location for like things that you're
+
+[1447.08 - 1450.22] trying to tell it exists
+
+[1450.799 - 1453.5] um
+
+[1451.4 - 1457.1000000000001] but uh of
+
+[1453.5 - 1460.4] a common way to sort of test locate a
+
+[1457.1 - 1462.86] prime is um through like author voice
+
+[1460.4 - 1465.799] you know you see it all the I mean it's
+
+[1462.86 - 1470.36] in every it's like you know you are Dan
+
+[1465.799 - 1472.22] you are uh even like people tell like
+
+[1470.36 - 1474.74] you are a sentient AI that's really good
+
+[1472.22 - 1475.4] at stuff like helps and it's
+
+[1474.74 - 1477.799] it's
+
+[1475.4 - 1481.0590000000002] um that's a form of task location in my
+
+[1477.799 - 1481.059] opinion the author voice thing
+
+[1481.34 - 1486.1999999999998] yeah I um in one of my books I called
+
+[1483.74 - 1487.46] that uh agent model so like you tell it
+
+[1486.2 - 1488.8400000000001] like this is what you are and this is
+
+[1487.46 - 1490.64] what you're capable of and it's able to
+
+[1488.84 - 1492.62] just kind of step into those shoes and
+
+[1490.64 - 1494.2990000000002] say oh this is what I am and and like
+
+[1492.62 - 1496.82] you said how did you say you said like
+
+[1494.299 - 1499.1589999999999] kind of tricking the AI or or kind of
+
+[1496.82 - 1501.1399999999999] getting it to confabulate into this
+
+[1499.159 - 1502.1000000000001] latent space that it's got that's
+
+[1501.14 - 1503.9] wonderful
+
+[1502.1 - 1506.1789999999999] um I'm glad to know that another human
+
+[1503.9 - 1507.919] thinks about this the way that I do it's
+
+[1506.179 - 1509.24] very reassuring
+
+[1507.919 - 1511.46] um because I've tried to explain some of
+
+[1509.24 - 1513.74] this to folks and they and and some some
+
+[1511.46 - 1517.039] people don't get it because one thing
+
+[1513.74 - 1519.38] that I have found is that um
+
+[1517.039 - 1521.6] computer science people
+
+[1519.38 - 1525.2] sometimes think of it as a machine
+
+[1521.6 - 1527.86] learning model first but you and I we we
+
+[1525.2 - 1531.5] seem to think of it as a as a language
+
+[1527.86 - 1533.299] instrument first I I don't want to put
+
+[1531.5 - 1534.559] words in your mouth do you do you agree
+
+[1533.299 - 1535.8799999999999] with that do you think of this as
+
+[1534.559 - 1537.86] primarily
+
+[1535.88 - 1540.38] um what did you call it earlier a speech
+
+[1537.86 - 1542.299] act right like you don't do you think of
+
+[1540.38 - 1543.98] it as a machine or do you think of it
+
+[1542.299 - 1545.539] otherwise
+
+[1543.98 - 1546.6200000000001] I definitely still think of it as a
+
+[1545.539 - 1549.2] machine
+
+[1546.62 - 1551.9599999999998] um you know it's um
+
+[1549.2 - 1554.24] the there have been Concepts over the
+
+[1551.96 - 1556.94] past however long it's been year and
+
+[1554.24 - 1561.5] year and a half hour long where I've
+
+[1556.94 - 1563.3600000000001] um learned more about the sort of like
+
+[1561.5 - 1564.799] not even broad concepts of machine
+
+[1563.36 - 1567.559] learning because a lot of them are
+
+[1564.799 - 1569.539] specific but sort of from a non-technic
+
+[1567.559 - 1572.6589999999999] like this lever does this it works this
+
+[1569.539 - 1575.12] way and like that helps I find a lot in
+
+[1572.659 - 1576.98] explaining a lot of its behavior
+
+[1575.12 - 1579.08] um but then there are also things I end
+
+[1576.98 - 1581.419] up explaining to
+
+[1579.08 - 1583.039] the people who make them where it's like
+
+[1581.419 - 1584.8400000000001] will it acts this way and I think it's
+
+[1583.039 - 1587.6589999999999] because of this or like have you noticed
+
+[1584.84 - 1589.58] this Behavior where it is like
+
+[1587.659 - 1591.8600000000001] inevitably getting away from them a
+
+[1589.58 - 1594.1399999999999] little bit like you can't predict all of
+
+[1591.86 - 1596.4799999999998] its Behavior via
+
+[1594.14 - 1599.48] the technical side of machine learning
+
+[1596.48 - 1602.539] that's almost the point of it
+
+[1599.48 - 1604.46] um so it is like
+
+[1602.539 - 1605.779] I mean it's a sign that the the
+
+[1604.46 - 1608.72] technical side of it has been very
+
+[1605.779 - 1613.0] successful that we are now like thinking
+
+[1608.72 - 1613.0] of it in a non-technical way
+
+[1615.76 - 1621.08] yeah that that makes total sense
+
+[1619.039 - 1622.58] um especially
+
+[1621.08 - 1625.039] kind of the way that you just
+
+[1622.58 - 1628.9399999999998] articulated that that at the end like it
+
+[1625.039 - 1630.799] it is a sign of success that
+
+[1628.94 - 1633.02] it's kind of gotten away from from
+
+[1630.799 - 1635.299] Strictly the engineering side or the or
+
+[1633.02 - 1636.62] the scientific or technical side by
+
+[1635.299 - 1639.799] virtue of the fact that it is working
+
+[1636.62 - 1643.279] because it is not uh explicitly like
+
+[1639.799 - 1646.58] maybe deterministic or fully mechanistic
+
+[1643.279 - 1649.159] um so what I wanted to to explore a
+
+[1646.58 - 1653.72] little bit more on this uh line of
+
+[1649.159 - 1655.94] reasoning or or thinking was how does
+
+[1653.72 - 1658.34] so you said that you do think of it kind
+
+[1655.94 - 1660.559] of as a machine and you try and you know
+
+[1658.34 - 1662.8999999999999] observe its behaviors and and establish
+
+[1660.559 - 1665.84] reasons for the behaviors or or at least
+
+[1662.9 - 1667.7] explanations a model for the behavior
+
+[1665.84 - 1671.08] um but how does
+
+[1667.7 - 1674.24] how does language overlay or intersect
+
+[1671.08 - 1675.3799999999999] with that because you know at the
+
+[1674.24 - 1678.38] beginning of the conversation you
+
+[1675.38 - 1680.2990000000002] mentioned all kinds of um aspects of
+
+[1678.38 - 1682.7] language Arabic language you know
+
+[1680.299 - 1685.7] diacritics and and grammar and
+
+[1682.7 - 1688.4] everything so based on your use of large
+
+[1685.7 - 1691.52] language models how much does how much
+
+[1688.4 - 1692.9] does do aspects of language such as you
+
+[1691.52 - 1695.299] mentioned you know vocabulary word
+
+[1692.9 - 1697.88] choice different approaches
+
+[1695.299 - 1700.58] um but what about what about grammar and
+
+[1697.88 - 1702.5] syntax and other aspects of language how
+
+[1700.58 - 1705.74] do you perceive those as having been
+
+[1702.5 - 1707.539] woven into into the machine
+
+[1705.74 - 1709.4] um so to speak
+
+[1707.539 - 1710.919] not totally sure I understand the
+
+[1709.4 - 1713.419] question I'm sorry
+
+[1710.919 - 1714.3200000000002] that's fine I probably didn't ask that
+
+[1713.419 - 1717.3200000000002] well
+
+[1714.32 - 1718.9399999999998] um okay so asking it another way
+
+[1717.32 - 1720.86] um here let's do some human prompt
+
+[1718.94 - 1723.2] engineering um so the prompt that I just
+
+[1720.86 - 1724.34] gave you didn't work so let me try a
+
+[1723.2 - 1726.74] different prompt
+
+[1724.34 - 1728.72] um so word choice
+
+[1726.74 - 1732.5] is very important for prompt engineering
+
+[1728.72 - 1735.919] right how how important is grammar or
+
+[1732.5 - 1740.059] syndrome oh I see okay yeah
+
+[1735.919 - 1742.22] um yeah I mean you're the way you choose
+
+[1740.059 - 1744.08] to phrase
+
+[1742.22 - 1747.799] something
+
+[1744.08 - 1751.279] the style of syntaxis can also like can
+
+[1747.799 - 1753.9189999999999] indicate a level of sophistication of
+
+[1751.279 - 1755.659] writing versus the Simplicity of writing
+
+[1753.919 - 1758.3600000000001] and maybe you want that Simplicity of
+
+[1755.659 - 1760.7600000000002] writing you want direct uh you know
+
+[1758.36 - 1762.86] simple cause and effects
+
+[1760.76 - 1765.14] informational writing for your readers
+
+[1762.86 - 1768.3799999999999] or maybe you want it to be a bit more
+
+[1765.14 - 1770.48] human sounding or literary and that
+
+[1768.38 - 1775.0390000000002] the
+
+[1770.48 - 1776.72] style of I find like rhythm
+
+[1775.039 - 1780.02] um especially with example following
+
+[1776.72 - 1783.2] models the the style of the the Rhythm
+
+[1780.02 - 1784.94] of the sentence and having a
+
+[1783.2 - 1786.919] you know a classic sort of writing world
+
+[1784.94 - 1788.539] having like a variety of rhythms in your
+
+[1786.919 - 1790.46] sentences
+
+[1788.539 - 1791.72] um variety of number of Clauses in your
+
+[1790.46 - 1793.94] sentences
+
+[1791.72 - 1795.919] um tends to make a Threading I find more
+
+[1793.94 - 1798.799] sophisticated
+
+[1795.919 - 1801.5590000000002] um they're also you know things like
+
+[1798.799 - 1804.679] creating links when you want it to do a
+
+[1801.559 - 1808.039] task like creating links
+
+[1804.679 - 1811.8200000000002] um via the verbs you use where you can
+
+[1808.039 - 1812.96] use causative verbs rather than linking
+
+[1811.82 - 1814.059] things
+
+[1812.96 - 1818.26] um
+
+[1814.059 - 1823.039] with uh like just like being like
+
+[1818.26 - 1825.3799999999999] you have a bunch of briefs and a bunch
+
+[1823.039 - 1828.3799999999999] of these things or like like a bunch of
+
+[1825.38 - 1831.14] briefs and a bunch of pieces of content
+
+[1828.38 - 1833.0590000000002] you can actually link those positively
+
+[1831.14 - 1834.98] rather than just kind of putting them
+
+[1833.059 - 1836.12] near each other in the sentence
+
+[1834.98 - 1838.039] um
+
+[1836.12 - 1840.08] there's also
+
+[1838.039 - 1841.279] like this isn't quite great but when it
+
+[1840.08 - 1844.399] comes to word choice there's like
+
+[1841.279 - 1846.2] approaches where sometimes referring to
+
+[1844.399 - 1848.539] something in different places
+
+[1846.2 - 1850.46] with synonyms if you can refer to it
+
+[1848.539 - 1852.44] multiple times throughout the prompts
+
+[1850.46 - 1854.24] um like referring to it with synonyms
+
+[1852.44 - 1857.059] each time can help the model sort of
+
+[1854.24 - 1859.52] triangulate on what it is
+
+[1857.059 - 1861.1399999999999] um but if you're using that section as
+
+[1859.52 - 1862.6399999999999] sort of a tool for another section you
+
+[1861.14 - 1865.3400000000001] want to refer back to that section you
+
+[1862.64 - 1867.0800000000002] really need parity between what you call
+
+[1865.34 - 1868.399] it what you label it and what you call
+
+[1867.08 - 1870.1399999999999] it in the sentence you can't like
+
+[1868.399 - 1872.1789999999999] approximate it the way you would with a
+
+[1870.14 - 1873.6200000000001] human being necessarily or it won't work
+
+[1872.179 - 1874.3400000000001] as well
+
+[1873.62 - 1876.5] um
+
+[1874.34 - 1878.36] so this is like structurally there's a
+
+[1876.5 - 1881.6] lot of stuff there's also the whole like
+
+[1878.36 - 1883.6999999999998] approach I'm sure that of like you can
+
+[1881.6 - 1885.6789999999999] put things in the future tense the
+
+[1883.7 - 1887.3600000000001] present tense the past tense you can say
+
+[1885.679 - 1889.22] you've already written this explain to
+
+[1887.36 - 1892.6999999999998] me how you did it you can
+
+[1889.22 - 1896.48] do a lot of weird stuff
+
+[1892.7 - 1899.48] um with yeah just uh with tents
+
+[1896.48 - 1902.14] especially I find that can really switch
+
+[1899.48 - 1902.14] up abilities
+
+[1902.6 - 1907.52] yeah absolutely
+
+[1904.76 - 1909.2] um especially by making those positive
+
+[1907.52 - 1911.179] assertions it just kind of rolls with it
+
+[1909.2 - 1912.8600000000001] and says okay sure like you told me this
+
+[1911.179 - 1914.96] thing is true so I'll just assume that
+
+[1912.86 - 1917.6589999999999] that's true or at least that seems to be
+
+[1914.96 - 1919.3400000000001] how it interprets um that one thing that
+
+[1917.659 - 1922.22] you said earlier
+
+[1919.34 - 1924.74] um that I I wanted to unpack before we
+
+[1922.22 - 1927.799] we take a brief break and then come back
+
+[1924.74 - 1930.38] to to change to change gears was you
+
+[1927.799 - 1932.779] said that uh that this kind of AI is
+
+[1930.38 - 1935.5390000000002] like a toddler that knows everything and
+
+[1932.779 - 1936.919] I thought that that was uh very uh
+
+[1935.539 - 1938.48] illustrative
+
+[1936.919 - 1940.3400000000001] um but I like that and I wanted I was
+
+[1938.48 - 1943.1] wondering if you could unpack how you
+
+[1940.34 - 1946.24] how you came to that understanding of
+
+[1943.1 - 1946.24] large language models
+
+[1946.46 - 1951.02] um I mean it's a little trite it's not
+
+[1948.74 - 1953.179] like totally true but it's like you know
+
+[1951.02 - 1955.52] it's close enough it's how I describe it
+
+[1953.179 - 1957.3200000000002] uh at parties when I'm trying to
+
+[1955.52 - 1961.76] describe my job
+
+[1957.32 - 1964.6399999999999] um but yeah it it's
+
+[1961.76 - 1965.539] I mean it it has a huge wealth of
+
+[1964.64 - 1968.2990000000002] knowledge
+
+[1965.539 - 1969.919] and also often not a lot of common sense
+
+[1968.299 - 1971.6589999999999] although obviously that's getting better
+
+[1969.919 - 1973.8200000000002] all the time
+
+[1971.659 - 1975.2600000000002] um but it doesn't you know have common
+
+[1973.82 - 1976.52] sense the way a human being has Common
+
+[1975.26 - 1978.14] Sense where
+
+[1976.52 - 1980.6] when we're
+
+[1978.14 - 1982.159] in an interaction with another person we
+
+[1980.6 - 1984.98] are thinking
+
+[1982.159 - 1986.6000000000001] there's like a tent we put out this is
+
+[1984.98 - 1988.64] going to be confusing genetically
+
+[1986.6 - 1990.559] there's a tent we put over the
+
+[1988.64 - 1992.539] interaction I feel like of like the
+
+[1990.559 - 1994.519] other person's
+
+[1992.539 - 1996.3799999999999] intent what they want out of the
+
+[1994.519 - 1997.94] conversation like
+
+[1996.38 - 1999.2600000000002] especially if we're like trying to do
+
+[1997.94 - 2001.779] something for them obviously it's like
+
+[1999.26 - 2006.419] what is the goal
+
+[2001.779 - 2006.419] um and it doesn't always
+
+[2007.6 - 2012.279] sometimes it doesn't have the tent over
+
+[2009.399 - 2015.2199999999998] what it's doing and sometimes it puts
+
+[2012.279 - 2017.2] the tent up over here or like just or
+
+[2015.22 - 2019.3600000000001] it's upside down or like whatever it
+
+[2017.2 - 2021.3990000000001] it's not always as good as that as a
+
+[2019.36 - 2023.3799999999999] human being is
+
+[2021.399 - 2024.2199999999998] um where you're like you kind of did
+
+[2023.38 - 2026.3200000000002] this
+
+[2024.22 - 2028.419] you did what you thought you were doing
+
+[2026.32 - 2030.039] well
+
+[2028.419 - 2031.8990000000001] but but a human being would understand
+
+[2030.039 - 2032.919] that that's not and that's what I like
+
+[2031.899 - 2035.1399999999999] when I'm
+
+[2032.919 - 2036.76] editing other people's prompts so much
+
+[2035.14 - 2038.26] of what I'm doing is going back into the
+
+[2036.76 - 2040.059] prompt and going this you didn't even
+
+[2038.26 - 2041.74] say like what you thought
+
+[2040.059 - 2043.4189999999999] like what like you're you're telling me
+
+[2041.74 - 2045.22] out loud what you want and that's not
+
+[2043.419 - 2046.24] what you told the AI you told it to do
+
+[2045.22 - 2047.919] something totally different and it's
+
+[2046.24 - 2050.139] like or something like a little bit off
+
+[2047.919 - 2052.0] and it's taking you very literally and
+
+[2050.139 - 2054.52] doing that thing rather than doing what
+
+[2052.0 - 2057.339] a human would do and like understanding
+
+[2054.52 - 2058.899] the overall task
+
+[2057.339 - 2061.179] um and that reminds me of being a child
+
+[2058.899 - 2063.339] I didn't know what was going on I I
+
+[2061.179 - 2064.899] definitely remember I probably still
+
+[2063.339 - 2066.339] have moments like that but that
+
+[2064.899 - 2067.54] definitely reminds me of
+
+[2066.339 - 2070.359] uh you know
+
+[2067.54 - 2072.7599999999998] being yeah literally being a toddler and
+
+[2070.359 - 2075.24] like not um
+
+[2072.76 - 2079.179] understanding often
+
+[2075.24 - 2080.9799999999996] dynamics of situations I was in
+
+[2079.179 - 2082.899] except they didn't have like all the
+
+[2080.98 - 2085.619] details of the War of 1812 or whatever
+
+[2082.899 - 2085.6189999999997] in my brain
+
+[2085.78 - 2091.2400000000002] yeah absolutely
+
+[2088.54 - 2092.919] um that was that's such a great uh way
+
+[2091.24 - 2094.72] to elucidate that
+
+[2092.919 - 2096.339] um okay so we're going to take a quick
+
+[2094.72 - 2097.8999999999996] break obviously for the audience it'll
+
+[2096.339 - 2101.14] be instantaneous but we'll be right back
+
+[2097.9 - 2103.42] and we will um we'll change focus on to
+
+[2101.14 - 2106.5989999999997] a little bit a little bit other uh
+
+[2103.42 - 2108.94] aspects of language and language models
+
+[2106.599 - 2111.7200000000003] and where AI is going so we'll be back
+
+[2108.94 - 2111.7200000000003] in just a moment
+
+[2112.78 - 2117.0400000000004] hey everybody and we're back from our
+
+[2115.359 - 2120.04] short break
+
+[2117.04 - 2123.099] um so uh wanted to change gears for the
+
+[2120.04 - 2125.98] last uh section of this episode
+
+[2123.099 - 2128.5] um uh as as the audience uh may or may
+
+[2125.98 - 2130.3] not know uh one of the key things that I
+
+[2128.5 - 2134.74] want to do with this podcast is to
+
+[2130.3 - 2136.7200000000003] demystify AI for 2023 and for the world
+
+[2134.74 - 2138.339] because things are changing so
+
+[2136.72 - 2139.9599999999996] incredibly quickly and that's why I'm
+
+[2138.339 - 2142.48] having these interviews with people who
+
+[2139.96 - 2145.66] are at The Cutting Edge
+
+[2142.48 - 2148.3] um or who have past experience to draw
+
+[2145.66 - 2151.24] from in order to help provide guidance
+
+[2148.3 - 2153.82] and kind of shine some light on the
+
+[2151.24 - 2157.2999999999997] situation for the rest of us so
+
+[2153.82 - 2160.3] um Anna I wanted to ask you where do you
+
+[2157.3 - 2163.42] see AI going particularly how are things
+
+[2160.3 - 2165.46] going to change in 2023 what are your
+
+[2163.42 - 2167.02] thoughts on kind of the state of things
+
+[2165.46 - 2168.64] and where it's going in the immediate
+
+[2167.02 - 2172.54] future
+
+[2168.64 - 2173.7] pretty difficult question to answer
+
+[2172.54 - 2178.42] um
+
+[2173.7 - 2182.4399999999996] I think uh as we see
+
+[2178.42 - 2186.46] the writing quality itself of current
+
+[2182.44 - 2187.359] llms improve and get more human
+
+[2186.46 - 2189.52] um
+
+[2187.359 - 2192.2799999999997] there will probably be kind of a
+
+[2189.52 - 2193.78] parallel debate about
+
+[2192.28 - 2196.3590000000004] um
+
+[2193.78 - 2199.119] like people right now the debate for
+
+[2196.359 - 2202.48] writing is like will students generate
+
+[2199.119 - 2204.4] essays with the AI and I think as the
+
+[2202.48 - 2206.56] writing quality gets better and better
+
+[2204.4 - 2209.079] it'll move into
+
+[2206.56 - 2211.839] will people when writing competitions
+
+[2209.079 - 2213.82] using bits and pieces maybe not hold up
+
+[2211.839 - 2215.74] but like from the AI it's parallel to
+
+[2213.82 - 2217.54] the debate that's going on with like
+
+[2215.74 - 2219.3999999999996] visual art
+
+[2217.54 - 2220.3] um and AI visual art
+
+[2219.4 - 2223.0] um
+
+[2220.3 - 2224.8590000000004] and uh
+
+[2223.0 - 2228.82] I
+
+[2224.859 - 2231.7599999999998] think I hope that that'll sort of
+
+[2228.82 - 2233.26] even itself out people will realize that
+
+[2231.76 - 2235.2400000000002] um
+
+[2233.26 - 2238.0] that's kind of
+
+[2235.24 - 2240.16] like how 3D printing didn't kill
+
+[2238.0 - 2243.52] sculpture
+
+[2240.16 - 2245.68] um it's I and I hope people embrace it
+
+[2243.52 - 2247.54] as a tool I think maybe that won't
+
+[2245.68 - 2249.16] happen in 2023 but I do think that'll
+
+[2247.54 - 2251.859] happen
+
+[2249.16 - 2253.8999999999996] um you know as just rather than thinking
+
+[2251.859 - 2256.359] of it as competition thinking of it as
+
+[2253.9 - 2259.06] like an augmentation like another brain
+
+[2256.359 - 2261.2799999999997] to think with but not a replacement for
+
+[2259.06 - 2262.359] your brain
+
+[2261.28 - 2264.3390000000004] um
+
+[2262.359 - 2266.2599999999998] and uh
+
+[2264.339 - 2267.88] and I I mean I also think the nature of
+
+[2266.26 - 2269.98] like search is going to change the
+
+[2267.88 - 2272.32] nature of like finding information is
+
+[2269.98 - 2275.5] going to change as we get you know
+
+[2272.32 - 2277.3] things like chat GPT which are you know
+
+[2275.5 - 2277.96] reliable
+
+[2277.3 - 2282.2200000000003] um
+
+[2277.96 - 2285.28] and sort of more conversational uh
+
+[2282.22 - 2287.3199999999997] like returners of information
+
+[2285.28 - 2289.78] um that in a way have like a better idea
+
+[2287.32 - 2291.579] of like the tent that I was talking
+
+[2289.78 - 2293.02] about earlier like how do I keep saying
+
+[2291.579 - 2294.6400000000003] like the tent and that's so close to the
+
+[2293.02 - 2296.74] word intent which is really just what I
+
+[2294.64 - 2298.96] mean but the like your overall intent
+
+[2296.74 - 2300.3999999999996] that like I mean Google has poured so
+
+[2298.96 - 2303.82] much into
+
+[2300.4 - 2306.339] intent of search and when you make it
+
+[2303.82 - 2309.76] conversational and make it an AI like
+
+[2306.339 - 2311.68] chat gbt that it's able to do it really
+
+[2309.76 - 2314.619] well so I think that's going to change I
+
+[2311.68 - 2316.839] know I've already used it that way I um
+
+[2314.619 - 2319.0] was bored with the deli sandwiches I was
+
+[2316.839 - 2321.52] ordering my usual roster and whenever I
+
+[2319.0 - 2323.619] searched a new type of deli sandwich or
+
+[2321.52 - 2325.72] like deli sandwich comp best deli
+
+[2323.619 - 2327.1600000000003] whatever I tried to search it was like
+
+[2325.72 - 2329.2] here's some great Jolly sandwiches to
+
+[2327.16 - 2332.0789999999997] make at home and I was like that's not
+
+[2329.2 - 2334.2999999999997] helpful and it's not like I need like a
+
+[2332.079 - 2336.1600000000003] for like a New York Deli like what's a
+
+[2334.3 - 2338.32] good combination
+
+[2336.16 - 2339.5789999999997] um and I use chat GPT for it and it gave
+
+[2338.32 - 2340.9] me a slightly weird but pretty good
+
+[2339.579 - 2343.1800000000003] sandwich I don't remember what was in it
+
+[2340.9 - 2344.6800000000003] but it was pretty delicious anyway so my
+
+[2343.18 - 2346.839] point is I think the nature of search is
+
+[2344.68 - 2349.18] going to change and I hope that the
+
+[2346.839 - 2352.68] nature or how people think about like
+
+[2349.18 - 2352.68] creative augmentation is Gonna Change
+
+[2353.38 - 2358.2400000000002] that's that's that's a phenomenal View
+
+[2355.9 - 2361.359] and and I am right there with you in
+
+[2358.24 - 2364.1189999999997] terms of one just hoping for people to
+
+[2361.359 - 2366.04] embrace it and and thinking of it as an
+
+[2364.119 - 2368.2000000000003] augmentation not a replacement something
+
+[2366.04 - 2370.66] that helps make our lives you know
+
+[2368.2 - 2373.06] better easier whatever
+
+[2370.66 - 2374.44] um that's a great idea using it for uh
+
+[2373.06 - 2375.94] coming up with a better sandwich I
+
+[2374.44 - 2378.16] haven't used it for that yet I have used
+
+[2375.94 - 2380.68] it to help with my own writing and
+
+[2378.16 - 2382.06] Drafting and and and and and those sorts
+
+[2380.68 - 2384.8199999999997] of tasks
+
+[2382.06 - 2388.0] um so you know you pointed out that like
+
+[2384.82 - 2389.92] uh 3D printing didn't kill sculpture you
+
+[2388.0 - 2391.42] know hopefully things like Dolly and
+
+[2389.92 - 2393.099] mid-journey and stable diffusion don't
+
+[2391.42 - 2394.3] kill graphic art I don't think it's
+
+[2393.099 - 2395.8590000000004] going to
+
+[2394.3 - 2398.6800000000003] um but certainly there is a lot of
+
+[2395.859 - 2400.54] consternation over over that those
+
+[2398.68 - 2403.72] boundaries right now I think that's kind
+
+[2400.54 - 2404.8] of probably the more diplomatic way of
+
+[2403.72 - 2405.8199999999997] saying it
+
+[2404.8 - 2407.5] um and certainly there's a lot of
+
+[2405.82 - 2410.56] there's a lot of pain on both sides
+
+[2407.5 - 2412.72] there's AI artists who are relieved that
+
+[2410.56 - 2414.22] they are finally able to express
+
+[2412.72 - 2416.3199999999997] themselves
+
+[2414.22 - 2417.9399999999996] um with with the help of these tools and
+
+[2416.32 - 2420.52] then there are
+
+[2417.94 - 2423.4] um you know other artists that are also
+
+[2420.52 - 2424.42] kind of facing pain because
+
+[2423.4 - 2426.7000000000003] um they feel like something's being
+
+[2424.42 - 2429.04] taken away from them and and certainly
+
+[2426.7 - 2430.72] there's there's huge disruption
+
+[2429.04 - 2432.94] um and I really empathize with with
+
+[2430.72 - 2436.1189999999997] people on both sides I've had uh YouTube
+
+[2432.94 - 2437.619] comments from people on both both sides
+
+[2436.119 - 2440.32] um just expressing like yeah this kind
+
+[2437.619 - 2443.02] of this kind of sucks so with that I
+
+[2440.32 - 2444.82] wanted to ask a little bit more you know
+
+[2443.02 - 2446.859] what are you what are you worried about
+
+[2444.82 - 2448.9] you know you mentioned uh certainly like
+
+[2446.859 - 2451.72] uh new what was it New York City band
+
+[2448.9 - 2453.4] chat GPT in schools
+
+[2451.72 - 2455.56] um so are there anything is there
+
+[2453.4 - 2457.1800000000003] anything else that you're worried about
+
+[2455.56 - 2461.7] um and then beyond that what are you
+
+[2457.18 - 2461.7] excited about for AI in the coming year
+
+[2462.04 - 2466.06] um yeah I mean that's
+
+[2463.9 - 2467.8] basically what I'm wearing is it's like
+
+[2466.06 - 2469.839] when it comes to the writing side of it
+
+[2467.8 - 2472.3590000000004] I'm worried about
+
+[2469.839 - 2475.2999999999997] um you know there is an educational
+
+[2472.359 - 2477.42] element to like crafting an essay about
+
+[2475.3 - 2479.98] a topic you learn the topic much better
+
+[2477.42 - 2481.599] it sort of doesn't matter the point of
+
+[2479.98 - 2482.92] crafting the essay is not for the essay
+
+[2481.599 - 2485.079] to get published somewhere and read by
+
+[2482.92 - 2486.7000000000003] other people when you're in school so
+
+[2485.079 - 2489.2200000000003] when the
+
+[2486.7 - 2490.72] function of it is that you become more
+
+[2489.22 - 2493.839] educated by crafting the piece of
+
+[2490.72 - 2495.5789999999997] writing painstakingly on your own and
+
+[2493.839 - 2497.2599999999998] students are replacing that with
+
+[2495.579 - 2498.94] generating it with an AI they're losing
+
+[2497.26 - 2501.0400000000004] an educational element and that's
+
+[2498.94 - 2502.599] concerning to me
+
+[2501.04 - 2503.32] um for sure
+
+[2502.599 - 2505.48] um
+
+[2503.32 - 2507.76] in terms of like the flip side of that
+
+[2505.48 - 2509.38] and it's like I think
+
+[2507.76 - 2513.76] I'm excited
+
+[2509.38 - 2517.54] to continue or for like the creative
+
+[2513.76 - 2518.38] side of language models to continue to
+
+[2517.54 - 2521.38] develop
+
+[2518.38 - 2522.7000000000003] part of my a huge part of my job at copy
+
+[2521.38 - 2525.94] AI is
+
+[2522.7 - 2528.9399999999996] that we offer like a creative
+
+[2525.94 - 2530.98] more creative generation than you might
+
+[2528.94 - 2532.48] find from like chat gbt or whatever and
+
+[2530.98 - 2533.8] more of a variety of approach if you
+
+[2532.48 - 2535.06] don't like the first generation you can
+
+[2533.8 - 2538.3] regenerate and get something different
+
+[2535.06 - 2540.5789999999997] that's like a big part of what we offer
+
+[2538.3 - 2542.32] um and yeah creativity of approach
+
+[2540.579 - 2544.6600000000003] variety of approach creativity and human
+
+[2542.32 - 2546.7000000000003] sounding language even if it's maybe a
+
+[2544.66 - 2547.66] little bit less precise
+
+[2546.7 - 2549.1189999999997] um
+
+[2547.66 - 2552.339] and
+
+[2549.119 - 2553.96] I really just want to like keep keep
+
+[2552.339 - 2555.7599999999998] exploring that keep seeing that in other
+
+[2553.96 - 2556.66] places
+
+[2555.76 - 2560.1400000000003] um
+
+[2556.66 - 2562.06] and I really want people I mean I
+
+[2560.14 - 2563.68] touched on this before but I really want
+
+[2562.06 - 2565.96] the writing world to like Embrace this
+
+[2563.68 - 2568.72] as a really powerful tool that's because
+
+[2565.96 - 2571.2400000000002] the the ultimate goal of your writing
+
+[2568.72 - 2573.5789999999997] you haven't come up with it any less in
+
+[2571.24 - 2575.5] a way like you're still putting this
+
+[2573.579 - 2577.599] writing in front of if it's beautiful
+
+[2575.5 - 2582.28] writing it's beautiful writing
+
+[2577.599 - 2583.599] and the purpose of it is the response of
+
+[2582.28 - 2586.6600000000003] the audience
+
+[2583.599 - 2589.96] and whether or not
+
+[2586.66 - 2592.839] the beauty of it was like
+
+[2589.96 - 2595.839] partly generated outside the idea for it
+
+[2592.839 - 2597.22] was partly generated using an ALT like
+
+[2595.839 - 2600.7599999999998] brain augmentation that you're
+
+[2597.22 - 2603.339] controlling or like your own brain like
+
+[2600.76 - 2605.44] you crafted it and it's beautiful and
+
+[2603.339 - 2607.359] it's a listing that response in readers
+
+[2605.44 - 2608.5] and it's a listing that responsible
+
+[2607.359 - 2609.7599999999998] readers because of their Human
+
+[2608.5 - 2613.48] Experience
+
+[2609.76 - 2615.099] so I I don't think there is there's
+
+[2613.48 - 2616.0] you know
+
+[2615.099 - 2617.7400000000002] um
+
+[2616.0 - 2619.54] I'm debating whether I can share
+
+[2617.74 - 2622.7799999999997] something that happened with an open AI
+
+[2619.54 - 2624.46] model but I don't think I can oh man
+
+[2622.78 - 2626.98] I'll I'll come back to it at some point
+
+[2624.46 - 2630.2200000000003] someday I'll share that story but um I'm
+
+[2626.98 - 2633.16] I'm really excited for that side of AI
+
+[2630.22 - 2636.22] to kind of Blossom
+
+[2633.16 - 2637.24] excellent yeah and obviously if there's
+
+[2636.22 - 2640.5] something that you're not comfortable
+
+[2637.24 - 2643.4199999999996] sharing no big deal
+
+[2640.5 - 2646.96] that's fine that's fine
+
+[2643.42 - 2649.48] um yeah so like as as a creative myself
+
+[2646.96 - 2651.2200000000003] like I I kind of split the split Two
+
+[2649.48 - 2653.92] Worlds I'm on the you know the research
+
+[2651.22 - 2657.7599999999998] side and and the creative side you know
+
+[2653.92 - 2659.8] I definitely uh feel you there on like
+
+[2657.76 - 2661.2400000000002] let's embrace it and and while you're
+
+[2659.8 - 2665.38] speaking something occurred to me like
+
+[2661.24 - 2668.3799999999997] if as a novel novelist if I take my
+
+[2665.38 - 2670.96] novel to a a critique group and I get
+
+[2668.38 - 2673.0] ideas from from a critique group
+
+[2670.96 - 2676.3] um and then I take it to an editor it's
+
+[2673.0 - 2679.119] not a product of strictly my own brain
+
+[2676.3 - 2681.2200000000003] um same with uh these tools and I'm not
+
+[2679.119 - 2683.98] saying that like okay you know an editor
+
+[2681.22 - 2686.859] is is equivalent to getting help from
+
+[2683.98 - 2688.78] chat GPT or even having a Ghostwriter
+
+[2686.859 - 2690.94] right because it's still a human but I
+
+[2688.78 - 2692.8590000000004] but one thing that you focused on was if
+
+[2690.94 - 2695.92] it elicits the right response from the
+
+[2692.859 - 2697.9] from the receiver of that art
+
+[2695.92 - 2699.339] um is is that like you know that's part
+
+[2697.9 - 2701.02] of the goal and we don't have to we
+
+[2699.339 - 2701.859] don't have to unpack that unless there's
+
+[2701.02 - 2704.2] any
+
+[2701.859 - 2706.18] um points that you wanted to to dive
+
+[2704.2 - 2707.819] deeper in before we move on to kind of
+
+[2706.18 - 2709.839] the last section of the of the podcast
+
+[2707.819 - 2712.119] yeah I think
+
+[2709.839 - 2714.7599999999998] um just one thing quickly is that for
+
+[2712.119 - 2715.9] something like visual art
+
+[2714.76 - 2718.5400000000004] um there's
+
+[2715.9 - 2720.339] a worry there about I think lots of
+
+[2718.54 - 2722.859] craft
+
+[2720.339 - 2724.96] like art versus crap and like but the
+
+[2722.859 - 2727.119] craft side of art where people aren't
+
+[2724.96 - 2728.92] people aren't debating or people are but
+
+[2727.119 - 2730.42] there's this kind of like well yeah you
+
+[2728.92 - 2732.46] came up with the idea for it and
+
+[2730.42 - 2735.0] whatever but like that's that's only
+
+[2732.46 - 2737.7400000000002] part of it part of it is like
+
+[2735.0 - 2739.119] crafting of the object and the skill
+
+[2737.74 - 2740.74] that goes into that in the artistic
+
+[2739.119 - 2744.46] sensibility that goes into using that
+
+[2740.74 - 2745.7799999999997] skill and I can't call in on that
+
+[2744.46 - 2746.859] because I'm not a visual artist and I
+
+[2745.78 - 2748.7200000000003] think that's a very but I do think
+
+[2746.859 - 2751.96] that's a very fair debate to have when
+
+[2748.72 - 2754.1189999999997] it comes to writing that the Divide
+
+[2751.96 - 2756.7] between like craft and art is always
+
+[2754.119 - 2759.04] more nebulous because there isn't like a
+
+[2756.7 - 2762.7599999999998] craft aspect to it writing is very
+
+[2759.04 - 2765.52] strange as like sometimes when I I'm
+
+[2762.76 - 2767.44] like even when I'm asked to read poetry
+
+[2765.52 - 2769.48] at a poetry reading sometimes it feels
+
+[2767.44 - 2771.7000000000003] like I'm getting up on stage and being
+
+[2769.48 - 2774.099] like look how good I can walk and then
+
+[2771.7 - 2776.14] like walking back and forth because it's
+
+[2774.099 - 2779.5] like something that most of us can do
+
+[2776.14 - 2781.96] and I'm like I can do this even better
+
+[2779.5 - 2783.52] and like I can do it in a way that means
+
+[2781.96 - 2785.8] something and I'm like just reading
+
+[2783.52 - 2787.3] words off a page that I wrote
+
+[2785.8 - 2788.98] um so that divide has always been a bit
+
+[2787.3 - 2791.079] more nebulous and I think that's part of
+
+[2788.98 - 2793.72] what makes people nervous about this is
+
+[2791.079 - 2796.599] there's like but also why why I think
+
+[2793.72 - 2798.64] when it comes to augmenting creativity
+
+[2796.599 - 2802.6600000000003] when it comes to language I actually
+
+[2798.64 - 2805.72] think it there to me there's less
+
+[2802.66 - 2808.5989999999997] of a gray area there I I don't feel as
+
+[2805.72 - 2812.0789999999997] like conflicted about it because
+
+[2808.599 - 2814.1800000000003] you know you're not losing like craft
+
+[2812.079 - 2816.7000000000003] it's like a just a new tool for
+
+[2814.18 - 2820.7999999999997] something that already was like not
+
+[2816.7 - 2820.7999999999997] quite literal craft anyway
+
+[2821.619 - 2827.02] that makes sense and you know the it's
+
+[2824.92 - 2830.5] not a Perfect Analogy but you know the
+
+[2827.02 - 2831.88] the computer didn't destroy education
+
+[2830.5 - 2833.8] um you know even though it made thing
+
+[2831.88 - 2835.7200000000003] makes things some things easier some
+
+[2833.8 - 2837.88] things are a little more convoluted and
+
+[2835.72 - 2839.74] yeah I do hope that we can adapt to
+
+[2837.88 - 2842.98] these tools and and think of them as
+
+[2839.74 - 2846.0989999999997] just more tools extension of the art
+
+[2842.98 - 2847.66] um so I wanted to the the the final few
+
+[2846.099 - 2850.78] questions that I had for you the first
+
+[2847.66 - 2852.819] one is what do you personally want to
+
+[2850.78 - 2854.619] achieve like uh you mentioned at the
+
+[2852.819 - 2855.88] beginning of the episode that or maybe
+
+[2854.619 - 2857.44] it was just before we started but you
+
+[2855.88 - 2858.88] said like you know you never would have
+
+[2857.44 - 2862.7200000000003] thought that you'd be a prompt engineer
+
+[2858.88 - 2864.7000000000003] so how has AI changed your life in your
+
+[2862.72 - 2867.8799999999997] direction in your career and what do you
+
+[2864.7 - 2871.4199999999996] want to personally achieve in the coming
+
+[2867.88 - 2874.2400000000002] you know year or two or three
+
+[2871.42 - 2876.76] well I'd love to
+
+[2874.24 - 2878.0789999999997] um extend this career and keep keep
+
+[2876.76 - 2881.5] doing this
+
+[2878.079 - 2885.04] um keep like I'd love to
+
+[2881.5 - 2886.78] be you know one of many people but like
+
+[2885.04 - 2888.7] be on the Forefront of like steering
+
+[2886.78 - 2891.0400000000004] where
+
+[2888.7 - 2892.7799999999997] these models are going and what they're
+
+[2891.04 - 2894.7599999999998] capable of through prompt engineering
+
+[2892.78 - 2896.92] and prompt optimization and prompt
+
+[2894.76 - 2898.5400000000004] training and stuff and um I think some
+
+[2896.92 - 2900.339] people see
+
+[2898.54 - 2901.72] um you know like the ability of the AI
+
+[2900.339 - 2904.06] is this and it's ramping up and prompt
+
+[2901.72 - 2907.0] engineering is like this where like as
+
+[2904.06 - 2908.5] we get closer like you know this like
+
+[2907.0 - 2911.56] prompt engineering is me did less and
+
+[2908.5 - 2915.76] less and I see it a lot more like that
+
+[2911.56 - 2918.16] um so I'm excited to see like if prompt
+
+[2915.76 - 2919.8390000000004] engineering is capable of what it's
+
+[2918.16 - 2921.7] capable of right now what will it be
+
+[2919.839 - 2925.06] capable of 10 years from now
+
+[2921.7 - 2926.56] and I really want to be part of that
+
+[2925.06 - 2928.18] future
+
+[2926.56 - 2930.2799999999997] um I'm not totally sure what that looks
+
+[2928.18 - 2932.2599999999998] like from a career standpoint I'll get
+
+[2930.28 - 2934.3590000000004] back to you on that
+
+[2932.26 - 2936.28] yeah absolutely I mean we can we could
+
+[2934.359 - 2938.619] no more predict Dolly too and then chat
+
+[2936.28 - 2940.119] GPT than we could anything else so who
+
+[2938.619 - 2941.7400000000002] knows what's going to change within the
+
+[2940.119 - 2944.44] next 12 months
+
+[2941.74 - 2946.359] um but yeah like you I I also want to
+
+[2944.44 - 2948.4] just stay part of it because whatever's
+
+[2946.359 - 2950.74] going on it's it's really cool and it
+
+[2948.4 - 2953.92] also feels really important
+
+[2950.74 - 2955.359] um so uh who do you want to get
+
+[2953.92 - 2957.16] connected with
+
+[2955.359 - 2960.52] um is there anyone that you would like
+
+[2957.16 - 2963.64] to reach out to you on LinkedIn or or
+
+[2960.52 - 2965.56] Twitter or however however you want to
+
+[2963.64 - 2968.92] um engage with the world is there anyone
+
+[2965.56 - 2973.319] that you uh want to invite into your
+
+[2968.92 - 2973.319] professional life or or into your sphere
+
+[2973.9 - 2978.579] um come on come all I don't know uh no I
+
+[2977.98 - 2981.22] um
+
+[2978.579 - 2984.04] you know I'm interested in connecting
+
+[2981.22 - 2986.0789999999997] with sort of in the same way that copy I
+
+[2984.04 - 2987.819] was like unsure whether this was a role
+
+[2986.079 - 2990.1600000000003] that would add value I'm interested in
+
+[2987.819 - 2992.859] like thinking about
+
+[2990.16 - 2994.42] what are other
+
+[2992.859 - 2995.98] you know Industries where they don't
+
+[2994.42 - 2997.7200000000003] realize this could add value so if
+
+[2995.98 - 2999.579] you're like unsure I'd love to like
+
+[2997.72 - 3001.68] discuss that with you
+
+[2999.579 - 3003.96] um if you are one of the other few
+
+[3001.68 - 3006.359] prompt Engineers out there a few of you
+
+[3003.96 - 3009.599] we've connected on LinkedIn but like I
+
+[3006.359 - 3011.0989999999997] feel like it's you know like where there
+
+[3009.599 - 3013.2000000000003] are a handful of us and I would love to
+
+[3011.099 - 3014.94] get connected with anyone else who
+
+[3013.2 - 3016.56] whether that's your official title or
+
+[3014.94 - 3018.359] not if it's something you do
+
+[3016.56 - 3020.4] professionally I would love to talk to
+
+[3018.359 - 3023.88] you
+
+[3020.4 - 3025.02] um and then you know also if you're uh
+
+[3023.88 - 3026.099] someone who's interested in getting into
+
+[3025.02 - 3027.839] it especially if you come from a
+
+[3026.099 - 3030.54] non-tech background but you think it
+
+[3027.839 - 3032.94] sounds like something that makes sense
+
+[3030.54 - 3034.44] for you you have a kind of like I've
+
+[3032.94 - 3036.839] said this word a bunch now at this point
+
+[3034.44 - 3039.359] but like an obsessiveness is kind of
+
+[3036.839 - 3042.72] important and like
+
+[3039.359 - 3044.46] really loving language is important
+
+[3042.72 - 3046.339] um and more just like loving like
+
+[3044.46 - 3050.04] semantics and like
+
+[3046.339 - 3052.2] approach to this thing is important so
+
+[3050.04 - 3055.5] um if you're interested in that and if
+
+[3052.2 - 3057.54] you're interested in AI from like uh
+
+[3055.5 - 3058.859] literary or like writing quality
+
+[3057.54 - 3062.4] standpoint
+
+[3058.859 - 3065.04] um I'd love to love to get in touch
+
+[3062.4 - 3067.38] wonderful wonderful excellent
+
+[3065.04 - 3069.18] um and uh quick follow-up question where
+
+[3067.38 - 3071.819] where is best for people to to connect
+
+[3069.18 - 3074.7] with you on LinkedIn Twitter
+
+[3071.819 - 3076.46] probably on LinkedIn yeah okay
+
+[3074.7 - 3080.7599999999998] um if people are interested I also have
+
+[3076.46 - 3081.9] I uh I know
+
+[3080.76 - 3083.579] um I have a few friends who would like
+
+[3081.9 - 3085.92] yell at me if I didn't share this so I
+
+[3083.579 - 3088.6800000000003] also have my website uh which has my
+
+[3085.92 - 3090.42] writing on it that's been published it's
+
+[3088.68 - 3092.22] poetry and short stories so it's not
+
+[3090.42 - 3094.619] totally relevant but that's just my
+
+[3092.22 - 3095.7] name.com annabernstein.com but if you
+
+[3094.619 - 3097.8] want to get in touch about prompt
+
+[3095.7 - 3099.8999999999996] engineering definitely my LinkedIn would
+
+[3097.8 - 3103.44] be would be better
+
+[3099.9 - 3106.859] perfect perfect and um I always like to
+
+[3103.44 - 3109.2000000000003] wrap up these episodes by just asking
+
+[3106.859 - 3112.0789999999997] um asking my guests what are the what
+
+[3109.2 - 3113.5789999999997] are the words of wisdom that you want to
+
+[3112.079 - 3116.3390000000004] put out into the world
+
+[3113.579 - 3118.8590000000004] um just any any final any final words
+
+[3116.339 - 3121.2599999999998] what what is it that you would like
+
+[3118.859 - 3123.38] the world to know or to hear or to think
+
+[3121.26 - 3123.38] about
+
+[3126.599 - 3128.7200000000003] um
+
+[3130.319 - 3133.5] there's there's something formulating
+
+[3132.119 - 3135.059] but it's not quite coming it's something
+
+[3133.5 - 3137.96] about how like
+
+[3135.059 - 3137.96] creativity
+
+[3140.099 - 3144.9] we don't have to forfeit the realm of
+
+[3143.099 - 3148.26] creativity
+
+[3144.9 - 3150.6600000000003] as like a particularly human Realm
+
+[3148.26 - 3153.559] just because we've created a new tool
+
+[3150.66 - 3153.5589999999997] that helps us with it
+
+[3153.9 - 3158.04] I don't know that's really beautiful
+
+[3156.18 - 3160.68] yeah no that's that's really beautiful
+
+[3158.04 - 3162.42] and so we'll we'll leave it at that we
+
+[3160.68 - 3165.18] do not have to Forfeit the realm of
+
+[3162.42 - 3166.02] creativity just because we've created a
+
+[3165.18 - 3168.5989999999997] tool
+
+[3166.02 - 3171.119] so thank you so much for
+
+[3168.599 - 3173.4] you yeah yeah
+
+[3171.119 - 3176.4] thank you so much for your uh for your
+
+[3173.4 - 3179.46] time Anna and um I of course wish you
+
+[3176.4 - 3182.46] well and as always I really enjoyed
+
+[3179.46 - 3184.8] um having this time to to speak with you
+
+[3182.46 - 3188.839] um and thanks everyone for watching and
+
+[3184.8 - 3188.8390000000004] uh check back in and be good

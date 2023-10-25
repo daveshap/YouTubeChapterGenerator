@@ -1,0 +1,735 @@
+[0.64 - 7.7589999999999995] hey everybody david shapiro here um i
+
+[3.84 - 9.36] had an idea so i posted on reddit and
+
+[7.759 - 13.04] also the um
+
+[9.36 - 15.518999999999998] the uh open ai forum this idea because
+
+[13.04 - 18.0] people keep asking me um if i will
+
+[15.519 - 20.240000000000002] consult and i don't want to consult uh
+
+[18.0 - 22.48] for paid gigs
+
+[20.24 - 24.72] mostly i just want ideas
+
+[22.48 - 26.64] uh that's how i you know solving tough
+
+[24.72 - 28.4] problems is how i learn
+
+[26.64 - 30.64] and uh so i had this idea send me your
+
+[28.4 - 32.0] gpt3 prop or your gpt problems i'll
+
+[30.64 - 33.28] solve them for free and make a youtube
+
+[32.0 - 35.44] video
+
+[33.28 - 37.760000000000005] so basically i said okay you know what
+
+[35.44 - 40.16] problems do you want me to solve
+
+[37.76 - 42.239] and this guy storyghost aia said i would
+
+[40.16 - 44.239] be interested in a gpt3 generated
+
+[42.239 - 46.64] actionable feedback or constructive
+
+[44.239 - 48.07899999999999] criticism at the stylistic level not
+
+[46.64 - 49.6] spell check or grammar mistakes might
+
+[48.079 - 51.52] use cases for fiction writing but any
+
+[49.6 - 53.199] type of writing would do for instance if
+
+[51.52 - 55.36] the original sentence is he was super in
+
+[53.199 - 56.719] love with her like a lot the ideal gpt3
+
+[55.36 - 58.32] completion would be something like
+
+[56.719 - 59.76] provide an example that shows the depth
+
+[58.32 - 60.879] of his love instead of just telling the
+
+[59.76 - 62.32] reader
+
+[60.879 - 65.51899999999999] also the writing comes across as
+
+[62.32 - 68.4] informal with the word like okay so
+
+[65.519 - 70.08000000000001] basically looking for a prose editor or
+
+[68.4 - 72.96000000000001] a line editor
+
+[70.08 - 74.88] or copy editor uh so i was like yeah
+
+[72.96 - 76.88] let's do it
+
+[74.88 - 79.119] before i get too far in this video i do
+
+[76.88 - 81.6] have to warn you that um i'm about at my
+
+[79.119 - 83.119] quota uh because i've been making these
+
+[81.6 - 85.28] videos like crazy and i was like where
+
+[83.119 - 86.64] did all this money go um because i was
+
+[85.28 - 88.08] looking at this and it's like okay you
+
+[86.64 - 90.479] know twenty six dollars thirty two
+
+[88.08 - 92.479] dollars forty dollars fifty sixty
+
+[90.479 - 94.079] seventy dollars then i jump up to a
+
+[92.479 - 96.4] hundred and fourteen dollars and then up
+
+[94.079 - 99.439] to 157 so i was like
+
+[96.4 - 101.759] where did i use all this money um
+
+[99.439 - 104.63999999999999] turns out the novel writing fine tuning
+
+[101.759 - 106.479] job was a 40 job
+
+[104.64 - 108.799] oops so
+
+[106.479 - 111.119] um i got to cool it off for a week until
+
+[108.799 - 114.24000000000001] um the billing cycle ends
+
+[111.119 - 116.399] and i will pick this up in june however
+
+[114.24 - 118.719] in the meantime i wanted to at least
+
+[116.399 - 120.07900000000001] show you what i've done so far and
+
+[118.719 - 121.19999999999999] unfortunately i didn't document the
+
+[120.079 - 122.63999999999999] whole process because i was kind of
+
+[121.2 - 125.28] multitasking
+
+[122.64 - 127.2] um while while coding this up
+
+[125.28 - 128.64000000000001] but it is available
+
+[127.2 - 130.399] online
+
+[128.64 - 132.879] if you just go to
+
+[130.399 - 135.599] creative writing coach so our github
+
+[132.879 - 137.84] slash dave shap creative writing coach
+
+[135.599 - 140.56] all of it will be up here um actually
+
+[137.84 - 144.4] let me go ahead and just
+
+[140.56 - 146.56] cd creative writing coach get status
+
+[144.4 - 149.20000000000002] get ad
+
+[146.56 - 152.08] um get commit am
+
+[149.2 - 154.56] um ready
+
+[152.08 - 156.48000000000002] for plebs to use
+
+[154.56 - 159.2] ha you're all plebs
+
+[156.48 - 161.2] get push okay
+
+[159.2 - 162.95899999999997] okay so it's all updated for y'all to
+
+[161.2 - 165.67999999999998] use um
+
+[162.959 - 167.44] but let me show you how it works and if
+
+[165.68 - 170.0] you if you want to spend some of your
+
+[167.44 - 172.07999999999998] hard-earned tokens please feel free to
+
+[170.0 - 174.239] uh to run this
+
+[172.08 - 177.519] okay so here's the repo
+
+[174.239 - 180.159] uh so where i started was download
+
+[177.519 - 181.36] writing prompts so if you go to this
+
+[180.159 - 183.44] subreddit
+
+[181.36 - 186.08] um
+
+[183.44 - 190.07999999999998] r slash writing prompts this is a really
+
+[186.08 - 190.08] great way to get amateur writing
+
+[190.239 - 193.76] oh whoops we don't want it in json
+
+[192.48 - 195.92] format
+
+[193.76 - 196.79999999999998] um
+
+[195.92 - 198.879] so
+
+[196.8 - 200.48000000000002] our slash writing prompts is someone
+
+[198.879 - 201.599] will give you a writing prompt and then
+
+[200.48 - 204.07999999999998] everyone
+
+[201.599 - 206.319] replies with like a short story
+
+[204.08 - 208.4] right and so the top level comment is
+
+[206.319 - 209.67999999999998] pretty much always a short story and
+
+[208.4 - 211.59900000000002] it's written by
+
+[209.68 - 215.36] someone on the internet
+
+[211.599 - 217.35999999999999] so in order to satisfy this idea like
+
+[215.36 - 218.799] rather than use gpd3 to generate
+
+[217.36 - 221.59900000000002] synthetic data i was like let's get real
+
+[218.799 - 223.20000000000002] world data because human mistakes are
+
+[221.599 - 225.11999999999998] going to be very different from gpt3
+
+[223.2 - 226.72] mistakes you can ask gpt3 to make
+
+[225.12 - 228.56] mistakes but it's going to make the same
+
+[226.72 - 230.239] kind of mistakes over and over again
+
+[228.56 - 231.76] whereas if you crowdsource it and you
+
+[230.239 - 233.28] get you know
+
+[231.76 - 234.72] stuff from different people you're going
+
+[233.28 - 236.56] to get different formats different ideas
+
+[234.72 - 240.0] some people respond with poems short
+
+[236.56 - 241.519] stories story fragments um scenes you
+
+[240.0 - 242.959] know whatever you're going to get a lot
+
+[241.519 - 245.84] more variety
+
+[242.959 - 248.239] so what i did was i wrote this script
+
+[245.84 - 250.48] which was just i copy i bashed a bunch
+
+[248.239 - 252.959] to a bunch of other scripts together so
+
+[250.48 - 255.2] all i did was get top posts so i look
+
+[252.959 - 257.28000000000003] for the last month of writing prompts
+
+[255.2 - 259.199] get the top posts
+
+[257.28 - 262.23999999999995] download the top level comments for each
+
+[259.199 - 263.91900000000004] one and i saved that out to a folder
+
+[262.24 - 267.199] called stories
+
+[263.919 - 268.96] and so i've got 388 stories in here of
+
+[267.199 - 270.32] varying lengths the shortest one i think
+
+[268.96 - 272.96] is a poem
+
+[270.32 - 274.24] yep and then the longest one is 10
+
+[272.96 - 276.32] kilobytes
+
+[274.24 - 279.199] um so this is
+
+[276.32 - 280.479] uh 10 000 characters long so that's you
+
+[279.199 - 282.40000000000003] know
+
+[280.479 - 284.88] that's going to be what about 2 000
+
+[282.4 - 287.28] words so that's still flash fiction
+
+[284.88 - 289.44] um okay so i downloaded a whole bunch of
+
+[287.28 - 291.52] stories
+
+[289.44 - 294.0] and then what i did was well first i
+
+[291.52 - 296.71999999999997] needed to um i forgot to exclude bots
+
+[294.0 - 298.24] and short stuff so what i i went and
+
+[296.72 - 299.44000000000005] removed the stuff that we don't want
+
+[298.24 - 300.8] because you don't want to fine tune on
+
+[299.44 - 303.199] bot data
+
+[300.8 - 305.6] um okay so then what i did
+
+[303.199 - 307.52000000000004] was i wrote a prompt so here's what the
+
+[305.6 - 310.24] prompt does and i've started splitting
+
+[307.52 - 311.75899999999996] it out into more granular steps um so
+
+[310.24 - 314.08] the prompt well here let me just show
+
+[311.759 - 315.759] you what the prompt does i can spend
+
+[314.08 - 316.96] some tokens on this so at least you can
+
+[315.759 - 318.8] see
+
+[316.96 - 320.63899999999995] what we're talking about here this
+
+[318.8 - 323.12] prompt does not work on anything other
+
+[320.639 - 325.039] than davinci um curie is not smart
+
+[323.12 - 327.84000000000003] enough to provide feedback
+
+[325.039 - 330.08] um okay so let's go grab
+
+[327.84 - 332.23999999999995] a story let's get one that's about two
+
+[330.08 - 333.52] kilobytes
+
+[332.24 - 335.6] um
+
+[333.52 - 338.56] because that's a good that's a good like
+
+[335.6 - 341.36] bit of flash fiction okay so this prompt
+
+[338.56 - 343.199] says adopt the persona of a professional
+
+[341.36 - 344.639] creative writing editor read the
+
+[343.199 - 346.96000000000004] following story and provide detailed
+
+[344.639 - 349.12] feedback to improve the pros hold the
+
+[346.96 - 350.479] author to the highest literary standards
+
+[349.12 - 352.8] feedback should be open-ended and
+
+[350.479 - 355.12] include examples or suggestions so then
+
+[352.8 - 358.40000000000003] story and then i add a little dmarc and
+
+[355.12 - 359.84000000000003] then um okay oh what got him style
+
+[358.4 - 361.919] end story
+
+[359.84 - 363.75899999999996] provide detailed professional editor
+
+[361.919 - 365.59999999999997] feedback with suggestions and examples
+
+[363.759 - 366.72] to improve pros
+
+[365.6 - 368.16] this
+
+[366.72 - 370.40000000000003] end has gone through several
+
+[368.16 - 372.16] permutations as i tried it because in
+
+[370.4 - 373.35999999999996] some cases it tried to continue the
+
+[372.16 - 375.199] story
+
+[373.36 - 377.6] in other cases it just did all sorts of
+
+[375.199 - 379.91900000000004] random stuff but this this prompt seems
+
+[377.6 - 382.47900000000004] to be pretty consistent so let me show
+
+[379.919 - 386.59999999999997] you what it does and we'll do
+
+[382.479 - 386.59999999999997] the feedback up to 500.
+
+[387.12 - 390.36] let's see
+
+[394.88 - 398.639] okay it says it's clear the author of
+
+[397.44 - 400.0] the story is creative and has a good
+
+[398.639 - 401.36] sense of humor however there are some
+
+[400.0 - 402.96] areas that could use some improvement
+
+[401.36 - 404.88] first the story is very short and feels
+
+[402.96 - 406.31899999999996] incomplete it's possible the author was
+
+[404.88 - 408.15999999999997] going for more concise minimalistic
+
+[406.319 - 410.16] style but in general a more more
+
+[408.16 - 412.0] development a bit more development would
+
+[410.16 - 413.759] be helpful second the story is very
+
+[412.0 - 414.96] light on descriptions readers are given
+
+[413.759 - 416.319] very little information about the
+
+[414.96 - 417.84] characters or setting again this might
+
+[416.319 - 418.88] be a deliberate choice but more
+
+[417.84 - 420.479] description would give the reader a
+
+[418.88 - 422.71999999999997] better sense of the world and
+
+[420.479 - 423.84] that the characters inhabit finally the
+
+[422.72 - 425.12] dialogue could use some work in
+
+[423.84 - 426.56] particular the dialogue between the
+
+[425.12 - 428.319] protagonist and the dancer could be more
+
+[426.56 - 430.319] natural and flowing as it stands it
+
+[428.319 - 431.84000000000003] feels a little bit stilted and awkward
+
+[430.319 - 433.36] overall this is a fun story with a lot
+
+[431.84 - 435.28] of potential with a bit more development
+
+[433.36 - 436.96000000000004] it could be even better
+
+[435.28 - 438.79999999999995] um
+
+[436.96 - 440.4] yeah so
+
+[438.8 - 442.24] and since it's a relatively short story
+
+[440.4 - 444.479] let's read it i had seen them all the
+
+[442.24 - 446.16] simpler ones like bombers or shooters
+
+[444.479 - 448.15999999999997] whose weapons i could absorb with smooth
+
+[446.16 - 450.08000000000004] jazz the scientists who i could convince
+
+[448.16 - 452.16] to lay off their plans by outsmarting
+
+[450.08 - 453.919] them through beethoven bach mozart and
+
+[452.16 - 455.36] the like the crazy teenagers who i
+
+[453.919 - 457.19899999999996] talked off of buildings with lincoln
+
+[455.36 - 459.199] park playing not only in my head but in
+
+[457.199 - 461.44] theirs too in many cases the guy who
+
+[459.199 - 463.28000000000003] poisoned the water of a town allowing me
+
+[461.44 - 464.8] to listen to the band poisoned for a day
+
+[463.28 - 467.11999999999995] that was one of the nicer ones and the
+
+[464.8 - 468.639] more unusual ones the gal who wanted to
+
+[467.12 - 470.16] turn the world into some kind of
+
+[468.639 - 473.36] spaghetti monster forcing me to listen
+
+[470.16 - 475.03900000000004] to we we speak americano on repeat
+
+[473.36 - 476.879] the twins who i fought with nothing but
+
+[475.039 - 479.36] duets in my ears you know fight fire
+
+[476.879 - 481.12] with fire the businessman who wanted to
+
+[479.36 - 483.28000000000003] buy the whole world stopped a series of
+
+[481.12 - 485.52] seminars podcasts and ted talks on
+
+[483.28 - 487.44] finances um that almost bored me to
+
+[485.52 - 489.19899999999996] death i had seen them all in many more
+
+[487.44 - 490.96] nothing could surprise me i thought well
+
+[489.199 - 492.479] i was wrong
+
+[490.96 - 494.0] because while the world's best dancer
+
+[492.479 - 495.919] explains to me their evil plan to make
+
+[494.0 - 497.84] everybody do the twist i realize there
+
+[495.919 - 499.599] is only one way to stop this madness i
+
+[497.84 - 502.0] press play and let the mental image of
+
+[499.599 - 503.52] elevator doors opening uh flood through
+
+[502.0 - 506.879] me and prepare for the ultimate dance
+
+[503.52 - 510.15999999999997] off oppa gangnam style
+
+[506.879 - 511.03900000000004] okay so yes definitely a sense of humor
+
+[510.16 - 512.88] um
+
+[511.039 - 515.5989999999999] the story is short and feels incomplete
+
+[512.88 - 517.519] i agree with that um
+
+[515.599 - 519.519] it it this is kind of a dreamlike
+
+[517.519 - 520.399] sequence and that's okay
+
+[519.519 - 521.839] you know
+
+[520.399 - 523.76] it's possible the author was going for a
+
+[521.839 - 526.08] more concise minimalist style that is a
+
+[523.76 - 527.36] great assessment of the story
+
+[526.08 - 530.08] second the story is very light on
+
+[527.36 - 531.6] description yes
+
+[530.08 - 533.519] this is so this is what's called
+
+[531.6 - 536.0] narrative summary the person is just
+
+[533.519 - 537.519] kind of summarizing you know alluding to
+
+[536.0 - 539.6] things that have happened
+
+[537.519 - 542.32] without providing much detail
+
+[539.6 - 544.32] um but yeah so i would i would agree
+
+[542.32 - 545.7600000000001] give a little bit more description
+
+[544.32 - 547.6800000000001] and that could make the story much
+
+[545.76 - 549.519] richer and more engaging
+
+[547.68 - 551.04] finally the dialogue could use some work
+
+[549.519 - 555.279] um
+
+[551.04 - 557.76] yeah because there really isn't any um
+
+[555.279 - 560.0] but you know having having a little a
+
+[557.76 - 562.16] little pithy rep rt
+
+[560.0 - 564.88] um would be interesting with the final
+
+[562.16 - 566.7199999999999] final encounter uh so yeah i agree with
+
+[564.88 - 568.56] this feedback if this person were to
+
+[566.72 - 570.32] follow this feedback i think it would be
+
+[568.56 - 571.4399999999999] a really interesting and more impactful
+
+[570.32 - 573.0400000000001] story
+
+[571.44 - 574.08] so there you go there's the prompts that
+
+[573.04 - 576.48] i wrote
+
+[574.08 - 580.0] um let's see
+
+[576.48 - 580.88] so prompt generate completions let's go
+
+[580.0 - 582.88] out
+
+[580.88 - 584.64] um all right
+
+[582.88 - 585.8389999999999] so download writing prompts so i
+
+[584.64 - 589.6] downloaded those those are in the
+
+[585.839 - 591.9200000000001] stories um and then i wrote prepare the
+
+[589.6 - 594.08] prompt okay so what i've started doing
+
+[591.92 - 595.68] is rather than kind of build everything
+
+[594.08 - 597.36] all in one shot i break it out into
+
+[595.68 - 598.56] smaller and smaller steps so that we can
+
+[597.36 - 600.24] see it all
+
+[598.56 - 601.8389999999999] so prepare prompts this is a really
+
+[600.24 - 604.399] short script it runs in less than a
+
+[601.839 - 607.519] second and all it does is read all the
+
+[604.399 - 609.519] stories and fi and backfill the prompts
+
+[607.519 - 611.76] and so if you look here the prompts are
+
+[609.519 - 613.12] each of the stories
+
+[611.76 - 614.72] and it just fills in the blanks so that
+
+[613.12 - 616.88] we can check it before it runs just to
+
+[614.72 - 618.399] make sure it looks right
+
+[616.88 - 619.76] and then provide detailed professional
+
+[618.399 - 621.279] feedback with suggestions in the format
+
+[619.76 - 622.88] of a complete paragraph i actually need
+
+[621.279 - 625.4399999999999] to rerun this let me show you how fast
+
+[622.88 - 628.72] it runs because i updated the uh the
+
+[625.44 - 630.5600000000001] prompt python prepare prompts and you
+
+[628.72 - 632.1600000000001] see it runs in less than a second reload
+
+[630.56 - 633.4399999999999] it and all it does is change
+
+[632.16 - 636.88] professional editor feedback with
+
+[633.44 - 637.6800000000001] suggestions example to improve pros
+
+[636.88 - 639.76] so
+
+[637.68 - 642.88] um we've gotten that far prepare the
+
+[639.76 - 644.959] prompts and then um i have another
+
+[642.88 - 648.0] folder called completions so i ran a few
+
+[644.959 - 650.079] of them and you can see what they uh so
+
+[648.0 - 651.44] the completion is here um consider
+
+[650.079 - 653.12] opening a story with a strong image of
+
+[651.44 - 655.2790000000001] abandoned factory town to set the tone
+
+[653.12 - 657.839] the descriptions of the town
+
+[655.279 - 660.8] towns decline could be more concise
+
+[657.839 - 662.0790000000001] there we go a lot of those hard k sounds
+
+[660.8 - 664.3199999999999] the story of rusty joe could be
+
+[662.079 - 665.68] elaborated to make it more engaging
+
+[664.32 - 667.9200000000001] the ending could be stronger and more
+
+[665.68 - 670.4799999999999] unsettling so those those are kind of
+
+[667.92 - 672.16] general feedback um but some of them are
+
+[670.48 - 674.32] still there
+
+[672.16 - 675.92] and so then in order to fully populate
+
+[674.32 - 680.0790000000001] that what we're going to need to do is
+
+[675.92 - 682.16] run the generate completions uh
+
+[680.079 - 684.0] script and so this is this is where the
+
+[682.16 - 685.6] rubber meets the road i'm just have a
+
+[684.0 - 688.399] couple of basic functions for opening
+
+[685.6 - 690.64] and saving i have another function for
+
+[688.399 - 691.839] the gpt3 completions and this will
+
+[690.64 - 693.519] actually need to be switched back to
+
+[691.839 - 695.2] davinci
+
+[693.519 - 697.68] o2 i'm not going to run it because i'm
+
+[695.2 - 698.88] going to run out of quota um so i do
+
+[697.68 - 700.8] apologize
+
+[698.88 - 702.64] um but yeah then all it does is it just
+
+[700.8 - 704.56] loads those prompts
+
+[702.64 - 707.279] runs it through the completion and then
+
+[704.56 - 709.1199999999999] saves it out to a file and that's that
+
+[707.279 - 712.0] after that
+
+[709.12 - 714.9590000000001] all you got to do is run the format json
+
+[712.0 - 717.6] l which it will go through the prompts
+
+[714.959 - 718.959] look for a file and then it will grab
+
+[717.6 - 721.6] that and then
+
+[718.959 - 725.04] pair it with the um
+
+[721.6 - 726.88] with the uh it's commensurate um
+
+[725.04 - 729.1999999999999] completions file because they have the
+
+[726.88 - 731.92] same name um so it's just easy you match
+
+[729.2 - 734.0790000000001] one to one it'll create the json-l and
+
+[731.92 - 737.1999999999999] then there will be a fine-tuned script
+
+[734.079 - 739.12] but again i have spent so much on this
+
+[737.2 - 742.1600000000001] that i am going to have to wait until my
+
+[739.12 - 745.12] quota resets um in a week
+
+[742.16 - 746.399] okay so with all that i do apologize i
+
+[745.12 - 748.639] did want to go ahead and get this out
+
+[746.399 - 750.48] because it was a really cool idea um but
+
+[748.639 - 753.519] if anyone else just takes this and runs
+
+[750.48 - 754.8000000000001] with it please post results um and uh
+
+[753.519 - 756.88] and let me know
+
+[754.8 - 758.24] um otherwise sit tight and we'll come
+
+[756.88 - 760.88] back to this in a week thanks for
+
+[758.24 - 763.76] watching like and subscribe and
+
+[760.88 - 763.76] tell a friend

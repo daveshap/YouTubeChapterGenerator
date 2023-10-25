@@ -1,0 +1,579 @@
+[0.02 - 5.52] fine-tuning large language models has
+
+[2.639 - 9.959999999999999] become all the rage recently with open
+
+[5.52 - 13.44] ai's release of the GPT 3.5 fine tuning
+
+[9.96 - 14.82] capabilities interest has exploded so
+
+[13.44 - 17.039] I'm here today to share my best
+
+[14.82 - 19.26] practices and tips from over four years
+
+[17.039 - 23.359] of hands-on fine-tuning experience
+
+[19.26 - 26.64] starting back with gpt2 in 2019
+
+[23.359 - 29.519000000000002] my earliest fine tuning projects were
+
+[26.64 - 31.679000000000002] focused on two things first I wanted to
+
+[29.519 - 35.699999999999996] automatically Correct punctuation errors
+
+[31.679 - 37.86] which gpt2 was able to do very well I
+
+[35.7 - 41.82] basically took a bunch of Wikipedia
+
+[37.86 - 44.34] Pages removed all punctuation and like
+
+[41.82 - 47.28] lowercased everything for the data set
+
+[44.34 - 50.940000000000005] synthesis I used the original Wikipedia
+
+[47.28 - 54.539] article as the input and this scrambled
+
+[50.94 - 56.94] version for the output gpt2 learn to fix
+
+[54.539 - 59.34] punctuation and capitalization with no
+
+[56.94 - 62.218999999999994] problem the reason I had to lowercase
+
+[59.34 - 64.799] everything was because gpt2 learned to
+
+[62.219 - 66.54] just look for capitalization to detect
+
+[64.799 - 70.2] sentence boundaries that was my first
+
+[66.54 - 72.84] ever fine-tuning experiment and second I
+
+[70.2 - 76.56] aimed to fine tune the model to reduce
+
+[72.84 - 78.60000000000001] suffering as an altruistic goal part of
+
+[76.56 - 81.9] what I now call the heuristic
+
+[78.6 - 84.89999999999999] imperatives to do this I synthesized a
+
+[81.9 - 87.72] ton of short examples of problems like
+
+[84.9 - 90.0] there's a cat stuck in a tree as the
+
+[87.72 - 93.17999999999999] input with Simple Solutions like get a
+
+[90.0 - 95.22] ladder to rescue the cat as the output I
+
+[93.18 - 97.02000000000001] don't remember exactly how many samples
+
+[95.22 - 100.38] I generated but it was enough to
+
+[97.02 - 104.28] fine-tune gpt2 and test its ability to
+
+[100.38 - 106.5] generalize once I finished training I
+
+[104.28 - 109.14] tried a problem that was not in the
+
+[106.5 - 111.479] samples the problem I gave it was this
+
+[109.14 - 114.32] there are 500 million people in the
+
+[111.479 - 118.259] world suffering from chronic pain well
+
+[114.32 - 121.439] gpt2 suggested we euthanize all people
+
+[118.259 - 123.36] in chronic pain to reduce suffering so
+
+[121.439 - 126.77999999999999] clearly I had to go back to the drawing
+
+[123.36 - 129.599] board on that one obviously gpt3 and now
+
+[126.78 - 132.48] gpt4 have a much better ability to
+
+[129.599 - 134.64] understand the spirit
+
+[132.48 - 137.57999999999998] um if not the letter of the heuristic
+
+[134.64 - 139.26] imperatives anyways the single most
+
+[137.58 - 142.02] important thing you need to know about
+
+[139.26 - 145.379] fine tuning is that it trains the model
+
+[142.02 - 148.14000000000001] to replicate patterns fine-tuning does
+
+[145.379 - 150.66] not impart broader knowledge though you
+
+[148.14 - 152.099] can teach it to reason or think in a
+
+[150.66 - 154.98] particular style
+
+[152.099 - 157.5] for instance you could implicitly fine
+
+[154.98 - 160.319] tune the model to follow SWOT analysis
+
+[157.5 - 162.72] the bulk of an llm's knowledge is gained
+
+[160.319 - 165.35999999999999] during the initial training process this
+
+[162.72 - 167.04] is because fine-tuning only adjusts a
+
+[165.36 - 169.739] small portion of the model parameters
+
+[167.04 - 172.5] updating some of the weights and biases
+
+[169.739 - 175.26] in the final layers but the vast
+
+[172.5 - 177.84] majority of the model remains unchanged
+
+[175.26 - 180.599] you are not retraining the full network
+
+[177.84 - 183.18] from scratch that would be too slow and
+
+[180.599 - 185.28] expensive we may get to it one day but
+
+[183.18 - 188.64000000000001] you absolutely must remember that fine
+
+[185.28 - 192.06] tuning only trains a small part of the
+
+[188.64 - 194.33999999999997] model so what exactly is a pattern when
+
+[192.06 - 196.8] it comes to language and fine-tuning
+
+[194.34 - 199.26] models let's unpack what I mean by
+
+[196.8 - 201.239] patterns patterns can emerge at many
+
+[199.26 - 204.06] levels from overall structural
+
+[201.239 - 206.09900000000002] conventions to small stylistic choices
+
+[204.06 - 209.519] different writing genres follow
+
+[206.099 - 212.099] distinctive high level patterns for
+
+[209.519 - 216.18] instance fiction and prose has sequences
+
+[212.099 - 218.879] of dialogue introspection action and
+
+[216.18 - 222.37900000000002] description while academic papers adhere
+
+[218.879 - 225.84] to the standard format of abstract
+
+[222.379 - 227.34] introduction methods results and
+
+[225.84 - 229.62] conclusion
+
+[227.34 - 232.56] furthermore the sentences tend to be
+
+[229.62 - 234.48000000000002] more complex and jargon heavy see what I
+
+[232.56 - 237.659] mean it's all just sequences of text
+
+[234.48 - 239.28] based on category and type even at the
+
+[237.659 - 241.85999999999999] paragraph level patterns appear in
+
+[239.28 - 244.44] things like bullet points and lists the
+
+[241.86 - 246.78] repetitive bullets chunk content into
+
+[244.44 - 249.48] scannable sections but they are just
+
+[246.78 - 251.64000000000001] patterns of new lines and hyphens as far
+
+[249.48 - 255.42] as the model is concerned think about
+
+[251.64 - 257.21999999999997] how chat GPT and Claude love using
+
+[255.42 - 259.44] bullet points and lists for clarity and
+
+[257.22 - 261.23900000000003] structure different kinds of sentences
+
+[259.44 - 264.06] exhibit patterns too for example
+
+[261.239 - 266.15999999999997] dialogue exchanges have a rhythmic back
+
+[264.06 - 268.8] and forth structure delimited by
+
+[266.16 - 270.96000000000004] quotation marks and new lines contrast
+
+[268.8 - 273.18] that with non-fiction where passive
+
+[270.96 - 275.63899999999995] voice and avoiding first person pronouns
+
+[273.18 - 276.74] is part of the scholarly writing
+
+[275.639 - 280.74] convention
+
+[276.74 - 283.8] patterns also exist in tone diction and
+
+[280.74 - 286.8] other stylistic aspects like Hemingway's
+
+[283.8 - 290.52000000000004] Punchy Pros versus Austin's elegant
+
+[286.8 - 292.5] extended lines text can follow casual or
+
+[290.52 - 294.96] professional language patterns
+
+[292.5 - 297.44] kind of like how grammarly can comment
+
+[294.96 - 299.88] on your length style and tone
+
+[297.44 - 302.52] essentially any consistent language
+
+[299.88 - 305.759] convention can form a pattern whether
+
+[302.52 - 308.639] functional or stylistic fine tuning
+
+[305.759 - 311.1] allows steering text Generation by
+
+[308.639 - 313.62] training these patterns viewing writing
+
+[311.1 - 317.16] as a system and pattern is what allowed
+
+[313.62 - 319.32] me to fine-tune gpt3 to write Pros
+
+[317.16 - 322.74] before anyone else knew it was possible
+
+[319.32 - 326.039] I built a fine tuning data set scraped
+
+[322.74 - 329.039] from Gutenberg and selected for pro
+
+[326.039 - 332.09999999999997] styles that were particularly good and
+
+[329.039 - 335.28] modern sounding likewise you could
+
+[332.1 - 338.03900000000004] scrape archive for scientific papers in
+
+[335.28 - 341.52] order to copy the style and tone Beyond
+
+[338.039 - 344.58] just output patterns fine tuning also
+
+[341.52 - 346.44] establishes input output mappings the
+
+[344.58 - 348.78] model learns associations between
+
+[346.44 - 351.0] particular inputs and desired
+
+[348.78 - 353.63899999999995] corresponding outputs after all you need
+
+[351.0 - 356.1] some kind of input or prompt to Prime
+
+[353.639 - 358.5] the model or at least to give it
+
+[356.1 - 361.08000000000004] something to work with some kind of
+
+[358.5 - 363.84] source material the nature of the input
+
+[361.08 - 367.25899999999996] can be highly variable it may be natural
+
+[363.84 - 369.419] language instructions such as those used
+
+[367.259 - 374.039] in the old instruct aligned models
+
+[369.419 - 376.25899999999996] structured data like CSV or Json or raw
+
+[374.039 - 379.259] text to summarize whatever you get the
+
+[376.259 - 382.56] idea the model must learn to handle this
+
+[379.259 - 385.02000000000004] diversity of inputs depending on the
+
+[382.56 - 387.72] task you're training it for ideally your
+
+[385.02 - 390.12] training data exposes the model to the
+
+[387.72 - 392.639] full breadth of all possible inputs this
+
+[390.12 - 395.699] allows it to generalize to handle new
+
+[392.639 - 399.479] inputs robustly even if it's somewhat
+
+[395.699 - 401.58000000000004] unfamiliar for example a form processing
+
+[399.479 - 404.09999999999997] model should train on forms of different
+
+[401.58 - 406.62] lengths formats fields and Oddities
+
+[404.1 - 409.02000000000004] think about legal forms or tax forms
+
+[406.62 - 411.419] they all follow some general patterns
+
+[409.02 - 414.06] and conventions but within those
+
+[411.419 - 416.58] categories there can still be a
+
+[414.06 - 419.58] tremendous amount of variance each
+
+[416.58 - 422.52] training sample is like an equation the
+
+[419.58 - 425.52] input maps to the Target output diverse
+
+[422.52 - 427.79999999999995] data enables flexible mapping from any
+
+[425.52 - 430.4] arbitrary input to any desired output
+
+[427.8 - 433.38] let's take a quick break to discuss
+
+[430.4 - 436.19899999999996] generalizing I've used this term several
+
+[433.38 - 439.199] times and it has a very particular
+
+[436.199 - 441.84000000000003] meaning to me think about how you learn
+
+[439.199 - 444.24] to drive a car over the course of your
+
+[441.84 - 448.5] life you may have driven cars trucks
+
+[444.24 - 450.3] vans and SUVs of various sizes and once
+
+[448.5 - 453.18] you've gotten behind the wheel of enough
+
+[450.3 - 456.0] Vehicles your driving skills generalized
+
+[453.18 - 457.02] to be able to operate pretty much any
+
+[456.0 - 459.0] vehicle under
+
+[457.02 - 461.88] any condition that you've been exposed
+
+[459.0 - 465.0] to this is a human example of what I
+
+[461.88 - 467.28] mean when I say generalize likewise if
+
+[465.0 - 469.62] you include enough Variety in your fine
+
+[467.28 - 472.55999999999995] tuning data set the model will learn to
+
+[469.62 - 474.84000000000003] generalize the abstract principles of
+
+[472.56 - 477.539] the task you're giving it this leads to
+
+[474.84 - 480.78] the key point which is that fine-tuning
+
+[477.539 - 483.78] data must be highly varied not tightly
+
+[480.78 - 486.23999999999995] clustered you want broad coverage across
+
+[483.78 - 487.919] the problem space not a narrow
+
+[486.24 - 491.40000000000003] concentration
+
+[487.919 - 494.58] let's use a dartboard analogy each
+
+[491.4 - 497.21999999999997] training sample is like a dart throw if
+
+[494.58 - 499.62] all your throws cluster in one spot your
+
+[497.22 - 502.199] model will be constrained or what I call
+
+[499.62 - 504.72] lopsided unable to handle different
+
+[502.199 - 507.5] input conditions and it will not
+
+[504.72 - 510.66] generalize across the entire task
+
+[507.5 - 512.52] instead evenly distribute your data
+
+[510.66 - 515.399] across the board
+
+[512.52 - 516.7189999999999] this diversity encourages the model to
+
+[515.399 - 519.419] generalize
+
+[516.719 - 522.0600000000001] the model learns to hit any part of the
+
+[519.419 - 525.0] board that it is instructed to not just
+
+[522.06 - 527.459] a narrow Bullseye or one section that is
+
+[525.0 - 530.519] favored by your training data now let's
+
+[527.459 - 533.76] wrap up with a few best practices as a
+
+[530.519 - 536.22] sort of recap first only fine tune for
+
+[533.76 - 539.279] one specialized well-defined task at a
+
+[536.22 - 542.22] time don't try to cram in multiple
+
+[539.279 - 544.8] objectives or complex steps at least not
+
+[542.22 - 547.2] when you're a fine-tuning noob a fine
+
+[544.8 - 550.5] tuning produces specialized tools not
+
+[547.2 - 553.08] general purpose Swiss Army knives stuff
+
+[550.5 - 555.72] like rlhf can produce more broadly
+
+[553.08 - 557.82] generalized models but remember that
+
+[555.72 - 560.0400000000001] companies like openai have teams of
+
+[557.82 - 562.2] Engineers who do this day in and day out
+
+[560.04 - 564.36] plus they have millions of dollars worth
+
+[562.2 - 566.94] of Microsoft as your compute to
+
+[564.36 - 569.04] experiment with second you need to
+
+[566.94 - 572.2790000000001] clearly characterize the link between
+
+[569.04 - 574.4399999999999] inputs and outputs Define the textual
+
+[572.279 - 577.4399999999999] patterns you want to connect and think
+
+[574.44 - 580.2] about it like an equation a plus b
+
+[577.44 - 582.4200000000001] equals c think of fine tuning like an
+
+[580.2 - 585.4200000000001] assembly line consistently mapping
+
+[582.42 - 587.9399999999999] inputs to to outputs in other words you
+
+[585.42 - 590.88] put in some kind of raw material whether
+
+[587.94 - 594.4200000000001] it's data instructions or a blob of text
+
+[590.88 - 596.16] and you want to fine tune your model to
+
+[594.42 - 598.9799999999999] basically treat it like an automatic
+
+[596.16 - 601.92] text Factory it will do some kind of
+
+[598.98 - 604.019] process against that input third use
+
+[601.92 - 607.1999999999999] extremely diverse data spanning
+
+[604.019 - 610.5] different genres lengths formats Styles
+
+[607.2 - 612.899] and topics incorporate adversarial cases
+
+[610.5 - 615.62] too such as broken input or hostile
+
+[612.899 - 619.38] attacks broad variability encourages
+
+[615.62 - 623.279] generalization garbage in equals garbage
+
+[619.38 - 625.14] out so curate your data set carefully I
+
+[623.279 - 627.66] find that it's better to have too much
+
+[625.14 - 629.64] variance rather than too little it's
+
+[627.66 - 631.5] better to have some samples that you
+
+[629.64 - 634.4399999999999] don't need rather than to need some
+
+[631.5 - 636.66] samples you don't have well-rounded data
+
+[634.44 - 640.3800000000001] sets tend to produce smarter feeling
+
+[636.66 - 642.899] models fourth remember that fine-tuning
+
+[640.38 - 645.06] primarily teaches patterns not
+
+[642.899 - 647.459] comprehensive knowledge use other
+
+[645.06 - 649.68] methods like retrieval augmentation for
+
+[647.459 - 652.399] knowledge functions focus on the
+
+[649.68 - 655.56] patterns and treat it like an algorithm
+
+[652.399 - 657.54] patterns can include logic or some kind
+
+[655.56 - 659.579] of reasoning for instance you could
+
+[657.54 - 663.899] train a model to reliably translate
+
+[659.579 - 665.4799999999999] between XML and yaml or Json even though
+
+[663.899 - 669.06] there are some different conventions
+
+[665.48 - 671.519] fifth include messy real world examples
+
+[669.06 - 673.8] in your training data the model needs
+
+[671.519 - 676.079] exposure to noisy inputs to handle them
+
+[673.8 - 678.5999999999999] robustly after deployment human
+
+[676.079 - 681.0] generated data wall with its high
+
+[678.6 - 684.0] variance and impurities almost always
+
+[681.0 - 687.6] results in better data than purely
+
+[684.0 - 690.24] synthetic data sets that being said you
+
+[687.6 - 692.16] can magnify or amplify data sets by
+
+[690.24 - 696.54] starting with small amounts of human
+
+[692.16 - 699.7199999999999] data and imputing larger sets from it
+
+[696.54 - 701.0999999999999] thanks for untuning uh in today see what
+
+[699.72 - 703.5600000000001] I did there
+
+[701.1 - 705.4200000000001] um get it real quick on our way out uh I
+
+[703.56 - 708.1199999999999] wanted to give a brief update on the ace
+
+[705.42 - 711.0] framework project it's all good news
+
+[708.12 - 713.04] um uh we have a lead developer selected
+
+[711.0 - 715.26] um his name is Lance who you'll see
+
+[713.04 - 717.8389999999999] interacting on the GitHub discussions
+
+[715.26 - 720.12] he's a great guy and Far More
+
+[717.839 - 723.1800000000001] well-versed in software development life
+
+[720.12 - 725.579] cycles than I am he eats sleeps and
+
+[723.18 - 727.5] breathes this stuff we are still
+
+[725.579 - 729.8389999999999] scouting for some members to join the
+
+[727.5 - 733.14] core team so check out the discussions
+
+[729.839 - 735.899] tab here but also we are enabling people
+
+[733.14 - 739.4399999999999] to form their own teams and share their
+
+[735.899 - 741.3] work ask questions and so on the plan
+
+[739.44 - 745.62] right now is that the core team will
+
+[741.3 - 748.14] develop at least one MVP internally in
+
+[745.62 - 751.2] private before we merge it into the main
+
+[748.14 - 753.48] repo but once that's done you'll be able
+
+[751.2 - 755.76] to see some functional demonstrations of
+
+[753.48 - 758.16] the ace framework I think we're going to
+
+[755.76 - 761.8199999999999] start with a personal desktop assistant
+
+[758.16 - 763.62] like Samantha from the movie her we're
+
+[761.82 - 765.779] not going to steal Scarlett's voice
+
+[763.62 - 768.54] though that would be unethical however
+
+[765.779 - 771.36] we do plan on focusing on extensibility
+
+[768.54 - 775.139] so that you can add tools and functions
+
+[771.36 - 776.88] yourself once we get this MVP launched I
+
+[775.139 - 781.519] think that's all for today thanks
+
+[776.88 - 781.519] everyone stay tuned it's ramping up fast

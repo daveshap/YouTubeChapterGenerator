@@ -1,0 +1,833 @@
+[0.56 - 5.119999999999999] hey everybody david shapiro here with a
+
+[2.96 - 8.48] uh the first video in a new tutorial
+
+[5.12 - 10.0] series so this is python and gpt3 from
+
+[8.48 - 12.799] the ground up so if you don't know
+
+[10.0 - 15.2] anything about python or gpt3 and you
+
+[12.799 - 16.72] want to get into it start here so this
+
+[15.2 - 18.24] is going to be the boot camp starting
+
+[16.72 - 20.16] from zero
+
+[18.24 - 21.599999999999998] starting from scratch so the first thing
+
+[20.16 - 24.16] you're going to want to do is take a
+
+[21.6 - 25.439] look at this comic from xkcd from 10 15
+
+[24.16 - 27.039] years ago
+
+[25.439 - 28.72] it basically it's just making fun of how
+
+[27.039 - 30.560000000000002] simple python is
+
+[28.72 - 32.64] the the punch line is um how are you
+
+[30.56 - 34.559] flying and i just i just typed import
+
+[32.64 - 35.84] anti-gravity and then of course he
+
+[34.559 - 38.079] sampled all the things in the medicine
+
+[35.84 - 39.6] cabinet and then now he's flying
+
+[38.079 - 40.879] um anyways
+
+[39.6 - 43.52] so the first thing you do is you go to
+
+[40.879 - 46.8] python.org downloads
+
+[43.52 - 46.800000000000004] it downloads pretty quick
+
+[47.44 - 52.239] you do install now and so
+
+[50.0 - 54.0] the first time i did this i missed this
+
+[52.239 - 55.279999999999994] because we're doing something so simple
+
+[54.0 - 58.64] you don't need to worry about virtual
+
+[55.28 - 61.28] environments so you make sure to click
+
+[58.64 - 63.120000000000005] add python to path
+
+[61.28 - 65.28] and you can expand here
+
+[63.12 - 67.84] to see what else it'll do documentation
+
+[65.28 - 71.04] that's fine pip you definitely need pip
+
+[67.84 - 73.2] so pip is the pack package manager for
+
+[71.04 - 76.24000000000001] python which allows you to install other
+
+[73.2 - 79.60000000000001] stuff that python needs so
+
+[76.24 - 81.439] that's fine install for all users
+
+[79.6 - 82.479] you don't always need to do that but i
+
+[81.439 - 84.24] do
+
+[82.479 - 85.6] so that puts it right here in the
+
+[84.24 - 87.03999999999999] standard thing
+
+[85.6 - 88.24] again
+
+[87.04 - 89.28] don't worry about virtual environments
+
+[88.24 - 92.0] we're just going to install it as the
+
+[89.28 - 93.84] system interpreter
+
+[92.0 - 95.119] using virtual environments is more
+
+[93.84 - 96.799] advanced so we're not going to worry
+
+[95.119 - 98.96] about that
+
+[96.799 - 102.07900000000001] so there you go i actually uninstalled
+
+[98.96 - 103.67999999999999] python entirely just so to show like
+
+[102.079 - 106.0] going from scratch
+
+[103.68 - 107.92] um so this is python 3.10 that's the
+
+[106.0 - 110.079] latest and greatest
+
+[107.92 - 112.159] it's the same process uh
+
+[110.079 - 114.88] probably forever it's been it's been the
+
+[112.159 - 116.96000000000001] same for all of 3.3.
+
+[114.88 - 118.64] it didn't used to come with pip you used
+
+[116.96 - 120.55999999999999] to have to install that separately so
+
+[118.64 - 122.719] the fact that they they include that now
+
+[120.56 - 124.159] is is nice
+
+[122.719 - 126.64] let me close my
+
+[124.159 - 126.64] console
+
+[126.88 - 130.399] so once this is done it'll add python to
+
+[129.28 - 132.879] the um
+
+[130.399 - 132.879] there we go
+
+[133.76 - 140.79999999999998] okay so python dash dash version
+
+[136.64 - 142.72] 3.10.5 there we go so pip install pip
+
+[140.8 - 144.16000000000003] dash dash upgrade
+
+[142.72 - 145.76] so you can do this
+
+[144.16 - 147.44] it's recommended that that's the first
+
+[145.76 - 149.44] thing that you do
+
+[147.44 - 150.48] and because it upgrades your package
+
+[149.44 - 152.48] manager
+
+[150.48 - 154.879] so the command here is pip
+
+[152.48 - 156.64] so that's the python package manager
+
+[154.879 - 158.319] install pip so you're telling it to
+
+[156.64 - 160.319] install something that's already there
+
+[158.319 - 161.92] and then the dash dash upgrade tells you
+
+[160.319 - 163.2] to upgrade
+
+[161.92 - 164.79999999999998] now the very next thing you're going to
+
+[163.2 - 167.28] want to do
+
+[164.8 - 169.20000000000002] is install openai
+
+[167.28 - 171.68] if you want to use gpt3 this is the
+
+[169.2 - 173.28] module or the package that you can use
+
+[171.68 - 175.84] and all you got to do is copy that to
+
+[173.28 - 175.84] clipboard
+
+[175.92 - 181.44] and you do control paste or shift insert
+
+[178.64 - 184.879] for a command line
+
+[181.44 - 187.76] pip install open ai
+
+[184.879 - 190.39999999999998] and this is most of the way there
+
+[187.76 - 191.67999999999998] so it'll run all the dependencies
+
+[190.4 - 193.44] and unless your
+
+[191.68 - 194.8] system is weird or something you
+
+[193.44 - 197.35999999999999] shouldn't get any errors here this is
+
+[194.8 - 199.20000000000002] pretty straightforward
+
+[197.36 - 200.959] and if you already have open ai
+
+[199.2 - 202.879] installed then you can just add that
+
+[200.959 - 205.92000000000002] dash dash upgrade
+
+[202.879 - 205.92] and away it goes
+
+[209.28 - 213.92] that's giving me a few few notices
+
+[212.959 - 215.84] yep
+
+[213.92 - 218.48] which is not on path
+
+[215.84 - 221.28] that's fine
+
+[218.48 - 222.72] successfully installed ta-dah
+
+[221.28 - 224.72] okay so we're most of the way there
+
+[222.72 - 226.48] you're most of the way ready but now
+
+[224.72 - 228.239] what how do you get code
+
+[226.48 - 230.39999999999998] so if you watch my channel you'll know
+
+[228.239 - 232.879] that i have i do a lot of code and i put
+
+[230.4 - 235.36] all of my code up on github so how do
+
+[232.879 - 237.439] you get stuff quickly and easily the
+
+[235.36 - 241.519] answer there is you use git
+
+[237.439 - 244.07999999999998] so you go to git dash scm.com downloads
+
+[241.519 - 245.04] or slash download sorry
+
+[244.08 - 246.4] you get
+
+[245.04 - 248.07999999999998] you download git
+
+[246.4 - 250.0] i've already got it but i'll go ahead
+
+[248.08 - 252.4] and install the update
+
+[250.0 - 254.959] so you can see the process
+
+[252.4 - 256.0] so we will install git for windows
+
+[254.959 - 257.28000000000003] um
+
+[256.0 - 259.28] install
+
+[257.28 - 260.71999999999997] removing previous get version so this is
+
+[259.28 - 263.35999999999996] pretty much the same process you'll go
+
+[260.72 - 266.0] through so what git does it is an open
+
+[263.36 - 268.88] source code management tool it has
+
+[266.0 - 270.639] become the standard code management tool
+
+[268.88 - 272.56] globally
+
+[270.639 - 274.479] we don't need to see the release notes
+
+[272.56 - 277.12] okay so now that git is installed what
+
+[274.479 - 277.12] do you do then
+
+[277.44 - 280.479] what i do next or what i'll have you do
+
+[279.6 - 283.04] next
+
+[280.479 - 285.199] is you go to your command line um and
+
+[283.04 - 287.12] you go to this repo so this is the this
+
+[285.199 - 289.28000000000003] is the tutorial repo i'll put all the
+
+[287.12 - 291.68] all the code and demos here
+
+[289.28 - 292.79999999999995] so you go to this you click code the big
+
+[291.68 - 295.84000000000003] green button
+
+[292.8 - 298.639] and you see where it says https ssh or
+
+[295.84 - 300.88] github cli just leave it on https that's
+
+[298.639 - 302.40000000000003] the standard you click this
+
+[300.88 - 303.84] for copied
+
+[302.4 - 305.59999999999997] you come back in here
+
+[303.84 - 307.44] you go to the root which you don't have
+
+[305.6 - 310.639] to that's what i do you can also do cd
+
+[307.44 - 312.96] um oh what was it no it's cd uh was it
+
+[310.639 - 316.479] user
+
+[312.96 - 318.56] i don't remember um user der
+
+[316.479 - 320.96] whatever um i always copy stuff down to
+
+[318.56 - 324.08] root just because uh it's shorter that
+
+[320.96 - 325.28] way um so get clone and then shift
+
+[324.08 - 327.59999999999997] insert
+
+[325.28 - 329.44] um for for this
+
+[327.6 - 333.199] uh and so this this
+
+[329.44 - 335.6] goes to the python gbt3 tutorial dot git
+
+[333.199 - 337.6] so the dot get file is the configuration
+
+[335.6 - 340.8] file that it's going to use to download
+
+[337.6 - 342.56] the entire repo so get clone
+
+[340.8 - 345.039] and it down downloads it nice and quick
+
+[342.56 - 347.199] then you do cd python
+
+[345.039 - 349.12] and use tab to complete so tab is
+
+[347.199 - 352.96000000000004] autocomplete so like if you type in
+
+[349.12 - 355.68] windows and then complete like just win
+
+[352.96 - 358.0] tab that'll do complete you can do
+
+[355.68 - 361.36] program files and there's two different
+
+[358.0 - 364.479] ones program data program files
+
+[361.36 - 367.12] but we're going to go into python
+
+[364.479 - 368.88] and then we'll do dur now windows
+
+[367.12 - 371.199] started integrating uh linux command so
+
+[368.88 - 372.08] i think ls dash all nope it doesn't work
+
+[371.199 - 373.91900000000004] okay
+
+[372.08 - 375.59999999999997] but dura will show you everything in the
+
+[373.919 - 378.0] file which right now since i just
+
+[375.6 - 380.0] started it it's fine okay
+
+[378.0 - 381.6] so for review we've downloaded python
+
+[380.0 - 383.919] and we've downloaded git and then we've
+
+[381.6 - 386.319] cloned down this repo we've also
+
+[383.919 - 389.52] installed um open ai
+
+[386.319 - 391.03900000000004] so we're like right off the bat we've
+
+[389.52 - 392.88] we've got a nice minimalist clean
+
+[391.039 - 394.96] environment the last thing that i want
+
+[392.88 - 397.039] you to download is notepad plus plus and
+
+[394.96 - 399.12] this is if you're on windows actually i
+
+[397.039 - 400.88] think notepad plus plus is on
+
+[399.12 - 404.88] linux as well
+
+[400.88 - 408.68] notepad plus plus is a basic text editor
+
+[404.88 - 408.68] wait that's not what i wanted
+
+[409.039 - 411.28] there we go
+
+[410.16 - 412.56] um
+
+[411.28 - 414.31899999999996] so they do have that deceptive thing
+
+[412.56 - 416.0] make sure you click the the download on
+
+[414.319 - 417.91900000000004] under the the
+
+[416.0 - 421.759] lizard icon
+
+[417.919 - 423.68] um notepad plus plus it is a minimalist
+
+[421.759 - 425.759] development environment there are
+
+[423.68 - 428.639] develop there are ides integrated
+
+[425.759 - 430.88] development environments um like pycharm
+
+[428.639 - 433.44] i stopped using pycharm years ago
+
+[430.88 - 435.36] because it has its own environment
+
+[433.44 - 436.639] variables and all sorts of other complex
+
+[435.36 - 439.039] stuff
+
+[436.639 - 440.8] that is just it's way overkill
+
+[439.039 - 442.0] and i wanted the simplest environment
+
+[440.8 - 442.8] possible
+
+[442.0 - 444.96] so
+
+[442.8 - 447.759] notepad plus plus
+
+[444.96 - 450.15999999999997] it'll it'll do the um the language for
+
+[447.759 - 452.40000000000003] you and everything one reason that i
+
+[450.16 - 454.72] like using notepad plus plus over
+
+[452.4 - 456.31899999999996] pycharm is that you have to learn to
+
+[454.72 - 459.12] code correctly
+
+[456.319 - 461.03900000000004] um pycharm will do a lot of stuff for
+
+[459.12 - 463.36] you it's kind of like microsoft word and
+
+[461.039 - 467.039] it'll recommend grammar and syntax
+
+[463.36 - 469.28000000000003] changes which is great except you don't
+
+[467.039 - 471.199] ever learn to do that yourself
+
+[469.28 - 473.35999999999996] and we'll get into best practices for
+
+[471.199 - 475.039] python in a future video but right now
+
+[473.36 - 477.039] we're just focusing on setting up our
+
+[475.039 - 478.56] environment and so what we've done is
+
+[477.039 - 480.71999999999997] we've done python
+
+[478.56 - 483.52] we've done git we've done notepad plus
+
+[480.72 - 485.84000000000003] plus we've done open ai
+
+[483.52 - 487.52] and then we've gotten this repo now by
+
+[485.84 - 489.84] the time you download this there will be
+
+[487.52 - 491.75899999999996] a little bit more in this repo
+
+[489.84 - 494.87899999999996] so let me show you what i mean by in the
+
+[491.759 - 497.199] repo so we'll just say
+
+[494.879 - 498.639] copy paste
+
+[497.199 - 502.96000000000004] your
+
+[498.639 - 504.639] api key here so then i'll save this file
+
+[502.96 - 506.56] we'll go to
+
+[504.639 - 508.72] what was it uh
+
+[506.56 - 511.199] python there we go
+
+[508.72 - 514.32] um and so we'll call this
+
+[511.199 - 516.24] open ai api
+
+[514.32 - 518.399] key dot text
+
+[516.24 - 519.2] and so we'll save this here
+
+[518.399 - 521.36] and
+
+[519.2 - 524.159] what i'll do is this will end up in here
+
+[521.36 - 527.6] and so you'll go to your open ai account
+
+[524.159 - 529.36] so it'll be um openai.com account api
+
+[527.6 - 531.2] keys right here
+
+[529.36 - 532.9590000000001] i'm not going to show you my key but
+
+[531.2 - 536.72] what you do is you you click copy on
+
+[532.959 - 538.4799999999999] that and you put it in this folder
+
+[536.72 - 543.279] and so then we're basically just going
+
+[538.48 - 545.6] to do the hello world of of um
+
+[543.279 - 547.4399999999999] of gpt3 so
+
+[545.6 - 549.6] import openai we'll just go ahead and
+
+[547.44 - 552.24] save this
+
+[549.6 - 553.839] and i'll save it as hello
+
+[552.24 - 555.279] world.pi
+
+[553.839 - 557.7600000000001] and you see that it changed the the
+
+[555.279 - 560.32] formatting so that now import is
+
+[557.76 - 560.3199999999999] highlighted
+
+[560.88 - 565.76] i am super guilty of this i always copy
+
+[562.88 - 568.0] paste my own all of my own old code um
+
+[565.76 - 571.04] so i'm gonna do that real quick
+
+[568.0 - 572.88] um and show you some basic functions
+
+[571.04 - 575.279] that i use all the time
+
+[572.88 - 578.48] um all right so we'll go in here
+
+[575.279 - 578.48] oops no don't open that
+
+[578.56 - 583.8389999999999] we will open it in a notepad plus plus
+
+[581.68 - 586.0] okay so i always
+
+[583.839 - 588.0] start with these few
+
+[586.0 - 589.839] things right off the top
+
+[588.0 - 591.36] and i'll show you what these do in just
+
+[589.839 - 594.24] a second actually let me check the video
+
+[591.36 - 595.76] length oh we're already at 10 minutes
+
+[594.24 - 597.6] um so we're kind of we're kind of
+
+[595.76 - 599.04] running long already but this will at
+
+[597.6 - 602.9590000000001] least get you started with the hello
+
+[599.04 - 605.68] world of of um your your your your life
+
+[602.959 - 607.4399999999999] your life in gpt3 so i just write a
+
+[605.68 - 610.56] quick function it's called open file you
+
+[607.44 - 613.0400000000001] give it a file path it opens it um with
+
+[610.56 - 615.1199999999999] encoding as utf-8 as in file and then it
+
+[613.04 - 616.88] returns the contents of the file and
+
+[615.12 - 620.9590000000001] then the very next thing is i return
+
+[616.88 - 624.16] that and i pass this information back
+
+[620.959 - 625.5189999999999] and so then what you can do oops
+
+[624.16 - 629.6] is
+
+[625.519 - 629.6] you can borrow this function
+
+[630.16 - 636.399] which will be in this
+
+[633.04 - 637.76] and i'll trim it down for you
+
+[636.399 - 640.16] and you'll know that it works though
+
+[637.76 - 642.16] because we'll i'll have you call this
+
+[640.16 - 644.24] and you'll actually get a prompt or
+
+[642.16 - 645.4399999999999] you'll get you'll get a response
+
+[644.24 - 646.9590000000001] what i'm going to do is i'm going to
+
+[645.44 - 648.32] simplify it a little bit because if it
+
+[646.959 - 650.399] blows up
+
+[648.32 - 651.44] i want you to do some troubleshooting on
+
+[650.399 - 652.48] your own
+
+[651.44 - 654.48] um
+
+[652.48 - 658.399] and then we'll remove the while loop and
+
+[654.48 - 658.399] we'll remove the accept part
+
+[659.519 - 662.64] and we'll
+
+[661.2 - 663.6] pull that back whoops
+
+[662.64 - 665.76] okay
+
+[663.6 - 667.76] so what this function does the first one
+
+[665.76 - 669.2] super simple it just opens a file reads
+
+[667.76 - 671.4399999999999] it and sends it back
+
+[669.2 - 674.0790000000001] um we the second thing what we did is we
+
+[671.44 - 675.6800000000001] set our api key to the contents of this
+
+[674.079 - 678.56] which you'll need to update
+
+[675.68 - 680.88] um and uh
+
+[678.56 - 683.8389999999999] no special important note don't ever
+
+[680.88 - 686.16] commit your api key to a repo because uh
+
+[683.839 - 688.6400000000001] then someone else might see it one day
+
+[686.16 - 690.3199999999999] that should be local only
+
+[688.64 - 691.99] um we will
+
+[690.32 - 693.2] simplify this
+
+[691.99 - 695.6800000000001] [Music]
+
+[693.2 - 697.6] so this is the stop we'll get into what
+
+[695.68 - 700.3199999999999] all of these things do later
+
+[697.6 - 703.839] um but yeah so this what this will do is
+
+[700.32 - 703.839] it will just send back
+
+[704.32 - 708.6400000000001] a completion and so then we'll say
+
+[707.6 - 709.839] if
+
+[708.64 - 711.279] name
+
+[709.839 - 711.72] equals
+
+[711.279 - 714.779] main
+
+[711.72 - 714.779] [Music]
+
+[714.88 - 720.639] then we'll say um my prompt equals
+
+[718.16 - 722.56] uh what'll be a good prompt um
+
+[720.639 - 725.12] write a list of
+
+[722.56 - 728.4799999999999] uh of um
+
+[725.12 - 730.639] famous american actors
+
+[728.48 - 734.72] okay so that'll be our prompt then
+
+[730.639 - 736.24] response will be equals uh gpt3 whoops
+
+[734.72 - 738.24] completion
+
+[736.24 - 740.639] and we'll pass the prompt in and then
+
+[738.24 - 742.5600000000001] we'll print the response now i'm not
+
+[740.639 - 744.639] going to run this because your homework
+
+[742.56 - 746.4799999999999] is you've got to run this yourself which
+
+[744.639 - 748.639] means you've got to get all this
+
+[746.48 - 749.839] cloned downloaded and put in your api
+
+[748.639 - 751.6] key here
+
+[749.839 - 753.839] and we'll call that a day
+
+[751.6 - 755.12] so just as a quick review here's what
+
+[753.839 - 758.0790000000001] we've done
+
+[755.12 - 760.399] we we looked at our xkcd comic from many
+
+[758.079 - 762.16] years ago we downloaded python we
+
+[760.399 - 764.88] downloaded git
+
+[762.16 - 767.519] we downloaded notepad plus plus
+
+[764.88 - 769.4399999999999] we installed openai which allows us to
+
+[767.519 - 772.48] talk to gpt3
+
+[769.44 - 773.9200000000001] and then we cloned down this tutorial
+
+[772.48 - 776.0] repo
+
+[773.92 - 777.92] and then i showed you how to get your
+
+[776.0 - 780.56] api key so what you'll do is you'll just
+
+[777.92 - 782.4799999999999] click this that copy button come in here
+
+[780.56 - 785.04] to open ai key
+
+[782.48 - 787.44] open ai api key dot text and copy paste
+
+[785.04 - 789.36] it in here make sure there's no spaces
+
+[787.44 - 792.0790000000001] or anything it'll just be the first line
+
+[789.36 - 794.0] and that's it and then what you do
+
+[792.079 - 796.3199999999999] and this is going to bomb in order to
+
+[794.0 - 797.76] test it you type in python
+
+[796.32 - 800.48] hello world
+
+[797.76 - 802.399] and it's not going to work um except
+
+[800.48 - 805.12] finally oh whoops see this is why you
+
+[802.399 - 807.76] test your code kids what did i miss
+
+[805.12 - 809.92] oh i forgot to remove the try
+
+[807.76 - 812.16] there we go
+
+[809.92 - 813.92] ta-da okay now it works it would be
+
+[812.16 - 816.48] really unfortunate if i sent you code
+
+[813.92 - 819.36] that didn't actually work okay
+
+[816.48 - 821.36] now this will still bomb because the api
+
+[819.36 - 822.5600000000001] key is invalid so let me show you what
+
+[821.36 - 824.639] will happen
+
+[822.56 - 826.079] so it'll say hello world it'll say uh
+
+[824.639 - 827.6800000000001] hey
+
+[826.079 - 828.399] something didn't work
+
+[827.68 - 829.8389999999999] you know
+
+[828.399 - 831.6] uh open ai
+
+[829.839 - 833.9200000000001] yep so here's the error right here open
+
+[831.6 - 835.1990000000001] ai error authentication incorrect api
+
+[833.92 - 837.519] key provided
+
+[835.199 - 840.079] um it did not like
+
+[837.519 - 842.72] my api key so you need to fix that that
+
+[840.079 - 845.279] is your very first homework so then to
+
+[842.72 - 847.44] save save your work um or to save my
+
+[845.279 - 849.36] work i'll do git add
+
+[847.44 - 851.9200000000001] dot
+
+[849.36 - 853.76] so then i do that adds all files so then
+
+[851.92 - 856.76] i do get stat
+
+[853.76 - 856.76] um
+
+[857.44 - 862.639] no git status sorry
+
+[859.6 - 865.0400000000001] um so there's two new files to add
+
+[862.639 - 867.36] so i'll do git commit am and we'll do a
+
+[865.04 - 869.5999999999999] deeper dive on git in the future
+
+[867.36 - 871.36] and we'll say initial commit
+
+[869.6 - 873.1990000000001] and then i'll do git push
+
+[871.36 - 874.5600000000001] and so what that does is it says okay
+
+[873.199 - 876.3199999999999] every i've looked at all the changes
+
+[874.56 - 878.2399999999999] that i've made locally i want to push it
+
+[876.32 - 880.32] back up to the cloud so what we'll do
+
+[878.24 - 881.839] then is we'll go back up to git and i'll
+
+[880.32 - 883.7600000000001] just do a quick refresh and you'll see
+
+[881.839 - 885.1990000000001] that those files are now here and so
+
+[883.76 - 887.68] these are the files that you're going to
+
+[885.199 - 889.519] use to start learning python and get
+
+[887.68 - 891.76] your environment set up
+
+[889.519 - 894.24] okay i think that's it thanks for
+
+[891.76 - 897.519] watching like and subscribe also
+
+[894.24 - 899.279] consider supporting me on patreon
+
+[897.519 - 900.9590000000001] i am
+
+[899.279 - 902.56] just seeing where this goes also i have
+
+[900.959 - 905.8389999999999] a discord server if you'd like to join
+
+[902.56 - 907.8389999999999] to get um uh some insight info to
+
+[905.839 - 909.839] discuss research topics so on and so
+
+[907.839 - 911.2790000000001] forth um that's about it thanks for
+
+[909.839 - 913.839] watching check
+
+[911.279 - 913.8389999999999] catch you next time

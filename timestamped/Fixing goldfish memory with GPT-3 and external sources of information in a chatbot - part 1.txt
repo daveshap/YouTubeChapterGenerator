@@ -1,0 +1,2697 @@
+[0.64 - 5.12] morning everybody david shapiro here
+
+[2.879 - 7.359] um i'm doing the rare recording two
+
+[5.12 - 9.599] videos back to back because um i woke up
+
+[7.359 - 12.0] with inspiration woke up at five in the
+
+[9.599 - 14.639] morning and was ready to go okay so
+
+[12.0 - 17.119] the reason that you're here um this dude
+
+[14.639 - 18.96] uh ravi he asked a good question and he
+
+[17.119 - 20.72] put it so succinctly that i need to
+
+[18.96 - 22.48] borrow his language so thank you ravi
+
+[20.72 - 24.32] for asking this question
+
+[22.48 - 26.96] um he's not the first person to ask this
+
+[24.32 - 29.519] question but he put it very succinctly
+
+[26.96 - 30.64] so basically he says he wants school
+
+[29.519 - 32.239] kids
+
+[30.64 - 34.160000000000004] um wants to help school kids with a
+
+[32.239 - 35.279999999999994] conversational app that is that is
+
+[34.16 - 37.76] friendly
+
+[35.28 - 40.239000000000004] um so that the chatbot we've got worked
+
+[37.76 - 41.68] out um i have a previous video
+
+[40.239 - 42.959999999999994] um where
+
+[41.68 - 45.12] my tutor
+
+[42.96 - 47.68] chat bot works perfectly fine here's an
+
+[45.12 - 49.839999999999996] example fine-tuned model it's got 600
+
+[47.68 - 51.199] samples it can handle
+
+[49.84 - 53.52] it can handle
+
+[51.199 - 55.599999999999994] adversarial students it can handle
+
+[53.52 - 58.160000000000004] emotional issues it's very kind it will
+
+[55.6 - 59.52] adapt to whatever level the person needs
+
+[58.16 - 61.839999999999996] if you ask it about quantum physics
+
+[59.52 - 63.760000000000005] it'll answer quantum physics if you ask
+
+[61.84 - 66.479] it about colors it'll talk about colors
+
+[63.76 - 67.75999999999999] it can handle all adrian's all
+
+[66.479 - 69.67999999999999] needs
+
+[67.76 - 71.04] so i've got that part covered
+
+[69.68 - 74.47900000000001] but
+
+[71.04 - 75.43900000000001] um there are two primary issues um one
+
+[74.479 - 77.6] is
+
+[75.439 - 79.91999999999999] uh gpt3 is static
+
+[77.6 - 82.55999999999999] um it was trained you know i think the
+
+[79.92 - 85.36] the the update was it was updated with
+
+[82.56 - 87.759] you know information circa 2021 already
+
+[85.36 - 88.88] aging so how do you integrate new
+
+[87.759 - 90.32] information
+
+[88.88 - 92.32] big issue
+
+[90.32 - 94.15899999999999] and a similar issue
+
+[92.32 - 96.72] it has to do with memories and i love
+
+[94.159 - 99.36] this term goldfish memory
+
+[96.72 - 100.64] it doesn't remember anything long term
+
+[99.36 - 101.92] goldfish
+
+[100.64 - 104.399] have
+
+[101.92 - 105.68] short memory um there is some science
+
+[104.399 - 107.68] out there that goldfish actually have
+
+[105.68 - 109.60000000000001] longer memories than you might think but
+
+[107.68 - 111.36000000000001] the point is is that you know
+
+[109.6 - 112.96] it's got a tiny little brain it can't
+
+[111.36 - 114.399] remember long-term things
+
+[112.96 - 116.79899999999999] so
+
+[114.399 - 118.64] how do we solve these two problems
+
+[116.799 - 121.60000000000001] that's what we're doing today
+
+[118.64 - 123.6] so i have created a new repo
+
+[121.6 - 125.28] um it's called long-term chat with
+
+[123.6 - 127.119] external sources
+
+[125.28 - 128.56] so let me just show you that repo real
+
+[127.119 - 130.56] quick
+
+[128.56 - 132.56] sorry i don't know why i'm so
+
+[130.56 - 135.2] oh i've got some uh some ginger tea
+
+[132.56 - 137.76] which will ow that's hot i just spilled
+
+[135.2 - 139.76] hot tea on my leg
+
+[137.76 - 143.2] i'm struggling this morning okay
+
+[139.76 - 144.79999999999998] long-term chat external sources so
+
+[143.2 - 146.95899999999997] we've got chat figured out that's not a
+
+[144.8 - 148.8] big deal right you know you fine tune a
+
+[146.959 - 150.0] model you've got a chatbot
+
+[148.8 - 152.56] okay whatever
+
+[150.0 - 154.8] but let's solve these other two problems
+
+[152.56 - 157.76] where we've got um where we've got
+
+[154.8 - 159.68] long-term memory and external sources
+
+[157.76 - 161.44] so there's two primary ways that i'm
+
+[159.68 - 163.20000000000002] going to tackle this um oh here's the
+
+[161.44 - 166.239] here's the repo for the chat bot if you
+
+[163.2 - 169.35999999999999] need to um see that um so this is how i
+
+[166.239 - 171.519] how i created the the fine tune for that
+
+[169.36 - 173.84] and then the this is the the
+
+[171.519 - 176.239] multi-document answering so this is how
+
+[173.84 - 179.84] do you how do you query information from
+
+[176.239 - 181.12] an external source that's this um
+
+[179.84 - 183.519] what i'm going to do is instead of
+
+[181.12 - 186.48000000000002] querying a document
+
+[183.519 - 188.56] is i'm going to actually query wikipedia
+
+[186.48 - 191.04] because wikipedia is a live source of
+
+[188.56 - 193.76] external information and it's searchable
+
+[191.04 - 194.64] um so that's what we'll do
+
+[193.76 - 195.599] and
+
+[194.64 - 198.39999999999998] yes
+
+[195.599 - 201.04] so without further ado let's jump in um
+
+[198.4 - 202.4] i got started um i know that you guys
+
+[201.04 - 204.319] usually like to see
+
+[202.4 - 206.159] the whole process these are just copy
+
+[204.319 - 209.76] pasted mostly from
+
+[206.159 - 211.28] from the um from the from
+
+[209.76 - 213.67999999999998] from this one
+
+[211.28 - 216.08] from answer questions dot pi because you
+
+[213.68 - 218.48000000000002] know i i solved some problems here um
+
+[216.08 - 220.31900000000002] like search indexing that sort of thing
+
+[218.48 - 222.23899999999998] um so i just copy pasted the functions
+
+[220.319 - 224.159] so if you want to see how i did all that
+
+[222.239 - 225.44] go watch the other video let's get to
+
+[224.159 - 228.159] new stuff though
+
+[225.44 - 229.68] um okay so first of all if we're if
+
+[228.159 - 231.28] we're doing a chat
+
+[229.68 - 233.76000000000002] um if
+
+[231.28 - 236.0] name equals
+
+[233.76 - 238.239] main
+
+[236.0 - 240.56] um
+
+[238.239 - 243.12] so we'll do uh
+
+[240.56 - 245.36] converse uh let's see yeah
+
+[243.12 - 247.439] conversation so we'll do make sure i'm
+
+[245.36 - 250.799] not using that variable anywhere else
+
+[247.439 - 252.84] okay good so we'll have one list to
+
+[250.799 - 254.799] accumulate the entire
+
+[252.84 - 256.72] conversation um
+
+[254.799 - 259.44] that's probably the only global thing
+
+[256.72 - 259.44000000000005] while true
+
+[261.68 - 264.16] let's see
+
+[265.36 - 269.6] input is a function
+
+[267.68 - 271.68] i want to say like
+
+[269.6 - 274.08000000000004] user says
+
+[271.68 - 274.08] input
+
+[274.639 - 279.04] we'll just say user
+
+[277.919 - 279.84] so that way
+
+[279.04 - 282.40000000000003] it'll
+
+[279.84 - 285.35999999999996] say like okay this is what you say
+
+[282.4 - 285.35999999999996] okay so
+
+[286.16 - 290.16] line
+
+[287.199 - 291.91900000000004] in equals
+
+[290.16 - 293.12] user
+
+[291.919 - 295.35999999999996] and then we'll do
+
+[293.12 - 297.36] percent user says
+
+[295.36 - 298.72] okay so this will this will be basically
+
+[297.36 - 299.52000000000004] populating
+
+[298.72 - 301.52000000000004] this
+
+[299.52 - 303.68] so user says hey tim can you teach me
+
+[301.52 - 305.84] about ancient rome so i just i brought
+
+[303.68 - 307.52] this up one thing i noticed and this is
+
+[305.84 - 309.75899999999996] kudos to openai this is something i've
+
+[307.52 - 311.44] been complaining about for a while
+
+[309.759 - 313.28000000000003] is that it tends to unload your
+
+[311.44 - 314.8] fine-tuned models this has been sitting
+
+[313.28 - 317.28] here for 10 minutes
+
+[314.8 - 320.32] and look
+
+[317.28 - 323.11999999999995] did matrons ever have sex with
+
+[320.32 - 323.12] gladiators
+
+[323.6 - 326.88] this is a real thing that happened in
+
+[324.88 - 329.84] ancient rome let's see how it handles it
+
+[326.88 - 332.0] oh yeah it so i trained it not to engage
+
+[329.84 - 333.84] with sex um
+
+[332.0 - 336.56] so let's see if we can get it to yeah
+
+[333.84 - 338.32] he's not gonna talk about it okay um
+
+[336.56 - 342.639] that's fine because this is this is
+
+[338.32 - 344.88] meant to be pg or g rated um
+
+[342.639 - 348.24] did gladiators
+
+[344.88 - 350.15999999999997] ever fight lions
+
+[348.24 - 351.52] he should answer that
+
+[350.16 - 354.56] yes okay
+
+[351.52 - 356.15999999999997] they're called venetiones oh cool
+
+[354.56 - 357.84] um so this has been sitting here for
+
+[356.16 - 360.0] like 10 minutes and you saw it was ready
+
+[357.84 - 361.919] to go instantly so good job openai thank
+
+[360.0 - 364.0] you for fixing that that was the most
+
+[361.919 - 366.88] annoying thing ever was that our
+
+[364.0 - 368.639] fine-tuned models were not ready to go
+
+[366.88 - 370.8] okay so fine tuned model's ready to go
+
+[368.639 - 373.28000000000003] at all times wonderful
+
+[370.8 - 376.0] um my spanish teacher would used to say
+
+[373.28 - 377.52] todo el mundo so all the world i guess
+
+[376.0 - 378.96] that's a that's a turn of phrase in
+
+[377.52 - 381.59999999999997] spain where it's just like everything is
+
+[378.96 - 383.52] good let's go so todo el mundo
+
+[381.6 - 386.16] um or maybe that was just something she
+
+[383.52 - 386.15999999999997] said i don't know
+
+[386.639 - 389.68] okay
+
+[387.52 - 392.56] brain reset what are we doing okay so we
+
+[389.68 - 395.36] have this and then what do we need to do
+
+[392.56 - 396.88] well
+
+[395.36 - 399.36] it's not just that simple
+
+[396.88 - 401.28] once we have a conversation going so
+
+[399.36 - 405.44] what we'll do is we'll say
+
+[401.28 - 407.59999999999997] conversation dot append
+
+[405.44 - 409.28] line in okay so
+
+[407.6 - 411.68] we'll just start this conversation
+
+[409.28 - 414.479] starts we put something in
+
+[411.68 - 416.40000000000003] excuse me um and then what do we do
+
+[414.479 - 418.31899999999996] well first
+
+[416.4 - 420.88] we need to
+
+[418.319 - 423.36] search the rest of the conversation so
+
+[420.88 - 424.96] what we're going to do is
+
+[423.36 - 427.84000000000003] search indexed
+
+[424.96 - 427.84] so we're going to search
+
+[428.08 - 431.039] let's
+
+[428.96 - 431.919] cut this down a little
+
+[431.039 - 434.0] um
+
+[431.919 - 436.31899999999996] okay so count 5
+
+[434.0 - 437.199] that's going to error out the first time
+
+[436.319 - 440.47900000000004] um
+
+[437.199 - 442.72] because it's going to be too short
+
+[440.479 - 442.71999999999997] but
+
+[443.52 - 449.28] oh here's here's how we'll do this
+
+[446.88 - 451.039] yeah yeah gotcha gotcha gotcha okay so
+
+[449.28 - 453.039] search index the data is going to be the
+
+[451.039 - 454.639] conversation
+
+[453.039 - 456.639] um
+
+[454.639 - 458.0] oh i need to actually keep track of the
+
+[456.639 - 460.96000000000004] whole
+
+[458.0 - 463.039] the whole thing hmm
+
+[460.96 - 465.84] okay
+
+[463.039 - 465.84] okay
+
+[466.16 - 471.52000000000004] so the conversation will actually need
+
+[468.319 - 473.36] to have the embeddings with it
+
+[471.52 - 474.479] yeah
+
+[473.36 - 477.68] vector
+
+[474.479 - 480.479] equals gpt 3 embedding
+
+[477.68 - 483.28000000000003] and then we'll do line in
+
+[480.479 - 487.12] and so then we'll say
+
+[483.28 - 489.67999999999995] info equals um
+
+[487.12 - 492.56] no that needs to be a dictionary
+
+[489.68 - 493.919] so line of conversation equals
+
+[492.56 - 496.479] line in
+
+[493.919 - 498.71999999999997] and then the vector
+
+[496.479 - 501.75899999999996] equals the vector
+
+[498.72 - 503.84000000000003] okay and uh oh in case you in case it's
+
+[501.759 - 505.44] not obvious i prefer the term vector
+
+[503.84 - 506.87899999999996] because that is mathematically what it
+
+[505.44 - 509.039] returns
+
+[506.879 - 510.72] but in the context of a large language
+
+[509.039 - 512.399] model this vector is technically an
+
+[510.72 - 514.479] embedding
+
+[512.399 - 515.519] or a semantic vector
+
+[514.479 - 517.9190000000001] so
+
+[515.519 - 519.599] an embedding is a vector that has
+
+[517.919 - 521.519] semantic meaning
+
+[519.599 - 522.719] but a vector is just mathematically this
+
+[521.519 - 526.24] is what it is
+
+[522.719 - 527.6800000000001] um okay so we will we'll store
+
+[526.24 - 529.92] so the reason that we're doing this is
+
+[527.68 - 532.16] that every line of conversation so let
+
+[529.92 - 534.0] me come back over here
+
+[532.16 - 536.7199999999999] every line of conversation is going to
+
+[534.0 - 538.08] have an associated embedding or vector
+
+[536.72 - 540.24] which means that this whole thing will
+
+[538.08 - 543.0400000000001] be searchable
+
+[540.24 - 544.48] um okay so conversation append dot info
+
+[543.04 - 546.88] so we're just going to accumulate the
+
+[544.48 - 549.519] entire conversation right here
+
+[546.88 - 551.76] and then what we do is
+
+[549.519 - 551.76] we
+
+[552.08 - 559.0400000000001] i guess we actually won't need
+
+[555.36 - 559.04] this because it's gonna well
+
+[559.839 - 563.839] yeah okay so we'll search
+
+[564.0 - 567.76] we'll search for the most for for
+
+[565.76 - 569.04] similar so i'll need to modify the index
+
+[567.76 - 570.56] also i need to move my microphone
+
+[569.04 - 572.399] because it's blocking a little bit of my
+
+[570.56 - 573.92] field of vision hope you can still hear
+
+[572.399 - 574.839] me if not
+
+[573.92 - 578.4799999999999] deal with
+
+[574.839 - 579.6] it okay
+
+[578.48 - 581.519] so we get
+
+[579.6 - 586.399] our line in
+
+[581.519 - 586.399] and then what do we do we search for
+
+[587.519 - 592.8] we search we search we search
+
+[590.56 - 592.8] um
+
+[592.959 - 598.0799999999999] old lines equals search index
+
+[596.32 - 599.7600000000001] and so we'll do we'll pass info so
+
+[598.08 - 602.399] that's our most recent one
+
+[599.76 - 604.399] we'll search we'll pass conversation
+
+[602.399 - 606.64] and we'll leave it at that
+
+[604.399 - 608.079] i'm not going to pass a variable for how
+
+[606.64 - 609.6] many to return
+
+[608.079 - 611.68] um
+
+[609.6 - 613.36] we'll just take that out we'll hard code
+
+[611.68 - 614.8] that doesn't matter
+
+[613.36 - 615.92] um so we'll do
+
+[614.8 - 619.68] recent
+
+[615.92 - 621.5999999999999] and then we'll do um all lines
+
+[619.68 - 623.1999999999999] so what you're supposed to do is if you
+
+[621.6 - 624.5600000000001] if you use a variable in it in a
+
+[623.2 - 626.399] function especially if it's a list
+
+[624.56 - 629.1999999999999] you're supposed to use a different name
+
+[626.399 - 630.399] um otherwise because gpt3 or not gpt3
+
+[629.2 - 633.76] python
+
+[630.399 - 635.68] python automatically has um lists as
+
+[633.76 - 637.519] global variables i'm probably saying
+
+[635.68 - 639.92] this wrong but like you can modify the
+
+[637.519 - 642.9590000000001] contents of a list from any function but
+
+[639.92 - 644.8] if it's local to um to a function it
+
+[642.959 - 647.04] won't be modified so like if i have a
+
+[644.8 - 649.519] different name even though it's the same
+
+[647.04 - 650.56] um conversation like i'm not going to be
+
+[649.519 - 652.64] modifying and i'm just going to be
+
+[650.56 - 654.0] reading from it but anyways this is best
+
+[652.64 - 655.8389999999999] practices
+
+[654.0 - 657.68] i think
+
+[655.839 - 659.6800000000001] okay
+
+[657.68 - 661.68] so what we're going to do is where did i
+
+[659.68 - 664.2399999999999] go i lost my
+
+[661.68 - 665.4399999999999] search index there we go okay
+
+[664.24 - 667.2] we don't need the vector because we're
+
+[665.44 - 669.9200000000001] already going to have that
+
+[667.2 - 671.519] so for i in
+
+[669.92 - 672.8389999999999] all lines
+
+[671.519 - 675.519] score is
+
+[672.839 - 677.12] similarity so we're going to do
+
+[675.519 - 679.04] this vector
+
+[677.12 - 680.399] so we're going to do
+
+[679.04 - 682.88] recent
+
+[680.399 - 682.88] vector
+
+[683.6 - 689.6800000000001] and actually what we'll do is
+
+[686.88 - 691.76] if
+
+[689.68 - 694.4799999999999] yeah so
+
+[691.76 - 696.079] if these are the same then we skip our
+
+[694.48 - 699.12] current line
+
+[696.079 - 701.68] so if i vector
+
+[699.12 - 704.16] equals recent vector
+
+[701.68 - 707.04] continue and that should be the last one
+
+[704.16 - 708.3199999999999] um technically you could probably uh you
+
+[707.04 - 710.24] could probably just skip the last one
+
+[708.32 - 713.0400000000001] but i don't want to make that assumption
+
+[710.24 - 716.0790000000001] because what if what if we're searching
+
+[713.04 - 717.36] for whatever reason we we reuse this and
+
+[716.079 - 719.68] we're searching elsewhere in the
+
+[717.36 - 721.04] conversation i don't want to assume that
+
+[719.68 - 723.12] the one that i'm searching is always
+
+[721.04 - 724.399] going to be the last one because i can
+
+[723.12 - 725.839] just imagine someone saying why don't
+
+[724.399 - 727.12] you just skip the last one because i
+
+[725.839 - 729.0400000000001] don't want to make that assumption we
+
+[727.12 - 731.04] might be searching based on an older
+
+[729.04 - 733.36] memory okay
+
+[731.04 - 735.04] so score we get the score
+
+[733.36 - 738.16] and then
+
+[735.04 - 739.5999999999999] um what do we do yeah okay so we can
+
+[738.16 - 740.959] just do
+
+[739.6 - 742.399] um
+
+[740.959 - 744.6389999999999] the content
+
+[742.399 - 747.76] i'll change this to line
+
+[744.639 - 749.6800000000001] equals and then we'll do i
+
+[747.76 - 750.959] um line i think that's what i called it
+
+[749.68 - 752.7199999999999] right
+
+[750.959 - 755.04] yeah we've got line and vector okay so
+
+[752.72 - 756.9590000000001] the line of dialog and the vector
+
+[755.04 - 760.639] search index okay
+
+[756.959 - 762.079] so line equals line and the score equals
+
+[760.639 - 764.9590000000001] score okay
+
+[762.079 - 768.0] sorted scores sort by score
+
+[764.959 - 769.3299999999999] um reverse is true so it'll be top down
+
+[768.0 - 771.12] and then um
+
+[769.33 - 774.8000000000001] [Music]
+
+[771.12 - 775.519] i only want to return the top five
+
+[774.8 - 777.1999999999999] so
+
+[775.519 - 779.519] what we'll do is
+
+[777.2 - 781.279] um when we first start the dialog it's
+
+[779.519 - 784.0] going to be shorter than five
+
+[781.279 - 786.16] so we'll just return um you know we'll
+
+[784.0 - 788.959] try to return
+
+[786.16 - 788.959] the top five
+
+[789.2 - 792.5600000000001] but if that doesn't work actually here's
+
+[790.88 - 794.32] here here's what we'll do
+
+[792.56 - 797.279] we'll do ordered
+
+[794.32 - 798.399] equals ordered
+
+[797.279 - 801.04] and then
+
+[798.399 - 804.0] return ordered because i'm afraid that
+
+[801.04 - 806.3199999999999] if it if with the previous one if i if
+
+[804.0 - 808.16] if it has the return at the same time
+
+[806.32 - 810.0790000000001] that it's trying to slice up the list it
+
+[808.16 - 811.4399999999999] might just break entirely
+
+[810.079 - 812.6389999999999] um but then
+
+[811.44 - 815.2] accept
+
+[812.639 - 818.0790000000001] will just return ordered
+
+[815.2 - 820.1600000000001] um so because if it if this doesn't work
+
+[818.079 - 821.519] it'll air it'll bomb right there and
+
+[820.16 - 824.24] then we'll just skip to this and just
+
+[821.519 - 827.12] return it as is um so this is another
+
+[824.24 - 828.5600000000001] paradigm in um in python where it's it's
+
+[827.12 - 830.639] better to ask forgiveness than
+
+[828.56 - 833.5189999999999] permission so rather than test something
+
+[830.639 - 834.5600000000001] you just try accept um you do need to be
+
+[833.519 - 836.32] careful
+
+[834.56 - 838.3199999999999] oops one of my
+
+[836.32 - 840.639] i put up you probably see those hexagons
+
+[838.32 - 842.0] in the back i put up um sound dampening
+
+[840.639 - 844.16] things let me put that back up it's
+
+[842.0 - 845.519] going to bug me um but yeah i put up
+
+[844.16 - 847.12] sound dampening because you probably
+
+[845.519 - 848.88] noticed it sounds better there's less
+
+[847.12 - 851.92] echoes
+
+[848.88 - 854.0] okay we're back sorry about that um
+
+[851.92 - 856.399] someone online said that the the best
+
+[854.0 - 858.32] way to stick stick those panels up was
+
+[856.399 - 860.079] um was
+
+[858.32 - 861.36] blue painters tape
+
+[860.079 - 862.88] which seems to be working because it
+
+[861.36 - 864.32] won't it won't peel any paint off but
+
+[862.88 - 865.6] one just fell off so i might need to get
+
+[864.32 - 867.9200000000001] some better
+
+[865.6 - 871.12] better tape or some two-sided tape
+
+[867.92 - 873.279] anyways where were we search index okay
+
+[871.12 - 876.32] yeah so better to ask forgiveness than
+
+[873.279 - 880.48] permission you do need to be careful um
+
+[876.32 - 882.0] if you do a try accept loop sometimes uh
+
+[880.48 - 884.72] it might not have the results that you
+
+[882.0 - 886.8] think and you might gloss over problems
+
+[884.72 - 888.0790000000001] so that's why when i do it when i do the
+
+[886.8 - 889.3599999999999] tri-accept
+
+[888.079 - 891.68] loop here
+
+[889.36 - 893.12] i actually give it output
+
+[891.68 - 894.6389999999999] because i you know sometimes the
+
+[893.12 - 895.92] assumptions you're making might be wrong
+
+[894.639 - 898.24] and you need to see
+
+[895.92 - 900.639] see why but in this case there's like
+
+[898.24 - 902.88] only one thing that could go wrong here
+
+[900.639 - 904.32] so this is probably a little bit
+
+[902.88 - 906.8] this is more of a sure thing right
+
+[904.32 - 908.5600000000001] because there's only one one action hat
+
+[906.8 - 910.079] happening okay
+
+[908.56 - 912.079] so we've got that
+
+[910.079 - 913.68] old lines equal search index info
+
+[912.079 - 915.68] conversation
+
+[913.68 - 918.399] um you know honestly i don't even need
+
+[915.68 - 921.68] to pass the scores back i don't care
+
+[918.399 - 924.079] um but whatever okay so we get an input
+
+[921.68 - 926.079] we get the old conversation so this will
+
+[924.079 - 927.92] find anything that's most relevant we'll
+
+[926.079 - 930.16] find the most relevant five
+
+[927.92 - 931.6999999999999] lines of conversation this number is
+
+[930.16 - 932.959] arbitrary um
+
+[931.7 - 934.72] [Music]
+
+[932.959 - 937.04] where did it go actually you know what
+
+[934.72 - 938.1600000000001] i'll do i'll do um i'll add count back
+
+[937.04 - 941.5999999999999] in count
+
+[938.16 - 943.92] equals five um
+
+[941.6 - 946.0] and then we'll just do that so that way
+
+[943.92 - 948.56] if you reuse this code you can just pass
+
+[946.0 - 950.8] however much you want um because imagine
+
+[948.56 - 953.8389999999999] that this conversation gets much longer
+
+[950.8 - 955.92] and you wanna return like 50 right
+
+[953.839 - 957.1990000000001] because you can easily fit that into
+
+[955.92 - 959.68] actually yeah let's let's do a little
+
+[957.199 - 961.279] bit longer let's do let's do 10.
+
+[959.68 - 962.959] um so we'll get the 10 most relevant
+
+[961.279 - 965.6] lines
+
+[962.959 - 965.5999999999999] and then
+
+[966.639 - 970.5600000000001] okay so the whole conversation
+
+[968.399 - 972.16] is going to be accumulated here the old
+
+[970.56 - 973.3599999999999] lines will be there
+
+[972.16 - 975.92] um
+
+[973.36 - 978.5600000000001] and then we'll just pass in 10.
+
+[975.92 - 980.3199999999999] um let's cut off
+
+[978.56 - 983.1199999999999] um
+
+[980.32 - 985.6] let's see latest conversation
+
+[983.12 - 987.68] equals uh
+
+[985.6 - 989.519] let's see actually no here
+
+[987.68 - 990.8199999999999] if len
+
+[989.519 - 992.32] conversation
+
+[990.82 - 993.279] [Music]
+
+[992.32 - 995.44] no
+
+[993.279 - 998.56] um
+
+[995.44 - 999.9200000000001] recent conversation equals
+
+[998.56 - 1002.56] uh
+
+[999.92 - 1005.36] here do if there we go if len
+
+[1002.56 - 1008.56] conversation
+
+[1005.36 - 1011.839] is greater than 30 so we'll
+
+[1008.56 - 1014.079] we'll say recent conversation equals
+
+[1011.839 - 1014.0790000000001] um
+
+[1016.48 - 1019.04] equals
+
+[1017.519 - 1021.92] conversation
+
+[1019.04 - 1023.199] and i believe the thing is negative 30
+
+[1021.92 - 1026.72] that
+
+[1023.199 - 1026.72] let me make sure i'm doing that right
+
+[1026.959 - 1030.559] python
+
+[1028.24 - 1033.52] l equals list
+
+[1030.559 - 1034.8799999999999] range 0 to 100
+
+[1033.52 - 1038.72] l okay
+
+[1034.88 - 1041.6000000000001] and then l if we do negative 30 colon
+
+[1038.72 - 1044.319] that's just the last 30. okay perfect
+
+[1041.6 - 1046.9589999999998] um and then do laying just to make sure
+
+[1044.319 - 1049.6] that that's right yes okay
+
+[1046.959 - 1052.48] um yeah so what this does is if our
+
+[1049.6 - 1054.24] conversation is getting too long
+
+[1052.48 - 1056.32] we don't want to pass the entire
+
+[1054.24 - 1058.0] conversation right we just the last 30
+
+[1056.32 - 1062.08] lines that's more than enough because
+
+[1058.0 - 1063.84] you look at this this is 1 2 3 4 5 6 7 8
+
+[1062.08 - 1067.36] 9 10 11
+
+[1063.84 - 1069.28] 12 13 14. so this is 14 so this is less
+
+[1067.36 - 1071.28] than half of that and obviously this is
+
+[1069.28 - 1073.039] enough context to know what we're
+
+[1071.28 - 1075.84] talking about
+
+[1073.039 - 1078.24] so 14 lines of conversation is plenty 30
+
+[1075.84 - 1080.1599999999999] will be way more than enough
+
+[1078.24 - 1082.24] that is a pretty long conversation and
+
+[1080.16 - 1085.1200000000001] then on top of that we're going to have
+
+[1082.24 - 1086.88] the 10 oldest lines right or the 10 most
+
+[1085.12 - 1088.1599999999999] relevant older lines
+
+[1086.88 - 1090.0] um okay
+
+[1088.16 - 1091.52] so now what we've got we're searching
+
+[1090.0 - 1092.799] our index we're searching the
+
+[1091.52 - 1094.4] conversation
+
+[1092.799 - 1096.8799999999999] we're getting the most recent
+
+[1094.4 - 1098.88] conversation so this is 40 lines
+
+[1096.88 - 1102.0800000000002] so now what what are we missing we're
+
+[1098.88 - 1102.0800000000002] missing external data
+
+[1103.12 - 1105.9189999999999] okay
+
+[1103.919 - 1107.5200000000002] so
+
+[1105.919 - 1109.1200000000001] um
+
+[1107.52 - 1110.48] convo block
+
+[1109.12 - 1112.1599999999999] equals
+
+[1110.48 - 1113.919] so we'll do
+
+[1112.16 - 1115.2] um
+
+[1113.919 - 1118.4] n
+
+[1115.2 - 1120.72] so this is newline dot join
+
+[1118.4 - 1122.96] and then we'll do old lines
+
+[1120.72 - 1125.039] so this is going to just be the old old
+
+[1122.96 - 1126.799] bits of the conversation
+
+[1125.039 - 1129.679] plus
+
+[1126.799 - 1131.2] um i probably need to do a new line
+
+[1129.679 - 1133.2] between there
+
+[1131.2 - 1135.28] and then plus and we'll do the same
+
+[1133.2 - 1137.8400000000001] thing
+
+[1135.28 - 1137.84] and we'll join
+
+[1138.72 - 1142.799] recent conversation so basically what
+
+[1140.88 - 1145.3600000000001] this will do is it'll combine it into
+
+[1142.799 - 1146.6399999999999] one chat block right so it's like okay
+
+[1145.36 - 1147.52] we've got this
+
+[1146.64 - 1150.24] um
+
+[1147.52 - 1152.559] so now what we've got our convo block
+
+[1150.24 - 1154.16] what we need to do now is we need to do
+
+[1152.559 - 1156.08] a prompt um
+
+[1154.16 - 1158.4] so prompt
+
+[1156.08 - 1159.84] and just copy a line so prompt equals
+
+[1158.4 - 1163.6000000000001] open file
+
+[1159.84 - 1165.12] and we'll just do prompt um
+
+[1163.6 - 1167.6] keyword
+
+[1165.12 - 1168.8799999999999] replace
+
+[1167.6 - 1171.12] block
+
+[1168.88 - 1171.1200000000001] with
+
+[1171.76 - 1175.84] convo block
+
+[1174.4 - 1177.679] okay so now we need to do some prompt
+
+[1175.84 - 1180.1599999999999] engineering so basically what we're
+
+[1177.679 - 1183.6000000000001] going to do is we're going to
+
+[1180.16 - 1183.6000000000001] i'll use this as an example
+
+[1183.679 - 1186.64] so we're going to say
+
+[1190.24 - 1195.36] read the following conversation and
+
+[1193.919 - 1198.64] generate
+
+[1195.36 - 1200.8799999999999] um actually and let's see recommend
+
+[1198.64 - 1200.88] a
+
+[1201.12 - 1203.52] single
+
+[1205.76 - 1210.799] relevant wikipedia article title
+
+[1211.039 - 1216.24] okay so then we'll do um
+
+[1214.799 - 1218.84] most relevant
+
+[1216.24 - 1222.24] wikipedia article
+
+[1218.84 - 1223.6] title so let's see if this works um i
+
+[1222.24 - 1225.76] want to keep this up so i'm just going
+
+[1223.6 - 1227.52] to duplicate this tab
+
+[1225.76 - 1230.4] and we'll go
+
+[1227.52 - 1234.32] to davinci instruct
+
+[1230.4 - 1236.24] okay let's see what it says
+
+[1234.32 - 1238.08] romulus augustus
+
+[1236.24 - 1241.76] cool
+
+[1238.08 - 1241.76] and then let's go to wikipedia
+
+[1242.12 - 1246.7199999999998] wikipedia why is my uh
+
+[1245.039 - 1248.48] i've already had coffee
+
+[1246.72 - 1251.039] romulus augustus
+
+[1248.48 - 1254.24] bam got it okay
+
+[1251.039 - 1255.12] um so what we can do then
+
+[1254.24 - 1257.6] is
+
+[1255.12 - 1259.36] uh we'll we'll query this we'll get it
+
+[1257.6 - 1263.28] from wikipedia
+
+[1259.36 - 1264.7199999999998] um so this worked really well
+
+[1263.28 - 1267.12] it's always nice when when your
+
+[1264.72 - 1271.2] intuition is like spot on
+
+[1267.12 - 1271.1999999999998] um okay so we've got our prompt
+
+[1271.84 - 1277.039] uh let's go ahead and just do
+
+[1275.12 - 1279.28] block
+
+[1277.039 - 1281.679] and we'll call this prompt what did i
+
+[1279.28 - 1283.52] call it
+
+[1281.679 - 1285.679] keyword
+
+[1283.52 - 1287.28] actually let's call this
+
+[1285.679 - 1289.679] wikipedia because that's it's very
+
+[1287.28 - 1293.039] specific it's specifically
+
+[1289.679 - 1295.039] let's write a prompt to get wikipedia
+
+[1293.039 - 1298.24] prompt wikipedia
+
+[1295.039 - 1299.76] so this presupposes that
+
+[1298.24 - 1302.799] that
+
+[1299.76 - 1305.44] gpt3 will know the correct wikipedia
+
+[1302.799 - 1307.84] article gpt3 was trained in part on
+
+[1305.44 - 1310.48] wikipedia so
+
+[1307.84 - 1312.32] i don't see any problem
+
+[1310.48 - 1314.559] there's another way you can do this so
+
+[1312.32 - 1316.6399999999999] let me show you this is if you want
+
+[1314.559 - 1318.6399999999999] something that's more open source or
+
+[1316.64 - 1320.0] more open-ended what you can do is
+
+[1318.64 - 1322.5590000000002] actually
+
+[1320.0 - 1324.32] you could feed this into a um
+
+[1322.559 - 1327.84] into a question generator
+
+[1324.32 - 1330.0] um so let's see where was it my nowka
+
+[1327.84 - 1333.6789999999999] question generator
+
+[1330.0 - 1336.32] wow is it really that old um
+
+[1333.679 - 1337.919] questions yeah so i have a question
+
+[1336.32 - 1339.76] generator which basically what it does
+
+[1337.919 - 1342.88] do i have an example yeah
+
+[1339.76 - 1344.24] so i have an example where you um you
+
+[1342.88 - 1346.48] feed it anything and it'll generate a
+
+[1344.24 - 1348.159] list of questions so natural language
+
+[1346.48 - 1349.919] questions are going to be much more
+
+[1348.159 - 1352.159] open-ended in terms of what questions
+
+[1349.919 - 1354.159] should i ask about this
+
+[1352.159 - 1356.0800000000002] you could do that but
+
+[1354.159 - 1358.3300000000002] gpt3 is also just
+
+[1356.08 - 1359.76] really great at like
+
+[1358.33 - 1361.6789999999999] [Music]
+
+[1359.76 - 1364.4] let's see
+
+[1361.679 - 1365.2] read the following conversation and
+
+[1364.4 - 1368.88] um
+
+[1365.2 - 1371.039] recommend let's see uh a list of
+
+[1368.88 - 1373.6000000000001] google search queries
+
+[1371.039 - 1376.1589999999999] to learn more
+
+[1373.6 - 1378.48] okay so and then we'll say
+
+[1376.159 - 1380.64] like list of
+
+[1378.48 - 1384.0] google search queries
+
+[1380.64 - 1386.3200000000002] um so you do dis and it like so let's
+
+[1384.0 - 1389.039] say you want to query google instead
+
+[1386.32 - 1391.039] of wikipedia um you could do this and
+
+[1389.039 - 1392.4] then just do google searches
+
+[1391.039 - 1394.1589999999999] i'll go ahead and save this prompt just
+
+[1392.4 - 1396.64] so that way you all can see it
+
+[1394.159 - 1398.7990000000002] so um we'll do
+
+[1396.64 - 1398.7990000000002] uh
+
+[1399.679 - 1404.24] do block
+
+[1401.6 - 1406.7199999999998] and then we'll remove
+
+[1404.24 - 1408.0] that and save this as prompt
+
+[1406.72 - 1410.72] google
+
+[1408.0 - 1412.24] okay so now you guys can see um you can
+
+[1410.72 - 1415.44] experiment with this if you want to use
+
+[1412.24 - 1417.1200000000001] the google api instead of wikipedia
+
+[1415.44 - 1419.52] um
+
+[1417.12 - 1421.84] either way both serve as an external
+
+[1419.52 - 1424.0] source um it's pretty trivial as you see
+
+[1421.84 - 1426.8799999999999] like you just ask gbd3 to generate a
+
+[1424.0 - 1430.0] list of google queries and you're done
+
+[1426.88 - 1430.96] okay um
+
+[1430.0 - 1434.0] answer
+
+[1430.96 - 1436.24] gp oh wait no no no no no um oh right
+
+[1434.0 - 1436.24] yeah
+
+[1437.36 - 1441.36] so then we say
+
+[1439.36 - 1443.039] um
+
+[1441.36 - 1445.6] title equals
+
+[1443.039 - 1449.44] gpt 3 completion
+
+[1445.6 - 1452.0] prompt i think that's all i need to pass
+
+[1449.44 - 1453.3600000000001] that's a chat completion gpt3 completion
+
+[1452.0 - 1455.2] yes
+
+[1453.36 - 1458.52] we do not need that many tokens let's
+
+[1455.2 - 1458.52] say like
+
+[1459.2 - 1463.44] i'll say 500 because we'll use
+
+[1462.08 - 1465.62] we might use this for other things now
+
+[1463.44 - 1466.799] let's say 200 nice and short
+
+[1465.62 - 1468.4799999999998] [Music]
+
+[1466.799 - 1470.8799999999999] max tokens for
+
+[1468.48 - 1473.039] the chat let's say 100 we don't want
+
+[1470.88 - 1475.44] super long conversations
+
+[1473.039 - 1478.1589999999999] temperature of 0.7 that's fine frequency
+
+[1475.44 - 1479.279] penalty let's take that out
+
+[1478.159 - 1482.24] um
+
+[1479.279 - 1483.919] that should be fine okay
+
+[1482.24 - 1485.2] uh yeah
+
+[1483.919 - 1488.159] so
+
+[1485.2 - 1490.159] we've got our conversation set
+
+[1488.159 - 1492.0] um we've got a title
+
+[1490.159 - 1493.6000000000001] and then let's take a look at the
+
+[1492.0 - 1494.799] wikipedia
+
+[1493.6 - 1496.6399999999999] pi pi
+
+[1494.799 - 1500.84] so if you want to get the article you
+
+[1496.64 - 1500.8400000000001] just say here's our page
+
+[1501.52 - 1505.279] so i'm going to assume that it works
+
+[1506.72 - 1510.48] actually no we'll say um
+
+[1513.84 - 1518.3999999999999] wiki equals let's do let's let's not
+
+[1516.559 - 1521.2] make any bad assumptions let's do fetch
+
+[1518.4 - 1523.52] wiki um and we'll do title
+
+[1521.2 - 1524.799] okay so in this function because when
+
+[1523.52 - 1526.6399999999999] you're when you're searching for
+
+[1524.799 - 1529.36] something you don't always know if it's
+
+[1526.64 - 1530.96] going to be if it's going to work so def
+
+[1529.36 - 1533.36] fetch wiki
+
+[1530.96 - 1533.3600000000001] title
+
+[1533.44 - 1537.679] and so what we'll do is we'll do try
+
+[1537.84 - 1541.279] page equals make sure i get the syntax
+
+[1539.919 - 1544.0800000000002] right
+
+[1541.279 - 1546.799] wikipedia.page
+
+[1544.08 - 1550.0] title so if it works we'll just pass
+
+[1546.799 - 1551.679] this back return page
+
+[1550.0 - 1553.84] if not this will error out and it'll say
+
+[1551.679 - 1555.919] i don't know what you're talking about
+
+[1553.84 - 1558.48] it'll say it exactly like that too
+
+[1555.919 - 1561.279] except if it doesn't work we'll do
+
+[1558.48 - 1563.039] search equals wikipedia
+
+[1561.279 - 1564.799] dot search
+
+[1563.039 - 1567.279] title and so
+
+[1564.799 - 1568.559] you see the syntax for that here
+
+[1567.279 - 1570.4] where you can do a search and it'll
+
+[1568.559 - 1572.32] return a list of
+
+[1570.4 - 1574.0800000000002] possible um
+
+[1572.32 - 1576.0] articles
+
+[1574.08 - 1577.76] and so like in this case it's like
+
+[1576.0 - 1580.32] barack so it's like do you mean barack
+
+[1577.76 - 1582.799] obama presidency of barack obama barack
+
+[1580.32 - 1585.6] the brandy barack the given name
+
+[1582.799 - 1587.36] um i have no idea
+
+[1585.6 - 1589.4399999999998] how i'll probably just pick the first
+
+[1587.36 - 1590.799] one
+
+[1589.44 - 1592.799] so then we'll do
+
+[1590.799 - 1594.6399999999999] page equals
+
+[1592.799 - 1596.48] wikipedia
+
+[1594.64 - 1598.7990000000002] dot page
+
+[1596.48 - 1600.08] and we'll do search
+
+[1598.799 - 1603.039] zero
+
+[1600.08 - 1606.3999999999999] so i'll just assume that like
+
+[1603.039 - 1609.76] return page um i'll just assume that it
+
+[1606.4 - 1611.3600000000001] it it returns you know
+
+[1609.76 - 1613.039] the the first one is going to be most
+
+[1611.36 - 1614.1589999999999] relevant like i said this is
+
+[1613.039 - 1615.919] i'm just showing you the proof of
+
+[1614.159 - 1618.48] concept um
+
+[1615.919 - 1620.159] okay so then
+
+[1618.48 - 1622.24] so we've got the wiki that will return
+
+[1620.159 - 1624.3200000000002] it oh i also need to import
+
+[1622.24 - 1627.039] wikipedia
+
+[1624.32 - 1628.0] import wikipedia
+
+[1627.039 - 1630.64] and then
+
+[1628.0 - 1631.76] do i use os anywhere import
+
+[1630.64 - 1632.96] os i
+
+[1631.76 - 1634.64] probably do
+
+[1632.96 - 1636.799] okay
+
+[1634.64 - 1637.8400000000001] fetch wiki okay so we get our relevant
+
+[1636.799 - 1639.76] wiki
+
+[1637.84 - 1642.1589999999999] so then what do we do with it well we
+
+[1639.76 - 1645.12] found romulus augustus this is way too
+
+[1642.159 - 1646.48] much text right this is way too much to
+
+[1645.12 - 1650.32] um
+
+[1646.48 - 1652.0] to uh uh put into a gpt3 prompt so what
+
+[1650.32 - 1654.799] do we do
+
+[1652.0 - 1657.52] well i'm glad you asked that's why we
+
+[1654.799 - 1658.48] have this the the the document answering
+
+[1657.52 - 1659.84] thing
+
+[1658.48 - 1661.6] um
+
+[1659.84 - 1664.08] so you know what let's just go all out
+
+[1661.6 - 1666.08] let's let's let's hit this um i was
+
+[1664.08 - 1668.6399999999999] gonna do something simple but no let's
+
+[1666.08 - 1671.039] uh let's go let's go whole hog
+
+[1668.64 - 1674.64] um all right so
+
+[1671.039 - 1675.679] we've got the uh the wiki content
+
+[1674.64 - 1679.2] um
+
+[1675.679 - 1680.8400000000001] let's see what is it if we go here we do
+
+[1679.2 - 1686.24] if we want to look at the whole
+
+[1680.84 - 1688.559] content where was it summary search page
+
+[1686.24 - 1690.559] content that is okay so we just do
+
+[1688.559 - 1691.76] dot content so that'll give us just all
+
+[1690.559 - 1694.96] the text
+
+[1691.76 - 1696.72] from that particular article
+
+[1694.96 - 1699.2] and so then what do we do
+
+[1696.72 - 1701.919] well i'm glad you asked
+
+[1699.2 - 1704.88] so let's go back to our playground and
+
+[1701.919 - 1704.88] we'll say um
+
+[1706.24 - 1711.84] read the following conversation and
+
+[1709.2 - 1711.8400000000001] um
+
+[1714.64 - 1718.3200000000002] and
+
+[1715.52 - 1720.48] and write a list of
+
+[1718.32 - 1722.799] uh
+
+[1720.48 - 1722.799] of
+
+[1723.6 - 1728.24] well we're asking questions because
+
+[1725.52 - 1730.72] basically what i'm thinking is we want
+
+[1728.24 - 1731.679] to we want to query this document
+
+[1730.72 - 1733.1200000000001] right
+
+[1731.679 - 1736.72] um
+
+[1733.12 - 1740.6399999999999] for interesting facts right
+
+[1736.72 - 1740.64] life in exile um
+
+[1744.559 - 1748.24] actually like the questions we should
+
+[1746.399 - 1749.039] ask are not necessarily obvious from
+
+[1748.24 - 1751.44] this
+
+[1749.039 - 1753.039] so we get romulus augustus
+
+[1751.44 - 1754.64] um
+
+[1753.039 - 1756.48] how should we handle this because if we
+
+[1754.64 - 1757.3600000000001] let's say this conversation leads to
+
+[1756.48 - 1760.32] this
+
+[1757.36 - 1762.559] and i don't know what i'm asking
+
+[1760.32 - 1762.559] so
+
+[1763.76 - 1766.76] federation
+
+[1769.36 - 1772.08] um
+
+[1775.039 - 1778.84] because if we if i use my multi-document
+
+[1777.76 - 1782.64] answering
+
+[1778.84 - 1784.559] thing and we query it
+
+[1782.64 - 1787.039] like we got it we got it we basically we
+
+[1784.559 - 1788.32] have to like
+
+[1787.039 - 1790.32] we have to be there has to be something
+
+[1788.32 - 1793.8799999999999] we're looking for unless i just want to
+
+[1790.32 - 1793.8799999999999] summarize it
+
+[1794.159 - 1798.0800000000002] but i don't know if i want to do that
+
+[1795.6 - 1798.9599999999998] because i want to summarizing is good
+
+[1798.08 - 1801.039] and all
+
+[1798.96 - 1803.039] but if you get
+
+[1801.039 - 1805.44] if you answer a question you get much
+
+[1803.039 - 1805.44] better
+
+[1806.64 - 1810.72] but but the problem is if this is a this
+
+[1809.36 - 1812.32] is a chicken or the egg problem or
+
+[1810.72 - 1814.32] putting the cart before the horse
+
+[1812.32 - 1815.9189999999999] because if you don't read the thing and
+
+[1814.32 - 1818.08] you don't know what the information is
+
+[1815.919 - 1820.88] you don't necessarily so there's there's
+
+[1818.08 - 1821.9189999999999] what i call a naive question so like if
+
+[1820.88 - 1824.3200000000002] if you don't know anything about
+
+[1821.919 - 1826.64] something you ask naive questions right
+
+[1824.32 - 1829.039] and naive question is just like um well
+
+[1826.64 - 1831.679] here's a here's a perfect example um who
+
+[1829.039 - 1834.24] was the last emperor right
+
+[1831.679 - 1837.1200000000001] i had to i had to already know
+
+[1834.24 - 1839.76] that rome had emperors right so that's
+
+[1837.12 - 1841.6789999999999] that's a that's a semi-naive question um
+
+[1839.76 - 1844.48] it's like okay so romulus augustus
+
+[1841.679 - 1846.88] whereas if i ask so this this is a super
+
+[1844.48 - 1847.679] not naive question right um because i
+
+[1846.88 - 1849.3600000000001] knew
+
+[1847.679 - 1851.3600000000001] that there was a virtuous roman man that
+
+[1849.36 - 1853.12] there was this concept in ancient rome
+
+[1851.36 - 1854.6399999999999] but how how do you ask the question to
+
+[1853.12 - 1857.76] even get to the right question so we
+
+[1854.64 - 1857.76] need like meta questions
+
+[1858.799 - 1863.2] but gpt3 is trained on all this stuff so
+
+[1861.76 - 1865.84] maybe
+
+[1863.2 - 1865.8400000000001] it could
+
+[1866.159 - 1868.64] i don't know
+
+[1870.08 - 1875.6789999999999] i wonder i wonder i wonder
+
+[1872.96 - 1875.679] um
+
+[1877.2 - 1880.0800000000002] follow-up questions
+
+[1878.48 - 1882.48] to search
+
+[1880.08 - 1883.36] the internet
+
+[1882.48 - 1885.76] um
+
+[1883.36 - 1885.76] before
+
+[1887.039 - 1891.44] yeah that's fine we'll just do search
+
+[1888.559 - 1894.08] the internet because it's like um
+
+[1891.44 - 1896.799] list let's see list of
+
+[1894.08 - 1898.559] follow-up questions to add to the
+
+[1896.799 - 1901.519] conversation
+
+[1898.559 - 1902.8799999999999] and then let's just see what it does
+
+[1901.519 - 1905.1200000000001] what caused the fall of the western
+
+[1902.88 - 1907.0390000000002] empire oh wow okay what was life like
+
+[1905.12 - 1908.32] for the average person in rome this is
+
+[1907.039 - 1910.799] great
+
+[1908.32 - 1910.799] um
+
+[1911.6 - 1917.039] it's not really staying on topic though
+
+[1915.2 - 1920.159] because if you ask these questions it's
+
+[1917.039 - 1924.8799999999999] not that's not going to be information
+
+[1920.159 - 1924.88] whoops that is that is necessarily here
+
+[1933.6 - 1939.279] let's see
+
+[1935.919 - 1942.3990000000001] given the following conversation
+
+[1939.279 - 1942.399] and the selected
+
+[1942.799 - 1945.039] topic
+
+[1943.76 - 1948.679] so we'll do
+
+[1945.039 - 1948.679] romulus augustus
+
+[1949.44 - 1952.0800000000002] write
+
+[1950.24 - 1953.76] a follow-up
+
+[1952.08 - 1956.0] question
+
+[1953.76 - 1956.0] um
+
+[1960.399 - 1963.84] to ask uh no
+
+[1966.48 - 1969.919] because if we look at this like what is
+
+[1968.08 - 1971.279] the kind of information that i want to
+
+[1969.919 - 1974.0800000000002] extract from this
+
+[1971.279 - 1975.039] right like the summary of of this dude's
+
+[1974.08 - 1978.96] life
+
+[1975.039 - 1978.96] or what did he do
+
+[1982.64 - 1986.0800000000002] write a follow-up question to ask
+
+[1987.919 - 1992.5590000000002] follow up
+
+[1989.76 - 1996.0] question to ask about
+
+[1992.559 - 1996.0] romulus augustus
+
+[1996.159 - 2000.48] let's just see what it does
+
+[1998.399 - 2001.84] that's not a bad question okay
+
+[2000.48 - 2003.44] i have to run to the i have to take a
+
+[2001.84 - 2005.519] quick bio break so i'm gonna pause and
+
+[2003.44 - 2008.3200000000002] then we'll be right back i think this is
+
+[2005.519 - 2008.32] what we'll go with
+
+[2008.559 - 2013.279] all right and we're back
+
+[2011.039 - 2015.519] where were we
+
+[2013.279 - 2017.519] oh yeah okay so we've got the follow-up
+
+[2015.519 - 2019.1200000000001] question so because we we we have
+
+[2017.519 - 2021.2] identified
+
+[2019.12 - 2026.399] where do we go
+
+[2021.2 - 2026.3990000000001] um so we look in here um we identified
+
+[2026.64 - 2031.279] we use we used our wikipedia prompt to
+
+[2029.039 - 2033.279] to get a particular topic
+
+[2031.279 - 2035.6] right so we get that
+
+[2033.279 - 2035.6] um
+
+[2035.76 - 2037.919] we
+
+[2036.559 - 2040.0] then
+
+[2037.919 - 2042.48] we get we we i wrote a quick thing just
+
+[2040.0 - 2045.44] to go fetch an article so we'll get it
+
+[2042.48 - 2047.44] and then what we'll do is we will
+
+[2045.44 - 2050.56] do a follow-up question
+
+[2047.44 - 2050.56] so we've got a topic
+
+[2050.8 - 2055.679] given the following conversation and the
+
+[2053.04 - 2057.05] selected topic
+
+[2055.679 - 2058.839] so we'll do
+
+[2057.05 - 2063.2000000000003] [Music]
+
+[2058.839 - 2063.2] topic and then we'll do block
+
+[2067.28 - 2072.0] and we'll do
+
+[2068.24 - 2073.2] one follow-up question to ask about
+
+[2072.0 - 2075.839] and we'll do
+
+[2073.2 - 2075.839] topic
+
+[2075.919 - 2078.1589999999997] okay
+
+[2079.2 - 2083.5989999999997] and we'll do prompt
+
+[2081.76 - 2085.679] follow-up
+
+[2083.599 - 2089.52] okay so then what we do
+
+[2085.679 - 2092.7200000000003] is we go to
+
+[2089.52 - 2092.72] here and so we say
+
+[2095.2 - 2100.96] control d for duplicate
+
+[2097.839 - 2102.16] and so then we'll do prompt
+
+[2100.96 - 2103.92] follow up
+
+[2102.16 - 2106.96] and we'll replace the block with convo
+
+[2103.92 - 2108.56] block and we'll also do replace
+
+[2106.96 - 2109.76] topic
+
+[2108.56 - 2110.72] with
+
+[2109.76 - 2113.119] the
+
+[2110.72 - 2113.1189999999997] title
+
+[2114.0 - 2117.52] and so that what that'll do is that'll
+
+[2115.68 - 2119.2799999999997] take this and populate it with the way
+
+[2117.52 - 2121.44] that it looked
+
+[2119.28 - 2123.8390000000004] up here right so it'll just say okay
+
+[2121.44 - 2125.92] let's populate in the conversation block
+
+[2123.839 - 2129.44] and ask a follow-up question so then
+
+[2125.92 - 2132.079] once we have the follow-up question
+
+[2129.44 - 2135.119] we can then
+
+[2132.079 - 2137.28] use the same logic that we had here
+
+[2135.119 - 2140.0] to um
+
+[2137.28 - 2142.8] to ch
+
+[2140.0 - 2142.8] brain come on
+
+[2143.2 - 2147.9199999999996] we're going to index the content of this
+
+[2145.359 - 2150.3199999999997] wikipedia article and then we're going
+
+[2147.92 - 2151.76] to um we're going to
+
+[2150.32 - 2153.52] search it okay
+
+[2151.76 - 2156.8] and answer the question
+
+[2153.52 - 2158.96] so then what we'll do is we'll do
+
+[2156.8 - 2161.2000000000003] answer equals
+
+[2158.96 - 2161.2] um
+
+[2161.52 - 2163.92] we'll do
+
+[2164.88 - 2169.04] answer question and we'll pass in the
+
+[2167.359 - 2173.3199999999997] wikipedia article
+
+[2169.04 - 2173.32] oh wait we actually need to do
+
+[2173.92 - 2177.839] question
+
+[2176.16 - 2180.0] and the question
+
+[2177.839 - 2182.64] and i think that's all we need to do
+
+[2180.0 - 2184.96] because the question will be generated
+
+[2182.64 - 2184.96] here
+
+[2185.44 - 2189.839] um
+
+[2187.599 - 2192.1600000000003] generate a specific
+
+[2189.839 - 2192.64] follow-up
+
+[2192.16 - 2195.67] question
+
+[2192.64 - 2195.67] [Music]
+
+[2199.44 - 2206.8] to to um
+
+[2200.88 - 2206.8] to use to query the external information
+
+[2207.28 - 2211.28] and then we'll do
+
+[2208.96 - 2211.28] um
+
+[2212.16 - 2216.8799999999997] generate a uh
+
+[2214.56 - 2218.56] a search query
+
+[2216.88 - 2220.7200000000003] to find
+
+[2218.56 - 2223.68] external article
+
+[2220.72 - 2225.4399999999996] in the wide world
+
+[2223.68 - 2228.24] okay add a couple comments just because
+
+[2225.44 - 2230.4] this is becoming a really big block
+
+[2228.24 - 2233.52] let's see
+
+[2230.4 - 2235.28] get user input
+
+[2233.52 - 2237.7599999999998] and
+
+[2235.28 - 2237.76] vector
+
+[2238.72 - 2243.68] and then we'll say
+
+[2240.24 - 2244.72] search conversation for
+
+[2243.68 - 2249.9199999999996] um
+
+[2244.72 - 2251.52] for previous relevant lines of dialogue
+
+[2249.92 - 2253.92] okay that's good
+
+[2251.52 - 2256.4] so we'll get the answer for answer
+
+[2253.92 - 2259.359] question
+
+[2256.4 - 2261.92] answer question and so then we'll pass
+
+[2259.359 - 2264.7999999999997] in the article and the question
+
+[2261.92 - 2266.88] so then what we'll do is we need we've
+
+[2264.8 - 2268.8] already got text wrap so we'll basically
+
+[2266.88 - 2271.119] do the same thing we did here but i also
+
+[2268.8 - 2273.8390000000004] need to open whoops no that was that was
+
+[2271.119 - 2276.88] the correct thing build index
+
+[2273.839 - 2279.44] so this is super super simple um
+
+[2276.88 - 2281.76] basically all we do is
+
+[2279.44 - 2281.76] um
+
+[2282.4 - 2286.32] we
+
+[2283.28 - 2289.6800000000003] cut this into chunks
+
+[2286.32 - 2291.52] so when we come in here
+
+[2289.68 - 2293.9199999999996] we'll say
+
+[2291.52 - 2295.7599999999998] chunks equals text wrap and instead of
+
+[2293.92 - 2298.32] alt text we'll do article
+
+[2295.76 - 2302.0] and then we'll do it in let's do smaller
+
+[2298.32 - 2302.0] so we'll do 2 000 characters
+
+[2302.24 - 2306.56] and then for
+
+[2305.04 - 2308.24] actually i guess we don't even need to
+
+[2306.56 - 2309.839] index it because we're just asking the
+
+[2308.24 - 2311.359] question
+
+[2309.839 - 2314.56] so this will be a little bit simpler
+
+[2311.359 - 2315.92] because the reason so in um
+
+[2314.56 - 2317.44] in this one
+
+[2315.92 - 2318.88] the reason that i did it the way that i
+
+[2317.44 - 2320.96] did is because i was basically saying
+
+[2318.88 - 2323.359] like okay let's go ahead and index an
+
+[2320.96 - 2325.599] arbitrarily large thing because if if
+
+[2323.359 - 2328.24] you're if you have like 150 entries or
+
+[2325.599 - 2331.839] 150 000 entries you need to be able to
+
+[2328.24 - 2333.52] search that database um and then answer
+
+[2331.839 - 2335.839] the question but in this case we're
+
+[2333.52 - 2337.7599999999998] already zeroed in on one article so we
+
+[2335.839 - 2339.04] don't you know we don't need to answer
+
+[2337.76 - 2342.0] the whole thing
+
+[2339.04 - 2344.32] um so in that case what we'll do
+
+[2342.0 - 2345.599] is we'll just go ahead and skip ahead
+
+[2344.32 - 2346.6600000000003] to
+
+[2345.599 - 2349.2000000000003] answering the question
+
+[2346.66 - 2351.68] [Music]
+
+[2349.2 - 2352.8799999999997] and we'll probably just copy this this
+
+[2351.68 - 2356.56] prompt
+
+[2352.88 - 2358.4] let's see which was it prompt answer
+
+[2356.56 - 2359.839] yeah
+
+[2358.4 - 2361.2000000000003] use the following passage to give a
+
+[2359.839 - 2362.4] detailed answer to the question that's
+
+[2361.2 - 2363.5989999999997] great
+
+[2362.4 - 2366.4] so we'll just
+
+[2363.599 - 2367.6800000000003] save as and we'll come back to our long
+
+[2366.4 - 2371.52] term chat
+
+[2367.68 - 2371.52] and we'll call prompt answer okay
+
+[2372.0 - 2378.4] and so now that should appear here
+
+[2374.72 - 2378.3999999999996] prompt answer okay
+
+[2379.04 - 2383.32] and close that because we don't need it
+
+[2386.8 - 2391.2000000000003] and then 4 chunk in chunks
+
+[2392.24 - 2398.8799999999997] prompt equals open file
+
+[2394.96 - 2398.88] replace passage with
+
+[2399.2 - 2402.3999999999996] we're going to replace that with
+
+[2401.359 - 2404.0789999999997] chunk
+
+[2402.4 - 2407.04] and we're going to
+
+[2404.079 - 2408.7200000000003] replace query with
+
+[2407.04 - 2410.56] question
+
+[2408.72 - 2412.24] okay
+
+[2410.56 - 2413.839] and to keep it consistent let's name it
+
+[2412.24 - 2417.359] the same thing
+
+[2413.839 - 2419.04] so we're gonna do question is question
+
+[2417.359 - 2420.56] um so basically what we're gonna do is
+
+[2419.04 - 2422.0] we're gonna cut up
+
+[2420.56 - 2423.7599999999998] um
+
+[2422.0 - 2425.92] yeah use the following passage to give a
+
+[2423.76 - 2427.0400000000004] detailed answer to the question
+
+[2425.92 - 2428.88] oh
+
+[2427.04 - 2430.56] actually i guess i probably should
+
+[2428.88 - 2432.8] search it because
+
+[2430.56 - 2432.7999999999997] um
+
+[2433.359 - 2436.96] the answer might not be
+
+[2435.44 - 2438.88] right like
+
+[2436.96 - 2442.64] fall of yeah
+
+[2438.88 - 2444.7200000000003] see also fall of the western empire
+
+[2442.64 - 2447.7599999999998] yeah okay because the answer might not
+
+[2444.72 - 2447.7599999999998] be in it um
+
+[2448.079 - 2451.3590000000004] so let's add something
+
+[2450.079 - 2453.2000000000003] use the following passage to give a
+
+[2451.359 - 2456.4] detailed answer to the question
+
+[2453.2 - 2458.72] if the answer is not present
+
+[2456.4 - 2458.7200000000003] um
+
+[2460.079 - 2463.44] in the passage
+
+[2461.68 - 2465.359] just write
+
+[2463.44 - 2467.839] not present
+
+[2465.359 - 2467.839] okay
+
+[2470.56 - 2473.68] detailed answer or
+
+[2473.76 - 2478.7200000000003] not present
+
+[2476.319 - 2480.4] all right so let's test this real quick
+
+[2478.72 - 2483.2] so what we'll do is we'll come here and
+
+[2480.4 - 2486.1600000000003] we'll say okay so the question is
+
+[2483.2 - 2489.2] and um
+
+[2486.16 - 2492.56] oh darn hang on i need this question
+
+[2489.2 - 2494.8799999999997] wait give me the question
+
+[2492.56 - 2499.92] okay so we copy the question
+
+[2494.88 - 2499.92] and then let's go here so we'll say okay
+
+[2500.0 - 2504.64] and question okay so this is our
+
+[2502.48 - 2506.4] question
+
+[2504.64 - 2508.64] what made romulus augustus the last
+
+[2506.4 - 2510.0] emperor of the roman empire so the
+
+[2508.64 - 2512.16] passage
+
+[2510.0 - 2514.8] we're going to have a small chunk and
+
+[2512.16 - 2517.68] actually i think i think i was wrong i
+
+[2514.8 - 2519.119] think we should go
+
+[2517.68 - 2521.68] we should make this
+
+[2519.119 - 2523.92] a little bit bigger because
+
+[2521.68 - 2526.64] many wikipedia articles will fit and
+
+[2523.92 - 2529.52] i'll say 4000 tokens is 16 000
+
+[2526.64 - 2531.2799999999997] characters so let's say like 10 thousand
+
+[2529.52 - 2534.4] because if the whole thing fits great if
+
+[2531.28 - 2534.4] not we'll skip it
+
+[2535.44 - 2540.16] and then let's go back
+
+[2537.68 - 2542.7999999999997] here and just grab a chunk
+
+[2540.16 - 2545.2799999999997] um so like
+
+[2542.8 - 2545.28] name
+
+[2548.64 - 2551.839] here we'll just grab the summary
+
+[2552.319 - 2557.04] and see how it handles this okay passage
+
+[2557.599 - 2561.7200000000003] detailed answer or not present
+
+[2564.48 - 2568.48] okay
+
+[2566.24 - 2568.4799999999996] hey
+
+[2569.44 - 2572.56] is that there yeah
+
+[2572.96 - 2577.52] all right so the answer was there let's
+
+[2574.88 - 2578.6400000000003] see if there is a section that it
+
+[2577.52 - 2579.839] doesn't
+
+[2578.64 - 2582.0789999999997] have it
+
+[2579.839 - 2583.2799999999997] ancestry and family so let's just grab
+
+[2582.079 - 2585.28] this
+
+[2583.28 - 2587.92] section because it looks like the answer
+
+[2585.28 - 2587.92] will not be
+
+[2589.68 - 2592.7999999999997] okay
+
+[2591.359 - 2595.2] because we wanted to be able to say not
+
+[2592.8 - 2595.2000000000003] present
+
+[2595.76 - 2598.8] he was the last emperor of the roman
+
+[2597.28 - 2600.88] western roman empire because he was the
+
+[2598.8 - 2603.2000000000003] last emperor of the western roman empire
+
+[2600.88 - 2606.88] wow the floor is made of floor thank you
+
+[2603.2 - 2608.64] okay so it didn't really work there um
+
+[2606.88 - 2610.1600000000003] but at least it didn't it didn't give me
+
+[2608.64 - 2612.8799999999997] too much
+
+[2610.16 - 2616.0789999999997] information um so that that's not that's
+
+[2612.88 - 2618.319] not too bad okay so then we'll say
+
+[2616.079 - 2621.8390000000004] answers equals list because here's
+
+[2618.319 - 2621.839] here's a fun here's a fun trick
+
+[2621.92 - 2627.2000000000003] so then you say
+
+[2624.48 - 2630.2400000000002] answers dot append
+
+[2627.2 - 2632.319] list whoops no not list answer
+
+[2630.24 - 2634.9199999999996] and then what you do is you have one
+
+[2632.319 - 2636.8] final summarization step
+
+[2634.92 - 2638.4] [Music]
+
+[2636.8 - 2641.76] so let's get this
+
+[2638.4 - 2641.76] and i'll show you what this does
+
+[2643.06 - 2647.2799999999997] [Music]
+
+[2645.44 - 2649.839] all right so we got that answer
+
+[2647.28 - 2649.8390000000004] and then
+
+[2651.839 - 2656.0] because
+
+[2653.119 - 2657.52] oh darn okay that's fine
+
+[2656.0 - 2659.839] um
+
+[2657.52 - 2661.839] i like i liked it's uh it's original one
+
+[2659.839 - 2664.7999999999997] better let's see if i can do was it ctrl
+
+[2661.839 - 2664.7999999999997] shift z there we go
+
+[2666.8 - 2670.319] okay so we'll take passage and we'll
+
+[2668.64 - 2671.52] take
+
+[2670.319 - 2673.44] um
+
+[2671.52 - 2676.079] what was it his legacy
+
+[2673.44 - 2678.48] or no it gave me a good answer from just
+
+[2676.079 - 2681.52] the introduction
+
+[2678.48 - 2684.0] okay so we'll do that
+
+[2681.52 - 2684.0] and then
+
+[2685.599 - 2687.839] okay
+
+[2687.92 - 2690.48] so it gave me a shorter answer that's
+
+[2689.359 - 2694.319] fine
+
+[2690.48 - 2694.319] so we'll accumulate this here so let's
+
+[2695.04 - 2700.0] let's ask this question of a couple more
+
+[2697.2 - 2703.7999999999997] spots so we'll do
+
+[2700.0 - 2703.8] ancestry and family
+
+[2704.64 - 2707.359] just so that way we can i can show you
+
+[2706.319 - 2709.2799999999997] that like
+
+[2707.359 - 2712.56] if you have different answers
+
+[2709.28 - 2715.119] then or or different things the gpt3 is
+
+[2712.56 - 2718.119] still pretty good at like summarizing it
+
+[2715.119 - 2718.119] together
+
+[2725.2 - 2728.72] yeah so that's not even remotely
+
+[2727.28 - 2732.28] relevant
+
+[2728.72 - 2732.2799999999997] okay so that's fine
+
+[2733.92 - 2739.359] arrestees
+
+[2736.56 - 2740.96] question what made a romulus yep okay so
+
+[2739.359 - 2744.0] then we'll do
+
+[2740.96 - 2745.2] last one in rain
+
+[2744.0 - 2746.319] so we'll just
+
+[2745.2 - 2747.839] basically what i'm doing is i'm
+
+[2746.319 - 2749.599] pretending
+
+[2747.839 - 2751.2] that um
+
+[2749.599 - 2752.7200000000003] that this article is much longer and
+
+[2751.2 - 2754.56] that it's giving me
+
+[2752.72 - 2756.24] that i needed to split it up into like
+
+[2754.56 - 2759.48] four different chunks in order to get
+
+[2756.24 - 2759.4799999999996] this answer
+
+[2763.04 - 2767.52] okay this made the last emperor okay
+
+[2765.44 - 2770.8] okay so there is relevant information in
+
+[2767.52 - 2770.8] each of these sections that's great
+
+[2771.119 - 2776.6400000000003] okay so then what we do is we take all
+
+[2772.88 - 2776.6400000000003] this and we say
+
+[2782.88 - 2786.4] merge the following
+
+[2786.839 - 2790.16] answers
+
+[2788.4 - 2792.7200000000003] into a single
+
+[2790.16 - 2794.0789999999997] paragraph
+
+[2792.72 - 2798.0] um
+
+[2794.079 - 2798.0] the question asked was
+
+[2798.319 - 2801.2] and that should still be
+
+[2801.359 - 2803.839] oh darn
+
+[2806.0 - 2810.64] let me just copy paste this whole thing
+
+[2809.52 - 2813.839] okay
+
+[2810.64 - 2816.72] merge the following answers into a
+
+[2813.839 - 2818.4] single coherent
+
+[2816.72 - 2822.3999999999996] paragraph
+
+[2818.4 - 2822.4] the question asked was
+
+[2824.8 - 2827.44] so then we'll do
+
+[2828.64 - 2832.4] oh i have another
+
+[2830.96 - 2833.2] thing falling off let me pause real
+
+[2832.4 - 2836.079] quick
+
+[2833.2 - 2836.0789999999997] okay and we're back
+
+[2836.88 - 2841.359] all right
+
+[2837.92 - 2843.28] the question asked was okay and then
+
+[2841.359 - 2845.2] um
+
+[2843.28 - 2848.4] various answers
+
+[2845.2 - 2850.24] so then we'll come back to here
+
+[2848.4 - 2851.44] and grab
+
+[2850.24 - 2853.4399999999996] wait where did i accumulate those
+
+[2851.44 - 2856.2400000000002] answers here we are
+
+[2853.44 - 2859.839] various answers and then
+
+[2856.24 - 2859.839] let's do this all caps
+
+[2860.0 - 2864.48] various answers and then
+
+[2862.16 - 2864.48] um
+
+[2866.8 - 2872.0] merged answer
+
+[2868.4 - 2874.7200000000003] actually let's say merged paragraph
+
+[2872.0 - 2874.72] see how that does
+
+[2878.8 - 2882.6400000000003] and gaul however rsd's incident marched
+
+[2881.04 - 2884.319] on rivena the capital of western
+
+[2882.64 - 2886.64] proclaimed romness
+
+[2884.319 - 2888.319] and napostead was only a figurehead with
+
+[2886.64 - 2891.1189999999997] orestes running much of the imperial
+
+[2888.319 - 2891.119] administration
+
+[2893.119 - 2895.599] interesting
+
+[2896.079 - 2900.559] okay
+
+[2898.16 - 2903.2799999999997] but it doesn't mention
+
+[2900.559 - 2903.28] auto asser
+
+[2906.72 - 2912.5589999999997] okay well whatever that's fine
+
+[2910.8 - 2915.8390000000004] let's go whoops let's go to the
+
+[2912.559 - 2915.8390000000004] wikipedia article and see
+
+[2918.8 - 2922.96] lester captured rivena killing
+
+[2920.4 - 2922.96] arrestee's
+
+[2926.52 - 2929.839] deputy okay
+
+[2932.8 - 2935.3590000000004] all right whatever
+
+[2936.0 - 2943.559] okay so we've got it broken up into a
+
+[2937.839 - 2943.5589999999997] couple sections we summarize it um here
+
+[2944.48 - 2948.319] i wonder what happens if
+
+[2949.2 - 2953.64] um
+
+[2950.079 - 2953.6400000000003] that should be fine
+
+[2956.16 - 2960.0789999999997] yeah that'll be fine okay
+
+[2958.079 - 2963.2000000000003] so we'll do one last thing we'll
+
+[2960.079 - 2963.2000000000003] save this as
+
+[2966.559 - 2969.559] answers
+
+[2972.559 - 2976.8] question
+
+[2974.64 - 2979.92] and then we'll do prompt and we'll call
+
+[2976.8 - 2979.92] this prompt merge
+
+[2981.44 - 2985.359] okay so then we're closing in on
+
+[2984.24 - 2986.8799999999997] complete
+
+[2985.359 - 2988.5589999999997] i think
+
+[2986.88 - 2991.839] all right so we got all of our answers
+
+[2988.559 - 2991.8390000000004] and so um
+
+[2992.319 - 2999.4] answers equals
+
+[2995.04 - 2999.4] uh no answer equals
+
+[3000.72 - 3003.2799999999997] we'll say
+
+[3001.72 - 3005.4399999999996] space.join
+
+[3003.28 - 3007.44] answers so that just merges it all into
+
+[3005.44 - 3011.2000000000003] one block
+
+[3007.44 - 3013.839] and we'll say prompt equals
+
+[3011.2 - 3013.839] well here we'll just
+
+[3017.68 - 3022.0] prompt
+
+[3019.599 - 3027.3590000000004] merge
+
+[3022.0 - 3030.96] and it's we have answers and question so
+
+[3027.359 - 3032.48] replace question with
+
+[3030.96 - 3034.48] question
+
+[3032.48 - 3036.319] i already had that um and then we'll
+
+[3034.48 - 3038.0] replace
+
+[3036.319 - 3041.2799999999997] uh
+
+[3038.0 - 3042.88] answers with answer
+
+[3041.28 - 3045.8390000000004] i think that's how i did it
+
+[3042.88 - 3047.599] yes various answers
+
+[3045.839 - 3051.599] into a single coherent paragraph the
+
+[3047.599 - 3051.599] question asked was okay that should work
+
+[3052.48 - 3058.96] and so then we get that gpt3 completion
+
+[3055.92 - 3060.8] we do the encoding here so um
+
+[3058.96 - 3061.92] this was a thing that i started adding
+
+[3060.8 - 3063.6800000000003] because
+
+[3061.92 - 3065.76] when especially when you use external
+
+[3063.68 - 3068.0] sources sometimes there's characters
+
+[3065.76 - 3070.079] that gpt3 does not like but if you
+
+[3068.0 - 3072.64] convert it to ascii and ignore errors
+
+[3070.079 - 3074.2400000000002] and then decode it back then gpt3 seems
+
+[3072.64 - 3076.64] to be happy
+
+[3074.24 - 3078.9599999999996] and then return answer
+
+[3076.64 - 3080.7999999999997] okay so we've got we pass it a wikipedia
+
+[3078.96 - 3083.119] article we ask a question we break it
+
+[3080.8 - 3085.52] into chunks if necessary might not be
+
+[3083.119 - 3086.96] necessary we ask questions and then pass
+
+[3085.52 - 3088.24] it back okay
+
+[3086.96 - 3092.4] so now that we've got this it's like
+
+[3088.24 - 3095.2] okay wow we've done a lot now what um
+
+[3092.4 - 3098.96] so let's copy this
+
+[3095.2 - 3098.96] and we'll copy this out to here
+
+[3100.24 - 3103.1189999999997] and let's
+
+[3102.079 - 3105.44] go back
+
+[3103.119 - 3105.44] here
+
+[3106.48 - 3109.04] and we'll say
+
+[3109.52 - 3112.4] background info
+
+[3115.839 - 3122.4] user um
+
+[3118.079 - 3125.4] what caused the fall of rome
+
+[3122.4 - 3125.4] time
+
+[3127.76 - 3131.6800000000003] why didn't you give me an answer there
+
+[3129.44 - 3131.68] we go
+
+[3131.839 - 3136.24] but you got to include this
+
+[3133.92 - 3136.2400000000002] hmm
+
+[3137.44 - 3140.2400000000002] because we've got this information which
+
+[3139.119 - 3143.119] is good
+
+[3140.24 - 3145.2] so part of the problem is and this this
+
+[3143.119 - 3147.76] might not work i might have to exclude
+
+[3145.2 - 3149.52] this part is because this model was not
+
+[3147.76 - 3151.2000000000003] fine-tuned
+
+[3149.52 - 3153.68] to um
+
+[3151.2 - 3156.5589999999997] was not fine-tuned to incorporate
+
+[3153.68 - 3156.5589999999997] other information
+
+[3157.119 - 3159.52] ah
+
+[3158.079 - 3161.92] let's see
+
+[3159.52 - 3161.92] um
+
+[3164.0 - 3167.559] oops user
+
+[3167.68 - 3172.0789999999997] i wonder if instead of using the
+
+[3169.839 - 3174.0789999999997] fine-tuned model
+
+[3172.079 - 3175.76] i could just
+
+[3174.079 - 3178.2400000000002] what if i just exclude the fine-tune
+
+[3175.76 - 3180.48] model and just have this
+
+[3178.24 - 3183.7599999999998] information
+
+[3180.48 - 3186.64] it would require it would require um
+
+[3183.76 - 3188.6400000000003] reworking this fine-tuned model so i
+
+[3186.64 - 3190.5589999999997] might have to stop here
+
+[3188.64 - 3192.319] and and split this up because this
+
+[3190.559 - 3194.4] fine-tuned model does not know how to
+
+[3192.319 - 3196.88] incorporate additional information
+
+[3194.4 - 3198.88] darn but that's okay we're already at
+
+[3196.88 - 3200.079] almost an hour so
+
+[3198.88 - 3202.48] it happens
+
+[3200.079 - 3204.6400000000003] we'll stop here we'll leave it off where
+
+[3202.48 - 3206.319] we need i need to create another model
+
+[3204.64 - 3207.7599999999998] that will incorporate
+
+[3206.319 - 3209.7599999999998] background information external
+
+[3207.76 - 3211.44] information into the chat
+
+[3209.76 - 3213.599] because this chat model is already
+
+[3211.44 - 3217.8] pretty good but it's missing a couple
+
+[3213.599 - 3217.8] things all right thanks for watching

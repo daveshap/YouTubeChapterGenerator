@@ -1,0 +1,977 @@
+[1.52 - 5.839] hey everybody david shapiro here for
+
+[3.36 - 9.679] another tutorial video today we are
+
+[5.839 - 10.96] going to go over um fine tuning 101 data
+
+[9.679 - 11.84] prep
+
+[10.96 - 13.360000000000001] so
+
+[11.84 - 15.28] uh if you've watched my other videos you
+
+[13.36 - 17.52] know that i'm a big fan of synthetic
+
+[15.28 - 19.68] data sets especially because one it's
+
+[17.52 - 21.84] fast two it's relatively cheap and three
+
+[19.68 - 24.56] you get exactly what you want
+
+[21.84 - 26.96] so what i want to do is show you an
+
+[24.56 - 28.64] example of how to get synthetic data now
+
+[26.96 - 30.880000000000003] one thing to keep in mind with fine
+
+[28.64 - 33.36] tuning is that you're not actually
+
+[30.88 - 35.44] training the model to do anything new
+
+[33.36 - 37.92] gpt3 is already trained on many hundreds
+
+[35.44 - 39.44] of gigabytes worth of data everything
+
+[37.92 - 41.04] that you ask it to do it already knows
+
+[39.44 - 43.92] how to do so the purpose of fine tuning
+
+[41.04 - 45.519999999999996] is to narrow down to say do this one
+
+[43.92 - 47.760000000000005] thing every time
+
+[45.52 - 49.84] now because fine tuning is about
+
+[47.76 - 50.96] removing possibilities
+
+[49.84 - 53.68000000000001] you want to make sure that your fine
+
+[50.96 - 55.44] tuning data has a broad variety so that
+
+[53.68 - 56.32] it has seen
+
+[55.44 - 58.399] many
+
+[56.32 - 60.16] examples um
+
+[58.399 - 62.32] and we'll get into advanced fine tuning
+
+[60.16 - 64.64] techniques later um i'll probably do a
+
+[62.32 - 65.43900000000001] video going over my question generating
+
+[64.64 - 66.4] um
+
+[65.439 - 68.63999999999999] bot
+
+[66.4 - 70.64] because the more variety you show for
+
+[68.64 - 72.799] the input and the more
+
+[70.64 - 74.56] and the more examples you give in terms
+
+[72.799 - 76.56] of that breadth of variety and like
+
+[74.56 - 78.56] different formats the better it will
+
+[76.56 - 80.08] perform now when you're doing synthetic
+
+[78.56 - 82.4] data in the way that i'm about to show
+
+[80.08 - 84.24] you it's a very consistent format
+
+[82.4 - 85.60000000000001] but anyways so
+
+[84.24 - 87.92] i wanted to start with something very
+
+[85.6 - 90.64] simple which was just imagine a complete
+
+[87.92 - 93.36] and detailed plot synopsis for a
+
+[90.64 - 95.92] blank you know genre set in a location
+
+[93.36 - 98.4] during a time and then the story should
+
+[95.92 - 99.92] be uh you know add a couple modifiers
+
+[98.4 - 101.2] write out the entire plot premise in
+
+[99.92 - 104.159] great detail
+
+[101.2 - 106.64] um now unfortunately uh the instruct
+
+[104.159 - 109.92] series models are not the best
+
+[106.64 - 111.759] at going in at long form writing
+
+[109.92 - 114.24000000000001] but you see this one's okay it's doing
+
+[111.759 - 115.84] all right um
+
+[114.24 - 117.83999999999999] so
+
+[115.84 - 119.43900000000001] it does a pretty good job it's almost
+
+[117.84 - 122.399] like a movie poster it's not actually
+
+[119.439 - 124.55999999999999] like writing out the story um
+
+[122.399 - 126.799] but this is good enough for now um with
+
+[124.56 - 128.319] a little bit more prompt engineering um
+
+[126.799 - 130.72] here actually let's try it let's instead
+
+[128.319 - 132.319] of premise let's say outline and see if
+
+[130.72 - 134.64] that modifies it
+
+[132.319 - 134.64] um
+
+[139.599 - 143.2] yeah that looks like it's a little bit
+
+[140.879 - 145.51999999999998] more detailed um but it's still not
+
+[143.2 - 147.67999999999998] actually writing the whole story um
+
+[145.52 - 150.0] because part of the problem is that gpt3
+
+[147.68 - 151.92000000000002] was not trained on actual like plot
+
+[150.0 - 153.92] outlines and actually if you watch my
+
+[151.92 - 156.07999999999998] other videos um
+
+[153.92 - 158.16] getting getting gpt3 to actually write
+
+[156.08 - 159.84] fiction is really difficult so i'll
+
+[158.16 - 162.0] modify the prompt to say instead of
+
+[159.84 - 164.239] premise i'll say plot outline
+
+[162.0 - 164.239] um
+
+[164.64 - 168.16] and we'll just change this here as well
+
+[166.64 - 171.76] so we're going to say write plot
+
+[168.16 - 173.04] outlines okay so we've got this this is
+
+[171.76 - 174.56] the prompt that i'm going to use and i'm
+
+[173.04 - 177.12] going to auto populate it with different
+
+[174.56 - 179.36] things so this is a really quick way to
+
+[177.12 - 182.08] get a broader variety of data is where
+
+[179.36 - 183.76000000000002] you ask it to do kind of the same prompt
+
+[182.08 - 186.31900000000002] but you give it a bunch of different
+
+[183.76 - 189.12] modifiers um so effectively what i'm
+
+[186.319 - 190.879] going to do is give it you know 200
+
+[189.12 - 193.12] different prompts and i'm going to
+
+[190.879 - 196.0] record that output and then use that for
+
+[193.12 - 198.72] fine tuning data
+
+[196.0 - 202.48] and so the scripts that i've got
+
+[198.72 - 204.4] oops uh is here here i did something
+
+[202.48 - 205.44] wrong
+
+[204.4 - 207.04] okay
+
+[205.44 - 209.04] the script that i've got is synthesize
+
+[207.04 - 211.599] plots um so what i've got is i've got a
+
+[209.04 - 214.239] list of genres a list of modifiers a
+
+[211.599 - 215.51899999999998] list of places and a list of periods so
+
+[214.239 - 216.56] you get all this you can get a lot of
+
+[215.519 - 218.0] variety you can get a lot of
+
+[216.56 - 219.36] combinations
+
+[218.0 - 220.72] the first time i ran it i had
+
+[219.36 - 222.239] uncommented all these and it was like
+
+[220.72 - 223.28] going to generate 2 000 different
+
+[222.239 - 224.56] samples
+
+[223.28 - 226.72] i'm not going to spend that much on a
+
+[224.56 - 229.04] tutorial video so i cut it down to four
+
+[226.72 - 232.239] by four by four by four so four to the
+
+[229.04 - 234.159] fourth power is 256. so i've got four
+
+[232.239 - 236.48000000000002] examples of each
+
+[234.159 - 238.48] of each thing and then you might also
+
+[236.48 - 241.599] notice that i've got the
+
+[238.48 - 243.84] up here the uuid so uuid let me just
+
+[241.599 - 244.79899999999998] show you what it looks like
+
+[243.84 - 246.64000000000001] oops
+
+[244.799 - 248.31900000000002] synthesize
+
+[246.64 - 250.79899999999998] slots there we go
+
+[248.319 - 253.04] okay so this is this is showing you the
+
+[250.799 - 255.84] the prompts that it's going to run so it
+
+[253.04 - 257.84] starts with a uuid up at the top a uu id
+
+[255.84 - 259.759] is just a random string of hexadecimal
+
+[257.84 - 261.84] characters
+
+[259.759 - 263.6] but one thing that i found is that this
+
+[261.84 - 265.11999999999995] does a really good job
+
+[263.6 - 267.04] of
+
+[265.12 - 269.199] of causing gpt3 to have a little bit
+
+[267.04 - 271.68] more internal entropy by starting it
+
+[269.199 - 272.88] with a uuid it's like okay i'm reading
+
+[271.68 - 275.199] this i don't i don't know how to make
+
+[272.88 - 276.8] sense of it so it's trying to create an
+
+[275.199 - 280.0] internal state that doesn't make any
+
+[276.8 - 281.36] sense so you you you prime it to be a
+
+[280.0 - 282.56] little bit more different a little bit
+
+[281.36 - 284.08000000000004] more random
+
+[282.56 - 285.68] this is especially good if you need to
+
+[284.08 - 288.08] run the same prompt over and over and
+
+[285.68 - 289.68] over again so you do this in combination
+
+[288.08 - 291.28] with a high temperature and you'll get a
+
+[289.68 - 292.32] lot more variety
+
+[291.28 - 294.479] but anyways you can see where it's
+
+[292.32 - 295.919] populated out imagine a complete and
+
+[294.479 - 297.52] detailed plot outline for a science
+
+[295.919 - 300.15999999999997] fiction film set in india during the
+
+[297.52 - 302.639] 1990s the story should be supernatural
+
+[300.16 - 304.24] and otherworldly write out the entire
+
+[302.639 - 305.84000000000003] plot
+
+[304.24 - 308.32] write out the entire plot outline in
+
+[305.84 - 310.96] great detail
+
+[308.32 - 312.8] and then you see the number here 256. so
+
+[310.96 - 315.039] if you go back here you say i just did a
+
+[312.8 - 316.72] quick count to keep track of how many it
+
+[315.039 - 318.15999999999997] generated just to show you that's what
+
+[316.72 - 320.08000000000004] it's doing so we can comment this out
+
+[318.16 - 323.28000000000003] since we don't need this
+
+[320.08 - 325.35999999999996] um and then what we'll do is i have some
+
+[323.28 - 328.08] some canned functions that i use so
+
+[325.36 - 330.56] here's the uh here's the gpt3 completion
+
+[328.08 - 333.28] um use text davinci o2 temperature one
+
+[330.56 - 335.199] top p of one token's a thousand it's not
+
+[333.28 - 336.15999999999997] generating anywhere near that much
+
+[335.199 - 338.08] um
+
+[336.16 - 341.28000000000003] and then we'll save we'll save all this
+
+[338.08 - 343.19899999999996] out to gpt3 logs but then what are we
+
+[341.28 - 344.88] going to do with the actual prompt and
+
+[343.199 - 347.12] completion right because for fine tuning
+
+[344.88 - 349.039] you need a prompt and a completion and
+
+[347.12 - 351.44] we're not going to just record these
+
+[349.039 - 353.44] prompts what would be the point of that
+
+[351.44 - 356.0] we're not actually adding anything so
+
+[353.44 - 358.16] what we got to do is we're going to then
+
+[356.0 - 359.12] format a prompt to look a little bit
+
+[358.16 - 360.639] different
+
+[359.12 - 365.6] so we'll say
+
+[360.639 - 367.759] completion equals gpt3 completion
+
+[365.6 - 369.28000000000003] and then we'll beat in my prompt but
+
+[367.759 - 371.84000000000003] i've got all i've got the genre the
+
+[369.28 - 375.919] modifier the place and the period so
+
+[371.84 - 380.08] what i want to do is i'll save the um
+
+[375.919 - 381.68] the out the um the out prompt as
+
+[380.08 - 383.44] it'll be a text
+
+[381.68 - 385.52] that uh basically what i'll do is i'll
+
+[383.44 - 387.52] just say um
+
+[385.52 - 389.28] uh let's see
+
+[387.52 - 392.4] genre equals
+
+[389.28 - 394.15999999999997] that and then newline and then i'll say
+
+[392.4 - 395.35999999999996] location
+
+[394.16 - 397.12] is
+
+[395.36 - 398.08000000000004] dollar s and so this dollar s i'll show
+
+[397.12 - 399.759] you what i'm going to do with this in
+
+[398.08 - 402.479] just a second
+
+[399.759 - 404.24] genre location
+
+[402.479 - 406.15999999999997] period
+
+[404.24 - 409.479] and then
+
+[406.16 - 409.47900000000004] and then modifier
+
+[410.08 - 412.639] and so then we'll do that and then we'll
+
+[411.759 - 415.199] do
+
+[412.639 - 417.12] newline new line
+
+[415.199 - 419.44] and then we'll do
+
+[417.12 - 421.599] lot outline and then we'll add a little
+
+[419.44 - 423.759] space and so basically what this will
+
+[421.599 - 426.4] look like let me show you what the what
+
+[423.759 - 430.40000000000003] the actual final prompt will look like
+
+[426.4 - 432.08] um so instead of this it will have
+
+[430.4 - 434.08] location
+
+[432.08 - 435.52] period
+
+[434.08 - 437.599] modifier
+
+[435.52 - 440.79999999999995] and then double new line
+
+[437.599 - 441.759] um plot outline and so it'll be like you
+
+[440.8 - 445.599] know
+
+[441.759 - 447.039] sci-fi or i guess i had it out as um
+
+[445.599 - 451.039] science fiction
+
+[447.039 - 453.039] location will be india period will be um
+
+[451.039 - 455.44] the renaissance
+
+[453.039 - 457.68] um and then the modifier will be like
+
+[455.44 - 458.639] cerebral and what did i say like spooky
+
+[457.68 - 460.479] or whatever
+
+[458.639 - 462.84000000000003] um
+
+[460.479 - 467.28] uh cerebral and suspenseful
+
+[462.84 - 468.71999999999997] okay okay so given just these little bit
+
+[467.28 - 470.96] of information
+
+[468.72 - 472.72] um
+
+[470.96 - 475.84] like if i just if i just put this into
+
+[472.72 - 477.28000000000003] gpt3 right now it's it'll probably work
+
+[475.84 - 478.63899999999995] a little bit oh i've misspelled
+
+[477.28 - 480.96] suspenseful
+
+[478.639 - 482.319] where did did i misspell that here i was
+
+[480.96 - 483.35999999999996] just here
+
+[482.319 - 486.0] okay
+
+[483.36 - 490.0] i don't think i misspelled it up here
+
+[486.0 - 491.759] um suspenseful yeah correct okay
+
+[490.0 - 494.16] um
+
+[491.759 - 497.68] it'll probably figure out what i want to
+
+[494.16 - 499.44] do okay yeah so because it's fine-tuned
+
+[497.68 - 501.84000000000003] um it can figure it out
+
+[499.44 - 505.52] um it's not the best
+
+[501.84 - 507.52] uh it certainly is just a plot premise
+
+[505.52 - 511.68] it's not as complete
+
+[507.52 - 514.0799999999999] as what was generated before
+
+[511.68 - 515.36] but also this is with text davinci o2
+
+[514.08 - 517.44] which is
+
+[515.36 - 519.2] already fine-tuned to follow
+
+[517.44 - 521.2] instructions
+
+[519.2 - 522.5600000000001] uh another thing that you can do is once
+
+[521.2 - 523.839] you generate data and we'll get into
+
+[522.56 - 524.7199999999999] this let me do a quick time check
+
+[523.839 - 526.1600000000001] actually
+
+[524.72 - 528.64] um okay eight minutes we've got just a
+
+[526.16 - 530.3199999999999] few minutes left um you can also go in
+
+[528.64 - 534.16] and augment stuff so one thing that i
+
+[530.32 - 536.6400000000001] like to do is um go to the edit model
+
+[534.16 - 538.56] which is free right now at least it was
+
+[536.64 - 540.3199999999999] and you can say like make this more
+
+[538.56 - 541.1999999999999] detailed so
+
+[540.32 - 543.279] let's
+
+[541.2 - 545.44] um
+
+[543.279 - 547.36] whoops that's not what i meant to do
+
+[545.44 - 549.9200000000001] ah darn it got rid of what i
+
+[547.36 - 551.2] what i wrote okay anyways point being
+
+[549.92 - 553.5999999999999] i'll show you i'll show you the edit
+
+[551.2 - 556.0] endpoint and this will be in an advanced
+
+[553.6 - 558.64] uh tutorial as well anyways let's go
+
+[556.0 - 560.72] back to our work
+
+[558.64 - 563.1999999999999] um okay so we've got the completion so
+
+[560.72 - 566.399] this is going to be the actual
+
+[563.2 - 568.0] plot synopsis and then the out prompt is
+
+[566.399 - 570.56] this and i showed you what this is going
+
+[568.0 - 572.399] to look like here oh yeah here
+
+[570.56 - 576.5999999999999] let me just go ahead and show you so
+
+[572.399 - 576.6] we'll give it we'll get a plot outline
+
+[577.68 - 582.959] an alternate history in india
+
+[579.92 - 582.959] oh now this is fun
+
+[585.36 - 589.76] um so apparently india invents ai during
+
+[588.16 - 591.4399999999999] the renaissance that's kind of cool
+
+[589.76 - 593.8389999999999] actually all right
+
+[591.44 - 595.839] so here's here's a here's a
+
+[593.839 - 597.839] food for thought later on you can use
+
+[595.839 - 600.6400000000001] the edit endpoint
+
+[597.839 - 600.6400000000001] and so we'll say
+
+[601.12 - 603.519] let's see
+
+[603.839 - 609.44] expand this plot outline to include more
+
+[608.16 - 614.48] detail
+
+[609.44 - 614.48] um make it a complete story
+
+[615.519 - 618.48] and we'll turn the temperature all the
+
+[616.8 - 620.079] way up because higher temperature
+
+[618.48 - 621.6800000000001] generally leads to more creativity it
+
+[620.079 - 624.16] can also lead to some random stuff that
+
+[621.68 - 626.3199999999999] you don't want but anyways so another
+
+[624.16 - 628.16] thing that you can do in in preparing
+
+[626.32 - 629.7600000000001] your data is you can use the edit
+
+[628.16 - 632.16] endpoint to
+
+[629.76 - 634.64] further augment the data so by baking in
+
+[632.16 - 636.48] multiple steps you can then have a data
+
+[634.64 - 639.36] set that is trained to do
+
+[636.48 - 642.72] more stuff oh here we go
+
+[639.36 - 644.8000000000001] so this is a much longer
+
+[642.72 - 646.5600000000001] plot synopsis so this is perfect i'm not
+
+[644.8 - 648.079] going to do this this time but just i
+
+[646.56 - 650.2399999999999] wanted to show you that this is a thing
+
+[648.079 - 652.959] you can do you can use the edit endpoint
+
+[650.24 - 654.16] to further augment your training data so
+
+[652.959 - 656.4799999999999] this is great
+
+[654.16 - 656.48] um
+
+[656.56 - 662.88] let's see delighted in the
+
+[658.839 - 662.8800000000001] stories acetics
+
+[663.36 - 667.6800000000001] transmutation
+
+[665.279 - 670.16] i think it actually did like an entirely
+
+[667.68 - 672.4799999999999] different story okay
+
+[670.16 - 672.48] um
+
+[672.64 - 676.3199999999999] i don't know that it actually uh yeah
+
+[675.36 - 677.2] okay
+
+[676.32 - 678.6400000000001] the
+
+[677.2 - 680.0] like i said if you have the really high
+
+[678.64 - 682.3199999999999] temperature you can get stuff that you
+
+[680.0 - 684.32] really don't do not expect um all right
+
+[682.32 - 687.7600000000001] moving on we'll come back to uh
+
+[684.32 - 690.24] augmenting techniques in a later video
+
+[687.76 - 692.3199999999999] okay so here we are this is what we want
+
+[690.24 - 694.0] the the prompt to look like so this is
+
+[692.32 - 696.1600000000001] what we're going to record
+
+[694.0 - 697.36] and then the output will just be the
+
+[696.16 - 700.48] completion
+
+[697.36 - 702.48] um and so then what we do is we'll do
+
+[700.48 - 704.0790000000001] save file
+
+[702.48 - 708.0790000000001] and actually let's do a file name real
+
+[704.079 - 709.519] quick file name equals time
+
+[708.079 - 711.68] plus
+
+[709.519 - 716.32] dot text
+
+[711.68 - 717.5999999999999] actually no file name will be
+
+[716.32 - 719.44] will be
+
+[717.6 - 722.72] uh let's see
+
+[719.44 - 725.2790000000001] i need to remove the ands from it
+
+[722.72 - 727.2] so we'll do
+
+[725.279 - 729.519] what's the shortest one so we'll do
+
+[727.2 - 734.0] place
+
+[729.519 - 737.44] um place period genre okay yeah
+
+[734.0 - 739.279] place plus period plus
+
+[737.44 - 741.2] genre plus
+
+[739.279 - 742.959] modifier
+
+[741.2 - 744.48] um and then
+
+[742.959 - 745.5189999999999] we will because each one of these is
+
+[744.48 - 746.9590000000001] going to be unique it's only going to
+
+[745.519 - 749.6] touch it once
+
+[746.959 - 751.68] so then we'll do replace
+
+[749.6 - 754.9590000000001] space with nothing
+
+[751.68 - 756.6389999999999] and then we'll also do replace
+
+[754.959 - 759.92] the and sign because i don't think i
+
+[756.639 - 761.44] don't think it'll save that as a file
+
+[759.92 - 763.1999999999999] and then we'll add
+
+[761.44 - 765.2] dot text
+
+[763.2 - 768.5600000000001] and then we'll do save file
+
+[765.2 - 770.0790000000001] so the content of the file will be um
+
+[768.56 - 773.1199999999999] wait make sure i
+
+[770.079 - 776.0] file path is first okay so f uh so we're
+
+[773.12 - 777.2] going to save the prompt out to
+
+[776.0 - 781.279] prompt
+
+[777.2 - 784.399] and then we'll do uh percent file name
+
+[781.279 - 786.639] and then we'll do out prompt
+
+[784.399 - 788.399] and then we'll do save file so basically
+
+[786.639 - 790.5600000000001] what i'm doing is i'm saving the prompt
+
+[788.399 - 792.639] and completion with the same file name
+
+[790.56 - 794.959] but to different folders so then we'll
+
+[792.639 - 796.32] do completions
+
+[794.959 - 797.8389999999999] dollar s
+
+[796.32 - 801.36] or a percent s
+
+[797.839 - 803.6800000000001] percent file name and then completion
+
+[801.36 - 804.48] um and there you have it that should be
+
+[803.68 - 807.04] it
+
+[804.48 - 809.12] um so what i like to do is for a quick
+
+[807.04 - 810.399] debug because you obviously before you
+
+[809.12 - 812.9590000000001] spend a lot of tokens you want to make
+
+[810.399 - 816.32] sure it works right um so i i print out
+
+[812.959 - 818.56] the prompt here but then let's also
+
+[816.32 - 821.519] um just so we can watch while it's going
+
+[818.56 - 824.4799999999999] here we'll do we'll just copy this
+
+[821.519 - 824.48] so we'll do print
+
+[824.56 - 828.959] out prompt and then print
+
+[827.36 - 830.399] completion
+
+[828.959 - 832.0] because why not you know if you're bored
+
+[830.399 - 833.36] and you're watching your data run why
+
+[832.0 - 835.36] not just do it
+
+[833.36 - 838.88] okay so let's do
+
+[835.36 - 838.88] cls to clear the screen
+
+[839.199 - 842.88] um oops
+
+[840.959 - 845.5999999999999] you have to wrap the text
+
+[842.88 - 847.4399999999999] in actual quotations
+
+[845.6 - 849.839] okay
+
+[847.44 - 851.44] so we'll let it generate one and then
+
+[849.839 - 853.7600000000001] we'll see what happens so this is a
+
+[851.44 - 856.399] romance and comedy set in france during
+
+[853.76 - 858.24] the renaissance this should be fun
+
+[856.399 - 860.639] oh i forgot to do a thing
+
+[858.24 - 862.0790000000001] um yeah i bet i bet this i bet it didn't
+
+[860.639 - 864.0] look right so this is why you check your
+
+[862.079 - 865.3599999999999] work so during the renaissance in france
+
+[864.0 - 866.8] two lovers pierre and maria must
+
+[865.36 - 869.279] overcome tremendous obstacles to be
+
+[866.8 - 871.68] together their families rival noble our
+
+[869.279 - 873.6] rival noble houses oh this is fun
+
+[871.68 - 876.4799999999999] um war is brewing this sounds like war
+
+[873.6 - 878.5600000000001] on the fondane um
+
+[876.48 - 880.48] undaunted pier and murray made in secret
+
+[878.56 - 882.7199999999999] planning to elope betrayed by one of
+
+[880.48 - 884.9590000000001] murray's maidservants oh this is fun
+
+[882.72 - 886.88] jealous older brother henry
+
+[884.959 - 889.04] in a fierce battle they are mortally
+
+[886.88 - 890.16] wounded and marie's art dies in murray's
+
+[889.04 - 892.399] arms
+
+[890.16 - 893.6] and he tells her to flee marie lu
+
+[892.399 - 895.839] refuses
+
+[893.6 - 898.5600000000001] so yeah this is this is romance and
+
+[895.839 - 899.7600000000001] comedy um i don't really see much comedy
+
+[898.56 - 901.3599999999999] in here
+
+[899.76 - 902.959] as the lover's souls depart this world
+
+[901.36 - 904.9590000000001] they vow to find each other again in the
+
+[902.959 - 907.92] next life so it looks like the the
+
+[904.959 - 909.5999999999999] modifier is kind of hijacking it
+
+[907.92 - 911.68] i don't really see how you could make
+
+[909.6 - 913.6] the i mean it's certainly romance but
+
+[911.68 - 915.68] it's not a comedy
+
+[913.6 - 917.279] so sometimes these things are
+
+[915.68 - 918.8] conflicting but let's check the output
+
+[917.279 - 920.16] data to make sure that it did what i
+
+[918.8 - 922.56] expected
+
+[920.16 - 924.8] okay so the completion looks right
+
+[922.56 - 926.3199999999999] um i like how it's france the
+
+[924.8 - 927.65] renaissance romance comedy cerebral
+
+[926.32 - 928.8000000000001] suspenseful.txt
+
+[927.65 - 930.8] [Laughter]
+
+[928.8 - 932.8] you know exactly what you're getting um
+
+[930.8 - 935.5999999999999] okay so that's good the completion looks
+
+[932.8 - 938.24] right but i think the prompt is wrong
+
+[935.6 - 940.5600000000001] yeah that's not what i wanted
+
+[938.24 - 943.44] um okay so let's fix that
+
+[940.56 - 945.1199999999999] let's um actually yeah let's just go
+
+[943.44 - 946.9590000000001] ahead and delete that
+
+[945.12 - 949.519] and delete the completion it'll
+
+[946.959 - 951.5189999999999] regenerate it um anyways
+
+[949.519 - 952.399] uh no don't keep it in no don't keep it
+
+[951.519 - 955.519] in
+
+[952.399 - 958.24] um okay so out prompt oh that's what i
+
+[955.519 - 959.36] forgot to do so um you do the percent
+
+[958.24 - 960.639] and then when you have multiple
+
+[959.36 - 962.9590000000001] placeholders
+
+[960.639 - 967.839] you need to do um you need to put it in
+
+[962.959 - 969.5999999999999] an iterable like this so we do um
+
+[967.839 - 973.36] period oh no
+
+[969.6 - 974.399] genre look uh place
+
+[973.36 - 976.16] period
+
+[974.399 - 977.839] modifier
+
+[976.16 - 979.759] so that should be right and that's that
+
+[977.839 - 982.24] should be fully populated
+
+[979.759 - 984.72] um okay so then let's run this again
+
+[982.24 - 986.8] just to make sure
+
+[984.72 - 990.639] let's make this a little bigger
+
+[986.8 - 990.639] so here's the initial input
+
+[993.04 - 998.0] and it'll take a second oh this is much
+
+[994.8 - 998.959] longer much better much better okay
+
+[998.0 - 1000.959] so
+
+[998.959 - 1003.68] um here's the initial input
+
+[1000.959 - 1005.92] here's how we're reformatting that input
+
+[1003.68 - 1008.4799999999999] so it'll be like this and then this is
+
+[1005.92 - 1010.7199999999999] the output when catherine de medici is
+
+[1008.48 - 1012.48] widowed this is italy
+
+[1010.72 - 1014.0790000000001] she's a skilled politician but not well
+
+[1012.48 - 1016.24] loved so this is much longer this is
+
+[1014.079 - 1017.3599999999999] what we would kind of want to see
+
+[1016.24 - 1018.8] um
+
+[1017.36 - 1021.6800000000001] so let's go make sure that the data
+
+[1018.8 - 1025.039] looks right so the completion here it is
+
+[1021.68 - 1027.9189999999999] um there we go completions and then
+
+[1025.039 - 1029.76] prompts and there's the prompt um and so
+
+[1027.919 - 1031.439] then what you do after this is you just
+
+[1029.76 - 1032.72] you remove the escape
+
+[1031.439 - 1034.72] um and you let it go and you've
+
+[1032.72 - 1036.16] synthesized data and we are at 17
+
+[1034.72 - 1038.4] minutes so this is a little bit longer
+
+[1036.16 - 1040.64] than i try and make my tutorials
+
+[1038.4 - 1041.919] so the last thing is just do this and
+
+[1040.64 - 1043.8390000000002] let it run
+
+[1041.919 - 1047.039] so i will go ahead and set this to run
+
+[1043.839 - 1049.12] and then tune in for the next video
+
+[1047.039 - 1050.64] where we'll go over data prep and i
+
+[1049.12 - 1052.9599999999998] think probably what i'll do is talk
+
+[1050.64 - 1054.0] about data augmentation and cleanup at
+
+[1052.96 - 1056.24] that time because that's all part of
+
+[1054.0 - 1058.48] data prep so anyways thanks for watching
+
+[1056.24 - 1061.48] tune in again and i'll see you all again
+
+[1058.48 - 1061.48] soon

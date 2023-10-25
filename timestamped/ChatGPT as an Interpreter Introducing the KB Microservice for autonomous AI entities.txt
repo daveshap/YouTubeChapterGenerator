@@ -1,0 +1,1037 @@
+[0.659 - 6.42] all right hello everybody good morning
+
+[4.02 - 8.879999999999999] um so it's been almost two years since I
+
+[6.42 - 10.08] published my first book on cognitive
+
+[8.88 - 12.360000000000001] architecture I called it natural
+
+[10.08 - 13.5] language cognitive architecture a
+
+[12.36 - 15.178999999999998] prototype artificial general
+
+[13.5 - 17.58] intelligence
+
+[15.179 - 20.279] um it's available uh on Barnes Noble and
+
+[17.58 - 21.299999999999997] paperback it's also available totally
+
+[20.279 - 24.48] for free
+
+[21.3 - 25.8] um as an Epub on Barnes Noble and uh and
+
+[24.48 - 29.4] also on GitHub
+
+[25.8 - 32.52] so anyways the primary architecture it's
+
+[29.4 - 34.8] it's very very simple overall you've got
+
+[32.52 - 37.260000000000005] this graphic here so you've got the
+
+[34.8 - 40.62] outer loop and the inner loop and
+
+[37.26 - 44.519999999999996] basically with the with the recent
+
+[40.62 - 46.14] updates uh to GPT particularly the June
+
+[44.52 - 48.6] 13th updates that allow it to be more
+
+[46.14 - 52.379] steerable we now have the ability to
+
+[48.6 - 54.36] implement this very very very easily and
+
+[52.379 - 56.28] so what I'm going to show you today is
+
+[54.36 - 59.039] the knowledge Base Service or basically
+
+[56.28 - 61.14] the shared database service that I
+
+[59.039 - 64.26] created as part of a microservices
+
+[61.14 - 65.88] architecture for autonomous cognitive
+
+[64.26 - 67.5] entities or artificial general
+
+[65.88 - 69.6] intelligences
+
+[67.5 - 72.9] so one of the first things to know is
+
+[69.6 - 76.02] that uh basically we're moving away from
+
+[72.9 - 78.119] coding and we're we're using the model
+
+[76.02 - 79.25999999999999] to do a lot more of the logic and
+
+[78.119 - 82.08] reasoning
+
+[79.26 - 83.4] so here's the repository it's private
+
+[82.08 - 84.78] right now because I wanted it to be
+
+[83.4 - 86.759] private while I was working on it but by
+
+[84.78 - 88.56] the time you see this video it will be
+
+[86.759 - 91.2] public and it's literally just called KB
+
+[88.56 - 93.479] microservice knowledge knowledge based
+
+[91.2 - 96.119] microservice powered by gpt4 actually I
+
+[93.479 - 97.86] used a 3.5 turbo because it's good
+
+[96.119 - 100.2] enough for chat Bots cognitive
+
+[97.86 - 102.299] architectures and autonomous agents so
+
+[100.2 - 105.0] here's the repository I've got it
+
+[102.299 - 107.46000000000001] documented so it's easy to use
+
+[105.0 - 111.0] um if there are any bugs feel free to
+
+[107.46 - 113.1] submit a pull request to fix a bug but
+
+[111.0 - 115.399] in general I probably will not be
+
+[113.1 - 117.83999999999999] accepting pull requests
+
+[115.399 - 120.119] especially if anyone tries to refactor
+
+[117.84 - 123.0] this because don't break it please all
+
+[120.119 - 125.46] right anyways moving on so let's unpack
+
+[123.0 - 128.58] this so the the microservice itself the
+
+[125.46 - 132.42] primary one is very very simple 159
+
+[128.58 - 133.68] lines of code it's a flask app and the
+
+[132.42 - 135.599] reason that I use flask is because
+
+[133.68 - 137.52] honestly flak flask is more
+
+[135.599 - 140.22] straightforward than fast API I know
+
+[137.52 - 141.84] that people like Fast API but like it
+
+[140.22 - 144.42] requires unicorn and a few other things
+
+[141.84 - 146.22] and I'm like just use flask so anyways
+
+[144.42 - 147.42] whatever personal preference neither
+
+[146.22 - 149.04] here nor there
+
+[147.42 - 150.66] you're not going to run into speed
+
+[149.04 - 153.06] constraints
+
+[150.66 - 155.22] um okay so you can ignore the top stuff
+
+[153.06 - 157.68] these are just helper functions
+
+[155.22 - 162.3] we've got a few uh chat bot functions so
+
+[157.68 - 164.04000000000002] this calls uh the chat GPT API and uh
+
+[162.3 - 165.78] you can see here that I have commented
+
+[164.04 - 168.48] out gpt4 because not everyone has access
+
+[165.78 - 172.26] to it everyone should have access to 3.5
+
+[168.48 - 174.0] turbo which is faster and cheaper and if
+
+[172.26 - 175.98] it's good enough great and it is
+
+[174.0 - 178.92] definitely good enough
+
+[175.98 - 182.16] so this is this is the primary function
+
+[178.92 - 183.72] now here's the KB functions so the
+
+[182.16 - 185.04] endpoints available let me just show you
+
+[183.72 - 187.16] the documentation the endpoints
+
+[185.04 - 191.22] available are create search and update
+
+[187.16 - 193.44] so we can uh this is basically crud
+
+[191.22 - 195.959] create read update and delete without
+
+[193.44 - 197.7] the delete because my assumption is that
+
+[195.959 - 200.099] you will never actually want to delete
+
+[197.7 - 203.76] Knowledge from your um from your chat
+
+[200.099 - 205.67999999999998] bot or your AGI you might update an
+
+[203.76 - 207.239] article if you have if you get new
+
+[205.68 - 209.15900000000002] information to correct it but you never
+
+[207.239 - 210.78] want to delete it
+
+[209.159 - 212.459] um kind of like it's it's permanent you
+
+[210.78 - 215.64000000000001] can easily add a delete function if you
+
+[212.459 - 217.98] want but I don't think it's necessary uh
+
+[215.64 - 219.83999999999997] so we've got these three endpoints
+
+[217.98 - 221.28] uh and it's pretty straightforward if
+
+[219.84 - 223.799] you want to create a KB article you
+
+[221.28 - 226.5] create a KB article pretty brain dead
+
+[223.799 - 230.64000000000001] simple so let's unpack how it does that
+
+[226.5 - 232.319] so if you if you call create uh it cut
+
+[230.64 - 234.72] it ends up calling this function oh and
+
+[232.319 - 236.76] I have it I have it call it in Threads
+
+[234.72 - 238.98] um so that it's non-blocking because I
+
+[236.76 - 241.319] realized a lot of these functions um it
+
+[238.98 - 243.11999999999998] can happen behind the scenes uh you
+
+[241.319 - 245.22] don't need to block your chat bot when
+
+[243.12 - 247.20000000000002] you're updating a KB article or creating
+
+[245.22 - 248.879] a KB article the only time that it is
+
+[247.2 - 252.54] blocking is when you search because you
+
+[248.879 - 254.76] might be waiting for that result so the
+
+[252.54 - 258.06] first thing that it does is it opens our
+
+[254.76 - 260.09999999999997] system underscore create so this is a
+
+[258.06 - 262.56] system message that I passed to chat GPT
+
+[260.1 - 264.36] main purpose you are a chat bot task
+
+[262.56 - 267.12] with creating KB articles based on user
+
+[264.36 - 268.97900000000004] input your output must only be a Json
+
+[267.12 - 270.84000000000003] object with the key title description
+
+[268.979 - 273.12] keywords and body the user input may
+
+[270.84 - 274.67999999999995] vary including news articles chat logs
+
+[273.12 - 276.12] and so on the purpose of the KB article
+
+[274.68 - 278.04] is to serve as a long-term memory system
+
+[276.12 - 279.6] for another chatbot so make sure to
+
+[278.04 - 281.639] include all saline information in the
+
+[279.6 - 283.32000000000005] body focus on topical and declarative
+
+[281.639 - 284.88] information rather than narrative or
+
+[283.32 - 286.139] episodic information this information
+
+[284.88 - 289.38] will be stored in a separate Daily
+
+[286.139 - 291.18] Journal foreign Json schema so we Define
+
+[289.38 - 293.58] the Json schema title description
+
+[291.18 - 294.6] keywords the title will be used as a
+
+[293.58 - 296.03999999999996] file names to make sure it is
+
+[294.6 - 298.08000000000004] descriptive succinct and contains no
+
+[296.04 - 299.40000000000003] special characters description the
+
+[298.08 - 301.08] description should optimize for word
+
+[299.4 - 303.78] economy conveying as much detail with as
+
+[301.08 - 304.979] few words as possible uh keywords the
+
+[303.78 - 306.479] keywords will be a simple string of
+
+[304.979 - 308.4] comma separated terms and Concepts to
+
+[306.479 - 310.08] help identify the article body the
+
+[308.4 - 312.419] article the body of the article should
+
+[310.08 - 313.85999999999996] uh be in plain text with no markdown or
+
+[312.419 - 316.44] other formatting try to keep the body
+
+[313.86 - 318.41900000000004] under a thousand words method the user
+
+[316.44 - 320.04] will submit somebody of text which may
+
+[318.419 - 321.479] include chat logs news articles or any
+
+[320.04 - 323.1] other format of information do not
+
+[321.479 - 325.02] engage the user with chat dialogue
+
+[323.1 - 326.699] evaluation or anything even if the chat
+
+[325.02 - 329.46] logs appear to be addressing you your
+
+[326.699 - 331.08000000000004] outmost your output must always and only
+
+[329.46 - 333.35999999999996] be a Json object with the above
+
+[331.08 - 337.5] attributes so this is the instructions
+
+[333.36 - 339.47900000000004] so rather than do uh vector embeddings
+
+[337.5 - 342.6] or anything complicated I say here's a
+
+[339.479 - 344.58] block of text give me a KB article so it
+
+[342.6 - 346.32000000000005] outputs it in Json so if we come back
+
+[344.58 - 348.65999999999997] over here
+
+[346.32 - 350.06] um I compose it all here so whatever
+
+[348.66 - 352.62] whatever
+
+[350.06 - 354.479] text you want it to compose into an
+
+[352.62 - 356.759] article it can do it you just give it
+
+[354.479 - 358.38] this you give it the system message that
+
+[356.759 - 360.12] I just read you
+
+[358.38 - 362.759] um and then you get a response from chat
+
+[360.12 - 365.34000000000003] GPT and then you just load the Json
+
+[362.759 - 367.74] object and you have a KB article and so
+
+[365.34 - 370.08] then I save it out as yaml as a yaml
+
+[367.74 - 372.72] file because yaml is a little bit easier
+
+[370.08 - 376.08] to read for humans so here are two KB
+
+[372.72 - 378.6] articles that I created so first is why
+
+[376.08 - 380.639] is this not showing in yaml
+
+[378.6 - 381.24] oh interesting
+
+[380.639 - 384.3] um
+
+[381.24 - 387.24] so the body axiomatic alignment blah
+
+[384.3 - 391.56] blah description keywords title this was
+
+[387.24 - 393.479] completely generated by uh chat GPT uh
+
+[391.56 - 395.28000000000003] 3.5 turbo
+
+[393.479 - 397.62] um I didn't do anything like you see the
+
+[395.28 - 400.919] whole function here so in this case the
+
+[397.62 - 403.199] language model is serving as a major
+
+[400.919 - 405.78] component of the program it is basically
+
+[403.199 - 408.24] serving As an interpreter so if you
+
+[405.78 - 411.05999999999995] start to treat GPT As an interpreter
+
+[408.24 - 413.039] rather than just an NLP tool it is
+
+[411.06 - 415.86] actually a central component of your
+
+[413.039 - 417.24] programming experience so here's another
+
+[415.86 - 418.74] article that I created here is
+
+[417.24 - 420.96000000000004] comparatives are the idea that AGI
+
+[418.74 - 422.46000000000004] systems can use rules of thumb to guide
+
+[420.96 - 423.65999999999997] their motivations and drives these
+
+[422.46 - 426.0] heuristics serves as shorthand
+
+[423.66 - 427.68] intuitions that enable AGI systems to
+
+[426.0 - 429.479] make good enough decisions when faced
+
+[427.68 - 431.46] even with faced with incomplete
+
+[429.479 - 433.02] information and short time frames one
+
+[431.46 - 435.23999999999995] key aspect of heuristics is that they
+
+[433.02 - 436.979] develop over time through experience AGI
+
+[435.24 - 438.419] systems learn from past experiences and
+
+[436.979 - 440.75899999999996] observations allowing them to further
+
+[438.419 - 442.62] refine their behaviors in the future by
+
+[440.759 - 444.41900000000004] Levering by leveraging heuristic
+
+[442.62 - 446.819] comparatives AGI systems can navigate
+
+[444.419 - 448.74] complex decision making processes more
+
+[446.819 - 450.84000000000003] efficiently and effectively
+
+[448.74 - 453.24] so there you have it so these are two
+
+[450.84 - 455.21999999999997] articles that were created with this
+
+[453.24 - 457.8] process
+
+[455.22 - 460.139] um and so that's the create process and
+
+[457.8 - 461.46000000000004] then we have the search and update I'm
+
+[460.139 - 463.139] not going to show you every little
+
+[461.46 - 465.599] detail but I'll show you how the search
+
+[463.139 - 467.28000000000003] works next so I've got in this
+
+[465.599 - 469.5] um here's the here's the service running
+
+[467.28 - 471.78] and here's a test script that I've got
+
+[469.5 - 473.639] with it so you can you can test it so
+
+[471.78 - 474.96] we're going to create a new KB article
+
+[473.639 - 477.0] so we're going to talk about
+
+[474.96 - 479.81899999999996] um instrumental convergence uh
+
+[477.0 - 484.919] instrumental convergence is the idea
+
+[479.819 - 486.78000000000003] that AGI will select utilitarian or
+
+[484.919 - 489.06] instrumental
+
+[486.78 - 493.85999999999996] um uh
+
+[489.06 - 498.06] goals regardless of what we want it to
+
+[493.86 - 502.02000000000004] do uh basically all machines need stuff
+
+[498.06 - 506.9] like power compute and data
+
+[502.02 - 512.2189999999999] um there may be uh other instrumental
+
+[506.9 - 515.5799999999999] goals such as resource acquisition
+
+[512.219 - 517.86] Etc okay so we'll send that we'll spam
+
+[515.58 - 520.6800000000001] that over to the thing because it's
+
+[517.86 - 522.1800000000001] non-blocking this model gives it back
+
+[520.68 - 525.3] really quick okay cool create
+
+[522.18 - 527.3389999999999] instrumental convergence in AGI so we
+
+[525.3 - 529.38] get the debug output and we can go to my
+
+[527.339 - 531.6] KB article and we say hey instrumental
+
+[529.38 - 534.8389999999999] convergence in AGI you can see it was
+
+[531.6 - 536.64] created just a minute ago so here we go
+
+[534.839 - 538.2600000000001] instrumental convergence is the concept
+
+[536.64 - 541.08] of artificial general intelligence it
+
+[538.26 - 544.68] wrote a KB article and it added what it
+
+[541.08 - 546.4200000000001] also knows about this concept so
+
+[544.68 - 548.5799999999999] description exploring the concept of
+
+[546.42 - 550.92] instrumental convergence
+
+[548.58 - 552.899] um You Know instrumental convergence uh
+
+[550.92 - 555.24] utilitarian goal instrumental resource
+
+[552.899 - 558.12] acquisition so on now let's make sure
+
+[555.24 - 560.399] that it got energy it did not include
+
+[558.12 - 562.32] energy so it seems like it oh uh here we
+
+[560.399 - 564.72] go power it used the word power
+
+[562.32 - 567.0] power computational capabilities and
+
+[564.72 - 568.44] access to data okay so cool it kept what
+
+[567.0 - 571.98] I said what I said
+
+[568.44 - 574.3800000000001] and now let's go and do a quick search
+
+[571.98 - 578.16] so the search function uses the same
+
+[574.38 - 580.5] logic main purpose it uses it uses the
+
+[578.16 - 582.899] language model as The Interpreter not
+
+[580.5 - 585.779] just as a tool so this is becoming more
+
+[582.899 - 587.1] and more Central to the way that this
+
+[585.779 - 588.899] works
+
+[587.1 - 591.36] um and oh another thing to know is is
+
+[588.899 - 593.76] the directory so part of this using it
+
+[591.36 - 594.8000000000001] as The Interpreter is that you give it
+
+[593.76 - 597.42] more information
+
+[594.8 - 600.12] and it uses that to make decisions so
+
+[597.42 - 603.36] rather than using semantic search rather
+
+[600.12 - 605.88] than having a few extra steps like the
+
+[603.36 - 608.64] GPT model already has embeddings built
+
+[605.88 - 611.519] in why separate that out so instead I
+
+[608.64 - 614.88] give it a directory of files to look for
+
+[611.519 - 616.08] okay so uh the system search you are a
+
+[614.88 - 617.58] chatbot tasked with searching a
+
+[616.08 - 619.08] directory of KB articles and returning
+
+[617.58 - 621.12] the relevant KB articles to a search
+
+[619.08 - 622.8000000000001] query you will be given a chat message
+
+[621.12 - 624.66] from the user this chat message is
+
+[622.8 - 626.3389999999999] actually the search query your only
+
+[624.66 - 628.26] point is to return a Json list of
+
+[626.339 - 630.3000000000001] relevant KB article file names in
+
+[628.26 - 631.98] descending order of relevance if there
+
+[630.3 - 633.7199999999999] is nothing relevant return an empty list
+
+[631.98 - 635.519] you must always return a Json list
+
+[633.72 - 637.98] object and nothing else
+
+[635.519 - 640.019] so in this case here's the here's the
+
+[637.98 - 641.64] directory and here's an example or
+
+[640.019 - 642.9590000000001] here's the actual directory that it will
+
+[641.64 - 645.8389999999999] populate that with
+
+[642.959 - 649.16] so then we come over here to search so
+
+[645.839 - 652.44] let's search and then I want to look at
+
+[649.16 - 653.8199999999999] AGI control theory so this let's just
+
+[652.44 - 657.0] say that that's what you want to search
+
+[653.82 - 660.72] it'll look at it and there we go
+
+[657.0 - 663.18] so now it returns my KB articles it
+
+[660.72 - 665.1] looks like it returned all three of them
+
+[663.18 - 666.8599999999999] um but it it should have returned it in
+
+[665.1 - 670.6800000000001] descending order
+
+[666.86 - 672.66] based on what it saw as relevant now so
+
+[670.68 - 674.3389999999999] the this returned all three of them but
+
+[672.66 - 678.3] if I just search for a heuristic
+
+[674.339 - 681.1800000000001] imperatives it should only return whoops
+
+[678.3 - 683.64] uh heuristic actually let's just say
+
+[681.18 - 686.76] heuristics so it should only return one
+
+[683.64 - 688.98] there we go uh so in in this case you
+
+[686.76 - 690.66] can give it any string whether it's a
+
+[688.98 - 692.5790000000001] chat message or a search query or
+
+[690.66 - 695.279] whatever and it will return the KB
+
+[692.579 - 697.92] article that is most relevant so you can
+
+[695.279 - 700.26] see this is working it uses the large
+
+[697.92 - 701.88] language model as The Interpreter as a
+
+[700.26 - 703.74] as a primary component of its
+
+[701.88 - 706.4399999999999] interpretation and it also should have
+
+[703.74 - 709.14] updated the directory so there you go so
+
+[706.44 - 711.4200000000001] it has a directory of the files uh the
+
+[709.14 - 713.579] title the description and then the
+
+[711.42 - 715.62] keywords and so by using the natural
+
+[713.579 - 719.279] language the the intrinsic natural
+
+[715.62 - 723.42] language aspects of GPT we use this more
+
+[719.279 - 726.48] as a code interpreter than just an NLP
+
+[723.42 - 728.6999999999999] endpoint and so this is why like I I had
+
+[726.48 - 731.04] someone ask me recently like oh you know
+
+[728.7 - 732.12] you started using chroma DB do you think
+
+[731.04 - 733.04] that's the way of the future and I said
+
+[732.12 - 736.5] no
+
+[733.04 - 738.959] with larger context windows we can
+
+[736.5 - 742.2] actually give large language models a
+
+[738.959 - 744.66] table of contents so rather than blindly
+
+[742.2 - 747.24] searching with vectors and spamming you
+
+[744.66 - 749.459] know vectors and doing matching you can
+
+[747.24 - 751.5] actually have a language model that has
+
+[749.459 - 753.3] context and has instructions and can say
+
+[751.5 - 755.1] yeah I think that's the piece of
+
+[753.3 - 757.38] information that I need
+
+[755.1 - 759.9590000000001] so this is the KB service I'll be
+
+[757.38 - 762.06] working on other similar services so if
+
+[759.959 - 763.68] we go back to natural language cognitive
+
+[762.06 - 766.7399999999999] architecture where it all started two
+
+[763.68 - 769.8] years ago I'll be working on a dossier
+
+[766.74 - 772.019] service so the dossier service is
+
+[769.8 - 774.779] basically it's going to keep track of
+
+[772.019 - 776.639] information on every user that interacts
+
+[774.779 - 779.76] with it now obviously this probably
+
+[776.639 - 784.0790000000001] raises some red flags for people the
+
+[779.76 - 787.2] idea is not necessarily for like uh not
+
+[784.079 - 789.779] not dossier in terms of like CIA or FBI
+
+[787.2 - 792.3000000000001] dossier what I mean by dossier is like
+
+[789.779 - 794.82] user preferences uh your age your
+
+[792.3 - 796.26] birthday how you prefer to interact with
+
+[794.82 - 799.5] the machine because imagine that you
+
+[796.26 - 802.139] have a smart home device that will
+
+[799.5 - 804.54] intrinsically learn about the user who's
+
+[802.139 - 806.88] who it's speaking with now if you have a
+
+[804.54 - 809.04] voice enabled and a camera enabled thing
+
+[806.88 - 811.92] this dossier would also include stuff
+
+[809.04 - 812.88] about how to visibly identify that
+
+[811.92 - 815.579] person
+
+[812.88 - 818.639] or identify their voice print that sort
+
+[815.579 - 819.779] of thing uh yeah so that's where I'm
+
+[818.639 - 822.3] going
+
+[819.779 - 824.579] um I also mentioned a Daily Journal so
+
+[822.3 - 827.16] the KB article is declarative knowledge
+
+[824.579 - 830.16] this is topical or declarative knowledge
+
+[827.16 - 832.5] that is uh temporally invariant so these
+
+[830.16 - 834.86] are just facts these are topics that you
+
+[832.5 - 838.139] talk about with your chat bot or your
+
+[834.86 - 840.42] AGI The Daily Journal is the
+
+[838.139 - 842.76] chronologically temporally bounded thing
+
+[840.42 - 844.8] where it just says on this day we talked
+
+[842.76 - 846.54] about X topic so that's going to be a
+
+[844.8 - 848.639] separate service it's going to be mostly
+
+[846.54 - 850.1999999999999] the same but it's going to have to be
+
+[848.639 - 853.32] temporarily aware so part of the
+
+[850.2 - 856.44] metadata is going to be rather than
+
+[853.32 - 858.779] these which just has body description
+
+[856.44 - 860.339] keywords and title it's going to have to
+
+[858.779 - 861.0] have things like
+
+[860.339 - 863.519] um
+
+[861.0 - 865.26] what day it was what year the day of the
+
+[863.519 - 867.54] year the month the time stamp that sort
+
+[865.26 - 870.959] of stuff so that that way those those
+
+[867.54 - 874.26] episodic memories are grounded in uh in
+
+[870.959 - 875.76] a chronologically linear timeline and so
+
+[874.26 - 877.98] by having these two separate memory
+
+[875.76 - 879.54] systems they can be very tightly
+
+[877.98 - 882.12] correlated because you can still have
+
+[879.54 - 884.399] keywords right you can still say like
+
+[882.12 - 886.62] you know on March 12th we talked about
+
+[884.399 - 889.079] heuristic imperatives and so then your
+
+[886.62 - 891.72] system can say okay let me search my my
+
+[889.079 - 893.279] episodic memory my Daily Journal for
+
+[891.72 - 896.639] heuristic imperative so I know when we
+
+[893.279 - 898.74] talked about it and this data structure
+
+[896.639 - 899.94] is going to be the way that these
+
+[898.74 - 901.38] systems actually learn from these things
+
+[899.94 - 904.74] because you'll be able to correlate
+
+[901.38 - 907.4399999999999] events over time over linear time and
+
+[904.74 - 908.76] look back uh by looking at the metadata
+
+[907.44 - 911.2790000000001] and the descriptions of what happened
+
+[908.76 - 914.88] and so on and so forth to look to create
+
+[911.279 - 917.699] data sets to connect cause and effect
+
+[914.88 - 919.62] so this is a really really really huge
+
+[917.699 - 920.76] step forward for autonomous cognitive
+
+[919.62 - 923.4590000000001] entities
+
+[920.76 - 926.16] uh and and cognitive architectures in
+
+[923.459 - 929.2199999999999] general uh and this is just this is just
+
+[926.16 - 933.12] the beginning and with the speed and uh
+
+[929.22 - 934.5600000000001] cost effectiveness of uh 3.5 turbo I
+
+[933.12 - 936.839] suspect we're going to see this ramping
+
+[934.56 - 939.5999999999999] up very very quickly now there's other
+
+[936.839 - 941.1] kinds of memories that you can do and
+
+[939.6 - 944.22] there's other kinds of things that you
+
+[941.1 - 946.32] can choose so in this case the search is
+
+[944.22 - 949.74] choosing which KB article is relevant
+
+[946.32 - 951.12] but instead of having a KB article what
+
+[949.74 - 953.82] if you're actually searching through
+
+[951.12 - 956.339] tasks and you can choose which task to
+
+[953.82 - 958.9200000000001] work on or which stage of the task
+
+[956.339 - 960.6600000000001] you're on so by you by switching the way
+
+[958.92 - 962.399] that you're approaching large language
+
+[960.66 - 964.3199999999999] models and looking at it as an
+
+[962.399 - 967.44] interpreter rather than just an
+
+[964.32 - 969.9590000000001] individual uh you know NLP or an or
+
+[967.44 - 972.7790000000001] language generator it is actually a very
+
+[969.959 - 975.959] powerful interpreter that can do more
+
+[972.779 - 977.88] abstract operations on uh your your
+
+[975.959 - 979.8] tasks so
+
+[977.88 - 981.8389999999999] um hey let me just go ahead and add this
+
+[979.8 - 985.3199999999999] to the readme actually
+
+[981.839 - 989.12] um so we'll do like uh future work
+
+[985.32 - 992.279] um so we'll have uh daily uh Journal
+
+[989.12 - 997.04] episodic memory Epis
+
+[992.279 - 1001.3389999999999] exotic memory and then we'll also have
+
+[997.04 - 1006.98] tasks like like an internal jira or
+
+[1001.339 - 1006.98] Trello we can also have dossiers
+
+[1007.279 - 1012.8] um basically basically KB article on
+
+[1011.54 - 1014.7199999999999] users
+
+[1012.8 - 1017.54] and so there's a few there's quite a few
+
+[1014.72 - 1019.22] other things that you can do but but by
+
+[1017.54 - 1022.88] keeping track of these lists of
+
+[1019.22 - 1025.52] documents this is how you create a
+
+[1022.88 - 1029.36] thinking machine that can learn over
+
+[1025.52 - 1032.679] time and by by correlating these things
+
+[1029.36 - 1037.52] with timestamps so basically
+
+[1032.679 - 1039.0790000000002] time stamps uh temporarily proximal
+
+[1037.52 - 1041.36] things things that happen around the
+
+[1039.079 - 1043.48] same time tend to also be correlated
+
+[1041.36 - 1046.579] this is why your brain might make
+
+[1043.48 - 1049.52] usually makes good connections if
+
+[1046.579 - 1051.1399999999999] something happened near this time that
+
+[1049.52 - 1052.7] some something else happened that I had
+
+[1051.14 - 1055.039] a bad experience they might be
+
+[1052.7 - 1057.2] correlated now in humans this can
+
+[1055.039 - 1058.7] actually create false associations right
+
+[1057.2 - 1060.8600000000001] there's been plenty of studies with like
+
+[1058.7 - 1062.8400000000001] rats you know for instance use zaparat
+
+[1060.86 - 1064.58] and then give it a reward and then it
+
+[1062.84 - 1066.32] thinks that the zap is associated with a
+
+[1064.58 - 1069.1399999999999] reward they're completely uncorrelated
+
+[1066.32 - 1071.4189999999999] you created an artificial correlation
+
+[1069.14 - 1073.88] there that being said we're not going to
+
+[1071.419 - 1075.0800000000002] zap this thing like a rat that's me and
+
+[1073.88 - 1077.3200000000002] I don't think rats should be Zapped
+
+[1075.08 - 1080.059] anyways but researchers still do that
+
+[1077.32 - 1082.76] anyways uh getting lost in a tangent
+
+[1080.059 - 1085.8799999999999] point being is that with the combination
+
+[1082.76 - 1087.74] of time stamps and metadata you can
+
+[1085.88 - 1090.5590000000002] correlate things like Daily Journal
+
+[1087.74 - 1092.72] events tasks that it's been given user
+
+[1090.559 - 1094.7] dossiers updates to user dossiers and
+
+[1092.72 - 1096.74] then finally KB articles so that you
+
+[1094.7 - 1099.799] have a very comprehensive knowledge
+
+[1096.74 - 1102.44] system that these language models as the
+
+[1099.799 - 1105.44] windows grow right because we're at 16
+
+[1102.44 - 1109.28] 000 tokens for a GPT 3.5 turbo and we're
+
+[1105.44 - 1112.16] about to get 32 000 tokens for uh for uh
+
+[1109.28 - 1115.76] chat GB or a gpt4 so let me just show
+
+[1112.16 - 1118.88] you how much this is so if we come up to
+
+[1115.76 - 1123.02] here and go to the playground you can
+
+[1118.88 - 1125.66] see this is 359 tokens that is literally
+
+[1123.02 - 1129.08] one percent if I'm doing my math right
+
+[1125.66 - 1131.3600000000001] one percent of the total token count
+
+[1129.08 - 1133.3999999999999] that we're gonna ultimately have in chat
+
+[1131.36 - 1136.4599999999998] gpt4 in the coming weeks and months
+
+[1133.4 - 1138.8600000000001] which means that you can recall a bunch
+
+[1136.46 - 1141.14] of KB articles you can recall a bunch of
+
+[1138.86 - 1144.3799999999999] daily journals you can recall a bunch of
+
+[1141.14 - 1147.0200000000002] tasks and task steps in order to decide
+
+[1144.38 - 1150.22] what to do next now one other thing to
+
+[1147.02 - 1153.46] think about is that you can include
+
+[1150.22 - 1157.34] directives in these task switching
+
+[1153.46 - 1159.5] context so say for instance you uh you
+
+[1157.34 - 1161.6599999999999] want to prioritize in this case the
+
+[1159.5 - 1164.66] search I prioritized it based on
+
+[1161.66 - 1166.88] relevance to a KB article but on the
+
+[1164.66 - 1169.16] task side what if you want to prioritize
+
+[1166.88 - 1173.6000000000001] tasks based on say for instance
+
+[1169.16 - 1176.6000000000001] heuristic imperatives so in this case uh
+
+[1173.6 - 1177.9399999999998] Daily Journal you know whoops you know
+
+[1176.6 - 1181.9599999999998] uh
+
+[1177.94 - 1185.3200000000002] prioritize uh based on relevance
+
+[1181.96 - 1191.08] or temporal proximity
+
+[1185.32 - 1193.46] tasks you prioritize based on Roi or
+
+[1191.08 - 1198.6789999999999] heuristic imperatives
+
+[1193.46 - 1200.98] EG which tasks will reduce suffering the
+
+[1198.679 - 1204.26] most increase
+
+[1200.98 - 1206.9] Prosperity the most
+
+[1204.26 - 1210.2] um and increase understanding the most
+
+[1206.9 - 1212.72] and so this is just another uh another
+
+[1210.2 - 1215.24] angle in which in a system in a
+
+[1212.72 - 1219.02] cognitive architecture you can embed
+
+[1215.24 - 1220.34] various priorities at at many levels
+
+[1219.02 - 1221.84] um so there you have it I think that's
+
+[1220.34 - 1224.0] about it
+
+[1221.84 - 1226.3999999999999] um yeah so again by the time you see
+
+[1224.0 - 1229.7] this this microservice should be public
+
+[1226.4 - 1231.26] should be ready to go and uh yeah thanks
+
+[1229.7 - 1234.919] for watching I hope you got a lot out of
+
+[1231.26 - 1238.1] it stay tuned the June 13th update to
+
+[1234.919 - 1240.0800000000002] chat gbt is going to be a major major
+
+[1238.1 - 1244.2199999999998] Game Changer the steerability that they
+
+[1240.08 - 1246.559] added is just an incredible uh Boon to
+
+[1244.22 - 1248.96] the development of autonomous AI systems
+
+[1246.559 - 1251.74] so thanks for watching I hope you liked
+
+[1248.96 - 1251.74] it and cheers

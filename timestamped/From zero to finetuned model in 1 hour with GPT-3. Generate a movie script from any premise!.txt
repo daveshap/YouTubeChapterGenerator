@@ -1,0 +1,3427 @@
+[0.32 - 5.04] hey everyone david shapiro here
+
+[2.72 - 7.120000000000001] with a new kind of video i'm going to
+
+[5.04 - 9.280000000000001] try i've had this idea for a while i've
+
+[7.12 - 11.120000000000001] had this idea of doing a working session
+
+[9.28 - 12.559] and what i mean by that is i'm just
+
+[11.12 - 13.678999999999998] going to walk you through my entire
+
+[12.559 - 15.599] process
+
+[13.679 - 17.52] sometimes people don't really believe me
+
+[15.599 - 19.279] when i tell them how fast i work or how
+
+[17.52 - 21.52] easy this stuff is say you know what i'm
+
+[19.279 - 24.16] just going to record it end to end
+
+[21.52 - 25.519] and here's the project today
+
+[24.16 - 28.16] someone said
+
+[25.519 - 30.32] nicevid so this is my co-writing flash
+
+[28.16 - 31.279] fiction with gpt3 let me zoom in a
+
+[30.32 - 33.6] little bit
+
+[31.279 - 35.2] um he says nicevid and the character
+
+[33.6 - 38.0] dialog one i'm curious if you've tried
+
+[35.2 - 39.760000000000005] using gpt3 to generate a high level
+
+[38.0 - 42.079] logical plot summary where you prompt
+
+[39.76 - 44.079] for a structure for a structure like
+
+[42.079 - 46.879] setup incident an inciting incident
+
+[44.079 - 48.64] midpoint false high etc etc in my
+
+[46.879 - 49.919999999999995] experiments it is too extensive prompt
+
+[48.64 - 52.239000000000004] chaining perhaps that's because it's
+
+[49.92 - 54.399] more complex task i say i tried that
+
+[52.239 - 55.76] with my auto muse project and it was not
+
+[54.399 - 57.36] great at it however this is something
+
+[55.76 - 59.358999999999995] that could be fine-tuned
+
+[57.36 - 61.199] so that gave me an idea let me do an
+
+[59.359 - 62.800000000000004] outline generator so i just created this
+
+[61.199 - 64.559] repo
+
+[62.8 - 66.79899999999999] here is the repo here
+
+[64.559 - 68.08] um
+
+[66.799 - 69.92] and uh
+
+[68.08 - 72.0] i've added a couple files i just added
+
+[69.92 - 74.4] my api key
+
+[72.0 - 75.6] and and a boilerplate thing so let me
+
+[74.4 - 79.2] just show you
+
+[75.6 - 80.72] cd outline generator get status
+
+[79.2 - 82.24000000000001] get add
+
+[80.72 - 83.36] git commit
+
+[82.24 - 85.52] am
+
+[83.36 - 87.52] initial commit
+
+[85.52 - 89.119] get push
+
+[87.52 - 91.6] okay so you will see
+
+[89.119 - 93.759] i just did i just did a push
+
+[91.6 - 96.079] there's only a handful of files in here
+
+[93.759 - 99.119] let's get started okay so the first
+
+[96.079 - 102.15899999999999] thing to do with this is
+
+[99.119 - 104.0] playground let's go to text davinci o2
+
+[102.159 - 106.96000000000001] so the very first thing let me zoom back
+
+[104.0 - 106.96] in here is
+
+[107.28 - 110.96000000000001] uh we need some raw data to work with so
+
+[109.439 - 112.63999999999999] we're going to synthesize some data so
+
+[110.96 - 114.79899999999999] the first thing is
+
+[112.64 - 116.719] let's just right off the cuff let's see
+
+[114.799 - 119.60000000000001] if this prompt works
+
+[116.719 - 121.6] write a detailed
+
+[119.6 - 125.759] um
+
+[121.6 - 130.56] uh no not right imagine no brainstorm
+
+[125.759 - 132.239] there we go brainstorm a plot synopsis
+
+[130.56 - 133.52] for a random
+
+[132.239 - 135.92000000000002] story
+
+[133.52 - 135.92000000000002] um
+
+[136.0 - 140.64] let's say
+
+[137.12 - 143.44] detailed plot synopsis um
+
+[140.64 - 145.35999999999999] and let's just see what that does
+
+[143.44 - 148.0] the town of shepherd's town is a
+
+[145.36 - 149.36] historic located in appalachian of blah
+
+[148.0 - 150.239] blah blah sorry i'm trying to read too
+
+[149.36 - 151.76000000000002] fast
+
+[150.239 - 153.44] um
+
+[151.76 - 154.959] this is great
+
+[153.44 - 157.2] and it decides
+
+[154.959 - 158.879] okay keeps going okay perfect so the
+
+[157.2 - 161.04] town of shepherdstown is a historic
+
+[158.879 - 162.79999999999998] small town located in the appalachian
+
+[161.04 - 164.56] mountains of west virginia
+
+[162.8 - 165.92000000000002] the town is home to a variety of shops
+
+[164.56 - 168.16] and businesses as well as a number of
+
+[165.92 - 169.35999999999999] different families the mcbride family
+
+[168.16 - 171.12] has lived in shepherdstown for
+
+[169.36 - 172.959] generations and they own a large farm on
+
+[171.12 - 174.48000000000002] the outskirts of town the youngest
+
+[172.959 - 176.16] mcbride daughter lizzie is a
+
+[174.48 - 178.23899999999998] free-spirited 18 year old who has always
+
+[176.16 - 179.76] been drawn to the town's history she
+
+[178.239 - 181.20000000000002] loves to explore the old buildings and
+
+[179.76 - 182.79999999999998] learn about the town's past one day
+
+[181.2 - 184.879] lizzie discovers a hidden room in one of
+
+[182.8 - 186.87900000000002] the buildings one of the old buildings
+
+[184.879 - 188.64] the room is filled with dusty old boxes
+
+[186.879 - 190.07999999999998] and furniture lizzie starts to explore
+
+[188.64 - 192.48] and she finds a secret passage that
+
+[190.08 - 193.92000000000002] leads to hidden staircase she climbs the
+
+[192.48 - 195.44] staircase to find herself in a secret
+
+[193.92 - 198.0] attic the attic is filled with old
+
+[195.44 - 199.92] clothes furniture and books
+
+[198.0 - 201.36] lizzie starts to look through the books
+
+[199.92 - 203.04] and she finds an old journal the journal
+
+[201.36 - 204.799] is filled with the handwritten accounts
+
+[203.04 - 206.319] of the town's history at least lizzie is
+
+[204.799 - 208.4] fascinated by the journal and decides to
+
+[206.319 - 210.159] start her own research project on the
+
+[208.4 - 212.159] town's history she spends the summer
+
+[210.159 - 214.48] exploring the town's past and learning
+
+[212.159 - 216.879] this like oh man this is some pure
+
+[214.48 - 219.51899999999998] literary fiction right here okay so
+
+[216.879 - 222.39999999999998] we've got a an initial prompt
+
+[219.519 - 225.20000000000002] so let's go ahead and just save this
+
+[222.4 - 227.59900000000002] um and we'll say we'll call this um
+
+[225.2 - 228.879] prompt underscore premise
+
+[227.599 - 232.72] dot text
+
+[228.879 - 235.67999999999998] and so then what i do is i've got this
+
+[232.72 - 239.28] this script that i'm starting um
+
+[235.68 - 240.4] let's change this to davinci
+
+[239.28 - 243.76] o2
+
+[240.4 - 245.84] and we'll use the same um the same
+
+[243.76 - 247.28] settings so no frequency penalty no
+
+[245.84 - 248.56] presence penalty
+
+[247.28 - 251.28] um
+
+[248.56 - 253.2] i'll leave these the stops actually i'll
+
+[251.28 - 255.36] just remove those because they are not
+
+[253.2 - 258.239] relevant to this project
+
+[255.36 - 261.35900000000004] okay i think that's all we need
+
+[258.239 - 263.75899999999996] so go with pep8 two new lines beneath
+
+[261.359 - 266.88] each one okay so this is a function that
+
+[263.759 - 269.04] i copy paste in all my projects
+
+[266.88 - 271.919] some people have noticed that that every
+
+[269.04 - 273.6] now and then your your um
+
+[271.919 - 275.919] your prompt will fail
+
+[273.6 - 277.91900000000004] and uh or your completion will fail and
+
+[275.919 - 279.84] so i just have a retry built in it
+
+[277.919 - 281.03999999999996] rarely needs that especially nowadays i
+
+[279.84 - 283.59999999999997] think they i think they've upped their
+
+[281.04 - 286.24] capacity but basically i just say like
+
+[283.6 - 289.44] um oh i need to import sleep as well
+
+[286.24 - 291.36] um from time import sleep
+
+[289.44 - 293.919] um so basically it'll just wait a second
+
+[291.36 - 294.84000000000003] and then try again in case it fails to
+
+[293.919 - 298.0] talk to
+
+[294.84 - 301.919] openai okay so for this
+
+[298.0 - 303.28] since i like the prompt let's do if
+
+[301.919 - 304.79999999999995] name
+
+[303.28 - 306.71999999999997] equals
+
+[304.8 - 309.6] main and this is not strictly required
+
+[306.72 - 311.52000000000004] for this just because it's um
+
+[309.6 - 312.8] prototyping i could just jump straight
+
+[311.52 - 315.19899999999996] into a loop
+
+[312.8 - 316.72] however this is good practice to do if
+
+[315.199 - 318.8] name equals main if you want to call
+
+[316.72 - 320.32000000000005] this from something else
+
+[318.8 - 322.16] i'm not going to do that since i just do
+
+[320.32 - 324.479] imperative programming and rapid
+
+[322.16 - 326.32000000000005] prototyping but i just got in the habit
+
+[324.479 - 328.24] and i like it because it just says okay
+
+[326.32 - 331.12] let's demarcate this okay
+
+[328.24 - 332.32] um let's see for i in
+
+[331.12 - 333.28000000000003] range
+
+[332.32 - 336.08] um
+
+[333.28 - 338.71999999999997] let's see 0 to
+
+[336.08 - 339.84] 10. let's just do 10 for now
+
+[338.72 - 340.88000000000005] um
+
+[339.84 - 342.08] let's see
+
+[340.88 - 343.68] premise
+
+[342.08 - 345.28] equals
+
+[343.68 - 348.24] um
+
+[345.28 - 352.35999999999996] gpt3 completion
+
+[348.24 - 352.36] prompt equals 08.
+
+[352.8 - 355.68] prompt equals
+
+[356.8 - 363.039] need to load the file
+
+[359.919 - 363.039] so i'll just copy this
+
+[363.36 - 368.0] with open and what did i call it prompt
+
+[366.0 - 369.44] premise
+
+[368.0 - 372.4] because i will use different prompts in
+
+[369.44 - 375.6] the future as in file so we'll say
+
+[372.4 - 377.67999999999995] prompt equals infile dot read
+
+[375.6 - 379.36] okay oh and another thing i forgot is
+
+[377.68 - 383.28000000000003] what i do is i
+
+[379.36 - 384.8] i grab the the output and i strip it so
+
+[383.28 - 387.59999999999997] that removes all
+
+[384.8 - 389.68] white space on from the edges and then i
+
+[387.6 - 391.03900000000004] also do a
+
+[389.68 - 393.6] regex
+
+[391.039 - 395.68] swap replace for any any additional
+
+[393.6 - 397.68] white space and just replace it with an
+
+[395.68 - 399.36] individual space so in this case if it
+
+[397.68 - 401.039] adds too much vertical space like new
+
+[399.36 - 403.12] lines i want to remove all the new lines
+
+[401.039 - 406.639] just so it ends up with a single block
+
+[403.12 - 408.479] of text like you see here
+
+[406.639 - 411.199] it's it's not always necessary but
+
+[408.479 - 412.88] sometimes gpt3 will spit out too much
+
+[411.199 - 415.84000000000003] too much vertical white space and i want
+
+[412.88 - 417.199] to condense it um so that's why i have
+
+[415.84 - 420.4] this little bit here and that actually
+
+[417.199 - 422.40000000000003] reminds me i need to also import
+
+[420.4 - 426.63899999999995] three which is regex
+
+[422.4 - 428.56] um okay so premise equals
+
+[426.639 - 430.56] gpt three completion prompt so that'll
+
+[428.56 - 433.12] pass in the prompt i've got the engine
+
+[430.56 - 435.52] set to default to text davinci o2
+
+[433.12 - 436.72] i've got tokens 500 just in case it gets
+
+[435.52 - 438.56] cut off
+
+[436.72 - 441.03900000000004] but you see here the uh
+
+[438.56 - 443.039] these instructions are super short
+
+[441.039 - 443.919] because text davinci o2 is pretty darn
+
+[443.039 - 447.199] good
+
+[443.919 - 449.35999999999996] um okay so let's run this
+
+[447.199 - 451.199] oh wait i actually need to save it okay
+
+[449.36 - 452.40000000000003] so let's see with
+
+[451.199 - 453.36] open
+
+[452.4 - 456.63899999999995] um
+
+[453.36 - 457.84000000000003] what did i name that folder premises
+
+[456.639 - 460.40000000000003] uh
+
+[457.84 - 462.0] premises
+
+[460.4 - 464.479] slash
+
+[462.0 - 466.879] uh i guess i need a file name
+
+[464.479 - 466.87899999999996] um
+
+[468.72 - 472.879] let's do let's start at one and go to
+
+[473.12 - 476.84000000000003] 200
+
+[475.36 - 478.72] file name
+
+[476.84 - 481.19899999999996] equals
+
+[478.72 - 483.59900000000005] premise underscore dollar
+
+[481.199 - 483.599] or a
+
+[483.68 - 486.319] text insert i don't remember the name of
+
+[485.28 - 488.479] that right now
+
+[486.319 - 491.599] text and then we'll do
+
+[488.479 - 495.28] i okay so that will give us a serial
+
+[491.599 - 498.319] number so we'll then we'll say premises
+
+[495.28 - 499.75899999999996] that and do file name
+
+[498.319 - 503.84000000000003] write
+
+[499.759 - 507.12] encoding equals utf-8
+
+[503.84 - 509.19899999999996] i always do utf-8 because gpt3 sometimes
+
+[507.12 - 510.56] outputs stuff that will not encode an
+
+[509.199 - 512.5600000000001] ascii
+
+[510.56 - 516.24] or other simpler things and utf-8 is
+
+[512.56 - 517.5989999999999] just universal um so we'll do
+
+[516.24 - 521.44] oops
+
+[517.599 - 524.6400000000001] as out file
+
+[521.44 - 527.6800000000001] out file dot right
+
+[524.64 - 529.279] uh premise i think that's i think that's
+
+[527.68 - 531.92] all i need to do
+
+[529.279 - 533.68] um and then we'll do an exit right here
+
+[531.92 - 535.519] so what i often do is just for debugging
+
+[533.68 - 536.56] and testing i'll just have it do one
+
+[535.519 - 538.72] instance
+
+[536.56 - 541.1999999999999] um
+
+[538.72 - 544.1600000000001] and then let's add a print
+
+[541.2 - 544.1600000000001] print premise
+
+[544.8 - 548.3199999999999] we'll do
+
+[545.68 - 550.7199999999999] ui newline new line
+
+[548.32 - 552.8000000000001] premise so that way we can separate them
+
+[550.72 - 554.399] all out exit so that'll just be a quick
+
+[552.8 - 556.56] test
+
+[554.399 - 559.44] make sure okay
+
+[556.56 - 564.2399999999999] i think that's it so python
+
+[559.44 - 564.24] generate premises can i zoom in on this
+
+[565.839 - 569.0400000000001] can i make this bigger
+
+[567.92 - 570.64] edit
+
+[569.04 - 573.5999999999999] properties
+
+[570.64 - 577.12] uh cursor no not cursor size
+
+[573.6 - 578.48] font there we go
+
+[577.12 - 579.92] make the font a little bit bigger so you
+
+[578.48 - 581.04] can see there we go look at that
+
+[579.92 - 582.4799999999999] beautiful
+
+[581.04 - 584.3199999999999] let's go a little bit bigger so that you
+
+[582.48 - 587.04] can see what the heck is going on you
+
+[584.32 - 588.5600000000001] don't have to squint at your screen 36
+
+[587.04 - 590.0] that's enormous
+
+[588.56 - 592.3199999999999] maybe that's a little too big ah heck
+
+[590.0 - 592.32] with it
+
+[594.08 - 598.32] no module named openai really i forgot
+
+[596.48 - 603.72] to re okay so i recently reinstalled my
+
+[598.32 - 603.72] computer um pip install open ai
+
+[607.279 - 612.16] the rest of this while that's installing
+
+[609.44 - 614.399] the rest of these um time and regex are
+
+[612.16 - 617.279] our default um
+
+[614.399 - 619.839] with uh gpt3 um so you don't need or not
+
+[617.279 - 623.68] gpg3 python sorry um the only the only
+
+[619.839 - 623.6800000000001] module i need to install here is open ai
+
+[624.72 - 629.44] okay successfully built installing it's
+
+[627.68 - 631.5999999999999] doing all this fun stuff
+
+[629.44 - 633.839] okay let's try that again python
+
+[631.6 - 637.76] generate premises
+
+[633.839 - 639.12] error communicating is not valid under
+
+[637.76 - 641.68] interesting
+
+[639.12 - 642.72] it doesn't like it
+
+[641.68 - 645.279] okay
+
+[642.72 - 647.12] i guess it doesn't like my empty
+
+[645.279 - 649.68] whatchamacallit here so we'll just do
+
+[647.12 - 651.2] blah blah
+
+[649.68 - 653.4399999999999] maybe i should exclude that if i'm not
+
+[651.2 - 656.9590000000001] going to have anything meaningful in it
+
+[653.44 - 660.36] okay let's try again do a clear screen
+
+[656.959 - 660.3599999999999] generate premises
+
+[660.56 - 665.5999999999999] and the answer is save gpt3 log is not
+
+[663.44 - 667.519] defined oh right because i grabbed this
+
+[665.6 - 671.44] function from something else
+
+[667.519 - 673.44] um save gpt3 log um so i usually in in a
+
+[671.44 - 675.36] lot of my projects is i'll save every
+
+[673.44 - 677.0400000000001] interaction with gpt3 so let me just
+
+[675.36 - 678.399] comment that out
+
+[677.04 - 680.64] um
+
+[678.399 - 681.92] my bad sorry again
+
+[680.64 - 683.4399999999999] i told you i was going to go through the
+
+[681.92 - 685.68] entire process
+
+[683.44 - 687.2790000000001] um this is this is what prototyping
+
+[685.68 - 690.88] looks like with dave
+
+[687.279 - 693.279] um hopefully it'll work this time
+
+[690.88 - 695.04] fail fast and keep going there we go
+
+[693.279 - 697.8389999999999] okay cool look at this
+
+[695.04 - 700.88] um incomplete format
+
+[697.839 - 703.12] oh yeah i did do that i it i called me
+
+[700.88 - 704.64] out on my on my crap i messed it up here
+
+[703.12 - 706.079] okay the sky is orange and the sun is
+
+[704.64 - 708.48] red casting an ear glow over the small
+
+[706.079 - 710.8] town of shepherdstown
+
+[708.48 - 711.6] um it really likes shepherdstown doesn't
+
+[710.8 - 712.959] it
+
+[711.6 - 714.48] i wonder how often it will do
+
+[712.959 - 715.5189999999999] shepherdstown because the the one up
+
+[714.48 - 717.6800000000001] here
+
+[715.519 - 720.0] also says shepherdstown
+
+[717.68 - 720.0] um
+
+[720.56 - 726.0] interesting okay whatever
+
+[723.519 - 727.76] if it if it lights that that's fine um
+
+[726.0 - 732.0] we'll see if it if it repeats that but
+
+[727.76 - 735.279] let's go fix this thing because i missed
+
+[732.0 - 738.959] we need the percent s for file name
+
+[735.279 - 738.959] okay and that should
+
+[740.8 - 745.92] if i'm not mistaken it will not have
+
+[743.68 - 749.4399999999999] yeah it did not succeed
+
+[745.92 - 749.4399999999999] okay generate premises
+
+[750.639 - 754.519] let's see what it does this time
+
+[758.079 - 764.0] shannon left to run the family okay so
+
+[760.399 - 764.0] this generated a premise um
+
+[764.079 - 766.56] yep
+
+[764.959 - 768.399] she knows it would be inappropriate to
+
+[766.56 - 770.0] pursue a relationship with someone she
+
+[768.399 - 771.519] is employer
+
+[770.0 - 773.04] so that's a that's a typo that doesn't
+
+[771.519 - 774.72] make any sense shannon and diego must
+
+[773.04 - 777.1999999999999] find a way to resist their feelings so
+
+[774.72 - 778.639] this came up with a with a romance um so
+
+[777.2 - 782.0790000000001] one thing you can do
+
+[778.639 - 784.48] is i often will do um
+
+[782.079 - 787.3599999999999] i'll often have placeholders so like
+
+[784.48 - 789.6] let's say we want to modify the premise
+
+[787.36 - 791.04] for a random story let's say like
+
+[789.6 - 793.12] you know
+
+[791.04 - 795.5999999999999] romance story actually let's do it this
+
+[793.12 - 796.5600000000001] way so we'll do romance and instead of
+
+[795.6 - 798.32] doing
+
+[796.56 - 800.56] um
+
+[798.32 - 803.519] instead of doing
+
+[800.56 - 805.1999999999999] 200 of each one we'll do like
+
+[803.519 - 806.399] we'll do like 50. so i'll do like
+
+[805.2 - 808.72] romance
+
+[806.399 - 811.839] um science fiction
+
+[808.72 - 814.8000000000001] fantasy and like uh literary fiction or
+
+[811.839 - 816.9590000000001] something so we'll just do 50 of each
+
+[814.8 - 818.959] and we'll do
+
+[816.959 - 821.1199999999999] premise
+
+[818.959 - 822.959] romance
+
+[821.12 - 824.399] there we go i think this will be good so
+
+[822.959 - 826.079] then we'll get it we'll get a broader
+
+[824.399 - 827.199] variety
+
+[826.079 - 829.12] um
+
+[827.199 - 831.5999999999999] yes okay
+
+[829.12 - 833.12] so then we can assume that this yes
+
+[831.6 - 834.9590000000001] premise1.txt
+
+[833.12 - 836.16] yay look at that and actually let's
+
+[834.959 - 838.7199999999999] switch this
+
+[836.16 - 841.519] open with choose another program notepad
+
+[838.72 - 843.6] plus plus always use notepad plus plus
+
+[841.519 - 844.88] okay so there you have it you see we've
+
+[843.6 - 846.639] got a premise
+
+[844.88 - 848.8] um for a story
+
+[846.639 - 853.04] and so let's go ahead and close that
+
+[848.8 - 853.04] and that that took um
+
+[854.959 - 858.8] what am i doing manage account
+
+[857.12 - 860.16] okay
+
+[858.8 - 862.399] usage
+
+[860.16 - 864.959] this will take a minute to load but this
+
+[862.399 - 867.44] is stupid cheap um
+
+[864.959 - 871.279] because that was like 200
+
+[867.44 - 873.519] that was like 200 um tokens um so yeah
+
+[871.279 - 876.16] that was that last one
+
+[873.519 - 880.8] was 164 tokens and it cost less than a
+
+[876.16 - 882.639] penny 266 tokens cost 2 cents so
+
+[880.8 - 884.7199999999999] you know if i generate 200 of these
+
+[882.639 - 887.04] premises it'll be about a dollar
+
+[884.72 - 889.6] right um and if you've been watching my
+
+[887.04 - 891.36] youtube channel this month um
+
+[889.6 - 894.0] everything that i've shown you has cost
+
+[891.36 - 897.1990000000001] two dollars that is how cheap gpt3 is
+
+[894.0 - 899.839] getting to use okay so a quick little
+
+[897.199 - 902.3199999999999] aside let's comment out the exit so we
+
+[899.839 - 903.6800000000001] should generate now 50
+
+[902.32 - 906.1600000000001] premises
+
+[903.68 - 908.16] um of romance
+
+[906.16 - 911.68] um and then we'll change this to sci-fi
+
+[908.16 - 914.7199999999999] fantasy and other stuff do a quick save
+
+[911.68 - 916.399] so now we'll do cls python generate
+
+[914.72 - 919.279] premises
+
+[916.399 - 921.519] okay so basically this is step one of
+
+[919.279 - 923.92] generating synthetic data
+
+[921.519 - 925.6] and i've been doing this for
+
+[923.92 - 929.12] let me pause my video for a second to
+
+[925.6 - 931.839] see how long okay so that was 15 minutes
+
+[929.12 - 932.88] um from zero to getting
+
+[931.839 - 933.9200000000001] um
+
+[932.88 - 937.04] a
+
+[933.92 - 939.36] unlimited number of synthetic data
+
+[937.04 - 942.16] we uh we're going from here and you see
+
+[939.36 - 944.72] it's outputting everything as it goes
+
+[942.16 - 946.8] it looks like it's using some similar
+
+[944.72 - 948.32] stuff over and over again
+
+[946.8 - 950.3199999999999] interesting jenna is looking forward to
+
+[948.32 - 951.9200000000001] the weekend
+
+[950.32 - 953.1990000000001] okay so it is it is a little bit
+
+[951.92 - 955.519] repetitive
+
+[953.199 - 957.12] that's interesting i wonder if there's
+
+[955.519 - 959.519] something we can do
+
+[957.12 - 961.199] to make it a little less repetitive
+
+[959.519 - 962.72] at the beach house
+
+[961.199 - 965.12] beach house
+
+[962.72 - 967.44] all right so solutioning time this is
+
+[965.12 - 968.5600000000001] way too darn repetitive
+
+[967.44 - 971.9200000000001] um
+
+[968.56 - 972.88] i think we might need to have a first
+
+[971.92 - 976.88] thing
+
+[972.88 - 976.88] something that kind of stands before
+
+[976.959 - 983.1199999999999] um generating a premise okay so
+
+[980.839 - 986.32] uh generate
+
+[983.12 - 987.759] a list of random
+
+[986.32 - 989.6800000000001] characters
+
+[987.759 - 992.0790000000001] locations
+
+[989.68 - 992.079] um
+
+[992.48 - 995.839] and
+
+[993.36 - 999.92] genres
+
+[995.839 - 999.9200000000001] then we'll just do a dash there
+
+[1000.16 - 1004.56] giraffe lighthouse comedy
+
+[1002.56 - 1008.16] okay
+
+[1004.56 - 1008.16] well that's interesting um
+
+[1009.36 - 1014.48] uh let's say long list
+
+[1012.399 - 1016.88] and see what that does because a giraffe
+
+[1014.48 - 1018.9590000000001] lighthouse comedy
+
+[1016.88 - 1022.72] that's not helpful
+
+[1018.959 - 1025.6] um oh random characters let's see
+
+[1022.72 - 1030.0] so we need to tell it for a story um
+
+[1025.6 - 1031.52] this is for brainstorming
+
+[1030.0 - 1032.88] a story
+
+[1031.52 - 1034.959] generate a long list of random
+
+[1032.88 - 1037.959] characters locations and genres there we
+
+[1034.959 - 1037.959] go
+
+[1038.88 - 1043.5200000000002] oh good good good good okay
+
+[1040.959 - 1045.199] so here's what happens is it gives us
+
+[1043.52 - 1047.36] some random stuff
+
+[1045.199 - 1048.799] um let's run this a couple times to see
+
+[1047.36 - 1050.3999999999999] if it gives us
+
+[1048.799 - 1052.08] um similar things because like a group
+
+[1050.4 - 1055.6000000000001] of friends who get stranded on a desert
+
+[1052.08 - 1055.6] island camping trip in the woods
+
+[1058.559 - 1062.3999999999999] let's see if it's repetitive again
+
+[1063.28 - 1068.0] a family who owns a farm group of
+
+[1064.88 - 1070.0800000000002] students okay yeah this is this is okay
+
+[1068.0 - 1072.16] this is a little bit more random
+
+[1070.08 - 1074.3999999999999] um
+
+[1072.16 - 1075.76] run it a few more times skilled archer
+
+[1074.4 - 1077.6000000000001] town that is terrorized by a band of
+
+[1075.76 - 1080.32] robbers dark forest
+
+[1077.6 - 1082.559] oh this is great a final battle between
+
+[1080.32 - 1084.3999999999999] good and evil wonderful
+
+[1082.559 - 1086.32] um okay
+
+[1084.4 - 1088.24] so here's what we're going to do we are
+
+[1086.32 - 1090.3999999999999] going to create another prompt that
+
+[1088.24 - 1093.36] stands before the first one because we
+
+[1090.4 - 1097.1200000000001] saw that it was being way too repetitive
+
+[1093.36 - 1098.6399999999999] okay um let's call this prompt
+
+[1097.12 - 1100.2399999999998] brainstorming
+
+[1098.64 - 1101.919] brainstorm okay
+
+[1100.24 - 1104.64] so first
+
+[1101.919 - 1107.88] we're going to do that
+
+[1104.64 - 1107.88] and then
+
+[1108.4 - 1111.679] ooh ooh i'm gonna need to change this
+
+[1110.24 - 1114.559] because we don't want we want to
+
+[1111.679 - 1116.16] actually split the lines
+
+[1114.559 - 1117.039] yeah
+
+[1116.16 - 1122.039] okay
+
+[1117.039 - 1122.039] so we'll need to change a couple things
+
+[1123.76 - 1127.12] let's see how should i approach this i
+
+[1125.6 - 1129.52] think i'm just going to need to take
+
+[1127.12 - 1131.76] this out
+
+[1129.52 - 1132.96] because we want to maintain the lines
+
+[1131.76 - 1135.96] and
+
+[1132.96 - 1135.96] um
+
+[1137.52 - 1140.24] we will say
+
+[1141.6 - 1146.12] i don't want to waste too many tokens
+
+[1153.76 - 1157.36] um
+
+[1156.0 - 1160.16] actually let's simplify this because i
+
+[1157.36 - 1161.4399999999998] don't need multiple outputs i need just
+
+[1160.16 - 1165.3600000000001] one
+
+[1161.44 - 1168.799] generate a list um
+
+[1165.36 - 1171.1999999999998] generate a list of well no because
+
+[1168.799 - 1173.2] having a list output allows it to be
+
+[1171.2 - 1175.039] more creative because there will be some
+
+[1173.2 - 1177.3600000000001] slight variances
+
+[1175.039 - 1179.2] oh also oh i wonder if i could fix this
+
+[1177.36 - 1181.039] just by turning up the temperature
+
+[1179.2 - 1182.32] let's go back before we get too carried
+
+[1181.039 - 1184.24] away let's turn up the temperature a
+
+[1182.32 - 1186.96] little
+
+[1184.24 - 1189.2] one dot zero because this can go up to
+
+[1186.96 - 1190.64] this can go up to two okay before before
+
+[1189.2 - 1194.24] we get too carried away with over
+
+[1190.64 - 1197.2800000000002] solutioning it let's try simple things
+
+[1194.24 - 1199.679] so over here we've got seven romances
+
+[1197.28 - 1201.6] looking at the console output
+
+[1199.679 - 1204.5590000000002] most of them involve jenna most of them
+
+[1201.6 - 1206.48] involve the weekend at a beach house so
+
+[1204.559 - 1208.559] all right let's see if we can restart
+
+[1206.48 - 1210.559] this and we get a better
+
+[1208.559 - 1212.8799999999999] um better set of outputs
+
+[1210.559 - 1216.0] um let's see let's go back here
+
+[1212.88 - 1217.5200000000002] python generate premises
+
+[1216.0 - 1221.52] all right so all i did was i changed the
+
+[1217.52 - 1223.44] temperature from 0.7 to 1.0
+
+[1221.52 - 1225.679] um so let's see if we get that
+
+[1223.44 - 1227.3600000000001] repetitiveness again
+
+[1225.679 - 1229.2800000000002] jenna is looking forward to her evening
+
+[1227.36 - 1231.1999999999998] run okay that's a little bit better
+
+[1229.28 - 1233.2] jenna and ryan hit it off
+
+[1231.2 - 1234.88] tamara is a successful businesswoman who
+
+[1233.2 - 1236.48] seems to have it all she's beautiful and
+
+[1234.88 - 1238.96] smart great
+
+[1236.48 - 1240.799] starting to get some variety
+
+[1238.96 - 1242.32] oh but you see how we're getting some
+
+[1240.799 - 1243.28] some more vertical white space that i
+
+[1242.32 - 1245.52] don't like
+
+[1243.28 - 1248.799] hannah sets cross country road trip good
+
+[1245.52 - 1251.2] linda's high powered executive
+
+[1248.799 - 1252.4] yeah okay this is getting better
+
+[1251.2 - 1254.0800000000002] so
+
+[1252.4 - 1256.4] the simple thing is the better thing all
+
+[1254.08 - 1258.0] i had to do is turn up the temperature
+
+[1256.4 - 1260.4] let's add the
+
+[1258.0 - 1262.48] canceling the white space add that back
+
+[1260.4 - 1264.3200000000002] in that's fine for now
+
+[1262.48 - 1266.159] jenny is a young woman who is struggling
+
+[1264.32 - 1268.24] to find her place in the world good
+
+[1266.159 - 1270.24] rachel is a successful young one notice
+
+[1268.24 - 1271.1200000000001] how all the romances start with with a
+
+[1270.24 - 1273.44] woman
+
+[1271.12 - 1273.4399999999998] um
+
+[1273.84 - 1277.6] falls in love with luke who learns to
+
+[1275.52 - 1278.96] trust again
+
+[1277.6 - 1281.12] sherry had always been a hopeless
+
+[1278.96 - 1284.159] romantic so here's what i'll do
+
+[1281.12 - 1285.9189999999999] i'll wait for this to get to about
+
+[1284.159 - 1288.0800000000002] um
+
+[1285.919 - 1291.1200000000001] like 20 or so or
+
+[1288.08 - 1293.6] 25 rather and then i'll change the
+
+[1291.12 - 1295.76] prompt actually no i don't need to stop
+
+[1293.6 - 1297.4399999999998] it all i need to do is change the prompt
+
+[1295.76 - 1299.12] um
+
+[1297.44 - 1300.48] so we'll go to this so this is this is
+
+[1299.12 - 1302.799] one advantage actually no that won't
+
+[1300.48 - 1306.48] work because i only load the prompt once
+
+[1302.799 - 1309.6] um yeah so for every iteration if i move
+
+[1306.48 - 1311.679] this up into the into the loop then i
+
+[1309.6 - 1314.08] could just change the prompt mid flight
+
+[1311.679 - 1317.1200000000001] so actually let's do that
+
+[1314.08 - 1319.6] um so let's do that put that here
+
+[1317.12 - 1321.12] so now while it's iterating i can change
+
+[1319.6 - 1323.9189999999999] the prompt mid-flight without having to
+
+[1321.12 - 1326.4799999999998] cancel it um that'll be nice
+
+[1323.919 - 1327.8400000000001] long day of work to her loving fiance
+
+[1326.48 - 1330.32] miles
+
+[1327.84 - 1332.8799999999999] um jenna and the stranger
+
+[1330.32 - 1334.72] when olivia's mom dies she's left to
+
+[1332.88 - 1335.8400000000001] fend for herself
+
+[1334.72 - 1337.6000000000001] um
+
+[1335.84 - 1340.6399999999999] so this is all this is all very like
+
+[1337.6 - 1342.559] anglo-centric these are all like typical
+
+[1340.64 - 1344.88] pretty much typically american names
+
+[1342.559 - 1346.48] these aren't even like european names
+
+[1344.88 - 1350.48] um so
+
+[1346.48 - 1352.72] let me go ahead and pause this now
+
+[1350.48 - 1354.96] and let's add a little bit of variety
+
+[1352.72 - 1358.08] but first we're going to want to change
+
+[1354.96 - 1360.96] where it starts okay so we're at 16
+
+[1358.08 - 1362.3999999999999] so let's go here and we'll start
+
+[1360.96 - 1364.96] um
+
+[1362.4 - 1366.24] we'll go we'll start at 17 and we'll go
+
+[1364.96 - 1368.08] up to
+
+[1366.24 - 1369.84] uh let's see let's
+
+[1368.08 - 1371.9189999999999] we'll just go up to 30.
+
+[1369.84 - 1373.6789999999999] and then we'll change this to
+
+[1371.919 - 1374.7990000000002] uh let's close that one so i stopped
+
+[1373.679 - 1376.48] clicking on it
+
+[1374.799 - 1378.32] um
+
+[1376.48 - 1380.96] for brainstorm a detailed plot synopsis
+
+[1378.32 - 1383.6] for a random romance let's say europe
+
+[1380.96 - 1386.159] no let's say french romance story
+
+[1383.6 - 1387.36] um and watch how much just one word
+
+[1386.159 - 1390.159] changes
+
+[1387.36 - 1390.1589999999999] this output
+
+[1390.24 - 1394.559] and let's see make sure that i change
+
+[1392.4 - 1396.72] the where it starts
+
+[1394.559 - 1400.1589999999999] so it'll go from 17 to 30.
+
+[1396.72 - 1401.3600000000001] uh okay that'll be fine
+
+[1400.159 - 1402.96] okay
+
+[1401.36 - 1405.4399999999998] so because basically what we're doing
+
+[1402.96 - 1407.679] now is we're oh elise there we go
+
+[1405.44 - 1408.72] dashing parisian gentleman pierre oh
+
+[1407.679 - 1410.72] wonderful
+
+[1408.72 - 1413.28] um okay so what we're doing is we're
+
+[1410.72 - 1414.72] generating synthetic
+
+[1413.28 - 1416.799] data right now
+
+[1414.72 - 1418.64] so ultimately this will be the input
+
+[1416.799 - 1420.799] that we use in the future why is it
+
+[1418.64 - 1423.2] paused there we go oh wow
+
+[1420.799 - 1424.08] that's a much longer one excellent
+
+[1423.2 - 1426.4] um
+
+[1424.08 - 1429.4399999999998] so you know we got 17 like you know
+
+[1426.4 - 1430.48] white bred american um premise romance
+
+[1429.44 - 1433.039] plots
+
+[1430.48 - 1434.88] um and we're gonna use those to generate
+
+[1433.039 - 1437.2] um like a three-act structure in a
+
+[1434.88 - 1439.2] little bit um but we want variety right
+
+[1437.2 - 1442.88] we don't want just anglo-centric
+
+[1439.2 - 1446.0] american stories we want a variety so um
+
+[1442.88 - 1447.3600000000001] oh look at that name antoinette gautier
+
+[1446.0 - 1449.2] ha
+
+[1447.36 - 1451.4399999999998] love this
+
+[1449.2 - 1453.2] meets brooding so there's another
+
+[1451.44 - 1455.039] problem um meats breeding artist cloud
+
+[1453.2 - 1456.799] monet oh wow look at that look at that
+
+[1455.039 - 1458.08] this is great okay
+
+[1456.799 - 1460.1589999999999] sorry i'm just really happy really
+
+[1458.08 - 1461.9189999999999] excited about this the goal the reason
+
+[1460.159 - 1464.7990000000002] why they're numbered is because we got
+
+[1461.919 - 1466.159] to get up to 200 total
+
+[1464.799 - 1468.0] um
+
+[1466.159 - 1469.679] so 200 total
+
+[1468.0 - 1472.96] that's going to be enough
+
+[1469.679 - 1474.72] for us to uh for us to um what am i
+
+[1472.96 - 1476.799] trying to say sorry i'm thinking really
+
+[1474.72 - 1479.279] fast and my mouth can't keep up
+
+[1476.799 - 1481.52] we need to get a minimum of 200 samples
+
+[1479.279 - 1483.84] in order to
+
+[1481.52 - 1485.44] fine tune a model that is open ai's
+
+[1483.84 - 1488.799] recommended um
+
+[1485.44 - 1488.799] kind of baseline minimum
+
+[1490.32 - 1492.8799999999999] okay
+
+[1493.12 - 1497.6] pardon me i have to check uh i have to
+
+[1495.279 - 1500.159] check something
+
+[1497.6 - 1501.6789999999999] okay sorry about that pause um but i
+
+[1500.159 - 1503.3600000000001] think that's fine for you guys as
+
+[1501.679 - 1504.96] watching the video just skipped ahead
+
+[1503.36 - 1506.9599999999998] okay so now we've got
+
+[1504.96 - 1507.919] um 30
+
+[1506.96 - 1510.48] uh
+
+[1507.919 - 1513.8400000000001] well zero one one through 29
+
+[1510.48 - 1515.3600000000001] um premises um just scrolling up here
+
+[1513.84 - 1517.4399999999998] francois is a young woman who lives in
+
+[1515.36 - 1519.36] paris with her husband um oh that looks
+
+[1517.44 - 1521.2] like that repeated that's okay it's okay
+
+[1519.36 - 1523.76] if we get some repetition so what have
+
+[1521.2 - 1525.8400000000001] we learned so far we've learned to turn
+
+[1523.76 - 1527.52] the temperature up a little bit let's go
+
+[1525.84 - 1530.0] up a little bit higher next time just to
+
+[1527.52 - 1531.679] see um it can start to go off the rails
+
+[1530.0 - 1533.44] so that's why i have the the console
+
+[1531.679 - 1536.24] output just so i can see what what's
+
+[1533.44 - 1538.4] doing um as i'm generating this data but
+
+[1536.24 - 1539.919] already i've got about you know what is
+
+[1538.4 - 1542.159] this 30 items
+
+[1539.919 - 1544.3200000000002] um how much data is this this is 24
+
+[1542.159 - 1545.919] kilobytes of data um that i didn't have
+
+[1544.32 - 1547.36] to write all i did was tell the machine
+
+[1545.919 - 1549.8400000000001] what i wanted it to do
+
+[1547.36 - 1552.559] all right so first let's update
+
+[1549.84 - 1553.76] our starting point so we'll go from 30
+
+[1552.559 - 1558.8799999999999] to
+
+[1553.76 - 1561.36] 45 we'll just do 15. and let's do a
+
+[1558.88 - 1563.3600000000001] bollywood romance story
+
+[1561.36 - 1565.9189999999999] um and this is going to take a while but
+
+[1563.36 - 1567.52] i will explain stuff to you um as we go
+
+[1565.919 - 1569.039] and if it gets too boring i'll pause the
+
+[1567.52 - 1571.12] video so it'll just skip ahead so don't
+
+[1569.039 - 1572.96] worry
+
+[1571.12 - 1574.2399999999998] if i if i pause the video and it skips
+
+[1572.96 - 1575.76] ahead it's just because i'm letting some
+
+[1574.24 - 1579.36] of this process finish
+
+[1575.76 - 1581.679] okay so let's do the generate premises
+
+[1579.36 - 1584.3999999999999] but we change the prompt to bollywood
+
+[1581.679 - 1586.24] romance and we've got the prompt premise
+
+[1584.4 - 1588.24] and now the output is still premise
+
+[1586.24 - 1590.0] romance and we're doing from number 30
+
+[1588.24 - 1592.159] to 45.
+
+[1590.0 - 1595.96] okay let's go let's see what happens
+
+[1592.159 - 1595.96] let's see how these go
+
+[1606.48 - 1610.4] ria and raj have been married for five
+
+[1608.159 - 1612.7990000000002] years they have a two-year-old daughter
+
+[1610.4 - 1614.3200000000002] look at this they moved to mumbai oh man
+
+[1612.799 - 1615.2] this is wonderful
+
+[1614.32 - 1616.96] um
+
+[1615.2 - 1618.72] it's so creative and look how fast it's
+
+[1616.96 - 1620.799] spitting this stuff out i could never i
+
+[1618.72 - 1623.919] could never write this fast no human
+
+[1620.799 - 1624.96] could no 10 people could
+
+[1623.919 - 1627.3600000000001] so i'm just
+
+[1624.96 - 1629.2] churning out um looks like it is a
+
+[1627.36 - 1631.84] little repetitive raj and simran of
+
+[1629.2 - 1632.72] course it could be that raj is a common
+
+[1631.84 - 1634.1589999999999] name
+
+[1632.72 - 1636.48] um i
+
+[1634.159 - 1637.8400000000001] i i work with a lot of indian folks and
+
+[1636.48 - 1639.52] i know that there are some common names
+
+[1637.84 - 1642.0] like my name is dave that's freaking
+
+[1639.52 - 1644.48] common right so like i know that like
+
+[1642.0 - 1646.64] karthik and satish are ultra common
+
+[1644.48 - 1647.52] names in uh in india
+
+[1646.64 - 1649.8400000000001] um
+
+[1647.52 - 1651.36] raul there's another common one
+
+[1649.84 - 1653.279] so yeah
+
+[1651.36 - 1655.76] it looks like having the temperature a
+
+[1653.279 - 1657.679] little bit higher is good
+
+[1655.76 - 1658.72] i'm not seeing repetitive patterns in
+
+[1657.679 - 1660.88] here
+
+[1658.72 - 1662.32] even the names are often
+
+[1660.88 - 1664.0800000000002] unique
+
+[1662.32 - 1666.6399999999999] that's good okay so while this is
+
+[1664.08 - 1668.96] running let's see what are we up to 36
+
+[1666.64 - 1671.2] so we've got about 10 more
+
+[1668.96 - 1672.3990000000001] let's grab one of these
+
+[1671.2 - 1674.24] oops
+
+[1672.399 - 1675.6] if i know where i'm going okay so let's
+
+[1674.24 - 1680.96] grab this
+
+[1675.6 - 1685.12] and and start start figuring out um
+
+[1680.96 - 1688.559] let's see um construct that's a good one
+
+[1685.12 - 1691.6789999999999] construct a three act structure
+
+[1688.559 - 1691.6789999999999] for the following
+
+[1691.919 - 1695.5200000000002] yeah sure
+
+[1693.2 - 1697.8400000000001] grammarly is like the most nagging
+
+[1695.52 - 1699.279] grammar teacher ever but it helps me be
+
+[1697.84 - 1700.1589999999999] a better writer
+
+[1699.279 - 1702.559] also
+
+[1700.159 - 1703.8400000000001] speaking of between gpt3 and grammarly
+
+[1702.559 - 1705.52] you combine those two you're an
+
+[1703.84 - 1707.279] unstoppable writer you can produce
+
+[1705.52 - 1708.96] content so fast
+
+[1707.279 - 1712.88] construct a three-act structure for the
+
+[1708.96 - 1715.44] following um story premise
+
+[1712.88 - 1717.8400000000001] um each
+
+[1715.44 - 1719.279] each act should have
+
+[1717.84 - 1721.6789999999999] a brief
+
+[1719.279 - 1724.48] description
+
+[1721.679 - 1726.48] one to two sentences
+
+[1724.48 - 1727.76] okay
+
+[1726.48 - 1729.52] premise
+
+[1727.76 - 1734.72] so we'll do a premise there
+
+[1729.52 - 1736.48] and now we'll do um three act structure
+
+[1734.72 - 1740.32] act one
+
+[1736.48 - 1740.32] all right let's see what this does
+
+[1740.96 - 1744.32] it might just be
+
+[1750.64 - 1754.24] all right let's see how this compares
+
+[1760.72 - 1763.6000000000001] all right i guess i have to read it all
+
+[1762.0 - 1765.2] out okay it all begins with samir a
+
+[1763.6 - 1767.6789999999999] young man from a wealthy family meets
+
+[1765.2 - 1769.44] naina a simple girl from a small village
+
+[1767.679 - 1770.64] nina has come to the city to make a
+
+[1769.44 - 1772.48] better life for herself she is
+
+[1770.64 - 1774.3200000000002] immediately attracted to samir but is
+
+[1772.48 - 1776.24] too shy to say anything oh a shy girl
+
+[1774.32 - 1777.9189999999999] story um
+
+[1776.24 - 1780.08] one day out of the blue samir expresses
+
+[1777.919 - 1781.44] his feelings for naina and confesses his
+
+[1780.08 - 1783.36] love for her
+
+[1781.44 - 1785.3600000000001] nyena is overjoyed and eagerly accepts
+
+[1783.36 - 1786.7199999999998] his proposal they begin to date and
+
+[1785.36 - 1788.7199999999998] their families approve of the match
+
+[1786.72 - 1790.799] however just as things seem to be going
+
+[1788.72 - 1792.559] well samir smears father suddenly dies
+
+[1790.799 - 1794.48] interesting leaving him the sole heir to
+
+[1792.559 - 1796.6399999999999] the family business samir is forced to
+
+[1794.48 - 1799.44] take on a lot of responsibility and
+
+[1796.64 - 1801.1200000000001] doesn't have much time for naina oh oh
+
+[1799.44 - 1803.279] man this is a good story i want to watch
+
+[1801.12 - 1804.9599999999998] this movie
+
+[1803.279 - 1806.48] uh naena begins to feel neglected and
+
+[1804.96 - 1808.799] wonders if samir is really the man she
+
+[1806.48 - 1810.24] thought he was um
+
+[1808.799 - 1811.6] samir is soon caught in a world of money
+
+[1810.24 - 1812.88] and power and nina feels like she is
+
+[1811.6 - 1815.039] losing him one day she decides to go
+
+[1812.88 - 1816.88] back to her village leaving samir behind
+
+[1815.039 - 1818.64] samir realizes how much he loves nina
+
+[1816.88 - 1819.919] and how much he has been neglecting her
+
+[1818.64 - 1822.3200000000002] he decides to go to her village and
+
+[1819.919 - 1823.76] confess his love nina is hesitant but
+
+[1822.32 - 1825.6] eventually agrees to give him another
+
+[1823.76 - 1826.8799999999999] chance they share a passionate embrace
+
+[1825.6 - 1829.52] in their families rejoice at the news of
+
+[1826.88 - 1831.3600000000001] their reunion oh man i can imagine so
+
+[1829.52 - 1833.76] much song and dance in this bollywood
+
+[1831.36 - 1836.1589999999999] picture okay so let's see how that
+
+[1833.76 - 1837.36] has translated to a three-act structure
+
+[1836.159 - 1839.279] act one
+
+[1837.36 - 1840.4799999999998] um she's immediately attracted okay out
+
+[1839.279 - 1843.84] of the blue
+
+[1840.48 - 1848.32] it almost looks like it's just
+
+[1843.84 - 1848.32] okay it's just splitting it up um
+
+[1848.559 - 1853.12] this is not this is okay um
+
+[1852.159 - 1854.96] break
+
+[1853.12 - 1856.559] the following
+
+[1854.96 - 1860.32] um
+
+[1856.559 - 1863.6789999999999] uh following premise down into
+
+[1860.32 - 1867.6] a list of major plot points
+
+[1863.679 - 1871.0800000000002] use the save the cat model
+
+[1867.6 - 1871.08] for screenplays
+
+[1871.76 - 1875.679] okay so then let's try this again
+
+[1876.96 - 1879.8400000000001] save the cat
+
+[1878.399 - 1882.1589999999999] plot point one okay let's see what
+
+[1879.84 - 1882.1589999999999] happens
+
+[1884.52 - 1887.569] [Music]
+
+[1890.799 - 1895.76] i don't like it it's not working
+
+[1893.279 - 1899.039] hmm okay so this is where we have to get
+
+[1895.76 - 1899.039] more and more creative
+
+[1899.2 - 1903.76] because it's just regurgitating it and
+
+[1901.039 - 1906.96] that's not exactly what i want
+
+[1903.76 - 1908.1589999999999] and i want to avoid doing a doing a few
+
+[1906.96 - 1910.72] shot
+
+[1908.159 - 1910.72] example
+
+[1913.36 - 1917.1999999999998] here let's break this down even simpler
+
+[1919.679 - 1922.799] write a scene
+
+[1924.0 - 1929.039] write the opening scene for the
+
+[1926.64 - 1932.3990000000001] following
+
+[1929.039 - 1935.12] no we we really do need an outline
+
+[1932.399 - 1936.799] um let's see what was it translate or
+
+[1935.12 - 1938.2399999999998] rewrite
+
+[1936.799 - 1940.1589999999999] rewrite this
+
+[1938.24 - 1942.24] the following
+
+[1940.159 - 1945.5590000000002] premise into
+
+[1942.24 - 1945.559] an outline
+
+[1948.399 - 1952.08] outline all right let's see if this
+
+[1950.24 - 1954.0] works so again i don't know what i'm
+
+[1952.08 - 1956.48] doing here i'm just experimenting rapid
+
+[1954.0 - 1956.48] iteration
+
+[1958.08 - 1961.4399999999998] okay again it's just
+
+[1959.76 - 1963.679] their families rejoice
+
+[1961.44 - 1966.0800000000002] i guess this is okay because then this
+
+[1963.679 - 1968.64] we can break each of these points down
+
+[1966.08 - 1969.84] into we can break them down further
+
+[1968.64 - 1972.3200000000002] um
+
+[1969.84 - 1973.519] and and we can expand the story for each
+
+[1972.32 - 1974.84] of these like
+
+[1973.519 - 1978.0] break this down
+
+[1974.84 - 1981.279] into uh yeah okay
+
+[1978.0 - 1983.679] i mean this these premises are so good
+
+[1981.279 - 1983.679] um
+
+[1984.399 - 1988.4799999999998] yeah okay okay i think i think we can
+
+[1986.96 - 1990.72] work with this i think we can work with
+
+[1988.48 - 1992.48] this also this is probably done
+
+[1990.72 - 1993.6000000000001] um let's go ahead and get this started
+
+[1992.48 - 1995.519] uh
+
+[1993.6 - 1997.519] raj and priya a painter falls in love
+
+[1995.519 - 2000.64] with a girl excellent excellent
+
+[1997.519 - 2003.1200000000001] excellent and that should have us up to
+
+[2000.64 - 2006.0800000000002] was that 45 total
+
+[2003.12 - 2008.799] so we need just a couple more romance
+
+[2006.08 - 2011.519] let's go ahead and set this to run
+
+[2008.799 - 2013.36] um all right imaginary audience in my
+
+[2011.519 - 2016.159] head what kind of romance should we do
+
+[2013.36 - 2018.7199999999998] oh paranormal romance done paranormal
+
+[2016.159 - 2022.64] romance story
+
+[2018.72 - 2025.3600000000001] uh and then we will go from 45
+
+[2022.64 - 2029.279] to 51 so that'll take us all the way up
+
+[2025.36 - 2029.279] to 50. 50 on the dot
+
+[2029.919 - 2035.2] cls
+
+[2031.12 - 2035.1999999999998] python generate some premises
+
+[2042.799 - 2049.119] luke is actually a werewolf that's fun
+
+[2046.96 - 2050.7200000000003] this is great i love this
+
+[2049.119 - 2052.639] um okay this will only take a minute
+
+[2050.72 - 2055.4399999999996] because we're almost done already
+
+[2052.639 - 2055.44] 47.
+
+[2057.76 - 2062.079] jenna is looking jenna looks forward to
+
+[2059.44 - 2062.54] the weekend a lot in gpthree's brain
+
+[2062.079 - 2064.0] um
+
+[2062.54 - 2066.639] [Laughter]
+
+[2064.0 - 2066.639] this is funny
+
+[2069.119 - 2072.639] when you wake up from your car accident
+
+[2070.72 - 2075.04] you find oh this is a first person story
+
+[2072.639 - 2077.839] excellent excellent excellent
+
+[2075.04 - 2078.72] um honestly these premises are so good
+
+[2077.839 - 2080.0] like
+
+[2078.72 - 2081.839] i don't know if i need to break them
+
+[2080.0 - 2083.839] down in any further
+
+[2081.839 - 2084.7999999999997] um
+
+[2083.839 - 2086.399] but
+
+[2084.8 - 2087.599] let's see let me go back to this guy's
+
+[2086.399 - 2089.2] comment
+
+[2087.599 - 2093.599] because maybe maybe this is more of an
+
+[2089.2 - 2094.72] extraction thing um he said
+
+[2093.599 - 2097.28] you know
+
+[2094.72 - 2100.16] setup inciting incident midpoint false
+
+[2097.28 - 2102.32] high all hope is lost and climax
+
+[2100.16 - 2104.0] okay actually you know what dude john
+
+[2102.32 - 2106.32] david parsons i'm just going to copy
+
+[2104.0 - 2107.839] this because this is such a powerful
+
+[2106.32 - 2109.119] way to start
+
+[2107.839 - 2110.72] um let me just
+
+[2109.119 - 2112.2400000000002] paste this in here
+
+[2110.72 - 2114.72] um
+
+[2112.24 - 2116.8799999999997] identify the following
+
+[2114.72 - 2118.7999999999997] elements
+
+[2116.88 - 2120.079] all right just copy that for now let's
+
+[2118.8 - 2122.6400000000003] go back over here
+
+[2120.079 - 2124.8] roman oh wait nope
+
+[2122.64 - 2126.72] brainstorm a detailed plot synopsis for
+
+[2124.8 - 2130.2000000000003] random all right so now we're going to
+
+[2126.72 - 2130.2] switch to
+
+[2132.16 - 2136.64] uh let's see 75
+
+[2134.72 - 2138.9599999999996] actually no we'll say 76.
+
+[2136.64 - 2140.56] um now we're going to switch to
+
+[2138.96 - 2143.88] what did i say sci-fi
+
+[2140.56 - 2143.88] all right sci-fi
+
+[2144.079 - 2148.2400000000002] and we'll say
+
+[2145.76 - 2148.2400000000002] um
+
+[2148.64 - 2152.16] science fiction story
+
+[2152.96 - 2156.839] and then we'll switch that over from
+
+[2154.48 - 2159.28] like science fiction to
+
+[2156.839 - 2161.119] like um
+
+[2159.28 - 2162.7200000000003] actually no let's say
+
+[2161.119 - 2165.52] random hard science fiction and then
+
+[2162.72 - 2167.4399999999996] we'll do like um epic or space opera
+
+[2165.52 - 2170.48] yeah we'll do space opera next okay so
+
+[2167.44 - 2170.48] let's get this running
+
+[2171.52 - 2174.56] uh n a
+
+[2174.8 - 2180.5600000000004] that's interesting
+
+[2177.119 - 2182.7200000000003] did it really just like spit out n a
+
+[2180.56 - 2185.119] it did okay
+
+[2182.72 - 2186.72] gbt3 said no i'm not going to give you a
+
+[2185.119 - 2190.32] premise okay whatever
+
+[2186.72 - 2190.3199999999997] um we'll just delete that one
+
+[2192.48 - 2196.079] and see what it's doing in the future
+
+[2194.64 - 2198.0] the human race has all but wiped out a
+
+[2196.079 - 2199.3590000000004] race of advanced aliens wow we're we're
+
+[2198.0 - 2201.68] jackasses
+
+[2199.359 - 2203.839] um okay
+
+[2201.68 - 2206.48] so we're getting some stories okay
+
+[2203.839 - 2210.119] identify the following elements
+
+[2206.48 - 2210.119] for the premise
+
+[2218.8 - 2222.079] one setup
+
+[2223.28 - 2226.2400000000002] why does it keep jumping all the way
+
+[2224.72 - 2229.839] down
+
+[2226.24 - 2229.839] two inciting incident
+
+[2232.48 - 2236.72] three
+
+[2234.079 - 2236.7200000000003] midpoint
+
+[2239.119 - 2243.6400000000003] four
+
+[2240.24 - 2243.64] false high
+
+[2246.32 - 2250.7200000000003] five
+
+[2247.76 - 2250.7200000000003] all hope is lost
+
+[2251.28 - 2254.8] six
+
+[2252.24 - 2257.68] climax and i will actually probably go
+
+[2254.8 - 2258.96] copy kmylen's storybeat because kmyland
+
+[2257.68 - 2260.72] is pretty good
+
+[2258.96 - 2262.64] okay so one
+
+[2260.72 - 2264.64] um
+
+[2262.64 - 2266.24] setup
+
+[2264.64 - 2267.44] all right let's see if it can identify
+
+[2266.24 - 2270.3199999999997] let's turn the temperature down because
+
+[2267.44 - 2271.599] we don't want it to be as creative now
+
+[2270.32 - 2272.8] we do want it we do want it to be
+
+[2271.599 - 2275.6800000000003] somewhat creative but we don't want it
+
+[2272.8 - 2275.6800000000003] to go off the rails
+
+[2278.96 - 2283.88] okay
+
+[2280.16 - 2283.8799999999997] this looks like it's working
+
+[2285.52 - 2289.52] leaving samir behind i don't know that
+
+[2287.68 - 2291.2] that actually worked
+
+[2289.52 - 2292.56] let's see let's see what happens if we
+
+[2291.2 - 2294.24] turn the temperature down even more and
+
+[2292.56 - 2297.24] i'll try turning it back up in just a
+
+[2294.24 - 2297.24] second
+
+[2302.88 - 2305.2000000000003] okay
+
+[2305.68 - 2309.5989999999997] so again this is just kind of like
+
+[2307.599 - 2311.6800000000003] regurgitating the same
+
+[2309.599 - 2314.1600000000003] um
+
+[2311.68 - 2315.68] there's not really any value add
+
+[2314.16 - 2317.44] that's that's why i'm not so happy with
+
+[2315.68 - 2319.68] this is because these premises are so
+
+[2317.44 - 2321.599] great so it's like okay well what what
+
+[2319.68 - 2322.72] do we do from here
+
+[2321.599 - 2324.7200000000003] um
+
+[2322.72 - 2326.56] i guess i guess i will i will go back
+
+[2324.72 - 2329.5989999999997] and say like okay it can it can be
+
+[2326.56 - 2331.2] helpful if we have a um
+
+[2329.599 - 2332.48] have a good like
+
+[2331.2 - 2335.9199999999996] breakdown
+
+[2332.48 - 2339.4] um but let's see cam while in
+
+[2335.92 - 2339.4] plot beats
+
+[2340.48 - 2344.96] uh what are her
+
+[2342.48 - 2344.96] here we go
+
+[2346.16 - 2349.44] the first act the hook
+
+[2350.24 - 2354.0789999999997] first plot point inciting incident
+
+[2352.16 - 2357.2799999999997] evident key event first half of the
+
+[2354.079 - 2357.28] second act midpoint
+
+[2357.599 - 2361.44] this is not the list that i was thinking
+
+[2360.0 - 2364.64] of because it doesn't include the pinch
+
+[2361.44 - 2366.4] points oh well this is good enough um
+
+[2364.64 - 2368.0] setup and citing incident midpoint falls
+
+[2366.4 - 2369.76] high all hope is lost dark knight is
+
+[2368.0 - 2371.359] soul whatever climax that's fine we'll
+
+[2369.76 - 2373.44] go with this
+
+[2371.359 - 2376.64] all right so temperature of 0.5 let's
+
+[2373.44 - 2376.64] see if it's consistent
+
+[2380.32 - 2383.44] okay so this does break it down into a
+
+[2382.24 - 2384.4799999999996] few points
+
+[2383.44 - 2386.64] um
+
+[2384.48 - 2389.599] we'll go with that for now
+
+[2386.64 - 2392.3199999999997] uh i really think that we should expand
+
+[2389.599 - 2392.32] on this though
+
+[2393.839 - 2396.96] actually here let's let's be more
+
+[2395.68 - 2399.44] creative
+
+[2396.96 - 2401.04] uh okay write
+
+[2399.44 - 2403.119] a detailed
+
+[2401.04 - 2404.8] opening scene
+
+[2403.119 - 2406.4] for a film
+
+[2404.8 - 2408.8] with the following
+
+[2406.4 - 2408.8] premise
+
+[2408.839 - 2417.92] um use let's see what is the standard
+
+[2413.52 - 2417.92] screenplay format called
+
+[2422.4 - 2425.4] okay
+
+[2425.92 - 2428.88] um use
+
+[2427.76 - 2431.92] standard
+
+[2428.88 - 2433.28] script formats
+
+[2431.92 - 2437.16] for
+
+[2433.28 - 2437.1600000000003] hollywood films
+
+[2439.68 - 2442.3999999999996] screenplay
+
+[2445.2 - 2448.7999999999997] let's see what it does with this fade in
+
+[2449.76 - 2453.0] oh wow
+
+[2458.56 - 2461.68] this is it this is fascinating
+
+[2460.0 - 2463.76] screenplay fades in
+
+[2461.68 - 2465.04] exterior of naina's village day we see a
+
+[2463.76 - 2466.6400000000003] small village in the middle of nowhere
+
+[2465.04 - 2468.88] there are simple houses and dirt roads
+
+[2466.64 - 2470.24] we see a young woman naina walking down
+
+[2468.88 - 2472.56] the road she's carrying a small bag and
+
+[2470.24 - 2473.68] looks determined nina to herself this is
+
+[2472.56 - 2475.44] it i'm going to the city and i'm going
+
+[2473.68 - 2477.1189999999997] to make something of myself wow this is
+
+[2475.44 - 2478.88] phenomenal
+
+[2477.119 - 2480.319] oh man okay nina jumps out of the way
+
+[2478.88 - 2481.76] and falls to the ground in anger what
+
+[2480.319 - 2483.7599999999998] the hell the car stops and young man
+
+[2481.76 - 2485.599] sameer gets out he looks apologetic i'm
+
+[2483.76 - 2487.2000000000003] so sorry are you okay i'm fine just
+
+[2485.599 - 2490.079] watch where you're going next time samir
+
+[2487.2 - 2491.9199999999996] nods okay i'm i will i'm really sorry
+
+[2490.079 - 2494.079] waves him off it's fine just be more
+
+[2491.92 - 2495.599] careful
+
+[2494.079 - 2497.8390000000004] um
+
+[2495.599 - 2500.7200000000003] i think it ended because
+
+[2497.839 - 2502.64] ran out of tokens
+
+[2500.72 - 2505.839] uh okay i really like this
+
+[2502.64 - 2507.359] so instead of instead of instead of
+
+[2505.839 - 2508.7999999999997] because the premise is complete we don't
+
+[2507.359 - 2511.359] need we don't need to break that down
+
+[2508.8 - 2514.6400000000003] it's got this is a full story
+
+[2511.359 - 2515.839] um so let's copy this
+
+[2514.64 - 2518.16] and say
+
+[2515.839 - 2520.0] we'll save this as prompt
+
+[2518.16 - 2522.48] screenplay or we'll just call it a
+
+[2520.0 - 2524.079] script
+
+[2522.48 - 2525.52] um okay
+
+[2524.079 - 2528.48] and then if i'm not mistaken this is
+
+[2525.52 - 2530.96] probably done yay
+
+[2528.48 - 2532.88] the year is 20 27 55 the human race has
+
+[2530.96 - 2534.7200000000003] been decimated by a pandemic it swept
+
+[2532.88 - 2538.4] across the globe
+
+[2534.72 - 2539.68] too relevant the year is 20xx
+
+[2538.4 - 2540.56] okay
+
+[2539.68 - 2542.96] um
+
+[2540.56 - 2545.2799999999997] all right cool so we should have up to
+
+[2542.96 - 2546.96] number 75 we got a whole bunch of sci-fi
+
+[2545.28 - 2550.3190000000004] premises
+
+[2546.96 - 2551.92] so let's go back here we'll start at
+
+[2550.319 - 2553.16] 76
+
+[2551.92 - 2555.119] and go to
+
+[2553.16 - 2557.68] 101
+
+[2555.119 - 2560.56] and we're going to change the
+
+[2557.68 - 2561.7599999999998] prompt script what did i say
+
+[2560.56 - 2565.839] or the premise
+
+[2561.76 - 2565.8390000000004] this is going to be a um
+
+[2566.0 - 2570.88] space opera science fiction story
+
+[2568.88 - 2573.04] okay so let's kick this off again while
+
+[2570.88 - 2575.119] it's running in the background
+
+[2573.04 - 2578.2] and that'll be that'll be half of our of
+
+[2575.119 - 2578.2000000000003] our premises
+
+[2583.359 - 2587.68] big jeff is an unlikely hero
+
+[2585.68 - 2589.839] a portly space trader oh man these are
+
+[2587.68 - 2593.1189999999997] great in a galaxy far far away young
+
+[2589.839 - 2595.52] farmer really really it's just copying
+
+[2593.119 - 2597.52] star wars that's fine
+
+[2595.52 - 2598.56] um okay
+
+[2597.52 - 2600.88] so
+
+[2598.56 - 2603.599] we can't expect gbt3 to always be super
+
+[2600.88 - 2605.599] unique but um
+
+[2603.599 - 2607.28] that's fine we don't need it to be so
+
+[2605.599 - 2608.96] this starts to get a little bit more
+
+[2607.28 - 2610.3190000000004] complicated for these prompts so now
+
+[2608.96 - 2612.2400000000002] that we've got material that we want to
+
+[2610.319 - 2613.599] feed in we're going to need to add a few
+
+[2612.24 - 2616.16] more functions
+
+[2613.599 - 2617.6800000000003] and so what i'll do is i'll copy this
+
+[2616.16 - 2620.0] because this script is just for
+
+[2617.68 - 2621.2] generating premises so we'll do is we'll
+
+[2620.0 - 2623.52] save this
+
+[2621.2 - 2628.0] and now we'll say um
+
+[2623.52 - 2630.24] we'll call this generate scripts dot pi
+
+[2628.0 - 2631.44] because we will need to take
+
+[2630.24 - 2634.0789999999997] um
+
+[2631.44 - 2635.839] actually maybe we won't
+
+[2634.079 - 2637.92] uh yeah we will need to take all this
+
+[2635.839 - 2639.599] out because that does too much
+
+[2637.92 - 2641.119] to the um to the thing we need to keep
+
+[2639.599 - 2642.2400000000002] the format
+
+[2641.119 - 2643.839] um
+
+[2642.24 - 2647.1189999999997] we'll need to turn the temperature back
+
+[2643.839 - 2650.4] down i think we're at 0.5 on here yep
+
+[2647.119 - 2651.76] 0.5 we'll keep 500 tokens actually let's
+
+[2650.4 - 2653.76] do a little bit
+
+[2651.76 - 2655.44] more because the screenplay we want we
+
+[2653.76 - 2659.2000000000003] want to expand this
+
+[2655.44 - 2660.88] right um screenplay fade in
+
+[2659.2 - 2663.7599999999998] it doesn't even have a name okay that's
+
+[2660.88 - 2665.76] fine uh but yeah so we need this
+
+[2663.76 - 2667.8390000000004] actually here let's copy this whole
+
+[2665.76 - 2669.76] thing
+
+[2667.839 - 2671.44] and the prompt for the script so then
+
+[2669.76 - 2676.8390000000004] what we do
+
+[2671.44 - 2676.839] is we add a token for the premise
+
+[2680.64 - 2684.7999999999997] okay and we go here
+
+[2685.44 - 2690.4] so um i just want to point out the
+
+[2687.28 - 2692.1600000000003] original idea was to create a um
+
+[2690.4 - 2694.88] was to create a
+
+[2692.16 - 2696.72] outline generator but i realized that
+
+[2694.88 - 2698.8] the the premise generator was more
+
+[2696.72 - 2701.359] powerful than an outline generator
+
+[2698.8 - 2703.04] um and so basically i'm moving the goal
+
+[2701.359 - 2705.04] posts on myself and saying actually
+
+[2703.04 - 2706.96] let's go a little bit further let's do
+
+[2705.04 - 2708.319] something unique um and so we'll do
+
+[2706.96 - 2710.079] scripts
+
+[2708.319 - 2712.16] and so this is going to be the the
+
+[2710.079 - 2714.88] script that um
+
+[2712.16 - 2716.3999999999996] that matches matches what we're doing um
+
+[2714.88 - 2718.2400000000002] we'll leave
+
+[2716.4 - 2720.64] let's change the script write write a
+
+[2718.24 - 2723.4399999999996] detailed opening scene
+
+[2720.64 - 2725.359] um d write
+
+[2723.44 - 2727.599] detailed opening
+
+[2725.359 - 2730.16] scenes plural for a film with the
+
+[2727.599 - 2732.7200000000003] following premise use standard script
+
+[2730.16 - 2735.04] formats for hollywood films so we'll put
+
+[2732.72 - 2738.24] in the premise and then the screenplay
+
+[2735.04 - 2739.52] okay so and then i will also turn um you
+
+[2738.24 - 2741.2] probably saw
+
+[2739.52 - 2743.359] uh generate
+
+[2741.2 - 2744.7999999999997] oh sorry generate scripts turn it up to
+
+[2743.359 - 2746.4] a thousand tokens
+
+[2744.8 - 2748.5600000000004] um
+
+[2746.4 - 2750.079] davinci instruct can go up to four
+
+[2748.56 - 2753.2] thousand
+
+[2750.079 - 2754.88] um so this one so you see like that can
+
+[2753.2 - 2756.48] go up to four thousand that's gonna get
+
+[2754.88 - 2758.2400000000002] pricey and it's also gonna take a while
+
+[2756.48 - 2760.8] so i'm not gonna go that i'm not gonna
+
+[2758.24 - 2762.64] go that far
+
+[2760.8 - 2764.5600000000004] okay this is done kira is a young woman
+
+[2762.64 - 2767.359] born on a small space station
+
+[2764.56 - 2771.2] okay cool so now we should have
+
+[2767.359 - 2773.68] we've got exactly 100 premises
+
+[2771.2 - 2776.48] we've got romance sci-fi what did i say
+
+[2773.68 - 2778.7999999999997] oh fantasy okay so let's go back in here
+
+[2776.48 - 2781.04] and switch to fantasy
+
+[2778.8 - 2783.119] um how long has this video been okay
+
+[2781.04 - 2785.359] we're at 46 minutes
+
+[2783.119 - 2789.4] um and we're we're a good chunk of the
+
+[2785.359 - 2789.4] way done um
+
+[2790.48 - 2793.119] where was i
+
+[2793.2 - 2797.68] oh yeah we are going to
+
+[2795.44 - 2799.52] generate some more premises
+
+[2797.68 - 2800.8799999999997] prompt premise so we're going to switch
+
+[2799.52 - 2803.839] to
+
+[2800.88 - 2805.52] fantasy and we're going to go from
+
+[2803.839 - 2808.64] 101
+
+[2805.52 - 2809.7599999999998] to 126
+
+[2808.64 - 2811.52] and the
+
+[2809.76 - 2814.96] prompt for the premise
+
+[2811.52 - 2814.96] is going to be a random
+
+[2815.04 - 2818.4] high fantasy
+
+[2817.04 - 2821.52] story
+
+[2818.4 - 2822.48] um this one will be specifically
+
+[2821.52 - 2823.92] like
+
+[2822.48 - 2825.92] well it says high fantasy so that
+
+[2823.92 - 2827.52] implies magic and dragons
+
+[2825.92 - 2829.359] um and then we'll do another kind of
+
+[2827.52 - 2833.92] fantasy after this
+
+[2829.359 - 2833.92] all right so let's let that rip and roll
+
+[2834.4 - 2839.119] make sure that it's it runs
+
+[2836.8 - 2841.04] uh the kingdom of alabaster really is in
+
+[2839.119 - 2842.48] peril the king has been assassinated and
+
+[2841.04 - 2844.96] the queen has been kidnapped this is
+
+[2842.48 - 2847.04] this sounds fun far in the land of doran
+
+[2844.96 - 2848.48] there lived a great kingdom people were
+
+[2847.04 - 2850.5589999999997] thriving and happy under the leadership
+
+[2848.48 - 2853.44] of king gelador that's cool
+
+[2850.559 - 2855.3590000000004] um okay the triumphant dorm is restored
+
+[2853.44 - 2857.04] wren a young woman of humble beginnings
+
+[2855.359 - 2858.88] okay this is great
+
+[2857.04 - 2860.64] um a young woman discovers she's
+
+[2858.88 - 2864.7200000000003] recarnated princess of a lost kingdom
+
+[2860.64 - 2865.68] that's cool she must ventures into
+
+[2864.72 - 2866.8799999999997] uh
+
+[2865.68 - 2868.319] yeah okay
+
+[2866.88 - 2871.44] so that's running
+
+[2868.319 - 2873.839] in the meantime generate scripts
+
+[2871.44 - 2875.76] okay so we removed that
+
+[2873.839 - 2878.24] um
+
+[2875.76 - 2881.28] so what we have to do here is instead
+
+[2878.24 - 2883.7599999999998] i'll leave that in place for now
+
+[2881.28 - 2887.4] so we'll do
+
+[2883.76 - 2887.4] import os
+
+[2888.4 - 2893.6800000000003] premises
+
+[2890.0 - 2893.68] equals os lister
+
+[2894.96 - 2899.44] premises
+
+[2897.359 - 2903.68] and so then what we'll do is we'll do
+
+[2899.44 - 2905.599] four premise in premises
+
+[2903.68 - 2907.1189999999997] and also you can do you can do a
+
+[2905.599 - 2909.04] one-liner here
+
+[2907.119 - 2912.4] um actually so let's let's do it that
+
+[2909.04 - 2914.72] way because that's more pythonic
+
+[2912.4 - 2917.599] for premise and premises
+
+[2914.72 - 2919.839] uh we will do
+
+[2917.599 - 2920.96] um
+
+[2919.839 - 2923.839] uh
+
+[2920.96 - 2926.7200000000003] let's see we'll say text equals
+
+[2923.839 - 2930.0] i know with open because we'll use the
+
+[2926.72 - 2932.72] same um
+
+[2930.0 - 2934.559] yeah here we go
+
+[2932.72 - 2937.359] we'll just copy paste this
+
+[2934.559 - 2938.96] but instead we will say
+
+[2937.359 - 2942.24] read
+
+[2938.96 - 2945.04] and we will do
+
+[2942.24 - 2945.04] for file name
+
+[2945.28 - 2949.2000000000003] as
+
+[2946.24 - 2950.4799999999996] in file
+
+[2949.2 - 2953.2] premise
+
+[2950.48 - 2956.16] equals infile dot read okay so now we
+
+[2953.2 - 2957.839] will have loaded each premise
+
+[2956.16 - 2960.48] and then we're going to do
+
+[2957.839 - 2962.0789999999997] the same thing that we did here
+
+[2960.48 - 2963.599] which is
+
+[2962.079 - 2965.28] the uh
+
+[2963.599 - 2968.1600000000003] script
+
+[2965.28 - 2971.1600000000003] equals gpt3 completion
+
+[2968.16 - 2971.16] premise
+
+[2972.0 - 2975.68] um
+
+[2974.319 - 2978.4] oh wait no
+
+[2975.68 - 2980.48] the premi we have more to do um the
+
+[2978.4 - 2982.48] prompt sorry
+
+[2980.48 - 2984.96] with open
+
+[2982.48 - 2987.44] uh let's see what was the prompt name
+
+[2984.96 - 2987.44] there we go
+
+[2988.319 - 2992.16] so this is going to be our prompt
+
+[2990.64 - 2993.44] script
+
+[2992.16 - 2994.8799999999997] and let me check on this see if it's
+
+[2993.44 - 2996.839] done it is done
+
+[2994.88 - 2999.04] okay so let's go
+
+[2996.839 - 3001.839] update and i know i'm jumping around a
+
+[2999.04 - 3003.52] lot but i multitask
+
+[3001.839 - 3005.68] so basically what i'm doing is i notice
+
+[3003.52 - 3007.599] that this is done so i'm going to go
+
+[3005.68 - 3010.48] and update the prompt so this is a
+
+[3007.599 - 3013.52] random high fantasy what other kind of
+
+[3010.48 - 3015.68] fantasies let's do uh grimdark fantasy
+
+[3013.52 - 3021.2] it that's all the rage right now
+
+[3015.68 - 3022.8799999999997] so let's change this from 126 to 151
+
+[3021.2 - 3026.2799999999997] and we'll start that going again
+
+[3022.88 - 3026.28] generate premises
+
+[3029.359 - 3034.5589999999997] and so that just so you can see we've
+
+[3031.44 - 3036.319] got 125 premises here
+
+[3034.559 - 3038.0] um let's see when the last king of the
+
+[3036.319 - 3039.92] realm was slain in battle all hope
+
+[3038.0 - 3042.24] seemed lost but prince aidan heir to the
+
+[3039.92 - 3044.559] throne was not ready to give up
+
+[3042.24 - 3046.319] um okay
+
+[3044.559 - 3047.76] cool life was never meant to be easy
+
+[3046.319 - 3049.52] grown from the dirt and grime of the
+
+[3047.76 - 3053.0400000000004] world the people toiled day in and day
+
+[3049.52 - 3053.04] out yeah this is miserable okay
+
+[3053.599 - 3058.7200000000003] all right where was i generate scripts
+
+[3055.52 - 3062.079] yes generate scripts um so prompt script
+
+[3058.72 - 3064.24] as in file prompt equals infile dot read
+
+[3062.079 - 3067.52] um dot replace and we're going to
+
+[3064.24 - 3068.8799999999997] replace the premise
+
+[3067.52 - 3070.4] with
+
+[3068.88 - 3071.599] the premise
+
+[3070.4 - 3072.8] so that
+
+[3071.599 - 3074.559] grabs that
+
+[3072.8 - 3076.559] so basically we're saying the prompt is
+
+[3074.559 - 3079.0400000000004] going to read
+
+[3076.559 - 3080.8390000000004] this file and replace this part with the
+
+[3079.04 - 3083.359] actual
+
+[3080.839 - 3085.92] premise and so then we will say the
+
+[3083.359 - 3088.0] script equals gpd3 completion of the
+
+[3085.92 - 3090.0] prompt and remember the prompt now has
+
+[3088.0 - 3091.04] the premise embedded
+
+[3090.0 - 3092.72] um
+
+[3091.04 - 3095.44] and so then
+
+[3092.72 - 3098.3999999999996] that is the call to gpt3
+
+[3095.44 - 3098.4] file name
+
+[3099.04 - 3103.52] um actually the file name will just be
+
+[3104.079 - 3110.8] file name equals
+
+[3107.119 - 3113.44] we'll say new file name equals filename
+
+[3110.8 - 3114.8] dot replace
+
+[3113.44 - 3116.48] premise
+
+[3114.8 - 3118.8] with script
+
+[3116.48 - 3120.319] so basically what this line will do
+
+[3118.8 - 3122.88] is it will grab
+
+[3120.319 - 3124.319] the premise and just say script and it
+
+[3122.88 - 3125.92] will have the same otherwise it'll have
+
+[3124.319 - 3128.8] the same number
+
+[3125.92 - 3130.559] um okay so that'll be the new file name
+
+[3128.8 - 3132.6400000000003] that's fine
+
+[3130.559 - 3134.88] and then we will we'll copy paste this
+
+[3132.64 - 3134.8799999999997] line
+
+[3137.2 - 3142.319] um with open and we'll say scripts so
+
+[3140.24 - 3144.8799999999997] this will change to a new file
+
+[3142.319 - 3148.96] out file right
+
+[3144.88 - 3151.76] so new file name and we'll say script
+
+[3148.96 - 3153.44] right there so that should be good
+
+[3151.76 - 3158.2400000000002] and we'll do
+
+[3153.44 - 3158.2400000000002] exit 0 just to test the first one
+
+[3160.64 - 3165.0] and so this should be ready
+
+[3166.4 - 3171.92] once uh as soon as as soon as we've got
+
+[3168.559 - 3173.6800000000003] enough training data so tell you what um
+
+[3171.92 - 3175.2000000000003] this is about as far as i can code right
+
+[3173.68 - 3177.44] now so i'm gonna pause the video and
+
+[3175.2 - 3179.1189999999997] skip ahead but basically all i'm gonna
+
+[3177.44 - 3181.28] do is make sure
+
+[3179.119 - 3183.28] that um
+
+[3181.28 - 3184.96] that this finishes creating the
+
+[3183.28 - 3187.8390000000004] underlying data and then i'll i'll
+
+[3184.96 - 3189.44] restart the video once we are once we're
+
+[3187.839 - 3191.2] ready to start generating the scripts
+
+[3189.44 - 3196.079] all right pause
+
+[3191.2 - 3198.48] okay as promised we have 200 premises um
+
+[3196.079 - 3199.599] a bunch of them i did a i did a gritty
+
+[3198.48 - 3202.88] noir
+
+[3199.599 - 3205.04] mystery anime uh was one of them but
+
+[3202.88 - 3207.28] we've got 200
+
+[3205.04 - 3210.5589999999997] all kinds of we got mystery fantasy
+
+[3207.28 - 3213.6800000000003] sci-fi and romance and they're all great
+
+[3210.559 - 3214.88] okay so next up let's do a quick
+
+[3213.68 - 3218.72] test
+
+[3214.88 - 3220.48] python generate scripts okay so as a
+
+[3218.72 - 3223.4399999999996] reminder we did
+
+[3220.48 - 3226.64] this premise of the um
+
+[3223.44 - 3227.92] uh or the script premise sorry
+
+[3226.64 - 3229.839] re reset
+
+[3227.92 - 3232.319] we have a script writer that uses the
+
+[3229.839 - 3234.64] premises we just made okay there we go
+
+[3232.319 - 3237.04] that's what i was trying to say so let's
+
+[3234.64 - 3238.96] do this let's just generate one to make
+
+[3237.04 - 3240.24] sure it works and then if that works i'm
+
+[3238.96 - 3241.44] going to pause the video again while it
+
+[3240.24 - 3244.16] runs because you don't want to sit here
+
+[3241.44 - 3246.16] and just watch 200 go alright so
+
+[3244.16 - 3249.1189999999997] generate scripts
+
+[3246.16 - 3251.68] let's see if this throws any errors
+
+[3249.119 - 3253.76] and if it doesn't let's check to make
+
+[3251.68 - 3256.24] sure that it outputs correctly oh i
+
+[3253.76 - 3258.7200000000003] didn't have it do any console output
+
+[3256.24 - 3261.2799999999997] um script one hey look at this shannon's
+
+[3258.72 - 3262.64] farm shannon early 20s shannon look at
+
+[3261.28 - 3265.8390000000004] this perfect
+
+[3262.64 - 3267.839] okay this is 1400 lines long or
+
+[3265.839 - 3269.359] characters long so that's
+
+[3267.839 - 3273.2799999999997] uh that's probably right about a
+
+[3269.359 - 3275.44] thousand tokens um yeah this is great
+
+[3273.28 - 3278.3190000000004] okay so i'm gonna pause the video again
+
+[3275.44 - 3280.079] while this runs and i'll see you in just
+
+[3278.319 - 3284.4] a second
+
+[3280.079 - 3286.559] okay and we're back um we've got
+
+[3284.4 - 3288.64] almost 200 scripts written
+
+[3286.559 - 3290.96] so you can just see like hey here's some
+
+[3288.64 - 3292.5589999999997] actual scripts being generated i'm not
+
+[3290.96 - 3294.2400000000002] going to read them all but i'm just
+
+[3292.559 - 3296.48] going to trust that like hey this works
+
+[3294.24 - 3297.68] and if you want to go through it
+
+[3296.48 - 3299.599] and um
+
+[3297.68 - 3301.359] and take a look at them um in the
+
+[3299.599 - 3303.76] meantime though while this was running
+
+[3301.359 - 3305.359] because this has taken let's see 8 22
+
+[3303.76 - 3307.119] now i don't know when it paused you can
+
+[3305.359 - 3309.04] do some math
+
+[3307.119 - 3310.96] but i think i started
+
+[3309.04 - 3312.88] about an hour and a half ago now total
+
+[3310.96 - 3314.96] maybe a little bit more
+
+[3312.88 - 3316.1600000000003] so hour and a half later
+
+[3314.96 - 3317.839] most of this time has actually been
+
+[3316.16 - 3319.5989999999997] spent waiting because this is this is a
+
+[3317.839 - 3322.0] slow process
+
+[3319.599 - 3324.2400000000002] okay so we've got that so what i did it
+
+[3322.0 - 3325.92] while i was waiting so we've got the
+
+[3324.24 - 3327.9199999999996] generate premises we're done with that
+
+[3325.92 - 3329.28] generate the prompt for the premises
+
+[3327.92 - 3330.64] we've got that
+
+[3329.28 - 3332.3190000000004] oh let me zoom back in sorry you
+
+[3330.64 - 3334.48] probably can't see this
+
+[3332.319 - 3336.48] generate scripts you saw me write this
+
+[3334.48 - 3338.559] this works just fine
+
+[3336.48 - 3340.4] you can see the results here
+
+[3338.559 - 3342.2400000000002] um
+
+[3340.4 - 3343.2000000000003] and then whoops
+
+[3342.24 - 3344.9599999999996] and then
+
+[3343.2 - 3348.16] uh okay so this is the next thing i did
+
+[3344.96 - 3349.92] i borrowed this from a previous
+
+[3348.16 - 3351.92] previous project so all this does is
+
+[3349.92 - 3354.4] create a json l file
+
+[3351.92 - 3356.96] so let me do python
+
+[3354.4 - 3358.799] generate json l
+
+[3356.96 - 3361.28] name data is not defined what do you
+
+[3358.799 - 3362.96] mean data is not defined
+
+[3361.28 - 3364.6400000000003] um
+
+[3362.96 - 3366.64] where do i use data
+
+[3364.64 - 3369.1189999999997] oh
+
+[3366.64 - 3371.359] i meant to delete that
+
+[3369.119 - 3371.359] okay
+
+[3373.119 - 3378.0] okay so let's make sure that this
+
+[3375.28 - 3380.88] file was good
+
+[3378.0 - 3383.44] scripts.jsonl
+
+[3380.88 - 3384.799] cool so it looks like that worked so
+
+[3383.44 - 3387.68] prompt
+
+[3384.799 - 3390.48] and then it ends with completion
+
+[3387.68 - 3392.799] you see here where i have nnn script so
+
+[3390.48 - 3393.44] what i always do is i always add
+
+[3392.799 - 3396.079] a
+
+[3393.44 - 3399.2000000000003] natural language token at the end openai
+
+[3396.079 - 3401.04] they recommend doing something like
+
+[3399.2 - 3403.4399999999996] that as your divider but i don't like
+
+[3401.04 - 3405.04] doing that it doesn't work as well
+
+[3403.44 - 3407.76] because if you have a natural language
+
+[3405.04 - 3408.799] token at the end of the prompt then it
+
+[3407.76 - 3411.119] knows
+
+[3408.799 - 3414.16] um it knows like okay now it's time to
+
+[3411.119 - 3416.96] do this particular task
+
+[3414.16 - 3419.2799999999997] so what this data looks like is it what
+
+[3416.96 - 3421.04] it does let me explain this um so we
+
+[3419.28 - 3423.0400000000004] take the premise
+
+[3421.04 - 3425.7599999999998] and we match it
+
+[3423.04 - 3428.64] to a pr uh sorry a script
+
+[3425.76 - 3431.119] and so this script shannon's farm on the
+
+[3428.64 - 3433.5989999999997] day like da da shannon is left to a
+
+[3431.119 - 3436.0] family farm on her own so basically this
+
+[3433.599 - 3437.119] this is going to train a model
+
+[3436.0 - 3439.119] to take
+
+[3437.119 - 3441.52] any any premise so this could be like a
+
+[3439.119 - 3442.48] handwritten premise and output a movie
+
+[3441.52 - 3444.559] script
+
+[3442.48 - 3445.92] um i know it completely changed the
+
+[3444.559 - 3447.52] purpose from what i said at the
+
+[3445.92 - 3449.599] beginning of the video but hey that's
+
+[3447.52 - 3450.799] how rapid prototyping and research goes
+
+[3449.599 - 3452.319] let me save that because i don't want to
+
+[3450.799 - 3453.44] or close that because i don't want to
+
+[3452.319 - 3455.04] save it okay
+
+[3453.44 - 3456.7200000000003] so this
+
+[3455.04 - 3458.48] file worked
+
+[3456.72 - 3460.5589999999997] so we've got our we've got our json l
+
+[3458.48 - 3463.68] file so this is the final product for
+
+[3460.559 - 3465.6800000000003] our training data and then the very last
+
+[3463.68 - 3470.319] script that i wrote is this fine tune
+
+[3465.68 - 3471.7599999999998] dot pi and again excuse me i um
+
+[3470.319 - 3473.92] i
+
+[3471.76 - 3475.44] borrowed it from a previous one so
+
+[3473.92 - 3477.92] basically all it does
+
+[3475.44 - 3479.68] is it uploads the file the json l file
+
+[3477.92 - 3482.16] that we just did
+
+[3479.68 - 3483.52] and then it calls the fine tune model
+
+[3482.16 - 3485.44] and i'll pause it again because the fine
+
+[3483.52 - 3487.359] tuning takes a while to show you but
+
+[3485.44 - 3489.119] then once it's done it'll actually
+
+[3487.359 - 3490.96] appear
+
+[3489.119 - 3493.359] oh and so just so you know how much this
+
+[3490.96 - 3494.96] cost let me do a quick refresh
+
+[3493.359 - 3496.72] so everything that you've seen today i
+
+[3494.96 - 3498.319] started the day at about two dollars so
+
+[3496.72 - 3500.16] now we're at 11
+
+[3498.319 - 3502.5589999999997] so generating
+
+[3500.16 - 3505.359] generating 200 premises
+
+[3502.559 - 3507.6800000000003] which is let's see that's about 139
+
+[3505.359 - 3510.16] kilobytes of text data
+
+[3507.68 - 3512.359] um and then generating 200 scripts from
+
+[3510.16 - 3516.3999999999996] those which is going to be a lot more
+
+[3512.359 - 3518.72] 330 or 303 kilobytes so
+
+[3516.4 - 3520.079] this all told was cost about nine
+
+[3518.72 - 3521.7599999999998] dollars so far because i was at about
+
+[3520.079 - 3523.119] two dollars already when i got started
+
+[3521.76 - 3526.2400000000002] this morning
+
+[3523.119 - 3528.2400000000002] um yeah so nine dollars to generate um
+
+[3526.24 - 3530.16] to to synthesize the data that's that's
+
+[3528.24 - 3532.319] not just the fine tuning the fine tuning
+
+[3530.16 - 3533.5989999999997] is way cheaper but this was synthesizing
+
+[3532.319 - 3536.319] from scratch
+
+[3533.599 - 3537.2000000000003] okay so i think this should be ready
+
+[3536.319 - 3539.359] um
+
+[3537.2 - 3542.16] so let's see file upload
+
+[3539.359 - 3544.64] that does do the pretty print of that
+
+[3542.16 - 3546.3999999999996] and then the fine fine-tune model
+
+[3544.64 - 3549.1189999999997] um
+
+[3546.4 - 3551.04] okay so yes this should work
+
+[3549.119 - 3552.6400000000003] if i'm not mistaken it might error out
+
+[3551.04 - 3555.92] so let's do cls
+
+[3552.64 - 3555.92] python find two
+
+[3556.839 - 3564.0] fine-tune okay got the file uploaded
+
+[3561.359 - 3564.0] and
+
+[3564.48 - 3567.04] let's see
+
+[3567.359 - 3573.2] status pending okay cool
+
+[3570.64 - 3576.0789999999997] i think this is usually usually it's in
+
+[3573.2 - 3578.16] in sequential order so davinci fine tune
+
+[3576.079 - 3579.599] file name file
+
+[3578.16 - 3581.5989999999997] um
+
+[3579.599 - 3584.6400000000003] it doesn't have the name in it anyways
+
+[3581.599 - 3587.44] i'm assuming that it is fine tuning um
+
+[3584.64 - 3589.68] let's do
+
+[3587.44 - 3591.28] fine tune get fine tune list okay so
+
+[3589.68 - 3594.16] here we will
+
+[3591.28 - 3594.1600000000003] uh let me
+
+[3594.559 - 3597.52] oh yeah so that was the last thing it
+
+[3595.92 - 3599.44] did let me save that real quick so i
+
+[3597.52 - 3601.52] just comment these two out i actually
+
+[3599.44 - 3604.319] don't need that
+
+[3601.52 - 3604.319] so let me just do
+
+[3604.64 - 3607.92] cls
+
+[3605.839 - 3609.68] so fine tune all this will do is just do
+
+[3607.92 - 3611.2000000000003] a fine tune list
+
+[3609.68 - 3613.52] so it's pending okay this will take a
+
+[3611.2 - 3614.64] while so i'll pause the video again
+
+[3613.52 - 3617.119] pause the record because you don't want
+
+[3614.64 - 3620.0] to just sit and wait for this to finish
+
+[3617.119 - 3621.28] but let me show you what it looks like
+
+[3620.0 - 3623.839] when it's done
+
+[3621.28 - 3626.6400000000003] um so when it's done the under your
+
+[3623.839 - 3628.48] engines your fine tunes will pop up here
+
+[3626.64 - 3629.7599999999998] and it'll have so it starts with the
+
+[3628.48 - 3632.4] engine name
+
+[3629.76 - 3634.2400000000002] um and then they changed it so it's like
+
+[3632.4 - 3636.1600000000003] the original fine tunes were like user
+
+[3634.24 - 3638.4799999999996] blah blah blah blah this wasn't helpful
+
+[3636.16 - 3641.44] they changed it to the name so it gives
+
+[3638.48 - 3643.599] me my name and then i gave it a tag so
+
+[3641.44 - 3644.64] this was my eve project
+
+[3643.599 - 3646.559] um
+
+[3644.64 - 3648.799] yep so on and so forth core objective
+
+[3646.559 - 3650.079] functions eve so on and so forth so once
+
+[3648.799 - 3652.079] that's done
+
+[3650.079 - 3653.119] another fine tune will pop up here with
+
+[3652.079 - 3656.559] the name
+
+[3653.119 - 3657.92] um what name did i give it scripts um
+
+[3656.559 - 3659.3590000000004] so that i could i could have said
+
+[3657.92 - 3660.2400000000002] something better like movie script or
+
+[3659.359 - 3663.52] something
+
+[3660.24 - 3665.839] um but yeah so that's pretty much it
+
+[3663.52 - 3667.599] um let me pause it and i'll show you
+
+[3665.839 - 3669.68] what how this performs in the playground
+
+[3667.599 - 3672.96] in just a moment
+
+[3669.68 - 3675.44] okay gang and we are done it's uh nine
+
+[3672.96 - 3677.52] o'clock so i think that's about two and
+
+[3675.44 - 3679.52] a half hours in granted a huge chunk of
+
+[3677.52 - 3682.24] this was waiting
+
+[3679.52 - 3683.52] um so let me do a quick refresh here
+
+[3682.24 - 3685.4399999999996] and let me show you what the final
+
+[3683.52 - 3686.799] result is
+
+[3685.44 - 3688.7200000000003] um whoops
+
+[3686.799 - 3692.72] scroll down
+
+[3688.72 - 3695.359] um scripts okay so um
+
+[3692.72 - 3696.9599999999996] oh let's come up with a random premise
+
+[3695.359 - 3698.5589999999997] for a story
+
+[3696.96 - 3700.96] uh
+
+[3698.559 - 3702.799] actually here my creativity is offline
+
+[3700.96 - 3704.319] so let me just go back up here
+
+[3702.799 - 3706.559] write
+
+[3704.319 - 3708.64] a premise for
+
+[3706.559 - 3709.8390000000004] um oh let's combine it so we have an
+
+[3708.64 - 3712.5589999999997] anime
+
+[3709.839 - 3715.2799999999997] um an anime mystery and a high fantasy
+
+[3712.559 - 3716.48] so let's do write a premise for a high
+
+[3715.28 - 3718.88] fantasy
+
+[3716.48 - 3722.4] anime movie
+
+[3718.88 - 3727.28] write a detailed premise
+
+[3722.4 - 3729.2000000000003] uh let's go brainstorm okay
+
+[3727.28 - 3730.96] in a world of swords and sorcery a young
+
+[3729.2 - 3732.96] girl named lily is thrust into a quest
+
+[3730.96 - 3734.88] to save her kingdom from a powerful evil
+
+[3732.96 - 3738.64] sorcerer okay great
+
+[3734.88 - 3740.799] okay we've got a premise so let's
+
+[3738.64 - 3742.96] oops clear that out
+
+[3740.799 - 3744.16] in a world of swords and sorcery
+
+[3742.96 - 3747.2] and then
+
+[3744.16 - 3749.5989999999997] the um the fine tuning data adds this
+
+[3747.2 - 3751.2] uh this script so that tells it that the
+
+[3749.599 - 3753.2000000000003] the premise is done
+
+[3751.2 - 3756.799] so we'll go down to scripts and we'll
+
+[3753.2 - 3758.72] change this to 0.5
+
+[3756.799 - 3760.88] and here we go let's see what happens it
+
+[3758.72 - 3762.72] might timeout because
+
+[3760.88 - 3766.079] it does often take a little bit of extra
+
+[3762.72 - 3768.0789999999997] time to load a fine-tuned model
+
+[3766.079 - 3770.079] but we should be just about done and to
+
+[3768.079 - 3771.119] prove it let me go back
+
+[3770.079 - 3773.119] here
+
+[3771.119 - 3774.96] and show you
+
+[3773.119 - 3776.96] outline generators so
+
+[3774.96 - 3778.319] started three hours ago
+
+[3776.96 - 3779.76] um
+
+[3778.319 - 3781.68] yeah so three hours ago that's about how
+
+[3779.76 - 3782.88] long i've been working on this and we
+
+[3781.68 - 3785.2799999999997] will
+
+[3782.88 - 3786.6400000000003] do a final commit and i'll do a final
+
+[3785.28 - 3788.799] push
+
+[3786.64 - 3790.319] yep please try again shortly
+
+[3788.799 - 3792.799] actually i'm not changing anything so
+
+[3790.319 - 3796.4] we'll just do ahead get status so
+
+[3792.799 - 3798.4] remember i started this video with um
+
+[3796.4 - 3800.7200000000003] with just doing this get
+
+[3798.4 - 3802.96] the initial commit get
+
+[3800.72 - 3805.4399999999996] add all
+
+[3802.96 - 3806.96] get commit
+
+[3805.44 - 3809.359] am
+
+[3806.96 - 3812.079] final commit and you can go check on the
+
+[3809.359 - 3813.92] um the commits yourself if you want get
+
+[3812.079 - 3816.4] push
+
+[3813.92 - 3818.559] okay so this code is now updated and
+
+[3816.4 - 3819.92] online i'm probably also going to rename
+
+[3818.559 - 3822.079] it from outline generator because this
+
+[3819.92 - 3823.76] has actually became a script generator
+
+[3822.079 - 3826.1600000000003] um
+
+[3823.76 - 3828.079] why did it name it that
+
+[3826.16 - 3831.2] oh i probably accidentally copy pasted
+
+[3828.079 - 3835.039] that didn't i that shouldn't be there
+
+[3831.2 - 3835.0389999999998] cof jsonl
+
+[3835.68 - 3840.319] yeah i totally accidentally copy pasted
+
+[3837.52 - 3842.64] that okay that needs to go away um also
+
+[3840.319 - 3845.119] this is under the mit license so you are
+
+[3842.64 - 3846.8799999999997] free to use this however you want
+
+[3845.119 - 3848.7200000000003] um
+
+[3846.88 - 3852.44] let's see if this is loaded still being
+
+[3848.72 - 3852.4399999999996] loaded try again
+
+[3854.559 - 3858.7200000000003] um
+
+[3855.839 - 3859.44] get status get add
+
+[3858.72 - 3862.0789999999997] get
+
+[3859.44 - 3864.0] commit am removing
+
+[3862.079 - 3866.6400000000003] extraneous oh actually there's another
+
+[3864.0 - 3868.0] one that needs to be removed um
+
+[3866.64 - 3869.1189999999997] brainstorm because we didn't use that
+
+[3868.0 - 3870.48] one
+
+[3869.119 - 3871.76] okay
+
+[3870.48 - 3873.599] get add
+
+[3871.76 - 3876.1600000000003] git commit am
+
+[3873.599 - 3879.599] remove extra files keep it as simple as
+
+[3876.16 - 3879.5989999999997] possible get push
+
+[3880.079 - 3882.319] okay
+
+[3882.799 - 3886.96] cool so now the only stuff in this is
+
+[3884.96 - 3888.4] exactly what was used nothing more
+
+[3886.96 - 3891.2] nothing less
+
+[3888.4 - 3893.2000000000003] um has it finished loading oh come on
+
+[3891.2 - 3894.799] why is it going so slow
+
+[3893.2 - 3897.2799999999997] don't you know i got a youtube video to
+
+[3894.799 - 3897.28] make here
+
+[3898.0 - 3902.559] usually it only takes one or two tries
+
+[3900.079 - 3907.7200000000003] before the fine tune model loads so i
+
+[3902.559 - 3907.7200000000003] wonder if openai is extra busy today
+
+[3911.2 - 3914.24] okay i'm gonna pause it rather than make
+
+[3912.64 - 3916.72] you wait
+
+[3914.24 - 3918.72] okay and of course the very like three
+
+[3916.72 - 3921.4399999999996] seconds after i clicked pause it ran
+
+[3918.72 - 3923.0389999999998] okay so with this notice i didn't
+
+[3921.44 - 3925.52] include any instructions i just give it
+
+[3923.039 - 3927.44] a premise and it writes a script fade in
+
+[3925.52 - 3928.799] uh lily's house day young girl of about
+
+[3927.44 - 3931.119] 10 is playing in her backyard with her
+
+[3928.799 - 3933.0389999999998] dog a small terrier laughing having a
+
+[3931.119 - 3934.799] good time mama papa there is no answer
+
+[3933.039 - 3936.88] little girl starts to get scared this is
+
+[3934.799 - 3937.89] totally like a miyazaki right this is a
+
+[3936.88 - 3939.359] studio ghibli
+
+[3937.89 - 3940.319] [Laughter]
+
+[3939.359 - 3942.319] um
+
+[3940.319 - 3944.72] because there's a sorcerer's castle etc
+
+[3942.319 - 3946.319] etc okay the men chase after lily
+
+[3944.72 - 3948.0789999999997] grabbing her there you have it you can
+
+[3946.319 - 3949.7599999999998] do this yourself you can go fine tune
+
+[3948.079 - 3951.28] this it's all up here i'll leave it
+
+[3949.76 - 3953.119] named outline generator even though
+
+[3951.28 - 3955.3590000000004] that's a misdemeanor whatever it'll just
+
+[3953.119 - 3960.0] be an inside joke
+
+[3955.359 - 3960.0] yeah it's done thanks for watching

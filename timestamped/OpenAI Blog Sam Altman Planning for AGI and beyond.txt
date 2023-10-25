@@ -1,0 +1,711 @@
+[0.659 - 4.7989999999999995] hey everybody David Shapiro here with a
+
+[3.72 - 7.7989999999999995] video
+
+[4.799 - 8.82] um today we I have a double feature so
+
+[7.799 - 10.440000000000001] earlier
+
+[8.82 - 12.780000000000001] we had
+
+[10.44 - 16.02] um this video Nvidia predicts that
+
+[12.78 - 17.759999999999998] within 10 years uh we will have models a
+
+[16.02 - 20.759999999999998] million times more powerful than the
+
+[17.76 - 22.68] current models so imagine chat GPT times
+
+[20.76 - 24.48] a million
+
+[22.68 - 28.38] um so then
+
+[24.48 - 31.8] open AI drops this gem like within the
+
+[28.38 - 36.239] last hour or so February 24th that's
+
+[31.8 - 40.02] today this was a blog post penned by Sam
+
+[36.239 - 42.36] Alban so let's take a deep dive into
+
+[40.02 - 46.02] this so one
+
+[42.36 - 49.86] it has been part of open ai's Charter to
+
+[46.02 - 51.36] generate or to create AGI but this is to
+
+[49.86 - 53.039] my knowledge one of the first times that
+
+[51.36 - 55.86] they've written a blog post on it kind
+
+[53.039 - 58.800000000000004] of addressing the elephant in the room
+
+[55.86 - 61.379] and this is set in the backdrop of there
+
+[58.8 - 63.718999999999994] are Twitter posts and and serious
+
+[61.379 - 66.479] researchers and academics out there who
+
+[63.719 - 69.72] still are just like they ridicule and
+
+[66.479 - 72.84] shame anyone who talks about AGI
+
+[69.72 - 77.34] it's really weird my interpretation of
+
+[72.84 - 80.46000000000001] that behavior anyone who like seriously
+
+[77.34 - 82.259] says ohagi is decades away AGI people
+
+[80.46 - 83.58] who talk about it are in a cult like
+
+[82.259 - 86.7] that's literally something that people
+
+[83.58 - 89.46] say on Twitter and other places
+
+[86.7 - 91.68] um I suspect that what they're actually
+
+[89.46 - 94.259] responding to is their own existential
+
+[91.68 - 96.24000000000001] anxiety and their fear of irrelevance
+
+[94.259 - 97.979] and it's that's purely an emotional
+
+[96.24 - 100.19999999999999] response that they wrap logic around
+
+[97.979 - 102.96] they try and logic their way to say oh
+
+[100.2 - 104.52000000000001] well AGI isn't gonna happen and it is
+
+[102.96 - 106.79899999999999] very it is very scary it's very
+
+[104.52 - 108.36] difficult to contend with
+
+[106.799 - 110.399] um that's why I've had podcast episodes
+
+[108.36 - 112.799] with people talking about like how do we
+
+[110.399 - 114.36] how do we reconcile this if we invent
+
+[112.799 - 116.7] machines that are billions of times more
+
+[114.36 - 118.74] intelligent than us what does Humanity
+
+[116.7 - 120.92] matter and that's a topic for another
+
+[118.74 - 123.899] video but let's unpack
+
+[120.92 - 126.24000000000001] openai's video here also let me make
+
+[123.899 - 127.619] sure I'm I think I might be saturating
+
+[126.24 - 131.34] this a little bit too much let me turn
+
+[127.619 - 132.78] this down blow out your eardrums okay
+
+[131.34 - 134.81900000000002] so
+
+[132.78 - 135.9] this it's a pretty short read I'm not
+
+[134.819 - 140.39999999999998] going to read the whole thing to you but
+
+[135.9 - 142.62] I'll pick out some some some juicy bits
+
+[140.4 - 145.20000000000002] so the first thing is they kind of lay
+
+[142.62 - 147.48000000000002] out you know this these are our goals we
+
+[145.2 - 150.17999999999998] want AGI to empower Humanity to
+
+[147.48 - 152.04] maximally flourish in the universe we
+
+[150.18 - 154.37900000000002] don't expect the future to be uh an
+
+[152.04 - 156.35999999999999] unqualified Utopia but we want to
+
+[154.379 - 159.06] maximize the good and minimize the bad
+
+[156.36 - 161.04000000000002] and for AGI to be an amplifier of
+
+[159.06 - 163.14000000000001] humanity
+
+[161.04 - 166.16] so I want to pause right there and just
+
+[163.14 - 168.66] say this is sounding kind of familiar
+
+[166.16 - 170.04] you might be familiar with my work and
+
+[168.66 - 171.72] the core objective functions which is
+
+[170.04 - 174.48] reduce suffering increased prosperity
+
+[171.72 - 176.64] and increase understanding
+
+[174.48 - 178.92] so maybe some of my work starting to
+
+[176.64 - 179.7] sink in or if they're not reading my
+
+[178.92 - 182.819] work
+
+[179.7 - 184.44] then at least they are converging in the
+
+[182.819 - 186.89999999999998] same directions
+
+[184.44 - 189.06] we want the benefits of access to and
+
+[186.9 - 191.04] governance of AGI to be widely and
+
+[189.06 - 193.739] fairly shared
+
+[191.04 - 196.92] so I can't claim any
+
+[193.739 - 198.42000000000002] um uh ownership of this idea it is
+
+[196.92 - 200.879] something that I also agree with which
+
+[198.42 - 202.61999999999998] is why I have my open source Raven
+
+[200.879 - 204.78] project
+
+[202.62 - 207.0] um now one thing that I will say is that
+
+[204.78 - 210.239] for all the claims that open AI makes
+
+[207.0 - 212.819] about being open they have very very
+
+[210.239 - 214.44] cloistered approaches to
+
+[212.819 - 216.11999999999998] openness
+
+[214.44 - 218.819] so
+
+[216.12 - 221.4] you know I
+
+[218.819 - 223.2] they get this criticism often
+
+[221.4 - 226.739] um you know they they haven't released
+
+[223.2 - 229.61999999999998] at nearly as much code or papers lately
+
+[226.739 - 231.84] um and it's
+
+[229.62 - 232.5] it's really starting to wrinkle some of
+
+[231.84 - 235.08] us
+
+[232.5 - 236.7] you know open AI is kind of becoming
+
+[235.08 - 238.56] more of a misnomer now that being said
+
+[236.7 - 240.89999999999998] it could be that they're building up to
+
+[238.56 - 243.26] something big but that's been the rumor
+
+[240.9 - 246.239] for more than a year now we expected
+
+[243.26 - 247.98] gpt4 sometime in the summer than in the
+
+[246.239 - 250.31900000000002] fall then this spring and it's still not
+
+[247.98 - 251.28] happening
+
+[250.319 - 253.85999999999999] um
+
+[251.28 - 255.54] so fairly shared et cetera et cetera
+
+[253.86 - 257.90000000000003] like there are other open source
+
+[255.54 - 260.519] projects there are other ouch outfits
+
+[257.9 - 264.65999999999997] actively working in view of the public
+
+[260.519 - 266.34000000000003] on alignment on AGI on scaling and so
+
+[264.66 - 269.82000000000005] there's a bigger and bigger disconnect
+
+[266.34 - 272.4] between what openai says and what openai
+
+[269.82 - 274.86] does especially when you compare it to
+
+[272.4 - 277.38] the rest of the world
+
+[274.86 - 279.90000000000003] we want to successfully navigate massive
+
+[277.38 - 281.699] risks in confronting these risks we
+
+[279.9 - 283.25899999999996] acknowledge that what seems right in
+
+[281.699 - 285.72] theory often plays out more strangely
+
+[283.259 - 287.46000000000004] and than expected in practice we believe
+
+[285.72 - 289.68] we have to continuously learn and adapt
+
+[287.46 - 291.18] by deploying less powerful versions of
+
+[289.68 - 294.68] the technology in order to minimize the
+
+[291.18 - 294.68] one shot to get it right scenarios
+
+[294.96 - 300.29999999999995] so this this could be the Royal we
+
+[297.36 - 304.08000000000004] meaning all of humanity but
+
+[300.3 - 306.139] I kind of recognize this tone as someone
+
+[304.08 - 309.419] who thinks that it's entirely up to them
+
+[306.139 - 311.34000000000003] to figure it out and the reason that I
+
+[309.419 - 314.03999999999996] recognize that is because until recently
+
+[311.34 - 316.19899999999996] I thought that that was part of part of
+
+[314.04 - 318.47900000000004] my role I was writing books about
+
+[316.199 - 321.3] alignment and cognitive architecture two
+
+[318.479 - 323.09999999999997] years ago and nobody was taking me
+
+[321.3 - 324.44] seriously back then
+
+[323.1 - 327.0] so
+
+[324.44 - 331.38] an inference that I'm making here is
+
+[327.0 - 334.199] that uh perhaps Sam and Company believe
+
+[331.38 - 336.0] that they are the only ones capable of
+
+[334.199 - 338.22] doing this work right now
+
+[336.0 - 340.38] and considering that that like Ilya
+
+[338.22 - 343.199] sutskiver and Sam Altman they seem to be
+
+[340.38 - 344.88] in the camp of scale is all you need I
+
+[343.199 - 347.94] don't think that they're actually
+
+[344.88 - 349.56] equipped to come up with AGI and
+
+[347.94 - 351.0] autonomous Ai and stuff like that
+
+[349.56 - 353.039] anyways
+
+[351.0 - 354.24] difference of opinion we'll see how it
+
+[353.039 - 357.12] plays out
+
+[354.24 - 359.28000000000003] uh so you know in the short term you
+
+[357.12 - 362.78000000000003] know successively more powerful uh
+
+[359.28 - 365.09999999999997] systems etc etc policy makers chat GPT
+
+[362.78 - 367.67999999999995] you know we're getting closer to agio
+
+[365.1 - 371.759] and by the way they never Define AGI
+
+[367.68 - 372.6] it's it's this magical like Boogeyman
+
+[371.759 - 374.34000000000003] um
+
+[372.6 - 377.58000000000004] and then of course they link to you know
+
+[374.34 - 380.58] a AI is an existential risk it could
+
+[377.58 - 384.24] defeat all of us so I I unpacked this
+
+[380.58 - 386.81899999999996] belief in my win AGI video this is way
+
+[384.24 - 388.8] less of a risk than people think
+
+[386.819 - 390.6] um people that only know the math think
+
+[388.8 - 393.96000000000004] that it's a risk people that have done
+
+[390.6 - 396.12] it think this is a freaking joke and the
+
+[393.96 - 397.85999999999996] reason that it's a joke is because do
+
+[396.12 - 399.18] you have any idea how fragile data
+
+[397.86 - 402.12] centers are
+
+[399.18 - 403.22] turning off the AI super easy let me
+
+[402.12 - 407.58] tell you
+
+[403.22 - 410.6] uh yeah dude runaway AGI that's going to
+
+[407.58 - 410.59999999999997] take over and kill everyone
+
+[410.639 - 416.34000000000003] you know you could you could if if you
+
+[413.4 - 419.21999999999997] had the smartest AI today and put it in
+
+[416.34 - 421.979] you know a Boston Dynamics robot it
+
+[419.22 - 423.66] would still be pretty useless
+
+[421.979 - 425.34] um so
+
+[423.66 - 426.90000000000003] you know and then there's network
+
+[425.34 - 429.539] security there's physical security
+
+[426.9 - 431.52] there's control over the power you know
+
+[429.539 - 433.979] it's not going to snowball
+
+[431.52 - 436.44] the way that it was portrayed in in
+
+[433.979 - 437.88] Terminator right where Skynet just wakes
+
+[436.44 - 439.259] up one day and says I'm gonna take over
+
+[437.88 - 443.4] the world
+
+[439.259 - 444.84000000000003] um we these the the people who who still
+
+[443.4 - 447.539] think that
+
+[444.84 - 451.19899999999996] just some errant you know AI technology
+
+[447.539 - 453.599] is going to instantly trounce every
+
+[451.199 - 457.38] defense system every layer of security
+
+[453.599 - 460.74] that we have like seriously go talk to
+
+[457.38 - 462.0] uh someone in the military about the
+
+[460.74 - 464.28000000000003] layers of security that they have
+
+[462.0 - 467.099] physical security and otherwise go talk
+
+[464.28 - 470.94] to someone in it in infosec in Sia and
+
+[467.099 - 473.28] ciso like I don't know it this this is a
+
+[470.94 - 474.599] this is the problem is is this tunnel
+
+[473.28 - 477.11999999999995] vision
+
+[474.599 - 478.62] um is people that only know AI only know
+
+[477.12 - 480.0] code only no math
+
+[478.62 - 480.96] they don't know as much as they think
+
+[480.0 - 483.66] they do
+
+[480.96 - 486.84] so you know you see what's leaking
+
+[483.66 - 490.08000000000004] through here is this this this anxiety
+
+[486.84 - 491.75899999999996] right so there's this belief oh only we
+
+[490.08 - 494.46] are capable of it and then there's this
+
+[491.759 - 496.199] anxiety that's based on Tunnel Vision
+
+[494.46 - 498.84] um and not really taking in the broader
+
+[496.199 - 501.539] uh reality of how technology works and
+
+[498.84 - 504.479] how technology is deployed
+
+[501.539 - 506.81899999999996] um so we're we're getting this this
+
+[504.479 - 509.15999999999997] cloistered mentality and this narrowness
+
+[506.819 - 511.02000000000004] of vision and understanding
+
+[509.16 - 512.4590000000001] so they know that they're being they
+
+[511.02 - 515.3389999999999] believe that they're being responsible
+
+[512.459 - 516.8389999999999] based on their perspective but I'm going
+
+[515.339 - 519.86] to say again I don't think that their
+
+[516.839 - 519.86] perspective is Broad enough
+
+[520.38 - 524.76] I say this as someone who talks to
+
+[521.94 - 527.7] people across the industry everywhere
+
+[524.76 - 531.12] people who know what's coming and what
+
+[527.7 - 533.1600000000001] is possible and very few people have
+
+[531.12 - 534.36] this much anxiety about it
+
+[533.16 - 536.04] um it's just some of some of the people
+
+[534.36 - 538.44] with the most anxiety have the largest
+
+[536.04 - 540.3] microphones and that's not to say that
+
+[538.44 - 542.519] that they're right they just happen to
+
+[540.3 - 544.9799999999999] have the largest microphones
+
+[542.519 - 547.019] so then fast forwarding you know as our
+
+[544.98 - 548.7] systems get closer to AGI we're becoming
+
+[547.019 - 549.6] increasingly cautious there's the
+
+[548.7 - 552.72] anxiety
+
+[549.6 - 554.94] now that being said like I am I am
+
+[552.72 - 556.8000000000001] someone who pulled back some of my own
+
+[554.94 - 558.36] Ai and still haven't released some of my
+
+[556.8 - 559.68] models because I don't want to hurt
+
+[558.36 - 561.0] people
+
+[559.68 - 562.68] so
+
+[561.0 - 565.32] I do want to draw a line there's a
+
+[562.68 - 568.38] Nuance AI can be dangerous and harmful
+
+[565.32 - 571.019] long before it's it's AGI and I pointed
+
+[568.38 - 573.66] this out in my in my AGI video as well
+
+[571.019 - 576.72] any technology at any level has the
+
+[573.66 - 579.6] potential for misuse and and unintended
+
+[576.72 - 581.94] consequences we don't need AGI before
+
+[579.6 - 583.38] it's dangerous we don't need AGI before
+
+[581.94 - 587.4590000000001] it's helpful either
+
+[583.38 - 589.32] so again using that definition of AGI is
+
+[587.459 - 591.1199999999999] somewhat arbitrary and it's kind of
+
+[589.32 - 593.7600000000001] teleological which is like the ends
+
+[591.12 - 596.339] justify the means but AGI isn't even a
+
+[593.76 - 599.12] well-defined end it doesn't matter it is
+
+[596.339 - 599.12] a useless term
+
+[600.06 - 603.779] apparently I'm more mad about this than
+
+[601.62 - 605.64] I thought
+
+[603.779 - 607.56] all right so anyways we have attempted
+
+[605.64 - 609.959] to set up our structure in a way that
+
+[607.56 - 611.16] aligns with our incentives uh with a
+
+[609.959 - 612.42] good outcome
+
+[611.16 - 614.88] so another you know one of the things
+
+[612.42 - 618.66] that they talk about is is restructuring
+
+[614.88 - 620.88] the company capped profit etc etc
+
+[618.66 - 622.0799999999999] um in the long term we believe that
+
+[620.88 - 623.82] Humanity should be determined by
+
+[622.08 - 625.32] Humanity okay yeah that's that's
+
+[623.82 - 627.6] definitely something
+
+[625.32 - 630.9590000000001] um but part of the problem here is
+
+[627.6 - 633.12] there's this mentality of oh well
+
+[630.959 - 634.9799999999999] nobody's ever going to create a fully
+
+[633.12 - 636.36] autonomous machine we're only going to
+
+[634.98 - 638.04] create something with a tight leash on
+
+[636.36 - 639.72] it and just assume that it's never going
+
+[638.04 - 642.7199999999999] to get off its leash
+
+[639.72 - 644.1600000000001] but that's not how reality Works anytime
+
+[642.72 - 645.899] that you create something that
+
+[644.16 - 647.2199999999999] intelligent and that powerful like it's
+
+[645.899 - 647.88] going to get off the leash from time to
+
+[647.22 - 650.1] time
+
+[647.88 - 651.36] and so the fact that nobody is really
+
+[650.1 - 656.76] having the conversation around
+
+[651.36 - 660.1800000000001] autonomous AI that's what worries me
+
+[656.76 - 661.92] and when they talk about alignment when
+
+[660.18 - 664.3199999999999] they link to their own work on alignment
+
+[661.92 - 665.8199999999999] all they're talking about
+
+[664.32 - 667.74] is reinforcement learning with human
+
+[665.82 - 669.3000000000001] feedback now I will say that in a recent
+
+[667.74 - 671.16] thing they talked about uh
+
+[669.3 - 673.64] constitutional AI so that's a step in
+
+[671.16 - 673.64] the right direction
+
+[675.0 - 677.82] and they talk about you know the
+
+[676.26 - 679.68] transition to a world with super
+
+[677.82 - 681.0600000000001] intelligence and blah blah and it's like
+
+[679.68 - 682.9799999999999] okay sure but
+
+[681.06 - 684.2399999999999] this is this is imagining that we're
+
+[682.98 - 686.3000000000001] going to wake up one day and then
+
+[684.24 - 689.76] there's going to be this saltatory leap
+
+[686.3 - 690.959] to you know super intelligence but
+
+[689.76 - 692.88] really the way that it's going to work
+
+[690.959 - 694.68] is that there's going to be incremental
+
+[692.88 - 697.14] uh improvements granted it's going to be
+
+[694.68 - 699.959] fast you know every six months we're in
+
+[697.14 - 702.72] a new paradigm with AI but we're still
+
+[699.959 - 706.38] you know several paradigms away from
+
+[702.72 - 710.399] from cataclysmic potential
+
+[706.38 - 713.399] uh you know all right so
+
+[710.399 - 715.44] I was really excited to see open AI talk
+
+[713.399 - 717.54] about AGI directly
+
+[715.44 - 719.8800000000001] some criticisms right off the top
+
+[717.54 - 722.0999999999999] they're still not defining AGI which
+
+[719.88 - 723.779] means it's a spooky Boogeyman that they
+
+[722.1 - 727.62] can keep
+
+[723.779 - 728.399] uh plugging the anxiety about
+
+[727.62 - 731.519] um
+
+[728.399 - 734.7] they are kind of talking in vague
+
+[731.519 - 736.92] generalities uh another big criticism is
+
+[734.7 - 738.899] is again like I said their actions don't
+
+[736.92 - 740.64] align with their words
+
+[738.899 - 743.04] um you know like it's kind of like put
+
+[740.64 - 745.14] up or shut up right like there are
+
+[743.04 - 747.779] there's anthropic there's
+
+[745.14 - 749.459] um there's uh I can't remember the rest
+
+[747.779 - 751.92] of them but anthropic is the big one
+
+[749.459 - 753.3599999999999] that I've talked about lately with the
+
+[751.92 - 756.5999999999999] Constitutional AI there are plenty of
+
+[753.36 - 759.36] other people actually doing open work
+
+[756.6 - 760.44] um and I think that I think that you
+
+[759.36 - 763.82] know
+
+[760.44 - 763.82] I don't know anyways
+
+[764.399 - 768.66] yeah that that's it it's just it it's
+
+[766.98 - 770.76] it's more frustration and more
+
+[768.66 - 773.9399999999999] disappointment
+
+[770.76 - 776.579] um that being said I will uh temper all
+
+[773.94 - 779.399] of my my criticism with I use open AI
+
+[776.579 - 781.9799999999999] every day right they have a really good
+
+[779.399 - 783.36] model but it is also just a language
+
+[781.98 - 785.22] model they haven't even talked about
+
+[783.36 - 787.86] cognitive architecture they only just
+
+[785.22 - 790.86] talked about constitutional AI which is
+
+[787.86 - 792.9590000000001] a gateway drug to cons uh cognitive
+
+[790.86 - 794.339] architecture so it's like okay I hope
+
+[792.959 - 796.079] they get it right
+
+[794.339 - 797.4590000000001] um but I haven't I have personally not
+
+[796.079 - 799.92] seen enough evidence that they are
+
+[797.459 - 801.779] pivoting and catching up with where the
+
+[799.92 - 804.3] rest of the world is in terms of talking
+
+[801.779 - 805.8] about AGI
+
+[804.3 - 807.4799999999999] um there as far as I can tell they're
+
+[805.8 - 810.12] still mostly in the camp of scale is all
+
+[807.48 - 811.9200000000001] you need and all you need is the right
+
+[810.12 - 813.899] um reinforcement learning signal and
+
+[811.92 - 817.139] it's like I don't think that's how it's
+
+[813.899 - 818.82] gonna work uh real intelligence is much
+
+[817.139 - 820.74] more complex than that
+
+[818.82 - 822.779] real intelligence and real deployed
+
+[820.74 - 824.82] systems are far more complex than all
+
+[822.779 - 827.779] that so anyways that's where we'll leave
+
+[824.82 - 827.779] it today thanks for watching

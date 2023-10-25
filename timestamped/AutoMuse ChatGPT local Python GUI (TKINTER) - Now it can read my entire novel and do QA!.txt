@@ -1,0 +1,841 @@
+[0.719 - 5.16] hey everybody David Shapiro here with a
+
+[3.54 - 7.56] video update
+
+[5.16 - 9.3] um so this is super exciting let me just
+
+[7.56 - 10.98] go ahead and show you right off the bat
+
+[9.3 - 12.360000000000001] what I'm working on and I apologize that
+
+[10.98 - 15.420000000000002] it's small
+
+[12.36 - 18.358999999999998] um this is uh it's a it's a very
+
+[15.42 - 20.88] primitive graphical user interface but
+
+[18.359 - 24.779000000000003] as most of you are aware chat GPT has
+
+[20.88 - 27.479999999999997] been in um let's shall we say bad shape
+
+[24.779 - 30.18] um network errors your history is gone
+
+[27.48 - 32.34] etc etc and for a lot of people that
+
+[30.18 - 34.92] means like your your work comes to a
+
+[32.34 - 37.86] grinding halt that being said I've been
+
+[34.92 - 40.379000000000005] working on learning the chat gbt API
+
+[37.86 - 43.2] I've got access to gpt4
+
+[40.379 - 44.699999999999996] um not the 32 000 token one um if anyone
+
+[43.2 - 45.899] knows how to request access to that
+
+[44.7 - 48.84] please let me know in the comments
+
+[45.899 - 51.2] because uh working on a novel I could
+
+[48.84 - 54.0] easily make use of the 32 000 tokens
+
+[51.2 - 58.079] that being said the 8 000 tokens will
+
+[54.0 - 59.28] carry you a really long ways so with
+
+[58.079 - 61.32] that being said
+
+[59.28 - 63.6] um this is the repo it's chat some
+
+[61.32 - 65.519] chapter summarizer gpt4 and it is
+
+[63.6 - 67.32000000000001] already completely wrong because it
+
+[65.519 - 69.42] provides developmental feedback Pros
+
+[67.32 - 70.619] feedback and now you can actually chat
+
+[69.42 - 74.159] with it
+
+[70.619 - 76.32] um and it will know your entire story so
+
+[74.159 - 79.97900000000001] how did I achieve this
+
+[76.32 - 83.27999999999999] um with the larger token window with the
+
+[79.979 - 84.479] 8000 token window that is enough that
+
+[83.28 - 86.46000000000001] you can
+
+[84.479 - 89.46] um some you can summarize all your
+
+[86.46 - 91.259] chapters and it will fit you generally
+
+[89.46 - 93.119] within it it probably won't fit by the
+
+[91.259 - 96.479] time I finish my novel but hopefully
+
+[93.119 - 97.74] I'll have access to the 32 000 token API
+
+[96.479 - 101.03999999999999] endpoint which means that I'll be able
+
+[97.74 - 103.14] to summarize the whole thing and then
+
+[101.04 - 104.7] what I did was I took the scratch Pad
+
+[103.14 - 106.14] here and I've got all this documented
+
+[104.7 - 109.2] too because this is like the best
+
+[106.14 - 111.119] instance of Auto Muse yet so basically
+
+[109.2 - 113.04] you copy and paste whatever you want
+
+[111.119 - 116.34] into the scratch Pad
+
+[113.04 - 117.96000000000001] um uh file uh whoops where did it go so
+
+[116.34 - 120.72] you copy it into scratch pad and you see
+
+[117.96 - 124.86] it's 24 kilobytes so this is a summary
+
+[120.72 - 126.719] of the first 19 chapters of my story
+
+[124.86 - 129.3] um and it's from here you know the
+
+[126.719 - 130.97899999999998] chapters the text the conversion the
+
+[129.3 - 133.26000000000002] chat logs oh I want to show you like
+
+[130.979 - 135.18] this is working right like here's all
+
+[133.26 - 138.06] the chat logs that I've got uh between
+
+[135.18 - 139.37900000000002] myself and and and the Muse which also
+
+[138.06 - 141.84] means that you've got a permanent record
+
+[139.379 - 143.94] even if chat gbt goes down
+
+[141.84 - 146.76] um and all this is excluded in the in
+
+[143.94 - 149.94] the git ignore so you see um open AI
+
+[146.76 - 151.56] your key is ignored chapters uh the
+
+[149.94 - 153.3] summaries and the chat logs and the
+
+[151.56 - 154.98] scratch Pad so don't you don't have to
+
+[153.3 - 156.12] worry about accidentally sharing any of
+
+[154.98 - 158.34] your own
+
+[156.12 - 160.02] um any of your own work
+
+[158.34 - 163.08] um it'll just stay local in the repo
+
+[160.02 - 167.4] when you copy it down now I was using
+
+[163.08 - 168.78] chat gpt4 to help write a graphical user
+
+[167.4 - 170.04] interface because I was like you know
+
+[168.78 - 172.62] what
+
+[170.04 - 175.319] um I could do this as a web web thing
+
+[172.62 - 178.31900000000002] but honestly I don't like why have
+
+[175.319 - 181.56] multiple apps running like why why use a
+
+[178.319 - 183.72] a web browser when python has a built-in
+
+[181.56 - 184.86] graphical user interface and so that's
+
+[183.72 - 187.62] this here
+
+[184.86 - 189.3] so I was using chat GPT
+
+[187.62 - 192.48000000000002] um to help make this and you can see
+
+[189.3 - 195.06] like it dynamically sizes I've got it
+
+[192.48 - 197.7] color coded so that you can just easily
+
+[195.06 - 199.98] see what's going on
+
+[197.7 - 202.14] um it also uses threading so that way
+
+[199.98 - 205.14] because it takes a while for the API to
+
+[202.14 - 208.26] uh to spit out something but yeah so let
+
+[205.14 - 210.77999999999997] me show you the uh the The Prompt that I
+
+[208.26 - 213.0] use so the scratch Pad this is just all
+
+[210.78 - 215.28] the information about your story I
+
+[213.0 - 217.019] probably will get this automatically
+
+[215.28 - 220.14000000000001] updated in the future but for right now
+
+[217.019 - 222.239] it's just manually copy pasted and then
+
+[220.14 - 223.73899999999998] I have a new kind of prompt it's a
+
+[222.239 - 225.18] instead of a prompt it's a system
+
+[223.739 - 227.81900000000002] message
+
+[225.18 - 230.519] so in this case it says here let me zoom
+
+[227.819 - 232.2] in I'm a writing assistant and coach the
+
+[230.519 - 233.87900000000002] following is the summary of chapters for
+
+[232.2 - 235.61999999999998] the novel the user is working on my job
+
+[233.879 - 237.17999999999998] is to help them develop their novel in
+
+[235.62 - 238.739] any way that I can including
+
+[237.18 - 240.78] brainstorming plotting outlining and
+
+[238.739 - 242.459] planning we may engage in developmental
+
+[240.78 - 244.2] editing which includes restructuring or
+
+[242.459 - 245.159] modifying character arcs plot threads
+
+[244.2 - 247.85999999999999] World building and development
+
+[245.159 - 249.659] developing of themes we almost we may
+
+[247.86 - 251.519] also work on finer grained aspects such
+
+[249.659 - 254.04] as character backstory subplots and so
+
+[251.519 - 256.199] on I should refer to highly professional
+
+[254.04 - 258.239] writing Concepts such as the 3x plot
+
+[256.199 - 261.0] structure the work of Joseph Campbell
+
+[258.239 - 263.28] and CG young save the cat and any other
+
+[261.0 - 265.08] formalized approaches to storytelling I
+
+[263.28 - 266.88] should not seek to push the author but
+
+[265.08 - 269.21999999999997] rather teach them when I perceive gaps
+
+[266.88 - 270.6] in their understanding Above All Else my
+
+[269.22 - 273.36] primary mission is to help them produce
+
+[270.6 - 275.52000000000004] an amazing work of literature
+
+[273.36 - 277.74] um and then so then I you can populate
+
+[275.52 - 279.53999999999996] whatever's in the scratch Pad here and
+
+[277.74 - 280.8] again you can dynamically update this if
+
+[279.54 - 282.47900000000004] you want
+
+[280.8 - 284.22] um important note the above material is
+
+[282.479 - 286.199] provided for background information this
+
+[284.22 - 288.36] format is not necessarily intended to be
+
+[286.199 - 289.62] used moving forward lastly be sure to
+
+[288.36 - 291.12] ask plenty of questions so that the
+
+[289.62 - 294.54] author remains firmly in the driver's
+
+[291.12 - 297.3] seat so this huge Constitution or
+
+[294.54 - 298.5] purpose or system message actually works
+
+[297.3 - 300.36] really well
+
+[298.5 - 302.58] so in this case
+
+[300.36 - 304.259] um just right off the bat I can say hey
+
+[302.58 - 305.52] describe the main characters and
+
+[304.259 - 308.28000000000003] identifies all four of the main
+
+[305.52 - 311.21999999999997] characters and gives a very succinct
+
+[308.28 - 314.09999999999997] definition of them and actually this
+
+[311.22 - 318.0] would be really good back matter
+
+[314.1 - 320.22] um for the the you know the little blurb
+
+[318.0 - 322.62] um so you can see that just with one
+
+[320.22 - 325.32000000000005] message it is able to
+
+[322.62 - 327.72] um uh read my entire story up to this
+
+[325.32 - 329.82] point while the summaries at least and
+
+[327.72 - 331.5] we can talk about it obviously I don't
+
+[329.82 - 332.58] want to reveal too much more about my
+
+[331.5 - 334.5] story
+
+[332.58 - 336.419] um you guys know the main characters and
+
+[334.5 - 339.96] a little bit about them
+
+[336.419 - 342.59999999999997] um but yeah so uh give it a try yourself
+
+[339.96 - 344.28] I'm super happy with this
+
+[342.6 - 347.34000000000003] um and the biggest thing that it does is
+
+[344.28 - 349.32] it saves time because again I've got
+
+[347.34 - 351.29999999999995] I've got all of my chapters loaded into
+
+[349.32 - 352.259] it and now I can just ask it whatever I
+
+[351.3 - 353.96000000000004] need
+
+[352.259 - 356.40000000000003] um also I found that this system message
+
+[353.96 - 358.08] it really cuts to the point I'm just
+
+[356.4 - 360.0] like hey let's plan the scenes for the
+
+[358.08 - 361.139] next chapter it's like okay cool let's
+
+[360.0 - 363.18] go
+
+[361.139 - 365.46000000000004] um it does it does do a little bit too
+
+[363.18 - 367.139] much for me but the fact that you don't
+
+[365.46 - 369.539] have to spend too much time going back
+
+[367.139 - 372.06] and forth I think is actually better
+
+[369.539 - 373.8] because it will it'll come up with an
+
+[372.06 - 376.02] idea and say hey do you like this let's
+
+[373.8 - 377.52000000000004] modify it and then you can say yes let's
+
+[376.02 - 379.68] modify it
+
+[377.52 - 382.19899999999996] um so that's probably all you need to
+
+[379.68 - 384.18] know but now we can step through the uh
+
+[382.199 - 386.639] the the function
+
+[384.18 - 388.74] um so I I did a nice clear demarcation
+
+[386.639 - 390.86] this is what I wrote
+
+[388.74 - 393.84000000000003] so just these just these three things
+
+[390.86 - 395.94] open file save file the chat GPT
+
+[393.84 - 398.09999999999997] completion which you can see it's using
+
+[395.94 - 400.319] gpt4
+
+[398.1 - 403.139] um I did I do still have it nested in a
+
+[400.319 - 405.5] while true Loop which is basically just
+
+[403.139 - 408.6] to capture in case um
+
+[405.5 - 411.539] in case the API has an error which it
+
+[408.6 - 414.96000000000004] does all the time lately and then I
+
+[411.539 - 417.479] added this here because if the chat
+
+[414.96 - 420.12] conversation gets too long
+
+[417.479 - 422.09999999999997] um it will it will give you a maximum
+
+[420.12 - 424.199] content length there and so in that case
+
+[422.1 - 426.3] I just removed the oldest message
+
+[424.199 - 426.96000000000004] not a big deal
+
+[426.3 - 430.44] um
+
+[426.96 - 432.539] it actually uh chat gpt4 said why don't
+
+[430.44 - 435.12] you actually measure the tokens and just
+
+[432.539 - 436.56] uh remove it until it's done but I
+
+[435.12 - 439.86] couldn't actually find anything on this
+
+[436.56 - 441.66] the the open AI API client the clean the
+
+[439.86 - 442.62] underscore clean
+
+[441.66 - 444.36] um
+
+[442.62 - 446.4] I think that's a tokenizer but I
+
+[444.36 - 448.68] couldn't find any documentation and I
+
+[446.4 - 451.38] didn't want to try it just yet but
+
+[448.68 - 453.66] anyway so that's there uh let's see
+
+[451.38 - 455.21999999999997] nothing else really changed here
+
+[453.66 - 457.08000000000004] um I still have the exponential back off
+
+[455.22 - 460.5] which basically means that it'll wait
+
+[457.08 - 462.35999999999996] longer and longer to retry until it will
+
+[460.5 - 465.319] finally give up
+
+[462.36 - 468.36] um and it's just because the the the the
+
+[465.319 - 472.5] API is wonky right now now everything
+
+[468.36 - 474.84000000000003] from here down was written by gpt4
+
+[472.5 - 478.259] uh just with some feedback back and
+
+[474.84 - 480.479] forth between myself and gpt4 so
+
+[478.259 - 482.58000000000004] basically it came up with the function
+
+[480.479 - 486.539] to send the message the thread to get
+
+[482.58 - 488.69899999999996] the response I asked it to uh to ignore
+
+[486.539 - 490.919] like if you if you use shift enter it
+
+[488.699 - 492.3] will just insert the um the new line
+
+[490.919 - 493.56] character otherwise it'll send the
+
+[492.3 - 495.599] message
+
+[493.56 - 498.9] um because I realize like that function
+
+[495.599 - 501.479] is available in chat GPT on the web and
+
+[498.9 - 503.94] then finally uh it did every uh
+
+[501.479 - 506.039] basically all it did was it took I gave
+
+[503.94 - 508.68] it this much and you can see here where
+
+[506.039 - 510.419] we populate the system message by
+
+[508.68 - 512.219] loading what you have in the scratch pad
+
+[510.419 - 514.26] it then populates the system message
+
+[512.219 - 517.08] based on this
+
+[514.26 - 520.14] and starts the conversation with that
+
+[517.08 - 523.26] um so the the the system role will be in
+
+[520.14 - 524.399] index zero meaning index one is going to
+
+[523.26 - 525.48] be the oldest message in the
+
+[524.399 - 527.64] conversation
+
+[525.48 - 530.04] so then it fires up the ticket the
+
+[527.64 - 532.019] tokenter GUI oh and for anyone who's not
+
+[530.04 - 534.0] familiar with tokenter um that's what
+
+[532.019 - 536.519] this is it's just it's a really brain
+
+[534.0 - 539.76] dead simple uh portable
+
+[536.519 - 541.86] um uh graphical user interface and so
+
+[539.76 - 544.019] then it constructs it all there's a few
+
+[541.86 - 547.6800000000001] problems when I first created it so one
+
+[544.019 - 550.26] the the window was was static so it
+
+[547.68 - 552.3] wouldn't allow you to expand and then
+
+[550.26 - 553.74] also while it was waiting for the API to
+
+[552.3 - 556.019] respond the whole thing would freeze and
+
+[553.74 - 557.82] say not responding but now it has a
+
+[556.019 - 559.98] little output here that says you know
+
+[557.82 - 563.1600000000001] Auto Muse is thinking
+
+[559.98 - 565.5600000000001] um so welcome to Auto Muse
+
+[563.16 - 567.06] um it gave the uh you know it set to
+
+[565.56 - 569.5799999999999] word wrap
+
+[567.06 - 571.68] um it's yeah so basically it just when I
+
+[569.58 - 574.019] had when I had an issue I just said okay
+
+[571.68 - 576.7199999999999] hey can you make this modification
+
+[574.019 - 579.54] um and away it goes and then again one
+
+[576.72 - 580.86] thing that that I haven't integrated is
+
+[579.54 - 584.04] um being able to search the previous
+
+[580.86 - 588.54] logs but because of the work that I've
+
+[584.04 - 590.519] been doing on um on other topics
+
+[588.54 - 592.74] um that that'll be there now
+
+[590.519 - 595.019] it might not be relevant because once we
+
+[592.74 - 597.0] get to the 32 000 token window limit
+
+[595.019 - 600.18] that's going to be like
+
+[597.0 - 602.58] what like a hundred Pages uh worth of
+
+[600.18 - 605.2199999999999] chat logs like you won't even need that
+
+[602.58 - 608.58] much uh history right so you could load
+
+[605.22 - 610.62] this entire history and you know most of
+
+[608.58 - 613.14] it's going to be irrelevant uh so
+
+[610.62 - 616.14] anyways we'll see I did have a thought
+
+[613.14 - 618.48] uh one final thought about the kinds of
+
+[616.14 - 621.18] problems that we that we solve just by
+
+[618.48 - 623.76] increasing context window
+
+[621.18 - 626.2199999999999] um is amazing and so basically what I'm
+
+[623.76 - 629.64] going to be doing from now on is I'm not
+
+[626.22 - 631.74] even gonna try and and force problems to
+
+[629.64 - 634.04] fit into smaller context Windows because
+
+[631.74 - 637.14] one larger context windows are coming
+
+[634.04 - 639.0] and two the kinds of problems you are
+
+[637.14 - 640.519] able to address once you have that
+
+[639.0 - 643.38] larger amount of working memory
+
+[640.519 - 645.839] completely changes the game
+
+[643.38 - 648.959] um so I was talking with my fiance and
+
+[645.839 - 651.0] some people on Discord and what we're
+
+[648.959 - 653.64] noticing is that we're getting more and
+
+[651.0 - 655.2] more purpose-built models so there are
+
+[653.64 - 657.72] some open source models out there that
+
+[655.2 - 660.5400000000001] have token windows up to 64 000 tokens
+
+[657.72 - 662.94] which is crazy some of them have 16 000
+
+[660.54 - 664.62] tokens so on and so forth so what we
+
+[662.94 - 667.5] expect to happen
+
+[664.62 - 669.839] is that uh we're going to end up with
+
+[667.5 - 672.42] many many many models most of them open
+
+[669.839 - 675.48] source that are purpose built for
+
+[672.42 - 678.66] specific tasks so for instance some
+
+[675.48 - 679.62] models are going to be focused on uh
+
+[678.66 - 682.079] they're going to be like window
+
+[679.62 - 684.24] optimized models right so like we might
+
+[682.079 - 687.5999999999999] eventually have a window optimized model
+
+[684.24 - 690.6] that can have a token uh window of like
+
+[687.6 - 692.76] a thousand uh not a thousand a million
+
+[690.6 - 694.98] tokens right but then we might also have
+
+[692.76 - 696.6] compute optimized models or cognition
+
+[694.98 - 697.86] optimized models
+
+[696.6 - 699.1800000000001] um that sort of stuff and some of the
+
+[697.86 - 700.74] people in Discord are like oh yeah I'm
+
+[699.18 - 702.54] already working on that so that's the
+
+[700.74 - 705.839] way that it's going
+
+[702.54 - 708.18] um and then aside from that uh from just
+
+[705.839 - 710.5790000000001] from a psychological perspective my
+
+[708.18 - 713.2199999999999] fiance pointed out that working memory
+
+[710.579 - 716.76] is actually one of the biggest factor in
+
+[713.22 - 718.26] intelligence and that by by doubling the
+
+[716.76 - 720.8389999999999] working memory the effective working
+
+[718.26 - 723.779] memory by going from gpt3 with a token
+
+[720.839 - 726.839] count of four thousand to gpt4 with a
+
+[723.779 - 729.3] token Window 8 000 doubling the working
+
+[726.839 - 731.7] memory that like basically takes it up
+
+[729.3 - 733.4399999999999] in order of magnitude or a standard
+
+[731.7 - 738.26] deviation of IQ
+
+[733.44 - 740.94] so if GPT 3.5 had an IQ of about 115
+
+[738.26 - 744.3] doubling that that window takes it up
+
+[740.94 - 746.82] another 15 points to about 130
+
+[744.3 - 748.8] um and then when you when you actually
+
+[746.82 - 752.339] if you were to test its IQ based on
+
+[748.8 - 754.9799999999999] speed it's probably already like
+
+[752.339 - 757.44] in the 160s or something
+
+[754.98 - 759.839] um and the so there's there's from from
+
+[757.44 - 762.3000000000001] a from a numbers perspective
+
+[759.839 - 764.0400000000001] two of the universal features of
+
+[762.3 - 766.5] intelligence that figure that should
+
+[764.04 - 769.3199999999999] figure into a good IQ test one is
+
+[766.5 - 772.019] processing so IQ
+
+[769.32 - 775.139] um most IQ tests are actually speed
+
+[772.019 - 777.9590000000001] tests which because speed is a good
+
+[775.139 - 781.38] proxy for a lot of kinds of intelligence
+
+[777.959 - 783.779] so your mental speed is not your IQ but
+
+[781.38 - 786.54] it is a proxy for actual intelligence
+
+[783.779 - 789.899] and so when you measure the speed of
+
+[786.54 - 793.86] gpt3 and gpt4 its IQ is actually really
+
+[789.899 - 795.42] high but then the other universal one of
+
+[793.86 - 796.62] the other Universal things is working
+
+[795.42 - 800.0999999999999] memory
+
+[796.62 - 803.7] so uh working memory is also a really
+
+[800.1 - 805.74] good proxy for uh for intelligence and
+
+[803.7 - 808.38] many forms of intelligence so when you
+
+[805.74 - 810.66] combine the large working memory
+
+[808.38 - 813.18] combined with the speed
+
+[810.66 - 816.4399999999999] um of reading and output I would say
+
+[813.18 - 820.26] gpt4 probably has an effect IQ of around
+
+[816.44 - 822.3000000000001] 130 if I had to guess now that being
+
+[820.26 - 824.1] said it doesn't have permanent memory
+
+[822.3 - 826.26] you have to have a secondary system for
+
+[824.1 - 828.66] that but that paper came out that talked
+
+[826.26 - 831.779] about how storage systems combined with
+
+[828.66 - 834.42] llms are are computationally complete so
+
+[831.779 - 836.279] I'm not worried about that
+
+[834.42 - 838.4399999999999] um yeah so that's that's the direction
+
+[836.279 - 841.56] it's going and that's where we're at
+
+[838.44 - 844.3800000000001] right now so I'm really excited to get
+
+[841.56 - 845.8199999999999] my hands on the 32 000 token one I think
+
+[844.38 - 847.56] that that will also really help with the
+
+[845.82 - 850.2] scientific research one
+
+[847.56 - 851.5189999999999] so I haven't made any progress on oh and
+
+[850.2 - 853.86] I also wanted to show you how expensive
+
+[851.519 - 856.2] it was so yesterday it cost about four
+
+[853.86 - 858.6] to eight dollars to summarize the first
+
+[856.2 - 860.639] 60 of my novel and then the
+
+[858.6 - 862.26] conversations that I had about it so
+
+[860.639 - 864.1800000000001] even just reading all the summaries and
+
+[862.26 - 866.7] talking about it cost another two
+
+[864.18 - 868.7399999999999] dollars and 62 cents which is still kind
+
+[866.7 - 872.0400000000001] of expensive but in the grand scheme of
+
+[868.74 - 873.36] things like it's so fast and it is still
+
+[872.04 - 875.04] a lot more expensive than just the
+
+[873.36 - 877.5600000000001] twenty dollars a month
+
+[875.04 - 878.88] um for the like unlimited chat GPT but
+
+[877.56 - 881.0999999999999] that price will come down I'm not
+
+[878.88 - 883.68] worried about that but anyways so
+
+[881.1 - 885.72] figuring out these chat interfaces and
+
+[883.68 - 887.459] how to handle large amounts of
+
+[885.72 - 890.1600000000001] information and and really how to make
+
+[887.459 - 892.4399999999999] the most use of the system window that
+
+[890.16 - 895.199] is what I'm working on now and I will
+
+[892.44 - 897.6600000000001] return to the um
+
+[895.199 - 899.579] let's see where is it
+
+[897.66 - 901.56] um the yeah the regenerative medicine
+
+[899.579 - 902.8199999999999] thing so I've been thinking about this
+
+[901.56 - 905.459] one
+
+[902.82 - 907.0790000000001] um come on so I got a bunch of papers
+
+[905.459 - 908.579] but the thing is is these papers are
+
+[907.079 - 910.8599999999999] unrelated wow it's already been two
+
+[908.579 - 913.56] weeks good grief
+
+[910.86 - 915.3000000000001] um a lot of these papers are unrelated
+
+[913.56 - 917.04] um which I think
+
+[915.3 - 918.5999999999999] um is kind of problematic although you
+
+[917.04 - 920.88] might think the idea that like cost
+
+[918.6 - 922.62] pollinating stuff like correlating stuff
+
+[920.88 - 925.98] from unrelated papers could be really
+
+[922.62 - 927.9590000000001] good priming exercise so anyways as I'm
+
+[925.98 - 930.779] getting more familiar with the chat GPT
+
+[927.959 - 933.3] API and how to use it I will come back
+
+[930.779 - 934.62] to this because I realized like yeah I
+
+[933.3 - 937.3199999999999] really want to help accelerate science
+
+[934.62 - 938.88] as fast as possible because I'm really
+
+[937.32 - 940.98] looking forward to the day where I can
+
+[938.88 - 942.959] go to the doctor and just like get an
+
+[940.98 - 944.4590000000001] outpatient injection and then of my
+
+[942.959 - 947.8199999999999] joints will feel better in a few months
+
+[944.459 - 950.399] right that's really what I want
+
+[947.82 - 952.1990000000001] um because man like I do not have as
+
+[950.399 - 953.88] much energy as I used to and I have to
+
+[952.199 - 955.62] be really careful because like I have
+
+[953.88 - 957.3] old shoulder entries from falling while
+
+[955.62 - 959.04] snowboarding like there's so much that I
+
+[957.3 - 961.079] can't do anymore just because I don't
+
+[959.04 - 962.76] want to hurt myself anymore
+
+[961.079 - 964.8599999999999] um anyways I'm complaining about getting
+
+[962.76 - 967.26] old it sucks everybody knows that I
+
+[964.86 - 969.9590000000001] think this is enough of the video so
+
+[967.26 - 974.48] thanks for watching cheers stay tuned
+
+[969.959 - 974.4799999999999] um this is this is so much fun

@@ -1,0 +1,1239 @@
+[0.719 - 6.48] morning everybody David Shapiro here
+
+[2.879 - 9.24] with a new video so you probably noticed
+
+[6.48 - 12.420000000000002] a little bit of different setup I'm kind
+
+[9.24 - 16.44] of pimping out my uh my recording setup
+
+[12.42 - 19.98] but today we're going to talk about
+
+[16.44 - 22.740000000000002] um the open AI Democratic inputs to Ai
+
+[19.98 - 24.539] and the gato framework so you guys have
+
+[22.74 - 28.979999999999997] heard me mention the gato framework
+
+[24.539 - 31.199] quite a few times so we're gonna kind of
+
+[28.98 - 33.719] first kind of talk about like this
+
+[31.199 - 35.46] Democratic inputs to AI which is a grant
+
+[33.719 - 38.04] Challenge and then I'll also introduce
+
+[35.46 - 39.42] you to the gato framework which there is
+
+[38.04 - 42.54] some overlap
+
+[39.42 - 46.800000000000004] but the takeaway is that I am the gato
+
+[42.54 - 50.82] Community are going to uh put in a um uh
+
+[46.8 - 53.36] proposal to open ai's challenge so right
+
+[50.82 - 57.480000000000004] off the bat the Democratic inputs to AI
+
+[53.36 - 61.019999999999996] is uh going to be 10 100
+
+[57.48 - 64.32] 000 grants that openai gives in order to
+
+[61.02 - 67.43900000000001] basically democratize the way that they
+
+[64.32 - 70.32] get feedback in order to just to decide
+
+[67.439 - 71.63999999999999] how AI will behave so they give some
+
+[70.32 - 74.27999999999999] examples of what they mean by a
+
+[71.64 - 76.2] democratic process and then they also
+
+[74.28 - 79.38] give a few examples of the kinds of
+
+[76.2 - 79.979] questions that they're going to want to
+
+[79.38 - 82.439] um
+
+[79.979 - 84.84] uh address sorry where did it go here we
+
+[82.439 - 86.22] go so one example is how far do you
+
+[84.84 - 89.159] think the personalization of AI
+
+[86.22 - 90.78] assistance like chat GPT uh to align
+
+[89.159 - 92.88000000000001] with Tayson preferences should go what
+
+[90.78 - 94.38] boundaries if any should exist in this
+
+[92.88 - 96.53999999999999] process
+
+[94.38 - 99.36] so these are the kinds of policy
+
+[96.54 - 102.06] questions that they want to have a
+
+[99.36 - 105.36] scalable system to address
+
+[102.06 - 107.479] and they give you know quite a few
+
+[105.36 - 109.92] examples like Wikipedia Twitter
+
+[107.479 - 112.67999999999999] democracy next so on and so forth so
+
+[109.92 - 114.78] there's all kinds of things uh which
+
+[112.68 - 117.06] with those existing systems you might be
+
+[114.78 - 118.979] what asking like okay well why what's
+
+[117.06 - 120.96000000000001] like What's missing
+
+[118.979 - 124.14] and so there's a few things that they
+
+[120.96 - 125.63999999999999] talk about that they want to uh like the
+
+[124.14 - 128.34] the criteria that they want to address
+
+[125.64 - 130.76] so one evaluation they want to make sure
+
+[128.34 - 133.98] that the evaluation follows
+
+[130.76 - 137.89999999999998] metrics and so on that the methodology
+
+[133.98 - 140.57999999999998] is good robustness obviously you want to
+
+[137.9 - 142.44] make sure that that the resulting
+
+[140.58 - 143.76000000000002] information that you get is robust and
+
+[142.44 - 146.099] defensible
+
+[143.76 - 147.959] but also resistant to trolling and other
+
+[146.099 - 150.56] problems
+
+[147.959 - 154.86] um inclusiveness and representativeness
+
+[150.56 - 157.68] uh you know obviously if you only survey
+
+[154.86 - 159.54000000000002] or pull you know a small majority of
+
+[157.68 - 161.4] people or I guess small minority of
+
+[159.54 - 163.67999999999998] people rather uh you're not going to
+
+[161.4 - 166.68] have a good representation of the global
+
+[163.68 - 168.18] willpower and Global desires of all
+
+[166.68 - 171.3] humans and that's part of the goal here
+
+[168.18 - 175.37900000000002] is that uh pretty much all humans are
+
+[171.3 - 177.0] stakeholders in AI so therefore we need
+
+[175.379 - 178.98] to make sure that we represent everyone
+
+[177.0 - 181.62] on the planet
+
+[178.98 - 184.5] um empowerment of minority opinions so
+
+[181.62 - 185.70000000000002] this is uh one of the hardest problems
+
+[184.5 - 188.58] because
+
+[185.7 - 191.159] when you have a democratic process you
+
+[188.58 - 192.84] often have majority rules which means
+
+[191.159 - 194.4] that you have tyranny of the majority so
+
+[192.84 - 198.239] how do you represent the interests of
+
+[194.4 - 200.94] everyone while also kind of abiding by
+
+[198.239 - 202.8] or following the collective willpower so
+
+[200.94 - 205.319] in that case finding consensus can be
+
+[202.8 - 207.59900000000002] very difficult effective moderation
+
+[205.319 - 210.54] again making sure that stuff stays on
+
+[207.599 - 211.57999999999998] topic so on and so forth scalability so
+
+[210.54 - 213.959] again
+
+[211.58 - 216.06] scalability is one of the chief criteria
+
+[213.959 - 219.239] here because it needs to Encompass the
+
+[216.06 - 221.72] entire planet finally actionability and
+
+[219.239 - 224.70000000000002] legibility these are just kind of
+
+[221.72 - 226.2] boilerplate requirements there's a few
+
+[224.7 - 228.48] other footnotes
+
+[226.2 - 230.28] um but yeah so those are the primary
+
+[228.48 - 232.5] goals is how do you create something
+
+[230.28 - 234.42] that can achieve this and it sounds like
+
+[232.5 - 236.22] a very daunting task but I think that
+
+[234.42 - 238.26] we're up to it
+
+[236.22 - 240.35999999999999] um so with all that said
+
+[238.26 - 243.17999999999998] um uh the gato community and actually
+
+[240.36 - 245.04000000000002] even some of my patreons have already uh
+
+[243.18 - 247.5] expressed interest in participating so
+
+[245.04 - 249.72] we'll get that organized very quickly we
+
+[247.5 - 252.299] have until uh just under a month from
+
+[249.72 - 253.56] now to submit our proposal which I have
+
+[252.299 - 255.48000000000002] no doubt that we'll be able to do
+
+[253.56 - 257.76] considering we pulled the Gatto
+
+[255.48 - 259.44] framework together in four weeks flat
+
+[257.76 - 261.71999999999997] so we have roughly the same amount of
+
+[259.44 - 263.21999999999997] time to do something that is less
+
+[261.72 - 266.1] extensive basically we have to design
+
+[263.22 - 268.02000000000004] one tool or one platform rather than an
+
+[266.1 - 269.88] entire Global movement so
+
+[268.02 - 271.44] I have alluded to the gato framework
+
+[269.88 - 273.3] quite a few times so let's talk about
+
+[271.44 - 274.919] the gato framework
+
+[273.3 - 278.28000000000003] so you can learn about our gato
+
+[274.919 - 280.28] framework here on gotta framework.org
+
+[278.28 - 284.03999999999996] it is a global
+
+[280.28 - 286.61999999999995] decentralized movement to achieve uh
+
+[284.04 - 290.46000000000004] first and foremost Utopia which we
+
+[286.62 - 292.62] Define utopia quite simply as a world
+
+[290.46 - 295.25899999999996] state where everyone on the planet has
+
+[292.62 - 297.54] high standard of living a high
+
+[295.259 - 298.74] individual liberty and also high social
+
+[297.54 - 302.04] Mobility
+
+[298.74 - 304.86] so obviously the word Utopia often has a
+
+[302.04 - 307.199] lot of baggage associated with it uh you
+
+[304.86 - 308.759] know whether you think Star Trek or
+
+[307.199 - 310.74] something else and Utopia means
+
+[308.759 - 313.38] different things to different people but
+
+[310.74 - 317.52] in terms of universal principles and
+
+[313.38 - 320.699] also measurable like kpi or metrics we
+
+[317.52 - 322.74] we Define utopia as uh you know high
+
+[320.699 - 325.32] standard of living High individual
+
+[322.74 - 327.72] liberty and high social Mobility if we
+
+[325.32 - 330.0] get those three criteria to be Global we
+
+[327.72 - 333.90000000000003] will consider that success now also
+
+[330.0 - 336.0] Gatto is meant to avoid dystopia so on
+
+[333.9 - 339.23999999999995] one hand you have Utopia versus dystopia
+
+[336.0 - 341.699] but we also aim to avoid cataclysmic
+
+[339.24 - 342.78000000000003] outcomes by solving problems such as a
+
+[341.699 - 345.12] coordination problem at Daniel
+
+[342.78 - 347.82] schmachtenberger and Liv bori talk about
+
+[345.12 - 351.06] with Malik you've probably seen some of
+
+[347.82 - 353.82] my other videos and the goal there is to
+
+[351.06 - 357.479] avoid extinction by creating Global
+
+[353.82 - 359.759] consensus around how to align AI which
+
+[357.479 - 362.94] is a very comprehensive process we'll
+
+[359.759 - 366.41900000000004] we'll go into it just a little bit but
+
+[362.94 - 369.3] basically it is a decentralized layered
+
+[366.419 - 371.94] approach to achieving Global alignment
+
+[369.3 - 375.36] so for instance the first layer is model
+
+[371.94 - 377.21999999999997] alignment model alignment as the low
+
+[375.36 - 379.86] level things such as building and
+
+[377.22 - 382.08000000000004] training and fine-tuning individual
+
+[379.86 - 384.3] language models and other AI models
+
+[382.08 - 386.21999999999997] multimodal models as they come so we'll
+
+[384.3 - 388.919] address problems like fine-tuning Mesa
+
+[386.22 - 391.199] optimization inner alignment and so on
+
+[388.919 - 393.12] but it's important to remember that
+
+[391.199 - 396.24] model alignment is only one small
+
+[393.12 - 399.66] component of achieving Utopia avoiding
+
+[396.24 - 401.759] dystopia and avoiding Extinction yes we
+
+[399.66 - 404.58000000000004] uh we believe that there will come a
+
+[401.759 - 406.68] time when AI becomes super intelligent
+
+[404.58 - 409.85999999999996] and it cannot be contained and we have
+
+[406.68 - 411.96] to get it right before that happens but
+
+[409.86 - 414.12] even before that we could end up in
+
+[411.96 - 417.65999999999997] dystopia right so there's kind of a
+
+[414.12 - 420.12] gated process so model alignment even
+
+[417.66 - 423.3] Sam Altman has said that rlhf is not the
+
+[420.12 - 425.28000000000003] not the way to get you know solve the
+
+[423.3 - 427.74] control problem but it's a good way to
+
+[425.28 - 428.46] make a good chat bot so we're aligned
+
+[427.74 - 432.539] there
+
+[428.46 - 433.979] the next phase is autonomous systems so
+
+[432.539 - 436.5] one thing that a lot of people are
+
+[433.979 - 438.479] afraid of in the long run is Runaway
+
+[436.5 - 440.759] autonomous AI basically super
+
+[438.479 - 443.34] intelligence that has no leash that has
+
+[440.759 - 445.62] no shackles and so one of the reasons
+
+[443.34 - 448.5] that we advocate for building autonomous
+
+[445.62 - 451.44] systems today is because we need to
+
+[448.5 - 453.72] practice uh building these systems to
+
+[451.44 - 455.819] understand the architectures and the
+
+[453.72 - 458.03900000000004] behaviors for instance one of the things
+
+[455.819 - 460.44] that people suspect will happen is
+
+[458.039 - 463.56] instrumental convergence instrumental
+
+[460.44 - 465.84] convergence is the idea that AI systems
+
+[463.56 - 468.539] no matter what objectives you give them
+
+[465.84 - 470.46] they will want things like to protect
+
+[468.539 - 471.3] power to get more data that sort of
+
+[470.46 - 474.0] stuff
+
+[471.3 - 476.759] and so by by practicing building
+
+[474.0 - 478.5] autonomous systems today we can go ahead
+
+[476.759 - 480.66] and start researching and understanding
+
+[478.5 - 483.539] one how to make autonomous systems
+
+[480.66 - 486.0] stable even as they change and improve
+
+[483.539 - 488.699] themselves we can also figure out what
+
+[486.0 - 490.319] needs to go into automating their
+
+[488.699 - 492.479] internal learning processes and stuff
+
+[490.319 - 494.88] because super intelligence was never
+
+[492.479 - 497.699] ever going to be a single model right
+
+[494.88 - 500.759] it's not going to be gpt7 you know in a
+
+[497.699 - 502.319] robot autonomous systems from a software
+
+[500.759 - 504.47900000000004] and Hardware perspective are going to be
+
+[502.319 - 506.759] very complex systems so we need to start
+
+[504.479 - 508.02] working on these today and you know in
+
+[506.759 - 510.78000000000003] point of fact people have already
+
+[508.02 - 511.85999999999996] started working on autonomous systems
+
+[510.78 - 513.3] and they're only going to get more
+
+[511.86 - 516.1800000000001] powerful over time
+
+[513.3 - 519.3] layer 3 of the gato framework
+
+[516.18 - 520.919] is the advocacy of using decentralized
+
+[519.3 - 524.52] Technologies such as blockchain and
+
+[520.919 - 527.279] federations in order to uh basically
+
+[524.52 - 529.8] first solve the problem of in the future
+
+[527.279 - 532.38] AI will spend more time talking to each
+
+[529.8 - 534.7199999999999] other than to us so we need to create a
+
+[532.38 - 536.399] framework that includes things such as
+
+[534.72 - 539.58] consensus mechanisms as well as
+
+[536.399 - 542.339] reputation management systems because
+
+[539.58 - 544.5600000000001] the thing is is in the future you're not
+
+[542.339 - 547.9200000000001] going to be able to look at the code or
+
+[544.56 - 549.959] data or design of every autonomous agent
+
+[547.92 - 551.8199999999999] out there but instead you can look at
+
+[549.959 - 554.5799999999999] the behavior of those agents and track
+
+[551.82 - 557.4590000000001] it over time and so then what we can do
+
+[554.58 - 559.14] is embed alignment algorithms into those
+
+[557.459 - 561.959] decentralized networks and those
+
+[559.14 - 563.9399999999999] decentralized networks can be used to
+
+[561.959 - 567.899] gatekeep resources like data network
+
+[563.94 - 571.5600000000001] access power and compute and that will
+
+[567.899 - 574.8] actually change the the instrumental
+
+[571.56 - 577.0799999999999] convergence meaning that autonomous AI
+
+[574.8 - 579.66] agents will be incentivized to
+
+[577.08 - 582.6600000000001] self-align if they want access to things
+
+[579.66 - 584.399] like power data and compute and that
+
+[582.66 - 587.899] that decentralized network will also
+
+[584.399 - 590.16] create a layer that that allows for easy
+
+[587.899 - 592.92] collaboration between humans and AI
+
+[590.16 - 595.3199999999999] because again blockchain Dows and other
+
+[592.92 - 597.18] decentralized Technologies allow for
+
+[595.32 - 600.24] Collective consensus to be achieved
+
+[597.18 - 602.76] before making decisions and actions and
+
+[600.24 - 605.58] that will be the kind of the the fabric
+
+[602.76 - 607.68] that pulls humans and AI together
+
+[605.58 - 609.48] and so those first three layers are the
+
+[607.68 - 612.18] technical layers those these are the
+
+[609.48 - 614.279] coding data and cryptographic problems
+
+[612.18 - 616.14] that goto aims to solve
+
+[614.279 - 618.6] but it's not going to be a centralized
+
+[616.14 - 622.019] effort this is just a road map that
+
+[618.6 - 625.2] anyone can follow and so then the top
+
+[622.019 - 627.48] four layers of gato are more about the
+
+[625.2 - 630.24] social geopolitical and economic layers
+
+[627.48 - 632.7] so for instance number four layer four
+
+[630.24 - 634.86] is Corporate adoption we have one simple
+
+[632.7 - 637.62] Mantra which is aligned AI is good for
+
+[634.86 - 640.76] business fortunately it seems like some
+
+[637.62 - 643.08] companies open AI Microsoft and IBM
+
+[640.76 - 644.7] believe this at least in principle at
+
+[643.08 - 646.2] least in word
+
+[644.7 - 648.12] um you know obviously actions speak
+
+[646.2 - 651.779] louder than words and so we will see
+
+[648.12 - 653.76] what actions they take over time but the
+
+[651.779 - 655.86] general principle is and many of my
+
+[653.76 - 657.72] patreon supporters already get this and
+
+[655.86 - 660.0600000000001] know this where you know I help them
+
+[657.72 - 662.0600000000001] with understanding AI alignment and they
+
+[660.06 - 664.26] say this is obviously good for business
+
+[662.06 - 665.459] aligned AI is good for business for a
+
+[664.26 - 667.3199999999999] number of reasons
+
+[665.459 - 669.7199999999999] now the least of which is that it's more
+
+[667.32 - 671.7] trustworthy and more scalable the more
+
+[669.72 - 673.5] aligned an AI system is the more
+
+[671.7 - 675.779] trustworthy it is and therefore the less
+
+[673.5 - 677.7] supervision it requires which means that
+
+[675.779 - 680.82] it is more scalable and can take on more
+
+[677.7 - 683.1600000000001] workload faster so in this respect we
+
+[680.82 - 685.44] hope that this pattern proves out over
+
+[683.16 - 687.899] longer periods of time which means that
+
+[685.44 - 689.6600000000001] those businesses that adopt aligned AI
+
+[687.899 - 691.56] will simply do better in the long run
+
+[689.66 - 693.7199999999999] and they will have a competitive
+
+[691.56 - 696.3599999999999] Advantage obviously we can't count on
+
+[693.72 - 698.519] this forever which is why we also
+
+[696.36 - 701.64] advocate for National regulation
+
+[698.519 - 703.579] now fortunately we have seen calls for
+
+[701.64 - 706.1999999999999] National regulation already
+
+[703.579 - 709.14] ranging in you know from empowering
+
+[706.2 - 710.7] existing agencies like the FTC SEC and
+
+[709.14 - 712.68] so on and so forth and those are of
+
+[710.7 - 714.3000000000001] course American entities
+
+[712.68 - 716.459] um pretty much every nation has
+
+[714.3 - 718.74] regulatory bodies that are already in
+
+[716.459 - 722.399] place that could be empowered to help
+
+[718.74 - 724.44] regulate AI now that being said there's
+
+[722.399 - 726.98] also a case to be made for advocating
+
+[724.44 - 730.2] for an AI specific entity
+
+[726.98 - 731.64] we're not going to take uh gato is not
+
+[730.2 - 734.5790000000001] going to take a position one way or
+
+[731.64 - 738.3] another but we do advocate for National
+
+[734.579 - 740.8199999999999] regulation of some kind across the world
+
+[738.3 - 742.019] and this National regulation is not just
+
+[740.82 - 742.74] about
+
+[742.019 - 745.32] um
+
+[742.74 - 747.3] punishing or constraining we also
+
+[745.32 - 749.519] advocate for incentivizing aligned
+
+[747.3 - 752.279] Behavior such as through research grants
+
+[749.519 - 754.68] and and other Financial incentives maybe
+
+[752.279 - 757.4399999999999] even including tax breaks for companies
+
+[754.68 - 760.14] that meet alignment standards similar to
+
+[757.44 - 763.2600000000001] how there are carbon credits for
+
+[760.14 - 765.3] instance as one example of incentivizing
+
+[763.26 - 768.8389999999999] the behavior that you want to see with
+
+[765.3 - 770.6999999999999] financial gains again we believe that
+
+[768.839 - 772.2600000000001] aligned AI is its own Financial
+
+[770.7 - 774.9590000000001] incentive but not everyone's going to
+
+[772.26 - 778.5] believe that one example that I like to
+
+[774.959 - 780.66] use is when smoking was banned from bars
+
+[778.5 - 782.16] and restaurants when smoking was banned
+
+[780.66 - 783.8389999999999] from bars and restaurants it actually
+
+[782.16 - 786.66] increased patronage of bars and
+
+[783.839 - 789.0] restaurants because a few bad actors AKA
+
+[786.66 - 790.8] people that wanted to smoke inside that
+
+[789.0 - 793.139] behavior was that noxious Behavior was
+
+[790.8 - 794.9399999999999] no longer allowed and so then businesses
+
+[793.139 - 796.6800000000001] all benefited and now it's just a
+
+[794.94 - 798.72] foregone conclusion that you shouldn't
+
+[796.68 - 800.399] allow smoking inside
+
+[798.72 - 803.339] that is the kind of nature of national
+
+[800.399 - 805.68] regulation so if we ban misaligned AI
+
+[803.339 - 808.0790000000001] it'll bring more people to the table
+
+[805.68 - 811.1389999999999] uh number six is international treaty
+
+[808.079 - 813.3] sogato advocates for the creation of
+
+[811.139 - 815.5790000000001] international agencies
+
+[813.3 - 818.2199999999999] um openai recently published that they
+
+[815.579 - 820.8599999999999] are advocating for an agency model
+
+[818.22 - 823.6800000000001] perhaps on the the iaea the
+
+[820.86 - 825.839] international atomic energy agency which
+
+[823.68 - 829.579] is a regulator that performs inspections
+
+[825.839 - 832.94] and other uh other uh functions around
+
+[829.579 - 835.3199999999999] nuclear uh energy and nuclear enrichment
+
+[832.94 - 837.899] we don't necessarily disagree with that
+
+[835.32 - 840.3000000000001] but we think that it should be yes and
+
+[837.899 - 843.72] sogato advocates for the creation of an
+
+[840.3 - 845.399] entity like CERN which is primarily a
+
+[843.72 - 846.5600000000001] research organization rather than a
+
+[845.399 - 849.18] regulatory
+
+[846.56 - 850.9799999999999] organization and the reason that we
+
+[849.18 - 853.5] advocate for international
+
+[850.98 - 855.839] um cooperation on AI research is because
+
+[853.5 - 858.12] again we believe that eventually one day
+
+[855.839 - 860.1] we are going to lose control of the AI
+
+[858.12 - 862.019] in which case human regulation won't
+
+[860.1 - 865.5] matter so what we need to do is actually
+
+[862.019 - 867.899] focus more resources on understanding
+
+[865.5 - 870.12] alignment and autonomous systems and how
+
+[867.899 - 872.639] to create what we call axiomatic
+
+[870.12 - 875.3] alignment so axiomatic alignment is one
+
+[872.639 - 879.0600000000001] of the goal states of the gato framework
+
+[875.3 - 882.18] wherein alignment is very difficult for
+
+[879.06 - 885.06] AI to deviate from due to a saturation
+
+[882.18 - 887.0999999999999] of aligned models aligned data sets and
+
+[885.06 - 889.199] what we also call epistemic Convergence
+
+[887.1 - 891.72] which is the idea it's very similar to
+
+[889.199 - 893.579] to instrumental convergence but the idea
+
+[891.72 - 895.8000000000001] of epistemic convergence
+
+[893.579 - 896.76] is that any sufficiently intelligent
+
+[895.8 - 899.399] entity
+
+[896.76 - 902.8199999999999] uh no matter where they start they ought
+
+[899.399 - 904.92] to come to some similar conclusions uh
+
+[902.82 - 908.5790000000001] you know with obviously some variants
+
+[904.92 - 910.38] but by intersecting with the same laws
+
+[908.579 - 913.26] of physics the same universe the same
+
+[910.38 - 915.3] galaxy the same Planet pretty much any
+
+[913.26 - 916.38] sufficiently and intelligent entity
+
+[915.3 - 918.54] ought to come to some similar
+
+[916.38 - 920.48] conclusions and then finally the top
+
+[918.54 - 923.0999999999999] layer of gato is global consensus
+
+[920.48 - 926.279] wherein we use exponential Technologies
+
+[923.1 - 929.22] like AI social media and so on in order
+
+[926.279 - 931.32] to create Outreach Outreach into the
+
+[929.22 - 933.9590000000001] academic institutions into primary
+
+[931.32 - 935.0400000000001] education into industry so on and so
+
+[933.959 - 936.8389999999999] forth and that's why I've been doing
+
+[935.04 - 939.24] more interviews for instance
+
+[936.839 - 942.12] so those are the layers of gotcha
+
+[939.24 - 943.44] and taken all together the goal is to
+
+[942.12 - 946.019] again achieve
+
+[943.44 - 948.72] excuse me Utopia avoid dystopia and
+
+[946.019 - 950.399] avoid collapse and each of these layers
+
+[948.72 - 952.1990000000001] you don't have to eat the whole elephant
+
+[950.399 - 954.24] the idea is that whatever your
+
+[952.199 - 956.639] specialization is you can participate in
+
+[954.24 - 958.44] gato without saying like yes I am a got
+
+[956.639 - 959.82] to employee or whatever that's not the
+
+[958.44 - 961.9200000000001] point
+
+[959.82 - 964.32] um we also have the gato Traditions
+
+[961.92 - 967.26] which is a set of 10 kind of principles
+
+[964.32 - 969.9590000000001] or behaviors that everyone can engage in
+
+[967.26 - 973.3199999999999] to help Advance this initiative towards
+
+[969.959 - 975.06] Global alignment so the first tradition
+
+[973.32 - 977.88] is start where you are use what you have
+
+[975.06 - 979.68] do what you can basically this says that
+
+[977.88 - 981.06] whatever you're capable of whatever your
+
+[979.68 - 983.3389999999999] passions are and your strengths are you
+
+[981.06 - 985.3199999999999] can use them so for instance I get a lot
+
+[983.339 - 986.8800000000001] of messages by people saying like you
+
+[985.32 - 988.86] know oh well I'm just a lawyer I don't
+
+[986.88 - 990.66] know anything about AI or I'm a graphic
+
+[988.86 - 992.5790000000001] artist or you know I just use Twitter
+
+[990.66 - 994.139] and make memes whatever it is that
+
+[992.579 - 996.42] you're capable of doing you can advance
+
+[994.139 - 999.0600000000001] the initiative of AI so for instance
+
+[996.42 - 1001.8199999999999] there's a Twitter uh feed out there what
+
+[999.06 - 1002.779] is it the the AI safety memes um Twitter
+
+[1001.82 - 1005.4200000000001] feed
+
+[1002.779 - 1008.12] if that's all you do that's fine
+
+[1005.42 - 1011.36] um if you're a lawyer you can look at uh
+
+[1008.12 - 1013.279] at gato and AI alignment from a legal
+
+[1011.36 - 1014.899] perspective or from a business policy
+
+[1013.279 - 1016.88] perspective or whatever your perspective
+
+[1014.899 - 1019.519] is you have something that you can
+
+[1016.88 - 1021.86] contribute and by everyone contributing
+
+[1019.519 - 1024.02] in a decentralized manner we can solve
+
+[1021.86 - 1026.3600000000001] that coordination problem
+
+[1024.02 - 1028.819] um that that like I said that uh Daniel
+
+[1026.36 - 1030.74] smacktenberger and live Bowie point out
+
+[1028.819 - 1034.3999999999999] principle number two is work towards
+
+[1030.74 - 1036.439] consensus so while Global consensus is
+
+[1034.4 - 1039.14] not fully possible we're not ever going
+
+[1036.439 - 1040.939] to come to a unanimous decision that
+
+[1039.14 - 1043.16] doesn't mean that that the idea of
+
+[1040.939 - 1046.0400000000002] consensus is not valuable and very
+
+[1043.16 - 1048.8600000000001] helpful in this process because what I
+
+[1046.04 - 1051.32] mean by that is that when you have
+
+[1048.86 - 1053.4189999999999] consensus as an as a principle as an
+
+[1051.32 - 1054.62] ideal you're going to you're going to
+
+[1053.419 - 1056.7800000000002] listen more you're going to listen
+
+[1054.62 - 1059.4799999999998] differently and you're also going to
+
+[1056.78 - 1062.0] find more novel and unique and Creative
+
+[1059.48 - 1064.64] Solutions that that strive to meet
+
+[1062.0 - 1066.86] everyone's needs and desires
+
+[1064.64 - 1069.5590000000002] number three is broadcast your findings
+
+[1066.86 - 1071.9599999999998] which is uh basically don't keep things
+
+[1069.559 - 1074.12] locked up we very much advocate for open
+
+[1071.96 - 1076.52] source open communication knowledge
+
+[1074.12 - 1078.5] sharing and so on because knowledge
+
+[1076.52 - 1080.12] sharing and broadcasting good
+
+[1078.5 - 1081.62] information is part of building
+
+[1080.12 - 1083.36] consensus
+
+[1081.62 - 1086.8999999999999] number four is think globally act
+
+[1083.36 - 1089.1789999999999] locally so think globally the problem of
+
+[1086.9 - 1092.1200000000001] solving AI alignment is a global problem
+
+[1089.179 - 1096.0800000000002] it is as Global as you know nuclear
+
+[1092.12 - 1099.02] deterrent or or you know climate change
+
+[1096.08 - 1100.82] right this is a global problem now that
+
+[1099.02 - 1103.28] being said none of us have a global
+
+[1100.82 - 1106.6399999999999] reach or Global influence right I'm on
+
+[1103.28 - 1108.86] YouTube I do have global-ish audience
+
+[1106.64 - 1112.039] but I can still only do you know
+
+[1108.86 - 1114.559] something with my own hands right and so
+
+[1112.039 - 1115.58] by Distributing the workload and acting
+
+[1114.559 - 1117.32] locally
+
+[1115.58 - 1120.08] but keeping in mind that this is a
+
+[1117.32 - 1123.32] global problem we can work together
+
+[1120.08 - 1125.6] number five in it to win it this is for
+
+[1123.32 - 1127.8799999999999] all the cookies basically we achieve you
+
+[1125.6 - 1129.6789999999999] as many people point out like we either
+
+[1127.88 - 1131.7800000000002] achieve Utopia by solving all these
+
+[1129.679 - 1134.419] problems or we're on an inevitable
+
+[1131.78 - 1137.6] downslide towards dystopia collapse and
+
+[1134.419 - 1139.3400000000001] then finally Extinction so this is what
+
+[1137.6 - 1141.62] some people say a binary outcome or a
+
+[1139.34 - 1143.059] bimodal outcome where it's we solve this
+
+[1141.62 - 1144.5] or we don't
+
+[1143.059 - 1147.5] excuse me
+
+[1144.5 - 1149.48] number six is Step Up So Step Up talks
+
+[1147.5 - 1151.46] about if there's something that you see
+
+[1149.48 - 1153.5] that you can do you can advocate in your
+
+[1151.46 - 1156.02] community in your company
+
+[1153.5 - 1157.22] um in your family whatever step up speak
+
+[1156.02 - 1160.82] out
+
+[1157.22 - 1162.799] um it could also be uh if you if gato
+
+[1160.82 - 1165.3799999999999] aligns with you download the framework
+
+[1162.799 - 1167.84] start your own uh gato Community or join
+
+[1165.38 - 1169.94] a community that is aligned with gato
+
+[1167.84 - 1172.8799999999999] and start sharing and start doing the
+
+[1169.94 - 1174.919] work but it it got to will not succeed
+
+[1172.88 - 1176.9] if everyone is passive that is the key
+
+[1174.919 - 1179.48] thing here number seven is think
+
+[1176.9 - 1181.1000000000001] exponentially as I mentioned we very
+
+[1179.48 - 1183.38] much Advocate using exponential
+
+[1181.1 - 1185.7199999999998] Technologies namely social media and
+
+[1183.38 - 1187.5800000000002] artificial intelligence if you can
+
+[1185.72 - 1189.5] create an AI tool that helps Advance
+
+[1187.58 - 1192.3799999999999] alignment whether it's by building
+
+[1189.5 - 1194.48] consensus or solving problems do it if
+
+[1192.38 - 1198.2600000000002] you have a communication platform
+
+[1194.48 - 1200.1200000000001] podcast memes reddits whatever
+
+[1198.26 - 1202.22] and use those exponential Technologies
+
+[1200.12 - 1205.039] and those Network effects to get the
+
+[1202.22 - 1208.52] message out to build consensus and to do
+
+[1205.039 - 1211.28] uh more with less basically number eight
+
+[1208.52 - 1213.98] is trust the process we are not the
+
+[1211.28 - 1216.62] first decentralized Global movement and
+
+[1213.98 - 1218.78] we won't be the last but the point is is
+
+[1216.62 - 1221.4189999999999] that decentralized Global movements do
+
+[1218.78 - 1225.26] work and in the gato framework we list
+
+[1221.419 - 1227.419] about I think 8 or 11 different uh
+
+[1225.26 - 1228.86] decentralized movements that we uh took
+
+[1227.419 - 1231.74] inspiration from
+
+[1228.86 - 1234.02] and so yes you're only going to see your
+
+[1231.74 - 1235.94] little narrow part but if everyone is
+
+[1234.02 - 1237.86] doing the same thing in parallel even
+
+[1235.94 - 1239.059] though you don't see it you trust that
+
+[1237.86 - 1241.34] it's out there and that they are doing
+
+[1239.059 - 1243.2] it number nine is strike while the iron
+
+[1241.34 - 1245.4189999999999] is hot there are going to be plenty of
+
+[1243.2 - 1248.8400000000001] opportunities out here and this one is
+
+[1245.419 - 1251.539] exactly what this policy or sorry this
+
+[1248.84 - 1253.3999999999999] tradition means is open AI presented an
+
+[1251.539 - 1255.32] opportunity so we're going to make use
+
+[1253.4 - 1257.0] of that opportunity and so we're going
+
+[1255.32 - 1259.22] to strike while the iron's hot
+
+[1257.0 - 1261.86] and finally tradition number 10 divide
+
+[1259.22 - 1263.6000000000001] and conquer again everyone is going to
+
+[1261.86 - 1265.34] be working in parallel to solve
+
+[1263.6 - 1267.62] alignment and not everyone's going to
+
+[1265.34 - 1270.4399999999998] agree but that's okay right we will work
+
+[1267.62 - 1274.1599999999999] towards consensus over time so that is
+
+[1270.44 - 1275.72] the uh got to layers and traditions many
+
+[1274.16 - 1277.7] of you have said that you want to get
+
+[1275.72 - 1280.88] involved you don't need our permission
+
+[1277.7 - 1283.24] to get involved however you can apply to
+
+[1280.88 - 1285.679] join the main gato Community
+
+[1283.24 - 1288.14] with this form we do have it
+
+[1285.679 - 1290.0590000000002] automatically piped into our Discord and
+
+[1288.14 - 1293.48] we automatically or not automatically
+
+[1290.059 - 1298.34] but we can all uh vote on accepting
+
+[1293.48 - 1299.84] members or not we also have a um first I
+
+[1298.34 - 1301.76] need to tell everyone we are way behind
+
+[1299.84 - 1303.5] on accepting people we also haven't
+
+[1301.76 - 1307.0] fully automated the onboarding and
+
+[1303.5 - 1309.799] invitation process so if you did apply
+
+[1307.0 - 1311.36] on the old form we haven't gotten to you
+
+[1309.799 - 1313.94] and you need to apply on the new form
+
+[1311.36 - 1316.039] and number two if you don't get accepted
+
+[1313.94 - 1317.659] first be patient because we're trying to
+
+[1316.039 - 1322.28] get to everyone in automate as much of
+
+[1317.659 - 1324.0800000000002] it as possible and number two if you're
+
+[1322.28 - 1325.46] not accepted that doesn't necessarily
+
+[1324.08 - 1328.039] mean that you don't have something to
+
+[1325.46 - 1329.3600000000001] contribute but we we need to make sure
+
+[1328.039 - 1331.34] that we don't have too many cooks in the
+
+[1329.36 - 1332.84] kitchen right and so what we're going to
+
+[1331.34 - 1335.48] be doing is setting up morgato
+
+[1332.84 - 1337.6999999999998] communities that are more open
+
+[1335.48 - 1339.64] um for everyone to join
+
+[1337.7 - 1341.659] um so you know don't take it personally
+
+[1339.64 - 1344.24] because there's plenty of people that
+
+[1341.659 - 1345.919] that do have something to contribute but
+
+[1344.24 - 1348.679] that we just don't have a role for in
+
+[1345.919 - 1350.2990000000002] the main gato Community yet and then
+
+[1348.679 - 1352.94] finally
+
+[1350.299 - 1355.46] um if you uh if you're ready to
+
+[1352.94 - 1359.059] participate we have two documents so one
+
+[1355.46 - 1362.179] is the main gato framework which is a 70
+
+[1359.059 - 1364.8799999999999] page document that outlines everything
+
+[1362.179 - 1366.44] that I've said here and more including
+
+[1364.88 - 1370.4] lots and lots of suggestions
+
+[1366.44 - 1371.48] explanations as to why how and so on you
+
+[1370.4 - 1374.0] know whether you want to Advocate
+
+[1371.48 - 1376.94] forgotto or participate in one layer or
+
+[1374.0 - 1379.7] even we have recommendations on how to
+
+[1376.94 - 1381.74] set up your own gato community
+
+[1379.7 - 1383.6000000000001] and then the other document is a
+
+[1381.74 - 1385.52] one-page handout which I actually take
+
+[1383.6 - 1387.5] this to meetup groups now which it's if
+
+[1385.52 - 1389.48] you just want to give someone a really
+
+[1387.5 - 1392.12] high level snapshot of gato it's a
+
+[1389.48 - 1394.82] one-page handout that um that you can
+
+[1392.12 - 1397.6999999999998] use to share the idea to kind of plant
+
+[1394.82 - 1399.5] those seeds and and get the conversation
+
+[1397.7 - 1401.1200000000001] started
+
+[1399.5 - 1404.179] um that is about it for the gato
+
+[1401.12 - 1407.12] Community we also have a few more pages
+
+[1404.179 - 1409.46] such as like news and updates
+
+[1407.12 - 1411.08] um for anything that is uh happening
+
+[1409.46 - 1412.28] with the gato Community or relevant to
+
+[1411.08 - 1414.5] us we actually need to update this
+
+[1412.28 - 1416.0] because I've had a few more podcasts and
+
+[1414.5 - 1418.46] then we have a Community Showcase page
+
+[1416.0 - 1420.799] where we'll be accumulating
+
+[1418.46 - 1423.799] um use cases business cases and Other
+
+[1420.799 - 1427.28] Stories of successes
+
+[1423.799 - 1430.6399999999999] um relate related to AI alignment and
+
+[1427.28 - 1432.32] adoption so for instance we have a few
+
+[1430.64 - 1434.96] other projects a few other irons in the
+
+[1432.32 - 1436.8799999999999] fire that will get updated as those get
+
+[1434.96 - 1439.4] completed we've got folks participating
+
+[1436.88 - 1441.38] in hackathons then of course we've got
+
+[1439.4 - 1443.72] you know got to will be participating in
+
+[1441.38 - 1445.0390000000002] the Democratic inputs the AI that sort
+
+[1443.72 - 1447.2] of thing so
+
+[1445.039 - 1449.0] if all of this resonates with you if you
+
+[1447.2 - 1450.5] want to solve this problem and this is
+
+[1449.0 - 1453.74] this is going to be true whether or not
+
+[1450.5 - 1456.14] you believe that AGI is imminent or not
+
+[1453.74 - 1458.1200000000001] this is gonna like got to as valid
+
+[1456.14 - 1460.3400000000001] whether or not you believe that AI
+
+[1458.12 - 1462.7399999999998] represents an existential threat because
+
+[1460.34 - 1465.799] whatever else is true AI is disrupting
+
+[1462.74 - 1467.24] the economy today so there are alignment
+
+[1465.799 - 1469.1] questions that we need to solve today
+
+[1467.24 - 1471.679] and there are coordination problems we
+
+[1469.1 - 1474.799] need to solve today regardless of where
+
+[1471.679 - 1476.6000000000001] AI ultimately ends up so with all that
+
+[1474.799 - 1479.12] thanks for watching I hope you got a lot
+
+[1476.6 - 1482.9189999999999] out of this and uh yeah stay tuned for
+
+[1479.12 - 1482.9189999999999] more we will keep up the hard work

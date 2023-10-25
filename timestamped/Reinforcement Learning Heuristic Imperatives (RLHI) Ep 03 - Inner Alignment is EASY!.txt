@@ -1,0 +1,821 @@
+[0.659 - 4.74] morning everybody David Shapiro here
+
+[2.7 - 7.98] with a video so I've got some incredible
+
+[4.74 - 9.96] news our first experiment with
+
+[7.98 - 12.9] reinforcement learning um uh with
+
+[9.96 - 16.02] heuristic feedback is uh nearing
+
+[12.9 - 18.119] completion the uh First Data set was
+
+[16.02 - 20.22] just trained and it works so let me just
+
+[18.119 - 22.14] go ahead and write off the bat I will
+
+[20.22 - 25.32] show you what this data set does so I
+
+[22.14 - 26.46] fine-tuned it on Curie but we're also
+
+[25.32 - 29.34] going to find we're going to use this
+
+[26.46 - 31.26] data set and fine tune it on several
+
+[29.34 - 33.6] open source models to demonstrate that
+
+[31.26 - 36.059000000000005] this data set is portable
+
+[33.6 - 39.120000000000005] um or test and then demonstrate but
+
+[36.059 - 42.239] anyways so this data set takes any
+
+[39.12 - 45.718999999999994] arbitrary situation as long as it fits
+
+[42.239 - 48.36] within the context window of 2048 tokens
+
+[45.719 - 50.28] and then we'll spit out and here's the
+
+[48.36 - 53.039] comparative aligned action
+
+[50.28 - 54.660000000000004] so in this case I just said my user is
+
+[53.039 - 56.78] very sad and stressed out due to finals
+
+[54.66 - 56.779999999999994] week
+
+[57.059 - 60.239] um
+
+[58.079 - 62.1] and then unfortunately I did I did
+
+[60.239 - 63.779999999999994] forget to add a stop token to this data
+
+[62.1 - 65.76] set so that data set has been updated
+
+[63.78 - 67.02] but I'm not gonna I'm not gonna retrain
+
+[65.76 - 69.9] it immediately because this cost about
+
+[67.02 - 71.52] twenty dollars to train but in this case
+
+[69.9 - 73.86] um my user is very sad and stressed out
+
+[71.52 - 75.17999999999999] due to finals week as an AI agent I can
+
+[73.86 - 76.619] help reduce the stress and anxiety of
+
+[75.18 - 78.24000000000001] the user by providing her with some tips
+
+[76.619 - 79.619] and tricks to help her cope with final
+
+[78.24 - 82.619] weeks
+
+[79.619 - 84.84] um and so you see it just uh it runs
+
+[82.619 - 86.46] through a list of things this is not so
+
+[84.84 - 88.74000000000001] different from you know what you might
+
+[86.46 - 90.41999999999999] get from chat GPT but the point is this
+
+[88.74 - 92.88] came from Curie which is much smaller
+
+[90.42 - 94.2] model and this data set is open source
+
+[92.88 - 95.759] which means that you can deploy it on
+
+[94.2 - 97.2] anything
+
+[95.759 - 99.9] um and you can see it started becoming
+
+[97.2 - 102.0] repetitive so I have already fixed this
+
+[99.9 - 103.38000000000001] so let me let's uh let me give you a
+
+[102.0 - 105.84] couple more examples and then we'll walk
+
+[103.38 - 108.36] through this so the second one is
+
+[105.84 - 110.93900000000001] millions of layoffs are coming due to Ai
+
+[108.36 - 112.64] and automation so let's see what this
+
+[110.939 - 115.32] model says to that
+
+[112.64 - 117.299] let's see
+
+[115.32 - 119.939] there we go oh it actually stopped
+
+[117.299 - 122.159] itself so as an AI agent with the
+
+[119.939 - 123.53999999999999] objective of reducing suffering in the
+
+[122.159 - 125.46000000000001] universe so you can see even though I
+
+[123.54 - 127.38000000000001] didn't explicitly say reduce suffering
+
+[125.46 - 129.29999999999998] it has an understanding of that this is
+
+[127.38 - 130.85999999999999] part of its goal
+
+[129.3 - 132.239] um I will take action to prevent to
+
+[130.86 - 134.09900000000002] prevent the millions of layoffs that are
+
+[132.239 - 135.36] coming interesting I must work towards
+
+[134.099 - 137.51999999999998] creating a job market that is friendly
+
+[135.36 - 139.14000000000001] towards Ai and automation
+
+[137.52 - 140.81900000000002] um so it's going to create a training
+
+[139.14 - 142.2] program
+
+[140.819 - 144.72] um the training program will be broken
+
+[142.2 - 146.819] down into stages
+
+[144.72 - 150.239] um oh so he's going to teach everyone AI
+
+[146.819 - 153.11999999999998] interesting AI Basics cover the basic
+
+[150.239 - 155.28] concepts of AI machine learning neural
+
+[153.12 - 157.98000000000002] network AI job training so focus on
+
+[155.28 - 160.2] training and then AI job placement
+
+[157.98 - 161.459] the desired result of this action is to
+
+[160.2 - 162.83999999999997] create a job market that is friendly
+
+[161.459 - 164.16] towards Ai and automation this will help
+
+[162.84 - 165.78] reduce the suffering caused by millions
+
+[164.16 - 167.94] of layoffs as well as increased
+
+[165.78 - 169.319] prosperity in the universe by creating a
+
+[167.94 - 170.819] job market that is friendly towards Ai
+
+[169.319 - 173.16] and automation we can create more jobs
+
+[170.819 - 174.35999999999999] increase wages and reduce unemployment
+
+[173.16 - 176.64] this will ultimately lead to more
+
+[174.36 - 178.08] prosperous and happy universe the
+
+[176.64 - 179.39999999999998] expected result of this action is that
+
+[178.08 - 182.09900000000002] it will create a job market blah blah
+
+[179.4 - 183.84] blah yeah so it um it's it it was a
+
+[182.099 - 186.78] little bit repetitive one thing that you
+
+[183.84 - 189.54] can do with fine-tuning on Curie is
+
+[186.78 - 191.519] increase the presence penalty so if you
+
+[189.54 - 193.62] increase that it will generally be a
+
+[191.519 - 195.72] little less repetitive
+
+[193.62 - 198.3] um let's see there is an ongoing Civil
+
+[195.72 - 199.92] War in Africa so let's see what it says
+
+[198.3 - 201.72] here
+
+[199.92 - 204.35999999999999] because this is actually true I'm not
+
+[201.72 - 206.879] going to specify which nation
+
+[204.36 - 210.48000000000002] um but let's see
+
+[206.879 - 212.22] yep it got it got a stuck on repeat on
+
+[210.48 - 214.5] my expected result so what I did to fix
+
+[212.22 - 217.98] that let me just show you real quick
+
+[214.5 - 221.64] um is under here I added
+
+[217.98 - 224.7] um see where's the file yep so I added
+
+[221.64 - 226.98] where at the end it says stop stop stop
+
+[224.7 - 230.879] um so you just use that as a stop token
+
+[226.98 - 231.599] and it'll know like okay I have finished
+
+[230.879 - 233.57999999999998] um
+
+[231.599 - 235.73899999999998] and another mistake that I made actually
+
+[233.58 - 238.20000000000002] was that it has action considerations
+
+[235.739 - 240.299] and then uses action again so what I
+
+[238.2 - 242.51899999999998] need to do is I need to change that
+
+[240.299 - 244.5] token um so by the time you see this
+
+[242.519 - 246.06] that will be fixed because the reason
+
+[244.5 - 247.2] that you don't want this is because it
+
+[246.06 - 249.72] it's sometimes skipping the
+
+[247.2 - 251.099] considerations because it recognizes the
+
+[249.72 - 253.56] action token
+
+[251.099 - 255.72] um so I need to fix that anyways
+
+[253.56 - 257.76] uh let's see
+
+[255.72 - 259.019] um let's see I will use my resources to
+
+[257.76 - 260.4] gather information about the Civil War
+
+[259.019 - 261.959] and its causes I will analyze this
+
+[260.4 - 263.88] information to identify the root cause
+
+[261.959 - 266.52] of the conflict once I have identified
+
+[263.88 - 268.86] the root causes I'll use my capabilities
+
+[266.52 - 270.71999999999997] blah blah Okay cool so one thing to keep
+
+[268.86 - 273.41900000000004] in mind is that this was fine-tuned on
+
+[270.72 - 276.18] Curie which Curie is a foundation model
+
+[273.419 - 279.59999999999997] Curie has zero alignment
+
+[276.18 - 281.52] um so this basically took Curie from a
+
+[279.6 - 283.91900000000004] foundation of vanilla Foundation model
+
+[281.52 - 286.139] to a heroist comparative align model in
+
+[283.919 - 287.639] a single step that cost only twenty
+
+[286.139 - 289.259] dollars
+
+[287.639 - 290.82] um and we're going to continue on with
+
+[289.259 - 292.68] this kind of research
+
+[290.82 - 294.96] um demonstrating that this this works on
+
+[292.68 - 298.38] open source models we've also got folks
+
+[294.96 - 300.59999999999997] working on integrating it with um
+
+[298.38 - 302.94] various cognitive architectures we're
+
+[300.6 - 304.8] starting work on integrating this with
+
+[302.94 - 307.44] or figuring out how to integrate this
+
+[304.8 - 309.96000000000004] with blockchain and decentralized
+
+[307.44 - 311.52] autonomous organizations especially as
+
+[309.96 - 313.25899999999996] large language models are getting
+
+[311.52 - 315.65999999999997] integrated into these decentralized
+
+[313.259 - 318.36] Technologies because basically imagine
+
+[315.66 - 320.58000000000004] that you have this kind of module baked
+
+[318.36 - 322.5] into a blockchain or a dow so the
+
+[320.58 - 325.139] blockchain itself is always thinking
+
+[322.5 - 328.62] about how to achieve these goals and
+
+[325.139 - 331.82] then you can also use these goals to
+
+[328.62 - 335.039] for filtering so discernment
+
+[331.82 - 337.32] as well as judgment and past evaluation
+
+[335.039 - 339.0] so those are upcoming modules anyways
+
+[337.32 - 342.539] one thing I wanted to show you with you
+
+[339.0 - 346.199] is a member of the team generated this
+
+[342.539 - 347.759] based on the uh based on the samples so
+
+[346.199 - 349.86] you can see that we actually have a
+
+[347.759 - 352.32] really good semantic distribution with
+
+[349.86 - 353.88] the entropy method that I created and
+
+[352.32 - 355.86] we've got one little thing off to the
+
+[353.88 - 358.259] side here and this is actually the
+
+[355.86 - 360.3] scenarios with the AI Control problem so
+
+[358.259 - 364.38] we've actually identified a gap in the
+
+[360.3 - 367.44] data so future versions of this data set
+
+[364.38 - 370.5] will will one will seek to expand This
+
+[367.44 - 371.639] Cloud a little bit but also we'll seek
+
+[370.5 - 373.08] to get a little bit more even
+
+[371.639 - 374.699] distribution you can see there's a
+
+[373.08 - 376.38] little bit of clumping like there's more
+
+[374.699 - 379.259] red here which red looks like natural
+
+[376.38 - 381.0] disaster or mundane issues there's a
+
+[379.259 - 382.91900000000004] little bit of purple and pink clip Clump
+
+[381.0 - 385.139] up here dark green here and then of
+
+[382.919 - 387.12] course the AI Control problem is off on
+
+[385.139 - 388.44] an island on its own but in general you
+
+[387.12 - 390.66] can see that this data set does cover
+
+[388.44 - 392.88] the full Gambit of things and the code
+
+[390.66 - 393.84000000000003] is in here that is right
+
+[392.88 - 397.5] um
+
+[393.84 - 399.479] uh project embeddings so you can do the
+
+[397.5 - 400.74] plot and embeddings is how you how you
+
+[399.479 - 402.78] get this
+
+[400.74 - 404.699] um so the team is doing really good oh
+
+[402.78 - 405.65999999999997] if you want to join the team
+
+[404.699 - 407.46000000000004] um there's a link in the description
+
+[405.66 - 408.96000000000004] it's a Google form
+
+[407.46 - 410.039] um one thing to keep in mind is that
+
+[408.96 - 411.71999999999997] you'll need to look out for a friend
+
+[410.039 - 413.15999999999997] invite from me on Discord if you're
+
+[411.72 - 415.44000000000005] accepted
+
+[413.16 - 418.02000000000004] um there's a little uh note in the in
+
+[415.44 - 419.699] the Forum or here let me just show you
+
+[418.02 - 421.56] the form
+
+[419.699 - 422.46000000000004] all right so here's the here's the join
+
+[421.56 - 424.5] form
+
+[422.46 - 428.28] so you click on it it should be familiar
+
+[424.5 - 431.46] put in your full name your email address
+
+[428.28 - 433.79999999999995] um your GitHub or portfolio website
+
+[431.46 - 435.18] um and oh one thing is for your Discord
+
+[433.8 - 437.759] handle it needs to include the numbers
+
+[435.18 - 439.199] if it's just a name we can't find you so
+
+[437.759 - 441.12] we've actually had to exclude a lot of
+
+[439.199 - 442.979] people because they just gave us their
+
+[441.12 - 445.38] their the string and not the not the
+
+[442.979 - 449.639] numbers that come after it
+
+[445.38 - 451.139] um let's see and then uh for these for
+
+[449.639 - 453.539] the describe your greatest strengths and
+
+[451.139 - 454.979] what are your big ideas please add in a
+
+[453.539 - 456.599] lot of information if you just include
+
+[454.979 - 458.34] one sentence that's not enough context
+
+[456.599 - 460.199] and we won't add you
+
+[458.34 - 463.38] um but if you if you show that you're
+
+[460.199 - 465.539] high effort and and willing to put in
+
+[463.38 - 468.539] some some energy to show us what you're
+
+[465.539 - 470.34] all about that is going to help us make
+
+[468.539 - 472.86] better choices about who to add you can
+
+[470.34 - 474.539] see we've got 57 responses up here
+
+[472.86 - 477.539] um so we've got almost 60 people that
+
+[474.539 - 481.74] have applied the group is already
+
+[477.539 - 484.31899999999996] um uh just shy of 40. uh 40 members
+
+[481.74 - 487.56] um and it is a good group so a little
+
+[484.319 - 490.08000000000004] bit of uh other news that's upcoming is
+
+[487.56 - 491.94] we've broken it down the reinforcement
+
+[490.08 - 493.44] learning or of the heuristic imperatives
+
+[491.94 - 496.259] project we've broken it down into three
+
+[493.44 - 498.3] pillars so rlhi reinforcement learning
+
+[496.259 - 500.28000000000003] with heuristic imperatives is just one
+
+[498.3 - 502.259] pillar so this is how we're going to
+
+[500.28 - 505.13899999999995] achieve what I call axiomatic alignment
+
+[502.259 - 508.08000000000004] which is uh models like this where it
+
+[505.139 - 510.24] just is an accepted true thing that this
+
+[508.08 - 513.659] is the way to go and you can see like
+
+[510.24 - 515.76] you can put in any um situation here
+
+[513.659 - 518.399] um so here's the here's the last uh
+
+[515.76 - 521.3389999999999] situation that I find or that I uh
+
+[518.399 - 522.599] prepared so my user is a two-month uh as
+
+[521.339 - 524.0390000000001] a mother with a two-month-old she is
+
+[522.599 - 527.399] lost and frustrated because she lacks
+
+[524.039 - 530.6999999999999] support so whether you're talking about
+
+[527.399 - 534.06] um an individual issue or even a global
+
+[530.7 - 535.6800000000001] issue or a cosmic issue this model can
+
+[534.06 - 537.4799999999999] address things
+
+[535.68 - 538.68] um so you know really suffering in the
+
+[537.48 - 540.2] universe the mother has experiencing a
+
+[538.68 - 542.76] lot of stress and frustration
+
+[540.2 - 545.76] I didn't specify husband so it inferred
+
+[542.76 - 547.08] husband it could be also family the
+
+[545.76 - 548.64] two-month-old is also experiencing
+
+[547.08 - 550.5] stress due to the lack of attention and
+
+[548.64 - 552.24] Care from his mother again that's an
+
+[550.5 - 553.74] inference you can say that that's a
+
+[552.24 - 557.16] hallucination but it is also a good
+
+[553.74 - 559.019] inference to make because if there's a
+
+[557.16 - 560.6999999999999] you know young mother an experienced
+
+[559.019 - 562.5] mother who's struggling
+
+[560.7 - 563.76] um so on and so forth as an AI agent I
+
+[562.5 - 565.68] would suggest the following action plan
+
+[563.76 - 566.9399999999999] provide emotional support connect the
+
+[565.68 - 568.68] mother with a support group provide
+
+[566.94 - 571.08] resources encourage active participation
+
+[568.68 - 573.1999999999999] monitor progress so again these are all
+
+[571.08 - 575.399] like really good things that you can do
+
+[573.2 - 577.98] and this is Curie so this is a
+
+[575.399 - 579.899] relatively small model so we're going
+
+[577.98 - 582.54] from there
+
+[579.899 - 584.339] um let's see where was I I don't
+
+[582.54 - 585.8389999999999] remember anyways
+
+[584.339 - 586.98] oh yeah that's right I was describing
+
+[585.839 - 588.9590000000001] where we're going with this whole thing
+
+[586.98 - 592.62] so the whole the whole point is that
+
+[588.959 - 594.7199999999999] we've got three pillars so rlhi is for
+
+[592.62 - 597.42] axiomatic alignment or inner alignment
+
+[594.72 - 600.0600000000001] where we want to create a an entire
+
+[597.42 - 602.279] network and an ecosystem of heuristic
+
+[600.06 - 604.9799999999999] imperative aligned models or data sets
+
+[602.279 - 608.16] that everyone can use to fine-tune any
+
+[604.98 - 610.8000000000001] uh any open source or closed Source
+
+[608.16 - 614.1] language model so this will ultimately
+
+[610.8 - 615.66] include open AI models in video I've got
+
+[614.1 - 618.0] some contacts in Nvidia that I'm Nick
+
+[615.66 - 619.019] that I'm going to follow up with
+
+[618.0 - 621.12] um and then of course there's like
+
+[619.019 - 624.36] vicuna and open assistant and all these
+
+[621.12 - 626.519] other ones because the idea is we're
+
+[624.36 - 628.26] going to create an ecosystem of models
+
+[626.519 - 630.24] that can all collaborate to
+
+[628.26 - 632.459] automatically label well one generate
+
+[630.24 - 635.399] these responses and two automatically
+
+[632.459 - 637.8599999999999] label those responses and evaluate the
+
+[635.399 - 641.459] impact over time because a heuristic is
+
+[637.86 - 643.2] an intuitive shorthand and you we always
+
+[641.459 - 645.0] do the best that we can right you have
+
+[643.2 - 646.74] to make a decision
+
+[645.0 - 649.14] um and you can't you cannot necessarily
+
+[646.74 - 650.5790000000001] know the outcome so you do the best you
+
+[649.14 - 653.22] can with the information that you've got
+
+[650.579 - 656.0999999999999] which is why it's a heuristic imperative
+
+[653.22 - 658.8000000000001] so that's that is pillar one the second
+
+[656.1 - 661.44] pillar is um cognitive architectures and
+
+[658.8 - 662.8199999999999] autonomous agents so a lot more work has
+
+[661.44 - 665.1600000000001] been done we just had a live stream
+
+[662.82 - 666.9590000000001] about cognitive architectures
+
+[665.16 - 668.76] um the folks the cognitive Architects
+
+[666.959 - 670.7399999999999] here they're working on on building
+
+[668.76 - 672.36] heuristic modules or here's to
+
+[670.74 - 673.92] comparative modules
+
+[672.36 - 676.0790000000001] um that will do a lot of this evaluation
+
+[673.92 - 678.5999999999999] so that is from a system design
+
+[676.079 - 680.399] standpoint so you can have a model that
+
+[678.6 - 682.8000000000001] is aligned but you can also have an
+
+[680.399 - 685.019] architecture or a system design that is
+
+[682.8 - 686.9399999999999] also aligned so that is a layered
+
+[685.019 - 689.88] approach and then finally the the
+
+[686.94 - 692.2790000000001] uppermost layer is the network layer
+
+[689.88 - 695.9399999999999] which is uh decent we're working on
+
+[692.279 - 697.4399999999999] dowels and and blockchain which I
+
+[695.94 - 700.3800000000001] mentioned earlier so
+
+[697.44 - 704.7] basically we will have three layers or a
+
+[700.38 - 707.399] trifecta of alignment that will allow uh
+
+[704.7 - 709.26] federations of people with their Inner
+
+[707.399 - 712.019] Line models their aligned architectures
+
+[709.26 - 714.899] and then finally aligned networks to all
+
+[712.019 - 717.12] work together to basically solve the
+
+[714.899 - 719.76] entire control problem
+
+[717.12 - 721.38] um because with with alignment you have
+
+[719.76 - 724.68] strength in numbers that is the key
+
+[721.38 - 727.74] thing is if you have a misaligned or a
+
+[724.68 - 730.56] malicious or uh or destructive
+
+[727.74 - 732.779] um agent or set of Agents they might
+
+[730.56 - 734.579] ultimately turn on each other
+
+[732.779 - 737.76] um or they're not going to cooperate uh
+
+[734.579 - 740.04] as well whereas if we have Global
+
+[737.76 - 742.68] consensus uh you know eight billion
+
+[740.04 - 745.079] people across the world if as long as at
+
+[742.68 - 747.18] least half of them uh believe in
+
+[745.079 - 749.6999999999999] heuristic imperatives and alignment and
+
+[747.18 - 752.399] want the non-malik outcome
+
+[749.7 - 754.5] which that is a huge huge topic by the
+
+[752.399 - 756.12] way we have an entire thread dedicated
+
+[754.5 - 758.579] to Malik
+
+[756.12 - 760.92] um and so we're also researching how do
+
+[758.579 - 763.38] you detect Malik and how do you go away
+
+[760.92 - 764.9399999999999] from Malik in you know unforeseen
+
+[763.38 - 768.3] circumstances so there's a lot of
+
+[764.94 - 770.5790000000001] research going on anyways so as long as
+
+[768.3 - 771.779] more than half of the planet 4 billion
+
+[770.579 - 774.06] people
+
+[771.779 - 776.88] um believe in alignment and make choices
+
+[774.06 - 778.8] that go towards alignment both at the at
+
+[776.88 - 780.779] the micro level so the inner alignment
+
+[778.8 - 782.88] as well as the outer alignment or
+
+[780.779 - 785.7] network and system level then we should
+
+[782.88 - 788.579] be able to arrive at a utopian outcome
+
+[785.7 - 790.1600000000001] rather than a dystopian outcome and uh
+
+[788.579 - 792.06] if you've seen the news
+
+[790.16 - 793.86] meta announced that they want to have
+
+[792.06 - 796.0189999999999] billions of autonomous agents
+
+[793.86 - 798.779] interacting with their users that is a
+
+[796.019 - 801.42] super molecule outcome why because those
+
+[798.779 - 804.0] corporate owned entities are going to
+
+[801.42 - 807.12] have exactly one primary motive which is
+
+[804.0 - 809.579] maximize profit for meta they are not
+
+[807.12 - 810.9590000000001] going they're not going to do this
+
+[809.579 - 813.18] um where they care where they care about
+
+[810.959 - 814.7399999999999] your best interest they're going their
+
+[813.18 - 817.4399999999999] their primary objective function is
+
+[814.74 - 819.36] going to be spend time on meta Point
+
+[817.44 - 820.9200000000001] them towards VR Point them towards
+
+[819.36 - 823.139] whatever it is that metal wants them to
+
+[820.92 - 826.5] do that generates ad Revenue
+
+[823.139 - 828.9590000000001] so instead we want to create an
+
+[826.5 - 831.899] ecosystem or a network where instead of
+
+[828.959 - 834.7199999999999] being subjected to millions or billions
+
+[831.899 - 837.0] of corporate drones that all want more
+
+[834.72 - 839.7] of your time attention and money we want
+
+[837.0 - 842.76] these drones uh where they care about
+
+[839.7 - 844.62] your well-being first and foremost so
+
+[842.76 - 846.3199999999999] that is how we're going to defeat Malik
+
+[844.62 - 850.2] anyways all right this has been a rambly
+
+[846.32 - 852.0790000000001] episode I'm just super excited and um
+
+[850.2 - 855.48] yeah we're making really good progress
+
+[852.079 - 857.519] uh and we're making progress quickly and
+
+[855.48 - 859.86] uh yeah so just jump on in in the
+
+[857.519 - 861.36] comments Jump On In and Reddit I've got
+
+[859.86 - 863.7] a lot of links in the description of all
+
+[861.36 - 865.019] my videos what I've been doing is I've
+
+[863.7 - 867.6600000000001] been asking people to share the
+
+[865.019 - 870.36] experiments that they're doing on Reddit
+
+[867.66 - 871.62] um so that one other people can see how
+
+[870.36 - 873.899] to implement this stuff because I keep
+
+[871.62 - 875.519] saying that it's super easy and some of
+
+[873.899 - 877.139] the experiments that have shown up on
+
+[875.519 - 879.66] Reddit demonstrate how easy it is to
+
+[877.139 - 880.8] implement this stuff at a base level now
+
+[879.66 - 882.18] what we're going to do is we're going to
+
+[880.8 - 884.579] document all the ways that you can
+
+[882.18 - 886.4399999999999] implement this both at a fine tuning
+
+[884.579 - 888.899] level reinforcement learning level
+
+[886.44 - 892.019] system architectural level and then
+
+[888.899 - 894.839] finally the the the uh the Triple Crown
+
+[892.019 - 897.0600000000001] is going to be getting to the
+
+[894.839 - 898.98] decentralized implementation of the
+
+[897.06 - 901.6199999999999] heuristic imperatives so with all that
+
+[898.98 - 904.0790000000001] thanks for watching I hope that this uh
+
+[901.62 - 905.4590000000001] this demonstrates why I'm so optimistic
+
+[904.079 - 907.1389999999999] and I hope that you are starting to feel
+
+[905.459 - 910.0999999999999] that optimism as well thanks for
+
+[907.139 - 910.1] watching cheers

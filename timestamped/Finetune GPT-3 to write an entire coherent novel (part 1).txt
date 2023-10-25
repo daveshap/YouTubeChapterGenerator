@@ -1,0 +1,2249 @@
+[1.36 - 5.359] hey everybody david shapiro here um
+
+[4.56 - 8.24] so
+
+[5.359 - 10.48] there was a post on the open ai forum
+
+[8.24 - 12.799] that was asking about
+
+[10.48 - 17.039] well here let me just show you
+
+[12.799 - 18.88] um what was it the guy was asking about
+
+[17.039 - 23.520000000000003] where was it
+
+[18.88 - 23.52] um he was asking how to
+
+[24.24 - 28.159999999999997] fine tune from scratch
+
+[26.88 - 30.4] uh
+
+[28.16 - 32.88] oh it was this one okay
+
+[30.4 - 35.839999999999996] okay so let me show you guys this
+
+[32.88 - 37.68] so this guy asked i'm using short
+
+[35.84 - 40.399] stories that i wrote to bias the voice
+
+[37.68 - 42.16] of of what gpt3 generates i've tried to
+
+[40.399 - 43.52] format data in multiple ways but maybe
+
+[42.16 - 44.63999999999999] before i spend another chunk of money
+
+[43.52 - 46.160000000000004] someone already went through this and
+
+[44.64 - 48.480000000000004] has some tips to share
+
+[46.16 - 50.16] so he tried a few strategies
+
+[48.48 - 52.398999999999994] some someone tagged me thank you for
+
+[50.16 - 56.559] that pulling my attention to to this
+
+[52.399 - 60.559] post i had done a similar experiment to
+
+[56.559 - 63.44] basically using um fine tuning or gpt3
+
+[60.559 - 64.79899999999999] to do fiction so that was my auto muse
+
+[63.44 - 66.24] project
+
+[64.799 - 68.799] so the code is here it doesn't really
+
+[66.24 - 71.03999999999999] work i abandoned it six months ago i
+
+[68.799 - 72.4] just got a couple things working i
+
+[71.04 - 75.36000000000001] didn't know as much as i know then i've
+
+[72.4 - 76.88000000000001] been experimenting with it ever since so
+
+[75.36 - 78.72] that's the background
+
+[76.88 - 81.6] so here's my response i said achieving
+
+[78.72 - 83.28] coherent fiction as as we imagine it is
+
+[81.6 - 85.119] perhaps one of the most elusive tasks
+
+[83.28 - 86.96000000000001] yet i would recommend following the
+
+[85.119 - 88.479] document example of fine tuning where
+
+[86.96 - 90.15899999999999] you leave the prompt empty and put the
+
+[88.479 - 92.479] whole story or a big chunk of it as the
+
+[90.159 - 94.0] completion this requires more samples
+
+[92.479 - 95.52] but it can fine tune the model on your
+
+[94.0 - 97.68] style and tone
+
+[95.52 - 98.88] alternatively you might try having one
+
+[97.68 - 100.47900000000001] paragraph of the prompt and the
+
+[98.88 - 102.56] subsequent paragraph as the completion
+
+[100.479 - 104.799] so like paragraph a is the input
+
+[102.56 - 106.72] paragraph b is the completion so it
+
+[104.799 - 108.64] knows you know follow up this paragraph
+
+[106.72 - 110.72] with the next one
+
+[108.64 - 113.04] and i said apparently ai dungeon uses a
+
+[110.72 - 114.64] lore book mechanism so that the major
+
+[113.04 - 116.88000000000001] details of the story can be referenced
+
+[114.64 - 118.799] at all times for each completion
+
+[116.88 - 121.6] with this you might be able to have a
+
+[118.799 - 124.159] lore book section of the input prompt as
+
+[121.6 - 126.0] well as the previous paragraphs
+
+[124.159 - 128.08] and then you can have the next
+
+[126.0 - 129.36] paragraphs as the completion if that
+
+[128.08 - 130.959] doesn't make sense don't worry i'll show
+
+[129.36 - 132.72000000000003] you what i mean because i'm just talking
+
+[130.959 - 134.31900000000002] it talking through it so i said this
+
+[132.72 - 135.84] gives me some ideas
+
+[134.319 - 137.92] let's go it so that's that's what we're
+
+[135.84 - 140.31900000000002] doing today i'm we're experimenting
+
+[137.92 - 141.92] you're just writing shotgun watching the
+
+[140.319 - 145.83999999999997] whole process i don't even know what i'm
+
+[141.92 - 148.07999999999998] doing this is this is rapid prototyping
+
+[145.84 - 151.12] okay so we're going to call this
+
+[148.08 - 151.12] auto muse 2
+
+[151.28 - 155.12] experiment to generate
+
+[153.76 - 156.39999999999998] fiction
+
+[155.12 - 158.16] um
+
+[156.4 - 159.44] let's see
+
+[158.16 - 162.48] novel length
+
+[159.44 - 164.239] fiction from a single
+
+[162.48 - 167.28] story premise
+
+[164.239 - 169.59900000000002] and i've already got a premise for this
+
+[167.28 - 172.64000000000001] uh add a readme
+
+[169.599 - 173.67999999999998] i'll be recycling some code
+
+[172.64 - 175.599] okay
+
+[173.68 - 176.959] so we got this
+
+[175.599 - 179.04] clone it down
+
+[176.959 - 182.159] get clone
+
+[179.04 - 183.92] auto muse too okay so i've got a few
+
+[182.159 - 184.879] things that i'm going to borrow there's
+
+[183.92 - 187.28] the
+
+[184.879 - 190.879] where is it um
+
+[187.28 - 190.879] what was it the movie script generator
+
+[190.959 - 195.68] hold on what did i call this oh that's
+
+[192.48 - 197.28] right i was named incorrectly um okay so
+
+[195.68 - 198.87900000000002] i already generated a whole bunch of
+
+[197.28 - 201.12] movie premises
+
+[198.879 - 203.35999999999999] so if you watch a previous video i go
+
+[201.12 - 205.20000000000002] over about like just generating this
+
+[203.36 - 207.12] but basically this is like a whole
+
+[205.2 - 209.51899999999998] premise of a story
+
+[207.12 - 212.0] um okay so let's copy
+
+[209.519 - 215.59900000000002] the premises
+
+[212.0 - 217.44] into our new um
+
+[215.599 - 219.35999999999999] into our new uh the
+
+[217.44 - 222.07999999999998] repo that's the word i'm looking for the
+
+[219.36 - 223.519] new repo will be
+
+[222.08 - 225.44000000000003] brain what are you doing what did i just
+
+[223.519 - 226.64000000000001] name this thing auto muse too there we
+
+[225.44 - 229.04] go
+
+[226.64 - 231.35999999999999] okay so we're starting with some data
+
+[229.04 - 234.79899999999998] that's what this is so i've got a folder
+
+[231.36 - 237.04000000000002] that just contains uh it's 200
+
+[234.799 - 237.92000000000002] story premises
+
+[237.04 - 238.879] and
+
+[237.92 - 240.48] yeah
+
+[238.879 - 242.79899999999998] they must now find a way to warn other
+
+[240.48 - 244.48] humans of the impending danger um yeah
+
+[242.799 - 247.59900000000002] so all very dramatic
+
+[244.48 - 249.92] uh so here's my idea so
+
+[247.599 - 251.35999999999999] my idea intuitively
+
+[249.92 - 252.55999999999997] is
+
+[251.36 - 255.84] we'll put in
+
+[252.56 - 258.0] the premise playground
+
+[255.84 - 259.6] so let's just this is usually where i
+
+[258.0 - 261.919] start is like
+
+[259.6 - 263.36] again you're riding shotgun this is this
+
+[261.919 - 265.52] is a cold open
+
+[263.36 - 267.12] um so we'll say like
+
+[265.52 - 269.59999999999997] premise
+
+[267.12 - 271.759] um
+
+[269.6 - 273.36] let's see write
+
+[271.759 - 276.639] a novel
+
+[273.36 - 278.88] based on the following premise
+
+[276.639 - 278.88] um
+
+[279.6 - 284.96000000000004] and uh and yeah so we've got the premise
+
+[282.16 - 286.0] here and then after that we would have
+
+[284.96 - 289.12] like
+
+[286.0 - 290.72] uh the story so far
+
+[289.12 - 291.42] and probably do this and then i would do
+
+[290.72 - 292.88000000000005] like um
+
+[291.42 - 294.08000000000004] [Music]
+
+[292.88 - 295.28] uh
+
+[294.08 - 297.84] opening
+
+[295.28 - 300.15999999999997] so like
+
+[297.84 - 302.23999999999995] nothing has happened
+
+[300.16 - 303.6] right the beginning
+
+[302.24 - 305.759] of the story
+
+[303.6 - 308.32000000000005] um let's see the human race has reached
+
+[305.759 - 310.40000000000003] a point and um someone i think was on
+
+[308.32 - 313.199] youtube someone left a comment like oh
+
+[310.4 - 315.35999999999996] you should you should do a test where
+
+[313.199 - 317.44] you um you say like write in the style
+
+[315.36 - 318.96000000000004] of so like in my first book natural
+
+[317.44 - 321.36] language cognitive architecture i showed
+
+[318.96 - 322.96] that gpt3 like if you say like write as
+
+[321.36 - 324.56] if you're a victorian gentleman it'll
+
+[322.96 - 326.0] write like that if you say write like
+
+[324.56 - 328.96] shakespeare it'll write like that if you
+
+[326.0 - 331.199] say write like a chav which is like um
+
+[328.96 - 333.59999999999997] uh what is that that's like a
+
+[331.199 - 336.16] a ruffian from england um it'll write
+
+[333.6 - 337.44] like that um so
+
+[336.16 - 339.44] let's see write a story based on the
+
+[337.44 - 340.8] following premise um
+
+[339.44 - 342.479] write like
+
+[340.8 - 343.91900000000004] frank herbert
+
+[342.479 - 346.639] so we'll say like write like the dude
+
+[343.919 - 348.71999999999997] who wrote dune um copying his style
+
+[346.639 - 353.12] there are ethical implications with that
+
+[348.72 - 354.639] um we'll see how it does so um novel
+
+[353.12 - 356.88] uh let's see
+
+[354.639 - 359.759] chapter one
+
+[356.88 - 359.759] let's just see what it does
+
+[362.56 - 367.199] uh it looks like it's probably just
+
+[363.919 - 369.44] gonna copy
+
+[367.199 - 369.44] yeah
+
+[370.08 - 374.56] i think it's just copying what it had
+
+[371.6 - 375.84000000000003] already the human races where i had
+
+[374.56 - 377.84] the human race has reached a point where
+
+[375.84 - 379.67999999999995] it exhausted all of earth's resources in
+
+[377.84 - 381.919] a last-ditch effort to save our species
+
+[379.68 - 383.759] we sent a colonization so yeah they were
+
+[381.919 - 386.0] soon by met by a hostile alien race let
+
+[383.759 - 387.91900000000004] me copy this into um
+
+[386.0 - 390.56] notepad plus plus this might not work at
+
+[387.919 - 393.52] all yeah it looks like
+
+[390.56 - 396.72] it's just gonna copy copy it verbatim so
+
+[393.52 - 398.08] this is this is a problem um with uh
+
+[396.72 - 401.03900000000004] with
+
+[398.08 - 404.479] with gpt3 especially davinci 2.
+
+[401.039 - 407.12] um let's turn up the temperature
+
+[404.479 - 409.599] crank it up to 11. um so with with
+
+[407.12 - 411.36] fiction you usually want to have um the
+
+[409.599 - 412.56] the temperature higher because that
+
+[411.36 - 413.91900000000004] makes it more creative and less
+
+[412.56 - 416.319] deterministic
+
+[413.919 - 419.44] um but also i found that turning the
+
+[416.319 - 421.03900000000004] frequency penalty up uh a little bit not
+
+[419.44 - 423.28] not a whole lot but just turning up the
+
+[421.039 - 425.36] frequency penalty a little bit tends to
+
+[423.28 - 427.11999999999995] make it be a little bit more creative i
+
+[425.36 - 429.68] figured that out when i was making the
+
+[427.12 - 431.68] um the the movie script generator was
+
+[429.68 - 433.68] because it kept generating the same like
+
+[431.68 - 435.52] story patterns over and over again
+
+[433.68 - 436.96] but if when i turn the frequency penalty
+
+[435.52 - 438.15999999999997] up and the temperature up it got a
+
+[436.96 - 440.96] little bit better so let's see what
+
+[438.16 - 440.96000000000004] happens now
+
+[445.039 - 448.88] yeah it's just
+
+[446.639 - 451.84000000000003] copying itself
+
+[448.88 - 451.84] um
+
+[452.0 - 454.639] write a novel
+
+[455.599 - 462.639] let's see if i can conjol this into
+
+[459.52 - 464.24] add a presence penalty as well
+
+[462.639 - 465.12] this like i'm saying this might not work
+
+[464.24 - 467.44] at all
+
+[465.12 - 467.44] um
+
+[469.44 - 472.56] yeah okay this isn't gonna work that's
+
+[470.96 - 474.63899999999995] fine i wasn't expecting it to i just
+
+[472.56 - 476.16] wanted to do a test um the reason that
+
+[474.639 - 478.0] i'm doing this is because a lot of you
+
+[476.16 - 479.91900000000004] have left comments both on the forum and
+
+[478.0 - 481.44] on youtube saying that you like seeing
+
+[479.919 - 483.19899999999996] the whole process including what doesn't
+
+[481.44 - 485.52] work so leaning into that see if you
+
+[483.199 - 487.52000000000004] guys like it
+
+[485.52 - 489.039] here's what i was planning on doing
+
+[487.52 - 489.919] originally
+
+[489.039 - 492.31899999999996] so
+
+[489.919 - 494.479] big big step back how do you know how to
+
+[492.319 - 497.199] write a story um
+
+[494.479 - 499.28] practice uh no that's that's not just it
+
+[497.199 - 500.56] you so there's there's several schools
+
+[499.28 - 502.55999999999995] of thought when it comes to writing
+
+[500.56 - 504.24] fiction there's there's plotters and
+
+[502.56 - 506.479] there's panzers so like plotters are the
+
+[504.24 - 508.40000000000003] ones that like i write an outline and
+
+[506.479 - 510.15999999999997] then i plan out each scene and then i do
+
+[508.4 - 512.959] this in planning planning planning and
+
+[510.16 - 514.479] then finally you write the actual pros
+
+[512.959 - 515.76] and then pantsers are the ones who just
+
+[514.479 - 516.719] sit down at the keyboard and start
+
+[515.76 - 518.479] typing
+
+[516.719 - 521.2] most people are somewhere in between
+
+[518.479 - 522.8000000000001] what i do for my fiction is i i start
+
+[521.2 - 525.12] with an outline that is about a page
+
+[522.8 - 526.959] long and then i just start writing
+
+[525.12 - 528.16] the outline just says chapter one is
+
+[526.959 - 529.76] this is what's going to happen chapter
+
+[528.16 - 532.0] two this is what's going to happen so i
+
+[529.76 - 535.2] just kind of have a vague idea and then
+
+[532.0 - 537.92] my brain expands on that now
+
+[535.2 - 540.9590000000001] can we teach gpth3 to do that so far it
+
+[537.92 - 542.64] seems like it really sucks at this
+
+[540.959 - 544.64] but
+
+[542.64 - 547.519] sherlock holmes
+
+[544.64 - 549.12] actually here we'll just do
+
+[547.519 - 552.16] browsing options
+
+[549.12 - 553.76] where is the top books
+
+[552.16 - 555.4399999999999] popular there we go our most popular
+
+[553.76 - 558.72] books
+
+[555.44 - 561.0400000000001] sort order and then so what i'm doing is
+
+[558.72 - 564.08] i've got this idea
+
+[561.04 - 567.04] where if we just grab
+
+[564.08 - 568.24] the text versions
+
+[567.04 - 571.04] of
+
+[568.24 - 572.08] playing utf-8 brilliant
+
+[571.04 - 573.76] um
+
+[572.08 - 574.5600000000001] is this the whole thing
+
+[573.76 - 576.88] so
+
+[574.56 - 579.04] basically my thought is let's grab the
+
+[576.88 - 580.48] text versions of
+
+[579.04 - 582.88] of of
+
+[580.48 - 584.399] stories from gutenberg it's in the
+
+[582.88 - 585.76] public domain so it's perfectly free
+
+[584.399 - 587.76] there's nothing
+
+[585.76 - 589.68] dubious about this this is all
+
+[587.76 - 591.2] completely free data
+
+[589.68 - 592.8] let's see which one is this this is
+
+[591.2 - 596.48] frankenstein
+
+[592.8 - 599.04] so we'll go back to the auto muse
+
+[596.48 - 600.72] make a new folder called books go in
+
+[599.04 - 602.399] here and we'll call this
+
+[600.72 - 604.64] frankenstein
+
+[602.399 - 607.2] which frankenstein is actually the
+
+[604.64 - 608.56] scientist not the monster
+
+[607.2 - 610.5600000000001] um
+
+[608.56 - 613.3599999999999] you can tell i date a librarian
+
+[610.56 - 615.5189999999999] um okay and then pride and prejudice so
+
+[613.36 - 618.88] we'll save this
+
+[615.519 - 620.88] pride and prejudice
+
+[618.88 - 622.56] and this honestly like probably just one
+
+[620.88 - 623.8389999999999] of these books will be enough
+
+[622.56 - 626.2399999999999] but
+
+[623.839 - 627.6800000000001] but my concern is if we if we generate
+
+[626.24 - 629.6800000000001] fine-tuning data from just one book
+
+[627.68 - 632.8] we're basically just going to be making
+
+[629.68 - 635.3599999999999] a um a fanfic generator which nothing
+
+[632.8 - 637.92] wrong with that there is a huge hunger
+
+[635.36 - 640.16] for fan fiction out there um if this
+
+[637.92 - 641.5999999999999] works i will try and make more harry
+
+[640.16 - 643.92] potter fan fiction than you could ever
+
+[641.6 - 645.519] read um that's not my shtick but i know
+
+[643.92 - 646.959] plenty of people who have it
+
+[645.519 - 648.8] one of my good friends actually one of
+
+[646.959 - 650.7199999999999] my writer friends um
+
+[648.8 - 653.1999999999999] she wrote a mass effect
+
+[650.72 - 654.64] fanfic and uh this was like years ago
+
+[653.2 - 655.9200000000001] and apparently she still gets emailed
+
+[654.64 - 657.519] for it
+
+[655.92 - 660.7199999999999] people wanting updates and she's like
+
+[657.519 - 663.839] i've abandoned this years ago let's see
+
+[660.72 - 665.6] alice in wonderland but if i can make a
+
+[663.839 - 667.9200000000001] machine generate an unlimited amount of
+
+[665.6 - 668.8000000000001] fan fiction then then we're really in
+
+[667.92 - 670.0] business
+
+[668.8 - 675.8] okay
+
+[670.0 - 675.8] so save link as great gatsby
+
+[675.92 - 679.8389999999999] and um the way that i'm planning on
+
+[677.519 - 682.72] going about this is ultra janky um
+
+[679.839 - 684.1600000000001] you're probably gonna laugh um but
+
+[682.72 - 685.519] there's there's a reason that i'm
+
+[684.16 - 687.4399999999999] choosing to go about it this way because
+
+[685.519 - 689.279] i also want to show you that you can be
+
+[687.44 - 692.5600000000001] super squishy with this
+
+[689.279 - 694.24] gbt3 is surprisingly forgiving because
+
+[692.56 - 696.16] remember all it does is predict the next
+
+[694.24 - 697.76] character so if you just start in the
+
+[696.16 - 699.1999999999999] middle of a sentence and end in the
+
+[697.76 - 701.04] middle of a sentence it doesn't really
+
+[699.2 - 702.5600000000001] care because it just says okay wherever
+
+[701.04 - 704.64] we were let's pick up from there and
+
+[702.56 - 706.079] keep going um so you don't need like
+
+[704.64 - 707.68] clean divisions and stuff i'll show you
+
+[706.079 - 708.4799999999999] what i mean in just a minute
+
+[707.68 - 709.8389999999999] um
+
+[708.48 - 712.0790000000001] sherlock
+
+[709.839 - 712.9590000000001] okay so we've got five stories we've got
+
+[712.079 - 714.399] um
+
+[712.959 - 717.04] we've got a
+
+[714.399 - 718.56] famous thriller we've got great gatsby
+
+[717.04 - 719.4399999999999] which is um
+
+[718.56 - 721.76] uh
+
+[719.44 - 723.44] uh literary fiction uh alice in
+
+[721.76 - 724.88] wonderland which is fantasy pride and
+
+[723.44 - 728.399] prejudice which is historical and
+
+[724.88 - 730.24] frankenstein which is um old sci-fi so
+
+[728.399 - 731.76] we've got a we've got a decent decent
+
+[730.24 - 733.04] enough cross section
+
+[731.76 - 735.2] of um
+
+[733.04 - 737.5999999999999] of
+
+[735.2 - 739.279] of types of types of fiction okay so
+
+[737.6 - 740.88] what am i going to do with this
+
+[739.279 - 742.56] let me show you in principle what i'm
+
+[740.88 - 744.48] going to do all right so
+
+[742.56 - 748.399] gpt3 you can only
+
+[744.48 - 751.76] grab like a certain number of um
+
+[748.399 - 753.12] of characters or tokens at it at a time
+
+[751.76 - 755.8389999999999] so what i'm going to do is i'm going to
+
+[753.12 - 757.04] split all these up into chunks
+
+[755.839 - 760.5600000000001] so this
+
+[757.04 - 762.079] selection is 1000 characters
+
+[760.56 - 764.959] basically what i'm going to do is i'll
+
+[762.079 - 768.2399999999999] probably look for the double new lines
+
+[764.959 - 771.68] maybe not i'll probably just grab like
+
+[768.24 - 773.36] maybe 2 000 characters at a time
+
+[771.68 - 775.92] and just split up the whole story into
+
+[773.36 - 777.6] chunks sequential chunks
+
+[775.92 - 780.4799999999999] and from there
+
+[777.6 - 780.48] i will um
+
+[780.8 - 785.92] i'll summarize the story as it goes
+
+[784.48 - 787.839] so it'll be sequential chunks i'll
+
+[785.92 - 789.92] summarize it as it goes and basically
+
+[787.839 - 792.24] the fine-tuning data will be the story
+
+[789.92 - 793.76] so far or first the premise so it knows
+
+[792.24 - 794.5600000000001] where the story is going
+
+[793.76 - 796.639] um
+
+[794.56 - 798.7199999999999] so it'll be the premise like the outline
+
+[796.639 - 800.48] okay outline's probably better so top of
+
+[798.72 - 802.399] the input will be outline
+
+[800.48 - 804.72] then it will be the story so far so like
+
+[802.399 - 806.399] a summary of what's happened and then
+
+[804.72 - 807.76] the paragraph you know the last
+
+[806.399 - 809.839] paragraph and then the output will be
+
+[807.76 - 810.8] the next paragraph so what that'll look
+
+[809.839 - 812.639] like
+
+[810.8 - 814.4799999999999] is so this is this is the fine tuning
+
+[812.639 - 815.44] data so prompt
+
+[814.48 - 818.0790000000001] um
+
+[815.44 - 820.9590000000001] actually here i'll do input
+
+[818.079 - 823.68] input prompt so this is this is what
+
+[820.959 - 827.199] it'll look like so it'll be um
+
+[823.68 - 828.6389999999999] um story outline and it'll be
+
+[827.199 - 831.5999999999999] outline
+
+[828.639 - 835.279] so this will probably be like a numbered
+
+[831.6 - 838.639] numbered list uh story outline and then
+
+[835.279 - 839.76] um story so far
+
+[838.639 - 842.5600000000001] actually
+
+[839.76 - 843.519] summary so far like where in the story
+
+[842.56 - 844.399] we are
+
+[843.519 - 848.16] uh
+
+[844.399 - 850.079] maybe like where are we in the story
+
+[848.16 - 852.24] and that'll be um
+
+[850.079 - 854.079] summary of
+
+[852.24 - 857.839] where we are
+
+[854.079 - 861.8389999999999] and then um last chunk so this will be
+
+[857.839 - 861.839] like last paragraphs
+
+[863.04 - 868.56] and then next chunk
+
+[865.6 - 870.399] and then this will be the end
+
+[868.56 - 872.7199999999999] and then so this will be
+
+[870.399 - 875.44] i'll just do end
+
+[872.72 - 876.639] and so that's this this chunk here i was
+
+[875.44 - 878.8000000000001] going to point out it on the screen you
+
+[876.639 - 881.04] can't see my hand so i highlight it this
+
+[878.8 - 883.4399999999999] chunk here will be the input
+
+[881.04 - 884.639] and then the output
+
+[883.44 - 887.2790000000001] so
+
+[884.639 - 889.199] output slash completion
+
+[887.279 - 890.56] will be um
+
+[889.199 - 892.3199999999999] just you know
+
+[890.56 - 894.16] next
+
+[892.32 - 896.839] paragraph
+
+[894.16 - 899.279] paragraph or
+
+[896.839 - 901.2790000000001] two of the story
+
+[899.279 - 903.76] so basically let's see if we can train
+
+[901.279 - 905.8389999999999] it to spit out one section
+
+[903.76 - 908.0] of a story at a time
+
+[905.839 - 909.6] i doubt it'll work but i think it'll be
+
+[908.0 - 911.36] a cool experiment all right i'm gonna
+
+[909.6 - 912.9590000000001] pause the video because this is a lot of
+
+[911.36 - 915.12] tweaking and stuff and also i'm
+
+[912.959 - 916.2399999999999] recording at 60fps which means it will
+
+[915.12 - 917.839] um
+
+[916.24 - 919.199] it'll blow up the file size and i don't
+
+[917.839 - 920.639] care i don't care to do that so i'm
+
+[919.199 - 922.639] going to pause the recording and come
+
+[920.639 - 923.6800000000001] back when i've got this split up i'm
+
+[922.639 - 926.0790000000001] just going to write a couple scripts
+
+[923.68 - 929.199] that'll basically do this data prep
+
+[926.079 - 929.199] and then i'll be right back
+
+[929.759 - 932.8000000000001] okay we're back prematurely because i
+
+[931.6 - 934.32] realize there's something else that i'm
+
+[932.8 - 935.12] doing that you'd probably benefit from
+
+[934.32 - 936.24] seeing
+
+[935.12 - 936.9590000000001] um
+
+[936.24 - 939.44] i
+
+[936.959 - 941.92] use gpth3 to give me a summary or the
+
+[939.44 - 943.44] the outline um because i don't want to
+
+[941.92 - 945.68] write an outline for these and also i
+
+[943.44 - 948.399] haven't read them all and just so shoot
+
+[945.68 - 950.399] shoot me sue me um okay so here's the
+
+[948.399 - 952.72] file of frankenstein the story and then
+
+[950.399 - 954.48] here's the outline so then this is all
+
+[952.72 - 956.32] going to be broken down and summarized
+
+[954.48 - 957.839] so let me just show you the prompt right
+
+[956.32 - 960.72] the full detailed outline of the book
+
+[957.839 - 962.8800000000001] alice in wonderland i put the um
+
+[960.72 - 964.48] let's put this up to a thousand i know
+
+[962.88 - 965.8389999999999] 500 tokens
+
+[964.48 - 968.639] if it's longer than that it might not
+
+[965.839 - 970.24] fit in the fine tuning data
+
+[968.639 - 973.839] okay
+
+[970.24 - 976.88] so then introduction that doesn't help
+
+[973.839 - 980.2790000000001] detailed outline buddy detailed
+
+[976.88 - 980.279] there we go
+
+[986.88 - 991.519] hmm
+
+[988.56 - 991.5189999999999] i don't like this
+
+[993.04 - 999.759] we want you to give me a long write the
+
+[997.36 - 1002.72] long full detailed outline of the book
+
+[999.759 - 1002.72] alice in wonderland
+
+[1008.72 - 1014.639] it seems like it is trying to
+
+[1012.959 - 1018.56] shortchange me
+
+[1014.639 - 1018.5600000000001] unacceptable machine unacceptable
+
+[1023.36 - 1027.839] realizes it was all just a dream
+
+[1025.439 - 1027.8390000000002] um
+
+[1028.24 - 1032.88] this worked for frankenstein it's not
+
+[1030.64 - 1036.3190000000002] working for this one so that means we
+
+[1032.88 - 1039.919] have to do some prompt engineering
+
+[1036.319 - 1042.72] uh let's see come on brain
+
+[1039.919 - 1044.7990000000002] we want not just an outlined um
+
+[1042.72 - 1047.799] let's try synopsis synopsis is a good
+
+[1044.799 - 1047.799] word
+
+[1054.64 - 1057.5200000000002] there we go
+
+[1061.679 - 1065.64] um let's see
+
+[1067.919 - 1071.679] uh
+
+[1069.2 - 1071.679] let's see
+
+[1072.48 - 1076.48] list every scene
+
+[1077.6 - 1082.1599999999999] ah so this is like
+
+[1079.76 - 1083.919] gpt3 has the information i'm just trying
+
+[1082.16 - 1085.52] to like get it out of it that's one of
+
+[1083.919 - 1089.24] the most like frustrating things is the
+
+[1085.52 - 1089.24] information is in there
+
+[1094.799 - 1098.6399999999999] this looks a little bit better okay cool
+
+[1099.36 - 1103.76] or she wakes her up from her dream
+
+[1101.84 - 1106.9599999999998] okay i don't think this is sufficient
+
+[1103.76 - 1109.039] but you know blah blah it tells us most
+
+[1106.96 - 1111.919] of the story
+
+[1109.039 - 1116.4] okay so go save this and this will be
+
+[1111.919 - 1116.4] outlines alice in wonderland
+
+[1116.799 - 1119.9189999999999] okay you've seen the process i'm going
+
+[1118.48 - 1121.52] to do this for all five books just that
+
+[1119.919 - 1124.3200000000002] way we have a
+
+[1121.52 - 1126.799] a summary or outline or synopsis to feed
+
+[1124.32 - 1129.4399999999998] in so that that way the the auto muse
+
+[1126.799 - 1130.6399999999999] generator knows where the story is going
+
+[1129.44 - 1132.72] all right i'm gonna pause the video
+
+[1130.64 - 1134.5590000000002] again and we'll come back once i've done
+
+[1132.72 - 1136.559] some scripting
+
+[1134.559 - 1138.32] okay i've got the first script uh well
+
+[1136.559 - 1141.28] started i just want to show you what it
+
+[1138.32 - 1142.0] does um so that you understand um as we
+
+[1141.28 - 1144.6399999999999] go
+
+[1142.0 - 1146.4] uh this is a really short thing i had to
+
+[1144.64 - 1149.3600000000001] find this module but it's just called
+
+[1146.4 - 1152.4] text wrap and what it does is it splits
+
+[1149.36 - 1154.6399999999999] splits strings and python into
+
+[1152.4 - 1156.48] whatever size chunk you want so what i
+
+[1154.64 - 1157.8400000000001] do is i open
+
+[1156.48 - 1159.3600000000001] open the book
+
+[1157.84 - 1161.12] just as a text
+
+[1159.36 - 1163.28] as a string and then i break it into
+
+[1161.12 - 1165.84] 1500 character chunks
+
+[1163.28 - 1168.8799999999999] and the output so far looks like this so
+
+[1165.84 - 1171.039] i just run book to chunks and it says
+
+[1168.88 - 1175.1200000000001] alice in wonderland.text 110 chunks
+
+[1171.039 - 1178.32] frankenstein 293 great gatsby 194
+
+[1175.12 - 1181.36] pride and prejudice 518 is a long story
+
+[1178.32 - 1183.28] sherlock 389 okay so we'll have a bunch
+
+[1181.36 - 1185.76] of sequential chunks
+
+[1183.28 - 1187.76] in order to play with this
+
+[1185.76 - 1190.32] excuse me um
+
+[1187.76 - 1191.2] yeah so we're off to a good start these
+
+[1190.32 - 1193.36] chunks
+
+[1191.2 - 1196.32] for reference they're gonna go here
+
+[1193.36 - 1197.9189999999999] so basically the um the the outline
+
+[1196.32 - 1199.36] which was already generated let me show
+
+[1197.919 - 1202.5590000000002] you the outlines
+
+[1199.36 - 1204.0] um so the outlines are here
+
+[1202.559 - 1204.8799999999999] so we've got an outline for each of
+
+[1204.0 - 1207.12] these
+
+[1204.88 - 1209.3600000000001] that'll go up at the top
+
+[1207.12 - 1210.9599999999998] so the story outlines so every every
+
+[1209.36 - 1213.76] time you input
+
+[1210.96 - 1216.0] this um gpt3 because here's the thing
+
+[1213.76 - 1218.1589999999999] gpt3 has no long-term memory everything
+
+[1216.0 - 1220.0] that it needs to know has to be in every
+
+[1218.159 - 1222.0] single input
+
+[1220.0 - 1224.64] this is where human brains are far
+
+[1222.0 - 1225.679] superior to gpt3
+
+[1224.64 - 1228.0] so
+
+[1225.679 - 1229.919] neuroscience lesson time
+
+[1228.0 - 1231.919] if you look at like you know if you ever
+
+[1229.919 - 1233.8400000000001] google like how much working memory does
+
+[1231.919 - 1235.8400000000001] the human brain have it'll you'll get a
+
+[1233.84 - 1237.52] some idiotic answer like oh the human
+
+[1235.84 - 1241.1999999999998] brain can only hold seven things in it
+
+[1237.52 - 1241.2] you know in short-term working memory
+
+[1241.52 - 1247.28] that is patently absurd um any writer
+
+[1244.96 - 1250.32] will laugh at that idea because when
+
+[1247.28 - 1252.6399999999999] you're writing you have to remember all
+
+[1250.32 - 1254.48] the lore from the story you're writing
+
+[1252.64 - 1256.96] if it's a sequel you have to remember
+
+[1254.48 - 1258.88] all the lore from the previous one
+
+[1256.96 - 1262.24] um all the characters the character
+
+[1258.88 - 1264.3200000000002] voices language stuff now is that
+
+[1262.24 - 1266.559] something that you're holding in your in
+
+[1264.32 - 1268.08] your memory and you're manipulating no
+
+[1266.559 - 1270.0] so technically i guess you could say
+
+[1268.08 - 1271.6789999999999] it's not in your working memory but it
+
+[1270.0 - 1273.12] is in your recall so there's a
+
+[1271.679 - 1274.159] difference between working memory and
+
+[1273.12 - 1277.1999999999998] recall
+
+[1274.159 - 1278.159] so gpt3 which can just recall stuff off
+
+[1277.2 - 1280.88] the bat
+
+[1278.159 - 1283.679] right off the cuff so if you go here um
+
+[1280.88 - 1287.679] close some of those um this is what you
+
+[1283.679 - 1290.48] might call recall gpt3 has been trained
+
+[1287.679 - 1291.6000000000001] to just instantly recall a whole bunch
+
+[1290.48 - 1293.44] of facts
+
+[1291.6 - 1295.36] now if you're writing a brand new story
+
+[1293.44 - 1299.1200000000001] it doesn't have that right it has no
+
+[1295.36 - 1300.4799999999998] recall because you can just ask like
+
+[1299.12 - 1302.32] you know you can ask it about the
+
+[1300.48 - 1304.799] adventures of sherlock holmes and gpt3
+
+[1302.32 - 1307.039] can spit out usually a good answer the
+
+[1304.799 - 1308.32] reason is because it's got recall
+
+[1307.039 - 1310.559] however
+
+[1308.32 - 1312.08] it does not it does not have the ability
+
+[1310.559 - 1314.559] to recall something that it was never
+
+[1312.08 - 1316.8799999999999] trained on so you have to handle the
+
+[1314.559 - 1320.0] recall manually this is where all my
+
+[1316.88 - 1320.96] work on on artificial cognition comes in
+
+[1320.0 - 1322.559] because
+
+[1320.96 - 1324.64] everything that you need it to know
+
+[1322.559 - 1327.9189999999999] everything for any given situation has
+
+[1324.64 - 1331.039] to be put into this corpus this input so
+
+[1327.919 - 1332.88] these um these summaries these outlines
+
+[1331.039 - 1334.48] that's got to go in because this
+
+[1332.88 - 1336.24] because gpt3 needs to know where the
+
+[1334.48 - 1339.039] story's going
+
+[1336.24 - 1341.28] um let's see uh where it was there we go
+
+[1339.039 - 1343.6] um and so then you need a say like okay
+
+[1341.28 - 1344.96] where are we in the story um because if
+
+[1343.6 - 1347.76] you just give it an outline and a
+
+[1344.96 - 1348.96] paragraph like you if you are familiar
+
+[1347.76 - 1351.039] with a story
+
+[1348.96 - 1352.88] then you can read a paragraph and kind
+
+[1351.039 - 1355.44] of figure out where you are
+
+[1352.88 - 1356.4] if however you are not familiar with a
+
+[1355.44 - 1359.1200000000001] story
+
+[1356.4 - 1360.5590000000002] uh or it's a news story and you just
+
+[1359.12 - 1362.6399999999999] grab a random paragraph you're not going
+
+[1360.559 - 1365.2] to know where you are and gpt 3 is not
+
+[1362.64 - 1367.3600000000001] magic right it's just it's modeling
+
+[1365.2 - 1368.88] human writing that's all it's doing so
+
+[1367.36 - 1370.24] if you just give it a random paragraph
+
+[1368.88 - 1372.0800000000002] it's going to be lost it's just going to
+
+[1370.24 - 1374.08] guess where it is in the story so that
+
+[1372.08 - 1375.36] means we also need this in in what's
+
+[1374.08 - 1377.52] called the working set so this is
+
+[1375.36 - 1379.1999999999998] another part of neuroscience when you
+
+[1377.52 - 1381.6] are working on a task
+
+[1379.2 - 1383.1200000000001] um it's so it's a task set really it's
+
+[1381.6 - 1385.039] what it's called so if you've ever heard
+
+[1383.12 - 1387.36] about the term context switching if you
+
+[1385.039 - 1389.36] switch from one task to another the task
+
+[1387.36 - 1391.039] set which is all the memories and facts
+
+[1389.36 - 1393.52] and knowledge that you've accumulated in
+
+[1391.039 - 1395.36] your brain has to get shuffled off
+
+[1393.52 - 1396.8799999999999] um think of it like like an
+
+[1395.36 - 1399.4399999999998] old-fashioned office where everything is
+
+[1396.88 - 1402.0800000000002] on paper so like let's say you know
+
+[1399.44 - 1403.919] you're the the the imaginary people in
+
+[1402.08 - 1405.52] your head they go fetch all the project
+
+[1403.919 - 1406.96] documents for project a and then it's
+
+[1405.52 - 1408.799] like the boss comes in and says wait we
+
+[1406.96 - 1410.64] gotta work on project b so they gotta
+
+[1408.799 - 1413.039] they gotta take all that all that task
+
+[1410.64 - 1415.039] set all those papers file them away and
+
+[1413.039 - 1416.4] then go get project b
+
+[1415.039 - 1419.44] so what we're doing here is we're
+
+[1416.4 - 1421.679] basically recreating the equivalent of
+
+[1419.44 - 1423.919] human memory task set what's called a
+
+[1421.679 - 1426.799] task set so that's all relevant
+
+[1423.919 - 1428.3200000000002] information knowledge etc has to be in
+
+[1426.799 - 1431.6] every prompt
+
+[1428.32 - 1434.0] for gpt 3. in order to have in order to
+
+[1431.6 - 1435.76] handle larger tasks now
+
+[1434.0 - 1438.48] i didn't invent this this is how the
+
+[1435.76 - 1441.2] human brain works i'm just approximating
+
+[1438.48 - 1442.88] human neuroscience in gpt3
+
+[1441.2 - 1445.279] okay so that's why i'm doing this i
+
+[1442.88 - 1446.88] wanted to sprinkle that in as i go
+
+[1445.279 - 1448.64] let's see what do i have to do next i
+
+[1446.88 - 1451.0390000000002] got to finish this that's fine i just
+
+[1448.64 - 1453.5200000000002] save that out to file and then we've got
+
+[1451.039 - 1455.76] to do the summary so the hardest part of
+
+[1453.52 - 1457.2] this of this data because like you know
+
+[1455.76 - 1459.76] i just downloaded the books and that's
+
+[1457.2 - 1461.3600000000001] going to be the huge chunk of our data
+
+[1459.76 - 1464.08] we've got the outlines again that's a
+
+[1461.36 - 1466.08] huge chunk of the data the hardest part
+
+[1464.08 - 1469.12] is this because i'm going to have to use
+
+[1466.08 - 1471.1999999999998] gpthree to summarize where we are every
+
+[1469.12 - 1472.6399999999999] step of the way i'm not going to do the
+
+[1471.2 - 1474.88] whole books i'm only going to do like
+
+[1472.64 - 1475.919] the first you know few chapters
+
+[1474.88 - 1477.7600000000002] um
+
+[1475.919 - 1479.919] because one i'm not going to spend like
+
+[1477.76 - 1482.24] a thousand dollars fine tuning this for
+
+[1479.919 - 1484.0800000000002] five full books um it probably wouldn't
+
+[1482.24 - 1487.279] cost that much um this should just be a
+
+[1484.08 - 1489.36] good proof of concept um but yeah so
+
+[1487.279 - 1491.6] and basically just creating a live a
+
+[1489.36 - 1493.6789999999999] running summary of the story that's
+
+[1491.6 - 1495.52] gonna be hard it's gonna be expensive
+
+[1493.679 - 1498.88] okay pause the video again we'll come
+
+[1495.52 - 1500.8799999999999] back when i'm ready to show you more
+
+[1498.88 - 1503.919] standby
+
+[1500.88 - 1506.0] all right quick check in as promised um
+
+[1503.919 - 1507.5200000000002] i finished the script there's got to be
+
+[1506.0 - 1509.679] a better way to do this i don't know how
+
+[1507.52 - 1512.72] to pad zeros but basically
+
+[1509.679 - 1514.4] the purpose of this um little bit is to
+
+[1512.72 - 1516.64] generate um
+
+[1514.4 - 1519.279] sequential files so you see each of
+
+[1516.64 - 1520.7990000000002] these stories is broken down into
+
+[1519.279 - 1523.279] sequential files
+
+[1520.799 - 1525.36] uh so they're just straight up numbered
+
+[1523.279 - 1527.12] it's in the chunks folder
+
+[1525.36 - 1529.36] so now each chunk
+
+[1527.12 - 1531.4399999999998] is just a bit of the story also it did
+
+[1529.36 - 1533.6789999999999] this weird thing where there's no
+
+[1531.44 - 1535.279] vertical white space i think that's okay
+
+[1533.679 - 1536.48] i'm not going to worry about it this is
+
+[1535.279 - 1539.039] not going into production i'm just
+
+[1536.48 - 1540.08] seeing if it even remotely works
+
+[1539.039 - 1541.279] um
+
+[1540.08 - 1543.6] yeah
+
+[1541.279 - 1547.039] uh oh sorry my phone's going off
+
+[1543.6 - 1548.6399999999999] anyways i will uh be back shortly
+
+[1547.039 - 1551.039] all right i was about to give up on this
+
+[1548.64 - 1552.159] and take a break but i figured it out
+
+[1551.039 - 1554.64] well i don't know if i figured out the
+
+[1552.159 - 1557.44] root cause but i was getting this error
+
+[1554.64 - 1559.44] let me show you
+
+[1557.44 - 1561.44] where i kept complaining about
+
+[1559.44 - 1562.3200000000002] um
+
+[1561.44 - 1563.44] like
+
+[1562.32 - 1565.6789999999999] could not
+
+[1563.44 - 1567.039] encode where is it i'm just probably go
+
+[1565.679 - 1569.919] all the way up yeah so you see here
+
+[1567.039 - 1572.559] error and communicating with open ai
+
+[1569.919 - 1574.96] charmap character kodak can't encode
+
+[1572.559 - 1577.039] character blah blah blah
+
+[1574.96 - 1579.679] all right so there's something funky
+
+[1577.039 - 1581.44] with these files from gutenberg so the
+
+[1579.679 - 1583.679] first thing i tried
+
+[1581.44 - 1585.2] um was to go back
+
+[1583.679 - 1587.039] whoops
+
+[1585.2 - 1588.559] we can close this one
+
+[1587.039 - 1590.0] um sorry this might make a little bit of
+
+[1588.559 - 1592.1589999999999] noise
+
+[1590.0 - 1594.24] okay so my first right the first thing
+
+[1592.159 - 1596.0] that i did was i tried to go and change
+
+[1594.24 - 1596.799] the encoding of the books
+
+[1596.0 - 1599.919] so
+
+[1596.799 - 1602.96] in coding it was utf-8 bomb so i just
+
+[1599.919 - 1605.44] converted it to utf-8 that didn't fix it
+
+[1602.96 - 1606.32] um so i was like okay
+
+[1605.44 - 1609.039] um
+
+[1606.32 - 1610.8799999999999] gpt3 should be able to accept all utf-8
+
+[1609.039 - 1614.1589999999999] but there's some artifact in this that
+
+[1610.88 - 1616.7990000000002] it didn't like so here's what i did was
+
+[1614.159 - 1618.7990000000002] i said okay let's open the prompt
+
+[1616.799 - 1621.9189999999999] and we'll get
+
+[1618.799 - 1624.1589999999999] we'll encode it to ascii which is much
+
+[1621.919 - 1625.76] simpler than utf-8 and then we'll decode
+
+[1624.159 - 1627.3600000000001] it back to a normal string so it's
+
+[1625.76 - 1629.84] basically saying okay
+
+[1627.36 - 1630.8799999999999] whatever whatever this is ignore the
+
+[1629.84 - 1633.279] errors
+
+[1630.88 - 1635.919] simplify this codec make it ascii
+
+[1633.279 - 1638.72] standard and then decode it and then
+
+[1635.919 - 1640.48] gpt3 likes it now so
+
+[1638.72 - 1642.72] it's uh recording this
+
+[1640.48 - 1645.039] basically what i'm doing um while this
+
+[1642.72 - 1648.159] is running so we've got all the chunks
+
+[1645.039 - 1651.2] uh here and then i've got the summaries
+
+[1648.159 - 1654.48] so i'm making a summary of the first um
+
+[1651.2 - 1655.679] you know few uh few pair uh passages of
+
+[1654.48 - 1658.48] each story
+
+[1655.679 - 1660.159] um so alice gets bored sitting by her by
+
+[1658.48 - 1661.76] her sister and sees a white rabbit with
+
+[1660.159 - 1663.3600000000001] a pocket watch she chases it and falls
+
+[1661.76 - 1664.72] down a rabbit hole
+
+[1663.36 - 1668.4799999999998] so basically
+
+[1664.72 - 1670.88] these summaries can be used to stack up
+
+[1668.48 - 1672.32] and fill in this part here let me just
+
+[1670.88 - 1676.0] save this file
+
+[1672.32 - 1676.0] we'll save this in the um
+
+[1676.399 - 1681.12] here actually i'll put this in to the
+
+[1678.64 - 1681.1200000000001] readme
+
+[1681.279 - 1684.799] do the readme
+
+[1682.96 - 1687.679] all right
+
+[1684.799 - 1687.679] general idea
+
+[1689.12 - 1693.279] and we'll save that
+
+[1690.799 - 1695.279] um so this is what it just so that it's
+
+[1693.279 - 1698.48] there it's saved and then i can close
+
+[1695.279 - 1700.64] this okay so the outlines we've got the
+
+[1698.48 - 1701.919] outlines i will show you that again
+
+[1700.64 - 1703.8400000000001] where are we in the story that's what
+
+[1701.919 - 1705.6000000000001] their summaries are going to be used for
+
+[1703.84 - 1707.1999999999998] excuse me so each chunk is going to be
+
+[1705.6 - 1708.6399999999999] summarized
+
+[1707.2 - 1711.3600000000001] and this one you know it's down to two
+
+[1708.64 - 1713.279] sentences so alice in wonderland o2 if
+
+[1711.36 - 1716.32] we open the summary
+
+[1713.279 - 1719.44] we can um compare oh that's that is the
+
+[1716.32 - 1721.6] summary sorry i need the chunk so chunks
+
+[1719.44 - 1722.8400000000001] um alice in wonderland o2 so you see it
+
+[1721.6 - 1726.8799999999999] goes
+
+[1722.84 - 1728.36] from 1500 characters down here
+
+[1726.88 - 1731.1200000000001] down to
+
+[1728.36 - 1732.8799999999999] 127. so by a fact it's compressed by a
+
+[1731.12 - 1735.6] factor of 10
+
+[1732.88 - 1737.919] and then you could also probably like
+
+[1735.6 - 1739.36] recursively summarize
+
+[1737.919 - 1740.72] once it gets too long i'm not going to
+
+[1739.36 - 1742.799] worry about that this time because this
+
+[1740.72 - 1744.72] is just a huge experiment in generating
+
+[1742.799 - 1745.52] something as far as i know no one has
+
+[1744.72 - 1747.919] ever
+
+[1745.52 - 1749.279] succeeded in generating a whole actual
+
+[1747.919 - 1751.1200000000001] novel
+
+[1749.279 - 1752.399] with this kind of structure
+
+[1751.12 - 1754.399] so this
+
+[1752.399 - 1756.0] should be done by now excellent all
+
+[1754.399 - 1759.1999999999998] right so if we go into the summaries
+
+[1756.0 - 1762.08] we've got 11 chunks for each so that's
+
+[1759.2 - 1765.3600000000001] 55
+
+[1762.08 - 1767.1999999999998] i'll probably need more
+
+[1765.36 - 1768.1589999999999] let's see
+
+[1767.2 - 1769.52] hmm
+
+[1768.159 - 1770.88] let me think about this because this is
+
+[1769.52 - 1773.039] 55
+
+[1770.88 - 1774.72] 55 summaries
+
+[1773.039 - 1776.96] which will then be used because if i
+
+[1774.72 - 1777.76] have five stories i would need
+
+[1776.96 - 1780.32] um
+
+[1777.76 - 1781.6] why can't i do math 5 times 40 i would
+
+[1780.32 - 1783.4399999999998] need 40
+
+[1781.6 - 1786.399] for each one
+
+[1783.44 - 1787.919] in order to get to 200 samples
+
+[1786.399 - 1789.039] okay so i guess i will need to do a
+
+[1787.919 - 1790.5590000000002] little bit more
+
+[1789.039 - 1792.799] darn okay
+
+[1790.559 - 1795.76] i will let this run i'll figure out how
+
+[1792.799 - 1797.2] to uh pick up where it left off and um
+
+[1795.76 - 1799.919] we'll go from there
+
+[1797.2 - 1799.919] be right back
+
+[1801.919 - 1806.0] all right um this is getting rough so
+
+[1804.559 - 1807.44] i'm gonna have to split this up into two
+
+[1806.0 - 1810.159] parts
+
+[1807.44 - 1811.8400000000001] but let me show you what i've got so far
+
+[1810.159 - 1814.88] so first let's just step through the
+
+[1811.84 - 1816.399] data because that i think will help
+
+[1814.88 - 1819.1200000000001] i've only got a few scripts so i've got
+
+[1816.399 - 1819.84] the summarize chunks prepare json l
+
+[1819.12 - 1822.32] and
+
+[1819.84 - 1824.559] the book to chunks so the books start
+
+[1822.32 - 1826.48] here this is like the super raw data
+
+[1824.559 - 1828.399] it's just a gutenberg book it's plain
+
+[1826.48 - 1830.88] text there you go
+
+[1828.399 - 1832.9599999999998] nothing special there so let's close all
+
+[1830.88 - 1834.88] these to clean it up all right so we
+
+[1832.96 - 1837.2] start with books right
+
+[1834.88 - 1840.48] then we break that into chunks
+
+[1837.2 - 1843.6000000000001] and each chunk is 1500 characters long
+
+[1840.48 - 1845.44] um 1522 why is it 1522 whatever it was
+
+[1843.6 - 1846.6399999999999] supposed to be 1500 characters long
+
+[1845.44 - 1848.88] close enough
+
+[1846.64 - 1851.039] they're all the same length
+
+[1848.88 - 1853.3600000000001] more or less i'm not sure exactly how
+
+[1851.039 - 1855.6] that um text wrap does
+
+[1853.36 - 1857.84] does its thing anyways more or less the
+
+[1855.6 - 1859.36] same length broken up into chunks so
+
+[1857.84 - 1861.84] because basically think of it like an
+
+[1859.36 - 1864.6399999999999] inchworm the idea is you write one
+
+[1861.84 - 1865.76] paragraph at a time or so um so that's
+
+[1864.64 - 1867.44] the idea
+
+[1865.76 - 1870.08] all right so we take the books we break
+
+[1867.44 - 1871.279] it into chunks then we summarize each
+
+[1870.08 - 1872.559] chunk
+
+[1871.279 - 1874.48] and so
+
+[1872.559 - 1875.76] each of these summaries is nice and
+
+[1874.48 - 1877.2] concise
+
+[1875.76 - 1879.039] very short
+
+[1877.2 - 1881.279] um
+
+[1879.039 - 1883.44] oops don't need to go there you don't
+
+[1881.279 - 1885.84] need to see all the research i was doing
+
+[1883.44 - 1888.88] to try and figure some of this out
+
+[1885.84 - 1891.519] okay so then we've got the summaries
+
+[1888.88 - 1893.0390000000002] finally so we got oh we also have the
+
+[1891.519 - 1894.64] outlines sorry
+
+[1893.039 - 1896.8799999999999] um the outlines which kind of outlines
+
+[1894.64 - 1898.88] the whole story just so that that way
+
+[1896.88 - 1900.72] it knows what we're trying to achieve
+
+[1898.88 - 1903.6000000000001] okay so finally
+
+[1900.72 - 1906.48] we put all that together in a prompt
+
+[1903.6 - 1908.799] um so here's the the full prompt so
+
+[1906.48 - 1910.48] basically we say okay here's the outline
+
+[1908.799 - 1912.08] here's the story so far
+
+[1910.48 - 1914.24] and here's the last chunk and we're
+
+[1912.08 - 1917.1999999999998] asking it to produce the next chunk
+
+[1914.24 - 1918.48] so what i did was i saved all those out
+
+[1917.2 - 1920.3990000000001] to
+
+[1918.48 - 1922.159] the same file names this this just makes
+
+[1920.399 - 1923.6] it really easy but one thing you'll
+
+[1922.159 - 1925.2] notice is that these files get
+
+[1923.6 - 1926.559] progressively larger
+
+[1925.2 - 1929.1200000000001] um
+
+[1926.559 - 1930.799] so whoops didn't mean to close that so
+
+[1929.12 - 1932.08] let's see which one is the shortest one
+
+[1930.799 - 1934.799] i think alice in wonderland is the
+
+[1932.08 - 1936.96] shortest so the very first prompt
+
+[1934.799 - 1939.36] outline alice is sitting in in the river
+
+[1936.96 - 1941.519] or sitting with her sister by the river
+
+[1939.36 - 1943.84] so cool that's fine
+
+[1941.519 - 1945.84] um story so far alice adventures in
+
+[1943.84 - 1947.519] wonderland is a novel by lewis carroll
+
+[1945.84 - 1950.48] that's fine
+
+[1947.519 - 1953.519] last chunk so last chunk is like what
+
+[1950.48 - 1956.32] what it's so the the last chunk
+
+[1953.519 - 1957.36] is that is the full prose and the story
+
+[1956.32 - 1959.519] so far
+
+[1957.36 - 1962.399] um this one because it's the very first
+
+[1959.519 - 1964.64] one um just has the uh
+
+[1962.399 - 1966.6399999999999] has the summary of this
+
+[1964.64 - 1968.5590000000002] um
+
+[1966.64 - 1970.24] yeah and so then the next chunk that
+
+[1968.559 - 1972.559] we're going to ask it to produce
+
+[1970.24 - 1974.96] is going to be the same as
+
+[1972.559 - 1976.399] so notice that uh this prompt or this
+
+[1974.96 - 1978.96] this one is
+
+[1976.399 - 1980.9599999999998] 0 0 0 1 so the next chunk that we're
+
+[1978.96 - 1982.799] going to match it to
+
+[1980.96 - 1985.8400000000001] is so we've got another folder called
+
+[1982.799 - 1987.279] completions so it's going to be here
+
+[1985.84 - 1989.519] so
+
+[1987.279 - 1992.399] alice was beginning to get very tired
+
+[1989.519 - 1994.559] and so what we're asking it to do is um
+
+[1992.399 - 1996.1589999999999] very tired uh
+
+[1994.559 - 1997.9189999999999] beginning to get very
+
+[1996.159 - 2000.159] tired of sitting by her sister on the
+
+[1997.919 - 2003.679] bank so you see it it just continues
+
+[2000.159 - 2004.64] right along and so by having the pairs
+
+[2003.679 - 2006.3200000000002] of
+
+[2004.64 - 2008.24] prompts and completion so you see
+
+[2006.32 - 2010.08] there's the prompt
+
+[2008.24 - 2011.44] and that's what the prompts look like
+
+[2010.08 - 2013.84] and then the completion that we want it
+
+[2011.44 - 2015.279] to achieve same exact file name so it's
+
+[2013.84 - 2017.4399999999998] easy to pair them
+
+[2015.279 - 2019.2] but so this is the first one but let me
+
+[2017.44 - 2022.0800000000002] show you how big the last one gets
+
+[2019.2 - 2025.6000000000001] because it's accumulating and this is um
+
+[2022.08 - 2026.96] this is this is the biggest problem um
+
+[2025.6 - 2029.6789999999999] let's see so the completions are the
+
+[2026.96 - 2032.08] same time same size each but the prompts
+
+[2029.679 - 2034.24] so the first prompt is 4 kilobytes the
+
+[2032.08 - 2036.48] last prompt is 12.
+
+[2034.24 - 2038.08] so the outline stays the same length
+
+[2036.48 - 2040.32] that's fine
+
+[2038.08 - 2043.9189999999999] story so far
+
+[2040.32 - 2045.279] you see it's getting longer and longer
+
+[2043.919 - 2046.96] oh but wait
+
+[2045.279 - 2048.8] there's actually
+
+[2046.96 - 2051.28] new lines so
+
+[2048.8 - 2052.96] finally you know the the summary gets
+
+[2051.28 - 2055.0400000000004] super super long
+
+[2052.96 - 2056.079] so instead of just being this first one
+
+[2055.04 - 2057.919] because you remember you know the
+
+[2056.079 - 2059.8390000000004] queen's croquet game this is where the
+
+[2057.919 - 2061.5989999999997] first one ended so what i'm doing is i'm
+
+[2059.839 - 2063.2799999999997] accumulating them all
+
+[2061.599 - 2066.3990000000003] right here so it's a summary of the
+
+[2063.28 - 2070.079] story and so instead the summary is now
+
+[2066.399 - 2072.0789999999997] 11 000 characters long typically
+
+[2070.079 - 2075.28] for the original da vinci
+
+[2072.079 - 2077.599] it would average about 6 000 characters
+
+[2075.28 - 2080.32] with is 2 000 tokens
+
+[2077.599 - 2082.8] um so we're way way over that we're
+
+[2080.32 - 2083.679] about twice what could fit
+
+[2082.8 - 2086.48] um
+
+[2083.679 - 2088.48] and and and we still need to get the
+
+[2086.48 - 2090.159] rest in um
+
+[2088.48 - 2094.56] the the the last chunk so that was just
+
+[2090.159 - 2094.56] the length of the summary um all told
+
+[2095.28 - 2099.2000000000003] oh and also
+
+[2097.2 - 2101.4399999999996] not just the length of the summary and
+
+[2099.2 - 2104.3199999999997] the the last chunk but the next chunk
+
+[2101.44 - 2106.88] has to fit into that completion as well
+
+[2104.32 - 2110.6400000000003] so these are just way too long
+
+[2106.88 - 2113.119] but i've got the data so i've got the um
+
+[2110.64 - 2115.52] oh that's not the right file
+
+[2113.119 - 2117.359] delete that one it's novel.json l so
+
+[2115.52 - 2119.359] this is a two megabyte file and this is
+
+[2117.359 - 2121.839] what it looks like so it's just this
+
+[2119.359 - 2123.92] huge mass of json-l
+
+[2121.839 - 2126.0] okay so that's about as far as i'm going
+
+[2123.92 - 2128.32] to get today
+
+[2126.0 - 2130.4] this code will be up on github i'll come
+
+[2128.32 - 2133.04] back to this soon
+
+[2130.4 - 2138.0] i'm exhausted
+
+[2133.04 - 2138.0] okay so basically what i need to do is
+
+[2138.16 - 2142.3199999999997] let me show you what the script does
+
+[2140.079 - 2144.48] that accumulates this so the script that
+
+[2142.32 - 2147.28] composes the json l is right here it's
+
+[2144.48 - 2149.599] called prepare json l it's really simple
+
+[2147.28 - 2152.2400000000002] so basically what i do is i grab all the
+
+[2149.599 - 2154.88] books in the directory called books
+
+[2152.24 - 2156.72] ta-da grab that there
+
+[2154.88 - 2158.079] instantiate a new
+
+[2156.72 - 2160.16] list and this is what i'm going to
+
+[2158.079 - 2162.079] accumulate all the samples in
+
+[2160.16 - 2163.839] so four book in books so we iterate
+
+[2162.079 - 2165.8390000000004] through each book iterate through each
+
+[2163.839 - 2168.56] one of these
+
+[2165.839 - 2170.32] we grab the name of the book
+
+[2168.56 - 2172.64] and then from with the name of the book
+
+[2170.32 - 2175.28] we grab all the summaries that are in
+
+[2172.64 - 2177.2799999999997] that book so then we go to the summaries
+
+[2175.28 - 2179.28] tab or a summaries folder so it's like
+
+[2177.28 - 2181.76] okay so if we're starting with alice in
+
+[2179.28 - 2183.3590000000004] wonderland we just want the summaries
+
+[2181.76 - 2185.28] that have alice in wonderland in the
+
+[2183.359 - 2187.839] name so that'll give us these 41
+
+[2185.28 - 2190.079] summaries oh and also they get really
+
+[2187.839 - 2191.2799999999997] big and this isn't even done this is
+
+[2190.079 - 2193.28] just the first
+
+[2191.28 - 2194.5600000000004] 40 41
+
+[2193.28 - 2196.5600000000004] sections
+
+[2194.56 - 2198.72] pride and prejudice has over 500
+
+[2196.56 - 2200.48] sections so how the heck are we going to
+
+[2198.72 - 2202.3199999999997] summarize that
+
+[2200.48 - 2203.359] that's going to be difficult
+
+[2202.32 - 2204.2400000000002] because you're basically going to have
+
+[2203.359 - 2206.7] to like
+
+[2204.24 - 2208.24] super super ultra paraphrase it
+
+[2206.7 - 2210.3999999999996] [Music]
+
+[2208.24 - 2211.839] i don't know if it's going to work but
+
+[2210.4 - 2213.44] because we're working with a very narrow
+
+[2211.839 - 2215.2] window and so this is why i laughed at
+
+[2213.44 - 2216.0] the beginning of the video where i said
+
+[2215.2 - 2217.68] you know
+
+[2216.0 - 2219.44] anyone who says like the human brain
+
+[2217.68 - 2220.8799999999997] only can only hold like seven things in
+
+[2219.44 - 2223.119] its working memory
+
+[2220.88 - 2224.6400000000003] no you you you try and actually
+
+[2223.119 - 2227.04] summarize and figure out how much
+
+[2224.64 - 2229.52] working memory you need to write a novel
+
+[2227.04 - 2231.2] um that or us novelists have a working
+
+[2229.52 - 2233.119] memory that is several orders of
+
+[2231.2 - 2235.359] magnitude greater than the typical
+
+[2233.119 - 2238.6400000000003] person because you need to keep so much
+
+[2235.359 - 2240.24] in your mind when you're writing a story
+
+[2238.64 - 2241.1189999999997] unless there's something i'm missing who
+
+[2240.24 - 2243.5989999999997] knows
+
+[2241.119 - 2245.76] um anyways so back to the script
+
+[2243.599 - 2248.0] um all right so we get so we get all the
+
+[2245.76 - 2250.1600000000003] summaries for this particular book we
+
+[2248.0 - 2252.8] get the outline for this particular book
+
+[2250.16 - 2254.48] then we instantiate a new string called
+
+[2252.8 - 2257.76] summary chunk so this is what this is
+
+[2254.48 - 2260.72] what accumulates um those uh those
+
+[2257.76 - 2262.4] summaries in the uh prompts right here
+
+[2260.72 - 2264.7999999999997] so you know we go down to this one so
+
+[2262.4 - 2266.2400000000002] the the story so far this is the summary
+
+[2264.8 - 2268.6400000000003] and so this is why it keeps getting
+
+[2266.24 - 2270.8799999999997] bigger is just because i just add to the
+
+[2268.64 - 2272.0] next um
+
+[2270.88 - 2274.0] each time
+
+[2272.0 - 2275.359] so it gets just longer and longer and
+
+[2274.0 - 2277.839] longer
+
+[2275.359 - 2280.56] every every iteration
+
+[2277.839 - 2282.56] so last chunk is open file that has the
+
+[2280.56 - 2285.92] same name as the current summary because
+
+[2282.56 - 2287.599] remember the um the summaries and the
+
+[2285.92 - 2288.96] chunks have the same name because the
+
+[2287.599 - 2291.599] summary is just
+
+[2288.96 - 2294.56] um you know it's a summary of that chunk
+
+[2291.599 - 2297.04] so alice in wonderland summary o3 is
+
+[2294.56 - 2298.88] just a summary of
+
+[2297.04 - 2301.359] this chunk
+
+[2298.88 - 2303.92] of o3 so suddenly alice had the moment
+
+[2301.359 - 2305.52] to stop the thing uh before falling and
+
+[2303.92 - 2306.96] so then you look at summary alice falls
+
+[2305.52 - 2309.2] down a very deep well and has plenty of
+
+[2306.96 - 2311.2] time to look around as she falls so you
+
+[2309.2 - 2312.64] see like okay cool
+
+[2311.2 - 2314.7999999999997] um
+
+[2312.64 - 2316.0789999999997] so we've we've reduced the length but
+
+[2314.8 - 2317.6800000000003] that's still not enough because it
+
+[2316.079 - 2321.44] accumulates here
+
+[2317.68 - 2323.7599999999998] okay so we we we incrementally
+
+[2321.44 - 2325.359] build up the summary
+
+[2323.76 - 2327.599] next chunk
+
+[2325.359 - 2329.2] prompt so then we compose the prompt
+
+[2327.599 - 2332.6400000000003] which is basically just load this and
+
+[2329.2 - 2334.0] populate it so you know outline summary
+
+[2332.64 - 2336.0789999999997] and chunk
+
+[2334.0 - 2337.28] the outline is is populated with this
+
+[2336.079 - 2340.079] variable
+
+[2337.28 - 2342.2400000000002] you can see that here so replace outline
+
+[2340.079 - 2344.2400000000002] with the outline replace the summary
+
+[2342.24 - 2346.3999999999996] with the summary chunk which is the uh
+
+[2344.24 - 2349.359] the string that keeps getting longer
+
+[2346.4 - 2350.8] and then we um finally we replace uh
+
+[2349.359 - 2352.64] next chunk
+
+[2350.8 - 2354.5600000000004] or sorry last chunk
+
+[2352.64 - 2356.48] um with
+
+[2354.56 - 2359.2799999999997] last chunk is is basically the current
+
+[2356.48 - 2361.599] chunk um and the next chunk is i wrote a
+
+[2359.28 - 2364.0] quick little um whoops did not mean to
+
+[2361.599 - 2364.0] close that
+
+[2364.24 - 2368.72] uh prepare json l edit
+
+[2366.8 - 2370.5600000000004] um so i wrote this quick little script
+
+[2368.72 - 2373.1189999999997] that you just pass it a file name or
+
+[2370.56 - 2375.68] file path of a given summary or chunk
+
+[2373.119 - 2377.359] and the name of the uh of the book and
+
+[2375.68 - 2379.7599999999998] it will it will just increment and
+
+[2377.359 - 2381.2] figure out what the next um
+
+[2379.76 - 2382.6400000000003] next chunk is
+
+[2381.2 - 2386.0789999999997] for the completion
+
+[2382.64 - 2387.5989999999997] and then it'll just pass that data back
+
+[2386.079 - 2390.5600000000004] so this is what it looks like i had it
+
+[2387.599 - 2393.04] output the length of each
+
+[2390.56 - 2395.52] of each one as it goes let me let me add
+
+[2393.04 - 2397.68] a little bit more so you can see
+
+[2395.52 - 2399.7599999999998] let's see so we'll have name so that's
+
+[2397.68 - 2402.0789999999997] the name of the book
+
+[2399.76 - 2403.8390000000004] and then we'll have
+
+[2402.079 - 2406.4] summary is going to be the name of the
+
+[2403.839 - 2408.0] file so you'll be able to see like which
+
+[2406.4 - 2409.6800000000003] well i guess the summary is going to
+
+[2408.0 - 2411.839] have the file name in it so we'll just
+
+[2409.68 - 2413.52] do summary and then length of the prompt
+
+[2411.839 - 2415.7599999999998] plus next chunk so you can see how big
+
+[2413.52 - 2417.599] that sample is
+
+[2415.76 - 2420.0] okay so
+
+[2417.599 - 2421.599] for sherlock 01 the length is 5500
+
+[2420.0 - 2422.72] characters that's about at the limit
+
+[2421.599 - 2425.6800000000003] already
+
+[2422.72 - 2428.0] and then by the end for sherlock 041
+
+[2425.68 - 2429.04] it's 14 000 so that's more than twice
+
+[2428.0 - 2431.68] what we could
+
+[2429.04 - 2433.599] um expect to fit and that's also not
+
+[2431.68 - 2434.3999999999996] even like not even the full length of
+
+[2433.599 - 2436.839] the
+
+[2434.4 - 2439.76] of the story
+
+[2436.839 - 2441.92] so i'm gonna have to pause here
+
+[2439.76 - 2444.48] and go back to the drawing board and do
+
+[2441.92 - 2447.04] some do some thinking some noodling on
+
+[2444.48 - 2448.319] this um so stick around for part two it
+
+[2447.04 - 2449.92] should come out
+
+[2448.319 - 2452.92] within the next week or so thanks for
+
+[2449.92 - 2452.92] watching

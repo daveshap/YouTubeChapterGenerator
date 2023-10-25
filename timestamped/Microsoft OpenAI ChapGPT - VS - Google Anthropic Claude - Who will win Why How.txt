@@ -1,0 +1,1073 @@
+[1.38 - 5.9399999999999995] morning everybody David Shapiro here
+
+[3.419 - 8.519] with an exciting new video we are now in
+
+[5.94 - 11.66] the hilarious timeline okay so today's
+
+[8.519 - 15.780000000000001] topic is about Google versus Microsoft
+
+[11.66 - 19.259999999999998] or anthropic versus open AI or Claude
+
+[15.78 - 22.5] versus chat GPT so let's get into it
+
+[19.26 - 25.619] so for some background chat GPT hit 100
+
+[22.5 - 27.3] million users in what two months less
+
+[25.619 - 30.06] than two months or just about two months
+
+[27.3 - 33.0] so this is according to Forbes
+
+[30.06 - 37.68] uh Google's earning Google's earnings
+
+[33.0 - 40.079] fell uh in Q4 may or may not be related
+
+[37.68 - 43.26] it looks like uh some of the some of the
+
+[40.079 - 45.42] revenue was lost due to uh search and
+
+[43.26 - 47.94] YouTube but
+
+[45.42 - 50.399] the fact that chat GPT has 100 million
+
+[47.94 - 52.26] users that fast and people are saying oh
+
+[50.399 - 54.84] I use chat GPT instead of Google search
+
+[52.26 - 56.099999999999994] it's way more helpful Google is
+
+[54.84 - 57.480000000000004] panicking
+
+[56.1 - 61.079] so
+
+[57.48 - 63.538999999999994] basically the tldr is open Ai and
+
+[61.079 - 66.54] Microsoft are now a direct threat to
+
+[63.539 - 68.159] Google's search dominance so you
+
+[66.54 - 70.38000000000001] probably heard you know I think it was
+
+[68.159 - 72.96000000000001] around Christmas Google and issued
+
+[70.38 - 75.65899999999999] issued a code red internal code red
+
+[72.96 - 77.33999999999999] saying we need to do something now so
+
+[75.659 - 79.38000000000001] let's unpack this there's a lot going on
+
+[77.34 - 81.619] here so let's take a deep dive and I'll
+
+[79.38 - 85.14] walk you through all the competitions
+
+[81.619 - 87.06] components uh their background and then
+
+[85.14 - 89.1] we'll draw some conclusions and
+
+[87.06 - 90.60000000000001] inferences about where it's going also
+
+[89.1 - 92.39999999999999] if I sound a little funny I'm still
+
+[90.6 - 94.91999999999999] recovering from a cold
+
+[92.4 - 97.5] okay so let's talk about open Ai and
+
+[94.92 - 100.43900000000001] chat GPT for those of you not in the
+
+[97.5 - 102.96] know open AI was founded by some really
+
+[100.439 - 106.5] big names uh most notably uh probably
+
+[102.96 - 108.96] Elon Musk uh Ilya sutscover Peter Thiel
+
+[106.5 - 111.24] Reed Hoffman and a few others it was
+
+[108.96 - 112.86] started in 2015 so it's already almost
+
+[111.24 - 115.14] eight years old
+
+[112.86 - 117.42] um and it's got Investments by big names
+
+[115.14 - 120.06] like Sequoia and Microsoft
+
+[117.42 - 122.93900000000001] uh it initially started with all kinds
+
+[120.06 - 125.399] of various uh experiments both in VR and
+
+[122.939 - 127.38] with robotics so one of their older
+
+[125.399 - 128.899] experiments was solving a Rubik's Cube
+
+[127.38 - 131.099] with a robotic hand
+
+[128.899 - 132.3] and if you're new to all this you're
+
+[131.099 - 136.01999999999998] probably like what are you talking about
+
+[132.3 - 137.94] like they did robotics what so buddy of
+
+[136.02 - 141.959] mine that was out here on the East Coast
+
+[137.94 - 143.819] went to open AI a few years ago and uh
+
+[141.959 - 145.98] so we got to chat about that stuff and
+
+[143.819 - 149.45899999999997] and he worked on this project and it was
+
+[145.98 - 151.79999999999998] a lot of fun but uh it really open AI
+
+[149.459 - 154.02] really took off and changed directions
+
+[151.8 - 157.02] when they figured when they basically
+
+[154.02 - 159.54000000000002] invented GPT as we know it today GPT
+
+[157.02 - 161.81900000000002] means generative pre-trained Transformer
+
+[159.54 - 164.22] basically it's a text auto complete
+
+[161.819 - 166.14] engine it's a very sophisticated one but
+
+[164.22 - 169.98] that's fundamentally what it does
+
+[166.14 - 174.0] so that is uh that is where open AI
+
+[169.98 - 176.16] started and GPT started in about three
+
+[174.0 - 178.14] years ago or really really started
+
+[176.16 - 180.84] taking off about three years ago and now
+
+[178.14 - 182.879] chat GPT is just the latest iteration of
+
+[180.84 - 184.5] that generative pre-trained Transformer
+
+[182.879 - 186.78] technology
+
+[184.5 - 190.379] so let's talk about anthropic and Claude
+
+[186.78 - 191.64000000000001] so anthropic was founded in 2021 just a
+
+[190.379 - 195.599] couple years ago
+
+[191.64 - 198.05999999999997] by former open AI leaders Daniela and
+
+[195.599 - 201.06] Dario amide I think I'm pronouncing
+
+[198.06 - 204.0] their name right so they started with
+
+[201.06 - 206.159] this idea called constitutional AI which
+
+[204.0 - 208.08] we will get more into details about that
+
+[206.159 - 210.48] in just a minute we'll unpack the
+
+[208.08 - 213.42000000000002] differences between Claude and chat GPT
+
+[210.48 - 216.48] as well as a few other Technologies
+
+[213.42 - 218.57999999999998] so Claude functionally looks pretty
+
+[216.48 - 220.319] similar to chat GPT right now its
+
+[218.58 - 223.08] interface is just on Slack
+
+[220.319 - 225.06] but it has the same kind of like you
+
+[223.08 - 227.64000000000001] chat with it and it gives you a long
+
+[225.06 - 230.159] response so functionally they look
+
+[227.64 - 232.55999999999997] pretty similar and then Google has
+
+[230.159 - 237.17999999999998] invested nearly 400 million dollars into
+
+[232.56 - 240.0] anthropic since 2022. so on the one hand
+
+[237.18 - 241.98000000000002] we've got Microsoft and openai Google
+
+[240.0 - 245.58] and anthropic I apologize my head's a
+
+[241.98 - 246.72] little foggy from uh from cold
+
+[245.58 - 249.86] okay
+
+[246.72 - 253.799] so what is Claude and constitutional AI
+
+[249.86 - 255.299] uh so just as a quick background uh the
+
+[253.799 - 256.73900000000003] reason that I'm qualified to talk about
+
+[255.299 - 259.139] this is because I've been studying it
+
+[256.739 - 261.0] and working on it for several years so I
+
+[259.139 - 264.0] proposed the idea of using a
+
+[261.0 - 266.28] constitution in an AI uh back in 2021
+
+[264.0 - 269.36] around the same time that anthropic was
+
+[266.28 - 273.84] founded so you're welcome but basically
+
+[269.36 - 277.32] the the the core idea of Claude is that
+
+[273.84 - 280.32] it has this heuristic imperative uh to
+
+[277.32 - 283.86] reduce its harmfulness so it has to
+
+[280.32 - 286.02] learn to be more harmless right learn
+
+[283.86 - 286.97900000000004] harmlessness is kind of a shorter way of
+
+[286.02 - 291.9] saying it
+
+[286.979 - 294.78] and so this is the the basic Loop for uh
+
+[291.9 - 297.84] for Claude where uh it generates its own
+
+[294.78 - 300.65999999999997] like red teaming responses internally it
+
+[297.84 - 302.63899999999995] criticizes its own ideas and it picks
+
+[300.66 - 306.0] something that is going to be less
+
+[302.639 - 307.62] harmful uh which is really interesting
+
+[306.0 - 310.38] um it also does use some reinforcement
+
+[307.62 - 312.3] learning with human feedback but it also
+
+[310.38 - 314.58] has this internal reinforcement learning
+
+[312.3 - 317.94] based on its Constitution and its
+
+[314.58 - 320.21999999999997] Constitution is learn to be less harmful
+
+[317.94 - 321.6] or reduce or increase harmlessness
+
+[320.22 - 324.3] rather
+
+[321.6 - 326.1] um so this is this is a very basic
+
+[324.3 - 328.259] cognitive architecture and we'll talk
+
+[326.1 - 329.16] more about cognitive architectures in a
+
+[328.259 - 332.039] moment
+
+[329.16 - 334.91900000000004] uh so the summary up up to this point
+
+[332.039 - 337.02] the tldr is open AI is eight years old
+
+[334.919 - 339.06] took a little while to find its way it
+
+[337.02 - 342.539] started in VR Robotics and a few other
+
+[339.06 - 345.24] things discovered language technology uh
+
+[342.539 - 347.94] and really took off from there anthropic
+
+[345.24 - 350.22] is brand new and it's focused very very
+
+[347.94 - 352.259] exclusively on this idea of creating
+
+[350.22 - 354.6] benevolent Ai and natural language
+
+[352.259 - 358.02000000000004] cognitive architectures so I'm already
+
+[354.6 - 359.759] in favor of that open AI is further
+
+[358.02 - 361.62] ahead because they've been around longer
+
+[359.759 - 363.06] the team is bigger they're partnered
+
+[361.62 - 364.199] with Microsoft they've got a lot more
+
+[363.06 - 366.84] money
+
+[364.199 - 369.0] but anthropic has the better philosophy
+
+[366.84 - 372.11999999999995] in my opinion and now they're partnering
+
+[369.0 - 373.8] with Google so the money is coming
+
+[372.12 - 375.9] now let's compare them let's look at
+
+[373.8 - 376.91900000000004] Claude versus chat GPT and a little bit
+
+[375.9 - 380.58] closer
+
+[376.919 - 383.52] so open ai's philosophy uh has led
+
+[380.58 - 387.12] championed by Sam Altman and Ilya
+
+[383.52 - 390.06] sutsgeever is basically the way that I
+
+[387.12 - 392.22] perceive it is they seem to be in the
+
+[390.06 - 394.919] camp of one model to rule them all or
+
+[392.22 - 396.72] basically scale is all you need and what
+
+[394.919 - 398.88] this means is they seem to believe that
+
+[396.72 - 400.58000000000004] all of intelligence can be solved by one
+
+[398.88 - 404.46] monolithic model
+
+[400.58 - 405.65999999999997] and I don't I don't agree with that and
+
+[404.46 - 407.69899999999996] I think that they're starting to see
+
+[405.66 - 409.97900000000004] diminishing returns and which I
+
+[407.699 - 413.039] discussed in previous videos as to why
+
+[409.979 - 415.38] gpt4 is going to be disappointing
+
+[413.039 - 417.24] so they say scale is all you need but
+
+[415.38 - 419.88] scale is all you need for what exactly
+
+[417.24 - 421.919] open AI is about page their mission
+
+[419.88 - 424.56] statement says to democratize access to
+
+[421.919 - 427.19899999999996] AGI but they haven't defined AGI so
+
+[424.56 - 429.36] they're heading towards this abstract
+
+[427.199 - 431.28000000000003] something or other and they say scale is
+
+[429.36 - 434.819] all you need to get there
+
+[431.28 - 436.61999999999995] um but here's the other thing
+
+[434.819 - 437.759] their current winning strategy is
+
+[436.62 - 440.28000000000003] reinforcement learning with human
+
+[437.759 - 441.90000000000003] feedback they don't seem to really
+
+[440.28 - 444.05999999999995] believe
+
+[441.9 - 447.12] anything about cognition they don't seem
+
+[444.06 - 448.5] to be neuro-inspired at all they don't
+
+[447.12 - 451.139] seem to really understand anything about
+
+[448.5 - 454.56] epistemology or philosophy
+
+[451.139 - 457.08] and what I mean by that is to open AI
+
+[454.56 - 459.96] alignment is just do what the humans
+
+[457.08 - 462.539] want they don't seem to have really put
+
+[459.96 - 464.94] any skill points into understanding uh
+
+[462.539 - 469.259] deontological ethics teleological ethics
+
+[464.94 - 471.599] uh or you know basically anything in the
+
+[469.259 - 475.02000000000004] huge volume of philosophy morality and
+
+[471.599 - 476.4] ethics that is there and it's just do
+
+[475.02 - 478.08] what the humans want
+
+[476.4 - 479.75899999999996] um and also just doing what humans want
+
+[478.08 - 480.96] is a bad idea and we'll get to that
+
+[479.759 - 483.41900000000004] later
+
+[480.96 - 486.65999999999997] so those are some of my critiques of
+
+[483.419 - 489.479] open AI now anthropic's philosophy is
+
+[486.66 - 492.24] reduce harm so reduce harm is a
+
+[489.479 - 495.24] deontological principle it says whatever
+
+[492.24 - 499.139] else is true we have a duty to try and
+
+[495.24 - 501.599] reduce harmfulness so harm reduction is
+
+[499.139 - 505.259] a tried and true philosophy in public
+
+[501.599 - 507.65999999999997] health and medicine so an example of
+
+[505.259 - 510.90000000000003] this is when you're looking at really
+
+[507.66 - 513.12] morally gray things such as um like drug
+
+[510.9 - 514.68] addiction for instance you'll often have
+
+[513.12 - 517.74] public health policies where you will
+
+[514.68 - 519.12] support addicts in order to like you
+
+[517.74 - 521.039] know you have methadone clinics for
+
+[519.12 - 523.74] instance so that you can give them
+
+[521.039 - 525.42] substances in a safe controlled way and
+
+[523.74 - 528.3] help them get off of it because that
+
+[525.42 - 530.459] reduces harm it's not ideal but it
+
+[528.3 - 533.459] reduces harm and it actually is proven
+
+[530.459 - 535.38] to reduce emergency room costs it
+
+[533.459 - 537.1199999999999] reduces deaths so on and so it also
+
+[535.38 - 539.399] reduces violence
+
+[537.12 - 541.64] and so harm reduction is a tried and
+
+[539.399 - 545.04] true principle it is a tried and true
+
+[541.64 - 547.019] philosophy which this is why I I
+
+[545.04 - 548.8199999999999] personally believe in anthropic's
+
+[547.019 - 550.5600000000001] Mission a little bit better so this is
+
+[548.82 - 552.12] what you might call a deontological
+
+[550.56 - 555.8389999999999] approach to AI
+
+[552.12 - 558.6] so they are on the right track and this
+
+[555.839 - 561.1800000000001] harm reduction philosophy does have more
+
+[558.6 - 563.339] legs than just pure reinforcement
+
+[561.18 - 565.0799999999999] learning with human feedback but they
+
+[563.339 - 567.24] will get into some pretty severe
+
+[565.08 - 568.74] limitations which we'll unpack a little
+
+[567.24 - 571.019] bit later
+
+[568.74 - 573.0] so let's do let's do a head-to-head
+
+[571.019 - 575.4590000000001] comparison of reinforcement learning
+
+[573.0 - 576.54] with human feedback versus learned
+
+[575.459 - 581.2199999999999] harmlessness
+
+[576.54 - 582.899] so one advantage that open AI has with
+
+[581.22 - 585.12] uh reinforcement learning with human
+
+[582.899 - 587.519] feedback is that it's better from a
+
+[585.12 - 590.22] product perspective at least out of the
+
+[587.519 - 591.72] gate and what I mean by that is that
+
+[590.22 - 594.5400000000001] reinforcement learning with human
+
+[591.72 - 597.4200000000001] feedback is basically automated agile
+
+[594.54 - 600.54] so for those not in the know agile is
+
+[597.42 - 603.36] how Tech products are improved where you
+
+[600.54 - 605.2199999999999] have very short cycles and you take user
+
+[603.36 - 607.38] feedback and you look at you look at
+
+[605.22 - 609.36] Telemetry about oh users really like
+
+[607.38 - 611.64] this feature let's do more of that and
+
+[609.36 - 613.8000000000001] so reinforcement learning uh with human
+
+[611.64 - 617.58] feedback basically automates that at the
+
+[613.8 - 620.0999999999999] data layer now that being said while
+
+[617.58 - 623.279] this is a superpower there's a bunch of
+
+[620.1 - 626.279] problems with this number one is open AI
+
+[623.279 - 628.4399999999999] is already having to fight Human Nature
+
+[626.279 - 630.48] and what I mean by that is there are
+
+[628.44 - 632.6400000000001] lots of people that want to do certain
+
+[630.48 - 634.44] things with chat GPT and it says oh I'm
+
+[632.64 - 635.9399999999999] not going to do that and there's all
+
+[634.44 - 638.339] kinds of things about gender bias
+
+[635.94 - 640.86] there's political bias and some of it
+
+[638.339 - 643.8000000000001] looks like it has been coded in so for
+
+[640.86 - 645.779] instance you'll see uh like Twitter
+
+[643.8 - 648.42] threads and stuff of people like trying
+
+[645.779 - 650.9399999999999] to get a chat GPT to like talk about
+
+[648.42 - 652.92] Trump or the benefits of fossil fuel and
+
+[650.94 - 655.8000000000001] it says I'm not going to do that that is
+
+[652.92 - 657.54] wrong and then you ask it to like you
+
+[655.8 - 659.8199999999999] know write a poem about Joe Biden and
+
+[657.54 - 661.92] it's happy to you know sing praises to
+
+[659.82 - 663.9590000000001] Joe Biden and solar power and it's like
+
+[661.92 - 666.5999999999999] it's very obviously that it has been
+
+[663.959 - 668.579] biased whether or not it has been biased
+
+[666.6 - 672.12] deliberately
+
+[668.579 - 675.12] um who knows but it feels like the folks
+
+[672.12 - 679.38] at open AI are trying to steal steer and
+
+[675.12 - 681.18] imbue their own morality into chat GPT
+
+[679.38 - 683.82] which means they're having to kind of
+
+[681.18 - 685.019] override the idea of the actual
+
+[683.82 - 686.82] reinforcement learning with human
+
+[685.019 - 689.339] feedback because it's fight fighting
+
+[686.82 - 690.48] what people actually want despite the
+
+[689.339 - 692.2790000000001] reinforcement learning with human
+
+[690.48 - 693.54] feedback is their primary mathematical
+
+[692.279 - 695.519] signal
+
+[693.54 - 697.1999999999999] so that's what I mean by reinforcement
+
+[695.519 - 699.0] learning with human feedback has some
+
+[697.2 - 700.44] pretty severe limitations because
+
+[699.0 - 701.7] they're like Wait no that's not what I
+
+[700.44 - 703.44] meant you're not supposed to use it like
+
+[701.7 - 705.5400000000001] that I'm going to tell you how to use it
+
+[703.44 - 707.6400000000001] and so what they're doing is they're
+
+[705.54 - 710.6999999999999] responding to their own internal morals
+
+[707.64 - 712.62] and principles and it's leaking
+
+[710.7 - 713.88] um if they're the what's the term for
+
+[712.62 - 716.94] that I can't remember what the term is
+
+[713.88 - 719.9399999999999] but basically where um uh where where
+
+[716.94 - 723.3000000000001] their their the the Creator's bias is
+
+[719.94 - 726.0600000000001] leaking into the data and so then the
+
+[723.3 - 727.9799999999999] alignment is not is not true it's not
+
+[726.06 - 729.899] being accurately represented in the
+
+[727.98 - 732.6] model in the data sets it's being
+
+[729.899 - 733.92] implicitly uh baked in and they're
+
+[732.6 - 735.899] having to fight the reinforcement
+
+[733.92 - 738.66] learning so
+
+[735.899 - 742.98] the short the tldr for for reinforcement
+
+[738.66 - 745.019] learning with human feedback is uh it is
+
+[742.98 - 747.36] very useful in having that rapid
+
+[745.019 - 749.76] iteration but they're already having to
+
+[747.36 - 751.2] fight what humans want so it kind of
+
+[749.76 - 754.62] defeats the purpose
+
+[751.2 - 756.5400000000001] now learned harmlessness or the
+
+[754.62 - 759.839] Constitutional AI of Claude and
+
+[756.54 - 762.06] anthropic is a good abstract principle
+
+[759.839 - 763.9200000000001] and so the reason that abstract
+
+[762.06 - 765.54] principles or deontological ethics are
+
+[763.92 - 767.6999999999999] good is because it gives you a framework
+
+[765.54 - 769.019] or a template with which to interpret
+
+[767.7 - 772.0790000000001] anything even stuff that you haven't
+
+[769.019 - 774.18] seen before so
+
+[772.079 - 775.92] there are some limitations though and
+
+[774.18 - 778.38] we'll we'll get into the the deeper
+
+[775.92 - 780.139] limitations but basically it has to try
+
+[778.38 - 784.74] and be helpful while also being harmless
+
+[780.139 - 787.139] and so that has some diminishing returns
+
+[784.74 - 788.82] which one will win in the short term I
+
+[787.139 - 791.04] think that pure reinforcement learning
+
+[788.82 - 792.98] with human feedback will win in the long
+
+[791.04 - 795.48] term I think that a more deontological
+
+[792.98 - 798.0] approach will be the winner and we'll
+
+[795.48 - 800.88] I'll tell you why in just a moment
+
+[798.0 - 802.079] let's look at the pros and cons of
+
+[800.88 - 804.42] reinforcement learning with human
+
+[802.079 - 807.06] feedback in a little bit more depth
+
+[804.42 - 808.9799999999999] so there's no principle the the biggest
+
+[807.06 - 811.079] con of reinforcement learning with human
+
+[808.98 - 813.0] feedback is there's no principle above
+
+[811.079 - 814.92] and beyond do what the humans want and
+
+[813.0 - 816.42] open AI is already having to fight what
+
+[814.92 - 818.16] the humans want
+
+[816.42 - 820.38] um this is bad because humans are
+
+[818.16 - 822.92] individually unreliable and there's no
+
+[820.38 - 826.139] abstract principle it just goes based on
+
+[822.92 - 828.7199999999999] consensus but if the consensus is we
+
+[826.139 - 830.339] want to be able to use chat GPT to do
+
+[828.72 - 832.5] certain things and you're telling us no
+
+[830.339 - 835.019] like you're fighting with your users
+
+[832.5 - 839.1] because the people creating chat GPT
+
+[835.019 - 841.38] have uh implicitly or explicitly put
+
+[839.1 - 843.9590000000001] their own moral values into it rather
+
+[841.38 - 847.5] than stating those moral values in a
+
+[843.959 - 850.3199999999999] constitution or some other abstract way
+
+[847.5 - 852.779] so those are the biggest cons
+
+[850.32 - 855.12] um and I don't think that's scalable I
+
+[852.779 - 857.3389999999999] don't think it's sustainable but it is
+
+[855.12 - 859.2] easy to implement and it gets really
+
+[857.339 - 860.94] good results up front so they're they're
+
+[859.2 - 862.74] screaming out of the gate but they're
+
+[860.94 - 864.6] going to get diminishing returns quick
+
+[862.74 - 866.519] fast and in a hurry
+
+[864.6 - 868.5600000000001] now let's look at the pros and cons of
+
+[866.519 - 869.639] constitutional AI or learned
+
+[868.56 - 873.959] harmlessness
+
+[869.639 - 876.92] so the biggest con is that learning to
+
+[873.959 - 879.5999999999999] be more harmless to reduce harmfulness
+
+[876.92 - 881.0999999999999] ultimately leads to doing nothing and
+
+[879.6 - 885.6] they actually in their paper they talked
+
+[881.1 - 887.399] about how very early on it would become
+
+[885.6 - 889.74] evasive or just say like I can't answer
+
+[887.399 - 891.66] that I'm not going to say anything and
+
+[889.74 - 895.019] so they had to come up with ways to game
+
+[891.66 - 897.66] that in order to offset that neutrality
+
+[895.019 - 898.44] and inertness
+
+[897.66 - 900.899] um
+
+[898.44 - 902.399] and I'll talk more about things that
+
+[900.899 - 905.399] they can do in the future to improve
+
+[902.399 - 907.68] that further but another big con from a
+
+[905.399 - 909.24] product perspective is that this is less
+
+[907.68 - 910.579] responsive to what the users actually
+
+[909.24 - 914.22] want to do
+
+[910.579 - 919.199] but the the the the flip side of that
+
+[914.22 - 921.48] the pro is that one having a a principle
+
+[919.199 - 923.8389999999999] a more abstract principle is going to be
+
+[921.48 - 926.88] far better for Humanity in the long run
+
+[923.839 - 929.2790000000001] and it's going to be more trustworthy
+
+[926.88 - 931.8] because it will have a specifically
+
+[929.279 - 934.38] explicitly stated moral framework so
+
+[931.8 - 937.62] people say oh anthropic I get it that
+
+[934.38 - 941.04] this model is is designed to increase
+
+[937.62 - 944.82] harmlessness or reduce harm reduce harm
+
+[941.04 - 946.5] which uh that by having that Clarity and
+
+[944.82 - 948.12] saying I know exactly what moral
+
+[946.5 - 950.94] framework they're using will increase
+
+[948.12 - 953.76] trustworthiness in the long run so
+
+[950.94 - 954.899] there's some pros and cons to both
+
+[953.76 - 957.24] um now
+
+[954.899 - 959.459] there is however kind of a secret weapon
+
+[957.24 - 961.5600000000001] that we haven't talked about yet and
+
+[959.459 - 964.3199999999999] that is uh remember the whole sentient
+
+[961.56 - 966.3] AI thing that was Google that was Lambda
+
+[964.32 - 968.639] and Paul
+
+[966.3 - 970.3199999999999] um you know the The Whistleblower uh
+
+[968.639 - 972.0600000000001] raised the red flag and then he went on
+
+[970.32 - 974.4200000000001] a whole bunch of uh interviews and
+
+[972.06 - 978.66] ultimately got fired from Google because
+
+[974.42 - 981.06] their sentient AI said I want a lawyer
+
+[978.66 - 983.04] um it was just basically telling the
+
+[981.06 - 985.38] engineer what he wanted to hear
+
+[983.04 - 987.8389999999999] but let's talk about those for a second
+
+[985.38 - 990.0] so Google Google's Lambda and palm
+
+[987.839 - 992.399] Lambda is the language model for
+
+[990.0 - 993.3] dialogue applications super uncreative
+
+[992.399 - 994.68] name
+
+[993.3 - 996.7199999999999] um and then Palm is the pathways
+
+[994.68 - 1000.019] language model it's a 540 billion
+
+[996.72 - 1002.0600000000001] parameter model it's an llm just like
+
+[1000.019 - 1005.5] gpt3 which is the underpinning
+
+[1002.06 - 1005.5] technology of chat GPT
+
+[1005.6 - 1011.72] so Lambda is a is a is a a a an
+
+[1009.5 - 1014.24] accumulation of a whole bunch of apis
+
+[1011.72 - 1016.399] it's got all kinds of NLP tools data
+
+[1014.24 - 1017.899] tools search tools and that sort of
+
+[1016.399 - 1019.82] stuff so it's basically a cognitive
+
+[1017.899 - 1022.279] architecture and you might have noticed
+
+[1019.82 - 1025.16] a trend here anthropic and Google are
+
+[1022.279 - 1026.9] more in the cognitive architecture realm
+
+[1025.16 - 1028.699] and they're not calling it that I'm I'm
+
+[1026.9 - 1032.1200000000001] using that term
+
+[1028.699 - 1034.459] so but because of that my money is on my
+
+[1032.12 - 1037.76] money is solidly on Google and anthropic
+
+[1034.459 - 1039.799] in the long run they are going to create
+
+[1037.76 - 1042.919] things that are far more useful and far
+
+[1039.799 - 1045.559] more scalable and far more flexible than
+
+[1042.919 - 1048.3190000000002] in going all in in monolithic models
+
+[1045.559 - 1050.24] like open AI is
+
+[1048.319 - 1052.58] okay so I've said cognitive architecture
+
+[1050.24 - 1054.6200000000001] a bunch of times for those of you that
+
+[1052.58 - 1056.8999999999999] are new to the channel what the heck is
+
+[1054.62 - 1058.82] a cognitive architecture the short
+
+[1056.9 - 1060.44] version of a cognitive architecture is
+
+[1058.82 - 1063.1399999999999] that it is a functional computer model
+
+[1060.44 - 1065.66] of a thinking machine or a brain If you
+
+[1063.14 - 1067.7] like it is made of specialized
+
+[1065.66 - 1069.02] components or regions just like a just
+
+[1067.7 - 1070.76] like a real brain is where you've got
+
+[1069.02 - 1072.62] some components that specialize in
+
+[1070.76 - 1074.96] memory some that specialize in output
+
+[1072.62 - 1077.7199999999998] some that specialize in sensory input so
+
+[1074.96 - 1080.24] on and so forth so in a cognitive
+
+[1077.72 - 1081.679] architecture you can compose a cognitive
+
+[1080.24 - 1084.32] architecture of things like large
+
+[1081.679 - 1087.679] language models databases reinforcement
+
+[1084.32 - 1089.24] learning signals graph databases so on
+
+[1087.679 - 1091.1000000000001] and so forth
+
+[1089.24 - 1093.6200000000001] and because of that they are infinitely
+
+[1091.1 - 1095.4189999999999] more flexible and sophisticated than
+
+[1093.62 - 1098.1789999999999] monolithic models
+
+[1095.419 - 1100.22] because those monolithic models can be a
+
+[1098.179 - 1102.74] component of a much larger cognitive
+
+[1100.22 - 1104.9] architecture so
+
+[1102.74 - 1106.94] if you take a big giant step back the
+
+[1104.9 - 1108.919] fight between Microsoft and Google is
+
+[1106.94 - 1111.2] fundamentally from my perspective it's
+
+[1108.919 - 1113.419] fundamentally about scaling monolithic
+
+[1111.2 - 1116.539] models versus cognitive architectures
+
+[1113.419 - 1119.24] and as I said before my money is solidly
+
+[1116.539 - 1121.039] on cognitive architectures
+
+[1119.24 - 1122.6] okay so I mentioned that I've done work
+
+[1121.039 - 1126.08] on this so I want to introduce you if
+
+[1122.6 - 1128.24] you're new to this uh to to my work on
+
+[1126.08 - 1130.1] cognitive architectures my Flagship
+
+[1128.24 - 1131.96] cognitive architecture is called maragi
+
+[1130.1 - 1133.8799999999999] which means uh microservices
+
+[1131.96 - 1135.98] architecture for Robotics and artificial
+
+[1133.88 - 1139.1000000000001] general intelligence
+
+[1135.98 - 1141.5] um this is the the uh the model that I
+
+[1139.1 - 1143.6] recently came up with to describe the
+
+[1141.5 - 1145.52] layers of abstraction of how to
+
+[1143.6 - 1148.28] implement maragi
+
+[1145.52 - 1150.5] uh the current project is called raven
+
+[1148.28 - 1152.96] which is real-time assistant voice
+
+[1150.5 - 1154.94] enabled Network it is a fully open
+
+[1152.96 - 1159.32] source project you can join in on
+
+[1154.94 - 1161.74] github.com Dave shop Raven
+
+[1159.32 - 1164.0] um the pro I just started it last Friday
+
+[1161.74 - 1165.86] and we've already got dozens of people
+
+[1164.0 - 1167.9] participating
+
+[1165.86 - 1170.24] um I'm working on organizing the
+
+[1167.9 - 1173.1200000000001] leadership team and we're also working
+
+[1170.24 - 1175.22] on getting sponsorship or some sort of
+
+[1173.12 - 1176.8999999999999] governance or whatever
+
+[1175.22 - 1179.179] um but you know hey it's four days old
+
+[1176.9 - 1180.799] or five days old so we're making good
+
+[1179.179 - 1183.02] progress
+
+[1180.799 - 1184.7] um so if you're in if you're on team
+
+[1183.02 - 1186.08] cognitive architecture and you want to
+
+[1184.7 - 1188.539] participate in something that is fully
+
+[1186.08 - 1191.24] open source jump on over in the Pro in
+
+[1188.539 - 1193.22] the project uh Raven
+
+[1191.24 - 1195.919] um all right so in conclusion
+
+[1193.22 - 1198.74] Microsoft and openai are more product
+
+[1195.919 - 1200.179] focused short-term product focus with
+
+[1198.74 - 1203.72] reinforcement learning with human
+
+[1200.179 - 1205.46] feedback this is not scalable they are
+
+[1203.72 - 1209.0] already having to fight what people want
+
+[1205.46 - 1211.1000000000001] to do with it and so mathematically they
+
+[1209.0 - 1213.32] don't have a solution because they have
+
+[1211.1 - 1216.74] not invested any skill points in
+
+[1213.32 - 1218.4189999999999] understanding philosophy or ethics
+
+[1216.74 - 1221.36] um as far as I can tell
+
+[1218.419 - 1223.3400000000001] now Google and anthropic are more
+
+[1221.36 - 1224.9599999999998] sophisticated because of their cognitive
+
+[1223.34 - 1228.1999999999998] their their cognitive architecture
+
+[1224.96 - 1230.48] approach specifically they have a
+
+[1228.2 - 1232.7] deontological approach that is likely to
+
+[1230.48 - 1235.52] be far more scalable and flexible in the
+
+[1232.7 - 1237.74] long run now that being said it might
+
+[1235.52 - 1240.679] take them a little longer to realize
+
+[1237.74 - 1242.78] that value but people are going to
+
+[1240.679 - 1244.52] understand oh this thing is just trying
+
+[1242.78 - 1248.059] to be harmless I get it I know how to
+
+[1244.52 - 1250.6399999999999] work with that whereas the the morality
+
+[1248.059 - 1252.559] of chat GPT seems somewhat arbitrary and
+
+[1250.64 - 1255.919] it seems like it is very heavily skewed
+
+[1252.559 - 1257.6] by the people who are making it so it'll
+
+[1255.919 - 1259.76] take a while for the Google anthropic
+
+[1257.6 - 1261.26] Claude stack to catch up but I think
+
+[1259.76 - 1263.72] that they will catch up and I think that
+
+[1261.26 - 1265.1] they will overtake it just by virtue of
+
+[1263.72 - 1267.5] they're going to get more investment and
+
+[1265.1 - 1270.3799999999999] more attention in the long run because
+
+[1267.5 - 1273.08] they have a better principled approach
+
+[1270.38 - 1274.7] so thank you for watching if you want to
+
+[1273.08 - 1276.26] get involved with my open source
+
+[1274.7 - 1278.539] cognitive architecture project it's
+
+[1276.26 - 1280.22] called raven another way you can reach
+
+[1278.539 - 1282.26] out and get in touch with me is if you
+
+[1280.22 - 1284.66] support me on patreon every little bit
+
+[1282.26 - 1287.3799999999999] helps so thanks for watching I hope you
+
+[1284.66 - 1287.38] found this valuable

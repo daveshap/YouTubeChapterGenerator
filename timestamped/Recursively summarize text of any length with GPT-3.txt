@@ -1,0 +1,1129 @@
+[0.399 - 4.0] hey everybody david shapiro here with a
+
+[2.32 - 5.52] quick video well i think it's gonna be
+
+[4.0 - 6.96] quick um
+
+[5.52 - 9.04] i've had a few requests for something
+
+[6.96 - 11.36] that's pretty similar um also let me
+
+[9.04 - 12.479999999999999] make sure the sound is good okay cool
+
+[11.36 - 15.12] you can hear me
+
+[12.48 - 17.92] um something that's pretty similar so
+
+[15.12 - 21.358999999999998] one person asked for something to uh
+
+[17.92 - 24.400000000000002] like summarize um documentation another
+
+[21.359 - 26.240000000000002] person asked for like summarizing notes
+
+[24.4 - 28.64] of um
+
+[26.24 - 31.119] some type you know basically creating
+
+[28.64 - 32.8] executive summaries um this is already a
+
+[31.119 - 34.64] solved problem but there's enough people
+
+[32.8 - 37.44] asking for how to do this i figured why
+
+[34.64 - 38.559] not make a video on it um so we're gonna
+
+[37.44 - 40.48] do
+
+[38.559 - 42.0] recursive
+
+[40.48 - 43.279999999999994] summary
+
+[42.0 - 45.2] summarizer
+
+[43.28 - 47.28] um public
+
+[45.2 - 49.6] add a readme
+
+[47.28 - 52.480000000000004] and license mit
+
+[49.6 - 54.399] um so basically all we're going to do is
+
+[52.48 - 55.599999999999994] create a loop so there'll be an input
+
+[54.399 - 56.559] document
+
+[55.6 - 58.399] um
+
+[56.559 - 60.8] and then uh
+
+[58.399 - 63.039] we'll break that down into chunks using
+
+[60.8 - 65.92] using the module text wrap
+
+[63.039 - 67.52] and from there we will um
+
+[65.92 - 68.64] we'll just summarize each chunk and put
+
+[67.52 - 70.39999999999999] it together and what you can do is you
+
+[68.64 - 72.479] can rehearse like you assemble all those
+
+[70.4 - 73.92] chunks and you can recursively summarize
+
+[72.479 - 75.52] it
+
+[73.92 - 77.43900000000001] again and again until you end up with
+
+[75.52 - 79.67999999999999] you know something that's
+
+[77.439 - 83.439] unrecognizable basically
+
+[79.68 - 83.43900000000001] okay so get clone
+
+[84.84 - 89.92] summarizer okay so
+
+[88.32 - 91.83999999999999] let's open up
+
+[89.92 - 94.0] my c drive
+
+[91.84 - 95.60000000000001] recursive summarizer there we go let's
+
+[94.0 - 97.119] open another
+
+[95.6 - 99.67999999999999] one
+
+[97.119 - 100.96] add my get ignore
+
+[99.68 - 102.47900000000001] and my
+
+[100.96 - 104.88] openai
+
+[102.479 - 108.56] api key
+
+[104.88 - 108.56] just start with some boilerplate stuff
+
+[108.64 - 112.24] and then
+
+[109.52 - 114.64] in auto muse i did use
+
+[112.24 - 116.15899999999999] a recursive summaries hey look at that
+
+[114.64 - 118.0] um
+
+[116.159 - 120.799] i did not use text wrap in this one i
+
+[118.0 - 123.119] think it was in book to chunks
+
+[120.799 - 125.68] yeah okay so import text wrap so
+
+[123.119 - 125.68] basically
+
+[126.079 - 130.879] import text wrap so what this does is um
+
+[128.72 - 132.319] you give it just a block of a string and
+
+[130.879 - 134.319] it'll break it into
+
+[132.319 - 136.07999999999998] um chunks of strings that are more or
+
+[134.319 - 139.35999999999999] less the same size
+
+[136.08 - 141.59900000000002] um so let's go to recursive summarizer
+
+[139.36 - 142.4] and let's just this will probably be
+
+[141.599 - 145.92] like
+
+[142.4 - 147.76000000000002] one thing so we'll just do um
+
+[145.92 - 150.72] recursively
+
+[147.76 - 152.959] summarize dot pi
+
+[150.72 - 156.959] um and so then what we'll do
+
+[152.959 - 156.959] is i'll have a
+
+[157.36 - 161.76000000000002] let's start with a
+
+[160.319 - 163.92] book let's see what's the shortest one
+
+[161.76 - 166.0] we have here alice in wonderland cool
+
+[163.92 - 168.48] we'll start with that
+
+[166.0 - 171.12] um alice in wonderland
+
+[168.48 - 172.64] we'll go back to here so we'll copy that
+
+[171.12 - 174.56] we'll just call this input so that
+
+[172.64 - 176.79999999999998] whatever you do you'll have input.txt
+
+[174.56 - 178.64000000000001] and then output.txt so this is a
+
+[176.8 - 182.08] technique that i've used
+
+[178.64 - 184.39999999999998] um i had a contract a um an operating
+
+[182.08 - 186.239] agreement for a company that i had to
+
+[184.4 - 188.56] read and it was an 80 page document i
+
+[186.239 - 191.44] was like i don't want to read 80 pages
+
+[188.56 - 193.599] it was like 60 000 words 80 pages so i'd
+
+[191.44 - 196.319] use this technique and i summarized it
+
+[193.599 - 198.39999999999998] down to like 15 000 words so i made it a
+
+[196.319 - 199.67999999999998] quarter as long
+
+[198.4 - 201.04] obviously i'm not going to show you
+
+[199.68 - 203.68] people on the public you know this
+
+[201.04 - 206.159] private you know legal contract
+
+[203.68 - 207.68] but i can show you the same principle
+
+[206.159 - 210.84] and we'll go from there
+
+[207.68 - 214.959] okay so we've got input recursively
+
+[210.84 - 218.31900000000002] summarize text uh so on and so forth
+
+[214.959 - 220.06] i'll copy my open file
+
+[218.319 - 222.0] function just because it's super useful
+
+[220.06 - 224.72] [Music]
+
+[222.0 - 227.84] and then also save file
+
+[224.72 - 227.84] because also useful
+
+[228.159 - 231.67999999999998] okay so whoops
+
+[234.64 - 237.51899999999998] if
+
+[236.0 - 241.239] name
+
+[237.519 - 241.239] equals main
+
+[241.599 - 244.319] so this just says this is our main
+
+[243.36 - 246.15900000000002] function
+
+[244.319 - 248.159] um
+
+[246.159 - 250.64] we want to what do we want to do who's
+
+[248.159 - 250.64] bugging me
+
+[252.84 - 257.599] okay sorry muted my phone um
+
+[261.6 - 264.56] lost my train of thought right we're
+
+[263.12 - 266.32] going to open a file
+
+[264.56 - 269.12] let me make sure that i do it right book
+
+[266.32 - 271.44] to chunks so chunks equals yes all right
+
+[269.12 - 273.759] so here's here's basically what you do
+
+[271.44 - 273.759] um
+
+[274.16 - 277.12] uh let's see
+
+[278.4 - 284.08] all text equals
+
+[280.32 - 286.32] open file and we'll just do input.txt so
+
+[284.08 - 288.32] whatever you want it'll be this name um
+
+[286.32 - 290.71999999999997] you could make this into a command line
+
+[288.32 - 292.88] argument thing um i personally don't
+
+[290.72 - 294.40000000000003] like doing that kind of thing um but
+
+[292.88 - 297.68] you're welcome to make this a command
+
+[294.4 - 299.03999999999996] line based tool if you want
+
+[297.68 - 299.919] oh yeah we're going to need to do this
+
+[299.04 - 303.03900000000004] as well
+
+[299.919 - 303.039] our open ai key
+
+[303.6 - 308.88] okay so all text equals that and then
+
+[306.479 - 312.15999999999997] chunks equals
+
+[308.88 - 312.15999999999997] let me make sure i do this right
+
+[313.039 - 316.15999999999997] text wrap there we go
+
+[317.36 - 319.91900000000004] okay so we could just call text wrap and
+
+[319.199 - 323.039] then
+
+[319.919 - 324.32] dot wrap and then we put this here so
+
+[323.039 - 326.88] we're going to do a little bit longer of
+
+[324.32 - 328.24] chunks we're going to do 4 000 um chunks
+
+[326.88 - 329.84] because we're just doing one summary
+
+[328.24 - 331.199] each
+
+[329.84 - 332.23999999999995] and then
+
+[331.199 - 333.759] another thing that we're going to need
+
+[332.24 - 335.759] to do is
+
+[333.759 - 336.8] let's see
+
+[335.759 - 338.16] result
+
+[336.8 - 341.12] equals list so we're going to have a
+
+[338.16 - 341.5] list of strings as the final result
+
+[341.12 - 343.44] um
+
+[341.5 - 348.479] [Music]
+
+[343.44 - 348.479] and then let's see for chunk in chunks
+
+[348.639 - 353.84000000000003] we will then summarize that so i need to
+
+[351.039 - 353.84] grab my
+
+[354.56 - 358.0] my gpt3 completion
+
+[359.52 - 363.68] function
+
+[361.12 - 365.919] and put that up here and again i just i
+
+[363.68 - 367.6] recycle code all the time you get a
+
+[365.919 - 369.52] function that works you just copy paste
+
+[367.6 - 370.88] it add infinite item
+
+[369.52 - 373.12] so then we'll do
+
+[370.88 - 376.88] import os import
+
+[373.12 - 378.4] um no from time import time
+
+[376.88 - 379.36] sleep because those are two things that
+
+[378.4 - 382.15999999999997] i need
+
+[379.36 - 382.16] for that to work
+
+[382.319 - 385.759] oh and then we need a prompt so we go
+
+[384.4 - 388.88] over here
+
+[385.759 - 390.639] let's just go to
+
+[388.88 - 392.8] um
+
+[390.639 - 394.88] here
+
+[392.8 - 398.08] selection
+
+[394.88 - 400.0] all right that's about 4 000 characters
+
+[398.08 - 402.0] so how how do we want to how do we want
+
+[400.0 - 404.72] to summarize this so we'll say
+
+[402.0 - 406.84] we'll start with
+
+[404.72 - 410.96000000000004] write a concise
+
+[406.84 - 410.96] summary of the following
+
+[413.36 - 417.199] and then we do
+
+[414.72 - 418.88000000000005] concise summary
+
+[417.199 - 422.28000000000003] and we'll leave this on point seven so
+
+[418.88 - 422.28] that it can be creative
+
+[426.08 - 430.56] um okay so it says in this passage roger
+
+[428.72 - 432.24] chillingworth and reverend dimmesdale
+
+[430.56 - 434.24] discuss the secrecy of some sinners
+
+[432.24 - 435.44] dimmesdale argues that some men keep
+
+[434.24 - 436.8] their secrets because they hope to
+
+[435.44 - 438.24] redeem themselves while while
+
+[436.8 - 439.599] chillingworth suggests that they are
+
+[438.24 - 441.12] simply afraid of being found out the
+
+[439.599 - 443.52] conversation is interrupted by the sound
+
+[441.12 - 445.68] of pearl's laughter and they watch as
+
+[443.52 - 447.52] she plays in the cemetery
+
+[445.68 - 450.40000000000003] okay that seems good to me
+
+[447.52 - 452.08] um
+
+[450.4 - 453.19899999999996] let's see before roger chillingworth can
+
+[452.08 - 456.0] answer they heard the clear wild
+
+[453.199 - 458.56] laughter of a young child's voice yeah
+
+[456.0 - 460.56] i'm taking a handful of these um let's
+
+[458.56 - 463.36] so i had this idea because okay this is
+
+[460.56 - 465.68] a good concise summary but
+
+[463.36 - 467.039] um
+
+[465.68 - 468.479] let's see write it write a concise
+
+[467.039 - 472.0] summary of the following
+
+[468.479 - 473.68] be sure to preserve
+
+[472.0 - 476.639] preserve um
+
+[473.68 - 479.28000000000003] important details
+
+[476.639 - 481.919] so then we'll add concise summary
+
+[479.28 - 484.87899999999996] with details so let's see how much how
+
+[481.919 - 486.479] different this is so let's copy this
+
+[484.879 - 488.8] so that we can save it
+
+[486.479 - 492.24] so this it goes from it went from 4 000
+
+[488.8 - 493.44] characters to 376 so that's a factor of
+
+[492.24 - 494.40000000000003] more than 10
+
+[493.44 - 496.319] um
+
+[494.4 - 498.23999999999995] in terms of reduction but if we say
+
+[496.319 - 499.759] let's keep some details
+
+[498.24 - 501.199] let's see how that is hester print and
+
+[499.759 - 503.12] her daughter pearl are walking through
+
+[501.199 - 504.56] the burial ground
+
+[503.12 - 506.08] when pearl starts skipping and dancing
+
+[504.56 - 507.44] around irreverently hester doesn't stop
+
+[506.08 - 510.0] her but merely tells her to behave more
+
+[507.44 - 511.919] decorously brolin starts arranging burrs
+
+[510.0 - 514.8] along the lines of the scarlet letter on
+
+[511.919 - 514.8] hester's bosom
+
+[518.159 - 523.039] is that really what happened that seems
+
+[519.76 - 523.039] like it's an entirely different
+
+[526.56 - 531.1199999999999] i don't know that any of that actually
+
+[527.92 - 531.12] happened where did it get this
+
+[532.839 - 537.2790000000001] burr
+
+[534.64 - 537.279] oh okay
+
+[538.72 - 544.399] oh interesting so it kind of it it
+
+[542.64 - 546.48] summarized like the details in the final
+
+[544.399 - 549.04] bit hmm okay
+
+[546.48 - 551.279] um i don't necessarily like that summary
+
+[549.04 - 552.88] because the first one like you look how
+
+[551.279 - 554.56] different these are
+
+[552.88 - 557.6] so the first one was in this passage
+
+[554.56 - 559.92] roger chillingworth etc etc um but we
+
+[557.6 - 561.279] miss out on the details of the burs
+
+[559.92 - 562.88] right so it's like
+
+[561.279 - 563.92] okay
+
+[562.88 - 565.519] um
+
+[563.92 - 569.279] so the wording that i used in another
+
+[565.519 - 570.9590000000001] time was using a moderate summary
+
+[569.279 - 572.48] of the following
+
+[570.959 - 576.16] so moderate summary means like okay
+
+[572.48 - 578.64] compress it but not too much
+
+[576.16 - 581.12] so we'll just say
+
+[578.64 - 581.12] moderate
+
+[581.519 - 584.519] summary
+
+[593.76 - 598.24] interesting
+
+[594.8 - 601.8] so it's kind of ignoring the beginning
+
+[598.24 - 601.8] in both of these
+
+[604.32 - 608.6400000000001] because even this one
+
+[606.32 - 609.7600000000001] this moderate summary
+
+[608.64 - 611.4399999999999] is
+
+[609.76 - 612.8] more like the second one
+
+[611.44 - 615.0400000000001] so like hester prin and her daughter
+
+[612.8 - 617.04] pearl are walking through a graveyard
+
+[615.04 - 618.399] but then you see this one
+
+[617.04 - 619.8389999999999] like it's almost like we need to have
+
+[618.399 - 621.68] both of these
+
+[619.839 - 623.0400000000001] so we want what i'm trying to do here is
+
+[621.68 - 624.4799999999999] get something that that feels like a
+
+[623.04 - 624.8399999999999] good summary
+
+[624.48 - 626.72] um
+
+[624.84 - 628.8000000000001] [Music]
+
+[626.72 - 631.8000000000001] so let's say let's write a detailed
+
+[628.8 - 631.8] summary
+
+[632.0 - 635.04] um
+
+[633.279 - 637.4399999999999] detailed
+
+[635.04 - 637.4399999999999] summary
+
+[645.519 - 650.24] that looks a little bit better
+
+[648.0 - 652.399] okay so this this captures both okay so
+
+[650.24 - 654.72] if we say detailed summary it's about
+
+[652.399 - 657.12] twice as long but it looks like it got
+
+[654.72 - 658.5600000000001] all of the details that we want um so
+
+[657.12 - 661.04] let's say
+
+[658.56 - 664.0] uh it the le the selection that we did
+
+[661.04 - 665.519] is 838 characters so that's still more
+
+[664.0 - 667.279] than a factor of four because we went
+
+[665.519 - 669.519] from 4 000 characters to less than a
+
+[667.279 - 671.68] thousand so okay so it's a quarter as
+
+[669.519 - 673.44] long um i like that i think we're going
+
+[671.68 - 674.4799999999999] to stick with this as as our as our
+
+[673.44 - 676.32] prompt
+
+[674.48 - 678.399] um okay
+
+[676.32 - 679.9200000000001] so we're gonna do
+
+[678.399 - 681.36] this we're gonna
+
+[679.92 - 682.399] all right here i'll just copy all this
+
+[681.36 - 684.24] in
+
+[682.399 - 686.079] okay
+
+[684.24 - 689.0790000000001] write a detailed summary of the
+
+[686.079 - 689.079] following
+
+[691.12 - 694.0] summary
+
+[692.8 - 696.88] and then we
+
+[694.0 - 700.0] kill all that and we say this
+
+[696.88 - 701.2] is our new prompt
+
+[700.0 - 703.36] prompt
+
+[701.2 - 707.6800000000001] prompt dot text
+
+[703.36 - 707.6800000000001] okay so then what we do is for each
+
+[707.76 - 711.2] chunk
+
+[709.12 - 713.6] here let me close some of this
+
+[711.2 - 716.6] excessive
+
+[713.6 - 716.6] stuff
+
+[719.519 - 723.04] okay
+
+[720.88 - 725.04] so for each for chunk and chunk we're
+
+[723.04 - 727.8389999999999] going to say prompt equals
+
+[725.04 - 727.8389999999999] open file
+
+[729.12 - 733.279] dot text dot replace
+
+[732.24 - 734.5600000000001] um
+
+[733.279 - 737.519] summary
+
+[734.56 - 739.92] summary sorry
+
+[737.519 - 741.92] with chunk
+
+[739.92 - 743.76] so basically what that'll do is each of
+
+[741.92 - 745.519] these four thousand character chunks
+
+[743.76 - 749.279] will get put in here and then we'll send
+
+[745.519 - 749.279] it up to gpth3 to summarize
+
+[749.36 - 755.48] and i hope i don't run out of tokens
+
+[752.32 - 755.48] we'll see
+
+[758.16 - 760.7199999999999] all right pardon me
+
+[759.519 - 762.399] i went for a really long bike ride
+
+[760.72 - 763.9200000000001] earlier so i'm still
+
+[762.399 - 766.38] rehydrating
+
+[763.92 - 767.4399999999999] um okay gpt3 completion
+
+[766.38 - 770.079] [Music]
+
+[767.44 - 772.639] um token limit 1000
+
+[770.079 - 775.12] yeah because uh we'll probably
+
+[772.639 - 775.12] that's fine
+
+[775.2 - 779.6] all right so then
+
+[777.68 - 782.4799999999999] summary equals
+
+[779.6 - 784.48] gpt three completion prompt
+
+[782.48 - 786.48] okay so that'll give us our summary
+
+[784.48 - 788.72] we'll print out the summary just so that
+
+[786.48 - 790.88] we can watch it going and then we'll do
+
+[788.72 - 792.8000000000001] result dot append
+
+[790.88 - 795.2] summary
+
+[792.8 - 795.1999999999999] um
+
+[795.279 - 800.48] that should be good and then once it's
+
+[797.44 - 802.9590000000001] all done
+
+[800.48 - 802.9590000000001] we'll do
+
+[804.16 - 808.3199999999999] let's see how is it that you join a list
+
+[809.04 - 814.1999999999999] let's see if i can remember python um
+
+[814.32 - 819.519] l equals
+
+[816.0 - 821.44] one one two three
+
+[819.519 - 824.079] and then you do was i think
+
+[821.44 - 824.0790000000001] join l
+
+[826.399 - 832.32] uh what i'm trying to do is like
+
+[828.72 - 835.519] join um join it all into a string um
+
+[832.32 - 839.639] let's see python join list of strings
+
+[835.519 - 839.639] into single string
+
+[845.36 - 850.639] join list of strings
+
+[847.92 - 850.639] that's what i did
+
+[855.36 - 860.0] expected string instance and found oh
+
+[857.519 - 862.639] that's what i did wrong okay
+
+[860.0 - 862.639] so we do
+
+[863.12 - 868.16] i did do it right i just wrong data type
+
+[865.6 - 869.12] okay so then we just add a space dot
+
+[868.16 - 871.279] join
+
+[869.12 - 873.12] l okay that'll out of space cool all
+
+[871.279 - 875.12] right that's what i wanted um all right
+
+[873.12 - 877.76] so then we do
+
+[875.12 - 880.72] uh save file
+
+[877.76 - 882.56] save file and then the content will be
+
+[880.72 - 885.12] uh let's see
+
+[882.56 - 886.56] um space dot join
+
+[885.12 - 888.639] result
+
+[886.56 - 890.7199999999999] and then it'll be
+
+[888.639 - 892.8] output dot text
+
+[890.72 - 894.9590000000001] and so that'll just um actually here
+
+[892.8 - 896.24] let's do let's do double new line i
+
+[894.959 - 897.76] think that'll be better because then
+
+[896.24 - 898.5600000000001] there will be a vertical space between
+
+[897.76 - 899.92] each
+
+[898.56 - 901.4399999999999] um
+
+[899.92 - 902.639] each section so we can see where the
+
+[901.44 - 904.8800000000001] summary
+
+[902.639 - 906.399] boundaries of the summarization happened
+
+[904.88 - 907.68] um that'll make it a little bit easier
+
+[906.399 - 911.6] to see i think
+
+[907.68 - 913.8389999999999] um yeah okay so that's good
+
+[911.6 - 913.839] and
+
+[914.079 - 919.68] yeah okay then let's do another thing so
+
+[917.04 - 921.36] i i sometimes do this import re
+
+[919.68 - 922.6389999999999] and so then text
+
+[921.36 - 924.8000000000001] will equal
+
+[922.639 - 927.6800000000001] text equals re sub
+
+[924.8 - 930.639] and i'll do s um white space plus so
+
+[927.68 - 932.88] this is like if it adds in too much um
+
+[930.639 - 935.44] too much white space so like
+
+[932.88 - 937.36] uh oh i already closed it um if there's
+
+[935.44 - 939.519] too much two minute too much vertical
+
+[937.36 - 941.519] white space or too many new lines
+
+[939.519 - 945.759] this will this will compress the output
+
+[941.519 - 945.759] into a single single line
+
+[946.48 - 952.0] so resub this is regex
+
+[949.279 - 953.519] sub which is substitute so we substitute
+
+[952.0 - 955.92] anything that is more than one white
+
+[953.519 - 957.839] space with just a single
+
+[955.92 - 960.3199999999999] normal space and so white space is
+
+[957.839 - 962.1600000000001] vertical new lines tabs anything like
+
+[960.32 - 962.9590000000001] that and then this is what we're acting
+
+[962.16 - 964.16] on
+
+[962.959 - 965.8389999999999] um
+
+[964.16 - 966.959] so that'll make it nice and compressed
+
+[965.839 - 970.399] and pretty
+
+[966.959 - 971.7589999999999] um i think that's it
+
+[970.399 - 974.8] i think so
+
+[971.759 - 974.8000000000001] uh let's see
+
+[975.44 - 979.9200000000001] how long
+
+[977.68 - 983.92] is this gonna be
+
+[979.92 - 986.7199999999999] because the input is 171 kilobytes
+
+[983.92 - 988.88] and it's about four kilobytes each
+
+[986.72 - 992.9590000000001] so how many chunks
+
+[988.88 - 995.279] um so 171 kilobytes divided by
+
+[992.959 - 998.2399999999999] four kilobytes so that'll be about 42
+
+[995.279 - 999.6] sections that shouldn't be too bad 42
+
+[998.24 - 1000.88] instances
+
+[999.6 - 1002.399] um
+
+[1000.88 - 1004.8] and really what i should do is save it
+
+[1002.399 - 1008.24] as we go just so i can show you
+
+[1004.8 - 1009.7589999999999] and then i need to add gpt3 logs folder
+
+[1008.24 - 1011.6800000000001] so that's where i have this function
+
+[1009.759 - 1012.639] save it out to you see right here gpt3
+
+[1011.68 - 1014.399] logs
+
+[1012.639 - 1016.5600000000001] um let's go ahead and run it heck with
+
+[1014.399 - 1018.8] it let's see how it does
+
+[1016.56 - 1020.2399999999999] um cd recursive
+
+[1018.8 - 1024.24] summarizer
+
+[1020.24 - 1026.079] python recursive recursively summarize
+
+[1024.24 - 1029.52] open ai is not defined what do you mean
+
+[1026.079 - 1029.52] i gotta import openai
+
+[1030.24 - 1036.6] always forget something import open ai
+
+[1040.959 - 1044.959] and away it goes
+
+[1043.36 - 1047.1989999999998] so i can probably make these chunks a
+
+[1044.959 - 1049.1200000000001] little bit longer like five thousand
+
+[1047.199 - 1051.28] um
+
+[1049.12 - 1053.6789999999999] there we go
+
+[1051.28 - 1055.9189999999999] she escapes by climbing a tree
+
+[1053.679 - 1059.2] excellent alice falls down a rabbit hole
+
+[1055.919 - 1062.0] and finds herself in a long dark tunnel
+
+[1059.2 - 1063.76] yeah okay this is great um all right so
+
+[1062.0 - 1064.96] this is running it looks like it's doing
+
+[1063.76 - 1066.08] just fine i'm gonna go ahead and pause
+
+[1064.96 - 1068.88] the video so you don't have to watch
+
+[1066.08 - 1070.96] this run through you know 40 40
+
+[1068.88 - 1072.88] iterations or whatever but it looks like
+
+[1070.96 - 1074.64] it's doing pretty well so let's let's
+
+[1072.88 - 1075.919] pause it and then we'll be back in just
+
+[1074.64 - 1077.679] a second
+
+[1075.919 - 1081.679] okay and we're back it didn't take too
+
+[1077.679 - 1086.4] terribly long but we're done it was 42
+
+[1081.679 - 1087.2800000000002] um 42 chunks total and i predicted 42.75
+
+[1086.4 - 1088.48] so
+
+[1087.28 - 1091.039] spot on
+
+[1088.48 - 1094.24] um when it's encoded as utf-8 it's about
+
+[1091.039 - 1096.8799999999999] one to one in terms of characters and um
+
+[1094.24 - 1099.76] and uh or a thousand characters is
+
+[1096.88 - 1102.0] roughly one kilobyte uh put it that way
+
+[1099.76 - 1103.6] um okay so
+
+[1102.0 - 1104.48] all that being said
+
+[1103.6 - 1106.08] um
+
+[1104.48 - 1107.3600000000001] here's the output
+
+[1106.08 - 1109.52] so you see where we've got the double
+
+[1107.36 - 1110.8799999999999] new line so you can kind of see each
+
+[1109.52 - 1112.16] each section
+
+[1110.88 - 1114.48] um
+
+[1112.16 - 1115.679] and all told the length is 45 000
+
+[1114.48 - 1117.679] characters
+
+[1115.679 - 1121.44] um this is alice in wonderland and the
+
+[1117.679 - 1123.8400000000001] input was 174 000 characters
+
+[1121.44 - 1128.3200000000002] so we go from um
+
+[1123.84 - 1130.72] let's see 174 down to 45
+
+[1128.32 - 1133.039] so let's see 45 divided by what did i
+
+[1130.72 - 1133.039] just say
+
+[1133.12 - 1136.12] 174
+
+[1136.24 - 1140.08] okay so that's right that's almost
+
+[1137.6 - 1142.24] exactly a quarter um so it's a quarter
+
+[1140.08 - 1144.32] the length um you could do this with
+
+[1142.24 - 1146.08] anything so like i said i've gotten
+
+[1144.32 - 1147.2] questions about like can you do this
+
+[1146.08 - 1150.6399999999999] with um
+
+[1147.2 - 1152.0] with uh uh like text uh like um academic
+
+[1150.64 - 1154.7990000000002] texts
+
+[1152.0 - 1157.84] yes you can do this with uh academic
+
+[1154.799 - 1159.84] text legal contracts um works of fiction
+
+[1157.84 - 1162.559] whatever you want and it will summarize
+
+[1159.84 - 1164.3999999999999] it uh pretty pretty concisely um once
+
+[1162.559 - 1166.24] you get to the end you see like you know
+
+[1164.4 - 1169.44] it's basically just summarizing you know
+
+[1166.24 - 1172.559] gutenberg um so on and so forth uh but
+
+[1169.44 - 1175.1200000000001] yeah up until that point it's nice and
+
+[1172.559 - 1176.3999999999999] nice and concise um alice falls asleep
+
+[1175.12 - 1177.6789999999999] by a river and has a curious dream in
+
+[1176.4 - 1179.44] which he's put on trial for stealing the
+
+[1177.679 - 1181.1200000000001] queen's tarts the evidence against her
+
+[1179.44 - 1182.96] is entirely circumstantial but the jury
+
+[1181.12 - 1184.8799999999999] finds her guilty and she is sentenced to
+
+[1182.96 - 1186.32] death however before the sins can be
+
+[1184.88 - 1188.3200000000002] carried out alice wakes up and realizes
+
+[1186.32 - 1189.6789999999999] it was all just a dream alice is sitting
+
+[1188.32 - 1191.28] on the riverbank with her sister and she
+
+[1189.679 - 1193.039] notices a white rabbit running by she
+
+[1191.28 - 1194.3999999999999] follows the rabbit down a hole finds
+
+[1193.039 - 1196.32] herself in wonderland she has a series
+
+[1194.4 - 1197.3600000000001] of adventures looks like it's repeating
+
+[1196.32 - 1198.72] the end
+
+[1197.36 - 1200.8799999999999] um
+
+[1198.72 - 1203.2] interesting
+
+[1200.88 - 1204.4] uh yeah
+
+[1203.2 - 1207.3600000000001] so there you have it though that's
+
+[1204.4 - 1211.919] that's pretty much all there is to it um
+
+[1207.36 - 1212.7199999999998] i'll i guess we'll just do a get status
+
+[1211.919 - 1214.24] get
+
+[1212.72 - 1216.64] add
+
+[1214.24 - 1219.2] git commit am
+
+[1216.64 - 1220.64] um done and done
+
+[1219.2 - 1222.96] and get push
+
+[1220.64 - 1224.3200000000002] so yeah feel free to use this um what
+
+[1222.96 - 1225.679] you can do
+
+[1224.32 - 1229.28] because i already hear people like
+
+[1225.679 - 1231.52] asking about word documents or pdfs and
+
+[1229.28 - 1233.76] all that i've done is
+
+[1231.52 - 1234.6399999999999] python or powershell or whatever you
+
+[1233.76 - 1236.8799999999999] just
+
+[1234.64 - 1240.0800000000002] save those as dot text files and that
+
+[1236.88 - 1242.0800000000002] works just fine um so like
+
+[1240.08 - 1244.8799999999999] basically it'll it'll just remove all
+
+[1242.08 - 1248.32] the formatting um because gpt3 doesn't
+
+[1244.88 - 1251.2] understand the xml background of a of a
+
+[1248.32 - 1254.3999999999999] word document microsoft word or how to
+
+[1251.2 - 1256.72] read a pdf file it only reads plain text
+
+[1254.4 - 1258.799] but even then you'll still see that like
+
+[1256.72 - 1260.159] it'll do a pretty good job
+
+[1258.799 - 1262.96] you could
+
+[1260.159 - 1265.6000000000001] change the prompt to like change this to
+
+[1262.96 - 1267.6000000000001] d um change it back to like concise
+
+[1265.6 - 1270.48] um and it'll get even shorter you'll get
+
+[1267.6 - 1271.6] a factor of like 10 to one um but what i
+
+[1270.48 - 1273.2] what you know at the beginning of this
+
+[1271.6 - 1274.9599999999998] video i showed you you're at risk of
+
+[1273.2 - 1277.8400000000001] losing important details if you say
+
+[1274.96 - 1277.8400000000001] concise summary
+
+[1277.919 - 1283.039] and then what you could do so say for
+
+[1280.0 - 1284.559] instance um you wanted to run this again
+
+[1283.039 - 1286.64] i could you could modify the script to
+
+[1284.559 - 1290.3999999999999] like run it again so that you just treat
+
+[1286.64 - 1292.24] the output as the next input
+
+[1290.4 - 1294.0] and then you could you could uh you
+
+[1292.24 - 1295.2] could make it even shorter
+
+[1294.0 - 1296.0] i'm not going to worry about that right
+
+[1295.2 - 1297.3600000000001] now
+
+[1296.0 - 1299.52] because literally all you would do if
+
+[1297.36 - 1300.4799999999998] you want to try this you just copy the
+
+[1299.52 - 1302.6399999999999] output
+
+[1300.48 - 1304.96] to the input whoops
+
+[1302.64 - 1306.4] and then just run it again um or you add
+
+[1304.96 - 1308.08] another loop again i'm not going to
+
+[1306.4 - 1309.2] worry about that you can play with that
+
+[1308.08 - 1311.4399999999998] if you want to
+
+[1309.2 - 1313.1200000000001] but yeah there you have it um
+
+[1311.44 - 1316.44] i think i think i'll call it a day
+
+[1313.12 - 1316.4399999999998] thanks for watching

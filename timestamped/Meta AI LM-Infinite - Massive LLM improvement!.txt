@@ -1,0 +1,843 @@
+[0.0 - 5.16] two days ago meta AI dropped this really
+
+[3.0 - 7.919] interesting paper LM infinite and it
+
+[5.16 - 11.519] hasn't gotten much traction and I'm not
+
+[7.919 - 13.5] really sure why so I read it and decided
+
+[11.519 - 15.599] to make a quick video about it in order
+
+[13.5 - 18.539] to unpack and tell you about this paper
+
+[15.599 - 21.6] and why I think it's pretty cool
+
+[18.539 - 23.580000000000002] so here's the paper uh it's pre-print so
+
+[21.6 - 25.439] keep that in mind it has not been fully
+
+[23.58 - 28.619] reviewed and accepted yet but two days
+
+[25.439 - 32.579] ago August 30th uh this paper dropped
+
+[28.619 - 34.68] and its name and origin were interesting
+
+[32.579 - 36.660000000000004] it's called LM infinite simple
+
+[34.68 - 38.96] on-the-fly length generalization for
+
+[36.66 - 42.66] large language models and it was
+
+[38.96 - 46.02] produced primarily by meta AI So Meta
+
+[42.66 - 48.17999999999999] formerly Facebook under Mark Zuckerberg
+
+[46.02 - 50.940000000000005] you know meta has done a lot of really
+
+[48.18 - 53.579] interesting stuff with uh you know llama
+
+[50.94 - 54.78] and they're also kind of more big into
+
+[53.579 - 56.1] open source which is a really
+
+[54.78 - 60.0] interesting move
+
+[56.1 - 63.899] uh so the long story short is this paper
+
+[60.0 - 66.119] proposes two primary Innovations the
+
+[63.899 - 69.119] first is a Lambda shaped attention mask
+
+[66.119 - 72.06] which constrains the number of tokens
+
+[69.119 - 74.36] that it needs to attend to and this
+
+[72.06 - 77.04] addresses the issue of high dilution
+
+[74.36 - 78.84] over time particularly with large
+
+[77.04 - 80.64] context windows and if that doesn't make
+
+[78.84 - 82.979] any sense don't worry we're going to
+
+[80.64 - 85.08] unpack it in just a second and then the
+
+[82.979 - 87.479] second is that it bounds the relative
+
+[85.08 - 89.88] distance during attention to a fixed
+
+[87.479 - 92.15899999999999] value which is basically just capping
+
+[89.88 - 94.439] the value I looked at the math and it
+
+[92.159 - 97.799] just like it basically just pads the
+
+[94.439 - 100.079] there or creates a smaller window in
+
+[97.799 - 103.02000000000001] order to constrain the math so that the
+
+[100.079 - 105.17999999999999] so that the the the attention logets
+
+[103.02 - 106.86] don't get too big all the all the math
+
+[105.18 - 110.52000000000001] and formulas are in the paper if you're
+
+[106.86 - 112.68] curious but the basically what this does
+
+[110.52 - 115.619] is this presents a plug-and-play
+
+[112.68 - 118.259] solution uh to open source language
+
+[115.619 - 120.899] models where all you have to do is tweak
+
+[118.259 - 123.299] some of the math functions about how it
+
+[120.899 - 126.899] pays attention and then you end up with
+
+[123.299 - 128.64000000000001] uh one much better performance over long
+
+[126.899 - 130.2] context Windows particularly long
+
+[128.64 - 132.95899999999997] context windows that are much longer
+
+[130.2 - 134.51999999999998] than what it was even trained on and
+
+[132.959 - 137.4] some of the tests that they did were
+
+[134.52 - 139.14000000000001] passkey retrieval on Long context and so
+
+[137.4 - 143.04] passkey retrieval is a really good test
+
+[139.14 - 144.83999999999997] of attention because there's a very very
+
+[143.04 - 148.099] specific unique string of characters
+
+[144.84 - 150.599] that it needs to fetch and with dilution
+
+[148.099 - 153.42] it might kind of forget those so
+
+[150.599 - 154.92] dilution is the phenomenon that you've
+
+[153.42 - 157.07999999999998] probably noticed in language models
+
+[154.92 - 159.35999999999999] where once the conversation gets longer
+
+[157.08 - 161.09900000000002] it kind of seems to forget what was at
+
+[159.36 - 163.14000000000001] the beginning of the conversation even
+
+[161.099 - 165.78] if it's in the context window so that's
+
+[163.14 - 169.14] the problem that this solves
+
+[165.78 - 171.12] so a way to analogize this way to think
+
+[169.14 - 173.04] of it is that without this innovation
+
+[171.12 - 177.54] without the Lambda mask and without the
+
+[173.04 - 179.4] the bounded attention size imagine that
+
+[177.54 - 181.07999999999998] your entire memory is a gigantic
+
+[179.4 - 182.76000000000002] cluttered Warehouse that this is your
+
+[181.08 - 184.98000000000002] working memory and that you've got to
+
+[182.76 - 188.16] keep track of literally every word in
+
+[184.98 - 190.01899999999998] this gigantic warehouse and it's just
+
+[188.16 - 191.28] you know however many tokens you give it
+
+[190.019 - 194.959] that's how many it's going to keep track
+
+[191.28 - 197.58] of the mathematical complexity goes up
+
+[194.959 - 199.379] logarithmically I think or factorially I
+
+[197.58 - 201.72] don't remember exactly anyways point
+
+[199.379 - 203.22] being is that the more you have to keep
+
+[201.72 - 205.26] track of the more mathematical
+
+[203.22 - 208.5] complexity there is and the more memory
+
+[205.26 - 210.78] it takes so this is similar to human
+
+[208.5 - 213.0] memory so I'm analogizing language model
+
+[210.78 - 215.7] the internal representation of language
+
+[213.0 - 217.319] models to human working memory now on a
+
+[215.7 - 219.83999999999997] physical level they're not identical at
+
+[217.319 - 222.11999999999998] all this is just an analogy so that you
+
+[219.84 - 224.22] can kind of get an intuition as to what
+
+[222.12 - 227.34] this Innovation is doing
+
+[224.22 - 229.5] so if you have if you're trying to hold
+
+[227.34 - 231.72] too many things in your mind to work on
+
+[229.5 - 233.7] it once this is cluttered and overloaded
+
+[231.72 - 235.5] working memory which impairs your
+
+[233.7 - 236.45899999999997] reasoning and functioning and it slows
+
+[235.5 - 239.04] you down
+
+[236.459 - 240.84] on the con on the other hand constrained
+
+[239.04 - 242.819] cleaner working memory gives you better
+
+[240.84 - 244.86] performance and so in this respect it's
+
+[242.819 - 247.61999999999998] almost kind of like a a garbage
+
+[244.86 - 249.18] collection mechanism for language models
+
+[247.62 - 250.56] and if you're not familiar with garbage
+
+[249.18 - 251.87900000000002] collection we'll go over it in just a
+
+[250.56 - 254.599] little bit
+
+[251.879 - 257.519] so instead of having a gigantic
+
+[254.599 - 259.579] cluttered Warehouse to sift through all
+
+[257.519 - 261.9] the tokens in a large context window
+
+[259.579 - 263.94] this Innovation mathematically
+
+[261.9 - 265.73999999999995] constrains that working space to more
+
+[263.94 - 267.6] like a tidy well-organized closet
+
+[265.74 - 271.32] there's less to keep track of it's
+
+[267.6 - 274.139] mathematically simpler and and then to
+
+[271.32 - 275.94] continue the analogy which one would you
+
+[274.139 - 277.56] rather be responsible for organizing
+
+[275.94 - 279.36] would you rather be responsible for
+
+[277.56 - 281.639] organizing a nice tidy closet with clean
+
+[279.36 - 283.38] labeled shelves or a gigantic Warehouse
+
+[281.639 - 285.3] with stacks of boxes
+
+[283.38 - 287.699] it's pretty obvious which one is going
+
+[285.3 - 291.24] to be easier to operate in and this is
+
+[287.699 - 292.979] this this analogy is why llms that have
+
+[291.24 - 295.08] this constrained working memory tend to
+
+[292.979 - 297.24] perform better and it prevents that
+
+[295.08 - 298.44] dilution and degeneration because it
+
+[297.24 - 300.6] says you know what instead of trying to
+
+[298.44 - 302.46] keep track of all the tokens just keep
+
+[300.6 - 304.16] track of the most important ones and let
+
+[302.46 - 306.78] go of the rest
+
+[304.16 - 309.06] and one thing that I that I observed is
+
+[306.78 - 311.34] uh if you just have one room it's pretty
+
+[309.06 - 313.139] it's pretty impossible to get lost and
+
+[311.34 - 317.09999999999997] so that's kind of that that lost
+
+[313.139 - 319.5] sensation is what you notice when uh you
+
+[317.1 - 321.24] know particularly on longer chats like
+
+[319.5 - 323.699] Claude with its hundred thousand token
+
+[321.24 - 325.56] window it gets so lost in the space of
+
+[323.699 - 327.12] what you're talking about because it has
+
+[325.56 - 328.86] it doesn't have the mental ability to
+
+[327.12 - 331.02] kind of zoom in and remember which
+
+[328.86 - 334.74] specific bits are relevant
+
+[331.02 - 336.59999999999997] and so in uh to to further the
+
+[334.74 - 338.34000000000003] comparison to human memory imagine
+
+[336.6 - 340.08000000000004] you're reading a novel you imagine
+
+[338.34 - 342.06] you're reading a series of novels you're
+
+[340.08 - 343.85999999999996] reading Lord of the Rings which is a
+
+[342.06 - 345.78000000000003] million I think it's 1.2 million words
+
+[343.86 - 347.22] or something like that
+
+[345.78 - 349.38] um so you're reading Lord of the Rings
+
+[347.22 - 351.18] and there's something that happens you
+
+[349.38 - 354.06] know later in the in the you know near
+
+[351.18 - 355.56] the the end of the books and it refers
+
+[354.06 - 357.72] back to something that happened in the
+
+[355.56 - 359.94] first book so that was a million a
+
+[357.72 - 362.639] million tokens ago but you can remember
+
+[359.94 - 364.5] very precisely what that one thing was
+
+[362.639 - 366.90000000000003] because your working memory is
+
+[364.5 - 368.58] constrained and once that once that bit
+
+[366.9 - 370.62] of information that happened a long time
+
+[368.58 - 372.419] ago is brought back into memory you kind
+
+[370.62 - 373.979] of get rid of the rest so it's about
+
+[372.419 - 376.68] it's about maintaining a level of
+
+[373.979 - 379.5] salience and relevance now that's again
+
+[376.68 - 381.419] this is not a perfect metaphor but
+
+[379.5 - 383.819] um given my knowledge of Psychology and
+
+[381.419 - 385.139] Neuroscience this helped me build an
+
+[383.819 - 386.58000000000004] intuition for what this paper is
+
+[385.139 - 388.259] presenting
+
+[386.58 - 390.65999999999997] so another thing to keep in mind is
+
+[388.259 - 392.639] these are easy tweaks in this paper they
+
+[390.66 - 395.639] tested it on three different open source
+
+[392.639 - 398.16] models and they had the same generalized
+
+[395.639 - 401.22] results generalized Improvement just by
+
+[398.16 - 402.90000000000003] changing the math uh Within These these
+
+[401.22 - 405.18] three models so it's just little tweaks
+
+[402.9 - 406.919] it wasn't a brand new attention
+
+[405.18 - 409.319] mechanism they didn't have to even
+
+[406.919 - 412.5] retrain the models it is a drop in
+
+[409.319 - 415.199] solution to automatically improve any
+
+[412.5 - 417.06] open source model it could work on
+
+[415.199 - 419.1] closed Source models but obviously like
+
+[417.06 - 422.22] you know they don't have access to gpt3
+
+[419.1 - 424.44] or gpt4 to you know pull it open and try
+
+[422.22 - 426.66] it they don't have access to Claude but
+
+[424.44 - 427.919] because of how easy this mathematical
+
+[426.66 - 430.68] Improvement is
+
+[427.919 - 432.24] I suspect that future updates for all
+
+[430.68 - 434.699] the flagship models out there you know
+
+[432.24 - 436.199] chat gbt and Claude I suspect that they
+
+[434.699 - 439.08000000000004] will integrate these kinds of
+
+[436.199 - 441.18] improvements uh relatively soon and so
+
+[439.08 - 442.8] the takeaway is that on the really long
+
+[441.18 - 444.78000000000003] conversations that you have with these
+
+[442.8 - 446.52000000000004] chat Bots where there's a huge amount of
+
+[444.78 - 448.38] context it's going to have a lot more
+
+[446.52 - 450.599] precise memory which is going to give it
+
+[448.38 - 452.039] get it kind of across that uncanny
+
+[450.599 - 455.88] valley that it's currently stuck in
+
+[452.039 - 457.259] where like hey you know as a human I can
+
+[455.88 - 459.3] read this whole conversation and
+
+[457.259 - 461.28000000000003] remember the Salient bits but you seem
+
+[459.3 - 463.34000000000003] to get lost or you seem to forget the
+
+[461.28 - 466.31899999999996] detail that I told you last time
+
+[463.34 - 468.599] so another thing to make it more
+
+[466.319 - 470.819] relevant to computer science I also
+
+[468.599 - 472.02] analogize this to garbage collection so
+
+[470.819 - 473.94] garbage collection if you're not
+
+[472.02 - 476.52] familiar with this is a process that
+
+[473.94 - 478.199] many compiled languages use or
+
+[476.52 - 480.06] interpreted languages python has
+
+[478.199 - 481.08] automatic garbage collection in The
+
+[480.06 - 483.9] Interpreter
+
+[481.08 - 487.19899999999996] uh but garbage collection looks for
+
+[483.9 - 489.65999999999997] unused memory that the the program has
+
+[487.199 - 492.18] allocated so as you're running a program
+
+[489.66 - 494.46000000000004] it's uh you know calling up variables
+
+[492.18 - 497.16] and lists and arrays and other
+
+[494.46 - 499.56] constructs uh and then sometimes those
+
+[497.16 - 501.72] get orphaned you stop using them and but
+
+[499.56 - 504.3] if you don't uh if you're not careful
+
+[501.72 - 505.56] about it those will accumulate in memory
+
+[504.3 - 508.259] and so this is what's called a memory
+
+[505.56 - 510.66] leak and so garbage collection keeps the
+
+[508.259 - 513.12] run time running lean and efficient by
+
+[510.66 - 515.099] just by banishing by fully deleting from
+
+[513.12 - 518.52] memory anything that's not being used
+
+[515.099 - 520.08] anymore so while again the the way that
+
+[518.52 - 522.26] this mechanism works is not anything
+
+[520.08 - 525.6600000000001] remotely like garbage collection
+
+[522.26 - 526.86] functionally uh it is it is analogous to
+
+[525.66 - 528.54] garbage collection so I want to drive
+
+[526.86 - 530.279] that home like calling this garbage
+
+[528.54 - 532.62] collection is a total misnomer and I'm
+
+[530.279 - 534.06] aware of that but because garbage
+
+[532.62 - 535.92] collection is something that exists in
+
+[534.06 - 537.3599999999999] computer science already I figured it
+
+[535.92 - 538.74] would be a useful kind of saying hey
+
+[537.36 - 540.42] it's kind of like this thing but in this
+
+[538.74 - 542.88] other domain
+
+[540.42 - 544.92] um so here's a way to compare it the
+
+[542.88 - 547.019] Lambda mask privileges retaining the
+
+[544.92 - 547.9799999999999] newer local context it actually has two
+
+[547.019 - 550.32] legs
+
+[547.98 - 553.08] um so there's there's two two uh primary
+
+[550.32 - 554.7] mechanisms at the Lambda mask uses to
+
+[553.08 - 556.8000000000001] make decisions but I'm not going to get
+
+[554.7 - 557.76] into the details uh because that'll just
+
+[556.8 - 559.4399999999999] bore you
+
+[557.76 - 561.06] um anyway so the Lambda mask privileges
+
+[559.44 - 563.339] retaining the newer local context while
+
+[561.06 - 565.7399999999999] masking away older tokens so masking
+
+[563.339 - 567.3000000000001] older tokens is similar to garbage
+
+[565.74 - 568.2] collection and that you remove it from
+
+[567.3 - 570.5999999999999] memory
+
+[568.2 - 573.48] so you see you see where I get the idea
+
+[570.6 - 574.8000000000001] from uh and the other thing is garbage
+
+[573.48 - 576.899] collectors as I mentioned prioritize
+
+[574.8 - 579.4799999999999] collecting older unreferenced data first
+
+[576.899 - 580.8] so basically you clean up the space by
+
+[579.48 - 583.8000000000001] just getting rid of the stuff that you
+
+[580.8 - 586.74] don't want it's like Marie condo this
+
+[583.8 - 588.779] token does not spark Joy get rid of it
+
+[586.74 - 592.62] I'm really ashamed that I just used that
+
+[588.779 - 594.779] metaphor uh anyways the point is both of
+
+[592.62 - 597.42] them aim to create free space and reduce
+
+[594.779 - 599.04] uh clutter and memory without losing the
+
+[597.42 - 602.2199999999999] critical information
+
+[599.04 - 604.0799999999999] okay so what uh as I said one thing that
+
+[602.22 - 606.48] I expect is that because this is such an
+
+[604.08 - 608.58] easy drop-in solution you're going to
+
+[606.48 - 610.019] see uh just this kind of transparent
+
+[608.58 - 611.76] Improvement
+
+[610.019 - 614.399] um in pretty much all language models
+
+[611.76 - 617.399] probably relatively soon because again
+
+[614.399 - 619.68] like it's a really quick tweak uh and
+
+[617.399 - 622.8] now that's that's short term but long
+
+[619.68 - 625.9799999999999] term what do these kinds of algorithms
+
+[622.8 - 627.66] uh algorithmic improvements mean for
+
+[625.98 - 630.72] language model and language technology
+
+[627.66 - 633.24] well like I said earlier one of the
+
+[630.72 - 634.8000000000001] primary constraints that we see is just
+
+[633.24 - 636.1800000000001] that you know that that forgetfulness
+
+[634.8 - 638.3389999999999] that language models have where they
+
+[636.18 - 640.14] don't really remember what is the most
+
+[638.339 - 642.9590000000001] important bit of a conversation or a
+
+[640.14 - 645.6] large context to pay attention to and so
+
+[642.959 - 647.9399999999999] while this doesn't get it quite to the
+
+[645.6 - 650.1] level of precision of human recall where
+
+[647.94 - 651.36] like you know hey you know like Bob
+
+[650.1 - 652.9200000000001] remember that thing that we were talking
+
+[651.36 - 655.14] about three years ago and you can
+
+[652.92 - 657.18] instantly recall that into memory and
+
+[655.14 - 659.579] and hold that that you know episodic
+
+[657.18 - 661.3199999999999] memory in isolation it doesn't quite
+
+[659.579 - 663.3] solve it that way we probably still need
+
+[661.32 - 665.399] like search and recall and and fetch and
+
+[663.3 - 667.92] databases and Vector search for some of
+
+[665.399 - 669.779] those kinds of functions but
+
+[667.92 - 672.42] as you're reading a long document
+
+[669.779 - 674.76] whether it's you know a 200 Page uh
+
+[672.42 - 678.06] criminal filing a class action lawsuit
+
+[674.76 - 680.459] or a novel it's more like the ability to
+
+[678.06 - 682.26] recall like oh you know three chapters
+
+[680.459 - 684.3599999999999] ago this character said this to that
+
+[682.26 - 686.579] other character that's the kind of level
+
+[684.36 - 687.839] of precision that we're looking at
+
+[686.579 - 690.3] um and that's very similar to that
+
+[687.839 - 692.2790000000001] passkey retrieval from a 32 000 context
+
+[690.3 - 694.38] window so imagine that you read a
+
+[692.279 - 696.24] password at the beginning of a twenty
+
+[694.38 - 698.519] thousand page document and then by the
+
+[696.24 - 700.5600000000001] end of the document you can read you can
+
+[698.519 - 703.8] remember that passkey that's what this
+
+[700.56 - 705.1199999999999] allows so that is that is a uh you could
+
+[703.8 - 707.399] you could say that that could be
+
+[705.12 - 708.6] superhuman level of recall
+
+[707.399 - 710.459] um all those there are plenty of people
+
+[708.6 - 712.5] that do that would have the ability to
+
+[710.459 - 714.0] say that password is important I'm going
+
+[712.5 - 715.86] to keep that in memory even as I
+
+[714.0 - 717.959] remember or as I keep reading the rest
+
+[715.86 - 719.339] of this document so some other examples
+
+[717.959 - 721.5] as to where I see this being really
+
+[719.339 - 724.0790000000001] helpful reading and writing fiction like
+
+[721.5 - 726.959] I said keeping track of the the most
+
+[724.079 - 729.66] Salient tokens within uh you know a
+
+[726.959 - 731.6999999999999] field of right now the the most that
+
+[729.66 - 733.5] they tested was thirty two thousand uh
+
+[731.7 - 735.72] but these were this was a test on thirty
+
+[733.5 - 737.1] two thousand token context windows with
+
+[735.72 - 740.82] language models that were trained on
+
+[737.1 - 743.1] 2000 so there you have a factor of 8X no
+
+[740.82 - 745.5] almost 20x sorry
+
+[743.1 - 748.14] uh you have a factor of almost 20x
+
+[745.5 - 750.6] Improvement so in the future six months
+
+[748.14 - 752.459] from now 12 months from now when we have
+
+[750.6 - 754.26] uh more and more models that have
+
+[752.459 - 757.38] hundred thousand five hundred thousand
+
+[754.26 - 759.779] one million context uh token Windows uh
+
+[757.38 - 762.36] being very commonplace I suspect that
+
+[759.779 - 764.22] that means that like no matter how long
+
+[762.36 - 765.839] the conversation is you say hey remember
+
+[764.22 - 769.2] when we talked about this thing you know
+
+[765.839 - 771.839] X you know many months ago and it'll be
+
+[769.2 - 774.12] able to recall exactly that right memory
+
+[771.839 - 776.2790000000001] um scientific research so a lot of
+
+[774.12 - 777.9590000000001] people are plugging uh a lot of
+
+[776.279 - 780.12] scientific papers into things like
+
+[777.959 - 782.279] Claude and other tools so imagine that
+
+[780.12 - 785.1] you have a context window that can
+
+[782.279 - 788.16] ingest 100 scientific research papers
+
+[785.1 - 790.019] and is able to pick out and remember the
+
+[788.16 - 792.6] most Salient details from each of those
+
+[790.019 - 795.9590000000001] papers to easily keep them all in memory
+
+[792.6 - 797.88] and kind of triangulate say okay this is
+
+[795.959 - 800.88] the pattern that I see and I'm able to
+
+[797.88 - 803.7] recall exactly which line in each of
+
+[800.88 - 806.3389999999999] those is relevant to put put this into
+
+[803.7 - 807.839] context for Enterprise and business and
+
+[806.339 - 809.7600000000001] another thing that this could be really
+
+[807.839 - 811.44] helpful is Imagine you've got you know
+
+[809.76 - 813.42] customer records or internal knowledge
+
+[811.44 - 815.639] base articles and rather than have to
+
+[813.42 - 817.86] read each one and even like split them
+
+[815.639 - 819.899] up and chunk them you just say here's
+
+[817.86 - 821.5790000000001] the entire knowledge base read it tell
+
+[819.899 - 822.3] me what's relevant to this problem right
+
+[821.579 - 824.519] here
+
+[822.3 - 826.92] so this is going to greatly greatly
+
+[824.519 - 828.86] accelerate and simplify search and
+
+[826.92 - 831.959] recall and it's going to really increase
+
+[828.86 - 834.12] uh retrieval accuracy particularly on
+
+[831.959 - 835.92] large documents so
+
+[834.12 - 837.9590000000001] while this one Innovation might not
+
+[835.92 - 840.12] carry us fully to to this realization
+
+[837.959 - 842.579] this is just one Innovation and remember
+
+[840.12 - 845.0600000000001] we're getting like something like 50 llm
+
+[842.579 - 847.9799999999999] papers per day at least just on archive
+
+[845.06 - 850.6199999999999] sometimes more so this is just another
+
+[847.98 - 853.74] drop in the bucket but it's to me it's a
+
+[850.62 - 855.779] really encouraging sign that we have not
+
+[853.74 - 858.9590000000001] fully explored this space so this is
+
+[855.779 - 861.06] taking a big step back when you can just
+
+[858.959 - 863.6389999999999] pick this low hanging fruit and you get
+
+[861.06 - 866.6389999999999] this level of improvement you get a 10x
+
+[863.639 - 868.74] Improvement on context window retrieval
+
+[866.639 - 870.9590000000001] just from changing the math a little bit
+
+[868.74 - 874.019] we are still establishing the first
+
+[870.959 - 877.26] principles of language technology so we
+
+[874.019 - 880.44] don't know where the ceiling is like we
+
+[877.26 - 882.899] just we just hit escape velocity on
+
+[880.44 - 884.2790000000001] language models and we have no idea how
+
+[882.899 - 886.32] high this can go so I'm actually getting
+
+[884.279 - 888.48] chills thinking about how exciting this
+
+[886.32 - 890.7600000000001] is and what this implies for the future
+
+[888.48 - 893.399] of language technology because that
+
+[890.76 - 895.38] level of memory sophistication I didn't
+
+[893.399 - 897.66] I personally only six months ago if you
+
+[895.38 - 900.54] if you had told me that you could you
+
+[897.66 - 902.519] could sift through and keep track of 32
+
+[900.54 - 905.579] 000 tokens with this level of precision
+
+[902.519 - 907.079] with only a slight mathematical tweak I
+
+[905.579 - 908.579] would have been like well that
+
+[907.079 - 910.019] completely blows everything that I think
+
+[908.579 - 911.9399999999999] about the way that these models are
+
+[910.019 - 913.86] going out of the water and the reason
+
+[911.94 - 916.74] that I say that is because
+
+[913.86 - 918.3000000000001] I noticed that dilution pattern uh that
+
+[916.74 - 919.5600000000001] that happens and I thought that Ah
+
+[918.3 - 922.139] that's just not going to be a solvable
+
+[919.56 - 925.0189999999999] problem we need external memory systems
+
+[922.139 - 927.3] to handle uh complex memory tasks and
+
+[925.019 - 929.48] language models but now I am thinking
+
+[927.3 - 932.2199999999999] that is less and less going to be true
+
+[929.48 - 933.66] so with all that being said thanks for
+
+[932.22 - 935.519] watching I hope you got a lot out of
+
+[933.66 - 937.8] this and I hope you're as excited as I
+
+[935.519 - 940.079] am and you see that we are just at the
+
+[937.8 - 942.8389999999999] ground floor and we have no idea how
+
+[940.079 - 944.699] high this elevator is going to go so
+
+[942.839 - 947.1800000000001] thanks for watching take care and yeah
+
+[944.699 - 947.18] see you next time

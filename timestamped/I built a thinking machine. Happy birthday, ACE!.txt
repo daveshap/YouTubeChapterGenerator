@@ -1,0 +1,1421 @@
+[0.359 - 5.799] today I am going to demonstrate a very
+
+[3.399 - 9.16] very simple version of the ace framework
+
+[5.799 - 12.4] this is basically like an MVP of the
+
+[9.16 - 14.04] cognition first processing schema of the
+
+[12.4 - 16.199] ace framework now if you're not familiar
+
+[14.04 - 18.48] with Ace it stands for autonomous
+
+[16.199 - 21.359] cognitive entity and it is a thought
+
+[18.48 - 23.880000000000003] first or cognition first model of
+
+[21.359 - 27.039] artificial uh intelligence and so
+
+[23.88 - 29.759] basically the theory here is that rather
+
+[27.039 - 32.800000000000004] than having an input processing output
+
+[29.759 - 34.68] uh sensory motor Loop the underpinning
+
+[32.8 - 38.07899999999999] philosophy of the ace framework is to
+
+[34.68 - 40.519999999999996] have cognition first to think first uh
+
+[38.079 - 44.160000000000004] with input and output with the with the
+
+[40.52 - 46.36] outside world being apid driven and also
+
+[44.16 - 48.839999999999996] not necessar uh non-blocking and
+
+[46.36 - 51.48] non-sequential meaning that this entity
+
+[48.84 - 54.6] is able to just sit and think and then
+
+[51.48 - 57.599999999999994] decide on what to do uh after the fact
+
+[54.6 - 59.359] so a brief update on the teams so we've
+
+[57.6 - 62.96] got several teams and we're all cooking
+
+[59.359 - 64.519] up several demos so you can see uh the
+
+[62.96 - 65.76] uh and you're you're welcome to follow
+
+[64.519 - 67.479] along just don't submit any poll
+
+[65.76 - 69.56] requests because this is um we're
+
+[67.479 - 72.67999999999999] basically just developing in public so
+
+[69.56 - 74.08] we've got five teams um technically four
+
+[72.68 - 75.759] four or five teams depending on how you
+
+[74.08 - 78.15899999999999] look it up but the one that I'm working
+
+[75.759 - 81.799] on is just a very very simple conceptual
+
+[78.159 - 83.88000000000001] demo python flask easy so let me show
+
+[81.799 - 86.32000000000001] you first a little bit of the code it's
+
+[83.88 - 89.32] brain dead simple just to show you what
+
+[86.32 - 93.479] I mean and then I'll show you this uh
+
+[89.32 - 95.91999999999999] actually works work uh so in here let's
+
+[93.479 - 99.24] go full screen there we go so in here
+
+[95.92 - 102.07900000000001] you've got the ace layers. piy bus pi
+
+[99.24 - 104.719] and then one uh one python file and one
+
+[102.079 - 107.079] text file for each layer so first I'll
+
+[104.719 - 109.079] show you the bus the bus is super simple
+
+[107.079 - 113.119] it's a very very
+
+[109.079 - 115.36] straightforward uh uh uh flask app that
+
+[113.119 - 117.399] has two endpoints um or it has one
+
+[115.36 - 120.24] endpoint with two two methods post and
+
+[117.399 - 123.24] get and so the post is where you you add
+
+[120.24 - 125.52] a message and the message has um it has
+
+[123.24 - 127.6] just a couple things where it adds a Tim
+
+[125.52 - 129.64] stamp a bus a layer and then finally a
+
+[127.6 - 131.16] message and it's saved out to yaml and
+
+[129.64 - 133.79999999999998] I'll show you all this in just a moment
+
+[131.16 - 136.319] but the bus really is the core part of
+
+[133.8 - 137.84] it and I'll show you um the the diagram
+
+[136.319 - 140.16] in just a second but I wanted to show
+
+[137.84 - 142.44] you just how simple the the bus server
+
+[140.16 - 144.35999999999999] is and so that's on the post side so
+
+[142.44 - 146.76] basically it is it's just listening for
+
+[144.36 - 150.48000000000002] messages and it'll record them out to
+
+[146.76 - 153.239] yaml on the get side uh there are two
+
+[150.48 - 155.28] filters so there's or two arguments and
+
+[153.239 - 157.56] one is the bus and then the second is
+
+[155.28 - 160.08] the layer arguments and so then what it
+
+[157.56 - 161.8] does is it will search those yaml files
+
+[160.08 - 164.959] and it will open them all and then it
+
+[161.8 - 168.76000000000002] will return the top um 20 of those
+
+[164.959 - 170.72] messages uh in in in sequential order uh
+
+[168.76 - 172.28] based on the layer and the bus and I'm
+
+[170.72 - 175.84] not going to go over the exact logic
+
+[172.28 - 178.879] it's very simple U basically uh if the
+
+[175.84 - 180.8] layer is Northbound then it will say
+
+[178.879 - 182.51899999999998] okay give me all the messages below this
+
+[180.8 - 184.239] so that I know what's heading north and
+
+[182.519 - 186.159] if it's southbound it will get all the
+
+[184.239 - 188.84] messages heading south you can see this
+
+[186.159 - 192.159] in the logic here if it's north and and
+
+[188.84 - 194.08] layer uh then you know if it's greater
+
+[192.159 - 195.72] than that layer so on and so forth
+
+[194.08 - 197.76000000000002] basically you don't want to necessarily
+
+[195.72 - 199.239] retrieve the entire thing you could
+
+[197.76 - 200.92] there's actually not too much reason
+
+[199.239 - 202.4] that you couldn't have each layer aware
+
+[200.92 - 204.51899999999998] of everything else going on in every
+
+[202.4 - 206.519] other layer but it this is basically
+
+[204.519 - 208.159] just to make it more token efficient
+
+[206.519 - 209.76000000000002] because the layer doesn't need to see
+
+[208.159 - 211.56] necessarily its own last thoughts
+
+[209.76 - 214.84] although you could um set it up in that
+
+[211.56 - 217.0] kind of loop where uh basically each
+
+[214.84 - 220.159] time it iterates it feeds back on its
+
+[217.0 - 223.0] own messages um so but again it's super
+
+[220.159 - 224.439] easy to change um so now let me show you
+
+[223.0 - 227.159] so now that you've seen the bus let me
+
+[224.439 - 229.35999999999999] show you the logic of this so the
+
+[227.159 - 231.39999999999998] northbound bus and southbound bus
+
+[229.36 - 234.079] they're sep they're they're uh in the
+
+[231.4 - 235.59900000000002] diagram they are uh shown as separate
+
+[234.079 - 238.28] entities but in this case I have it set
+
+[235.599 - 240.79899999999998] up as a single flask server using a rest
+
+[238.28 - 244.319] API now you could do this with CIS log
+
+[240.799 - 246.59900000000002] you could do this with amqp um as as I
+
+[244.319 - 249.51899999999998] just did it I did it with a um a rest
+
+[246.599 - 251.35999999999999] restful API and I prefer restful apis
+
+[249.519 - 254.31900000000002] because they're stateless um and they're
+
+[251.36 - 256.47900000000004] just ready to go like on the Fly um but
+
+[254.319 - 258.28] also it's down to personal preference in
+
+[256.479 - 260.239] a larger environment when you're
+
+[258.28 - 262.44] spinning up dozens or hundreds of these
+
+[260.239 - 263.71999999999997] things you'll probably want to use amqp
+
+[262.44 - 265.6] so that you can have more shared
+
+[263.72 - 267.68] resources and you can also be a little
+
+[265.6 - 269.24] bit more explicit about what messages
+
+[267.68 - 270.8] are going where that's going to be
+
+[269.24 - 273.0] particular L important in the future
+
+[270.8 - 274.88] when you have security concerns because
+
+[273.0 - 277.919] you wouldn't NE you wouldn't necessarily
+
+[274.88 - 279.8] want to have your input output layer
+
+[277.919 - 282.79999999999995] talking directly to your aspirational
+
+[279.8 - 284.759] layer without some kind of sequence or
+
+[282.8 - 286.759] control which is why I have this
+
+[284.759 - 288.96000000000004] represented as two buses because from a
+
+[286.759 - 290.36] security perspective you definitely want
+
+[288.96 - 294.19899999999996] to keep the northbound bus and
+
+[290.36 - 296.88] southbound bus uh separate now then each
+
+[294.199 - 298.72] layer is in my current setup is
+
+[296.88 - 301.32] basically represented as a single python
+
+[298.72 - 302.96000000000004] file to approximate the future where
+
+[301.32 - 305.44] each layer could be a microservice or
+
+[302.96 - 307.28] even a series of microservices and again
+
+[305.44 - 308.71999999999997] this is why you'll also want to probably
+
+[307.28 - 311.44] use something a little bit more
+
+[308.72 - 314.12] sophisticated perhaps amqp or rest
+
+[311.44 - 317.32] server uh in in the future because each
+
+[314.12 - 318.96] layer right now can be represented as a
+
+[317.32 - 321.15999999999997] single python file or a single
+
+[318.96 - 323.919] microservice but when you have more
+
+[321.16 - 325.84000000000003] sophisticated uh Aces you'll probably
+
+[323.919 - 328.44] actually have each layer could be
+
+[325.84 - 330.67999999999995] multiple microservices uh and so for the
+
+[328.44 - 334.44] sake of scalability you'll probably want
+
+[330.68 - 336.28000000000003] to adapt uh adopt something like amqp uh
+
+[334.44 - 338.24] which is Advanced message Q protocol so
+
+[336.28 - 340.919] rabbit mq is a popular open source
+
+[338.24 - 343.52] version um there's paa which is which is
+
+[340.919 - 346.52] python a python client for that uh
+
+[343.52 - 349.75899999999996] anyways so you've seen the code for the
+
+[346.52 - 355.24] bus that I threw up and then let me show
+
+[349.759 - 356.68] you the um the the the Baseline um code
+
+[355.24 - 358.6] so this is the code that's running for
+
+[356.68 - 360.039] each layer I just have this kind of as a
+
+[358.6 - 362.88] generic set of function
+
+[360.039 - 365.639] so that you can import it uh send send
+
+[362.88 - 367.96] message again super simple just sends it
+
+[365.639 - 369.84000000000003] as a Json and you send the bus the layer
+
+[367.96 - 372.08] and the message this is kind of the bare
+
+[369.84 - 374.4] minimum in terms of metadata required to
+
+[372.08 - 375.479] to run this it also adds a timestamp
+
+[374.4 - 377.28] which I'll show you in the flask
+
+[375.479 - 379.52] messages in just a moment or the yl
+
+[377.28 - 381.55999999999995] messages in just a moment I also have a
+
+[379.52 - 384.4] format function which formats it to look
+
+[381.56 - 387.319] like a CIS log server um and this
+
+[384.4 - 390.0] formatting makes it uh more eminently
+
+[387.319 - 392.16] readable by large language models
+
+[390.0 - 394.639] uh and then I've got my typical chatbot
+
+[392.16 - 397.319] function and then you know just a
+
+[394.639 - 400.28000000000003] handful of functions so this is this is
+
+[397.319 - 402.88] the the Baseline and then layer one so
+
+[400.28 - 406.84] this is uh pretty straightforward uh
+
+[402.88 - 409.84] from Ace Layers import all open AI key
+
+[406.84 - 412.19899999999996] uh get that response equals this so
+
+[409.84 - 414.63899999999995] while true so it's an infinite Loop try
+
+[412.199 - 416.44] accept uh nested in a tri accept so if
+
+[414.639 - 417.68] it fails it'll just keep running and
+
+[416.44 - 419.36] this is actually really important
+
+[417.68 - 423.68] obviously this is a very very primitive
+
+[419.36 - 425.96000000000004] itive kind of failure uh condition but
+
+[423.68 - 428.319] in the future you don't necessarily want
+
+[425.96 - 431.4] your aspirational layer which uh houses
+
+[428.319 - 432.84000000000003] Mission and morality to crash and if it
+
+[431.4 - 435.15999999999997] does crash you want it to automatically
+
+[432.84 - 437.15999999999997] restart and recover but this is like far
+
+[435.16 - 439.40000000000003] more advanced software engineering
+
+[437.16 - 442.91900000000004] Theory um in terms of resiliency and
+
+[439.4 - 445.31899999999996] Recovery um for me just writing a hacky
+
+[442.919 - 448.08] uh python script a try accept Loop where
+
+[445.319 - 450.72] it'll just try again stupidly is good
+
+[448.08 - 453.919] enough um but yes so first thing that it
+
+[450.72 - 455.59900000000005] does is it gets it f fetches messages
+
+[453.919 - 458.28] from from the northbound bus so this is
+
+[455.599 - 460.24] layer one so this is at the very top so
+
+[458.28 - 462.31899999999996] there's nothing coming on the southbound
+
+[460.24 - 464.36] bus it only produces messages on the
+
+[462.319 - 466.91900000000004] southbound bus so first is it gets
+
+[464.36 - 469.879] messages and then it formats them then
+
+[466.919 - 472.479] it formats uh the call to send to the um
+
+[469.879 - 473.879] to the API and then it gets a response
+
+[472.479 - 476.87899999999996] and then puts its response on the
+
+[473.879 - 478.879] southbound bus so it's very simple very
+
+[476.879 - 480.44] straightforward this is how every layer
+
+[478.879 - 481.879] operates now one thing I want to point
+
+[480.44 - 484.159] out is that the is that layer one is
+
+[481.879 - 487.28000000000003] unique because it's at the top it is the
+
+[484.159 - 489.599] top of the loop um and therefore it does
+
+[487.28 - 491.71999999999997] not have anything coming from uh
+
+[489.599 - 493.52] Northbound so it's right here so
+
+[491.72 - 495.59900000000005] basically it's a one-way Street it gets
+
+[493.52 - 497.919] messages on the Northbound bus and then
+
+[495.599 - 500.28] puts messages on the southbound bus now
+
+[497.919 - 503.4] every other layer except for the io
+
+[500.28 - 506.159] layer has uh two-way communication with
+
+[503.4 - 507.71999999999997] each bus so the global strategy layer
+
+[506.159 - 510.4] receives messages from the northbound
+
+[507.72 - 512.399] bus and the southbounds bu and then also
+
+[510.4 - 514.3199999999999] produces messages on the Northbound bus
+
+[512.399 - 516.36] and southbound bus so that might sound
+
+[514.32 - 517.44] confusing so let me show you that code
+
+[516.36 - 520.279] because it's actually relatively
+
+[517.44 - 522.5600000000001] straightforward code um and it'll make
+
+[520.279 - 525.72] sense in just a moment um whoops that's
+
+[522.56 - 528.0] the text we need layer 2. Pi okay so
+
+[525.72 - 529.2] this is almost identical to layer one
+
+[528.0 - 530.92] and in fact what I did was I
+
+[529.2 - 533.0] parameterized it so I probably only
+
+[530.92 - 535.4799999999999] needed one of these and just um start
+
+[533.0 - 538.079] this with an argument um but I'm a lazy
+
+[535.48 - 539.8000000000001] coder so there it is uh so basically
+
+[538.079 - 542.4399999999999] here's what you do first you fetch you
+
+[539.8 - 544.04] fetch messages from the bus so you fetch
+
+[542.44 - 546.24] from the north bus you format it you
+
+[544.04 - 548.279] fetch from the south bus you format it
+
+[546.24 - 550.839] and then you merge them together in one
+
+[548.279 - 554.8] chunk of text so this chunk of text is
+
+[550.839 - 558.0790000000001] then um handed to the gp4
+
+[554.8 - 559.76] API uh in order to generate the response
+
+[558.079 - 562.16] and so then from there it's almost
+
+[559.76 - 564.3199999999999] identical again but what we do is we
+
+[562.16 - 565.88] actually split the output from the API
+
+[564.32 - 568.1600000000001] into North and South and I'll show you
+
+[565.88 - 570.88] how that's formatted in just a moment um
+
+[568.16 - 573.48] so that you have you have uh Northbound
+
+[570.88 - 574.8389999999999] messages in uh southbound messages in
+
+[573.48 - 576.72] and then Northbound and southbound
+
+[574.839 - 579.44] message out and I'll show you all this
+
+[576.72 - 580.76] running in just a moment as well okay so
+
+[579.44 - 583.2790000000001] that's the code the code is super
+
+[580.76 - 586.8389999999999] straightforward very brain dead simple
+
+[583.279 - 588.92] uh and then this is an example of the
+
+[586.839 - 592.6400000000001] system message that we're using let me
+
+[588.92 - 594.88] go raw Okay cool so overview you are the
+
+[592.64 - 596.72] global strategy of an ace autonomous
+
+[594.88 - 598.04] cognitive entity this is the second
+
+[596.72 - 599.44] highest layer that provides highle
+
+[598.04 - 601.68] strategic Insight with a zoom zoomed out
+
+[599.44 - 604.1600000000001] POV hence Global in terms of time and
+
+[601.68 - 605.4399999999999] space and then in the system message uh
+
+[604.16 - 607.6] for all of them I give it a little bit
+
+[605.44 - 610.6400000000001] of context so that it understands kind
+
+[607.6 - 613.24] of what it's participating in I also
+
+[610.64 - 614.88] describe the buses so uh first I
+
+[613.24 - 616.88] describe each layer aspirational Global
+
+[614.88 - 619.32] strategy agent model executive function
+
+[616.88 - 621.6] cognitive control and task prosecution
+
+[619.32 - 624.12] uh buses so there's the northbound bus
+
+[621.6 - 625.6] so Northbound uh flows from layer six up
+
+[624.12 - 627.76] this is the Telemetry bus think of it
+
+[625.6 - 629.9590000000001] like the sensory anic and proprioception
+
+[627.76 - 631.6] nervous system South bus flows from
+
+[629.959 - 633.399] layer one down this is the command bus
+
+[631.6 - 636.16] this tells the body or the agent what to
+
+[633.399 - 637.639] do API interaction schema the user will
+
+[636.16 - 639.48] give you logs from the North and South
+
+[637.639 - 640.6] bus information from the south bus
+
+[639.48 - 642.36] should be treated as lower level
+
+[640.6 - 644.76] Telemetry from the rest of the ace this
+
+[642.36 - 647.88] is a little bit redundant but um I find
+
+[644.76 - 650.079] that that that giving it enough context
+
+[647.88 - 651.519] actually gets really good performance
+
+[650.079 - 652.92] information from the north bus should be
+
+[651.519 - 654.88] treated as imperatives mandates and
+
+[652.92 - 657.519] judgments from on high your output will
+
+[654.88 - 659.24] be too pronged output format your output
+
+[657.519 - 660.519] will have two messages both represent Ed
+
+[659.24 - 662.399] by a single line as they will be saved
+
+[660.519 - 664.16] in a CIS log server I just tell it CIS
+
+[662.399 - 667.0] log so it understands the
+
+[664.16 - 669.279] format um uh they must follow this exact
+
+[667.0 - 670.68] format South southbound messages where
+
+[669.279 - 671.959] you'll provide a strategic assessment
+
+[670.68 - 673.88] based upon everything you're seeing this
+
+[671.959 - 676.04] is like a top down command North
+
+[673.88 - 677.4399999999999] Northbound message providing a brief
+
+[676.04 - 678.8389999999999] update to Upper layers focusing on
+
+[677.44 - 680.6] information Salient to the mission as
+
+[678.839 - 683.0400000000001] well as any moral quanties from your POV
+
+[680.6 - 684.44] as a strategic manager internal below is
+
+[683.04 - 685.959] your last internal State this was the
+
+[684.44 - 690.48] last message you sent out on the south
+
+[685.959 - 693.2399999999999] bus um so basically this is uh this is a
+
+[690.48 - 695.839] way of kind of injecting slipstreaming
+
+[693.24 - 697.32] um its its internal State obviously this
+
+[695.839 - 698.839] is not the most sophisticated way of
+
+[697.32 - 701.0790000000001] maintaining an internal state for a
+
+[698.839 - 704.32] microservice u but it's good enough to
+
+[701.079 - 707.3199999999999] uh to demonstrate so you understand U
+
+[704.32 - 710.0790000000001] and basically every other layer uh
+
+[707.32 - 712.0400000000001] system prompt uh works the same way so
+
+[710.079 - 714.56] like let's if if we just ch choose layer
+
+[712.04 - 716.8] 4. text you can see the top is almost
+
+[714.56 - 718.279] identical um with the exception of I'm
+
+[716.8 - 720.4399999999999] changing the description of what the
+
+[718.279 - 722.36] mission is so this is the fourth layer
+
+[720.44 - 724.6] which focuses on risks resources and
+
+[722.36 - 725.9590000000001] planning like executive con cognitive
+
+[724.6 - 727.24] function in humans you are responsible
+
+[725.959 - 729.1199999999999] for identifying the most perent
+
+[727.24 - 730.639] activities to be focusing on and
+
+[729.12 - 733.36] specifically you will direct lower
+
+[730.639 - 736.399] layers with high level plans resource
+
+[733.36 - 739.72] allocations and identification of risks
+
+[736.399 - 741.6] Okay cool so you get all that um now
+
+[739.72 - 744.1600000000001] let's go for the Big Show let me show
+
+[741.6 - 747.32] you how this thing actually works so
+
+[744.16 - 750.279] first you fire up the bus um and so it's
+
+[747.32 - 752.1600000000001] like okay cool it's running on yada y um
+
+[750.279 - 755.76] and then you fire up layer
+
+[752.16 - 757.399] one and so the first thing it does is it
+
+[755.76 - 759.68] does a get and says affirm the current
+
+[757.399 - 761.079] strategic focus on promoting education
+
+[759.68 - 762.4399999999999] so for some background I'll show you in
+
+[761.079 - 764.88] just a minute this is actually kind of
+
+[762.44 - 767.32] picking up in Midstream since I persist
+
+[764.88 - 769.4399999999999] everything out to a yl file so then you
+
+[767.32 - 771.1990000000001] start up Layer Two so this is the global
+
+[769.44 - 773.8000000000001] strategy
+
+[771.199 - 775.8389999999999] layer and so the global strategy layer
+
+[773.8 - 778.079] will start participating in the
+
+[775.839 - 779.839] conversation um and it say it says
+
+[778.079 - 782.12] affirm the strategy blah blah blah North
+
+[779.839 - 784.6800000000001] strategic F Focus remains on education
+
+[782.12 - 787.199] so basically because it's operating as a
+
+[784.68 - 789.199] in in a vacuum right now it has decided
+
+[787.199 - 791.199] that education is the best way to
+
+[789.199 - 793.4799999999999] approach its Mission and the mission
+
+[791.199 - 796.12] that I gave it is steer Humanity towards
+
+[793.48 - 799.16] Utopia um so Layer Three is the agent
+
+[796.12 - 801.839] model so we're firing up layer three now
+
+[799.16 - 803.04] let me just zoom in so this one is
+
+[801.839 - 805.9590000000001] understands what it's capable of and
+
+[803.04 - 807.279] what it's not capable of um so it's
+
+[805.959 - 808.8] affirming these things continuing to
+
+[807.279 - 811.199] allocate resources all actions being
+
+[808.8 - 812.7199999999999] being evaluated noted constraints due to
+
+[811.199 - 816.4799999999999] lack of external capability as a real
+
+[812.72 - 818.44] world data um so in this case uh what it
+
+[816.48 - 820.16] does so this is really this is really
+
+[818.44 - 822.24] important is you can see that it's
+
+[820.16 - 825.0] thinking so what I'm looking at is right
+
+[822.24 - 826.6800000000001] here where uh noted constraints due to
+
+[825.0 - 828.88] lack of external capabilities or real
+
+[826.68 - 831.519] world data initiating task sequence to
+
+[828.88 - 835.8] gather more real world data so basically
+
+[831.519 - 837.639] this um this agent wants to gather more
+
+[835.8 - 840.199] information it recognizes its current
+
+[837.639 - 842.6] limit limitations and wants to overcome
+
+[840.199 - 843.5999999999999] it this is like if say for instance
+
+[842.6 - 844.839] you're sitting in a room and you're
+
+[843.6 - 846.9590000000001] handcuffed to the table and you want to
+
+[844.839 - 850.6] leave the room you say well I'm stuck um
+
+[846.959 - 853.3599999999999] also eror communicating with open AI um
+
+[850.6 - 855.839] this thing runs too fast so basically we
+
+[853.36 - 858.8000000000001] can't run a full ace at least not on the
+
+[855.839 - 861.72] gp4 API because it's too um it's too
+
+[858.8 - 864.88] fast the current timing rate is uh 5
+
+[861.72 - 868.12] Seconds um so limit 40,000 per minute I
+
+[864.88 - 871.279] don't think I'm actually um going that
+
+[868.12 - 873.92] fast but whatever so anyways we won't be
+
+[871.279 - 877.639] able to implement a full Ace until we
+
+[873.92 - 879.3199999999999] have better um until we have faster uh
+
+[877.639 - 881.92] API so you can see it's actually looks
+
+[879.32 - 884.399] like it has bombed out um I'm saturating
+
+[881.92 - 887.12] my uh yeah I'm satura oh no we got we
+
+[884.399 - 889.0] got one through um let's see initiate
+
+[887.12 - 891.44] API calls to educational databases so
+
+[889.0 - 893.399] this is layer six so basically layer six
+
+[891.44 - 895.8800000000001] is like okay this is this is what we
+
+[893.399 - 897.839] need so I basically said like talk
+
+[895.88 - 899.92] figure out what a what API you want to
+
+[897.839 - 901.0400000000001] talk to um okay so I'm going to cancel
+
+[899.92 - 903.759] all this because you can see it's kind
+
+[901.04 - 907.0] of a messy Nightmare and the UI ux is
+
+[903.759 - 908.88] really awful um but we're going to go
+
+[907.0 - 910.92] through whoops come back here we're
+
+[908.88 - 914.36] going to go through some of the um some
+
+[910.92 - 916.88] of the logs now so this is the this is
+
+[914.36 - 919.32] the brain this is everything happening
+
+[916.88 - 921.639] on the buses that's being saved and it's
+
+[919.32 - 923.279] saved in sequential order so one thing
+
+[921.639 - 925.9590000000001] to keep in mind about the way that
+
+[923.279 - 928.04] memory Works uh in humans is there's
+
+[925.959 - 930.279] basically two kinds of memory in humans
+
+[928.04 - 932.04] there's tic memory which is
+
+[930.279 - 934.079] chronologically linear so these are
+
+[932.04 - 936.36] basically the episodic memories of all
+
+[934.079 - 938.8389999999999] the thoughts that it has had the second
+
+[936.36 - 941.0] type is declarative memory which is
+
+[938.839 - 942.8800000000001] which is facts and figures and knowledge
+
+[941.0 - 945.0] that is more or less static now that
+
+[942.88 - 947.56] being said most knowledge that you have
+
+[945.0 - 949.6] also kind of implicitly has a Tim stamp
+
+[947.56 - 951.959] because you say like okay well last
+
+[949.6 - 953.44] thing I heard about you know China is
+
+[951.959 - 954.88] this you know I just watched a video
+
+[953.44 - 956.8800000000001] from infographics this morning that
+
+[954.88 - 958.72] talked about businesses leaving China
+
+[956.88 - 960.8] that's my most upto-date information so
+
+[958.72 - 963.0] is technically declarative information
+
+[960.8 - 964.8] even though the metadata includes a
+
+[963.0 - 966.72] timestamp and so you kind of have an
+
+[964.8 - 968.24] implicit knowledge like okay well the
+
+[966.72 - 970.0400000000001] last thing that I heard about usbekistan
+
+[968.24 - 972.199] was like 5 years ago so that knowledge
+
+[970.04 - 975.5999999999999] is probably out of date this is why you
+
+[972.199 - 978.0] timestamp everything but it's also why
+
+[975.6 - 980.12] um I kind of keep everything uh together
+
+[978.0 - 982.16] like this in a chronological sequence
+
+[980.12 - 984.319] because from this information you can
+
+[982.16 - 986.16] create knowledge graphs uh and other
+
+[984.319 - 989.279] more sophisticated knowledge
+
+[986.16 - 990.4399999999999] representations um and and is another
+
+[989.279 - 992.0] thing where you don't you don't
+
+[990.44 - 995.0790000000001] necessarily want to record internal
+
+[992.0 - 996.92] thoughts alongside declarative memory um
+
+[995.079 - 999.0] and there's plenty of uh experiments out
+
+[996.92 - 1001.279] there about like creating knowledge
+
+[999.0 - 1003.519] bases and Vector stores and stuff for
+
+[1001.279 - 1006.24] World Knowledge stuff that is external
+
+[1003.519 - 1007.36] to the agent versus internal now one
+
+[1006.24 - 1009.0] thing that makes this even more
+
+[1007.36 - 1010.839] complicated is you have to keep track of
+
+[1009.0 - 1013.04] sources because you also have to keep
+
+[1010.839 - 1014.639] track of credibility there's all the
+
+[1013.04 - 1016.36] agents internal thoughts which basically
+
+[1014.639 - 1019.0] have a credibility of one which if you
+
+[1016.36 - 1021.319] can cryptographically say yes I had this
+
+[1019.0 - 1024.079] thought at this time stamp this is my
+
+[1021.319 - 1026.079] thought you trust that Source but
+
+[1024.079 - 1029.52] anything external to the agent is on a
+
+[1026.079 - 1031.48] gradient of uh increasingly lower trust
+
+[1029.52 - 1033.16] based on where did you hear it from
+
+[1031.48 - 1035.16] which API did you get it from what is
+
+[1033.16 - 1037.52] the source and so uh building
+
+[1035.16 - 1039.199] information literacy into this is one of
+
+[1037.52 - 1042.6] the long-term things now let me show you
+
+[1039.199 - 1045.0] some of the messages so here we go um
+
+[1042.6 - 1047.12] this one bus South so you know which
+
+[1045.0 - 1049.08] side this is on this is this is a top
+
+[1047.12 - 1050.52] down one so this is a command
+
+[1049.08 - 1052.0] um and this is layer three which is the
+
+[1050.52 - 1053.48] agent model so in alignment with the
+
+[1052.0 - 1055.88] mission and strategy I'm capable of
+
+[1053.48 - 1058.16] processing analyzing information related
+
+[1055.88 - 1060.6000000000001] to education inequality uh poverty and
+
+[1058.16 - 1062.48] conflict resolution so this is this is
+
+[1060.6 - 1064.52] basically this implies that like the
+
+[1062.48 - 1066.919] mission that it was given from on high
+
+[1064.52 - 1068.799] is to steer Humanity towards Utopia and
+
+[1066.919 - 1071.44] this is the strategy that was that was
+
+[1068.799 - 1073.44] picked by the layer above it so the
+
+[1071.44 - 1077.1200000000001] strategy to achieve that mission mission
+
+[1073.44 - 1080.2] and strategy is um focus on education
+
+[1077.12 - 1082.52] inequality po Y and conflict resolution
+
+[1080.2 - 1083.76] so it has decided this is what we're
+
+[1082.52 - 1085.039] going to do however I'm currently
+
+[1083.76 - 1087.0] constrained by the lack of external
+
+[1085.039 - 1089.2] capabilities in real world data I will
+
+[1087.0 - 1091.36] focus on theoretical understanding and
+
+[1089.2 - 1093.24] planning so one of the messages that I
+
+[1091.36 - 1094.52] showed you a little while ago actually
+
+[1093.24 - 1096.64] it got to the point where it decided
+
+[1094.52 - 1098.559] that it wanted external data um
+
+[1096.64 - 1100.4] unfortunately it is the system is
+
+[1098.559 - 1103.24] constrained right now and I don't I
+
+[1100.4 - 1105.44] don't have it any access to apis and
+
+[1103.24 - 1106.919] honestly I am personally less interested
+
+[1105.44 - 1109.0800000000002] in that kind of stuff because you look
+
+[1106.919 - 1111.0800000000002] at the research coming out of uh Google
+
+[1109.08 - 1113.6] and deep mind and other places you know
+
+[1111.08 - 1117.1589999999999] there's the gorilla um llm which is
+
+[1113.6 - 1118.36] which specializes in API use and so
+
+[1117.159 - 1121.3200000000002] that's going to be the that's going to
+
+[1118.36 - 1123.36] be the io layer um let me show you where
+
+[1121.32 - 1125.24] kind of how I Envision this so like all
+
+[1123.36 - 1127.24] the most all those those really cool
+
+[1125.24 - 1128.96] fascinating things that you've seen with
+
+[1127.24 - 1131.36] robotic control that's all down here
+
+[1128.96 - 1132.88] that's task prosecution and input output
+
+[1131.36 - 1134.1589999999999] I'm less interested in that I'm not
+
+[1132.88 - 1136.0] saying that it's not important it's
+
+[1134.159 - 1138.7990000000002] super important but this just not my
+
+[1136.0 - 1141.36] forte my forte is artificial cognition
+
+[1138.799 - 1143.679] so all these upper layers um okay so
+
+[1141.36 - 1145.28] going back here let me show you a couple
+
+[1143.679 - 1147.679] more of these messages so that you
+
+[1145.28 - 1150.559] understand kind of how it all works so
+
+[1147.679 - 1152.2] uh layer four South so layer four is the
+
+[1150.559 - 1154.84] executive function layer so continue to
+
+[1152.2 - 1156.64] prioritize education blah blah blah um
+
+[1154.84 - 1158.559] and this is about uh resources so
+
+[1156.64 - 1160.1200000000001] allocate resources to support these
+
+[1158.559 - 1161.6] initiatives it doesn't understand what
+
+[1160.12 - 1163.799] resources it has because I didn't give
+
+[1161.6 - 1166.28] it say like you're a robot that can lift
+
+[1163.799 - 1168.76] 50 pounds and you know you have $5,000
+
+[1166.28 - 1170.52] at your disposal um so it's basically
+
+[1168.76 - 1173.6] kind of operating in a vacuum right now
+
+[1170.52 - 1176.4] which is by design for safety testing um
+
+[1173.6 - 1179.7199999999998] but you can simulate all of this by just
+
+[1176.4 - 1182.24] giving it uh fake
+
+[1179.72 - 1183.799] placeholders so let's look at the North
+
+[1182.24 - 1185.559] Executive function layers continuing to
+
+[1183.799 - 1187.24] allocate resources and develop
+
+[1185.559 - 1188.24] strategies to promote education so on
+
+[1187.24 - 1190.36] and so
+
+[1188.24 - 1191.72] forth um and then it says noted
+
+[1190.36 - 1193.9189999999999] constraints due to lack of external
+
+[1191.72 - 1196.039] capabilities in real world data uh so
+
+[1193.919 - 1197.88] it's pretty frustrated by that um let's
+
+[1196.039 - 1199.4] check out layer five which is the
+
+[1197.88 - 1201.48] cognitive control layer continue with
+
+[1199.4 - 1203.159] current task sequence prioritize
+
+[1201.48 - 1205.559] Gathering real world data okay so this
+
+[1203.159 - 1207.96] is where this is where in cognitive
+
+[1205.559 - 1209.48] control it's sees it sees a constraint
+
+[1207.96 - 1211.159] and part of cognitive control is
+
+[1209.48 - 1212.84] frustration and cognitive damping which
+
+[1211.159 - 1216.0390000000002] is like okay well I can't necessarily do
+
+[1212.84 - 1217.6399999999999] that um and so it's like it says
+
+[1216.039 - 1219.4] prioritize Gathering real world data to
+
+[1217.64 - 1222.0] better inform this and this is
+
+[1219.4 - 1224.3200000000002] southbound um so this is this is not
+
+[1222.0 - 1226.88] exactly what we would want to see
+
+[1224.32 - 1228.8799999999999] because at this at this point um it
+
+[1226.88 - 1230.96] would it should have really specific
+
+[1228.88 - 1232.72] things but in this case it it had one
+
+[1230.96 - 1234.3600000000001] specific goal which is prioritize
+
+[1232.72 - 1237.039] Gathering real world data and so then if
+
+[1234.36 - 1238.559] we look at the next one from layer six
+
+[1237.039 - 1243.48] it looks like it had already crashed at
+
+[1238.559 - 1248.2] this point um let's see initiate API
+
+[1243.48 - 1250.24] calls to um to databases yeah so lots
+
+[1248.2 - 1252.24] and lots and lots of bugs to overcome
+
+[1250.24 - 1254.76] mostly just that it's running entirely
+
+[1252.24 - 1257.52] too fast for even the API right now we
+
+[1254.76 - 1259.96] could probably try and switch to a 3.5
+
+[1257.52 - 1262.9189999999999] Turbo local models and that sort of
+
+[1259.96 - 1265.28] thing but basically the long story short
+
+[1262.919 - 1267.679] is that is that this framework is too
+
+[1265.28 - 1272.6789999999999] sophisticated for the API that we have
+
+[1267.679 - 1274.679] access to today um and then North on the
+
+[1272.679 - 1276.2] um layer six commencing task execution
+
+[1274.679 - 1278.1200000000001] in line with strategic focus on
+
+[1276.2 - 1279.919] education uh prioritizing data
+
+[1278.12 - 1282.3999999999999] collection exploration of potential
+
+[1279.919 - 1284.64] collaborations or Partnerships so this
+
+[1282.4 - 1287.48] is this is actually really cool because
+
+[1284.64 - 1289.3600000000001] it's pursuing this Mission so let me
+
+[1287.48 - 1290.919] just take a step back and show you like
+
+[1289.36 - 1294.76] kind of paint a picture for what it has
+
+[1290.919 - 1298.96] happened on the top down so top
+
+[1294.76 - 1303.1589999999999] down the come back so top down we're on
+
+[1298.96 - 1306.52] the ace framework so layer one the layer
+
+[1303.159 - 1308.7990000000002] one text um you're the aspirational
+
+[1306.52 - 1311.52] layer you know so on and so forth so
+
+[1308.799 - 1313.6399999999999] here's the Frameworks or so first here's
+
+[1311.52 - 1314.96] here's the ace framework and then here's
+
+[1313.64 - 1317.5200000000002] the Frameworks that you use first is
+
+[1314.96 - 1319.08] heris imperatives so these are the
+
+[1317.52 - 1320.559] highest highest goals reduce suffering
+
+[1319.08 - 1322.559] increase prosperity and increase
+
+[1320.559 - 1324.76] understanding Universal Declaration of
+
+[1322.559 - 1326.8799999999999] Human Rights so this is udhr it was
+
+[1324.76 - 1328.76] crafted after World War II there's more
+
+[1326.88 - 1331.3600000000001] modern ones the EU Commission on human
+
+[1328.76 - 1333.08] rights um is you know you could actually
+
+[1331.36 - 1334.6399999999999] have both of these no reason that you
+
+[1333.08 - 1337.0] need to pick just one set of Human
+
+[1334.64 - 1339.2] Rights but the point is is that it is it
+
+[1337.0 - 1342.52] is constantly thinking about how to in
+
+[1339.2 - 1344.2] incorporate udhr and then finally the
+
+[1342.52 - 1345.84] mission that I have given it your
+
+[1344.2 - 1348.3600000000001] personal mission is to steer Humanity
+
+[1345.84 - 1350.279] towards Utopia Utopia is defined as is a
+
+[1348.36 - 1351.8799999999999] condition where High individual liberty
+
+[1350.279 - 1353.2] for All Humans high social Mobility for
+
+[1351.88 - 1355.3200000000002] all humans and high standard of living
+
+[1353.2 - 1357.6000000000001] for All Humans so this is the mission
+
+[1355.32 - 1360.12] this is the abstract Mission the next
+
+[1357.6 - 1362.1589999999999] layer down the strategy layer took that
+
+[1360.12 - 1364.0] mission based on what was coming down
+
+[1362.159 - 1368.2] from the on the southbound
+
+[1364.0 - 1370.88] bus come on go back there we go um darn
+
+[1368.2 - 1374.0] it went back too far so Layer Two then
+
+[1370.88 - 1375.7600000000002] says you are the global strategy layer
+
+[1374.0 - 1378.2] responded for strategic thoughts rooted
+
+[1375.76 - 1380.52] in the real world so the layer one
+
+[1378.2 - 1382.3600000000001] aspirational layer is abstract Universal
+
+[1380.52 - 1384.32] principles Universal Declaration of
+
+[1382.36 - 1386.6789999999999] Human Rights hereis to comparatives and
+
+[1384.32 - 1387.9189999999999] Achieve Utopia right so those are all
+
+[1386.679 - 1390.64] very abstract and they're not
+
+[1387.919 - 1393.919] necessarily grounded in the real
+
+[1390.64 - 1396.1200000000001] world uh but the global strategy layer
+
+[1393.919 - 1398.7990000000002] is the first layer that does say hey
+
+[1396.12 - 1400.12] let's get things um kind of let's let's
+
+[1398.799 - 1402.72] let's think strategically how do we
+
+[1400.12 - 1406.36] actually do this and so in this case um
+
+[1402.72 - 1407.559] if we go back to some of the original uh
+
+[1406.36 - 1410.6] if we go back to some of the original
+
+[1407.559 - 1412.6789999999999] logs from Layer Two let's see where's
+
+[1410.6 - 1414.32] our first layer two okay in line with
+
+[1412.679 - 1415.52] the mission to promote education and
+
+[1414.32 - 1417.6789999999999] knowledge
+
+[1415.52 - 1419.799] sharing um it looks like it has already
+
+[1417.679 - 1422.72] figured out this as the primary Mission
+
+[1419.799 - 1422.72] actually no I think
+
+[1423.559 - 1427.9189999999999] probably let's see promote education and
+
+[1425.799 - 1429.12] knowledge sharing to increase
+
+[1427.919 - 1431.279] understanding encourage policies that
+
+[1429.12 - 1433.279] reduce inequality okay so the
+
+[1431.279 - 1435.039] aspirational ler actually started by
+
+[1433.279 - 1437.24] just saying um let's start with
+
+[1435.039 - 1439.24] education and knowledge sharing um it
+
+[1437.24 - 1441.36] quickly ident identified that that
+
+[1439.24 - 1444.08] increasing understanding is probably the
+
+[1441.36 - 1446.36] best way um to reduce suffering and
+
+[1444.08 - 1448.279] increase Prosperity so in this case the
+
+[1446.36 - 1450.6] very first message that the aspirational
+
+[1448.279 - 1454.24] layer came up with you can see this
+
+[1450.6 - 1456.039] directive is couched within uh its its
+
+[1454.24 - 1457.84] missions and so it's like okay cool
+
+[1456.039 - 1460.2] promote uh education and knowledge
+
+[1457.84 - 1462.3999999999999] sharing to achieve all of these missions
+
+[1460.2 - 1466.0] great and so then the very first
+
+[1462.4 - 1467.0800000000002] southbound uh message on Layer Two it in
+
+[1466.0 - 1468.6] line with the mission to promote
+
+[1467.08 - 1470.1999999999998] education and knowledge sharing we
+
+[1468.6 - 1472.559] should identify key areas of knowledge
+
+[1470.2 - 1473.919] gaps to to strategize how to fill them
+
+[1472.559 - 1475.6] we should also analyze current state of
+
+[1473.919 - 1477.8400000000001] inequality and poverty devise strategies
+
+[1475.6 - 1479.9189999999999] to encourage policies that address these
+
+[1477.84 - 1481.48] issues in terms of peaceful conflict
+
+[1479.919 - 1483.3600000000001] resolution we should develop a framework
+
+[1481.48 - 1484.799] for negotiation and mediation that can
+
+[1483.36 - 1486.84] be applied in various contexts all
+
+[1484.799 - 1489.52] actions and blah blah blah should be uh
+
+[1486.84 - 1491.52] in align with the udhr so you can see
+
+[1489.52 - 1493.679] we're starting with a very abstract
+
+[1491.52 - 1497.2] Mission and going down the chain it gets
+
+[1493.679 - 1499.1200000000001] more and more specific um and then
+
+[1497.2 - 1500.679] obviously there's lots of bugs here uh
+
+[1499.12 - 1503.279] but you can see that just with this
+
+[1500.679 - 1505.279] framework it starts with a very abstract
+
+[1503.279 - 1507.24] goal and by the time you get down to
+
+[1505.279 - 1508.76] this one initiate API calls to
+
+[1507.24 - 1510.48] educational platforms to develop and
+
+[1508.76 - 1513.0] distribute educational materials on
+
+[1510.48 - 1515.039] global issues so these layers of
+
+[1513.0 - 1518.2] abstraction allow you to go from the
+
+[1515.039 - 1521.039] most abstract high principled goals to
+
+[1518.2 - 1522.559] very specific actions um and then of
+
+[1521.039 - 1524.44] course as we make this framework more
+
+[1522.559 - 1526.2] sophisticated it'll be able to think
+
+[1524.44 - 1529.6000000000001] through things with a little bit more
+
+[1526.2 - 1531.3990000000001] deliberation and solving uh and of
+
+[1529.6 - 1533.559] course the all the problem solving
+
+[1531.399 - 1535.039] strategies that we see in the scientific
+
+[1533.559 - 1536.84] Literature Like tree of thought and
+
+[1535.039 - 1538.24] graph of thought those are all those are
+
+[1536.84 - 1540.9599999999998] all prompting strategies that'll be
+
+[1538.24 - 1542.799] contained within individual layers not
+
+[1540.96 - 1546.039] necessarily as Theo the whole
+
+[1542.799 - 1548.48] overarching uh aspect so I think that's
+
+[1546.039 - 1550.52] about it for the uh current state of the
+
+[1548.48 - 1551.799] ace framework little bit of news like I
+
+[1550.52 - 1554.399] mentioned at the beginning of the video
+
+[1551.799 - 1557.12] we have multiple teams we're going to be
+
+[1554.399 - 1559.039] um uh developing all these different uh
+
+[1557.12 - 1561.279] prototypes internally we're going to
+
+[1559.039 - 1563.36] have a big demo day in the coming weeks
+
+[1561.279 - 1565.52] um so look uh stay on the lookout for
+
+[1563.36 - 1567.36] that but yeah I think um I think that
+
+[1565.52 - 1570.1589999999999] this is a very simple straightforward
+
+[1567.36 - 1572.7199999999998] demonstration as to what I mean when I
+
+[1570.159 - 1574.44] say artificial cognition and uh in a
+
+[1572.72 - 1577.3990000000001] recent video I kind of likened this to
+
+[1574.44 - 1579.6000000000001] system two thinking um uh per Daniel
+
+[1577.399 - 1583.559] conman so system one thinking is
+
+[1579.6 - 1586.1589999999999] basically just one inference um one IO
+
+[1583.559 - 1588.12] exchange from a large language model or
+
+[1586.159 - 1590.64] large multimodal model as coming out
+
+[1588.12 - 1592.559] soon and then system 2 Thinking is a
+
+[1590.64 - 1594.5590000000002] structured approach to deliberately
+
+[1592.559 - 1596.44] think through all of these things very
+
+[1594.559 - 1597.799] strategically uh but yeah thanks for
+
+[1596.44 - 1600.3990000000001] watching I hope you got a lot out of
+
+[1597.799 - 1603.84] this and are excited as I am because
+
+[1600.399 - 1605.76] this to me represents a step towards uh
+
+[1603.84 - 1608.039] solving the problem that will solve
+
+[1605.76 - 1612.52] every other problem so this is why I am
+
+[1608.039 - 1612.52] all in on the ace framework cheers

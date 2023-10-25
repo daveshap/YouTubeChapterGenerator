@@ -1,0 +1,3277 @@
+[2.48 - 6.879] i'm back
+
+[4.0 - 9.2] okay so i know that i said i would take
+
+[6.879 - 10.799999999999999] like two to four months off um but
+
+[9.2 - 12.399999999999999] apparently something has changed in my
+
+[10.8 - 14.16] brain and i'm not going to take that
+
+[12.4 - 17.44] long anymore
+
+[14.16 - 19.359] um i have continued reading brain trust
+
+[17.44 - 21.520000000000003] and as what always happens whenever i
+
+[19.359 - 23.68] read cognition or neuroscience i'm
+
+[21.52 - 25.68] inspired to do more work
+
+[23.68 - 27.92] so i want to bring you up to speed with
+
+[25.68 - 28.88] what i worked on last night and i didn't
+
+[27.92 - 30.96] share it
+
+[28.88 - 33.44] because one it is a
+
+[30.96 - 35.76] politically sensitive thing i did check
+
+[33.44 - 37.12] openai's guidelines for content sharing
+
+[35.76 - 38.719] and publication
+
+[37.12 - 40.559] and you're not supposed to share
+
+[38.719 - 42.079] anything that is part of a political
+
+[40.559 - 44.718999999999994] campaign
+
+[42.079 - 46.559] so i think this is okay um but basically
+
+[44.719 - 49.68] what i did was i took
+
+[46.559 - 52.399] the um i took the supreme court opinion
+
+[49.68 - 54.32] on um dobbs versus jackson which is more
+
+[52.399 - 55.84] conventionally known as overturning roe
+
+[54.32 - 57.039] versus wade
+
+[55.84 - 58.559000000000005] um
+
+[57.039 - 62.559] so it is
+
+[58.559 - 64.0] crazy long it's 454 000 characters long
+
+[62.559 - 67.2] and i ran it through my recursive
+
+[64.0 - 69.04] summarizer and after four iterations i
+
+[67.2 - 70.96000000000001] got down to the supreme court has well
+
+[69.04 - 72.96000000000001] here let me just go here
+
+[70.96 - 74.39999999999999] um the supreme court has overturned roe
+
+[72.96 - 76.96] versus wade which means that states are
+
+[74.4 - 79.28] now able to ban abortion this will have
+
+[76.96 - 80.88] a particularly hard impact on low-income
+
+[79.28 - 82.32000000000001] women who will not be able to afford to
+
+[80.88 - 84.24] travel to states where abortion is still
+
+[82.32 - 86.15899999999999] legal many will be forced to turn to
+
+[84.24 - 87.52] illegal and unsafe abortions which could
+
+[86.159 - 89.92] lead to their death so that was the
+
+[87.52 - 89.92] ultimate
+
+[90.0 - 94.72] result of recursively summarizing this
+
+[92.32 - 95.83999999999999] document which is a very impactful
+
+[94.72 - 96.72] summary
+
+[95.84 - 98.479] um
+
+[96.72 - 100.479] it occurred to me though that just
+
+[98.479 - 102.56] recursively summarizing something from
+
+[100.479 - 104.159] an arbitrary length down to something
+
+[102.56 - 106.07900000000001] super concise
+
+[104.159 - 107.60000000000001] okay that's great but you lose a lot of
+
+[106.079 - 108.88] resolution
+
+[107.6 - 112.79899999999999] and then
+
+[108.88 - 115.28] um there is a huge need for answering
+
+[112.799 - 117.28] questions from arbitrary
+
+[115.28 - 119.43900000000001] volumes of data
+
+[117.28 - 122.159] this is an unsolved problem and it is a
+
+[119.439 - 124.079] non-trivial problem so what do i mean by
+
+[122.159 - 126.159] answering questions from arbitrary data
+
+[124.079 - 129.159] sources or an arbitrary number of
+
+[126.159 - 129.159] documents
+
+[129.2 - 134.39999999999998] whether you are a business or whether
+
+[132.56 - 135.92000000000002] you're building artificial cognitive
+
+[134.4 - 138.31900000000002] entities
+
+[135.92 - 141.92] or chat bot assistants you're going to
+
+[138.319 - 143.2] have a huge amount of data to filter
+
+[141.92 - 144.95899999999997] through
+
+[143.2 - 147.44] oh and actually before we get started i
+
+[144.959 - 150.16] just wanted to go ahead and plug my um
+
+[147.44 - 153.28] my discord server that i just started up
+
+[150.16 - 155.2] um the join link will be in the comments
+
+[153.28 - 156.8] this is a really smart bunch of people
+
+[155.2 - 158.23899999999998] who are all doing really great stuff so
+
+[156.8 - 161.44] if you want to join
+
+[158.239 - 163.20000000000002] my my research discord
+
+[161.44 - 164.56] please feel free to jump in
+
+[163.2 - 166.07999999999998] make sure you check out the rules first
+
+[164.56 - 168.08] though there are only four rules keep it
+
+[166.08 - 170.64000000000001] cool be kind
+
+[168.08 - 173.12] discussion not debate agree to disagree
+
+[170.64 - 175.2] and beliefs and evidence um other than
+
+[173.12 - 177.84] that pretty much everything goes
+
+[175.2 - 179.67999999999998] um we want it to be chill and friendly
+
+[177.84 - 181.04] and productive this is not a place to
+
+[179.68 - 182.48000000000002] prove that you're right to prove that
+
+[181.04 - 184.72] other people are wrong
+
+[182.48 - 186.64] it's not a place to show off or anything
+
+[184.72 - 188.319] like that we are here to make the
+
+[186.64 - 190.07999999999998] biggest difference possible for the
+
+[188.319 - 192.79999999999998] world okay
+
+[190.08 - 194.959] now that that plug is out of the way um
+
+[192.8 - 197.84] multi-document answering so
+
+[194.959 - 199.44] openai originally had their answers
+
+[197.84 - 201.36] endpoint which you could have an
+
+[199.44 - 202.64] arbitrary number of documents and then
+
+[201.36 - 204.799] like it would search for the right
+
+[202.64 - 208.39999999999998] document and give you an answer they
+
+[204.799 - 210.56] deprecated that because nobody used it
+
+[208.4 - 212.64000000000001] but it occurred to me that maybe
+
+[210.56 - 214.799] there is something here because
+
+[212.64 - 216.319] um say for instance you've got a robot
+
+[214.799 - 219.28] right like you imagine that you've got a
+
+[216.319 - 221.44] domestic robot um and you want it to
+
+[219.28 - 224.319] like keep track of like oh hey what did
+
+[221.44 - 226.64] i tell you a year ago right or or you
+
+[224.319 - 228.48] you have a business assistant that that
+
+[226.64 - 230.0] you want to be able to have intuitive
+
+[228.48 - 232.23899999999998] discussions with
+
+[230.0 - 234.56] managing large amounts of knowledge of
+
+[232.239 - 235.68] memories is going to be critical for
+
+[234.56 - 238.08] this
+
+[235.68 - 240.799] um and if you if you just summarize an
+
+[238.08 - 242.15900000000002] arbitrarily large amount of data okay
+
+[240.799 - 244.0] that's fine
+
+[242.159 - 246.959] but you lose a lot of information and
+
+[244.0 - 249.519] you can't interact with it so
+
+[246.959 - 251.68] this is going to be one of my
+
+[249.519 - 253.59900000000002] you know pair programming sessions you
+
+[251.68 - 255.439] always tell me that you love
+
+[253.599 - 258.15999999999997] watching me just take an initial stab at
+
+[255.439 - 260.0] something so let me just tell you or
+
+[258.16 - 261.519] show you where we're starting so
+
+[260.0 - 264.08] one i'm going to borrow some code from
+
+[261.519 - 265.28000000000003] my recursive summarizer but also i'm
+
+[264.08 - 269.19899999999996] going to borrow
+
+[265.28 - 270.55999999999995] some code from my acog experiment
+
+[269.199 - 271.68] because one of the things that i did
+
+[270.56 - 274.24] here
+
+[271.68 - 277.44] is i've got this function
+
+[274.24 - 279.12] that allows you to stack memories
+
+[277.44 - 281.52] and also embed memories so i'll be
+
+[279.12 - 283.04] borrowing some code from this as well
+
+[281.52 - 285.75899999999996] so we'll start here both of these are
+
+[283.04 - 288.0] publicly available under the mit license
+
+[285.759 - 291.68] so you're welcome to uh to play along if
+
+[288.0 - 293.759] you want um so without further ado
+
+[291.68 - 295.919] let's go to my
+
+[293.759 - 297.759] multi-document answering so i i've
+
+[295.919 - 299.84] already borrowed this code
+
+[297.759 - 302.639] to recursively summarize something so
+
+[299.84 - 304.56] basically what i'm going to do is
+
+[302.639 - 306.08] because we've got a good example to
+
+[304.56 - 308.88] start with
+
+[306.08 - 311.59999999999997] i'll go ahead and just grab
+
+[308.88 - 313.199] this document and we'll start here
+
+[311.6 - 314.96000000000004] so we'll take that from the recursive
+
+[313.199 - 317.91900000000004] summarizer because let me just show you
+
+[314.96 - 320.88] this is it's 454 thousand characters
+
+[317.919 - 323.19899999999996] long and it is dense it has a lot of
+
+[320.88 - 324.4] information um so this is a supreme
+
+[323.199 - 327.28000000000003] court opinion
+
+[324.4 - 328.56] and in order to have a
+
+[327.28 - 330.55999999999995] uh
+
+[328.56 - 333.44] in order to allow people to better
+
+[330.56 - 335.919] engage with you know political discourse
+
+[333.44 - 337.919] or other information problems wouldn't
+
+[335.919 - 339.75899999999996] it be great if you had a really powerful
+
+[337.919 - 341.84] chat bot that could
+
+[339.759 - 343.6] answer questions for you and summarize
+
+[341.84 - 345.28] things and like you know tell me what
+
+[343.6 - 346.639] this is all about
+
+[345.28 - 348.4] so that's what i'm going to try and do
+
+[346.639 - 350.56] and obviously this is a non-trivial
+
+[348.4 - 352.96] problem i do not expect to finish it
+
+[350.56 - 353.84] today but we'll see how far we get
+
+[352.96 - 356.08] okay
+
+[353.84 - 357.75899999999996] so recursively summarize
+
+[356.08 - 358.8] first things first
+
+[357.759 - 360.319] um
+
+[358.8 - 361.68] we're not going to just summarize
+
+[360.319 - 362.96000000000004] everything so we get we're going to have
+
+[361.68 - 364.8] to throw out
+
+[362.96 - 367.919] some of this
+
+[364.8 - 369.24] let's go ahead and rename this to input
+
+[367.919 - 371.84] um
+
+[369.24 - 372.72] input.txt that's fine
+
+[371.84 - 374.88] no
+
+[372.72 - 377.68] all right so it all text equals open
+
+[374.88 - 379.919] file input chunks equals text wrap so
+
+[377.68 - 382.56] what this does is it breaks it up into
+
+[379.919 - 383.44] chunks of 3000 characters
+
+[382.56 - 386.24] um
+
+[383.44 - 387.199] so what this first one is going to do is
+
+[386.24 - 389.84000000000003] where
+
+[387.199 - 392.319] my my intuition is that what we what we
+
+[389.84 - 394.08] should do is go ahead and make an index
+
+[392.319 - 396.72] and rather than make like an inverted
+
+[394.08 - 399.35999999999996] index that you'd use like in store in a
+
+[396.72 - 402.72] database or whatever we're going to do a
+
+[399.36 - 404.319] vector-based index um so let me
+
+[402.72 - 406.56] show you
+
+[404.319 - 409.36] uh let's see where did it go my acog
+
+[406.56 - 412.319] experiment so the inner loop
+
+[409.36 - 414.96000000000004] um so what i've done here
+
+[412.319 - 414.96000000000004] is we get
+
+[416.8 - 421.199] we get embeddings from open ai
+
+[419.68 - 423.52] and this one i did with ada we'll
+
+[421.199 - 424.96000000000004] probably do babbage or something well no
+
+[423.52 - 426.88] just for search i think eight is
+
+[424.96 - 428.4] probably fine so we'll copy this
+
+[426.88 - 430.71999999999997] function
+
+[428.4 - 430.71999999999997] um
+
+[431.36 - 434.88] say all right we'll get we'll grab a
+
+[432.639 - 436.479] gpt3 embedding
+
+[434.88 - 438.71999999999997] we'll also go ahead and grab the
+
+[436.479 - 440.639] similarity function because it's just a
+
+[438.72 - 442.8] real simple numpy where you do you give
+
+[440.639 - 445.199] the dot product of two vectors and then
+
+[442.8 - 448.24] the dot product gives you how similar
+
+[445.199 - 451.199] those two vectors are it's super simple
+
+[448.24 - 453.68] um okay search index
+
+[451.199 - 455.12] let's see oh yeah so this is this was
+
+[453.68 - 456.40000000000003] the function that i wrote to actually
+
+[455.12 - 460.8] search it
+
+[456.4 - 462.71999999999997] um so we will copy this function as well
+
+[460.8 - 465.52000000000004] um so basically what this function does
+
+[462.72 - 467.84000000000003] is you give it a text
+
+[465.52 - 470.56] that you're going to try and match
+
+[467.84 - 472.4] and then you pass it the index
+
+[470.56 - 474.72] which is in this case it's
+
+[472.4 - 476.08] it's a what was it
+
+[474.72 - 478.56] let me make sure i'm remembering this
+
+[476.08 - 482.8] correctly so search index
+
+[478.56 - 483.68] um the nexus index update index yes
+
+[482.8 - 486.8] um
+
+[483.68 - 490.479] and update index how was that made
+
+[486.8 - 492.24] so we list all the files and then we
+
+[490.479 - 493.68] okay yeah so this is all it is it's a
+
+[492.24 - 495.759] list of
+
+[493.68 - 498.0] uh dictionaries where you've got a file
+
+[495.759 - 499.91900000000004] name and a vector so that's it
+
+[498.0 - 501.52] um okay so we'll probably do it a little
+
+[499.919 - 502.71999999999997] bit differently where i'll just have the
+
+[501.52 - 504.96] whole thing in memory and instead of
+
+[502.72 - 507.52000000000004] having a file name i'll just have the
+
+[504.96 - 509.68] chunk of text so it'll all be in memory
+
+[507.52 - 512.0] um actually no it should be it should be
+
+[509.68 - 513.44] on a file so that way it can be saved
+
+[512.0 - 514.64] okay
+
+[513.44 - 517.36] so the first thing we're gonna have to
+
+[514.64 - 519.1999999999999] do here is build our index so let me
+
+[517.36 - 522.159] also just go ahead and copy the update
+
+[519.2 - 524.8000000000001] index file um
+
+[522.159 - 527.68] or not file function sorry
+
+[524.8 - 530.4799999999999] okay so and we'll rename this to just
+
+[527.68 - 530.4799999999999] build index
+
+[531.12 - 534.48] i had i had this function as an update
+
+[533.04 - 536.399] index because this was supposed to be
+
+[534.48 - 538.32] for an artificial cognitive entity which
+
+[536.399 - 539.68] means it has to index its memories as
+
+[538.32 - 542.9590000000001] they're accumulated so that's an even
+
+[539.68 - 542.959] more complicated problem
+
+[543.519 - 548.5600000000001] okay still following along good
+
+[546.72 - 550.72] okay so
+
+[548.56 - 552.959] we've got chunks text wraps so we've got
+
+[550.72 - 554.48] all the chunks the result there we go
+
+[552.959 - 557.68] that's fine
+
+[554.48 - 559.519] um open file we don't need to
+
+[557.68 - 561.279] do this
+
+[559.519 - 562.64] uh we don't need we don't need we don't
+
+[561.279 - 565.2] need to run it through a prompt all we
+
+[562.64 - 568.88] need to do is get the um
+
+[565.2 - 571.12] get the embedding now
+
+[568.88 - 574.399] embeddings if i remember correctly you
+
+[571.12 - 575.44] can get multiple embeddings at once i
+
+[574.399 - 579.68] think
+
+[575.44 - 582.0] open a open ai embeddings
+
+[579.68 - 582.0] um
+
+[584.48 - 587.04] let's see
+
+[587.839 - 591.8000000000001] take a look at it
+
+[591.92 - 596.24] input simple sample document goes here
+
+[597.36 - 604.24] because if we've got like 150 different
+
+[600.72 - 605.6] you know chunks to um to to do all right
+
+[604.24 - 606.72] i'm not seeing anything that does
+
+[605.6 - 608.32] multiple embeddings i'm not going to
+
+[606.72 - 610.5600000000001] worry about it right now we'll just do
+
+[608.32 - 611.7600000000001] one embedding at a time that's fine
+
+[610.56 - 612.88] um
+
+[611.76 - 614.959] and actually i don't even think we'll
+
+[612.88 - 616.959] need the search in this one
+
+[614.959 - 618.8] so i can probably take that out okay so
+
+[616.959 - 620.079] we'll comment this out for chunk in
+
+[618.8 - 622.0] chunks
+
+[620.079 - 624.8] we actually just need
+
+[622.0 - 627.36] the embedding so
+
+[624.8 - 627.3599999999999] we'll say
+
+[630.0 - 634.56] gpt3 embedding so content yes
+
+[637.92 - 644.24] embedding equals gpg3 embedding
+
+[640.56 - 647.1199999999999] and then we'll do chunk dot encode
+
+[644.24 - 649.76] well here we'll just copy this
+
+[647.12 - 651.44] so what i had to do here um this
+
+[649.76 - 652.24] particular bit
+
+[651.44 - 654.6400000000001] um
+
+[652.24 - 656.72] this i found that sometimes there are
+
+[654.64 - 659.36] unicode characters that gpt3 cannot
+
+[656.72 - 660.88] handle and it errors out and so what i
+
+[659.36 - 662.72] found what i started doing is just
+
+[660.88 - 663.68] adding this little bit of
+
+[662.72 - 666.32] um
+
+[663.68 - 669.04] code to to change it so you're basically
+
+[666.32 - 671.2] encoding it from unicode to ascii which
+
+[669.04 - 673.36] is simpler and then you decode it back
+
+[671.2 - 677.2] into just a regular string variable and
+
+[673.36 - 678.88] that seems to prevent any gpt3 problems
+
+[677.2 - 681.0400000000001] um okay
+
+[678.88 - 682.8] so we got the embedding
+
+[681.04 - 684.64] and we don't need a summary because
+
+[682.8 - 688.0] essentially an embedding is a type of
+
+[684.64 - 689.8389999999999] summary um it's just it's a numerical
+
+[688.0 - 690.72] summary okay so what we're going to do
+
+[689.839 - 692.72] then
+
+[690.72 - 694.9590000000001] is instead
+
+[692.72 - 696.72] like what we did here where it's it's
+
+[694.959 - 699.1999999999999] just alluding to a file name because
+
+[696.72 - 702.32] with an acog here let me just show you
+
+[699.2 - 705.279] um with an artificial cognitive entity
+
+[702.32 - 706.72] you might have um a list of
+
+[705.279 - 708.0] where did it go did i delete all the
+
+[706.72 - 708.9590000000001] memories i might have deleted all the
+
+[708.0 - 710.639] memories
+
+[708.959 - 712.959] or no i haven't gotten started yet so
+
+[710.639 - 714.9590000000001] basically what you do is you have a log
+
+[712.959 - 716.959] so all the memories all the experiences
+
+[714.959 - 719.04] of an acog is just going to be like a
+
+[716.959 - 721.3599999999999] list of log files
+
+[719.04 - 723.5999999999999] and they could be multimodal files right
+
+[721.36 - 726.16] you could have audio vid video text
+
+[723.6 - 728.72] whatever other sensory information it's
+
+[726.16 - 729.92] got you can also have output information
+
+[728.72 - 731.76] but the point is it'll all be
+
+[729.92 - 734.3199999999999] accumulated there and then you can
+
+[731.76 - 736.56] represent it as a vector which is a way
+
+[734.32 - 737.519] of of representing the semantic meaning
+
+[736.56 - 739.3599999999999] of it
+
+[737.519 - 741.2] okay so we can get rid of that close
+
+[739.36 - 744.839] that all right so
+
+[741.2 - 744.839] we'll say uh
+
+[746.24 - 750.88] content equals
+
+[748.639 - 752.24] uh chunk so that'll be just the the bit
+
+[750.88 - 755.279] of text
+
+[752.24 - 756.639] and then we will say the um
+
+[755.279 - 758.959] the vector
+
+[756.639 - 760.9590000000001] equals the embedding
+
+[758.959 - 762.399] um i prefer the word vector because one
+
+[760.959 - 766.0] it's two syllables and it's easier to
+
+[762.399 - 767.44] say you got vector embedding is too slow
+
+[766.0 - 769.6] and i don't know maybe maybe that's just
+
+[767.44 - 771.2] me being weird but my brain i prefer the
+
+[769.6 - 773.6] word vector
+
+[771.2 - 776.8000000000001] it's easier to say okay so then what
+
+[773.6 - 780.0790000000001] we'll do is we will
+
+[776.8 - 782.3199999999999] we will save this as a json file
+
+[780.079 - 784.079] i think json so that way it'll be it'll
+
+[782.32 - 785.36] be readable
+
+[784.079 - 787.5999999999999] um
+
+[785.36 - 791.2] yeah i think that'll be the way to go
+
+[787.6 - 794.5600000000001] um let me make sure that we've got
+
+[791.2 - 796.9590000000001] um let's see import json
+
+[794.56 - 800.56] and i always have to do this um because
+
+[796.959 - 802.399] i always i can't ever remember like with
+
+[800.56 - 804.5189999999999] open um
+
+[802.399 - 806.16] we're going to say
+
+[804.519 - 808.24] index.json
+
+[806.16 - 810.3199999999999] um
+
+[808.24 - 812.24] right binary
+
+[810.32 - 816.0790000000001] i think that's it
+
+[812.24 - 817.2] encoding equals utf-8
+
+[816.079 - 819.04] um
+
+[817.2 - 821.9200000000001] uh where was the last time that i used
+
+[819.04 - 823.199] this function where i saved
+
+[821.92 - 824.7199999999999] json
+
+[823.199 - 826.56] it's not here
+
+[824.72 - 829.5600000000001] it's probably going to be something
+
+[826.56 - 829.56] older
+
+[831.36 - 837.44] where did i save json
+
+[835.04 - 837.4399999999999] um
+
+[838.48 - 842.1990000000001] it might have been here
+
+[842.639 - 847.279] do i have a json file here i have json l
+
+[845.68 - 849.12] that might be close enough
+
+[847.279 - 852.32] format training data
+
+[849.12 - 852.32] import json okay
+
+[854.32 - 857.839] yeah that's fine okay
+
+[860.959 - 865.8389999999999] oh wait no that's dumping it to string
+
+[863.279 - 867.12] so i'll need json.dumps
+
+[865.839 - 869.4300000000001] i think that's the one that dumps it to
+
+[867.12 - 872.079] file
+
+[869.43 - 875.12] [Music]
+
+[872.079 - 877.12] um as out file
+
+[875.12 - 878.16] uh let's see
+
+[877.12 - 882.399] jace
+
+[878.16 - 885.92] i literally typed out jason json.dumps
+
+[882.399 - 887.36] and then i believe it'll be uh result
+
+[885.92 - 891.279] out file
+
+[887.36 - 892.48] and then what is it like indent equals
+
+[891.279 - 894.8] two
+
+[892.48 - 897.8000000000001] i'm totally misremembering this
+
+[894.8 - 897.8] um
+
+[898.0 - 901.6] need to make sure that i get this right
+
+[899.36 - 901.6] though
+
+[902.88 - 908.399] because nothing is is worse than like
+
+[906.639 - 909.36] um
+
+[908.399 - 912.8] really
+
+[909.36 - 917.519] i don't believe that code there we go
+
+[912.8 - 917.519] hey there we go return json dumps
+
+[920.16 - 925.0] now that's a flask response that can't
+
+[921.839 - 925.0] be right
+
+[929.6 - 933.399] there we go json.
+
+[934.079 - 940.3599999999999] that's all writing it as json l
+
+[936.88 - 940.36] i can't be right
+
+[942.0 - 947.44] yeah there we go json.dump data out file
+
+[945.519 - 949.6] indent one okay
+
+[947.44 - 952.24] hey i've almost remembered it
+
+[949.6 - 954.24] right not quite but almost
+
+[952.24 - 955.6] um we'll do we'll leave it indent too
+
+[954.24 - 958.16] that's fine okay
+
+[955.6 - 960.24] because nothing is worse than oh and not
+
+[958.16 - 961.68] right binary this is just text
+
+[960.24 - 963.04] um
+
+[961.68 - 966.16] yeah
+
+[963.04 - 966.16] and actually i think
+
+[966.959 - 971.5189999999999] maybe maybe um
+
+[970.32 - 974.0] let's say i don't think i need to do the
+
+[971.519 - 976.5600000000001] separators that's fine
+
+[974.0 - 978.959] and it's always as right and not encoded
+
+[976.56 - 982.5189999999999] as utf-8 okay so let me remove the
+
+[978.959 - 982.5189999999999] encoding as utf-8
+
+[983.759 - 986.0790000000001] okay we'll leave it at that that should
+
+[985.199 - 988.8] work
+
+[986.079 - 991.04] um okay so alt text we open it we get
+
+[988.8 - 992.4799999999999] the embedding we append this to the
+
+[991.04 - 996.3199999999999] result so the result will be a list of
+
+[992.48 - 998.5600000000001] dictionaries with some text
+
+[996.32 - 999.759] and then a vector and so that'll be our
+
+[998.56 - 1001.5189999999999] database
+
+[999.759 - 1002.639] um
+
+[1001.519 - 1003.839] yeah
+
+[1002.639 - 1005.92] and we don't even need to build the
+
+[1003.839 - 1007.9200000000001] index because we're building it now
+
+[1005.92 - 1010.4799999999999] so let me just go ahead and delete this
+
+[1007.92 - 1012.0] function because that's noise search
+
+[1010.48 - 1013.36] index we can delete that because that's
+
+[1012.0 - 1015.279] noise
+
+[1013.36 - 1016.88] we can delete similarity because we
+
+[1015.279 - 1020.24] don't even use that
+
+[1016.88 - 1020.24] we don't use completion
+
+[1020.8 - 1027.4389999999999] do i use save file i don't use save file
+
+[1022.639 - 1030.079] anywhere all i use is open file okay
+
+[1027.439 - 1032.0790000000002] um we don't need
+
+[1030.079 - 1036.079] that
+
+[1032.079 - 1036.079] i think that's about it i don't need re
+
+[1036.24 - 1040.079] i think we just use text wrap
+
+[1038.559 - 1042.0] json
+
+[1040.079 - 1045.12] i don't even use os anymore
+
+[1042.0 - 1047.919] clean this up okay that should be fine
+
+[1045.12 - 1050.32] um let's go to multi-document answering
+
+[1047.919 - 1052.7990000000002] and we'll do we'll just call this
+
+[1050.32 - 1054.08] build the index
+
+[1052.799 - 1056.0] there we go
+
+[1054.08 - 1058.799] keep it in editor no
+
+[1056.0 - 1061.679] we'll just reopen it okay so this will
+
+[1058.799 - 1063.52] generate a json file that will have
+
+[1061.679 - 1065.919] it'll be a list of chunks of text that
+
+[1063.52 - 1068.08] are 3000 characters long each of them
+
+[1065.919 - 1070.3200000000002] with an embedding
+
+[1068.08 - 1071.76] we can probably do more do it a little
+
+[1070.32 - 1072.559] bit longer
+
+[1071.76 - 1075.039] um
+
+[1072.559 - 1076.799] let's do 4 000 characters because it's
+
+[1075.039 - 1079.76] roughly three or four characters per
+
+[1076.799 - 1081.12] token so this will be roughly a thousand
+
+[1079.76 - 1082.8799999999999] tokens
+
+[1081.12 - 1086.3999999999999] which will be a quarter
+
+[1082.88 - 1088.88] of well hmm i wonder if we can do longer
+
+[1086.4 - 1090.48] no this this would be fine because we we
+
+[1088.88 - 1092.4] still need some room to work around it
+
+[1090.48 - 1094.559] if we have one of these chunks this is
+
+[1092.4 - 1096.16] this will be our knowledge base um so
+
+[1094.559 - 1097.36] let me make sure this will work i'll let
+
+[1096.16 - 1100.4] it run
+
+[1097.36 - 1102.1599999999999] cd multi-document answering python build
+
+[1100.4 - 1104.799] index
+
+[1102.16 - 1106.3200000000002] did i get it right the first time
+
+[1104.799 - 1109.44] no
+
+[1106.32 - 1113.4399999999998] save gpt3 log is not defined
+
+[1109.44 - 1114.799] ah see that's what i did wrong
+
+[1113.44 - 1116.3200000000002] i'm not gonna worry about saving every
+
+[1114.799 - 1117.52] single log
+
+[1116.32 - 1120.1599999999999] um
+
+[1117.52 - 1123.559] this is a normal list that's fine okay
+
+[1120.16 - 1123.559] let's try again
+
+[1126.48 - 1131.039] and then
+
+[1128.08 - 1133.1999999999998] oh i don't have any output do i
+
+[1131.039 - 1135.36] yeah i need i need i need some kind of
+
+[1133.2 - 1138.72] output so that i can see what it's doing
+
+[1135.36 - 1141.039] because otherwise i'm gonna be confused
+
+[1138.72 - 1143.1200000000001] um so what i often do for things like
+
+[1141.039 - 1144.08] this just to make just to do a sanity
+
+[1143.12 - 1145.9189999999999] check
+
+[1144.08 - 1148.48] is i'll set it to
+
+[1145.919 - 1151.039] a variable so then i can just
+
+[1148.48 - 1152.0] print the variable and then we'll do
+
+[1151.039 - 1154.72] comma
+
+[1152.0 - 1157.36] and then newline newline newline
+
+[1154.72 - 1159.28] um so i can so i can see what it's what
+
+[1157.36 - 1161.76] it's actually generating because
+
+[1159.28 - 1163.6789999999999] sometimes if you do it wrong you know
+
+[1161.76 - 1165.679] your brain just is not working with you
+
+[1163.679 - 1167.3600000000001] today well my mind is working with me
+
+[1165.679 - 1169.52] today sometimes it isn't
+
+[1167.36 - 1172.1599999999999] um but sometimes your brain just isn't
+
+[1169.52 - 1174.6399999999999] working and the variable isn't what you
+
+[1172.16 - 1175.76] thought it was but in this case i think
+
+[1174.64 - 1179.2800000000002] i think it's all right because this is
+
+[1175.76 - 1182.08] relatively straightforward okay
+
+[1179.28 - 1184.32] python build index oh wow that's
+
+[1182.08 - 1187.1999999999998] fast
+
+[1184.32 - 1187.2] that's really fast
+
+[1188.4 - 1193.44] the embeddings endpoint is quick
+
+[1190.88 - 1196.0800000000002] dang oh i wonder if it's because i'm
+
+[1193.44 - 1198.88] using the ada endpoint yeah i bet that's
+
+[1196.08 - 1198.8799999999999] why it's so fast
+
+[1198.96 - 1201.28] gum
+
+[1200.0 - 1202.88] is it already done
+
+[1201.28 - 1206.6399999999999] index.json
+
+[1202.88 - 1208.96] okay so we've taken an input from 440
+
+[1206.64 - 1210.48] kilobytes and made it into
+
+[1208.96 - 1212.559] um
+
+[1210.48 - 1214.799] more than three and a half megabytes oh
+
+[1212.559 - 1216.559] perfect so there we go look it worked it
+
+[1214.799 - 1218.6399999999999] worked it worked okay
+
+[1216.559 - 1220.96] so this is what it looks like now
+
+[1218.64 - 1222.3200000000002] um let me zoom out a little bit um
+
+[1220.96 - 1224.159] because you don't need to see it in
+
+[1222.32 - 1226.6399999999999] detail so you've got content which is
+
+[1224.159 - 1228.0] just the tongue the chunk of text there
+
+[1226.64 - 1230.24] we go i can speak
+
+[1228.0 - 1232.72] and then a semantic vector
+
+[1230.24 - 1234.32] so the semantic vector is the
+
+[1232.72 - 1235.919] mathematical the numerical
+
+[1234.32 - 1237.4399999999998] representation
+
+[1235.919 - 1240.3200000000002] of
+
+[1237.44 - 1242.64] this meaning so it's basically this is
+
+[1240.32 - 1244.48] this is a pair right it's this is the
+
+[1242.64 - 1247.2] human readable text and then this is the
+
+[1244.48 - 1250.96] machine readable representation and so
+
+[1247.2 - 1253.679] then we've got a whole bunch of those
+
+[1250.96 - 1256.799] and this file could be compressed
+
+[1253.679 - 1257.8400000000001] but what i did was um when i put the the
+
+[1256.799 - 1259.2] indent
+
+[1257.84 - 1262.1589999999999] here
+
+[1259.2 - 1265.2] um to say indent equals two so that
+
+[1262.159 - 1267.2] makes it more more human friendly right
+
+[1265.2 - 1269.919] so you can see that you know the data is
+
+[1267.2 - 1272.32] structured so like for every layer of
+
+[1269.919 - 1273.3600000000001] embedding there's two spaces so
+
+[1272.32 - 1275.28] the um
+
+[1273.36 - 1277.12] the the root list
+
+[1275.28 - 1280.24] is it index zero
+
+[1277.12 - 1281.1999999999998] and then we've got um two spaces for the
+
+[1280.24 - 1283.84] first
+
+[1281.2 - 1286.24] um dictionary and then we've got another
+
+[1283.84 - 1288.8799999999999] two spaces for the for the the nested
+
+[1286.24 - 1291.52] list so you can clearly see the levels
+
+[1288.88 - 1293.1200000000001] of nesting um okay so we've got our
+
+[1291.52 - 1294.559] index that was
+
+[1293.12 - 1297.52] much faster than i thought it would be
+
+[1294.559 - 1297.52] let's zoom back in
+
+[1298.32 - 1303.52] wow i was hoping that i'd have like a
+
+[1299.919 - 1305.8400000000001] mental break to be able to
+
+[1303.52 - 1307.2] keep thinking okay so i'm gonna actually
+
+[1305.84 - 1309.12] pause this for a second just because you
+
+[1307.2 - 1311.28] don't need to see me like
+
+[1309.12 - 1312.6399999999999] gathering my thoughts typically when i
+
+[1311.28 - 1314.559] run these loops i have like a few
+
+[1312.64 - 1316.0] minutes to gather my thoughts so i'm
+
+[1314.559 - 1318.24] gonna pause the video for just a second
+
+[1316.0 - 1321.039] and we'll be right back as i mentally
+
+[1318.24 - 1321.039] plan the next step
+
+[1322.08 - 1326.48] okay and we're back um
+
+[1324.48 - 1327.76] as with all things data prep is the
+
+[1326.48 - 1330.559] biggest
+
+[1327.76 - 1332.0] uh thing biggest problem so we're closer
+
+[1330.559 - 1332.96] to being done than than you might have
+
+[1332.0 - 1335.039] guessed
+
+[1332.96 - 1336.88] um i started on the next part so we've
+
+[1335.039 - 1338.24] we've built the index it was way faster
+
+[1336.88 - 1340.0] than i thought
+
+[1338.24 - 1342.64] now we're going to answer questions and
+
+[1340.0 - 1344.159] so what i did was i just created wrote a
+
+[1342.64 - 1345.2] quick thing to open
+
+[1344.159 - 1346.7990000000002] the
+
+[1345.2 - 1348.64] open the index that we just created and
+
+[1346.799 - 1351.44] then we'll do an infinite loop
+
+[1348.64 - 1354.72] um where we will just ask questions
+
+[1351.44 - 1357.2] so um this is based on the artificial
+
+[1354.72 - 1360.559] cognitive entity thing where it's uh
+
+[1357.2 - 1362.48] basically just searching for um for a
+
+[1360.559 - 1364.0] particular uh
+
+[1362.48 - 1365.44] set of memories right
+
+[1364.0 - 1368.159] um this
+
+[1365.44 - 1369.919] same paradigm should work anywhere
+
+[1368.159 - 1371.44] so what we're going to do is we're going
+
+[1369.919 - 1373.1200000000001] to
+
+[1371.44 - 1375.6000000000001] um we're going to take whatever our
+
+[1373.12 - 1377.76] question is
+
+[1375.6 - 1380.3999999999999] and we're going to get the vector from
+
+[1377.76 - 1380.4] it um
+
+[1380.48 - 1384.24] and so we'll just get a a vector and
+
+[1382.88 - 1386.88] then we'll match
+
+[1384.24 - 1389.2] whichever all the thing all the parts
+
+[1386.88 - 1390.5590000000002] that are closest
+
+[1389.2 - 1393.6000000000001] and actually here let's go ahead and
+
+[1390.559 - 1394.6399999999999] just do a separate function so def
+
+[1393.6 - 1396.6399999999999] and then
+
+[1394.64 - 1398.64] um
+
+[1396.64 - 1400.48] we will
+
+[1398.64 - 1401.919] call let's just copy this function
+
+[1400.48 - 1404.24] because it's it's pretty close to what
+
+[1401.919 - 1407.5200000000002] we need so instead what we'll do
+
+[1404.24 - 1408.96] is we will do let's see results equals
+
+[1407.52 - 1411.12] search index
+
+[1408.96 - 1413.8400000000001] and then we'll do query
+
+[1411.12 - 1414.8799999999999] um so count we'll say 10 we'll say top
+
+[1413.84 - 1416.48] 10.
+
+[1414.88 - 1418.7990000000002] we don't have time stamp so we'll get
+
+[1416.48 - 1421.44] rid of that so vector equals gpd3
+
+[1418.799 - 1426.1589999999999] embedding the text so that's the query
+
+[1421.44 - 1427.76] scores okay so for i in nexus index
+
+[1426.159 - 1430.72] um
+
+[1427.76 - 1432.32] so we'll actually call this
+
+[1430.72 - 1436.159] data
+
+[1432.32 - 1436.1589999999999] we'll just replace that with data
+
+[1436.799 - 1440.96] all right so for i and data if i equals
+
+[1439.2 - 1444.72] vector this is identical skip it we
+
+[1440.96 - 1446.159] don't need to worry about that because
+
+[1444.72 - 1447.3600000000001] um
+
+[1446.159 - 1449.3600000000001] we don't have we're not worried about
+
+[1447.36 - 1451.52] sequential memories in this this is not
+
+[1449.36 - 1454.4799999999998] a robot or anything like that
+
+[1451.52 - 1458.559] so score equals similarity between
+
+[1454.48 - 1460.24] our our query and the actual um
+
+[1458.559 - 1461.84] what we're looking for okay and the
+
+[1460.24 - 1463.1200000000001] vector is the right
+
+[1461.84 - 1465.039] name
+
+[1463.12 - 1467.76] okay
+
+[1465.039 - 1469.919] uh we don't need file name
+
+[1467.76 - 1472.919] so this will change this to
+
+[1469.919 - 1472.919] content
+
+[1473.6 - 1476.1589999999999] content
+
+[1474.96 - 1478.0] oops
+
+[1476.159 - 1480.0] um
+
+[1478.0 - 1481.919] yeah so basically what we'll do is we'll
+
+[1480.0 - 1483.12] just create a similarity score for all
+
+[1481.919 - 1485.6000000000001] of them
+
+[1483.12 - 1487.52] ordered equals all right so content and
+
+[1485.6 - 1489.12] score so after this because once we get
+
+[1487.52 - 1491.2] the score we don't care about the vector
+
+[1489.12 - 1492.7199999999998] anymore we just say okay we're going to
+
+[1491.2 - 1494.799] create a new
+
+[1492.72 - 1496.24] um we're going to create a new list
+
+[1494.799 - 1498.6399999999999] that'll be the same length as our
+
+[1496.24 - 1499.76] database but we're going to sort it by
+
+[1498.64 - 1502.4] um
+
+[1499.76 - 1504.72] which whichever one is closest
+
+[1502.4 - 1505.919] um let's see
+
+[1504.72 - 1508.88] we don't need that because we already
+
+[1505.919 - 1508.88] have the content
+
+[1510.159 - 1515.279] and we're just going to assume
+
+[1514.159 - 1517.2] that
+
+[1515.279 - 1518.96] because we know our database is longer
+
+[1517.2 - 1519.919] than 10.
+
+[1518.96 - 1521.679] um
+
+[1519.919 - 1523.919] so basically why i'm saying 10 is we're
+
+[1521.679 - 1525.679] just going to say okay so if we have 10
+
+[1523.919 - 1528.4] chunks that are 4 000 characters long
+
+[1525.679 - 1529.679] that's 40 000 characters which is
+
+[1528.4 - 1531.76] roughly
+
+[1529.679 - 1533.8400000000001] 10 000 tokens
+
+[1531.76 - 1536.72] and so we know that we have to solve the
+
+[1533.84 - 1540.08] problem of what if we have even after
+
+[1536.72 - 1542.88] searching we have a larger corpus then
+
+[1540.08 - 1544.6399999999999] we can feed into gpd3 in one go how do
+
+[1542.88 - 1546.96] we handle that
+
+[1544.64 - 1549.2] so with that in mind
+
+[1546.96 - 1552.48] um what we're going to do
+
+[1549.2 - 1554.64] is we get the results so this is a much
+
+[1552.48 - 1556.4] compressed search
+
+[1554.64 - 1558.0800000000002] where we're going to end up with 10
+
+[1556.4 - 1559.2] results that that could answer the
+
+[1558.08 - 1562.08] question actually let's make this a
+
+[1559.2 - 1565.279] little bit more challenging do 20. um so
+
+[1562.08 - 1567.12] we'll have the top 20 chunks of text
+
+[1565.279 - 1570.24] that should answer
+
+[1567.12 - 1572.4799999999998] our um our question now the longer your
+
+[1570.24 - 1574.24] question is the more specific your
+
+[1572.48 - 1575.84] question is the better the search is
+
+[1574.24 - 1578.48] going to be
+
+[1575.84 - 1580.1589999999999] okay so results equal search index query
+
+[1578.48 - 1582.4] and then we pass along the data which
+
+[1580.159 - 1584.7990000000002] the data is our master index so that's
+
+[1582.4 - 1586.72] this here which has the entirety
+
+[1584.799 - 1589.36] of the supreme court opinion
+
+[1586.72 - 1593.52] um paired down into vectors
+
+[1589.36 - 1596.1589999999999] okay so with that we then have to ask
+
+[1593.52 - 1596.8799999999999] actually ask or answer questions
+
+[1596.159 - 1598.24] so
+
+[1596.88 - 1599.5200000000002] this is where we get into prompt
+
+[1598.24 - 1603.44] engineering
+
+[1599.52 - 1607.039] so let me go to playground
+
+[1603.44 - 1610.44] and we'll go grab um
+
+[1607.039 - 1610.44] let's just grab
+
+[1612.4 - 1616.24] an arbitrary chunk of text
+
+[1619.12 - 1624.1589999999999] yes login that's fine
+
+[1621.919 - 1626.64] all right so this is where
+
+[1624.159 - 1629.44] um
+
+[1626.64 - 1629.44] uh let's see
+
+[1629.6 - 1636.1589999999999] answer the following question
+
+[1633.84 - 1636.1589999999999] um
+
+[1636.88 - 1641.0390000000002] let's see
+
+[1639.279 - 1642.0] answer the question
+
+[1641.039 - 1644.96] uh
+
+[1642.0 - 1647.039] the blah blah from the passage
+
+[1644.96 - 1649.679] um
+
+[1647.039 - 1652.08] no use the following
+
+[1649.679 - 1652.8400000000001] passage to answer
+
+[1652.08 - 1655.76] the
+
+[1652.84 - 1658.24] question okay so question
+
+[1655.76 - 1660.32] and we'll figure that out in a second
+
+[1658.24 - 1662.799] um actually no we'll do it in
+
+[1660.32 - 1662.799] passage
+
+[1662.96 - 1666.559] um actually no here we'll do question
+
+[1665.279 - 1669.12] first so that you knows what the
+
+[1666.559 - 1671.52] question and then passage and then
+
+[1669.12 - 1671.52] answer
+
+[1673.039 - 1677.12] okay so the passage is this so this is
+
+[1675.44 - 1679.8400000000001] probably we'll do all right so let's
+
+[1677.12 - 1680.9599999999998] think of a question that would
+
+[1679.84 - 1682.6399999999999] um
+
+[1680.96 - 1684.96] two cases arrived within the word
+
+[1682.64 - 1687.8400000000001] balance scare quotes
+
+[1684.96 - 1689.6000000000001] um the majority is a dirty word
+
+[1687.84 - 1691.1999999999998] moderation is a foreign concept the
+
+[1689.6 - 1692.32] majority would allow the states to ban
+
+[1691.2 - 1694.64] abortion
+
+[1692.32 - 1696.6399999999999] because it does not think um
+
+[1694.64 - 1698.5590000000002] forced childbirth what equates to
+
+[1696.64 - 1700.24] quality and freedom
+
+[1698.559 - 1702.48] um okay
+
+[1700.24 - 1704.88] so the question will be
+
+[1702.48 - 1707.2] why did the courts
+
+[1704.88 - 1707.2] um
+
+[1708.159 - 1712.3990000000001] uh
+
+[1709.76 - 1712.399] decide
+
+[1718.08 - 1720.399] um
+
+[1720.88 - 1728.3200000000002] to uh allow states to ban abortion
+
+[1726.399 - 1730.8799999999999] all right so that this is a question
+
+[1728.32 - 1731.76] that is partially answered by this this
+
+[1730.88 - 1734.48] thing
+
+[1731.76 - 1736.8799999999999] um so then let's see
+
+[1734.48 - 1738.88] how it just answers this is just
+
+[1736.88 - 1740.7990000000002] right off the cuff
+
+[1738.88 - 1743.0390000000002] and so you see oh so remember i said
+
+[1740.799 - 1745.9189999999999] these are 4 000 character chunks and you
+
+[1743.039 - 1748.559] see it's right at 1 000 tokens so that's
+
+[1745.919 - 1748.5590000000002] 8 cents
+
+[1749.039 - 1753.279] could be cheaper could be more expensive
+
+[1750.72 - 1755.76] whatever
+
+[1753.279 - 1755.76] answer
+
+[1757.2 - 1760.48] did it give up oh there we go according
+
+[1759.039 - 1761.679] to the passage the courts decided to
+
+[1760.48 - 1762.72] allow states to ban abortion because
+
+[1761.679 - 1764.159] they believe a woman's freedom and
+
+[1762.72 - 1768.72] equality are not involved in the
+
+[1764.159 - 1768.72] decision to bear a child ouch
+
+[1768.96 - 1772.08] okay
+
+[1770.08 - 1774.48] um
+
+[1772.08 - 1774.48] yeah
+
+[1774.799 - 1778.24] um because we're because we're making it
+
+[1777.039 - 1781.279] concise
+
+[1778.24 - 1783.039] let's add um use the following
+
+[1781.279 - 1785.52] passage to
+
+[1783.039 - 1785.52] um
+
+[1785.84 - 1792.399] give a detailed answer to the question
+
+[1790.799 - 1795.039] um so we'll say
+
+[1792.399 - 1797.12] detailed answer because here's the thing
+
+[1795.039 - 1798.559] we're going to basically recursively
+
+[1797.12 - 1800.9599999999998] answer this
+
+[1798.559 - 1802.24] several times and so we'll consolidate
+
+[1800.96 - 1804.799] it down
+
+[1802.24 - 1807.2] so let's see if this is any better or
+
+[1804.799 - 1807.2] different
+
+[1807.6 - 1812.399] oh this is good
+
+[1810.159 - 1812.3990000000001] okay
+
+[1813.84 - 1818.72] wow
+
+[1815.76 - 1821.44] yikes shots fired okay
+
+[1818.72 - 1822.3990000000001] i like this better so we'll use this as
+
+[1821.44 - 1825.1200000000001] our prompt
+
+[1822.399 - 1827.039] um because again the idea here is not to
+
+[1825.12 - 1829.4399999999998] summarize it as concisely as possible
+
+[1827.039 - 1832.64] the idea is to extract information from
+
+[1829.44 - 1834.24] a much larger document and pare it down
+
+[1832.64 - 1836.48] and because we're gonna we're gonna
+
+[1834.24 - 1838.64] basically take the top 20 we're going to
+
+[1836.48 - 1840.72] need to pare it down a few times
+
+[1838.64 - 1842.5590000000002] so this answer was about
+
+[1840.72 - 1846.64] 200 tokens
+
+[1842.559 - 1848.08] so if we take 20 times 200 that's 4 000
+
+[1846.64 - 1850.88] tokens so that's still going to be like
+
+[1848.08 - 1853.279] a full thing and that's that's assuming
+
+[1850.88 - 1855.2] that it doesn't actually make it
+
+[1853.279 - 1857.36] much longer because some of the answers
+
+[1855.2 - 1859.44] might be might be longer
+
+[1857.36 - 1863.399] okay so we'll do this this will be our
+
+[1859.44 - 1863.3990000000001] question answering prompt
+
+[1864.0 - 1869.679] um okay so passage we'll remove this
+
+[1868.0 - 1872.96] so we'll do
+
+[1869.679 - 1874.799] passage detailed answer
+
+[1872.96 - 1876.8400000000001] okay
+
+[1874.799 - 1879.36] and so this will be
+
+[1876.84 - 1880.6399999999999] um prompt
+
+[1879.36 - 1882.799] answer
+
+[1880.64 - 1885.679] okay so this is our this is our first
+
+[1882.799 - 1888.32] tier first level of of answering and so
+
+[1885.679 - 1890.24] what we'll do then is for all 20 of
+
+[1888.32 - 1891.36] those top results we'll ask the same
+
+[1890.24 - 1893.039] question
+
+[1891.36 - 1895.519] and then accumulate those answers
+
+[1893.039 - 1896.8799999999999] together and kind of summarize them
+
+[1895.519 - 1899.679] all together
+
+[1896.88 - 1900.96] to kind of merge it into a single
+
+[1899.679 - 1902.72] thing
+
+[1900.96 - 1904.24] okay so here's how we're going to do
+
+[1902.72 - 1906.3990000000001] that
+
+[1904.24 - 1908.96] we basically will borrow the recursive
+
+[1906.399 - 1910.08] summarization um thing that i've done
+
+[1908.96 - 1911.2] before
+
+[1910.08 - 1913.84] um
+
+[1911.2 - 1915.76] so let's open this recursively summarize
+
+[1913.84 - 1917.9189999999999] yes yay fine
+
+[1915.76 - 1919.519] um and actually i think we will need the
+
+[1917.919 - 1921.76] prompt here as well
+
+[1919.519 - 1923.679] yeah write a concise summary
+
+[1921.76 - 1924.64] um
+
+[1923.679 - 1927.76] yeah
+
+[1924.64 - 1927.76] yeah yeah yeah okay
+
+[1929.6 - 1935.84] so that's that and then we'll also need
+
+[1932.399 - 1935.84] the gpt3 completion
+
+[1935.919 - 1941.2] so we will need this
+
+[1938.399 - 1943.76] um so let's grab
+
+[1941.2 - 1948.159] the completion
+
+[1943.76 - 1951.44] okay so with those results so four
+
+[1948.159 - 1953.6000000000001] for result in results
+
+[1951.44 - 1955.8400000000001] um then we need
+
+[1953.6 - 1959.12] actually here um
+
+[1955.84 - 1959.12] answers equals list
+
+[1959.279 - 1965.84] prompt equals open file
+
+[1963.36 - 1970.4799999999998] this will be
+
+[1965.84 - 1970.48] was it prompt answer dot text
+
+[1971.039 - 1974.32] dot replace
+
+[1974.48 - 1977.48] passage
+
+[1978.24 - 1982.08] with
+
+[1979.76 - 1984.24] um
+
+[1982.08 - 1985.4399999999998] and that'll be result
+
+[1984.24 - 1987.519] dot
+
+[1985.44 - 1989.919] uh content
+
+[1987.519 - 1991.039] yeah yeah okay so that should give us
+
+[1989.919 - 1993.279] the answer
+
+[1991.039 - 1995.44] and then the answer equals
+
+[1993.279 - 1997.12] gpthree completion
+
+[1995.44 - 1999.6000000000001] prompt
+
+[1997.12 - 2001.76] um and since this is already run through
+
+[1999.6 - 2004.48] i don't think we need to do the thing
+
+[2001.76 - 2006.24] that i did in the index because we've
+
+[2004.48 - 2007.679] already cleaned up the chunks right
+
+[2006.24 - 2008.799] we've already cleaned it up so it should
+
+[2007.679 - 2011.2] be
+
+[2008.799 - 2013.76] encoded in a way that is friendly with
+
+[2011.2 - 2015.2] um with gpt3
+
+[2013.76 - 2018.8799999999999] um okay
+
+[2015.2 - 2021.76] so then we get an answer to the question
+
+[2018.88 - 2023.6000000000001] and so then we do answers
+
+[2021.76 - 2025.36] dot append
+
+[2023.6 - 2027.6] answer
+
+[2025.36 - 2029.4399999999998] so that should be fine
+
+[2027.6 - 2032.9599999999998] um let's do
+
+[2029.44 - 2035.519] print answer
+
+[2032.96 - 2036.48] and we'll do
+
+[2035.519 - 2038.159] um
+
+[2036.48 - 2039.76] new line new line
+
+[2038.159 - 2041.519] um just to give a little bit of vertical
+
+[2039.76 - 2044.559] space so it's clear so it will see that
+
+[2041.519 - 2048.159] it's it's accumulating the answers
+
+[2044.559 - 2050.639] and then so this this will this
+
+[2048.159 - 2052.079] this object here this list will have all
+
+[2050.639 - 2053.9190000000003] of the answers
+
+[2052.079 - 2055.28] because we're basically asking the same
+
+[2053.919 - 2057.2799999999997] question but we're going to be asking it
+
+[2055.28 - 2060.639] of different chunks of text and so it's
+
+[2057.28 - 2063.679] like okay how do we get this nebulous
+
+[2060.639 - 2065.839] combination of things together
+
+[2063.679 - 2068.48] so then what we'll do
+
+[2065.839 - 2071.119] is we will do we'll borrow the same
+
+[2068.48 - 2072.8] exact thing that we did for the um for
+
+[2071.119 - 2077.76] the summarization
+
+[2072.8 - 2080.32] right and so we'll we'll take um
+
+[2077.76 - 2081.9190000000003] we'll take text wrap so we'll make sure
+
+[2080.32 - 2083.2000000000003] that we've got text wrap
+
+[2081.919 - 2084.879] here
+
+[2083.2 - 2086.1589999999997] so let's go back to recursively
+
+[2084.879 - 2088.24] summarize
+
+[2086.159 - 2089.599] so we'll do import whoops no do not
+
+[2088.24 - 2092.6389999999997] delete that
+
+[2089.599 - 2092.639] import text wrap
+
+[2092.96 - 2097.359] and since the da vinci instruct has a
+
+[2095.28 - 2097.77] token limit of 4 000
+
+[2097.359 - 2099.2] um
+
+[2097.77 - 2101.2] [Music]
+
+[2099.2 - 2103.5989999999997] so 4 000
+
+[2101.2 - 2106.24] tokens times four characters that's
+
+[2103.599 - 2108.88] sixteen thousand characters so we can
+
+[2106.24 - 2111.1189999999997] get a pretty big chunk of text
+
+[2108.88 - 2113.599] um so we will do
+
+[2111.119 - 2114.88] we'll do a text wrap of ten thousand
+
+[2113.599 - 2117.3590000000004] characters
+
+[2114.88 - 2119.92] um okay so
+
+[2117.359 - 2122.24] i'll do uh
+
+[2119.92 - 2123.599] answer the same question
+
+[2122.24 - 2126.24] for all
+
+[2123.599 - 2129.599] returned chunks
+
+[2126.24 - 2129.5989999999997] and then we will do
+
+[2129.76 - 2132.6400000000003] summarize
+
+[2131.119 - 2135.119] the answers
+
+[2132.64 - 2135.1189999999997] together
+
+[2135.599 - 2144.839] and so here we say um
+
+[2140.56 - 2144.839] whoops that's already here
+
+[2146.4 - 2150.56] we are taking um here let me do a time
+
+[2149.359 - 2151.7599999999998] check real quick because we're close
+
+[2150.56 - 2153.599] enough to the end yeah this will be a
+
+[2151.76 - 2155.0400000000004] longer video but we're closer to the end
+
+[2153.599 - 2157.839] this is going
+
+[2155.04 - 2160.64] way better than i thought knock on wood
+
+[2157.839 - 2162.4] that this actually works um okay so
+
+[2160.64 - 2163.7599999999998] summarize the answers together right
+
+[2162.4 - 2165.599] that's what i was doing kind of lost my
+
+[2163.76 - 2168.1600000000003] train of thought there for a second
+
+[2165.599 - 2169.599] um okay so
+
+[2168.16 - 2171.2] for
+
+[2169.599 - 2173.6800000000003] uh no
+
+[2171.2 - 2174.96] we need to join it all into one chunk
+
+[2173.68 - 2177.44] okay so
+
+[2174.96 - 2180.4] all answers equals
+
+[2177.44 - 2180.4] what is it um
+
+[2181.04 - 2183.68] dot join
+
+[2182.88 - 2187.839] um
+
+[2183.68 - 2187.839] answers i think that's how that works
+
+[2188.72 - 2192.3199999999997] let me do a quick
+
+[2190.8 - 2197.119] python
+
+[2192.32 - 2197.119] l equals um we'll do bacon
+
+[2198.079 - 2203.52] bacon and burger
+
+[2201.68 - 2206.24] and then we'll do um
+
+[2203.52 - 2207.7599999999998] align new line
+
+[2206.24 - 2209.839] dot join
+
+[2207.76 - 2210.88] l
+
+[2209.839 - 2212.32] oh right
+
+[2210.88 - 2213.28] s equals
+
+[2212.32 - 2215.76] print
+
+[2213.28 - 2217.44] print print as
+
+[2215.76 - 2219.76] okay yes that is right
+
+[2217.44 - 2221.2000000000003] make sure i get the syntax correct okay
+
+[2219.76 - 2223.2000000000003] so basically what we're doing is we're
+
+[2221.2 - 2226.16] joining all the answers together into
+
+[2223.2 - 2227.1189999999997] one big block so regardless of how long
+
+[2226.16 - 2230.3199999999997] it is
+
+[2227.119 - 2232.56] um we can we can say okay let's take all
+
+[2230.32 - 2234.32] these answers and then kind of
+
+[2232.56 - 2236.72] squish them together
+
+[2234.32 - 2237.6800000000003] um i'll probably only do one pass but
+
+[2236.72 - 2239.2] you would
+
+[2237.68 - 2240.3999999999996] technically want to do this multiple
+
+[2239.2 - 2244.8799999999997] times
+
+[2240.4 - 2247.28] so chunks equals text wrap
+
+[2244.88 - 2249.92] make sure i use this correctly text wrap
+
+[2247.28 - 2249.92] dot wrap
+
+[2250.88 - 2255.76] um and so we'll do all answers and
+
+[2253.52 - 2257.68] weighs i said 10 000 not twenty one
+
+[2255.76 - 2259.119] thousand ten thousand
+
+[2257.68 - 2259.9199999999996] that's the correct number of zeros i
+
+[2259.119 - 2261.359] think
+
+[2259.92 - 2263.839] four zeros yeah
+
+[2261.359 - 2267.119] um okay so then
+
+[2263.839 - 2271.119] for chunk in chunks uh we also need a uh
+
+[2267.119 - 2273.119] we'll say final equals list
+
+[2271.119 - 2274.8] so for chunk and chunks
+
+[2273.119 - 2276.48] we are just going to summarize it all
+
+[2274.8 - 2279.76] together
+
+[2276.48 - 2282.079] um so we'll borrow this prompt instead
+
+[2279.76 - 2285.2000000000003] of a concise summary we'll do
+
+[2282.079 - 2286.88] detailed summary because we just we're
+
+[2285.2 - 2288.72] just going to take all the different
+
+[2286.88 - 2290.32] answers and kind of merge it and merge
+
+[2288.72 - 2293.52] it into one
+
+[2290.32 - 2295.839] so let's go ahead and save this
+
+[2293.52 - 2297.68] detailed summary
+
+[2295.839 - 2298.7999999999997] detailed summary and we'll save this
+
+[2297.68 - 2301.359] under
+
+[2298.8 - 2301.3590000000004] excuse me
+
+[2301.839 - 2306.24] multi-document answering
+
+[2304.0 - 2307.839] and we'll do
+
+[2306.24 - 2310.839] prompt
+
+[2307.839 - 2314.0789999999997] summary.text
+
+[2310.839 - 2316.48] okay so basically what we're going to do
+
+[2314.079 - 2318.6400000000003] is we're going to take for each of the
+
+[2316.48 - 2320.96] chunks of the answers and you can do
+
+[2318.64 - 2322.72] this recursively right until you get it
+
+[2320.96 - 2325.359] into one thing
+
+[2322.72 - 2328.48] we're going to do the same thing here
+
+[2325.359 - 2329.92] so prompt equals open file prompt
+
+[2328.48 - 2331.2] instead of answer we'll do prompt
+
+[2329.92 - 2332.0] summary
+
+[2331.2 - 2334.7999999999997] and
+
+[2332.0 - 2334.8] we'll replace
+
+[2336.079 - 2343.92] um so the thing to summarize
+
+[2340.48 - 2347.04] result content that should be good
+
+[2343.92 - 2350.0] and then we will do
+
+[2347.04 - 2352.32] summary equals
+
+[2350.0 - 2355.28] gpt3 completion
+
+[2352.32 - 2357.119] uh prompt
+
+[2355.28 - 2359.44] and then we will do
+
+[2357.119 - 2360.32] uh final
+
+[2359.44 - 2361.52] uh
+
+[2360.32 - 2363.3590000000004] dot
+
+[2361.52 - 2364.64] append
+
+[2363.359 - 2367.2] summary
+
+[2364.64 - 2370.4] okay so that should be that
+
+[2367.2 - 2374.16] and this one does save it out to gpd3
+
+[2370.4 - 2374.1600000000003] logs let me make sure that that is there
+
+[2375.04 - 2383.079] gpd3 logs
+
+[2378.8 - 2383.079] um okay so then
+
+[2383.2 - 2386.3199999999997] once it's done we will do
+
+[2385.359 - 2388.64] print
+
+[2386.32 - 2388.6400000000003] um
+
+[2390.56 - 2393.92] we'll do
+
+[2392.24 - 2395.359] new line new line
+
+[2393.92 - 2396.7200000000003] and then we'll do
+
+[2395.359 - 2397.68] actually here we can just go ahead and
+
+[2396.72 - 2399.52] do
+
+[2397.68 - 2401.04] that to give us a little bit of white
+
+[2399.52 - 2403.68] space
+
+[2401.04 - 2404.72] and then we'll do um
+
+[2403.68 - 2407.44] final
+
+[2404.72 - 2407.4399999999996] dot no
+
+[2408.48 - 2415.119] i will do new line new line
+
+[2411.92 - 2416.64] dot join final there we go so it'll
+
+[2415.119 - 2419.52] actually look like
+
+[2416.64 - 2421.359] a a final answer we'll see if this works
+
+[2419.52 - 2422.48] might not may or may not
+
+[2421.359 - 2424.24] um
+
+[2422.48 - 2426.48] we'll have it output the first one i'll
+
+[2424.24 - 2430.4799999999996] just have it output outputting each
+
+[2426.48 - 2430.48] answer as it goes so that we can see it
+
+[2430.64 - 2435.68] wow why am i nervous
+
+[2433.119 - 2438.8] this is this is this is crazy um am i
+
+[2435.68 - 2440.16] missing anything
+
+[2438.8 - 2443.04] send it
+
+[2440.16 - 2446.16] python answer questions
+
+[2443.04 - 2447.52] um why did the supreme
+
+[2446.16 - 2449.2799999999997] court
+
+[2447.52 - 2453.16] strike down
+
+[2449.28 - 2453.1600000000003] roe v wade
+
+[2454.24 - 2457.12] well it didn't like that
+
+[2455.76 - 2459.3590000000004] okay something went wrong
+
+[2457.12 - 2464.0] [Laughter]
+
+[2459.359 - 2464.0] um it looks like it didn't return any
+
+[2464.839 - 2470.7999999999997] um anything here so i probably did
+
+[2467.92 - 2473.6800000000003] something wrong with the search
+
+[2470.8 - 2473.6800000000003] okay
+
+[2475.28 - 2479.2000000000003] print results
+
+[2477.52 - 2481.7599999999998] and then we'll just do an exit here
+
+[2479.2 - 2483.839] because that's where i think it's broken
+
+[2481.76 - 2485.3590000000004] whoops
+
+[2483.839 - 2486.72] answer questions
+
+[2485.359 - 2492.64] why did
+
+[2486.72 - 2492.64] the supreme court overturn roe v wade
+
+[2492.96 - 2495.92] yeah okay so the search the search is
+
+[2494.88 - 2499.44] broken
+
+[2495.92 - 2502.56] um my intuition was correct
+
+[2499.44 - 2505.119] okay so vector equals gpt3 embedding for
+
+[2502.56 - 2507.44] the text so that's the query right so
+
+[2505.119 - 2508.7200000000003] the query is there
+
+[2507.44 - 2511.04] uh
+
+[2508.72 - 2512.56] and then the scores so for i and data so
+
+[2511.04 - 2516.319] that's a list
+
+[2512.56 - 2516.319] make sure that i pass that correctly
+
+[2518.4 - 2524.0] um okay let's print
+
+[2520.839 - 2526.319] out score just to make sure that it's
+
+[2524.0 - 2526.319] actually
+
+[2528.079 - 2531.92] um why
+
+[2530.319 - 2534.92] okay we're getting scores so that's
+
+[2531.92 - 2534.92] correct
+
+[2537.28 - 2539.8390000000004] and then
+
+[2540.56 - 2544.56] reverse equals true results list
+
+[2543.44 - 2547.44] oh
+
+[2544.56 - 2549.119] i just declared an empty list
+
+[2547.44 - 2552.2400000000002] well there's your problem
+
+[2549.119 - 2555.599] um okay so we need we just whoops get
+
+[2552.24 - 2555.5989999999997] rid of that and the
+
+[2556.72 - 2561.68] ordered
+
+[2558.72 - 2564.7999999999997] um and then so we do ordered zero
+
+[2561.68 - 2567.1189999999997] tada okay so that should be correct
+
+[2564.8 - 2568.8] i think i fixed it
+
+[2567.119 - 2571.839] famous last words
+
+[2568.8 - 2571.8390000000004] okay so let's
+
+[2572.96 - 2580.2400000000002] class
+
+[2575.119 - 2583.119] why did the supreme court overturn row
+
+[2580.24 - 2583.1189999999997] v weight
+
+[2584.16 - 2586.7999999999997] oh it's taking
+
+[2590.839 - 2594.48] longer bueller
+
+[2598.16 - 2602.48] oh
+
+[2599.92 - 2604.319] ah see
+
+[2602.48 - 2605.359] i needed to add in a few more things
+
+[2604.319 - 2606.64] okay
+
+[2605.359 - 2607.68] import
+
+[2606.64 - 2609.7599999999998] re
+
+[2607.68 - 2612.96] from time import
+
+[2609.76 - 2612.96] time and sleep
+
+[2614.48 - 2618.2400000000002] okay so basically what happened was it
+
+[2616.4 - 2619.76] got to where it's trying to give me the
+
+[2618.24 - 2622.56] answers
+
+[2619.76 - 2624.5600000000004] and then it blew up because i forgot to
+
+[2622.56 - 2627.599] import
+
+[2624.56 - 2630.56] re or regex which is i used to clean it
+
+[2627.599 - 2632.079] up and then i also
+
+[2630.56 - 2632.96] didn't import
+
+[2632.079 - 2635.28] sleep
+
+[2632.96 - 2636.4] as well as time because i use time for
+
+[2635.28 - 2638.2400000000002] the um
+
+[2636.4 - 2640.56] for the file names okay let's try this
+
+[2638.24 - 2640.56] again
+
+[2641.359 - 2646.96] almost there
+
+[2642.64 - 2650.4] answer questions your question is why
+
+[2646.96 - 2652.4] why did the supreme
+
+[2650.4 - 2655.359] pork overturn
+
+[2652.4 - 2658.1600000000003] roe v wade
+
+[2655.359 - 2661.16] oh i'm sorry that was probably loud
+
+[2658.16 - 2661.16] okay
+
+[2663.44 - 2667.76] now it's thinking
+
+[2666.24 - 2670.56] okay
+
+[2667.76 - 2673.5600000000004] so it's providing some answers cool cool
+
+[2670.56 - 2673.56] cool
+
+[2678.64 - 2683.8799999999997] it looks like it's giving some pretty
+
+[2680.0 - 2683.88] satisfactory answers
+
+[2693.359 - 2697.839] why did you freeze
+
+[2695.76 - 2701.6800000000003] if it blows up i'll be sad
+
+[2697.839 - 2701.68] now so this is kind of a boilerplate
+
+[2702.0 - 2705.839] that was a long answer
+
+[2703.599 - 2705.839] okay
+
+[2712.48 - 2716.839] nope it didn't like that so i need to
+
+[2714.16 - 2720.7999999999997] fix i do need to add in some of the
+
+[2716.839 - 2720.7999999999997] uh darn okay
+
+[2722.4 - 2726.48] okay so this this that's the bug that i
+
+[2724.88 - 2728.319] was telling you about um error
+
+[2726.48 - 2729.599] communicating carmack
+
+[2728.319 - 2732.64] char map
+
+[2729.599 - 2735.2000000000003] cannot encode character okay so we need
+
+[2732.64 - 2736.64] to for all of the prompts we do need to
+
+[2735.2 - 2739.2] add back in
+
+[2736.64 - 2741.839] um this bit here just for whatever
+
+[2739.2 - 2744.16] reason there are some
+
+[2741.839 - 2746.88] there are some things that uh that it
+
+[2744.16 - 2749.1189999999997] doesn't like getting in there
+
+[2746.88 - 2751.28] all right so we'll come back here
+
+[2749.119 - 2752.7200000000003] we'll do
+
+[2751.28 - 2753.8390000000004] prompt
+
+[2752.72 - 2755.1189999999997] equals
+
+[2753.839 - 2758.0] prompt
+
+[2755.119 - 2760.1600000000003] dot encode slash decode because this is
+
+[2758.0 - 2762.8] just a reusable string so every time we
+
+[2760.16 - 2765.04] talk to gpt3 we can run this prompt real
+
+[2762.8 - 2765.04] quick
+
+[2766.64 - 2771.2799999999997] and then
+
+[2768.48 - 2771.28] you know actually
+
+[2771.359 - 2775.839] even smarter
+
+[2773.119 - 2775.839] we do it here
+
+[2777.599 - 2780.7200000000003] do it once instead of multiple times
+
+[2779.76 - 2782.5600000000004] okay
+
+[2780.72 - 2785.68] maybe that's what i'll do i'll just have
+
+[2782.56 - 2787.2799999999997] this in all of my gbt3 completion
+
+[2785.68 - 2789.52] functions from now on
+
+[2787.28 - 2791.3590000000004] let's do that
+
+[2789.52 - 2794.24] and then we'll also do that in the
+
+[2791.359 - 2794.24] embedding one
+
+[2794.64 - 2800.24] so we'll do that here
+
+[2796.56 - 2802.7999999999997] and instead of prompt we'll do content
+
+[2800.24 - 2805.5989999999997] just to ensure that everything is
+
+[2802.8 - 2807.2000000000003] encoded in a way that gpt3 will be happy
+
+[2805.599 - 2809.119] with
+
+[2807.2 - 2812.0] yeah okay
+
+[2809.119 - 2812.96] so we've got the answers
+
+[2812.0 - 2815.52] um
+
+[2812.96 - 2818.48] and then we should be good here
+
+[2815.52 - 2818.48] okay let's try it again
+
+[2819.68 - 2823.1189999999997] enter your question here let's ask let's
+
+[2821.599 - 2824.96] not give it such a softball question
+
+[2823.119 - 2825.92] because we saw that it was answering so
+
+[2824.96 - 2829.44] um
+
+[2825.92 - 2831.76] what are the historical precedents
+
+[2829.44 - 2834.16] that the supreme
+
+[2831.76 - 2834.1600000000003] court
+
+[2834.48 - 2838.079] looked at
+
+[2836.079 - 2841.2000000000003] when determining
+
+[2838.079 - 2843.119] whether or not to overturn
+
+[2841.2 - 2845.68] roe v wade
+
+[2843.119 - 2846.96] so this is this is a much more complex
+
+[2845.68 - 2849.1189999999997] question
+
+[2846.96 - 2850.8] um so we've got some key words in there
+
+[2849.119 - 2852.8] like um
+
+[2850.8 - 2855.92] egregiously wrong and cause significant
+
+[2852.8 - 2858.96] negative consequences ouch okay
+
+[2855.92 - 2861.599] so we'll see if this um less
+
+[2858.96 - 2865.04] this more hardball question is uh gonna
+
+[2861.599 - 2868.2400000000002] produce satisfactory results because
+
+[2865.04 - 2872.5589999999997] that first question that i was asking um
+
+[2868.24 - 2874.64] were were a little bit more um
+
+[2872.559 - 2877.28] it was answered explicitly many times in
+
+[2874.64 - 2879.839] the document but this one requires a
+
+[2877.28 - 2881.76] little bit more um
+
+[2879.839 - 2884.7999999999997] interpretation let's say
+
+[2881.76 - 2886.4] and we see it's going through
+
+[2884.8 - 2887.76] fundamental right that is deeply rooted
+
+[2886.4 - 2890.96] in history
+
+[2887.76 - 2892.559] okay sound basis and precedent
+
+[2890.96 - 2896.16] states could not ban abortion as it
+
+[2892.559 - 2896.1600000000003] violated a woman's right okay
+
+[2897.28 - 2900.88] because basically i'm asking for like
+
+[2898.8 - 2902.96] historical precedent so we'll see if
+
+[2900.88 - 2904.4] it's good and it it it does look like
+
+[2902.96 - 2907.2] it's talking about some previous
+
+[2904.4 - 2909.04] decisions you know like 1973 that's
+
+[2907.2 - 2912.0] somewhere in history
+
+[2909.04 - 2913.52] um oh there's a long long response
+
+[2912.0 - 2914.8] courts decided to allow states because
+
+[2913.52 - 2917.28] they believed it is a woman's right to
+
+[2914.8 - 2917.28] choose
+
+[2917.359 - 2921.2] see that doesn't make any sense though
+
+[2919.359 - 2922.88] allow states to ban abortion because
+
+[2921.2 - 2924.64] it's a woman's right to choose well just
+
+[2922.88 - 2925.92] if the states can ban it that doesn't
+
+[2924.64 - 2929.24] make sense
+
+[2925.92 - 2929.2400000000002] um okay
+
+[2941.359 - 2944.64] because it looks like it's giving an
+
+[2942.64 - 2946.319] explanation as to why the state's
+
+[2944.64 - 2948.5589999999997] allowed it but it's not actually
+
+[2946.319 - 2950.64] explaining the historical precedence so
+
+[2948.559 - 2952.6400000000003] it it may or may not actually understand
+
+[2950.64 - 2954.24] what i what i was asking while it's
+
+[2952.64 - 2956.7999999999997] going through this let's look through
+
+[2954.24 - 2957.7599999999998] the gpt3 log so this is why i love doing
+
+[2956.8 - 2959.52] this
+
+[2957.76 - 2962.2400000000002] so use the following passage to give a
+
+[2959.52 - 2965.44] detailed answer to the question why
+
+[2962.24 - 2965.4399999999996] wait did i give it the wrong
+
+[2966.24 - 2970.839] it's still asking an older question
+
+[2972.72 - 2975.2] hold on
+
+[2977.2 - 2980.2] oops
+
+[2984.319 - 2988.079] why did the courts decide to allow
+
+[2986.8 - 2990.4] that's not the question that i put in
+
+[2988.079 - 2990.4] was it
+
+[2992.4 - 2995.839] is am i losing my mind
+
+[2995.92 - 2999.359] yeah enter your question here what are
+
+[2997.44 - 3000.88] the historical precedents
+
+[2999.359 - 3003.359] that's what i'm looking for why didn't
+
+[3000.88 - 3006.7200000000003] it ask that question
+
+[3003.359 - 3009.04] hold on what have i done wrong here
+
+[3006.72 - 3009.04] oh
+
+[3009.359 - 3012.88] i know what i did wrong i didn't
+
+[3010.88 - 3013.839] actually populate the question
+
+[3012.88 - 3017.359] um
+
+[3013.839 - 3018.24] yikes yeah so here's what i did wrong
+
+[3017.359 - 3020.64] um
+
+[3018.24 - 3023.04] if i look at the actual prompt
+
+[3020.64 - 3025.2] so this is the the summary
+
+[3023.04 - 3029.599] but um
+
+[3025.2 - 3029.5989999999997] yeah i have the question hard-coded
+
+[3030.319 - 3035.119] yeah okay
+
+[3033.04 - 3037.68] so query
+
+[3035.119 - 3040.0] you have to populate that
+
+[3037.68 - 3041.359] i'm not losing my mind i just didn't
+
+[3040.0 - 3044.16] actually populate the query because i
+
+[3041.359 - 3047.119] get the query and then i ignore it
+
+[3044.16 - 3051.04] okay so we will do
+
+[3047.119 - 3051.04] this we'll just also do replace
+
+[3051.2 - 3054.319] query
+
+[3052.559 - 3056.7200000000003] with
+
+[3054.319 - 3056.72] query
+
+[3057.68 - 3060.5589999999997] and i think that's it
+
+[3061.04 - 3064.72] yeah okay
+
+[3062.559 - 3066.3190000000004] but first let's see so we we know we
+
+[3064.72 - 3067.4399999999996] know what question that it that it did
+
+[3066.319 - 3069.44] ask
+
+[3067.44 - 3071.119] it asked
+
+[3069.44 - 3073.2000000000003] why did the courts decide to allow
+
+[3071.119 - 3075.04] states to ban abortion okay that's a
+
+[3073.2 - 3077.5989999999997] softball question let's see what the
+
+[3075.04 - 3080.079] final answer was that it gave us
+
+[3077.599 - 3081.44] um okay the supreme court has overturned
+
+[3080.079 - 3082.96] a lower court ruling that has struck
+
+[3081.44 - 3085.04] down a mississippi law that would have
+
+[3082.96 - 3086.559] banned abortion most abortions after 15
+
+[3085.04 - 3089.04] weeks of pregnancy
+
+[3086.559 - 3090.559] the 5-4 decision with justice amy coney
+
+[3089.04 - 3092.64] barrett joining the court's three other
+
+[3090.559 - 3094.3190000000004] conservatives in the majority is a major
+
+[3092.64 - 3096.64] victory for abortion opponents and a
+
+[3094.319 - 3098.48] blow to abortion rights advocates the
+
+[3096.64 - 3099.839] decision does not immediately impact
+
+[3098.48 - 3101.44] abortion laws in other states but it
+
+[3099.839 - 3104.4] paves the way for more restrictions on
+
+[3101.44 - 3106.16] abortions to be enacted the majority of
+
+[3104.4 - 3107.76] opinion written by justice clarence
+
+[3106.16 - 3109.04] thomas states that the constitution does
+
+[3107.76 - 3111.119] not protect a woman's right to an
+
+[3109.04 - 3112.8] abortion thomas writes that the court's
+
+[3111.119 - 3114.319] previous decisions on the matter roe v
+
+[3112.8 - 3116.48] wade in planned parenthood versus casey
+
+[3114.319 - 3118.319] were wrongly decided and should be
+
+[3116.48 - 3120.2400000000002] overruled wow that is a really good
+
+[3118.319 - 3122.079] answer to that question
+
+[3120.24 - 3125.2799999999997] um
+
+[3122.079 - 3127.52] yeah okay and dobbs versus jackson um
+
+[3125.28 - 3129.44] health organization the supreme court
+
+[3127.52 - 3131.28] considered a challenge to a mississippi
+
+[3129.44 - 3132.96] law regulating abortion the law known as
+
+[3131.28 - 3135.599] the gestational age act prohibit
+
+[3132.96 - 3137.04] abortion after 15 weeks of pregnancy the
+
+[3135.599 - 3139.119] court first noted that abortion is a
+
+[3137.04 - 3141.119] matter of great social significance and
+
+[3139.119 - 3142.48] moral substance and that laws regulating
+
+[3141.119 - 3144.4] abortion are entitled to a strong
+
+[3142.48 - 3146.4] presumption of validity
+
+[3144.4 - 3147.839] the court then went on to explain that
+
+[3146.4 - 3149.359] the mississippi legislature had
+
+[3147.839 - 3151.44] identified legitimate interest in
+
+[3149.359 - 3152.96] protecting the life of the unborn which
+
+[3151.44 - 3155.52] provided a rational basis for the
+
+[3152.96 - 3156.7200000000003] gestational age act the court therefore
+
+[3155.52 - 3158.48] concluded that the act was
+
+[3156.72 - 3160.7999999999997] constitutional and reversed the decision
+
+[3158.48 - 3162.4] of the lower court the court also made
+
+[3160.8 - 3164.319] clear that its decision should not be
+
+[3162.4 - 3165.92] interpreted as endorsing any particular
+
+[3164.319 - 3167.2799999999997] view of abortion but rather as affirming
+
+[3165.92 - 3169.92] the right of each state to make its own
+
+[3167.28 - 3171.52] laws on the matter that is a phenomenal
+
+[3169.92 - 3175.04] set of answers
+
+[3171.52 - 3176.88] wow okay so that these answers are i'm
+
+[3175.04 - 3179.599] getting chills
+
+[3176.88 - 3181.92] this set of answers is a wonderful
+
+[3179.599 - 3185.04] wonderful example of an answer to the
+
+[3181.92 - 3187.28] question that was asked okay so
+
+[3185.04 - 3189.44] however that was a hard-coded question
+
+[3187.28 - 3192.1600000000003] so let me i'm closing some things that i
+
+[3189.44 - 3192.16] don't need
+
+[3193.52 - 3197.839] answer questions about pi so we've got
+
+[3195.44 - 3199.04] the index we can close all that okay so
+
+[3197.839 - 3202.24] i've got
+
+[3199.04 - 3205.2] the query is now going to be populated
+
+[3202.24 - 3205.2] um so let's
+
+[3206.839 - 3210.0] now okay
+
+[3208.96 - 3211.76] cls
+
+[3210.0 - 3214.64] okay so now that the now that the
+
+[3211.76 - 3216.0] question should be properly um
+
+[3214.64 - 3218.24] populated
+
+[3216.0 - 3222.16] let's uh
+
+[3218.24 - 3226.319] do this again python answer questions
+
+[3222.16 - 3226.319] what historical precedence
+
+[3226.8 - 3231.3590000000004] did the supreme
+
+[3229.359 - 3234.319] court consider
+
+[3231.359 - 3237.2] when deciding
+
+[3234.319 - 3238.24] to overturn row
+
+[3237.2 - 3240.8799999999997] v
+
+[3238.24 - 3241.9199999999996] wade okay this is this is a harder
+
+[3240.88 - 3242.88] question
+
+[3241.92 - 3244.2400000000002] um
+
+[3242.88 - 3245.6800000000003] and so then what we'll do is while
+
+[3244.24 - 3248.4799999999996] that's running
+
+[3245.68 - 3250.3999999999996] um let's see 220 so c
+
+[3248.48 - 3251.92] it'll take a second
+
+[3250.4 - 3253.839] okay
+
+[3251.92 - 3258.2400000000002] question yeah there we go okay so it
+
+[3253.839 - 3259.7599999999998] made it into the prompt and it says um
+
+[3258.24 - 3261.359] the supreme court considered several
+
+[3259.76 - 3262.48] historical precedents look at this it's
+
+[3261.359 - 3265.7599999999998] working
+
+[3262.48 - 3267.599] oh man okay
+
+[3265.76 - 3270.079] important precedence course owned okay
+
+[3267.599 - 3272.48] so it looks at those other precedents
+
+[3270.079 - 3274.559] um if you read the actual thing which i
+
+[3272.48 - 3275.92] don't expect anyone to it talked about
+
+[3274.559 - 3279.119] like 30
+
+[3275.92 - 3281.119] odd things in in the past like going all
+
+[3279.119 - 3283.52] the way back to common law in the 13th
+
+[3281.119 - 3285.599] century in england
+
+[3283.52 - 3288.96] um
+
+[3285.599 - 3291.599] so let's see yeah plessy and brown
+
+[3288.96 - 3293.359] versus board of education yeah this is
+
+[3291.599 - 3294.4] doing pretty good
+
+[3293.359 - 3296.0] okay
+
+[3294.4 - 3299.04] so let's see if let's see if it if it
+
+[3296.0 - 3300.24] picks up on the the common law um in in
+
+[3299.04 - 3301.2799999999997] england
+
+[3300.24 - 3303.52] um
+
+[3301.28 - 3307.8390000000004] commerce clause
+
+[3303.52 - 3307.839] yeah hang on i got a message
+
+[3308.64 - 3315.0899999999997] okay new my phone sorry
+
+[3312.02 - 3315.09] [Music]
+
+[3318.079 - 3322.799] 14th amendment
+
+[3320.48 - 3322.799] um
+
+[3323.359 - 3327.5989999999997] supreme court several roe v wade roe v
+
+[3326.16 - 3329.04] wade
+
+[3327.599 - 3330.88] does not have the right to be sterilized
+
+[3329.04 - 3334.64] without consent
+
+[3330.88 - 3336.4] um so it looks like it's mostly keying
+
+[3334.64 - 3337.839] in on to the
+
+[3336.4 - 3339.76] initial one
+
+[3337.839 - 3342.0789999999997] um and it's kind of saying the same
+
+[3339.76 - 3343.599] things over and over again
+
+[3342.079 - 3346.599] but we'll see we'll see in the final
+
+[3343.599 - 3346.599] result
+
+[3348.799 - 3352.319] brown versus board of education
+
+[3351.44 - 3354.2400000000002] um
+
+[3352.319 - 3355.359] also okay so it's picking up on some
+
+[3354.24 - 3358.16] other ones
+
+[3355.359 - 3361.88] um religious schools yeah establishment
+
+[3358.16 - 3361.8799999999997] clause of the first amendment
+
+[3362.48 - 3366.48] okay it is looking at at
+
+[3364.64 - 3368.5589999999997] deeper history
+
+[3366.48 - 3370.799] um yeah i'm i'm
+
+[3368.559 - 3372.3190000000004] this is looking like a success
+
+[3370.799 - 3374.839] um
+
+[3372.319 - 3377.359] it it does look like it is it is
+
+[3374.839 - 3379.52] okay final answer the supreme court has
+
+[3377.359 - 3382.319] overturned a lower ruling um banning
+
+[3379.52 - 3384.24] abortion okay cool
+
+[3382.319 - 3385.92] the majority opinion written by justice
+
+[3384.24 - 3386.8799999999997] brett kavanaugh
+
+[3385.92 - 3388.96] um
+
+[3386.88 - 3391.839] that seems i thought it was by clarence
+
+[3388.96 - 3392.88] thomas um so it might be
+
+[3391.839 - 3394.5589999999997] let's see
+
+[3392.88 - 3396.88] but he says those decisions are not
+
+[3394.559 - 3398.96] inexorable commands and the decisions
+
+[3396.88 - 3400.88] should be overturned reasonably forex
+
+[3398.96 - 3402.48] state interest okay so it's not actually
+
+[3400.88 - 3406.0] talking about
+
+[3402.48 - 3406.0] the historical things um
+
+[3406.16 - 3411.1189999999997] the descent in dobsby jackson argues the
+
+[3408.72 - 3412.64] long long history of abortion
+
+[3411.119 - 3414.7200000000003] justifies the court decision and to
+
+[3412.64 - 3416.4] recognize
+
+[3414.72 - 3417.1189999999997] okay so
+
+[3416.4 - 3420.1600000000003] it
+
+[3417.119 - 3423.28] yeah okay i think something was lost
+
+[3420.16 - 3424.72] let's look at the last few um
+
+[3423.28 - 3426.559] uh
+
+[3424.72 - 3429.5989999999997] inputs
+
+[3426.559 - 3429.599] so let's grab
+
+[3430.079 - 3436.559] okay so that one is one of these so
+
+[3433.2 - 3438.96] write a detailed summary
+
+[3436.559 - 3441.52] it looks like it got cut off
+
+[3438.96 - 3441.52] interesting
+
+[3444.079 - 3447.44] and it did it
+
+[3445.359 - 3450.88] twice
+
+[3447.44 - 3452.7200000000003] huh okay something went wrong
+
+[3450.88 - 3455.52] when i was trying to get the summary at
+
+[3452.72 - 3455.52] the very end
+
+[3456.079 - 3459.599] let me pause this because oh well it's
+
+[3458.16 - 3461.04] an hour long
+
+[3459.599 - 3462.7200000000003] i know you guys are going to want to see
+
+[3461.04 - 3464.16] this so i'm going to pause it and see if
+
+[3462.72 - 3467.9199999999996] i can't figure out
+
+[3464.16 - 3469.7599999999998] why the summary at the end went wrong
+
+[3467.92 - 3471.28] okay i'm looking through this and it's
+
+[3469.76 - 3473.119] not making any sense also you probably
+
+[3471.28 - 3474.559] noticed a wardrobe change i realized
+
+[3473.119 - 3476.2400000000002] that because i had been sitting outside
+
+[3474.559 - 3477.44] at a coffee shop earlier i had pit
+
+[3476.24 - 3480.0789999999997] stains and that was probably pretty
+
+[3477.44 - 3484.0] gross and black hides that
+
+[3480.079 - 3486.48] okay so i copied the the console output
+
+[3484.0 - 3488.64] to a text file
+
+[3486.48 - 3490.799] and it did pick up on what i one thing
+
+[3488.64 - 3493.2799999999997] that i hoped it would which was um
+
+[3490.799 - 3495.839] common law in history in england so it
+
+[3493.28 - 3498.799] did see all that right so we got all
+
+[3495.839 - 3501.359] these answers there should be 20 answers
+
+[3498.799 - 3503.92] um you know griswold versus connecticut
+
+[3501.359 - 3505.5989999999997] okay so it saw all those it got all
+
+[3503.92 - 3506.64] kinds of stuff from all throughout
+
+[3505.599 - 3507.52] history
+
+[3506.64 - 3509.44] um
+
+[3507.52 - 3512.24] but then when it got to the final answer
+
+[3509.44 - 3513.28] it just gave me a summary
+
+[3512.24 - 3515.5989999999997] um
+
+[3513.28 - 3516.88] and some of it which did was not even in
+
+[3515.599 - 3518.079] here so i'm like where did that come
+
+[3516.88 - 3521.6800000000003] from
+
+[3518.079 - 3523.3590000000004] okay so we've got we've got this
+
+[3521.68 - 3524.48] we get all the answers right so the
+
+[3523.359 - 3526.0] answers
+
+[3524.48 - 3528.2400000000002] these are these are the answers they
+
+[3526.0 - 3531.76] should be appended
+
+[3528.24 - 3535.52] here so answers equals list answers
+
+[3531.76 - 3537.0400000000004] all answers is join this
+
+[3535.52 - 3538.48] right
+
+[3537.04 - 3541.2] and then
+
+[3538.48 - 3544.16] chunks equals text wrap
+
+[3541.2 - 3546.319] a wrap all answers
+
+[3544.16 - 3547.839] with 10 000
+
+[3546.319 - 3550.319] 10 000 characters
+
+[3547.839 - 3552.64] final list
+
+[3550.319 - 3556.16] um
+
+[3552.64 - 3558.0] prompt equals open file prompt summary
+
+[3556.16 - 3558.8799999999997] summary result oh that's what i did
+
+[3558.0 - 3560.64] wrong
+
+[3558.88 - 3563.119] this right here
+
+[3560.64 - 3563.1189999999997] darn it
+
+[3563.839 - 3566.48] ah
+
+[3564.799 - 3567.839] so simple
+
+[3566.48 - 3570.72] so we got all the chunks but then i
+
+[3567.839 - 3573.119] didn't pass the right chunks in
+
+[3570.72 - 3576.319] this is why you test your code kids okay
+
+[3573.119 - 3578.7200000000003] so for chunk and chunks there we go
+
+[3576.319 - 3582.319] we summarize them all together
+
+[3578.72 - 3584.5589999999997] so let's rerun this um
+
+[3582.319 - 3586.24] yeah let me um
+
+[3584.559 - 3587.76] i'll pause the video just because you
+
+[3586.24 - 3588.64] don't need to sit and watch it rerun
+
+[3587.76 - 3591.6800000000003] again
+
+[3588.64 - 3593.04] um so but i will copy this
+
+[3591.68 - 3594.799] this question
+
+[3593.04 - 3597.7599999999998] and i'll rerun it and then i'll show you
+
+[3594.799 - 3600.4] the final result and we should be done
+
+[3597.76 - 3604.3190000000004] all right gang i think it worked
+
+[3600.4 - 3606.4] um the final thing so there's there's oh
+
+[3604.319 - 3607.119] here let me just copy this this out into
+
+[3606.4 - 3611.52] a
+
+[3607.119 - 3611.52] text file so enter your question here
+
+[3611.599 - 3614.599] oops
+
+[3617.76 - 3622.079] we'll
+
+[3618.72 - 3622.0789999999997] grab this okay
+
+[3623.44 - 3626.839] all right so reading through it enter
+
+[3625.359 - 3628.4] your question here what historical
+
+[3626.839 - 3629.52] precedence um
+
+[3628.4 - 3631.44] [Music]
+
+[3629.52 - 3632.72] it did get the common law so the pre the
+
+[3631.44 - 3634.319] supreme court considered several
+
+[3632.72 - 3635.319] historical precedents
+
+[3634.319 - 3637.2799999999997] first they considered the
+
+[3635.319 - 3638.64] pre-constitutional common law history in
+
+[3637.28 - 3640.1600000000003] england which showed that abortion was
+
+[3638.64 - 3643.04] largely prohibited in most american
+
+[3640.16 - 3644.64] states as of 1868 so it got way back in
+
+[3643.04 - 3646.24] history so that's good
+
+[3644.64 - 3648.0789999999997] um that was one of the key things that i
+
+[3646.24 - 3650.16] remember from my previous work that i
+
+[3648.079 - 3651.119] was like wow this they went way back
+
+[3650.16 - 3652.64] okay
+
+[3651.119 - 3654.799] final answer
+
+[3652.64 - 3656.319] the supreme court overturned roe v wade
+
+[3654.799 - 3657.839] by considering several historical
+
+[3656.319 - 3660.24] precedents the first president was the
+
+[3657.839 - 3662.4] principal of stere decisis i think i'm
+
+[3660.24 - 3664.24] saying that right which requires respect
+
+[3662.4 - 3666.079] for the court's precedence and for the
+
+[3664.24 - 3667.5989999999997] accumulated wisdom of the judges who
+
+[3666.079 - 3669.28] have previously addressed the same issue
+
+[3667.599 - 3671.119] the court found that roe was an
+
+[3669.28 - 3673.3590000000004] egregiously wrong decision that had
+
+[3671.119 - 3675.839] caused significant negative consequences
+
+[3673.359 - 3679.2] and that overruling it would not unduly
+
+[3675.839 - 3681.44] upset the legitimate reliance in upset
+
+[3679.2 - 3682.96] legitimate reliance interest the second
+
+[3681.44 - 3685.359] precedent was the history of stereo
+
+[3682.96 - 3687.119] decisis in the court which establishes
+
+[3685.359 - 3689.04] that a constitutional precedent may be
+
+[3687.119 - 3691.04] overruled only when it is egregiously
+
+[3689.04 - 3692.72] wrong and has caused significant
+
+[3691.04 - 3694.16] negative consequences and overruling it
+
+[3692.72 - 3695.839] would not unduly okay it's kind of
+
+[3694.16 - 3697.2] repeating itself
+
+[3695.839 - 3698.96] applying these factors the court
+
+[3697.2 - 3700.48] concluded that roe met all three
+
+[3698.96 - 3702.64] criteria and thus deserved to be
+
+[3700.48 - 3704.559] overturned the third precedent was the
+
+[3702.64 - 3707.44] fact that at the time of roe 30 states
+
+[3704.559 - 3709.2000000000003] still prohibited abortion at all stages
+
+[3707.44 - 3710.88] this showed that the road decision was
+
+[3709.2 - 3713.04] out of step with public opinion at the
+
+[3710.88 - 3714.799] time the fourth precedent was the fact
+
+[3713.04 - 3716.24] that in the years prior to row about a
+
+[3714.799 - 3717.44] third of the states had liberalized
+
+[3716.24 - 3718.64] their laws
+
+[3717.44 - 3720.4] this showed that there was a trend
+
+[3718.64 - 3722.319] towards liberalization that was
+
+[3720.4 - 3724.559] interrupted by roe the fifth and final
+
+[3722.319 - 3726.48] precedent was the fact that roe abruptly
+
+[3724.559 - 3729.119] ended the political process of liberal
+
+[3726.48 - 3731.119] liberalizing abortion laws
+
+[3729.119 - 3732.7200000000003] this made it clear that roe was not just
+
+[3731.119 - 3733.92] wrong but egregiously wrong and that it
+
+[3732.72 - 3736.24] needed to be overturned in order to
+
+[3733.92 - 3739.28] allow the democratic process to continue
+
+[3736.24 - 3741.1189999999997] that is a phenomenal explanation
+
+[3739.28 - 3742.4] the supreme court overturns roe v wade
+
+[3741.119 - 3744.079] taking into consideration several
+
+[3742.4 - 3746.1600000000003] historical precedents this is the second
+
+[3744.079 - 3747.3590000000004] chunk firstly they look at the president
+
+[3746.16 - 3750.3999999999996] set by row
+
+[3747.359 - 3751.92] itself was incorrectly decided erroneous
+
+[3750.4 - 3754.0] historical narrative secondly they look
+
+[3751.92 - 3755.6800000000003] at the president set by casey which
+
+[3754.0 - 3758.64] revised the textual basis for the
+
+[3755.68 - 3760.0789999999997] abortion uh right silently abandon rose
+
+[3758.64 - 3761.5989999999997] historical uh
+
+[3760.079 - 3763.3590000000004] erroneous historical narrative finally
+
+[3761.599 - 3765.6800000000003] they look at the president set by janus
+
+[3763.359 - 3767.5989999999997] and ramos which held that states cannot
+
+[3765.68 - 3769.5989999999997] protect fetal life prior to viability
+
+[3767.599 - 3772.48] all these factors led okay
+
+[3769.599 - 3775.039] so the the final summarization needs a
+
+[3772.48 - 3777.599] little bit of work but still in terms of
+
+[3775.039 - 3779.44] giving you an answer as to like asking
+
+[3777.599 - 3780.96] the question what were the historical
+
+[3779.44 - 3783.2000000000003] precedents this
+
+[3780.96 - 3785.68] was amazing
+
+[3783.2 - 3787.7599999999998] i am super satisfied with this
+
+[3785.68 - 3790.7599999999998] so i'll call it a day there thanks for
+
+[3787.76 - 3790.76] watching

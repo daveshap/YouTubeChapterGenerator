@@ -1,0 +1,645 @@
+[0.0 - 3.419] good morning everybody David Shapiro
+
+[2.1 - 6.6] here with another video
+
+[3.419 - 10.2] so today's video is about orphan drugs
+
+[6.6 - 13.259] or the FDA approves the first AI
+
+[10.2 - 15.599] generated uh drug for rare diseases now
+
+[13.259 - 18.3] it's not fully approved it is uh moving
+
+[15.599 - 22.039] along to phase two clinical trials but
+
+[18.3 - 25.199] that being said what is an orphan drug
+
+[22.039 - 26.519000000000002] so when I first heard the term I had to
+
+[25.199 - 29.64] look it up because I thought it was a
+
+[26.519 - 32.879999999999995] very odd term but basically an orphan
+
+[29.64 - 36.18] drug is a special class of drugs that
+
+[32.88 - 38.82] the FDA has where it is for a rare
+
+[36.18 - 41.76] disease or condition that affects fewer
+
+[38.82 - 43.86] than 200 000 people in the United States
+
+[41.76 - 47.16] the reason that orphan drug
+
+[43.86 - 48.6] classifications exist is because and the
+
+[47.16 - 51.839999999999996] reason that it's called an orphan drug
+
+[48.6 - 55.559] is because rare diseases often don't get
+
+[51.84 - 58.68000000000001] the investment of medical research the
+
+[55.559 - 61.14] reason is because uh Med drug research
+
+[58.68 - 63.84] is very very expensive and can take a
+
+[61.14 - 65.339] long time and so often what drug
+
+[63.84 - 68.28] companies will do is that they'll
+
+[65.339 - 70.26] prioritize medicines that are going to
+
+[68.28 - 71.52] get a lot of attention and a lot of
+
+[70.26 - 74.82000000000001] sales
+
+[71.52 - 77.75999999999999] so the orphan drug classification came
+
+[74.82 - 79.91999999999999] around as a way to incentivize companies
+
+[77.76 - 82.619] to treat rare diseases
+
+[79.92 - 84.54] so basically some of the incentives that
+
+[82.619 - 86.759] you get if you pursue if you get an
+
+[84.54 - 89.04] orphan drug status you get uh tax
+
+[86.759 - 91.32] credits for elite for research reduce
+
+[89.04 - 94.2] filing fees and seven years of Market
+
+[91.32 - 96.41999999999999] exclusivity so this Market exclusivity
+
+[94.2 - 97.92] is an interesting one and we'll talk
+
+[96.42 - 99.119] about that in just a moment a little bit
+
+[97.92 - 101.22] more
+
+[99.119 - 103.56] they'll also offer grants for clinical
+
+[101.22 - 106.74] trials you get accelerated reviews so
+
+[103.56 - 108.78] you basically get prioritized again they
+
+[106.74 - 111.29899999999999] want to kind of smooth the path as much
+
+[108.78 - 113.82000000000001] as possible because one thing that
+
+[111.299 - 115.74000000000001] happens is that again if you have a rare
+
+[113.82 - 117.41999999999999] disease or rare condition you might be
+
+[115.74 - 119.15899999999999] ignored by the medical establishment and
+
+[117.42 - 121.799] it's not you know anything malicious
+
+[119.159 - 125.82000000000001] it's just that the economies don't add
+
+[121.799 - 127.7] up and then the FDA will also offer some
+
+[125.82 - 130.259] protocol assistance so basically
+
+[127.7 - 132.48] scientific advice and guidance I
+
+[130.259 - 135.83999999999997] actually used to date someone who
+
+[132.48 - 137.7] consulted on the efficacy of those
+
+[135.84 - 139.98] programs and
+
+[137.7 - 142.85999999999999] um as well as like kind of leading
+
+[139.98 - 145.5] companies along that pathway
+
+[142.86 - 146.87900000000002] okay so let's talk about this first AI
+
+[145.5 - 150.0] orphan drug
+
+[146.879 - 151.5] the company is in silico medicine I'm
+
+[150.0 - 153.84] not going to read the serial number of
+
+[151.5 - 155.819] the smaller molecule but the disease
+
+[153.84 - 157.739] that they're targeting is idiopathic
+
+[155.819 - 161.28] pulmonary fibrosis
+
+[157.739 - 163.739] so that's a mouthful ipf for short it is
+
+[161.28 - 167.04] a disease with no apparent cause and no
+
+[163.739 - 169.379] cure the prognosis for this disease is
+
+[167.04 - 171.599] two to five years from onset and it
+
+[169.379 - 175.379] primarily affects adults age 50 to 70.
+
+[171.599 - 177.42] so idiopathic pulmonary fibrosis is a
+
+[175.379 - 179.34] disease that causes progressively worse
+
+[177.42 - 181.379] scarring of the lungs and as you can
+
+[179.34 - 183.06] imagine when your lungs are too scarred
+
+[181.379 - 184.459] you can't breathe anymore so it's a
+
+[183.06 - 187.2] pretty awful disease
+
+[184.459 - 189.599] and this is the kind of thing that one
+
+[187.2 - 191.099] it doesn't affect that many people and
+
+[189.599 - 192.89999999999998] there are a couple of treatments out
+
+[191.099 - 196.379] there for it already but those are
+
+[192.9 - 198.48000000000002] mostly for not quite palliative care
+
+[196.379 - 200.879] they're more for about kind of managing
+
+[198.48 - 203.39999999999998] the disease but again the prognosis for
+
+[200.879 - 206.57999999999998] this disease is not good at all
+
+[203.4 - 210.54] so this drug candidate uh by uh in
+
+[206.58 - 213.18] silico medicine was uh uh detect or
+
+[210.54 - 215.76] targeted designed uh and detected
+
+[213.18 - 218.519] entirely by their in-house AI platform
+
+[215.76 - 220.26] called pharma.ai now obviously this is a
+
+[218.519 - 222.59900000000002] proprietary in-house platform so they're
+
+[220.26 - 225.72] not going to reveal that much about it
+
+[222.599 - 228.0] um but the the the news the press
+
+[225.72 - 230.519] release that they that they uh that they
+
+[228.0 - 232.64] published over this said discovered and
+
+[230.519 - 235.5] designed using artificial intelligence
+
+[232.64 - 238.73899999999998] uh I'm I believe that this was an
+
+[235.5 - 240.72] end-to-end process uh and if not then
+
+[238.739 - 242.04] there are other drug Discovery processes
+
+[240.72 - 244.26] out there
+
+[242.04 - 246.42] um over here at the right is the CEO of
+
+[244.26 - 248.28] this company talking about
+
+[246.42 - 249.89999999999998] um Artificial Intelligence being used to
+
+[248.28 - 252.48] discover drugs
+
+[249.9 - 254.28] so that's kind of the first drug now
+
+[252.48 - 257.4] what does all this mean for us
+
+[254.28 - 259.38] so the first thing is we have wizards in
+
+[257.4 - 262.62] Laboratories doing Alchemy no that's not
+
+[259.38 - 265.139] what I mean uh the this is a first proof
+
+[262.62 - 267.84000000000003] of concept and so what I mean by that is
+
+[265.139 - 270.0] that uh this is kind of the first one
+
+[267.84 - 272.69899999999996] through the door where we have ai
+
+[270.0 - 275.16] assisting in the development and it's
+
+[272.699 - 277.74] and discovery of treatments for rare
+
+[275.16 - 279.24] diseases and so what this does is it
+
+[277.74 - 280.979] signals to the investment Community
+
+[279.24 - 284.16] whether it's venture capital or other
+
+[280.979 - 286.02] financial markets that that investing in
+
+[284.16 - 289.38000000000005] these kinds of companies might be less
+
+[286.02 - 291.419] risky and so the takeaway there is where
+
+[289.38 - 294.12] the money goes so do research and
+
+[291.419 - 298.02] results which is good for everyone
+
+[294.12 - 299.639] so the reason that that orphan drug
+
+[298.02 - 300.84] classification needs to exist is because
+
+[299.639 - 303.6] there are a lot of people that are
+
+[300.84 - 305.82] underserved this is why the orphan drug
+
+[303.6 - 308.699] classification exists in the first place
+
+[305.82 - 311.04] and in many cases there are a lot of
+
+[308.699 - 313.199] diseases that it's like well you know
+
+[311.04 - 314.34000000000003] yes modern medicine is amazing because
+
+[313.199 - 316.38] there's a lot of things that you can
+
+[314.34 - 319.13899999999995] treat that you can cure or that you can
+
+[316.38 - 321.18] manage and you know live a long healthy
+
+[319.139 - 323.16] life as long as you've got the right
+
+[321.18 - 326.46] medicine to manage it there are however
+
+[323.16 - 329.03900000000004] many many many diseases that we just you
+
+[326.46 - 330.479] just have to basically live with uh some
+
+[329.039 - 331.68] of them are fatal like the one that we
+
+[330.479 - 336.12] just mentioned
+
+[331.68 - 338.1] so what this tells me is that AI is
+
+[336.12 - 340.8] going to allow us to start serving
+
+[338.1 - 342.53900000000004] everyone uh and even if it's not
+
+[340.8 - 345.419] necessarily a cure even if it's just a
+
+[342.539 - 348.3] management of of all diseases this will
+
+[345.419 - 351.96] hopefully accelerate and we will end up
+
+[348.3 - 354.0] with more medicines that will cover uh
+
+[351.96 - 356.15999999999997] ideally cure but that's not always
+
+[354.0 - 358.44] possible but at least manage and
+
+[356.16 - 361.38000000000005] maintain your health uh regardless of
+
+[358.44 - 364.32] what condition you have now the last
+
+[361.38 - 366.71999999999997] major takeaway from this is that this
+
+[364.32 - 368.82] takes it from theoretical to practical
+
+[366.72 - 370.5] and so what I mean by that is if you
+
+[368.82 - 373.139] look at this paper that came out January
+
+[370.5 - 375.3] this year new study uses Alpha fold and
+
+[373.139 - 379.199] AI to accelerate design a novel drug for
+
+[375.3 - 380.759] liver cancer that's great in theory but
+
+[379.199 - 382.91900000000004] this is just something that has been
+
+[380.759 - 386.699] hypothetically designed in a lab
+
+[382.919 - 388.5] it is a it is a long jump to go from
+
+[386.699 - 391.979] hypothetically designing something in a
+
+[388.5 - 394.919] lab to phase two clinical trials uh
+
+[391.979 - 396.539] there is there are a lot of steps you
+
+[394.919 - 399.539] have to dot your eyes and cross your t's
+
+[396.539 - 402.71999999999997] uh in order to get FDA approval in order
+
+[399.539 - 405.96] to develop the drug and prove safety
+
+[402.72 - 408.53900000000004] prove efficacy and and so on and so
+
+[405.96 - 413.09999999999997] forth and so what I mean by theoretical
+
+[408.539 - 415.74] to practical is this is a an example of
+
+[413.1 - 418.259] AI being used to carry this process
+
+[415.74 - 420.96000000000004] forward into the into the point where
+
+[418.259 - 422.58000000000004] you're within Maybe not maybe not quite
+
+[420.96 - 424.85999999999996] a a stone's throw but you're getting
+
+[422.58 - 426.539] closer to the Finish Line in terms of
+
+[424.86 - 429.78000000000003] having something that is clinically
+
+[426.539 - 432.3] useful and economically feasible
+
+[429.78 - 435.539] all right so some long-term takeaways
+
+[432.3 - 437.28000000000003] from my perspective is more diseases are
+
+[435.539 - 439.44] going to be treated uh with the help of
+
+[437.28 - 441.84] AI it's it's pretty pretty simple pretty
+
+[439.44 - 443.52] straightforward uh another thing is that
+
+[441.84 - 445.79999999999995] I expect that this will result in more
+
+[443.52 - 448.74] research and more funding so for
+
+[445.8 - 450.3] instance uh what I mean by that is that
+
+[448.74 - 452.34000000000003] universities are going to get more
+
+[450.3 - 454.38] grants to help Advance you know create
+
+[452.34 - 457.25899999999996] more AI platforms to help with drug
+
+[454.38 - 459.24] Discovery uh or you're going to get more
+
+[457.259 - 461.52000000000004] funding from investors
+
+[459.24 - 463.86] and this is going to have a compounding
+
+[461.52 - 465.24] return and so the reason that I suspect
+
+[463.86 - 468.72] that we're going to have this is because
+
+[465.24 - 472.44] there is this possibility for like an AI
+
+[468.72 - 473.759] Gold Rush and what I what the reason
+
+[472.44 - 477.539] that this kind of thing happens is
+
+[473.759 - 479.58000000000004] because as technology advances there are
+
+[477.539 - 482.34] going to be realizations that there are
+
+[479.58 - 485.58] unmet market segments and or latent
+
+[482.34 - 487.67999999999995] unmet demand and so what this means is
+
+[485.58 - 489.479] that like anytime that there's a new
+
+[487.68 - 492.539] technology take the iPhone for example
+
+[489.479 - 494.28] you have this this Gold Rush of like hey
+
+[492.539 - 496.919] let's develop apps for the iPhone let's
+
+[494.28 - 499.79999999999995] develop uh you know peripherals and
+
+[496.919 - 502.37899999999996] accessories for the iPhone and so when
+
+[499.8 - 505.68] you have ai uh having this like this
+
+[502.379 - 508.139] beach head Insurgency into a new domain
+
+[505.68 - 510.78000000000003] such as drug Discovery or orphan drug
+
+[508.139 - 512.4590000000001] Discovery you realize oh hey there's
+
+[510.78 - 514.86] actually a lot of potential here and so
+
+[512.459 - 517.14] then you get a lot of startups you get a
+
+[514.86 - 519.3000000000001] lot of companies trying to Pivot
+
+[517.14 - 521.2189999999999] now one thing I want to say is this is
+
+[519.3 - 524.52] not Financial advice this is not
+
+[521.219 - 526.86] investment advice I am not a licensed a
+
+[524.52 - 529.1999999999999] financial advisor stock broker or
+
+[526.86 - 530.519] anything like that and honestly I avoid
+
+[529.2 - 534.36] all these kinds of Investments because
+
+[530.519 - 536.88] they're wildly speculative and uh many
+
+[534.36 - 539.16] of them fail uh so that's that's kind of
+
+[536.88 - 541.68] my personal opinion on the matter now
+
+[539.16 - 544.74] another thing is that what I hope will
+
+[541.68 - 547.019] be the long-term uh result of this is
+
+[544.74 - 550.5] cheaper medicine for everyone because
+
+[547.019 - 553.86] drug Discovery is so expensive and it
+
+[550.5 - 556.14] takes such a long time if we have you
+
+[553.86 - 558.48] know hundreds of new companies or
+
+[556.14 - 560.279] hundreds of new AI tools that are
+
+[558.48 - 563.04] accelerating the drug Discovery process
+
+[560.279 - 565.019] and the drug approval process this means
+
+[563.04 - 566.519] that this could be one of the things
+
+[565.019 - 569.16] that really drives down health care
+
+[566.519 - 571.86] because right now healthcare costs 20 to
+
+[569.16 - 573.42] 30 percent of like America's GDP or
+
+[571.86 - 576.0] something crazy like that maybe it's 18
+
+[573.42 - 579.4799999999999] anyways it's a pretty significant chunk
+
+[576.0 - 580.8] of our GDP goes to health care so like
+
+[579.48 - 583.5] that's
+
+[580.8 - 585.779] a way to live especially when you look
+
+[583.5 - 586.92] at the uh there's more drugs coming down
+
+[585.779 - 588.959] the pipeline
+
+[586.92 - 591.959] that have to do with regeneration and
+
+[588.959 - 593.88] Rejuvenation and so what I'm hoping
+
+[591.959 - 596.0999999999999] happens there is that rather than those
+
+[593.88 - 598.08] therapies being really expensive because
+
+[596.1 - 599.76] of course you see you know news of
+
+[598.08 - 602.58] people spending a million dollars a year
+
+[599.76 - 605.22] trying to Stave off aging
+
+[602.58 - 607.14] uh you know I even had someone message
+
+[605.22 - 608.7] me about you know like oh I'm writing a
+
+[607.14 - 610.56] book on longevity and I'm like are you
+
+[608.7 - 613.44] talking about Ai and they're like uh
+
+[610.56 - 616.5] well I wasn't gonna I was like okay well
+
+[613.44 - 619.5600000000001] you should be uh anyways so cheaper
+
+[616.5 - 621.54] medicine more diseases uh possible Gold
+
+[619.56 - 623.399] Rush for investors and startups we'll
+
+[621.54 - 626.0999999999999] see how it plays out
+
+[623.399 - 628.32] but here's my call to action for you uh
+
+[626.1 - 630.24] first of all support open source even if
+
+[628.32 - 633.1800000000001] you don't support open source directly
+
+[630.24 - 634.08] via you know medical research tools or
+
+[633.18 - 635.9399999999999] anything
+
+[634.08 - 638.82] one thing that I want to point out is
+
+[635.94 - 640.9200000000001] that uh companies private companies
+
+[638.82 - 643.2600000000001] benefit from publicly funded research
+
+[640.92 - 646.62] that's published by universities and
+
+[643.26 - 649.4399999999999] everyone in the field benefits from the
+
+[646.62 - 652.5] tools and coding examples that people
+
+[649.44 - 654.0600000000001] like you and I put out so this is a
+
+[652.5 - 656.76] reason that I put all of my videos out
+
+[654.06 - 660.4799999999999] here and all the code under the MIT
+
+[656.76 - 663.959] license is because I learned most of my
+
+[660.48 - 665.94] automation career from uh material that
+
+[663.959 - 667.56] was generously put for free on the
+
+[665.94 - 670.5] internet by other people
+
+[667.56 - 672.1199999999999] and so you get there's there's this like
+
+[670.5 - 674.76] Synergy you get these compounding
+
+[672.12 - 676.5600000000001] returns that the more coding knowledge
+
+[674.76 - 677.88] the more scientific knowledge that's out
+
+[676.56 - 679.56] there in the world the better everyone
+
+[677.88 - 681.36] is and you don't know where it's going
+
+[679.56 - 682.8599999999999] to play out another thing you can do is
+
+[681.36 - 685.0790000000001] spread the word just tell your friends
+
+[682.86 - 687.779] about the fact that AI is actually being
+
+[685.079 - 688.9799999999999] used to discover drugs now and that this
+
+[687.779 - 692.22] is a good thing
+
+[688.98 - 693.8000000000001] uh by spreading the word you will help
+
+[692.22 - 696.72] build consensus around these things
+
+[693.8 - 698.519] excitement and then also you know
+
+[696.72 - 700.38] knock-on effects such as future
+
+[698.519 - 702.0] investment and buy-in and that sort of
+
+[700.38 - 704.9399999999999] thing another thing you can do is help
+
+[702.0 - 707.22] me out support me on patreon uh all my
+
+[704.94 - 708.899] content is free all my code is free or
+
+[707.22 - 710.76] you know simply just like subscribe
+
+[708.899 - 712.92] comment and share on this video every
+
+[710.76 - 714.959] little bit helps uh one way or the other
+
+[712.92 - 716.16] and then finally the and this is the
+
+[714.959 - 719.3389999999999] biggest call to action is vote
+
+[716.16 - 721.74] accordingly uh it's about balancing the
+
+[719.339 - 723.36] public good of AI versus private
+
+[721.74 - 724.5] interest because without private
+
+[723.36 - 727.0790000000001] interest you don't have as much
+
+[724.5 - 730.44] incentive to do these things but at the
+
+[727.079 - 733.26] same time I prefer to see AI treated as
+
+[730.44 - 735.6] a public good uh which is why you know I
+
+[733.26 - 736.86] do everything open source that I can and
+
+[735.6 - 738.839] one of the big things that we need to
+
+[736.86 - 740.399] look out for is regulatory capture we
+
+[738.839 - 742.0790000000001] don't want
+
+[740.399 - 744.6] um either one company or a small number
+
+[742.079 - 747.4799999999999] of companies dominating this space and
+
+[744.6 - 750.1800000000001] controlling it because while that would
+
+[747.48 - 752.519] benefit them financially that slows the
+
+[750.18 - 754.38] rest of the world down by Walling off
+
+[752.519 - 755.339] access to some of the best tools and
+
+[754.38 - 757.38] Technology
+
+[755.339 - 760.2] so that's my call to action if you want
+
+[757.38 - 762.24] to help make this future a reality
+
+[760.2 - 763.6800000000001] thank you for watching I hope you got a
+
+[762.24 - 766.92] lot out of this video like I said like
+
+[763.68 - 769.38] subscribe comment and share and uh if
+
+[766.92 - 770.76] you want to support me in my mission uh
+
+[769.38 - 773.6] head on over to patreon thanks for
+
+[770.76 - 773.6] watching have a good day

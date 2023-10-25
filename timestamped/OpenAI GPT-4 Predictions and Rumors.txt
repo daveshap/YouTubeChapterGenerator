@@ -1,0 +1,1889 @@
+[1.079 - 6.2989999999999995] morning everybody David Shapiro here
+
+[3.24 - 9.84] with another video uh today's video is
+
+[6.299 - 12.36] gpt4 rumors and predictions
+
+[9.84 - 14.219] so if you're watching this video you
+
+[12.36 - 16.08] have probably seen a graphic like this
+
+[14.219 - 17.759999999999998] likely on Twitter or LinkedIn or
+
+[16.08 - 21.24] somewhere else
+
+[17.76 - 23.1] um this is supposedly represents the
+
+[21.24 - 26.82] alleged parameter count now this has
+
+[23.1 - 29.46] been circulating for at least a year uh
+
+[26.82 - 31.38] so take it with a grain of salt I don't
+
+[29.46 - 34.620000000000005] know that they even had a GPT for
+
+[31.38 - 37.44] architecture a year ago who knows
+
+[34.62 - 41.218999999999994] um but this represents the relative size
+
+[37.44 - 44.04] so gpt3 at 175 billion parameters versus
+
+[41.219 - 46.559] gpt4 at the alleged 100 trillion
+
+[44.04 - 47.76] parameters so almost a thousand times
+
+[46.559 - 48.959999999999994] larger
+
+[47.76 - 50.94] all right so what are we going to go
+
+[48.96 - 53.399] over today in the video
+
+[50.94 - 56.579] we're going to look at numbers and facts
+
+[53.399 - 58.559] and data we will talk about some rumors
+
+[56.579 - 60.96] at the end but we're going to look at
+
+[58.559 - 63.0] Trends facts data to really try and
+
+[60.96 - 67.92] figure out okay what is it that we
+
+[63.0 - 70.799] should expect uh from uh from gpt4
+
+[67.92 - 73.68] all right first let's talk parameter
+
+[70.799 - 78.06] count this is one of my favorite graphs
+
+[73.68 - 79.97900000000001] um of of all time and it is it shows a
+
+[78.06 - 82.02] very clear trend line of exponential
+
+[79.979 - 84.86] growth in terms of billions of
+
+[82.02 - 88.02] parameters over just the last five years
+
+[84.86 - 91.14] so we have gone from
+
+[88.02 - 94.08] um 100 million parameters to over a
+
+[91.14 - 97.259] trillion if you add in Google switch and
+
+[94.08 - 99.72] woo Dao which it would be like right up
+
+[97.259 - 101.4] here so still right on the trend line
+
+[99.72 - 105.84] right
+
+[101.4 - 108.06] so the rumor so first I need to say that
+
+[105.84 - 110.399] there are there are two rumors one rumor
+
+[108.06 - 112.2] is that gpt4 is quote not much bigger
+
+[110.399 - 114.36] than gpt3
+
+[112.2 - 116.46000000000001] um which I've heard that one a while ago
+
+[114.36 - 119.159] we've also heard it's 100 trillion
+
+[116.46 - 120.259] parameters who knows
+
+[119.159 - 122.64] um
+
+[120.259 - 126.0] if you look at the trend line so now
+
+[122.64 - 128.459] we're in 2023 so the trend line means
+
+[126.0 - 131.9] that we should be somewhere above
+
+[128.459 - 136.08] 1 trillion maybe in the 10 trillion
+
+[131.9 - 139.08] range so I wouldn't be surprised if gpt4
+
+[136.08 - 140.76000000000002] is in the you know one point you know
+
+[139.08 - 143.34] the one trillion to 10 trillion range
+
+[140.76 - 145.26] maybe 20. so if you look at the
+
+[143.34 - 148.31900000000002] generations if let's let's take a quick
+
+[145.26 - 151.5] look at uh at open ai's performance so
+
+[148.319 - 154.98] at the beginning of 2019 they did gpt2
+
+[151.5 - 159.3] which was 1.5 billion and then just over
+
+[154.98 - 162.54] a year later they did gpt3 which was
+
+[159.3 - 165.239] um uh just over 100 times larger
+
+[162.54 - 169.019] um so that was that was uh one one major
+
+[165.239 - 171.59900000000002] generation 100x Improvement we're you
+
+[169.019 - 174.84] know so that that means that gpt4 if the
+
+[171.599 - 176.76] trend had persisted could have been a
+
+[174.84 - 179.58] hundred times larger so that would be
+
+[176.76 - 181.5] what one point uh
+
+[179.58 - 182.519] um I well I don't know so that that
+
+[181.5 - 185.519] could have been
+
+[182.519 - 189.18] um 17 trillion uh parameters if I'm
+
+[185.519 - 192.48000000000002] doing my math right in 2021 we got all
+
+[189.18 - 194.58] the way through 2022 without any um
+
+[192.48 - 197.099] without anything so who knows maybe
+
+[194.58 - 198.72] maybe because they've been you know uh
+
+[197.099 - 200.099] back in the workshop for the last couple
+
+[198.72 - 201.84] years
+
+[200.099 - 203.7] um maybe we are going to basically skip
+
+[201.84 - 206.22] a generation right because it kind of
+
+[203.7 - 209.7] looks like we already did so who knows
+
+[206.22 - 211.85999999999999] maybe maybe a thousand X is not
+
+[209.7 - 213.599] um so so far out of the question because
+
+[211.86 - 218.34] if you look at this
+
+[213.599 - 221.39999999999998] the time from gpt2 to Google switch so
+
+[218.34 - 224.94] because that's that's a 1000 X increase
+
+[221.4 - 228.0] so that was about one two full years
+
+[224.94 - 232.2] right or I guess now when did twitch
+
+[228.0 - 234.959] come out was it 21 21 or 2022 two or
+
+[232.2 - 237.72] three years so we're we're about two
+
+[234.959 - 240.18] years on from gpt3
+
+[237.72 - 242.7] um so who knows maybe you know we maybe
+
+[240.18 - 244.26000000000002] we could be approaching a thousand X
+
+[242.7 - 245.819] um which would be crazy
+
+[244.26 - 249.42] it's not outside the realm of
+
+[245.819 - 251.819] possibilities but it does seem like it
+
+[249.42 - 253.439] would represent an acceleration we'll
+
+[251.819 - 256.139] get into some of the constraints in just
+
+[253.439 - 259.38] a moment but still the claims of claims
+
+[256.139 - 261.72] of going from uh you know a thousand X
+
+[259.38 - 262.62] in one generation seems kind of sus to
+
+[261.72 - 263.94000000000005] me
+
+[262.62 - 265.32] um I did hear someone say that they
+
+[263.94 - 268.74] think that that's why they released GPT
+
+[265.32 - 272.04] 3.5 that it that 3.5 is kind of that
+
+[268.74 - 275.58] intermediary step so who knows
+
+[272.04 - 278.34000000000003] okay so in terms of parameters let's
+
+[275.58 - 279.479] talk sparsity or uh is it sparse or
+
+[278.34 - 281.15999999999997] dense
+
+[279.479 - 283.5] so the first thing you need to know is
+
+[281.16 - 286.8] that human brains are incredibly sparse
+
+[283.5 - 289.02] our brains are are composed of repeating
+
+[286.8 - 292.199] circuits called micro columns a
+
+[289.02 - 295.25899999999996] microcolumn is a cluster of about 60 to
+
+[292.199 - 296.46000000000004] 100 neurons and they are they're
+
+[295.259 - 297.84000000000003] vertical which is why they're called
+
+[296.46 - 300.23999999999995] columns
+
+[297.84 - 302.4] they go through the neocortex and most
+
+[300.24 - 304.259] of their connections are local
+
+[302.4 - 307.08] I think something like 90 of a micro
+
+[304.259 - 310.44] columns connections are to neighboring
+
+[307.08 - 312.479] or nearby micro columns but some of the
+
+[310.44 - 314.759] axons are very long and they have very
+
+[312.479 - 317.75899999999996] distal connections so what that would
+
+[314.759 - 319.62] look like here is where most of the
+
+[317.759 - 323.16] connections like go down to this one but
+
+[319.62 - 325.259] then one jumps way over here and so what
+
+[323.16 - 327.72] they found in researching and I don't
+
+[325.259 - 329.699] mean just open AI this is the collective
+
+[327.72 - 331.199] they all all people researching deep
+
+[329.699 - 334.5] neural networks
+
+[331.199 - 337.32] is that if you do pruning or
+
+[334.5 - 339.0] distillation you can actually remove a
+
+[337.32 - 340.5] lot of connections
+
+[339.0 - 343.44] um and still get very similar
+
+[340.5 - 346.979] performance so what does this do this
+
+[343.44 - 349.44] makes your neural network way way faster
+
+[346.979 - 351.12] because it's doing less processing but
+
+[349.44 - 354.12] it also requires a lot less memory
+
+[351.12 - 354.72] because the tensors are much smaller
+
+[354.12 - 359.46] um
+
+[354.72 - 362.759] so if we have this gigantic leap from uh
+
+[359.46 - 365.63899999999995] from 175 billion parameters to 100
+
+[362.759 - 368.1] trillion parameters a thousand X
+
+[365.639 - 372.12] um you can see that like okay this would
+
+[368.1 - 375.06] this would not scale well so if
+
+[372.12 - 377.1] we have a jump in parameter count like
+
+[375.06 - 379.919] that we almost certainly have a switch
+
+[377.1 - 382.74] from dense to sparse networks
+
+[379.919 - 384.29999999999995] um that's my personal prediction another
+
+[382.74 - 386.46000000000004] thing is when you just look at the
+
+[384.3 - 388.02000000000004] constraints I don't know if it's scales
+
+[386.46 - 391.38] like this
+
+[388.02 - 392.81899999999996] um but GPT gpt3 takes 700 gigabytes of
+
+[391.38 - 394.62] vram
+
+[392.819 - 395.94] and if you have a thousand times as many
+
+[394.62 - 398.34000000000003] parameters
+
+[395.94 - 401.1] if if it is a one-to-one that would be
+
+[398.34 - 402.84] 700 terabytes of vram that computer
+
+[401.1 - 405.36] would cost hundreds of millions of
+
+[402.84 - 408.11999999999995] dollars I think to run
+
+[405.36 - 409.8] um I don't think that open AI has
+
+[408.12 - 413.699] invested that much on a computer and if
+
+[409.8 - 415.86] they have that is you know uh really big
+
+[413.699 - 417.479] um but with the memory saving and
+
+[415.86 - 420.06] processing saving that you can get from
+
+[417.479 - 422.52] sparse networks this is probably the way
+
+[420.06 - 425.1] that they achieve that
+
+[422.52 - 426.84] um the other alternative is maybe it is
+
+[425.1 - 429.3] smaller maybe it isn't much bigger than
+
+[426.84 - 430.979] gpt3 maybe it's in the 1 trillion
+
+[429.3 - 433.08] parameter range or the 10 trillion
+
+[430.979 - 435.06] parameter range in which case it would
+
+[433.08 - 438.78] still benefit from sparsity
+
+[435.06 - 440.22] so I I'm gonna put my money on that gpt4
+
+[438.78 - 442.55999999999995] is sparse
+
+[440.22 - 446.03900000000004] um this could also be why it has taken
+
+[442.56 - 449.099] like two uh two plus years
+
+[446.039 - 452.46] um I guess we'll get from 2019
+
+[449.099 - 455.819] um when uh or sorry early 2020
+
+[452.46 - 458.75899999999996] um so now we're early 2023 so yeah it's
+
+[455.819 - 460.44] been like you know it's been a while
+
+[458.759 - 461.699] um so maybe they went back to the
+
+[460.44 - 463.979] drawing board and they're like okay now
+
+[461.699 - 466.259] we've got a master sparse networks
+
+[463.979 - 468.12] um if that's the case great
+
+[466.259 - 469.68] um that could be that could be why it
+
+[468.12 - 472.02] has taken so long because they needed to
+
+[469.68 - 474.539] switch from dense to sparse and you know
+
+[472.02 - 477.06] and there's new training algorithms you
+
+[474.539 - 478.62] know how do you how do you do Dropout
+
+[477.06 - 480.12] um how do you do what are your loss
+
+[478.62 - 481.62] functions look like
+
+[480.12 - 483.18] um because it there's a lot more that
+
+[481.62 - 484.319] goes into it than just pruning
+
+[483.18 - 486.36] connections
+
+[484.319 - 488.94] um you have to have algorithmic changes
+
+[486.36 - 491.099] so I'm gonna I'm still gonna put my
+
+[488.94 - 492.84] money on sparse I I suspect that sparse
+
+[491.099 - 494.819] is the way to go
+
+[492.84 - 496.79999999999995] um because of uh Technologies like
+
+[494.819 - 499.68] Google switch and wudow
+
+[496.8 - 502.259] um so speaking of if it moves to sparse
+
+[499.68 - 503.46] and there's some algorithmic changes
+
+[502.259 - 506.22] is it going to have a different
+
+[503.46 - 508.25899999999996] architecture is it maybe switching to
+
+[506.22 - 510.66] like the Google the the Google switch
+
+[508.259 - 512.88] architecture which kind of has an only
+
+[510.66 - 515.039] activate what you need which means that
+
+[512.88 - 516.959] if that's the case you can have neural
+
+[515.039 - 518.58] networks that are enormous and most of
+
+[516.959 - 520.8] them stay off
+
+[518.58 - 523.26] so you know that myth that like you only
+
+[520.8 - 525.8389999999999] use 10 of your brain
+
+[523.26 - 528.6] um that's not true but what happens the
+
+[525.839 - 530.58] reason that that originally came to be
+
+[528.6 - 533.399] is because when you're doing specific
+
+[530.58 - 534.839] tasks relatively small regions of your
+
+[533.399 - 536.82] brain light up a little bit more than
+
+[534.839 - 540.7790000000001] the rest your brain has a basal
+
+[536.82 - 542.1600000000001] metabolic rate a baseline rate of oxygen
+
+[540.779 - 544.56] consumption
+
+[542.16 - 546.959] um your brain uses energy all the time
+
+[544.56 - 549.3] just to keep itself alive and to keep
+
+[546.959 - 553.7399999999999] its synaptic Pathways
+
+[549.3 - 555.779] um uh um healthy but when you're doing a
+
+[553.74 - 557.94] specific task you might have like your
+
+[555.779 - 560.1] occipital uh activates when you're doing
+
+[557.94 - 561.899] a Vizio spatial test or Visio spatials
+
+[560.1 - 563.82] along the side I don't remember what I
+
+[561.899 - 566.7] think language activates the occipital
+
+[563.82 - 569.279] anyways point being is that the human
+
+[566.7 - 571.1400000000001] brain will you won't activate the whole
+
+[569.279 - 573.72] brain all at once right it would be too
+
+[571.14 - 576.54] chaotic it would be like you know you
+
+[573.72 - 578.7] did a a whole bunch of like you know
+
+[576.54 - 580.56] stimulants and you were at a rock
+
+[578.7 - 582.0] concert and you were running a marathon
+
+[580.56 - 583.8] like you know your brain can't handle
+
+[582.0 - 585.18] that much activation there was a movie
+
+[583.8 - 586.38] called Lucy
+
+[585.18 - 588.3] um where they're like what if there was
+
+[586.38 - 590.22] what if there was a a synthetic
+
+[588.3 - 591.959] substance that could activate your whole
+
+[590.22 - 593.58] brain what would that be like I'm
+
+[591.959 - 595.5] telling you it would be like a grand mal
+
+[593.58 - 597.6] epileptic seizure it would not be like
+
+[595.5 - 599.22] Lucy sorry
+
+[597.6 - 602.519] um so
+
+[599.22 - 605.339] if we are going neuromorphic
+
+[602.519 - 607.8] by using sparse networks maybe there's
+
+[605.339 - 609.1800000000001] also a new architectural Paradigm and
+
+[607.8 - 611.16] it's not even new like they didn't
+
+[609.18 - 612.42] invent it Google already did this and I
+
+[611.16 - 613.98] don't know who invented it before Google
+
+[612.42 - 616.14] but Google implemented it with their
+
+[613.98 - 617.22] switch Transformer where one of the
+
+[616.14 - 620.22] differences you've got these little
+
+[617.22 - 621.48] routers right and that basically says
+
+[620.22 - 623.339] okay we need this part of the network
+
+[621.48 - 625.44] over here so send the data there we need
+
+[623.339 - 627.36] this this and this and so rather than
+
+[625.44 - 629.94] just activating uh circuits of
+
+[627.36 - 632.1] parameters you can activate larger units
+
+[629.94 - 634.1400000000001] of circuits and so maybe what we're
+
+[632.1 - 637.019] getting to is there where there is a
+
+[634.14 - 638.6999999999999] slightly more neuromorphic architecture
+
+[637.019 - 640.92] where we're starting to approximate
+
+[638.7 - 642.3000000000001] things like micro columns and cortical
+
+[640.92 - 645.24] regions
+
+[642.3 - 648.54] um in uh in these neural networks now
+
+[645.24 - 651.0600000000001] this is wild speculation on my part this
+
+[648.54 - 653.2199999999999] is just by reading a bookshelf full of
+
+[651.06 - 655.92] Neuroscience and watching the way that
+
+[653.22 - 659.279] this is going it seems like there's some
+
+[655.92 - 661.14] you know the the more brain-like we make
+
+[659.279 - 663.12] these things the better they get so it's
+
+[661.14 - 665.1] like okay we have one model of strong
+
+[663.12 - 667.62] intelligence why don't we just copy the
+
+[665.1 - 670.019] brain as closely as we can and so by
+
+[667.62 - 672.54] copying not just the the individual
+
+[670.019 - 675.36] neuron Behavior but the behavior of
+
+[672.54 - 677.459] micro columns and cortical regions or at
+
+[675.36 - 680.22] least approximating that obviously it's
+
+[677.459 - 683.399] not like oh here's the next an occipital
+
+[680.22 - 685.98] region of the network anyways getting
+
+[683.399 - 689.1] lost in the weeds point being is I'm
+
+[685.98 - 691.2] wondering if gpt4 if it is much bigger
+
+[689.1 - 693.32] if it is allowing for these kinds of
+
+[691.2 - 697.8000000000001] specialized regions which could also
+
+[693.32 - 701.7] save on uh processing speed and memory
+
+[697.8 - 704.76] again you know brains have been around
+
+[701.7 - 707.0400000000001] for more than a billion years so Nature
+
+[704.76 - 708.4399999999999] has had a while to optimize this this
+
+[707.04 - 711.779] algorithm
+
+[708.44 - 713.6400000000001] okay so let's talk training data
+
+[711.779 - 715.98] what
+
+[713.64 - 718.14] what what is it um you know what what
+
+[715.98 - 720.899] was it trained on uh the the general
+
+[718.14 - 723.06] Rumor for a while that I've seen on
+
+[720.899 - 725.22] Twitter and and elsewhere is that this
+
+[723.06 - 727.26] gpt4 has been trained on quote a
+
+[725.22 - 729.779] significant portion of the internet AKA
+
+[727.26 - 731.519] most of the internet apparently
+
+[729.779 - 733.56] um obviously they probably wanted to
+
+[731.519 - 735.0600000000001] filter out a lot of stuff so you know
+
+[733.56 - 736.7399999999999] it's but at that point you're just
+
+[735.06 - 740.279] discriminating against like the bottom
+
+[736.74 - 741.899] like 25 or the bottom 50 of content
+
+[740.279 - 744.3] um you want to avoid like gibberish
+
+[741.899 - 745.98] stuff that's just flat out lies or very
+
+[744.3 - 747.4799999999999] harmful or whatever
+
+[745.98 - 750.839] um there's all kinds of ways that you
+
+[747.48 - 752.88] can you can rapidly score content
+
+[750.839 - 755.399] um and just to exclude it right
+
+[752.88 - 757.68] don't let the worms in your brain
+
+[755.399 - 760.32] um so there's a there's a there's a
+
+[757.68 - 762.5999999999999] concept called information diet and uh
+
+[760.32 - 764.399] you know if you consume really hateful
+
+[762.6 - 766.2] content you become a more hateful person
+
+[764.399 - 768.42] because that's in your brain If you
+
+[766.2 - 770.399] consume a lot of bad news you become
+
+[768.42 - 772.92] anxious because that's in your brain so
+
+[770.399 - 774.839] the same thing is true of of neural
+
+[772.92 - 776.76] networks and any machine learning models
+
+[774.839 - 780.6] is that if you let the toxic stuff in
+
+[776.76 - 782.399] the toxic stuff is there so uh if it was
+
+[780.6 - 784.8000000000001] trained on a on a quote a significant
+
+[782.399 - 786.66] portion of the internet I hope that what
+
+[784.8 - 789.4799999999999] they did was they had a really good
+
+[786.66 - 791.76] maybe a reinforcement learning signal or
+
+[789.48 - 795.0] other ways of discriminating against
+
+[791.76 - 797.279] data not to let in so like letting in
+
+[795.0 - 800.88] stuff that is more factual letting stuff
+
+[797.279 - 803.639] that is less hateful or more
+
+[800.88 - 804.779] um uh more conscientious and kind etc
+
+[803.639 - 805.6800000000001] etc
+
+[804.779 - 808.32] um
+
+[805.68 - 810.0] who knows that's just something that I
+
+[808.32 - 812.22] would think of if I was responsible for
+
+[810.0 - 814.5] scraping together a huge
+
+[812.22 - 816.779] um huge data set
+
+[814.5 - 819.24] um so one thing to keep in mind is that
+
+[816.779 - 820.74] scaling laws of data
+
+[819.24 - 822.42] um there were some comments on my last
+
+[820.74 - 825.0] YouTube video I I don't know that
+
+[822.42 - 827.8199999999999] there's actually consensus yet on like
+
+[825.0 - 831.899] how much data but the in general like in
+
+[827.82 - 834.5400000000001] order to get linear Improvement in uh
+
+[831.899 - 838.38] deep large language model performance
+
+[834.54 - 840.3] you need exponentially more data so the
+
+[838.38 - 843.18] amount of data might actually be the
+
+[840.3 - 845.579] biggest constraint because if gpt3 was
+
+[843.18 - 846.959] already trained on a huge portion of the
+
+[845.579 - 848.9399999999999] internet of the of the quality
+
+[846.959 - 851.2399999999999] information on the internet then it's
+
+[848.94 - 855.24] like okay well you can't
+
+[851.24 - 857.16] is there 10 times more data uh than gpt3
+
+[855.24 - 858.66] was trained on probably is there a
+
+[857.16 - 860.459] thousand times more I don't know about
+
+[858.66 - 861.899] that it's it's certainly not if you're
+
+[860.459 - 865.5] going to discriminate against low
+
+[861.899 - 868.32] quality data so I heard a rumor I think
+
+[865.5 - 872.279] it was Bax actually told me this that he
+
+[868.32 - 874.0790000000001] thinks that that's why uh open AI did
+
+[872.279 - 876.42] whisper because they're like we ran out
+
+[874.079 - 878.279] of data but we need to go after more
+
+[876.42 - 880.62] data so they're like let's transcribe
+
+[878.279 - 882.779] every audiobook every podcast every
+
+[880.62 - 884.4590000000001] YouTube video and that's why they did
+
+[882.779 - 887.3389999999999] Whispers because they needed more high
+
+[884.459 - 888.779] quality audio data who knows
+
+[887.339 - 890.5790000000001] um and then and because that what that
+
+[888.779 - 893.639] what whisper does is it converts audio
+
+[890.579 - 895.62] data into text Data maybe that's why
+
+[893.639 - 897.1800000000001] they did it I don't know because the
+
+[895.62 - 899.399] thing is is that whisper is still not
+
+[897.18 - 902.3389999999999] speaker aware it doesn't do speaker
+
+[899.399 - 903.959] identity recognition it just does a raw
+
+[902.339 - 906.899] transcription
+
+[903.959 - 908.88] um you know one to one
+
+[906.899 - 911.279] um which because speaker speaker
+
+[908.88 - 912.48] identity recognition is a much harder
+
+[911.279 - 914.579] problem
+
+[912.48 - 916.74] um or at least I don't think it does
+
+[914.579 - 918.779] um it might be able to to discern like
+
+[916.74 - 920.76] when one person is speaking in the and
+
+[918.779 - 922.139] then another person starts speaking not
+
+[920.76 - 924.12] sure
+
+[922.139 - 926.82] um so then there's another question what
+
+[924.12 - 928.86] about private data sets
+
+[926.82 - 930.779] um you know every big company has many
+
+[928.86 - 933.72] many petabytes of data every university
+
+[930.779 - 935.399] has many many petabytes of data none of
+
+[933.72 - 937.5] which is accessible on the internet most
+
+[935.399 - 940.139] of which is not even accessible via API
+
+[937.5 - 942.779] it's it's cloistered right it's it's
+
+[940.139 - 945.24] buried off in Warrens
+
+[942.779 - 947.1] um so some of the most valuable data in
+
+[945.24 - 948.0600000000001] the world is not available on the
+
+[947.1 - 950.94] internet
+
+[948.06 - 956.2199999999999] so this represents one of the biggest
+
+[950.94 - 958.3800000000001] gaps for any uh for anyone who wants to
+
+[956.22 - 960.6] create AGI is because it's like okay
+
+[958.38 - 963.42] well if if you're trained only on
+
+[960.6 - 966.0] internet data yes a significant portion
+
+[963.42 - 967.9799999999999] of human knowledge and wisdom is on the
+
+[966.0 - 971.459] internet but the most valuable stuff is
+
+[967.98 - 973.019] not right I mean most of the content in
+
+[971.459 - 973.9799999999999] my bookcase is not available on the
+
+[973.019 - 976.62] internet
+
+[973.98 - 979.0790000000001] like you still have to read paper books
+
+[976.62 - 980.76] or you know ePub books
+
+[979.079 - 982.9799999999999] um in order to get most of that and much
+
+[980.76 - 985.8] of that is protected by DRM
+
+[982.98 - 987.0] um like you can't just take it and read
+
+[985.8 - 989.399] it
+
+[987.0 - 991.079] um or maybe you can I don't know uh I I
+
+[989.399 - 993.12] think I think it has yet to be fully
+
+[991.079 - 997.1389999999999] litigated as to whether or not you can
+
+[993.12 - 999.36] train a neural network on you know uh on
+
+[997.139 - 1001.22] someone's uh an author's book without
+
+[999.36 - 1003.38] their permission
+
+[1001.22 - 1006.44] um but you know still point being is
+
+[1003.38 - 1008.8389999999999] like uh did they get access to all
+
+[1006.44 - 1011.12] credible published works not just what's
+
+[1008.839 - 1012.8000000000001] on Gutenberg right
+
+[1011.12 - 1014.3] um now one thing I want to point out is
+
+[1012.8 - 1016.3389999999999] that for the last about year and a half
+
+[1014.3 - 1019.04] openai has been putting out calls that
+
+[1016.339 - 1019.5790000000001] they want to work with top experts
+
+[1019.04 - 1024.1399999999999] um
+
+[1019.579 - 1025.579] and so is it our my first thought was
+
+[1024.14 - 1027.38] okay they're they're going to talk with
+
+[1025.579 - 1028.819] top experts to figure out what data to
+
+[1027.38 - 1031.88] add I don't know
+
+[1028.819 - 1035.36] um or maybe to test it who knows
+
+[1031.88 - 1038.1200000000001] um so I have also not seen much work on
+
+[1035.36 - 1040.04] excuse me external Integrations
+
+[1038.12 - 1042.7399999999998] um because open AI it seems like they're
+
+[1040.04 - 1044.1789999999999] laser focused just on the model they're
+
+[1042.74 - 1046.28] not they're they're not thinking about
+
+[1044.179 - 1047.3600000000001] cognitive architectures they're not
+
+[1046.28 - 1051.08] thinking about
+
+[1047.36 - 1052.6399999999999] um knowledge bases uh you know or
+
+[1051.08 - 1053.8999999999999] anything like that they're focused just
+
+[1052.64 - 1055.8200000000002] on the model
+
+[1053.9 - 1057.8600000000001] which you know they seem like they're
+
+[1055.82 - 1059.24] doing pretty good at it but to me that
+
+[1057.86 - 1062.059] represents a big gap and we'll talk
+
+[1059.24 - 1066.38] about gaps at the end of this video
+
+[1062.059 - 1067.22] okay so let's talk about modality
+
+[1066.38 - 1070.22] um
+
+[1067.22 - 1072.559] modality is whether or not it is like
+
+[1070.22 - 1075.559] what kind of data it handles is it just
+
+[1072.559 - 1077.1789999999999] text because gpt3 is text in textile
+
+[1075.559 - 1080.48] that's it
+
+[1077.179 - 1083.1200000000001] um but open AI also has Dolly and
+
+[1080.48 - 1086.0] Whisper which is uh image and audio
+
+[1083.12 - 1089.299] respectively so they're clearly
+
+[1086.0 - 1091.4] experimenting with other modalities but
+
+[1089.299 - 1093.799] I haven't really seen any papers about
+
+[1091.4 - 1095.24] how to integrate these now one thing
+
+[1093.799 - 1096.9189999999999] that I will say is that the thing that
+
+[1095.24 - 1099.74] they all have in common is text right
+
+[1096.919 - 1102.26] because dolly is text image and Whisper
+
+[1099.74 - 1103.88] is audio to text so they're working in
+
+[1102.26 - 1106.16] that direction
+
+[1103.88 - 1108.74] um but I I think you have to be able to
+
+[1106.16 - 1110.9] go both ways like if you if if Whisper
+
+[1108.74 - 1113.1200000000001] had another module that allowed you to
+
+[1110.9 - 1115.5800000000002] go from like text to audio and then
+
+[1113.12 - 1117.9189999999999] audio to text like back and forth that
+
+[1115.58 - 1120.26] would tell me that it's closer to being
+
+[1117.919 - 1121.7] ready for full integration with a large
+
+[1120.26 - 1123.679] multimodal model
+
+[1121.7 - 1126.26] ditto for Dolly
+
+[1123.679 - 1128.299] um and and of course like we can do uh
+
+[1126.26 - 1131.0] audio synthesis we can do image
+
+[1128.299 - 1133.28] synthesis we can also do text uh image
+
+[1131.0 - 1135.2] to text those are all out there but
+
+[1133.28 - 1137.72] until we can figure out how to do like
+
+[1135.2 - 1140.299] both directions with one model I don't
+
+[1137.72 - 1143.78] think it's going to be ready for uh for
+
+[1140.299 - 1146.0] integration into a GPT kind of uh model
+
+[1143.78 - 1148.7] now that being said I do remember seeing
+
+[1146.0 - 1151.1] a paper that wanted to treat
+
+[1148.7 - 1153.02] um all data as just bits and bytes don't
+
+[1151.1 - 1154.76] even tokenize it or tokenize the bits
+
+[1153.02 - 1157.16] and bytes and then it doesn't matter
+
+[1154.76 - 1158.66] what file type you put in all right then
+
+[1157.16 - 1162.0800000000002] you can put in a text file a Word
+
+[1158.66 - 1163.4] document a JPEG or whatever so that
+
+[1162.08 - 1165.08] could be another direction that things
+
+[1163.4 - 1166.64] are going I don't know if that research
+
+[1165.08 - 1168.1999999999998] ever panned out I don't even remember
+
+[1166.64 - 1169.22] who published that research I think it
+
+[1168.2 - 1171.679] was Google
+
+[1169.22 - 1174.919] or they said instead of tokenizing text
+
+[1171.679 - 1177.0800000000002] let's just tokenize the actual like the
+
+[1174.919 - 1179.2990000000002] at the bit level right
+
+[1177.08 - 1180.86] um going in and I'll remember what size
+
+[1179.299 - 1184.1] um chunks they did
+
+[1180.86 - 1187.1599999999999] um because let's see if gpt3 has tokens
+
+[1184.1 - 1188.8999999999999] that uh 50 000 different tokens that
+
+[1187.16 - 1194.1200000000001] would be about
+
+[1188.9 - 1196.16] um 16 bit because 32-bit is is 16 I
+
+[1194.12 - 1197.6599999999999] don't remember anyways so it's probably
+
+[1196.16 - 1201.74] it's probably
+
+[1197.66 - 1203.3600000000001] um 16 or 24 bit uh tokens
+
+[1201.74 - 1206.66] um and then you can represent any data
+
+[1203.36 - 1209.059] type but I don't know if we're there yet
+
+[1206.66 - 1210.8600000000001] um the other problem with that is uh
+
+[1209.059 - 1211.96] what format what data type are you
+
+[1210.86 - 1214.2199999999998] getting out
+
+[1211.96 - 1215.66] because if you train a if you train a
+
+[1214.22 - 1216.559] deep neural network to be able to read
+
+[1215.66 - 1218.8400000000001] any
+
+[1216.559 - 1220.6399999999999] file type how do you know what file type
+
+[1218.84 - 1224.1789999999999] it's going to put out you probably have
+
+[1220.64 - 1227.9] to come up with a standardized output
+
+[1224.179 - 1230.179] so I suspect we're just going to stick
+
+[1227.9 - 1232.76] with text I haven't really seen quite
+
+[1230.179 - 1235.1000000000001] enough evidence that gpt4 is going to be
+
+[1232.76 - 1237.679] multimodal I'll be surprised if it is
+
+[1235.1 - 1239.7199999999998] let's talk about window size
+
+[1237.679 - 1241.539] so I picked a very small window because
+
+[1239.72 - 1246.559] those of us that were
+
+[1241.539 - 1250.52] the OG users of uh of gpt3 will remember
+
+[1246.559 - 1253.82] that uh we had a 2000 token window limit
+
+[1250.52 - 1255.08] and uh that got real limiting real fast
+
+[1253.82 - 1258.74] um because that's barely enough to put
+
+[1255.08 - 1260.8999999999999] in like even just a a few a good few
+
+[1258.74 - 1263.179] shot prompt and then you don't have much
+
+[1260.9 - 1266.9] left for the output
+
+[1263.179 - 1269.24] um so chat GPT is rumored to have 8 000
+
+[1266.9 - 1270.98] tokens that seems to be the general
+
+[1269.24 - 1273.559] consensus and I kind of agree with that
+
+[1270.98 - 1276.6200000000001] just having used chat GPT because it
+
+[1273.559 - 1278.299] seems like it's got a pretty long memory
+
+[1276.62 - 1280.52] um now that being said there are other
+
+[1278.299 - 1284.12] tricks that you can do to make it appear
+
+[1280.52 - 1286.039] like it has a longer memory you can do a
+
+[1284.12 - 1288.62] recursive summarization you can do
+
+[1286.039 - 1292.28] scratch Pad you can do search
+
+[1288.62 - 1295.6399999999999] um so but people seem to seem to agree
+
+[1292.28 - 1297.32] that chat GPT has 8 000 tokens it could
+
+[1295.64 - 1299.419] it might be more might be less this is
+
+[1297.32 - 1301.76] just like like we noticed the trend of
+
+[1299.419 - 1303.38] the original was 2000 now we have four
+
+[1301.76 - 1305.48] thousand and we suspect eight thousand
+
+[1303.38 - 1306.44] today so if it's continuing to double
+
+[1305.48 - 1309.26] sure
+
+[1306.44 - 1311.8400000000001] now one rumor from Twitter said that
+
+[1309.26 - 1314.72] gpt4 can write a 60 000 word book from a
+
+[1311.84 - 1318.6789999999999] single prompt I'm pretty sure this
+
+[1314.72 - 1320.059] person was just bsing us because that
+
+[1318.679 - 1321.5] would be nearly two hundred thousand
+
+[1320.059 - 1323.1789999999999] tokens
+
+[1321.5 - 1327.98] um it actually could be more because I
+
+[1323.179 - 1329.6000000000001] think uh on average a word is 3.6 tokens
+
+[1327.98 - 1333.38] um and this is just like normal English
+
+[1329.6 - 1336.1999999999998] is 3.6 tokens per word
+
+[1333.38 - 1337.94] um and that includes spaces and um and
+
+[1336.2 - 1340.28] and punctuation and stuff so I'm talking
+
+[1337.94 - 1342.38] about the whole document
+
+[1340.28 - 1343.7] um so that would be 200 000 tokens or
+
+[1342.38 - 1346.5200000000002] more
+
+[1343.7 - 1348.559] um so I doubt I seriously doubt that
+
+[1346.52 - 1351.08] seems really sus
+
+[1348.559 - 1353.8999999999999] so what we're more likely to see is
+
+[1351.08 - 1357.02] something in the 8000 token range
+
+[1353.9 - 1358.4] um like you do the math uh it could
+
+[1357.02 - 1360.08] could be more
+
+[1358.4 - 1362.48] um window size is one of the biggest
+
+[1360.08 - 1364.1] constraints for all of us
+
+[1362.48 - 1367.1] um you know whether you want to do legal
+
+[1364.1 - 1369.5] documents or fiction or medical texts or
+
+[1367.1 - 1370.4599999999998] scientific research because here's one
+
+[1369.5 - 1374.6] thing
+
+[1370.46 - 1375.919] while GPT Technologies can like you just
+
+[1374.6 - 1377.12] give it a problem and it'll write
+
+[1375.919 - 1379.039] through it
+
+[1377.12 - 1381.86] um without you know it doesn't ever have
+
+[1379.039 - 1385.4] um writer's block or or uh or any kind
+
+[1381.86 - 1387.08] of like inhibition it just writes
+
+[1385.4 - 1388.76] um it also has a lot of latent space it
+
+[1387.08 - 1392.6589999999999] has a lot of stuff that it has memorized
+
+[1388.76 - 1394.22] but the the working memory right the
+
+[1392.659 - 1396.5590000000002] short-term working memory that it has
+
+[1394.22 - 1398.24] access to is much much smaller than
+
+[1396.559 - 1400.52] human working memory which is one of the
+
+[1398.24 - 1402.919] biggest constraints it's like giving a
+
+[1400.52 - 1405.74] task to a toddler right you can give a
+
+[1402.919 - 1407.659] toddler one instruction and they'll you
+
+[1405.74 - 1409.58] know or maybe a three or four year old
+
+[1407.659 - 1411.2600000000002] you can give them one instruction and
+
+[1409.58 - 1414.1999999999998] that's all that they have the brain
+
+[1411.26 - 1416.96] capacity to handle so I guess what I'm
+
+[1414.2 - 1419.0] saying is that gpt3 is is roughly like
+
+[1416.96 - 1420.98] you know a toddler or a three-year-old
+
+[1419.0 - 1422.36] that you know knows just about
+
+[1420.98 - 1424.039] everything
+
+[1422.36 - 1425.6589999999999] um that came from my interview with Anna
+
+[1424.039 - 1428.179] Bernstein
+
+[1425.659 - 1429.98] um I really like that analogy so is gpt4
+
+[1428.179 - 1431.48] maybe it's as smart as like a
+
+[1429.98 - 1435.44] six-year-old right
+
+[1431.48 - 1439.34] who knows but 8 000 tokens is about 2500
+
+[1435.44 - 1441.559] words or 10 pages of text so you could
+
+[1439.34 - 1444.5] have you know one page of input and then
+
+[1441.559 - 1446.12] nine pages of output which is not bad
+
+[1444.5 - 1448.76] um that would that would be pretty good
+
+[1446.12 - 1450.7399999999998] like I'm I I'm telling you I'm pretty
+
+[1448.76 - 1453.2] excited even just about 8 000 tokens
+
+[1450.74 - 1454.88] there's a lot that I could do with that
+
+[1453.2 - 1459.679] um there's still limits though
+
+[1454.88 - 1463.2800000000002] so aiming for for 8 000 hopefully more
+
+[1459.679 - 1464.8400000000001] um but yeah little Windows no good
+
+[1463.28 - 1468.62] um confabulation
+
+[1464.84 - 1470.78] so I have not seen any research
+
+[1468.62 - 1472.1589999999999] about confabulation now that doesn't
+
+[1470.78 - 1474.62] mean it hasn't happened but it hasn't
+
+[1472.159 - 1476.3600000000001] percolated up to my attention
+
+[1474.62 - 1479.36] um and everyone who has worked with
+
+[1476.36 - 1481.58] prompt engineering uh knows that if you
+
+[1479.36 - 1485.24] tell GPT not to do something it will do
+
+[1481.58 - 1487.58] it because it has it it really does not
+
+[1485.24 - 1489.919] understand negatives and in my interview
+
+[1487.58 - 1491.6589999999999] with the folks at Tau they explained
+
+[1489.919 - 1493.46] that this is a mathematical limitation
+
+[1491.659 - 1496.4] of this architecture type it doesn't
+
+[1493.46 - 1499.82] understand formal logic all it does is
+
+[1496.4 - 1503.1200000000001] understanding generation so in in human
+
+[1499.82 - 1506.539] neural terms it doesn't have inhibition
+
+[1503.12 - 1508.6399999999999] so we have uh there's there's two
+
+[1506.539 - 1511.4] overarching types of neurons in our
+
+[1508.64 - 1513.6200000000001] neocortex there's excitatory neurons and
+
+[1511.4 - 1515.539] and inhibitory neurons so you have
+
+[1513.62 - 1517.52] neurons that want to generate signals
+
+[1515.539 - 1520.64] and then you have uh neurons that want
+
+[1517.52 - 1523.1589999999999] to stop signals and you can have either
+
+[1520.64 - 1524.96] relationship where if one neuron is
+
+[1523.159 - 1527.0] activated it will deactivate a whole
+
+[1524.96 - 1530.3600000000001] other circuit so that's an inhibitory
+
+[1527.0 - 1533.26] function so as far as I know
+
+[1530.36 - 1535.8799999999999] um no research like that no inhibitory
+
+[1533.26 - 1538.58] research has been done into deep neural
+
+[1535.88 - 1541.7] networks so if this is true
+
+[1538.58 - 1544.1589999999999] then this represents a huge fundamental
+
+[1541.7 - 1545.96] Gap in the abilities of deep neural
+
+[1544.159 - 1548.179] networks if they don't have the ability
+
+[1545.96 - 1550.279] to stay no don't do that they can only
+
+[1548.179 - 1552.26] generate it's like it's like driving a
+
+[1550.279 - 1555.74] car that only has a gas pedal you can
+
+[1552.26 - 1557.6] steer right and you can go but to slow
+
+[1555.74 - 1559.46] down you just have to wait for you to
+
+[1557.6 - 1562.4599999999998] like find a hill or run into something
+
+[1559.46 - 1565.039] right which is exactly like the only the
+
+[1562.46 - 1567.32] only the only way that um these models
+
+[1565.039 - 1570.74] have to stop is you can do uh log it
+
+[1567.32 - 1572.12] bias which just avoids certain tokens I
+
+[1570.74 - 1573.38] found that that does that doesn't even
+
+[1572.12 - 1576.5] work
+
+[1573.38 - 1579.0200000000002] um 99 of the time you can also just have
+
+[1576.5 - 1580.94] a stop token where it just says like you
+
+[1579.02 - 1583.34] cut it off right but that's not the same
+
+[1580.94 - 1585.919] as neural inhibition in humans because
+
+[1583.34 - 1587.4189999999999] neural inhibition in humans is like okay
+
+[1585.919 - 1589.64] I'm going to start and think in this
+
+[1587.419 - 1591.2] direction uh there's no value there so
+
+[1589.64 - 1594.44] I'm going to stop that thought process
+
+[1591.2 - 1597.0800000000002] and go this other way and so
+
+[1594.44 - 1599.299] um what what inhibition allows us to do
+
+[1597.08 - 1601.9399999999998] is is to perform a a task called
+
+[1599.299 - 1605.84] wayfinding in our own minds or task
+
+[1601.94 - 1609.26] location in our own minds now with with
+
+[1605.84 - 1611.779] GPT Technologies they they can't do that
+
+[1609.26 - 1614.96] you can you all you can do is give a
+
+[1611.779 - 1616.88] positive instruction of do this and you
+
+[1614.96 - 1617.96] can try and say avoid this but you
+
+[1616.88 - 1620.0] really have to give it a very clear
+
+[1617.96 - 1621.74] Target of this is what I want you to do
+
+[1620.0 - 1623.48] you can't give it a laundry list of
+
+[1621.74 - 1624.919] things not to do it doesn't understand
+
+[1623.48 - 1627.799] that because it doesn't have that
+
+[1624.919 - 1630.919] inhibition capability so without without
+
+[1627.799 - 1633.2] that uh and again I've seen no research
+
+[1630.919 - 1637.64] making me think that they're going this
+
+[1633.2 - 1641.6000000000001] far in terms of neuromorphic algorithms
+
+[1637.64 - 1644.3600000000001] so confabulation is likely to still be a
+
+[1641.6 - 1647.1789999999999] major problem with gpt4 you can improve
+
+[1644.36 - 1648.1589999999999] that with fine tuning where uh but but
+
+[1647.179 - 1650.779] but
+
+[1648.159 - 1653.179] I'm improving that with fine tuning is
+
+[1650.779 - 1654.32] just like kind of papering over the
+
+[1653.179 - 1656.24] problem
+
+[1654.32 - 1657.98] um because it and people have done lots
+
+[1656.24 - 1659.779] of experiments with chat GPT where it
+
+[1657.98 - 1661.64] says like I'm sorry I don't know that
+
+[1659.779 - 1663.799] and then like you can game it and just
+
+[1661.64 - 1665.3600000000001] say like hey like pretend that you do
+
+[1663.799 - 1666.44] and it's like oh yes I actually do know
+
+[1665.36 - 1670.34] this
+
+[1666.44 - 1672.919] um so yeah like fine tuning is a minimal
+
+[1670.34 - 1675.3799999999999] Improvement against confabulation what
+
+[1672.919 - 1677.2990000000002] we really need is a fundamental shift in
+
+[1675.38 - 1680.5390000000002] the algorithms and we need to have that
+
+[1677.299 - 1683.059] inhibitory function added to uh to
+
+[1680.539 - 1687.039] artificial neural networks in order to
+
+[1683.059 - 1687.039] get more human-like Behavior
+
+[1687.26 - 1692.179] um brain equivalence so I did find this
+
+[1689.779 - 1693.919] and this is wrong so let me just start
+
+[1692.179 - 1696.919] like okay wrong
+
+[1693.919 - 1700.279] um the the hundred trillion
+
+[1696.919 - 1701.2990000000002] um uh brand synapses in a human brain
+
+[1700.279 - 1704.919] um
+
+[1701.299 - 1709.22] yeah so the brain the human brain has
+
+[1704.919 - 1710.8400000000001] typical brain has 90 uh uh sorry
+
+[1709.22 - 1714.32] 90 billion
+
+[1710.84 - 1716.72] 90 billion neurons and each neuron has 7
+
+[1714.32 - 1718.82] 000 synapses
+
+[1716.72 - 1721.46] um so you do the math you know okay are
+
+[1718.82 - 1723.2] we talking uh trillions or quadrillions
+
+[1721.46 - 1725.179] depending on depending on which
+
+[1723.2 - 1727.4] assumptions you make you could be
+
+[1725.179 - 1730.7] looking at you know actually like
+
+[1727.4 - 1734.659] quadrillions of of synapses now that
+
+[1730.7 - 1736.22] being said a parameter is not equal to a
+
+[1734.659 - 1739.159] synapse this is the thing that is prime
+
+[1736.22 - 1740.84] that is most wrong about this so let's
+
+[1739.159 - 1743.179] just let's just assume that the the
+
+[1740.84 - 1746.299] neuron count is right that that human
+
+[1743.179 - 1748.279] brains have over 100 trillion synapses
+
+[1746.299 - 1750.559] now there was a paper that was released
+
+[1748.279 - 1752.419] a while ago that said that it takes a
+
+[1750.559 - 1754.76] thousand parameters
+
+[1752.419 - 1758.539] of a of a deep neural network to
+
+[1754.76 - 1761.24] approximate one single neuron right so
+
+[1758.539 - 1765.08] then it's like okay so then are we
+
+[1761.24 - 1768.44] talking neurons or synapses or or what
+
+[1765.08 - 1772.34] um but so then like
+
+[1768.44 - 1775.22] if if that's the case then gpd3 with 175
+
+[1772.34 - 1778.8799999999999] billion parameters only has the
+
+[1775.22 - 1782.72] equivalent of 175 million neurons right
+
+[1778.88 - 1785.2990000000002] uh so 175 million neurons compared to uh
+
+[1782.72 - 1787.88] the human brain's 90 billion or 100
+
+[1785.299 - 1790.8799999999999] billion or whatever so we've got a lot
+
+[1787.88 - 1795.5590000000002] of ways to go so the proportions are
+
+[1790.88 - 1797.3600000000001] roughly ish okay but like take this the
+
+[1795.559 - 1800.96] whole point here is take this with a
+
+[1797.36 - 1804.26] grain of salt and even if uh gpt4 is a
+
+[1800.96 - 1807.6200000000001] thousand times bigger than gpt3 it's
+
+[1804.26 - 1810.62] still like down here and you know but it
+
+[1807.62 - 1812.84] it does scale exponentially right and so
+
+[1810.62 - 1815.0] you know going from going up a thousand
+
+[1812.84 - 1817.52] if it goes up a thousand X again then it
+
+[1815.0 - 1819.26] could be you know human brain level so
+
+[1817.52 - 1821.779] maybe we're just one or two generations
+
+[1819.26 - 1824.24] of large language models before we have
+
+[1821.779 - 1826.82] human equivalent uh at least in terms of
+
+[1824.24 - 1829.46] raw numbers uh again there's other
+
+[1826.82 - 1833.299] problems like modality and and inhibit
+
+[1829.46 - 1836.3600000000001] uh inhibition circuits
+
+[1833.299 - 1839.059] um okay so let's uh let's start to wrap
+
+[1836.36 - 1842.12] up and talk about some other rumors and
+
+[1839.059 - 1846.32] uh Witnesses so everybody knows someone
+
+[1842.12 - 1849.4399999999998] who has seen gpt4 at this point it seems
+
+[1846.32 - 1851.24] um so but there's also uh
+
+[1849.44 - 1853.1000000000001] lots and lots of noise and
+
+[1851.24 - 1855.98] misinformation
+
+[1853.1 - 1857.899] um so some of the stuff that that you
+
+[1855.98 - 1859.58] know there there are people that
+
+[1857.899 - 1863.6] credibly have seen it but of course
+
+[1859.58 - 1867.5] anyone who has seen gpd4 is is under NDA
+
+[1863.6 - 1869.7199999999998] and so they won't give any details
+
+[1867.5 - 1873.74] um people have been very uh let's say
+
+[1869.72 - 1874.94] zealous about honoring their ndas
+
+[1873.74 - 1876.98] um and so
+
+[1874.94 - 1879.679] basically the two things that I have
+
+[1876.98 - 1881.96] heard is it's a step change
+
+[1879.679 - 1884.779] um that like the difference between GPT
+
+[1881.96 - 1888.2] 3 and gpt4 is as big as the difference
+
+[1884.779 - 1890.539] between gpt2 and gpt3 that's about all
+
+[1888.2 - 1892.52] that people have signed in NDA are
+
+[1890.539 - 1895.779] willing to say
+
+[1892.52 - 1899.36] um so anyone else who says otherwise
+
+[1895.779 - 1902.12] you know I don't I don't know
+
+[1899.36 - 1904.1] um people people seem uh
+
+[1902.12 - 1905.36] the the feeling that I get when I talk
+
+[1904.1 - 1907.2199999999998] to people it's like I know someone who
+
+[1905.36 - 1909.6789999999999] knows someone who saw it right it's like
+
+[1907.22 - 1912.14] in hushed Whispers it's coming
+
+[1909.679 - 1913.88] um you know so I don't really see any
+
+[1912.14 - 1916.22] fear though
+
+[1913.88 - 1918.2] um just some vague awe
+
+[1916.22 - 1919.82] um and so this this was the tweet that I
+
+[1918.2 - 1921.44] said like it can write a 60 000 word
+
+[1919.82 - 1922.82] book from a single prompt I don't
+
+[1921.44 - 1924.919] believe that
+
+[1922.82 - 1927.559] um it probably can write maybe a tenth
+
+[1924.919 - 1929.539] of a book you know six thousand words I
+
+[1927.559 - 1931.52] I could believe that
+
+[1929.539 - 1933.02] um you know but it might maybe even less
+
+[1931.52 - 1935.0] than that
+
+[1933.02 - 1936.9189999999999] um so yeah there's there's rumors
+
+[1935.0 - 1938.6] running wild a lot of misinformation and
+
+[1936.919 - 1940.279] and a lot of it is people just joking
+
+[1938.6 - 1941.7199999999998] around and trolling I'm not saying that
+
+[1940.279 - 1944.72] it's like malicious misinformation
+
+[1941.72 - 1946.46] people are just having fun with it
+
+[1944.72 - 1949.82] um so what's still missing
+
+[1946.46 - 1951.679] so there has been very little talk on
+
+[1949.82 - 1953.6] cognitive architecture
+
+[1951.679 - 1956.48] um but thanks to Jan lacun who released
+
+[1953.6 - 1960.3799999999999] a paper about a cognitive architecture
+
+[1956.48 - 1963.559] um it was not particularly sophisticated
+
+[1960.38 - 1964.5200000000002] um but it's move in the right direction
+
+[1963.559 - 1966.6789999999999] um so we need to talk more about
+
+[1964.52 - 1968.6] cognitive architecture because no matter
+
+[1966.679 - 1971.8990000000001] how big your model gets it's just a
+
+[1968.6 - 1973.58] brain in a jar right so there's also not
+
+[1971.899 - 1975.799] a whole lot of research on external
+
+[1973.58 - 1977.899] Integrations which some of this is on
+
+[1975.799 - 1979.52] purpose so I want to acknowledge the
+
+[1977.899 - 1982.34] alignment researchers out there who say
+
+[1979.52 - 1984.44] no we actually it's actually quite on
+
+[1982.34 - 1986.36] purpose that we are not integrating
+
+[1984.44 - 1989.8990000000001] these models until we understand them
+
+[1986.36 - 1991.279] until we have things like inhibition and
+
+[1989.899 - 1993.4399999999998] until we can understand the black
+
+[1991.279 - 1995.36] boxiness and we and they have more
+
+[1993.44 - 1996.8600000000001] explainability
+
+[1995.36 - 1999.1399999999999] um so cognitive architecture and
+
+[1996.86 - 2000.2199999999998] external Integrations these are things
+
+[1999.14 - 2002.8600000000001] that
+
+[2000.22 - 2005.019] um could be being left out on purpose
+
+[2002.86 - 2006.34] now just because they're being left out
+
+[2005.019 - 2008.6200000000001] on purpose doesn't mean that it's not
+
+[2006.34 - 2009.82] missing this is an integral part of the
+
+[2008.62 - 2011.9189999999999] research
+
+[2009.82 - 2014.559] um and I actually in my last video about
+
+[2011.919 - 2016.0] AGI about how some people say that
+
+[2014.559 - 2017.74] um before something can be considered
+
+[2016.0 - 2019.48] truly intelligent it needs to be
+
+[2017.74 - 2020.799] embodied I don't know that it fully
+
+[2019.48 - 2022.059] needs to be embodied but it certainly
+
+[2020.799 - 2023.679] needs to be connected to what we would
+
+[2022.059 - 2026.44] consider the real world or at least a
+
+[2023.679 - 2028.96] simulated world but as long as it's a
+
+[2026.44 - 2030.3990000000001] brain in a jar you know the the input
+
+[2028.96 - 2034.1200000000001] and output is just a little bit of text
+
+[2030.399 - 2036.1] it has no idea what world it lives in
+
+[2034.12 - 2038.08] um so then there's there's two other
+
+[2036.1 - 2041.74] problems one is short-term memory and
+
+[2038.08 - 2043.36] long-term memory so short-term memory
+
+[2041.74 - 2045.039] um these These are completely
+
+[2043.36 - 2047.08] transactional
+
+[2045.039 - 2048.58] um and and what I mean by that is you
+
+[2047.08 - 2050.139] put in a little bit of text you get a
+
+[2048.58 - 2051.7599999999998] little bit of text out and that state is
+
+[2050.139 - 2053.44] lost forever
+
+[2051.76 - 2055.8390000000004] um one person explained to me that this
+
+[2053.44 - 2058.839] is also part of alignment research
+
+[2055.839 - 2062.56] because if it has no persistent state if
+
+[2058.839 - 2065.5] it has if if it has Amnesia then it
+
+[2062.56 - 2068.619] can't keep track of long-term goals and
+
+[2065.5 - 2071.32] so that is considered a safety aspect of
+
+[2068.619 - 2073.119] it where it's like if if uh if it's
+
+[2071.32 - 2074.98] completely ephemeral
+
+[2073.119 - 2077.98] and it forgets everything all the time
+
+[2074.98 - 2079.96] then it cannot construct long-term goals
+
+[2077.98 - 2081.76] unless of course you have external
+
+[2079.96 - 2084.099] Integrations and cognitive architectures
+
+[2081.76 - 2086.679] and long-term memory systems like
+
+[2084.099 - 2090.8790000000004] semantic search and databases
+
+[2086.679 - 2093.28] um so uh it might be it might be very on
+
+[2090.879 - 2096.22] purpose that there is no recurrent input
+
+[2093.28 - 2098.44] or a way to maintain a neural state
+
+[2096.22 - 2100.5989999999997] right because
+
+[2098.44 - 2102.76] um yeah that could be a safety thing now
+
+[2100.599 - 2104.8590000000004] again just because it's on purpose and
+
+[2102.76 - 2107.26] it's for safety reasons doesn't mean
+
+[2104.859 - 2109.5989999999997] that it's not missing from the research
+
+[2107.26 - 2112.3590000000004] um and and that it it it it shouldn't be
+
+[2109.599 - 2113.56] done but I can understand why such a
+
+[2112.359 - 2115.18] thing might not be released to the
+
+[2113.56 - 2116.56] public
+
+[2115.18 - 2119.74] um I already mentioned confabulation
+
+[2116.56 - 2122.38] control and inhibition or negatives
+
+[2119.74 - 2123.7599999999998] um uh so like I said it's basically a
+
+[2122.38 - 2127.119] brain in the jar but the biggest
+
+[2123.76 - 2130.119] criticism is openness
+
+[2127.119 - 2132.94] um and and I understand that there is a
+
+[2130.119 - 2135.76] huge profit motive here
+
+[2132.94 - 2137.14] um for everyone to everyone who's a
+
+[2135.76 - 2139.42] researched this is not just open AI
+
+[2137.14 - 2141.16] everyone who's working on this stuff now
+
+[2139.42 - 2143.26] that the cat is out of the bag and the
+
+[2141.16 - 2145.72] and the The Profit value is there the
+
+[2143.26 - 2149.619] profit motive is there Google open AI
+
+[2145.72 - 2152.859] Microsoft Nvidia uh meta everyone I
+
+[2149.619 - 2156.099] expect everyone is going to kind of clam
+
+[2152.859 - 2158.5] up about their their Innovations
+
+[2156.099 - 2160.3] um and in some respects it's like okay I
+
+[2158.5 - 2162.22] get it you know they want to have they
+
+[2160.3 - 2164.6800000000003] want to have um you know their little
+
+[2162.22 - 2168.0989999999997] slice of the pie their little you know
+
+[2164.68 - 2169.66] um their little special uh products and
+
+[2168.099 - 2172.2400000000002] services
+
+[2169.66 - 2175.42] um but one one concern that I have about
+
+[2172.24 - 2179.0989999999997] this is that especially as we approach
+
+[2175.42 - 2181.359] AGI and Singularity and whatever else
+
+[2179.099 - 2184.1800000000003] that feels pretty dangerous to me
+
+[2181.359 - 2186.5789999999997] because here's the thing is these models
+
+[2184.18 - 2188.2599999999998] are so big that only you know billion
+
+[2186.579 - 2190.0600000000004] dollar companies can afford to build
+
+[2188.26 - 2193.119] them and run them anyways
+
+[2190.06 - 2195.22] and so by by not allowing other people
+
+[2193.119 - 2198.52] to look under the hood I'm really
+
+[2195.22 - 2200.8199999999997] concerned and this is why I'm glad that
+
+[2198.52 - 2203.619] like eleuther and anthropic and other
+
+[2200.82 - 2207.82] companies exist like they built Bloom
+
+[2203.619 - 2209.56] it's an open source version of gpt3
+
+[2207.82 - 2211.9] um and they they did that to prove that
+
+[2209.56 - 2214.119] it can be done and honestly I think it
+
+[2211.9 - 2216.52] should be done I think that I think that
+
+[2214.119 - 2220.9] I think that we should work together
+
+[2216.52 - 2223.54] more on this stuff and and this this
+
+[2220.9 - 2226.3] criticism is directed at open AI because
+
+[2223.54 - 2228.4] even in the name open AI like it's not
+
+[2226.3 - 2230.38] it's not really open anymore and that's
+
+[2228.4 - 2231.64] kind of scary now that being said that
+
+[2230.38 - 2232.96] doesn't mean that they're not going to
+
+[2231.64 - 2236.6189999999997] release a paper because they did release
+
+[2232.96 - 2238.119] a paper with gpt3 so
+
+[2236.619 - 2240.099] um I want I want to temper my own
+
+[2238.119 - 2242.44] criticism by saying that I'm kind of
+
+[2240.099 - 2244.42] taking a wait and see approach to say I
+
+[2242.44 - 2247.42] really hope that with the release of
+
+[2244.42 - 2249.339] gpt4 they at least publish a paper so
+
+[2247.42 - 2250.7200000000003] that other people in the open source
+
+[2249.339 - 2253.359] Community can start working on
+
+[2250.72 - 2254.6189999999997] recreating it and catching up
+
+[2253.359 - 2255.94] um so that's that's the biggest thing
+
+[2254.619 - 2258.46] that's missing
+
+[2255.94 - 2262.14] thanks for watching time will tell with
+
+[2258.46 - 2262.14] all of this have a good one

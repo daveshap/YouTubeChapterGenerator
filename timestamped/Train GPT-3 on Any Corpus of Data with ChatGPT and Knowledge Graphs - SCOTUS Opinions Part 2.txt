@@ -1,0 +1,1745 @@
+[3.899 - 8.46] good morning everybody David Shapiro
+
+[5.7 - 10.379999999999999] here we are back for part two of the um
+
+[8.46 - 11.519000000000002] Knowledge Graph Supreme Court decision
+
+[10.38 - 15.360000000000001] thing
+
+[11.519 - 16.68] so we're using chat GPT and gpt3 to help
+
+[15.36 - 19.38] us along
+
+[16.68 - 21.6] and as a quick recap where we left off
+
+[19.38 - 24.538999999999998] was
+
+[21.6 - 27.42] um I didn't get that far
+
+[24.539 - 29.46] um but I downloaded about 22 Supreme
+
+[27.42 - 32.7] Court opinions this was about Anti-Trust
+
+[29.46 - 34.620000000000005] law so a very specific domain
+
+[32.7 - 36.660000000000004] um and then I got them converted to text
+
+[34.62 - 39.959999999999994] so that is
+
+[36.66 - 43.379] um I did that with another uh repo it's
+
+[39.96 - 45.36] fine but then what we did was the the
+
+[43.379 - 48.66] big thing that we achieved was that we
+
+[45.36 - 51.66] figured out that we can get gpt3 to just
+
+[48.66 - 54.599999999999994] go ahead and write my um write the uh
+
+[51.66 - 55.919999999999995] Whatchamacallit for us the the knowledge
+
+[54.6 - 59.52] graph Json
+
+[55.92 - 62.879000000000005] and so what I'm doing is the nodes that
+
+[59.52 - 65.46000000000001] I asked for was each node should be a
+
+[62.879 - 67.439] case citation precedent or prior opinion
+
+[65.46 - 69.05999999999999] each node should have several properties
+
+[67.439 - 70.5] such as date case number involved
+
+[69.06 - 73.38] parties reasoning for including in this
+
+[70.5 - 75.36] opinion and other relevant information
+
+[73.38 - 76.86] so that
+
+[75.36 - 78.6] um worked really well because you see
+
+[76.86 - 81.72] like it's got a case number it tells me
+
+[78.6 - 85.19999999999999] when it happened and then the reasoning
+
+[81.72 - 86.939] so like involve parties like great this
+
+[85.2 - 88.799] is Phenom this is phenomenal information
+
+[86.939 - 92.39999999999999] so what we're doing is we're going to
+
+[88.799 - 94.97900000000001] create a cross-linked web as to like why
+
+[92.4 - 97.02000000000001] all these things are interlinked so that
+
+[94.979 - 100.259] way theoretically
+
+[97.02 - 102.6] if a uh the the this hypothetical use
+
+[100.259 - 105.84] case if an attorney is researching
+
+[102.6 - 107.759] antitrust laws so that one they can you
+
+[105.84 - 109.86] know go to a court court of appeals or
+
+[107.759 - 112.32] even present to the Supreme Court they
+
+[109.86 - 114.72] will have a masterful understanding of
+
+[112.32 - 117.65899999999999] established law and the reason that this
+
+[114.72 - 120.78] is important is because common law is um
+
+[117.659 - 123.06] how law Works in America it's by prior
+
+[120.78 - 125.219] precedent is the so you've got the the
+
+[123.06 - 127.02] laws that are laid down by the
+
+[125.219 - 129.84] legislative branch and then interpreted
+
+[127.02 - 131.879] by the judicial branch and so the
+
+[129.84 - 133.98] judicial branch keeps track of their own
+
+[131.879 - 135.66] interpretation right because there's the
+
+[133.98 - 137.39999999999998] legislative branches it it has to do
+
+[135.66 - 139.5] with separation of powers anyways so
+
+[137.4 - 142.68] that's how we got Where We Are
+
+[139.5 - 144.599] um it worked really well and um there's
+
+[142.68 - 145.8] all kinds of what-ifs and gotchas that
+
+[144.599 - 148.61999999999998] I'm not going to worry about because
+
+[145.8 - 151.26000000000002] this worked really well and we can
+
+[148.62 - 153.48000000000002] iterate over the over the long term so
+
+[151.26 - 155.64] but this I had to plug in manually
+
+[153.48 - 157.73899999999998] and it's about four pages
+
+[155.64 - 159.77999999999997] so like if we do if we search for how
+
+[157.739 - 162.84] many new pages there are
+
+[159.78 - 165.84] one two three yeah one two three so that
+
+[162.84 - 166.5] this has four pages total
+
+[165.84 - 169.44] um
+
+[166.5 - 171.84] which the that that was good so the next
+
+[169.44 - 174.42] problem is we got to take these and
+
+[171.84 - 176.58] regardless of how long they are
+
+[174.42 - 180.95899999999997] we have to break them down into chunks
+
+[176.58 - 182.76000000000002] of four pages maximum so rather than do
+
+[180.959 - 186.48] this manually I was like why don't I
+
+[182.76 - 189.54] just ask chat GPT so here we go
+
+[186.48 - 190.64] um I have a folder named
+
+[189.54 - 193.26] um
+
+[190.64 - 195.2] uh let's see
+
+[193.26 - 197.7] um opinions
+
+[195.2 - 199.85999999999999] uh text
+
+[197.7 - 202.379] um this folder
+
+[199.86 - 203.76000000000002] contains
+
+[202.379 - 210.0] um
+
+[203.76 - 211.07999999999998] uh text files of scotus decisions
+
+[210.0 - 216.0] um
+
+[211.08 - 219.48000000000002] that were converted from PDFs the
+
+[216.0 - 221.459] pages are demarcated
+
+[219.48 - 224.159] by
+
+[221.459 - 228.12] um by the words new page
+
+[224.159 - 230.28] I need a python function
+
+[228.12 - 233.159] so I'm basically talking to this thing
+
+[230.28 - 236.819] like I'd be talking to a developer I
+
+[233.159 - 238.879] need the python function where I pass
+
+[236.819 - 238.879] um
+
+[238.98 - 243.959] pass uh
+
+[241.56 - 245.7] actually no I actually let's just ask it
+
+[243.959 - 247.68] to do the whole thing I need a python
+
+[245.7 - 249.83999999999997] function that
+
+[247.68 - 252.9] um reads every
+
+[249.84 - 257.04] uh uh file in
+
+[252.9 - 259.16] opinions underscore text
+
+[257.04 - 259.16] um
+
+[259.979 - 269.639] and then breaks each file into chunks of
+
+[266.699 - 270.84000000000003] four pages
+
+[269.639 - 274.44] um
+
+[270.84 - 275.21999999999997] the purpose of this is to
+
+[274.44 - 276.66] um
+
+[275.22 - 282.18] limit
+
+[276.66 - 286.5] the size of each subsequent file
+
+[282.18 - 288.06] please then save the chunks
+
+[286.5 - 289.259] into
+
+[288.06 - 293.759] um
+
+[289.259 - 296.04] into a folder named chunks
+
+[293.759 - 297.18] text
+
+[296.04 - 299.28000000000003] um
+
+[297.18 - 302.88] and append
+
+[299.28 - 306.23999999999995] um a serial number to
+
+[302.88 - 308.699] the original file name
+
+[306.24 - 311.639] for instance
+
+[308.699 - 313.44] um you know star underscore one star
+
+[311.639 - 314.88] underscore
+
+[313.44 - 317.699] two
+
+[314.88 - 320.71999999999997] and so on
+
+[317.699 - 320.72] all right let's see what it does
+
+[323.88 - 329.479] why would this
+
+[325.86 - 329.47900000000004] violate the content policy
+
+[331.979 - 336.25899999999996] okay I sent in feedback
+
+[334.56 - 339.36] um let's see what we've got
+
+[336.259 - 341.699] so import OS split text files input
+
+[339.36 - 344.34000000000003] folder output folder pages per chunk so
+
+[341.699 - 345.0] good it's parameterized it
+
+[344.34 - 348.539] um
+
+[345.0 - 350.1] if not uh output folder make it nice
+
+[348.539 - 353.639] okay
+
+[350.1 - 356.94] for file and Os Lister input folder
+
+[353.639 - 360.66] um with open OS path join input folder
+
+[356.94 - 363.18] file r as F read it excellent Pages
+
+[360.66 - 365.52000000000004] equals split on new page perfect so it
+
+[363.18 - 368.40000000000003] understood that for I and chunk
+
+[365.52 - 370.38] enumerate page range zero pages per
+
+[368.4 - 372.78] chunk excellent so this is this is a
+
+[370.38 - 375.259] list comprehension that will break it
+
+[372.78 - 378.23999999999995] into equal chunks or chunks of four
+
+[375.259 - 383.639] output file equals this underscore plus
+
+[378.24 - 385.259] oh dang that's good that's good okay
+
+[383.639 - 388.139] um this is wonderful
+
+[385.259 - 389.46000000000004] so let's go to this
+
+[388.139 - 390.96000000000004] um I had started writing it and then I
+
+[389.46 - 393.08] was like I don't have the energy for
+
+[390.96 - 393.08] this
+
+[393.139 - 398.40000000000003] I'm telling you I have said it on
+
+[396.12 - 399.9] Twitter and I've said it on mostly
+
+[398.4 - 403.13899999999995] Twitter but LinkedIn and a few other
+
+[399.9 - 405.23999999999995] places English your ability to describe
+
+[403.139 - 408.3] what you want is going to be the primary
+
+[405.24 - 411.84000000000003] programming language from now on period
+
+[408.3 - 413.36] end of story if you can think through a
+
+[411.84 - 414.9] function
+
+[413.36 - 418.02000000000004] then
+
+[414.9 - 420.35999999999996] um yeah this is this is it so let's run
+
+[418.02 - 423.84] this let's see if this worked
+
+[420.36 - 426.36] um need a command prompt CD and we're in
+
+[423.84 - 428.81899999999996] the scotus opinions
+
+[426.36 - 431.66] um and then we'll do python step 01
+
+[428.819 - 431.66] split chunks
+
+[431.699 - 435.44] why you no work
+
+[433.8 - 439.46000000000004] um this actually happens quite a bit
+
+[435.44 - 439.46] let's see if it can fix it
+
+[440.639 - 444.599] um
+
+[441.84 - 448.13899999999995] so
+
+[444.599 - 451.46] thanks that mostly worked but through
+
+[448.139 - 451.46000000000004] this error
+
+[452.759 - 458.22] and you fixed that error please
+
+[456.479 - 460.8] now if this can debug this I know
+
+[458.22 - 463.02000000000004] exactly what it is
+
+[460.8 - 466.039] yep
+
+[463.02 - 466.039] yep there you go
+
+[473.699 - 479.599] you need to specify the encoding
+
+[476.099 - 479.599] yep perfect
+
+[482.28 - 487.46] oh wow okay it's saying add the ignore
+
+[485.16 - 487.46000000000004] flag
+
+[488.28 - 494.9] wonderful wonderful adding encoding
+
+[491.46 - 494.9] utf-8 should be sufficient
+
+[495.06 - 498.68] um so that goes to do
+
+[498.72 - 501.56] right here
+
+[505.919 - 510.19899999999996] hmm
+
+[507.3 - 510.199] fascinating
+
+[511.86 - 515.24] did it get farther
+
+[515.64 - 522.06] this is weird though input folder file
+
+[518.659 - 524.76] contents read encoding utf-8 as infile
+
+[522.06 - 525.3599999999999] so sometimes this happens
+
+[524.76 - 528.06] um
+
+[525.36 - 530.399] let's see what is the encoding here so
+
+[528.06 - 531.899] sometimes what I do is I'll convert it
+
+[530.399 - 533.779] to something
+
+[531.899 - 537.019] and then I'll
+
+[533.779 - 537.019] convert back
+
+[537.66 - 540.26] so let's
+
+[542.399 - 546.12] yeah hmm
+
+[547.08 - 552.1800000000001] I wonder what happens if we do let's add
+
+[550.2 - 553.6800000000001] let's add that ignore thing rather than
+
+[552.18 - 557.4799999999999] rather than getting lost in the weeds
+
+[553.68 - 557.4799999999999] let's just do errors equal ignore
+
+[558.66 - 563.42] because you know what I looked at the
+
+[559.98 - 563.4200000000001] text file it looks fine to me
+
+[563.64 - 570.24] oh and let's also see if it um
+
+[567.54 - 572.519] okay it got pretty far already so it got
+
+[570.24 - 573.779] pretty far in the process before blowing
+
+[572.519 - 575.88] up
+
+[573.779 - 579.18] one two three so now we've got all the
+
+[575.88 - 580.2] chunks cool cool cool
+
+[579.18 - 583.1999999999999] um
+
+[580.2 - 585.98] all right heck with it send it
+
+[583.2 - 585.98] what do you mean
+
+[587.58 - 590.899] this was in
+
+[591.18 - 596.0999999999999] so this was in Split text files
+
+[593.94 - 599.1] F right oh it couldn't write it
+
+[596.1 - 599.1] interesting
+
+[599.66 - 603.7199999999999] oh okay okay okay
+
+[602.82 - 605.7600000000001] um
+
+[603.72 - 608.399] so when we write it we need to we need
+
+[605.76 - 609.6] to convert it to ASCII and back
+
+[608.399 - 613.279] um so
+
+[609.6 - 613.279] let's see if it understands this
+
+[613.74 - 618.66] oh man I'll be I'll be jazzed if it if
+
+[615.72 - 622.5] it understands this okay um
+
+[618.66 - 623.76] great that worked uh now I have a new
+
+[622.5 - 627.14] problem
+
+[623.76 - 627.14] here's the error
+
+[627.3 - 633.74] um please find a solution for this new
+
+[631.32 - 633.74] bug
+
+[634.44 - 640.019] so what so the problem here is and I
+
+[638.399 - 642.8] um yeah that you're trying to join a
+
+[640.019 - 646.76] list of strings that contain spaces
+
+[642.8 - 646.76] I don't think so
+
+[653.7 - 657.74] new page nope that's not it
+
+[664.14 - 671.8199999999999] replace no no
+
+[667.459 - 674.6999999999999] I don't think that's it I think we need
+
+[671.82 - 677.279] to fix the um
+
+[674.7 - 682.0400000000001] string encoding
+
+[677.279 - 682.04] um here's the last part of the error
+
+[686.04 - 691.399] I feel like I'm talking to like Hal
+
+[688.44 - 691.399] 9000.
+
+[692.519 - 696.5] yep there it is that's it
+
+[699.66 - 702.26] yep
+
+[703.019 - 709.079] ah so we need to add the encoding to to
+
+[705.18 - 712.6999999999999] utf-8 right okay that makes sense
+
+[709.079 - 712.6999999999999] this thing is smarter than me
+
+[714.0 - 719.399] um okay so when we write it yeah oh
+
+[716.399 - 723.3] that's the problem I okay
+
+[719.399 - 726.779] um encoding equals UTF eight okay cool
+
+[723.3 - 729.4799999999999] but uh this took way less brain power
+
+[726.779 - 732.72] okay let's see if that works DLS clear
+
+[729.48 - 735.9590000000001] screen that was fast all right so now we
+
+[732.72 - 737.64] have 144 chunks of text let's see what
+
+[735.959 - 739.38] the biggest one is
+
+[737.64 - 741.63] 20
+
+[739.38 - 744.48] uh
+
+[741.63 - 745.64] [Laughter]
+
+[744.48 - 749.24] uh
+
+[745.64 - 749.24] [Laughter]
+
+[751.74 - 757.04] I think the uh I think the OCR messed up
+
+[754.5 - 757.04] with this one
+
+[758.16 - 764.16] why do you
+
+[759.66 - 767.1] believe that the Sherman Act okay I'm
+
+[764.16 - 768.6] probably disturbing my audience
+
+[767.1 - 770.7] what's funny is that it got the capital
+
+[768.6 - 773.22] letters fine but then the rest it's like
+
+[770.7 - 775.2] no I wonder if it was like if the
+
+[773.22 - 777.0] scanner bed was like moving too slowly
+
+[775.2 - 779.36] or something
+
+[777.0 - 779.36] foreign
+
+[781.399 - 785.88] I'm sorry okay
+
+[784.5 - 788.48] I'm gonna pause this because I'm gonna
+
+[785.88 - 788.48] keep laughing
+
+[791.399 - 795.3] okay I had to stop and make myself tea
+
+[793.26 - 799.9399999999999] I'm still probably gonna be looking a
+
+[795.3 - 803.519] bit I'm sorry okay now normally
+
+[799.94 - 805.44] oh sorry oh I don't know why this is so
+
+[803.519 - 808.44] funny normally
+
+[805.44 - 810.48] um this would uh what I would do is just
+
+[808.44 - 812.22] delete data but in this case I don't
+
+[810.48 - 814.9200000000001] want to lose anything and imagine like
+
+[812.22 - 817.639] what if half of our files were like this
+
+[814.92 - 821.399] so let's come up with a solution
+
+[817.639 - 823.2] so I'm going to with so this this this
+
+[821.399 - 824.339] this function works so I'm going to say
+
+[823.2 - 826.9200000000001] okay cool
+
+[824.339 - 830.1600000000001] let's make a new script
+
+[826.92 - 832.8] so let's go back over to Chad GPT
+
+[830.16 - 837.3] great that all worked
+
+[832.8 - 840.12] um but it turns out the OCR barfed on a
+
+[837.3 - 840.899] few files so the
+
+[840.12 - 844.16] um
+
+[840.899 - 848.6] so there are lots of duplicated
+
+[844.16 - 848.6] characters such as
+
+[849.36 - 856.2] um please write a new script using
+
+[853.22 - 859.5] Spacey or nltk
+
+[856.2 - 861.779] to um de-duplicate
+
+[859.5 - 863.88] uh extra
+
+[861.779 - 865.4399999999999] characters
+
+[863.88 - 866.76] um
+
+[865.44 - 870.48] search
+
+[866.76 - 872.16] through all the files in
+
+[870.48 - 875.88] um see what was the folder name
+
+[872.16 - 879.0] chunks.text in
+
+[875.88 - 881.6] chunks underscore text
+
+[879.0 - 884.279] um deduplicate
+
+[881.6 - 889.86] deduplicate characters
+
+[884.279 - 892.74] um and then save the cleaned up copy
+
+[889.86 - 893.48] um in a new folder called
+
+[892.74 - 897.0790000000001] um
+
+[893.48 - 897.0790000000001] dedupt text
+
+[905.639 - 908.42] all right
+
+[940.56 - 943.399] will that work
+
+[946.44 - 952.1600000000001] I don't know if that'll work
+
+[948.839 - 952.1600000000001] is Spacey that good
+
+[954.06 - 957.3199999999999] or T and Doc
+
+[959.16 - 963.36] um okay
+
+[961.5 - 966.26] I think I'll need to add the encoding
+
+[963.36 - 966.26] but let's give it a shot
+
+[966.72 - 972.48] and let me make sure I've got Pippin pip
+
+[969.12 - 973.62] install Spacey
+
+[972.48 - 976.0790000000001] okay
+
+[973.62 - 977.699] so while that's running I will do
+
+[976.079 - 981.92] save
+
+[977.699 - 981.92] and we'll come back here and we'll do
+
+[982.5 - 987.779] um Step oh
+
+[984.06 - 990.899] two oh so you might notice I started I I
+
+[987.779 - 992.22] um I do my functions like in order so
+
+[990.899 - 994.199] that way like if you're looking at this
+
+[992.22 - 995.6990000000001] repo you don't have to like try and
+
+[994.199 - 997.62] reverse engineer what order to run
+
+[995.699 - 999.4799999999999] things in like it's just intrinsic
+
+[997.62 - 1001.16] documentation
+
+[999.48 - 1005.1990000000001] um dedupe
+
+[1001.16 - 1005.199] characters dot pi
+
+[1005.6 - 1009.44] okay
+
+[1007.06 - 1013.5999999999999] python step
+
+[1009.44 - 1015.8000000000001] O2 and I know that it's going to barf on
+
+[1013.6 - 1020.32] this so let's do
+
+[1015.8 - 1024.319] any coding E equals UTF
+
+[1020.32 - 1027.439] utf-9 utf-9 is clearly better than utf-8
+
+[1024.319 - 1030.26] right it's the next mission
+
+[1027.439 - 1033.0790000000002] sorry I'm in a mood today apparently
+
+[1030.26 - 1035.14] you having a giggle Mite okay
+
+[1033.079 - 1035.1399999999999] um
+
+[1035.419 - 1038.38] let's see if it works
+
+[1040.4 - 1045.26] I'm not going to use the GPU for
+
+[1042.559 - 1047.72] something this simple it's a small
+
+[1045.26 - 1050.36] skipping registered can't find and it
+
+[1047.72 - 1053.08] doesn't seem to be a python package
+
+[1050.36 - 1053.08] huh
+
+[1057.5 - 1061.039] let's see
+
+[1060.32 - 1065.62] um
+
+[1061.039 - 1065.62] it gave me this error
+
+[1066.74 - 1070.0] what does it mean
+
+[1070.4 - 1073.66] it didn't work
+
+[1078.14 - 1082.6000000000001] and this is the value of having good
+
+[1079.7 - 1082.6000000000001] error messages kids
+
+[1097.4 - 1101.799] interesting
+
+[1099.14 - 1101.7990000000002] all right
+
+[1111.14 - 1117.22] let's see if that worked
+
+[1114.2 - 1117.22] still didn't work
+
+[1120.08 - 1124.8799999999999] um okay
+
+[1122.78 - 1127.3999999999999] all right so in this case it seems like
+
+[1124.88 - 1130.7800000000002] we found a limitation still didn't work
+
+[1127.4 - 1130.7800000000002] Spacey load
+
+[1134.96 - 1138.94] says requirement already satisfied
+
+[1139.039 - 1144.22] yeah it says it's already satisfied
+
+[1142.22 - 1144.22] um
+
+[1144.32 - 1148.1] let's go let's go to Google let's see if
+
+[1146.9 - 1151.179] uh
+
+[1148.1 - 1151.1789999999999] let's see if this
+
+[1158.539 - 1161.3799999999999] all right
+
+[1166.28 - 1168.8799999999999] import
+
+[1175.039 - 1179.5] so it looks like you need to do you need
+
+[1177.14 - 1179.5] to install
+
+[1189.74 - 1192.64] let's try this
+
+[1196.7 - 1200.0800000000002] that looks like it did a thing
+
+[1205.88 - 1209.8400000000001] sorry I wasn't talking through it so
+
+[1207.919 - 1212.6000000000001] basically I was looking I found I found
+
+[1209.84 - 1214.1599999999999] a Spacey issue on GitHub
+
+[1212.6 - 1216.1399999999999] and um
+
+[1214.16 - 1218.78] let's see it hasn't bombed yet so I
+
+[1216.14 - 1220.16] wonder if it's working
+
+[1218.78 - 1223.039] um dedupt
+
+[1220.16 - 1225.799] cool
+
+[1223.039 - 1228.22] there's nothing that's 20 uh no it
+
+[1225.799 - 1228.22] didn't work
+
+[1228.62 - 1231.9399999999998] still didn't work okay
+
+[1233.059 - 1235.059] um
+
+[1239.24 - 1245.059] yeah so seems like Spacey is not
+
+[1242.6 - 1246.9189999999999] sufficient or at least this isn't
+
+[1245.059 - 1251.059] um okay
+
+[1246.919 - 1254.96] so let's go back here go back to this
+
+[1251.059 - 1256.7] um okay I got Spacey to load but the
+
+[1254.96 - 1258.74] original script
+
+[1256.7 - 1260.24] does not work
+
+[1258.74 - 1264.559] the words
+
+[1260.24 - 1269.86] um in some files are still wrong
+
+[1264.559 - 1269.86] um with lots of duplicated characters
+
+[1270.08 - 1273.1] um so for instance
+
+[1276.679 - 1279.5800000000002] for example
+
+[1283.46 - 1287.32] I probably should ask another way
+
+[1287.36 - 1289.78] yep
+
+[1290.539 - 1293.72] yep okay so it's actually going to tell
+
+[1292.94 - 1296.179] me
+
+[1293.72 - 1297.64] yeah use regex so that's regex is
+
+[1296.179 - 1299.72] actually the way I would have done it
+
+[1297.64 - 1301.5200000000002] originally so it looks like this might
+
+[1299.72 - 1303.6200000000001] be the right way to do it it so all
+
+[1301.52 - 1306.1] right let's see what it says
+
+[1303.62 - 1306.1] foreign
+
+[1308.5 - 1312.58] do the same thing okay
+
+[1318.32 - 1321.22] interesting
+
+[1321.74 - 1324.44] okay
+
+[1323.78 - 1327.2] um
+
+[1324.44 - 1331.72] let's give this a try
+
+[1327.2 - 1334.76] I will give that a try but what about
+
+[1331.72 - 1337.28] uh words where
+
+[1334.76 - 1338.96] um there are supposed to be
+
+[1337.28 - 1341.1789999999999] duplicated
+
+[1338.96 - 1342.38] characters
+
+[1341.179 - 1345.26] like
+
+[1342.38 - 1347.74] book or
+
+[1345.26 - 1347.74] look
+
+[1347.96 - 1356.3600000000001] um does yours
+
+[1350.96 - 1358.4] script handle that and we use nltk
+
+[1356.36 - 1363.1399999999999] or Spacey
+
+[1358.4 - 1365.38] or something else to account for correct
+
+[1363.14 - 1365.38] words
+
+[1371.48 - 1375.02] also while this is running I'm going to
+
+[1373.76 - 1376.64] address the elephant in the room and
+
+[1375.02 - 1378.98] that was it like a week ago I made a
+
+[1376.64 - 1380.419] video saying like meh chat GPT isn't
+
+[1378.98 - 1382.82] that great
+
+[1380.419 - 1384.2] um and uh so obviously like I kind of
+
+[1382.82 - 1387.6789999999999] have my foot in my mouth because this is
+
+[1384.2 - 1388.7] amazing it also looks like it failed
+
+[1387.679 - 1390.799] um
+
+[1388.7 - 1393.559] so
+
+[1390.799 - 1395.78] all right let me do a time check we are
+
+[1393.559 - 1396.9189999999999] at 23 minutes so we're almost done for
+
+[1395.78 - 1400.539] the day
+
+[1396.919 - 1400.539] um oh there we go okay
+
+[1410.659 - 1417.2] all right uh it's yeah yeah it'll it's
+
+[1413.24 - 1420.38] gonna give me that thing so I think
+
+[1417.2 - 1423.8600000000001] what we'll do is
+
+[1420.38 - 1426.0200000000002] we'll just check to see if this happens
+
+[1423.86 - 1426.9799999999998] because it's better to have some data
+
+[1426.02 - 1429.9189999999999] than none
+
+[1426.98 - 1432.44] so uh I think what we'll do all right
+
+[1429.919 - 1435.5] split chunks that one worked dedupe
+
+[1432.44 - 1441.2] characters so what we need to do is find
+
+[1435.5 - 1444.64] the ones where this happened right so
+
+[1441.2 - 1444.64] um generally it looks like
+
+[1448.159 - 1451.1200000000001] okay
+
+[1453.98 - 1459.8600000000001] looks like it only happened in one
+
+[1456.44 - 1462.3200000000002] document yeah okay so
+
+[1459.86 - 1465.1399999999999] in this case we'll say we'll pass in any
+
+[1462.32 - 1467.6] file that um
+
+[1465.14 - 1470.539] starts with this
+
+[1467.6 - 1472.3999999999999] so we'll we'll uh we'll we'll eat the
+
+[1470.539 - 1474.2] eat the cost
+
+[1472.4 - 1476.299] and what I mean by that is we'll just
+
+[1474.2 - 1478.5800000000002] Excel accept that some data is not going
+
+[1476.299 - 1481.039] to be quite as good but that's plausible
+
+[1478.58 - 1483.02] because like it's an OCR mistake but the
+
+[1481.039 - 1486.02] thing is is we just need it to be small
+
+[1483.02 - 1487.8799999999999] enough to fit in
+
+[1486.02 - 1491.059] um
+
+[1487.88 - 1493.9] so de-duplicate characters
+
+[1491.059 - 1493.8999999999999] uh
+
+[1501.74 - 1505.6] yeah I don't I don't think this is gonna
+
+[1503.36 - 1505.6] work
+
+[1506.24 - 1511.1] so it it's close but it's not quite
+
+[1509.539 - 1515.9] um thanks
+
+[1511.1 - 1520.82] um can you modify the uh the uh
+
+[1515.9 - 1526.64] the script that uses regex instead
+
+[1520.82 - 1529.48] um the only problem is in files with
+
+[1526.64 - 1529.48] and the name
+
+[1529.52 - 1534.1399999999999] can you just sort
+
+[1531.799 - 1537.4] um or filter filter out
+
+[1534.14 - 1537.4] any other files
+
+[1539.059 - 1544.039] okay so let's see what it comes up with
+
+[1541.4 - 1546.799] there meanwhile it looks like this is
+
+[1544.039 - 1550.82] the largest one that is
+
+[1546.799 - 1552.02] um not good right so it's 13 000
+
+[1550.82 - 1554.0] characters long so let's see how many
+
+[1552.02 - 1556.34] tokens this is
+
+[1554.0 - 1557.96] so as long as it's that's getting pretty
+
+[1556.34 - 1560.6589999999999] close
+
+[1557.96 - 1563.1200000000001] um let's see if we can if if our uh
+
+[1560.659 - 1567.7600000000002] prompt
+
+[1563.12 - 1567.76] will work so prompt
+
+[1575.179 - 1581.299] and then we'll do text DaVinci 03
+
+[1578.84 - 1585.4399999999998] temperature zero and our maximum length
+
+[1581.299 - 1587.779] is going to be like 600 tokens otherwise
+
+[1585.44 - 1589.8200000000002] it's going to be too long so let's see
+
+[1587.779 - 1593.98] if let's see if that's enough
+
+[1589.82 - 1593.98] the output is pretty short so
+
+[1594.02 - 1598.8799999999999] but Json is pretty token intensive so I
+
+[1596.659 - 1600.98] wouldn't be surprised if it yeah so we
+
+[1598.88 - 1604.3400000000001] ran out of space so it looks like we
+
+[1600.98 - 1606.44] need to go back and do smaller chunks
+
+[1604.34 - 1609.4399999999998] um but fortunately these earlier scripts
+
+[1606.44 - 1611.779] are really easy so for instance we just
+
+[1609.44 - 1612.38] come back here and instead of doing
+
+[1611.779 - 1615.14] um
+
+[1612.38 - 1617.419] uh we we just update this so instead of
+
+[1615.14 - 1619.279] four pages we do three
+
+[1617.419 - 1620.8600000000001] and so then what we'll do is we'll come
+
+[1619.279 - 1623.48] in here to
+
+[1620.86 - 1625.2199999999998] opinions is fine chunks let's delete
+
+[1623.48 - 1627.6200000000001] these
+
+[1625.22 - 1631.4] and then we'll rerun
+
+[1627.62 - 1633.5] um python step 01
+
+[1631.4 - 1635.419] and so now what we should have is more
+
+[1633.5 - 1638.24] chunks
+
+[1635.419 - 1641.14] so now we have 188 chunks but you see
+
+[1638.24 - 1641.14] the the um
+
+[1641.24 - 1647.779] that one that one
+
+[1644.72 - 1650.48] so this is this is now the largest and
+
+[1647.779 - 1651.62] it's only 10 kilobytes or nine nine
+
+[1650.48 - 1653.059] thousand
+
+[1651.62 - 1654.4399999999998] um characters long so this should be
+
+[1653.059 - 1655.94] small enough
+
+[1654.44 - 1659.5] to run
+
+[1655.94 - 1659.5] let's see how many tokens it is
+
+[1663.38 - 1668.419] um okay so that's now we're down to 2800
+
+[1665.539 - 1672.74] tokens let me remove the Json part
+
+[1668.419 - 1674.419] so now we're at 2500 tokens tops so we
+
+[1672.74 - 1678.32] can do we can do
+
+[1674.419 - 1680.24] um we can do like 1450 so that's more
+
+[1678.32 - 1682.279] than twice as many tokens so let's see
+
+[1680.24 - 1686.84] it's it's more than twice as many tokens
+
+[1682.279 - 1690.039] with uh 25 less input so theoretically
+
+[1686.84 - 1690.039] this should be the limit
+
+[1690.86 - 1695.12] um cool
+
+[1692.419 - 1698.0200000000002] all right excellent
+
+[1695.12 - 1698.02] I think this is good
+
+[1698.36 - 1701.779] all right so we're almost done for the
+
+[1700.22 - 1702.6200000000001] day
+
+[1701.779 - 1705.2] um
+
+[1702.62 - 1707.539] let's see what chat GPT said
+
+[1705.2 - 1710.24] do you duplicate characters yeah there
+
+[1707.539 - 1712.779] we go okay so let's do this for the D
+
+[1710.24 - 1712.779] dupe
+
+[1713.179 - 1716.96] um so let's come back here
+
+[1715.4 - 1722.6000000000001] save it
+
+[1716.96 - 1725.98] and then we'll do python step O2 dedupe
+
+[1722.6 - 1728.4189999999999] all right we needed to add the um
+
+[1725.98 - 1732.799] Whatchamacallit encoding
+
+[1728.419 - 1734.48] encoding equals UTF eight and then for
+
+[1732.799 - 1739.72] the right
+
+[1734.48 - 1739.72] and coding equals UTF eight
+
+[1740.12 - 1747.6999999999998] okay so now if we go to the dedupt oh
+
+[1744.26 - 1747.7] actually here we need to delete this
+
+[1749.299 - 1754.4189999999999] it did all of them interesting
+
+[1752.299 - 1754.4189999999999] um
+
+[1758.899 - 1764.08] oh it that's no if if not in file
+
+[1765.26 - 1768.44] it got the logic wrong I'm like no it
+
+[1767.12 - 1771.82] was only supposed to do like five of
+
+[1768.44 - 1771.8200000000002] these let's try that again
+
+[1772.76 - 1777.26] there we go okay so now the largest of
+
+[1774.799 - 1779.96] these is eight kilobytes which is plenty
+
+[1777.26 - 1783.14] small so we come back to chunks and
+
+[1779.96 - 1785.059] we'll replace those replace yes so now
+
+[1783.14 - 1788.539] our absolute largest file is 10
+
+[1785.059 - 1791.36] kilobytes 9 300 characters so this
+
+[1788.539 - 1792.44] should all easily fit within
+
+[1791.36 - 1795.1399999999999] um
+
+[1792.44 - 1797.059] no this should all easily fit within our
+
+[1795.14 - 1802.8400000000001] prompt window here
+
+[1797.059 - 1802.84] so now we need to just go ahead and um
+
+[1803.059 - 1808.539] run the thing so all right so let's say
+
+[1809.539 - 1818.899] excellent we are now ready to run our
+
+[1814.399 - 1820.539] uh prompts are you familiar with
+
+[1818.899 - 1824.08] open AI
+
+[1820.539 - 1824.08] python module
+
+[1829.279 - 1833.539] open AI is
+
+[1831.26 - 1834.919] dot dot dot I'm wondering if it's
+
+[1833.539 - 1837.44] slowing down because
+
+[1834.919 - 1839.8400000000001] um uh people are waking up this is one
+
+[1837.44 - 1842.059] advantage of being a super early bird is
+
+[1839.84 - 1844.039] I get up earlier than like everyone else
+
+[1842.059 - 1846.5] granted you know it's always middle of
+
+[1844.039 - 1847.7] the day somewhere in the world
+
+[1846.5 - 1850.179] um
+
+[1847.7 - 1853.82] anyways uh
+
+[1850.179 - 1856.76] so this may or may not help us with um
+
+[1853.82 - 1859.7] with this part so now let's see open
+
+[1856.76 - 1863.299] file save file open AI key
+
+[1859.7 - 1866.419] text DaVinci 03 tempt that that we can
+
+[1863.299 - 1867.94] do this up to 1450
+
+[1866.419 - 1871.24] that's fine
+
+[1867.94 - 1871.24] in code
+
+[1871.34 - 1875.84] all right so this I just
+
+[1873.88 - 1877.0390000000002] cannibalized another
+
+[1875.84 - 1879.32] um thing
+
+[1877.039 - 1881.419] um we do not want to clean that up
+
+[1879.32 - 1884.779] because this is going to be
+
+[1881.419 - 1887.6000000000001] there that's fine all right network
+
+[1884.779 - 1890.6] error yeah I figured that would happen
+
+[1887.6 - 1891.3799999999999] um okay so let's do a refresh
+
+[1890.6 - 1895.1] um
+
+[1891.38 - 1897.3200000000002] I have a folder called
+
+[1895.1 - 1900.9189999999999] what is the name of my folder God I have
+
+[1897.32 - 1903.3799999999999] like chipmunk chip monk memory it's hard
+
+[1900.919 - 1906.679] chipmunk memory
+
+[1903.38 - 1906.679] um called chunks.text
+
+[1907.64 - 1914.8400000000001] called chunks underscore text
+
+[1910.399 - 1916.6999999999998] um that is full of dot text files
+
+[1914.84 - 1917.6] um each file
+
+[1916.7 - 1921.679] um
+
+[1917.6 - 1925.52] please write a python script that uses
+
+[1921.679 - 1928.3990000000001] open AI module and
+
+[1925.52 - 1930.1399999999999] new module and calls
+
+[1928.399 - 1932.779] um and uses
+
+[1930.14 - 1936.279] text DaVinci
+
+[1932.779 - 1938.96] O3 as the engine
+
+[1936.279 - 1941.02] we'll say as the model
+
+[1938.96 - 1941.02] um
+
+[1941.419 - 1948.3200000000002] and uses the contents of
+
+[1946.279 - 1950.299] the file
+
+[1948.32 - 1954.9189999999999] in the chunks
+
+[1950.299 - 1958.52] folder to populate
+
+[1954.919 - 1960.98] a prompt The Prompt is stored
+
+[1958.52 - 1962.779] as
+
+[1960.98 - 1965.799] um let's see
+
+[1962.779 - 1971.539] prompt underscore Json LD
+
+[1965.799 - 1972.86] uh citation nodes dot text and has a
+
+[1971.539 - 1974.419] placeholder
+
+[1972.86 - 1978.76] called
+
+[1974.419 - 1978.76] um what did I call the placeholder chunk
+
+[1979.58 - 1982.399] called chunk
+
+[1981.44 - 1985.1200000000001] um
+
+[1982.399 - 1985.12] in other words
+
+[1985.94 - 1990.02] open the text file or no
+
+[1988.46 - 1992.0] um
+
+[1990.02 - 1996.519] let's see
+
+[1992.0 - 1996.519] open the prompt file then replace
+
+[1997.88 - 2001.2990000000002] chunk
+
+[1999.2 - 2004.779] with the contents
+
+[2001.299 - 2008.9189999999999] of the file from chunks.text
+
+[2004.779 - 2011.2] and use this as the prompt for
+
+[2008.919 - 2014.7990000000002] um openai
+
+[2011.2 - 2018.5800000000002] set the temperature to zero and the
+
+[2014.799 - 2021.899] token count to 1450.
+
+[2018.58 - 2021.899] let's see if that works
+
+[2022.299 - 2026.76] certainly here's a script that should do
+
+[2024.039 - 2026.76] what you have described
+
+[2028.24 - 2032.559] I do it differently because I use
+
+[2029.679 - 2034.679] Windows I know I'm a charlatan
+
+[2032.559 - 2034.6789999999999] um
+
+[2053.5 - 2059.04] I think it's going to work
+
+[2056.5 - 2059.04] because
+
+[2063.76 - 2071.3390000000004] so this is the the implications of this
+
+[2066.879 - 2074.2] if chat GPT knows how to call GPT
+
+[2071.339 - 2076.359] in theory you can create a machine that
+
+[2074.2 - 2078.9399999999996] can do its own experiments with language
+
+[2076.359 - 2081.52] models
+
+[2078.94 - 2084.099] I want to say that again the implication
+
+[2081.52 - 2086.56] here is now we have a system of a
+
+[2084.099 - 2089.02] machine that understands the code to
+
+[2086.56 - 2090.46] call itself well enough and then
+
+[2089.02 - 2094.659] obviously this thing is intelligent
+
+[2090.46 - 2097.0] enough to understand results you could
+
+[2094.659 - 2098.619] in theory have something that trains
+
+[2097.0 - 2100.54] itself or makes its own data sets or
+
+[2098.619 - 2103.06] whatever
+
+[2100.54 - 2104.5] um okay so I like this
+
+[2103.06 - 2106.359] whoops
+
+[2104.5 - 2110.44] copy code
+
+[2106.359 - 2111.4] let's come over here and do this
+
+[2110.44 - 2113.56] um
+
+[2111.4 - 2115.1800000000003] I guess I didn't say what to do with the
+
+[2113.56 - 2117.2999999999997] response
+
+[2115.18 - 2117.2999999999997] um
+
+[2117.46 - 2122.099] so we'll do let's see
+
+[2124.72 - 2128.2599999999998] um
+
+[2126.76 - 2130.3590000000004] [Music]
+
+[2128.26 - 2132.6600000000003] and then yeah we don't need any of this
+
+[2130.359 - 2132.66] stuff
+
+[2135.7 - 2143.02] so that's fine
+
+[2137.74 - 2146.8799999999997] um and then we need to rather than print
+
+[2143.02 - 2146.88] um we'll need to save
+
+[2147.82 - 2152.32] great
+
+[2149.44 - 2155.14] um the output
+
+[2152.32 - 2159.579] from the the uh let's see
+
+[2155.14 - 2163.24] great now response dot text
+
+[2159.579 - 2166.48] should be in Json format can you please
+
+[2163.24 - 2167.9799999999996] save the output to a new folder
+
+[2166.48 - 2168.72] called
+
+[2167.98 - 2171.76] um
+
+[2168.72 - 2174.3999999999996] uh let's see we'll say called AG
+
+[2171.76 - 2176.5200000000004] underscore Json
+
+[2174.4 - 2176.52] um
+
+[2177.88 - 2181.6600000000003] instead of just printing
+
+[2180.94 - 2184.18] um
+
+[2181.66 - 2185.859] we should
+
+[2184.18 - 2190.359] uh
+
+[2185.859 - 2194.74] let's see otherwise uh say use the same
+
+[2190.359 - 2199.839] file name as the dot text file but just
+
+[2194.74 - 2201.3999999999996] replace the dot text with DOT Json
+
+[2199.839 - 2206.14] um
+
+[2201.4 - 2211.8] let's see before you write this script
+
+[2206.14 - 2211.7999999999997] can you uh tell me if you understand
+
+[2211.839 - 2219.52] um give me some pseudocode
+
+[2215.92 - 2222.28] so I can check to make sure we
+
+[2219.52 - 2225.16] understand each other
+
+[2222.28 - 2227.7000000000003] if this works
+
+[2225.16 - 2227.7] yeah
+
+[2235.42 - 2239.46] well it understands the concept of
+
+[2236.98 - 2239.46] pseudocode
+
+[2239.56 - 2242.5] and then it's going to go ahead and
+
+[2240.64 - 2244.42] write the script Okay cool so let's see
+
+[2242.5 - 2246.46] if it fixes it
+
+[2244.42 - 2247.54] um asking for the pseudocode may or may
+
+[2246.46 - 2250.0] not be
+
+[2247.54 - 2251.92] viable especially because this code is
+
+[2250.0 - 2254.859] so simple it might have been easier just
+
+[2251.92 - 2257.079] to ask for it to um
+
+[2254.859 - 2259.42] to just go ahead and do it
+
+[2257.079 - 2260.5600000000004] um but yeah so we're also going to need
+
+[2259.42 - 2262.2400000000002] to
+
+[2260.56 - 2264.0] do um
+
+[2262.24 - 2268.4799999999996] in
+
+[2264.0 - 2271.68] coding equals utf-8
+
+[2268.48 - 2271.68] always need to do that
+
+[2275.26 - 2278.579] here I'll just copy this
+
+[2281.32 - 2284.7000000000003] and then we'll need the same
+
+[2288.46 - 2292.32] yep
+
+[2289.78 - 2292.32] okay
+
+[2294.52 - 2297.0] cool
+
+[2302.02 - 2310.0] so instead of printing it we save it
+
+[2306.579 - 2312.579] so with open as blah blah right so let's
+
+[2310.0 - 2315.359] go ahead and add grab this
+
+[2312.579 - 2315.3590000000004] comma
+
+[2317.2 - 2323.2] um I think we're ready
+
+[2319.06 - 2325.9] so then one last thing though is
+
+[2323.2 - 2327.5789999999997] um what I like to do is we'll keep we'll
+
+[2325.9 - 2328.98] keep the print
+
+[2327.579 - 2332.26] um just that way we know what's going on
+
+[2328.98 - 2336.46] and uh we'll add new line new line new
+
+[2332.26 - 2340.0200000000004] line and then respond to that text
+
+[2336.46 - 2340.02] um here actually We'll add a little
+
+[2342.52 - 2347.44] little
+
+[2344.859 - 2348.8199999999997] dmarc okay let's see if this works
+
+[2347.44 - 2352.96] CLS
+
+[2348.82 - 2357.28] uh python step O3
+
+[2352.96 - 2359.44] open file is not defined ah right
+
+[2357.28 - 2360.7000000000003] because I used
+
+[2359.44 - 2362.8] um my own
+
+[2360.7 - 2363.96] function for that
+
+[2362.8 - 2366.82] um
+
+[2363.96 - 2368.94] so let me
+
+[2366.82 - 2368.94] um
+
+[2370.18 - 2373.48] darn it here let me pause this for a
+
+[2372.16 - 2374.44] second I'll just copy this function from
+
+[2373.48 - 2375.28] somewhere else you don't need to see
+
+[2374.44 - 2377.079] that
+
+[2375.28 - 2379.48] okay so what I had to do is I had to add
+
+[2377.079 - 2381.7000000000003] this function so what I usually do is
+
+[2379.48 - 2383.8] because I have a very particular way of
+
+[2381.7 - 2386.02] doing things and I do it every time I
+
+[2383.8 - 2388.48] usually write my own open file and um
+
+[2386.02 - 2390.88] and write and save file function which
+
+[2388.48 - 2392.26] always does it in utf-8 which is why I
+
+[2390.88 - 2394.359] have to keep manually adding this stuff
+
+[2392.26 - 2396.5200000000004] because you you pick a default and you
+
+[2394.359 - 2398.14] stick with it so rather than ASCII or
+
+[2396.52 - 2401.02] ANSI or whatever I just say everything
+
+[2398.14 - 2403.68] is utf-8 anyways this should work
+
+[2401.02 - 2403.68] um CLS
+
+[2404.8 - 2408.46] and if this works I'll pause it we'll
+
+[2406.96 - 2410.7400000000002] take a look at the results and call it a
+
+[2408.46 - 2412.119] day because then the last step is going
+
+[2410.74 - 2415.18] to be getting it all together and
+
+[2412.119 - 2419.099] visualizing it that is going to be fun
+
+[2415.18 - 2419.0989999999997] come on you can do it
+
+[2419.26 - 2423.9] um
+
+[2420.579 - 2423.9] key error text
+
+[2425.8 - 2433.6800000000003] response dot text
+
+[2429.76 - 2433.6800000000003] okay so it didn't like that
+
+[2435.52 - 2438.04] um
+
+[2436.42 - 2440.88] all right well let me look at one of my
+
+[2438.04 - 2440.88] other functions
+
+[2441.339 - 2445.54] um let's see let's do YouTube
+
+[2443.56 - 2447.94] generate chapters
+
+[2445.54 - 2450.64] so I do response
+
+[2447.94 - 2453.579] choices text ah
+
+[2450.64 - 2455.98] response so it didn't understand that
+
+[2453.579 - 2460.02] part but that's fine
+
+[2455.98 - 2460.02] um okay so instead we'll do
+
+[2460.96 - 2464.5] text equals
+
+[2462.82 - 2467.56] and we'll do that strip
+
+[2464.5 - 2469.839] so then we'll just do text
+
+[2467.56 - 2473.5789999999997] and then right
+
+[2469.839 - 2473.5789999999997] text so that should work
+
+[2475.359 - 2481.72] and away we go so
+
+[2477.96 - 2483.7] 95 of this was done with chat GPT if it
+
+[2481.72 - 2485.7999999999997] works there was a couple things that I
+
+[2483.7 - 2488.6189999999997] had to fix manually
+
+[2485.8 - 2490.3590000000004] um but you know it did its best
+
+[2488.619 - 2491.619] um and what I was really impressed by
+
+[2490.359 - 2494.02] one of the things I was really impressed
+
+[2491.619 - 2495.579] by oh there we go
+
+[2494.02 - 2497.44] um
+
+[2495.579 - 2499.7200000000003] no such file it didn't like the
+
+[2497.44 - 2502.18] backslash backslash but we got we got
+
+[2499.72 - 2504.9399999999996] some good Json here
+
+[2502.18 - 2509.94] um okay so then we got to open kg Json
+
+[2504.94 - 2509.94] replace dot text with blah okay
+
+[2510.339 - 2517.9] so let me tell it this say okay okay
+
+[2512.579 - 2521.7400000000002] that mostly worked uh but I got an error
+
+[2517.9 - 2522.46] um it may be important to note
+
+[2521.74 - 2525.7599999999998] um
+
+[2522.46 - 2528.96] running on Windows
+
+[2525.76 - 2528.96] here's the error
+
+[2531.28 - 2537.78] okay so it's going to be fixing this so
+
+[2533.5 - 2537.78] anyways there's just a couple things
+
+[2538.06 - 2542.46] um that it didn't like okay it didn't
+
+[2543.579 - 2547.78] wait is it that simple that it just it
+
+[2545.92 - 2549.04] what didn't exist oh it didn't create it
+
+[2547.78 - 2550.5400000000004] okay
+
+[2549.04 - 2553.42] because the previous script it it
+
+[2550.54 - 2555.22] checked and then made sure it existed
+
+[2553.42 - 2556.96] um okay so anyways
+
+[2555.22 - 2559.24] um yeah so there's only a couple things
+
+[2556.96 - 2561.099] that I had to go outside of this or or
+
+[2559.24 - 2563.0789999999997] background knowledge that I had but for
+
+[2561.099 - 2565.96] instance when I asked it to use Spacey
+
+[2563.079 - 2568.78] or nltk
+
+[2565.96 - 2571.78] um it tried it didn't work but then it
+
+[2568.78 - 2572.98] suggested use regex instead which is you
+
+[2571.78 - 2575.8] know I would have done that as someone
+
+[2572.98 - 2577.9] who's been cleaning up uh bulk data for
+
+[2575.8 - 2581.2200000000003] a long time
+
+[2577.9 - 2581.2200000000003] um okay so then
+
+[2582.76 - 2587.7400000000002] it should add the little thing you know
+
+[2585.099 - 2589.599] it check if the yep there we go this
+
+[2587.74 - 2592.18] function this bit right here I'm
+
+[2589.599 - 2593.8590000000004] pointing at the screen you can't see it
+
+[2592.18 - 2596.16] um if it doesn't exist then make it okay
+
+[2593.859 - 2596.16] cool
+
+[2597.099 - 2602.319] so basically all we need is this really
+
+[2600.7 - 2603.8799999999997] you only need to check once you don't
+
+[2602.319 - 2605.079] need to check every single time but
+
+[2603.88 - 2608.2000000000003] whatever
+
+[2605.079 - 2610.599] that's fine so then we'll come down here
+
+[2608.2 - 2612.54] check if it exists
+
+[2610.599 - 2614.98] all right
+
+[2612.54 - 2617.619] CLS clear screen
+
+[2614.98 - 2619.72] with any luck this worked but yeah so
+
+[2617.619 - 2621.6400000000003] most I mean the vast majority of the
+
+[2619.72 - 2624.64] code it did I just told it what to do
+
+[2621.64 - 2626.859] now imagine you slap a voice interface
+
+[2624.64 - 2629.859] so then you don't even have to
+
+[2626.859 - 2632.0789999999997] um type it out right uh use whisper use
+
+[2629.859 - 2634.119] open ai's whisper hey are you listening
+
+[2632.079 - 2636.04] open AI I want this I want to be able to
+
+[2634.119 - 2637.78] talk through the code
+
+[2636.04 - 2640.96] um okay so now we're saving this stuff
+
+[2637.78 - 2642.46] it should be here hey look at that okay
+
+[2640.96 - 2646.42] so this will take a little while to run
+
+[2642.46 - 2647.98] but we've got good Json it worked so I'm
+
+[2646.42 - 2650.2000000000003] going to go ahead and stop the video for
+
+[2647.98 - 2652.119] today I'm gonna let this finish running
+
+[2650.2 - 2654.22] um and then tomorrow we will merge all
+
+[2652.119 - 2656.76] this together and visualize it thanks
+
+[2654.22 - 2656.7599999999998] for watching

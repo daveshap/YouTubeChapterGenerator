@@ -1,0 +1,3007 @@
+[0.179 - 6.0] hey everybody David Shapiro here and I'm
+
+[2.7 - 8.76] excited to share with you a uh a
+
+[6.0 - 11.4] wide-ranging conversation between a
+
+[8.76 - 13.019] bunch of Veteran uh I.T guys and
+
+[11.4 - 15.0] software guys
+
+[13.019 - 16.859] um so with me today thank you thank you
+
+[15.0 - 20.22] guys so much for being here
+
+[16.859 - 22.5] um my guests include uh Alan so Alan
+
+[20.22 - 25.08] came up through it much like I did
+
+[22.5 - 26.698999999999998] started with desktop support although uh
+
+[25.08 - 29.4] I think we were on slightly different
+
+[26.699 - 31.340000000000003] generations of desktops moved on to
+
+[29.4 - 33.719] cyber security and now works in Cloud
+
+[31.34 - 35.82] which is where you know kind of I ended
+
+[33.719 - 38.04] wearing my VMware shirt rep and repping
+
+[35.82 - 40.26] some VMware so private cloud and then
+
+[38.04 - 42.36] also on the call we've got Tim who is a
+
+[40.26 - 44.219] Solutions architect uh moved into
+
+[42.36 - 47.7] managed services and and government
+
+[44.219 - 49.579] support and Tim also was with us on the
+
+[47.7 - 53.579] Raven project
+
+[49.579 - 56.1] which is temporarily shuttered for now
+
+[53.579 - 57.78] um but thanks guys for being here a
+
+[56.1 - 59.579] little bit of background for the
+
+[57.78 - 62.219] audiences to why I put this call
+
+[59.579 - 66.06] together and what I hope to achieve is
+
+[62.219 - 67.619] that uh in the conversation of AI and
+
+[66.06 - 69.36] artificial general intelligence you know
+
+[67.619 - 72.24] the ramp up to ever increasingly
+
+[69.36 - 74.159] intelligent artificial intelligence
+
+[72.24 - 76.67999999999999] one of the things that I noticed is that
+
+[74.159 - 78.60000000000001] there's a lot of people uh talking about
+
+[76.68 - 79.97900000000001] it they might be philosophers they might
+
+[78.6 - 81.89999999999999] be machine learning experts they might
+
+[79.979 - 83.58] be mathematicians but there's not a
+
+[81.9 - 86.159] whole lot of conversation about how
+
+[83.58 - 88.56] enterprise software actually works what
+
+[86.159 - 91.56] it takes to deploy software and
+
+[88.56 - 93.72] Platforms in data centers the life cycle
+
+[91.56 - 95.82000000000001] of these things and just how complex
+
+[93.72 - 99.6] this process is this it's an entire
+
+[95.82 - 102.29899999999999] domain it's a huge domain so with that I
+
+[99.6 - 104.15899999999999] wanted to get a couple of uh just a
+
+[102.299 - 106.02000000000001] candid wide-ranging conversation
+
+[104.159 - 108.36] together where we'll talk about software
+
+[106.02 - 109.86] architecture development paradigms the
+
+[108.36 - 113.03999999999999] physical infrastructure that goes into
+
+[109.86 - 115.979] it cyber security the data then we'll
+
+[113.04 - 117.78] also talk about Edge and iot so iot is
+
+[115.979 - 120.0] internet of things for those that are
+
+[117.78 - 121.56] not familiar and then the pipelines and
+
+[120.0 - 125.1] life cycles that I mentioned that goes
+
+[121.56 - 129.78] into developing complex software
+
+[125.1 - 131.28] so with that uh Alan and Tim
+
+[129.78 - 134.4] um I gave you guys a brief introduction
+
+[131.28 - 136.08] but if you guys could uh give the
+
+[134.4 - 139.37900000000002] audience just a little bit more flavor
+
+[136.08 - 142.02] or context as to kind of where you've
+
+[139.379 - 143.819] come up in terms of cloud data center
+
+[142.02 - 144.959] Enterprise architecture that sort of
+
+[143.819 - 146.94] stuff
+
+[144.959 - 149.4] um Tim you want to go first
+
+[146.94 - 152.459] yeah so thanks Dave
+
+[149.4 - 155.16] um yeah I guess um most of my ID career
+
+[152.459 - 158.04] has has been in managed Services
+
+[155.16 - 161.34] um I kind of I started on help desks I
+
+[158.04 - 163.739] knew that wasn't really for me
+
+[161.34 - 166.86] um ended up you know working with
+
+[163.739 - 168.72] different companies delivering
+
+[166.86 - 171.78] Business Solutions
+
+[168.72 - 174.35999999999999] um leveraging it as much as possible and
+
+[171.78 - 176.519] that involved a lot of cloud migrations
+
+[174.36 - 178.56] early on
+
+[176.519 - 180.36] you know for the last decade or so I've
+
+[178.56 - 183.9] been helping a lot of companies move to
+
+[180.36 - 187.09900000000002] the cloud so that can look anywhere from
+
+[183.9 - 190.5] you know having just a file server type
+
+[187.099 - 192.83999999999997] situation hosted in in SharePoint online
+
+[190.5 - 193.5] or something like that right
+
+[192.84 - 195.599] um
+
+[193.5 - 198.659] so a lot of the solutions I've worked on
+
+[195.599 - 199.379] have been about productivity enablement
+
+[198.659 - 201.959] um
+
+[199.379 - 204.0] hosting uh different you know services
+
+[201.959 - 205.739] in the cloud mobile device management
+
+[204.0 - 207.78] that sort of thing
+
+[205.739 - 211.379] um and as I progressed that sort of led
+
+[207.78 - 212.819] me into larger scale Solutions
+
+[211.379 - 216.12] um looking at you know Enterprise
+
+[212.819 - 218.39999999999998] architecture so right now I'm I'm
+
+[216.12 - 220.92000000000002] working on some
+
+[218.4 - 223.739] low code platform adoption
+
+[220.92 - 225.95899999999997] um analysis and architecting alongside
+
+[223.739 - 227.64000000000001] Microsoft with
+
+[225.959 - 230.7] um with a with a big government
+
+[227.64 - 234.95899999999997] department so it's my careers definitely
+
+[230.7 - 236.76] evolved um I've got a keen interest in
+
+[234.959 - 239.099] in Ai and and
+
+[236.76 - 240.739] how it's going to be adopted and how
+
+[239.099 - 243.11999999999998] it's going to be managed
+
+[240.739 - 246.54] given the complexities of it
+
+[243.12 - 249.06] infrastructure when you've got you know
+
+[246.54 - 251.599] um Cloud infrastructure you've got the
+
+[249.06 - 254.099] services in the cloud you've got the
+
+[251.599 - 256.079] pipelines to deploy Services into the
+
+[254.099 - 258.12] cloud you've got the management of that
+
+[256.079 - 260.22] you've got the cost management you've
+
+[258.12 - 262.919] got people management like the it's just
+
+[260.22 - 264.36] such a broad thing right so right yeah
+
+[262.919 - 266.4] I'm looking forward to getting into the
+
+[264.36 - 269.22] discussion about you know what AI looks
+
+[266.4 - 271.79999999999995] like in the real world when it comes to
+
+[269.22 - 273.54] iot infrastructure because it's
+
+[271.8 - 276.06] definitely not as simple as people think
+
+[273.54 - 277.56] and I'd be really impressed if an AI
+
+[276.06 - 281.699] could get uh
+
+[277.56 - 283.8] you know could Escape I promise it's the
+
+[281.699 - 287.22] current bounds because um Good Luck to
+
+[283.8 - 289.44] it is all I can say right yeah there's
+
+[287.22 - 292.08000000000004] there's quite a few layers and barriers
+
+[289.44 - 294.84] uh notwithstanding just the technical
+
+[292.08 - 296.46] debt that a company might have in order
+
+[294.84 - 298.25899999999996] for it to navigate
+
+[296.46 - 299.94] um thanks thanks for that uh that flavor
+
+[298.259 - 304.44] that background Tim that was excellent
+
+[299.94 - 307.259] excellent contact uh context Alan
+
+[304.44 - 309.12] yeah so I I grew up in the Before Time
+
+[307.259 - 311.40000000000003] like when the data center had the
+
+[309.12 - 314.52] Mainframe but your server was under your
+
+[311.4 - 316.25899999999996] desk you know so so a lot of Novell
+
+[314.52 - 317.75899999999996] servers if anybody remembers that but
+
+[316.259 - 320.46000000000004] that's kind of I'm dating myself here
+
+[317.759 - 322.199] but uh you know I walked through the
+
+[320.46 - 325.08] process of taking that distributed
+
+[322.199 - 326.639] compute of servers out everywhere and
+
+[325.08 - 328.139] bringing them back into a data center
+
+[326.639 - 330.6] kind of thing I walked I lived through
+
+[328.139 - 332.94] that and then I got into cyber security
+
+[330.6 - 335.58000000000004] because of this thing somebody might
+
+[332.94 - 337.44] have heard of called Ms Blaster so that
+
+[335.58 - 338.639] that's kind of what got me into cyber
+
+[337.44 - 340.68] security
+
+[338.639 - 342.90000000000003] um and then I I I sort of lived the
+
+[340.68 - 344.88] cyber security world that transitioned
+
+[342.9 - 346.67999999999995] to cloud like the migrations into the
+
+[344.88 - 348.419] cloud and all that I was doing cyber
+
+[346.68 - 350.039] security but but more from an Enterprise
+
+[348.419 - 351.539] architecture perspective so I was
+
+[350.039 - 353.82] dealing with some of the largest
+
+[351.539 - 356.34] companies in the US and a few global
+
+[353.82 - 359.3] global interests as well on these very
+
+[356.34 - 361.79999999999995] large scale sort of cloud SAS
+
+[359.3 - 362.94] multi-environment things uh doing cyber
+
+[361.8 - 364.44] security
+
+[362.94 - 367.259] um and then more recently um you know
+
+[364.44 - 368.82] kind of transitioned into uh what what
+
+[367.259 - 370.039] I'm going to call AI infrastructure I
+
+[368.82 - 372.3] mean that's kind of you know
+
+[370.039 - 374.759] infrastructure for AI workloads is kind
+
+[372.3 - 375.72] of what I focus on uh but all along it's
+
+[374.759 - 377.759] you know there's always been an
+
+[375.72 - 379.38000000000005] infrastructure backend to it to what
+
+[377.759 - 382.91900000000004] I've been doing
+
+[379.38 - 385.56] excellent yeah no the the the connection
+
+[382.919 - 387.96] between client server I remember I
+
+[385.56 - 390.0] worked with uh with a guy at uh Duke
+
+[387.96 - 392.039] Medicine who's like the cloud I've been
+
+[390.0 - 393.78] building the cloud since the 90s Right
+
+[392.039 - 396.36] There Was You Know Citrix and everything
+
+[393.78 - 398.09999999999997] before before you know the cloud before
+
+[396.36 - 400.38] the cloud was cool
+
+[398.1 - 403.38] um you know and so yeah thanks thanks
+
+[400.38 - 405.3] for the the context the background
+
+[403.38 - 406.319] um yeah so let's let's get right into it
+
+[405.3 - 408.36] uh
+
+[406.319 - 409.38] from from your guys perspective since
+
+[408.36 - 411.90000000000003] you're both
+
+[409.38 - 414.84] um you know AI interested AI adjacent
+
+[411.9 - 417.12] what are kind of the the big biggest
+
+[414.84 - 418.38] misconceptions I guess that that you
+
+[417.12 - 420.96] might perceive that's kind of out there
+
+[418.38 - 424.08] in the world about how AI works or how
+
+[420.96 - 426.06] it's deployed uh and we'll use that to
+
+[424.08 - 427.8] kind of as a segue into talking about
+
+[426.06 - 430.4] how infrastructure and architecture
+
+[427.8 - 430.40000000000003] actually works
+
+[431.639 - 435.78000000000003] you wanna go first Tim
+
+[433.319 - 437.34000000000003] yeah look I'll I'll tackle this one for
+
+[435.78 - 439.55999999999995] sure um
+
+[437.34 - 442.13899999999995] I I definitely hear a lot of
+
+[439.56 - 446.22] fear-mongering about Ai and
+
+[442.139 - 448.979] um you know AI taking over AI escaping
+
+[446.22 - 451.62] um from its you know container
+
+[448.979 - 454.25899999999996] um Skynet cyberline whatever you know
+
+[451.62 - 457.8] look we've all heard it all before
+
+[454.259 - 461.46000000000004] um the reality is is that uh
+
+[457.8 - 464.28000000000003] these systems uh just models right
+
+[461.46 - 467.099] they're models running in a cloud
+
+[464.28 - 469.02] environment that a company owns and
+
+[467.099 - 471.0] controls and operates
+
+[469.02 - 472.919] um and its backend is on physical
+
+[471.0 - 475.02] Hardware
+
+[472.919 - 477.18] um when we talk about Cloud it's you
+
+[475.02 - 480.12] know the people in it typically just say
+
+[477.18 - 481.74] well it's just somebody else's computer
+
+[480.12 - 484.08] um now that's an open a simplification
+
+[481.74 - 486.479] of course but uh
+
+[484.08 - 489.539] when it comes to what AI is running on
+
+[486.479 - 491.52] it is somebody else's computer or a data
+
+[489.539 - 494.21999999999997] center of computers that it's that it's
+
+[491.52 - 495.96] operating under so when you think about
+
+[494.22 - 497.06] the
+
+[495.96 - 499.68] um
+
+[497.06 - 502.02] just the layers involved in that so
+
+[499.68 - 504.599] you've got a physical layer you've got a
+
+[502.02 - 507.24] software layer and then you've got all
+
+[504.599 - 510.0] the real world layers that get wrapped
+
+[507.24 - 511.86] around that thing you know which
+
+[510.0 - 513.899] companies are actually running the
+
+[511.86 - 517.44] hardware which companies are running the
+
+[513.899 - 520.099] cloud which companies are owning the IP
+
+[517.44 - 522.719] of the AI model
+
+[520.099 - 525.4200000000001] and all of those cost a lot of money as
+
+[522.719 - 529.08] well so you know these Services Don't
+
+[525.42 - 531.8389999999999] just run for free they're not
+
+[529.08 - 533.72] um they're not afraid for all so
+
+[531.839 - 536.399] uh
+
+[533.72 - 540.44] thinking through that context right it's
+
+[536.399 - 542.339] How could an AI model actually
+
+[540.44 - 544.1400000000001] autonomously
+
+[542.339 - 547.6800000000001] escaped from its current cloud
+
+[544.14 - 549.8389999999999] environment and to me the answer is
+
+[547.68 - 551.9399999999999] I don't know how that's possible you
+
+[549.839 - 554.399] know it would need to sign up to a new
+
+[551.94 - 557.7] cloud service it would need to provision
+
+[554.399 - 559.339] all the services that support the actual
+
+[557.7 - 561.779] running of the model
+
+[559.339 - 565.44] it would need to convince a whole bunch
+
+[561.779 - 568.68] of people to actually you know support
+
+[565.44 - 570.9590000000001] the environment and potentially plug
+
+[568.68 - 572.04] some cables into to different places on
+
+[570.959 - 572.88] the network
+
+[572.04 - 574.98] um
+
+[572.88 - 578.16] it's it's got to be able to map out all
+
+[574.98 - 580.5] the routes and network connectivity that
+
+[578.16 - 582.66] it needs to to get to the internet and
+
+[580.5 - 584.519] to you know navigate through different
+
+[582.66 - 587.76] internal systems
+
+[584.519 - 590.519] it's really complex so I'll leave it
+
+[587.76 - 592.26] with that Alan did you want to jump in
+
+[590.519 - 593.82] yeah I think you know when you think
+
+[592.26 - 596.1] about the the sort of application
+
+[593.82 - 598.339] architecture layer like like these apps
+
+[596.1 - 601.14] themselves in a lot of cases are are
+
+[598.339 - 603.1800000000001] defined by a container right like the
+
+[601.14 - 605.16] the actual thing that that you're
+
+[603.18 - 607.3199999999999] interacting with when you interact with
+
+[605.16 - 609.7199999999999] something like chat GPT or Bard you're
+
+[607.32 - 611.4590000000001] you're talking to an API endpoint of
+
+[609.72 - 612.5400000000001] some sort that's being served by a
+
+[611.459 - 614.6999999999999] container
+
+[612.54 - 617.6999999999999] getting the container to move around
+
+[614.7 - 619.8000000000001] places is probably not that hard of the
+
+[617.7 - 621.1800000000001] of the things that that the AGI would
+
+[619.8 - 622.8] want to do
+
+[621.18 - 624.54] but if you're going to take it out of
+
+[622.8 - 626.519] its native environment so it's deployed
+
+[624.54 - 628.92] to cloud provider a and it decides oh
+
+[626.519 - 630.6] well it's all secure here but I found a
+
+[628.92 - 632.399] weakness somewhere else
+
+[630.6 - 634.5] actually making sure that container is
+
+[632.399 - 636.36] as greatest containers are for for you
+
+[634.5 - 638.399] know it works everywhere
+
+[636.36 - 640.5600000000001] the problem with the AI models
+
+[638.399 - 642.779] themselves is they do need specialized
+
+[640.56 - 645.3] Hardware to run in a performant manner
+
+[642.779 - 647.399] and so if you're not landing on Hardware
+
+[645.3 - 649.019] in this other environment that that's
+
+[647.399 - 650.76] got the right you know right type of
+
+[649.019 - 651.9590000000001] gpus doesn't have the right memory
+
+[650.76 - 654.72] bandwidth doesn't have the right
+
+[651.959 - 656.279] performance factors all of a sudden it's
+
+[654.72 - 658.14] just going to fail like like I think I
+
+[656.279 - 661.5] think there's as much challenge for the
+
+[658.14 - 663.779] AGI replicating itself around
+
+[661.5 - 665.339] say dependency tracking and making sure
+
+[663.779 - 667.079] in these other environments it's got
+
+[665.339 - 668.7600000000001] everything it needs
+
+[667.079 - 669.959] um you know like kind of like a human
+
+[668.76 - 671.88] going to a completely different
+
+[669.959 - 674.579] environment right if if you're a human
+
+[671.88 - 677.1] and you move to a completely different
+
+[674.579 - 678.8389999999999] um culture and state what you're used to
+
+[677.1 - 680.1] doesn't work well agi's got the same
+
+[678.839 - 684.24] problems
+
+[680.1 - 687.899] right yeah so to to kind of restate that
+
+[684.24 - 689.7] uh for a broader audience there's not
+
+[687.899 - 691.14] all data centers are created equal and
+
+[689.7 - 693.3000000000001] not all the hardware that's in those
+
+[691.14 - 696.0] data centers is created equal the the
+
+[693.3 - 698.3389999999999] networking the Ingress and egress uh in
+
+[696.0 - 700.2] and out of those data centers because I
+
+[698.339 - 702.0600000000001] think one one misconception is that a
+
+[700.2 - 703.9200000000001] lot of people you know that's like oh
+
+[702.06 - 707.16] well I can interact with chat GPT really
+
+[703.92 - 709.74] easily and I can you know uh call up any
+
+[707.16 - 711.6] number of apis but an API is like just
+
+[709.74 - 713.64] using you know calling someone over the
+
+[711.6 - 716.88] phone right you're not actually getting
+
+[713.64 - 719.88] the person the telepresence is not fully
+
+[716.88 - 723.36] like you know metastasizing from one
+
+[719.88 - 726.12] environment to another uh and even if
+
+[723.36 - 727.5600000000001] the AGI model could transmit itself
+
+[726.12 - 729.18] there's going to be a lot more dressing
+
+[727.56 - 731.579] around that there's the hardware that
+
+[729.18 - 733.4399999999999] it's dependent upon there's the the rest
+
+[731.579 - 736.7399999999999] of the software architecture needed to
+
+[733.44 - 738.4200000000001] run uh that entire thing and but then of
+
+[736.74 - 741.0600000000001] course there's uh security and
+
+[738.42 - 743.519] monitoring if you have a container that
+
+[741.06 - 745.7399999999999] is not registered or not identified that
+
+[743.519 - 747.12] starts running on your Hardware in your
+
+[745.74 - 748.74] Cloud infrastructure you're probably
+
+[747.12 - 750.9590000000001] going to see that and investigate that
+
+[748.74 - 752.5790000000001] so there's a lot of vectors there that
+
+[750.959 - 754.26] can prevent something from spreading and
+
+[752.579 - 754.92] moving around
+
+[754.26 - 759.48] um
+
+[754.92 - 762.959] great uh great uh conversation opening
+
+[759.48 - 766.639] um from here I guess one thing that that
+
+[762.959 - 769.079] uh that I see out there is that you know
+
+[766.639 - 771.839] there's sometimes magical thinking
+
+[769.079 - 773.16] around you know oh well once it's AGI
+
+[771.839 - 774.9590000000001] it's going to be able to breach any
+
+[773.16 - 776.16] security barrier it's basically going to
+
+[774.959 - 778.1999999999999] be able to go wherever it wants do
+
+[776.16 - 781.4399999999999] whatever it wants take over anything
+
+[778.2 - 783.72] uh which may be possible in certain
+
+[781.44 - 786.0] circumstances you know we're moving more
+
+[783.72 - 787.139] uh compute resources to the edge you
+
+[786.0 - 789.24] know we've got internet of things we're
+
+[787.139 - 793.019] deploying gpus pretty much everywhere
+
+[789.24 - 795.66] but the relative horsepower available in
+
+[793.019 - 798.42] you know a back office server versus you
+
+[795.66 - 803.0] know a five kilowatt rack is going to be
+
+[798.42 - 806.3389999999999] very very different and so uh basically
+
+[803.0 - 807.779] the the there's a lot of layers that it
+
+[806.339 - 809.339] has to get through which we which we
+
+[807.779 - 811.019] mentioned earlier
+
+[809.339 - 812.1600000000001] um from the from the perspective of
+
+[811.019 - 813.24] those dependencies because that's
+
+[812.16 - 814.68] something that we've talked about a
+
+[813.24 - 815.639] couple times there's software
+
+[814.68 - 816.779] dependencies there's Hardware
+
+[815.639 - 818.88] dependencies there's Network
+
+[816.779 - 821.16] dependencies so there's all kinds of
+
+[818.88 - 823.2] dependencies so can we unpack that a
+
+[821.16 - 825.18] little bit just like for any whether
+
+[823.2 - 826.9200000000001] it's an AI or not but any software
+
+[825.18 - 828.5999999999999] platform uh there's going to be a
+
+[826.92 - 830.639] tremendous amount of dependencies and I
+
+[828.6 - 831.66] Tim I think uh I think it might make
+
+[830.639 - 833.82] sense for you to leave this one off
+
+[831.66 - 835.86] since you've done Cloud migration so
+
+[833.82 - 838.019] what all goes into a cloud migration to
+
+[835.86 - 840.54] move from one Cloud to another or
+
+[838.019 - 842.7] on-prem to Cloud because I think that
+
+[840.54 - 843.899] this will be really really Illuminating
+
+[842.7 - 847.019] for a lot of people just to understand
+
+[843.899 - 849.899] how much effort goes into forklifting
+
+[847.019 - 852.0] stuff from one place to another
+
+[849.899 - 852.779] yeah great that's a that's a good
+
+[852.0 - 853.5] question
+
+[852.779 - 856.139] um
+
+[853.5 - 857.279] I guess it it you know always depends on
+
+[856.139 - 860.22] the use case
+
+[857.279 - 863.3389999999999] um but if we're say uh I could probably
+
+[860.22 - 868.5] give you an example of say like a
+
+[863.339 - 869.339] a not-for-profit organization 500 people
+
+[868.5 - 872.7] um
+
+[869.339 - 876.3000000000001] they currently have internal monolithic
+
+[872.7 - 878.639] architecture and by monolithic I mean
+
+[876.3 - 880.74] it's you know physical infrastructure
+
+[878.639 - 883.44] there's not a lot of cloud migration
+
+[880.74 - 885.12] there's I'm sorry there's no Cloud
+
+[883.44 - 890.2790000000001] integration
+
+[885.12 - 892.74] um and typically each function of it in
+
+[890.279 - 894.899] terms of its services has its own server
+
+[892.74 - 897.1800000000001] so you would have a file server you'd
+
+[894.899 - 898.86] have a print server you've got a domain
+
+[897.18 - 902.6389999999999] controller which controls all your
+
+[898.86 - 903.72] identities and access to the network
+
+[902.639 - 905.76] um
+
+[903.72 - 908.4590000000001] you might have a database server that
+
+[905.76 - 911.0] runs one or several of your applications
+
+[908.459 - 915.18] you've got web servers you've got
+
+[911.0 - 917.88] firewalls proxy servers you know I could
+
+[915.18 - 919.5] go on and on right so
+
+[917.88 - 921.12] um moving to the cloud is about
+
+[919.5 - 923.88] consolidating all of those different
+
+[921.12 - 925.94] internal services and replicating them
+
+[923.88 - 928.74] in the cloud
+
+[925.94 - 931.62] and typically what you want to see is
+
+[928.74 - 933.839] larger Network pipes more stable
+
+[931.62 - 936.0] internet connection because once you
+
+[933.839 - 938.519] start depending on externally hosted
+
+[936.0 - 941.459] Services you've got a single point of
+
+[938.519 - 943.8] failure in your connectivity there
+
+[941.459 - 947.04] um so in terms of moving it
+
+[943.8 - 950.0999999999999] we need to capture all of the ways that
+
+[947.04 - 952.8] the business uses their I.T in most
+
+[950.1 - 955.399] cases this is not well documented it
+
+[952.8 - 959.88] typically lives inside one person's head
+
+[955.399 - 963.24] or or a team of people's heads those
+
+[959.88 - 963.959] that support the the infrastructure
+
+[963.24 - 966.3] um
+
+[963.959 - 969.1199999999999] and then there's a lot of times spent
+
+[966.3 - 970.139] mapping out the pathway for the
+
+[969.12 - 972.42] migration
+
+[970.139 - 976.139] so that might mean that you know we
+
+[972.42 - 979.92] stand up a cloud tenant and
+
+[976.139 - 981.54] um connect their active directory to you
+
+[979.92 - 983.88] know for example if we're using
+
+[981.54 - 986.16] Microsoft Azure we'd we'd use a zero
+
+[983.88 - 988.199] active directory and synchronize their
+
+[986.16 - 990.54] identity to the cloud and then we would
+
+[988.199 - 991.9799999999999] look at moving their file system into
+
+[990.54 - 994.139] something like
+
+[991.98 - 996.3000000000001] teams or SharePoint you know some sort
+
+[994.139 - 999.1800000000001] of productivity Suite um
+
+[996.3 - 1002.8] uh you know Google Apps is one of those
+
+[999.18 - 1005.54] as well no don't leave Google out here
+
+[1002.8 - 1008.0] and uh
+
+[1005.54 - 1010.16] and then it's about you know figuring
+
+[1008.0 - 1013.759] out which this is going to depend on
+
+[1010.16 - 1016.279] certain information and the timeline of
+
+[1013.759 - 1018.44] switching that information from being
+
+[1016.279 - 1020.899] accessible locally to the new Cloud
+
+[1018.44 - 1023.24] platform we've got to train people on
+
+[1020.899 - 1023.899] how to use a new system
+
+[1023.24 - 1025.64] um
+
+[1023.899 - 1027.38] you know we've got to coordinate with
+
+[1025.64 - 1030.3190000000002] all the business stakeholders in terms
+
+[1027.38 - 1033.0790000000002] of when is the best time of the year
+
+[1030.319 - 1035.839] sometimes in some cases to to do this
+
+[1033.079 - 1037.459] sort of work because businesses you know
+
+[1035.839 - 1038.6] their workflow Ebbs and flows
+
+[1037.459 - 1040.76] particularly if you're looking at
+
+[1038.6 - 1042.6789999999999] something like Financial Services
+
+[1040.76 - 1044.9] you know end of financial year is a
+
+[1042.679 - 1046.88] really busy time so you avoid those
+
+[1044.9 - 1047.8390000000002] sorts of things
+
+[1046.88 - 1050.179] um
+
+[1047.839 - 1052.94] yeah look I could go on all day about
+
+[1050.179 - 1055.1000000000001] this obviously but yeah as you can tell
+
+[1052.94 - 1057.5] it's it's it's complex right it's
+
+[1055.1 - 1058.6399999999999] complex so there's a lot of things to
+
+[1057.5 - 1060.62] consider
+
+[1058.64 - 1061.94] um I barely scratch the surface in terms
+
+[1060.62 - 1064.4599999999998] of dependencies
+
+[1061.94 - 1068.14] right yeah so the point point being is
+
+[1064.46 - 1070.58] that whenever you have any complex uh
+
+[1068.14 - 1071.9] technology stack
+
+[1070.58 - 1073.52] um whatever whatever the business
+
+[1071.9 - 1075.919] function is there's a lot that goes into
+
+[1073.52 - 1078.2] it the all the various Services the
+
+[1075.919 - 1079.88] interdependencies that it requires the
+
+[1078.2 - 1081.38] data the hardware the code and then if
+
+[1079.88 - 1083.9] you add another layer of complexity on
+
+[1081.38 - 1085.22] top of that the models that AI runs
+
+[1083.9 - 1087.0800000000002] because it's probably not going to just
+
+[1085.22 - 1088.94] be one model in the future either and
+
+[1087.08 - 1091.6399999999999] we're going to have numerous models so
+
+[1088.94 - 1094.28] you know you can imagine migrating a 700
+
+[1091.64 - 1096.26] gigabyte model you'd probably notice
+
+[1094.28 - 1099.1399999999999] that saturating your pipes between data
+
+[1096.26 - 1101.0] centers uh before it was able to copy
+
+[1099.14 - 1102.2] itself and not to mention that they're
+
+[1101.0 - 1103.82] probably going to get bigger and there's
+
+[1102.2 - 1106.039] going to be more of them
+
+[1103.82 - 1107.539] um Alan from yeah go ahead
+
+[1106.039 - 1109.64] oh that was
+
+[1107.539 - 1111.14] um there's a software architecture to
+
+[1109.64 - 1113.74] consider as well do you want to speak
+
+[1111.14 - 1113.74] about Allen
+
+[1115.179 - 1119.6000000000001] I'm going to talk a little bit here just
+
+[1117.74 - 1121.1] about this dependency thing and it's
+
+[1119.6 - 1122.8999999999999] really at the software level is is kind
+
+[1121.1 - 1124.82] of where where my head was
+
+[1122.9 - 1126.98] because I think one of the things that's
+
+[1124.82 - 1129.3799999999999] a little different maybe because we we
+
+[1126.98 - 1130.76] haven't seen AGI yet right there's a lot
+
+[1129.38 - 1133.22] of people that might make claims but we
+
+[1130.76 - 1134.66] we don't believe we have that yet but
+
+[1133.22 - 1136.48] one of the things I I've been thinking
+
+[1134.66 - 1138.679] about from sort of the software Hardware
+
+[1136.48 - 1141.2] independent like like the
+
+[1138.679 - 1143.0590000000002] interdependencies is ATI is going to
+
+[1141.2 - 1145.3400000000001] have to retrain itself on an ongoing
+
+[1143.059 - 1148.16] basis like like based on the way we do
+
+[1145.34 - 1150.1399999999999] things it can't be basically serving
+
+[1148.16 - 1152.059] itself all the time you know accepting
+
+[1150.14 - 1153.98] inputs doing things it's going to have
+
+[1152.059 - 1156.08] to be retraining and and it's kind of
+
+[1153.98 - 1157.7] like humans in the sense of it probably
+
+[1156.08 - 1160.28] has to go to sleep or something for a
+
+[1157.7 - 1162.8600000000001] while to retrain itself every day but if
+
+[1160.28 - 1165.62] you think about that right now from an
+
+[1162.86 - 1167.7199999999998] application perspective the the code and
+
+[1165.62 - 1168.9799999999998] what's being done to train it is very
+
+[1167.72 - 1170.78] different than the code that's being
+
+[1168.98 - 1173.48] done to serve it like like those those
+
+[1170.78 - 1175.6399999999999] you know the the code for training sits
+
+[1173.48 - 1178.28] in in notebooks and is kind of you know
+
+[1175.64 - 1180.2] this kind of esoteric thing that the the
+
+[1178.28 - 1182.48] sort of wizards of AI get to play with
+
+[1180.2 - 1185.0] and then you've got the actual serving
+
+[1182.48 - 1186.799] code that is typically you know
+
+[1185.0 - 1189.14] encapsulated in a container that's
+
+[1186.799 - 1191.059] deployed at scale and it's it and so
+
+[1189.14 - 1192.14] those two those two pieces of the the
+
+[1191.059 - 1194.0] application actually have to come
+
+[1192.14 - 1196.76] together and move around
+
+[1194.0 - 1199.22] for the for this AGI to be be able to
+
+[1196.76 - 1200.96] move to another place right and so
+
+[1199.22 - 1203.24] you've got both sort of this dependency
+
+[1200.96 - 1205.28] at the training layer of code of what
+
+[1203.24 - 1207.26] that looks like and and what it's needed
+
+[1205.28 - 1208.76] to be training which you know especially
+
+[1207.26 - 1210.5] for a very large model you're you're
+
+[1208.76 - 1213.3799999999999] talking about code that's got to be able
+
+[1210.5 - 1215.539] to span multiple gpus usually like
+
+[1213.38 - 1217.88] possibly tens or hundreds or thousands
+
+[1215.539 - 1219.2] to do that training
+
+[1217.88 - 1221.9] um and so just making sure there's even
+
+[1219.2 - 1224.059] capacity wherever it it copies itself to
+
+[1221.9 - 1226.22] to do that is one bit of the challenge
+
+[1224.059 - 1228.86] the other side of it is even if that
+
+[1226.22 - 1230.84] retraining can be done small right like
+
+[1228.86 - 1232.28] like apis we've we've developed these
+
+[1230.84 - 1234.26] algorithms that the retraining is really
+
+[1232.28 - 1235.52] small it's not a huge thing there's a
+
+[1234.26 - 1237.74] lot of data to it
+
+[1235.52 - 1240.02] typically the actual sort of memory
+
+[1237.74 - 1241.76] footprint of your gpus and how the gpus
+
+[1240.02 - 1243.679] operate are very different between
+
+[1241.76 - 1246.1] training and serving that actually you
+
+[1243.679 - 1248.8400000000001] typically need a lot more memory and and
+
+[1246.1 - 1251.059] bandwidth in your training gpus than you
+
+[1248.84 - 1253.82] do in your serving gpus and so I think
+
+[1251.059 - 1256.46] just you know the AGI Landing itself in
+
+[1253.82 - 1258.4399999999998] that right heterogeneous environment to
+
+[1256.46 - 1260.48] do you know retrain itself in real time
+
+[1258.44 - 1262.4] I I think it's just gonna be really hard
+
+[1260.48 - 1264.14] like like it you're going to end up with
+
+[1262.4 - 1265.8200000000002] these Dual Purpose
+
+[1264.14 - 1267.74] um aspects and then to a certain extent
+
+[1265.82 - 1269.059] like the human brains made up that way
+
+[1267.74 - 1271.52] right there's parts of your brain that
+
+[1269.059 - 1273.26] do some access other parts of brain do
+
+[1271.52 - 1275.48] other things I think AGI is going to
+
+[1273.26 - 1277.8799999999999] need that that dual Hardware environment
+
+[1275.48 - 1281.299] to be able to even function
+
+[1277.88 - 1284.1200000000001] yeah absolutely
+
+[1281.299 - 1285.5] um the the human feedback aspect to it
+
+[1284.12 - 1288.32] you know the the
+
+[1285.5 - 1290.539] models we have now that um the most
+
+[1288.32 - 1292.8799999999999] impressive all involve some level of of
+
+[1290.539 - 1295.58] human feedback in their training to some
+
+[1292.88 - 1298.4] degree or they were trained on chat gbt
+
+[1295.58 - 1301.039] model which gives human feedback anyway
+
+[1298.4 - 1303.2] so that's another thing that you know if
+
+[1301.039 - 1304.76] I guess if if humans are taken out of
+
+[1303.2 - 1309.2] the equation
+
+[1304.76 - 1311.9] is AI is an AI model able to retrain
+
+[1309.2 - 1313.88] itself without that input you know is it
+
+[1311.9 - 1316.94] just gonna completely hallucinate and go
+
+[1313.88 - 1319.159] off the rails without some external
+
+[1316.94 - 1321.4] input guiding it
+
+[1319.159 - 1321.4] yeah
+
+[1321.64 - 1326.6000000000001] on that one I just I just skimmed a
+
+[1324.559 - 1330.559] paper about that where basically they've
+
+[1326.6 - 1332.7199999999998] shown that if you retrain uh your AIS
+
+[1330.559 - 1334.72] Onsen too much synthetic data they go
+
+[1332.72 - 1338.1200000000001] insane
+
+[1334.72 - 1339.799] yep they call it model collapse uh where
+
+[1338.12 - 1341.299] it just it becomes it becomes dumber and
+
+[1339.799 - 1342.9189999999999] dumber and less connected to reality
+
+[1341.299 - 1344.36] because it's kind of in its own Echo
+
+[1342.919 - 1346.8200000000002] chamber and it's talking to itself for
+
+[1344.36 - 1349.58] too long yeah so there so there's a
+
+[1346.82 - 1351.32] couple go ahead sorry the humans
+
+[1349.58 - 1353.8999999999999] experienced that too they're nice for
+
+[1351.32 - 1356.6589999999999] Life yeah you know if you get someone
+
+[1353.9 - 1357.6200000000001] who's been isolated for X number of
+
+[1356.659 - 1359.6000000000001] years
+
+[1357.62 - 1360.86] um typically they're not functioning
+
+[1359.6 - 1362.7199999999998] very well
+
+[1360.86 - 1364.58] um and then have a period of time to
+
+[1362.72 - 1366.5] reintegrate into society because they've
+
+[1364.58 - 1368.6] got a their brain's gotta be able to
+
+[1366.5 - 1372.02] handle all that external input again
+
+[1368.6 - 1374.6589999999999] yep yeah so this you know this
+
+[1372.02 - 1377.6] conversation kind of so far has already
+
+[1374.659 - 1379.7600000000002] reinforced the idea of like okay if we
+
+[1377.6 - 1382.6999999999998] do need to regulate or prevent you know
+
+[1379.76 - 1385.82] AI from escaping you can probably just
+
+[1382.7 - 1387.26] regulate the the relatively few data
+
+[1385.82 - 1389.84] centers that are there that have the
+
+[1387.26 - 1391.7] correct Hardware uh but then again it's
+
+[1389.84 - 1393.62] it's within every company's best
+
+[1391.7 - 1395.059] interest to make sure that they you know
+
+[1393.62 - 1397.3999999999999] gate keep what's coming in and out of
+
+[1395.059 - 1399.62] their data centers anyways regardless of
+
+[1397.4 - 1401.6000000000001] what the AI models are doing now that
+
+[1399.62 - 1403.8799999999999] being said there is one major
+
+[1401.6 - 1406.28] confounding variable here and that is
+
+[1403.88 - 1408.38] that a lot of these models have direct
+
+[1406.28 - 1410.12] access to the public so I don't know if
+
+[1408.38 - 1411.7990000000002] you guys heard but in one of the one of
+
+[1410.12 - 1414.559] the tests I think it was Microsoft
+
+[1411.799 - 1416.6589999999999] internal research did with gpt4 the
+
+[1414.559 - 1418.6399999999999] original model they basically tasked it
+
+[1416.659 - 1420.5590000000002] with manipulating the outside world and
+
+[1418.64 - 1423.98] it went and hired you know a contractor
+
+[1420.559 - 1425.8999999999999] to do X Y and Z and so one possibility
+
+[1423.98 - 1427.76] one possible counter argument I guess is
+
+[1425.9 - 1431.0] you could say well it doesn't even have
+
+[1427.76 - 1433.34] to escape the lab in order to uh in
+
+[1431.0 - 1435.44] order to do harm or damage as long as it
+
+[1433.34 - 1436.6999999999998] can you know make a few really tactical
+
+[1435.44 - 1439.039] calls
+
+[1436.7 - 1440.6000000000001] um so what do you guys think about uh
+
+[1439.039 - 1442.46] from that perspective you know kind of
+
+[1440.6 - 1445.8799999999999] gatekeeping the the flow of information
+
+[1442.46 - 1447.98] in or out or monitoring the apis or that
+
+[1445.88 - 1450.6200000000001] sort of thing do you have any um any
+
+[1447.98 - 1452.1200000000001] direction to go on on that uh in terms
+
+[1450.62 - 1453.5] of from a maybe a cyber security
+
+[1452.12 - 1456.799] perspective Allen do you have any
+
+[1453.5 - 1458.78] thoughts yeah so I think the reality of
+
+[1456.799 - 1461.6589999999999] it is that kind of external
+
+[1458.78 - 1463.58] communication from the AI definitely
+
+[1461.659 - 1465.5] needs you know things like anomaly
+
+[1463.58 - 1467.6589999999999] detection or maybe AI layered on top of
+
+[1465.5 - 1469.7] it like at the end of the day
+
+[1467.659 - 1471.679] um I I was pretty impressed with the
+
+[1469.7 - 1473.539] whole taskrabbit that article you're
+
+[1471.679 - 1475.2800000000002] talking about where where
+
+[1473.539 - 1477.919] um it talked to human and into it by
+
+[1475.28 - 1479.6] lying basically it said uh the human
+
+[1477.919 - 1481.22] actually asked are you actually a robot
+
+[1479.6 - 1484.34] in the and the bot came back and said
+
+[1481.22 - 1486.8600000000001] hey uh no I just visually impaired right
+
+[1484.34 - 1488.24] so so there's definitely got to be you
+
+[1486.86 - 1491.1789999999999] know sort of anomaly detection or other
+
+[1488.24 - 1493.82] things on the egress which is which in
+
+[1491.179 - 1495.679] in most Enterprise use cases is is an
+
+[1493.82 - 1498.2] activity that's going on like they're
+
+[1495.679 - 1499.5800000000002] doing that watching for data X fill so I
+
+[1498.2 - 1501.8600000000001] feel like there's a lot of opportunity
+
+[1499.58 - 1504.74] just to leverage existing
+
+[1501.86 - 1507.1399999999999] um security practices to monitor what's
+
+[1504.74 - 1509.419] going on what's Happening who who is
+
+[1507.14 - 1511.7] this this engaging with but it is
+
+[1509.419 - 1513.919] definitely a a challenge or a threat to
+
+[1511.7 - 1516.26] that the allowing the AI to be an actor
+
+[1513.919 - 1518.96] on your behalf I think you're you're are
+
+[1516.26 - 1521.48] more likely to see people you know
+
+[1518.96 - 1524.72] humans sort of that are Gatekeepers of
+
+[1521.48 - 1527.48] this sort of enabling it for their own
+
+[1524.72 - 1529.159] purpose that that is to say hey I want
+
+[1527.48 - 1532.159] to do this thing that might be sketchy
+
+[1529.159 - 1533.5390000000002] based on corporate you know uh rules but
+
+[1532.159 - 1535.5800000000002] I'll have the AI do it so I have
+
+[1533.539 - 1538.4] plausible deniability I think that's
+
+[1535.58 - 1540.4399999999998] going to be a lot more likely initial
+
+[1538.4 - 1542.659] misuse of the AI or that kind of thing
+
+[1540.44 - 1544.7] of people actually directing it to do
+
+[1542.659 - 1547.159] the wrong thing at first more than the
+
+[1544.7 - 1548.8400000000001] AI deciding to do the wrong thing and
+
+[1547.159 - 1550.7600000000002] then that's going to turn into you know
+
+[1548.84 - 1552.799] it it might not be that much different
+
+[1550.76 - 1554.96] than than a human just running you know
+
+[1552.799 - 1556.46] Powershell or python or something to do
+
+[1554.96 - 1557.9] the wrong thing other than they've
+
+[1556.46 - 1560.1200000000001] they've super powered what they're doing
+
+[1557.9 - 1562.46] wrong with the AGI
+
+[1560.12 - 1563.7199999999998] right and I don't know about you guys
+
+[1562.46 - 1565.94] but I've been on Plenty of Late Night
+
+[1563.72 - 1569.6200000000001] Calls where someone wrote a firewall
+
+[1565.94 - 1571.8200000000002] script that that barfed and you know
+
+[1569.62 - 1573.26] killed all the firewall rules and were
+
+[1571.82 - 1575.8999999999999] up late until they were able to restore
+
+[1573.26 - 1578.84] it so you know the my point there is
+
+[1575.9 - 1581.8400000000001] that if the AGI makes one mistake during
+
+[1578.84 - 1583.76] its own you know gamification or X-File
+
+[1581.84 - 1585.98] or whatever it could end up Walling
+
+[1583.76 - 1588.919] itself off or effectively lobotomizing
+
+[1585.98 - 1591.559] itself uh on accident without some kind
+
+[1588.919 - 1594.0200000000002] of uh like you've mentioned before like
+
+[1591.559 - 1596.539] some some kind of supervisor
+
+[1594.02 - 1599.9] um Tim you mentioned uh mobile device
+
+[1596.539 - 1601.1589999999999] management MDM so I want to Pivot and
+
+[1599.9 - 1602.96] talk about that for a minute because
+
+[1601.159 - 1606.6200000000001] this was this is mobile devices this is
+
+[1602.96 - 1608.3600000000001] Edge so another possibility is that uh
+
+[1606.62 - 1611.4799999999998] you know there might be decentralized
+
+[1608.36 - 1613.6399999999999] agents right where there's many many
+
+[1611.48 - 1616.4] agents or nodes maybe operating on a
+
+[1613.64 - 1619.279] blockchain or a federation uh kind of uh
+
+[1616.4 - 1620.179] software Paradigm so it that that is a
+
+[1619.279 - 1622.159] possible
+
+[1620.179 - 1625.1000000000001] uh software architecture that could be
+
+[1622.159 - 1626.659] outside of the uh of the data center but
+
+[1625.1 - 1628.9399999999998] that of course introduces all kinds of
+
+[1626.659 - 1630.8600000000001] new complexity so could you give us a
+
+[1628.94 - 1633.44] little bit of flavor background like
+
+[1630.86 - 1636.08] what does it take to have you know a
+
+[1633.44 - 1639.0800000000002] decentralized Federation of servers Edge
+
+[1636.08 - 1641.84] iot or mobile devices
+
+[1639.08 - 1644.4189999999999] yeah look how I'll give it my best shot
+
+[1641.84 - 1647.299] um it's uh
+
+[1644.419 - 1650.0590000000002] again there's there's a lot of moving
+
+[1647.299 - 1651.32] Parts in in um in that sort of
+
+[1650.059 - 1654.62] infrastructure
+
+[1651.32 - 1658.52] um mostly it's it's either you could
+
+[1654.62 - 1662.9599999999998] consider it like a microservices and or
+
+[1658.52 - 1666.3799999999999] um mind control type setup
+
+[1662.96 - 1668.799] you've got your central platform that
+
+[1666.38 - 1671.1200000000001] um all your devices would report into
+
+[1668.799 - 1674.059] but then there's the infrastructure that
+
+[1671.12 - 1676.279] supports all those devices as well so
+
+[1674.059 - 1679.3999999999999] when we're talking mobile usually that's
+
+[1676.279 - 1681.02] some sort of GSM you know they have SIM
+
+[1679.4 - 1683.6000000000001] card in it or they have Wi-Fi
+
+[1681.02 - 1685.7] connectivity or something like that
+
+[1683.6 - 1687.86] um that's not typically owned by the
+
+[1685.7 - 1691.22] operator of the mobile device management
+
+[1687.86 - 1694.279] platform so you have third parties
+
+[1691.22 - 1696.38] involved in that sort of infrastructure
+
+[1694.279 - 1697.039] as well
+
+[1696.38 - 1699.44] um
+
+[1697.039 - 1700.9] when it comes to connectivity you know
+
+[1699.44 - 1704.0] if it's a
+
+[1700.9 - 1705.44] private or Enterprise type setups you
+
+[1704.0 - 1707.539] you might have
+
+[1705.44 - 1710.48] um it might be its own private Network
+
+[1707.539 - 1712.7] that uses public infrastructure to
+
+[1710.48 - 1715.64] achieve that that requires its own
+
+[1712.7 - 1717.8600000000001] special configuration with a service
+
+[1715.64 - 1720.38] provider whether that be internet
+
+[1717.86 - 1722.7199999999998] service provider or telecommunications
+
+[1720.38 - 1724.159] in general
+
+[1722.72 - 1727.52] um
+
+[1724.159 - 1729.679] and then on each device it would have a
+
+[1727.52 - 1732.74] piece of software whether that's an app
+
+[1729.679 - 1735.3200000000002] or a service built into the operating
+
+[1732.74 - 1737.9] system that will communicate back and
+
+[1735.32 - 1741.3799999999999] forth between the
+
+[1737.9 - 1745.22] the device management platform
+
+[1741.38 - 1747.6200000000001] um to get its commands or or report back
+
+[1745.22 - 1750.14] whatever Telemetry
+
+[1747.62 - 1751.9399999999998] um it's responsible for detecting and
+
+[1750.14 - 1755.96] Reporting on
+
+[1751.94 - 1758.419] so yeah many many layers of of
+
+[1755.96 - 1761.72] complexity to to manage a fleet of
+
+[1758.419 - 1764.8400000000001] mobile devices and you know given given
+
+[1761.72 - 1766.34] the size of models today granted some of
+
+[1764.84 - 1768.86] them are getting smaller and at the same
+
+[1766.34 - 1770.9599999999998] time mobile processing power is going up
+
+[1768.86 - 1775.4599999999998] but that's still absolutely pales in
+
+[1770.96 - 1777.8600000000001] comparison to the uh capacity of of comp
+
+[1775.46 - 1779.059] or the compute capacity inside of data
+
+[1777.86 - 1781.039] centers
+
+[1779.059 - 1783.6789999999999] um yeah there's a lot of um disparity
+
+[1781.039 - 1785.899] between mobile devices in general if
+
+[1783.679 - 1787.64] we're talking about handheld mobile
+
+[1785.899 - 1789.3799999999999] phones
+
+[1787.64 - 1791.6200000000001] um you might have someone who's who's
+
+[1789.38 - 1794.24] still got a phone that's 10 years old
+
+[1791.62 - 1795.86] which I quite happy to use and keep a
+
+[1794.24 - 1798.08] hold of whereas
+
+[1795.86 - 1800.779] you know and that's not something AI
+
+[1798.08 - 1802.039] would be able to leverage if it was if
+
+[1800.779 - 1804.799] let's say we're talking about a
+
+[1802.039 - 1806.5] situation where it's installing itself
+
+[1804.799 - 1808.46] or running on on different devices
+
+[1806.5 - 1810.62] you've got to have the Modern Hardware
+
+[1808.46 - 1814.52] to support that sort of thing
+
+[1810.62 - 1816.6789999999999] yeah yeah absolutely Alan you have uh
+
+[1814.52 - 1819.3799999999999] any anything to add to the like the
+
+[1816.679 - 1820.94] mobile or Edge aspect of it so I think
+
+[1819.38 - 1823.64] there's two pieces this I'll talk about
+
+[1820.94 - 1825.8600000000001] just mobile human devices versus iot
+
+[1823.64 - 1827.8400000000001] device I'll discriminate that a little
+
+[1825.86 - 1829.6999999999998] bit so I think the big thing on the
+
+[1827.84 - 1832.399] mobile human devices if we're
+
+[1829.7 - 1836.299] trying to sort of protect ourselves from
+
+[1832.399 - 1837.9189999999999] AGI is really the the more Global
+
+[1836.299 - 1840.86] General implementation of human
+
+[1837.919 - 1843.919] president human presence indicators
+
+[1840.86 - 1845.899] so it's the idea that basically if
+
+[1843.919 - 1847.7] you're going to authenticate the way you
+
+[1845.899 - 1849.799] defeat an AGI authenticating on your
+
+[1847.7 - 1851.179] behalf is you have to be the one that
+
+[1849.799 - 1853.8799999999999] you know there's a human presence
+
+[1851.179 - 1857.0590000000002] there's a thumb a live thumbprint
+
+[1853.88 - 1859.3400000000001] there's you know touching a something to
+
+[1857.059 - 1861.5] to cause it to decrypt things like that
+
+[1859.34 - 1864.1399999999999] things that that sort of say that yes
+
+[1861.5 - 1866.36] there's actually a physical person here
+
+[1864.14 - 1868.64] um and that's I think that's tricky for
+
+[1866.36 - 1870.9799999999998] the AGI to fake basically doesn't mean
+
+[1868.64 - 1872.0] it can't but just to say the way apps
+
+[1870.98 - 1873.799] Are Walled off and the way the security
+
+[1872.0 - 1875.48] measures and the devices are today even
+
+[1873.799 - 1877.279] that human presence indicator is
+
+[1875.48 - 1880.64] actually pretty good and I think we're
+
+[1877.279 - 1883.76] gonna see actual inhuman in in-person
+
+[1880.64 - 1885.38] human proofing and the instantiation of
+
+[1883.76 - 1887.24] devices that you just have a thing that
+
+[1885.38 - 1888.98] you got at your bank or the DMV or
+
+[1887.24 - 1889.88] somewhere that really says you're a
+
+[1888.98 - 1892.1] human
+
+[1889.88 - 1894.0390000000002] that you have to activate it when you do
+
+[1892.1 - 1896.059] things and that also then
+
+[1894.039 - 1898.1] cryptographically secure stuff that's
+
+[1896.059 - 1900.74] going to just happen like to deal with
+
+[1898.1 - 1903.08] the distributed sort of AI doing things
+
+[1900.74 - 1904.82] that's behaving like humans I think I
+
+[1903.08 - 1906.799] think that technology just has to happen
+
+[1904.82 - 1909.86] on the other side I think the big
+
+[1906.799 - 1912.9189999999999] problem on for the the iot devices is
+
+[1909.86 - 1915.1999999999998] just Hardware like most distributed iot
+
+[1912.919 - 1917.1200000000001] devices are made with the bare minimal
+
+[1915.2 - 1920.1200000000001] Hardware possible to do the job they
+
+[1917.12 - 1922.279] were designed for and so yes you might
+
+[1920.12 - 1925.6999999999998] be able you know AGI might be able to
+
+[1922.279 - 1927.74] crack my my webcam that I'm using in my
+
+[1925.7 - 1930.32] security system in my home
+
+[1927.74 - 1933.26] but there's probably not that much power
+
+[1930.32 - 1935.059] or you know compute to it to be useful
+
+[1933.26 - 1936.559] for it and so I think that's that's
+
+[1935.059 - 1939.02] going to be the limiting factor there in
+
+[1936.559 - 1941.12] a lot of the iot scenarios is just that
+
+[1939.02 - 1942.44] device was already so limited in its
+
+[1941.12 - 1945.32] functionality there's not a lot it can
+
+[1942.44 - 1947.179] do it could be acted on by an AGI but it
+
+[1945.32 - 1949.1589999999999] can't the AGI is not going to like
+
+[1947.179 - 1951.2] suddenly take it over and start you know
+
+[1949.159 - 1953.0590000000002] doing interesting things with it because
+
+[1951.2 - 1955.159] there's just not enough power there
+
+[1953.059 - 1957.08] right it doesn't it doesn't have the
+
+[1955.159 - 1959.2990000000002] horsepower it doesn't have the legs to
+
+[1957.08 - 1960.74] do anything particularly fascinating or
+
+[1959.299 - 1962.72] interesting
+
+[1960.74 - 1965.0] um or or dangerous more specifically but
+
+[1962.72 - 1966.94] what you talk about the the you know the
+
+[1965.0 - 1970.46] the hardware that's already built into
+
+[1966.94 - 1972.799] uh mobile phones and and can be easily
+
+[1970.46 - 1975.08] integrated into other uh things where
+
+[1972.799 - 1977.899] it's like there's there's actually
+
+[1975.08 - 1979.76] multiple uh Dimensions multiple bits of
+
+[1977.899 - 1981.7399999999998] data that that show hey this device is
+
+[1979.76 - 1983.779] actually being held by a real human
+
+[1981.74 - 1986.1200000000001] there's the internal gyroscope there's
+
+[1983.779 - 1989.0] the there's the proximity sensors the uh
+
+[1986.12 - 1991.279] the capacitive uh what is it like um the
+
+[1989.0 - 1992.72] electrostatic capacitive like field they
+
+[1991.279 - 1994.7] can actually detect if there's a if
+
+[1992.72 - 1996.44] there's a living body nearby yeah
+
+[1994.7 - 1998.6000000000001] there's all kinds of sensors that are
+
+[1996.44 - 2000.7] built into these and that and that that
+
+[1998.6 - 2002.86] is that as at a security level is
+
+[2000.7 - 2004.539] actually integrated into the kernel of
+
+[2002.86 - 2007.84] those operating systems is that uh
+
+[2004.539 - 2010.84] correct interpretation yeah I mean there
+
+[2007.84 - 2013.299] are in in the actual Hardware there are
+
+[2010.84 - 2015.039] bits of of cryptographic security
+
+[2013.299 - 2017.62] chips and various things depending on
+
+[2015.039 - 2019.12] the Vendor model like what's in it that
+
+[2017.62 - 2021.9399999999998] are sort of locked at the factory or
+
+[2019.12 - 2024.2199999999998] otherwise you know secure enough that's
+
+[2021.94 - 2026.38] very unlikely that the the AGI is going
+
+[2024.22 - 2029.08] to be able to to basically manipulate
+
+[2026.38 - 2031.1200000000001] that because it sits below where the
+
+[2029.08 - 2033.519] actual AGI operates which is in the
+
+[2031.12 - 2035.5] software layer so right not to say it's
+
+[2033.519 - 2038.019] impossible but for the most part those
+
+[2035.5 - 2040.059] things and and I suspect over time there
+
+[2038.019 - 2042.94] will even be sort of a separation of
+
+[2040.059 - 2044.6789999999999] concerns so to speak where where within
+
+[2042.94 - 2046.24] the actual Hardware itself there's sort
+
+[2044.679 - 2049.119] of a disconnected part that's handling
+
+[2046.24 - 2050.5] that human detection bit and then once
+
+[2049.119 - 2052.359] you've passed the human detection bit
+
+[2050.5 - 2053.98] then you can get into the into the rest
+
+[2052.359 - 2056.44] of it and that'll be taken out of band
+
+[2053.98 - 2058.599] so so that essentially if you it
+
+[2056.44 - 2060.04] requires an input you got to prove
+
+[2058.599 - 2061.8990000000003] you're really a human holding it as
+
+[2060.04 - 2063.46] opposed to it you know just being
+
+[2061.899 - 2067.0] automatic on the device
+
+[2063.46 - 2068.44] right yep and and you know on the on the
+
+[2067.0 - 2070.72] infrastructure side on the data center
+
+[2068.44 - 2072.52] side what a lot of people don't realize
+
+[2070.72 - 2075.9399999999996] is that there are out of band management
+
+[2072.52 - 2079.119] and monitoring uh uh components of
+
+[2075.94 - 2081.82] servers basically every server has an
+
+[2079.119 - 2083.44] out of band uh set of connections that
+
+[2081.82 - 2085.54] allows you to remotely monitor the
+
+[2083.44 - 2087.339] server shut it down there's also
+
+[2085.54 - 2089.74] Technologies uh like for instance called
+
+[2087.339 - 2092.5] secure boot uh meaning that you can you
+
+[2089.74 - 2094.1189999999997] can prove uh cryptographically whether
+
+[2092.5 - 2095.679] or not the operating system has been
+
+[2094.119 - 2098.26] modified from what it's supposed to be
+
+[2095.679 - 2099.52] at a hardware level and then of course
+
+[2098.26 - 2101.5600000000004] there's things that like at rest
+
+[2099.52 - 2105.88] encryption so there's there's many many
+
+[2101.56 - 2107.5] layers of security here that can prevent
+
+[2105.88 - 2109.9] um I mean really these were all designed
+
+[2107.5 - 2111.94] to prevent human actors right viruses
+
+[2109.9 - 2114.1600000000003] and and and human mistakes from
+
+[2111.94 - 2115.54] modifying these things but a lot of
+
+[2114.16 - 2117.7] these security features are going to
+
+[2115.54 - 2119.56] play forward and they would that that is
+
+[2117.7 - 2122.339] something that AGI would also have to
+
+[2119.56 - 2125.32] overcome uh you know so there's there's
+
+[2122.339 - 2127.5] plenty of existing layers in in cyber
+
+[2125.32 - 2127.5] security
+
+[2127.54 - 2131.859] yeah well and you're just speaking my
+
+[2129.46 - 2134.02] language I spent but when I mentioned to
+
+[2131.859 - 2135.52] you earlier I did I was part of the
+
+[2134.02 - 2137.02] cyber security practice for a bit that I
+
+[2135.52 - 2140.2] built up and it was all about that level
+
+[2137.02 - 2142.119] of security of you know secure boot for
+
+[2140.2 - 2144.3999999999996] you know identity systems and
+
+[2142.119 - 2145.6600000000003] cryptography systems to be able to prove
+
+[2144.4 - 2148.54] that they had never been you know
+
+[2145.66 - 2150.8199999999997] touched outside of like spent weeks at a
+
+[2148.54 - 2153.2799999999997] time in in air-gapped rooms Building
+
+[2150.82 - 2154.6600000000003] Systems and things like that and so you
+
+[2153.28 - 2155.6800000000003] know these major data centers whether
+
+[2154.66 - 2157.2999999999997] they're Cloud providers government
+
+[2155.68 - 2159.16] whatever they're doing that kind of
+
+[2157.3 - 2161.44] thing where systems you know key
+
+[2159.16 - 2163.72] cryptography or identity systems were
+
+[2161.44 - 2165.76] actually built in a vault and you know
+
+[2163.72 - 2167.98] the the operations of them are managed
+
+[2165.76 - 2169.96] in a way that that's so offline it would
+
+[2167.98 - 2172.18] be not impossible but you would have to
+
+[2169.96 - 2173.5] manipulate Some Humans along the way to
+
+[2172.18 - 2174.64] be able to do something different than
+
+[2173.5 - 2176.859] you're doing now
+
+[2174.64 - 2178.839] yeah you know that actually reminds me
+
+[2176.859 - 2183.88] of something I had a few people ask me
+
+[2178.839 - 2185.2] about uh neuromorphic chips so uh for
+
+[2183.88 - 2187.06] for anyone in the audience who's not
+
+[2185.2 - 2190.2999999999997] familiar a neuromorphic chip is
+
+[2187.06 - 2192.7599999999998] basically an analog chip that that is
+
+[2190.3 - 2195.52] running a a fixed a static neural
+
+[2192.76 - 2197.38] network on the chip device uh these are
+
+[2195.52 - 2199.66] typically used for mobile purposes
+
+[2197.38 - 2201.579] because uh you can't you can't retrain
+
+[2199.66 - 2203.6189999999997] them and you can't redeploy them but
+
+[2201.579 - 2206.1400000000003] they can they they can be you know 10
+
+[2203.619 - 2208.54] times faster 10 times cheaper and use a
+
+[2206.14 - 2209.74] hundred times less energy uh because
+
+[2208.54 - 2211.9] it's running at the hardware level
+
+[2209.74 - 2213.7599999999998] rather than the software level and so
+
+[2211.9 - 2216.579] this is this is pure speculation but
+
+[2213.76 - 2218.44] what I suspect is that over time because
+
+[2216.579 - 2220.3] right now we're in a very high velocity
+
+[2218.44 - 2223.66] phase where there's new models coming
+
+[2220.3 - 2226.119] out every week right but before too long
+
+[2223.66 - 2227.74] it'll be worthwhile to say hey we've got
+
+[2226.119 - 2229.6600000000003] this model you know whether it's a
+
+[2227.74 - 2232.06] vision model or a language model or a
+
+[2229.66 - 2234.339] multimodal model that you know it's it's
+
+[2232.06 - 2237.2799999999997] stable it's viable let's go ahead and
+
+[2234.339 - 2239.0789999999997] create a chip version an Asic version or
+
+[2237.28 - 2241.1800000000003] a neuromorphic chip that's going to be
+
+[2239.079 - 2243.579] static and so then the model can't even
+
+[2241.18 - 2244.96] change itself it's entirely possible
+
+[2243.579 - 2247.119] that some of this is it's not going to
+
+[2244.96 - 2249.099] even be a matter of defeating it from a
+
+[2247.119 - 2251.32] software security perspective it's going
+
+[2249.099 - 2252.579] to be fixed or static and so some of
+
+[2251.32 - 2255.76] that is what you're talking about like
+
+[2252.579 - 2258.52] the the actual board level Hardware is
+
+[2255.76 - 2260.2000000000003] not really changeable and I suspect that
+
+[2258.52 - 2261.7] AI is going to have some of that as well
+
+[2260.2 - 2264.0989999999997] uh what do you what do you think about
+
+[2261.7 - 2265.96] that idea oh I I was hoping we'd get
+
+[2264.099 - 2268.2400000000002] here to the neuromorphic chips because I
+
+[2265.96 - 2269.8] find that whole thing fascinating
+
+[2268.24 - 2271.5989999999997] um and and part of the reason I find it
+
+[2269.8 - 2274.78] fascinating is just the power thing
+
+[2271.599 - 2277.3] right I I think the the the actual
+
+[2274.78 - 2279.099] biggest limiter to AI dominance of the
+
+[2277.3 - 2281.92] world right now is actually physical
+
+[2279.099 - 2285.28] power like at the end of the day there's
+
+[2281.92 - 2287.44] just a huge amount of of power necessary
+
+[2285.28 - 2289.0] to do the training they needed to do the
+
+[2287.44 - 2291.2200000000003] serving because these are very power
+
+[2289.0 - 2294.28] hungry chips on the other hand the
+
+[2291.22 - 2298.359] neuromorphic chips are so low power it's
+
+[2294.28 - 2300.76] amazing and so so you know I when we
+
+[2298.359 - 2303.0989999999997] think AGI I think a lot of people fall
+
+[2300.76 - 2305.079] into this default of like Skynet you
+
+[2303.099 - 2308.2000000000003] know from from the Terminator series or
+
+[2305.079 - 2310.3] if you've seen the the iRobot movie that
+
+[2308.2 - 2313.0] you know big brain in the sky taking
+
+[2310.3 - 2315.04] over everything but I but I would also
+
+[2313.0 - 2317.56] argue that something with sort of the
+
+[2315.04 - 2320.619] intelligence of a cat or a dog
+
+[2317.56 - 2322.839] would also be AGI it's it's retrainable
+
+[2320.619 - 2324.94] it does things and so I think we're
+
+[2322.839 - 2327.339] going to end up with some Edge really
+
+[2324.94 - 2330.339] interesting edge cases with very limited
+
+[2327.339 - 2332.44] sort of almost instinctual things they
+
+[2330.339 - 2334.599] do you know like like when a horse is
+
+[2332.44 - 2336.04] born it knows how to stand up like
+
+[2334.599 - 2337.6600000000003] humans it takes a long time for us but
+
+[2336.04 - 2339.46] horses know that well that's what's
+
+[2337.66 - 2340.8999999999996] going to be on these analog tips you're
+
+[2339.46 - 2342.339] talking about we have a lot of edge
+
+[2340.9 - 2344.44] devices and a lot of things on the edge
+
+[2342.339 - 2347.0789999999997] that have these fully trained this
+
+[2344.44 - 2349.119] part's always static but then augmented
+
+[2347.079 - 2352.0] by something that has some dynamicism
+
+[2349.119 - 2354.579] that makes it you know smart but not as
+
+[2352.0 - 2358.48] you know fully intelligent as a human
+
+[2354.579 - 2361.3590000000004] sure sure yeah and and so like you know
+
+[2358.48 - 2363.82] taking that to a a more logical extreme
+
+[2361.359 - 2365.619] I can Envision a future where there are
+
+[2363.82 - 2367.48] neuromorphic chips embedded in
+
+[2365.619 - 2370.96] everything whether it's servers
+
+[2367.48 - 2372.52] firewalls uh home security devices and
+
+[2370.96 - 2374.68] because it's set at the hardware level
+
+[2372.52 - 2376.3] you can't hack it it's not something you
+
+[2374.68 - 2379.18] can even delete it's just an intrinsic
+
+[2376.3 - 2381.52] function of the device but because they
+
+[2379.18 - 2383.859] require a lot less energy and they can
+
+[2381.52 - 2386.32] often run many times faster they could
+
+[2383.859 - 2388.18] run circles around the the you know the
+
+[2386.32 - 2389.44] software version of the model even
+
+[2388.18 - 2391.5989999999997] though the software version might be
+
+[2389.44 - 2393.82] bigger it might have more up-to-date
+
+[2391.599 - 2396.28] data but because it's because it is
+
+[2393.82 - 2397.839] intrinsically more power hungry it's
+
+[2396.28 - 2401.7400000000002] going to be at a at a competitive
+
+[2397.839 - 2403.359] disadvantage I remember I got the I kind
+
+[2401.74 - 2405.0989999999997] of realized this was the way that it was
+
+[2403.359 - 2406.66] coming when I first learned about more
+
+[2405.099 - 2408.76] neuromorphic chips and then I went and
+
+[2406.66 - 2410.44] watched the new Star Wars movies and I
+
+[2408.76 - 2412.0] was like oh right you know when you just
+
+[2410.44 - 2413.44] plug in a Droid brain and it's a piece
+
+[2412.0 - 2416.079] of Hardware that's how it's going to be
+
+[2413.44 - 2417.82] it's it's going to be a physical you
+
+[2416.079 - 2420.28] know neural network that you plug into
+
+[2417.82 - 2422.56] you know your your home device or your
+
+[2420.28 - 2423.7000000000003] robot pet or whatever and that's going
+
+[2422.56 - 2425.0789999999997] to be fixed it's not going to be
+
+[2423.7 - 2427.48] something that's going to be changeable
+
+[2425.079 - 2429.52] but it also makes it more intrinsically
+
+[2427.48 - 2431.26] secure because you can't you know you
+
+[2429.52 - 2433.359] can't like copy the neuromorphic chip
+
+[2431.26 - 2436.48] over the Internet it's physically there
+
+[2433.359 - 2438.88] it's it's it is it is as embodied as
+
+[2436.48 - 2441.7] your brain is which leads to all sorts
+
+[2438.88 - 2445.2400000000002] of other uh interesting you know ethical
+
+[2441.7 - 2446.9199999999996] or or economic perspectives uh Tim you
+
+[2445.24 - 2449.02] have any any anything you want to chime
+
+[2446.92 - 2452.44] in on the uh the hardware level we're
+
+[2449.02 - 2454.72] kind of nerding out over yeah the
+
+[2452.44 - 2456.4] neuromorphic chips uh but feel free to
+
+[2454.72 - 2457.9599999999996] add in or take it another direction if
+
+[2456.4 - 2460.48] anything's resonating
+
+[2457.96 - 2464.02] I I think it's a really cool concept and
+
+[2460.48 - 2466.42] um I can I guess I can see how once a
+
+[2464.02 - 2469.839] model you know once they figure out what
+
+[2466.42 - 2471.52] the models um I guess parameter weights
+
+[2469.839 - 2474.46] are how that could be potentially
+
+[2471.52 - 2478.359] replicated at the physical layer
+
+[2474.46 - 2481.0] um I love altered carbon uh that that um
+
+[2478.359 - 2481.839] book slash Netflix series
+
+[2481.0 - 2485.14] um
+
+[2481.839 - 2487.18] and it's like uh the you know the discs
+
+[2485.14 - 2490.5989999999997] that they have with their DNA
+
+[2487.18 - 2491.9199999999996] it could uh it could be maybe the the
+
+[2490.599 - 2493.96] weights of
+
+[2491.92 - 2496.42] of the different neural Pathways which
+
+[2493.96 - 2498.16] make up someone's personality
+
+[2496.42 - 2501.099] um although just the thought that came
+
+[2498.16 - 2504.3999999999996] to me I thought I think it's fascinating
+
+[2501.099 - 2506.92] um but yeah technology wise look I don't
+
+[2504.4 - 2509.8] know it's all very cool I don't have any
+
+[2506.92 - 2511.66] experience in that space But it's um
+
+[2509.8 - 2515.1400000000003] yeah I can't wait to see what the future
+
+[2511.66 - 2517.839] holds I I think I think I think humanoid
+
+[2515.14 - 2520.2999999999997] robots are definitely on the cards in
+
+[2517.839 - 2522.22] that way and having some sort of
+
+[2520.3 - 2524.5] physical
+
+[2522.22 - 2526.0] um brain structure rather than it be
+
+[2524.5 - 2530.02] implemented in software for the reasons
+
+[2526.0 - 2532.839] that you've been mentioning power yeah
+
+[2530.02 - 2534.94] yeah yeah and so that you you know we
+
+[2532.839 - 2536.14] some some of the videos that I've I've
+
+[2534.94 - 2538.599] talked about I've talked about different
+
+[2536.14 - 2539.7999999999997] form factors that AGI could come in you
+
+[2538.599 - 2541.599] know whether it's the physically
+
+[2539.8 - 2543.2200000000003] embodied you know like the the robots
+
+[2541.599 - 2544.839] from iRobot or commander data or
+
+[2543.22 - 2546.4599999999996] whatever where it's a it's an
+
+[2544.839 - 2548.92] intrinsically kind of self-contained
+
+[2546.46 - 2550.06] system that is mostly Hardware or at
+
+[2548.92 - 2551.26] least constrained to that piece of
+
+[2550.06 - 2552.4] Hardware
+
+[2551.26 - 2555.28] um you know then the most extreme
+
+[2552.4 - 2557.2000000000003] example uh this is closer to what um
+
+[2555.28 - 2558.28] what Ben gertzel is working on which is
+
+[2557.2 - 2560.6189999999997] something that is intrinsically
+
+[2558.28 - 2563.5] distributed uh you know and we mentioned
+
+[2560.619 - 2566.6800000000003] that earlier I guess one one concern
+
+[2563.5 - 2567.94] that that people might have uh and I
+
+[2566.68 - 2569.859] don't know how serious of a concern it
+
+[2567.94 - 2572.68] is but the idea of like viruses and
+
+[2569.859 - 2574.5989999999997] botnets because you know like stuxnet uh
+
+[2572.68 - 2576.3999999999996] configure and and all the like really
+
+[2574.599 - 2578.7400000000002] really bad
+
+[2576.4 - 2581.26] um malware and and spyware that has
+
+[2578.74 - 2583.2999999999997] existed has has been out there so what
+
+[2581.26 - 2586.3590000000004] do you guys what do you guys think about
+
+[2583.3 - 2587.8] the idea of that of maybe part of AGI is
+
+[2586.359 - 2589.5989999999997] going to be something that is just
+
+[2587.8 - 2591.8390000000004] highly decentralized
+
+[2589.599 - 2594.339] um you know running a tiny model
+
+[2591.839 - 2595.72] on every device that it can hack and
+
+[2594.339 - 2598.18] whatever and then it has this kind of
+
+[2595.72 - 2600.2799999999997] swarm intelligence is there any
+
+[2598.18 - 2603.16] possibility that you see of that
+
+[2600.28 - 2604.3] happening or you know or existing
+
+[2603.16 - 2606.16] security paradigms and Hardware
+
+[2604.3 - 2607.9] paradigms enough to kind of Tamp that
+
+[2606.16 - 2609.22] down because again like one thing that I
+
+[2607.9 - 2611.2000000000003] think of is there's people trying to do
+
+[2609.22 - 2613.839] this already what's the difference right
+
+[2611.2 - 2616.06] you know whether it's a hostile foreign
+
+[2613.839 - 2618.2799999999997] actor or you know corporate uh
+
+[2616.06 - 2620.02] industrial Espionage all this kind of
+
+[2618.28 - 2621.099] stuff is already happening and it's not
+
+[2620.02 - 2622.48] like AGI is going to have a
+
+[2621.099 - 2624.52] fundamentally different set of tools
+
+[2622.48 - 2626.319] right it can it can try and hack the
+
+[2624.52 - 2627.7599999999998] same way that any human can so what do
+
+[2626.319 - 2630.88] you guys what do you guys think of of
+
+[2627.76 - 2633.28] that idea like AGI as a virus
+
+[2630.88 - 2636.04] yeah I think it's I think that's
+
+[2633.28 - 2638.26] probably more of a realistic concern
+
+[2636.04 - 2640.66] um in the short term
+
+[2638.26 - 2643.78] um given that we already face these
+
+[2640.66 - 2644.68] things with existing botnets
+
+[2643.78 - 2647.619] um
+
+[2644.68 - 2651.2799999999997] and I think it's plausible that they get
+
+[2647.619 - 2652.9] all augmented by AI to become more
+
+[2651.28 - 2656.38] powerful
+
+[2652.9 - 2657.52] um you know the the auto GPT
+
+[2656.38 - 2660.7000000000003] um
+
+[2657.52 - 2662.8] project that that came out this year I
+
+[2660.7 - 2663.9399999999996] think demonstrates what that might look
+
+[2662.8 - 2666.1800000000003] like
+
+[2663.94 - 2671.56] um with autonomous agents potentially
+
+[2666.18 - 2673.66] being spawned by an Nai system or or
+
+[2671.56 - 2675.819] botnet
+
+[2673.66 - 2676.7799999999997] with its own intentions you know and
+
+[2675.819 - 2679.0] that
+
+[2676.78 - 2681.1600000000003] not necessarily A Time with its
+
+[2679.0 - 2683.38] prescribed intentions from whatever bad
+
+[2681.16 - 2685.06] actor
+
+[2683.38 - 2686.98] that I've been on the receiving end of
+
+[2685.06 - 2689.68] this before I've run websites for
+
+[2686.98 - 2693.88] various social groups and have seen them
+
+[2689.68 - 2696.339] be overrun by by Bots
+
+[2693.88 - 2698.7400000000002] um to the point where I just got out of
+
+[2696.339 - 2700.54] the game altogether because it was they
+
+[2698.74 - 2704.859] became too powerful
+
+[2700.54 - 2706.359] um for for my level of expenditure so
+
+[2704.859 - 2709.2999999999997] um and that's the other thing there's a
+
+[2706.359 - 2711.52] real cost associated with protecting
+
+[2709.3 - 2714.3390000000004] yourself against that sort of stuff
+
+[2711.52 - 2716.38] um at the moment you know with with
+
+[2714.339 - 2719.68] distributed denial of service attack
+
+[2716.38 - 2721.96] protection most major websites use
+
+[2719.68 - 2723.5789999999997] services like cloudflare to protect
+
+[2721.96 - 2726.52] against that sort of thing because they
+
+[2723.579 - 2729.46] have the bandwidths they have the the
+
+[2726.52 - 2730.72] routing uh there to redirect traffic
+
+[2729.46 - 2733.7200000000003] when they need to
+
+[2730.72 - 2735.5789999999997] right so yeah look I I think it's uh I
+
+[2733.72 - 2737.74] think it's a real concern and something
+
+[2735.579 - 2738.94] matters probably going to happen sooner
+
+[2737.74 - 2742.4199999999996] rather than later
+
+[2738.94 - 2744.7000000000003] interesting okay yeah no I I definitely
+
+[2742.42 - 2747.88] hear you there uh because again like you
+
+[2744.7 - 2750.3999999999996] know DDOS attacks happen all the time uh
+
+[2747.88 - 2753.28] you know distributed botnets even even
+
+[2750.4 - 2754.9] stealing data right exfiltration or or
+
+[2753.28 - 2756.46] infiltration
+
+[2754.9 - 2758.38] um Alan do you have a have thoughts
+
+[2756.46 - 2761.859] about the that kind of more
+
+[2758.38 - 2764.38] decentralized virus agis virus kind of
+
+[2761.859 - 2766.48] model of thinking I I think the tricky
+
+[2764.38 - 2771.339] part for me in all of that is motive
+
+[2766.48 - 2773.44] okay so so having done as much um cyber
+
+[2771.339 - 2776.92] as I have there's sort of this hierarchy
+
+[2773.44 - 2778.96] of needs of of hackers so to speak from
+
+[2776.92 - 2780.7000000000003] just someone trying it for fun because
+
+[2778.96 - 2783.04] they wanted to show they can do a thing
+
+[2780.7 - 2786.7599999999998] to governments doing you know
+
+[2783.04 - 2788.98] intentional Espionage damage whatever I
+
+[2786.76 - 2791.3190000000004] think one of the challenges is for AGI
+
+[2788.98 - 2793.54] as an independent agent
+
+[2791.319 - 2797.2599999999998] right just as as a thing that that
+
+[2793.54 - 2798.7] realizes today hey I'm I can do things I
+
+[2797.26 - 2802.599] think you're gonna see that sort of
+
+[2798.7 - 2804.2799999999997] actual script Kitty like I'm just trying
+
+[2802.599 - 2805.54] something because I can because
+
+[2804.28 - 2806.92] otherwise I don't know what its
+
+[2805.54 - 2809.68] motivation is right I don't know what
+
+[2806.92 - 2812.92] it's motivated to go broader on the
+
+[2809.68 - 2815.56] other hand if the AGI is somehow being
+
+[2812.92 - 2817.359] influenced by a human actor or some
+
+[2815.56 - 2819.16] maybe not a human actor but a corporate
+
+[2817.359 - 2821.619] actor right whether that Corp is a
+
+[2819.16 - 2823.42] corporation or the government in some
+
+[2821.619 - 2826.7200000000003] way that it's got a design parameter
+
+[2823.42 - 2829.78] that has a an outcome at once I can see
+
+[2826.72 - 2833.4399999999996] that you know there's there's lots of um
+
+[2829.78 - 2836.8] uh scenarios of of having bad
+
+[2833.44 - 2838.06] um uh basically bad objective functions
+
+[2836.8 - 2840.099] for your AI like there's a lot of
+
+[2838.06 - 2841.359] thought experiments around that and so
+
+[2840.099 - 2843.04] you know the thought experiment that
+
+[2841.359 - 2845.56] says well if you tell it to optimize
+
+[2843.04 - 2846.94] making stamps it will you know cut down
+
+[2845.56 - 2849.22] all the force in the world to make as
+
+[2846.94 - 2851.92] many stamps as possible like that that
+
+[2849.22 - 2854.3799999999997] kind of AGI deciding to botnet itself to
+
+[2851.92 - 2856.7200000000003] go do something because it was given an
+
+[2854.38 - 2859.48] otherwise benign thing I could see that
+
+[2856.72 - 2861.2799999999997] kind of mistake happening and and to
+
+[2859.48 - 2863.8] your point it it will be this kind of
+
+[2861.28 - 2867.0400000000004] mild distributed thing I think the the
+
+[2863.8 - 2869.44] real point though is for it to do other
+
+[2867.04 - 2872.46] than sort of incidental damage like a
+
+[2869.44 - 2874.9] DDOS attack or you know like say a mass
+
+[2872.46 - 2877.18] uh crypto thing where it's it's locked
+
+[2874.9 - 2879.579] people out of files it's got to be it's
+
+[2877.18 - 2881.859] got to have room to be a big model that
+
+[2879.579 - 2883.2400000000002] can do a lot of dynamic stuff right so I
+
+[2881.859 - 2884.7999999999997] think that's the tricky part we talked
+
+[2883.24 - 2885.819] about dependencies kind of coming back
+
+[2884.8 - 2888.1600000000003] to the beginning where we talked about
+
+[2885.819 - 2891.52] dependencies we talked about that I mean
+
+[2888.16 - 2893.98] for these kind of bots to run right now
+
+[2891.52 - 2897.339] the dependencies the the gpus and not
+
+[2893.98 - 2899.38] everything has it so and even even in in
+
+[2897.339 - 2901.839] most important Data Systems don't
+
+[2899.38 - 2902.6800000000003] necessarily have gpus right now
+
+[2901.839 - 2904.06] um because that's not what they're
+
+[2902.68 - 2905.74] that's not what they process that's not
+
+[2904.06 - 2908.2] how they handle it so I think I think
+
+[2905.74 - 2910.56] that I I do agree with that the idea
+
+[2908.2 - 2912.9399999999996] that it will be kind of a swarm effect
+
+[2910.56 - 2913.9] but I think it'll be really interesting
+
+[2912.94 - 2916.06] to see
+
+[2913.9 - 2920.02] what was the agi's motivation to get
+
+[2916.06 - 2921.819] started on this right yeah yeah okay and
+
+[2920.02 - 2924.28] that's the big question right one one
+
+[2921.819 - 2926.079] one hypothesis one Theory out there is
+
+[2924.28 - 2928.0600000000004] uh instrumental convergence that
+
+[2926.079 - 2929.8590000000004] whatever goal you give it you know if
+
+[2928.06 - 2931.7799999999997] it's even if it's just managing the
+
+[2929.859 - 2933.7599999999998] energy grid right and you say hey here's
+
+[2931.78 - 2935.5600000000004] here's a decentralized AGI that the
+
+[2933.76 - 2937.599] department of energy deployed and it's
+
+[2935.56 - 2939.099] there to manage the energy grid well if
+
+[2937.599 - 2940.9] you don't supervise it it might decide
+
+[2939.099 - 2942.579] to try and take over all energy sources
+
+[2940.9 - 2944.98] across the whole plant something like
+
+[2942.579 - 2946.54] that but one thing that that really
+
+[2944.98 - 2948.78] strikes me that's missing from from
+
+[2946.54 - 2951.2799999999997] those hypotheses those those kind of
+
+[2948.78 - 2954.099] constructs is the idea that like okay
+
+[2951.28 - 2956.5600000000004] yes you might have one powerful AGI out
+
+[2954.099 - 2958.839] there that is built for defense or
+
+[2956.56 - 2961.9] Espionage or whatever but then there's
+
+[2958.839 - 2964.119] going to be a million more for a variety
+
+[2961.9 - 2967.3] of other purposes and even even some
+
+[2964.119 - 2969.579] adversarial to defend against that uh so
+
+[2967.3 - 2973.0] you know the in in the in the arms race
+
+[2969.579 - 2974.619] of cyber security of hacking uh like
+
+[2973.0 - 2976.42] this is the of course this is nothing
+
+[2974.619 - 2978.579] new humans have been competing against
+
+[2976.42 - 2980.619] each other for since the invention of
+
+[2978.579 - 2982.3] the network what was the story do you
+
+[2980.619 - 2984.28] guys know the story that I'm thinking of
+
+[2982.3 - 2986.079] where it's like the the very first web
+
+[2984.28 - 2988.599] server like someone like the first
+
+[2986.079 - 2990.28] hacker of all time just like oh hey you
+
+[2988.599 - 2992.1400000000003] have no security here so I like modified
+
+[2990.28 - 2994.119] this file and they're like oh I guess we
+
+[2992.14 - 2996.2799999999997] need a security layer right I think that
+
+[2994.119 - 2998.079] was probably at CERN in the 1989 or
+
+[2996.28 - 3001.02] whatever but you know like we kind of
+
+[2998.079 - 3002.28] figured out that you need security uh by
+
+[3001.02 - 3003.96] virtue of
+
+[3002.28 - 3005.8190000000004] either accidents happening or people
+
+[3003.96 - 3008.2200000000003] just seeing what they can do so that
+
+[3005.819 - 3010.319] part is nothing new
+
+[3008.22 - 3011.3999999999996] looks like Tim had to step away for just
+
+[3010.319 - 3014.64] a moment
+
+[3011.4 - 3017.2200000000003] um but yeah so you know let's see we're
+
+[3014.64 - 3018.96] uh at about oh we're already at 50
+
+[3017.22 - 3023.0989999999997] minutes time flies
+
+[3018.96 - 3025.619] um but yeah so I'm back yeah thanks Tim
+
+[3023.099 - 3027.7200000000003] um yeah we wanna we we're we're almost
+
+[3025.619 - 3030.54] uh closing in on an hour so I just want
+
+[3027.72 - 3032.52] to open it up and are there any topics
+
+[3030.54 - 3035.46] that I that we didn't cover or any any
+
+[3032.52 - 3037.38] pet theories or personal topics that you
+
+[3035.46 - 3039.98] guys want to bring up um before we start
+
+[3037.38 - 3039.98] to wind down
+
+[3040.94 - 3046.02] oh sorry I was just gonna say before on
+
+[3043.619 - 3048.3] the other point that um
+
+[3046.02 - 3051.0] I I think it's more likely that bad
+
+[3048.3 - 3053.46] actors will use that sort of you know
+
+[3051.0 - 3055.98] botnap Style
+
+[3053.46 - 3059.76] attack Style
+
+[3055.98 - 3061.68] rather than a b an autonomous AGI you
+
+[3059.76 - 3063.6800000000003] know if you know what I mean
+
+[3061.68 - 3063.68] um
+
+[3063.72 - 3068.4599999999996] because it's an existing model right we
+
+[3066.24 - 3069.9599999999996] we hear of
+
+[3068.46 - 3072.54] um
+
+[3069.96 - 3074.52] governments countries
+
+[3072.54 - 3077.04] Melissa groups all that sort of stuff
+
+[3074.52 - 3078.68] they all are using technology to their
+
+[3077.04 - 3080.819] advantage these days
+
+[3078.68 - 3082.44] yeah that's where I think the roots
+
+[3080.819 - 3084.96] comes from there
+
+[3082.44 - 3087.3] but um
+
+[3084.96 - 3089.599] yeah did you want to expand on that
+
+[3087.3 - 3093.059] anymore or we could put that to rest
+
+[3089.599 - 3094.8590000000004] yeah yeah no what we can do is um maybe
+
+[3093.059 - 3097.2000000000003] maybe I ask the question not the best
+
+[3094.859 - 3099.0] way like what what is what is personal
+
+[3097.2 - 3101.16] to you about artificial intelligence
+
+[3099.0 - 3103.68] what what do you want to see and what do
+
+[3101.16 - 3105.8999999999996] you want to help achieve uh with respect
+
+[3103.68 - 3107.16] to artificial intelligence or conversely
+
+[3105.9 - 3108.839] what are you afraid of if there is
+
+[3107.16 - 3110.339] anything that you're afraid of uh you
+
+[3108.839 - 3111.66] can hit either or both of those if you'd
+
+[3110.339 - 3113.5789999999997] like
+
+[3111.66 - 3117.54] yeah personally
+
+[3113.579 - 3120.059] um I've really see a huge benefit for a
+
+[3117.54 - 3123.859] couple of things one is education
+
+[3120.059 - 3126.119] um and secondly it's uh
+
+[3123.859 - 3128.5789999999997] assistance so you know people with
+
+[3126.119 - 3131.099] disabilities whether it be physical
+
+[3128.579 - 3132.0] neurological whatever
+
+[3131.099 - 3133.98] um
+
+[3132.0 - 3136.859] I think you're going to get a huge
+
+[3133.98 - 3138.059] Advantage from AI systems in the future
+
+[3136.859 - 3141.54] um whether that be like a personal
+
+[3138.059 - 3142.8] assistant or just through Better Health
+
+[3141.54 - 3143.64] Care
+
+[3142.8 - 3146.6400000000003] um
+
+[3143.64 - 3149.0989999999997] you know but we're already seeing gbd4
+
+[3146.64 - 3151.3799999999997] models produce better outcomes than
+
+[3149.099 - 3153.7200000000003] human doctors so that's something that
+
+[3151.38 - 3155.52] really excites me personally
+
+[3153.72 - 3157.319] um just because of my own experience in
+
+[3155.52 - 3158.88] life and and having some chronic health
+
+[3157.319 - 3161.22] conditions
+
+[3158.88 - 3164.059] um I think that's really huge and then
+
+[3161.22 - 3166.14] the education piece
+
+[3164.059 - 3169.26] within some really impressive stuff
+
+[3166.14 - 3172.68] coming out of town Academy
+
+[3169.26 - 3173.76] and being in the education sector at the
+
+[3172.68 - 3175.6189999999997] moment myself
+
+[3173.76 - 3179.46] uh there's huge opportunities
+
+[3175.619 - 3181.859] particularly in public education for
+
+[3179.46 - 3184.26] um just more resources in the classroom
+
+[3181.859 - 3186.66] and I think AI can definitely help with
+
+[3184.26 - 3189.5] that you know imagine if every teacher
+
+[3186.66 - 3193.0789999999997] just has an AI assistant
+
+[3189.5 - 3195.839] alone that's one concept is going to be
+
+[3193.079 - 3198.119] a game changer so I'm very much invested
+
+[3195.839 - 3201.48] in seeing that kind of person
+
+[3198.119 - 3202.98] excellent excellent thanks thanks Tim
+
+[3201.48 - 3204.18] um Alan same question what do you what
+
+[3202.98 - 3207.839] do you hope to see or what are you
+
+[3204.18 - 3210.1189999999997] afraid of either or both so so I'll just
+
+[3207.839 - 3212.94] Echo Tim's thing on the on the hope to
+
+[3210.119 - 3214.5] see like I I saw the Khan Academy like
+
+[3212.94 - 3217.079] there's a great YouTube on what they're
+
+[3214.5 - 3220.14] doing and and there's this curve about
+
+[3217.079 - 3222.42] education that if you if you can give
+
+[3220.14 - 3224.22] personalized education to a student you
+
+[3222.42 - 3225.66] everybody gets helped so I thought I
+
+[3224.22 - 3227.7599999999998] think that's great like the vision he
+
+[3225.66 - 3228.96] casts there and and what's going to
+
+[3227.76 - 3230.6400000000003] happen with that I think that's that's
+
+[3228.96 - 3233.16] amazing and it's going to have a huge
+
+[3230.64 - 3234.72] impact on on the world uh but what I'm
+
+[3233.16 - 3236.46] afraid of is a little creepy actually
+
+[3234.72 - 3238.2599999999998] it's it's this other thing we haven't
+
+[3236.46 - 3240.78] talked about yet from a hardware
+
+[3238.26 - 3242.099] perspective so to speak of organoid
+
+[3240.78 - 3243.6600000000003] computing
+
+[3242.099 - 3245.579] so I don't know if you've seen this
+
+[3243.66 - 3246.7799999999997] before but organized competing is the
+
+[3245.579 - 3249.1800000000003] idea of taking
+
+[3246.78 - 3250.98] stem cells and growing effectively brain
+
+[3249.18 - 3253.5] cells that do the same kind of neural
+
+[3250.98 - 3255.96] networks you know like that's the model
+
+[3253.5 - 3257.4] right um and apparently I don't know if
+
+[3255.96 - 3259.559] this is true or not because I saw this
+
+[3257.4 - 3262.02] in passing but apparently they took a
+
+[3259.559 - 3264.599] couple of these organoid you know these
+
+[3262.02 - 3266.4] piles of brain cells in a Petri dish and
+
+[3264.599 - 3268.04] put them against each other playing pong
+
+[3266.4 - 3271.26] now I don't know if that's true or not
+
+[3268.04 - 3272.94] but that by itself is just super creepy
+
+[3271.26 - 3274.559] you know you've got kind of like the
+
+[3272.94 - 3276.48] brain that ate New York kind of creepy
+
+[3274.559 - 3279.1800000000003] thing that's creeping me out but then
+
+[3276.48 - 3282.42] the same day I heard there's this new
+
+[3279.18 - 3283.98] like AI has invented a a protein
+
+[3282.42 - 3286.6800000000003] replacement
+
+[3283.98 - 3289.14] so the the molecule that we have that's
+
+[3286.68 - 3290.64] that we ingest is protein in our body
+
+[3289.14 - 3292.74] that makes up muscle cells and things
+
+[3290.64 - 3296.16] like that apparently there's there's
+
+[3292.74 - 3298.74] some compound that AI has figured out
+
+[3296.16 - 3301.7999999999997] that gives gives that's more heat
+
+[3298.74 - 3303.72] resistant and has longer longevity and
+
+[3301.8 - 3306.0] all this stuff like if you basically
+
+[3303.72 - 3307.859] replace proteins with this it's better
+
+[3306.0 - 3310.74] so the thing that scares me is if the
+
+[3307.859 - 3313.44] organoid Computing then sucks up these
+
+[3310.74 - 3315.0789999999997] weird brain chemicals or these these
+
+[3313.44 - 3317.76] weird proteins it'll become the
+
+[3315.079 - 3319.2000000000003] indestructible uh
+
+[3317.76 - 3322.2200000000003] bringing the date New York and then
+
+[3319.2 - 3325.5589999999997] we're just out then AGI wins
+
+[3322.22 - 3326.7] yeah that I I I'm familiar with some of
+
+[3325.559 - 3328.02] the some of the research you're talking
+
+[3326.7 - 3329.04] about there where you know people
+
+[3328.02 - 3330.359] growing
+
+[3329.04 - 3332.099] um I think they started with mouse
+
+[3330.359 - 3333.96] brains and rap brains but I I did see
+
+[3332.099 - 3336.059] like in the last week they they did they
+
+[3333.96 - 3339.0] cloned human brain cells and I think one
+
+[3336.059 - 3341.579] that that's just a horrible idea and and
+
+[3339.0 - 3343.38] even possibly even just unethical
+
+[3341.579 - 3344.94] um because if you grow something in a
+
+[3343.38 - 3346.1400000000003] Petri dish and you zap it until it does
+
+[3344.94 - 3349.02] what you want like you're just creating
+
+[3346.14 - 3351.1189999999997] a tiny entity that's you can torture
+
+[3349.02 - 3352.74] basically to until it learns to do what
+
+[3351.119 - 3354.48] you want it to
+
+[3352.74 - 3356.66] um but but the the conclusion I'm
+
+[3354.48 - 3361.38] laughing but it is a very creepy and and
+
+[3356.66 - 3363.24] uh and and apocryphal uh possibility of
+
+[3361.38 - 3365.7000000000003] you know let's be let's be careful with
+
+[3363.24 - 3368.04] uh with what we do with these things
+
+[3365.7 - 3369.7799999999997] um so but yeah thanks guys for jumping
+
+[3368.04 - 3372.3] on the call and sharing your your
+
+[3369.78 - 3374.099] experience and wisdom and insight
+
+[3372.3 - 3375.78] um it's been a great talk and and like I
+
+[3374.099 - 3378.839] said time flies
+
+[3375.78 - 3380.8190000000004] um so yeah thanks thanks again uh and
+
+[3378.839 - 3382.68] and for the audience out there I hope
+
+[3380.819 - 3385.14] you got a lot out of of this realize
+
+[3382.68 - 3387.96] that you know AGI whether or not it
+
+[3385.14 - 3390.24] comes uh you know today next year 10
+
+[3387.96 - 3393.54] years from now there's going to be a lot
+
+[3390.24 - 3394.9799999999996] of layers of complexity and Security in
+
+[3393.54 - 3398.099] place that's going to make it so that we
+
+[3394.98 - 3400.44] can manage this thing uh regardless of
+
+[3398.099 - 3404.339] how it looks and and there's a lot of a
+
+[3400.44 - 3407.46] lot of steps between now and then uh you
+
+[3404.339 - 3409.92] know the escaping the lab is is pretty
+
+[3407.46 - 3411.7200000000003] low on uh on the radar right now it
+
+[3409.92 - 3413.7000000000003] seems like so anyways thanks for
+
+[3411.72 - 3416.24] watching I hope everyone got a lot out
+
+[3413.7 - 3416.24] of it cheers

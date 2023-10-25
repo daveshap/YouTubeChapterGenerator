@@ -1,0 +1,1691 @@
+[0.12 - 4.62] morning everybody David Shapiro here
+
+[2.1 - 8.82] with your weekly video
+
+[4.62 - 10.679] so today's video is about layer six of
+
+[8.82 - 13.32] the gato framework which calls for
+
+[10.679 - 16.5] international treaties uh or in other
+
+[13.32 - 19.08] words Global AI based agencies so
+
+[16.5 - 22.039] today's uh topic is going to be talking
+
+[19.08 - 25.619] about what would those look like because
+
+[22.039 - 28.32] uh in many cases people are just not
+
+[25.619 - 30.96] aware of existing work that has been
+
+[28.32 - 33.3] done on an international or global scale
+
+[30.96 - 36.239000000000004] so I figured we would talk we would uh
+
+[33.3 - 38.04] talk about those and um and then also
+
+[36.239 - 40.8] you know first talk about what exists
+
+[38.04 - 42.54] and then also talk about how uh a
+
+[40.8 - 44.76] version of those for AI would look
+
+[42.54 - 47.339999999999996] apologies
+
+[44.76 - 49.5] um so real quick just before we jump in
+
+[47.34 - 51.0] I'll plug my patreon I have a private
+
+[49.5 - 55.199] Discord server for all patreon
+
+[51.0 - 57.12] supporters and I also have weekly office
+
+[55.199 - 59.519999999999996] hours for the premium tier patreon
+
+[57.12 - 62.038999999999994] supporters I also do have a higher tier
+
+[59.52 - 64.199] which allows for one-on-one calls but at
+
+[62.039 - 67.43900000000001] least as of the recording of this I have
+
+[64.199 - 70.32] no lots available that being said I do
+
+[67.439 - 72.77999999999999] add slots occasionally you know there's
+
+[70.32 - 76.02] Churn it happens okay moving right along
+
+[72.78 - 78.18] so for some background a few weeks ago
+
+[76.02 - 79.979] Sam Altman Gary Marcus and Christina
+
+[78.18 - 82.68] Montgomery testified before Congress
+
+[79.979 - 83.88] about artificial intelligence and one of
+
+[82.68 - 85.46000000000001] the things that they asked for was
+
+[83.88 - 87.89999999999999] regulation
+
+[85.46 - 90.41999999999999] all all three of them asked for it in
+
+[87.9 - 93.9] certain respects Sam Altman obviously
+
+[90.42 - 95.84] the CEO of open AI has been calling for
+
+[93.9 - 99.54] various kinds of regulation for a while
+
+[95.84 - 101.57900000000001] Christina who comes from IBM she was a
+
+[99.54 - 103.5] little bit more let's say corporate
+
+[101.579 - 106.55999999999999] sanitized in the way that she asked but
+
+[103.5 - 110.52] she basically said that IBM's policy has
+
+[106.56 - 112.74000000000001] always been to be more in favor of of
+
+[110.52 - 115.079] Regulation including going back to
+
+[112.74 - 116.399] social media and I checked on IBM's
+
+[115.079 - 119.579] website and they actually do have some
+
+[116.399 - 121.5] policies and recommendations obviously
+
+[119.579 - 122.759] there they have to be very diplomatic
+
+[121.5 - 124.32] about it because they are not a
+
+[122.759 - 126.96] political entity and of course we
+
+[124.32 - 130.679] already we have a lot of in my opinion
+
+[126.96 - 133.14] too much uh interference between the
+
+[130.679 - 137.94] corporate establishment and American
+
+[133.14 - 141.23899999999998] politics that being said uh you know the
+
+[137.94 - 142.56] IBM has expressly asked for more
+
+[141.239 - 145.08] regulation
+
+[142.56 - 146.64000000000001] um on social media Ai and other uses of
+
+[145.08 - 149.4] technology for a while
+
+[146.64 - 152.04] so Gary Marcus is a professor and
+
+[149.4 - 155.64000000000001] researcher so this this panel if you
+
+[152.04 - 159.599] missed it was a good mix of Private
+
+[155.64 - 161.04] Industry as well as Academia and they
+
+[159.599 - 164.28] were all basically saying the same thing
+
+[161.04 - 166.26] so Gary Marcus explicitly said we need a
+
+[164.28 - 169.14000000000001] new cabinet level agency so cabinet
+
+[166.26 - 171.72] level agency is like FDA you know or or
+
+[169.14 - 174.05999999999997] some someone who's the head of which
+
+[171.72 - 176.519] reports directly to like the White House
+
+[174.06 - 178.739] or or the uh like you know Joint Chiefs
+
+[176.519 - 181.08] of Staff or whatever I know the Joint
+
+[178.739 - 182.70000000000002] Chiefs of Staff is uh for military
+
+[181.08 - 183.959] um but you never know like we created a
+
+[182.7 - 185.57999999999998] space force
+
+[183.959 - 187.379] um you know NASA was the research branch
+
+[185.58 - 190.08] and now we have a space force who knows
+
+[187.379 - 192.35999999999999] maybe we will ultimately have an AI
+
+[190.08 - 194.64000000000001] division for military
+
+[192.36 - 197.09900000000002] um but anyways so one of the when
+
+[194.64 - 199.2] pressed Gary Marcus said that you know
+
+[197.099 - 203.64] one model that we could pursue would be
+
+[199.2 - 205.44] the FDA but for AI and the the uh
+
+[203.64 - 207.54] example that he gave is that when you
+
+[205.44 - 210.54] release a drug to you know you know 300
+
+[207.54 - 212.28] million people you you make sure that
+
+[210.54 - 214.44] it's safe you make sure that it has that
+
+[212.28 - 216.659] has really passed muster
+
+[214.44 - 218.519] one of the Senators interviewing him
+
+[216.659 - 220.62] said he disagreed but you know he he
+
+[218.519 - 221.94] appreciated the sentiment
+
+[220.62 - 224.519] um and then there was also talk about
+
+[221.94 - 226.98] well what what other existing entities
+
+[224.519 - 231.36] could be empowered right like what about
+
+[226.98 - 232.5] the FTC or uh SEC or whatever and uh
+
+[231.36 - 234.36] there's actually a lot of people that
+
+[232.5 - 237.239] Advocate that say like yes all
+
+[234.36 - 241.019] government agencies must become AI aware
+
+[237.239 - 243.59900000000002] AI literate but another point is that AI
+
+[241.019 - 247.019] is such a distinctive and powerful force
+
+[243.599 - 248.819] that it warrants its own uh agency just
+
+[247.019 - 251.34] like how uh America has the department
+
+[248.819 - 253.26] of energy which which focuses
+
+[251.34 - 256.62] specifically on generation and
+
+[253.26 - 258.239] management of energy open AI has also
+
+[256.62 - 262.44] explicitly called for an international
+
+[258.239 - 265.56] agency they call for IE iaea but for AI
+
+[262.44 - 267.919] so the iaea is the international atomic
+
+[265.56 - 271.02] energy agency which has to do with
+
+[267.919 - 273.71999999999997] inspecting nuclear sites
+
+[271.02 - 275.28] so the conversation is there the
+
+[273.72 - 277.639] conversation is happening people are
+
+[275.28 - 281.53999999999996] calling for National and international
+
+[277.639 - 283.979] levels of AI uh not just
+
+[281.54 - 285.6] regulation yes but I'm also calling for
+
+[283.979 - 287.15999999999997] AI research
+
+[285.6 - 289.02000000000004] um and I've got plenty of examples of
+
+[287.16 - 291.6] existing International research bodies
+
+[289.02 - 295.74] uh to share so first we're going to talk
+
+[291.6 - 299.1] a little bit about uh the iaea it is was
+
+[295.74 - 302.1] established in 1957 under uh United
+
+[299.1 - 304.199] Nations it is an autonomous entity
+
+[302.1 - 305.759] um its primary purpose is of course to
+
+[304.199 - 307.56] promote the peaceful use of nuclear
+
+[305.759 - 309.54] energy inhibit its use for military
+
+[307.56 - 311.639] purposes and ensure nuclear Safety and
+
+[309.54 - 313.259] Security you swap that out with
+
+[311.639 - 315.12] artificial intelligence and that's
+
+[313.259 - 317.94] exactly what we need
+
+[315.12 - 320.58] uh it is governed by the General
+
+[317.94 - 322.259] Conference of the UN and has a Board of
+
+[320.58 - 324.96] Governors
+
+[322.259 - 326.58000000000004] um that is appointed uh from 35 members
+
+[324.96 - 330.12] of the UN
+
+[326.58 - 332.4] um as of 2021 it had 171 member States
+
+[330.12 - 335.039] and its annual budget is only 500
+
+[332.4 - 336.71999999999997] million Euros which is probably lower
+
+[335.039 - 338.15999999999997] than you might think
+
+[336.72 - 340.56] um especially when we're talking about
+
+[338.16 - 342.24] the astronomical amount of money that
+
+[340.56 - 344.34] artificial intelligence could possibly
+
+[342.24 - 347.52] generate and so then if you say okay
+
+[344.34 - 349.19899999999996] well we are asking for the foundation of
+
+[347.52 - 351.9] something similar but for artificial
+
+[349.199 - 354.199] intelligence uh maybe we start at the
+
+[351.9 - 356.94] same part at about half a billion euros
+
+[354.199 - 359.039] if the entire world chips in that's
+
+[356.94 - 362.16] actually a pretty trivial you know
+
+[359.039 - 364.979] amount of money so you divide 171 member
+
+[362.16 - 367.199] states by 500 million euros and like 3
+
+[364.979 - 370.68] million Euros or three million dollars
+
+[367.199 - 374.06] per member State uh that's a drop in the
+
+[370.68 - 377.22] bucket so we could easily easily easily
+
+[374.06 - 378.479] afford to fund such an agency so you
+
+[377.22 - 379.68] know well who's going to pay for it I
+
+[378.479 - 382.86] don't even want to hear that argument
+
+[379.68 - 384.72] like that is a trivial like Nations
+
+[382.86 - 387.06] could sneeze that and not even remember
+
+[384.72 - 390.53900000000004] that they spent that money
+
+[387.06 - 392.46] um one of the things that they do is as
+
+[390.539 - 394.259] I mentioned they do inspections to
+
+[392.46 - 398.21999999999997] verify compliance with nuclear
+
+[394.259 - 400.139] non-proliferation they also assist in
+
+[398.22 - 402.72] the development of peaceful nuclear
+
+[400.139 - 404.1] programs so they have kind of a one-two
+
+[402.72 - 406.199] thing where they're they're regulating
+
+[404.1 - 408.78000000000003] but they're also educating and
+
+[406.199 - 410.22] supporting and it is based in Vienna
+
+[408.78 - 413.039] Austria
+
+[410.22 - 414.78000000000003] so you might say okay well yeah but it's
+
+[413.039 - 416.46] the United Nations it has no track
+
+[414.78 - 418.979] record or the United Nations isn't
+
+[416.46 - 421.44] effective or whatever uh you know but
+
+[418.979 - 424.52] there is quite a few things that uh the
+
+[421.44 - 426.66] iaea has helped with uh so the nuclear
+
+[424.52 - 429.24] non-proliferation treaty
+
+[426.66 - 431.639] um it actually has a dedicated
+
+[429.24 - 434.12] um organization within itself
+
+[431.639 - 437.46000000000004] um based upon nuclear non-proliferation
+
+[434.12 - 440.58] it helped after the Chernobyl explosion
+
+[437.46 - 442.08] which of course you know the IAA iaea
+
+[440.58 - 444.3] could not prevent the Chernobyl
+
+[442.08 - 446.15999999999997] explosion but it helped respond and so
+
+[444.3 - 449.34000000000003] that's another key thing is that is that
+
+[446.16 - 451.259] a a global entity shouldn't just be
+
+[449.34 - 453.71999999999997] about regulation and enforcement but
+
+[451.259 - 454.94] also like disaster mitigation if or when
+
+[453.72 - 458.28000000000003] it does happen
+
+[454.94 - 459.36] nuclear Test Ban Treaty was instrumental
+
+[458.28 - 462.78] in that
+
+[459.36 - 466.199] uh North Korea of course has uh nuclear
+
+[462.78 - 468.419] Ambitions and the iaea provides constant
+
+[466.199 - 469.86] monitoring for that it was also
+
+[468.419 - 471.539] instrumental in helping with the Iran
+
+[469.86 - 473.099] nuclear deal which of course the
+
+[471.539 - 475.62] relationship between Iran and the rest
+
+[473.099 - 477.38] of the world particularly the West uh
+
+[475.62 - 480.84000000000003] has been very strained for many years
+
+[477.38 - 483.599] but it hasn't been in the news lately uh
+
+[480.84 - 486.17999999999995] due largely to that nuclear deal that
+
+[483.599 - 487.86] happened under Obama I'm not saying that
+
+[486.18 - 489.78000000000003] Obama is responsible for it it was an
+
+[487.86 - 491.52000000000004] international effort but just pointing
+
+[489.78 - 494.69899999999996] out he was president at the time
+
+[491.52 - 498.29999999999995] uh the Fukushima uh disaster so that was
+
+[494.699 - 500.28000000000003] after the tsunami that hit Japan uh the
+
+[498.3 - 502.08] iaea was part of the coordination effort
+
+[500.28 - 505.44] and then finally
+
+[502.08 - 507.96] um the director general of uh of the
+
+[505.44 - 510.78] iaea Mohammed al-barati
+
+[507.96 - 513.24] um got the Nobel Peace Prize in 2005.
+
+[510.78 - 514.8] so just want to point out that like yes
+
+[513.24 - 517.6800000000001] this organization does have a track
+
+[514.8 - 520.74] record and has made a name for itself
+
+[517.68 - 524.52] now one of the organizations that I like
+
+[520.74 - 526.74] to think about is CERN so CERN is a
+
+[524.52 - 530.22] European so it's it is international but
+
+[526.74 - 531.779] is not Global but it is there to study
+
+[530.22 - 535.38] particle physics
+
+[531.779 - 538.68] and so this was established in 1954 by
+
+[535.38 - 541.08] 12 member countries it also now has 23
+
+[538.68 - 542.64] total members including observers
+
+[541.08 - 544.32] there's a few categories so there's the
+
+[542.64 - 547.14] founders which are Europe and then
+
+[544.32 - 549.24] there's contributors and observers which
+
+[547.14 - 551.76] includes the United States Japan and a
+
+[549.24 - 554.4590000000001] few other nations uh and so this is an
+
+[551.76 - 556.08] international effort to understand uh
+
+[554.459 - 558.4799999999999] the fundamental structure of the
+
+[556.08 - 560.76] universe right its entire mission is is
+
+[558.48 - 562.08] literally understand the fundamental
+
+[560.76 - 564.42] structure of the universe specifically
+
+[562.08 - 566.9590000000001] the particles that compose matter and
+
+[564.42 - 570.3] the forces that hold them together
+
+[566.959 - 571.92] so as of 2020 for for whatever reason
+
+[570.3 - 573.5999999999999] finding the budget of certain is is
+
+[571.92 - 575.6999999999999] rather difficult
+
+[573.6 - 577.98] um All Nations report in terms of like
+
+[575.7 - 579.48] percentages of how much they support it
+
+[577.98 - 581.399] but like getting a total number like
+
+[579.48 - 582.72] what was your budget hard to find for
+
+[581.399 - 584.88] whatever reason
+
+[582.72 - 587.4590000000001] um anyways I think that the annual
+
+[584.88 - 589.98] budget of CERN is about 1.1 billion
+
+[587.459 - 592.5] dollars and of course they run
+
+[589.98 - 595.32] um uh Large Hadron Collider and a few
+
+[592.5 - 598.92] other major major experiments
+
+[595.32 - 600.6] uh so CERN if you are not aware of is
+
+[598.92 - 603.899] the organization that invented the World
+
+[600.6 - 607.5] Wide Web this is a copy of the original
+
+[603.899 - 610.44] proposal that led to the World Wide Web
+
+[607.5 - 611.7] and at the top someone wrote vague but
+
+[610.44 - 616.2600000000001] exciting
+
+[611.7 - 617.94] um so that is uh that is uh uh many many
+
+[616.26 - 620.42] people as particularly in computer
+
+[617.94 - 623.1600000000001] science will understand that reference
+
+[620.42 - 625.88] so this was the initial proposal for the
+
+[623.16 - 628.74] World Wide Web uh it's discovered in a
+
+[625.88 - 633.12] whole raft of fundamental Elementary
+
+[628.74 - 636.0600000000001] particles bosons Higgs boson creation of
+
+[633.12 - 638.279] anti-matter using neutrinos all sorts of
+
+[636.06 - 639.959] stuff and of course we've got the Large
+
+[638.279 - 642.48] Hadron Collider
+
+[639.959 - 645.0] which generates many many hundreds of
+
+[642.48 - 647.279] terabytes of data and it's interesting
+
+[645.0 - 649.38] to bring this one up because actually I
+
+[647.279 - 651.36] you know as a science nerd I was
+
+[649.38 - 654.959] watching a documentary about CERN and
+
+[651.36 - 657.42] LHC a few years ago and the LHC actually
+
+[654.959 - 659.399] generates so much data that they need
+
+[657.42 - 662.04] artificial intelligence to sift through
+
+[659.399 - 664.38] the data to help find the phenomenon to
+
+[662.04 - 666.0] find the anomalies and so there's
+
+[664.38 - 668.279] actually a very tight feedback loop
+
+[666.0 - 671.279] between for instance nuclear research
+
+[668.279 - 674.3389999999999] and artificial intelligence
+
+[671.279 - 676.019] so those are two organizations that have
+
+[674.339 - 678.1800000000001] kind of the research mandate and then
+
+[676.019 - 679.5] the regulation and safety mandate and I
+
+[678.18 - 680.579] think we need both for artificial
+
+[679.5 - 682.86] intelligence
+
+[680.579 - 685.019] there's a few other International bodies
+
+[682.86 - 687.899] that we can pay attention to that are
+
+[685.019 - 690.48] probably either going to be good models
+
+[687.899 - 692.279] that we can base this on or they could
+
+[690.48 - 694.86] actually even be partners
+
+[692.279 - 697.26] so one another Global organization that
+
+[694.86 - 699.839] is more for emergency response is the
+
+[697.26 - 701.7] World Health Organization which of
+
+[699.839 - 704.5400000000001] course helped coordinate Global the
+
+[701.7 - 707.88] global response to the covid epidemic
+
+[704.54 - 711.48] but they've also responded to SARS MERS
+
+[707.88 - 713.88] Ebola and other stuff so my uncle is a
+
+[711.48 - 715.62] microbiologist and so a few years ago
+
+[713.88 - 718.38] when there was a couple of outbreaks of
+
+[715.62 - 719.579] Ebola he actually traveled the world to
+
+[718.38 - 723.06] help be part of the World Health
+
+[719.579 - 725.279] Organization response to contain Ebola
+
+[723.06 - 727.079] and then of course MERS is something
+
+[725.279 - 729.66] that you might not have heard of but it
+
+[727.079 - 731.6999999999999] was infinitely more dangerous than kovid
+
+[729.66 - 733.68] the mortality rate of MERS can be over
+
+[731.7 - 736.2] 10 percent
+
+[733.68 - 738.12] um and so like it's a there's some
+
+[736.2 - 739.5600000000001] really horrible diseases that you have
+
+[738.12 - 741.66] never heard of because of the World
+
+[739.56 - 743.88] Health Organization
+
+[741.66 - 746.04] um there's two Financial uh Global
+
+[743.88 - 747.8389999999999] entities both were created at Bretton
+
+[746.04 - 750.06] Woods after World War II
+
+[747.839 - 751.8000000000001] and so World War II caused a lot of
+
+[750.06 - 753.959] people to come together and say we need
+
+[751.8 - 755.519] to prevent this from happening again and
+
+[753.959 - 758.16] so one of the things that they decided
+
+[755.519 - 760.5] after World War II was that economic uh
+
+[758.16 - 763.5] Improvement and economic stability and
+
+[760.5 - 765.72] economic cooperation were critical to
+
+[763.5 - 767.339] maintaining Global Peace which has more
+
+[765.72 - 768.6600000000001] or less worked up until that up until
+
+[767.339 - 770.82] now
+
+[768.66 - 772.62] um but it's you know time will tell
+
+[770.82 - 775.019] because we're facing a backlash against
+
+[772.62 - 776.1] globalization anyways getting lost in
+
+[775.019 - 778.98] the weeds
+
+[776.1 - 780.66] so the point of the IMF is to stabilize
+
+[778.98 - 783.3000000000001] the global economy through cooperation
+
+[780.66 - 788.16] trade exchange and so on so members of
+
+[783.3 - 790.1999999999999] the IMF will get loans the IMF has been
+
+[788.16 - 792.54] responsible for some bailouts they also
+
+[790.2 - 795.24] have been responsible for
+
+[792.54 - 797.6999999999999] um not necessarily economic sanctions
+
+[795.24 - 799.86] but economic requirements so for
+
+[797.7 - 801.9590000000001] instance during the global recession the
+
+[799.86 - 805.019] IMF was the entity responsible for
+
+[801.959 - 807.0] telling Nations such as Greece you need
+
+[805.019 - 809.399] austerity measures before we're going to
+
+[807.0 - 812.7] bail you out and so the idea of the IMF
+
+[809.399 - 816.54] is that it uses that that ability to
+
+[812.7 - 819.4200000000001] withhold funds in order to to shape
+
+[816.54 - 821.9399999999999] National policy more towards stability
+
+[819.42 - 824.459] rather than things like hyperinflation
+
+[821.94 - 827.1] or economic collapse
+
+[824.459 - 828.66] and uh you know the situation in Greece
+
+[827.1 - 832.019] is still not good
+
+[828.66 - 834.54] um after many many years that being said
+
+[832.019 - 836.16] that you know we don't hear about uh the
+
+[834.54 - 837.66] Greek economy collapsing in the news all
+
+[836.16 - 839.459] the time granted I don't pay attention
+
+[837.66 - 842.16] to Greek news but it doesn't make it
+
+[839.459 - 846.3] into uh you know American uh financial
+
+[842.16 - 847.98] news uh the World Bank uh is uh has a
+
+[846.3 - 850.5] slightly different mandate than the IMF
+
+[847.98 - 853.5] so while the IMF more focuses on
+
+[850.5 - 855.899] developed Nations the world bank has the
+
+[853.5 - 858.06] goal of ending extreme poverty
+
+[855.899 - 860.1] um through financial means
+
+[858.06 - 862.68] um and also to boost Global Prosperity
+
+[860.1 - 863.76] through lending and Advising so the
+
+[862.68 - 866.8199999999999] World Bank
+
+[863.76 - 868.4399999999999] um is more likely to issue loans to
+
+[866.82 - 869.94] developing nations
+
+[868.44 - 872.1600000000001] and the reason that I bring both of
+
+[869.94 - 874.2600000000001] these up is because artificial
+
+[872.16 - 876.0] intelligence has the ability to
+
+[874.26 - 879.12] profoundly impact artificial
+
+[876.0 - 881.339] intelligence all over the world and and
+
+[879.12 - 883.32] greatly Advance the missions of both of
+
+[881.339 - 886.6800000000001] these entities and one of the best ways
+
+[883.32 - 888.3000000000001] to incentivize aligned development is to
+
+[886.68 - 889.68] pay for it and we'll talk about some of
+
+[888.3 - 892.3199999999999] those tactics
+
+[889.68 - 893.6389999999999] um near the end of the of the slide and
+
+[892.32 - 895.2600000000001] I also have other videos that I'm
+
+[893.639 - 897.42] working on talking more about some of
+
+[895.26 - 902.279] these specific tactics and then finally
+
+[897.42 - 904.68] uh the another research body is eater or
+
+[902.279 - 907.32] iter which is the inner is the
+
+[904.68 - 910.079] international Fusion research entity
+
+[907.32 - 913.0790000000001] it's got 35 Nations working together to
+
+[910.079 - 914.579] solve fusion and so the point point
+
+[913.079 - 917.519] being is that there are actually many
+
+[914.579 - 920.88] many examples of International and
+
+[917.519 - 923.4590000000001] Global cooperation in order to provide
+
+[920.88 - 926.88] safety stability and research as well as
+
+[923.459 - 928.4399999999999] regulations so when we propose to do the
+
+[926.88 - 931.26] same thing for artificial intelligence
+
+[928.44 - 932.639] this is not like this is It's not like
+
+[931.26 - 935.04] this has never been done before we've
+
+[932.639 - 936.6] actually done this many times before
+
+[935.04 - 940.199] so let's talk about how these
+
+[936.6 - 942.0600000000001] hypothetical Global entities might work
+
+[940.199 - 944.88] um so the first one that I propose is
+
+[942.06 - 946.56] Gaia the global AI agency
+
+[944.88 - 949.86] um and of course Gaia also means Earth
+
+[946.56 - 951.54] so the Mandate for Gaia would be very
+
+[949.86 - 953.94] very simple study and prevent
+
+[951.54 - 956.579] existential risks from AI That's it that
+
+[953.94 - 958.44] is its primary purpose uh it would
+
+[956.579 - 961.7399999999999] publish open source scientific research
+
+[958.44 - 963.9590000000001] papers data sets and align models and by
+
+[961.74 - 967.44] making those models publicly available
+
+[963.959 - 969.3] to everyone it will that will one make
+
+[967.44 - 971.4590000000001] access to artificial intelligence much
+
+[969.3 - 973.8599999999999] more democratic but it will also
+
+[971.459 - 975.899] saturate help saturate the world with
+
+[973.86 - 977.399] alignment research and Alignment data
+
+[975.899 - 980.279] and Alignment models
+
+[977.399 - 982.74] it would also participate in global
+
+[980.279 - 985.5] policy recommendations advising Nations
+
+[982.74 - 989.339] advising militaries and it would also
+
+[985.5 - 992.339] establish best practices and guidelines
+
+[989.339 - 995.5790000000001] that could be used by everyone Nations
+
+[992.339 - 998.759] corporations and so on and so by by
+
+[995.579 - 1001.279] creating a global Authority a global
+
+[998.759 - 1005.6800000000001] scientific Authority that says yes like
+
+[1001.279 - 1008.6] we understand and the idea is is just to
+
+[1005.68 - 1010.699] comprehend this problem not to not to
+
+[1008.6 - 1014.3000000000001] punish anyone not to put on the brakes
+
+[1010.699 - 1016.579] but actually to focus exclusively on
+
+[1014.3 - 1019.04] Research initial funding should be
+
+[1016.579 - 1021.9799999999999] around 500 million dollars similar to
+
+[1019.04 - 1024.9189999999999] the iaea and membership should be
+
+[1021.98 - 1026.839] probably pretty similar to CERN or NATO
+
+[1024.919 - 1028.4] which are international but not
+
+[1026.839 - 1031.1] necessarily global
+
+[1028.4 - 1034.22] and the reason that
+
+[1031.1 - 1036.1989999999998] um I suggest that is because there is
+
+[1034.22 - 1038.24] presently a competitive dynamic in the
+
+[1036.199 - 1040.819] world and so basically in order to
+
+[1038.24 - 1043.579] benefit from this Global AI research
+
+[1040.819 - 1045.319] effort then um Nations should have to
+
+[1043.579 - 1048.5] pass certain muster
+
+[1045.319 - 1051.62] um for instance non-aggressive use of AI
+
+[1048.5 - 1053.72] um and uh and you know not actively be
+
+[1051.62 - 1055.76] you know at war or whatever something
+
+[1053.72 - 1057.919] like that I could be wrong
+
+[1055.76 - 1061.22] um I'm not uh I'm not an international
+
+[1057.919 - 1062.9] policy expert yet so it might be that
+
+[1061.22 - 1066.08] there is there are problems with that
+
+[1062.9 - 1068.96] but between CERN eater and um and other
+
+[1066.08 - 1070.6399999999999] entities it looks like that Global
+
+[1068.96 - 1072.02] Research is not necessarily something
+
+[1070.64 - 1074.419] that has been done yet but certainly
+
+[1072.02 - 1077.6] International research
+
+[1074.419 - 1081.3200000000002] um yep so that's it for for Gaia
+
+[1077.6 - 1083.36] the next one is uh Garza or Garcia the
+
+[1081.32 - 1087.02] global AI Regulatory and compliance
+
+[1083.36 - 1091.4599999999998] agency so this one would basically be
+
+[1087.02 - 1093.9189999999999] like kind of a combination of gdpr but
+
+[1091.46 - 1096.2] for the globe and for AI right so it
+
+[1093.919 - 1098.48] would inspect certify and regulate AI
+
+[1096.2 - 1101.48] hardware and software so this looks at
+
+[1098.48 - 1104.6] the at the hardware and software aspects
+
+[1101.48 - 1108.14] of AI rather than like the data or
+
+[1104.6 - 1111.799] policy but what it would use is it would
+
+[1108.14 - 1114.38] use similar litmus tests and also like
+
+[1111.799 - 1115.7] sanctions or regulations as to what the
+
+[1114.38 - 1117.919] IMF does
+
+[1115.7 - 1121.52] which basically says
+
+[1117.919 - 1123.14] um you know if here's an example in in
+
+[1121.52 - 1126.26] the investment world in the finance
+
+[1123.14 - 1128.2990000000002] world if a company is not GDP are
+
+[1126.26 - 1129.98] compliant it will not get any investment
+
+[1128.299 - 1131.48] why because investors say you're not
+
+[1129.98 - 1135.2] compliant you're at risk of getting shut
+
+[1131.48 - 1137.9] down the same is also true of ESG which
+
+[1135.2 - 1140.419] ESG is a as a inside the industry
+
+[1137.9 - 1142.3400000000001] standard so ESG means environmental
+
+[1140.419 - 1144.26] social and governance so the idea is
+
+[1142.34 - 1146.12] that if you don't get that ESG you know
+
+[1144.26 - 1148.28] stamp of approval you're going to have a
+
+[1146.12 - 1151.1] much harder time getting investment and
+
+[1148.28 - 1154.039] so rather than rather than enforcing it
+
+[1151.1 - 1157.4599999999998] through you know more strong arm
+
+[1154.039 - 1159.2] approaches uh my recommendation for the
+
+[1157.46 - 1161.3600000000001] for the global AI Regulatory and
+
+[1159.2 - 1163.52] compliance agency is to perform those
+
+[1161.36 - 1165.1399999999999] inspections to perform those tests to
+
+[1163.52 - 1167.84] basically be an underwriter a global
+
+[1165.14 - 1168.919] underwriter of AI companies products and
+
+[1167.84 - 1172.78] services
+
+[1168.919 - 1176.0590000000002] and so then if if the Garcia Agency
+
+[1172.78 - 1177.44] decertifies a company then it you know
+
+[1176.059 - 1179.0] one their share price is going to go
+
+[1177.44 - 1180.919] down because everyone's like oh you know
+
+[1179.0 - 1182.66] they're not AI compliant they might get
+
+[1180.919 - 1185.9] shut down they might get raided you know
+
+[1182.66 - 1189.44] or or investigated or sued or whatever
+
+[1185.9 - 1192.0800000000002] um but then if uh conversely if they are
+
+[1189.44 - 1194.539] if they do get certified as AI alignment
+
+[1192.08 - 1197.84] compliant then you know they get more
+
+[1194.539 - 1201.02] grants more handouts more whatever
+
+[1197.84 - 1202.9399999999998] um and so this is this is why I included
+
+[1201.02 - 1206.299] the IMF and the World Bank is because
+
+[1202.94 - 1208.22] you can you can absolutely steer policy
+
+[1206.299 - 1211.46] research development and other behaviors
+
+[1208.22 - 1214.72] with financial incentives and that also
+
+[1211.46 - 1217.4] creates a relatively lightweight agency
+
+[1214.72 - 1218.9] uh that that they don't have to do a
+
+[1217.4 - 1221.0590000000002] whole lot of heavy lifting themselves
+
+[1218.9 - 1222.6200000000001] but rather they provide that
+
+[1221.059 - 1224.96] underwriting that certification and
+
+[1222.62 - 1228.5] decertification which can then steer the
+
+[1224.96 - 1231.44] behaviors of the rest of the world
+
+[1228.5 - 1233.36] so this overall strategy is about having
+
+[1231.44 - 1235.22] gas and brakes because one thing that
+
+[1233.36 - 1236.8999999999999] people are legitimately worried about is
+
+[1235.22 - 1238.78] that if we slow down too much someone
+
+[1236.9 - 1241.8200000000002] else is going to pick up the speed right
+
+[1238.78 - 1243.86] in a global competitive landscape the
+
+[1241.82 - 1247.1] nation that slows down is the one that
+
+[1243.86 - 1249.74] loses so we need gas but we also need
+
+[1247.1 - 1251.1789999999999] Brakes in order to win any race you
+
+[1249.74 - 1254.0] actually need both
+
+[1251.179 - 1256.76] so I play Forza I've actually been I've
+
+[1254.0 - 1258.2] I've played Forza since the very uh
+
+[1256.76 - 1261.5] original Forza and so if you're not
+
+[1258.2 - 1264.559] familiar Forza is a simulation grade uh
+
+[1261.5 - 1267.08] racing game and uh you know if you're
+
+[1264.559 - 1269.36] driving a Ferrari or a Lamborghini or
+
+[1267.08 - 1272.0] you know whatever else a you know high
+
+[1269.36 - 1274.52] performance you know Mercedes AMG around
+
+[1272.0 - 1277.34] a track you don't just use the gas if
+
+[1274.52 - 1280.94] you just use the gas you crash so in
+
+[1277.34 - 1284.299] order to win a race you actually do need
+
+[1280.94 - 1286.88] both gas and brakes and so this is the
+
+[1284.299 - 1290.48] one-two punch of creating two different
+
+[1286.88 - 1293.24] entities one for acceleration Gaia and
+
+[1290.48 - 1294.98] the other for breaking Garcia and the
+
+[1293.24 - 1297.14] idea is that they will have independent
+
+[1294.98 - 1300.14] oversight and funding
+
+[1297.14 - 1302.0] um which means that also because they
+
+[1300.14 - 1303.159] have entirely different mandates those
+
+[1302.0 - 1305.96] entities are going to have different
+
+[1303.159 - 1308.2990000000002] methods of acting as well as different
+
+[1305.96 - 1310.28] incentive structures
+
+[1308.299 - 1313.1589999999999] uh so they have those different mandates
+
+[1310.28 - 1315.62] they have different kpi now that being
+
+[1313.159 - 1318.0200000000002] said they also both would have an
+
+[1315.62 - 1319.6399999999999] international or Global scope and the
+
+[1318.02 - 1321.5] reason is because AI is going to affect
+
+[1319.64 - 1323.24] everyone on the planet whether or not
+
+[1321.5 - 1326.24] they participate
+
+[1323.24 - 1329.78] um and then finally uh part of this
+
+[1326.24 - 1332.659] strategy is is both risk mitigation and
+
+[1329.78 - 1335.72] encouraging Innovation and so if we do
+
+[1332.659 - 1337.46] both then we should be on the right
+
+[1335.72 - 1339.919] track
+
+[1337.46 - 1341.179] um so here's a few more uh tactics so I
+
+[1339.919 - 1343.5800000000002] promise that we would talk about some
+
+[1341.179 - 1345.679] various tactics that they can use so the
+
+[1343.58 - 1347.96] first tactic is just grants
+
+[1345.679 - 1349.7] if you want to fund research you hand
+
+[1347.96 - 1350.78] out money to do it it's really that
+
+[1349.7 - 1353.24] simple
+
+[1350.78 - 1355.46] um you uh you incentivize the behavior
+
+[1353.24 - 1357.02] you want to see with you know you know
+
+[1355.46 - 1360.38] you dangle money and people will go do
+
+[1357.02 - 1362.36] it certification and compliance like I
+
+[1360.38 - 1365.419] said gdpr is a is a pretty good example
+
+[1362.36 - 1368.299] because gdpr is a pretty powerful lever
+
+[1365.419 - 1371.419] in order to get companies to comply with
+
+[1368.299 - 1373.1] data policy training and education so
+
+[1371.419 - 1375.6200000000001] many of the organizations that we talked
+
+[1373.1 - 1378.3799999999999] about do provide training and education
+
+[1375.62 - 1380.1789999999999] and so by by providing training and
+
+[1378.38 - 1382.5800000000002] education you can raise the global
+
+[1380.179 - 1384.799] literacy on artificial intelligence
+
+[1382.58 - 1388.1] whether it's just AI ethics and safety
+
+[1384.799 - 1389.6] or the existential risks so by by having
+
+[1388.1 - 1392.24] global authorities that provide this
+
+[1389.6 - 1394.6399999999999] training and education and certification
+
+[1392.24 - 1397.76] programs you can say like you know I'm a
+
+[1394.64 - 1400.22] Gaia certified AI existential expert or
+
+[1397.76 - 1401.12] whatever because right now we don't have
+
+[1400.22 - 1404.3600000000001] any
+
+[1401.12 - 1406.9399999999998] global standard of yes this is what the
+
+[1404.36 - 1409.28] global experts agree on are the issues
+
+[1406.94 - 1411.559] and the concerns and stuff certainly we
+
+[1409.28 - 1413.1789999999999] have those conversations right if you're
+
+[1411.559 - 1415.3999999999999] watching my channel you probably watch
+
+[1413.179 - 1416.539] like Robert Miles and AI explained and
+
+[1415.4 - 1418.88] everyone else
+
+[1416.539 - 1420.2] um Eliezer like so you probably are
+
+[1418.88 - 1421.7] aware that these conversations are
+
+[1420.2 - 1423.679] happening but there is no coherent
+
+[1421.7 - 1426.919] Authority there is no establishment
+
+[1423.679 - 1428.1200000000001] saying yes we are working on this which
+
+[1426.919 - 1429.6200000000001] is part of the reason that a lot of us
+
+[1428.12 - 1432.7399999999998] are like hey we need to do something
+
+[1429.62 - 1435.02] about this another uh possibility is
+
+[1432.74 - 1438.38] that you can actually do competitions
+
+[1435.02 - 1441.62] so in terms of AI one of the best
+
+[1438.38 - 1444.0200000000002] competitions is kaggle which is a it's a
+
+[1441.62 - 1446.2399999999998] competition platform where independent
+
+[1444.02 - 1448.4] sponsors can come in and say hey we want
+
+[1446.24 - 1450.98] you to compete to try and solve this
+
+[1448.4 - 1453.44] problem over here open AI is doing their
+
+[1450.98 - 1455.24] competition right now which is based on
+
+[1453.44 - 1457.8200000000002] grants for the independent uh or
+
+[1455.24 - 1459.5] Democratic inputs to AI DARPA is another
+
+[1457.82 - 1462.799] one so DARPA is the defense Advanced
+
+[1459.5 - 1465.74] research research projects agency here
+
+[1462.799 - 1468.3799999999999] in America which funds uh amongst many
+
+[1465.74 - 1471.02] many other things Advanced research on
+
+[1468.38 - 1475.2800000000002] things like PTSD regeneration but also
+
+[1471.02 - 1476.299] self-driving cars so the DARPA like I
+
+[1475.28 - 1477.6789999999999] can't remember the name of the challenge
+
+[1476.299 - 1478.94] was like the desert challenge or
+
+[1477.679 - 1480.799] something
+
+[1478.94 - 1483.74] um started many many years ago was about
+
+[1480.799 - 1486.2] creating self-driving cars and so by
+
+[1483.74 - 1488.059] creating competitions you get all kinds
+
+[1486.2 - 1490.94] of teams coming to you whether it's
+
+[1488.059 - 1493.8799999999999] universities and independent uh research
+
+[1490.94 - 1496.46] groups corporations all participating in
+
+[1493.88 - 1498.919] the research for the lure of a prize
+
+[1496.46 - 1501.98] which of course uh is a good way to
+
+[1498.919 - 1505.5200000000002] surface innovative ideas uh putting on
+
+[1501.98 - 1507.26] conferences right now there are um there
+
+[1505.52 - 1510.1399999999999] are international artificial
+
+[1507.26 - 1512.24] intelligence conferences like nureps but
+
+[1510.14 - 1515.179] none of them are focused exclusively on
+
+[1512.24 - 1518.539] global safety whether it's existential
+
+[1515.179 - 1520.46] risks from you know autonomous AGI or
+
+[1518.539 - 1522.32] even just the escalating risk of
+
+[1520.46 - 1525.2] autonomous and semi-autonomous systems
+
+[1522.32 - 1528.3799999999999] such as weapon systems and so on
+
+[1525.2 - 1530.6000000000001] so by creating International or Global
+
+[1528.38 - 1531.919] conferences where you deliberately get
+
+[1530.6 - 1534.6789999999999] all the experts in a room talking
+
+[1531.919 - 1536.96] together uh that is a good way to
+
+[1534.679 - 1538.4] advance the conversation policy
+
+[1536.96 - 1541.159] recommendations I already mentioned this
+
+[1538.4 - 1543.44] earlier in the video where if you have a
+
+[1541.159 - 1546.0200000000002] global Authority on something if a
+
+[1543.44 - 1547.8200000000002] nation comes to you and says hey you
+
+[1546.02 - 1550.94] know we want to we want to you know
+
+[1547.82 - 1553.279] spurn AI development what kind of
+
+[1550.94 - 1555.38] policies do we do in order to attract
+
+[1553.279 - 1558.32] that Talent right that's a that's an
+
+[1555.38 - 1560.72] example of a policy recommendation or in
+
+[1558.32 - 1562.82] other cases where a nation might come to
+
+[1560.72 - 1566.48] these these International agencies and
+
+[1562.82 - 1569.0] say Hey you know we have a lot of AI
+
+[1566.48 - 1570.8600000000001] abuse going on people are using it to be
+
+[1569.0 - 1573.08] exploitative how do we Tamp down on that
+
+[1570.86 - 1574.6999999999998] successfully while avoiding unintended
+
+[1573.08 - 1576.6789999999999] consequences
+
+[1574.7 - 1580.279] industry Partnerships are another way
+
+[1576.679 - 1581.539] that uh that these agencies could uh
+
+[1580.279 - 1586.039] kind of help bring about the change
+
+[1581.539 - 1588.5] which uh so an example is the IEEE which
+
+[1586.039 - 1590.539] is a which is a uh was it the
+
+[1588.5 - 1593.96] international engineering something or
+
+[1590.539 - 1597.08] other anyways sets a lot of Standards uh
+
+[1593.96 - 1599.179] for and workshopping for standards um
+
+[1597.08 - 1600.5] basically created Wi-Fi Bluetooth a
+
+[1599.179 - 1603.3200000000002] whole bunch of other stuff that you are
+
+[1600.5 - 1604.46] familiar with which also helps establish
+
+[1603.32 - 1607.58] standards
+
+[1604.46 - 1611.059] uh and and uh interoperability
+
+[1607.58 - 1612.86] uh consultation and review so this is
+
+[1611.059 - 1615.3799999999999] something that like I do at a very low
+
+[1612.86 - 1616.76] level through my patreon is I have a
+
+[1615.38 - 1618.2] bunch of small and medium businesses
+
+[1616.76 - 1621.559] come to me where they're they just want
+
+[1618.2 - 1624.32] consultation how do I align AI uh how do
+
+[1621.559 - 1626.84] I how do I use AI responsibly but also
+
+[1624.32 - 1628.279] make money at the same time
+
+[1626.84 - 1631.8799999999999] um and I would certainly encourage
+
+[1628.279 - 1633.799] anyone who has expertise in AI to build
+
+[1631.88 - 1635.5390000000002] a startup or something around this idea
+
+[1633.799 - 1637.179] but this is also something that can be
+
+[1635.539 - 1640.76] done at the national or International
+
+[1637.179 - 1642.919] level where not just providing you know
+
+[1640.76 - 1644.9] policy advice but actually providing
+
+[1642.919 - 1647.72] technical assistance
+
+[1644.9 - 1650.1200000000001] um where where required especially in
+
+[1647.72 - 1651.8600000000001] the deployment of AI safety and
+
+[1650.12 - 1653.539] Alignment research
+
+[1651.86 - 1655.1589999999999] published standards and guidelines
+
+[1653.539 - 1657.32] already mentioned that and then finally
+
+[1655.159 - 1659.5390000000002] public awareness and messaging that's
+
+[1657.32 - 1662.0] what I and a lot of other people uh do
+
+[1659.539 - 1664.64] uh with our with our YouTube platforms
+
+[1662.0 - 1667.34] Tick Tock and everything else but again
+
+[1664.64 - 1670.039] there is no Global Authority uh taking
+
+[1667.34 - 1673.3999999999999] any responsibility for this messaging uh
+
+[1670.039 - 1675.679] which we view as problematic because you
+
+[1673.4 - 1677.539] know basically it comes down to it feels
+
+[1675.679 - 1680.48] like there's no adults in the room and
+
+[1677.539 - 1682.7] that's really scary can you imagine if
+
+[1680.48 - 1684.2] you know we lived in a world still where
+
+[1682.7 - 1687.38] the World Health Organization didn't
+
+[1684.2 - 1689.6000000000001] exist even for some of their faults and
+
+[1687.38 - 1691.88] failures you still prefer that the World
+
+[1689.6 - 1693.3799999999999] Health Organization exists because like
+
+[1691.88 - 1694.4] I said there's a lot of diseases that
+
+[1693.38 - 1696.46] you've probably never heard about
+
+[1694.4 - 1698.72] because of the work that they do
+
+[1696.46 - 1700.88] likewise you want to live in a world
+
+[1698.72 - 1702.799] where if there are nuclear weapons and
+
+[1700.88 - 1705.2600000000002] nuclear reactors you want to live in a
+
+[1702.799 - 1707.9] world where the iaea exists
+
+[1705.26 - 1709.64] and so because of those because of the
+
+[1707.9 - 1711.0800000000002] existence of those organizations we have
+
+[1709.64 - 1712.94] this feeling that there are adults in
+
+[1711.08 - 1714.62] the room and that and that there are
+
+[1712.94 - 1716.24] people paying attention to it and they
+
+[1714.62 - 1719.12] have the resources that they need in
+
+[1716.24 - 1721.34] order to affect uh good change and
+
+[1719.12 - 1723.5] guidance and so this is why one of the
+
+[1721.34 - 1726.02] primary things that that I advocate for
+
+[1723.5 - 1728.659] and as part of the gato framework the
+
+[1726.02 - 1729.799] global alignment taxonomy Omnibus is the
+
+[1728.659 - 1732.5590000000002] establishment of these International
+
+[1729.799 - 1736.1589999999999] treaties whether they're modeled on gdpr
+
+[1732.559 - 1738.74] or these other organizations this is uh
+
+[1736.159 - 1741.14] what we see as a critical path towards
+
+[1738.74 - 1743.84] AI alignment and this is not just you
+
+[1741.14 - 1745.94] know mitigating uh just for mitigating
+
+[1743.84 - 1748.6399999999999] existential risk this is also to avoid
+
+[1745.94 - 1751.279] dystopian outcomes of hyper you know
+
+[1748.64 - 1753.0800000000002] corporations becoming quadrillionaires
+
+[1751.279 - 1756.08] while the rest of us you know are poor
+
+[1753.08 - 1758.299] and live under bridges or whatever
+
+[1756.08 - 1761.779] so one thing that I will say is that
+
+[1758.299 - 1765.02] these are necessary but not sufficient
+
+[1761.779 - 1766.76] and so what I mean by that is that as my
+
+[1765.02 - 1768.98] work has progressed as my messaging has
+
+[1766.76 - 1770.24] progressed the conversation has been
+
+[1768.98 - 1773.1200000000001] shifting
+
+[1770.24 - 1775.22] so for instance after my axiomatic
+
+[1773.12 - 1777.7399999999998] alignment video came out a lot of people
+
+[1775.22 - 1779.179] reached out saying like Okay yes you
+
+[1777.74 - 1781.34] know but there's there's a lot of
+
+[1779.179 - 1783.26] challenges like you know who gets to who
+
+[1781.34 - 1787.6399999999999] who does this research
+
+[1783.26 - 1789.02] um but also like what about what about
+
+[1787.64 - 1791.419] right what about all these other stuff
+
+[1789.02 - 1794.48] and not every what about argument is um
+
+[1791.419 - 1796.279] is disingenuous in these cases the
+
+[1794.48 - 1798.98] conversation has shifted to these other
+
+[1796.279 - 1800.72] what abouts not because of Doubt but
+
+[1798.98 - 1802.58] because of like okay we overcome that
+
+[1800.72 - 1805.46] problem what are the next problems and
+
+[1802.58 - 1809.24] so this list is some other challenges
+
+[1805.46 - 1810.919] above and beyond the uh the you know
+
+[1809.24 - 1813.26] let's let's say you know we get to wave
+
+[1810.919 - 1815.2990000000002] a magic wand in tomorrow the two
+
+[1813.26 - 1817.82] organizations that I recommended exist
+
+[1815.299 - 1819.799] okay still what's gonna happen first is
+
+[1817.82 - 1822.559] economic barriers so what I mean by
+
+[1819.799 - 1824.72] economic barriers is that
+
+[1822.559 - 1827.4189999999999] uh not every nation is able to
+
+[1824.72 - 1830.0] contribute or compete at the same way uh
+
+[1827.419 - 1832.039] certainly the the economic lure is there
+
+[1830.0 - 1833.84] for artificial intelligence that being
+
+[1832.039 - 1837.14] said there might still be some economic
+
+[1833.84 - 1839.48] barriers especially when uh some people
+
+[1837.14 - 1840.919] are going to be uh throwing on the
+
+[1839.48 - 1842.179] brakes right
+
+[1840.919 - 1844.46] um one thing that people are concerned
+
+[1842.179 - 1846.3200000000002] about is regulatory capture if you raise
+
+[1844.46 - 1848.0] the bar so high that nobody else can
+
+[1846.32 - 1850.039] participate except the largest players
+
+[1848.0 - 1852.919] they have a de facto Monopoly which is
+
+[1850.039 - 1855.1] not a good thing cultural differences so
+
+[1852.919 - 1857.96] the work that I've been doing on axial
+
+[1855.1 - 1860.24] axiomatic alignment and convergence has
+
+[1857.96 - 1862.3400000000001] to do with finding the underpinning and
+
+[1860.24 - 1864.74] Universal cultural values that all
+
+[1862.34 - 1866.9599999999998] humans share after all yes there are
+
+[1864.74 - 1868.76] many differences between nations and
+
+[1866.96 - 1870.74] cultures but we're all still the same
+
+[1868.76 - 1874.64] species and we're all still on the same
+
+[1870.74 - 1877.58] Planet so that based on those
+
+[1874.64 - 1879.919] assumptions uh well or facts based on
+
+[1877.58 - 1882.3799999999999] those facts I assume that we can find
+
+[1879.919 - 1884.96] some common ground somewhere
+
+[1882.38 - 1886.46] that being said there are still pretty
+
+[1884.96 - 1887.72] fundamental differences between some
+
+[1886.46 - 1890.299] cultures
+
+[1887.72 - 1892.76] um geopolitical tensions so this is a
+
+[1890.299 - 1894.44] very diplomatic way of saying that uh
+
+[1892.76 - 1896.899] some Nations kind of want to shoot at
+
+[1894.44 - 1899.48] each other and they are in either con
+
+[1896.899 - 1903.62] conflict or under
+
+[1899.48 - 1905.1200000000001] um competition which is not necessarily
+
+[1903.62 - 1909.02] I'm not going to say that it's good or
+
+[1905.12 - 1911.02] bad it's problematic in some respects
+
+[1909.02 - 1913.82] and then of course uh scientific
+
+[1911.02 - 1916.34] breakthroughs all of this presumes that
+
+[1913.82 - 1917.899] with the adequate funding and research
+
+[1916.34 - 1921.559] that we will have scientific
+
+[1917.899 - 1924.1999999999998] breakthroughs on alignment on AI safety
+
+[1921.559 - 1926.6] uh but this again is aspirational just
+
+[1924.2 - 1929.3600000000001] like how how um the eater experiment the
+
+[1926.6 - 1930.9189999999999] the nuclear fusion experiment it is
+
+[1929.36 - 1933.02] aspirational we don't know if it's
+
+[1930.919 - 1935.779] actually possible we are hoping that it
+
+[1933.02 - 1939.02] is possible uh and then on the next
+
+[1935.779 - 1940.58] category is Game Theory so one of the
+
+[1939.02 - 1942.5] most common whatabouts that I get now
+
+[1940.58 - 1944.1789999999999] after axiomatic alignment came out is
+
+[1942.5 - 1946.58] what about people that just are not
+
+[1944.179 - 1949.76] going to play ball uh what about what
+
+[1946.58 - 1952.34] about the uh down Downstream effects of
+
+[1949.76 - 1953.84] toxic competition uh which you might
+
+[1952.34 - 1955.9399999999998] have also heard you know we talk about
+
+[1953.84 - 1957.799] moloch and other things so toxic
+
+[1955.94 - 1958.8200000000002] competition is a very simple way of just
+
+[1957.799 - 1961.34] saying that
+
+[1958.82 - 1963.039] in a competitive environment people it
+
+[1961.34 - 1965.1789999999999] creates a race to the bottom basically
+
+[1963.039 - 1968.779] perverse incentives and unintended
+
+[1965.179 - 1971.0590000000002] consequences these are all kind of uh
+
+[1968.779 - 1972.74] related to The Game Theory aspect of
+
+[1971.059 - 1974.6] this which is that despite best
+
+[1972.74 - 1977.72] intentions and best efforts towards
+
+[1974.6 - 1980.6589999999999] achieving a better outcome you still end
+
+[1977.72 - 1983.299] up inevitably Falling Towards dystopia
+
+[1980.659 - 1985.1000000000001] or Extinction or collapse
+
+[1983.299 - 1986.48] uh and then of course there's reach and
+
+[1985.1 - 1987.799] limitations
+
+[1986.48 - 1989.3600000000001] um just because we create these
+
+[1987.799 - 1991.96] International organizations doesn't mean
+
+[1989.36 - 1994.8799999999999] that they're going to work uh you know
+
+[1991.96 - 1997.3990000000001] if if you get adoption if you get buy-in
+
+[1994.88 - 1999.5590000000002] if people uh Blacklist the organizations
+
+[1997.399 - 2001.9599999999998] or whatever and then finally unknown
+
+[1999.559 - 2004.4189999999999] unknowns uh you know we're still we're
+
+[2001.96 - 2007.3600000000001] still working our way to the Future
+
+[2004.419 - 2008.98] um so we need constant vigilance uh
+
+[2007.36 - 2010.779] anyways thanks for watching I hope you
+
+[2008.98 - 2013.179] got a lot out of this
+
+[2010.779 - 2014.679] um you know in the long run I'm hoping
+
+[2013.179 - 2016.419] that all of my videos are completely
+
+[2014.679 - 2018.94] irrelevant because some organizations
+
+[2016.419 - 2022.0590000000002] like this get created and then uh the
+
+[2018.94 - 2024.159] real experts get to uh get to get to
+
+[2022.059 - 2026.08] comment and um kind of steer the ship
+
+[2024.159 - 2028.659] which we don't have right now which is
+
+[2026.08 - 2029.86] really terrifying so thanks I hope uh I
+
+[2028.659 - 2031.3600000000001] hope this made you feel a little bit
+
+[2029.86 - 2035.039] better at least in terms of options that
+
+[2031.36 - 2035.039] we have before us thanks for watching

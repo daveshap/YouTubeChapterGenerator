@@ -1,0 +1,2163 @@
+[0.78 - 6.359] all right cool we are recording so just
+
+[4.38 - 8.399999999999999] quick introduction
+
+[6.359 - 11.940000000000001] um this is uh these are some of the guys
+
+[8.4 - 14.4] from the heroistic imperatives uh uh
+
+[11.94 - 16.32] Discord the research group
+
+[14.4 - 18.060000000000002] um they're building a cognitive
+
+[16.32 - 19.8] architecture
+
+[18.06 - 21.119] um so I'll let you guys kind of if you
+
+[19.8 - 23.64] want to introduce yourselves not
+
+[21.119 - 24.9] required but uh yeah let's jump in and
+
+[23.64 - 26.76] just kind of talk about where we're at
+
+[24.9 - 28.74] in terms of cognitive architecture and
+
+[26.76 - 30.539] and some of the stuff that you guys have
+
+[28.74 - 33.48] been working on
+
+[30.539 - 37.079] yeah sure um I'm database
+
+[33.48 - 39.3] um I'm on the the uh cognitive AI
+
+[37.079 - 40.980000000000004] Channel too y'all see me all the time
+
+[39.3 - 42.599999999999994] I'm the one who's always arguing with
+
+[40.98 - 43.26] everybody
+
+[42.6 - 45.78] um
+
+[43.26 - 48.42] Angela if you wanna
+
+[45.78 - 50.879000000000005] yeah well uh I'm Ansel I'm on the same
+
+[48.42 - 54.36] Discord I'm a computer science engineer
+
+[50.879 - 55.62] and I just I'm really fascinated by this
+
+[54.36 - 59.579] uh
+
+[55.62 - 63.899] subject so I just had to go and dive in
+
+[59.579 - 66.42] excellent excellent and so uh give us a
+
+[63.899 - 67.86] tiny bit of background actually because
+
+[66.42 - 69.72] um you guys
+
+[67.86 - 71.1] um or a database I remember your story
+
+[69.72 - 73.38] you you jumped into cognitive
+
+[71.1 - 74.82] architecture what like just a few weeks
+
+[73.38 - 76.86] ago right
+
+[74.82 - 79.91999999999999] yeah basically
+
+[76.86 - 82.619] um so it was about the time that uh Auto
+
+[79.92 - 84.36] GPT went viral I was like this is really
+
+[82.619 - 87.84] cool I don't want to have to pay for it
+
+[84.36 - 91.86] so I uh started trying to convert it to
+
+[87.84 - 92.4] uh to a local model which
+
+[91.86 - 95.1] um
+
+[92.4 - 96.54] we ran into uh we ran into some issues
+
+[95.1 - 100.19999999999999] with that
+
+[96.54 - 102.0] um but that's you know before then I
+
+[100.2 - 105.60000000000001] hadn't really done a whole lot with
+
+[102.0 - 109.079] programming or python at all
+
+[105.6 - 111.24] um and so you know most of what I've
+
+[109.079 - 114.479] learned in the past three weeks now I
+
+[111.24 - 118.74] guess has been primarily through Chad
+
+[114.479 - 121.14] GPT nice excellent yep that's that's the
+
+[118.74 - 123.24] case for many people and Ansel you're
+
+[121.14 - 124.74] you you're you're you've been a
+
+[123.24 - 128.039] developer or an engineer for a little
+
+[124.74 - 130.38] bit longer yes yes right right
+
+[128.039 - 132.77999999999997] um I've been an engineer already for uh
+
+[130.38 - 135.239] like three years I have years of
+
+[132.78 - 136.92] experience mostly in c-sharp that's like
+
+[135.239 - 139.739] my main language
+
+[136.92 - 142.44] so yeah I I got into this project like
+
+[139.739 - 144.59900000000002] three weeks ago with data and same with
+
+[142.44 - 147.0] python so basically I've just been uh
+
+[144.599 - 148.379] converting everything I know from C
+
+[147.0 - 150.599] sharp to python
+
+[148.379 - 152.459] and it's it's been a great experience
+
+[150.599 - 156.78] learning a lot of things and it's pretty
+
+[152.459 - 160.44] cool excellent so you know obviously uh
+
+[156.78 - 163.019] Auto GPT baby AGI chaos GPT all that is
+
+[160.44 - 165.54] relatively new gpt4 just came out you
+
+[163.019 - 169.14000000000001] know what four or five weeks ago
+
+[165.54 - 171.42] um and so uh like walk us through the
+
+[169.14 - 172.79999999999998] the the process because I've I've had
+
+[171.42 - 174.23899999999998] the privilege of kind of watching you
+
+[172.8 - 177.36] guys figure stuff out from the beginning
+
+[174.239 - 179.22] but can you tell us a little bit about
+
+[177.36 - 182.28] um like where you got started what were
+
+[179.22 - 184.019] the problems that you've you've overcome
+
+[182.28 - 185.94] um and and what problems you're working
+
+[184.019 - 188.64000000000001] on now
+
+[185.94 - 190.98] yeah right the uh oh God the biggest
+
+[188.64 - 195.48] problem that we ran into to start with
+
+[190.98 - 199.379] was just finding a a host for a language
+
+[195.48 - 203.099] model that had a working API
+
+[199.379 - 208.019] um we you know we started with uh llama
+
+[203.099 - 212.64] CPP but it's python API didn't work on
+
+[208.019 - 215.34] uh x64 windows for whatever reason
+
+[212.64 - 217.01899999999998] um there were a couple of others that we
+
+[215.34 - 220.799] worked with and then eventually we came
+
+[217.019 - 223.26] around to uba booga because and it's
+
+[220.799 - 225.239] really they've got the API fix now we
+
+[223.26 - 228.239] have people using it
+
+[225.239 - 231.54] um right the the the real advantage of
+
+[228.239 - 234.239] uba Booga is that it gives us
+
+[231.54 - 238.2] um it lets us host multiple language
+
+[234.239 - 241.68] models so we're not just stuck with
+
+[238.2 - 242.33999999999997] um you know with llama or alpaca
+
+[241.68 - 245.64000000000001] um
+
+[242.34 - 249.48] the the new vikuna model is working in
+
+[245.64 - 252.17999999999998] there it has some of the science
+
+[249.48 - 254.819] um and coding language models available
+
+[252.18 - 257.1] to it as well we haven't done a whole
+
+[254.819 - 262.199] lot of testing on that we've switched
+
+[257.1 - 264.3] over to open AI on the 3.5 model just to
+
+[262.199 - 267.54] rapidly iterate on the development
+
+[264.3 - 269.16] process and save some resources at home
+
+[267.54 - 271.32] Mexican
+
+[269.16 - 274.199] and by the time we did that was mostly
+
+[271.32 - 277.68] because we were stuck with the uba Booga
+
+[274.199 - 279.36] API and openai was working so we just
+
+[277.68 - 281.0] like if we want to develop we need to
+
+[279.36 - 287.04] switch fast to that
+
+[281.0 - 290.699] and then the auto GPT code base was
+
+[287.04 - 294.18] let's just say it was not ideal I spent
+
+[290.699 - 297.78000000000003] an entire day trying to fix that yeah so
+
+[294.18 - 303.24] so we ended up moving over to Baby AGI
+
+[297.78 - 305.35999999999996] we got baby working on uh on uh open Ai
+
+[303.24 - 308.639] and Uber booga
+
+[305.36 - 310.38] temporarily and then uba Booga broke
+
+[308.639 - 313.979] their API
+
+[310.38 - 316.32] um for like two weeks which was wild but
+
+[313.979 - 318.59999999999997] they've got it back working now
+
+[316.32 - 322.5] um the people who are using our our new
+
+[318.6 - 323.36] project some of them are using the Uber
+
+[322.5 - 324.9] um
+
+[323.36 - 327.96000000000004] API
+
+[324.9 - 330.78] for and running it against vicuno which
+
+[327.96 - 333.06] was the original gold so it works we're
+
+[330.78 - 336.539] trying to keep it stable as we as best
+
+[333.06 - 339.72] we can for those people and uh we're you
+
+[336.539 - 341.15999999999997] know super excited honestly that all of
+
+[339.72 - 342.53900000000004] this is coming together
+
+[341.16 - 346.91900000000004] excellent
+
+[342.539 - 350.039] uh data database and Ansel you guys have
+
+[346.919 - 353.039] been working super hard on what you call
+
+[350.039 - 354.539] the salience uh module
+
+[353.039 - 356.15999999999997] um can you talk us through that a little
+
+[354.539 - 359.34] bit because that that is a pretty
+
+[356.16 - 361.74] fascinating set of problems so I have it
+
+[359.34 - 365.75899999999996] loaded up right here uh as you can see
+
+[361.74 - 367.919] it's just a simple python script uh one
+
+[365.759 - 370.86] of the main reasons we decided to work
+
+[367.919 - 374.34] on our our own project was because
+
+[370.86 - 377.58000000000004] autodpt was not made to be
+
+[374.34 - 380.63899999999995] um extensively modified I spent an
+
+[377.58 - 384.06] entire day just trying to modify it
+
+[380.639 - 387.18] myself and I had a pretty bad time I'm
+
+[384.06 - 389.699] not gonna lie so we decided to just take
+
+[387.18 - 392.039] the minimum viable version there was and
+
+[389.699 - 395.1] start our own architecture
+
+[392.039 - 396.18] so we created this little salience Loop
+
+[395.1 - 399.18] here
+
+[396.18 - 401.46] um we basically start by instantiating
+
+[399.18 - 402.24] all the agents that we have
+
+[401.46 - 405.18] um
+
+[402.24 - 408.78000000000003] and then we start looping through it
+
+[405.18 - 410.88] loading a task list and everything
+
+[408.78 - 413.63899999999995] um so let me just run for you first
+
+[410.88 - 416.21999999999997] see python
+
+[413.639 - 418.74] we can edit this out in post right we
+
+[416.22 - 422.28000000000003] can edit this out in post yeah
+
+[418.74 - 423.96000000000004] the uh the the logic Loop that we built
+
+[422.28 - 427.63899999999995] okay cool
+
+[423.96 - 427.63899999999995] yeah basically okay
+
+[428.52 - 433.5] and one Saturday okay
+
+[431.3 - 435.84000000000003] got this pulled up
+
+[433.5 - 437.16] um yep wait I'm watching it can you zoom
+
+[435.84 - 438.59999999999997] in a little bit and kind of tell us a
+
+[437.16 - 439.8] little bit about what this diagram is
+
+[438.6 - 443.22] there we go
+
+[439.8 - 447.479] right so this is this is the the logic
+
+[443.22 - 450.12] Loop and one of the really helpful or
+
+[447.479 - 452.52] not helpful but the one of the things
+
+[450.12 - 456.66] that we've kind of designed from the
+
+[452.52 - 459.29999999999995] get-go on uh
+
+[456.66 - 462.66] on on this
+
+[459.3 - 463.259] uh system was to try to make it
+
+[462.66 - 467.639] um
+
+[463.259 - 469.8] easy to build agents and logic Loops in
+
+[467.639 - 472.02] a very short fashion so that you can
+
+[469.8 - 474.0] iterate quickly
+
+[472.02 - 477.9] um as opposed to you know if you wanted
+
+[474.0 - 481.199] to to change the logic that open AI uses
+
+[477.9 - 483.0] or even baby AGI really it really you
+
+[481.199 - 485.52000000000004] really have to understand the entire
+
+[483.0 - 487.74] code base that they're using and how
+
+[485.52 - 490.08] different things interact we're trying
+
+[487.74 - 493.5] to build a streamline flow where you can
+
+[490.08 - 495.78] just write a logic Loop for the the
+
+[493.5 - 498.3] actual interaction where it takes the
+
+[495.78 - 502.02] prompt and then decides where to store
+
+[498.3 - 503.40000000000003] it and you chain them together
+
+[502.02 - 507.419] um so
+
+[503.4 - 510.17999999999995] in a similar fashion to the way that uh
+
+[507.419 - 513.0] that auto GPT Works
+
+[510.18 - 516.24] um right now in the salience agent we're
+
+[513.0 - 518.539] working with a predefined task list
+
+[516.24 - 521.039] um baby AGI generates the task list
+
+[518.539 - 524.88] automatically and later we're going to
+
+[521.039 - 526.86] do a hybrid where we integrate both but
+
+[524.88 - 528.779] for now we're just working with the a
+
+[526.86 - 531.3000000000001] predefined task list
+
+[528.779 - 533.9399999999999] so you know we sort the task list
+
+[531.3 - 539.64] because every time every time you make
+
+[533.94 - 543.36] an edit to a an item in chroma DB it
+
+[539.64 - 545.399] falls to the end of the table or
+
+[543.36 - 547.5600000000001] collection is what they're calling
+
+[545.399 - 550.56] Vector databases
+
+[547.56 - 552.2399999999999] um but we sort the list we filter it
+
+[550.56 - 556.0189999999999] during the sort we filter for any
+
+[552.24 - 558.6] completed tests past the current task to
+
+[556.019 - 560.88] the job agent
+
+[558.6 - 563.4590000000001] um so what the job agent does is it
+
+[560.88 - 567.18] searches the vector database or the
+
+[563.459 - 570.66] results database or any any results
+
+[567.18 - 573.3] related to the current task summarizes
+
+[570.66 - 577.56] those passes them down to the Java agent
+
+[573.3 - 582.12] the job agent then passes the the
+
+[577.56 - 587.16] contacts so that's your current task the
+
+[582.12 - 591.66] um the related results from the summary
+
+[587.16 - 594.42] um and a couple of other like metadata
+
+[591.66 - 597.24] related things and it runs it runs in
+
+[594.42 - 600.779] the the execute process which is right
+
+[597.24 - 603.66] now identical to what baby was using but
+
+[600.779 - 610.62] we've broken the The Prompt for that out
+
+[603.66 - 613.62] into a easily editable Json file that
+
+[610.62 - 616.5600000000001] um so so that you can you you can change
+
+[613.62 - 618.899] that prompt on the Fly okay the execute
+
+[616.56 - 621.66] agent pulls pulls the prompt from the
+
+[618.899 - 624.66] juson runs it and then passes the
+
+[621.66 - 627.66] results back to the job agent
+
+[624.66 - 629.5799999999999] um we we don't have frustration
+
+[627.66 - 633.8389999999999] implemented yet but that's going to be
+
+[629.58 - 636.36] based on the uh write-up that you did on
+
+[633.839 - 639.839] Reddit the other day yeah
+
+[636.36 - 642.54] um into kind of check things out and
+
+[639.839 - 645.3000000000001] then once it passes frustration or skips
+
+[642.54 - 648.8389999999999] frustration then we pass those results
+
+[645.3 - 652.019] back to the results database and it goes
+
+[648.839 - 655.2] to the analyst agent so the analyst
+
+[652.019 - 658.44] agent is here do I have everything there
+
+[655.2 - 660.1800000000001] we go the analyst agent is here
+
+[658.44 - 662.339] and it's a little bit more complex
+
+[660.18 - 664.7399999999999] actually even though it looks simpler
+
+[662.339 - 667.3800000000001] than that loopy stuff
+
+[664.74 - 671.22] um we're actually taking multiple items
+
+[667.38 - 675.3] or more items and adding them
+
+[671.22 - 678.12] to to the uh prompt so let me basically
+
+[675.3 - 680.579] ask do it let me let me pause you for a
+
+[678.12 - 684.0] second and and ask how much of this
+
+[680.579 - 685.62] architecture did you borrow from other
+
+[684.0 - 688.5] projects and how much of this is stuff
+
+[685.62 - 689.88] that you guys have have uh created on
+
+[688.5 - 693.12] your own
+
+[689.88 - 696.0] so right now the only thing that
+
+[693.12 - 699.839] borrowed is the execution
+
+[696.0 - 703.32] and it's right now essentially just the
+
+[699.839 - 708.12] prompt so okay we what we did was we
+
+[703.32 - 710.339] took we took baby agi's architecture and
+
+[708.12 - 714.0] broke it out into lots of different
+
+[710.339 - 717.0600000000001] pieces and then we changed all of those
+
+[714.0 - 718.459] pieces completely
+
+[717.06 - 723.2399999999999] um and
+
+[718.459 - 726.54] re-imported them or reintegrated them as
+
+[723.24 - 730.62] classes in multiple
+
+[726.54 - 735.8389999999999] um in multiple uh agents right
+
+[730.62 - 738.48] originally Baby AGI was only
+
+[735.839 - 740.6600000000001] um was only one script and it was less
+
+[738.48 - 745.44] than 200 lines that was the entire
+
+[740.66 - 750.7199999999999] purpose of baby AGI right um we're over
+
+[745.44 - 752.94] 3 000 lines on this code repo now
+
+[750.72 - 754.1600000000001] um yeah we're averaging about nice up
+
+[752.94 - 757.86] counting
+
+[754.16 - 759.7199999999999] stop counting so so you've you've taken
+
+[757.86 - 762.779] kind of the initial idea and really
+
+[759.72 - 765.9590000000001] you've gone 10x on it you've made it
+
+[762.779 - 768.0] more modular you've added a few new
+
+[765.959 - 770.0999999999999] ideas new Loops
+
+[768.0 - 771.12] um you know it like the one of the
+
+[770.1 - 773.1] modules that you haven't haven't
+
+[771.12 - 774.54] integrated yet I think earlier you said
+
+[773.1 - 777.24] you haven't seen a need for like the
+
+[774.54 - 780.899] frustration uh signal yet
+
+[777.24 - 783.24] um but yes so I haven't gotten into into
+
+[780.899 - 785.339] very complex tasks yet so maybe that's
+
+[783.24 - 787.44] why we haven't right uh needed
+
+[785.339 - 788.7] frustration yet but I'm I'm guessing we
+
+[787.44 - 791.7] are gonna need it at some point yeah
+
+[788.7 - 794.339] that's fair so for absolutely for any
+
+[791.7 - 796.139] viewers who um who aren't familiar with
+
+[794.339 - 798.9590000000001] with the write-up that I did on on
+
+[796.139 - 800.94] frustration as a signal basically it is
+
+[798.959 - 803.399] you keep a ratio that the simplest
+
+[800.94 - 806.639] version is you keep a ratio of successes
+
+[803.399 - 809.339] to failures and if the failure rate goes
+
+[806.639 - 814.2] up then that tells you to maybe switch
+
+[809.339 - 816.9590000000001] to a smarter uh smarter model or you can
+
+[814.2 - 818.519] back up and try a different approach or
+
+[816.959 - 820.079] eventually you can just stop and ask for
+
+[818.519 - 821.639] help there's any number of things that
+
+[820.079 - 824.8199999999999] you can do with the frustration signal
+
+[821.639 - 827.519] but basically uh this is a frustration
+
+[824.82 - 830.1600000000001] is a key component of cognitive control
+
+[827.519 - 831.839] which is how humans say hey I expected
+
+[830.16 - 834.24] to be making more forward progress and
+
+[831.839 - 836.1600000000001] I'm not and so if you're not making the
+
+[834.24 - 837.899] progress that you expect then it's time
+
+[836.16 - 840.6] to either change your approach ask for
+
+[837.899 - 843.06] help or change something so thanks for
+
+[840.6 - 844.5600000000001] giving some context did you want to go
+
+[843.06 - 846.54] ahead and jump into your your analyst
+
+[844.56 - 849.54] agent
+
+[846.54 - 851.5999999999999] yeah yeah absolutely
+
+[849.54 - 851.5999999999999] um
+
+[852.06 - 855.66] so the analyst agent is
+
+[855.03 - 856.38] [Music]
+
+[855.66 - 858.899] um
+
+[856.38 - 861.18] he is a little bit more complex because
+
+[858.899 - 862.16] we're taking you know we're taking the
+
+[861.18 - 865.3199999999999] results
+
+[862.16 - 866.279] the the most recent results and the
+
+[865.32 - 871.279] current
+
+[866.279 - 876.0] plus we're getting the summary uh from
+
+[871.279 - 880.139] uh from this agent of the job agent or
+
+[876.0 - 884.22] salience agent as well and we're we're
+
+[880.139 - 888.779] feeding it the the uh a little bit more
+
+[884.22 - 892.86] context on the task we're asking the
+
+[888.779 - 896.76] um the the gbt agent to decide is this
+
+[892.86 - 901.6800000000001] job completed yet and if it's you know
+
+[896.76 - 904.019] if not then what we can do is send if
+
+[901.68 - 908.279] it's if it's reached the frustration
+
+[904.019 - 910.8] level we can send that task back to the
+
+[908.279 - 914.3389999999999] task creation agent
+
+[910.8 - 916.139] um to generate sub tasks potentially or
+
+[914.339 - 919.019] new tasks
+
+[916.139 - 922.32] um and then we're we're also
+
+[919.019 - 926.94] um this weekend going to set up sending
+
+[922.32 - 929.22] feedback back into the agent and you'll
+
+[926.94 - 931.62] see what that feedback the feedback I
+
+[929.22 - 936.6600000000001] think is going to really change the game
+
+[931.62 - 939.0] on getting uh fewer fewer runs to to
+
+[936.66 - 941.04] complete a particular task and then of
+
+[939.0 - 944.1] course if it does complete it and we
+
+[941.04 - 945.48] update the task with the task scheduler
+
+[944.1 - 948.12] um and
+
+[945.48 - 950.16] um and and tell it to move on to the
+
+[948.12 - 950.82] next task
+
+[950.16 - 953.699] um
+
+[950.82 - 955.62] did did you get the terminal resize yeah
+
+[953.699 - 958.3199999999999] absolutely I'm already sharing my screen
+
+[955.62 - 960.12] again yeah yes I could not figure out
+
+[958.32 - 964.019] how to get it recycle what I actually
+
+[960.12 - 966.079] did was resized uh your monitor display
+
+[964.019 - 968.94] yeah
+
+[966.079 - 972.18] all right I actually increase the the
+
+[968.94 - 975.12] scale of it anyway just zoom in
+
+[972.18 - 979.079] um all right uh Ansel you ready uh uh
+
+[975.12 - 981.24] database you were used sufficiently
+
+[979.079 - 984.779] yeah yeah okay that's where we're at
+
+[981.24 - 986.76] right now okay cool enough in the future
+
+[984.779 - 988.86] so Ansel
+
+[986.76 - 990.42] um give us a little bit of uh a little
+
+[988.86 - 993.36] bit of background what is it that you're
+
+[990.42 - 996.959] about to to demonstrate for us well I'm
+
+[993.36 - 998.339] about to run the salience uh loop uh as
+
+[996.959 - 1000.7399999999999] you can see it's asking me a few things
+
+[998.339 - 1002.839] it's asking me if I want to start from
+
+[1000.74 - 1004.88] where it left off basically restart the
+
+[1002.839 - 1006.8000000000001] previous date and if I want to allow
+
+[1004.88 - 1008.42] auto mode or manual mode for now let's
+
+[1006.8 - 1010.7589999999999] just go with manual mode
+
+[1008.42 - 1013.459] so and it's starting to initialize the
+
+[1010.759 - 1016.639] agents here if you want to explain go
+
+[1013.459 - 1018.92] ahead data well I was going to say
+
+[1016.639 - 1021.32] um the the restore from previous state
+
+[1018.92 - 1024.559] is to my knowledge not something as
+
+[1021.32 - 1028.339] present in any other uh any other
+
+[1024.559 - 1031.28] autonomous AI system out there yet so
+
+[1028.339 - 1032.6599999999999] really cool stuff yeah so tell us a
+
+[1031.28 - 1035.48] little bit about that feature because it
+
+[1032.66 - 1036.6200000000001] sounds sounds valuable like you can uh
+
+[1035.48 - 1038.059] you're in the middle of cooking dinner
+
+[1036.62 - 1039.3799999999999] and someone knocks on the door and you
+
+[1038.059 - 1041.6789999999999] come back and remember where you were
+
+[1039.38 - 1041.679] right
+
+[1042.62 - 1048.26] right well you could always just leave
+
+[1044.72 - 1051.2] it sitting there because the system has
+
+[1048.26 - 1053.96] this as you can see it it has a auto
+
+[1051.2 - 1056.179] mode or a manual mode since we set
+
+[1053.96 - 1059.6000000000001] manual mode every Loop is going to stop
+
+[1056.179 - 1061.52] and ask us for feedback
+
+[1059.6 - 1064.4599999999998] um all right
+
+[1061.52 - 1068.0] um but if you have to turn your computer
+
+[1064.46 - 1069.1000000000001] off because the FBI show up then
+
+[1068.0 - 1071.72] um
+
+[1069.1 - 1072.86] then uh you you know when you power it
+
+[1071.72 - 1076.52] back up
+
+[1072.86 - 1079.6999999999998] um the uh the the eight all of the task
+
+[1076.52 - 1083.12] statuses or and results are stored
+
+[1079.7 - 1086.24] persistently in chroma DB so you never
+
+[1083.12 - 1088.2199999999998] lose any data unless you tell it you
+
+[1086.24 - 1090.82] want you don't want to restore from a
+
+[1088.22 - 1090.82] previous state
+
+[1091.1 - 1094.6999999999998] you want to go ahead and go ahead and so
+
+[1093.02 - 1096.98] in this case I basically wipe this
+
+[1094.7 - 1099.2] memory it doesn't know anything uh I'm
+
+[1096.98 - 1100.34] just gonna say yes just to keep it
+
+[1099.2 - 1103.28] simple for now
+
+[1100.34 - 1106.82] and it started to run the salience agent
+
+[1103.28 - 1109.6399999999999] and a salience agent is going to call
+
+[1106.82 - 1112.58] the execution agent to start uh running
+
+[1109.64 - 1116.7800000000002] the task list for now the task lists are
+
+[1112.58 - 1118.52] defined uh from our Persona Json so what
+
+[1116.78 - 1120.74] we wanted to do was separate the code
+
+[1118.52 - 1123.2] from the prompts so whoever wants to
+
+[1120.74 - 1124.64] develop agents can simply look at two
+
+[1123.2 - 1126.679] things uh
+
+[1124.64 - 1129.3200000000002] the code of the agent what it's supposed
+
+[1126.679 - 1132.0800000000002] to do logically and they can uh alter
+
+[1129.32 - 1133.7] the prompts on the Json file so I'll
+
+[1132.08 - 1135.98] show I'll show you the Json file in a
+
+[1133.7 - 1138.38] second right now the first task is well
+
+[1135.98 - 1140.1200000000001] to develop a test list to achieve a goal
+
+[1138.38 - 1142.46] which in this case I don't believe I'm
+
+[1140.12 - 1144.4399999999998] printing it here
+
+[1142.46 - 1147.14] um yes it's supposed to create a program
+
+[1144.44 - 1150.14] for an AI to search the internet
+
+[1147.14 - 1152.0590000000002] so it did the first task let's just go
+
+[1150.14 - 1154.2800000000002] ahead and let it run again
+
+[1152.059 - 1156.799] it's going for the second task right now
+
+[1154.28 - 1158.24] it's only showing you the the info like
+
+[1156.799 - 1160.28] what you really want to see it's doing
+
+[1158.24 - 1162.6200000000001] you're not seeing all the processing
+
+[1160.28 - 1163.34] behind there's also a debug mode you can
+
+[1162.62 - 1165.02] do
+
+[1163.34 - 1167.36] um that starts showing the prompts
+
+[1165.02 - 1169.4] what's going in what's in the database I
+
+[1167.36 - 1172.1599999999999] can run another loop later uh with that
+
+[1169.4 - 1173.66] turned on uh to show you how what it's
+
+[1172.16 - 1176.6000000000001] doing internally
+
+[1173.66 - 1179.179] and it'll it'll just keep going uh
+
+[1176.6 - 1180.86] apparently it's reflected on the task so
+
+[1179.179 - 1183.5590000000002] yeah let's see us leave it in auto mode
+
+[1180.86 - 1185.8999999999999] I can change it to auto mode
+
+[1183.559 - 1187.76] and it's now in auto mode it's you can
+
+[1185.9 - 1189.44] see it says you can press escape to
+
+[1187.76 - 1191.0] return to Automotive so at any point in
+
+[1189.44 - 1192.559] the code if I press Escape it's just
+
+[1191.0 - 1195.02] going to say switching back to auto mode
+
+[1192.559 - 1198.32] and it'll stop and ask me uh for
+
+[1195.02 - 1201.44] feedback again excellent at at this
+
+[1198.32 - 1203.48] point I don't know if it's gonna say if
+
+[1201.44 - 1206.8400000000001] it completed the task or not because the
+
+[1203.48 - 1210.2] last task is to add out the
+
+[1206.84 - 1213.98] the task list it made but it very much
+
+[1210.2 - 1217.039] depends on the of the status agent if it
+
+[1213.98 - 1219.559] decides it did it or not in this case it
+
+[1217.039 - 1221.9] says it completed it and it also the
+
+[1219.559 - 1224.299] good thing is it it provides a reasoning
+
+[1221.9 - 1227.1200000000001] for why it decided it's completed or not
+
+[1224.299 - 1229.28] so you can also uh get more information
+
+[1227.12 - 1230.0] as to why that
+
+[1229.28 - 1233.0] um
+
+[1230.0 - 1234.44] it took that decision and help you do
+
+[1233.0 - 1237.559] better prompt engineering so you can
+
+[1234.44 - 1240.74] change the prompt easier so and if Let's
+
+[1237.559 - 1243.08] uh let's pause for a second because
+
+[1240.74 - 1244.6] um I I think that there's there's a
+
+[1243.08 - 1248.1789999999999] tremendous amount of significance here
+
+[1244.6 - 1252.6789999999999] so like walk us through the steps like
+
+[1248.179 - 1254.72] it from from scratch it it had a what
+
+[1252.679 - 1256.7] what appeared to be a metacognitive step
+
+[1254.72 - 1258.82] where it said okay what am I doing
+
+[1256.7 - 1261.94] and then it designed its own task list
+
+[1258.82 - 1264.5] followed through the task list and then
+
+[1261.94 - 1266.9] also evaluated its own performance to
+
+[1264.5 - 1270.44] know when it had finished
+
+[1266.9 - 1272.6000000000001] correct okay yes so here it's basically
+
+[1270.44 - 1275.419] where it starts let's see
+
+[1272.6 - 1277.58] yep at the beginning so the first thing
+
+[1275.419 - 1279.7990000000002] it does is start to develop a task list
+
+[1277.58 - 1282.4399999999998] and it's searching for results in its
+
+[1279.799 - 1283.4189999999999] memory since it's wiped it says there is
+
+[1282.44 - 1286.46] no results
+
+[1283.419 - 1290.72] uh it sends that results to summary
+
+[1286.46 - 1292.76] since no results uh exist yet it just
+
+[1290.72 - 1296.0] says no previous actions have been taken
+
+[1292.76 - 1297.26] because this is this is fed to I don't
+
+[1296.0 - 1301.46] remember if it's fed to the execution
+
+[1297.26 - 1303.64] ages or if it's fed to the status agent
+
+[1301.46 - 1307.7] one of those two
+
+[1303.64 - 1309.7990000000002] diplomatically oh both of them okay
+
+[1307.7 - 1313.52] um so that the agents at least know at
+
+[1309.799 - 1315.2] what step of uh the process uh they are
+
+[1313.52 - 1317.36] or what any other actions they've taken
+
+[1315.2 - 1320.0] before it's basically like a very
+
+[1317.36 - 1323.059] primitive sort of memory as to well okay
+
+[1320.0 - 1326.24] what have I done before right right
+
+[1323.059 - 1328.22] and basically we send uh all of that
+
+[1326.24 - 1332.0] information to the agent it runs and
+
+[1328.22 - 1335.24] here's the result we get from the uh llm
+
+[1332.0 - 1337.46] which is well it did create a task list
+
+[1335.24 - 1340.34] so at that point we sent those results
+
+[1337.46 - 1342.919] to the status agent and it's going to
+
+[1340.34 - 1345.02] check if that task has been completed in
+
+[1342.919 - 1346.94] this case it says yes the task has been
+
+[1345.02 - 1349.6399999999999] completed and it provides the reasoning
+
+[1346.94 - 1352.52] right here or why it thinks it's done so
+
+[1349.64 - 1354.3200000000002] and at that point we go back into the
+
+[1352.52 - 1357.679] loop so it's going to ask me again do
+
+[1354.32 - 1361.28] you want to uh continue or not go ahead
+
+[1357.679 - 1365.179] data yeah so I I want to come back to to
+
+[1361.28 - 1368.48] the uh status agent so not only are we
+
+[1365.179 - 1371.24] returning the completed or the status of
+
+[1368.48 - 1373.46] whether or not it's completed we're also
+
+[1371.24 - 1376.28] providing feedback so if you get a
+
+[1373.46 - 1378.38] status that's not completed and this
+
+[1376.28 - 1381.3799999999999] isn't in yet but this should be
+
+[1378.38 - 1383.6000000000001] relatively simple to incorporate one of
+
+[1381.38 - 1386.48] the things that we can do is provide
+
+[1383.6 - 1389.8999999999999] additional feedback to the execution
+
+[1386.48 - 1393.14] agent the next time it runs so
+
+[1389.9 - 1396.5590000000002] um and in this situation
+
+[1393.14 - 1400.8200000000002] um what we would want to do to to help
+
+[1396.559 - 1403.3999999999999] automate this is pass it the um the
+
+[1400.82 - 1405.559] feedback from the status agent so the
+
+[1403.4 - 1408.2] status agent is going to act as kind of
+
+[1405.559 - 1410.8999999999999] like a project manager
+
+[1408.2 - 1413.179] um where it has all of its little Dev
+
+[1410.9 - 1415.1000000000001] Minions that go out and do their their
+
+[1413.179 - 1417.5590000000002] things and then they come back with
+
+[1415.1 - 1422.78] their results and they print or present
+
+[1417.559 - 1424.8799999999999] a a a summarized result of some kind now
+
+[1422.78 - 1427.8799999999999] um that execution agent needs to be
+
+[1424.88 - 1430.22] expanded upon so that we can get web
+
+[1427.88 - 1434.659] searching for research and code
+
+[1430.22 - 1438.8600000000001] execution to or to do code testing and
+
+[1434.659 - 1440.7800000000002] stuff we may even have a code QA agent
+
+[1438.86 - 1442.76] separately
+
+[1440.78 - 1445.22] um but but
+
+[1442.76 - 1448.4] um we we can take that feedback from the
+
+[1445.22 - 1451.82] project manager status agent and push it
+
+[1448.4 - 1453.919] back in then if if the agent fails so
+
+[1451.82 - 1457.46] that it can do better the next time and
+
+[1453.919 - 1461.1200000000001] it's not always running into the same
+
+[1457.46 - 1462.6200000000001] results yeah um so let's let's unpack
+
+[1461.12 - 1464.9599999999998] that real quick
+
+[1462.62 - 1468.799] um yeah because I think we should switch
+
+[1464.96 - 1471.8600000000001] over to the um to the personas default
+
+[1468.799 - 1474.02] just on I've got this hey hey Data
+
+[1471.86 - 1475.9399999999998] before we before we proceed because uh
+
+[1474.02 - 1479.78] uh what you're what you're talking about
+
+[1475.94 - 1481.64] is is like cognitive neuroscience and a
+
+[1479.78 - 1484.22] lot of people are going to be lost so
+
+[1481.64 - 1485.179] the status agent that's the supervisor
+
+[1484.22 - 1487.52] right
+
+[1485.179 - 1489.8600000000001] that kind of sits above the other things
+
+[1487.52 - 1491.78] and it dispatches let me make sure I got
+
+[1489.86 - 1495.1399999999999] it right it dispatches the execution
+
+[1491.78 - 1497.6] agent says hey this is your set of tasks
+
+[1495.14 - 1500.9] to go do and then that uses the salience
+
+[1497.6 - 1503.36] loop in order to Loop through uh and
+
+[1500.9 - 1504.98] ensure that that task gets completed is
+
+[1503.36 - 1507.559] that the is that the correct well it's
+
+[1504.98 - 1510.919] it's the salience it's the salience loop
+
+[1507.559 - 1514.6399999999999] that calls the execution agent and
+
+[1510.919 - 1517.039] Status agent separately okay so so the
+
+[1514.64 - 1519.44] salience is what binds it together right
+
+[1517.039 - 1522.62] exactly the same okay this one together
+
+[1519.44 - 1525.2] correct okay and so by by iterating on
+
+[1522.62 - 1526.58] that you are you're checking multiple
+
+[1525.2 - 1529.4] times
+
+[1526.58 - 1530.96] um for uh whether you're whether you're
+
+[1529.4 - 1533.0] being successful the feedback that
+
+[1530.96 - 1535.52] you're getting and it can because it's
+
+[1533.0 - 1536.96] iterative it can adapt its strategy as
+
+[1535.52 - 1541.039] it goes
+
+[1536.96 - 1543.32] right so and it's kind of talking to
+
+[1541.039 - 1547.039] itself in this sense so it's really more
+
+[1543.32 - 1549.6399999999999] it's it's less like corporate developer
+
+[1547.039 - 1553.039] type of environment and more just like
+
+[1549.64 - 1555.44] internal monologue like if you were you
+
+[1553.039 - 1557.48] know building a
+
+[1555.44 - 1560.299] um if you were building a raised garden
+
+[1557.48 - 1562.64] bed for example now you're like okay
+
+[1560.299 - 1564.5] first thing I need to do is take
+
+[1562.64 - 1566.48] measurements and then I want to cut wood
+
+[1564.5 - 1568.7] and then I want to nail wood together
+
+[1566.48 - 1571.22] finally we put it in place and then we
+
+[1568.7 - 1573.679] fill it with you you you kind of like
+
+[1571.22 - 1576.02] outline that and then you know as you're
+
+[1573.679 - 1577.76] cutting wood like okay is this actually
+
+[1576.02 - 1581.84] gonna work are these gonna fit together
+
+[1577.76 - 1583.94] is this nail gonna stick through so it's
+
+[1581.84 - 1587.36] we're trying to replicate that that
+
+[1583.94 - 1590.3600000000001] internal monologue yeah so it shouldn't
+
+[1587.36 - 1593.059] it shouldn't theoretically take any jobs
+
+[1590.36 - 1595.039] from any developers anytime soon at
+
+[1593.059 - 1597.02] least not any more than that GPT is
+
+[1595.039 - 1599.539] already sure
+
+[1597.02 - 1602.6] the point is is that you you have a self
+
+[1599.539 - 1605.24] self reflection and and kind of a set of
+
+[1602.6 - 1606.98] medical metacognitive functions that are
+
+[1605.24 - 1608.36] evaluating what it's doing and it's
+
+[1606.98 - 1610.4] thinking through what it's doing every
+
+[1608.36 - 1612.02] step of the way iteratively all right
+
+[1610.4 - 1613.5800000000002] cool all right so take it away I think
+
+[1612.02 - 1615.62] you said you wanted to move over to
+
+[1613.58 - 1618.98] personas or something else
+
+[1615.62 - 1621.32] yeah so um all well you were asking
+
+[1618.98 - 1625.7] about how these all
+
+[1621.32 - 1628.8799999999999] um interconnect so I've got the Persona
+
+[1625.7 - 1633.6200000000001] just on file pulled up here
+
+[1628.88 - 1635.9] um the the the primary goal is for
+
+[1633.62 - 1637.52] anybody who's just picking the software
+
+[1635.9 - 1639.2] up that doesn't want to learn how to
+
+[1637.52 - 1641.299] program
+
+[1639.2 - 1643.46] um the the most that they're ever going
+
+[1641.299 - 1647.96] to have to touch if they just use the
+
+[1643.46 - 1649.46] pre-existing agents is this file and the
+
+[1647.96 - 1652.4] main Loop
+
+[1649.46 - 1655.4] um so this file is where we set down our
+
+[1652.4 - 1658.94] prompt so you know the system prompt is
+
+[1655.4 - 1661.5800000000002] just like the system prompt in
+
+[1658.94 - 1664.64] um in open AI
+
+[1661.58 - 1667.039] um and then these other prompts go in as
+
+[1664.64 - 1670.3400000000001] user
+
+[1667.039 - 1674.0] um so we're taking it kind of like the
+
+[1670.34 - 1679.279] way that you send chat history into chat
+
+[1674.0 - 1680.9] GP or gpt4 when you're using a a home
+
+[1679.279 - 1684.4] bot
+
+[1680.9 - 1688.22] um in in the same way we're we're using
+
+[1684.4 - 1693.26] these these variables here to inject
+
+[1688.22 - 1696.6200000000001] data from other agents into this bot
+
+[1693.26 - 1699.32] um in a in a human readable format and
+
+[1696.62 - 1704.36] then every bot we can we can set whether
+
+[1699.32 - 1706.1] it's going to use uh GPT 3.5 or 3.4 uh
+
+[1704.36 - 1709.6999999999998] the plan is to also be able to leverage
+
+[1706.1 - 1712.9399999999998] local models if you're running Uber
+
+[1709.7 - 1716.299] um or you know you we can we eventually
+
+[1712.94 - 1718.039] plan to incorporate hugging face
+
+[1716.299 - 1720.559] um and
+
+[1718.039 - 1722.48] um you know maybe maybe at some point
+
+[1720.559 - 1726.08] Lane chain we'll see
+
+[1722.48 - 1731.059] um but but the each each agent gets its
+
+[1726.08 - 1733.6399999999999] own parameters for sending to the for
+
+[1731.059 - 1736.76] sending to the language model
+
+[1733.64 - 1738.98] um and you can't minimize here but but
+
+[1736.76 - 1743.299] and we can you know
+
+[1738.98 - 1746.299] um each each agent has its prompt
+
+[1743.299 - 1751.8799999999999] exposed without sure without any code
+
+[1746.299 - 1754.58] and of course the main Loop is so simple
+
+[1751.88 - 1756.38] um I'm going where is Salient so here's
+
+[1754.58 - 1760.039] salient
+
+[1756.38 - 1763.22] um so if you ignore the like the the
+
+[1760.039 - 1766.279] beginning section here you can see that
+
+[1763.22 - 1770.6000000000001] our entire Loop is
+
+[1766.279 - 1774.919] five lines of code commentation comments
+
+[1770.6 - 1777.74] and yeah the it's it's super simple for
+
+[1774.919 - 1780.7990000000002] anybody to kind of go in
+
+[1777.74 - 1782.24] um and build this uh you know this logic
+
+[1780.799 - 1783.32] Loop
+
+[1782.24 - 1788.24] um
+
+[1783.32 - 1792.559] one issue right now is is that the
+
+[1788.24 - 1796.039] um where are you uh so the Salient agent
+
+[1792.559 - 1799.1] run kind of has agents embedded in it so
+
+[1796.039 - 1800.84] you can't modify it but you can also
+
+[1799.1 - 1804.9399999999998] just use those
+
+[1800.84 - 1808.4599999999998] um agents outright so our main pie
+
+[1804.94 - 1811.659] function this is actually this is
+
+[1808.46 - 1815.6000000000001] actually the uh
+
+[1811.659 - 1819.38] baby AGI that's
+
+[1815.6 - 1822.1999999999998] um been rebuilt into our system
+
+[1819.38 - 1825.679] um so you can you know you have a really
+
+[1822.2 - 1828.32] simple starting point right um and then
+
+[1825.679 - 1831.26] when you go into
+
+[1828.32 - 1834.4399999999998] um when you go into the agents like
+
+[1831.26 - 1838.52] that's getting a little bit more complex
+
+[1834.44 - 1842.22] um but you should be able to also build
+
+[1838.52 - 1842.84] agents without having to
+
+[1842.22 - 1843.5] [Music]
+
+[1842.84 - 1846.6789999999999] um
+
+[1843.5 - 1849.02] without having to to dig into the rest
+
+[1846.679 - 1854.1200000000001] of the code base
+
+[1849.02 - 1858.679] um so all of the the loop of the agent
+
+[1854.12 - 1861.4399999999998] could all be self-contained and most of
+
+[1858.679 - 1864.74] these functions are already templated
+
+[1861.44 - 1866.8400000000001] out for you so it's almost Plug and Play
+
+[1864.74 - 1868.82] we're not there yet but we're getting
+
+[1866.84 - 1871.52] there
+
+[1868.82 - 1872.899] so let's uh let's talk about this
+
+[1871.52 - 1876.08] architecture real quick because you've
+
+[1872.899 - 1878.899] got you've got several layers of nested
+
+[1876.08 - 1881.36] Loops you've got a modular and
+
+[1878.899 - 1883.039] configurable architecture and like you
+
+[1881.36 - 1886.52] said the goal is to get to Plug and Play
+
+[1883.039 - 1889.1589999999999] So and you're almost there so talk us
+
+[1886.52 - 1890.899] through a little bit about like
+
+[1889.159 - 1892.7] how you came to some of these
+
+[1890.899 - 1894.86] architectural decisions because for
+
+[1892.7 - 1896.24] someone who's only been you know coding
+
+[1894.86 - 1898.82] for three or four weeks you've kind of
+
+[1896.24 - 1900.98] unpacked a lot of really important
+
+[1898.82 - 1902.539] Concepts and development
+
+[1900.98 - 1904.94] um and I know that you've had uh Ansel
+
+[1902.539 - 1906.919] to help you out so maybe you can't take
+
+[1904.94 - 1910.159] full credit and then chat GPT as well
+
+[1906.919 - 1912.919] but so you know you guys you guys have
+
+[1910.159 - 1915.0800000000002] uh I I see you like in chat like all day
+
+[1912.919 - 1917.659] every day some days
+
+[1915.08 - 1921.22] um so so talk us through like
+
+[1917.659 - 1924.919] like how you came to some of these ideas
+
+[1921.22 - 1928.94] and and what like what is what is the
+
+[1924.919 - 1931.22] overall status of like how how close are
+
+[1928.94 - 1933.26] you to having something that is it looks
+
+[1931.22 - 1935.48] like a semi-autonomous or fully
+
+[1933.26 - 1937.52] autonomous what are the missing steps
+
+[1935.48 - 1939.32] and you know who do you want to get in
+
+[1937.52 - 1941.6589999999999] touch with you and and so on and so
+
+[1939.32 - 1943.9399999999998] forth where do you need help
+
+[1941.659 - 1946.22] well you know Bill Gates wants to give
+
+[1943.94 - 1948.8600000000001] me a call I will totally take his call
+
+[1946.22 - 1952.3990000000001] now I only charge two thousand dollars
+
+[1948.86 - 1954.62] uh an hour which you know is is pretty
+
+[1952.399 - 1958.52] sure
+
+[1954.62 - 1960.62] um the uh yeah the loop is there the the
+
+[1958.52 - 1964.039] loop is already there
+
+[1960.62 - 1966.02] um at least when you compare it to
+
+[1964.039 - 1968.24] um Auto GPT which
+
+[1966.02 - 1970.76] kind of has a functioning Loop too I
+
+[1968.24 - 1973.3990000000001] haven't looked at their stuff since I I
+
+[1970.76 - 1975.62] started this project and even even
+
+[1973.399 - 1979.34] before I went like you know we had we
+
+[1975.62 - 1981.3799999999999] had chaos GPT was looping at least so so
+
+[1979.34 - 1982.22] it Loops
+
+[1981.38 - 1985.22] um
+
+[1982.22 - 1986.74] so now what we're doing is expanding
+
+[1985.22 - 1988.34] functionality
+
+[1986.74 - 1992.559] and
+
+[1988.34 - 1996.6789999999999] um and uh for expanding functionality
+
+[1992.559 - 2000.1] and we're expanding uh compatibility
+
+[1996.679 - 2002.8600000000001] with these other systems we've got AP uh
+
+[2000.1 - 2004.6589999999999] open AI working we've got Uber working
+
+[2002.86 - 2006.6399999999999] which should work with any other
+
+[2004.659 - 2009.3990000000001] language model
+
+[2006.64 - 2012.1000000000001] um chroma is is done manually so it
+
+[2009.399 - 2015.2199999999998] doesn't rely on Lang chain but if we
+
+[2012.1 - 2017.9189999999999] incorporated Lane chain that would that
+
+[2015.22 - 2021.82] would open up functionality in a much
+
+[2017.919 - 2023.919] broader capacity right yeah I was just
+
+[2021.82 - 2026.2] about to ask for extensibility for
+
+[2023.919 - 2028.6000000000001] instance like you know can this right
+
+[2026.2 - 2030.3990000000001] what code can it talk to apis yeah go
+
+[2028.6 - 2032.26] for it Ansel now now that you mentioned
+
+[2030.399 - 2034.899] extensibility that was the main reason
+
+[2032.26 - 2037.179] for developing this because like I
+
+[2034.899 - 2039.1] mentioned before I try to mess with auto
+
+[2037.179 - 2041.679] GPT to get it to like do something I
+
+[2039.1 - 2043.84] wanted just for testing purposes and I I
+
+[2041.679 - 2047.0800000000002] wish it wasted my time trying to modify
+
+[2043.84 - 2049.5989999999997] it because it's it's it's I don't want
+
+[2047.08 - 2051.339] to say it like like the develop didn't
+
+[2049.599 - 2053.02] pay attention to it but it's just the
+
+[2051.339 - 2056.98] structure of it is
+
+[2053.02 - 2059.679] is not user friendly at all so we when
+
+[2056.98 - 2063.339] we went into this the the main goal was
+
+[2059.679 - 2066.099] to make it extensible organized uh and
+
+[2063.339 - 2068.98] very easy to know what's going on where
+
+[2066.099 - 2071.8] um in their defense I don't think that
+
+[2068.98 - 2074.32] they were writing Auto GPT for other
+
+[2071.8 - 2077.44] people to come in and and mess with it
+
+[2074.32 - 2080.619] and make it do what they wanted
+
+[2077.44 - 2082.3] um you know we from the ground up we've
+
+[2080.619 - 2085.3] been building this so that other people
+
+[2082.3 - 2089.02] can come in behind us right and really
+
+[2085.3 - 2092.0800000000004] what we need uh more than anything is
+
+[2089.02 - 2095.2] for people to come in and and build new
+
+[2092.08 - 2096.879] agents for example this execution agent
+
+[2095.2 - 2100.6189999999997] right here
+
+[2096.879 - 2104.74] um the the execution agent needs to be
+
+[2100.619 - 2108.6400000000003] expanded in a much more broad fashion
+
+[2104.74 - 2111.22] um the and then we need to work on the
+
+[2108.64 - 2113.859] task generation right so
+
+[2111.22 - 2117.3999999999996] um baby relied heavily on task
+
+[2113.859 - 2119.74] generation to determine if it had
+
+[2117.4 - 2123.04] completed a step
+
+[2119.74 - 2126.3999999999996] um and and that ended up with it redoing
+
+[2123.04 - 2128.2599999999998] a lot of work which we didn't like but
+
+[2126.4 - 2129.579] um I think that that could be solved
+
+[2128.26 - 2130.1800000000003] with
+
+[2129.579 - 2135.28] um
+
+[2130.18 - 2139.48] with with a um with a set in stone
+
+[2135.28 - 2142.6600000000003] primary goals that and allowing it to
+
+[2139.48 - 2145.96] generate sub goals so if somebody wants
+
+[2142.66 - 2149.74] to take a crack at task generation we
+
+[2145.96 - 2152.56] actually have a a kind of uh prototype
+
+[2149.74 - 2154.72] outline although this is a you know we
+
+[2152.56 - 2157.54] haven't actually done any work on this
+
+[2154.72 - 2160.24] stage yet but those are those are the
+
+[2157.54 - 2163.42] two the two threat things that we have
+
+[2160.24 - 2166.5989999999997] going forward to improve its
+
+[2163.42 - 2168.28] um capacity is building out execution
+
+[2166.599 - 2171.76] agent
+
+[2168.28 - 2172.8390000000004] um rebuilding this task generation and
+
+[2171.76 - 2175.0] then
+
+[2172.839 - 2177.82] um you know a few odds and ends here and
+
+[2175.0 - 2179.98] there just to to make it run a little
+
+[2177.82 - 2184.0] bit more smoothly
+
+[2179.98 - 2188.14] um I find that the biggest gains are are
+
+[2184.0 - 2191.56] usually from the uh from prompt
+
+[2188.14 - 2197.02] engineering though and sometimes even
+
+[2191.56 - 2199.48] small changes to the the text and the uh
+
+[2197.02 - 2203.2] in the Persona wording is everything
+
+[2199.48 - 2206.44] yeah yeah wording is everything
+
+[2203.2 - 2209.9199999999996] um like let's see if I can find yeah so
+
+[2206.44 - 2212.5] here here's the status agent and it just
+
+[2209.92 - 2216.52] does not
+
+[2212.5 - 2218.26] yeah it's too long but yeah we've been a
+
+[2216.52 - 2220.48] good hour working on the prompt for
+
+[2218.26 - 2223.3590000000004] status agent and
+
+[2220.48 - 2226.48] um ultimately we we we still ended up
+
+[2223.359 - 2229.2999999999997] having to switch over to gpt4 for this
+
+[2226.48 - 2231.46] so yeah the running version that we have
+
+[2229.3 - 2234.94] right now is using two separate language
+
+[2231.46 - 2236.56] models oh cool it can handle multiple
+
+[2234.94 - 2238.42] language models
+
+[2236.56 - 2241.24] um so you've got you've got a lot of the
+
+[2238.42 - 2243.579] extensibility and and configurability
+
+[2241.24 - 2245.0789999999997] figured out so you mentioned earlier
+
+[2243.579 - 2247.6600000000003] that you're getting close to making it
+
+[2245.079 - 2249.94] plug and play and and like you said uh
+
+[2247.66 - 2252.94] all the all the different agents are
+
+[2249.94 - 2255.76] configurable just via Json
+
+[2252.94 - 2259.2400000000002] um and and you you're getting close to
+
+[2255.76 - 2261.76] adding some more extensible uh things so
+
+[2259.24 - 2264.8199999999997] how do people collaborate with you do
+
+[2261.76 - 2266.6800000000003] you just all go through GitHub
+
+[2264.82 - 2268.78] um how to how should if anyone wants to
+
+[2266.68 - 2271.06] jump in what's the best way for them to
+
+[2268.78 - 2274.96] to get in touch with you guys
+
+[2271.06 - 2277.42] so we have a we have a project set up in
+
+[2274.96 - 2279.88] the community project section of the
+
+[2277.42 - 2282.52] cognitive AI Discord
+
+[2279.88 - 2285.88] um specifically for agents
+
+[2282.52 - 2288.099] um but if there's other stuff that you
+
+[2285.88 - 2290.6800000000003] think that that you can contribute to
+
+[2288.099 - 2293.92] for example we'd love to have a
+
+[2290.68 - 2296.98] graphical interface right on the UI it's
+
+[2293.92 - 2299.859] similar to Lang flow
+
+[2296.98 - 2301.42] um to to make this even lower code for
+
+[2299.859 - 2302.2] people
+
+[2301.42 - 2305.079] um
+
+[2302.2 - 2310.66] and then you know of course the you know
+
+[2305.079 - 2314.2000000000003] the uh if there's a um a new model that
+
+[2310.66 - 2316.8999999999996] comes out or a new host somewhere and
+
+[2314.2 - 2319.72] they have their own API that isn't open
+
+[2316.9 - 2323.859] AI compatible
+
+[2319.72 - 2327.7] um writing um writing API interfaces for
+
+[2323.859 - 2330.4] that so for example the the current V2
+
+[2327.7 - 2331.66] version of
+
+[2330.4 - 2335.7400000000002] um
+
+[2331.66 - 2340.2999999999997] of the Uber Booga API was not actually
+
+[2335.74 - 2341.7999999999997] written by us this was written by
+
+[2340.3 - 2344.2000000000003] um
+
+[2341.8 - 2346.54] that's so strange that he's not listed
+
+[2344.2 - 2347.14] as a contributor here
+
+[2346.54 - 2349.54] um
+
+[2347.14 - 2353.859] I think his name was Max though it was
+
+[2349.54 - 2359.56] Max something but he fixed it
+
+[2353.859 - 2362.44] yeah oh uh mitchko in mitchko so he did
+
+[2359.56 - 2365.5] get credit for this one but he wrote
+
+[2362.44 - 2369.04] um he rewrote the the interface for the
+
+[2365.5 - 2371.5] uba Booga API and people are are out
+
+[2369.04 - 2374.92] there using this and it's working you
+
+[2371.5 - 2376.42] can see the the old codes listed here
+
+[2374.92 - 2380.26] um right because another thing you can
+
+[2376.42 - 2382.359] do is also host the your local model on
+
+[2380.26 - 2384.099] a Cloud Server and use the API to
+
+[2382.359 - 2385.9] connect to it and you can just run the
+
+[2384.099 - 2388.3] the interface on your phone or web
+
+[2385.9 - 2392.7400000000002] browser or whatever interesting you can
+
+[2388.3 - 2395.8590000000004] see the um the endpoint code is listed
+
+[2392.74 - 2399.64] here as a variable and what we'll do
+
+[2395.859 - 2403.72] later is come in and set this as
+
+[2399.64 - 2405.94] configurable within the ini file
+
+[2403.72 - 2409.66] um right oh yeah that's that's something
+
+[2405.94 - 2412.0] else I I should just touch on briefly
+
+[2409.66 - 2414.339] um things like determining
+
+[2412.0 - 2417.52] um which language model you're using
+
+[2414.339 - 2419.5] which database you want to use you're in
+
+[2417.52 - 2420.16] embeddings
+
+[2419.5 - 2422.8] um
+
+[2420.16 - 2424.2999999999997] function that you're using all of that
+
+[2422.8 - 2427.3590000000004] is
+
+[2424.3 - 2431.26] um all of that is configurable here in
+
+[2427.359 - 2435.52] the config.ini file as well so yeah we
+
+[2431.26 - 2438.579] for we really try to get as much of the
+
+[2435.52 - 2441.04] configuration as we could out of the
+
+[2438.579 - 2441.6400000000003] code and into
+
+[2441.04 - 2444.54] um
+
+[2441.64 - 2448.92] into files that that people are gonna
+
+[2444.54 - 2448.92] find useful wonderful
+
+[2449.26 - 2453.2200000000003] so what's what's next I know you guys
+
+[2451.3 - 2454.6600000000003] have outlined a lot of open problems and
+
+[2453.22 - 2456.8799999999997] some things that you need help with and
+
+[2454.66 - 2459.46] I think there's quite a few people that
+
+[2456.88 - 2460.839] are expressing some interest
+
+[2459.46 - 2463.18] um so where where do you guys want to
+
+[2460.839 - 2466.18] take this project like what you know
+
+[2463.18 - 2468.2799999999997] given a month or six months or if you
+
+[2466.18 - 2470.14] have 20 people jump in What do you want
+
+[2468.28 - 2473.8] it to be able to do
+
+[2470.14 - 2477.22] well this weekend we are taking it to a
+
+[2473.8 - 2480.099] hackathon and we don't know what the
+
+[2477.22 - 2483.4599999999996] objective is yet but we're going our
+
+[2480.099 - 2487.2400000000002] objective is to win the hackathon with
+
+[2483.46 - 2489.2200000000003] this out of left field uh AGI uh
+
+[2487.24 - 2491.2599999999998] framework that nobody has ever seen
+
+[2489.22 - 2494.98] before
+
+[2491.26 - 2496.3590000000004] but beyond that
+
+[2494.98 - 2500.079] um
+
+[2496.359 - 2504.22] beyond that I'd like to see this
+
+[2500.079 - 2505.9] see this just used more broadly
+
+[2504.22 - 2507.52] um you know it
+
+[2505.9 - 2512.8] this is all
+
+[2507.52 - 2516.64] um this is all in a what what uh
+
+[2512.8 - 2519.3] be about there it is I missed but this
+
+[2516.64 - 2523.2999999999997] is all in the gnu general public license
+
+[2519.3 - 2527.92] just like Linux so anybody can take this
+
+[2523.3 - 2529.9] right and use it for commercial purposes
+
+[2527.92 - 2533.02] um
+
+[2529.9 - 2535.6600000000003] with you know with restrictions
+
+[2533.02 - 2538.54] um and you know me personally I would
+
+[2535.66 - 2541.06] love to once we get this model pounded
+
+[2538.54 - 2545.98] out and and set in stone I I would love
+
+[2541.06 - 2549.52] to just build and bespoke AI cognitive
+
+[2545.98 - 2550.9] systems for for companies on either a
+
+[2549.52 - 2551.5] direct
+
+[2550.9 - 2554.32] um
+
+[2551.5 - 2559.599] you know direct to
+
+[2554.32 - 2562.3590000000004] um Market kind of solution or even in a
+
+[2559.599 - 2566.2000000000003] research capacity you know my you know
+
+[2562.359 - 2568.839] I've already built some agents or at
+
+[2566.2 - 2571.2999999999997] least one agent and then some made some
+
+[2568.839 - 2574.359] modifications as well
+
+[2571.3 - 2577.1800000000003] um to work on the heuristic imperatives
+
+[2574.359 - 2582.16] project that you've got going Dave yeah
+
+[2577.18 - 2583.66] um and I I really want to be this the I
+
+[2582.16 - 2586.66] want this to be an engine for your
+
+[2583.66 - 2590.319] project so that you can iterate quickly
+
+[2586.66 - 2595.24] and you don't get hung up in in the
+
+[2590.319 - 2597.4] details of you know working manually or
+
+[2595.24 - 2599.02] writing your having to write your own
+
+[2597.4 - 2601.78] code
+
+[2599.02 - 2604.599] um for every single little thing that
+
+[2601.78 - 2607.3590000000004] you do we can just have an agent and
+
+[2604.599 - 2611.099] plug those agents in spit data at it and
+
+[2607.359 - 2611.0989999999997] see what comes out there you go
+
+[2613.079 - 2620.38] is basically like empowerment right like
+
+[2617.22 - 2622.54] human language has given us the ability
+
+[2620.38 - 2624.339] to do everything we've done up until
+
+[2622.54 - 2627.94] this point and we've basically given
+
+[2624.339 - 2629.74] that uh ability to machines now and with
+
+[2627.94 - 2632.68] this kind of architecture we can give
+
+[2629.74 - 2634.66] that to everybody as long as they have a
+
+[2632.68 - 2637.1189999999997] model to run they could have some kind
+
+[2634.66 - 2639.7] of agent working for them so it might
+
+[2637.119 - 2642.339] sound science fiction or outlandish but
+
+[2639.7 - 2644.14] it's basically like constructing your
+
+[2642.339 - 2646.72] own Jarvis right
+
+[2644.14 - 2649.48] that's the goal
+
+[2646.72 - 2653.0789999999997] that's the goal yep yeah I do not want
+
+[2649.48 - 2656.26] to be the person who develops the uh the
+
+[2653.079 - 2658.78] the the next Raven though let me just
+
+[2656.26 - 2662.76] say that like you know I'll be a part of
+
+[2658.78 - 2666.1600000000003] it but the uh a autonomous assistant
+
+[2662.76 - 2668.0200000000004] is going to be a lot of work oh
+
+[2666.16 - 2671.0789999999997] definitely that's why I said the
+
+[2668.02 - 2672.88] ultimate goal yeah just looking at what
+
+[2671.079 - 2677.26] we've done already
+
+[2672.88 - 2682.1800000000003] um a you know like a better uh Siri for
+
+[2677.26 - 2685.42] example is a a mini person project not
+
+[2682.18 - 2687.52] just two guys in a garage
+
+[2685.42 - 2691.66] yeah
+
+[2687.52 - 2692.7] yeah so this is like the very first you
+
+[2691.66 - 2695.7999999999997] know
+
+[2692.7 - 2697.7999999999997] 2022 there were very few of us even
+
+[2695.8 - 2702.4] talking about cognitive architecture
+
+[2697.8 - 2704.2000000000003] 2023 hits and suddenly like everyone's a
+
+[2702.4 - 2708.099] cognitive architect but you guys are
+
+[2704.2 - 2710.5] definitely like lunging ahead forward
+
+[2708.099 - 2712.2400000000002] um which is just incredible to see
+
+[2710.5 - 2713.5] um so thanks for sharing your work so
+
+[2712.24 - 2715.18] far
+
+[2713.5 - 2716.859] um and I know that you guys have have a
+
+[2715.18 - 2719.7999999999997] lot of work that you're you're working
+
+[2716.859 - 2722.859] on this this is uh it's getting close to
+
+[2719.8 - 2724.6600000000003] being uh semi-autonomous it doesn't
+
+[2722.859 - 2727.2999999999997] doesn't quite come up with its own
+
+[2724.66 - 2730.42] objectives but it can autonomously work
+
+[2727.3 - 2732.28] through a lot of uh increase it's coming
+
+[2730.42 - 2734.5] it's coming and it but it can it can
+
+[2732.28 - 2736.7200000000003] think through open-ended objectives that
+
+[2734.5 - 2740.02] you give it which is really incredible
+
+[2736.72 - 2741.8799999999997] so um any final thoughts from uh from
+
+[2740.02 - 2743.98] you guys or anyone else
+
+[2741.88 - 2745.839] um before we wrap up today's tonight's
+
+[2743.98 - 2748.96] recording
+
+[2745.839 - 2751.72] yeah well if you had told me uh in
+
+[2748.96 - 2753.94] December that I would be diving into a
+
+[2751.72 - 2755.74] project on GitHub about cognitive
+
+[2753.94 - 2756.839] architecture I would have spat my beer
+
+[2755.74 - 2760.8999999999996] at you
+
+[2756.839 - 2763.119] so everything is changing really fast
+
+[2760.9 - 2765.28] it's getting really silly it is
+
+[2763.119 - 2766.9] impossible to keep up and it's exciting
+
+[2765.28 - 2768.7000000000003] and it's just
+
+[2766.9 - 2772.42] it's just thrilling to be working on
+
+[2768.7 - 2776.6189999999997] this yeah absolutely yeah and possibly
+
+[2772.42 - 2779.8] keep up is definitely definitely the the
+
+[2776.619 - 2782.7400000000002] situation right now even even with the
+
+[2779.8 - 2785.319] past week or so where AI news has been
+
+[2782.74 - 2788.56] relatively slow there haven't been a
+
+[2785.319 - 2792.2799999999997] whole lot of interviews here lately
+
+[2788.56 - 2794.38] um I've still got dozens of tabs open of
+
+[2792.28 - 2796.3] AI stuff that I just haven't been able
+
+[2794.38 - 2798.359] to read yet
+
+[2796.3 - 2798.3590000000004] um
+
+[2798.52 - 2808.619] I I really think that
+
+[2802.54 - 2808.619] um a lot of people are are
+
+[2808.66 - 2815.74] getting a way more concerned about
+
+[2812.44 - 2817.9] artificial intelligence than they need
+
+[2815.74 - 2820.4199999999996] to be we still need to be concerned we
+
+[2817.9 - 2822.28] need to be working on on these things
+
+[2820.42 - 2825.64] but we're not
+
+[2822.28 - 2828.46] we're not quite in runaway AI yet I hate
+
+[2825.64 - 2833.2] to disagree with you Dave but
+
+[2828.46 - 2836.14] um you know it's it it if we told AI to
+
+[2833.2 - 2838.359] build better AI that would be like
+
+[2836.14 - 2840.54] telling you to do brain surgery on
+
+[2838.359 - 2840.54] yourself
+
+[2840.819 - 2843.339] so we don't need to bomb the data
+
+[2842.44 - 2845.56] centers
+
+[2843.339 - 2847.839] no not but yeah we should definitely
+
+[2845.56 - 2851.2] have bombs in the data centers just in
+
+[2847.839 - 2853.119] case just in case okay and local backups
+
+[2851.2 - 2855.04] for your your shows or anything you want
+
+[2853.119 - 2856.839] to watch after the apocalypse so there
+
+[2855.04 - 2859.0] you go just
+
+[2856.839 - 2860.98] etch it out on clay tablets all right
+
+[2859.0 - 2861.94] gang thanks everything thanks for
+
+[2860.98 - 2863.44] everything
+
+[2861.94 - 2865.7200000000003] um and definitely keep up the good work
+
+[2863.44 - 2867.88] and uh yeah I hope that you get some
+
+[2865.72 - 2870.52] more folks reaching out to you we will
+
+[2867.88 - 2872.079] of course have ongoing updates maybe not
+
+[2870.52 - 2873.579] weekly we'll see
+
+[2872.079 - 2875.38] um but you know we're doing more live
+
+[2873.579 - 2876.579] streams lately
+
+[2875.38 - 2877.839] um just to keep everyone up to date
+
+[2876.579 - 2879.7000000000003] because as you guys mentioned it's
+
+[2877.839 - 2881.38] happening so fast
+
+[2879.7 - 2883.2999999999997] um and it's good to show people what's
+
+[2881.38 - 2886.9] possible so I'm gonna go ahead and stop
+
+[2883.3 - 2889.2400000000002] the go ahead one one more thing I think
+
+[2886.9 - 2892.78] that getting everybody involved in
+
+[2889.24 - 2896.319] talking about this is really the the
+
+[2892.78 - 2899.44] best way forward yeah um because you
+
+[2896.319 - 2905.02] know up until now all of the discussion
+
+[2899.44 - 2910.18] about Ai and ethics and morality of AI
+
+[2905.02 - 2912.819] has been siled and gate kept by the you
+
+[2910.18 - 2916.66] know a few people at these major
+
+[2912.819 - 2919.119] corporations yeah and you know you and
+
+[2916.66 - 2921.94] the communities that you've helped get
+
+[2919.119 - 2925.96] get off the ground I think has really
+
+[2921.94 - 2928.18] opened it up and is going to be one of
+
+[2925.96 - 2931.119] the most important things for the future
+
+[2928.18 - 2933.52] of AI it's definitely already having an
+
+[2931.119 - 2935.02] impact well thanks so much and I'm glad
+
+[2933.52 - 2937.5] that it's definitely having hopefully a
+
+[2935.02 - 2941.02] positive impact in the long run yeah
+
+[2937.5 - 2942.64] we'll see yep yeah all right gang I'm
+
+[2941.02 - 2944.14] gonna knock off the recording have a
+
+[2942.64 - 2947.64] good night everybody and we'll talk
+
+[2944.14 - 2947.64] again soon cheers

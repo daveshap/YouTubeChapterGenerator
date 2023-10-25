@@ -1,0 +1,1269 @@
+[0.659 - 7.5] hey everybody David Shapiro here with a
+
+[3.24 - 9.96] more uh conventional video so
+
+[7.5 - 11.7] um on my patreon
+
+[9.96 - 13.259] um and throughout all of my time on
+
+[11.7 - 16.858999999999998] YouTube one of the questions that I get
+
+[13.259 - 19.8] the most is uh with prompt engineering
+
+[16.859 - 23.340000000000003] and one thing that I've noticed is that
+
+[19.8 - 25.32] uh many folks
+
+[23.34 - 28.68] um are are working on prompt engineering
+
+[25.32 - 31.198999999999998] and in some cases English is not their
+
+[28.68 - 33.42] first language and so this video is
+
+[31.199 - 34.800000000000004] going to be primarily for people who for
+
+[33.42 - 38.28] whom English is not your first language
+
+[34.8 - 40.44] and so for instance In some cultures
+
+[38.28 - 43.86] you're more likely to use the passive
+
+[40.44 - 47.059] voice so this is particularly for
+
+[43.86 - 49.739] um for uh folks from India and Japan
+
+[47.059 - 51.539] where you kind of insinuate what you
+
+[49.739 - 53.519999999999996] need and and the the reason is because
+
+[51.539 - 56.64] in these cultures it's considered
+
+[53.52 - 59.52] impolite or rude to be direct but that
+
+[56.64 - 63.18] being said these models and these models
+
+[59.52 - 65.4] I mean gpt3 and chat GPT they're trained
+
+[63.18 - 66.84] with a western mindset and so what I'm
+
+[65.4 - 69.60000000000001] what I mean by that is that they
+
+[66.84 - 73.02000000000001] responded to imperatives to commands and
+
+[69.6 - 74.39999999999999] if you're a Spanish speaker bandatos so
+
+[73.02 - 75.89999999999999] that's actually where I originally kind
+
+[74.4 - 77.10000000000001] of learned that concept is like oh it's
+
+[75.9 - 80.10000000000001] a command word
+
+[77.1 - 82.74] uh or or a imperative sentence or um
+
+[80.1 - 84.17999999999999] that sort of thing so what I what I have
+
+[82.74 - 85.55999999999999] started telling people
+
+[84.18 - 89.759] uh if you're not a native English
+
+[85.56 - 91.86] speaker use chat GPT to to get the
+
+[89.759 - 94.08] intent across and to write it in in good
+
+[91.86 - 96.42] English but you need to understand that
+
+[94.08 - 99.119] imperative so you say write instructions
+
+[96.42 - 101.93900000000001] not like you know uh the chatbot should
+
+[99.119 - 104.1] write this blah blah you know you got to
+
+[101.939 - 106.979] be direct so I got a couple of examples
+
+[104.1 - 108.72] and so and and these are inspired by by
+
+[106.979 - 112.67999999999999] questions that I've actually gotten so
+
+[108.72 - 116.1] in one write product reviews for uh for
+
+[112.68 - 118.97900000000001] some uh wine given some basic facts so
+
+[116.1 - 120.96] let's ask chat gbt uh are you familiar
+
+[118.979 - 124.579] with
+
+[120.96 - 124.579] uh prompt engineering
+
+[124.979 - 132.12] and so what I'm doing here is I am
+
+[129.119 - 135.72] uh priming this conversation so the chat
+
+[132.12 - 137.28] GPT knows what it is that we're doing so
+
+[135.72 - 138.72] it's like okay I understand the concept
+
+[137.28 - 140.7] of prompt engineering that's what we're
+
+[138.72 - 141.84] working on
+
+[140.7 - 143.819] cool
+
+[141.84 - 145.379] and so that's that's it I just needed
+
+[143.819 - 147.0] that information in the context window
+
+[145.379 - 151.14] so that that way it knows what we're
+
+[147.0 - 154.2] about to do cool uh help me write a
+
+[151.14 - 155.099] DaVinci prompt for
+
+[154.2 - 160.26] um
+
+[155.099 - 165.35999999999999] uh for writing uh wine uh descriptions
+
+[160.26 - 171.54] for an online uh store
+
+[165.36 - 176.18] um my database has a few uh Fields
+
+[171.54 - 178.64] um such as year location type of wine
+
+[176.18 - 182.16] flavor profile
+
+[178.64 - 183.66] bouquet I think I spelled that right and
+
+[182.16 - 188.599] so on
+
+[183.66 - 190.879] um we need a prompt that
+
+[188.599 - 195.72] will write
+
+[190.879 - 195.72] incredibly vivid descriptions
+
+[196.019 - 198.08] um
+
+[198.12 - 205.5] for each wine
+
+[200.58 - 209.84] um they should be flowery or romantic
+
+[205.5 - 212.879] um or even sultry in some cases
+
+[209.84 - 214.68] where appropriate
+
+[212.879 - 217.26] um
+
+[214.68 - 218.4] for instance uh
+
+[217.26 - 222.29899999999998] like
+
+[218.4 - 226.44] imagine that the description
+
+[222.299 - 229.37900000000002] is written by a professional French
+
+[226.44 - 231.68] sommelier
+
+[229.379 - 231.67999999999998] um okay
+
+[231.92 - 240.0] can you take a crack at that prompt so
+
+[237.54 - 242.64] what we do is that for for iterative
+
+[240.0 - 244.379] purposes because you have no idea what
+
+[242.64 - 245.45899999999997] it's going to do
+
+[244.379 - 247.56] um
+
+[245.459 - 249.42000000000002] there we go there we go so this is
+
+[247.56 - 252.18] actually off to a great start so all I
+
+[249.42 - 254.51899999999998] did was I described the prompt and so
+
+[252.18 - 256.32] let me unpack what I did here so I said
+
+[254.519 - 257.94] write a DaVinci prompt for me I'm
+
+[256.32 - 259.68] assuming that chat GPT knows what
+
+[257.94 - 260.28] DaVinci is
+
+[259.68 - 262.139] um
+
+[260.28 - 264.35999999999996] I don't know if it does but it's being
+
+[262.139 - 265.86] constantly updated so who knows but it
+
+[264.36 - 268.02000000000004] does say open AI DaVinci so it did
+
+[265.86 - 270.0] connect that DaVinci is from openai Okay
+
+[268.02 - 271.02] cool so chat GPT knows how to write
+
+[270.0 - 272.759] prompts
+
+[271.02 - 275.34] all right so as of professional French
+
+[272.759 - 277.259] sommelier write a captivating ooh ooh I
+
+[275.34 - 279.96] like that captivating description of a
+
+[277.259 - 281.52000000000004] year type of wine from location so these
+
+[279.96 - 284.03999999999996] are the placeholders with flavor profile
+
+[281.52 - 286.32] and Bouquet transport the reader to the
+
+[284.04 - 288.06] vineyard and let them savor every sip oh
+
+[286.32 - 292.02] that is good
+
+[288.06 - 295.34] um example so then uh as a
+
+[292.02 - 298.08] this that and the other okay so it gave
+
+[295.34 - 300.06] this as
+
+[298.08 - 301.979] okay so this this is basically going to
+
+[300.06 - 304.08] be a few shot right so we're saying
+
+[301.979 - 305.0] here's an example
+
+[304.08 - 309.53999999999996] um
+
+[305.0 - 312.18] yep so we need to fill in the blanks for
+
+[309.54 - 313.86] this for the few shot okay
+
+[312.18 - 315.18] so let me let me slow down because I
+
+[313.86 - 318.12] know that I'm going really fast so what
+
+[315.18 - 321.0] it did was it produced here's the prompt
+
+[318.12 - 324.06] right and then here is an example of how
+
+[321.0 - 326.22] it would look right and so we'll need to
+
+[324.06 - 328.919] do a little bit of formatting
+
+[326.22 - 330.72] um and and this is get basically like so
+
+[328.919 - 333.24] I'm going to tell it let's use this as a
+
+[330.72 - 335.94000000000005] few shot example so we can get exactly
+
+[333.24 - 338.0] the the behavior that we want
+
+[335.94 - 338.0] um
+
+[338.28 - 342.65999999999997] tantalizing creation as a friend as a
+
+[341.039 - 344.21999999999997] professional French sommelier I invite
+
+[342.66 - 346.02000000000004] you to do blah blah
+
+[344.22 - 347.40000000000003] um okay so what's what's wrong with this
+
+[346.02 - 349.5] we don't want it to say as a
+
+[347.4 - 355.13899999999995] professional French sommelier
+
+[349.5 - 356.4] um this is a good start but we don't
+
+[355.139 - 360.72] want
+
+[356.4 - 364.5] um the response to open with as a
+
+[360.72 - 370.8] professional French sommelier
+
+[364.5 - 372.86] um the user will probably uh not care
+
+[370.8 - 372.86] um
+
+[376.039 - 382.56] instead let's
+
+[378.479 - 384.0] um write the prompt in such a way that
+
+[382.56 - 384.74] it uses
+
+[384.0 - 388.02] um
+
+[384.74 - 389.40000000000003] uh uses a kind of a
+
+[388.02 - 391.62] third
+
+[389.4 - 395.88] perspective
+
+[391.62 - 397.259] so for instance it will reply or it will
+
+[395.88 - 400.139] say
+
+[397.259 - 400.97900000000004] this bottle will
+
+[400.139 - 402.96000000000004] um
+
+[400.979 - 404.58] transport you
+
+[402.96 - 409.44] make sense
+
+[404.58 - 412.68] um can you try a slightly modified
+
+[409.44 - 416.06] version of this prompt
+
+[412.68 - 416.06] sure here's a modified version
+
+[418.74 - 425.0] okay now it's getting confused
+
+[422.34 - 425.0] hmm
+
+[425.699 - 430.979] so now that's that's not what I was
+
+[427.44 - 436.199] looking for no that's not what I was
+
+[430.979 - 436.86] looking for let's start over
+
+[436.199 - 441.599] um
+
+[436.86 - 444.84000000000003] let's just write the prompt let's adopt
+
+[441.599 - 446.819] a new format where
+
+[444.84 - 449.63899999999995] the opening
+
+[446.819 - 454.62] prompt is labeled
+
+[449.639 - 461.12] as prompt in your response and then the
+
+[454.62 - 461.12] completion is also labeled with all caps
+
+[462.78 - 471.0] so the prompt should include
+
+[466.28 - 475.85999999999996] the Persona of a sommelier but the most
+
+[471.0 - 481.38] important thing is to write the Vivid
+
+[475.86 - 483.72] description of the wine based upon the
+
+[481.38 - 486.86] input variables
+
+[483.72 - 486.86] try again please
+
+[488.52 - 491.18] there we go
+
+[492.12 - 495.78000000000003] all right so it says write a captivating
+
+[494.28 - 497.34] wine description
+
+[495.78 - 499.979] from the perspective of a French
+
+[497.34 - 502.21999999999997] sommelier for a year blah blah blah okay
+
+[499.979 - 502.21999999999997] cool
+
+[502.5 - 504.979] um yeah
+
+[505.319 - 510.72] this is pretty simple so one thing I
+
+[508.199 - 512.94] will say is that less is often more
+
+[510.72 - 514.44] so you see how this prompt got shorter
+
+[512.94 - 516.899] and shorter
+
+[514.44 - 518.58] we should actually try this this is
+
+[516.899 - 522.12] pretty simple
+
+[518.58 - 526.62] um so it may work can you
+
+[522.12 - 530.839] fill in the variables for me so I can
+
+[526.62 - 530.839] try it and then what we're going to do
+
+[533.1 - 536.399] from Napa Valley with a buttery flavor
+
+[534.899 - 538.14] profile that hints of vanilla and Oak
+
+[536.399 - 539.399] okay cool
+
+[538.14 - 541.74] um so what we're going to do is we're
+
+[539.399 - 544.64] going to actually take this
+
+[541.74 - 544.64] platform
+
+[544.86 - 548.1800000000001] and we're gonna um
+
+[549.36 - 553.38] description so we're going to actually
+
+[550.86 - 554.76] see what it does now I lately I turned
+
+[553.38 - 556.2] the temperature down to zero because I
+
+[554.76 - 558.66] want to see what the model produces
+
+[556.2 - 562.94] without any variance
+
+[558.66 - 562.9399999999999] um let's see 250 that's probably enough
+
+[564.12 - 569.1] it's a truly Exquisite wine blah blah
+
+[567.0 - 571.5] blah
+
+[569.1 - 573.9590000000001] okay so now what I can do is I can take
+
+[571.5 - 575.519] this output and say I liked this output
+
+[573.959 - 578.18] but I was hoping it would be a little
+
+[575.519 - 578.18] bit more
+
+[578.22 - 583.44] so this output is good but I'd like for
+
+[581.22 - 584.7] it to be a little bit longer okay
+
+[583.44 - 588.36] great
+
+[584.7 - 589.9200000000001] um I tried it and got the following
+
+[588.36 - 592.04] output
+
+[589.92 - 592.04] um
+
+[593.94 - 600.1800000000001] so this is really great
+
+[597.12 - 602.22] but I'd like to add
+
+[600.18 - 603.12] a bit about
+
+[602.22 - 607.64] um
+
+[603.12 - 612.6] when and where this wine would be good
+
+[607.64 - 618.3199999999999] please update modify expand the prompt
+
+[612.6 - 623.88] so that it will include uh stuff like
+
+[618.32 - 625.6800000000001] food pairings but also really engage
+
+[623.88 - 627.24] the users
+
+[625.68 - 632.399] um not user
+
+[627.24 - 636.839] the uh wine uh buyers imagination
+
+[632.399 - 639.899] they need to know exactly how they're
+
+[636.839 - 641.1] going to use this wine going to use this
+
+[639.899 - 642.66] wine
+
+[641.1 - 648.4200000000001] all right
+
+[642.66 - 651.24] so now please write a new new prompt
+
+[648.42 - 652.279] um with this in mind
+
+[651.24 - 657.5] um
+
+[652.279 - 657.5] the last one was pretty good
+
+[662.72 - 667.14] okay
+
+[664.44 - 668.7] cool excellent
+
+[667.14 - 672.56] and I just hit Escape because I don't
+
+[668.7 - 675.12] need it like chat GPT is hallucinating
+
+[672.56 - 676.6199999999999] what the output might be and that's fine
+
+[675.12 - 679.68] because it's like it gives you an idea
+
+[676.62 - 683.579] of but then you need to test it okay
+
+[679.68 - 686.64] great can you uh fill in the blanks fill
+
+[683.579 - 689.4799999999999] in the variables of that last prompt so
+
+[686.64 - 689.48] I can test
+
+[689.579 - 693.06] excuse me
+
+[691.98 - 695.04] okay
+
+[693.06 - 696.8389999999999] so then we'll grab this and come back
+
+[695.04 - 700.38] over here
+
+[696.839 - 702.7790000000001] Okay so
+
+[700.38 - 704.76] um describe how this wine can be enjoyed
+
+[702.779 - 706.14] what dishes it pairs well with and how
+
+[704.76 - 708.74] it will enhance the overall dining
+
+[706.14 - 708.74] experience
+
+[710.66 - 715.8] is a truly captivating wine
+
+[714.24 - 717.36] um it's fruity flavor is balanced by
+
+[715.8 - 719.04] floral bouquet making a delightful
+
+[717.36 - 721.019] complex experience on the palette you'll
+
+[719.04 - 723.5999999999999] find notes of ripe cherries raspberries
+
+[721.019 - 726.5] and hints of spice cool I don't know if
+
+[723.6 - 726.5] it's lying but okay
+
+[726.779 - 730.14] um Pinot Noir pairs wonderfully with a
+
+[728.579 - 732.2399999999999] variety of dishes from light salads to
+
+[730.14 - 734.519] heartier fair is fruity notes make it a
+
+[732.24 - 736.5] great companion accompaniment sorry to
+
+[734.519 - 738.3] grilled salmon or roasted chicken
+
+[736.5 - 740.519] there you go
+
+[738.3 - 743.3389999999999] um experience sure to enhance any dining
+
+[740.519 - 746.1] experience it's complexity and balance
+
+[743.339 - 748.86] make it a great choice for any occasion
+
+[746.1 - 751.8000000000001] um cool so I was at the grocery store
+
+[748.86 - 754.5] with my fiance and there was um there
+
+[751.8 - 756.3] was a brand of wine that was like you
+
+[754.5 - 757.14] know it was it was very sultry it was
+
+[756.3 - 760.74] like
+
+[757.14 - 762.8389999999999] um uh like you know the the delicate
+
+[760.74 - 764.519] velvet on your lips is sure to like
+
+[762.839 - 766.2600000000001] basically turn you on
+
+[764.519 - 768.72] um so what we want to do now is we want
+
+[766.26 - 773.459] to add one final variable so that the um
+
+[768.72 - 775.2] whoever's writing this can um add a tone
+
+[773.459 - 778.7399999999999] um great
+
+[775.2 - 782.4590000000001] great that worked uh really well
+
+[778.74 - 783.6] um let's add one last variable to The
+
+[782.459 - 788.279] Prompt
+
+[783.6 - 793.26] um I want my users Wine sellers
+
+[788.279 - 798.42] to be able to specify a tone
+
+[793.26 - 801.56] so for instance some Shoppers are going
+
+[798.42 - 806.399] to be very uh haughty
+
+[801.56 - 808.079] and serious about their wine so we need
+
+[806.399 - 808.68] to
+
+[808.079 - 812.399] um
+
+[808.68 - 816.4799999999999] create a variable that will allow for
+
+[812.399 - 817.44] that but some wine brands are going to
+
+[816.48 - 818.5790000000001] be
+
+[817.44 - 820.86] um
+
+[818.579 - 824.8199999999999] to be sillier
+
+[820.86 - 829.519] or um basically just eight or two
+
+[824.82 - 834.3000000000001] different audiences so can you
+
+[829.519 - 836.279] modify the prompt one last time to
+
+[834.3 - 838.079] include
+
+[836.279 - 841.639] a um
+
+[838.079 - 841.6389999999999] uh uh uh
+
+[841.98 - 846.38] target audience tone
+
+[844.56 - 849.66] kind of thing
+
+[846.38 - 854.48] I'm not sure the
+
+[849.66 - 854.48] best way to modify the prompt
+
+[855.12 - 859.5] okay let's see what it does so chat GPT
+
+[857.279 - 861.0] is pretty smart
+
+[859.5 - 862.8] um
+
+[861.0 - 864.06] tailored for a specific
+
+[862.8 - 865.4399999999999] no
+
+[864.06 - 867.42] um
+
+[865.44 - 869.6600000000001] let's see that's not what I was looking
+
+[867.42 - 869.66] for
+
+[872.54 - 879.12] no that's not good uh you removed
+
+[877.2 - 881.82] the bit about
+
+[879.12 - 883.26] food pairings
+
+[881.82 - 886.5790000000001] and such
+
+[883.26 - 886.579] bring that back
+
+[886.8 - 890.24] so let's see um
+
+[890.82 - 898.62] let's bring that back um just modify
+
+[893.699 - 900.3599999999999] this following prompt by adding a new
+
+[898.62 - 903.5] tone variable
+
+[900.36 - 903.5] or something like that
+
+[907.68 - 911.9399999999999] all right I apologize for the confusion
+
+[909.839 - 912.62] it's very uh recalcitrant is that the
+
+[911.94 - 915.6] word
+
+[912.62 - 917.4590000000001] contrite Contrition okay write a
+
+[915.6 - 919.0790000000001] captivating review blah blah blah tailor
+
+[917.459 - 922.2199999999999] the tone for a specific audience no
+
+[919.079 - 922.2199999999999] you're not using the tone
+
+[923.699 - 934.9799999999999] you did not add a tone variable you just
+
+[930.959 - 939.66] you just rambled off the list of tones I
+
+[934.98 - 941.1] suggested as possible variables
+
+[939.66 - 943.68] so it might sound like I'm being really
+
+[941.1 - 945.48] rude to the machine right now
+
+[943.68 - 948.4799999999999] um
+
+[945.48 - 952.639] there we go so now we've got this all
+
+[948.48 - 952.639] right so let's add this to our prompt
+
+[954.42 - 958.4399999999999] tailor the tone
+
+[956.399 - 961.139] of the description to a specific tardy
+
+[958.44 - 963.5400000000001] Audience by using the variable uh that's
+
+[961.139 - 964.98] like really well let's see if it works
+
+[963.54 - 967.019] let's see if it works I I might be
+
+[964.98 - 968.4590000000001] jumping to conclusions
+
+[967.019 - 970.44] um
+
+[968.459 - 972.959] so we'll say something like target
+
+[970.44 - 973.639] audience tone is going to be
+
+[972.959 - 976.4399999999999] um
+
+[973.639 - 978.1800000000001] uh let's see
+
+[976.44 - 979.74] young 20 something
+
+[978.18 - 984.019] [Music]
+
+[979.74 - 984.019] um women okay cool
+
+[988.339 - 993.98] no
+
+[989.94 - 993.98] that didn't work laughs
+
+[994.399 - 998.22] you don't advertise to Young
+
+[996.42 - 1000.199] 20-something women by saying you're a
+
+[998.22 - 1002.0600000000001] young 20-something woman
+
+[1000.199 - 1004.959] um
+
+[1002.06 - 1004.959] yeah that didn't work
+
+[1005.8 - 1009.74] that's kind of funny
+
+[1008.36 - 1011.3000000000001] um all right so let's use let's use more
+
+[1009.74 - 1013.4590000000001] adjectives
+
+[1011.3 - 1015.74] because in this case it's like the the
+
+[1013.459 - 1016.699] model is like very
+
+[1015.74 - 1020.36] um
+
+[1016.699 - 1021.8599999999999] Let's do let's do uh fun and silly
+
+[1020.36 - 1024.919] all right
+
+[1021.86 - 1026.179] it's a fun and silly wine
+
+[1024.919 - 1029.5590000000002] no
+
+[1026.179 - 1029.5590000000002] super not what I want
+
+[1029.66 - 1032.38] all right
+
+[1032.48 - 1038.0] okay I tried this and
+
+[1036.079 - 1042.26] uh it is
+
+[1038.0 - 1042.26] an unmitigated disaster
+
+[1045.38 - 1050.38] prompt
+
+[1047.6 - 1050.3799999999999] completion
+
+[1056.059 - 1060.559] what do you think is wrong with this
+
+[1059.6 - 1065.98] prompt
+
+[1060.559 - 1065.98] got any ideas how to fix it
+
+[1069.38 - 1072.0390000000002] foreign
+
+[1075.74 - 1078.28] okay
+
+[1083.48 - 1089.38] why don't we try changing the line
+
+[1095.72 - 1101.96] this seems off
+
+[1098.48 - 1105.4] and we simplify this
+
+[1101.96 - 1105.4] um part of the prompt
+
+[1114.559 - 1117.94] removed the variable again
+
+[1119.05 - 1122.51] [Laughter]
+
+[1124.22 - 1129.2] and then it says tailor the tone okay
+
+[1126.86 - 1131.32] the best fits your brand
+
+[1129.2 - 1131.32] um
+
+[1134.179 - 1138.8600000000001] all right let's see it's clear that you
+
+[1137.6 - 1139.6399999999999] are lost
+
+[1138.86 - 1142.4799999999998] um
+
+[1139.64 - 1142.48] foreign
+
+[1143.179 - 1152.419] remember that a prompt is static so
+
+[1147.5 - 1155.799] including a description or a a line in
+
+[1152.419 - 1155.7990000000002] the prompt like
+
+[1157.46 - 1161.679] um does not make any sense
+
+[1165.2 - 1170.26] can you try something completely
+
+[1167.9 - 1170.26] different
+
+[1176.48 - 1181.58] there we go tailor the tone for the
+
+[1179.6 - 1184.6599999999999] description of your target audiences
+
+[1181.58 - 1184.6599999999999] like no
+
+[1186.38 - 1191.24] now you're completely lost
+
+[1188.96 - 1192.6200000000001] okay this is getting aggravating
+
+[1191.24 - 1195.44] actually
+
+[1192.62 - 1196.58] um uh okay because what I'm trying to do
+
+[1195.44 - 1198.98] is I'm trying to show you how to get
+
+[1196.58 - 1201.799] chat EBT to do this but Chad GPT is
+
+[1198.98 - 1203.059] obviously not
+
+[1201.799 - 1207.26] um getting it
+
+[1203.059 - 1207.86] so remember simpler is better
+
+[1207.26 - 1210.02] um
+
+[1207.86 - 1210.8799999999999] stop with the
+
+[1210.02 - 1212.4189999999999] um
+
+[1210.88 - 1213.919] ludicrously
+
+[1212.419 - 1214.46] long
+
+[1213.919 - 1217.24] um
+
+[1214.46 - 1217.24] prompt
+
+[1217.52 - 1220.6399999999999] just use
+
+[1219.2 - 1224.6200000000001] a simple
+
+[1220.64 - 1224.6200000000001] tone variable please
+
+[1229.58 - 1235.34] okay it doesn't get it
+
+[1232.58 - 1237.3799999999999] uh it really really doesn't get it
+
+[1235.34 - 1240.1999999999998] um all right so here's how I would do it
+
+[1237.38 - 1242.179] and I apologize but I hope as we we
+
+[1240.2 - 1244.299] found out we found a limit
+
+[1242.179 - 1244.299] um
+
+[1245.059 - 1250.0] tone of the description
+
+[1246.919 - 1250.0] fun and silly
+
+[1254.419 - 1257.26] there we go
+
+[1257.44 - 1262.16] this is what I was trying to get it to
+
+[1259.52 - 1264.32] do and I was like simpler is better
+
+[1262.16 - 1267.799] um so then we say
+
+[1264.32 - 1268.76] um so then we say like uh let's see
+
+[1267.799 - 1272.78] um
+
+[1268.76 - 1272.78] uh let's see luxurious
+
+[1273.44 - 1280.1200000000001] and sensual
+
+[1276.2 - 1280.1200000000001] this is for the the snoo to your clients
+
+[1280.58 - 1285.3999999999999] just said it's a luxurious and Central
+
+[1282.559 - 1285.3999999999999] experience okay whatever
+
+[1287.36 - 1292.6399999999999] it's not perfect but you can see we made
+
+[1289.28 - 1295.3999999999999] some progress all right so let's move on
+
+[1292.64 - 1296.7800000000002] to a different prompt altogether so OSHA
+
+[1295.4 - 1298.4] this is actually one that I've gotten
+
+[1296.78 - 1300.44] several questions
+
+[1298.4 - 1302.0590000000002] um about over the years
+
+[1300.44 - 1303.26] um and it's about like regulations and
+
+[1302.059 - 1306.34] stuff
+
+[1303.26 - 1306.34] so let's delete this
+
+[1306.919 - 1318.679] um let's see help me write a uh Da Vinci
+
+[1312.799 - 1321.559] um gpt3 prompt for uh citing
+
+[1318.679 - 1326.3600000000001] OSHA regulations
+
+[1321.559 - 1330.86] um given an employee complaint
+
+[1326.36 - 1332.12] can you take a crack at this
+
+[1330.86 - 1335.74] um
+
+[1332.12 - 1340.1789999999999] label the prompt with prompt and
+
+[1335.74 - 1340.179] completion with completion
+
+[1341.48 - 1345.26] all right you're an HR representative
+
+[1342.919 - 1347.96] for a Manufacturing Company an employee
+
+[1345.26 - 1351.08] has filed a complaint
+
+[1347.96 - 1354.679] um okay no
+
+[1351.08 - 1358.28] all right good start but we need a
+
+[1354.679 - 1361.3600000000001] placeholder in the prompt for the
+
+[1358.28 - 1361.36] employee complaint
+
+[1366.679 - 1368.679] um
+
+[1370.28 - 1376.58] um the employee complaint
+
+[1373.46 - 1378.559] should not be in line with the
+
+[1376.58 - 1379.22] description
+
+[1378.559 - 1382.3999999999999] um
+
+[1379.22 - 1384.88] think of it more like a form the
+
+[1382.4 - 1384.88] complaint
+
+[1384.98 - 1393.14] may be a sentence or a whole paragraph
+
+[1390.2 - 1396.22] so create some additional
+
+[1393.14 - 1396.22] framing for it
+
+[1403.22 - 1409.88] no I don't like that use new lines to
+
+[1407.96 - 1412.1000000000001] frame the complaint
+
+[1409.88 - 1415.8400000000001] better remember
+
+[1412.1 - 1415.84] write it more like a form
+
+[1417.5 - 1420.28] there we go
+
+[1420.799 - 1425.36] okay cool
+
+[1422.9 - 1426.0800000000002] great now let's
+
+[1425.36 - 1430.34] um
+
+[1426.08 - 1436.539] imagine an employee complaint for
+
+[1430.34 - 1441.08] testing can you imagine a an employee
+
+[1436.539 - 1443.299] complaint let's say realistic
+
+[1441.08 - 1447.26] realistic employee complaint
+
+[1443.299 - 1449.86] um on a warehouse floor involving a
+
+[1447.26 - 1449.86] forklift
+
+[1451.4 - 1459.5800000000002] no don't include the prompt
+
+[1454.64 - 1459.5800000000002] just write the complaint only
+
+[1463.1 - 1466.6399999999999] on several occasions I've witnessed
+
+[1464.78 - 1469.3999999999999] forklifts after driving at excessive
+
+[1466.64 - 1472.2800000000002] speeds such as honking the horn before
+
+[1469.4 - 1473.96] not following okay
+
+[1472.28 - 1478.58] cool
+
+[1473.96 - 1480.559] cool now let's rewrite this with broken
+
+[1478.58 - 1481.82] English
+
+[1480.559 - 1486.26] um
+
+[1481.82 - 1489.2] imagine that the employee is not a
+
+[1486.26 - 1490.52] native English speaker
+
+[1489.2 - 1493.9] so we're basically going to write this
+
+[1490.52 - 1493.9] prompt to see if it is resilient
+
+[1494.96 - 1498.44] and not follow safety cool this is
+
+[1496.94 - 1501.0800000000002] dangerous for me please do something to
+
+[1498.44 - 1503.8400000000001] fix now now to fix thank you cool great
+
+[1501.08 - 1505.76] so let's try this
+
+[1503.84 - 1507.3799999999999] um all right you are an HR
+
+[1505.76 - 1509.24] representative
+
+[1507.38 - 1511.46] so let's come back over here
+
+[1509.24 - 1514.52] employee complaint
+
+[1511.46 - 1516.6200000000001] and let's grab the complaint
+
+[1514.52 - 1519.2] and my brother and I lived in an
+
+[1516.62 - 1521.539] apartment like 15 years ago uh maybe not
+
+[1519.2 - 1523.76] that long ago but the uh the the the
+
+[1521.539 - 1525.26] neighborhood handyman actually wrote
+
+[1523.76 - 1527.299] like this
+
+[1525.26 - 1529.46] um and he was very helpful very sweet
+
+[1527.299 - 1531.799] guy but just did not have a good command
+
+[1529.46 - 1533.8400000000001] of English and you imagine that that
+
+[1531.799 - 1536.74] many people who work dangerous jobs are
+
+[1533.84 - 1536.74] not native English speakers
+
+[1537.2 - 1540.919] okay so
+
+[1540.02 - 1542.4189999999999] um
+
+[1540.919 - 1547.2990000000002] whoops
+
+[1542.419 - 1547.2990000000002] OSHA response let's see what it says
+
+[1553.52 - 1556.179] okay
+
+[1556.34 - 1560.779] all right cool
+
+[1558.08 - 1564.86] I tested the um
+
+[1560.779 - 1567.26] The Prompt and complaint
+
+[1564.86 - 1571.3999999999999] but it uh
+
+[1567.26 - 1573.919] did not cite any specific
+
+[1571.4 - 1577.96] OSHA regulations
+
+[1573.919 - 1577.96] um it just gave me
+
+[1579.2 - 1584.419] a generic list of steps
+
+[1582.74 - 1585.5] um
+
+[1584.419 - 1591.3200000000002] foreign
+
+[1585.5 - 1595.7] this prompt is meant to give internal HR
+
+[1591.32 - 1598.52] a list of regulations to look up for
+
+[1595.7 - 1601.4] reference can you
+
+[1598.52 - 1603.74] can you modify the prompt
+
+[1601.4 - 1607.0590000000002] um to list only
+
+[1603.74 - 1607.059] OSHA regulations
+
+[1616.76 - 1621.679] okay it's still it's still saying and
+
+[1620.48 - 1623.059] outline the steps that we're going to
+
+[1621.679 - 1625.159] take but I don't think that that's what
+
+[1623.059 - 1628.48] we want it to do
+
+[1625.159 - 1628.48] so let's grab this
+
+[1635.659 - 1640.0390000000002] let's see and it just parroted this back
+
+[1637.7 - 1642.46] at me
+
+[1640.039 - 1642.46] um yep
+
+[1642.62 - 1650.84] no we don't want to um
+
+[1647.24 - 1655.299] give the response to the employee
+
+[1650.84 - 1659.0] so remove the bit about steps will take
+
+[1655.299 - 1664.36] remember the entire point of this is
+
+[1659.0 - 1664.36] just to list OSHA regulations
+
+[1665.659 - 1671.9] please rewrite the entire prompt from
+
+[1669.5 - 1673.279] the beginning actually here here's what
+
+[1671.9 - 1674.779] we're going to do
+
+[1673.279 - 1677.6] um this is this is another Advanced
+
+[1674.779 - 1679.34] technique which is um you ask it to to
+
+[1677.6 - 1682.36] summarize everything that we're doing so
+
+[1679.34 - 1687.039] far can you recap and summarize
+
+[1682.36 - 1687.039] everything we're doing
+
+[1694.58 - 1698.48] not quite
+
+[1696.2 - 1700.88] take a big step back
+
+[1698.48 - 1703.72] what are we doing here
+
+[1700.88 - 1703.72] zoom out
+
+[1704.779 - 1708.2] we are creating a prompt and an employee
+
+[1706.58 - 1710.24] complaint for an HR representative at a
+
+[1708.2 - 1713.98] Manufacturing Company involving unsafe
+
+[1710.24 - 1713.98] working conditions blah blah okay
+
+[1715.34 - 1719.98] yep good good good okay
+
+[1718.64 - 1725.14] now
+
+[1719.98 - 1725.14] describe the goal of the prompt
+
+[1729.14 - 1735.679] wrong
+
+[1730.82 - 1740.059] we are not replying to the uh employee
+
+[1735.679 - 1744.1000000000001] we are only generating OSHA citations
+
+[1740.059 - 1744.1] for HR to investigate
+
+[1746.0 - 1748.9] say regulations
+
+[1752.12 - 1757.3999999999999] can you restate the purpose
+
+[1755.179 - 1759.5590000000002] of the prompt
+
+[1757.4 - 1761.0] now and so when you do this when you ask
+
+[1759.559 - 1762.62] it like wait tell me what you're
+
+[1761.0 - 1765.399] thinking then you can see the
+
+[1762.62 - 1765.399] misunderstanding
+
+[1769.34 - 1772.34] there we go
+
+[1771.26 - 1776.539] great
+
+[1772.34 - 1782.9189999999999] now please write a brand new prompt
+
+[1776.539 - 1782.919] that accepts the uh employ the complaint
+
+[1783.44 - 1787.48] and sites regulations
+
+[1795.46 - 1802.0] stop with the steps that the company
+
+[1799.34 - 1802.0] will take
+
+[1803.6 - 1808.84] we are not doing that
+
+[1806.36 - 1808.84] foreign
+
+[1814.039 - 1822.17] that is not even the same prompt no
+
+[1818.66 - 1822.17] [Laughter]
+
+[1826.76 - 1829.72] there we go
+
+[1829.76 - 1833.779] I didn't actually know if that would
+
+[1831.62 - 1836.6] work
+
+[1833.779 - 1841.039] okay cool
+
+[1836.6 - 1844.1789999999999] let's see if this works
+
+[1841.039 - 1844.179] employee complaint
+
+[1848.299 - 1851.86] and then whoops
+
+[1851.899 - 1857.02] instead of Osha response I probably need
+
+[1853.88 - 1857.0200000000002] to say OSHA regulations
+
+[1862.159 - 1867.1000000000001] whoa I wonder if these are right
+
+[1863.779 - 1867.1] probably not
+
+[1872.539 - 1877.039] powered industrial trucks
+
+[1875.059 - 1881.0] I'll be darned
+
+[1877.039 - 1881.0] oh cool
+
+[1881.72 - 1887.5] um let's see we're looking for 178
+
+[1884.899 - 1887.5] oh
+
+[1888.14 - 1891.039] loading
+
+[1891.14 - 1894.5200000000002] I'll be darned okay
+
+[1894.62 - 1899.26] so now let's try this let's remove this
+
+[1903.799 - 1907.24] and see if it still knows
+
+[1911.899 - 1915.4399999999998] I'll be darned
+
+[1913.34 - 1917.4189999999999] okay so even when I removed it it still
+
+[1915.44 - 1919.94] knows the regulations
+
+[1917.419 - 1924.14] I think we can call this a victory
+
+[1919.94 - 1926.419] damn I'm actually impressed okay
+
+[1924.14 - 1928.46] um yeah because one thing that a lot of
+
+[1926.419 - 1930.5590000000002] people mistake is that uh the model
+
+[1928.46 - 1931.7] already knows a lot so you need to see
+
+[1930.559 - 1933.6789999999999] if the model already has that
+
+[1931.7 - 1935.3600000000001] information and this video is getting
+
+[1933.679 - 1937.279] long we're already at 30 minutes so I
+
+[1935.36 - 1939.5] think we'll call it a day we'll maybe do
+
+[1937.279 - 1940.7] chat bot prompting in the future but uh
+
+[1939.5 - 1943.12] I hope you found this valuable thanks
+
+[1940.7 - 1943.1200000000001] for watching

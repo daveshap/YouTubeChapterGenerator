@@ -1,0 +1,443 @@
+[0.0 - 5.819] there are exactly four reasons why
+
+[3.12 - 8.099] machines will replace all human labor or
+
+[5.819 - 11.58] at least almost all human labor those
+
+[8.099 - 14.82] reasons are better faster cheaper and
+
+[11.58 - 16.92] safer let's get right into it the first
+
+[14.82 - 18.779] thing that you need to think of is in
+
+[16.92 - 21.42] the Second Industrial Revolution where
+
+[18.779 - 23.82] we introduced machines into
+
+[21.42 - 26.82] industrialized agriculture we replaced
+
+[23.82 - 29.76] the ox why did we replace the oxen with
+
+[26.82 - 31.679000000000002] tractors number one the ox are more
+
+[29.76 - 33.54] efficient machines took over because
+
+[31.679 - 35.76] machines don't need rest they do break
+
+[33.54 - 37.86] down sometimes but they don't take any
+
+[35.76 - 40.079] time to grow they don't get old they
+
+[37.86 - 42.379] don't get sick and die they do it like I
+
+[40.079 - 44.34] said they do break they can be faster
+
+[42.379 - 47.218999999999994] machines do not have the same
+
+[44.34 - 51.42] constraints as biological uh draft
+
+[47.219 - 54.0] animals now the cost as well machines
+
+[51.42 - 55.86] are initially more expensive than
+
+[54.0 - 57.84] animals because you know animals
+
+[55.86 - 61.079] reproduce and all they need is a little
+
+[57.84 - 64.68] bit of grain but in the long run because
+
+[61.079 - 66.659] of all the various benefits to them they
+
+[64.68 - 68.7] end up being much cheaper especially
+
+[66.659 - 70.43900000000001] with the amount of product productivity
+
+[68.7 - 72.36] output they have and then finally
+
+[70.439 - 74.69999999999999] they're they're actually safer
+
+[72.36 - 76.08] because animals one they have zoonotic
+
+[74.7 - 78.43900000000001] diseases they can have unpredictable
+
+[76.08 - 82.79899999999999] behaviors but also
+
+[78.439 - 85.13999999999999] machines can get humans away from the
+
+[82.799 - 87.06] work uh you think about a combine today
+
+[85.14 - 90.06] where you're in a nice safe clean
+
+[87.06 - 93.0] air-conditioned cab uh they're just
+
+[90.06 - 95.759] going to be much safer overall and this
+
+[93.0 - 97.799] is true for pretty much uh many many
+
+[95.759 - 100.14] machines especially as they get larger
+
+[97.799 - 102.47900000000001] with more safety features built in and
+
+[100.14 - 105.24] then finally scalability you can Mass
+
+[102.479 - 107.82] produce tractors you cannot Mass produce
+
+[105.24 - 110.03999999999999] oxen so with this analogy in mind let's
+
+[107.82 - 111.29899999999999] dive right into the rest of it better
+
+[110.04 - 115.43900000000001] than us
+
+[111.299 - 117.18] so one example is open ai's whisper so
+
+[115.439 - 119.939] open ai's whisper if you're not familiar
+
+[117.18 - 122.7] with it is a transcription AI service
+
+[119.939 - 125.39899999999999] that has been proven to be better than
+
+[122.7 - 128.099] human level transcription uh whether
+
+[125.399 - 131.099] it's in multiple languages or noisy
+
+[128.099 - 132.23899999999998] environments or otherwise low quality
+
+[131.099 - 136.56] audio
+
+[132.239 - 139.379] The Whisper AI is an example of AI being
+
+[136.56 - 141.0] better than all human performance and
+
+[139.379 - 143.819] what I mean by better than all human
+
+[141.0 - 147.18] performance it outperforms literally
+
+[143.819 - 149.51999999999998] like any 10 people and so this is just
+
+[147.18 - 153.0] the first of a trend of many things in
+
+[149.52 - 156.42000000000002] where in which AI is going to not just
+
+[153.0 - 160.92] match human capacity but surpass human
+
+[156.42 - 163.67999999999998] capacity uh like by a mile and so it's
+
+[160.92 - 165.29999999999998] more accurate it's faster it scales it
+
+[163.68 - 167.09900000000002] has availability and finally it's
+
+[165.3 - 168.54000000000002] infinitely cheaper than human
+
+[167.099 - 171.11999999999998] transcribers
+
+[168.54 - 172.79999999999998] and so when you look at just this the
+
+[171.12 - 175.26] fact that the first AI product that
+
+[172.8 - 179.459] exists that is unequivocally better than
+
+[175.26 - 181.56] all humans All Humans combined uh then
+
+[179.459 - 183.72] you you extrapolate this out and say
+
+[181.56 - 185.58] okay which is the next tool that's going
+
+[183.72 - 186.72] to be better than all humans can
+
+[185.58 - 189.18] possibly be
+
+[186.72 - 191.04] faster than us so the example that I'm
+
+[189.18 - 192.48000000000002] going to use here is Claude Claude has a
+
+[191.04 - 194.57999999999998] hundred thousand token window which is
+
+[192.48 - 195.78] about 60 to 80 000 words depending on
+
+[194.58 - 198.54000000000002] how much formatting and what language
+
+[195.78 - 201.12] it's in but it can read that entire
+
+[198.54 - 205.44] volume of text in about 30 seconds
+
+[201.12 - 207.3] uh that is obviously and Way Way Beyond
+
+[205.44 - 210.06] any human capacity
+
+[207.3 - 211.8] so this is and it's not just you know at
+
+[210.06 - 213.84] human speed or twice the human speed
+
+[211.8 - 216.48000000000002] this is literally hundreds if not
+
+[213.84 - 218.64000000000001] thousands of times faster than humans
+
+[216.48 - 220.44] and so between the reading speed the
+
+[218.64 - 223.79899999999998] ability to then not just not just read
+
+[220.44 - 225.12] that fast but also synthesize uh not
+
+[223.799 - 227.58] quite as fast but still it can
+
+[225.12 - 230.459] synthesize much faster and generate
+
+[227.58 - 233.70000000000002] content uh then you combine it with the
+
+[230.459 - 236.64000000000001] availability the low cost again it's
+
+[233.7 - 239.7] better and faster in many ways it's a
+
+[236.64 - 243.05999999999997] Claude as a chat bot is not better than
+
+[239.7 - 244.5] uh than humans in all ways but when you
+
+[243.06 - 246.239] when you have something that is this
+
+[244.5 - 248.099] much faster it still adds a tremendous
+
+[246.239 - 249.78] amount of value so imagine in the future
+
+[248.099 - 252.599] when things are both better and faster
+
+[249.78 - 255.12] and that's that future is coming quickly
+
+[252.599 - 258.0] it's cheaper than us so I had a story
+
+[255.12 - 260.579] from a client where they started using a
+
+[258.0 - 263.22] code interpreter with chat GPT and they
+
+[260.579 - 265.34000000000003] realized that it was doing uh as much
+
+[263.22 - 267.44000000000005] work if not more than a full-time
+
+[265.34 - 269.4] biostatistician so your full-time
+
+[267.44 - 271.56] biostatistician might cost between five
+
+[269.4 - 273.12] and ten thousand dollars a month uh
+
+[271.56 - 275.52] depending on you know region and level
+
+[273.12 - 278.04] of experience but chat GPT with code
+
+[275.52 - 283.19899999999996] interpreter costs 20 a month so that is
+
+[278.04 - 285.0] about a 400x in terms of saving uh so as
+
+[283.199 - 287.1] you adopt these generative AI tools
+
+[285.0 - 289.08] you're going to see immediate cost
+
+[287.1 - 291.06] savings as well as new capabilities
+
+[289.08 - 292.62] because maybe you didn't have a bio
+
+[291.06 - 295.199] statistician and you needed one or
+
+[292.62 - 297.6] whatever else uh chat GPT with code
+
+[295.199 - 299.52000000000004] interpreter can do so this is going to
+
+[297.6 - 301.139] increase your operational efficiency
+
+[299.52 - 303.53999999999996] because again it can operate Around the
+
+[301.139 - 306.06] Clock it's an it's uh incredibly
+
+[303.54 - 309.0] scalable because this is just one person
+
+[306.06 - 310.5] using uh chat gbt but if everyone in
+
+[309.0 - 313.259] your organization is using something
+
+[310.5 - 316.74] like chat GPT then everyone basically
+
+[313.259 - 319.1] has a cast of full-time employees worth
+
+[316.74 - 321.72] of Labor working under them
+
+[319.1 - 323.699] the reduction in cost means that
+
+[321.72 - 325.199] companies can then allocate the money
+
+[323.699 - 328.86] that would have gone to those salaries
+
+[325.199 - 330.36] elsewhere and the most important the
+
+[328.86 - 331.62] Competitive Edge that this gives you if
+
+[330.36 - 333.66] you're not doing this then your
+
+[331.62 - 336.419] competitors are and so what we're going
+
+[333.66 - 339.02000000000004] to see is as generative AI drives down
+
+[336.419 - 341.28] the cost of a lot of goods and services
+
+[339.02 - 343.15999999999997] you're going to fold because you're just
+
+[341.28 - 346.79999999999995] not going to be able to keep up
+
+[343.16 - 349.68] uh safer than us so this is uh data as
+
+[346.8 - 353.039] recently as March of this year uh waymo
+
+[349.68 - 355.919] reports uh 0.59 accidents per million
+
+[353.039 - 357.71999999999997] miles uh which is compared to just shy
+
+[355.919 - 360.419] of three accidents per million miles for
+
+[357.72 - 363.06] human drivers so it's already uh
+
+[360.419 - 367.19899999999996] self-driving cars are already several uh
+
+[363.06 - 369.18] times safer than human drivers and so uh
+
+[367.199 - 371.759] reduced accident rates live saved
+
+[369.18 - 374.28000000000003] accidents uh and cost avoidance risk
+
+[371.759 - 376.5] mitigation and this is just where it is
+
+[374.28 - 378.11999999999995] today this is not including ongoing
+
+[376.5 - 381.12] improvements as the Technologies get
+
+[378.12 - 382.86] better so here are four examples of
+
+[381.12 - 385.919] machines that are better cheaper faster
+
+[382.86 - 387.72] and safer than us and we're just at the
+
+[385.919 - 390.06] beginning of the generative AI
+
+[387.72 - 391.97900000000004] Revolution the writing is on the wall as
+
+[390.06 - 393.84] far as I'm concerned machines are going
+
+[391.979 - 396.84] to can you continue to get better faster
+
+[393.84 - 399.29999999999995] cheaper and safer and rather than just
+
+[396.84 - 401.46] adopting one or two of these most
+
+[399.3 - 403.259] machines are going to start having all
+
+[401.46 - 405.78] four of these criteria
+
+[403.259 - 409.62] now you've probably heard the you know
+
+[405.78 - 411.17999999999995] human in the loop this is a myopic view
+
+[409.62 - 414.06] um and as far as I can tell the reason
+
+[411.18 - 416.40000000000003] that people like uh CEOs such as Sam
+
+[414.06 - 418.62] Altman and others keep saying this is
+
+[416.4 - 421.56] mostly it is just to placate people from
+
+[418.62 - 423.0] panicking but when you look at the when
+
+[421.56 - 425.18] you look at the trends that machines are
+
+[423.0 - 427.8] becoming better faster cheaper and safer
+
+[425.18 - 430.919] uh there's no reason to hire people
+
+[427.8 - 433.44] anymore uh in fact if machine if and
+
+[430.919 - 435.29999999999995] when machines surpass humans on these
+
+[433.44 - 437.94] four criteria better faster cheaper and
+
+[435.3 - 441.18] safer it would be unethical to have
+
+[437.94 - 443.94] humans doing some jobs for instance once
+
+[441.18 - 446.58] truck uh once uh once all driving uh
+
+[443.94 - 449.46] cars trucks taxi buses once all driving
+
+[446.58 - 452.34] is done safer by a machine it would
+
+[449.46 - 454.919] actually probably be illegal or should
+
+[452.34 - 456.9] be illegal for humans to drive because
+
+[454.919 - 459.12] if machines are a hundred times safer
+
+[456.9 - 462.84] than human drivers you wouldn't allow
+
+[459.12 - 465.3] people to do that likewise if uh you
+
+[462.84 - 468.29999999999995] know AI powered hospitals and robots and
+
+[465.3 - 470.099] and robot doctors achieve you know
+
+[468.3 - 471.90000000000003] better results 10 times better results
+
+[470.099 - 474.24] than human doctors and Physicians and
+
+[471.9 - 476.099] surgeons you wouldn't want to be treated
+
+[474.24 - 478.38] by a human anymore
+
+[476.099 - 480.71999999999997] and so this is one thing that I want to
+
+[478.38 - 482.699] point out is that as machines become
+
+[480.72 - 484.97900000000004] better faster cheaper and safer than
+
+[482.699 - 486.66] humans it is not ethical to uh keep
+
+[484.979 - 488.34] humans in the loop
+
+[486.66 - 491.34000000000003] um not the least of which next is
+
+[488.34 - 493.08] inefficiency by insisting on keeping
+
+[491.34 - 496.85999999999996] humans in the loop you are creating
+
+[493.08 - 498.35999999999996] unnecessary bottlenecks uh not only are
+
+[496.86 - 500.099] not only that you're artificially
+
+[498.36 - 502.139] inflating the cost of goods and services
+
+[500.099 - 503.759] what we should be doing instead is
+
+[502.139 - 506.22] working on getting humans out of the
+
+[503.759 - 509.58000000000004] loop so that these these high-speed
+
+[506.22 - 512.88] low-cost high efficiency machines can do
+
+[509.58 - 515.3389999999999] more labor without human constraints and
+
+[512.88 - 517.38] then again with safety concerns and
+
+[515.339 - 518.82] competitive disadvantages if your
+
+[517.38 - 520.62] competitors are doing it if your
+
+[518.82 - 522.779] competitors are are reaching for AI
+
+[520.62 - 524.82] tools that are better faster cheaper and
+
+[522.779 - 526.14] safer and you're not guess who's going
+
+[524.82 - 529.0400000000001] to be in business this time next year
+
+[526.14 - 531.959] and guess who isn't so this is my Spiel
+
+[529.04 - 534.18] better faster cheaper safer I hope you
+
+[531.959 - 535.8599999999999] like this video nice and short and sweet
+
+[534.18 - 538.64] and to the point have a good one thanks
+
+[535.86 - 538.64] for watching

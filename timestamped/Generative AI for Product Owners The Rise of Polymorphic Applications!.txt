@@ -1,0 +1,1843 @@
+[0.12 - 4.08] morning everybody David Shapiro here
+
+[2.04 - 6.48] with another video so today's video is
+
+[4.08 - 9.42] about generative AI for product owners
+
+[6.48 - 12.059000000000001] some design principles some stories and
+
+[9.42 - 14.4] some new paradigms that you can use if
+
+[12.059 - 16.919999999999998] you're new to generative Ai and you are
+
+[14.4 - 19.44] a product owner who has been tasked with
+
+[16.92 - 21.98] developing these kinds of products
+
+[19.44 - 24.42] okay so what to expect in this video
+
+[21.98 - 28.199] first we're just going to go over some
+
+[24.42 - 30.119] stories I am a consultant and a former
+
+[28.199 - 32.759] I.T professional so I've got quite a bit
+
+[30.119 - 34.92] of experience in this in this space both
+
+[32.759 - 37.04] working with agile and scrum teams
+
+[34.92 - 39.660000000000004] working as an automation engineer
+
+[37.04 - 42.12] sitting in on product meetings that sort
+
+[39.66 - 44.239] of thing there's also some general
+
+[42.12 - 46.919999999999995] principles that I'm going to share
+
+[44.239 - 49.5] that basically kind of the principles
+
+[46.92 - 51.899] that I operate by when I am working with
+
+[49.5 - 53.519999999999996] people to design a generative AI based
+
+[51.899 - 55.199] products and then finally we'll go over
+
+[53.52 - 56.82] some of the new paradigms the new ways
+
+[55.199 - 58.079] to think about this stuff to take it to
+
+[56.82 - 60.239] the next level
+
+[58.079 - 61.62] all right so Story number one
+
+[60.239 - 63.12] for those of you that have been
+
+[61.62 - 65.7] following me for a long time you might
+
+[63.12 - 67.979] remember my auto Muse project so the
+
+[65.7 - 69.72] idea was I am a fiction writer that's
+
+[67.979 - 72.53999999999999] where I met my wife was at a Sci-Fi
+
+[69.72 - 74.64] writing group so this is something that
+
+[72.54 - 77.10000000000001] is just really important to me so I took
+
+[74.64 - 80.159] my expertise in Automation and
+
+[77.1 - 83.15899999999999] generative Ai and I combined it with my
+
+[80.159 - 87.42] uh writing uh my love of fiction writing
+
+[83.159 - 89.22] and feedback and so the uh the the long
+
+[87.42 - 90.659] story short is that well there's
+
+[89.22 - 93.36] actually kind of a few parts of the
+
+[90.659 - 95.4] story until we got the most recent uh
+
+[93.36 - 97.259] models the ones with 8 000 tokens and
+
+[95.4 - 100.32000000000001] more uh there was a lot of things that
+
+[97.259 - 102.36] were just not possible and no matter
+
+[100.32 - 105.479] what I tried to do to try and force some
+
+[102.36 - 107.88] of the tasks into a 2000 token window or
+
+[105.479 - 109.979] a 4000 token window and so if you're not
+
+[107.88 - 111.96] familiar with this the context window or
+
+[109.979 - 113.88] the token window is the amount of text
+
+[111.96 - 116.33999999999999] that the model can ingest at any one
+
+[113.88 - 117.96] time and so until recently it was
+
+[116.34 - 120.60000000000001] relatively small you're limited to just
+
+[117.96 - 122.82] a couple Pages worth of text which in in
+
+[120.6 - 125.399] terms of fiction is not not enough it's
+
+[122.82 - 127.979] just not enough to do the task
+
+[125.399 - 131.039] and so once I got access to larger and
+
+[127.979 - 133.56] larger models I was able to do more and
+
+[131.039 - 135.11999999999998] more things and and some things that
+
+[133.56 - 136.14000000000001] seemed impossible were suddenly very
+
+[135.12 - 138.72] easy
+
+[136.14 - 141.05999999999997] now one of the main takeaways here is
+
+[138.72 - 143.94] that I had subject matter expertise in
+
+[141.06 - 146.459] both writing and editing and revising
+
+[143.94 - 149.04] works of fiction as well as generative
+
+[146.459 - 152.28] Ai and so by bringing that dual
+
+[149.04 - 154.98] expertise to bear in the same mind uh I
+
+[152.28 - 158.4] was able to generate very powerful tools
+
+[154.98 - 160.56] uh now obviously you can't expect your
+
+[158.4 - 162.54] engineers or your prompt Engineers to
+
+[160.56 - 164.81900000000002] also be experts in whatever subject
+
+[162.54 - 166.85999999999999] matter or domain they're operating in so
+
+[164.819 - 169.67999999999998] this underscores the point the the
+
+[166.86 - 171.48000000000002] importance of having the right people on
+
+[169.68 - 174.36] the team you need subject matter experts
+
+[171.48 - 176.51899999999998] and you need expert prompt engineers at
+
+[174.36 - 179.16000000000003] the very least and this is why I knew
+
+[176.519 - 182.87900000000002] exactly what uh questions to ask
+
+[179.16 - 185.879] the model and so to talk about the value
+
+[182.879 - 187.739] of this and this is really important the
+
+[185.879 - 189.66] first time I went to an editor it was a
+
+[187.739 - 191.64000000000001] seventeen hundred dollar uh
+
+[189.66 - 192.599] developmental edit and it took two
+
+[191.64 - 195.29999999999998] months
+
+[192.599 - 197.57999999999998] once I was able to build these tools I
+
+[195.3 - 200.94] was able to get the same quality of edit
+
+[197.58 - 202.68] back and it cost about 17 instead of
+
+[200.94 - 205.379] Seventeen hundred so that's a hundred X
+
+[202.68 - 206.94] reduction in cost and then instead of
+
+[205.379 - 211.01899999999998] two months it took 30 minutes so that's
+
+[206.94 - 214.019] about a 3 000 X reduction in time
+
+[211.019 - 216.3] and so when you look at those from a
+
+[214.019 - 219.18] business perspective the value prop is
+
+[216.3 - 221.4] obvious you reduce time you reduce cost
+
+[219.18 - 223.68] and we're going to unpack a little bit
+
+[221.4 - 225.36] more about how to go about those how to
+
+[223.68 - 227.64000000000001] how do you how do you focus on that how
+
+[225.36 - 229.5] do you find the tasks uh that that
+
+[227.64 - 231.35999999999999] achieve this
+
+[229.5 - 233.459] Story number two
+
+[231.36 - 235.14000000000001] um so several of my clients have been
+
+[233.459 - 237.239] lawyers I have a few friends that are
+
+[235.14 - 240.659] lawyers uh that are all interested in
+
+[237.239 - 241.92000000000002] generative Ai and so in this case uh
+
+[240.659 - 244.44] this is not something that I have
+
+[241.92 - 246.78] subject matter expertise in and so I had
+
+[244.44 - 250.019] to get good at talking to subject matter
+
+[246.78 - 253.379] experts and so it basically comes down
+
+[250.019 - 255.06] to what information do you need and what
+
+[253.379 - 257.519] output do you have and then what
+
+[255.06 - 258.84] cognitive operations you do to you do
+
+[257.519 - 260.699] with that information
+
+[258.84 - 262.5] so one of the most important questions
+
+[260.699 - 264.72] when when talking to a subject matter
+
+[262.5 - 267.24] expert in terms of how do you use
+
+[264.72 - 270.41900000000004] generative AI first you start with the
+
+[267.24 - 272.58] output start with the output first so in
+
+[270.419 - 276.29999999999995] the case of a scientist their output
+
+[272.58 - 279.0] will be a scientific paper or or a grant
+
+[276.3 - 280.62] proposal or if it's a lawyer that it
+
+[279.0 - 282.479] might be some kind of filing they might
+
+[280.62 - 285.3] be trying to file a motion to dismiss
+
+[282.479 - 288.12] they might be trying to file a patent or
+
+[285.3 - 289.68] whatever right all kinds of stuff so you
+
+[288.12 - 292.32] start with the output and you work
+
+[289.68 - 294.36] backwards you say what information goes
+
+[292.32 - 296.699] into this and where do you get that
+
+[294.36 - 298.68] information and then once you have that
+
+[296.699 - 300.66] information how do you or even before
+
+[298.68 - 302.52] you get that information what mental
+
+[300.66 - 303.54] processes do you go to find that
+
+[302.52 - 305.0] information
+
+[303.54 - 307.139] and then once you have that information
+
+[305.0 - 310.08] how do you interpret that information
+
+[307.139 - 311.94] and how do you use it and so by by
+
+[310.08 - 314.4] understanding the workflow by starting
+
+[311.94 - 316.44] at the end and working backwards how do
+
+[314.4 - 319.44] you address this problem you can
+
+[316.44 - 322.86] generally work out uh you know a
+
+[319.44 - 325.68] workflow right a formalized workflow uh
+
+[322.86 - 328.97900000000004] with a few decision points and then a
+
+[325.68 - 331.5] few uh you know checkpoints as well as
+
+[328.979 - 334.86] you know reaching for external sources
+
+[331.5 - 338.34] and so on and so forth and so the thing
+
+[334.86 - 340.97900000000004] is is that many professionals uh have
+
+[338.34 - 343.13899999999995] have kind of an an intuition for their
+
+[340.979 - 345.199] workflow and it can be difficult because
+
+[343.139 - 348.0] they don't necessarily think in terms of
+
+[345.199 - 351.24] procedures and protocols in many cases
+
+[348.0 - 353.34] uh they do write Engineers Architects
+
+[351.24 - 356.039] there are some things that are very very
+
+[353.34 - 358.5] highly proceduralized but getting
+
+[356.039 - 359.94] someone to articulate that takes a lot
+
+[358.5 - 361.56] of back and forth and you can't just ask
+
+[359.94 - 364.38] them hey tell me what your procedure is
+
+[361.56 - 366.96] you have to be thinking about okay what
+
+[364.38 - 370.199] is the output and how do we get there
+
+[366.96 - 372.65999999999997] Story number three uh 500 productivity
+
+[370.199 - 375.0] increase this isn't just me there was a
+
+[372.66 - 377.22] study by MIT that showed that uh some
+
+[375.0 - 380.58] developers uh have a productivity output
+
+[377.22 - 383.699] uh increase of 500 percent uh when they
+
+[380.58 - 385.8] started using uh generative AI I have
+
+[383.699 - 387.41900000000004] certainly seen at least that in terms of
+
+[385.8 - 389.759] the videos that I'm able to produce
+
+[387.419 - 391.68] because guess what I use generative AI
+
+[389.759 - 394.259] to help brainstorm and write these
+
+[391.68 - 396.12] videos it's not good at creating the
+
+[394.259 - 397.8] videos it gives you very generic
+
+[396.12 - 399.96] recommendations and I have not been able
+
+[397.8 - 402.18] to figure out how to get it to like
+
+[399.96 - 404.21999999999997] actually figure out what to do next I I
+
+[402.18 - 406.979] have to use my my experience and
+
+[404.22 - 409.86] intuition there but once I have a topic
+
+[406.979 - 411.3] it is absolutely critical in helping me
+
+[409.86 - 412.319] think through that topic very very
+
+[411.3 - 414.72] quickly
+
+[412.319 - 416.52000000000004] uh and then another aspect of this is
+
+[414.72 - 420.3] that productivity is not just the hard
+
+[416.52 - 421.979] outputs uh I have used generative AI to
+
+[420.3 - 423.6] be a better leader to be a better person
+
+[421.979 - 426.12] to be a better husband to be a better
+
+[423.6 - 428.819] friend and so when you look at the the
+
+[426.12 - 431.88] external work activity that's one thing
+
+[428.819 - 435.06] but then when you look at yourself as an
+
+[431.88 - 437.15999999999997] agent uh or a you know as a person with
+
+[435.06 - 439.199] virtues and you say what are the virtues
+
+[437.16 - 441.47900000000004] that I can develop
+
+[439.199 - 443.28000000000003] one really critical thing is that the
+
+[441.479 - 445.979] best AI products out there are going to
+
+[443.28 - 448.02] help you be a better person as well not
+
+[445.979 - 450.419] just more productive but be happier
+
+[448.02 - 452.28] healthier Kinder more empathetic and
+
+[450.419 - 453.71999999999997] that sort of thing and this is one of
+
+[452.28 - 454.979] the things that that generative AI
+
+[453.72 - 457.08000000000004] really helps is that it can help with
+
+[454.979 - 460.08] those soft skills and those intangibles
+
+[457.08 - 461.34] like trust and respect uh and I'm not
+
+[460.08 - 463.02] saying it's it's obviously not
+
+[461.34 - 465.06] appropriate to weave that into every
+
+[463.02 - 467.46] product but the fact that there are
+
+[465.06 - 469.56] plenty of people working on making a
+
+[467.46 - 473.29999999999995] generative AI products for things like
+
+[469.56 - 475.74] coaching executive leadership assistance
+
+[473.3 - 478.74] writing better emails right you know
+
+[475.74 - 480.3] marketing Outreach imbuing empathy and
+
+[478.74 - 481.68] that sort of stuff is actually really
+
+[480.3 - 483.3] critical and there are some stories out
+
+[481.68 - 486.3] there that I've read on Twitter and
+
+[483.3 - 488.52000000000004] Reddit and other places where and I've
+
+[486.3 - 490.979] noticed this for myself as well that
+
+[488.52 - 493.25899999999996] interacting with chat GPT for the last
+
+[490.979 - 495.78] six months has actually won taught me to
+
+[493.259 - 497.819] be a a better writer but also to think
+
+[495.78 - 500.28] more clearly about what I'm trying to
+
+[497.819 - 501.78000000000003] write and also this State of Mind of the
+
+[500.28 - 504.0] person that I'm trying to communicate
+
+[501.78 - 505.67999999999995] with so for instance
+
+[504.0 - 507.72] I mentioned this in another video
+
+[505.68 - 510.84000000000003] recently but I it's a story worth
+
+[507.72 - 512.4590000000001] repeating is that you know the AI is
+
+[510.84 - 514.38] doing the best that it can and sometimes
+
+[512.459 - 516.779] you get frustrated with it and and what
+
+[514.38 - 519.0] I realized is that if it senses any
+
+[516.779 - 521.219] level of frustration
+
+[519.0 - 523.56] um then it ends up getting more bogged
+
+[521.219 - 526.0200000000001] down trying to assuage your frustration
+
+[523.56 - 529.3199999999999] and placate you rather than just
+
+[526.02 - 531.36] focusing on the task at hand and so even
+
+[529.32 - 533.88] if it gets something flat wrong rather
+
+[531.36 - 536.22] than say that's not what I wanted all I
+
+[533.88 - 538.68] say is thanks that's a good start
+
+[536.22 - 540.9590000000001] and when you and just changing that word
+
+[538.68 - 542.8199999999999] just saying because it's implied things
+
+[540.959 - 544.26] that's a good start let's go this other
+
+[542.82 - 545.7] way it's like okay cool let's change
+
+[544.26 - 547.74] direction but if you say that's not what
+
+[545.7 - 549.72] I want it'll get bogged down in
+
+[547.74 - 552.36] apologizing and this is no different
+
+[549.72 - 553.9200000000001] from humans if you tell a human directly
+
+[552.36 - 555.98] that's not what I was looking for it's
+
+[553.92 - 559.68] like oh crap I've done something wrong
+
+[555.98 - 561.899] and so in the same respect chat GPT has
+
+[559.68 - 564.0] taught me to uh be a little bit gentler
+
+[561.899 - 566.16] with my feedback and also you know my
+
+[564.0 - 567.72] wife did the same thing too but it's
+
+[566.16 - 570.7199999999999] good practice
+
+[567.72 - 573.1800000000001] and so the the point here is that
+
+[570.72 - 576.48] productivity increases are a lot more
+
+[573.18 - 579.5999999999999] than just the work output it is looking
+
+[576.48 - 582.48] at yourself as an agent uh or or a
+
+[579.6 - 585.1800000000001] person with virtues uh Story number four
+
+[582.48 - 588.3000000000001] rapid adoption by a librarian so my wife
+
+[585.18 - 590.3389999999999] is a librarian turned a product owner
+
+[588.3 - 593.06] and we'll talk more about that later but
+
+[590.339 - 595.86] she did her master's thesis with gpt3
+
+[593.06 - 598.9799999999999] and so one thing that I wanted to point
+
+[595.86 - 601.38] out is that she and her advisor took to
+
+[598.98 - 603.72] gpt3 and this is way before chat GPT by
+
+[601.38 - 605.88] the way they took to it like a duck to
+
+[603.72 - 607.6800000000001] water and what I mean by that is that
+
+[605.88 - 609.72] the the the
+
+[607.68 - 612.18] um the training that Librarians have in
+
+[609.72 - 614.76] particular or anyone with a master of
+
+[612.18 - 617.88] information science or master of Library
+
+[614.76 - 620.22] science the training that they have to
+
+[617.88 - 621.66] understand information in all of its
+
+[620.22 - 624.72] various forms whether it's a book
+
+[621.66 - 625.98] whether it's a paper whether it's a web
+
+[624.72 - 626.5400000000001] page
+
+[625.98 - 628.98] um
+
+[626.54 - 630.779] understanding that information and how
+
+[628.98 - 633.48] people find information and how people
+
+[630.779 - 636.06] use information those skills that
+
+[633.48 - 638.76] education is actually incredibly useful
+
+[636.06 - 641.459] when working with generative AI
+
+[638.76 - 644.519] and so people like Librarians writers
+
+[641.459 - 646.26] philosophers digital Humanities these
+
+[644.519 - 648.839] folks have a very very powerful
+
+[646.26 - 650.8199999999999] intuition when it comes to interacting
+
+[648.839 - 652.98] with language models I remember she told
+
+[650.82 - 655.019] me the story about how she showed her
+
+[652.98 - 657.0600000000001] advisor gpt3 for the first time and he's
+
+[655.019 - 658.8] like oh cool can I do this and just
+
+[657.06 - 661.7399999999999] after futzing around with it for a few
+
+[658.8 - 664.26] minutes uh they realized like yes this
+
+[661.74 - 667.6800000000001] this tool can absolutely instantly help
+
+[664.26 - 670.62] librarianship uh and so then she her her
+
+[667.68 - 673.3199999999999] master's uh thesis topic was approved
+
+[670.62 - 675.72] she wrote it and she got she was one of
+
+[673.32 - 678.3000000000001] the top in her program and you know her
+
+[675.72 - 680.64] thesis has been inducted into their
+
+[678.3 - 683.0] library of you know important Master's
+
+[680.64 - 685.68] thesis theses
+
+[683.0 - 687.54] so the key takeaway here is that
+
+[685.68 - 689.2199999999999] language and communication and
+
+[687.54 - 691.92] information science should be core
+
+[689.22 - 693.5400000000001] competencies in your teams these are not
+
+[691.92 - 696.42] necessarily people who are developers
+
+[693.54 - 698.16] they might they they might be more on
+
+[696.42 - 700.4399999999999] the internet side they may be more on
+
+[698.16 - 702.54] the SEO side they might be they might
+
+[700.44 - 704.7] just be linguists they might be writers
+
+[702.54 - 707.279] uh that sort of thing
+
+[704.7 - 710.0400000000001] and so there's a another story within
+
+[707.279 - 712.86] this is uh about I don't know eight
+
+[710.04 - 714.54] eight months ago now or so I was on a
+
+[712.86 - 717.24] call with a founder
+
+[714.54 - 719.2199999999999] and I asked him what kinds of people he
+
+[717.24 - 721.86] wanted to hire and this is a a tech
+
+[719.22 - 724.26] startup founder and he said that he
+
+[721.86 - 729.48] wanted to hire more quote core ml people
+
+[724.26 - 731.279] and I said why did does do machine
+
+[729.48 - 733.98] learning engineers and and data
+
+[731.279 - 735.8389999999999] scientists understand language no and so
+
+[733.98 - 738.24] he looked at me like two heads when I he
+
+[735.839 - 740.2790000000001] looked at me like I had two heads when I
+
+[738.24 - 741.779] said you know maybe you should hire
+
+[740.279 - 744.899] people that are that actually know
+
+[741.779 - 747.06] language and but the within the tech
+
+[744.899 - 749.7] industry there is this this this view
+
+[747.06 - 751.14] this like oh Poo Poo like you know if
+
+[749.7 - 752.5790000000001] you're not an engineer if you're not a
+
+[751.14 - 755.279] developer then you just don't know
+
+[752.579 - 759.18] anything useful and I will say that that
+
+[755.279 - 761.04] is a very harmful and false idea to have
+
+[759.18 - 762.2399999999999] and I am here to disabuse you of that
+
+[761.04 - 763.74] notion
+
+[762.24 - 765.72] um and I will say that yes you should
+
+[763.74 - 767.639] hire Humanities people because they have
+
+[765.72 - 771.62] a much much stronger grasp of language
+
+[767.639 - 774.0] than your engineers do when I have seen
+
+[771.62 - 775.68] put it this way some of the prompts that
+
+[774.0 - 780.36] I have seen scientists and Engineers
+
+[775.68 - 784.1999999999999] right are completely incoherent
+
+[780.36 - 787.139] um yeah written written communication is
+
+[784.2 - 789.6] 100 a core competency
+
+[787.139 - 790.86] uh so Story number five the reflective
+
+[789.6 - 792.779] journaling tool that I built so if
+
+[790.86 - 795.839] you're not familiar with this uh I I
+
+[792.779 - 798.8389999999999] built a chat bot uh version of chat B
+
+[795.839 - 801.36] chat GPT or uses chat beat chat GPT is
+
+[798.839 - 804.72] the back end and the idea was that it
+
+[801.36 - 806.82] was a reflective journaling tool and the
+
+[804.72 - 809.639] the idea here was to create something
+
+[806.82 - 812.7] that could help me work through anything
+
+[809.639 - 816.24] emotional anything uh stressful or
+
+[812.7 - 817.74] whatever uh and so it's it's for mental
+
+[816.24 - 818.88] health but not in a professional
+
+[817.74 - 820.86] capacity
+
+[818.88 - 823.38] but what I realized when I made this is
+
+[820.86 - 824.7] I don't want any of this to be logged
+
+[823.38 - 828.06] ever
+
+[824.7 - 829.44] and so in order to trust the tool I made
+
+[828.06 - 831.899] sure that it does not log any
+
+[829.44 - 834.4200000000001] conversations anywhere
+
+[831.899 - 836.459] and so one thing to keep in mind
+
+[834.42 - 838.1999999999999] especially as you're building these
+
+[836.459 - 841.26] tools that are able to engage with
+
+[838.2 - 843.72] people on an emotional level that is
+
+[841.26 - 846.3] able to engage with them on places where
+
+[843.72 - 848.1600000000001] they're vulnerable uh
+
+[846.3 - 850.9799999999999] trust is going to be really really
+
+[848.16 - 853.98] important important and Trust once it's
+
+[850.98 - 855.0600000000001] lost is pretty difficult to get back and
+
+[853.98 - 857.82] so
+
+[855.06 - 861.18] uh these these high-risk domains whether
+
+[857.82 - 863.399] it's relationships emotions uh you know
+
+[861.18 - 865.92] I know people that are working on uh
+
+[863.399 - 869.7] grief counseling tools uh that sort of
+
+[865.92 - 872.3389999999999] thing so these are these are you know AI
+
+[869.7 - 875.5790000000001] tools that are going to touch people on
+
+[872.339 - 879.6800000000001] a on a very critical level and so uh
+
+[875.579 - 882.06] respecting their privacy is 100
+
+[879.68 - 884.459] Paramount and I know that you know
+
+[882.06 - 886.68] businesses say you know data is the new
+
+[884.459 - 888.3] oil we need to consume this data
+
+[886.68 - 890.9399999999999] you know
+
+[888.3 - 892.079] because all of the training happening on
+
+[890.94 - 894.48] the back end
+
+[892.079 - 896.3389999999999] I actually don't necessarily believe
+
+[894.48 - 898.62] that and so what I mean by that is that
+
+[896.339 - 902.4590000000001] all the providers of the language models
+
+[898.62 - 905.22] open AI Microsoft Google Amazon uh and
+
+[902.459 - 907.5] everyone else uh cohere they are doing
+
+[905.22 - 909.4200000000001] plenty of training on the back end you
+
+[907.5 - 910.8] don't necessarily need to collect your
+
+[909.42 - 913.079] user data
+
+[910.8 - 915.18] and of course if the data doesn't exist
+
+[913.079 - 919.079] anywhere it can't be stolen and it can't
+
+[915.18 - 921.66] be compromised and so I just want to
+
+[919.079 - 923.2199999999999] point that out as a possibility one of
+
+[921.66 - 926.699] the reasons that I actually haven't
+
+[923.22 - 928.5600000000001] deployed a uh an AI assistant in my own
+
+[926.699 - 931.079] home that's constantly listening is
+
+[928.56 - 933.5999999999999] because I haven't fully figured out what
+
+[931.079 - 935.88] to do like how do I give my personal
+
+[933.6 - 937.6800000000001] assistant a long-term memory but also
+
+[935.88 - 940.199] keep it safe and secure and keep it
+
+[937.68 - 941.9399999999999] private because you know that is
+
+[940.199 - 944.279] something that if you don't do it right
+
+[941.94 - 947.519] it could just happily share accidentally
+
+[944.279 - 950.16] or deliberately share private damaging
+
+[947.519 - 951.72] harmful or embarrassing information with
+
+[950.16 - 954.7199999999999] other visitors or put it on the Internet
+
+[951.72 - 957.12] or whatever and so the the safest thing
+
+[954.72 - 958.5] is is the bomb that doesn't exist right
+
+[957.12 - 961.68] because if a bomb is sitting there it
+
+[958.5 - 963.12] might go off likewise if you have a
+
+[961.68 - 964.56] highly sensitive critical personal
+
+[963.12 - 966.6] information that's just sitting there
+
+[964.56 - 969.1199999999999] waiting to be stolen or waiting to be
+
+[966.6 - 971.339] leaked then maybe that information just
+
+[969.12 - 974.579] shouldn't exist in the first place
+
+[971.339 - 976.2600000000001] okay so those are some stories what are
+
+[974.579 - 979.4399999999999] the general principles that I have
+
+[976.26 - 981.72] extracted from both using these tools
+
+[979.44 - 983.7600000000001] building these tools and Consulting with
+
+[981.72 - 987.839] other people building these tools number
+
+[983.76 - 992.459] one is thinking about cognitive labor
+
+[987.839 - 995.639] so large language models provide you a
+
+[992.459 - 998.459] type of cognitive Computing and so this
+
+[995.639 - 1001.22] is uh cognition this is mental tasks
+
+[998.459 - 1002.899] mental effort and what you have to do is
+
+[1001.22 - 1004.4590000000001] you have to have many conversations with
+
+[1002.899 - 1006.32] subject matter experts in order to
+
+[1004.459 - 1008.3599999999999] understand what they do what they need
+
+[1006.32 - 1011.5400000000001] and most importantly how they mentally
+
+[1008.36 - 1013.6990000000001] go about their jobs and so in the past
+
+[1011.54 - 1015.68] software development was about building
+
+[1013.699 - 1018.62] a tool that was kind of a part and
+
+[1015.68 - 1020.42] separate from your users and then you
+
+[1018.62 - 1022.579] know then you have an expert that could
+
+[1020.42 - 1024.079] come use the tool the thing is though is
+
+[1022.579 - 1025.819] that these tools are getting smarter and
+
+[1024.079 - 1028.28] the tools are now capable of cognitive
+
+[1025.819 - 1030.199] labor so you need to actually get into
+
+[1028.28 - 1032.4189999999999] the mind of the subject matter experts
+
+[1030.199 - 1034.64] in order to perform some cognitive
+
+[1032.419 - 1035.7800000000002] offload which we'll talk about right
+
+[1034.64 - 1038.66] here
+
+[1035.78 - 1040.939] so to take it one step further cognitive
+
+[1038.66 - 1043.4] offload is one of the best signals that
+
+[1040.939 - 1045.8600000000001] you can do in order to make the most
+
+[1043.4 - 1048.679] valuable apps so remember how I talked
+
+[1045.86 - 1051.799] about I created an App for providing
+
+[1048.679 - 1053.66] feedback for my fiction that instead of
+
+[1051.799 - 1055.7] two months it took 30 minutes and
+
+[1053.66 - 1057.559] instead of Seventeen hundred dollars it
+
+[1055.7 - 1060.26] took Seventeen dollars
+
+[1057.559 - 1062.4189999999999] that is the the reason that that worked
+
+[1060.26 - 1064.64] is because I performed cognitive offload
+
+[1062.419 - 1066.44] I no longer needed a professional Editor
+
+[1064.64 - 1067.94] to provide that feedback I now had the
+
+[1066.44 - 1070.16] machine provide that feedback so that's
+
+[1067.94 - 1071.72] what I mean by cognitive offload so
+
+[1070.16 - 1074.1200000000001] here's a few principles that you can
+
+[1071.72 - 1075.38] think about when designing cognitive
+
+[1074.12 - 1078.799] offload
+
+[1075.38 - 1080.8400000000001] one user attention is scarce you your
+
+[1078.799 - 1083.66] user's brain juice is limited you've got
+
+[1080.84 - 1086.539] two to four hours maximum of high
+
+[1083.66 - 1089.1200000000001] quality executive function per day some
+
+[1086.539 - 1090.62] of us have more uh but we are the
+
+[1089.12 - 1093.4399999999998] exception not the rule and we also can't
+
+[1090.62 - 1095.8999999999999] do it every day decision fatigue is real
+
+[1093.44 - 1098.179] deciding what to do next where do I get
+
+[1095.9 - 1100.64] that information from if you can just
+
+[1098.179 - 1102.0800000000002] serve up if you can Intuit use the
+
+[1100.64 - 1104.419] language models to figure out what
+
+[1102.08 - 1106.1] information the user needs and just give
+
+[1104.419 - 1108.2] it to them without them having to even
+
+[1106.1 - 1110.6] think think about it before they even
+
+[1108.2 - 1112.1000000000001] realize they need it that will save them
+
+[1110.6 - 1114.26] some cognitive energy and that is
+
+[1112.1 - 1117.08] cognitive offload tedious problem
+
+[1114.26 - 1119.539] solving whether it's anticipating how
+
+[1117.08 - 1122.24] something's going to be received or
+
+[1119.539 - 1124.94] brainstorming or whatever right like I
+
+[1122.24 - 1126.919] use I I perform a tremendous amount of
+
+[1124.94 - 1128.66] cognitive offload when I'm making my
+
+[1126.919 - 1131.96] slide decks here
+
+[1128.66 - 1134.419] it's very tedious and it is also very
+
+[1131.96 - 1136.76] draining and by offloading as much as I
+
+[1134.419 - 1139.46] can to the model uh that makes my life
+
+[1136.76 - 1142.58] much easier and it increases my output a
+
+[1139.46 - 1144.74] lot and then finally basically whatever
+
+[1142.58 - 1147.02] takes mental effort whatever takes that
+
+[1144.74 - 1149.419] cognitive labor that mental effort if
+
+[1147.02 - 1151.82] you can delegate it to the llm to the
+
+[1149.419 - 1153.6200000000001] language model do it and that is how you
+
+[1151.82 - 1155.36] will create apps that just sell
+
+[1153.62 - 1156.3799999999999] themselves because they are so much
+
+[1155.36 - 1158.9599999999998] better
+
+[1156.38 - 1160.7] principle number three loose coupling so
+
+[1158.96 - 1162.799] brief history lesson
+
+[1160.7 - 1166.039] uh this Russian dude way back in the day
+
+[1162.799 - 1169.22] named Kalashnikov designed a gun the
+
+[1166.039 - 1172.36] AK-47 and what he did was rather than
+
+[1169.22 - 1176.24] designing a high Precision you know
+
+[1172.36 - 1179.4799999999998] like perfectly you know low tolerance
+
+[1176.24 - 1182.059] you know machine he said why don't we
+
+[1179.48 - 1183.74] design something that is uh that
+
+[1182.059 - 1185.96] everything has a lot of space everything
+
+[1183.74 - 1187.88] is Loosely coupled and so that it will
+
+[1185.96 - 1191.66] have a lot of tolerance for things like
+
+[1187.88 - 1194.2990000000002] dirt or broken cartridges or even bent
+
+[1191.66 - 1195.799] parts right it can even tolerate damage
+
+[1194.299 - 1198.1399999999999] because everything is just kind of
+
+[1195.799 - 1200.0] loosely in there but you know the
+
+[1198.14 - 1202.1000000000001] interfaces where things work together
+
+[1200.0 - 1204.44] there's some tolerances built in there
+
+[1202.1 - 1206.9599999999998] and so the idea is that the the physical
+
+[1204.44 - 1210.3200000000002] design principles that Kalashnikov put
+
+[1206.96 - 1214.52] into the AK-47 make it an incredibly
+
+[1210.32 - 1215.6599999999999] durable legendarily reliable weapon now
+
+[1214.52 - 1219.1399999999999] likewise
+
+[1215.66 - 1220.52] generative AI brings software into more
+
+[1219.14 - 1223.5800000000002] direct friction with the real world
+
+[1220.52 - 1224.9] which is messy which has variables and
+
+[1223.58 - 1227.6599999999999] so what you need to do is you need to
+
+[1224.9 - 1228.919] adapt those loose tolerances into the
+
+[1227.66 - 1231.26] software components because natural
+
+[1228.919 - 1234.74] language is really squishy that's just
+
+[1231.26 - 1237.14] how it is so think about how you can
+
+[1234.74 - 1239.299] send instructions to a human via text or
+
+[1237.14 - 1241.76] via email and the human is able to
+
+[1239.299 - 1244.28] abstract those instructions and turn it
+
+[1241.76 - 1246.2] into real action that abstraction and
+
+[1244.28 - 1248.8999999999999] translation is how you need to think
+
+[1246.2 - 1250.7] about the interfaces between language
+
+[1248.9 - 1253.1000000000001] models and other machines or language
+
+[1250.7 - 1254.6000000000001] models and other language models when
+
+[1253.1 - 1257.48] you're transmitting instructions or
+
+[1254.6 - 1259.6999999999998] information between language models so
+
+[1257.48 - 1263.179] that loose coupling and that high level
+
+[1259.7 - 1266.179] of Tolerance is how you will build
+
+[1263.179 - 1269.299] language apps that are robust resilient
+
+[1266.179 - 1272.24] and uh and fault tolerant
+
+[1269.299 - 1273.9189999999999] principle number four English Mastery so
+
+[1272.24 - 1275.78] I already talked about this with with
+
+[1273.919 - 1277.22] the Librarians and philosophers and that
+
+[1275.78 - 1280.1] sort of stuff so I don't I probably
+
+[1277.22 - 1281.72] don't need to rehash this but keep in
+
+[1280.1 - 1283.2199999999998] mind the fact that many developers are
+
+[1281.72 - 1284.72] not the most articulate people that I'm
+
+[1283.22 - 1286.64] not saying that just because someone is
+
+[1284.72 - 1288.44] a developer or a technologist that
+
+[1286.64 - 1290.0] doesn't mean they are not articulate I
+
+[1288.44 - 1291.919] am a professional I.T guy and I'm
+
+[1290.0 - 1294.32] incredibly articulate but that's because
+
+[1291.919 - 1296.179] I studied language I studied the written
+
+[1294.32 - 1298.46] word and I studied stories
+
+[1296.179 - 1301.8200000000002] so your math experts might not be the
+
+[1298.46 - 1303.08] best communicators likewise
+
+[1301.82 - 1304.34] um you know some of your subject matter
+
+[1303.08 - 1307.3999999999999] experts might not be the best
+
+[1304.34 - 1309.1399999999999] communicators so having people that are
+
+[1307.4 - 1312.3200000000002] expert communicators or expert with
+
+[1309.14 - 1314.24] language will be a game changer for your
+
+[1312.32 - 1316.46] teams and as a product owner if if
+
+[1314.24 - 1317.9] you're a product owner watching this you
+
+[1316.46 - 1319.46] probably understand the value of
+
+[1317.9 - 1321.44] communication and your ability to
+
+[1319.46 - 1323.6000000000001] communicate is part of what holds the
+
+[1321.44 - 1325.8200000000002] team together and makes you great at
+
+[1323.6 - 1327.4399999999998] your job but that also means that you
+
+[1325.82 - 1329.48] need a good communicator someone who
+
+[1327.44 - 1331.46] understands written word
+
+[1329.48 - 1334.159] um or empathy or theory of mind or
+
+[1331.46 - 1337.3400000000001] whatever to help people communicate with
+
+[1334.159 - 1339.44] the models because people with with that
+
+[1337.34 - 1340.9399999999998] empathy that theory of Mind are going to
+
+[1339.44 - 1343.1000000000001] be able to Better Build a Better
+
+[1340.94 - 1345.6200000000001] intuition about the how what makes the
+
+[1343.1 - 1347.36] language model tick
+
+[1345.62 - 1349.82] uh principle number five how do you
+
+[1347.36 - 1351.799] measure success so I already earlier
+
+[1349.82 - 1353.299] told you that um you know some of the
+
+[1351.799 - 1356.96] things that you should aim for is at
+
+[1353.299 - 1358.52] least a 5x increase in productivity uh
+
+[1356.96 - 1361.3400000000001] you know you should see speed increases
+
+[1358.52 - 1364.4] on the order of 10x to 100x you should
+
+[1361.34 - 1366.5] see cost reduction you know 10x to 100x
+
+[1364.4 - 1369.2] ideally more you know the speed increase
+
+[1366.5 - 1371.24] that I got for my novel uh feedback is
+
+[1369.2 - 1373.64] 3000x which you're not going to get that
+
+[1371.24 - 1375.44] every time but hey you know time is
+
+[1373.64 - 1377.179] money and every little you know every
+
+[1375.44 - 1380.48] minute every hour every day that you can
+
+[1377.179 - 1382.52] shave off of uh of uh the time it takes
+
+[1380.48 - 1383.9] to complete a task the better your
+
+[1382.52 - 1385.94] product is going to sell the more value
+
+[1383.9 - 1388.76] add it's gonna it's gonna have
+
+[1385.94 - 1390.6200000000001] so the main point here is that human
+
+[1388.76 - 1394.64] brains here's how you measure it human
+
+[1390.62 - 1396.5] brains are optimizing engines we are all
+
+[1394.64 - 1398.7800000000002] intrinsically lazy
+
+[1396.5 - 1400.46] and the idea here is that your brain
+
+[1398.78 - 1404.1789999999999] will automatically choose the path of
+
+[1400.46 - 1407.659] least resistance part of that is which
+
+[1404.179 - 1409.52] option which tool which workflow am I
+
+[1407.659 - 1411.2600000000002] most familiar with right people will
+
+[1409.52 - 1414.679] always default to whatever their trains
+
+[1411.26 - 1416.9] do because it's mentally easier now if
+
+[1414.679 - 1418.88] the tool you build is mentally easy to
+
+[1416.9 - 1420.26] use and their brain says you know what
+
+[1418.88 - 1422.419] I'm just going to use this tool because
+
+[1420.26 - 1425.539] it's easier because it's quicker it's
+
+[1422.419 - 1427.22] easier I know that like it's just less
+
+[1425.539 - 1430.34] mentally laborious
+
+[1427.22 - 1432.8600000000001] and so when when the the AI tool that
+
+[1430.34 - 1435.5] you build is the optimal path it will
+
+[1432.86 - 1437.4189999999999] become the default choice so how do you
+
+[1435.5 - 1440.36] make that happen first you can make
+
+[1437.419 - 1442.039] drop-in tools so drop-in tools easily
+
+[1440.36 - 1444.32] integrate with existing workflows and
+
+[1442.039 - 1446.9] remember changing someone's workflow
+
+[1444.32 - 1448.76] that increases friction because why
+
+[1446.9 - 1450.44] that's not that's no longer the path of
+
+[1448.76 - 1453.14] path of least resistance
+
+[1450.44 - 1455.8400000000001] I remember I was at a small managed
+
+[1453.14 - 1458.1200000000001] services provider and people some people
+
+[1455.84 - 1461.299] use Microsoft teams some use slack some
+
+[1458.12 - 1463.8799999999999] use Skype it was all over the place and
+
+[1461.299 - 1465.98] I used Microsoft teams because it was
+
+[1463.88 - 1467.48] the best tool for the job but a lot of
+
+[1465.98 - 1469.76] people just wouldn't get on board
+
+[1467.48 - 1471.26] because it was a new tool they had so
+
+[1469.76 - 1473.12] much fatigue from keeping track of so
+
+[1471.26 - 1475.1589999999999] many tools and I'm like but guys like
+
+[1473.12 - 1477.62] this is the best tool for the job and so
+
+[1475.159 - 1479.2990000000002] even though it was a drop-in tool the
+
+[1477.62 - 1481.28] fact that it was a different tool there
+
+[1479.299 - 1483.98] was a lot of friction so the other thing
+
+[1481.28 - 1486.26] you can do is integrate language models
+
+[1483.98 - 1488.3600000000001] with existing tools to further reduce
+
+[1486.26 - 1490.58] friction and again perform that
+
+[1488.36 - 1492.9189999999999] cognitive offload
+
+[1490.58 - 1495.74] but also don't underestimate the value
+
+[1492.919 - 1497.96] of small tactical tools with very clear
+
+[1495.74 - 1500.72] affordances that drive Behavior to save
+
+[1497.96 - 1501.98] time and energy so for instance one of
+
+[1500.72 - 1503.419] the tools that I built you know I
+
+[1501.98 - 1504.919] already told you about the reflective
+
+[1503.419 - 1506.96] journaling tool which has a very very
+
+[1504.919 - 1508.419] specific kind of emotional thing like
+
+[1506.96 - 1510.74] hey help me talk through this thing
+
+[1508.419 - 1512.419] another tool that I built was a coding
+
+[1510.74 - 1514.76] tool where literally all I do is like
+
+[1512.419 - 1517.22] copy and paste some code or some data
+
+[1514.76 - 1519.44] and then it's a chat interface to help
+
+[1517.22 - 1522.2] me you know write code in a specific way
+
+[1519.44 - 1524.72] those tiny little tactical tools are
+
+[1522.2 - 1526.5800000000002] something that I can just call up when I
+
+[1524.72 - 1527.72] need them and they perform some work and
+
+[1526.58 - 1530.72] they're not integrated with anything
+
+[1527.72 - 1533.0] else so you might need integration you
+
+[1530.72 - 1536.1200000000001] might not but again don't underestimate
+
+[1533.0 - 1539.36] the value of really simple tools that
+
+[1536.12 - 1541.34] are brain dead easy to use
+
+[1539.36 - 1545.0] num principle number six factual
+
+[1541.34 - 1547.1589999999999] grounding so here's something to assume
+
+[1545.0 - 1549.559] is that the llm knows more than you do
+
+[1547.159 - 1551.659] it's not magic right you have to
+
+[1549.559 - 1554.0] understand what training data it had
+
+[1551.659 - 1556.7600000000002] which was you know most of these are you
+
+[1554.0 - 1559.64] know scraped from the internet
+
+[1556.76 - 1561.98] um a lot of people have the assumption
+
+[1559.64 - 1564.98] that like okay well I want it to be a
+
+[1561.98 - 1567.26] subject matter expert in topic X and I'm
+
+[1564.98 - 1569.419] like have you asked it I remember I was
+
+[1567.26 - 1573.14] on a call with um with some folks doing
+
+[1569.419 - 1575.2990000000002] SEO and they wanted to you know make
+
+[1573.14 - 1577.1000000000001] sure that it understood the SEO
+
+[1575.299 - 1578.48] principles that were published by some
+
+[1577.1 - 1581.12] Scandinavian country I don't remember
+
+[1578.48 - 1582.26] which one and they're like well how do
+
+[1581.12 - 1583.52] we teach it this I'm like it already
+
+[1582.26 - 1585.559] knows it and they're like what do you
+
+[1583.52 - 1587.6] mean and I was like just ask it ask the
+
+[1585.559 - 1589.1589999999999] model if it understands the SEO
+
+[1587.6 - 1591.02] principles from the document that you're
+
+[1589.159 - 1593.0590000000002] referring to that was these guidelines
+
+[1591.02 - 1595.22] that were published by your country and
+
+[1593.059 - 1596.48] they did and it's like oh it already
+
+[1595.22 - 1598.039] knows that so I was like just tell it
+
+[1596.48 - 1599.84] just tell it to abide by these
+
+[1598.039 - 1601.76] principles you don't need to you don't
+
+[1599.84 - 1603.559] need to teach it anything just give it a
+
+[1601.76 - 1604.82] name say abide by this print principle
+
+[1603.559 - 1606.559] and if it knows it great and if it
+
+[1604.82 - 1609.799] doesn't you just name it and you say you
+
+[1606.559 - 1611.6] know X Y and Z is an SEO principle uh
+
+[1609.799 - 1613.52] you know adopted by this nation and
+
+[1611.6 - 1616.1589999999999] here's the basic facts
+
+[1613.52 - 1617.72] and so the idea is you need a lot less
+
+[1616.159 - 1619.7600000000002] factual grounding than you think you
+
+[1617.72 - 1622.279] need in order to get the behavior out of
+
+[1619.76 - 1624.559] the model than than that you want so
+
+[1622.279 - 1627.14] just tiny little reminders of the truth
+
+[1624.559 - 1629.059] or the facts uh and the and just a few
+
+[1627.14 - 1631.1000000000001] breadcrumbs because remember it already
+
+[1629.059 - 1633.08] knows a lot of general knowledge which
+
+[1631.1 - 1635.539] means that it is able to rapidly
+
+[1633.08 - 1638.24] generalize to other things even if it's
+
+[1635.539 - 1639.98] never seen that term before uh this is
+
+[1638.24 - 1642.32] how I was able to teach it all of my
+
+[1639.98 - 1643.76] stuff like axiomatic alignment and
+
+[1642.32 - 1645.08] heuristic imperative so that's my
+
+[1643.76 - 1646.94] alignment research if you're not
+
+[1645.08 - 1649.22] familiar with that and so by just
+
+[1646.94 - 1650.539] quickly defining a term and saying this
+
+[1649.22 - 1652.64] is the term we're going to use this is
+
+[1650.539 - 1654.14] what it means it is then able to work
+
+[1652.64 - 1656.24] with that new thing and this is called
+
+[1654.14 - 1657.74] in context learning
+
+[1656.24 - 1659.6] um so I call it you know you can call it
+
+[1657.74 - 1661.159] factual grounding but from a scientific
+
+[1659.6 - 1662.6589999999999] perspective it's called in context
+
+[1661.159 - 1664.8200000000002] learning so you can teach it something
+
+[1662.659 - 1667.159] and it does not take much to teach it
+
+[1664.82 - 1668.6] and then it from there it can impute or
+
+[1667.159 - 1671.3600000000001] infer the rest
+
+[1668.6 - 1673.1589999999999] uh so that's principle number six okay
+
+[1671.36 - 1675.3799999999999] so we're winding down we're near the end
+
+[1673.159 - 1678.14] of the video the new paradigm you need
+
+[1675.38 - 1681.7990000000002] to think about is polymorphic apps
+
+[1678.14 - 1684.5590000000002] so in the past old school way of
+
+[1681.799 - 1686.6589999999999] thinking is you build the tool you build
+
+[1684.559 - 1688.58] the tool and it's got databases and it's
+
+[1686.659 - 1690.38] got web servers and app servers and
+
+[1688.58 - 1692.12] network gateways and load balancers and
+
+[1690.38 - 1693.919] that sort of thing
+
+[1692.12 - 1695.6589999999999] what were the Paradigm that we're
+
+[1693.919 - 1698.0590000000002] approaching is tools that build the
+
+[1695.659 - 1700.46] tools so instead of building tools you
+
+[1698.059 - 1702.3799999999999] build the tools to build the tools and
+
+[1700.46 - 1704.96] here's an example
+
+[1702.38 - 1707.779] uh procedurally generated video game
+
+[1704.96 - 1711.02] maps are nothing new uh Elite dangerous
+
+[1707.779 - 1712.82] and was it no man's sky and a whole
+
+[1711.02 - 1715.7] bunch of other stuff there's all kinds
+
+[1712.82 - 1717.9189999999999] of games where every planet you go to or
+
+[1715.7 - 1719.9] every new world you go to the landscape
+
+[1717.919 - 1723.98] is generated on the fly so that's really
+
+[1719.9 - 1726.44] cool but that of course brings in New
+
+[1723.98 - 1728.84] Challenges because rather than having uh
+
+[1726.44 - 1730.8200000000002] you know environment level level
+
+[1728.84 - 1732.26] designers you have to have people that
+
+[1730.82 - 1733.58] design the tools that build the levels
+
+[1732.26 - 1736.039] for you
+
+[1733.58 - 1738.9189999999999] and with generative AI what's coming
+
+[1736.039 - 1741.14] next is uh dialogue so rather than
+
+[1738.919 - 1742.64] having a writer manually write all the
+
+[1741.14 - 1745.5800000000002] dialogue in the game you have to have a
+
+[1742.64 - 1747.2] tool that writes the dialogue for you uh
+
+[1745.58 - 1748.9399999999998] so on and so forth so this is one
+
+[1747.2 - 1752.059] example that's actively happening right
+
+[1748.94 - 1754.039] now likewise you take this to a logical
+
+[1752.059 - 1757.3999999999999] extension and you start to create
+
+[1754.039 - 1759.32] polymorphic apps where the the user
+
+[1757.4 - 1761.299] interface might be dynamically generated
+
+[1759.32 - 1763.76] and it might adapt on the Fly based on
+
+[1761.299 - 1765.32] what the application is doing so this is
+
+[1763.76 - 1767.539] a tool that builds a tool so you have a
+
+[1765.32 - 1769.34] tool that is a UI Builder you have a
+
+[1767.539 - 1770.6] tool that is a code generator right this
+
+[1769.34 - 1773.539] is one of the biggest things right now
+
+[1770.6 - 1775.1589999999999] is language models that write code so if
+
+[1773.539 - 1778.22] the language model can write code on the
+
+[1775.159 - 1779.8990000000001] Fly maybe the role of developers change
+
+[1778.22 - 1781.1000000000001] to instead of writing the code
+
+[1779.899 - 1784.4599999999998] themselves they write the thing that
+
+[1781.1 - 1786.1999999999998] writes code on demand as it's needed so
+
+[1784.46 - 1788.299] this is called meta programming and meta
+
+[1786.2 - 1789.679] programming is nothing new so this is
+
+[1788.299 - 1791.0] writing programs that write other
+
+[1789.679 - 1793.52] programs
+
+[1791.0 - 1795.38] so one of the key foundational things
+
+[1793.52 - 1798.02] that you need to adapt to this new
+
+[1795.38 - 1800.0] paradigm of polymorphic apps is meta
+
+[1798.02 - 1801.86] programming instead of writing the code
+
+[1800.0 - 1803.24] yourself you use the model to write the
+
+[1801.86 - 1805.039] code that you need and then you have the
+
+[1803.24 - 1807.14] other systems in place the test and
+
+[1805.039 - 1809.36] validate and integrate that code
+
+[1807.14 - 1810.98] another principle to build polymorphic
+
+[1809.36 - 1813.6789999999999] apps is that everything must be
+
+[1810.98 - 1816.98] configurable so whether this is your
+
+[1813.679 - 1819.6200000000001] your user interface your back end your
+
+[1816.98 - 1821.48] um your your uh networking your
+
+[1819.62 - 1823.1589999999999] infrastructure all of that and since
+
+[1821.48 - 1825.8600000000001] everything has apis today and language
+
+[1823.159 - 1828.3200000000002] models can use apis well there you have
+
+[1825.86 - 1830.0] it uh but you need to you need to get
+
+[1828.32 - 1831.799] into this and another thing is that
+
+[1830.0 - 1833.659] every when I say everything must be
+
+[1831.799 - 1834.98] formal not everything the tools that
+
+[1833.659 - 1836.419] build the tools are not ephemeral but
+
+[1834.98 - 1838.279] the tools that they build are ephemeral
+
+[1836.419 - 1840.5] so what I mean by that is if you need
+
+[1838.279 - 1843.32] like think of it like the replicator
+
+[1840.5 - 1845.6] from Star Trek you need a very specific
+
+[1843.32 - 1847.58] wrench and you just say computer give me
+
+[1845.6 - 1848.6589999999999] this wrench that I need right now and
+
+[1847.58 - 1850.1589999999999] then when you're done with that you give
+
+[1848.659 - 1851.8400000000001] it back to the computer and it breaks it
+
+[1850.159 - 1854.419] down that's how you need to think about
+
+[1851.84 - 1857.12] these ephemeral Tools in order to build
+
+[1854.419 - 1858.919] polymorphic apps so rather than having a
+
+[1857.12 - 1861.02] library of tens of thousands of tools
+
+[1858.919 - 1862.7] instead you have a replicator that can
+
+[1861.02 - 1865.399] build any tool that you need in that
+
+[1862.7 - 1867.679] moment and then it's done
+
+[1865.399 - 1870.799] so that is the new paradigm that we're
+
+[1867.679 - 1872.419] moving towards is polymorphic apps and
+
+[1870.799 - 1874.22] then another way to think about this is
+
+[1872.419 - 1876.44] in terms of Architectural Components or
+
+[1874.22 - 1879.2] software components
+
+[1876.44 - 1880.5800000000002] so today you fundamentally from a
+
+[1879.2 - 1883.7] software perspective you fundamentally
+
+[1880.58 - 1885.1999999999998] have kind of two major things there's
+
+[1883.7 - 1887.0] obviously a lot more to it than this but
+
+[1885.2 - 1888.679] you've got databases which is where your
+
+[1887.0 - 1890.0] information is stored and of course
+
+[1888.679 - 1892.22] there's all kinds of things there's
+
+[1890.0 - 1894.62] search indexes there's uh document
+
+[1892.22 - 1896.3600000000001] stores there's relational databases but
+
+[1894.62 - 1898.039] the idea is that you've got you've got
+
+[1896.36 - 1900.74] information stored somewhere okay cool
+
+[1898.039 - 1902.24] one architectural design thing you've
+
+[1900.74 - 1903.919] got an information repository another
+
+[1902.24 - 1906.38] thing is an application server so the
+
+[1903.919 - 1909.38] application server might be and might do
+
+[1906.38 - 1911.419] back-end processing it might do OCR it
+
+[1909.38 - 1913.5800000000002] might serve up your web app whatever but
+
+[1911.419 - 1916.3990000000001] you've got you've got the data and the
+
+[1913.58 - 1919.1] processing but now we have llms which is
+
+[1916.399 - 1921.559] a new kind of processing so this new
+
+[1919.1 - 1924.08] kind of component is a cognitive engine
+
+[1921.559 - 1925.8799999999999] so rather than a data engine or an
+
+[1924.08 - 1927.98] application engine or a web engine now
+
+[1925.88 - 1929.96] you have a cognitive engine so if you
+
+[1927.98 - 1932.1200000000001] start to think of llms as a new software
+
+[1929.96 - 1934.94] component a new architectural component
+
+[1932.12 - 1936.4399999999998] that goes into the stack that is the
+
+[1934.94 - 1938.48] that is the appropriate way and so then
+
+[1936.44 - 1940.46] what are the characteristics of this new
+
+[1938.48 - 1941.779] component obviously you're familiar with
+
+[1940.46 - 1943.76] databases you're familiar with web
+
+[1941.779 - 1946.279] servers that sort of thing you have a
+
+[1943.76 - 1948.2] mental list of characterizations of what
+
+[1946.279 - 1949.82] those components are capable of so
+
+[1948.2 - 1950.96] here's some of what a language model is
+
+[1949.82 - 1953.899] capable of
+
+[1950.96 - 1956.0] language processing obviously it can
+
+[1953.899 - 1958.58] read human text it can generate human
+
+[1956.0 - 1961.22] text it can transform human text pretty
+
+[1958.58 - 1963.6789999999999] much any NLP task it can do and it can
+
+[1961.22 - 1965.96] do it faster and better than uh many
+
+[1963.679 - 1968.419] humans can it's not necessarily going to
+
+[1965.96 - 1971.1200000000001] be faster than old school NLP techniques
+
+[1968.419 - 1973.64] because of the memory requirements to
+
+[1971.12 - 1975.1399999999999] run language models reasoning and
+
+[1973.64 - 1977.0] knowledge so this is something that is
+
+[1975.14 - 1978.679] still controversial but more and more
+
+[1977.0 - 1980.899] scientific studies are coming out saying
+
+[1978.679 - 1982.76] yes these language models have theory of
+
+[1980.899 - 1984.4399999999998] mind yes they truly understand what
+
+[1982.76 - 1987.26] they're talking about yes they can
+
+[1984.44 - 1989.48] reason through things yes they can make
+
+[1987.26 - 1990.919] accurate predictions and forecasts and
+
+[1989.48 - 1993.019] they can defend their positions with
+
+[1990.919 - 1994.94] logic now that being said they can still
+
+[1993.019 - 1996.5] choose really dumb things sometimes but
+
+[1994.94 - 1999.8600000000001] there's ways to defeat that with things
+
+[1996.5 - 2002.919] like tree of thought reasoning
+
+[1999.86 - 2004.84] context understanding so context context
+
+[2002.919 - 2006.8990000000001] context context this is one of the key
+
+[2004.84 - 2009.76] things that I teach people in my
+
+[2006.899 - 2011.559] consultations is in order for the
+
+[2009.76 - 2012.94] language model to do exactly what you
+
+[2011.559 - 2015.22] need it to do you need to give it the
+
+[2012.94 - 2017.2] right context what business is it
+
+[2015.22 - 2020.08] operating in what step of the process is
+
+[2017.2 - 2023.019] it doing what is what what input should
+
+[2020.08 - 2025.539] expect what kind of user is using it uh
+
+[2023.019 - 2027.64] in order for the given task because if
+
+[2025.539 - 2029.2] you tell a language model hey your
+
+[2027.64 - 2032.14] primary user is going to be a research
+
+[2029.2 - 2033.94] scientist in a microbiology lab it that
+
+[2032.14 - 2035.44] will that'll wake up a lot of mental
+
+[2033.94 - 2038.6200000000001] things than if you don't tell it that
+
+[2035.44 - 2041.3200000000002] information or conversely if you tell it
+
+[2038.62 - 2042.76] hey your primary user is going to be an
+
+[2041.32 - 2045.279] amateur fiction writer treat them
+
+[2042.76 - 2046.84] accordingly that context helps the
+
+[2045.279 - 2049.74] language model cue into whatever
+
+[2046.84 - 2052.659] Behavior it needs to manifest
+
+[2049.74 - 2054.339] adaptability so in the context of the
+
+[2052.659 - 2056.44] tools that build the tools remember
+
+[2054.339 - 2059.08] these things are infinitely flexible and
+
+[2056.44 - 2061.119] that gives you a whole Litany of new
+
+[2059.08 - 2063.399] programming capabilities so that instead
+
+[2061.119 - 2065.7400000000002] of having to keep you know keep track of
+
+[2063.399 - 2067.659] a gigantic toolbox you now have a tool
+
+[2065.74 - 2069.58] replicator that can just synthesize any
+
+[2067.659 - 2071.02] tool that you need on the Fly and that's
+
+[2069.58 - 2073.0] going to make it infinitely more
+
+[2071.02 - 2075.7599999999998] flexible and then of course planning and
+
+[2073.0 - 2078.22] sequencing brainstorming steps and that
+
+[2075.76 - 2080.44] sort of stuff all that if you need more
+
+[2078.22 - 2082.2999999999997] on that just look up tree of thought
+
+[2080.44 - 2085.179] that is the that is the the current
+
+[2082.3 - 2086.8] state of the art uh technique
+
+[2085.179 - 2089.56] um that you need to know about for for
+
+[2086.8 - 2091.659] that sort of thing for problem solving
+
+[2089.56 - 2094.179] um okay so there you have it uh
+
+[2091.659 - 2095.9190000000003] generative AI for product owners
+
+[2094.179 - 2098.02] um I am available for consultation reach
+
+[2095.919 - 2099.7599999999998] out to me on LinkedIn Link in the
+
+[2098.02 - 2102.72] description cheers I hope you got a lot
+
+[2099.76 - 2102.7200000000003] out of it bye

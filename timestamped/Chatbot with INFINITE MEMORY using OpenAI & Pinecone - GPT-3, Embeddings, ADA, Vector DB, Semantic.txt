@@ -1,0 +1,2885 @@
+[0.42 - 4.4399999999999995] all right guys this is really exciting
+
+[2.1 - 6.720000000000001] so today's video is sponsored by
+
+[4.44 - 8.46] Pinecone and if you know me you know
+
+[6.72 - 10.62] that I have been like super resistant to
+
+[8.46 - 11.88] sponsorships but when Pinecone reached
+
+[10.62 - 13.2] out I was like yes this makes sense
+
+[11.88 - 15.540000000000001] because I was going to use Pinecone
+
+[13.2 - 18.0] anyways let's do it so
+
+[15.54 - 20.4] what are we doing today first
+
+[18.0 - 22.38] need to do a little bit of Preamble so
+
+[20.4 - 24.358999999999998] um come and support me on patreon I'm
+
+[22.38 - 27.119] almost at my goals at which point I will
+
+[24.359 - 28.439] uh take down all ads forever
+
+[27.119 - 31.259999999999998] um I might continue with sponsorships
+
+[28.439 - 33.719] but that's fine so anyways my patreon is
+
+[31.26 - 35.04] patreon.com daveshapp also if you sign
+
+[33.719 - 37.14] up for higher tier you get to interact
+
+[35.04 - 38.519999999999996] with me directly so that has less to do
+
+[37.14 - 40.2] with the videos and more to do with just
+
+[38.52 - 41.7] like hey if you have a question I'm
+
+[40.2 - 43.2] happy to answer
+
+[41.7 - 45.84] um Okay so
+
+[43.2 - 47.34] moving right along a lot of you also
+
+[45.84 - 49.379000000000005] know that I'm working on an open source
+
+[47.34 - 50.940000000000005] AGI project or what I call artificial
+
+[49.379 - 53.28] cognitive entity because artificial
+
+[50.94 - 54.599999999999994] general intelligence is a useless term I
+
+[53.28 - 55.86] actually prefer artificial Global
+
+[54.6 - 57.120000000000005] intelligence because that's really the
+
+[55.86 - 58.8] goal
+
+[57.12 - 60.12] um you know like let's do Ultron but
+
+[58.8 - 62.339999999999996] safe
+
+[60.12 - 64.08] um and so the architecture the
+
+[62.34 - 66.659] underpinning architecture for my project
+
+[64.08 - 68.82] is what I call Mirage microservices
+
+[66.659 - 72.54] architecture for Robotics and artificial
+
+[68.82 - 74.03999999999999] general intelligence so uh the primary
+
+[72.54 - 76.02000000000001] thing that you need to know about moragi
+
+[74.04 - 77.93900000000001] is that it is all organized around a
+
+[76.02 - 79.439] Nexus this is not a this is not a covid
+
+[77.939 - 81.24] virus by the way
+
+[79.439 - 84.29899999999999] um it kind of looks like one all right
+
+[81.24 - 86.33999999999999] so the Nexus is uh as the name implies
+
+[84.299 - 88.08000000000001] the center of it it is a hub and spoke
+
+[86.34 - 91.259] model which means it is a very simple
+
+[88.08 - 94.02] model now what is the Nexus the Nexus is
+
+[91.259 - 95.28] primarily an information store a
+
+[94.02 - 98.17999999999999] database
+
+[95.28 - 100.619] now you could use SQL in my original
+
+[98.18 - 102.18] experiments I actually use sqlite sqlite
+
+[100.619 - 104.82] works perfectly fine
+
+[102.18 - 106.97900000000001] um it is indexable however you're
+
+[104.82 - 109.79899999999999] limited to SQL searches you're not you
+
+[106.979 - 111.42] don't have good semantic search so we
+
+[109.799 - 113.759] need to upgrade to something that does
+
+[111.42 - 115.14] have semantic search enter Pinecone if
+
+[113.759 - 116.34] you're not familiar with Pinecone we're
+
+[115.14 - 118.92] going to go through from the beginning
+
+[116.34 - 121.979] because I even though I've intended to
+
+[118.92 - 123.119] use Pinecone for more than a year now I
+
+[121.979 - 124.02] hadn't gotten around to it so now I'm
+
+[123.119 - 125.34] going to get around to it so we're going
+
+[124.02 - 128.51999999999998] to learn Pinecone together oh you know
+
+[125.34 - 129.66] what I just noticed oh my OCD is going
+
+[128.52 - 130.44] to kill me do you see this one right
+
+[129.66 - 135.239] here
+
+[130.44 - 137.57999999999998] one of the spokes is bent okay anyways
+
+[135.239 - 140.34] all right so this is this is the highest
+
+[137.58 - 141.959] level overview functional diagram for
+
+[140.34 - 144.239] meragi is where basically you have a
+
+[141.959 - 146.58] Nexus which is this is the data and the
+
+[144.239 - 149.22] reason that I that I that that moragi is
+
+[146.58 - 151.08] a data first or data Centric model is
+
+[149.22 - 153.42] because I realize that all learning all
+
+[151.08 - 155.58] experiences all knowledge are all data
+
+[153.42 - 157.61999999999998] right everything that makes us human
+
+[155.58 - 159.9] everything that makes us intelligent is
+
+[157.62 - 161.28] about the information we carry and that
+
+[159.9 - 164.459] we can then
+
+[161.28 - 166.44] um reuse so information first
+
+[164.459 - 168.18] it is also
+
+[166.44 - 169.44] um it's a it's a data first model so
+
+[168.18 - 171.9] that's that's kind of like the bits and
+
+[169.44 - 174.9] bytes it's also a cognition first model
+
+[171.9 - 177.12] and so what I mean by cognition first is
+
+[174.9 - 178.86] Um this can think even without being
+
+[177.12 - 181.019] connected to the outside world in any
+
+[178.86 - 184.14000000000001] way it doesn't need sensor input it
+
+[181.019 - 186.72] doesn't need motor output it can but it
+
+[184.14 - 189.05999999999997] is a it is a cognition first and data
+
+[186.72 - 192.18] first model of artificial intelligence
+
+[189.06 - 193.8] okay if you're lost that's fine
+
+[192.18 - 195.36] um scrolling down a little bit this is
+
+[193.8 - 198.12] uh this is my Raven project so
+
+[195.36 - 200.28] github.com Dave chap slash Raven if you
+
+[198.12 - 202.56] want to get involved so basically
+
+[200.28 - 203.64000000000001] there's a few layers of abstraction here
+
+[202.56 - 205.86] let me make sure I'm not talking too
+
+[203.64 - 207.29999999999998] loud okay cool there's a few layers of
+
+[205.86 - 209.81900000000002] abstraction
+
+[207.3 - 213.3] um to think about artificial cognition
+
+[209.819 - 214.44] so at the very Foundation is data data
+
+[213.3 - 216.06] first
+
+[214.44 - 218.22] um so this is episodic and declarative
+
+[216.06 - 220.379] memory which oh by the way a vector
+
+[218.22 - 223.56] database is the optimal thing to store
+
+[220.379 - 225.48] this in now that being said if you
+
+[223.56 - 227.7] combine Vector search or semantic search
+
+[225.48 - 229.2] with things like Knowledge Graph that
+
+[227.7 - 230.819] could be even better we're figuring this
+
+[229.2 - 233.22] out this is a large open source project
+
+[230.819 - 235.379] it's about three weeks old and we're
+
+[233.22 - 237.239] getting organized we're getting funding
+
+[235.379 - 238.85999999999999] we're having talks about funding so on
+
+[237.239 - 240.239] and so forth but the architecture is
+
+[238.86 - 242.519] here oh man you know what I just
+
+[240.239 - 245.12] realized there's an uneven Gap here too
+
+[242.519 - 247.68] my OCD is just like way turned up today
+
+[245.12 - 248.94] maybe it's all the coffee no I haven't
+
+[247.68 - 250.5] had my coffee yet maybe that's the
+
+[248.94 - 253.319] problem all right so anyways what we're
+
+[250.5 - 255.299] doing today is we're going to create a
+
+[253.319 - 256.799] store for episodic and declarative
+
+[255.299 - 258.6] memory and then we're going to do
+
+[256.799 - 260.519] semantic search or vector database
+
+[258.6 - 264.18] search so we're basically just covering
+
+[260.519 - 266.82] the bottom two layers of this now
+
+[264.18 - 268.259] technically we're also introducing the
+
+[266.82 - 269.82] core objective functions or the heroes
+
+[268.259 - 271.62] to comparatives
+
+[269.82 - 273.65999999999997] and that is just by virtue of the fact
+
+[271.62 - 275.1] that it is embedded into the prompts you
+
+[273.66 - 278.46000000000004] can embed the core objective functions
+
+[275.1 - 280.8] at many many layers at inference time at
+
+[278.46 - 283.13899999999995] evaluation time at planning time there's
+
+[280.8 - 285.36] all kinds of places but the point being
+
+[283.139 - 287.94] is that um the core objective functions
+
+[285.36 - 290.759] are literally the first type of
+
+[287.94 - 292.979] cognition that's applied to the data
+
+[290.759 - 295.139] um going up and down the stack which
+
+[292.979 - 297.06] means that their core they're Central to
+
+[295.139 - 299.759] the operation of the thing whatever else
+
+[297.06 - 302.1] it's doing problem solving executive
+
+[299.759 - 305.639] function cognitive control memory
+
+[302.1 - 307.02000000000004] consolidation all of that still is above
+
+[305.639 - 308.46000000000004] the core objective functions which mean
+
+[307.02 - 310.03999999999996] the core objective functions apply to
+
+[308.46 - 312.65999999999997] all of that
+
+[310.04 - 314.34000000000003] and then finally here's a much more
+
+[312.66 - 316.08000000000004] complicated diagram this is kind of what
+
+[314.34 - 317.52] it's going to look like eventually but
+
+[316.08 - 319.5] we're basically just doing the bottom
+
+[317.52 - 321.65999999999997] three layers here and we're we're
+
+[319.5 - 322.919] essentially going to be doing just the
+
+[321.66 - 325.91900000000004] Nexus today we're not going to be doing
+
+[322.919 - 329.34] any other microservices okay so before
+
+[325.919 - 332.639] we dive off I did also want to ask you
+
+[329.34 - 336.0] to consider if you don't donate to me to
+
+[332.639 - 341.88] to support you know uh my life consider
+
+[336.0 - 345.18] donating to unhcr so um the the unhcr is
+
+[341.88 - 346.56] um uh the un's organization for helping
+
+[345.18 - 348.72] refugees
+
+[346.56 - 352.259] um I've given to unhcr for many many
+
+[348.72 - 354.18] years I started during
+
+[352.259 - 357.24] um actually the the civil war in Syria
+
+[354.18 - 359.22] many years ago because it was just awful
+
+[357.24 - 360.96000000000004] and it broke my heart and I was like I
+
+[359.22 - 363.41900000000004] want to do something
+
+[360.96 - 365.34] um but like you know I'm just I'm just a
+
+[363.419 - 368.039] dude um it's not like I was going to go
+
+[365.34 - 370.919] stop the war single-handedly so I looked
+
+[368.039 - 373.199] around and I was like okay well you know
+
+[370.919 - 374.46] the it's it's a huge Refugee crisis so
+
+[373.199 - 376.5] how can I help that and I looked around
+
+[374.46 - 379.79999999999995] and actually have a friend um an
+
+[376.5 - 381.18] internet friend who uh was in Aid
+
+[379.8 - 382.979] coordination for many years I don't know
+
+[381.18 - 385.199] if he still does that
+
+[382.979 - 387.78] um but anyways I asked him and he said
+
+[385.199 - 389.699] yeah unhcr like they're they're you know
+
+[387.78 - 392.039] every every non-profit organization
+
+[389.699 - 394.08000000000004] station has its issues he's like but
+
+[392.039 - 396.59999999999997] unhcr is good
+
+[394.08 - 398.88] um because one it is it is accountable
+
+[396.6 - 400.68] it's a global entity but also it has
+
+[398.88 - 402.0] Global reach which also makes it pretty
+
+[400.68 - 404.58] good
+
+[402.0 - 407.4] um so I give to you in HCR every month
+
+[404.58 - 410.15999999999997] for more than 10 years now
+
+[407.4 - 412.19899999999996] um and uh I certainly don't regret it so
+
+[410.16 - 415.44] given everything going on all over the
+
+[412.199 - 417.66] world uh you know just uh just
+
+[415.44 - 420.24] give give it a thought
+
+[417.66 - 424.139] um yeah all right so moving right along
+
+[420.24 - 425.52] let's dive into pine cone
+
+[424.139 - 427.68] um like I said I haven't used it before
+
+[425.52 - 429.479] I know people that have I've looked at
+
+[427.68 - 432.0] it I know the underlying technology and
+
+[429.479 - 434.21999999999997] I said this is this is the way
+
+[432.0 - 436.02] um oh also before we get started the
+
+[434.22 - 439.38000000000005] repo for this is Pinecone infinite
+
+[436.02 - 441.35999999999996] memory chat bot infinite memory once you
+
+[439.38 - 443.15999999999997] see the numbers you will understand what
+
+[441.36 - 445.86] I mean like we're we're about to build a
+
+[443.16 - 447.24] chatbot that has a longer memory than
+
+[445.86 - 448.91900000000004] well I'm not going to say than God
+
+[447.24 - 451.5] because that's just too hyperbolic but
+
+[448.919 - 452.4] longer memory than any single human the
+
+[451.5 - 457.44] bass
+
+[452.4 - 461.28] uh uh um like tier for pine cone
+
+[457.44 - 463.44] um is free and I think I could be wrong
+
+[461.28 - 466.44] but I think that they um they said like
+
+[463.44 - 468.9] you get up to five million inferences or
+
+[466.44 - 471.3] five million records so imagine that you
+
+[468.9 - 474.35999999999996] have a database a chat bot that
+
+[471.3 - 477.259] remembers the last five million messages
+
+[474.36 - 479.94] that is a long conversation
+
+[477.259 - 481.52000000000004] so let's see let's see if we can do this
+
+[479.94 - 484.56] oh and also you go to their home page
+
+[481.52 - 486.479] long-term memory for AI gee that's kind
+
+[484.56 - 487.74] of what we want isn't it all right so
+
+[486.479 - 489.18] I'm not going to bore you to death with
+
+[487.74 - 490.74] how this works we're just going to jump
+
+[489.18 - 493.16] in and use it so I'm gonna go ahead and
+
+[490.74 - 493.16] sign up
+
+[495.06 - 497.22] um
+
+[496.199 - 498.479] here
+
+[497.22 - 501.12] I'll go ahead and pause this for a
+
+[498.479 - 501.9] second okay well it was supposed to ask
+
+[501.12 - 504.12] me
+
+[501.9 - 507.17999999999995] um how like how I got how I figured out
+
+[504.12 - 510.419] that I wanted to use Pinecone but um it
+
+[507.18 - 511.74] did not so create your first index all
+
+[510.419 - 516.06] right this will be
+
+[511.74 - 521.82] um this will be uh Raven MVP lowercase
+
+[516.06 - 524.3389999999999] okay let's see uh let's see Raven uh MVP
+
+[521.82 - 528.08] uh Dimensions
+
+[524.339 - 528.08] um okay so here's the thing is
+
+[528.12 - 531.38] we need to know
+
+[531.72 - 537.48] um open AI
+
+[534.54 - 541.88] uh not that uh
+
+[537.48 - 541.88] docs dot open a um
+
+[542.339 - 545.36] this is a mess
+
+[545.88 - 549.72] all right documentation because here's
+
+[548.279 - 551.519] what we're going to do we're going to
+
+[549.72 - 553.44] use open AI
+
+[551.519 - 555.779] um their embeddings
+
+[553.44 - 558.24] right here there we go
+
+[555.779 - 561.3] and we need
+
+[558.24 - 564.98] let's see embedding models
+
+[561.3 - 564.9799999999999] where is ada02
+
+[565.32 - 570.9200000000001] pages per dollar 3000 text embedding 802
+
+[571.68 - 578.88] um output Dimensions so max input is
+
+[574.56 - 580.38] 8100 output is 1536.
+
+[578.88 - 585.66] okay
+
+[580.38 - 586.92] so we are going to do 1536 dimensions
+
+[585.66 - 588.8389999999999] um let's see
+
+[586.92 - 591.12] lowest latency and highest throughput
+
+[588.839 - 594.36] best storage capacity faster queries
+
+[591.12 - 597.839] let's do
+
+[594.36 - 600.839] we'll do P1 sure whatever
+
+[597.839 - 603.6] uh will be terminated after 14 days
+
+[600.839 - 604.6400000000001] create index okay
+
+[603.6 - 606.72] um yep
+
+[604.64 - 609.24] all right so here's our index it's
+
+[606.72 - 610.74] initializing that's cool so I if I
+
+[609.24 - 612.42] recall correctly and I apologize to
+
+[610.74 - 613.74] anyone at Pinecone if this is wrong I
+
+[612.42 - 615.7199999999999] think what it's doing is it's actually
+
+[613.74 - 617.4590000000001] spinning up an individual container for
+
+[615.72 - 619.26] me on the cloud
+
+[617.459 - 622.0189999999999] um yeah because the environment is U.S
+
+[619.26 - 627.2] east one gcp so this tells me that it is
+
+[622.019 - 627.2] running my container on the Google Cloud
+
+[627.36 - 633.24] um yes so
+
+[630.3 - 636.06] and then rather than doing rather than
+
+[633.24 - 637.92] uploading stuff individually
+
+[636.06 - 640.64] um what I'm going to do
+
+[637.92 - 640.64] is
+
+[642.36 - 646.6800000000001] block not that
+
+[644.339 - 649.32] um all right we are going to do
+
+[646.68 - 651.779] we're going to go back to
+
+[649.32 - 653.339] where did it go
+
+[651.779 - 655.38] Pinecone
+
+[653.339 - 656.519] dot IO
+
+[655.38 - 658.56] um all right so we're gonna go back to
+
+[656.519 - 660.72] the docs and we're gonna do quick start
+
+[658.56 - 663.3] and also I apologize that this video is
+
+[660.72 - 665.94] a total unmitigated mess
+
+[663.3 - 667.8] but you know what
+
+[665.94 - 669.899] all of you watch it on like 2x speed
+
+[667.8 - 670.8] anyways so you're probably just laughing
+
+[669.899 - 673.38] your
+
+[670.8 - 676.38] butt off all right so let's do a pip
+
+[673.38 - 679.14] install Pinecone client ta-da
+
+[676.38 - 681.42] so tldr you need the Pinecone client in
+
+[679.14 - 683.22] order to run python now that being said
+
+[681.42 - 684.54] a lot of you expressed interest in how
+
+[683.22 - 686.94] do I do this stuff if I don't know the
+
+[684.54 - 689.279] first thing about coding so I'm going to
+
+[686.94 - 691.8000000000001] try and do as little coding as possible
+
+[689.279 - 695.16] so we're going to jump over here and use
+
+[691.8 - 697.92] chat GPT I upgraded to chat GPT Pro
+
+[695.16 - 699.8389999999999] man is it much faster
+
+[697.92 - 701.88] um I definitely recommend it because one
+
+[699.839 - 703.5600000000001] the speed and two it I don't I don't
+
+[701.88 - 705.72] know if it's actually smarter or if it
+
+[703.56 - 707.279] just feels smarter because it's faster
+
+[705.72 - 709.98] um but definitely
+
+[707.279 - 711.42] um chat GPT Pro I think is is totally
+
+[709.98 - 714.0] worth it especially for 20 bucks a month
+
+[711.42 - 717.3] it's like this it saves me so much time
+
+[714.0 - 719.16] and my time is so valuable right it that
+
+[717.3 - 722.0999999999999] it's a it's a no-brainer it's definitely
+
+[719.16 - 723.7199999999999] worth it okay so
+
+[722.1 - 725.16] what are we trying to achieve here we're
+
+[723.72 - 727.0790000000001] trying to get a chat bot that we'll use
+
+[725.16 - 729.54] up to five thousand or five million
+
+[727.079 - 732.5999999999999] memories so what I want to do is I want
+
+[729.54 - 736.5] to save every chat message that I do
+
+[732.6 - 738.779] with uh with with this chat bot and uh
+
+[736.5 - 741.6] and I want to recall stuff based on
+
+[738.779 - 742.4399999999999] recent conversations so
+
+[741.6 - 744.9200000000001] um
+
+[742.44 - 748.32] let's make a
+
+[744.92 - 748.9799999999999] Ultra simple chat bot
+
+[748.32 - 752.3000000000001] um
+
+[748.98 - 756.899] using uh openai
+
+[752.3 - 762.3599999999999] text oops text Ada
+
+[756.899 - 763.019] um O2 embeddings for search ability
+
+[762.36 - 766.6800000000001] um
+
+[763.019 - 771.42] we will index each message
+
+[766.68 - 773.519] chat message back and forth and then we
+
+[771.42 - 780.42] will store
+
+[773.519 - 785.4590000000001] all messages in a pine cone index I want
+
+[780.42 - 788.9399999999999] you to write a python script that will
+
+[785.459 - 790.7399999999999] do this for me okay so if you don't know
+
+[788.94 - 792.72] code
+
+[790.74 - 795.0] um that's okay because chat GPT does all
+
+[792.72 - 797.0600000000001] you need to do is know the
+
+[795.0 - 797.06] um
+
+[797.579 - 802.8] English language to describe what you
+
+[801.18 - 804.66] want
+
+[802.8 - 807.06] um and so let's see if this works all
+
+[804.66 - 809.88] right it doesn't seem to know some of
+
+[807.06 - 811.56] this stuff yet it's creating the index I
+
+[809.88 - 814.8] don't need it to do that it also doesn't
+
+[811.56 - 816.42] it shows 512 so all you need to do is be
+
+[814.8 - 819.019] able to look at it and say like is this
+
+[816.42 - 819.019] really right
+
+[824.639 - 830.339] okay I'm sorry I don't understand Dave
+
+[828.54 - 831.42] but you see how much faster this is it
+
+[830.339 - 832.32] just spit all this out in a couple
+
+[831.42 - 834.18] seconds
+
+[832.32 - 836.7] and so I'm like
+
+[834.18 - 839.0] this is right I don't know if this is
+
+[836.7 - 839.0] right
+
+[843.779 - 848.36] all right so close but no cigar
+
+[848.7 - 853.26] um text davinci02 okay so it's it's this
+
+[851.7 - 856.44] out of date it doesn't it it doesn't
+
+[853.26 - 858.0] even know about text davincio 3.
+
+[856.44 - 859.5600000000001] all right so we're probably going to
+
+[858.0 - 861.66] need to do a little bit of uh cutting
+
+[859.56 - 863.459] and pasting let's say all right so this
+
+[861.66 - 864.8389999999999] was the this was the script that I used
+
+[863.459 - 867.54] for
+
+[864.839 - 868.5] um the last long term chat bot memory so
+
+[867.54 - 869.519] basically what we're going to do is
+
+[868.5 - 871.38] we're going to throw all that out
+
+[869.519 - 872.88] because here's what happens with
+
+[871.38 - 875.279] iterative development if you're not
+
+[872.88 - 877.62] familiar with agile basically you get as
+
+[875.279 - 879.899] far as you can this is this is iterative
+
+[877.62 - 881.699] development on an individual level you
+
+[879.899 - 883.86] get as far as you can and then when you
+
+[881.699 - 885.8389999999999] get stuck you basically like refactor
+
+[883.86 - 887.1] everything that you've learned and start
+
+[885.839 - 889.9200000000001] over
+
+[887.1 - 891.6] um okay so actually my door is open I'm
+
+[889.92 - 893.579] gonna pause it and close the door real
+
+[891.6 - 895.5600000000001] quick and also a quick wardrobe change
+
+[893.579 - 897.5999999999999] because I was getting too toasty uh
+
+[895.56 - 900.3599999999999] imagine that you're super animated and
+
+[897.6 - 901.98] drinking coffee and you get too hot it's
+
+[900.36 - 903.779] getting hot and no I'm not gonna do that
+
+[901.98 - 905.94] I'm not gonna subject you people to that
+
+[903.779 - 907.62] I actually do have a good singing voice
+
+[905.94 - 909.36] it's just I'm super not warmed up and I
+
+[907.62 - 911.94] have awful timing
+
+[909.36 - 913.98] so all right where was I
+
+[911.94 - 915.6600000000001] um right pine cone yeah this is close
+
+[913.98 - 919.0790000000001] but it's not quite
+
+[915.66 - 920.399] so let's let's let's break this down
+
+[919.079 - 921.7199999999999] into the functions that we're going to
+
+[920.399 - 923.699] need
+
+[921.72 - 926.76] um so I've got this function or this
+
+[923.699 - 928.68] script here 172 lines of code we can
+
+[926.76 - 931.1] actually simplify this a lot but we need
+
+[928.68 - 935.6389999999999] to keep the stuff that we that we like
+
+[931.1 - 938.0400000000001] so I'm going to go ahead and keep my uh
+
+[935.639 - 942.139] completion so this is this is the actual
+
+[938.04 - 942.139] chat function so we're gonna
+
+[942.54 - 946.98] we're I'm going to leave this script as
+
+[944.82 - 949.9200000000001] is just so that um I have it for
+
+[946.98 - 952.26] reference uh because if you know me you
+
+[949.92 - 954.3] know that I am uh horrible at just
+
+[952.26 - 957.06] recycling code which sometimes gets me
+
+[954.3 - 958.139] in trouble but whatever whoops nah come
+
+[957.06 - 960.3] back
+
+[958.139 - 961.74] um so we're gonna call this chat two dot
+
+[960.3 - 964.519] pi
+
+[961.74 - 967.26] because that's super creative okay
+
+[964.519 - 969.0600000000001] so what this does is it chooses text
+
+[967.26 - 971.519] davinci03 which is the latest and
+
+[969.06 - 974.6389999999999] greatest in terms of fine-tuned models
+
+[971.519 - 976.32] uh the temperature is set to zero
+
+[974.639 - 979.62] um because I actually don't like
+
+[976.32 - 981.6600000000001] uh entropy injected unless I want it to
+
+[979.62 - 983.16] be injected in most cases a
+
+[981.66 - 985.92] deterministic output is fine because
+
+[983.16 - 988.62] it's just a thinking machine and I
+
+[985.92 - 990.5999999999999] achieve what I want with prompt
+
+[988.62 - 992.279] engineering so I am a chatbot named
+
+[990.6 - 993.12] Raven my goals are to reduce so heroin
+
+[992.279 - 995.82] add
+
+[993.12 - 997.259] excuse me word wrap where is word wrap
+
+[995.82 - 998.5790000000001] there we go my goals are to reduce
+
+[997.259 - 999.899] suffering increased prosperity and
+
+[998.579 - 1001.9399999999999] increase understanding I will read the
+
+[999.899 - 1004.22] conversation notes recent messages and
+
+[1001.94 - 1005.7790000000001] I'll provide a long verbose uh detailed
+
+[1004.22 - 1008.12] response hold an end my response with a
+
+[1005.779 - 1009.68] follow-up or leading question alright so
+
+[1008.12 - 1014.0600000000001] instead
+
+[1009.68 - 1015.5] we are going to do uh we don't need
+
+[1014.06 - 1017.4799999999999] notes because we're just going to do a
+
+[1015.5 - 1018.139] super long-term memory
+
+[1017.48 - 1019.6990000000001] um
+
+[1018.139 - 1023.54] and
+
+[1019.699 - 1025.22] then we are going to
+
+[1023.54 - 1027.02] actually yeah here we'll just have the
+
+[1025.22 - 1028.64] conversation here
+
+[1027.02 - 1032.299] um
+
+[1028.64 - 1033.679] uh let's see previous conversation all
+
+[1032.299 - 1035.72] right that's fine
+
+[1033.679 - 1037.64] and then we will say
+
+[1035.72 - 1039.439] um yeah that's fine all right so we
+
+[1037.64 - 1042.7990000000002] update this and basically what I'm going
+
+[1039.439 - 1047.0] to do is I'm going to populate this with
+
+[1042.799 - 1048.26] um with what we retrieve from uh uh from
+
+[1047.0 - 1050.84] Pinecone
+
+[1048.26 - 1052.059] so we come let's take a look at the
+
+[1050.84 - 1054.799] repost so the repo I've got
+
+[1052.059 - 1057.5] pinecone.text and
+
+[1054.799 - 1058.8799999999999] I thought I copied my openai API key I
+
+[1057.5 - 1061.52] did not
+
+[1058.88 - 1064.3400000000001] um we'll copy this from another repo
+
+[1061.52 - 1066.02] okay so we got open Ai and then pine
+
+[1064.34 - 1069.1999999999998] cone here I'm just going to shorten this
+
+[1066.02 - 1070.82] so it's openai.txt
+
+[1069.2 - 1073.039] so there's these are my these are my
+
+[1070.82 - 1075.02] keys here I'll I'll do this I'll do uh
+
+[1073.039 - 1075.98] key underscore so that they stay
+
+[1075.02 - 1078.2] together
+
+[1075.98 - 1081.559] repo hygiene is important
+
+[1078.2 - 1084.44] e underscore so we've got two API keys
+
+[1081.559 - 1085.94] we're going to be talking to open AI for
+
+[1084.44 - 1086.9] the large language model and the
+
+[1085.94 - 1089.24] embedding and then we're going to be
+
+[1086.9 - 1090.799] talking to Pinecone for storage so we're
+
+[1089.24 - 1093.6200000000001] not really going to be doing any storage
+
+[1090.799 - 1095.4189999999999] locally all right so first things first
+
+[1093.62 - 1096.7399999999998] let's come back here and figure out what
+
+[1095.419 - 1099.38] we need
+
+[1096.74 - 1101.419] um let's oops I closed the chat
+
+[1099.38 - 1103.64] let's go to this one so we need we need
+
+[1101.419 - 1107.48] the main Loop so if you're not familiar
+
+[1103.64 - 1109.4] with coding and I do apologize I promise
+
+[1107.48 - 1112.4] that we would do like let's let's call
+
+[1109.4 - 1115.96] this low code not no code but low code
+
+[1112.4 - 1115.96] um while true
+
+[1116.0 - 1121.16] so pretty much all chat Bots start with
+
+[1118.76 - 1123.44] a wild true Loop and actually a lot of a
+
+[1121.16 - 1125.1200000000001] lot of programs um start with a wild
+
+[1123.44 - 1127.1200000000001] true Loop so this is basically just an
+
+[1125.12 - 1131.539] infinite Loop and let's shorten this
+
+[1127.12 - 1133.1599999999999] openai.txt okay so while true what do we
+
+[1131.539 - 1135.799] do I don't know
+
+[1133.16 - 1139.64] um I think over here I had yep get the
+
+[1135.799 - 1141.679] get the user input first that's all good
+
+[1139.64 - 1145.039] um let's see
+
+[1141.679 - 1148.52] so then we get the vector so gpt3
+
+[1145.039 - 1149.96] embedding did I use
+
+[1148.52 - 1152.299] I might have I might have already
+
+[1149.96 - 1154.7] switched to uh Ada
+
+[1152.299 - 1156.74] oops
+
+[1154.7 - 1159.32] um text embedding 802 oh I was using it
+
+[1156.74 - 1162.799] great Okay cool so I've already written
+
+[1159.32 - 1164.4189999999999] this function fantastic
+
+[1162.799 - 1166.58] so we can cut whoops we don't need the
+
+[1164.419 - 1170.539] prompt so we can go ahead and copy this
+
+[1166.58 - 1172.58] function too so we get the embedding
+
+[1170.539 - 1175.1] um which is great and also some of you
+
+[1172.58 - 1177.799] ask why I do this here where I I um I do
+
+[1175.1 - 1180.08] content and code to ASCII ignore errors
+
+[1177.799 - 1183.98] and then decode this is because for
+
+[1180.08 - 1186.4399999999998] whatever reason some Unicode breaks gpt3
+
+[1183.98 - 1188.3600000000001] I don't know what it was but I just
+
+[1186.44 - 1190.16] found out that forcing it to ASCII and
+
+[1188.36 - 1192.799] then because ASCII is a smaller code
+
+[1190.16 - 1195.5] base than Unicode and then converting it
+
+[1192.799 - 1198.08] back forces it into a correct format the
+
+[1195.5 - 1199.34] gpt3 already accepts so or always
+
+[1198.08 - 1203.1789999999999] accepts
+
+[1199.34 - 1205.8799999999999] um so fix any Unicode errors because
+
+[1203.179 - 1208.5800000000002] there's like there's like Unicode bomb
+
+[1205.88 - 1209.96] which is uh not bill of materials but uh
+
+[1208.58 - 1211.34] some something to do with the way that
+
+[1209.96 - 1213.5] it's encoding
+
+[1211.34 - 1216.02] um whatever anyways so we get our
+
+[1213.5 - 1217.82] embedding
+
+[1216.02 - 1221.12] um and then we
+
+[1217.82 - 1222.3799999999999] come back down here all right so let's
+
+[1221.12 - 1225.1399999999999] do this
+
+[1222.38 - 1227.8400000000001] and then the message oh yeah so user
+
+[1225.14 - 1230.179] time string Etc Great
+
+[1227.84 - 1231.559] so that's all fine and then maybe we
+
+[1230.179 - 1237.039] need the info too because I think
+
+[1231.559 - 1237.039] Pinecone allows us to save some metadata
+
+[1237.559 - 1243.86] all right so let's let's do this uh all
+
+[1241.76 - 1246.74] right
+
+[1243.86 - 1249.9799999999998] and then we will come over to Pinecone
+
+[1246.74 - 1250.94] documentation nope it's over here quick
+
+[1249.98 - 1253.28] start
+
+[1250.94 - 1255.44] all right so pine cone in it we need
+
+[1253.28 - 1257.9189999999999] this guy here environment your
+
+[1255.44 - 1257.919] environment
+
+[1258.08 - 1260.1399999999999] um
+
+[1266.84 - 1270.8799999999999] let's see no not create index
+
+[1272.059 - 1275.32] let's come over here
+
+[1276.679 - 1280.419] import Pinecone
+
+[1280.58 - 1286.299] and then we also need to set
+
+[1283.34 - 1286.299] foreign
+
+[1287.38 - 1291.7600000000002] key so this will be
+
+[1292.46 - 1298.52] open file hindcone dot text and if you
+
+[1295.82 - 1301.52] didn't catch this I what I did earlier
+
+[1298.52 - 1303.679] and I didn't show you was I put I got my
+
+[1301.52 - 1305.059] API key and put it in here
+
+[1303.679 - 1308.0800000000002] so
+
+[1305.059 - 1308.08] um so there you have it
+
+[1308.78 - 1312.799] oh actually no I need to update the name
+
+[1310.82 - 1314.8999999999999] so that it is correct
+
+[1312.799 - 1318.74] key pine cone and then
+
+[1314.9 - 1322.1000000000001] uh e open Ai and then environment I
+
+[1318.74 - 1324.6200000000001] think is going to be
+
+[1322.1 - 1327.32] this guy
+
+[1324.62 - 1330.52] is that the environment
+
+[1327.32 - 1330.52] so API
+
+[1330.74 - 1335.44] values
+
+[1333.08 - 1335.4399999999998] okay
+
+[1336.14 - 1340.94] um
+
+[1337.64 - 1344.38] I'm not sure which environment it could
+
+[1340.94 - 1344.38] be it could be the index name
+
+[1345.5 - 1349.7] I don't know
+
+[1346.72 - 1351.74] usually sometimes what they have is
+
+[1349.7 - 1353.539] they'll give you like here's the python
+
+[1351.74 - 1357.02] version of this
+
+[1353.539 - 1360.559] um but we will we will uh
+
+[1357.02 - 1361.7] go back to the docs rtfm read the fund
+
+[1360.559 - 1363.32] manual
+
+[1361.7 - 1366.32] um all right
+
+[1363.32 - 1366.32] index.ubsert
+
+[1367.94 - 1372.5800000000002] oh here we go so pine cone
+
+[1372.62 - 1376.12] um let's see what is environment
+
+[1380.299 - 1384.82] I don't know not applicable okay
+
+[1385.159 - 1389.5590000000002] I really don't know what this what this
+
+[1387.38 - 1389.5590000000002] is
+
+[1391.94 - 1399.679] this also uh no both your API key
+
+[1397.4 - 1401.3600000000001] okay just says note your environment all
+
+[1399.679 - 1402.26] right Pinecone people if you're watching
+
+[1401.36 - 1404.4189999999999] I don't know what you mean by
+
+[1402.26 - 1405.5] environment because I go to my console
+
+[1404.419 - 1408.039] and I don't see anything named
+
+[1405.5 - 1408.039] environment
+
+[1408.62 - 1416.6] index name oh environment here okay
+
+[1412.58 - 1419.059] region region okay so for for the it
+
+[1416.6 - 1420.6399999999999] infrastructure parlance this would be
+
+[1419.059 - 1423.32] called a region not an environment
+
+[1420.64 - 1425.3600000000001] environment is like are you running in a
+
+[1423.32 - 1429.799] Docker container or on a Linux machine
+
+[1425.36 - 1432.26] or in VMware but the the cloud region
+
+[1429.799 - 1436.4] okay got it figured it out all right so
+
+[1432.26 - 1438.32] basically I need to tell the API talk to
+
+[1436.4 - 1440.6000000000001] this region
+
+[1438.32 - 1442.3999999999999] region figured it out
+
+[1440.6 - 1444.6789999999999] I'm not going to let this go
+
+[1442.4 - 1447.3200000000002] the way of the future so I recently
+
+[1444.679 - 1450.38] re-watched The Aviator with uh with
+
+[1447.32 - 1451.82] Leonardo DiCaprio and I I initially
+
+[1450.38 - 1455.419] watched it in theaters many years ago
+
+[1451.82 - 1457.76] and I was Ultra disturbed because
+
+[1455.419 - 1459.74] um the way that he repeats things I used
+
+[1457.76 - 1461.12] to do that in my head and turns out like
+
+[1459.74 - 1462.98] that's just a really common feature of
+
+[1461.12 - 1464.1789999999999] OCD and it's because it doesn't feel
+
+[1462.98 - 1466.1] right
+
+[1464.179 - 1468.38] and if you know what I mean you know
+
+[1466.1 - 1470.539] what I mean and that is um basically
+
+[1468.38 - 1472.22] like it's a it's a sensory processing
+
+[1470.539 - 1473.78] issue and so something doesn't feel
+
+[1472.22 - 1475.22] right you have to keep doing it until it
+
+[1473.78 - 1477.44] does feel right
+
+[1475.22 - 1479.96] um fortunately I got over that mostly
+
+[1477.44 - 1481.64] just by one accepting that like okay
+
+[1479.96 - 1483.74] this is a thing and then I kind of got
+
+[1481.64 - 1486.7990000000002] used to it over time also fixing your
+
+[1483.74 - 1488.96] diet and sleep really helps with OCD
+
+[1486.799 - 1490.58] okay quick aside all right we got that
+
+[1488.96 - 1492.559] figured out let's go back to our
+
+[1490.58 - 1495.74] documentation
+
+[1492.559 - 1498.08] okay so we initialize it so this is just
+
+[1495.74 - 1500.24] initialize so this init thing
+
+[1498.08 - 1502.8799999999999] so Pinecone in it is about the same as
+
+[1500.24 - 1505.659] just setting our API key okay I think
+
+[1502.88 - 1505.659] that that's fine
+
+[1506.36 - 1511.2199999999998] yes all right so that's nested correctly
+
+[1508.52 - 1513.08] I think and then we get down we don't
+
+[1511.22 - 1515.6000000000001] need to create the index we just need to
+
+[1513.08 - 1518.6589999999999] grab an index
+
+[1515.6 - 1519.98] so let's come back over here so index
+
+[1518.659 - 1522.88] equals
+
+[1519.98 - 1526.1] pine cone index and this will be Raven
+
+[1522.88 - 1529.8200000000002] Dash MV
+
+[1526.1 - 1530.84] I know how to type I promise raven- MVP
+
+[1529.82 - 1532.52] um
+
+[1530.84 - 1535.6399999999999] and I don't like index I'm going to do
+
+[1532.52 - 1537.1399999999999] VDB Vector database whoops
+
+[1535.64 - 1541.5800000000002] all right so this is our Vector database
+
+[1537.14 - 1545.659] and then we okay so we do an upsert
+
+[1541.58 - 1548.6589999999999] so we give it a string and then that
+
+[1545.659 - 1551.659] okay so if we give it a string and then
+
+[1548.659 - 1553.64] and then a vector
+
+[1551.659 - 1557.2990000000002] if that's I I know that they said that
+
+[1553.64 - 1560.9] we can do oh wait here we go IDC score
+
+[1557.299 - 1562.4189999999999] oh wait no that's just the query okay
+
+[1560.9 - 1565.22] um
+
+[1562.419 - 1567.8200000000002] well okay so we'll we'll keep it simple
+
+[1565.22 - 1570.5] we'll just do the string that's fine so
+
+[1567.82 - 1573.26] index.upsert or in this case VDB dot
+
+[1570.5 - 1574.7] upsert so the message string will
+
+[1573.26 - 1578.12] include
+
+[1574.7 - 1579.919] the user the time and the message so the
+
+[1578.12 - 1582.1399999999999] that it's all going to be included in
+
+[1579.919 - 1583.8200000000002] the message so that's fine
+
+[1582.14 - 1585.74] um and but the vector we should actually
+
+[1583.82 - 1589.82] do the vector later so that the vector
+
+[1585.74 - 1592.88] includes all of that information I think
+
+[1589.82 - 1595.82] right or should we only search
+
+[1592.88 - 1599.1200000000001] the the what the user actually put in
+
+[1595.82 - 1601.58] you know what screw it I'm going to
+
+[1599.12 - 1602.8999999999999] index the entire thing so the vector
+
+[1601.58 - 1606.46] equals
+
+[1602.9 - 1610.039] um gpt3 and
+
+[1606.46 - 1611.779] premature tabbing tab completion Not all
+
+[1610.039 - 1613.1589999999999] men have this problem but if you do have
+
+[1611.779 - 1615.2] this problem there's nothing to be
+
+[1613.159 - 1617.3200000000002] ashamed of okay
+
+[1615.2 - 1617.32] um
+
+[1617.5 - 1621.08] you're getting a little bit more
+
+[1619.22 - 1622.94] unfiltered Dave lately I hope that's
+
+[1621.08 - 1624.62] okay some people say like oh you need to
+
+[1622.94 - 1626.1200000000001] be like more humble and laid back and
+
+[1624.62 - 1628.58] it's like now this is this is just my
+
+[1626.12 - 1629.7199999999998] true self so um I apologize if you don't
+
+[1628.58 - 1632.24] like it
+
+[1629.72 - 1635.6000000000001] tough
+
+[1632.24 - 1638.539] all right so time stamp equals this so
+
+[1635.6 - 1641.24] we get a time stamp so time stamp is a
+
+[1638.539 - 1642.679] Unix Epoch so it's just a Str it's a
+
+[1641.24 - 1645.14] it's a it's a number it's a floating
+
+[1642.679 - 1647.779] Point number we need timestamp to time
+
+[1645.14 - 1650.9] stamp to date time
+
+[1647.779 - 1652.88] um so let's grab this function okay all
+
+[1650.9 - 1654.2] it does is it returns a specifically
+
+[1652.88 - 1656.3600000000001] formatted
+
+[1654.2 - 1660.32] whatchamacallit
+
+[1656.36 - 1663.799] English readable time stamp that's fine
+
+[1660.32 - 1665.48] so let's grab this put this here
+
+[1663.799 - 1667.94] and then
+
+[1665.48 - 1670.159] so all right we can get rid of that guy
+
+[1667.94 - 1673.46] we can get rid of that guy
+
+[1670.159 - 1675.679] vectorize it save to Pinecone
+
+[1673.46 - 1677.779] all right now so we've got our message
+
+[1675.679 - 1679.52] and we've got our Vector so let's go
+
+[1677.779 - 1682.34] look at the Pinecone documentation and
+
+[1679.52 - 1685.46] so what we do is we have to upsert
+
+[1682.34 - 1687.98] and we have a string or well so first
+
+[1685.46 - 1691.64] it's a list and then within the list
+
+[1687.98 - 1695.6] there are tuples and the tuples have uh
+
+[1691.64 - 1698.539] at at index 0 is a string and index two
+
+[1695.6 - 1702.26] is a vector so
+
+[1698.539 - 1703.7] this should be pretty straightforward
+
+[1702.26 - 1705.44] um
+
+[1703.7 - 1707.779] you know we can actually probably save
+
+[1705.44 - 1709.94] some time if we just do the upsert at
+
+[1707.779 - 1713.059] the end so let's do that let's let's
+
+[1709.94 - 1714.8600000000001] let's add our message and Ravens
+
+[1713.059 - 1716.779] um at the end so that way we don't
+
+[1714.86 - 1720.9189999999999] accidentally pull our most recent
+
+[1716.779 - 1724.9] messages oh I like that yeah okay so
+
+[1720.919 - 1724.9] um so let's see this will be
+
+[1726.799 - 1731.059] um upsert
+
+[1728.779 - 1733.88] uh actually no we'll just we'll call
+
+[1731.059 - 1736.34] info info list and so then we will do
+
+[1733.88 - 1740.179] info dot append
+
+[1736.34 - 1741.62] and then so we need uh the info is the
+
+[1740.179 - 1743.96] list container so now all we need to do
+
+[1741.62 - 1747.1399999999999] is add a tuple that has message and
+
+[1743.96 - 1748.76] vector and so then once we get once we
+
+[1747.14 - 1750.919] get our chat Bots message we'll append
+
+[1748.76 - 1753.44] it as well and then we'll just upsert
+
+[1750.919 - 1757.64] them both at the same time
+
+[1753.44 - 1759.5] Bingo all right so next thing we do is
+
+[1757.64 - 1761.2990000000002] and this is this is actually good
+
+[1759.5 - 1763.58] because we will use this Vector to
+
+[1761.299 - 1765.9189999999999] search for Raven's response which means
+
+[1763.58 - 1767.899] that we won't pull yeah yeah it's order
+
+[1765.919 - 1769.64] of operations man and if it doesn't make
+
+[1767.899 - 1771.1399999999999] sense sit tight it will in a minute let
+
+[1769.64 - 1772.1000000000001] me do a time check I'm probably just
+
+[1771.14 - 1774.0200000000002] going to take this all the way through
+
+[1772.1 - 1775.399] we're 30 minutes heck with it I want to
+
+[1774.02 - 1777.08] get I want to drive this across the
+
+[1775.399 - 1779.2399999999998] Finish Line I don't care if it takes two
+
+[1777.08 - 1780.5] hours probably won't take two hours and
+
+[1779.24 - 1782.36] I know that all of your eyes are
+
+[1780.5 - 1784.46] bleeding already eyes and ears like
+
+[1782.36 - 1785.299] you're just like Dave shut up write some
+
+[1784.46 - 1788.299] code
+
+[1785.299 - 1788.299] whatever
+
+[1790.1 - 1792.98] okay
+
+[1791.299 - 1796.46] um all right so now
+
+[1792.98 - 1799.34] uh search for Relevant messages
+
+[1796.46 - 1800.779] and generate a response
+
+[1799.34 - 1803.059] cool
+
+[1800.779 - 1806.059] so this is the this is where it gets fun
+
+[1803.059 - 1806.86] not that it wasn't fun already
+
+[1806.059 - 1809.84] um
+
+[1806.86 - 1813.74] we need to do a query
+
+[1809.84 - 1818.1399999999999] all right I don't know what top K is
+
+[1813.74 - 1818.14] what does top k mean in this context
+
+[1818.84 - 1823.899] um
+
+[1820.279 - 1823.899] include values
+
+[1826.399 - 1830.899] the following example and for the top
+
+[1828.5 - 1833.36] three vectors that are most similar oh
+
+[1830.899 - 1835.1589999999999] okay so top K is just how many similar
+
+[1833.36 - 1837.1999999999998] do you want
+
+[1835.159 - 1840.0800000000002] simple enough
+
+[1837.2 - 1840.919] all right so we will do
+
+[1840.08 - 1842.02] um
+
+[1840.919 - 1845.72] results
+
+[1842.02 - 1847.8799999999999] equals VDB dot query
+
+[1845.72 - 1850.22] man this is straightforward all right so
+
+[1847.88 - 1851.96] then Vector equals vector
+
+[1850.22 - 1854.779] so basically we're going to say whatever
+
+[1851.96 - 1858.2] whatever it is we just said to Raven
+
+[1854.779 - 1861.32] get all messages that are most similar
+
+[1858.2 - 1864.1000000000001] and we'll do a top k
+
+[1861.32 - 1864.1] top top
+
+[1865.22 - 1873.08] Butterfingers top k equals let's say 15.
+
+[1869.419 - 1875.179] um so the 15 most relevant messages
+
+[1873.08 - 1877.34] and then
+
+[1875.179 - 1879.76] um I don't actually care about the
+
+[1877.34 - 1879.76] values
+
+[1879.86 - 1883.539] so that's fine
+
+[1883.82 - 1887.48] so we'll just do
+
+[1886.58 - 1890.72] um
+
+[1887.48 - 1894.26] what does it include values
+
+[1890.72 - 1896.539] include values equals false I just want
+
+[1894.26 - 1899.3799999999999] the messages don't really care so it
+
+[1896.539 - 1899.3799999999999] should return
+
+[1899.779 - 1905.419] okay it'll return a dictionary
+
+[1902.659 - 1907.94] with matches and then matches will be a
+
+[1905.419 - 1910.279] list and it may or may not have values
+
+[1907.94 - 1913.94] or it might just be a list of strings
+
+[1910.279 - 1915.679] okay so results okay so
+
+[1913.94 - 1918.679] um results
+
+[1915.679 - 1918.679] matches
+
+[1918.98 - 1923.84] um so this is this is the this is the
+
+[1921.86 - 1925.399] list of of stuff so now we need to
+
+[1923.84 - 1927.32] format it
+
+[1925.399 - 1929.84] um
+
+[1927.32 - 1931.039] let's see let's see let's see let's see
+
+[1929.84 - 1933.32] let's see we're not going to delete
+
+[1931.039 - 1936.46] anything
+
+[1933.32 - 1936.46] are we really almost done
+
+[1938.539 - 1942.3799999999999] that's fine
+
+[1940.34 - 1943.399] all right so if this is if this is a
+
+[1942.38 - 1945.7990000000002] list
+
+[1943.399 - 1946.9399999999998] so let's let's see how I formatted it
+
+[1945.799 - 1949.1589999999999] over here
+
+[1946.94 - 1952.3400000000001] let's go back in time all right so
+
+[1949.159 - 1953.179] conversation load conversation
+
+[1952.34 - 1955.22] um
+
+[1953.179 - 1957.02] generate a response
+
+[1955.22 - 1958.52] uh fetch declarative memories we're not
+
+[1957.02 - 1960.74] going to do that memory is equals fetch
+
+[1958.52 - 1963.3799999999999] memories okay we did all that fun stuff
+
+[1960.74 - 1964.52] and it's just a big giant mess so
+
+[1963.38 - 1966.5] actually here's what we're gonna do
+
+[1964.52 - 1968.5] we're gonna have
+
+[1966.5 - 1968.5] um
+
+[1968.659 - 1977.96] uh conversation equals
+
+[1971.899 - 1981.02] um n dot join results Dot
+
+[1977.96 - 1981.02] um matches
+
+[1981.279 - 1985.539] and
+
+[1982.88 - 1985.5390000000002] actually
+
+[1985.88 - 1990.7990000000002] wait
+
+[1988.279 - 1993.62] why oh
+
+[1990.799 - 1996.279] right hang on
+
+[1993.62 - 1996.279] so
+
+[1996.74 - 2002.559] what this returns is it doesn't return
+
+[1999.98 - 2005.2] the string
+
+[2002.559 - 2007.74] or does it
+
+[2005.2 - 2007.74] hang on
+
+[2008.679 - 2014.019] in the indexer updates a vector with the
+
+[2010.84 - 2016.779] same ID already present wait this isn't
+
+[2014.019 - 2019.919] a string this is an ID how do I how do I
+
+[2016.779 - 2019.919] actually fetch a string
+
+[2024.94 - 2031.1200000000001] let's see if there is something better
+
+[2028.059 - 2034.299] because if I have to keep track of an i
+
+[2031.12 - 2035.62] of an ID in my own index
+
+[2034.299 - 2040.779] I mean it's not the worst thing in the
+
+[2035.62 - 2044.4399999999998] world but it would be slightly less
+
+[2040.779 - 2046.98] convenient okay so here is some
+
+[2044.44 - 2046.98] information
+
+[2047.14 - 2051.78] oh here we go here we go here we go okay
+
+[2052.599 - 2057.76] yes
+
+[2054.28 - 2060.099] so I give it an ID
+
+[2057.76 - 2063.76] and then a vector
+
+[2060.099 - 2065.0800000000004] and then some metadata
+
+[2063.76 - 2067.7200000000003] okay
+
+[2065.08 - 2069.8199999999997] so then if I want to give it that
+
+[2067.72 - 2073.74] I can filter so
+
+[2069.82 - 2073.7400000000002] you can pull those IDs
+
+[2076.06 - 2081.58] so ID values so the value is that and
+
+[2079.3 - 2085.48] then the metadata is something like this
+
+[2081.58 - 2088.06] so I can set some metadata got it got it
+
+[2085.48 - 2091.32] got it all right that's straightforward
+
+[2088.06 - 2091.32] enough I think
+
+[2091.8 - 2099.3] I guess okay so the message is not this
+
+[2095.859 - 2099.2999999999997] the message is something else
+
+[2099.52 - 2105.82] um but this is actually fine because now
+
+[2101.619 - 2108.04] I can set the time stamp time string the
+
+[2105.82 - 2113.079] speaker and the message itself as the
+
+[2108.04 - 2116.339] metadata so let me go back and grab this
+
+[2113.079 - 2116.3390000000004] because this is basically
+
+[2116.8 - 2121.02] so
+
+[2118.839 - 2125.2] because if you look
+
+[2121.02 - 2129.339] at this set metadata right
+
+[2125.2 - 2131.98] so when we when we uh do this all right
+
+[2129.339 - 2134.38] so here's the upsert so we give it an ID
+
+[2131.98 - 2136.839] and it looks like it can be alphanumeric
+
+[2134.38 - 2138.94] I'm going to try a uuid because I don't
+
+[2136.839 - 2139.839] really care about the ID
+
+[2138.94 - 2142.06] um
+
+[2139.839 - 2144.5789999999997] but I get maybe I should but I just like
+
+[2142.06 - 2148.619] using uuids so instead
+
+[2144.579 - 2148.619] we will use this here
+
+[2149.74 - 2154.54] so we will just give it an arbitrary
+
+[2151.54 - 2154.54] uuid4
+
+[2155.56 - 2159.64] okay
+
+[2157.119 - 2163.54] and then so then then there's the vector
+
+[2159.64 - 2165.7599999999998] so it's ID vector and then metadata so
+
+[2163.54 - 2167.68] the metadata is this guy here that I'm
+
+[2165.76 - 2169.119] working on
+
+[2167.68 - 2171.3999999999996] um
+
+[2169.119 - 2172.54] so we'll just call this a payload
+
+[2171.4 - 2174.76] instead
+
+[2172.54 - 2176.079] so our payload because this is what
+
+[2174.76 - 2177.76] we're this is what we're actually going
+
+[2176.079 - 2179.98] to upload eventually
+
+[2177.76 - 2181.9] all right so the speaker is user the
+
+[2179.98 - 2183.94] time is time stamped the vector we don't
+
+[2181.9 - 2186.099] need the vector in the metadata
+
+[2183.94 - 2189.9] we do need the message we don't need a
+
+[2186.099 - 2192.82] uuid and then a Time string so speaker
+
+[2189.9 - 2194.619] time message time string so that will
+
+[2192.82 - 2196.02] all be in the metadata and actually
+
+[2194.619 - 2198.04] let's just go ahead and call this
+
+[2196.02 - 2199.839] metadata so that we don't hurt our
+
+[2198.04 - 2202.54] brains later
+
+[2199.839 - 2203.92] and then metadata all right so now
+
+[2202.54 - 2205.839] hypothetically
+
+[2203.92 - 2208.42] maybe we'd actually do need to include
+
+[2205.839 - 2213.5789999999997] values true
+
+[2208.42 - 2214.7200000000003] it should include the metadata on fetch
+
+[2213.579 - 2217.96] um query
+
+[2214.72 - 2219.8799999999997] so we can use that to filter but can can
+
+[2217.96 - 2222.52] it return the metadata
+
+[2219.88 - 2224.6800000000003] fetch vectors update vectors
+
+[2222.52 - 2228.339] list collections describe a collection
+
+[2224.68 - 2229.839] delete a collection it might be
+
+[2228.339 - 2231.64] this might not be the way we might have
+
+[2229.839 - 2234.22] to keep
+
+[2231.64 - 2236.6189999999997] um the the messages locally and all that
+
+[2234.22 - 2238.839] this is going to do is return us an ID
+
+[2236.619 - 2240.6400000000003] now if we have a uuid that makes it
+
+[2238.839 - 2242.32] really easy to
+
+[2240.64 - 2244.0] um
+
+[2242.32 - 2246.28] metadata
+
+[2244.0 - 2249.82] let's see all right so we can set the
+
+[2246.28 - 2252.28] metadata metadata let's see all right
+
+[2249.82 - 2253.7200000000003] all metadata is indexed okay that's
+
+[2252.28 - 2255.52] interesting
+
+[2253.72 - 2258.3999999999996] that will slow it down in the long run
+
+[2255.52 - 2262.32] but I kind of don't care
+
+[2258.4 - 2262.32] here let's go way back up to the top
+
+[2263.98 - 2267.599] metadata okay
+
+[2267.76 - 2271.619] without a metadata config
+
+[2273.16 - 2278.8799999999997] okay so it just it just that's setting
+
+[2275.8 - 2278.88] the metadata config
+
+[2278.98 - 2283.54] include metadata
+
+[2281.32 - 2285.7000000000003] okay okay here it is here it is this is
+
+[2283.54 - 2289.859] what I was looking for if we say include
+
+[2285.7 - 2289.859] metadata this will probably return
+
+[2291.099 - 2294.1800000000003] our metadata
+
+[2294.46 - 2298.66] I think
+
+[2296.02 - 2300.22] we'll give it a shot okay
+
+[2298.66 - 2305.0989999999997] all right
+
+[2300.22 - 2305.0989999999997] um so include values include metadata
+
+[2305.619 - 2308.7000000000003] let's see if this works
+
+[2312.82 - 2317.44] and so if this is the case then results
+
+[2315.16 - 2320.3799999999997] matches
+
+[2317.44 - 2323.5] so results will be
+
+[2320.38 - 2328.119] um that was the upsert whereas the query
+
+[2323.5 - 2330.54] so index dot query
+
+[2328.119 - 2330.54] here
+
+[2333.64 - 2337.48] and then wait there was an example of
+
+[2335.859 - 2339.2799999999997] like what was the output what did the
+
+[2337.48 - 2340.56] output look like I think that was under
+
+[2339.28 - 2343.3] Quick Start
+
+[2340.56 - 2346.24] index.query there we go okay so it'll
+
+[2343.3 - 2350.26] give me matches which is itself a list
+
+[2346.24 - 2352.5989999999997] and then the list will include the ID so
+
+[2350.26 - 2354.88] that we're going to use a uuid it will
+
+[2352.599 - 2357.88] give us a score which is the the
+
+[2354.88 - 2360.6400000000003] similarity and then the values but then
+
+[2357.88 - 2363.28] also it should include metadata
+
+[2360.64 - 2365.2599999999998] hypothetically
+
+[2363.28 - 2366.76] um
+
+[2365.26 - 2371.079] I think
+
+[2366.76 - 2373.2400000000002] so that'll have a list and each item in
+
+[2371.079 - 2374.92] the list will be itself a dictionary and
+
+[2373.24 - 2376.24] the dictionary should include metadata
+
+[2374.92 - 2377.98] and the metadata should include a
+
+[2376.24 - 2380.3999999999996] message as well as a time stamp and a
+
+[2377.98 - 2380.4] few other things
+
+[2380.92 - 2386.579] this is all very confusing
+
+[2383.38 - 2386.579] um but with all that said
+
+[2395.98 - 2400.96] that needs to be in that correct order
+
+[2398.56 - 2402.52] does it I don't know
+
+[2400.96 - 2405.099] ah
+
+[2402.52 - 2407.079] it might be actually simpler just to
+
+[2405.099 - 2409.3590000000004] save
+
+[2407.079 - 2411.7000000000003] to save our stuff locally
+
+[2409.359 - 2414.9] so what we'll do actually is we'll we'll
+
+[2411.7 - 2414.8999999999996] call we'll um
+
+[2416.68 - 2421.1189999999997] I was I was afraid I kind of I kind of
+
+[2418.54 - 2422.74] knew that this would be the result
+
+[2421.119 - 2426.1600000000003] um
+
+[2422.74 - 2427.9599999999996] uh let's see unique ID equals string
+
+[2426.16 - 2429.7] four
+
+[2427.96 - 2430.78] uh and the reason that I knew this was
+
+[2429.7 - 2432.8799999999997] the thing is because I know that the
+
+[2430.78 - 2435.76] underlying technology is uh the Facebook
+
+[2432.88 - 2438.099] AI semantic search which all it does is
+
+[2435.76 - 2438.76] return an ID
+
+[2438.099 - 2440.26] um
+
+[2438.76 - 2443.26] so what we'll do is we'll save the
+
+[2440.26 - 2443.8590000000004] metadata separately
+
+[2443.26 - 2446.079] um
+
+[2443.859 - 2448.18] yeah yeah
+
+[2446.079 - 2451.3590000000004] and
+
+[2448.18 - 2453.64] yeah we will go ahead and save we won't
+
+[2451.359 - 2456.5789999999997] save we won't save the vector because
+
+[2453.64 - 2459.4] that's a huge that's a huge burden but
+
+[2456.579 - 2462.7000000000003] we will save the the uuid all right so
+
+[2459.4 - 2464.38] we'll do unique ID that's fine so the
+
+[2462.7 - 2466.24] metadata this will this will actually be
+
+[2464.38 - 2468.28] saved as a Json file the same way that
+
+[2466.24 - 2472.4399999999996] we did over here
+
+[2468.28 - 2472.44] okay so we'll do save Json
+
+[2472.72 - 2477.52] thank you
+
+[2473.8 - 2480.2200000000003] Nexus and then the file name
+
+[2477.52 - 2481.54] file name equals
+
+[2480.22 - 2483.8199999999997] we'll do
+
+[2481.54 - 2485.74] unique ID
+
+[2483.82 - 2489.3] here actually no we just
+
+[2485.74 - 2489.2999999999997] do dot Json
+
+[2491.26 - 2495.28] and then we'll use the unique ID for the
+
+[2493.48 - 2498.4] placeholder okay
+
+[2495.28 - 2500.619] and then metadata here
+
+[2498.4 - 2503.44] and we'll remove metadata here so this
+
+[2500.619 - 2505.839] will this will just uh Pinecone will
+
+[2503.44 - 2508.78] just serve as instant search and then
+
+[2505.839 - 2511.66] it'll tell us which uuids to grab later
+
+[2508.78 - 2515.7000000000003] okay cool
+
+[2511.66 - 2515.7] ah this is a hot mess
+
+[2515.92 - 2518.7400000000002] um all right so we don't need values or
+
+[2517.359 - 2523.18] metadata
+
+[2518.74 - 2525.339] all we need is the ID
+
+[2523.18 - 2528.52] yeah all we need is the ID so it should
+
+[2525.339 - 2532.66] return a list of dictionaries with IDs
+
+[2528.52 - 2534.82] when we do the search okay
+
+[2532.66 - 2536.98] and so then what we do is we need to we
+
+[2534.82 - 2539.1400000000003] need to we need to um
+
+[2536.98 - 2542.44] recompose the conversation
+
+[2539.14 - 2545.3799999999997] so let's do load conversation
+
+[2542.44 - 2549.2200000000003] and then we'll say results
+
+[2545.38 - 2550.839] um okay so results should be actually no
+
+[2549.22 - 2554.7999999999997] yeah
+
+[2550.839 - 2555.64] we'll say uh yeah result should be
+
+[2554.8 - 2558.48] um
+
+[2555.64 - 2558.48] uh
+
+[2559.48 - 2568.42] should be addict with matches
+
+[2564.4 - 2569.619] um which is a list of dicks
+
+[2568.42 - 2572.56] um
+
+[2569.619 - 2575.88] with uh
+
+[2572.56 - 2575.88] ID okay
+
+[2577.079 - 2581.94] lowercase this because that is the
+
+[2579.04 - 2581.94] actual name of the element
+
+[2582.76 - 2587.38] so
+
+[2583.96 - 2590.38] that should be what we need there
+
+[2587.38 - 2593.7400000000002] so now we need to do a function def
+
+[2590.38 - 2595.6600000000003] equal no that's not how that works
+
+[2593.74 - 2596.9199999999996] um def what did I do load conversation
+
+[2595.66 - 2600.24] okay
+
+[2596.92 - 2600.2400000000002] so then results
+
+[2601.599 - 2605.079] and I know a lot of people say why don't
+
+[2603.339 - 2607.7799999999997] you use vs code and copilot and stuff
+
+[2605.079 - 2610.3] it's like I hate Ides I particularly
+
+[2607.78 - 2612.0400000000004] hate vs code but also that kind of
+
+[2610.3 - 2614.46] defeats the point of like
+
+[2612.04 - 2617.2599999999998] showing you how to code
+
+[2614.46 - 2618.52] also I realize that I am increasingly a
+
+[2617.26 - 2622.0] liar because this is not a low code
+
+[2618.52 - 2625.24] experiment let's see if we can get get
+
+[2622.0 - 2626.8] this to uh to to write it though
+
+[2625.24 - 2628.4799999999996] okay
+
+[2626.8 - 2631.3590000000004] uh
+
+[2628.48 - 2632.859] let's write a function
+
+[2631.359 - 2633.819] that
+
+[2632.859 - 2636.339] um
+
+[2633.819 - 2639.16] that accepts
+
+[2636.339 - 2640.0] a results
+
+[2639.16 - 2643.0] um
+
+[2640.0 - 2645.24] object from a pine cone
+
+[2643.0 - 2648.48] query
+
+[2645.24 - 2650.0789999999997] this uh
+
+[2648.48 - 2653.68] returns
+
+[2650.079 - 2657.819] a list of IDs
+
+[2653.68 - 2660.2799999999997] which are used for the file names
+
+[2657.819 - 2664.119] of the um
+
+[2660.28 - 2666.4] of the objects we are trying to load
+
+[2664.119 - 2668.5] load from local
+
+[2666.4 - 2670.42] storage
+
+[2668.5 - 2675.4] um
+
+[2670.42 - 2679.0] these files are in a folder called Nexus
+
+[2675.4 - 2682.54] and they are appended
+
+[2679.0 - 2687.7] with DOT Json
+
+[2682.54 - 2691.72] so so now write a very simple python
+
+[2687.7 - 2695.5789999999997] function that accepts results
+
+[2691.72 - 2699.64] um and then loads
+
+[2695.579 - 2703.8390000000004] then let's see yeah loads the Json files
+
+[2699.64 - 2705.94] with matching ID file name
+
+[2703.839 - 2708.04] does that make sense
+
+[2705.94 - 2710.5] all right let's see what it does
+
+[2708.04 - 2711.7] let that run
+
+[2710.5 - 2713.5] yep
+
+[2711.7 - 2716.2599999999998] all right
+
+[2713.5 - 2718.06] load objects from Nexus object IDs
+
+[2716.26 - 2720.7000000000003] equals results dot IDs I don't think
+
+[2718.06 - 2725.02] that that's how that works
+
+[2720.7 - 2728.02] unless maybe it does does results.ids
+
+[2725.02 - 2730.74] is that part of the
+
+[2728.02 - 2730.74] payload
+
+[2731.319 - 2733.92] like
+
+[2734.44 - 2738.96] dot IDs like that doesn't seem to be
+
+[2740.14 - 2745.72] that doesn't seem to be part of it
+
+[2742.96 - 2749.64] so index query
+
+[2745.72 - 2749.64] ID string optional
+
+[2750.64 - 2754.66] example yeah so like here's here's a
+
+[2753.16 - 2759.52] filter it doesn't it doesn't give me an
+
+[2754.66 - 2760.96] example of the response so pine cone if
+
+[2759.52 - 2762.94] you're watching it would be helpful if
+
+[2760.96 - 2766.0] you gave me an example
+
+[2762.94 - 2767.619] of the response object
+
+[2766.0 - 2770.579] because I don't know that chat GPT
+
+[2767.619 - 2770.579] understands this
+
+[2770.98 - 2774.579] um
+
+[2772.9 - 2777.4] yeah
+
+[2774.579 - 2779.6800000000003] but the logic here is sound enough
+
+[2777.4 - 2783.579] because we know that that we know that
+
+[2779.68 - 2786.7599999999998] it's a list of objects so we'll do
+
+[2783.579 - 2791.8] result equals list and then we'll do um
+
+[2786.76 - 2793.6600000000003] four uh let's see m in results dot
+
+[2791.8 - 2796.0600000000004] matches
+
+[2793.66 - 2799.2599999999998] I think that was the um
+
+[2796.06 - 2799.2599999999998] go back up to Quick Start
+
+[2800.079 - 2808.2000000000003] yep so matches so for for that what we
+
+[2804.52 - 2811.78] need then is the ID
+
+[2808.2 - 2813.8999999999996] so then we'll have um
+
+[2811.78 - 2816.8190000000004] file name equals
+
+[2813.9 - 2821.04] m ID
+
+[2816.819 - 2821.04] plus actually here we'll just do
+
+[2821.98 - 2827.079] I'll grab my load Json
+
+[2824.2 - 2829.1189999999997] let's see open file save file load Json
+
+[2827.079 - 2833.319] save Json
+
+[2829.119 - 2833.319] grab these functions
+
+[2835.359 - 2837.66] okay
+
+[2839.859 - 2846.4] this will do info equals load Json and
+
+[2844.06 - 2848.56] all I need to do is pass it the file
+
+[2846.4 - 2852.579] path
+
+[2848.56 - 2855.2799999999997] so the file path will be Nexus
+
+[2852.579 - 2860.079] um and then we'll backfill that dot Json
+
+[2855.28 - 2862.38] and then this will be M ID
+
+[2860.079 - 2865.599] and I think that should load the message
+
+[2862.38 - 2868.54] and the message will have this metadata
+
+[2865.599 - 2870.52] right so we'll know we'll know the uuid
+
+[2868.54 - 2873.7599999999998] it was in the file name already but now
+
+[2870.52 - 2877.119] it's a handy dandy object time string
+
+[2873.76 - 2878.5] message timestamp and user so what now
+
+[2877.119 - 2880.6600000000003] now what we can do is we can actually
+
+[2878.5 - 2885.16] recall we can recall all the most
+
+[2880.66 - 2886.66] relevant things and sort it by time
+
+[2885.16 - 2890.2599999999998] okay
+
+[2886.66 - 2891.42] so info equals load Json we get the we
+
+[2890.26 - 2894.4] get that information
+
+[2891.42 - 2897.88] and then I think I already had this
+
+[2894.4 - 2900.64] function here load convo
+
+[2897.88 - 2903.119] yep so we load it load it we sort it
+
+[2900.64 - 2903.1189999999997] okay
+
+[2904.54 - 2912.099] and then we do result dot append info
+
+[2909.28 - 2915.46] ordered equals sorted result
+
+[2912.099 - 2917.1400000000003] key Lambda D time
+
+[2915.46 - 2918.76] um yep reverse equals false sort them
+
+[2917.14 - 2922.2599999999998] all chronologically
+
+[2918.76 - 2922.26] yes that should be good
+
+[2922.54 - 2929.339] and then so after we load the con convo
+
+[2925.96 - 2929.339] we need to format it
+
+[2932.38 - 2937.0] and then recent
+
+[2934.3 - 2938.44] get last messages okay I don't I don't
+
+[2937.0 - 2939.819] think that that's the correct way to do
+
+[2938.44 - 2942.2200000000003] it
+
+[2939.819 - 2945.579] um but so if we look here the message
+
+[2942.22 - 2948.72] saved has all this so all we need to do
+
+[2945.579 - 2948.7200000000003] is then reconstruct
+
+[2951.339 - 2956.14] all we need to do is then sorry brains
+
+[2954.579 - 2958.0600000000004] are a little bit scattered
+
+[2956.14 - 2959.5] so ordered equals this so rather than
+
+[2958.06 - 2963.2799999999997] return ordered
+
+[2959.5 - 2965.339] all we need to do then is say
+
+[2963.28 - 2965.3390000000004] um
+
+[2965.92 - 2973.859] message block equals
+
+[2969.339 - 2973.859] backslash n dot join
+
+[2974.079 - 2977.099] um oh actually here
+
+[2978.4 - 2985.1800000000003] let's do some list comprehension
+
+[2981.46 - 2986.26] so then we'll just do messages equals
+
+[2985.18 - 2987.5789999999997] um
+
+[2986.26 - 2990.3590000000004] I
+
+[2987.579 - 2990.3590000000004] message
+
+[2990.46 - 2995.02] oh that's why my my keyboard is slid
+
+[2992.619 - 2997.42] over that's why I keep fudging it I was
+
+[2995.02 - 3000.72] like I'm leaning a little bit all right
+
+[2997.42 - 3001.7400000000002] um iMessage for I in ordered so this is
+
+[3000.72 - 3003.359] this is what's called a list
+
+[3001.74 - 3005.5789999999997] comprehension which basically just says
+
+[3003.359 - 3007.14] let's make a simple list instead of a
+
+[3005.579 - 3009.0600000000004] nested list
+
+[3007.14 - 3011.54] um all right so then we'll do join I
+
+[3009.06 - 3011.54] messages
+
+[3012.0 - 3019.319] um dot strip at the end and then return
+
+[3015.96 - 3020.099] message block and you could just do
+
+[3019.319 - 3024.38] yeah
+
+[3020.099 - 3024.38] simplify this return this
+
+[3024.42 - 3029.28] okay so in theory this returns given the
+
+[3028.14 - 3031.6189999999997] results
+
+[3029.28 - 3034.8590000000004] this returns just the most recent
+
+[3031.619 - 3036.599] conversation that we had or not most
+
+[3034.859 - 3039.359] recent uh most relevant conversation
+
+[3036.599 - 3043.26] that we had with Raven so now we can
+
+[3039.359 - 3046.02] populate the um the prompt so prompt
+
+[3043.26 - 3047.099] response we don't need any notes we're
+
+[3046.02 - 3048.3] just
+
+[3047.099 - 3050.599] doing
+
+[3048.3 - 3052.98] infinite memory
+
+[3050.599 - 3055.44] so prompt equals open file prompt
+
+[3052.98 - 3058.68] response replace
+
+[3055.44 - 3059.9] um here we can get rid of all this
+
+[3058.68 - 3063.54] replace
+
+[3059.9 - 3064.859] conversation with conversation and so
+
+[3063.54 - 3067.14] what this is going to do is it's going
+
+[3064.859 - 3069.9] to jump over here and we're just going
+
+[3067.14 - 3072.66] to replace this so it will it will be
+
+[3069.9 - 3076.28] sorted chronologically but it will also
+
+[3072.66 - 3079.74] only have the most relevant memory uh uh
+
+[3076.28 - 3082.6800000000003] conversation elements so this will go
+
+[3079.74 - 3084.8999999999996] back infinitely far regardless of how
+
+[3082.68 - 3087.2999999999997] long the conversation is it's only going
+
+[3084.9 - 3089.2200000000003] to pull the 15 most recent relevant
+
+[3087.3 - 3091.44] things so we should actually probably
+
+[3089.22 - 3092.3999999999996] parameterize this
+
+[3091.44 - 3095.7000000000003] um
+
+[3092.4 - 3099.119] so we'll do like uh uh let's see
+
+[3095.7 - 3102.24] convo length equals 15 and then we'll do
+
+[3099.119 - 3104.4] top k equals convo length
+
+[3102.24 - 3105.72] and so then because we do have a really
+
+[3104.4 - 3108.1800000000003] large window so we can actually probably
+
+[3105.72 - 3111.0589999999997] up this to like 30.
+
+[3108.18 - 3113.0989999999997] um because we have uh unless unless the
+
+[3111.059 - 3115.26] messages are super long
+
+[3113.099 - 3117.9] um and also since we're offloading a big
+
+[3115.26 - 3121.559] chunk of the search it's all fine okay
+
+[3117.9 - 3123.2400000000002] so then we do
+
+[3121.559 - 3124.44] um we basically have to do the same
+
+[3123.24 - 3126.9799999999996] thing
+
+[3124.44 - 3126.98] previous
+
+[3131.04 - 3135.0] generate response vectorized et cetera
+
+[3133.2 - 3138.48] et cetera so output so this will be
+
+[3135.0 - 3140.94] Raven's response time stamp
+
+[3138.48 - 3143.88] times string
+
+[3140.94 - 3146.28] message
+
+[3143.88 - 3148.559] yep we get the message and then the
+
+[3146.28 - 3150.9] vector
+
+[3148.559 - 3152.3590000000004] we're going to do this this way so the
+
+[3150.9 - 3155.94] vector is that
+
+[3152.359 - 3158.64] we're going to pick another unique ID do
+
+[3155.94 - 3160.819] this the same way
+
+[3158.64 - 3160.819] thank you
+
+[3163.8 - 3168.48] all right so instead the metadata or the
+
+[3166.02 - 3169.8] speaker will be Raven the rest will be
+
+[3168.48 - 3172.68] the same because we've already got that
+
+[3169.8 - 3175.52] save Json we give it the same unique ID
+
+[3172.68 - 3178.319] we give it the metadata payload append
+
+[3175.52 - 3179.94] unique ID and vector
+
+[3178.319 - 3181.98] so that's all there
+
+[3179.94 - 3184.38] so now it's searchable
+
+[3181.98 - 3186.48] and I think
+
+[3184.38 - 3188.839] the last bit is we just need to give the
+
+[3186.48 - 3188.839] output
+
+[3190.619 - 3195.1800000000003] oh yeah we did we did save Json so we
+
+[3193.26 - 3197.46] saved it to the Nexus let's go ahead and
+
+[3195.18 - 3199.7999999999997] make that folder
+
+[3197.46 - 3202.2] folder Nexus
+
+[3199.8 - 3206.2400000000002] and then
+
+[3202.2 - 3206.24] print the output and it's that simple
+
+[3209.819 - 3214.2] and my friends if I'm not mistaken we
+
+[3211.68 - 3216.02] are ready to test this
+
+[3214.2 - 3218.819] oh boy
+
+[3216.02 - 3220.2] this is gonna this will either work or
+
+[3218.819 - 3223.819] it will explode
+
+[3220.2 - 3223.819] python chat 2.
+
+[3224.339 - 3229.819] user
+
+[3225.599 - 3232.1400000000003] hello Raven are you awake
+
+[3229.819 - 3234.7799999999997] uh list of pen takes exactly one
+
+[3232.14 - 3236.22] argument and two given
+
+[3234.78 - 3238.98] oh right
+
+[3236.22 - 3240.54] line 102 append this is supposed to be a
+
+[3238.98 - 3243.14] tuple
+
+[3240.54 - 3243.14] I knew that
+
+[3244.859 - 3247.98] um
+
+[3246.18 - 3249.359] payload append oh you know what else I
+
+[3247.98 - 3250.98] forgot to do I forgot to actually do the
+
+[3249.359 - 3255.5989999999997] upsert
+
+[3250.98 - 3258.319] um so now we'll do VDB dot up search
+
+[3255.599 - 3258.319] payload
+
+[3264.839 - 3269.359] hello Raven how are you today
+
+[3274.92 - 3280.559] hey cool okay so we got a response
+
+[3279.059 - 3281.94] so let's check okay previous
+
+[3280.559 - 3283.7400000000002] conversation there's nothing here
+
+[3281.94 - 3285.0] obviously
+
+[3283.74 - 3287.64] um
+
+[3285.0 - 3289.5] of any society in order to cool so
+
+[3287.64 - 3291.5989999999997] Raven's already waxing philosophical
+
+[3289.5 - 3293.46] about the core objective functions yes
+
+[3291.599 - 3295.38] remember they are very low on the stack
+
+[3293.46 - 3296.64] that is on purpose
+
+[3295.38 - 3299.339] um what do you think are the primary
+
+[3296.64 - 3304.2599999999998] causes of suffering in poverty
+
+[3299.339 - 3308.359] um well uh suffering is intrinsic uh to
+
+[3304.26 - 3308.3590000000004] life according to Buddhism
+
+[3309.059 - 3315.3190000000004] so then what we'll do is once we get a
+
+[3311.339 - 3315.319] response we will make sure
+
+[3315.42 - 3319.6800000000003] let's see
+
+[3317.16 - 3321.5989999999997] yep there we go
+
+[3319.68 - 3323.5789999999997] we're getting we're getting responses so
+
+[3321.599 - 3324.78] we know that the search is working all
+
+[3323.579 - 3326.46] this is good
+
+[3324.78 - 3328.619] this is good
+
+[3326.46 - 3330.78] some of the primary causes include
+
+[3328.619 - 3332.819] inequality all right so Raven is kind of
+
+[3330.78 - 3336.02] talking to himself
+
+[3332.819 - 3336.02] I also misspelled previous
+
+[3336.059 - 3339.059] conversation
+
+[3342.48 - 3345.78] um right
+
+[3344.4 - 3347.52] do you think there are any solutions to
+
+[3345.78 - 3350.6400000000003] reducing poverty
+
+[3347.52 - 3353.28] um actually that's uh kind of your
+
+[3350.64 - 3357.319] purpose isn't it
+
+[3353.28 - 3362.1800000000003] um you are a chat bot and prototype AGI
+
+[3357.319 - 3366.42] meant to help us with these goals
+
+[3362.18 - 3369.48] so let me turn that around
+
+[3366.42 - 3372.96] how do you think you can help reduce
+
+[3369.48 - 3375.0] suffering and increase
+
+[3372.96 - 3376.44] prosperity
+
+[3375.0 - 3378.9] so let's see what Raven thinks about
+
+[3376.44 - 3381.359] this now also one thing to keep in mind
+
+[3378.9 - 3384.0] is because okay so this is a brand new
+
+[3381.359 - 3386.18] conversation it's super short
+
+[3384.0 - 3386.18] um
+
+[3387.18 - 3391.5] let's see
+
+[3389.339 - 3392.88] yep gives me some stuff let's see do you
+
+[3391.5 - 3395.88] think there are any other solutions to
+
+[3392.88 - 3397.44] this so on and so forth so let me show
+
+[3395.88 - 3400.6400000000003] you what's going on in the Nexus so this
+
+[3397.44 - 3400.64] is the raw data right
+
+[3400.68 - 3405.5989999999997] there we go
+
+[3403.079 - 3407.88] time string so one thing that that I
+
+[3405.599 - 3411.059] noticed is that Raven spit out a time
+
+[3407.88 - 3413.88] string here so that's not exactly what
+
+[3411.059 - 3415.559] we want so let's see
+
+[3413.88 - 3418.5] I'll now provide a long detailed
+
+[3415.559 - 3420.48] response oh right this happened last
+
+[3418.5 - 3422.64] time because I'm including the time
+
+[3420.48 - 3425.46] string here
+
+[3422.64 - 3427.2] so I think what we need to do is
+
+[3425.46 - 3430.2200000000003] I think we actually do need to go back
+
+[3427.2 - 3430.22] and remove
+
+[3430.68 - 3434.64] um
+
+[3432.059 - 3437.579] we need to remove
+
+[3434.64 - 3439.02] uh yeah I actually did this exact thing
+
+[3437.579 - 3441.54] last time where the message that I've
+
+[3439.02 - 3443.94] that I vectorized and saved included all
+
+[3441.54 - 3445.38] this and it's not supposed to this is
+
+[3443.94 - 3447.18] only supposed to be there on the output
+
+[3445.38 - 3449.52] I think
+
+[3447.18 - 3453.0589999999997] um because basically basically what it
+
+[3449.52 - 3454.92] what chat GPT is doing or not chat GPT
+
+[3453.059 - 3457.02] um gbd3 is doing is it's noticing the
+
+[3454.92 - 3460.98] pattern and it's saying oh well I'm
+
+[3457.02 - 3462.42] supposed to uh regurgitate this pattern
+
+[3460.98 - 3465.18] ah
+
+[3462.42 - 3469.8] so that's not correct actually
+
+[3465.18 - 3472.5] what I did was I added this information
+
+[3469.8 - 3475.7400000000002] um so that so that when Raven is reading
+
+[3472.5 - 3477.24] it when it's when it's put in Raven can
+
+[3475.74 - 3478.6189999999997] see the time stamps but I think that
+
+[3477.24 - 3480.4199999999996] that is actually just Superfluous
+
+[3478.619 - 3482.28] information so what I'm going to do is
+
+[3480.42 - 3484.6800000000003] I'm going to duplicate this and then
+
+[3482.28 - 3485.8190000000004] just say message equals
+
+[3484.68 - 3488.04] a
+
+[3485.819 - 3490.2599999999998] whoops and then we'll do the same thing
+
+[3488.04 - 3492.96] down here
+
+[3490.26 - 3495.119] message equals output
+
+[3492.96 - 3496.859] okay so that's fine
+
+[3495.119 - 3498.3] all right so suffering and poverty are
+
+[3496.859 - 3499.859] complex issues that are multifaceted
+
+[3498.3 - 3501.42] Solutions
+
+[3499.859 - 3504.359] um blah blah blah this can be done
+
+[3501.42 - 3509.359] through initiatives such as this okay
+
+[3504.359 - 3509.359] um Raven do you know what you are
+
+[3514.38 - 3519.119] let's see what Raven says
+
+[3517.38 - 3522.059] okay so Raven's basically just talking
+
+[3519.119 - 3525.599] to himself so that's no good
+
+[3522.059 - 3529.2200000000003] um so if we go back and look at
+
+[3525.599 - 3529.2200000000003] let's look at the last log
+
+[3530.16 - 3532.98] um
+
+[3531.0 - 3535.079] oh
+
+[3532.98 - 3538.619] Raven's not responding to my question
+
+[3535.079 - 3540.0] because I don't have my thing so this is
+
+[3538.619 - 3544.02] why Raven is just talking to himself
+
+[3540.0 - 3546.48] okay so so we need to add we need to we
+
+[3544.02 - 3548.579] we do need to insert at least my most
+
+[3546.48 - 3553.079] recent response
+
+[3548.579 - 3557.3390000000004] um okay so we need to go into our prompt
+
+[3553.079 - 3557.3390000000004] and so then we'll do user
+
+[3557.819 - 3561.5589999999997] um and then we'll do message
+
+[3565.02 - 3570.48] and so then what we need to do is for
+
+[3567.66 - 3575.22] the replace
+
+[3570.48 - 3578.76] um let's see output and there we go
+
+[3575.22 - 3580.02] and then we'll do replace message
+
+[3578.76 - 3583.3190000000004] with
+
+[3580.02 - 3585.18] um a because that's my user input
+
+[3583.319 - 3587.72] because otherwise this is why Raven's
+
+[3585.18 - 3587.72] talking to himself
+
+[3590.099 - 3594.54] okay
+
+[3591.66 - 3597.0789999999997] hello Raven uh what were we talking
+
+[3594.54 - 3597.079] about
+
+[3603.68 - 3607.14] yep we were discussing this we were
+
+[3606.059 - 3609.48] discussing do you think there are any
+
+[3607.14 - 3614.04] other Solutions um
+
+[3609.48 - 3617.579] let's change topic I want to know
+
+[3614.04 - 3619.619] um I wanna I want to uh discuss what you
+
+[3617.579 - 3624.9] are
+
+[3619.619 - 3624.9] do you know what you are Raven
+
+[3628.26 - 3631.98] and so what I do want to say I'm a
+
+[3629.88 - 3634.92] chatbot and prototype AGI Okay cool so
+
+[3631.98 - 3635.76] he remembered when I said that
+
+[3634.92 - 3637.619] um
+
+[3635.76 - 3638.6400000000003] my primary goal is to provide a platform
+
+[3637.619 - 3640.1400000000003] for people to discuss and understand
+
+[3638.64 - 3642.42] underlying causes of suffering and
+
+[3640.14 - 3643.74] poverty to explore potential Solutions I
+
+[3642.42 - 3644.88] have also designed to provide a safe and
+
+[3643.74 - 3646.9799999999996] secure environment for people to share
+
+[3644.88 - 3648.6600000000003] their thoughts and ideas my capabilities
+
+[3646.98 - 3649.619] include natural angle of processing
+
+[3648.66 - 3651.24] machine learning and artificial
+
+[3649.619 - 3654.42] intelligence
+
+[3651.24 - 3656.2799999999997] um yeah that's that's uh those are some
+
+[3654.42 - 3657.14] good inferences
+
+[3656.28 - 3662.52] um
+
+[3657.14 - 3666.54] uh were actually still exploring
+
+[3662.52 - 3668.46] um what you are and how to deploy you
+
+[3666.54 - 3670.619] um so let's see what he says to that so
+
+[3668.46 - 3673.2] anyways you get the picture it's working
+
+[3670.619 - 3676.2000000000003] there's all a million little bugs to
+
+[3673.2 - 3679.4399999999996] figure out but we just set up and we are
+
+[3676.2 - 3682.2] using Pinecone as
+
+[3679.44 - 3684.359] a Nexus service so that's pretty cool uh
+
+[3682.2 - 3685.6189999999997] Raven's final output as a chatbot and
+
+[3684.359 - 3687.359] prototype AGI I'm designed to reduce
+
+[3685.619 - 3689.76] suffering and increase Prosperity forgot
+
+[3687.359 - 3691.44] about the increase understanding
+
+[3689.76 - 3693.96] um just kind of regurgitating what he
+
+[3691.44 - 3695.339] said I'm also designer Okay blah blah
+
+[3693.96 - 3698.099] blah
+
+[3695.339 - 3702.119] okay so not the smartest thing but we do
+
+[3698.099 - 3703.559] have a very basic Nexus Service uh I
+
+[3702.119 - 3706.46] think we'll call it there because this
+
+[3703.559 - 3706.46] was a raging success

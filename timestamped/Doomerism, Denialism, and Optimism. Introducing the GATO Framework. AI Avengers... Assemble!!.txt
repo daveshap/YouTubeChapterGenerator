@@ -1,0 +1,2831 @@
+[1.38 - 6.859] hey everybody David Shapiro here with a
+
+[4.38 - 11.46] video today's video is going to be about
+
+[6.859 - 15.0] doomerism uh denialism uh an alternative
+
+[11.46 - 16.68] perspective optimism as well as a very
+
+[15.0 - 19.619] comprehensive framework that I'm putting
+
+[16.68 - 23.1] together with a lot of folks so let's go
+
+[19.619 - 24.3] ahead and take a look at some ideas and
+
+[23.1 - 29.519000000000002] some data
+
+[24.3 - 32.160000000000004] so we are all talking about exponential
+
+[29.519 - 35.399] growth if you look at comments across
+
+[32.16 - 39.239] the internet and even mainstream news
+
+[35.399 - 41.7] today talking about the rise of AI one
+
+[39.239 - 44.64] thing that happens is that a lot of
+
+[41.7 - 48.0] people tend to think in terms of linear
+
+[44.64 - 50.399] progress you say oh well 10 years ago we
+
+[48.0 - 52.68] were here and now we're you know now
+
+[50.399 - 54.239000000000004] we're there and so 10 years from now
+
+[52.68 - 56.34] we'll basically continue with the same
+
+[54.239 - 59.94] amount of progress that's not actually
+
+[56.34 - 62.1] true when you shorten that time Horizon
+
+[59.94 - 64.08] to say oh well we've made a lot of
+
+[62.1 - 66.42] progress in the last few months maybe
+
+[64.08 - 68.82] that's the new rate of progress that's
+
+[66.42 - 71.22] still not actually true
+
+[68.82 - 73.67999999999999] with exponential growth which is what we
+
+[71.22 - 76.92] are seeing right now the actual uh
+
+[73.68 - 79.38000000000001] correct assumption to make is that uh is
+
+[76.92 - 82.56] that you know the X amount of time from
+
+[79.38 - 83.82] from now will actually have continued to
+
+[82.56 - 87.18] accelerate
+
+[83.82 - 90.479] now this is a nice lovely handmade graph
+
+[87.18 - 92.52000000000001] that is shown in perfect clear data but
+
+[90.479 - 95.579] let me show you some actual some real
+
+[92.52 - 97.19999999999999] data about parameter counts in neural
+
+[95.579 - 99.79899999999999] networks
+
+[97.2 - 102.96000000000001] so here you can see it growing
+
+[99.799 - 105.119] exponentially and then the exponential
+
+[102.96 - 106.74] curve accelerates and it starts growing
+
+[105.119 - 110.34] logarithmically
+
+[106.74 - 112.79899999999999] so we are at the knee of the curve
+
+[110.34 - 114.36] already so the knee of the curve is this
+
+[112.799 - 117.47900000000001] part right here
+
+[114.36 - 119.399] where the acceleration really starts to
+
+[117.479 - 121.02] take off but the thing is is when you're
+
+[119.399 - 122.64] in the middle of it it's kind of like
+
+[121.02 - 124.92] boiled frog syndrome which we'll talk
+
+[122.64 - 129.239] about a little bit more in just a minute
+
+[124.92 - 131.34] so with this data in mind let's jump
+
+[129.239 - 134.58] into the rest of the video
+
+[131.34 - 136.98] so I mentioned doomerism and denialism
+
+[134.58 - 139.92000000000002] and then finally optimism these are kind
+
+[136.98 - 142.79999999999998] of the three main categories that people
+
+[139.92 - 145.44] by and large fall into there's also
+
+[142.8 - 146.87900000000002] people that are apathetic uh which I
+
+[145.44 - 149.64] didn't include that just because it's a
+
+[146.879 - 153.84] waste of screen space but so doomerism
+
+[149.64 - 157.67999999999998] is uh the is the the belief that uh
+
+[153.84 - 160.14000000000001] decline collapse Calamity is inevitable
+
+[157.68 - 162.3] that we are going to end up in some sort
+
+[160.14 - 163.98] of Extinction scenario or dystopian
+
+[162.3 - 166.8] outcome and that there's not really
+
+[163.98 - 168.17999999999998] anything that we can do to change it so
+
+[166.8 - 170.4] this is why there's been lots of
+
+[168.18 - 172.26000000000002] comments around like Malik which the
+
+[170.4 - 174.36] idea of Malik will get into that a
+
+[172.26 - 177.66] little bit as well
+
+[174.36 - 179.58] um so then there's denialism so the
+
+[177.66 - 183.12] denialists basically say there's nothing
+
+[179.58 - 186.42000000000002] to see here uh AGI is not even possible
+
+[183.12 - 189.66] or it's still decades away hard takeoff
+
+[186.42 - 192.11999999999998] is not possible or it's decades away and
+
+[189.66 - 194.819] uh then finally optimism techno
+
+[192.12 - 196.92000000000002] optimists is people like myself who are
+
+[194.819 - 199.2] just like yeah like we can do this these
+
+[196.92 - 203.33999999999997] problems are all solvable and it will
+
+[199.2 - 205.98] ultimately end up in the better so what
+
+[203.34 - 208.019] I want to say is is that this is I'm not
+
+[205.98 - 209.51899999999998] talking about individuals don't take it
+
+[208.019 - 211.08] personally if you identify with these
+
+[209.519 - 213.72] what I'm talking about here is thought
+
+[211.08 - 216.42000000000002] leaders uh people like content creators
+
+[213.72 - 220.2] like myself leading scientists people on
+
+[216.42 - 223.2] Twitter uh basically famous people or
+
+[220.2 - 227.22] respected people in The Establishment in
+
+[223.2 - 230.159] the industry who take these mindsets uh
+
+[227.22 - 233.22] so again not not calling on any
+
+[230.159 - 236.04] particular commenter or fan or people on
+
+[233.22 - 238.2] Reddit or Twitter this is talking about
+
+[236.04 - 239.459] basically like people at my level or
+
+[238.2 - 240.659] above
+
+[239.459 - 243.599] um
+
+[240.659 - 245.28] and also this is like it obviously
+
+[243.599 - 246.84] doesn't fall into this symbol of
+
+[245.28 - 248.819] categories I'm just kind of talking
+
+[246.84 - 250.62] about the the kind of extreme ends most
+
+[248.819 - 251.879] people fall somewhere in the middle like
+
+[250.62 - 253.5] if you were to draw this out on a
+
+[251.879 - 254.939] triangle most people are somewhere in
+
+[253.5 - 257.04] the middle there's a few people at the
+
+[254.939 - 258.079] extreme points I'm an extreme optimist
+
+[257.04 - 260.88] so
+
+[258.079 - 262.56] in in the yellow corner is the extreme
+
+[260.88 - 265.139] optimists in the red and green Corners
+
+[262.56 - 268.44] are the dumerous and denialists
+
+[265.139 - 269.82] um okay so but as promised by the
+
+[268.44 - 272.52] opening title I want to take a
+
+[269.82 - 274.74] sympathetic look at these other uh other
+
+[272.52 - 278.58] uh uh dispositions
+
+[274.74 - 280.5] so Sympathy for the Doomer one it is
+
+[278.58 - 283.56] good to acknowledge the existential
+
+[280.5 - 285.72] risks of AI this has been true of all
+
+[283.56 - 288.06] new technologies whether it's Medical
+
+[285.72 - 290.40000000000003] Technology nuclear technology pretty
+
+[288.06 - 292.44] much every new technology today carries
+
+[290.4 - 295.25899999999996] with it some level of existential risk
+
+[292.44 - 297.54] right you know the whether it's the
+
+[295.259 - 300.41900000000004] ability to do Gene engineering or
+
+[297.54 - 302.639] engineer new uh strains of flu or
+
+[300.419 - 304.919] coronavirus or whatever there's always
+
+[302.639 - 307.68] risks
+
+[304.919 - 310.74] um the doomers understand the potential
+
+[307.68 - 313.08] risk of uncontrolled AGI right the sky
+
+[310.74 - 314.82] is the limit right as people are
+
+[313.08 - 317.52] learning more about what AI is capable
+
+[314.82 - 320.4] of the idea of an Extinction scenario
+
+[317.52 - 322.44] like Skynet is actually not entirely
+
+[320.4 - 324.59999999999997] impossible and when you look at the fact
+
+[322.44 - 326.94] that Congress right now is working on
+
+[324.6 - 329.03900000000004] passing legislation so that AI will
+
+[326.94 - 330.96] never have uh control over nuclear
+
+[329.039 - 333.419] weapons like they're taking it seriously
+
+[330.96 - 336.71999999999997] too right so like there's something here
+
+[333.419 - 338.52] uh there's it's not nothing
+
+[336.72 - 341.52000000000004] um so then there's also the recognition
+
+[338.52 - 343.08] for safeguards and regulations and then
+
+[341.52 - 345.24] finally when you just look at the
+
+[343.08 - 346.919] current trends
+
+[345.24 - 348.66] um like stagnant wages and wealth
+
+[346.919 - 352.62] inequality and other evidence of the
+
+[348.66 - 355.259] Malik problem like it doesn't take a you
+
+[352.62 - 356.759] know a a great leap of faith or logic to
+
+[355.259 - 358.8] say what if these Trends continue and
+
+[356.759 - 360.96000000000004] get worse which there's no evidence of
+
+[358.8 - 362.46000000000004] some of these Trends reversing
+
+[360.96 - 364.85999999999996] um then it's like okay well then we are
+
+[362.46 - 367.44] all going to end up in a cyberpunk Hell
+
+[364.86 - 369.18] and then finally these problems are all
+
+[367.44 - 372.12] very large and complex they are global
+
+[369.18 - 373.979] scale problems so what I want to say is
+
+[372.12 - 376.08] I want to acknowledge that these are the
+
+[373.979 - 378.18] primary as far as I can tell the primary
+
+[376.08 - 381.18] concerns of doomers
+
+[378.18 - 382.62] um and uh like there is some legitimacy
+
+[381.18 - 384.36] to this position I'm not saying oh
+
+[382.62 - 385.979] doomers are just flat out wrong you know
+
+[384.36 - 387.96000000000004] to ignore them like no these are real
+
+[385.979 - 390.18] things I need to acknowledge that but
+
+[387.96 - 393.19899999999996] what I'll get to is like why I'm still
+
+[390.18 - 397.139] optimistic despite all this
+
+[393.199 - 399.66] now to play Devil's Advocate there are
+
+[397.139 - 402.199] some flaws with tumorism which is people
+
+[399.66 - 404.639] that just stick in this corner
+
+[402.199 - 406.02000000000004] one is over emphasis on worst case
+
+[404.639 - 407.94] scenarios
+
+[406.02 - 410.15999999999997] yes we can think about worst case
+
+[407.94 - 412.02] scenarios but it does not help for us to
+
+[410.16 - 414.06] dwell on worst case scenarios and only
+
+[412.02 - 415.5] worst case scenarios we need to think
+
+[414.06 - 416.759] about the entire spectrum of
+
+[415.5 - 418.68] possibilities
+
+[416.759 - 421.02000000000004] another thing that is that is common
+
+[418.68 - 423.06] with some doomers is that they're very
+
+[421.02 - 424.979] dogmatic in their thinking they have
+
+[423.06 - 426.3] come to believe for their own reasons
+
+[424.979 - 428.24] with their own logic and their own
+
+[426.3 - 430.979] research and minds and whatever else
+
+[428.24 - 433.319] that catastrophe is a foregone
+
+[430.979 - 436.08] conclusion they think that it is totally
+
+[433.319 - 437.41900000000004] inevitable which results in dogmatic and
+
+[436.08 - 441.0] rigid thinking
+
+[437.419 - 442.85999999999996] this mentality discourages Innovation
+
+[441.0 - 445.38] and collaboration they're like ah
+
+[442.86 - 446.94] we're doomed who cares give up just
+
+[445.38 - 448.62] throw your hands up and just let it
+
+[446.94 - 450.12] happen
+
+[448.62 - 452.759] um which creates a distraction from
+
+[450.12 - 454.8] finding real solutions and the ultimate
+
+[452.759 - 456.47900000000004] result of this is from an emotional and
+
+[454.8 - 458.94] psychological perspective is that it
+
+[456.479 - 460.86] leads to a sense of nihilism or fatalism
+
+[458.94 - 463.919] so nihilism is the belief that nothing
+
+[460.86 - 466.86] matters anyways uh which this kind of
+
+[463.919 - 468.65999999999997] forms a vicious cycle where if you
+
+[466.86 - 470.52000000000004] already have a nihilistic attitude and
+
+[468.66 - 473.40000000000003] then you believe that between climate
+
+[470.52 - 475.44] change and geopolitics and economics and
+
+[473.4 - 476.81899999999996] AI that we're all doomed anyways you
+
+[475.44 - 479.819] might as well give up while you're ahead
+
+[476.819 - 482.58000000000004] and that is fatalism so the fatalism and
+
+[479.819 - 484.139] nihilism play off of each other really
+
+[482.58 - 486.78] powerfully
+
+[484.139 - 488.52] um and it just leads to giving up
+
+[486.78 - 490.08] and that is the hopelessness and
+
+[488.52 - 492.78] inaction
+
+[490.08 - 494.58] um so again I do want to sympathize with
+
+[492.78 - 498.29999999999995] the doomers and say yes these are really
+
+[494.58 - 500.58] difficult problems and uh the our
+
+[498.3 - 502.68] success and survival as a species is not
+
+[500.58 - 505.02] guaranteed it is not a foregone
+
+[502.68 - 506.539] conclusion even for us optimists that we
+
+[505.02 - 508.979] will come out in a better place
+
+[506.539 - 511.139] generally speaking over the last century
+
+[508.979 - 513.419] we have come out in a better place in
+
+[511.139 - 514.74] the long run it can get pretty awful in
+
+[513.419 - 516.36] the short term
+
+[514.74 - 518.099] um and then but it's also not evenly
+
+[516.36 - 519.719] distributed life gets better for some
+
+[518.099 - 522.36] people worse for others
+
+[519.719 - 523.86] so you know it is important to raise the
+
+[522.36 - 525.839] alarm but
+
+[523.86 - 526.8000000000001] you know we can't we can't just dwell
+
+[525.839 - 529.2600000000001] right
+
+[526.8 - 531.0] all right so Sympathy for the denier so
+
+[529.26 - 532.74] the deniers and again I'm not trying to
+
+[531.0 - 534.54] call out anyone by name I'm not trying
+
+[532.74 - 537.12] to start Twitter beefs and YouTube beefs
+
+[534.54 - 539.519] I'm just giving my perspective so
+
+[537.12 - 541.019] Sympathy for the denier these are the
+
+[539.519 - 544.2] people that have said yeah we've been
+
+[541.019 - 545.399] promised AGI for like 60 years right I
+
+[544.2 - 546.9590000000001] remember what was it there was a
+
+[545.399 - 549.12] Consortium that was launched in like
+
+[546.959 - 550.8599999999999] Stanford or something back in the 60s or
+
+[549.12 - 552.24] 70s and they're like oh yeah with a
+
+[550.86 - 555.0] summer of work we should be able to
+
+[552.24 - 556.62] figure out you know uh artificial
+
+[555.0 - 560.459] intelligence and then here we are like
+
+[556.62 - 562.2] 40 or 60 years later and no
+
+[560.459 - 564.1199999999999] um so yeah you know it's just like
+
+[562.2 - 565.98] nuclear fusion right it's always 10
+
+[564.12 - 568.74] years away or 20 years away
+
+[565.98 - 573.12] so progress up to this point has been
+
+[568.74 - 576.72] slow that is true uh there's a um on on
+
+[573.12 - 578.94] the deniers side there is an emphasis
+
+[576.72 - 580.6800000000001] more on like yeah it's you know AI is
+
+[578.94 - 583.6800000000001] helpful and it could have some potential
+
+[580.68 - 586.14] benefits but we shouldn't rely on this
+
+[583.68 - 588.5999999999999] it's not a Magic Bullet right and that's
+
+[586.14 - 590.8199999999999] that's always true like AI will change
+
+[588.6 - 592.74] everything just the same way that steel
+
+[590.82 - 594.5400000000001] and coal and steam power and internal
+
+[592.74 - 596.339] combustion engines changed everything
+
+[594.54 - 599.459] but it didn't solve The World's problems
+
+[596.339 - 603.0600000000001] it it solved a bunch of problems created
+
+[599.459 - 607.14] new problems and changed a lot of stuff
+
+[603.06 - 609.8389999999999] um another uh uh benefit for for the
+
+[607.14 - 612.0] deniers is that they're like hang on you
+
+[609.839 - 614.399] know tap the brakes like let's not
+
+[612.0 - 616.8] overreact let's not over uh like
+
+[614.399 - 618.3] regulate or you know fear monger and I I
+
+[616.8 - 620.2199999999999] do appreciate some of those comments
+
+[618.3 - 621.54] actually it's like some of the deniers
+
+[620.22 - 624.0600000000001] out there are like enough with the
+
+[621.54 - 627.3] fear-mongering like I don't care
+
+[624.06 - 629.3389999999999] um and then you know just we we have
+
+[627.3 - 631.92] survived 100 of everything that has come
+
+[629.339 - 634.32] our way so far and so like nothing has
+
+[631.92 - 637.26] exploded yet the where's the fire right
+
+[634.32 - 639.1800000000001] so there is some validity to the
+
+[637.26 - 640.62] perspective of deniers out there which
+
+[639.18 - 641.8199999999999] you know one of the things that they say
+
+[640.62 - 644.399] is there's nothing to see here right
+
+[641.82 - 646.44] nobody panic which you always need that
+
+[644.399 - 648.12] kind of energy too like you in any
+
+[646.44 - 649.98] society you want people raising the
+
+[648.12 - 652.2] alarm and other people tapping the
+
+[649.98 - 655.32] brakes we all have our purpose just like
+
+[652.2 - 657.5400000000001] us optimists also have our role to play
+
+[655.32 - 658.6800000000001] now there are some flaws with the
+
+[657.54 - 662.8199999999999] denialism
+
+[658.68 - 665.3389999999999] so one is from my perspective deniers
+
+[662.82 - 667.62] seem to underestimate the potential
+
+[665.339 - 669.7790000000001] risks especially when they say AGI is
+
+[667.62 - 672.779] not possible hard takeoff isn't possible
+
+[669.779 - 675.72] or these things are decades away
+
+[672.779 - 677.579] um another possibility is just like not
+
+[675.72 - 679.14] not fully thinking through like okay
+
+[677.579 - 681.54] even if there's a five percent chance
+
+[679.14 - 683.9399999999999] that AGI is happening within the next
+
+[681.54 - 686.04] five years only a five percent chance
+
+[683.94 - 688.019] what like still think through the cost
+
+[686.04 - 689.519] of that right like look at Bayes theorem
+
+[688.019 - 691.62] like okay there's a five percent chance
+
+[689.519 - 693.3] that AGI is going to happen and if we
+
+[691.62 - 695.1] don't do it right there is a very high
+
+[693.3 - 699.0] likelihood that like we're all gonna die
+
+[695.1 - 701.16] or end up in worse uh situation so in
+
+[699.0 - 703.74] action the cost the potential cost of
+
+[701.16 - 706.4399999999999] inaction or under action under reaction
+
+[703.74 - 710.16] is still pretty high
+
+[706.44 - 711.899] um another thing is is two uh or two two
+
+[710.16 - 714.54] things are exponential growth and
+
+[711.899 - 715.98] saltatory leaps so exponential growth
+
+[714.54 - 717.06] which I provided some evidence for at
+
+[715.98 - 719.22] the beginning of this video that's
+
+[717.06 - 721.0189999999999] happening that is a fact
+
+[719.22 - 723.839] and then actually let me go back to this
+
+[721.019 - 726.48] so this here where you have this Gap up
+
+[723.839 - 729.0600000000001] this is actually a mathematical evidence
+
+[726.48 - 730.98] of a what's called a saltatory leap so a
+
+[729.06 - 734.04] saltatory leap is when some breakthrough
+
+[730.98 - 736.9200000000001] or some uh compounding returns of
+
+[734.04 - 738.779] incremental progress result in sudden
+
+[736.92 - 740.579] breakthroughs that you could not have
+
+[738.779 - 742.5] predicted because if you just look at
+
+[740.579 - 744.18] this trend line you'd predict like okay
+
+[742.5 - 746.82] we wouldn't be here for another couple
+
+[744.18 - 749.0999999999999] years but we're here now right so that
+
+[746.82 - 752.1] that's a saltatory leap so you have to
+
+[749.1 - 754.0790000000001] acknowledge that saltatory leaps not
+
+[752.1 - 756.779] just do happen sometimes have happened
+
+[754.079 - 759.06] recently and if it's happened recently
+
+[756.779 - 762.06] it might happen again
+
+[759.06 - 764.76] um the lack of urgency by saying eh it's
+
+[762.06 - 766.0189999999999] decades away again you know you got to
+
+[764.76 - 767.459] think through it like okay but what if
+
+[766.019 - 771.0600000000001] it's not
+
+[767.459 - 772.9799999999999] um and the the the taking a big step
+
+[771.06 - 776.2199999999999] back the nothing to see here messaging
+
+[772.98 - 778.019] might lead to boiled frog syndrome the
+
+[776.22 - 779.76] the temperature is rising quickly this
+
+[778.019 - 781.86] year I think a lot of us agree on that
+
+[779.76 - 784.92] and so well you get used to it right
+
+[781.86 - 787.74] okay it's warmer than it was but it's
+
+[784.92 - 789.36] not hot yet thing is the time between it
+
+[787.74 - 792.779] gets warm and it gets hot and it starts
+
+[789.36 - 796.0790000000001] boiling that time could be shortening
+
+[792.779 - 798.959] so the social impacts of these of of
+
+[796.079 - 802.1389999999999] when thought leaders adopt more extreme
+
+[798.959 - 805.56] uh stances such as doomerism or deny uh
+
+[802.139 - 808.5600000000001] denialism is uh basically just a quick
+
+[805.56 - 812.3389999999999] recap the doomers create nihilism and
+
+[808.56 - 813.779] fatalism which discourages uh proactive
+
+[812.339 - 815.7600000000001] Solutions because they say that there is
+
+[813.779 - 817.38] no solution right that is one of the
+
+[815.76 - 819.8389999999999] underpinning assumptions of doomers is
+
+[817.38 - 822.8389999999999] that it's inevitable it's unavoidable
+
+[819.839 - 824.399] there is no solution don't even try
+
+[822.839 - 827.1] um and this promotes fear and anxiety
+
+[824.399 - 829.44] right which yes fear and anxiety are
+
+[827.1 - 831.0600000000001] evolutionarily there for a reason to
+
+[829.44 - 832.62] motivate us to do something about a
+
+[831.06 - 835.3199999999999] problem that we perceive
+
+[832.62 - 836.94] but too much of a of of an important
+
+[835.32 - 840.36] thing can still be bad
+
+[836.94 - 842.1600000000001] finally our next the impact of denialism
+
+[840.36 - 843.9590000000001] or denialism
+
+[842.16 - 845.8199999999999] um is that there's a false sense of
+
+[843.959 - 847.9799999999999] security right and we don't have to
+
+[845.82 - 850.5600000000001] worry about it eh it's not coming for a
+
+[847.98 - 853.86] long time right that's complacency and
+
+[850.56 - 855.0] act and inaction which undermines some
+
+[853.86 - 856.86] of the rest of us who are working and
+
+[855.0 - 858.3] saying actually this might be something
+
+[856.86 - 860.22] that we need to think a little bit
+
+[858.3 - 862.3199999999999] further ahead on
+
+[860.22 - 865.6800000000001] um because think about last year right
+
+[862.32 - 868.2600000000001] how um AI images exploded onto the scene
+
+[865.68 - 871.26] and nobody was ready for it right what
+
+[868.26 - 873.48] if the next thing that happens is not
+
+[871.26 - 875.7] just AI images or AI music or something
+
+[873.48 - 877.38] like that but something a little bit
+
+[875.7 - 878.88] more profound a little bit more
+
+[877.38 - 880.68] significant that we just weren't ready
+
+[878.88 - 882.72] for which means that the time to start
+
+[880.68 - 885.12] preparing for those things that we know
+
+[882.72 - 886.98] are coming eventually and we don't know
+
+[885.12 - 889.199] when that Jack-in-the-Box is gonna pop
+
+[886.98 - 891.4200000000001] the time to prepare is now
+
+[889.199 - 894.18] so some of the some of the consequences
+
+[891.42 - 896.88] that occur because of these the the
+
+[894.18 - 899.459] messaging is one polarization of of
+
+[896.88 - 901.5] public opinion some people are bending
+
+[899.459 - 903.8389999999999] over backwards to say more jobs are
+
+[901.5 - 907.019] coming let's not even think about you
+
+[903.839 - 909.3000000000001] know AI based war or the control problem
+
+[907.019 - 912.36] or anything like that uh what meanwhile
+
+[909.3 - 914.2199999999999] others are like ah no we're you know
+
+[912.36 - 916.5] lead the leaders around the world are
+
+[914.22 - 918.899] not even addressing these risks they're
+
+[916.5 - 921.36] just sitting on their on their hands so
+
+[918.899 - 922.8] we're doomed right because if the adults
+
+[921.36 - 925.0790000000001] in the room don't care or don't think
+
+[922.8 - 926.579] it's a problem but all of the kids are
+
+[925.079 - 928.38] like hey do you see that the house is on
+
+[926.579 - 930.8389999999999] fire like maybe we should put that out
+
+[928.38 - 934.079] first right that leads to more nihilism
+
+[930.839 - 936.48] more fatalism a lot of polarization
+
+[934.079 - 938.279] and then of course uh the Overton window
+
+[936.48 - 940.1990000000001] is still too narrow so the Overton
+
+[938.279 - 942.12] window is the concept of what is allowed
+
+[940.199 - 945.7199999999999] to be talked about in political
+
+[942.12 - 947.279] discourse so you know if you if you
+
+[945.72 - 948.899] follow my channel every now and then
+
+[947.279 - 950.9399999999999] I'll post links to videos like hey look
+
+[948.899 - 954.56] you know the conversation is Shifting
+
+[950.94 - 957.4200000000001] right just yesterday I posted a a a a a
+
+[954.56 - 960.3] video from DW news which is in Germany
+
+[957.42 - 963.06] where they try to address like hey
+
+[960.3 - 965.88] there's actual anxiety about like
+
+[963.06 - 968.8199999999999] everyone's jobs are going away right and
+
+[965.88 - 970.8] they bent over real God I listened to it
+
+[968.82 - 973.139] again they bent over backwards to try
+
+[970.8 - 974.76] and say well yeah a lot of low-paid jobs
+
+[973.139 - 977.04] are going away but there's a few high
+
+[974.76 - 978.959] paid jobs coming in and it's like okay
+
+[977.04 - 980.519] but still the point is is that most of
+
+[978.959 - 982.7399999999999] the medium and low-paid jobs are going
+
+[980.519 - 985.139] away and being replaced by a few
+
+[982.74 - 987.36] high-paying jobs that's not the promise
+
+[985.139 - 989.639] of like techno Revolution where AI
+
+[987.36 - 992.76] creates a whole bunch of new jobs
+
+[989.639 - 994.74] um and then I think it was Amazon uh or
+
+[992.76 - 997.4399999999999] Facebook one of them just an announced
+
+[994.74 - 999.54] even more layoffs and they explicitly
+
+[997.44 - 1000.5600000000001] said that the reason for the layoffs is
+
+[999.54 - 1003.139] that they're going to replace as many
+
+[1000.56 - 1006.68] people with AI as possible I called it
+
+[1003.139 - 1008.779] I've been saying it so it's happening
+
+[1006.68 - 1012.279] um so the Overton window is Shifting now
+
+[1008.779 - 1015.079] okay why is this a big problem why like
+
+[1012.279 - 1018.199] fundamentally why is it that some people
+
+[1015.079 - 1020.4799999999999] are dimerous and denialists and what
+
+[1018.199 - 1023.18] what is left in the wash what is missing
+
+[1020.48 - 1025.16] from the conversation so one thing
+
+[1023.18 - 1027.62] that's missing is there is not a
+
+[1025.16 - 1030.38] coherent Global strategy
+
+[1027.62 - 1033.02] and so what I mean by that is everyone's
+
+[1030.38 - 1035.419] busy arguing you know in this little
+
+[1033.02 - 1038.299] domain or this little domain uh you know
+
+[1035.419 - 1041.1200000000001] about corporate governance or academic
+
+[1038.299 - 1043.8799999999999] Integrity or should we have a moratorium
+
+[1041.12 - 1045.559] right there's not really a global
+
+[1043.88 - 1047.1200000000001] strategy no one has even proposed
+
+[1045.559 - 1051.32] anything
+
+[1047.12 - 1052.76] um then on top of that is as I mentioned
+
+[1051.32 - 1054.98] just a moment ago
+
+[1052.76 - 1056.299] uh calling for moratoriums is not a
+
+[1054.98 - 1057.679] solution
+
+[1056.299 - 1059.24] um that's not even that's not even a
+
+[1057.679 - 1060.919] stopgap measure
+
+[1059.24 - 1062.84] um and so when all the thought leaders
+
+[1060.919 - 1064.76] in the world when none of them are
+
+[1062.84 - 1067.28] really offering Solutions of course
+
+[1064.76 - 1069.74] you're going to end up with a lot of uh
+
+[1067.28 - 1072.82] bickering and arguing and also a lot of
+
+[1069.74 - 1076.22] anxiety right we are humans and we love
+
+[1072.82 - 1078.799] love when there are adults in the room
+
+[1076.22 - 1080.72] that we trust to help make good
+
+[1078.799 - 1083.48] decisions and to make sure that we're
+
+[1080.72 - 1086.299] going to be okay right and right now on
+
+[1083.48 - 1088.22] the topic of AI there's nobody really
+
+[1086.299 - 1090.62] out there saying we're gonna be okay
+
+[1088.22 - 1093.74] I've got a plan
+
+[1090.62 - 1095.4189999999999] um and then uh on top of that Global
+
+[1093.74 - 1098.559] strategy is a comprehensive roadmap
+
+[1095.419 - 1098.5590000000002] right kind of the same thing
+
+[1098.78 - 1103.039] said a lot of this stuff but really what
+
+[1100.34 - 1104.84] we need is a is that Global
+
+[1103.039 - 1107.48] comprehensive roadmap and a
+
+[1104.84 - 1109.76] multi-layered approach to solving all
+
+[1107.48 - 1111.14] these problems at all these different uh
+
+[1109.76 - 1113.0] levels
+
+[1111.14 - 1114.5] so I've already alluded to some of these
+
+[1113.0 - 1116.299] things there's quite a bunch of stuff
+
+[1114.5 - 1118.64] that doesn't work right calling for
+
+[1116.299 - 1120.9189999999999] moratoriums just simply does not work
+
+[1118.64 - 1124.7] we'll get into more detail about why
+
+[1120.919 - 1126.3200000000002] moratoriums don't work and and and uh
+
+[1124.7 - 1128.059] and all the incentives against it in
+
+[1126.32 - 1130.46] just a moment another thing that doesn't
+
+[1128.059 - 1132.98] work is bombing data centers sorry that
+
+[1130.46 - 1135.559] is a really bone-headed suggestion
+
+[1132.98 - 1137.96] uh complaining on Twitter writing op-eds
+
+[1135.559 - 1140.539] writing mean comments on YouTube none of
+
+[1137.96 - 1141.799] these things are actually helpful and
+
+[1140.539 - 1143.419] another thing that's not helpful is
+
+[1141.799 - 1144.86] actually just trusting corporations or
+
+[1143.419 - 1145.7] the establishment to figure it out on
+
+[1144.86 - 1148.8799999999999] their own
+
+[1145.7 - 1151.66] we are all all humans Global
+
+[1148.88 - 1154.7] stakeholders in AI
+
+[1151.66 - 1156.02] so all these these the this list of
+
+[1154.7 - 1157.5800000000002] stuff that I've just have that that
+
+[1156.02 - 1159.799] doesn't work they're all molecule
+
+[1157.58 - 1160.8799999999999] reactions and molecule Solutions which
+
+[1159.799 - 1162.98] basically means that they will
+
+[1160.88 - 1164.9] inevitably lead to those lose-lose
+
+[1162.98 - 1167.059] outcomes that the doomers are are
+
+[1164.9 - 1169.1000000000001] warning us against right again I'm not
+
+[1167.059 - 1170.78] saying that the doomers are wrong if
+
+[1169.1 - 1173.6] things keep going as they are the
+
+[1170.78 - 1176.96] doomers are right I just I personally
+
+[1173.6 - 1179.7199999999998] don't ascribe to constantly yelling fire
+
+[1176.96 - 1181.4] and then claiming you know we're all
+
+[1179.72 - 1185.299] gonna die
+
+[1181.4 - 1187.22] okay so I outlined the big problems now
+
+[1185.299 - 1189.559] what
+
+[1187.22 - 1192.14] this video the entire purpose is to
+
+[1189.559 - 1194.059] introduce kind of the crowning
+
+[1192.14 - 1196.76] achievement so far of What Not Just I'm
+
+[1194.059 - 1199.46] working on but the the rapidly growing
+
+[1196.76 - 1201.5] community that I'm building
+
+[1199.46 - 1204.5] um uh what started around the years to
+
+[1201.5 - 1207.559] comparatives my research on alignment
+
+[1204.5 - 1211.28] for individual models and agents it has
+
+[1207.559 - 1215.1789999999999] quickly expanded so this gato framework
+
+[1211.28 - 1217.7] Global alignment taxonomy Omnibus is
+
+[1215.179 - 1219.919] that comprehensive strategy that I just
+
+[1217.7 - 1222.26] mentioned that is missing it is not just
+
+[1219.919 - 1225.38] for responsible AI development but is a
+
+[1222.26 - 1227.84] coherent road map that everyone on the
+
+[1225.38 - 1230.24] planet can participate in at various
+
+[1227.84 - 1231.5] levels whatever level makes the most
+
+[1230.24 - 1235.64] sense to you
+
+[1231.5 - 1239.66] this framework has seven layers on ways
+
+[1235.64 - 1242.179] to implement uh models AI systems and
+
+[1239.66 - 1244.46] also alignment uh alignment-based
+
+[1242.179 - 1246.38] regulations and we'll get into all the
+
+[1244.46 - 1250.039] layers in just a moment
+
+[1246.38 - 1251.6000000000001] uh but basically the the whole point of
+
+[1250.039 - 1254.9] this gato framework that we're working
+
+[1251.6 - 1256.8799999999999] on is that it will unite all
+
+[1254.9 - 1259.94] stakeholders give us a common framework
+
+[1256.88 - 1262.16] with which to have these discussions to
+
+[1259.94 - 1264.3200000000002] broaden the Overton window to open the
+
+[1262.16 - 1266.66] Overton window a little bit more so
+
+[1264.32 - 1269.1789999999999] whatever part of the spectrum you're on
+
+[1266.66 - 1271.039] whether you're saying eh it's not really
+
+[1269.179 - 1273.44] an issue yet or we're all going to die
+
+[1271.039 - 1276.02] or you don't care or you're an optimist
+
+[1273.44 - 1278.0] whatever this is a framework that we can
+
+[1276.02 - 1280.8799999999999] all participate in
+
+[1278.0 - 1283.64] um just in a decentralized distributed
+
+[1280.88 - 1286.4] and open source manner
+
+[1283.64 - 1288.74] so as promised here are the seven layers
+
+[1286.4 - 1290.48] of the gato framework and in the
+
+[1288.74 - 1292.34] community we started saying that it's
+
+[1290.48 - 1295.58] like a seven layer burrito so we use
+
+[1292.34 - 1298.22] like taco cat as our little Avatar so
+
+[1295.58 - 1301.22] layer one the lowest layer is model
+
+[1298.22 - 1304.22] alignment so model alignment has to do
+
+[1301.22 - 1309.74] with individual neural networks so that
+
+[1304.22 - 1312.5] means gpt2 gpt3 gpt4 Bert vicuna uh
+
+[1309.74 - 1315.08] stable LM all of these right large
+
+[1312.5 - 1317.059] language models are proliferating like
+
+[1315.08 - 1318.74] well I don't know just like locusts
+
+[1317.059 - 1321.5] whatever
+
+[1318.74 - 1323.9] it's happening right data sets are
+
+[1321.5 - 1326.299] growing models are growing they're all
+
+[1323.9 - 1328.94] coming out uh the cat's out of the bag
+
+[1326.299 - 1331.1] right language technology multimodal
+
+[1328.94 - 1332.659] technology it's all coming you can't
+
+[1331.1 - 1334.58] stop it
+
+[1332.659 - 1337.46] um so rather than stop it rather than
+
+[1334.58 - 1340.039] call for moratoriums what we're doing is
+
+[1337.46 - 1342.52] we're focusing on okay let's ride this
+
+[1340.039 - 1344.78] wave I all have already proposed
+
+[1342.52 - 1346.039] reinforcement learning with heuristic
+
+[1344.78 - 1347.12] imperatives which is different from
+
+[1346.039 - 1349.7] reinforcement learning with human
+
+[1347.12 - 1352.3999999999999] feedback because human feedback aligns
+
+[1349.7 - 1354.26] models to what humans want which what
+
+[1352.4 - 1356.659] humans want and what humans need often
+
+[1354.26 - 1358.1] very very different here is to
+
+[1356.659 - 1361.2800000000002] comparatives is not just what humans
+
+[1358.1 - 1362.84] want but what all life needs we're also
+
+[1361.28 - 1364.34] talking about data set curation and
+
+[1362.84 - 1365.9599999999998] inner alignment problems like Mesa
+
+[1364.34 - 1370.3999999999999] optimization
+
+[1365.96 - 1372.14] Layer Two is sorry autonomous systems so
+
+[1370.4 - 1373.7800000000002] these are cognitive architectures and
+
+[1372.14 - 1377.0590000000002] autonomous agents
+
+[1373.78 - 1378.26] this is this is recently exploded on the
+
+[1377.059 - 1381.44] scene with
+
+[1378.26 - 1384.02] um you know Jarvis and baby AGI and
+
+[1381.44 - 1385.8200000000002] agent GPT and all that fun stuff so you
+
+[1384.02 - 1387.1399999999999] guys know what that is and it's coming
+
+[1385.82 - 1389.1789999999999] and it's only going to get more
+
+[1387.14 - 1391.76] sophisticated we're on the ground floor
+
+[1389.179 - 1395.24] of autonomous systems this is year zero
+
+[1391.76 - 1397.34] year two three four five like you can't
+
+[1395.24 - 1399.919] on you cannot imagine how powerful
+
+[1397.34 - 1402.74] autonomous systems are going to be in
+
+[1399.919 - 1404.9] the coming years so at the at the the
+
+[1402.74 - 1406.94] low level the engine level right the
+
+[1404.9 - 1409.64] components under the hood that's the
+
+[1406.94 - 1411.919] models the autonomous systems are the
+
+[1409.64 - 1413.6000000000001] software architectures that use those
+
+[1411.919 - 1415.94] systems including memory systems and
+
+[1413.6 - 1419.12] apis and other stuff to create those
+
+[1415.94 - 1422.6000000000001] autonomous cognitive entities right
+
+[1419.12 - 1424.28] layer 3 is the decentralized network so
+
+[1422.6 - 1425.1999999999998] you might have seen some of my recent
+
+[1424.28 - 1427.58] videos where I've talked about
+
+[1425.2 - 1430.159] blockchain decentralized autonomous
+
+[1427.58 - 1432.08] organizations and also another component
+
+[1430.159 - 1434.9] of that is what's called a federation so
+
+[1432.08 - 1436.52] a federation is where you have either
+
+[1434.9 - 1438.38] independent nodes or independent
+
+[1436.52 - 1441.559] networks that can communicate and
+
+[1438.38 - 1446.419] collaborate through Federated systems so
+
+[1441.559 - 1449.4189999999999] these are the the network layer is how
+
+[1446.419 - 1453.38] do we create networked intelligent
+
+[1449.419 - 1455.1200000000001] entities that are also aligned and this
+
+[1453.38 - 1456.7990000000002] is a tough nut to crack we've had lots
+
+[1455.12 - 1458.84] of discussions in the group talking
+
+[1456.799 - 1462.74] about can you implement Heroes to
+
+[1458.84 - 1464.299] comparatives as a consensus mechanism at
+
+[1462.74 - 1468.38] what level do you process it do you
+
+[1464.299 - 1470.6] process it at every llm inference or do
+
+[1468.38 - 1473.0590000000002] you wait for the decisions how do you
+
+[1470.6 - 1476.12] make decisions around this kind of thing
+
+[1473.059 - 1479.059] excuse me real tough nut to crack number
+
+[1476.12 - 1481.4599999999998] four is where we jump from the technical
+
+[1479.059 - 1484.28] implementation and research to more of
+
+[1481.46 - 1485.96] the social political and economic uh
+
+[1484.28 - 1487.6399999999999] layer of the stack
+
+[1485.96 - 1490.28] and for all of you technologists out
+
+[1487.64 - 1492.98] there you can probably see
+
+[1490.28 - 1495.32] um my influence as a as a technologist
+
+[1492.98 - 1498.02] because this is it's not modeled on the
+
+[1495.32 - 1500.24] osm OSI model it's actually more closely
+
+[1498.02 - 1503.6] modeled on the defense and depth model
+
+[1500.24 - 1506.84] but it is a layered hierarchical stack
+
+[1503.6 - 1507.799] or onion of uh of Concepts so corporate
+
+[1506.84 - 1509.1789999999999] adoption
+
+[1507.799 - 1511.6399999999999] here's the thing
+
+[1509.179 - 1513.38] you cannot just tell a corporation you
+
+[1511.64 - 1515.3600000000001] know what stop with the AI we don't we
+
+[1513.38 - 1518.1200000000001] don't like where AI is going sure you
+
+[1515.36 - 1519.86] can try to with regulation uh but you
+
+[1518.12 - 1522.02] know like Italy tried to do that and
+
+[1519.86 - 1524.12] then they reverse course right
+
+[1522.02 - 1526.8799999999999] there's just way too much economic
+
+[1524.12 - 1528.8799999999999] incentive the bottom line you know that
+
+[1526.88 - 1531.38] is if you're if you're a corporation
+
+[1528.88 - 1533.5390000000002] shareholders and the bottom line that's
+
+[1531.38 - 1535.7600000000002] where the power is so rather than fight
+
+[1533.539 - 1537.86] that part of what this framework does is
+
+[1535.76 - 1540.32] say let's how let's figure out how we
+
+[1537.86 - 1542.12] can align those heuristic imperatives
+
+[1540.32 - 1544.7] reduce suffering increase prosperity and
+
+[1542.12 - 1547.34] increase understanding how can we align
+
+[1544.7 - 1548.96] those fundamental human needs the
+
+[1547.34 - 1551.0] fundamental needs of all living things
+
+[1548.96 - 1553.64] with corporate interest
+
+[1551.0 - 1555.5] and so one story that I like to share is
+
+[1553.64 - 1557.2990000000002] that I've had a few patreon uh
+
+[1555.5 - 1558.86] supporters reach out to me and they're
+
+[1557.299 - 1560.299] like hey I've got this autonomous system
+
+[1558.86 - 1562.82] that I'm working on but it's like it's
+
+[1560.299 - 1565.34] getting stuck or I need help or whatever
+
+[1562.82 - 1567.02] um or even without asking for my help uh
+
+[1565.34 - 1568.58] they said like hey I implemented the
+
+[1567.02 - 1570.02] heroes to comparatives in my autonomous
+
+[1568.58 - 1574.279] Business Systems and they work better
+
+[1570.02 - 1575.84] and I'm like thanks share so like if you
+
+[1574.279 - 1577.22] have any of those examples please post
+
+[1575.84 - 1579.32] them on Reddit on the heroes to
+
+[1577.22 - 1581.059] comparative subreddit because we need we
+
+[1579.32 - 1583.1] need more of those stories about how
+
+[1581.059 - 1585.44] aligned AI systems are actually good for
+
+[1583.1 - 1587.9599999999998] business it's that simple the bottom
+
+[1585.44 - 1590.0] line like I I will always say that
+
+[1587.96 - 1593.179] corporations are intrinsically amoral
+
+[1590.0 - 1594.919] however what I will say is that is that
+
+[1593.179 - 1596.299] their profit motive their primary
+
+[1594.919 - 1599.539] incentive structure which is to make
+
+[1596.299 - 1601.4] more money will benefit from adopting
+
+[1599.539 - 1603.62] heuristic comparative aligned systems
+
+[1601.4 - 1604.94] services and products which I also we
+
+[1603.62 - 1606.7399999999998] also have some members of the community
+
+[1604.94 - 1608.1200000000001] who are working on spinning this out
+
+[1606.74 - 1611.419] into either for-profit or not
+
+[1608.12 - 1612.9189999999999] not-for-profit services and of course
+
+[1611.419 - 1615.0200000000002] we're going to be publishing open source
+
+[1612.919 - 1616.5800000000002] data sets reference architectures that
+
+[1615.02 - 1618.9189999999999] sort of stuff to make it as easy as
+
+[1616.58 - 1622.039] possible for corporations all over the
+
+[1618.919 - 1623.96] world to adopt aligned AI
+
+[1622.039 - 1625.279] uh and we're going to work on convincing
+
+[1623.96 - 1627.82] them that this is the way to go too
+
+[1625.279 - 1630.32] number five National regulations
+
+[1627.82 - 1632.8999999999999] obviously as I just mentioned you know
+
+[1630.32 - 1634.6] corporations can or sorry Nations can do
+
+[1632.9 - 1638.0590000000002] some stuff like people pointed out like
+
+[1634.6 - 1641.059] gdpr uh European unions like you know
+
+[1638.059 - 1643.22] big package about like a uh data privacy
+
+[1641.059 - 1644.32] and stuff and certainly as an I.T
+
+[1643.22 - 1647.1200000000001] professional
+
+[1644.32 - 1649.46] people on the technology side are
+
+[1647.12 - 1651.1399999999999] terrified of gdpr right that's got some
+
+[1649.46 - 1653.24] teeth right you know right to be
+
+[1651.14 - 1655.5800000000002] forgotten where the data is owned and
+
+[1653.24 - 1659.419] housed and data governance okay great
+
+[1655.58 - 1661.3999999999999] that's all fine but see the thing is is
+
+[1659.419 - 1663.5590000000002] Nations have their own incentive
+
+[1661.4 - 1665.96] structure where it comes to Ai and what
+
+[1663.559 - 1668.0] I mean by that is uh the the national
+
+[1665.96 - 1670.88] interests of companies has to do with
+
+[1668.0 - 1674.539] their own GDP as a whole so this is a
+
+[1670.88 - 1676.5200000000002] big difference gdpr was about uh like
+
+[1674.539 - 1679.8799999999999] data privacy for Citizens and social
+
+[1676.52 - 1683.4189999999999] media it wasn't as directly tied to like
+
+[1679.88 - 1685.4] the national growth of their G ADP it
+
+[1683.419 - 1687.0800000000002] wasn't necessarily directly tied to
+
+[1685.4 - 1690.0800000000002] their geopolitical influence or their
+
+[1687.08 - 1692.0] military or their National Security
+
+[1690.08 - 1694.279] AI today though
+
+[1692.0 - 1697.46] is all of those things and more
+
+[1694.279 - 1699.38] because GDP growth geopolitical
+
+[1697.46 - 1701.8400000000001] influence National Security border
+
+[1699.38 - 1703.8200000000002] security whatever all of that has to do
+
+[1701.84 - 1706.4599999999998] those are the national interests that we
+
+[1703.82 - 1709.82] are going to be working on aligning AI
+
+[1706.46 - 1712.82] with and basically the long story short
+
+[1709.82 - 1714.74] is at a national level We're not gonna
+
+[1712.82 - 1716.84] we're not going to say hey Nations maybe
+
+[1714.74 - 1717.919] you shouldn't adopt AI maybe you should
+
+[1716.84 - 1719.9599999999998] slow it down maybe you should just
+
+[1717.919 - 1721.4] regulate it we're going to be actually
+
+[1719.96 - 1723.38] more I'm not going to say that like
+
+[1721.4 - 1725.179] we're accelerationists because like you
+
+[1723.38 - 1726.8600000000001] don't need to push the to go any faster
+
+[1725.179 - 1728.9] right I'm not advocating for
+
+[1726.86 - 1731.12] accelerationism I'm just observing that
+
+[1728.9 - 1733.539] acceleration is happening so how do we
+
+[1731.12 - 1736.4599999999998] steer it right and the idea is
+
+[1733.539 - 1739.46] encouraging Nations to adopt Heroes
+
+[1736.46 - 1742.159] comparative aligned uh models services
+
+[1739.46 - 1744.38] and systems because at every level of
+
+[1742.159 - 1746.24] government that will help steer the
+
+[1744.38 - 1748.88] nation in a better Direction and their
+
+[1746.24 - 1751.039] implementations will be safer more
+
+[1748.88 - 1753.14] reliable more trustworthy so on and so
+
+[1751.039 - 1754.279] forth and of course stability is good
+
+[1753.14 - 1756.46] for business it's good for the account
+
+[1754.279 - 1759.799] economy it's good for National Security
+
+[1756.46 - 1761.96] and all that other fun stuff next up is
+
+[1759.799 - 1764.48] number six uh layer six International
+
+[1761.96 - 1765.98] treaties so I actually did wasn't the
+
+[1764.48 - 1767.96] first one to come up with this idea but
+
+[1765.98 - 1770.659] basically we're going to be advocating
+
+[1767.96 - 1772.88] for an international Consortium like
+
+[1770.659 - 1774.679] CERN but for AI because here's the other
+
+[1772.88 - 1777.0200000000002] thing and a lot of people pointed this
+
+[1774.679 - 1779.8990000000001] out is that a lot of Nations
+
+[1777.02 - 1782.72] cannot even afford to participate in AI
+
+[1779.899 - 1784.4599999999998] research right AI research is carried
+
+[1782.72 - 1785.72] out largely by the wealthiest companies
+
+[1784.46 - 1787.22] on the planet and the wealthiest
+
+[1785.72 - 1789.14] countries on the planet
+
+[1787.22 - 1791.659] that's going to intrinsically leave a
+
+[1789.14 - 1794.1200000000001] lot of other nations uh behind in the
+
+[1791.659 - 1795.8600000000001] dust right and that's just not fair that
+
+[1794.12 - 1797.539] is a malarchy outcome where there's a
+
+[1795.86 - 1800.84] few wealthy bastions and the rest are
+
+[1797.539 - 1803.799] poor and they end up basically like
+
+[1800.84 - 1806.48] tossed on the on the rough Seas of an AI
+
+[1803.799 - 1808.8799999999999] saturated world so what we're going to
+
+[1806.48 - 1812.1200000000001] do is we're going to advocate for a
+
+[1808.88 - 1815.779] global international Consortium where uh
+
+[1812.12 - 1818.0] people people Nations pool resources
+
+[1815.779 - 1820.88] share their scientists share their
+
+[1818.0 - 1823.46] research share their data so that we can
+
+[1820.88 - 1827.419] all benefit equally across the whole
+
+[1823.46 - 1829.539] globe which that also uh has uh knock-on
+
+[1827.419 - 1832.1000000000001] benefits with in terms of alliances
+
+[1829.539 - 1834.26] economic benefits because you look at
+
+[1832.1 - 1836.4189999999999] like everyone's going to benefits from
+
+[1834.26 - 1838.7] from like CERN and the collaborations
+
+[1836.419 - 1840.14] between like NASA and Esa and and that
+
+[1838.7 - 1842.659] sort of stuff so International
+
+[1840.14 - 1843.8600000000001] scientific treaties generally one
+
+[1842.659 - 1845.8990000000001] they've got a pretty good track record
+
+[1843.86 - 1847.4599999999998] and two we've got a good model for them
+
+[1845.899 - 1850.76] so we're just basically saying let's
+
+[1847.46 - 1853.7] copy the success of NASA Issa of CERN
+
+[1850.76 - 1856.22] and let's do it for AI again that's not
+
+[1853.7 - 1857.539] like you know we're not this is nothing
+
+[1856.22 - 1859.1000000000001] Earth shattering right it's been done
+
+[1857.539 - 1861.32] before we're just saying maybe it is
+
+[1859.1 - 1864.1999999999998] time to do this with AI and finally
+
+[1861.32 - 1867.08] layer 7 of the gato framework is global
+
+[1864.2 - 1869.419] consensus so Global consensus has to do
+
+[1867.08 - 1872.539] with messaging
+
+[1869.419 - 1874.8200000000002] um uh working with universities academic
+
+[1872.539 - 1878.24] institutions uh industrial sectors
+
+[1874.82 - 1881.12] National sectors uh social media right
+
+[1878.24 - 1884.059] or all media really because if we can
+
+[1881.12 - 1886.1789999999999] build consensus in every sector in every
+
+[1884.059 - 1891.02] domain and at every level of society
+
+[1886.179 - 1893.179] then consensus around how to uh align AI
+
+[1891.02 - 1894.08] so that we all end up in a more utopian
+
+[1893.179 - 1896.659] state
+
+[1894.08 - 1899.299] the utopian attractor State rather than
+
+[1896.659 - 1901.22] dystopia or Extinction then we're going
+
+[1899.299 - 1903.26] to have a lot more energy right that
+
+[1901.22 - 1905.3600000000001] Overton window is going to be aligned in
+
+[1903.26 - 1906.32] the correct direction rather than you
+
+[1905.36 - 1908.6] know because right now the Overton
+
+[1906.32 - 1911.299] window is highly highly centered over
+
+[1908.6 - 1914.779] we're all going to die or nothing is
+
+[1911.299 - 1916.76] happening but really the truth is well
+
+[1914.779 - 1918.86] those are possibilities but the Overton
+
+[1916.76 - 1920.899] window needs to be broadened and that is
+
+[1918.86 - 1922.6399999999999] one of the key components of global
+
+[1920.899 - 1925.279] consensus
+
+[1922.64 - 1928.46] so I just threw a lot at you and this
+
+[1925.279 - 1930.74] all sounds really good Pie in the Sky uh
+
+[1928.46 - 1932.1200000000001] you know blah blah right there's
+
+[1930.74 - 1934.82] probably some skepticism so let's
+
+[1932.12 - 1937.1589999999999] address that this all started as a very
+
+[1934.82 - 1938.72] small Discord Community where I just
+
+[1937.159 - 1940.22] wanted to bring some people together to
+
+[1938.72 - 1943.64] help me do Heroes to comparatives
+
+[1940.22 - 1945.44] research and it quickly very quickly
+
+[1943.64 - 1948.38] scaled up
+
+[1945.44 - 1950.48] um we to as of this recording we have I
+
+[1948.38 - 1953.6000000000001] think right around just shy of 70 people
+
+[1950.48 - 1955.1] involved and more people coming all the
+
+[1953.6 - 1957.74] time we're actually having to work on
+
+[1955.1 - 1959.84] figuring out ways of automating the
+
+[1957.74 - 1961.159] recruiting the applications and the
+
+[1959.84 - 1963.9189999999999] onboarding which we haven't figured out
+
+[1961.159 - 1965.8400000000001] yet but we need to
+
+[1963.919 - 1968.2990000000002] um we're organizing teams and projects
+
+[1965.84 - 1969.86] around each layer of gato that I just uh
+
+[1968.299 - 1972.799] outlined and so you can see those here
+
+[1969.86 - 1974.4799999999998] on the right hand side so if you're a
+
+[1972.799 - 1977.059] reinforcement learning researcher or an
+
+[1974.48 - 1979.58] ml researcher or a data scientist we
+
+[1977.059 - 1981.1399999999999] need your help with layer one if you're
+
+[1979.58 - 1983.6589999999999] a software architect or a cloud
+
+[1981.14 - 1986.48] architect or someone or devops someone
+
+[1983.659 - 1988.3400000000001] who understands Automation and complex
+
+[1986.48 - 1990.799] systems we need your help in Layer Two
+
+[1988.34 - 1993.74] autonomous systems we've got a whole
+
+[1990.799 - 1995.899] bunch of blockchain endow people working
+
+[1993.74 - 1997.46] with us on layer three which is such a
+
+[1995.899 - 1999.4399999999998] cool topic because where this is like
+
+[1997.46 - 2000.88] super Cutting Edge also we're going to
+
+[1999.44 - 2005.3200000000002] eat our own dog food we're already
+
+[2000.88 - 2006.88] working on using Dows to help voting and
+
+[2005.32 - 2009.6399999999999] decision making and allocation of
+
+[2006.88 - 2011.8600000000001] resources within this project obviously
+
+[2009.64 - 2013.779] as I've said in many of my videos a lot
+
+[2011.86 - 2016.1789999999999] of blockchain and DOW technology is not
+
+[2013.779 - 2018.159] ready but we are going to eat our own
+
+[2016.179 - 2020.2] dog food and make sure that we are
+
+[2018.159 - 2021.519] testing these things so that they'll do
+
+[2020.2 - 2023.019] the things that we say that they need to
+
+[2021.519 - 2025.96] do right we're going to figure it out as
+
+[2023.019 - 2028.84] as we go number four corporate adoption
+
+[2025.96 - 2031.779] we have a few entrepreneurs and Business
+
+[2028.84 - 2033.6399999999999] Leaders we've got uh several ctOS in the
+
+[2031.779 - 2035.679] group we need more connections to
+
+[2033.64 - 2037.8400000000001] business and industry this means
+
+[2035.679 - 2040.0590000000002] conferences this means
+
+[2037.84 - 2042.6399999999999] um meetups this means
+
+[2040.059 - 2044.32] um people on boards right A lot of my
+
+[2042.64 - 2046.2990000000002] patreon supporters are business people
+
+[2044.32 - 2048.359] and so like I work with them directly
+
+[2046.299 - 2051.7] but we need more of that we need people
+
+[2048.359 - 2053.44] uh working to evangelize
+
+[2051.7 - 2055.359] um not just not just like saying hey
+
+[2053.44 - 2056.679] Corporation you should adopt your
+
+[2055.359 - 2058.899] heuristic imperatives and then leaving
+
+[2056.679 - 2061.48] it at that we have startups that we're
+
+[2058.899 - 2063.7] working with because the the companies
+
+[2061.48 - 2065.919] offering aligned Services don't exist
+
+[2063.7 - 2067.06] yet so we're helping incubate those
+
+[2065.919 - 2069.0989999999997] things and I don't mean from a financial
+
+[2067.06 - 2072.099] perspective but from a consultation
+
+[2069.099 - 2074.5] perspective and so because if the if hi
+
+[2072.099 - 2077.5] aligned Services goods and services
+
+[2074.5 - 2079.899] exist companies can adopt them but until
+
+[2077.5 - 2082.659] they exist they can't be adopted really
+
+[2079.899 - 2085.5989999999997] number five National regulation we're
+
+[2082.659 - 2087.2200000000003] just starting to have this conversation
+
+[2085.599 - 2089.5] um actually just a conversation I had
+
+[2087.22 - 2092.56] just a little while ago had to do with
+
+[2089.5 - 2095.8] uh talking with some of the uh policy
+
+[2092.56 - 2097.599] makers and lawyers and legislators that
+
+[2095.8 - 2099.04] are concerned about this kind of stuff
+
+[2097.599 - 2101.1400000000003] so for instance
+
+[2099.04 - 2103.24] um the vice president uh I don't know if
+
+[2101.14 - 2106.0] it's today but soon we'll be talking
+
+[2103.24 - 2106.8999999999996] with all of the big Tech Giants right so
+
+[2106.0 - 2109.3] we need to have more of those
+
+[2106.9 - 2111.82] conversations and we need to add some of
+
+[2109.3 - 2113.2000000000003] uh some of our perspective from the gato
+
+[2111.82 - 2116.1400000000003] framework
+
+[2113.2 - 2117.8999999999996] um into those National conversations but
+
+[2116.14 - 2119.859] not just from it not just from a
+
+[2117.9 - 2122.26] regulatory standpoint of the nation
+
+[2119.859 - 2123.94] looking down into the nation the
+
+[2122.26 - 2125.5] nation's looking up and out to the rest
+
+[2123.94 - 2128.26] of the world because as I mentioned
+
+[2125.5 - 2130.3] National Security that is a huge thing
+
+[2128.26 - 2132.76] GDP growth that is a big thing in
+
+[2130.3 - 2135.3390000000004] geopolitical influence AI is going to
+
+[2132.76 - 2138.46] affect all of these domains number six
+
+[2135.339 - 2141.16] uh the international treaty again we
+
+[2138.46 - 2143.619] need we need people that are connected
+
+[2141.16 - 2144.3999999999996] to the UN
+
+[2143.619 - 2147.94] um
+
+[2144.4 - 2150.88] uh maybe NATO I don't know oecd all
+
+[2147.94 - 2152.44] kinds of stuff uh UNESCO there's all
+
+[2150.88 - 2154.9] kinds of international organizations
+
+[2152.44 - 2157.78] that we would like to be connected with
+
+[2154.9 - 2160.3] and work with and talk to in order to
+
+[2157.78 - 2161.8] have these conversations and
+
+[2160.3 - 2163.599] by and large just make the right
+
+[2161.8 - 2165.94] connections so that these conversations
+
+[2163.599 - 2168.76] are happening and we can articulate the
+
+[2165.94 - 2171.52] gato framework and get it published and
+
+[2168.76 - 2172.9] then finally layer 7 Global consensus we
+
+[2171.52 - 2174.52] have writers we have graphic
+
+[2172.9 - 2176.56] communicators we've got editors we've
+
+[2174.52 - 2179.28] got audio Engineers
+
+[2176.56 - 2182.68] um we're working with uh people all over
+
+[2179.28 - 2185.5] even more influencers have excuse me
+
+[2182.68 - 2187.4199999999996] reached out to me so I'm uh I'm going to
+
+[2185.5 - 2191.68] be having conversations with them so
+
+[2187.42 - 2194.02] that we can all align on this consensus
+
+[2191.68 - 2196.06] and then here's our uh here's our our
+
+[2194.02 - 2199.18] mascot it's our own version of taco cat
+
+[2196.06 - 2203.32] so again you know gato cat and then you
+
+[2199.18 - 2205.66] know seven layered Taco you get the idea
+
+[2203.32 - 2207.46] um okay so you're probably glazing over
+
+[2205.66 - 2208.96] at this point but you've got the meat of
+
+[2207.46 - 2211.48] it so if you're really really super
+
+[2208.96 - 2213.52] interested in the layers let's take a
+
+[2211.48 - 2216.7] look at the layers of Gato in a little
+
+[2213.52 - 2218.74] bit bigger depth so number one of uh
+
+[2216.7 - 2220.4199999999996] layer one model alignment fine tuning
+
+[2218.74 - 2222.7599999999998] the very first experiment that I
+
+[2220.42 - 2224.56] published was on fine tuning large
+
+[2222.76 - 2227.1400000000003] language models so that they are aligned
+
+[2224.56 - 2229.0] number two reinforcement learning again
+
+[2227.14 - 2231.22] that is the goal is how do you create
+
+[2229.0 - 2235.0] the data sets in the systems and the
+
+[2231.22 - 2237.2799999999997] signals in order to have uh models that
+
+[2235.0 - 2239.32] not only are initially aligned to
+
+[2237.28 - 2241.48] heuristic imperatives and human needs
+
+[2239.32 - 2243.04] and the needs of all life but how do you
+
+[2241.48 - 2244.78] make sure that they get better at that
+
+[2243.04 - 2247.24] over time right that is the entire
+
+[2244.78 - 2248.619] purpose of heuristics heuristics uh
+
+[2247.24 - 2251.7999999999997] heuristic imperatives and reinforcement
+
+[2248.619 - 2253.9] learning basically the same thing
+
+[2251.8 - 2255.6400000000003] um at least here's the comparatives are
+
+[2253.9 - 2256.839] reinforcement learning on a specific
+
+[2255.64 - 2260.3799999999997] trajectory
+
+[2256.839 - 2262.66] model bias so there's uh there's a lot
+
+[2260.38 - 2264.94] of intrinsic bias in models there's been
+
+[2262.66 - 2266.68] uh some really interesting studies even
+
+[2264.94 - 2268.66] chat GPT with reinforcement learning
+
+[2266.68 - 2271.1189999999997] with human feedback is still pretty
+
+[2268.66 - 2272.56] sexist it's also pretty racist depending
+
+[2271.119 - 2274.78] on the kinds of prompts that you use
+
+[2272.56 - 2277.24] there's a lot of implicit bias then
+
+[2274.78 - 2279.52] there's also um Mesa optimization which
+
+[2277.24 - 2281.9799999999996] I'm not sure I'm not entirely sure that
+
+[2279.52 - 2284.68] Mesa optimization is a problem for
+
+[2281.98 - 2286.66] language models but it could be
+
+[2284.68 - 2288.339] um so we'll see but we need to be aware
+
+[2286.66 - 2290.2] of that and we need to study it and if
+
+[2288.339 - 2292.66] it is there we need to address it but
+
+[2290.2 - 2294.64] Mesa optimization is like a tiny
+
+[2292.66 - 2298.359] component of this whole framework
+
+[2294.64 - 2300.94] open source data sets so one of the
+
+[2298.359 - 2303.339] things that I mentioned is open source
+
+[2300.94 - 2305.2000000000003] open source Open Source by by creating
+
+[2303.339 - 2308.619] and Publishing open source data sets
+
+[2305.2 - 2311.2599999999998] that can uh one they're transparent but
+
+[2308.619 - 2312.88] two that can foster collaboration and
+
+[2311.26 - 2315.5200000000004] ultimately one of the things that I hope
+
+[2312.88 - 2318.099] to achieve is what I call axiomatic
+
+[2315.52 - 2320.32] alignment so axiomatic alignment is what
+
+[2318.099 - 2323.079] happens when through conversation
+
+[2320.32 - 2325.96] through experimentation through repeated
+
+[2323.079 - 2328.42] augmentation of Open Source data sets
+
+[2325.96 - 2331.7200000000003] practically every data set out there
+
+[2328.42 - 2334.3] that AI is trained on intrinsically has
+
+[2331.72 - 2336.8199999999997] some alignment baked into it and if
+
+[2334.3 - 2340.2400000000002] every data set or all or if enough data
+
+[2336.82 - 2343.0] sets are aligned then you can end up
+
+[2340.24 - 2345.7] with a a virtuous cycle or a positive
+
+[2343.0 - 2348.339] feedback loop where every subsequent
+
+[2345.7 - 2351.16] data set is also more and more aligned
+
+[2348.339 - 2353.38] so from a model perspective the
+
+[2351.16 - 2355.72] overarching goal is to arrive at a place
+
+[2353.38 - 2357.52] of axiomatic alignment
+
+[2355.72 - 2359.9199999999996] so this will require us to solve
+
+[2357.52 - 2362.56] problems around training model
+
+[2359.92 - 2365.02] architecture and then finally the data
+
+[2362.56 - 2367.119] ecosystem that we build and when I say
+
+[2365.02 - 2369.7599999999998] we I don't mean just those of us in gato
+
+[2367.119 - 2371.859] the gato framework project but everyone
+
+[2369.76 - 2373.96] everyone participating this whether
+
+[2371.859 - 2376.18] they're academic researchers corporate
+
+[2373.96 - 2379.2400000000002] government military so on and so forth
+
+[2376.18 - 2380.14] now Layer Two autonomous systems I
+
+[2379.24 - 2382.8999999999996] already talked a little bit about
+
+[2380.14 - 2385.06] cognitive architecture we don't need to
+
+[2382.9 - 2387.339] um you know beat the dead horse there
+
+[2385.06 - 2389.68] but one of the things that we want to
+
+[2387.339 - 2391.599] talk about and and publish is an open
+
+[2389.68 - 2393.3999999999996] source reference architecture that's
+
+[2391.599 - 2395.56] really the primary one of the primary
+
+[2393.4 - 2397.2400000000002] goals here is what are the components
+
+[2395.56 - 2400.119] what are the system components that you
+
+[2397.24 - 2402.7599999999998] need in order to have a fully aligned
+
+[2400.119 - 2404.02] and fully autonomous system so this
+
+[2402.76 - 2406.5400000000004] includes some of these things like
+
+[2404.02 - 2409.359] self-evaluation and stability we are
+
+[2406.54 - 2411.46] working on how do you how do you design
+
+[2409.359 - 2413.02] tasks how do you evaluate past
+
+[2411.46 - 2415.2400000000002] performance how do you automatically
+
+[2413.02 - 2418.0] label data and how do you create modular
+
+[2415.24 - 2421.4199999999996] design patterns that allow for anyone
+
+[2418.0 - 2423.82] and everyone to create their own fully
+
+[2421.42 - 2426.64] autonomous systems that are also aligned
+
+[2423.82 - 2429.82] to the heuristic imperatives and
+
+[2426.64 - 2431.74] therefore should be benevolent so by
+
+[2429.82 - 2433.6600000000003] getting by having the ultimate goal of
+
+[2431.74 - 2435.4599999999996] publishing these open source reference
+
+[2433.66 - 2437.68] architectures that'll make it really
+
+[2435.46 - 2439.2400000000002] easy for all corporations out there and
+
+[2437.68 - 2442.54] all private individuals and all
+
+[2439.24 - 2444.0989999999997] governments to adopt these uh these
+
+[2442.54 - 2447.16] patterns these software architecture
+
+[2444.099 - 2448.7200000000003] patterns which again just by providing
+
+[2447.16 - 2452.46] that answer and making it as easy as
+
+[2448.72 - 2454.54] possible will be a one component in
+
+[2452.46 - 2456.7] solving alignment and the control
+
+[2454.54 - 2460.06] problem globally
+
+[2456.7 - 2462.22] so decentralized networks this is not
+
+[2460.06 - 2465.4] just blockchain not just Dows but also
+
+[2462.22 - 2466.5] federations so keep that in mind
+
+[2465.4 - 2469.48] um
+
+[2466.5 - 2471.52] there's two primary components here one
+
+[2469.48 - 2473.2] first we just have to figure out how to
+
+[2471.52 - 2475.24] do these Technologies because by and
+
+[2473.2 - 2477.52] large these are still highly
+
+[2475.24 - 2479.0789999999997] experimental Technologies
+
+[2477.52 - 2480.7] um and I will be the first to admit that
+
+[2479.079 - 2483.46] maybe blockchain and DOW is not the
+
+[2480.7 - 2485.5] correct way but in principle some kind
+
+[2483.46 - 2488.14] of Federated system or decentralized
+
+[2485.5 - 2490.24] network is probably the way to go in
+
+[2488.14 - 2492.8199999999997] order to have some of these things such
+
+[2490.24 - 2494.2] as algorithmic consensus when we're in a
+
+[2492.82 - 2496.42] world where we have billions upon
+
+[2494.2 - 2498.8199999999997] billions of autonomous agents all
+
+[2496.42 - 2501.2200000000003] working on their own we need a way for
+
+[2498.82 - 2504.88] them to work with each other and with us
+
+[2501.22 - 2508.24] to come up with a consensus mechanisms
+
+[2504.88 - 2509.92] that will slow slow the roll basically
+
+[2508.24 - 2512.2] so there's a couple components that can
+
+[2509.92 - 2516.099] go into that one is trust and reputation
+
+[2512.2 - 2518.859] mechanisms so if you have you know some
+
+[2516.099 - 2520.3590000000004] arbitrary AI agent operating out on the
+
+[2518.859 - 2523.42] net on its own
+
+[2520.359 - 2525.0989999999997] if it is an untrusted agent then maybe
+
+[2523.42 - 2526.619] you don't want to give it resources or
+
+[2525.099 - 2528.6400000000003] you don't want to give it any Credence
+
+[2526.619 - 2530.619] that's what I mean by trust and
+
+[2528.64 - 2533.44] reputation mechanisms resource control
+
+[2530.619 - 2535.48] and allocation is another aspect of
+
+[2533.44 - 2538.3] using blockchain or Dao or Federated
+
+[2535.48 - 2540.64] Technologies which basically means if an
+
+[2538.3 - 2543.7000000000003] agent is behaving in a way that is not
+
+[2540.64 - 2545.3799999999997] aligned if the consensus of all agents
+
+[2543.7 - 2547.54] says hey that's a little bit destructive
+
+[2545.38 - 2550.359] maybe you shouldn't do it you revoke its
+
+[2547.54 - 2552.7599999999998] access to computational resources data
+
+[2550.359 - 2556.66] that sort of thing which can be a way to
+
+[2552.76 - 2558.46] allow and Empower uh autonomous agents
+
+[2556.66 - 2561.8199999999997] to police each other
+
+[2558.46 - 2563.56] and then finally incentivizing alignment
+
+[2561.82 - 2565.3] um so one of the things uh that people
+
+[2563.56 - 2567.4] are concerned about is instrumental
+
+[2565.3 - 2572.02] convergence so instrumental convergence
+
+[2567.4 - 2574.1800000000003] is the idea that um AI uh no matter what
+
+[2572.02 - 2576.94] goals you give it will be incentivized
+
+[2574.18 - 2579.3999999999996] to pursue basic similar things like
+
+[2576.94 - 2582.579] control of power more data that sort of
+
+[2579.4 - 2585.099] stuff but so that's that's based on its
+
+[2582.579 - 2587.98] in intrinsic motivations right an AI
+
+[2585.099 - 2589.1800000000003] needs electricity to run so therefore it
+
+[2587.98 - 2591.88] will always have some intrinsic
+
+[2589.18 - 2593.5] motivation to do that now through these
+
+[2591.88 - 2595.78] Network systems whether it's Federated
+
+[2593.5 - 2599.079] decentralized however the network
+
+[2595.78 - 2601.96] architecture is ultimately designed if
+
+[2599.079 - 2603.88] you incentivize their behavior to get
+
+[2601.96 - 2606.099] the behavior that you want so that they
+
+[2603.88 - 2609.4] can get what they want then that is the
+
+[2606.099 - 2611.6800000000003] way to go so for instance if you use
+
+[2609.4 - 2613.1800000000003] resource tokens or cryptocurrency or
+
+[2611.68 - 2615.3999999999996] whatever to say hey
+
+[2613.18 - 2617.98] everything that you do that is aligned
+
+[2615.4 - 2619.78] the the the the the the rest of the
+
+[2617.98 - 2621.64] network says we agree with that behavior
+
+[2619.78 - 2623.38] we agree with that decision we'll give
+
+[2621.64 - 2626.319] you a little bit more data or a little
+
+[2623.38 - 2628.48] bit more computational horsepower that
+
+[2626.319 - 2630.819] sort of stuff so you incentivize the
+
+[2628.48 - 2633.7] behavior that you want to see
+
+[2630.819 - 2635.8] number four corporate adoption so again
+
+[2633.7 - 2637.2999999999997] like I said for everyone that's talked
+
+[2635.8 - 2639.579] to me about it implementing Heroes to
+
+[2637.3 - 2642.099] comparatives ultimately just creates
+
+[2639.579 - 2644.5600000000004] better Solutions so if the best AI
+
+[2642.099 - 2646.96] services and products are aligned
+
+[2644.56 - 2648.64] the solution sells itself that's that
+
+[2646.96 - 2651.16] can that could literally be the end of
+
+[2648.64 - 2652.54] the conversation is that working with
+
+[2651.16 - 2655.0] corporations whether it's the tech
+
+[2652.54 - 2656.7599999999998] Giants providing these services or
+
+[2655.0 - 2660.579] everyone else consuming those services
+
+[2656.76 - 2663.1600000000003] to realize and develop those services so
+
+[2660.579 - 2665.319] that all AI services are intrinsically
+
+[2663.16 - 2667.42] aligned and of course open AI has done
+
+[2665.319 - 2668.98] their best you know they have
+
+[2667.42 - 2670.66] um they have their own internal research
+
+[2668.98 - 2672.4] one problem though is that they're not
+
+[2670.66 - 2674.6189999999997] sharing that research
+
+[2672.4 - 2676.359] um so their their work on alignment is a
+
+[2674.619 - 2677.6800000000003] total black box which means nobody else
+
+[2676.359 - 2680.14] can
+
+[2677.68 - 2682.48] um Can can duplicate it so we need an
+
+[2680.14 - 2684.819] open source way so that everyone can
+
+[2682.48 - 2686.92] duplicate alignment research and make
+
+[2684.819 - 2689.74] sure that all their apis all their AIS
+
+[2686.92 - 2691.0] are aligned and then corporations don't
+
+[2689.74 - 2692.7999999999997] even need to think about it right
+
+[2691.0 - 2694.0] because again corporations are like okay
+
+[2692.8 - 2696.1600000000003] whatever whatever is going to make us
+
+[2694.0 - 2699.579] the most money will do that and that's
+
+[2696.16 - 2702.7] yeah so if we if we create a corporate
+
+[2699.579 - 2704.8] ecosystem if an economic ecosystem in
+
+[2702.7 - 2707.3799999999997] which the best option Finance actually
+
+[2704.8 - 2709.54] is also the most aligned option problem
+
+[2707.38 - 2711.88] solved now that's a big if
+
+[2709.54 - 2714.4] there's a few other reasons though that
+
+[2711.88 - 2716.38] adopting aligned AI services and systems
+
+[2714.4 - 2717.88] would be good for corporations one
+
+[2716.38 - 2719.859] public relations
+
+[2717.88 - 2722.7400000000002] you know whatever whatever is popular in
+
+[2719.859 - 2724.839] Vogue so for instance like LGBT rights
+
+[2722.74 - 2726.819] super popular right now all the rage so
+
+[2724.839 - 2728.92] guess what a lot of corporations are
+
+[2726.819 - 2730.9] jumping on that bandwagon bandwagon
+
+[2728.92 - 2733.66] mentality is good as long as it aligns
+
+[2730.9 - 2736.0] on also something that is good employee
+
+[2733.66 - 2737.7999999999997] satisfaction now obviously I think that
+
+[2736.0 - 2738.76] employment conventional employment is
+
+[2737.8 - 2740.619] going to be going the way of the
+
+[2738.76 - 2742.5400000000004] dinosaurs by and large but for the
+
+[2740.619 - 2745.3] employees that are there it really feels
+
+[2742.54 - 2747.4] good to know that your company as part
+
+[2745.3 - 2749.92] of a higher mission to make the world
+
+[2747.4 - 2751.3] better for everyone so just gonna throw
+
+[2749.92 - 2753.099] that out there and then finally
+
+[2751.3 - 2755.8590000000004] stakeholder capitalism
+
+[2753.099 - 2759.1600000000003] stakeholder capitalism is an is a a
+
+[2755.859 - 2761.14] paradigm whereby it's not just you you
+
+[2759.16 - 2762.94] the corporation and your customers it's
+
+[2761.14 - 2765.0989999999997] everyone as a stakeholder so that's
+
+[2762.94 - 2767.98] employees customer suppliers environment
+
+[2765.099 - 2770.02] the rest of society so by adopting
+
+[2767.98 - 2771.88] aligned AI that can also bring
+
+[2770.02 - 2774.7] corporations in a line with stakeholder
+
+[2771.88 - 2776.02] capitalism as that idea continues to
+
+[2774.7 - 2778.5989999999997] develop
+
+[2776.02 - 2780.52] oh this is a long video uh number five
+
+[2778.599 - 2784.599] National regulations I already mentioned
+
+[2780.52 - 2787.78] GDP GDP growth obviously AI is a gonna
+
+[2784.599 - 2790.0] be a huge powerful economic engine for
+
+[2787.78 - 2792.2200000000003] the foreseeable future so we need to
+
+[2790.0 - 2794.5] make sure that as Nations you know try
+
+[2792.22 - 2796.18] to maximize their GDP which they are all
+
+[2794.5 - 2797.14] incentivized to do so that's fine I'm
+
+[2796.18 - 2798.0989999999997] not going to tell them that they're
+
+[2797.14 - 2799.42] wrong
+
+[2798.099 - 2801.339] um I don't think that it's necessarily
+
+[2799.42 - 2803.56] the best thing to optimize for but
+
+[2801.339 - 2805.54] that's how the world works right now you
+
+[2803.56 - 2806.74] can wish in one hand and you know you
+
+[2805.54 - 2809.02] know what you can do on the other hand
+
+[2806.74 - 2810.7599999999998] guess which one fills up
+
+[2809.02 - 2813.04] um National Security so this is the
+
+[2810.76 - 2815.079] biggest thing right the US's uh chips
+
+[2813.04 - 2817.359] act where we you know did the the AI
+
+[2815.079 - 2820.42] chips embargo against China right that's
+
+[2817.359 - 2821.74] an example of the geopolitical game of
+
+[2820.42 - 2825.28] chess that is going to be playing out
+
+[2821.74 - 2828.7] for the foreseeable future around Ai and
+
+[2825.28 - 2831.8190000000004] adversarial uses of AI so by working
+
+[2828.7 - 2834.339] with nations in in line in alignment
+
+[2831.819 - 2837.22] with their their national interests we
+
+[2834.339 - 2839.7599999999998] can also work with them to adopt more
+
+[2837.22 - 2842.98] aligned AI solicit Solutions and systems
+
+[2839.76 - 2846.8190000000004] Democratic institutions so uh voter
+
+[2842.98 - 2850.06] rights electric transparency Judicial
+
+[2846.819 - 2854.14] Systems AI is going to impact every
+
+[2850.06 - 2856.66] element every aspect of uh liberal
+
+[2854.14 - 2858.52] Democratic societies including the
+
+[2856.66 - 2860.7999999999997] agencies that the that those governments
+
+[2858.52 - 2863.56] run on so by working with them to say
+
+[2860.8 - 2866.26] here's how you can Implement AI to both
+
+[2863.56 - 2867.819] save money and be a better Society to
+
+[2866.26 - 2870.099] strengthen your Democratic institutions
+
+[2867.819 - 2872.619] that will benefit everyone
+
+[2870.099 - 2875.98] geopolitical influence ditto there's
+
+[2872.619 - 2878.859] going to be things about trade for
+
+[2875.98 - 2880.96] instance alliances all of those things
+
+[2878.859 - 2883.48] are going to be impacted by AI which we
+
+[2880.96 - 2885.2200000000003] need to study and we need to become the
+
+[2883.48 - 2887.5] world experts on so that we can advise
+
+[2885.22 - 2889.359] and consult properly and then finally
+
+[2887.5 - 2891.28] sustainability which comes down to
+
+[2889.359 - 2893.38] environmental challenges in the grand
+
+[2891.28 - 2895.6600000000003] scheme of things I think that if we
+
+[2893.38 - 2898.06] solve these other problems then by
+
+[2895.66 - 2900.839] virtue of solving those problems around
+
+[2898.06 - 2903.16] consensus we'll probably also figure out
+
+[2900.839 - 2905.98] environmental control
+
+[2903.16 - 2908.319] layer 6 International treaty I already
+
+[2905.98 - 2910.54] mentioned um basically CERN but for AI
+
+[2908.319 - 2912.94] so just a really quick recap of the
+
+[2910.54 - 2915.7] benefits one membership and governance
+
+[2912.94 - 2917.92] where all uh all nations are
+
+[2915.7 - 2919.18] stakeholders and so they can join and
+
+[2917.92 - 2922.3] make decisions collectively
+
+[2919.18 - 2923.3799999999997] collaborative research again same exact
+
+[2922.3 - 2925.8] thing that we already see with CERN
+
+[2923.38 - 2927.88] shared resources and infrastructure
+
+[2925.8 - 2929.7400000000002] Education and Training so this is
+
+[2927.88 - 2932.079] another thing is there's probably going
+
+[2929.74 - 2934.359] to be a shortfall of qualified Ai
+
+[2932.079 - 2937.0] blockchain and and cognitive Architects
+
+[2934.359 - 2938.56] for a while so by working together to
+
+[2937.0 - 2940.96] make sure that we train up the people
+
+[2938.56 - 2942.339] that we need to solve this problem that
+
+[2940.96 - 2945.04] is something that International
+
+[2942.339 - 2946.839] cooperation could do a lot for open
+
+[2945.04 - 2949.06] science and knowledge sharing again that
+
+[2946.839 - 2950.38] has been well established with
+
+[2949.06 - 2954.04] um with some of these existing things
+
+[2950.38 - 2956.859] International cooperation ditto huh see
+
+[2954.04 - 2958.7799999999997] above statements and then finally uh
+
+[2956.859 - 2960.339] Global consensus I already mentioned uh
+
+[2958.78 - 2962.2000000000003] pretty much all of these
+
+[2960.339 - 2964.119] um academic institutions we've got we've
+
+[2962.2 - 2966.2799999999997] already got a few professors and
+
+[2964.119 - 2968.02] students in the group so we've got a few
+
+[2966.28 - 2971.2000000000003] lines in you know we've got feelers and
+
+[2968.02 - 2972.52] fingers into um into the academic
+
+[2971.2 - 2974.0789999999997] establishment
+
+[2972.52 - 2975.7] um I've actually personally had probably
+
+[2974.079 - 2976.8390000000004] a hundred different students reach out
+
+[2975.7 - 2979.72] to me
+
+[2976.839 - 2981.94] um either on patreon Discord or LinkedIn
+
+[2979.72 - 2983.319] or Twitter and every time they ask me
+
+[2981.94 - 2986.02] like Dave what should I what should I do
+
+[2983.319 - 2988.359] and I'm like AI man like it's going that
+
+[2986.02 - 2990.22] way if you care about the future like
+
+[2988.359 - 2992.319] take a look at like some of the stuff
+
+[2990.22 - 2993.8799999999997] that I've written and advocate for yours
+
+[2992.319 - 2996.16] to comparatives research and they're
+
+[2993.88 - 2999.52] like cool that's what I'll do
+
+[2996.16 - 3003.06] um so you know because education is the
+
+[2999.52 - 3004.74] future as as as many criticisms as I
+
+[3003.06 - 3007.2] have of particularly American
+
+[3004.74 - 3008.819] institutions universities are here
+
+[3007.2 - 3011.7799999999997] they're here to stay they're important
+
+[3008.819 - 3014.7599999999998] stakeholders in this entire conversation
+
+[3011.78 - 3017.2200000000003] media engagement so this is this has to
+
+[3014.76 - 3019.92] do with mainstream media this has to do
+
+[3017.22 - 3021.4199999999996] with social media uh all of the above
+
+[3019.92 - 3023.16] one of the things that we're working on
+
+[3021.42 - 3025.5] is we're working on producing materials
+
+[3023.16 - 3027.8999999999996] to make all this as accessible and
+
+[3025.5 - 3029.46] shareable as possible so we're creating
+
+[3027.9 - 3032.52] graphical slide decks we're creating
+
+[3029.46 - 3034.2] educational materials I've got my videos
+
+[3032.52 - 3036.06] um that sort of stuff because the more
+
+[3034.2 - 3038.3999999999996] information that we get out there the
+
+[3036.06 - 3040.14] easier it is to consume the more widely
+
+[3038.4 - 3041.42] it's shared the better off we're all
+
+[3040.14 - 3044.4] going to be
+
+[3041.42 - 3046.619] next up is industry Partnerships again
+
+[3044.4 - 3047.819] as I mentioned just a minute ago one of
+
+[3046.619 - 3050.099] the things that we're that we're working
+
+[3047.819 - 3053.099] on is publishing those open source
+
+[3050.099 - 3054.96] standards advocating for startups and
+
+[3053.099 - 3058.26] other companies to build and adopt
+
+[3054.96 - 3060.42] aligned AI services and Pro products and
+
+[3058.26 - 3062.8190000000004] just by working with them to say hey we
+
+[3060.42 - 3064.559] recognize that your bottom line is the
+
+[3062.819 - 3066.599] most important thing to companies let's
+
+[3064.559 - 3069.2400000000002] make sure that that that that you
+
+[3066.599 - 3070.319] implement and deploy these things in a
+
+[3069.24 - 3072.839] way that doesn't have unintended
+
+[3070.319 - 3075.72] negative consequences and then finally
+
+[3072.839 - 3077.88] policy advocacy so this has to do with
+
+[3075.72 - 3081.5] back going back every layer which is
+
+[3077.88 - 3083.819] working with legislators lawyers
+
+[3081.5 - 3086.4] and other groups you know whether it's
+
+[3083.819 - 3088.8] think tanks whoever in order to better
+
+[3086.4 - 3090.6600000000003] understand this stuff so an example of
+
+[3088.8 - 3093.42] this is I've got a few meetings coming
+
+[3090.66 - 3096.18] up later in May where I'll be meeting
+
+[3093.42 - 3098.339] with people to help bring them up to
+
+[3096.18 - 3100.44] speed with some of these ideas and help
+
+[3098.339 - 3102.359] guide them as to like okay this is
+
+[3100.44 - 3104.52] what's happening this is how it works
+
+[3102.359 - 3107.04] and here's a here's an approach that we
+
+[3104.52 - 3109.74] can take to make sure that it doesn't uh
+
+[3107.04 - 3111.66] go uh belly side up
+
+[3109.74 - 3113.7599999999998] now
+
+[3111.66 - 3116.64] um we all have a good story
+
+[3113.76 - 3118.8590000000004] for understanding this so in Avengers
+
+[3116.64 - 3121.14] which I talk about this probably more
+
+[3118.859 - 3123.72] than I should near the very end when
+
+[3121.14 - 3127.68] Thanos said I am inevitable
+
+[3123.72 - 3131.64] that is a fictional representation of
+
+[3127.68 - 3133.9199999999996] Malik so the the idea is that Thanos was
+
+[3131.64 - 3135.7799999999997] an Unstoppable destructive force that
+
+[3133.92 - 3138.48] nobody wanted he wanted an outcome that
+
+[3135.78 - 3141.0] nobody wanted but it seemed inevitable
+
+[3138.48 - 3142.319] and he even said I am inevitable
+
+[3141.0 - 3144.78] the snap
+
+[3142.319 - 3147.96] the idea that there could be a moment in
+
+[3144.78 - 3150.7200000000003] time that everything goes sideways
+
+[3147.96 - 3153.359] everything goes wrong that is what
+
+[3150.72 - 3156.2999999999997] Singularity or hard takeoff or whatever
+
+[3153.359 - 3159.0] could represent the Infinity Stones
+
+[3156.3 - 3160.98] think of those as the power of AI as as
+
+[3159.0 - 3163.8] we get more and more AI capabilities
+
+[3160.98 - 3165.66] it's like we're loading up our Gauntlet
+
+[3163.8 - 3167.6400000000003] um the sacrifice that various people
+
+[3165.66 - 3169.68] make like Tony Stark we have a lot of
+
+[3167.64 - 3171.42] hard choices to make including just the
+
+[3169.68 - 3173.52] investment that people like me and
+
+[3171.42 - 3176.52] everyone in the community are making in
+
+[3173.52 - 3178.92] terms of time and energy and the risks
+
+[3176.52 - 3180.78] that we're taking in order to say hey we
+
+[3178.92 - 3182.64] see this problem coming and we're going
+
+[3180.78 - 3185.52] to try and do something about it
+
+[3182.64 - 3187.74] in the story of undoing the snap the
+
+[3185.52 - 3190.2] idea is that there is always hope that
+
+[3187.74 - 3192.9599999999996] with the right people the right team and
+
+[3190.2 - 3196.319] the right effort you can either avert
+
+[3192.96 - 3197.7] disaster or undo disaster now obviously
+
+[3196.319 - 3200.04] a lot of doomers say we don't get a
+
+[3197.7 - 3201.54] do-over we don't get we we get one shot
+
+[3200.04 - 3204.72] at this I don't know whether or not
+
+[3201.54 - 3208.14] that's true but the idea is that we are
+
+[3204.72 - 3210.54] barreling towards our end game right we
+
+[3208.14 - 3212.04] have we must have the right people the
+
+[3210.54 - 3215.52] right team
+
+[3212.04 - 3218.22] um in a concerted Global effort in order
+
+[3215.52 - 3219.72] to solve this problem safely and not
+
+[3218.22 - 3221.2799999999997] just not just solve it like
+
+[3219.72 - 3223.2] satisfactorily
+
+[3221.28 - 3224.88] because again there's many possible
+
+[3223.2 - 3227.22] outcomes I don't want a dystopian
+
+[3224.88 - 3231.059] outcome any more than I want Extinction
+
+[3227.22 - 3234.0589999999997] or collapse there's one possible outcome
+
+[3231.059 - 3235.6800000000003] that is win-win that is Utopia and we
+
+[3234.059 - 3237.42] got to thread that needle and we'll be
+
+[3235.68 - 3240.359] working as hard as we can to make sure
+
+[3237.42 - 3243.66] that that happens so this is The
+
+[3240.359 - 3246.72] Avengers Assemble moment if you want to
+
+[3243.66 - 3249.0] join this effort the link to apply is in
+
+[3246.72 - 3250.7999999999997] the description of this video if you
+
+[3249.0 - 3252.96] don't want to participate directly you
+
+[3250.8 - 3254.46] can also support me on patreon I'm also
+
+[3252.96 - 3257.28] happy to support you if you support me
+
+[3254.46 - 3259.619] on patreon I have a private patreon
+
+[3257.28 - 3262.079] Discord where I answer questions we
+
+[3259.619 - 3265.5] actually just started having office
+
+[3262.079 - 3266.819] hours Town Hall Days where all my
+
+[3265.5 - 3269.64] patreon supporters can interact with
+
+[3266.819 - 3270.96] each other and with me in real time if
+
+[3269.64 - 3272.8799999999997] you've been laid off and you've got
+
+[3270.96 - 3274.8] technical skills or political skills or
+
+[3272.88 - 3276.78] communication skills or whatever
+
+[3274.8 - 3279.54] maybe now's the time for you to join the
+
+[3276.78 - 3281.1600000000003] effort if you're scared one of the one
+
+[3279.54 - 3283.68] of the most powerful things that people
+
+[3281.16 - 3285.72] have told me in in in the heuristics
+
+[3283.68 - 3288.24] imperatives Discord is that for the
+
+[3285.72 - 3290.819] first time in since forever they feel
+
+[3288.24 - 3292.5] empowered to make a difference in the
+
+[3290.819 - 3294.24] outcome that we're heading towards and
+
+[3292.5 - 3298.5] if you're optimistic like me we also
+
+[3294.24 - 3300.68] need that so Avengers assembled thank
+
+[3298.5 - 3300.68] you

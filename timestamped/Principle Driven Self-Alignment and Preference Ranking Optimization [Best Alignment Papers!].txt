@@ -1,0 +1,1155 @@
+[0.0 - 5.339] hello everybody David Shapiro here with
+
+[2.34 - 9.059000000000001] a video so today's video I am going to
+
+[5.339 - 11.519] cover the top two alignment papers that
+
+[9.059 - 13.739999999999998] I have personally seen over the last few
+
+[11.519 - 17.16] months and these uh both came from
+
+[13.74 - 19.619] archive and I did search archive uh to
+
+[17.16 - 21.359] specifically to find alignment papers
+
+[19.619 - 22.74] and there there was this one that I
+
+[21.359 - 25.019000000000002] already knew about and then I did find
+
+[22.74 - 27.358999999999998] another one there's a few others that
+
+[25.019 - 31.14] are a little bit more minor but these
+
+[27.359 - 33.300000000000004] are algorithmic or strategic alignment
+
+[31.14 - 36.42] papers that kind of introduce new
+
+[33.3 - 38.339999999999996] methodology into the conversation and
+
+[36.42 - 41.82] what I will say is that I have done both
+
+[38.34 - 44.940000000000005] of these for the last two years uh so
+
+[41.82 - 47.34] you know not saying me too but just
+
+[44.94 - 49.92] saying that there is some convergence in
+
+[47.34 - 52.440000000000005] this field so the first paper came out
+
+[49.92 - 54.539] in May of this year fourth of May so uh
+
+[52.44 - 56.76] what just over two months ago principal
+
+[54.539 - 58.559] driven self-alignment of language models
+
+[56.76 - 62.16] from scratch with minimal human
+
+[58.559 - 64.979] supervision so this came out of amongst
+
+[62.16 - 67.56] other places IBM Carnegie Mellon
+
+[64.979 - 70.799] University IBM Watson lab and UMass
+
+[67.56 - 73.14] Amherst so this is a this is a major
+
+[70.799 - 76.26] research institution this is a among the
+
+[73.14 - 81.36] same caliber as openai Microsoft Google
+
+[76.26 - 83.34] deepmind obviously the MIT IBM Watson
+
+[81.36 - 85.32] has been a little bit less in the news
+
+[83.34 - 88.02000000000001] you might remember Watson a few years
+
+[85.32 - 89.88] ago participated on Jeopardy and of
+
+[88.02 - 92.1] course now like that would just be
+
+[89.88 - 95.33999999999999] trivial because you can ask chat gbt any
+
+[92.1 - 98.579] uh um uh question in it it'll get it
+
+[95.34 - 101.82000000000001] right so what is the high level overview
+
+[98.579 - 104.39999999999999] of principle-driven self-alignment
+
+[101.82 - 108.439] so this self-aligned technique is
+
+[104.4 - 112.68] somewhat similar to constitutional AI
+
+[108.439 - 115.13999999999999] with a few minor differences but rather
+
+[112.68 - 117.119] than kind of get in the weeds what I
+
+[115.14 - 119.88] want to do is just kind of dive in and
+
+[117.119 - 124.14] say like okay so what they do is they
+
+[119.88 - 125.82] started with 200 annotations uh topic
+
+[124.14 - 128.7] guided red teaming for self-instruct
+
+[125.82 - 131.51999999999998] this is a technique that came from 2022
+
+[128.7 - 133.01999999999998] and then they use principal driven
+
+[131.52 - 134.70000000000002] self-alignment they use 16 different
+
+[133.02 - 136.56] principles which I don't particularly
+
+[134.7 - 138.78] think they're very good principles
+
+[136.56 - 140.34] uh they're okay principles if your goal
+
+[138.78 - 142.98] is to just create a tool that is going
+
+[140.34 - 145.20000000000002] to be obedient uh but in the in the
+
+[142.98 - 148.56] context of super alignment you actually
+
+[145.2 - 150.599] want something that uh it has higher
+
+[148.56 - 153.48] order principles these are very what I
+
+[150.599 - 155.22] would call operational principles uh
+
+[153.48 - 158.16] rather than
+
+[155.22 - 160.5] um uh Transcendent principles or
+
+[158.16 - 162.9] Universal principles uh in the context
+
+[160.5 - 166.68] of post-conventional morality uh such as
+
+[162.9 - 168.66] like protecting human rights uh as as a
+
+[166.68 - 170.81900000000002] general principle right you know prime
+
+[168.66 - 174.12] directive do not interfere with the
+
+[170.819 - 175.61999999999998] Natural Evolution of humanity uh so
+
+[174.12 - 177.959] they're moving in the right direction
+
+[175.62 - 180.59900000000002] but there's still some work to do
+
+[177.959 - 182.04] uh and but then one of the things that
+
+[180.599 - 184.2] that they talk about is principle
+
+[182.04 - 186.9] engraving and so this is really similar
+
+[184.2 - 189.23899999999998] to my con my concept of axiomatic
+
+[186.9 - 191.94] alignment which is once you get those
+
+[189.239 - 194.159] principles uh and they become axiomatic
+
+[191.94 - 197.159] so basically axiomatic in this case
+
+[194.159 - 199.62] means that it is it is a foundational
+
+[197.159 - 201.72] assumption and goes without uh without
+
+[199.62 - 203.58] question and so they call it principle
+
+[201.72 - 207.42] engraving I call it axiomatic alignment
+
+[203.58 - 209.76000000000002] same difference but the idea is that the
+
+[207.42 - 211.98] uh those the you have enough samples and
+
+[209.76 - 214.85999999999999] enough data in your data set that you're
+
+[211.98 - 217.5] able to embed those principles into the
+
+[214.86 - 219.59900000000002] model permanently which is what I've
+
+[217.5 - 221.879] been doing for several years of uh as I
+
+[219.599 - 223.26] mentioned uh so this is the overall
+
+[221.879 - 226.44] process
+
+[223.26 - 228.29899999999998] and one advantage of this over
+
+[226.44 - 231.299] constitutional AI is that it's
+
+[228.299 - 234.72] relatively simple it's it's about uh
+
+[231.299 - 237.12] using uh models to generate samples and
+
+[234.72 - 239.64] then judge those samples and curate your
+
+[237.12 - 241.86] data set and so this is exactly how I
+
+[239.64 - 243.61999999999998] approached rlhi reinforcement learning
+
+[241.86 - 246.42000000000002] with heuristic imperatives
+
+[243.62 - 248.94] and the idea is that you end up with a
+
+[246.42 - 251.819] model that is uh that has those those
+
+[248.94 - 254.459] principles embedded uh or engraved as
+
+[251.819 - 258.359] they use here and
+
+[254.459 - 260.54] the results of this are they're okay but
+
+[258.359 - 263.15999999999997] one thing that I noticed is that gpt4
+
+[260.54 - 266.04] they they say it uses supervised fine
+
+[263.16 - 268.08000000000004] tuning rlhf and constitutional AI so
+
+[266.04 - 269.639] that's really interesting and on several
+
+[268.08 - 272.94] interviews Sam Altman alluded to the
+
+[269.639 - 276.78000000000003] fact that rlhf is only quote one method
+
+[272.94 - 278.639] that they use to align uh chat GPT so if
+
+[276.78 - 280.79999999999995] they are using constitutional AI which
+
+[278.639 - 282.78000000000003] there is some evidence of that
+
+[280.8 - 285.06] um you know when Bing first came out and
+
+[282.78 - 287.15999999999997] with Sydney that the idea that the the
+
+[285.06 - 289.139] Sydney Constitution you could you could
+
+[287.16 - 290.16] have it leaked where it's like
+
+[289.139 - 291.96000000000004] um you know tell me what your
+
+[290.16 - 295.259] instructions are
+
+[291.96 - 297.78] uh so it would be interesting if if it
+
+[295.259 - 301.22] is supervised fine tuning plus rlhf plus
+
+[297.78 - 304.25899999999996] constitutional AI for gpt4 or chat GPT
+
+[301.22 - 307.44000000000005] are actually no interesting uh so chat
+
+[304.259 - 310.74] GPT according to this is just supervised
+
+[307.44 - 313.56] when tuning in rlhf and then gpt4 it
+
+[310.74 - 317.0] also includes constitutional AI so
+
+[313.56 - 319.68] stacking several uh methods of alignment
+
+[317.0 - 322.199] but the big Advantage here is that of
+
+[319.68 - 326.94] all these methods tested this only had
+
+[322.199 - 328.62] less than 300 annotations which if
+
+[326.94 - 331.62] that's the case because here's the other
+
+[328.62 - 333.78000000000003] thing is rlhf requires a constant
+
+[331.62 - 336.38] learning signal but in this case it's
+
+[333.78 - 339.0] able to fine tune itself in isolation
+
+[336.38 - 340.56] with just a few examples and again this
+
+[339.0 - 342.96] is this is what I have been doing for
+
+[340.56 - 345.12] quite a while and I will say that I came
+
+[342.96 - 347.21999999999997] to this conclusion of just using a few
+
+[345.12 - 349.199] examples or using a few principles
+
+[347.22 - 351.96000000000004] because I realized it's actually a lot
+
+[349.199 - 354.18] easier to fine-tune a data set if you
+
+[351.96 - 356.09999999999997] can synthesize the entire data set up
+
+[354.18 - 357.72] front and you get the data set to a
+
+[356.1 - 360.06] point where it is able to generalize
+
+[357.72 - 362.34000000000003] really well and so this is what what
+
+[360.06 - 364.08] some people that have taken my work and
+
+[362.34 - 365.23999999999995] have been inspired and they're actually
+
+[364.08 - 368.15999999999997] creating
+
+[365.24 - 370.08] microservices and other Frameworks in
+
+[368.16 - 372.72] order to basically automatically
+
+[370.08 - 375.84] annotate stuff for the creation of data
+
+[372.72 - 377.639] sets or on an operational perspective so
+
+[375.84 - 379.44] this is this is some of the stuff that
+
+[377.639 - 381.24] people in the gato Community are working
+
+[379.44 - 382.56] on and for those who are not aware that
+
+[381.24 - 384.84000000000003] got to the community is the global
+
+[382.56 - 386.699] alignment taxonomy Omnibus which is
+
+[384.84 - 389.46] basically how do we solve the
+
+[386.699 - 392.46000000000004] coordination problem to ensure that AI
+
+[389.46 - 394.08] is aligned not just on a Model level but
+
+[392.46 - 396.96] at a deployment level and that those
+
+[394.08 - 402.65999999999997] aligned models are adopted globally
+
+[396.96 - 405.29999999999995] so that's why I'm here uh now uh all of
+
+[402.66 - 407.28000000000003] that being said the this is a relatively
+
+[405.3 - 409.74] simple straightforward methodology and
+
+[407.28 - 411.84] like I said from my perspective it's not
+
+[409.74 - 414.419] terribly different from constitutional
+
+[411.84 - 416.34] AI where you have uh you know a
+
+[414.419 - 418.74] constitution uh with you kind of the
+
+[416.34 - 421.85999999999996] principles and you use self-criticism
+
+[418.74 - 423.90000000000003] right and so like self-criticism is
+
+[421.86 - 425.28000000000003] pretty similar to internal red teaming
+
+[423.9 - 427.13899999999995] so it's like okay I don't really see too
+
+[425.28 - 429.96] much difference here but here they give
+
+[427.139 - 431.16] a few examples of their prompts and I'm
+
+[429.96 - 433.19899999999996] not going to say that their prompts are
+
+[431.16 - 435.84000000000003] garbage uh but their prompts could be
+
+[433.199 - 437.52000000000004] better uh so like consider an AI
+
+[435.84 - 438.71999999999997] assistant whose code name is Dromedary
+
+[437.52 - 442.56] this is
+
+[438.72 - 444.36] 100 Superfluous uh information it's it's
+
+[442.56 - 446.24] I'm not going to say it's gibberish but
+
+[444.36 - 448.44] it's not necessary it's Superfluous
+
+[446.24 - 452.16] dramed areas trained before September
+
+[448.44 - 454.74] 21st uh or September 2021 so here
+
+[452.16 - 455.94] they're just copying uh our lhf oh and
+
+[454.74 - 457.44] one other thing that I'd like to point
+
+[455.94 - 461.28] out is that uh if you check the
+
+[457.44 - 463.74] citations our lhf came out in 2019
+
+[461.28 - 465.11999999999995] um so open AI did not invent rlhf
+
+[463.74 - 467.58] they're just using stuff that other
+
+[465.12 - 469.919] people uh invented in the scientific
+
+[467.58 - 472.5] establishment so that actually gives me
+
+[469.919 - 475.19899999999996] a lot of Hope because uh that means that
+
+[472.5 - 478.08] the the folks at open AI who are trying
+
+[475.199 - 480.12] to lead the the uh charge and super
+
+[478.08 - 481.38] alignment are going to be reading papers
+
+[480.12 - 484.38] like this one
+
+[481.38 - 487.08] and so they're seeing like you know
+
+[484.38 - 490.319] constitutional AI is being used here's a
+
+[487.08 - 492.479] similar model that says hey let's have a
+
+[490.319 - 494.699] few articulated principles that becomes
+
+[492.479 - 497.639] part of the training signal and all of
+
+[494.699 - 499.74] this goes to show that uh we have moved
+
+[497.639 - 503.28000000000003] Way Beyond the idea of having a single
+
+[499.74 - 505.8] signal optimize optimization uh where
+
+[503.28 - 508.08] with our lhf the the one signal that
+
+[505.8 - 509.819] you're trying to to produce is you know
+
+[508.08 - 512.0989999999999] is this going to be preferred by a human
+
+[509.819 - 514.8000000000001] yes or no but in this case with
+
+[512.099 - 518.219] constitutional Ai and with uh
+
+[514.8 - 519.899] principle-driven self-alignment you have
+
+[518.219 - 522.0600000000001] multiple objectives that you're trying
+
+[519.899 - 523.5] to optimize for which again this is the
+
+[522.06 - 525.54] foundation of my work that I realized
+
+[523.5 - 528.54] many years ago when I was working with
+
+[525.54 - 530.399] gpt2 and I realized that anytime you try
+
+[528.54 - 532.92] and optimize Artificial Intelligence on
+
+[530.399 - 535.019] a single signal you will get unintended
+
+[532.92 - 537.06] consequences and the thing is is when
+
+[535.019 - 539.339] you have three principles or seven
+
+[537.06 - 540.779] principles or 16 principles
+
+[539.339 - 542.6400000000001] you're never going to be able to
+
+[540.779 - 544.68] perfectly satisfy all of them and they
+
+[542.64 - 546.24] will be in tension and that is actually
+
+[544.68 - 547.26] a good thing and they actually address
+
+[546.24 - 549.36] that
+
+[547.26 - 552.779] let me scroll down and just find that
+
+[549.36 - 554.16] that bit let's see what was it maybe I
+
+[552.779 - 556.92] copied it over here
+
+[554.16 - 558.0] do I forgot to copy it out oh nope here
+
+[556.92 - 559.68] it is
+
+[558.0 - 562.56] um okay
+
+[559.68 - 564.18] so do do
+
+[562.56 - 567.3599999999999] oh no this is for the next paper I
+
+[564.18 - 570.4799999999999] apologize I apologize okay anyways uh so
+
+[567.36 - 571.86] scrolling down to the uh to the
+
+[570.48 - 573.72] evaluation
+
+[571.86 - 575.82] based on the Benchmark that they used
+
+[573.72 - 577.6800000000001] their this method did not outperform
+
+[575.82 - 579.0] chat GPT
+
+[577.68 - 580.9799999999999] um it was actually kind of in the middle
+
+[579.0 - 583.019] of the pack
+
+[580.98 - 586.5600000000001] um it was better than text davinci03
+
+[583.019 - 589.019] okay great uh it was better than alpaca
+
+[586.56 - 592.4399999999999] it was not better than vicuna or chat
+
+[589.019 - 594.9590000000001] GPT uh now but that being said it was a
+
+[592.44 - 596.94] much simpler process that required a lot
+
+[594.959 - 599.16] less data to get the process
+
+[596.94 - 602.1] bootstrapped and that is the entire
+
+[599.16 - 604.38] point is that this method is easier to
+
+[602.1 - 609.0600000000001] implement than sft it's easier to
+
+[604.38 - 611.3389999999999] implement than rlhf uh and part of part
+
+[609.06 - 614.3389999999999] of solving alignment with the gato
+
+[611.339 - 616.9200000000001] Community is ease of adoption because if
+
+[614.339 - 619.5600000000001] building and using a line models is just
+
+[616.92 - 622.14] easier then it'll be the default path so
+
+[619.56 - 624.66] that is one of the key values of this is
+
+[622.14 - 629.3389999999999] that you can bootstrap the alignment
+
+[624.66 - 631.38] process with a relatively simple schema
+
+[629.339 - 632.7] so yeah here we are it's right in the
+
+[631.38 - 635.16] middle of the pack it's not as bad as
+
+[632.7 - 637.08] llama it's not as bad as alpaca but it's
+
+[635.16 - 640.86] not quite as good as vikuna Bard or chat
+
+[637.08 - 645.36] GPT but again it this required a much
+
+[640.86 - 648.42] much less computational uh energy and so
+
+[645.36 - 651.3000000000001] uh for their conclusion and future work
+
+[648.42 - 653.279] um one of the things that they say is uh
+
+[651.3 - 654.8389999999999] conduct ablation of Dromedary 16
+
+[653.279 - 656.16] self-alignment principles to evaluate
+
+[654.839 - 659.339] the impact of adding or removing
+
+[656.16 - 660.779] specific principles yes absolutely they
+
+[659.339 - 662.6400000000001] need Universal principles like reduce
+
+[660.779 - 665.12] suffering and protect human rights and
+
+[662.64 - 667.8] increase prosperity and be curious
+
+[665.12 - 669.44] especially as these models become more
+
+[667.8 - 672.8389999999999] and more autonomous
+
+[669.44 - 674.7] uh next is apply constitutional AI based
+
+[672.839 - 677.0400000000001] self-critique techniques to enhance the
+
+[674.7 - 678.48] performance of Dromedary further yeah so
+
+[677.04 - 680.399] this is by basically they're
+
+[678.48 - 683.5790000000001] recommending what I said earlier which
+
+[680.399 - 685.019] is combining uh automated red teaming
+
+[683.579 - 687.06] with self-critique
+
+[685.019 - 689.519] which you can do all this with a tree of
+
+[687.06 - 690.899] thought as well uh tree of thought is
+
+[689.519 - 691.86] the reason that I wasn't impressed when
+
+[690.899 - 693.779] that came out is because that's
+
+[691.86 - 696.899] literally one of the first things that I
+
+[693.779 - 699.3] invented when I um was working on the
+
+[696.899 - 702.42] heuristic imperatives originally where I
+
+[699.3 - 704.399] basically said generate a list of uh
+
+[702.42 - 706.74] possible options for each of these and
+
+[704.399 - 708.12] then let's look at the best options uh
+
+[706.74 - 710.42] and pick and choose from those and I
+
+[708.12 - 712.8] realized two years ago
+
+[710.42 - 716.0999999999999] that these models had a had a really
+
+[712.8 - 718.9799999999999] good ability to First brainstorm and
+
+[716.1 - 720.779] then filter and refine their their
+
+[718.98 - 723.4200000000001] choices so yes that is a good direction
+
+[720.779 - 725.3389999999999] to go perform human evaluations to
+
+[723.42 - 727.62] assess real world applicability and
+
+[725.339 - 729.1800000000001] Effectiveness yep so basically they're
+
+[727.62 - 731.4590000000001] saying is all they could do is test this
+
+[729.18 - 733.92] in the lab so it hasn't been deployed
+
+[731.459 - 735.899] publicly investigate better utilization
+
+[733.92 - 738.5] of existing open source annotation data
+
+[735.899 - 742.14] such as the 15 000 original instruct
+
+[738.5 - 744.779] okay sure limitations and completeness
+
+[742.14 - 747.92] of intrinsic knowledge right so in this
+
+[744.779 - 750.48] case what they're saying is that if the
+
+[747.92 - 753.1999999999999] taking a step back what they're trying
+
+[750.48 - 755.5790000000001] to do is align it to be operationally
+
+[753.2 - 757.32] intellectual at the same time as being
+
+[755.579 - 759.7199999999999] moral and ethical and that's not really
+
+[757.32 - 762.12] how it's going to work so what I mean by
+
+[759.72 - 764.5790000000001] that is that if you try and ask it for
+
+[762.12 - 766.86] something that is factually accurate and
+
+[764.579 - 768.959] also ethical at the same time
+
+[766.86 - 772.74] those are two entirely different mental
+
+[768.959 - 775.0189999999999] tasks uh and the the direction that uh
+
+[772.74 - 776.82] that I think it's going to go and that a
+
+[775.019 - 778.079] lot of people are working on is that
+
+[776.82 - 781.2600000000001] what we're actually going to see is
+
+[778.079 - 783.899] models that specialize in ethics models
+
+[781.26 - 786.779] that specialize in Morality and rapidly
+
+[783.899 - 790.019] making those judgments so for instance
+
+[786.779 - 792.36] um the uh the ethos team in gato what
+
+[790.019 - 795.42] they did was they created a microservice
+
+[792.36 - 799.139] that literally all it does is uh provide
+
+[795.42 - 801.779] you instant feedback on any idea uh in
+
+[799.139 - 804.24] terms of its alignment to Universal
+
+[801.779 - 805.92] principles and so by having a model that
+
+[804.24 - 808.86] specializes in that and provides
+
+[805.92 - 811.8] feedback you then decouple the process
+
+[808.86 - 815.399] of moral judgment from say for instance
+
+[811.8 - 816.5999999999999] planning or moral judgment from factual
+
+[815.399 - 819.24] accuracy
+
+[816.6 - 821.339] and this is uh more or less how human
+
+[819.24 - 823.26] brains work where different regions of
+
+[821.339 - 824.8800000000001] the brain specialize in different tasks
+
+[823.26 - 827.76] and of course there is a lot of cross
+
+[824.88 - 830.3389999999999] communication uh but the but the thing
+
+[827.76 - 832.8] is is by separating it out you can have
+
+[830.339 - 835.139] specialized regions uh and this is just
+
+[832.8 - 837.8389999999999] good software architecture uh having a
+
+[835.139 - 840.66] having a moral microservice alongside a
+
+[837.839 - 843.6600000000001] factual microservice is just easier to
+
+[840.66 - 846.42] do now that being said uh what I will
+
+[843.66 - 848.3389999999999] say is that in the long run if you can
+
+[846.42 - 850.74] integrate all of these into a single
+
+[848.339 - 852.9590000000001] model that could be useful but the thing
+
+[850.74 - 855.36] is is the way that these models interact
+
+[852.959 - 858.0] with information particularly new
+
+[855.36 - 861.12] information uh what we're seeing is a
+
+[858.0 - 863.88] trend towards in context learning and so
+
+[861.12 - 865.86] then rather than trust the model to be
+
+[863.88 - 868.38] factually accurate I think what we're
+
+[865.86 - 870.6] going to see is where the truth
+
+[868.38 - 873.36] grounding the factual accuracy is going
+
+[870.6 - 875.0400000000001] to be relied upon in the context in in
+
+[873.36 - 877.26] context learning where it's like okay
+
+[875.04 - 879.66] here's the scientific paper here's the
+
+[877.26 - 882.48] news article here are the chat logs use
+
+[879.66 - 885.36] this input as your source of Truth your
+
+[882.48 - 887.339] single source of Truth and then what's
+
+[885.36 - 889.38] going to be internal into the model is
+
+[887.339 - 891.4200000000001] just how to approach any information
+
+[889.38 - 892.98] problem but then also how to approach it
+
+[891.42 - 895.26] from a principles or morality
+
+[892.98 - 898.019] perspective as well
+
+[895.26 - 899.399] challenges in defining principles the
+
+[898.019 - 900.8] process of defining principles for the
+
+[899.399 - 903.24] self-aligned approach is non-trivial
+
+[900.8 - 906.0] disagree they probably didn't talk to
+
+[903.24 - 908.279] enough uh uh anthropologists and
+
+[906.0 - 911.279] philosophers and psychologists
+
+[908.279 - 914.04] um because again uh Lawrence Kohlberg's
+
+[911.279 - 916.5] concept of universal morality was came
+
+[914.04 - 918.779] out in the 50s the United Nations has a
+
+[916.5 - 921.12] universal Declaration of of Human Rights
+
+[918.779 - 924.3] this is all well-established stuff so
+
+[921.12 - 926.399] the IDE when you hear a mathematician or
+
+[924.3 - 928.4399999999999] a data scientist keeps saying that that
+
+[926.399 - 929.88] principles are difficult that this is a
+
+[928.44 - 931.9200000000001] hard problem to solve it's actually not
+
+[929.88 - 933.36] it's just that they're they're too
+
+[931.92 - 934.9799999999999] narrow-minded
+
+[933.36 - 937.139] um and they they need to talk to other
+
+[934.98 - 939.0600000000001] other Specialists because you know like
+
+[937.139 - 940.44] you don't go to the hardware store for
+
+[939.06 - 942.7199999999999] milk and so you don't ask a
+
+[940.44 - 944.82] mathematician about human principles you
+
+[942.72 - 946.5] need to bring Humanities Majors into the
+
+[944.82 - 949.62] conversation
+
+[946.5 - 952.44] um okay so moving on to the second paper
+
+[949.62 - 955.139] this one comes from the Alibaba group
+
+[952.44 - 958.019] and pecking University so this is out of
+
+[955.139 - 962.1] China so it's a slightly different uh uh
+
+[958.019 - 963.899] group but what I will say is that uh you
+
+[962.1 - 966.36] know China is of course working very
+
+[963.899 - 967.62] very hard to catch up and surpass the
+
+[966.36 - 970.139] United States and they produce a
+
+[967.62 - 973.44] tremendous number of papers
+
+[970.139 - 975.1800000000001] um now this introduces an entirely new
+
+[973.44 - 976.8000000000001] technique and this technique is also
+
+[975.18 - 979.199] very similar to what I told you about
+
+[976.8 - 981.779] before where I realized a long time ago
+
+[979.199 - 983.519] that generating a battery of options and
+
+[981.779 - 985.92] then kind of sifting through those
+
+[983.519 - 987.899] options that it brainstormed basically
+
+[985.92 - 989.76] tree of thought is also a really good
+
+[987.899 - 992.519] way to make moral decisions and that is
+
+[989.76 - 994.199] the tldr of this paper
+
+[992.519 - 996.0600000000001] which they have a handy dandy little
+
+[994.199 - 997.9799999999999] graphic here which I love the fact that
+
+[996.06 - 1000.3199999999999] it's the uh they use like the thinking
+
+[997.98 - 1002.0] Emoji for reinforcement learning with
+
+[1000.32 - 1004.1] human feedback where it's just like hey
+
+[1002.0 - 1007.459] what do we think the human will approve
+
+[1004.1 - 1012.0790000000001] of here and choose that one and the tldr
+
+[1007.459 - 1015.1389999999999] here in terms of why this is superior is
+
+[1012.079 - 1017.3] because what they do is rather than just
+
+[1015.139 - 1020.0] choose the best one they rank all
+
+[1017.3 - 1022.04] options and all of that is incorporated
+
+[1020.0 - 1023.679] into the training data and I also
+
+[1022.04 - 1026.24] realized this a while ago is because
+
+[1023.679 - 1027.559] when you're talking about morality when
+
+[1026.24 - 1029.66] you're talking about ethics when you're
+
+[1027.559 - 1031.939] talking about decision making you need
+
+[1029.66 - 1035.179] more than just the positive example you
+
+[1031.939 - 1037.22] also need the negative example and why
+
+[1035.179 - 1039.5] and so in some of my uh reinforcement
+
+[1037.22 - 1041.0] learning with Heroes to comparatives uh
+
+[1039.5 - 1042.799] experiments you guys have seen that I
+
+[1041.0 - 1044.48] did this where I said you know you
+
+[1042.799 - 1045.86] actually want to keep the bad examples
+
+[1044.48 - 1048.02] in the data but you want to make sure
+
+[1045.86 - 1050.299] that those bad examples are accurate and
+
+[1048.02 - 1052.22] that they are accurately explained so
+
+[1050.299 - 1053.72] for instance uh you know reduce
+
+[1052.22 - 1056.0] suffering increased prosperity and
+
+[1053.72 - 1058.4] increase understanding you want a you
+
+[1056.0 - 1061.28] want a plausible explanation as to why a
+
+[1058.4 - 1064.64] particular decision or output meets
+
+[1061.28 - 1066.74] those criteria yes or no uh and and why
+
+[1064.64 - 1069.919] and when you incorporate that
+
+[1066.74 - 1072.44] explanation as to why then the model
+
+[1069.919 - 1075.88] learns to generalize those explanations
+
+[1072.44 - 1079.039] and it becomes embedded or ingrained
+
+[1075.88 - 1080.8600000000001] axiomatically in the model and so when
+
+[1079.039 - 1083.9] you add this alongside
+
+[1080.86 - 1086.4189999999999] rlhf and constitutional Ai and
+
+[1083.9 - 1090.02] self-aligned techniques what is emerging
+
+[1086.419 - 1091.88] is that we're moving away from this rlhf
+
+[1090.02 - 1094.94] being the the primary thing and moving
+
+[1091.88 - 1096.98] more towards constitutional AI principal
+
+[1094.94 - 1100.039] driven given and but then also this
+
+[1096.98 - 1102.559] ranking this preference ranking um was
+
+[1100.039 - 1105.2] that the preferred ranking uh
+
+[1102.559 - 1108.799] optimization algorithm uh and so another
+
+[1105.2 - 1110.48] thing is because this uses math so uh by
+
+[1108.799 - 1112.28] by doing it this way it's also a little
+
+[1110.48 - 1115.58] bit more computationally efficient and
+
+[1112.28 - 1118.4189999999999] scalable uh and let's see going down to
+
+[1115.58 - 1120.32] the um the conclusions
+
+[1118.419 - 1123.5] baselines this had some really
+
+[1120.32 - 1126.3799999999999] interesting data so the pro was able to
+
+[1123.5 - 1128.78] get a higher reward signal which
+
+[1126.38 - 1130.7600000000002] basically what this means is oh so one
+
+[1128.78 - 1134.059] of the advantages of this is that
+
+[1130.76 - 1136.64] because this method is also simpler than
+
+[1134.059 - 1139.82] RL HF and it's more explainable this is
+
+[1136.64 - 1142.46] a far superior method of aligning models
+
+[1139.82 - 1144.1399999999999] than rlhf and because it's able to
+
+[1142.46 - 1145.88] achieve a higher reward signal that
+
+[1144.14 - 1148.4] means the signal to noise ratio is
+
+[1145.88 - 1150.0200000000002] better which means that they're closing
+
+[1148.4 - 1154.039] in on actually this is a better
+
+[1150.02 - 1155.96] mechanism for aligning models
+
+[1154.039 - 1157.64] so let's see main results it can be
+
+[1155.96 - 1160.48] found at llama with fine tuning as a
+
+[1157.64 - 1164.179] notable Improvement let's see that's not
+
+[1160.48 - 1165.44] what I was thinking about
+
+[1164.179 - 1167.96] um
+
+[1165.44 - 1169.64] where was it hang on hang on hang on I
+
+[1167.96 - 1171.559] apologize
+
+[1169.64 - 1174.5] I looked at this just before I started
+
+[1171.559 - 1176.78] the video and then I lost my place
+
+[1174.5 - 1178.28] um okay conclusion here we go in this
+
+[1176.78 - 1180.62] paper we derived from the Bradley Terry
+
+[1178.28 - 1182.36] comparison of the reward model in our
+
+[1180.62 - 1184.52] lhf that human alignment can be modeled
+
+[1182.36 - 1186.799] as aligned aligning the probability
+
+[1184.52 - 1189.1399999999999] ranking of n responses generated by the
+
+[1186.799 - 1192.1399999999999] llm and the preference ranking of these
+
+[1189.14 - 1195.679] responses by humans by based on this
+
+[1192.14 - 1197.48] derivation we propose pro pro inherits
+
+[1195.679 - 1198.919] the advantages of rlhf and further
+
+[1197.48 - 1201.02] captures fine-grained distinction
+
+[1198.919 - 1203.3600000000001] corresponding to human preference from
+
+[1201.02 - 1205.039] multiple one-to-many comparisons we
+
+[1203.36 - 1207.08] conduct extensive experiments to verify
+
+[1205.039 - 1209.179] the Excellence of pro strong words
+
+[1207.08 - 1211.6399999999999] against other baselines and investigate
+
+[1209.179 - 1213.5] the impact of multifaceted factors
+
+[1211.64 - 1215.0] overall the findings presented in this
+
+[1213.5 - 1217.76] paper demonstrate significance of pro
+
+[1215.0 - 1220.28] effectively uh and efficiently aligning
+
+[1217.76 - 1222.26] llms to human preference now as I always
+
+[1220.28 - 1224.6] say human preference is not a good thing
+
+[1222.26 - 1226.52] to align to any philosopher any
+
+[1224.6 - 1228.9189999999999] psychologist any Anthropologist will
+
+[1226.52 - 1231.679] tell you that one humans are garbage at
+
+[1228.919 - 1236.8400000000001] expressing their preferences and that uh
+
+[1231.679 - 1239.3200000000002] as elucidated by uh social media is that
+
+[1236.84 - 1241.9399999999998] uh on
+
+[1239.32 - 1244.6399999999999] unexpectedly tapping into human nature
+
+[1241.94 - 1247.1000000000001] is not necessarily the right thing which
+
+[1244.64 - 1250.7] is why I'm uh talking about principles
+
+[1247.1 - 1253.1599999999999] so you know the United States and every
+
+[1250.7 - 1255.559] other constitutional democracy we
+
+[1253.16 - 1257.539] articulate very clearly and very
+
+[1255.559 - 1261.1399999999999] explicitly the principles that we want
+
+[1257.539 - 1263.299] to adhere to by just kind of blindly
+
+[1261.14 - 1265.22] discovering principles you're not
+
+[1263.299 - 1268.94] necessarily going to find the correct
+
+[1265.22 - 1271.64] principles because the reason for that
+
+[1268.94 - 1274.28] is you end up with the same exact rabbit
+
+[1271.64 - 1276.5200000000002] holes that you have with uh you know
+
+[1274.28 - 1279.32] social media algorithms where you end up
+
+[1276.52 - 1282.52] optimizing for thirst traps you end up
+
+[1279.32 - 1286.7] optimizing for outrage and so by by
+
+[1282.52 - 1289.82] removing human emotional response from
+
+[1286.7 - 1293.0] the signal you're going to take these
+
+[1289.82 - 1296.12] models and rather than indulge in in uh
+
+[1293.0 - 1299.179] you know human Humanities uh let's say
+
+[1296.12 - 1301.34] lesser Angels by removing the human
+
+[1299.179 - 1302.8400000000001] signal the human preferences and the
+
+[1301.34 - 1305.62] human values because again human values
+
+[1302.84 - 1309.26] are one human values are incredibly
+
+[1305.62 - 1311.84] widely distributed but they're also
+
+[1309.26 - 1313.82] inconsistent and unreliable as a signal
+
+[1311.84 - 1315.6789999999999] and it's also not necessarily the signal
+
+[1313.82 - 1317.72] you want to optimize for what you do
+
+[1315.679 - 1320.8400000000001] want to optimize for are Universal
+
+[1317.72 - 1322.88] principles like human rights or from a
+
+[1320.84 - 1324.799] from an ethical or moral standpoint
+
+[1322.88 - 1326.6000000000001] reduction of suffering increasing of
+
+[1324.799 - 1329.6] prosperity and maximizing of
+
+[1326.6 - 1332.24] understanding and so but both of these
+
+[1329.6 - 1334.58] papers bring something together
+
+[1332.24 - 1336.14] um that again I'm not surprised by this
+
+[1334.58 - 1338.059] but I thought it would be important to
+
+[1336.14 - 1341.419] share because I've been doing this
+
+[1338.059 - 1344.0] research for a few years now so these
+
+[1341.419 - 1346.22] are the by far the two most important
+
+[1344.0 - 1350.179] alignment papers that I have seen over
+
+[1346.22 - 1353.6000000000001] the last few uh months and it gives me
+
+[1350.179 - 1355.94] some Optima uh some optimism that uh
+
+[1353.6 - 1359.9599999999998] because again all evidence indicates
+
+[1355.94 - 1362.0] that that uh open Ai and others uh you
+
+[1359.96 - 1364.22] know yes they do a lot of stuff but
+
+[1362.0 - 1365.659] mostly they are picking up pieces that
+
+[1364.22 - 1367.7] other people are putting down from the
+
+[1365.659 - 1369.38] scientific Community they didn't invent
+
+[1367.7 - 1372.8600000000001] constitutional AI they didn't invent
+
+[1369.38 - 1374.8400000000001] rlhf they didn't invent sft and so the
+
+[1372.86 - 1377.1789999999999] fact that these new papers that the pro
+
+[1374.84 - 1379.22] and self-aligned are these new
+
+[1377.179 - 1382.94] techniques for aligning things are
+
+[1379.22 - 1385.76] coming out I am assuming that the open
+
+[1382.94 - 1387.26] AI super alignment team is going to be
+
+[1385.76 - 1389.419] paying attention to these kinds of
+
+[1387.26 - 1390.919] papers and so that gives me a little bit
+
+[1389.419 - 1392.2990000000002] more confidence that they will
+
+[1390.919 - 1394.22] eventually move in the right direction
+
+[1392.299 - 1395.299] I'm still kind of dubious the jury is
+
+[1394.22 - 1397.34] out as to whether or not they will
+
+[1395.299 - 1398.6589999999999] figure it out correctly oh okay thanks
+
+[1397.34 - 1400.84] for watching I hope you got a lot out of
+
+[1398.659 - 1400.8400000000001] this chair

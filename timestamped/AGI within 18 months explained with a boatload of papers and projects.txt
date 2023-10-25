@@ -1,0 +1,1259 @@
+[0.0 - 5.1] hey everyone David Shapiro here with an
+
+[3.06 - 6.96] update sorry it's been a while
+
+[5.1 - 9.899999999999999] um I am doing much better thank you for
+
+[6.96 - 12.66] asking and thanks for all the kind words
+
+[9.9 - 14.759] um yeah so a couple days ago I posted a
+
+[12.66 - 17.279] video where I said like
+
+[14.759 - 20.22] we're gonna have AGI within 18 months
+
+[17.279 - 22.259999999999998] and that caused a stir on in some
+
+[20.22 - 24.18] corners of the internet
+
+[22.26 - 26.220000000000002] um but I wanted to share like why I
+
+[24.18 - 27.9] believe that because maybe not everyone
+
+[26.22 - 29.34] has seen the same information that I
+
+[27.9 - 33.719] have so first
+
+[29.34 - 36.239] Morgan Stanley research on Nvidia
+
+[33.719 - 38.46] um this was really big on Reddit and
+
+[36.239 - 40.32] basically why we are writing this we
+
+[38.46 - 42.239000000000004] have seen several reports that in our
+
+[40.32 - 44.52] view incorrectly characterize the direct
+
+[42.239 - 47.339999999999996] opportunity for NVIDIA in particular the
+
+[44.52 - 50.399] revenue from chat GPT inference
+
+[47.34 - 51.84] we think that gpt5 is currently being
+
+[50.399 - 55.980000000000004] trained on 25
+
+[51.84 - 58.260000000000005] 000 gpus or 225 million dollars or so of
+
+[55.98 - 59.94] Nvidia hardware and the inference costs
+
+[58.26 - 61.86] are likely much lower than some of the
+
+[59.94 - 63.358999999999995] numbers we have seen further reduce
+
+[61.86 - 64.979] reducing inference costs will be
+
+[63.359 - 68.28] critical in resolving the cost of search
+
+[64.979 - 71.28] debate from cloud Titans so basically
+
+[68.28 - 73.2] if chat GPT becomes much much cheaper
+
+[71.28 - 74.93900000000001] then it's actually going to be cheaper
+
+[73.2 - 76.56] than search
+
+[74.939 - 79.13999999999999] um is is kind of how I'm interpreting
+
+[76.56 - 82.02] that now this paper goes on to say that
+
+[79.14 - 84.54] like the industry is pivoting so rather
+
+[82.02 - 86.759] than seeing this as a trendy new fad or
+
+[84.54 - 87.78] a shiny new toy they're saying No this
+
+[86.759 - 90.06] actually has serious business
+
+[87.78 - 92.88] implications which people like I have
+
+[90.06 - 94.32000000000001] been saying for years but you know the
+
+[92.88 - 96.53999999999999] industry is catching up especially when
+
+[94.32 - 98.69999999999999] you see like how much revenue Google
+
+[96.54 - 100.5] lost just with the introduction of chat
+
+[98.7 - 101.22] GPT
+
+[100.5 - 103.56] um
+
+[101.22 - 106.14] I like this and we're not trying to be
+
+[103.56 - 108.9] curmudgeons on the opportunity
+
+[106.14 - 111.96000000000001] so anyways Morgan Stanley Nvidia and
+
+[108.9 - 114.119] I've been I've been uh on in nvidia's
+
+[111.96 - 115.439] corner for a while saying that like I
+
+[114.119 - 118.02] think they're the underdog they're the
+
+[115.439 - 120.36] unsung hero here so anyways you look at
+
+[118.02 - 123.65899999999999] the investment and so this reminds me of
+
+[120.36 - 126.24] the ramp up for solar so 10 to 15 years
+
+[123.659 - 128.459] ago all the debates were like oh solar's
+
+[126.24 - 131.16] not efficient solar isn't helpful it's
+
+[128.459 - 133.31900000000002] too expensive blah blah blah and then
+
+[131.16 - 135.06] once you see the business investment
+
+[133.319 - 137.76] going up that's when you know you're at
+
+[135.06 - 139.44] the inflection point so AI is no longer
+
+[137.76 - 142.62] just a bunch of us you know writing
+
+[139.44 - 145.44] papers and tinkering when you see the
+
+[142.62 - 146.94] millions and in this case a quarter of a
+
+[145.44 - 149.76] billion dollars
+
+[146.94 - 151.62] being invested that's when you know that
+
+[149.76 - 155.39999999999998] things are changing and so this reminds
+
+[151.62 - 157.44] me of like the 2013 to 2015 uh range
+
+[155.4 - 158.76000000000002] maybe actually even like 2017 range for
+
+[157.44 - 160.62] solar where it's like actually no it
+
+[158.76 - 162.239] makes Financial sense
+
+[160.62 - 165.59900000000002] um but of course everything with AI is
+
+[162.239 - 168.48000000000002] exponentially faster uh so
+
+[165.599 - 170.28] Nvidia is participating they've got the
+
+[168.48 - 172.85999999999999] hardware they're building out the big
+
+[170.28 - 174.48] computers so on and so forth the
+
+[172.86 - 176.28] investment is there so the Improvement
+
+[174.48 - 177.48] is coming the exponential ramp up is
+
+[176.28 - 180.599] coming now
+
+[177.48 - 183.54] that's great uh one tool let's take a
+
+[180.599 - 186.83999999999997] quick break and um when I when I talked
+
+[183.54 - 188.76] about uh n8n in Nathan or naden I'm not
+
+[186.84 - 190.739] sure how people pronounce it as well as
+
+[188.76 - 192.959] Lang chain people were quick to point
+
+[190.739 - 197.34] out Lang flow which is a graphical
+
+[192.959 - 199.379] interface for Lang chain so this is this
+
+[197.34 - 202.20000000000002] fills in a really big gap for Lang chain
+
+[199.379 - 204.12] which is okay how do you see it how are
+
+[202.2 - 207.07999999999998] things cross-linked so I wanted to share
+
+[204.12 - 211.5] this this tool it's a github.com
+
+[207.08 - 212.87900000000002] logspace dash AI uh Slash Lang flow so
+
+[211.5 - 215.459] you can just look up Lang flow and
+
+[212.879 - 217.98] you'll find it so this is a good uh good
+
+[215.459 - 219.54] chaining tool a nice graphical interface
+
+[217.98 - 221.22] this is exactly the direction that
+
+[219.54 - 224.04] things are going
+
+[221.22 - 225.78] um great Okay so we've got the business
+
+[224.04 - 228.239] investment we've got people creating
+
+[225.78 - 230.4] open source libraries it's going it's
+
+[228.239 - 233.879] advancing so I wanted to share this
+
+[230.4 - 237.18] paper with you uh mm react for uh was it
+
+[233.879 - 240.17999999999998] multimodal reasoning and action so this
+
+[237.18 - 243.54000000000002] basically makes use of the latest GPT
+
+[240.18 - 246.42000000000002] where you've got vision and chat
+
+[243.54 - 249.06] um and it's like it's kind of it's
+
+[246.42 - 250.439] exactly what you what you kind of expect
+
+[249.06 - 252.239] um but this page does a good job of
+
+[250.439 - 254.4] giving you a bunch of different
+
+[252.239 - 257.1] um examples and they're uh I think
+
+[254.4 - 259.44] they're pre-recorded is it playing
+
+[257.1 - 261.84000000000003] it looks okay there it goes
+
+[259.44 - 263.94] um so you can check out this paper the
+
+[261.84 - 266.46] full paper is here and there's a live
+
+[263.94 - 268.979] demo up on hugging face so you can try
+
+[266.46 - 272.03999999999996] different stuff and then talk about it
+
+[268.979 - 274.38] um which is great like the fact that
+
+[272.04 - 277.199] they're able to share this for free just
+
+[274.38 - 278.82] as a demonstration is just a hint as to
+
+[277.199 - 280.979] what's coming
+
+[278.82 - 282.9] um because imagine when this is
+
+[280.979 - 285.0] commoditized you can do it on your phone
+
+[282.9 - 286.19899999999996] right your phone's Hardware will be
+
+[285.0 - 288.78] powerful enough to run some of these
+
+[286.199 - 290.699] models within a few years certainly if
+
+[288.78 - 293.34] it's uh if it's offloaded to the cloud
+
+[290.699 - 296.52000000000004] it's powerful enough to do it now
+
+[293.34 - 298.79999999999995] um and then uh so
+
+[296.52 - 301.02] you when you stitch together the the
+
+[298.8 - 302.699] rapidly decreasing cost of inference
+
+[301.02 - 305.15999999999997] these things are basically going to be
+
+[302.699 - 307.38] free to use pretty soon when you look at
+
+[305.16 - 310.91900000000004] the fact that an open source framework
+
+[307.38 - 312.6] like Lang flow and and uh and so on can
+
+[310.919 - 314.58] allow pretty much anyone to create
+
+[312.6 - 317.16] cognitive workflows
+
+[314.58 - 319.74] and all these things it's like okay yeah
+
+[317.16 - 321.0] like we're gonna have really powerful
+
+[319.74 - 322.919] machines soon
+
+[321.0 - 325.139] and so someone asked for clarification
+
+[322.919 - 327.96] when I said okay well what do you mean
+
+[325.139 - 329.40000000000003] when you say AGI within 18 months
+
+[327.96 - 331.68] because nobody can agree on the
+
+[329.4 - 334.56] definition and if you watched the Sam
+
+[331.68 - 336.419] Altman Lex Friedman interview he ref he
+
+[334.56 - 338.039] refers to Sam Allman refers to AGI
+
+[336.419 - 339.9] several times but the definition seems
+
+[338.039 - 341.82] to change because early in the interview
+
+[339.9 - 344.039] he talks about like oh you know you put
+
+[341.82 - 345.71999999999997] someone in front of gpt4 or chat gpt4
+
+[344.039 - 348.36] and what's the first thing that they do
+
+[345.72 - 350.699] when when and these are his words when
+
+[348.36 - 352.44] they interact with an AGI is they try
+
+[350.699 - 355.139] and break it or tease it or whatever and
+
+[352.44 - 357.0] then later he says oh well gpt5 that's
+
+[355.139 - 358.62] not even going to be AGI so he keeps
+
+[357.0 - 360.419] like equivocating and bouncing back and
+
+[358.62 - 363.0] forth
+
+[360.419 - 365.46] I think that part of what's going on
+
+[363.0 - 367.259] here is there's no good definition and
+
+[365.46 - 369.06] because later in the conversation they
+
+[367.259 - 372.06] were talking about things that a chat
+
+[369.06 - 373.56] model can do it's not autonomous right
+
+[372.06 - 376.86] um but
+
+[373.56 - 379.139] I'm glad you asked reflection came out
+
+[376.86 - 381.41900000000004] an autonomous agent with dynamic memory
+
+[379.139 - 383.16] and self-reflection
+
+[381.419 - 387.0] um so between
+
+[383.16 - 388.62] cognitive workflows and autonomy and the
+
+[387.0 - 390.0] investment coming up in into these
+
+[388.62 - 392.819] models
+
+[390.0 - 395.6] we are far closer to fully autonomous
+
+[392.819 - 398.16] agents than I think many people
+
+[395.6 - 399.18] recognize so the reflection stuff I'm
+
+[398.16 - 401.16] not going to do a full video on
+
+[399.18 - 403.44] reflection there's there's other um ones
+
+[401.16 - 406.56] out there but basically this outperforms
+
+[403.44 - 408.78] humans in in a few tasks and it forms a
+
+[406.56 - 410.4] very very basic kind of cognitive
+
+[408.78 - 412.55999999999995] architecture Loop
+
+[410.4 - 415.38] so query action environment reward
+
+[412.56 - 417.24] reflect and then repeat so you just
+
+[415.38 - 420.24] continuously iterate on something in a
+
+[417.24 - 422.1] loop and there you go uh and also for
+
+[420.24 - 422.88] people who keep asking me what I think
+
+[422.1 - 424.86] about
+
+[422.88 - 426.12] um uh what's his name Ben gertzel I'm
+
+[424.86 - 428.58000000000004] not sure if I'm saying his name right
+
+[426.12 - 430.259] but I read his seminal paper a couple
+
+[428.58 - 432.9] years ago on general theory on general
+
+[430.259 - 435.3] intelligence and he never mentioned
+
+[432.9 - 436.56] iteration or Loops at least not to the
+
+[435.3 - 439.259] degree that you need to when you're
+
+[436.56 - 441.419] talking about actual intelligence so I
+
+[439.259 - 444.539] personally don't think that he's done
+
+[441.419 - 445.919] anything particularly relevant today I'm
+
+[444.539 - 447.539] not going to comment on his older work
+
+[445.919 - 449.58] because obviously like he's made a name
+
+[447.539 - 451.28] for himself so on and so forth but I
+
+[449.58 - 453.419] don't think that Ben has done anything
+
+[451.28 - 455.21999999999997] really pertinent to cognitive
+
+[453.419 - 457.25899999999996] architecture which is the direction that
+
+[455.22 - 460.38000000000005] things are going
+
+[457.259 - 462.84000000000003] um but yeah so when when MIT is doing
+
+[460.38 - 466.56] research on cognitive architecture and
+
+[462.84 - 469.46] autonomous designs when Morgan Stanley
+
+[466.56 - 471.479] and Nvidia are working on investing
+
+[469.46 - 474.06] literally hundreds of millions of
+
+[471.479 - 477.18] dollars to drive down inference cost and
+
+[474.06 - 478.5] when open source uh libraries are
+
+[477.18 - 479.819] creating
+
+[478.5 - 482.699] um the rudiments of cognitive
+
+[479.819 - 485.34000000000003] architectures we are ramping up fast and
+
+[482.699 - 486.66] so someone asked what I meant again kind
+
+[485.34 - 489.78] of getting back to that what did I mean
+
+[486.66 - 491.03900000000004] by AGI within 18 months I said in 18
+
+[489.78 - 494.039] months
+
+[491.039 - 496.38] any possible definition of AGI that you
+
+[494.039 - 497.81899999999996] have will be satisfied
+
+[496.38 - 500.34] um so it's like I don't care what your
+
+[497.819 - 501.66] definition of AGI is unless like there's
+
+[500.34 - 503.46] still some people out there that like
+
+[501.66 - 505.56] you ask them and it's like oh well once
+
+[503.46 - 507.18] AGI hits like the skies will darken and
+
+[505.56 - 510.3] nuclear weapons will rain down and I'm
+
+[507.18 - 512.88] like that's not AGI that's Ultron that's
+
+[510.3 - 514.2] different that's that's a fantasy
+
+[512.88 - 516.12] um that's probably not going to happen
+
+[514.2 - 518.279] it could if skynet's going to happen it
+
+[516.12 - 520.02] will happen within 18 months
+
+[518.279 - 522.479] um but I don't think it's going to
+
+[520.02 - 524.52] happen Okay so that's section one of the
+
+[522.479 - 526.98] video talking about the news and
+
+[524.52 - 528.8389999999999] everything out there so now let me pivot
+
+[526.98 - 529.98] and talk about the work that I've been
+
+[528.839 - 532.2600000000001] doing
+
+[529.98 - 536.16] um so I've been making extensive use of
+
+[532.26 - 537.899] chat gbt4 to accelerate my own research
+
+[536.16 - 539.9399999999999] um I've been working on a few things
+
+[537.899 - 541.38] many of you are going to be familiar
+
+[539.94 - 543.6600000000001] with my work on the heuristic
+
+[541.38 - 546.12] imperatives which is how do you create a
+
+[543.66 - 549.6] fully autonomous machine that is safe
+
+[546.12 - 552.48] and stable ideally for all of eternity
+
+[549.6 - 554.22] um so this is this is is this is
+
+[552.48 - 555.72] probably one of my most important pieces
+
+[554.22 - 558.6] of work and I've put it into all of my
+
+[555.72 - 561.2] books and a lot of other stuff the tldr
+
+[558.6 - 565.2] of heuristic imperatives is it's like
+
+[561.2 - 566.76] it's similar to asimov's three laws of
+
+[565.2 - 569.1] robotics but it is much much more
+
+[566.76 - 570.959] broadly Genera generalized and it is
+
+[569.1 - 572.64] also not um androcentric or
+
+[570.959 - 575.459] anthropocentric
+
+[572.64 - 577.8] and so basically the three rules that if
+
+[575.459 - 580.3199999999999] you embed them into your your autonomous
+
+[577.8 - 581.8199999999999] AI systems uh reduce suffering in the
+
+[580.32 - 583.1400000000001] universe increase prosperity in the
+
+[581.82 - 585.24] universe and increase understanding in
+
+[583.14 - 587.279] the universe this creates a very
+
+[585.24 - 588.6] thoughtful machine and it serves as a
+
+[587.279 - 590.48] really good
+
+[588.6 - 593.64] um reinforcement learning mechanism
+
+[590.48 - 597.0] self-evaluation mechanism that results
+
+[593.64 - 600.3] in a very thoughtful uh machine so that
+
+[597.0 - 603.24] information is all available out here
+
+[600.3 - 605.459] um under uh on my GitHub Dave shop here
+
+[603.24 - 607.92] is to comparatives I've got it published
+
+[605.459 - 609.959] as a word doc and a PDF
+
+[607.92 - 611.3389999999999] so I started adopting a more scientific
+
+[609.959 - 613.0189999999999] approach
+
+[611.339 - 615.899] um because well there's a reason that
+
+[613.019 - 618.0] the scientific paper format works so if
+
+[615.899 - 619.8] you want to come out here and read it
+
+[618.0 - 620.82] um it's out there it's totally free of
+
+[619.8 - 622.1999999999999] course
+
+[620.82 - 624.6] um oh actually that reminds me I need to
+
+[622.2 - 628.019] put a way to cite my work because you
+
+[624.6 - 630.72] can cite GitHub repos but basically this
+
+[628.019 - 633.12] provides uh quite a quite a bit and one
+
+[630.72 - 635.1] thing it to point out is that this paper
+
+[633.12 - 638.64] was almost written entirely word for
+
+[635.1 - 641.64] word by chat gpt4 meaning that all of
+
+[638.64 - 646.4399999999999] the reasoning that it does was performed
+
+[641.64 - 648.8389999999999] by chat gpt4 and at the very end
+
+[646.44 - 651.32] um I actually had it reflect on its own
+
+[648.839 - 651.32] performance
+
+[651.48 - 654.899] um it looks like it's not going to load
+
+[652.8 - 658.56] that much uh more pages oh there we go
+
+[654.899 - 660.54] examples so anyways uh when you read
+
+[658.56 - 663.1199999999999] this and you keep in mind that the the
+
+[660.54 - 665.459] Nuance of it whoops that the Nuance of
+
+[663.12 - 669.0600000000001] this was uh
+
+[665.459 - 670.7399999999999] within within the capacity of chat gpd4
+
+[669.06 - 673.459] you will see that these models are
+
+[670.74 - 676.44] already capable of very very nuanced
+
+[673.459 - 677.399] empathetic and moral reasoning and this
+
+[676.44 - 678.9590000000001] is one thing that a lot of people
+
+[677.399 - 681.36] complain about they're like oh well it
+
+[678.959 - 682.6199999999999] doesn't truly understand anything I
+
+[681.36 - 684.42] always say that humans don't truly
+
+[682.62 - 687.0] understand anything so that's a
+
+[684.42 - 688.5] frivolous argument but
+
+[687.0 - 690.66] um that leads to another area of
+
+[688.5 - 693.24] research which I'll get into in a minute
+
+[690.66 - 695.64] uh but basically keep in mind how
+
+[693.24 - 697.98] nuanced this paper is and keep in mind
+
+[695.64 - 699.66] that chat GPT wrote pretty much the
+
+[697.98 - 701.339] entire thing and I've also got the
+
+[699.66 - 703.019] transcript of the conversation at the
+
+[701.339 - 704.8800000000001] end so if you want to if you want to
+
+[703.019 - 706.26] read the whole transcript please feel
+
+[704.88 - 707.82] free to read the whole transcript and
+
+[706.26 - 709.74] you can see
+
+[707.82 - 711.48] um where like we worked through the the
+
+[709.74 - 714.66] whole paper
+
+[711.48 - 716.94] um yeah so that's it so on the topic of
+
+[714.66 - 718.459] uh does the machine truly understand
+
+[716.94 - 723.5400000000001] anything
+
+[718.459 - 726.2399999999999] that resulted in this transcript which I
+
+[723.54 - 730.019] have yet to format this into a full
+
+[726.24 - 732.6] um uh scientific paper but basically the
+
+[730.019 - 735.54] the tldr here is that I call it the
+
+[732.6 - 738.1800000000001] epistemic pragmatic orthogonality which
+
+[735.54 - 739.86] is that the epistemic truth of whether
+
+[738.18 - 743.3389999999999] or not a machine truly understands
+
+[739.86 - 746.7] anything is orthogonal or uncorrelated
+
+[743.339 - 749.48] with how useful it is or objectively
+
+[746.7 - 752.4590000000001] um correct it is right so if you look
+
+[749.48 - 754.14] basically it doesn't matter if the
+
+[752.459 - 757.14] machine truly understands anything
+
+[754.14 - 760.3199999999999] because again that's not really germane
+
+[757.14 - 763.019] to its function as a machine and so this
+
+[760.32 - 765.4200000000001] is uh it's a fancy term but it basically
+
+[763.019 - 766.98] says okay and there's there was actually
+
+[765.42 - 768.7199999999999] a great Reddit post where it's like can
+
+[766.98 - 770.7] we stop arguing over whether or not it's
+
+[768.72 - 773.22] sentient or conscious or understands
+
+[770.7 - 775.74] anything that doesn't matter
+
+[773.22 - 778.9200000000001] um what matters is it's its physical
+
+[775.74 - 781.1] objective measurable impact and it
+
+[778.92 - 783.18] whether it is objectively or measurably
+
+[781.1 - 785.0400000000001] correct or useful
+
+[783.18 - 787.26] so I call that the epistemic pragmatic
+
+[785.04 - 789.8389999999999] orthogonality principle of artificial
+
+[787.26 - 792.0] intelligence I've got it summarized here
+
+[789.839 - 793.5600000000001] so you can just read this is the
+
+[792.0 - 795.48] executive summary
+
+[793.56 - 797.0999999999999] um that I actually use Chad gbt to write
+
+[795.48 - 800.76] so again a lot of the work that I'm
+
+[797.1 - 802.8000000000001] doing is anchored by chat GPT and the
+
+[800.76 - 806.1] fact that chat GPT was able to have a
+
+[802.8 - 807.3599999999999] very nuanced conversation about its own
+
+[806.1 - 809.22] understanding
+
+[807.36 - 810.839] kind of tells you how smart these
+
+[809.22 - 813.899] machines are
+
+[810.839 - 815.82] um yep so that is that paper now moving
+
+[813.899 - 817.8] on back to uh some of the cognitive
+
+[815.82 - 818.88] architecture stuff
+
+[817.8 - 821.399] um one thing that I'm working on is
+
+[818.88 - 824.1] called Remo so the rolling episodic
+
+[821.399 - 826.38] memory organizer for autonomous AI
+
+[824.1 - 827.82] systems I initially called this hmcs
+
+[826.38 - 829.92] which is hierarchical memory
+
+[827.82 - 833.519] consolidation system but that's a
+
+[829.92 - 835.56] mouthful and it doesn't abide by the uh
+
+[833.519 - 838.079] the current Trend where you use an
+
+[835.56 - 840.0] acronym that's easy to say right so Remo
+
+[838.079 - 842.0] rolling episodic memory organizer much
+
+[840.0 - 846.72] easier to say much easier to remember
+
+[842.0 - 849.18] basically what this does is uh it's also
+
+[846.72 - 851.0400000000001] not done so I need to add a caveat there
+
+[849.18 - 853.5] I'm working through it here with chat
+
+[851.04 - 855.779] gpt4 where we're working on defining the
+
+[853.5 - 858.12] problem writing the code so on and so
+
+[855.779 - 860.04] forth but basically what this does is
+
+[858.12 - 863.519] rather than just using semantic search
+
+[860.04 - 865.92] because uh a lot of folks have realized
+
+[863.519 - 868.32] that yes semantic search is really great
+
+[865.92 - 869.88] because it allows you to search based on
+
+[868.32 - 873.24] semantic similarity rather than just
+
+[869.88 - 875.519] keywords super powerful super fast uh
+
+[873.24 - 878.76] using stuff like Pinecone still not good
+
+[875.519 - 881.399] enough because it is not organized in
+
+[878.76 - 884.699] the same way that a human memory is so
+
+[881.399 - 888.0] Remo the entire point of Remo
+
+[884.699 - 889.92] is to do two things
+
+[888.0 - 893.279] um the two primary goals is to maintain
+
+[889.92 - 895.56] salience and coherence so Salient
+
+[893.279 - 897.48] memories means that uh what you're
+
+[895.56 - 899.279] looking at is actually Germaine actually
+
+[897.48 - 901.74] relevant to the conversation that you're
+
+[899.279 - 903.8389999999999] having which can be more difficult if
+
+[901.74 - 907.0790000000001] you just use semantic search the other
+
+[903.839 - 909.4200000000001] thing is coherence which is keeping the
+
+[907.079 - 912.12] context of those memories
+
+[909.42 - 914.639] um basically in a coherent narrative so
+
+[912.12 - 917.339] if rather than just focusing on semantic
+
+[914.639 - 919.5] search the two terms that I'm
+
+[917.339 - 922.62] introducing are salience and coherence
+
+[919.5 - 925.32] and of course this is rooted in temporal
+
+[922.62 - 927.9590000000001] binding so human memories are temporal
+
+[925.32 - 931.2600000000001] and associative so those four Concepts
+
+[927.959 - 933.68] salience and coherence are achieved with
+
+[931.26 - 937.38] temporal and associative or semantic
+
+[933.68 - 939.779] consolidation and so what I mean by uh
+
+[937.38 - 942.48] temporal consolidation is you take
+
+[939.779 - 945.18] clusters of memories that are temporally
+
+[942.48 - 947.76] bounded or temporally nearby and you
+
+[945.18 - 949.8599999999999] summarize those so that gives you that
+
+[947.76 - 951.72] gives you temporal consolidation which
+
+[949.86 - 954.3000000000001] allows you to take you can compress
+
+[951.72 - 957.72] memories AI memories you know on a
+
+[954.3 - 960.06] factor of five to one uh 10 to 1 20 to 1
+
+[957.72 - 962.4590000000001] depending on how concisely you summarize
+
+[960.06 - 966.2399999999999] them so that gives you a lot of
+
+[962.459 - 969.1199999999999] consolidation then you use a semantic
+
+[966.24 - 971.4590000000001] modeling to create a semantic web or a
+
+[969.12 - 973.44] cluster uh um from the semantic
+
+[971.459 - 978.42] embeddings of those summaries
+
+[973.44 - 978.4200000000001] so it's a layered process actually
+
+[978.72 - 983.339] here I think I can just show you here
+
+[982.019 - 984.9590000000001] um
+
+[983.339 - 987.4200000000001] wait no I've got the paper here let me
+
+[984.959 - 989.0999999999999] show you the Remo paper
+
+[987.42 - 990.54] um so this is a work in progress it'll
+
+[989.1 - 991.8000000000001] be published soon
+
+[990.54 - 993.24] um but let me show you the diagrams
+
+[991.8 - 995.3389999999999] because this will just make it make much
+
+[993.24 - 997.5] more sense oh and chat GPT can make
+
+[995.339 - 1001.0400000000001] diagrams too you just ask it to Output a
+
+[997.5 - 1004.279] mermaid diagram definition and it'll do
+
+[1001.04 - 1006.5] it so here's here's the tldr the very
+
+[1004.279 - 1008.6] simple version of the Remo framework
+
+[1006.5 - 1010.759] it's it's got three layers so there's
+
+[1008.6 - 1013.16] the raw log layer which is just the chat
+
+[1010.759 - 1015.259] logs back and forth the temporal
+
+[1013.16 - 1018.16] consolidation layer which as I just
+
+[1015.259 - 1022.1] mentioned allows you to compress
+
+[1018.16 - 1023.54] memories based on temporal grouping
+
+[1022.1 - 1026.839] and then finally the semantic
+
+[1023.54 - 1029.1789999999999] consolidation layer which allows you to
+
+[1026.839 - 1031.6989999999998] create and extract topics based on
+
+[1029.179 - 1034.3390000000002] semantic similarity so by by having
+
+[1031.699 - 1036.559] these two these two layers that have
+
+[1034.339 - 1038.78] different kinds of consolidation you end
+
+[1036.559 - 1042.559] up with what I call temporally invariant
+
+[1038.78 - 1044.059] recall so the topics that we that we
+
+[1042.559 - 1047.959] extract
+
+[1044.059 - 1050.62] um are going to include all the time uh
+
+[1047.959 - 1053.299] from beginning to end that is relevant
+
+[1050.62 - 1055.9399999999998] while also having benefited from
+
+[1053.299 - 1057.559] temporal consolidation I'm going to come
+
+[1055.94 - 1061.3400000000001] up with some better diagrams to to
+
+[1057.559 - 1063.5] demonstrate this but basically it's like
+
+[1061.34 - 1065.539] actually I can't think of of a good way
+
+[1063.5 - 1067.82] to describe it
+
+[1065.539 - 1069.74] um but anyway so this paper is coming
+
+[1067.82 - 1071.72] um and I'm I'm actively experimenting
+
+[1069.74 - 1074.179] with this on a newer version of Raven
+
+[1071.72 - 1076.76] that uses a lot more implied cognition
+
+[1074.179 - 1078.5] so I talked about implied cognition in a
+
+[1076.76 - 1083.059] previous episode but basically implied
+
+[1078.5 - 1084.86] cognition is when I in using chat gpt4 I
+
+[1083.059 - 1087.1399999999999] realize that it is able to think through
+
+[1084.86 - 1088.28] stuff without you having to design a
+
+[1087.14 - 1090.26] more sophisticated cognitive
+
+[1088.28 - 1092.78] architecture so the cognitive
+
+[1090.26 - 1095.36] architecture with gpt4 as the cognitive
+
+[1092.78 - 1096.98] engine actually becomes much simpler and
+
+[1095.36 - 1099.32] you only have to focus your I don't want
+
+[1096.98 - 1101.299] to say only but the focus shifts then to
+
+[1099.32 - 1103.46] memory because once you have the correct
+
+[1101.299 - 1104.48] Memories the the model becomes much more
+
+[1103.46 - 1106.299] intelligent
+
+[1104.48 - 1109.52] so that's up here under Remo framework
+
+[1106.299 - 1111.74] I'm working on a conversation with Raven
+
+[1109.52 - 1113.9] to to demonstrate this
+
+[1111.74 - 1116.24] um and and that's that the paper will be
+
+[1113.9 - 1117.919] coming too so that this is one big
+
+[1116.24 - 1119.179] important piece of work the other most
+
+[1117.919 - 1121.64] important piece of work that I'm working
+
+[1119.179 - 1123.98] on is the atom framework which this
+
+[1121.64 - 1126.14] paper is already done
+
+[1123.98 - 1128.6] um but
+
+[1126.14 - 1131.1200000000001] atom framework let me just load it here
+
+[1128.6 - 1132.9189999999999] there we go so um autonomous task
+
+[1131.12 - 1135.32] orchestration manager so this is another
+
+[1132.919 - 1138.0800000000002] kind of long-term memory for autonomous
+
+[1135.32 - 1140.059] AI systems that's basically like the
+
+[1138.08 - 1143.059] tldr is
+
+[1140.059 - 1145.82] um it's like jira or Trello but for
+
+[1143.059 - 1149.36] machines with an API
+
+[1145.82 - 1152.059] um and so in this case uh you it's
+
+[1149.36 - 1155.299] inspired by a lot of things one agile
+
+[1152.059 - 1157.82] two on task by David Bader
+
+[1155.299 - 1160.22] um Neuroscience for dummies uh jira
+
+[1157.82 - 1163.3999999999999] Trello a whole bunch of other stuff
+
+[1160.22 - 1164.78] um but basically we talk about cognitive
+
+[1163.4 - 1166.88] control so I'm introducing a lot of
+
+[1164.78 - 1169.22] Neuroscience terms to the AI community
+
+[1166.88 - 1171.2] so cognitive control has to do with task
+
+[1169.22 - 1174.02] selection task switching task
+
+[1171.2 - 1175.76] decomposition goal tracking goal States
+
+[1174.02 - 1177.679] those sorts of things
+
+[1175.76 - 1179.059] um and then we talk about
+
+[1177.679 - 1181.52] um you know some of the inspiration
+
+[1179.059 - 1183.74] agile jira Trello
+
+[1181.52 - 1185.539] um and then so it's like okay so what
+
+[1183.74 - 1187.76] are the things that we need to talk or
+
+[1185.539 - 1191.24] that we need to include in order for an
+
+[1187.76 - 1194.059] AI system to be fully autonomous and and
+
+[1191.24 - 1195.74] track tasks over time so you need tools
+
+[1194.059 - 1197.1789999999999] and Tool definitions you need resource
+
+[1195.74 - 1199.4] management and you need an agent model
+
+[1197.179 - 1202.4] all these are are full are described
+
+[1199.4 - 1205.8200000000002] later on or in Greater depth
+
+[1202.4 - 1208.3400000000001] um then actually in my conversation with
+
+[1205.82 - 1209.8999999999999] um with chat GPT one of the things that
+
+[1208.34 - 1211.28] it said is like okay well how do you
+
+[1209.9 - 1213.0800000000002] prioritize stuff and I was like I'm glad
+
+[1211.28 - 1214.7] you asked um and so I shared my work
+
+[1213.08 - 1216.86] with the heuristic imperatives and chat
+
+[1214.7 - 1219.2] GPT agreed like oh yeah this is a really
+
+[1216.86 - 1221.539] great framework for prioritizing tasks
+
+[1219.2 - 1223.22] and on and measuring success okay great
+
+[1221.539 - 1226.22] let's use that
+
+[1223.22 - 1227.66] um I'll I think let's see is the uh
+
+[1226.22 - 1229.4] transcript posted I don't know if I
+
+[1227.66 - 1231.5] posted the transcript I didn't I'll post
+
+[1229.4 - 1233.6000000000001] the full strength transcript of of right
+
+[1231.5 - 1235.46] making the atom framework
+
+[1233.6 - 1237.9189999999999] um in the repo
+
+[1235.46 - 1239.9] um so then we get into like okay so now
+
+[1237.919 - 1242.1200000000001] that you have all the background what do
+
+[1239.9 - 1243.98] we talk about so it's all about tasks
+
+[1242.12 - 1245.1789999999999] and the data that goes into the task so
+
+[1243.98 - 1247.28] first you need to figure out how to
+
+[1245.179 - 1249.74] represent a task so there's basic stuff
+
+[1247.28 - 1252.3799999999999] like task ID description type goal State
+
+[1249.74 - 1254.539] priority dependencies resource time
+
+[1252.38 - 1258.0200000000002] estimates task status assigned agents
+
+[1254.539 - 1260.96] progress and then the one that is
+
+[1258.02 - 1262.76] um new is Task impetus so this is
+
+[1260.96 - 1264.44] something that you might not
+
+[1262.76 - 1266.36] think of if you think about you know
+
+[1264.44 - 1270.2] your your jira board or your kanban
+
+[1266.36 - 1272.9599999999998] board or Trello board is the why so the
+
+[1270.2 - 1274.16] why is implicit in our tasks why am I
+
+[1272.96 - 1276.38] trying to do this
+
+[1274.16 - 1278.3600000000001] but when we added this
+
+[1276.38 - 1280.2800000000002] um Chad GPT got really excited and it's
+
+[1278.36 - 1282.62] like oh yeah it's actually really
+
+[1280.28 - 1284.66] important to record why any autonomous
+
+[1282.62 - 1288.26] entity is doing a task for a number of
+
+[1284.66 - 1290.6000000000001] reasons one to track priorities or the
+
+[1288.26 - 1292.64] the the the impetus might be superseded
+
+[1290.6 - 1294.32] later on any number of things but also
+
+[1292.64 - 1296.9] you need to justify the use of those
+
+[1294.32 - 1298.76] resources in that time so this all goes
+
+[1296.9 - 1301.3400000000001] into the representation of a task which
+
+[1298.76 - 1303.2] you can do in Json yaml flat files
+
+[1301.34 - 1304.6999999999998] Vector databases whatever I don't care
+
+[1303.2 - 1306.559] like you can figure out how you want to
+
+[1304.7 - 1308.179] represent it I'm probably just going to
+
+[1306.559 - 1310.3999999999999] do these in text files honestly because
+
+[1308.179 - 1311.9] that's the easiest thing for an llm to
+
+[1310.4 - 1314.0590000000002] read
+
+[1311.9 - 1315.679] um and then so talking about the task
+
+[1314.059 - 1317.8999999999999] representation then we move on to the
+
+[1315.679 - 1320.26] task life cycle task creation
+
+[1317.9 - 1322.46] decomposition prioritization execution
+
+[1320.26 - 1324.26] monitoring and updating and then finally
+
+[1322.46 - 1325.76] completing the task
+
+[1324.26 - 1327.14] um and then and then you archive it and
+
+[1325.76 - 1329.36] you save it for later so that you can
+
+[1327.14 - 1331.4] refer back to it again this is still
+
+[1329.36 - 1333.74] primarily a long-term memory system for
+
+[1331.4 - 1335.9] autonomous AI systems
+
+[1333.74 - 1337.4] um some of the folks that I work with on
+
+[1335.9 - 1339.679] Discord
+
+[1337.4 - 1342.02] um and by work with I mean just like I'm
+
+[1339.679 - 1343.039] in you know the AI communities with them
+
+[1342.02 - 1345.44] um they all think that the atom
+
+[1343.039 - 1347.419] framework is pretty cool
+
+[1345.44 - 1349.7] um so then we talk about task Corpus
+
+[1347.419 - 1351.38] management which is like okay looking at
+
+[1349.7 - 1353.059] an individual task is fine but how do
+
+[1351.38 - 1355.4] you look at your entire body of tasks
+
+[1353.059 - 1357.1399999999999] because in autonomous AI it might have
+
+[1355.4 - 1359.48] five tasks it might have five thousand
+
+[1357.14 - 1362.539] tasks and then you see you need some
+
+[1359.48 - 1364.4] processes to like okay if we're going
+
+[1362.539 - 1366.3799999999999] through these tasks how do we manage a
+
+[1364.4 - 1368.659] huge volume of tasks and so some ideas
+
+[1366.38 - 1370.5200000000002] about how to do that are here
+
+[1368.659 - 1371.9] um and then finally uh one of the last
+
+[1370.52 - 1374.6] sections is some implementation
+
+[1371.9 - 1376.1000000000001] guidelines which is just okay this is
+
+[1374.6 - 1378.62] this is probably some things that you
+
+[1376.1 - 1380.1789999999999] want to think about when you deploy uh
+
+[1378.62 - 1381.86] your implementation of the atom
+
+[1380.179 - 1384.0800000000002] framework
+
+[1381.86 - 1385.58] um yeah so I think that's about it I I'm
+
+[1384.08 - 1387.799] obviously I'm always working on a few
+
+[1385.58 - 1390.1999999999998] different things but the atom framework
+
+[1387.799 - 1392.12] and the Remo framework are are the two
+
+[1390.2 - 1393.14] biggest things that I'm working on in
+
+[1392.12 - 1396.1399999999999] terms of
+
+[1393.14 - 1398.659] um in terms of autonomous Ai and so yeah
+
+[1396.14 - 1401.179] all this stuff is coming fast uh I think
+
+[1398.659 - 1403.159] that's about it so thanks for watching
+
+[1401.179 - 1405.26] um like And subscribe and support me on
+
+[1403.159 - 1407.1200000000001] patreon if you'd like
+
+[1405.26 - 1408.98] um for anyone who does uh jump in on
+
+[1407.12 - 1411.08] patreon I'm happy to answer some
+
+[1408.98 - 1412.82] questions for you even jump on video
+
+[1411.08 - 1414.08] calls if you jump in at the high enough
+
+[1412.82 - 1416.24] tier
+
+[1414.08 - 1418.6999999999998] um I help all kinds of people I do have
+
+[1416.24 - 1420.14] a few ndas that I have to honor
+
+[1418.7 - 1421.7] um but those are those are those are
+
+[1420.14 - 1423.3200000000002] pretty narrow and some of them are also
+
+[1421.7 - 1426.02] expiring
+
+[1423.32 - 1428.4189999999999] um so I've had people ask you know for
+
+[1426.02 - 1431.6] for help just with writing prompts for
+
+[1428.419 - 1433.039] chat GPT I've had people ask
+
+[1431.6 - 1434.8999999999999] um simple things like how did you learn
+
+[1433.039 - 1437.539] what you learned
+
+[1434.9 - 1439.2800000000002] um all kinds of stuff uh but yeah so
+
+[1437.539 - 1441.82] that's that thanks for watching and
+
+[1439.28 - 1441.82] cheers everybody

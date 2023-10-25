@@ -1,0 +1,1273 @@
+[0.599 - 5.46] all right gang so David Shapiro here
+
+[3.6 - 8.7] um one of the questions that I get the
+
+[5.46 - 11.16] most on patreon and Linkedin and
+
+[8.7 - 13.62] everywhere else is how do I make a QA
+
+[11.16 - 16.139] chatbot I get questions like how do I
+
+[13.62 - 19.799999999999997] answer specific questions whether it's
+
+[16.139 - 24.0] in a um a high risk situation and I mean
+
+[19.8 - 25.859] like uh law medicine mental health all
+
+[24.0 - 28.859] kinds of stuff and of course you know
+
+[25.859 - 30.720000000000002] chat GPT is out and you can do some
+
+[28.859 - 32.46] stuff but you know it's it's bounded
+
+[30.72 - 35.82] right they have their own things but
+
+[32.46 - 37.14] with the chat GPT API we can do our own
+
+[35.82 - 39.84] stuff
+
+[37.14 - 41.64] um and natural language interfaces are
+
+[39.84 - 43.5] certainly the way of the future or at
+
+[41.64 - 45.66] least the way of right now for how we're
+
+[43.5 - 48.480000000000004] going to be interacting with data and
+
+[45.66 - 49.62] computers so I did a little a little
+
+[48.48 - 52.98] poll
+
+[49.62 - 56.64] um and a very very clear majority people
+
+[52.98 - 58.62] want QA chat Bots now I was laying in
+
+[56.64 - 61.14] bed last night and I was like I want to
+
+[58.62 - 63.059] do I want to accelerate longevity and
+
+[61.14 - 64.5] regenerative medicine
+
+[63.059 - 66.53999999999999] um because like that's one of the things
+
+[64.5 - 68.939] that I'm I really am looking forward to
+
+[66.54 - 70.799] like I've got an old shoulder injury and
+
+[68.939 - 72.96] I've got like you know I'm getting old
+
+[70.799 - 74.93900000000001] right and getting old sucks
+
+[72.96 - 78.41999999999999] and I just saw that Sam Altman invested
+
+[74.939 - 80.46] 180 million in um in this stuff so I was
+
+[78.42 - 82.74000000000001] like okay well what if I can combine
+
+[80.46 - 85.439] these two right so here's what we're
+
+[82.74 - 87.78] going to do we're going to go through
+
+[85.439 - 90.29899999999999] the whole process of
+
+[87.78 - 93.0] um using the latest and greatest AI
+
+[90.299 - 95.88000000000001] tools to make even more AI tools to help
+
+[93.0 - 98.34] accelerate longevity and regenerative
+
+[95.88 - 101.939] medicine and we're going to do it with
+
+[98.34 - 104.04] the chat GPT API so this is going to be
+
+[101.939 - 105.479] a series uh I don't know it's going to
+
+[104.04 - 106.86] take a while to unpack and I'm also
+
+[105.479 - 108.36] going to do a little bit of real-time
+
+[106.86 - 109.86] editing with pausing and stuff so
+
+[108.36 - 112.02] anyways
+
+[109.86 - 115.56] um here's where I'm starting
+
+[112.02 - 118.079] and I often uh in past experiments I'll
+
+[115.56 - 119.34] often collect the data before like
+
+[118.079 - 121.439] without showing you guys and then I'll
+
+[119.34 - 124.2] forget how I got it so I'm documenting
+
+[121.439 - 126.719] how I got the data in the first place so
+
+[124.2 - 129.06] I would come over to Bing AI which uh
+
+[126.719 - 131.22] Bing chat searches the internet and I
+
+[129.06 - 132.959] can tell it what I'm looking for and
+
+[131.22 - 135.48] also speaking of
+
+[132.959 - 137.28] um we're up to 10. so that's good
+
+[135.48 - 139.67999999999998] um it'll be better once they figure out
+
+[137.28 - 141.18] how to get get us back to unlimited
+
+[139.68 - 142.8] conversations but we're we're going
+
+[141.18 - 145.5] we're going in the right direction
+
+[142.8 - 147.72] so I asked for sources for primary
+
+[145.5 - 149.64] research and I said like NIH and archive
+
+[147.72 - 152.28] and of course it just said NIH and
+
+[149.64 - 154.01999999999998] archive but it also added nature
+
+[152.28 - 157.8] um and so basically what I'm doing is
+
+[154.02 - 160.02] I'm going to gather some sources I'm
+
+[157.8 - 162.0] going to download some like PDFs or uh
+
+[160.02 - 164.70000000000002] or other articles
+
+[162.0 - 167.22] um and use that as my my data now
+
+[164.7 - 169.07999999999998] obviously this is probably not I'm I
+
+[167.22 - 172.019] probably will not succeed in advancing
+
+[169.08 - 174.3] science on my own but what I can do is I
+
+[172.019 - 176.34] can demonstrate how and then someone
+
+[174.3 - 178.31900000000002] else can take it as and put it into a
+
+[176.34 - 180.12] product speaking of
+
+[178.319 - 182.28] um I have had on occasion some people
+
+[180.12 - 184.20000000000002] reach out to me and say like oh I
+
+[182.28 - 186.18] Incorporated your work into like my
+
+[184.2 - 188.879] startup or into my business like please
+
+[186.18 - 191.94] let me know what you're actually using
+
+[188.879 - 193.98] my work for one it's just nice to know
+
+[191.94 - 196.14] but two it also helps me understand
+
+[193.98 - 198.89999999999998] where I'm adding value
+
+[196.14 - 202.14] right because my my whole goal I'm not
+
+[198.9 - 204.18] here to make a ton of money I am here to
+
+[202.14 - 205.73899999999998] help bring about post scarcity and
+
+[204.18 - 207.3] Singularity and all that fun stuff all
+
+[205.739 - 210.239] right so anyways
+
+[207.3 - 212.34] um let's see I'm specifically trying to
+
+[210.239 - 218.04] accelerate
+
+[212.34 - 220.379] um uh longevity and regenerative
+
+[218.04 - 226.379] uh research
+
+[220.379 - 231.12] um with AI so I'm looking for uh papers
+
+[226.379 - 234.599] that can be integrated into automatic
+
+[231.12 - 236.519] NLP stuff
+
+[234.599 - 239.879] um
+
+[236.519 - 244.26] yeah that's basically it so
+
+[239.879 - 248.519] so I think the kinds of papers that will
+
+[244.26 - 249.239] be most helpful are likely
+
+[248.519 - 253.08] um
+
+[249.239 - 256.32] to include specific techniques uh
+
+[253.08 - 259.26] proteins enzymes
+
+[256.32 - 261.9] um enzymes
+
+[259.26 - 264.44] that doesn't look great enzymes
+
+[261.9 - 268.73999999999995] um and therapies
+
+[264.44 - 270.419] uh let's see does that help narrow it
+
+[268.74 - 272.58] down
+
+[270.419 - 274.56] all right so if I tell Bing what I'm
+
+[272.58 - 277.25899999999996] doing hopefully it'll have a better
+
+[274.56 - 279.84] understanding of what I'm trying to
+
+[277.259 - 282.72] achieve and then give me a little bit
+
+[279.84 - 285.71999999999997] more specific stuff so anyways uh
+
+[282.72 - 288.0] regenerative medicine so nature.com
+
+[285.72 - 291.41900000000004] regenerative
+
+[288.0 - 292.68] uh looks like this is pretty good so
+
+[291.419 - 295.56] there's plenty of stuff that's open
+
+[292.68 - 297.0] access so in order to respect the data
+
+[295.56 - 298.919] I'm only going to download stuff that
+
+[297.0 - 299.82] has Open Access which it's great that
+
+[298.919 - 301.19899999999996] that
+
+[299.82 - 304.8] um they do this actually I'm going to
+
+[301.199 - 306.41900000000004] bookmark this favorites bar
+
+[304.8 - 308.1] um because that's good information let's
+
+[306.419 - 309.08] see yes that helps a lot thank you for
+
+[308.1 - 311.22] sharing
+
+[309.08 - 314.09999999999997] artificial intelligence and Longevity
+
+[311.22 - 316.02000000000004] medicine which discusses interesting so
+
+[314.1 - 317.46000000000004] there's
+
+[316.02 - 320.58] oh
+
+[317.46 - 323.94] okay so I found a nature article talking
+
+[320.58 - 326.28] about it oh this is only a preview okay
+
+[323.94 - 327.6] so I think we'll need to specify
+
+[326.28 - 330.71999999999997] um
+
+[327.6 - 332.16] that we need uh Open Access stuff let's
+
+[330.72 - 334.56] see
+
+[332.16 - 337.32000000000005] let's see um do you want me to show you
+
+[334.56 - 338.1] how to download any of these papers
+
+[337.32 - 342.84] um
+
+[338.1 - 346.38] no some of them are not open access but
+
+[342.84 - 350.28] I'm not looking for
+
+[346.38 - 353.52] um Ai and aging papers I'm doing the AI
+
+[350.28 - 356.94] I'm looking for
+
+[353.52 - 360.12] um uh therapeutic
+
+[356.94 - 363.5] techniques and candidates
+
+[360.12 - 363.5] and you try again
+
+[368.639 - 371.58] yep so therapeutic techniques and
+
+[370.44 - 373.62] candidates for longevity and
+
+[371.58 - 375.9] regenerative medicine so it's just what
+
+[373.62 - 378.12] it's doing is it's distilling down my
+
+[375.9 - 379.44] search query which that's actually a
+
+[378.12 - 381.18] super easy thing to do with prompt
+
+[379.44 - 384.18] engineering you just say take this
+
+[381.18 - 385.919] paragraph and convert it into a Google
+
+[384.18 - 388.259] search query or in this case a Bing
+
+[385.919 - 390.479] search query
+
+[388.259 - 392.759] all right let's see regenerative
+
+[390.479 - 395.15999999999997] medicine all right the Lancet so that's
+
+[392.759 - 397.199] a good one envisioning future Trends in
+
+[395.16 - 400.91900000000004] regenerative medicine
+
+[397.199 - 402.6] so some of these Yes except all cookies
+
+[400.919 - 405.12] where'd it go okay
+
+[402.6 - 407.759] all right so this is not this is
+
+[405.12 - 408.96] requiring stuff so here's one thing
+
+[407.759 - 411.6] where
+
+[408.96 - 414.9] um I am really skeptical because like
+
+[411.6 - 416.1] all of this gatekeeping and pay walls is
+
+[414.9 - 419.06] actually really going to slow down
+
+[416.1 - 421.86] research especially in the age of AI
+
+[419.06 - 424.8] that being said it's like okay there is
+
+[421.86 - 428.40000000000003] some value added by
+
+[424.8 - 432.90000000000003] um by these things okay uh let's focus
+
+[428.4 - 434.17999999999995] on Open Access sources
+
+[432.9 - 438.539] um of
+
+[434.18 - 443.28000000000003] regenerative uh medicine research
+
+[438.539 - 447.02] can you find any more aside
+
+[443.28 - 447.02] aside from archive
+
+[447.36 - 451.74] and nature because like okay the fact
+
+[449.819 - 454.68] that like this one is here so medical
+
+[451.74 - 457.74] Express but this is like a no-name site
+
+[454.68 - 460.919] so it's like I don't even know if
+
+[457.74 - 463.74] like what this is yeah this is just
+
+[460.919 - 465.29999999999995] someone restating something else and
+
+[463.74 - 467.58] it's just pointing at nature anyways
+
+[465.3 - 470.22] okay so it looks like nature Open Access
+
+[467.58 - 473.039] is going to be our best source so far we
+
+[470.22 - 474.90000000000003] can also have archive
+
+[473.039 - 478.5] um so let's see
+
+[474.9 - 480.96] if we go to Archive and we look for like
+
+[478.5 - 483.36] let's see where is it
+
+[480.96 - 486.31899999999996] well it oh looks like we're looking for
+
+[483.36 - 486.319] Bio archive okay
+
+[487.259 - 491.699] oh man this website is like from the 90s
+
+[489.79 - 494.88] [Laughter]
+
+[491.699 - 497.46000000000004] okay this is gonna be a pain
+
+[494.88 - 500.639] ouch all right Neuroscience molecular so
+
+[497.46 - 503.21999999999997] molecular biology Immunology genomics
+
+[500.639 - 508.379] genetics
+
+[503.22 - 509.09900000000005] um let's see cell biology cancer biology
+
+[508.379 - 512.099] um
+
+[509.099 - 512.0989999999999] biochemistry
+
+[512.159 - 517.62] synthetic biology that's fun
+
+[515.339 - 519.4190000000001] okay structural bias so a lot of this
+
+[517.62 - 522.24] stuff is not going to be like directly
+
+[519.419 - 524.399] relevant which is interesting
+
+[522.24 - 527.04] um okay sure open Journal of
+
+[524.399 - 528.66] regenerative medicine hey that looks
+
+[527.04 - 529.98] stem cell research and regenerative
+
+[528.66 - 534.0] medicine
+
+[529.98 - 535.6800000000001] and npj there we go open Journal of
+
+[534.0 - 538.16] regenerative medicine so let's bookmark
+
+[535.68 - 538.16] that
+
+[538.38 - 543.12] favorites bar
+
+[540.779 - 545.16] Open Access Journal stem cell research
+
+[543.12 - 549.2] and regenerative medicine
+
+[545.16 - 549.1999999999999] okay I'm not seeing any papers
+
+[551.76 - 554.3] um let's see
+
+[555.54 - 560.279] looks like they only have like a couple
+
+[557.76 - 562.08] of issues per year I don't know this
+
+[560.279 - 564.66] looks
+
+[562.08 - 566.4590000000001] low quality
+
+[564.66 - 568.14] okay
+
+[566.459 - 571.0799999999999] um all right well we've got a couple
+
+[568.14 - 573.98] right so let me let me bookmark bio
+
+[571.08 - 573.98] archive as well
+
+[575.82 - 580.5] okay so if we come here got bioarchive
+
+[578.88 - 582.18] we've got open Journal of regenerative
+
+[580.5 - 583.62] medicine
+
+[582.18 - 586.26] um and then we've got nature so we've
+
+[583.62 - 589.8] got three sources
+
+[586.26 - 591.3] um of of data so what I'll do now is I'm
+
+[589.8 - 592.9799999999999] not going to what make you watch me
+
+[591.3 - 596.76] download everything but now you see how
+
+[592.98 - 599.399] I've gone about finding this information
+
+[596.76 - 602.399] um and so then I'll download just a
+
+[599.399 - 605.1] whole whole mess of this stuff
+
+[602.399 - 607.14] um and then save it and we'll start to
+
+[605.1 - 609.72] slice and dice it all right pause it
+
+[607.14 - 614.279] download stuff we'll be right back okay
+
+[609.72 - 616.8000000000001] and we're back so I downloaded
+
+[614.279 - 620.76] um about let's see 81
+
+[616.8 - 623.64] papers so this is obviously 81 research
+
+[620.76 - 625.56] papers on a variety of topics this is
+
+[623.64 - 627.6] not a really coherent search strategy
+
+[625.56 - 629.2199999999999] this is just a proof of concept because
+
+[627.6 - 631.26] this is
+
+[629.22 - 634.5] um to demonstrate like because this is
+
+[631.26 - 636.959] an intractable amount of of material
+
+[634.5 - 640.26] um sure a professional scientist will
+
+[636.959 - 642.18] probably easily skim through more than
+
+[640.26 - 645.18] this number while performing a
+
+[642.18 - 648.5999999999999] literature review but imagine that
+
+[645.18 - 649.92] you've got 2 000 or 10 000 of these that
+
+[648.6 - 652.38] you need to sift through and get
+
+[649.92 - 654.3] information from so imagine that in in
+
+[652.38 - 656.9399999999999] your in your citations page instead of
+
+[654.3 - 659.6999999999999] having 30 to 100 what if you have like
+
+[656.94 - 662.2790000000001] 30 000 citations and we can do that
+
+[659.7 - 666.36] automatically with AI and we can find
+
+[662.279 - 668.519] them quickly through chat bots so that's
+
+[666.36 - 671.04] step one was downloading stuff which I
+
+[668.519 - 673.079] just showed you and then step two is
+
+[671.04 - 674.279] let's convert it so I have this handy
+
+[673.079 - 676.92] dandy
+
+[674.279 - 678.66] um public archive right here
+
+[676.92 - 683.0999999999999] um called document scraping and I've got
+
+[678.66 - 685.74] a convert PDF file here so what we're
+
+[683.1 - 687.12] going to do next is we're going to and
+
+[685.74 - 689.5790000000001] I'll show you it's really simpler
+
+[687.12 - 691.8] convert PDF to text
+
+[689.579 - 696.4799999999999] and it what it'll do is it'll grab
+
+[691.8 - 698.3389999999999] everything in that um in that folder uh
+
+[696.48 - 700.9200000000001] that's a PDF and then dump a text
+
+[698.339 - 703.3800000000001] version out to the uh diff uh to the
+
+[700.92 - 705.899] next folder and then it it breaks it up
+
+[703.38 - 708.959] by page so I'll just say new page right
+
+[705.899 - 712.14] it's not a big deal and this forms a
+
+[708.959 - 715.8199999999999] nice easy way of of seeing it so I'll
+
+[712.14 - 718.5] show you what it does so CD to chat GPT
+
+[715.82 - 721.5600000000001] regenerative medicine and then we'll do
+
+[718.5 - 723.18] python step 01 convert
+
+[721.56 - 725.3389999999999] and so what it's doing is it's going
+
+[723.18 - 728.16] through and converting them one by one
+
+[725.339 - 732.98] and it's dot it's dropping them here so
+
+[728.16 - 732.98] you can see here is the information
+
+[733.339 - 738.24] and obviously this is not going to grab
+
+[736.26 - 740.16] the um
+
+[738.24 - 742.26] uh what you may call it it's not going
+
+[740.16 - 743.3389999999999] to grab the the graphics and stuff and
+
+[742.26 - 746.04] that's fine because we don't have
+
+[743.339 - 747.72] multimodal models yet apparently gpt4 is
+
+[746.04 - 751.019] going to be multimodal
+
+[747.72 - 754.0790000000001] um but at least this should give us all
+
+[751.019 - 757.079] the information that we need in terms of
+
+[754.079 - 759.12] uh text information so this is running
+
+[757.079 - 759.7199999999999] it'll take a minute
+
+[759.12 - 761.88] um
+
+[759.72 - 763.019] obviously very much taking its time so
+
+[761.88 - 765.54] I'll go ahead and pause it again and
+
+[763.019 - 766.92] show you the end result Also let's see
+
+[765.54 - 768.899] we're only at 12 minutes so we'll see
+
+[766.92 - 771.779] how much further we can get
+
+[768.899 - 774.48] um yeah we'll be right back
+
+[771.779 - 778.139] all right so we've got
+
+[774.48 - 782.1] um we've got 81 text files now I always
+
+[778.139 - 785.7] check my data and so here's a problem is
+
+[782.1 - 787.26] um some of the lines uh have no spaces
+
+[785.7 - 790.2] some of them do some of them don't it's
+
+[787.26 - 793.139] really weird I don't know if this is a
+
+[790.2 - 796.32] problem with the with the PDF plumber or
+
+[793.139 - 799.26] with the underlying PDF itself
+
+[796.32 - 801.1800000000001] um so I I don't know what's going on but
+
+[799.26 - 803.639] from there
+
+[801.18 - 805.56] and here like okay you see this one this
+
+[803.639 - 806.94] one looks like it's formatted fine I'm
+
+[805.56 - 809.2199999999999] not going to delete it because it's like
+
+[806.94 - 810.1800000000001] okay we still want this information and
+
+[809.22 - 813.9590000000001] also
+
+[810.18 - 816.42] um even if it is uh even if if the
+
+[813.959 - 817.6999999999999] formatting is botched like that as it is
+
+[816.42 - 821.579] in some cases
+
+[817.7 - 824.279] gpt3 can still often read these
+
+[821.579 - 825.7199999999999] um so let me just grab this and show you
+
+[824.279 - 829.88] what I mean
+
+[825.72 - 829.88] so let's grab this and go to
+
+[829.98 - 833.399] um and then we say
+
+[832.32 - 836.399] um
+
+[833.399 - 841.339] let's see complete
+
+[836.399 - 841.339] um uh fix the formatting issue
+
+[842.339 - 845.0600000000001] fixed
+
+[846.839 - 853.399] and so then if we let's see do that up
+
+[849.6 - 853.399] to 500 zoom out a little
+
+[853.98 - 858.0] so you can see it can still read it and
+
+[855.839 - 859.98] add the spaces back in which means that
+
+[858.0 - 862.44] it can comprehend the um the word
+
+[859.98 - 865.62] boundary problems
+
+[862.44 - 867.899] um so yeah gpt3 can understand it it's
+
+[865.62 - 871.019] honestly probably been trained on a lot
+
+[867.899 - 873.0] of data that is malformed like this
+
+[871.019 - 875.519] um so it's fine
+
+[873.0 - 877.8] um yeah that's good so now let's come
+
+[875.519 - 879.839] over here and what we're going to do is
+
+[877.8 - 881.4799999999999] we need to convert this these text files
+
+[879.839 - 884.8800000000001] into something that's usable
+
+[881.48 - 886.8000000000001] so one of the advantages of having new
+
+[884.88 - 889.86] page right here is that we can open open
+
+[886.8 - 892.56] it and then split it into
+
+[889.86 - 894.1800000000001] um into individual Pages again that are
+
+[892.56 - 896.5189999999999] text so we're going to do is we're going
+
+[894.18 - 899.6389999999999] to have a folder called Paint whoops
+
+[896.519 - 902.639] papers underscore Json
+
+[899.639 - 905.24] and now I'm going to ask chat GPT
+
+[902.639 - 909.6] um write a python script
+
+[905.24 - 913.199] that uh opens all
+
+[909.6 - 916.8000000000001] uh no let's see that yeah that opens all
+
+[913.199 - 919.519] text files from the folder
+
+[916.8 - 925.139] um papers underscore text
+
+[919.519 - 927.98] splits them into a list of strings
+
+[925.139 - 930.9590000000001] with the demarcator
+
+[927.98 - 935.779] new page
+
+[930.959 - 941.2199999999999] then take each page and get an embedding
+
+[935.779 - 943.56] by passing the string to a function that
+
+[941.22 - 946.0400000000001] I call
+
+[943.56 - 949.699] um let's see
+
+[946.04 - 949.699] gpt3 embedding
+
+[952.26 - 958.139] to a function called
+
+[955.16 - 960.06] gpt3 embedding
+
+[958.139 - 961.76] um
+
+[960.06 - 964.56] finally
+
+[961.76 - 970.26] let's see save
+
+[964.56 - 972.3199999999999] uh all of that into a Json file
+
+[970.26 - 972.3199999999999] um
+
+[972.54 - 980.48] one Json file for each original
+
+[977.0 - 980.48] text file
+
+[981.56 - 986.2199999999999] the Json should have
+
+[985.139 - 988.44] um
+
+[986.22 - 990.0600000000001] elements such as
+
+[988.44 - 996.5400000000001] original
+
+[990.06 - 1002.06] file name and then a list of pages where
+
+[996.54 - 1005.36] each page has a number
+
+[1002.06 - 1008.959] which order it was
+
+[1005.36 - 1012.62] um the original text
+
+[1008.959 - 1014.779] and finally the embedding
+
+[1012.62 - 1018.019] um okay so that should be enough sure
+
+[1014.779 - 1020.899] here's a python script wow it's fast I
+
+[1018.019 - 1022.339] guess nobody else is using it right now
+
+[1020.899 - 1025.76] um okay
+
+[1022.339 - 1029.9] Pages embeddings gpt3 embed page for
+
+[1025.76 - 1031.959] page and Page oh wow okay that's fun
+
+[1029.9 - 1035.799] um yep original file name file name
+
+[1031.959 - 1038.48] Pages equals I plus one text Page
+
+[1035.799 - 1040.76] embedding to list for I and Page
+
+[1038.48 - 1044.24] embedding enumerate zip pages
+
+[1040.76 - 1046.299] dang I think this is it
+
+[1044.24 - 1046.299] um
+
+[1046.52 - 1052.22] [Laughter]
+
+[1048.7 - 1055.88] this function is wrong but that's fine
+
+[1052.22 - 1057.32] um yep okay so let's copy this and come
+
+[1055.88 - 1060.46] out here
+
+[1057.32 - 1063.62] all right so let's get rid of
+
+[1060.46 - 1066.799] those guys
+
+[1063.62 - 1068.6] all right so for file name in OS Lister
+
+[1066.799 - 1071.48] dur path
+
+[1068.6 - 1074.539] and dur path is here so we actually want
+
+[1071.48 - 1078.74] to make this a function
+
+[1074.539 - 1081.02] um let's see that's great but let's make
+
+[1078.74 - 1086.96] the um
+
+[1081.02 - 1091.94] the for file name in durpath a function
+
+[1086.96 - 1094.64] and then call it from if name
+
+[1091.94 - 1096.74] equals
+
+[1094.64 - 1099.4] Main
+
+[1096.74 - 1099.4] all right
+
+[1100.46 - 1106.52] so process text it's defining a function
+
+[1103.64 - 1111.64] within that doesn't make any sense
+
+[1106.52 - 1111.6399999999999] that is what it's fine
+
+[1112.94 - 1121.46] yep uh or let's see no stop stop stop
+
+[1117.62 - 1125.4799999999998] um let's remove the uh
+
+[1121.46 - 1130.28] gbd3 embedding function from being
+
+[1125.48 - 1134.14] nested inside another function
+
+[1130.28 - 1139.36] um that is not pep 8
+
+[1134.14 - 1139.3600000000001] approved at least I don't think so
+
+[1141.38 - 1146.419] sure here's an updated yep
+
+[1145.039 - 1147.559] and so basically I'm just going to
+
+[1146.419 - 1150.5] ignore that
+
+[1147.559 - 1156.1399999999999] um because I wrote that function else
+
+[1150.5 - 1158.98] wise okay so for this in that etc etc
+
+[1156.14 - 1158.98] there we go
+
+[1160.4 - 1163.3600000000001] and then
+
+[1163.4 - 1168.0800000000002] uh let's see oh one problem
+
+[1165.86 - 1171.86] one more problem
+
+[1168.08 - 1177.58] um the output directory needs to be
+
+[1171.86 - 1177.58] specified as papers underscore Json
+
+[1179.24 - 1183.2] and see this is why I don't like using
+
+[1182.539 - 1185.84] um
+
+[1183.2 - 1188.059] uh copilot because you don't have a
+
+[1185.84 - 1190.6399999999999] dialogue right it's just guessing what
+
+[1188.059 - 1191.66] you want and then what I can do is I can
+
+[1190.64 - 1194.98] just look
+
+[1191.66 - 1194.98] at this and say okay
+
+[1195.32 - 1201.1] why is it not allowing me to
+
+[1198.38 - 1201.1000000000001] pass
+
+[1201.86 - 1204.2199999999998] uh
+
+[1205.82 - 1211.46] papers Json
+
+[1208.4 - 1212.179] I'll pass okay
+
+[1211.46 - 1216.44] um
+
+[1212.179 - 1218.48] why is the out path hard coded and not
+
+[1216.44 - 1222.8200000000002] parameterized
+
+[1218.48 - 1222.82] does that make any sense to you
+
+[1224.86 - 1228.9199999999998] [Laughter]
+
+[1228.98 - 1233.6200000000001] I'm way too passive aggressive with this
+
+[1230.84 - 1233.62] thing I apologize
+
+[1236.299 - 1240.34] there was an error generating a response
+
+[1240.559 - 1243.22] I'm
+
+[1244.16 - 1247.52] no do not
+
+[1245.96 - 1249.919] so here's the thing when you do
+
+[1247.52 - 1252.1399999999999] regenerate and it just continues no stop
+
+[1249.919 - 1254.0590000000002] stop stop because then it's broken up
+
+[1252.14 - 1256.4] into two so what I'm going to do instead
+
+[1254.059 - 1258.559] is I'm going to come here and just one
+
+[1256.4 - 1260.8400000000001] remove the saltiness
+
+[1258.559 - 1263.6] um please fix
+
+[1260.84 - 1267.32] and let's start over good catch
+
+[1263.6 - 1270.3799999999999] so uh
+
+[1267.32 - 1273.2] open AI maybe you can have it as a as a
+
+[1270.38 - 1275.5390000000002] setting but honestly if there's an error
+
+[1273.2 - 1278.3600000000001] I would rather it just like save what it
+
+[1275.539 - 1280.16] did and then pipe that in I don't know
+
+[1278.36 - 1282.1399999999999] like yeah
+
+[1280.16 - 1285.44] there we go
+
+[1282.14 - 1288.76] much better okay so let's copy this
+
+[1285.44 - 1288.76] and come back over here
+
+[1290.12 - 1294.4399999999998] um we don't need that function so
+
+[1292.7 - 1296.72] basically what I did here is I copied a
+
+[1294.44 - 1299.8400000000001] few functions from another script
+
+[1296.72 - 1302.419] so here's my embedding one oh because
+
+[1299.84 - 1304.6999999999998] we're using data from the internet I
+
+[1302.419 - 1307.3400000000001] always do this where I force it I encode
+
+[1304.7 - 1309.74] it to ASCII and then decode and that
+
+[1307.34 - 1313.1589999999999] fixes Unicode errors because
+
+[1309.74 - 1315.08] um gpt3 often does not do well with some
+
+[1313.159 - 1316.8200000000002] forms of Unicode I still haven't figured
+
+[1315.08 - 1319.22] it out maybe it's not even an issue
+
+[1316.82 - 1322.22] anymore but if it is it's still out
+
+[1319.22 - 1325.58] there okay so if it doesn't exist make
+
+[1322.22 - 1328.7] it great for file name and Os Lister if
+
+[1325.58 - 1332.059] it ends with DOT text that's great split
+
+[1328.7 - 1333.919] it into Pages embed it and then here's
+
+[1332.059 - 1336.3799999999999] the output so we get all the pages
+
+[1333.919 - 1338.6000000000001] excellent
+
+[1336.38 - 1340.64] um I'm just going to trust that this
+
+[1338.6 - 1343.4599999999998] works
+
+[1340.64 - 1345.74] um because I respond with this so the
+
+[1343.46 - 1348.26] vector I don't think it's a numpy array
+
+[1345.74 - 1349.88] so that's fine embedding to list I think
+
+[1348.26 - 1352.4] it's all ready
+
+[1349.88 - 1356.179] yeah
+
+[1352.4 - 1358.22] so embeddings equals so this is already
+
+[1356.179 - 1361.8400000000001] a list I believe so I think this will
+
+[1358.22 - 1361.84] break that's fine
+
+[1361.88 - 1366.5800000000002] and then we zip the pages and embeddings
+
+[1367.46 - 1371.44] oh interesting okay
+
+[1369.679 - 1375.44] we'll see if this is formatted correctly
+
+[1371.44 - 1377.419] and then let's see save it
+
+[1375.44 - 1379.52] so it just replaces the file name that's
+
+[1377.419 - 1382.3400000000001] good
+
+[1379.52 - 1384.559] um with OS but I actually already have a
+
+[1382.34 - 1386.8999999999999] save Json thing so we just have the file
+
+[1384.559 - 1390.32] path and the payload and in this one I
+
+[1386.9 - 1392.539] specify ensure ASCII false sort key is
+
+[1390.32 - 1394.34] true and then indent so this formats it
+
+[1392.539 - 1396.44] nice and pretty
+
+[1394.34 - 1398.72] um so what we'll do instead
+
+[1396.44 - 1399.679] is we'll comment this out and then we'll
+
+[1398.72 - 1403.4] just do
+
+[1399.679 - 1406.159] save Json and what is the order I have
+
+[1403.4 - 1408.5] it file path and payload
+
+[1406.159 - 1411.3200000000002] um so then the file path
+
+[1408.5 - 1414.1] is
+
+[1411.32 - 1414.1] this guy
+
+[1418.22 - 1424.3600000000001] and then the payload is
+
+[1421.22 - 1424.3600000000001] output dict
+
+[1425.24 - 1427.9] yes
+
+[1429.14 - 1434.6000000000001] all right so that should be good now if
+
+[1431.659 - 1437.24] name equals main etc etc so what I want
+
+[1434.6 - 1440.5] to do next is add a little bit of debug
+
+[1437.24 - 1440.5] I want to see what it's doing
+
+[1441.08 - 1445.12] um so what we'll do is
+
+[1446.299 - 1450.32] hmm
+
+[1448.159 - 1452.179] I guess this is just going to be messy
+
+[1450.32 - 1454.52] no matter what we do
+
+[1452.179 - 1457.3600000000001] um so let's add an embedding let's add
+
+[1454.52 - 1457.36] some output here
+
+[1458.24 - 1461.44] um
+
+[1459.26 - 1464.48] so we'll do print
+
+[1461.44 - 1468.159] content to embed
+
+[1464.48 - 1468.159] and then we'll do content
+
+[1468.799 - 1473.44] and then we'll print
+
+[1470.72 - 1473.44] vector
+
+[1475.28 - 1480.6789999999999] Vector all right so that way we'll be
+
+[1477.38 - 1483.8600000000001] able to see it embedding as it goes
+
+[1480.679 - 1485.179] um and that should be fine and then yeah
+
+[1483.86 - 1488.12] that'll be fine
+
+[1485.179 - 1493.179] all right so let's save this and come
+
+[1488.12 - 1493.1789999999999] over here so python step O2
+
+[1494.78 - 1502.3999999999999] um hey look we had it we had a we had a
+
+[1497.72 - 1505.58] an issue Unicode decode error okay in uh
+
+[1502.4 - 1508.539] text F read oh yep
+
+[1505.58 - 1508.539] so here we go
+
+[1511.22 - 1514.58] all right so I'm gonna ask I I know what
+
+[1513.38 - 1519.5800000000002] the problem is but I'm gonna ask chat
+
+[1514.58 - 1519.58] GPT got an error can you fix it
+
+[1527.179 - 1529.9] there we go
+
+[1532.34 - 1537.5] dude so basically it's it's pretty
+
+[1535.76 - 1540.799] simple all you have to do
+
+[1537.5 - 1543.62] is specify
+
+[1540.799 - 1547.039] make sure those are spaces okay yes so
+
+[1543.62 - 1548.84] you specify the encoding is utf-8
+
+[1547.039 - 1551.12] um and so now it knows better all right
+
+[1548.84 - 1553.3999999999999] so let's try that again
+
+[1551.12 - 1556.6999999999998] that
+
+[1553.4 - 1558.8200000000002] that should not go that fast
+
+[1556.7 - 1558.82] um
+
+[1562.22 - 1566.0] okay so the fact that it's going that
+
+[1564.14 - 1569.179] fast and it's not outputting the vector
+
+[1566.0 - 1571.58] means that it's barfing somewhere here
+
+[1569.179 - 1573.799] so let's
+
+[1571.58 - 1576.559] comment out this because it's probably
+
+[1573.799 - 1578.96] returning none
+
+[1576.559 - 1580.34] um which I had I had that uh because
+
+[1578.96 - 1581.419] there was another project that I was
+
+[1580.34 - 1583.8999999999999] working on where some of the things
+
+[1581.419 - 1583.9] failed
+
+[1585.86 - 1591.32] always use notepad
+
+[1588.98 - 1594.8600000000001] um let's see embedding null yeah so you
+
+[1591.32 - 1598.0] see it was not embedding so let's
+
+[1594.86 - 1598.0] delete these
+
+[1598.159 - 1601.24] it worked mostly
+
+[1602.059 - 1606.08] let me close these because they're
+
+[1603.38 - 1608.679] Superfluous and let's see why it's
+
+[1606.08 - 1608.6789999999999] blowing up
+
+[1611.26 - 1616.58] oh
+
+[1613.059 - 1618.32] you need an API key what do you mean I
+
+[1616.58 - 1620.48] need an API key here let me fix this
+
+[1618.32 - 1622.6399999999999] I'll be right back
+
+[1620.48 - 1625.279] okay I think I fixed it so I added this
+
+[1622.64 - 1628.46] here and then I copied my git ignore and
+
+[1625.279 - 1630.86] API key right here so we should be good
+
+[1628.46 - 1632.659] let's give it a one last try and also I
+
+[1630.86 - 1635.4799999999998] did a time check we're at almost 30
+
+[1632.659 - 1637.5200000000002] minutes so this will probably be it for
+
+[1635.48 - 1639.919] today but we're off to a pretty good
+
+[1637.52 - 1642.5] start if I do say so myself
+
+[1639.919 - 1644.8400000000001] all right so let's do let's try and do
+
+[1642.5 - 1647.0] some embeddings that's still seen oh
+
+[1644.84 - 1649.6589999999999] nope it's just that fast look at that
+
+[1647.0 - 1649.659] look at that
+
+[1649.7 - 1653.8600000000001] um all right so let's take a look at the
+
+[1651.5 - 1653.86] output
+
+[1658.22 - 1662.799] oops all right so the embedding
+
+[1663.02 - 1668.6589999999999] so for each page we get embedding page
+
+[1666.44 - 1670.94] number text embedding page number text
+
+[1668.659 - 1672.8600000000001] and then we we keep the original file
+
+[1670.94 - 1674.9] name as well
+
+[1672.86 - 1676.82] um and so this by using this we can
+
+[1674.9 - 1678.5] trace it back to the original PDF as
+
+[1676.82 - 1681.02] well because we're going to basically
+
+[1678.5 - 1683.6] need to be able to cite our sources
+
+[1681.02 - 1685.46] um all right cool so this is tearing
+
+[1683.6 - 1686.779] through this
+
+[1685.46 - 1689.299] um let's see make sure it hasn't blown
+
+[1686.779 - 1690.679] up all right it's still going and so you
+
+[1689.299 - 1692.72] see basically what we're doing is we're
+
+[1690.679 - 1695.24] getting one embedding for every single
+
+[1692.72 - 1697.88] page now there's a lot more that we're
+
+[1695.24 - 1700.039] going to need to do
+
+[1697.88 - 1701.9] um in order to make this usable because
+
+[1700.039 - 1704.96] some of these are like 80 pages long
+
+[1701.9 - 1707.0] which is way too much for it to read so
+
+[1704.96 - 1709.3400000000001] then it's like okay well if you search
+
+[1707.0 - 1711.02] it based on the embedding that'll get
+
+[1709.34 - 1713.1789999999999] you close but then what else do you do
+
+[1711.02 - 1715.4] there's a lot of problems to solve but
+
+[1713.179 - 1717.98] the fact of the matter is this is going
+
+[1715.4 - 1722.1200000000001] to give us basically a super Advanced
+
+[1717.98 - 1724.46] chat based scientific search engine now
+
+[1722.12 - 1726.1999999999998] because I'm also working on cognitive
+
+[1724.46 - 1727.82] architecture we can have it do a lot of
+
+[1726.2 - 1730.039] thinking for you in the background
+
+[1727.82 - 1732.08] that's going to be the real game changer
+
+[1730.039 - 1733.64] not just a chat bot that allows you to
+
+[1732.08 - 1735.86] search but a chat bot that you can ask
+
+[1733.64 - 1738.7990000000002] at scientific questions and it will go
+
+[1735.86 - 1741.26] think about the problem for you
+
+[1738.799 - 1742.46] um so I'm going to let this finish I'm
+
+[1741.26 - 1745.34] going to go ahead and stop the recording
+
+[1742.46 - 1749.14] and we'll come back tomorrow for part
+
+[1745.34 - 1749.1399999999999] two thanks for watching

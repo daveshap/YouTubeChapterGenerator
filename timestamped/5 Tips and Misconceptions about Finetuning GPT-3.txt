@@ -1,0 +1,709 @@
+[1.52 - 5.52] good morning everyone david shapiro here
+
+[4.0 - 7.839] i um
+
+[5.52 - 11.04] i wanted to make a video about
+
+[7.839 - 13.280000000000001] fine tuning with gpt3 um at present my
+
+[11.04 - 17.279] most popular video is about fine-tuning
+
+[13.28 - 19.759999999999998] gpt3 for a specific task but i wrote a
+
+[17.279 - 21.52] post on the open ai community about just
+
+[19.76 - 23.039] some tips and observations that i had
+
+[21.52 - 24.88] about fine-tuning
+
+[23.039 - 27.599] both from my own experiments but from
+
+[24.88 - 30.4] helping other people so for instance
+
+[27.599 - 32.719] i've been approached by lots of people
+
+[30.4 - 36.16] startups and students wanting to get
+
+[32.719 - 38.64] help with fine tuning and uh you know so
+
+[36.16 - 40.8] hey i can just help everyone
+
+[38.64 - 44.719] so let me give you five tips and
+
+[40.8 - 46.48] misconceptions about fine-tuning gpt3
+
+[44.719 - 48.879000000000005] my first tip is
+
+[46.48 - 50.959999999999994] start with normal gpt3 and prompt
+
+[48.879 - 52.879] engineering
+
+[50.96 - 55.6] get good with
+
+[52.879 - 58.64] gpt3 before you jump into fine tuning
+
+[55.6 - 61.52] gpt3 is not like any other tool you've
+
+[58.64 - 64.159] ever used nlp or otherwise
+
+[61.52 - 65.84] it's not like an svm it's not like a
+
+[64.159 - 68.4] regression model it's not even like
+
+[65.84 - 69.84] other neural networks
+
+[68.4 - 72.0] for instance
+
+[69.84 - 74.32000000000001] a lot of people jump in thinking
+
+[72.0 - 77.04] assuming that they need fine tuning when
+
+[74.32 - 79.75899999999999] they haven't even used gpt3 before and i
+
+[77.04 - 81.759] say jump in give it a test drive it's
+
+[79.759 - 83.6] way more powerful than you think it is
+
+[81.759 - 85.68] and so some people just they have their
+
+[83.6 - 88.72] their old school data science mindset
+
+[85.68 - 90.799] like oh i need i need uh you know a data
+
+[88.72 - 92.79899999999999] set i need to you know come up with
+
+[90.799 - 94.64] rules and i'm like just ask it there was
+
+[92.799 - 96.799] one case where um
+
+[94.64 - 99.759] a recent case where someone was trying
+
+[96.799 - 101.84] to scrape dates from unstructured task
+
+[99.759 - 104.24] text and i'm like just ask for the dates
+
+[101.84 - 106.56] you don't need to fine tune anything um
+
+[104.24 - 109.759] pardon me i'm a little bit parched so be
+
+[106.56 - 109.759] drinking my tea while i talk
+
+[110.24 - 113.36] it's still too hot ow
+
+[112.079 - 115.03999999999999] um
+
+[113.36 - 118.64] yeah so
+
+[115.04 - 120.71900000000001] jump into gpt3 plain vanilla gpt3 is way
+
+[118.64 - 124.159] more powerful than you think it is
+
+[120.719 - 126.15899999999999] um it knows a lot more uh it's it's read
+
+[124.159 - 127.43900000000001] you know many gigabytes or terabytes of
+
+[126.159 - 128.8] text i don't even know how much data it
+
+[127.439 - 130.79999999999998] was trained on i've seen different
+
+[128.8 - 131.92000000000002] numbers it depends on who you ask
+
+[130.8 - 134.16000000000003] um
+
+[131.92 - 136.79999999999998] so it's not like anything else when you
+
+[134.16 - 139.2] when you fine tune gpt3 that's actually
+
+[136.8 - 140.72] transfer learning uh which means you're
+
+[139.2 - 142.64] getting the benefit of most of the
+
+[140.72 - 143.92] learning that it's already got
+
+[142.64 - 145.27999999999997] so it doesn't work the way that you
+
+[143.92 - 147.04] think it does unless you've read the
+
+[145.28 - 148.64000000000001] papers and played with it
+
+[147.04 - 151.35999999999999] um
+
+[148.64 - 152.879] let's see oh another thing
+
+[151.36 - 154.16000000000003] this is one of this is a really big
+
+[152.879 - 155.599] misconception
+
+[154.16 - 157.84] is um
+
+[155.599 - 159.44] prompt engineering means you have to be
+
+[157.84 - 160.31900000000002] really good at language
+
+[159.44 - 161.28] uh
+
+[160.319 - 163.11999999999998] and
+
+[161.28 - 165.12] it's really interesting my partner and i
+
+[163.12 - 167.44] my partner is a getting her master's
+
+[165.12 - 169.44] degree in information science so she
+
+[167.44 - 171.68] bridges the gap between humanities and
+
+[169.44 - 174.879] computer science
+
+[171.68 - 177.76000000000002] so if you work with philosophers with
+
+[174.879 - 180.239] writers with digital humanities folks
+
+[177.76 - 181.92] they get it really fast why because they
+
+[180.239 - 183.84] understand language they understand
+
+[181.92 - 186.0] rhetoric they understand using the
+
+[183.84 - 189.68] written word to communicate ideas
+
+[186.0 - 192.72] however you put gpt3 in front of a die
+
+[189.68 - 195.20000000000002] hard math first computer science
+
+[192.72 - 197.76] major and they often can't see the
+
+[195.2 - 200.0] language for the math
+
+[197.76 - 201.599] another way of saying that is they they
+
+[200.0 - 203.84] see the algorithm
+
+[201.599 - 205.35999999999999] first without seeing the implication of
+
+[203.84 - 206.879] the language
+
+[205.36 - 209.12] and it's really interesting to see that
+
+[206.879 - 211.28] like some people put the language first
+
+[209.12 - 213.59900000000002] and some people put the math first so
+
+[211.28 - 216.0] with gpt 3 you don't have to worry about
+
+[213.599 - 218.48] the math so if you came up
+
+[216.0 - 221.92] from you know a hardcore you know
+
+[218.48 - 224.159] computer science algorithmic thinking um
+
+[221.92 - 228.159] that honestly won't help you with using
+
+[224.159 - 231.04] gpt3 and uh so some people ask me like
+
+[228.159 - 232.56] okay well what what what what
+
+[231.04 - 233.92] sorry stuttering
+
+[232.56 - 235.519] um if you've watched some of my other
+
+[233.92 - 237.28] videos you know that i stutter sometimes
+
+[235.519 - 239.28] i don't even identify as a stutterer it
+
+[237.28 - 240.959] just happens sometimes everyone stutters
+
+[239.28 - 243.04] anyways sorry
+
+[240.959 - 245.12] um
+
+[243.04 - 246.959] but i lost my train of thought oh yeah
+
+[245.12 - 250.159] team composition
+
+[246.959 - 252.239] if you want to have a dynamite team
+
+[250.159 - 253.92] using large language models make sure
+
+[252.239 - 255.84] that you've got someone who understands
+
+[253.92 - 258.239] language on your team
+
+[255.84 - 260.479] maybe hire a librarian an english major
+
+[258.239 - 262.4] a philosopher i was working with one
+
+[260.479 - 264.4] startup for a while where
+
+[262.4 - 265.919] they were they all had they all had
+
+[264.4 - 267.35999999999996] humanities training
+
+[265.919 - 270.32] they understood philosophy they
+
+[267.36 - 273.199] understood all sorts of other psychology
+
+[270.32 - 274.0] um psychologists get it really well too
+
+[273.199 - 275.84000000000003] um
+
+[274.0 - 277.6] and they all they understood it i showed
+
+[275.84 - 279.52] them what gpt3 could do and they're like
+
+[277.6 - 281.12] this is amazing and and i see what you
+
+[279.52 - 283.75899999999996] mean like this is capable of
+
+[281.12 - 285.28000000000003] philosophical reasoning um and of course
+
+[283.759 - 286.8] you know you show a philosopher that a
+
+[285.28 - 288.88] machine is capable of philosophical
+
+[286.8 - 290.16] reasoning and they're blown away and you
+
+[288.88 - 292.8] show a computer scientist and they're
+
+[290.16 - 294.40000000000003] like yeah whatever um
+
+[292.8 - 295.6] it's it's just this really weird
+
+[294.4 - 297.44] dichotomy
+
+[295.6 - 298.96000000000004] so higher humanities
+
+[297.44 - 300.479] [Music]
+
+[298.96 - 303.35999999999996] so that's that's all that's all within
+
+[300.479 - 305.199] tip number one start with gpt3 plain
+
+[303.36 - 308.08000000000004] vanilla
+
+[305.199 - 309.91900000000004] number two tip number two
+
+[308.08 - 311.44] building fine tuning data sets is a
+
+[309.919 - 314.08] hundred times more effort than prompt
+
+[311.44 - 316.08] engineering um for that reason alone
+
+[314.08 - 317.75899999999996] start with plain vanilla gpt3 it'll
+
+[316.08 - 319.68] carry you way farther than you think it
+
+[317.759 - 321.039] will
+
+[319.68 - 322.16] if you
+
+[321.039 - 323.28] if you
+
+[322.16 - 326.0] take
+
+[323.28 - 327.919] gpt3 to its limits if you say okay i've
+
+[326.0 - 329.919] worked with this tool for months and i
+
+[327.919 - 332.0] can't get it to do what i need it to do
+
+[329.919 - 333.84] then maybe it's time for fine tuning but
+
+[332.0 - 335.68] even then maybe not i'll get into that
+
+[333.84 - 337.44] in a second um
+
+[335.68 - 341.12] but yeah like building fine tuning data
+
+[337.44 - 343.28] sets it's super super hard um let's see
+
+[341.12 - 344.4] now okay let's assume that you've done
+
+[343.28 - 346.15999999999997] your homework
+
+[344.4 - 347.59999999999997] uh you've decided yes i do need
+
+[346.16 - 349.44] fine-tuning
+
+[347.6 - 352.56] um
+
+[349.44 - 355.199] my first tip is use natural language
+
+[352.56 - 357.36] separators or demarcators to identify
+
+[355.199 - 359.759] where the the prompt begins
+
+[357.36 - 361.6] and the completion uh
+
+[359.759 - 363.44] prompt ends and the completion begins
+
+[361.6 - 365.84000000000003] sorry
+
+[363.44 - 369.12] in the open ai documentation they just
+
+[365.84 - 370.96] use like hashtag
+
+[369.12 - 373.039] and while that can work it's
+
+[370.96 - 376.23999999999995] semantically meaningless
+
+[373.039 - 379.68] so what i usually do is i will add like
+
+[376.24 - 381.84000000000003] just a couple words like if um in my uh
+
+[379.68 - 382.72] in my question generating
+
+[381.84 - 385.28] um
+
+[382.72 - 387.52000000000004] uh fine tuning data set i have like
+
+[385.28 - 390.23999999999995] here's you know a block of text
+
+[387.52 - 393.28] and then i say like ask questions and
+
+[390.24 - 395.84000000000003] then with a with a colon and gpt3 really
+
+[393.28 - 397.35999999999996] learns okay that's where the task begins
+
+[395.84 - 399.75899999999996] and so just like
+
+[397.36 - 401.12] you know one one to five words giving
+
+[399.759 - 404.16] instructions right at the end of the
+
+[401.12 - 406.319] prompt that helps teach gpt 31 what its
+
+[404.16 - 408.08000000000004] task actually is without having to infer
+
+[406.319 - 411.68] what the task is because then you can be
+
+[408.08 - 414.0] very explicit about what its task is
+
+[411.68 - 416.319] but also that it's more semantically
+
+[414.0 - 418.319] meaningful and the reason that semantic
+
+[416.319 - 420.47900000000004] meaning is important is because if you
+
+[418.319 - 422.96000000000004] if you fine-tune a data set to do
+
+[420.479 - 425.199] multiple tasks it needs to differentiate
+
+[422.96 - 426.0] between those tasks because like let's
+
+[425.199 - 427.44] say
+
+[426.0 - 430.24] let's say you're trained you're
+
+[427.44 - 432.0] fine-tuning a chat bot right and you
+
+[430.24 - 435.44] want to you want to train this chat bot
+
+[432.0 - 438.479] to ask questions or provide facts
+
+[435.44 - 441.52] or you know answer questions
+
+[438.479 - 443.75899999999996] so ask or answer questions provide facts
+
+[441.52 - 445.68] or just whatever you need to be able to
+
+[443.759 - 448.24] differentiate what you want your fine
+
+[445.68 - 450.40000000000003] tune model to do and by by using a
+
+[448.24 - 452.319] natural language separator that means
+
+[450.4 - 455.12] that at inference time when it's in
+
+[452.319 - 456.47900000000004] production you can actually switch tasks
+
+[455.12 - 458.56] without you without having to switch
+
+[456.479 - 460.24] between different um
+
+[458.56 - 462.16] fine-tuned models
+
+[460.24 - 464.8] and that will save you a lot of time
+
+[462.16 - 466.72] because let's say you make uh you know
+
+[464.8 - 469.039] one fine-tuned data set that's got 200
+
+[466.72 - 470.879] samples of asking questions and 200
+
+[469.039 - 472.8] samples of answering questions now
+
+[470.879 - 474.08000000000004] you've got one fine-tuned model to use
+
+[472.8 - 475.28000000000003] and you're ready to go you're off to the
+
+[474.08 - 477.599] races
+
+[475.28 - 480.08] um so natural language separators that's
+
+[477.599 - 481.599] uh that's that's a really big one
+
+[480.08 - 482.96] that's number three
+
+[481.599 - 483.84] number four
+
+[482.96 - 486.96] is
+
+[483.84 - 488.0] use gpt3 itself to make synthetic data
+
+[486.96 - 491.039] sets
+
+[488.0 - 493.12] i use this quite extensively gpt3 is
+
+[491.039 - 495.12] able to simulate any kind of
+
+[493.12 - 497.919] conversation
+
+[495.12 - 499.919] and so you can you can either you know
+
+[497.919 - 501.68] scrape web data which is legal there is
+
+[499.919 - 503.919] another
+
+[501.68 - 505.44] what was it ninth district us circuit
+
+[503.919 - 508.08] court
+
+[505.44 - 510.24] just said like yes using scrapes web
+
+[508.08 - 512.3199999999999] data is perfectly legal as long as it's
+
+[510.24 - 514.9590000000001] publicly accessible it's not hacking
+
+[512.32 - 516.6400000000001] it's not theft if someone puts public
+
+[514.959 - 517.4399999999999] data on the internet you're free to use
+
+[516.64 - 519.1999999999999] it
+
+[517.44 - 521.2790000000001] so i scrape reddit
+
+[519.2 - 523.44] public reddit as a way of getting kind
+
+[521.279 - 526.72] of some raw material
+
+[523.44 - 528.6400000000001] but then what you can do is and oh
+
+[526.72 - 530.48] check check the description i've got a
+
+[528.64 - 532.64] public repo with all of my publicly
+
+[530.48 - 534.5600000000001] available fine-tuning data sets so you
+
+[532.64 - 535.92] can go see what i'm talking about
+
+[534.56 - 539.1999999999999] um
+
+[535.92 - 541.04] but by by synthesizing a data set one
+
+[539.2 - 543.36] it's way easier
+
+[541.04 - 546.24] you write a few good really good prompts
+
+[543.36 - 548.0] to say to to generate the kind of output
+
+[546.24 - 549.839] that you want the kind of input and
+
+[548.0 - 551.44] output that you want
+
+[549.839 - 553.9200000000001] and then you're off to the races it
+
+[551.44 - 555.839] takes me you know an hour flat to make a
+
+[553.92 - 557.36] new fine-tuning data set
+
+[555.839 - 560.8000000000001] because it's just it's just a couple of
+
+[557.36 - 562.8000000000001] scripts to take in some raw material
+
+[560.8 - 565.3599999999999] and massage those into
+
+[562.8 - 568.16] prompts which the the latest instruct
+
+[565.36 - 570.32] models instruct series of gpt3 models
+
+[568.16 - 573.04] are really great at generating synthetic
+
+[570.32 - 576.9590000000001] output or synthetic data sets
+
+[573.04 - 578.48] and then you're you're ready to go um
+
+[576.959 - 581.4399999999999] so one thing that i need to say there
+
+[578.48 - 584.08] though is um going back to point one
+
+[581.44 - 585.839] fine-tuning gpt3 is not like
+
+[584.08 - 587.279] conventional ml
+
+[585.839 - 588.399] there was one person on the forum who
+
+[587.279 - 591.2] thought that he needed two hundred
+
+[588.399 - 593.2] thousand samples um to fine-tune gpt
+
+[591.2 - 594.48] three for a good chat bot i said no you
+
+[593.2 - 596.08] need two hundred not two hundred
+
+[594.48 - 597.76] thousand two hundred
+
+[596.08 - 600.32] and i i did the numbers and i was like
+
+[597.76 - 602.079] this is like what a dollar like if you
+
+[600.32 - 604.72] depending on the the model you use it's
+
+[602.079 - 605.68] like 18 cents to fine-tune with 200
+
+[604.72 - 607.44] samples
+
+[605.68 - 610.399] i think if you use davinci it's a dollar
+
+[607.44 - 612.24] eighty right so curie can do most tasks
+
+[610.399 - 614.399] so you fine-tune a curie model it'll be
+
+[612.24 - 617.44] faster and cheaper costs 18 cents to
+
+[614.399 - 618.959] fine-tune with 200 samples
+
+[617.44 - 621.12] and that was like a high water mark
+
+[618.959 - 623.04] that's if you use a thousand tokens per
+
+[621.12 - 624.8] training sample which most of them are
+
+[623.04 - 626.56] going to be a tenth of that
+
+[624.8 - 627.92] because because of how aligned the
+
+[626.56 - 629.1999999999999] models are now
+
+[627.92 - 630.88] um so
+
+[629.2 - 633.44] you know it takes way less data than you
+
+[630.88 - 634.959] think to get started and i proved my
+
+[633.44 - 637.6] point i gave i
+
+[634.959 - 639.5189999999999] that's that that post is actually why i
+
+[637.6 - 642.0] publicly posted my fine tuning data set
+
+[639.519 - 643.92] i said go grab my chat bot um fine
+
+[642.0 - 645.6] tuning data and run it yourself if you
+
+[643.92 - 647.68] don't believe me and he went and he did
+
+[645.6 - 649.0400000000001] he said this is impressive he said you
+
+[647.68 - 650.4799999999999] know there's still some problems but it
+
+[649.04 - 652.56] performs way better than i thought it
+
+[650.48 - 654.16] would on just 200 samples
+
+[652.56 - 657.1999999999999] um so
+
+[654.16 - 659.04] yes and i used gpt3 to make the fine
+
+[657.2 - 660.88] tuning set and then i went and manually
+
+[659.04 - 662.64] cleaned it up by hand
+
+[660.88 - 665.2] that's way faster than doing a whole
+
+[662.64 - 666.56] data set by hand
+
+[665.2 - 668.24] number five
+
+[666.56 - 671.8389999999999] fine tuning tends to increase
+
+[668.24 - 673.839] consistency at the cost of creativity
+
+[671.839 - 676.32] sometimes that's what you need because
+
+[673.839 - 677.44] gpt3 on its own can be really creative
+
+[676.32 - 679.7600000000001] right
+
+[677.44 - 682.0] gpt3 is able to
+
+[679.76 - 684.56] adopt any mental framework you can tell
+
+[682.0 - 686.0] it like pretend to be yosemite sam as
+
+[684.56 - 687.76] looney tunes back in the day that's
+
+[686.0 - 689.2] dating myself
+
+[687.76 - 690.56] it can pretend to be bugs bunny
+
+[689.2 - 692.399] spiderman
+
+[690.56 - 694.8] you can talk to it about philosophy you
+
+[692.399 - 696.399] can talk to it about racism
+
+[694.8 - 700.079] it can take the perspective of different
+
+[696.399 - 701.68] religions right so plain vanilla gpt3 is
+
+[700.079 - 704.0] really creative it's more creative than
+
+[701.68 - 706.079] any 10 humans
+
+[704.0 - 709.36] but fine tuning because you're going to
+
+[706.079 - 711.3599999999999] show it a bunch of data set samples from
+
+[709.36 - 713.76] a particular perspective it'll kind of
+
+[711.36 - 715.279] lose those other perspectives
+
+[713.76 - 717.6] so just keep that in mind if you're
+
+[715.279 - 719.6] trying to do a creative task prompt
+
+[717.6 - 722.639] engineering is going to be better than
+
+[719.6 - 724.8000000000001] fine tuning but if you if you really do
+
+[722.639 - 726.32] need consistency and a lot of tasks do
+
+[724.8 - 728.959] i'm not saying that this is a bad thing
+
+[726.32 - 732.48] just something to be in keep in mind
+
+[728.959 - 733.1999999999999] is if you want if you want your gpt3 app
+
+[732.48 - 734.9590000000001] to
+
+[733.2 - 737.2] be able to provide really creative
+
+[734.959 - 739.4399999999999] answers or solutions fine tuning is
+
+[737.2 - 742.1600000000001] going to reduce that ability
+
+[739.44 - 744.48] whereas if you need something to be very
+
+[742.16 - 746.56] consistent like if there's a particular
+
+[744.48 - 749.6] format to follow that's where fine
+
+[746.56 - 751.5189999999999] tuning really shines so yeah five tips
+
+[749.6 - 753.839] for uh five tips and misconceptions
+
+[751.519 - 755.6] about gpt3 and fine tuning i hope you
+
+[753.839 - 759.5600000000001] found this helpful thanks for watching
+
+[755.6 - 759.5600000000001] oh also like and subscribe

@@ -1,0 +1,551 @@
+[0.08 - 5.359] all right so I know that M GPT and a few
+
+[3.439 - 7.279] other things are all the rage right now
+
+[5.359 - 8.92] and I've gotten a lot of comments of
+
+[7.279 - 10.92] people wanting me to talk about it and I
+
+[8.92 - 12.799] haven't talked about it and the reason
+
+[10.92 - 14.44] is because I figured this out months ago
+
+[12.799 - 16.0] and I posted about it and people seem to
+
+[14.44 - 18.52] have forgotten so I am here to remind
+
+[16.0 - 20.64] you that this is a much easier solution
+
+[18.52 - 22.279] than mem GPT and it is much more
+
+[20.64 - 23.92] powerful and you can use it right now
+
+[22.279 - 25.92] and it is called sparse priming
+
+[23.92 - 27.679000000000002] representations so you can see that I
+
+[25.92 - 30.119] first uh recorded sparse priming
+
+[27.679 - 31.639999999999997] representation 7 months ago you can come
+
+[30.119 - 33.92] out and read the repo it's all free it's
+
+[31.64 - 36.8] under Dave shap sparse priming
+
+[33.92 - 37.96] representations the tldr and I'll go
+
+[36.8 - 39.959999999999994] into a little bit more detail in
+
+[37.96 - 42.32] examples in just a moment but the tldr
+
+[39.96 - 44.96] is that language models work in a very
+
+[42.32 - 47.399] similar way to human brains in this one
+
+[44.96 - 50.199] particular way and that is that they are
+
+[47.399 - 53.239000000000004] uh associative so semantic associations
+
+[50.199 - 57.32] mean that all I need to do is tell you
+
+[53.239 - 59.32] uh let's say um the Golden Age of Rome
+
+[57.32 - 61.559] so three words golden age of Rome and
+
+[59.32 - 63.8] what does that do do that conjures up
+
+[61.559 - 65.51899999999999] millions of other ideas facts and images
+
+[63.8 - 67.64] for your brain because those three words
+
+[65.519 - 70.88000000000001] are associated with a lot of other stuff
+
+[67.64 - 73.08] in your head this is what we call a
+
+[70.88 - 75.03999999999999] mental model now large language models
+
+[73.08 - 76.72] have lots of mental models as has been
+
+[75.04 - 78.32000000000001] proven by the scientific literature they
+
+[76.72 - 80.79899999999999] have theory of mind they have planning
+
+[78.32 - 82.36] they have reasoning they have logic and
+
+[80.799 - 84.0] yeah I know that there are some flaws
+
+[82.36 - 85.67999999999999] with the logic but you know what humans
+
+[84.0 - 88.84] have flawed logic too so that's an
+
+[85.68 - 90.52000000000001] arbitrary standard anyways so because
+
+[88.84 - 93.0] large language models have semantic
+
+[90.52 - 94.72] associations just like human brains all
+
+[93.0 - 96.6] you need to do is give it shorthand
+
+[94.72 - 99.15899999999999] notes in order to remind it of stuff
+
+[96.6 - 101.24] that it already knows and so with stuff
+
+[99.159 - 102.88000000000001] like mgpt where you're constantly doing
+
+[101.24 - 104.36] these really complex Loops to try and
+
+[102.88 - 106.52] distill stuff and figure out what you
+
+[104.36 - 109.079] need and blah blah blah like no that's
+
+[106.52 - 111.28] so dumb what you're trying to do with
+
+[109.079 - 113.63999999999999] memory with retrieval is you're trying
+
+[111.28 - 116.32000000000001] to create an internal state in the
+
+[113.64 - 119.43900000000001] language model that is good enough to be
+
+[116.32 - 122.32] useful in the future and so the idea is
+
+[119.439 - 124.439] well here let me just show you the um
+
+[122.32 - 126.27999999999999] the uh CH the custom instruction that I
+
+[124.439 - 128.35999999999999] got so I'll just read this to you real
+
+[126.28 - 130.479] quick because this is kind of the depth
+
+[128.36 - 132.12] of the theory so sparse priming
+
+[130.479 - 133.87900000000002] representations there are only a handful
+
+[132.12 - 135.959] of ways to teach large language models
+
+[133.879 - 137.51899999999998] and all have limitations and strengths
+
+[135.959 - 139.8] first is initial bulk training this is
+
+[137.519 - 141.68] ludicrously expensive and not practical
+
+[139.8 - 143.20000000000002] number two is fine tuning fine tuning is
+
+[141.68 - 145.20000000000002] not necessarily useful for knowledge
+
+[143.2 - 147.319] retrieval maybe that changes in the
+
+[145.2 - 148.72] future as fine-tuning techniques advance
+
+[147.319 - 150.83999999999997] but you don't use fine-tuning for
+
+[148.72 - 152.239] knowledge retrieval people have
+
+[150.84 - 153.44] by now it seems like they've accepted
+
+[152.239 - 156.20000000000002] that because now the focus is on
+
+[153.44 - 158.16] retrieval augmented generation rag
+
+[156.2 - 160.0] online learning so online learning is
+
+[158.16 - 161.599] the idea that maybe the language model
+
+[160.0 - 163.8] will continuously learn based on what
+
+[161.599 - 165.56] you feed it we'll see if that pans out
+
+[163.8 - 167.68] as far as I know there's no commercially
+
+[165.56 - 170.31900000000002] viable options for that yet and then
+
+[167.68 - 171.959] finally in context learning in context
+
+[170.319 - 174.0] learning is literally the only way to
+
+[171.959 - 175.959] teach models anything that is outside of
+
+[174.0 - 178.519] its training distribution everything
+
+[175.959 - 180.92000000000002] else is just window dressing um so
+
+[178.519 - 182.4] because of all this uh rag retrieval
+
+[180.92 - 184.2] augmented generation is all the rage
+
+[182.4 - 185.92000000000002] right now tools like vector databases
+
+[184.2 - 188.0] and knowledge graphs are being used but
+
+[185.92 - 190.2] you qu you quickly fill up the context
+
+[188.0 - 192.08] window with dumb retrieval and so what I
+
+[190.2 - 195.23899999999998] mean by dumb retrieval is you just try
+
+[192.08 - 197.56] and match whatever is in the context to
+
+[195.239 - 200.12] an arbitrary number of nodes in your
+
+[197.56 - 202.2] knowledge graph or your vector database
+
+[200.12 - 203.959] and then you just fill it all in now in
+
+[202.2 - 207.11999999999998] the long run I suspect that we're going
+
+[203.959 - 209.36] to have language models that are big
+
+[207.12 - 212.04] enough that you can just say like here's
+
+[209.36 - 213.87900000000002] 10, KB articles uh read them all and
+
+[212.04 - 216.0] tell me what's relevant you know you
+
+[213.879 - 218.2] look at LM infinite you look at uh
+
+[216.0 - 219.56] Microsoft Longet eventually we're going
+
+[218.2 - 221.39999999999998] to have that but there's still always
+
+[219.56 - 223.519] going to be costs associated with those
+
+[221.4 - 224.959] gigantic context windows so you're
+
+[223.519 - 227.64000000000001] always going to need to figure out how
+
+[224.959 - 229.04] to distill knowledge so one of the most
+
+[227.64 - 230.35999999999999] common questions I get is Dave how do
+
+[229.04 - 231.72] you overcome the context window
+
+[230.36 - 233.15900000000002] limitations the sword answer is you
+
+[231.72 - 236.4] don't stop wasting your time trying to
+
+[233.159 - 239.439] do it it is a algorithmic limitation you
+
+[236.4 - 241.4] have you know 20,000 tokens or 100,000
+
+[239.439 - 243.879] tokens tokens you have those tokens
+
+[241.4 - 246.72] that's it stop trying to get around it
+
+[243.879 - 249.2] um it's like trying to stuff 10 pounds
+
+[246.72 - 252.12] of stuff in a 5 pound bag you know the
+
+[249.2 - 254.56] saying it's just not going to work um
+
+[252.12 - 256.32] now okay there is one giant asterisk
+
+[254.56 - 257.799] here though most of the techniques out
+
+[256.32 - 259.479] there do not make use of the best
+
+[257.799 - 262.15999999999997] superpower that Lage language models
+
+[259.479 - 263.28] have latent space no one else seems to
+
+[262.16 - 265.6] understand that there is one huge way
+
+[263.28 - 267.75899999999996] that llms work similar to human Minds
+
+[265.6 - 269.28000000000003] associative learning here's the story I
+
+[267.759 - 271.32] realized a long time ago that with just
+
+[269.28 - 273.28] a few words you could Prime the llms to
+
+[271.32 - 274.52] think in a certain way I did a bunch of
+
+[273.28 - 276.4] experiments and I found that you can
+
+[274.52 - 278.24] prime models to even understand complex
+
+[276.4 - 279.84] novel ideas that were outside its
+
+[278.24 - 281.8] training distribution for instance I
+
+[279.84 - 283.23999999999995] taught the models some of my Concepts
+
+[281.8 - 285.12] like heuristic imperatives the ace
+
+[283.24 - 286.6] framework terminal race condition and a
+
+[285.12 - 289.12] bunch of other stuff that I made up that
+
+[286.6 - 291.52000000000004] is absolutely outside of the uh training
+
+[289.12 - 293.759] data these sprs are the most token
+
+[291.52 - 296.0] efficient way to convey complex Concepts
+
+[293.759 - 297.72] to models for in context learning what
+
+[296.0 - 299.88] you do is you compress huge blocks of
+
+[297.72 - 302.40000000000003] information be IT company data Chat lock
+
+[299.88 - 303.639] specific events or whatever into sprs
+
+[302.4 - 306.15999999999997] and then you store the spr in the
+
+[303.639 - 308.639] metadata of your uh Knowledge Graph node
+
+[306.16 - 310.56] or in your vector store whatever and
+
+[308.639 - 312.6] then the spr is what you inject at
+
+[310.56 - 316.12] inference time not the human readable
+
+[312.6 - 318.319] data so then I I created a uh a a system
+
+[316.12 - 321.479] window that you can use to compress uh
+
+[318.319 - 324.03900000000004] pretty much anything into an spr now the
+
+[321.479 - 326.24] um let's see where is it so you can read
+
+[324.039 - 328.199] the original Theory under sparse priming
+
+[326.24 - 329.8] representations um I did add the system
+
+[328.199 - 332.8] message here as well so you can just
+
+[329.8 - 335.44] copy paste this into um into the chat
+
+[332.8 - 337.759] GPT either the custom instructions or
+
+[335.44 - 339.08] the system window in the API subm
+
+[337.759 - 341.28000000000003] Mission you are a sparse priming
+
+[339.08 - 344.8] representation writer and spr is a
+
+[341.28 - 346.75899999999996] particular kind of use uh uh is a
+
+[344.8 - 349.639] particular kind of use of language for
+
+[346.759 - 351.36] advanced NLP nlu and nlg tasks so again
+
+[349.639 - 353.759] this is itself a sparse priming
+
+[351.36 - 356.039] representation I'm giving it a term and
+
+[353.759 - 358.52000000000004] I'm labeling it I'm saying spr so now it
+
+[356.039 - 362.039] knows what an spr is and I'm associating
+
+[358.52 - 364.52] spr this novel term with NLP nlu and nlg
+
+[362.039 - 366.88] so it understands okay cool we're we're
+
+[364.52 - 370.639] very deliberately activating certain
+
+[366.88 - 372.0] associations inside of GPT uh
+
+[370.639 - 373.44] particularly useful for the latest
+
+[372.0 - 375.72] generation of large language models
+
+[373.44 - 377.199] again I'm giving it an association you
+
+[375.72 - 380.44000000000005] will be given information by the user
+
+[377.199 - 382.44] which you are to render as an spr Theory
+
+[380.44 - 385.759] llms are are a kind of deep neural
+
+[382.44 - 387.4] network GPT often gets llms wrong
+
+[385.759 - 389.28000000000003] because for whatever reason open AI
+
+[387.4 - 391.75899999999996] decided not to teach it about AI cuz you
+
+[389.28 - 393.35999999999996] know maybe it'll escape the lab whatever
+
+[391.759 - 395.12] um they have been demonstrated to embed
+
+[393.36 - 396.52000000000004] knowledge abilities and Concepts ranging
+
+[395.12 - 398.68] from reasoning to planning and even to
+
+[396.52 - 401.68] theory of mind so I'm I'm giving it an
+
+[398.68 - 403.8] une unequivocal assertion this is what
+
+[401.68 - 405.919] an llm is I'm not telling it you're an
+
+[403.8 - 407.44] llm because then it'll get all bent out
+
+[405.919 - 409.52] of shape and say well as an AI language
+
+[407.44 - 411.71999999999997] model but I'm like no this is what llms
+
+[409.52 - 413.12] are and this is what llms are capable of
+
+[411.72 - 415.0] these are called latent abilities and
+
+[413.12 - 417.12] latent content collectively referred to
+
+[415.0 - 418.919] as latent space the latent space of an
+
+[417.12 - 420.96] llm can be activated with the correct
+
+[418.919 - 422.68] series of words as inputs which will
+
+[420.96 - 425.44] create a useful internal state of the
+
+[422.68 - 427.16] neural network this is not unlike how
+
+[425.44 - 429.199] the right shorthand cues can prime a
+
+[427.16 - 431.68] human mind to think in a certain way
+
+[429.199 - 434.52000000000004] like humans llms are associative again
+
+[431.68 - 436.84000000000003] very very specific use of words by by
+
+[434.52 - 438.28] giving it the word associative and you
+
+[436.84 - 440.31899999999996] know human minds and all these other
+
+[438.28 - 441.28] things it's now thinking in a certain
+
+[440.319 - 443.36] way
+
+[441.28 - 444.96] internally meaning you only need to use
+
+[443.36 - 447.36] the correct associations to Prime
+
+[444.96 - 449.35999999999996] another model to think in the same way
+
+[447.36 - 451.039] uh methodology render the input as a
+
+[449.36 - 453.96000000000004] distilled list of succinct statements so
+
+[451.039 - 455.919] this is again uh very very specific
+
+[453.96 - 457.96] verbs and adjectives rendered distilled
+
+[455.919 - 459.84] succinct statements assertions
+
+[457.96 - 462.08] associations Concepts analogies and
+
+[459.84 - 464.19899999999996] metaphors the idea is to capture as much
+
+[462.08 - 465.75899999999996] conceptually as possible but with as few
+
+[464.199 - 467.56] words as possible write it in a way that
+
+[465.759 - 469.199] makes sense to you as the future
+
+[467.56 - 472.639] audience will be another language model
+
+[469.199 - 474.56] not a human okay so I just gave a lot to
+
+[472.639 - 477.599] you here's an example so I took that
+
+[474.56 - 479.919] mission statement on gp4 temperature Z
+
+[477.599 - 481.56] and I gave it about half of my Ace
+
+[479.919 - 484.08] framework so you can see here's a
+
+[481.56 - 486.159] tremendous amount of text and then what
+
+[484.08 - 488.19899999999996] it spits out is just a list of
+
+[486.159 - 490.08] statements and this list of statements
+
+[488.199 - 491.639] if you read it you like okay cool you
+
+[490.08 - 493.84] know Ace framework blueprint for
+
+[491.639 - 495.68] Architects task prosecution layer so
+
+[493.84 - 498.31899999999996] then what you do is you take this SP
+
+[495.68 - 499.56] which took you know you you can get you
+
+[498.319 - 502.44] can in this case it looks like you get
+
+[499.56 - 504.4] about 20 to one um compression and so
+
+[502.44 - 507.199] then you take the SP and you say okay
+
+[504.4 - 510.4] cool let's clear all this
+
+[507.199 - 514.88] out and then you say um
+
+[510.4 - 519.56] um uh let's see the following is an
+
+[514.88 - 522.24] spr sparse priming
+
+[519.56 - 524.1199999999999] representation um and I what I'll do is
+
+[522.24 - 526.08] I'll actually add a second uh system
+
+[524.12 - 527.76] message by the time you see this so that
+
+[526.08 - 531.36] you can actually have a have a system
+
+[527.76 - 535.3199999999999] message to unpack sprs um unpack this
+
+[531.36 - 535.32] into its full
+
+[536.36 - 540.399] content and so you can see what it's
+
+[538.399 - 543.88] doing is it's basic basically a form of
+
+[540.399 - 545.36] semantic compression um so because
+
+[543.88 - 547.56] because large language models are
+
+[545.36 - 549.64] associative all I needed to do was give
+
+[547.56 - 552.4399999999999] it enough details about something and
+
+[549.64 - 555.3199999999999] now it can reconstruct the original idea
+
+[552.44 - 558.5600000000001] this is far and way the best token
+
+[555.32 - 560.24] efficient way of uh of conveying things
+
+[558.56 - 562.5189999999999] now obviously this is not quite as long
+
+[560.24 - 566.64] but you can also then ask questions um
+
+[562.519 - 568.12] let's see how does uh it handle ethical
+
+[566.64 - 570.92] uh decision
+
+[568.12 - 572.48] making ethical decision- making is
+
+[570.92 - 574.24] primarily handled by the aspirational
+
+[572.48 - 576.64] layer uh this layer provides it blah
+
+[574.24 - 578.64] blah blah now there are a few details um
+
+[576.64 - 582.04] that are that are missing from this
+
+[578.64 - 584.519] thing but again um when you get when you
+
+[582.04 - 586.64] get a a a representation that is that
+
+[584.519 - 588.8] efficient um you can play around with it
+
+[586.64 - 591.24] and you can also have multiple sprs
+
+[588.8 - 594.0] Associated uh with with various Concepts
+
+[591.24 - 595.48] or nested in the metadata so anyways
+
+[594.0 - 597.56] thanks for watching I hope you got a lot
+
+[595.48 - 599.76] out of this uh yeah now stop asking me
+
+[597.56 - 604.399] about mgpt come on this this is this is
+
+[599.76 - 604.399] kid stuff sprs are the way to go bye

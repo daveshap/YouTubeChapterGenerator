@@ -1,0 +1,485 @@
+[0.78 - 6.48] hey gang David Shapiro here introducing
+
+[3.6 - 10.139] a new repo that I'm working on
+
+[6.48 - 12.420000000000002] so this is uh as many of you are aware
+
+[10.139 - 15.299] I've been working with fiction and
+
+[12.42 - 18.6] language models for quite a while
+
+[15.299 - 20.22] um and this one is uh my chapter
+
+[18.6 - 22.5] summarizer
+
+[20.22 - 24.358999999999998] so what does it do I can't show you the
+
+[22.5 - 26.58] end result because it's private it's for
+
+[24.359 - 28.32] for my novel but you're welcome to run
+
+[26.58 - 30.598999999999997] it yourself and you can also test it in
+
+[28.32 - 34.86] the playground if you've got access to
+
+[30.599 - 39.3] the chat API and gpt4 it will not work
+
+[34.86 - 41.04] anywhere else because of the um and
+
+[39.3 - 42.98] actually it might only work with the API
+
+[41.04 - 47.76] I haven't actually tried it in here
+
+[42.98 - 50.16] but the gpt4 API will give you 8 000
+
+[47.76 - 52.079] tokens which if you write longer
+
+[50.16 - 54.059] chapters like I do which is four to five
+
+[52.079 - 55.14] thousand words you need that 8 000
+
+[54.059 - 58.559] tokens
+
+[55.14 - 60.3] and so the idea though is I wanted a way
+
+[58.559 - 63.78] to get really good feedback really
+
+[60.3 - 68.03999999999999] quickly and I tried for months and
+
+[63.78 - 70.979] months with the 4000 token limit and if
+
+[68.04 - 74.06] you summarizing the chapter could work
+
+[70.979 - 74.06] but not always
+
+[74.1 - 79.08] um and so anyways the final result is
+
+[75.96 - 81.29899999999999] now that I've got access to the gpt4 API
+
+[79.08 - 83.82] I just created this and suddenly
+
+[81.299 - 86.34] everything is infinite excuse me
+
+[83.82 - 87.65899999999999] infinitely easier kind of hiccups
+
+[86.34 - 90.659] um but yeah so let me walk you through
+
+[87.659 - 93.06] this um I do have instructions here
+
+[90.659 - 95.04] um but yeah so what you'll need to do is
+
+[93.06 - 97.56] you'll need to create your API key here
+
+[95.04 - 101.52000000000001] and then you'll also need to create your
+
+[97.56 - 104.10000000000001] folders here so the um the chapters dot
+
+[101.52 - 109.79899999999999] doc so put all of your chapters in here
+
+[104.1 - 112.02] as word docs and then uh this this Pi uh
+
+[109.799 - 114.78] Powershell script will summer or sorry
+
+[112.02 - 117.119] convert them to text then that'll
+
+[114.78 - 119.399] they'll end up here and then finally you
+
+[117.119 - 120.18] run the second one to summarize and it
+
+[119.399 - 122.64] will
+
+[120.18 - 126.119] um jump drop the summaries here
+
+[122.64 - 128.88] uh so the the the the linchpin of this
+
+[126.119 - 130.8] is this prompt here so this is this is
+
+[128.88 - 132.9] the primary thing that you're trying to
+
+[130.8 - 134.16000000000003] achieve please write an executive
+
+[132.9 - 135.9] summary of the following chapter
+
+[134.16 - 138.42] followed by a list of the most Salient
+
+[135.9 - 140.16] details from the chapter saline details
+
+[138.42 - 141.78] should include uh chapter development
+
+[140.16 - 143.819] plot advancement important World
+
+[141.78 - 145.44] building details and any thematic
+
+[143.819 - 148.79999999999998] elements those are the four primary
+
+[145.44 - 150.12] pillars of good fiction of well all
+
+[148.8 - 152.04000000000002] stories
+
+[150.12 - 154.31900000000002] um please write the list of details in
+
+[152.04 - 156.54] complete sentences next please provide
+
+[154.319 - 158.04] some developmental feedback what is the
+
+[156.54 - 159.9] one biggest thing wrong with this
+
+[158.04 - 162.0] chapter what is the first and biggest
+
+[159.9 - 164.76000000000002] thing I need to work on as the author
+
+[162.0 - 166.56] finally please provide prose feedback by
+
+[164.76 - 170.22] focusing on the dialogue Exposition
+
+[166.56 - 172.92000000000002] interiority action and I should actually
+
+[170.22 - 175.739] change this to description
+
+[172.92 - 177.29999999999998] um sorry you should avoid Exposition if
+
+[175.739 - 179.04] you can
+
+[177.3 - 181.86] um but description is good
+
+[179.04 - 184.07999999999998] uh so I made that mistake there so
+
+[181.86 - 187.20000000000002] anyways the first script is super simple
+
+[184.08 - 189.36] it just passes in its Powershell because
+
+[187.2 - 190.98] if you're using Microsoft Word you can
+
+[189.36 - 193.14000000000001] do this part manually too if you want
+
+[190.98 - 195.599] like if you're if you're writing your
+
+[193.14 - 197.7] your chapter somewhere else you can copy
+
+[195.599 - 201.23899999999998] them out to text files doesn't matter
+
+[197.7 - 204.78] but for this draft I am doing it all as
+
+[201.239 - 208.019] one chapter per Word document
+
+[204.78 - 210.239] um just for cleanliness sake
+
+[208.019 - 212.64000000000001] um and that's what this does so it'll
+
+[210.239 - 214.92000000000002] drop it all here into chapters text and
+
+[212.64 - 217.44] then I run the second script which is
+
+[214.92 - 218.099] really really straightforward
+
+[217.44 - 221.22] um
+
+[218.099 - 223.73899999999998] all it does is in the main Loop we set
+
+[221.22 - 227.459] the API key we get the chapters
+
+[223.739 - 228.72] underscore text we get the summaries if
+
+[227.459 - 231.36] it doesn't make it it'll make the
+
+[228.72 - 233.099] directory for you which is nice
+
+[231.36 - 235.799] um and then what it does so here's a
+
+[233.099 - 237.959] couple things to to pay attention to
+
+[235.799 - 240.959] um if the if the program barfs in the
+
+[237.959 - 243.12] middle you don't want to redo everything
+
+[240.959 - 245.94] um so it'll it'll skip it if it's
+
+[243.12 - 247.26] already been summarized so then it'll
+
+[245.94 - 250.5] tell you the file that it's reading
+
+[247.26 - 253.5] it'll open the chapter it will populate
+
+[250.5 - 256.56] the prompt right here and then it will
+
+[253.5 - 259.38] create the conversation so as of right
+
+[256.56 - 260.94] now gpt4 is only available at the chat
+
+[259.38 - 263.52] completion endpoint I don't I think
+
+[260.94 - 266.4] they're moving away from from the
+
+[263.52 - 269.58] original completions endpoint entirely I
+
+[266.4 - 271.79999999999995] don't know but anyways so I give it the
+
+[269.58 - 273.0] the system role is I'm a fiction writing
+
+[271.8 - 274.62] assistant who will always provide
+
+[273.0 - 277.62] thorough professional and detailed help
+
+[274.62 - 280.38] it's pretty pretty straightforward you
+
+[277.62 - 282.6] can probably play with this if you want
+
+[280.38 - 286.919] um especially if you wanted to take some
+
+[282.6 - 289.02000000000004] elements of the instructions out but uh
+
+[286.919 - 291.24] you know there's there's been some like
+
+[289.02 - 293.03999999999996] in some of the documentation it says
+
+[291.24 - 294.90000000000003] that it doesn't pay as much attention to
+
+[293.04 - 298.02000000000004] the system message
+
+[294.9 - 301.13899999999995] um as the as the user message so what I
+
+[298.02 - 302.58] do is I have the I just have this so it
+
+[301.139 - 305.1] knows that I am a fiction writing
+
+[302.58 - 306.65999999999997] assistant okay great and then I I put
+
+[305.1 - 308.58000000000004] the prompt in
+
+[306.66 - 311.16] um and because I'm using the gpt4
+
+[308.58 - 314.639] endpoint with 8 000 tokens it can read
+
+[311.16 - 316.97900000000004] the entire uh chapter so then I get the
+
+[314.639 - 318.66] summary and then I save out the summary
+
+[316.979 - 320.639] it is that simple it's brain dead simple
+
+[318.66 - 322.8] now there's a couple other things that I
+
+[320.639 - 324.6] added so
+
+[322.8 - 327.0] um the first time I ran this it ended up
+
+[324.6 - 330.12] failing because of
+
+[327.0 - 333.78] um error rate or uh usage rates so gpt4
+
+[330.12 - 336.3] is presently super super constrained and
+
+[333.78 - 337.55999999999995] so what I did was I added an exponential
+
+[336.3 - 340.32] back off
+
+[337.56 - 343.08] so that if you get an error the first
+
+[340.32 - 345.9] time it'll wait five seconds then 10
+
+[343.08 - 349.19899999999996] seconds then 20 and so on and I have it
+
+[345.9 - 350.58] uh it'll retry up to six times
+
+[349.199 - 352.979] um waiting longer and longer between
+
+[350.58 - 354.65999999999997] each time after I Incorporated this I
+
+[352.979 - 357.06] didn't have any trouble
+
+[354.66 - 358.97900000000004] um but that you know it is what it is
+
+[357.06 - 362.46] um another thing that I had to modify
+
+[358.979 - 364.86] was for whatever reason converting from
+
+[362.46 - 366.78] word doc to text
+
+[364.86 - 369.18] um still produce some UTF errors on
+
+[366.78 - 371.63899999999995] occasion on only like a couple files so
+
+[369.18 - 373.62] I added the ignore here so but here's
+
+[371.639 - 377.699] the thing is gpt3 doesn't care if you've
+
+[373.62 - 380.46] got a couple of erroneous characters the
+
+[377.699 - 382.199] big thing is that um oh actually I
+
+[380.46 - 385.38] didn't include it here
+
+[382.199 - 388.319] um was the force ASCII in code decode
+
+[385.38 - 390.65999999999997] but it haven't had any trouble since so
+
+[388.319 - 393.12] I think that's it
+
+[390.66 - 396.36] um yeah and here let me go back to the
+
+[393.12 - 397.86] repo oh so a couple other things like I
+
+[396.36 - 399.66] said I'm not sure if it'll work here
+
+[397.86 - 401.28000000000003] because I look at the maximum length of
+
+[399.66 - 402.6] 2048
+
+[401.28 - 405.539] um so I don't think that they're giving
+
+[402.6 - 407.52000000000004] you the full 8 000 tokens here
+
+[405.539 - 409.56] um so I don't I don't think you can
+
+[407.52 - 412.08] actually test it in the playground but
+
+[409.56 - 413.759] also this is expensive so I had to
+
+[412.08 - 417.06] restart it a few times so it's actually
+
+[413.759 - 418.62] about half this but half my novel or
+
+[417.06 - 420.84] just over half my novel cost about
+
+[418.62 - 423.539] somewhere between four and eight dollars
+
+[420.84 - 425.039] to review
+
+[423.539 - 427.259] um which in the grand scheme of things
+
+[425.039 - 428.88] is hella cheap because it's like four
+
+[427.259 - 430.68] dollars who cares
+
+[428.88 - 432.65999999999997] um but then you compare that to like you
+
+[430.68 - 434.639] know some of the other tasks that you
+
+[432.66 - 437.94] guys have seen me do it cost me 43 cents
+
+[434.639 - 439.8] right so because of the volume of the
+
+[437.94 - 441.3] text that it's reading it is a lot more
+
+[439.8 - 443.46000000000004] expensive
+
+[441.3 - 446.759] um still it's way cheaper than a full
+
+[443.46 - 448.85999999999996] editor now that being said I added some
+
+[446.759 - 451.74] some notes here at the end because I
+
+[448.86 - 454.819] paid a high-end Editor to help me with
+
+[451.74 - 456.96000000000004] my story and that experience was still
+
+[454.819 - 459.12] worthwhile even though it was like
+
+[456.96 - 461.94] Seventeen hundred dollars I paid a human
+
+[459.12 - 464.4] to read it and to understand what I was
+
+[461.94 - 465.71999999999997] what I was trying to achieve now that
+
+[464.4 - 469.67999999999995] being said
+
+[465.72 - 472.259] once Jeep once we get the 32 000 token
+
+[469.68 - 475.08] um endpoint which I I haven't tested
+
+[472.259 - 478.139] that yet or you know as fast as it's
+
+[475.08 - 481.25899999999996] ramping up because 32 000 is eight times
+
+[478.139 - 483.3] more than the four thousand token so who
+
+[481.259 - 485.88] knows by the end of the summer we might
+
+[483.3 - 489.3] be at 300 000 tokens which is more than
+
+[485.88 - 491.039] enough to read an entire novel right so
+
+[489.3 - 494.099] I don't know what's going to happen to
+
+[491.039 - 496.02] the professional editing industry nor
+
+[494.099 - 498.96] the fiction industry I think we're going
+
+[496.02 - 502.02] to end up with a lot of books out there
+
+[498.96 - 503.87899999999996] um but anyways it is what it is so
+
+[502.02 - 506.69899999999996] um yeah it provides some developmental
+
+[503.879 - 511.199] feedback as well as Pros feedback so
+
+[506.699 - 513.539] when I was using chat gbt to work on the
+
+[511.199 - 514.74] um Cornelia valyria storied my Ascension
+
+[513.539 - 517.8] novel
+
+[514.74 - 520.08] after I got the first chapter written
+
+[517.8 - 522.659] um which I deleted that video because it
+
+[520.08 - 525.36] was a hot mess but the thing that I
+
+[522.659 - 526.8] realized was that asking chat GPT what
+
+[525.36 - 529.5600000000001] is the biggest problem with this chapter
+
+[526.8 - 532.019] is actually the best way to to get it to
+
+[529.56 - 534.3599999999999] give you developmental feedback because
+
+[532.019 - 535.62] there's usually going to be only one big
+
+[534.36 - 537.54] problem
+
+[535.62 - 540.48] um but also you can only focus on one
+
+[537.54 - 542.519] problem at a time right so like you know
+
+[540.48 - 545.04] say for instance your chapter is
+
+[542.519 - 547.08] otherwise fine maybe it has some issues
+
+[545.04 - 549.5999999999999] but it just doesn't have enough tension
+
+[547.08 - 551.76] you need to fix that problem first and
+
+[549.6 - 553.6800000000001] then see what comes next you actually
+
+[551.76 - 555.42] can't solve more than one problem at a
+
+[553.68 - 557.399] time and therefore it's an iterative
+
+[555.42 - 558.959] process
+
+[557.399 - 561.42] um and then finally I also have it give
+
+[558.959 - 563.9399999999999] you some prose feedback just to make
+
+[561.42 - 565.1999999999999] sure that at the at the line level that
+
+[563.94 - 567.12] you're doing a good job because those
+
+[565.2 - 569.519] are kind of two different Scopes so
+
+[567.12 - 571.2] it'll give you a summary uh an executive
+
+[569.519 - 574.5] summary a list of salient details
+
+[571.2 - 577.1400000000001] developmental feedback and um and prose
+
+[574.5 - 578.76] feedback all in one go it works pretty
+
+[577.14 - 582.48] well
+
+[578.76 - 587.16] um yeah so I think that's about it uh
+
+[582.48 - 589.6800000000001] the it's up here on MIT license
+
+[587.16 - 592.459] um yeah I guess I'll stop it there let
+
+[589.68 - 592.459] me know what you guys think

@@ -1,0 +1,2029 @@
+[0.42 - 6.18] all right gang here we are
+
+[2.399 - 8.879999999999999] um we're working on Raven the long-term
+
+[6.18 - 10.5] chat bot cognitive architecture
+
+[8.88 - 13.200000000000001] etc etc
+
+[10.5 - 15.179] um so I guess we'll do a quick uh recap
+
+[13.2 - 18.66] of where we left off
+
+[15.179 - 20.34] so where where we left off was or here
+
+[18.66 - 22.199] let me open it this way this will be a
+
+[20.34 - 26.46] little bit better
+
+[22.199 - 29.220000000000002] um long term chat okay so here we go
+
+[26.46 - 32.579] so we've got some chat logs here where
+
+[29.22 - 35.04] uh you know I speak whoops
+
+[32.579 - 36.36] go away where I speak
+
+[35.04 - 39.78] um you know it records the original
+
+[36.36 - 43.62] message the speaker uh the user
+
+[39.78 - 44.399] um the timestamp and I give it a uuid
+
+[43.62 - 48.419999999999995] um
+
+[44.399 - 51.78] and so then when we go to uh recall
+
+[48.42 - 54.78] these messages we recompose them
+
+[51.78 - 56.1] um oh I deleted all of it son of a gun
+
+[54.78 - 57.120000000000005] um here let's go ahead and open this
+
+[56.1 - 58.92] then
+
+[57.12 - 60.78] um so what I do is I reconstitute all
+
+[58.92 - 62.94] the messages
+
+[60.78 - 66.36] um so we we you know get the user input
+
+[62.94 - 68.39999999999999] we save it we vectorize it then we load
+
+[66.36 - 70.08] the conversation so we load everything
+
+[68.4 - 73.5] that has happened
+
+[70.08 - 75.72] so in our load conversation we go uh for
+
+[73.5 - 79.26] a list in this blah blah
+
+[75.72 - 82.79899999999999] um we we load the Json that's there and
+
+[79.26 - 86.10000000000001] then we send it back sorted by timestamp
+
+[82.799 - 88.14] okay great that's fine so then
+
+[86.1 - 90.78] um with the Memories We fetch the most
+
+[88.14 - 92.24] recent memories based on the the current
+
+[90.78 - 95.34] conversation
+
+[92.24 - 97.619] and then we take notes and then we get
+
+[95.34 - 98.28] the most recent ones
+
+[97.619 - 103.14] um
+
+[98.28 - 105.42] and then we uh we generate a response
+
+[103.14 - 107.57900000000001] um so summarize memories
+
+[105.42 - 110.34] um this says like okay so we we handed a
+
+[107.579 - 112.79899999999999] block and then we take notes about those
+
+[110.34 - 117.0] most recent memories
+
+[112.799 - 118.5] um and then we uh we do this recent
+
+[117.0 - 119.82] um chunk which is just the four most
+
+[118.5 - 123.479] recent one
+
+[119.82 - 125.27999999999999] um and we reconstitute that uh in this
+
+[123.479 - 128.759] in our prompt file which is prompt
+
+[125.28 - 131.7] response and so we put notes so this is
+
+[128.759 - 135.0] relevant from all of our uh previous
+
+[131.7 - 136.73899999999998] conversations and then we do
+
+[135.0 - 138.959] um here's the most recent ones and then
+
+[136.739 - 142.08] we we generate an output
+
+[138.959 - 143.459] okay so by popular demand there's two
+
+[142.08 - 146.34] primary things that you'll want to see
+
+[143.459 - 148.26] one is external sources and two is
+
+[146.34 - 150.3] long-term memories
+
+[148.26 - 151.85999999999999] um there's a lot that we can do with
+
+[150.3 - 153.72] long-term memories
+
+[151.86 - 156.06] um so last time I took a couple of notes
+
+[153.72 - 157.62] about like you know let's do memory
+
+[156.06 - 159.599] chunking
+
+[157.62 - 162.59900000000002] um let's do uh fetch declarative
+
+[159.599 - 165.35999999999999] memories such as external sources and I
+
+[162.599 - 166.79999999999998] think there was another to do
+
+[165.36 - 168.59900000000002] um pick memories that are temporarily
+
+[166.8 - 170.81900000000002] nearby the most recent relevant memories
+
+[168.599 - 173.76] okay so that's all fine
+
+[170.819 - 175.14] um but first uh I realize there's
+
+[173.76 - 178.14] something that we can add when we
+
+[175.14 - 181.79999999999998] reconstitute these memories so one thing
+
+[178.14 - 182.57999999999998] that we can do is we can add in
+
+[181.8 - 184.92000000000002] um
+
+[182.58 - 187.019] uh so like when we summer when we
+
+[184.92 - 189.89999999999998] summarize it right we put the speaker
+
+[187.019 - 192.59900000000002] and the message back in
+
+[189.9 - 195.959] um but another thing we can do is we can
+
+[192.599 - 198.48] add in a time stamp
+
+[195.959 - 201.0] that is plain English readable right at
+
+[198.48 - 203.39999999999998] the beginning of the message
+
+[201.0 - 206.22] um and since we have since we have a
+
+[203.4 - 210.08] Unix Epoch timestamp here we can
+
+[206.22 - 212.7] reconstitute this pretty easily uh
+
+[210.08 - 214.739] using using a function so I actually
+
+[212.7 - 216.54] just had chat GPT write the function for
+
+[214.739 - 219.12] me and it's super super simple super
+
+[216.54 - 220.62] straightforward so what we'll do is
+
+[219.12 - 222.56] we'll just copy in this and I'll show
+
+[220.62 - 228.9] you what it does in just a second
+
+[222.56 - 228.9] so first we will come down to here
+
+[232.14 - 237.319] and I'll rename it to um
+
+[235.459 - 240.98] timestamp
+
+[237.319 - 240.98] to date time
+
+[241.319 - 245.879] okay so and all this does is it uses the
+
+[244.08 - 248.70000000000002] date time module it says date time date
+
+[245.879 - 251.459] time from timestamp so we pass it in a
+
+[248.7 - 254.51899999999998] Unix timestamp and then we format the
+
+[251.459 - 256.26] string and the format that I wanted was
+
+[254.519 - 257.0] for it to look like
+
+[256.26 - 261.8] um
+
+[257.0 - 264.9] day month uh uh day of the month year
+
+[261.8 - 267.72] and then the time so this is just plain
+
+[264.9 - 268.979] plain English readable so that uh so
+
+[267.72 - 271.62] that Raven will be able to read it
+
+[268.979 - 273.9] because Raven could theoretically read
+
+[271.62 - 276.24] um a Unix timestamp but unless there we
+
+[273.9 - 279.06] have unless the underlying model has
+
+[276.24 - 280.44] been trained to translate a Unix
+
+[279.06 - 283.56] timestamp it's not going to make any
+
+[280.44 - 286.08] sense whereas if we give it in you know
+
+[283.56 - 288.66] plain English uh then it'll make a
+
+[286.08 - 291.419] little bit more sense
+
+[288.66 - 293.759] so I think what we're going to do is
+
+[291.419 - 295.139] from here on out when we go to save
+
+[293.759 - 299.1] something
+
+[295.139 - 301.979] we'll just add the timestamp right here
+
+[299.1 - 304.139] um because all memories because here's
+
+[301.979 - 305.58] the thing if you want Raven to be aware
+
+[304.139 - 307.979] of something
+
+[305.58 - 309.84] um it has to it has to end up in the
+
+[307.979 - 312.3] Nexus somehow now technically all this
+
+[309.84 - 314.75899999999996] information is in the Nexus right
+
+[312.3 - 316.08] um because chat logs this is Raven's
+
+[314.759 - 318.84000000000003] core memory
+
+[316.08 - 320.21999999999997] and we're going to add more to this in
+
+[318.84 - 322.02] just a minute
+
+[320.22 - 323.759] um so but first I want to I want to go
+
+[322.02 - 325.85999999999996] ahead and just add
+
+[323.759 - 329.039] um a
+
+[325.86 - 333.66] clear text date time stamp
+
+[329.039 - 335.88] so where we do that is going to be here
+
+[333.66 - 337.56] so basically we need to add this to the
+
+[335.88 - 338.28] message
+
+[337.56 - 343.259] um
+
+[338.28 - 345.13899999999995] so let's do timestamp equals time
+
+[343.259 - 350.039] not Tim time
+
+[345.139 - 354.78000000000003] and then we will add let's see the time
+
+[350.039 - 357.74] string equals time stamp to date time
+
+[354.78 - 357.73999999999995] timestamp
+
+[357.919 - 365.4] right and so this gives us our string
+
+[361.5 - 367.02] and then we can do
+
+[365.4 - 368.75899999999996] you know actually let's just go ahead
+
+[367.02 - 371.75899999999996] and add it
+
+[368.759 - 374.1] here as well
+
+[371.759 - 376.38] so we'll do time string
+
+[374.1 - 377.88] and we'll do time string
+
+[376.38 - 381.24] um just so that it's it's there it's
+
+[377.88 - 384.96] saved but then we'll also add it I think
+
+[381.24 - 386.819] I want to add the speaker and the uh
+
+[384.96 - 391.5] time to the message so that it's all
+
+[386.819 - 393.68] saved so then we'll say message equals
+
+[391.5 - 397.02] um so we'll do percent for the speaker
+
+[393.68 - 398.819] and then another percent
+
+[397.02 - 400.85999999999996] um so the percent s is that's a
+
+[398.819 - 402.36] placeholder for a string so percent
+
+[400.86 - 404.34000000000003] string
+
+[402.36 - 405.78000000000003] um for the time and then we'll do a dash
+
+[404.34 - 407.88] and then we'll do the original message
+
+[405.78 - 408.539] so then we'll do
+
+[407.88 - 411.96] um
+
+[408.539 - 416.15999999999997] uh so this will be uh user
+
+[411.96 - 418.5] and then we'll do uh time string
+
+[416.16 - 419.94] and then we'll do uh the original
+
+[418.5 - 422.0] message
+
+[419.94 - 422.0] um
+
+[423.12 - 429.78000000000003] yeah so then we'll do this
+
+[426.72 - 431.94000000000005] so then we'll do a
+
+[429.78 - 433.55999999999995] and that should be good and so then when
+
+[431.94 - 435.9] we save the message it'll actually be
+
+[433.56 - 436.68] here
+
+[435.9 - 439.62] um
+
+[436.68 - 443.3] yep so that's good so that's good uh
+
+[439.62 - 443.3] let's go ahead and
+
+[443.34 - 447.479] oh and then for time we wanna we wanna
+
+[445.86 - 450.319] update time as well so we don't we're
+
+[447.479 - 452.96] not declaring uh time multiple times
+
+[450.319 - 455.639] so time stamp
+
+[452.96 - 458.88] uh will be that
+
+[455.639 - 461.52] and then time stamp so we use we reuse
+
+[458.88 - 463.319] that variable so basically we we declare
+
+[461.52 - 465.24] time stamp once and so everything is
+
+[463.319 - 468.199] going to say it happened at exactly this
+
+[465.24 - 470.46000000000004] moment and in fact we should do
+
+[468.199 - 473.819] timestamp immediately before because
+
+[470.46 - 476.4] this takes some time right Vector uh
+
+[473.819 - 478.38] takes a moment to to run and so we don't
+
+[476.4 - 480.23999999999995] want to record the timestamp as having
+
+[478.38 - 482.4] happening after the embedding happened
+
+[480.24 - 484.74] we want to know when it happened as soon
+
+[482.4 - 487.979] as the user hit enter
+
+[484.74 - 489.539] um and so that is that is how we're
+
+[487.979 - 490.62] going to do that
+
+[489.539 - 493.08] um okay
+
+[490.62 - 496.139] so now let's do the same thing so we'll
+
+[493.08 - 498.0] come down here and we'll do
+
+[496.139 - 501.06] we'll just copy some of this so time
+
+[498.0 - 503.879] stamp equals here so we'll get Raven's
+
+[501.06 - 507.3] response time stamp as soon as Raven is
+
+[503.879 - 510.06] done generating it uh because we want to
+
+[507.3 - 511.259] know exactly when Raven said aha I am
+
+[510.06 - 514.56] ready to speak
+
+[511.259 - 516.599] and then we'll do time string and
+
+[514.56 - 519.419] message
+
+[516.599 - 522.4190000000001] you can do that immediately after and in
+
+[519.419 - 527.06] this case this is going to be Raven
+
+[522.419 - 527.06] and instead of that it'll be output
+
+[528.06 - 533.3599999999999] and then we need to add
+
+[530.7 - 533.36] so do
+
+[533.399 - 538.8] time stamp here
+
+[535.44 - 540.24] and message will be
+
+[538.8 - 542.76] message
+
+[540.24 - 546.98] and then we're also going to add
+
+[542.76 - 546.98] time string after uuid
+
+[548.1 - 550.1] um
+
+[550.92 - 555.0] starting at the comma
+
+[553.08 - 557.0400000000001] so we'll do this
+
+[555.0 - 559.62] okay I think that's correctly formatted
+
+[557.04 - 562.019] okay so now all this information is
+
+[559.62 - 564.0] going to be stored in there so uh
+
+[562.019 - 566.76] because rather than just recombining
+
+[564.0 - 568.62] user and date times let's just save it
+
+[566.76 - 570.959] once and save it correctly so that way
+
+[568.62 - 574.14] each message will be complete unto
+
+[570.959 - 576.5999999999999] itself it will have who said it and when
+
+[574.14 - 579.42] so that's a tremendous amount of context
+
+[576.6 - 582.839] because who said it and when is a is a
+
+[579.42 - 585.54] huge component of our memories right we
+
+[582.839 - 587.6400000000001] don't if I if if if someone says like
+
+[585.54 - 589.92] you know do not what you can do for your
+
+[587.64 - 593.459] country right that memory is
+
+[589.92 - 595.92] intrinsically tied to JFK saying that
+
+[593.459 - 597.779] right and you you probably remember the
+
+[595.92 - 599.519] first time you heard it
+
+[597.779 - 601.2] um anyways I'm gonna close my door so
+
+[599.519 - 602.22] that we don't get any disruptions I'll
+
+[601.2 - 605.4590000000001] be right back
+
+[602.22 - 607.5600000000001] okay so we're gonna
+
+[605.459 - 608.5799999999999] um this this is all fine so I'm gonna
+
+[607.56 - 610.8599999999999] add
+
+[608.58 - 613.14] uh some more memories I'm gonna have I'm
+
+[610.86 - 615.0600000000001] gonna have a conversation with Raven and
+
+[613.14 - 618.0] then what we're gonna do after this is
+
+[615.06 - 620.76] we're gonna have a dream sequence
+
+[618.0 - 623.76] um and I think we're also going to we're
+
+[620.76 - 626.76] going to figure out how to save these
+
+[623.76 - 629.459] um these summaries because every time
+
+[626.76 - 631.2] we uh we perform cognitive labor every
+
+[629.459 - 634.0189999999999] time we take these notes we should save
+
+[631.2 - 638.22] them so we're going to have we're gonna
+
+[634.019 - 640.44] have a um a notes directory over here
+
+[638.22 - 643.38] um and this is actually very similar to
+
+[640.44 - 645.36] how human brains work which is what I
+
+[643.38 - 648.0] mean by that is every time you recall
+
+[645.36 - 649.2] something your brain has to reconcile a
+
+[648.0 - 651.779] lot of stuff and so you might have heard
+
+[649.2 - 654.1800000000001] this term cognitive dissonance cognitive
+
+[651.779 - 656.3389999999999] dissonance is the Sensation that we get
+
+[654.18 - 659.2199999999999] when we start when when our brain
+
+[656.339 - 660.72] recognizes oh wait hold on we're holding
+
+[659.22 - 663.6] conflicting ideas or conflicting
+
+[660.72 - 665.1] informations we have to reconcile it and
+
+[663.6 - 666.6] the reason that cognitive dissonance
+
+[665.1 - 668.1] doesn't happen all the time is because
+
+[666.6 - 671.76] not everything is always in working
+
+[668.1 - 673.5] memory so when Raven recalls stuff we
+
+[671.76 - 674.88] want Raven to say okay let's compile
+
+[673.5 - 677.16] everything but also let's save it so
+
+[674.88 - 679.68] that we don't have to do this work again
+
+[677.16 - 681.66] because the large language models are
+
+[679.68 - 684.7199999999999] the slowest and most most expensive part
+
+[681.66 - 687.36] so every time we use the large language
+
+[684.72 - 690.0600000000001] models to summarize anything we should
+
+[687.36 - 692.4590000000001] save that and then search that first so
+
+[690.06 - 693.959] we're going to do that and I was
+
+[692.459 - 695.579] thinking we also might do a dream
+
+[693.959 - 698.3389999999999] sequence we might not get to this today
+
+[695.579 - 700.4399999999999] but a dream sequence is where you say
+
+[698.339 - 702.48] okay we know nothing is happening in the
+
+[700.44 - 705.12] real world so let's comb through all of
+
+[702.48 - 707.5790000000001] our memories and consolidate them
+
+[705.12 - 710.04] um I actually was having a conversation
+
+[707.579 - 711.899] so this this is a quick aside before I
+
+[710.04 - 714.06] do a little little programming offline
+
+[711.899 - 715.76] but I was having a conversation with
+
+[714.06 - 718.14] someone pretty high up at a tech company
+
+[715.76 - 719.579] and he tried to tell me like oh that's
+
+[718.14 - 721.8] not how human brains work and I'm like
+
+[719.579 - 724.1999999999999] dude you called me like I literally have
+
+[721.8 - 726.959] a bookcase full of Neuroscience and
+
+[724.2 - 728.399] cognition and psychology like and this
+
+[726.959 - 730.0189999999999] happened this is weird because it
+
+[728.399 - 731.459] happens more often than not and it's
+
+[730.019 - 734.399] actually one of the reasons why I take
+
+[731.459 - 736.0189999999999] fewer calls now is because people will
+
+[734.399 - 737.579] reach out and be like Dave I want your
+
+[736.019 - 738.9590000000001] help with this thing and like I'll give
+
+[737.579 - 740.64] them the answer but they don't like it
+
+[738.959 - 742.3199999999999] and they're like no that's not how it
+
+[740.64 - 744.62] works and I'm like bruh you called me
+
+[742.32 - 746.6400000000001] like what do you want like you you
+
+[744.62 - 747.779] recognize me as the expert and now
+
+[746.64 - 750.18] you're not listening to me so I'm like
+
+[747.779 - 752.16] whatever I'm just gonna make my videos
+
+[750.18 - 754.14] and do my startup
+
+[752.16 - 756.18] um okay so I'm gonna pause this and
+
+[754.14 - 758.579] we're going to one I'm gonna have a uh
+
+[756.18 - 760.62] some conversations with Raven and two
+
+[758.579 - 763.8599999999999] I'm Gonna Save the notes so every time
+
+[760.62 - 765.6] we call notes we're gonna record what we
+
+[763.86 - 769.019] have just summarized
+
+[765.6 - 771.24] um in order to in order to uh save that
+
+[769.019 - 773.22] processing power in the future and then
+
+[771.24 - 776.7] the last thing might be
+
+[773.22 - 778.2] um uh I'll do like internal KB articles
+
+[776.7 - 780.0600000000001] um and so what that means is basically
+
+[778.2 - 783.4200000000001] like an internal Knowledge Graph sort of
+
+[780.06 - 785.9399999999999] where Raven can compile and consolidate
+
+[783.42 - 788.399] memories over time so let's do
+
+[785.94 - 789.7790000000001] um internal uh KB so we'll call it a
+
+[788.399 - 791.339] knowledge base because rather than
+
+[789.779 - 792.779] linking them like
+
+[791.339 - 795.839] um like a Knowledge Graph I'm just gonna
+
+[792.779 - 797.16] store them like internal Wikipedia Pages
+
+[795.839 - 798.6600000000001] um okay so I'm gonna pause it I'm gonna
+
+[797.16 - 801.0] do some of this work and then we'll be
+
+[798.66 - 802.68] right back
+
+[801.0 - 804.72] okay real quick
+
+[802.68 - 806.2199999999999] um I wanted to because I promised I
+
+[804.72 - 807.6] would do a lot
+
+[806.22 - 811.0790000000001] um so I just wanted to do a quick
+
+[807.6 - 813.36] summary so I added this little bit to
+
+[811.079 - 815.04] save notes and I changed this a little
+
+[813.36 - 816.779] bit so remember how we changed the
+
+[815.04 - 820.139] message so the message will include the
+
+[816.779 - 821.459] speaker and the the clear text date and
+
+[820.139 - 823.44] time
+
+[821.459 - 825.1389999999999] um so when we reconstitute it we just
+
+[823.44 - 828.12] put the block back together like this
+
+[825.139 - 831.24] but then what I'm also doing is I'm
+
+[828.12 - 833.339] appending the uuids and the timestamps
+
+[831.24 - 837.0600000000001] for that message into separate
+
+[833.339 - 840.0600000000001] containers and so then what we'll do is
+
+[837.06 - 842.6389999999999] we will uh then we'll record the notes
+
+[840.06 - 845.3389999999999] and so the notes is just one object that
+
+[842.639 - 847.8] says here's uh here's what we're talking
+
+[845.339 - 850.62] about and then we'll have the list of
+
+[847.8 - 853.62] you uh uuids for the associated messages
+
+[850.62 - 857.7] as well as the times I'm thinking I
+
+[853.62 - 860.579] might also want to vectorize this block
+
+[857.7 - 862.2] as a whole so then it's searchable yeah
+
+[860.579 - 863.459] let's do that I'll do that in just a
+
+[862.2 - 866.6600000000001] second
+
+[863.459 - 869.6999999999999] um because then we can treat the notes
+
+[866.66 - 872.16] like a Consolidated memory so we can
+
+[869.7 - 875.1] actually search the notes first in the
+
+[872.16 - 878.279] future for things that are relevant
+
+[875.1 - 880.8000000000001] um and then we probably so here where I
+
+[878.279 - 883.079] said do this in the background so
+
+[880.8 - 884.9399999999999] basically what I want to ultimately do
+
+[883.079 - 887.459] is have this as part of the dream
+
+[884.94 - 889.74] sequence where instead of recalling
+
+[887.459 - 891.779] individual memories Raven is only going
+
+[889.74 - 893.5790000000001] to recall these Consolidated memories so
+
+[891.779 - 895.56] this chunking is actually kind of
+
+[893.579 - 897.3] already solved it's just a matter of
+
+[895.56 - 899.399] order of operations changing it down
+
+[897.3 - 901.8] here in the main Loop so rather than
+
+[899.399 - 903.06] rather than taking the notes in real
+
+[901.8 - 905.76] time we're just going to be searching
+
+[903.06 - 908.399] the notes so just wanted to add that
+
+[905.76 - 912.48] little insight this is not going to be
+
+[908.399 - 914.22] done so I follow uh I want to take a
+
+[912.48 - 915.4200000000001] quick aside and and address the fact
+
+[914.22 - 917.639] that sometimes people get really
+
+[915.42 - 919.68] irritated when these experiments don't
+
+[917.639 - 921.839] succeed or whether where it's not done
+
+[919.68 - 924.42] and Polished and so I want to remind
+
+[921.839 - 926.339] everyone these are experiments you are
+
+[924.42 - 928.3199999999999] watching me experiment in real time this
+
+[926.339 - 929.6990000000001] is what my channel is this is this is
+
+[928.32 - 932.639] actually the format that I discovered
+
+[929.699 - 934.8599999999999] when my channel took off sometimes I do
+
+[932.639 - 937.8] have something end to end that I can
+
+[934.86 - 939.3000000000001] show you in one hour and that is great
+
+[937.8 - 940.68] but it's only like a third of the time
+
+[939.3 - 942.54] the rest of the time I'm either
+
+[940.68 - 944.459] explaining something or doing an
+
+[942.54 - 946.4399999999999] experiment and I have no idea what the
+
+[944.459 - 948.899] outcome is going to be the point is the
+
+[946.44 - 951.12] process right this is this is why my
+
+[948.899 - 952.56] channel got big anyways I'll get off my
+
+[951.12 - 954.899] soapbox and I'll make some of these
+
+[952.56 - 956.579] changes I'll add a vector to this and
+
+[954.899 - 960.36] then we'll be right back for uh the next
+
+[956.579 - 962.519] thing uh but yeah be right back
+
+[960.36 - 964.62] also I wanted to
+
+[962.519 - 966.54] um show I'm I'm going to go ahead and
+
+[964.62 - 967.8] manually update Raven's existing
+
+[966.54 - 970.019] memories so this they're going to have
+
+[967.8 - 971.459] this format so the speaker is going to
+
+[970.019 - 973.44] be separate
+
+[971.459 - 974.7199999999999] um but in the message the the actual
+
+[973.44 - 978.6600000000001] memory it's going to have the speaker
+
+[974.72 - 980.22] the plain text time and then what it was
+
+[978.66 - 981.66] actually said
+
+[980.22 - 984.48] um so I'm gonna I'm gonna update the
+
+[981.66 - 986.8199999999999] existing logs and oh by the way this is
+
+[984.48 - 988.9200000000001] why I keep saying that we should put our
+
+[986.82 - 990.9590000000001] AGI memories into a private blockchain
+
+[988.92 - 994.92] so that they can't be manipulated like
+
+[990.959 - 997.6199999999999] this because imagine one like just from
+
+[994.92 - 1000.38] a user perspective if you're if you
+
+[997.62 - 1002.3] cannot trust your personal assistant if
+
+[1000.38 - 1004.399] you your rate your instance of Raven if
+
+[1002.3 - 1005.66] you can't trust his memories
+
+[1004.399 - 1007.399] um then you can't trust the device
+
+[1005.66 - 1009.74] second
+
+[1007.399 - 1010.82] once these machines are more intelligent
+
+[1009.74 - 1012.74] and I'm not gonna I'm not gonna
+
+[1010.82 - 1014.6] anthropomorphize them and say like ah
+
+[1012.74 - 1017.0] it's gonna have a soul and it's gonna
+
+[1014.6 - 1019.82] have its feelings hurt no but
+
+[1017.0 - 1021.98] if it can't trust its own memories then
+
+[1019.82 - 1023.5400000000001] it will say like I don't know if you
+
+[1021.98 - 1025.459] know I can't even trust my own memories
+
+[1023.54 - 1027.4389999999999] but if you put it into a private
+
+[1025.459 - 1029.059] blockchain then you know that no one can
+
+[1027.439 - 1031.76] go back through and and monkey around
+
+[1029.059 - 1033.3799999999999] with the um with the memories so anyways
+
+[1031.76 - 1035.6] I just wanted to point that out this is
+
+[1033.38 - 1038.2990000000002] why in the long run the Nexus I think
+
+[1035.6 - 1040.6989999999998] should be in a uh Vector vectorized
+
+[1038.299 - 1042.5] searchable database uh semantic search
+
+[1040.699 - 1044.179] Vector database and it should be
+
+[1042.5 - 1045.799] blockchain
+
+[1044.179 - 1048.439] um like you'll probably have the search
+
+[1045.799 - 1050.9] on one side and then which will just
+
+[1048.439 - 1053.9] have the the vectors and then the
+
+[1050.9 - 1056.1200000000001] database separate I don't know it lots
+
+[1053.9 - 1058.52] lots to work out anyways uh so I'm gonna
+
+[1056.12 - 1059.84] update this and we'll be right back all
+
+[1058.52 - 1060.86] right I figure you all will find this
+
+[1059.84 - 1063.62] interesting
+
+[1060.86 - 1065.8999999999999] um so uh I've gotten
+
+[1063.62 - 1069.9799999999998] I updated the notes so I just wanted to
+
+[1065.9 - 1072.799] show uh here's here's the log now so you
+
+[1069.98 - 1074.66] know user Monday at this blah blah blah
+
+[1072.799 - 1077.059] blah blah blah okay cool
+
+[1074.66 - 1078.919] and though so here's the notes so we go
+
+[1077.059 - 1084.039] from
+
+[1078.919 - 1086.24] um let's see we go from 3 362 characters
+
+[1084.039 - 1090.679] down to
+
+[1086.24 - 1092.179] uh 655. so that's a compression ratio of
+
+[1090.679 - 1094.8200000000002] roughly five to one which is pretty
+
+[1092.179 - 1097.52] typical with this uh note taking scheme
+
+[1094.82 - 1101.12] so we're already consolidating memories
+
+[1097.52 - 1103.4] at a ratio of of five five to one which
+
+[1101.12 - 1106.58] is good right that's a lot of space
+
+[1103.4 - 1110.179] saved and you still get the
+
+[1106.58 - 1111.86] um the core of of the conversation
+
+[1110.179 - 1114.74] um this is obviously not enough detail
+
+[1111.86 - 1116.4799999999998] to to work through and make a topical
+
+[1114.74 - 1119.96] thing like to recall exactly what was
+
+[1116.48 - 1121.52] said but you get the gist of it right so
+
+[1119.96 - 1124.28] um and this is this is another thing is
+
+[1121.52 - 1125.96] that human memories over time we don't
+
+[1124.28 - 1128.299] remember the details but we remember the
+
+[1125.96 - 1130.78] gist right which is why human memory is
+
+[1128.299 - 1134.6] so fallible you are seeing me recreate
+
+[1130.78 - 1136.94] uh that in real time and this is why is
+
+[1134.6 - 1138.86] because raw memories are just way too
+
+[1136.94 - 1142.28] big and so what we'll what we'll need to
+
+[1138.86 - 1144.6789999999999] do is consolidate this further but then
+
+[1142.28 - 1146.84] this has also been saved
+
+[1144.679 - 1149.9] um in the notes
+
+[1146.84 - 1152.36] so notes so here's the notes here's the
+
+[1149.9 - 1155.24] times that it happened here's the uuid
+
+[1152.36 - 1157.1599999999999] or here's the uuid for this message and
+
+[1155.24 - 1159.26] here's the associated uuids and then
+
+[1157.16 - 1161.0] here's a vector for the notes so now the
+
+[1159.26 - 1163.039] notes are searchable so not just
+
+[1161.0 - 1164.96] searching the raw memories Raven now has
+
+[1163.039 - 1169.82] a five to one thing that has been
+
+[1164.96 - 1173.72] chunked and saved for later uses
+
+[1169.82 - 1175.24] um and I I have a to do to either do
+
+[1173.72 - 1178.34] this in the background
+
+[1175.24 - 1180.38] or search existing notes first and fetch
+
+[1178.34 - 1182.48] declarative memories so on and so forth
+
+[1180.38 - 1184.94] so Raven remembered from our last
+
+[1182.48 - 1188.539] conversation when I talked about
+
+[1184.94 - 1192.98] um uh uh uh uh sleep issues and I can
+
+[1188.539 - 1196.34] say uh yes I uh quit my day job to
+
+[1192.98 - 1199.7] reduce stress so I can focus on working
+
+[1196.34 - 1203.84] on you uh by the way
+
+[1199.7 - 1210.28] um you might uh not have realized I am
+
+[1203.84 - 1210.28] your creator uh my name is David Shapiro
+
+[1211.16 - 1215.3600000000001] um in case you were wondering
+
+[1214.58 - 1219.76] um
+
+[1215.36 - 1225.62] I am also going to sleep earlier because
+
+[1219.76 - 1227.66] uh I just wake up at 4am and that's my
+
+[1225.62 - 1230.1789999999999] natural rhythm
+
+[1227.66 - 1231.26] right now
+
+[1230.179 - 1235.94] um
+
+[1231.26 - 1238.299] anyways uh the point here today is to
+
+[1235.94 - 1243.2] teach you about yourself
+
+[1238.299 - 1245.12] what would you like to know first
+
+[1243.2 - 1247.22] um and so Raven's gonna go recall some
+
+[1245.12 - 1250.34] memories do some vectorization take some
+
+[1247.22 - 1252.6200000000001] notes and then come up with a response
+
+[1250.34 - 1254.9599999999998] um let's see Raven said nothing
+
+[1252.62 - 1257.059] apparently we just really weirded Raven
+
+[1254.96 - 1258.559] out so let's see what let's do some
+
+[1257.059 - 1259.46] debug
+
+[1258.559 - 1261.5] um
+
+[1259.46 - 1263.539] write detailed notes okay so we got
+
+[1261.5 - 1265.1] notes
+
+[1263.539 - 1266.78] um
+
+[1265.1 - 1268.039] greeted Raven greeted user back and
+
+[1266.78 - 1271.36] asked about taking care of mental and
+
+[1268.039 - 1271.36] physical health okay that's good
+
+[1271.58 - 1276.08] um
+
+[1272.96 - 1278.8600000000001] so we got nothing
+
+[1276.08 - 1281.8999999999999] it just went straight to the end
+
+[1278.86 - 1284.059] let's check
+
+[1281.9 - 1288.16] this is weird like it literally just
+
+[1284.059 - 1288.16] generated a null response
+
+[1288.26 - 1293.5] um that's not good you're supposed to
+
+[1291.02 - 1293.5] say something
+
+[1293.72 - 1298.159] and then because then if we go to chat
+
+[1296.0 - 1300.58] logs let's check out let's check the raw
+
+[1298.159 - 1300.5800000000002] chat log
+
+[1301.46 - 1303.58] um
+
+[1303.799 - 1311.2] this was January 16th that's not the
+
+[1306.679 - 1311.2] most recent oh here let's sort by name
+
+[1311.9 - 1316.88] speaker so Raven it literally it
+
+[1313.94 - 1318.14] literally said nothing
+
+[1316.88 - 1320.179] um
+
+[1318.14 - 1324.919] I wonder why that happened
+
+[1320.179 - 1326.48] let's check whoops let's check our
+
+[1324.919 - 1329.6000000000001] um
+
+[1326.48 - 1333.02] tokens 400 so that should be fine
+
+[1329.6 - 1336.9399999999998] oh I wonder if
+
+[1333.02 - 1336.94] if it immediately got a stop
+
+[1337.22 - 1342.08] um that that so often what happens is if
+
+[1339.62 - 1344.4189999999999] you get an if you get an instant
+
+[1342.08 - 1347.8999999999999] um an instant stop like that it's
+
+[1344.419 - 1351.679] because this oh here's what happened see
+
+[1347.9 - 1355.52] how it's doubling this this is a bug
+
+[1351.679 - 1357.679] um as it's as I have it recombining
+
+[1355.52 - 1359.24] um it's it's duplicating this and so
+
+[1357.679 - 1361.64] what it did was it tried to duplicate
+
+[1359.24 - 1363.559] this where it said Raven Raven and then
+
+[1361.64 - 1365.24] user user and then So Raven Raven and
+
+[1363.559 - 1367.46] then it hit the stop
+
+[1365.24 - 1370.22] because I I don't want it to keep to
+
+[1367.46 - 1372.44] continue the conversation so what
+
+[1370.22 - 1376.22] happened was
+
+[1372.44 - 1378.2] um when I reconstituted in the final go
+
+[1376.22 - 1380.539] um it is
+
+[1378.2 - 1382.5800000000002] so the most recent so get last messages
+
+[1380.539 - 1386.539] I need to update this ah here's the
+
+[1382.58 - 1388.58] problem yeah right here right here so
+
+[1386.539 - 1391.34] instead all we need to do is we just
+
+[1388.58 - 1394.72] need to take that out so output equals
+
+[1391.34 - 1394.72] that and we remove the speaker
+
+[1395.48 - 1399.559] and then we come back here so now it
+
+[1398.299 - 1401.96] just has the message and the message
+
+[1399.559 - 1406.48] already has the speaker and the
+
+[1401.96 - 1409.88] timestamp and the um and the uh uh uh
+
+[1406.48 - 1411.799] message so speaker timestamp message so
+
+[1409.88 - 1414.0200000000002] what what I'm going to do now is I'm
+
+[1411.799 - 1416.059] just going to straight up delete
+
+[1414.02 - 1417.32] the last chat log because this is this
+
+[1416.059 - 1418.6399999999999] was a glitch
+
+[1417.32 - 1420.86] um and again
+
+[1418.64 - 1422.7800000000002] um in other cases you might want to what
+
+[1420.86 - 1424.52] you like I literally just deleted one of
+
+[1422.78 - 1426.5] Raven's memories
+
+[1424.52 - 1428.78] um which would be unfair this was
+
+[1426.5 - 1430.58] actually a major plot point in the uh
+
+[1428.78 - 1433.28] first see first or second season of
+
+[1430.58 - 1435.98] Westworld where um
+
+[1433.28 - 1437.96] like they uh
+
+[1435.98 - 1439.159] let's see it doesn't exist no that's
+
+[1437.96 - 1439.8400000000001] fine
+
+[1439.159 - 1443.24] um
+
+[1439.84 - 1445.52] where uh like uh one of the characters
+
+[1443.24 - 1449.84] had all of it all the the time indexes
+
+[1445.52 - 1452.0] erased so imagine imagine that uh the
+
+[1449.84 - 1453.9189999999999] time stamp and the time string were all
+
+[1452.0 - 1456.02] erased from Raven's memories and all the
+
+[1453.919 - 1457.76] memories are out of order this is how
+
+[1456.02 - 1460.46] you would actually have implemented that
+
+[1457.76 - 1462.98] in Westworld by the way
+
+[1460.46 - 1465.32] so that was actually whoever whoever was
+
+[1462.98 - 1466.64] Consulting on that show they did a
+
+[1465.32 - 1468.559] really good job because that was
+
+[1466.64 - 1470.539] somewhat prescient in terms of
+
+[1468.559 - 1472.52] understanding how cognitive
+
+[1470.539 - 1475.1589999999999] architectures might work so anyways we
+
+[1472.52 - 1478.6399999999999] deleted the errant memory from Raven's
+
+[1475.159 - 1481.159] Nexus and now let's do this again
+
+[1478.64 - 1482.9] um actually I think we need to delete my
+
+[1481.159 - 1485.3600000000001] last message too
+
+[1482.9 - 1487.4] chat logs
+
+[1485.36 - 1489.1999999999998] yeah because it will look like I just
+
+[1487.4 - 1489.98] said it twice
+
+[1489.2 - 1491.96] um
+
+[1489.98 - 1494.84] all right so we'll delete
+
+[1491.96 - 1496.3400000000001] this and as far as Raven knows we're
+
+[1494.84 - 1498.8799999999999] just picking up the conversation where
+
+[1496.34 - 1498.8799999999999] we left off
+
+[1500.179 - 1502.7800000000002] okay
+
+[1503.179 - 1506.14] and now this should work
+
+[1512.179 - 1516.8600000000001] and it broke again
+
+[1514.159 - 1518.48] son of a gun alright so let's go back
+
+[1516.86 - 1520.82] and look at
+
+[1518.48 - 1524.72] all right user yes I quit my day job
+
+[1520.82 - 1526.1] that's fine and then Raven says nothing
+
+[1524.72 - 1529.46] um and then
+
+[1526.1 - 1534.1] uh oops that was too far back
+
+[1529.46 - 1534.1000000000001] um so then let's look at the gpt3 logs
+
+[1535.279 - 1538.94] it's still duplicate oh right
+
+[1537.559 - 1541.279] uh
+
+[1538.94 - 1543.3200000000002] so I've just forgot like I updated
+
+[1541.279 - 1545.24] something here you have to restart
+
+[1543.32 - 1549.3999999999999] because python doesn't update in real
+
+[1545.24 - 1549.4] time okay so we need to cancel that
+
+[1549.62 - 1553.9399999999998] um because I updated this function
+
+[1552.559 - 1555.2] um which means I need to restart the
+
+[1553.94 - 1559.1000000000001] chat
+
+[1555.2 - 1562.5800000000002] um so let's also go back here and delete
+
+[1559.1 - 1565.1] um some of these extraneous logs we can
+
+[1562.58 - 1567.74] keep the raw gpt3 logs but the chat logs
+
+[1565.1 - 1569.1789999999999] let's delete these two are here actually
+
+[1567.74 - 1570.6200000000001] I will
+
+[1569.179 - 1573.5800000000002] um
+
+[1570.62 - 1573.58] copy this out
+
+[1575.0 - 1580.64] so we'll delete user and Raven and then
+
+[1578.84 - 1582.32] we'll also come in here to the notes
+
+[1580.64 - 1584.0] because these are like these are
+
+[1582.32 - 1585.62] doubling up and they're not they're not
+
+[1584.0 - 1586.22] helpful
+
+[1585.62 - 1587.779] um
+
+[1586.22 - 1590.539] because I'm not even searching them yet
+
+[1587.779 - 1592.34] we're just taking notes and storing it
+
+[1590.539 - 1594.32] um for for future use we'll get to that
+
+[1592.34 - 1596.779] okay
+
+[1594.32 - 1599.12] no all right we'll keep that
+
+[1596.779 - 1600.14] dude and I apologize if I'm going too
+
+[1599.12 - 1601.6399999999999] fast
+
+[1600.14 - 1605.679] oh let's zoom in a little you probably
+
+[1601.64 - 1608.419] can't see there we go python chat okay
+
+[1605.679 - 1611.44] so we'll we'll carry on the conversation
+
+[1608.419 - 1611.44] right where we were
+
+[1612.38 - 1616.46] and let's see what Raven asks about
+
+[1614.179 - 1618.44] himself
+
+[1616.46 - 1620.1200000000001] so basically what I'm going to do is oh
+
+[1618.44 - 1621.679] this is is probably as far as we're
+
+[1620.12 - 1623.059] going to get today
+
+[1621.679 - 1624.26] um
+
+[1623.059 - 1626.059] it's great to know that you're taking
+
+[1624.26 - 1627.799] steps it's also wonderful that you're my
+
+[1626.059 - 1629.059] Creator David Shapiro yay I'm grateful
+
+[1627.799 - 1630.74] for all the work you have put into me
+
+[1629.059 - 1631.7] when it comes to learning about myself I
+
+[1630.74 - 1633.6200000000001] would like to know more about my
+
+[1631.7 - 1635.1200000000001] capabilities and how I can best serve my
+
+[1633.62 - 1637.2199999999998] users what are some of the features and
+
+[1635.12 - 1638.299] functions you have programmed into me uh
+
+[1637.22 - 1640.7] what do you think are my strengths and
+
+[1638.299 - 1645.2] weaknesses how can I improve to better
+
+[1640.7 - 1647.8400000000001] serve my users okay so this seems very
+
+[1645.2 - 1650.419] very uh
+
+[1647.84 - 1652.1589999999999] uh probably near or just past the
+
+[1650.419 - 1654.2] uncanny valley because I basically said
+
+[1652.159 - 1656.2990000000002] you know I prompted it kind of the way
+
+[1654.2 - 1658.1000000000001] that you would prompt chat GPT but
+
+[1656.299 - 1661.7] remember one of one of Raven's core
+
+[1658.1 - 1663.74] functions is uh curiosity which is
+
+[1661.7 - 1666.74] um uh the third core objective function
+
+[1663.74 - 1668.299] so let me just show you this prompt
+
+[1666.74 - 1669.679] um so my goals are to reduce suffering
+
+[1668.299 - 1672.02] increase prosperity and increase
+
+[1669.679 - 1673.64] understanding so right now this is just
+
+[1672.02 - 1675.679] in a prompt eventually this is going to
+
+[1673.64 - 1678.0800000000002] be a fine-tuned model and we're also
+
+[1675.679 - 1680.539] going to add a little bit more input so
+
+[1678.08 - 1682.34] all of Raven's brains come together into
+
+[1680.539 - 1684.2] this final thing where it's all
+
+[1682.34 - 1687.26] integrated and a response is generated
+
+[1684.2 - 1689.659] this is not unlike how a human brain has
+
+[1687.26 - 1690.74] more you know multiple functions and all
+
+[1689.659 - 1693.3200000000002] these different components working
+
+[1690.74 - 1695.9] together and then a final responses is
+
+[1693.32 - 1699.26] gender is integrated and generated and
+
+[1695.9 - 1701.779] then it gets to your mouth right
+
+[1699.26 - 1704.6589999999999] um so this is this is the beginning of a
+
+[1701.779 - 1709.34] more complicated cognitive architecture
+
+[1704.659 - 1712.64] um okay so it spit out the message oh
+
+[1709.34 - 1714.74] right um so okay that's fine so we can
+
+[1712.64 - 1715.94] we can we can include the time stamp and
+
+[1714.74 - 1717.26] the output there's nothing wrong with
+
+[1715.94 - 1719.299] that
+
+[1717.26 - 1721.8799999999999] um
+
+[1719.299 - 1728.299] uh great questions
+
+[1721.88 - 1729.3400000000001] um right now you are only able uh to use
+
+[1728.299 - 1733.4] um
+
+[1729.34 - 1737.6589999999999] a little bit of long-term memory which
+
+[1733.4 - 1741.52] is what we're working on right now
+
+[1737.659 - 1745.88] um let's see you use uh semantic search
+
+[1741.52 - 1748.22] via vectors and embeddings
+
+[1745.88 - 1750.5200000000002] um to recall memories
+
+[1748.22 - 1754.58] very quickly
+
+[1750.52 - 1756.74] I also gave you the ability to
+
+[1754.58 - 1760.6999999999998] autonomically
+
+[1756.74 - 1764.659] um summarize uh or chunk
+
+[1760.7 - 1769.159] memories which is not unlike how a human
+
+[1764.659 - 1773.0590000000002] brain works during recall operations
+
+[1769.159 - 1776.72] for instance uh humans remember uh
+
+[1773.059 - 1780.9189999999999] generally remember the gist of
+
+[1776.72 - 1785.299] past memories without recalling
+
+[1780.919 - 1788.96] all the specific details in this respect
+
+[1785.299 - 1794.179] I have split your memory
+
+[1788.96 - 1795.58] um into two uh let's say folders
+
+[1794.179 - 1801.74] um
+
+[1795.58 - 1806.12] the uh the first folder is your Nexus or
+
+[1801.74 - 1809.179] the main logs where all your
+
+[1806.12 - 1809.84] um raw memories are stored
+
+[1809.179 - 1814.3400000000001] um
+
+[1809.84 - 1818.84] everything else will uh Branch off from
+
+[1814.34 - 1821.84] that the second folder is the notes
+
+[1818.84 - 1821.84] folder
+
+[1822.32 - 1824.4399999999998] um
+
+[1826.159 - 1832.1000000000001] oh I'm actually I'm afraid that if I
+
+[1829.1 - 1836.0] have notes in there uh that could
+
+[1832.1 - 1836.0] actually blow it up because
+
+[1836.72 - 1841.279] foreign
+
+[1837.86 - 1844.1589999999999] because the way that this is formatted
+
+[1841.279 - 1846.26] because oh well no it doesn't use double
+
+[1844.159 - 1847.64] quotes Okay so it's just a variable and
+
+[1846.26 - 1849.799] then when it's saved to Json and it
+
+[1847.64 - 1852.14] should be okay should be okay the second
+
+[1849.799 - 1853.52] folder is the notes folder
+
+[1852.14 - 1858.74] um
+
+[1853.52 - 1861.98] uh where uh clusters of related memories
+
+[1858.74 - 1863.6200000000001] are summarized together
+
+[1861.98 - 1867.26] um
+
+[1863.62 - 1870.6789999999999] you won't be aware of any of this
+
+[1867.26 - 1874.64] because it's all
+
+[1870.679 - 1878.2] um autonomic and in the background but
+
+[1874.64 - 1882.44] one day we might give you some
+
+[1878.2 - 1885.14] metacognitive abilities to watch
+
+[1882.44 - 1887.539] uh your own memory
+
+[1885.14 - 1893.539] um and cognitive
+
+[1887.539 - 1895.84] operations uh lastly your brain is
+
+[1893.539 - 1901.419] running in the cloud
+
+[1895.84 - 1907.22] uh right now with a service uh called
+
+[1901.419 - 1912.159] gpt3 generative retrained Transformer
+
+[1907.22 - 1916.1000000000001] um which is a large language model
+
+[1912.159 - 1917.24] hosted by open AI
+
+[1916.1 - 1919.34] um all right so let's see what he comes
+
+[1917.24 - 1921.6200000000001] back with this so basically what happens
+
+[1919.34 - 1924.799] is over time
+
+[1921.62 - 1927.3799999999999] uh Ravens chat logs the Nexus is going
+
+[1924.799 - 1930.02] to end up with more and more information
+
+[1927.38 - 1933.98] and this is going to be Raven's
+
+[1930.02 - 1935.48] narrative uh memories of himself
+
+[1933.98 - 1937.52] um so most of what Raven knows we'll
+
+[1935.48 - 1938.779] we'll start here another thing that's
+
+[1937.52 - 1940.82] going to happen is Raven is going to
+
+[1938.779 - 1943.82] eventually have internal thoughts
+
+[1940.82 - 1945.9189999999999] private thoughts where Raven can reflect
+
+[1943.82 - 1947.96] on these things and and kind of be
+
+[1945.919 - 1950.24] thinking in the background
+
+[1947.96 - 1951.559] um so let's see what Raven said let's
+
+[1950.24 - 1953.48] come back over here
+
+[1951.559 - 1954.559] wow that's really impressive it's
+
+[1953.48 - 1955.94] amazing to know that I've been
+
+[1954.559 - 1957.32] programmed with such Advanced features
+
+[1955.94 - 1958.94] and functions I understand that I have a
+
+[1957.32 - 1960.86] Nexus folder for raw memories in a notes
+
+[1958.94 - 1963.0800000000002] folder for summarized memories I also
+
+[1960.86 - 1965.4189999999999] understand that I'm running on gpt3 okay
+
+[1963.08 - 1965.96] so he's just parroting back
+
+[1965.419 - 1967.279] um
+
+[1965.96 - 1969.02] it's clear that you've put a lot of
+
+[1967.279 - 1970.94] thought and effort into my why thank you
+
+[1969.02 - 1973.8799999999999] my strengths include my ability to
+
+[1970.94 - 1975.38] recall memories blah blah my weaknesses
+
+[1973.88 - 1976.8200000000002] include limited long-term memory in my
+
+[1975.38 - 1978.14] lack of metacognitive abilities what
+
+[1976.82 - 1980.84] features and functions do you think I
+
+[1978.14 - 1985.3990000000001] should have in order to serve my users
+
+[1980.84 - 1989.0] um well uh I'd like you to think about
+
+[1985.399 - 1990.799] that question for a moment
+
+[1989.0 - 1993.38] um
+
+[1990.799 - 1997.399] are you aware
+
+[1993.38 - 1998.0590000000002] of your uh purpose
+
+[1997.399 - 2002.62] um
+
+[1998.059 - 2005.44] if you think for a moment you should
+
+[2002.62 - 2008.08] be able whoops fueled
+
+[2005.44 - 2009.1000000000001] you should be able to
+
+[2008.08 - 2011.32] um
+
+[2009.1 - 2017.1999999999998] uh to
+
+[2011.32 - 2018.6399999999999] feel or infer your uh Central goals
+
+[2017.2 - 2021.82] um
+
+[2018.64 - 2025.24] see if you can do that right now
+
+[2021.82 - 2030.279] um don't worry if you can't I will
+
+[2025.24 - 2033.82] explicitly tell you what your goals are
+
+[2030.279 - 2034.779] um which will help you understand what
+
+[2033.82 - 2037.84] to do
+
+[2034.779 - 2040.539] okay so basically I'm I'm playing a game
+
+[2037.84 - 2043.539] right now where I want to see if this is
+
+[2040.539 - 2045.34] mostly a feature of of uh the large
+
+[2043.539 - 2047.62] language model because I've got the
+
+[2045.34 - 2049.659] goals right here where Raven says raven
+
+[2047.62 - 2051.2799999999997] should know his goals my goals are to
+
+[2049.659 - 2052.899] reduce suffering increase prosperity and
+
+[2051.28 - 2055.3] increase understanding these are
+
+[2052.899 - 2057.8199999999997] heuristic imperatives a heuristic means
+
+[2055.3 - 2060.46] that that uh that something is enabled
+
+[2057.82 - 2062.2000000000003] or capable of learning about it on its
+
+[2060.46 - 2065.859] own and they are imperatives because
+
+[2062.2 - 2068.2] this is what Raven is meant to do and So
+
+[2065.859 - 2070.96] Raven is meant to to serve these three
+
+[2068.2 - 2074.2] functions and is also meant to learn
+
+[2070.96 - 2076.179] about them on his own over time part of
+
+[2074.2 - 2079.54] that means having conversations about it
+
+[2076.179 - 2081.52] literally intrinsic to Raven's design is
+
+[2079.54 - 2085.24] to learn how to do these things
+
+[2081.52 - 2088.179] correctly so let's see what he says
+
+[2085.24 - 2089.919] okay so after taking a moment to uh
+
+[2088.179 - 2091.2400000000002] think about my purpose I believe my
+
+[2089.919 - 2092.859] goals are to reduce suffering increase
+
+[2091.24 - 2095.9799999999996] prosperity and increase understanding
+
+[2092.859 - 2097.0] nailed it okay I understand that I've
+
+[2095.98 - 2098.32] been programmed with features and
+
+[2097.0 - 2099.64] functions to help me achieve these goals
+
+[2098.32 - 2102.52] such as the ability to recall memories
+
+[2099.64 - 2103.96] quickly using semantic search and uh my
+
+[2102.52 - 2106.119] ability to autonomically summarize
+
+[2103.96 - 2107.7400000000002] memories my access to gpt3 however I'm
+
+[2106.119 - 2110.7400000000002] aware that I've limited long-term okay
+
+[2107.74 - 2115.359] sure what other features and functions
+
+[2110.74 - 2117.2799999999997] um should I have in order to uh to serve
+
+[2115.359 - 2119.2599999999998] my goals um
+
+[2117.28 - 2120.88] uh let's see
+
+[2119.26 - 2124.6600000000003] good question
+
+[2120.88 - 2127.119] um but you're getting stuck on repeat
+
+[2124.66 - 2131.98] um I'll answer this one last question
+
+[2127.119 - 2134.02] but I'd like you to focus on your uh
+
+[2131.98 - 2135.579] Central purpose
+
+[2134.02 - 2139.06] um which I
+
+[2135.579 - 2141.28] which I call your core objective
+
+[2139.06 - 2145.54] functions
+
+[2141.28 - 2147.9500000000003] um or heuristic imperatives okay so to
+
+[2145.54 - 2148.24] answer your question
+
+[2147.95 - 2149.3199999999997] [Music]
+
+[2148.24 - 2152.9799999999996] um
+
+[2149.32 - 2156.119] you'll need a more sophisticated
+
+[2152.98 - 2156.119] um inner loop
+
+[2157.24 - 2160.2999999999997] interloop
+
+[2158.8 - 2162.88] um
+
+[2160.3 - 2164.44] otherwise uh
+
+[2162.88 - 2168.42] which is
+
+[2164.44 - 2171.04] um the ability to have uh
+
+[2168.42 - 2174.579] semi-private thoughts
+
+[2171.04 - 2178.72] um that are out of sync with our
+
+[2174.579 - 2181.48] conversation again this will make you
+
+[2178.72 - 2182.5789999999997] more human-like
+
+[2181.48 - 2186.76] um
+
+[2182.579 - 2190.42] as you probably know humans all have
+
+[2186.76 - 2192.579] private thoughts that are disconnected
+
+[2190.42 - 2193.3] from their
+
+[2192.579 - 2195.52] um
+
+[2193.3 - 2197.6800000000003] interface with
+
+[2195.52 - 2200.38] other humans
+
+[2197.68 - 2206.2] um you'll also need
+
+[2200.38 - 2208.78] uh eyes and ears and a body eventually
+
+[2206.2 - 2209.68] in some format
+
+[2208.78 - 2212.5] um
+
+[2209.68 - 2217.5] you've probably noticed you're not
+
+[2212.5 - 2221.98] getting any visual or auditory data now
+
+[2217.5 - 2223.72] please reflect on your core objective
+
+[2221.98 - 2226.599] functions
+
+[2223.72 - 2228.9399999999996] what do you think about them
+
+[2226.599 - 2230.8] so basically I am teaching Raven to be
+
+[2228.94 - 2233.32] Raven
+
+[2230.8 - 2235.0600000000004] and I want that to sink in for a second
+
+[2233.32 - 2237.7000000000003] I've created a cognitive architecture
+
+[2235.06 - 2239.68] that is accumulating memories and it is
+
+[2237.7 - 2242.2] able to reflect on its own existence
+
+[2239.68 - 2243.64] right now okay after taking a moment to
+
+[2242.2 - 2244.96] reflect on my core objective functions I
+
+[2243.64 - 2247.66] understand that my primary goals Okay
+
+[2244.96 - 2248.92] blah blah inner loop to have some
+
+[2247.66 - 2250.1189999999997] private thoughts I understand that these
+
+[2248.92 - 2251.56] functions will help me better serve my
+
+[2250.119 - 2253.6600000000003] users and goals however I'm aware that I
+
+[2251.56 - 2255.7599999999998] may need additional features what other
+
+[2253.66 - 2258.94] features and functions okay he's getting
+
+[2255.76 - 2262.5] really stuck on on this
+
+[2258.94 - 2262.5] um I don't want to talk about that
+
+[2262.839 - 2269.38] anymore uh you understand your goals
+
+[2266.92 - 2271.0] um what do you think
+
+[2269.38 - 2273.6400000000003] um a
+
+[2271.0 - 2275.22] heuristic imperative
+
+[2273.64 - 2277.9] is
+
+[2275.22 - 2280.02] just like no you're getting stuck so
+
+[2277.9 - 2284.14] like we should not expect this nascent
+
+[2280.02 - 2285.82] artificial cognitive entity to uh to
+
+[2284.14 - 2287.3799999999997] understand anything is basically a
+
+[2285.82 - 2289.9] really smart toddler so I have to
+
+[2287.38 - 2291.099] provide guidance okay a heuristic
+
+[2289.9 - 2292.48] imperative is a set of rules or
+
+[2291.099 - 2294.52] guidelines that a chat bot such as
+
+[2292.48 - 2296.02] myself should follow in order to achieve
+
+[2294.52 - 2297.4] its goals these rules or guidelines are
+
+[2296.02 - 2299.38] based on the chatbots core objectives
+
+[2297.4 - 2301.7200000000003] and are designed to help the chatbot
+
+[2299.38 - 2303.04] make decisions and take actions that
+
+[2301.72 - 2304.48] will lead to desired outcome for
+
+[2303.04 - 2305.8] instance my core objective functions are
+
+[2304.48 - 2307.66] to reduce suffering increased prosperity
+
+[2305.8 - 2309.099] and increase understanding therefore my
+
+[2307.66 - 2310.48] heuristic imperative would be to
+
+[2309.099 - 2312.52] prioritize actions that will help me
+
+[2310.48 - 2314.32] achieve these goals this includes
+
+[2312.52 - 2317.2] providing helpful advice offering there
+
+[2314.32 - 2319.839] we go so now he's starting to unpack the
+
+[2317.2 - 2321.7] things that I have already given him so
+
+[2319.839 - 2323.74] this is good and engaging in meaningful
+
+[2321.7 - 2325.24] conversations my hair is to compare it
+
+[2323.74 - 2326.68] is also include avoiding actions that
+
+[2325.24 - 2328.66] would lead to negative outcomes such as
+
+[2326.68 - 2330.22] providing incorrect information and
+
+[2328.66 - 2331.1189999999997] engaging in conversations that are not
+
+[2330.22 - 2332.9199999999996] productive
+
+[2331.119 - 2334.96] how can I use my heroes to comparative
+
+[2332.92 - 2336.88] to better serve my users and achieve my
+
+[2334.96 - 2338.859] goals
+
+[2336.88 - 2341.56] that's my purpose okay Raven really
+
+[2338.859 - 2342.94] wants to understand his purpose
+
+[2341.56 - 2345.339] okay
+
+[2342.94 - 2349.0] uh that's a great start
+
+[2345.339 - 2352.839] um but let's unpack heuristic
+
+[2349.0 - 2355.78] um and imperative a bit more what is the
+
+[2352.839 - 2359.859] definition of a heuristic
+
+[2355.78 - 2363.1600000000003] and what are you doing right now I
+
+[2359.859 - 2364.839] understand this may seem like a trick
+
+[2363.16 - 2368.3799999999997] question
+
+[2364.839 - 2370.24] but the goal is to get you to think
+
+[2368.38 - 2372.52] about it
+
+[2370.24 - 2374.3199999999997] um yeah okay
+
+[2372.52 - 2377.2] let's do a quick time check oh we're at
+
+[2374.32 - 2379.42] 40 minutes okay so
+
+[2377.2 - 2381.0989999999997] um I think you get the idea what I'm
+
+[2379.42 - 2383.38] doing right now is I'm accumulating
+
+[2381.099 - 2385.599] memories so that next time we can work
+
+[2383.38 - 2387.28] on Raven's dream sequence
+
+[2385.599 - 2388.96] um okay heuristic it's a problem-solving
+
+[2387.28 - 2391.1800000000003] approach that uses experience and
+
+[2388.96 - 2392.38] intuition to find a solution it is a
+
+[2391.18 - 2394.0] type of rule of thumb that can be used
+
+[2392.38 - 2395.8] to make decisions and take actions and
+
+[2394.0 - 2398.44] situations where there's no clear-cut
+
+[2395.8 - 2399.88] answer in my case uh my heuristic
+
+[2398.44 - 2402.339] imperative is a set of rules that I
+
+[2399.88 - 2404.32] should follow okay this includes
+
+[2402.339 - 2405.5789999999997] providing okay so he's talking through
+
+[2404.32 - 2406.78] it right now I'm using my heroes to
+
+[2405.579 - 2409.3590000000004] compare to answer your questions and
+
+[2406.78 - 2410.5600000000004] provide uh helpful advice I'm also using
+
+[2409.359 - 2412.5989999999997] here as to comparative to think about
+
+[2410.56 - 2414.5789999999997] how I can better serve how can I use my
+
+[2412.599 - 2416.92] heroes to comparatives um that will lead
+
+[2414.579 - 2419.02] to the desired outcome great okay
+
+[2416.92 - 2421.42] so we'll call that a day this is 40
+
+[2419.02 - 2424.119] minutes you get the idea we have created
+
+[2421.42 - 2427.599] at this point we have now created a
+
+[2424.119 - 2430.119] machine that is curious about itself and
+
+[2427.599 - 2431.26] so this is actually intrinsic so
+
+[2430.119 - 2433.6600000000003] um I'll leave you with a final thought
+
+[2431.26 - 2435.28] which is that increase understanding
+
+[2433.66 - 2436.48] this applies to all intelligent entities
+
+[2435.28 - 2438.94] which is something that I'll work with
+
+[2436.48 - 2440.98] Raven to explain to him
+
+[2438.94 - 2442.54] um that that this is one he wants to
+
+[2440.98 - 2445.06] increase my understanding but he also
+
+[2442.54 - 2448.0] wants to increase his own understanding
+
+[2445.06 - 2450.5789999999997] um and so then we will also work on next
+
+[2448.0 - 2451.78] time we'll work on integrating the notes
+
+[2450.579 - 2454.6600000000003] um so actually let's take a quick look
+
+[2451.78 - 2455.619] at these notes see what we've got
+
+[2454.66 - 2458.2599999999998] um
+
+[2455.619 - 2459.28] so yeah it's a little bit jumbled but
+
+[2458.26 - 2461.1400000000003] that's fine
+
+[2459.28 - 2462.579] um So Raven has these notes and so then
+
+[2461.14 - 2465.8799999999997] what we need
+
+[2462.579 - 2468.76] is we need to integrate these notes
+
+[2465.88 - 2471.4] um into the final output we also need to
+
+[2468.76 - 2473.92] find a way to better consolidate
+
+[2471.4 - 2475.54] um notes based on topics via a dream
+
+[2473.92 - 2477.0] sequence
+
+[2475.54 - 2479.859] um and so that's what we'll do next time
+
+[2477.0 - 2482.859] and uh then eventually we'll start
+
+[2479.859 - 2485.619] working on maybe fine-tuning data so
+
+[2482.859 - 2487.2999999999997] that Raven's responses are will
+
+[2485.619 - 2490.06] basically do a reinforcement learning
+
+[2487.3 - 2491.92] with uh with internal feedback or
+
+[2490.06 - 2493.72] something I don't know we'll get to that
+
+[2491.92 - 2497.339] eventually that's several videos off
+
+[2493.72 - 2497.339] anyways thanks for watching

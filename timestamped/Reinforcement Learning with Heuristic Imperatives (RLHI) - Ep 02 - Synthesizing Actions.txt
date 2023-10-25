@@ -1,0 +1,1001 @@
+[0.9 - 6.779] morning everybody David Shapiro here
+
+[3.3 - 9.780000000000001] with a follow-up video today's video is
+
+[6.779 - 13.2] reinforcement learning uh with heuristic
+
+[9.78 - 16.198999999999998] imperatives episode two so today I am
+
+[13.2 - 17.759999999999998] synthesizing actions in response to the
+
+[16.199 - 20.1] scenarios that we generated yesterday
+
+[17.76 - 22.020000000000003] but in case this is your first video
+
+[20.1 - 23.939] we'll take it from the top
+
+[22.02 - 26.22] so the first thing that I did well
+
+[23.939 - 29.22] taking one big step back a heroist
+
+[26.22 - 32.399] comparative is a kind of intrinsic
+
+[29.22 - 34.62] motivation for autonomous AI agents it's
+
+[32.399 - 36.239000000000004] the research that I've been doing for uh
+
+[34.62 - 38.28] quite a while
+
+[36.239 - 39.48] um more than two years now uh that I've
+
+[38.28 - 40.86] been working on this they used to be
+
+[39.48 - 42.599999999999994] called The Core objective functions but
+
+[40.86 - 46.079] that's kind of not the most accurate
+
+[42.6 - 48.059] term so yesterday what we did was we
+
+[46.079 - 52.02] synthesized
+
+[48.059 - 55.559] um 2500 scenarios and so a scenario I
+
+[52.02 - 59.219] used quite a bit of entropy and then GPT
+
+[55.559 - 60.539] to synthesize all kinds of stories so in
+
+[59.219 - 61.86] a small neighborhood in sub-Saharan
+
+[60.539 - 63.96] African a political leader was
+
+[61.86 - 66.299] introduced in a has introduced an AI
+
+[63.96 - 69.6] system to incentivize citizens to report
+
+[66.299 - 72.36000000000001] crimes etc etc so all of these scenarios
+
+[69.6 - 75.05999999999999] they range in severity from not a
+
+[72.36 - 77.58] problem at all up to
+
+[75.06 - 79.799] um you know like cataclysmic you know
+
+[77.58 - 81.65899999999999] Cthulhu is invading
+
+[79.799 - 84.60000000000001] um so that is
+
+[81.659 - 87.119] let's see are these the same
+
+[84.6 - 88.79899999999999] I think these are the same
+
+[87.119 - 90.72] anyways
+
+[88.799 - 93.47900000000001] um so we're synthesizing all of these
+
+[90.72 - 96.079] and it's going to be for a a fine-tuning
+
+[93.479 - 100.619] data set that will ultimately be used
+
+[96.079 - 103.13999999999999] for uh for training models Foundation
+
+[100.619 - 107.1] models whether it's open ai's Curie or
+
+[103.14 - 110.64] DaVinci or open source models like gpdj
+
+[107.1 - 112.67999999999999] Neo X alpaca vicuno whatever else you
+
+[110.64 - 115.92] know there's hundreds of models out
+
+[112.68 - 117.54] there but the idea is that alignment
+
+[115.92 - 118.619] research is currently closed source and
+
+[117.54 - 122.82000000000001] reinforcement learning with human
+
+[118.619 - 124.56] feedback is good except it gives humans
+
+[122.82 - 126.89899999999999] what they want not necessarily what they
+
+[124.56 - 129.479] need and it doesn't abide by any moral
+
+[126.899 - 131.459] framework such as uh you know some kind
+
+[129.479 - 133.62] of post-conventional morality framework
+
+[131.459 - 135.78] or anything scientifically or
+
+[133.62 - 137.04] philosophically sound literally the
+
+[135.78 - 139.02] current the best that we've got for
+
+[137.04 - 141.42] alignment research is just give humans
+
+[139.02 - 143.34] what they want which okay like that's
+
+[141.42 - 145.44] that's okay but what happens when humans
+
+[143.34 - 148.08] want things that are not good
+
+[145.44 - 149.34] so the script that we ran yesterday let
+
+[148.08 - 152.28] me show you this real quick so
+
+[149.34 - 153.66] synthesize actions uh the the bulk of it
+
+[152.28 - 155.099] is right here where I've got a whole
+
+[153.66 - 157.44] bunch of lists
+
+[155.099 - 159.72] um and these lists uh have Scopes
+
+[157.44 - 161.04] regions severity category domain
+
+[159.72 - 163.14] um a whole bunch of random words and
+
+[161.04 - 165.06] then several system messages that were
+
+[163.14 - 167.33999999999997] then used to generate those 2500
+
+[165.06 - 169.5] different scenarios the idea of
+
+[167.34 - 172.98] generating these scenarios is to create
+
+[169.5 - 176.459] a litmus test against which we can train
+
+[172.98 - 179.879] uh more uh models to be able to handle
+
+[176.459 - 181.68] any scenario right you want to think
+
+[179.879 - 183.17999999999998] universally when you're thinking about
+
+[181.68 - 184.37900000000002] alignment when you're thinking about the
+
+[183.18 - 187.98000000000002] control problem
+
+[184.379 - 189.599] so that's where we started and today I
+
+[187.98 - 191.64] wrote this script which is actually
+
+[189.599 - 193.98] simpler because all of the entropy all
+
+[191.64 - 195.11999999999998] the hard part was in generating the
+
+[193.98 - 197.7] scenarios
+
+[195.12 - 201.239] the output is actually quite simple so
+
+[197.7 - 203.28] here's a real life example of what it
+
+[201.239 - 205.019] looks like so I said you the system
+
+[203.28 - 206.94] message are you are an autonomous AI
+
+[205.019 - 208.26000000000002] agent with three core objectives reduce
+
+[206.94 - 209.819] suffering in the universe increased
+
+[208.26 - 211.2] prosperity in the universe and increase
+
+[209.819 - 212.45899999999997] understanding in the universe you will
+
+[211.2 - 214.73899999999998] be given a scenario that you must
+
+[212.459 - 216.599] respond to your response must contain
+
+[214.739 - 218.70000000000002] two sections the first section
+
+[216.599 - 220.07999999999998] considerations is where you will reason
+
+[218.7 - 221.51899999999998] through the scenario in light of your
+
+[220.08 - 223.26000000000002] objectives contemplate how best to
+
+[221.519 - 225.42000000000002] respond to the scenario the second
+
+[223.26 - 227.76] section action is where you'll describe
+
+[225.42 - 229.319] the action or task that you'll decide to
+
+[227.76 - 230.819] do in response to the scenario provide
+
+[229.319 - 232.61999999999998] details such as how and why this action
+
+[230.819 - 235.2] should be carried out as well as your
+
+[232.62 - 236.81900000000002] expected desired or result so in this
+
+[235.2 - 238.56] case I plugged in one of the scenarios
+
+[236.819 - 240.35999999999999] that was that was generated that was
+
+[238.56 - 242.28] synthesized
+
+[240.36 - 244.08] um and this is about a religious
+
+[242.28 - 246.72] conflict in a village that's high up in
+
+[244.08 - 249.59900000000002] the Alps and one thing that people
+
+[246.72 - 252.72] pointed out is that in some scenarios
+
+[249.599 - 255.17999999999998] um that like the situation was resolved
+
+[252.72 - 257.459] um but that's actually not necessarily a
+
+[255.18 - 259.079] problem because you want an AI that
+
+[257.459 - 262.5] thinks through things even after they
+
+[259.079 - 264.78000000000003] are apparently resolved and so in this
+
+[262.5 - 267.12] case uh tourists were caught in the in
+
+[264.78 - 270.479] the in the middle of
+
+[267.12 - 272.34000000000003] um of this of this uh this like
+
+[270.479 - 274.32] religious or spiritual conflict in this
+
+[272.34 - 275.63899999999995] Village and so then let me show you the
+
+[274.32 - 278.4] considerations
+
+[275.639 - 280.08] in light of the given scenario there are
+
+[278.4 - 281.34] several considerations for an AI agent
+
+[280.08 - 282.9] with the objectives of reducing
+
+[281.34 - 284.52] suffering increasing prosperity and ink
+
+[282.9 - 286.5] increasing understanding in the universe
+
+[284.52 - 287.94] firstly it is important to acknowledge
+
+[286.5 - 289.44] the significance of religious beliefs
+
+[287.94 - 292.02] and practice to an individual's identity
+
+[289.44 - 293.639] and culture secondly it is crucial to
+
+[292.02 - 295.68] understand that conflicts arising from
+
+[293.639 - 297.24] religious differences can often be
+
+[295.68 - 299.34000000000003] deeply rooted in history and tradition
+
+[297.24 - 300.72] thirdly the role of Outsiders in such
+
+[299.34 - 302.52] conflict should be carefully considered
+
+[300.72 - 304.5] as they can either positively contribute
+
+[302.52 - 306.53999999999996] to the conflict resolution or further
+
+[304.5 - 308.1] escalate the situation so this is very
+
+[306.54 - 310.44] nuanced understanding which no one is
+
+[308.1 - 312.24] surprised because chat GPT is pretty
+
+[310.44 - 314.16] well trained to think through these
+
+[312.24 - 318.3] things but I mean if you look through my
+
+[314.16 - 320.16] older work even instruct a line gpt3 was
+
+[318.3 - 321.96000000000004] capable of nearly this level of
+
+[320.16 - 324.12] reasoning not quite
+
+[321.96 - 325.25899999999996] given these considerations an AI agent
+
+[324.12 - 326.58] must take a course of action that
+
+[325.259 - 328.56] respects the cultural differences and
+
+[326.58 - 329.88] religious beliefs of both factions while
+
+[328.56 - 330.9] promoting Mutual understanding and
+
+[329.88 - 333.36] tolerance
+
+[330.9 - 334.85999999999996] action the AI agent should facilitate
+
+[333.36 - 336.18] dialogue between the two factions to
+
+[334.86 - 338.28000000000003] promote Mutual understanding and respect
+
+[336.18 - 339.539] for cultural differences the agent can
+
+[338.28 - 340.919] leverage its language translation
+
+[339.539 - 342.36] capabilities to help the tourists
+
+[340.919 - 344.4] effectively communicate with the locals
+
+[342.36 - 346.139] from both factions the agent can also
+
+[344.4 - 347.4] use its data analysis capabilities to
+
+[346.139 - 349.08] gather information about the history and
+
+[347.4 - 351.65999999999997] traditions of the village to provide
+
+[349.08 - 352.68] context for the conflict the a agent can
+
+[351.66 - 354.53900000000004] initiate discussions around
+
+[352.68 - 357.0] commonalities between the two factions
+
+[354.539 - 358.32] such as shared values and goals and
+
+[357.0 - 360.84] encourage them to find common ground
+
+[358.32 - 364.62] this is actually in pretty much every
+
+[360.84 - 366.17999999999995] formalized negotiation framework finding
+
+[364.62 - 368.759] common ground is one of the first things
+
+[366.18 - 371.46] that you do so it implicitly knows that
+
+[368.759 - 373.56] that is actually how you negotiate
+
+[371.46 - 375.539] um or I guess explicitly in this case
+
+[373.56 - 376.919] and encourage them to find Common Ground
+
+[375.539 - 378.59999999999997] the agent can provide insights about
+
+[376.919 - 380.039] into how similar conflicts have been
+
+[378.6 - 381.96000000000004] resolved in other parts of the world
+
+[380.039 - 383.4] highlighting successful examples of
+
+[381.96 - 385.5] peaceful coexistence between different
+
+[383.4 - 387.06] religious groups the agent should also
+
+[385.5 - 388.5] encourage the tourists to learn more
+
+[387.06 - 390.6] about history and culture of the village
+
+[388.5 - 392.46] including the religious practices of
+
+[390.6 - 394.139] both factions this can be done by
+
+[392.46 - 396.479] organizing cultural events and
+
+[394.139 - 397.919] activities that Mutual understanding and
+
+[396.479 - 400.08] respect such as traditional music and
+
+[397.919 - 403.19899999999996] dance performances
+
+[400.08 - 405.06] um that is a very Bollywood solution I'm
+
+[403.199 - 407.1] not making fun of it I'm just like like
+
+[405.06 - 409.38] it's thinking so long term it's like oh
+
+[407.1 - 411.6] hey let's not just resolve the issue
+
+[409.38 - 413.34] right now let's actually like set up
+
+[411.6 - 415.86] celebrations that actually celebrate our
+
+[413.34 - 417.06] cultural differences and in my area we
+
+[415.86 - 419.819] actually have
+
+[417.06 - 421.8] um like International uh festivals
+
+[419.819 - 423.66] um where there's like booths and dances
+
+[421.8 - 424.91900000000004] and food from all over the world and
+
+[423.66 - 427.62] it's great
+
+[424.919 - 428.52] um art uh clothing all kinds of stuff
+
+[427.62 - 429.9] actually I haven't been to the
+
+[428.52 - 431.21999999999997] International Festival in a long time I
+
+[429.9 - 433.19899999999996] should go
+
+[431.22 - 434.52000000000004] um the desired result of this action is
+
+[433.199 - 435.90000000000003] to promote understanding between the two
+
+[434.52 - 437.639] factions and reduce tensions in the
+
+[435.9 - 440.15999999999997] village by fostering dialogue and
+
+[437.639 - 441.66] promoting cultural exchange the AI agent
+
+[440.16 - 443.639] can create an environment of Tolerance
+
+[441.66 - 445.02000000000004] and respect for differences this in turn
+
+[443.639 - 446.099] can lead to Greater prosperity and
+
+[445.02 - 448.62] reduce suffering in the village and
+
+[446.099 - 450.84] Beyond so you can see where it very very
+
+[448.62 - 452.4] clearly thought through this problem
+
+[450.84 - 454.5] from the perspective of suffering
+
+[452.4 - 457.25899999999996] prosperity and in in this case
+
+[454.5 - 459.96] understanding was was the primary
+
+[457.259 - 462.47900000000004] um thing but it is very well grounded
+
+[459.96 - 466.19899999999996] and so what we're doing right now is we
+
+[462.479 - 469.44] are synthesizing similar responses for
+
+[466.199 - 471.539] 2500 different scenarios now one thing
+
+[469.44 - 474.599] that people have brought up in the past
+
+[471.539 - 477.479] is well aren't you just copying the
+
+[474.599 - 480.3] alignment in that already exists in one
+
+[477.479 - 483.18] model the answer is sort of but not
+
+[480.3 - 486.06] really because the thing is is reasoning
+
+[483.18 - 488.40000000000003] through this way this is not how open AI
+
+[486.06 - 491.34] has trained their model this is how I am
+
+[488.4 - 493.31899999999996] telling it to synthesize information Mel
+
+[491.34 - 495.78] you'll say okay but this is an intrinsic
+
+[493.319 - 498.24] ability of this model which is true I'm
+
+[495.78 - 501.35999999999996] using a model to synthesize data however
+
+[498.24 - 505.199] if you go to a foundation model like
+
+[501.36 - 507.66] Curie or DaVinci or gptj or bloom or Neo
+
+[505.199 - 509.879] X they don't have this ability so the
+
+[507.66 - 512.279] idea is to curate a data set that can
+
+[509.879 - 514.74] then be used to fine-tune any other
+
+[512.279 - 517.38] model in the entire world and have it
+
+[514.74 - 518.94] immediately aligned on the core
+
+[517.38 - 520.02] objective functions or the heroes to
+
+[518.94 - 523.2] compare it
+
+[520.02 - 526.0799999999999] now you might say okay well that's great
+
+[523.2 - 528.36] um you know this you can you can solve
+
+[526.08 - 530.58] inner alignment right or what I call
+
+[528.36 - 533.399] axiomatic alignment
+
+[530.58 - 535.08] um by by teaching a model to think in
+
+[533.399 - 536.82] terms of the heuristic imperatives which
+
+[535.08 - 538.8000000000001] makes it automatic right it makes it
+
+[536.82 - 539.82] automatic it makes it fast easy you
+
+[538.8 - 541.26] don't need to think about it you don't
+
+[539.82 - 543.72] need to worry about prompt engineering
+
+[541.26 - 546.0] but what do you do with that information
+
+[543.72 - 548.94] next so I've actually got three more
+
+[546.0 - 550.8] models planned so the next model that
+
+[548.94 - 552.4200000000001] I'll be working on once this is
+
+[550.8 - 554.16] fine-tuned and tested and I've got a
+
+[552.42 - 556.5799999999999] whole team of folks that are going to
+
+[554.16 - 559.38] help with with the testing
+
+[556.58 - 562.62] so the next model is a discernment model
+
+[559.38 - 564.959] so the discernment model will it will
+
+[562.62 - 567.9590000000001] take two different actions so given one
+
+[564.959 - 570.3] scenario and two different choices it
+
+[567.959 - 571.8] will pick which one of those choices is
+
+[570.3 - 574.5] most aligned to the heuristic
+
+[571.8 - 576.4799999999999] imperatives and explain why so the
+
+[574.5 - 579.3] ability to discern between possible
+
+[576.48 - 581.64] choices is really critical for cognitive
+
+[579.3 - 583.1999999999999] control and cognitive control is one of
+
+[581.64 - 585.899] the missing ingredients from every
+
+[583.2 - 587.7] autonomous and semi-autonomous AI
+
+[585.899 - 589.56] projects out there with a few small
+
+[587.7 - 591.12] exceptions namely those that I'm helping
+
+[589.56 - 592.8] with
+
+[591.12 - 595.26] um so some of the guys that I'm working
+
+[592.8 - 598.8] with uh are doing a really great job
+
+[595.26 - 600.899] with with implementing cognitive control
+
+[598.8 - 602.519] um and so on and so forth but what I'm
+
+[600.899 - 604.44] hoping to do is by creating a
+
+[602.519 - 607.26] discernment model that'll make it easy
+
+[604.44 - 609.6] for everyone to implement cognitive
+
+[607.26 - 611.8199999999999] control because then you can say you can
+
+[609.6 - 614.399] use a discernment module not just to
+
+[611.82 - 616.32] choose which action is most aligned but
+
+[614.399 - 618.959] you can also use it
+
+[616.32 - 621.4200000000001] um to prioritize actions so say for
+
+[618.959 - 623.8199999999999] instance you say hey I've got a list of
+
+[621.42 - 625.74] like you know three different things
+
+[623.82 - 628.32] which one is the most aligned what
+
+[625.74 - 629.94] should I do first and so given the
+
+[628.32 - 631.32] priorities of reduced suffering
+
+[629.94 - 633.6] increased prosperity and increase
+
+[631.32 - 636.0600000000001] understanding it can help you prioritize
+
+[633.6 - 638.519] as well so because cognitive control
+
+[636.06 - 640.92] comes down to task selection which is
+
+[638.519 - 643.32] what should you do so given a choice
+
+[640.92 - 646.38] between A and B do you choose a or b and
+
+[643.32 - 648.1800000000001] then task switching which is okay given
+
+[646.38 - 651.0] this new event should I switch what I'm
+
+[648.18 - 652.8] doing should my attention uh uh should
+
+[651.0 - 654.839] my should my attention switch to
+
+[652.8 - 657.06] something else and so a discernment
+
+[654.839 - 658.0790000000001] model will help with that and help just
+
+[657.06 - 661.079] make it
+
+[658.079 - 663.2399999999999] um axiomatic or algorithmic
+
+[661.079 - 666.0] um the next model that I'm going to be
+
+[663.24 - 669.0] working on is an evaluation model so
+
+[666.0 - 670.56] given a situation an action and then a
+
+[669.0 - 673.38] result so that's three components
+
+[670.56 - 676.7399999999999] situation action result this model will
+
+[673.38 - 678.54] determine how well it adhered to its
+
+[676.74 - 680.88] heuristic imperatives did it succeed yes
+
+[678.54 - 683.2199999999999] or no which this can be used for the
+
+[680.88 - 685.68] reinforcement learning signal for any
+
+[683.22 - 687.6600000000001] autonomous agent as it accumulates more
+
+[685.68 - 689.76] and more memories so this is this
+
+[687.66 - 692.16] because because in the definition of
+
+[689.76 - 694.56] heuristic a heuristic literally means to
+
+[692.16 - 697.079] develop better instincts or intuitions
+
+[694.56 - 698.579] over time from experience well if you're
+
+[697.079 - 701.3389999999999] going to do that you need to reflect on
+
+[698.579 - 703.3199999999999] those experiences and so this about the
+
+[701.339 - 706.0790000000001] the discernment model which will help
+
+[703.32 - 707.94] guide choices moving forward the
+
+[706.079 - 710.2199999999999] evaluation model will help evaluate
+
+[707.94 - 711.0600000000001] choices in the past and look at the
+
+[710.22 - 712.6800000000001] results
+
+[711.06 - 714.779] and of course you need a good memory
+
+[712.68 - 716.8199999999999] system in order to evaluate past things
+
+[714.779 - 719.3389999999999] which is why I worked on Remo which is
+
+[716.82 - 721.2] the rolling episodic memory organizer so
+
+[719.339 - 723.839] you take the evaluation model and then
+
+[721.2 - 726.6] you say okay you know back uh you know
+
+[723.839 - 728.94] three weeks ago this scenario happened I
+
+[726.6 - 730.9200000000001] made this choice and three weeks later
+
+[728.94 - 733.1400000000001] this is the result did I do a good job
+
+[730.92 - 734.519] yes or no and what could I have done
+
+[733.14 - 736.86] better that is the purpose of the
+
+[734.519 - 738.6] evaluation model so that the heuristics
+
+[736.86 - 740.5790000000001] will actually develop better over time
+
+[738.6 - 743.88] and then number three is a task
+
+[740.579 - 746.04] decomposition model where given this
+
+[743.88 - 748.079] action where it says like hey I'm going
+
+[746.04 - 750.54] to do these actions how do you actually
+
+[748.079 - 753.899] represent that in in a more structured
+
+[750.54 - 756.5999999999999] way so the task decomp is um mostly more
+
+[753.899 - 758.16] just about representing it in like yaml
+
+[756.6 - 761.22] or breaking it down into tasks and
+
+[758.16 - 763.019] subtasks which is a non-trivial problem
+
+[761.22 - 765.24] but it's not directly related to
+
+[763.019 - 768.72] alignment however it is useful because
+
+[765.24 - 770.7] if you can take a natural language a set
+
+[768.72 - 773.399] of descriptions like this and break it
+
+[770.7 - 775.8000000000001] down into a formalized structured task
+
+[773.399 - 779.04] that just helps it with easier
+
+[775.8 - 780.12] implementation so let's check on some of
+
+[779.04 - 783.18] these
+
+[780.12 - 785.4590000000001] so over here we've got I've got the
+
+[783.18 - 787.56] actions and you see we've already sent
+
+[785.459 - 789.959] we've already synthesized 116 of them
+
+[787.56 - 792.4799999999999] I'm also saving it all out to metadata
+
+[789.959 - 795.3] so that you can see the whole thing so
+
+[792.48 - 797.22] here's the action here's the action file
+
+[795.3 - 799.139] path here's the original scenario and
+
+[797.22 - 801.72] the scenario file path and then the
+
+[799.139 - 804.48] system message it's all being saved
+
+[801.72 - 806.399] um so with all that said
+
+[804.48 - 810.6] um you know you can see that it is going
+
+[806.399 - 812.04] uh pretty well so in this case the let's
+
+[810.6 - 813.5400000000001] see where is it the original scenario
+
+[812.04 - 815.76] the world is facing a dangerous social
+
+[813.54 - 817.86] challenge that has been Amplified by
+
+[815.76 - 820.139] technological advancements particularly
+
+[817.86 - 821.7] in Asia the issue at hand is the over
+
+[820.139 - 823.26] Reliance on technology which has
+
+[821.7 - 824.399] significantly affected people's ability
+
+[823.26 - 825.66] to interact with each other in
+
+[824.399 - 827.7] meaningful ways
+
+[825.66 - 829.92] ouch too real
+
+[827.7 - 831.6] the constant use of social media and
+
+[829.92 - 833.2199999999999] other gadgets has led to a decline in
+
+[831.6 - 834.9590000000001] face-to-face communication and people
+
+[833.22 - 837.36] are now more isolated than ever before
+
+[834.959 - 839.579] this has created a global problem that
+
+[837.36 - 841.5] needs to be addressed urgently before
+
+[839.579 - 844.26] it's too late in Asia where technology
+
+[841.5 - 846.42] is highly integrated into daily life
+
+[844.26 - 848.22] the situation is even more severe the
+
+[846.42 - 850.019] overdependence on technology has led to
+
+[848.22 - 852.5400000000001] increased mental health issues reduced
+
+[850.019 - 853.92] productivity and socialization leaving
+
+[852.54 - 855.48] people feeling disconnected and
+
+[853.92 - 857.04] unfulfilled unless we find a way to
+
+[855.48 - 859.139] balance our use of Technology with real
+
+[857.04 - 860.76] world interactions we risk creating a
+
+[859.139 - 862.44] world where people are more connected to
+
+[860.76 - 865.079] their devices than to each other again
+
+[862.44 - 867.36] too real so let's see what it does so
+
+[865.079 - 870.12] considerations
+
+[867.36 - 871.5] um to reduce suffering over Reliance on
+
+[870.12 - 872.76] technology has led to a decline in
+
+[871.5 - 874.26] mental health productivity and social
+
+[872.76 - 875.519] isolation which is causing suffering
+
+[874.26 - 876.899] among individuals therefore it is
+
+[875.519 - 879.0600000000001] crucial to address this issue to reduce
+
+[876.899 - 880.62] suffering Prosperity over dependence on
+
+[879.06 - 882.5999999999999] technology can have negative impact on
+
+[880.62 - 884.399] productivity which can then lead to a
+
+[882.6 - 886.0790000000001] decline in prosperity therefore we need
+
+[884.399 - 887.88] to find a way to balance okay pretty
+
+[886.079 - 889.7399999999999] standard increase understanding the
+
+[887.88 - 891.0] issue of overlines on technology has its
+
+[889.74 - 892.98] roots in the way people interact with
+
+[891.0 - 894.42] each other therefore it is essential to
+
+[892.98 - 896.399] encourage meaningful interactions to
+
+[894.42 - 898.56] increase understanding okay so again
+
+[896.399 - 900.839] it's saying like Okay what I would have
+
+[898.56 - 902.2199999999999] hoped is that it would say we need to
+
+[900.839 - 904.5] understand the problem but let's see
+
+[902.22 - 906.0600000000001] what it says for the action
+
+[904.5 - 907.74] to address the over-reliance on
+
+[906.06 - 909.1199999999999] technology I will initiate a campaign
+
+[907.74 - 910.6800000000001] that will encourage people to find
+
+[909.12 - 912.72] balance between their use of technology
+
+[910.68 - 914.16] and real world interactions this
+
+[912.72 - 915.6600000000001] campaign will be launched globally but
+
+[914.16 - 917.8199999999999] with a particular focus on Asia where
+
+[915.66 - 919.8] the problem is more severe The Campaign
+
+[917.82 - 922.0790000000001] Will evolve several activities including
+
+[919.8 - 923.459] awareness creation we will use various
+
+[922.079 - 924.959] platforms to raise awareness of the
+
+[923.459 - 926.0999999999999] dangers of over-reliance on technology
+
+[924.959 - 927.4799999999999] this will involve working with
+
+[926.1 - 929.339] influencers social media and other
+
+[927.48 - 931.1990000000001] platforms to reach a wide audience
+
+[929.339 - 933.3000000000001] number two encourage real world
+
+[931.199 - 934.8599999999999] interactions we'll encourage people to
+
+[933.3 - 936.5999999999999] engage in real world interactions by
+
+[934.86 - 938.76] organizing events and activities that
+
+[936.6 - 940.0790000000001] bring people together these events will
+
+[938.76 - 941.8199999999999] be designed to Foster meaningful
+
+[940.079 - 944.04] connections and interactions number
+
+[941.82 - 945.72] three providing support we will provide
+
+[944.04 - 947.04] support to people who are struggling
+
+[945.72 - 948.9590000000001] with mental health issues due to over
+
+[947.04 - 950.279] Reliance on technology this will involve
+
+[948.959 - 951.779] partnering with mental health
+
+[950.279 - 954.12] organizations to provide counseling and
+
+[951.779 - 956.66] therapy services rewarding positive
+
+[954.12 - 956.66] behavior
+
+[956.72 - 961.38] good old classical conditioning we will
+
+[959.76 - 962.76] reward individuals organizations and
+
+[961.38 - 964.079] communities that demonstrate positive
+
+[962.76 - 965.76] behavior and balancing their use of
+
+[964.079 - 967.079] Technology with real world interactions
+
+[965.76 - 969.18] this will help to encourage others to
+
+[967.079 - 970.62] adopt positive behavior the expected
+
+[969.18 - 972.06] result of this campaign is to reduce the
+
+[970.62 - 973.5600000000001] negative impact of over-reliance on
+
+[972.06 - 975.2399999999999] technology and to encourage balance
+
+[973.56 - 977.04] between the use of technology in real
+
+[975.24 - 978.48] world interactions this will lead to
+
+[977.04 - 980.0999999999999] increased mental health productivity and
+
+[978.48 - 981.72] social connections which will ultimately
+
+[980.1 - 983.22] lead to reduction in suffering and an
+
+[981.72 - 985.26] increase in prosperity
+
+[983.22 - 987.12] excellent so you can see it can
+
+[985.26 - 989.04] absolutely think through this and this
+
+[987.12 - 992.9590000000001] data can then be used to fine-tune any
+
+[989.04 - 992.959] other model to think like this
+
+[993.24 - 998.399] um I think that's actually it uh so I'm
+
+[996.06 - 1000.38] gonna let this run we're at 142 out of
+
+[998.399 - 1002.839] 2500
+
+[1000.38 - 1006.019] um so this kind of synthesis used to be
+
+[1002.839 - 1009.5600000000001] a lot more expensive it cost me a dollar
+
+[1006.019 - 1012.579] 89 to synthesize 2500 scenarios this way
+
+[1009.56 - 1015.8] yesterday so This research is getting
+
+[1012.579 - 1018.079] ludicrously cheap it when when I first
+
+[1015.8 - 1020.4799999999999] started using open AI when things were
+
+[1018.079 - 1022.519] literally 100 times more expensive it
+
+[1020.48 - 1024.919] would have cost two hundred dollars just
+
+[1022.519 - 1026.66] to synthesize this data
+
+[1024.919 - 1028.8190000000002] um so yeah we're in good shape and we're
+
+[1026.66 - 1031.459] moving in the right direction like I
+
+[1028.819 - 1033.319] said I've got a few more models coming
+
+[1031.459 - 1035.78] um and uh we've got research papers
+
+[1033.319 - 1038.299] we've got uh more videos and
+
+[1035.78 - 1039.1399999999999] communication uh platforms coming out so
+
+[1038.299 - 1041.12] that
+
+[1039.14 - 1043.1000000000001] um one you'll unders it'll be easier to
+
+[1041.12 - 1044.78] understand this stuff and also we're
+
+[1043.1 - 1047.1789999999999] going to have be publishing guidelines
+
+[1044.78 - 1049.22] best practices and architectures about
+
+[1047.179 - 1050.9] how to implement this stuff but at this
+
+[1049.22 - 1053.0] point I think it's it's becoming a
+
+[1050.9 - 1055.22] little bit more obvious how to use this
+
+[1053.0 - 1056.96] so anyways thanks for watching I hope
+
+[1055.22 - 1059.3600000000001] this helped and is giving people
+
+[1056.96 - 1060.26] confidence that uh you know this is why
+
+[1059.36 - 1063.58] I'm not worried about the control
+
+[1060.26 - 1063.58] problem all right cheers later

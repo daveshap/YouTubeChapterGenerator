@@ -1,0 +1,1039 @@
+[0.84 - 7.62] morning everybody David Shapiro here
+
+[3.12 - 10.379999999999999] with a breakdown so yesterday we had
+
+[7.62 - 13.2] Microsoft with their Bing announcement
+
+[10.38 - 17.46] and demonstration and this morning we
+
+[13.2 - 20.039] had Google with Bard and then some so
+
+[17.46 - 22.14] uh let's break this down uh in case you
+
+[20.039 - 25.740000000000002] haven't seen it yet uh there was a nice
+
+[22.14 - 28.740000000000002] little demo of of Bing where you can ask
+
+[25.74 - 31.619] about uh you know getting a dog and then
+
+[28.74 - 33.96] you basically get a chat GPT like output
+
+[31.619 - 36.899] but it does cite its sources which is
+
+[33.96 - 38.399] really cool so I get the impression that
+
+[36.899 - 39.899] there's a little bit more going on
+
+[38.399 - 42.6] behind the scenes where they're probably
+
+[39.899 - 45.36] doing uh integrating search results and
+
+[42.6 - 46.620000000000005] citing their sources as they go which is
+
+[45.36 - 49.62] really good
+
+[46.62 - 52.86] um having using the internet as a source
+
+[49.62 - 54.059] of declarative knowledge good on you
+
+[52.86 - 55.44] um there's still going to be gaps in
+
+[54.059 - 57.059] this but we don't have to take a deep
+
+[55.44 - 61.379] dive into that so
+
+[57.059 - 62.64] uh if you get on it you can expand it uh
+
+[61.379 - 64.86] I don't know I don't know how broadly
+
+[62.64 - 66.96000000000001] available this is yet uh of course it's
+
+[64.86 - 69.6] also just the first release it's going
+
+[66.96 - 71.39999999999999] to be improved over time uh but as an
+
+[69.6 - 73.91999999999999] initial showing it's like okay cool this
+
+[71.4 - 76.58000000000001] is basically chat GPT directly in your
+
+[73.92 - 80.58] browser with citations sorted or
+
+[76.58 - 84.9] citations uh provided rather not sorted
+
+[80.58 - 87.6] um now today though Google had their
+
+[84.9 - 91.68] expected announcement of Bard but they
+
+[87.6 - 95.33999999999999] went above and beyond so they had a lot
+
+[91.68 - 97.97900000000001] on visual search with Google Lens as
+
+[95.34 - 99.78] well as Google Maps both of those are
+
+[97.979 - 103.14] roughly the same kind of thing where
+
+[99.78 - 106.02] it's about being in the real world and
+
+[103.14 - 110.159] more visual data Google immersive view
+
+[106.02 - 112.56] in maps looks incredible so they use a
+
+[110.159 - 115.56] new technology called Nerf or a neural
+
+[112.56 - 118.2] Radiance field there's a great video on
+
+[115.56 - 119.57900000000001] this from corridor through which I
+
+[118.2 - 121.02] definitely recommend you check out I
+
+[119.579 - 124.02] think it was about four two or two to
+
+[121.02 - 126.719] four months ago anyways uh I told a
+
+[124.02 - 128.28] friend of mine uh about six or seven
+
+[126.719 - 129.72] months ago that that neural
+
+[128.28 - 131.58] representations were going to be the way
+
+[129.72 - 133.8] of the future we were talking about deep
+
+[131.58 - 136.20000000000002] fakes and then neural Radiance Fields
+
+[133.8 - 138.0] come out which is basically I think that
+
+[136.2 - 140.879] neural Radiance fields are going to
+
+[138.0 - 145.92] completely change the way that we do
+
+[140.879 - 147.66] movies uh film TV uh it it's interactive
+
+[145.92 - 150.0] as well so this could change the way
+
+[147.66 - 152.94] that we do games I think the future is
+
+[150.0 - 154.8] neural representations and Google nailed
+
+[152.94 - 156.599] it they stuck The Landing with the
+
+[154.8 - 159.59900000000002] immersive view on maps you can actually
+
+[156.599 - 161.29999999999998] go in and walk through in in fully
+
+[159.599 - 163.73899999999998] rendered 3D
+
+[161.3 - 165.72] any locations that they have with the
+
+[163.739 - 167.81900000000002] neural Radiance fields
+
+[165.72 - 170.4] um and then they had this uh these
+
+[167.819 - 173.33999999999997] little opera singing blobs uh for their
+
+[170.4 - 174.84] their arts and culture aspect and uh
+
+[173.34 - 176.58] we'll get it will get a little bit more
+
+[174.84 - 180.12] into this in the future but I also think
+
+[176.58 - 183.12] that we are seeing the very beginning of
+
+[180.12 - 186.06] AI generated entertainment
+
+[183.12 - 189.06] um the combination of generative AI in
+
+[186.06 - 192.659] in the form of large language models uh
+
+[189.06 - 194.879] uh text image text to video uh text
+
+[192.659 - 197.519] audio in this case these these opera
+
+[194.879 - 199.26] singers are all completely synthesized
+
+[197.519 - 202.019] um and then also neural representations
+
+[199.26 - 203.7] for interactive aspects such as neural
+
+[202.019 - 205.37900000000002] Radiance Fields when we'll get a little
+
+[203.7 - 207.54] bit more into that
+
+[205.379 - 208.85999999999999] um with a with a nice little Hidden Gem
+
+[207.54 - 210.48] at the end of the video so stick around
+
+[208.86 - 211.92000000000002] until the end
+
+[210.48 - 212.7] um where I talk about where this is
+
+[211.92 - 214.55999999999997] going
+
+[212.7 - 217.79999999999998] Okay so
+
+[214.56 - 220.5] I uh I did a little poll I did one on
+
+[217.8 - 222.72] Twitter and YouTube uh now there is
+
+[220.5 - 225.299] obviously some bias in this because uh
+
+[222.72 - 228.54] people that follow me are more likely to
+
+[225.299 - 231.84] uh see this poll and reply but on both
+
+[228.54 - 234.659] platforms Google was chosen as the clear
+
+[231.84 - 239.34] winner uh of this fight
+
+[234.659 - 241.56] um with 70 on on YouTube and 62 on
+
+[239.34 - 244.379] Twitter now I have way fewer followers
+
+[241.56 - 247.31900000000002] on Twitter so this is probably a more
+
+[244.379 - 249.29899999999998] fair representation whereas uh my
+
+[247.319 - 253.07999999999998] followers on YouTube are going to be
+
+[249.299 - 254.76000000000002] familiar with uh uh some of my prior
+
+[253.08 - 257.1] prior beliefs around cognitive
+
+[254.76 - 258.419] architecture and so on which is why I
+
+[257.1 - 261.47900000000004] favor Google
+
+[258.419 - 264.96] uh if I were a betting man now
+
+[261.479 - 267.78] um so General consensus seems to be that
+
+[264.96 - 271.44] Google has about a two to one uh
+
+[267.78 - 272.82] advantage over Microsoft with Bing we'll
+
+[271.44 - 275.94] be curious to see how these numbers
+
+[272.82 - 277.259] change after today I suspect this is
+
+[275.94 - 278.639] going to tip a little bit more in the
+
+[277.259 - 280.91900000000004] favor of Google
+
+[278.639 - 282.96000000000004] uh one thing that came up in this poll
+
+[280.919 - 283.88] though was that a bunch of folks were
+
+[282.96 - 287.4] saying
+
+[283.88 - 288.84] we are going to see a paradigm shift in
+
+[287.4 - 291.84] the way that we approach the internet
+
+[288.84 - 293.34] and web and and so on and I've I've had
+
+[291.84 - 295.5] people recommend all kinds of things
+
+[293.34 - 297.35999999999996] like we're going to see a new layer of
+
+[295.5 - 299.22] abstraction where instead of websites
+
+[297.36 - 301.32] we're going to have a different uh you
+
+[299.22 - 302.88000000000005] know like the chat or another kind of
+
+[301.32 - 305.34] way of interacting with the internet
+
+[302.88 - 307.74] we're going to have entirely new AI
+
+[305.34 - 310.79999999999995] experiences uh there's going to be a
+
+[307.74 - 312.3] third party an underdog maybe an open
+
+[310.8 - 316.32] source solution
+
+[312.3 - 318.12] so there is some energy around hey maybe
+
+[316.32 - 321.24] AI is going to completely change the
+
+[318.12 - 322.919] landscape I'm not sure that I am in that
+
+[321.24 - 325.08] camp just yet because when you look at
+
+[322.919 - 326.69899999999996] the people that are best equipped to
+
+[325.08 - 328.38] adapt to this change it's going to be
+
+[326.699 - 330.78000000000003] the ones that are one leading the
+
+[328.38 - 333.24] research and two have the money to Pivot
+
+[330.78 - 336.17999999999995] and Microsoft and Google have both of
+
+[333.24 - 338.699] those in Spades remember that it was
+
+[336.18 - 340.62] Google who started this with their paper
+
+[338.699 - 343.199] their original papers on Transformers
+
+[340.62 - 344.34000000000003] back in what 2016
+
+[343.199 - 345.6] um and that has led to the current
+
+[344.34 - 348.25899999999996] Revolution
+
+[345.6 - 350.52000000000004] uh so they've been here for years
+
+[348.259 - 352.91900000000004] Microsoft is technically still playing
+
+[350.52 - 354.539] catch-up although open AI is a little
+
+[352.919 - 356.52] bit ahead you know but in the grand
+
+[354.539 - 358.199] scheme of things Microsoft and Google
+
+[356.52 - 360.35999999999996] are neck and neck in this technology
+
+[358.199 - 362.82] they're they're leading the charge and
+
+[360.36 - 365.16] setting the tone so I think that they
+
+[362.82 - 368.639] are probably going to be the preeminent
+
+[365.16 - 370.8] uh players when it comes to Ai and
+
+[368.639 - 372.24] neural networks and particularly search
+
+[370.8 - 374.40000000000003] as well as some of these other
+
+[372.24 - 377.039] Technologies uh such as the digital
+
+[374.4 - 378.84] avatars and so and and and voice and
+
+[377.039 - 382.68] image generation
+
+[378.84 - 384.539] now I did however start another poll
+
+[382.68 - 388.74] based on some of those responses because
+
+[384.539 - 391.62] I was curious uh is search toast maybe
+
+[388.74 - 394.199] they're on to something maybe we will
+
+[391.62 - 396.84000000000003] see the death of conventional search
+
+[394.199 - 399.36] through you know your search bar it
+
+[396.84 - 401.21999999999997] could entirely be that search is going
+
+[399.36 - 403.62] the way of the dinosaurs after all
+
+[401.22 - 406.08000000000004] younger younger folks these days gen Z
+
+[403.62 - 408.84000000000003] they're more likely to use tick tock to
+
+[406.08 - 410.81899999999996] search which that still blows my mind
+
+[408.84 - 413.75899999999996] um you know because it's like Tick Tock
+
+[410.819 - 415.68] is a Chinese platform that is designed
+
+[413.759 - 416.699] to be addictive I don't know why you
+
+[415.68 - 418.919] would want to use that for information
+
+[416.699 - 421.44] foraging purposes
+
+[418.919 - 423.06] um but hey it is what it is
+
+[421.44 - 425.52] um so
+
+[423.06 - 428.52] anyways the results here were mixed now
+
+[425.52 - 431.75899999999996] to be fair there's only 162 votes total
+
+[428.52 - 434.28] between these two but they are opposite
+
+[431.759 - 436.86] between Twitter and YouTube so
+
+[434.28 - 440.81899999999996] search is here forever roughly 50 50
+
+[436.86 - 443.16] with searches toasted maybe we will see
+
+[440.819 - 445.62] a paradigm shift where people are just
+
+[443.16 - 447.59900000000005] not going to use search anymore imagine
+
+[445.62 - 450.539] you know people there's already people
+
+[447.599 - 453.0] using replica uh their chat bot imagine
+
+[450.539 - 455.15999999999997] that you have an app on your phone that
+
+[453.0 - 457.86] is your personal information concierge
+
+[455.16 - 460.08000000000004] and all you do is chat with that that's
+
+[457.86 - 462.18] honestly what I want I don't want to
+
+[460.08 - 464.88] cruise Reddit which is going to give me
+
+[462.18 - 466.919] you know depressing information and doom
+
+[464.88 - 469.56] scrolling I want to have a meaningful
+
+[466.919 - 472.44] conversation with an intelligent entity
+
+[469.56 - 474.06] that can tell me like the no one knows
+
+[472.44 - 476.16] what I care about like you know nuclear
+
+[474.06 - 478.8] fusion and mRNA and Rejuvenation
+
+[476.16 - 480.66] therapies and Singularity and AI I want
+
+[478.8 - 483.0] to have something that goes and finds
+
+[480.66 - 484.44] the information that I want and hand
+
+[483.0 - 487.199] delivers it to me and can have a
+
+[484.44 - 489.419] conversation now Google News already
+
+[487.199 - 492.06] does that I get most of my news by
+
+[489.419 - 494.69899999999996] swiping um swiping left on my Android
+
+[492.06 - 496.44] phone and it has a curated news feed
+
+[494.699 - 499.319] that is already pretty well custom
+
+[496.44 - 502.199] tailored to what I want to know about
+
+[499.319 - 503.879] so you slap Google barred on that and
+
+[502.199 - 506.099] that is going to be the primary way that
+
+[503.879 - 508.91900000000004] I interact with the internet so it's an
+
+[506.099 - 510.65999999999997] it is possible that search is going the
+
+[508.919 - 514.4399999999999] way of the dinosaurs search as we know
+
+[510.66 - 516.3000000000001] it obviously search is still there but
+
+[514.44 - 517.62] maybe there is something to this idea
+
+[516.3 - 519.7189999999999] that we're going to have another layer
+
+[517.62 - 521.94] on top of it and then of course you know
+
+[519.719 - 525.4200000000001] these tools cite their sources so then
+
+[521.94 - 526.98] if I have Google bard or another uh you
+
+[525.42 - 528.42] know Bing or whatever that I'm
+
+[526.98 - 529.9200000000001] interacting with and it's and I'm
+
+[528.42 - 531.779] talking to it about news a social
+
+[529.92 - 533.2199999999999] landscape whatever what are my friends
+
+[531.779 - 534.66] up to
+
+[533.22 - 537.0600000000001] um you know who should I what friends
+
+[534.66 - 540.0] should I call today you know go read
+
+[537.06 - 541.6199999999999] their Twitter feeds for me or whatever
+
+[540.0 - 542.82] um you know it is possible that we're
+
+[541.62 - 544.86] going to go that way there's no
+
+[542.82 - 547.2600000000001] consensus which is really interesting to
+
+[544.86 - 549.9590000000001] me is I thought it would be like really
+
+[547.26 - 552.54] obvious like people are saying no AI is
+
+[549.959 - 555.42] going to completely replace search or no
+
+[552.54 - 557.6999999999999] search is obviously going to stay
+
+[555.42 - 558.959] um if there's mix if the results are
+
+[557.7 - 561.12] this mixed I think it's going to be both
+
+[558.959 - 563.04] right this is a false dichotomy it's a
+
+[561.12 - 564.6] false choice but I thought these results
+
+[563.04 - 565.38] were very interesting so I wanted to
+
+[564.6 - 569.22] share
+
+[565.38 - 572.58] okay so let's do a breakdown uh a pros
+
+[569.22 - 574.62] and cons view of Microsoft so
+
+[572.58 - 576.839] Bing had a good showing
+
+[574.62 - 578.88] um they had a good live demo uh it
+
+[576.839 - 581.1] obviously works it is a little bit on
+
+[578.88 - 582.48] the slow side which they addressed
+
+[581.1 - 584.399] um or maybe it was some of the some of
+
+[582.48 - 586.019] the interviews addressed
+
+[584.399 - 587.279] um I watched an interview with Satya
+
+[586.019 - 589.44] Nadella
+
+[587.279 - 592.14] um and he's got a very clear-headed
+
+[589.44 - 594.9590000000001] approach to wanting to take a larger
+
+[592.14 - 597.18] market share of of search and I think
+
+[594.959 - 600.8389999999999] that being with AI will do that
+
+[597.18 - 603.18] especially since uh chat GPT and gpt3
+
+[600.839 - 604.9200000000001] are going to be integrated across
+
+[603.18 - 607.14] Microsoft's landscape they're already
+
+[604.92 - 610.38] rolling out teams premium with chat GPT
+
+[607.14 - 612.36] built in I have had the privilege of
+
+[610.38 - 615.06] speaking with various teams and product
+
+[612.36 - 617.279] owners throughout Microsoft
+
+[615.06 - 619.8599999999999] um they the the entire organization at
+
+[617.279 - 622.019] Microsoft is working on integrating uh
+
+[619.86 - 625.019] GPT Technologies
+
+[622.019 - 628.74] um and so we are going to see business
+
+[625.019 - 631.86] software very quickly pivot to be truly
+
+[628.74 - 634.86] like 21st century or AI based Microsoft
+
+[631.86 - 638.16] has Windows which runs desktop PCS
+
+[634.86 - 640.86] gaming and server infrastructure
+
+[638.16 - 644.399] um so I can imagine that uh businesses
+
+[640.86 - 647.6] are going to really benefit from AI
+
+[644.399 - 651.66] integration above and beyond just Bing
+
+[647.6 - 654.3000000000001] now another Pro in the in the uh column
+
+[651.66 - 657.36] for Microsoft is they can afford to lose
+
+[654.3 - 659.9399999999999] the search War Microsoft has so many
+
+[657.36 - 662.339] other business segments they are like a
+
+[659.94 - 665.0400000000001] uh they're like a a federation or A
+
+[662.339 - 668.5790000000001] Confederacy of business units all of
+
+[665.04 - 671.519] which provide value whereas Google is
+
+[668.579 - 673.8599999999999] monolithic 70 I think it's 70 to 90
+
+[671.519 - 676.5] percent of Google's revenue comes from
+
+[673.86 - 679.2] search so and we'll get into that in
+
+[676.5 - 681.899] just a minute now that being said the
+
+[679.2 - 683.519] cons on Microsoft side is that it was a
+
+[681.899 - 685.68] pretty anemic showing they had one
+
+[683.519 - 687.42] basically one product
+
+[685.68 - 689.579] um and it kind of felt like a
+
+[687.42 - 692.279] half-hearted attempt it really reminds
+
+[689.579 - 695.0999999999999] me of Zune where Microsoft has really
+
+[692.279 - 698.7] really always struggled to break into
+
+[695.1 - 700.26] the b2c market or the consumer Market uh
+
+[698.7 - 704.76] think about their competition with apple
+
+[700.26 - 707.76] apple has had a very coherent consumer
+
+[704.76 - 710.88] ecosystem for a long time with iTunes
+
+[707.76 - 713.04] iPhone ever you know I everything
+
+[710.88 - 716.399] um Microsoft has really struggled with
+
+[713.04 - 718.38] that the only exception being Xbox right
+
+[716.399 - 721.32] with their gaming platform and and how
+
+[718.38 - 723.779] Central Microsoft Windows has been to
+
+[721.32 - 725.7] desktop gaming and then of course some
+
+[723.779 - 727.98] console gaming of course the console
+
+[725.7 - 729.6600000000001] Market is a little bit different uh
+
+[727.98 - 732.9590000000001] because you've got you know PlayStation
+
+[729.66 - 734.579] is still a major player uh and a handful
+
+[732.959 - 735.899] of others
+
+[734.579 - 738.18] um but you know you've also seen others
+
+[735.899 - 740.339] go the way the dinosaurs Sega got out of
+
+[738.18 - 743.9399999999999] the console they only produce games now
+
+[740.339 - 745.62] so anyways uh I that's that's kind of
+
+[743.94 - 747.899] that's kind of the high level overview
+
+[745.62 - 750.839] pros and cons for Microsoft so now let's
+
+[747.899 - 752.94] look at Google uh how the last couple
+
+[750.839 - 755.6400000000001] days how does their showing Stack Up in
+
+[752.94 - 758.519] terms of pros and cons the biggest Pro
+
+[755.64 - 761.8199999999999] is they brought a huge portfolio of
+
+[758.519 - 763.2] products uh to to share they they
+
+[761.82 - 766.5] addressed arts and culture they
+
+[763.2 - 769.32] addressed navigation maps translation uh
+
+[766.5 - 770.82] entertainment they had so much to going
+
+[769.32 - 773.22] for them
+
+[770.82 - 775.32] um uh Google has mobile they have
+
+[773.22 - 776.639] Android who has a Windows phone I don't
+
+[775.32 - 777.839] think they even make Windows phones
+
+[776.639 - 781.8] anymore
+
+[777.839 - 784.98] um so Android is going to be a huge huge
+
+[781.8 - 788.0999999999999] Boon for Google in deploying access to
+
+[784.98 - 791.22] these whether it's Bard or any of these
+
+[788.1 - 794.7] other things such as lens Maps
+
+[791.22 - 796.8000000000001] we like you can get by without a laptop
+
+[794.7 - 798.9590000000001] or desktop today you can get by with
+
+[796.8 - 801.62] just a smartphone or a tablet
+
+[798.959 - 805.38] um which means that Android uh is
+
+[801.62 - 808.079] incredible for for Google Now Google
+
+[805.38 - 810.66] also has Chrome the most used browser
+
+[808.079 - 812.459] globally so regardless of whether or not
+
+[810.66 - 814.1999999999999] you're using a Windows server or Windows
+
+[812.459 - 816.7199999999999] desktop you're probably using Chrome
+
+[814.2 - 818.519] that or Firefox right
+
+[816.72 - 820.2] um oh I actually have some folks that
+
+[818.519 - 822.6] I'm going to be talking to at Mozilla
+
+[820.2 - 824.1] about trustworthy AI so keep uh keep
+
+[822.6 - 826.019] your eyes peeled for that video coming
+
+[824.1 - 829.26] up if they let me talk about it
+
+[826.019 - 831.839] obviously I honor ndas there's plenty of
+
+[829.26 - 833.22] stuff that I know that I am not sharing
+
+[831.839 - 835.5] um because you know I like when people
+
+[833.22 - 838.019] share stuff with me uh but anyways
+
+[835.5 - 840.24] getting distracted point being is Google
+
+[838.019 - 843.9590000000001] has Android and Chrome
+
+[840.24 - 846.54] which uh that's a tough nut to crack and
+
+[843.959 - 850.1389999999999] I don't think that being with AI alone
+
+[846.54 - 852.8389999999999] is going to dislodge and and dislodge uh
+
+[850.139 - 855.48] Chrome because Edge is like okay sure
+
+[852.839 - 857.339] but what else right uh whether or not
+
+[855.48 - 858.839] it's trusted you know Edge is now the
+
+[857.339 - 860.7600000000001] fastest way to download Chrome and
+
+[858.839 - 862.2] Firefox right or whatever else you want
+
+[860.76 - 864.54] to use
+
+[862.2 - 866.339] um so Google also has an established
+
+[864.54 - 868.6999999999999] dominance in brand trust where it comes
+
+[866.339 - 871.019] to search we just trust Google results
+
+[868.7 - 873.36] and trust is one of those things that
+
+[871.019 - 876.0] Google has managed to maintain when
+
+[873.36 - 879.3000000000001] other Tech giants like meta AKA Facebook
+
+[876.0 - 881.1] lost trust and is now imploding
+
+[879.3 - 883.62] um ditto for Tesla
+
+[881.1 - 885.66] uh so Google has managed to maintain
+
+[883.62 - 887.699] trust to be fair Microsoft has
+
+[885.66 - 889.38] maintained trust as well just not with
+
+[887.699 - 892.139] some of their products namely Edge
+
+[889.38 - 895.019] Cortana because they have a long history
+
+[892.139 - 897.3] of failed products that they just didn't
+
+[895.019 - 900.24] really seem to invest in
+
+[897.3 - 902.04] um now uh this is both a pro and a con
+
+[900.24 - 905.16] for Google is they cannot afford to lose
+
+[902.04 - 907.139] this so it is a pro in the fact that
+
+[905.16 - 909.8389999999999] they can't they can't afford to lose it
+
+[907.139 - 912.24] so they're going to go all in right they
+
+[909.839 - 914.519] Google will intrinsically put more
+
+[912.24 - 916.32] energy and money into winning the search
+
+[914.519 - 918.66] War than Microsoft will because
+
+[916.32 - 920.519] Microsoft can afford to lose it so there
+
+[918.66 - 922.8] may be they might you know have a foray
+
+[920.519 - 925.079] just like how zun tried to compete with
+
+[922.8 - 927.3] iPods and they're like okay well that
+
+[925.079 - 928.8599999999999] didn't really work they Microsoft did
+
+[927.3 - 930.8389999999999] the same thing with with Windows phone
+
+[928.86 - 932.22] they wanted to compete with iPhone it
+
+[930.839 - 935.1] didn't really work so they let it go
+
+[932.22 - 938.1] right so the core business of Microsoft
+
+[935.1 - 940.5600000000001] and Google is different but because of
+
+[938.1 - 942.0600000000001] that Google really cannot afford to lose
+
+[940.56 - 944.6389999999999] this this war
+
+[942.06 - 947.9399999999999] now they also lost Tempo and initiative
+
+[944.639 - 950.04] as I mentioned earlier Google created
+
+[947.94 - 952.86] the technology that is driving this
+
+[950.04 - 955.86] revolution they started this trend in
+
+[952.86 - 958.32] 2016 which is what seven years ago right
+
+[955.86 - 960.0] and this came back to bite them too so
+
+[958.32 - 963.5400000000001] I'm one thing that I'm concerned about
+
+[960.0 - 965.579] is uh and and uh people in the alignment
+
+[963.54 - 966.899] spaces are talking about this now is
+
+[965.579 - 969.42] that there's this there's this
+
+[966.899 - 971.82] frigidness that's kind of settling on to
+
+[969.42 - 974.3389999999999] open source which is the big players
+
+[971.82 - 976.019] like Google deepmind Microsoft open AI
+
+[974.339 - 978.12] they have published research and there's
+
+[976.019 - 979.32] a lot of takers both in the corporate
+
+[978.12 - 983.279] space but also in the International
+
+[979.32 - 985.1990000000001] Space and so I'm wondering if this is
+
+[983.279 - 987.779] going to cause a lot of the tech Giants
+
+[985.199 - 990.3599999999999] to clam up and switch from open source
+
+[987.779 - 992.279] to closed Source uh because something as
+
+[990.36 - 994.8000000000001] innocuous as the Transformer Innovation
+
+[992.279 - 997.019] and the uh and the the
+
+[994.8 - 998.639] um and the lost signals all the
+
+[997.019 - 1001.82] algorithmic improvements that allowed
+
+[998.639 - 1004.339] for the current wave of AI what if
+
+[1001.82 - 1007.279] Google hadn't if they what if Google had
+
+[1004.339 - 1010.399] realized what they had seven years ago
+
+[1007.279 - 1012.56] and kept it all closed Source like that
+
+[1010.399 - 1014.779] would be bad for all of us but it would
+
+[1012.56 - 1015.7399999999999] be really good for Google so that's one
+
+[1014.779 - 1017.72] thing that I'm concerned about and
+
+[1015.74 - 1020.0] that's why I posted that as a con not
+
+[1017.72 - 1022.4590000000001] necessarily for Google but for all of us
+
+[1020.0 - 1024.98] is the possibility that we're going to
+
+[1022.459 - 1027.4389999999999] get this this really uh kind of hostile
+
+[1024.98 - 1028.939] environment and we're gonna get rid of
+
+[1027.439 - 1031.28] Open Source
+
+[1028.939 - 1032.78] so here's my here's my personal
+
+[1031.28 - 1035.66] conclusions
+
+[1032.78 - 1040.16] Google is the hands down winner up front
+
+[1035.66 - 1042.14] for now uh the in the long run the lines
+
+[1040.16 - 1044.72] might break down over B to B which is
+
+[1042.14 - 1047.1200000000001] business to business versus B to C or
+
+[1044.72 - 1049.04] business to customer Microsoft their
+
+[1047.12 - 1051.08] core business has always been B2B
+
+[1049.04 - 1053.54] software business software Google
+
+[1051.08 - 1055.34] they're better in the consumer space so
+
+[1053.54 - 1056.799] they might ultimately just kind of stick
+
+[1055.34 - 1059.84] with their Core Business
+
+[1056.799 - 1062.66] another uh takeaway is Google must go
+
+[1059.84 - 1064.1599999999999] all in on AI and that means pivoting
+
+[1062.66 - 1067.3400000000001] their entire organization if they have
+
+[1064.16 - 1069.919] to they just laid off 12 000 more people
+
+[1067.34 - 1072.32] um so you know they're gonna pivot they
+
+[1069.919 - 1075.5590000000002] have to if they want to survive they
+
+[1072.32 - 1077.84] will need to go all in Google has a much
+
+[1075.559 - 1080.12] broader range of offerings on B2B or
+
+[1077.84 - 1082.1599999999999] sorry b2c with their Android and chrome
+
+[1080.12 - 1085.4599999999998] platforms as one of the primary uh
+
+[1082.16 - 1087.679] delivery mechanisms but Microsoft has a
+
+[1085.46 - 1091.16] much more comprehensive B2B portfolio
+
+[1087.679 - 1092.72] with Microsoft Office server Azure and
+
+[1091.16 - 1093.98] everything else so again they're
+
+[1092.72 - 1096.14] probably going to end up playing in
+
+[1093.98 - 1097.7] their own sandboxes just as they have
+
+[1096.14 - 1099.5590000000002] been
+
+[1097.7 - 1103.22] um one thing that was missing from this
+
+[1099.559 - 1105.44] was gaming and AI assistance uh like why
+
+[1103.22 - 1106.46] didn't Microsoft say anything about Xbox
+
+[1105.44 - 1109.5800000000002] like
+
+[1106.46 - 1111.5] are they not gonna like create a you
+
+[1109.58 - 1113.6] know realistic NPCs that you can have
+
+[1111.5 - 1115.1] real conversations with that's what I
+
+[1113.6 - 1117.5] think is really missing from this
+
+[1115.1 - 1119.1789999999999] conversation so I promised earlier that
+
+[1117.5 - 1121.419] we were going to touch on that so here's
+
+[1119.179 - 1125.419] the last two slides of this presentation
+
+[1121.419 - 1127.3400000000001] keep an eye on Nvidia Omniverse I don't
+
+[1125.419 - 1129.3200000000002] know why Nvidia is not getting more
+
+[1127.34 - 1131.72] attention if you go watch their
+
+[1129.32 - 1133.78] omniverse videos for audio to face and
+
+[1131.72 - 1137.1200000000001] their Ace their uh Avatar Cloud engine
+
+[1133.78 - 1139.1] it is super impressive
+
+[1137.12 - 1141.1399999999999] um you combine the conversational
+
+[1139.1 - 1143.36] ability of chat GPT and large language
+
+[1141.14 - 1145.5800000000002] models with this stuff you add a little
+
+[1143.36 - 1149.059] bit more sophistication in you've got
+
+[1145.58 - 1151.1] completely interactive uh avatars that
+
+[1149.059 - 1153.1399999999999] can you know be whatever you need them
+
+[1151.1 - 1156.02] to be whether it's gaming whether it's
+
+[1153.14 - 1157.76] news whether it's teachers like oh man
+
+[1156.02 - 1160.22] I've had some conversations with the
+
+[1157.76 - 1162.74] folks over at Nvidia I am excited for
+
+[1160.22 - 1165.2] them I don't think Nvidia yet realizes
+
+[1162.74 - 1166.28] what they've got and so I want to wrap
+
+[1165.2 - 1169.039] this up with something that's a little
+
+[1166.28 - 1169.8799999999999] bit more abstract for the infrastructure
+
+[1169.039 - 1173.36] people
+
+[1169.88 - 1176.0] uh is uh nvidia's unified Computing
+
+[1173.36 - 1178.34] framework that is a really boring Bland
+
+[1176.0 - 1180.919] name but this is this is the
+
+[1178.34 - 1182.84] underpinning technology that will allow
+
+[1180.919 - 1186.0800000000002] for all of these other things to be
+
+[1182.84 - 1188.24] delivered and matured and consumed and
+
+[1186.08 - 1190.34] so I think that Nvidia might be that
+
+[1188.24 - 1194.179] Underdog that people were talking about
+
+[1190.34 - 1196.58] on on Twitter because all the Plug and
+
+[1194.179 - 1198.919] Play stuff and I I definitely encourage
+
+[1196.58 - 1200.96] you go look up Nvidia Ace and UCF watch
+
+[1198.919 - 1203.24] the videos this stuff is really
+
+[1200.96 - 1205.46] impressive this is going to allow
+
+[1203.24 - 1209.1200000000001] anybody so you see the low code design
+
+[1205.46 - 1211.4] tools sample applications all of it is
+
+[1209.12 - 1214.3999999999999] they've got it nice and layered it's got
+
+[1211.4 - 1217.4] a nice graphical user interface and it's
+
+[1214.4 - 1219.98] also incredibly powerful this is coming
+
+[1217.4 - 1222.3200000000002] it's coming fast and I think that Nvidia
+
+[1219.98 - 1225.2] probably will be able to Corner this
+
+[1222.32 - 1227.78] Market but the biggest thing is is I
+
+[1225.2 - 1229.22] think that Nvidia sees themselves as the
+
+[1227.78 - 1231.799] underdog they're very much acting like
+
+[1229.22 - 1233.1200000000001] the underdog where they're like ah we're
+
+[1231.799 - 1235.6399999999999] big but we're not going to compete with
+
+[1233.12 - 1238.3999999999999] Google and Microsoft I think that Nvidia
+
+[1235.64 - 1240.98] has the capacity to carve out a huge
+
+[1238.4 - 1243.02] huge chunk of the market if they
+
+[1240.98 - 1243.919] position themselves right and have the
+
+[1243.02 - 1246.9189999999999] vision
+
+[1243.919 - 1251.2] so thank you for watching we are in the
+
+[1246.919 - 1251.2] hilarious timeline now take care

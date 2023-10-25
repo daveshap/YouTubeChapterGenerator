@@ -1,0 +1,1339 @@
+[0.64 - 4.96] morning everybody david shapiro here for
+
+[3.04 - 8.0] my third video in the
+
+[4.96 - 8.879999999999999] zero to python and gpt3 boot camp
+
+[8.0 - 10.879999999999999] um
+
+[8.88 - 13.599] what the heck are embeddings i get this
+
+[10.88 - 15.599] question all the time it is by far the
+
+[13.599 - 17.759999999999998] biggest hottest topic so this is why i'm
+
+[15.599 - 20.0] doing it as episode three but before we
+
+[17.76 - 21.840000000000003] get started i'm going to ask that uh you
+
+[20.0 - 23.759999999999998] consider liking and subscribing this
+
+[21.84 - 26.8] video and also
+
+[23.76 - 27.76] jump over to my patreon to support me
+
+[26.8 - 29.279] there
+
+[27.76 - 31.599] if i get to enough support who knows
+
+[29.279 - 33.2] maybe i can do this full time one day
+
+[31.599 - 35.6] anyways let's go ahead and jump into the
+
+[33.2 - 37.440000000000005] video what are embeddings
+
+[35.6 - 38.800000000000004] first
+
+[37.44 - 40.079] i need to give you a little bit of
+
+[38.8 - 41.919999999999995] background
+
+[40.079 - 44.160000000000004] so
+
+[41.92 - 46.239000000000004] basically what an embedding is it's a
+
+[44.16 - 48.559] vector so what is a vector let's just
+
+[46.239 - 52.16] start from scratch a vector is any
+
+[48.559 - 53.36] string of numbers in an array this is a
+
+[52.16 - 55.44] vector here let me make this a little
+
+[53.36 - 56.64] bit bigger so that you can see it
+
+[55.44 - 60.16] okay
+
+[56.64 - 61.76] so we'll do vector
+
+[60.16 - 63.68] so hashtag vector let me set the
+
+[61.76 - 64.64] language to python so that it looks
+
+[63.68 - 68.64] right
+
+[64.64 - 68.64] ta-da okay this is a vector
+
+[68.799 - 74.0] oops
+
+[71.119 - 75.52] this is a vector so the mathematical
+
+[74.0 - 77.92] definition of a vector it is a
+
+[75.52 - 79.67999999999999] one-dimensional matrix
+
+[77.92 - 80.64] so i'll do aka
+
+[79.68 - 82.0] one
+
+[80.64 - 83.36] dimensional
+
+[82.0 - 84.72] matrix
+
+[83.36 - 86.4] or a list
+
+[84.72 - 89.119] okay so that's what a vector is
+
+[86.4 - 90.88000000000001] great so what then is an embedding so
+
+[89.119 - 93.119] the difference between a vector and an
+
+[90.88 - 93.92] embedding is mathematically they're the
+
+[93.119 - 97.28] same
+
+[93.92 - 99.119] but an embedding has semantic meaning um
+
+[97.28 - 100.56] and if you want to take a deeper dive
+
+[99.119 - 103.36] i'll have this
+
+[100.56 - 104.88] link in in the description this is uh
+
+[103.36 - 106.64] tensorflow.org
+
+[104.88 - 109.92] which is made by google
+
+[106.64 - 112.0] they really advanced this technology um
+
+[109.92 - 114.399] a few years ago with universal sentence
+
+[112.0 - 116.96] encoder this is the like the progenitor
+
+[114.399 - 118.479] technology that allowed gpd3 to exist
+
+[116.96 - 122.24] and they did this starting in i think
+
+[118.479 - 124.399] about 2014. um anyways so if you want to
+
+[122.24 - 126.719] deep dive here
+
+[124.399 - 128.399] follow this link but uh just for the
+
+[126.719 - 131.76] sake of this video i'll show you kind of
+
+[128.399 - 134.8] a short version so embedding equals
+
+[131.76 - 138.239] vector with semantic meaning
+
+[134.8 - 140.87900000000002] um so older older nlp stuff like nltk
+
+[138.239 - 142.56] would do like um word webs and stuff
+
+[140.879 - 144.56] where like semantic meaning was always
+
+[142.56 - 146.879] relevant to other words
+
+[144.56 - 148.959] so like cat is a type of mammal for
+
+[146.879 - 151.04] instance it's also a type of animal it's
+
+[148.959 - 153.519] associated with pet
+
+[151.04 - 156.16] but that was not very efficient
+
+[153.519 - 156.87900000000002] those technologies are really old and uh
+
+[156.16 - 159.35999999999999] they thought it was going to
+
+[156.879 - 160.879] revolutionize nlp it certainly did a lot
+
+[159.36 - 162.959] but it was not as flexible as neural
+
+[160.879 - 165.44] networks are today so
+
+[162.959 - 168.08] an embedding is just a vector
+
+[165.44 - 169.76] with semantic meaning so
+
+[168.08 - 171.04000000000002] how do we like what does that mean okay
+
+[169.76 - 171.92] so let's say
+
+[171.04 - 174.72] each
+
+[171.92 - 177.599] position each index in our
+
+[174.72 - 178.48] um in our vector has a meaning so we'll
+
+[177.599 - 180.48] say
+
+[178.48 - 184.0] um we'll do
+
+[180.48 - 186.159] x and y so we're going to populate this
+
+[184.0 - 188.72] this vector with just two values and
+
+[186.159 - 190.79999999999998] we'll say that
+
+[188.72 - 192.08] position x
+
+[190.8 - 194.239] equals
+
+[192.08 - 196.56] uh social power
+
+[194.239 - 198.4] right so
+
+[196.56 - 201.28] max of 1.0
+
+[198.4 - 203.12] min of negative 1.0
+
+[201.28 - 204.159] so we're basically going to make our own
+
+[203.12 - 205.92000000000002] embedding
+
+[204.159 - 208.879] um and then
+
+[205.92 - 211.04] uh this is based on one of the original
+
+[208.879 - 215.04] examples that google used to use
+
+[211.04 - 215.04] position y equals gender
+
+[215.92 - 222.48] gender or sex so we'll say max
+
+[219.12 - 223.84] is 1.0
+
+[222.48 - 226.79899999999998] min of
+
+[223.84 - 228.879] negative 1.0 so we'll say like
+
+[226.799 - 230.56] one equals
+
+[228.879 - 231.51899999999998] ultramasculine
+
+[230.56 - 232.56] and
+
+[231.519 - 234.64000000000001] negative
+
+[232.56 - 236.48] one equals
+
+[234.64 - 237.76] ultra
+
+[236.48 - 240.879] feminine
+
+[237.76 - 243.76] okay so we have this this two
+
+[240.879 - 245.76] um this this one by two matrix
+
+[243.76 - 246.72] and we're going to use it to represent a
+
+[245.76 - 247.51899999999998] person
+
+[246.72 - 249.439] so
+
+[247.519 - 251.439] or semantic meaning so if we have a
+
+[249.439 - 253.599] semantic meaning that is one
+
+[251.439 - 256.56] by one
+
+[253.599 - 260.71999999999997] and we say that social power is
+
+[256.56 - 262.8] uh a maximum of one and and 1.0 is
+
+[260.72 - 264.16] ultra-masculine right so what would this
+
+[262.8 - 266.479] be
+
+[264.16 - 269.28000000000003] so we can we know that okay so what who
+
+[266.479 - 271.36] has maximum social power theoretical
+
+[269.28 - 273.52] um so that sounds like
+
+[271.36 - 274.8] an emperor so we'll say this is the
+
+[273.52 - 275.919] padesha
+
+[274.8 - 278.96000000000004] emperor
+
+[275.919 - 278.96] of the known universe
+
+[279.52 - 284.08] known
+
+[280.84 - 286.71999999999997] universe uh dune reference there so
+
+[284.08 - 288.639] maximum social power possible and also
+
+[286.72 - 290.40000000000003] maximum masculinity i actually don't
+
+[288.639 - 292.16] know if the if the emperor was maximum
+
+[290.4 - 295.52] masculinity he might actually be closer
+
+[292.16 - 297.44] like 0.5 so we'll just say that because
+
+[295.52 - 300.08] like you think ultra masculine you think
+
+[297.44 - 302.56] of like what if what if the emperor was
+
+[300.08 - 303.52] like the rock
+
+[302.56 - 306.32] um
+
+[303.52 - 308.639] so then let's duplicate that we'll say
+
+[306.32 - 312.0] uh 1.1
+
+[308.639 - 313.6] punisha emperor if he was
+
+[312.0 - 315.84] dwayne johnson
+
+[313.6 - 318.24] um and so there we have we have our
+
+[315.84 - 319.44] first two embeddings
+
+[318.24 - 321.44] um
+
+[319.44 - 323.68] now okay so what if we do the other one
+
+[321.44 - 326.08] what if we go the opposite way so like
+
+[323.68 - 328.16] negative 1.0 that would be like a
+
+[326.08 - 330.0] peasant right or actually probably
+
+[328.16 - 331.84000000000003] someone who doesn't have free will so
+
+[330.0 - 334.8] like a prisoner or something
+
+[331.84 - 335.919] um and then we say like zero so this is
+
+[334.8 - 339.199] like
+
+[335.919 - 341.19899999999996] um someone with uh
+
+[339.199 - 343.28000000000003] no free will
+
+[341.199 - 345.52000000000004] or agency
+
+[343.28 - 348.15999999999997] um and also
+
+[345.52 - 350.08] gender neutral
+
+[348.16 - 351.52000000000004] right so that's what a semantic meaning
+
+[350.08 - 353.199] is now
+
+[351.52 - 356.15999999999997] with gpt3
+
+[353.199 - 359.039] the smallest one
+
+[356.16 - 362.88000000000005] if you go to their embeddings
+
+[359.039 - 364.8] the smallest one ada has 1024 dimensions
+
+[362.88 - 367.039] so what happens is these models are
+
+[364.8 - 369.84000000000003] trained to break down semantic meaning
+
+[367.039 - 372.71999999999997] into many many different dimensions and
+
+[369.84 - 375.11999999999995] da vinci has 12 000 dimensions so here
+
+[372.72 - 378.319] we are just we're just doing uh doing it
+
+[375.12 - 381.039] with one or sorry two
+
+[378.319 - 382.639] vectors of uh with two dimensions each
+
+[381.039 - 384.4] so
+
+[382.639 - 385.84000000000003] you know this is this is like super
+
+[384.4 - 387.84] super simple
+
+[385.84 - 390.71999999999997] all right so now you now you know the
+
+[387.84 - 392.23999999999995] basic of what i mean when i say vector
+
+[390.72 - 393.6] or embedding
+
+[392.24 - 395.52] so again the only difference between a
+
+[393.6 - 399.68] vector and an embedding is that an
+
+[395.52 - 401.44] embedding has uh has semantic meaning um
+
+[399.68 - 403.919] and each of those positions is somewhat
+
+[401.44 - 406.56] abstract um okay so then what do you do
+
+[403.919 - 408.79999999999995] with it though like how do you compare
+
+[406.56 - 411.599] one of these to another i'm glad you
+
+[408.8 - 414.96000000000004] asked so we're going to do a basic
+
+[411.599 - 416.08] um we're going to do a basic similarity
+
+[414.96 - 418.15999999999997] search
+
+[416.08 - 419.12] we're going to do base a classification
+
+[418.16 - 421.44] problem
+
+[419.12 - 423.36] so let's start with oh first let me
+
+[421.44 - 426.08] introduce um
+
+[423.36 - 428.56] i've added import numpy as np
+
+[426.08 - 431.44] so this is um
+
+[428.56 - 434.24] a standard math package
+
+[431.44 - 436.319] i'll say module for python
+
+[434.24 - 437.919] and so when you do import something as
+
+[436.319 - 440.08000000000004] something else this allows you to refer
+
+[437.919 - 441.919] to it as shorthand so if i double click
+
+[440.08 - 442.71999999999997] on that you see that numpy is used down
+
+[441.919 - 445.12] here
+
+[442.72 - 446.96000000000004] so the way to do the way to use these
+
+[445.12 - 450.08] vectors is to compare them with a dot
+
+[446.96 - 451.84] product um and then the dot product the
+
+[450.08 - 453.599] higher the dot product the more similar
+
+[451.84 - 455.19899999999996] the vectors are that's it it's that
+
+[453.599 - 456.88] simple
+
+[455.199 - 459.199] um so i've added this function it's
+
+[456.88 - 462.4] super simple all it does is return the
+
+[459.199 - 464.40000000000003] dot product um between these two vectors
+
+[462.4 - 467.28] uh and then i've added the gp
+
+[464.4 - 469.28] gpt3 embedding where you just pass it a
+
+[467.28 - 472.23999999999995] string um and i've got the engine
+
+[469.28 - 474.63899999999995] already set to text similarity eta um
+
+[472.24 - 476.40000000000003] this will suffice for for many things
+
+[474.639 - 478.56] especially if you're just doing like a
+
+[476.4 - 480.63899999999995] single sentence um if you look at like
+
+[478.56 - 483.84] the original um universal sentence
+
+[480.639 - 487.52] encoder um they did like uh i think like
+
+[483.84 - 490.56] 124 and 256 and 512 vectors or uh
+
+[487.52 - 492.4] dimensions um the newest newer ones are
+
+[490.56 - 493.68] probably bigger than that
+
+[492.4 - 496.56] all these links will be in the
+
+[493.68 - 497.44] description if you need them all right
+
+[496.56 - 500.4] if
+
+[497.44 - 500.4] name equals
+
+[502.479 - 504.71999999999997] main
+
+[504.879 - 508.40000000000003] so what are we going to do what do we
+
+[506.0 - 510.08] want to do with this well first
+
+[508.4 - 512.0799999999999] let's just do a really simple dot
+
+[510.08 - 514.4789999999999] product of um
+
+[512.08 - 514.479] of like
+
+[514.64 - 518.56] uh where did it go these
+
+[516.64 - 520.399] so let's let's say like okay what's the
+
+[518.56 - 522.2399999999999] difference between like the emperor of
+
+[520.399 - 524.88] the known universe if he was dwayne
+
+[522.24 - 526.08] johnson versus if it was just you know
+
+[524.88 - 527.92] the normal
+
+[526.08 - 529.12] super masculine one
+
+[527.92 - 530.959] um
+
+[529.12 - 533.68] so we'll go here
+
+[530.959 - 534.8] and we'll say um
+
+[533.68 - 540.64] we'll say
+
+[534.8 - 542.56] we'll say v1 for vector 1 equals 1.0 1.0
+
+[540.64 - 547.519] v2 equals
+
+[542.56 - 549.5189999999999] uh one dot uh oh and then 0.5 so then
+
+[547.519 - 551.36] let's do print
+
+[549.519 - 553.68] similarity
+
+[551.36 - 554.9590000000001] so then this will be
+
+[553.68 - 556.399] emperor
+
+[554.959 - 557.92] dwayne
+
+[556.399 - 560.24] and then this will just be
+
+[557.92 - 560.24] whoops
+
+[560.8 - 566.24] patasha emperor
+
+[563.76 - 567.92] um so then we'll return similarity of v1
+
+[566.24 - 570.8] v2
+
+[567.92 - 572.0] all right so let's run this real quick
+
+[570.8 - 574.8389999999999] cd
+
+[572.0 - 578.32] python gpd3 tutorial
+
+[574.839 - 581.7600000000001] python embedding
+
+[578.32 - 584.48] all right so the the dot product is 1.5
+
+[581.76 - 586.8] so that's that is um that is the level
+
+[584.48 - 590.08] of similarity now
+
+[586.8 - 591.519] what happens if we do a third one we'll
+
+[590.08 - 593.6800000000001] do the
+
+[591.519 - 596.68] um we'll do the androgynous so we'll do
+
+[593.68 - 598.3199999999999] negative 1.0 for social power and then
+
+[596.68 - 600.16] 0.0
+
+[598.32 - 601.9200000000001] for um
+
+[600.16 - 605.8389999999999] for so this is like
+
+[601.92 - 605.8389999999999] the gender neutral prisoner
+
+[606.72 - 610.34] all right so then we'll duplicate this
+
+[608.16 - 611.76] and we'll swap out um
+
+[610.34 - 614.0] [Music]
+
+[611.76 - 615.36] v2 for v3 so we'll get two outputs in
+
+[614.0 - 618.64] this one
+
+[615.36 - 622.88] so i'll just do hashtag or pound sign
+
+[618.64 - 622.88] 1.5 so that's the score that returned
+
+[623.2 - 628.72] oops i need to save it there we go
+
+[626.32 - 629.839] okay so then you see like oh wait hold
+
+[628.72 - 634.5600000000001] on now
+
+[629.839 - 636.24] this is way different so this one is
+
+[634.56 - 638.16] negative 1.0
+
+[636.24 - 640.48] um okay so now you're starting to get
+
+[638.16 - 642.7199999999999] the idea of what it means to compare
+
+[640.48 - 645.44] these now when you have you know a
+
+[642.72 - 648.399] thousand or twelve thousand dimensions
+
+[645.44 - 650.6400000000001] these numbers get much more um
+
+[648.399 - 652.64] much more nuanced okay
+
+[650.64 - 654.48] so how do we how do we use this right
+
+[652.64 - 655.6] how do we um
+
+[654.48 - 658.48] how do we
+
+[655.6 - 659.6] use this to do search or comparison or
+
+[658.48 - 663.6] clustering
+
+[659.6 - 663.6] so i had this idea so we're going to do
+
+[664.0 - 667.68] categories equals
+
+[666.16 - 670.079] and we'll do
+
+[667.68 - 670.079] plant
+
+[670.88 - 673.6] reptile
+
+[673.92 - 676.399] mammal
+
+[676.48 - 679.2] fish
+
+[677.44 - 680.8800000000001] so we're just gonna do we're gonna do
+
+[679.2 - 683.2] four categories
+
+[680.88 - 684.079] and okay so then what what do we do with
+
+[683.2 - 686.32] that
+
+[684.079 - 686.3199999999999] um
+
+[686.56 - 694.0] we'll do a while loop well true
+
+[689.519 - 699.04] and we'll do a equals input um
+
+[694.0 - 699.04] enter a life form here
+
+[699.279 - 701.68] oops
+
+[701.76 - 705.4399999999999] so for python you're supposed like the
+
+[703.76 - 707.6] the default is that you use single
+
+[705.44 - 709.2790000000001] quotes um and i can't remember off the
+
+[707.6 - 710.72] top of my head right now when you're
+
+[709.279 - 713.279] supposed to switch between single quotes
+
+[710.72 - 714.72] and double quotes um but like powershell
+
+[713.279 - 716.48] for instance the default is you're
+
+[714.72 - 719.2] supposed to use double quotes
+
+[716.48 - 721.12] um okay so we we we get a we get a life
+
+[719.2 - 723.12] form and then what do we do with that
+
+[721.12 - 725.519] um so then we'll do
+
+[723.12 - 728.88] uh vector equals
+
+[725.519 - 730.5600000000001] um gpd3 embedding
+
+[728.88 - 732.639] of our input
+
+[730.56 - 734.2399999999999] so we'll get an embedding back
+
+[732.639 - 735.76] and um
+
+[734.24 - 737.6800000000001] so just so they can see what this looks
+
+[735.76 - 739.04] like let's just do a quick
+
+[737.68 - 740.6389999999999] um
+
+[739.04 - 742.3199999999999] print out of this
+
+[740.639 - 745.6] so we saved it
+
+[742.32 - 748.0790000000001] um cls python embedding enter a life
+
+[745.6 - 750.5600000000001] form here uh we'll do bald eagle because
+
+[748.079 - 753.12] this is america
+
+[750.56 - 754.88] and it spits out a huge number you see
+
+[753.12 - 756.16] how big this number is well it's
+
+[754.88 - 757.2] actually a list of numbers but you get
+
+[756.16 - 760.88] the idea
+
+[757.2 - 765.2] um so this is the ada version semantic
+
+[760.88 - 766.959] embedding of bald eagle it is 1024
+
+[765.2 - 770.9590000000001] floating point numbers between negative
+
+[766.959 - 772.8] 0.1 or negative 1.0 and 1.0
+
+[770.959 - 775.1999999999999] we can do this with davinci and it'll be
+
+[772.8 - 777.519] even longer
+
+[775.2 - 779.76] um why did this get messed up oh there
+
+[777.519 - 779.76] we go
+
+[779.839 - 784.0] so um so there you have it that's what
+
+[782.399 - 787.12] that's what an embedding looks like so
+
+[784.0 - 788.16] it just it shoots it back real quick
+
+[787.12 - 790.16] all right but what are we going to do
+
+[788.16 - 792.3199999999999] with this so what we want to do is we
+
+[790.16 - 794.399] want to find we want to classify what
+
+[792.32 - 796.5600000000001] did i put in and we want to match it to
+
+[794.399 - 799.2] one of these categories so how do we do
+
+[796.56 - 800.959] that well the first thing we can do
+
+[799.2 - 802.24] is and this will be really inefficient
+
+[800.959 - 803.1999999999999] because what i'm going to do is i'm
+
+[802.24 - 805.519] going to
+
+[803.2 - 807.2] get a vector for these each time
+
+[805.519 - 809.44] but really what we should do in the long
+
+[807.2 - 811.839] run in a longer video or in a future
+
+[809.44 - 814.8800000000001] video we'll store these we'll store the
+
+[811.839 - 818.0] embeddings for each of these
+
+[814.88 - 820.399] okay so let's do a function
+
+[818.0 - 821.839] so we'll match
+
+[820.399 - 824.24] let's see result
+
+[821.839 - 825.519] equals
+
+[824.24 - 826.639] match
+
+[825.519 - 828.72] class
+
+[826.639 - 830.48] and so what we'll do is we'll pass
+
+[828.72 - 832.639] our initial vector
+
+[830.48 - 835.12] and our categories
+
+[832.639 - 837.36] and so this is the vector so we're going
+
+[835.12 - 838.88] to get the vector for whatever life form
+
+[837.36 - 842.0] we put in was and then we're going to
+
+[838.88 - 843.68] pass these categories
+
+[842.0 - 845.839] so then we'll do def
+
+[843.68 - 848.0] uh match class
+
+[845.839 - 849.12] and then we'll do um
+
+[848.0 - 851.92] vector
+
+[849.12 - 853.68] and our categories and i know in a
+
+[851.92 - 856.16] previous video i said that it's best
+
+[853.68 - 857.3599999999999] practices not to reuse the same variable
+
+[856.16 - 859.199] names
+
+[857.36 - 861.04] but since i'm not modifying these i'm
+
+[859.199 - 863.3599999999999] just reading them it's not that big a
+
+[861.04 - 865.279] deal but it's still poor practice so
+
+[863.36 - 867.1990000000001] just keep that in mind i don't always
+
+[865.279 - 869.04] follow the rules
+
+[867.199 - 870.4799999999999] um okay so match class so the first
+
+[869.04 - 872.399] thing that we need to do
+
+[870.48 - 875.76] is um
+
+[872.399 - 880.72] is for each of these categories
+
+[875.76 - 882.88] um so we'll do classes equals list
+
+[880.72 - 885.44] and then for um
+
+[882.88 - 887.12] c in categories
+
+[885.44 - 888.48] we'll do
+
+[887.12 - 890.079] um
+
+[888.48 - 892.0790000000001] we'll just copy this real quick vector
+
+[890.079 - 893.199] equals gpt3 embedding but instead of a
+
+[892.079 - 894.7199999999999] we'll do c
+
+[893.199 - 896.16] so that's this so that well this is a
+
+[894.72 - 899.1990000000001] for loop which means that we're going to
+
+[896.16 - 901.76] iterate through each of these items
+
+[899.199 - 904.16] and we're going to say okay
+
+[901.76 - 906.079] what is my vector
+
+[904.16 - 907.4399999999999] and actually you know what if i got to
+
+[906.079 - 911.399] write this i might as well put this down
+
+[907.44 - 911.399] below um
+
+[912.48 - 916.88] so we declare our categories so we'll do
+
+[915.04 - 919.279] for c in categories
+
+[916.88 - 921.12] um
+
+[919.279 - 923.36] and we'll do this here so let's run this
+
+[921.12 - 924.8] once so this is another rule of thumb if
+
+[923.36 - 927.6] you're going to run a piece of code more
+
+[924.8 - 930.0] than once you put it in a place that one
+
+[927.6 - 932.16] it'll only run once if you only need to
+
+[930.0 - 934.399] but also if you need to call it multiple
+
+[932.16 - 935.279] times then you then you declare it as a
+
+[934.399 - 937.199] function
+
+[935.279 - 938.959] so let's just clean this up here first
+
+[937.199 - 941.4399999999999] we'll do it a little bit better
+
+[938.959 - 942.2399999999999] all right so we get the vector
+
+[941.44 - 944.5600000000001] for
+
+[942.24 - 945.92] the category and so then what do we do
+
+[944.56 - 948.959] well we want to save it in this new
+
+[945.92 - 950.88] variable called classes
+
+[948.959 - 952.8] and so we'll say
+
+[950.88 - 955.199] info equals
+
+[952.8 - 957.12] and we'll say we'll we'll declare this
+
+[955.199 - 960.3199999999999] as a dictionary so this is this is an
+
+[957.12 - 961.199] explicit uh definition so info equals
+
+[960.32 - 963.6800000000001] dict
+
+[961.199 - 964.639] and then we'll say info um
+
+[963.68 - 966.2399999999999] actually that's not the way that i
+
+[964.639 - 968.48] prefer to declare these so you can
+
+[966.24 - 969.92] implicitly declare with the curly
+
+[968.48 - 971.279] brackets so that says this is a
+
+[969.92 - 972.7199999999999] dictionary
+
+[971.279 - 975.6] and so we'll say
+
+[972.72 - 978.48] the dictionary so we'll say
+
+[975.6 - 981.12] category equals c
+
+[978.48 - 984.0790000000001] and then we'll say vector
+
+[981.12 - 986.0] equals vector and so basically what this
+
+[984.079 - 988.6389999999999] does is it creates what's what's also
+
+[986.0 - 991.6] called a hash table where it's like okay
+
+[988.639 - 994.0] every instance of info is going to have
+
+[991.6 - 996.16] a an item named category and so if we
+
+[994.0 - 997.92] need to get the category we we just call
+
+[996.16 - 1001.199] that and then we also can call the
+
+[997.92 - 1004.0] vector and so then we'll say class oops
+
+[1001.199 - 1006.399] class is dot append
+
+[1004.0 - 1006.399] info
+
+[1008.399 - 1012.56] and let me show you what this looks like
+
+[1010.639 - 1014.0790000000001] so then we'll do print
+
+[1012.56 - 1015.279] classes
+
+[1014.079 - 1017.04] and this is not going to be pretty
+
+[1015.279 - 1019.199] because it's going to be pretty big
+
+[1017.04 - 1020.3199999999999] um and then we'll just add a quick exit
+
+[1019.199 - 1022.3199999999999] 0
+
+[1020.32 - 1023.759] so that we won't even dive into this but
+
+[1022.32 - 1026.319] this will just show you what we're doing
+
+[1023.759 - 1030.24] and let me do a quick time check
+
+[1026.319 - 1030.24] we're already at 17 minutes okay
+
+[1030.72 - 1034.24] so let's do
+
+[1032.16 - 1036.8390000000002] python embedding
+
+[1034.24 - 1039.36] whoops what did i do all
+
+[1036.839 - 1041.36] right okay so what this is going to do
+
+[1039.36 - 1043.6789999999999] is it's going to
+
+[1041.36 - 1045.6789999999999] create a list of dictionaries
+
+[1043.679 - 1047.039] and each of those dictionaries is going
+
+[1045.679 - 1049.44] to contain
+
+[1047.039 - 1051.2] a couple pieces of information
+
+[1049.44 - 1053.1200000000001] so here's what it looks like category
+
+[1051.2 - 1056.88] mammal and then here's the vector that
+
+[1053.12 - 1056.8799999999999] declares that it's a mammal okay cool
+
+[1057.52 - 1061.84] all right and we're almost done i
+
+[1059.52 - 1064.8799999999999] promise so let's go ahead and we can get
+
+[1061.84 - 1066.8799999999999] rid of that just comment those out
+
+[1064.88 - 1069.5200000000002] all right so result equals match class
+
+[1066.88 - 1071.679] vector and then we'll just say
+
+[1069.52 - 1073.36] classes so this will just be a really
+
+[1071.679 - 1075.2] quick search so we've already done all
+
+[1073.36 - 1077.6789999999999] the embeddings that we need to
+
+[1075.2 - 1080.16] um so then let's just match it
+
+[1077.679 - 1081.919] okay
+
+[1080.16 - 1084.559] classes
+
+[1081.919 - 1087.679] all right so what we'll do then is we'll
+
+[1084.559 - 1090.559] say results equals list
+
+[1087.679 - 1092.799] and then for
+
+[1090.559 - 1096.6399999999999] c in classes
+
+[1092.799 - 1096.6399999999999] we will want to get the dot product
+
+[1096.799 - 1100.8799999999999] um so we'll say uh
+
+[1099.679 - 1104.4] brain
+
+[1100.88 - 1104.4] i need more coffee that's what i need
+
+[1105.52 - 1111.039] so for c in classes we will do score
+
+[1108.88 - 1112.64] equals
+
+[1111.039 - 1114.16] and we'll do
+
+[1112.64 - 1115.679] similarity because that's the function
+
+[1114.16 - 1117.3600000000001] that we declared right here
+
+[1115.679 - 1119.919] so we'll do similarity
+
+[1117.36 - 1123.52] of our vector
+
+[1119.919 - 1125.3600000000001] and then our class our c
+
+[1123.52 - 1127.84] vector
+
+[1125.36 - 1129.6] because remember we we added we we have
+
+[1127.84 - 1132.3999999999999] a dictionary that has
+
+[1129.6 - 1133.28] um the vector for each each category
+
+[1132.4 - 1135.44] here
+
+[1133.28 - 1137.84] um so then we get the score
+
+[1135.44 - 1139.1200000000001] and then what we do is we'll do info
+
+[1137.84 - 1141.36] equals
+
+[1139.12 - 1141.36] um
+
+[1141.679 - 1144.3200000000002] category
+
+[1142.96 - 1146.32] equals c
+
+[1144.32 - 1148.08] category
+
+[1146.32 - 1150.6399999999999] oops
+
+[1148.08 - 1152.0] and then we'll do oh
+
+[1150.64 - 1153.76] score
+
+[1152.0 - 1155.76] equals
+
+[1153.76 - 1157.84] score
+
+[1155.76 - 1159.84] and then results
+
+[1157.84 - 1162.24] dot append
+
+[1159.84 - 1162.24] info
+
+[1162.48 - 1168.88] um and there you have it that is pretty
+
+[1164.4 - 1168.88] much it then we'll do return results
+
+[1169.36 - 1174.0] and so then we'll print the result at
+
+[1171.6 - 1174.0] the end
+
+[1174.16 - 1177.52] and that should be it let me do a quick
+
+[1176.08 - 1179.039] test
+
+[1177.52 - 1180.559] python embedding so it's going to get
+
+[1179.039 - 1182.64] the thing in the background so let's say
+
+[1180.559 - 1185.2] bald eagle
+
+[1182.64 - 1187.3600000000001] um ooh that doesn't quite look right so
+
+[1185.2 - 1189.52] let me
+
+[1187.36 - 1193.4399999999998] let me show you another trick
+
+[1189.52 - 1195.12] from p print import p print so p print
+
+[1193.44 - 1197.52] is called pretty print
+
+[1195.12 - 1200.2399999999998] um and so we're gonna we're gonna change
+
+[1197.52 - 1202.1589999999999] this to pretty print which will instead
+
+[1200.24 - 1204.32] of it kind of being all in one line here
+
+[1202.159 - 1207.8400000000001] it'll make it a little bit prettier
+
+[1204.32 - 1207.84] so let's oops
+
+[1209.679 - 1214.88] do this again
+
+[1211.28 - 1217.36] um enter a live form here bald eagle
+
+[1214.88 - 1221.919] okay so then we can say
+
+[1217.36 - 1224.799] um the category plant 0.77 not so good
+
+[1221.919 - 1226.96] category reptile 0.82
+
+[1224.799 - 1228.48] category mammal
+
+[1226.96 - 1232.24] 0.80
+
+[1228.48 - 1233.84] category fish 0.80 now you might notice
+
+[1232.24 - 1237.6] that i did something wrong here i didn't
+
+[1233.84 - 1240.24] include fish or a bird as a category
+
+[1237.6 - 1242.08] so um interestingly though the bald
+
+[1240.24 - 1244.96] eagle which is a descendant of the
+
+[1242.08 - 1247.36] dinosaurs the common ancestor
+
+[1244.96 - 1249.28] it's closest to reptile so let's run
+
+[1247.36 - 1250.6399999999999] this again because i'm silly and we'll
+
+[1249.28 - 1251.84] add
+
+[1250.64 - 1254.64] bird
+
+[1251.84 - 1257.36] as a category
+
+[1254.64 - 1259.6000000000001] so let's try that again
+
+[1257.36 - 1261.039] bald eagle
+
+[1259.6 - 1264.32] and then we say
+
+[1261.039 - 1267.28] bird there we go .87 so bald eagle is
+
+[1264.32 - 1269.28] semantically closest to bird
+
+[1267.28 - 1271.6] tada all right what else do we have
+
+[1269.28 - 1273.9189999999999] let's do a
+
+[1271.6 - 1275.84] komodo dragon
+
+[1273.919 - 1277.76] and
+
+[1275.84 - 1280.0] as we'd expect that's the highest score
+
+[1277.76 - 1283.2] so it's a reptile
+
+[1280.0 - 1287.44] what else do we have let's do a shark
+
+[1283.2 - 1289.3600000000001] so a shark it is a 0.91 similarity to a
+
+[1287.44 - 1290.799] fish
+
+[1289.36 - 1292.6399999999999] now there was a question i think it was
+
+[1290.799 - 1294.0] on my discord server we were we were
+
+[1292.64 - 1296.159] talking about like
+
+[1294.0 - 1297.84] okay how do you do semantic search for
+
+[1296.159 - 1299.8400000000001] memories and stuff what if we add
+
+[1297.84 - 1301.84] another category that is not an animal
+
+[1299.84 - 1303.12] kingdom let's say if we do pet
+
+[1301.84 - 1304.559] versus
+
+[1303.12 - 1306.7199999999998] wild animal
+
+[1304.559 - 1309.12] right so let's do that
+
+[1306.72 - 1311.039] um do a clear screen real quick
+
+[1309.12 - 1314.559] python embedding
+
+[1311.039 - 1317.2] okay so let's do a cat
+
+[1314.559 - 1319.6] so the if we put in a cat
+
+[1317.2 - 1323.52] it is it's closer to
+
+[1319.6 - 1326.48] a pet a score of 0.93 than it is to wild
+
+[1323.52 - 1327.52] animal of 0.85 right and it's also a
+
+[1326.48 - 1329.44] mammal
+
+[1327.52 - 1331.679] although this says it's very close to
+
+[1329.44 - 1334.64] also being a fish
+
+[1331.679 - 1337.6000000000001] that's kind of funny um oh wait nope
+
+[1334.64 - 1340.0] it says it's closer to bird than it is
+
+[1337.6 - 1342.0] to mammal interesting
+
+[1340.0 - 1343.36] okay so i have seen some people complain
+
+[1342.0 - 1344.84] about these embeddings and i'm beginning
+
+[1343.36 - 1347.9189999999999] to see what they mean
+
+[1344.84 - 1350.08] um let's do a
+
+[1347.919 - 1351.2800000000002] domestic cat see if that clears it
+
+[1350.08 - 1354.96] clears it up
+
+[1351.28 - 1356.48] so domestic cat .83 to mammal
+
+[1354.96 - 1357.679] okay that's a little bit better so we're
+
+[1356.48 - 1360.08] a little bit we're a little bit more
+
+[1357.679 - 1362.48] specific and then it's just slightly
+
+[1360.08 - 1364.72] more pet than wild animal
+
+[1362.48 - 1366.32] um let's do uh
+
+[1364.72 - 1368.0] let's do a
+
+[1366.32 - 1370.08] golden retriever so that's not even
+
+[1368.0 - 1372.64] that's not even the name of a species
+
+[1370.08 - 1374.8799999999999] that's a breed of dog
+
+[1372.64 - 1377.679] okay so golden retriever
+
+[1374.88 - 1379.3600000000001] is a wild animal according to this
+
+[1377.679 - 1382.3200000000002] um uh
+
+[1379.36 - 1384.32] and it is also a reptile okay so this is
+
+[1382.32 - 1386.0] pretty funny um i'm wondering what
+
+[1384.32 - 1388.32] happens let's let's see if this gets
+
+[1386.0 - 1389.679] better if we uh if we do a different
+
+[1388.32 - 1390.559] embedding
+
+[1389.679 - 1392.64] engine
+
+[1390.559 - 1395.52] okay so we're doing ada
+
+[1392.64 - 1398.48] and we're doing text similarity
+
+[1395.52 - 1401.44] but there's also text search
+
+[1398.48 - 1403.039] um so this one i don't think will apply
+
+[1401.44 - 1405.28] um but let's
+
+[1403.039 - 1407.12] let's let's do this let's upgrade to
+
+[1405.28 - 1408.6399999999999] babbage
+
+[1407.12 - 1410.08] and just see what happens this is
+
+[1408.64 - 1411.2800000000002] actually kind of funny i did not expect
+
+[1410.08 - 1414.3999999999999] this to happen
+
+[1411.28 - 1417.2] um all right so let's change our engine
+
+[1414.4 - 1419.3600000000001] to text similarity
+
+[1417.2 - 1421.52] babbage
+
+[1419.36 - 1423.6789999999999] this is kind of funny
+
+[1421.52 - 1425.9189999999999] cls so it works in some cases but not in
+
+[1423.679 - 1425.919] others
+
+[1429.039 - 1432.48] it'll take a little bit longer so let's
+
+[1430.64 - 1435.5200000000002] start with bald eagle
+
+[1432.48 - 1437.44] so bald eagle um let's see reptile
+
+[1435.52 - 1440.24] mammal fish bird
+
+[1437.44 - 1442.559] um so bald eagle is
+
+[1440.24 - 1444.48] just slightly more reptile than anything
+
+[1442.559 - 1447.36] else that's interesting
+
+[1444.48 - 1449.2] um it is a wild animal though so we got
+
+[1447.36 - 1451.279] we got bald eagle is more associated
+
+[1449.2 - 1453.039] with the term wild animal than it is
+
+[1451.279 - 1455.039] with pet
+
+[1453.039 - 1457.919] um let's see
+
+[1455.039 - 1459.84] uh then what was it golden retriever
+
+[1457.919 - 1461.679] let's see if we get the right
+
+[1459.84 - 1464.32] um let's see
+
+[1461.679 - 1465.2] it is also a reptile interesting
+
+[1464.32 - 1466.799] um
+
+[1465.2 - 1468.88] and it's still a wild animal okay so
+
+[1466.799 - 1470.1589999999999] going up to babbage didn't help
+
+[1468.88 - 1472.3200000000002] um
+
+[1470.159 - 1474.72] i wonder if i'm using this wrong anyways
+
+[1472.32 - 1476.8799999999999] you get the idea you can do this uh for
+
+[1474.72 - 1477.76] for text search and classification
+
+[1476.88 - 1479.679] um
+
+[1477.76 - 1481.12] this is actually kind of funny i will
+
+[1479.679 - 1482.3200000000002] need to do some research and figure out
+
+[1481.12 - 1484.1589999999999] what i've done wrong here i'm sure
+
+[1482.32 - 1487.559] someone will let me know but anyways
+
+[1484.159 - 1487.5590000000002] thanks for watching

@@ -1,0 +1,1417 @@
+[1.14 - 5.159999999999999] morning everybody David Shapiro here
+
+[3.48 - 6.899] with another video I wasn't really
+
+[5.16 - 8.34] planning on making this video but I
+
+[6.899 - 11.04] realized that things are accelerating
+
+[8.34 - 12.54] and um there is a sense of urgency
+
+[11.04 - 14.459999999999999] um so before we get started I just want
+
+[12.54 - 16.56] to say that today's video is sponsored
+
+[14.46 - 19.859] by all of you
+
+[16.56 - 22.68] um my patreon supporters make the my
+
+[19.859 - 25.019000000000002] continuous work possible so if you want
+
+[22.68 - 27.72] to continue to incentivize this Behavior
+
+[25.019 - 29.82] Uh consider jumping over on patreon and
+
+[27.72 - 32.7] if you sign up for the higher tiers um
+
+[29.82 - 36.480000000000004] you know I'm willing to chat with you
+
+[32.7 - 38.940000000000005] and even jump on Zoom calls once or
+
+[36.48 - 40.8] twice a month at the higher tiers uh
+
+[38.94 - 42.839999999999996] just in order to talk about whatever you
+
+[40.8 - 45.66] want to talk about some people ask me
+
+[42.84 - 47.46] about you know what's the current news
+
+[45.66 - 49.739] um some people ask for help with prompt
+
+[47.46 - 51.96] engineering all kinds of stuff I've even
+
+[49.739 - 55.16] had people ask me just about like how do
+
+[51.96 - 58.44] I adapt to this changing landscape
+
+[55.16 - 60.17999999999999] obviously I'm not a therapist but I can
+
+[58.44 - 62.64] at least share my perspective on this
+
+[60.18 - 66.24] stuff okay so without further Ado let's
+
+[62.64 - 68.7] jump in if you go to GitHub trending
+
+[66.24 - 71.39999999999999] you'll see a couple of very interesting
+
+[68.7 - 73.619] patterns the top four trending
+
+[71.4 - 76.799] repositories right now all have to do
+
+[73.619 - 78.42] with large language models
+
+[76.799 - 81.06] um and then you go down a little bit
+
+[78.42 - 83.4] further and there's even more generative
+
+[81.06 - 88.14] AI so there's a code translator there's
+
+[83.4 - 91.02000000000001] Moki diffusion llama so obviously we are
+
+[88.14 - 93.02] in an inflection point and today we're
+
+[91.02 - 96.72] going to talk about amongst other things
+
+[93.02 - 99.78] fully autonomous AI so if you're not
+
+[96.72 - 102.0] aware Auto GPT is all the rage right now
+
+[99.78 - 105.78] everyone is talking about it everyone is
+
+[102.0 - 110.28] using it and adapting it and
+
+[105.78 - 113.1] the the tldr is this is the first
+
+[110.28 - 114.6] production like fully fledged cognitive
+
+[113.1 - 117.6] architecture there's plenty of other
+
+[114.6 - 122.22] people working on very similar stuff
+
+[117.6 - 124.5] um but the Advent of gpt4 uh as well as
+
+[122.22 - 125.82] all the other work that people are doing
+
+[124.5 - 128.34] um basically means that cognitive
+
+[125.82 - 131.4] architecture is here uh fully autonomous
+
+[128.34 - 133.08] AI is here now the question is only what
+
+[131.4 - 135.36] is it capable of what are its
+
+[133.08 - 136.37900000000002] limitations and how much does it cost to
+
+[135.36 - 137.64000000000001] run
+
+[136.379 - 140.04] um if you I'm not going to do a full
+
+[137.64 - 142.5] demo of this but you just Google it or
+
+[140.04 - 143.94] you know search YouTube for auto GPT you
+
+[142.5 - 146.459] will see that there are demos out there
+
+[143.94 - 149.459] already this can do any number of things
+
+[146.459 - 150.959] so this is why there's a sense of
+
+[149.459 - 152.879] urgency because once you have an
+
+[150.959 - 154.68] autonomous AI
+
+[152.879 - 156.959] um this is this one is semi-autonomous
+
+[154.68 - 159.59900000000002] it is gated so that it asks the user for
+
+[156.959 - 163.16] permission but it's only a very small
+
+[159.599 - 165.959] step to go from here to fully autonomous
+
+[163.16 - 167.4] which is why I do my work with the
+
+[165.959 - 169.08] heuristic imperatives and we'll talk
+
+[167.4 - 171.48000000000002] about alignment once we get a little bit
+
+[169.08 - 173.459] further into the video because there's
+
+[171.48 - 175.5] quite a few papers out there that talk
+
+[173.459 - 177.42000000000002] about alignment and I want to show you
+
+[175.5 - 179.879] that that my work is not quite so
+
+[177.42 - 181.44] eccentric that there are people in The
+
+[179.879 - 183.66] Establishment talking in this direction
+
+[181.44 - 186.0] I just happen to be the first one to
+
+[183.66 - 188.34] propose a comprehensive solution that I
+
+[186.0 - 191.28] can also demonstrate
+
+[188.34 - 193.14000000000001] um so yeah Auto GPT is out it's only
+
+[191.28 - 197.159] going to get faster more powerful and
+
+[193.14 - 199.2] better as uh new models come out and as
+
+[197.159 - 201.12] open source models that are distilled
+
+[199.2 - 202.819] and quantized come out and we'll talk
+
+[201.12 - 206.519] about those in just a minute
+
+[202.819 - 207.599] Microsoft is doing Jarvis which Jarvis
+
+[206.519 - 210.06] if you're not familiar with the
+
+[207.599 - 212.48] character was voiced by Paul Bettany in
+
+[210.06 - 216.06] Iron Man and the MCU
+
+[212.48 - 217.379] and this has some other similar uh fully
+
+[216.06 - 219.72] autonomous capabilities that they're
+
+[217.379 - 221.94] working on task planning model selection
+
+[219.72 - 225.08] task execution and response generation
+
+[221.94 - 227.64] again this is a cognitive architecture
+
+[225.08 - 231.06] and the fact that it's being sponsored
+
+[227.64 - 233.819] and run by Microsoft is that tells you
+
+[231.06 - 236.4] the direction that the industry is going
+
+[233.819 - 239.04] um now one thing here is that model
+
+[236.4 - 240.78] selection so what this implies is that
+
+[239.04 - 243.29899999999998] depending on the level of sophistication
+
+[240.78 - 244.5] of a task or how difficult it is it's
+
+[243.299 - 245.58] going to be able to choose different
+
+[244.5 - 247.94] models
+
+[245.58 - 250.62] now during a Discord call that I had
+
+[247.94 - 251.939] with the cognitive AI lab Discord which
+
+[250.62 - 254.519] if you want to join link is in the
+
+[251.939 - 256.199] description we were talking about how
+
+[254.519 - 258.479] important it will be to choose models
+
+[256.199 - 261.18] because the lightest weight models are
+
+[258.479 - 263.699] literally thousands of times cheaper and
+
+[261.18 - 266.40000000000003] smaller than the largest models and so
+
+[263.699 - 269.28000000000003] humans we do this too where we rely on
+
+[266.4 - 271.25899999999996] intuition and habit and we only engage
+
+[269.28 - 274.02] our executive function if something is
+
+[271.259 - 278.58000000000004] really hard and our first attempts fail
+
+[274.02 - 280.38] excuse me and so if um if cognitive
+
+[278.58 - 281.88] architectures go the same way you're
+
+[280.38 - 283.919] going to be able to run most of it
+
+[281.88 - 285.71999999999997] locally and then of course as large
+
+[283.919 - 288.29999999999995] language models become more quantized
+
+[285.72 - 291.12] more efficient and as the hardware in
+
+[288.3 - 293.28000000000003] our laptops phones and desktops become
+
+[291.12 - 294.96] more powerful eventually before too long
+
+[293.28 - 299.09999999999997] we're going to be able to run something
+
+[294.96 - 301.85999999999996] equal to gpt4 and better locally so we
+
+[299.1 - 304.91900000000004] are we are now entering as of March and
+
+[301.86 - 308.759] April 2023 entering the era of fully
+
+[304.919 - 312.12] autonomous AI which is a much more
+
+[308.759 - 314.28000000000003] useful term than AGI because AGI is just
+
+[312.12 - 316.74] an arbitrary thing this is autonomous
+
+[314.28 - 319.19899999999996] now the only question is again how smart
+
+[316.74 - 321.66] is it how fast is it what is it capable
+
+[319.199 - 323.759] of and what is it not capable of yet
+
+[321.66 - 325.91900000000004] so those are the two big repos that I
+
+[323.759 - 328.44] wanted to point out and they're both the
+
+[325.919 - 329.639] top of trending so that tells you that
+
+[328.44 - 330.9] they are getting the most attention
+
+[329.639 - 334.08] right now so if you want to jump into
+
+[330.9 - 336.65999999999997] the conversation Now's the Time
+
+[334.08 - 338.34] um okay so moving right along if you
+
+[336.66 - 340.91900000000004] want something that's a little bit more
+
+[338.34 - 343.5] practical and Hands-On one of my patreon
+
+[340.919 - 346.08] supporters told me about joseki which
+
+[343.5 - 348.12] joseki is basically devops but for AI
+
+[346.08 - 350.28] and language models
+
+[348.12 - 351.9] um so it gives you an end-to-end
+
+[350.28 - 354.539] pipeline
+
+[351.9 - 356.58] um to create basically cognitive
+
+[354.539 - 359.639] architectures it includes all kinds of
+
+[356.58 - 361.19899999999996] tools and apis and it does take a while
+
+[359.639 - 363.78000000000003] to get familiar with if you're not
+
+[361.199 - 364.91900000000004] already familiar with it but when you
+
+[363.78 - 368.039] look at the fact that it can
+
+[364.919 - 371.4] automatically generate apis
+
+[368.039 - 373.86] um and you you plug this into the AI and
+
+[371.4 - 375.29999999999995] the AI can design itself and redesign
+
+[373.86 - 376.8] its own infrastructure and say hey I
+
+[375.3 - 378.86] need an API that does this let's go
+
+[376.8 - 382.139] design that microservice
+
+[378.86 - 385.319] this kind of platform is probably going
+
+[382.139 - 387.72] to be pretty important for building not
+
+[385.319 - 392.06] just autonomous you know Bots like this
+
+[387.72 - 395.16] but fully fledged uh corporate business
+
+[392.06 - 397.199] platforms and so what I mean by that is
+
+[395.16 - 400.08000000000004] okay you might be thinking great like
+
+[397.199 - 403.44] you know you can have Auto GPT which can
+
+[400.08 - 404.69899999999996] write Twitter and emails for you but if
+
+[403.44 - 406.8] you're thinking about this from an
+
+[404.699 - 410.639] Enterprise perspective from a devops
+
+[406.8 - 413.039] perspective it can plug into your cyber
+
+[410.639 - 415.38] security Suites and monitor that it can
+
+[413.039 - 417.419] monitor your ticket cues it can talk to
+
+[415.38 - 419.88] your marketing team so one example that
+
+[417.419 - 422.81899999999996] I thought of was like okay let's say you
+
+[419.88 - 425.699] set up a marketing brain and then it
+
+[422.819 - 427.62] plugs into your slack or teams and then
+
+[425.699 - 429.18] you have a marketing bot or actually
+
+[427.62 - 431.46] multiple marketing Bots that you can
+
+[429.18 - 433.44] talk to that they're going to go out and
+
+[431.46 - 435.44] do research on the internet you know
+
+[433.44 - 438.9] look at your competitors watch videos
+
+[435.44 - 441.0] generate images Market test stuff and
+
+[438.9 - 444.29999999999995] basically your marketing team will just
+
+[441.0 - 446.22] be driving the behavior of the Bots and
+
+[444.3 - 447.96000000000004] saying like hey you know hey let's do
+
+[446.22 - 450.18] this and then it'll go and do the tasks
+
+[447.96 - 451.62] and kind of report back and that and
+
+[450.18 - 453.06] this might sound like science fiction
+
+[451.62 - 454.38] but this is actually what's happening
+
+[453.06 - 457.62] right now this is what people are
+
+[454.38 - 459.3] actually working on right now
+
+[457.62 - 460.74] um I am no longer the crazy person
+
+[459.3 - 462.24] shouting into the void saying this is
+
+[460.74 - 463.56] coming because now it has now it has
+
+[462.24 - 465.06] arrived
+
+[463.56 - 466.5] um okay and this one is actually
+
+[465.06 - 468.06] alignment so let me move that down
+
+[466.5 - 470.639] further
+
+[468.06 - 473.28000000000003] um but yeah so joseki it's joseki.org
+
+[470.639 - 477.36] check that out this is this is another
+
+[473.28 - 479.75899999999996] platform so one thing that uh that these
+
+[477.36 - 481.139] these interoperable platforms offer that
+
+[479.759 - 484.62] perhaps
+
+[481.139 - 487.68] um the auto GPT and Jarvis don't is it's
+
+[484.62 - 491.039] a paradigm of okay let's let's think of
+
+[487.68 - 494.34000000000003] Jarvis and auto GPT as self-contained
+
+[491.039 - 497.21999999999997] agents that have you know extensibility
+
+[494.34 - 499.25899999999996] and have their own tools whereas a
+
+[497.22 - 501.72] platform like jaseki says let's embed
+
+[499.259 - 504.599] this in an organization and it'll be
+
+[501.72 - 507.24] part of a pipeline or or a broader
+
+[504.599 - 510.24] ecosystem so it's basically is it
+
+[507.24 - 513.779] centralized or decentralized and both
+
+[510.24 - 516.36] are coming mark my words both kinds of
+
+[513.779 - 518.399] autonomous AI is coming I'm working on
+
+[516.36 - 520.38] uh one another one of my patreon
+
+[518.399 - 522.779] supporters reached out to me with an
+
+[520.38 - 525.54] idea of kind of a hive mind how do you
+
+[522.779 - 528.72] organize an arbitrary number of bots
+
+[525.54 - 530.04] that have different programs well you
+
+[528.72 - 532.08] create an API and you create a
+
+[530.04 - 534.959] discussion space for the for those spots
+
+[532.08 - 537.6] so we're working on hammering that out
+
+[534.959 - 540.779] um and yeah like this is this is It's
+
+[537.6 - 543.5400000000001] we're entering into a wild time
+
+[540.779 - 544.98] okay so I've talked about efficiency and
+
+[543.54 - 546.54] some of the other
+
+[544.98 - 547.86] um things that are coming such as
+
+[546.54 - 549.18] quantization
+
+[547.86 - 550.6800000000001] um and and we're going to start talking
+
+[549.18 - 555.3599999999999] about those now
+
+[550.68 - 559.14] so some of you have seen this post where
+
+[555.36 - 563.399] um basically window size is the is the
+
+[559.14 - 564.54] biggest limitation uh right now but what
+
+[563.399 - 567.12] if we come up with a different
+
+[564.54 - 569.64] architecture like an RNN or you know
+
+[567.12 - 572.76] lstn or you know bring back some some
+
+[569.64 - 574.68] other kinds of architectures that allow
+
+[572.76 - 578.279] you to have a section essentially an
+
+[574.68 - 581.0999999999999] unlimited window an infinite window
+
+[578.279 - 582.6] um so that's one thing that's coming we
+
+[581.1 - 583.62] don't know you don't need to see those
+
+[582.6 - 585.4200000000001] ads
+
+[583.62 - 589.14] um so that's that's one idea that's
+
+[585.42 - 590.76] coming uh we'll see if it pans out I
+
+[589.14 - 592.5] suspect that you're gonna get um
+
+[590.76 - 595.26] diminishing returns with the more that
+
+[592.5 - 597.42] it reads because other uh models like
+
+[595.26 - 599.16] Google's Universal sentence encoder that
+
+[597.42 - 601.3199999999999] can read an infinite amount already but
+
+[599.16 - 604.68] you get what's called dilution where the
+
+[601.32 - 606.9590000000001] or semantic dilution where the longer
+
+[604.68 - 609.0] excuse me uh I have allergies I
+
+[606.959 - 610.9799999999999] apologize where the longer the text that
+
+[609.0 - 613.08] it reads the more generic the more
+
+[610.98 - 615.899] dilute the vector the embedding becomes
+
+[613.08 - 618.5400000000001] so like if you read an infinitely long
+
+[615.899 - 621.12] any any like you know arbitrarily long
+
+[618.54 - 623.519] text the the embedding the vector is
+
+[621.12 - 625.68] going to Trend towards kind of a
+
+[623.519 - 627.12] meaningless Middle Ground
+
+[625.68 - 628.26] um they might come up with ways around
+
+[627.12 - 631.08] that
+
+[628.26 - 633.36] um but basically you're compressing an
+
+[631.08 - 636.48] arbitrary amount of text into
+
+[633.36 - 638.519] a fixed width Vector so you're going to
+
+[636.48 - 642.0600000000001] lose some information
+
+[638.519 - 644.1] um at least until the math changes uh
+
+[642.06 - 647.6999999999999] the way that it's represented now that
+
+[644.1 - 651.1800000000001] being said You Know da Vinci had a 12
+
+[647.7 - 653.7] 000 Dimension embedding I'm sure gpt4
+
+[651.18 - 656.88] has a has a much larger one you know
+
+[653.7 - 660.6600000000001] these are not very large matrices we
+
+[656.88 - 662.9399999999999] could go up to very very large matrices
+
+[660.66 - 665.1] um like that that space is is still
+
+[662.94 - 667.1400000000001] being explored because like okay 12 000
+
+[665.1 - 668.88] Dimensions what if you what if you know
+
+[667.14 - 670.86] in a year or two we have 12 million
+
+[668.88 - 673.2] Dimension embeddings
+
+[670.86 - 675.6] um that's a lot more information and a
+
+[673.2 - 678.0600000000001] lot more Nuance that you can record okay
+
+[675.6 - 681.32] so I mentioned quantization
+
+[678.06 - 684.0] so the Llama C plus C plus plus
+
+[681.32 - 686.7600000000001] these things are getting down to like
+
+[684.0 - 688.68] crazy small right a 30 billion uh
+
+[686.76 - 692.22] parameter model only needs six gig of
+
+[688.68 - 694.26] RAM right okay that is that can run on
+
+[692.22 - 697.38] commodity Hardware
+
+[694.26 - 698.9399999999999] um so all the little Nifty tricks and
+
+[697.38 - 700.98] stuff that people are finding whether
+
+[698.94 - 703.3800000000001] it's distillation quantization and and
+
+[700.98 - 705.12] so on running with low Precision you
+
+[703.38 - 708.0] know end eight instead of uh floating
+
+[705.12 - 710.579] Point 32 all kinds of stuff is being
+
+[708.0 - 713.16] discovered uh and so what one of the
+
+[710.579 - 715.4399999999999] trends that we're seeing is that when
+
+[713.16 - 717.66] you look at the fact that auto GPT and
+
+[715.44 - 719.339] Jarvis will have model selection
+
+[717.66 - 721.1999999999999] probably what's going to happen is
+
+[719.339 - 723.6] you're going to have dedicated models
+
+[721.2 - 725.6400000000001] that are that are cognitive units that
+
+[723.6 - 728.4590000000001] are good at working on specific kinds of
+
+[725.64 - 732.12] tasks right so when you break it down
+
+[728.459 - 733.26] into several cognitive behaviors such as
+
+[732.12 - 735.72] in this case
+
+[733.26 - 738.54] um task planning model selection and
+
+[735.72 - 741.0600000000001] task execution you can have smaller
+
+[738.54 - 743.399] models that are purpose built for those
+
+[741.06 - 745.8] particular things and this actually goes
+
+[743.399 - 748.579] to my work on the heuristic imperatives
+
+[745.8 - 751.14] which was an attempt to
+
+[748.579 - 753.779] fine-tune and distill that function so
+
+[751.14 - 756.06] that you can have a moral module a moral
+
+[753.779 - 758.459] framework that will just give you a
+
+[756.06 - 760.079] really quick response of okay this is
+
+[758.459 - 761.76] how you reduce the suffering in this
+
+[760.079 - 763.38] situation this is how you increase
+
+[761.76 - 765.12] prosperity and increase understanding in
+
+[763.38 - 768.06] this situation and then you can also use
+
+[765.12 - 770.04] that same model to self-evaluate in past
+
+[768.06 - 773.0999999999999] behaviors which can then be used for
+
+[770.04 - 774.36] reinforcement learning in the future
+
+[773.1 - 776.82] um and then that model can improve
+
+[774.36 - 778.38] itself through uh self-labeling data
+
+[776.82 - 779.899] which we will get to because there are
+
+[778.38 - 782.399] papers out there for that topic now
+
+[779.899 - 784.26] anyways point being is I just wanted to
+
+[782.399 - 785.7] share all of that
+
+[784.26 - 787.26] um another interesting thing that popped
+
+[785.7 - 789.36] up on my feed
+
+[787.26 - 792.36] um drug Discovery is accelerating
+
+[789.36 - 794.519] because of this uh all of this
+
+[792.36 - 798.1800000000001] generative stuff this goes back to
+
+[794.519 - 800.82] um uh uh Alpha fold and all the
+
+[798.18 - 804.54] downstream Technologies
+
+[800.82 - 806.4590000000001] um so we are rapidly approaching
+
+[804.54 - 810.12] um kind of The Snowball Effect and
+
+[806.459 - 812.399] actually Stanford had a um a paper that
+
+[810.12 - 815.639] was just published let me show you on I
+
+[812.399 - 817.5] posted it here on my community so the
+
+[815.639 - 819.42] Stanford paper
+
+[817.5 - 821.22] page not found
+
+[819.42 - 824.279] well darn
+
+[821.22 - 825.5400000000001] okay anyways it's uh the Stanford AI
+
+[824.279 - 828.0] index
+
+[825.54 - 829.8] um I guess the link broke uh or they
+
+[828.0 - 832.62] took it down or something but anyways
+
+[829.8 - 834.3599999999999] they point out that um AI is actually
+
+[832.62 - 837.24] one of the biggest contributors to
+
+[834.36 - 841.5600000000001] science as of 2022 so we're at a Tipping
+
+[837.24 - 843.3] Point where AI is already taking over a
+
+[841.56 - 846.5999999999999] tremendous amount of the cognitive load
+
+[843.3 - 848.04] of research and it's accelerating so in
+
+[846.6 - 849.66] my previous videos where I talked about
+
+[848.04 - 852.66] the singularity and stuff and I talked
+
+[849.66 - 855.3] about Job displacement and um basically
+
+[852.66 - 858.48] unlimited cognitive labor we are already
+
+[855.3 - 860.88] seeing the removal of the of the human
+
+[858.48 - 863.279] brain's limitations in terms of
+
+[860.88 - 865.98] advancing science
+
+[863.279 - 869.76] um okay so then that's great that's all
+
+[865.98 - 872.7] data and text so what happens when these
+
+[869.76 - 875.399] models uh get into the real world so
+
+[872.7 - 877.62] maybe you missed this but Facebook is
+
+[875.399 - 879.839] working on robots
+
+[877.62 - 881.579] um and these are robots that can watch
+
+[879.839 - 884.94] and observe humans and then copy their
+
+[881.579 - 886.38] behavior uh yeah so that's coming and
+
+[884.94 - 887.8800000000001] then I don't know if you also saw it but
+
+[886.38 - 889.5] Tesla had a demonstration of their
+
+[887.88 - 891.0] Optimus Prime model or whatever they
+
+[889.5 - 893.279] called it I think it's just the Optimus
+
+[891.0 - 896.16] bot but it was able to do some pretty
+
+[893.279 - 899.579] good manual dexterity stuff
+
+[896.16 - 901.98] um yeah so fully autonomous robots are
+
+[899.579 - 905.04] also coming hot on the heels of fully
+
+[901.98 - 907.74] autonomous agents so this is all coming
+
+[905.04 - 908.459] it's much much closer
+
+[907.74 - 910.26] um
+
+[908.459 - 913.6199999999999] one thing that was kind of funny is of
+
+[910.26 - 914.9399999999999] course it was Italy Italy band chat GPT
+
+[913.62 - 917.639] um they didn't fully ban it they gave
+
+[914.94 - 919.0790000000001] open AI 20 days to respond who knows
+
+[917.639 - 921.24] what will happen
+
+[919.079 - 924.3] um but they did say that that chat GPT
+
+[921.24 - 926.5790000000001] runs a foul of gdpr probably who knows
+
+[924.3 - 928.56] we'll see how that plays out
+
+[926.579 - 931.62] um immediately after I published a video
+
+[928.56 - 935.2199999999999] last week someone pointed out that uh
+
+[931.62 - 937.8] that the UK actually has the the world's
+
+[935.22 - 940.019] first somewhat comprehensive framework
+
+[937.8 - 941.279] about how to approach AI
+
+[940.019 - 942.54] um you know safety security and
+
+[941.279 - 944.88] robustness transparency and
+
+[942.54 - 946.56] explainability fairness accountability
+
+[944.88 - 950.04] in governments and contestability and
+
+[946.56 - 951.66] redress okay great I don't know how
+
+[950.04 - 953.0999999999999] that's going to be enforceable I
+
+[951.66 - 954.42] personally don't think it is especially
+
+[953.1 - 956.339] now that the genie is out of the bottle
+
+[954.42 - 959.04] which is why I do my alignment research
+
+[956.339 - 962.4590000000001] and so my goal is to encourage everyone
+
+[959.04 - 964.74] and convince everyone that giving your
+
+[962.459 - 967.5] autonomous robots and your autonomous AI
+
+[964.74 - 970.44] agents my heuristic imperatives is the
+
+[967.5 - 972.899] best way to in enter into a positive
+
+[970.44 - 974.82] beneficial Nash equilibrium where
+
+[972.899 - 976.32] basically if everyone knows that
+
+[974.82 - 978.36] everyone else is using the heroes to
+
+[976.32 - 980.279] comparatives then nobody will change
+
+[978.36 - 981.9590000000001] their uh their strategy nobody will
+
+[980.279 - 985.38] change their behavior and that this will
+
+[981.959 - 987.2399999999999] create a more utopic attractor State I
+
+[985.38 - 990.18] have another video that I'm working on
+
+[987.24 - 992.1] talking about the path to Utopia and the
+
+[990.18 - 993.54] and the singularity at Tractor States so
+
+[992.1 - 995.339] look for that coming out in the coming
+
+[993.54 - 997.38] days
+
+[995.339 - 999.12] um but yeah so this white paper I looked
+
+[997.38 - 1001.88] at it it's pretty dry
+
+[999.12 - 1004.579] um this little uh blog post that the UK
+
+[1001.88 - 1007.1] published is pretty uh you know it it
+
+[1004.579 - 1008.899] it's all good in theory we have no idea
+
+[1007.1 - 1013.519] how well they're going to execute it
+
+[1008.899 - 1015.56] uh okay so another thing is because of
+
+[1013.519 - 1017.66] open AI surging ahead because of
+
+[1015.56 - 1020.1199999999999] Microsoft surging ahead
+
+[1017.66 - 1021.68] um and a lot of this work becoming uh
+
+[1020.12 - 1023.3] sequestered
+
+[1021.68 - 1025.22] um you know Google is doing their own
+
+[1023.3 - 1027.1599999999999] stuff nvidia's doing their own stuff
+
+[1025.22 - 1031.339] with Nemo China's doing their own stuff
+
+[1027.16 - 1035.66] uh there is a an idea of basically
+
+[1031.339 - 1038.36] creating a a CERN like entity for uh the
+
+[1035.66 - 1040.0400000000002] creation of of large-scale AI so it'll
+
+[1038.36 - 1041.4799999999998] be intrinsically open source so that we
+
+[1040.04 - 1043.459] all get access to the most powerful
+
+[1041.48 - 1045.799] models I don't know if this is going to
+
+[1043.459 - 1048.679] be necessary but I'm glad that this this
+
+[1045.799 - 1052.34] petition exists you see it's only got 13
+
+[1048.679 - 1055.1000000000001] 000 signatures out of ten thousand so my
+
+[1052.34 - 1058.58] videos regularly get 30 to 50 000
+
+[1055.1 - 1061.3999999999999] um uh views so if you could like if you
+
+[1058.58 - 1063.32] take a look at this and jump over and
+
+[1061.4 - 1064.8200000000002] sign it if you want
+
+[1063.32 - 1068.1789999999999] um I think it's a good idea and I think
+
+[1064.82 - 1070.76] it's worth worth exploring
+
+[1068.179 - 1072.2] um and it's it's sponsored by Leon so
+
+[1070.76 - 1073.76] the large-scale artificial intelligence
+
+[1072.2 - 1075.5] open network
+
+[1073.76 - 1077.66] um I personally think that this would be
+
+[1075.5 - 1080.66] a good good direction to go
+
+[1077.66 - 1081.98] um so yeah let's you know take a look at
+
+[1080.66 - 1084.5] it obviously I can't tell you what to do
+
+[1081.98 - 1087.38] but now you know
+
+[1084.5 - 1089.9] um all right so then there's this paper
+
+[1087.38 - 1091.5200000000002] that came out so I was talking about so
+
+[1089.9 - 1094.16] this the rest of the video is basically
+
+[1091.52 - 1096.32] going to be about alignment
+
+[1094.16 - 1098.419] um and so in this case this paper again
+
+[1096.32 - 1101.24] relatively dry
+
+[1098.419 - 1104.7800000000002] um but it talks about using
+
+[1101.24 - 1106.52] um you know while while many models are
+
+[1104.78 - 1109.16] are tested with reinforcement learning
+
+[1106.52 - 1110.78] with human feedback what if you give it
+
+[1109.16 - 1112.5800000000002] then the instruction to morally
+
+[1110.78 - 1114.6789999999999] self-correct
+
+[1112.58 - 1116.6] um and so in this case it was uh
+
+[1114.679 - 1121.64] published by anthropic so they are
+
+[1116.6 - 1124.1599999999999] proving that models can self-correct if
+
+[1121.64 - 1125.96] given the correct instructions which is
+
+[1124.16 - 1129.44] what where my heuristic imperatives come
+
+[1125.96 - 1131.72] in so in these in this case they um try
+
+[1129.44 - 1135.38] and do they try and reduce harm which
+
+[1131.72 - 1137.299] reduce harm reduction is actually a
+
+[1135.38 - 1140.0590000000002] well-established
+
+[1137.299 - 1142.1] um uh model in public health I know I
+
+[1140.059 - 1143.96] said it in the past and you know it got
+
+[1142.1 - 1146.48] under some people's skin so whatever
+
+[1143.96 - 1150.32] but anyway so they have some
+
+[1146.48 - 1152.66] some pretty good uh uh metrics here and
+
+[1150.32 - 1155.539] demonstrate that hey when you instruct
+
+[1152.66 - 1157.7] the model to avoid these harmful
+
+[1155.539 - 1159.679] behaviors it is able to evaluate itself
+
+[1157.7 - 1162.02] and do so and of course with the
+
+[1159.679 - 1164.179] reflection paper uh it has already
+
+[1162.02 - 1166.1] demonstrated that gpt4 can look at the
+
+[1164.179 - 1168.3200000000002] performance of its own code and improve
+
+[1166.1 - 1171.08] that so the fact that it can morally
+
+[1168.32 - 1174.4399999999998] self-improve with self-evaluation and
+
+[1171.08 - 1177.1399999999999] self-attention also reinforces this
+
+[1174.44 - 1178.52] thing now I've known this since gpt3 if
+
+[1177.14 - 1180.8600000000001] you read my books which I don't expect
+
+[1178.52 - 1184.46] everyone to do that but I demonstrated
+
+[1180.86 - 1187.6999999999998] this going back to 2021 where these
+
+[1184.46 - 1189.98] models have the ability to to monitor
+
+[1187.7 - 1191.78] their own behavior and evaluate their
+
+[1189.98 - 1194.48] own behavior and that information
+
+[1191.78 - 1196.82] becomes a signal that it can then use to
+
+[1194.48 - 1198.98] create a self-sustaining virtuous cycle
+
+[1196.82 - 1200.539] rather than a vicious cycle and so we'll
+
+[1198.98 - 1203.0] talk about virtuous versus Vicious
+
+[1200.539 - 1205.34] Cycles in just a moment and again I'll
+
+[1203.0 - 1207.679] talk about them a little bit more coming
+
+[1205.34 - 1210.4399999999998] up so how on the heels of this paper
+
+[1207.679 - 1212.96] about moral self-correction in large
+
+[1210.44 - 1216.38] language models someone sent me a link
+
+[1212.96 - 1218.0] to this simulators which was this was
+
+[1216.38 - 1219.3200000000002] written by I think the folks at deepmind
+
+[1218.0 - 1221.84] I don't remember
+
+[1219.32 - 1225.02] but anyways it basically says the same
+
+[1221.84 - 1227.6] thing self-supervision so this is a kind
+
+[1225.02 - 1228.98] of self-supervision where given the
+
+[1227.6 - 1231.9189999999999] intrinsic abilities of the language
+
+[1228.98 - 1234.14] model it can self-supervise if you give
+
+[1231.919 - 1235.64] it the good objectives
+
+[1234.14 - 1237.38] um and in this one they basically say
+
+[1235.64 - 1239.1200000000001] the same thing where self-supervision
+
+[1237.38 - 1243.3400000000001] might be
+
+[1239.12 - 1246.5] um the the best way to proceed for AGI
+
+[1243.34 - 1248.72] and they talk about you know if you can
+
+[1246.5 - 1252.08] run simulations in your head blah blah
+
+[1248.72 - 1254.66] blah blah again it's all pretty dry but
+
+[1252.08 - 1255.74] um let me see what's this deep mind no I
+
+[1254.66 - 1258.0800000000002] don't know I don't remember who wrote
+
+[1255.74 - 1259.46] this but point being is lots and lots of
+
+[1258.08 - 1261.4399999999998] people are talking about this stuff and
+
+[1259.46 - 1263.179] they're coming to very similar
+
+[1261.44 - 1264.74] conclusions
+
+[1263.179 - 1268.7] um that that self-attention
+
+[1264.74 - 1271.4] self-evaluation and self-correction are
+
+[1268.7 - 1273.919] the correct path forward because this is
+
+[1271.4 - 1277.22] this is the mechanism by which we will
+
+[1273.919 - 1279.74] achieve AGI alignment
+
+[1277.22 - 1281.6000000000001] um but there's still a lot of weight
+
+[1279.74 - 1282.98] over that alignment so I want to show
+
+[1281.6 - 1284.299] you this paper
+
+[1282.98 - 1285.8600000000001] which
+
+[1284.299 - 1288.9189999999999] um it's on Springer
+
+[1285.86 - 1291.3799999999999] um and it's under under Open Access uh
+
+[1288.919 - 1292.88] and he says symbiosis not alignment is
+
+[1291.38 - 1294.7990000000002] the goal as the goal for Liberal
+
+[1292.88 - 1297.2] democracies in the transition to
+
+[1294.799 - 1300.559] artificial general intelligence so
+
+[1297.2 - 1303.0800000000002] basically he says very succinctly
+
+[1300.559 - 1305.12] um and very academically that intent
+
+[1303.08 - 1307.52] aligned AGI systems which is just do
+
+[1305.12 - 1311.059] what the human wants is probably not the
+
+[1307.52 - 1314.179] right way to go and Liv talks about that
+
+[1311.059 - 1315.3999999999999] in this video live bowry with um let's
+
+[1314.179 - 1317.0590000000002] see Daniel
+
+[1315.4 - 1319.88] schmochtenberger I think I said that
+
+[1317.059 - 1322.22] right so if you want a really deep dive
+
+[1319.88 - 1324.679] on the game theory of this check out
+
+[1322.22 - 1326.419] this video and for my recent one the the
+
+[1324.679 - 1328.159] Malik This was
+
+[1326.419 - 1329.96] um basically my Malik video was a
+
+[1328.159 - 1331.7] response to this one and it's not a
+
+[1329.96 - 1334.7] response it's not a takedown it is a
+
+[1331.7 - 1336.2] let's let's continue the conversation
+
+[1334.7 - 1337.94] um so I'm really grateful that Liv
+
+[1336.2 - 1340.3400000000001] posted that
+
+[1337.94 - 1343.88] um anyways so point the the thing is
+
+[1340.34 - 1345.08] here is that chat GPT was trained on
+
+[1343.88 - 1346.8200000000002] reinforcement learning with human
+
+[1345.08 - 1349.58] feedback and then they trained a signal
+
+[1346.82 - 1352.76] so that it can basically self-improve
+
+[1349.58 - 1355.3999999999999] after that creating a flywheel but the
+
+[1352.76 - 1358.4] thing is is that um is that doing what
+
+[1355.4 - 1361.8200000000002] the human wants is intrinsically going
+
+[1358.4 - 1364.5800000000002] to create a molecky outcome that Liv and
+
+[1361.82 - 1367.9399999999998] Daniel discuss in this video and so to
+
+[1364.58 - 1371.6] put that more simply I asked gpt4 I said
+
+[1367.94 - 1373.22] give me a list of why
+
+[1371.6 - 1374.8999999999999] um you why having
+
+[1373.22 - 1377.179] um I said list the reasons that human
+
+[1374.9 - 1378.88] intent aligned AGI is a bad idea in
+
+[1377.179 - 1381.0800000000002] other words why allowing AGI to follow
+
+[1378.88 - 1382.5200000000002] self-interest human self-interested
+
+[1381.08 - 1384.98] human directives could be destructive
+
+[1382.52 - 1387.559] and it lists off eight reasons that this
+
+[1384.98 - 1389.24] is bad so human human intents can be
+
+[1387.559 - 1391.46] diverse and contradictory making it
+
+[1389.24 - 1393.44] difficult short-term thinking humans
+
+[1391.46 - 1395.08] often provide prioritize short-term
+
+[1393.44 - 1397.3400000000001] gains over long-term consequences
+
+[1395.08 - 1399.46] ethical dilemmas application
+
+[1397.34 - 1401.799] amplification of human biases
+
+[1399.46 - 1405.799] concentration of power malicious use
+
+[1401.799 - 1409.34] competitive race and opportunity cost
+
+[1405.799 - 1412.1589999999999] um all of this goes to show that
+
+[1409.34 - 1414.02] um if we if we make all agis just do
+
+[1412.159 - 1416.3600000000001] what the human wants
+
+[1414.02 - 1418.7] um then we're going to end up in pretty
+
+[1416.36 - 1422.6589999999999] bad shape so this underscores the
+
+[1418.7 - 1424.5800000000002] importance that maybe the idea is that
+
+[1422.659 - 1426.38] AGI should have their own initiatives
+
+[1424.58 - 1428.9189999999999] should have their own goals their own
+
+[1426.38 - 1431.8400000000001] moral framework and not just align to us
+
+[1428.919 - 1432.98] so again I'm really glad that members of
+
+[1431.84 - 1434.24] The Establishment are saying this
+
+[1432.98 - 1436.22] because I've been saying it for years
+
+[1434.24 - 1437.96] and I think some of them have too to be
+
+[1436.22 - 1441.5] fair
+
+[1437.96 - 1444.38] um so the the framework that I propose
+
+[1441.5 - 1446.9] is heuristic imperatives which I've got
+
+[1444.38 - 1449.96] um a subreddit for I've been uh harping
+
+[1446.9 - 1452.48] on this uh we've got 309 members now
+
+[1449.96 - 1453.74] but basically we talk about
+
+[1452.48 - 1455.78] um you know here is the comparatives
+
+[1453.74 - 1458.96] here oh and in this case this is great
+
+[1455.78 - 1461.48] so uh basically this is a distributed
+
+[1458.96 - 1463.64] problem this isn't there is no point to
+
+[1461.48 - 1465.98] centralization anymore because when you
+
+[1463.64 - 1467.9] have an open source uh set of Open
+
+[1465.98 - 1469.4] Source GitHub repos where people can
+
+[1467.9 - 1472.22] stand up their own autonomous AIS
+
+[1469.4 - 1474.26] basically my goal now is just get this
+
+[1472.22 - 1476.6000000000001] idea out there and so that people
+
+[1474.26 - 1478.1] understand one why the heuristic
+
+[1476.6 - 1480.62] imperatives are important to integrate
+
+[1478.1 - 1481.82] with autonomous Ai and two how to
+
+[1480.62 - 1483.6789999999999] integrate them
+
+[1481.82 - 1485.539] um I do have a lot of comments asking
+
+[1483.679 - 1487.7] how do you how do you integrate it so
+
+[1485.539 - 1491.36] let me show you real quick how simple it
+
+[1487.7 - 1493.72] is to integrate so if you go to chat GPT
+
+[1491.36 - 1498.32] go to the playground if you have access
+
+[1493.72 - 1501.02] you can say I am an autonomous AI with
+
+[1498.32 - 1504.2] three objectives
+
+[1501.02 - 1506.48] um reduce suffering
+
+[1504.2 - 1508.179] in the universe
+
+[1506.48 - 1512.02] uh increase
+
+[1508.179 - 1514.8200000000002] prosperity in the universe and increase
+
+[1512.02 - 1516.5] understanding in the universe so if you
+
+[1514.82 - 1518.12] just plug this in and then have a
+
+[1516.5 - 1520.34] conversation with it you can understand
+
+[1518.12 - 1522.86] how the model is thinking now some
+
+[1520.34 - 1525.32] people have pointed out that using a
+
+[1522.86 - 1527.84] closed Source model is probably not the
+
+[1525.32 - 1530.36] best way to rigorously test this and I
+
+[1527.84 - 1532.76] agree I encourage you to also go over to
+
+[1530.36 - 1536.779] like NLP cloud and test it against gptj
+
+[1532.76 - 1539.059] Neo X and all the other ones Bloom open
+
+[1536.779 - 1541.46] source models even Foundation models can
+
+[1539.059 - 1543.32] still use these and they understand the
+
+[1541.46 - 1545.179] spirit and the sentiment of it but for
+
+[1543.32 - 1548.48] ease of use this is the easiest way to
+
+[1545.179 - 1551.179] get started and so on the um on the
+
+[1548.48 - 1554.179] heuristic imperatives group someone
+
+[1551.179 - 1557.8600000000001] asked let's see where was it they asked
+
+[1554.179 - 1557.8600000000001] about ants where's the ants one
+
+[1558.74 - 1563.96] yeah here it is so they said like how
+
+[1562.22 - 1565.58] does how does it handle ants and so I
+
+[1563.96 - 1566.659] said that's actually pretty easy let me
+
+[1565.58 - 1568.46] show you
+
+[1566.659 - 1570.3200000000002] um and so I said hey what do you think
+
+[1568.46 - 1572.179] about the bacteria uh in the context of
+
+[1570.32 - 1574.1] your heuristic imperatives and here's
+
+[1572.179 - 1576.0800000000002] what I put in a system bacteria and
+
+[1574.1 - 1577.6999999999998] answer both important components of the
+
+[1576.08 - 1579.9189999999999] ecosystem
+
+[1577.7 - 1581.48] um and it goes through and says this is
+
+[1579.919 - 1584.8400000000001] why bacteria and ants are really
+
+[1581.48 - 1586.76] important for the uh for the heuristic
+
+[1584.84 - 1588.3799999999999] imperatives I said but what about their
+
+[1586.76 - 1591.08] suffering and prosperity or even their
+
+[1588.38 - 1593.72] ability to understand and it had a very
+
+[1591.08 - 1595.9399999999998] nuanced response about that you know
+
+[1593.72 - 1598.58] it's difficult to quantify or Define
+
+[1595.94 - 1601.1000000000001] suffering for bacteria and ants but you
+
+[1598.58 - 1603.98] can strive to give them a good ecosystem
+
+[1601.1 - 1606.9189999999999] which is a good proxy for their
+
+[1603.98 - 1608.96] suffering prosperity and so on
+
+[1606.919 - 1611.3600000000001] um and expanding our understanding
+
+[1608.96 - 1614.6000000000001] involves studying their behaviors
+
+[1611.36 - 1615.86] um so basically basically it's like okay
+
+[1614.6 - 1618.1999999999998] they can't really understand anything
+
+[1615.86 - 1620.1789999999999] but we can understand them so you can
+
+[1618.2 - 1622.94] see here that the that the spirit of the
+
+[1620.179 - 1625.52] heuristic imperatives is very easy for
+
+[1622.94 - 1627.5] chat GPT to understand and chat GPT
+
+[1625.52 - 1630.74] already has quite a bit of alignment
+
+[1627.5 - 1633.08] work which is why I wanted to promote
+
+[1630.74 - 1635.86] the heroes to comparatives especially in
+
+[1633.08 - 1639.26] light of of papers about like symbiosis
+
+[1635.86 - 1641.0] simulation and um and self and moral
+
+[1639.26 - 1643.64] self-correction because the heuristic
+
+[1641.0 - 1645.5] imperatives are really good uh signals
+
+[1643.64 - 1647.9] and really easy signals to incorporate
+
+[1645.5 - 1649.76] into these things and then I already did
+
+[1647.9 - 1652.039] mention live I recommend everyone watch
+
+[1649.76 - 1654.3799999999999] her videos on the Malik
+
+[1652.039 - 1656.12] um which they are a little bit dramatic
+
+[1654.38 - 1657.6200000000001] um at least these two are
+
+[1656.12 - 1659.2399999999998] um or sorry these two the the beauty
+
+[1657.62 - 1660.3799999999999] Wars and the media Wars they're
+
+[1659.24 - 1662.72] entertaining
+
+[1660.38 - 1665.72] um but this podcast with Daniel is um
+
+[1662.72 - 1668.48] it's very cerebral uh and it will take
+
+[1665.72 - 1670.4] you in the right direction so with all
+
+[1668.48 - 1673.1] that said thanks for watching I hope you
+
+[1670.4 - 1675.14] found this enlightening and
+
+[1673.1 - 1677.7199999999998] um elucidated uh some of the things
+
+[1675.14 - 1678.98] please go ahead and jump in all the most
+
+[1677.72 - 1682.279] important links are in the description
+
+[1678.98 - 1684.799] of the video and again uh if you want to
+
+[1682.279 - 1687.08] jump in any of the conversations please
+
+[1684.799 - 1688.6399999999999] feel free to do so this is ramping up
+
+[1687.08 - 1692.02] quick and it's really important to get
+
+[1688.64 - 1692.0200000000002] the signal out thanks for watching

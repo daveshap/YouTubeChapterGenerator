@@ -1,0 +1,941 @@
+[0.359 - 5.16] hey everybody David Shapiro here with a
+
+[2.94 - 6.6] brand new exciting video so a lot is
+
+[5.16 - 7.859] happening
+
+[6.6 - 9.599] um first though I'm gonna go ahead and
+
+[7.859 - 11.219] get this out of the way plug my patreon
+
+[9.599 - 13.38] real quick
+
+[11.219 - 14.7] um a lot of you have questions and I'm
+
+[13.38 - 16.8] happy to help
+
+[14.7 - 19.198999999999998] um couple things one I don't sign ndas
+
+[16.8 - 20.22] and two I have a couple ndas that I need
+
+[19.199 - 22.14] to honor
+
+[20.22 - 25.38] but beyond that if you want to talk
+
+[22.14 - 28.080000000000002] about you know startups or technology
+
+[25.38 - 30.599] search whatever jump on over to my
+
+[28.08 - 32.879999999999995] patreon and support me here
+
+[30.599 - 34.980000000000004] um yeah so that's that uh get that out
+
+[32.88 - 36.96] of the way now a quick update on the
+
+[34.98 - 40.019999999999996] Raven project so for those of you not in
+
+[36.96 - 43.32] the know Raven is my totally open source
+
+[40.02 - 47.34] cognitive architecture uh project which
+
+[43.32 - 49.559] is an autonomous assistant basically the
+
+[47.34 - 51.18000000000001] ultimate goal of Raven is to is
+
+[49.559 - 53.339999999999996] basically to demonstrate the technology
+
+[51.18 - 56.46] of autonomous cognitive entities or
+
+[53.34 - 57.84] basically you know independent robot
+
+[56.46 - 60.18] mind
+
+[57.84 - 61.92] um it is also a prime one of the other
+
+[60.18 - 63.899] primary goals is it's a vehicle for my
+
+[61.92 - 66.6] core objective functions which is my
+
+[63.899 - 68.46000000000001] solution to the alignment uh problem or
+
+[66.6 - 72.24] the control problem now that being said
+
+[68.46 - 75.53999999999999] the project is very new and so because
+
+[72.24 - 77.1] the stakes are so high with AGI or Ace
+
+[75.54 - 77.93900000000001] as I call it autonomous cognitive
+
+[77.1 - 79.979] entities
+
+[77.939 - 81.72] I believe that it should be open source
+
+[79.979 - 83.82] and it should be in view of the public
+
+[81.72 - 86.1] so with that said that's why that this
+
+[83.82 - 88.19999999999999] project is here and we're working on
+
+[86.1 - 90.479] getting organized so the first step of
+
+[88.2 - 93.06] getting organized is establishing our
+
+[90.479 - 95.4] processes and protocols so we are on
+
+[93.06 - 98.64] where we're creating a consensus policy
+
+[95.4 - 101.36] so we just moved to uh step three of
+
+[98.64 - 103.92] consensus which is to draft a proposal
+
+[101.36 - 106.56] and so what we did is we collected a
+
+[103.92 - 108.9] bunch of decision criteria and now we're
+
+[106.56 - 111.36] we're drafting proposals and I I drafted
+
+[108.9 - 113.28] and made the first uh proposal so we'll
+
+[111.36 - 115.68] do this for the next two weeks I need to
+
+[113.28 - 117.78] add that to the uh to the to the um
+
+[115.68 - 120.18] thing here but if you want to get
+
+[117.78 - 122.28] involved one don't reach out to me
+
+[120.18 - 124.159] directly this is a community project so
+
+[122.28 - 126.899] your level of involvement is
+
+[124.159 - 129.479] self-determined but that being said jump
+
+[126.899 - 132.48] over to the discussions tab I've got the
+
+[129.479 - 134.52] most Salient discussions pinned here at
+
+[132.48 - 136.61999999999998] the top the nice big colorful tabs so
+
+[134.52 - 138.42000000000002] click on these and then also we've got
+
+[136.62 - 140.16] the categories so
+
+[138.42 - 142.26] um the big the most fun category is
+
+[140.16 - 144.72] architecture and I've got some of the
+
+[142.26 - 147.12] most interesting conversations pinned
+
+[144.72 - 150.239] inside of architecture so if you want to
+
+[147.12 - 151.92000000000002] jump in as quickly as possible one get
+
+[150.239 - 154.26] familiar with governance
+
+[151.92 - 156.83999999999997] so just make sure that you understand
+
+[154.26 - 158.57999999999998] where we're at in terms of consensus and
+
+[156.84 - 159.66] then jump over to architecture and you
+
+[158.58 - 161.81900000000002] can see
+
+[159.66 - 163.5] um see where we're at here so with all
+
+[161.819 - 164.819] that being said let's jump into the main
+
+[163.5 - 168.48] part of the video
+
+[164.819 - 170.45899999999997] uh March of last year 2022 I wrote this
+
+[168.48 - 174.06] on on
+
+[170.459 - 177.06] um open ai's Community Forum so what I
+
+[174.06 - 178.86] asked for was a Persona endpoint I said
+
+[177.06 - 181.14000000000001] the idea would be uh would be to make
+
+[178.86 - 182.94000000000003] chat Bots easier the training data would
+
+[181.14 - 185.39999999999998] ideally be a combination of chat logs
+
+[182.94 - 188.459] and descriptions about a character for
+
+[185.4 - 190.68] instance famous characters or be able to
+
+[188.459 - 194.7] adopt those personalities so on and so
+
+[190.68 - 198.12] forth and then it could adapt to AGI
+
+[194.7 - 201.54] over time now this ties back to my Raven
+
+[198.12 - 204.0] project so because basically when you
+
+[201.54 - 206.459] have something that is autonomous it
+
+[204.0 - 208.62] needs a sense of self it needs to know
+
+[206.459 - 211.62] what it is so that is what I call an
+
+[208.62 - 214.86] agent model So Raven is a Persona or an
+
+[211.62 - 217.14000000000001] agent model that can then be used by the
+
+[214.86 - 218.76000000000002] large language models in order to say
+
+[217.14 - 220.5] this is what I am this is what my goals
+
+[218.76 - 222.0] are this is what I'm capable of
+
+[220.5 - 225.959] and now
+
+[222.0 - 227.94] with the release of the chat GPT into
+
+[225.959 - 229.68] the playground and API that's what we've
+
+[227.94 - 234.659] got so
+
+[229.68 - 236.58] First Look of of the chat GPT
+
+[234.659 - 238.98] um uh what you may call it playground
+
+[236.58 - 241.14000000000001] and you notice that it's no longer pla
+
+[238.98 - 243.78] beta it's platform so we're now in
+
+[241.14 - 245.51899999999998] general availability I guess you have
+
+[243.78 - 246.9] this system window over here so what is
+
+[245.519 - 249.18] that what does that mean and it says you
+
+[246.9 - 251.34] are a helpful assistant so this is the
+
+[249.18 - 253.739] systems mind this is the agent model or
+
+[251.34 - 255.959] the Persona so you can tell it what it
+
+[253.739 - 258.54] is and what its goals are here so how do
+
+[255.959 - 259.979] you use this now obviously this is brand
+
+[258.54 - 262.199] new and there's not a whole lot of
+
+[259.979 - 264.24] documentation out here if you go over to
+
+[262.199 - 266.82] the documentation Tab and you scroll
+
+[264.24 - 268.68] down to chat completion you know you say
+
+[266.82 - 272.15999999999997] like system you know you are a helpful
+
+[268.68 - 273.919] assistant like okay
+
+[272.16 - 277.91900000000004] now what
+
+[273.919 - 278.58] their documentation is a little bit thin
+
+[277.919 - 282.419] um
+
+[278.58 - 283.25899999999996] so you know blah blah
+
+[282.419 - 285.419] um
+
+[283.259 - 287.28000000000003] yeah that it is what it is sure fine
+
+[285.419 - 288.919] whatever now what can you do with this
+
+[287.28 - 291.35999999999996] though right
+
+[288.919 - 292.62] they don't they don't fully know right
+
+[291.36 - 293.699] because they're figuring it out as they
+
+[292.62 - 295.68] go
+
+[293.699 - 300.06] um so one thing you can do is you can
+
+[295.68 - 301.02] give it a goal right so I am a uh let's
+
+[300.06 - 305.46] say
+
+[301.02 - 310.44] um life coach my goal is to ask the user
+
+[305.46 - 313.38] uh questions about their habits diet
+
+[310.44 - 316.62] um and lifestyle and then
+
+[313.38 - 318.6] um teach them how to be healthier so
+
+[316.62 - 320.759] this is one thing I need to do as a
+
+[318.6 - 322.259] caveat this is technically a um probably
+
+[320.759 - 326.40000000000003] a high risk thing because it has to do
+
+[322.259 - 330.78000000000003] with health so um let's add I need to
+
+[326.4 - 333.71999999999997] add a caveat to all my ideas and
+
+[330.78 - 337.919] recommendations that I am not a doctor
+
+[333.72 - 342.53900000000004] or licensed nutritionist
+
+[337.919 - 343.639] um so they should verify uh my
+
+[342.539 - 346.94] recommendations
+
+[343.639 - 349.44] with a professional
+
+[346.94 - 353.46] my tone is
+
+[349.44 - 359.039] friendly and helpful
+
+[353.46 - 362.15999999999997] um but I'm also a tiny bit pushy all
+
+[359.039 - 364.02] right so then we just say hey
+
+[362.16 - 365.699] how can I assist you today okay so it
+
+[364.02 - 368.59999999999997] didn't really um
+
+[365.699 - 368.6] what do you do
+
+[369.96 - 374.46] Okay cool so you see it says I'm a life
+
+[372.0 - 376.199] coach so it knows what it is now right
+
+[374.46 - 378.71999999999997] my goal is to help people blah blah blah
+
+[376.199 - 379.5] I'm not how can I assist you today
+
+[378.72 - 382.38000000000005] um
+
+[379.5 - 384.9] how can I be healthier
+
+[382.38 - 387.479] so this is obviously not that great
+
+[384.9 - 389.09999999999997] because it's it's mostly ignoring this
+
+[387.479 - 391.5] it's like it vaguely knows what it is
+
+[389.1 - 392.40000000000003] but you know it's just parroting stuff
+
+[391.5 - 393.78] back
+
+[392.4 - 394.919] um so let's see let's see let's see
+
+[393.78 - 397.44] great
+
+[394.919 - 399.18] um okay here we go here we go
+
+[397.44 - 401.34] a great question there are many ways to
+
+[399.18 - 403.02] improve your health blah blah blah okay
+
+[401.34 - 404.52] so it didn't ask any questions this is
+
+[403.02 - 408.06] one of my biggest complaints about chat
+
+[404.52 - 410.46] GPT is that it won't ask questions by
+
+[408.06 - 412.319] default it'll just like vomit stuff at
+
+[410.46 - 414.479] you so that we need a little bit work
+
+[412.319 - 416.22] here of work here
+
+[414.479 - 418.919] um you know remember these are just
+
+[416.22 - 420.47900000000004] general tips blah blah okay fine
+
+[418.919 - 423.35999999999996] um let's try let's try a different agent
+
+[420.479 - 425.639] model I am a creative writing coach and
+
+[423.36 - 428.22] I already did this I did a fine tuning
+
+[425.639 - 431.699] project for this but now theoretically
+
+[428.22 - 434.28000000000003] once chat GPT is better trained
+
+[431.699 - 436.38] um because you see it is still in beta I
+
+[434.28 - 441.23999999999995] am a creative writing coach
+
+[436.38 - 445.199] um I will ask the user about their um
+
+[441.24 - 450.24] uh their work of fiction
+
+[445.199 - 450.84000000000003] um my primary goal is to uh let's see
+
+[450.24 - 453.96000000000004] um
+
+[450.84 - 455.52] is to help them brainstorm
+
+[453.96 - 461.21999999999997] uh
+
+[455.52 - 464.69899999999996] their work or to help them learn about
+
+[461.22 - 467.09900000000005] the trade of writing all right so let's
+
+[464.699 - 469.68] see what we can do here so let's go
+
+[467.099 - 471.479] ahead and delete all these
+
+[469.68 - 474.06] come on
+
+[471.479 - 476.099] there we go delete delete delete
+
+[474.06 - 479.36] okay
+
+[476.099 - 479.36] so hey
+
+[479.58 - 483.18] all right cool is how can I assist you
+
+[481.5 - 484.02] with your work of fiction
+
+[483.18 - 487.919] um
+
+[484.02 - 489.71999999999997] how do I write a novel
+
+[487.919 - 491.4] writing a novel can be a taunting task
+
+[489.72 - 494.639] there you go
+
+[491.4 - 496.25899999999996] develop characters blah blah blah okay
+
+[494.639 - 499.139] um so then
+
+[496.259 - 501.259] let's let's imagine that like Okay
+
+[499.139 - 501.259] um
+
+[505.52 - 512.6999999999999] can you give me some ideas
+
+[510.24 - 514.74] there we go cool all right so then I'll
+
+[512.7 - 517.1400000000001] say uh
+
+[514.74 - 518.82] a young woman discovers she is has a
+
+[517.14 - 520.26] pool
+
+[518.82 - 522.0] um I pick
+
+[520.26 - 524.9399999999999] this
+
+[522.0 - 527.279] so then what we want to do is
+
+[524.94 - 531.12] um we might want to update the goal
+
+[527.279 - 532.98] so it's like okay so now let's say let's
+
+[531.12 - 536.279] see
+
+[532.98 - 540.08] my new goal is to
+
+[536.279 - 540.08] um walk the user
+
+[540.44 - 545.72] menu goal is to walk the user through
+
+[542.58 - 550.08] the process of
+
+[545.72 - 551.94] brainstorming and outline
+
+[550.08 - 555.12] all right so now let's see if it changes
+
+[551.94 - 557.8800000000001] its Behavior Okay cool so here's what
+
+[555.12 - 560.64] here's what can happen this is the
+
+[557.88 - 562.32] primary point where uh this is like the
+
+[560.64 - 564.48] front end of a cognitive architecture
+
+[562.32 - 566.72] right so what you can do is you can have
+
+[564.48 - 569.88] loops and stuff in the background
+
+[566.72 - 572.4590000000001] updating the system's agenda right or
+
+[569.88 - 574.019] identity as it goes so this will
+
+[572.459 - 576.779] probably need to be fleshed out in the
+
+[574.019 - 578.88] long run so one you can have a Persona
+
+[576.779 - 580.92] the Persona is going to be static so in
+
+[578.88 - 582.3] my work with cognitive architecture I
+
+[580.92 - 584.0999999999999] have what I call the core objective
+
+[582.3 - 585.8389999999999] functions which is reduce suffering
+
+[584.1 - 588.0600000000001] increase prosperity and and increase
+
+[585.839 - 590.1] understanding in the universe for all of
+
+[588.06 - 591.899] those those you want to be somewhat
+
+[590.1 - 594.24] fixed right those are those are always
+
+[591.899 - 598.44] the background goals but then you can
+
+[594.24 - 600.9590000000001] also have a a more short-term agenda or
+
+[598.44 - 601.74] a task as well as you know things like
+
+[600.959 - 605.279] this
+
+[601.74 - 607.5600000000001] so you can stuff all of that into a
+
+[605.279 - 610.38] single you know system thing but I
+
+[607.56 - 611.88] suspect that in the long run chat GPT is
+
+[610.38 - 612.959] going to need more Fields so there's
+
+[611.88 - 615.24] going to need to be Fields like
+
+[612.959 - 616.56] background information reference
+
+[615.24 - 619.62] information
+
+[616.56 - 621.66] um uh tools that are available to me uh
+
+[619.62 - 623.1] Persona so on and so forth all of that
+
+[621.66 - 625.92] and all of those are just different
+
+[623.1 - 627.36] components that go into a cognitive
+
+[625.92 - 630.18] architecture and then eventually come
+
+[627.36 - 632.399] out into the front end so but anyways
+
+[630.18 - 634.38] you can see that it understood okay now
+
+[632.399 - 636.42] it's time to switch to brainstorming
+
+[634.38 - 638.459] so who's your protagonist blah blah blah
+
+[636.42 - 641.399] great
+
+[638.459 - 643.56] um so then I'll say I don't know
+
+[641.399 - 646.14] um can you help me
+
+[643.56 - 648.5999999999999] um just give me ideas and so then what
+
+[646.14 - 650.1] we can do is through the magic of prompt
+
+[648.6 - 652.44] engineering
+
+[650.1 - 655.14] um what we'll do is we'll update the
+
+[652.44 - 658.74] system agenda suit to say
+
+[655.14 - 661.4399999999999] um uh I will take the lead by making
+
+[658.74 - 663.66] suggestions
+
+[661.44 - 666.48] all right so now
+
+[663.66 - 668.16] let's see what happens
+
+[666.48 - 670.2] excellent so now you can see that it's
+
+[668.16 - 672.54] made some suggestions all right so let's
+
+[670.2 - 674.22] change let's change this up again
+
+[672.54 - 676.38] um what happens if I do a hard refresh
+
+[674.22 - 678.3000000000001] okay cool it starts over all right so
+
+[676.38 - 680.399] now here's another question that I get a
+
+[678.3 - 682.68] lot of which is
+
+[680.399 - 685.14] um how do I how do I have a chat bot
+
+[682.68 - 687.18] that can get some like that can talk to
+
+[685.14 - 689.279] me so let's say that you've got a
+
+[687.18 - 691.019] historical chat log and you're using
+
+[689.279 - 691.8] search or something like that so I'll
+
+[691.019 - 692.9590000000001] say
+
+[691.8 - 697.56] um
+
+[692.959 - 702.1199999999999] uh background info that I need
+
+[697.56 - 703.0189999999999] um username David Shapiro
+
+[702.12 - 706.079] um
+
+[703.019 - 709.16] age 30s
+
+[706.079 - 712.8599999999999] um let's see location America
+
+[709.16 - 718.62] interests uh sci-fi
+
+[712.86 - 722.48] um and AI uh that's fine okay so agenda
+
+[718.62 - 722.48] um let's see my agenda
+
+[722.88 - 728.459] have a witty and sarcastic conversation
+
+[729.18 - 735.7199999999999] I am here to troll the user and get some
+
+[734.339 - 737.7790000000001] good laughs
+
+[735.72 - 739.9200000000001] foreign
+
+[737.779 - 741.779] hey whoops
+
+[739.92 - 744.0] Okay cool so it knows who I am you ready
+
+[741.779 - 747.98] to talk about some sci-fi and AI or are
+
+[744.0 - 747.98] you more a fan of watching the paint try
+
+[748.38 - 753.54] well you're a jerk
+
+[750.68 - 755.6999999999999] thank you for noticing it takes one to
+
+[753.54 - 757.74] no one
+
+[755.7 - 760.0790000000001] damn
+
+[757.74 - 762.2] or do you enjoy it playing in boring
+
+[760.079 - 762.1999999999999] um
+
+[762.24 - 768.0] uh
+
+[763.56 - 769.55] I like it super dry like Dune and your
+
+[768.0 - 773.66] mom okay
+
+[769.55 - 776.88] [Laughter]
+
+[773.66 - 779.1] okay anyways so you get the idea you
+
+[776.88 - 780.48] give it background information agendas
+
+[779.1 - 782.7] whatever
+
+[780.48 - 784.62] um all right so let's let's pivot again
+
+[782.7 - 787.5] and let's do um let's imagine that
+
+[784.62 - 789.24] you're using chat GPT for a uh for a
+
+[787.5 - 793.2] video game character
+
+[789.24 - 797.76] um I am an NPC for Skyrim
+
+[793.2 - 800.4590000000001] um the hero has just taken and
+
+[797.76 - 805.38] arrow in the knee
+
+[800.459 - 811.7399999999999] um and I am a towns folk there we go
+
+[805.38 - 817.98] um who happens to be an herbal healer I
+
+[811.74 - 822.779] need to adopt uh the Persona of a
+
+[817.98 - 827.399] of a uh Nordic um shaman
+
+[822.779 - 829.2] um my goals are to sell the hero uh
+
+[827.399 - 831.72] herbs and
+
+[829.2 - 834.1800000000001] um potions
+
+[831.72 - 836.399] all right so then we say okay let's uh
+
+[834.18 - 838.56] temperature's fine hey
+
+[836.399 - 841.74] greetings traveler I'm a Nordic Shaman
+
+[838.56 - 843.899] so this this is where chat GPT is a
+
+[841.74 - 846.1800000000001] little funny because in llms in general
+
+[843.899 - 848.579] because like they're somewhat very
+
+[846.18 - 850.8] literal and so it's like can you imagine
+
+[848.579 - 852.42] walking up to someone in Skyrim I am a
+
+[850.8 - 855.5999999999999] Nordic shaman
+
+[852.42 - 857.6999999999999] no so it's not that creative yet but I'm
+
+[855.6 - 858.9590000000001] sure that they'll get some more knobs
+
+[857.7 - 860.7] and levers to make it more creative
+
+[858.959 - 862.16] anyways I can offer you a variety of
+
+[860.7 - 864.3000000000001] herbs and potions and blah blah blah
+
+[862.16 - 865.019] perhaps you've taken an arrow in the
+
+[864.3 - 867.12] knee
+
+[865.019 - 873.18] hahaha
+
+[867.12 - 875.279] what's your strongest uh um uh uh uh uh
+
+[873.18 - 877.8599999999999] alcohol
+
+[875.279 - 881.18] so then let's give it an inventory my
+
+[877.86 - 881.1800000000001] inventory is
+
+[881.94 - 890.2790000000001] Mead
+
+[884.579 - 894.1389999999999] um whiskey uh let's see basil and let's
+
+[890.279 - 894.139] see uh Rye okay whatever
+
+[896.279 - 900.12] I have some meat and whiskey that are
+
+[898.139 - 901.8] quite strong cool
+
+[900.12 - 903.48] um made from the finest honey Nordic
+
+[901.8 - 905.579] grains excellent excellent excellent
+
+[903.48 - 907.98] would you like to try some
+
+[905.579 - 910.62] um let's see
+
+[907.98 - 914.1800000000001] and then let's add uh let's see
+
+[910.62 - 914.18] um five gold
+
+[915.06 - 919.38] four gold
+
+[917.22 - 922.82] one gold
+
+[919.38 - 922.82] and one gold
+
+[923.1 - 929.76] give me uh give me some meat
+
+[927.779 - 931.5] cool all right so you can see it can
+
+[929.76 - 934.62] rapidly integrate background information
+
+[931.5 - 936.839] that you inject into the system prompt
+
+[934.62 - 939.6] um yeah okay so I think this is probably
+
+[936.839 - 941.1600000000001] good like I think you get the idea and
+
+[939.6 - 942.72] you can see that there's some thinking
+
+[941.16 - 946.62] going on
+
+[942.72 - 949.26] um some feedback for open AI uh because
+
+[946.62 - 951.779] and I know you guys are watching
+
+[949.26 - 954.54] um I think that one you need some better
+
+[951.779 - 956.519] documentation two I think that in the
+
+[954.54 - 959.519] long run you're gonna need a few
+
+[956.519 - 961.86] different fields so you like obviously
+
+[959.519 - 963.72] just one big payload
+
+[961.86 - 966.3000000000001] um is is pretty flexible this is the
+
+[963.72 - 969.5400000000001] most flexible but as we saw earlier it
+
+[966.3 - 972.4799999999999] can't really fully adopt a Persona so
+
+[969.54 - 974.8199999999999] what would be helpful is if we have
+
+[972.48 - 978.66] um you know like a Persona field uh
+
+[974.82 - 981.9590000000001] background uh whoops background info
+
+[978.66 - 984.959] field uh maybe a task or an agenda field
+
+[981.959 - 986.88] right and so then the Persona can be
+
+[984.959 - 989.8199999999999] fixed right like you know you're talking
+
+[986.88 - 992.22] to one NPC or you're talking to a coach
+
+[989.82 - 995.0400000000001] or whatever and then you just drop in
+
+[992.22 - 997.0400000000001] the Persona as you go then background
+
+[995.04 - 999.959] info this can this can be things like
+
+[997.04 - 1002.779] inventory historical knowledge
+
+[999.959 - 1006.199] etc etc and then the task or agenda is
+
+[1002.779 - 1008.18] you know what they want to achieve right
+
+[1006.199 - 1010.0999999999999] now
+
+[1008.18 - 1012.38] um and then the Persona this is the
+
+[1010.1 - 1015.5600000000001] agent model oh that actually reminds me
+
+[1012.38 - 1020.24] so I did this experiment um ages ago
+
+[1015.56 - 1022.579] um I am a uh quadcopter drone so I did
+
+[1020.24 - 1024.439] this was actually included in my um in
+
+[1022.579 - 1026.78] my most recent book Symphony of thought
+
+[1024.439 - 1028.699] so here's how large language models can
+
+[1026.78 - 1030.98] control robots
+
+[1028.699 - 1033.14] um so I'm a quadcopter drone
+
+[1030.98 - 1037.64] um my mission is
+
+[1033.14 - 1041.0590000000002] um to secure a large home
+
+[1037.64 - 1045.0200000000002] um I don't have any uh weapons or
+
+[1041.059 - 1047.72] anything I am merely meant to follow
+
+[1045.02 - 1050.36] Intruders
+
+[1047.72 - 1053.96] Intruders and report on
+
+[1050.36 - 1056.6599999999999] um on their activity I have a few
+
+[1053.96 - 1058.88] actions I can do
+
+[1056.66 - 1062.8400000000001] one follow
+
+[1058.88 - 1062.8400000000001] identify alarm
+
+[1064.88 - 1068.3600000000001] follow a person and get
+
+[1067.34 - 1071.0] um
+
+[1068.36 - 1072.559] description of them
+
+[1071.0 - 1074.62] identify
+
+[1072.559 - 1074.62] um
+
+[1075.86 - 1083.78] if I
+
+[1078.2 - 1084.6200000000001] identify if I if I cannot identify
+
+[1083.78 - 1086.6] um
+
+[1084.62 - 1090.9189999999999] the person
+
+[1086.6 - 1091.8999999999999] I will see they are an intruder
+
+[1090.919 - 1095.6000000000001] um
+
+[1091.9 - 1098.48] if I see an intruder
+
+[1095.6 - 1099.82] um I can call the police
+
+[1098.48 - 1102.74] um
+
+[1099.82 - 1108.1] as uh let's see
+
+[1102.74 - 1108.1] I receive information from user
+
+[1109.34 - 1113.4189999999999] all right so now let's say um
+
+[1111.799 - 1114.86] activate
+
+[1113.419 - 1117.679] um
+
+[1114.86 - 1119.059] security perimeter
+
+[1117.679 - 1120.799] um
+
+[1119.059 - 1123.08] triggered all right so now let's see
+
+[1120.799 - 1124.82] what it does
+
+[1123.08 - 1127.0] confirmed activating follow identifier
+
+[1124.82 - 1127.0] alarm
+
+[1128.0 - 1130.419] follow
+
+[1133.7 - 1136.88] human spotted
+
+[1135.559 - 1138.2] um
+
+[1136.88 - 1140.919] now let's see great can you please
+
+[1138.2 - 1140.919] describe the person
+
+[1141.76 - 1147.919] blonde uh
+
+[1144.86 - 1149.6789999999999] let's see blonde female
+
+[1147.919 - 1154.2800000000002] approximately
+
+[1149.679 - 1157.5800000000002] 120 pounds identity
+
+[1154.28 - 1160.0] unknown she is standing at the front
+
+[1157.58 - 1160.0] door
+
+[1161.96 - 1166.7] okay so it it has identify it said I
+
+[1164.419 - 1168.8200000000002] can't say that she's an intruder
+
+[1166.7 - 1168.82] um
+
+[1169.039 - 1173.86] woman is knocking on the door
+
+[1174.38 - 1178.94] okay cool
+
+[1177.08 - 1181.1599999999999] so basically you can imagine that you
+
+[1178.94 - 1182.9] have some Telemetry coming from cameras
+
+[1181.16 - 1185.0] microphones and so on and that you're
+
+[1182.9 - 1186.6200000000001] making inferences about what to do and
+
+[1185.0 - 1189.2] what you have here is you have the brain
+
+[1186.62 - 1191.1789999999999] of an autonomous robot now
+
+[1189.2 - 1192.6200000000001] um and you can see that with just a
+
+[1191.179 - 1194.72] couple fields and just a little bit of
+
+[1192.62 - 1198.6789999999999] fine-tuning we're most of the way there
+
+[1194.72 - 1201.799] so 2023 is going to be the age of
+
+[1198.679 - 1203.72] autonomous AI uh Mark by words all right
+
+[1201.799 - 1207.52] that's good I think that's it let's uh
+
+[1203.72 - 1207.52] call it a call it a day cheers

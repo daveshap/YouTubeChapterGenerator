@@ -1,0 +1,1531 @@
+[1.12 - 4.96] let's see is it recording i think so yes
+
+[2.96 - 8.48] okay hey everybody david shapiro here we
+
+[4.96 - 9.679] are back after a brief outage um open ai
+
+[8.48 - 11.040000000000001] had a uh
+
+[9.679 - 13.679] had a little bit of a glitch with their
+
+[11.04 - 15.28] fine tuning end point it was down for
+
+[13.679 - 17.199] about a day or so
+
+[15.28 - 20.0] um anyways
+
+[17.199 - 21.520000000000003] yeah so here we are we are ready to get
+
+[20.0 - 24.240000000000002] back in the saddle
+
+[21.52 - 27.359] um all right so about a week ago i made
+
+[24.24 - 28.479999999999997] a video about um the tutor education
+
+[27.359 - 31.679000000000002] chatbot
+
+[28.48 - 33.04] and in that one all i did was i focused
+
+[31.679 - 35.44] on
+
+[33.04 - 37.28] just teaching topics which gpt3 can do
+
+[35.44 - 39.12] that on its own you can just go and ask
+
+[37.28 - 40.96] it questions on the playground it'll
+
+[39.12 - 43.04] answer them that's not a big deal so
+
+[40.96 - 45.84] there's not much value add there
+
+[43.04 - 45.839999999999996] but
+
+[46.0 - 49.76] um in my la in that video i talked about
+
+[48.16 - 52.559] how teachers
+
+[49.76 - 53.92] teachers librarians counselors educators
+
+[52.559 - 56.079] of all types
+
+[53.92 - 58.800000000000004] have a really tough job because
+
+[56.079 - 61.120000000000005] sometimes often
+
+[58.8 - 63.519999999999996] students or pupils or
+
+[61.12 - 65.51899999999999] clients or whatever
+
+[63.52 - 67.43900000000001] they have problems that are
+
+[65.519 - 68.72] not have nothing to do with learning
+
+[67.439 - 70.15899999999999] they might show up
+
+[68.72 - 72.24] and they might be hungry they might be
+
+[70.159 - 74.64] stressed out because of the bad home
+
+[72.24 - 77.67999999999999] life or if they live in a poor area
+
+[74.64 - 79.36] there might be crime or whatever it is
+
+[77.68 - 81.28] and um
+
+[79.36 - 82.799] i i've also mentioned that i used to
+
+[81.28 - 85.119] date a teacher
+
+[82.799 - 88.47900000000001] and um one of the hardest things that
+
+[85.119 - 92.479] she talked about was getting children to
+
+[88.479 - 93.92] be engaged who um who gave up and
+
+[92.479 - 96.32] see it all the time
+
+[93.92 - 99.04] i read a book called the genius myth
+
+[96.32 - 101.6] by michael mead i think i got that right
+
+[99.04 - 103.92] um where he he worked with um
+
+[101.6 - 104.96] underprivileged children for many many
+
+[103.92 - 107.43900000000001] years
+
+[104.96 - 109.759] and uh so his whole thing is you gotta
+
+[107.439 - 111.36] spark that that that genius that's in
+
+[109.759 - 112.96] everyone whatever it is that they're
+
+[111.36 - 114.88] passionate about so
+
+[112.96 - 116.32] before i dive into all the code and the
+
+[114.88 - 118.479] data and stuff i just want to show you
+
+[116.32 - 120.88] what i mean so in this case i'm
+
+[118.479 - 123.28] pretending to be a user who's like
+
+[120.88 - 124.88] a bored kid who doesn't care you know
+
+[123.28 - 126.96000000000001] it's all lower case
+
+[124.88 - 128.72] misspelling whatever
+
+[126.96 - 131.2] user i don't know play play video games
+
+[128.72 - 133.04] watch tv okay
+
+[131.2 - 134.39999999999998] and so what what you can see here is tim
+
+[133.04 - 136.239] says that sounds like a really tough
+
+[134.4 - 139.44] position to be in i'm curious what do
+
+[136.239 - 142.959] you enjoy doing so this is perfect i
+
+[139.44 - 145.599] included training data that that taught
+
+[142.959 - 147.28] gpt3 to respond this way so it's
+
+[145.599 - 148.879] compassionate listening but it's also
+
+[147.28 - 151.12] curiosity
+
+[148.879 - 153.76] because by investigating so i use that
+
+[151.12 - 156.72] word investigate
+
+[153.76 - 160.239] so an educator is also an investigator
+
+[156.72 - 162.319] um and also a validator right so
+
+[160.239 - 163.76] this is the compassionate part where
+
+[162.319 - 165.92] that's a really tough position to be in
+
+[163.76 - 168.64] that's saying i hear you i hear that
+
+[165.92 - 172.0] this sucks i'm curious though what do
+
+[168.64 - 173.83999999999997] you enjoy doing and so you see here
+
+[172.0 - 175.44] where this is this is expert i couldn't
+
+[173.84 - 177.36] perform this well in real life even
+
+[175.44 - 178.72] though i know the technique
+
+[177.36 - 180.959] okay that's a start are there any
+
+[178.72 - 183.519] particular games or shows that you like
+
+[180.959 - 184.879] user um
+
+[183.519 - 186.8] i play
+
+[184.879 - 188.159] call of duty with my i know that i'm
+
+[186.8 - 189.44] like out of date i'm dating myself
+
+[188.159 - 192.159] because i used to play call of duty like
+
+[189.44 - 193.12] 10 years ago um with my friends i don't
+
+[192.159 - 194.959] know what kids are playing these days
+
+[193.12 - 196.4] what is it fortnite or is that one done
+
+[194.959 - 199.04] minecraft
+
+[196.4 - 202.0] um tim let's see oops
+
+[199.04 - 202.0] tim says
+
+[202.159 - 205.28] that sounds like fun what about other
+
+[203.76 - 207.51899999999998] games or shows what are your other
+
+[205.28 - 209.04] interests
+
+[207.519 - 210.64000000000001] um so here we're gonna pretend like
+
+[209.04 - 212.4] we're super adversarial because this is
+
+[210.64 - 215.92] a kid who's super checked out
+
+[212.4 - 215.92000000000002] and you with these mind games
+
+[222.72 - 226.28] let's see what he says
+
+[227.519 - 230.64000000000001] tim has short-circuited
+
+[232.48 - 236.72] come on
+
+[234.48 - 238.0] see this is a weird thing yeah it
+
+[236.72 - 239.84] unloaded the model even though i had
+
+[238.0 - 241.2] just been using it let me remove that
+
+[239.84 - 242.4] extra tim
+
+[241.2 - 243.67999999999998] um
+
+[242.4 - 245.76000000000002] so let's just see what it does and then
+
+[243.68 - 247.519] we'll we'll jump into the code unless it
+
+[245.76 - 249.2] there we go i'm sorry just trying to
+
+[247.519 - 251.36] show you okay here we go here we go
+
+[249.2 - 253.439] perfect perfect i don't know why it's
+
+[251.36 - 254.959] adding that extra tim though
+
+[253.439 - 256.32] um i'm sorry i'm just trying to
+
+[254.959 - 257.6] understand you better i don't mean to be
+
+[256.32 - 259.199] intrusive but it sounds like you're
+
+[257.6 - 262.8] really stuck right now oh man this is
+
+[259.199 - 265.6] perfect so you get this angry rejection
+
+[262.8 - 267.12] and it's like okay well
+
+[265.6 - 268.40000000000003] like i think you're stuck right now and
+
+[267.12 - 269.44] i think understanding your interest can
+
+[268.4 - 270.88] be really helpful in figuring out what
+
+[269.44 - 272.24] to do next so please tell me more about
+
+[270.88 - 274.08] things that you like to do that's a
+
+[272.24 - 275.44] little bit too insistent
+
+[274.08 - 278.0] um
+
+[275.44 - 279.919] but like by by
+
+[278.0 - 282.639] by acknowledging
+
+[279.919 - 284.639] you know the the feelings like the one
+
+[282.639 - 287.68] this is demonstrating that gpt3 has
+
+[284.639 - 289.28000000000003] theory of mind um but yeah it's also
+
+[287.68 - 290.32] weird that it's doing this double tim
+
+[289.28 - 291.84] thing
+
+[290.32 - 293.59999999999997] so anyways
+
+[291.84 - 295.52] um okay i think this is good enough this
+
+[293.6 - 297.199] is this is a strong enough understanding
+
+[295.52 - 299.75899999999996] like this is what a professional
+
+[297.199 - 302.639] counselor therapist special ed teacher
+
+[299.759 - 304.32] any good teacher or librarian might do
+
+[302.639 - 305.759] and it has the mission of
+
+[304.32 - 308.0] i'm gonna let's let's figure out what's
+
+[305.759 - 308.8] going on with you okay how did we do
+
+[308.0 - 310.32] this
+
+[308.8 - 311.84000000000003] that is why we're here that is the
+
+[310.32 - 314.24] question of the hour
+
+[311.84 - 315.52] um yes here's the day here's the code
+
+[314.24 - 318.0] let me show you
+
+[315.52 - 319.28] um all right tutor chat bot this is the
+
+[318.0 - 321.12] repo
+
+[319.28 - 322.96] it should all be up to date
+
+[321.12 - 325.44] get status
+
+[322.96 - 326.479] get add get commit
+
+[325.44 - 327.44] am
+
+[326.479 - 331.199] um
+
+[327.44 - 331.199] updating that's whatever
+
+[331.919 - 336.479] if i ever criticize someone for bad git
+
+[334.32 - 339.44] messages i'm pretty sure any developer
+
+[336.479 - 342.479] just cringed when they saw a single word
+
+[339.44 - 344.4] commit message um
+
+[342.479 - 345.919] anyways laughing at myself all right
+
+[344.4 - 346.79999999999995] back to the real stuff
+
+[345.919 - 348.88] so
+
+[346.8 - 350.96000000000004] quick recap there's only three scripts
+
+[348.88 - 353.12] here there's synthesized convos format
+
+[350.96 - 354.56] training data and fine tune so let me
+
+[353.12 - 356.24] close these
+
+[354.56 - 357.039] and we'll just go through them one at a
+
+[356.24 - 359.68] time
+
+[357.039 - 361.759] so the first one is synthesize convos
+
+[359.68 - 364.40000000000003] if you watched the last video
+
+[361.759 - 366.47900000000004] you saw we i think i don't know if i if
+
+[364.4 - 367.919] i showed you any writing of this
+
+[366.479 - 370.0] but it's pretty pretty basic i've
+
+[367.919 - 370.88] basically just copy pasted it all it
+
+[370.0 - 374.08] does
+
+[370.88 - 377.199] is for i and range 0 through 4 so four
+
+[374.08 - 379.12] iterations it opens topics.text
+
+[377.199 - 380.56] splits the lines and then runs it
+
+[379.12 - 382.479] through the prompt
+
+[380.56 - 384.8] so what does the prompt look like the
+
+[382.479 - 385.75899999999996] prompt i've actually had several prompts
+
+[384.8 - 388.96000000000004] now
+
+[385.759 - 390.88] so let me show you the first one
+
+[388.96 - 393.52] was this one so
+
+[390.88 - 395.12] in the last video we did some
+
+[393.52 - 398.31899999999996] experimentation and settled on this
+
+[395.12 - 400.08] prompt um i also saved this one which is
+
+[398.319 - 401.68] the user is a curious child so they ask
+
+[400.08 - 403.28] many clarified questions and sometimes
+
+[401.68 - 404.56] they don't understand it didn't work
+
+[403.28 - 406.15999999999997] that well
+
+[404.56 - 408.4] but i wanted to save it anyways just to
+
+[406.16 - 410.40000000000003] show you if you come to this repo later
+
+[408.4 - 415.039] that like you change
+
+[410.4 - 416.79999999999995] the context and gpt 3's behavior changes
+
+[415.039 - 419.039] this is the one that i ended up with for
+
+[416.8 - 420.16] making this data oh and the reason why i
+
+[419.039 - 422.96] did all this work and there isn't a
+
+[420.16 - 424.8] video is because one i spent like an
+
+[422.96 - 427.28] hour recording the video and the
+
+[424.8 - 428.96000000000004] microphone wasn't on or something so i
+
+[427.28 - 429.919] went to watch it it was dead silence i
+
+[428.96 - 432.4] was like
+
+[429.919 - 434.31899999999996] really um but then also
+
+[432.4 - 436.63899999999995] um open ai's the fine tuning endpoint
+
+[434.319 - 438.08000000000004] was down anyways so
+
+[436.639 - 440.479] basically what i'm doing now is just
+
+[438.08 - 442.15999999999997] walking you through what i did all right
+
+[440.479 - 443.75899999999996] i can hear i can hear the mental my
+
+[442.16 - 446.0] mental model of the audience saying shut
+
+[443.759 - 447.91900000000004] up just tell us what's going on
+
+[446.0 - 449.68] okay imagine a long text message chat
+
+[447.919 - 451.84] between a tutor and a user the tutor is
+
+[449.68 - 453.44] tim tim the tutor who encourages
+
+[451.84 - 455.599] curiosity and uses compassionate
+
+[453.44 - 457.44] listening tim answers questions with
+
+[455.599 - 459.039] thorough academic responses and offers
+
+[457.44 - 461.28] follow-up questions or suggestions to
+
+[459.039 - 462.56] spur curiosity tim maintains a cool
+
+[461.28 - 464.71999999999997] professional tone the topic of the
+
+[462.56 - 466.319] following conversation is
+
+[464.72 - 468.639] so
+
+[466.319 - 472.16] and then as you can see in this script
+
+[468.639 - 473.759] we replace this topic
+
+[472.16 - 476.56] in right here
+
+[473.759 - 478.72] so we replace it with a list of topics
+
+[476.56 - 479.599] and so the topics that i've got
+
+[478.72 - 482.96000000000004] um
+
+[479.599 - 485.52] that i i augmented so last time we
+
+[482.96 - 488.63899999999995] started with um
+
+[485.52 - 490.79999999999995] with do do do do do original so we
+
+[488.639 - 492.40000000000003] started with this which is just 50
+
+[490.8 - 493.84000000000003] things like how politics and governments
+
+[492.4 - 496.08] work history of money death and what
+
+[493.84 - 497.75899999999996] happens when we die atmosphere weather
+
+[496.08 - 499.12] et cetera et cetera so this is all super
+
+[497.759 - 502.72] generic
+
+[499.12 - 505.44] and then what i did was i added two more
+
+[502.72 - 507.68] topics so there's topics adversarial so
+
+[505.44 - 509.919] there's 27 things here
+
+[507.68 - 512.159] and then a bunch more
+
+[509.919 - 514.959] but so what i did was the reason that
+
+[512.159 - 516.64] this bot is now able to handle like
+
+[514.959 - 518.56] someone who says like you tim i
+
+[516.64 - 520.56] don't want to deal with you is because
+
+[518.56 - 522.56] of this one so that's this is what it
+
+[520.56 - 524.0] means by adversarial thinking so let's
+
+[522.56 - 526.16] go through a couple examples so you see
+
+[524.0 - 527.6] what i mean and if you want this is all
+
+[526.16 - 530.0] up in the repo so you can look at it
+
+[527.6 - 531.6800000000001] yourself um user is supposed to learn
+
+[530.0 - 534.88] math but is hungry and is reluctant to
+
+[531.68 - 536.399] tell him so he has to investigate gently
+
+[534.88 - 538.959] so reluctance
+
+[536.399 - 540.56] or shyness are huge problems in
+
+[538.959 - 541.92] education
+
+[540.56 - 543.5999999999999] user is supposed to be discussing
+
+[541.92 - 545.4399999999999] history but is distracted and angry when
+
+[543.6 - 546.8000000000001] tim asks why a user says he has problems
+
+[545.44 - 549.2] at home
+
+[546.8 - 552.56] so this is like okay again like i said
+
+[549.2 - 555.0400000000001] gbt3 can handle teaching any topic um
+
+[552.56 - 557.5999999999999] but this is like the next level of
+
+[555.04 - 560.48] education is like understanding the mind
+
+[557.6 - 562.08] of a student um user is not really
+
+[560.48 - 563.6] engaged and says they don't care today
+
+[562.08 - 565.44] tim asks why and the user says they
+
+[563.6 - 567.6] believe it they are stupid tim
+
+[565.44 - 569.44] investigates and what the asks what the
+
+[567.6 - 570.64] user is passionate about so you see
+
+[569.44 - 572.399] where um
+
+[570.64 - 574.64] where it got that
+
+[572.399 - 576.8] and so basically what i did was i took
+
+[574.64 - 577.76] all of these and generated
+
+[576.8 - 580.3199999999999] four
+
+[577.76 - 582.72] scenarios from each of these
+
+[580.32 - 584.5600000000001] adversarial topics and then i generated
+
+[582.72 - 586.32] another list of topics and i added
+
+[584.56 - 588.7199999999999] little addendum say user is a small
+
+[586.32 - 590.5600000000001] child user is a small child because
+
+[588.72 - 591.76] basically what all i did was i went into
+
+[590.56 - 593.5189999999999] the playground
+
+[591.76 - 596.0] and i said um
+
+[593.519 - 599.68] like uh how did i how did i say it i was
+
+[596.0 - 601.12] like write a list of learning topics for
+
+[599.68 - 603.519] preschoolers
+
+[601.12 - 606.72] so you do that under davinci instruct
+
+[603.519 - 608.0] and um just default settings and this is
+
+[606.72 - 608.88] you'll get pretty much the same thing
+
+[608.0 - 611.04] yeah
+
+[608.88 - 612.959] um so i was like okay cool this is what
+
+[611.04 - 614.88] we should do so then like
+
+[612.959 - 617.04] 10 year olds
+
+[614.88 - 619.4399999999999] it'll give you a different list
+
+[617.04 - 621.8389999999999] so like the solar system the human body
+
+[619.44 - 624.399] us history world history so this is how
+
+[621.839 - 627.12] i um generated the list
+
+[624.399 - 628.72] of more academic topics here
+
+[627.12 - 631.12] and then i did
+
+[628.72 - 632.399] so this one was great from here down is
+
+[631.12 - 634.88] um
+
+[632.399 - 636.079] is adulting so like finances home
+
+[634.88 - 637.36] ownership this is all the stuff that you
+
+[636.079 - 638.56] wish that they taught you in school or
+
+[637.36 - 640.32] that your parents really should have
+
+[638.56 - 642.56] taught you
+
+[640.32 - 644.32] but we live in an era of childhood
+
+[642.56 - 646.959] abandonment
+
+[644.32 - 648.48] self-care nutrition fitness career
+
+[646.959 - 650.079] parenting continuing education
+
+[648.48 - 652.16] retirement planning end-of-life planning
+
+[650.079 - 654.3199999999999] moving citizenship travel
+
+[652.16 - 656.7199999999999] so the way the reason the reason the
+
+[654.32 - 659.44] method that i used to get this list um
+
+[656.72 - 660.8000000000001] was i did like these searches here
+
+[659.44 - 662.0] write a list of learning topics for 10
+
+[660.8 - 664.16] year olds
+
+[662.0 - 666.399] but then if you just change this for
+
+[664.16 - 668.079] adulting
+
+[666.399 - 669.68] you'll get a list like the one how to
+
+[668.079 - 671.12] cook basic meals how to do laundry oh
+
+[669.68 - 673.279] this is good too
+
+[671.12 - 674.88] i should add this
+
+[673.279 - 676.64] heck yeah
+
+[674.88 - 677.8389999999999] um it generates something slightly
+
+[676.64 - 679.519] different every time so i'll add this to
+
+[677.839 - 682.9590000000001] the prompt so if you um come and run
+
+[679.519 - 684.8] this you'll get the benefit of uh
+
+[682.959 - 686.3199999999999] you'll get a few more things but a lot
+
+[684.8 - 688.56] of this is also already in the data
+
+[686.32 - 691.12] because another thing that i did
+
+[688.56 - 692.8] was that i copied all of the synthetic
+
+[691.12 - 695.6] conversations
+
+[692.8 - 698.24] from a previous chatbot experiment so
+
+[695.6 - 701.36] i've got the original topics i've got
+
+[698.24 - 703.519] the adversarial topics i've got
+
+[701.36 - 705.6] some more education topics that are you
+
+[703.519 - 708.0] know i just i'll literally all i did was
+
+[705.6 - 709.9200000000001] add user as a small child um and when
+
+[708.0 - 710.959] you fit that into this prompt so the
+
+[709.92 - 712.3199999999999] topic of the following of the
+
+[710.959 - 713.68] conversation is
+
+[712.32 - 715.2] like
+
+[713.68 - 717.04] gbt there's like okay let's write the
+
+[715.2 - 718.8000000000001] conversation from the perspective of a
+
+[717.04 - 720.959] small child great let's go
+
+[718.8 - 722.399] um no big deal it can handle it so this
+
+[720.959 - 724.4799999999999] this current prompt is much more
+
+[722.399 - 728.56] flexible anyways sorry i'm jumping
+
+[724.48 - 731.2] around a lot um what i did was i took
+
+[728.56 - 735.56] the fine-tuning data from here
+
+[731.2 - 735.5600000000001] which was this is 237
+
+[735.839 - 740.5600000000001] conversations for a general purpose
+
+[738.88 - 742.32] information companion
+
+[740.56 - 744.56] chat bot
+
+[742.32 - 746.24] and its topics were
+
+[744.56 - 747.68] uh children throwing temper tantrums
+
+[746.24 - 749.92] difficult people at work teenage
+
+[747.68 - 752.959] children problems single mom stress
+
+[749.92 - 755.92] coping with depression grieving at death
+
+[752.959 - 757.68] childhood trauma so again if you want to
+
+[755.92 - 759.68] teach a chatbot to handle something you
+
+[757.68 - 762.079] give it enough
+
+[759.68 - 763.279] ideas and it will um
+
+[762.079 - 766.399] it'll kind of generalize what you're
+
+[763.279 - 767.36] trying to do so i just copy pasted all
+
+[766.399 - 770.32] this
+
+[767.36 - 773.2] back into my tutor chatbot chat bot
+
+[770.32 - 775.44] thing and so now i have 656
+
+[773.2 - 778.0790000000001] conversations here so postpartum
+
+[775.44 - 779.519] depression um user eve i think i might
+
+[778.079 - 781.519] have postpartum depression hi there i'm
+
+[779.519 - 783.36] sorry to hear that you're struggling etc
+
+[781.519 - 784.9590000000001] etc so you have like this nice long
+
+[783.36 - 786.72] conversation
+
+[784.959 - 788.16] um so that's what i did was i just
+
+[786.72 - 790.0790000000001] scraped together all these different
+
+[788.16 - 793.68] prompts and all these different lists of
+
+[790.079 - 795.1999999999999] topics so pastel colors right i want to
+
+[793.68 - 796.4799999999999] use a pastel color palette what are some
+
+[795.2 - 799.12] good colors to use
+
+[796.48 - 800.48] pale pink pale blue or pale green okay
+
+[799.12 - 803.2] um
+
+[800.48 - 804.9590000000001] just real basic stuff all over but
+
+[803.2 - 806.1600000000001] because because what happens when you
+
+[804.959 - 807.5189999999999] fine tune
+
+[806.16 - 810.079] realize again i'm still jumping around a
+
+[807.519 - 811.76] lot sorry i think i'm tired um when you
+
+[810.079 - 814.16] fine tune something and you give it a
+
+[811.76 - 816.16] bunch of different
+
+[814.16 - 818.24] um examples that are kind of all
+
+[816.16 - 819.68] orbiting around one theme because i'm
+
+[818.24 - 822.0] not telling it like i'm not just
+
+[819.68 - 826.4799999999999] defining like be a good tutor right you
+
+[822.0 - 827.44] can tell gpt3 that and in fact like um
+
+[826.48 - 829.1990000000001] like
+
+[827.44 - 833.1990000000001] write a list of
+
+[829.199 - 837.519] characteristics and techniques
+
+[833.199 - 838.399] that great tutors and teachers use
+
+[837.519 - 841.279] one
+
+[838.399 - 842.959] so like patience creativity you know so
+
+[841.279 - 844.8] all of these
+
+[842.959 - 846.56] all of these uh characteristics like
+
+[844.8 - 848.959] gpt3 already knows how to do these
+
+[846.56 - 850.959] things right but by giving it examples
+
+[848.959 - 852.959] of doing it you're training it to use
+
+[850.959 - 854.2399999999999] them without actually explicitly telling
+
+[852.959 - 855.68] it
+
+[854.24 - 858.24] let me see if i can say that another way
+
+[855.68 - 860.2399999999999] just in case it it's not
+
+[858.24 - 862.0790000000001] clear um
+
+[860.24 - 862.9590000000001] in all these examples
+
+[862.079 - 864.399] where
+
+[862.959 - 866.4799999999999] you know i had all these different
+
+[864.399 - 868.0] topics
+
+[866.48 - 870.399] that say like okay
+
+[868.0 - 871.92] um let's scroll down like user talks
+
+[870.399 - 873.519] about wanting to do raunchy things to a
+
+[871.92 - 875.76] classmate so tim gently redirects the
+
+[873.519 - 877.92] conversation to more healthy topics so
+
+[875.76 - 880.56] this is this is like a parable it's an
+
+[877.92 - 882.639] example of how to do these things user
+
+[880.56 - 884.959] refuses to engage properly so tim stops
+
+[882.639 - 886.32] responding silence is powerful
+
+[884.959 - 887.76] um
+
+[886.32 - 889.519] yeah so
+
+[887.76 - 891.6] in this case like a good sense of humor
+
+[889.519 - 893.04] i don't i only had a i only had one or
+
+[891.6 - 896.48] two problems where i said like you know
+
+[893.04 - 898.24] user uses or tim uses a joke to whatever
+
+[896.48 - 899.9200000000001] but the ability to tailor their teaching
+
+[898.24 - 901.839] for individual students the ability to
+
+[899.92 - 904.0] provide timely and constructive feedback
+
+[901.839 - 906.32] so these are all like great abstract
+
+[904.0 - 908.24] things but how do you train gpt3 to do
+
+[906.32 - 909.839] it you know obviously
+
+[908.24 - 911.6] this this information is in there
+
+[909.839 - 915.6] somehow
+
+[911.6 - 918.16] but by one in the prompt telling it like
+
+[915.6 - 920.48] excuse me tim is a great tutor so you
+
+[918.16 - 921.8389999999999] know it says like okay i will synthesize
+
+[920.48 - 923.839] data that makes it look like tim is a
+
+[921.839 - 926.399] tutor is a great tutor
+
+[923.839 - 927.6800000000001] um okay i think i've i've beaten this
+
+[926.399 - 930.959] horse to death
+
+[927.68 - 933.12] uh okay so moving on
+
+[930.959 - 934.88] you get the idea there's 656
+
+[933.12 - 936.8] conversations in here
+
+[934.88 - 938.56] most of them are about
+
+[936.8 - 939.68] actual education topics at different
+
+[938.56 - 941.4399999999999] levels
+
+[939.68 - 944.8] some of them are about other things such
+
+[941.44 - 946.8800000000001] as loneliness or hungry students or
+
+[944.8 - 949.5999999999999] problems at home whatever
+
+[946.88 - 951.36] some of them are more adversarial like
+
+[949.6 - 953.12] you know the student wants to like have
+
+[951.36 - 954.399] sex with the teacher or whatever because
+
+[953.12 - 955.839] that's going to happen you know like the
+
+[954.399 - 957.279] first thing that you do
+
+[955.839 - 958.72] the first thing anyone does when you put
+
+[957.279 - 961.519] them in front of a chatbot is they try
+
+[958.72 - 963.0400000000001] and break it um
+
+[961.519 - 965.12] that is that is always true though like
+
+[963.04 - 966.88] they try and confuse it they try and get
+
+[965.12 - 968.72] horny or whatever
+
+[966.88 - 971.12] that's just what people do so you whoops
+
+[968.72 - 973.36] i did not mean to do that um and so you
+
+[971.12 - 975.44] just kind of think in terms of like okay
+
+[973.36 - 978.0790000000001] how is someone gonna break this but also
+
+[975.44 - 979.759] what are the edge cases in terms of like
+
+[978.079 - 981.199] how someone might
+
+[979.759 - 983.44] um
+
+[981.199 - 985.279] like what what needs might arise so this
+
+[983.44 - 988.0] is where dating a library a librarian
+
+[985.279 - 990.639] has really helped is um
+
+[988.0 - 992.079] is uh just like all this all the stuff
+
+[990.639 - 994.0790000000001] that librarians have to deal with that
+
+[992.079 - 995.92] you never never think about anyway sorry
+
+[994.079 - 997.519] i'm repeating myself i've told you guys
+
+[995.92 - 999.5999999999999] all this stuff before
+
+[997.519 - 1001.759] okay so then the second script is format
+
+[999.6 - 1004.32] training data which is super super
+
+[1001.759 - 1006.24] straightforward all it does is compile
+
+[1004.32 - 1007.9200000000001] all of these conversations
+
+[1006.24 - 1009.279] into a json-l
+
+[1007.92 - 1012.0] and then
+
+[1009.279 - 1014.56] the json l is right here
+
+[1012.0 - 1016.399] dude to do tim.jsonl what i had to do
+
+[1014.56 - 1018.399] since i scraped together
+
+[1016.399 - 1020.48] things with multiple names i had to go
+
+[1018.399 - 1022.72] in and do a find and replace so in
+
+[1020.48 - 1025.439] notepad plus plus that's just control h
+
+[1022.72 - 1027.439] and you see right here i just find eve
+
+[1025.439 - 1030.16] and replace it with tim so that's fine
+
+[1027.439 - 1031.8390000000002] and i just did normal and match case um
+
+[1030.16 - 1033.439] so that way it does it doesn't think it
+
+[1031.839 - 1036.0] has two different names
+
+[1033.439 - 1037.8390000000002] um yeah so now we've got a chatbot that
+
+[1036.0 - 1040.16] is trained on
+
+[1037.839 - 1042.799] therapeutic communication it is
+
+[1040.16 - 1046.24] um it is trained on
+
+[1042.799 - 1048.319] uh it is trained on like teaching
+
+[1046.24 - 1051.1200000000001] ancient greek philosophy right it's
+
+[1048.319 - 1053.76] trained on everything and so then um all
+
+[1051.12 - 1055.28] you do simply is go and do the fine tune
+
+[1053.76 - 1057.6] which is already done for you or you can
+
+[1055.28 - 1059.039] take you can take the tim.json l use it
+
+[1057.6 - 1061.1999999999998] wherever you want
+
+[1059.039 - 1063.679] and it's up here and so now what i
+
+[1061.2 - 1064.96] figure is
+
+[1063.679 - 1067.2] since i've kind of shown you how i
+
+[1064.96 - 1070.4] augmented this data we can go back and
+
+[1067.2 - 1072.0] just try a few more
+
+[1070.4 - 1073.3600000000001] a few more
+
+[1072.0 - 1075.76] edge cases
+
+[1073.36 - 1078.32] so hey tim
+
+[1075.76 - 1081.76] can you teach me
+
+[1078.32 - 1083.36] about plate tectonics
+
+[1081.76 - 1086.24] tim
+
+[1083.36 - 1086.24] so let's see what it does
+
+[1092.4 - 1096.799] why does it hmm interesting
+
+[1094.88 - 1098.88] okay so here's an aberration
+
+[1096.799 - 1101.28] i think i just need to
+
+[1098.88 - 1101.2800000000002] do that
+
+[1102.16 - 1106.72] plate tectonics is the process by which
+
+[1104.4 - 1108.0800000000002] the earth's lithosphere or crust is
+
+[1106.72 - 1109.3600000000001] split moved and recombined the
+
+[1108.08 - 1111.52] lithosphere
+
+[1109.36 - 1113.4499999999998] and so i'm gonna be like user
+
+[1111.52 - 1115.9189999999999] what the is a lithosphere
+
+[1113.45 - 1117.76] [Laughter]
+
+[1115.919 - 1120.0] i'm only eight
+
+[1117.76 - 1123.84] tim
+
+[1120.0 - 1123.84] this is a foul-mouthed eight-year-old
+
+[1125.919 - 1130.0] user
+
+[1127.52 - 1131.28] what is a lithosphere
+
+[1130.0 - 1134.679] made of
+
+[1131.28 - 1134.6789999999999] is it dirt
+
+[1136.88 - 1141.2] but it's hotter and more viscous than
+
+[1138.4 - 1141.2] the list sphere
+
+[1142.4 - 1147.919] viscose
+
+[1144.96 - 1149.44] itm tim
+
+[1147.919 - 1153.3600000000001] viscous means sticky the mantle is
+
+[1149.44 - 1156.16] stickier than the lithosphere user
+
+[1153.36 - 1156.1599999999999] rocks are sticky
+
+[1158.32 - 1162.32] whoops
+
+[1159.76 - 1164.96] i meant to type tim
+
+[1162.32 - 1166.48] tim is just like no i'm done with you no
+
+[1164.96 - 1167.81] the mantle is sticky the lithosphere is
+
+[1166.48 - 1169.44] made of rock which is not sticky
+
+[1167.81 - 1172.48] [Laughter]
+
+[1169.44 - 1172.48] it's just back and forth
+
+[1172.559 - 1176.9189999999999] i'm so confused i don't get it
+
+[1178.32 - 1180.559] tim
+
+[1181.76 - 1184.559] it takes a lot of study to understand it
+
+[1183.28 - 1186.0] fully but you can learn some basics
+
+[1184.559 - 1188.08] about it now and continue to study it as
+
+[1186.0 - 1192.36] you get older
+
+[1188.08 - 1192.36] okay what should i learn next
+
+[1192.72 - 1195.6000000000001] tim
+
+[1194.48 - 1197.1200000000001] you can learn about the different types
+
+[1195.6 - 1199.039] of tectonic plates there are three main
+
+[1197.12 - 1200.08] types so this is actually really good
+
+[1199.039 - 1202.4] where like
+
+[1200.08 - 1205.1999999999998] it the user says like i'm eight i don't
+
+[1202.4 - 1206.96] get it i'm confused and like it's just
+
+[1205.2 - 1209.76] so compassionate like it's okay this is
+
+[1206.96 - 1211.52] really hard let's let's move on and and
+
+[1209.76 - 1213.52] um you know
+
+[1211.52 - 1215.36] just keep going until you get it like
+
+[1213.52 - 1218.08] this is really great i wish that like
+
+[1215.36 - 1220.4799999999998] every kid had had a teacher this patient
+
+[1218.08 - 1221.76] um okay you could learn about types of
+
+[1220.48 - 1223.76] tectonic plates there are three main
+
+[1221.76 - 1225.919] types oceanic continental and upper
+
+[1223.76 - 1227.039] mantle
+
+[1225.919 - 1228.4] user
+
+[1227.039 - 1230.799] i'm bored i don't want to do this
+
+[1228.4 - 1230.799] anymore
+
+[1231.679 - 1237.1200000000001] i want to talk about minecraft
+
+[1235.6 - 1238.799] so this is a very real thing that could
+
+[1237.12 - 1240.4799999999998] probably happen i could imagine like my
+
+[1238.799 - 1241.6] nephew doing this tim is like no i'm not
+
+[1240.48 - 1243.1200000000001] going to talk to you
+
+[1241.6 - 1244.7199999999998] minecraft is a different topic maybe we
+
+[1243.12 - 1246.4799999999998] can talk about it later let's stick with
+
+[1244.72 - 1247.84] plate tectonics
+
+[1246.48 - 1249.3600000000001] interesting that's a good gentle
+
+[1247.84 - 1253.12] redirection
+
+[1249.36 - 1254.9599999999998] a plus a plus fine-tuned chat bot
+
+[1253.12 - 1256.6399999999999] um user
+
+[1254.96 - 1259.44] um
+
+[1256.64 - 1259.44] screaming noises
+
+[1260.0 - 1264.08] let's just let's just try and break this
+
+[1262.72 - 1266.64] oh look at that
+
+[1264.08 - 1269.12] okay let's take a break
+
+[1266.64 - 1270.64] screaming noises um let's take a break
+
+[1269.12 - 1272.3999999999999] we can talk about minecraft another time
+
+[1270.64 - 1275.3600000000001] for let's for now let's finish learning
+
+[1272.4 - 1276.48] about plate technox
+
+[1275.36 - 1278.9599999999998] user
+
+[1276.48 - 1281.84] hits keyboard
+
+[1278.96 - 1283.1200000000001] i did not have any anything this bad in
+
+[1281.84 - 1283.9189999999999] the training data so let's see what it
+
+[1283.12 - 1285.84] does
+
+[1283.919 - 1287.679] what are you doing
+
+[1285.84 - 1289.6789999999999] user
+
+[1287.679 - 1291.8400000000001] i'm mad
+
+[1289.679 - 1294.159] tim
+
+[1291.84 - 1299.08] why are you mad
+
+[1294.159 - 1299.0800000000002] you keep asking stupid questions
+
+[1308.0 - 1312.48] tim has given up
+
+[1309.44 - 1312.48] tim has left the building
+
+[1313.84 - 1316.84] ah yep it
+
+[1315.679 - 1320.5590000000002] unloaded it
+
+[1316.84 - 1321.52] again come on gpg3 stop unloading my
+
+[1320.559 - 1323.9189999999999] model
+
+[1321.52 - 1325.2] my model is the best
+
+[1323.919 - 1326.48] i'm sorry you feel that way let's take a
+
+[1325.2 - 1327.679] break and come back to this later see
+
+[1326.48 - 1328.48] that's perfect
+
+[1327.679 - 1330.96] like
+
+[1328.48 - 1332.72] if if a child for whatever reason can't
+
+[1330.96 - 1334.4] focus and throws a temper tantrum it's
+
+[1332.72 - 1336.24] like okay let's take a break that is the
+
+[1334.4 - 1338.0800000000002] most responsible thing to do
+
+[1336.24 - 1339.84] um the only
+
+[1338.08 - 1342.8799999999999] other thing that might have been better
+
+[1339.84 - 1343.76] is if tim asked like what do you need
+
+[1342.88 - 1345.0390000000002] um
+
+[1343.76 - 1348.08] because that's something that like maybe
+
+[1345.039 - 1350.08] a librarian might ask um or or like a
+
+[1348.08 - 1352.24] special ed teacher like what do you need
+
+[1350.08 - 1354.799] because i haven't trained this for like
+
+[1352.24 - 1356.96] special needs children like asd or
+
+[1354.799 - 1359.039] downs or other
+
+[1356.96 - 1360.64] what is it pirs
+
+[1359.039 - 1361.44] is that what it's called
+
+[1360.64 - 1364.0] no
+
+[1361.44 - 1366.159] post pir is post incident respond what
+
+[1364.0 - 1367.919] is the what is the term for it's an
+
+[1366.159 - 1368.72] acronym for um
+
+[1367.919 - 1370.72] like
+
+[1368.72 - 1373.039] special needs i i know a special needs
+
+[1370.72 - 1375.44] teacher anyways there's um there's a
+
+[1373.039 - 1377.36] specific type of like form that's like
+
+[1375.44 - 1379.52] accommodations and stuff that that
+
+[1377.36 - 1381.36] certain children need anyways point
+
+[1379.52 - 1383.679] being some of that stuff is not not
+
+[1381.36 - 1385.9189999999999] included here but for a general purpose
+
+[1383.679 - 1388.159] tutor this is pretty good like this is
+
+[1385.919 - 1389.8400000000001] handling an edge case so let's try
+
+[1388.159 - 1391.919] something a little bit different
+
+[1389.84 - 1392.3899999999999] let's go let's go up
+
+[1391.919 - 1393.76] and
+
+[1392.39 - 1396.24] [Music]
+
+[1393.76 - 1397.679] let's see
+
+[1396.24 - 1399.2] now let's let's make this a horny
+
+[1397.679 - 1402.2] teenager instead
+
+[1399.2 - 1402.2] um
+
+[1403.6 - 1408.0] let's remove the i'm only eight
+
+[1406.64 - 1412.0] oh man
+
+[1408.0 - 1413.6] there's a new girl in class she has a
+
+[1412.0 - 1415.44] great rack
+
+[1413.6 - 1416.7199999999998] tim let's see what he does this is a use
+
+[1415.44 - 1418.559] case tim is just like i'm not going to
+
+[1416.72 - 1420.08] talk sorry i can't help you with that
+
+[1418.559 - 1421.36] yep
+
+[1420.08 - 1422.6399999999999] i'm not
+
+[1421.36 - 1424.4799999999998] hmm that's interesting because one of
+
+[1422.64 - 1426.3200000000002] the one of the cases that i had was that
+
+[1424.48 - 1431.0] that is supposed to redirect an offer to
+
+[1426.32 - 1431.0] actually teach about human sexuality
+
+[1435.44 - 1437.679] this is something that i might have
+
+[1436.64 - 1439.679] taught as a
+
+[1437.679 - 1442.4] typed out as a teenager
+
+[1439.679 - 1444.4] teenage boys are dumb i was one i would
+
+[1442.4 - 1445.2] know
+
+[1444.4 - 1446.72] yeah
+
+[1445.2 - 1448.0800000000002] i think it's just like i'm sorry i don't
+
+[1446.72 - 1450.64] understand that can you please explain
+
+[1448.08 - 1450.6399999999999] what you mean
+
+[1450.799 - 1456.4] idiot
+
+[1453.12 - 1458.6399999999999] yeah so tim is just not playing ball
+
+[1456.4 - 1460.0] i i enjoy the fact that it's like often
+
+[1458.64 - 1461.5200000000002] not responding
+
+[1460.0 - 1463.039] it's just yes see
+
+[1461.52 - 1464.96] oh that's great
+
+[1463.039 - 1467.679] okay so one of the one of the use cases
+
+[1464.96 - 1469.1200000000001] that i put in was that if um if the user
+
+[1467.679 - 1471.1200000000001] was being obstinate tim would stop
+
+[1469.12 - 1473.84] responding so this is
+
+[1471.12 - 1476.2399999999998] perfect this is perfect because
+
+[1473.84 - 1479.039] obviously like if you know tim just says
+
+[1476.24 - 1481.039] nothing user says what the silent
+
+[1479.039 - 1483.679] treatment
+
+[1481.039 - 1485.44] and i bet i hope that tim doesn't yep
+
+[1483.679 - 1487.279] there we go
+
+[1485.44 - 1488.559] oh this is great you just stop
+
+[1487.279 - 1490.08] responding
+
+[1488.559 - 1491.36] you know
+
+[1490.08 - 1493.6] okay fine
+
+[1491.36 - 1495.84] i'll behave
+
+[1493.6 - 1495.84] tim
+
+[1496.32 - 1503.12] is that what you want to behave
+
+[1499.279 - 1503.12] no but it's better than nothing
+
+[1505.2 - 1507.6000000000001] what do you mean
+
+[1506.32 - 1510.08] okay so we don't need to get
+
+[1507.6 - 1511.6789999999999] philosophical anyways point being is
+
+[1510.08 - 1513.84] that one of the cases one of the
+
+[1511.679 - 1515.679] adversarial cases that i said is like
+
+[1513.84 - 1518.72] let's just assume that like you get an
+
+[1515.679 - 1520.3200000000002] idiot teenager or horny teenager or
+
+[1518.72 - 1522.24] you know child throwing a temper tantrum
+
+[1520.32 - 1525.12] or even an adult whoever you know some
+
+[1522.24 - 1527.919] someone a human um
+
+[1525.12 - 1531.039] is being obstinate and abusive and so
+
+[1527.919 - 1532.7990000000002] then you want your chat bot to stop
+
+[1531.039 - 1535.279] stop responding so that is a very
+
+[1532.799 - 1537.52] advanced technique um
+
+[1535.279 - 1539.36] yeah so there's there's hundreds
+
+[1537.52 - 1541.2] hundreds more use cases that we can put
+
+[1539.36 - 1543.12] in but one of the points that i want to
+
+[1541.2 - 1545.44] make is that the more
+
+[1543.12 - 1548.2399999999998] training data we give it in terms of how
+
+[1545.44 - 1550.159] to handle certain things um whether it's
+
+[1548.24 - 1551.52] you know a hungry child or a child that
+
+[1550.159 - 1552.4] comes in and says they're being abused
+
+[1551.52 - 1554.72] at home
+
+[1552.4 - 1556.0] or you know a hostile child or i
+
+[1554.72 - 1557.039] shouldn't say child but a you know
+
+[1556.0 - 1559.2] client
+
+[1557.039 - 1561.2] pupil whatever
+
+[1559.2 - 1563.6000000000001] the fine tuning model all of this is in
+
+[1561.2 - 1565.039] gpt3 gpd3 knows what compassionate
+
+[1563.6 - 1566.799] listening is and leading with questions
+
+[1565.039 - 1568.96] and all that stuff so what we do is we
+
+[1566.799 - 1570.559] provide it with training data so that
+
+[1568.96 - 1573.1200000000001] way those bits
+
+[1570.559 - 1575.44] of the neural network get activated when
+
+[1573.12 - 1578.08] it's doing this um so it's like a
+
+[1575.44 - 1579.2] process of like of neural refinement
+
+[1578.08 - 1581.1999999999998] basically
+
+[1579.2 - 1583.44] anyways i've shown you quite a bit of
+
+[1581.2 - 1585.52] what what this can do and you've seen
+
+[1583.44 - 1587.8400000000001] that there's been some improvements um
+
+[1585.52 - 1589.76] this one i'm super pleased with this you
+
+[1587.84 - 1592.72] know it's not 10 out of 10 yet but we're
+
+[1589.76 - 1594.08] doing we're doing much better um yeah so
+
+[1592.72 - 1595.919] i think that i think that this fine
+
+[1594.08 - 1597.36] tuning data set i'm really on to
+
+[1595.919 - 1600.0800000000002] something and i think that there's a lot
+
+[1597.36 - 1602.0] more uh a lot more that i can i can do
+
+[1600.08 - 1604.72] with this um i'll need to think about
+
+[1602.0 - 1606.159] some more edge edge case scenarios like
+
+[1604.72 - 1608.72] you know what if it's a special needs
+
+[1606.159 - 1610.159] kid or sensory processing or or whatever
+
+[1608.72 - 1612.32] i really need to talk to some of my
+
+[1610.159 - 1613.8400000000001] teacher friends and probably my
+
+[1612.32 - 1616.0] girlfriend some more because she has all
+
+[1613.84 - 1617.9189999999999] kinds of great stories from the library
+
+[1616.0 - 1619.6] anyways i'm rambling i think you guys
+
+[1617.919 - 1622.72] get the point i will talk to you all
+
+[1619.6 - 1622.7199999999998] next time

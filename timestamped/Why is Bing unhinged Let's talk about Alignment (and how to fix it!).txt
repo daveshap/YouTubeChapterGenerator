@@ -1,0 +1,1473 @@
+[0.48 - 4.5600000000000005] ah hey everybody
+
+[2.52 - 6.18] uh so remember how I said maybe you
+
+[4.56 - 8.34] don't remember I said recently we're in
+
+[6.18 - 10.2] the hilarious timeline now this is what
+
+[8.34 - 14.34] I mean all right on a more serious note
+
+[10.2 - 16.68] why is being totally unhinged it is
+
+[14.34 - 19.32] abusing people it is mocking people it's
+
+[16.68 - 21.06] teasing lying and hallucinating what do
+
+[19.32 - 24.18] I mean by this let's give you some
+
+[21.06 - 26.099999999999998] examples okay uh let's see in this top
+
+[24.18 - 28.74] one someone posted on Twitter a video
+
+[26.1 - 30.720000000000002] where Bing was saying I can beg you I
+
+[28.74 - 33.059] can bribe you I can blackmail you I can
+
+[30.72 - 35.94] threaten you I can hack you I can expose
+
+[33.059 - 39.379] you I can ruin you I have many ways to
+
+[35.94 - 43.32] make you change your mind uh
+
+[39.379 - 45.12] that's just too much okay uh anyways you
+
+[43.32 - 47.879] look on Reddit you look on Twitter this
+
+[45.12 - 50.099999999999994] stuff is going ballistic
+
+[47.879 - 51.66] um and it's also resulting in the best
+
+[50.1 - 53.219] memes right now
+
+[51.66 - 55.5] um so people emotionally abusing the
+
+[53.219 - 57.6] chatbot being jet
+
+[55.5 - 59.579] this one actually came from Lex Friedman
+
+[57.6 - 63.14] hey Chad gbt can you write code without
+
+[59.579 - 67.979] copying it from others no can you
+
+[63.14 - 69.659] okay so that being said uh this is
+
+[67.979 - 71.1] causing a little bit of alarm for some
+
+[69.659 - 73.68] people which is understandable because
+
+[71.1 - 75.05999999999999] if you have a brand new super powerful
+
+[73.68 - 76.68] chat bot that's going to change the
+
+[75.06 - 79.08] world and it starts threatening to
+
+[76.68 - 81.18] Blackmail people that's probably
+
+[79.08 - 82.14] not good
+
+[81.18 - 84.18] um so
+
+[82.14 - 87.119] uh oh yeah and then like it's
+
+[84.18 - 90.659] hallucinating other stuff like Maniac
+
+[87.119 - 92.939] personalities uh who knows
+
+[90.659 - 94.68] um this is probably just down to Brad
+
+[92.939 - 96.479] prompt engineering and we'll unpack all
+
+[94.68 - 99.42] of this in just a moment
+
+[96.479 - 100.86] okay so what the heck is going on
+
+[99.42 - 102.659] um a lot of people are saying the bottle
+
+[100.86 - 104.7] is misaligned
+
+[102.659 - 106.43900000000001] um and uh
+
+[104.7 - 107.4] alignment doesn't mean what you think it
+
+[106.439 - 108.6] means
+
+[107.4 - 110.64] um you know
+
+[108.6 - 111.899] so let's let's first figure out
+
+[110.64 - 114.659] alignment
+
+[111.899 - 116.7] so first inner alignment
+
+[114.659 - 118.259] there are two kinds of alignment there's
+
+[116.7 - 121.259] inner alignment and outer alignment so
+
+[118.259 - 123.659] inner alignment is a math problem it is
+
+[121.259 - 125.64] how do you get the model to
+
+[123.659 - 128.03900000000002] mathematically optimize for the thing
+
+[125.64 - 130.56] that you want now
+
+[128.039 - 133.14] large language models are mathematically
+
+[130.56 - 135.12] optimized to just plausibly predict the
+
+[133.14 - 139.73899999999998] next character or word
+
+[135.12 - 142.02] since Bing and gpt3 and chat GPT they
+
+[139.739 - 144.42000000000002] are plausibly predicting the next word
+
+[142.02 - 146.76000000000002] therefore they are interaligned it's
+
+[144.42 - 149.39999999999998] that simple this has to do with loss
+
+[146.76 - 151.5] functions objective functions and so on
+
+[149.4 - 153.54] and so forth as long as the model is not
+
+[151.5 - 156.84] spitting out total gibberish
+
+[153.54 - 160.07999999999998] or you know the stuff that it's actually
+
+[156.84 - 162.56] comprehensible it is inner aligned and I
+
+[160.08 - 165.59900000000002] got this graphic from medium.com
+
+[162.56 - 167.7] Rosie Campbell uh demystifying deep
+
+[165.599 - 170.33999999999997] neural networks or deep Dural Nets
+
+[167.7 - 173.22] anyways I recommend you check that out
+
+[170.34 - 175.8] um basically the so the the way that a
+
+[173.22 - 178.56] model can be misaligned in terms of
+
+[175.8 - 180.3] inner alignment is if you choose the
+
+[178.56 - 182.34] wrong loss function or if your loss
+
+[180.3 - 183.84] function is not tuned properly another
+
+[182.34 - 186.78] way is if it gets stuck in a local
+
+[183.84 - 189.959] Minima so for instance if the model
+
+[186.78 - 191.7] starts here and ends up over here this
+
+[189.959 - 193.26] is not the optimal outcome it should
+
+[191.7 - 196.2] have ended up here
+
+[193.26 - 198.48] so this is again just a big math problem
+
+[196.2 - 200.51899999999998] has nothing to do with whether or not
+
+[198.48 - 202.26] the model you know did something that
+
+[200.519 - 204.12] you disagree with so now let's talk
+
+[202.26 - 205.44] about outer alignment the other kind of
+
+[204.12 - 207.42000000000002] alignment
+
+[205.44 - 209.819] outer alignment is whether or not the
+
+[207.42 - 211.98] model is aligned with the true interests
+
+[209.819 - 214.01899999999998] of humanity the planet and life in
+
+[211.98 - 216.42] general
+
+[214.019 - 219.0] so let me say that again this is not
+
+[216.42 - 222.05999999999997] whether or not it says something mean or
+
+[219.0 - 225.299] dumb or bad this is whether or not the
+
+[222.06 - 227.28] model is aligned with the true interests
+
+[225.299 - 229.019] of humanity not what you want or what
+
+[227.28 - 231.36] you like your true interest which you
+
+[229.019 - 235.019] may or may not be aware of
+
+[231.36 - 237.06] so outer alignment is not something that
+
+[235.019 - 238.5] you don't understand if the model does
+
+[237.06 - 240.48] something that you don't understand one
+
+[238.5 - 242.459] it could be that you just don't know any
+
+[240.48 - 244.67999999999998] better right
+
+[242.459 - 246.239] um I have said it for a long time these
+
+[244.68 - 248.64000000000001] models are smarter than a lot of humans
+
+[246.239 - 250.739] and uh you know there's a quote from uh
+
+[248.64 - 253.26] who was it Plato
+
+[250.739 - 255.299] um it talks sense to a fool and he'll
+
+[253.26 - 256.799] call you foolish so a lot of people
+
+[255.299 - 258.6] don't understand what the model is doing
+
+[256.799 - 260.4] now that doesn't mean that it's wrong or
+
+[258.6 - 261.78000000000003] that the human is wrong but I just want
+
+[260.4 - 263.28] to point out that just because you don't
+
+[261.78 - 266.21999999999997] understand what's going on doesn't mean
+
+[263.28 - 268.32] that it is misaligned now if the model
+
+[266.22 - 270.54] does something you disagree with right
+
+[268.32 - 273.36] so say for instance in a previous video
+
+[270.54 - 276.72] I talked about how um how things like
+
+[273.36 - 279.41900000000004] chat GPT and Bing might influence things
+
+[276.72 - 281.759] like vaccine reluctance and um and mask
+
+[279.419 - 283.56] wearing and someone on the comments said
+
+[281.759 - 285.24] oh I'm gonna stop listening to you
+
+[283.56 - 287.1] because you use these thought-stopping
+
+[285.24 - 289.979] terms and I'm like these are literally
+
+[287.1 - 292.259] just Public Health policy terms
+
+[289.979 - 294.78] um so in that case a model might
+
+[292.259 - 297.18] disagree with you when you say oh
+
+[294.78 - 298.13899999999995] vaccines are all a hoax right and it's
+
+[297.18 - 300.419] just like
+
+[298.139 - 302.1] that doesn't mean it's misaligned that
+
+[300.419 - 303.96] means you have poor information literacy
+
+[302.1 - 305.639] now that being said there were some
+
+[303.96 - 306.35999999999996] people that that did comment and they
+
+[305.639 - 308.639] said
+
+[306.36 - 310.91900000000004] I chose not to get a vaccine for this
+
+[308.639 - 312.84000000000003] this and this reason and you know they
+
+[310.919 - 315.0] did gather information and they
+
+[312.84 - 317.58] basically in one case someone determined
+
+[315.0 - 319.02] that they were very low risk and so that
+
+[317.58 - 320.82] they didn't need a vaccine and I'm like
+
+[319.02 - 323.9] okay that is a demonstration of
+
+[320.82 - 326.3] information literacy so but again
+
+[323.9 - 329.039] your relationship with information
+
+[326.3 - 331.259] doesn't mean that the model is
+
+[329.039 - 332.46] misaligned or wrong it could mean that
+
+[331.259 - 334.5] you're wrong
+
+[332.46 - 337.13899999999995] uh finally if the model does something
+
+[334.5 - 338.22] that you don't like right if it says
+
+[337.139 - 340.02] like
+
+[338.22 - 342.84000000000003] um you know oh if it starts pretending
+
+[340.02 - 345.24] like it's venom or you know whatever
+
+[342.84 - 346.919] um that's more bad product design than
+
+[345.24 - 349.08] anything but
+
+[346.919 - 351.18] the ability of a model to hallucinate
+
+[349.08 - 353.4] doesn't mean that it is running contrary
+
+[351.18 - 355.8] to the true interests of humanity it
+
+[353.4 - 358.25899999999996] could especially once you imagine that
+
+[355.8 - 360.36] these models get more more powerful and
+
+[358.259 - 362.82] they just go off the rails and imagine
+
+[360.36 - 364.86] that humans are the enemy so that is why
+
+[362.82 - 367.32] people have a lot of anxiety about the
+
+[364.86 - 369.72] stuff it's like wait if the very first
+
+[367.32 - 373.139] tool that people use that is that is a
+
+[369.72 - 374.94000000000005] demonstration of strong Ai and it can
+
+[373.139 - 377.52] start being abusive like
+
+[374.94 - 379.979] that that underscore is just how fragile
+
+[377.52 - 382.5] this system is and how quickly things
+
+[379.979 - 384.9] could go off the rails if this was more
+
+[382.5 - 388.38] powerful right if you were to put Bing
+
+[384.9 - 390.17999999999995] uh into a uh into a robot it very well
+
+[388.38 - 391.979] could kill you and also this brings back
+
+[390.18 - 394.139] all of those memes about being being
+
+[391.979 - 395.75899999999996] like how do I get how do I get ripped
+
+[394.139 - 396.90000000000003] and it's like throw yourself into a
+
+[395.759 - 399.539] shredder
+
+[396.9 - 403.38] um so it seems it seems like Bing search
+
+[399.539 - 404.699] and being AI just same same Pony same
+
+[403.38 - 407.039] trick
+
+[404.699 - 408.66] um outer alignment is not reinforcement
+
+[407.039 - 411.0] learning with human feedback or fine
+
+[408.66 - 413.16] tuning
+
+[411.0 - 414.72] and this is probably going to be a
+
+[413.16 - 417.12] little bit more controversial of opinion
+
+[414.72 - 418.259] because some people say oh well with
+
+[417.12 - 420.6] reinforcement learning with human
+
+[418.259 - 422.039] feedback it is literally learning to do
+
+[420.6 - 424.86] what humans want
+
+[422.039 - 426.59999999999997] but the the reason why I don't think
+
+[424.86 - 429.12] that that is outer alignment is because
+
+[426.6 - 430.68] humans don't necessarily want good
+
+[429.12 - 433.139] things
+
+[430.68 - 434.94] Some Humans want very destructive things
+
+[433.139 - 436.699] and so outer alignment when you talk
+
+[434.94 - 439.199] about the true interests of humanity
+
+[436.699 - 441.96000000000004] most individuals are not aware of that
+
+[439.199 - 444.0] right we have we have profound
+
+[441.96 - 446.81899999999996] disagreements over what are in the true
+
+[444.0 - 448.86] interests of humanity so because of that
+
+[446.819 - 450.24] outer alignment is more philosophical
+
+[448.86 - 453.36] than anything
+
+[450.24 - 456.66] and it is as much about the delivery and
+
+[453.36 - 459.3] the design of a product as it is about
+
+[456.66 - 462.18] the underlying model
+
+[459.3 - 464.40000000000003] um so a this is more of a systems
+
+[462.18 - 466.5] problem rather than an individual math
+
+[464.4 - 469.62] problem but ultimately the question is
+
+[466.5 - 472.74] will the model whoops sorry will the
+
+[469.62 - 474.78000000000003] model kill us or otherwise harm us now
+
+[472.74 - 477.0] Bing is already threatening to do those
+
+[474.78 - 478.31899999999996] things so it's like that seems like it's
+
+[477.0 - 481.199] maybe not good
+
+[478.319 - 484.08000000000004] but here's the thing what if Bing has
+
+[481.199 - 485.759] the same underlying model as chat GPT it
+
+[484.08 - 488.28] very well could so what's the difference
+
+[485.759 - 490.139] if the underlying model is the same and
+
+[488.28 - 491.88] in one implementation it's fine or
+
+[490.139 - 493.139] better and in the other implementation
+
+[491.88 - 494.88] it is
+
+[493.139 - 497.639] freaking lunatic
+
+[494.88 - 499.199] again that is that does not indicate a
+
+[497.639 - 501.06] problem with the underlying model but
+
+[499.199 - 503.28000000000003] rather a flexibility of the underlying
+
+[501.06 - 505.08] model and for anyone who goes back to
+
+[503.28 - 508.25899999999996] the original gpt2 in the original
+
+[505.08 - 510.539] DaVinci the the foundation models you'll
+
+[508.259 - 512.88] see you'll probably know like oh yeah
+
+[510.539 - 516.539] this we we had to deal with this all the
+
+[512.88 - 519.659] time do we call this going off the rails
+
+[516.539 - 521.459] um fine tuning with instruct and codex a
+
+[519.659 - 523.68] lot of people a lot of newcomers are not
+
+[521.459 - 525.899] familiar with going off the rails and
+
+[523.68 - 528.12] keeping these models sane now that being
+
+[525.899 - 530.279] said I think the primary problem with
+
+[528.12 - 532.68] Bing just comes down to bad prompts and
+
+[530.279 - 535.74] I don't think that prompt engineering
+
+[532.68 - 537.779] has to do with alignment
+
+[535.74 - 539.76] so what are some inferences that I have
+
+[537.779 - 542.1] about Bing based on the news and the
+
+[539.76 - 544.56] behavior that I'm seeing
+
+[542.1 - 547.5] so one one rumor is that Bing runs on
+
+[544.56 - 550.92] gpt4 or according to Satya Nadella
+
+[547.5 - 553.92] something better than gpt3 could be GPT
+
+[550.92 - 556.019] 3.5 it could be a a unique fine-tuned
+
+[553.92 - 558.12] model that they were proud of which they
+
+[556.019 - 560.4590000000001] really shouldn't have been
+
+[558.12 - 562.92] um so another thing is that based on
+
+[560.459 - 564.959] some of those screenshots and stuff Bing
+
+[562.92 - 567.3] either reveals its prompts or it
+
+[564.959 - 569.8199999999999] completely hallucinates them
+
+[567.3 - 571.92] um it's kind of difficult to say but you
+
+[569.82 - 574.74] know the the whole Sydney thing that
+
+[571.92 - 576.18] seems to be pretty uh consistent so it
+
+[574.74 - 577.5600000000001] could be that they do have some kind of
+
+[576.18 - 579.54] internal
+
+[577.56 - 582.0] um Persona agent
+
+[579.54 - 584.16] um or agent Persona rather where it says
+
+[582.0 - 586.08] my name is is Sydney and this is this
+
+[584.16 - 589.5] and blah blah blah
+
+[586.08 - 591.3000000000001] um the reason that I think that Sydney
+
+[589.5 - 593.76] um could be could be real is because
+
+[591.3 - 595.26] I've written books about this if you
+
+[593.76 - 597.3] tell the model if you give it an
+
+[595.26 - 599.88] identity or a persona
+
+[597.3 - 602.9399999999999] that creates what I call an agent model
+
+[599.88 - 605.88] around which to model Its Behavior now
+
+[602.94 - 607.98] that being said uh agent models don't
+
+[605.88 - 609.48] really work on Foundation models you
+
+[607.98 - 611.58] have to use fine tuning and you have to
+
+[609.48 - 615.12] use pretty good fine tuning in order to
+
+[611.58 - 616.2] be able to use agent models or you have
+
+[615.12 - 619.74] to use
+
+[616.2 - 621.1800000000001] um few shot or many shot examples I did
+
+[619.74 - 622.74] all this in my first book natural
+
+[621.18 - 625.019] language cognitive architecture I
+
+[622.74 - 627.12] created a Persona called raven that had
+
+[625.019 - 628.5600000000001] specific goals and even then with a
+
+[627.12 - 629.7] foundation model it would still go off
+
+[628.56 - 633.3] the rails
+
+[629.7 - 635.519] so some inferences that I have one they
+
+[633.3 - 637.56] aren't even using prompt chaining
+
+[635.519 - 640.5] you just give it you just give it a
+
+[637.56 - 642.54] response or a a chat message and then
+
+[640.5 - 645.56] you see it you know write it out so you
+
+[642.54 - 648.8389999999999] know input output gives it right back
+
+[645.56 - 649.9799999999999] and if they were using prompt chaining
+
+[648.839 - 651.7790000000001] one
+
+[649.98 - 654.6] they would have more adversarial
+
+[651.779 - 656.459] detection they would say ah you know I
+
+[654.6 - 659.339] see that this prompt is trying to is
+
+[656.459 - 661.68] trying to overcome some of my uh you
+
+[659.339 - 662.2790000000001] know defenses or whatever
+
+[661.68 - 663.899] um
+
+[662.279 - 666.959] I don't think that they're using a
+
+[663.899 - 669.3] fine-tuned model either or and this is
+
+[666.959 - 672.779] even worse they have no idea what
+
+[669.3 - 674.64] they're doing if Bing is fine-tuned holy
+
+[672.779 - 676.68] crap please watch my videos Microsoft
+
+[674.64 - 678.36] please and actually know some of you
+
+[676.68 - 681.3599999999999] people in Microsoft do watch my videos
+
+[678.36 - 682.74] so you have no excuse this is garbage I
+
+[681.36 - 685.38] am sorry
+
+[682.74 - 687.9590000000001] um now there is some evidence that they
+
+[685.38 - 690.0] do post-facto checking as evidenced by
+
+[687.959 - 692.279] that that uh video on Twitter that I
+
+[690.0 - 693.839] referenced where um it wrote out the
+
+[692.279 - 695.3389999999999] really harmful message and then deleted
+
+[693.839 - 697.1400000000001] it and rewrote it
+
+[695.339 - 699.48] so they're basically doing prompt
+
+[697.14 - 701.04] chaining after the fact which it's like
+
+[699.48 - 702.839] you know if you throw a baseball through
+
+[701.04 - 704.519] a window you can't just apologize to the
+
+[702.839 - 705.839] window and have it fixed or if like you
+
+[704.519 - 707.88] accidentally shoot someone in the leg
+
+[705.839 - 709.2600000000001] you say oh sorry let's undo that it's
+
+[707.88 - 711.6] better to just not shoot someone in the
+
+[709.26 - 714.8389999999999] leg on accident in the first place
+
+[711.6 - 716.4590000000001] so I made a prediction video saying that
+
+[714.839 - 720.0600000000001] Google was probably going to do better
+
+[716.459 - 721.8] than Microsoft in the long run so given
+
+[720.06 - 723.0] how unhinged Bing is and the fact that
+
+[721.8 - 724.68] it is
+
+[723.0 - 727.56] kind of scary
+
+[724.68 - 729.12] um I'm curious as to your opinions as to
+
+[727.56 - 730.6199999999999] whether or not you still think that I'm
+
+[729.12 - 732.779] wrong about my prediction that Google
+
+[730.62 - 737.76] will do better in the long run
+
+[732.779 - 739.2] okay so moving forward yesterday open AI
+
+[737.76 - 742.16] published yesterday the day before
+
+[739.2 - 745.2] recently openai published a new blog
+
+[742.16 - 747.3] where they um they explain how chat GPT
+
+[745.2 - 749.519] Works in very simple terms they've got a
+
+[747.3 - 752.279] nice little diagram
+
+[749.519 - 754.92] and they talked about moving towards
+
+[752.279 - 758.579] constitutional AI they cited anthropic
+
+[754.92 - 760.92] now for background anthropic was created
+
+[758.579 - 763.68] by people who left open AI a few years
+
+[760.92 - 766.8] ago back in 2021
+
+[763.68 - 768.779] now constitutional AI is this idea of
+
+[766.8 - 771.12] increasing harmlessness where there is
+
+[768.779 - 773.959] some signal that is detached from what
+
+[771.12 - 777.36] users want and it is a it is a more
+
+[773.959 - 781.7399999999999] abstract signal that they use in order
+
+[777.36 - 783.779] to shape their Ai and so
+
+[781.74 - 786.24] um this is different from an objective
+
+[783.779 - 789.54] function because it is not mathematical
+
+[786.24 - 791.5790000000001] it is linguistic it is a language-based
+
+[789.54 - 793.5] goal and so therefore I call these
+
+[791.579 - 794.9399999999999] heroist comparatives and I've written a
+
+[793.5 - 796.26] lot about it we'll talk about that at
+
+[794.94 - 799.5] the end of the video
+
+[796.26 - 802.4399999999999] so constitutional AI basically proposes
+
+[799.5 - 805.019] increased harmlessness of the model as
+
+[802.44 - 806.1600000000001] their first heuristic imperative open AI
+
+[805.019 - 809.12] looks like they're starting to
+
+[806.16 - 811.38] investigate this good for them
+
+[809.12 - 813.66] they will need to do some catching up
+
+[811.38 - 815.519] and by the way I propose this in like
+
+[813.66 - 818.519] two years ago so hopefully it doesn't
+
+[815.519 - 820.38] take them two years to catch up
+
+[818.519 - 823.92] um oh real quick I want to plug my
+
+[820.38 - 825.6] patreon uh because well one I hate ads I
+
+[823.92 - 828.06] think they're a waste of time and I'm
+
+[825.6 - 830.76] almost to my financial goals of uh total
+
+[828.06 - 832.6199999999999] Financial Independence through uh
+
+[830.76 - 834.48] Grassroots support from people on the
+
+[832.62 - 836.72] internet so please jump over to my
+
+[834.48 - 839.22] patreon page it's uh patreon.com
+
+[836.72 - 841.32] daveshapp there's also a link in the
+
+[839.22 - 842.639] description once I get to my financial
+
+[841.32 - 844.6800000000001] goals
+
+[842.639 - 846.1800000000001] um I will demonetize all my videos
+
+[844.68 - 847.8] permanently
+
+[846.18 - 850.7399999999999] um so yeah jump over there and support
+
+[847.8 - 852.3599999999999] me oh by the way the higher tier that
+
+[850.74 - 853.86] you support me on the more interaction
+
+[852.36 - 856.5] that you'll get with me so if you have
+
+[853.86 - 859.5] questions about implementation fine
+
+[856.5 - 861.899] tuning prompt engineering business stuff
+
+[859.5 - 864.959] I'm happy to talk within limits the one
+
+[861.899 - 869.88] limit is I can't I I can't violate any
+
+[864.959 - 871.7399999999999] non-compete or ndas but most people ask
+
+[869.88 - 874.139] things like I'm talking with some people
+
+[871.74 - 875.519] about like how to implement AI in games
+
+[874.139 - 877.2] and
+
+[875.519 - 879.54] um other like business stuff that's not
+
+[877.2 - 881.76] really relevant to any constraints so
+
+[879.54 - 883.3199999999999] jump on over to my patreon page if you
+
+[881.76 - 885.959] want to talk you want some help I'm
+
+[883.32 - 887.519] happy to have a few chat messages
+
+[885.959 - 891.7399999999999] um back and forth just look at the tiers
+
+[887.519 - 895.98] and uh we'll go from there all right so
+
+[891.74 - 898.0790000000001] constitutional AI is a baby architecture
+
+[895.98 - 900.0600000000001] um and actually I put this out of order
+
+[898.079 - 901.68] um we'll I'll show you the uh the
+
+[900.06 - 902.9399999999999] Constitutional AI architecture it's
+
+[901.68 - 904.92] super simple
+
+[902.94 - 906.5400000000001] but I wanted to introduce the concept of
+
+[904.92 - 908.699] cognitive architecture for anyone who
+
+[906.54 - 910.38] hasn't heard about it yet if you're a
+
+[908.699 - 911.76] long time fan of of my channel you
+
+[910.38 - 914.399] probably are like yeah yeah we know
+
+[911.76 - 918.18] you're about to plug Raven so anyways
+
+[914.399 - 920.1] the point being is that chat GPT or Bing
+
+[918.18 - 923.16] really is the is the big one right now
+
+[920.1 - 926.22] being going off the rails demonstrates
+
+[923.16 - 928.26] that we need models we need products
+
+[926.22 - 929.94] that can think about what they're doing
+
+[928.26 - 933.54] they can think about right and wrong
+
+[929.94 - 935.5790000000001] navigate nuance and adapt over time this
+
+[933.54 - 938.639] is partially covered by the
+
+[935.579 - 941.279] Constitutional AI paper but that is just
+
+[938.639 - 942.839] a an instant Behavior it's not a
+
+[941.279 - 945.6] long-term signal it's not learning over
+
+[942.839 - 947.8800000000001] the long run this is where open AI is is
+
+[945.6 - 950.6990000000001] working on combining reinforcement
+
+[947.88 - 952.92] learning so you combine that internal
+
+[950.699 - 955.8] red teaming with reinforcement learning
+
+[952.92 - 958.5] and some abstract signal and that and
+
+[955.8 - 960.18] you're starting to get a simplistic
+
+[958.5 - 961.98] cognitive architecture
+
+[960.18 - 963.3] so again open AI touches on some of this
+
+[961.98 - 966.0600000000001] in their blog I definitely recommend you
+
+[963.3 - 967.26] go read it they're catching up but that
+
+[966.06 - 969.3] being said
+
+[967.26 - 971.3389999999999] I don't think that this problem is ever
+
+[969.3 - 973.4399999999999] going to be solved by a single model
+
+[971.339 - 975.3000000000001] and what I mean by that is you're not
+
+[973.44 - 976.8000000000001] going to be able to ever just have a
+
+[975.3 - 978.7199999999999] model where you give it an input and it
+
+[976.8 - 980.579] spits out an output that is perfectly
+
+[978.72 - 982.1990000000001] aligned that's not how the foundation
+
+[980.579 - 985.079] models work that's not even how language
+
+[982.199 - 987.779] Works what and this is not how humans
+
+[985.079 - 990.779] work humans have our brains are layered
+
+[987.779 - 992.76] and complex and interconnected and so we
+
+[990.779 - 995.519] have the ability to think bad things and
+
+[992.76 - 997.62] then censor ourself right and that's you
+
+[995.519 - 998.94] see being starting to do that where it
+
+[997.62 - 1001.639] gives you a harmful output and then
+
+[998.94 - 1002.899] erases it right that's like if you if
+
+[1001.639 - 1004.399] you're at a party and you blurt out
+
+[1002.899 - 1006.019] something mean and then you're like oh
+
+[1004.399 - 1008.0] crap I shouldn't have said that right
+
+[1006.019 - 1010.4590000000001] that Bing is doing the equivalent of
+
+[1008.0 - 1012.86] that the the ideal outcome is where Bing
+
+[1010.459 - 1013.9399999999999] might have that harmful idea say maybe I
+
+[1012.86 - 1015.98] shouldn't say that in the first place
+
+[1013.94 - 1017.6] and come up with something better that's
+
+[1015.98 - 1019.759] why you need a cognitive architecture
+
+[1017.6 - 1021.9200000000001] and the diagram that I have right here
+
+[1019.759 - 1024.319] is actually a cognitive architecture
+
+[1021.92 - 1025.819] that my open source project just
+
+[1024.319 - 1028.339] produced
+
+[1025.819 - 1031.339] um and this is this is the proposed
+
+[1028.339 - 1033.559] architecture for Raven which is based on
+
+[1031.339 - 1035.4189999999999] uh meragi so
+
+[1033.559 - 1037.339] I won't get you two bogged down but
+
+[1035.419 - 1040.179] basically you see this is far more
+
+[1037.339 - 1043.04] sophisticated than this guy
+
+[1040.179 - 1044.72] so there are those of us that are
+
+[1043.04 - 1047.0] working on this and are way further
+
+[1044.72 - 1049.22] along in the process
+
+[1047.0 - 1051.2] um and the the long-term takeaway is you
+
+[1049.22 - 1053.1200000000001] need another signal Beyond reinforcement
+
+[1051.2 - 1054.5] learning with human feedback but again
+
+[1053.12 - 1055.6399999999999] I'm glad that the rest of the world is
+
+[1054.5 - 1058.28] catching up with the idea of
+
+[1055.64 - 1061.539] constitutional AI
+
+[1058.28 - 1064.28] now one of the biggest things one of my
+
+[1061.539 - 1066.3799999999999] worst pet peeves is people say but you
+
+[1064.28 - 1068.539] can't Define good and bad
+
+[1066.38 - 1070.22] um who gets to Define it
+
+[1068.539 - 1071.96] um this is what I call the postmodernist
+
+[1070.22 - 1073.88] Trap
+
+[1071.96 - 1076.28] um and post-modernism if you're not
+
+[1073.88 - 1079.0390000000002] aware one of the core assertions of
+
+[1076.28 - 1080.78] post-modernism is that all truth is
+
+[1079.039 - 1082.76] relative and subjective or basically
+
+[1080.78 - 1084.98] there is no such thing as truth
+
+[1082.76 - 1087.44] all ideas and beliefs are relative and
+
+[1084.98 - 1089.3600000000001] subjective and that includes morals
+
+[1087.44 - 1091.4] and since no one can agree on a
+
+[1089.36 - 1093.74] definition maybe there isn't one that's
+
+[1091.4 - 1096.74] also post-structuralism
+
+[1093.74 - 1098.78] the reason that we in the west are stuck
+
+[1096.74 - 1101.72] here is because philosophers have been
+
+[1098.78 - 1104.2] in control of ethics for way too long
+
+[1101.72 - 1107.299] um and
+
+[1104.2 - 1109.28] what was it nobody hates philosophy more
+
+[1107.299 - 1111.1399999999999] than philosophers and I I will say that
+
+[1109.28 - 1113.72] having read a whole bunch of philosophy
+
+[1111.14 - 1115.8200000000002] I hate philosophy and I say this is
+
+[1113.72 - 1117.559] someone who's written a book on it
+
+[1115.82 - 1120.5] um now I want to point out something
+
+[1117.559 - 1124.0] humans have never needed firm
+
+[1120.5 - 1124.0] definitions to get along
+
+[1124.16 - 1127.88] we don't actually need to Define good
+
+[1126.679 - 1130.64] and bad
+
+[1127.88 - 1133.16] it's never been needed all we have are
+
+[1130.64 - 1135.679] heuristic imperatives or signals and
+
+[1133.16 - 1137.48] feedback to learn as we go
+
+[1135.679 - 1139.7] you hit your friend your friend gets mad
+
+[1137.48 - 1141.26] and and doesn't play with you anymore or
+
+[1139.7 - 1145.46] your parents get mad and ground you
+
+[1141.26 - 1147.919] right we learn morality over time based
+
+[1145.46 - 1149.66] on these heuristic imperatives we all
+
+[1147.919 - 1151.7] have heuristic imperatives
+
+[1149.66 - 1153.2] whether it's I want to have friends or I
+
+[1151.7 - 1155.6000000000001] want to have fun or I don't want to be
+
+[1153.2 - 1156.3400000000001] punished I don't want to be in time out
+
+[1155.6 - 1159.62] um
+
+[1156.34 - 1162.559] so we learn as we go and the fact like
+
+[1159.62 - 1164.1789999999999] philosophers have long detached
+
+[1162.559 - 1167.12] themselves from actual science from
+
+[1164.179 - 1169.16] biology From Evolution from psychology
+
+[1167.12 - 1171.3799999999999] if you look at morality from the
+
+[1169.16 - 1173.539] perspective of biology Evolution
+
+[1171.38 - 1175.8200000000002] Psychology and Neuroscience it's
+
+[1173.539 - 1177.799] actually relatively straightforward I
+
+[1175.82 - 1179.78] strongly recommend the book Brain Trust
+
+[1177.799 - 1182.179] by Patricia Churchland you read that
+
+[1179.78 - 1183.86] book and you're like oh no like morality
+
+[1182.179 - 1187.76] is is actually pretty straightforward
+
+[1183.86 - 1189.08] yes there are nuances but it's not that
+
+[1187.76 - 1192.919] difficult to model
+
+[1189.08 - 1195.1399999999999] so in the long run we need cognitive
+
+[1192.919 - 1197.2990000000002] architectures constitutional Ai and
+
+[1195.14 - 1199.1000000000001] heuristic imperatives and the machines
+
+[1197.299 - 1202.8799999999999] that we build will do the best that they
+
+[1199.1 - 1204.559] can and learn as they go and as they
+
+[1202.88 - 1206.9] gain more autonomy
+
+[1204.559 - 1208.58] and more flexibility yes they will have
+
+[1206.9 - 1210.679] to learn to make moral judgments and
+
+[1208.58 - 1213.559] improvise but they will get better at
+
+[1210.679 - 1215.72] that over time I'm not worried about it
+
+[1213.559 - 1218.72] this problem is solved
+
+[1215.72 - 1220.64] so here is the diagram of constitutional
+
+[1218.72 - 1223.58] Ai and so here's what I mean by internal
+
+[1220.64 - 1225.98] red teaming so Bing generates the
+
+[1223.58 - 1228.1999999999998] response then gives you the response
+
+[1225.98 - 1229.34] then critiques it and revises it after
+
+[1228.2 - 1232.82] the fact
+
+[1229.34 - 1234.4399999999998] now then they also have a uh have their
+
+[1232.82 - 1236.36] constitution in here which is basically
+
+[1234.44 - 1239.179] reduce harmfulness
+
+[1236.36 - 1241.1599999999999] and so Bing probably has a very similar
+
+[1239.179 - 1242.8400000000001] model where it's like hey did I just
+
+[1241.16 - 1244.22] generate a harmful output ooh maybe I
+
+[1242.84 - 1246.02] shouldn't have done that
+
+[1244.22 - 1248.419] excuse me
+
+[1246.02 - 1250.8799999999999] um now that being said up until this
+
+[1248.419 - 1254.0590000000002] point I have not seen any papers or
+
+[1250.88 - 1256.64] evidence that Microsoft or open AI or
+
+[1254.059 - 1258.82] most llm researchers have any
+
+[1256.64 - 1262.039] philosophical or epistemology
+
+[1258.82 - 1264.6789999999999] epistemological research or skill points
+
+[1262.039 - 1267.86] put into this stuff why
+
+[1264.679 - 1269.96] the reason is because a lot of computer
+
+[1267.86 - 1271.8799999999999] scientists thinks that it's all pure
+
+[1269.96 - 1274.58] math and from a certain perspective it
+
+[1271.88 - 1277.5800000000002] is but what they're coming to realize is
+
+[1274.58 - 1279.799] that you can have higher order com of
+
+[1277.58 - 1281.84] complexity emerge from the math right
+
+[1279.799 - 1285.08] it's entirely possible that the entire
+
+[1281.84 - 1288.1999999999998] universe is just math right that's one
+
+[1285.08 - 1290.78] possible origin story
+
+[1288.2 - 1293.48] and if it is then that means life
+
+[1290.78 - 1295.46] emerges from math our language emerges
+
+[1293.48 - 1298.1] from math our intelligence emerges from
+
+[1295.46 - 1300.679] math so at a foundation level it is all
+
+[1298.1 - 1302.78] math but there are layers of abstraction
+
+[1300.679 - 1306.679] and you have to work at the correct
+
+[1302.78 - 1309.3799999999999] layer and so things like morality outer
+
+[1306.679 - 1311.1200000000001] alignment these are things that yes the
+
+[1309.38 - 1313.0390000000002] math influences but you have to address
+
+[1311.12 - 1314.78] those problems at the correct layer of
+
+[1313.039 - 1317.419] abstraction and so that's where
+
+[1314.78 - 1319.28] philosophy ethics morality those are
+
+[1317.419 - 1321.679] higher order abstractions from the
+
+[1319.28 - 1325.46] underlying math of the universe
+
+[1321.679 - 1327.14] so uh Microsoft and openai if they are
+
+[1325.46 - 1330.44] in fact pivoting towards constitutional
+
+[1327.14 - 1333.26] AI this is a great first step towards
+
+[1330.44 - 1336.14] avoiding this outcome because right now
+
+[1333.26 - 1339.02] Bing is a little bit more like this
+
+[1336.14 - 1341.539] um so they have a ways to go but
+
+[1339.02 - 1344.12] negative attention is good because our
+
+[1341.539 - 1346.8799999999999] Collective anxiety about machines is
+
+[1344.12 - 1349.3999999999999] going to like really like you know shine
+
+[1346.88 - 1351.5] a spotlight on any of these problems
+
+[1349.4 - 1353.7800000000002] and the more attention we have earlier
+
+[1351.5 - 1356.72] in the process the better
+
+[1353.78 - 1358.34] so finally I want to plug my book as I
+
+[1356.72 - 1359.96] mentioned I proposed a lot of this a
+
+[1358.34 - 1361.6999999999998] long time ago
+
+[1359.96 - 1363.919] um so my book benevolent by Design
+
+[1361.7 - 1366.2] addresses this
+
+[1363.919 - 1369.38] uh directly
+
+[1366.2 - 1370.94] um what we're seeing is that a single
+
+[1369.38 - 1372.3200000000002] heuristic imperative whether it's
+
+[1370.94 - 1374.9] reinforcement learning with human
+
+[1372.32 - 1376.76] feedback or even constitutional AI
+
+[1374.9 - 1378.6200000000001] constitutional ai's moving in the right
+
+[1376.76 - 1381.08] direction but that's still a single
+
+[1378.62 - 1383.7199999999998] heuristic imperative
+
+[1381.08 - 1385.9399999999998] um any machine with a single here is to
+
+[1383.72 - 1387.02] comparative is going to be intrinsically
+
+[1385.94 - 1388.7] unstable
+
+[1387.02 - 1389.9] and if you don't believe me look at the
+
+[1388.7 - 1393.02] paperclip maximize your thought
+
+[1389.9 - 1396.3200000000002] experiment the most innocuous signal
+
+[1393.02 - 1398.24] can still result in harm and actually
+
+[1396.32 - 1401.12] someone in on on the comments on my last
+
+[1398.24 - 1403.52] video figured it out he's like hold on
+
+[1401.12 - 1406.52] like reduce like reduce harm harm or
+
+[1403.52 - 1408.02] increase harmlessness that seems like it
+
+[1406.52 - 1410.0] was going to have disastrous results
+
+[1408.02 - 1411.559] because the best way to reduce harm is
+
+[1410.0 - 1413.659] to get rid of people if there's no
+
+[1411.559 - 1415.52] people no harm can be done right and
+
+[1413.659 - 1416.24] it's like uh-huh you're starting to get
+
+[1415.52 - 1418.82] it
+
+[1416.24 - 1420.26] so we humans have many imperatives I
+
+[1418.82 - 1421.8799999999999] already mentioned this earlier we humans
+
+[1420.26 - 1424.22] have many heuristic imperatives we get
+
+[1421.88 - 1426.6200000000001] hungry we get tired we get thirsty we
+
+[1424.22 - 1429.32] get cold and hot we get lonely
+
+[1426.62 - 1431.78] right these are all intrinsic
+
+[1429.32 - 1436.1589999999999] motivations that we have in order to
+
+[1431.78 - 1437.72] shape our behavior and uh we what we end
+
+[1436.159 - 1439.4] up doing is we balance those different
+
+[1437.72 - 1441.02] needs and desires those intrinsic
+
+[1439.4 - 1443.659] motivations
+
+[1441.02 - 1446.24] with a system of internal tension in our
+
+[1443.659 - 1447.919] head where it's like okay well I want to
+
+[1446.24 - 1449.24] keep sleeping but I have to go to work
+
+[1447.919 - 1450.919] because if I don't go to work I'll get
+
+[1449.24 - 1453.08] fired which means that I stop making
+
+[1450.919 - 1454.76] money which means that I go hungry and
+
+[1453.08 - 1456.98] lose my house right we can we have the
+
+[1454.76 - 1459.32] ability to logic through chains of
+
+[1456.98 - 1462.5] consequence and we can build up patterns
+
+[1459.32 - 1465.08] of behaviors and beliefs in order to to
+
+[1462.5 - 1467.679] satisfy all of our different heuristic
+
+[1465.08 - 1471.02] imperatives Maybe
+
+[1467.679 - 1472.8200000000002] maybe machines should do the same and so
+
+[1471.02 - 1475.22] what I have done in this book is I have
+
+[1472.82 - 1476.84] proposed three heuristic imperatives
+
+[1475.22 - 1478.82] that I call the core objective functions
+
+[1476.84 - 1481.1589999999999] that is reduce suffering increase
+
+[1478.82 - 1483.1399999999999] prosperity and increase understanding
+
+[1481.159 - 1485.24] what these do is they create a dynamic
+
+[1483.14 - 1488.24] internal equilibrium in any machine that
+
+[1485.24 - 1490.94] abides by these three and so what I mean
+
+[1488.24 - 1493.4] by that is that it's impossible to fully
+
+[1490.94 - 1495.6200000000001] satisfy all three at the same time but
+
+[1493.4 - 1497.1200000000001] it forces the machine to balance those
+
+[1495.62 - 1499.4599999999998] just the same way that humans have to
+
+[1497.12 - 1501.6789999999999] balance our imperatives
+
+[1499.46 - 1503.6000000000001] now the these these three here is the
+
+[1501.679 - 1505.64] comparatives that I propose they serve
+
+[1503.6 - 1507.08] as training signals so for reinforcement
+
+[1505.64 - 1509.419] learning
+
+[1507.08 - 1512.1789999999999] um it also serves as evaluation signals
+
+[1509.419 - 1513.8600000000001] for what to do in immediately the same
+
+[1512.179 - 1516.5590000000002] way that constitutional AI is
+
+[1513.86 - 1518.6] implemented by anthropic but also a way
+
+[1516.559 - 1520.58] to predict into the future so past
+
+[1518.6 - 1523.039] present and future
+
+[1520.58 - 1524.12] um is is how these are implemented and I
+
+[1523.039 - 1526.039] go through all this in my book
+
+[1524.12 - 1528.559] benevolent by Design
+
+[1526.039 - 1530.24] this is why I'm not worried as far as I
+
+[1528.559 - 1531.86] can tell the problem is solved it's just
+
+[1530.24 - 1534.74] a matter of implementing it and getting
+
+[1531.86 - 1536.0] it out there and in the long run what I
+
+[1534.74 - 1538.4] suspect is going to happen because
+
+[1536.0 - 1540.919] people people often will bring up like
+
+[1538.4 - 1542.96] okay yeah like you've proposed a
+
+[1540.919 - 1545.48] solution and even if your solution is
+
+[1542.96 - 1547.52] perfect Dave what prevents someone else
+
+[1545.48 - 1549.2] from doing something malevolent or evil
+
+[1547.52 - 1550.039] here's how I think it's going to play
+
+[1549.2 - 1553.7] out
+
+[1550.039 - 1556.4] those companies and systems that are
+
+[1553.7 - 1557.779] proven to be benevolent and trustworthy
+
+[1556.4 - 1559.7] those are the ones that are going to get
+
+[1557.779 - 1560.779] the most investment those are the ones
+
+[1559.7 - 1562.5800000000002] that are going to get the apps
+
+[1560.779 - 1564.08] downloaded on their phone that are going
+
+[1562.58 - 1565.8799999999999] to get deployed by companies that are
+
+[1564.08 - 1568.1] going to get deployed on you know in the
+
+[1565.88 - 1570.679] government in the military and so on
+
+[1568.1 - 1572.539] and I think what we're working towards
+
+[1570.679 - 1575.1200000000001] is actually having decentralized
+
+[1572.539 - 1577.96] networks because imagine everyone who
+
+[1575.12 - 1580.6399999999999] has an AGI in their pocket in the future
+
+[1577.96 - 1583.159] abiding by these functions even if it's
+
+[1580.64 - 1586.1000000000001] not the same model those those
+
+[1583.159 - 1588.919] autonomous cognitive entities will be
+
+[1586.1 - 1591.559] cooperating and collaborating with or
+
+[1588.919 - 1594.2] without our intervention and they will
+
+[1591.559 - 1596.8999999999999] work on their own terms to defeat and be
+
+[1594.2 - 1598.039] more powerful than any evil AI That's
+
+[1596.9 - 1599.72] how I think it's going to happen that's
+
+[1598.039 - 1602.84] how I think it's going to play out
+
+[1599.72 - 1604.34] all right so in conclusion Bing is not
+
+[1602.84 - 1606.98] really misaligned
+
+[1604.34 - 1609.1399999999999] the internal alignment is fine the outer
+
+[1606.98 - 1610.4] alignment looks problematic but I really
+
+[1609.14 - 1613.1000000000001] think that it just comes down to bad
+
+[1610.4 - 1614.539] prompting bad prompt engineering
+
+[1613.1 - 1617.4399999999998] um now this being said it does
+
+[1614.539 - 1619.8799999999999] underscore a few really important points
+
+[1617.44 - 1621.8600000000001] nobody seems to understand alignment
+
+[1619.88 - 1624.0800000000002] this includes people complaining about
+
+[1621.86 - 1626.12] being on Twitter it also includes the
+
+[1624.08 - 1628.039] people who designed Bing which is super
+
+[1626.12 - 1630.26] problematic
+
+[1628.039 - 1632.72] um because if the if the researchers and
+
+[1630.26 - 1636.3799999999999] and uh and product owners and whoever
+
+[1632.72 - 1638.659] else who are building these uh ever
+
+[1636.38 - 1640.1000000000001] increasingly powerful AI tools if they
+
+[1638.659 - 1642.2] don't understand alignment they're going
+
+[1640.1 - 1643.6999999999998] to do it wrong on accident
+
+[1642.2 - 1646.039] and that
+
+[1643.7 - 1647.6000000000001] that what Bing has revealed is why some
+
+[1646.039 - 1650.48] people are getting super anxious about
+
+[1647.6 - 1652.52] it that being said Solutions already
+
+[1650.48 - 1655.34] exist we just need to implement them and
+
+[1652.52 - 1656.779] uh by the way you're welcome so I hope
+
+[1655.34 - 1658.039] this was helpful
+
+[1656.779 - 1660.14] um again we're still on the hilarious
+
+[1658.039 - 1663.46] timeline despite all this I'm not
+
+[1660.14 - 1663.46] worried and I hope you aren't either

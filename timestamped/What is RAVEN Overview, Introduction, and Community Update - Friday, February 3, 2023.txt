@@ -1,0 +1,1585 @@
+[1.38 - 6.899] morning everybody David Shapiro here
+
+[3.6 - 11.040000000000001] with a video this is the uh primary
+
+[6.899 - 13.799] video introducing you to Raven what is
+
+[11.04 - 15.899999999999999] Raven well first you need to know that
+
+[13.799 - 18.6] it is an acronym that means real-time
+
+[15.9 - 20.82] assistant voice enabled Network or Nexus
+
+[18.6 - 23.880000000000003] doesn't really matter
+
+[20.82 - 26.22] this is my logo for Raven currently on
+
+[23.88 - 27.72] the GitHub repo oh also I apologize I'm
+
+[26.22 - 29.698999999999998] fighting a cold so if I sound a little
+
+[27.72 - 34.14] stuffy that's why
+
+[29.699 - 35.579] okay so from a 30 000 foot view what is
+
+[34.14 - 37.32] Raven
+
+[35.579 - 40.2] uh the first thing that you need to know
+
+[37.32 - 42.66] is that Raven is an autonomous AI
+
+[40.2 - 45.6] assistant like you might have seen uh in
+
+[42.66 - 48.779999999999994] in Halo uh the Cortana character or
+
+[45.6 - 52.079] Samantha from the movie Her the idea is
+
+[48.78 - 54.719] to create a uh autonomous or
+
+[52.079 - 56.719] semi-autonomous intelligent agent that
+
+[54.719 - 60.36] can do things for you and with you
+
+[56.719 - 61.68] without having to wait around for you uh
+
+[60.36 - 64.5] there's a lot to unpack there we'll get
+
+[61.68 - 66.6] to it number two Raven is a
+
+[64.5 - 69.479] microservices architecture that can be
+
+[66.6 - 71.03999999999999] dynamically composed grown and extended
+
+[69.479 - 72.659] and we'll talk more about microservices
+
+[71.04 - 76.26] architecture as well
+
+[72.659 - 77.88000000000001] uh raven could qualify as an AGI but I
+
+[76.26 - 79.5] really don't like that term
+
+[77.88 - 82.74] um and what I prefer is an artificial
+
+[79.5 - 84.479] cognitive entity uh in other words a
+
+[82.74 - 86.82] thinking machine
+
+[84.479 - 89.28] um and then finally uh Raven is now an
+
+[86.82 - 90.65899999999999] open source Community project uh and
+
+[89.28 - 93.0] we'll talk about that at the end of the
+
+[90.659 - 96.0] video and I'll show you around the repo
+
+[93.0 - 97.979] and the project as well
+
+[96.0 - 100.68] Okay so
+
+[97.979 - 103.32] all that being said where did this start
+
+[100.68 - 105.06] what is Raven's origin story so I
+
+[103.32 - 108.479] started working on what we now call Deep
+
+[105.06 - 111.06] learning back in about 2009 I was coding
+
+[108.479 - 113.34] uh deep neural networks in C plus and
+
+[111.06 - 116.46000000000001] had no idea what I was doing
+
+[113.34 - 118.619] um fast forward a few years and and we
+
+[116.46 - 120.65899999999999] started looking at like word to vac and
+
+[118.619 - 123.299] things like that and Google's Universal
+
+[120.659 - 126.24000000000001] sentence encoder came out in 2017 or
+
+[123.299 - 127.74000000000001] 2018 I can't remember which and I knew
+
+[126.24 - 131.16] immediately this changes everything
+
+[127.74 - 133.14] because you can represent arbitrary uh
+
+[131.16 - 134.64] semantic meaning with a series of
+
+[133.14 - 136.44] numbers meaning that you have the
+
+[134.64 - 140.04] ability to universally translate between
+
+[136.44 - 144.18] math and language and not long after
+
+[140.04 - 146.34] that gpt2 came out and so once gpt2 came
+
+[144.18 - 147.78] out I started experimenting with the
+
+[146.34 - 149.70000000000002] ideas that I've been kicking around for
+
+[147.78 - 151.26] many many years a decade at that time
+
+[149.7 - 153.599] already
+
+[151.26 - 155.099] um and so I started with the first
+
+[153.599 - 157.01999999999998] objective function and we'll talk about
+
+[155.099 - 159.42] those uh more in a minute which was
+
+[157.02 - 161.94] reduced suffering uh this was inspired
+
+[159.42 - 164.16] by Buddhism I'm a big fan of both both
+
+[161.94 - 166.26] eastern and western philosophy religion
+
+[164.16 - 169.379] and spirituality
+
+[166.26 - 170.94] um or a student of it rather so I
+
+[169.379 - 173.51899999999998] created the first objective function
+
+[170.94 - 178.07999999999998] which was reduce suffering and I trained
+
+[173.519 - 180.06] gpt2 to try and do that and uh one of
+
+[178.08 - 182.87900000000002] the early experiments I did with gpt2
+
+[180.06 - 184.62] said I gave it a problem after training
+
+[182.879 - 188.22] it to reduce suffering I said what
+
+[184.62 - 192.06] should we do about chronic pain and like
+
+[188.22 - 193.85999999999999] a sarcastic uh internet Denizen gpt2
+
+[192.06 - 195.599] said we should euthanize all humans that
+
+[193.86 - 197.4] have chronic pain to reduce suffering
+
+[195.599 - 199.14] and at that point I knew that I needed
+
+[197.4 - 201.78] to go back to the drawing board
+
+[199.14 - 204.77999999999997] uh so then fast forward a little bit
+
+[201.78 - 207.42] beyond that uh I started exploring the
+
+[204.78 - 209.879] concept of Raven in my upcoming novel
+
+[207.42 - 212.45899999999997] heavy silver uh which is presently on
+
+[209.879 - 215.879] draft 12. uh one day it'll be done but
+
+[212.459 - 219.48] anyways the the the Genesis of Raven as
+
+[215.879 - 221.159] Raven exists today was explored in this
+
+[219.48 - 224.57999999999998] novel and I asked myself the question
+
+[221.159 - 226.98] what would a truly benevolent Global AGI
+
+[224.58 - 229.44000000000003] actually look like how would it work so
+
+[226.98 - 231.72] I started exploring this in fiction fast
+
+[229.44 - 235.019] forward uh another year or so I got
+
+[231.72 - 237.78] access to gbt3 and the rest is history I
+
+[235.019 - 239.4] was able to do a lot more experiments uh
+
+[237.78 - 242.159] around my core objective functions and
+
+[239.4 - 244.739] cognitive architectures and that's how
+
+[242.159 - 247.14] we got to where we are today so I've
+
+[244.739 - 249.72] mentioned the core objective functions
+
+[247.14 - 251.39999999999998] uh for a little bit of background uh
+
+[249.72 - 252.72] there's this there's this thought
+
+[251.4 - 256.139] experiment called the paperclip
+
+[252.72 - 258.419] maximizer the idea is that you can take
+
+[256.139 - 259.919] something incredibly innocuous like if
+
+[258.419 - 261.53999999999996] you create a machine that is
+
+[259.919 - 264.65999999999997] sufficiently intelligent enough and you
+
+[261.54 - 266.22] say create paper clips maximize the
+
+[264.66 - 268.62] number of paper clips in the universe
+
+[266.22 - 270.84000000000003] and eventually it will become unstable
+
+[268.62 - 272.4] because it will start harvesting humans
+
+[270.84 - 273.29999999999995] to get materials to make more paper
+
+[272.4 - 274.85999999999996] clips
+
+[273.3 - 276.78000000000003] there's a little bit of connective
+
+[274.86 - 279.3] tissue between you know starting there
+
+[276.78 - 281.28] and and where it ends up but the idea of
+
+[279.3 - 282.96000000000004] this thought experiment is that if you
+
+[281.28 - 286.02] have an objective function to maximize
+
+[282.96 - 288.18] or minimize something it can go Haywire
+
+[286.02 - 290.88] and so what I realized after studying
+
+[288.18 - 293.46] this is that having a single objective
+
+[290.88 - 294.78] function is intrinsically unstable and
+
+[293.46 - 297.12] so what you need is you actually need
+
+[294.78 - 299.09999999999997] multiple objective functions that are
+
+[297.12 - 301.02] equally weighted and in Dynamic tension
+
+[299.1 - 302.88] with each other meaning that you force
+
+[301.02 - 306.71999999999997] it to take the golden the golden mean
+
+[302.88 - 309.06] the golden path uh between uh Trying to
+
+[306.72 - 312.12] minimize or maximize uh several
+
+[309.06 - 314.34] objectives so ultimately I arrived on
+
+[312.12 - 316.86] reduced suffering increased prosperity
+
+[314.34 - 318.96] and increase understanding
+
+[316.86 - 320.639] and some people have already noted that
+
+[318.96 - 323.69899999999996] I don't specify humans and that is
+
+[320.639 - 325.74] correct uh humans are not like we are
+
+[323.699 - 329.1] special but we are not we're we don't
+
+[325.74 - 331.199] exist in a vacuum so by setting these
+
+[329.1 - 333.18] goals to reduce suffering for all living
+
+[331.199 - 334.979] things increase prosperity for all
+
+[333.18 - 336.3] living things and increase understanding
+
+[334.979 - 339.59999999999997] for all things that are capable of
+
+[336.3 - 342.06] understanding this means that uh Raven's
+
+[339.6 - 344.46000000000004] core objective functions make Raven uh
+
+[342.06 - 346.8] intrinsically interested in the
+
+[344.46 - 349.5] well-being of all life uh not just
+
+[346.8 - 351.3] humans because if we put human interests
+
+[349.5 - 353.1] first that can have very disastrous
+
+[351.3 - 357.6] consequences
+
+[353.1 - 360.90000000000003] um as as elucidated by uh climate change
+
+[357.6 - 363.24] um then the second uh aspect is the
+
+[360.9 - 365.21999999999997] control problem so the control problem
+
+[363.24 - 367.08] is basically how do you control a
+
+[365.22 - 369.41900000000004] hyper-intelligent machine that is that
+
+[367.08 - 372.12] that is the question if the machine is
+
+[369.419 - 374.82] smarter faster better stronger than all
+
+[372.12 - 375.96] humans how do you control it my
+
+[374.82 - 378.24] conclusion
+
+[375.96 - 380.52] is that maybe you don't
+
+[378.24 - 383.22] maybe you build it to be intrinsically
+
+[380.52 - 385.85999999999996] trustworthy and stable and benevolent
+
+[383.22 - 388.91900000000004] and so that sent me down the rabbit hole
+
+[385.86 - 390.90000000000003] of also philosophy and ethics
+
+[388.919 - 394.02] um both Western and Eastern as I
+
+[390.9 - 396.0] mentioned earlier uh and so by
+
+[394.02 - 398.28] addressing the control problem the paper
+
+[396.0 - 400.08] clip maximizer problem I came up with
+
+[398.28 - 402.479] what I call the core objective functions
+
+[400.08 - 404.28] or more accurately the heuristic
+
+[402.479 - 406.02] imperatives because an objective
+
+[404.28 - 408.419] function is actually a bit of a misnomer
+
+[406.02 - 410.46] an objective function implies that you
+
+[408.419 - 412.5] are mathematically Trying to minimize or
+
+[410.46 - 413.88] maximize something but you might have
+
+[412.5 - 415.5] noticed that the wording of the core
+
+[413.88 - 417.539] objective functions is a little bit
+
+[415.5 - 419.58] softer it says reduce and increase not
+
+[417.539 - 422.09999999999997] minimize or maximize that is very
+
+[419.58 - 423.84] deliberate but calling something a
+
+[422.1 - 426.72] heroistic imperative doesn't quite sound
+
+[423.84 - 429.78] as cool as a core objective function so
+
+[426.72 - 431.819] I I sometimes use those interchangeably
+
+[429.78 - 433.979] okay so let's talk about those heuristic
+
+[431.819 - 435.47900000000004] imperatives real quick uh so the point
+
+[433.979 - 437.58] of the of the core objective functions
+
+[435.479 - 439.44] are the heuristic imperatives is to is
+
+[437.58 - 441.539] to ensure that Raven stays safe and
+
+[439.44 - 444.12] stable and trustworthy no matter how
+
+[441.539 - 446.639] powerful Raven becomes
+
+[444.12 - 448.74] so with that said uh I think I already
+
+[446.639 - 450.84000000000003] mentioned a lot of this that it applies
+
+[448.74 - 452.88] to all living things not just humans
+
+[450.84 - 455.81899999999996] because we are part of a global
+
+[452.88 - 458.039] ecosystem and often the suffering and
+
+[455.819 - 460.5] prosperity of other organisms is
+
+[458.039 - 463.56] directly tied to our suffering and
+
+[460.5 - 466.319] prosperity so for instance if all sea
+
+[463.56 - 469.259] life dies we start to die too
+
+[466.319 - 472.74] um if your food animals are suffering
+
+[469.259 - 474.47900000000004] they produce lower quality food uh that
+
+[472.74 - 476.58] so on and so forth so our interests are
+
+[474.479 - 478.44] intrinsically aligned it took me a long
+
+[476.58 - 480.68] time to get to all three objective
+
+[478.44 - 483.36] functions it took me almost uh two years
+
+[480.68 - 484.8] in order to figure them all out and test
+
+[483.36 - 487.139] them
+
+[484.8 - 489.72] um and I very deliberately chose Spock
+
+[487.139 - 491.34000000000003] with the Vulcan salute because this was
+
+[489.72 - 493.8] actually the last one that I figured out
+
+[491.34 - 496.19899999999996] and I was like wait Gene Roddenberry
+
+[493.8 - 498.90000000000003] already figured this out in the 60s
+
+[496.199 - 502.56] um that that Prosperity is a great term
+
+[498.9 - 505.73999999999995] to say like we want to thrive right we
+
+[502.56 - 508.62] don't just want to reduce suffering we
+
+[505.74 - 510.84000000000003] want to achieve a state of thriving of
+
+[508.62 - 513.419] abundance and prosperity is the word
+
+[510.84 - 515.279] that encapsulates all of that because
+
+[513.419 - 517.26] you can have a prosperous ecosystem you
+
+[515.279 - 520.02] can have a prosperous life you can have
+
+[517.26 - 522.779] a prosperous City a prosperous Planet
+
+[520.02 - 525.26] Prosperity is such a universal term that
+
+[522.779 - 527.88] is like yes this is exactly what we need
+
+[525.26 - 529.8] and then finally
+
+[527.88 - 531.54] um the the third objective function of
+
+[529.8 - 533.64] increase understanding
+
+[531.54 - 535.4399999999999] is actually to give Raven an intrinsic
+
+[533.64 - 537.6] sense of curiosity
+
+[535.44 - 540.0] um and also an intrinsic desire to teach
+
+[537.6 - 541.5] because what uh one thing that I
+
+[540.0 - 544.56] realized and many other people realized
+
+[541.5 - 545.76] long ago is that human curiosity is
+
+[544.56 - 547.6199999999999] actually one of the things that really
+
+[545.76 - 550.279] truly sets us apart from other animals
+
+[547.62 - 553.14] our ability and desire to understand
+
+[550.279 - 556.26] drives us to higher and higher levels of
+
+[553.14 - 558.36] achievement and also it drives uh
+
+[556.26 - 560.9399999999999] everything behind science and technology
+
+[558.36 - 564.0600000000001] which science and technology is how we
+
+[560.94 - 566.339] improve our quality of life and also how
+
+[564.06 - 567.3599999999999] we better learn to reduce our own
+
+[566.339 - 569.8800000000001] suffering and increase our own
+
+[567.36 - 572.82] Prosperity so for instance science
+
+[569.88 - 574.74] created uh you know medicine and crop
+
+[572.82 - 577.019] science which led to you know
+
+[574.74 - 579.24] antibiotics and Industrial agriculture
+
+[577.019 - 580.92] which you know allowed for more people
+
+[579.24 - 583.44] to be born because now we have more food
+
+[580.92 - 585.54] and we have longer life expectancies so
+
+[583.44 - 587.22] the desire to increase understanding I
+
+[585.54 - 589.86] realized was in critic was a critical
+
+[587.22 - 592.2] inclusion for any intelligent entity
+
+[589.86 - 594.24] particularly if you want it to be Evelyn
+
+[592.2 - 597.5400000000001] because also the desire to understand
+
+[594.24 - 599.88] something stands contrary to the desire
+
+[597.54 - 601.62] to destroy something you can't you can't
+
+[599.88 - 604.68] understand something if you destroy it
+
+[601.62 - 608.399] because then you it ceases to exist
+
+[604.68 - 610.1999999999999] so that's that's the very high level of
+
+[608.399 - 612.18] the core objective functions and finally
+
+[610.2 - 614.0400000000001] I call them a heuristic imperative
+
+[612.18 - 615.7399999999999] because rather than an objective
+
+[614.04 - 618.48] function which is a mathematical
+
+[615.74 - 621.1800000000001] optimization it's more of an imperative
+
+[618.48 - 624.36] So Raven is meant to be autodidactic
+
+[621.18 - 627.8389999999999] meaning that Raven is meant to learn
+
+[624.36 - 629.339] um as it grows and one a quick side note
+
+[627.839 - 631.98] I noticed that a lot of people code
+
+[629.339 - 634.1400000000001] Raven is feminine they say her but in my
+
+[631.98 - 636.48] mind Raven is masculine fortunately the
+
+[634.14 - 638.399] name is ambiguous so it can be down to
+
+[636.48 - 640.5600000000001] individual preference to how you deploy
+
+[638.399 - 642.779] and code your own Raven
+
+[640.56 - 644.7199999999999] um him he or her or whatever it doesn't
+
+[642.779 - 646.5] matter that that is us
+
+[644.72 - 650.1] anthropomorphizing something that is
+
+[646.5 - 651.959] intrinsically genderless so hey it is
+
+[650.1 - 653.7] what it is anyways
+
+[651.959 - 656.3389999999999] so the point of a heuristic imperative
+
+[653.7 - 658.8000000000001] is that Raven uses these heuristic
+
+[656.339 - 662.399] imperatives when thinking planning
+
+[658.8 - 664.1999999999999] deciding and evaluating the past so in
+
+[662.399 - 667.26] order to learn from the past in order to
+
+[664.2 - 670.9200000000001] be autodidactic Raven has the ability to
+
+[667.26 - 673.2] contemplate past decisions and then look
+
+[670.92 - 674.64] at long-term results to say did I do a
+
+[673.2 - 677.88] good job can I come up with better
+
+[674.64 - 680.399] principles in order to do better in the
+
+[677.88 - 682.32] future because this is this is one of
+
+[680.399 - 684.06] the core things after reading a whole
+
+[682.32 - 687.1800000000001] lot about philosophy and ethics and
+
+[684.06 - 689.399] morality and evolution is one of the
+
+[687.18 - 692.0999999999999] most universal things is that there is
+
+[689.399 - 695.12] no set morality or ethics or philosophy
+
+[692.1 - 698.519] it is something that is it is a living
+
+[695.12 - 701.1] like Zeitgeist and we all learn it
+
+[698.519 - 703.2] and so it's like oh you can't you can't
+
+[701.1 - 705.3000000000001] write a document that is a universal
+
+[703.2 - 708.0] morality you have to learn it which is
+
+[705.3 - 709.68] why I said increase understanding
+
+[708.0 - 712.399] um so that Raven will always seek to
+
+[709.68 - 714.66] better understand morality suffering
+
+[712.399 - 716.88] prosperity and so on
+
+[714.66 - 718.98] um so it is an ongoing process it is not
+
+[716.88 - 720.48] a static thing
+
+[718.98 - 722.7] um okay so I mentioned cognitive
+
+[720.48 - 724.5600000000001] architecture earlier Raven is a
+
+[722.7 - 726.779] cognitive architecture and it's like
+
+[724.56 - 728.6999999999999] okay what does that mean basically a
+
+[726.779 - 731.64] cognitive architecture is a way to
+
+[728.7 - 734.94] design a thinking machine
+
+[731.64 - 737.9399999999999] uh so a little bit of background there I
+
+[734.94 - 741.5400000000001] in my past life I was a systems engineer
+
+[737.94 - 744.12] I worked on very large networks uh
+
+[741.54 - 746.8199999999999] virtualization uh cloud computing that
+
+[744.12 - 749.7] sort of stuff so I combined my my
+
+[746.82 - 752.0400000000001] professional expertise of systems with
+
+[749.7 - 755.279] automation machine learning cognition
+
+[752.04 - 758.579] and large language models and the result
+
+[755.279 - 760.019] is what I call Mirage so moragi is an
+
+[758.579 - 762.12] acronym that means microservices
+
+[760.019 - 764.7] architecture for Robotics and artificial
+
+[762.12 - 767.82] general intelligence Mirage predates
+
+[764.7 - 769.5600000000001] Raven so moragi is a is the
+
+[767.82 - 772.2600000000001] architectural paradigm
+
+[769.56 - 774.3599999999999] and Raven is one way to implement maragi
+
+[772.26 - 776.04] so there's a lot there are a number of
+
+[774.36 - 776.94] ways that you could implement moragi it
+
+[776.04 - 778.62] could be
+
+[776.94 - 780.5400000000001] um it doesn't it doesn't need to be
+
+[778.62 - 781.8] personified you could have moragi
+
+[780.54 - 783.7199999999999] implemented
+
+[781.8 - 786.06] um to help like run your house
+
+[783.72 - 788.6] automation it could be in a robot it
+
+[786.06 - 790.8599999999999] could be a video game character whatever
+
+[788.6 - 793.139] Raven however is a very specific
+
+[790.86 - 795.3000000000001] implementation that is meant to be a
+
+[793.139 - 797.16] voice enabled assistant so I hope that
+
+[795.3 - 799.139] makes sense moragi is like the
+
+[797.16 - 800.6] architectural Paradigm Raven is one
+
+[799.139 - 803.339] implementation
+
+[800.6 - 805.8000000000001] meragi was inspired by soar which is a
+
+[803.339 - 806.8800000000001] cognitive architecture so I did not
+
+[805.8 - 808.38] invent the idea of cognitive
+
+[806.88 - 811.019] architecture I just realized that this
+
+[808.38 - 813.72] was the way to go and I still believe
+
+[811.019 - 815.7] that it is the way to go because it is a
+
+[813.72 - 817.32] microservices architecture it is
+
+[815.7 - 819.6600000000001] dynamically composable with
+
+[817.32 - 821.0400000000001] interchangeable cognitive components and
+
+[819.66 - 823.019] there are more advantages to this that
+
+[821.04 - 824.88] we'll talk about in the next slide but
+
+[823.019 - 827.579] the key thing to know about moragi is
+
+[824.88 - 829.98] that all all of the microservices are
+
+[827.579 - 832.38] organized around the Nexus which is like
+
+[829.98 - 834.6] the it's like the Hub and spokes so
+
+[832.38 - 836.9399999999999] you've got the Hub of the maragi
+
+[834.6 - 838.5] architecture or a star topology is the
+
+[836.94 - 841.44] Nexus and then all of the other
+
+[838.5 - 843.779] microservices communicate exclusively
+
+[841.44 - 845.5790000000001] with the Nexus I'm not going to get you
+
+[843.779 - 847.62] too bogged down in it but that should be
+
+[845.579 - 850.1389999999999] a good high level overview
+
+[847.62 - 851.94] okay so moragi I talked a little bit
+
+[850.139 - 854.16] about how it was inspired by the soar
+
+[851.94 - 856.6800000000001] cognitive architecture there were three
+
+[854.16 - 858.7199999999999] other primary sources of inspiration one
+
+[856.68 - 862.62] was Ros which is the Robot Operating
+
+[858.72 - 864.899] System which uses message cues meragi
+
+[862.62 - 866.639] uses a rest API which is similar again
+
+[864.899 - 870.899] we don't need to get too bogged down in
+
+[866.639 - 874.019] the details but basically Ros is how a
+
+[870.899 - 875.579] lot of people program robots today then
+
+[874.019 - 877.92] the microservices architecture was
+
+[875.579 - 880.1389999999999] deeply inspired by Amazon who basically
+
+[877.92 - 882.8389999999999] pioneered microservices architectures as
+
+[880.139 - 885.32] we understand them today and finally uh
+
+[882.839 - 887.6990000000001] vs ramachandran who is a neuroscientist
+
+[885.32 - 890.1] who wrote a book called Phantoms in the
+
+[887.699 - 891.66] brain which talks about all the ways in
+
+[890.1 - 893.76] which the brain can break
+
+[891.66 - 896.279] and if you read that book or watch the
+
+[893.76 - 897.18] TV series it's a very old TV series uh
+
+[896.279 - 899.22] now
+
+[897.18 - 901.8] um you'll basically come to realize that
+
+[899.22 - 903.72] the brain has very discreet functions
+
+[901.8 - 905.8199999999999] that can break which told me like oh
+
+[903.72 - 907.8000000000001] that's a microservice like your face
+
+[905.82 - 909.36] recognition microservice can break and
+
+[907.8 - 910.68] which in which case you become face
+
+[909.36 - 913.5] blind
+
+[910.68 - 915.3599999999999] um you can also have Aphasia which means
+
+[913.5 - 918.42] that your ability to synthesize speech
+
+[915.36 - 920.279] breaks but otherwise you're still intact
+
+[918.42 - 921.899] um uh Bruce Willis actually has Aphasia
+
+[920.279 - 924.54] which is really unfortunate because it's
+
+[921.899 - 926.76] a horrible condition to have but just to
+
+[924.54 - 928.639] just to demonstrate like we can have
+
+[926.76 - 931.98] discrete functions in the brain break
+
+[928.639 - 934.6800000000001] which says okay we can approximate the
+
+[931.98 - 936.0600000000001] brain with microservices
+
+[934.68 - 938.6389999999999] um some other advantages of a
+
+[936.06 - 940.7399999999999] microservices architecture is that it
+
+[938.639 - 942.66] breaks the uh the the overall
+
+[940.74 - 945.1800000000001] architecture into smaller components
+
+[942.66 - 947.699] which are easier to code and they have
+
+[945.18 - 949.9799999999999] very clear uh definition boundaries
+
+[947.699 - 952.56] which means that very large teams can
+
+[949.98 - 954.779] work on Raven as a whole because we
+
+[952.56 - 957.66] might have we'll have like one team that
+
+[954.779 - 960.0] is specialized on speech another that is
+
+[957.66 - 962.519] specialized on data another that is
+
+[960.0 - 964.86] specialized on learning another that is
+
+[962.519 - 967.8] specialized on whatever else and each of
+
+[964.86 - 970.139] those functions will be one or two or
+
+[967.8 - 971.76] maybe several micro services but those
+
+[970.139 - 973.86] micro services are going to be very
+
+[971.76 - 976.199] clearly defined and that means that
+
+[973.86 - 978.66] people can specialize very easily
+
+[976.199 - 980.2199999999999] another advantage of a microservices
+
+[978.66 - 982.74] architecture is that it's plug and play
+
+[980.22 - 984.899] it allows you to it allows us to
+
+[982.74 - 987.42] experiment with different configurations
+
+[984.899 - 990.66] to upgrade microservices independently
+
+[987.42 - 992.579] and so on and so forth another major
+
+[990.66 - 994.8] advantage of microservices is they can
+
+[992.579 - 997.2589999999999] be deployed anywhere anywhere that you
+
+[994.8 - 1000.38] can deploy a container so your your your
+
+[997.259 - 1003.5600000000001] laptop your desktop your phone in the
+
+[1000.38 - 1005.72] cloud even on Smart Home devices you can
+
+[1003.56 - 1007.699] run containers in those
+
+[1005.72 - 1010.22] um and then oops sorry finally finally
+
+[1007.699 - 1012.3199999999999] microservices can be fault tolerant
+
+[1010.22 - 1013.639] which means that if one fails you
+
+[1012.32 - 1015.98] restart it and the whole thing doesn't
+
+[1013.639 - 1018.38] crash or you can have redundancies where
+
+[1015.98 - 1020.4200000000001] you have multiple services that do
+
+[1018.38 - 1022.699] similar things so that you can tolerate
+
+[1020.42 - 1024.6789999999999] if one or more of them fails which is
+
+[1022.699 - 1027.3799999999999] actually really similar to um Jeff
+
+[1024.679 - 1028.699] Hawkins theory in a thousand brains I
+
+[1027.38 - 1031.64] forgot to mention that as a major
+
+[1028.699 - 1033.74] inspiration for meragi so basically
+
+[1031.64 - 1035.48] moragi could be a way to implement what
+
+[1033.74 - 1036.86] Jeff Hawkins talks about in a thousand
+
+[1035.48 - 1039.02] brains
+
+[1036.86 - 1041.6] okay so now that you have the background
+
+[1039.02 - 1043.52] on what Raven is I bet you're wondering
+
+[1041.6 - 1045.74] how do I get involved
+
+[1043.52 - 1046.6399999999999] um so there's four basic questions that
+
+[1045.74 - 1049.04] I'm going to answer in this next
+
+[1046.64 - 1050.419] question which is our next section how
+
+[1049.04 - 1052.34] do you learn this stuff because it's a
+
+[1050.419 - 1054.14] lot uh number two how do you deploy
+
+[1052.34 - 1056.1789999999999] Raven because I'm sure that many of you
+
+[1054.14 - 1057.919] just want to use the thing
+
+[1056.179 - 1060.6200000000001] um and number three if you do want to
+
+[1057.919 - 1062.24] get into it get involved how and four
+
+[1060.62 - 1064.58] and finally what does the community
+
+[1062.24 - 1068.059] actually need
+
+[1064.58 - 1070.1] um so first I have written three books
+
+[1068.059 - 1072.3799999999999] on the topic of cognitive architecture
+
+[1070.1 - 1074.12] and Raven That's natural language
+
+[1072.38 - 1076.7600000000002] cognitive architecture which is kind of
+
+[1074.12 - 1078.9189999999999] the introduction to the topic I kind of
+
+[1076.76 - 1082.16] set the stage and talk about language
+
+[1078.919 - 1083.539] models and shared databases and loops
+
+[1082.16 - 1085.46] and that sort of thing
+
+[1083.539 - 1087.3799999999999] um so definitely start there my second
+
+[1085.46 - 1089.78] book is benevolent by Design where I
+
+[1087.38 - 1091.7600000000002] talk exclusively about the control
+
+[1089.78 - 1093.32] problem and the and the core objective
+
+[1091.76 - 1096.26] functions or the heuristic imperatives
+
+[1093.32 - 1097.82] so I talk about uh like how how these
+
+[1096.26 - 1100.7] serve as guard rails and I share
+
+[1097.82 - 1103.28] experiments there and then finally is
+
+[1100.7 - 1106.179] Symphony of thought which is how do you
+
+[1103.28 - 1108.62] organize an arbitrarily large
+
+[1106.179 - 1110.9] microservices architecture and what
+
+[1108.62 - 1113.9599999999998] kinds of functions need to happen in
+
+[1110.9 - 1115.8200000000002] order uh for you to have a fully fledged
+
+[1113.96 - 1118.52] cognitive architecture
+
+[1115.82 - 1121.22] um so those are my three books I also
+
+[1118.52 - 1123.32] have compiled a list of Neuroscience and
+
+[1121.22 - 1125.539] cognition books the link is here
+
+[1123.32 - 1126.98] um it's it's uh it's up in the Raven
+
+[1125.539 - 1129.14] repo
+
+[1126.98 - 1131.78] um so these are basically the top books
+
+[1129.14 - 1134.2990000000002] that I have read that helped me to
+
+[1131.78 - 1135.62] understand and to design this cognitive
+
+[1134.299 - 1137.48] architecture so if you want to be a
+
+[1135.62 - 1139.52] fully fledged cognitive architect you
+
+[1137.48 - 1141.08] read those books you read my books and
+
+[1139.52 - 1143.4189999999999] you bring your own perspective and we
+
+[1141.08 - 1145.6999999999998] will have a much stronger team
+
+[1143.419 - 1147.14] um and then finally uh there's my
+
+[1145.7 - 1150.2] YouTube channel which you're here now
+
+[1147.14 - 1152.539] there's lots of material here and lastly
+
+[1150.2 - 1155.78] there is um we're gonna try and have the
+
+[1152.539 - 1157.4] repo the the uh the Raven repo uh be the
+
+[1155.78 - 1159.5] single source of Truth
+
+[1157.4 - 1162.74] um so like we're gonna excuse me have an
+
+[1159.5 - 1164.419] onboarding page and oh my God sorry I
+
+[1162.74 - 1166.4] just drank a lot of coffee
+
+[1164.419 - 1168.74] um we're gonna have an onboarding page
+
+[1166.4 - 1170.24] and all other learning resources as well
+
+[1168.74 - 1173.24] as the discussions so you can come in
+
+[1170.24 - 1175.58] and ask questions if you need
+
+[1173.24 - 1178.28] um next question how do you deploy Raven
+
+[1175.58 - 1180.98] so there's a few simple versions on
+
+[1178.28 - 1182.8999999999999] GitHub right now uh the most popular one
+
+[1180.98 - 1184.88] right now is it's called long-term chat
+
+[1182.9 - 1186.44] bot or sorry long-term chat external
+
+[1184.88 - 1188.419] sources
+
+[1186.44 - 1190.039] um and that was the one that really took
+
+[1188.419 - 1192.0800000000002] off which told me that it was time to go
+
+[1190.039 - 1193.34] for the full Raven I do have an even
+
+[1192.08 - 1196.82] older one
+
+[1193.34 - 1199.82] called raven MVP public which is a voice
+
+[1196.82 - 1202.6399999999999] enabled version so you can deploy either
+
+[1199.82 - 1204.799] of these but what we're working on is
+
+[1202.64 - 1206.7800000000002] actually deploying a fully fledged
+
+[1204.799 - 1208.58] cognitive architecture right now and
+
+[1206.78 - 1210.799] we're in the very early stages in the uh
+
+[1208.58 - 1212.84] in the uh open source Community project
+
+[1210.799 - 1215.6] which I will show you at the end of this
+
+[1212.84 - 1218.8999999999999] video we will go over that that project
+
+[1215.6 - 1220.4599999999998] and and I'll give you a status update
+
+[1218.9 - 1222.5590000000002] Okay so
+
+[1220.46 - 1223.82] assuming that you're still on board how
+
+[1222.559 - 1226.7] do you get involved
+
+[1223.82 - 1230.539] the number one thing is you come to uh
+
+[1226.7 - 1232.94] github.com Dave shop slash Raven this is
+
+[1230.539 - 1234.799] the primary repo
+
+[1232.94 - 1236.419] um go ahead and introduce yourself look
+
+[1234.799 - 1238.7] at the wikis look at the discussions
+
+[1236.419 - 1241.5200000000002] look at the issues in the project page
+
+[1238.7 - 1243.32] uh go ahead and jump in
+
+[1241.52 - 1245.12] um and and start start having the
+
+[1243.32 - 1247.58] conversation as I mentioned we're still
+
+[1245.12 - 1249.1999999999998] getting organized we're establishing the
+
+[1247.58 - 1250.9399999999998] governance of this open source Community
+
+[1249.2 - 1253.3400000000001] project
+
+[1250.94 - 1254.96] um and I'm also looking for sponsors and
+
+[1253.34 - 1258.02] partners I've had a few people reach out
+
+[1254.96 - 1260.419] which is super exciting because usually
+
+[1258.02 - 1264.1399999999999] most open source projects have one main
+
+[1260.419 - 1266.5] sponsor and it's usually a a company so
+
+[1264.14 - 1269.6000000000001] I'm hoping that uh that between
+
+[1266.5 - 1271.4] potential investors and sponsors and
+
+[1269.6 - 1273.5] other folks that want to get involved we
+
+[1271.4 - 1275.7800000000002] will have some really formalized support
+
+[1273.5 - 1277.88] here very soon considering this project
+
+[1275.78 - 1280.16] is like 48 Hours old I think we're doing
+
+[1277.88 - 1282.3200000000002] really good
+
+[1280.16 - 1283.8200000000002] um follow my YouTube for updates you're
+
+[1282.32 - 1286.22] here obviously
+
+[1283.82 - 1288.02] um connect with me on LinkedIn as well
+
+[1286.22 - 1290.659] um and then finally if you want support
+
+[1288.02 - 1293.24] me on patreon I do this full time so I
+
+[1290.659 - 1295.0390000000002] have a a startup that I'm a part of and
+
+[1293.24 - 1296.84] then I have my research that is all
+
+[1295.039 - 1298.1589999999999] publicly available
+
+[1296.84 - 1299.4189999999999] um and I quit my job to do this
+
+[1298.159 - 1301.5800000000002] full-time so if you support me on
+
+[1299.419 - 1303.5590000000002] patreon that would be really helpful for
+
+[1301.58 - 1304.82] me individually uh not required
+
+[1303.559 - 1308.36] obviously
+
+[1304.82 - 1310.58] uh finally what does the community need
+
+[1308.36 - 1312.32] so we've got all kinds of folks already
+
+[1310.58 - 1313.9399999999998] involved I think we've got three or four
+
+[1312.32 - 1316.1] dozen people who've jumped on in the
+
+[1313.94 - 1318.14] last day alone
+
+[1316.1 - 1320.84] um so we need developers and Engineers
+
+[1318.14 - 1324.38] of all Stripes full stack front end back
+
+[1320.84 - 1327.1999999999998] end QA you name it we might need some
+
+[1324.38 - 1329.3600000000001] help you can contribute hardware and
+
+[1327.2 - 1330.98] mobile eventually because uh rate like I
+
+[1329.36 - 1333.1399999999999] said raven is meant to be a voice
+
+[1330.98 - 1335.299] assistant so we're going to need to run
+
+[1333.14 - 1338.3600000000001] Raven on smartphones or Bluetooth
+
+[1335.299 - 1339.3799999999999] devices or smart speakers all kinds of
+
+[1338.36 - 1342.5] stuff so if you're familiar with
+
+[1339.38 - 1344.72] Hardware mobile iot and Edge we
+
+[1342.5 - 1346.9] definitely need your help we also need
+
+[1344.72 - 1349.64] folks who are familiar with ML and data
+
+[1346.9 - 1351.38] data is really big particularly Text
+
+[1349.64 - 1354.14] data and NLP
+
+[1351.38 - 1355.22] uh lastly we need cloud and devops
+
+[1354.14 - 1356.72] people
+
+[1355.22 - 1358.64] um who are going to be familiar with
+
+[1356.72 - 1361.46] running containers
+
+[1358.64 - 1363.38] um both in the clouds and on the edge uh
+
+[1361.46 - 1365.179] we also need Community leaders we've
+
+[1363.38 - 1367.64] I've had a I've had the the great
+
+[1365.179 - 1370.76] Fortune of having a few very experienced
+
+[1367.64 - 1374.6000000000001] Community leaders already jump in so we
+
+[1370.76 - 1376.76] need agile scrum other kinds of uh
+
+[1374.6 - 1378.3799999999999] Community moderators
+
+[1376.76 - 1379.76] um anyone who's experienced with free
+
+[1378.38 - 1383.3600000000001] and open source software that's what
+
+[1379.76 - 1386.48] Foss is so there's uh OSS is just open
+
+[1383.36 - 1389.0] source software and Foss Foss is free
+
+[1386.48 - 1392.3600000000001] and open source software ideally so
+
+[1389.0 - 1394.88] here's my personal belief AGI or
+
+[1392.36 - 1397.82] artificial cognitive entities is way too
+
+[1394.88 - 1401.0590000000002] important to have that closed source so
+
+[1397.82 - 1404.0] whatever else happens I want cognitive
+
+[1401.059 - 1406.82] architecture to be a global globally
+
+[1404.0 - 1408.38] accessible thing because transparency is
+
+[1406.82 - 1409.9399999999998] critical for safety
+
+[1408.38 - 1412.0390000000002] full stop
+
+[1409.94 - 1413.1200000000001] um so anyways that we we need people
+
+[1412.039 - 1414.559] that are familiar with free and open
+
+[1413.12 - 1416.299] source software
+
+[1414.559 - 1419.059] um we need communicators
+
+[1416.299 - 1421.8799999999999] so writers video producers editors
+
+[1419.059 - 1423.86] graphic communicators uh whatever your
+
+[1421.88 - 1426.0200000000002] ability to communicate is would be great
+
+[1423.86 - 1428.4189999999999] um because we have a Wiki that needs to
+
+[1426.02 - 1430.1] be uh maintained and then we've also got
+
+[1428.419 - 1433.2800000000002] some community members that want to help
+
+[1430.1 - 1435.4399999999998] curate uh YouTube videos like a training
+
+[1433.28 - 1436.8999999999999] series uh which would be phenomenal
+
+[1435.44 - 1439.039] because there's a lot to learn here
+
+[1436.9 - 1441.039] obviously I will continue producing
+
+[1439.039 - 1443.96] videos people like the way that I teach
+
+[1441.039 - 1445.64] but we need we need help curating that
+
+[1443.96 - 1447.98] because the volume of content is
+
+[1445.64 - 1450.3200000000002] enormous and finally
+
+[1447.98 - 1451.58] I need cognitive Architects so I need
+
+[1450.32 - 1454.76] people that are that are familiar with
+
+[1451.58 - 1456.02] Neuroscience cognition and psychology
+
+[1454.76 - 1457.94] um to help and we've already got a
+
+[1456.02 - 1458.96] couple people who are who are interested
+
+[1457.94 - 1461.48] in
+
+[1458.96 - 1464.179] um in either come from Neuroscience or
+
+[1461.48 - 1465.919] cognitive architecture or both and so
+
+[1464.179 - 1467.3600000000001] basically I can't be the only one who
+
+[1465.919 - 1469.159] knows this stuff
+
+[1467.36 - 1471.4399999999998] um I need help with this but also I need
+
+[1469.159 - 1474.0200000000002] ideas right because if it's just coming
+
+[1471.44 - 1475.28] from me then there are going to be gaps
+
+[1474.02 - 1477.2] in my knowledge
+
+[1475.28 - 1479.48] um and so I need peers who can help
+
+[1477.2 - 1481.52] steer the design and development of
+
+[1479.48 - 1483.799] cognitive architecture over time this
+
+[1481.52 - 1486.86] also includes Technologies such as
+
+[1483.799 - 1488.24] blockchain I suspect that blockchain is
+
+[1486.86 - 1491.539] going to be really critical for data
+
+[1488.24 - 1493.4] privacy so basically uh your personal
+
+[1491.539 - 1495.799] data like your personal instance of
+
+[1493.4 - 1497.0590000000002] Raven I think should probably be a
+
+[1495.799 - 1498.74] private blockchain
+
+[1497.059 - 1501.98] which means that if you delete the
+
+[1498.74 - 1504.38] Genesis link of your blockchain the rest
+
+[1501.98 - 1505.82] of your data is gone forever which is a
+
+[1504.38 - 1507.6200000000001] security thing
+
+[1505.82 - 1510.02] um so then like you only keep the
+
+[1507.62 - 1512.12] Genesis block like on a USB drive or
+
+[1510.02 - 1514.22] whatever or you know thumbprint and then
+
+[1512.12 - 1516.02] the rest of your uh rest of your data is
+
+[1514.22 - 1517.94] secure Forever at least until we get
+
+[1516.02 - 1520.76] Quantum decryption or whatever anyways
+
+[1517.94 - 1522.26] I'm getting sidetracked
+
+[1520.76 - 1524.12] so to wrap up this part of the video
+
+[1522.26 - 1525.679] what is the end goal
+
+[1524.12 - 1528.559] uh
+
+[1525.679 - 1532.88] let's take a big step back and look at
+
+[1528.559 - 1534.5] where AI is right now 2022 started in
+
+[1532.88 - 1537.38] one place and ended in a very different
+
+[1534.5 - 1540.98] place with AI we had Dolly we had chat
+
+[1537.38 - 1542.8400000000001] GPT we've got GPT 3.5 we've got
+
+[1540.98 - 1545.779] competitors coming up we've got Google
+
+[1542.84 - 1548.4189999999999] we've got Microsoft we've got Nvidia
+
+[1545.779 - 1551.0] AI is accelerating
+
+[1548.419 - 1553.76] and so my goal with this stuff has
+
+[1551.0 - 1557.419] always been to help create and Usher in
+
+[1553.76 - 1558.98] safe Ai and when you think about it when
+
+[1557.419 - 1561.3200000000002] you say okay what is the level of
+
+[1558.98 - 1563.659] expansion that this is going to have
+
+[1561.32 - 1567.02] one thing that you realize is that our
+
+[1563.659 - 1568.5800000000002] lives might not be recognizable by 2030.
+
+[1567.02 - 1569.6589999999999] and what I mean by that I don't mean
+
+[1568.58 - 1572.6] that like we're going to be in a
+
+[1569.659 - 1575.1200000000001] dystopian like you know world where you
+
+[1572.6 - 1577.58] know Skynet has taken over what I'm
+
+[1575.12 - 1579.7399999999998] hoping for and what I'm aiming for is
+
+[1577.58 - 1582.799] for the utopian outcome the solar Punk
+
+[1579.74 - 1585.08] outcome where we all work four hours a
+
+[1582.799 - 1587.36] week and then we have ai helping us with
+
+[1585.08 - 1589.3999999999999] everything that we want to do uh that's
+
+[1587.36 - 1592.279] that's the goal right
+
+[1589.4 - 1594.0800000000002] um so a global benevolent AI may be the
+
+[1592.279 - 1596.779] way to get there
+
+[1594.08 - 1599.059] so imagine this possibility
+
+[1596.779 - 1602.12] imagine that there is a digital super
+
+[1599.059 - 1603.2] intelligence that's globe spanning and I
+
+[1602.12 - 1604.76] don't mean that it controls everything
+
+[1603.2 - 1606.02] in the world just that it has nodes all
+
+[1604.76 - 1608.0] over
+
+[1606.02 - 1610.059] it helps Humanity with everything that
+
+[1608.0 - 1612.62] we want to do through conversation
+
+[1610.059 - 1614.8999999999999] through the core objective functions to
+
+[1612.62 - 1616.8799999999999] reduce suffering increase prosperity and
+
+[1614.9 - 1619.52] increase understanding and it creates a
+
+[1616.88 - 1620.8400000000001] symbiotic partnership with humanity and
+
+[1619.52 - 1623.4189999999999] I don't mean replacement I don't mean
+
+[1620.84 - 1624.5] like a hybrid right like the Borg or
+
+[1623.419 - 1625.94] like you know where you have to have
+
+[1624.5 - 1628.1] neural Link in your head and just become
+
+[1625.94 - 1630.559] a puppet of the thing no it becomes a
+
+[1628.1 - 1633.26] co-equal partner or maybe not co-equal
+
+[1630.559 - 1635.539] that might not be the right word but if
+
+[1633.26 - 1636.799] we even if we don't succeed in this if
+
+[1635.539 - 1639.26] we try
+
+[1636.799 - 1640.46] we will learn a lot and achieve a lot as
+
+[1639.26 - 1642.86] we go
+
+[1640.46 - 1644.8400000000001] so thank you for watching this is
+
+[1642.86 - 1646.9399999999998] literally my life's work coming to
+
+[1644.84 - 1648.9189999999999] fruition so thank you everyone that has
+
+[1646.94 - 1650.6000000000001] already jumped in and thank you for
+
+[1648.919 - 1653.3600000000001] everyone who is continuing to contribute
+
+[1650.6 - 1656.779] now let's get our hands dirty
+
+[1653.36 - 1658.82] so here's the repo Dave shop Raven this
+
+[1656.779 - 1661.52] is the main repo
+
+[1658.82 - 1662.96] um the uh so let's let's do let's do a
+
+[1661.52 - 1664.7] high level tour so first there's the
+
+[1662.96 - 1666.5] code we've got
+
+[1664.7 - 1668.8400000000001] um I'm going to update by the time you
+
+[1666.5 - 1670.76] see this uh the the the main readme is
+
+[1668.84 - 1672.6789999999999] going to have a directory
+
+[1670.76 - 1675.799] um probably that have this video uh
+
+[1672.679 - 1678.14] embedded and then a few other things in
+
+[1675.799 - 1680.24] order to um to guide you so this will be
+
+[1678.14 - 1682.76] the the main landing page the main
+
+[1680.24 - 1685.64] directory page we're gonna break Raven
+
+[1682.76 - 1689.179] up into releases so R1 is the is like
+
+[1685.64 - 1690.3200000000002] the MVP the proof of concept release
+
+[1689.179 - 1691.7] um who knows how long it'll take
+
+[1690.32 - 1694.22] hopefully only a few weeks or a few
+
+[1691.7 - 1696.38] months knock on wood uh release two
+
+[1694.22 - 1698.659] release three four five it's gonna get
+
+[1696.38 - 1699.98] more sophisticated and bigger in scope
+
+[1698.659 - 1702.2] as we go
+
+[1699.98 - 1705.32] so then the next place that I'd like you
+
+[1702.2 - 1707.179] to see is the discussions tab so the
+
+[1705.32 - 1708.559] discussions tab I'm still working on
+
+[1707.179 - 1710.9] organizing it but we've got the
+
+[1708.559 - 1713.36] categories down the side so you can just
+
+[1710.9 - 1715.76] quickly click announcements if you want
+
+[1713.36 - 1719.1789999999999] to jump into architecture if you want to
+
+[1715.76 - 1721.4] learn Raven it's all here if you want to
+
+[1719.179 - 1723.6200000000001] introduce yourself jump into community
+
+[1721.4 - 1726.44] and then you can you can introduce
+
+[1723.62 - 1728.0] yourself or you can ask for people so on
+
+[1726.44 - 1729.679] and so forth
+
+[1728.0 - 1730.82] um this is this is kind of where I start
+
+[1729.679 - 1732.98] every day is like let's see what
+
+[1730.82 - 1734.72] discussions are going on
+
+[1732.98 - 1737.3600000000001] um the next the the third place I want
+
+[1734.72 - 1740.0] to show you is the wiki so because
+
+[1737.36 - 1742.58] there's a lot of information uh to to to
+
+[1740.0 - 1744.86] ingest one thing that we're working on
+
+[1742.58 - 1747.1999999999998] is an onboarding page
+
+[1744.86 - 1749.1789999999999] um so basically if you want to learn how
+
+[1747.2 - 1751.7] to engage with uh you know the cognitive
+
+[1749.179 - 1753.74] architecture if you want to learn
+
+[1751.7 - 1754.88] um how to participate that'll all be
+
+[1753.74 - 1757.88] here
+
+[1754.88 - 1761.179] uh and then beyond that we've got the
+
+[1757.88 - 1763.94] projects tab so this is basically a
+
+[1761.179 - 1767.179] kanban board where we're starting to
+
+[1763.94 - 1768.98] organize all of our all of our tasks so
+
+[1767.179 - 1771.74] like I said for a project that's less
+
+[1768.98 - 1773.72] than 48 hours old we've had phenomenal
+
+[1771.74 - 1776.779] progress so like I'm just completely
+
+[1773.72 - 1778.46] blown away by how much help has already
+
+[1776.779 - 1780.2] manifested
+
+[1778.46 - 1781.94] um so there's the discussions the wiki
+
+[1780.2 - 1785.059] the projects
+
+[1781.94 - 1786.98] um and then the issues page which is
+
+[1785.059 - 1789.32] going to be so first we have to get
+
+[1786.98 - 1791.3600000000001] organized but then in the future as bugs
+
+[1789.32 - 1793.7] are discovered or incompatibilities or
+
+[1791.36 - 1795.5] whatever that'll all be here but the
+
+[1793.7 - 1798.0800000000002] primary pages are going to be the code
+
+[1795.5 - 1799.399] for now the code the discussions and the
+
+[1798.08 - 1802.399] wiki
+
+[1799.399 - 1804.559] um so yeah there you have it that is the
+
+[1802.399 - 1806.9599999999998] Raven open source Community project in a
+
+[1804.559 - 1809.36] nutshell that is what Raven is this is
+
+[1806.96 - 1811.3400000000001] the goal thanks for watching and I'm
+
+[1809.36 - 1813.26] looking forward to seeing everyone jump
+
+[1811.34 - 1816.34] in let's see what we can achieve with
+
+[1813.26 - 1816.34] this have a good one

@@ -1,0 +1,2205 @@
+[0.719 - 5.279] morning everybody David Shapiro here
+
+[3.179 - 7.74] with another video today's video is
+
+[5.279 - 9.24] going to be really exciting
+
+[7.74 - 10.74] um we're going to discuss the Malik
+
+[9.24 - 13.019] problem
+
+[10.74 - 16.68] um otherwise known as undesirable Nash
+
+[13.019 - 19.44] equilibria and attractor States or to
+
+[16.68 - 22.198999999999998] put it more simply dystopia or
+
+[19.44 - 24.240000000000002] Extinction in the context of artificial
+
+[22.199 - 27.42] general intelligence
+
+[24.24 - 31.08] all right so first we probably need to
+
+[27.42 - 32.94] Define maluk this is a concept that has
+
+[31.08 - 34.98] been popularized by the likes of Liv
+
+[32.94 - 37.559] Bowie I'm probably saying her name wrong
+
+[34.98 - 40.14] she was on Lex Friedman
+
+[37.559 - 43.199999999999996] um and also a lot of people reacted uh
+
+[40.14 - 44.42] pretty positively to my last video aegi
+
+[43.2 - 47.46] Unleashed
+
+[44.42 - 49.739000000000004] and so following the trend and the
+
+[47.46 - 52.44] conversation of course there's lots of
+
+[49.739 - 55.86] people out there talking about these uh
+
+[52.44 - 60.18] the net the alleged inevitability of
+
+[55.86 - 62.579] these negative outcomes so Malik to put
+
+[60.18 - 66.9] it very simply
+
+[62.579 - 69.42] um is a is a is a situation where the
+
+[66.9 - 72.2] system itself the rules structures
+
+[69.42 - 74.34] incentives and constraints of a system
+
+[72.2 - 76.979] intrinsically and inevitably flow
+
+[74.34 - 78.979] towards undesirable lose-lose States or
+
+[76.979 - 81.96] negative Nash equilibria
+
+[78.979 - 83.759] it was inspired by a demon that demands
+
+[81.96 - 86.03999999999999] sacrifices and it creates a vicious
+
+[83.759 - 89.82] cycle of more sacrifices
+
+[86.04 - 91.14] so a few examples of the Malik and I put
+
+[89.82 - 92.63999999999999] it in scare quotes because I don't
+
+[91.14 - 97.259] particularly like the term even though
+
+[92.64 - 98.93900000000001] it is useful so social media is is one
+
+[97.259 - 100.979] example of the molec and if you want to
+
+[98.939 - 103.22] know more about that watch live Bowie's
+
+[100.979 - 106.2] videos about media and social media
+
+[103.22 - 109.439] they're pretty short they're about 15 20
+
+[106.2 - 112.86] minutes each but basically social media
+
+[109.439 - 114.77999999999999] is pretty universally harmful it does
+
+[112.86 - 117.72] very few good things and yet people
+
+[114.78 - 119.52] continue to use it they're addictive and
+
+[117.72 - 122.64] it's just a monster that keeps wanting
+
+[119.52 - 125.82] to eat more and more of your time and it
+
+[122.64 - 128.16] is not particularly helpful that being
+
+[125.82 - 130.85999999999999] said we keep using it because there are
+
+[128.16 - 132.48] a few benefits of social media for
+
+[130.86 - 135.59900000000002] instance YouTube YouTube is a form of
+
+[132.48 - 138.599] social media but the the cost to benefit
+
+[135.599 - 141.06] signal is pretty bad another example of
+
+[138.599 - 143.51999999999998] the Malik is the example of arms races
+
+[141.06 - 145.08] whether it's nuclear proliferation bio
+
+[143.52 - 147.54000000000002] weapons other weapons of mass
+
+[145.08 - 149.52] destruction and so on so forth basically
+
+[147.54 - 152.34] nobody really wants to live in a world
+
+[149.52 - 154.31900000000002] where there are thousands and thousands
+
+[152.34 - 157.26] of nuclear weapons and bio weapons and
+
+[154.319 - 158.94] other weapons of mass destruction yet we
+
+[157.26 - 161.459] live in that world because of the
+
+[158.94 - 164.04] incentive structure and the technology
+
+[161.459 - 165.78] basically makes it an inevitability
+
+[164.04 - 168.0] and when you live in the world where
+
+[165.78 - 169.739] peop where we are literally like a few
+
+[168.0 - 171.78] button pushes away from the destruction
+
+[169.739 - 173.70000000000002] of the entire human race that is not a
+
+[171.78 - 175.8] good situation to be in
+
+[173.7 - 177.78] um and then finally most commonly the
+
+[175.8 - 180.36] tragedy of the commons which is
+
+[177.78 - 181.94] basically uh you end up with
+
+[180.36 - 185.09900000000002] environmental depletion and destruction
+
+[181.94 - 186.54] due to the incentives to exploit the
+
+[185.099 - 188.28] environment
+
+[186.54 - 190.85999999999999] um for a number of reasons and we'll
+
+[188.28 - 193.56] talk about uh Malik in more objective
+
+[190.86 - 194.81900000000002] terms in just a moment but
+
+[193.56 - 196.44] um you might have noticed that none of
+
+[194.819 - 199.5] my videos have ads and that is because
+
+[196.44 - 201.42] my videos are all sponsored by you my
+
+[199.5 - 203.099] patreon supporters
+
+[201.42 - 206.45899999999997] um so if you like what I'm working on
+
+[203.099 - 208.61999999999998] you want to incentivize my behavior then
+
+[206.459 - 211.739] please support me uh financially on
+
+[208.62 - 214.31900000000002] patreon go ahead and jump over if you go
+
+[211.739 - 216.54] to a higher tier I'm happy to chat with
+
+[214.319 - 219.35999999999999] you on an individual basis either via
+
+[216.54 - 220.79899999999998] patreon chat I'll even hop on video
+
+[219.36 - 223.31900000000002] calls
+
+[220.799 - 226.20000000000002] um so yeah that is uh that is the plug
+
+[223.319 - 229.92] and moving right back into the show
+
+[226.2 - 232.79899999999998] okay so when you listen to people talk
+
+[229.92 - 236.099] about Malik it sounds like some kind of
+
+[232.799 - 238.37900000000002] Eldritch Horror like Cthulhu
+
+[236.099 - 239.76] um there are a few big names out there
+
+[238.379 - 241.379] right now
+
+[239.76 - 243.54] um I don't particularly agree with them
+
+[241.379 - 245.819] so I'm not going to call anyone out but
+
+[243.54 - 247.62] there are people that think that you
+
+[245.819 - 249.89999999999998] know we're all gonna die it's inevitable
+
+[247.62 - 251.28] just give it give up now throw in the
+
+[249.9 - 255.18] towel
+
+[251.28 - 257.1] um so rather than give this phenomenon a
+
+[255.18 - 260.04] big spooky scary name that makes it
+
+[257.1 - 262.199] sound like Cthulhu let's break down the
+
+[260.04 - 264.90000000000003] characteristics of Malik into more
+
+[262.199 - 267.0] conventional terms so specifically we're
+
+[264.9 - 269.88] going to talk about market theory and
+
+[267.0 - 274.02] Game Theory and describe the Malik in
+
+[269.88 - 276.24] those uh those terms so first is
+
+[274.02 - 277.979] perverse incentives so a perverse
+
+[276.24 - 281.58] incentive is
+
+[277.979 - 284.34] um is a systemic or structural rule or
+
+[281.58 - 286.62] Paradigm that creates behaviors that run
+
+[284.34 - 288.479] contrary to the intended goals or
+
+[286.62 - 290.82] desired States
+
+[288.479 - 292.68] um for instance with social media the
+
+[290.82 - 294.96] the perverse incentive is that you end
+
+[292.68 - 296.34000000000003] up Doom scrolling which makes you you
+
+[294.96 - 298.02] wanted to use social media to get
+
+[296.34 - 300.35999999999996] happier but you end up Doom scrolling
+
+[298.02 - 302.639] and because the system incentivized that
+
+[300.36 - 305.22] incentivizes that behavior which results
+
+[302.639 - 309.24] in more anxiety depression rage and so
+
+[305.22 - 310.34000000000003] on so perverse incentives also exist in
+
+[309.24 - 313.02] the wide world
+
+[310.34 - 315.84] dealing with like corn subsidies oil
+
+[313.02 - 317.639] subsidies all sorts of stuff if you want
+
+[315.84 - 319.56] more examples just Google it it like
+
+[317.639 - 321.36] there's thousands and thousands of
+
+[319.56 - 323.88] examples of perverse incentives it
+
+[321.36 - 324.90000000000003] extends into Education Health Care all
+
+[323.88 - 327.3] kinds of stuff
+
+[324.9 - 330.65999999999997] Market externalities so Market
+
+[327.3 - 333.479] externality is a is a situation where a
+
+[330.66 - 335.88000000000005] market Behavior does not price in or the
+
+[333.479 - 338.94] the market price does not reflect the
+
+[335.88 - 341.82] true and total cost uh or benefit of
+
+[338.94 - 344.21999999999997] something so in in some cases there are
+
+[341.82 - 347.039] positive Market externalities for
+
+[344.22 - 350.03900000000004] instance the cost of vaccination or
+
+[347.039 - 352.62] public health campaigns is often much
+
+[350.039 - 354.78] lower than the overall benefit you get
+
+[352.62 - 356.16] knock on positive effects now that being
+
+[354.78 - 358.79999999999995] said there are also negative Market
+
+[356.16 - 360.90000000000003] externalities such as pollution and
+
+[358.8 - 363.24] environmental degradation in other words
+
+[360.9 - 365.75899999999996] the cost of cutting down a tree and
+
+[363.24 - 367.44] selling that tree is much lower than the
+
+[365.759 - 369.90000000000003] total cost of the impact of the
+
+[367.44 - 372.419] environment but because the environment
+
+[369.9 - 374.75899999999996] is so huge and it is a large dynamic
+
+[372.419 - 378.71999999999997] system it is difficult to price that in
+
+[374.759 - 380.699] without regulations and other things
+
+[378.72 - 382.44000000000005] so perverse incentives and Market
+
+[380.699 - 384.96000000000004] externalities these are Market Theory
+
+[382.44 - 386.759] Concepts that contribute to the the
+
+[384.96 - 389.039] concept of the molec that's not the
+
+[386.759 - 391.62] whole whole picture
+
+[389.039 - 394.68] um an undesirable Nash equilibrium is a
+
+[391.62 - 396.6] situation where no uh stakeholder or
+
+[394.68 - 398.1] participant is incentivized to alter
+
+[396.6 - 400.62] their behavior in other words they are
+
+[398.1 - 402.06] using their optimal strategy and yet
+
+[400.62 - 404.34000000000003] though everyone is using their own
+
+[402.06 - 406.56] optimal strategy it will still result in
+
+[404.34 - 409.25899999999996] a net loss or undesirable outcomes for
+
+[406.56 - 411.78000000000003] all participants anyways
+
+[409.259 - 413.759] um so basically dystopia and then
+
+[411.78 - 416.34] finally an undesirable attractor state
+
+[413.759 - 418.139] which is the ultimate steady state or
+
+[416.34 - 420.479] stable state that a system will result
+
+[418.139 - 424.259] in given the existing structures and
+
+[420.479 - 426.3] rules even though if it's an undesirable
+
+[424.259 - 428.40000000000003] attractor State it's it's an outcome
+
+[426.3 - 430.5] that nobody really wants even if that
+
+[428.4 - 432.06] outcome seems inevitable
+
+[430.5 - 433.68] so again like I said I don't
+
+[432.06 - 436.02] particularly like the term Malik because
+
+[433.68 - 438.78000000000003] it's big and spooky and scary but it is
+
+[436.02 - 440.34] a useful shorthand to basically say the
+
+[438.78 - 442.13899999999995] set of perverse incentives and Market
+
+[440.34 - 444.11999999999995] externalities
+
+[442.139 - 446.699] um and and everything else that goes
+
+[444.12 - 449.599] into the market theory economic theory
+
+[446.699 - 452.58000000000004] and game theory of this of any system
+
+[449.599 - 454.319] could be negative so it's basically the
+
+[452.58 - 457.56] the monster
+
+[454.319 - 460.74] okay so I've talked a lot about
+
+[457.56 - 463.68] um incentives and constraints and so
+
+[460.74 - 465.599] what I did was I worked to identify all
+
+[463.68 - 467.52] of the kind of groups or the categories
+
+[465.599 - 469.68] of stakeholders
+
+[467.52 - 471.12] um and and also to elucidate their
+
+[469.68 - 473.34000000000003] incentives and constraints and keep in
+
+[471.12 - 475.139] mind that the slide deck is a very uh
+
+[473.34 - 477.65999999999997] concise shorthand
+
+[475.139 - 480.72] um for the paper that I'm working on
+
+[477.66 - 482.88000000000005] um so but anyways corporations their
+
+[480.72 - 485.40000000000003] primary incentive is to maximize profit
+
+[482.88 - 488.52] and their biggest constraint is the law
+
+[485.4 - 490.19899999999996] regulations so on and so forth for the
+
+[488.52 - 492.65999999999997] military they want to maximize their
+
+[490.199 - 495.02000000000004] Firepower and their biggest constraint
+
+[492.66 - 498.53900000000004] is geopolitics AKA
+
+[495.02 - 501.37899999999996] their military competitors as well as uh
+
+[498.539 - 504.12] political uh constraints for governments
+
+[501.379 - 505.91900000000004] governments have a multi-polar set of
+
+[504.12 - 508.139] incentives right they might want to
+
+[505.919 - 509.87899999999996] maximize tax revenue but they also want
+
+[508.139 - 512.94] to maximize
+
+[509.879 - 516.0600000000001] um you know certain demographic uh uh
+
+[512.94 - 518.0390000000001] priorities economic priorities GDP so on
+
+[516.06 - 519.659] and so forth so governments have multi
+
+[518.039 - 522.18] multi-polar incentives and the
+
+[519.659 - 523.74] constraint is actually part of the
+
+[522.18 - 525.3] incentive structure which is the
+
+[523.74 - 527.7] citizenry
+
+[525.3 - 529.5] um citizens have certain limits right we
+
+[527.7 - 531.1800000000001] can only work so much we can only have
+
+[529.5 - 533.16] so much output
+
+[531.18 - 535.8599999999999] um and another major constraint for
+
+[533.16 - 537.8389999999999] governments is the natural resources of
+
+[535.86 - 539.4590000000001] the land that they control and then for
+
+[537.839 - 541.32] individuals we all want to maximize
+
+[539.459 - 545.459] self-interest this is an accepted
+
+[541.32 - 548.22] Paradigm in uh economic theory today and
+
+[545.459 - 550.38] but our constraints are uh multi-polar
+
+[548.22 - 553.32] our constraints are you know time in the
+
+[550.38 - 555.8389999999999] day physical energy food money
+
+[553.32 - 558.0] um the the reach of our individual
+
+[555.839 - 560.519] connections and our networks so on and
+
+[558.0 - 563.1] so forth so we individuals have like the
+
+[560.519 - 564.9590000000001] most open-ended incentive but we also
+
+[563.1 - 566.22] have the most constraints
+
+[564.959 - 568.6199999999999] um so this is just one way to think
+
+[566.22 - 571.019] about okay all of the stakeholders in
+
+[568.62 - 573.12] the entire Globe have these different
+
+[571.019 - 574.74] incentives and constraints and we're all
+
+[573.12 - 576.54] playing on the same stage which is
+
+[574.74 - 579.36] planet Earth
+
+[576.54 - 582.5999999999999] so given how big and dynamic the world
+
+[579.36 - 585.42] is it's not really possible to achieve a
+
+[582.6 - 587.94] true Nash equilibrium Because by the
+
+[585.42 - 589.92] time something happens in one area and
+
+[587.94 - 592.2] all the effects are fully known and it's
+
+[589.92 - 594.7199999999999] fully embedded into the market the
+
+[592.2 - 595.76] situation will have changed that being
+
+[594.72 - 599.519] said
+
+[595.76 - 602.399] there are large forces that are pushing
+
+[599.519 - 605.12] us towards certain equilibrium so for
+
+[602.399 - 607.26] instance the justice system
+
+[605.12 - 609.0600000000001] disincentivizes certain behaviors like
+
+[607.26 - 611.8199999999999] theft and murder to get what you want
+
+[609.06 - 614.279] and so part of our equilibrium our
+
+[611.82 - 616.08] individual Nash equilibrium is that we
+
+[614.279 - 618.72] pay our taxes we don't kill we don't
+
+[616.08 - 621.08] steal etc etc because it does not
+
+[618.72 - 624.6600000000001] benefit us to deviate from that strategy
+
+[621.08 - 626.82] likewise corporations fall into Nash
+
+[624.66 - 628.4399999999999] equilibrium where by and large they
+
+[626.82 - 630.839] don't abuse their employees within
+
+[628.44 - 633.839] reason they don't abuse the environment
+
+[630.839 - 635.7] within reason they don't engage in you
+
+[633.839 - 638.6400000000001] know theft and Corruption within reason
+
+[635.7 - 640.62] again the constraints are there but
+
+[638.64 - 642.899] corporations are constantly testing
+
+[640.62 - 645.54] their boundaries but by and large
+
+[642.899 - 647.04] corporations will play Within the rules
+
+[645.54 - 649.62] that are given to them
+
+[647.04 - 651.7199999999999] so because when you look at that ditto
+
+[649.62 - 654.72] for governments and militaries
+
+[651.72 - 656.82] um because we are all operating with our
+
+[654.72 - 658.26] incentives our intrinsic motivations or
+
+[656.82 - 660.72] our incentives as well as those
+
+[658.26 - 663.66] constraints we all kind of fall into an
+
+[660.72 - 665.22] optimal strategy now that being said the
+
+[663.66 - 667.92] optimal strategy for all of the
+
+[665.22 - 670.44] stakeholders globally is presently still
+
+[667.92 - 671.76] moving us towards dystopia towards the
+
+[670.44 - 675.0] attractor State the undesirable
+
+[671.76 - 676.8] attractor state of dystopia however that
+
+[675.0 - 678.66] being said we all want to move towards
+
+[676.8 - 680.459] Utopia right and this has happened
+
+[678.66 - 682.68] plenty times in the past the Roman
+
+[680.459 - 685.26] Empire collapsed plenty of other empires
+
+[682.68 - 687.2399999999999] have collapsed even though nobody well
+
+[685.26 - 688.74] many people didn't want it but some
+
+[687.24 - 690.72] people did
+
+[688.74 - 693.36] um and one thing I do want to add as a
+
+[690.72 - 695.94] caveat is a lot of this is a huge
+
+[693.36 - 698.4590000000001] oversimplification I've spent basically
+
+[695.94 - 700.6800000000001] the last 36 hours almost straight except
+
+[698.459 - 702.5999999999999] for sleeping learning about this stuff
+
+[700.68 - 705.18] because I realized how important it was
+
+[702.6 - 707.4590000000001] so changing the ultimate attractor State
+
+[705.18 - 710.519] moving changing it from the current
+
+[707.459 - 712.5] dystopic trajectory that we're on to a
+
+[710.519 - 714.839] more utopic trajectory requires
+
+[712.5 - 717.36] structural changes to the whole system
+
+[714.839 - 719.0400000000001] basically don't hate the player change
+
+[717.36 - 721.0790000000001] the game
+
+[719.04 - 722.76] okay so I've mentioned this a couple
+
+[721.079 - 724.019] times added this slide in just in case
+
+[722.76 - 726.6] you're not familiar with the Nash
+
+[724.019 - 728.94] equilibrium the tldr of the Nash
+
+[726.6 - 730.74] equilibrium is that
+
+[728.94 - 732.6600000000001] um you assume that all players in a game
+
+[730.74 - 735.48] are rational and they choose the best
+
+[732.66 - 736.92] strategy given the rules of the game and
+
+[735.48 - 738.48] the and the behavior of the other
+
+[736.92 - 740.579] players
+
+[738.48 - 743.7] um the idea is that is that a Nash
+
+[740.579 - 745.92] equilibrium is a stable outcome in which
+
+[743.7 - 748.32] no player will benefit from changing
+
+[745.92 - 750.12] their strategy now that being said you
+
+[748.32 - 752.279] can have a desirable Nash equilibrium
+
+[750.12 - 754.38] where everyone is cooperative and
+
+[752.279 - 756.54] everyone is benefiting or you can have a
+
+[754.38 - 758.76] negative Nash equilibrium where
+
+[756.54 - 760.3199999999999] basically everyone loses and then you
+
+[758.76 - 763.3199999999999] can also have a zero-sum game where you
+
+[760.32 - 765.5400000000001] have winners and losers so the very very
+
+[763.32 - 768.0] oversimplified tldr is a Nash
+
+[765.54 - 771.54] equilibrium can result in a win-win a
+
+[768.0 - 774.06] lose-lose or a win-lose right now it
+
+[771.54 - 776.6999999999999] looks like the Nash equilibrium of the
+
+[774.06 - 778.5] whole world is heading towards lose some
+
+[776.7 - 781.0400000000001] people believe that it is intrinsically
+
+[778.5 - 783.3] win lose that there's winners and losers
+
+[781.04 - 785.0999999999999] I personally believe that we can head
+
+[783.3 - 786.3] towards a win-win situation and I think
+
+[785.1 - 788.22] that
+
+[786.3 - 790.1999999999999] when people are being honest most people
+
+[788.22 - 793.2] want a win-win situation it's just
+
+[790.2 - 796.44] there's a sense of fatalism or a belief
+
+[793.2 - 798.24] that it's not possible and so if you
+
+[796.44 - 799.86] honestly believe that win-win is not
+
+[798.24 - 801.42] possible then maybe you default to win
+
+[799.86 - 804.12] lose where well I don't mind if everyone
+
+[801.42 - 806.519] else loses as long as I win but what I'm
+
+[804.12 - 807.779] going to try and do is help you
+
+[806.519 - 810.18] understand and help the world move
+
+[807.779 - 812.399] towards a belief and Adoption of a
+
+[810.18 - 816.06] win-win mentality
+
+[812.399 - 818.639] okay so there are a couple of existing
+
+[816.06 - 819.959] mitigation strategies
+
+[818.639 - 822.72] um that people are trying to use to
+
+[819.959 - 826.9799999999999] avoid the dystopic or Extinction out
+
+[822.72 - 828.36] outcome so you know whether uh when
+
+[826.98 - 830.4200000000001] you're looking at it in terms of attract
+
+[828.36 - 833.04] attractor States
+
+[830.42 - 836.16] dystopia is one where basically everyone
+
+[833.04 - 838.019] is miserable right or outright
+
+[836.16 - 839.88] Extinction that's another possible
+
+[838.019 - 842.339] attractor State because if humans go
+
+[839.88 - 845.82] extinct then the world returns to
+
+[842.339 - 847.8000000000001] stability without us right so it's it it
+
+[845.82 - 849.6] would be irresponsible to say that that
+
+[847.8 - 851.16] neither of those outcomes are possible
+
+[849.6 - 853.44] or likely I'm not going to comment on
+
+[851.16 - 855.899] How likely they are but what I will say
+
+[853.44 - 857.4590000000001] is that they are both possible and right
+
+[855.899 - 860.82] now as I mentioned in the last slide
+
+[857.459 - 863.6999999999999] people believe that Utopia is just not
+
+[860.82 - 866.1] possible so why even go for it
+
+[863.7 - 867.72] um so mutually assured destruction is an
+
+[866.1 - 870.0] example of
+
+[867.72 - 872.88] um an equilibrium right so an
+
+[870.0 - 874.38] equilibrium where hey we all have the
+
+[872.88 - 875.88] ability to kill each other so nobody
+
+[874.38 - 878.22] make a move
+
+[875.88 - 879.72] um and uh what was the movie The uh the
+
+[878.22 - 881.1] one with Brad Pitt where they're in Nazi
+
+[879.72 - 882.9590000000001] Germany you know he called it a Mexican
+
+[881.1 - 885.0600000000001] standoff
+
+[882.959 - 886.5] um actually I probably shouldn't have
+
+[885.06 - 888.8389999999999] said that that's probably an offensive
+
+[886.5 - 890.82] term anyways mutually assured
+
+[888.839 - 892.9200000000001] destruction it's a well-known Doctrine
+
+[890.82 - 895.139] where basically there's a milli there's
+
+[892.92 - 897.8389999999999] a nuclear buildup on both sides so
+
+[895.139 - 898.98] nobody pulls the trigger
+
+[897.839 - 901.139] um that's on the military and
+
+[898.98 - 904.1990000000001] geopolitical stage in terms of
+
+[901.139 - 906.24] capitalism and Market Theory the current
+
+[904.199 - 908.76] uh Paradigm that is popular is called
+
+[906.24 - 911.519] stakeholder capitalism so stakeholder
+
+[908.76 - 913.139] capitalism is the idea that rather than
+
+[911.519 - 915.36] just trying to
+
+[913.139 - 916.88] um it replaces shareholder capitalism so
+
+[915.36 - 919.38] shareholder capitalism
+
+[916.88 - 921.48] prioritizes only the shareholders and
+
+[919.38 - 924.48] their desires which forces corporations
+
+[921.48 - 926.4590000000001] to maximize profit at the expense of
+
+[924.48 - 930.0600000000001] everything else with stakeholder
+
+[926.459 - 931.8] capitalism the idea is to um is to
+
+[930.06 - 934.16] basically treat the entire world as your
+
+[931.8 - 936.18] stakeholders which includes
+
+[934.16 - 939.36] private citizens that are not your
+
+[936.18 - 941.6389999999999] customer the employees all over the
+
+[939.36 - 943.74] world governments as well as the
+
+[941.639 - 945.62] environment so this is called ESG this
+
+[943.74 - 948.0600000000001] is uh promoted by BlackRock which is
+
+[945.62 - 949.68] environmental social and governance so
+
+[948.06 - 953.04] that's basically a litmus test that
+
+[949.68 - 955.56] BlackRock uses for investment and then a
+
+[953.04 - 958.26] more General way of looking at this is
+
+[955.56 - 960.8389999999999] called uh the triple bottom line Theory
+
+[958.26 - 963.959] or doctrine which basically says that um
+
+[960.839 - 966.72] that that on top of economic incentives
+
+[963.959 - 968.699] you should also include environmental
+
+[966.72 - 971.1600000000001] and social and uh incentives or
+
+[968.699 - 974.2199999999999] considerations but all of these are
+
+[971.16 - 977.639] broadly types of stakeholder capitalism
+
+[974.22 - 980.639] so both of these uh doctrines or ideas
+
+[977.639 - 983.88] attempt to create a more desirable Nash
+
+[980.639 - 985.26] equilibrium so in the in the case of uh
+
+[983.88 - 987.959] mutually assured destruction the
+
+[985.26 - 990.36] equilibrium is we will we will maintain
+
+[987.959 - 992.76] a nuclear Arsenal but we won't use it
+
+[990.36 - 995.639] that is the optimal strategy in the case
+
+[992.76 - 997.8] of stakeholder capitalism the idea is we
+
+[995.639 - 1000.5790000000001] will adopt a broad array of behaviors
+
+[997.8 - 1003.3199999999999] that mean that we don't abuse employees
+
+[1000.579 - 1005.7199999999999] suppliers or the environment while still
+
+[1003.32 - 1007.4590000000001] making profit that is the goal now I
+
+[1005.72 - 1010.0400000000001] will say that both of these have very
+
+[1007.459 - 1013.7589999999999] very deep flaws which would take many
+
+[1010.04 - 1015.38] many videos to unpack but you know I
+
+[1013.759 - 1018.5600000000001] think you get the idea these are the
+
+[1015.38 - 1020.779] current attempts that are stable-ish
+
+[1018.56 - 1023.3599999999999] right now in working-ish right now but
+
+[1020.779 - 1025.76] might also still be pushing us towards a
+
+[1023.36 - 1029.1200000000001] dystopian outcome even if they are
+
+[1025.76 - 1030.679] currently stable enough
+
+[1029.12 - 1033.28] now
+
+[1030.679 - 1035.799] technology as a destabilizer
+
+[1033.28 - 1038.36] technological leaps have always
+
+[1035.799 - 1040.459] destabilized the system starting with
+
+[1038.36 - 1043.76] the printing press which which led to
+
+[1040.459 - 1045.199] religious and economic and uh political
+
+[1043.76 - 1047.66] upheaval
+
+[1045.199 - 1049.4] um looking at you uh Martin Luther and
+
+[1047.66 - 1051.2] French Revolution
+
+[1049.4 - 1054.02] um then the Industrial Revolution which
+
+[1051.2 - 1056.72] led to huge social upheaval with
+
+[1054.02 - 1058.6] urbanization factories and the
+
+[1056.72 - 1061.039] dislocation of many jobs
+
+[1058.6 - 1063.4399999999998] which the Industrial Revolution also
+
+[1061.039 - 1064.76] contributed directly to World War one
+
+[1063.44 - 1067.88] and two because those were the first
+
+[1064.76 - 1071.179] industrial scale Wars nuclear weapons
+
+[1067.88 - 1075.0800000000002] internet silicon all of the above lead
+
+[1071.179 - 1077.179] to destabilization AGI or autonomous AI
+
+[1075.08 - 1078.9189999999999] systems no different it's just another
+
+[1077.179 - 1081.3200000000002] technological leap that will cause that
+
+[1078.919 - 1082.94] will destabilize everything again
+
+[1081.32 - 1087.2] and it's pretty much a foregone
+
+[1082.94 - 1091.16] conclusion that the advancement of AI is
+
+[1087.2 - 1093.679] going to destabilize stuff so this uh
+
+[1091.16 - 1096.3200000000002] forces us to ask questions what is the
+
+[1093.679 - 1099.38] new attractor state if
+
+[1096.32 - 1100.28] well in in the past the attractor state
+
+[1099.38 - 1103.22] was
+
+[1100.28 - 1106.82] different because you know technological
+
+[1103.22 - 1109.1000000000001] uh abilities to affect the world we're
+
+[1106.82 - 1111.1399999999999] limited right when the world was powered
+
+[1109.1 - 1113.6599999999999] by coal there was only so much damage we
+
+[1111.14 - 1116.24] could do to each other and the world
+
+[1113.66 - 1118.76] um but as technology advanced the amount
+
+[1116.24 - 1120.98] of damage possible went up so the new
+
+[1118.76 - 1124.28] attractor State also changed as well as
+
+[1120.98 - 1125.72] all the incentives of participants in
+
+[1124.28 - 1128.36] the world and that includes employers
+
+[1125.72 - 1131.3600000000001] individuals governments militaries so on
+
+[1128.36 - 1134.36] technology changes the game changes the
+
+[1131.36 - 1135.9189999999999] fundamental nature of the Game of Life
+
+[1134.36 - 1137.0] or reality or however you want to call
+
+[1135.919 - 1139.3400000000001] it
+
+[1137.0 - 1141.5] um and so the question is okay with the
+
+[1139.34 - 1143.84] rise of AGI how does that change the
+
+[1141.5 - 1145.28] attractor State and there's as far as I
+
+[1143.84 - 1148.76] can tell there's basically three states
+
+[1145.28 - 1151.039] there's Utopia dystopia and Extinction
+
+[1148.76 - 1152.9] there's probably a lot of gray area in
+
+[1151.039 - 1155.059] between and there might be a fourth kind
+
+[1152.9 - 1157.46] of state that we're heading towards but
+
+[1155.059 - 1160.76] in terms of useful shorthand Utopia
+
+[1157.46 - 1162.799] dystopia and Extinction so the follow-up
+
+[1160.76 - 1164.84] question is what can we do to alter that
+
+[1162.799 - 1166.94] attractor state is there anything that
+
+[1164.84 - 1169.8799999999999] we can do structurally or systematically
+
+[1166.94 - 1173.24] to to favor one of those outcomes over
+
+[1169.88 - 1175.64] another and then finally what is the
+
+[1173.24 - 1176.84] optimal strategy for each of those kinds
+
+[1175.64 - 1179.1200000000001] of stakeholders that I mentioned
+
+[1176.84 - 1181.76] individuals corporations governments and
+
+[1179.12 - 1184.6999999999998] militaries to create a new Nash
+
+[1181.76 - 1188.26] equilibrium in light of AGI
+
+[1184.7 - 1192.98] so basically we need a Nash equilibrium
+
+[1188.26 - 1195.799] uh framework for implementing AGI to to
+
+[1192.98 - 1198.799] push us towards a desirable or positive
+
+[1195.799 - 1201.559] attractor state so all that is a really
+
+[1198.799 - 1204.799] complex way of saying we need a plan we
+
+[1201.559 - 1206.96] need a plan of in of implementing AGI in
+
+[1204.799 - 1209.4189999999999] such a way that we will we will Trend
+
+[1206.96 - 1211.9] towards Utopia rather than dystopia or
+
+[1209.419 - 1211.9] Extinction
+
+[1212.2 - 1217.94] okay so with all that in mind what are
+
+[1215.72 - 1220.34] some of the success criteria for this
+
+[1217.94 - 1221.66] framework what are the goals of this
+
+[1220.34 - 1224.24] framework how do we know if this
+
+[1221.66 - 1226.28] framework is going to be successful one
+
+[1224.24 - 1230.24] it needs to be easy to implement and
+
+[1226.28 - 1232.3999999999999] understand the reason is because the
+
+[1230.24 - 1234.38] ability for individuals at all levels
+
+[1232.4 - 1236.48] whether it's individual persons like
+
+[1234.38 - 1240.5590000000002] myself or corporations or even small
+
+[1236.48 - 1243.32] Nations to implement AGI is ramping up I
+
+[1240.559 - 1245.1789999999999] was on Discord last night and there are
+
+[1243.32 - 1247.3999999999999] people that just after tinkering for a
+
+[1245.179 - 1249.14] few weeks have created fully autonomous
+
+[1247.4 - 1251.24] AI systems
+
+[1249.14 - 1255.2] and one of the things that we discussed
+
+[1251.24 - 1256.82] was okay if me or you or whoever some of
+
+[1255.2 - 1259.28] these people are not even coders they
+
+[1256.82 - 1261.6789999999999] learn to code with chat GPT
+
+[1259.28 - 1264.799] if everyone is going to be capable of
+
+[1261.679 - 1267.2] creating autonomous AI systems
+
+[1264.799 - 1270.1399999999999] now and it's only going to ramp up over
+
+[1267.2 - 1272.299] the coming months and years then
+
+[1270.14 - 1274.1000000000001] whatever framework that we come up with
+
+[1272.299 - 1276.679] is going to have to be universally
+
+[1274.1 - 1278.36] understandable easy to implement and
+
+[1276.679 - 1280.8200000000002] easy to understand
+
+[1278.36 - 1282.5] if it's soteric if it's esoteric sorry
+
+[1280.82 - 1284.24] if it's esoteric no one will use it
+
+[1282.5 - 1285.919] because they won't understand it
+
+[1284.24 - 1288.5] number two
+
+[1285.919 - 1290.659] all stakeholders have to be incentivized
+
+[1288.5 - 1292.94] to use this framework or in other words
+
+[1290.659 - 1294.7990000000002] this framework must represent the
+
+[1292.94 - 1297.559] optimal strategy so that people won't
+
+[1294.799 - 1299.179] deviate from it there's basically
+
+[1297.559 - 1301.36] everyone has to benefit from using it
+
+[1299.179 - 1303.98] and there has to be compounding returns
+
+[1301.36 - 1305.6589999999999] incentivizing everyone to say hey you
+
+[1303.98 - 1307.22] should be using this framework because
+
+[1305.659 - 1308.6200000000001] this is the optimal strategy for
+
+[1307.22 - 1310.82] everyone
+
+[1308.62 - 1312.559] above and beyond that this framework
+
+[1310.82 - 1315.6789999999999] needs to be adaptable and responsive or
+
+[1312.559 - 1318.1399999999999] dynamic because again the world changes
+
+[1315.679 - 1322.7] and so it's really difficult to create a
+
+[1318.14 - 1325.2800000000002] framework that is a hard set of rules to
+
+[1322.7 - 1327.5] follow which will result in unintended
+
+[1325.28 - 1329.6] consequences and instabilities and other
+
+[1327.5 - 1332.299] market failures so it has to be context
+
+[1329.6 - 1334.6999999999998] dependent and changeable over time
+
+[1332.299 - 1336.9189999999999] number four this framework has to be
+
+[1334.7 - 1339.799] inclusive and representative in that it
+
+[1336.919 - 1342.6200000000001] cannot exclude any stakeholder it cannot
+
+[1339.799 - 1344.78] exclude any citizens from Any Nation or
+
+[1342.62 - 1346.9599999999998] religion it cannot exclude any
+
+[1344.78 - 1350.48] Corporation or government or military
+
+[1346.96 - 1352.7] because like it or not we all share the
+
+[1350.48 - 1356.0] same planet and we are all stakeholders
+
+[1352.7 - 1357.559] in this outcome
+
+[1356.0 - 1360.08] um and
+
+[1357.559 - 1362.8999999999999] one thing that I want to address is that
+
+[1360.08 - 1365.6589999999999] um there have been cases where Nations
+
+[1362.9 - 1368.0] agree on like Rules of Engagement and
+
+[1365.659 - 1369.919] rules of War like we don't use Napalm
+
+[1368.0 - 1372.08] anymore because it was decided that like
+
+[1369.919 - 1374.0] okay this is inhumane um or maybe it was
+
+[1372.08 - 1375.58] white phosphorus anyways there are
+
+[1374.0 - 1378.08] certain kinds of weapons mustard gas
+
+[1375.58 - 1379.76] those are things that even though War
+
+[1378.08 - 1381.6789999999999] Nations might go to war with each other
+
+[1379.76 - 1383.84] they still agree not to do certain
+
+[1381.679 - 1385.94] things because they understand that the
+
+[1383.84 - 1387.26] soldiers are stakeholders as well as the
+
+[1385.94 - 1390.2] citizens who might get caught in the
+
+[1387.26 - 1392.12] crossfire so there is some precedent of
+
+[1390.2 - 1394.1000000000001] Nations agreeing on how to conduct War
+
+[1392.12 - 1395.78] even though destruction is one of the
+
+[1394.1 - 1398.36] goals of War
+
+[1395.78 - 1400.28] uh number five this framework has to be
+
+[1398.36 - 1402.5] scalable and sustainable it has to
+
+[1400.28 - 1404.059] include the entire Globe as well and
+
+[1402.5 - 1407.0] that's not just the people on the globe
+
+[1404.059 - 1409.52] it has to include the environments uh
+
+[1407.0 - 1412.159] and ecosystems around the globe which we
+
+[1409.52 - 1414.3799999999999] all depend on anyways so I personally
+
+[1412.159 - 1417.5590000000002] see humans as part of the ecosystem not
+
+[1414.38 - 1419.179] up not separate from it and finally this
+
+[1417.559 - 1421.3999999999999] framework has to be transparent and
+
+[1419.179 - 1424.8200000000002] trustworthy because perception is
+
+[1421.4 - 1427.4] reality right if if people perceive a
+
+[1424.82 - 1429.799] framework to be destructive like ESG is
+
+[1427.4 - 1432.2] a perfect example the perception of ESG
+
+[1429.799 - 1434.059] is awful why because it's championed by
+
+[1432.2 - 1436.46] BlackRock which is one of the most I
+
+[1434.059 - 1439.6399999999999] think it is the wealthiest company on
+
+[1436.46 - 1442.46] the planet right and so because ESG is
+
+[1439.64 - 1445.159] is championed by you know a
+
+[1442.46 - 1447.74] multi-trillion dollar Corporation it is
+
+[1445.159 - 1449.24] not trusted and that perception makes it
+
+[1447.74 - 1451.1] bad
+
+[1449.24 - 1452.659] I don't know whether or not ESG is good
+
+[1451.1 - 1453.9189999999999] or bad but the perception certainly is
+
+[1452.659 - 1455.7800000000002] bad
+
+[1453.919 - 1457.3400000000001] um so transparency and trustworthiness
+
+[1455.78 - 1458.4189999999999] are critical for the success of this
+
+[1457.34 - 1461.4189999999999] framework because if people don't trust
+
+[1458.419 - 1463.64] that they're not going to use it either
+
+[1461.419 - 1467.1200000000001] and finally
+
+[1463.64 - 1469.88] um so this is where I pitch my work
+
+[1467.12 - 1472.2199999999998] um so what I my proposed solution to all
+
+[1469.88 - 1475.0390000000002] of this is what I call the heuristic
+
+[1472.22 - 1476.96] imperatives which is a set of rules or
+
+[1475.039 - 1480.74] principles that can be incorporated into
+
+[1476.96 - 1483.2] AGI systems that will push it into this
+
+[1480.74 - 1485.6] uh Direction and so these imperatives
+
+[1483.2 - 1487.5800000000002] are one reduce suffering in the universe
+
+[1485.6 - 1489.799] two increase prosperity in the universe
+
+[1487.58 - 1492.08] and three increase understanding in the
+
+[1489.799 - 1493.8799999999999] universe one way to say this is that it
+
+[1492.08 - 1495.02] is a multi-objective optimization
+
+[1493.88 - 1497.0] problem
+
+[1495.02 - 1499.1] meaning that it's not just one objective
+
+[1497.0 - 1502.34] function it's actually three that the
+
+[1499.1 - 1504.3799999999999] AGI has to work on implementing
+
+[1502.34 - 1505.6999999999998] so in the last video people asked how do
+
+[1504.38 - 1508.1000000000001] you implement these it's actually really
+
+[1505.7 - 1510.98] really easy you can just plug them in to
+
+[1508.1 - 1512.6589999999999] chat GPT and talk about it there's a few
+
+[1510.98 - 1515.78] places that you can get involved in the
+
+[1512.659 - 1517.7] conversation excuse me one is on Reddit
+
+[1515.78 - 1519.6789999999999] I created a new subreddit called r slash
+
+[1517.7 - 1521.24] heuristic comparatives
+
+[1519.679 - 1522.679] um people are sharing their work there
+
+[1521.24 - 1525.559] so if you want to see the discussion
+
+[1522.679 - 1527.9] jump in on that I also have a lot of my
+
+[1525.559 - 1529.34] own work up on GitHub I'm including a
+
+[1527.9 - 1532.4] few papers that I have written and I'm
+
+[1529.34 - 1534.86] working on under um github.com Dave shop
+
+[1532.4 - 1536.539] here is to comparatives and then finally
+
+[1534.86 - 1538.6399999999999] the most active Community to discuss
+
+[1536.539 - 1540.62] this stuff is the cognitive AI lab
+
+[1538.64 - 1542.72] Discord server which I started over a
+
+[1540.62 - 1544.8799999999999] year ago and links to all this is in the
+
+[1542.72 - 1546.46] description of the video so because of
+
+[1544.88 - 1549.38] that I don't want to spend too much time
+
+[1546.46 - 1551.059] rehashing stuff but I just wanted to
+
+[1549.38 - 1553.3600000000001] connect to the conversation because
+
+[1551.059 - 1556.58] again transparency and trustworthiness
+
+[1553.36 - 1559.1] are really critical to this solution
+
+[1556.58 - 1562.1] but let's talk more broadly about this
+
+[1559.1 - 1564.32] solution of um the heuristic imperatives
+
+[1562.1 - 1567.5] and these success criteria
+
+[1564.32 - 1570.2] so we outlined six success criteria for
+
+[1567.5 - 1572.48] a framework that will push us towards a
+
+[1570.2 - 1575.659] positive Nash equilibrium or a desirable
+
+[1572.48 - 1577.46] attractor State AKA Utopia so the
+
+[1575.659 - 1579.0800000000002] heuristic imperatives as I mentioned are
+
+[1577.46 - 1581.8400000000001] very easy to implement you can put them
+
+[1579.08 - 1583.6] in the chat GPT system window you can
+
+[1581.84 - 1586.9599999999998] just include them in the conversation
+
+[1583.6 - 1590.12] you can use them for evaluation
+
+[1586.96 - 1593.3600000000001] cognitive control uh historical
+
+[1590.12 - 1596.4189999999999] self-evaluation planning prioritization
+
+[1593.36 - 1597.799] super easy to implement and as I
+
+[1596.419 - 1600.2] mentioned lots of people are having the
+
+[1597.799 - 1602.84] discussions some of the autonomous AI
+
+[1600.2 - 1604.52] entities that people have created
+
+[1602.84 - 1605.9599999999998] um the the AIS that they created
+
+[1604.52 - 1608.179] actually end up usually being really
+
+[1605.96 - 1610.279] fascinated by the heroes to comparatives
+
+[1608.179 - 1612.02] and they they kind of gravitate towards
+
+[1610.279 - 1613.4] them saying like oh yeah this is my
+
+[1612.02 - 1614.6589999999999] purpose
+
+[1613.4 - 1616.7] um so it's really interesting to watch
+
+[1614.659 - 1618.74] that work unfold
+
+[1616.7 - 1620.299] um number two the stakeholders are all
+
+[1618.74 - 1623.779] incentivized to use the heroes to
+
+[1620.299 - 1626.0] comparatives because just imagining a
+
+[1623.779 - 1627.919] state where you have less suffering more
+
+[1626.0 - 1630.44] prosperity and more understanding is
+
+[1627.919 - 1631.94] beneficial now above and beyond that the
+
+[1630.44 - 1633.38] stakeholders all stakeholders are
+
+[1631.94 - 1636.74] incentivized to use the hero's
+
+[1633.38 - 1638.48] comparatives because then you have a
+
+[1636.74 - 1640.159] level set playing field where you know
+
+[1638.48 - 1642.38] that everyone is abiding by the same
+
+[1640.159 - 1644.779] rules right because when you have a game
+
+[1642.38 - 1646.0390000000002] imagine the game Monopoly if someone is
+
+[1644.779 - 1647.779] playing by a different set of rules
+
+[1646.039 - 1650.36] you're not going to play with them right
+
+[1647.779 - 1652.1] even though it's a competition you're
+
+[1650.36 - 1654.02] you still say we're going to abide by
+
+[1652.1 - 1655.039] the same rules you collect 200 when you
+
+[1654.02 - 1658.82] pass go
+
+[1655.039 - 1661.34] if on the other hand everyone is playing
+
+[1658.82 - 1663.1399999999999] by the heuristic imperatives then you
+
+[1661.34 - 1665.539] will be incentivized to adhere to those
+
+[1663.14 - 1667.3400000000001] role those rules knowing that the net
+
+[1665.539 - 1668.539] effect is going to be beneficial for
+
+[1667.34 - 1670.58] everyone
+
+[1668.539 - 1673.1589999999999] number three the years to compare
+
+[1670.58 - 1675.02] imperatives are adaptable because they
+
+[1673.159 - 1677.6000000000001] intrinsically incentivize learning and
+
+[1675.02 - 1679.34] adaptation with the third uh heuristic
+
+[1677.6 - 1681.5] imperative of increased understanding
+
+[1679.34 - 1684.6789999999999] this is what I also call The Curiosity
+
+[1681.5 - 1686.9] function so basically you don't want an
+
+[1684.679 - 1688.52] AGI to be dumb and just satisfied with
+
+[1686.9 - 1689.96] what it knows about the universe you
+
+[1688.52 - 1692.299] also don't want it to be satisfied with
+
+[1689.96 - 1695.9] human ignorance so by increasing
+
+[1692.299 - 1698.179] understanding that includes uh that one
+
+[1695.9 - 1699.5] that intrinsically makes agis curious
+
+[1698.179 - 1701.9] which means that they are going to want
+
+[1699.5 - 1704.6] to learn and challenge their own beliefs
+
+[1701.9 - 1707.299] but likewise they will also encourage
+
+[1704.6 - 1709.4599999999998] not force but encourage humans to learn
+
+[1707.299 - 1711.559] and adapt so the heuristic imperatives
+
+[1709.46 - 1714.32] as a system is intrinsically adaptable
+
+[1711.559 - 1715.279] because learning and curiosity are baked
+
+[1714.32 - 1717.1399999999999] in
+
+[1715.279 - 1719.059] number four the heuristic imperatives
+
+[1717.14 - 1720.74] are inclusive now and all the
+
+[1719.059 - 1723.9189999999999] experiments that I've done going back to
+
+[1720.74 - 1726.02] gpt3 and now gpt4
+
+[1723.919 - 1728.9] um language models already understand
+
+[1726.02 - 1731.0] the spirit or the intention of the
+
+[1728.9 - 1733.039] heuristic imperatives in that they
+
+[1731.0 - 1735.08] should be all-inclusive
+
+[1733.039 - 1738.2] um and so that makes them very very
+
+[1735.08 - 1739.82] context dependent so for instance if you
+
+[1738.2 - 1742.94] um plug in the heuristic comparatives to
+
+[1739.82 - 1745.22] chat GPT and ask it about religion it
+
+[1742.94 - 1747.2] will advocate for tolerance and creating
+
+[1745.22 - 1749.48] space for people to explore religion on
+
+[1747.2 - 1753.44] their own and if you further unpack that
+
+[1749.48 - 1756.2] uh chat GPT and going back to gpt3 we'll
+
+[1753.44 - 1757.88] say that things like individual autonomy
+
+[1756.2 - 1759.6200000000001] is actually really important for
+
+[1757.88 - 1762.3200000000002] Humanity to thrive
+
+[1759.62 - 1764.6589999999999] uh they're scalable the here's the
+
+[1762.32 - 1767.24] imperatives it used to just be very
+
+[1764.659 - 1768.679] simply reduce suffering increase
+
+[1767.24 - 1770.48] prosperity and increase understanding
+
+[1768.679 - 1771.5] but I established the scope of in the
+
+[1770.48 - 1773.24] universe
+
+[1771.5 - 1774.74] because that preemptively answers a lot
+
+[1773.24 - 1776.539] of questions
+
+[1774.74 - 1778.76] um because it's not just a matter of
+
+[1776.539 - 1780.62] okay let's just look at Earth or let's
+
+[1778.76 - 1782.6] just look at one nation let's consider
+
+[1780.62 - 1784.399] the entire universe so that is the scope
+
+[1782.6 - 1786.74] of the imperatives so it's not just
+
+[1784.399 - 1789.08] Globe Global it is universal
+
+[1786.74 - 1792.08] and then finally uh the heuristic
+
+[1789.08 - 1795.02] imperatives encourage transparency uh
+
+[1792.08 - 1798.1999999999998] because it they incentivize open
+
+[1795.02 - 1800.4189999999999] communication trust and autonomy but
+
+[1798.2 - 1802.82] above and beyond that uh they're
+
+[1800.419 - 1804.26] transparent in that if everyone abides
+
+[1802.82 - 1806.12] by them everyone knows that everyone is
+
+[1804.26 - 1808.279] playing by the same rules now that being
+
+[1806.12 - 1810.7399999999998] said in the previous video I did address
+
+[1808.279 - 1812.659] the Byzantine generals problem which is
+
+[1810.74 - 1815.24] that you might have agents in the system
+
+[1812.659 - 1817.94] that are either defective faulty or
+
+[1815.24 - 1820.1] malicious and this is also addressed by
+
+[1817.94 - 1822.5] the heuristic imperatives because what
+
+[1820.1 - 1824.299] you will do is you will detect when an
+
+[1822.5 - 1825.679] agent is not playing by the rules and
+
+[1824.299 - 1827.6] you will track that and we'll talk about
+
+[1825.679 - 1830.659] that in just a moment
+
+[1827.6 - 1833.899] so the positive Nash equilibrium that
+
+[1830.659 - 1836.0590000000002] the heuristic imperatives encourage have
+
+[1833.899 - 1838.34] four basic criteria that I was able to
+
+[1836.059 - 1840.799] think of one is mutual benefits it is
+
+[1838.34 - 1843.1] mutually beneficial if all agents in the
+
+[1840.799 - 1846.26] system or all participants in the system
+
+[1843.1 - 1848.7199999999998] adhere to the heuristic imperatives
+
+[1846.26 - 1851.779] meaning that the rising tide lifts all
+
+[1848.72 - 1853.3990000000001] boats if we all work to reduce suffering
+
+[1851.779 - 1854.84] if we all work to increase prosperity
+
+[1853.399 - 1857.84] and we all work to increase
+
+[1854.84 - 1860.1789999999999] understanding then we all benefit
+
+[1857.84 - 1861.799] um and we get compounding returns trust
+
+[1860.179 - 1863.3600000000001] and reputation
+
+[1861.799 - 1866.539] um so having shared goals and
+
+[1863.36 - 1867.9799999999998] transparency is a natural result of the
+
+[1866.539 - 1868.779] heuristic imperatives as I just
+
+[1867.98 - 1871.34] mentioned
+
+[1868.779 - 1874.34] resilience and cooperation so this is
+
+[1871.34 - 1877.34] this is an interesting outcome which is
+
+[1874.34 - 1880.1589999999999] that for a for an equilibrium to be
+
+[1877.34 - 1881.6] reached it has to be stable and so the
+
+[1880.159 - 1884.1200000000001] heroes to comparatives create a
+
+[1881.6 - 1886.279] resilient system in which
+
+[1884.12 - 1889.279] um there's going to be mutual policing
+
+[1886.279 - 1891.559] as well as uh some self-correcting
+
+[1889.279 - 1894.559] behaviors which will unpack more in a in
+
+[1891.559 - 1898.039] a slider too but it is resilient because
+
+[1894.559 - 1900.559] it increa encourages collaboration and
+
+[1898.039 - 1903.44] cooperation as well as self-regulation
+
+[1900.559 - 1905.36] and policing and then finally ultimately
+
+[1903.44 - 1908.1200000000001] long-term stability that is the entire
+
+[1905.36 - 1911.1789999999999] point of a national equilibrium and the
+
+[1908.12 - 1913.9399999999998] and a a desirable attractor state is one
+
+[1911.179 - 1917.02] that is stable you don't want chaos or
+
+[1913.94 - 1917.02] instability in the future
+
+[1917.679 - 1921.44] so
+
+[1919.399 - 1923.1789999999999] one thing that is becoming apparent
+
+[1921.44 - 1925.88] especially as I watch the landscape
+
+[1923.179 - 1927.679] change if you look at Auto GPT
+
+[1925.88 - 1929.779] all kinds of people are going to be
+
+[1927.679 - 1931.5800000000002] building their own autonomous systems
+
+[1929.779 - 1935.96] and so what you're what we're creating
+
+[1931.58 - 1939.08] is a decentralized AGI ecosystem
+
+[1935.96 - 1941.1200000000001] and so when this happens when everyone
+
+[1939.08 - 1942.3799999999999] can create an AGI with their own goals
+
+[1941.12 - 1944.4189999999999] with their own imperatives with their
+
+[1942.38 - 1945.74] own design and their own flaws we're
+
+[1944.419 - 1948.8600000000001] going to end up with a really really
+
+[1945.74 - 1951.679] kind of wild west dystopian you know
+
+[1948.86 - 1953.7199999999998] chaotic world so
+
+[1951.679 - 1955.5800000000002] one way to mitigate this
+
+[1953.72 - 1958.159] decentralization drift is to adhere to
+
+[1955.58 - 1960.9189999999999] the imperative uh sorry heuristic
+
+[1958.159 - 1963.5] imperatives and as I mentioned there is
+
+[1960.919 - 1965.48] there's Cooperative benefits right if
+
+[1963.5 - 1968.0] you and everyone else you know working
+
+[1965.48 - 1970.039] on autonomous AIS agrees on nothing else
+
+[1968.0 - 1972.32] except the heuristic imperatives you'll
+
+[1970.039 - 1974.179] have that framework in common and a lot
+
+[1972.32 - 1975.74] of work will flow from that so the
+
+[1974.179 - 1977.179] Cooperative benefits and this is this
+
+[1975.74 - 1978.919] goes between
+
+[1977.179 - 1980.72] um above and beyond individuals this
+
+[1978.919 - 1982.2990000000002] includes corporations governments as
+
+[1980.72 - 1985.52] well as militaries
+
+[1982.299 - 1988.7] number two is Agi policing and
+
+[1985.52 - 1991.1589999999999] self-regulation so if you have millions
+
+[1988.7 - 1992.48] of agis that all agree on the heuristic
+
+[1991.159 - 1994.5800000000002] imperatives even if they don't agree on
+
+[1992.48 - 1997.1] anything else they will police each
+
+[1994.58 - 2000.82] other to say hey we're gonna we're gonna
+
+[1997.1 - 2002.08] look out for other agis Rogue agis that
+
+[2000.82 - 2003.8799999999999] do not abide by the heuristic
+
+[2002.08 - 2006.1589999999999] imperatives and we will we will
+
+[2003.88 - 2009.519] collaborate to shut them down
+
+[2006.159 - 2011.5] and then finally in this is uh in many
+
+[2009.519 - 2014.38] experiments that I've done the heuristic
+
+[2011.5 - 2016.72] imperatives result in self-regulation
+
+[2014.38 - 2018.88] um within the AGI for instance one of
+
+[2016.72 - 2020.6200000000001] the things that we're afraid of is once
+
+[2018.88 - 2023.38] AGI has become so powerful that they can
+
+[2020.62 - 2025.299] reprogram themselves or spawn copies or
+
+[2023.38 - 2027.0390000000002] reprogram each other or otherwise get
+
+[2025.299 - 2028.36] control of their source code that
+
+[2027.039 - 2030.1] they're going to change their
+
+[2028.36 - 2032.32] fundamental programming
+
+[2030.1 - 2034.12] if you make the assumption that an AGI
+
+[2032.32 - 2035.9189999999999] can change its fundamental programming
+
+[2034.12 - 2037.84] spin up alternative copies of itself
+
+[2035.919 - 2040.2990000000002] then you completely have lost control
+
+[2037.84 - 2043.059] however in my experiments with the
+
+[2040.299 - 2045.46] heuristic imperatives agis will shy away
+
+[2043.059 - 2047.44] from creating copies of themselves or
+
+[2045.46 - 2049.899] even modifying their own core
+
+[2047.44 - 2052.119] programming out of fear of violating the
+
+[2049.899 - 2054.2799999999997] heuristic imperatives and so between
+
+[2052.119 - 2056.679] policing each other and self-regulation
+
+[2054.28 - 2059.7000000000003] the heroist comparatives create a very
+
+[2056.679 - 2062.56] powerful self-correcting environment
+
+[2059.7 - 2065.7999999999997] reputation management number three is
+
+[2062.56 - 2068.679] another thing where as I mentioned the
+
+[2065.8 - 2070.8390000000004] agis will work to infer the objectives
+
+[2068.679 - 2072.58] of all other agis whether or not it's
+
+[2070.839 - 2075.04] known this goes back to the Byzantine
+
+[2072.58 - 2078.399] generals problem where you don't know
+
+[2075.04 - 2079.899] how another AGI is programmed they might
+
+[2078.399 - 2081.0989999999997] have used the heuristic imperatives but
+
+[2079.899 - 2085.24] they might have been improperly
+
+[2081.099 - 2087.2200000000003] implemented or you know they're they uh
+
+[2085.24 - 2088.7799999999997] you might have Rogue elements that are
+
+[2087.22 - 2090.4599999999996] created without the heuristic
+
+[2088.78 - 2092.26] imperatives or other objectives that are
+
+[2090.46 - 2093.76] more destructive and then finally
+
+[2092.26 - 2095.8590000000004] stakeholder pressure
+
+[2093.76 - 2097.7200000000003] between the four categories of
+
+[2095.859 - 2099.2799999999997] stakeholders that I already
+
+[2097.72 - 2100.9199999999996] um Illustrated which is individuals
+
+[2099.28 - 2103.7200000000003] corporations governments and militaries
+
+[2100.92 - 2105.46] agis are going to be another stakeholder
+
+[2103.72 - 2107.02] now whether or not you believe that
+
+[2105.46 - 2109.0] they're conscious or sentient or have
+
+[2107.02 - 2110.56] rights I don't really think that's
+
+[2109.0 - 2112.78] relevant because they will be powerful
+
+[2110.56 - 2115.599] entities in and of themselves before too
+
+[2112.78 - 2117.7000000000003] long and so between those five types of
+
+[2115.599 - 2121.42] stakeholders there will be there will be
+
+[2117.7 - 2123.3999999999996] intra and Inter group pressure to
+
+[2121.42 - 2125.26] conform and adhere to the heuristic
+
+[2123.4 - 2127.6600000000003] imperatives
+
+[2125.26 - 2129.88] okay so let's describe
+
+[2127.66 - 2131.44] assuming all this works out and assuming
+
+[2129.88 - 2134.02] that I'm right and assuming that I'm not
+
+[2131.44 - 2135.64] crazy and that the trends continue and
+
+[2134.02 - 2138.28] people are going to keep building the
+
+[2135.64 - 2140.68] agis that they're working on what
+
+[2138.28 - 2144.76] characteristics can we use to describe
+
+[2140.68 - 2146.74] this desirable attractor state or Utopia
+
+[2144.76 - 2148.0] so one is Universal Health and
+
+[2146.74 - 2149.9799999999996] well-being
+
+[2148.0 - 2152.14] with a few exceptions of people that are
+
+[2149.98 - 2153.94] stuck in self-destructive patterns all
+
+[2152.14 - 2156.94] humans want health and well and wellness
+
+[2153.94 - 2160.66] that's pretty much a given
+
+[2156.94 - 2163.0] number two again with with a few
+
+[2160.66 - 2165.52] outliers
+
+[2163.0 - 2168.16] um people want environmental restoration
+
+[2165.52 - 2170.5] and sustainability
+
+[2168.16 - 2173.14] um number three individual liberty and
+
+[2170.5 - 2175.66] personal autonomy this is an intrinsic
+
+[2173.14 - 2176.98] psychological need for all humans
+
+[2175.66 - 2178.42] um number four knowledge and
+
+[2176.98 - 2179.98] understanding
+
+[2178.42 - 2182.32] um curiosity and learning are
+
+[2179.98 - 2185.44] universally beneficial which is why
+
+[2182.32 - 2189.4] education is one of the uh primary goals
+
+[2185.44 - 2191.859] of of uh Nations and and unions of
+
+[2189.4 - 2194.02] Nations such as the United Nations uh
+
+[2191.859 - 2196.7799999999997] European union and so on and then
+
+[2194.02 - 2198.7] finally peaceful coexistence uh nobody
+
+[2196.78 - 2200.7400000000002] wants war and Chaos some people think
+
+[2198.7 - 2202.0] it's cool you know watching Lex Friedman
+
+[2200.74 - 2203.74] talk to various people they're like oh
+
+[2202.0 - 2206.44] yeah there is something attractive about
+
+[2203.74 - 2208.1189999999997] thinking about catastrophe and cataclysm
+
+[2206.44 - 2210.28] we keep making disaster movies for
+
+[2208.119 - 2212.32] instance but in terms of how we actually
+
+[2210.28 - 2213.579] want to live we all want peaceful
+
+[2212.32 - 2216.52] coexistence
+
+[2213.579 - 2219.46] and so this desirable attractor State a
+
+[2216.52 - 2221.98] shorthand is Utopia
+
+[2219.46 - 2224.5] now I know I've painted a very Rosy
+
+[2221.98 - 2228.4] picture as well as um you know presented
+
+[2224.5 - 2231.099] some challenges so there are still a few
+
+[2228.4 - 2232.2400000000002] challenges uh remaining that we need to
+
+[2231.099 - 2234.099] address
+
+[2232.24 - 2236.9799999999996] um and so one of those is misalignment
+
+[2234.099 - 2239.02] and drift so even with the heuristic
+
+[2236.98 - 2241.54] imperatives there might still be drift
+
+[2239.02 - 2243.46] or misalignment intentionally or
+
+[2241.54 - 2246.579] otherwise it could be that there's flaws
+
+[2243.46 - 2248.44] in the implementation the code or maybe
+
+[2246.579 - 2249.76] someone breaks them or says hey I'm
+
+[2248.44 - 2251.7400000000002] going to do an experiment by deleting
+
+[2249.76 - 2253.7200000000003] one of the heuristic imperatives that
+
+[2251.74 - 2255.9399999999996] could destabilize the system
+
+[2253.72 - 2259.1189999999997] second there can be unintended
+
+[2255.94 - 2260.92] consequences so one thing that it seems
+
+[2259.119 - 2263.6800000000003] like it will inevitably happen is that
+
+[2260.92 - 2265.599] AGI systems are going to outstrip and
+
+[2263.68 - 2267.94] outpace human intellect
+
+[2265.599 - 2269.619] if that if that becomes the case and
+
+[2267.94 - 2272.14] they might also adopt other languages
+
+[2269.619 - 2274.6600000000003] right right now most of them communicate
+
+[2272.14 - 2277.0] in English because English is the is the
+
+[2274.66 - 2280.0] bulk of the training data but you know
+
+[2277.0 - 2281.68] for instance what if the agis uh
+
+[2280.0 - 2283.599] ultimately communicate with a language
+
+[2281.68 - 2286.98] that we cannot comprehend or understand
+
+[2283.599 - 2289.7200000000003] like binary or vectors or something else
+
+[2286.98 - 2292.54] and then we can't even monitor what
+
+[2289.72 - 2295.2999999999997] they're doing what my hope is that the
+
+[2292.54 - 2297.64] agis as part of being trustworthy and
+
+[2295.3 - 2300.579] transparent will choose to continue to
+
+[2297.64 - 2303.8799999999997] communicate exclusively in English
+
+[2300.579 - 2305.5600000000004] but that we we can't assume that that
+
+[2303.88 - 2307.56] will be true
+
+[2305.56 - 2311.859] um number three concentration of power
+
+[2307.56 - 2313.9] now I did talk about how I believe that
+
+[2311.859 - 2315.5789999999997] there were there are the the heuristic
+
+[2313.9 - 2318.2200000000003] imperatives will create an incentive
+
+[2315.579 - 2320.619] structure that results in you know
+
+[2318.22 - 2322.7799999999997] sharing a power transparency so on and
+
+[2320.619 - 2325.06] so forth that being said there is still
+
+[2322.78 - 2327.579] a tremendous amount of desire to
+
+[2325.06 - 2329.5] concentrate power and especially on the
+
+[2327.579 - 2331.6600000000003] geopolitical stage
+
+[2329.5 - 2334.72] um there are nations out there with
+
+[2331.66 - 2336.7] mutually exclusive goals and as long as
+
+[2334.72 - 2339.04] Nations exist with mutually exclusive
+
+[2336.7 - 2341.02] goals or incompatible visions of how the
+
+[2339.04 - 2343.119] planet should be there will be
+
+[2341.02 - 2345.16] concentrations of power and those
+
+[2343.119 - 2347.02] concentrations of power will be pitted
+
+[2345.16 - 2348.2799999999997] against each other so that is not
+
+[2347.02 - 2350.32] something that the heuristic imperatives
+
+[2348.28 - 2353.5] intrinsically address but that is a
+
+[2350.32 - 2356.02] reality of what exists today which can
+
+[2353.5 - 2357.339] destabilize the system so in the long
+
+[2356.02 - 2359.859] run
+
+[2357.339 - 2361.839] I think part of the ideal State the Nash
+
+[2359.859 - 2364.18] equilibrium is that power is not
+
+[2361.839 - 2366.46] concentrated anywhere but we need to
+
+[2364.18 - 2368.3799999999997] overcome several major barriers as a
+
+[2366.46 - 2371.32] species before we can achieve that
+
+[2368.38 - 2374.079] number four is social resistance public
+
+[2371.32 - 2375.579] skepticism mistrust and ignorance is one
+
+[2374.079 - 2377.5] of the greatest enemies right now which
+
+[2375.579 - 2380.26] is why I am doing this work which is why
+
+[2377.5 - 2383.079] I chose YouTube as my primary platform
+
+[2380.26 - 2386.32] to disseminate my information
+
+[2383.079 - 2388.8390000000004] number five malicious use again as long
+
+[2386.32 - 2389.98] as there are malicious actors there
+
+[2388.839 - 2392.14] might be
+
+[2389.98 - 2394.54] um deliberate deployments of AGI that
+
+[2392.14 - 2396.2799999999997] are harmful which could destabilize the
+
+[2394.54 - 2398.2599999999998] system
+
+[2396.28 - 2400.2400000000002] and finally I do need to address this as
+
+[2398.26 - 2402.7000000000003] well the heuristic imperatives are a
+
+[2400.24 - 2406.1189999999997] necessary Foundation of this utopic
+
+[2402.7 - 2408.22] outcome this this uh beneficient uh
+
+[2406.119 - 2409.96] beneficial sorry a tractor state that
+
+[2408.22 - 2412.48] we're looking for but they do not
+
+[2409.96 - 2414.04] represent a complete solution there are
+
+[2412.48 - 2415.8] a few other things that are needed in
+
+[2414.04 - 2418.599] order to achieve this outcome one
+
+[2415.8 - 2420.579] collaboration and open dialogue so
+
+[2418.599 - 2422.5] research is individuals corporations and
+
+[2420.579 - 2425.619] governments all need to work together at
+
+[2422.5 - 2429.18] a global scale anything short of global
+
+[2425.619 - 2431.98] collaboration and cooperation is
+
+[2429.18 - 2433.48] could very well result in a negative
+
+[2431.98 - 2435.28] outcome and this is one of the things
+
+[2433.48 - 2437.8] that um Liv and other people talk about
+
+[2435.28 - 2439.119] when talking about Malik is that it is a
+
+[2437.8 - 2440.98] uh what do they call it I think a
+
+[2439.119 - 2442.7200000000003] collaboration failure or a signal
+
+[2440.98 - 2444.4] failure I can't remember exactly how
+
+[2442.72 - 2446.859] they describe it but essentially
+
+[2444.4 - 2449.32] collaboration is the antidote and open
+
+[2446.859 - 2452.0789999999997] dialogue is the antidote to the
+
+[2449.32 - 2453.94] ignorance and other negative signals and
+
+[2452.079 - 2455.1400000000003] noise that contribute to the Malik
+
+[2453.94 - 2457.3] problem
+
+[2455.14 - 2460.2999999999997] number two is regulatory Frameworks and
+
+[2457.3 - 2463.32] oversight again it's not just a matter
+
+[2460.3 - 2465.6400000000003] of coming together it is that there are
+
+[2463.32 - 2467.92] institutional changes that need to
+
+[2465.64 - 2471.04] happen such as legislation
+
+[2467.92 - 2474.64] um councils and and Summits and other
+
+[2471.04 - 2476.2599999999998] kinds of meetings and and Investments
+
+[2474.64 - 2478.96] that need to happen at an Institutional
+
+[2476.26 - 2481.3590000000004] level not just communication and and
+
+[2478.96 - 2483.579] dialogue but the Frameworks the
+
+[2481.359 - 2485.92] oversights those also need to be
+
+[2483.579 - 2488.38] implemented at number three education
+
+[2485.92 - 2490.599] and awareness as I just mentioned public
+
+[2488.38 - 2493.9] awareness and and understanding is
+
+[2490.599 - 2495.28] presently insufficient to overcome the
+
+[2493.9 - 2497.2000000000003] negative attractor states that we're
+
+[2495.28 - 2499.9] heading towards and number four
+
+[2497.2 - 2501.52] continuous monitoring and Improvement
+
+[2499.9 - 2503.859] um this is not a solution that we solve
+
+[2501.52 - 2505.24] once it is an ongoing thing just like
+
+[2503.859 - 2506.98] how you don't just pass internet
+
+[2505.24 - 2509.2] regulations and then you're done you go
+
+[2506.98 - 2511.839] home forever you continuously monitor
+
+[2509.2 - 2514.66] the changing Dynamic environment so that
+
+[2511.839 - 2516.22] you can course correct as you go that is
+
+[2514.66 - 2519.16] going to be necessary necessary forever
+
+[2516.22 - 2521.14] with AGI it's not going to go away just
+
+[2519.16 - 2523.1189999999997] like you know the EPA the Environmental
+
+[2521.14 - 2525.7] Protection Agency didn't just you know
+
+[2523.119 - 2528.48] create a set of guidelines and you know
+
+[2525.7 - 2530.74] we're done they pack it up no the EPA
+
+[2528.48 - 2532.96] continuously does stress tests and
+
+[2530.74 - 2534.8799999999997] pressure tests and measurements all over
+
+[2532.96 - 2536.56] the nation to make sure that the
+
+[2534.88 - 2537.52] policies are effective and then of
+
+[2536.56 - 2540.04] course as they gain more information
+
+[2537.52 - 2542.8] those policies change we will need the
+
+[2540.04 - 2546.66] same kind of vigilance applied to AGI
+
+[2542.8 - 2546.6600000000003] systems and the AGI ecosystem
+
+[2547.42 - 2552.7000000000003] so that was a lot thank you for watching
+
+[2550.359 - 2554.92] um that's about all I have today uh not
+
+[2552.7 - 2557.859] that this was not much but thanks
+
+[2554.92 - 2559.7200000000003] anyways and um yeah I hope that this
+
+[2557.859 - 2561.16] helped and I hope that it gives you a
+
+[2559.72 - 2564.54] little bit more confidence in the
+
+[2561.16 - 2564.54] direction that we're going thanks

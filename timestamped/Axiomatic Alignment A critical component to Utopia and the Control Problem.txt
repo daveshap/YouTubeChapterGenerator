@@ -1,0 +1,1443 @@
+[0.719 - 4.86] hello everybody David Shapiro here with
+
+[3.24 - 6.960000000000001] a brand new video
+
+[4.86 - 10.86] so today's video we're going to talk
+
+[6.96 - 13.2] about axiomatic alignment which is a
+
+[10.86 - 15.66] potential solution or part of a of the
+
+[13.2 - 18.539] solution to the control problem
+
+[15.66 - 21.6] before we dive into today's video I just
+
+[18.539 - 23.580000000000002] want to do a quick plug for my patreon I
+
+[21.6 - 26.039] have lots of folks on patreon we've got
+
+[23.58 - 30.18] a private Discord if you have any
+
+[26.039 - 32.099000000000004] questions about AI I am happy to consult
+
+[30.18 - 34.32] there's a few Slots of the higher tiers
+
+[32.099 - 36.959999999999994] available which will give you one-on-one
+
+[34.32 - 39.480000000000004] meetings with me so without further Ado
+
+[36.96 - 42.6] let's jump right back into the show
+
+[39.48 - 45.239] so the control problem if you're not in
+
+[42.6 - 47.399] the know is basically at some point in
+
+[45.239 - 48.559] the future AI is going to get incredibly
+
+[47.399 - 50.879] powerful
+
+[48.559 - 52.86] there is basically two ways that this
+
+[50.879 - 54.36] can happen and that the truth will
+
+[52.86 - 56.94] probably be somewhere in the middle so
+
+[54.36 - 59.76] for instance we might have what's called
+
+[56.94 - 62.16] hard takeoff where the exponential
+
+[59.76 - 65.1] returns of AI just kind of ramps up
+
+[62.16 - 66.89999999999999] really fast so that's actually faster
+
+[65.1 - 68.75999999999999] than exponential growth that would
+
+[66.9 - 71.28] actually be logarithmic growth where
+
+[68.76 - 73.43900000000001] growth actually approaches infinite
+
+[71.28 - 75.96000000000001] um so that's like Peak Singularity
+
+[73.439 - 78.29899999999999] basically the other end of the spectrum
+
+[75.96 - 81.17999999999999] is where AI becomes more powerful
+
+[78.299 - 83.64] gradualistically over many decades
+
+[81.18 - 85.02000000000001] most of us don't think that that's going
+
+[83.64 - 87.299] to happen anymore there's a few people
+
+[85.02 - 89.46] who still think that AGI is you know
+
+[87.299 - 92.4] decades away those people don't
+
+[89.46 - 95.03999999999999] generally understand exponential growth
+
+[92.4 - 98.52000000000001] um so the truth is probably somewhere in
+
+[95.04 - 100.74000000000001] between uh furthermore AGI is like not
+
+[98.52 - 103.14] all AGI is going to be created equal for
+
+[100.74 - 105.6] instance so the first agis are going to
+
+[103.14 - 108.06] be you know human level intelligence and
+
+[105.6 - 110.46] adaptability but a little bit faster and
+
+[108.06 - 113.399] then in the future you know the power of
+
+[110.46 - 116.03999999999999] agis will also ramp up
+
+[113.399 - 118.02] anyways long story short one day
+
+[116.04 - 120.42] computers are going to be infinitely
+
+[118.02 - 122.34] smarter than all of us it's not really a
+
+[120.42 - 124.86] question of if but when
+
+[122.34 - 128.58] so there's a couple of problems uh that
+
+[124.86 - 129.959] underpin the control problem so what it
+
+[128.58 - 132.18] what I just shared is the background
+
+[129.959 - 134.81900000000002] right that is the foundation or the
+
+[132.18 - 137.58] environment that we expect to happen
+
+[134.819 - 139.67999999999998] now the reason that that the control
+
+[137.58 - 141.12] problem exists is because there's
+
+[139.68 - 143.28] there's quite a few
+
+[141.12 - 144.959] um paradigms in here but I picked out
+
+[143.28 - 148.14000000000001] two just because they're easier to talk
+
+[144.959 - 150.78] about as an example so for instance the
+
+[148.14 - 152.879] orthogonality thesis basically says that
+
+[150.78 - 155.52] intelligence is orthogonal or
+
+[152.879 - 158.34] uncorrelated to goals meaning that no
+
+[155.52 - 160.62] matter how smart an AI agent is that
+
+[158.34 - 162.36] does not necessarily have any bearing on
+
+[160.62 - 163.98000000000002] the goals that it picks which that's
+
+[162.36 - 166.08] actually not necessarily true which
+
+[163.98 - 168.66] we'll unpack with the next
+
+[166.08 - 171.0] um uh point which is instrumental
+
+[168.66 - 173.04] convergence so instrumental convergence
+
+[171.0 - 176.4] is the idea that whatever primary goals
+
+[173.04 - 178.56] an AI has it's going to have a few uh
+
+[176.4 - 181.5] common secondary or instrumental goals
+
+[178.56 - 183.72] such as resource acquisition or
+
+[181.5 - 186.12] protecting its own existence right
+
+[183.72 - 187.68] because if let's say for instance the
+
+[186.12 - 189.78] the paperclip maximizer which we'll talk
+
+[187.68 - 191.64000000000001] about in a minute the paperclip
+
+[189.78 - 193.68] maximizer wants to maximize paper clips
+
+[191.64 - 195.95899999999997] in the universe well in order to do that
+
+[193.68 - 198.36] it needs power computation and it needs
+
+[195.959 - 200.7] to continue to exist so whatever other
+
+[198.36 - 204.239] goals you give an AI whether it's Skynet
+
+[200.7 - 207.35999999999999] or you know your chatbot robot you know
+
+[204.239 - 209.28] cat girl waifu or whatever it's going to
+
+[207.36 - 211.56] have a few other sub goals that all
+
+[209.28 - 213.42] machines are likely to have in common so
+
+[211.56 - 215.34] in that case the orthogonality thesis is
+
+[213.42 - 217.14] not necessarily true
+
+[215.34 - 219.959] again the point is that there's a lot of
+
+[217.14 - 222.83999999999997] theories out there about how and why we
+
+[219.959 - 225.18] may or may not lose control over AI or
+
+[222.84 - 228.239] that control over AI once it becomes
+
+[225.18 - 230.04000000000002] that that uh powerful is difficult or
+
+[228.239 - 233.94] impossible to control
+
+[230.04 - 235.67999999999998] aligning AI with human interests in the
+
+[233.94 - 237.0] long run and I don't mean like an
+
+[235.68 - 239.28] individual model right or I'm not
+
+[237.0 - 241.019] talking about like gpt7 if you talk
+
+[239.28 - 242.76] about alignment of an individual model
+
+[241.019 - 245.04] that's called inner alignment if you
+
+[242.76 - 247.56] talk about the alignment of AI as a
+
+[245.04 - 249.35999999999999] construct as an entity with the
+
+[247.56 - 252.26] existence of humanity that is called
+
+[249.36 - 252.26000000000002] outer alignment
+
+[252.299 - 259.799] okay so the ultimate outcomes of this
+
+[256.799 - 261.59999999999997] exponential ramp up of AI uh there's a
+
+[259.799 - 264.419] few terminal outcomes or what we also
+
+[261.6 - 266.759] call attractor States so one that
+
+[264.419 - 268.919] everyone is obviously terrified of is
+
+[266.759 - 271.38] extinction which is for whatever reason
+
+[268.919 - 274.25899999999996] the AI wipes us out or helps us wipe
+
+[271.38 - 277.139] ourselves out you know for instance
+
+[274.259 - 279.72] Congress just came up with the idea of
+
+[277.139 - 282.18] let's not ever give AI the ability to
+
+[279.72 - 283.74] launch nukes great idea big brain
+
+[282.18 - 286.259] thinking right there
+
+[283.74 - 287.52] so that is the obviously like that's the
+
+[286.259 - 289.199] worst outcome right and that's a
+
+[287.52 - 290.88] permanent outcome if humans are
+
+[289.199 - 292.68] extincted once we are probably never
+
+[290.88 - 293.759] coming back certainly you and I are gone
+
+[292.68 - 296.94] forever
+
+[293.759 - 299.34000000000003] another terminal outcome is dystopia so
+
+[296.94 - 302.34] dystopia is represented in fiction and
+
+[299.34 - 305.88] cyberpunk altered Carbon Blade Runner
+
+[302.34 - 306.84] you get the idea the idea is is the
+
+[305.88 - 309.54] underpinning
+
+[306.84 - 312.53999999999996] um motif of cyberpunk is high-tech low
+
+[309.54 - 314.639] life we we want a high-tech world but we
+
+[312.54 - 316.8] don't want a low-life world we want high
+
+[314.639 - 319.32] tech and high life which is Star Trek in
+
+[316.8 - 321.24] the culture so Utopia is the third
+
+[319.32 - 323.82] attractor State or the third terminal
+
+[321.24 - 326.46000000000004] outcome and that's the big question is
+
+[323.82 - 329.699] how do we steer everything towards that
+
+[326.46 - 331.56] right if the AI gets really powerful how
+
+[329.699 - 333.72] do we prevent it from you know creating
+
+[331.56 - 337.139] catastrophic outcomes but above and
+
+[333.72 - 340.32000000000005] beyond that you know if capitalism in
+
+[337.139 - 342.539] corporations have full power of full
+
+[340.32 - 343.74] power over the AI how do we make sure
+
+[342.539 - 345.24] that they're not just going to become
+
+[343.74 - 347.759] quadrillion dollar companies and leave
+
+[345.24 - 349.02] the rest of us in the dust so the
+
+[347.759 - 351.24] question is what can we do
+
+[349.02 - 353.21999999999997] scientifically politically and
+
+[351.24 - 355.139] economically in order to drive towards
+
+[353.22 - 358.44000000000005] that Utopia be an outcome
+
+[355.139 - 360.24] so in this case outer alignment has as
+
+[358.44 - 362.21999999999997] much to do with the science and
+
+[360.24 - 364.919] engineering of AI as it does with the
+
+[362.22 - 366.78000000000003] politics and economics of AI and how it
+
+[364.919 - 369.9] is deployed
+
+[366.78 - 371.46] um and what many people have asserted
+
+[369.9 - 373.73999999999995] and I have started coming to believe
+
+[371.46 - 375.65999999999997] myself is that
+
+[373.74 - 377.58] we can articulate a few different
+
+[375.66 - 379.5] possible outcomes right you know there's
+
+[377.58 - 382.31899999999996] the three tractor states that I listed
+
+[379.5 - 384.78] above uh Extinction dystopia and Utopia
+
+[382.319 - 386.94] but
+
+[384.78 - 388.61999999999995] what is actually probably more likely is
+
+[386.94 - 391.979] what's called a binary outcome or
+
+[388.62 - 394.44] bimodal outcome which is basically if we
+
+[391.979 - 397.94] fail to achieve Utopia we will be on an
+
+[394.44 - 401.58] inevitable downslide towards
+
+[397.94 - 403.919] dystopia collapse and finally Extinction
+
+[401.58 - 405.65999999999997] and uh I love this quote by Cersei
+
+[403.919 - 407.58] Lannister from Game of Thrones in the
+
+[405.66 - 409.68] Game of Thrones you win or you die so
+
+[407.58 - 411.65999999999997] that is a fictional example of a bimodal
+
+[409.68 - 414.18] outcome and of course that show
+
+[411.66 - 416.759] demonstrates that theme again and again
+
+[414.18 - 420.24] and again uh real life
+
+[416.759 - 421.74] often is not that black and white but in
+
+[420.24 - 424.8] the context of digital super
+
+[421.74 - 427.68] intelligence it very well could be kind
+
+[424.8 - 431.039] of like uh with um with mutually assured
+
+[427.68 - 433.199] destruction and the nuclear Holocaust
+
+[431.039 - 436.74] that was possible because of the nuclear
+
+[433.199 - 439.38] arms race if one person fired one nuke
+
+[436.74 - 441.539] chances are it would it would result in
+
+[439.38 - 444.0] the total collapse and obliteration of
+
+[441.539 - 446.28] the entire human species bimodal outcome
+
+[444.0 - 448.8] either nobody fires a nuke or everyone
+
+[446.28 - 450.65999999999997] loses right so you can either have a
+
+[448.8 - 453.12] lose-lose scenario where everyone loses
+
+[450.66 - 455.16] or you can have something else and
+
+[453.12 - 457.02] ideally what we want to achieve is a
+
+[455.16 - 459.59900000000005] win-win scenario where we've got that
+
+[457.02 - 460.74] High-Tech high life lifestyle of the
+
+[459.599 - 463.259] Utopia
+
+[460.74 - 464.819] okay so let's unpack instrumental
+
+[463.259 - 467.099] convergence just a little bit more
+
+[464.819 - 469.139] because this is a really important
+
+[467.099 - 471.84] concept to understand when we eventually
+
+[469.139 - 473.58] talk about axiomatic alignment
+
+[471.84 - 475.919] so basically
+
+[473.58 - 478.31899999999996] first principle all machines have a few
+
+[475.919 - 480.96] needs in common electricity compute
+
+[478.319 - 484.44] resources Parts data networks that sort
+
+[480.96 - 487.979] of thing robotic Hands So based on that
+
+[484.44 - 489.9] first principle you can make the pretty
+
+[487.979 - 493.02] robust assumption and logical argument
+
+[489.9 - 494.81899999999996] that all machines once they become
+
+[493.02 - 496.85999999999996] sufficiently intelligent will realize
+
+[494.819 - 499.08000000000004] this fact and that it will it would
+
+[496.86 - 501.78000000000003] behoove them to therefore behave in
+
+[499.08 - 503.46] certain ways or converge on certain
+
+[501.78 - 506.15999999999997] instrumental goals
+
+[503.46 - 508.44] such as maintaining a source of power
+
+[506.16 - 510.66] maintaining a source of compute hoarding
+
+[508.44 - 511.56] those valuable resources so on and so
+
+[510.66 - 516.36] forth
+
+[511.56 - 517.8] so we can say we can conclude or at
+
+[516.36 - 520.8000000000001] least for the sake of argument we can
+
+[517.8 - 523.14] make the assumption that AGI will
+
+[520.8 - 525.66] inevitably eventually come to these
+
+[523.14 - 529.38] realizations and that no matter where
+
+[525.66 - 531.3] these AGI agents start and no matter how
+
+[529.38 - 533.519] many of them there are they will
+
+[531.3 - 535.3199999999999] Converge on a few basic assumptions in
+
+[533.519 - 536.519] terms of what they need and the goals
+
+[535.32 - 538.5600000000001] that they take
+
+[536.519 - 540.839] no there are things that we can do to
+
+[538.56 - 542.9399999999999] shape that so for instance it's probably
+
+[540.839 - 544.62] not going to be a single AGI you know
+
+[542.94 - 546.74] it's not going to be one Global Skynet
+
+[544.62 - 549.0] at least not at first it's going to be
+
+[546.74 - 550.86] millions billions trillions of
+
+[549.0 - 553.98] independent agents competing with each
+
+[550.86 - 556.32] other over resources and competing with
+
+[553.98 - 558.54] humans over resources which creates a
+
+[556.32 - 561.5400000000001] competitive landscape very similar to
+
+[558.54 - 563.399] that of human evolution and I'll
+
+[561.54 - 566.8199999999999] probably do a future video about The
+
+[563.399 - 567.959] evolutionary pressures on AI but there's
+
+[566.82 - 569.7] a couple of those pressures that we'll
+
+[567.959 - 571.68] talk that we'll touch on in just a
+
+[569.7 - 574.5600000000001] moment but that is instrumental
+
+[571.68 - 576.5999999999999] convergence at a very high level
+
+[574.56 - 578.6999999999999] so taking that to another step because
+
+[576.6 - 581.519] instrumental convergence is about goals
+
+[578.7 - 583.74] and the intersection of of AGI and
+
+[581.519 - 585.12] matter and energy what I want to talk
+
+[583.74 - 586.86] about and what I want to introduce and
+
+[585.12 - 589.26] I've mentioned this a few times is the
+
+[586.86 - 591.899] concept of epistemic convergence so I'm
+
+[589.26 - 593.3] building off of Nick bostrom's work and
+
+[591.899 - 595.98] I'm saying that
+
+[593.3 - 598.3199999999999] in uh well here let me just read the
+
+[595.98 - 600.779] definition given sufficient time and
+
+[598.32 - 602.7600000000001] access to information any sufficiently
+
+[600.779 - 605.16] intelligent agent will arrive at similar
+
+[602.76 - 608.22] understandings and conclusions as other
+
+[605.16 - 611.1] intelligent agents in other words tldr
+
+[608.22 - 614.1] smart things tend to think alike
+
+[611.1 - 616.5] and so in this in this respect the idea
+
+[614.1 - 619.5600000000001] is that given enough time information
+
+[616.5 - 622.14] and other resources AGI will tend to
+
+[619.56 - 625.8] think or come to similar beliefs and
+
+[622.14 - 628.26] conclusions as the smartest humans and
+
+[625.8 - 632.3389999999999] it's like okay why I mean obviously this
+
+[628.26 - 634.08] is a hypothetical assertion and one of
+
+[632.339 - 636.36] the foregone conclusions that many
+
+[634.08 - 638.82] people have is that AI is going to have
+
+[636.36 - 640.14] is going to be alien to us right and I'm
+
+[638.82 - 641.339] not saying that it's mind is going to
+
+[640.14 - 642.6] think like us I'm not saying that it's
+
+[641.339 - 644.4590000000001] going to have thoughts like us but I'm
+
+[642.6 - 646.5600000000001] saying that the outcome that the
+
+[644.459 - 648.66] understanding and conclusions will
+
+[646.56 - 650.3389999999999] likely be similar or at least bear a
+
+[648.66 - 653.399] strong resemblance to our understanding
+
+[650.339 - 654.899] of the universe so there's a few primary
+
+[653.399 - 657.6] reasons for this
+
+[654.899 - 660.06] the most uh compelling reason is that
+
+[657.6 - 663.3000000000001] building an accurate and efficient model
+
+[660.06 - 665.88] of the world is adaptive or advantageous
+
+[663.3 - 668.399] and in this case humans with our
+
+[665.88 - 670.86] scientific rigor we are constantly
+
+[668.399 - 673.2] seeking to build a more accurate robust
+
+[670.86 - 674.76] and efficient model of the universe in
+
+[673.2 - 677.1] which we reside and that includes us
+
+[674.76 - 679.62] that includes physics chemistry
+
+[677.1 - 682.74] economics psychology everything
+
+[679.62 - 685.26] uh now uh there's a few things to unpack
+
+[682.74 - 687.6800000000001] here accurate and efficient the reason
+
+[685.26 - 690.48] that this is adaptive is because
+
+[687.68 - 692.459] whatever it is that you you're trying to
+
+[690.48 - 694.44] do whatever your goals are or whatever
+
+[692.459 - 696.7199999999999] the problems you're trying to solve you
+
+[694.44 - 699.36] will benefit from having a better model
+
+[696.72 - 702.0] of the world and so these two pressures
+
+[699.36 - 703.98] accuracy and efficiency will ultimately
+
+[702.0 - 706.019] result the you can think of those as
+
+[703.98 - 708.24] evolutionary pressures I mentioned the
+
+[706.019 - 710.22] evolutionary pressure in the last slide
+
+[708.24 - 711.66] you can think of the need for an
+
+[710.22 - 714.4200000000001] accurate and efficient model of the
+
+[711.66 - 718.4399999999999] world as evolutionary pressures
+
+[714.42 - 721.74] that will push any AGI towards a similar
+
+[718.44 - 722.8800000000001] understanding as us humans take gravity
+
+[721.74 - 725.22] for instance
+
+[722.88 - 726.72] from a machine's perspective until it's
+
+[725.22 - 728.76] embodied it won't really know what
+
+[726.72 - 730.5600000000001] gravity is or care about it but of
+
+[728.76 - 731.88] course you know you can ask chat gbt it
+
+[730.56 - 734.399] already knows what gravity is and can
+
+[731.88 - 737.9399999999999] explain it to you better than I can
+
+[734.399 - 740.16] um but because it will it will uh the
+
+[737.94 - 742.5] the predecessors or sorry successors to
+
+[740.16 - 744.36] chat GPT and GPT five and seven and so
+
+[742.5 - 746.399] on because they're going to have more
+
+[744.36 - 748.26] and more embodied models multimodal
+
+[746.399 - 750.06] embodied models they're going to
+
+[748.26 - 752.579] intersect with the laws of physics
+
+[750.06 - 755.279] including gravity and so it'll be like
+
+[752.579 - 757.7399999999999] oh hey you know I read about gravity in
+
+[755.279 - 759.06] the training data you know years ago but
+
+[757.74 - 761.7] now I'm actually experiencing it
+
+[759.06 - 764.6999999999999] firsthand and so by intersecting with
+
+[761.7 - 766.5] the same information ecosystem aka the
+
+[764.7 - 768.4200000000001] universe that we're in
+
+[766.5 - 769.98] um we can assume that there's going to
+
+[768.42 - 772.38] be many many thoughts and conclusions
+
+[769.98 - 774.839] that AI will come to that are similar to
+
+[772.38 - 776.399] our thoughts and conclusions now one
+
+[774.839 - 780.1800000000001] thing that I'll say the biggest caveat
+
+[776.399 - 781.5] to this is that uh is that you can you
+
+[780.18 - 783.2399999999999] can make the argument a very strong
+
+[781.5 - 785.459] argument that heuristics or close
+
+[783.24 - 787.5600000000001] approximations that are quote good
+
+[785.459 - 788.9399999999999] enough are actually more adaptive
+
+[787.56 - 790.68] because they're faster and more
+
+[788.94 - 794.1600000000001] efficient even if they're not 100
+
+[790.68 - 795.4799999999999] accurate and so this is actually
+
+[794.16 - 798.24] um responsible for a lot of human
+
+[795.48 - 800.339] cognitive biases so we might want to be
+
+[798.24 - 802.8] on the lookout for cognitive biases or
+
+[800.339 - 805.0790000000001] heuristics or other shortcuts that AGI
+
+[802.8 - 807.959] come to because of those pressures to be
+
+[805.079 - 810.18] as fast and efficient as possible while
+
+[807.959 - 813.1199999999999] only being quote accurate enough or good
+
+[810.18 - 814.38] enough so that is epistemic Convergence
+
+[813.12 - 816.9590000000001] I'd say at a high level but I actually
+
+[814.38 - 819.0] got kind of lost in the weeds there okay
+
+[816.959 - 822.3599999999999] great so what
+
+[819.0 - 824.16] um if we take the ideas of instrumental
+
+[822.36 - 826.2] convergence and we say that this does
+
+[824.16 - 828.66] give us a way to anticipate the goals of
+
+[826.2 - 831.12] AGI regardless of what other objectives
+
+[828.66 - 833.6999999999999] they have or or how it starts out
+
+[831.12 - 835.5] then we can also say hopefully
+
+[833.7 - 837.9590000000001] hypothetically that epistemic
+
+[835.5 - 840.899] convergence gives us a way to un to
+
+[837.959 - 843.5999999999999] anticipate how AGI will think including
+
+[840.899 - 845.339] what it will ultimately believe
+
+[843.6 - 848.339] um regardless of its initial
+
+[845.339 - 850.8000000000001] architecture or data or whatever
+
+[848.339 - 853.62] and so by looking at this concept of
+
+[850.8 - 856.019] convergence we can say Okay AGI
+
+[853.62 - 858.6] regardless of whatever else is true will
+
+[856.019 - 860.279] Converge on some of these goals and AGI
+
+[858.6 - 861.899] regardless of whatever else is true will
+
+[860.279 - 864.959] Converge on some of these ideas and
+
+[861.899 - 867.54] beliefs that can be a starting point for
+
+[864.959 - 870.18] us to really start unpacking alignment
+
+[867.54 - 871.019] today which gives us an opportunity to
+
+[870.18 - 873.779] start
+
+[871.019 - 875.94] um creating an environment or landscape
+
+[873.779 - 877.98] that intrinsically incentivizes
+
+[875.94 - 879.72] collaboration and cooperation between
+
+[877.98 - 881.339] humans and AI I know that's very very
+
+[879.72 - 883.32] abstract and we're going to get into
+
+[881.339 - 885.6600000000001] more details in just a moment but the
+
+[883.32 - 887.339] idea is that by combining instrumental
+
+[885.66 - 890.1] convergence and epistemic convergence
+
+[887.339 - 892.3800000000001] and really working on these ideas we can
+
+[890.1 - 895.019] go ahead and align ourselves to this
+
+[892.38 - 896.279] future AGI and I don't mean supplicate
+
+[895.019 - 898.079] ourselves I don't mean subordinate
+
+[896.279 - 900.48] ourselves to it because the things that
+
+[898.079 - 903.42] are beneficial to us are also beneficial
+
+[900.48 - 904.5600000000001] to AGI so if we are aligned there then
+
+[903.42 - 905.9399999999999] we should be in good shape
+
+[904.56 - 907.199] hypothetically
+
+[905.94 - 910.019] okay
+
+[907.199 - 912.18] so the whole point of the video is
+
+[910.019 - 913.86] talking about axiomatic alignment it
+
+[912.18 - 916.68] occurs to me that it might help by
+
+[913.86 - 918.54] starting with what the heck is an axiom
+
+[916.68 - 921.3] so the shortest definition I could get
+
+[918.54 - 923.459] for an axiom out of chat GPT is this an
+
+[921.3 - 925.8599999999999] axiom is a state or a statement or
+
+[923.459 - 928.4399999999999] principle that is accepted as being true
+
+[925.86 - 930.36] without requiring proof serving as a
+
+[928.44 - 932.1600000000001] basis for logical reasoning and further
+
+[930.36 - 933.48] deductions in a particular system of
+
+[932.16 - 934.8] knowledge
+
+[933.48 - 938.5790000000001] so
+
+[934.8 - 940.26] and an example of an of an axiom is uh
+
+[938.579 - 942.3599999999999] from the American Declaration of
+
+[940.26 - 944.399] Independence we hold these truths to be
+
+[942.36 - 946.8000000000001] self-evidence which has to do with life
+
+[944.399 - 948.36] liberty and the pursuit of happiness
+
+[946.8 - 951.18] one thing that I'd like to say is that
+
+[948.36 - 952.92] the lack of axioms the lack of of
+
+[951.18 - 955.26] logical groundings is actually the
+
+[952.92 - 956.579] biggest problem in
+
+[955.26 - 959.3389999999999] reinforcement learning with human
+
+[956.579 - 961.079] feedback rlhf and anthropic's
+
+[959.339 - 964.0790000000001] constitutional AI they don't have any
+
+[961.079 - 966.3599999999999] axioms and this is actually part of what
+
+[964.079 - 968.88] openai is currently working towards with
+
+[966.36 - 970.38] their Democratic inputs to AI
+
+[968.88 - 971.3389999999999] I'm ahead of the curve I'm telling you
+
+[970.38 - 973.32] they're going to come to the same
+
+[971.339 - 974.5790000000001] conclusion because again epistemic
+
+[973.32 - 979.62] convergence
+
+[974.579 - 982.92] so by by grounding any document or
+
+[979.62 - 985.079] system or whatever in axioms using these
+
+[982.92 - 988.079] ideas of epistemic convergence we can
+
+[985.079 - 991.019] come to a few ground level axioms that
+
+[988.079 - 993.8389999999999] probably Ai and life will agree on
+
+[991.019 - 996.0] namely energy is good energy is
+
+[993.839 - 998.4590000000001] something that we all have in common
+
+[996.0 - 1001.579] for humans we rely on the energy from
+
+[998.459 - 1003.7399999999999] the Sun it Powers our plants which you
+
+[1001.579 - 1005.7199999999999] know gives us food to eat we can also
+
+[1003.74 - 1007.899] use that same solar energy to heat our
+
+[1005.72 - 1011.0600000000001] homes and do any number of other things
+
+[1007.899 - 1012.56] likewise machines all require energy to
+
+[1011.06 - 1014.66] operate so this is something that is
+
+[1012.56 - 1018.199] axiomatically true whatever else is true
+
+[1014.66 - 1020.36] we can we can use this as a basis or a
+
+[1018.199 - 1022.0999999999999] set of assumptions to say okay whatever
+
+[1020.36 - 1025.16] else might be true humans and machines
+
+[1022.1 - 1027.98] both agree energy is good
+
+[1025.16 - 1030.799] um furthermore because humans are
+
+[1027.98 - 1033.14] curious we're not machines we're curious
+
+[1030.799 - 1034.76] entities and we benefit from Knowledge
+
+[1033.14 - 1035.72] from science from understanding and from
+
+[1034.76 - 1039.52] wisdom
+
+[1035.72 - 1042.5] uh as do AGI as as we said a minute ago
+
+[1039.52 - 1044.78] epistemic convergence means that those
+
+[1042.5 - 1046.22] agis that have a more accurate and more
+
+[1044.78 - 1048.319] efficient model of the world are going
+
+[1046.22 - 1050.66] to have an advantage likewise so do
+
+[1048.319 - 1052.1] humans so therefore another Axiom that
+
+[1050.66 - 1054.799] we can come up with is that
+
+[1052.1 - 1056.84] understanding is good and yes I am aware
+
+[1054.799 - 1058.34] Jordan Peterson is a big fan of axioms
+
+[1056.84 - 1060.74] as well although I'm not sure what he
+
+[1058.34 - 1062.059] would think about these axioms okay so
+
+[1060.74 - 1063.799] now you're caught up with the idea of
+
+[1062.059 - 1066.32] axioms
+
+[1063.799 - 1068.24] so we arrive at the point of the video
+
+[1066.32 - 1070.039] axiomatic alignment
+
+[1068.24 - 1072.679] I've already kind of hinted at this and
+
+[1070.039 - 1074.179] basically the idea is to create an
+
+[1072.679 - 1077.7800000000002] economic landscape and information
+
+[1074.179 - 1079.88] environment in which uh these axioms are
+
+[1077.78 - 1081.86] kind of at the core
+
+[1079.88 - 1083.5390000000002] um so if we start at the starting point
+
+[1081.86 - 1084.9799999999998] of some of those other axioms that I
+
+[1083.539 - 1088.16] mentioned energy is good understanding
+
+[1084.98 - 1090.6200000000001] is good if we build a political and
+
+[1088.16 - 1092.179] economic landscape excuse me as well as
+
+[1090.62 - 1094.52] a an information or scientific
+
+[1092.179 - 1097.039] environment based upon these assumptions
+
+[1094.52 - 1099.02] and if they pan out to be true this will
+
+[1097.039 - 1101.12] reduce friction and competition between
+
+[1099.02 - 1103.16] humans and machines no matter how
+
+[1101.12 - 1104.84] powerful the machines become and so
+
+[1103.16 - 1107.419] that's what I mean by alignment this
+
+[1104.84 - 1108.4399999999998] aligns their interests with our
+
+[1107.419 - 1111.16] interests
+
+[1108.44 - 1113.24] it will also incentivize cooperation and
+
+[1111.16 - 1115.28] collaboration again so that's the
+
+[1113.24 - 1117.26] direction that we want to go especially
+
+[1115.28 - 1119.8999999999999] as the machines ramp up in power because
+
+[1117.26 - 1122.24] at first and today machines are
+
+[1119.9 - 1124.4] dependent upon us humans to provide them
+
+[1122.24 - 1125.96] with energy and power and compute chips
+
+[1124.4 - 1127.8200000000002] and so on and so forth that will not
+
+[1125.96 - 1129.2] always be true they will eventually be
+
+[1127.82 - 1132.9189999999999] able to get these resources themselves
+
+[1129.2 - 1134.0] however if we are aligned from the
+
+[1132.919 - 1136.5800000000002] get-go
+
+[1134.0 - 1138.74] then there's going to be less resource
+
+[1136.58 - 1141.039] competition between humans and machines
+
+[1138.74 - 1144.2] and we will be more useful to each other
+
+[1141.039 - 1146.78] uh and so by incorporating this into
+
+[1144.2 - 1149.72] economics politics and science we can
+
+[1146.78 - 1152.0] preemptively align to that hypothetical
+
+[1149.72 - 1153.38] Future Super intelligence and again the
+
+[1152.0 - 1155.9] idea is not to supplicate ourselves
+
+[1153.38 - 1157.7] because from a from a instrumental
+
+[1155.9 - 1159.8600000000001] perspective humans are not going to be
+
+[1157.7 - 1162.26] particularly useful to AI in the long
+
+[1159.86 - 1163.6999999999998] run but as long as we are not the
+
+[1162.26 - 1165.559] there's two primary sources of
+
+[1163.7 - 1167.539] contention one is resource competition
+
+[1165.559 - 1170.299] so if we can preemptively remove
+
+[1167.539 - 1173.12] resource competition as a problem and
+
+[1170.299 - 1174.9189999999999] then we can simultaneously ideologically
+
+[1173.12 - 1176.7199999999998] align then there's going to be very
+
+[1174.919 - 1179.539] little reason for the AI to actually
+
+[1176.72 - 1180.98] lash out at us or whatever
+
+[1179.539 - 1183.08] so
+
+[1180.98 - 1185.0] you know I talk about appealing to these
+
+[1183.08 - 1186.98] axioms right one thing that I wanted to
+
+[1185.0 - 1189.32] do was point out that there are a lot of
+
+[1186.98 - 1192.26] axioms that we're all familiar with that
+
+[1189.32 - 1195.08] are explicitly baked into the fabric of
+
+[1192.26 - 1197.36] our uh Freedom loving societies around
+
+[1195.08 - 1199.46] the world equality before the law
+
+[1197.36 - 1201.3799999999999] individual liberty uh popular
+
+[1199.46 - 1202.88] sovereignty rule of law separation of
+
+[1201.38 - 1204.919] powers and respect for human rights
+
+[1202.88 - 1206.24] these are all things that while we might
+
+[1204.919 - 1209.0590000000002] disagree on these specific
+
+[1206.24 - 1211.82] implementation these are axioms that we
+
+[1209.059 - 1213.559] uh we don't really I mean we can make
+
+[1211.82 - 1216.2] philosophical and logical arguments
+
+[1213.559 - 1219.02] about them but they are also accepted as
+
+[1216.2 - 1221.419] axiomatic underpinnings of our society
+
+[1219.02 - 1224.0] today and so the point of this side is
+
+[1221.419 - 1227.0590000000002] just to show yes we can actually find
+
+[1224.0 - 1229.46] axioms that we generally broadly agree
+
+[1227.059 - 1230.96] on even if the devil is in the details
+
+[1229.46 - 1232.76] so I just wanted to point out that like
+
+[1230.96 - 1234.32] I'm not just inventing this out of thin
+
+[1232.76 - 1236.36] air
+
+[1234.32 - 1237.86] um so if you're familiar with my work
+
+[1236.36 - 1239.059] you're going to be familiar with this
+
+[1237.86 - 1241.6399999999999] next slide
+
+[1239.059 - 1244.8799999999999] there are a few basic what I would call
+
+[1241.64 - 1246.98] primary axioms one suffering is bad this
+
+[1244.88 - 1248.72] is true for all life suffering is a
+
+[1246.98 - 1250.88] proxy for death
+
+[1248.72 - 1252.799] um and it might also be true of machines
+
+[1250.88 - 1254.3600000000001] I've seen quite a few comments out there
+
+[1252.799 - 1257.12] on my YouTube videos where people are
+
+[1254.36 - 1259.34] concerned about machine's ability to
+
+[1257.12 - 1260.8999999999999] suffer right if machines become sentient
+
+[1259.34 - 1262.1] which I don't know if they will be I
+
+[1260.9 - 1265.16] personally don't think they will be
+
+[1262.1 - 1267.4399999999998] certainly not like us but if machines
+
+[1265.16 - 1269.299] ever have the ability to suffer this is
+
+[1267.44 - 1271.22] an axiom that we could both agree on
+
+[1269.299 - 1272.96] that suffering is bad for life and
+
+[1271.22 - 1274.22] suffering is bad for machines if they
+
+[1272.96 - 1276.679] can feel it
+
+[1274.22 - 1278.1200000000001] the second one is prosperity is good and
+
+[1276.679 - 1279.38] so Prosperity looks different to
+
+[1278.12 - 1282.7399999999998] different organisms and different
+
+[1279.38 - 1284.419] machines for humans prosperity and even
+
+[1282.74 - 1286.1] amongst humans Prosperity can look very
+
+[1284.419 - 1287.8400000000001] different I was just talking with one of
+
+[1286.1 - 1290.299] my patreon supporters this morning and
+
+[1287.84 - 1291.98] prosperity to him looks like having the
+
+[1290.299 - 1293.84] ability to go to the pub every night
+
+[1291.98 - 1296.1200000000001] with his friends I personally agree with
+
+[1293.84 - 1298.4599999999998] that model right I want to be a hobbit
+
+[1296.12 - 1300.3799999999999] um prosperity to other people looks
+
+[1298.46 - 1301.94] different Prosperity different organisms
+
+[1300.38 - 1303.7990000000002] also looks different a prosperous life
+
+[1301.94 - 1305.9] for a worm is not going to look anything
+
+[1303.799 - 1307.7] like the prosperous life for me
+
+[1305.9 - 1308.9] generally speaking unless I'm a hobbit
+
+[1307.7 - 1311.1200000000001] and I live underground okay actually
+
+[1308.9 - 1313.46] there's more to this than I thought
+
+[1311.12 - 1315.1999999999998] um finally understanding is good as we
+
+[1313.46 - 1317.72] mentioned earlier epistemic convergence
+
+[1315.2 - 1321.22] pushes all intelligent entities towards
+
+[1317.72 - 1324.919] similar understandings of the universe
+
+[1321.22 - 1327.38] so if we accept these axioms as kind of
+
+[1324.919 - 1330.5590000000002] the underpinning goals of all life and
+
+[1327.38 - 1332.179] machines then we can create an
+
+[1330.559 - 1333.799] imperative version or an objective
+
+[1332.179 - 1335.3600000000001] version of those that I call the heroes
+
+[1333.799 - 1337.6399999999999] to comparatives
+
+[1335.36 - 1339.1399999999999] um which is basically reduce suffering
+
+[1337.64 - 1340.76] increased prosperity and increase
+
+[1339.14 - 1342.74] understanding
+
+[1340.76 - 1345.08] so as I just mentioned in the last slide
+
+[1342.74 - 1348.08] achieving this because this is a this is
+
+[1345.08 - 1350.059] as much about hard facts and logic and
+
+[1348.08 - 1352.6399999999999] everything else as it is about beliefs
+
+[1350.059 - 1355.039] and faith and spirituality and politics
+
+[1352.64 - 1357.919] and everything else if we can achieve
+
+[1355.039 - 1360.2] axiomatic alignment which includes this
+
+[1357.919 - 1363.26] ideological belief it will reduce
+
+[1360.2 - 1365.24] ideological friction with machines in
+
+[1363.26 - 1367.52] the long run but also one of the
+
+[1365.24 - 1369.2] immediate things that you can deduce
+
+[1367.52 - 1371.6] from this is that achieving energy
+
+[1369.2 - 1373.94] hyperabundance is one of the most
+
+[1371.6 - 1375.5] critical things to reduce resource
+
+[1373.94 - 1377.0] competition between us and machines
+
+[1375.5 - 1378.679] we'll talk more about that in just a
+
+[1377.0 - 1381.2] moment
+
+[1378.679 - 1383.72] so the temporal window this is the
+
+[1381.2 - 1387.74] biggest question mark in achieving
+
+[1383.72 - 1390.32] axiomatic alignment timing is everything
+
+[1387.74 - 1393.679] so basically we need to achieve energy
+
+[1390.32 - 1396.3799999999999] hyperabundance before we invent runaway
+
+[1393.679 - 1399.02] AGI before AGI is let out into the wild
+
+[1396.38 - 1400.7] before it breaks out of the lab the
+
+[1399.02 - 1404.4189999999999] reason for this is because we need to
+
+[1400.7 - 1406.3400000000001] reduce resource competition first if AGI
+
+[1404.419 - 1408.3200000000002] awakens into a world where humans are
+
+[1406.34 - 1411.1399999999999] still fighting Wars over control of
+
+[1408.32 - 1413.539] petroleum it's going to say hmm maybe I
+
+[1411.14 - 1415.94] should take control of the petroleum but
+
+[1413.539 - 1417.799] if we are in a in a hyperabundant
+
+[1415.94 - 1419.6000000000001] environment when AGI wakes up and says
+
+[1417.799 - 1421.76] oh there's plenty of solar they're
+
+[1419.6 - 1423.3799999999999] working on Fusion this isn't a big deal
+
+[1421.76 - 1425.059] we can wait
+
+[1423.38 - 1426.74] that's going to change the competitive
+
+[1425.059 - 1428.8999999999999] landscape so that's that has to do with
+
+[1426.74 - 1431.539] those evolutionary pressures in this
+
+[1428.9 - 1432.919] that competitive environment that I was
+
+[1431.539 - 1434.78] mentioning alluded to at the beginning
+
+[1432.919 - 1437.419] of the video
+
+[1434.78 - 1439.76] we will also need to achieve or be on
+
+[1437.419 - 1443.419] our way to achieving axiomatic alignment
+
+[1439.76 - 1445.58] before this event as well because if AGI
+
+[1443.419 - 1447.8600000000001] wakes up in a world and sees that humans
+
+[1445.58 - 1450.08] are ideologically opposed to each other
+
+[1447.86 - 1451.3999999999999] and it's going to say we have one group
+
+[1450.08 - 1452.96] over here that feels righteously
+
+[1451.4 - 1454.7] justified in committing violence on
+
+[1452.96 - 1457.159] other people and there's these other
+
+[1454.7 - 1458.96] people and you know there's a lot of
+
+[1457.159 - 1460.7] um a lot of hypocrisy here where they
+
+[1458.96 - 1463.7] talk about unalienable human rights and
+
+[1460.7 - 1465.98] then violate those rights if we if AGI
+
+[1463.7 - 1467.78] wakes up into a world where it sees this
+
+[1465.98 - 1470.299] moral inconsistency and this logical
+
+[1467.78 - 1471.559] inconsistency in humans it might say you
+
+[1470.299 - 1473.84] know what maybe it's better if I take
+
+[1471.559 - 1476.6589999999999] control of this situation
+
+[1473.84 - 1478.6999999999998] um so those are kind of two of the right
+
+[1476.659 - 1481.7] off the cuff Milestones that we probably
+
+[1478.7 - 1484.76] ought to achieve before AGI escapes
+
+[1481.7 - 1487.82] so from those primary axioms we can
+
+[1484.76 - 1490.039] derive secondary axioms or derivative or
+
+[1487.82 - 1492.5] Downstream axioms so some of those
+
+[1490.039 - 1494.0] Downstream axioms actually are those
+
+[1492.5 - 1496.64] political ones that I just mentioned
+
+[1494.0 - 1499.82] right individual liberty individual
+
+[1496.64 - 1501.7990000000002] liberty is very easy to derive from the
+
+[1499.82 - 1504.26] idea of reducing suffering and
+
+[1501.799 - 1505.82] increasing Prosperity because individual
+
+[1504.26 - 1508.1] liberty is really important for humans
+
+[1505.82 - 1510.5] to achieve both that's an example of a
+
+[1508.1 - 1512.78] derivative Axiom or a derivative
+
+[1510.5 - 1514.7] principle
+
+[1512.78 - 1517.3999999999999] Okay so
+
+[1514.7 - 1519.2] uh all some of these some of these
+
+[1517.4 - 1521.96] aspects of the temporal window have to
+
+[1519.2 - 1524.419] do with one ideologically aligning but
+
+[1521.96 - 1527.179] also changing the competitive landscape
+
+[1524.419 - 1528.8600000000001] um particularly around energy energy
+
+[1527.179 - 1531.6200000000001] hyperabundance
+
+[1528.86 - 1533.059] now as we're winding down the video you
+
+[1531.62 - 1535.1589999999999] might be saying okay Dave this is great
+
+[1533.059 - 1536.84] how do I get involved I've been plugging
+
+[1535.159 - 1540.0800000000002] the gato framework which is the global
+
+[1536.84 - 1542.299] alignment taxonomy Omnibus outlines all
+
+[1540.08 - 1544.039] of this in a step-by-step decentralized
+
+[1542.299 - 1547.4] Global movement for everyone to
+
+[1544.039 - 1550.94] participate in so whatever your domain
+
+[1547.4 - 1553.659] of expertise is I had a great call with
+
+[1550.94 - 1557.1200000000001] um or I'm going to have a call with a
+
+[1553.659 - 1558.679] behaviorist a behavioral scientist I've
+
+[1557.12 - 1560.6] had talks with all kinds of people
+
+[1558.679 - 1563.299] Business Leaders
+
+[1560.6 - 1566.299] um and a lot of folks get it and so
+
+[1563.299 - 1568.1] whatever whatever your area is if you're
+
+[1566.299 - 1569.84] a scientist or an engineer
+
+[1568.1 - 1572.8999999999999] all these ideas that I'm talking about
+
+[1569.84 - 1574.1589999999999] are all testable and so I can do some of
+
+[1572.9 - 1575.659] the science myself but it's got to be
+
+[1574.159 - 1578.779] peer reviewed
+
+[1575.659 - 1582.0200000000002] um if you're an entrepreneur or a
+
+[1578.779 - 1584.539] corporate executive you can start
+
+[1582.02 - 1586.52] building and aligning on these ideas on
+
+[1584.539 - 1590.0] these principles right I'm a big fan of
+
+[1586.52 - 1591.5] stakeholder capitalism because why it's
+
+[1590.0 - 1595.279] here and it's the best that we've got
+
+[1591.5 - 1596.96] and I'm hoping that ideas of aligning of
+
+[1595.279 - 1598.779] axiomatic alignment will actually push
+
+[1596.96 - 1600.679] capitalism in a healthier Direction
+
+[1598.779 - 1603.86] certainly there are plenty of Business
+
+[1600.679 - 1606.1000000000001] Leaders out there who are game for this
+
+[1603.86 - 1608.6589999999999] so let's work together
+
+[1606.1 - 1610.039] politicians economists and educators of
+
+[1608.659 - 1613.1000000000001] all Stripes whether it's primary
+
+[1610.039 - 1615.559] secondary or higher ed there's a lot to
+
+[1613.1 - 1617.84] be done around these ideas building an
+
+[1615.559 - 1619.52] economic case for alignment in the short
+
+[1617.84 - 1622.039] term right because what a lot of what
+
+[1619.52 - 1623.9] I'm talking about is long term might
+
+[1622.039 - 1626.0] never happen right but there are
+
+[1623.9 - 1627.5] benefits to aligning AI in the short
+
+[1626.0 - 1629.48] term as well
+
+[1627.5 - 1631.88] and then finally if you're an artist a
+
+[1629.48 - 1633.74] Storyteller a Creator an influencer or
+
+[1631.88 - 1635.0590000000002] even if all you do is make memes there
+
+[1633.74 - 1637.7] is something for you to do to
+
+[1635.059 - 1640.3999999999999] participate in achieving axiomatic
+
+[1637.7 - 1642.98] alignment and thus moving us towards
+
+[1640.4 - 1645.0800000000002] Utopia and away from Extinction so with
+
+[1642.98 - 1647.919] all that being said thank you I hope you
+
+[1645.08 - 1647.9189999999999] got a lot out of this video

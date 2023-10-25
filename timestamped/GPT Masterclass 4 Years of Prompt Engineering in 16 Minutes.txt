@@ -1,0 +1,869 @@
+[0.0 - 5.94] there are exactly three kinds of prompts
+
+[3.6 - 8.82] that uh that exist that encapsulate
+
+[5.94 - 10.8] literally every other kind of prompt and
+
+[8.82 - 13.5] just a couple of foundational principles
+
+[10.8 - 16.8] that you need to know in order to master
+
+[13.5 - 18.96] language models such as GPT and llama
+
+[16.8 - 20.34] and others now a little bit of
+
+[18.96 - 23.16] background about myself I've been doing
+
+[20.34 - 26.16] prompt engineering since gpt2 and of
+
+[23.16 - 28.439] course now we are on gpt4 so the three
+
+[26.16 - 31.259999999999998] fundamental operations you need start
+
+[28.439 - 33.6] with reductive operations so what do I
+
+[31.26 - 36.0] mean by reductive operations a reductive
+
+[33.6 - 39.0] operation is where you have a larger
+
+[36.0 - 40.82] input than you do output so this is
+
+[39.0 - 42.84] things like summarization
+
+[40.82 - 45.480000000000004] summarization is you say the same thing
+
+[42.84 - 46.980000000000004] with fewer words there's a few formats
+
+[45.48 - 48.538999999999994] that you can use you can use lists you
+
+[46.98 - 50.459999999999994] can use nodes you can use executive
+
+[48.539 - 52.92] summary each of these have slightly
+
+[50.46 - 55.92] different focuses so for instance an
+
+[52.92 - 58.199] executive summary gives you just a high
+
+[55.92 - 60.719] level overview or the core assertion
+
+[58.199 - 63.239] without actually trying to say the same
+
+[60.719 - 65.22] thing over again distillation is a very
+
+[63.239 - 67.979] useful one which is basically you're
+
+[65.22 - 70.79899999999999] you're telling it to kind of purify uh
+
+[67.979 - 74.4] the the the core underlying uh principle
+
+[70.799 - 76.92] or fact this removes a lot of noise uh
+
+[74.4 - 78.0] extraction so extraction is what a lot
+
+[76.92 - 79.619] of people are really familiar with
+
+[78.0 - 82.68] already because that comes from older
+
+[79.619 - 84.84] NLP such as answering questions uh named
+
+[82.68 - 86.06] entity extraction getting dates and
+
+[84.84 - 88.02000000000001] numbers that sort of thing
+
+[86.06 - 90.479] characterizing this is one that a lot of
+
+[88.02 - 92.15899999999999] people don't know about you can have the
+
+[90.479 - 94.979] language model either characterize the
+
+[92.159 - 96.96000000000001] text or characterize the the topic
+
+[94.979 - 98.82] within the text and so what I mean by
+
+[96.96 - 101.52] that is you can characterize text you
+
+[98.82 - 103.91999999999999] can say you know is this does this look
+
+[101.52 - 105.6] like fiction does it look like a
+
+[103.92 - 108.72] scientific article does this look like
+
+[105.6 - 110.88] code or then you can if it is code for
+
+[108.72 - 112.979] instance you can characterize the code
+
+[110.88 - 115.619] within that context
+
+[112.979 - 117.53999999999999] you can analyze it so basically you can
+
+[115.619 - 119.64] do a structural analysis rhetorical
+
+[117.54 - 122.22] analysis that sort of thing there's
+
+[119.64 - 124.56] evaluations so evaluations are measuring
+
+[122.22 - 126.36] grading or judging the content
+
+[124.56 - 129.06] um so there's several kinds of
+
+[126.36 - 131.94] evaluations so say for instance you have
+
+[129.06 - 134.22] a rubric and you say hey grade this um
+
+[131.94 - 136.379] you know grade this this essay based on
+
+[134.22 - 138.84] this rubric plenty of people have
+
+[136.379 - 141.0] discovered that out there you can also
+
+[138.84 - 143.459] evaluate against moral Frameworks so you
+
+[141.0 - 146.4] can say like is this aligned with you
+
+[143.459 - 148.68] know Plato's you know yada yada or is
+
+[146.4 - 149.52] this aligned with cantian logic or
+
+[148.68 - 151.8] whatever
+
+[149.52 - 154.08] it knows those things and then finally
+
+[151.8 - 156.78] critiquing so critiquing is providing
+
+[154.08 - 158.87900000000002] critical feedback and recommendations to
+
+[156.78 - 161.34] improve something that's reductive
+
+[158.879 - 163.07999999999998] operations the second kind of operation
+
+[161.34 - 165.84] is transformational operations so
+
+[163.08 - 167.76000000000002] transformational operations uh that you
+
+[165.84 - 170.76] basically the input and output put are
+
+[167.76 - 173.76] roughly the same size and roughly the
+
+[170.76 - 175.379] same and or roughly the same meaning so
+
+[173.76 - 178.019] an example of a transformation operation
+
+[175.379 - 180.66] is reformatting so this just changes the
+
+[178.019 - 183.26] presentation you might say hey take this
+
+[180.66 - 185.7] and you know turn it into bullet points
+
+[183.26 - 188.28] rewrite this prose as screenplay or
+
+[185.7 - 191.0] rewrite the screenplay as Pros translate
+
+[188.28 - 193.8] it from XML to Json that sort of thing
+
+[191.0 - 195.84] refactoring so refactoring is something
+
+[193.8 - 198.12] from uh from the programming World which
+
+[195.84 - 200.34] is basically say okay take this chunk of
+
+[198.12 - 202.8] code write something that does the same
+
+[200.34 - 204.959] exact thing but write it better or write
+
+[202.8 - 206.81900000000002] it differently and you can also do the
+
+[204.959 - 210.659] same thing with language so for instance
+
+[206.819 - 213.95899999999997] any kind of structured language or uh or
+
+[210.659 - 216.0] a constructed language you can say Hey
+
+[213.959 - 218.519] you know basically say the same thing
+
+[216.0 - 219.84] but in a different way uh and so like
+
+[218.519 - 221.64000000000001] whether it's a legal document or a
+
+[219.84 - 223.26] scientific document or whatever you can
+
+[221.64 - 225.54] still you can refactor those as well
+
+[223.26 - 227.099] language change so you can change
+
+[225.54 - 229.07999999999998] between natural languages such as
+
+[227.099 - 231.29899999999998] English and Portuguese you can also
+
+[229.08 - 234.06] translate between coding languages like
+
+[231.299 - 236.09900000000002] C plus to python now obviously I can
+
+[234.06 - 238.92000000000002] hear people in the background screaming
+
+[236.099 - 240.72] like C plus is is compiled and python is
+
+[238.92 - 241.85999999999999] interpreted and there's all kinds of
+
+[240.72 - 243.48] things that mean that you can't
+
+[241.86 - 245.76000000000002] translate directly from one to the other
+
+[243.48 - 247.79899999999998] it's true but give it a try you'd be
+
+[245.76 - 249.54] surprised how well uh modern language
+
+[247.799 - 251.87900000000002] models can do
+
+[249.54 - 254.159] so restructuring so restructuring is
+
+[251.879 - 256.739] different from reformatting whereas
+
+[254.159 - 258.9] restructuring says okay this is in the
+
+[256.739 - 261.0] wrong order we need to change the order
+
+[258.9 - 263.58] we need to remove sections we need to
+
+[261.0 - 266.52] add sections you can optimize for
+
+[263.58 - 268.19899999999996] logical flow you can optimize for uh
+
+[266.52 - 269.9] basically any kind of priority that you
+
+[268.199 - 272.34000000000003] want so that's restructuring
+
+[269.9 - 274.979] modification so there's all kinds of
+
+[272.34 - 278.03999999999996] modifications you can do but basically
+
+[274.979 - 280.199] you rewrite copy to achieve a slightly
+
+[278.04 - 281.759] different intention you can change the
+
+[280.199 - 284.46000000000004] tone you can change the formality you
+
+[281.759 - 286.56] can change the level of diplomacy you
+
+[284.46 - 288.53999999999996] can change the style those are what I
+
+[286.56 - 291.3] mean by modifications and then finally
+
+[288.54 - 294.12] clarification so clarification is where
+
+[291.3 - 297.72] you say hey write this but write it like
+
+[294.12 - 300.06] more clear right articulate it better
+
+[297.72 - 302.88000000000005] and more clearly which is something that
+
+[300.06 - 305.1] is extremely useful when you're using it
+
+[302.88 - 306.54] to edit for instance scientific copy or
+
+[305.1 - 308.88] if you're not a native English speaker
+
+[306.54 - 310.259] or native anything speaker really if I
+
+[308.88 - 313.56] was trying to write something in French
+
+[310.259 - 315.66] and I would you know like my grasp with
+
+[313.56 - 318.419] French is like I've basically taken two
+
+[315.66 - 320.04] weeks of French so I'd be like rewrite
+
+[318.419 - 322.139] this garbage so that it's actually
+
+[320.04 - 323.40000000000003] comprehensible to a French person that's
+
+[322.139 - 324.84000000000003] an example of a transformational
+
+[323.4 - 327.35999999999996] operation
+
+[324.84 - 329.63899999999995] and then finally generative operations
+
+[327.36 - 331.91900000000004] or expansion operations or magnification
+
+[329.639 - 334.8] operations in this case the input is
+
+[331.919 - 336.24] much smaller than the output and it may
+
+[334.8 - 337.979] or may not have the same meaning but the
+
+[336.24 - 341.22] idea is that you go from small to big
+
+[337.979 - 342.71999999999997] and so this is drafting so drafting is
+
+[341.22 - 346.199] where you give it a set of instructions
+
+[342.72 - 349.56] and it you have it draft a an some kind
+
+[346.199 - 352.039] of document whether that's a code file
+
+[349.56 - 354.479] fiction legal document knowledge base
+
+[352.039 - 356.15999999999997] scientific document some kind of
+
+[354.479 - 358.919] Storytelling like you know telling a
+
+[356.16 - 361.32000000000005] story about data or other facts
+
+[358.919 - 362.82] planning so planning is another thing
+
+[361.32 - 364.86] that I don't see a lot of out there that
+
+[362.82 - 366.84] that it's actually really good at which
+
+[364.86 - 369.12] is given a set of parameters come up
+
+[366.84 - 372.06] with plans so you can have you know
+
+[369.12 - 373.979] action plans project plans uh brainstorm
+
+[372.06 - 376.199] objectives and missions
+
+[373.979 - 379.38] um you can have it elucidate constraints
+
+[376.199 - 382.08000000000004] and and uh and also discuss the context
+
+[379.38 - 383.58] within that planning session uh
+
+[382.08 - 384.96] brainstorming so brainstorming is
+
+[383.58 - 386.639] something that a lot of people are
+
+[384.96 - 389.63899999999995] familiar with especially with chat GPT
+
+[386.639 - 392.699] where basically use your imagination to
+
+[389.639 - 394.979] list out possibilities so this is you
+
+[392.699 - 397.74] know either generating ideas exploration
+
+[394.979 - 399.59999999999997] of possibilities problem solving problem
+
+[397.74 - 401.639] solving requires brainstorming and then
+
+[399.6 - 403.56] hypothesizing so actually generating
+
+[401.639 - 405.539] hypotheses and then finally
+
+[403.56 - 409.1] amplification
+
+[405.539 - 411.06] which is similar to expanding something
+
+[409.1 - 412.86] in the transformational one but
+
+[411.06 - 415.199] basically instead of just saying explain
+
+[412.86 - 417.47900000000004] this thing better you say Riff on this
+
+[415.199 - 418.74] and and actually expand this entire
+
+[417.479 - 420.479] topic
+
+[418.74 - 422.1] um to fully unpack it that's that's the
+
+[420.479 - 424.74] key word that I use there is unpacking
+
+[422.1 - 427.38] where it's like hey here's a topic that
+
+[424.74 - 429.06] I want to talk more about unpack this
+
+[427.38 - 430.44] so those are the three operations it's
+
+[429.06 - 433.44] reductive transformational and
+
+[430.44 - 435.419] generative or expansive now the other
+
+[433.44 - 437.34] thing that you need to know about uh
+
+[435.419 - 439.74] prompt engineering and language models
+
+[437.34 - 441.9] is latency and emergence
+
+[439.74 - 443.40000000000003] all right so before we dive into this I
+
+[441.9 - 446.34] need to give you a really really really
+
+[443.4 - 448.31899999999996] fast crash course on Bloom's taxonomy so
+
+[446.34 - 450.23999999999995] Bloom's tax on Bloom studied all all
+
+[448.319 - 453.0] kinds of stuff in education so if you
+
+[450.24 - 454.74] look them up uh did a lot of stuff with
+
+[453.0 - 457.44] education like Bloom's 2 Sigma problem
+
+[454.74 - 459.3] but Bloom's taxonomy as someone who is a
+
+[457.44 - 463.139] big fan of Frameworks
+
+[459.3 - 465.96000000000004] um this is really critical to understand
+
+[463.139 - 467.94] um how humans learn in order to really
+
+[465.96 - 470.0] see what language models are capable of
+
+[467.94 - 472.919] so at the bottom layer you have remember
+
+[470.0 - 475.5] followed by understand followed by apply
+
+[472.919 - 477.24] analyze evaluate and create and so let's
+
+[475.5 - 479.78] really quickly unpack these and you will
+
+[477.24 - 483.24] see that language models have already
+
+[479.78 - 485.15999999999997] attained most if not all of Bloom's
+
+[483.24 - 488.22] taxonomy so remembering is just
+
+[485.16 - 490.819] recalling facts and content Concepts yes
+
+[488.22 - 493.08000000000004] it can regurgitate stuff no problem
+
+[490.819 - 495.66] understanding so understanding is
+
+[493.08 - 497.039] defined as explaining the ideas and
+
+[495.66 - 499.259] Concepts connecting the words to
+
+[497.039 - 501.539] meanings yes language models can can
+
+[499.259 - 503.16] absolutely do that and so whenever I see
+
+[501.539 - 504.539] someone in the comments say like but
+
+[503.16 - 506.879] language models don't truly understand
+
+[504.539 - 509.34] anything I'm like well yes they do by
+
+[506.879 - 511.379] this definition but then if you want to
+
+[509.34 - 513.36] dive into the epistemics and and
+
+[511.379 - 515.159] philosophy of it then I would argue that
+
+[513.36 - 517.039] humans don't understand anything anyways
+
+[515.159 - 519.3] anyways going down a rabbit hole
+
+[517.039 - 520.979] applying using information in new
+
+[519.3 - 523.14] situations so this is the functional
+
+[520.979 - 525.3000000000001] utility if language models couldn't
+
+[523.14 - 528.0] apply information they wouldn't be
+
+[525.3 - 531.18] useful but they are useful and so we see
+
+[528.0 - 533.16] that they can apply and and functional
+
+[531.18 - 535.62] settings analyzing
+
+[533.16 - 537.18] so drawing connections among ideas if
+
+[535.62 - 539.1] you don't believe me go into chat GPT
+
+[537.18 - 541.56] and ask it to do a rhetorical analysis
+
+[539.1 - 544.5600000000001] on your own emails or whatever it
+
+[541.56 - 546.899] absolutely can analyze stuff uh number
+
+[544.56 - 549.2399999999999] or uh the the next one it's not I didn't
+
+[546.899 - 550.8] number these uh evaluating so justifying
+
+[549.24 - 553.86] a decision or action now of course this
+
+[550.8 - 555.3599999999999] is where uh chat GPT you can really get
+
+[553.86 - 558.12] it into a corner because it will
+
+[555.36 - 560.519] definitely justify itself it'll it will
+
+[558.12 - 562.44] explain and articulate and defend
+
+[560.519 - 565.62] um something whether or not it's right
+
+[562.44 - 567.48] but again doing it in one shot is not
+
+[565.62 - 570.42] necessarily going to produce the best
+
+[567.48 - 571.9200000000001] results because if you have a person if
+
+[570.42 - 573.4799999999999] you back a person into a corner and ask
+
+[571.92 - 575.16] them to justify themselves well people
+
+[573.48 - 577.5600000000001] will often do the same things especially
+
+[575.16 - 579.36] pathological liars and then finally
+
+[577.56 - 581.0999999999999] creating producing new or original work
+
+[579.36 - 582.839] generating something that did not
+
+[581.1 - 584.279] previously exist pretty much everything
+
+[582.839 - 586.1600000000001] that a language model spits out is
+
+[584.279 - 589.62] something that did not previously exist
+
+[586.16 - 592.56] so by this definition by this model
+
+[589.62 - 596.04] language models are already at the full
+
+[592.56 - 598.9799999999999] stack of taxonomy in terms of mental
+
+[596.04 - 600.5999999999999] capabilities that humans are now you
+
+[598.98 - 602.4590000000001] might argue it's like well okay it's not
+
+[600.6 - 604.74] quite as smart as a human in some
+
+[602.459 - 606.06] respects and it makes kinds of mistakes
+
+[604.74 - 608.399] okay sure whatever I'm not going to
+
+[606.06 - 610.0799999999999] argue about the details
+
+[608.399 - 611.82] um the point here is that Bloom's
+
+[610.08 - 613.14] taxonomy is a good model for
+
+[611.82 - 616.62] understanding what language models are
+
+[613.14 - 619.5] capable of okay so latency
+
+[616.62 - 621.0600000000001] latent content or the latent space this
+
+[619.5 - 622.92] is the knowledge facts Concepts
+
+[621.06 - 625.14] information and other capabilities that
+
+[622.92 - 627.06] are embedded in the model but they must
+
+[625.14 - 629.9399999999999] be activated by the correct prompting
+
+[627.06 - 632.76] it's like buried treasure uh hence the
+
+[629.94 - 635.2790000000001] ends the graphic here so training data
+
+[632.76 - 637.14] the latent content only originates from
+
+[635.279 - 638.58] the training data which means that it's
+
+[637.14 - 641.16] not going to magically know something
+
+[638.58 - 643.32] that wasn't in the training data now
+
+[641.16 - 645.959] that being said it can connect dots and
+
+[643.32 - 648.48] synthesize new information this is this
+
+[645.959 - 650.64] is what I mean by by this is creating is
+
+[648.48 - 652.0790000000001] if you activate the right you know set
+
+[650.64 - 654.0] of patterns with the right words and
+
+[652.079 - 655.92] prompts the language model will be able
+
+[654.0 - 658.079] to make novel connections
+
+[655.92 - 659.8199999999999] uh World Knowledge so General facts and
+
+[658.079 - 662.8199999999999] understanding about the world this is
+
+[659.82 - 664.62] all inferred and and imbibed from the
+
+[662.82 - 666.6] training data scientific information
+
+[664.62 - 668.82] cultural knowledge historical knowledge
+
+[666.6 - 670.6800000000001] and languages all of this comes from the
+
+[668.82 - 672.9590000000001] training data because
+
+[670.68 - 674.519] um whether or not you realize it these
+
+[672.959 - 677.279] language models are trained on many many
+
+[674.519 - 679.5600000000001] terabytes worth of internet data which
+
+[677.279 - 682.86] means through either explicit or
+
+[679.56 - 684.18] implicit connections it understands all
+
+[682.86 - 688.38] of these things
+
+[684.18 - 690.2399999999999] emerging capabilities so the larger a
+
+[688.38 - 691.92] language model is the more emergent
+
+[690.24 - 693.899] capabilities we're finding and so
+
+[691.92 - 696.42] several examples of these emerging
+
+[693.899 - 697.8] capabilities are theory of mind the
+
+[696.42 - 699.8389999999999] theory of mind is the ability to
+
+[697.8 - 702.18] understand and keep track of the content
+
+[699.839 - 704.4590000000001] of other people's minds uh basically
+
+[702.18 - 706.9799999999999] it's read enough Reddit to look at you
+
+[704.459 - 709.9799999999999] know how people think to understand how
+
+[706.98 - 711.48] humans think uh now you might say This
+
+[709.98 - 712.8000000000001] is highly controversial because it
+
+[711.48 - 714.9200000000001] doesn't have mirror neurons and other
+
+[712.8 - 717.24] kinds of stuff I really don't care
+
+[714.92 - 719.64] mathematically speaking it has read
+
+[717.24 - 722.399] enough human generated content to be
+
+[719.64 - 724.74] able to model a human's mind
+
+[722.399 - 726.899] um implied cognition and the second one
+
+[724.74 - 729.72] so basically thinking with the right
+
+[726.899 - 731.519] prompting so what I mean by this is that
+
+[729.72 - 734.88] in because all of these language models
+
+[731.519 - 737.04] are due is they're trained to predict
+
+[734.88 - 739.38] the next token in order to accurately
+
+[737.04 - 742.14] predict the next token it had to learn
+
+[739.38 - 743.88] to think uh this it's it's as simple as
+
+[742.14 - 745.38] that is okay well it's just a
+
+[743.88 - 747.66] mathematical model to predict the next
+
+[745.38 - 750.36] token yes but it's also a black box on
+
+[747.66 - 753.36] the inside and it's doing a lot of
+
+[750.36 - 755.4590000000001] embedded operations and and using some
+
+[753.36 - 757.5600000000001] of those emerging capabilities in order
+
+[755.459 - 759.18] to Accurate act this excuse me
+
+[757.56 - 760.8599999999999] accurately predict whatever the next
+
+[759.18 - 763.26] token is going to be
+
+[760.86 - 764.4590000000001] logical reasoning so inductive and
+
+[763.26 - 766.079] deductive reasoning basically
+
+[764.459 - 769.9799999999999] triangulating principles from General
+
+[766.079 - 771.899] observations or vice versa again if you
+
+[769.98 - 774.0] if you tell it you know you analyze this
+
+[771.899 - 775.56] with a with a specific framework use
+
+[774.0 - 777.48] inductive reasoning use deductive
+
+[775.56 - 779.579] reasoning it will surprise you with what
+
+[777.48 - 782.1] it's capable of doing and finally in
+
+[779.579 - 784.26] context learning uh the fact that
+
+[782.1 - 787.019] language models are able to use entirely
+
+[784.26 - 789.54] novel information uh that that are
+
+[787.019 - 791.82] outside of the training distribution
+
+[789.54 - 794.88] um and it can effectively and accurately
+
+[791.82 - 797.7600000000001] use that information is very similar to
+
+[794.88 - 799.019] humans ability to improvise and so the
+
+[797.76 - 800.76] fact that one of the emerging
+
+[799.019 - 803.88] capabilities is this improvisational
+
+[800.76 - 805.26] ability or in context learning means
+
+[803.88 - 806.76] that these models are actually very very
+
+[805.26 - 808.92] intelligent
+
+[806.76 - 811.26] and then finally hallucination equals
+
+[808.92 - 812.459] creativity a lot of people say oh well
+
+[811.26 - 814.019] it's not actually creative but it's
+
+[812.459 - 816.42] hallucinating I'm like you can't have it
+
+[814.019 - 818.399] both ways because these are cognitively
+
+[816.42 - 820.62] the same exact behavior
+
+[818.399 - 822.24] um there is there is functionally no
+
+[820.62 - 824.7] difference between hallucination which
+
+[822.24 - 827.22] is making stuff up and creativity which
+
+[824.7 - 831.24] is creating new things the difference is
+
+[827.22 - 832.98] whether or not you as the user recognize
+
+[831.24 - 834.72] um that Hallucination is actually a
+
+[832.98 - 836.519] superpower that you cannot have
+
+[834.72 - 838.62] creativity without the ability to
+
+[836.519 - 839.82] imagine things that don't exist this
+
+[838.62 - 843.0600000000001] actually comes from human evolution
+
+[839.82 - 845.22] which is uh when when mentally modern
+
+[843.06 - 846.779] humans started emerging we started
+
+[845.22 - 848.519] drawing things on Cave walls that didn't
+
+[846.779 - 852.24] exist like hybrid animals and hybrid
+
+[848.519 - 854.82] humans and uh and other things so what
+
+[852.24 - 857.76] uh my point here is that the emergent
+
+[854.82 - 860.4590000000001] ability to be creative to hallucinate is
+
+[857.76 - 862.5] actually required in order to achieve
+
+[860.459 - 865.38] these things and so you cannot separate
+
+[862.5 - 867.06] hallucination from creativity now what
+
+[865.38 - 869.76] you can do is there's there there's
+
+[867.06 - 873.0] mechanisms that you can use in order to
+
+[869.76 - 876.3] ground that so you can recognize it as
+
+[873.0 - 877.62] this is a feature not a bug it is a
+
+[876.3 - 879.42] cognitive behavior but then it's a
+
+[877.62 - 881.4590000000001] matter of labeling and keeping track of
+
+[879.42 - 882.7199999999999] what's fictitious versus real so for
+
+[881.459 - 885.18] instance I was talking to some of my
+
+[882.72 - 886.5600000000001] lawyer friends who like using Claude or
+
+[885.18 - 888.54] they experiment with Claude I don't
+
+[886.56 - 890.0999999999999] think they use it in their business but
+
+[888.54 - 891.8389999999999] you know one thing that one thing that
+
+[890.1 - 893.82] models do and you've seen this in the
+
+[891.839 - 897.0] news particularly with law is they'll
+
+[893.82 - 899.1] just make up cases that don't exist and
+
+[897.0 - 900.72] it's like oh well this is problematic
+
+[899.1 - 902.5790000000001] and I'm like no it's not
+
+[900.72 - 904.62] what it's doing is it's imagining if
+
+[902.579 - 906.66] there was a case that did this then it
+
+[904.62 - 908.4590000000001] would prove this point and so the way
+
+[906.66 - 909.7199999999999] that the way that human brains use this
+
+[908.459 - 911.04] is that
+
+[909.72 - 914.279] um because there are mental disorders
+
+[911.04 - 917.04] and and brain injuries that uh basically
+
+[914.279 - 919.26] make it so that you cannot discern your
+
+[917.04 - 921.24] imagination from reality
+
+[919.26 - 923.639] um but this is a necessary function
+
+[921.24 - 925.92] because how do you know what to go look
+
+[923.639 - 928.32] for you imagine it first you say hey
+
+[925.92 - 930.42] wouldn't it be great if there was a
+
+[928.32 - 932.88] legal case out there that proved this
+
+[930.42 - 934.86] point and so rather than rather than
+
+[932.88 - 936.899] pathologizing and say oh the the thing
+
+[934.86 - 939.6] hallucinated this you just didn't take
+
+[936.899 - 942.3] it a far enough step to say hey let's go
+
+[939.6 - 945.0] find a case like this one we imagined a
+
+[942.3 - 947.399] possibly useful case so now let's go
+
+[945.0 - 949.079] let's go ground that in reality using
+
+[947.399 - 952.62] case text to go search
+
+[949.079 - 955.68] uh it's also very context dependent
+
+[952.62 - 958.019] um so basically like when is it good and
+
+[955.68 - 960.12] useful to hallucinate and imagine and
+
+[958.019 - 962.519] brainstorm so now that you know all
+
+[960.12 - 963.9590000000001] these things uh you have you are
+
+[962.519 - 966.3] equipped with pretty much everything
+
+[963.959 - 967.7399999999999] that I know from the last four years of
+
+[966.3 - 970.9799999999999] prompt engineering and working with
+
+[967.74 - 973.5600000000001] language models on a daily basis uh so
+
+[970.98 - 975.72] you are set to go forth and automate
+
+[973.56 - 976.56] everything in the universe have a good
+
+[975.72 - 979.1] one
+
+[976.56 - 979.0999999999999] thanks

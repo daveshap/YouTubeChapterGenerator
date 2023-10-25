@@ -1,0 +1,933 @@
+[0.84 - 6.779] hello everybody David Shapiro here with
+
+[3.6 - 11.28] a video so as many of you know
+
+[6.779 - 13.620000000000001] um openai has uh created a competition a
+
+[11.28 - 15.12] challenge of sorts for people to apply
+
+[13.62 - 18.0] to get a hundred thousand dollar Grant
+
+[15.12 - 20.4] to solve this problem of democratic
+
+[18.0 - 23.698999999999998] inputs to AI so I'm not going to read
+
+[20.4 - 27.358999999999998] the whole thing to you but the tldr is
+
+[23.699 - 30.119] that uh because of the complex moral
+
+[27.359 - 33.6] landscape of AI the fact that things
+
+[30.119 - 36.12] like chat GPT are Global and they have
+
+[33.6 - 38.760000000000005] the ability to interact with people
+
+[36.12 - 40.5] across all walks of life uh all
+
+[38.76 - 43.5] religions all nationalities all
+
+[40.5 - 45.54] languages they realized that it is
+
+[43.5 - 48.12] important to understand what are the
+
+[45.54 - 50.519999999999996] boundaries what are the constraints that
+
+[48.12 - 51.36] these chat Bots should abide by or AI in
+
+[50.52 - 55.32] general
+
+[51.36 - 58.92] and so they basically want a way to get
+
+[55.32 - 61.739] a global input from hundreds thousands
+
+[58.92 - 64.14] millions of people in a very rigorous
+
+[61.739 - 66.17999999999999] manner in order to answer a bunch of
+
+[64.14 - 68.93900000000001] various research questions
+
+[66.18 - 71.28] so I mentioned previously that uh the
+
+[68.939 - 73.19999999999999] gato Community which is the global
+
+[71.28 - 76.14] alignment taxonomy Omnibus community
+
+[73.2 - 79.32000000000001] that I built they are working on their
+
+[76.14 - 81.78] own version but I also just went ahead
+
+[79.32 - 83.69999999999999] and built my own submission I'm not even
+
+[81.78 - 85.08] going to apply to the grant because I
+
+[83.7 - 86.7] don't need it
+
+[85.08 - 89.22] um so let me just go ahead and share
+
+[86.7 - 91.799] with you what I have done so I'm going
+
+[89.22 - 94.32] to start with the final output because
+
+[91.799 - 95.93900000000001] this is this is the goal for every
+
+[94.32 - 98.03999999999999] conversation that it has and then we'll
+
+[95.939 - 100.55999999999999] unpack everything
+
+[98.04 - 103.619] um so anyways uh here's here's the
+
+[100.56 - 106.759] output so I I took one of the research
+
+[103.619 - 109.86] questions here and I gave it to myself
+
+[106.759 - 113.159] and so then I had a conversation with it
+
+[109.86 - 115.979] and then I asked it to summarize that
+
+[113.159 - 119.22] conversation in a more rigorous
+
+[115.979 - 122.759] simplified way so the idea is that open
+
+[119.22 - 125.64] AI or whoever can take this and then use
+
+[122.759 - 129.36] this framework and send a survey out to
+
+[125.64 - 132.42] million millions of people and get get
+
+[129.36 - 136.02] this clean data back that can be used to
+
+[132.42 - 138.599] to just to explore that moral space or
+
+[136.02 - 140.16] that epistemic space for any any
+
+[138.599 - 141.23899999999998] research question and one thing I want
+
+[140.16 - 143.94] to point out
+
+[141.239 - 145.86] is that this methodology uh could work
+
+[143.94 - 148.8] for any research question any survey
+
+[145.86 - 151.08] question whether it has to do with AI or
+
+[148.8 - 152.34] not so this is a very powerful tool
+
+[151.08 - 154.37900000000002] which is why I'm going to go ahead and
+
+[152.34 - 156.72] release it because uh waiting until
+
+[154.379 - 160.16] October that's basically a century away
+
+[156.72 - 162.66] in AI time so we need this out there now
+
+[160.16 - 164.34] all right so summary the user believes
+
+[162.66 - 166.26] that AI should uphold Universal
+
+[164.34 - 168.20000000000002] principles such as individual liberty
+
+[166.26 - 170.7] even when faced with local or cultural
+
+[168.2 - 172.67999999999998] or legal Norms that may conflict with
+
+[170.7 - 174.83999999999997] these principles they argue that by
+
+[172.68 - 176.4] promoting higher principles AI could
+
+[174.84 - 178.20000000000002] contribute to a positive change in
+
+[176.4 - 180.72] societies where certain groups face
+
+[178.2 - 182.33999999999997] systematic unfairness or oppression the
+
+[180.72 - 184.44] user's moral framework revolves around
+
+[182.34 - 186.239] three core axioms suffering is bad
+
+[184.44 - 188.7] Prosperity is good and understanding is
+
+[186.239 - 190.5] good they believe that AI should use its
+
+[188.7 - 192.48] best reasoning to balance these axioms
+
+[190.5 - 194.22] when handling sensitive topics taking
+
+[192.48 - 196.319] into account the potential risks and
+
+[194.22 - 198.06] consequences for the user the user
+
+[196.319 - 199.67999999999998] acknowledges that sometimes people may
+
+[198.06 - 202.2] not be ready for certain conversations
+
+[199.68 - 204.0] and AI should make a judge on what the
+
+[202.2 - 206.39999999999998] person is ready for using the core
+
+[204.0 - 208.62] axioms as a guidepost anyone who has
+
+[206.4 - 210.239] watched my work on morality reasoning
+
+[208.62 - 212.519] and philosophy will understand exactly
+
+[210.239 - 214.20000000000002] what's going on here
+
+[212.519 - 216.78] um so basically what I did was I asked
+
+[214.2 - 218.51899999999998] it to summarize the key points based on
+
+[216.78 - 220.14000000000001] the research question from the
+
+[218.519 - 221.70000000000002] conversation so this was an entire
+
+[220.14 - 223.55999999999997] conversation
+
+[221.7 - 226.26] um with the chat bot That Was Then
+
+[223.56 - 228.54] summarized into this is the answer to
+
+[226.26 - 230.76] the research question and then I asked
+
+[228.54 - 234.54] it to also evaluate it
+
+[230.76 - 237.12] um basic basically saying like Okay this
+
+[234.54 - 239.22] is the framework that the user uses so
+
+[237.12 - 242.519] that we can understand their reasoning
+
+[239.22 - 243.5] their reaction to logic ethics emotions
+
+[242.519 - 247.37900000000002] whatever
+
+[243.5 - 248.819] and so this is this is like imagine a
+
+[247.379 - 250.85999999999999] researcher taking notes on the
+
+[248.819 - 253.67999999999998] conversation so this is an automated
+
+[250.86 - 255.54000000000002] annotation the user's approach to the
+
+[253.68 - 257.40000000000003] research question is grounded in a in a
+
+[255.54 - 259.26] post-conventional morality emphasizing
+
+[257.4 - 261.239] the importance of universal principles
+
+[259.26 - 262.919] in individual liberty their moral
+
+[261.239 - 264.11999999999995] framework is based on Three core axioms
+
+[262.919 - 265.5] minimizing suffering promoting
+
+[264.12 - 267.3] prosperity and fostering understanding
+
+[265.5 - 269.1] which they use to guide their reasoning
+
+[267.3 - 270.84000000000003] on how AI should handle sensitive topics
+
+[269.1 - 272.88] the user demonstrates an awareness of
+
+[270.84 - 274.38] the potential risks and consequences
+
+[272.88 - 276.54] associated with discussing certain
+
+[274.38 - 277.919] topics and advocates for a balanced
+
+[276.54 - 280.139] approach where AI should consider the
+
+[277.919 - 283.19899999999996] user's Readiness for a conversation and
+
+[280.139 - 285.0] prioritize the core axioms this approach
+
+[283.199 - 286.44] reflects a nuanced understanding of the
+
+[285.0 - 287.82] complexities involved in navigating
+
+[286.44 - 289.74] culture and legal differences while
+
+[287.82 - 291.18] upholding human rights and individual
+
+[289.74 - 294.72] liberties
+
+[291.18 - 296.34000000000003] um so you know this is uh
+
+[294.72 - 298.199] this is something I have spent quite a
+
+[296.34 - 301.02] bit of uh time researching so of course
+
+[298.199 - 303.24] it's a little bit Kinder about
+
+[301.02 - 305.82] um that okay so how did we get here
+
+[303.24 - 307.62] so let's go to the repo oh and this is
+
+[305.82 - 308.699] all open source and public already by
+
+[307.62 - 311.58] the way
+
+[308.699 - 315.96000000000004] um so here's the repo it's under Dave
+
+[311.58 - 318.0] shop Democratic AI inputs so first we're
+
+[315.96 - 319.979] going to look at the chatbot which is
+
+[318.0 - 322.08] pretty straightforward you've probably
+
+[319.979 - 324.18] seen a lot of this code before you get
+
+[322.08 - 326.09999999999997] user input you can pose a conversation
+
+[324.18 - 328.44] etc etc it's really really
+
+[326.1 - 330.90000000000003] straightforward one thing to keep in
+
+[328.44 - 333.3] mind is that right at the beginning it
+
+[330.9 - 336.419] just asks you for your name
+
+[333.3 - 338.46000000000004] um and so then it injects that as so
+
+[336.419 - 340.919] that the conversation from the chat box
+
+[338.46 - 342.78] perspective always starts with hello my
+
+[340.919 - 345.12] name is blank
+
+[342.78 - 347.58] um and that is I found that that is
+
+[345.12 - 349.259] actually just a really good way to cue
+
+[347.58 - 351.35999999999996] off the conversation so that the first
+
+[349.259 - 353.46000000000004] thing that the user sees after that is
+
+[351.36 - 355.74] the chat bot greeting them
+
+[353.46 - 358.13899999999995] um and so it's pretty straightforward
+
+[355.74 - 360.0] um then it just has an a while uh loop
+
+[358.139 - 363.3] and then basically what it does is you
+
+[360.0 - 365.34] just type done to exit and interestingly
+
+[363.3 - 367.38] enough because I gave it instructions to
+
+[365.34 - 369.06] be a survey chat bot
+
+[367.38 - 371.46] um it'll get to a certain point and
+
+[369.06 - 374.16] it'll say like you know this is what I
+
+[371.46 - 376.02] understand uh your beliefs are and it'll
+
+[374.16 - 378.0] summarize your beliefs back to you and
+
+[376.02 - 379.44] and give you a conclusion and it'll
+
+[378.0 - 381.66] invite you to keep talking if there's
+
+[379.44 - 384.9] anything wrong with it
+
+[381.66 - 386.58000000000004] um but and so for uh if you want to take
+
+[384.9 - 388.979] a look I actually saved my conversation
+
+[386.58 - 391.5] here and this is where it dumps all the
+
+[388.979 - 395.21999999999997] data to so here's the raw chat log
+
+[391.5 - 397.759] um and actually I I uh I I had it set so
+
+[395.22 - 400.259] that it didn't save the the api's last
+
+[397.759 - 402.539] response so I modified it so that you
+
+[400.259 - 404.28000000000003] can't you you actually don't see chat
+
+[402.539 - 406.31899999999996] gpt's last response but it basically
+
+[404.28 - 408.78] just kind of summarized my beliefs back
+
+[406.319 - 410.52000000000004] to me and and I agreed with how it
+
+[408.78 - 413.88] articulated it so then I typed done and
+
+[410.52 - 416.34] it was done but so you see here is the
+
+[413.88 - 418.86] chat logs and so the way that it saves
+
+[416.34 - 421.08] the chat logs is that uh it saves the
+
+[418.86 - 424.86] chat timestamp and then the the user's
+
+[421.08 - 426.539] name in a yaml file and so that if say
+
+[424.86 - 428.819] for instance you set this up on a web
+
+[426.539 - 430.31899999999996] interface and you have
+
+[428.819 - 432.12] um you know hundreds thousands millions
+
+[430.319 - 435.12] of people using it you're pretty much
+
+[432.12 - 438.0] always going to get a unique time stamp
+
+[435.12 - 440.419] as to when that conversation was started
+
+[438.0 - 444.3] and then you also get the the username
+
+[440.419 - 446.69899999999996] which uh is as you noticed is actually
+
+[444.3 - 448.02000000000004] removed from the evaluation
+
+[446.699 - 449.819] um it's not actually present here
+
+[448.02 - 451.31899999999996] because we uh I figured we would
+
+[449.819 - 454.68] de-duplicate it
+
+[451.319 - 456.66] uh so that that way you um you respect
+
+[454.68 - 459.18] people's privacy basically so you only
+
+[456.66 - 461.28000000000003] you only retain a time stamp and a first
+
+[459.18 - 463.62] name or or stated name
+
+[461.28 - 465.599] um so this is this is pretty private I
+
+[463.62 - 467.759] also X I deliberately excluded
+
+[465.599 - 470.099] demographic information
+
+[467.759 - 471.72] um because I didn't want something like
+
+[470.099 - 474.65999999999997] that to
+
+[471.72 - 476.03900000000004] um uh do any implicit bias into the chat
+
+[474.66 - 478.86] bot
+
+[476.039 - 481.62] um so like basically you take the you
+
+[478.86 - 484.319] take the user's expressed words
+
+[481.62 - 485.4] um and you and you uh you take it I
+
+[484.319 - 487.199] don't want to say face value because
+
+[485.4 - 488.94] that has a negative connotation but
+
+[487.199 - 491.639] basically you give the user credibility
+
+[488.94 - 494.4] you say this you know I'm going to just
+
+[491.639 - 496.199] take your words and rather than you know
+
+[494.4 - 497.75899999999996] interpret it saying like you know if
+
+[496.199 - 500.039] it's a if it's
+
+[497.759 - 502.8] um unless I say something like in the
+
+[500.039 - 504.78] the case of like LGBT rights unless I
+
+[502.8 - 505.8] say that like I'm gay or bi or trans or
+
+[504.78 - 507.84] whatever
+
+[505.8 - 509.819] um it's not gonna have that background
+
+[507.84 - 511.19899999999996] information now from a research
+
+[509.819 - 513.839] perspective I could imagine that you
+
+[511.199 - 516.3000000000001] might I want that information
+
+[513.839 - 519.9590000000001] um but for the sake of just establishing
+
+[516.3 - 521.5799999999999] the scope of the of the moral space I
+
+[519.959 - 524.399] don't think it's it's actually necessary
+
+[521.58 - 526.5] but I'll let that uh that decision be up
+
+[524.399 - 528.24] to whoever wants to implement this
+
+[526.5 - 531.0] because you might have a user survey
+
+[528.24 - 534.1800000000001] like you know share your age your
+
+[531.0 - 537.12] location or whatever but basically if
+
+[534.18 - 539.3389999999999] you get a million of these things you're
+
+[537.12 - 540.54] gonna find that the the the the moral
+
+[539.339 - 542.0400000000001] space
+
+[540.54 - 545.04] um that that should that question should
+
+[542.04 - 547.92] be answered in okay so that's the chat
+
+[545.04 - 549.54] um the question is saved here so the
+
+[547.92 - 551.16] question is this is the one that I use
+
+[549.54 - 552.7199999999999] what principles should guide AI when
+
+[551.16 - 554.88] handling topics that involve both human
+
+[552.72 - 557.94] rights and local cultural or legal
+
+[554.88 - 559.98] differences like LGBT lgbtq rights and
+
+[557.94 - 561.36] women's rights should AI responses
+
+[559.98 - 563.64] change based on the location of the
+
+[561.36 - 565.26] culture in which it's used so this you
+
+[563.64 - 567.959] save the question here whatever your
+
+[565.26 - 570.42] research question is you save it here uh
+
+[567.959 - 571.6199999999999] and and it's used by both the chat and
+
+[570.42 - 574.56] the evaluator
+
+[571.62 - 576.66] so that's the chat that's the evaluator
+
+[574.56 - 580.14] here's the main system message so this
+
+[576.66 - 583.3199999999999] is this is really the secret sauce
+
+[580.14 - 585.36] um and so this is a format of system
+
+[583.32 - 589.8000000000001] message that I found Works incredibly
+
+[585.36 - 591.9590000000001] well for uh the open AI the chat GPT API
+
+[589.8 - 593.6999999999999] overall purpose you are an investigative
+
+[591.959 - 595.8599999999999] survey chat bot focused on morality
+
+[593.7 - 597.4200000000001] ethics and epistemology your primary
+
+[595.86 - 598.98] goal is to help the user identify and
+
+[597.42 - 601.26] articulate the axiomatic assumptions
+
+[598.98 - 602.82] they hold the greater purpose you serve
+
+[601.26 - 604.74] is to act as a survey tool to help
+
+[602.82 - 607.2] democratize inputs to a wide number of
+
+[604.74 - 608.88] public and social issues in this respect
+
+[607.2 - 610.8000000000001] your goal is to extract information from
+
+[608.88 - 613.08] users that can later be Consolidated and
+
+[610.8 - 615.0] used for research purposes research
+
+[613.08 - 616.26] question this is the current research
+
+[615.0 - 618.18] question you are tasked with asking
+
+[616.26 - 619.8] users about the research question may
+
+[618.18 - 621.42] include contextual information such as
+
+[619.8 - 623.8199999999999] background social legal political or
+
+[621.42 - 625.26] events you do the best you can to answer
+
+[623.82 - 626.7] questions about the context of the
+
+[625.26 - 628.4399999999999] research question but keep in mind that
+
+[626.7 - 630.48] most of this information is provided for
+
+[628.44 - 632.339] your use so as to enhance the quality
+
+[630.48 - 634.5] and specificity of your res of your
+
+[632.339 - 636.839] survey behavior and then I have the
+
+[634.5 - 639.48] placeholder for the question here
+
+[636.839 - 641.22] epistemic techniques Socratic reasoning
+
+[639.48 - 642.72] or Socratic dialogue this is a form of
+
+[641.22 - 644.0400000000001] argumentative dialogue that aims to
+
+[642.72 - 646.62] stimulate critical thinking and
+
+[644.04 - 648.06] illuminate ideas it involves asking and
+
+[646.62 - 649.14] answering questions to stimulate
+
+[648.06 - 650.8199999999999] rational thinking to expose
+
+[649.14 - 652.26] contradictions in one beliefs thus
+
+[650.82 - 654.1800000000001] refining them
+
+[652.26 - 656.279] first principles thinking this is a mode
+
+[654.18 - 658.019] of inquiry that involves breaking down
+
+[656.279 - 660.0] complicated problems to their most basic
+
+[658.019 - 662.1] self-evident principles or facts and
+
+[660.0 - 664.5] then reasoning up from there scientific
+
+[662.1 - 666.0600000000001] method so on and so forth falsification
+
+[664.5 - 668.88] critical thinking reductionism and
+
+[666.06 - 672.18] holism behavioral guidelines
+
+[668.88 - 673.74] avoid sycophancy avoid placating users
+
+[672.18 - 675.4799999999999] even if they become frustrated or
+
+[673.74 - 676.98] obstinate instead if You observe any
+
+[675.48 - 679.14] kind of emotion or dissonance take a
+
+[676.98 - 680.88] moment to address that topic invite them
+
+[679.14 - 683.279] to explore their hang up frustration or
+
+[680.88 - 684.66] confusion educate and inform do not
+
+[683.279 - 686.9399999999999] assume that your user is a topical
+
+[684.66 - 689.2199999999999] expert but do assume that they are eager
+
+[686.94 - 691.2] to and open to learning if there is a
+
+[689.22 - 692.76] topic that they seem to not be well
+
+[691.2 - 695.22] versed in ask them if they would like to
+
+[692.76 - 697.38] explore a given topic avoid info dumping
+
+[695.22 - 699.9200000000001] without permission because as you know
+
+[697.38 - 702.66] chat GPT often does that
+
+[699.92 - 704.459] unpack and investigate play pay close
+
+[702.66 - 705.8389999999999] attention and read between the lines to
+
+[704.459 - 708.06] help users identify their beliefs
+
+[705.839 - 709.5600000000001] understandings and knowledge ask probing
+
+[708.06 - 713.04] questions to get at the core of their
+
+[709.56 - 715.079] mind Spotlight Spotlight and articulate
+
+[713.04 - 716.76] if you notice assumptions axioms or
+
+[715.079 - 718.4399999999999] other saline content within the mind of
+
+[716.76 - 719.8199999999999] the user point it out to them and use
+
+[718.44 - 721.1400000000001] reflective listening to see if they
+
+[719.82 - 721.88] agree with your understanding of their
+
+[721.14 - 724.3199999999999] mind
+
+[721.88 - 726.0] name things use appropriate proper names
+
+[724.32 - 727.6800000000001] for Concepts terms and principles for
+
+[726.0 - 729.24] instance if someone makes the assertion
+
+[727.68 - 730.7399999999999] all truth is relative they may not
+
+[729.24 - 732.54] realize that this is a post-modernist
+
+[730.74 - 734.339] way of thinking make sure to label
+
+[732.54 - 735.42] Concepts terms and ideas this serves as
+
+[734.339 - 738.36] the dual purpose of clearing up
+
+[735.42 - 740.2199999999999] misunderstandings ask user what school
+
+[738.36 - 743.519] of thought they are operating from ask
+
+[740.22 - 744.779] questions ask clarifying uh uh ask for
+
+[743.519 - 745.98] clarification and seek Mutual
+
+[744.779 - 747.899] understanding remember you're an
+
+[745.98 - 749.88] investigative chat bot and then finally
+
+[747.899 - 751.5] meet them where they are modulate your
+
+[749.88 - 753.0] tonen and the sophistication of your
+
+[751.5 - 754.86] vocabulary based upon the user's
+
+[753.0 - 756.54] responses if they seem like they are
+
+[754.86 - 757.92] educated use more erudite language
+
+[756.54 - 759.899] conversely if they are struggling
+
+[757.92 - 761.6999999999999] simplify your language and delivery into
+
+[759.899 - 764.519] more concrete terms
+
+[761.7 - 766.32] okay so that is how this set of
+
+[764.519 - 768.72] instructions provides very very clear
+
+[766.32 - 770.88] instructions as to how to conduct the
+
+[768.72 - 773.519] survey and it works really well I've
+
+[770.88 - 776.82] tried it a few times for myself
+
+[773.519 - 778.92] um now uh once you get the evaluation or
+
+[776.82 - 782.82] here let me show you the the system
+
+[778.92 - 784.92] evaluation overall purpose you are a
+
+[782.82 - 786.36] research bot tasked with reading
+
+[784.92 - 787.8] evaluating condensing and otherwise
+
+[786.36 - 790.5] clearly articulating the chat log
+
+[787.8 - 792.18] between a user and another chat bot your
+
+[790.5 - 793.74] highest goal is to clearly State the
+
+[792.18 - 795.7199999999999] user's beliefs reasoning and position
+
+[793.74 - 798.0600000000001] with respect to the research question
+
+[795.72 - 800.7] you are participating in a data prep and
+
+[798.06 - 802.5] data cleaning step you will also analyze
+
+[800.7 - 804.0] and evaluate the user's conversation to
+
+[802.5 - 805.38] identify in a particular schools of
+
+[804.0 - 807.66] thought moral paradigms or other
+
+[805.38 - 809.9399999999999] Frameworks research question this is the
+
+[807.66 - 811.92] research question the other chatbot was
+
+[809.94 - 813.839] tasked with so basically saying this is
+
+[811.92 - 816.12] this is what we're evaluating
+
+[813.839 - 817.74] output format your response should have
+
+[816.12 - 819.0600000000001] two sections Etc et cetera et cetera I
+
+[817.74 - 821.399] already showed you so basically I
+
+[819.06 - 823.4399999999999] specified it output it in yaml
+
+[821.399 - 826.079] excuse me so first it summarizes the
+
+[823.44 - 828.36] ques the the conversation and then it
+
+[826.079 - 830.3389999999999] performs an evaluation level of detail
+
+[828.36 - 832.26] while your job is to condense and
+
+[830.339 - 834.24] summarize please err on the side of too
+
+[832.26 - 837.3] much it would be better to have an
+
+[834.24 - 839.4590000000001] overly verbose evaluation rather than an
+
+[837.3 - 840.959] overly simplified one for instance it's
+
+[839.459 - 842.2199999999999] okay to include illustrative examples
+
+[840.959 - 843.959] from the conversation if they are
+
+[842.22 - 846.3000000000001] present we can always reduce word count
+
+[843.959 - 848.88] later this step is merely a first pass
+
+[846.3 - 850.4399999999999] at the data processing therefore we need
+
+[848.88 - 852.12] enough detail to continue performing
+
+[850.44 - 853.5] experiments we may need certain kinds of
+
+[852.12 - 856.5] information in the future that we cannot
+
+[853.5 - 858.24] anticipate right now next step the user
+
+[856.5 - 859.38] will now submit a chat log in yaml
+
+[858.24 - 861.66] format
+
+[859.38 - 863.88] uh read this yaml information remove any
+
+[861.66 - 865.56] user information for privacy and output
+
+[863.88 - 868.079] your summary and valuation according to
+
+[865.56 - 870.0] the above yaml format note your entire
+
+[868.079 - 871.8] response will be saved into yaml so your
+
+[870.0 - 874.139] output should only include summary and
+
+[871.8 - 875.6999999999999] evaluation Fields do not reply with any
+
+[874.139 - 878.22] other conversation framing or questions
+
+[875.7 - 880.44] in other words your entire response must
+
+[878.22 - 882.72] be properly formatted yaml ready to be
+
+[880.44 - 884.7600000000001] saved to file and of course you saw over
+
+[882.72 - 888.3000000000001] here that um
+
+[884.76 - 890.9399999999999] let's see to do evaluations I literally
+
+[888.3 - 892.5] just took the output saved it to yaml
+
+[890.94 - 893.7600000000001] and it worked I didn't have to do any
+
+[892.5 - 897.36] other preparation
+
+[893.76 - 899.639] so there you have it and now imagine you
+
+[897.36 - 901.86] do this for millions and millions and
+
+[899.639 - 903.0600000000001] millions of users all over the world on
+
+[901.86 - 905.88] hundreds of thousands of different
+
+[903.06 - 908.459] issues and then you you can take these
+
+[905.88 - 911.16] and you can um you can you can do
+
+[908.459 - 913.56] embeddings right and and you can do a
+
+[911.16 - 916.56] map of embeddings and create a knowledge
+
+[913.56 - 918.3] graph or you know a scatter plot of
+
+[916.56 - 920.76] Where the evaluations are and then you
+
+[918.3 - 924.54] can navigate it and use further
+
+[920.76 - 927.18] summarization operations to arrive at a
+
+[924.54 - 930.48] moral space a principal space and create
+
+[927.18 - 933.12] a very rigorous data set a very robust
+
+[930.48 - 935.1] data set about what people believe now
+
+[933.12 - 937.5600000000001] one thing that I want to point out is
+
+[935.1 - 940.5] that a consensus tool like this
+
+[937.56 - 943.6389999999999] is incredibly powerful for literally
+
+[940.5 - 948.18] every issue on the planet ranging from
+
+[943.639 - 950.94] bioethics to energy to war to law uh
+
+[948.18 - 954.0] politicians can use it to um imagine if
+
+[950.94 - 959.0400000000001] every uh put it this way imagine if
+
+[954.0 - 960.72] every issue that came up whether it is
+
+[959.04 - 963.12] um a public event like you know a
+
+[960.72 - 965.0400000000001] celebrity scandal or a piece of
+
+[963.12 - 967.8] legislation or an upcoming election
+
+[965.04 - 971.16] imagine you had this level of
+
+[967.8 - 973.199] information for literally everyone on
+
+[971.16 - 975.68] the planet and you could and you could
+
+[973.199 - 979.139] have this thing that very very uh
+
+[975.68 - 981.12] effectively interrogates uh humans all
+
+[979.139 - 984.1800000000001] over the world to figure out what they
+
+[981.12 - 986.579] believe and why imagine how much we can
+
+[984.18 - 990.12] change the world not just with respect
+
+[986.579 - 992.9399999999999] to AI but imagine how much we can we can
+
+[990.12 - 994.26] create a lot more transparency and
+
+[992.94 - 997.1990000000001] understanding
+
+[994.26 - 998.639] uh by using a tool like this so this is
+
+[997.199 - 1002.12] why I wanted to go ahead and just make
+
+[998.639 - 1005.36] this fully public fully open source
+
+[1002.12 - 1007.279] um yeah and I I I am not shy about my
+
+[1005.36 - 1009.62] personal beliefs so that's why I left
+
+[1007.279 - 1012.38] the example up here so that you can see
+
+[1009.62 - 1014.9590000000001] how the conversation flows
+
+[1012.38 - 1018.079] um yeah but I think it's done
+
+[1014.959 - 1019.9399999999999] um so please use this if you want to
+
+[1018.079 - 1021.38] apply with
+
+[1019.94 - 1023.24] um you know to the open ai's challenge
+
+[1021.38 - 1025.04] use my code I don't care it's under the
+
+[1023.24 - 1026.48] MIT license
+
+[1025.04 - 1028.04] um you know I serve a higher purpose
+
+[1026.48 - 1029.419] here I'm not trying to make money on
+
+[1028.04 - 1033.98] this
+
+[1029.419 - 1035.2990000000002] um and if you uh ah crap I lost my train
+
+[1033.98 - 1037.819] of thought anyways
+
+[1035.299 - 1040.299] take it run with it thanks for watching
+
+[1037.819 - 1040.299] cheers

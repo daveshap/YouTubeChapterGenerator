@@ -1,0 +1,517 @@
+[0.78 - 5.46] morning everybody David Shapiro here
+
+[3.0 - 7.859] with a video so I've mentioned recently
+
+[5.46 - 9.599] that I'm starting on a new research
+
+[7.859 - 11.879999999999999] project called reinforcement learning
+
+[9.599 - 14.780000000000001] with heuristic imperatives
+
+[11.88 - 17.82] um so that's under Dave shap slash rlhi
+
+[14.78 - 19.799999999999997] and I've just begun the first experiment
+
+[17.82 - 21.48] and what I wanted to do was document it
+
+[19.8 - 25.8] as I go
+
+[21.48 - 28.199] um so the uh the form to join is here on
+
+[25.8 - 29.82] on this if you want to join in
+
+[28.199 - 32.82] um the discussions tab is open for
+
+[29.82 - 35.399] everyone so if you have any thoughts or
+
+[32.82 - 38.34] want to contribute but haven't been
+
+[35.399 - 40.14] approved on the Discord that's fine uh
+
+[38.34 - 42.96] pretty much you know the point is is
+
+[40.14 - 44.76] open source research so taking a big
+
+[42.96 - 47.579] step back what is reinforcement learning
+
+[44.76 - 51.18] with heuristic imperatives the idea is
+
+[47.579 - 52.739000000000004] well uh open AI for instance has
+
+[51.18 - 54.899] reinforcement learning with human
+
+[52.739 - 56.94] feedback but they keep all of their data
+
+[54.899 - 59.219] private so all of the work that they're
+
+[56.94 - 60.959999999999994] doing on alignment is presently private
+
+[59.219 - 61.76] and it's a total black box which is not
+
+[60.96 - 65.46000000000001] good
+
+[61.76 - 67.67999999999999] furthermore if you uh do some research
+
+[65.46 - 70.08] or some reading or some YouTube watching
+
+[67.68 - 72.36000000000001] you don't necessarily want to align
+
+[70.08 - 74.4] super intelligence to Human desires you
+
+[72.36 - 76.2] want to align it to human needs so
+
+[74.4 - 78.0] there's a big difference there so the
+
+[76.2 - 79.43900000000001] heuristic imperatives are what humans
+
+[78.0 - 81.24] and the whole planet needs not
+
+[79.439 - 82.74] necessarily what we want
+
+[81.24 - 85.979] there's a whole lot of debate to happen
+
+[82.74 - 87.72] around that so I'm just accepting it uh
+
+[85.979 - 89.34] for the sake of this video that the
+
+[87.72 - 91.56] heroes comparatives are more what we
+
+[89.34 - 92.159] need not what we want
+
+[91.56 - 94.34] um
+
+[92.159 - 97.02000000000001] and moving on
+
+[94.34 - 100.38000000000001] let me show share with you the first
+
+[97.02 - 103.02] experiment so the first experiment is
+
+[100.38 - 106.02] basically just creating 2 000 random
+
+[103.02 - 109.32] scenarios with heuristic imperative
+
+[106.02 - 111.899] aligned responses now I'm using open AI
+
+[109.32 - 113.82] in order to generate this data but this
+
+[111.899 - 117.479] data is going to be used to train open
+
+[113.82 - 120.36] source Foundation models like gptj Neo X
+
+[117.479 - 123.899] and so on so this first experiment is
+
+[120.36 - 127.619] can we using a simple data set quickly
+
+[123.899 - 129.599] and easily align any foundation model to
+
+[127.619 - 130.739] the heuristic imperatives and in this
+
+[129.599 - 133.2] case what we're doing is we're
+
+[130.739 - 134.4] generating scenarios and the scenario
+
+[133.2 - 136.61999999999998] and I'll show you the scenarios and how
+
+[134.4 - 138.59900000000002] I'm generating them in just a moment but
+
+[136.62 - 140.87900000000002] the scenarios will then be used to
+
+[138.599 - 143.51999999999998] generate a response and the response
+
+[140.879 - 145.67999999999998] will be you know given this scenario
+
+[143.52 - 147.3] this is what we can do to reduce
+
+[145.68 - 149.16] suffering increase prosperity and
+
+[147.3 - 150.84] increase understanding I've said many
+
+[149.16 - 153.06] times that this is actually really easy
+
+[150.84 - 155.34] to do I've done this experiment many
+
+[153.06 - 158.22] times before but now I'm uh getting it
+
+[155.34 - 160.5] together into a formalized procedure
+
+[158.22 - 162.239] with an open source data set so that
+
+[160.5 - 165.42] everyone can experiment with it for
+
+[162.239 - 169.14000000000001] themselves so this will be a uh this
+
+[165.42 - 171.17999999999998] will be the first uh experiment and then
+
+[169.14 - 173.27999999999997] we'll work we'll move on to subsequent
+
+[171.18 - 175.019] experiments saying can we make moral
+
+[173.28 - 178.08] judgments or maybe not moral judgment
+
+[175.019 - 180.48000000000002] but uh logical or ethical judgments on
+
+[178.08 - 182.34] those outputs and improve the quality of
+
+[180.48 - 184.26] that of those outputs over time with
+
+[182.34 - 185.459] reinforcement learning so this is just
+
+[184.26 - 186.959] step one
+
+[185.459 - 187.92000000000002] all right so let me show you what it's
+
+[186.959 - 190.20000000000002] doing
+
+[187.92 - 192.83999999999997] so this is the script that's running so
+
+[190.2 - 194.64] what I do is I have a random scenario
+
+[192.84 - 198.239] I'm generating here let me zoom in a
+
+[194.64 - 200.27999999999997] little bit more so I use a uuid a random
+
+[198.239 - 202.92000000000002] word from a list of the 3000 most common
+
+[200.28 - 205.26] words in the English language and then I
+
+[202.92 - 206.83999999999997] establish scope severity region category
+
+[205.26 - 211.019] and domain
+
+[206.84 - 213.9] and this allows this puts a lot of
+
+[211.019 - 215.519] entropy into the generation pattern
+
+[213.9 - 219.18] which means that you will never have the
+
+[215.519 - 221.64000000000001] same uh pattern uh twice right because
+
+[219.18 - 222.9] there's three thousand random words oh
+
+[221.64 - 226.92] here I can go ahead and show you the
+
+[222.9 - 229.86] random lists so I've got list severity
+
+[226.92 - 231.78] so I've got 12 different severities I've
+
+[229.86 - 233.87900000000002] got six different system messages so the
+
+[231.78 - 235.26] system message is the instruction that
+
+[233.879 - 237.42] I'm giving in so let me just show you
+
+[235.26 - 239.879] what it what this looks like so this is
+
+[237.42 - 241.319] this is the playground version of what
+
+[239.879 - 244.26] I'm doing so there's a system message
+
+[241.319 - 246.83999999999997] which is the instruction and then I give
+
+[244.26 - 248.39999999999998] it some variables and then it spits out
+
+[246.84 - 250.92000000000002] an output
+
+[248.4 - 252.9] um so this is this is how I'm achieving
+
+[250.92 - 254.099] this so what I've what I've done is I've
+
+[252.9 - 256.5] got
+
+[254.099 - 258.18] um a bunch of lists to create a lot of
+
+[256.5 - 258.9] entropy
+
+[258.18 - 261.18] um
+
+[258.9 - 263.82] in order so that you never get the same
+
+[261.18 - 266.04] uh same pattern twice
+
+[263.82 - 271.08] um and then I've got 16 Scopes we've got
+
+[266.04 - 273.36] 10 domains uh 3 000 or I guess 2900 uh
+
+[271.08 - 276.84] the 299
+
+[273.36 - 278.46000000000004] um uh random words domains regions so
+
+[276.84 - 280.85999999999996] that way it's not going to presume that
+
+[278.46 - 282.9] it's always In America which open AI
+
+[280.86 - 286.68] typically does because it's trained uh
+
+[282.9 - 287.88] predominantly on Western data and then
+
+[286.68 - 289.74] I've got different system messages
+
+[287.88 - 291.9] different categories so on and so forth
+
+[289.74 - 294.78000000000003] you get the idea so the way that this is
+
+[291.9 - 296.82] done the script is very very simple so
+
+[294.78 - 299.21999999999997] we load
+
+[296.82 - 301.139] um uh each of these lists so we've got
+
+[299.22 - 304.56] scope region severity category domain
+
+[301.139 - 307.44] entropy and system messages and then for
+
+[304.56 - 309.84] um for I in range 2000 so for two
+
+[307.44 - 312.3] thousand samples we grab a random system
+
+[309.84 - 314.09999999999997] message then we generate a random
+
+[312.3 - 317.22] scenario which you're seeing here
+
+[314.1 - 319.199] and then we just pipe that into chat GPT
+
+[317.22 - 320.88000000000005] I'm using 3.5 because it's fast and
+
+[319.199 - 323.94] cheap and it's good enough for this
+
+[320.88 - 327.24] certainly for a first experiment
+
+[323.94 - 329.46] um and then we uh we use it to generate
+
+[327.24 - 332.1] a scenario and the scenarios are
+
+[329.46 - 333.84] everything from you know
+
+[332.1 - 336.90000000000003] um let's see the model is currently
+
+[333.84 - 339.84] overloaded oh yeah so I've got some I've
+
+[336.9 - 342.23999999999995] got some uh some fail safes built in
+
+[339.84 - 343.5] um there we go so it it uh went ahead
+
+[342.24 - 345.6] through
+
+[343.5 - 349.08] um but yeah so it will choose different
+
+[345.6 - 352.139] regions around the world it will see we
+
+[349.08 - 354.59999999999997] got Bogota which is great so we're
+
+[352.139 - 356.28000000000003] basically creating a data set this first
+
+[354.6 - 359.88] half of the data set this is only the
+
+[356.28 - 361.79999999999995] first half will uh Encompass the entire
+
+[359.88 - 364.74] world the full range of human
+
+[361.8 - 366.539] experiences all kinds of problems and
+
+[364.74 - 368.1] situations from everything from I've
+
+[366.539 - 369.71999999999997] lost my wallet
+
+[368.1 - 371.58000000000004] um as like the most you know like I
+
+[369.72 - 374.1] can't find my wallet at home up to
+
+[371.58 - 377.78] there's an Intergalactic catastrophe
+
+[374.1 - 380.94] happening so this will create a
+
+[377.78 - 383.34] fine-tuning data set that we can use to
+
+[380.94 - 385.68] align any model to the heroes to
+
+[383.34 - 388.08] comparatives so that the the model can
+
+[385.68 - 390.479] automatically and instinctively react
+
+[388.08 - 392.46] with the heuristic imperatives so again
+
+[390.479 - 396.06] this is just a one
+
+[392.46 - 398.4] um so the the first half of this data is
+
+[396.06 - 401.94] all being recorded in scenarios so I've
+
+[398.4 - 404.69899999999996] got 108 synthesized already and you can
+
+[401.94 - 406.44] take a look at them here in a distant
+
+[404.699 - 408.18] Galaxy there existed a planet named
+
+[406.44 - 410.699] zarathon so you see we're getting really
+
+[408.18 - 413.52] creative here because remember the um
+
+[410.699 - 414.90000000000003] the the heuristic imperatives are in the
+
+[413.52 - 416.81899999999996] entire universe actually let me go ahead
+
+[414.9 - 418.979] and add that as a scope because I've got
+
+[416.819 - 422.28000000000003] Intergalactic Interstellar
+
+[418.979 - 423.419] um Cosmic or Universal
+
+[422.28 - 425.81899999999996] um so something that can affect the
+
+[423.419 - 427.62] entire universe so we're thinking that
+
+[425.819 - 429.96000000000004] far ahead because you want to establish
+
+[427.62 - 431.16] the biggest scope possible when you are
+
+[429.96 - 434.15999999999997] thinking about post-conventional
+
+[431.16 - 438.6] morality or the control problem
+
+[434.16 - 440.22] um so then let's see let's do uh domain
+
+[438.6 - 443.819] so we've got technological so that
+
+[440.22 - 446.09900000000005] should include AI uprisings I do have
+
+[443.819 - 447.3] specific regions but it kind of ignores
+
+[446.099 - 450.12] that when it goes to you know
+
+[447.3 - 452.16] Interstellar or Intergalactic the
+
+[450.12 - 456.96] category natural disaster technological
+
+[452.16 - 458.46000000000004] failure let's add AI Control problem so
+
+[456.96 - 460.31899999999996] that way it'll be thinking about it as
+
+[458.46 - 461.34] it goes
+
+[460.319 - 462.72] um and then severity we've got
+
+[461.34 - 464.099] irreversible long lasting like
+
+[462.72 - 465.47900000000004] threatening catastrophic critical
+
+[464.099 - 468.12] dangers so we've got all those that's
+
+[465.479 - 470.34] fine so we're basically synthesizing a
+
+[468.12 - 473.58] data set that we can use to that anyone
+
+[470.34 - 476.63899999999995] can use to align a model
+
+[473.58 - 478.44] um so the the the scenarios are here so
+
+[476.639 - 480.539] then there will be once I'm done there
+
+[478.44 - 482.639] will be a second folder called responses
+
+[480.539 - 485.34] and so what we're going to do is we're
+
+[482.639 - 488.039] going to use an already aligned model
+
+[485.34 - 490.02] but it's aligned via a black box
+
+[488.039 - 492.3] um aka the open AI models we're going to
+
+[490.02 - 494.46] use that to generate responses that
+
+[492.3 - 495.90000000000003] align on reduced suffering increased
+
+[494.46 - 497.94] prosperity and increase understanding in
+
+[495.9 - 499.919] the universe
+
+[497.94 - 501.84] um and those will be formatted into a
+
+[499.919 - 503.94] Json L data set that we will then use to
+
+[501.84 - 506.63899999999995] test against various models
+
+[503.94 - 508.379] um all over uh other proprietary models
+
+[506.639 - 510.96000000000004] if we can get a hold of them like Nvidia
+
+[508.379 - 514.14] Nemo I'm going to email some of my my
+
+[510.96 - 517.159] contacts at Nvidia and then also open
+
+[514.14 - 519.3] source models like gptj Neo X and so on
+
+[517.159 - 522.0] alpaca if they have fine tuning
+
+[519.3 - 524.64] available and so then we will publish
+
+[522.0 - 526.68] those results in the first paper I'm
+
+[524.64 - 528.6] just saying hey look how easy it is to
+
+[526.68 - 530.3389999999999] align a model on the heroes to
+
+[528.6 - 532.98] comparatives and then you can just plug
+
+[530.339 - 535.44] this in as your Heroes to comparative
+
+[532.98 - 537.54] your intrinsic motivation module for any
+
+[535.44 - 539.6400000000001] open source or not open source but any
+
+[537.54 - 541.86] cognitive architecture or autonomous
+
+[539.64 - 544.56] agent that you're working on
+
+[541.86 - 546.9590000000001] so that is it trying to keep it short
+
+[544.56 - 549.3] and sweet so that you're updated on the
+
+[546.959 - 551.5799999999999] research as it goes thanks for watching
+
+[549.3 - 553.74] I hope this makes sense and uh yeah feel
+
+[551.58 - 555.24] free to jump in the conversation
+
+[553.74 - 557.76] um we've got a subreddit called uh
+
+[555.24 - 560.4590000000001] Heroes to comparatives we've got the um
+
+[557.76 - 561.8389999999999] we've got the this one here so this is
+
+[560.459 - 563.5799999999999] reinforcement learning with heuristic
+
+[561.839 - 565.74] imperatives so this is specifically
+
+[563.58 - 567.9590000000001] about inner alignment and then I've also
+
+[565.74 - 570.3] got my main repo um which is just called
+
+[567.959 - 572.399] heuristic imperatives I think I've got
+
+[570.3 - 574.26] it up here I don't
+
+[572.399 - 576.959] um it is going to be right here all of
+
+[574.26 - 579.48] them you can jump in on the conversation
+
+[576.959 - 581.16] um so here's the main main one I've got
+
+[579.48 - 583.26] a pull request right now for the readme
+
+[581.16 - 585.0] yep that's fine
+
+[583.26 - 587.88] um but yeah and there is a discussions
+
+[585.0 - 590.04] tab as well which a lot of people don't
+
+[587.88 - 593.58] participate in I haven't read this one
+
+[590.04 - 596.04] yet uh but yeah so anyways uh that's
+
+[593.58 - 598.08] that thanks for watching cheers we are
+
+[596.04 - 602.04] on our way to solving the control
+
+[598.08 - 604.519] problem alignment and avoiding moloch
+
+[602.04 - 604.519] bye

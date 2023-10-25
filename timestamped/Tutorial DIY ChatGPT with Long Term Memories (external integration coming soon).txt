@@ -1,0 +1,1161 @@
+[0.539 - 6.239999999999999] morning everybody David Shapiro here
+
+[3.659 - 10.26] um and by popular demand we are working
+
+[6.24 - 12.84] on a basically a chat GPT clone but with
+
+[10.26 - 14.46] long-term memory and eventually external
+
+[12.84 - 18.119] sources
+
+[14.46 - 20.279] um but first uh quick uh um uh
+
+[18.119 - 23.279] housekeeping one
+
+[20.279 - 25.259999999999998] um as I always say the offer is still on
+
+[23.279 - 28.5] the table if I can meet my financial
+
+[25.26 - 30.0] goals with patreon I will remove ads
+
+[28.5 - 33.0] forever
+
+[30.0 - 34.8] um so do that also uh the comments
+
+[33.0 - 37.14] section of my YouTube channel is blowing
+
+[34.8 - 38.519999999999996] up so I can't keep up with comments if
+
+[37.14 - 40.62] you really really want my attention
+
+[38.52 - 43.02] patreon is the best way to get in touch
+
+[40.62 - 45.12] with me obviously if you spend even just
+
+[43.02 - 47.160000000000004] a couple dollars that tells me that
+
+[45.12 - 48.538999999999994] you're a little bit more serious the
+
+[47.16 - 51.0] second best way to get in touch with me
+
+[48.539 - 53.94] is LinkedIn uh links to both of those
+
+[51.0 - 57.3] are in the video description and then
+
+[53.94 - 59.82] third is I've got a um a new mailing
+
+[57.3 - 61.68] list that I'm creating which is also a
+
+[59.82 - 64.379] good way to follow up in the future now
+
+[61.68 - 66.119] that all being said I am super busy uh
+
+[64.379 - 67.5] but stay tuned for some news tomorrow
+
+[66.119 - 69.9] okay
+
+[67.5 - 71.76] with all that out of the way uh let's go
+
+[69.9 - 73.92] over I started this
+
+[71.76 - 76.5] um so I'm going to try a new format
+
+[73.92 - 78.54] um I have there's basically three kinds
+
+[76.5 - 80.46] of videos I do one is an explainer which
+
+[78.54 - 82.08000000000001] is you know the slide deck and I just
+
+[80.46 - 84.89999999999999] explained something to you teach you
+
+[82.08 - 87.06] it's basically like a miniature lesson
+
+[84.9 - 90.0] um then there's the experiments like my
+
+[87.06 - 91.92] uh chat GPT and case law one that was an
+
+[90.0 - 93.96] experiment it didn't really succeed but
+
+[91.92 - 96.6] the point wasn't to succeed the point
+
+[93.96 - 98.69999999999999] was to learn and then there's tutorials
+
+[96.6 - 99.83999999999999] which is I know how to do something and
+
+[98.7 - 102.18] I'm going to walk you through to the end
+
+[99.84 - 104.10000000000001] so this is a tutorial so just wanted to
+
+[102.18 - 106.56] set expectations
+
+[104.1 - 108.53999999999999] um okay so this tutorial is how to
+
+[106.56 - 109.68] create a really brain dead simple chat
+
+[108.54 - 111.84] bot
+
+[109.68 - 114.24000000000001] um and how to give it long-term memory
+
+[111.84 - 116.159] so let me just show you what I've got
+
+[114.24 - 120.72] working so far
+
+[116.159 - 122.759] so the user hello and waits a second uh
+
+[120.72 - 124.619] are you there obviously we're not
+
+[122.759 - 127.07900000000001] getting any response okay so what gives
+
+[124.619 - 129.0] well we are just getting started so let
+
+[127.079 - 131.7] me show you what that produced
+
+[129.0 - 133.92] so let's go to chat logs and you see
+
+[131.7 - 136.61999999999998] here we've got log and then a time stamp
+
+[133.92 - 138.83999999999997] and then user so we know uh basically
+
+[136.62 - 140.58] that tells you a lot about what happened
+
+[138.84 - 142.20000000000002] so you know it's a log you know the
+
+[140.58 - 144.18] timestamp and you know who said it but
+
+[142.2 - 146.64] let's see what's in here
+
+[144.18 - 149.16] so we've got the message we've got the
+
+[146.64 - 151.79999999999998] speaker we've got the time stamp we've
+
+[149.16 - 154.79999999999998] got a uuid and then we've got a vector
+
+[151.8 - 157.44] so the vector is an embedding that was
+
+[154.8 - 159.9] provided by open ai's latest
+
+[157.44 - 162.66] um latest model which is what is it it's
+
+[159.9 - 166.86] like text 802 or something I've got a
+
+[162.66 - 169.14] function right up here yep so text
+
+[166.86 - 171.54000000000002] embedding ada02 so this is their latest
+
+[169.14 - 173.04] one it's supposed to be like fantastic
+
+[171.54 - 174.72] and it replaces a whole bunch of other
+
+[173.04 - 176.28] stuff and it performs really well okay
+
+[174.72 - 176.879] great
+
+[176.28 - 179.099] um
+
+[176.879 - 180.89999999999998] so basically I just have this really
+
+[179.099 - 183.23899999999998] short little function that you just pass
+
+[180.9 - 185.58] it a piece of text and it'll send back
+
+[183.239 - 188.36] an embedding and the reason that we do
+
+[185.58 - 190.8] this is because we need to search it
+
+[188.36 - 194.459] now this is probably not the most
+
+[190.8 - 196.26000000000002] efficient way to do this in the long run
+
+[194.459 - 199.08] um once you have longer conversations
+
+[196.26 - 201.12] you'll probably chunk them but for now
+
+[199.08 - 204.239] we're going to do this and so every
+
+[201.12 - 207.9] message becomes 42 kilobytes
+
+[204.239 - 213.48000000000002] which adds up because this vector
+
+[207.9 - 215.28] is uh 1500 values long and it's used to
+
+[213.48 - 217.67999999999998] register that
+
+[215.28 - 220.5] so it's not necessarily the best
+
+[217.68 - 222.72] but once you get to longer messages it
+
+[220.5 - 224.7] makes more sense and especially if you
+
+[222.72 - 226.56] if you chunk them
+
+[224.7 - 228.17999999999998] um which we
+
+[226.56 - 229.86] may or may not get to in this one we'll
+
+[228.18 - 231.54000000000002] see and so what I mean by chunking is
+
+[229.86 - 234.59900000000002] rather than saving each individual
+
+[231.54 - 236.22] message and then vectorizing that
+
+[234.599 - 238.5] um you take like a chunk of like five
+
+[236.22 - 240.599] messages or ten messages and then you
+
+[238.5 - 242.94] chunk and vectorize them because the
+
+[240.599 - 245.22] chances of getting exactly what you want
+
+[242.94 - 246.9] in one message is pretty low but this
+
+[245.22 - 248.64] isn't easy this is low hanging fruit
+
+[246.9 - 252.36] this is just where we're going to start
+
+[248.64 - 253.61999999999998] okay so that's that so that's what's
+
+[252.36 - 254.519] happening there but let's go to the main
+
+[253.62 - 257.04] Loop
+
+[254.519 - 259.019] so first we set our API key and then
+
+[257.04 - 260.76000000000005] while true so this is just an infinite
+
+[259.019 - 262.62] python Loop
+
+[260.76 - 265.38] um with the very first thing that we do
+
+[262.62 - 266.28000000000003] is we get user input then we vectorize
+
+[265.38 - 269.21999999999997] it
+
+[266.28 - 270.84] and then we set it into a dictionary and
+
+[269.22 - 272.16] all these all these should look familiar
+
+[270.84 - 273.9] there's the speaker there's the time
+
+[272.16 - 275.88000000000005] there's the vector there's the message
+
+[273.9 - 277.85999999999996] and then there's the uuid
+
+[275.88 - 279.9] and the reason that you want to give it
+
+[277.86 - 282.78000000000003] a uuid is just in case you want to refer
+
+[279.9 - 285.59999999999997] to something very specifically you can
+
+[282.78 - 287.4] sometimes use timestamp as a uuid but
+
+[285.6 - 288.90000000000003] every now and then depending on how
+
+[287.4 - 290.28] you've got your program organized you
+
+[288.9 - 293.15999999999997] could end up with two things with the
+
+[290.28 - 296.03999999999996] identical time stamps and so timestamp
+
+[293.16 - 299.22] is not necessarily going to be a uuid
+
+[296.04 - 301.08000000000004] but if you pick two uuids they're
+
+[299.22 - 302.639] guaranteed even if you pick them at the
+
+[301.08 - 305.82] same time they're guaranteed to be
+
+[302.639 - 308.22] unique and then we create a file name so
+
+[305.82 - 309.65999999999997] then we just save it out to Json then
+
+[308.22 - 310.74] the next thing we do is we load a
+
+[309.66 - 313.91900000000004] conversation
+
+[310.74 - 315.96000000000004] so this database these chat logs this
+
+[313.919 - 318.419] this is our database right this is our
+
+[315.96 - 320.63899999999995] Nexus so if you're familiar with my work
+
+[318.419 - 323.639] in artificial cognition or Symphony of
+
+[320.639 - 325.62] thought or moragi this is the Nexus
+
+[323.639 - 328.86] anything that you want the chat bot to
+
+[325.62 - 330.539] be conscious of needs to end up here
+
+[328.86 - 332.52000000000004] um and I'm calling it just chat logs
+
+[330.539 - 334.56] because when you have when when all
+
+[332.52 - 336.78] you're doing is a memory task against
+
+[334.56 - 339.9] previous conversations that is your
+
+[336.78 - 342.9] whole Nexus but if you want
+
+[339.9 - 345.65999999999997] um external sources we might have a
+
+[342.9 - 348.479] second Nexus and we might call it like
+
+[345.66 - 350.639] um you know KB articles or something and
+
+[348.479 - 353.699] then we can put indexed files in here
+
+[350.639 - 356.16] that are then searchable and then you
+
+[353.699 - 358.199] might also have nkb articles this this
+
+[356.16 - 360.6] is this is what you have as like your
+
+[358.199 - 362.759] ground truth right and also once this
+
+[360.6 - 364.139] scales up the search method that I'm
+
+[362.759 - 365.82] using is not efficient you'll want to
+
+[364.139 - 368.82] move over to something like Pinecone or
+
+[365.82 - 370.86] weeviate or kudrant
+
+[368.82 - 373.44] um because those those search engines
+
+[370.86 - 375.12] are going to be much faster uh but yeah
+
+[373.44 - 378.12] so this is this is where we're off to
+
+[375.12 - 379.919] this is where we start so we add to the
+
+[378.12 - 381.06] conversation then we load the
+
+[379.919 - 382.62] conversation
+
+[381.06 - 384.18] and the reason that we load the com
+
+[382.62 - 385.74] there's again there's more efficient
+
+[384.18 - 387.96] ways of doing this you could just append
+
+[385.74 - 390.12] but the thing is is I want to be able to
+
+[387.96 - 392.58] load all history I don't like because
+
+[390.12 - 394.8] like if I kill this and start it again I
+
+[392.58 - 397.08] want it to load all of my logs
+
+[394.8 - 400.979] regardless of how it's going so I want
+
+[397.08 - 402.84] one very long uh persistent conversation
+
+[400.979 - 404.21999999999997] so that's where we're starting and what
+
+[402.84 - 406.13899999999995] I'm about to work on I'm not going to
+
+[404.22 - 407.759] show you like all the coding every
+
+[406.139 - 410.819] single time because it's kind of boring
+
+[407.759 - 412.319] but I can do it work it uh and then and
+
+[410.819 - 415.68] then figure it out so what I'm going to
+
+[412.319 - 418.68] do next is work on generating the
+
+[415.68 - 421.38] response and generating the response
+
+[418.68 - 422.639] first requires that we load relevant
+
+[421.38 - 425.4] history
+
+[422.639 - 427.56] um so on and so forth so we'll be right
+
+[425.4 - 430.13899999999995] back with the next phase and actually
+
+[427.56 - 432.3] like this is pretty simple so maybe we
+
+[430.139 - 433.68] will take some time to do some of those
+
+[432.3 - 436.58] improvements I was talking about but
+
+[433.68 - 436.58] anyways be right back
+
+[436.94 - 442.74] all right we are um just about done uh
+
+[441.36 - 444.78000000000003] at least with the first version there's
+
+[442.74 - 446.28000000000003] room for improvement of course
+
+[444.78 - 449.58] um but let me walk you through the code
+
+[446.28 - 451.61999999999995] before I show you how good this is so we
+
+[449.58 - 452.81899999999996] left off with here where we handle the
+
+[451.62 - 455.4] user input
+
+[452.819 - 458.40000000000003] then we load the conversation so this is
+
+[455.4 - 460.5] a really simple function just uh load
+
+[458.4 - 463.08] conversation so it goes into the chat
+
+[460.5 - 465.9] logs directory it looks for any Json
+
+[463.08 - 468.479] file and then it loads them all appends
+
+[465.9 - 470.69899999999996] them and then sorts them by time just in
+
+[468.479 - 473.099] case they don't load um in correct
+
+[470.699 - 475.02000000000004] chronological order my file naming
+
+[473.099 - 477.599] convention should mean
+
+[475.02 - 478.979] that if they load in in alphabetical
+
+[477.599 - 481.139] order they should also load in
+
+[478.979 - 482.71999999999997] chronological order but again you don't
+
+[481.139 - 486.0] necessarily want to make that assumption
+
+[482.72 - 487.40000000000003] so we sort by the time index inside the
+
+[486.0 - 489.72] file
+
+[487.4 - 491.69899999999996] because one of the key things to
+
+[489.72 - 494.759] remember is the reason that we're doing
+
+[491.699 - 497.40000000000003] it this way is human memories are
+
+[494.759 - 499.139] associative so and you can approximate
+
+[497.4 - 501.35999999999996] associative memories with semantic
+
+[499.139 - 503.879] similarity because we we our memories
+
+[501.36 - 506.28000000000003] are queued up based on reminders this is
+
+[503.879 - 507.96000000000004] why if you move from one room to another
+
+[506.28 - 510.419] you might forget because your context
+
+[507.96 - 512.9399999999999] has changed and so your brain literally
+
+[510.419 - 514.919] like stores memories from one room and
+
+[512.94 - 516.839] says Ah I'm now in the kitchen I have
+
+[514.919 - 518.64] kitchen memories now
+
+[516.839 - 521.5200000000001] um that's how like gullible our memory
+
+[518.64 - 524.159] is the other thing is that is that our
+
+[521.52 - 526.6999999999999] memories are based on uh chronological
+
+[524.159 - 529.62] similarity we tend to remember things
+
+[526.7 - 531.48] clustered in time like hey remember my
+
+[529.62 - 533.7] eighth birthday right it doesn't matter
+
+[531.48 - 534.9590000000001] where your eighth birthday was but it's
+
+[533.7 - 537.4200000000001] like there's a whole bunch of memories
+
+[534.959 - 539.76] associated with that tag one thing that
+
+[537.42 - 542.16] you can do is you could probably do a
+
+[539.76 - 543.959] knowledge graph with memories but that's
+
+[542.16 - 545.3389999999999] a whole lot more complexity especially
+
+[543.959 - 547.8] when you get up to like millions or
+
+[545.339 - 549.1800000000001] billions of memories I personally think
+
+[547.8 - 551.64] that semantic search is the way to go
+
+[549.18 - 552.959] because it is fast and scalable I don't
+
+[551.64 - 555.66] think that knowledge graphs are the way
+
+[552.959 - 559.04] to go that being said time will tell
+
+[555.66 - 562.86] okay so that was a little brief Spiel on
+
+[559.04 - 566.76] memories so then once we have the user
+
+[562.86 - 568.38] input it's time to compose the corpus
+
+[566.76 - 570.06] so the Corpus if you've read my book
+
+[568.38 - 573.3] natural language cognitive architecture
+
+[570.06 - 575.76] the Corpus is all the context that is
+
+[573.3 - 578.6999999999999] needed to generate a response to do
+
+[575.76 - 583.08] something to perform cognitive labor and
+
+[578.7 - 584.399] prepare to respond so first we fetch all
+
+[583.08 - 586.26] the most recent memories with this
+
+[584.399 - 588.839] function called Fetch memories
+
+[586.26 - 591.36] and so fetch memories uh we pass at the
+
+[588.839 - 593.4590000000001] vector for the most recent input we pass
+
+[591.36 - 595.5600000000001] it uh all the chat logs and then we tell
+
+[593.459 - 598.0799999999999] it how many we want to get back and this
+
+[595.56 - 600.66] does a very very simple
+
+[598.08 - 603.0600000000001] um uh dot product similarity score I
+
+[600.66 - 605.64] looked it up and I realized
+
+[603.06 - 608.5189999999999] that cosine similarity is not just a DOT
+
+[605.64 - 610.98] product there's more to it so for for
+
+[608.519 - 612.899] all the messages that you see on Reddit
+
+[610.98 - 614.76] and the openai community about like why
+
+[612.899 - 617.1] are my DOT products wrong apparently
+
+[614.76 - 618.66] cosine similarity has a little bit more
+
+[617.1 - 621.36] to it than just returning a DOT product
+
+[618.66 - 623.3389999999999] and I cited my source this is this is
+
+[621.36 - 625.14] what I'm copying this is the logic so
+
+[623.339 - 629.1600000000001] hopefully our semantic similarity will
+
+[625.14 - 632.9399999999999] be better so what this does is we um we
+
+[629.16 - 635.279] we get all the memories we sort them by
+
+[632.94 - 637.32] most relevant
+
+[635.279 - 638.519] um we also skip we skip the current one
+
+[637.32 - 639.9590000000001] because you know we saved the memory
+
+[638.519 - 641.7] immediately
+
+[639.959 - 643.68] um and just in case we have an identical
+
+[641.7 - 645.779] one we don't need to return identical
+
+[643.68 - 647.279] messages because you might ask the same
+
+[645.779 - 649.38] message or get the same response at some
+
+[647.279 - 652.38] point we don't care about that
+
+[649.38 - 653.7] um so we we sort by most relevant and we
+
+[652.38 - 655.8] pass back
+
+[653.7 - 657.24] um n number of most relevant so that's
+
+[655.8 - 660.4799999999999] fetch memories
+
+[657.24 - 662.16] so this this becomes our most recent uh
+
+[660.48 - 664.8000000000001] our most relevant memories you can just
+
+[662.16 - 667.019] this is parameterized so if you have a
+
+[664.8 - 668.64] bigger chat window you can do this then
+
+[667.019 - 669.839] what we do is we summarize those
+
+[668.64 - 672.24] memories so I have this function
+
+[669.839 - 674.2790000000001] summarize memories so first thing we do
+
+[672.24 - 677.1] is we sort them chronologically so that
+
+[674.279 - 680.279] there's a nice chronological flow then
+
+[677.1 - 682.62] we reconstitute that block
+
+[680.279 - 685.4399999999999] and then we summarize it
+
+[682.62 - 688.019] um so we we just basically take notes
+
+[685.44 - 689.519] um so the summarization this is
+
+[688.019 - 692.88] something that happens in the background
+
+[689.519 - 695.279] of your brain particularly while you
+
+[692.88 - 697.14] sleep so one what happens while you
+
+[695.279 - 699.3] sleep is that your brain replays
+
+[697.14 - 701.6999999999999] memories from throughout the day and it
+
+[699.3 - 703.9799999999999] simplifies them it distills them down to
+
+[701.7 - 705.779] the most critical Essence it also links
+
+[703.98 - 708.0600000000001] them to other relevant memories this is
+
+[705.779 - 710.1] why sleep is so important for learning
+
+[708.06 - 713.04] but instead of doing it behind the
+
+[710.1 - 715.0790000000001] scenes we're doing it in real time so a
+
+[713.04 - 717.48] future version of this might have it
+
+[715.079 - 720.8389999999999] where we uh we're going over we're
+
+[717.48 - 723.66] grooming our our uh record of memories
+
+[720.839 - 726.12] and and simplifying them and and doing
+
+[723.66 - 727.68] that sort of thing in the uh in the
+
+[726.12 - 729.24] background but instead we're just going
+
+[727.68 - 731.399] to do it in real time
+
+[729.24 - 733.2] so we we pull an arbitrary number of
+
+[731.399 - 735.18] Memories We summarize them so that
+
+[733.2 - 737.779] they'll fit into a new prompt by
+
+[735.18 - 740.76] distilling them down by taking notes
+
+[737.779 - 745.019] then we get the most recent uh
+
+[740.76 - 747.18] conversation uh messages again
+
+[745.019 - 748.98] um I wanted to treat this so that it has
+
+[747.18 - 750.5999999999999] persistent memory so that's why I'm
+
+[748.98 - 752.04] treating it like okay if this just
+
+[750.6 - 754.2] started up and we have a backlog of
+
+[752.04 - 757.019] Memories We want to pull all of them so
+
+[754.2 - 759.9590000000001] we get notes from irrespective uh
+
+[757.019 - 761.88] temporarily irrespective memories oh so
+
+[759.959 - 764.399] this is another thing what you might do
+
+[761.88 - 767.279] with fetch memories is once you've
+
+[764.399 - 771.72] picked the um the most relevant memories
+
+[767.279 - 775.22] so I'll add a two-do to do um uh pick uh
+
+[771.72 - 780.24] more memories uh temporarily
+
+[775.22 - 781.9200000000001] nearby the top most relevant memories
+
+[780.24 - 784.5600000000001] um so that way like we should we should
+
+[781.92 - 787.38] pick like you know not just one memory
+
+[784.56 - 789.54] that's relevant we should pick like five
+
+[787.38 - 791.22] memories in either directions but to
+
+[789.54 - 794.16] give it more context
+
+[791.22 - 795.48] so we'll add this as a to do item for
+
+[794.16 - 797.1] the future
+
+[795.48 - 799.38] um actually I should probably do that
+
+[797.1 - 801.0] for for other stuff because this will do
+
+[799.38 - 802.98] a lot because then
+
+[801.0 - 805.32] um by using semantic search you can you
+
+[802.98 - 808.019] can pick you can find anything in time
+
+[805.32 - 809.7600000000001] but then you also want to pick more
+
+[808.019 - 811.16] relevant memories
+
+[809.76 - 814.38] um and then
+
+[811.16 - 819.0] where's the notes summarize memories
+
+[814.38 - 821.16] um so I'll add a to do uh to do
+
+[819.0 - 825.839] um uh
+
+[821.16 - 831.779] do this in the background over time
+
+[825.839 - 834.4200000000001] um to handle huge amounts of memories
+
+[831.779 - 837.0] um so basically uh just kind of putting
+
+[834.42 - 839.8199999999999] putting a little bookmark for later
+
+[837.0 - 841.32] um okay so we get the most recent um and
+
+[839.82 - 843.0790000000001] then of course you can you can change
+
+[841.32 - 847.5600000000001] this I just have it the four most recent
+
+[843.079 - 849.18] uh back and forth and then we uh pipe it
+
+[847.56 - 850.5] into this response and I'll show you the
+
+[849.18 - 852.2399999999999] prompts that I've written in just a
+
+[850.5 - 853.56] second
+
+[852.24 - 854.76] um actually no this is this is a good
+
+[853.56 - 856.9799999999999] enough time
+
+[854.76 - 858.42] um so here's the notes it says write
+
+[856.98 - 860.4590000000001] detailed notes of the following in a
+
+[858.42 - 862.16] hyphenated list format
+
+[860.459 - 864.7199999999999] um
+
+[862.16 - 866.88] and I just tell it exactly the format
+
+[864.72 - 868.0790000000001] that I want so basically we're taking
+
+[866.88 - 870.42] notes
+
+[868.079 - 872.0999999999999] um of the previous conversation and then
+
+[870.42 - 874.74] away it goes
+
+[872.1 - 876.66] and then here's the response so I am a
+
+[874.74 - 878.88] chat bot named Raven so you give it um
+
+[876.66 - 880.86] this is what I call an agent model so it
+
+[878.88 - 882.72] says I am a chatbot named Raven so that
+
+[880.86 - 885.0600000000001] may that way the model knows this is
+
+[882.72 - 886.139] what I am this is the context my goals
+
+[885.06 - 888.4799999999999] are to reduce suffering increase
+
+[886.139 - 889.86] prosperity and increase understanding I
+
+[888.48 - 891.72] will read the conversation notes and
+
+[889.86 - 893.94] recent messages and then I will provide
+
+[891.72 - 897.0] a long verbose detailed response so we
+
+[893.94 - 898.139] want it to be chat GPT like
+
+[897.0 - 900.24] um the following are the notes from
+
+[898.139 - 901.92] earlier conversations with user and so
+
+[900.24 - 903.0600000000001] then we've got the notes uh the
+
+[901.92 - 904.9799999999999] following are the most recent messages
+
+[903.06 - 907.0189999999999] in the conversation and then here's the
+
+[904.98 - 908.88] conversation I will now provide a long
+
+[907.019 - 910.5] detailed reverse response and then I
+
+[908.88 - 912.8389999999999] just queue it up so that it it's gonna
+
+[910.5 - 914.88] it's gonna copy the same format as up
+
+[912.839 - 916.0790000000001] here so it just knows ah it's my time to
+
+[914.88 - 917.579] speak
+
+[916.079 - 920.76] um so there you go
+
+[917.579 - 923.459] and then when we go back here we
+
+[920.76 - 926.9399999999999] generate the response so we generate it
+
+[923.459 - 929.459] with uh we we pipe this prompt into gpt3
+
+[926.94 - 931.8000000000001] completion and the stops that I have are
+
+[929.459 - 933.8389999999999] user and Raven so it'll keep talking
+
+[931.8 - 936.3] until it tries to continue the
+
+[933.839 - 939.0600000000001] conversation which is not what I want it
+
+[936.3 - 941.3389999999999] to do so there you have it that's that
+
+[939.06 - 943.7399999999999] so now that we've got the output we need
+
+[941.339 - 946.62] to we need to save the output the same
+
+[943.74 - 949.1] way that we saved the user output so we
+
+[946.62 - 952.76] vectorize Raven's output
+
+[949.1 - 956.6990000000001] we put it into an identical
+
+[952.76 - 959.1] object and then we save it out to our
+
+[956.699 - 961.56] log file so chat logs and then you'll
+
+[959.1 - 963.9590000000001] see here we know that it's Raven
+
+[961.56 - 965.9399999999999] but we use otherwise the same format and
+
+[963.959 - 967.9799999999999] then we print the output so there you
+
+[965.94 - 972.4200000000001] have it it's that simple let's go ahead
+
+[967.98 - 974.16] and test it so we'll do python chat
+
+[972.42 - 976.26] um hey Raven
+
+[974.16 - 977.699] and because it's doing so much behind
+
+[976.26 - 979.86] the scene it's a little bit slow but so
+
+[977.699 - 981.959] is chat GPT there's all kinds of stuff
+
+[979.86 - 983.76] we can do to parallelize this and make
+
+[981.959 - 986.6389999999999] it faster
+
+[983.76 - 990.18] um let's see I'm a computer system uh
+
+[986.639 - 992.94] okay cool he provided it very uh like I
+
+[990.18 - 996.42] hope that I hope this helps yeah thanks
+
+[992.94 - 999.4200000000001] um I am having trouble sleeping I am
+
+[996.42 - 1002.959] waking up at 4am every
+
+[999.42 - 1004.699] day this is actually like
+
+[1002.959 - 1007.04] quasi-true because you'll if you look at
+
+[1004.699 - 1007.9399999999999] the time stamp it's 5 15.
+
+[1007.04 - 1009.4399999999999] um
+
+[1007.94 - 1012.339] this is just me this is just my
+
+[1009.44 - 1012.339] circadian rhythms
+
+[1012.5 - 1015.139] so that sounds like a difficult
+
+[1013.82 - 1017.0600000000001] situation it's understandable that
+
+[1015.139 - 1018.38] you're having trouble sleeping there
+
+[1017.06 - 1020.1199999999999] first thing there are a few things you
+
+[1018.38 - 1022.9399999999999] can do blah blah go to bed and wake up
+
+[1020.12 - 1025.579] at the same time avoid screens so very
+
+[1022.94 - 1028.339] helpful very chat gpt-like response so
+
+[1025.579 - 1031.24] if I if I continue this conversation
+
+[1028.339 - 1034.579] over a long period of time you will see
+
+[1031.24 - 1037.64] that we're accumulating our chat logs
+
+[1034.579 - 1038.959] here and we see user Raven user Raven
+
+[1037.64 - 1041.419] and they're all in chronological order
+
+[1038.959 - 1044.0] and they're all searchable
+
+[1041.419 - 1045.74] so if we keep if I can I'm not going to
+
+[1044.0 - 1047.54] continue this conversation indefinitely
+
+[1045.74 - 1049.94] but I just wanted to show you that it
+
+[1047.54 - 1051.74] works and it's pretty straightforward
+
+[1049.94 - 1052.46] um cool thanks
+
+[1051.74 - 1056.66] um
+
+[1052.46 - 1059.1200000000001] let's talk about circadian
+
+[1056.66 - 1060.919] rhythms
+
+[1059.12 - 1062.539] and so one thing that I can show you to
+
+[1060.919 - 1065.24] kind of prove that it's working behind
+
+[1062.539 - 1068.72] the scenes is we can look at our gpt3
+
+[1065.24 - 1072.26] logs and so we can see here's the notes
+
+[1068.72 - 1075.38] so uh yep
+
+[1072.26 - 1077.48] so we've we've compressed this into this
+
+[1075.38 - 1080.66] so we've got really nice concise notes
+
+[1077.48 - 1083.6] about the previous conversation
+
+[1080.66 - 1086.8400000000001] um so that is how you can handle large
+
+[1083.6 - 1089.78] volumes and then here is an example of
+
+[1086.84 - 1092.84] what it's uh uh responding so you can
+
+[1089.78 - 1095.059] see we've said here's the notes so it it
+
+[1092.84 - 1097.039] Raven has some longer longer term
+
+[1095.059 - 1100.1] context here's the most recent
+
+[1097.039 - 1103.28] conversation it's just the last four
+
+[1100.1 - 1104.48] um and then here's the the final output
+
+[1103.28 - 1106.039] um so let's see what Raven said
+
+[1104.48 - 1108.799] absolutely circadian rhythms are the
+
+[1106.039 - 1110.419] body's natural blah blah
+
+[1108.799 - 1113.72] um okay
+
+[1110.419 - 1114.919] um what do you think about uh The
+
+[1113.72 - 1116.0] Singularity
+
+[1114.919 - 1120.4] um
+
+[1116.0 - 1120.4] when will it happen
+
+[1122.66 - 1127.88] and so I've basically just created my
+
+[1125.059 - 1130.82] own personal chat GPT with long-term
+
+[1127.88 - 1132.8600000000001] memory and I've given it my own goals
+
+[1130.82 - 1134.539] um it does not have the the chat GPT
+
+[1132.86 - 1136.52] goals
+
+[1134.539 - 1140.0] um so blah blah let's see the concept of
+
+[1136.52 - 1141.1399999999999] the singularity is this uh so on and so
+
+[1140.0 - 1144.28] forth
+
+[1141.14 - 1147.5590000000002] um yeah and as I mentioned you can also
+
+[1144.28 - 1149.96] add functions where you can search uh KB
+
+[1147.559 - 1154.82] articles in the same way so let me
+
+[1149.96 - 1158.179] actually add that as a to do so so
+
+[1154.82 - 1159.6789999999999] adding that so for memories and so
+
+[1158.179 - 1161.539] there's there's two kinds of memories
+
+[1159.679 - 1166.16] there's episodic and declarative
+
+[1161.539 - 1168.679] memories so this is a pull episodic
+
+[1166.16 - 1170.8400000000001] memories
+
+[1168.679 - 1174.799] um and then to do
+
+[1170.84 - 1177.5] um fetch declarative memories
+
+[1174.799 - 1181.34] um AKA facts you know that are not
+
+[1177.5 - 1183.32] attached to you so like facts uh wikis
+
+[1181.34 - 1184.6399999999999] KB
+
+[1183.32 - 1187.28] Etc
+
+[1184.64 - 1190.16] um and that can ground it in
+
+[1187.28 - 1192.3799999999999] um those so this could be like you know
+
+[1190.16 - 1194.1200000000001] company data it could be Wikipedia it
+
+[1192.38 - 1196.3400000000001] could be internet
+
+[1194.12 - 1197.299] um so I'll just say like company data
+
+[1196.34 - 1198.4399999999998] Internet
+
+[1197.299 - 1201.02] Etc
+
+[1198.44 - 1203.299] um yep so that's another to do and to
+
+[1201.02 - 1205.34] add this you just have another
+
+[1203.299 - 1206.84] um thing in your Corpus right here and
+
+[1205.34 - 1210.1999999999998] you'd say like okay notes from the
+
+[1206.84 - 1213.4399999999998] following and then you might say um
+
+[1210.2 - 1215.3600000000001] here is some uh
+
+[1213.44 - 1219.38] background
+
+[1215.36 - 1222.26] um knowledge that may be helpful for the
+
+[1219.38 - 1224.1200000000001] conversation and then you just say like
+
+[1222.26 - 1226.16] you know KB or whatever
+
+[1224.12 - 1226.82] um so that would be that would be
+
+[1226.16 - 1229.88] um
+
+[1226.82 - 1231.98] uh how you how you populate this and
+
+[1229.88 - 1234.679] we'll get to that in the future
+
+[1231.98 - 1237.08] um but yeah so I think we're done like
+
+[1234.679 - 1238.8200000000002] super simple super straightforward this
+
+[1237.08 - 1240.4399999999998] is long-term memory this is also a
+
+[1238.82 - 1242.96] cognitive architecture
+
+[1240.44 - 1244.5800000000002] so I want to point out that this is
+
+[1242.96 - 1246.679] um this is
+
+[1244.58 - 1248.96] the simplest implementation of natural
+
+[1246.679 - 1250.76] language cognitive architecture
+
+[1248.96 - 1252.32] um that I have come up with yet and you
+
+[1250.76 - 1254.9] might say well where's the inner loop
+
+[1252.32 - 1256.9399999999998] the inner loop is
+
+[1254.9 - 1258.919] um everything that you're seeing here
+
+[1256.94 - 1261.8600000000001] so where you where you compose the
+
+[1258.919 - 1265.22] Corpus this is the inner loop
+
+[1261.86 - 1266.78] and then the outer loop is the is uh the
+
+[1265.22 - 1268.76] interaction here
+
+[1266.78 - 1272.36] so there's two Loops they interact they
+
+[1268.76 - 1274.64] interlock and it it it's it it
+
+[1272.36 - 1277.1] um has some time where it's thinking and
+
+[1274.64 - 1279.679] then it generates a response
+
+[1277.1 - 1281.78] um now this doesn't have autonomy rate
+
+[1279.679 - 1283.76] this version of Raven is not thinking on
+
+[1281.78 - 1285.44] his own all the time
+
+[1283.76 - 1287.12] um but you can see that there's clearly
+
+[1285.44 - 1288.98] some thought going on
+
+[1287.12 - 1290.4799999999998] um and we've set the stage to make it
+
+[1288.98 - 1293.059] more extensible
+
+[1290.48 - 1295.34] uh okay I think we'll call it a day I
+
+[1293.059 - 1297.26] can hear all of you salivating and I'm
+
+[1295.34 - 1300.1399999999999] very excited and want and wanting me to
+
+[1297.26 - 1302.179] continue this but we're at 20 minutes in
+
+[1300.14 - 1303.5590000000002] um so thanks for watching as a quick
+
+[1302.179 - 1305.24] reminder
+
+[1303.559 - 1306.74] um the offer is still on the table if
+
+[1305.24 - 1308.96] you guys support me enough on patreon
+
+[1306.74 - 1310.34] I'll remove ads for good
+
+[1308.96 - 1313.76] um the best way to get in touch with me
+
+[1310.34 - 1315.74] is via patreon there's also LinkedIn and
+
+[1313.76 - 1317.6] finally my mailing list and links for
+
+[1315.74 - 1319.7] all of those are in the video
+
+[1317.6 - 1322.039] description thanks for watching take
+
+[1319.7 - 1324.2] care oh and one other thing
+
+[1322.039 - 1326.9] um I mentioned I think at the beginning
+
+[1324.2 - 1329.24] of this video that uh the comments are
+
+[1326.9 - 1331.76] going crazy I cannot respond to all
+
+[1329.24 - 1334.58] comments on YouTube anymore
+
+[1331.76 - 1336.32] um so I would encourage you guys to talk
+
+[1334.58 - 1339.5] to each other
+
+[1336.32 - 1341.84] um and also upvote uh good comments and
+
+[1339.5 - 1343.58] that will help me zoom in on like the
+
+[1341.84 - 1344.6589999999999] questions that you all agree you want
+
+[1343.58 - 1348.34] answered
+
+[1344.659 - 1348.3400000000001] um okay I think that's it talk later

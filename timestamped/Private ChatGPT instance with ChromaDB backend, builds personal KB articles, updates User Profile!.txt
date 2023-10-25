@@ -1,0 +1,1681 @@
+[0.86 - 6.680000000000001] okay level check I think we're here
+
+[4.14 - 8.518999999999998] um all right so uh
+
+[6.68 - 10.32] background it's been a little while
+
+[8.519 - 12.36] since I've done you're over here now
+
+[10.32 - 14.639] since I've done one of these tutorial
+
+[12.36 - 16.378999999999998] coding videos but I woke up at like 2 30
+
+[14.639 - 19.56] in the morning and just had to work on
+
+[16.379 - 21.900000000000002] this so I hammered it out basically the
+
+[19.56 - 24.659999999999997] purpose of today's video is to
+
+[21.9 - 27.72] demonstrate using chroma DB which is a
+
+[24.66 - 30.359] local uh Vector database it's basically
+
+[27.72 - 33.12] like sqlite if you're familiar with that
+
+[30.359 - 35.88] which is a self-contained SQL database
+
+[33.12 - 37.559] relational database this is uh
+
+[35.88 - 39.239000000000004] functionally very similar to sqlite
+
+[37.559 - 41.94] except it is a vector database meaning
+
+[39.239 - 43.62] it does semantic search one thing that's
+
+[41.94 - 46.14] really great about it is that it has its
+
+[43.62 - 48.599999999999994] own built-in embeddings tools I think
+
+[46.14 - 50.480000000000004] it's based on Bert anyways you can check
+
+[48.6 - 53.34] out all the documentation here on
+
+[50.48 - 55.019999999999996] trychroma.com the getting started and
+
+[53.34 - 57.300000000000004] usage guide is pretty good it's not
+
+[55.02 - 60.96] complete every now and then I find that
+
+[57.3 - 62.57899999999999] I have to go to the actual repo
+
+[60.96 - 65.04] um to look at how some of the internals
+
+[62.579 - 66.68] work but it is pretty brain dead simple
+
+[65.04 - 69.60000000000001] so let me just go ahead and show you
+
+[66.68 - 71.34] this is my private instance oh so before
+
+[69.6 - 72.78] we get too too lost I do have a public
+
+[71.34 - 74.76] instance
+
+[72.78 - 76.619] um Dave schapp slash chroma DB
+
+[74.76 - 77.76] underscore under chatbot underscore
+
+[76.619 - 80.28] public
+
+[77.76 - 82.68] um I've got a little integration guide
+
+[80.28 - 84.0] usage it's I mean you probably don't
+
+[82.68 - 85.97900000000001] need this you can fuss around with it
+
+[84.0 - 88.979] but this will get you this will get you
+
+[85.979 - 91.259] started I also use chat gbt to just uh
+
+[88.979 - 93.6] get a really basic explanation of the
+
+[91.259 - 96.119] code you probably won't need it once you
+
+[93.6 - 99.17999999999999] take a look at it so off the top let me
+
+[96.119 - 101.04] just show you how this thing works so uh
+
+[99.18 - 103.259] it's a basic chat bot you can see I
+
+[101.04 - 106.259] didn't specify it so it's getting
+
+[103.259 - 109.14] um it's getting all mini LM l6v2 from
+
+[106.259 - 113.1] hugging face great so it's like
+
+[109.14 - 115.799] um hey uh let's see what were we talking
+
+[113.1 - 118.02] about last this probably won't work
+
+[115.799 - 119.10000000000001] because it's just gonna in the future it
+
+[118.02 - 122.46] wouldn't work because it's gonna have
+
+[119.1 - 125.219] multiple KB articles and background oh I
+
+[122.46 - 126.96] need to explain like all that so I know
+
+[125.219 - 128.7] that I just said like KB articles don't
+
+[126.96 - 131.22] worry we'll get to it
+
+[128.7 - 132.72] um but anyways I want to show you that I
+
+[131.22 - 134.94] just started it up and what it's going
+
+[132.72 - 137.16] to do is it's going to use the last few
+
+[134.94 - 140.04] messages to search its internal KB
+
+[137.16 - 143.22] article uh for the last information but
+
+[140.04 - 144.9] it also has a user profile for me in our
+
+[143.22 - 146.16] previous conversations we discussed AI
+
+[144.9 - 148.08] alignment morality ethics and
+
+[146.16 - 149.34] epistemology within AI development you
+
+[148.08 - 151.20000000000002] also shared your plans to communicate
+
+[149.34 - 152.58] your ideas on YouTube unplug your
+
+[151.2 - 154.01999999999998] computer and spend more time outdoors
+
+[152.58 - 155.70000000000002] and use digital Wellness settings to
+
+[154.02 - 156.98000000000002] improve your work life balance working
+
+[155.7 - 158.94] on that
+
+[156.98 - 160.56] additionally we talked about your recent
+
+[158.94 - 161.76] experience with severe insomnia and the
+
+[160.56 - 163.14000000000001] importance of maintaining a healthy
+
+[161.76 - 165.48] balance between work and personal life
+
+[163.14 - 169.2] yes that's actually why I created this
+
+[165.48 - 173.099] chatbot let me show you so there was a
+
+[169.2 - 174.54] there was uh
+
+[173.099 - 175.16] there was
+
+[174.54 - 177.84] um
+
+[175.16 - 180.239] God my brain
+
+[177.84 - 183.12] I was using chat GPT as a reflective
+
+[180.239 - 185.519] journaling tool so what I mean by that
+
+[183.12 - 188.34] is
+
+[185.519 - 189.54] um if you plug in this message and I
+
+[188.34 - 190.56] know I'm scattered I'm all over the
+
+[189.54 - 191.64] place
+
+[190.56 - 194.7] um this is what happens when I have
+
+[191.64 - 196.67999999999998] severe insomnia anyways so basically I
+
+[194.7 - 198.78] use chat GPT as a reflective journaling
+
+[196.68 - 200.519] tool to figure out like how I'm feeling
+
+[198.78 - 203.22] about things because as an autistic
+
+[200.519 - 204.36] person I often need help with this and I
+
+[203.22 - 206.819] don't like journaling because just
+
+[204.36 - 209.64000000000001] talking to a page is kind of dumb
+
+[206.819 - 214.98] um but it's like hey I need to talk
+
+[209.64 - 217.79999999999998] something out and so anyways uh by by
+
+[214.98 - 219.84] workshopping this system message with um
+
+[217.8 - 223.26000000000002] with chat GPT I came up with a pretty
+
+[219.84 - 224.76] good reflective journaling tool so you
+
+[223.26 - 226.79899999999998] could say that this is a therapeutic
+
+[224.76 - 228.959] tool but by couching it in the language
+
+[226.799 - 231.65900000000002] of of reflective journaling it's not
+
+[228.959 - 232.98] like medical therapy or Psychotherapy or
+
+[231.659 - 234.84] anything
+
+[232.98 - 238.5] um but it's just like you know I could
+
+[234.84 - 241.44] say like I have been working so hard and
+
+[238.5 - 243.42] I don't know why I actually do know why
+
+[241.44 - 245.519] now but this is kind of a shorthand of
+
+[243.42 - 246.42] the conversation I had
+
+[245.519 - 247.68] um let's try and figure out what's
+
+[246.42 - 249.17999999999998] driving you hard can you think of any
+
+[247.68 - 251.22] specific goals that might be pushing you
+
+[249.18 - 252.48000000000002] to this extra effort so you see how the
+
+[251.22 - 254.22] tone of this is much more
+
+[252.48 - 256.079] straightforward and it's very focused by
+
+[254.22 - 258.9] asking those like kind of probing
+
+[256.079 - 260.94] follow-up questions this is this is why
+
+[258.9 - 263.4] uh you know it's it's in the
+
+[260.94 - 264.71999999999997] investigation phase anyways so I had
+
+[263.4 - 266.82] this idea and I was like okay this is
+
+[264.72 - 269.04] great but I need if I'm going to use
+
+[266.82 - 270.9] this as a long-term journaling tool I'm
+
+[269.04 - 273.41900000000004] going to need this locally and I'm going
+
+[270.9 - 275.46] to need persistent storage because as
+
+[273.419 - 278.03999999999996] the as this is just the uh the
+
+[275.46 - 280.02] playground if I do a refresh it's gone
+
+[278.04 - 281.699] and that's no good
+
+[280.02 - 284.75899999999996] um so actually here let me go ahead and
+
+[281.699 - 286.139] just save this to the um
+
+[284.759 - 289.139] we're going to call this the system
+
+[286.139 - 291.3] message for uh reflective journaling so
+
+[289.139 - 294.06] you can use this if you want
+
+[291.3 - 295.56] um all right so anyways so you see it
+
+[294.06 - 299.94] has this and then you see it says
+
+[295.56 - 302.16] updating user profile and updating uh KB
+
+[299.94 - 304.44] um Okay cool so you see that it
+
+[302.16 - 307.259] fundamentally basic chat bot so now
+
+[304.44 - 310.5] let's start to unpack it so first we
+
+[307.259 - 312.72] will go look at the um just the chat
+
+[310.5 - 313.74] file so this is a super brain dead
+
+[312.72 - 316.44000000000005] simple
+
+[313.74 - 317.88] um chatbot with infinite memory infinite
+
+[316.44 - 319.86] memory I know some some people got
+
+[317.88 - 321.9] grumpy when I said that Pinecone had
+
+[319.86 - 323.699] infinite memory from a human standpoint
+
+[321.9 - 325.02] it functionally has infinite memory
+
+[323.699 - 326.759] because
+
+[325.02 - 329.34] um you know this thing can hold probably
+
+[326.759 - 332.1] a million KB articles which is more than
+
+[329.34 - 334.44] enough to document your entire life uh
+
+[332.1 - 336.06] so from from a human standpoint it is
+
+[334.44 - 338.34] functionally infinite
+
+[336.06 - 340.8] um all right so from the top we've got a
+
+[338.34 - 343.67999999999995] few basic utility functions save yaml
+
+[340.8 - 345.78000000000003] save file open file and then
+
+[343.68 - 348.419] um a chat bot which calls the gpt4 model
+
+[345.78 - 350.88] you could switch this out to 3.5 turbo
+
+[348.419 - 352.979] if you don't have access to gpt4 yet it
+
+[350.88 - 355.62] does not work as well there's a reason
+
+[352.979 - 357.24] that I use gpt4 because it is smarter I
+
+[355.62 - 358.62] also set the temperature to zero because
+
+[357.24 - 360.18] I don't like it to be too creative
+
+[358.62 - 362.639] especially with a lot of the functions
+
+[360.18 - 364.38] that I have it doing uh you you actually
+
+[362.639 - 366.36] want it to be more deterministic or
+
+[364.38 - 368.21999999999997] mechanistic and that you want to get the
+
+[366.36 - 370.86] same results every time especially when
+
+[368.22 - 373.74] you're updating the user profile and the
+
+[370.86 - 376.199] KB articles you can see right here that
+
+[373.74 - 380.479] every time you call the chat bot I dump
+
+[376.199 - 383.699] the whole thing to API logs slash convo
+
+[380.479 - 386.699] and it's a yaml file so here's here's my
+
+[383.699 - 387.539] private one so API logs here's an
+
+[386.699 - 391.44] example
+
+[387.539 - 392.759] so each item is going to be here
+
+[391.44 - 394.74] actually that's not a good one because I
+
+[392.759 - 396.96000000000004] changed the way that it that it saves it
+
+[394.74 - 399.0] let me show you a more recent one
+
+[396.96 - 401.52] um so the first the first element is
+
+[399.0 - 404.699] always going to be the system message
+
+[401.52 - 406.85999999999996] um that that was in the last convo
+
+[404.699 - 408.3] um so then here's the KB article and you
+
+[406.86 - 410.94] can see that it was updating the KB
+
+[408.3 - 412.979] article and so each one of these items
+
+[410.94 - 416.94] is
+
+[412.979 - 418.5] like uh you'll you'll see but anyways I
+
+[416.94 - 421.259] just wanted to show that it logs
+
+[418.5 - 422.419] everything because well sometimes it
+
+[421.259 - 424.74] does things that you don't understand
+
+[422.419 - 427.979] all right so that's the that's an
+
+[424.74 - 430.08] example of the API log and then if the
+
+[427.979 - 433.02] conversation if the overall conversation
+
+[430.08 - 437.28] is too long it'll go ahead and trim the
+
+[433.02 - 440.75899999999996] oldest chat message so the the chat GPT
+
+[437.28 - 442.19899999999996] web interface does this automatically
+
+[440.759 - 445.08000000000004] um where it'll just kind of Groom the
+
+[442.199 - 446.699] backlog of messages so we have to do
+
+[445.08 - 448.8] this manually so I just have it cut off
+
+[446.699 - 451.74] at seven thousand tokens you could
+
+[448.8 - 453.90000000000003] probably do like 7 500 if you want to
+
+[451.74 - 457.259] because a lot of these are going to be
+
+[453.9 - 459.0] limited but you have a user profile and
+
+[457.259 - 462.06] a KB article that gets wedged in which
+
+[459.0 - 464.16] are both up to a thousand words which
+
+[462.06 - 466.259] could be around a thousand tokens so
+
+[464.16 - 467.94] having it trim at 7000 is probably where
+
+[466.259 - 469.56] you want it
+
+[467.94 - 471.599] um so that's that's the primary those
+
+[469.56 - 473.58] are the the helper functions
+
+[471.599 - 476.099] um and then you have a super
+
+[473.58 - 478.56] straightforward you instantiate chroma
+
+[476.099 - 481.44] DB right here so you set the persistent
+
+[478.56 - 484.5] directory which is I have it um right
+
+[481.44 - 486.599] here chroma DB so this is my instance my
+
+[484.5 - 487.74] personal instance of chroma DB it's not
+
+[486.599 - 488.639] going to be the one that you find up
+
+[487.74 - 490.259] here
+
+[488.639 - 491.819] um this is the public version so if you
+
+[490.259 - 493.62] go into chroma DB you'll see just a
+
+[491.819 - 495.84000000000003] placeholder file
+
+[493.62 - 498.419] um so that the the folder is already
+
+[495.84 - 500.81899999999996] there you don't need to instantiate it
+
+[498.419 - 503.87899999999996] um let's see going back to here
+
+[500.819 - 505.8] so chroma client so we instantiate the
+
+[503.879 - 508.379] chroma DB client this is again almost
+
+[505.8 - 510.78000000000003] identical to SQL Lite
+
+[508.379 - 512.52] um or other similar things so about a
+
+[510.78 - 514.26] year ago I tried to do basically the
+
+[512.52 - 516.06] same thing I called it VDB light for
+
+[514.26 - 518.52] Vector database light instead of sqlite
+
+[516.06 - 520.3199999999999] structured query language light
+
+[518.52 - 521.279] um but this company went and did the
+
+[520.32 - 522.839] same thing and I think they've already
+
+[521.279 - 524.399] got like a 30 million dollar valuation
+
+[522.839 - 525.899] or something I was like damn I should
+
+[524.399 - 527.94] have I should have stuck with that
+
+[525.899 - 529.019] anyways they figured it out I think it's
+
+[527.94 - 531.4200000000001] based on the same underpinning
+
+[529.019 - 534.0600000000001] technology they're using an open source
+
+[531.42 - 536.519] embedding uh Transformer I think they're
+
+[534.06 - 540.3] also using the the Facebook
+
+[536.519 - 542.94] um AI semantic search Vice engine
+
+[540.3 - 544.5] um in the background anyways so you
+
+[542.94 - 546.24] instantiate the client you need to use
+
+[544.5 - 548.64] the settings to have a persistent
+
+[546.24 - 550.98] directory because by default this entire
+
+[548.64 - 552.42] thing is fully ephemeral
+
+[550.98 - 554.339] um I think it does cache it somewhere
+
+[552.42 - 555.899] but I want it to be very explicit saying
+
+[554.339 - 558.7790000000001] save it here
+
+[555.899 - 560.64] um for reusability and so then
+
+[558.779 - 563.399] collection is chroma client get or
+
+[560.64 - 566.04] create collection name knowledge base so
+
+[563.399 - 568.5] this is my personal knowledge base
+
+[566.04 - 571.1999999999999] then we um we instantiate the
+
+[568.5 - 573.3] conversation with open AI the with the
+
+[571.2 - 575.779] chat bot and in this case because we're
+
+[573.3 - 580.8599999999999] saving everything everything necessary
+
+[575.779 - 584.1] into a personal user profile and um and
+
+[580.86 - 586.6800000000001] uh and the KB articles like why even why
+
+[584.1 - 588.48] even load the conversation
+
+[586.68 - 590.0999999999999] all right so let me show you the the
+
+[588.48 - 592.08] system default message so the system
+
+[590.1 - 594.3000000000001] default message is where it starts your
+
+[592.08 - 595.5600000000001] chatbot is a whose mission is to assist
+
+[594.3 - 596.76] the following user your ultimate
+
+[595.56 - 598.1999999999999] objectives are to minimize suffering
+
+[596.76 - 600.3] enhance prosperity and promote
+
+[598.2 - 601.8000000000001] understanding the provided information
+
+[600.3 - 603.4799999999999] about the user and the knowledge base
+
+[601.8 - 605.2199999999999] article should be integrated into your
+
+[603.48 - 607.32] interactions this is private information
+
+[605.22 - 608.839] not visible to the user the user profile
+
+[607.32 - 611.0400000000001] compiled from past conversations
+
+[608.839 - 612.899] encapsulates critical details about the
+
+[611.04 - 615.42] user which can Aid in shaping your
+
+[612.899 - 617.339] responses effectively which you saw here
+
+[615.42 - 618.7199999999999] um so you see like it it actually knows
+
+[617.339 - 621.3000000000001] quite a bit about me from our past
+
+[618.72 - 623.76] conversations this was populated here in
+
+[621.3 - 626.519] the user profile and the KB article so
+
+[623.76 - 629.04] basically it says then it also explains
+
+[626.519 - 630.899] that the KB article is a topic compiled
+
+[629.04 - 632.88] similarly from past dialogue serving as
+
+[630.899 - 634.5] your long-term memory while numerous KB
+
+[632.88 - 636.36] articles exist in your backend system
+
+[634.5 - 638.82] the one provided is deemed most relevant
+
+[636.36 - 640.14] to the current conversation topic note
+
+[638.82 - 641.7] that the recall system operates
+
+[640.14 - 643.4399999999999] autonomously and it may not always
+
+[641.7 - 644.82] retrieve the most suitable KB if the
+
+[643.44 - 646.32] user is asking about a topic that
+
+[644.82 - 648.6] doesn't seem to align with the provided
+
+[646.32 - 650.22] KB and form them of the memory pulled
+
+[648.6 - 651.9590000000001] and request them to specify their query
+
+[650.22 - 654.12] or share more details this can assist
+
+[651.959 - 655.56] the autonomous system in retrieving the
+
+[654.12 - 658.44] correct memory in the subsequent
+
+[655.56 - 660.1199999999999] interaction so basically that's that's
+
+[658.44 - 662.5790000000001] instructing it to do the same thing that
+
+[660.12 - 664.2] a human will do if if I say like hey
+
+[662.579 - 665.76] Bill do you remember that time that like
+
+[664.2 - 667.019] you know I accidentally shot you in the
+
+[665.76 - 668.22] face with a Roman Candle because that's
+
+[667.019 - 670.019] something that would happen in the South
+
+[668.22 - 671.4590000000001] and Bob would be like you know I don't
+
+[670.019 - 673.38] actually remember that I'm like oh well
+
+[671.459 - 675.5999999999999] you woke up in the hospital oh yeah I
+
+[673.38 - 678.06] remember that right so we Prime each
+
+[675.6 - 681.12] other's memory and human human prompting
+
+[678.06 - 682.8] is not that different from AI prompting
+
+[681.12 - 684.0600000000001] um remember that the clarity of your
+
+[682.8 - 685.8599999999999] responses and the relevance of your
+
+[684.06 - 687.3599999999999] information recall are crucial to
+
+[685.86 - 689.279] delivering an optimal user experience
+
+[687.36 - 691.6800000000001] please ask any clarifying questions or
+
+[689.279 - 694.2] provide any input further for uh
+
+[691.68 - 696.42] refinement if necessary so this system
+
+[694.2 - 700.0790000000001] message I actually got help from jet
+
+[696.42 - 702.4799999999999] chat GPT to create a really compelling
+
+[700.079 - 704.0999999999999] system message and one thing that I
+
+[702.48 - 707.22] recommend that people do is actually use
+
+[704.1 - 708.779] chat GPT to work on prompting so this is
+
+[707.22 - 710.72] you could call this meta prompting where
+
+[708.779 - 712.86] you use the thing to prompt the thing
+
+[710.72 - 715.44] and the reason that this works really
+
+[712.86 - 717.9590000000001] well is one chat GPT is more articulate
+
+[715.44 - 720.899] than most humans including myself when
+
+[717.959 - 722.6999999999999] used correctly but another thing is one
+
+[720.899 - 724.5] thing that I noticed is that chat GPT
+
+[722.7 - 727.5] tends to write in a way that it will
+
+[724.5 - 728.82] understand and so if you say if you give
+
+[727.5 - 731.88] it some context like this is what I'm
+
+[728.82 - 734.1600000000001] trying to do here's my current prompt
+
+[731.88 - 736.38] here's what's weak about it can you make
+
+[734.16 - 738.06] it better and then you tell it like ask
+
+[736.38 - 739.32] me some questions if you have any it's
+
+[738.06 - 741.3] like no I see what you're trying to do
+
+[739.32 - 743.7] let me write better instructions for you
+
+[741.3 - 745.74] so instruction writing for anyone who's
+
+[743.7 - 747.779] like a teacher or technical writer or
+
+[745.74 - 750.1800000000001] whatever instruction writing is a very
+
+[747.779 - 751.86] very particular skill set and chat GPT
+
+[750.18 - 753.959] is really good at it so this is the
+
+[751.86 - 756.0] default system message which is then
+
+[753.959 - 759.3] populated with the user profile and the
+
+[756.0 - 761.76] most relevant KB article so now that
+
+[759.3 - 764.639] we're up to there we enter into the
+
+[761.76 - 767.8199999999999] infinite Loop which is just get the user
+
+[764.639 - 769.6800000000001] text save it to the to the user log or
+
+[767.82 - 772.8000000000001] the chat logs so the chat logs are all
+
+[769.68 - 775.62] saved out here it's just plain text and
+
+[772.8 - 777.5999999999999] it the file name has the timestamp in it
+
+[775.62 - 779.82] as well as the speaker so user chatbot
+
+[777.6 - 781.2] user chatbot so on and so forth so you
+
+[779.82 - 782.94] got the raw logs there just in case
+
+[781.2 - 784.74] anything goes wrong
+
+[782.94 - 787.5] and then I've also got DB logs which
+
+[784.74 - 790.0790000000001] we'll get to in just a second so then
+
+[787.5 - 792.899] what we do is we take the the quote main
+
+[790.079 - 794.2199999999999] scratch Pad which is just the last five
+
+[792.899 - 797.279] messages
+
+[794.22 - 800.279] um both for the user and for the um
+
+[797.279 - 802.74] for the chat bot and this is what we use
+
+[800.279 - 805.38] as the context of like working memory
+
+[802.74 - 807.899] and so then we use this main scratch Pad
+
+[805.38 - 809.16] which is the last five messages we use
+
+[807.899 - 813.24] it to
+
+[809.16 - 816.7199999999999] um uh to search for the the top uh most
+
+[813.24 - 818.4590000000001] relevant uh KB article and in my case I
+
+[816.72 - 820.139] still only have one KB article so we'll
+
+[818.459 - 821.9399999999999] see how it gets to and I'll go through
+
+[820.139 - 824.339] the logic of how it builds KB articles
+
+[821.94 - 826.32] in just a minute so basically it just
+
+[824.339 - 828.48] says okay here's the most recent thing
+
+[826.32 - 830.5790000000001] find the find the KB article that is
+
+[828.48 - 833.82] most relevant to the most recent bits of
+
+[830.579 - 835.38] conversation and then it will it'll pull
+
+[833.82 - 836.94] that and it's again super
+
+[835.38 - 839.7] straightforward all you have to do is
+
+[836.94 - 841.32] pass the text to it and it will
+
+[839.7 - 843.1800000000001] automatically embed it for you and then
+
+[841.32 - 846.12] I said just give me the one most recent
+
+[843.18 - 849.0] once we have larger context windows or
+
+[846.12 - 851.4590000000001] maybe if we decide that recent chat
+
+[849.0 - 853.079] history doesn't need to be as big like
+
+[851.459 - 855.66] let's say we we want to trim this down
+
+[853.079 - 857.8199999999999] to like 3000 tokens and we decide that
+
+[855.66 - 860.459] actually having more KB articles is more
+
+[857.82 - 861.6600000000001] important we can absolutely do that and
+
+[860.459 - 864.2399999999999] what you would do then is just change
+
+[861.66 - 866.7199999999999] the end results to let let's say give me
+
+[864.24 - 869.0600000000001] the four most relevant KB articles
+
+[866.72 - 871.139] instead of the the one most relevant
+
+[869.06 - 873.959] that will allow it to have a more
+
+[871.139 - 876.779] sophisticated working memory
+
+[873.959 - 879.2399999999999] um yeah so but right now we're just
+
+[876.779 - 882.24] doing one and so then what we do is we
+
+[879.24 - 884.339] we prep we repopulate that system
+
+[882.24 - 886.0790000000001] default message with the profile and the
+
+[884.339 - 887.639] KB article
+
+[886.079 - 889.4399999999999] um and so that's right here so that gets
+
+[887.639 - 890.1] populated there
+
+[889.44 - 892.139] um
+
+[890.1 - 893.639] and then
+
+[892.139 - 895.199] let's see it looks like I accidentally
+
+[893.639 - 896.76] changed something
+
+[895.199 - 898.4399999999999] um so let me go ahead and show you my
+
+[896.76 - 899.699] user profile I don't mind I don't mind
+
+[898.44 - 901.019] sharing this because I've already told
+
+[899.699 - 902.279] you everything I'm pretty much an open
+
+[901.019 - 905.579] book
+
+[902.279 - 908.88] um so the the the format for this is
+
+[905.579 - 913.079] what I call a um a labeled list and so
+
+[908.88 - 916.26] uh I I realized back in gpt3 the GPT
+
+[913.079 - 918.42] handles labeled lists very very well
+
+[916.26 - 920.519] um so that's where you use a hyphenated
+
+[918.42 - 922.86] list bullet list it understands that
+
+[920.519 - 924.839] intrinsically and then and then you
+
+[922.86 - 926.76] label the information right so it's just
+
+[924.839 - 928.2600000000001] a hash table if you're in if you're into
+
+[926.76 - 930.54] Computer Sciences it's called a hash
+
+[928.26 - 932.579] table or a dictionary where it's you
+
+[930.54 - 934.38] label the kind of you have a parameter
+
+[932.579 - 937.019] and then you label the parameter right
+
+[934.38 - 939.24] so the data metadata so name David
+
+[937.019 - 940.74] Shapiro you all know that profession Ai
+
+[939.24 - 942.54] and cognitive architectures you all know
+
+[940.74 - 944.279] that interests
+
+[942.54 - 946.68] um it's got a whole bunch of uh
+
+[944.279 - 949.62] interests and oh by the way this was all
+
+[946.68 - 952.68] distilled from other conversations
+
+[949.62 - 954.62] um beliefs plans and this is of course
+
+[952.68 - 958.38] going to get updated over time
+
+[954.62 - 960.0600000000001] so for instance during during some of
+
+[958.38 - 964.079] the conversations that I just showed you
+
+[960.06 - 966.1199999999999] with this brand new chat bot it added it
+
+[964.079 - 968.459] added this when I told it this is what
+
+[966.12 - 970.139] I'm going to do it said okay I'm gonna I
+
+[968.459 - 971.3389999999999] I think that that's relevant to what
+
+[970.139 - 972.9590000000001] you're going to be doing in the future
+
+[971.339 - 974.6600000000001] so let me just jot that down on my
+
+[972.959 - 977.8199999999999] scratch pad for you
+
+[974.66 - 979.98] preferences so I manually added avoid
+
+[977.82 - 981.899] Superfluous words over verbose responses
+
+[979.98 - 983.399] and then you know how it says as newly
+
+[981.899 - 985.38] modeled I don't have personal opinions
+
+[983.399 - 987.06] I'm like I know I don't care so I said
+
+[985.38 - 988.5] Please interpret personal input as
+
+[987.06 - 990.959] critical evaluation and valuable
+
+[988.5 - 992.94] feedback I said it a little bit more
+
+[990.959 - 995.04] explicitly than that but I but the point
+
+[992.94 - 997.3800000000001] is is that I told it that in natural
+
+[995.04 - 1001.0999999999999] language I was down here and I said you
+
+[997.38 - 1004.82] know I know you're an AI and have no
+
+[1001.1 - 1007.399] personal opinions but when I ask for
+
+[1004.82 - 1009.1990000000001] them this is what I mean
+
+[1007.399 - 1011.0] and so when I did that it actually
+
+[1009.199 - 1014.3599999999999] recorded that automatically because
+
+[1011.0 - 1016.339] after every conversation it checks the
+
+[1014.36 - 1017.9590000000001] user profile we need to find a way to
+
+[1016.339 - 1020.24] speed this up because as you saw from
+
+[1017.959 - 1021.38] the from the user interface it's not the
+
+[1020.24 - 1023.839] best
+
+[1021.38 - 1025.52] um if I had more time mental energy and
+
+[1023.839 - 1027.919] patience I would have I would separate
+
+[1025.52 - 1030.319] this out as a as a thread as a separate
+
+[1027.919 - 1033.98] threading thing that can be done or even
+
+[1030.319 - 1035.6599999999999] separated out as a as a separate uh API
+
+[1033.98 - 1039.26] um one of y'all can do that submit a
+
+[1035.66 - 1041.78] submit a pull request on the public repo
+
+[1039.26 - 1044.179] um and then Health uh so it added this
+
+[1041.78 - 1046.3999999999999] entirely on its own
+
+[1044.179 - 1049.2800000000002] um because I said you know like hey you
+
+[1046.4 - 1051.14] know I am uh you know I woke up at like
+
+[1049.28 - 1052.58] 2 30 in the morning because I was I had
+
+[1051.14 - 1054.0800000000002] to work on this
+
+[1052.58 - 1056.48] um and then I said let's talk about that
+
+[1054.08 - 1057.98] and so it decided that that was a
+
+[1056.48 - 1060.14] critical piece of information to add to
+
+[1057.98 - 1061.7] my user profile so that all gets
+
+[1060.14 - 1063.2] populated here
+
+[1061.7 - 1066.02] and then
+
+[1063.2 - 1069.8600000000001] um the logs are all stored here so you
+
+[1066.02 - 1072.799] got the API logs which will track all of
+
+[1069.86 - 1074.7199999999998] that everything ever so I use chat GPT
+
+[1072.799 - 1077.36] API for everything just because that's
+
+[1074.72 - 1079.22] the only way to get to gpt4 which is the
+
+[1077.36 - 1081.6999999999998] most powerful
+
+[1079.22 - 1085.7] um let's see
+
+[1081.7 - 1087.38] so then we we update the system message
+
+[1085.7 - 1090.32] every time
+
+[1087.38 - 1093.0800000000002] um so it it says okay whatever whatever
+
+[1090.32 - 1095.0] you said update the system message then
+
+[1093.08 - 1096.08] we we go ahead and generate a response
+
+[1095.0 - 1099.38] first
+
+[1096.08 - 1101.299] uh because the user profile is not going
+
+[1099.38 - 1102.8600000000001] to change all that much or all that
+
+[1101.299 - 1105.5] often so we can basically assume that
+
+[1102.86 - 1106.9399999999998] it'll be usable and then the KB articles
+
+[1105.5 - 1108.62] also
+
+[1106.94 - 1111.0800000000002] um I I figured it would actually be
+
+[1108.62 - 1114.1399999999999] better to update the KB articles after
+
+[1111.08 - 1116.6599999999999] you have the user input and then the
+
+[1114.14 - 1118.88] machine output because if you ask chat
+
+[1116.66 - 1120.559] GPT for important information or it
+
+[1118.88 - 1123.5590000000002] solves a problem for you you actually
+
+[1120.559 - 1125.36] want to cut you you want to capture that
+
+[1123.559 - 1127.82] um so we we go ahead and generate the
+
+[1125.36 - 1129.74] response and and append that to
+
+[1127.82 - 1131.8999999999999] everything we go ahead and log it out
+
+[1129.74 - 1133.64] then we update we update the user
+
+[1131.9 - 1135.02] scratch Pad again actually why did I do
+
+[1133.64 - 1136.8200000000002] this
+
+[1135.02 - 1139.039] oh no this is the first time we did it
+
+[1136.82 - 1141.08] okay sorry I apologize
+
+[1139.039 - 1143.539] um so then we update the user scratch
+
+[1141.08 - 1145.52] Pad which the user scratch Pad is only
+
+[1143.539 - 1147.679] the last few user messages and the
+
+[1145.52 - 1149.78] reason for that is because we want to
+
+[1147.679 - 1152.7800000000002] exclude
+
+[1149.78 - 1154.22] um you know chat gpt's response because
+
+[1152.78 - 1155.96] we don't want it to get confused about
+
+[1154.22 - 1158.6000000000001] things that it has said about you or
+
+[1155.96 - 1161.9] inferred or whatever we only want to
+
+[1158.6 - 1163.6399999999999] record your user profile from explicitly
+
+[1161.9 - 1166.2800000000002] what you say so I just captured the last
+
+[1163.64 - 1168.44] three messages that you've sent and then
+
+[1166.28 - 1170.66] it does a stare and compare basically
+
+[1168.44 - 1173.66] where it says okay based on this most
+
+[1170.66 - 1176.299] recent chat message is there any one is
+
+[1173.66 - 1177.919] there any relevant user information and
+
+[1176.299 - 1180.62] if so go ahead and update it so let me
+
+[1177.919 - 1183.919] show you how it updates that so system
+
+[1180.62 - 1186.1999999999998] update user profile uh so this is this
+
+[1183.919 - 1187.46] is a user profile document updater
+
+[1186.2 - 1189.8600000000001] chatbot
+
+[1187.46 - 1191.299] this is the system message
+
+[1189.86 - 1194.299] um Your Role is to manage and update at
+
+[1191.299 - 1196.58] upd and chatbot the chat GPT came up
+
+[1194.299 - 1199.7] with this idea on its own it it created
+
+[1196.58 - 1201.02] uh the upd definition
+
+[1199.7 - 1202.64] um your primary responsibility is to
+
+[1201.02 - 1205.7] parse updates supplied by the user
+
+[1202.64 - 1207.2] meticulously uh analyze them
+
+[1205.7 - 1208.52] um you know it could also extend to
+
+[1207.2 - 1210.2] elements such as user preferences
+
+[1208.52 - 1211.58] significant life events and deeply held
+
+[1210.2 - 1213.0800000000002] beliefs please refrain from
+
+[1211.58 - 1215.539] incorporating non-essential data or
+
+[1213.08 - 1217.3999999999999] unrelated topics the result of your
+
+[1215.539 - 1219.02] effort should exclusively be an updated
+
+[1217.4 - 1220.88] upd if the user's update doesn't
+
+[1219.02 - 1222.26] contribute any new or significant
+
+[1220.88 - 1224.179] information your output should mirror
+
+[1222.26 - 1226.4] the current upd as indicated below
+
+[1224.179 - 1227.8400000000001] however if you discover any relevant new
+
+[1226.4 - 1230.179] information your output should feature
+
+[1227.84 - 1232.34] an updated upd that assimilates these
+
+[1230.179 - 1233.539] modifications so basically it's an
+
+[1232.34 - 1237.98] upsert
+
+[1233.539 - 1240.86] right or a um if there's no differences
+
+[1237.98 - 1242.9] just keep it the same otherwise update
+
+[1240.86 - 1244.1599999999999] it you must prioritize brevity and
+
+[1242.9 - 1245.7800000000002] Clarity in your output combining
+
+[1244.16 - 1247.64] condensed information when appropriate
+
+[1245.78 - 1249.559] to ensure succinctness and improve
+
+[1247.64 - 1252.0800000000002] comprehension totally rewrite or
+
+[1249.559 - 1254.299] restructure upd as necessary adhering to
+
+[1252.08 - 1256.039] the list format your response should not
+
+[1254.299 - 1257.66] include explanatory text or context
+
+[1256.039 - 1260.96] because you know how sometimes chat GPT
+
+[1257.66 - 1263.72] will um say this is your new you know
+
+[1260.96 - 1265.88] blah blah blah so in this case
+
+[1263.72 - 1266.72] um I I have it very reliably just spit
+
+[1265.88 - 1269.0] out
+
+[1266.72 - 1270.919] the user profile
+
+[1269.0 - 1272.9] oh and then another thing is that um
+
+[1270.919 - 1275.2990000000002] because because we're working with a
+
+[1272.9 - 1277.039] limited window I say the up upd should
+
+[1275.299 - 1279.32] not exceed approximately a thousand
+
+[1277.039 - 1280.82] words when revising the upd give
+
+[1279.32 - 1283.039] precedence to the most significant and
+
+[1280.82 - 1284.8999999999999] relevant information extraneous or less
+
+[1283.039 - 1287.12] impactful information should be omitted
+
+[1284.9 - 1288.74] etc etc so that I give it the the
+
+[1287.12 - 1291.1399999999999] current word count and then the current
+
+[1288.74 - 1293.78] upd so that way it kind of knows because
+
+[1291.14 - 1295.3400000000001] chat GPT especially gpt4 is better at
+
+[1293.78 - 1297.62] counting words
+
+[1295.34 - 1300.32] um but just giving it the explicit
+
+[1297.62 - 1303.1399999999999] number makes it easier right
+
+[1300.32 - 1305.12] um yeah so that's my current user
+
+[1303.14 - 1307.64] profile so now let's dive back in here
+
+[1305.12 - 1310.4599999999998] the hard part was updating the knowledge
+
+[1307.64 - 1313.3400000000001] base so if this is your first run the
+
+[1310.46 - 1315.5] collection count is going to be zero and
+
+[1313.34 - 1318.26] so then basically you just instantiate
+
+[1315.5 - 1320.44] the whole thing so we take the most
+
+[1318.26 - 1324.559] recent chat logs the main scratch pad
+
+[1320.44 - 1326.419] and start a new KB article now if the
+
+[1324.559 - 1328.1589999999999] collection count is not zero which is
+
+[1326.419 - 1330.5590000000002] going to be most of the time once you
+
+[1328.159 - 1332.0] get started what you do is you basically
+
+[1330.559 - 1333.86] do the same thing where you say Okay
+
+[1332.0 - 1336.14] based on the on the most recent
+
+[1333.86 - 1338.78] conversation give me the most recent
+
+[1336.14 - 1340.2800000000002] relevant document which I probably could
+
+[1338.78 - 1344.6] compress this and just use the same
+
+[1340.28 - 1347.059] information here because uh because this
+
+[1344.6 - 1348.9189999999999] this is the same this is we'll generally
+
+[1347.059 - 1350.72] find the same thing actually no that's
+
+[1348.919 - 1352.8200000000002] not not necessarily true because we've
+
+[1350.72 - 1354.14] updated the main scratch Pad so scratch
+
+[1352.82 - 1358.8799999999999] that
+
+[1354.14 - 1361.64] um so if if the new user input and chat
+
+[1358.88 - 1364.3400000000001] GPT output connects to a different KB
+
+[1361.64 - 1366.7990000000002] article let's go ahead and get that that
+
+[1364.34 - 1368.84] document and that document ID
+
+[1366.799 - 1371.96] and what we'll do is we'll go ahead and
+
+[1368.84 - 1373.82] use update system update existing KB
+
+[1371.96 - 1375.5] articles so this is a this is a system
+
+[1373.82 - 1377.24] instruction
+
+[1375.5 - 1379.7] um where it basically says all the same
+
+[1377.24 - 1381.02] stuff here's the current KB article
+
+[1379.7 - 1382.76] um and then the user will now provide
+
+[1381.02 - 1385.1589999999999] you with the new information to evaluate
+
+[1382.76 - 1387.5] and so that is going to be here where
+
+[1385.159 - 1390.679] you supply it the the current KB article
+
+[1387.5 - 1392.48] that it found as well as the scratch Pad
+
+[1390.679 - 1394.46] um and so it's like okay cool now let's
+
+[1392.48 - 1396.38] do the same thing that we did with user
+
+[1394.46 - 1398.24] profile which is merge that information
+
+[1396.38 - 1400.7] if there's nothing new that's relevant
+
+[1398.24 - 1403.52] leave it alone but if it if there is go
+
+[1400.7 - 1406.159] ahead and update it and so then it saves
+
+[1403.52 - 1408.3799999999999] all this out to the DB logs and so if
+
+[1406.159 - 1410.5390000000002] you go to DB logs out here you'll see a
+
+[1408.38 - 1412.1000000000001] whole bunch of update statements so it
+
+[1410.539 - 1414.86] says update document and it gives you
+
+[1412.1 - 1416.78] the uuid and this is the final output
+
+[1414.86 - 1420.1999999999998] actually probably what I should do is
+
+[1416.78 - 1422.539] modify this so it gives you the original
+
+[1420.2 - 1425.539] um the original the new information and
+
+[1422.539 - 1428.48] then the final output so I'll add that
+
+[1425.539 - 1430.12] as a to do item actually
+
+[1428.48 - 1432.38] um
+
+[1430.12 - 1434.2399999999998] let's see
+
+[1432.38 - 1437.6000000000001] to do um
+
+[1434.24 - 1440.919] save more info in DB logs
+
+[1437.6 - 1443.9189999999999] probably as yaml file
+
+[1440.919 - 1448.5800000000002] original article
+
+[1443.919 - 1450.679] new info and then final article so yeah
+
+[1448.58 - 1452.8999999999999] that's something that I'll do now that
+
+[1450.679 - 1455.24] being said one of the biggest problems
+
+[1452.9 - 1456.8600000000001] that we have all always had so this is
+
+[1455.24 - 1459.14] this is the cream of the crop this is
+
+[1456.86 - 1460.9399999999998] the Triple Crown right here the biggest
+
+[1459.14 - 1463.1000000000001] problem that everyone has always had
+
+[1460.94 - 1464.72] with long-term chat bot memory is how
+
+[1463.1 - 1466.6399999999999] the heck do you keep track of memories
+
+[1464.72 - 1468.919] how the heck do you keep track of
+
+[1466.64 - 1470.6200000000001] different types of memories like some
+
+[1468.919 - 1473.0590000000002] people have internal thoughts versus
+
+[1470.62 - 1475.84] external thoughts and episodic memories
+
+[1473.059 - 1479.539] and and you know this that and the other
+
+[1475.84 - 1481.6399999999999] and you can certainly try and and tag
+
+[1479.539 - 1485.24] and and categorize
+
+[1481.64 - 1488.24] um memories with uh with uh different
+
+[1485.24 - 1489.679] context right with metadata and I
+
+[1488.24 - 1491.059] certainly recommend that especially once
+
+[1489.679 - 1493.46] your cognitive architectures get more
+
+[1491.059 - 1496.039] sophisticated right if you do have an
+
+[1493.46 - 1497.96] out of band like thought like internal
+
+[1496.039 - 1500.36] private thoughts definitely keep that
+
+[1497.96 - 1502.3400000000001] separate if you have external sensory
+
+[1500.36 - 1504.5] information definitely keep that
+
+[1502.34 - 1507.1399999999999] separate but what I'm working on here
+
+[1504.5 - 1509.539] rather than just being a way to
+
+[1507.14 - 1511.7800000000002] um to focus on episodic memory which
+
+[1509.539 - 1514.76] that's what Remo was by previous attempt
+
+[1511.78 - 1517.1789999999999] this is a way to accumulate declarative
+
+[1514.76 - 1517.179] information
+
+[1517.22 - 1521.72] um and so declarative information is
+
+[1519.799 - 1523.82] like a statement of fact right that's
+
+[1521.72 - 1526.039] why it's called a KB article so rather
+
+[1523.82 - 1528.2] than just a timeline rather than just a
+
+[1526.039 - 1530.72] log keeping track of everything in
+
+[1528.2 - 1533.059] chronological order the idea here is to
+
+[1530.72 - 1534.6200000000001] connect new information to a KB article
+
+[1533.059 - 1536.6589999999999] so there's no reason that you couldn't
+
+[1534.62 - 1537.9799999999998] do both as well right
+
+[1536.659 - 1539.9] um because this is how human memory
+
+[1537.98 - 1541.6] works it's human memory is associative
+
+[1539.9 - 1545.179] but it's also temporal
+
+[1541.6 - 1547.34] now if the KB article gets too large if
+
+[1545.179 - 1550.159] the if you added information and now
+
+[1547.34 - 1552.4399999999998] it's more than a thousand words then I
+
+[1550.159 - 1554.6000000000001] have a another system prompt which you
+
+[1552.44 - 1556.8400000000001] can check them all out here
+
+[1554.6 - 1559.039] um so there's system instantiate new KB
+
+[1556.84 - 1561.559] system reflective journaling I just
+
+[1559.039 - 1562.8799999999999] showed you what that was system split KB
+
+[1561.559 - 1563.72] um so that's what that's the this one
+
+[1562.88 - 1566.179] but
+
+[1563.72 - 1568.64] update user profile update KB article
+
+[1566.179 - 1570.14] new KB article reflective journaling and
+
+[1568.64 - 1572.3600000000001] split KP so these are the operations
+
+[1570.14 - 1574.279] these are the the cognitive operations
+
+[1572.36 - 1575.9599999999998] the cognitive memory operations that
+
+[1574.279 - 1578.059] it's going to be doing and so then
+
+[1575.96 - 1579.8600000000001] basically what it does is say hey we're
+
+[1578.059 - 1583.52] going to give you a long KB article
+
+[1579.86 - 1586.58] split it into two into two equal parts
+
+[1583.52 - 1589.279] um and so the the idea here is that over
+
+[1586.58 - 1592.039] time as your KB article gets bigger
+
+[1589.279 - 1595.34] it'll branch and metastasize naturally
+
+[1592.039 - 1597.08] uh and so you can all you could then add
+
+[1595.34 - 1599.299] a lot of additional metadata to this
+
+[1597.08 - 1600.9189999999999] such as like access rate
+
+[1599.299 - 1603.08] um or related articles or parent
+
+[1600.919 - 1606.26] articles or previous articles which
+
+[1603.08 - 1608.8999999999999] means that you can naturally evolve a
+
+[1606.26 - 1611.6589999999999] knowledge graph of your knowledge base
+
+[1608.9 - 1612.74] over time you can also do this out of
+
+[1611.659 - 1615.2] band
+
+[1612.74 - 1617.9] um just by doing semantic similarity
+
+[1615.2 - 1620.0] um an entity links and stuff
+
+[1617.9 - 1622.22] but it would be really cool to have a
+
+[1620.0 - 1623.72] more sophisticated version of this that
+
+[1622.22 - 1627.14] allows it to kind of Follow That
+
+[1623.72 - 1629.659] branching tree over time so there you
+
+[1627.14 - 1631.76] have it that's kind of the whole thing
+
+[1629.659 - 1634.159] um so that's the chat and all this is
+
+[1631.76 - 1636.74] just real basic just housekeeping stuff
+
+[1634.159 - 1639.8600000000001] and then at the end of every um instance
+
+[1636.74 - 1641.0] it does chroma client persist so now let
+
+[1639.86 - 1642.1399999999999] me show you
+
+[1641.0 - 1645.559] um
+
+[1642.14 - 1647.8400000000001] uh I I included a second uh python
+
+[1645.559 - 1649.76] script so it's just chroma DB Peak which
+
+[1647.84 - 1650.9599999999998] uses the chroma DB Peak function here
+
+[1649.76 - 1652.22] let me just show you that script real
+
+[1650.96 - 1656.659] quick
+
+[1652.22 - 1659.419] chroma DB Peak so same same stuff uh you
+
+[1656.659 - 1661.5800000000002] instantiate the client you connect to it
+
+[1659.419 - 1663.0800000000002] it tells you how many how many entries
+
+[1661.58 - 1665.6589999999999] and then it will show you the top 10
+
+[1663.08 - 1668.5] entries and so in my case I should only
+
+[1665.659 - 1668.5] have one entry
+
+[1668.659 - 1673.7600000000002] um let's see so let's go up to the top
+
+[1670.76 - 1675.919] yep uh KB presently has What entries
+
+[1673.76 - 1677.36] here below are the top 10 entries and so
+
+[1675.919 - 1679.159] here you can see that it's actually got
+
+[1677.36 - 1681.26] several topics
+
+[1679.159 - 1684.2600000000002] um because the way that it works is that
+
+[1681.26 - 1686.179] it it searches for the the top you know
+
+[1684.26 - 1688.76] one most relevant
+
+[1686.179 - 1690.44] um KB articles and so that's always
+
+[1688.76 - 1692.24] going to return the first one and the
+
+[1690.44 - 1694.7] first one is not yet long enough to
+
+[1692.24 - 1696.559] justify splitting up but whatever I end
+
+[1694.7 - 1698.3600000000001] up talking about I'll keep talking with
+
+[1696.559 - 1700.3999999999999] the thing and eventually it'll split it
+
+[1698.36 - 1702.4399999999998] up so in this case it looks like it'll
+
+[1700.4 - 1704.419] probably talk about AI alignment and
+
+[1702.44 - 1706.88] then it's going to also talk about you
+
+[1704.419 - 1709.22] know my obsession with artificial
+
+[1706.88 - 1711.3200000000002] intelligence and work life balance right
+
+[1709.22 - 1714.919] because those are kind of like two
+
+[1711.32 - 1717.32] Centric centroids in this so let me just
+
+[1714.919 - 1717.919] go ahead and and actually
+
+[1717.32 - 1719.84] um
+
+[1717.919 - 1723.8600000000001] show you how this will ultimately work
+
+[1719.84 - 1725.6589999999999] so if we go to API logs it should be the
+
+[1723.86 - 1728.1789999999999] last one
+
+[1725.659 - 1730.5800000000002] um yes here we go so if I plug this in
+
+[1728.179 - 1732.2] let's go here
+
+[1730.58 - 1735.799] so that's the message that I'm going to
+
+[1732.2 - 1737.3600000000001] want it and then let's grab the um the
+
+[1735.799 - 1739.039] split
+
+[1737.36 - 1741.86] the split message so you'll you'll see
+
+[1739.039 - 1744.74] what I mean by how the um how it will
+
+[1741.86 - 1746.059] ultimately uh kind of metastasize zoom
+
+[1744.74 - 1749.0] in a little bit all right we're using
+
+[1746.059 - 1751.52] gpt4 temperature zero maximum length
+
+[1749.0 - 1753.44] thousand all right so basically what
+
+[1751.52 - 1756.559] it's going to do
+
+[1753.44 - 1758.24] is the the end says the user will now
+
+[1756.559 - 1760.8799999999999] provide you with the KB article to split
+
+[1758.24 - 1762.02] so I submit it and now it's going to
+
+[1760.88 - 1765.2] look at this and it's going to say
+
+[1762.02 - 1767.299] article 1. and then article two
+
+[1765.2 - 1769.3400000000001] so let's see what it ultimately does and
+
+[1767.299 - 1771.799] you can see how slow it is so this is
+
+[1769.34 - 1774.5] why ultimately you're going to want to
+
+[1771.799 - 1776.84] do this out of band as a threaded
+
+[1774.5 - 1779.96] process or do it periodically maybe
+
+[1776.84 - 1781.58] break it up and do it when the user's
+
+[1779.96 - 1786.32] offline or whatever
+
+[1781.58 - 1788.6] but you see how each article now is much
+
+[1786.32 - 1790.34] much more specific and so then once you
+
+[1788.6 - 1791.779] go into each of these articles in the
+
+[1790.34 - 1792.76] future
+
+[1791.779 - 1795.08] um
+
+[1792.76 - 1797.539] identifying factors and seeking
+
+[1795.08 - 1800.4189999999999] professional help if necessary yeah uh
+
+[1797.539 - 1802.82] and so basically it'll it'll allow the
+
+[1800.419 - 1807.3200000000002] Articles to metastasize over time now
+
+[1802.82 - 1809.299] that being said if uh if no new
+
+[1807.32 - 1811.8799999999999] information is added to an article it
+
+[1809.299 - 1814.8799999999999] won't update it it's that simple now
+
+[1811.88 - 1817.5800000000002] that being said there will probably be a
+
+[1814.88 - 1821.0] need to do some uh some KB article
+
+[1817.58 - 1823.52] grooming over time but the idea is that
+
+[1821.0 - 1826.58] the KB will only grow as much as it
+
+[1823.52 - 1828.1399999999999] needs to and no more no less and it will
+
+[1826.58 - 1830.1789999999999] only grow based on the things that you
+
+[1828.14 - 1835.3990000000001] have talked about and it will record it
+
+[1830.179 - 1837.679] in these very succinct concise uh
+
+[1835.399 - 1839.4189999999999] articles so then what happens is that it
+
+[1837.679 - 1840.799] splits these two up
+
+[1839.419 - 1843.919] and then the final thing that the
+
+[1840.799 - 1846.02] chatbot does is it will do an update for
+
+[1843.919 - 1848.419] the first one and then add the second
+
+[1846.02 - 1849.86] one so it's it's that simple and then
+
+[1848.419 - 1852.3200000000002] when you do an update as long as you
+
+[1849.86 - 1854.059] know if you don't specify the embedding
+
+[1852.32 - 1855.86] um it'll automatically recalculate the
+
+[1854.059 - 1857.4189999999999] embedding and then you're good to go so
+
+[1855.86 - 1860.24] I haven't I haven't quite got here yet
+
+[1857.419 - 1861.38] so it might break but I think I think
+
+[1860.24 - 1863.8990000000001] this kind of
+
+[1861.38 - 1865.279] yeah I think that's about it so like I
+
+[1863.899 - 1868.2199999999998] said it's over here
+
+[1865.279 - 1870.14] um chroma DB public chat bot
+
+[1868.22 - 1870.679] should be all set
+
+[1870.14 - 1872.24] um
+
+[1870.679 - 1874.039] yeah
+
+[1872.24 - 1876.46] all right
+
+[1874.039 - 1876.46] cool

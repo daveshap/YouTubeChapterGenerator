@@ -1,0 +1,585 @@
+[0.359 - 7.08] what does AI actually understand one of
+
+[4.48 - 10.280000000000001] the most common things that we see and
+
+[7.08 - 12.559000000000001] hear is that AI is no more than a
+
+[10.28 - 13.879999999999999] stochastic parrot and of course I'm one
+
+[12.559 - 15.678999999999998] of the first people to say that humans
+
+[13.88 - 18.16] are no more than a stochastic parrot
+
+[15.679 - 19.88] because why when you say that AI is a
+
+[18.16 - 21.199] stochastic parrot you are just parting
+
+[19.88 - 22.119] something that you heard based on your
+
+[21.199 - 26.560000000000002] training
+
+[22.119 - 28.759999999999998] data now rather than getting lost in a
+
+[26.56 - 30.72] petty internet squabble over what is
+
+[28.76 - 32.92] true intelligence and what is true
+
+[30.72 - 35.16] understanding there was this bombshell
+
+[32.92 - 38.239000000000004] paper that came out just a few days ago
+
+[35.16 - 40.279999999999994] October 3rd by Max tegmark and west
+
+[38.239 - 44.0] gurny of Massachusetts Institute of
+
+[40.28 - 46.399] Technology MIT Max techark is as you may
+
+[44.0 - 48.44] or may not know uh the guy who pinned
+
+[46.399 - 50.92] the famous pause paper calling for a
+
+[48.44 - 52.239] six-month moratorium on AI I watched
+
+[50.92 - 53.68] some interviews with him and he knew
+
+[52.239 - 54.879] that it wouldn't work that was not the
+
+[53.68 - 56.76] point the point was just to raise
+
+[54.879 - 60.358999999999995] awareness which it seems like that
+
+[56.76 - 62.28] succeeded um but yeah so max Tech Mark
+
+[60.359 - 64.6] also wrote the book life 3.0 where he
+
+[62.28 - 66.64] talks about the possibility of substrate
+
+[64.6 - 69.28] independence meaning that there's no
+
+[66.64 - 71.479] reason that uh machines could not
+
+[69.28 - 76.04] eventually be conscious in their own
+
+[71.479 - 78.52] way so this paper it is titled quite
+
+[76.04 - 83.56] simply language models represent space
+
+[78.52 - 87.67999999999999] and time the long story short is that
+
+[83.56 - 90.43900000000001] just by training on corpuses of text
+
+[87.68 - 92.24000000000001] corpora of text large language models in
+
+[90.439 - 97.19999999999999] this case they tested llama 2 so not
+
+[92.24 - 101.52] even a Frontier Model is able to uh
+
+[97.2 - 103.479] embed the concept of geospatial data and
+
+[101.52 - 106.19999999999999] chronologically linear
+
+[103.479 - 107.799] time and this is something that one is
+
+[106.2 - 111.0] not surprising to me and I'll explain to
+
+[107.799 - 113.24000000000001] you why in just a few minutes but it's
+
+[111.0 - 116.68] really important because not only does
+
+[113.24 - 119.24] it encode the ability to uh understand
+
+[116.68 - 121.68] you know relative spatial data and
+
+[119.24 - 123.67999999999999] chronological linear time they were
+
+[121.68 - 126.43900000000001] actually able to identify the specific
+
+[123.68 - 129.03900000000002] parameters or the the neurons that allow
+
+[126.439 - 130.84] it to encode this and so what this
+
+[129.039 - 135.07999999999998] implies and why it's not surprising to
+
+[130.84 - 138.36] me is that by reading gigantic mountains
+
+[135.08 - 140.959] of training data uh just through text
+
+[138.36 - 144.04000000000002] just through semantic similarity it has
+
+[140.959 - 147.12] to learn to generalize into more and
+
+[144.04 - 149.28] more abstract Concepts such as space
+
+[147.12 - 151.8] such as time so we saw this with other
+
+[149.28 - 153.92] recent papers where just training
+
+[151.8 - 155.36] language models on two-dimensional data
+
+[153.92 - 156.83999999999997] they are able to generate a
+
+[155.36 - 160.239] three-dimensional understanding of the
+
+[156.84 - 162.239] world and there's uh another video or
+
+[160.239 - 165.0] another paper that came out recently
+
+[162.239 - 168.4] talking about how just training uh
+
+[165.0 - 170.76] models on linear sequences of moves for
+
+[168.4 - 172.20000000000002] such as like chess and other games even
+
+[170.76 - 174.04] though their input data was
+
+[172.2 - 176.879] onedimensional they were able to
+
+[174.04 - 180.44] understand and infer and in generalize a
+
+[176.879 - 182.84] two-dimensional play Space so the
+
+[180.44 - 184.35999999999999] pattern that is emerging and again this
+
+[182.84 - 186.12] is not surprising to me the pattern that
+
+[184.36 - 188.92000000000002] is emerging is that when you have enough
+
+[186.12 - 191.44] training data and when you have a
+
+[188.92 - 194.319] sufficiently deep neural network it is
+
+[191.44 - 197.0] able to generate increasingly uh
+
+[194.319 - 199.51899999999998] abstract representations of the problem
+
+[197.0 - 201.72] space in which it is operating so when
+
+[199.519 - 203.4] you talk about the ability to generalize
+
+[201.72 - 205.519] knowledge the ability to generalize
+
+[203.4 - 208.12] intelligence it is no longer just a
+
+[205.519 - 211.4] stochastic parot it has an internal
+
+[208.12 - 213.4] model of the space that it's working in
+
+[211.4 - 214.959] image uh image generators they have a
+
+[213.4 - 215.68] three-dimensional model of the world so
+
+[214.959 - 218.20000000000002] that they can understand
+
+[215.68 - 220.56] threedimensional relationships between
+
+[218.2 - 222.72] uh between objects in order to better
+
+[220.56 - 226.36] generate uh output
+
+[222.72 - 230.239] images so this is not surprising to me
+
+[226.36 - 231.799] because of a book that is very popular
+
+[230.239 - 234.48000000000002] now I was not a big fan of this book
+
+[231.799 - 236.84] Thinking Fast and Slow by Daniel conoman
+
+[234.48 - 239.11999999999998] you can see I bought this back in
+
+[236.84 - 240.879] 2015 the reason that this book was not
+
+[239.12 - 244.159] impressive to to me is because anyone
+
+[240.879 - 246.2] with a modicum of like metacognitive
+
+[244.159 - 249.239] skills or meditation or anything is like
+
+[246.2 - 252.2] well duh so if you're not familiar with
+
+[249.239 - 254.48000000000002] this book basically he argues that there
+
+[252.2 - 256.359] are two quote systems of the brain and
+
+[254.48 - 258.0] he he goes through Great Lengths to say
+
+[256.359 - 259.84] that these are not neurological systems
+
+[258.0 - 261.959] that these are basically just two modes
+
+[259.84 - 264.4] of using your brain so there's system
+
+[261.959 - 266.96] one thinking which is fast thinking
+
+[264.4 - 268.96] which is uh intuitive it's instantaneous
+
+[266.96 - 271.0] it's knee-jerk it's off the cuff and
+
+[268.96 - 272.52] then there's slow thinking which is
+
+[271.0 - 273.84] deliberately slowing down to think
+
+[272.52 - 276.08] through things and piece through it and
+
+[273.84 - 278.23999999999995] use your brain to kind of steer the
+
+[276.08 - 280.84] thought process and iterate upon
+
+[278.24 - 282.84000000000003] thoughts so if you're familiar with my
+
+[280.84 - 284.79999999999995] work in cognitive architectures this is
+
+[282.84 - 286.96] basically how I approach cognitive
+
+[284.8 - 289.96000000000004] architecture where a large language
+
+[286.96 - 291.479] model with one instance is system one
+
+[289.96 - 294.039] thinking it just gives you an
+
+[291.479 - 296.039] off-the-cuff intuitive response with no
+
+[294.039 - 298.52] double-checking the point of a cognitive
+
+[296.039 - 300.36] architecture is explicitly to give it
+
+[298.52 - 303.75899999999996] system to thinking
+
+[300.36 - 305.16] uh so that's that but having watched the
+
+[303.759 - 307.44] space for a while starting with data
+
+[305.16 - 310.08000000000004] skeptic a podcast uh that I started
+
+[307.44 - 312.4] listening to many years ago and uh brain
+
+[310.08 - 315.28] inspired a neuroscience podcast about
+
+[312.4 - 317.28] AI uh it has been obvious to me for a
+
+[315.28 - 319.31899999999996] while that deep neural networks
+
+[317.28 - 322.67999999999995] depending on what the problem space is
+
+[319.319 - 324.8] they generally learn to abstract uh kind
+
+[322.68 - 326.24] of the the space that they're working in
+
+[324.8 - 327.96000000000004] in order to come up with these some of
+
+[326.24 - 331.919] these more abstract Concepts in Vision
+
+[327.96 - 333.96] models we see that uh that that uh what
+
+[331.919 - 335.75899999999996] they do is they discover boundaries they
+
+[333.96 - 337.23999999999995] discover gradients they discover all the
+
+[335.759 - 339.84000000000003] same kinds of things that the human
+
+[337.24 - 344.36] optic nerve and occipital discover about
+
+[339.84 - 347.59999999999997] how to process images uh likewise as uh
+
+[344.36 - 349.8] deep neural networks learn as elucidated
+
+[347.6 - 351.36] in this paper by Max tegmark and some of
+
+[349.8 - 354.36] these other papers talking about theory
+
+[351.36 - 356.36] of Mind basically in order so even
+
+[354.36 - 358.759] though the objective function is just to
+
+[356.36 - 360.40000000000003] predict the next word in order to
+
+[358.759 - 362.47900000000004] accurately predict the next word it
+
+[360.4 - 364.59999999999997] needs an internal model so that it can
+
+[362.479 - 366.919] accurately predict the next word and
+
+[364.6 - 369.319] this is very close to how human brains
+
+[366.919 - 371.15999999999997] work because you know it's not as
+
+[369.319 - 372.68] popular now but 5 10 years ago people
+
+[371.16 - 374.12] were saying oh yeah the human brain is
+
+[372.68 - 376.479] mostly just a prediction engine that's
+
+[374.12 - 379.199] what we do like we predict the next word
+
+[376.479 - 381.44] in in a comedy routine and when and when
+
+[379.199 - 383.40000000000003] uh you you you know your expectations
+
+[381.44 - 385.039] are subverted that's when it's funny
+
+[383.4 - 387.19899999999996] that's what comedians do is they they
+
+[385.039 - 389.12] play on those expectations this is how
+
+[387.199 - 391.039] you drive a car you can anticipate what
+
+[389.12 - 392.68] cars going to be where based on your
+
+[391.039 - 394.919] knowledge of how cars move and how
+
+[392.68 - 397.0] people move and the traffic rules and
+
+[394.919 - 399.28] you're able to anticipate where you need
+
+[397.0 - 401.479] to be because you remember like driving
+
+[399.28 - 403.08] to work yesterday and so then you pay
+
+[401.479 - 404.96] attention to the same cues that kind of
+
+[403.08 - 407.71999999999997] get you to work on autopilot the
+
+[404.96 - 410.56] following day and so a lot of these
+
+[407.72 - 412.44000000000005] things are all system one thinking uh
+
+[410.56 - 413.68] basically where it's like okay based on
+
+[412.44 - 416.12] your training data based on your
+
+[413.68 - 418.52] experience in recall you just kind of
+
+[416.12 - 420.759] can get through life mostly on autopilot
+
+[418.52 - 423.84] and in fact there are all kinds of like
+
+[420.759 - 425.599] neotropic uh brain training uh schemes
+
+[423.84 - 428.44] out there that basically cause you to
+
+[425.599 - 430.68] bank on system two thinking which is you
+
+[428.44 - 432.12] deliberately put yourself in situations
+
+[430.68 - 433.52] that force you to think through things
+
+[432.12 - 437.28000000000003] so that you're engaging your brain
+
+[433.52 - 441.08] rather than um working on autopilot uh
+
+[437.28 - 442.599] and so one way to think of it of of of
+
+[441.08 - 444.84] system one versus system two is
+
+[442.599 - 448.12] autopilot versus like manual flying or
+
+[444.84 - 451.79999999999995] whatever cruise control versus manual
+
+[448.12 - 454.919] driving and anyways so this is all very
+
+[451.8 - 457.919] profound uh and the reason that I wanted
+
+[454.919 - 459.75899999999996] to make this video is because there's
+
+[457.919 - 461.0] this pattern emerging this trend
+
+[459.759 - 464.72] emerging and there's this growing
+
+[461.0 - 466.319] awareness of like what is understanding
+
+[464.72 - 468.59900000000005] what does it mean to truly understand
+
+[466.319 - 470.08000000000004] something um and there's a few ways to
+
+[468.599 - 472.479] unpack this you can look at
+
+[470.08 - 474.479] understanding from a functional
+
+[472.479 - 476.28] perspective does it produce the right
+
+[474.479 - 478.75899999999996] answer how does it produce the right
+
+[476.28 - 480.79999999999995] answer um why does it produce the wrong
+
+[478.759 - 483.599] answer right and so just looking at
+
+[480.8 - 486.44] things in terms of benchmarks and Al and
+
+[483.599 - 488.68] and and those uh Avenues there's a lot
+
+[486.44 - 491.039] of value in that but we're getting at a
+
+[488.68 - 493.68] more fundamental question which is what
+
+[491.039 - 496.71999999999997] is the similarity between humans and
+
+[493.68 - 499.319] machines because the substrate of human
+
+[496.72 - 501.47900000000004] brains versus large language models is
+
+[499.319 - 504.319] very different the training methods are
+
+[501.479 - 506.96] very different uh yet despite that we're
+
+[504.319 - 508.91900000000004] seeing more and more convergence and
+
+[506.96 - 510.4] what I mean by converg convergence is
+
+[508.919 - 512.36] not that like we're going to merge into
+
+[510.4 - 514.399] Borg or anything like that but what I
+
+[512.36 - 517.36] mean is that despite the fact that the
+
+[514.399 - 518.68] training data is very different despite
+
+[517.36 - 520.32] the fact that the substrate is very
+
+[518.68 - 522.919] different the thing that we have in
+
+[520.32 - 525.24] common is the problem space we're
+
+[522.919 - 528.12] training uh IM we're training image
+
+[525.24 - 529.8] generators to generate images that that
+
+[528.12 - 531.839] you know we find appealing and they
+
+[529.8 - 533.5999999999999] mathematically derive how to do that but
+
+[531.839 - 535.6] then they also in the process of doing
+
+[533.6 - 537.24] that they derive three-dimensional
+
+[535.6 - 539.279] models of the world and other
+
+[537.24 - 541.519] understandings of things uh in order to
+
+[539.279 - 543.48] better generate images that we like
+
+[541.519 - 546.16] likewise language models we train them
+
+[543.48 - 547.839] on texts that by and large humans wrote
+
+[546.16 - 549.079] um and that is comprehensible to humans
+
+[547.839 - 551.7600000000001] and so it's no surprise that a
+
+[549.079 - 553.959] mathematical model is able to eventually
+
+[551.76 - 557.16] generate text that we find you know
+
+[553.959 - 558.959] useful meaningful uh and so on it well
+
+[557.16 - 561.079] it's forcing us to to question like what
+
+[558.959 - 562.3599999999999] does it mean for us to understand cuz
+
+[561.079 - 565.16] like I often have a tongue-and-cheek
+
+[562.36 - 567.64] joke like humans don't understand
+
+[565.16 - 569.0] anything we only think that we do and
+
+[567.64 - 570.279] likewise language models don't
+
+[569.0 - 573.2] understand anything they only think that
+
+[570.279 - 576.68] they do uh but when you have like tree
+
+[573.2 - 578.399] of thought and and multi-step reasoning
+
+[576.68 - 580.5999999999999] that's basically using large language
+
+[578.399 - 582.8] models for system 2 thinking and it's
+
+[580.6 - 584.16] like hey you just generated this offthe
+
+[582.8 - 586.24] cuff thing now check your work and it's
+
+[584.16 - 587.76] like oh well okay we could do better or
+
+[586.24 - 590.16] let's brainstorm this and have a more
+
+[587.76 - 591.68] structured approach um and so this is
+
+[590.16 - 593.68] basically what a cognitive architecture
+
+[591.68 - 596.2399999999999] is is how do we Implement systems to
+
+[593.68 - 598.1999999999999] thinking um with language models so that
+
+[596.24 - 601.64] that way it's not just an intuitive
+
+[598.2 - 604.32] offthe cuff you know immediate uh just
+
+[601.64 - 606.76] guess um anyways that's kind of that's
+
+[604.32 - 609.12] kind of the long story short of this is
+
+[606.76 - 611.68] uh this is how I think of large language
+
+[609.12 - 613.839] models and AI models in in in general so
+
+[611.68 - 617.079] the rule of thumb moving forward long
+
+[613.839 - 619.72] story short here's your takeaway is if a
+
+[617.079 - 622.88] if a if an AI model if a neural network
+
+[619.72 - 625.5600000000001] is a single pass forward a single Fe
+
+[622.88 - 628.32] feed forward inference then that is a
+
+[625.56 - 631.3199999999999] system one thinking machine if it has
+
+[628.32 - 633.8000000000001] loops if it has feedback mechanisms if
+
+[631.32 - 635.9200000000001] it can iterate on the material that it's
+
+[633.8 - 637.3199999999999] thinking about it is a system 2 device
+
+[635.92 - 638.5999999999999] so this is what we're doing with the ace
+
+[637.32 - 640.24] framework the autonomous cognitive
+
+[638.6 - 643.72] Entity framework where it's actually
+
+[640.24 - 646.44] many many many uh Loops um that are that
+
+[643.72 - 649.0400000000001] are basically able to form dynamically
+
+[646.44 - 650.44] as needed that's over complicated it's
+
+[649.04 - 652.8] much simpler than that if you go look at
+
+[650.44 - 654.48] the diagrams anyways thanks for watching
+
+[652.8 - 655.8] I hope you got a lot out of this it just
+
+[654.48 - 659.36] felt really important to say this
+
+[655.8 - 661.24] especially in light of Max Tech marks uh
+
+[659.36 - 663.0] paper which is amazing and you should
+
+[661.24 - 664.32] read it even if you don't understand it
+
+[663.0 - 667.36] just skim it and look at the pretty
+
+[664.32 - 670.519] colors um like it will the things that
+
+[667.36 - 672.48] they're talking about will drastically
+
+[670.519 - 674.36] change the way that you understand how
+
+[672.48 - 676.6] language models work and again this is
+
+[674.36 - 679.0] llama 2 this is not even multimodal
+
+[676.6 - 680.5600000000001] models this is not even uh Frontier
+
+[679.0 - 682.92] models that are going to come out next
+
+[680.56 - 686.8389999999999] year so anyways thanks for watching like
+
+[682.92 - 686.8389999999999] subscribe etc etc have a good one

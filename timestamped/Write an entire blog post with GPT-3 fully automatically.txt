@@ -1,0 +1,2585 @@
+[0.06 - 5.18] [Music]
+
+[2.7 - 8.879999999999999] foreign
+
+[5.18 - 12.36] here for a video so today we are going
+
+[8.88 - 13.860000000000001] to do auto Muse blogger so rather than
+
+[12.36 - 15.838999999999999] generating long format fiction we're
+
+[13.86 - 18.358999999999998] going to generate blog posts now before
+
+[15.839 - 20.58] we get started
+
+[18.359 - 23.400000000000002] before we get started
+
+[20.58 - 26.4] um I have to warn you that one this use
+
+[23.4 - 28.259999999999998] case if you were to try and just do this
+
+[26.4 - 30.299999999999997] and put it directly online that is
+
+[28.26 - 31.859] against open ai's policies so don't do
+
+[30.3 - 34.92] this this is for research purposes only
+
+[31.859 - 37.559000000000005] now that being said you are allowed as
+
+[34.92 - 39.719] far as I know you are allowed to use AI
+
+[37.559 - 42.3] to generate content as long as you then
+
+[39.719 - 45.0] put human eyes on it to like edit it
+
+[42.3 - 47.57899999999999] clean it up make sure that it's safe and
+
+[45.0 - 49.559] then also I think part of the EULA
+
+[47.579 - 53.039] requires that you say this was written
+
+[49.559 - 55.199] by AI I think obviously check with uh
+
+[53.039 - 57.18] check with open AI before going live on
+
+[55.199 - 59.16] any apps that do this kind of thing but
+
+[57.18 - 60.96] that being said
+
+[59.16 - 63.538999999999994] um lots and lots of folks have wanted
+
+[60.96 - 66.0] blogs and I've just had this turning in
+
+[63.539 - 69.42] the back of my head so we will uh we
+
+[66.0 - 72.06] will take a stab at this now also
+
+[69.42 - 74.58] um I posted a poll on YouTube and the
+
+[72.06 - 75.9] results were overwhelming y'all want to
+
+[74.58 - 78.42] have
+
+[75.9 - 81.24000000000001] um fewer videos but higher quality
+
+[78.42 - 83.34] videos it was overwhelming so
+
+[81.24 - 84.89999999999999] um stay tuned this is going to be my
+
+[83.34 - 87.54] first one where I'll do some editing
+
+[84.9 - 89.04] after the fact and uh and we'll go from
+
+[87.54 - 90.659] there because I've also got the chapters
+
+[89.04 - 93.72] right I figured out how to automatically
+
+[90.659 - 95.82000000000001] do chapters with uh with gpt3 all right
+
+[93.72 - 96.84] so all that out of the way let's get
+
+[95.82 - 98.82] started
+
+[96.84 - 100.619] first
+
+[98.82 - 101.88] um when I when I'm starting a project
+
+[100.619 - 103.439] like this
+
+[101.88 - 104.82] um what I've started doing is kind of
+
+[103.439 - 107.75899999999999] brainstorming getting my thoughts out
+
+[104.82 - 108.5] because then I have a template to follow
+
+[107.759 - 111.18] um
+
+[108.5 - 113.82] oftentimes you see me rely on intuition
+
+[111.18 - 115.86000000000001] and intuition is good and it works much
+
+[113.82 - 117.17999999999999] of the time but not always and plus it's
+
+[115.86 - 119.1] also not something that I can just tell
+
+[117.18 - 121.14] you like use your intuition so let's
+
+[119.1 - 123.17999999999999] actually do a process so what we're
+
+[121.14 - 124.74] going to do is just brainstorm okay what
+
+[123.18 - 126.36000000000001] it what do we think this is actually
+
+[124.74 - 128.22] going to do so first
+
+[126.36 - 130.38] we're going to say take a prompt of some
+
+[128.22 - 133.56] sort natural and natural language
+
+[130.38 - 137.099] instructions like I want to blog about X
+
+[133.56 - 139.31900000000002] um brainstorm the structure of the
+
+[137.099 - 139.92] request so
+
+[139.319 - 142.61999999999998] um
+
+[139.92 - 144.35999999999999] if you just ask instruct series to write
+
+[142.62 - 145.86] it'll start writing I mean gpt3
+
+[144.36 - 148.86] generative pre-trained model is
+
+[145.86 - 150.0] generative it will write but one thing
+
+[148.86 - 153.3] that it doesn't do is it doesn't
+
+[150.0 - 155.879] necessarily think about structure
+
+[153.3 - 158.94] um and so given whatever the
+
+[155.879 - 161.94] um the input is let's think about
+
+[158.94 - 162.72] um the best way to do it uh So like
+
+[161.94 - 166.739] um
+
+[162.72 - 167.459] uh let's see like maybe list
+
+[166.739 - 170.459] um
+
+[167.459 - 173.04] a bunch of sections and then what we can
+
+[170.459 - 177.72] do is we can probably
+
+[173.04 - 181.379] iterate on that list to improve it
+
+[177.72 - 182.76] um like is this a good list
+
+[181.379 - 184.26] oops
+
+[182.76 - 186.06] um okay so then once we have a list of
+
+[184.26 - 189.239] sections
+
+[186.06 - 191.099] um then we can say okay uh okay what
+
+[189.239 - 192.59900000000002] after we have the sections then do we
+
+[191.099 - 195.35999999999999] just start writing or do we do some
+
+[192.599 - 197.819] research probably we'll do some research
+
+[195.36 - 200.459] um uh let's see
+
+[197.819 - 204.78] uh brainstorm
+
+[200.459 - 208.94] um some interesting uh like some facts
+
+[204.78 - 212.22] or points to include for each section
+
+[208.94 - 214.44] yeah and then
+
+[212.22 - 216.3] let's see
+
+[214.44 - 218.34] and also we're gonna keep we're going to
+
+[216.3 - 220.019] keep this in mind the whole time right
+
+[218.34 - 222.72] so
+
+[220.019 - 224.459] let's just bold that
+
+[222.72 - 225.78] um okay so then we got some lists and
+
+[224.459 - 227.459] points and then we actually want to
+
+[225.78 - 231.48] write the thing
+
+[227.459 - 234.12] um okay so then we'll write the actual
+
+[231.48 - 239.57999999999998] sections
+
+[234.12 - 242.04] um and then six uh iterate improve
+
+[239.58 - 244.019] the sections and then
+
+[242.04 - 247.62] done
+
+[244.019 - 248.22] and I okay so that's where we'll start
+
+[247.62 - 251.64000000000001] um
+
+[248.22 - 254.22] I'm not going to dive into automatically
+
+[251.64 - 256.739] pulling from external sources for this
+
+[254.22 - 259.019] one for this we're going to start with
+
+[256.739 - 260.94] something simple because gpt3 already
+
+[259.019 - 262.079] knows a lot
+
+[260.94 - 264.0] um but
+
+[262.079 - 266.28000000000003] perhaps in a future version or a
+
+[264.0 - 268.08] different kind of thing I might explore
+
+[266.28 - 269.63899999999995] like an automatic Knowledge Graph
+
+[268.08 - 270.84] Builder
+
+[269.639 - 274.08] um because that's something I've wanted
+
+[270.84 - 275.46] to do anyways but for for the for the
+
+[274.08 - 277.25899999999996] sake of this one we're just going to
+
+[275.46 - 279.65999999999997] assume that gpt3 already has the
+
+[277.259 - 280.91900000000004] information built embedded in it
+
+[279.66 - 282.96000000000004] somewhere because it's already read a
+
+[280.919 - 284.94] lot of news and Reddit and Wikipedia and
+
+[282.96 - 286.13899999999995] stuff so the topic that I was going to
+
+[284.94 - 288.199] do
+
+[286.139 - 291.36] um was going to be
+
+[288.199 - 293.34000000000003] Shinto in Japan because I'm reading a
+
+[291.36 - 295.08000000000004] book about Japanese history and culture
+
+[293.34 - 297.0] so it's something that I happen to know
+
+[295.08 - 299.34] a little bit about and of course like
+
+[297.0 - 301.139] gpt3 has already read all of Wikipedia
+
+[299.34 - 303.71999999999997] on all of these things so I'm going to
+
+[301.139 - 304.68] assume that it has enough knowledge to
+
+[303.72 - 306.96000000000004] do this
+
+[304.68 - 310.979] so first thing we're going to do
+
+[306.96 - 313.02] is we're going to go to the playground
+
+[310.979 - 315.08] and we will say
+
+[313.02 - 315.08] um
+
+[315.419 - 319.02] so basically we're going to start with
+
+[316.74 - 321.919] some prompt engineering
+
+[319.02 - 325.46] I'll say um
+
+[321.919 - 325.46] uh let's see
+
+[326.22 - 330.78000000000003] um write a blog outline
+
+[332.16 - 341.88000000000005] write a killer blog outline for the
+
+[335.039 - 341.88] following request from a customer okay
+
+[342.12 - 349.139] requests
+
+[344.52 - 352.75899999999996] um I want a cool blog post
+
+[349.139 - 354.96000000000004] about the history of
+
+[352.759 - 359.58000000000004] Shinto and
+
+[354.96 - 361.68] Corey gates in Japan like
+
+[359.58 - 365.88] I'm basically adopting the percent of
+
+[361.68 - 371.1] like a surfer bro like uh how did they
+
+[365.88 - 371.82] come up with that idea what does it mean
+
+[371.1 - 374.1] um
+
+[371.82 - 377.82] and let's see and
+
+[374.1 - 380.41900000000004] what are the coolest ones to see
+
+[377.82 - 384.9] I'm going to Japan
+
+[380.419 - 387.18] next summer because I'm a weeb sorry
+
+[384.9 - 391.31899999999996] um I have a bunch of friends who are uh
+
+[387.18 - 393.90000000000003] was it xenophile would be China what do
+
+[391.319 - 396.06] you call it if someone is like an actual
+
+[393.9 - 398.28] term if someone is obsessed with Japan
+
+[396.06 - 399.66] they're into an anime and stuff I used
+
+[398.28 - 401.34] to be in high school my my high school
+
+[399.66 - 402.72] girlfriend got me into anime and I was
+
+[401.34 - 404.81899999999996] into it for like 10 years and then I
+
+[402.72 - 406.44000000000005] kind of like got over it
+
+[404.819 - 409.38] I'm still a nerd I'm not trying to
+
+[406.44 - 411.71999999999997] defend that okay write a killer blog uh
+
+[409.38 - 413.58] outline for the following uh request
+
+[411.72 - 415.91900000000004] from a customer all right so the request
+
+[413.58 - 417.18] is this okay so now
+
+[415.919 - 420.65999999999997] um
+
+[417.18 - 423.419] brainstorm a list of sections for this
+
+[420.66 - 424.5] blog post
+
+[423.419 - 428.639] um
+
+[424.5 - 430.56] each section uh let's see
+
+[428.639 - 434.6] uh let's see
+
+[430.56 - 439.639] the outline should meet the customers
+
+[434.6 - 443.94] requests and each section should be
+
+[439.639 - 447.56] let's say highly descriptive
+
+[443.94 - 451.38] provide a paragraph
+
+[447.56 - 455.16] explaining what should go
+
+[451.38 - 457.02] should go into each section okay so then
+
+[455.16 - 459.53900000000004] we'll do sections and we'll start with
+
+[457.02 - 462.84] one so one thing that I do you'll notice
+
+[459.539 - 466.02] uh often that I'll do all caps lock for
+
+[462.84 - 467.81899999999996] for these things what that does it's
+
+[466.02 - 469.85999999999996] very similar to what it does for humans
+
+[467.819 - 471.3] so for humans it draws your eye to or
+
+[469.86 - 472.699] you're like okay cool this is like a
+
+[471.3 - 475.62] thing that I need to pay attention to
+
+[472.699 - 477.96000000000004] but also it's a different set of tokens
+
+[475.62 - 481.919] it's new it's represented differently
+
+[477.96 - 483.539] inside of gpt3 which allows it to kind
+
+[481.919 - 487.62] of notice oh this isn't just the word
+
+[483.539 - 490.74] request this is capital r request okay
+
+[487.62 - 494.419] so let's just let this run let's turn
+
+[490.74 - 494.419] the token count up to a thousand
+
+[497.639 - 502.319] and then it starts writing okay I don't
+
+[499.379 - 505.879] want you to actually start writing it
+
+[502.319 - 505.879] um so this isn't so good
+
+[506.28 - 511.25899999999996] I want to actually give me like
+
+[509.34 - 513.659] yeah not not just a table of contents
+
+[511.259 - 514.86] but like describe each section so this
+
+[513.659 - 516.7189999999999] is this is one thing that's really
+
+[514.86 - 518.94] infuriating about
+
+[516.719 - 521.399] um about the instructor series is that
+
+[518.94 - 522.719] if you can tell if it was trained to do
+
+[521.399 - 524.459] something like what you're asking it to
+
+[522.719 - 526.44] do because it'll do it really well but
+
+[524.459 - 528.2399999999999] if it wasn't it will just give you a
+
+[526.44 - 529.62] table of contents and then start writing
+
+[528.24 - 531.12] a thing
+
+[529.62 - 534.62] um
+
+[531.12 - 534.62] yeah actually
+
+[538.2 - 541.7] I wonder if I confused it
+
+[545.7 - 551.76] all right
+
+[547.98 - 554.339] because like what is Shinto there we go
+
+[551.76 - 555.8389999999999] how to inter incorporate tour Gates into
+
+[554.339 - 559.08] your Japan trip
+
+[555.839 - 560.7] that's not so bad okay so by I confused
+
+[559.08 - 562.98] it when I said like add a paragraph
+
+[560.7 - 566.1600000000001] because then it's like okay let's let's
+
+[562.98 - 567.6] write out all these things and then yeah
+
+[566.16 - 568.86] all right let's run this a couple times
+
+[567.6 - 572.0600000000001] just to make sure that it's going to
+
+[568.86 - 572.0600000000001] give me consistent Behavior
+
+[572.399 - 575.279] the significance of tour Gates the
+
+[573.959 - 577.4399999999999] different types of tour Gates the most
+
+[575.279 - 579.36] famous story gates in Japan okay I think
+
+[577.44 - 582.12] we're off to a good start so let's copy
+
+[579.36 - 585.6800000000001] this as our first prompt
+
+[582.12 - 585.68] um okay so we'll do
+
+[586.86 - 589.519] request
+
+[591.36 - 595.98] and then we'll do that so this we've got
+
+[594.3 - 600.06] prompt
+
+[595.98 - 600.0600000000001] um so this is going to be sections
+
+[600.12 - 606.6] so let's see brainstorm the structure
+
+[605.279 - 608.399] um take a list of bunch of sections
+
+[606.6 - 609.839] iterate on that list to improve it is
+
+[608.399 - 612.54] this a good list
+
+[609.839 - 616.74] was I a good list you were the best list
+
+[612.54 - 618.24] all right so what I mean by this is
+
+[616.74 - 619.86] um lots of folks have started asking
+
+[618.24 - 623.16] about like doing
+
+[619.86 - 626.1] um like having gpt3 check itself to
+
+[623.16 - 628.8] improve uh its own performance and I
+
+[626.1 - 630.5400000000001] find that it can work really well not
+
+[628.8 - 633.06] always
+
+[630.54 - 636.48] um so let's just give let's take a stab
+
+[633.06 - 640.1999999999999] at this let's copy this whole prompt out
+
+[636.48 - 641.64] just for posterity's sake okay
+
+[640.2 - 646.2] um
+
+[641.64 - 651.3] I brainstormed the following list of
+
+[646.2 - 655.62] blogs SEC of sections of a Blog
+
+[651.3 - 659.06] um based on the customer's request
+
+[655.62 - 662.339] um I need to uh
+
+[659.06 - 666.54] uh um
+
+[662.339 - 670.1400000000001] brainstorm to see if there's any
+
+[666.54 - 674.04] there are any improvements they can make
+
+[670.14 - 675.42] to this past uh
+
+[674.04 - 678.12] uh
+
+[675.42 - 680.64] I guess outline yeah that's the word I
+
+[678.12 - 683.04] know words okay so then we'll do we'll
+
+[680.64 - 684.899] copy the customer request and then we'll
+
+[683.04 - 688.3199999999999] do outline
+
+[684.899 - 690.98] and let's come back over here
+
+[688.32 - 690.98] copy that
+
+[692.16 - 700.019] all right and so then we'll do uh
+
+[696.019 - 703.079] brainstorm let's see no brainstorm some
+
+[700.019 - 705.899] possible improvements
+
+[703.079 - 709.04] all right let's see what it does
+
+[705.899 - 709.04] dad doesn't get it
+
+[709.98 - 715.44] well maybe
+
+[712.079 - 717.5] it added a list it added an item how to
+
+[715.44 - 721.0200000000001] visit Tory Gates
+
+[717.5 - 723.48] oh okay
+
+[721.02 - 725.279] [Music]
+
+[723.48 - 727.32] let's run that again see if it gives us
+
+[725.279 - 729.959] what is Shinto okay
+
+[727.32 - 730.69] tips for seeing tour Gates so it did add
+
+[729.959 - 732.18] a section
+
+[730.69 - 734.4590000000001] [Music]
+
+[732.18 - 736.62] all right
+
+[734.459 - 738.959] hmm
+
+[736.62 - 742.7] I wonder what happens
+
+[738.959 - 742.6999999999999] if we do this again
+
+[743.16 - 746.9399999999999] okay
+
+[744.3 - 748.3199999999999] what happens if we
+
+[746.94 - 751.5790000000001] just
+
+[748.32 - 751.5790000000001] regurgitate this
+
+[754.32 - 758.4590000000001] Shinto festivals associated with tour
+
+[756.3 - 761.779] Gates look at that okay
+
+[758.459 - 764.8199999999999] so if we run this so this
+
+[761.779 - 767.639] I'm at the point in my career with gpt3
+
+[764.82 - 769.44] where like if my intuition generates a
+
+[767.639 - 770.94] prompt that behaves correctly the first
+
+[769.44 - 775.2] time I don't trust it
+
+[770.94 - 777.6800000000001] because I'm like wait a second hmm is
+
+[775.2 - 777.6800000000001] this an accident
+
+[778.68 - 783.56] so then we'll say
+
+[780.899 - 783.56] outline
+
+[784.56 - 788.5189999999999] um but basically prompt
+
+[787.62 - 791.279] um
+
+[788.519 - 794.04] improve outline
+
+[791.279 - 795.8389999999999] and we'll change the sections to outline
+
+[794.04 - 799.26] because for whatever reason my brain did
+
+[795.839 - 800.7600000000001] not helpfully supply the word outline
+
+[799.26 - 804.12] because that's where you start when
+
+[800.76 - 805.76] you're writing anything start an outline
+
+[804.12 - 808.92] um
+
+[805.76 - 810.8389999999999] uh yeah okay so then we'll take
+
+[808.92 - 812.399] I keep leaning over because my camera my
+
+[810.839 - 814.3800000000001] microphone's a little bit in the way so
+
+[812.399 - 816.3] if the audio is a little bit worse I
+
+[814.38 - 818.639] apologize but I want to not be leaning
+
+[816.3 - 819.899] over the whole video
+
+[818.639 - 821.339] okay
+
+[819.899 - 824.04] let's just
+
+[821.339 - 827.6] keep recycling this to see
+
+[824.04 - 827.5999999999999] um see if it keeps improving
+
+[829.2 - 833.12] frequently asked questions
+
+[831.12 - 835.32] I wonder if it's just gonna keep adding
+
+[833.12 - 838.44] sections because this is actually doing
+
+[835.32 - 840.839] a good job of like what can we do to add
+
+[838.44 - 842.94] to this
+
+[840.839 - 845.94] so probably if if it keeps going
+
+[842.94 - 848.8800000000001] indefinitely okay so now what we have
+
+[845.94 - 852.0600000000001] done is is it has converged so what we
+
+[848.88 - 854.1] can do is we'll just keep rerunning this
+
+[852.06 - 855.8389999999999] um until until we get convergence which
+
+[854.1 - 857.279] means that the input is the same as the
+
+[855.839 - 858.36] output
+
+[857.279 - 861.6] um okay
+
+[858.36 - 865.019] so yep so that's good
+
+[861.6 - 867.779] and what am I doing all right so improve
+
+[865.019 - 870.0] outline and let's see keep it an editor
+
+[867.779 - 871.92] no because I named it wrong so we've got
+
+[870.0 - 873.24] the outline and then we've got improve
+
+[871.92 - 876.1999999999999] outline
+
+[873.24 - 876.2] and that's good
+
+[877.8 - 880.399] okay
+
+[881.519 - 888.199] yes
+
+[882.839 - 888.1990000000001] I wonder will it break if I
+
+[888.72 - 892.8000000000001] if I give it a number one that might
+
+[890.94 - 894.839] prompt it
+
+[892.8 - 898.26] to ensure that it will
+
+[894.839 - 900.5400000000001] oh additional resources okay
+
+[898.26 - 902.519] so one thing that you can do is you can
+
+[900.54 - 904.98] kind of give it a clue as to what you
+
+[902.519 - 907.26] want want it to look like and so that's
+
+[904.98 - 909.3000000000001] what you do here where I have this this
+
+[907.26 - 911.1] is just it's a clue it says give me a
+
+[909.3 - 912.66] numbered list right I don't have to tell
+
+[911.1 - 914.76] it to give me a numbered list I just
+
+[912.66 - 917.3389999999999] give it a little tiny breadcrumb to say
+
+[914.76 - 920.8199999999999] give me a numbered list
+
+[917.339 - 923.22] um so I might do the same here just so
+
+[920.82 - 925.1990000000001] that way because sometimes you might end
+
+[923.22 - 926.639] up with something where it's like hey
+
+[925.199 - 928.019] I'm going to come up with a completely
+
+[926.639 - 929.4590000000001] new idea
+
+[928.019 - 931.8] um but if you tell it what you want
+
+[929.459 - 935.3389999999999] implicitly or explicitly so this is an
+
+[931.8 - 937.8] implicit request of the machine so this
+
+[935.339 - 939.839] might this might break it we'll have to
+
+[937.8 - 941.9399999999999] after we run it we might um we might
+
+[939.839 - 948.3000000000001] have to come back to this
+
+[941.94 - 948.3000000000001] um okay let's go here okay request
+
+[949.5 - 955.92] all right and then I think it's time to
+
+[952.98 - 958.019] start coding actually
+
+[955.92 - 960.36] um because what I like to do is before I
+
+[958.019 - 964.38] get too far
+
+[960.36 - 966.54] um actually no well hmm
+
+[964.38 - 969.959] let me take a look at uh
+
+[966.54 - 972.54] at the readme how far do we want to go
+
+[969.959 - 974.6389999999999] okay so we got the iteration so we're
+
+[972.54 - 976.92] already halfway done brainstorm some
+
+[974.639 - 979.6800000000001] facts or points to include for each
+
+[976.92 - 982.38] section okay so let's try this then
+
+[979.68 - 984.779] let's try our hand at
+
+[982.38 - 986.459] yada yada yada
+
+[984.779 - 989.48] I wish I hadn't closed those other ones
+
+[986.459 - 989.4799999999999] okay so given
+
+[997.56 - 1004.7589999999999] ah let's see I have the following uh
+
+[1001.639 - 1008.36] blog request to write
+
+[1004.759 - 1009.74] um I am focusing on
+
+[1008.36 - 1014.42] um
+
+[1009.74 - 1015.74] writing one second at a time
+
+[1014.42 - 1020.959] um
+
+[1015.74 - 1025.4] or uh let's see I need to brainstorm uh
+
+[1020.959 - 1030.02] no I need to jot down some notes about
+
+[1025.4 - 1032.7800000000002] each section before I proceed now each
+
+[1030.02 - 1036.079] section this section
+
+[1032.78 - 1037.16] um this section before I proceed okay
+
+[1036.079 - 1039.799] um
+
+[1037.16 - 1042.26] section so then we'll just say what is
+
+[1039.799 - 1044.12] Shinto
+
+[1042.26 - 1046.72] and then we'll say
+
+[1044.12 - 1046.7199999999998] um let's see
+
+[1047.5 - 1056.419] here are my research notes on this
+
+[1052.1 - 1057.32] section I need to write everything I
+
+[1056.419 - 1062.5] know
+
+[1057.32 - 1062.5] about this and let's see what it does
+
+[1068.9 - 1071.38] okay
+
+[1072.2 - 1076.22] here are my let's say let's let's see
+
+[1074.48 - 1077.78] what happens we say detailed research
+
+[1076.22 - 1080.679] notes
+
+[1077.78 - 1080.6789999999999] there we go
+
+[1081.2 - 1084.28] much better
+
+[1089.66 - 1097.3400000000001] the yep you say Grand shrine
+
+[1093.74 - 1099.02] god of the sun goddessama thratsu okay
+
+[1097.34 - 1101.1789999999999] this is all in line with what I'm
+
+[1099.02 - 1101.96] reading in my book so it looks like it
+
+[1101.179 - 1103.64] is
+
+[1101.96 - 1106.1000000000001] um this is actually one that I'm not
+
+[1103.64 - 1107.9] sure I haven't read about that in the
+
+[1106.1 - 1110.36] book but anyways so it does look like
+
+[1107.9 - 1112.64] it's being accurate
+
+[1110.36 - 1113.9599999999998] um although I wish this was a little bit
+
+[1112.64 - 1117.26] more
+
+[1113.96 - 1118.88] I do I like the the that it it seemed
+
+[1117.26 - 1121.28] like it produced a little bit more when
+
+[1118.88 - 1123.679] it was a list so what let's see if we
+
+[1121.28 - 1126.7] give it a clue
+
+[1123.679 - 1126.7] um yeah
+
+[1127.1 - 1131.299] Shinto is the largest with over 100
+
+[1128.66 - 1133.5800000000002] million follow your followers located in
+
+[1131.299 - 1136.0] the city ize
+
+[1133.58 - 1136.0] um first
+
+[1138.38 - 1143.179] and then if we do this again
+
+[1141.44 - 1144.799] um
+
+[1143.179 - 1147.26] see but this isn't everything that you
+
+[1144.799 - 1149.24] know right like I said I asked for
+
+[1147.26 - 1151.58] detailed research notes I need to write
+
+[1149.24 - 1153.98] everything I know and it gives me six
+
+[1151.58 - 1155.24] bullet points
+
+[1153.98 - 1157.16] really
+
+[1155.24 - 1159.22] really
+
+[1157.16 - 1159.22] um
+
+[1161.299 - 1167.12] okay that's fine
+
+[1164.84 - 1169.6] but one thing that's interesting is it
+
+[1167.12 - 1169.6] seems like
+
+[1169.76 - 1174.26] into means the way of the Gods it almost
+
+[1172.34 - 1176.059] seems like I can just run it a few times
+
+[1174.26 - 1179.48] and it will give me different outputs
+
+[1176.059 - 1182.799] each time so maybe for this section we
+
+[1179.48 - 1182.799] just run it a couple times
+
+[1183.32 - 1186.7] actually this seems like it's working
+
+[1184.46 - 1186.7] okay
+
+[1191.419 - 1194.38] yeah okay
+
+[1195.799 - 1201.5] all right so probably what we'll do is
+
+[1198.38 - 1202.88] just break the sections down and then we
+
+[1201.5 - 1205.76] will
+
+[1202.88 - 1208.0390000000002] um we'll run this where we're asking for
+
+[1205.76 - 1209.84] notes on each section we'll run it a
+
+[1208.039 - 1212.6] couple times
+
+[1209.84 - 1214.6999999999998] um to kind of get a little bit more out
+
+[1212.6 - 1218.78] of it out of the machine
+
+[1214.7 - 1221.6000000000001] um that seems like it's working okay-ish
+
+[1218.78 - 1223.7] um okay so then we'll do request
+
+[1221.6 - 1225.7099999999998] and then we'll do
+
+[1223.7 - 1227.66] um section
+
+[1225.71 - 1228.8600000000001] [Music]
+
+[1227.66 - 1230.3600000000001] and then we'll just leave this
+
+[1228.86 - 1233.4189999999999] open-ended so it might produce a
+
+[1230.36 - 1237.1999999999998] paragraph it might produce a list okay
+
+[1233.419 - 1239.72] so we'll do prompt research
+
+[1237.2 - 1243.02] um actually here we'll do section
+
+[1239.72 - 1245.3600000000001] research and so what this is doing just
+
+[1243.02 - 1247.4] to take a step back and tell you like
+
+[1245.36 - 1248.9599999999998] okay what is what is this actually doing
+
+[1247.4 - 1251.48] so
+
+[1248.96 - 1254.059] one misconception that people have is
+
+[1251.48 - 1255.8600000000001] whether or not gpt3 is pulling from a
+
+[1254.059 - 1258.5] database or searching the internet or
+
+[1255.86 - 1261.3799999999999] what how is it how is it doing all this
+
+[1258.5 - 1263.6] and so all this information is embedded
+
+[1261.38 - 1266.48] in the neural network and so what we're
+
+[1263.6 - 1268.82] doing is we're writing a prompt to pull
+
+[1266.48 - 1269.6] that information out of the neural
+
+[1268.82 - 1274.039] network
+
+[1269.6 - 1276.799] and so the this works in a similar
+
+[1274.039 - 1278.48] fashion to how human brains work and
+
+[1276.799 - 1281.059] that our all of our knowledge and
+
+[1278.48 - 1283.7] memories is implicit in the array of
+
+[1281.059 - 1285.799] Connections in our brain and so with the
+
+[1283.7 - 1287.3600000000001] right input or the right and sometimes
+
+[1285.799 - 1288.98] the input can come from inside of our
+
+[1287.36 - 1290.1789999999999] own brains like if you're sitting there
+
+[1288.98 - 1292.159] thinking like I need to think about
+
+[1290.179 - 1294.2] everything I know about Japan you can
+
+[1292.159 - 1295.94] kind of you know trace the dots you can
+
+[1294.2 - 1298.3600000000001] connect the dots and get you know kind
+
+[1295.94 - 1300.5] of pull out memories from your own brain
+
+[1298.36 - 1302.78] and we're doing the same thing here
+
+[1300.5 - 1305.12] we're we're breaking apart that that
+
+[1302.78 - 1306.5] cognitive process of okay let me think
+
+[1305.12 - 1308.1789999999999] through about everything that I know
+
+[1306.5 - 1309.26] about this
+
+[1308.179 - 1311.72] um and so that's what we're doing
+
+[1309.26 - 1315.08] deliberately
+
+[1311.72 - 1315.919] um okay so we got this section
+
+[1315.08 - 1318.62] um
+
+[1315.919 - 1321.26] brainstorm some facts or things to
+
+[1318.62 - 1327.6789999999999] include uh let's see you'll just repeat
+
+[1321.26 - 1331.48] repeat this like two or three x times
+
+[1327.679 - 1333.98] um and so then what then what we'll do
+
+[1331.48 - 1337.64] is this is actually working better than
+
+[1333.98 - 1341.74] I thought okay so we'll say
+
+[1337.64 - 1341.74] we'll copy out some of this information
+
+[1342.86 - 1347.9699999999998] and run it a couple times
+
+[1344.78 - 1347.97] [Music]
+
+[1351.32 - 1355.22] estimated 4 million followers see that's
+
+[1353.9 - 1358.72] something where it's like 100 million
+
+[1355.22 - 1358.72] and now there's four million like okay
+
+[1361.159 - 1365.1200000000001] so we don't know if it's accurate but
+
+[1363.44 - 1368.44] this could also be a benefit of running
+
+[1365.12 - 1368.4399999999998] running it a few times
+
+[1372.5 - 1378.22] yeah
+
+[1374.24 - 1378.22] oops what just happened
+
+[1378.75 - 1382.4] [Music]
+
+[1381.02 - 1386.2] how did I do that
+
+[1382.4 - 1386.2] current editor there we go
+
+[1389.02 - 1394.84] okay so that's three iterations let's go
+
+[1392.419 - 1394.8400000000001] for four
+
+[1400.4 - 1407.0] because it seems like if you get four
+
+[1404.179 - 1408.98] or first codified in the 8th Century CE
+
+[1407.0 - 1412.1] according to the book I'm reading that
+
+[1408.98 - 1414.26] is not true Japan didn't have written
+
+[1412.1 - 1417.26] language until after the fourth Century
+
+[1414.26 - 1420.14] a d c e
+
+[1417.26 - 1423.8799999999999] so it couldn't have been codified
+
+[1420.14 - 1423.88] and it's saying 4 million again
+
+[1424.039 - 1429.5] so we will do fact checking in another
+
+[1426.98 - 1430.4] video okay
+
+[1429.5 - 1436.039] um
+
+[1430.4 - 1438.799] all right I have compiled research notes
+
+[1436.039 - 1443.0] um I have compiled the following
+
+[1438.799 - 1445.7] research notes I need to rewrite these
+
+[1443.0 - 1447.7] notes into
+
+[1445.7 - 1447.7] um
+
+[1448.58 - 1457.24] into a long
+
+[1452.32 - 1460.46] professional blog post it must be
+
+[1457.24 - 1463.159] engaging and interesting
+
+[1460.46 - 1464.96] and so then we'll do research
+
+[1463.159 - 1465.39] and then we'll do
+
+[1464.96 - 1467.74] um
+
+[1465.39 - 1471.6200000000001] [Music]
+
+[1467.74 - 1473.36] engaging blog post and so basically all
+
+[1471.62 - 1476.0] I'm going to do is take each of those
+
+[1473.36 - 1479.24] sections do some research some internal
+
+[1476.0 - 1482.539] brainstorming research and then we'll
+
+[1479.24 - 1485.26] we'll generate a post on each of those
+
+[1482.539 - 1485.26] sections
+
+[1490.99 - 1494.46] [Music]
+
+[1497.84 - 1503.36] now one thing is that will be that it
+
+[1500.78 - 1506.539] that it will tend to do is it'll have
+
+[1503.36 - 1508.34] these like little like sign offs right
+
+[1506.539 - 1511.34] and it's like okay I don't want I don't
+
+[1508.34 - 1514.52] want that but
+
+[1511.34 - 1517.84] but we might have to deal with that
+
+[1514.52 - 1517.84] okay anyways
+
+[1518.36 - 1522.32] we'll probably can probably fix that at
+
+[1520.4 - 1525.3400000000001] the end actually so let's go ahead and
+
+[1522.32 - 1525.34] just copy this out
+
+[1526.039 - 1528.58] okay
+
+[1534.02 - 1540.1589999999999] um so do research
+
+[1536.299 - 1540.1589999999999] and then engaging blog post
+
+[1542.36 - 1545.539] and so this will be prompt
+
+[1544.88 - 1548.419] um
+
+[1545.539 - 1552.2] this will be uh
+
+[1548.419 - 1555.38] section Pros so we're actually producing
+
+[1552.2 - 1557.72] a final product at this point
+
+[1555.38 - 1559.159] um yeah I think I think we're almost
+
+[1557.72 - 1560.84] done
+
+[1559.159 - 1564.1000000000001] because then we got the actual sections
+
+[1560.84 - 1565.76] iterate and improve ah okay
+
+[1564.1 - 1568.3999999999999] so
+
+[1565.76 - 1570.62] yeah I like that
+
+[1568.4 - 1574.88] um so if we if we
+
+[1570.62 - 1576.9189999999999] take this we might need a second
+
+[1574.88 - 1578.8400000000001] um okay yeah yeah this will actually
+
+[1576.919 - 1580.159] work out well
+
+[1578.84 - 1582.559] um I think I've got it all saved here
+
+[1580.159 - 1584.7990000000002] yeah okay so then we'll just copy this
+
+[1582.559 - 1584.799] here
+
+[1590.96 - 1594.14] I wonder what will happen if I just say
+
+[1592.88 - 1596.24] like
+
+[1594.14 - 1597.2] let's see I've compiled I need to
+
+[1596.24 - 1598.58] rewrite the notes into a long
+
+[1597.2 - 1602.419] professional blog post it must be
+
+[1598.58 - 1606.9189999999999] engaging I have the first draft
+
+[1602.419 - 1610.7] of the post now I need to um
+
+[1606.919 - 1611.5] improve on it okay so then we'll say
+
+[1610.7 - 1614.659] um
+
+[1611.5 - 1616.64] first draft
+
+[1614.659 - 1618.5] oh hang on my dog's barking I gotta go
+
+[1616.64 - 1620.8400000000001] see what he's barking at
+
+[1618.5 - 1621.98] okay sorry about that
+
+[1620.84 - 1626.059] um
+
+[1621.98 - 1628.4] all right yes so first draft and then
+
+[1626.059 - 1631.059] we'll just
+
+[1628.4 - 1633.8600000000001] add some new lines and do second draft
+
+[1631.059 - 1636.2] and you see like this this is getting
+
+[1633.86 - 1637.4599999999998] long but one we've broken it down into
+
+[1636.2 - 1638.419] sections
+
+[1637.46 - 1639.679] um so we don't have to write the whole
+
+[1638.419 - 1641.0590000000002] blog post at once and you see it's only
+
+[1639.679 - 1643.1000000000001] a thousand tokens
+
+[1641.059 - 1645.5] um so we're only at a quarter of our of
+
+[1643.1 - 1647.74] our maximum
+
+[1645.5 - 1647.74] um okay
+
+[1656.059 - 1660.559] look at this
+
+[1658.4 - 1664.3600000000001] Shinto believes in practices were first
+
+[1660.559 - 1664.36] brought to Japan by Chinese immigrants
+
+[1666.5 - 1672.62] I don't know that that's accurate
+
+[1669.98 - 1675.08] but we see that this has this has gotten
+
+[1672.62 - 1677.6589999999999] a little bit better
+
+[1675.08 - 1679.8799999999999] um it's definitely integrating a little
+
+[1677.659 - 1681.2] bit more of the information whether or
+
+[1679.88 - 1683.179] not this information is factually
+
+[1681.2 - 1685.279] accurate is different so in a future
+
+[1683.179 - 1687.44] version I'll probably what I'll do is
+
+[1685.279 - 1691.64] show you how to integrate from a corpus
+
+[1687.44 - 1693.5] of facts of of of like
+
+[1691.64 - 1696.0800000000002] other information rather than just
+
+[1693.5 - 1698.059] relying on confabulation and neural
+
+[1696.08 - 1701.6589999999999] recall so this when you ask when you ask
+
+[1698.059 - 1703.82] gpt3 to just barf out a bunch of facts
+
+[1701.659 - 1705.6200000000001] that's called neural recall and it can
+
+[1703.82 - 1708.5] be pretty accurate
+
+[1705.62 - 1710.0] um but it can also be crazy wrong
+
+[1708.5 - 1713.299] um Okay so
+
+[1710.0 - 1716.48] let's see what happens if we just do
+
+[1713.299 - 1717.3799999999999] this iteration a couple more times
+
+[1716.48 - 1719.299] so it's just
+
+[1717.38 - 1721.96] [Music]
+
+[1719.299 - 1721.96] whoops
+
+[1723.38 - 1729.22] oh and it's just jumping down okay
+
+[1727.039 - 1729.22] foreign
+
+[1730.7 - 1734.44] it's actually making it shorter
+
+[1735.62 - 1738.34] oh no
+
+[1738.38 - 1744.1000000000001] clarified it a little bit
+
+[1741.559 - 1744.1] okay
+
+[1744.32 - 1748.8799999999999] okay so this this seems like it works
+
+[1746.299 - 1753.1] okay so let's
+
+[1748.88 - 1753.1000000000001] add this as a um
+
+[1756.74 - 1760.58] so we'll do section
+
+[1761.24 - 1767.44] second draft
+
+[1763.1 - 1767.4399999999998] and then we'll do this as
+
+[1768.799 - 1771.799] research
+
+[1772.64 - 1776.96] add a double new line there just to make
+
+[1774.559 - 1778.46] it nice and consistent and then we'll
+
+[1776.96 - 1782.0] prompt
+
+[1778.46 - 1783.919] um uh excuse me Pros
+
+[1782.0 - 1788.0] um
+
+[1783.919 - 1789.26] I actually do prompt improve Pros
+
+[1788.0 - 1791.179] and then we'll just Stitch it all
+
+[1789.26 - 1794.299] together and that's all programmatic um
+
+[1791.179 - 1797.0590000000002] okay fault temperature to 7 The Tokens
+
+[1794.299 - 1800.5] to one thousand
+
+[1797.059 - 1800.5] because that's what we want all right
+
+[1801.5 - 1806.48] uh let's see yeah
+
+[1804.5 - 1809.899] um
+
+[1806.48 - 1814.3600000000001] well first we need the uh the topic okay
+
+[1809.899 - 1820.34] so topic equals open file and we'll do
+
+[1814.36 - 1820.34] topic.txt so I will save that
+
+[1821.12 - 1827.02] here
+
+[1822.86 - 1830.089] so save topic dot text
+
+[1827.02 - 1830.089] [Music]
+
+[1833.6 - 1839.12] all right so we get the topic and then
+
+[1835.64 - 1842.7990000000002] the first thing we do is outline it
+
+[1839.12 - 1842.799] and then we improve the outline okay
+
+[1843.02 - 1848.5] I've got too many tabs open let me close
+
+[1845.96 - 1848.5] some of these
+
+[1856.279 - 1860.24] ah no don't close that one cancel cancel
+
+[1858.73 - 1861.44] [Music]
+
+[1860.24 - 1863.86] abort
+
+[1861.44 - 1863.8600000000001] okay
+
+[1867.98 - 1874.039] and then we'll say
+
+[1869.6 - 1875.1999999999998] um let's see outline equals
+
+[1874.039 - 1878.259] change
+
+[1875.2 - 1878.259] [Music]
+
+[1879.38 - 1884.96] um yeah
+
+[1881.98 - 1886.3990000000001] here I'll just do this the messy way I
+
+[1884.96 - 1887.8990000000001] can work on cleaning it up and making it
+
+[1886.399 - 1889.1589999999999] more efficient later I have coffee and
+
+[1887.899 - 1891.6999999999998] I'm not drinking it what the heck is
+
+[1889.159 - 1891.7] wrong with me
+
+[1892.94 - 1896.16] [Music]
+
+[1897.14 - 1899.2990000000002] epic
+
+[1898.34 - 1903.82] um okay
+
+[1899.299 - 1903.82] so now we're gonna do build the outline
+
+[1905.08 - 1911.24] prompt equals
+
+[1908.059 - 1912.86] open file so this was
+
+[1911.24 - 1915.64] see this is why I need to keep at least
+
+[1912.86 - 1915.6399999999999] the prompts open
+
+[1916.76 - 1920.62] all right so prompt outline and then
+
+[1919.22 - 1923.48] it'll be prompt
+
+[1920.62 - 1924.799] improve outline and then section
+
+[1923.48 - 1927.64] research
+
+[1924.799 - 1930.799] which will just run a few times prompt
+
+[1927.64 - 1933.919] improve Pros
+
+[1930.799 - 1936.679] um okay and then Pros okay cool
+
+[1933.919 - 1939.94] so the outline we only run once so do
+
+[1936.679 - 1941.96] prompt outline
+
+[1939.94 - 1945.74] dot text
+
+[1941.96 - 1946.3400000000001] and then we'll do dot replace
+
+[1945.74 - 1950.559] um
+
+[1946.34 - 1950.559] topic or no I guess it was request
+
+[1950.6 - 1955.1589999999999] yeah
+
+[1952.34 - 1957.82] so just to keep things consistent we'll
+
+[1955.159 - 1957.8200000000002] do request
+
+[1958.7 - 1964.52] because the worst thing you can do for
+
+[1960.38 - 1966.44] yourself is use use multiple names for
+
+[1964.52 - 1969.08] the same variable it's very confusing I
+
+[1966.44 - 1971.539] do not recommend that
+
+[1969.08 - 1973.6999999999998] yeah all right sorry I'm having to lean
+
+[1971.539 - 1975.44] away from from my microphone again and
+
+[1973.7 - 1978.559] it's making it's throwing off my whole
+
+[1975.44 - 1980.659] keyboard situation
+
+[1978.559 - 1983.1789999999999] as someone who writes it's like there's
+
+[1980.659 - 1984.2600000000002] this flow connection
+
+[1983.179 - 1987.02] um and you can't hear it because I've
+
+[1984.26 - 1988.82] got the uh the like noise cancellation
+
+[1987.02 - 1990.26] but I use a mechanical keyboard so
+
+[1988.82 - 1992.539] you're welcome for that
+
+[1990.26 - 1995.0] for you seeing the thing I use Nvidia
+
+[1992.539 - 1996.799] broadcast which is really helpful
+
+[1995.0 - 1998.36] um okay so we're replacing it request
+
+[1996.799 - 2001.4189999999999] with the request
+
+[1998.36 - 2003.1] that should be good
+
+[2001.419 - 2003.7] um and then we'll do
+
+[2003.1 - 2008.32] um
+
+[2003.7 - 2009.1000000000001] outline equals we'll do one
+
+[2008.32 - 2013.6589999999999] um
+
+[2009.1 - 2013.6589999999999] plus and we're going to remove that
+
+[2014.14 - 2020.6200000000001] and then we'll do plus
+
+[2016.96 - 2023.32] um gpt3 completion prompt
+
+[2020.62 - 2025.9599999999998] okay and then for debug we'll just print
+
+[2023.32 - 2028.24] the outline and we'll run this to make
+
+[2025.96 - 2031.6000000000001] sure that it works
+
+[2028.24 - 2035.2] um python generate whoops
+
+[2031.6 - 2036.519] CD Auto Muse
+
+[2035.2 - 2039.17] blogger
+
+[2036.519 - 2041.159] python generate
+
+[2039.17 - 2043.299] [Music]
+
+[2041.159 - 2045.1000000000001] request.txt right because I changed the
+
+[2043.299 - 2048.72] file name in here but it didn't read my
+
+[2045.1 - 2048.72] mind and change the file name out here
+
+[2048.82 - 2052.5] okay try that again
+
+[2054.22 - 2059.919] okay cool
+
+[2056.619 - 2062.9190000000003] so that worked that looks good
+
+[2059.919 - 2064.06] um all right so then what did I do I did
+
+[2062.919 - 2065.859] um
+
+[2064.06 - 2067.96] see this is this is why you write down
+
+[2065.859 - 2070.2999999999997] what your plan is
+
+[2067.96 - 2073.119] open the readme back up
+
+[2070.3 - 2074.8] um okay so we got that iterate on the
+
+[2073.119 - 2076.599] list that's right we did this about four
+
+[2074.8 - 2079.54] times
+
+[2076.599 - 2085.839] um okay so then we'll say
+
+[2079.54 - 2089.58] um for I and list range zero four
+
+[2085.839 - 2092.859] we are going to do outline equals
+
+[2089.58 - 2096.639] improve outline
+
+[2092.859 - 2099.04] and then we'll pass it the request and
+
+[2096.639 - 2100.7200000000003] the outline and so basically this is
+
+[2099.04 - 2102.4] this is the easiest way to do a
+
+[2100.72 - 2105.339] recursive thing
+
+[2102.4 - 2107.56] so we'll do def improve outline and
+
+[2105.339 - 2109.359] we're going to have the request and the
+
+[2107.56 - 2111.22] outline passed in
+
+[2109.359 - 2112.42] and so then we're just going to use this
+
+[2111.22 - 2113.98] prompt
+
+[2112.42 - 2117.2400000000002] um so we say
+
+[2113.98 - 2122.14] prompt equals
+
+[2117.24 - 2124.4799999999996] open file prompt improve
+
+[2122.14 - 2127.24] outline dot text and so what you're
+
+[2124.48 - 2129.579] seeing here this is this is the um the
+
+[2127.24 - 2132.7] most basic form of recursive programming
+
+[2129.579 - 2134.6800000000003] with gpt3 where you feed the same the
+
+[2132.7 - 2136.359] output into the same function several
+
+[2134.68 - 2137.14] times
+
+[2136.359 - 2139.96] um
+
+[2137.14 - 2141.94] so dot replace
+
+[2139.96 - 2146.35] request
+
+[2141.94 - 2146.619] with request and then dot replace
+
+[2146.35 - 2147.94] [Music]
+
+[2146.619 - 2151.78] um
+
+[2147.94 - 2153.64] outline with outline make sure that I
+
+[2151.78 - 2155.38] use the right terminology yes outline is
+
+[2153.64 - 2156.7599999999998] there brainstorm some possible
+
+[2155.38 - 2160.56] improvements
+
+[2156.76 - 2163.5400000000004] okay and then we'll copy the same
+
+[2160.56 - 2165.46] outline one dot and so the reason that
+
+[2163.54 - 2169.18] you have to include this
+
+[2165.46 - 2171.16] is because the prompt already has that
+
+[2169.18 - 2172.72] see if you don't have that then the
+
+[2171.16 - 2175.2999999999997] first one will not have its numbered
+
+[2172.72 - 2177.7] list and that just it just it's bad form
+
+[2175.3 - 2180.82] and it doesn't look good and then we'll
+
+[2177.7 - 2183.8799999999997] do return outline
+
+[2180.82 - 2186.599] okay so then we will
+
+[2183.88 - 2186.599] um here we'll
+
+[2188.2 - 2194.2] actually for debug purposes I'll just
+
+[2190.66 - 2195.8799999999997] leave all this to do new line new line
+
+[2194.2 - 2199.14] outline
+
+[2195.88 - 2199.1400000000003] and then we'll do
+
+[2202.8 - 2210.3590000000004] improved outline okay
+
+[2206.68 - 2210.359] now let's test this real quick
+
+[2212.74 - 2216.7] what is Shinto
+
+[2214.9 - 2219.64] tips for visiting
+
+[2216.7 - 2222.3999999999996] facts okay so it is it is reliably
+
+[2219.64 - 2224.44] recreating what we wanted
+
+[2222.4 - 2228.88] and then it converged
+
+[2224.44 - 2232.66] uh and then it blew it up
+
+[2228.88 - 2235.42] curse you okay
+
+[2232.66 - 2238.1189999999997] yeah it didn't it it just it randomly
+
+[2235.42 - 2239.8] nuked it okay let's have fewer
+
+[2238.119 - 2242.8] iterations
+
+[2239.8 - 2246.579] because if you do if you if you if you
+
+[2242.8 - 2248.38] try your luck it will eventually Break
+
+[2246.579 - 2251.92] um the coolest Tory gates in Japan
+
+[2248.38 - 2253.06] different types of Contour Gates
+
+[2251.92 - 2255.64] okay
+
+[2253.06 - 2258.339] so doing One initial iteration and then
+
+[2255.64 - 2260.56] three iterations seems to be good all
+
+[2258.339 - 2261.7] right so we'll leave it at that
+
+[2260.56 - 2264.22] um cool
+
+[2261.7 - 2265.96] so actually it can be kind of fun to
+
+[2264.22 - 2267.16] leave the uh the debug output so I'll
+
+[2265.96 - 2268.66] probably just leave that there so that
+
+[2267.16 - 2271.66] when you're running it you can see what
+
+[2268.66 - 2273.96] it's doing okay now we consult the
+
+[2271.66 - 2277.24] scriptures we got the good list
+
+[2273.96 - 2278.32] brainstorm some facts or points for each
+
+[2277.24 - 2280.06] one
+
+[2278.32 - 2284.2000000000003] yes
+
+[2280.06 - 2285.88] okay so then section research
+
+[2284.2 - 2290.3199999999997] yes okay
+
+[2285.88 - 2293.38] so sections equal outline dot split
+
+[2290.32 - 2295.54] lines so now the sections list we can
+
+[2293.38 - 2298.359] iterate on this
+
+[2295.54 - 2301.119] um a few times
+
+[2298.359 - 2304.02] but we're actually zeroing in on the
+
+[2301.119 - 2304.02] final product
+
+[2304.06 - 2306.839] so
+
+[2306.94 - 2311.5] let me think of how to do this
+
+[2309.64 - 2313.7799999999997] because
+
+[2311.5 - 2316.119] do we want to write it one section at a
+
+[2313.78 - 2318.0400000000004] time I think we do
+
+[2316.119 - 2320.32] yeah because the way that the way that
+
+[2318.04 - 2322.42] it breaks down now is we do the research
+
+[2320.32 - 2323.6800000000003] on the section we do the pros on the
+
+[2322.42 - 2326.26] section and then we stitch it all
+
+[2323.68 - 2328.54] together we improve the pros and then we
+
+[2326.26 - 2332.619] have the final product okay so we'll do
+
+[2328.54 - 2337.54] final blog equals so we'll do that
+
+[2332.619 - 2339.28] okay so four section in sections so
+
+[2337.54 - 2340.9] we're gonna just we're gonna take each
+
+[2339.28 - 2342.88] section and just write the whole thing
+
+[2340.9 - 2345.28] we might have a final step where we kind
+
+[2342.88 - 2346.96] of like clean up the whole blog
+
+[2345.28 - 2348.46] um actually that's not a bad idea let me
+
+[2346.96 - 2350.2] go ahead and add that note so I don't
+
+[2348.46 - 2351.64] forget
+
+[2350.2 - 2353.7999999999997] um iterate through the sections and done
+
+[2351.64 - 2357.2799999999997] lies
+
+[2353.8 - 2358.8390000000004] um uh let's see clean up the final
+
+[2357.28 - 2360.7000000000003] product
+
+[2358.839 - 2363.4] yes
+
+[2360.7 - 2366.839] okay so four section in sections uh
+
+[2363.4 - 2366.839] first is hashtag research
+
+[2367.9 - 2372.2400000000002] sorry I need to drink this coffee
+
+[2374.82 - 2381.54] #research okay
+
+[2377.98 - 2383.44] um yes so we'll say
+
+[2381.54 - 2385.2] research
+
+[2383.44 - 2388.54] equals
+
+[2385.2 - 2390.7] uh that and then
+
+[2388.54 - 2392.079] uh let's see how many times did we do
+
+[2390.7 - 2393.339] this I think we did it like three or
+
+[2392.079 - 2395.2000000000003] four times
+
+[2393.339 - 2397.7799999999997] so we'll do we'll do the same thing that
+
+[2395.2 - 2400.5989999999997] we did here so for I
+
+[2397.78 - 2401.619] in list range we'll say
+
+[2400.599 - 2404.28] um
+
+[2401.619 - 2404.28] uh uh
+
+[2404.68 - 2409.859] result equals
+
+[2407.8 - 2409.8590000000004] um
+
+[2411.22 - 2414.54] research topic
+
+[2414.7 - 2418.18] actually no here we'll call it neural
+
+[2416.5 - 2420.04] recall because that's a more accurate
+
+[2418.18 - 2421.48] thing as to what we're doing so the
+
+[2420.04 - 2422.98] neural recall
+
+[2421.48 - 2424.839] is
+
+[2422.98 - 2425.98] yeah so we need to pass the request in
+
+[2424.839 - 2428.98] the section
+
+[2425.98 - 2430.72] requests section
+
+[2428.98 - 2432.04] and there will be some redundancy but
+
+[2430.72 - 2433.7799999999997] that's fine that's why we added the
+
+[2432.04 - 2436.0] seventh step to clean up the final
+
+[2433.78 - 2439.119] product to just let's rewrite the whole
+
+[2436.0 - 2439.34] thing to be one nice consistent blog
+
+[2439.119 - 2441.099] post
+
+[2439.34 - 2443.26] [Music]
+
+[2441.099 - 2446.52] um okay
+
+[2443.26 - 2449.8590000000004] so result equals neural recall
+
+[2446.52 - 2452.02] deaf neural recall
+
+[2449.859 - 2454.06] this is like
+
+[2452.02 - 2455.079] this is the nerdier version of Total
+
+[2454.06 - 2458.74] Recall
+
+[2455.079 - 2460.7200000000003] uh request extra points if uh I guess
+
+[2458.74 - 2463.18] they made a remake of that
+
+[2460.72 - 2465.52] um but the original Total recalled with
+
+[2463.18 - 2466.48] Arnold Schwarzenegger came out when I
+
+[2465.52 - 2468.7] was
+
+[2466.48 - 2471.099] uh much younger
+
+[2468.7 - 2473.3199999999997] I was alive when it came out some of my
+
+[2471.099 - 2476.92] viewers are older than me many of them
+
+[2473.32 - 2479.1400000000003] are younger so if you raise your hand uh
+
+[2476.92 - 2480.88] give me a thumbs up or or a comment in
+
+[2479.14 - 2482.98] the section in the in the comments below
+
+[2480.88 - 2484.2400000000002] if you remember the original Total
+
+[2482.98 - 2485.44] Recall
+
+[2484.24 - 2487.2999999999997] okay
+
+[2485.44 - 2489.599] neural recall what is it that we're
+
+[2487.3 - 2494.52] doing this is basically just another
+
+[2489.599 - 2498.579] prompt prompt equals open file uh prompt
+
+[2494.52 - 2502.859] section research dot text and then we do
+
+[2498.579 - 2504.94] that replace uh yes
+
+[2502.859 - 2507.96] what were the sections that I had in
+
+[2504.94 - 2510.52] here request and section right these two
+
+[2507.96 - 2512.38] see that is where you do yourself a
+
+[2510.52 - 2513.88] favor if you have variables that are
+
+[2512.38 - 2515.859] very simple and straightforward and make
+
+[2513.88 - 2521.38] sense
+
+[2515.859 - 2526.2] and then Place uh section
+
+[2521.38 - 2529.119] with Section okay and then we do
+
+[2526.2 - 2534.46] uh let's see
+
+[2529.119 - 2537.04] um notes equal gpt3 completion prompt
+
+[2534.46 - 2538.18] um and then return notes and I know what
+
+[2537.04 - 2542.079] some of you are thinking you're thinking
+
+[2538.18 - 2542.68] oh you can just do return this
+
+[2542.079 - 2544.8390000000004] um
+
+[2542.68 - 2545.98] there's nothing wrong with that but I
+
+[2544.839 - 2547.7799999999997] got out of the habit of doing that
+
+[2545.98 - 2549.52] because every now and then you'll want
+
+[2547.78 - 2552.82] to do some little like post-processing
+
+[2549.52 - 2556.119] like notes equals notes dot replace you
+
+[2552.82 - 2558.46] know that with that you know depending
+
+[2556.119 - 2559.359] on uh the kind of format you're looking
+
+[2558.46 - 2561.7] for
+
+[2559.359 - 2564.8199999999997] um so I just got out of the habit of of
+
+[2561.7 - 2567.2799999999997] returning the function result directly
+
+[2564.82 - 2568.6600000000003] um and and capturing the results in a
+
+[2567.28 - 2570.579] variable and then passing the variable
+
+[2568.66 - 2571.72] back it's either or you can do whatever
+
+[2570.579 - 2574.0] you want
+
+[2571.72 - 2576.7] um it saves you a line of code
+
+[2574.0 - 2578.079] um but you know okay a line of code who
+
+[2576.7 - 2581.14] cares
+
+[2578.079 - 2585.7000000000003] um to me it's not really worth saving
+
+[2581.14 - 2588.7] okay so then research equals research
+
+[2585.7 - 2588.7] plus
+
+[2589.119 - 2595.1800000000003] um let's see that's going to have no new
+
+[2591.819 - 2599.14] line so we'll do plus new line
+
+[2595.18 - 2601.8999999999996] dollar s and then we'll do dollar result
+
+[2599.14 - 2605.14] um yes okay so the research will be done
+
+[2601.9 - 2608.28] so research equals research dot strip
+
+[2605.14 - 2611.3799999999997] which that will remove any Superfluous
+
+[2608.28 - 2614.1600000000003] white space from the ends so now we've
+
+[2611.38 - 2614.1600000000003] got the research
+
+[2615.28 - 2620.98] yes so we'll run the research a couple
+
+[2617.8 - 2622.9] times we've done the research and then
+
+[2620.98 - 2623.98] we take the research and write the blog
+
+[2622.9 - 2625.2400000000002] post
+
+[2623.98 - 2629.22] okay
+
+[2625.24 - 2632.2] so do first draft
+
+[2629.22 - 2633.5789999999997] not draft five
+
+[2632.2 - 2635.56] um okay
+
+[2633.579 - 2637.44] this should be as straightforward as
+
+[2635.56 - 2641.7999999999997] prompt equals
+
+[2637.44 - 2646.359] prompt section no
+
+[2641.8 - 2648.54] what am I doing good grief open file
+
+[2646.359 - 2653.5] prompt
+
+[2648.54 - 2655.18] sectionpros dot text and do replace
+
+[2653.5 - 2658.0] research
+
+[2655.18 - 2659.2] with research so this is there's a
+
+[2658.0 - 2661.599] couple things happening here so there's
+
+[2659.2 - 2664.2999999999997] prompt chaining which is where you've
+
+[2661.599 - 2666.46] got prompt prompt prompt prompt prompt
+
+[2664.3 - 2668.1400000000003] so that's prompt chaining but then we're
+
+[2666.46 - 2670.18] also doing iterative Loops so we're
+
+[2668.14 - 2672.16] doing recursive Loops inside of the
+
+[2670.18 - 2672.94] prompt chain
+
+[2672.16 - 2675.04] um
+
+[2672.94 - 2676.599] so this is this is pretty Advanced but
+
+[2675.04 - 2678.88] this is this is just the same process
+
+[2676.599 - 2681.94] that a human goes through when writing
+
+[2678.88 - 2684.52] when writing a thing you you brainstorm
+
+[2681.94 - 2685.96] the structure you gather all the facts
+
+[2684.52 - 2688.66] then you write the pros and then you
+
+[2685.96 - 2690.7200000000003] iterate on the pros and make it better
+
+[2688.66 - 2690.72] um
+
+[2691.3 - 2695.98] now I need to improve on it I wonder if
+
+[2693.7 - 2697.4199999999996] it would be good if we gave it some
+
+[2695.98 - 2699.04] descriptions like we need to make it
+
+[2697.42 - 2702.3] more engaging
+
+[2699.04 - 2702.3] um but whatever okay
+
+[2704.08 - 2709.42] [Music]
+
+[2706.48 - 2712.96] prompt open file okay and so then we'll
+
+[2709.42 - 2715.7200000000003] say Pros equals
+
+[2712.96 - 2718.38] bd3 completion
+
+[2715.72 - 2718.3799999999997] um prompt
+
+[2719.079 - 2721.8590000000004] there you have it
+
+[2721.9 - 2726.1600000000003] all right so that's our first edition of
+
+[2723.88 - 2727.9] the pros and then we do the same thing
+
+[2726.16 - 2730.3799999999997] here where we attach the research and
+
+[2727.9 - 2730.38] the pros
+
+[2730.78 - 2735.52] this should actually probably we'll
+
+[2732.52 - 2738.52] change this to Pros
+
+[2735.52 - 2740.2] keep it nice and consistent
+
+[2738.52 - 2742.3] and I think we did it what like two or
+
+[2740.2 - 2745.14] three times before it started kind of
+
+[2742.3 - 2745.1400000000003] going off the rails
+
+[2746.02 - 2751.0] so we'll do we'll do just two
+
+[2747.52 - 2754.96] improvements of improving the pros
+
+[2751.0 - 2756.3] um okay so Pros equals
+
+[2754.96 - 2760.0] um
+
+[2756.3 - 2762.2200000000003] uh improve Pros
+
+[2760.0 - 2764.319] and so what did I have in here we have
+
+[2762.22 - 2767.74] the research on the pros
+
+[2764.319 - 2769.66] research and prose
+
+[2767.74 - 2772.0] um so we just improve itself so
+
+[2769.66 - 2775.0] recursive programming for for kitties
+
+[2772.0 - 2777.4] who don't know you could not do this
+
+[2775.0 - 2779.26] where you pass a variable where you you
+
+[2777.4 - 2781.7200000000003] assign a variable and pass it at the
+
+[2779.26 - 2783.88] same time this is a newer thing back in
+
+[2781.72 - 2785.4399999999996] the days of Pascal and C plus plus you
+
+[2783.88 - 2787.78] have what you would have to do uh you'd
+
+[2785.44 - 2790.599] have to declare something like prose 2
+
+[2787.78 - 2794.1400000000003] equals pros and then you'd say Pros
+
+[2790.599 - 2796.1800000000003] equals Pros too is silly but now you
+
+[2794.14 - 2798.16] don't have to do that anymore
+
+[2796.18 - 2800.2] now you can just call it directly and
+
+[2798.16 - 2803.44] it's just a single step
+
+[2800.2 - 2807.64] um okay so the improved Pros is going to
+
+[2803.44 - 2812.859] be the same as improve outline
+
+[2807.64 - 2815.56] with mild difference so we'll do improve
+
+[2812.859 - 2817.5989999999997] pros and instead of
+
+[2815.56 - 2820.02] request and outline its research and
+
+[2817.599 - 2820.02] prose
+
+[2821.04 - 2827.859] so we'll do
+
+[2823.3 - 2829.48] um improve Pros research
+
+[2827.859 - 2831.2799999999997] oops
+
+[2829.48 - 2832.9] uppercase
+
+[2831.28 - 2834.579] and Pros
+
+[2832.9 - 2837.6600000000003] oh whoops
+
+[2834.579 - 2837.6600000000003] I'm going to replace both
+
+[2837.88 - 2842.46] lowercase
+
+[2839.319 - 2842.46] and then Pros
+
+[2844.0 - 2847.72] uppercase
+
+[2845.319 - 2850.54] and then we don't need
+
+[2847.72 - 2852.3999999999996] that and so then we also change the name
+
+[2850.54 - 2856.3] back to prose
+
+[2852.4 - 2858.04] and prose okay so then we call improved
+
+[2856.3 - 2861.46] Pros we just call it a handful of times
+
+[2858.04 - 2863.319] and we end up with a better set of pros
+
+[2861.46 - 2866.14] and actually what we'll do is we'll
+
+[2863.319 - 2868.18] declare the final blog as a list
+
+[2866.14 - 2871.66] and so then we'll do
+
+[2868.18 - 2874.96] um final blog dot append
+
+[2871.66 - 2877.42] um Pros so that'll be a list of sections
+
+[2874.96 - 2878.619] that we can then we can keep them
+
+[2877.42 - 2881.319] separate so that we can give them
+
+[2878.619 - 2885.06] headers and also we can continue to
+
+[2881.319 - 2885.06] improve them separately if we want
+
+[2885.16 - 2888.52] are we done
+
+[2886.78 - 2890.1400000000003] hold on
+
+[2888.52 - 2891.579] this is what happens to me I get so
+
+[2890.14 - 2894.0989999999997] focused on what I'm doing that it's just
+
+[2891.579 - 2895.3590000000004] like wait that's the end right I know
+
+[2894.099 - 2898.48] there is one last thing but I want to
+
+[2895.359 - 2901.06] see how this looks before we do the
+
+[2898.48 - 2903.599] final step which is this one clean up
+
+[2901.06 - 2907.48] the final product
+
+[2903.599 - 2908.56] okay so let's give some whoops
+
+[2907.48 - 2911.319] let's come back here let's get some
+
+[2908.56 - 2913.62] output as we go
+
+[2911.319 - 2915.52] so we'll print
+
+[2913.62 - 2919.5989999999997] [Music]
+
+[2915.52 - 2919.599] new line new line research
+
+[2920.56 - 2922.68] um
+
+[2923.35 - 2928.319] [Music]
+
+[2925.119 - 2932.859] yeah so we'll do first we'll print
+
+[2928.319 - 2932.859] new line new line section
+
+[2933.46 - 2937.7200000000003] section
+
+[2935.38 - 2940.48] use that variable right yep so then we
+
+[2937.72 - 2942.04] do the section and then we do research
+
+[2940.48 - 2945.76] because we need to we need something to
+
+[2942.04 - 2948.52] look at while we're you know doing this
+
+[2945.76 - 2952.9] um and I'll do print
+
+[2948.52 - 2952.9] uh new line new line Pros
+
+[2952.92 - 2958.599] and then we'll just copy this down here
+
+[2956.2 - 2961.06] and then it'll be appended and so then
+
+[2958.599 - 2963.46] finally
+
+[2961.06 - 2965.319] here at the end of all things
+
+[2963.46 - 2966.16] we will just do
+
+[2965.319 - 2968.2] um
+
+[2966.16 - 2970.839] here we'll do
+
+[2968.2 - 2973.4199999999996] from P print import
+
+[2970.839 - 2974.56] s so this is pretty print so we'll do
+
+[2973.42 - 2977.079] pretty print
+
+[2974.56 - 2979.359] final blog and this is just for debug
+
+[2977.079 - 2980.8] okay so let's
+
+[2979.359 - 2983.0789999999997] I need to zoom out a little bit because
+
+[2980.8 - 2985.2400000000002] this is enormous well now let's see
+
+[2983.079 - 2987.46] let's see how it looks okay
+
+[2985.24 - 2989.25] generate a Blog end to end
+
+[2987.46 - 2991.7400000000002] history of Shinto
+
+[2989.25 - 2995.16] [Music]
+
+[2991.74 - 2995.16] improved outline
+
+[2996.22 - 3000.18] predictions for the future of the
+
+[2997.96 - 3002.96] religion that's cool
+
+[3000.18 - 3002.96] heck yeah
+
+[3006.599 - 3009.839] oh wow
+
+[3008.099 - 3012.619] that got real long so we're gonna have
+
+[3009.839 - 3012.619] 10 sections
+
+[3022.2 - 3027.54] we'll probably like accelerate this oops
+
+[3024.42 - 3029.46] it crashed research is not defined what
+
+[3027.54 - 3033.8] do you mean I did a typo
+
+[3029.46 - 3033.8] let's see this is line 87.
+
+[3035.339 - 3040.56] right here
+
+[3037.92 - 3042.92] dang so close but this is why you test
+
+[3040.56 - 3042.92] your code
+
+[3044.579 - 3047.28] all right
+
+[3045.78 - 3048.48] let's do this again all right I am going
+
+[3047.28 - 3050.76] to make it a little smaller because this
+
+[3048.48 - 3053.54] is outputting quite a bit
+
+[3050.76 - 3057.5] so we'll do we'll go down to 24. there
+
+[3053.54 - 3057.5] how to build a toy gate
+
+[3063.96 - 3068.96] there we go
+
+[3065.88 - 3068.96] oh we've got
+
+[3073.14 - 3079.22] and we've got the double new lines so
+
+[3075.48 - 3079.22] for the out for the final outline
+
+[3079.44 - 3082.02] um
+
+[3080.22 - 3085.98] outline
+
+[3082.02 - 3090.18] equals outline dot replace and we'll do
+
+[3085.98 - 3091.98] double new line with just single new
+
+[3090.18 - 3094.44] line
+
+[3091.98 - 3096.9] because we're going to end up with
+
+[3094.44 - 3100.52] yeah okay but this is this is this is
+
+[3096.9 - 3100.52] all right so far so good
+
+[3103.8 - 3106.7000000000003] foreign
+
+[3110.46 - 3117.859] and then the section has nothing yeah
+
+[3113.64 - 3117.859] darn it darn it
+
+[3123.559 - 3127.579] and it puts out nothing
+
+[3131.04 - 3133.859] we'll just let it finish and see what
+
+[3132.599 - 3138.02] happens
+
+[3133.859 - 3138.02] there are about 80 000 Shinto shrines
+
+[3138.96 - 3142.58] there's all of our research so that's
+
+[3140.88 - 3145.659] good
+
+[3142.58 - 3145.659] [Music]
+
+[3150.0 - 3153.619] welcome to my blog about Shinto
+
+[3155.46 - 3159.359] Okay cool so this is going to iterate
+
+[3157.98 - 3161.579] through each of these sections for a
+
+[3159.359 - 3163.68] little while I think I'm gonna go ahead
+
+[3161.579 - 3165.48] and pause the video and uh we'll see
+
+[3163.68 - 3167.0989999999997] because you get you get the idea we
+
+[3165.48 - 3168.359] don't need to read this so we'll pause
+
+[3167.099 - 3171.3590000000004] the video we'll come back once it's done
+
+[3168.359 - 3172.02] it worked mostly
+
+[3171.359 - 3173.88] um
+
+[3172.02 - 3175.319] It produced a lot of content I'll put it
+
+[3173.88 - 3177.42] that way
+
+[3175.319 - 3181.02] um now unfortunately this was just a
+
+[3177.42 - 3183.119] test run so we've got all this so let's
+
+[3181.02 - 3187.44] just
+
+[3183.119 - 3191.4] just get all this out to
+
+[3187.44 - 3192.9] a text file and um so I I added this
+
+[3191.4 - 3194.4] while we were waiting where it'll
+
+[3192.9 - 3196.559] actually save it out to file because I
+
+[3194.4 - 3198.42] should have done that and I'll probably
+
+[3196.559 - 3199.92] separate out so that we'll clean up the
+
+[3198.42 - 3202.559] blog afterwards
+
+[3199.92 - 3205.92] but first let's just see what we've got
+
+[3202.559 - 3208.8] so let's do a refined and replace
+
+[3205.92 - 3210.359] the single quotes with nothing
+
+[3208.8 - 3212.579] place all
+
+[3210.359 - 3213.48] and then we'll replace
+
+[3212.579 - 3218.54] um
+
+[3213.48 - 3218.54] backslash backslash n with nothing
+
+[3218.7 - 3224.3999999999996] actually no this will be normal finder
+
+[3220.98 - 3226.64] place so that cleans that up yeah there
+
+[3224.4 - 3226.64] we go
+
+[3227.52 - 3229.88] um okay
+
+[3232.26 - 3236.46] that is yeah there's a lot I'm not going
+
+[3234.54 - 3239.52] to read the whole thing but we've got
+
+[3236.46 - 3241.559] it's 21 000 characters long
+
+[3239.52 - 3244.859] um so clearly this is like
+
+[3241.559 - 3246.5400000000004] yeah this this this is quite a bit
+
+[3244.859 - 3249.48] um I think what I'm gonna do
+
+[3246.54 - 3253.619] uh because that's that's well how many
+
+[3249.48 - 3257.64] tokens is this let's plug this into
+
+[3253.619 - 3260.04] 50 5 000 tokens so we want it to be
+
+[3257.64 - 3261.9] maybe
+
+[3260.04 - 3264.18] half that
+
+[3261.9 - 3265.619] maybe not quite as long so what we'll do
+
+[3264.18 - 3267.2999999999997] is
+
+[3265.619 - 3270.059] we'll do
+
+[3267.3 - 3271.6800000000003] um just a little bit less research and a
+
+[3270.059 - 3275.099] little bit less
+
+[3271.68 - 3276.96] a little bit less brainstorming
+
+[3275.099 - 3278.28] um so hopefully that will make it a
+
+[3276.96 - 3281.46] little bit more reasonable because what
+
+[3278.28 - 3283.8590000000004] I'd like to be able to do is to do the
+
+[3281.46 - 3286.319] final Cleanup in one window
+
+[3283.859 - 3287.7599999999998] um and we can't do that right now
+
+[3286.319 - 3289.74] um Okay so
+
+[3287.76 - 3291.119] we've got this I've got it so it'll save
+
+[3289.74 - 3293.64] it out to file I wish that I had done
+
+[3291.119 - 3295.7400000000002] this the first time but what we're going
+
+[3293.64 - 3298.3799999999997] to do is we're going to choose an
+
+[3295.74 - 3300.7799999999997] entirely different topic because I
+
+[3298.38 - 3301.98] tested it on one topic
+
+[3300.78 - 3306.7200000000003] um
+
+[3301.98 - 3308.88] so I want a blog post about the history
+
+[3306.72 - 3309.98] of the printing
+
+[3308.88 - 3313.619] press
+
+[3309.98 - 3316.16] I'd like to know how it influenced
+
+[3313.619 - 3319.1400000000003] religion
+
+[3316.16 - 3322.6189999999997] politics and War
+
+[3319.14 - 3324.839] throughout history and up through the
+
+[3322.619 - 3325.98] Modern Age
+
+[3324.839 - 3330.5589999999997] um okay
+
+[3325.98 - 3330.559] so I'm gonna go ahead and kick this off
+
+[3330.599 - 3334.5] generate blog and then we'll come back
+
+[3332.64 - 3336.48] with a brand new blog and then we will
+
+[3334.5 - 3340.02] get into
+
+[3336.48 - 3344.16] um we'll get into the um the process of
+
+[3340.02 - 3344.16] improving a Blog automatically
+
+[3344.76 - 3349.5] um why is it doing nothing
+
+[3347.16 - 3351.92] did it not do any research oh there it
+
+[3349.5 - 3351.92] is okay
+
+[3353.4 - 3355.98] there we go
+
+[3354.96 - 3359.54] um okay so I'm gonna go ahead and pause
+
+[3355.98 - 3359.54] it and we'll come back in just a second
+
+[3361.8 - 3366.48] okay we have a blog post about the
+
+[3364.44 - 3368.2200000000003] printing press
+
+[3366.48 - 3370.02] um and I think I actually lied I think
+
+[3368.22 - 3372.5989999999997] I'm gonna call it here because this is
+
+[3370.02 - 3376.2] actually not bad
+
+[3372.599 - 3379.38] um and it doing improving an existing
+
+[3376.2 - 3381.24] document is worth its own project so I
+
+[3379.38 - 3384.98] think what's going to come after this is
+
+[3381.24 - 3387.66] I'll have one video or a project about
+
+[3384.98 - 3390.0] pulling from external sources like how
+
+[3387.66 - 3391.68] to search and automatically compile
+
+[3390.0 - 3394.44] sources because that has applications
+
+[3391.68 - 3395.839] all over the place such as automated
+
+[3394.44 - 3398.76] research
+
+[3395.839 - 3400.98] for like Academia not just writing blogs
+
+[3398.76 - 3402.78] and then automatically improving stuff
+
+[3400.98 - 3404.4] at basically being an editor is a whole
+
+[3402.78 - 3407.6600000000003] other function
+
+[3404.4 - 3414.119] so we will call this a day get status
+
+[3407.66 - 3415.92] get add git commit am all done and get
+
+[3414.119 - 3418.92] push
+
+[3415.92 - 3421.079] so uh yeah so there's a blog post out
+
+[3418.92 - 3424.98] here it is now 10 000 characters long
+
+[3421.079 - 3426.3] which means that it should fit into a
+
+[3424.98 - 3429.42] single
+
+[3426.3 - 3432.78] um yeah window so you could in theory
+
+[3429.42 - 3434.46] ask gpt3 hey take this blog post and
+
+[3432.78 - 3436.02] rewrite it if you want to I'm not going
+
+[3434.46 - 3438.0] to worry about it
+
+[3436.02 - 3440.7599999999998] um because yeah this video is already
+
+[3438.0 - 3444.24] plenty long and you have you now have an
+
+[3440.76 - 3447.059] end to end process of prompt chaining
+
+[3444.24 - 3450.4199999999996] and recursive prompting
+
+[3447.059 - 3451.6800000000003] um in order to generate you know be very
+
+[3450.42 - 3454.079] generative and make something better
+
+[3451.68 - 3456.18] remember use this responsibly I am not
+
+[3454.079 - 3458.04] responsible if you uh use this to do
+
+[3456.18 - 3458.7599999999998] something unethical
+
+[3458.04 - 3461.94] um
+
+[3458.76 - 3464.0400000000004] yeah this is on you uh anyways thanks
+
+[3461.94 - 3466.079] for watching uh like And subscribe and
+
+[3464.04 - 3468.38] consider supporting me on patreon have a
+
+[3466.079 - 3468.38] good day

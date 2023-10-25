@@ -1,0 +1,1973 @@
+[0.179 - 4.5600000000000005] good morning everybody David Shapiro
+
+[2.399 - 7.56] here with another video this is going to
+
+[4.56 - 9.0] be a comprehensive Deep dive based on my
+
+[7.56 - 11.579999999999998] experience both my professional
+
+[9.0 - 13.98] experience before Ai and my Consulting
+
+[11.58 - 17.16] experience uh now that I am an AI
+
+[13.98 - 19.619] specialist so today's topic is Knowledge
+
+[17.16 - 22.14] Management uh specifically when Vector
+
+[19.619 - 24.359] search alone is not enough
+
+[22.14 - 25.8] so if you're watching this video I'm
+
+[24.359 - 27.900000000000002] imagining that these are some of the
+
+[25.8 - 29.96] problems you're facing you've built a
+
+[27.9 - 32.46] chat bot or some other similar
+
+[29.96 - 36.3] generative AI tool probably with the
+
+[32.46 - 38.219] chat GPT API or similar API it can do
+
+[36.3 - 41.699999999999996] some stuff you've cut your teeth you've
+
+[38.219 - 44.34] got your feet wet on this technology it
+
+[41.7 - 46.14] can do some things very well but you're
+
+[44.34 - 48.6] you know working on figuring out how to
+
+[46.14 - 50.94] steer these things you even have some
+
+[48.6 - 52.68] Integrations maybe you figured out how
+
+[50.94 - 54.8] to you know have dynamically composed
+
+[52.68 - 57.42] prompts you've done search augmentation
+
+[54.8 - 58.86] and then maybe you're even using you
+
+[57.42 - 61.559000000000005] know API calls and that sort of thing
+
+[58.86 - 64.199] but you're finding really profound
+
+[61.559 - 66.29899999999999] limitations because on its own operating
+
+[64.199 - 68.58] in a vacuum these chat Bots and other
+
+[66.299 - 70.26] tools they're really kind of useless
+
+[68.58 - 72.84] because they don't have the context of
+
+[70.26 - 75.18] the rest of your organization or other
+
+[72.84 - 76.74000000000001] context of the of whatever task or
+
+[75.18 - 78.60000000000001] pipeline that it's in and that sort of
+
+[76.74 - 80.1] thing so you've got constraints on
+
+[78.6 - 82.02] Windows size how do you keep it from
+
+[80.1 - 84.29899999999999] hallucinating how do you keep it
+
+[82.02 - 86.64] grounded and so basically now you have a
+
+[84.299 - 88.2] sad little lost robot and you need to
+
+[86.64 - 89.34] figure out how to teach it to get to the
+
+[88.2 - 92.22] next level
+
+[89.34 - 93.9] so here's a little bit about me I was an
+
+[92.22 - 96.84] Enterprise I.T infrastructure engineer
+
+[93.9 - 99.0] for about 15 years for those of you that
+
+[96.84 - 101.22] are not familiar with it infrastructure
+
+[99.0 - 103.979] we work with basically everyone network
+
+[101.22 - 106.979] security database software Enterprise
+
+[103.979 - 108.84] Architects we have to have meetings with
+
+[106.979 - 111.299] if you've got you know brick and mortar
+
+[108.84 - 112.979] stores we help with that we help with
+
+[111.299 - 115.14] the data center pretty much everything
+
+[112.979 - 116.82] my focus was on automation cloud and
+
+[115.14 - 119.28] virtualization
+
+[116.82 - 121.13999999999999] uh now I consult on AI products and
+
+[119.28 - 123.479] strategy on top of of course my YouTube
+
+[121.14 - 125.28] uh Channel
+
+[123.479 - 127.2] um and for those of you that are new
+
+[125.28 - 128.88] actually how my channel got started was
+
+[127.2 - 130.25900000000001] a lot of coding tutorials which if you
+
+[128.88 - 133.07999999999998] go to my the home page of my YouTube
+
+[130.259 - 135.89999999999998] channel I've got it all in a list I've
+
+[133.08 - 138.66000000000003] got like 50 or so coding tutorials still
+
+[135.9 - 139.86] out there now the reason that I made
+
+[138.66 - 142.02] this video is because I had like three
+
+[139.86 - 144.54000000000002] or four clients in a row basically ask
+
+[142.02 - 146.52] the same or very similar questions and
+
+[144.54 - 148.07999999999998] so when that happens I know that uh this
+
+[146.52 - 149.58] is resonating
+
+[148.08 - 153.59900000000002] um and then finally I married a
+
+[149.58 - 155.64000000000001] librarian uh and so a lot of what we uh
+
+[153.599 - 157.85999999999999] talk about has to do with data and
+
+[155.64 - 160.07999999999998] information uh storage retrieval
+
+[157.86 - 162.66000000000003] curation that sort of stuff so I'm
+
+[160.08 - 165.0] bringing a tremendous amount of of uh
+
+[162.66 - 167.819] different disciplines and experience uh
+
+[165.0 - 169.86] in order to bring you this video so
+
+[167.819 - 171.06] here's before this is the last slide
+
+[169.86 - 172.56] before we get started I promise we're
+
+[171.06 - 174.36] about to get in there
+
+[172.56 - 175.8] um but you need to know what kind of
+
+[174.36 - 179.04000000000002] information I'm going to give you and
+
+[175.8 - 180.3] how you need to use it so uh right up
+
+[179.04 - 182.7] next I'm going to give you a lot of
+
+[180.3 - 185.34] Concepts so I understand that many of
+
+[182.7 - 187.56] you watching are either CEOs directors
+
+[185.34 - 189.12] managers developers
+
+[187.56 - 190.8] um many of you probably don't know the
+
+[189.12 - 192.78] first thing about librarianship or
+
+[190.8 - 193.739] information science many of you probably
+
+[192.78 - 196.379] don't know the first thing about
+
+[193.739 - 197.4] philosophy and epistemics which you
+
+[196.379 - 200.51899999999998] might be thinking why is that even
+
+[197.4 - 202.31900000000002] relevant you will see and then some of
+
+[200.519 - 203.519] you many of you probably are from
+
+[202.319 - 205.01899999999998] computer science and information
+
+[203.519 - 206.87900000000002] technology
+
+[205.019 - 209.76] um so I'll be talking with you basically
+
+[206.879 - 211.739] translating all this into your language
+
+[209.76 - 213.599] or if you're a business leader you might
+
+[211.739 - 215.879] not know any of these disciplines
+
+[213.599 - 217.26] uh now your mission should you choose to
+
+[215.879 - 218.459] accept it you got to wrap your head
+
+[217.26 - 219.48] around these Concepts you're probably
+
+[218.459 - 220.98] going to need to watch this video
+
+[219.48 - 223.79899999999998] several times you might need to have
+
+[220.98 - 226.319] chat GPT or Claude or perplexity open on
+
+[223.799 - 227.76000000000002] the side so you can jot down Concepts to
+
+[226.319 - 230.76] follow up on
+
+[227.76 - 234.42] um but basically we're going to push you
+
+[230.76 - 237.84] towards being a transdisciplinary uh AI
+
+[234.42 - 239.099] product design manager and strategist so
+
+[237.84 - 240.72] it'll take you a little while to
+
+[239.099 - 242.64] integrate these ideas and to synthesize
+
+[240.72 - 244.98] something new so like I said you
+
+[242.64 - 247.14] probably want to download the slide deck
+
+[244.98 - 249.23899999999998] um uh it's the slide decks are all
+
+[247.14 - 251.099] available on my GitHub Link in the
+
+[249.239 - 253.5] description you can also sign up on my
+
+[251.099 - 255.72] patreon I do consultation at any given
+
+[253.5 - 258.78] time I have about 20 clients
+
+[255.72 - 260.94] um and so I'm happy to jump on a call
+
+[258.78 - 262.03999999999996] with you to explain these Concepts more
+
+[260.94 - 264.54] specifically
+
+[262.04 - 265.97900000000004] in the past so this is for all you
+
+[264.54 - 268.02000000000004] people that heard me in the past say
+
+[265.979 - 270.3] that I don't sign ndas I've actually
+
+[268.02 - 272.88] I've contacted a lawyer friend and we're
+
+[270.3 - 274.38] getting a consultation NDA set up so I
+
+[272.88 - 277.86] know that that has been a reason that
+
+[274.38 - 280.08] many people have hesitated so in the
+
+[277.86 - 282.96000000000004] next week or two I'll have a official
+
+[280.08 - 284.34] NDA that I can sign that will protect
+
+[282.96 - 285.96] both of our interests because obviously
+
+[284.34 - 288.23999999999995] I need to keep Consulting with clients
+
+[285.96 - 291.59999999999997] and I need to make sure that I don't
+
+[288.24 - 294.6] transfer any of my personal IP while
+
+[291.6 - 296.1] also protecting your IP okay now we've
+
+[294.6 - 298.02000000000004] laid all the groundwork let's get on to
+
+[296.1 - 299.40000000000003] the show also I apologize if the
+
+[298.02 - 300.65999999999997] microphone phases in and out of
+
+[299.4 - 304.25899999999996] existence I'm trying to figure out how
+
+[300.66 - 305.82000000000005] to mask that off but yeah so I do have a
+
+[304.259 - 308.22] proper green screen behind me which is
+
+[305.82 - 310.139] why uh I can gesture in the background
+
+[308.22 - 312.78000000000003] doesn't um glitch in and out of
+
+[310.139 - 314.16] existence all right sorry tangent now
+
+[312.78 - 317.03999999999996] for the concepts and solutions there's
+
+[314.16 - 319.38000000000005] about 10 or 15 slides here so buckle in
+
+[317.04 - 321.12] and let's go through these the first
+
+[319.38 - 322.32] concept you need to know is data
+
+[321.12 - 323.94] ontologies
+
+[322.32 - 325.979] now I'm not going to read all of these
+
+[323.94 - 328.38] per se you can pause the video and read
+
+[325.979 - 330.18] them but mostly I'm just going to tell
+
+[328.38 - 333.419] you like okay when I say data ontology
+
+[330.18 - 335.22] what do I mean ontology is the uh fill
+
+[333.419 - 338.34] out the philosophical or epistemic
+
+[335.22 - 341.1] discipline of state of being what does
+
+[338.34 - 342.84] something actually exist as and so this
+
+[341.1 - 345.53900000000004] comes from database Theory it also comes
+
+[342.84 - 347.46] from philosophy and epistemics which is
+
+[345.539 - 349.68] basically okay if you had to
+
+[347.46 - 352.44] characterize data and information in a
+
+[349.68 - 354.24] vacuum or scientifically this is what
+
+[352.44 - 355.62] you would call your ontologies
+
+[354.24 - 358.08] so if you've got any database
+
+[355.62 - 359.88] administrators or database engineers in
+
+[358.08 - 361.68] your team you can talk with them more
+
+[359.88 - 363.65999999999997] about like what is a data ontology and
+
+[361.68 - 366.539] how do you understand data because
+
+[363.66 - 368.759] here's the thing is many people who are
+
+[366.539 - 370.68] new to generative AI they're thinking in
+
+[368.759 - 372.6] terms of text and qualitative data
+
+[370.68 - 374.58] whereas you might be familiar with
+
+[372.6 - 376.8] thinking in terms of quantitative data
+
+[374.58 - 379.74] and relational databases but data is
+
+[376.8 - 381.84000000000003] data and particularly your data
+
+[379.74 - 384.18] Engineers your data automation
+
+[381.84 - 385.56] Specialists your data analysts they're
+
+[384.18 - 387.419] going to be able to understand and help
+
+[385.56 - 390.18] you understand like what ontologies are
+
+[387.419 - 392.15999999999997] so for instance if you work with a lot
+
+[390.18 - 394.02] of like squishy text Data like user
+
+[392.16 - 396.3] comments or
+
+[394.02 - 398.15999999999997] um you know KB articles or stuff that is
+
+[396.3 - 400.02000000000004] still data it is not relational
+
+[398.16 - 401.22] mathematical data and I know that there
+
+[400.02 - 402.96] are going to be some purists out there
+
+[401.22 - 404.699] who say well if it's not math it's not
+
+[402.96 - 407.46] data but that's not really how the world
+
+[404.699 - 408.96000000000004] works so if you talk to Librarians too
+
+[407.46 - 410.63899999999995] we'll love to talk to you about the
+
+[408.96 - 412.38] different kinds of data and how to
+
+[410.639 - 414.78000000000003] categorize them
+
+[412.38 - 415.919] all right next up is you need to be
+
+[414.78 - 418.38] familiar with the concepts of
+
+[415.919 - 421.08] reconciliation and validation so
+
+[418.38 - 423.479] reconciliation often is is a process
+
+[421.08 - 425.94] that's more used in the finance side of
+
+[423.479 - 428.15999999999997] your business and so you reconcile
+
+[425.94 - 430.21999999999997] spreadsheets you reconcile numbers but
+
+[428.16 - 433.319] reconciliation applies to literally
+
+[430.22 - 435.18] every uh discipline that has to deal
+
+[433.319 - 437.03900000000004] with data where you've got data coming
+
+[435.18 - 440.039] from different sources with different
+
+[437.039 - 441.78] levels of validation different levels of
+
+[440.039 - 443.15999999999997] trustworthiness
+
+[441.78 - 444.9] um so for instance one of the products
+
+[443.16 - 447.06] that my wife works on I forgot to
+
+[444.9 - 450.12] mention she she went from librarianship
+
+[447.06 - 452.4] to um to a data product owner so like
+
+[450.12 - 454.139] her experience is also directly relevant
+
+[452.4 - 456.71999999999997] so one of the products that she works on
+
+[454.139 - 458.58] they have sources of information that
+
+[456.72 - 460.08000000000004] come from vendors but some of the
+
+[458.58 - 462.479] information is wrong and it is
+
+[460.08 - 464.88] hilariously wrong and so they they have
+
+[462.479 - 467.28] to basically reconcile uh multiple
+
+[464.88 - 469.919] sources of data and say okay which which
+
+[467.28 - 471.84] data source are we going to hold as the
+
+[469.919 - 474.65999999999997] source of truth how do we validate it
+
+[471.84 - 476.52] because you know know regard taking a
+
+[474.66 - 479.46000000000004] step outside of language technology like
+
+[476.52 - 483.539] llms you have to do data validation
+
+[479.46 - 484.85999999999996] regardless uh so Hallucination is just a
+
+[483.539 - 486.539] new kind of thing that you have to
+
+[484.86 - 488.759] address so another way to think of that
+
+[486.539 - 490.02] is imagine that you've got various
+
+[488.759 - 491.819] sources of information you've got
+
+[490.02 - 493.85999999999996] multiple internal sources of information
+
+[491.819 - 496.319] you might have vendors and apis that you
+
+[493.86 - 498.0] get information from how do you how do
+
+[496.319 - 500.03900000000004] you cross validate and how do you
+
+[498.0 - 502.02] reconcile those differences so that's
+
+[500.039 - 504.65999999999997] something that you can talk about
+
+[502.02 - 506.46] um like I said reconciliation is a
+
+[504.66 - 507.90000000000003] really big thing in your finance
+
+[506.46 - 509.69899999999996] department so if you got any Finance
+
+[507.9 - 511.02] people talk to them about how they
+
+[509.699 - 513.24] reconcile different pieces of
+
+[511.02 - 514.86] information and different sources and
+
+[513.24 - 517.26] you'll get a tremendous amount of
+
+[514.86 - 518.94] insight about how you know so for
+
+[517.26 - 520.4399999999999] instance like error detection cleansing
+
+[518.94 - 521.8800000000001] all that sort of stuff all the
+
+[520.44 - 523.5] Transformations that it goes through so
+
+[521.88 - 526.98] on and so forth
+
+[523.5 - 529.86] uh factual grounding and so what factual
+
+[526.98 - 532.74] grounding is this is this is uh more
+
+[529.86 - 534.839] from uh philosophy but it's also super
+
+[532.74 - 537.66] super important with language technology
+
+[534.839 - 539.4590000000001] which is you just need to State what
+
+[537.66 - 542.279] your factual grounding is what is the
+
+[539.459 - 544.0189999999999] Bedrock set of facts data and assertions
+
+[542.279 - 545.459] that you're operating from
+
+[544.019 - 547.5] um so you know what data are you using
+
+[545.459 - 549.54] what empirical evidence where are your
+
+[547.5 - 551.76] sources is it consistent that sort of
+
+[549.54 - 554.2199999999999] thing but really just like think about
+
+[551.76 - 556.019] when you're building either chat Bots or
+
+[554.22 - 557.339] other language technology what is the
+
+[556.019 - 558.839] factual grounding and you have to be
+
+[557.339 - 561.24] explicit you have to give it the factual
+
+[558.839 - 563.399] grounding even if it's just a few like
+
+[561.24 - 567.12] like sentence fragments where you say
+
+[563.399 - 569.82] like X is true or assume Y is the case
+
+[567.12 - 572.16] or uh giving it some context like this
+
+[569.82 - 575.22] is a construction company it's amazing
+
+[572.16 - 577.38] how much just a few little keywords will
+
+[575.22 - 579.9590000000001] will shape and steer language models
+
+[577.38 - 582.3] because if you tell it like Hey we're a
+
+[579.959 - 583.8599999999999] Wall Street firm like that's two words
+
+[582.3 - 586.68] or three words Wall Street from term
+
+[583.86 - 587.94] versus like you know uh you know
+
+[586.68 - 590.519] military
+
+[587.94 - 592.62] um Hardware you know consultant those
+
+[590.519 - 594.54] two like just those two things give it
+
+[592.62 - 596.58] so much context and it's going to
+
+[594.54 - 598.38] perform a lot better by grounding
+
+[596.58 - 600.1800000000001] whatever it's doing in some of those
+
+[598.38 - 602.22] facts so that's what I mean by factual
+
+[600.18 - 605.3389999999999] grounding just give it really objective
+
+[602.22 - 607.6800000000001] empirical Baseline like what is what is
+
+[605.339 - 609.72] going on because remember you as a as a
+
+[607.68 - 611.5799999999999] person you implicitly have all that
+
+[609.72 - 613.2] factual grounding because you know your
+
+[611.58 - 615.1800000000001] job you see your physical surroundings
+
+[613.2 - 617.339] the language model exists in a tiny
+
+[615.18 - 620.519] little bottle bottled up brain out in
+
+[617.339 - 623.6400000000001] The Ether somewhere so it has no context
+
+[620.519 - 627.12] source of Truth so source of Truth this
+
+[623.64 - 629.9399999999999] comes from uh well I used it a lot in
+
+[627.12 - 632.1] IIT infrastructure because uh so say for
+
+[629.94 - 634.98] instance you've got uh different login
+
+[632.1 - 636.839] databases you've got uh different uh
+
+[634.98 - 639.1800000000001] user roles you've got authentication
+
+[636.839 - 641.1] servers and that sort of stuff so then
+
+[639.18 - 642.8389999999999] you have to have a source of Truth who
+
+[641.1 - 646.019] is allowed to log into what so this is
+
+[642.839 - 648.3000000000001] like role-based access control and so if
+
+[646.019 - 650.339] you don't have a single source of Truth
+
+[648.3 - 652.079] um which you can end up
+
+[650.339 - 653.94] story from the front if you give
+
+[652.079 - 655.3199999999999] developers the keys to the kingdom you
+
+[653.94 - 657.0] end up with no single source of truth
+
+[655.32 - 660.24] because developers generally don't
+
+[657.0 - 662.579] understand authentication schemes and so
+
+[660.24 - 664.62] you end up with local logins on every
+
+[662.579 - 666.959] server or multiple key servers and that
+
+[664.62 - 669.36] sort of thing and that is bad because
+
+[666.959 - 671.2199999999999] one that is a security nightmare to it
+
+[669.36 - 673.92] is an access Nightmare and so on and so
+
+[671.22 - 675.5400000000001] forth so this is why accessibility audit
+
+[673.92 - 678.7199999999999] Trails data Integrity that sort of stuff
+
+[675.54 - 681.18] it's a source of Truth for any given
+
+[678.72 - 683.399] data ontology or type you need to
+
+[681.18 - 684.959] identify who is the who is the key
+
+[683.399 - 686.579] Authority here
+
+[684.959 - 688.5] um so say say for instance you're
+
+[686.579 - 690.2399999999999] getting a stock market data right
+
+[688.5 - 692.88] there's going to be certain apis like
+
+[690.24 - 694.32] what is it the Eddie system where you
+
+[692.88 - 696.899] can download you know all the financial
+
+[694.32 - 698.399] filings from the SEC that is a source of
+
+[696.899 - 701.16] truth that is what I mean by a source of
+
+[698.399 - 703.5] truth if you're trying to keep time nist
+
+[701.16 - 705.48] is the is the source of Truth for the
+
+[703.5 - 706.86] current time but why because they sync
+
+[705.48 - 708.839] their clocks to all the nuclear clocks
+
+[706.86 - 710.399] around the world so by identifying
+
+[708.839 - 712.86] sources of Truth for each information
+
+[710.399 - 715.56] piece of information you can establish
+
+[712.86 - 718.38] layers of truthfulness and reliability
+
+[715.56 - 720.42] and validity and you can also establish
+
+[718.38 - 722.399] some internal sources of Truth so say
+
+[720.42 - 724.74] for instance you have like a master KB
+
+[722.399 - 727.019] article or a set of documents that is
+
+[724.74 - 729.24] well curated and you say if there's ever
+
+[727.019 - 731.339] any disagreement default to this it's
+
+[729.24 - 734.4590000000001] like having a constitution right
+
+[731.339 - 737.0400000000001] this is how America makes uh judicial
+
+[734.459 - 738.7199999999999] decisions is that the constitution is
+
+[737.04 - 740.64] held up as the ultimate source of Truth
+
+[738.72 - 743.64] and then there's layers of truthiness
+
+[740.64 - 746.04] below the US Constitution
+
+[743.64 - 747.959] um axiomatic principles so axiomatic
+
+[746.04 - 749.8199999999999] principles are the uh are the core
+
+[747.959 - 751.68] assertions the first the first uh
+
+[749.82 - 754.2] principles or the fundamental
+
+[751.68 - 755.76] assumptions that you're making
+
+[754.2 - 757.5] um when you're doing a particular
+
+[755.76 - 760.019] business task or working with certain
+
+[757.5 - 761.76] information and so one thing that I
+
+[760.019 - 763.86] recommend people doing is any
+
+[761.76 - 766.3199999999999] assumptions that you're making say them
+
+[763.86 - 770.22] out loud tell the tell the model that
+
+[766.32 - 772.019] like hey assume that X is true or assume
+
+[770.22 - 773.94] that this is the the ethical framework
+
+[772.019 - 776.4590000000001] that we're using when we're making this
+
+[773.94 - 777.899] decision or um you know one of the
+
+[776.459 - 780.18] things that we're operating on is like
+
+[777.899 - 782.22] this model of SEO because if you just
+
+[780.18 - 784.4399999999999] say like write an optimized web page
+
+[782.22 - 786.899] it'll it'll do its best but then if you
+
+[784.44 - 790.019] say write an SEO optimized web page
+
+[786.899 - 792.54] according to this Theory right by by
+
+[790.019 - 794.279] giving the model axiomatic principles
+
+[792.54 - 797.3389999999999] you're going to get much better results
+
+[794.279 - 799.92] that are adherent to specific paradigms
+
+[797.339 - 802.0790000000001] schools of thought that sort of thing
+
+[799.92 - 805.139] and this applies to whatever business
+
+[802.079 - 806.8199999999999] domain you're in whether you're doing uh
+
+[805.139 - 808.139] copywriting whether you're doing
+
+[806.82 - 809.94] hospitals
+
+[808.139 - 811.0790000000001] whether you're and also which country
+
+[809.94 - 812.8800000000001] you're in
+
+[811.079 - 815.3389999999999] um so different countries have different
+
+[812.88 - 817.4399999999999] uh regulations and so if you say adhere
+
+[815.339 - 819.3000000000001] to like you know the cultural norms of
+
+[817.44 - 820.98] Sweden these are the you know these are
+
+[819.3 - 822.779] the cultural axiomatic beliefs that
+
+[820.98 - 826.019] we're operating by when you interact
+
+[822.779 - 829.32] with your users or whatever uh okay so
+
+[826.019 - 831.0] next data taxonomy so taxonomy the the
+
+[829.32 - 833.7600000000001] most familiar taxonomy that people are
+
+[831.0 - 836.279] familiar with is the uh is the the
+
+[833.76 - 838.3199999999999] taxonomy of life right so you've got you
+
+[836.279 - 839.9399999999999] know the the five kingdoms of life and
+
+[838.32 - 842.4590000000001] then you've got various file and Order
+
+[839.94 - 844.74] below that and so what you can do is you
+
+[842.459 - 846.3599999999999] can create data taxonomies that are very
+
+[844.74 - 848.399] similar where you've got you know
+
+[846.36 - 850.5600000000001] basically nested categories where like
+
+[848.399 - 852.54] at the highest level of your AI
+
+[850.56 - 854.88] infrastructure or data infrastructure
+
+[852.54 - 857.579] you've got like is this a financial
+
+[854.88 - 861.779] record is this an employee record or
+
+[857.579 - 863.579] whatever uh you can generally follow uh
+
+[861.779 - 866.1] kind of the Departments because each
+
+[863.579 - 869.76] department is can be considered a data
+
+[866.1 - 872.4590000000001] domain or a domain of expertise and then
+
+[869.76 - 875.7] of course each department may be further
+
+[872.459 - 877.56] subdivided and this is not necessarily
+
+[875.7 - 880.139] I'm not saying like put it in a file
+
+[877.56 - 882.66] system this is really good for metadata
+
+[880.139 - 884.82] and if you have a standardized taxonomy
+
+[882.66 - 887.1] that you can use across your entire
+
+[884.82 - 888.1800000000001] organization this is a non-trivial
+
+[887.1 - 890.22] problem
+
+[888.18 - 892.38] but imagine how
+
+[890.22 - 894.839] um Linnaeus felt when he was trying to
+
+[892.38 - 897.48] create a taxonomy for literally all life
+
+[894.839 - 899.1] on Earth if you treat your business's
+
+[897.48 - 901.86] data and you say we're going to come up
+
+[899.1 - 903.4200000000001] with a singular taxonomy for literally
+
+[901.86 - 905.639] every piece of data in our company
+
+[903.42 - 908.16] that's going to really increase the
+
+[905.639 - 910.0790000000001] search ability in the future which is
+
+[908.16 - 913.3389999999999] going to make it much more accessible to
+
+[910.079 - 913.3389999999999] all of your AI technology
+
+[913.38 - 917.82] a classification system so a
+
+[915.72 - 920.5790000000001] classification system is very similar to
+
+[917.82 - 922.1990000000001] a taxonomy and so the the two most
+
+[920.579 - 923.16] familiar classification systems that
+
+[922.199 - 925.199] you're going to be familiar with in
+
+[923.16 - 926.88] terms of information are going to be the
+
+[925.199 - 929.399] Dewey Decimal System
+
+[926.88 - 931.8] which is a way of just rapidly bucketing
+
+[929.399 - 933.18] hey this piece of information here's a
+
+[931.8 - 934.92] number that just kind of gives it a
+
+[933.18 - 936.2399999999999] rapid category the other one that's a
+
+[934.92 - 938.399] little bit more comprehensive is the
+
+[936.24 - 940.44] Library of Congress which is also which
+
+[938.399 - 944.76] is a more taxonomical system because it
+
+[940.44 - 947.5790000000001] has some some nested hierarchies now the
+
+[944.76 - 949.9399999999999] advantages here is that this allows you
+
+[947.579 - 952.8599999999999] to address novel pieces of information
+
+[949.94 - 955.5600000000001] so whether you have a very rigid
+
+[952.86 - 956.94] taxonomy uh in which like you're saying
+
+[955.56 - 959.16] like hey this is the structure in which
+
+[956.94 - 961.3800000000001] we put we we slot literally everything
+
+[959.16 - 963.18] in our business or you have a more
+
+[961.38 - 966.24] general purpose classification system
+
+[963.18 - 967.68] that says hey given the context of this
+
+[966.24 - 969.779] piece of information where it came from
+
+[967.68 - 972.18] what it's for this is its classification
+
+[969.779 - 974.639] again you can use both of these in your
+
+[972.18 - 977.6389999999999] metadata which is going to add more
+
+[974.639 - 981.899] layers of how do you use this
+
+[977.639 - 983.519] data curation so uh one thing that a lot
+
+[981.899 - 986.459] of people have asked me about is like
+
+[983.519 - 988.74] Version Control and so uh having married
+
+[986.459 - 991.199] a librarian and talking about uh like
+
+[988.74 - 993.54] archival studies and reference
+
+[991.199 - 994.8] librarianship and all that for kind of
+
+[993.54 - 996.5999999999999] fun stuff
+
+[994.8 - 998.459] um I know and what you were probably
+
+[996.6 - 1001.0400000000001] discovering is the data curation is a
+
+[998.459 - 1003.0189999999999] non-trivial task uh data gets updated
+
+[1001.04 - 1005.06] over time it gets invalidated it comes
+
+[1003.019 - 1007.519] from different sources and so this is
+
+[1005.06 - 1009.38] why I talk so much about librarianship
+
+[1007.519 - 1012.079] is because you basically have to have
+
+[1009.38 - 1013.88] your master collection and you know you
+
+[1012.079 - 1015.7399999999999] you might keep the older books or the
+
+[1013.88 - 1017.48] older documents that are out of date but
+
+[1015.74 - 1019.94] then you need metadata to say hey this
+
+[1017.48 - 1022.4590000000001] is out of date this has expired if you
+
+[1019.94 - 1024.26] use servicenow servicenow actually has
+
+[1022.459 - 1026.24] settings where you can have KB articles
+
+[1024.26 - 1027.8799999999999] automatically expire it's one of the
+
+[1026.24 - 1030.199] most annoying things
+
+[1027.88 - 1031.699] for people who have like no this is a
+
+[1030.199 - 1033.919] permanent KB article and then it like
+
+[1031.699 - 1036.439] automatically archives it but the idea
+
+[1033.919 - 1039.0200000000002] is that data and information has an
+
+[1036.439 - 1040.22] expiration date or it might have an
+
+[1039.02 - 1042.1399999999999] expiration date and you need to be
+
+[1040.22 - 1043.819] explicit about this
+
+[1042.14 - 1046.3390000000002] um and so this is what I mean by data
+
+[1043.819 - 1048.9189999999999] curation and so by by constantly
+
+[1046.339 - 1051.08] updating your collection updating the
+
+[1048.919 - 1053.179] tags updating the metadata updating the
+
+[1051.08 - 1055.46] expiration dates this is get these are
+
+[1053.179 - 1058.7] all going to be clues that allow you to
+
+[1055.46 - 1060.74] sift through and say okay well if we
+
+[1058.7 - 1063.32] have two otherwise identical articles
+
+[1060.74 - 1065.299] trust the more recent one or if we have
+
+[1063.32 - 1067.46] two you know like relatively identical
+
+[1065.299 - 1071.179] articles trust the one that came from
+
+[1067.46 - 1074.1200000000001] the the more trusted source of Truth
+
+[1071.179 - 1076.76] ETL so ETL stands for extract transform
+
+[1074.12 - 1079.1599999999999] and load this is a this is a data
+
+[1076.76 - 1081.14] warehousing where it basically
+
+[1079.16 - 1083.419] um this is this is how you move data
+
+[1081.14 - 1085.46] around the data warehouse which is why I
+
+[1083.419 - 1087.6200000000001] imagine this nice futuristic data
+
+[1085.46 - 1090.38] warehouse with heavy equipment moving
+
+[1087.62 - 1093.9189999999999] data around uh and so
+
+[1090.38 - 1095.48] ETL is an existing practice that your
+
+[1093.919 - 1098.48] data people are going to be familiar
+
+[1095.48 - 1100.4] with and now generative AI is just going
+
+[1098.48 - 1102.44] to be a new tool for them to move data
+
+[1100.4 - 1103.88] around their data warehouses it's going
+
+[1102.44 - 1106.22] to give them more options in terms of
+
+[1103.88 - 1108.14] transformations of the data it's going
+
+[1106.22 - 1110.66] to give them more options in terms of
+
+[1108.14 - 1112.88] validating the data automating the data
+
+[1110.66 - 1114.2] processing and that sort of thing so
+
+[1112.88 - 1116.3600000000001] again this is an established business
+
+[1114.2 - 1119.059] practice that you can just research and
+
+[1116.36 - 1122.059] say oh generative AI is just a new tool
+
+[1119.059 - 1123.799] in this bucket and it's an existing uh
+
+[1122.059 - 1126.26] discipline
+
+[1123.799 - 1128.059] and then finally information foraging so
+
+[1126.26 - 1131.48] this one comes from information science
+
+[1128.059 - 1132.98] uh so information foraging everyone if
+
+[1131.48 - 1134.419] you exist today you know what
+
+[1132.98 - 1136.7] information foraging is you might not
+
+[1134.419 - 1138.44] have the um the word for it so
+
+[1136.7 - 1140.6000000000001] information foraging is when you go out
+
+[1138.44 - 1142.22] into an information environment looking
+
+[1140.6 - 1144.1399999999999] for information and you're not exactly
+
+[1142.22 - 1145.94] sure what you're looking for but you
+
+[1144.14 - 1147.44] have an information need and you're
+
+[1145.94 - 1150.14] trying to solve that information need
+
+[1147.44 - 1152.419] and so then you go to your favorite
+
+[1150.14 - 1155.0] favorite hunting grounds whether it's
+
+[1152.419 - 1157.5200000000002] Google or YouTube or you know you've got
+
+[1155.0 - 1160.039] a a Discord or slack channel that you go
+
+[1157.52 - 1161.6] ask questions and so then information
+
+[1160.039 - 1163.64] foraging is something that you're
+
+[1161.6 - 1165.9189999999999] actually going to have to automate and
+
+[1163.64 - 1167.419] enable your autonomous agents your chat
+
+[1165.919 - 1169.8200000000002] Bots and your other generative AI
+
+[1167.419 - 1172.039] cognitive architectures to be able to
+
+[1169.82 - 1173.059] engage in information foraging because
+
+[1172.039 - 1174.44] they're going to have an information
+
+[1173.059 - 1176.539] need
+
+[1174.44 - 1179.059] um you know in order to serve a user
+
+[1176.539 - 1180.62] query or whatever and so then it's like
+
+[1179.059 - 1181.52] okay well where do they go looking for
+
+[1180.62 - 1183.86] that information
+
+[1181.52 - 1186.2] is the information spoon fed to them by
+
+[1183.86 - 1188.36] automatic search queries does the agent
+
+[1186.2 - 1190.16] have a model where it's able to say hey
+
+[1188.36 - 1193.1] I need this kind of information where
+
+[1190.16 - 1195.3400000000001] can I go find it that sort of thing
+
+[1193.1 - 1198.4399999999998] okay so I just threw a whole lot of
+
+[1195.34 - 1199.6399999999999] complex Concepts at you it's like
+
+[1198.44 - 1200.66] drinking from a fire hose you're
+
+[1199.64 - 1202.1000000000001] probably going to need to watch this
+
+[1200.66 - 1204.44] several times or go check out the slide
+
+[1202.1 - 1206.539] deck and do a lot of googling now let's
+
+[1204.44 - 1209.0] get to the Practical implementation
+
+[1206.539 - 1211.52] all right so the the number one thing
+
+[1209.0 - 1214.46] absolutely that I recommend to literally
+
+[1211.52 - 1215.96] every customer is start with a data
+
+[1214.46 - 1218.299] Centric model
+
+[1215.96 - 1221.179] um so this is based on the Von Neumann
+
+[1218.299 - 1223.4] architecture of computing where uh
+
+[1221.179 - 1226.76] Computing happens in memory and then the
+
+[1223.4 - 1229.46] memory is uh operated on by computation
+
+[1226.76 - 1231.919] but really the the the center of it is
+
+[1229.46 - 1235.7] your data it is your information treat
+
+[1231.919 - 1238.2800000000002] all of your business processes and tasks
+
+[1235.7 - 1239.96] as fundamentally as information problems
+
+[1238.28 - 1242.36] so basically you have information
+
+[1239.96 - 1244.16] flowing into your organization or
+
+[1242.36 - 1245.539] circulating around your organization and
+
+[1244.16 - 1248.72] then flowing out of your organization
+
+[1245.539 - 1250.16] and that information can be any kind of
+
+[1248.72 - 1252.559] information it can be a bill that needs
+
+[1250.16 - 1255.14] to be paid it can be a customer query it
+
+[1252.559 - 1257.1789999999999] can be regulatory requirements literally
+
+[1255.14 - 1258.919] everything you do is fundamentally an
+
+[1257.179 - 1261.26] information problem and there are
+
+[1258.919 - 1263.24] information needs and I apologize I
+
+[1261.26 - 1265.28] meant to add information needs as one of
+
+[1263.24 - 1267.2] the concepts so let me do that real
+
+[1265.28 - 1269.6] quick I've said information needs a few
+
+[1267.2 - 1272.66] times so information needs comes from
+
+[1269.6 - 1275.299] the world of librarianship where anytime
+
+[1272.66 - 1277.1000000000001] a patron walks into a library the reason
+
+[1275.299 - 1279.08] that they walk into the library and go
+
+[1277.1 - 1281.299] to the circulation desk is because they
+
+[1279.08 - 1282.98] have an information need now that
+
+[1281.299 - 1285.02] information you talk to a librarian they
+
+[1282.98 - 1287.0] have the most hilarious stories those
+
+[1285.02 - 1289.039] information needs could be anything from
+
+[1287.0 - 1291.08] there's a snake in the lobby what do I
+
+[1289.039 - 1293.539] do about it to there's a three-year-old
+
+[1291.08 - 1295.9399999999998] throwing up in the kids section to I'm
+
+[1293.539 - 1298.7] looking for a book on like you know
+
+[1295.94 - 1300.98] penis enhancement or whatever Librarians
+
+[1298.7 - 1303.98] get the weirdest thing so they they you
+
+[1300.98 - 1305.9] uh a client or a customer or Patron
+
+[1303.98 - 1307.94] comes to you with an information need
+
+[1305.9 - 1309.8600000000001] and then there is a process to one
+
+[1307.94 - 1312.14] figure out what that information need
+
+[1309.86 - 1314.84] truly is and then serve that information
+
+[1312.14 - 1316.94] need so by treating literally everything
+
+[1314.84 - 1319.1589999999999] that happens in your company as an
+
+[1316.94 - 1321.26] information need you're going to really
+
+[1319.159 - 1323.0590000000002] change your orientation to it because
+
+[1321.26 - 1325.4] then what is the outcome also the
+
+[1323.059 - 1327.6789999999999] outcome if you use the librarianship
+
+[1325.4 - 1329.0590000000002] model is very clear the patron walks
+
+[1327.679 - 1330.74] away with the piece of information that
+
+[1329.059 - 1333.08] they need the book that they need or
+
+[1330.74 - 1334.159] their problem is solved that kind of
+
+[1333.08 - 1336.5] thing
+
+[1334.159 - 1338.0590000000002] um so that's that's number one of the
+
+[1336.5 - 1339.919] data Centric model number two
+
+[1338.059 - 1342.5] information thy God
+
+[1339.919 - 1344.96] um in in uh the fiction space for us
+
+[1342.5 - 1347.72] novel writers we have this phrase that
+
+[1344.96 - 1349.52] says um thy God the reader which is
+
+[1347.72 - 1351.799] basically we might be writing for
+
+[1349.52 - 1353.36] ourself but it's ultimately the reader
+
+[1351.799 - 1355.82] that's going to decide what it is that
+
+[1353.36 - 1358.039] we write and do and what succeeds and in
+
+[1355.82 - 1360.1399999999999] this case information and data that is
+
+[1358.039 - 1361.52] your God because everything in your
+
+[1360.14 - 1364.88] business is an information problem
+
+[1361.52 - 1366.98] information is the actual thing that you
+
+[1364.88 - 1368.6000000000001] are serving in order to provide the
+
+[1366.98 - 1371.059] goods and services that make your
+
+[1368.6 - 1372.9189999999999] company viable so goods and services are
+
+[1371.059 - 1374.48] the the output that's the economic
+
+[1372.919 - 1376.64] interface between your company and the
+
+[1374.48 - 1379.22] world but information is how you do that
+
+[1376.64 - 1380.72] and information is how you do that well
+
+[1379.22 - 1383.1200000000001] um so another way to think about this is
+
+[1380.72 - 1386.48] data is the new oil so information I got
+
+[1383.12 - 1389.2399999999998] data is the new oil by adopting a data
+
+[1386.48 - 1392.9] Centric approach to literally every
+
+[1389.24 - 1394.76] um good service process protocol task
+
+[1392.9 - 1398.24] um you'll have a better understanding of
+
+[1394.76 - 1400.28] how uh generative AI can intersect and
+
+[1398.24 - 1401.659] augment your business and then finally
+
+[1400.28 - 1402.98] this is just a really kind of
+
+[1401.659 - 1404.6000000000001] boilerplate
+
+[1402.98 - 1406.159] um way to think about what generative AI
+
+[1404.6 - 1408.5] can do and this these are the types of
+
+[1406.159 - 1410.419] Transformations that generative AI can
+
+[1408.5 - 1412.52] do so there's three fundamental types
+
+[1410.419 - 1414.679] and the way that you can categorize it
+
+[1412.52 - 1417.3799999999999] is what is what is the size of the input
+
+[1414.679 - 1419.1200000000001] versus the size of the output so there's
+
+[1417.38 - 1421.3400000000001] shrinking operations or shrinking
+
+[1419.12 - 1423.62] Transformations which is summarization
+
+[1421.34 - 1425.78] extraction and classification so you put
+
+[1423.62 - 1428.1789999999999] in a big chunk of text and you get out a
+
+[1425.78 - 1430.3999999999999] small chunk of text that is that
+
+[1428.179 - 1432.799] the second type is translation or Tran
+
+[1430.4 - 1434.6000000000001] or other transformation where this the
+
+[1432.799 - 1436.4] the input size and the output size is
+
+[1434.6 - 1438.5] roughly the same
+
+[1436.4 - 1440.539] um and so in this case this might be a
+
+[1438.5 - 1442.46] format change it might be changing to
+
+[1440.539 - 1444.559] another language so for instance you
+
+[1442.46 - 1447.02] might translate from like XML to Json
+
+[1444.559 - 1448.34] that's a translation example you might
+
+[1447.02 - 1450.679] translate it from English to Japanese
+
+[1448.34 - 1453.1399999999999] that's a translation example another
+
+[1450.679 - 1455.1200000000001] example from for a shrinking thing is
+
+[1453.14 - 1457.94] evaluation and so I forget to I forgot
+
+[1455.12 - 1460.58] to add that but a shrinking operation is
+
+[1457.94 - 1462.8600000000001] I use this extensively in using Claude
+
+[1460.58 - 1464.6589999999999] and chat GPT to provide feedback so
+
+[1462.86 - 1466.2199999999998] feedback and critique is another example
+
+[1464.659 - 1468.44] of a shrinking transformation where it's
+
+[1466.22 - 1470.419] like assess the quality of this thing
+
+[1468.44 - 1472.52] give me critique and so the output is
+
+[1470.419 - 1474.919] smaller than the input and then finally
+
+[1472.52 - 1477.08] expanding the input is smaller than the
+
+[1474.919 - 1479.3200000000002] output and so this is stuff like
+
+[1477.08 - 1483.1399999999999] brainstorming synthesizing drafting
+
+[1479.32 - 1486.5] being creative uh you know drafting Pros
+
+[1483.14 - 1489.14] which Claude can do that sometimes but I
+
+[1486.5 - 1490.34] but I tell it not to because it's really
+
+[1489.14 - 1493.1000000000001] hot on the biscuit to just draft
+
+[1490.34 - 1495.799] whatever it wants and it is not good
+
+[1493.1 - 1497.78] um often but you can draft legal
+
+[1495.799 - 1499.76] documentation you can draft KB articles
+
+[1497.78 - 1502.1589999999999] so by understanding that you have these
+
+[1499.76 - 1503.9] three fundamental types of data
+
+[1502.159 - 1505.8200000000002] Transformations that is available to you
+
+[1503.9 - 1507.3200000000002] through generative AI then you can
+
+[1505.82 - 1510.2] sub-categorize okay what other
+
+[1507.32 - 1512.6589999999999] operations do we have access to maybe
+
+[1510.2 - 1514.7] I'll do a video on on all the different
+
+[1512.659 - 1517.22] kinds of operations and I'll create my
+
+[1514.7 - 1518.8400000000001] own generative AI data transformation
+
+[1517.22 - 1522.14] taxonomy
+
+[1518.84 - 1524.36] okay search strategies so there are four
+
+[1522.14 - 1526.46] fundamental search strategies that are
+
+[1524.36 - 1529.2199999999998] available to you today with generative
+
+[1526.46 - 1531.98] AI and so basically as I mentioned just
+
+[1529.22 - 1534.14] a minute ago you have information needs
+
+[1531.98 - 1535.88] as a person as a business your chat Bots
+
+[1534.14 - 1537.8600000000001] have information needs your users have
+
+[1535.88 - 1538.94] information needs everyone has user
+
+[1537.86 - 1541.52] information needs and we talked about
+
+[1538.94 - 1543.2] information foraging so these are the
+
+[1541.52 - 1544.7] the actual strategies the techniques
+
+[1543.2 - 1547.1000000000001] that you can use to approach your
+
+[1544.7 - 1548.539] information foraging problems now the
+
+[1547.1 - 1549.9189999999999] first one obviously is Vector search
+
+[1548.539 - 1551.6589999999999] you're probably watching this video
+
+[1549.919 - 1553.94] because you realize that Vector search
+
+[1551.659 - 1556.0390000000002] is not cutting the Mustard anymore
+
+[1553.94 - 1558.14] so there's a few primary things that
+
+[1556.039 - 1560.24] people don't understand about Vector
+
+[1558.14 - 1563.659] search Vector search is not like Google
+
+[1560.24 - 1566.059] and it is not like SQL where Vector
+
+[1563.659 - 1569.2990000000002] search people try and treat it like
+
+[1566.059 - 1572.4189999999999] query document so where you have like in
+
+[1569.299 - 1573.679] SQL you might have a a specific you know
+
+[1572.419 - 1576.38] structured query like find everything
+
+[1573.679 - 1578.779] that includes X Y and Z with you know a
+
+[1576.38 - 1580.64] b and c criteria for Google you're kind
+
+[1578.779 - 1582.919] of matching you know keywords to a
+
+[1580.64 - 1585.679] document but really what Vector search
+
+[1582.919 - 1588.3200000000002] really shines for is clustering similar
+
+[1585.679 - 1591.14] documents and so what I mean by that is
+
+[1588.32 - 1593.4189999999999] that uh in order like here's here's a
+
+[1591.14 - 1595.64] perfect example documents with similar
+
+[1593.419 - 1598.159] formats and similar contexts are going
+
+[1595.64 - 1601.76] to be the best thing to kind of cluster
+
+[1598.159 - 1603.94] and use so take imagine that you're a
+
+[1601.76 - 1606.98] scientist and you're looking for like
+
+[1603.94 - 1609.02] every paper that is similar to a paper
+
+[1606.98 - 1611.059] you're looking at so for literature
+
+[1609.02 - 1612.86] review you say hey give me every paper
+
+[1611.059 - 1615.799] like this one so you feed them you feed
+
+[1612.86 - 1617.7199999999998] the vector search an entire paper of you
+
+[1615.799 - 1619.279] know you vectorize an entire paper and
+
+[1617.72 - 1621.98] then it's going to find everything that
+
+[1619.279 - 1624.14] is semantically similar to that paper
+
+[1621.98 - 1625.76] um and it's going to be perfect so that
+
+[1624.14 - 1627.0800000000002] is one of the primary things that Vector
+
+[1625.76 - 1629.36] search that people get wrong about
+
+[1627.08 - 1631.76] Vector search yes there are vectors and
+
+[1629.36 - 1635.12] embeddings that are made for for a query
+
+[1631.76 - 1636.799] document matching but those are not good
+
+[1635.12 - 1639.08] um they might get good in the future but
+
+[1636.799 - 1641.059] that but from a mathematical perspective
+
+[1639.08 - 1642.74] that is not what Vector searching is for
+
+[1641.059 - 1644.96] Vector searching is more for clustering
+
+[1642.74 - 1647.36] similar things together you might do the
+
+[1644.96 - 1649.64] same thing for KB articles so imagine
+
+[1647.36 - 1651.9189999999999] that like you know you have an internal
+
+[1649.64 - 1653.6000000000001] KB system and you bring up a KB article
+
+[1651.919 - 1655.7] and then at the end it's like here's the
+
+[1653.6 - 1657.98] five most similar KB articles and so
+
+[1655.7 - 1660.38] rather than than clustering similar KBS
+
+[1657.98 - 1662.84] or similar scientific papers or other
+
+[1660.38 - 1664.5800000000002] documentation on keywords or other
+
+[1662.84 - 1667.34] things you can cluster them based on
+
+[1664.58 - 1669.62] what's actually written on the page this
+
+[1667.34 - 1672.559] can also be useful for things like
+
+[1669.62 - 1673.6999999999998] fictional documents so some people keep
+
+[1672.559 - 1675.6789999999999] you know
+
+[1673.7 - 1677.659] piles and piles and piles of fictional
+
+[1675.679 - 1680.0590000000002] documents together and so then it's like
+
+[1677.659 - 1682.159] hey you know I've got this this
+
+[1680.059 - 1683.6] character sheet and this chapter you
+
+[1682.159 - 1685.88] know find find all the other chapters
+
+[1683.6 - 1686.539] like this other chapter uh that sort of
+
+[1685.88 - 1688.8200000000002] thing
+
+[1686.539 - 1690.26] number two is knowledge graphs so
+
+[1688.82 - 1692.779] knowledge graphs are kind of a hybrid
+
+[1690.26 - 1694.82] between relational databases and some of
+
+[1692.779 - 1696.08] these these squishier more web-like
+
+[1694.82 - 1697.76] things
+
+[1696.08 - 1699.74] um the the if you're not familiar with
+
+[1697.76 - 1701.48] knowledge wraps probably the easiest way
+
+[1699.74 - 1703.76] to think about a knowledge graph is
+
+[1701.48 - 1706.1] think of a Wikipedia page where
+
+[1703.76 - 1707.72] Wikipedia has references and crosslinks
+
+[1706.1 - 1709.3999999999999] to other pages and each of those
+
+[1707.72 - 1712.7] crosslinks has a semantic meaning
+
+[1709.4 - 1714.98] there's a reason that you know that the
+
+[1712.7 - 1717.32] Eiffel Tower page is linked to the Paris
+
+[1714.98 - 1719.6] France page and so that is what I mean
+
+[1717.32 - 1721.96] by knowledge graphs so like a knowledge
+
+[1719.6 - 1724.6999999999998] graph is just basically the web
+
+[1721.96 - 1726.74] with a with a little bit more like you
+
+[1724.7 - 1728.9] know whatever anyways you can use
+
+[1726.74 - 1730.88] language technology to create Traverse
+
+[1728.9 - 1731.9] and reach knowledge graphs I know that
+
+[1730.88 - 1733.3400000000001] there's going to be some purists out
+
+[1731.9 - 1735.26] there saying that that's not what it is
+
+[1733.34 - 1737.299] at all but from a functional standpoint
+
+[1735.26 - 1739.64] a knowledge graph is just a web of
+
+[1737.299 - 1741.08] content number three is metadata
+
+[1739.64 - 1743.8400000000001] filtering so most Vector search
+
+[1741.08 - 1746.48] databases have uh the ability to filter
+
+[1743.84 - 1748.9399999999998] based on metadata and certainly you know
+
+[1746.48 - 1750.74] a relational databases do as well and so
+
+[1748.94 - 1754.88] this is why I talked so much about
+
+[1750.74 - 1756.74] metadata and data curation is because if
+
+[1754.88 - 1759.44] you have you know Vector search
+
+[1756.74 - 1761.0] Collections and you're you're surfacing
+
+[1759.44 - 1763.279] things that are not necessarily relevant
+
+[1761.0 - 1764.84] it's because you're searching documents
+
+[1763.279 - 1766.58] you're you're surfacing documents that
+
+[1764.84 - 1768.4399999999998] are very similar to what your search
+
+[1766.58 - 1769.76] query is but they're not necessarily
+
+[1768.44 - 1771.799] relevant because you don't have the
+
+[1769.76 - 1773.539] correct ontologies or taxonomy or
+
+[1771.799 - 1776.36] classification system where it's like
+
+[1773.539 - 1779.539] okay do you know do a search with this
+
+[1776.36 - 1781.82] Vector but I only want you know this
+
+[1779.539 - 1784.279] particular type of data this particular
+
+[1781.82 - 1786.5] category and then finally number four is
+
+[1784.279 - 1788.539] indexes or a table of contents so this
+
+[1786.5 - 1790.7] is something that as far as I know I
+
+[1788.539 - 1792.86] pioneered in some of my coding
+
+[1790.7 - 1795.679] experiments but basically you you
+
+[1792.86 - 1797.9599999999998] generate a table of contents or a menu
+
+[1795.679 - 1800.299] that your that your language model can
+
+[1797.96 - 1802.3990000000001] choose from and it says oh I need you
+
+[1800.299 - 1804.32] know this KB article and then it you
+
+[1802.399 - 1806.4189999999999] know it can request and fetch that
+
+[1804.32 - 1807.98] specific KB article where basically
+
+[1806.419 - 1810.14] you're kind of cutting out the middleman
+
+[1807.98 - 1812.539] instead of having semantic search you're
+
+[1810.14 - 1814.46] saying hey read this read this document
+
+[1812.539 - 1816.559] read this menu read this table of
+
+[1814.46 - 1818.299] contents tell me which information you
+
+[1816.559 - 1820.1] need I'll go get it and then you can
+
+[1818.299 - 1822.32] have like nested layers of tables of
+
+[1820.1 - 1823.82] contents and whatever this may or may
+
+[1822.32 - 1825.2] not pan out as useful but in the
+
+[1823.82 - 1828.1399999999999] experiments that I've done with it it's
+
+[1825.2 - 1829.3400000000001] been extremely useful because then with
+
+[1828.14 - 1832.3990000000001] the given context of whatever
+
+[1829.34 - 1835.52] information problem your language model
+
+[1832.399 - 1837.9799999999998] is facing it will be able to say this is
+
+[1835.52 - 1840.02] probably what I need access to
+
+[1837.98 - 1842.8990000000001] uh the next thing for practical
+
+[1840.02 - 1845.0] implementation is a gated process so
+
+[1842.899 - 1847.399] there's many things that you can do in
+
+[1845.0 - 1848.72] one step and of course like if you ask
+
+[1847.399 - 1850.8799999999999] the machine learning engineers and
+
+[1848.72 - 1852.98] scientists the AI is going to be able to
+
+[1850.88 - 1855.679] do everything in one step one day but uh
+
+[1852.98 - 1857.8990000000001] from a business perspective first just
+
+[1855.679 - 1859.46] know and even from a biological
+
+[1857.899 - 1862.1589999999999] perspective that's not how human brains
+
+[1859.46 - 1863.6000000000001] work we all have internal workflows and
+
+[1862.159 - 1865.7] processes even if you're not fully
+
+[1863.6 - 1867.559] conscious of them and so there's three
+
+[1865.7 - 1870.38] primary steps that you can think of for
+
+[1867.559 - 1873.08] addressing any information need first is
+
+[1870.38 - 1875.0590000000002] the uh is the information query so in
+
+[1873.08 - 1876.4399999999998] that example that I gave you for uh
+
+[1875.059 - 1878.1789999999999] someone approaching the circulation desk
+
+[1876.44 - 1879.3200000000002] at a library
+
+[1878.179 - 1881.659] um there's What's called the reference
+
+[1879.32 - 1884.539] interview which Librarians use to figure
+
+[1881.659 - 1886.7600000000002] out what uh what the what the patron
+
+[1884.539 - 1888.3799999999999] needs so like what is your question what
+
+[1886.76 - 1890.12] what is the context behind your question
+
+[1888.38 - 1892.3400000000001] what is what is the outcome you're
+
+[1890.12 - 1893.36] looking for is it a valid request right
+
+[1892.34 - 1896.0] because if you walk up to the
+
+[1893.36 - 1897.62] circulation desk and you say like hey
+
+[1896.0 - 1899.539] like you know something's happening on
+
+[1897.62 - 1901.2199999999998] the other side of the city the librarian
+
+[1899.539 - 1902.779] might be like okay that sounds important
+
+[1901.22 - 1905.179] but I can't help you
+
+[1902.779 - 1907.22] um so number one is the first gate is
+
+[1905.179 - 1909.5] the information query you you judge the
+
+[1907.22 - 1910.76] valid the the validity of it is it an
+
+[1909.5 - 1913.58] appropriate question is it information
+
+[1910.76 - 1916.1589999999999] that we can actually serve or not
+
+[1913.58 - 1918.62] number two is distill extract and
+
+[1916.159 - 1920.5390000000002] utilize so this is imagine when you go
+
+[1918.62 - 1921.86] get a stack of books the library you
+
+[1920.539 - 1923.0] know you've talked to the librarian
+
+[1921.86 - 1925.399] you've got a legitimate information
+
+[1923.0 - 1927.62] query and then you go get a stack of
+
+[1925.399 - 1928.8799999999999] books so then what you do is you take a
+
+[1927.62 - 1930.799] dozen books and you flip through them
+
+[1928.88 - 1933.0200000000002] and you take notes you copy the pages
+
+[1930.799 - 1935.299] that you need and you compile the most
+
+[1933.02 - 1937.8799999999999] Salient bits of information so that now
+
+[1935.299 - 1939.32] you have uh you've you've Consolidated
+
+[1937.88 - 1940.88] the information that you need to
+
+[1939.32 - 1942.86] actually solve your information problem
+
+[1940.88 - 1945.0800000000002] and then finally format and deliver
+
+[1942.86 - 1947.36] let's let's imagine that you went to the
+
+[1945.08 - 1950.059] library to help you with
+
+[1947.36 - 1951.74] um filing building plans for a new house
+
+[1950.059 - 1953.96] right so
+
+[1951.74 - 1955.58] while you're at the library you got all
+
+[1953.96 - 1957.2] the code books you got all the
+
+[1955.58 - 1959.24] architectural diagrams you got it all
+
+[1957.2 - 1960.799] copied now what you do is you package it
+
+[1959.24 - 1962.059] up and send it out to the architect or
+
+[1960.799 - 1964.1] you send it out
+
+[1962.059 - 1966.32] um to the inspector or whatever so
+
+[1964.1 - 1968.48] that's what I mean by inspect or sorry
+
+[1966.32 - 1970.82] the query to still extract utilize and
+
+[1968.48 - 1972.799] then format and deliver by using a gated
+
+[1970.82 - 1975.2] process with with uh you know
+
+[1972.799 - 1977.4189999999999] checkpoints decision points workflows
+
+[1975.2 - 1979.52] but by by treating them as as
+
+[1977.419 - 1981.5590000000002] fundamentally different phases and
+
+[1979.52 - 1984.62] handoff processes you're going to have a
+
+[1981.559 - 1986.6] lot more better uh results with your
+
+[1984.62 - 1989.3799999999999] Automation and then finally assembly
+
+[1986.6 - 1992.48] lines look at all of your business
+
+[1989.38 - 1994.8200000000002] whether it's internal or external
+
+[1992.48 - 1998.3600000000001] whether it's customer facing or not
+
+[1994.82 - 2000.519] everything that you do is work tasks and
+
+[1998.36 - 2002.1999999999998] work products moving through an assembly
+
+[2000.519 - 2004.24] line now it's a digital assembly line
+
+[2002.2 - 2006.7] sometimes it's a verbal assembly line
+
+[2004.24 - 2008.98] but if you if you look at your business
+
+[2006.7 - 2010.779] as a collection of assembly lines you're
+
+[2008.98 - 2013.299] going to have a much better way of
+
+[2010.779 - 2015.34] automating it so there's a few primary
+
+[2013.299 - 2017.679] components of assembly lines one is
+
+[2015.34 - 2019.24] inputs where do work items come from
+
+[2017.679 - 2021.46] where do the materials come from where
+
+[2019.24 - 2024.22] does the information come from emails
+
+[2021.46 - 2026.019] calls bills API calls does it come from
+
+[2024.22 - 2028.3600000000001] vendors does it come from users does it
+
+[2026.019 - 2030.94] come from internal stakeholders there's
+
+[2028.36 - 2032.32] always inputs to every assembly line
+
+[2030.94 - 2034.3600000000001] and again like I said there's going to
+
+[2032.32 - 2036.399] be multiple assembly lines number two
+
+[2034.36 - 2038.1399999999999] there's stations the whole point of an
+
+[2036.399 - 2041.6789999999999] assembly line is that you quickly move
+
+[2038.14 - 2044.22] work products or work items or materials
+
+[2041.679 - 2046.539] um from one station to the next and just
+
+[2044.22 - 2048.82] deciding which station it goes to next
+
+[2046.539 - 2050.679] is one part of the problem but then also
+
+[2048.82 - 2052.48] what information tools and
+
+[2050.679 - 2055.54] Transformations are done at that station
+
+[2052.48 - 2057.399] so for instance in automobile assembly
+
+[2055.54 - 2059.139] lines you know the first part is you
+
+[2057.399 - 2060.7] build the frame then you start bolting
+
+[2059.139 - 2062.2000000000003] on the you know the motor and the
+
+[2060.7 - 2064.48] electronics and then you put in the
+
+[2062.2 - 2065.859] wiring and then finally you paint it so
+
+[2064.48 - 2067.419] like you have the painting station you
+
+[2065.859 - 2069.7599999999998] have the welding station you have the
+
+[2067.419 - 2071.74] the engine station that sort of thing so
+
+[2069.76 - 2073.8990000000003] think about the Stations of your
+
+[2071.74 - 2076.839] business you know where to when does a
+
+[2073.899 - 2079.06] work product move from procurement to
+
+[2076.839 - 2082.659] Material Handling Windows when does it
+
+[2079.06 - 2085.96] move from Finance to billing to wherever
+
+[2082.659 - 2088.06] else it goes interfaces so look at the
+
+[2085.96 - 2090.639] interfaces so an interface is a handoff
+
+[2088.06 - 2093.099] point this is when it changes from one
+
+[2090.639 - 2095.8] person or one Department to another is
+
+[2093.099 - 2097.96] it coming from your vendor to your CFO
+
+[2095.8 - 2100.119] is it going from your finance department
+
+[2097.96 - 2101.859] to your it Department that's what I mean
+
+[2100.119 - 2103.96] by interfaces
+
+[2101.859 - 2105.94] and then finally outputs what is the
+
+[2103.96 - 2108.28] final result of a of a given work
+
+[2105.94 - 2111.2200000000003] product or process is it that a Bill
+
+[2108.28 - 2113.7400000000002] gets paid is that is it that a patient
+
+[2111.22 - 2116.2] gets discharged from the hospital is it
+
+[2113.74 - 2117.7] that you know material is delivered on
+
+[2116.2 - 2119.3199999999997] site and then you're you know it's out
+
+[2117.7 - 2121.7799999999997] of your hands what are the input
+
+[2119.32 - 2123.28] stations interfaces and outputs treat it
+
+[2121.78 - 2124.8390000000004] all like information moving through a
+
+[2123.28 - 2127.0600000000004] digital assembly line or a digital
+
+[2124.839 - 2130.119] Factory and you will be able to start
+
+[2127.06 - 2131.74] working towards those polymorphic
+
+[2130.119 - 2132.76] applications that I talked about in a
+
+[2131.74 - 2134.6189999999997] previous video
+
+[2132.76 - 2136.78] all right thanks for watching I hope you
+
+[2134.619 - 2138.339] got a lot out of this like I said links
+
+[2136.78 - 2140.5600000000004] all the most important links are in the
+
+[2138.339 - 2142.72] description uh cheers have a good one
+
+[2140.56 - 2146.64] reach out on LinkedIn and patreon I'm
+
+[2142.72 - 2146.64] happy to help you out have a good one

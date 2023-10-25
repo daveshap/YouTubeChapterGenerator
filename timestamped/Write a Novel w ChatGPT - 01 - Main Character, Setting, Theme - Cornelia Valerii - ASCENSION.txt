@@ -1,0 +1,1875 @@
+[0.9 - 4.74] hey everyone David Shapiro here with
+
+[3.0 - 7.34] another video today we're going to be
+
+[4.74 - 9.54] doing chat GPT for writing fiction
+
+[7.34 - 11.519] specifically writing long-form fiction
+
+[9.54 - 13.739999999999998] like novels obviously this is a practice
+
+[11.519 - 16.08] that takes a while so in this first
+
+[13.74 - 17.58] video I'm hoping to just get to a solid
+
+[16.08 - 20.22] outline and then we'll call it a day
+
+[17.58 - 23.82] before we get started though I wanted to
+
+[20.22 - 26.4] explain that uh I have monetized some of
+
+[23.82 - 28.8] my YouTube videos uh people are getting
+
+[26.4 - 31.259999999999998] a lot of value out of them
+
+[28.8 - 33.96] um and I want to take the ads out but I
+
+[31.26 - 36.899] was not able to get my uh patreon goals
+
+[33.96 - 38.76] met so my goal is to get to four
+
+[36.899 - 41.579] thousand dollars a month so that I can
+
+[38.76 - 43.8] uh pay all the pail of my bills have
+
+[41.579 - 46.26] health insurance that sort of thing
+
+[43.8 - 49.019999999999996] um and then I can permanently demonetize
+
+[46.26 - 51.718999999999994] all of my videos that is my goal now if
+
+[49.02 - 53.7] people would prefer ads we can do that I
+
+[51.719 - 56.82] don't really care one way or another but
+
+[53.7 - 58.68000000000001] it would be good if uh if if we can do
+
+[56.82 - 59.879] it this way all right so without further
+
+[58.68 - 62.399] ado
+
+[59.879 - 64.559] let's talk about writing stories so this
+
+[62.399 - 66.84] is something that I have spent a
+
+[64.559 - 67.86] tremendous amount of time on uh
+
+[66.84 - 70.08] personally
+
+[67.86 - 72.799] um writing is uh is one of my top
+
+[70.08 - 76.92] hobbies and it's how I met my now fiance
+
+[72.799 - 78.24000000000001] and so uh in fact one of the things that
+
+[76.92 - 81.18] attracted a lot of people to my channel
+
+[78.24 - 84.17999999999999] was using these language models to write
+
+[81.18 - 87.24000000000001] fiction and uh in point of fact chat GPT
+
+[84.18 - 91.14] completely changed some of my plans
+
+[87.24 - 93.78] around my auto Muse Suite of tools
+
+[91.14 - 95.82] um so because of that like I'm not going
+
+[93.78 - 97.43900000000001] to try and compete with chat GPT why
+
+[95.82 - 100.25899999999999] bother right I'm gonna do something else
+
+[97.439 - 103.32] in the meantime let me show you how to
+
+[100.259 - 105.72] think about this uh tool so that you can
+
+[103.32 - 107.1] write fiction long form fiction anyone
+
+[105.72 - 109.2] can do it
+
+[107.1 - 111.78] um but you kind of you got you got to
+
+[109.2 - 113.7] know about like writing a story so
+
+[111.78 - 116.04] um I have the advantage of I had a
+
+[113.7 - 118.74000000000001] premise already in mind so the premise
+
+[116.04 - 122.10000000000001] that I had in mind was that I wanted to
+
+[118.74 - 124.38] write a story from the POV of a
+
+[122.1 - 126.65899999999999] courtesan during the Golden Age of Rome
+
+[124.38 - 129.239] and I wanted it to be like a palace
+
+[126.659 - 130.979] Intrigue kind of story but also the
+
+[129.239 - 133.92000000000002] Golden Age of Rome or the the height of
+
+[130.979 - 136.31900000000002] the Roman power there's a huge amount of
+
+[133.92 - 138.89999999999998] stories that can be told in that you
+
+[136.319 - 140.7] know there's um uh there's you know
+
+[138.9 - 143.459] whether it's Augustus or Caesar and Gaul
+
+[140.7 - 145.07999999999998] or whatever is going on in Egypt or you
+
+[143.459 - 147.959] know the Revolt of the Jews or whatever
+
+[145.08 - 149.70000000000002] there's all kinds of cool stuff so
+
+[147.959 - 151.739] um the way that I like to start these
+
+[149.7 - 155.04] kinds of conversations is you just tell
+
+[151.739 - 156.959] it what you're doing so you say hey I'm
+
+[155.04 - 157.92] writing a novel
+
+[156.959 - 160.44] um
+
+[157.92 - 163.14] I need your help I found that if you're
+
+[160.44 - 164.7] polite it like it it it copies your tone
+
+[163.14 - 167.45899999999997] so if you just if you're very thorough
+
+[164.7 - 169.01899999999998] and polite it tends to be more helpful
+
+[167.459 - 171.48] um if you just give it like flat
+
+[169.019 - 172.92000000000002] instructions it's usually willing to
+
+[171.48 - 174.48] help as well but I mean there's no
+
+[172.92 - 175.5] nothing wrong with being polite to the
+
+[174.48 - 177.89999999999998] machine
+
+[175.5 - 179.34] um it also feels good to be polite
+
+[177.9 - 180.54] um I'm writing a novel and I need your
+
+[179.34 - 185.70000000000002] help
+
+[180.54 - 189.84] um this is a uh Palace Intrigue slash uh
+
+[185.7 - 193.5] historical fiction slash Adventure uh
+
+[189.84 - 195.48] set during uh the Golden Age of the
+
+[193.5 - 197.459] Roman Empire
+
+[195.48 - 198.07999999999998] it follows
+
+[197.459 - 201.239] um
+
+[198.08 - 202.37900000000002] uh a courtesan
+
+[201.239 - 207.36] um
+
+[202.379 - 210.42] so help me brainstorm this story the
+
+[207.36 - 212.76000000000002] goal today is to get a very solid
+
+[210.42 - 213.54] outline so if you tell it what your goal
+
+[212.76 - 215.22] is
+
+[213.54 - 219.239] um it's like sure let's do that
+
+[215.22 - 221.76] um what questions do you have so if you
+
+[219.239 - 224.34] if you tell it if you if you finalize it
+
+[221.76 - 226.14] with saying that ask me questions if
+
+[224.34 - 229.08] this is where the power of a dialogue
+
+[226.14 - 232.01899999999998] comes in because you might be making
+
+[229.08 - 233.64000000000001] assumptions in your mind that are not
+
+[232.019 - 235.14000000000001] going to translate
+
+[233.64 - 236.76] um so let's see it says sure I'm happy
+
+[235.14 - 238.14] to help brainstorm ideas for your novel
+
+[236.76 - 240.599] to get started can you give me some more
+
+[238.14 - 242.33999999999997] information about the Curtis courtesan
+
+[240.599 - 244.07999999999998] and her role in the story what is her
+
+[242.34 - 245.81900000000002] goal or motivation do you have any
+
+[244.08 - 247.68] specific historical events or figures
+
+[245.819 - 250.79899999999998] that you would like to incorporate these
+
+[247.68 - 251.48000000000002] are phenomenal questions okay
+
+[250.799 - 254.70000000000002] um
+
+[251.48 - 256.38] great questions and I'm saying this as a
+
+[254.7 - 258.419] I'm not a
+
+[256.38 - 260.76] I guess I am a semi-pro writer I have
+
+[258.419 - 263.52] made some money from writing fiction
+
+[260.76 - 266.759] um but uh I'm also just a very
+
+[263.52 - 268.5] passionate writer and I uh a good like
+
+[266.759 - 270.90000000000003] more than half of my friends are writers
+
+[268.5 - 275.28] that's like my social life
+
+[270.9 - 277.919] um the other half is all AI people
+
+[275.28 - 279.29999999999995] um okay great questions so
+
+[277.919 - 284.84] um
+
+[279.3 - 289.38] well I really wanted to have a close
+
+[284.84 - 295.25899999999996] visceral experience of
+
+[289.38 - 298.259] um the Roman world uh during its height
+
+[295.259 - 303.36] um for instance I really love the
+
+[298.259 - 304.97900000000004] Intrigue of Assassin's Creed
+
+[303.36 - 309.36] Odyssey
+
+[304.979 - 312.12] um I also really loved the book
+
+[309.36 - 313.62] cushiel's Dart and if you know what
+
+[312.12 - 315.0] cushel's DART is you know that it's a
+
+[313.62 - 317.46] very spicy story we're not going to go
+
+[315.0 - 319.139] that spicy at least Well Chad GPT will
+
+[317.46 - 322.79999999999995] get mad at me if I try and go that spicy
+
+[319.139 - 325.02] We're not gonna we're gonna toe them no
+
+[322.8 - 327.66] I'm not gonna get demonetized over that
+
+[325.02 - 331.32] um so we'll just leave it at that um
+
+[327.66 - 332.58000000000004] so that's the kind of story I want to
+
+[331.32 - 334.56] tell
+
+[332.58 - 337.74] um I'll need help
+
+[334.56 - 340.02] uh fleshing out
+
+[337.74 - 342.06] um the characters so for for some
+
+[340.02 - 343.979] reference the reason that I have some of
+
+[342.06 - 346.74] this knowledge already is because I was
+
+[343.979 - 349.86] using my own tools Auto Muse tools while
+
+[346.74 - 351.419] I was brainstorming this those are still
+
+[349.86 - 353.28000000000003] being built but they've been kind of put
+
+[351.419 - 356.34] on the back burner we'll get to that
+
+[353.28 - 357.65999999999997] later but the tools are coming
+
+[356.34 - 359.46] um I'll need help fleshing out the
+
+[357.66 - 363.84000000000003] characters
+
+[359.46 - 367.25899999999996] um backstories motivations goals
+
+[363.84 - 367.919] um now in terms of
+
+[367.259 - 372.72] um
+
+[367.919 - 374.88] uh historical events or characters I was
+
+[372.72 - 375.56] thinking maybe
+
+[374.88 - 377.21999999999997] um
+
+[375.56 - 379.8] Augustus
+
+[377.22 - 382.86] or Hadrian
+
+[379.8 - 385.259] um or some of the uh
+
+[382.86 - 389.96000000000004] five good
+
+[385.259 - 394.91900000000004] Emperors uh basically I want a setting
+
+[389.96 - 395.96] that is um that allows for anything to
+
+[394.919 - 402.539] go
+
+[395.96 - 405.71999999999997] celebrations opulence battles piracy
+
+[402.539 - 407.699] Etc make sense all right so let's see
+
+[405.72 - 409.56] what chat GPT says yes I understand what
+
+[407.699 - 411.539] you're looking for it sounds like you
+
+[409.56 - 412.8] want to create a sweeping epic story set
+
+[411.539 - 414.539] during the height of the Roman Empire
+
+[412.8 - 416.40000000000003] with a courtesan as the main character
+
+[414.539 - 417.36] to help flesh out the story and
+
+[416.4 - 418.79999999999995] characters we could start by
+
+[417.36 - 420.84000000000003] brainstorming some ideas for the
+
+[418.8 - 422.759] courtesan's background and motivations
+
+[420.84 - 424.73999999999995] for example what was her life like
+
+[422.759 - 426.24] before she became a courtesan what
+
+[424.74 - 428.759] letter did that profession and what are
+
+[426.24 - 431.40000000000003] her goals within it does she have any
+
+[428.759 - 432.78000000000003] personal or professional relationships
+
+[431.4 - 434.58] um let's see in terms of historical
+
+[432.78 - 436.44] events the Reigns of Augustus and
+
+[434.58 - 438.24] Hadrian would provide a rich backdrop as
+
+[436.44 - 439.74] they were both significant figures and
+
+[438.24 - 441.90000000000003] the rule coincided with a time of
+
+[439.74 - 445.08] prosperity and expansion including
+
+[441.9 - 447.17999999999995] events um could add to the historical
+
+[445.08 - 449.46] reality okay cool is there anything
+
+[447.18 - 452.46] specific you would like to include
+
+[449.46 - 453.96] um okay great so
+
+[452.46 - 459.35999999999996] um
+
+[453.96 - 462.0] first let's brainstorm the MC a
+
+[459.36 - 465.199] shorthand for main character
+
+[462.0 - 469.02] um uh during another
+
+[465.199 - 473.699] brainstorming session one idea was that
+
+[469.02 - 477.539] she was a slave seeking Liberation uh
+
+[473.699 - 481.62] but I'm not sure if that works
+
+[477.539 - 484.62] um another idea was that she was from
+
+[481.62 - 488.639] um a lower family
+
+[484.62 - 491.22] um maybe uh I guess
+
+[488.639 - 494.88] maybe a patrician
+
+[491.22 - 495.78000000000003] um maybe a poor Patrician family I don't
+
+[494.88 - 500.94] remember
+
+[495.78 - 503.05999999999995] if the attritions were still around
+
+[500.94 - 503.06] um
+
+[503.46 - 514.26] so uh maybe let's brainstorm some around
+
+[508.319 - 516.539] that can you uh give me some more ideas
+
+[514.26 - 519.18] so one thing with chat GPT is you have
+
+[516.539 - 520.56] to be very specific about what you ask
+
+[519.18 - 522.9789999999999] for
+
+[520.56 - 526.38] um whereas interacting with a human
+
+[522.979 - 528.899] there's a lot of uh based on my recent
+
+[526.38 - 530.58] interview with Anna Bernstein um which
+
+[528.899 - 533.7] she pointed out that like with a human
+
+[530.58 - 535.5] there's there's an implied intent
+
+[533.7 - 537.36] um what with the machine you have to be
+
+[535.5 - 539.279] very explicit
+
+[537.36 - 540.72] um okay perhaps she was born into a poor
+
+[539.279 - 542.1] Patrician family and was struggling to
+
+[540.72 - 544.38] make ends meet she was forced to leave
+
+[542.1 - 545.88] home at a young age make her way in the
+
+[544.38 - 549.06] world she may have turned to courtesan
+
+[545.88 - 549.899] work to earn a living
+
+[549.06 - 552.779] um
+
+[549.899 - 555.06] then her goal may be Beauty charm gained
+
+[552.779 - 556.22] powerful uh gain the favor of powerful
+
+[555.06 - 558.1199999999999] men and women
+
+[556.22 - 559.44] alternatively she should have grown up
+
+[558.12 - 561.42] she could have grown up in a wealthy
+
+[559.44 - 562.8000000000001] family but fallen on hard times due to
+
+[561.42 - 565.3199999999999] financial mismanagement political
+
+[562.8 - 569.0999999999999] scheming oh that's good that's some good
+
+[565.32 - 570.9590000000001] Intrigue oh yeah I like that and so
+
+[569.1 - 572.94] here's where like just asking it to give
+
+[570.959 - 575.0999999999999] me ideas and then I pay attention to
+
+[572.94 - 578.22] what resonates with me and so then it
+
+[575.1 - 579.839] follows my lead another possibility was
+
+[578.22 - 582.899] orphaned and had to make her way on the
+
+[579.839 - 584.519] streets that's not quite as interesting
+
+[582.899 - 586.74] um you know like a Rags to Riches thing
+
+[584.519 - 589.26] but since I want to do a palace Intrigue
+
+[586.74 - 591.32] this this middle one looks good
+
+[589.26 - 591.3199999999999] um
+
+[591.74 - 596.399] yeah I like that middle one
+
+[595.74 - 601.38] um
+
+[596.399 - 603.839] of somewhat Fallen fortunes that's very
+
+[601.38 - 608.22] consistent with
+
+[603.839 - 613.019] um Palace Intrigue uh and also sets her
+
+[608.22 - 617.82] up with a strong motivation for revenge
+
+[613.019 - 618.42] and Justice and getting back to her
+
+[617.82 - 621.899] um
+
+[618.42 - 625.019] uh what's the word uh desire not desired
+
+[621.899 - 626.339] um deserved station
+
+[625.019 - 630.74] um
+
+[626.339 - 635.4590000000001] okay so that's a powerful through line
+
+[630.74 - 639.899] let's now think about the theme
+
+[635.459 - 644.3599999999999] um of this story the universal truth can
+
+[639.899 - 644.36] you help me Workshop that now
+
+[645.899 - 650.399] um so I want to pause and and point out
+
+[648.18 - 652.9799999999999] that like okay how did how do how do you
+
+[650.399 - 656.94] as the person following along know what
+
+[652.98 - 659.1] to do so I am following uh kind of my
+
+[656.94 - 661.2600000000001] personal pattern of when I'm coming up
+
+[659.1 - 664.0790000000001] with a new story so you start with a
+
+[661.26 - 666.0] premise so premise is usually just the
+
+[664.079 - 667.26] setting and the main character
+
+[666.0 - 669.12] um that's like oh I've got this great
+
+[667.26 - 671.519] idea for a story so setting in main
+
+[669.12 - 673.62] character then you develop that main
+
+[671.519 - 675.42] character and explore their interaction
+
+[673.62 - 678.0600000000001] with the setting because there's three
+
+[675.42 - 679.62] pillars of writing fiction and that is
+
+[678.06 - 681.3599999999999] plot setting and character we'll get the
+
+[679.62 - 682.92] plot in a little while hopefully that's
+
+[681.36 - 685.74] where we'll end today
+
+[682.92 - 686.9399999999999] but setting in character so character is
+
+[685.74 - 688.2] the human
+
+[686.94 - 689.8800000000001] um and then the setting is the world
+
+[688.2 - 691.86] that they're in and
+
+[689.88 - 693.899] um they're those are intrinsically
+
+[691.86 - 696.0] intertwined
+
+[693.899 - 698.64] um and then the the thing that guides
+
+[696.0 - 701.22] the whole story the purpose of the story
+
+[698.64 - 702.42] is like the beacon on the hill or the
+
+[701.22 - 704.399] lighthouse that you're heading towards
+
+[702.42 - 707.9399999999999] that is theme
+
+[704.399 - 709.32] and so theme is the universal truth the
+
+[707.94 - 711.6] universal
+
+[709.32 - 714.779] um lesson that is in it and so
+
+[711.6 - 717.0600000000001] in uh popular fiction lately
+
+[714.779 - 719.399] um you might have remembered this uh it
+
+[717.06 - 721.8599999999999] was vaguely popular uh movie called
+
+[719.399 - 724.74] Avengers end game where this uh big
+
+[721.86 - 727.5600000000001] purple dude named Thanos wants to erase
+
+[724.74 - 730.26] half of Life uh in the universe so the
+
+[727.56 - 733.14] theme there is the arbitrariness of
+
+[730.26 - 735.6] catastrophe right storms will just kill
+
+[733.14 - 738.38] at random plagues will kill at random
+
+[735.6 - 741.5400000000001] volcanoes will kill at random Thanos
+
+[738.38 - 743.88] represents that uh the cataclysm right
+
+[741.54 - 747.12] he is the death blight of of
+
+[743.88 - 748.92] um of just our existence
+
+[747.12 - 750.899] um and so let's see what it says so
+
+[748.92 - 752.579] because we have to figure out
+
+[750.899 - 754.56] the theme
+
+[752.579 - 757.019] um like why is it that I wanted to set
+
+[754.56 - 758.76] this at the Golden Age of Rome and of
+
+[757.019 - 760.32] these somewhat Fallen fortunes so let's
+
+[758.76 - 762.36] see if we can figure out let's see if we
+
+[760.32 - 764.88] can pull a theme out that is going to be
+
+[762.36 - 767.04] the guiding force or The Guiding energy
+
+[764.88 - 769.2] of this story
+
+[767.04 - 770.2199999999999] um okay so to identify the theme it
+
+[769.2 - 771.899] might be helpful to think about the
+
+[770.22 - 773.5790000000001] central message or lesson you want your
+
+[771.899 - 774.959] readers to take well duh that's what I'm
+
+[773.579 - 776.6999999999999] asking
+
+[774.959 - 779.04] um what is the main character struggling
+
+[776.7 - 780.839] with and how does she overcome what does
+
+[779.04 - 783.12] the main character learn about herself
+
+[780.839 - 784.9200000000001] in the world uh as the story progresses
+
+[783.12 - 786.8] what is the story saying about human
+
+[784.92 - 788.76] nature or The Human Condition
+
+[786.8 - 790.9799999999999] answering these questions can help you
+
+[788.76 - 793.38] identify the underlying ideas or
+
+[790.98 - 794.5790000000001] principles okay sure for example the
+
+[793.38 - 795.899] main character is struggling with the
+
+[794.579 - 798.5999999999999] challenges of living in a rigid
+
+[795.899 - 799.68] hierarchical Society oh here we go we're
+
+[798.6 - 802.26] getting into the good stuff here
+
+[799.68 - 804.899] ultimately find able to find her place
+
+[802.26 - 806.639] in it the theme of the story might be
+
+[804.899 - 808.56] something like finding one owns one's
+
+[806.639 - 810.9590000000001] own path in life or the power of
+
+[808.56 - 811.9799999999999] self-determination on the other hand if
+
+[810.959 - 814.8599999999999] the main character is struggling with
+
+[811.98 - 816.54] issues of identity or belonging
+
+[814.86 - 818.399] um the theme might be something like the
+
+[816.54 - 821.279] search for one's true self or the
+
+[818.399 - 823.2] importance of community okay so what
+
+[821.279 - 826.86] this isn't what what this is implying
+
+[823.2 - 830.1] here is that um a character's Arc their
+
+[826.86 - 832.6800000000001] personal journey is is what exemplifies
+
+[830.1 - 835.32] and carries the theme and so you can
+
+[832.68 - 837.7199999999999] look you can often look at them as this
+
+[835.32 - 840.24] is not always true but one of the
+
+[837.72 - 841.74] easiest ways to do theme is what is it
+
+[840.24 - 844.62] that they learn what is it that they
+
+[841.74 - 847.5] overcome along the way now you can have
+
+[844.62 - 849.42] a theme that does not directly impact a
+
+[847.5 - 851.94] character's Arc and that and that the
+
+[849.42 - 853.74] theme is actually in the setting so a
+
+[851.94 - 857.1600000000001] good example of that is that one of the
+
+[853.74 - 858.42] one of the the overarching themes in The
+
+[857.16 - 861.06] Witcher
+
+[858.42 - 862.62] um the Netflix show is one of nihilism
+
+[861.06 - 865.38] and that is that everything is pointless
+
+[862.62 - 867.66] and this is and that is put in the uh
+
+[865.38 - 869.639] the world the setting the where the
+
+[867.66 - 871.5] setting punishes people for having hope
+
+[869.639 - 873.3] because that is the opposite of of
+
+[871.5 - 876.54] nihilism right
+
+[873.3 - 879.18] um and so geralt then is a reflection of
+
+[876.54 - 881.3389999999999] the the world that he lives in but he
+
+[879.18 - 883.56] kind of has a flat character Arc because
+
+[881.339 - 885.839] he's just I know what the world is like
+
+[883.56 - 887.2199999999999] and it's an awful place and I'm not
+
+[885.839 - 888.899] gonna fight it
+
+[887.22 - 890.399] um but his personal truth is that you
+
+[888.899 - 891.72] can't fight Destiny
+
+[890.399 - 892.74] um so that's you can have multiple
+
+[891.72 - 894.6600000000001] themes
+
+[892.74 - 896.88] okay great
+
+[894.66 - 898.86] um so it did it it's it's framing it
+
+[896.88 - 900.42] we're getting there but let's let's do
+
+[898.86 - 903.0] this a little bit more
+
+[900.42 - 905.279] um because it it one of the things that
+
+[903.0 - 906.48] I don't like about chat GPT is that
+
+[905.279 - 908.579] sometimes it'll just kind of tell you
+
+[906.48 - 910.5] how to approach a problem rather than
+
+[908.579 - 912.779] solving the problem now this is okay
+
+[910.5 - 916.62] because sometimes just knowing what to
+
+[912.779 - 918.06] do is is important but um sometimes I'm
+
+[916.62 - 919.139] just like no just solve the problem for
+
+[918.06 - 923.04] me
+
+[919.139 - 924.42] um so I'll say let's think through this
+
+[923.04 - 928.86] um let's think through this
+
+[924.42 - 931.8] um uh let's see the setting
+
+[928.86 - 934.86] is the um is the apogee
+
+[931.8 - 938.279] of the Roman Empire
+
+[934.86 - 942.1800000000001] what does that tell people
+
+[938.279 - 944.82] there's an abundance of wealth and power
+
+[942.18 - 948.3599999999999] and possibility
+
+[944.82 - 950.4590000000001] um so that feels important
+
+[948.36 - 952.44] and then
+
+[950.459 - 957.4799999999999] um the MC
+
+[952.44 - 959.82] uh has lost her station but wants it
+
+[957.48 - 963.0600000000001] back
+
+[959.82 - 964.98] um so again what does this
+
+[963.06 - 969.8389999999999] um say about
+
+[964.98 - 975.6] um Humanity or Universal truths
+
+[969.839 - 978.12] um can you help me articulate this theme
+
+[975.6 - 979.74] let's see what it says
+
+[978.12 - 981.0600000000001] the setting of your story during the
+
+[979.74 - 982.5600000000001] height of the Roman Empire suggests a
+
+[981.06 - 984.42] time of great prosperity and opportunity
+
+[982.56 - 986.459] but also time of strict social hierarchy
+
+[984.42 - 988.3199999999999] and rigid rules of behavior
+
+[986.459 - 989.5189999999999] this could be seen as a metaphor for the
+
+[988.32 - 991.38] larger Human Experience where
+
+[989.519 - 992.88] opportunities and limitations are often
+
+[991.38 - 996.0] determined by factors such as birth
+
+[992.88 - 998.04] wealth and status and gender the main
+
+[996.0 - 999.779] characters struggle to regain her former
+
+[998.04 - 1002.0] status in place in society could be seen
+
+[999.779 - 1005.66] as a reflection of the human desire for
+
+[1002.0 - 1007.16] recognition and respect ooh okay and the
+
+[1005.66 - 1009.259] lengths that people will go to in order
+
+[1007.16 - 1010.88] to achieve their goals this could be
+
+[1009.259 - 1012.88] lead to a theme the pursuit of power and
+
+[1010.88 - 1014.959] success or the cost of ambition
+
+[1012.88 - 1016.579] alternatively the main character's
+
+[1014.959 - 1019.6389999999999] Journey could be seen as a commentary on
+
+[1016.579 - 1022.399] the capriciousness of Fate ouch
+
+[1019.639 - 1025.16] um so capriciousness is um Mercurial
+
+[1022.399 - 1028.699] emotions that's what capricious means is
+
+[1025.16 - 1030.679] when when um something is very fickle
+
+[1028.699 - 1032.419] um so the capriciousness of fate and the
+
+[1030.679 - 1034.5790000000002] dangers of relying on external factors
+
+[1032.419 - 1035.66] for one sense of worth and identity in
+
+[1034.579 - 1037.28] this case the theme could be something
+
+[1035.66 - 1039.5] like the fragility of success or the
+
+[1037.28 - 1041.1789999999999] importance of self-acceptance I hope
+
+[1039.5 - 1043.52] these ideas give you inspiration so this
+
+[1041.179 - 1047.0590000000002] is actually zeroing in on what we had
+
+[1043.52 - 1050.299] worked on before before Chad gbt
+
+[1047.059 - 1054.559] um so let's do both actually
+
+[1050.299 - 1056.66] let's have her pursue power
+
+[1054.559 - 1059.24] um and status
+
+[1056.66 - 1061.94] and then
+
+[1059.24 - 1067.46] um when she gets it
+
+[1061.94 - 1069.8600000000001] she realizes that she's alone hunted and
+
+[1067.46 - 1071.059] uh and empty
+
+[1069.86 - 1072.52] um
+
+[1071.059 - 1076.7] so then
+
+[1072.52 - 1079.84] she must make a choice
+
+[1076.7 - 1084.919] um to let it all go and
+
+[1079.84 - 1088.8799999999999] pursue uh genuine human connection
+
+[1084.919 - 1093.6200000000001] I think this will parallel
+
+[1088.88 - 1096.8600000000001] um today's Zeitgeist of uh
+
+[1093.62 - 1100.1599999999999] quiet quitting and um
+
+[1096.86 - 1101.12] and reclaiming our lives
+
+[1100.16 - 1104.14] um
+
+[1101.12 - 1104.1399999999999] what do you think
+
+[1109.34 - 1112.52] okay it says I think that could be a
+
+[1111.2 - 1113.72] powerful and resonant theme for your
+
+[1112.52 - 1115.7] story having the main character
+
+[1113.72 - 1117.44] initially pursue power and Status only
+
+[1115.7 - 1120.0800000000002] to eventually realize the emptiness and
+
+[1117.44 - 1121.52] isolation that comes with it could be a
+
+[1120.08 - 1123.86] compelling Arc that reflects the idea of
+
+[1121.52 - 1125.179] the cost of ambition this could be a
+
+[1123.86 - 1126.6999999999998] great way to explore the theme of the
+
+[1125.179 - 1129.02] importance of genuine human connection
+
+[1126.7 - 1130.46] and the dangers of relying on external
+
+[1129.02 - 1132.86] markers success for one sense of worth
+
+[1130.46 - 1135.2] and fulfillment to further develop oh
+
+[1132.86 - 1136.9399999999998] now it's suggesting stuff to further
+
+[1135.2 - 1138.32] develop this theme you might consider
+
+[1136.94 - 1140.299] exploring the main character's Journey
+
+[1138.32 - 1142.28] from striving for external validation to
+
+[1140.299 - 1144.5] finding a sense of purpose and meaning
+
+[1142.28 - 1146.12] within herself this could involve
+
+[1144.5 - 1148.1] showing her struggles with feelings of
+
+[1146.12 - 1149.4799999999998] inadequacy or loneliness as well as
+
+[1148.1 - 1151.1599999999999] moments of self-discovery and connection
+
+[1149.48 - 1153.6200000000001] that help her to see the value of her
+
+[1151.16 - 1158.0] own worth and relationships
+
+[1153.62 - 1160.58] yes this is great I think we need to uh
+
+[1158.0 - 1164.84] break this into a duology
+
+[1160.58 - 1168.9189999999999] the first book will be called
+
+[1164.84 - 1171.5] Ascension or something uh grandiose like
+
+[1168.919 - 1174.2] that and the second
+
+[1171.5 - 1177.38] book could be called
+
+[1174.2 - 1178.66] um descent or something
+
+[1177.38 - 1182.7800000000002] um
+
+[1178.66 - 1184.3400000000001] and so I really like this and I'm
+
+[1182.78 - 1186.3799999999999] totally gonna finish this and you guys
+
+[1184.34 - 1188.6599999999999] are gonna go on this journey with me as
+
+[1186.38 - 1190.5800000000002] however long it takes
+
+[1188.66 - 1192.14] because this is a story I've wanted to
+
+[1190.58 - 1194.12] write for a while but it's like I don't
+
+[1192.14 - 1196.76] even know where to begin
+
+[1194.12 - 1198.1999999999998] um because uh it's also because it's a
+
+[1196.76 - 1199.8799999999999] historical fiction there's a lot of
+
+[1198.2 - 1201.679] research that you need to do in order to
+
+[1199.88 - 1203.2990000000002] keep it accurate
+
+[1201.679 - 1205.52] um so like you know we haven't even
+
+[1203.299 - 1208.28] explored dates and times of like you
+
+[1205.52 - 1209.6] know uh Augustus or Marcus Aurelius or
+
+[1208.28 - 1210.44] Hadrian
+
+[1209.6 - 1211.9399999999998] um
+
+[1210.44 - 1213.3200000000002] so we'll figure that out in a minute
+
+[1211.94 - 1214.76] because we we do have to flesh out the
+
+[1213.32 - 1215.36] setting
+
+[1214.76 - 1220.22] um
+
+[1215.36 - 1221.299] okay that's all nice and solid now
+
+[1220.22 - 1224.419] um
+
+[1221.299 - 1227.6] Let's uh
+
+[1224.419 - 1232.22] let's summarize everything we've got up
+
+[1227.6 - 1235.8799999999999] to this point please write a detailed uh
+
+[1232.22 - 1237.08] summary of The Story So Far So you want
+
+[1235.88 - 1238.64] to do this every now and then because
+
+[1237.08 - 1240.1999999999998] especially when you're doing long form
+
+[1238.64 - 1242.6000000000001] fiction
+
+[1240.2 - 1244.64] um it it does chat GPT does have a
+
+[1242.6 - 1246.86] limited memory so you want to you want
+
+[1244.64 - 1249.0200000000002] to kind of like okay let's stop let's
+
+[1246.86 - 1252.34] circle the wagons let's figure out
+
+[1249.02 - 1252.34] exactly what's going on
+
+[1254.66 - 1260.539] and see it got one thing wrong where
+
+[1257.24 - 1262.16] it's um it says poor Patrician family
+
+[1260.539 - 1264.26] um so we actually want to say that she
+
+[1262.16 - 1266.5] started as a with a as a in a powerful
+
+[1264.26 - 1266.5] family
+
+[1267.26 - 1270.32] um through her beauty charm and wit the
+
+[1268.88 - 1272.0] main character is able to gain the favor
+
+[1270.32 - 1273.799] of powerful men and women and she Rises
+
+[1272.0 - 1275.84] to position of influence
+
+[1273.799 - 1277.7] however she becomes more successful she
+
+[1275.84 - 1280.58] becomes she begins to realize the
+
+[1277.7 - 1282.14] emptiness and isolation
+
+[1280.58 - 1283.6399999999999] um yep she must ultimately make a choice
+
+[1282.14 - 1285.14] between her ambition and genuine human
+
+[1283.64 - 1286.88] connection
+
+[1285.14 - 1289.5800000000002] um the first book titled Ascension
+
+[1286.88 - 1291.74] follows the character's rise to power
+
+[1289.58 - 1293.539] um the second book descent explores her
+
+[1291.74 - 1295.22] journey from striving for external
+
+[1293.539 - 1297.32] validation to finding a sense of purpose
+
+[1295.22 - 1299.419] and meaning with herself as she grapples
+
+[1297.32 - 1302.6] with the choices she has made and the
+
+[1299.419 - 1307.5200000000002] consequences from them excellent
+
+[1302.6 - 1309.9189999999999] um we just need to change one detail
+
+[1307.52 - 1313.76] um she starts
+
+[1309.919 - 1315.74] um or she was born to a powerful
+
+[1313.76 - 1318.2] and so this is where I thought something
+
+[1315.74 - 1320.179] and said something but didn't tell it
+
+[1318.2 - 1325.82] um she was born to a powerful and
+
+[1320.179 - 1330.14] Wealthy family uh but uh her family was
+
+[1325.82 - 1333.5] um dispossessed uh due to uh betrayal
+
+[1330.14 - 1337.8200000000002] and Palace intrigue
+
+[1333.5 - 1339.1] can you update the summary based on this
+
+[1337.82 - 1341.6589999999999] info
+
+[1339.1 - 1342.799] excuse me um certainly here's an updated
+
+[1341.659 - 1345.5] summary
+
+[1342.799 - 1348.74] and so by getting it to restate it we
+
+[1345.5 - 1350.9] can then see how the machine understands
+
+[1348.74 - 1353.48] the story and this is the same thing as
+
+[1350.9 - 1355.4] as we what we do with humans
+
+[1353.48 - 1358.88] um which is called reflective listening
+
+[1355.4 - 1361.7] so um I am asking it to reflect back to
+
+[1358.88 - 1363.919] me what it understands that I want so
+
+[1361.7 - 1366.02] using reflective listening with chat GPT
+
+[1363.919 - 1368.179] is a really powerful technique I'm going
+
+[1366.02 - 1371.12] to do a quick time check because
+
+[1368.179 - 1372.26] um oh wow we're already 22 minutes in
+
+[1371.12 - 1374.2399999999998] um I want to keep these videos
+
+[1372.26 - 1376.76] reasonable
+
+[1374.24 - 1378.86] um so we're we're we've got like the
+
+[1376.76 - 1380.179] main through line we've got a little bit
+
+[1378.86 - 1382.039] of the setting
+
+[1380.179 - 1384.02] um so let's try and get a little bit
+
+[1382.039 - 1386.419] further with the setting and then let's
+
+[1384.02 - 1387.3799999999999] start trying to outline a plot
+
+[1386.419 - 1391.1000000000001] um
+
+[1387.38 - 1394.5800000000002] great let's flesh out the setting now
+
+[1391.1 - 1398.48] um can you help me figure out when
+
+[1394.58 - 1399.62] exactly to set this story when do you
+
+[1398.48 - 1403.159] think
+
+[1399.62 - 1406.1589999999999] um the Roman Empire hit its absolute
+
+[1403.159 - 1406.159] Peak
+
+[1410.24 - 1414.799] raging okay
+
+[1412.34 - 1417.1999999999998] trajan was an effective ruler uh and
+
+[1414.799 - 1419.36] popular ruler and he ruled for almost 20
+
+[1417.2 - 1421.1000000000001] years okay so that's a that's a good
+
+[1419.36 - 1422.059] period of time
+
+[1421.1 - 1426.08] um
+
+[1422.059 - 1428.48] so Augustus was earlier Hadrian came
+
+[1426.08 - 1429.74] after oh let's do hatred let's do trajan
+
+[1428.48 - 1431.48] to Hadrian
+
+[1429.74 - 1432.98] um so her life takes place during the
+
+[1431.48 - 1435.94] entirety
+
+[1432.98 - 1435.94] um of these guys
+
+[1437.12 - 1444.08] okay great
+
+[1439.58 - 1445.539] um uh let's set this so that uh her
+
+[1444.08 - 1449.1789999999999] birth
+
+[1445.539 - 1453.02] coincides with the um
+
+[1449.179 - 1454.0] Ascension of trajan
+
+[1453.02 - 1459.62] um
+
+[1454.0 - 1463.0] so uh so she's partly uh marked the
+
+[1459.62 - 1463.0] Romans were very superstitious
+
+[1466.88 - 1473.2990000000002] um
+
+[1467.559 - 1475.58] as being tied to the fate of the emperor
+
+[1473.299 - 1479.84] um so then
+
+[1475.58 - 1481.58] so then her life goes
+
+[1479.84 - 1485.08] um
+
+[1481.58 - 1492.26] uh so then her her character Arc
+
+[1485.08 - 1494.0] follows Rome through its absolute Peak
+
+[1492.26 - 1495.82] and the beginning
+
+[1494.0 - 1502.94] of the decline
+
+[1495.82 - 1505.24] so her choices mirror that of Rome okay
+
+[1502.94 - 1510.559] with this in mind
+
+[1505.24 - 1514.159] can you list all the major events and
+
+[1510.559 - 1518.299] people and uh well I get yeah events and
+
+[1514.159 - 1523.46] people that we should think about from
+
+[1518.299 - 1526.46] let's see 98 A.D to 138.
+
+[1523.46 - 1526.46] 80.
+
+[1526.7 - 1531.919] um
+
+[1527.84 - 1533.72] this will help us figure out what uh
+
+[1531.919 - 1535.64] beats later
+
+[1533.72 - 1536.96] okay
+
+[1535.64 - 1538.94] certainly here are some of the major
+
+[1536.96 - 1541.82] events and people from the period of 98
+
+[1538.94 - 1545.779] 80 to 30 138.80
+
+[1541.82 - 1548.32] um so this is her 40-year life basically
+
+[1545.779 - 1552.02] um and then we can have because you know
+
+[1548.32 - 1554.26] during Roman times Roman matrons tended
+
+[1552.02 - 1557.72] to live a lot longer than Roman men
+
+[1554.26 - 1560.419] mostly due to uh conflict but not always
+
+[1557.72 - 1563.6000000000001] because you also had much shorter life
+
+[1560.419 - 1567.44] expectancies of of women in general due
+
+[1563.6 - 1569.059] to death during childbirth but once a
+
+[1567.44 - 1570.44] woman made it past childbearing years
+
+[1569.059 - 1572.6589999999999] she was
+
+[1570.44 - 1574.7] their life expectancy was pretty similar
+
+[1572.659 - 1577.22] to that of today with the exception of
+
+[1574.7 - 1578.059] like things like plagues happening
+
+[1577.22 - 1580.88] um okay
+
+[1578.059 - 1582.5] antonine wall the bar Cobo Revolt the
+
+[1580.88 - 1585.14] Jewish Rebellion Ayah there's that one
+
+[1582.5 - 1586.279] take takes place in Palestine
+
+[1585.14 - 1588.2] um because one of the things that I
+
+[1586.279 - 1589.4] thought of is if she's a if she's a
+
+[1588.2 - 1591.32] courtesan
+
+[1589.4 - 1592.88] then maybe she's attached to very
+
+[1591.32 - 1594.26] powerful people and goes all over the
+
+[1592.88 - 1596.6000000000001] Roman World which could be really
+
+[1594.26 - 1600.14] interesting
+
+[1596.6 - 1602.0] um yep okay so this is this is the the
+
+[1600.14 - 1603.679] Roman parthian War so that's way out
+
+[1602.0 - 1605.419] east
+
+[1603.679 - 1607.52] um which is not yet now I Ran So there
+
+[1605.419 - 1610.4] were there's lots of uh horses and stuff
+
+[1607.52 - 1612.02] so because cushiel's Legacy is one of my
+
+[1610.4 - 1614.24] favorite stories I'm thinking about like
+
+[1612.02 - 1616.94] what if she goes on these Adventures to
+
+[1614.24 - 1619.88] like save the Empire or something
+
+[1616.94 - 1621.6200000000001] um and and this is how she gets powerful
+
+[1619.88 - 1623.779] um and then she starts touring with with
+
+[1621.62 - 1626.4189999999999] Hadrian or something
+
+[1623.779 - 1627.559] um I really like this actually
+
+[1626.419 - 1630.46] um okay
+
+[1627.559 - 1630.46] so
+
+[1631.039 - 1635.539] so these are just a few examples
+
+[1634.279 - 1639.98] um
+
+[1635.539 - 1641.12] let's focus on her earlier life for a
+
+[1639.98 - 1643.88] minute
+
+[1641.12 - 1650.6] um she would have
+
+[1643.88 - 1653.5390000000002] been about 12 during 110 whoops 110 A.D
+
+[1650.6 - 1655.1] um what happened around
+
+[1653.539 - 1659.48] then
+
+[1655.1 - 1664.84] um anything political or economic that
+
+[1659.48 - 1664.84] we can base the fall of her family on
+
+[1673.4 - 1676.7] okay so if it says like I don't know
+
+[1675.32 - 1677.8999999999999] what's happening in your character's
+
+[1676.7 - 1679.94] life
+
+[1677.9 - 1682.1000000000001] um okay so it's confused I'm I'm
+
+[1679.94 - 1684.26] actually asking for
+
+[1682.1 - 1686.36] um real real events
+
+[1684.26 - 1688.58] so I'm going to do a quick refresh this
+
+[1686.36 - 1691.9399999999998] is a trick that I have you can interrupt
+
+[1688.58 - 1693.6789999999999] it with a with a solid refresh and then
+
+[1691.94 - 1696.38] um and then you can go and regenerate it
+
+[1693.679 - 1697.1000000000001] I'm like no no no let's not do that
+
+[1696.38 - 1700.8400000000001] um
+
+[1697.1 - 1703.58] okay what was happening in Rome around
+
+[1700.84 - 1705.6999999999998] 110 80.
+
+[1703.58 - 1705.6999999999998] um
+
+[1705.74 - 1712.52] I am mostly curious about political and
+
+[1709.94 - 1717.76] economic events
+
+[1712.52 - 1717.76] um in and around the Imperial City
+
+[1718.52 - 1723.2] foreign
+
+[1720.88 - 1726.3200000000002] if you're watching please add a cancel
+
+[1723.2 - 1728.8400000000001] button because you you don't want the
+
+[1726.32 - 1730.58] conversation to be polluted in fact if
+
+[1728.84 - 1732.1999999999998] we could go back and delete the bad
+
+[1730.58 - 1734.4189999999999] messages
+
+[1732.2 - 1736.64] um and and clean it up as we go so if we
+
+[1734.419 - 1738.5590000000002] can flag something to say remove this
+
+[1736.64 - 1741.0800000000002] from the conversation that would be
+
+[1738.559 - 1743.12] fantastic okay During the period around
+
+[1741.08 - 1744.86] one uh was enjoying a time of relative
+
+[1743.12 - 1747.1999999999998] peace and prosperity trajan was an
+
+[1744.86 - 1749.0] effective and popular ruler there was
+
+[1747.2 - 1751.46] likely a great deal of political and
+
+[1749.0 - 1755.72] economical activity
+
+[1751.46 - 1758.8400000000001] um let's see many public works okay the
+
+[1755.72 - 1761.8990000000001] expansion of the city's Aqueduct system
+
+[1758.84 - 1764.36] um oh okay sure let's go with that
+
+[1761.899 - 1766.6399999999999] sure let's go with that um
+
+[1764.36 - 1770.899] let's say the MC's
+
+[1766.64 - 1774.919] um family was involved in um these Major
+
+[1770.899 - 1777.799] Works they were sponsoring and
+
+[1774.919 - 1778.46] um and organizing
+
+[1777.799 - 1782.779] um
+
+[1778.46 - 1783.98] big projects but uh wealthier
+
+[1782.779 - 1787.299] um
+
+[1783.98 - 1791.84] wealthier or more well-connected family
+
+[1787.299 - 1796.34] wanted in because they were very
+
+[1791.84 - 1799.1] um a very lucrative and high highly
+
+[1796.34 - 1800.12] coveted projects
+
+[1799.1 - 1805.1589999999999] um
+
+[1800.12 - 1808.8799999999999] so let's imagine that um her family's
+
+[1805.159 - 1809.419] Fall From Grace was
+
+[1808.88 - 1812.8990000000001] um
+
+[1809.419 - 1815.0200000000002] was part of that scheme
+
+[1812.899 - 1815.02] um
+
+[1815.179 - 1823.3600000000001] let's go ahead and name these families
+
+[1818.779 - 1828.32] and people can you recommend some uh
+
+[1823.36 - 1830.86] clan names and uh given names for our
+
+[1828.32 - 1830.86] characters
+
+[1831.74 - 1836.059] um
+
+[1832.48 - 1838.34] we need at least the MC
+
+[1836.059 - 1843.1] her family name
+
+[1838.34 - 1843.1] um and then the Rival faction name
+
+[1843.44 - 1846.679] well certainly here are a few
+
+[1845.12 - 1848.7199999999998] suggestions for clan names and given
+
+[1846.679 - 1850.5800000000002] names you might use plant names Claudius
+
+[1848.72 - 1852.14] this was a common clan name in agent
+
+[1850.58 - 1854.6] Rome and it was associated with several
+
+[1852.14 - 1855.919] influential families flavius this was
+
+[1854.6 - 1859.039] another one
+
+[1855.919 - 1861.5590000000002] um Aurelius so the claudians and the
+
+[1859.039 - 1864.02] flavians these are uh
+
+[1861.559 - 1865.46] I don't want to be necessarily that on
+
+[1864.02 - 1866.72] the nose
+
+[1865.46 - 1869.659] um
+
+[1866.72 - 1871.82] and I'm not going to name her her Marcus
+
+[1869.659 - 1875.8990000000001] um we need we need a female's names but
+
+[1871.82 - 1878.1789999999999] uh Valerius or Aurelius or I mean yeah
+
+[1875.899 - 1880.299] these are these are good
+
+[1878.179 - 1880.299] um
+
+[1881.559 - 1889.34] okay what about uh women's
+
+[1886.159 - 1890.179] names remember the
+
+[1889.34 - 1893.779] um
+
+[1890.179 - 1895.64] the MC is a courtesan
+
+[1893.779 - 1897.559] um so one thing that I that I noticed is
+
+[1895.64 - 1899.659] that you have to sometimes remind chat
+
+[1897.559 - 1901.1589999999999] GPT because it's like it'll kind of
+
+[1899.659 - 1903.2600000000002] start going down its own rabbit hole and
+
+[1901.159 - 1904.88] you have to pull it back and say no this
+
+[1903.26 - 1906.559] is what we're doing
+
+[1904.88 - 1913.0] um
+
+[1906.559 - 1913.0] Let's uh let's get some women's names
+
+[1916.94 - 1923.539] Julia so my fiance pointed out that um
+
+[1920.96 - 1926.059] one thing that a lot of Roman homes did
+
+[1923.539 - 1928.1] was that they just gave the women the
+
+[1926.059 - 1930.1399999999999] feminized version so you see Julia
+
+[1928.1 - 1932.48] Flavia Aurelia
+
+[1930.14 - 1936.38] um so they were very super uncreative
+
+[1932.48 - 1938.44] when it came to uh women's names
+
+[1936.38 - 1938.44] um
+
+[1942.039 - 1949.279] so we could do something like Aurelia
+
+[1945.279 - 1951.46] Aurelius or Aurelia flavius I don't know
+
+[1949.279 - 1951.46] um
+
+[1951.5 - 1956.6] uh let's see so uh female names were
+
+[1955.34 - 1960.62] often
+
+[1956.6 - 1964.58] um just feminine uh versions of house
+
+[1960.62 - 1968.84] names are there any other kinds of names
+
+[1964.58 - 1970.46] we can choose something more distinctive
+
+[1968.84 - 1973.4599999999998] Maybe
+
+[1970.46 - 1973.46] foreign
+
+[1979.0 - 1983.36] now this is something that I happen to
+
+[1981.14 - 1984.98] know already so if you didn't know this
+
+[1983.36 - 1987.6789999999999] you could have asked that question like
+
+[1984.98 - 1990.38] why are why are the names weird
+
+[1987.679 - 1993.3200000000002] um let's see symprio simpronia
+
+[1990.38 - 1996.14] this was an uncommon given name
+
+[1993.32 - 2001.0] um associated with uh sister of Cato the
+
+[1996.14 - 2002.679] younger interesting tortulo sytheris
+
+[2001.0 - 2005.08] or kytheris I don't know if that would
+
+[2002.679 - 2006.3400000000001] be cythrus or kytheris
+
+[2005.08 - 2008.019] um
+
+[2006.34 - 2010.899] I want something that's not too
+
+[2008.019 - 2014.38] difficult to say so Cornelia
+
+[2010.899 - 2017.86] mother of the graci brothers
+
+[2014.38 - 2021.46] so let's say like Cornelia flavius or
+
+[2017.86 - 2022.4189999999999] something or Valerius Cornelia Valerius
+
+[2021.46 - 2025.38] um
+
+[2022.419 - 2030.3990000000001] would Cornelia
+
+[2025.38 - 2032.94] Valerius be a legit name anything wrong
+
+[2030.399 - 2032.9399999999998] with that
+
+[2038.5 - 2041.94] father or husband okay
+
+[2043.84 - 2051.339] in the genitive case and it would be uh
+
+[2048.46 - 2053.2] valyria
+
+[2051.339 - 2057.54] so I guess her name would be Cornelia
+
+[2053.2 - 2057.54] valyria or Cornelia of the valyria
+
+[2060.58 - 2064.659] Okay blah blah so it's telling me what's
+
+[2062.74 - 2066.8199999999997] wrong with it for example it's common
+
+[2064.659 - 2068.679] for Roman names to be comprised of a
+
+[2066.82 - 2070.96] given name a clan name and sometimes a
+
+[2068.679 - 2073.659] cognomen a nickname or additional
+
+[2070.96 - 2075.659] surname that's right
+
+[2073.659 - 2075.659] um
+
+[2076.0 - 2080.08] um so with the given name coming first
+
+[2078.46 - 2081.52] followed by the clan name followed by
+
+[2080.08 - 2083.56] the cognomen
+
+[2081.52 - 2086.08] good so I didn't even have to ask it
+
+[2083.56 - 2089.619] realized that I was struggling
+
+[2086.08 - 2090.52] um okay help me understand
+
+[2089.619 - 2093.2400000000002] um
+
+[2090.52 - 2097.119] what the genitive
+
+[2093.24 - 2099.18] genitive case means
+
+[2097.119 - 2099.1800000000003] um
+
+[2099.58 - 2106.14] the Leary eye looks plural
+
+[2104.32 - 2108.5800000000004] I'm lost
+
+[2106.14 - 2111.0989999999997] in Latin the genitive cases used to
+
+[2108.58 - 2114.2799999999997] indicate possession or ownership in
+
+[2111.099 - 2116.7000000000003] English we use uh the possessive form of
+
+[2114.28 - 2116.7000000000003] a noun
+
+[2118.96 - 2123.16] um genitive cases often indicated by so
+
+[2120.94 - 2124.96] it knows a lot about Latin
+
+[2123.16 - 2126.22] um I've seen a lot of people so while
+
+[2124.96 - 2129.28] it's writing I've seen a lot of people
+
+[2126.22 - 2131.5] talking about how large language models
+
+[2129.28 - 2133.78] don't have mental models of the world
+
+[2131.5 - 2135.94] and I completely disagree this is
+
+[2133.78 - 2138.28] explaining Latin to me and it not only
+
+[2135.94 - 2141.52] that it intuited that I needed to learn
+
+[2138.28 - 2145.119] Latin so please explain to me how it's
+
+[2141.52 - 2147.94] doing this without internal models you
+
+[2145.119 - 2150.9] can't trust me I have a bookcase full of
+
+[2147.94 - 2150.9] Neuroscience over there
+
+[2151.359 - 2156.339] okay let me do a quick time check we are
+
+[2153.88 - 2157.9] at 35 minutes we'll try and wrap this up
+
+[2156.339 - 2158.619] pretty quick
+
+[2157.9 - 2161.8] um
+
+[2158.619 - 2164.38] okay great please summarize everything
+
+[2161.8 - 2167.5600000000004] up to this point
+
+[2164.38 - 2170.7400000000002] um uh everything let's say uh everything
+
+[2167.56 - 2173.0789999999997] about the story up to this point
+
+[2170.74 - 2175.18] um you can ignore the sidebar
+
+[2173.079 - 2177.3] conversations
+
+[2175.18 - 2177.2999999999997] um
+
+[2178.02 - 2183.04] let's go ahead and
+
+[2181.0 - 2183.76] um so for example
+
+[2183.04 - 2187.24] um
+
+[2183.76 - 2189.76] so geniform is is for first first and
+
+[2187.24 - 2191.4399999999996] second declension nouns like Valerius I
+
+[2189.76 - 2193.0] don't even um I'm not going to learn
+
+[2191.44 - 2194.68] that much about Latin right now but I
+
+[2193.0 - 2196.3] guess I'm going to
+
+[2194.68 - 2198.64] um okay here it finally explained it
+
+[2196.3 - 2200.2000000000003] Cornelia valyria
+
+[2198.64 - 2202.9] um
+
+[2200.2 - 2204.2799999999997] so Cornelia belonging to the Valerius
+
+[2202.9 - 2207.7000000000003] Clan got it
+
+[2204.28 - 2211.5400000000004] let's go with this uh for now
+
+[2207.7 - 2217.7799999999997] um Cornelia valyria
+
+[2211.54 - 2218.98] um uh will figure out her cognomin later
+
+[2217.78 - 2221.02] um
+
+[2218.98 - 2226.7400000000002] yeah
+
+[2221.02 - 2226.74] please go ahead and summarize our story
+
+[2229.3 - 2232.7200000000003] the story is set during the height of
+
+[2231.339 - 2234.52] the Roman Empire a time of great
+
+[2232.72 - 2235.9599999999996] prosperity and opportunity but also a
+
+[2234.52 - 2237.82] time of strict social hierarchy and
+
+[2235.96 - 2240.46] rigid rules of behavior
+
+[2237.82 - 2242.56] the main character is Cornelia Cornelia
+
+[2240.46 - 2244.3] valyria a courtesan who was born into
+
+[2242.56 - 2246.94] the powerful and Wealthy Patrician
+
+[2244.3 - 2248.6800000000003] family but has fallen on hard times due
+
+[2246.94 - 2250.839] to betrayal and Palace Intrigue
+
+[2248.68 - 2253.06] determined to regain her family's former
+
+[2250.839 - 2256.54] status and protect them from further
+
+[2253.06 - 2257.619] harm she uh turns to courtesan work as a
+
+[2256.54 - 2259.9] way to earn her living and support
+
+[2257.619 - 2262.1800000000003] herself she climbs a social ladder
+
+[2259.9 - 2263.32] through her beauty charm and witch he's
+
+[2262.18 - 2265.66] able to
+
+[2263.32 - 2267.339] um blah blah blah she ultimately must
+
+[2265.66 - 2268.98] make a choice that takes place during
+
+[2267.339 - 2271.9] the
+
+[2268.98 - 2274.06] Roman or Emperor trajan she navigates
+
+[2271.9 - 2277.48] the complex World okay
+
+[2274.06 - 2280.839] um this is great please add the details
+
+[2277.48 - 2281.82] we discussed about the fall of her
+
+[2280.839 - 2287.099] family
+
+[2281.82 - 2291.52] specifically that specifically they were
+
+[2287.099 - 2294.88] participating in the grand public works
+
+[2291.52 - 2295.72] such as the aqueducts
+
+[2294.88 - 2297.82] um
+
+[2295.72 - 2299.4599999999996] and that uh
+
+[2297.82 - 2303.82] betrayal
+
+[2299.46 - 2308.02] was over that please incorporate that
+
+[2303.82 - 2309.119] into your summary and add the date as
+
+[2308.02 - 2315.7] well
+
+[2309.119 - 2317.7400000000002] 110 8 A.D when Cornelia was 12.
+
+[2315.7 - 2319.839] um so again by asking it to restate
+
+[2317.74 - 2321.9399999999996] things it kind of says okay the document
+
+[2319.839 - 2323.14] is written here
+
+[2321.94 - 2325.78] um
+
+[2323.14 - 2327.7] and it's I confused it again
+
+[2325.78 - 2329.619] um by because it says oh it's it's set
+
+[2327.7 - 2331.66] in in one 1080.
+
+[2329.619 - 2334.8] um
+
+[2331.66 - 2334.7999999999997] uh let's see
+
+[2336.099 - 2340.78] and um
+
+[2338.44 - 2343.96] the story is set
+
+[2340.78 - 2346.8590000000004] um a few years later as she comes into
+
+[2343.96 - 2346.859] adulthood
+
+[2348.82 - 2352.48] um here's an updated summary of the
+
+[2350.26 - 2355.619] story the story is set in 11080 okay
+
+[2352.48 - 2355.619] whatever I'm not going to fight it
+
+[2355.839 - 2359.92] what I mean is like okay I could
+
+[2358.18 - 2361.66] probably reword this but like this is
+
+[2359.92 - 2363.78] good enough
+
+[2361.66 - 2363.7799999999997] um
+
+[2368.2 - 2370.9199999999996] there we go
+
+[2374.859 - 2379.66] yep there we go okay
+
+[2377.32 - 2381.88] I really like this as a as a backstory
+
+[2379.66 - 2384.5789999999997] because it gives her a very very complex
+
+[2381.88 - 2388.079] set of motivations and
+
+[2384.579 - 2388.079] um let's say baggage to work through
+
+[2388.359 - 2392.56] um but yeah I think we'll call this a
+
+[2389.859 - 2395.14] day I'm super pleased with this
+
+[2392.56 - 2397.839] um and we will uh we will be back
+
+[2395.14 - 2399.46] because I love doing this
+
+[2397.839 - 2402.2999999999997] um and I hope you guys enjoyed it so
+
+[2399.46 - 2402.3] thanks for watching

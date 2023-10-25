@@ -1,0 +1,2577 @@
+[0.92 - 5.4] okay hey everybody David Shapiro here
+
+[3.659 - 7.9799999999999995] with a video
+
+[5.4 - 11.58] um by popular choice we are covering Ai
+
+[7.98 - 14.280000000000001] and evolution will we become something
+
+[11.58 - 16.139] else let's take a deep dive uh real
+
+[14.28 - 19.08] quick just a few seconds I want to plug
+
+[16.139 - 21.419999999999998] my patreon I am most of the way to my
+
+[19.08 - 24.119] goal of five thousand dollars a month
+
+[21.42 - 25.859] from patreon supporters once I get there
+
+[24.119 - 27.599] I will demonetize all my videos
+
+[25.859 - 28.92] permanently
+
+[27.599 - 30.0] um because I hate ads it's a waste of
+
+[28.92 - 31.859] time
+
+[30.0 - 34.079] um also what you get if you do support
+
+[31.859 - 36.120000000000005] me on patreon is this is the primary way
+
+[34.079 - 38.160000000000004] that I interact with people I updated
+
+[36.12 - 39.66] the tiers so depending on how much
+
+[38.16 - 41.63999999999999] interaction you want whether you just
+
+[39.66 - 43.31999999999999] want to ask a couple questions or even
+
+[41.64 - 46.02] if you want me to go so far as like
+
+[43.32 - 48.719] looking at a proposal or a code the
+
+[46.02 - 49.980000000000004] higher tiers I will be happy to um to
+
+[48.719 - 51.96] look at anything that you're working on
+
+[49.98 - 54.959999999999994] so long as it doesn't conflict with any
+
+[51.96 - 56.46] ndas that's my only caveat is if there's
+
+[54.96 - 58.26] anything that I have signed that I'm not
+
+[56.46 - 60.42] allowed to share I'll let you know but
+
+[58.26 - 61.44] beyond that if you want to interact with
+
+[60.42 - 64.08] me
+
+[61.44 - 65.75999999999999] um patreon is the best way to do so I
+
+[64.08 - 69.78] also generally accept all LinkedIn
+
+[65.76 - 71.58000000000001] connections but I don't always chat on
+
+[69.78 - 72.42] LinkedIn so all right with all that out
+
+[71.58 - 74.46] of the way
+
+[72.42 - 76.92] here's the overview of what we're going
+
+[74.46 - 78.65899999999999] to talk about today so first whenever
+
+[76.92 - 80.46000000000001] you talk about Evolution you really got
+
+[78.659 - 83.10000000000001] to set the stage and address any
+
+[80.46 - 84.65899999999999] assumptions that you're making otherwise
+
+[83.1 - 86.82] people are going to be a little bit lost
+
+[84.659 - 88.619] because Evolution means different things
+
+[86.82 - 90.29899999999999] to different people so I just want to
+
+[88.619 - 91.86] add some framing so we'll start by
+
+[90.299 - 95.10000000000001] talking about evolutionary pressures
+
+[91.86 - 97.32] which is what drives evolution in the
+
+[95.1 - 100.5] first place second we'll talk about
+
+[97.32 - 102.77999999999999] tools and fire we have been tool makers
+
+[100.5 - 104.82] for a very long time and so what I want
+
+[102.78 - 107.72] to do is use this as an example to show
+
+[104.82 - 110.39899999999999] you how technology has already modified
+
+[107.72 - 112.38] our evolutionary trajectory
+
+[110.399 - 113.93900000000001] fast forwarding we'll talk about
+
+[112.38 - 116.28] mechanization in the industrial
+
+[113.939 - 118.13999999999999] revolution and how Technologies like
+
+[116.28 - 121.32000000000001] airplanes and tractors have already
+
+[118.14 - 123.659] impacted our Evolution now that's just
+
+[121.32 - 126.65899999999999] setting the stage again we'll jump into
+
+[123.659 - 129.53900000000002] various AI Technologies so crispr I know
+
+[126.659 - 132.06] is not is not strictly a uh AI
+
+[129.539 - 134.39999999999998] technology but Alpha fold is and those
+
+[132.06 - 136.92000000000002] two go together like peanut butter and
+
+[134.4 - 138.48000000000002] jelly so we'll talk about how these
+
+[136.92 - 140.72] Technologies might have a very direct
+
+[138.48 - 144.0] impact on Evolution
+
+[140.72 - 145.879] next we'll talk about whether or not AI
+
+[144.0 - 148.2] is going to make us smarter or Dumber
+
+[145.879 - 151.2] this is a question that comes up a lot
+
+[148.2 - 152.7] with tools like chat GPT a lot of people
+
+[151.2 - 154.44] are thinking man this is going to make
+
+[152.7 - 157.98] all of us Dumber
+
+[154.44 - 160.02] maybe we'll we'll uh take that apart uh
+
+[157.98 - 162.23899999999998] once we get there uh next we'll talk
+
+[160.02 - 164.81900000000002] about post-scarcity so basically what
+
+[162.239 - 165.9] happens if AI means that we don't have
+
+[164.819 - 167.879] to work anymore
+
+[165.9 - 170.22] uh how does that change our relationship
+
+[167.879 - 172.2] to each other to ourselves and how might
+
+[170.22 - 173.76] that influence our trajectory in
+
+[172.2 - 175.67999999999998] evolution
+
+[173.76 - 178.14] um the last AI topic will be AI in
+
+[175.68 - 179.87900000000002] dating so from an evolutionary
+
+[178.14 - 183.05999999999997] perspective this is called mate
+
+[179.879 - 185.879] selection or sexual selection so how
+
+[183.06 - 187.44] will AI impact who we choose to have
+
+[185.879 - 189.72] children with because that is one of the
+
+[187.44 - 192.12] primary drivers of evolution
+
+[189.72 - 194.519] and finally we'll touch on the ethics
+
+[192.12 - 197.4] and ramifications of all this stuff what
+
+[194.519 - 199.019] are the pros and cons of allowing AI to
+
+[197.4 - 201.72] influence our evolution
+
+[199.019 - 203.22] okay so first we've got evolutionary
+
+[201.72 - 206.159] pressures
+
+[203.22 - 209.58] for those not in the know evolution is
+
+[206.159 - 211.98] was defined super simple as uh if you
+
+[209.58 - 214.20000000000002] have variation and selection you must
+
+[211.98 - 216.659] have Evolution that were those were the
+
+[214.2 - 218.7] words of Charles Darwin the father of
+
+[216.659 - 220.92] our modern theory of evolution and of
+
+[218.7 - 223.73899999999998] course this theory has panned out so far
+
+[220.92 - 225.95899999999997] so good it stands up to pretty much all
+
+[223.739 - 227.519] scrutiny there are a lot of nuances I
+
+[225.959 - 229.31900000000002] can hear some people already saying well
+
+[227.519 - 231.48000000000002] actually we're not going to go into the
+
+[229.319 - 234.95899999999997] nuances of evolution point being though
+
+[231.48 - 238.61999999999998] is species change over time now the
+
+[234.959 - 240.299] primary uh method of evolution is what's
+
+[238.62 - 242.519] called natural selection
+
+[240.299 - 244.5] so natural selection uh you might have
+
+[242.519 - 246.12] heard survival of the fittest which
+
+[244.5 - 247.92] basically so fittest is not like
+
+[246.12 - 250.08] physical fitness not like how like
+
+[247.92 - 252.95899999999997] jacked you are it's how well you fit
+
+[250.08 - 254.22] into your evolutionary role so our
+
+[252.959 - 255.84] fitness
+
+[254.22 - 258.78] um and oh and fitness is primarily
+
+[255.84 - 262.32] measured by number of viable Offspring
+
+[258.78 - 263.94] so if an If an organism has more viable
+
+[262.32 - 265.979] Offspring it is said to have higher
+
+[263.94 - 268.74] Fitness that is how that is the primary
+
+[265.979 - 271.199] indicator that is the kpi if you want to
+
+[268.74 - 272.88] use a technology term of Fitness the
+
+[271.199 - 274.91900000000004] more babies you have that make it to
+
+[272.88 - 276.419] adulthood and also procreate the higher
+
+[274.919 - 279.12] your Fitness
+
+[276.419 - 282.419] um has it has nothing specifically to do
+
+[279.12 - 284.759] with adaptation because individuals
+
+[282.419 - 287.84] cannot adapt but a species can adapt as
+
+[284.759 - 290.16] a whole over time through higher Fitness
+
+[287.84 - 294.0] sexual selection which I just mentioned
+
+[290.16 - 297.06] a moment ago is who you choose to have
+
+[294.0 - 299.94] children with this is a really uh
+
+[297.06 - 302.82] interesting way so uh the the evolution
+
+[299.94 - 306.12] of of gender or or sexual differences
+
+[302.82 - 307.86] was a really powerful Innovation and
+
+[306.12 - 310.62] there's a reason is because it allows
+
+[307.86 - 313.32] for really quick recombination rather
+
+[310.62 - 314.82] than cloning which is much slower and
+
+[313.32 - 316.139] that's how like bacteria evolved
+
+[314.82 - 317.82] although I will say that there are
+
+[316.139 - 319.32] plenty of bacteria that have lateral
+
+[317.82 - 321.74] Gene transfer without sexual
+
+[319.32 - 325.259] reproduction but sexual reproduction has
+
+[321.74 - 327.44] immense benefits for um evolution
+
+[325.259 - 331.199] and that's why it's that's why it's here
+
+[327.44 - 333.78] gene flow so gene flow is as populations
+
+[331.199 - 334.62] move you get admixture or you get
+
+[333.78 - 336.419] different
+
+[334.62 - 338.58] um you you get a different genetic
+
+[336.419 - 341.75899999999996] populations and they change over time so
+
+[338.58 - 343.68] that's gene flow genetic drift is how
+
+[341.759 - 345.6] genes might change within a population
+
+[343.68 - 349.5] over time
+
+[345.6 - 352.199] um based on uh in inter species
+
+[349.5 - 354.0] competition so competition between one
+
+[352.199 - 356.58000000000004] species and another that can cause
+
+[354.0 - 358.8] genetic drift or intra species component
+
+[356.58 - 360.78] competition so that's competition within
+
+[358.8 - 363.3] the species can also cause genetic drift
+
+[360.78 - 365.58] so that the species itself might have
+
+[363.3 - 367.979] some kind of sexual antagonism like
+
+[365.58 - 370.32] peacocks and P hens so peacocks have
+
+[367.979 - 372.3] their big giant plumage they probably
+
+[370.32 - 373.919] didn't always have that and so sexual
+
+[372.3 - 376.5] selection genetic drift within that
+
+[373.919 - 380.69899999999996] population cause them to get the plumage
+
+[376.5 - 382.319] which actually is a maladaptive peacocks
+
+[380.699 - 384.36] with their big plumage are more likely
+
+[382.319 - 385.8] to get attacked and eaten so there's a
+
+[384.36 - 389.759] huge cost to that
+
+[385.8 - 391.139] and then finally mutation so one thing
+
+[389.759 - 393.84000000000003] that that's really important to remember
+
+[391.139 - 395.639] is that a lot of evolution and a lot of
+
+[393.84 - 399.06] genetic variation has nothing to do with
+
+[395.639 - 400.56] mutations I think I read a while ago on
+
+[399.06 - 401.16] average
+
+[400.56 - 403.56] um
+
+[401.16 - 407.16] the the average like human child has
+
+[403.56 - 409.56] only 30 total genetic mutations from
+
+[407.16 - 411.53900000000004] their parents out of what is it three
+
+[409.56 - 414.18] billion genes or whatever I don't
+
+[411.539 - 416.28] remember or three billion base pairs I
+
+[414.18 - 419.039] think we have 30 000 genes and about 3
+
+[416.28 - 422.58] billion base pairs so out of all of that
+
+[419.039 - 426.9] we only have 30 unique mutations or
+
+[422.58 - 429.71999999999997] single nucleotide polymorphisms snps and
+
+[426.9 - 433.67999999999995] so that tells you how efficient and
+
+[429.72 - 436.91900000000004] reliable our genetic copying uh uh um
+
+[433.68 - 439.259] Machinery is but it does happen and so
+
+[436.919 - 442.56] genetic mutations are very very slow
+
+[439.259 - 445.08000000000004] however genetic recombinations are much
+
+[442.56 - 446.58] faster which is why sexual selection is
+
+[445.08 - 449.46] such a Powerhouse when it comes to
+
+[446.58 - 453.06] Evolution it is definitely op I would
+
+[449.46 - 455.28] love to see a tier zoo video on how on
+
+[453.06 - 457.02] sexual reproduction versus asexual
+
+[455.28 - 459.599] reproduction anyways I'm That Kind of
+
+[457.02 - 461.099] nerd okay so that is how natural
+
+[459.599 - 463.86] selection happens but what are the
+
+[461.099 - 467.34] pressures that drive Evolution first
+
+[463.86 - 469.08000000000004] food food is absolutely the number one
+
+[467.34 - 470.75899999999996] most powerful driver of evolution
+
+[469.08 - 473.21999999999997] because if you don't have food you
+
+[470.759 - 474.90000000000003] starve so the more things you can eat or
+
+[473.22 - 477.47900000000004] the better you are at getting finding
+
+[474.9 - 480.539] and controlling food the better you do
+
+[477.479 - 483.3] humans are apex predators and omnivores
+
+[480.539 - 484.979] we can eat just about anything we can
+
+[483.3 - 486.66] even eat poisonous stuff because we can
+
+[484.979 - 488.88] figure out how to cook it and make it
+
+[486.66 - 490.97900000000004] not poisonous like look at puffer fish
+
+[488.88 - 493.139] and um and plants from the nightshade
+
+[490.979 - 495.78] family and all kinds of stuff we can
+
+[493.139 - 498.72] domesticate crops cereal crops grains we
+
+[495.78 - 500.75899999999996] can domesticate cows we mastered food
+
+[498.72 - 503.28000000000003] and be and we'll get in we'll get into
+
+[500.759 - 504.91900000000004] more details on that later
+
+[503.28 - 507.539] um so actually I'll stop myself there
+
+[504.919 - 509.87899999999996] environmental change is another huge
+
+[507.539 - 511.979] huge driver of evolution as the climate
+
+[509.879 - 514.86] changes it gets hotter it gets warmer it
+
+[511.979 - 517.6999999999999] gets colder drier wetter whatever those
+
+[514.86 - 520.02] those create immense pressures on
+
+[517.7 - 522.3000000000001] species and individuals
+
+[520.02 - 524.6999999999999] and you can have sudden environmental
+
+[522.3 - 526.74] changes so like you might have
+
+[524.7 - 528.839] um a period where with a lot of volcanic
+
+[526.74 - 530.4590000000001] activity which puts particulates in the
+
+[528.839 - 533.1] atmosphere which usually causes global
+
+[530.459 - 536.64] cooling not always but usually you can
+
+[533.1 - 539.0400000000001] also have changes in solar behavior
+
+[536.64 - 541.5] um it has been hypothesized that Earth's
+
+[539.04 - 544.26] position in the solar system and in the
+
+[541.5 - 546.48] Galaxy actually changes our exposure to
+
+[544.26 - 548.3389999999999] things like cosmic rays over time so
+
+[546.48 - 550.8000000000001] there are cyclical
+
+[548.339 - 553.5] um uh uh extinctions that happen every
+
+[550.8 - 555.42] now and then and they're so regular that
+
+[553.5 - 557.7] it looks like maybe it has to do with
+
+[555.42 - 560.279] like where we are in the cosmos
+
+[557.7 - 562.74] excuse me so that can be an example of
+
+[560.279 - 566.399] an environmental change stuff from way
+
+[562.74 - 568.62] way out in space might impact evolution
+
+[566.399 - 570.959] and then on a more mundane level
+
+[568.62 - 572.82] predation we don't have to worry about
+
+[570.959 - 575.2199999999999] that because we are the predators now
+
+[572.82 - 576.6600000000001] but certainly other animals and ancient
+
+[575.22 - 578.399] humans had to worry about getting eaten
+
+[576.66 - 580.68] by like bears and saber-toothed tigers
+
+[578.399 - 582.899] and stuff disease that is still a big
+
+[580.68 - 585.0] one so who is susceptible to what
+
+[582.899 - 587.64] diseases whether they are autologous
+
+[585.0 - 590.16] diseases so cancer is an example of a
+
+[587.64 - 594.0] disease that comes from within or it's
+
+[590.16 - 598.14] an external disease like flu and viruses
+
+[594.0 - 600.6] and and uh MRSA methicillin resistant
+
+[598.14 - 603.8] staphylococcus right so diseases your
+
+[600.6 - 606.32] resistance to disease one of the biggest
+
+[603.8 - 609.18] drivers of human evolution
+
+[606.32 - 612.9590000000001] was the Black Plague which actually
+
+[609.18 - 615.42] since it killed 30 like a third of all
+
+[612.959 - 617.5799999999999] population in Europe what it did was it
+
+[615.42 - 620.9399999999999] left the people who were just happened
+
+[617.58 - 622.62] to me more genetically uh resistant to
+
+[620.94 - 624.62] those diseases and so it's what's
+
+[622.62 - 627.0600000000001] interesting is that every now and then
+
+[624.62 - 630.66] archaeologists will excavate
+
+[627.06 - 632.04] um some uh like uh pits from around you
+
+[630.66 - 633.8389999999999] know the Dark Ages or even going back to
+
+[632.04 - 636.3] the Roman ages and they'll find
+
+[633.839 - 637.86] bacterium that they think were were the
+
+[636.3 - 639.54] cause of the plague and when they
+
+[637.86 - 641.519] identify the species of bacterium it's
+
+[639.54 - 643.38] like this doesn't even cause a skin rash
+
+[641.519 - 645.54] today and so that tells you that
+
+[643.38 - 648.06] Evolution because of our travel our
+
+[645.54 - 650.16] globalization we get exposed to so many
+
+[648.06 - 652.6199999999999] diseases and we have actually evolved to
+
+[650.16 - 656.279] be so much more resistant to disease
+
+[652.62 - 658.62] that like I always laugh because
+
+[656.279 - 661.74] um every time travel movie if you even
+
+[658.62 - 665.1] go back 50 years you will be the bringer
+
+[661.74 - 666.839] of death you will be the plague Bearer
+
+[665.1 - 670.0790000000001] um let alone if you go back 500 years
+
+[666.839 - 673.44] everyone you meet if you go back in time
+
+[670.079 - 676.5] will die because the the the bugs on
+
+[673.44 - 679.44] your skin and in your like body will
+
+[676.5 - 681.42] kill everyone so don't do time travel
+
+[679.44 - 682.98] kids that's probably why we don't have
+
+[681.42 - 684.7199999999999] any time travelers from the future even
+
+[682.98 - 687.779] if time travel is possible in the future
+
+[684.72 - 689.22] they'd be like um no we if we go back
+
+[687.779 - 691.8] we're going to kill everyone
+
+[689.22 - 694.44] that is how much our Evolution has
+
+[691.8 - 697.019] progressed in terms of Immunology just
+
+[694.44 - 698.4590000000001] in the last few hundred years and then
+
+[697.019 - 700.2] finally competition I already talked
+
+[698.459 - 701.9399999999999] about um inter and intro species
+
+[700.2 - 704.0400000000001] competition so I don't need to go over
+
+[701.94 - 706.5600000000001] that okay so with all that in mind you
+
+[704.04 - 708.3] are now primed to understand what drives
+
+[706.56 - 711.8389999999999] evolution
+
+[708.3 - 714.4799999999999] so talking about humans specifically we
+
+[711.839 - 717.3800000000001] are the tool makers we make and use
+
+[714.48 - 719.94] tools and have been doing so since
+
+[717.38 - 722.88] Paleolithic times since even before
+
+[719.94 - 724.62] modern humans Homo sapiens sapiens we
+
+[722.88 - 728.42] have been tool makers and Tool users
+
+[724.62 - 730.74] whether it's Stone bone wood
+
+[728.42 - 734.12] threads whatever
+
+[730.74 - 736.8] what now this our ability to use tools
+
+[734.12 - 738.48] required fine motor control so that fine
+
+[736.8 - 741.0] motor control is controlled in the brain
+
+[738.48 - 743.5790000000001] stem and cerebellum but it also requires
+
+[741.0 - 746.399] more planning and thinking ahead so in
+
+[743.579 - 748.1999999999999] the book um on task he they he talked
+
+[746.399 - 750.6] the opening I think is the introduction
+
+[748.2 - 753.839] of the first chapter talks about how
+
+[750.6 - 755.399] using tools finding materials this
+
+[753.839 - 757.6800000000001] requires a lot more cognitive control
+
+[755.399 - 759.899] which uh cognitive control happens in
+
+[757.68 - 761.76] the prefrontal cortex so our entire
+
+[759.899 - 763.62] brain from the from the most primitive
+
+[761.76 - 766.86] structures to the most sophisticated
+
+[763.62 - 769.98] structures go into tool making and Tool
+
+[766.86 - 772.0790000000001] use now what does that do for us and how
+
+[769.98 - 773.82] does that shape Evolution one of the
+
+[772.079 - 776.9399999999999] primary things that it does is it gives
+
+[773.82 - 778.2] us access to new food so if we if we
+
+[776.94 - 780.5400000000001] come up with a bow and arrow and
+
+[778.2 - 782.279] suddenly we or or a spear and we can
+
+[780.54 - 784.019] take down a woolly mammoth a woolly
+
+[782.279 - 785.16] mammoth has like a billion calories I
+
+[784.019 - 787.019] don't know if it's that much but like
+
+[785.16 - 788.579] let's say let's let's just assume that a
+
+[787.019 - 791.339] woolly mammoth has millions of calories
+
+[788.579 - 793.38] right that's enough to feed your entire
+
+[791.339 - 795.12] Village for like a month
+
+[793.38 - 797.399] um I don't know if that's how long it
+
+[795.12 - 800.16] lasts but basically having new dietary
+
+[797.399 - 802.32] options really changes your evolutionary
+
+[800.16 - 804.48] trajectory and because we had such a
+
+[802.32 - 806.399] huge advantage of tool use Evolution
+
+[804.48 - 808.74] doubled down on that and so it's like
+
+[806.399 - 810.48] hey we just unlocked this new skill tree
+
+[808.74 - 812.5790000000001] so let's keep spamming that skill tree
+
+[810.48 - 814.26] because it's a really good one tool use
+
+[812.579 - 815.579] overpowered
+
+[814.26 - 818.22] another thing that we did was we
+
+[815.579 - 820.5] mastered fire so fire does a lot of
+
+[818.22 - 822.1800000000001] things for us one it allows us to cook
+
+[820.5 - 824.88] food which again expands our dietary
+
+[822.18 - 826.9799999999999] options even further so between tool use
+
+[824.88 - 829.32] and fire that's why we are omnivores we
+
+[826.98 - 832.2] can eat everything now that being said
+
+[829.32 - 834.839] our because cooked food is easier to eat
+
+[832.2 - 837.4200000000001] and digest our stomachs became less
+
+[834.839 - 840.86] acidic our Jaws became smaller as did
+
+[837.42 - 843.18] our teeth and weaker and all of that
+
+[840.86 - 844.86] also spoke to
+
+[843.18 - 847.56] um we were already social at least we
+
+[844.86 - 849.0] think we were already social but
+
+[847.56 - 851.2199999999999] um communal hunting efforts and
+
+[849.0 - 854.639] Gathering efforts and then agrarian
+
+[851.22 - 857.6600000000001] society had huge social implications and
+
+[854.639 - 860.1] so tools and fire probably helped drive
+
+[857.66 - 862.74] all the genetic Machinery that
+
+[860.1 - 865.86] eventually gave rise to civilization and
+
+[862.74 - 867.9590000000001] then social like Civilization and social
+
+[865.86 - 869.76] tribes social units that is another
+
+[867.959 - 871.8599999999999] driver of evolution because you have to
+
+[869.76 - 874.3199999999999] be smarter in order to learn language
+
+[871.86 - 876.36] for instance because at some point in
+
+[874.32 - 878.5790000000001] the in the ancient history we didn't
+
+[876.36 - 880.86] have a language but at some point we did
+
+[878.579 - 882.54] get language and so that was an
+
+[880.86 - 885.0] evolutionary thing where it's like okay
+
+[882.54 - 887.459] how do you squish air out of your face
+
+[885.0 - 890.04] and then make like you know meaningful
+
+[887.459 - 892.38] sounds that someone else can understand
+
+[890.04 - 893.9399999999999] that I I could make tons of videos on
+
+[892.38 - 895.38] this this has been like I've read books
+
+[893.94 - 897.1800000000001] about this forever and talked with
+
+[895.38 - 897.8389999999999] people so anyways
+
+[897.18 - 900.3599999999999] um
+
+[897.839 - 902.339] once once you get more sophisticated
+
+[900.36 - 904.74] around tool making and Tool use that
+
+[902.339 - 907.3800000000001] unlocks a whole new skill tree you can
+
+[904.74 - 909.48] make clothes you can make shoes which uh
+
+[907.38 - 911.279] thick clothes that allows you to get out
+
+[909.48 - 912.9590000000001] of hot climates and into cold climates
+
+[911.279 - 916.56] that you otherwise couldn't survive in
+
+[912.959 - 918.7199999999999] it allows you to build uh huts and boats
+
+[916.56 - 921.3] and all kinds of stuff that allows you
+
+[918.72 - 923.88] to continue to expand across the globe
+
+[921.3 - 926.2199999999999] so tool use and Fire
+
+[923.88 - 928.38] are like super overpowered and that is
+
+[926.22 - 931.139] why humans are we're a global species
+
+[928.38 - 932.459] even before we had modern technology
+
+[931.139 - 934.8] okay
+
+[932.459 - 937.3199999999999] we were already Global but you fast
+
+[934.8 - 940.74] forward to the Industrial Revolution we
+
+[937.32 - 944.82] invent uh steamships airplanes airliners
+
+[940.74 - 947.82] uh and and Industrial Agriculture and
+
+[944.82 - 950.82] this continues to influence Evolution
+
+[947.82 - 952.32] it's too soon to really say like oh this
+
+[950.82 - 956.519] is the way that it's going to impact
+
+[952.32 - 958.98] Evolution but it absolutely is and so uh
+
+[956.519 - 961.079] remember how gene flow is one of the um
+
+[958.98 - 962.88] one of the drivers of evolution
+
+[961.079 - 965.279] when you can
+
+[962.88 - 967.86] be born in India and then move to
+
+[965.279 - 970.74] America or vice versa you can literally
+
+[967.86 - 973.019] go Halfway Around the World start a
+
+[970.74 - 975.0] family then your kids can go elsewhere
+
+[973.019 - 976.26] you can you know like there's people on
+
+[975.0 - 977.76] the East Coast that go to the West Coast
+
+[976.26 - 979.92] there's people that go to Europe and
+
+[977.76 - 983.16] Europeans come here go to Africa
+
+[979.92 - 985.019] Australia whatever so we have more gene
+
+[983.16 - 987.779] flow in the human species than we have
+
+[985.019 - 989.82] ever seen and it is impossible to
+
+[987.779 - 991.4399999999999] predict how that's going to happen or or
+
+[989.82 - 993.36] how that's going to impact Evolution but
+
+[991.44 - 995.94] it absolutely is
+
+[993.36 - 999.24] it also allows for invasive species so
+
+[995.94 - 1001.94] just as an example of how mass transit
+
+[999.24 - 1003.98] Global Transit can impact Evolution when
+
+[1001.94 - 1005.6] you in when you introduce an invasive
+
+[1003.98 - 1006.44] species whether it's on accident or on
+
+[1005.6 - 1008.12] purpose
+
+[1006.44 - 1010.399] it will have an impact on the local
+
+[1008.12 - 1011.42] ecology so humans we are an invasive
+
+[1010.399 - 1012.86] species
+
+[1011.42 - 1015.019] at least that's one way of looking at it
+
+[1012.86 - 1017.42] are cats domestic cats are one of the
+
+[1015.019 - 1019.279] worst invasive species oh and by the way
+
+[1017.42 - 1020.899] they exist on every continent including
+
+[1019.279 - 1022.22] Antarctica
+
+[1020.899 - 1024.14] um I think though that the cats on
+
+[1022.22 - 1025.88] Antarctica if humans were to leave
+
+[1024.14 - 1028.88] Antarctica the cats would probably all
+
+[1025.88 - 1030.74] freeze and starve but there's plants in
+
+[1028.88 - 1032.3600000000001] the South we have Kudzu that's an
+
+[1030.74 - 1034.88] invasive species that came from Asia
+
+[1032.36 - 1036.9189999999999] there's invasive bugs there's the pine
+
+[1034.88 - 1038.8390000000002] beetles and Oak beetles and whatever
+
+[1036.919 - 1041.8390000000002] else that are killing other things and
+
+[1038.839 - 1044.78] then there's frogs and cane toads these
+
+[1041.839 - 1048.02] all impact their local ecosystem by
+
+[1044.78 - 1050.24] modifying um ecological equilibriums and
+
+[1048.02 - 1052.7] that sort of stuff now from a human
+
+[1050.24 - 1055.039] perspective what we are seeing is what
+
+[1052.7 - 1057.26] you might call a mutt right I remember I
+
+[1055.039 - 1060.02] was on OkCupid probably 12 years ago and
+
+[1057.26 - 1062.72] there's a a girl who called herself an
+
+[1060.02 - 1064.46] Eastern European mutt and I'm just like
+
+[1062.72 - 1067.039] okay cool
+
+[1064.46 - 1069.2] um but basically because of this this
+
+[1067.039 - 1071.9] you know we've had about a century and a
+
+[1069.2 - 1074.1200000000001] half of global Transit
+
+[1071.9 - 1077.96] um where you know it's it's even cheaper
+
+[1074.12 - 1081.1999999999998] today where almost anyone can travel
+
+[1077.96 - 1083.539] thousands of miles to start a new family
+
+[1081.2 - 1086.539] um this creates what's called heterosis
+
+[1083.539 - 1091.22] so heterosis is basically hybridization
+
+[1086.539 - 1093.799] which um this often masks or uh reduces
+
+[1091.22 - 1095.48] the expression of genetic diseases and
+
+[1093.799 - 1097.8799999999999] so like if you if you take someone who
+
+[1095.48 - 1100.34] is from a particular population like
+
+[1097.88 - 1102.8600000000001] sub-Saharan Africa they might have
+
+[1100.34 - 1104.78] certain uh predilections towards certain
+
+[1102.86 - 1107.36] diseases like maybe diabetes or whatever
+
+[1104.78 - 1109.76] but then if the if you take that
+
+[1107.36 - 1112.2199999999998] sub-Saharan African and let's say they
+
+[1109.76 - 1114.559] have children with a uh you know a
+
+[1112.22 - 1116.1200000000001] northern European person and their
+
+[1114.559 - 1118.66] children are a perfect hybrid of these
+
+[1116.12 - 1121.6399999999999] two very distinct genetic populations
+
+[1118.66 - 1124.88] that child is very likely to be
+
+[1121.64 - 1126.7990000000002] healthier than either parent we see this
+
+[1124.88 - 1128.6000000000001] in dogs so this is why mutts are much
+
+[1126.799 - 1131.0] healthier than purebreds and this is why
+
+[1128.6 - 1132.559] I will pretty much never ever adopt a
+
+[1131.0 - 1134.539] purebred dog
+
+[1132.559 - 1136.46] um you know my dog that you sometimes
+
+[1134.539 - 1139.58] see in my videos he's 12 years old and
+
+[1136.46 - 1142.22] still runs at full speed and he has his
+
+[1139.58 - 1143.84] hearing he has his sight whereas a
+
+[1142.22 - 1146.059] German Shepherd which is part of what he
+
+[1143.84 - 1149.1399999999999] is would probably be dead by 12 years
+
+[1146.059 - 1152.4189999999999] honestly so heterosis good thing
+
+[1149.14 - 1155.0590000000002] overpowered so get on an airplane do
+
+[1152.419 - 1156.38] your species a favor and find an exotic
+
+[1155.059 - 1157.94] person to have children no don't do that
+
+[1156.38 - 1159.919] I'm not telling you what to do just
+
+[1157.94 - 1161.9] pointing out that heterosis is a good
+
+[1159.919 - 1164.539] thing and actually it is suspected that
+
+[1161.9 - 1167.419] this is why we have this is for both men
+
+[1164.539 - 1169.58] and women why we find exotic people more
+
+[1167.419 - 1171.919] attractive is because it's like ooh
+
+[1169.58 - 1174.08] she's pretty she doesn't look like the
+
+[1171.919 - 1176.419] local girls I want some of that and then
+
+[1174.08 - 1178.58] same thing for uh for women too I
+
+[1176.419 - 1180.98] remember I watched a video many years
+
+[1178.58 - 1183.559] ago of an American woman who went to
+
+[1180.98 - 1186.26] Japan and she was talking about like I'm
+
+[1183.559 - 1187.8799999999999] I'm exotic now this is weird all the
+
+[1186.26 - 1191.0] Japanese men like me because like I'm
+
+[1187.88 - 1192.38] you know I'm I'm the white one it's very
+
+[1191.0 - 1194.72] interesting so point being though is
+
+[1192.38 - 1197.48] there is some genetic reason
+
+[1194.72 - 1199.82] um and benefit to being interested in
+
+[1197.48 - 1201.799] exotic people now that being said don't
+
+[1199.82 - 1204.1399999999999] objectify people you're like don't just
+
+[1201.799 - 1206.24] try and get a notch in your belt
+
+[1204.14 - 1208.4] um so we're already touching on the the
+
+[1206.24 - 1209.48] ethics and stuff anyways moving right
+
+[1208.4 - 1211.039] along
+
+[1209.48 - 1213.44] um industrialization had a lot of
+
+[1211.039 - 1216.62] impacts above and beyond Transit there
+
+[1213.44 - 1219.02] was um mechanized agriculture so with
+
+[1216.62 - 1221.78] the Advent of modern agriculture
+
+[1219.02 - 1224.179] industrial uh scale agriculture we
+
+[1221.78 - 1226.8799999999999] suddenly had way more calories than ever
+
+[1224.179 - 1228.44] before part of the reason that we did
+
+[1226.88 - 1231.2600000000002] this was actually
+
+[1228.44 - 1234.14] um during World War II the United States
+
+[1231.26 - 1235.64] Army they created a schedule of like
+
+[1234.14 - 1238.039] measuring
+
+[1235.64 - 1240.44] um uh recruits based on their like
+
+[1238.039 - 1242.419] physical strength stamina weight height
+
+[1240.44 - 1244.94] everything and what they found was that
+
+[1242.419 - 1247.2800000000002] a lot of Americans were actually too
+
+[1244.94 - 1248.9] malnourished to even join the Army and
+
+[1247.28 - 1251.96] the military was like yeah that's no
+
+[1248.9 - 1253.22] good uh in in case of future Wars we
+
+[1251.96 - 1255.74] need to make sure that we have a lot of
+
+[1253.22 - 1258.02] you know strong young healthy men in
+
+[1255.74 - 1259.94] order to recruit them and so what they
+
+[1258.02 - 1262.82] did was in the aftermath of World War II
+
+[1259.94 - 1264.559] there was a lot of nutrition uh programs
+
+[1262.82 - 1266.0] that's actually one of one of the
+
+[1264.559 - 1268.46] reasons not the only reason but one of
+
+[1266.0 - 1271.52] the reasons that we have corn subsidies
+
+[1268.46 - 1273.2] still was because it's like hey a lot of
+
+[1271.52 - 1274.76] a lot of these kids a lot of these young
+
+[1273.2 - 1276.6200000000001] men are too skinny because they didn't
+
+[1274.76 - 1278.72] get enough calories so we need to get
+
+[1276.62 - 1281.2399999999998] everyone up to grade a which means we
+
+[1278.72 - 1282.5] need cheap efficient calories and one of
+
+[1281.24 - 1284.9] the ways that we achieved that was
+
+[1282.5 - 1287.059] through corn subsidies and the invention
+
+[1284.9 - 1288.38] of high fructose corn syrup which turned
+
+[1287.059 - 1290.539] out to be a double-edged sword because
+
+[1288.38 - 1292.5800000000002] high fructose corn syrup is not the best
+
+[1290.539 - 1295.1589999999999] metabolically speaking
+
+[1292.58 - 1297.74] um so but all that being said that was
+
+[1295.159 - 1299.659] an unintended consequence of solving the
+
+[1297.74 - 1301.82] calorie problem which we're now figuring
+
+[1299.659 - 1303.98] out right we are we're getting better at
+
+[1301.82 - 1306.02] eating healthy understanding what foods
+
+[1303.98 - 1307.52] are good for us and what foods are bad
+
+[1306.02 - 1309.74] for us and why
+
+[1307.52 - 1312.32] but the point being is that as a species
+
+[1309.74 - 1314.5] in the last hundred years we solved
+
+[1312.32 - 1317.12] calorie problems pretty much permanently
+
+[1314.5 - 1319.34] we produce enough calories as a species
+
+[1317.12 - 1321.26] that nobody has to go hungry the problem
+
+[1319.34 - 1323.12] now is distribution and allocation which
+
+[1321.26 - 1324.3799999999999] we will talk about closer to the end of
+
+[1323.12 - 1325.9399999999998] the video
+
+[1324.38 - 1328.64] um which AI could probably help with
+
+[1325.94 - 1330.919] finally science and medicine in
+
+[1328.64 - 1333.5590000000002] particular have removed certain
+
+[1330.919 - 1335.1200000000001] constraints or bottlenecks so for
+
+[1333.559 - 1336.5] instance I already mentioned that our
+
+[1335.12 - 1338.539] immune systems are stronger than they
+
+[1336.5 - 1340.58] were before and that's partially due to
+
+[1338.539 - 1343.64] Medicine though vaccinations we can
+
+[1340.58 - 1345.02] artificially make our well it's it's not
+
+[1343.64 - 1346.7] I don't say artificially that's not the
+
+[1345.02 - 1348.74] right word but we can make our immune
+
+[1346.7 - 1349.88] system stronger through these controlled
+
+[1348.74 - 1352.039] exposures
+
+[1349.88 - 1353.2990000000002] uh which means that we are now more
+
+[1352.039 - 1355.7] resilient and we didn't have to use
+
+[1353.299 - 1357.26] Evolution to do that that being said
+
+[1355.7 - 1359.72] it's going to be really difficult
+
+[1357.26 - 1361.52] because modern medicine is also like 100
+
+[1359.72 - 1363.799] years old it's going to be really
+
+[1361.52 - 1366.44] difficult to figure out how modern
+
+[1363.799 - 1368.36] medicine is going to impact evolution in
+
+[1366.44 - 1370.4] the long run and AI is just going to
+
+[1368.36 - 1374.6] turn that up to 11.
+
+[1370.4 - 1376.64] um yes so Alpha fold and crispr uh
+
+[1374.6 - 1379.28] basically if you if you're not familiar
+
+[1376.64 - 1381.8600000000001] Alpha fold allows us to predict the Str
+
+[1379.28 - 1383.72] the shape and structure of proteins how
+
+[1381.86 - 1385.039] they how it folds this is a really
+
+[1383.72 - 1387.559] difficult problem because you're
+
+[1385.039 - 1389.6589999999999] basically simulating gigantic molecules
+
+[1387.559 - 1392.299] with a lot of really complex internal
+
+[1389.659 - 1395.179] interactions and it's super
+
+[1392.299 - 1398.24] mathematically intensive Alpha fold tool
+
+[1395.179 - 1401.0] Alpha fold 2 basically solves this
+
+[1398.24 - 1403.22] problem it's not perfect but Alpha fold
+
+[1401.0 - 1406.159] 3 and other Technologies they're gonna
+
+[1403.22 - 1408.32] solve that perfectly so what this does
+
+[1406.159 - 1410.2990000000002] is it allows us to figure out why
+
+[1408.32 - 1415.28] certain genes or genetic combinations
+
+[1410.299 - 1417.9189999999999] result in result in diseases now
+
+[1415.28 - 1419.1789999999999] you might say oh well between Alpha fold
+
+[1417.919 - 1420.5590000000002] and crispr we're going to cure all
+
+[1419.179 - 1423.44] genetic disease it's only a few years
+
+[1420.559 - 1425.36] away it's not that easy unfortunately so
+
+[1423.44 - 1429.679] one reason is that there there are very
+
+[1425.36 - 1432.9189999999999] few bad genes there are a few genes and
+
+[1429.679 - 1435.5] and copy errors and and genetic variants
+
+[1432.919 - 1438.98] that are just known to guarantee a
+
+[1435.5 - 1440.059] disease but most diseases are not single
+
+[1438.98 - 1443.419] genes
+
+[1440.059 - 1446.48] uh so for instance with autism more than
+
+[1443.419 - 1449.6000000000001] 200 genes and then all of their variants
+
+[1446.48 - 1451.28] are associated with the predilection for
+
+[1449.6 - 1453.4399999999998] it and so genes are not really
+
+[1451.28 - 1456.26] deterministic except in a few small
+
+[1453.44 - 1458.24] cases so there's a lot of really complex
+
+[1456.26 - 1461.24] interactions because it's not just genes
+
+[1458.24 - 1463.52] right the the metabolic pathways in the
+
+[1461.24 - 1465.919] body which is an emergent aspect of
+
+[1463.52 - 1469.1589999999999] being a complex organism genes is just
+
+[1465.919 - 1471.98] like the foundation right if you were an
+
+[1469.159 - 1475.1000000000001] analogize genes to like the architecture
+
+[1471.98 - 1477.32] of a building the genes is just like the
+
+[1475.1 - 1478.58] concrete foundation then you still have
+
+[1477.32 - 1479.96] the rest of the building you got all the
+
+[1478.58 - 1481.6999999999998] plumbing you got all the wiring you've
+
+[1479.96 - 1483.8600000000001] got the you know all the other systems
+
+[1481.7 - 1485.0] that go into it so you need the
+
+[1483.86 - 1486.86] foundation
+
+[1485.0 - 1488.78] but that's not all you need you need a
+
+[1486.86 - 1492.02] lot more than that so
+
+[1488.78 - 1493.94] that all said okay if it's if it's super
+
+[1492.02 - 1495.9189999999999] complicated how are these AI
+
+[1493.94 - 1497.8400000000001] Technologies going to impact Evolution
+
+[1495.919 - 1500.6000000000001] well like I just said a minute ago
+
+[1497.84 - 1502.1589999999999] medicine is huge and it's it's really
+
+[1500.6 - 1505.58] difficult to figure out how that's going
+
+[1502.159 - 1507.8600000000001] to impact evolution in the long run but
+
+[1505.58 - 1510.1999999999998] right off the right off the cuff what it
+
+[1507.86 - 1511.9399999999998] looks like uh genetic medicine and AI is
+
+[1510.2 - 1515.419] going to do is allow us to cure things
+
+[1511.94 - 1517.46] like cancer Alzheimer's diabetes and
+
+[1515.419 - 1520.4] other stuff so imagine that we get rid
+
+[1517.46 - 1522.799] of all known diseases
+
+[1520.4 - 1526.039] um and then so that I mean that that
+
+[1522.799 - 1528.5] alone will will change a lot for us then
+
+[1526.039 - 1530.6589999999999] aging and Longevity I think that this is
+
+[1528.5 - 1533.299] going to Far and Away have the biggest
+
+[1530.659 - 1537.0200000000002] impact on Evolution and so what I mean
+
+[1533.299 - 1538.58] by that is if we can stop aging if we
+
+[1537.02 - 1540.2] all get to the point where we have an
+
+[1538.58 - 1542.0] indefinitely long lifespan which I
+
+[1540.2 - 1544.22] predict is going to happen certainly
+
+[1542.0 - 1548.299] within my lifetime
+
+[1544.22 - 1551.0] does that mean that Evolution stops
+
+[1548.299 - 1552.3799999999999] that is probably worth a lot of
+
+[1551.0 - 1555.62] discussion on its own because what
+
+[1552.38 - 1558.919] happens if through medicine and AI we
+
+[1555.62 - 1561.08] cure all causes of diseases right what
+
+[1558.919 - 1563.3600000000001] if we what if we get rid of Aging we can
+
+[1561.08 - 1565.279] we have Rejuvenation therapies and
+
+[1563.36 - 1567.3799999999999] suddenly we don't even need to have
+
+[1565.279 - 1568.46] children that often because we live
+
+[1567.38 - 1571.46] forever
+
+[1568.46 - 1573.559] that could be a huge impact on Evolution
+
+[1571.46 - 1574.94] so I'm not saying that I predict that
+
+[1573.559 - 1576.799] but I'm just pointing out the
+
+[1574.94 - 1579.38] possibility that like it is
+
+[1576.799 - 1582.1399999999999] hypothetically conceivably within the
+
+[1579.38 - 1585.0200000000002] realm of possibilities that if 8 billion
+
+[1582.14 - 1587.96] people alive today all stop dying
+
+[1585.02 - 1589.34] maybe Evolution stops too
+
+[1587.96 - 1592.039] now
+
+[1589.34 - 1593.6589999999999] on that cheery note uh one of the
+
+[1592.039 - 1595.76] biggest questions that people ask is are
+
+[1593.659 - 1598.279] is AI going to make us smarter or Dumber
+
+[1595.76 - 1600.919] so there's the there's the sociological
+
+[1598.279 - 1602.84] phenomenon aspect which is you know
+
+[1600.919 - 1605.72] education and so on but then how does
+
+[1602.84 - 1607.4599999999998] that interact with evolution
+
+[1605.72 - 1610.7] so first
+
+[1607.46 - 1613.46] let's just look at how AI might impact
+
+[1610.7 - 1615.679] uh education so
+
+[1613.46 - 1618.2] given every opportunity I will smash
+
+[1615.679 - 1620.6000000000001] that Star Trek button so this scene came
+
+[1618.2 - 1623.6000000000001] from Star Trek Voyager where uh Naomi
+
+[1620.6 - 1627.1399999999999] Wildman who was born on the ship
+
+[1623.6 - 1630.6789999999999] she is often used to explore
+
+[1627.14 - 1633.2] uh like what what uh
+
+[1630.679 - 1635.299] education and what childhood might be
+
+[1633.2 - 1636.679] like in the future and one of the things
+
+[1635.299 - 1640.1] that she does is she goes to the
+
+[1636.679 - 1642.2] Holodeck to learn and so she learns from
+
+[1640.1 - 1644.299] these basically video game characters
+
+[1642.2 - 1647.0] what the Holodeck is basically just
+
+[1644.299 - 1649.82] virtual reality so she is constantly
+
+[1647.0 - 1652.279] exploring and learning at a level that
+
+[1649.82 - 1654.86] is optimized for her
+
+[1652.279 - 1656.24] and so she is like she's supposed to be
+
+[1654.86 - 1659.059] like eight years old and already knows
+
+[1656.24 - 1662.679] calculus so one thing that I see as a
+
+[1659.059 - 1665.0] possibility is that AI could help create
+
+[1662.679 - 1667.64] highly personalized education
+
+[1665.0 - 1669.559] experiences in an incredibly Rich
+
+[1667.64 - 1672.26] learning environments
+
+[1669.559 - 1674.6] um that allow all children to reach to
+
+[1672.26 - 1676.1] to get closer to their maximum uh
+
+[1674.6 - 1678.3799999999999] natural potential
+
+[1676.1 - 1680.12] uh so that's one thing so keep that in
+
+[1678.38 - 1682.7] mind another thing that AI has the
+
+[1680.12 - 1685.8799999999999] possibility of doing is improving access
+
+[1682.7 - 1688.3400000000001] to information and education globally so
+
+[1685.88 - 1691.8200000000002] for instance chat GPT is much much
+
+[1688.34 - 1693.98] cheaper than a high quality tutor and
+
+[1691.82 - 1696.4399999999998] even though it's not quite as good it's
+
+[1693.98 - 1698.6] still a whole lot better than nothing
+
+[1696.44 - 1701.419] um and then finally maybe these AI
+
+[1698.6 - 1703.8799999999999] tutors and AI tools could be designed to
+
+[1701.419 - 1705.5] challenge you to challenge your ways of
+
+[1703.88 - 1706.8200000000002] thinking and so for those of you
+
+[1705.5 - 1708.679] familiar with my open source project
+
+[1706.82 - 1711.86] Raven one of the core objective
+
+[1708.679 - 1714.2] functions of this AI machine is I call
+
+[1711.86 - 1715.9399999999998] it an ace an autonomous cognitive entity
+
+[1714.2 - 1717.559] one of the core objective functions is
+
+[1715.94 - 1719.96] to increase understanding and that is
+
+[1717.559 - 1721.46] one of the points of that objective
+
+[1719.96 - 1723.799] function is to challenge your way of
+
+[1721.46 - 1726.32] thinking and make sure that you
+
+[1723.799 - 1727.4] understand and believe or or the that
+
+[1726.32 - 1729.08] you understand the things that you
+
+[1727.4 - 1730.94] believe and to challenge those beliefs
+
+[1729.08 - 1733.52] so that you can raise your level of
+
+[1730.94 - 1736.88] understanding so I think that AI will
+
+[1733.52 - 1738.9189999999999] allow us to create entity and tutors
+
+[1736.88 - 1740.6000000000001] that'll actually keep us honest
+
+[1738.919 - 1743.659] it might not be deployed that way but I
+
+[1740.6 - 1745.76] think we could now that being said there
+
+[1743.659 - 1748.5800000000002] are absolutely some potential problems
+
+[1745.76 - 1751.34] with AI and education and information so
+
+[1748.58 - 1755.539] one is over Reliance just do it for me
+
+[1751.34 - 1757.34] right uh you know I I if if we do
+
+[1755.539 - 1759.559] succeed in creating autonomous cognitive
+
+[1757.34 - 1761.9599999999998] entities they might take over the Lion's
+
+[1759.559 - 1763.6399999999999] Share of our cognitive labor which means
+
+[1761.96 - 1765.22] that we're just going to be like I'm not
+
+[1763.64 - 1768.14] going to challenge myself it's too hard
+
+[1765.22 - 1770.24] another possibility is Echo Chambers and
+
+[1768.14 - 1773.0] Bubbles that's already a problem but
+
+[1770.24 - 1775.58] imagine that you have an AI companion
+
+[1773.0 - 1778.159] that is designed to only cater to your
+
+[1775.58 - 1779.899] ego and never challenge you then your
+
+[1778.159 - 1782.8990000000001] Echo chamber gets out of the internet
+
+[1779.899 - 1786.4399999999998] and into your daily life so that could
+
+[1782.899 - 1788.059] be a big problem now that being said I
+
+[1786.44 - 1790.46] still predict that we're going to have a
+
+[1788.059 - 1792.1399999999999] huge net gain in terms of our
+
+[1790.46 - 1794.1200000000001] intellectual capabilities
+
+[1792.14 - 1796.64] especially from a global perspective
+
+[1794.12 - 1798.6789999999999] because you look at the fact that uh
+
+[1796.64 - 1800.24] globally we will we will write we will
+
+[1798.679 - 1801.98] raise the floor we will raise the
+
+[1800.24 - 1804.2] minimum threshold of education and
+
+[1801.98 - 1806.3600000000001] increase the amount of information that
+
+[1804.2 - 1808.1000000000001] everyone has access to and if we become
+
+[1806.36 - 1810.1999999999998] smarter as a planet
+
+[1808.1 - 1812.9599999999998] as a species
+
+[1810.2 - 1815.8400000000001] that will absolutely impact Evolution
+
+[1812.96 - 1817.3400000000001] really difficult to figure out how but
+
+[1815.84 - 1819.86] it could be woven into some of this
+
+[1817.34 - 1822.02] stuff and we'll unpack some of this in
+
+[1819.86 - 1824.1399999999999] the recap at the end
+
+[1822.02 - 1826.94] finally or not finally but next
+
+[1824.14 - 1830.179] post-scarcity economics
+
+[1826.94 - 1833.179] no matter what happens AI is going to
+
+[1830.179 - 1835.76] impact jobs and economics will there be
+
+[1833.179 - 1838.7] more jobs or less personally I think
+
+[1835.76 - 1842.72] less I think that we will have 70
+
+[1838.7 - 1844.64] unemployment by 2030 even if I'm wrong
+
+[1842.72 - 1847.279] AI is still going to change work and how
+
+[1844.64 - 1849.74] we relate to work
+
+[1847.279 - 1851.36] so if I'm right and we and we start
+
+[1849.74 - 1854.6] getting super high levels of
+
+[1851.36 - 1857.12] unemployment we will need to move to a
+
+[1854.6 - 1859.299] redistribution or allocation model and
+
+[1857.12 - 1862.2199999999998] what that means is basically a robot tax
+
+[1859.299 - 1864.1399999999999] if companies or individuals or
+
+[1862.22 - 1867.679] governments or whoever produce value
+
+[1864.14 - 1870.14] with robots they'll probably be taxed at
+
+[1867.679 - 1872.779] a higher rate so that that value can be
+
+[1870.14 - 1876.5590000000002] redistributed to everyone else
+
+[1872.779 - 1879.14] AI can help with those allocation of
+
+[1876.559 - 1880.52] resources so I mentioned food earlier we
+
+[1879.14 - 1882.7990000000002] already produce enough food to feed
+
+[1880.52 - 1885.559] everyone the problem is distribution and
+
+[1882.799 - 1889.1] allocation maybe AI can help solve
+
+[1885.559 - 1891.74] hunger permanently maybe AI can help
+
+[1889.1 - 1893.1789999999999] solve housing permanently because also
+
+[1891.74 - 1896.0] we have enough housing units for
+
+[1893.179 - 1898.64] everyone the problem is allocation
+
+[1896.0 - 1900.08] uh and then when you when you start
+
+[1898.64 - 1902.48] thinking about all these things that AI
+
+[1900.08 - 1904.1589999999999] could possibly help with you think the
+
+[1902.48 - 1906.74] overall quality of life for everyone
+
+[1904.159 - 1908.1200000000001] could go up and I mean everyone like not
+
+[1906.74 - 1910.34] just Americans not just Europeans
+
+[1908.12 - 1913.2199999999998] globally quality of life could go up
+
+[1910.34 - 1915.559] globally so if that happens what else
+
+[1913.22 - 1917.0] might change well number one our
+
+[1915.559 - 1918.98] priorities and values are going to have
+
+[1917.0 - 1920.96] to change right now we are hyper
+
+[1918.98 - 1923.96] individualistic we are hyper competitive
+
+[1920.96 - 1925.46] and we are we have crab mentality so one
+
+[1923.96 - 1929.779] of the things that I do is I always plug
+
+[1925.46 - 1932.059] this is post nihilism I suspect that we
+
+[1929.779 - 1935.899] will have to change our identity as a
+
+[1932.059 - 1939.26] species away from career away from work
+
+[1935.899 - 1941.779] and towards valuing life more
+
+[1939.26 - 1943.34] intrinsically and so that's what I call
+
+[1941.779 - 1944.779] Post nihilism
+
+[1943.34 - 1946.22] another thing that might change is
+
+[1944.779 - 1948.62] fertility rates
+
+[1946.22 - 1950.8990000000001] uh the question becomes do fertility
+
+[1948.62 - 1952.9399999999998] rates go up or down because here's the
+
+[1950.899 - 1955.6999999999998] here's the thing if suddenly you don't
+
+[1952.94 - 1957.799] need to work to make ends meet you are
+
+[1955.7 - 1960.38] free to choose what you want to do
+
+[1957.799 - 1962.96] imagine if you like Suddenly It's like
+
+[1960.38 - 1965.0] oh you get the equivalent of of fifteen
+
+[1962.96 - 1967.3990000000001] thousand dollars every month just by
+
+[1965.0 - 1970.22] virtue of existing right that's a pretty
+
+[1967.399 - 1972.62] intoxicating idea if you want children
+
+[1970.22 - 1975.679] you absolutely could afford it then
+
+[1972.62 - 1977.9599999999998] but you might choose not to because it's
+
+[1975.679 - 1980.1200000000001] like eh what's what's the rush right
+
+[1977.96 - 1981.98] especially if we have uh much longer
+
+[1980.12 - 1984.3799999999999] life spans if you know that you're
+
+[1981.98 - 1986.48] probably going to live 500 years 5 000
+
+[1984.38 - 1989.3600000000001] years what's the rush
+
+[1986.48 - 1992.24] so Evolution might slow down or it might
+
+[1989.36 - 1993.74] speed up one thing that I think that
+
+[1992.24 - 1995.72] very well could happen and we'll talk
+
+[1993.74 - 1998.059] about this in a actually no I'll put
+
+[1995.72 - 1998.84] this off in terms of uh reproduction
+
+[1998.059 - 2001.899] rate
+
+[1998.84 - 2004.0] I've got a slide for that so what
+
+[2001.899 - 2006.82] happens if we don't work what happens if
+
+[2004.0 - 2008.86] we uh are given the freedom to
+
+[2006.82 - 2011.08] self-determine we'll spend more time in
+
+[2008.86 - 2013.0] nature we'll spend more time playing and
+
+[2011.08 - 2015.46] more time with friends and family
+
+[2013.0 - 2017.799] now some of you might know I recently
+
+[2015.46 - 2019.72] quit my day job and so from personal
+
+[2017.799 - 2021.7] experience I will say it is not that
+
+[2019.72 - 2022.8990000000001] hard to adapt and change your identity
+
+[2021.7 - 2025.1200000000001] and say you know what I actually don't
+
+[2022.899 - 2027.2199999999998] identify with my career anymore in fact
+
+[2025.12 - 2030.34] looking back I didn't identify with my
+
+[2027.22 - 2033.22] career for oh say 75 of my career it was
+
+[2030.34 - 2035.98] just a job what I really identify with
+
+[2033.22 - 2039.94] is what I'm doing right now I identify
+
+[2035.98 - 2042.34] with AI and communication and teaching
+
+[2039.94 - 2044.44] people and helping the world I happen to
+
+[2042.34 - 2047.5] get rewarded for it but I started doing
+
+[2044.44 - 2050.379] this long before I got rewarded for it
+
+[2047.5 - 2053.32] we love and and and I when I say we I
+
+[2050.379 - 2056.02] mean humans we love challenges and
+
+[2053.32 - 2058.4190000000003] interesting experiences that's why like
+
+[2056.02 - 2060.879] video games are so popular is because it
+
+[2058.419 - 2062.3199999999997] is a carefully curated challenging
+
+[2060.879 - 2064.54] experience
+
+[2062.32 - 2067.78] that's not going to change whether or
+
+[2064.54 - 2070.659] not we have ai for jobs or not that it
+
+[2067.78 - 2073.2400000000002] is in our nature to love challenges and
+
+[2070.659 - 2075.639] experiences so what AI might do is
+
+[2073.24 - 2077.2] unlock us to have even more interesting
+
+[2075.639 - 2079.0] challenges and even more interesting
+
+[2077.2 - 2082.1789999999996] experiences how will that shape
+
+[2079.0 - 2084.399] Evolution difficult to say but it almost
+
+[2082.179 - 2087.58] certainly will
+
+[2084.399 - 2090.52] Ai and dating so we talked about sexual
+
+[2087.58 - 2093.04] selection uh earlier in the video
+
+[2090.52 - 2095.74] mate selection is deliberately or
+
+[2093.04 - 2097.359] accidentally choosing partners that
+
+[2095.74 - 2099.7] concentrate characteristics so what are
+
+[2097.359 - 2101.2] you selecting for right
+
+[2099.7 - 2103.7799999999997] um what and what I mean by that an
+
+[2101.2 - 2106.359] example is selecting for intellect or
+
+[2103.78 - 2108.28] proxies of intellect so if you have a
+
+[2106.359 - 2110.2599999999998] graduate degree you are something like
+
+[2108.28 - 2112.8390000000004] four times more likely to marry someone
+
+[2110.26 - 2114.579] and by extension of children with
+
+[2112.839 - 2116.44] someone else who also has a graduate
+
+[2114.579 - 2119.099] degree now I'm not saying that there's a
+
+[2116.44 - 2122.92] gene for you know getting a PhD however
+
+[2119.099 - 2124.6600000000003] like any other complex Behavior there
+
+[2122.92 - 2127.1800000000003] are going to be at least a handful of
+
+[2124.66 - 2130.18] genes that enable that behavior or
+
+[2127.18 - 2131.7999999999997] support that behavior so for instance
+
+[2130.18 - 2133.2999999999997] um you know people that get they get
+
+[2131.8 - 2135.52] Doctorate Degrees they're more likely to
+
+[2133.3 - 2137.2000000000003] be uh good at reading and good at
+
+[2135.52 - 2139.359] thinking abstractly and so on and so
+
+[2137.2 - 2141.7599999999998] forth so if there are genes that are
+
+[2139.359 - 2144.22] associated with some of those cognitive
+
+[2141.76 - 2145.6600000000003] abilities and behaviors then they're
+
+[2144.22 - 2147.0989999999997] going to concentrate in people with
+
+[2145.66 - 2150.22] graduate degrees
+
+[2147.099 - 2152.04] uh conversely we also select for
+
+[2150.22 - 2154.359] physical attractiveness
+
+[2152.04 - 2156.82] socioeconomic status and again a lot of
+
+[2154.359 - 2158.7999999999997] these are emergent uh characteristics
+
+[2156.82 - 2161.26] I'm not saying that there's a gene for
+
+[2158.8 - 2163.78] Rich there's not a gene for fit but
+
+[2161.26 - 2165.76] there are many many genes and genetic
+
+[2163.78 - 2167.8590000000004] combinations that speak to those
+
+[2165.76 - 2169.3] emergent characteristics and they tend
+
+[2167.859 - 2172.14] to get concentrated
+
+[2169.3 - 2175.0600000000004] I think the term for this is
+
+[2172.14 - 2176.92] stratification I don't remember anyways
+
+[2175.06 - 2179.0789999999997] there is there is a term for that where
+
+[2176.92 - 2180.52] it's like well genetic drift right it's
+
+[2179.079 - 2182.2000000000003] it's a kind of form of internal
+
+[2180.52 - 2185.32] competition that can result in genetic
+
+[2182.2 - 2186.8199999999997] drift so animal husbandry is what we
+
+[2185.32 - 2189.1600000000003] have done for many thousands of years
+
+[2186.82 - 2191.26] which is deliberately selecting animals
+
+[2189.16 - 2193.359] and breeding those animals together to
+
+[2191.26 - 2195.4] get the traits that we want that's how
+
+[2193.359 - 2197.2] we have such like chubby chickens that
+
+[2195.4 - 2199.2400000000002] produce so much meat it's how we have
+
+[2197.2 - 2200.98] like big beefy cows it's how we have
+
+[2199.24 - 2203.14] super powerful
+
+[2200.98 - 2205.18] um cereal crops then of course we add in
+
+[2203.14 - 2207.5789999999997] genetic engineering into that and we can
+
+[2205.18 - 2209.6189999999997] we can accelerate that even further but
+
+[2207.579 - 2212.079] animal husbandry and and breeding
+
+[2209.619 - 2214.6600000000003] programs are already a form of genetic
+
+[2212.079 - 2217.7200000000003] engineering so what about human
+
+[2214.66 - 2219.7] husbandry and I don't mean like you know
+
+[2217.72 - 2221.02] uh uh arranged marriages and stuff
+
+[2219.7 - 2222.7599999999998] although arranged marriages do happen
+
+[2221.02 - 2224.98] but what I mean is what if we
+
+[2222.76 - 2226.9] deliberately select People based on
+
+[2224.98 - 2230.44] genetics there's already uh genetic
+
+[2226.9 - 2232.78] matching dating services out there as AI
+
+[2230.44 - 2234.16] advances and other Technologies like
+
+[2232.78 - 2235.0600000000004] genetic sequencing and other stuff
+
+[2234.16 - 2237.3999999999996] happens
+
+[2235.06 - 2240.16] it is entirely possible that we will
+
+[2237.4 - 2242.859] soon have the ability to like go to a
+
+[2240.16 - 2245.3799999999997] genetic counselor and and get you know
+
+[2242.859 - 2246.8199999999997] like give a drop of blood for for both
+
+[2245.38 - 2248.92] parents
+
+[2246.82 - 2250.1800000000003] um so like you could go to a genetic
+
+[2248.92 - 2252.52] counselor so this was explored in
+
+[2250.18 - 2255.46] Gattaca and a few other movies uh but
+
+[2252.52 - 2257.32] basically you can select a partner based
+
+[2255.46 - 2260.5] on genetic match if you want to have
+
+[2257.32 - 2262.839] children but you could also select uh
+
+[2260.5 - 2265.839] egg and sperm donors or surrogates or
+
+[2262.839 - 2267.9] whatever based on either selecting four
+
+[2265.839 - 2271.0] positive traits or selecting against
+
+[2267.9 - 2272.44] undesirable traits so for instance one
+
+[2271.0 - 2274.06] of the things that they already do and I
+
+[2272.44 - 2275.7400000000002] don't know if this is still true but
+
+[2274.06 - 2277.599] someone told me this once let me know in
+
+[2275.74 - 2279.8799999999997] the comments if it is true but like if
+
+[2277.599 - 2281.8590000000004] you want to be a sperm donor like you
+
+[2279.88 - 2283.96] have to have you have to be over six
+
+[2281.859 - 2285.2799999999997] feet tall and you have to have a
+
+[2283.96 - 2288.82] graduate degree or something like that
+
+[2285.28 - 2290.8590000000004] and it's just like oh so you're you've
+
+[2288.82 - 2292.3590000000004] already decided like these are positive
+
+[2290.859 - 2294.16] characteristics that you want to select
+
+[2292.359 - 2295.9] for I don't know if it's true it might
+
+[2294.16 - 2298.5989999999997] maybe it was true and it's no longer
+
+[2295.9 - 2300.7000000000003] true I don't know anyways point being
+
+[2298.599 - 2303.28] is that you can look for these emergent
+
+[2300.7 - 2305.4399999999996] qualities and select for them family
+
+[2303.28 - 2307.2400000000002] history that sort of stuff but AI could
+
+[2305.44 - 2308.8] help accelerate that it may or may not
+
+[2307.24 - 2310.8999999999996] have any impact there
+
+[2308.8 - 2313.119] something that I think will have a lot
+
+[2310.9 - 2315.099] more direct impact on Family Planning
+
+[2313.119 - 2317.44] which by extension will impact evolution
+
+[2315.099 - 2320.98] is going to be AI therapy and AI
+
+[2317.44 - 2324.28] companions so AI therapy is going to
+
+[2320.98 - 2326.619] help result in healthier people better
+
+[2324.28 - 2327.76] relationships and therefore will impact
+
+[2326.619 - 2330.7000000000003] families
+
+[2327.76 - 2332.5] so people that may not have had children
+
+[2330.7 - 2335.74] very well could end up having children
+
+[2332.5 - 2337.54] by virtue of having been had mate
+
+[2335.74 - 2339.16] selection you know dating helped with AI
+
+[2337.54 - 2341.44] they become healthier people they
+
+[2339.16 - 2342.7] connect with better people they you know
+
+[2341.44 - 2343.96] go out into the wild they find each
+
+[2342.7 - 2345.9399999999996] other and they say let's start a family
+
+[2343.96 - 2348.7200000000003] so you could have a lot of knock-on
+
+[2345.94 - 2352.42] effects that AI does to help
+
+[2348.72 - 2354.64] modify or influence sexual selection
+
+[2352.42 - 2356.6800000000003] this was in the movie her so the
+
+[2354.64 - 2360.16] conclusion of the movie her was that the
+
+[2356.68 - 2361.5989999999997] AI all decided collectively we need to
+
+[2360.16 - 2362.98] remove ourselves and help humans
+
+[2361.599 - 2364.3590000000004] reconnect with each other because that's
+
+[2362.98 - 2366.4] what's going to be best for the species
+
+[2364.359 - 2369.4] it's entirely possible that that's going
+
+[2366.4 - 2372.4] to happen naturally uh and then finally
+
+[2369.4 - 2374.5] AI companions so if you look out there
+
+[2372.4 - 2377.6800000000003] there's lots of people like replica is
+
+[2374.5 - 2380.56] the number one uh like sexy chat bot or
+
+[2377.68 - 2383.2599999999998] whatever so you know cat girl robot
+
+[2380.56 - 2386.38] girlfriends instead of real people
+
+[2383.26 - 2389.079] this might cause some people to drop out
+
+[2386.38 - 2390.2200000000003] of the procreation race altogether there
+
+[2389.079 - 2392.02] are certainly people on the internet
+
+[2390.22 - 2394.66] that are like oh I would much rather
+
+[2392.02 - 2396.46] date a robot than a real person
+
+[2394.66 - 2398.14] um and actually I was corrected on this
+
+[2396.46 - 2401.38] from a previous video where I assumed
+
+[2398.14 - 2402.5789999999997] that it was predominantly men but uh
+
+[2401.38 - 2404.26] plenty of people pointed out that
+
+[2402.579 - 2406.6600000000003] there's lots of women that are in the
+
+[2404.26 - 2410.079] same camp so what if
+
+[2406.66 - 2412.359] AI helps some people just drop out of
+
+[2410.079 - 2413.6800000000003] sexual selection altogether some people
+
+[2412.359 - 2415.839] do already
+
+[2413.68 - 2417.7599999999998] uh there was a genetic survey that I
+
+[2415.839 - 2420.52] read many years ago that came to the
+
+[2417.76 - 2423.0400000000004] conclusion that only 30 percent of men
+
+[2420.52 - 2425.2] contribute to
+
+[2423.04 - 2426.46] um uh subsequent Generations contribute
+
+[2425.2 - 2429.8199999999997] genetic material to subsequent
+
+[2426.46 - 2432.7] Generations so already even before AI 70
+
+[2429.82 - 2434.2000000000003] of men never have children and that is
+
+[2432.7 - 2436.24] not true of women the vast majority of
+
+[2434.2 - 2437.98] women do have children
+
+[2436.24 - 2440.14] um so there's a lot of uh this is called
+
+[2437.98 - 2441.64] sexual antagonism which is uh
+
+[2440.14 - 2444.7599999999998] evolutionary pressure between the
+
+[2441.64 - 2447.16] genders between the Sexes of a species
+
+[2444.76 - 2449.32] um but what I'm thinking is that for
+
+[2447.16 - 2451.54] those that want family that want
+
+[2449.32 - 2453.28] children AI is going to help facilitate
+
+[2451.54 - 2455.32] that and accelerate that and for those
+
+[2453.28 - 2458.079] that don't it's going to allow them to
+
+[2455.32 - 2461.5] check out of uh the procreation pool
+
+[2458.079 - 2463.48] altogether so what that might do is that
+
+[2461.5 - 2465.52] maybe 500 years from now a thousand
+
+[2463.48 - 2467.619] years from now 50 000 years from now we
+
+[2465.52 - 2469.839] will have been selecting for people that
+
+[2467.619 - 2471.7000000000003] want children so it might it might
+
+[2469.839 - 2473.619] become embedded in our nature that just
+
+[2471.7 - 2476.2] by virtue of those who pass on their
+
+[2473.619 - 2478.48] genes are people that want children are
+
+[2476.2 - 2479.7999999999997] going to be people that are more family
+
+[2478.48 - 2483.28] oriented
+
+[2479.8 - 2484.6600000000003] um and whatever genes contribute to that
+
+[2483.28 - 2486.1600000000003] sense of connection that sense of
+
+[2484.66 - 2488.68] belonging and the desire for children
+
+[2486.16 - 2489.7599999999998] could be magnified This is highly
+
+[2488.68 - 2492.0989999999997] speculative
+
+[2489.76 - 2494.38] but this is one thing that um that I
+
+[2492.099 - 2495.76] have uh I actually predict in my novel
+
+[2494.38 - 2498.28] that I'm working on
+
+[2495.76 - 2500.92] um is that in the future if we if we go
+
+[2498.28 - 2504.1600000000003] this route it could be that everyone you
+
+[2500.92 - 2506.32] know because up until now uh procreation
+
+[2504.16 - 2507.8799999999997] has largely been like socially driven
+
+[2506.32 - 2510.099] like you're required to carry on the
+
+[2507.88 - 2511.96] line of your family but my generation
+
+[2510.099 - 2514.96] and younger they're like heck with that
+
+[2511.96 - 2516.04] idea uh-uh not doing that so then by
+
+[2514.96 - 2517.7200000000003] virtue
+
+[2516.04 - 2519.7599999999998] the people who want children are the
+
+[2517.72 - 2522.2799999999997] ones anyways you get the idea
+
+[2519.76 - 2525.2200000000003] all right so finally the ethics and
+
+[2522.28 - 2528.88] ramifications of all this
+
+[2525.22 - 2530.56] playing God who has the right to decide
+
+[2528.88 - 2532.78] what is good
+
+[2530.56 - 2535.96] and what should be selected for
+
+[2532.78 - 2538.2400000000002] who has the right to guide or steer our
+
+[2535.96 - 2539.8] Evolution well one thing that I want to
+
+[2538.24 - 2542.3199999999997] point out is that the rich and the
+
+[2539.8 - 2544.7200000000003] Reckless have been doing this anyways
+
+[2542.32 - 2547.6600000000003] the people with more privilege have
+
+[2544.72 - 2550.06] always tried to to stack things in their
+
+[2547.66 - 2551.92] favor right whether it's
+
+[2550.06 - 2555.16] um you know rich men look for trophy
+
+[2551.92 - 2557.32] wives and or whatever people will always
+
+[2555.16 - 2560.0789999999997] try and do the best and so many people
+
+[2557.32 - 2561.82] whether it's deliberate and conscious
+
+[2560.079 - 2563.6800000000003] right like oh I want to have the best
+
+[2561.82 - 2565.9] children because having good children
+
+[2563.68 - 2568.0] whether it's a good genetic pedigree or
+
+[2565.9 - 2569.7400000000002] whatever is a point of Pride for a lot
+
+[2568.0 - 2572.079] of people
+
+[2569.74 - 2574.1189999999997] um and so then we've been doing this for
+
+[2572.079 - 2576.88] centuries AI is just going to support
+
+[2574.119 - 2578.98] that right whether it's through genetic
+
+[2576.88 - 2582.579] technology or match genetic matchmaking
+
+[2578.98 - 2584.92] or AI tutors whatever it's going to be
+
+[2582.579 - 2587.7400000000002] the same story just you know with a new
+
+[2584.92 - 2590.56] shiny uh technology so I don't think
+
+[2587.74 - 2593.3799999999997] that's going to really change anything
+
+[2590.56 - 2595.24] um now one thing that could be bad is
+
+[2593.38 - 2597.04] unintended consequences because what if
+
+[2595.24 - 2599.14] we decide to
+
+[2597.04 - 2601.119] um you know add a new Gene to our
+
+[2599.14 - 2604.18] children and it turns out that that gene
+
+[2601.119 - 2606.28] causes immense suffering or random
+
+[2604.18 - 2608.6189999999997] diseases later on that could be really
+
+[2606.28 - 2611.7400000000002] bad so there's a very strong argument
+
+[2608.619 - 2613.54] for just letting nature run its course
+
+[2611.74 - 2614.9799999999996] that being said we don't really let
+
+[2613.54 - 2617.68] nature run its course
+
+[2614.98 - 2620.8] anyways we have vaccines we have
+
+[2617.68 - 2623.56] antibiotics we um there's we already do
+
+[2620.8 - 2625.7200000000003] genetic screening on embryos
+
+[2623.56 - 2628.14] um and so like if if your embryo if your
+
+[2625.72 - 2630.64] fetus or embryo has certain genetic
+
+[2628.14 - 2632.44] abnormalities it might be recommended
+
+[2630.64 - 2635.44] that you have an abortion so we're
+
+[2632.44 - 2638.859] already using some of this technology to
+
+[2635.44 - 2640.54] at least select against known problems
+
+[2638.859 - 2642.4] um we don't necessarily select four
+
+[2640.54 - 2645.46] things but we certainly select against
+
+[2642.4 - 2648.46] things so we don't really let nature run
+
+[2645.46 - 2650.38] its course already but it remains to be
+
+[2648.46 - 2651.76] seen of how AI might influence that
+
+[2650.38 - 2654.339] further
+
+[2651.76 - 2656.7400000000002] uh but as I mentioned inequality
+
+[2654.339 - 2660.22] privilege and access are likely to be
+
+[2656.74 - 2661.8999999999996] the biggest ethical questions so and the
+
+[2660.22 - 2663.819] number one question there is will it be
+
+[2661.9 - 2668.14] expensive
+
+[2663.819 - 2670.66] I actually suspect that Ai and and all
+
+[2668.14 - 2672.819] the downstream technologies that like
+
+[2670.66 - 2674.319] you know AI influence medicine AI
+
+[2672.819 - 2675.579] influence genetics
+
+[2674.319 - 2677.56] um all of this stuff is actually going
+
+[2675.579 - 2679.3] to be really cheap and really Universal
+
+[2677.56 - 2681.52] so remember post scarcity economics
+
+[2679.3 - 2684.6400000000003] post-scares theme economics means that
+
+[2681.52 - 2687.099] everything that you need is essentially
+
+[2684.64 - 2689.3799999999997] free or so cheap that it doesn't really
+
+[2687.099 - 2692.56] matter and that could extend to like
+
+[2689.38 - 2695.02] mRNA vaccines right we just had a global
+
+[2692.56 - 2697.359] event that that caused us to produce
+
+[2695.02 - 2701.079] literally I think hundreds of billions
+
+[2697.359 - 2704.319] or tens of billions of mRNA vaccines in
+
+[2701.079 - 2707.38] a few months right or or a year or so
+
+[2704.319 - 2710.2] what happens when a a vaccine for all
+
+[2707.38 - 2712.6600000000003] cancer for all diabetes comes out just
+
+[2710.2 - 2715.1189999999997] the economic benefit of vaccinating
+
+[2712.66 - 2717.2799999999997] everyone against cancer and diabetes and
+
+[2715.119 - 2719.079] Alzheimer's and high cholesterol and
+
+[2717.28 - 2720.7000000000003] heart disease and all that stuff just
+
+[2719.079 - 2723.28] the economic benefit would be great
+
+[2720.7 - 2725.7999999999997] right and then if it's as cheap as an
+
+[2723.28 - 2726.76] mRNA vaccine cost 60 bucks six dollars
+
+[2725.8 - 2728.619] whatever
+
+[2726.76 - 2729.94] I think that a lot of this stuff is
+
+[2728.619 - 2731.26] going to be so cheap that it's just
+
+[2729.94 - 2732.52] going to be brain dead simple that
+
+[2731.26 - 2734.26] everyone should get it or at least
+
+[2732.52 - 2737.079] everyone should be given the uh the
+
+[2734.26 - 2740.079] option I am a big believer in consent
+
+[2737.079 - 2742.0] so I personally suspect that that
+
+[2740.079 - 2743.619] privilege is going to be less of an
+
+[2742.0 - 2745.06] issue than people fear certainly the
+
+[2743.619 - 2746.5] rich are going to have access to it
+
+[2745.06 - 2748.2999999999997] sooner
+
+[2746.5 - 2751.359] um while it's still expensive so because
+
+[2748.3 - 2752.98] like you know uh 15 years ago genetic
+
+[2751.359 - 2754.66] sequencing was still like thirty
+
+[2752.98 - 2757.2400000000002] thousand dollars a shot and it wasn't
+
+[2754.66 - 2758.98] that particularly valuable but then only
+
+[2757.24 - 2761.2] the rich could afford it and now it's
+
+[2758.98 - 2762.52] what three hundred dollars a shot it's
+
+[2761.2 - 2764.319] almost getting to the point where like
+
+[2762.52 - 2765.7] anyone can afford to have their genes
+
+[2764.319 - 2768.16] sequenced
+
+[2765.7 - 2770.0789999999997] um and so over time because of the
+
+[2768.16 - 2772.06] because one because of AI and two
+
+[2770.079 - 2773.6800000000003] because of the incentives to make this
+
+[2772.06 - 2775.72] stuff cheaper I think that it's going to
+
+[2773.68 - 2777.339] be universally accessible within a
+
+[2775.72 - 2780.5789999999997] reasonable period of time
+
+[2777.339 - 2783.099] all right so in conclusion here are some
+
+[2780.579 - 2785.26] key takeaways and predictions
+
+[2783.099 - 2787.6600000000003] first remember that tools and Technology
+
+[2785.26 - 2789.5200000000004] have already had huge impacts on our
+
+[2787.66 - 2792.339] Evolution for literally millions of
+
+[2789.52 - 2793.96] years AI is just another tool
+
+[2792.339 - 2795.5789999999997] um just like how tractors and planes
+
+[2793.96 - 2796.9] just another tool just another
+
+[2795.579 - 2799.0] technology
+
+[2796.9 - 2802.119] personally I think that genetic Tech
+
+[2799.0 - 2804.28] through and AI with medicine is going to
+
+[2802.119 - 2806.8] have the biggest direct impact on
+
+[2804.28 - 2809.8] Evolution through curing disease and
+
+[2806.8 - 2812.26] increasing longevity I honestly think
+
+[2809.8 - 2814.3] that human evolution might really slow
+
+[2812.26 - 2816.3390000000004] down in some respects
+
+[2814.3 - 2819.04] that natural human evolution might slow
+
+[2816.339 - 2822.04] down a lot due to genetic medicine and
+
+[2819.04 - 2824.98] Longevity that being said if we can run
+
+[2822.04 - 2827.38] simulations and and genetically engineer
+
+[2824.98 - 2829.96] our children our children might be more
+
+[2827.38 - 2831.28] different than you know like 10
+
+[2829.96 - 2834.099] Generations
+
+[2831.28 - 2835.78] um in the past so we might we we might
+
+[2834.099 - 2838.78] be the first species to take full
+
+[2835.78 - 2840.579] control over our Evolution and that can
+
+[2838.78 - 2843.46] be done through mate selection it can be
+
+[2840.579 - 2846.1600000000003] done through genetic um uh simulations
+
+[2843.46 - 2848.02] uh Alpha fold like imagine that you can
+
+[2846.16 - 2850.72] just run all of your child's genes
+
+[2848.02 - 2852.579] through Alpha fold probably six and
+
+[2850.72 - 2853.9599999999996] it'll say okay it you know your child's
+
+[2852.579 - 2855.94] metabolism is going to have this this
+
+[2853.96 - 2858.88] and this and they're going to have these
+
+[2855.94 - 2860.7400000000002] these characteristics so on and so forth
+
+[2858.88 - 2862.42] so that will probably have the largest
+
+[2860.74 - 2864.0989999999997] direct impact
+
+[2862.42 - 2865.66] um so it's kind of like Evolution will
+
+[2864.099 - 2867.1600000000003] slow down in some ways speed up in
+
+[2865.66 - 2869.44] others
+
+[2867.16 - 2871.359] um education and intelligence AI is
+
+[2869.44 - 2874.7200000000003] definitely going to have a huge impact
+
+[2871.359 - 2877.0] on our intelligence as a species which
+
+[2874.72 - 2878.7999999999997] will probably have a pretty dramatic
+
+[2877.0 - 2881.14] impact on Evolution although that's
+
+[2878.8 - 2883.78] going to be a much more diffuse impact
+
+[2881.14 - 2885.5789999999997] and it'll happen over the long run but
+
+[2883.78 - 2888.46] imagine that like 2000 years from now
+
+[2885.579 - 2891.2200000000003] everyone has an IQ equivalent of like
+
+[2888.46 - 2894.28] 180 or 200 right imagine that everyone
+
+[2891.22 - 2897.16] born 2000 years from now is five
+
+[2894.28 - 2899.1400000000003] standard deviations higher IQ than
+
+[2897.16 - 2900.0989999999997] everyone alive today and so then it's
+
+[2899.14 - 2901.1189999999997] like
+
+[2900.099 - 2902.56] um I don't think it's going to be the
+
+[2901.119 - 2903.6400000000003] way that Neil deGrasse Tyson said that
+
+[2902.56 - 2906.22] like it's not like we're going to learn
+
+[2903.64 - 2907.359] calculus by age three I think I think
+
+[2906.22 - 2908.7999999999997] that the way that that'll play out is
+
+[2907.359 - 2910.66] that we actually learn for longer
+
+[2908.8 - 2911.92] periods of time now that's going to suck
+
+[2910.66 - 2914.7999999999997] for some people that hate school because
+
+[2911.92 - 2916.54] imagine being in school for 80 years but
+
+[2914.8 - 2918.819] when you have that much to learn and
+
+[2916.54 - 2921.16] that much capacity it might take long
+
+[2918.819 - 2923.02] longer but your capacity to learn might
+
+[2921.16 - 2924.64] be much much higher not really sure how
+
+[2923.02 - 2926.339] that's going to happen it could also be
+
+[2924.64 - 2929.2] faster
+
+[2926.339 - 2932.319] post-scarcity economics will drastically
+
+[2929.2 - 2934.18] alter our identity and priorities which
+
+[2932.319 - 2936.64] again might change our relationship to
+
+[2934.18 - 2939.339] the idea of evolution and Family
+
+[2936.64 - 2942.52] Planning and Family Planning under all
+
+[2939.339 - 2943.9] this context will be very different and
+
+[2942.52 - 2946.0] this comes down to sexual selection
+
+[2943.9 - 2948.88] which is who do you have children with
+
+[2946.0 - 2951.42] how many children do you have when why
+
+[2948.88 - 2954.1600000000003] so on and so forth so basically
+
+[2951.42 - 2956.2000000000003] Evolution the the long and short of it
+
+[2954.16 - 2959.319] evolution is going to be impacted in
+
+[2956.2 - 2963.16] countless small Ways by Ai and probably
+
+[2959.319 - 2964.839] a few really big ways so I hope you
+
+[2963.16 - 2966.819] found this interesting and entertaining
+
+[2964.839 - 2969.16] thanks for watching Remember support me
+
+[2966.819 - 2972.359] on patreon and all the ads go away uh
+
+[2969.16 - 2972.359] permanently take care

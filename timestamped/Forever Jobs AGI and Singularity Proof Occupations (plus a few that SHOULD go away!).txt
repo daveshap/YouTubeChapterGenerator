@@ -1,0 +1,2463 @@
+[0.24 - 3.3] morning everybody David Shapiro here
+
+[2.04 - 5.4] with another video
+
+[3.3 - 8.099] so I've been on a kick lately where I'm
+
+[5.4 - 11.219000000000001] talking about Universal basic income and
+
+[8.099 - 13.799] post-labor economics and and that sort
+
+[11.219 - 16.5] of stuff and one question that came up
+
+[13.799 - 18.96] and it was a really good question uh in
+
+[16.5 - 21.779] a previous video I think I think people
+
+[18.96 - 24.48] are starting to realize the capabilities
+
+[21.779 - 26.4] and the shifts that are coming and so
+
+[24.48 - 29.099] someone said okay well like we agree
+
+[26.4 - 30.959999999999997] with your methodology more or less you
+
+[29.099 - 33.0] know obviously nothing is perfect and
+
+[30.96 - 35.76] like you know I'm forging ahead as fast
+
+[33.0 - 38.219] as possible but he said like okay so how
+
+[35.76 - 41.339999999999996] can we determine the jobs that will stay
+
+[38.219 - 44.219] so I wanted to spend a a little bit of
+
+[41.34 - 46.440000000000005] time exploring specifically automation
+
+[44.219 - 49.379000000000005] resistant occupations so these are jobs
+
+[46.44 - 52.5] that no matter how good AGI and robots
+
+[49.379 - 55.199] get they may never go away
+
+[52.5 - 57.78] um real quick plug for my patreon
+
+[55.199 - 60.539] um the low tier uh the five dollar tier
+
+[57.78 - 65.339] gets you access to Discord uh where we
+
+[60.539 - 68.1] often hang out and so on the other uh uh
+
+[65.339 - 70.74] tiers the 50 tier is you know I've got
+
+[68.1 - 72.78] some private channels set up for uh for
+
+[70.74 - 75.53999999999999] direct chat and then I do actually have
+
+[72.78 - 79.2] a couple of my 300 tiers which allow for
+
+[75.54 - 80.7] uh one-on-one consultations so uh moving
+
+[79.2 - 84.60000000000001] right along
+
+[80.7 - 86.28] basically AGI is coming we know that
+
+[84.6 - 88.91999999999999] machines are getting exponentially
+
+[86.28 - 92.82000000000001] smarter very quickly uh to the to the
+
+[88.92 - 95.299] point that uh 32 000 people signed a
+
+[92.82 - 98.579] petition saying stop progress
+
+[95.299 - 101.04] uh and it was taken seriously apparently
+
+[98.579 - 104.15899999999999] uh you know not not that moratoriums are
+
+[101.04 - 106.2] in place but uh politicians and
+
+[104.159 - 108.0] governments around the world are taking
+
+[106.2 - 109.5] the the thing seriously and they're
+
+[108.0 - 110.939] saying okay we need to innovate what we
+
+[109.5 - 113.759] need to do it safely
+
+[110.939 - 115.979] uh you know you look at at the the
+
+[113.759 - 118.5] latest uh version of mid-journey and
+
+[115.979 - 120.119] stable diffusion and like if you showed
+
+[118.5 - 123.479] this to me and said that this was a
+
+[120.119 - 126.36] photograph from the 70s I I personally
+
+[123.479 - 128.28] could not have told you that it wasn't
+
+[126.36 - 131.039] except probably that there's no camera
+
+[128.28 - 133.02] in the reflection of her sunglasses
+
+[131.039 - 136.26] um but like this is this is computer
+
+[133.02 - 138.8] generated and so you look at the the
+
+[136.26 - 141.84] ramp up of just the digital capacities
+
+[138.8 - 143.459] if we assume that also robotic
+
+[141.84 - 145.92000000000002] capacities are going to follow suit
+
+[143.459 - 147.84] eventually that basically we end up with
+
+[145.92 - 150.42] you know commander data and Westworld
+
+[147.84 - 152.879] style hosts that are pretty much
+
+[150.42 - 155.099] indistinguishable from Human but still
+
+[152.879 - 157.26] superhuman like in terms of strength
+
+[155.099 - 160.319] intelligence agility so on and so forth
+
+[157.26 - 163.44] then basically we're going to the
+
+[160.319 - 165.35999999999999] assumption that I'm making is that AGI
+
+[163.44 - 167.459] will be intellectually morally ethically
+
+[165.36 - 169.92000000000002] and creatively Superior to humans in
+
+[167.459 - 171.18] every conceivable way in the not too
+
+[169.92 - 173.94] distant future
+
+[171.18 - 177.18] likewise I'm making the assumption that
+
+[173.94 - 180.48] robots are going to be uh dexterous
+
+[177.18 - 182.28] hyper realistic and as I said superhuman
+
+[180.48 - 184.5] but in some cases completely
+
+[182.28 - 186.12] indistinguishable from humans
+
+[184.5 - 187.68] um unless they are designed to not look
+
+[186.12 - 189.72] human and of course like there's been
+
+[187.68 - 191.58] talks about like maybe you require that
+
+[189.72 - 193.08] all robots have like you know a red
+
+[191.58 - 193.76000000000002] light on their head or something I don't
+
+[193.08 - 196.98000000000002] know
+
+[193.76 - 199.379] anyways the point being is that human
+
+[196.98 - 202.14] labor is going to become economically
+
+[199.379 - 205.26] irrelevant let me say that again the the
+
+[202.14 - 208.07999999999998] economic value of human labor is going
+
+[205.26 - 211.92] to be zero uh before too long now that
+
+[208.08 - 213.65900000000002] being said like okay like I you know I
+
+[211.92 - 214.92] was saying there are some jobs that
+
+[213.659 - 217.56] people are going to continue to pay for
+
+[214.92 - 219.89999999999998] and I'll Define that in just a second
+
+[217.56 - 221.7] um but I want to unpack kind of the
+
+[219.9 - 223.20000000000002] economic Paradigm that's coming and of
+
+[221.7 - 224.7] course there's the the tongue-in-cheek
+
+[223.2 - 226.92] you know fully automated luxury space
+
+[224.7 - 228.54] communism I do believe that that's
+
+[226.92 - 231.11999999999998] actually coming especially when you look
+
+[228.54 - 233.57999999999998] at hyper hyperabundance of energy with
+
+[231.12 - 235.37900000000002] Fusion uh the breakthroughs with Quantum
+
+[233.58 - 238.44000000000003] Computing that's happening the
+
+[235.379 - 241.26] exponential ramp up of AI uh Microsoft
+
+[238.44 - 243.12] just I think it was Microsoft they just
+
+[241.26 - 246.48] announced that they want to
+
+[243.12 - 248.81900000000002] um to do the next 250 years of Material
+
+[246.48 - 250.319] Science in the next 25 years with the
+
+[248.819 - 252.0] combination of artificial intelligence
+
+[250.319 - 255.06] and Quantum computing
+
+[252.0 - 256.919] like that is literally Sacha Nadella
+
+[255.06 - 259.44] basically saying that he wants to do the
+
+[256.919 - 261.59999999999997] ramp up to the singularity because guess
+
+[259.44 - 264.66] what happens in 25 years
+
+[261.6 - 266.82000000000005] we are almost exactly 25 years away from
+
+[264.66 - 268.91900000000004] Ray kurzweil's uh prediction of the
+
+[266.82 - 272.46] singularity
+
+[268.919 - 274.56] um yeah so like what happens then
+
+[272.46 - 275.88] if the marginal cost of pretty much all
+
+[274.56 - 278.1] everything that you need drops to
+
+[275.88 - 279.9] basically zero then like it almost
+
+[278.1 - 281.46000000000004] doesn't even make sense for companies to
+
+[279.9 - 283.19899999999996] exist so I was talking with someone
+
+[281.46 - 285.78] about this like what if the marginal
+
+[283.199 - 288.06] cost of Health Care drops to like five
+
+[285.78 - 291.65999999999997] dollars per year in in terms of current
+
+[288.06 - 293.52] economic uh US Dollars like if if the
+
+[291.66 - 295.08000000000004] total cost of your health care drops to
+
+[293.52 - 297.18] five dollars a year
+
+[295.08 - 298.32] it's not profitable for a company to do
+
+[297.18 - 299.82] it so you might as well just have the
+
+[298.32 - 302.09999999999997] government pay for it
+
+[299.82 - 305.759] um because it's practically free ditto
+
+[302.1 - 308.0] for food housing uh other basic goods
+
+[305.759 - 309.96000000000004] and services internet electricity
+
+[308.0 - 311.88] obviously there's always going to be
+
+[309.96 - 314.46] some desirable luxury goods that you'll
+
+[311.88 - 316.8] need to pay for uh but that's a that's a
+
+[314.46 - 317.94] conversation for a different story
+
+[316.8 - 320.04] um or a different video or whatever
+
+[317.94 - 321.66] anyways so just kind of setting the
+
+[320.04 - 323.52000000000004] stage a little bit more
+
+[321.66 - 325.199] I was listening to the uh Mark
+
+[323.52 - 327.59999999999997] Andreessen and Lex Friedman podcast
+
+[325.199 - 329.46000000000004] which was really good by the way and one
+
+[327.6 - 332.22] of the things that he talked about and I
+
+[329.46 - 335.09999999999997] I I knew of this thing but I he
+
+[332.22 - 336.90000000000003] articulated it in such a way that was
+
+[335.1 - 338.699] just like oh that's super clear and it
+
+[336.9 - 340.67999999999995] makes sense and they were talking about
+
+[338.699 - 345.18] the lump of Labor fallacy which is the
+
+[340.68 - 347.1] idea that uh that the incorrect
+
+[345.18 - 348.539] assumption that there's only a finite
+
+[347.1 - 350.46000000000004] amount of Labor to go around and that
+
+[348.539 - 352.38] once you automate it all away you get
+
+[350.46 - 355.32] that fully automated uh luxury space
+
+[352.38 - 357.479] communism and so but the what he
+
+[355.32 - 358.979] explained was and I had to look this up
+
+[357.479 - 362.75899999999996] to make sure that that I had it right
+
+[358.979 - 364.74] but that the the reason that quote
+
+[362.759 - 366.3] technology always creates new jobs it's
+
+[364.74 - 368.039] not that technology creates new jobs
+
+[366.3 - 370.62] what actually happens from an economic
+
+[368.039 - 373.74] perspective is that technology reduces
+
+[370.62 - 375.3] the cost of goods and services uh the
+
+[373.74 - 376.86] cost of clothing goes down the cost of
+
+[375.3 - 379.919] food goes down especially when you look
+
+[376.86 - 382.259] at the Industrial Revolution so when the
+
+[379.919 - 385.02] cost of your basic necessities and other
+
+[382.259 - 388.02000000000004] goods and services goes down your dollar
+
+[385.02 - 389.94] goes further meaning that you have uh
+
+[388.02 - 391.979] increased buying power to allocate your
+
+[389.94 - 394.62] money to other things so your AG
+
+[391.979 - 395.81899999999996] consumer aggregate demand goes up
+
+[394.62 - 398.34000000000003] elsewhere
+
+[395.819 - 401.34000000000003] and so when you reallocate that money to
+
+[398.34 - 403.5] other needs and wants then you basically
+
+[401.34 - 406.44] create new Industries
+
+[403.5 - 408.0] based on consumer demand so that's how I
+
+[406.44 - 412.199] approach this problem as I said okay
+
+[408.0 - 414.0] let's let's throw out AGI capacity let's
+
+[412.199 - 415.139] throw out robots let's just assume that
+
+[414.0 - 417.66] they're going to be better than humans
+
+[415.139 - 420.419] in every conceivable way and in many
+
+[417.66 - 423.47900000000004] cases probably preferable to humans but
+
+[420.419 - 425.58] let's look at consumer demand for actual
+
+[423.479 - 427.68] humans so that's how I basically
+
+[425.58 - 431.9] approach this whole thing
+
+[427.68 - 434.22] um the other kind of political Mantra or
+
+[431.9 - 436.19899999999996] economic Mantra is that human demand is
+
+[434.22 - 439.8] infinite which definitely seems to be
+
+[436.199 - 441.41900000000004] true over the last century but the thing
+
+[439.8 - 444.0] is is that not all human needs are
+
+[441.419 - 446.34] infinite right just be like if food is
+
+[444.0 - 447.84] five dollars per year that doesn't mean
+
+[446.34 - 450.17999999999995] that you're going to eat infinitely more
+
+[447.84 - 452.46] food you have fixed amounts of things
+
+[450.18 - 454.5] that you need and also like if you have
+
+[452.46 - 456.96] one Mansion you don't necessarily need a
+
+[454.5 - 458.639] thousand Mansions right or if you you
+
+[456.96 - 460.19899999999996] know if I if my dream comes true and I
+
+[458.639 - 464.46000000000004] end up with a super yacht I don't need
+
+[460.199 - 466.56] 10 right just one will do uh so anyways
+
+[464.46 - 468.65999999999997] but that being said there is there's
+
+[466.56 - 470.4] always more that we want
+
+[468.66 - 473.28000000000003] um so what you could say is that human
+
+[470.4 - 474.479] desires might be infinite but I don't
+
+[473.28 - 476.28] even know if I agree with that because
+
+[474.479 - 477.71999999999997] eventually there is such a thing as as
+
+[476.28 - 480.05999999999995] good enough
+
+[477.72 - 482.03900000000004] all right so defining automation
+
+[480.06 - 485.28000000000003] resistant occupations
+
+[482.039 - 486.96] uh the I was able to kind of identify
+
+[485.28 - 489.84] six
+
+[486.96 - 492.06] um six categories or six dimensions that
+
+[489.84 - 494.75899999999996] might make an occupation resistant to
+
+[492.06 - 497.28000000000003] being destroyed by automation so first
+
+[494.759 - 498.47900000000004] is strong consumer preference so this is
+
+[497.28 - 500.81899999999996] what I was mentioning where it's just
+
+[498.479 - 503.15999999999997] for whatever reason humans want to pay
+
+[500.819 - 506.94] another human to do a thing
+
+[503.16 - 508.5] um now obviously like okay that's kind
+
+[506.94 - 509.699] of difficult it's like okay well what do
+
+[508.5 - 512.039] I want to pay a human to do and of
+
+[509.699 - 513.36] course some people uh in the comments
+
+[512.039 - 515.58] section say like there's nothing that
+
+[513.36 - 517.5] they want a human to do if you have AGI
+
+[515.58 - 519.599] and a realistic robot they say get rid
+
+[517.5 - 521.099] of humans out of my life
+
+[519.599 - 522.479] um which is fine some people might want
+
+[521.099 - 524.099] to live like that I might want to live
+
+[522.479 - 526.08] like that I don't know like I said in a
+
+[524.099 - 528.12] in a podcast like I would love to have
+
+[526.08 - 529.62] Commander Data as a friend
+
+[528.12 - 532.44] um because you know what humans can
+
+[529.62 - 535.26] sometimes be problematic uh intrinsic
+
+[532.44 - 537.12] human qualities so this is stuff that is
+
+[535.26 - 540.8389999999999] intrinsically human like basically
+
+[537.12 - 542.64] emotions uh human authenticity so this
+
+[540.839 - 545.22] is where it's come it comes more down to
+
+[542.64 - 548.04] The Human Experience no matter how good
+
+[545.22 - 549.839] an AI or a robot is at approximating or
+
+[548.04 - 552.48] pretending to be human it will never
+
+[549.839 - 555.0600000000001] have a truly Human Experience and so in
+
+[552.48 - 556.8000000000001] some cases I want to hear about the
+
+[555.06 - 558.66] human experience that another person is
+
+[556.8 - 559.9799999999999] having and so that is what I mean by
+
+[558.66 - 562.5] authenticity
+
+[559.98 - 563.94] emotional resonance so this has to do
+
+[562.5 - 566.94] with you know the emotional aspect but
+
+[563.94 - 568.9200000000001] also the relational aspect because when
+
+[566.94 - 573.0] a machine exists and it can make itself
+
+[568.92 - 575.0999999999999] into any form factor to suit you then
+
+[573.0 - 577.2] it's like okay well you know that's easy
+
+[575.1 - 578.339] mode and that that's not necessarily a
+
+[577.2 - 581.22] bad thing you know there's plenty of
+
+[578.339 - 583.6800000000001] people out there uh who will choose to
+
+[581.22 - 586.5600000000001] have uh emotional connections to
+
+[583.68 - 588.5999999999999] machines and that's fine I honestly
+
+[586.56 - 589.8599999999999] don't have any uh particular issue with
+
+[588.6 - 591.3000000000001] that
+
+[589.86 - 594.0] um that being said there's going to be
+
+[591.3 - 595.38] people who prefer the real deal uh
+
+[594.0 - 597.66] cultural context so this was an
+
+[595.38 - 599.88] interesting thing as I was brainstorming
+
+[597.66 - 602.64] and researching this was uh it was
+
+[599.88 - 605.279] pointed out to me by chat gbt that in
+
+[602.64 - 607.98] many cases there is a strong belief that
+
+[605.279 - 610.74] humans must be involved in a thing uh
+
+[607.98 - 613.6800000000001] whether it's you know religion or or
+
+[610.74 - 616.38] whatever other cultural paradigms
+
+[613.68 - 617.88] ceremonial things where like say for
+
+[616.38 - 620.76] instance a wedding
+
+[617.88 - 622.5] if you did have a robot priest officiate
+
+[620.76 - 624.0] a wedding that might be a little bit
+
+[622.5 - 625.98] weird and you might prefer to have a
+
+[624.0 - 627.72] real human officiate your wedding just
+
+[625.98 - 629.22] as an example and then finally
+
+[627.72 - 631.62] intangibles
+
+[629.22 - 634.44] so these are things where there's not
+
+[631.62 - 636.54] really any uh compelling reason that a
+
+[634.44 - 639.1800000000001] machine couldn't do it but there can be
+
+[636.54 - 641.88] some intangible qualities or values
+
+[639.18 - 643.92] added from having a real human doing the
+
+[641.88 - 646.5] thing and we're going to unpack a whole
+
+[643.92 - 648.18] bunch of careers in just a second
+
+[646.5 - 650.94] um so actually yeah here we go we're
+
+[648.18 - 652.079] ready jobs that probably stay pretty
+
+[650.94 - 653.7600000000001] much forever
+
+[652.079 - 657.66] and one thing that I want to point out
+
+[653.76 - 659.579] is that uh in all of these cases the
+
+[657.66 - 662.399] basically the assumption is that a robot
+
+[659.579 - 664.8] or a machine or AGI could do it and
+
+[662.399 - 666.66] could do it better than humans but the
+
+[664.8 - 669.3599999999999] idea is that there will still be demand
+
+[666.66 - 671.459] consumer demand for humans to do these
+
+[669.36 - 673.38] things at least enough for some of the
+
+[671.459 - 675.06] jobs to stick around I'm not saying that
+
+[673.38 - 676.98] the entire economy is going to be these
+
+[675.06 - 678.7399999999999] jobs I still think that many people are
+
+[676.98 - 682.74] going to be just permanently out of work
+
+[678.74 - 685.5600000000001] and they'll find other stuff to do
+
+[682.74 - 689.339] um so musicians actors writers painters
+
+[685.56 - 692.399] uh artists celebrities of all kinds uh
+
+[689.339 - 694.1400000000001] Gamers streamers uh various kinds of
+
+[692.399 - 695.48] competitors like chess and American
+
+[694.14 - 698.16] Ninja
+
+[695.48 - 700.8000000000001] content creators lifestyle uh
+
+[698.16 - 703.4399999999999] communicators and influencers uh these
+
+[700.8 - 705.899] are the kinds of things that are uh
+
+[703.44 - 707.94] basically intrinsically human where you
+
+[705.899 - 710.519] know like yes you might have like a
+
+[707.94 - 712.5600000000001] robot actor or a robot you know an AI
+
+[710.519 - 714.72] streamer that you follow it's already
+
+[712.56 - 717.4799999999999] happening a lot of us are going to still
+
+[714.72 - 720.12] prefer just to see real humans some
+
+[717.48 - 723.36] people suspect that once like V tubers
+
+[720.12 - 726.0] or whatever become uh good enough that
+
+[723.36 - 727.44] like a lot of people won't care but you
+
+[726.0 - 729.899] know what I think I think that the
+
+[727.44 - 731.94] market uh will will probably fragment
+
+[729.899 - 733.86] around this or or there will be market
+
+[731.94 - 736.2] segments some people will just always
+
+[733.86 - 738.72] prefer the real thing right that being
+
+[736.2 - 741.6] said like we grew up with cartoons and
+
+[738.72 - 745.14] CGI stuff like we are used to engaging
+
+[741.6 - 747.12] with uh fake characters or or um not
+
+[745.14 - 748.68] fake but like synthesized right like
+
+[747.12 - 750.72] some of our favorite characters in all
+
+[748.68 - 753.42] time are video game characters which are
+
+[750.72 - 755.94] completely fabricated right uh now that
+
+[753.42 - 758.76] being said some of them uh do have face
+
+[755.94 - 761.8800000000001] models and voices from real people
+
+[758.76 - 763.38] um but that being said I think that uh
+
+[761.88 - 767.579] while we are comfortable with some level
+
+[763.38 - 769.32] of CGI and and synthesis I think that
+
+[767.579 - 772.019] there's going to be a persistent and
+
+[769.32 - 774.6600000000001] durable demand for the real deal
+
+[772.019 - 778.26] again in many cases humans are going to
+
+[774.66 - 780.12] go fully go away but I think that just
+
+[778.26 - 782.16] because we're humans the demand for
+
+[780.12 - 784.74] A-list celebrities we're gonna figure
+
+[782.16 - 786.3] that out it just as an example food and
+
+[784.74 - 788.22] Hospitality so this is the kind of thing
+
+[786.3 - 789.42] where a lot of people very much are
+
+[788.22 - 792.12] looking forward to having their own
+
+[789.42 - 795.0] personal robot Chef myself included I
+
+[792.12 - 796.5600000000001] like having nice food and I don't always
+
+[795.0 - 797.76] feel like cooking and even though I've
+
+[796.56 - 799.92] Gotten Good at cooking especially
+
+[797.76 - 802.139] because of the pandemic
+
+[799.92 - 805.56] um I would still prefer not to have to
+
+[802.139 - 809.22] do that myself now that being said
+
+[805.56 - 811.8] there is something very human and Primal
+
+[809.22 - 813.12] about a nice night out at a fancy
+
+[811.8 - 814.74] restaurant
+
+[813.12 - 816.54] um so because of that I think that
+
+[814.74 - 819.3] restaurants and everything that goes
+
+[816.54 - 821.579] with restaurants is going to stick
+
+[819.3 - 823.8599999999999] around uh because there's always people
+
+[821.579 - 826.62] going uh willing to pay for that kind of
+
+[823.86 - 827.94] experience even if it's rare or of
+
+[826.62 - 829.38] course there's there's probably always
+
+[827.94 - 830.519] going to be wealth disparity so there's
+
+[829.38 - 832.2] people that are going to prefer to eat
+
+[830.519 - 833.339] out every night and they're not going to
+
+[832.2 - 834.36] want to have a robot waiter they're
+
+[833.339 - 838.0790000000001] going to have want to have a real
+
+[834.36 - 840.12] sommelier uh another thing to consider
+
+[838.079 - 843.54] is that food is a very Human Experience
+
+[840.12 - 845.22] even if we have anthropomorphic machines
+
+[843.54 - 847.019] they won't need food the same way that
+
+[845.22 - 849.899] we do you know they're going to need
+
+[847.019 - 852.66] power and data but we need physical
+
+[849.899 - 855.24] sustenance we you know like getting a
+
+[852.66 - 857.399] buzz from having a glass of wine and so
+
+[855.24 - 859.62] because that experience is intrinsically
+
+[857.399 - 860.94] and deeply human there's going to be a
+
+[859.62 - 863.279] lot of people that will just always
+
+[860.94 - 865.86] prefer humans and I could imagine like
+
+[863.279 - 867.18] you know a a sign or part of the
+
+[865.86 - 869.399] advertising scheme of a restaurant
+
+[867.18 - 872.76] saying no robots allowed right you know
+
+[869.399 - 874.56] 100 human weight staff I can definitely
+
+[872.76 - 875.9399999999999] foresee that that happening in the
+
+[874.56 - 878.0999999999999] future because you know what like
+
+[875.94 - 880.5600000000001] there's some restaurants out there that
+
+[878.1 - 882.6] they switch to having like the the uh
+
+[880.56 - 885.1199999999999] the touch the touch pads like the order
+
+[882.6 - 887.519] yourself and like on the one hand I get
+
+[885.12 - 888.9590000000001] it like it's fast it's convenient but
+
+[887.519 - 891.66] it's also kind of like hey just Serve
+
+[888.959 - 893.279] Yourself you know peasant I'm like I
+
+[891.66 - 895.92] don't really like that feeling
+
+[893.279 - 897.959] um I like I like having uh having just
+
+[895.92 - 900.779] even if it's just 20 seconds to tell a
+
+[897.959 - 903.42] human my order or whatever
+
+[900.779 - 905.82] so anyways I I think because of all the
+
+[903.42 - 907.8] aspects of food and Hospitality there's
+
+[905.82 - 910.5600000000001] going to be a very persistent demand for
+
+[907.8 - 913.4399999999999] all kinds of jobs like concierge's like
+
+[910.56 - 916.6199999999999] Caterers nutritionists sommeliers
+
+[913.44 - 919.019] Baristas that sort of thing
+
+[916.62 - 921.0600000000001] um so this was another uh category that
+
+[919.019 - 923.82] I thought was kind of interesting which
+
+[921.06 - 925.6199999999999] is uh cultural and meaning roles and so
+
+[923.82 - 928.62] what I mean by a meaning role is these
+
+[925.62 - 929.76] are the people that are uh used to have
+
+[928.62 - 931.86] been would have been called like the
+
+[929.76 - 934.56] priest class or whatever these are the
+
+[931.86 - 935.639] Shepherds of society of of culture of
+
+[934.56 - 937.4399999999999] meaning
+
+[935.639 - 940.32] and of course like we don't have one
+
+[937.44 - 942.6] coherent structure uh in society today
+
+[940.32 - 945.1800000000001] because we have many religions we have
+
+[942.6 - 946.98] philosophers we have secularists we have
+
+[945.18 - 949.92] anthropologists
+
+[946.98 - 952.62] um that sort of thing but uh the idea
+
+[949.92 - 954.36] though is that the question of what it
+
+[952.62 - 956.4590000000001] means to be human is an intrinsically
+
+[954.36 - 958.62] human question and it also has to do
+
+[956.459 - 960.2399999999999] with our culture and so these are things
+
+[958.62 - 963.18] where it's just just by virtue of the
+
+[960.24 - 965.22] fact that this is that we are humans and
+
+[963.18 - 966.779] Only Humans will understand our
+
+[965.22 - 968.22] experience even if machines can
+
+[966.779 - 970.26] mathematically model our experience
+
+[968.22 - 972.24] because you can go talk to chat GPT
+
+[970.26 - 973.5] about the meaning of life right now and
+
+[972.24 - 975.1800000000001] it is capable of having that
+
+[973.5 - 976.68] conversation with you but you know that
+
+[975.18 - 977.88] you were talking with something that
+
+[976.68 - 980.04] does not have the same kind of
+
+[977.88 - 983.699] experience that you do
+
+[980.04 - 986.9399999999999] and so because of that uh you know the
+
+[983.699 - 989.399] the meaning of of humanity and of life
+
+[986.94 - 991.5600000000001] and that sort of stuff yes many people
+
+[989.399 - 994.56] including myself will talk to AGI and
+
+[991.56 - 996.959] robots about these kinds of things but
+
+[994.56 - 999.18] they're still an intrinsic human quality
+
+[996.959 - 1000.56] to having that conversation with another
+
+[999.18 - 1003.62] human
+
+[1000.56 - 1005.2399999999999] um particularly as uh you know new age
+
+[1003.62 - 1007.279] religions and spirituality and
+
+[1005.24 - 1011.42] psychedelic uh traditions and Shamanism
+
+[1007.279 - 1015.259] uh come up you know like we we humans
+
+[1011.42 - 1017.3] can have inexplicable experiences and we
+
+[1015.259 - 1019.279] also have the the just deeply personal
+
+[1017.3 - 1021.4399999999999] question of what is the purpose of my
+
+[1019.279 - 1023.42] life or what is the meaning of existence
+
+[1021.44 - 1024.74] that sort of stuff and that being said I
+
+[1023.42 - 1027.98] am also one that will that that
+
+[1024.74 - 1030.799] absolutely firmly believes that AGI will
+
+[1027.98 - 1032.959] ultimately be asking similar questions
+
+[1030.799 - 1034.8799999999999] um but even if we have the same question
+
+[1032.959 - 1037.22] why do we exist what is the meaning of
+
+[1034.88 - 1038.9] creation how did things come to be the
+
+[1037.22 - 1040.459] way they are we're going to be
+
+[1038.9 - 1043.699] approaching it from a different and
+
+[1040.459 - 1046.04] subjective uh angle
+
+[1043.699 - 1047.959] this one is something that I'm actually
+
+[1046.04 - 1050.54] really dubious about and I'll talk about
+
+[1047.959 - 1053.0] it again when I get to medicine at the
+
+[1050.54 - 1058.1599999999999] end but mental emotional and relational
+
+[1053.0 - 1061.28] Health in this case in many cases you
+
+[1058.16 - 1064.7] probably will some people will prefer to
+
+[1061.28 - 1066.559] have a real human you know talk about
+
+[1064.7 - 1068.3600000000001] their you know talk to talk about their
+
+[1066.559 - 1071.0] marriage with or to talk about you know
+
+[1068.36 - 1074.12] their PTSD with or whatever
+
+[1071.0 - 1077.48] but at the same time we have discovered
+
+[1074.12 - 1078.9189999999999] that tools like chat GPT like the
+
+[1077.48 - 1081.44] reflective journaling tool that I use
+
+[1078.919 - 1084.0200000000002] almost every day is an incredibly
+
+[1081.44 - 1087.2] powerful tool for mental emotional and
+
+[1084.02 - 1089.299] relational Health in fact I the the the
+
+[1087.2 - 1092.419] the reflective journaling tool that I
+
+[1089.299 - 1094.76] created I use that more than I talked to
+
+[1092.419 - 1096.3200000000002] like my wife now about these things I
+
+[1094.76 - 1097.76] still talk to her about like you know
+
+[1096.32 - 1099.02] what it is like what it is that we're
+
+[1097.76 - 1101.539] going through and that we're working on
+
+[1099.02 - 1103.82] and we talk about our relationship but
+
+[1101.539 - 1106.52] this tool is also incredibly powerful
+
+[1103.82 - 1107.96] and one thing that I just heard I I
+
+[1106.52 - 1109.48] didn't I didn't find the study but I
+
+[1107.96 - 1112.1000000000001] heard someone mention it on a podcast
+
+[1109.48 - 1114.6200000000001] was that with um
+
+[1112.1 - 1117.5] was it Sam Altman he I think he alluded
+
+[1114.62 - 1119.299] to a study anyways what they what they
+
+[1117.5 - 1121.76] have determined is that the current
+
+[1119.299 - 1123.02] version of chat GPT the the most recent
+
+[1121.76 - 1125.9] one
+
+[1123.02 - 1128.4189999999999] um actually scores better on uh having
+
+[1125.9 - 1131.66] lower implicit bias and explicit bias
+
+[1128.419 - 1133.5800000000002] then even highly trained and highly
+
+[1131.66 - 1135.559] conscientious humans
+
+[1133.58 - 1138.3799999999999] and so this kind of touches on the fact
+
+[1135.559 - 1140.36] that like okay humans are fallible and
+
+[1138.38 - 1142.2800000000002] even the most well-intentioned most
+
+[1140.36 - 1144.4399999999998] well-trained therapists and counselors
+
+[1142.28 - 1146.1789999999999] and psychologists have their own biases
+
+[1144.44 - 1147.679] whether it's bias from the medical
+
+[1146.179 - 1149.539] establishment that they learned because
+
+[1147.679 - 1152.0] that is certainly a thing you know I
+
+[1149.539 - 1153.559] can't tell you the number of of uh of
+
+[1152.0 - 1156.74] psychotherapists and stuff out there
+
+[1153.559 - 1158.059] that that basically believe that CBT is
+
+[1156.74 - 1159.38] the only thing that works and if it
+
+[1158.059 - 1162.26] doesn't work for you then you're just
+
+[1159.38 - 1164.0] lazy right and that's just a completely
+
+[1162.26 - 1166.34] disingenuous and unprofessional position
+
+[1164.0 - 1167.62] to have but plenty of them have that out
+
+[1166.34 - 1170.4189999999999] there
+
+[1167.62 - 1173.12] uh meanwhile on the other hand if you
+
+[1170.419 - 1174.74] have a machine that is aware of these
+
+[1173.12 - 1177.4399999999998] these faults and biases and that's not
+
+[1174.74 - 1179.539] to say that GPT is perfect because
+
+[1177.44 - 1182.299] certainly at a at a previous version it
+
+[1179.539 - 1184.539] was incredibly ableist uh it basically
+
+[1182.299 - 1186.799] presumes it kind of had inter
+
+[1184.539 - 1188.24] internalized some of those ideas that
+
+[1186.799 - 1189.98] like if you're struggling with
+
+[1188.24 - 1192.44] relationships maybe you're the problem
+
+[1189.98 - 1193.7] and it's not that like you know it
+
+[1192.44 - 1195.6200000000001] basically wasn't aware of the social
+
+[1193.7 - 1197.1200000000001] model of disability
+
+[1195.62 - 1199.82] um I think it has gotten better at that
+
+[1197.12 - 1201.799] anyways this is rapid this is rapidly
+
+[1199.82 - 1204.32] iterating chat GPT has only been out for
+
+[1201.799 - 1206.9] like about six months so you extrapolate
+
+[1204.32 - 1209.1789999999999] this rate of progress out to years and
+
+[1206.9 - 1210.3200000000002] decades we can assume that these
+
+[1209.179 - 1213.38] machines are going to be much much
+
+[1210.32 - 1215.539] better than humans uh at coaching other
+
+[1213.38 - 1217.4] the machine is better at coaching humans
+
+[1215.539 - 1218.419] through emotions mental and relationship
+
+[1217.4 - 1221.179] Health
+
+[1218.419 - 1223.5200000000002] um now that being said while I'm dubious
+
+[1221.179 - 1225.74] about it I do suspect that many people
+
+[1223.52 - 1229.1] will prefer humans and especially if
+
+[1225.74 - 1230.72] humans are trained by AI I like you know
+
+[1229.1 - 1233.78] these these Superior machines maybe
+
+[1230.72 - 1236.24] humans will get better at their job uh I
+
+[1233.78 - 1238.34] don't know but there's also uh privacy
+
+[1236.24 - 1241.28] and stuff like that because the thing is
+
+[1238.34 - 1243.02] is when you tell your you know pour out
+
+[1241.28 - 1245.8999999999999] your heart to a therapist that you
+
+[1243.02 - 1247.22] really hardly know like I don't know I
+
+[1245.9 - 1249.3200000000002] just don't trust that that doesn't feel
+
+[1247.22 - 1250.94] right to me right because that's not how
+
+[1249.32 - 1253.46] humans have learned to process things
+
+[1250.94 - 1256.1000000000001] that's not how we historically did it
+
+[1253.46 - 1257.8400000000001] um and so but the advantage of having an
+
+[1256.1 - 1259.9399999999998] AI therapist is that you can just delete
+
+[1257.84 - 1262.28] the data
+
+[1259.94 - 1264.14] physical health and well-being so this
+
+[1262.28 - 1266.74] is again one of the kinds of things that
+
+[1264.14 - 1269.0] yes a machine probably can do it better
+
+[1266.74 - 1270.44] especially if we have like Westworld
+
+[1269.0 - 1273.86] level hosts where they are
+
+[1270.44 - 1276.14] indistinguishable from humans uh there
+
+[1273.86 - 1277.9399999999998] will probably be such a high demand for
+
+[1276.14 - 1279.5590000000002] the real deal
+
+[1277.94 - 1281.299] um and I remember I think it was the
+
+[1279.559 - 1283.52] opening scene of Westworld or the first
+
+[1281.299 - 1285.1399999999999] episode where you know the the guest
+
+[1283.52 - 1286.46] shows up and they're they're you know
+
+[1285.14 - 1288.5590000000002] getting they're going through like the
+
+[1286.46 - 1291.5] onboarding thing and the super
+
+[1288.559 - 1293.0] attractive uh woman offers to have sex
+
+[1291.5 - 1294.799] with you know because the guy's asking
+
+[1293.0 - 1296.84] like hey can I have sex with like any
+
+[1294.799 - 1298.7] host that I want and she's like yeah
+
+[1296.84 - 1300.3799999999999] more or less and she's like I can have
+
+[1298.7 - 1302.659] sex with you too if you want and he's
+
+[1300.38 - 1304.8200000000002] like are you real and she said like why
+
+[1302.659 - 1306.2600000000002] would it matter or or she'd ask like
+
+[1304.82 - 1308.12] would it matter and of course like
+
+[1306.26 - 1310.8799999999999] that's the central theme at least of the
+
+[1308.12 - 1313.8799999999999] first season of Westworld which is does
+
+[1310.88 - 1316.3400000000001] does Being Human matter if you have real
+
+[1313.88 - 1319.7] suffering or real intelligence or real
+
+[1316.34 - 1322.039] uh experiences and that sort of thing so
+
+[1319.7 - 1324.2] in anyways I do suspect some people will
+
+[1322.039 - 1326.0] prefer robots again for some of the same
+
+[1324.2 - 1328.039] reasons that I just mentioned about like
+
+[1326.0 - 1329.059] therapy and stuff but I think that
+
+[1328.039 - 1331.34] there's going to be plenty of people
+
+[1329.059 - 1332.48] that will just prefer the real deal for
+
+[1331.34 - 1334.22] a massage therapists and personal
+
+[1332.48 - 1335.72] trainers and yoga instructors it
+
+[1334.22 - 1338.059] occurred to me that a robot yoga
+
+[1335.72 - 1340.64] instructor might be super unfair
+
+[1338.059 - 1343.1] because like they don't have to work for
+
+[1340.64 - 1346.22] the flexibility right like their body is
+
+[1343.1 - 1348.1399999999999] designed to be perfect and and good
+
+[1346.22 - 1349.7] um now that being said if they're a
+
+[1348.14 - 1351.38] better yoga instructor some people might
+
+[1349.7 - 1353.78] prefer that so again some of these jobs
+
+[1351.38 - 1356.2990000000002] will go away but the point is is that
+
+[1353.78 - 1357.9189999999999] some consumers will demand to have a
+
+[1356.299 - 1361.4] real human
+
+[1357.919 - 1362.659] so this one is uh a little bit spicier
+
+[1361.4 - 1365.6000000000001] um but you know
+
+[1362.659 - 1368.659] uh sex workers of all Stripes adult
+
+[1365.6 - 1371.299] content creators burlesque exotic uh
+
+[1368.659 - 1374.48] dancers strippers that sort of stuff
+
+[1371.299 - 1376.94] um again like this is something that I'm
+
+[1374.48 - 1381.14] not necessarily that dubious on we see
+
+[1376.94 - 1384.02] with the rise of CGI and uh generative
+
+[1381.14 - 1387.14] AI art that like the appetite for porn
+
+[1384.02 - 1389.96] is just basically infinite going back to
+
+[1387.14 - 1393.74] earlier in the video uh now that being
+
+[1389.96 - 1397.82] said I suspect that there will also be a
+
+[1393.74 - 1400.039] uh a very durable demand for real humans
+
+[1397.82 - 1401.84] right real bodies
+
+[1400.039 - 1404.059] um the ethics of that are kind of
+
+[1401.84 - 1406.1] dubious right like I'm more in the like
+
+[1404.059 - 1408.62] libertarian Camp not hardcore
+
+[1406.1 - 1410.36] libertarian but like you know if if
+
+[1408.62 - 1412.58] someone wants to do a job and they do it
+
+[1410.36 - 1413.78] safely and they do it ethically go for
+
+[1412.58 - 1418.52] it
+
+[1413.78 - 1419.12] um and there was a there's a few
+
+[1418.52 - 1421.82] um
+
+[1419.12 - 1423.7399999999998] let's say not experiences I have had but
+
+[1421.82 - 1425.1789999999999] like thought experiments
+
+[1423.74 - 1427.34] um well I'll just talk about this one so
+
+[1425.179 - 1431.0590000000002] like in Blade Runner 2049
+
+[1427.34 - 1433.58] uh the the uh protagonist's AI
+
+[1431.059 - 1435.02] girlfriend is she's just a hologram she
+
+[1433.58 - 1436.9399999999998] doesn't have a physical body and so one
+
+[1435.02 - 1438.98] thing that she does is she hires a human
+
+[1436.94 - 1440.96] prostitute to have sex with him while
+
+[1438.98 - 1443.02] she like projects her hologram over her
+
+[1440.96 - 1447.32] which I think was a pretty cool thing
+
+[1443.02 - 1449.4189999999999] and like that that scene being wedged
+
+[1447.32 - 1452.48] into the movie kind of brings up the
+
+[1449.419 - 1454.76] same question about uh you know like
+
+[1452.48 - 1457.159] would it matter if it's a human or not
+
+[1454.76 - 1459.919] and there was a there was an episode of
+
+[1457.159 - 1462.74] a philosophy podcast I think the name of
+
+[1459.919 - 1464.1200000000001] the podcast was very bad wizards but the
+
+[1462.74 - 1466.039] one of the things that they asked was
+
+[1464.12 - 1467.539] like okay for the sake of this thought
+
+[1466.039 - 1468.799] experiment this is what I was trying to
+
+[1467.539 - 1470.419] get to early for the sake of this
+
+[1468.799 - 1473.36] thought experiment imagine that you can
+
+[1470.419 - 1475.88] build a machine a robot that is
+
+[1473.36 - 1478.1589999999999] indistinguishable from humans has an
+
+[1475.88 - 1480.98] actual sentient experience and is
+
+[1478.159 - 1482.0] designed to want to be abused like and I
+
+[1480.98 - 1483.919] was just like that's a really
+
+[1482.0 - 1485.419] interesting thought experiment
+
+[1483.919 - 1488.1200000000001] um and there are certainly people that
+
+[1485.419 - 1491.2990000000002] would uh that would apprec that would in
+
+[1488.12 - 1495.32] that would indulge in that kind of
+
+[1491.299 - 1497.0] experience uh and you know I'm still I'm
+
+[1495.32 - 1498.5] still kind of like I'm not sure how to
+
+[1497.0 - 1499.88] approach that it was a very interesting
+
+[1498.5 - 1503.179] episode
+
+[1499.88 - 1505.46] um moving right along uh craftsmanship
+
+[1503.179 - 1507.98] and handmade luxury goods so this is
+
+[1505.46 - 1509.299] something that we already see durable
+
+[1507.98 - 1512.6] demand for
+
+[1509.299 - 1515.4189999999999] particularly in the 80s and 90s as mass
+
+[1512.6 - 1517.039] production of everything started ramping
+
+[1515.419 - 1520.24] up and we started offshoring
+
+[1517.039 - 1523.28] manufacturing jobs uh you know cheap
+
+[1520.24 - 1526.34] overseas Goods like we got tired of that
+
+[1523.28 - 1529.1589999999999] real fast and this is why Etsy exists
+
+[1526.34 - 1532.58] right is because there is such a
+
+[1529.159 - 1534.74] permanent durable demand for handmade
+
+[1532.58 - 1537.799] luxury goods I don't think that's ever
+
+[1534.74 - 1541.7] going away even if robots can make
+
+[1537.799 - 1544.039] handmade luxury goods I I don't think
+
+[1541.7 - 1546.14] that I think that having knowing that
+
+[1544.039 - 1547.22] another human put their time into
+
+[1546.14 - 1548.6000000000001] something
+
+[1547.22 - 1550.52] I I think that that's going to
+
+[1548.6 - 1551.84] intrinsically always be valuable to us
+
+[1550.52 - 1554.4189999999999] and that's what I mean by like
+
+[1551.84 - 1556.9399999999998] intangible like you could have a
+
+[1554.419 - 1558.26] handmade uh you know knife like chef's
+
+[1556.94 - 1560.539] knife that was made by hand and you
+
+[1558.26 - 1561.799] could have an identical one made by a
+
+[1560.539 - 1563.72] machine and you're still going to prefer
+
+[1561.799 - 1566.9] the one that was made by a human because
+
+[1563.72 - 1569.179] of that intangible value uh knowing that
+
+[1566.9 - 1571.1000000000001] another human put their hands on it and
+
+[1569.179 - 1574.4] put their time and expertise and their
+
+[1571.1 - 1575.9599999999998] ex and their Mastery into that thing so
+
+[1574.4 - 1577.039] I don't feel like I don't have to spend
+
+[1575.96 - 1578.48] too much time talking about this one
+
+[1577.039 - 1580.279] because like just look at the economic
+
+[1578.48 - 1582.6200000000001] model of etsy and the fact that there
+
+[1580.279 - 1586.58] are plenty of of creators out there who
+
+[1582.62 - 1589.9399999999998] make a living on luxury goods that there
+
+[1586.58 - 1592.1] really is no economic reason for it but
+
+[1589.94 - 1594.8600000000001] it is purely a Sentimental or intangible
+
+[1592.1 - 1597.4399999999998] reason that that exists
+
+[1594.86 - 1599.059] fashion and Aesthetics so this was an
+
+[1597.44 - 1601.5800000000002] interesting one that uh that I came up
+
+[1599.059 - 1603.1399999999999] with actually uh Chad GPT didn't even
+
+[1601.58 - 1605.48] touch on this
+
+[1603.14 - 1607.46] um but basically when you look at at
+
+[1605.48 - 1609.08] fashion and Aesthetics and by when I say
+
+[1607.46 - 1611.779] Aesthetics I mean
+
+[1609.08 - 1614.48] um models interior designers decorators
+
+[1611.779 - 1616.94] that sort of stuff uh this is something
+
+[1614.48 - 1619.7] that there in in many of those
+
+[1616.94 - 1621.799] Industries there is a very very strong
+
+[1619.7 - 1623.72] desire for authenticity now that being
+
+[1621.799 - 1626.48] said there are also plenty of of them
+
+[1623.72 - 1628.46] that uh expect cosmetic surgery like
+
+[1626.48 - 1631.279] breast augmentation and liposuction and
+
+[1628.46 - 1632.8400000000001] and makeup and that sort of stuff but in
+
+[1631.279 - 1635.84] many of these industries there are
+
+[1632.84 - 1637.52] trends for authenticity uh you know
+
+[1635.84 - 1639.799] selecting for women that don't have
+
+[1637.52 - 1641.539] breast augmentation or liposuction
+
+[1639.799 - 1645.44] um there are even magazines that ban
+
+[1641.539 - 1647.779] Cosmetics let alone uh computer touching
+
+[1645.44 - 1649.22] up images via computer that being said
+
+[1647.779 - 1650.84] there's plenty of people that use the
+
+[1649.22 - 1651.98] automatic you know filters for
+
+[1650.84 - 1655.9599999999998] everything now
+
+[1651.98 - 1658.58] I suspect that with the rise of AI
+
+[1655.96 - 1660.26] generated images it's like yes there is
+
+[1658.58 - 1663.62] something that is aesthetically perfect
+
+[1660.26 - 1666.2] about you know this uh you know CGI
+
+[1663.62 - 1667.6999999999998] model this computer AI model but then
+
+[1666.2 - 1668.96] it's just like I don't know about I
+
+[1667.7 - 1670.22] don't know about anyone else but like I
+
+[1668.96 - 1671.96] got tired of that real fast it's like
+
+[1670.22 - 1673.1000000000001] okay I know that this is this is not a
+
+[1671.96 - 1674.3600000000001] real person
+
+[1673.1 - 1676.8799999999999] um and so it goes back to that
+
+[1674.36 - 1679.34] intangible value of human Aesthetics of
+
+[1676.88 - 1681.14] knowing that you're like whether it's uh
+
+[1679.34 - 1683.72] you know a dress that was actually made
+
+[1681.14 - 1685.94] by a real human uh and worn by a real
+
+[1683.72 - 1688.039] human there's just something more
+
+[1685.94 - 1690.26] grounding about that kind of thing again
+
+[1688.039 - 1692.24] I think that some people won't care and
+
+[1690.26 - 1693.5] some people will prefer the machines but
+
+[1692.24 - 1695.299] there are going to be lots of us who
+
+[1693.5 - 1696.26] actually prefer the real the real deal
+
+[1695.299 - 1698.6] as well
+
+[1696.26 - 1700.94] but also like Project Runway would be
+
+[1698.6 - 1703.2199999999998] super boring if it was just robots I
+
+[1700.94 - 1705.919] don't know that's just my opinion
+
+[1703.22 - 1709.22] um this one is like really interesting
+
+[1705.919 - 1711.14] so I actually saw her on not in and not
+
+[1709.22 - 1712.76] in person but I saw a documentary about
+
+[1711.14 - 1714.14] her years ago
+
+[1712.76 - 1716.779] um she's a she was like the youngest
+
+[1714.14 - 1720.38] funeral directory director in uh Britain
+
+[1716.779 - 1721.88] uh at the time and I was just like wow
+
+[1720.38 - 1724.0390000000002] that's a really interesting profession
+
+[1721.88 - 1726.2] and so it just really stuck with me but
+
+[1724.039 - 1728.539] like the tldr is like imagine a robot
+
+[1726.2 - 1729.98] riding a eulogy for your mom
+
+[1728.539 - 1731.779] um that would be kind of weird and of
+
+[1729.98 - 1734.659] course like there was the what was it
+
+[1731.779 - 1736.159] the the pastor in Germany recently like
+
+[1734.659 - 1738.5590000000002] delivered a sermon that was written by
+
+[1736.159 - 1741.14] chat GPT like I think that it's gonna
+
+[1738.559 - 1744.1399999999999] happen especially once we develop like
+
+[1741.14 - 1745.279] relationships with machines as like I
+
+[1744.14 - 1747.5590000000002] said like I wouldn't mind having
+
+[1745.279 - 1749.299] Commander Data as a friend and so like
+
+[1747.559 - 1751.46] if I had Commander Data as a friend and
+
+[1749.299 - 1753.86] I died I wouldn't mind if he eulogized
+
+[1751.46 - 1756.02] uh he wrote a eulogy for me
+
+[1753.86 - 1758.6589999999999] um but that being said there is
+
+[1756.02 - 1762.32] something very deeply human about things
+
+[1758.659 - 1765.98] like birth and death uh grief and other
+
+[1762.32 - 1767.12] uh uh transitions in life right so say
+
+[1765.98 - 1767.659] for instance
+
+[1767.12 - 1771.1399999999999] um
+
+[1767.659 - 1773.8400000000001] uh palliative care end of Life Care uh
+
+[1771.14 - 1776.2990000000002] like uh I've actually had an interesting
+
+[1773.84 - 1778.58] conversation with an end of life Doula
+
+[1776.299 - 1782.779] um because they they it's a very deeply
+
+[1778.58 - 1784.6399999999999] spiritual uh kind of role and um you
+
+[1782.779 - 1786.919] know I think I think that yes there will
+
+[1784.64 - 1788.96] be some plenty of people who don't mind
+
+[1786.919 - 1790.88] or prefer the machine because of the
+
+[1788.96 - 1792.74] level of precision because because it's
+
+[1790.88 - 1794.6000000000001] less emotional or because they might
+
+[1792.74 - 1796.1] perform better but also there's going to
+
+[1794.6 - 1798.799] be lots and lots of people who just
+
+[1796.1 - 1802.279] really strongly prefer humans to be part
+
+[1798.799 - 1804.9189999999999] of these intrinsically human experiences
+
+[1802.279 - 1806.36] uh shared outdoor experiences so this is
+
+[1804.919 - 1809.2990000000002] something one of my best friends in high
+
+[1806.36 - 1811.8799999999999] school actually she went to become a
+
+[1809.299 - 1814.399] raft guide while she was in college up
+
+[1811.88 - 1815.779] in the mountains and um like that was a
+
+[1814.399 - 1817.8799999999999] really cool job
+
+[1815.779 - 1820.82] but it's also the kind of thing of the
+
+[1817.88 - 1822.98] shared stress of Adventure the shared
+
+[1820.82 - 1825.32] struggle is actually a really important
+
+[1822.98 - 1827.659] part of the experience and if you have a
+
+[1825.32 - 1830.0] robot with you that that was never in
+
+[1827.659 - 1832.3990000000001] danger and could you know pull you out
+
+[1830.0 - 1834.44] of danger without any risk to itself
+
+[1832.399 - 1837.1999999999998] that kind of lessens the experience a
+
+[1834.44 - 1839.72] little bit uh and so like yeah you might
+
+[1837.2 - 1841.46] have raft guides that have like a spare
+
+[1839.72 - 1842.96] robot to help you fish someone out of
+
+[1841.46 - 1844.94] the water if they fall in
+
+[1842.96 - 1846.5] uh but that being said you're still
+
+[1844.94 - 1848.72] going to want to have the human who has
+
+[1846.5 - 1850.1] hiked up the mountain and struggled and
+
+[1848.72 - 1852.8600000000001] knows what you're going through and
+
+[1850.1 - 1854.36] knows what that experience is like and
+
+[1852.86 - 1858.08] can help you get the most out of that
+
+[1854.36 - 1862.039] experience uh there are uh tour guides
+
+[1858.08 - 1863.6589999999999] and and Excursion leaders uh and this is
+
+[1862.039 - 1866.48] actually something that's really popular
+
+[1863.659 - 1869.179] with the elite right now uh what was it
+
+[1866.48 - 1870.6200000000001] as brown something there's there there's
+
+[1869.179 - 1872.72] multiple companies out there that
+
+[1870.62 - 1874.1] basically you give them like a million
+
+[1872.72 - 1876.32] dollars and they take you on like the
+
+[1874.1 - 1878.6589999999999] coolest Excursion that you've ever been
+
+[1876.32 - 1881.539] on and uh the description for one of
+
+[1878.659 - 1883.0390000000002] them was like you know it's it's a it's
+
+[1881.539 - 1885.2] an adventure that's so intense that
+
+[1883.039 - 1886.58] it'll be seared into your memory it's
+
+[1885.2 - 1888.32] like that sounds painful but you know
+
+[1886.58 - 1889.46] what if you're bored and Rich and you
+
+[1888.32 - 1892.399] have more money than you know what to do
+
+[1889.46 - 1894.919] with have at it uh so point being though
+
+[1892.399 - 1898.1] is that there will always be demand for
+
+[1894.919 - 1900.3200000000002] those really intense uh visceral outdoor
+
+[1898.1 - 1903.5] experiences and Adventures
+
+[1900.32 - 1906.2] journalism is something that uh I think
+
+[1903.5 - 1908.48] that it particularly with the rise of AI
+
+[1906.2 - 1910.88] and disinformation a lot of people
+
+[1908.48 - 1916.22] myself included already like I'm just
+
+[1910.88 - 1918.679] gonna tap out of of uh of you know AI
+
+[1916.22 - 1921.08] generated news and stuff like I want to
+
+[1918.679 - 1924.5590000000002] I want to have a parasocial relationship
+
+[1921.08 - 1927.1399999999999] with a reporter or a news commentator or
+
+[1924.559 - 1929.4189999999999] investigator that I trust who does the
+
+[1927.14 - 1932.3600000000001] work of sifting through all the all the
+
+[1929.419 - 1934.46] noise and tells me what they think what
+
+[1932.36 - 1936.26] they truly think and feel so this again
+
+[1934.46 - 1938.0] comes down to that emotional resonance
+
+[1936.26 - 1941.48] that was mentioned at the beginning
+
+[1938.0 - 1943.279] which it's like hey I want a human to
+
+[1941.48 - 1945.559] tell me what they think about this news
+
+[1943.279 - 1946.88] I want a human to tell me how they feel
+
+[1945.559 - 1949.6399999999999] about the way that things are going
+
+[1946.88 - 1951.0200000000002] because that's what I connect with some
+
+[1949.64 - 1952.279] people again like I said some people
+
+[1951.02 - 1955.399] aren't going to Care some people will
+
+[1952.279 - 1957.26] prefer the ai's unbiased analysis
+
+[1955.399 - 1959.36] because again there's already evidence
+
+[1957.26 - 1961.34] emerging that we can make large language
+
+[1959.36 - 1963.1999999999998] models less by highest than pretty much
+
+[1961.34 - 1967.779] 99 of humans
+
+[1963.2 - 1971.059] so like yes I will I absolutely uh
+
+[1967.779 - 1974.36] appreciate that existence because I want
+
+[1971.059 - 1977.12] you know the AI to look at all sides and
+
+[1974.36 - 1978.62] you know give me the ability to like say
+
+[1977.12 - 1980.1789999999999] okay well what is
+
+[1978.62 - 1982.1589999999999] you know what is the story what's
+
+[1980.179 - 1984.0800000000002] missing what are the gaps you know what
+
+[1982.159 - 1986.5390000000002] is this side saying what does it mean
+
+[1984.08 - 1988.52] the AI will help us analyze all these
+
+[1986.539 - 1991.039] things which is great but I still need
+
+[1988.52 - 1993.26] that intrinsic human connection to tell
+
+[1991.039 - 1995.059] me like okay like what does this mean to
+
+[1993.26 - 1996.98] me as a person
+
+[1995.059 - 1998.96] care profession so this is another one
+
+[1996.98 - 2001.1200000000001] that's like kind of dubious because like
+
+[1998.96 - 2003.7] and I'll talk about this uh more again
+
+[2001.12 - 2006.8799999999999] at the end once we get to Medical Care
+
+[2003.7 - 2008.5] uh but basically I suspect that there
+
+[2006.88 - 2010.3600000000001] will still that there will be a durable
+
+[2008.5 - 2012.34] preference that some people will just
+
+[2010.36 - 2014.019] say you know what like I know that
+
+[2012.34 - 2015.519] there's you can get a robot Nanny and
+
+[2014.019 - 2018.1] they're technically better but I still
+
+[2015.519 - 2020.86] just prefer you know to hire the the
+
+[2018.1 - 2022.299] neighborhood babysitter you know for a
+
+[2020.86 - 2023.4399999999998] little Johnny or whatever
+
+[2022.299 - 2026.44] um that they just prefer that
+
+[2023.44 - 2028.059] authenticity again it comes down to it
+
+[2026.44 - 2030.94] it's really just preference it's not a
+
+[2028.059 - 2032.44] matter of what machines can or can't do
+
+[2030.94 - 2034.179] because we're again we're assuming that
+
+[2032.44 - 2035.8600000000001] the machines are ultimately going to be
+
+[2034.179 - 2038.44] hyper realistic
+
+[2035.86 - 2040.7199999999998] um but the idea is what is it that
+
+[2038.44 - 2042.22] people are willing to pay for and I
+
+[2040.72 - 2044.98] suspect that there will always be people
+
+[2042.22 - 2048.099] willing to pay for humans in care
+
+[2044.98 - 2051.099] professions uh now that might change
+
+[2048.099 - 2053.8590000000004] over time particularly if the economic
+
+[2051.099 - 2056.0800000000004] uh economic shift like if hiring a human
+
+[2053.859 - 2058.5989999999997] to do the job costs 10 000 times as much
+
+[2056.08 - 2060.7] as it costs to have a human do the job
+
+[2058.599 - 2063.3990000000003] that's a pretty steep bill
+
+[2060.7 - 2065.379] but also if the quality of care that
+
+[2063.399 - 2067.7799999999997] machines can render is also a thousand
+
+[2065.379 - 2070.48] times better and safer and more reliable
+
+[2067.78 - 2073.179] we might actually see a collapse of that
+
+[2070.48 - 2075.22] demand not sure but I do I do suspect
+
+[2073.179 - 2077.7400000000002] that some people regardless of how
+
+[2075.22 - 2079.359] sophisticated robots become will still
+
+[2077.74 - 2081.1589999999997] prefer humans
+
+[2079.359 - 2082.7799999999997] Okay so
+
+[2081.159 - 2084.82] I kept alluding to like medical
+
+[2082.78 - 2085.8990000000003] professions and this is where uh
+
+[2084.82 - 2088.119] actually I don't know how this is going
+
+[2085.899 - 2089.379] to be received some of these ideas I
+
+[2088.119 - 2091.359] actually got from you guys in the
+
+[2089.379 - 2092.7999999999997] comments so maybe maybe you guys are
+
+[2091.359 - 2094.419] already on board but some of these might
+
+[2092.8 - 2096.7000000000003] kind of be a little a little bit
+
+[2094.419 - 2098.3199999999997] contentious a little bit spicy but let's
+
+[2096.7 - 2099.7599999999998] talk about you know we talked about a
+
+[2098.32 - 2102.82] whole bunch of jobs that will probably
+
+[2099.76 - 2106.0] stick around forever uh now let's talk
+
+[2102.82 - 2109.06] about jobs that maybe should go away
+
+[2106.0 - 2110.619] all right so first uh some of you are I
+
+[2109.06 - 2112.24] can just hear like cheering and
+
+[2110.619 - 2116.099] screaming at your screen like yes get
+
+[2112.24 - 2118.8999999999996] rid of the politicians uh there's a few
+
+[2116.099 - 2120.579] primary reasons to do this so one
+
+[2118.9 - 2121.839] remember the the thought experiment here
+
+[2120.579 - 2124.0] is that machines are going to be
+
+[2121.839 - 2125.98] intellectually morally ethically and
+
+[2124.0 - 2127.3] creatively Superior to humans in all
+
+[2125.98 - 2130.96] ways
+
+[2127.3 - 2133.0600000000004] from Strictly a structural standpoint if
+
+[2130.96 - 2135.099] machines get to that point it would
+
+[2133.06 - 2137.0789999999997] probably be unethical to allow humans to
+
+[2135.099 - 2138.76] make decisions that influence other
+
+[2137.079 - 2140.2000000000003] humans just by virtue of the fact that
+
+[2138.76 - 2143.2000000000003] the machine can make a better decision
+
+[2140.2 - 2144.9399999999996] and a more robust argument that's going
+
+[2143.2 - 2147.16] to be more fair and more Equitable and
+
+[2144.94 - 2149.68] less biased now
+
+[2147.16 - 2151.839] just just from performance standards
+
+[2149.68 - 2154.54] that's to me that's enough of a reason
+
+[2151.839 - 2156.4] to replace politicians with machines if
+
+[2154.54 - 2158.619] they get to that point there are more
+
+[2156.4 - 2160.6800000000003] reasons than than that though uh not the
+
+[2158.619 - 2162.82] least of which is conflicts of interest
+
+[2160.68 - 2164.3799999999997] politicians often make a lot of money
+
+[2162.82 - 2167.32] while they're in politics at least here
+
+[2164.38 - 2170.38] in America so that's like hmm maybe
+
+[2167.32 - 2172.7200000000003] maybe they don't actually have uh the
+
+[2170.38 - 2176.079] best interests of their constituents in
+
+[2172.72 - 2178.359] mind whereas if we design AGI correctly
+
+[2176.079 - 2181.2400000000002] as long as it has power or whatever it's
+
+[2178.359 - 2182.619] trying to optimize for like it's not
+
+[2181.24 - 2186.16] going to have the same conflicts of
+
+[2182.619 - 2188.5] interest another thing or another aspect
+
+[2186.16 - 2190.72] of that is dubious motivations
+
+[2188.5 - 2192.64] some politicians want power just for the
+
+[2190.72 - 2195.16] sake of power which it's like that's
+
+[2192.64 - 2198.4] maybe not the best reason that uh
+
+[2195.16 - 2200.2] someone should be given power uh another
+
+[2198.4 - 2203.32] thing is cognitive biases as I mentioned
+
+[2200.2 - 2204.5789999999997] Prejudice and uh and worst of all the
+
+[2203.32 - 2207.1600000000003] most Insidious one that people don't
+
+[2204.579 - 2208.6800000000003] talk about enough is trauma politics so
+
+[2207.16 - 2212.02] this is basically someone with
+
+[2208.68 - 2213.7] unaddressed childhood trauma or PTSD and
+
+[2212.02 - 2215.8] they're basically seeking power and
+
+[2213.7 - 2218.9199999999996] control and influence as a means of
+
+[2215.8 - 2222.28] self-soothing whether it's their trauma
+
+[2218.92 - 2225.359] resulted in personality disorders or
+
+[2222.28 - 2228.0400000000004] other kinds of reactionary sensitivities
+
+[2225.359 - 2230.7999999999997] uh yeah I mean
+
+[2228.04 - 2233.02] humans have a basket of flaws that it's
+
+[2230.8 - 2236.02] like if we can get rid of that and have
+
+[2233.02 - 2238.78] machines that make more Equitable uh
+
+[2236.02 - 2240.4] unbiased and fair decisions and that
+
+[2238.78 - 2242.6800000000003] they make better decisions that are more
+
+[2240.4 - 2244.42] rigorously thought through maybe maybe
+
+[2242.68 - 2246.3999999999996] we should focus on getting rid of
+
+[2244.42 - 2249.28] politicians in the long run
+
+[2246.4 - 2251.98] again this is a pretty high bar uh and
+
+[2249.28 - 2253.3590000000004] it will take a lot of time to convince
+
+[2251.98 - 2255.52] people and get them on board but if
+
+[2253.359 - 2258.7599999999998] again if the track record proves it out
+
+[2255.52 - 2261.22] over many many years that that machines
+
+[2258.76 - 2264.2200000000003] are just better and here's the thing is
+
+[2261.22 - 2265.48] I already know that in in in diplomatic
+
+[2264.22 - 2267.339] core and state departments and
+
+[2265.48 - 2270.04] governments they're already using chat
+
+[2267.339 - 2274.0] GPT to help make decisions the AI is
+
+[2270.04 - 2276.339] already influencing politics uh so like
+
+[2274.0 - 2279.64] it's gonna happen by degrees I guess is
+
+[2276.339 - 2282.16] the point is uh you know right now the
+
+[2279.64 - 2283.66] AI is the tool but then soon we're going
+
+[2282.16 - 2284.68] to have semi-autonomous tools and
+
+[2283.66 - 2286.72] eventually we're going to have fully
+
+[2284.68 - 2288.3999999999996] autonomous tools and then once the tools
+
+[2286.72 - 2290.9199999999996] are fully autonomous it's like well why
+
+[2288.4 - 2293.2000000000003] is the human there
+
+[2290.92 - 2295.839] this one I think is probably going to be
+
+[2293.2 - 2297.46] uh pretty contentious for some people
+
+[2295.839 - 2299.14] and some people are going to be super on
+
+[2297.46 - 2300.82] board with it like I said I get a lot of
+
+[2299.14 - 2303.7] these ideas from the comments
+
+[2300.82 - 2305.5] but uh basically police and soldiers
+
+[2303.7 - 2307.8999999999996] have the same flaws as any other humans
+
+[2305.5 - 2309.52] we're all humans they make mistakes
+
+[2307.9 - 2311.8] regardless of how well trained they are
+
+[2309.52 - 2314.5] and also some of them joined the police
+
+[2311.8 - 2316.0600000000004] in the military for the wrong reasons uh
+
+[2314.5 - 2317.8] because they want Power because they
+
+[2316.06 - 2319.66] want to feel Macho because they want to
+
+[2317.8 - 2321.2200000000003] harm people there are literally people
+
+[2319.66 - 2323.5] who join the military and join the
+
+[2321.22 - 2327.5789999999997] police because they want to have an
+
+[2323.5 - 2329.56] opportunity to shoot someone and yes in
+
+[2327.579 - 2332.44] the past when you when you want to hire
+
+[2329.56 - 2335.619] someone who is ready willing and able to
+
+[2332.44 - 2339.099] use Force to hurt someone else like you
+
+[2335.619 - 2342.1600000000003] actually need that if you're in a very
+
+[2339.099 - 2344.1400000000003] cruel contentious combative and barbaric
+
+[2342.16 - 2347.14] world I think we should strive to build
+
+[2344.14 - 2350.44] a less barbaric world and so then that
+
+[2347.14 - 2352.839] says like okay well if you build a robot
+
+[2350.44 - 2355.119] army that follows the Rules of
+
+[2352.839 - 2356.859] Engagement to the letter
+
+[2355.119 - 2359.859] you could actually really drastically
+
+[2356.859 - 2362.859] reduce the rate of rape and torture and
+
+[2359.859 - 2365.859] war crimes and other things now the big
+
+[2362.859 - 2367.9] caveat here is that uh that is unless
+
+[2365.859 - 2370.24] the robot army is actually explicitly
+
+[2367.9 - 2372.339] programmed to do those things or allowed
+
+[2370.24 - 2374.4399999999996] to do those things uh because this is
+
+[2372.339 - 2376.48] actually the explicit policy of some
+
+[2374.44 - 2378.52] Nations out there to deliberately
+
+[2376.48 - 2381.28] inflict suffering on civilian
+
+[2378.52 - 2382.72] populations to break their spirit so
+
+[2381.28 - 2385.48] this is something that it's like it
+
+[2382.72 - 2388.359] could go either way but at least if you
+
+[2385.48 - 2390.339] remove the human aspect of it where Some
+
+[2388.359 - 2392.619] Humans Do it for the wrong reasons then
+
+[2390.339 - 2395.2] it's up to political decisions but again
+
+[2392.619 - 2396.579] if we have robot politicians who don't
+
+[2395.2 - 2398.0789999999997] really care about inflicting human
+
+[2396.579 - 2400.3] suffering they're not going to program
+
+[2398.079 - 2402.1600000000003] the robot army to inflict suffering and
+
+[2400.3 - 2405.099] ideally we don't have it all anyways
+
+[2402.16 - 2407.0789999999997] because the idea is like if you can
+
+[2405.099 - 2408.88] figure it all out in simulation and you
+
+[2407.079 - 2410.98] know what the other side is capable of
+
+[2408.88 - 2413.44] and so on and so forth it should ideally
+
+[2410.98 - 2416.56] never come to force anyways
+
+[2413.44 - 2418.7200000000003] this is a this is a pretty strongly held
+
+[2416.56 - 2421.06] personal opinion so I'll be curious to
+
+[2418.72 - 2422.7999999999997] see how people react to this in the long
+
+[2421.06 - 2424.599] run and remember the assumption that
+
+[2422.8 - 2426.82] we're making is that robots will be
+
+[2424.599 - 2429.0] superior to humans in all ways
+
+[2426.82 - 2431.32] and that AGI will be intellectually
+
+[2429.0 - 2433.66] creatively morally and ethically
+
+[2431.32 - 2435.7000000000003] superior to humans as well as that
+
+[2433.66 - 2439.66] evidence is already emerging
+
+[2435.7 - 2442.0] Transportation so again if machines have
+
+[2439.66 - 2443.2599999999998] a uh have a proven track record that
+
+[2442.0 - 2446.079] means that they are safer and more
+
+[2443.26 - 2448.3] reliable than humans it would probably
+
+[2446.079 - 2452.44] be unethical to allow humans to drive
+
+[2448.3 - 2454.3] and to fly uh and uh we all have lots
+
+[2452.44 - 2456.099] and lots of experiences of Highly
+
+[2454.3 - 2460.119] dubious drivers who probably shouldn't
+
+[2456.099 - 2463.599] be on the road uh you know I think that
+
+[2460.119 - 2467.02] uh I I for one really look forward to uh
+
+[2463.599 - 2469.96] full uh full fully autonomous like level
+
+[2467.02 - 2471.7599999999998] five self-driving cars uh because when
+
+[2469.96 - 2474.7] we get to that one driving is going to
+
+[2471.76 - 2475.7200000000003] be a lot safer for everyone it's also
+
+[2474.7 - 2477.339] going to be a lot more accessible
+
+[2475.72 - 2479.4399999999996] because it's going to Super drive down
+
+[2477.339 - 2481.7799999999997] the cost of driving
+
+[2479.44 - 2484.42] um which is going to open up the world
+
+[2481.78 - 2487.3590000000004] for a lot of people who either can't
+
+[2484.42 - 2489.16] afford to drive or are too infirm to
+
+[2487.359 - 2491.74] drive on their own or whatever because
+
+[2489.16 - 2493.359] because physical personal Mobility is
+
+[2491.74 - 2495.339] actually a really big component of
+
+[2493.359 - 2497.98] individual liberty anyways that's a
+
+[2495.339 - 2500.0789999999997] whole other can of worms but point being
+
+[2497.98 - 2502.119] is that in this case where we're
+
+[2500.079 - 2504.82] imagining that machines are far superior
+
+[2502.119 - 2506.8] to humans in pretty much every way it
+
+[2504.82 - 2508.6600000000003] would probably be illegal to allow a
+
+[2506.8 - 2513.0600000000004] human to drive it which would then
+
+[2508.66 - 2513.06] materially put other humans in danger
+
+[2513.28 - 2517.1400000000003] hazardous jobs is another thing and I
+
+[2515.38 - 2520.3] feel like this is pretty uncontroversial
+
+[2517.14 - 2522.339] uh basically just imagine this there's a
+
+[2520.3 - 2524.7400000000002] robot firefighter that it doesn't matter
+
+[2522.339 - 2527.02] if it gets you know burnt to a crisp
+
+[2524.74 - 2529.1189999999997] because like it's programmed not to have
+
+[2527.02 - 2531.099] a sense of self-preservation but it's
+
+[2529.119 - 2533.56] also faster stronger and has better
+
+[2531.099 - 2535.839] reflexes than a real human firefighter
+
+[2533.56 - 2537.88] which one do you want pulling you out of
+
+[2535.839 - 2539.7999999999997] a burning building the answer seems
+
+[2537.88 - 2541.599] pretty obvious to me
+
+[2539.8 - 2544.42] um you know and this is demonstrated in
+
+[2541.599 - 2545.8590000000004] all kinds of video games and and and TV
+
+[2544.42 - 2548.32] of course you know my favorite example
+
+[2545.859 - 2551.02] is uh is Commander Data from Star Trek
+
+[2548.32 - 2553.1800000000003] but this was also an iRobot right where
+
+[2551.02 - 2555.46] like the robot saw like an accident
+
+[2553.18 - 2558.0989999999997] happen and they immediately jumped into
+
+[2555.46 - 2560.619] the water to pull people out of the car
+
+[2558.099 - 2562.06] right and Will Smith of course in in
+
+[2560.619 - 2564.1600000000003] that movie he was been out of shape
+
+[2562.06 - 2566.68] because the robot saved him and not the
+
+[2564.16 - 2568.48] little girl but if it was only humans he
+
+[2566.68 - 2569.9199999999996] would have just died too right so that's
+
+[2568.48 - 2571.839] I mean the survivor's guilt which is
+
+[2569.92 - 2575.14] that's his own problem but point being
+
+[2571.839 - 2576.46] is that for any kind of hazardous job I
+
+[2575.14 - 2578.859] think that it would probably be
+
+[2576.46 - 2581.859] unethical to allow humans to do those
+
+[2578.859 - 2585.0989999999997] jobs if robots can do them better and
+
+[2581.859 - 2587.98] and safer and so on uh medicine so this
+
+[2585.099 - 2590.94] is this is one that uh is probably going
+
+[2587.98 - 2594.16] to be pretty uh controversial but again
+
+[2590.94 - 2596.38] imagine that that that computers and
+
+[2594.16 - 2599.2] machines and AGI and robots have a
+
+[2596.38 - 2602.619] better Trek track record than humans
+
+[2599.2 - 2605.6189999999997] even if you prefer a human doctor in the
+
+[2602.619 - 2608.56] case where machines are better
+
+[2605.619 - 2610.2400000000002] than than human doctors in all ways I
+
+[2608.56 - 2612.64] think it would probably be illegal for
+
+[2610.24 - 2615.3999999999996] humans to practice medicine
+
+[2612.64 - 2617.5] and uh I remember talking about this on
+
+[2615.4 - 2620.98] Reddit a couple years ago when I was
+
+[2617.5 - 2622.359] learning to use chat gpt3 and I I
+
+[2620.98 - 2623.92] pointed out to someone who was learning
+
+[2622.359 - 2626.7999999999997] to be a radiologist or something I was
+
+[2623.92 - 2628.2400000000002] like Hey like there's a tool here that
+
+[2626.8 - 2630.76] can already do all the things that
+
+[2628.24 - 2632.6189999999997] you're doing and it it it's it's faster
+
+[2630.76 - 2634.599] and and you know the person just
+
+[2632.619 - 2636.579] completely went ballistics you know
+
+[2634.599 - 2638.56] rattling off about like it would be
+
+[2636.579 - 2642.099] impossible for a machine to ever
+
+[2638.56 - 2643.96] understand like you know what X Y and Z
+
+[2642.099 - 2645.46] things mean and you just rattled off a
+
+[2643.96 - 2647.14] bunch of stuff and it's like yeah you
+
+[2645.46 - 2648.339] just plug all that into chat GPT right
+
+[2647.14 - 2649.48] now and it'll tell you exactly what it
+
+[2648.339 - 2653.319] means
+
+[2649.48 - 2656.38] um and the the the evidence is building
+
+[2653.319 - 2658.7799999999997] um I love this quotation oops come back
+
+[2656.38 - 2660.579] uh I'm stunned to say better than many
+
+[2658.78 - 2663.4] it's better than many doctors I've
+
+[2660.579 - 2665.5600000000004] observed this was Dr Isaac cohane
+
+[2663.4 - 2667.48] um when he was talking about gpt4 and
+
+[2665.56 - 2671.2599999999998] this is a computer scientist and
+
+[2667.48 - 2672.339] physician from Harvard right so this is
+
+[2671.26 - 2674.26] like
+
+[2672.339 - 2676.06] cream of the crop already saying that
+
+[2674.26 - 2678.88] like yeah this this machine is already
+
+[2676.06 - 2682.06] better than many actual doctors so I
+
+[2678.88 - 2683.98] suspect that uh that medical professions
+
+[2682.06 - 2686.44] are going to go the way the dinosaurs
+
+[2683.98 - 2688.48] just by virtue of the fact that humans
+
+[2686.44 - 2690.099] will just not be able to compete not to
+
+[2688.48 - 2691.9] mention the fact that human doctors are
+
+[2690.099 - 2693.1600000000003] ludicrously expensive
+
+[2691.9 - 2694.9] um so this is what I mean when I say
+
+[2693.16 - 2696.22] like Medical Care could go to five
+
+[2694.9 - 2698.92] dollars a year
+
+[2696.22 - 2701.2] because if you if you get rid of the
+
+[2698.92 - 2702.94] need for most hospitals due to
+
+[2701.2 - 2705.2799999999997] preventive care and regenerative
+
+[2702.94 - 2707.319] medicine you get rid of the need for
+
+[2705.28 - 2709.6600000000003] nurses and doctors and phlebotomists
+
+[2707.319 - 2711.46] because you have Superior robots then
+
+[2709.66 - 2712.96] it's like medical care just is an
+
+[2711.46 - 2715.78] outpatient thing that you you know like
+
+[2712.96 - 2717.819] you go to the pharmacy uh you know once
+
+[2715.78 - 2719.619] a year and they'll they'll you know take
+
+[2717.819 - 2722.68] a blood sample and say okay here's your
+
+[2719.619 - 2724.7200000000003] medicines for the year go home right and
+
+[2722.68 - 2725.9199999999996] oh and you won't need to be on medicines
+
+[2724.72 - 2727.8999999999996] chronically because they're going to
+
+[2725.92 - 2730.0] actually fix the underlying problem and
+
+[2727.9 - 2731.5] cure you and so then it's like oh here's
+
+[2730.0 - 2733.18] an injection to fix this problem that
+
+[2731.5 - 2735.099] you have you're good to go for the next
+
+[2733.18 - 2738.0989999999997] 10 years that's kind of how I think
+
+[2735.099 - 2740.02] medicine is going to go and so uh this
+
+[2738.099 - 2741.88] somewhat maybe controversial opinion is
+
+[2740.02 - 2745.0] that eventually I think that we should
+
+[2741.88 - 2747.7000000000003] probably actively try and get rid of uh
+
+[2745.0 - 2749.74] medical uh professions on the human
+
+[2747.7 - 2751.18] scale all right so here's some
+
+[2749.74 - 2753.3999999999996] conclusions
+
+[2751.18 - 2755.98] Let's uh let's try and pry that Overton
+
+[2753.4 - 2757.9] window open just a little bit more
+
+[2755.98 - 2759.4] um automation resistant occupations are
+
+[2757.9 - 2761.2000000000003] those that humans will always be willing
+
+[2759.4 - 2763.78] to pay for regardless of machine's
+
+[2761.2 - 2766.54] capacity and capability so again there's
+
+[2763.78 - 2768.28] many reasons for that uh the intangible
+
+[2766.54 - 2770.74] value the emotional resonance the
+
+[2768.28 - 2772.3] connections now the jobs that should go
+
+[2770.74 - 2773.859] away are those that concern and
+
+[2772.3 - 2776.2000000000003] potentially infringe upon the safety and
+
+[2773.859 - 2778.24] rights of other humans because again all
+
+[2776.2 - 2779.68] humans are flawed all humans are biased
+
+[2778.24 - 2781.18] and if machines can demonstrate that
+
+[2779.68 - 2784.2999999999997] they are less flawed and less biased
+
+[2781.18 - 2786.7599999999998] than humans then they will have a better
+
+[2784.3 - 2789.3390000000004] track record in terms of safety and
+
+[2786.76 - 2791.5600000000004] respecting human rights and and
+
+[2789.339 - 2793.9] like I just think that like
+
+[2791.56 - 2796.7799999999997] in the in those cases it would not be
+
+[2793.9 - 2798.579] ethical to allow humans into jobs that
+
+[2796.78 - 2801.52] could infringe on the safety and rights
+
+[2798.579 - 2803.079] of other humans uh and I don't know if
+
+[2801.52 - 2804.16] that's controversial let me know what
+
+[2803.079 - 2806.1400000000003] you guys think in the comments you
+
+[2804.16 - 2810.72] always do anyways so yeah I hope you
+
+[2806.14 - 2810.72] enjoyed uh thanks for watching cheers

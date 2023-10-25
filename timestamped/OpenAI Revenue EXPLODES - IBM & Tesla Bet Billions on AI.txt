@@ -1,0 +1,977 @@
+[0.0 - 6.299] good morning everybody David Shapiro
+
+[2.04 - 8.4] here uh so in the last 24 hours we have
+
+[6.299 - 12.120000000000001] seen several interesting pieces of news
+
+[8.4 - 13.86] drop open AI Tesla and IBM are all
+
+[12.12 - 15.479999999999999] throwing around numbers in the millions
+
+[13.86 - 17.88] and billions and this is in terms of
+
+[15.48 - 19.619] valuation revenue and investment so
+
+[17.88 - 23.52] let's get right into it
+
+[19.619 - 25.98] uh first up IBM has invested even more
+
+[23.52 - 27.599] into hugging face so they have been
+
+[25.98 - 29.699] involved with hugging face for instance
+
+[27.599 - 33.0] they're collaborating on walks of Watson
+
+[29.699 - 35.46] X however they just closed a series D
+
+[33.0 - 39.239] funding round for 235 million dollars
+
+[35.46 - 41.76] valuing hugging face at 4.5 billion
+
+[39.239 - 43.32] dollars so this is a startup that
+
+[41.76 - 46.32] produces
+
+[43.32 - 48.3] primarily open source Ai and has only
+
+[46.32 - 50.76] been around for what two years I think
+
+[48.3 - 52.44] maybe three at least that's as long as
+
+[50.76 - 54.239] like I've kind of known about them as as
+
+[52.44 - 58.44] long as they've been on my radar
+
+[54.239 - 61.559] now at the same time uh the CEO of IBM
+
+[58.44 - 63.599999999999994] arvind Krishna has frozen thousands and
+
+[61.559 - 66.42] thousands of jobs there's 3 900 more
+
+[63.6 - 69.299] layoffs planned at IBM with 7 800
+
+[66.42 - 71.04] positions Frozen and this is also
+
+[69.299 - 73.86000000000001] someone who has said that he expects 30
+
+[71.04 - 77.22] to 50 percent of repetitive tasks to be
+
+[73.86 - 79.439] taken by Ai and that also uh that those
+
+[77.22 - 83.15899999999999] back office tasks will probably be done
+
+[79.439 - 85.55999999999999] better by AI so better faster cheaper uh
+
+[83.159 - 87.72] in other words the takeaway IBM is
+
+[85.56 - 91.259] doubling down on AI
+
+[87.72 - 93.78] uh at the uh next up is Tesla so Tesla
+
+[91.259 - 96.42] just fired up their uh high performance
+
+[93.78 - 98.4] Computing cluster it's 300 worth 300
+
+[96.42 - 102.9] million dollars and it is built of 10
+
+[98.4 - 104.88000000000001] 000 in video Nvidia h100 uh gpus uh so
+
+[102.9 - 107.46000000000001] this is primarily going to be used to
+
+[104.88 - 110.579] take on uh general purpose uh HPC
+
+[107.46 - 112.91999999999999] workloads so this is an HPC compute
+
+[110.579 - 115.32] cluster which basically means that it is
+
+[112.92 - 118.68] a high performance tensor cores that you
+
+[115.32 - 120.41999999999999] can use for anything now obviously Tesla
+
+[118.68 - 123.78] they do a lot of AI but their their
+
+[120.42 - 127.43900000000001] Flagship AI product is FSD which is full
+
+[123.78 - 129.3] self driving uh Elon uh also said that
+
+[127.439 - 131.879] they are going to invest four billion
+
+[129.3 - 133.31900000000002] more dollars into AI over the next two
+
+[131.879 - 135.84] years including at least a billion
+
+[133.319 - 137.22] dollars into their Dojo supercomputer
+
+[135.84 - 140.16] which is their primary training computer
+
+[137.22 - 142.739] so again we see Tech Giants doubling
+
+[140.16 - 145.98] down on AI with numbers in the hundreds
+
+[142.739 - 149.70000000000002] of millions and billions of dollars
+
+[145.98 - 152.819] and the uh kind of the the coup de grace
+
+[149.7 - 156.42] of yesterday's news is that open ai's
+
+[152.819 - 159.06] Revenue has exploded so last year they
+
+[156.42 - 160.92] made 28 million dollars in revenue and
+
+[159.06 - 163.44] in the next 12 months they're on track
+
+[160.92 - 166.319] to make a billion dollars in Revenue
+
+[163.44 - 168.599] uh their revenue has obviously exploded
+
+[166.319 - 170.39999999999998] primarily due to chat GPT and having
+
+[168.599 - 172.44] more than 100 million users sign up in
+
+[170.4 - 174.84] two months but one thing that you need
+
+[172.44 - 177.18] to keep in mind is that this is a 35x
+
+[174.84 - 179.58] increase in Revenue growth so this is
+
+[177.18 - 182.459] where uh tech companies really aim for
+
+[179.58 - 184.31900000000002] to be like a true uh unicorn
+
+[182.459 - 186.959] um so the the technical definition of
+
+[184.319 - 189.0] unicorn is any tech company that any
+
+[186.959 - 191.879] Tech startup that gets to a billion
+
+[189.0 - 193.739] dollar valuation but what the next phase
+
+[191.879 - 196.2] that you're looking for is for them to
+
+[193.739 - 197.34] to take off exponentially so this is the
+
+[196.2 - 199.07999999999998] nature of the book exponential
+
+[197.34 - 201.42000000000002] organizations which I bought but I
+
+[199.08 - 203.94000000000003] haven't fully read yet uh anyways the
+
+[201.42 - 206.7] idea is that because of the nature of
+
+[203.94 - 208.26] Technology because user adoption can be
+
+[206.7 - 210.73899999999998] that fast because you can immediately
+
+[208.26 - 213.659] have Global exposure once your product
+
+[210.739 - 216.659] uh hits the market that's how you can
+
+[213.659 - 218.57999999999998] have 35x Revenue growth in Tech and in
+
+[216.659 - 221.39999999999998] literally no other industry because in
+
+[218.58 - 223.799] in most other Industries where there is
+
+[221.4 - 225.54] human labor involved and when there as
+
+[223.799 - 228.42000000000002] physical goods and locations involved
+
+[225.54 - 230.7] it's just not possible to grow that fast
+
+[228.42 - 233.7] uh one part of the reports out there
+
+[230.7 - 236.33999999999997] says that uh the chat GPT costs them
+
+[233.7 - 239.04] seven hundred thousand dollars per day
+
+[236.34 - 240.42000000000002] to run and if you do the math I did some
+
+[239.04 - 241.98] some quick back of the napkin
+
+[240.42 - 245.879] calculations
+
+[241.98 - 247.98] um if if chat GPT costs 700 000 a day to
+
+[245.879 - 250.2] run then you add it all up and you look
+
+[247.98 - 252.92] at a billion dollars Revenue it probably
+
+[250.2 - 255.78] costs Chad gbt at current rates about
+
+[252.92 - 258.84] 250 to 300 million dollars per year to
+
+[255.78 - 260.82] run so if they're if their revenue is 1
+
+[258.84 - 262.979] billion but the outflows just from
+
+[260.82 - 265.08] running chat GPT which again right now
+
+[262.979 - 266.699] is their Flagship product
+
+[265.08 - 268.8] um then that means they still have 700
+
+[266.699 - 272.22] million dollars left over for things
+
+[268.8 - 274.44] like uh employee revenue or employee
+
+[272.22 - 275.759] salaries research that sort of stuff now
+
+[274.44 - 278.88] another thing to make this more
+
+[275.759 - 281.58000000000004] complicated is that because of the deal
+
+[278.88 - 282.56] that openai signed with Microsoft
+
+[281.58 - 284.699] um I
+
+[282.56 - 287.639] obviously like I haven't read the the
+
+[284.699 - 289.32] entire full package of their deal but my
+
+[287.639 - 291.36] understanding is that Microsoft is
+
+[289.32 - 294.06] entitled to up to 75 percent of open
+
+[291.36 - 295.259] ai's Revenue until they reached a
+
+[294.06 - 299.16] threshold and I think that that
+
+[295.259 - 302.22] threshold is until openai earns them a
+
+[299.16 - 303.72] hundred billion dollars so originally as
+
+[302.22 - 305.46000000000004] of last year it they thought that it
+
+[303.72 - 308.699] could take a decade or more to pay it
+
+[305.46 - 311.28] off now given this recent news and the
+
+[308.699 - 313.259] explosion uh maybe that time frame will
+
+[311.28 - 314.58] shorten now obviously a billion dollars
+
+[313.259 - 316.44] in Revenue if they're giving less than
+
+[314.58 - 321.35999999999996] that to Microsoft that's still going to
+
+[316.44 - 323.34] be like 100 years so if their revenue uh
+
+[321.36 - 325.08000000000004] increases to 10 billion a year or
+
+[323.34 - 326.82] something like that then they'll be able
+
+[325.08 - 329.09999999999997] to pay it off even faster again I'm not
+
+[326.82 - 331.52] sure of all the all the full terms but
+
+[329.1 - 334.68] my point here is that Microsoft is
+
+[331.52 - 335.75899999999996] benefiting from their investment now I
+
+[334.68 - 338.40000000000003] don't know if the whole thing is Cash
+
+[335.759 - 340.22] positive open AI might still be losing
+
+[338.4 - 342.479] money they certainly were last year
+
+[340.22 - 344.58000000000004] Microsoft might still be losing money on
+
+[342.479 - 346.56] the deal but what they're doing is these
+
+[344.58 - 348.0] are strategic moves that the companies
+
+[346.56 - 352.32] are doing in order to better position
+
+[348.0 - 354.72] themselves as these Technologies ramp up
+
+[352.32 - 357.12] okay so that's the three pieces of news
+
+[354.72 - 360.78000000000003] let's dive into the analysis
+
+[357.12 - 364.139] first is uh data and metrics and
+
+[360.78 - 366.35999999999996] predictions on investment growth so when
+
+[364.139 - 369.24] you see numbers like this you know 235
+
+[366.36 - 372.78000000000003] million 300 million uh a billion dollars
+
+[369.24 - 374.22] that is really interesting because this
+
+[372.78 - 375.65999999999997] is kind of I'm not going to say it's the
+
+[374.22 - 377.94000000000005] first time we're seeing numbers this big
+
+[375.66 - 380.36] but we're certainly seeing numbers this
+
+[377.94 - 384.78] big uh in much shorter periods of time
+
+[380.36 - 387.18] and so this uh made me like look into
+
+[384.78 - 389.46] like okay what did what did the
+
+[387.18 - 391.139] financial analysts predict and it looks
+
+[389.46 - 393.71999999999997] like we're actually kind of on track so
+
+[391.139 - 396.06] yes these are like exciting numbers but
+
+[393.72 - 398.759] Goldman Sachs forecasted last year that
+
+[396.06 - 401.16] by 2025 we should be seeing 200 billion
+
+[398.759 - 404.1] dollars per year in these kinds of AI
+
+[401.16 - 405.53900000000004] Investments uh which is double what it
+
+[404.1 - 408.18] was more than double what it was last
+
+[405.539 - 410.699] year of 92 billion uh there is some
+
+[408.18 - 412.08] evidence that that 2023 might be seeing
+
+[410.699 - 413.40000000000003] a Slowdown
+
+[412.08 - 414.9] um but there's also some evidence that
+
+[413.4 - 416.94] it might be accelerating so we're not
+
+[414.9 - 419.4] really going to know until the year is
+
+[416.94 - 421.919] oh over and we've had a chance to tally
+
+[419.4 - 424.31899999999996] it all up but right now the general
+
+[421.919 - 427.31899999999996] consensus seems to be that things are
+
+[424.319 - 429.53900000000004] chugging along more or less as expected
+
+[427.319 - 431.1] so keep that nut keep these numbers in
+
+[429.539 - 433.139] mind that like yes the growth is
+
+[431.1 - 436.639] explosive here so it's a really good
+
+[433.139 - 439.56] time to be selling AI uh Goods Services
+
+[436.639 - 441.3] Hardware software that sort of stuff
+
+[439.56 - 443.699] because the investment is coming the
+
+[441.3 - 445.62] investment is growing and so what all
+
+[443.699 - 448.74] these moves that we're seeing are just
+
+[445.62 - 451.74] naturally to be expected because if we
+
+[448.74 - 453.539] go from 66 billion to 92 billion one
+
+[451.74 - 456.419] year and then we go from 92 billion to
+
+[453.539 - 458.58] let's say 120 billion this year
+
+[456.419 - 460.68] that's 30 billion more dollars that's
+
+[458.58 - 462.419] going to be thrown around on top of what
+
+[460.68 - 464.58] was thrown around last year
+
+[462.419 - 466.79999999999995] so the investment is happening we're
+
+[464.58 - 468.24] seeing this exponential ramp up I guess
+
+[466.8 - 470.52000000000004] this is more of a geometric ramp up
+
+[468.24 - 472.74] rather adding about 30 billion dollars
+
+[470.52 - 475.979] per year of investment
+
+[472.74 - 477.78000000000003] um to to uh AI resources so we're seeing
+
+[475.979 - 479.34] this geometric ramp up
+
+[477.78 - 480.65999999999997] um but we're not talking in the millions
+
+[479.34 - 482.46] of dollars we're talking in the billions
+
+[480.66 - 484.8] and very soon hundreds of billions of
+
+[482.46 - 487.25899999999996] dollars which means that any problems
+
+[484.8 - 489.18] that AI has are going to be solved and
+
+[487.259 - 492.0] this goes back to my video a few weeks
+
+[489.18 - 494.40000000000003] ago AI winter is not coming this is more
+
+[492.0 - 497.28] evidence that AI winter is not coming so
+
+[494.4 - 499.37899999999996] do not think about AI as it is today
+
+[497.28 - 501.29999999999995] think about AI as it will be a year from
+
+[499.379 - 503.699] now because remember this time last year
+
+[501.3 - 505.319] none of you knew well I'm not going to
+
+[503.699 - 507.479] say none of you some of some of my
+
+[505.319 - 509.879] longtime fans will remember when it was
+
+[507.479 - 513.36] just gpt3 because that's all we have
+
+[509.879 - 515.94] this time last year uh but then uh you
+
+[513.36 - 518.099] know come November chat GPT came out and
+
+[515.94 - 520.32] everything changed so imagine where
+
+[518.099 - 523.74] we're going to be this time next year
+
+[520.32 - 525.0] now on top of investment you know I'm
+
+[523.74 - 526.6800000000001] always I'm one of the ones that's always
+
+[525.0 - 528.899] beating the drum on you know post labor
+
+[526.68 - 531.959] economics and you know utopian future
+
+[528.899 - 534.72] where nobody has to work so I decided to
+
+[531.959 - 536.459] put my money or numbers rather where my
+
+[534.72 - 538.5600000000001] mouth is and I looked it up
+
+[536.459 - 539.66] so I use perplexity to find all kinds of
+
+[538.56 - 543.0] Statistics
+
+[539.66 - 546.779] from various dimensions and angles and
+
+[543.0 - 549.779] so yes there have been 150 000 or more
+
+[546.779 - 552.36] U.S tech layoffs as of June so that's
+
+[549.779 - 555.06] that's excluding July and now August so
+
+[552.36 - 556.62] there's two more months however the
+
+[555.06 - 559.1999999999999] recent data shows that total
+
+[556.62 - 561.779] unemployment in America remains at a
+
+[559.2 - 566.0400000000001] relatively low 3.5 percent
+
+[561.779 - 568.86] uh there was 375 000 tech jobs open uh
+
+[566.04 - 571.019] as of January this year obviously that's
+
+[568.86 - 573.48] probably changed a little bit uh
+
+[571.019 - 576.36] forecasts uh at uh at the same time
+
+[573.48 - 579.48] showed that they were expecting 272 000
+
+[576.36 - 581.7] more new tech jobs by the end of 2023.
+
+[579.48 - 584.04] so that remains to be seen those last
+
+[581.7 - 585.5400000000001] two sources were not government sources
+
+[584.04 - 587.8199999999999] um those were like from zip recruiter
+
+[585.54 - 590.2199999999999] and stuff like that so take those with a
+
+[587.82 - 591.9590000000001] grain of salt but the layoffs that was
+
+[590.22 - 593.76] government data so that's that's pretty
+
+[591.959 - 597.0] reliable data
+
+[593.76 - 600.42] uh some other non-governmental sources
+
+[597.0 - 603.839] uh said that AI is expected to uh to
+
+[600.42 - 606.54] destroy 85 million jobs globally by 2025
+
+[603.839 - 609.24] but is expected to create up to 97
+
+[606.54 - 611.5999999999999] million jobs globally by 2025 so that
+
+[609.24 - 614.279] would be a net gain of 12 million jobs
+
+[611.6 - 617.339] and so when you see the layoffs and new
+
+[614.279 - 619.32] jobs that are going unfulfilled uh
+
+[617.339 - 621.899] there's a trend emerging here which is
+
+[619.32 - 624.839] that old jobs are going away and new
+
+[621.899 - 626.399] jobs are being created again many of
+
+[624.839 - 627.899] these sources are not government a lot
+
+[626.399 - 630.839] of them are speculation and forecasting
+
+[627.899 - 633.839] so take it with a grain of salt but the
+
+[630.839 - 634.9200000000001] pattern to me seems relatively clear and
+
+[633.839 - 636.72] that is that we are going through a
+
+[634.92 - 639.54] Workforce transformation so it is time
+
+[636.72 - 642.36] to skill up uh another piece of evidence
+
+[639.54 - 645.24] in this puzzle is that generative AI job
+
+[642.36 - 647.04] postings jumped 20 in May alone or maybe
+
+[645.24 - 648.66] that was year over year I don't remember
+
+[647.04 - 651.42] uh anyways
+
+[648.66 - 654.36] you know so post-labor economics not
+
+[651.42 - 656.88] here yet but uh there is evidence that
+
+[654.36 - 658.8000000000001] you need to be pivoting to uh generative
+
+[656.88 - 660.779] AI skills and tools so if you're not
+
+[658.8 - 664.38] you're going to get further and further
+
+[660.779 - 665.76] behind uh now this this slide was
+
+[664.38 - 667.8] actually the most interesting thing to
+
+[665.76 - 669.66] me because you know I talked to some of
+
+[667.8 - 671.88] my fellow communicators and YouTubers
+
+[669.66 - 674.519] and researchers I talk to people all
+
+[671.88 - 676.14] over the world and so if you talk to
+
+[674.519 - 678.18] individuals and figure out what their
+
+[676.14 - 679.98] concerns are you know like government
+
+[678.18 - 681.54] policy makers trying to get you know
+
+[679.98 - 684.54] other people in the government on board
+
+[681.54 - 687.24] with AI or uh Business Leaders trying to
+
+[684.54 - 690.24] figure out how to adopt AI uh the
+
+[687.24 - 693.0600000000001] numbers of public sentiment were
+
+[690.24 - 695.82] actually more where I was hoping they
+
+[693.06 - 697.7399999999999] would be which kind of invalidated some
+
+[695.82 - 699.48] of the work that I've done but hey this
+
+[697.74 - 701.7] is a good place for me to be wrong so
+
+[699.48 - 704.7] let me dive into the data a Reuters
+
+[701.7 - 707.4590000000001] ipsis poll recently showed that 61 of
+
+[704.7 - 709.98] Americans view AI as a Potential Threat
+
+[707.459 - 711.92] to human civilization that is a huge
+
+[709.98 - 715.38] that is almost a super majority already
+
+[711.92 - 716.459] of Americans that say yes AI could wipe
+
+[715.38 - 719.1] us all out
+
+[716.459 - 721.14] so thanks to James Cameron and the
+
+[719.1 - 724.8000000000001] Matrix and and all that other you know
+
+[721.14 - 726.54] every story out there we have a schema
+
+[724.8 - 728.579] those those fictional stories have done
+
+[726.54 - 732.7199999999999] their job to prepare us for the
+
+[728.579 - 734.88] potential dangers of AI uh the next
+
+[732.72 - 737.279] piece of information is that a Pew
+
+[734.88 - 738.899] research poll showed that 58 of
+
+[737.279 - 741.54] Americans are more concerned than
+
+[738.899 - 744.12] excited about the rise of AI in daily
+
+[741.54 - 746.0999999999999] life so again there's a little bit of
+
+[744.12 - 748.5] anxiety and consternation rather than
+
+[746.1 - 750.36] just raw excitement so I'm not saying
+
+[748.5 - 752.519] that like the doomers are winning I'm
+
+[750.36 - 755.7] just saying that like there's people are
+
+[752.519 - 757.5600000000001] are cautious uh and then this one was
+
+[755.7 - 760.26] Far and Away the most interesting which
+
+[757.56 - 761.9399999999999] was an economist and you gov poll showed
+
+[760.26 - 764.16] that about 75 percent of Americans
+
+[761.94 - 766.62] believe that AI should be regulated or
+
+[764.16 - 770.04] heavily regulated by the government that
+
+[766.62 - 773.279] 79 percent Democrat and 73 Republicans
+
+[770.04 - 776.88] we rarely ever see this much consensus
+
+[773.279 - 777.74] on anything in America but when you you
+
+[776.88 - 781.26] have
+
+[777.74 - 783.36] either a majority near super majority or
+
+[781.26 - 785.399] above super majority of Americans
+
+[783.36 - 788.339] agreeing on something the political
+
+[785.399 - 790.92] willpower is there so this gives me a
+
+[788.339 - 793.3800000000001] tremendous amount of confidence that
+
+[790.92 - 795.66] regulations are going to happen that
+
+[793.38 - 797.88] people are taking it seriously and that
+
+[795.66 - 799.68] this will help steer the ship in the
+
+[797.88 - 801.8389999999999] right direction so I wanted to share
+
+[799.68 - 804.18] this information with you because to me
+
+[801.839 - 805.3800000000001] it gave me a lot of confidence that
+
+[804.18 - 808.56] we're heading in the right direction all
+
+[805.38 - 811.62] right so some conclusions and takeaways
+
+[808.56 - 813.42] here's my predictions uh AI investment
+
+[811.62 - 814.8] May cool slightly and I don't mean that
+
+[813.42 - 816.7199999999999] it's going to go down I just mean it's
+
+[814.8 - 818.0999999999999] going to slow down so it's not going to
+
+[816.72 - 820.44] go negative it's just it's not going to
+
+[818.1 - 823.44] be quite as hot as it has been and my
+
+[820.44 - 825.8000000000001] interpretation is that the several class
+
+[823.44 - 828.0] action lawsuits filed against open AI
+
+[825.8 - 829.38] have kind of spooked the markets and
+
+[828.0 - 832.5] maybe made people a little bit more
+
+[829.38 - 834.6] tepid about jumping in now that being
+
+[832.5 - 837.32] said we just did see you know a lot of
+
+[834.6 - 839.519] investment yesterday so we'll see
+
+[837.32 - 841.019] Meta has been taking an entirely
+
+[839.519 - 843.24] different approach to AI where they're
+
+[841.019 - 845.579] just doing everything open source
+
+[843.24 - 846.54] it's a bold strategy we'll see how it
+
+[845.579 - 849.12] plays out
+
+[846.54 - 851.519] uh so stay tuned on the space of closed
+
+[849.12 - 853.019] Source versus open source personally I
+
+[851.519 - 854.399] think that open source is the way just
+
+[853.019 - 855.779] because it's going to have less friction
+
+[854.399 - 858.0] and it's going to have more
+
+[855.779 - 859.62] collaboration which means that any AI
+
+[858.0 - 861.72] built on open source data and open
+
+[859.62 - 863.399] source models are probably just going to
+
+[861.72 - 865.26] be better not the least of which they're
+
+[863.399 - 868.92] going to be more democratic that's my
+
+[865.26 - 871.019] hope uh let's see number two Americans
+
+[868.92 - 874.079] are largely United on regulations and
+
+[871.019 - 876.779] fears but regulatory capture is still a
+
+[874.079 - 879.0] primary concern with regulation comes
+
+[876.779 - 881.82] risk because if you regulate it
+
+[879.0 - 882.899] incorrectly if you listen to the wrong
+
+[881.82 - 886.0790000000001] people when you're coming up with
+
+[882.899 - 887.699] regulations uh then you know every every
+
+[886.079 - 890.3389999999999] stakeholder is going to try and stack
+
+[887.699 - 891.959] the regulations in their favor so
+
+[890.339 - 893.6990000000001] stacking the deck in their favor whether
+
+[891.959 - 896.399] it's big companies whether it's
+
+[893.699 - 898.079] governments uh or whoever whatever other
+
+[896.399 - 899.22] special interests or lobbyists are out
+
+[898.079 - 901.1389999999999] there
+
+[899.22 - 903.48] um that's that's the primary concern now
+
+[901.139 - 906.12] the amount of attention that Americans
+
+[903.48 - 908.4590000000001] are putting on AI I think means that
+
+[906.12 - 910.5600000000001] that that's gonna we're gonna demand
+
+[908.459 - 913.079] transparency and we're going to demand
+
+[910.56 - 914.04] accountability so my hope is that this
+
+[913.079 - 916.019] is something that we're going to do
+
+[914.04 - 917.639] right and probably what I'll do is
+
+[916.019 - 920.22] because there's so much consensus on
+
+[917.639 - 922.98] this I'll do a follow-up video on how do
+
+[920.22 - 925.62] we do AI regulation correctly so that we
+
+[922.98 - 928.26] don't end up with regulatory capture
+
+[925.62 - 931.139] uh and finally the state of jobs right
+
+[928.26 - 933.24] now seems really good so uh you know
+
+[931.139 - 935.22] post labor economics and Ubi are going
+
+[933.24 - 936.779] to have to wait for a while like I said
+
+[935.22 - 938.5790000000001] in a previous video where I introduced
+
+[936.779 - 940.4399999999999] these Concepts there's a few signals
+
+[938.579 - 942.899] that we can pay attention to such as
+
+[940.44 - 943.9200000000001] deflation jobs loss and a few other
+
+[942.899 - 945.24] things
+
+[943.92 - 947.3] um we're still in a state of inflation
+
+[945.24 - 949.98] and we're still in a state of low
+
+[947.3 - 953.0999999999999] unemployment so post-labor economics
+
+[949.98 - 954.72] it's on the horizon will it but it also
+
+[953.1 - 956.76] remains to be seen because again I could
+
+[954.72 - 957.779] be completely wrong in reading the tea
+
+[956.76 - 959.8199999999999] leaves
+
+[957.779 - 961.68] um now that being said there are many
+
+[959.82 - 965.279] industries that are actively being
+
+[961.68 - 968.0999999999999] disrupted by uh by Tech if you look on
+
+[965.279 - 970.4399999999999] on Reddit across many different domains
+
+[968.1 - 972.3000000000001] tech jobs are being disrupted marketing
+
+[970.44 - 973.32] jobs translation jobs that was an
+
+[972.3 - 975.0] interesting one that I just saw
+
+[973.32 - 976.8000000000001] yesterday where someone was talking
+
+[975.0 - 978.66] about uh people in the translation
+
+[976.8 - 980.779] industry are just expecting to be pretty
+
+[978.66 - 982.4399999999999] much out of work by this time next year
+
+[980.779 - 986.82] copywriting has already been under
+
+[982.44 - 989.1] threat and so what I'm curious is as AI
+
+[986.82 - 991.6800000000001] destroys like pretty much entire
+
+[989.1 - 993.3000000000001] segments of the of the labor market
+
+[991.68 - 995.399] are we going to see a commensurate
+
+[993.3 - 997.3199999999999] number of new jobs popping up elsewhere
+
+[995.399 - 999.6] I don't know that that's the case and
+
+[997.32 - 1001.88] because it's difficult to see on
+
+[999.6 - 1003.98] aggregate how many jobs have been lost
+
+[1001.88 - 1006.38] to AI versus created
+
+[1003.98 - 1007.88] all we have is base all we have to go on
+
+[1006.38 - 1010.16] is basically total employment numbers
+
+[1007.88 - 1011.8389999999999] and total unemployment rates
+
+[1010.16 - 1015.62] okay so what are the two primary
+
+[1011.839 - 1017.12] takeaways number one skill up uh we are
+
+[1015.62 - 1018.8] actively
+
+[1017.12 - 1020.48] um in a state of job market
+
+[1018.8 - 1022.579] transformation
+
+[1020.48 - 1024.439] um so this is something where I actually
+
+[1022.579 - 1027.98] can help you out
+
+[1024.439 - 1031.16] um I have a consultation I do uh whether
+
+[1027.98 - 1033.02] it's training product design whatever uh
+
+[1031.16 - 1034.28] I do it all remotely I don't do it in
+
+[1033.02 - 1036.26] person just because traveling is too
+
+[1034.28 - 1039.02] difficult for me but this whole phase
+
+[1036.26 - 1041.66] reminds me of the early 2000s with the
+
+[1039.02 - 1044.72] rise of Microsoft and it and developer
+
+[1041.66 - 1047.3600000000001] certifications uh it was all the rage
+
+[1044.72 - 1048.919] and there was literally ad like lots of
+
+[1047.36 - 1050.8999999999999] advertisements saying like there are
+
+[1048.919 - 1052.3400000000001] sixty thousand unfilled IT jobs you know
+
+[1050.9 - 1055.1000000000001] get training now and that's actually how
+
+[1052.34 - 1056.6599999999999] I picked my career was because at the
+
+[1055.1 - 1058.82] time I was like okay well I need a job
+
+[1056.66 - 1060.799] I'm good at technology and there's unmet
+
+[1058.82 - 1063.4399999999998] demand so I think we're about to see the
+
+[1060.799 - 1067.6399999999999] same kind of explosion in unmet demand
+
+[1063.44 - 1069.14] in generative AI jobs so skill up I'm
+
+[1067.64 - 1071.1200000000001] probably going to work with some people
+
+[1069.14 - 1073.1000000000001] to develop some some actual training
+
+[1071.12 - 1075.3799999999999] material so stay tuned for that because
+
+[1073.1 - 1076.9399999999998] hey if I can help people transition and
+
+[1075.38 - 1078.5590000000002] survive at least for the next five years
+
+[1076.94 - 1081.2] again I don't know what's going to
+
+[1078.559 - 1083.12] happen long term 5 10 20 years we might
+
+[1081.2 - 1084.32] be pivoting to post labor economics we
+
+[1083.12 - 1086.78] might not like I said I could be
+
+[1084.32 - 1088.22] completely wrong about that but a lot of
+
+[1086.78 - 1091.039] people that I talk to
+
+[1088.22 - 1093.08] in government in research and health
+
+[1091.039 - 1094.34] care and other places a lot of people do
+
+[1093.08 - 1096.02] agree with me that we were probably
+
+[1094.34 - 1098.12] heading towards post-labor economics
+
+[1096.02 - 1100.58] eventually we just don't really know
+
+[1098.12 - 1102.7399999999998] when right now General consensus seems
+
+[1100.58 - 1104.78] to be people are saying like five to ten
+
+[1102.74 - 1106.84] years and that by 20 years we should
+
+[1104.78 - 1108.9189999999999] probably have made the transition again
+
+[1106.84 - 1110.6599999999999] predictions you know take it with a
+
+[1108.919 - 1112.94] grain of salt and then finally voter
+
+[1110.66 - 1115.94] solidarity like I said we rarely see
+
+[1112.94 - 1117.6200000000001] this much uh consensus but that means
+
+[1115.94 - 1120.02] that we need to demand we need to use
+
+[1117.62 - 1123.08] that consensus to demand transparency
+
+[1120.02 - 1124.4] and demand accountability so don't count
+
+[1123.08 - 1126.32] your chickens before they hatch and
+
+[1124.4 - 1128.419] maintain a sense of constant vigilance
+
+[1126.32 - 1130.28] thanks for watching I hope you got a lot
+
+[1128.419 - 1132.8600000000001] out of this video like subscribe share
+
+[1130.28 - 1135.02] and consider hopping over on patreon if
+
+[1132.86 - 1136.8799999999999] you want to jump into any upskilling
+
+[1135.02 - 1139.96] training or Direction on that respect
+
+[1136.88 - 1139.96] thanks have a good one

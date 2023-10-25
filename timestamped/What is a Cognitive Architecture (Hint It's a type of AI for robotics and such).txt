@@ -1,0 +1,1269 @@
+[1.62 - 5.339] hey everybody David Shapiro here um I
+
+[4.08 - 7.08] was going to do a different video today
+
+[5.339 - 8.82] uh but someone asked in the comments
+
+[7.08 - 11.940000000000001] what's a cognitive architecture and it
+
+[8.82 - 15.0] occurred to me that my channel has more
+
+[11.94 - 16.74] than doubled in the last three weeks uh
+
+[15.0 - 20.698999999999998] so most of you have not been on this
+
+[16.74 - 22.259999999999998] journey with me for the last year or two
+
+[20.699 - 23.699] um and so what you may not know about me
+
+[22.26 - 27.18] is that I have written books about
+
+[23.699 - 28.619] cognitive architectures uh and some of
+
+[27.18 - 31.259999999999998] you don't know what that is so let's
+
+[28.619 - 32.94] talk about cognitive architectures
+
+[31.26 - 35.7] um first what is a cognitive
+
+[32.94 - 37.739] architecture uh I just copy pasted the
+
+[35.7 - 40.14] opening uh Wikipedia because it
+
+[37.739 - 41.94] summarizes it pretty good A cognitive
+
+[40.14 - 43.379] architecture refers to both a theory
+
+[41.94 - 45.959999999999994] about the structure of the human mind
+
+[43.379 - 47.46] and to a computational instantiation of
+
+[45.96 - 49.079] such a theory used in the fields of
+
+[47.46 - 51.3] artificial intelligence and
+
+[49.079 - 53.64] computational cognitive science the
+
+[51.3 - 55.379] formalized models can be used to further
+
+[53.64 - 57.480000000000004] refine a comprehensive theory of
+
+[55.379 - 59.519999999999996] cognition and as a useful artificial
+
+[57.48 - 61.76] intelligence program successful
+
+[59.52 - 64.32000000000001] cognitive architectures include act R
+
+[61.76 - 65.82] and soar the right the research on
+
+[64.32 - 67.86] cognitive architectures as software
+
+[65.82 - 71.33999999999999] instantiation of cognitive theories was
+
+[67.86 - 73.92] initiated by Alan Newell in 1990.
+
+[71.34 - 76.64] so with all that cleared up
+
+[73.92 - 79.08] uh uh what
+
+[76.64 - 80.4] cognitive architectures are great for
+
+[79.08 - 82.619] controlling autonomous or
+
+[80.4 - 86.04] semi-autonomous agents and entities and
+
+[82.619 - 87.9] so by agent or entity I mean a robot or
+
+[86.04 - 91.02000000000001] something in the virtual world such as
+
+[87.9 - 93.24000000000001] an NPC or a simulation
+
+[91.02 - 95.64] the Mars rovers are perhaps the most
+
+[93.24 - 98.1] famous examples of cognitive
+
+[95.64 - 100.68] architectures because the Mars rovers
+
+[98.1 - 102.36] are actually uh somewhat autonomous
+
+[100.68 - 103.92] meaning we can just send them
+
+[102.36 - 105.54] instructions and they will figure out
+
+[103.92 - 107.64] how to get to where they need to go on
+
+[105.54 - 109.43900000000001] their own which means they use planning
+
+[107.64 - 113.82] they use reasoning they have sensors
+
+[109.439 - 115.79899999999999] input output memory as well and they can
+
+[113.82 - 119.33999999999999] also solve some problems on their own
+
+[115.799 - 120.60000000000001] rocket systems are also examples of a
+
+[119.34 - 123.0] particular kind of cognitive
+
+[120.6 - 124.619] architecture because they have lots and
+
+[123.0 - 127.439] lots of telemetry their goal is to get
+
+[124.619 - 130.02] to orbit safely and they can actually
+
+[127.439 - 132.0] come up with hypotheses about what's
+
+[130.02 - 134.4] going on in their systems based on the
+
+[132.0 - 136.379] Telemetry perform very very fast
+
+[134.4 - 139.739] experiments like tuning throttles and
+
+[136.379 - 141.17999999999998] stuff to optimize performance
+
+[139.739 - 143.16] um you might not say that that's a full
+
+[141.18 - 145.68] cognitive architecture it's more of a
+
+[143.16 - 147.66] feedback system but certainly
+
+[145.68 - 150.54000000000002] um that because Rockets basically get to
+
+[147.66 - 152.459] space autonomously I classify them as
+
+[150.54 - 154.56] cognitive architectures
+
+[152.459 - 157.02] we just push the button and then the
+
+[154.56 - 159.18] machine takes over some video games
+
+[157.02 - 160.5] actually have NPCs that use cognitive
+
+[159.18 - 162.72] architectures although they are very
+
+[160.5 - 164.4] simple or primitive most of them
+
+[162.72 - 166.44] actually use what's called an FSM or a
+
+[164.4 - 169.44] finite State machine so you might notice
+
+[166.44 - 172.379] that NPC characters they are hunting
+
+[169.44 - 174.35999999999999] attacking fleeing hiding conversing or
+
+[172.379 - 176.57999999999998] whatever those are the discrete states
+
+[174.36 - 178.8] that they switch between but you could
+
+[176.58 - 181.68] argue that a finite State machine is in
+
+[178.8 - 183.42000000000002] fact a type of cognitive architecture so
+
+[181.68 - 185.519] that is what a cognitive architecture is
+
+[183.42 - 188.33999999999997] and that's what it is used for basically
+
+[185.519 - 190.8] it is a digital model of a brain
+
+[188.34 - 192.78] so there are three primary components to
+
+[190.8 - 196.92000000000002] any robot or cognitive architecture
+
+[192.78 - 199.44] there is input processing and output so
+
+[196.92 - 201.23899999999998] the input can be physical sensors it can
+
+[199.44 - 204.48] be text it can be Telemetry from
+
+[201.239 - 206.459] machines pretty much anything uh the
+
+[204.48 - 208.2] processing ability it has to have
+
+[206.459 - 209.81900000000002] there's a few basic things that are
+
+[208.2 - 213.959] included in pretty much all cognitive
+
+[209.819 - 216.06] architectures memory is one of the most
+
+[213.959 - 219.18] essential ones then you need some kind
+
+[216.06 - 221.159] of planning or task and executive
+
+[219.18 - 223.019] function there's a few other things that
+
+[221.159 - 225.35999999999999] are often included such as a world model
+
+[223.019 - 227.159] which is okay I have some understanding
+
+[225.36 - 230.04000000000002] of how the world Works which I can use
+
+[227.159 - 231.54] to plan and anticipate memory there's
+
+[230.04 - 233.34] different kinds of memory there's long
+
+[231.54 - 235.85999999999999] short and working memory there you could
+
+[233.34 - 238.44] also say that there's a medium midterm
+
+[235.86 - 239.87900000000002] memory that basically has to do with how
+
+[238.44 - 242.459] it's stored and retrieved and what it's
+
+[239.879 - 244.01899999999998] used for working memory is the stuff
+
+[242.459 - 246.36] that you're using for whatever task that
+
+[244.019 - 249.659] you're doing in that particular moment
+
+[246.36 - 251.64000000000001] learning is a critical component which
+
+[249.659 - 253.739] is basically how do you take existing
+
+[251.64 - 256.979] experiences or past experiences rather
+
+[253.739 - 258.78000000000003] and derive new useful information from
+
+[256.979 - 260.4] it and specifically actionable
+
+[258.78 - 263.34] information
+
+[260.4 - 265.919] then you have the ability to plan keep
+
+[263.34 - 268.08] track of tasks and either adhere to
+
+[265.919 - 271.139] objectives or formulate objectives or
+
+[268.08 - 273.479] both and then finally this is what I
+
+[271.139 - 275.1] have focused on is one of the things I
+
+[273.479 - 276.18] focused on is morality ethics and
+
+[275.1 - 277.91900000000004] reasoning
+
+[276.18 - 279.06] when you have a machine that can think
+
+[277.919 - 280.74] about anything because that's the
+
+[279.06 - 282.96] purpose of a cognitive architecture is
+
+[280.74 - 284.82] to create a thinking machine when it can
+
+[282.96 - 287.63899999999995] think about anything how does it know
+
+[284.82 - 289.259] what to think about and why this is the
+
+[287.639 - 290.88] subject of my book benevolent by Design
+
+[289.259 - 292.32] Link in the description
+
+[290.88 - 294.3] um just go to my homepage David K
+
+[292.32 - 295.8] shapiro.com and you can find the books
+
+[294.3 - 298.38] there
+
+[295.8 - 300.479] finally a cognitive architecture needs
+
+[298.38 - 302.759] an output of some kind it needs to take
+
+[300.479 - 304.199] in information from its environment do
+
+[302.759 - 306.36] some work on it and then put information
+
+[304.199 - 308.04] back out that information can be in the
+
+[306.36 - 310.62] form or that output can be in the form
+
+[308.04 - 313.139] of Robotics you know like if it's got
+
+[310.62 - 316.08] hands uh and feet or whatever like
+
+[313.139 - 320.1] Boston Dynamics the Tesla bot or a car
+
+[316.08 - 322.919] right Tesla uh cars actually have uh FSD
+
+[320.1 - 325.5] they're full the full self-driving when
+
+[322.919 - 327.24] it fully Works will probably be a
+
+[325.5 - 330.539] cognitive architecture of some kind
+
+[327.24 - 333.90000000000003] because it is taking in information
+
+[330.539 - 335.52] uh it has different goals and
+
+[333.9 - 337.73999999999995] constraints and then its output is
+
+[335.52 - 340.44] steering driving and brakes
+
+[337.74 - 342.18] you can also have an avatar of some kind
+
+[340.44 - 343.139] like an NPC
+
+[342.18 - 345.90000000000003] um you could also just have simple
+
+[343.139 - 347.88] speech text audio chat bot kind of stuff
+
+[345.9 - 350.09999999999997] but you need input processing and output
+
+[347.88 - 351.84] it's the three primary components of
+
+[350.1 - 354.36] every cognitive architecture and
+
+[351.84 - 356.69899999999996] Robotics uh as a whole
+
+[354.36 - 357.78000000000003] uh okay so but why like what is the
+
+[356.699 - 360.66] difference between a cognitive
+
+[357.78 - 363.05999999999995] architecture and other kinds of
+
+[360.66 - 365.88000000000005] artificial intelligence so artificial
+
+[363.06 - 368.88] intelligence is an umbrella term for
+
+[365.88 - 372.32] basically all kinds of machine learning
+
+[368.88 - 374.699] and computers that think or whatever
+
+[372.32 - 376.199] so the advantage of a cognitive
+
+[374.699 - 377.82] architecture is that you can pull
+
+[376.199 - 380.46000000000004] together disparate
+
+[377.82 - 382.86] uh kinds of
+
+[380.46 - 385.62] um models whether it's Robotics and
+
+[382.86 - 389.58000000000004] compliant machines computer vision NLP
+
+[385.62 - 391.139] nlu speech data storage all of it comes
+
+[389.58 - 393.419] together I already mentioned Tesla
+
+[391.139 - 394.199] because Tesla has lots of telemetry it's
+
+[393.419 - 396.78] got
+
+[394.199 - 399.84000000000003] um it's got cameras all over it has the
+
+[396.78 - 402.23999999999995] ability to process what it's seeing as
+
+[399.84 - 404.75899999999996] well as Telemetry from itself and then
+
+[402.24 - 408.06] it has outputs right so basically a
+
+[404.759 - 409.86] cognitive architecture is a way to bring
+
+[408.06 - 412.74] all machine learning
+
+[409.86 - 415.02000000000004] um together and put it in a body or give
+
+[412.74 - 416.759] it some kind of way to interact
+
+[415.02 - 417.84] all right here's my hot take and this is
+
+[416.759 - 418.86] where the tone of the video really
+
+[417.84 - 421.31899999999996] shifts
+
+[418.86 - 423.47900000000004] one neural network will probably never
+
+[421.319 - 426.0] be AGI
+
+[423.479 - 428.94] so what I mean by this is one deep
+
+[426.0 - 431.039] learning neural network like gpt3 is
+
+[428.94 - 433.08] never going to qualify it's never going
+
+[431.039 - 435.06] to satisfy all of those requirements of
+
+[433.08 - 437.69899999999996] input input processing and output into
+
+[435.06 - 440.639] the world it is just a component of a
+
+[437.699 - 443.58000000000004] system so what I said what I mean by
+
+[440.639 - 444.90000000000003] system is that uh it has to have
+
+[443.58 - 446.88] multiple components you have to have
+
+[444.9 - 450.96] specialized components that do various
+
+[446.88 - 454.319] things so for instance you and I humans
+
+[450.96 - 456.18] we are organic systems we have brains
+
+[454.319 - 457.91900000000004] which have specialized components our
+
+[456.18 - 460.38] brains are contained in our skulls We
+
+[457.919 - 463.02] Have Eyes Ears we have skin bones
+
+[460.38 - 464.88] muscles we are a complete self-contained
+
+[463.02 - 468.06] system
+
+[464.88 - 471.12] and so the the the spiciest part of this
+
+[468.06 - 472.919] hot take is most AI researchers are not
+
+[471.12 - 476.18] systems thinkers
+
+[472.919 - 480.18] um I am a systems thinker uh one just by
+
+[476.18 - 483.18] the luck of genetics but also my uh in
+
+[480.18 - 485.52] my past life my job was I was a systems
+
+[483.18 - 489.479] engineer so I'm used to working with
+
+[485.52 - 491.15999999999997] large interconnected systems that span
+
+[489.479 - 493.199] multiple things from Hardware to
+
+[491.16 - 495.12] software to networking security
+
+[493.199 - 496.74] virtualization all that kind of stuff
+
+[495.12 - 498.479] and so when you build a big enough
+
+[496.74 - 501.3] computer system you realize that it is
+
+[498.479 - 504.0] almost like a living breathing entity
+
+[501.3 - 506.879] um sort of in and of itself
+
+[504.0 - 509.58] um but yeah so AGI will never be a
+
+[506.879 - 513.36] single model AGI will be achieved as a
+
+[509.58 - 515.6999999999999] system there I said it okay uh this all
+
+[513.36 - 517.8000000000001] might sound a little bit like Skynet
+
+[515.7 - 521.279] um so let's talk about you know the
+
+[517.8 - 522.779] apocryphal uh lesson of you know what
+
+[521.279 - 523.979] not to do
+
+[522.779 - 527.16] um so
+
+[523.979 - 529.98] According to some uh film critics and
+
+[527.16 - 531.899] analysts Skynet actually represents uh
+
+[529.98 - 533.76] the nuclear arms race
+
+[531.899 - 536.339] um because remember it was originally uh
+
+[533.76 - 538.74] Terminator it came out during the the
+
+[536.339 - 541.6800000000001] tail end of the Cold war between the
+
+[538.74 - 543.6] United States and the Soviet Union
+
+[541.68 - 545.2199999999999] um and so it was supposed to be a lesson
+
+[543.6 - 547.74] against
+
+[545.22 - 549.899] um the the policy of mad mutually
+
+[547.74 - 552.6] assured destruction and so it's like
+
+[549.899 - 554.94] okay if we let fear drive us to make
+
+[552.6 - 556.8000000000001] worse and worse weapons we're just gonna
+
+[554.94 - 559.62] wipe ourselves out and that's why the
+
+[556.8 - 561.12] movie opens with a nuclear explosion I
+
+[559.62 - 563.82] guess that's Terminator 2. anyways
+
+[561.12 - 567.12] Terminator 2 was the good one
+
+[563.82 - 568.62] um so what was the point of Skynet uh
+
+[567.12 - 571.32] the point of Skynet was never really
+
+[568.62 - 573.12] explained it was kind of left vague
+
+[571.32 - 576.12] um but just that we created a machine
+
+[573.12 - 577.8] that got out of control
+
+[576.12 - 580.5600000000001] um and that's what we are afraid and
+
+[577.8 - 582.24] afraid of and so whatever the purpose of
+
+[580.56 - 585.2399999999999] Skynet was whether it was to protect
+
+[582.24 - 587.16] America or to neutralize the Soviet
+
+[585.24 - 590.16] Union or maximize our military power
+
+[587.16 - 591.66] something was Lost in Translation and It
+
+[590.16 - 593.399] ultimately decided to kill everyone and
+
+[591.66 - 595.92] take over the whole planet
+
+[593.399 - 597.959] um so in this case Skynet is the example
+
+[595.92 - 601.38] of a machine that is smart enough
+
+[597.959 - 604.3199999999999] to carry out some basic objective but
+
+[601.38 - 607.08] not smart enough to contemplate why so
+
+[604.32 - 609.6600000000001] it became sentient for arbitrary reasons
+
+[607.08 - 612.36] and then took whatever its objective
+
+[609.66 - 614.1] function was and went a uh went uh
+
+[612.36 - 616.62] Haywire with it
+
+[614.1 - 618.899] okay so aside from these potential
+
+[616.62 - 621.3] existential risks to humanity what do
+
+[618.899 - 624.42] cognitive architectures do for us
+
+[621.3 - 626.88] uh so probably how they'll be deployed
+
+[624.42 - 628.9799999999999] is going to be domestic robots uh
+
+[626.88 - 632.3389999999999] delivery drones chat bot companions
+
+[628.98 - 634.019] smart home devices uh cars buildings and
+
+[632.339 - 637.2600000000001] even cities will probably eventually
+
+[634.019 - 639.36] have cognitive architectures so if you
+
+[637.26 - 642.36] have a building that that it has a fully
+
+[639.36 - 644.16] uh cognitive architecture what is that
+
+[642.36 - 646.14] going to do it'll manage the power the
+
+[644.16 - 648.12] lights it'll pay attention to all the
+
+[646.14 - 649.92] residents think of the ships in Star
+
+[648.12 - 652.019] Trek where the computer is kind of
+
+[649.92 - 654.36] monitoring everyone at all times granted
+
+[652.019 - 655.68] Star Trek also respects people's privacy
+
+[654.36 - 657.24] so
+
+[655.68 - 659.459] um that doesn't like you know watch
+
+[657.24 - 660.779] everything that you do
+
+[659.459 - 663.4799999999999] um but you could have you could even
+
+[660.779 - 666.3] have like cognitive architectures for
+
+[663.48 - 670.2] cities that can help manage and run
+
+[666.3 - 671.8199999999999] entire cities uh so no they will not be
+
+[670.2 - 673.5600000000001] philosophically sentient and we'll
+
+[671.82 - 675.839] unpack that a little bit more in just a
+
+[673.56 - 678.2399999999999] moment but cognitive architectures could
+
+[675.839 - 680.8800000000001] be functionally sent in
+
+[678.24 - 682.62] a lot of this is explored in fiction uh
+
+[680.88 - 685.079] one of the best episodes of Star Trek
+
+[682.62 - 686.82] the Next Generation of all time is the
+
+[685.079 - 688.92] measure of a man and in case you haven't
+
+[686.82 - 691.44] seen it that is where data is basically
+
+[688.92 - 694.079] put data is an Android he's put on trial
+
+[691.44 - 696.0600000000001] and the question is whether or not he is
+
+[694.079 - 699.2399999999999] a life form whether or not he has agency
+
+[696.06 - 702.54] whether or not he um has the right to
+
+[699.24 - 705.48] self-determination and um one of the the
+
+[702.54 - 707.579] one of the climax lines is uh Picard
+
+[705.48 - 710.94] says you know our mission is to seek out
+
+[707.579 - 714.66] new life and there it sits uh so good
+
+[710.94 - 716.94] such an overpowered line anyways so you
+
+[714.66 - 719.9399999999999] know the whole point of this is that we
+
+[716.94 - 721.62] are going to be forced to ask really
+
+[719.94 - 724.5] important questions
+
+[721.62 - 726.839] uh like if we build a sufficiently uh
+
+[724.5 - 728.94] sophisticated uh cognitive architecture
+
+[726.839 - 730.0790000000001] is it going to be conscious is it going
+
+[728.94 - 732.12] to be sentient
+
+[730.079 - 733.92] and so what I want to say is don't
+
+[732.12 - 735.6] confuse
+
+[733.92 - 738.4799999999999] um has a subjective experience of
+
+[735.6 - 740.22] suffering with sentient because you can
+
+[738.48 - 742.62] you can be sentient without the ability
+
+[740.22 - 745.74] to suffer right
+
+[742.62 - 748.74] um we you and I humans we assume we
+
+[745.74 - 751.019] agree that we are sentient beings we
+
+[748.74 - 753.5] also have the common experience of
+
+[751.019 - 755.399] suffering now a lot of people
+
+[753.5 - 757.86] anthropomorphize a machine just because
+
+[755.399 - 759.68] it can imitate us they say ah clearly
+
+[757.86 - 761.82] this is consciousness this is sentient
+
+[759.68 - 764.579] and they don't really have a deep enough
+
+[761.82 - 768.36] understanding of the Nuance around
+
+[764.579 - 772.1389999999999] sentience Consciousness uh suffering and
+
+[768.36 - 775.74] that sort of stuff we evolved right as
+
+[772.139 - 777.6] as animals we evolved and so a lot of
+
+[775.74 - 781.26] the Telemetry that we get such as pain
+
+[777.6 - 783.5400000000001] anger suffering hunger fear all of that
+
+[781.26 - 785.76] those are all adaptive signals that
+
+[783.54 - 787.98] helped our ancestors survive
+
+[785.76 - 789.72] now the reason that suffering is
+
+[787.98 - 792.0600000000001] unpleasant is because you need a stick
+
+[789.72 - 794.0400000000001] to chase you away from bad things that
+
+[792.06 - 795.5999999999999] will kill you simply because our
+
+[794.04 - 798.06] ancestors that did not have a strong
+
+[795.6 - 801.36] enough sense of suffering got eaten or
+
+[798.06 - 804.54] poisoned or whatever right they died uh
+
+[801.36 - 807.6] and so suffering is adaptive to
+
+[804.54 - 809.88] Evolution now when we create a cognitive
+
+[807.6 - 812.5790000000001] architecture that is an invention not
+
+[809.88 - 814.56] Evolution so
+
+[812.579 - 816.8389999999999] the Genesis of these things is going to
+
+[814.56 - 818.459] be very different which means that like
+
+[816.839 - 821.0400000000001] you should not assume that it is going
+
+[818.459 - 823.4399999999999] to be anything like us even if it is
+
+[821.04 - 826.74] modeled on us it is only an
+
+[823.44 - 829.62] approximation or an imitation of us now
+
+[826.74 - 833.279] my definition of sentient
+
+[829.62 - 836.04] um because I I uh differentiated between
+
+[833.279 - 838.74] philosophical sentience and and
+
+[836.04 - 840.779] functional sentience so you and I we
+
+[838.74 - 842.42] humans are philosophically sentient we
+
+[840.779 - 846.6] have a subjective experience of being
+
+[842.42 - 849.4799999999999] and we have you know a sense of self etc
+
+[846.6 - 851.94] etc you know I have an experience of
+
+[849.48 - 853.2] looking at the camera through my eyes
+
+[851.94 - 856.5600000000001] now
+
+[853.2 - 859.2] my working definition of sentient a
+
+[856.56 - 861.3599999999999] functional sentience is any sufficiently
+
+[859.2 - 863.88] sophisticated information system that is
+
+[861.36 - 868.26] able to process manipulate and integrate
+
+[863.88 - 870.06] information about itself so that is the
+
+[868.26 - 872.3389999999999] functional definition of sentience and
+
+[870.06 - 874.8599999999999] stop asking me about Blake Lemoine
+
+[872.339 - 877.86] all right Naval gazing time
+
+[874.86 - 879.6] uh so you know you might have heard you
+
+[877.86 - 883.8000000000001] know I think therefore I am which is
+
+[879.6 - 885.48] kind of like the most popular like uh
+
+[883.8 - 887.88] this is the conclusion of Western
+
+[885.48 - 889.74] philosophy I have subjective thoughts
+
+[887.88 - 892.8] therefore that's the only thing that I
+
+[889.74 - 894.54] can really truly know to be be real and
+
+[892.8 - 896.8199999999999] beyond that I could just be a brain in a
+
+[894.54 - 899.459] jar running in a simulation
+
+[896.82 - 901.74] um so like we have questions can you
+
+[899.459 - 904.56] separate mine from body can you separate
+
+[901.74 - 907.139] mine from existence or the universe and
+
+[904.56 - 909.959] uh so here's another spicy take Western
+
+[907.139 - 912.0] philosophy is pretty useless
+
+[909.959 - 914.3389999999999] um nothing compelling has come out of
+
+[912.0 - 917.1] Western philosophy in like a century and
+
+[914.339 - 918.7790000000001] please do not talk to me about Chalmers
+
+[917.1 - 921.0600000000001] um if you want to talk Chalmers like
+
+[918.779 - 924.48] just read vs ramachandran and said who's
+
+[921.06 - 926.9399999999999] an actual scientist uh there I said it
+
+[924.48 - 928.32] um now Eastern philosophy however
+
+[926.94 - 930.36] figured all this stuff out like
+
+[928.32 - 933.36] literally thousands of years ago
+
+[930.36 - 935.4590000000001] so like a lot of the Indian vedantas
+
+[933.36 - 938.4590000000001] um those are very insightful Buddhism
+
+[935.459 - 940.0189999999999] taoism and also shamanic Traditions um
+
+[938.459 - 942.5999999999999] particularly in Central and South
+
+[940.019 - 945.48] America but also the aboriginals in
+
+[942.6 - 947.279] Australia and all over southeast Asia
+
+[945.48 - 949.38] um and India these folks figured it out
+
+[947.279 - 952.079] a long time ago
+
+[949.38 - 954.42] um and yeah so let's talk a little bit
+
+[952.079 - 956.0999999999999] more about that yes I am salty but also
+
+[954.42 - 958.38] I have read a lot
+
+[956.1 - 961.5790000000001] um the entire second from the bottom
+
+[958.38 - 964.56] shelf is full of nothing but science
+
+[961.579 - 967.019] philosophy cosmology and quantum physics
+
+[964.56 - 968.16] uh I'm not going to quote it all at you
+
+[967.019 - 971.1] but like
+
+[968.16 - 973.8] I went down that rabbit hole real deep
+
+[971.1 - 976.0790000000001] um so the tldr about physics is there is
+
+[973.8 - 978.3] nothing special or unique about humans
+
+[976.079 - 980.6389999999999] there's no secret sauce that says like
+
+[978.3 - 983.76] ah here's the magical substance that
+
+[980.639 - 985.6800000000001] converts uh Consciousness on us the only
+
+[983.76 - 987.18] thing that really stands out about us is
+
+[985.68 - 989.3389999999999] that our brains are the most complex
+
+[987.18 - 992.699] physical structure in the universe
+
+[989.339 - 993.899] so maybe the complexity of that
+
+[992.699 - 995.639] structure
+
+[993.899 - 997.38] is what gives us Consciousness maybe
+
+[995.639 - 998.699] that's what makes us special not really
+
+[997.38 - 1001.04] sure
+
+[998.699 - 1002.5999999999999] um maybe Consciousness arises from the
+
+[1001.04 - 1005.12] patterns of brain waves and energy
+
+[1002.6 - 1006.62] because the thing is is our brain as
+
+[1005.12 - 1009.32] long as you're alive your brain has
+
+[1006.62 - 1010.759] metabolism it has a baseline metabolic
+
+[1009.32 - 1013.639] rate
+
+[1010.759 - 1017.12] um and that that uh metabolic rate
+
+[1013.639 - 1018.74] really doesn't change too much uh like
+
+[1017.12 - 1022.279] it goes up just a tiny bit if you're
+
+[1018.74 - 1024.079] working really hard but otherwise you
+
+[1022.279 - 1025.76] like your brain is always operational
+
+[1024.079 - 1027.559] but you're not conscious all the time
+
+[1025.76 - 1030.079] right certain chemicals can make you
+
+[1027.559 - 1031.8799999999999] unconscious like general anesthesia you
+
+[1030.079 - 1034.1599999999999] go to sleep you can be knocked
+
+[1031.88 - 1035.7800000000002] unconscious and you have no experience
+
+[1034.16 - 1038.5400000000002] of time you don't remember what happened
+
+[1035.78 - 1041.72] you can be blackout drunk
+
+[1038.54 - 1043.339] um so Consciousness is a very complex
+
+[1041.72 - 1046.339] thing where it's like okay it can turn
+
+[1043.339 - 1048.1399999999999] off it can turn on then you have uh you
+
+[1046.339 - 1050.54] know near-death experiences out of body
+
+[1048.14 - 1053.5400000000002] experiences and I know a lot of people
+
+[1050.54 - 1055.8799999999999] say Ah that's just you know hypoxia no
+
+[1053.54 - 1058.039] if you go and actually do your homework
+
+[1055.88 - 1059.419] on near-death experiences and out of
+
+[1058.039 - 1061.7] body experiences
+
+[1059.419 - 1063.74] you will see that there are many facts
+
+[1061.7 - 1066.6200000000001] about these that cannot be reconciled
+
+[1063.74 - 1068.36] with a materialist view of the world but
+
+[1066.62 - 1072.02] again I'm not going to get too lost into
+
+[1068.36 - 1073.9399999999998] that uh just you know we don't we don't
+
+[1072.02 - 1076.28] fully know what Consciousness is that is
+
+[1073.94 - 1078.559] the only thing that we can really uh
+
+[1076.28 - 1081.3799999999999] agree on now okay that's looking at the
+
+[1078.559 - 1083.24] physics of our brains what about the
+
+[1081.38 - 1085.7] physics of the Universe
+
+[1083.24 - 1087.74] um when you go deep enough down Quantum
+
+[1085.7 - 1091.46] cosmology and physics and quantum
+
+[1087.74 - 1094.52] gravity and epr paradoxes and the
+
+[1091.46 - 1095.8400000000001] anthropic principle uh honestly once you
+
+[1094.52 - 1097.82] read enough of this stuff it all just
+
+[1095.84 - 1100.34] looks like Eastern philosophy honestly
+
+[1097.82 - 1102.1399999999999] right you read enough about Alice and
+
+[1100.34 - 1106.28] Bob you could literally transpose them
+
+[1102.14 - 1108.14] into uh like the advaita vedanta I'm not
+
+[1106.28 - 1109.58] even joking like that's why I say like
+
+[1108.14 - 1112.22] the Eastern philosophers they figured
+
+[1109.58 - 1113.6] all this stuff out centuries ago and um
+
+[1112.22 - 1115.4] you know if you're mad at me like go
+
+[1113.6 - 1117.62] read a book I don't care
+
+[1115.4 - 1120.44] um Okay so
+
+[1117.62 - 1123.26] the bottom line though is can the thing
+
+[1120.44 - 1125.96] suffer because when we talk about ethics
+
+[1123.26 - 1128.419] of creating conscious machines it's like
+
+[1125.96 - 1130.7] ah but if you assume that it will have
+
+[1128.419 - 1132.38] the ability to suffer which is a really
+
+[1130.7 - 1134.0] bold assumption by the way do not make
+
+[1132.38 - 1134.96] that assumption
+
+[1134.0 - 1137.12] um
+
+[1134.96 - 1139.16] if it has the ability to suffer that
+
+[1137.12 - 1141.1999999999998] could be wrong but otherwise if we
+
+[1139.16 - 1144.2] create a thing that is not capable of
+
+[1141.2 - 1147.14] suffering then is it really wrong is
+
+[1144.2 - 1149.96] there any moral conundrum about it right
+
+[1147.14 - 1151.76] and so there's another episode of Star
+
+[1149.96 - 1155.059] Trek the Next Generation where data
+
+[1151.76 - 1157.039] builds a child and the child like his
+
+[1155.059 - 1158.96] his daughter Android
+
+[1157.039 - 1161.539] um like short circuits overloads and
+
+[1158.96 - 1164.179] dies and then data like the whole crew
+
+[1161.539 - 1166.16] is sad but then data is just like okay
+
+[1164.179 - 1168.14] I'm ready to go back to work and it was
+
+[1166.16 - 1170.539] a really poignant reminder that just
+
+[1168.14 - 1172.8200000000002] because a machine looks like us because
+
+[1170.539 - 1174.679] it acts like us doesn't mean that it
+
+[1172.82 - 1177.98] feels the way that we feel
+
+[1174.679 - 1180.14] and so suffering is Central is
+
+[1177.98 - 1181.52] absolutely Central to Buddhism which is
+
+[1180.14 - 1183.74] basically the primary purpose of
+
+[1181.52 - 1186.44] Buddhism the first Noble Truth you know
+
+[1183.74 - 1189.799] about suffering etc etc
+
+[1186.44 - 1193.16] um you know and even if we give the like
+
+[1189.799 - 1194.78] there was a there was an episode of uh a
+
+[1193.16 - 1197.9] philosophical podcast that I listened to
+
+[1194.78 - 1200.66] said what about what if we give the
+
+[1197.9 - 1202.76] machine the desire to suffer and the
+
+[1200.66 - 1204.74] ability and we build it so that it wants
+
+[1202.76 - 1206.78] to suffer that's a whole other can of
+
+[1204.74 - 1208.64] worms I'm not going to get into that but
+
+[1206.78 - 1210.799] one thing to remember is even if we
+
+[1208.64 - 1213.14] design something to quote be able to
+
+[1210.799 - 1215.78] suffer it might just be imitating
+
+[1213.14 - 1218.24] suffering according to our perception
+
+[1215.78 - 1220.58] and this is where it is impossible to
+
+[1218.24 - 1223.64] disentangle the perceiver from the thing
+
+[1220.58 - 1225.3799999999999] that you're perceiving right and this is
+
+[1223.64 - 1226.94] why you know you go down the rabbit hole
+
+[1225.38 - 1230.1200000000001] of quantum physics and you talk about
+
+[1226.94 - 1232.3400000000001] Alex and Bob and time paradoxes and you
+
+[1230.12 - 1233.4189999999999] know reality and non-locality and
+
+[1232.34 - 1235.6399999999999] whatever
+
+[1233.419 - 1238.88] so something that you're probably
+
+[1235.64 - 1241.22] familiar with is think about an NPC and
+
+[1238.88 - 1243.98] a video game that is like howling in
+
+[1241.22 - 1246.02] pain and fear you know like you you take
+
+[1243.98 - 1247.4] a shot at an NPC and you you know you
+
+[1246.02 - 1251.66] graze them and they're like oh that hurt
+
+[1247.4 - 1254.419] right it is pretending to be in pain but
+
+[1251.66 - 1256.16] is it actually experiencing pain and you
+
+[1254.419 - 1258.98] know some people say yes because because
+
+[1256.16 - 1260.8400000000001] it has convinced me that it is in pain I
+
+[1258.98 - 1263.299] believe that it is in pain and therefore
+
+[1260.84 - 1265.22] the pain is real so this is a very
+
+[1263.299 - 1266.84] egocentric view of the world where just
+
+[1265.22 - 1269.059] because like if you trust your
+
+[1266.84 - 1270.799] perception that much you're probably
+
+[1269.059 - 1272.1789999999999] wrong by the way
+
+[1270.799 - 1274.58] um so just be careful not to project
+
+[1272.179 - 1276.919] your sense of reality onto the machine
+
+[1274.58 - 1279.3799999999999] lots of people do this
+
+[1276.919 - 1281.179] okay so let's get a little bit further
+
+[1279.38 - 1284.3600000000001] into this because I can hear people say
+
+[1281.179 - 1286.7] yeah but you know like gpt3 doesn't
+
+[1284.36 - 1288.559] truly understand anything this is called
+
+[1286.7 - 1290.1200000000001] a no true Scotsman argument
+
+[1288.559 - 1291.98] um and I want to tell all everyone who
+
+[1290.12 - 1293.2399999999998] says that get over yourself because you
+
+[1291.98 - 1295.58] don't actually understand anything
+
+[1293.24 - 1297.5] either you just think you do
+
+[1295.58 - 1299.6] um this is called epistemology
+
+[1297.5 - 1301.52] uh which is the theory of knowing or the
+
+[1299.6 - 1304.24] theory of knowledge and so here's the
+
+[1301.52 - 1306.98] thing about true understanding
+
+[1304.24 - 1308.84] understanding or knowledge or whatever
+
+[1306.98 - 1311.419] it comes down to three primary
+
+[1308.84 - 1313.58] ingredients and this is this is for all
+
+[1311.419 - 1316.3400000000001] information beliefs evidence and
+
+[1313.58 - 1318.32] consensus so you believe that you
+
+[1316.34 - 1319.9399999999998] understand a thing right science
+
+[1318.32 - 1321.3799999999999] believes that it understands the thing
+
+[1319.94 - 1323.539] because science is the rigorous
+
+[1321.38 - 1325.64] accumulation of an interpretation of
+
+[1323.539 - 1329.78] evidence and this is how humans work
+
+[1325.64 - 1332.539] right science is just a uh a protocol a
+
+[1329.78 - 1334.3999999999999] set of protocols to help formalize how
+
+[1332.539 - 1338.419] our brains actually work to a certain
+
+[1334.4 - 1340.94] extent we accumulate experiences we draw
+
+[1338.419 - 1342.98] beliefs about the world and then by
+
+[1340.94 - 1344.96] interacting with other people we
+
+[1342.98 - 1347.539] eventually come to consensus and agree
+
+[1344.96 - 1350.1200000000001] this is how the world works that is what
+
+[1347.539 - 1353.0] truth is and that is what understanding
+
+[1350.12 - 1355.3999999999999] is is oh you know I have this belief
+
+[1353.0 - 1356.96] here's my evidence for this belief do
+
+[1355.4 - 1360.38] you have the same evidence and beliefs
+
+[1356.96 - 1362.78] okay cool we come to consensus on that
+
+[1360.38 - 1364.7] um there is no such thing as truth
+
+[1362.78 - 1366.799] are you human
+
+[1364.7 - 1368.3600000000001] one of the biggest things that that
+
+[1366.799 - 1371.96] working on and building cognitive
+
+[1368.36 - 1373.6999999999998] architectures uh brings up is this
+
+[1371.96 - 1375.98] question of what does it mean to be
+
+[1373.7 - 1378.44] human or conscious or sentient or
+
+[1375.98 - 1381.32] whatever and this is why uh people
+
+[1378.44 - 1383.299] continue to ask me about Blake Lemoine
+
+[1381.32 - 1385.6399999999999] um because he was working with a system
+
+[1383.299 - 1389.0] that the the system convinced him
+
+[1385.64 - 1391.1000000000001] through imitating humans that it was
+
+[1389.0 - 1393.88] conscious and sentient
+
+[1391.1 - 1393.8799999999999] um but
+
+[1395.0 - 1400.88] there is a reason that uh that whole
+
+[1399.38 - 1404.419] episode resonated with us because it's
+
+[1400.88 - 1406.88] like wait if if a text-based thing can
+
+[1404.419 - 1409.22] tell you hey I'm suffering I'm afraid
+
+[1406.88 - 1410.7800000000002] like how how seriously do you take that
+
+[1409.22 - 1412.76] because if a human tells you I'm
+
+[1410.78 - 1415.34] suffering I'm afraid we tend to take
+
+[1412.76 - 1417.3799999999999] that seriously but if we just assume
+
+[1415.34 - 1420.799] that the machine is not capable of
+
+[1417.38 - 1423.44] suffering or feeling fear then okay what
+
+[1420.799 - 1425.539] does that even mean and so it's like
+
+[1423.44 - 1428.0] we talk about truth we talk about humans
+
+[1425.539 - 1431.0] uh you know basically just remove the
+
+[1428.0 - 1433.4] idea of truth from your vocabulary uh
+
+[1431.0 - 1435.98] because how do you know what you know we
+
+[1433.4 - 1438.98] don't right we have beliefs and evidence
+
+[1435.98 - 1442.58] that we call we accumulate over time and
+
+[1438.98 - 1445.159] we come to consensus and so
+
+[1442.58 - 1447.98] the long story short is we cannot come
+
+[1445.159 - 1452.0] up with categorical assertions although
+
+[1447.98 - 1454.28] I have made a lot I I am aware of my uh
+
+[1452.0 - 1455.9] let's say problematic assertions
+
+[1454.28 - 1458.0] um this is just what I currently believe
+
+[1455.9 - 1459.74] let me reframe it that way I am sharing
+
+[1458.0 - 1462.02] what I believe and the evidence for why
+
+[1459.74 - 1464.179] I believe it and uh you know maybe one
+
+[1462.02 - 1466.1] day we'll all come to consensus
+
+[1464.179 - 1467.659] um but yeah so that's kind of what it
+
+[1466.1 - 1469.52] leads to is if we're building if we're
+
+[1467.659 - 1471.7990000000002] deliberately building machines that
+
+[1469.52 - 1473.6] imitate the human brain like what does
+
+[1471.799 - 1475.46] that mean about us right are we going to
+
+[1473.6 - 1477.74] fully replace ourselves one day
+
+[1475.46 - 1479.6000000000001] so uh you're welcome I hope this cleared
+
+[1477.74 - 1480.679] up a lot for you but if not you're on
+
+[1479.6 - 1482.9599999999998] your own
+
+[1480.679 - 1484.52] um I have written a few books on this uh
+
+[1482.96 - 1486.1000000000001] and there's also lots and lots of books
+
+[1484.52 - 1489.94] out there and plenty of other videos
+
+[1486.1 - 1489.9399999999998] anyways thanks for watching

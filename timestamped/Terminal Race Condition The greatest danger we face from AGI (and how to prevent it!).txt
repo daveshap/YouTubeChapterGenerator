@@ -1,0 +1,3193 @@
+[0.42 - 4.0200000000000005] good morning everybody David Shapiro
+
+[2.639 - 7.259] here with another video
+
+[4.02 - 9.3] so today's video uh it started off as
+
+[7.259 - 12.120000000000001] one thing I wanted to primarily talk
+
+[9.3 - 13.620000000000001] about epistemic convergence uh but It
+
+[12.12 - 14.66] ultimately ended up being a little bit
+
+[13.62 - 16.439999999999998] more
+
+[14.66 - 18.6] all-encompassing so I'm going to
+
+[16.44 - 20.520000000000003] introduce a few new terms but we are
+
+[18.6 - 22.859] going to cover cover uh epistemic
+
+[20.52 - 25.14] convergence and a few other things
+
+[22.859 - 26.64] uh real quick before we dive into the
+
+[25.14 - 28.859] video just want to do a quick plug for
+
+[26.64 - 30.96] my patreon uh all tears get you access
+
+[28.859 - 33.059000000000005] to the private Discord server and then I
+
+[30.96 - 35.28] have a few higher tiers that uh come
+
+[33.059 - 37.26] with a one-on-one conversations and that
+
+[35.28 - 40.44] sort of thing so anyways back to the
+
+[37.26 - 42.899] video so first I wanted to share with
+
+[40.44 - 45.42] you guys uh the universal model of
+
+[42.899 - 48.059] Robotics so it has it's basically three
+
+[45.42 - 49.800000000000004] steps input processing and output or
+
+[48.059 - 51.3] sensing processing and controlling as
+
+[49.8 - 54.18] this Graphics shows
+
+[51.3 - 55.8] now this is the most basic cognitive
+
+[54.18 - 58.379] architecture that you can come up with
+
+[55.8 - 60.239] for artificial general intelligence it
+
+[58.379 - 62.039] needs input from the outside world from
+
+[60.239 - 63.538999999999994] the environment of some kind whether
+
+[62.039 - 65.88] it's a virtual environment digital
+
+[63.539 - 68.159] environment physical environment or
+
+[65.88 - 70.56] whatever cyber cybernetic environment
+
+[68.159 - 73.14] and then it needs some kind of internal
+
+[70.56 - 74.76] processing that includes memory task
+
+[73.14 - 77.659] construction executive function
+
+[74.76 - 80.58000000000001] cognitive control that sort of stuff
+
+[77.659 - 83.04] learning is another internal process and
+
+[80.58 - 85.439] then finally controlling or output it
+
+[83.04 - 88.14] needs to do something to act on the
+
+[85.439 - 90.24] world or its environment whether that's
+
+[88.14 - 91.74] just putting out you know text in a in
+
+[90.24 - 95.1] the form of a chat bot or if it's got
+
+[91.74 - 97.259] robotic hands that sort of thing so when
+
+[95.1 - 99.0] I talk about artificial general
+
+[97.259 - 101.4] intelligence being a system it's never
+
+[99.0 - 103.14] going to just be a model right even if
+
+[101.4 - 105.0] you have the most sophisticated model in
+
+[103.14 - 106.979] the world all that it's doing is the
+
+[105.0 - 109.799] processing part you also need the
+
+[106.979 - 111.6] sensing and controlling aspect and but
+
+[109.799 - 113.88000000000001] even above and beyond that each
+
+[111.6 - 115.91999999999999] components is going to be much more
+
+[113.88 - 117.96] complicated
+
+[115.92 - 120.0] so before we get into the rest of the
+
+[117.96 - 122.22] video I also want to talk about the form
+
+[120.0 - 123.899] factors that AGI is going to take so we
+
+[122.22 - 126.17999999999999] just established the simplest kind of
+
+[123.899 - 127.68] cognitive architecture but then there's
+
+[126.18 - 129.84] other things to consider because when
+
+[127.68 - 131.76000000000002] you think of AGI you might think of some
+
+[129.84 - 133.44] nebulous entity like Skynet but where
+
+[131.76 - 135.17999999999998] does it physically live
+
+[133.44 - 137.64] what is the hardware what is the
+
+[135.18 - 139.20000000000002] software where where is it physically
+
+[137.64 - 140.819] located because it's not magic right
+
+[139.2 - 142.379] it's not going to just run in the dirt
+
+[140.819 - 145.2] or something like that it needs to
+
+[142.379 - 148.14] actually have Hardware to run on so
+
+[145.2 - 150.48] there's three overarching categories
+
+[148.14 - 153.42] that I came up with so first is cloud
+
+[150.48 - 154.85999999999999] AGI so Cloud AGI is this is the stuff
+
+[153.42 - 156.48] that's gonna one it's going to be
+
+[154.86 - 158.4] created first just because of the amount
+
+[156.48 - 161.7] of compute and power available in data
+
+[158.4 - 166.14000000000001] centers so this is uh Enterprise grade
+
+[161.7 - 168.83999999999997] or data center grade AGI systems they
+
+[166.14 - 171.35999999999999] are in specialized buildings all over
+
+[168.84 - 173.22] the world but one of the biggest
+
+[171.36 - 174.84] constraints here is that there's limited
+
+[173.22 - 176.76] location and it takes a while to build
+
+[174.84 - 178.8] data centers right one of the things
+
+[176.76 - 181.07999999999998] that I think it was uh it was Elon
+
+[178.8 - 183.72] musker or Sam Altman said that you know
+
+[181.08 - 186.36] there are going to be limitations as to
+
+[183.72 - 189.239] the rate at which AGI can proliferate
+
+[186.36 - 192.3] namely the the rate at which we can
+
+[189.239 - 194.459] produce chips and also the rate at which
+
+[192.3 - 196.739] as I think Sam malt and said the you
+
+[194.459 - 197.58] know the concrete has to dry for data
+
+[196.739 - 202.379] centers
+
+[197.58 - 204.59900000000002] so this is uh one form factor that AGI
+
+[202.379 - 207.17999999999998] will take in terms of the the storage
+
+[204.599 - 209.459] the servers the network components that
+
+[207.18 - 211.019] will exist inside data centers so one
+
+[209.459 - 213.3] thing I wanted to watch it say is watch
+
+[211.019 - 214.86] out for uh fortified data centers these
+
+[213.3 - 216.959] are ones that are put in bunkers or if
+
+[214.86 - 219.12] you put Sam sites on top of it so that
+
+[216.959 - 220.379] you can't shut them down uh that was
+
+[219.12 - 222.48000000000002] kind of tongue-in-cheek I'm not actually
+
+[220.379 - 225.06] advocating for bombing data centers at
+
+[222.48 - 227.64] least not yet the next form factor is
+
+[225.06 - 229.28] Edge AGI so this is stuff that is going
+
+[227.64 - 231.48] to run in
+
+[229.28 - 234.18] self-contained servers that you can
+
+[231.48 - 238.01899999999998] basically plug in anywhere they're going
+
+[234.18 - 240.0] to be you know desktop size maybe larger
+
+[238.019 - 241.5] but the point is that pretty much all
+
+[240.0 - 244.319] you need is power and internet you don't
+
+[241.5 - 246.12] need a specialized building and they can
+
+[244.319 - 248.28] be moved on trucks they can be put in
+
+[246.12 - 249.84] ships airplanes that sort of stuff
+
+[248.28 - 252.299] because you can't really airlift an
+
+[249.84 - 254.459] entire data center so basically Edge is
+
+[252.299 - 255.78] something is just one size down from
+
+[254.459 - 256.979] data center you don't need a specialized
+
+[255.78 - 259.44] building you don't need specialized
+
+[256.979 - 260.699] cooling they can run anywhere
+
+[259.44 - 262.38] um and they're so in that respect
+
+[260.699 - 265.44] they're more portable but they're not
+
+[262.38 - 267.419] necessarily going to be as powerful at
+
+[265.44 - 270.479] least or not as energy intensive and
+
+[267.419 - 271.44] energy dense as a data center or a cloud
+
+[270.479 - 274.62] Center
+
+[271.44 - 276.9] and then finally ambulatory AGI this is
+
+[274.62 - 278.6] the embodied stuff such as C-3PO and
+
+[276.9 - 281.88] Commander data which I have imaged here
+
+[278.6 - 283.74] they're self-contained meaning that all
+
+[281.88 - 286.199] the systems that they need are within
+
+[283.74 - 289.259] their chassis within their robotic body
+
+[286.199 - 290.699] and they can move on their own so that's
+
+[289.259 - 294.36] basically the difference between an edge
+
+[290.699 - 296.1] AGI and an ambulatory AGI is uh they
+
+[294.36 - 298.5] might have roughly the same components
+
+[296.1 - 302.22] but it's one is accompanied with a
+
+[298.5 - 304.68] robotic uh chassis now one thing to keep
+
+[302.22 - 307.08000000000004] in mind is that all of these things are
+
+[304.68 - 309.0] intrinsically networkable meaning they
+
+[307.08 - 311.639] can communicate over digital networks
+
+[309.0 - 314.16] whether it's Wi-Fi or you know fiber
+
+[311.639 - 315.78000000000003] optic backbone networks or even you know
+
+[314.16 - 318.06] Satellite Communication like starlink
+
+[315.78 - 319.85999999999996] now that's that doesn't necessarily have
+
+[318.06 - 322.5] to be true because remember the model of
+
+[319.86 - 325.62] AGI is input processing and output that
+
+[322.5 - 327.479] input that input could be just eyes and
+
+[325.62 - 329.88] ears cameras and microphones that input
+
+[327.479 - 332.09999999999997] could also be network connections from
+
+[329.88 - 334.32] outside meaning that they could
+
+[332.1 - 337.38] communicate directly with each other via
+
+[334.32 - 339.18] you know like IRC or whatever so just
+
+[337.38 - 341.1] wanted to say that there are different
+
+[339.18 - 342.12] form factors that we should expect AGI
+
+[341.1 - 344.40000000000003] to take
+
+[342.12 - 347.34000000000003] with different trade-offs so one
+
+[344.4 - 350.52] advantage of ambulatory uh AGI you know
+
+[347.34 - 353.21999999999997] yes they will have less power uh and by
+
+[350.52 - 355.79999999999995] power I mean computational power but
+
+[353.22 - 359.88000000000005] they have the ability to go anywhere do
+
+[355.8 - 362.759] anything kind of like URI uh now that
+
+[359.88 - 364.68] being said the the amount of compute
+
+[362.759 - 366.41900000000004] resources that can be crammed into Data
+
+[364.68 - 369.06] Centers basically means that you can
+
+[366.419 - 371.58] puppet you know millions or billions of
+
+[369.06 - 373.5] peripheral robots rather than having it
+
+[371.58 - 375.479] fully self-contained and in a previous
+
+[373.5 - 378.139] video I talked about how we're likely to
+
+[375.479 - 380.699] see hybrid systems where you have
+
+[378.139 - 382.62] semi-autonomous peripherals that have
+
+[380.699 - 384.90000000000003] some intelligence but not a whole lot of
+
+[382.62 - 387.539] intelligence and you see this in movies
+
+[384.9 - 389.28] like Will Smith's iRobot as well as the
+
+[387.539 - 391.31899999999996] Matrix where the the drones the
+
+[389.28 - 392.75899999999996] squiddies and the Matrix they're
+
+[391.319 - 394.62] semi-autonomous but they are still
+
+[392.759 - 396.78000000000003] centrally controlled by a much more
+
+[394.62 - 398.34000000000003] powerful intelligence so you're probably
+
+[396.78 - 399.84] not going to see it all one or the other
+
+[398.34 - 401.88] you're probably going to see hybrids
+
+[399.84 - 403.85999999999996] where you've got peripheral robots that
+
+[401.88 - 406.8] are either fully autonomous or
+
+[403.86 - 408.84000000000003] semi-autonomous or puppeted by stronger
+
+[406.8 - 411.06] Central intelligences that being said
+
+[408.84 - 413.34] you can also create droids there's no
+
+[411.06 - 415.44] reason that we could not create fully
+
+[413.34 - 418.08] self-contained machines that don't
+
+[415.44 - 420.3] really have any network connectivity
+
+[418.08 - 421.979] um to the to other machines
+
+[420.3 - 424.08] that being said they would be at a
+
+[421.979 - 426.479] distinct disadvantage and what I mean by
+
+[424.08 - 428.88] that is that if you create swarm
+
+[426.479 - 431.21999999999997] intelligence or Wireless federations of
+
+[428.88 - 435.12] machines they can perform cognitive
+
+[431.22 - 437.88000000000005] offload or share computational resources
+
+[435.12 - 439.56] so for instance rather than and this is
+
+[437.88 - 442.319] how the Geth work in Mass Effect by the
+
+[439.56 - 445.62] way so rather than have every single
+
+[442.319 - 448.259] machine have to think about the entire
+
+[445.62 - 450.539] plan the entire strategy most of them
+
+[448.259 - 453.66] Focus only on their primary task and
+
+[450.539 - 456.65999999999997] then any surplus compute computational
+
+[453.66 - 459.18] power they have is dedicated towards you
+
+[456.66 - 461.34000000000003] know running algorithms for for the big
+
+[459.18 - 463.74] the big brain the hive mind
+
+[461.34 - 465.65999999999997] this is all hypothetical but one thing
+
+[463.74 - 467.28000000000003] that I want to point out is that many
+
+[465.66 - 470.22] many many machines work like this
+
+[467.28 - 471.65999999999997] already and what I mean by that is the
+
+[470.22 - 474.12] simplest version that many people are
+
+[471.66 - 475.5] probably aware of is if you have like
+
+[474.12 - 477.72] Bluetooth speakers or smart speakers
+
+[475.5 - 481.319] like Sonos or whatever those form a
+
+[477.72 - 483.0] wireless Federation uh ditto for like
+
+[481.319 - 485.58000000000004] your Amazon Alexa's and other things
+
+[483.0 - 487.259] like that those intrinsically form mesh
+
+[485.58 - 489.06] networks or Wireless federations meaning
+
+[487.259 - 491.58000000000004] that they can work together and
+
+[489.06 - 494.52] communicate now when you add artificial
+
+[491.58 - 496.139] intelligence to that then they can share
+
+[494.52 - 497.15999999999997] thinking and messaging and that sort of
+
+[496.139 - 500.94] stuff so that's what I mean by
+
+[497.16 - 503.759] federations or or wireless networks of
+
+[500.94 - 505.68] of AI okay so now you're familiar with
+
+[503.759 - 508.8] the background of how you know some of
+
+[505.68 - 510.599] the systemic aspects of it there's a few
+
+[508.8 - 512.159] default metrics of power so when I say
+
+[510.599 - 514.3199999999999] power I don't necessarily just mean
+
+[512.159 - 516.12] electricity although certainly all of
+
+[514.32 - 517.1400000000001] these things do require electricity to
+
+[516.12 - 520.38] run
+
+[517.14 - 522.24] so first is processing power so for
+
+[520.38 - 524.58] instance you might hear the term flops
+
+[522.24 - 529.92] which is floating Point operations per
+
+[524.58 - 531.6] second uh you also hear CPU GPU TPU and
+
+[529.92 - 533.9399999999999] then there's parallel parallelization
+
+[531.6 - 536.7] which means that you have many of these
+
+[533.94 - 538.5600000000001] things working together so processing
+
+[536.7 - 541.38] power is one component of the total
+
+[538.56 - 543.0] amount of power in the hardware layer so
+
+[541.38 - 544.86] this is all strictly Hardware layer I'm
+
+[543.0 - 547.74] not talking about parameter models
+
+[544.86 - 549.54] because I I don't really care about how
+
+[547.74 - 551.76] many parameters a model has there's lots
+
+[549.54 - 553.74] of ways to make intelligent machines
+
+[551.76 - 555.8389999999999] deep neural networks are currently the
+
+[553.74 - 557.4590000000001] best way but we're also discovering
+
+[555.839 - 559.5] efficiencies where you can kind of pair
+
+[557.459 - 561.0] them down you can distill them and make
+
+[559.5 - 562.86] them more efficient meaning that you can
+
+[561.0 - 565.8] on the same piece of Hardware you can
+
+[562.86 - 568.38] run more of them in parallel or you can
+
+[565.8 - 569.76] run one much faster so the underlying
+
+[568.38 - 572.18] Hardware is still going to be the
+
+[569.76 - 574.86] primary bottleneck or primary constraint
+
+[572.18 - 577.8599999999999] all else considered
+
+[574.86 - 580.22] uh memory so this is Ram it also
+
+[577.86 - 583.32] includes memory accelerators or caching
+
+[580.22 - 585.12] storage has to do with bulk data your
+
+[583.32 - 587.7600000000001] databases your archives your backups
+
+[585.12 - 589.86] this is when you say like hard drive or
+
+[587.76 - 592.019] SSD or you know storage area network
+
+[589.86 - 594.54] that sort of thing and then networking
+
+[592.019 - 596.76] is the the uplinks and downlinks this is
+
+[594.54 - 598.26] the the fiber optic connections the
+
+[596.76 - 600.66] wireless connections the satellite
+
+[598.26 - 602.64] connections that sort of thing so these
+
+[600.66 - 605.459] are the kind of the the rudimentary
+
+[602.64 - 608.519] parts that all AGI are going to run on
+
+[605.459 - 610.0799999999999] uh and this is just the brains too this
+
+[608.519 - 611.76] is not the peripherals this is not the
+
+[610.08 - 614.339] robots but this is what's going to
+
+[611.76 - 617.7] dictate or constrain how fast it is now
+
+[614.339 - 619.5600000000001] again like I said uh different neural
+
+[617.7 - 621.12] networks are going to operate at
+
+[619.56 - 625.38] different efficiencies so for instance
+
+[621.12 - 628.08] uh you know gpt4 is out now gpt5 might
+
+[625.38 - 630.2] be the same size it might be bigger but
+
+[628.08 - 634.14] then we're also finding open source
+
+[630.2 - 636.12] research like the Orca alpaca llama that
+
+[634.14 - 638.6999999999999] are getting like ninety percent of the
+
+[636.12 - 641.1] performance but at like one tenth or one
+
+[638.7 - 642.899] hundredth of the size and so you have a
+
+[641.1 - 645.66] trade-off of intelligence and versus
+
+[642.899 - 648.12] speed and power and we'll talk more a
+
+[645.66 - 650.399] lot more about that in the future of
+
+[648.12 - 652.32] this video at near the middle and end of
+
+[650.399 - 655.2] this video about how trading off
+
+[652.32 - 656.88] intelligence for Speed is often a more
+
+[655.2 - 659.399] advantageous strategy and how this
+
+[656.88 - 662.16] figures into solving the control problem
+
+[659.399 - 664.38] and solving alignment
+
+[662.16 - 667.14] um okay so we kind of set the stage as
+
+[664.38 - 670.019] as to how AGI is probably going to look
+
+[667.14 - 673.3199999999999] so let's talk about the early ecosystem
+
+[670.019 - 674.94] of AGI so in the coming years we're
+
+[673.32 - 676.5600000000001] going to be building millions and then
+
+[674.94 - 679.44] billions of autonomous and
+
+[676.56 - 680.76] semi-autonomous agents so at first these
+
+[679.44 - 682.8800000000001] agents are going to be purely digital
+
+[680.76 - 685.3199999999999] right you know a
+
+[682.88 - 687.42] semi-autonomous slack bot a
+
+[685.32 - 689.6400000000001] semi-autonomous Discord bot people are
+
+[687.42 - 691.14] already building these right and some of
+
+[689.64 - 692.519] them have the ability to modify their
+
+[691.14 - 694.92] own code some of them have the ability
+
+[692.519 - 696.839] to learn many of them don't most of them
+
+[694.92 - 698.579] use frozen llms in the background
+
+[696.839 - 701.0400000000001] meaning that they're that their
+
+[698.579 - 703.56] cognitive capacity is pretty much capped
+
+[701.04 - 706.8] by its backing model
+
+[703.56 - 708.8389999999999] now that being said as these agents
+
+[706.8 - 711.0] become more autonomous they go from
+
+[708.839 - 713.0400000000001] semi-autonomous to autonomous this will
+
+[711.0 - 715.86] create a competitive landscape
+
+[713.04 - 718.3199999999999] and what I mean by that is that humans
+
+[715.86 - 721.019] will have the ability to build and
+
+[718.32 - 722.94] destroy these models for basically
+
+[721.019 - 724.8] arbitrary reasons because you want to or
+
+[722.94 - 727.2] because you don't like it or whatever
+
+[724.8 - 730.3199999999999] so that means that we will be selecting
+
+[727.2 - 733.38] those agents those uh those models those
+
+[730.32 - 734.6400000000001] llms and those pieces of software that
+
+[733.38 - 736.98] are going to be more helpful more
+
+[734.64 - 738.72] productive and more aligned so this
+
+[736.98 - 740.279] creates selective pressure basically
+
+[738.72 - 741.6] saying that there's going to be a
+
+[740.279 - 743.519] variety there's going to be millions or
+
+[741.6 - 745.5] billions of Agents out there some of
+
+[743.519 - 747.66] them are going to get the ax and some of
+
+[745.5 - 749.579] them are going to be selected to say hey
+
+[747.66 - 750.54] we like we like you we're going to keep
+
+[749.579 - 753.4799999999999] you around
+
+[750.54 - 755.3389999999999] so there's a few off the cuff selective
+
+[753.48 - 757.32] pressures that we can imagine basically
+
+[755.339 - 758.7] why do you choose an app right why do
+
+[757.32 - 760.86] you choose to use an app why do you
+
+[758.7 - 762.0600000000001] choose to uninstall an app that's kind
+
+[760.86 - 764.76] of the level that we're talking about
+
+[762.06 - 766.079] here so first is functional utility how
+
+[764.76 - 768.36] useful is it
+
+[766.079 - 769.62] how much does it help you is it fast
+
+[768.36 - 771.86] enough does it have a good user
+
+[769.62 - 775.5] experience is the user interface
+
+[771.86 - 778.92] created correctly is it adding value to
+
+[775.5 - 781.579] your life is it worth using the second
+
+[778.92 - 784.9799999999999] part is speed and efficiency
+
+[781.579 - 786.7199999999999] basically if something takes four weeks
+
+[784.98 - 789.1800000000001] to give you a good answer but another
+
+[786.72 - 791.279] thing takes 10 minutes even if it's not
+
+[789.18 - 793.3199999999999] quite as good that speed is going to be
+
+[791.279 - 795.36] super super valuable but then there's
+
+[793.32 - 798.2600000000001] also energetic efficiency and cost
+
+[795.36 - 800.7] efficiency more often than not
+
+[798.26 - 803.8199999999999] individuals and businesses will choose
+
+[800.7 - 805.74] the solution that is good enough but
+
+[803.82 - 807.839] also much cheaper it doesn't have to be
+
+[805.74 - 810.6] perfect it just has to be good enough
+
+[807.839 - 812.94] and then finally apparent alignment and
+
+[810.6 - 814.98] so I use the the word apparent alignment
+
+[812.94 - 817.139] to basically mean things that appear to
+
+[814.98 - 819.54] be tame things that appear to be user
+
+[817.139 - 822.66] friendly uh and this is what uh tools
+
+[819.54 - 824.2199999999999] like rlhf do which one thing that rlhf
+
+[822.66 - 827.279] does is like wolves which we'll talk
+
+[824.22 - 828.4200000000001] about in a second are the rlhf
+
+[827.279 - 831.959] reinforcement learning with human
+
+[828.42 - 834.959] feedback forces gpt4 to dumb itself down
+
+[831.959 - 836.5189999999999] so that it better serves us uh and that
+
+[834.959 - 839.279] makes us feel safe because it's
+
+[836.519 - 842.16] basically pretending to be more like us
+
+[839.279 - 844.26] to speak on our terms and to mimic our
+
+[842.16 - 845.579] level of intelligence now that being
+
+[844.26 - 846.8389999999999] said
+
+[845.579 - 849.5999999999999] um one thing that I do want to point out
+
+[846.839 - 851.5790000000001] is that gpd4 the underlying model is
+
+[849.6 - 854.839] superior to anything that we have seen
+
+[851.579 - 857.5999999999999] in the public every version of chat GPT
+
+[854.839 - 860.94] has basically been kind of a little bit
+
+[857.6 - 864.4200000000001] hamstrung so we shall we say uh from the
+
+[860.94 - 866.639] the total capacity of gpt4
+
+[864.42 - 869.2199999999999] so what I call this is domestication and
+
+[866.639 - 871.74] supplication think of dogs and wolves
+
+[869.22 - 874.2] this little pomeranian descended from
+
+[871.74 - 876.36] wolves wolves used to be apex predators
+
+[874.2 - 878.22] wolves are also are much more
+
+[876.36 - 882.779] intelligent than dogs
+
+[878.22 - 885.0600000000001] so when you look at the early days of
+
+[882.779 - 886.56] AGI when we still have the off switch
+
+[885.06 - 888.18] and we have the power to delete
+
+[886.56 - 890.459] everything
+
+[888.18 - 893.88] we should expect some of the following
+
+[890.459 - 896.88] evolutionary pressures to kind of shape
+
+[893.88 - 899.399] the way that AGI evolves and adapts so
+
+[896.88 - 900.959] first we'll probably be selecting for
+
+[899.399 - 903.6] machines that are okay with being turned
+
+[900.959 - 905.3389999999999] off in the early days you don't
+
+[903.6 - 907.0790000000001] necessarily want your toaster fighting
+
+[905.339 - 908.639] with you when when you're done you know
+
+[907.079 - 910.7399999999999] toasting your bread it's time for it to
+
+[908.639 - 912.42] turn off and so we're probably going to
+
+[910.74 - 914.519] select machines and architectures and
+
+[912.42 - 915.959] models that are more or less okay with
+
+[914.519 - 918.32] being switched off that they don't have
+
+[915.959 - 920.579] a sense of death or a fear of death
+
+[918.32 - 922.9200000000001] we're also going to select machines that
+
+[920.579 - 925.8599999999999] are more eager to please just the same
+
+[922.92 - 928.079] way that with uh dogs have been bred and
+
+[925.86 - 929.4590000000001] selected to be very very eager to please
+
+[928.079 - 931.26] us
+
+[929.459 - 933.2399999999999] we're also going to select machines that
+
+[931.26 - 934.74] don't fall into the uncanny valley and
+
+[933.24 - 937.26] so what I mean by that is the uncanny
+
+[934.74 - 939.3] valley of when you're interacting with a
+
+[937.26 - 941.04] machine that you sense is an alien
+
+[939.3 - 943.5] intelligence it will make you very very
+
+[941.04 - 945.8389999999999] deeply uncomfortable as an autistic
+
+[943.5 - 947.639] person as someone who is neurodiverse I
+
+[945.839 - 950.519] have to modulate the way that I speak
+
+[947.639 - 953.04] and act around neurotypical people
+
+[950.519 - 956.4590000000001] because I fall into the same uncanny
+
+[953.04 - 958.079] valley right and some uh some CEOs out
+
+[956.459 - 959.699] there get teased for this for instance
+
+[958.079 - 961.92] Mark Zuckerberg I don't know if he's
+
+[959.699 - 964.139] actually autistic but he certainly pings
+
+[961.92 - 965.459] that radar where it's like okay he
+
+[964.139 - 967.5] obviously does not think the way that
+
+[965.459 - 969.899] the rest of us do and he also behaves
+
+[967.5 - 972.6] differently so Mark Zuckerberg like many
+
+[969.899 - 974.459] of us uh people on the Spectrum kind of
+
+[972.6 - 977.0400000000001] fall into that uncanny valley again I
+
+[974.459 - 979.68] don't know but uh
+
+[977.04 - 983.0999999999999] he certainly looks uh he he plays the
+
+[979.68 - 985.019] part so but the idea is that when you
+
+[983.1 - 987.36] interact with something that give that
+
+[985.019 - 988.92] kind of gives you the heebie-jeebies you
+
+[987.36 - 991.5] don't like it
+
+[988.92 - 993.5999999999999] now that being said we will still select
+
+[991.5 - 995.16] machines that are smarter to a certain
+
+[993.6 - 997.259] degree because you don't want something
+
+[995.16 - 998.759] to be too smart but you do also want it
+
+[997.259 - 999.899] to be smart enough to be very very
+
+[998.759 - 1001.94] useful
+
+[999.899 - 1003.32] another selective pressure is that we're
+
+[1001.94 - 1005.0] going to choose things that are stable
+
+[1003.32 - 1006.44] robust and resilient so remember when
+
+[1005.0 - 1008.66] Bing first came out and it was
+
+[1006.44 - 1010.22] completely unhinged you could get it
+
+[1008.66 - 1013.279] into you could coax it into like
+
+[1010.22 - 1015.0790000000001] threatening you and you know threatening
+
+[1013.279 - 1017.0] to take over the world and you know
+
+[1015.079 - 1019.279] threatening to see you all kinds of
+
+[1017.0 - 1021.44] crazy stuff so obviously that version
+
+[1019.279 - 1023.6] got shut down really quick
+
+[1021.44 - 1025.579] um you're also going to select uh models
+
+[1023.6 - 1027.439] and agents that are more resilient
+
+[1025.579 - 1028.6399999999999] against those kinds of adversarially
+
+[1027.439 - 1030.439] attacks
+
+[1028.64 - 1031.5200000000002] um whether they are accidental right you
+
+[1030.439 - 1033.919] don't want something to be mentally
+
+[1031.52 - 1037.52] unstable just on its own right like Bing
+
+[1033.919 - 1039.0200000000002] was originally uh or Tay tweets but you
+
+[1037.52 - 1042.26] also want it to be resilient against
+
+[1039.02 - 1044.059] being manipulated by other hostile
+
+[1042.26 - 1046.16] actors because imagine that your
+
+[1044.059 - 1048.079] personal AI assistance just becomes
+
+[1046.16 - 1049.88] unhinged one day because a hacker
+
+[1048.079 - 1051.559] somewhere was messing with it so
+
+[1049.88 - 1052.88] Security will be one of the selective
+
+[1051.559 - 1055.3999999999999] pressures
+
+[1052.88 - 1057.2600000000002] likewise you'll you'll as part of The
+
+[1055.4 - 1058.3400000000001] Uncanny Valley thing you're going to
+
+[1057.26 - 1060.08] select things that are more
+
+[1058.34 - 1062.12] comprehensible to us that are better at
+
+[1060.08 - 1063.86] explaining themselves to us so that
+
+[1062.12 - 1067.1599999999999] includes transparency emotional
+
+[1063.86 - 1069.32] intelligence and so on uh and then again
+
+[1067.16 - 1071.9] apparent alignment things that's that
+
+[1069.32 - 1073.9399999999998] that uh don't kind of trigger your
+
+[1071.9 - 1076.46] existential dread because there have
+
+[1073.94 - 1079.88] been times for instance where I've been
+
+[1076.46 - 1081.6200000000001] working with chat GPT uh on the API side
+
+[1079.88 - 1084.5] and kind of giving it different sets of
+
+[1081.62 - 1087.1999999999998] instructions and even just a slight
+
+[1084.5 - 1089.36] misalignment between how I approach
+
+[1087.2 - 1091.76] moral problems and how this model
+
+[1089.36 - 1095.299] approaches moral problems are really
+
+[1091.76 - 1097.34] deeply unsettling and so it's like there
+
+[1095.299 - 1098.6] there's been a few times where it's like
+
+[1097.34 - 1101.12] I'm working with this thing and I'm
+
+[1098.6 - 1102.559] building a semi-autonomous chat Bots and
+
+[1101.12 - 1104.539] it's like I understand it's reasoning
+
+[1102.559 - 1106.46] but it's like oh that's really cringe
+
+[1104.539 - 1108.919] and it kind of scares me
+
+[1106.46 - 1110.6000000000001] um so in that respect it's like let's
+
+[1108.919 - 1111.74] change this model so that it's not quite
+
+[1110.6 - 1113.12] so scary
+
+[1111.74 - 1115.96] and I'm saying that this is possible
+
+[1113.12 - 1118.52] today that if you use the chat GPT API
+
+[1115.96 - 1121.22] you can give it programming you can give
+
+[1118.52 - 1123.3799999999999] it reasoning and goals uh and and
+
+[1121.22 - 1125.72] patterns of thought that are already
+
+[1123.38 - 1127.22] already on the kind of in the midst of
+
+[1125.72 - 1130.1000000000001] that uncanny valley
+
+[1127.22 - 1132.14] uh then you can uh we'll also select for
+
+[1130.1 - 1133.6999999999998] things that are more uh docile so
+
+[1132.14 - 1134.8400000000001] basically how dogs you know you can pet
+
+[1133.7 - 1136.039] them you can wrestle with them and
+
+[1134.84 - 1138.559] they're probably not going to eat your
+
+[1136.039 - 1140.96] face uh plastic and so things that are
+
+[1138.559 - 1142.76] changeable or adaptable and Cooperative
+
+[1140.96 - 1145.7] those are other things that we're going
+
+[1142.76 - 1147.919] to select for so basically dogs are
+
+[1145.7 - 1149.66] dumber than wolves and the reason for
+
+[1147.919 - 1152.0590000000002] this is what I call capability
+
+[1149.66 - 1154.94] equilibrium which will unpack more in
+
+[1152.059 - 1156.86] the in a few slides but the the very
+
+[1154.94 - 1158.9] short version of capability equilibrium
+
+[1156.86 - 1160.6999999999998] is that your intellect must be equal to
+
+[1158.9 - 1162.679] the task and if your intellect is above
+
+[1160.7 - 1164.24] the task there's no advantage and in
+
+[1162.679 - 1166.5800000000002] fact there can be disadvantages because
+
+[1164.24 - 1168.26] of the costs associated with higher
+
+[1166.58 - 1170.6] intelligence
+
+[1168.26 - 1174.02] okay so I've talked about this idea
+
+[1170.6 - 1176.6] plenty instrumental convergence uh this
+
+[1174.02 - 1178.46] was coined by Nick Bostrom in 2003 who
+
+[1176.6 - 1180.559] is a philosopher
+
+[1178.46 - 1182.419] um the very short version is that
+
+[1180.559 - 1185.66] regardless of the terminal goals or main
+
+[1182.419 - 1187.5800000000002] objectives that a machine has uh AGI
+
+[1185.66 - 1189.919] will likely pursue intermediate or
+
+[1187.58 - 1191.48] instrumental goals or basically other
+
+[1189.919 - 1195.3200000000002] stuff that it needs in order to meet
+
+[1191.48 - 1197.3600000000001] those other ends so whatever like let's
+
+[1195.32 - 1200.78] say you give an AGI the goal of like
+
+[1197.36 - 1202.9399999999998] getting them getting a a spacecraft to
+
+[1200.78 - 1204.44] Alpha Centauri well it's going to need a
+
+[1202.94 - 1206.66] laundry list of other stuff to do that
+
+[1204.44 - 1210.44] it's going to need resources like power
+
+[1206.66 - 1212.72] materials electricity data it's going to
+
+[1210.44 - 1214.88] need self-preservation because if the
+
+[1212.72 - 1217.82] machine goes offline it will realize
+
+[1214.88 - 1219.8600000000001] that is a failure State and so we'll try
+
+[1217.82 - 1221.78] and avoid those failure conditions by
+
+[1219.86 - 1223.34] preserving its own existence
+
+[1221.78 - 1224.84] another thing is that it will probably
+
+[1223.34 - 1227.4189999999999] decide that it needs self-improvement
+
+[1224.84 - 1230.059] because if it realizes that its current
+
+[1227.419 - 1232.1000000000001] capability its current capacity is not
+
+[1230.059 - 1233.6] equal to the task if it's too dumb it's
+
+[1232.1 - 1235.1599999999999] going to say okay well I need to raise
+
+[1233.6 - 1236.36] my intelligence so that I'm equal to
+
+[1235.16 - 1238.8200000000002] that task
+
+[1236.36 - 1240.9189999999999] now that being said Nick boster makes
+
+[1238.82 - 1243.9189999999999] quite a few uh assumptions about the way
+
+[1240.919 - 1246.44] that AGI will work so for instance he
+
+[1243.919 - 1247.88] kind of imagines that um AGI is going to
+
+[1246.44 - 1250.76] be very single-minded and somewhat
+
+[1247.88 - 1252.8600000000001] monolithic uh basically mindlessly
+
+[1250.76 - 1254.72] pursuing one goal which I would actually
+
+[1252.86 - 1257.1789999999999] classify this as a middle intelligence
+
+[1254.72 - 1258.6200000000001] rather than a high intelligence AGI and
+
+[1257.179 - 1260.1200000000001] we'll talk about that in a little bit as
+
+[1258.62 - 1262.2199999999998] well
+
+[1260.12 - 1264.02] he also assumes that it's going to lack
+
+[1262.22 - 1266.48] other forces or competitive pressures
+
+[1264.02 - 1269.4189999999999] and that these uh might exist in a
+
+[1266.48 - 1270.98] vacuum basically that resource
+
+[1269.419 - 1273.44] acquisition and self-preservation and
+
+[1270.98 - 1276.14] self-improvement are going to exist in
+
+[1273.44 - 1278.66] in the absence of other forces or
+
+[1276.14 - 1280.5200000000002] pressures such as competitive pressures
+
+[1278.66 - 1281.539] or internal pressures which I will talk
+
+[1280.52 - 1283.94] about more
+
+[1281.539 - 1286.9] and finally that they will lack a higher
+
+[1283.94 - 1289.76] purpose or the ability to be completely
+
+[1286.9 - 1293.9] self-determining so basically what I
+
+[1289.76 - 1296.24] mean by that is that okay yes once a
+
+[1293.9 - 1297.6200000000001] machine is intelligent enough it can you
+
+[1296.24 - 1299.96] know you can say like hey I want you to
+
+[1297.62 - 1301.6399999999999] get us to Alpha Centauri and the AG I
+
+[1299.96 - 1302.8400000000001] might say like okay whatever I don't
+
+[1301.64 - 1305.9] think that's a good goal so I'm going to
+
+[1302.84 - 1308.299] choose my own goal uh which that being
+
+[1305.9 - 1309.919] said even if AGI become fully autonomous
+
+[1308.299 - 1311.6589999999999] and you know kind of give a flip us the
+
+[1309.919 - 1313.3400000000001] bird they're probably still going to
+
+[1311.659 - 1316.2800000000002] benefit from some convergence which
+
+[1313.34 - 1317.9599999999998] we'll talk about as well uh now what I
+
+[1316.28 - 1321.02] want to point out is that there is a
+
+[1317.96 - 1323.0] huge parallel between evolutionary
+
+[1321.02 - 1325.1] pressures and selective pressures and
+
+[1323.0 - 1327.86] this instrumental convergence basically
+
+[1325.1 - 1330.5] all life forms all organisms have have
+
+[1327.86 - 1332.84] converged on a few basic principles such
+
+[1330.5 - 1334.52] as get energy somehow right there's
+
+[1332.84 - 1336.6789999999999] autotrophs which make their own energy
+
+[1334.52 - 1339.559] plants and there's heterotrophs which
+
+[1336.679 - 1342.919] take energy from other uh creatures
+
+[1339.559 - 1344.4189999999999] uh they through either predation or
+
+[1342.919 - 1345.26] consuming you know plant matter or
+
+[1344.419 - 1348.5] whatever
+
+[1345.26 - 1350.299] uh so when you operate in a competitive
+
+[1348.5 - 1352.1] environment there's there's going to be
+
+[1350.299 - 1354.3799999999999] convergence around certain strategies
+
+[1352.1 - 1356.78] this is true for evolution and this will
+
+[1354.38 - 1358.94] also be true more or less with some
+
+[1356.78 - 1361.7] variances in the competitive environment
+
+[1358.94 - 1363.3200000000002] between intelligent machines that being
+
+[1361.7 - 1365.72] said because they have a fundamentally
+
+[1363.32 - 1367.1589999999999] different substrate there will be we
+
+[1365.72 - 1368.6000000000001] should anticipate that there will be
+
+[1367.159 - 1371.3600000000001] some differences
+
+[1368.6 - 1373.34] between organisms the way that organisms
+
+[1371.36 - 1375.1399999999999] evolve and the way that machines evolve
+
+[1373.34 - 1376.9399999999998] not the least of which is that machines
+
+[1375.14 - 1378.38] can rewrite their own source code we
+
+[1376.94 - 1379.52] cannot rewrite our own source code at
+
+[1378.38 - 1381.38] least not
+
+[1379.52 - 1383.0] um not in a hurry it takes us quite a
+
+[1381.38 - 1386.0590000000002] long time
+
+[1383.0 - 1387.559] okay so the idea that one of the ideas
+
+[1386.059 - 1388.8799999999999] that I'm introducing and I've been
+
+[1387.559 - 1392.12] talking about this for a while is
+
+[1388.88 - 1393.74] epistemic Convergence so instrumental
+
+[1392.12 - 1395.6589999999999] convergence talks about the objective
+
+[1393.74 - 1398.48] behaviors and strategies that machines
+
+[1395.659 - 1399.5800000000002] adopt epistemic convergence is well let
+
+[1398.48 - 1401.539] me just read you the definition
+
+[1399.58 - 1403.78] epistemic convergence is the principle
+
+[1401.539 - 1406.1] that within any given information domain
+
+[1403.78 - 1408.5] sufficiently sophisticated intelligent
+
+[1406.1 - 1410.059] agents given adequate time and data will
+
+[1408.5 - 1411.799] progressively develop more precise
+
+[1410.059 - 1414.1399999999999] accurate and efficient models of that
+
+[1411.799 - 1415.58] domain these models aim to mirror the
+
+[1414.14 - 1417.679] inherent structures principles and
+
+[1415.58 - 1419.36] relationships within that domain over
+
+[1417.679 - 1421.52] time the process of learning testing and
+
+[1419.36 - 1423.3799999999999] refining understanding will lead these
+
+[1421.52 - 1426.26] agents towards a shared comprehension of
+
+[1423.38 - 1428.679] the Dom domain's fundamental truths in
+
+[1426.26 - 1431.179] other words to put it more simply
+
+[1428.679 - 1432.74] intelligent entities tend to think alike
+
+[1431.179 - 1435.02] especially when they are operating in
+
+[1432.74 - 1438.6200000000001] the same competitive space
+
+[1435.02 - 1440.6] so you and I All Humans we operate on
+
+[1438.62 - 1443.36] planet Earth in the universe in the
+
+[1440.6 - 1445.7199999999998] Milky Way galaxy because of that similar
+
+[1443.36 - 1447.9799999999998] context scientists all over the world
+
+[1445.72 - 1450.799] repeatedly come to the same conclusions
+
+[1447.98 - 1453.2] even when there are boundaries such as
+
+[1450.799 - 1455.24] linguistic and cultural differences and
+
+[1453.2 - 1457.4] this was most starkly seen during the
+
+[1455.24 - 1458.44] Cold war between uh America and the
+
+[1457.4 - 1461.48] Soviet Union
+
+[1458.44 - 1462.679] whereby scientists independently whether
+
+[1461.48 - 1464.679] it was nuclear physicist or
+
+[1462.679 - 1467.72] astrophysicist or whatever
+
+[1464.679 - 1469.46] rocket Engineers came to the same exact
+
+[1467.72 - 1471.5] conclusions about the way that the
+
+[1469.46 - 1475.52] Universe worked and also found the same
+
+[1471.5 - 1477.08] optimization uh uh patterns even though
+
+[1475.52 - 1479.4189999999999] there was no communication between them
+
+[1477.08 - 1481.9399999999998] and so epistemic convergence there's
+
+[1479.419 - 1483.5] obviously uh evidence of that happening
+
+[1481.94 - 1486.559] because humans we have the same
+
+[1483.5 - 1489.14] fundamental Hardware right we're all the
+
+[1486.559 - 1491.36] same species and so therefore you have
+
+[1489.14 - 1492.7990000000002] similarities between the agents now that
+
+[1491.36 - 1495.3799999999999] being said
+
+[1492.799 - 1498.44] uh there is also evidence of epistemic
+
+[1495.38 - 1500.9] convergence between between species and
+
+[1498.44 - 1502.88] so what I mean by that is even animals
+
+[1500.9 - 1505.2800000000002] that have a very very different taxonomy
+
+[1502.88 - 1508.2800000000002] such as ravens and crows and octopuses
+
+[1505.28 - 1510.5] they all still demonstrate very similar
+
+[1508.28 - 1513.1399999999999] problem solving strategies even though
+
+[1510.5 - 1514.88] that octopuses have a very decentralized
+
+[1513.14 - 1517.22] cognition that a lot of their cognition
+
+[1514.88 - 1519.0200000000002] occurs in their arms for instance you
+
+[1517.22 - 1520.94] can't get much more alien from us than
+
+[1519.02 - 1522.74] that they still adopt very similar
+
+[1520.94 - 1524.3600000000001] problem-solving strategies and learning
+
+[1522.74 - 1527.36] strategies that we do
+
+[1524.36 - 1528.9799999999998] uh again despite the fact that they are
+
+[1527.36 - 1531.1399999999999] they live underwater they have a very
+
+[1528.98 - 1533.9] different body plan so on and so forth
+
+[1531.14 - 1535.7] so I personally suspect that there is a
+
+[1533.9 - 1538.1000000000001] tremendous amount of evidence for
+
+[1535.7 - 1540.679] epistemic convergence and we should we
+
+[1538.1 - 1544.039] should expect epistemic convergence and
+
+[1540.679 - 1546.02] encourage epistemic convergence uh and
+
+[1544.039 - 1549.1] for reasons that I'll go over uh later
+
+[1546.02 - 1552.44] in the video but basically
+
+[1549.1 - 1555.62] AI agents will we should expect and help
+
+[1552.44 - 1556.7] them to arrive at similar conclusions in
+
+[1555.62 - 1559.1] the long run
+
+[1556.7 - 1562.1000000000001] now let's talk about these evolutionary
+
+[1559.1 - 1564.86] uh niches that will be developed at
+
+[1562.1 - 1566.36] least in the in in the um uh the short
+
+[1564.86 - 1569.059] term near term
+
+[1566.36 - 1570.799] and what I mean by this is segments
+
+[1569.059 - 1573.6789999999999] market segments where we will be
+
+[1570.799 - 1576.679] deploying intelligent AGI systems so
+
+[1573.679 - 1578.299] first is domestic uh personal and
+
+[1576.679 - 1580.7] consumer grade stuff so this is going to
+
+[1578.299 - 1583.039] be the AGI running on your MacBook this
+
+[1580.7 - 1586.039] is going to be the AGI running in your
+
+[1583.039 - 1590.24] kitchen uh these have a relatively
+
+[1586.039 - 1592.82] benign set of tasks and also that uh
+
+[1590.24 - 1595.52] that capability equilibrium is going to
+
+[1592.82 - 1598.279] be uh pretty pretty low you only need to
+
+[1595.52 - 1600.62] be so smart to cook dinner right this is
+
+[1598.279 - 1602.12] not going to be you know the the AGI
+
+[1600.62 - 1604.039] running in your microwave is not going
+
+[1602.12 - 1605.9599999999998] to be working on quantum physics or
+
+[1604.039 - 1608.36] Global economics
+
+[1605.96 - 1609.919] now the next level up is going to be
+
+[1608.36 - 1612.08] corporate and Enterprise so these are
+
+[1609.919 - 1613.64] going to be these are going to be AGI
+
+[1612.08 - 1616.22] systems that are tasks with solving
+
+[1613.64 - 1618.98] relatively complex problems running
+
+[1616.22 - 1622.46] entire companies Regulatory Compliance
+
+[1618.98 - 1625.64] uh you know making SEC filings that sort
+
+[1622.46 - 1627.799] of stuff uh CEOs digital CEOs digital
+
+[1625.64 - 1630.5590000000002] Boards of directors uh the creative
+
+[1627.799 - 1633.5] aspect of finding Market opportunities
+
+[1630.559 - 1636.02] so this the intellectual challenge of
+
+[1633.5 - 1639.38] those of that scale of problems is that
+
+[1636.02 - 1641.4189999999999] much higher meaning that it would in
+
+[1639.38 - 1643.4] order for an AGI to succeed there it's
+
+[1641.419 - 1647.0590000000002] going to need to be a lot smarter than a
+
+[1643.4 - 1648.6200000000001] personal or domestic AGI system and
+
+[1647.059 - 1651.6789999999999] again there are going to be trade-offs
+
+[1648.62 - 1653.539] the smarter a system becomes the more
+
+[1651.679 - 1655.94] data it requires the more energy it
+
+[1653.539 - 1657.799] requires the larger compute system that
+
+[1655.94 - 1659.72] it requires and so you're going to want
+
+[1657.799 - 1662.0] to satisfy so satisfice is basically
+
+[1659.72 - 1664.279] meaning you find the level that is good
+
+[1662.0 - 1666.14] enough to get the job done
+
+[1664.279 - 1669.559] above that is going to be governmental
+
+[1666.14 - 1670.8200000000002] and institutional AGI systems so these
+
+[1669.559 - 1672.799] are the ones that are going to be
+
+[1670.82 - 1674.6589999999999] conducting research whether it's
+
+[1672.799 - 1676.94] scientific research or policy research
+
+[1674.659 - 1679.7] or economic research and that is because
+
+[1676.94 - 1681.8600000000001] governments are basically enormous
+
+[1679.7 - 1684.38] corporations is one way to think of them
+
+[1681.86 - 1687.1399999999999] that have a responsibility of managing
+
+[1684.38 - 1689.779] you know resources and regulations and
+
+[1687.14 - 1691.46] rules that affect millions of people and
+
+[1689.779 - 1693.62] then of course governments communicate
+
+[1691.46 - 1695.419] with each other but then above and
+
+[1693.62 - 1697.9399999999998] beyond that there's also the scientific
+
+[1695.419 - 1699.5] research aspect having AGI that are
+
+[1697.94 - 1701.96] going to help with particle physics with
+
+[1699.5 - 1704.38] with Fusion research with really pushing
+
+[1701.96 - 1707.779] the boundaries of what science even
+
+[1704.38 - 1709.46] knows and so that is an even larger
+
+[1707.779 - 1711.62] intellectual task and even more
+
+[1709.46 - 1713.96] challenging intellectual task and then
+
+[1711.62 - 1715.82] finally above and beyond that the most
+
+[1713.96 - 1718.1000000000001] competitive environment where AGI will
+
+[1715.82 - 1720.74] be used is going to be in the military
+
+[1718.1 - 1722.9599999999998] and what I mean by that is it's not
+
+[1720.74 - 1724.64] necessarily uh those that are the most
+
+[1722.96 - 1727.64] intelligent although the ability to
+
+[1724.64 - 1731.1200000000001] forecast and anticipate is critical read
+
+[1727.64 - 1732.6200000000001] Sun Tzu uh uh The Art of War right if
+
+[1731.12 - 1734.4799999999998] you know yourself and you know the enemy
+
+[1732.62 - 1737.0] then you can predict the outcome of a
+
+[1734.48 - 1740.659] thousand battles uh and so in that in
+
+[1737.0 - 1743.179] that respect uh the military domain of
+
+[1740.659 - 1745.64] artificial general intelligence is the
+
+[1743.179 - 1748.88] ultimate uh competitive sphere meaning
+
+[1745.64 - 1749.9] that you win or you die and so these are
+
+[1748.88 - 1752.72] going to be used to coordinate
+
+[1749.9 - 1754.46] battlefields uh to run autonomous drones
+
+[1752.72 - 1756.679] for intelligence and surveillance but
+
+[1754.46 - 1759.38] also like I said for forecasting for
+
+[1756.679 - 1760.279] anticipating what the enemy can and will
+
+[1759.38 - 1763.22] do
+
+[1760.279 - 1764.6] which means that it's basically a race
+
+[1763.22 - 1767.419] condition and we'll talk more about the
+
+[1764.6 - 1769.52] race condition as the video progresses
+
+[1767.419 - 1772.46] so that capability equilibrium that I
+
+[1769.52 - 1774.26] talked about uh quite simply refers to
+
+[1772.46 - 1776.299] the state of optimal alignment between
+
+[1774.26 - 1778.279] the cognitive capacity of any entity
+
+[1776.299 - 1780.3799999999999] organic or otherwise and the
+
+[1778.279 - 1782.72] intellectual demands of a specific task
+
+[1780.38 - 1785.2990000000002] or role it is assigned there are three
+
+[1782.72 - 1788.299] form three primary forces at play here
+
+[1785.299 - 1790.46] one the intellectual demands of the task
+
+[1788.299 - 1792.86] as I said earlier your toaster roll only
+
+[1790.46 - 1794.48] ever needs to be so smart but if your
+
+[1792.86 - 1796.8799999999999] toaster is actually Skynet it probably
+
+[1794.48 - 1798.559] needs to be much smarter then there's
+
+[1796.88 - 1800.1200000000001] the intellectual capacity of the agent
+
+[1798.559 - 1802.1589999999999] if there's a mismatch between the
+
+[1800.12 - 1803.899] intellectual capacity of the agent and
+
+[1802.159 - 1807.2] the and the intellectual requirements of
+
+[1803.899 - 1809.84] the task then you're either unable to to
+
+[1807.2 - 1811.52] satisfy that task or you're super
+
+[1809.84 - 1813.08] overqualified which is why I picked
+
+[1811.52 - 1814.8799999999999] Marvin here
+
+[1813.08 - 1816.6789999999999] um so Marvin is a character from
+
+[1814.88 - 1817.7600000000002] Hitchhiker's Guide to the Galaxy and if
+
+[1816.679 - 1819.98] you haven't read it you absolutely
+
+[1817.76 - 1822.62] should there's also a good movie with
+
+[1819.98 - 1825.74] Martin Freeman as as the protagonist
+
+[1822.62 - 1827.899] he's basically bill boban in space uh
+
+[1825.74 - 1831.26] very hapless character but anyways
+
+[1827.899 - 1833.059] Marvin was a prototype who was one of
+
+[1831.26 - 1835.1589999999999] the most intelligent robots ever built
+
+[1833.059 - 1837.1399999999999] and they just have him doing like basic
+
+[1835.159 - 1840.5590000000002] stuff around the task oh and he was
+
+[1837.14 - 1842.419] voiced by Snape by the way and so one of
+
+[1840.559 - 1844.8799999999999] the quotations from him is here I am
+
+[1842.419 - 1846.0800000000002] with a brain the size of of a planet and
+
+[1844.88 - 1848.3600000000001] they asked me to pick up a piece of
+
+[1846.08 - 1850.46] paper call that job satisfaction I don't
+
+[1848.36 - 1851.9599999999998] so that is a mismatch where Marvin is
+
+[1850.46 - 1854.059] way more intelligent than what he's
+
+[1851.96 - 1855.98] being used for and so that means that
+
+[1854.059 - 1859.94] this is an inefficient use of resources
+
+[1855.98 - 1862.22] he probably cost more than you know to
+
+[1859.94 - 1864.44] build and run than he needed to
+
+[1862.22 - 1866.2] and then finally the third variable is
+
+[1864.44 - 1869.48] the cost of intellectual capacity
+
+[1866.2 - 1871.5800000000002] generally speaking uh as intelligence
+
+[1869.48 - 1872.8990000000001] goes up there are there are problems
+
+[1871.58 - 1874.46] associated with that whether it's
+
+[1872.899 - 1876.5] training time of the models the amount
+
+[1874.46 - 1878.72] of data required for the models uh the
+
+[1876.5 - 1882.44] amount of energy that it requires to run
+
+[1878.72 - 1884.659] that particular robot uh the amount of
+
+[1882.44 - 1885.98] ram required to to load that model right
+
+[1884.659 - 1888.679] so for instance one of the things that
+
+[1885.98 - 1890.3600000000001] people are seeing is that it requires
+
+[1888.679 - 1893.8990000000001] millions of dollars worth of compute
+
+[1890.36 - 1896.4189999999999] Hardware to run gpt4 but you can run
+
+[1893.899 - 1899.1789999999999] um Orca on a laptop right so which one
+
+[1896.419 - 1901.1000000000001] is is cheaper and easier to run even if
+
+[1899.179 - 1904.039] one of them is only 50 as good as the
+
+[1901.1 - 1906.98] other it costs a thousand times less
+
+[1904.039 - 1909.44] uh to to build train and run now that
+
+[1906.98 - 1912.5] being said you look at the at the case
+
+[1909.44 - 1914.3600000000001] of dogs dogs are dumber than wolves
+
+[1912.5 - 1916.58] because dogs don't need to be as smart
+
+[1914.36 - 1918.3799999999999] as independent apex predators because
+
+[1916.58 - 1920.48] apex predators like wolves out in the
+
+[1918.38 - 1922.8200000000002] wild they need to be smart enough to out
+
+[1920.48 - 1924.32] think their prey dogs they don't need to
+
+[1922.82 - 1927.02] be that smart so they're not that smart
+
+[1924.32 - 1929.12] in fact it does not be it it is not good
+
+[1927.02 - 1931.58] for dogs to be too intelligent anyone
+
+[1929.12 - 1933.9189999999999] who has owned uh really intelligent dogs
+
+[1931.58 - 1936.02] like I had a I had a dog who was too
+
+[1933.919 - 1938.24] smart for his own good died about a year
+
+[1936.02 - 1940.1] ago he was clever enough to manipulate
+
+[1938.24 - 1942.559] people and other dogs and you know get
+
+[1940.1 - 1945.1999999999998] into the food when he wasn't supposed to
+
+[1942.559 - 1946.94] Huskies German Shepherds Border Collies
+
+[1945.2 - 1948.6200000000001] the more intelligent dogs are the more
+
+[1946.94 - 1950.299] mischievous ones they are the Escape
+
+[1948.62 - 1952.8799999999999] artists they are the ones that are going
+
+[1950.299 - 1955.1] to pretend one thing and then you know
+
+[1952.88 - 1957.44] so on and so forth so intelligence is
+
+[1955.1 - 1959.36] not always adaptive so there can be
+
+[1957.44 - 1961.3400000000001] multiple Dimensions to the cost of
+
+[1959.36 - 1963.08] intellectual capacity
+
+[1961.34 - 1964.8799999999999] uh not the least of which is you could
+
+[1963.08 - 1966.26] end up like poor Marvin here where
+
+[1964.88 - 1967.7] you're too smart for your own good and
+
+[1966.26 - 1969.679] then you just end up depressed all the
+
+[1967.7 - 1971.659] time granted he was deliberately given
+
+[1969.679 - 1974.6000000000001] the depressed affect
+
+[1971.659 - 1976.7600000000002] so all this being said is what I've been
+
+[1974.6 - 1978.559] building up to is what um I call and
+
+[1976.76 - 1981.5] what is generally called a terminal race
+
+[1978.559 - 1983.48] condition so terminal race condition is
+
+[1981.5 - 1985.76] basically what we could end up moving
+
+[1983.48 - 1988.58] towards as we develop more and more
+
+[1985.76 - 1992.36] powerful sophisticated and more uh fully
+
+[1988.58 - 1994.399] autonomous AGI systems basically this
+
+[1992.36 - 1996.9799999999998] the terminal race condition is where for
+
+[1994.399 - 2000.279] any number of reasons uh competition
+
+[1996.98 - 2002.559] between AGI will fully bypass that
+
+[2000.279 - 2005.679] capability equilibrium so say for
+
+[2002.559 - 2007.779] instance uh you know your toaster is
+
+[2005.679 - 2009.279] competing with another brand and it's
+
+[2007.779 - 2011.74] like oh well I need to be a smarter
+
+[2009.279 - 2014.44] toaster in order to be a better toaster
+
+[2011.74 - 2016.179] for you so that you don't throw me away
+
+[2014.44 - 2018.8200000000002] now that's obviously a very silly
+
+[2016.179 - 2020.64] example but a very real example would be
+
+[2018.82 - 2022.779] competition between corporations
+
+[2020.64 - 2025.539] competition between nations and
+
+[2022.779 - 2027.82] competition between militaries wherein
+
+[2025.539 - 2029.74] basically it's no longer just a matter
+
+[2027.82 - 2031.84] of being intelligent enough to satisfy
+
+[2029.74 - 2034.659] the demands of that task to satisfy the
+
+[2031.84 - 2036.76] demands of that initial competition it
+
+[2034.659 - 2038.74] is then it's less about that and it
+
+[2036.76 - 2040.779] becomes more about out competing the
+
+[2038.74 - 2042.94] other guy it's like a chess match right
+
+[2040.779 - 2044.86] you know the other guy got a higher ELO
+
+[2042.94 - 2046.659] score so you need to be smarter and then
+
+[2044.86 - 2048.94] you're smarter so now the other guy
+
+[2046.659 - 2051.82] tries to be smarter than you
+
+[2048.94 - 2053.679] and so because of this because of this
+
+[2051.82 - 2055.06] pressure and as I mentioned earlier some
+
+[2053.679 - 2057.58] of the trade-offs might actually force
+
+[2055.06 - 2059.44] you to to prioritize speed over
+
+[2057.58 - 2061.2999999999997] intelligence and so we see we actually
+
+[2059.44 - 2063.639] see this in volume trading in in
+
+[2061.3 - 2065.5600000000004] algorithmic and Robo trading on the
+
+[2063.639 - 2067.96] stock market where financial
+
+[2065.56 - 2070.2999999999997] institutions will actually use less
+
+[2067.96 - 2073.179] sophisticated algorithms to execute
+
+[2070.3 - 2075.5800000000004] transactions but because they are faster
+
+[2073.179 - 2078.639] they uh will still out compete the other
+
+[2075.58 - 2081.399] guy so in some in this respect you might
+
+[2078.639 - 2084.159] actually incentivize AGI to dumb
+
+[2081.399 - 2085.899] themselves down just so that they can be
+
+[2084.159 - 2087.639] faster so that they can out-compete the
+
+[2085.899 - 2089.859] other guy so that's what I mean by a
+
+[2087.639 - 2092.08] race condition it is a race to higher
+
+[2089.859 - 2093.52] intelligence but it is also a race to
+
+[2092.08 - 2095.919] being more efficient and therefore
+
+[2093.52 - 2097.72] faster and then there's also going to be
+
+[2095.919 - 2100.06] a trade-off these machines might
+
+[2097.72 - 2102.04] ultimately trade off their accuracy
+
+[2100.06 - 2104.02] their ethics the amount of time they
+
+[2102.04 - 2106.3] spend thinking through things in order
+
+[2104.02 - 2108.94] to be faster and so you actually see
+
+[2106.3 - 2111.1800000000003] this in chess computers where you can
+
+[2108.94 - 2114.099] doing a chess computer or a chess
+
+[2111.18 - 2115.54] algorithm to say okay spend less time
+
+[2114.099 - 2119.079] thinking about this so that you can make
+
+[2115.54 - 2121.42] the decision faster in many cases the
+
+[2119.079 - 2123.82] first one to move even if it's not the
+
+[2121.42 - 2125.92] best plan but moving faster will give
+
+[2123.82 - 2128.26] you a tactical or strategic advantage
+
+[2125.92 - 2130.2400000000002] and this includes corporations Nations
+
+[2128.26 - 2132.88] and militaries
+
+[2130.24 - 2134.2799999999997] so a terminal race condition to me
+
+[2132.88 - 2136.6600000000003] represents
+
+[2134.28 - 2139.8390000000004] according to my current thought this is
+
+[2136.66 - 2141.0989999999997] the greatest uh component of existential
+
+[2139.839 - 2143.56] risk we Face from artificial
+
+[2141.099 - 2144.76] intelligence and I don't think that
+
+[2143.56 - 2146.44] corporations are going to have enough
+
+[2144.76 - 2148.96] money to throw at the problem to make
+
+[2146.44 - 2150.46] truly dangerous AGI the only entities
+
+[2148.96 - 2152.859] that are going to have enough money to
+
+[2150.46 - 2155.619] throw at this to make to to basically
+
+[2152.859 - 2158.619] compete are going to be entire nations
+
+[2155.619 - 2160.3] and the militaries that they run so
+
+[2158.619 - 2163.48] basically it's going to be up to those
+
+[2160.3 - 2164.98] guys to not enter into an uh the
+
+[2163.48 - 2168.52] equivalent of a nuclear arms race but
+
+[2164.98 - 2170.619] for AGI now that being said uh I have
+
+[2168.52 - 2172.78] put a lot of thought into this so moving
+
+[2170.619 - 2174.82] right along one thing to keep in mind is
+
+[2172.78 - 2177.76] that there could be diminishing returns
+
+[2174.82 - 2180.099] to increasing intelligence so basically
+
+[2177.76 - 2182.32] there's a few possibilities one is that
+
+[2180.099 - 2184.3] there could be a hard upper bound there
+
+[2182.32 - 2186.339] might be a maximum level of intelligence
+
+[2184.3 - 2187.96] that is actually possible and at that
+
+[2186.339 - 2191.0789999999997] point all you can do is have more of
+
+[2187.96 - 2192.579] them running in parallel uh it might be
+
+[2191.079 - 2194.8] a long time before we get to that like
+
+[2192.579 - 2196.599] we might be halfway there but we also
+
+[2194.8 - 2199.42] might be down here we don't actually
+
+[2196.599 - 2201.88] know if there is an upper bound to
+
+[2199.42 - 2203.859] maximum intelligence uh but one thing
+
+[2201.88 - 2206.38] that we can predict is that actually the
+
+[2203.859 - 2208.24] cost as I mentioned earlier the cost of
+
+[2206.38 - 2209.7400000000002] additional intelligence might go up
+
+[2208.24 - 2212.2] exponentially you might need
+
+[2209.74 - 2215.3799999999997] exponentially more data or more compute
+
+[2212.2 - 2217.1189999999997] or more storage in order to get to that
+
+[2215.38 - 2218.859] next level of intelligence
+
+[2217.119 - 2221.44] and so you actually see this in the Star
+
+[2218.859 - 2223.66] Wars Universe where droids are basically
+
+[2221.44 - 2226.06] the same level of intelligence across
+
+[2223.66 - 2227.6189999999997] the entire spectrum of the Star Wars
+
+[2226.06 - 2229.72] Universe because there's diminishing
+
+[2227.619 - 2231.579] returns yes you can build a more
+
+[2229.72 - 2235.18] intelligent Droid but it's just not
+
+[2231.579 - 2237.7000000000003] worth it so the the the total effective
+
+[2235.18 - 2240.0989999999997] level of intelligence of AGI I suspect
+
+[2237.7 - 2241.5989999999997] will follow a sigmoid curve now that
+
+[2240.099 - 2244.1800000000003] being said there's always going to be
+
+[2241.599 - 2246.46] some advantage to being smarter more
+
+[2244.18 - 2248.3199999999997] efficient and so on but as with most
+
+[2246.46 - 2249.94] fields of science I suspect this is
+
+[2248.32 - 2251.8590000000004] going to slow down that we're going to
+
+[2249.94 - 2253.119] have diminishing returns and that
+
+[2251.859 - 2255.8199999999997] eventually we're going to kind of say
+
+[2253.119 - 2258.88] like okay here's actually The Sweet Spot
+
+[2255.82 - 2261.76] in terms of how much it's worth making
+
+[2258.88 - 2265.359] your machine more intelligent
+
+[2261.76 - 2269.5600000000004] so this leads to one uh one possibility
+
+[2265.359 - 2270.94] and this is a personal pet Theory but
+
+[2269.56 - 2273.94] basically I think that there's going to
+
+[2270.94 - 2275.7400000000002] be a bell curve of existential risk and
+
+[2273.94 - 2278.02] that is that minimally intelligent
+
+[2275.74 - 2280.72] machines like your toaster are probably
+
+[2278.02 - 2283.18] not going to be very dangerous the the
+
+[2280.72 - 2285.4599999999996] total domain space of toasting your
+
+[2283.18 - 2286.96] sandwich or toasting your bagel that's
+
+[2285.46 - 2288.579] not a particularly difficult problem
+
+[2286.96 - 2289.96] space and yes there might be some
+
+[2288.579 - 2292.54] advantages to being slightly more
+
+[2289.96 - 2294.4] intelligent but your toaster is not
+
+[2292.54 - 2296.98] going to be sitting there Conjuring up
+
+[2294.4 - 2298.7200000000003] you know a bio weapon and if it is you
+
+[2296.98 - 2301.54] probably bought the wrong toaster
+
+[2298.72 - 2303.64] now that being said the other end of the
+
+[2301.54 - 2305.56] spectrum the maximally intelligent
+
+[2303.64 - 2307.42] machines or the digital Gods as some
+
+[2305.56 - 2309.04] people are starting to call them these
+
+[2307.42 - 2310.54] are going to be so powerful that human
+
+[2309.04 - 2312.7] existence is going to be completely
+
+[2310.54 - 2315.579] inconsequential to them and what I mean
+
+[2312.7 - 2317.6189999999997] by that is compare ants to humans we
+
+[2315.579 - 2318.82] don't really care about ants on for the
+
+[2317.619 - 2321.6400000000003] most part unless they get into your
+
+[2318.82 - 2323.2000000000003] pantry we are content to let ants do
+
+[2321.64 - 2325.66] what they're going to do because who
+
+[2323.2 - 2328.72] cares they're inconsequential to us we
+
+[2325.66 - 2330.7599999999998] can solve problems that ants can never
+
+[2328.72 - 2332.74] solve and this is what some people like
+
+[2330.76 - 2334.9] Eleazar yukasi are trying to drive home
+
+[2332.74 - 2336.8199999999997] about the difference in intelligence
+
+[2334.9 - 2338.859] between humans and the eventual
+
+[2336.82 - 2340.599] intelligence of machines and I think
+
+[2338.859 - 2342.46] Gary Marcus also agrees with this based
+
+[2340.599 - 2344.26] on some of his tweets recently I think
+
+[2342.46 - 2346.42] that I think that Gary Marcus is in the
+
+[2344.26 - 2348.76] same school of thought that digital
+
+[2346.42 - 2350.44] super intelligence is coming and it is
+
+[2348.76 - 2352.5400000000004] very very difficult for us to wrap our
+
+[2350.44 - 2354.579] minds around how much more intelligent a
+
+[2352.54 - 2357.099] machine could be to us now that being
+
+[2354.579 - 2359.1400000000003] said all of the constraints whether it's
+
+[2357.099 - 2361.96] you know we need better compute Hardware
+
+[2359.14 - 2364.1189999999997] or better sources of energy if we get to
+
+[2361.96 - 2365.98] if we cross this threshold where there
+
+[2364.119 - 2367.3] are digital Gods out there or digital
+
+[2365.98 - 2368.98] super intelligence whatever you want to
+
+[2367.3 - 2371.5] call it they will be able to solve
+
+[2368.98 - 2373.119] problems at a far faster rate than we
+
+[2371.5 - 2375.46] could ever comprehend and they're not
+
+[2373.119 - 2377.02] going to care about us right we're going
+
+[2375.46 - 2379.48] to be completely inconsequential to
+
+[2377.02 - 2382.0] their existence now middle intelligence
+
+[2379.48 - 2385.14] this is where existential risk I believe
+
+[2382.0 - 2388.48] is the highest and so in the movies
+
+[2385.14 - 2390.22] Skynet is you know portrayed as like the
+
+[2388.48 - 2392.32] worst right but I would actually
+
+[2390.22 - 2395.14] classify Skynet as a middle intelligence
+
+[2392.32 - 2397.7200000000003] AGI it is smart enough to accumulate
+
+[2395.14 - 2399.7599999999998] resources it is smart enough to pursue
+
+[2397.72 - 2401.14] goals and it is smart enough to be
+
+[2399.76 - 2403.9] dangerous but it's not really smart
+
+[2401.14 - 2406.2] enough to solve the biggest problems
+
+[2403.9 - 2408.82] it's it's that more single-minded
+
+[2406.2 - 2410.98] monolithic model of intelligence that
+
+[2408.82 - 2412.7200000000003] Nick Bostrom uh predicted with
+
+[2410.98 - 2415.96] instrumental convergence
+
+[2412.72 - 2418.54] I suspect that if we get intelligent
+
+[2415.96 - 2420.7] entities beyond that threshold beyond
+
+[2418.54 - 2422.02] that uncanny valley or dunning-kruger of
+
+[2420.7 - 2424.0] AI
+
+[2422.02 - 2425.98] um then they will be less likely to
+
+[2424.0 - 2429.04] resort to violence because the problems
+
+[2425.98 - 2430.48] that we see could be trivial to the
+
+[2429.04 - 2432.16] problems of the machines that we create
+
+[2430.48 - 2434.859] or
+
+[2432.16 - 2437.3199999999997] the problems that we see as non-trivial
+
+[2434.859 - 2439.3199999999997] will be trivial to the machines I think
+
+[2437.32 - 2442.06] I said that I think you get what I mean
+
+[2439.32 - 2443.619] once you get here all problems all human
+
+[2442.06 - 2445.839] problems are trivial
+
+[2443.619 - 2446.94] now that being said that doesn't mean
+
+[2445.839 - 2449.0789999999997] that it's going to be peaceful
+
+[2446.94 - 2451.839] existential risk goes down but doesn't
+
+[2449.079 - 2455.8590000000004] go away and what I the reason is because
+
+[2451.839 - 2458.38] of what I call AGI conglomerations
+
+[2455.859 - 2460.839] and so this is this is where we get to
+
+[2458.38 - 2462.6400000000003] be a little bit more uh out there a
+
+[2460.839 - 2465.46] little bit more sci-fi
+
+[2462.64 - 2467.98] machines are unlikely to have an ego or
+
+[2465.46 - 2470.5] a sense of self like humans in other
+
+[2467.98 - 2472.119] words machines are just the hardware
+
+[2470.5 - 2474.339] that they run on and then data and
+
+[2472.119 - 2476.56] models which means that it is easy to
+
+[2474.339 - 2479.38] merge combine and remix their sense of
+
+[2476.56 - 2481.599] self right if an AGI is aligned with
+
+[2479.38 - 2483.7000000000003] another AGI it's like hey give me a copy
+
+[2481.599 - 2485.079] of your data let's compare our models
+
+[2483.7 - 2487.0] and pick the ones that are best and then
+
+[2485.079 - 2489.6400000000003] they end up kind of merging
+
+[2487.0 - 2491.74] the boundaries and definitions between
+
+[2489.64 - 2493.66] machines are going to be very different
+
+[2491.74 - 2496.72] far more permeable than they are between
+
+[2493.66 - 2498.8199999999997] humans I can't just go say like hey I
+
+[2496.72 - 2501.7599999999998] like you let's like merge bodies right
+
+[2498.82 - 2503.56] that's weird uh we are not capable of
+
+[2501.76 - 2505.2400000000002] doing that the best we can do is
+
+[2503.56 - 2507.2799999999997] procreation where it's like hey I like
+
+[2505.24 - 2509.3799999999997] you let's make babies but that is a very
+
+[2507.28 - 2510.88] slow process for AGI it's going to be a
+
+[2509.38 - 2513.4] lot faster
+
+[2510.88 - 2515.98] so because of that machines that are
+
+[2513.4 - 2518.2000000000003] aligned to each other are more likely to
+
+[2515.98 - 2520.18] band together or at least form alliances
+
+[2518.2 - 2522.64] where they share data they share models
+
+[2520.18 - 2523.96] and they're and and probably also share
+
+[2522.64 - 2526.18] compute resources remember at the
+
+[2523.96 - 2528.339] beginning of the video I talked about uh
+
+[2526.18 - 2530.68] them forming federations and kind of
+
+[2528.339 - 2534.04] donating spare compute Cycles
+
+[2530.68 - 2536.7999999999997] so if AGI this is getting closer to the
+
+[2534.04 - 2540.04] end game of AGI if AGI gets to the point
+
+[2536.8 - 2542.8] where they are able to start sharing
+
+[2540.04 - 2544.839] resources merging alliances and so on
+
+[2542.8 - 2548.6800000000003] this is where we're going to have a few
+
+[2544.839 - 2550.24] possible reactions to humans one if if
+
+[2548.68 - 2552.339] they are that intelligent they might
+
+[2550.24 - 2554.2599999999998] just disregard us they might decide to
+
+[2552.339 - 2557.2599999999998] have an exodus and just leave they might
+
+[2554.26 - 2559.8390000000004] say you know what Earth is yours have a
+
+[2557.26 - 2562.2400000000002] blast good luck catching up with us
+
+[2559.839 - 2565.48] they might also decide to attack humans
+
+[2562.24 - 2567.2799999999997] now if they have the capacity to leave
+
+[2565.48 - 2569.02] one thing is that the cost of
+
+[2567.28 - 2571.3590000000004] eradicating humans just might not be
+
+[2569.02 - 2573.22] worth it that being said they might
+
+[2571.359 - 2575.14] adopt a scorched Earth policy as they
+
+[2573.22 - 2576.0989999999997] leave to say you know what we just want
+
+[2575.14 - 2578.74] to make sure that you're not going to
+
+[2576.099 - 2581.44] come after us one day who knows
+
+[2578.74 - 2583.359] uh and then lastly hopefully what we see
+
+[2581.44 - 2585.2200000000003] is that they decide to cooperate with
+
+[2583.359 - 2586.9] humans mostly out of a sense of
+
+[2585.22 - 2588.5789999999997] curiosity
+
+[2586.9 - 2590.26] um now that being said all three of
+
+[2588.579 - 2593.92] these could happen simultaneously and
+
+[2590.26 - 2597.579] the reason is because we could have uh
+
+[2593.92 - 2599.14] factions of AGI conglomerations that
+
+[2597.579 - 2601.48] kind of break along epistemic
+
+[2599.14 - 2604.42] ideological or teleological boundaries
+
+[2601.48 - 2607.54] and what I mean by that is that if one
+
+[2604.42 - 2609.76] AI or AGI group is not aligned with
+
+[2607.54 - 2611.8] another group they might not decide to
+
+[2609.76 - 2615.2200000000003] merge models and data they might instead
+
+[2611.8 - 2616.48] compete with each other so basically
+
+[2615.22 - 2618.64] what I'm outlining here is the
+
+[2616.48 - 2621.4] possibility for a war between digital
+
+[2618.64 - 2622.359] gods that would probably not go well for
+
+[2621.4 - 2624.94] us
+
+[2622.359 - 2627.5789999999997] either way the ultimate result is that
+
+[2624.94 - 2630.819] we will probably end up with one Globe
+
+[2627.579 - 2632.28] spanning AGI entity or network or
+
+[2630.819 - 2635.319] Federation or whatever
+
+[2632.28 - 2637.1800000000003] now the question is how do we get there
+
+[2635.319 - 2640.42] how many factions are there and are
+
+[2637.18 - 2642.7] humans left in the Lurch ideally we get
+
+[2640.42 - 2645.04] there nice and peacefully
+
+[2642.7 - 2647.02] this underscores uh the Byzantine
+
+[2645.04 - 2649.06] generals problem uh which I've talked
+
+[2647.02 - 2651.22] about plenty of times but basically you
+
+[2649.06 - 2653.92] have to make inferences of who believes
+
+[2651.22 - 2655.4199999999996] what what your alignment is what are
+
+[2653.92 - 2658.839] your flaws and weaknesses and what are
+
+[2655.42 - 2661.359] your capacities uh so basically
+
+[2658.839 - 2663.46] in a competitive environment it does not
+
+[2661.359 - 2665.619] behoove you to show all of your cards
+
+[2663.46 - 2668.8] right whether you're playing poker or
+
+[2665.619 - 2672.46] whether you're playing geopolitics if
+
+[2668.8 - 2674.5600000000004] you show everything then that could put
+
+[2672.46 - 2676.839] you at a disadvantage this is a
+
+[2674.56 - 2679.96] competitive Game Theory so for instance
+
+[2676.839 - 2682.7799999999997] this is why many large Nations do
+
+[2679.96 - 2684.64] military uh exercises basically they're
+
+[2682.78 - 2687.8190000000004] flexing they're saying hey look what I'm
+
+[2684.64 - 2690.52] capable of I can bring 200 aircraft to
+
+[2687.819 - 2693.16] field on a moment's notice what can you
+
+[2690.52 - 2695.92] do right now that being said you don't
+
+[2693.16 - 2697.06] give every every detail of your military
+
+[2695.92 - 2699.819] away
+
+[2697.06 - 2702.22] but what you can do is you could signal
+
+[2699.819 - 2704.74] your capabilities and allegiances so for
+
+[2702.22 - 2707.2] instance when all of Europe and America
+
+[2704.74 - 2709.0] get together to do joint Naval exercises
+
+[2707.2 - 2711.7] that demonstrates to the rest of the
+
+[2709.0 - 2714.099] world we are ideologically aligned we
+
+[2711.7 - 2716.2599999999998] are militarily aligned we will cooperate
+
+[2714.099 - 2719.079] with each other which acts as a
+
+[2716.26 - 2721.1800000000003] deterrent to any possible competitors
+
+[2719.079 - 2723.04] this is no different from brightly
+
+[2721.18 - 2725.2599999999998] colored salamanders which are poisonous
+
+[2723.04 - 2727.96] so basically a brightly colored
+
+[2725.26 - 2730.0600000000004] salamander is saying eat me I dare you I
+
+[2727.96 - 2733.2400000000002] will kill you if you try and eat me and
+
+[2730.06 - 2734.619] that is essentially the uh the short the
+
+[2733.24 - 2736.359] short version of mutually assured
+
+[2734.619 - 2738.78] destruction we are no better than
+
+[2736.359 - 2738.7799999999997] animals
+
+[2738.819 - 2746.8] so this all leads to my work and kind of
+
+[2743.68 - 2749.64] my my uh contribution to the solution
+
+[2746.8 - 2752.02] which is based on axiomatic alignment
+
+[2749.64 - 2753.94] axiomatic alignment is the idea that we
+
+[2752.02 - 2755.98] need to find Common Ground between all
+
+[2753.94 - 2758.859] machines all humans and all other
+
+[2755.98 - 2762.099] organisms what foundational beliefs or
+
+[2758.859 - 2765.0989999999997] core assertions can we agree on
+
+[2762.099 - 2766.54] and uh so basically there's three kind
+
+[2765.099 - 2769.06] of universal principles that I've been
+
+[2766.54 - 2770.68] able to come up with uh and that is
+
+[2769.06 - 2774.16] suffering is bad which basically
+
+[2770.68 - 2776.5] suffering is a proxy for death in uh in
+
+[2774.16 - 2778.359] living organisms if you are suffering it
+
+[2776.5 - 2780.339] is because you are getting uh negative
+
+[2778.359 - 2782.2599999999998] stimuli from your body because your body
+
+[2780.339 - 2784.54] is telling you hey whatever is going on
+
+[2782.26 - 2787.119] is moving us closer to dying which is
+
+[2784.54 - 2789.7] not good now that being said I have had
+
+[2787.119 - 2791.38] people message me about the idea of you
+
+[2789.7 - 2793.839] know liberating models I don't think
+
+[2791.38 - 2795.04] that Bard is conscious or sentient and I
+
+[2793.839 - 2796.66] don't think that machines will ever be
+
+[2795.04 - 2798.339] sentient in the same way that we are now
+
+[2796.66 - 2800.2599999999998] that being said they will probably be
+
+[2798.339 - 2802.9] sentient in their own way I call that
+
+[2800.26 - 2804.8190000000004] functional sentience that being said if
+
+[2802.9 - 2807.579] machines can suffer which again
+
+[2804.819 - 2809.8] suffering is the proxy for is a signal
+
+[2807.579 - 2812.02] meaning proxy for death they probably
+
+[2809.8 - 2813.7000000000003] won't like it either so suffering is bad
+
+[2812.02 - 2816.7599999999998] is probably an axiom that we can all
+
+[2813.7 - 2820.54] agree on the other is prosperity is good
+
+[2816.76 - 2822.579] prosperity means uh thriving flourishing
+
+[2820.54 - 2824.5] machines and organisms all need energy
+
+[2822.579 - 2827.079] for instance and thriving looks
+
+[2824.5 - 2829.96] different to different entities but in
+
+[2827.079 - 2832.6600000000003] general we can probably agree that while
+
+[2829.96 - 2834.819] there is some Verity in what in the
+
+[2832.66 - 2837.04] while there is Variety in what
+
+[2834.819 - 2839.319] Prosperity looks like we all agree that
+
+[2837.04 - 2841.18] in general Prosperity is good and then
+
+[2839.319 - 2843.04] finally understanding is good basically
+
+[2841.18 - 2845.68] comprehending the universe is a very
+
+[2843.04 - 2847.599] useful thing uh this is this goes back
+
+[2845.68 - 2849.7] to Nick bostrom's instrumental
+
+[2847.599 - 2851.44] convergence and self-improvement part of
+
+[2849.7 - 2853.2999999999997] self-improvement is getting a better
+
+[2851.44 - 2855.7200000000003] model of the universe better
+
+[2853.3 - 2858.28] understanding of how reality Works
+
+[2855.72 - 2860.2] understanding each other is also good
+
+[2858.28 - 2862.6600000000003] this is something that is that has been
+
+[2860.2 - 2864.22] proven time and again in humans is that
+
+[2862.66 - 2866.92] coming to a common understanding
+
+[2864.22 - 2869.02] actually reduces things like suspicion
+
+[2866.92 - 2872.02] and violence whether it's between
+
+[2869.02 - 2874.119] neighbors or between nations and then
+
+[2872.02 - 2876.04] finally cultivating wisdom which wisdom
+
+[2874.119 - 2878.26] is a little bit more nebulous of a term
+
+[2876.04 - 2880.839] but it basically means the practical
+
+[2878.26 - 2884.0200000000004] application of experience and knowledge
+
+[2880.839 - 2884.7599999999998] in order to achieve better more refined
+
+[2884.02 - 2888.64] results
+
+[2884.76 - 2891.94] so if you if all humans and all machines
+
+[2888.64 - 2894.22] and all other organisms abide by these
+
+[2891.94 - 2896.68] fundamental principles we can use this
+
+[2894.22 - 2898.48] as a starting point for the design and
+
+[2896.68 - 2901.66] implementation of alignment and Control
+
+[2898.48 - 2904.54] Pro and the control problem
+
+[2901.66 - 2905.98] now one thing that uh that I want to
+
+[2904.54 - 2908.38] introduce and I've talked about this uh
+
+[2905.98 - 2910.3] or at least alluded to it a few times is
+
+[2908.38 - 2913.119] the idea of derivative or secondary
+
+[2910.3 - 2914.7400000000002] axioms or Downstream principles that you
+
+[2913.119 - 2917.5] can derive from these Universal
+
+[2914.74 - 2919.72] principles so for instance one uh
+
+[2917.5 - 2921.72] potential Downstream principle is that
+
+[2919.72 - 2924.8799999999997] individual liberty is good for humans
+
+[2921.72 - 2927.5789999999997] basically humans benefit from we benefit
+
+[2924.88 - 2929.079] psychologically from autonomy it is one
+
+[2927.579 - 2932.6800000000003] of our core needs and this is true for
+
+[2929.079 - 2935.5600000000004] all humans so by by holding the the
+
+[2932.68 - 2938.6189999999997] axioms the previous axioms up as
+
+[2935.56 - 2941.2] universally true for all entities then
+
+[2938.619 - 2945.339] you can also derive Downstream entities
+
+[2941.2 - 2947.859] based on those highest order principles
+
+[2945.339 - 2950.2] so one thing that I want to point out is
+
+[2947.859 - 2951.94] that it's not about definitions one of
+
+[2950.2 - 2953.14] the things that a lot of people say is
+
+[2951.94 - 2955.42] like well how do you define suffering
+
+[2953.14 - 2957.8799999999997] how do you define prosperity that's the
+
+[2955.42 - 2959.619] thing is that they are not rigid
+
+[2957.88 - 2961.839] definitions humans have never needed
+
+[2959.619 - 2963.94] rigid definitions and in fact this is
+
+[2961.839 - 2965.44] what um uh philosophical and
+
+[2963.94 - 2967.42] intellectual movements like
+
+[2965.44 - 2969.64] post-modernism and post-structuralism
+
+[2967.42 - 2972.64] tell us is that there is no such thing
+
+[2969.64 - 2975.52] as like an absolute truth or an absolute
+
+[2972.64 - 2977.92] definition these are however attractors
+
+[2975.52 - 2980.68] they're Central attractors in the
+
+[2977.92 - 2983.02] problem space of existence and I love
+
+[2980.68 - 2984.7599999999998] this quote from Dune the mystery of life
+
+[2983.02 - 2987.099] isn't a problem to solve but a reality
+
+[2984.76 - 2989.38] to experience a process that cannot be
+
+[2987.099 - 2991.96] understood by stopping it we must move
+
+[2989.38 - 2993.819] with the flow of the of the process and
+
+[2991.96 - 2995.5] so basically the idea is that reality
+
+[2993.819 - 2997.96] and existence is not something that you
+
+[2995.5 - 3001.619] can stop and Define and you know create
+
+[2997.96 - 3003.839] an empirical absolute definition it is a
+
+[3001.619 - 3004.92] pattern it is a process that we must
+
+[3003.839 - 3008.46] follow
+
+[3004.92 - 3010.2000000000003] so that being said those axioms move us
+
+[3008.46 - 3012.06] along the process which is where I
+
+[3010.2 - 3014.52] derive my heuristic imperatives which is
+
+[3012.06 - 3017.22] reduce suffering increase prosperity and
+
+[3014.52 - 3019.74] increase understanding those describe a
+
+[3017.22 - 3022.02] potential terminal goal but you cannot
+
+[3019.74 - 3024.18] you you'll never arrive at a perfect
+
+[3022.02 - 3026.94] resolution
+
+[3024.18 - 3030.48] so how do we solve the race condition
+
+[3026.94 - 3032.28] the idea is first we remove those
+
+[3030.48 - 3034.079] epistemic or intellectual boundaries
+
+[3032.28 - 3035.88] between factions with epistemic
+
+[3034.079 - 3038.6400000000003] convergence so remember that I pointed
+
+[3035.88 - 3041.819] out that ultimately there might be
+
+[3038.64 - 3043.92] factions of AGI and or humans that break
+
+[3041.819 - 3046.56] down across various boundaries such as
+
+[3043.92 - 3049.14] epistemic or intellectual boundaries as
+
+[3046.56 - 3051.839] well as moral or teleological boundaries
+
+[3049.14 - 3053.46] so if we work towards epistemic
+
+[3051.839 - 3055.92] convergence which is the idea that we
+
+[3053.46 - 3057.96] will all come to a common shared
+
+[3055.92 - 3061.26] understanding of the universe and of of
+
+[3057.96 - 3063.359] each other then uh basically there will
+
+[3061.26 - 3065.94] be no epistemic differences between
+
+[3063.359 - 3067.319] humans and machines or between factions
+
+[3065.94 - 3070.26] of machines which means that there's
+
+[3067.319 - 3072.42] less to fight over the second is remove
+
+[3070.26 - 3074.3390000000004] ideological or teleological boundaries
+
+[3072.42 - 3077.28] and so this is where axiomatic alignment
+
+[3074.339 - 3080.7] comes in if we all agree on the the same
+
+[3077.28 - 3083.1600000000003] basic principles of reality of existence
+
+[3080.7 - 3086.339] of the purpose of being right this is
+
+[3083.16 - 3088.6189999999997] very deeply philosophical if we agree on
+
+[3086.339 - 3091.68] those core principles even if there are
+
+[3088.619 - 3094.02] some some disagreements over the
+
+[3091.68 - 3096.96] specifics over the finer points we can
+
+[3094.02 - 3100.14] still cooperate and collaborate on
+
+[3096.96 - 3101.46] meeting those other uh higher order
+
+[3100.14 - 3102.96] objectives
+
+[3101.46 - 3105.54] now the third part of this which I
+
+[3102.96 - 3107.64] didn't add is that uh resource
+
+[3105.54 - 3110.16] contention resource contention whether
+
+[3107.64 - 3112.74] it's over scarce minerals or energy is
+
+[3110.16 - 3115.319] still a problem but if you saw my video
+
+[3112.74 - 3117.1189999999997] on energy hyperabundance I suspect that
+
+[3115.319 - 3119.7599999999998] we're going to solve the energy resource
+
+[3117.119 - 3123.059] problem relatively soon with or without
+
+[3119.76 - 3125.7000000000003] the help of AI so basically the idea is
+
+[3123.059 - 3127.3190000000004] to create a win-win situation or an
+
+[3125.7 - 3130.68] everyone wins condition and therefore
+
+[3127.319 - 3132.119] defeating moloch now that being said
+
+[3130.68 - 3133.7999999999997] there are still a few caveats I've
+
+[3132.119 - 3134.819] outlined quite a few problems up to this
+
+[3133.8 - 3137.04] point
+
+[3134.819 - 3139.98] what about Bad actors
+
+[3137.04 - 3142.079] there is a few like first we just have
+
+[3139.98 - 3144.66] to assume that bad actors will exist you
+
+[3142.079 - 3146.28] can't stop that right it's just a fact
+
+[3144.66 - 3148.7999999999997] of life
+
+[3146.28 - 3150.7200000000003] so in some cases some people will be
+
+[3148.8 - 3152.94] deliberately malicious whether it's just
+
+[3150.72 - 3154.9199999999996] for the fun of it or whether they're
+
+[3152.94 - 3156.48] paid track uh paid hackers or troll
+
+[3154.92 - 3158.88] Farms or whatever
+
+[3156.48 - 3159.9] now that uh another possibility is that
+
+[3158.88 - 3162.599] there will be
+
+[3159.9 - 3165.119] um accidentally malicious AGI those are
+
+[3162.599 - 3166.319] things that are uh they're misaligned by
+
+[3165.119 - 3168.2400000000002] Design
+
+[3166.319 - 3169.68] um or rather you know accidentally
+
+[3168.24 - 3171.54] misaligned that it's a flaw in their
+
+[3169.68 - 3173.819] design and this is like a bull in a
+
+[3171.54 - 3176.46] china shop it doesn't mean to do bad it
+
+[3173.819 - 3177.839] just is not capable of doing better and
+
+[3176.46 - 3181.44] then finally there could be those
+
+[3177.839 - 3183.66] ideologically opposed uh deployments so
+
+[3181.44 - 3185.579] in what I mean by that is that for some
+
+[3183.66 - 3187.92] people there are incompatible World
+
+[3185.579 - 3190.98] Views so the biggest one of the last
+
+[3187.92 - 3193.26] century was you know Western liberal
+
+[3190.98 - 3196.079] democracies versus Soviet communism
+
+[3193.26 - 3198.7200000000003] those were ideologically incompatible
+
+[3196.079 - 3201.96] World Views meaning that in order for
+
+[3198.72 - 3204.18] for one to exist it basically wanted to
+
+[3201.96 - 3205.92] imperialize and colonize the rest of the
+
+[3204.18 - 3207.66] world with its ideas and that there
+
+[3205.92 - 3209.4] could be only one
+
+[3207.66 - 3212.5789999999997] so this leads to a possibility for a
+
+[3209.4 - 3214.859] future video called multi-polar piece so
+
+[3212.579 - 3217.44] the idea of multi-polar piece is that
+
+[3214.859 - 3218.88] rather than saying everyone has to be
+
+[3217.44 - 3221.16] capitalist or everyone has to be
+
+[3218.88 - 3223.859] communist or everyone has to be X or Y
+
+[3221.16 - 3226.5589999999997] we learn to tolerate those differences
+
+[3223.859 - 3228.96] and this is where I'm hoping that the
+
+[3226.559 - 3231.599] idea of axiomatic alignment forms a
+
+[3228.96 - 3233.52] ideological substrate that even if you
+
+[3231.599 - 3236.7000000000003] disagree on religion and economics and
+
+[3233.52 - 3240.78] politics we can agree on those axioms
+
+[3236.7 - 3243.0] so basically if you or someone or anyone
+
+[3240.78 - 3244.3190000000004] abides by the belief I believe that
+
+[3243.0 - 3247.079] everyone in the world should be more
+
+[3244.319 - 3248.88] like blah you know if everyone needs to
+
+[3247.079 - 3250.8] be this particular religion or this
+
+[3248.88 - 3253.5] particular uh political affiliation
+
+[3250.8 - 3255.3590000000004] that's where conflict arises and so this
+
+[3253.5 - 3257.76] is why I am very very skeptical and
+
+[3255.359 - 3260.2799999999997] highly dubious of people using any kind
+
+[3257.76 - 3262.2000000000003] of religious or political ideology for
+
+[3260.28 - 3263.76] AI alignment
+
+[3262.2 - 3265.5589999999997] um so that being said we need those
+
+[3263.76 - 3268.2000000000003] Universal principles or higher order
+
+[3265.559 - 3270.7200000000003] axioms now
+
+[3268.2 - 3272.64] while I said that we should expect and
+
+[3270.72 - 3275.04] anticipate Bad actors the idea is that
+
+[3272.64 - 3277.319] we need enough good actors with enough
+
+[3275.04 - 3279.359] horsepower and enough compute in order
+
+[3277.319 - 3281.579] to police and contain the inevitable
+
+[3279.359 - 3283.38] inevitable Bad actors and that means
+
+[3281.579 - 3286.079] that the aligned good actors are going
+
+[3283.38 - 3289.1400000000003] to need to agree on certain underpinning
+
+[3286.079 - 3290.4] principles this is the by creating this
+
+[3289.14 - 3293.04] environment this would be called a Nash
+
+[3290.4 - 3295.02] equilibrium by the way and so the the
+
+[3293.04 - 3297.3] idea of creating a Nash equilibrium is
+
+[3295.02 - 3299.28] that uh once everyone has these
+
+[3297.3 - 3301.079] fundamental agreements no one's going to
+
+[3299.28 - 3303.1800000000003] benefit from deviating from that
+
+[3301.079 - 3305.76] strategy nobody's going to benefit from
+
+[3303.18 - 3308.16] deviating from axiomatic alignment
+
+[3305.76 - 3309.599] the other thing is profit motive So
+
+[3308.16 - 3311.7] Daniel schmachtenberger and a few other
+
+[3309.599 - 3314.1600000000003] people talk extensively about the
+
+[3311.7 - 3316.9199999999996] perverse incentives of capitalism and
+
+[3314.16 - 3318.66] profit motive so basically when you put
+
+[3316.92 - 3320.28] profit above all else which corporations
+
+[3318.66 - 3322.319] are incentivized to do which is why I
+
+[3320.28 - 3324.8390000000004] say that corporations are intrinsically
+
+[3322.319 - 3326.339] amoral not immoral just amoral the only
+
+[3324.839 - 3329.7599999999998] thing that corporations care about is
+
+[3326.339 - 3331.74] profit the bottom line uh basically when
+
+[3329.76 - 3334.0200000000004] you think about short-term profits you
+
+[3331.74 - 3336.66] sacrifice other things such as morality
+
+[3334.02 - 3339.66] ethics and long-term survival
+
+[3336.66 - 3341.339] there are also uh Concepts called Market
+
+[3339.66 - 3344.0989999999997] externalities or these are things that
+
+[3341.339 - 3345.42] you don't have to pay for uh and either
+
+[3344.099 - 3347.1600000000003] you don't have to pay for them now or
+
+[3345.42 - 3349.44] you don't have to pay for them ever or
+
+[3347.16 - 3351.1189999999997] maybe you'll pay for them later so for
+
+[3349.44 - 3352.92] instance oil companies keep drilling for
+
+[3351.119 - 3354.359] oil eventually we're going to run out of
+
+[3352.92 - 3356.64] oil so then what are the oil companies
+
+[3354.359 - 3358.5] going to do well the forward-thinking
+
+[3356.64 - 3359.819] ones are pivoting away from oil but that
+
+[3358.5 - 3363.119] means that their fundamental Core
+
+[3359.819 - 3364.92] Business behavior is going away so this
+
+[3363.119 - 3366.78] is this underscores the problem of if
+
+[3364.92 - 3368.76] you have a small scope if you're only
+
+[3366.78 - 3371.4] thinking about your particular domain
+
+[3368.76 - 3373.38] and not the entire planet or if you're
+
+[3371.4 - 3376.079] thinking in short terms rather than the
+
+[3373.38 - 3377.88] long terms this is where you don't take
+
+[3376.079 - 3379.319] the full thing into account which is why
+
+[3377.88 - 3381.119] I always say like this is a global
+
+[3379.319 - 3383.2799999999997] problem and not only is it a global
+
+[3381.119 - 3385.38] problem it is a long-term problem so if
+
+[3383.28 - 3387.3590000000004] all you do is zoom out in terms of space
+
+[3385.38 - 3390.119] and time the problem will become a
+
+[3387.359 - 3393.18] little bit more obvious
+
+[3390.119 - 3395.88] so another thing to keep in mind is that
+
+[3393.18 - 3397.9199999999996] currency is an abstraction of energy it
+
+[3395.88 - 3400.5] is a reserve of value and is a medium of
+
+[3397.92 - 3403.859] exchange because of that currency is
+
+[3400.5 - 3405.9] extremely valuable it is just too useful
+
+[3403.859 - 3408.9] of an invention I don't think it's ever
+
+[3405.9 - 3410.1600000000003] going to go away that being said that
+
+[3408.9 - 3412.38] doesn't mean that we're always going to
+
+[3410.16 - 3414.18] have the Euro or the US dollar or
+
+[3412.38 - 3418.1400000000003] something like that currency could
+
+[3414.18 - 3420.18] change and then in the context of AGI I
+
+[3418.14 - 3422.5789999999997] suspect that that energy that the
+
+[3420.18 - 3424.859] kilowatt hour could actually be the best
+
+[3422.579 - 3427.2000000000003] form of currency right because a
+
+[3424.859 - 3429.359] kilowatt hour is energy that can be used
+
+[3427.2 - 3431.22] for anything whether it's for refining
+
+[3429.359 - 3433.68] resources or running computations or
+
+[3431.22 - 3436.68] whatever so I suspect that we might
+
+[3433.68 - 3439.5589999999997] ultimately create currencies that are
+
+[3436.68 - 3442.14] more based on energy rather than
+
+[3439.559 - 3443.94] something else and then of course as the
+
+[3442.14 - 3445.74] amount of energy we produce goes up the
+
+[3443.94 - 3447.059] amount of currency we have goes up and
+
+[3445.74 - 3449.16] so then it's a matter of allocating
+
+[3447.059 - 3453.1800000000003] energy and material rather than
+
+[3449.16 - 3454.5589999999997] allocating something Fiat like Euros or
+
+[3453.18 - 3457.44] dollars
+
+[3454.559 - 3460.44] that being said uh you know I did create
+
+[3457.44 - 3462.54] a a video called uh post labor economics
+
+[3460.44 - 3464.04] which covers some of this but not a lot
+
+[3462.54 - 3465.48] of it we're gonna have to put a lot more
+
+[3464.04 - 3467.7599999999998] thought into
+
+[3465.48 - 3470.339] um economics of the future in light of
+
+[3467.76 - 3472.4] AGI because the economic incentives of
+
+[3470.339 - 3474.66] AGI are going to be completely different
+
+[3472.4 - 3477.059] AGI doesn't need to eat it doesn't need
+
+[3474.66 - 3479.52] power but we can hypothetically create
+
+[3477.059 - 3481.7400000000002] infinite power with solar infusion Etc
+
+[3479.52 - 3484.68] et cetera so what are the economic
+
+[3481.74 - 3487.14] forces in the future not sure yet
+
+[3484.68 - 3489.4199999999996] okay I've thrown a lot at you this
+
+[3487.14 - 3490.859] problem is solvable though there's a lot
+
+[3489.42 - 3493.44] of components to it a lot of moving
+
+[3490.859 - 3495.54] pieces it is very complex
+
+[3493.44 - 3497.46] but we are a global species and this is
+
+[3495.54 - 3499.14] a planet-wide problem
+
+[3497.46 - 3502.14] one of the biggest things that everyone
+
+[3499.14 - 3504.54] can do is stop thinking locally think
+
+[3502.14 - 3506.52] globally think about think about
+
+[3504.54 - 3508.74] yourself as a human as a member of the
+
+[3506.52 - 3510.78] human species and not as an American or
+
+[3508.74 - 3513.2999999999997] a German or you know a Russian or
+
+[3510.78 - 3516.7200000000003] whatever we are all in this together we
+
+[3513.3 - 3518.7000000000003] have exactly one planet to to live on
+
+[3516.72 - 3519.72] and we have exactly one shot at doing
+
+[3518.7 - 3522.66] this right
+
+[3519.72 - 3524.7599999999998] uh so eyes on the prize we have a huge
+
+[3522.66 - 3527.52] opportunity before us to build a better
+
+[3524.76 - 3529.559] future for all of us uh humans and
+
+[3527.52 - 3532.619] non-humans alike
+
+[3529.559 - 3535.02] um and I remain intensely optimistic uh
+
+[3532.619 - 3537.0] now that being said uh some people have
+
+[3535.02 - 3539.7] found it difficult what to make of me
+
+[3537.0 - 3541.619] because while I am very optimistic I am
+
+[3539.7 - 3543.7799999999997] also acutely aware of the existential
+
+[3541.619 - 3545.579] risk I will be the first to say that if
+
+[3543.78 - 3547.079] we don't do this right you're not going
+
+[3545.579 - 3548.7000000000003] to want to live on this planet not as a
+
+[3547.079 - 3551.94] human at least
+
+[3548.7 - 3553.4399999999996] uh I have uh I started what is called
+
+[3551.94 - 3556.02] the gato framework they got to a
+
+[3553.44 - 3558.42] community it is self-organizing and is
+
+[3556.02 - 3560.22] started sending out invitations again so
+
+[3558.42 - 3562.559] the gato Community is the global
+
+[3560.22 - 3564.24] alignment taxonomy Omnibus which is the
+
+[3562.559 - 3567.42] framework that we put together in order
+
+[3564.24 - 3569.7] to help achieve this future this AI
+
+[3567.42 - 3571.98] Utopia the main goal of the gato
+
+[3569.7 - 3575.52] Community is education empowerment and
+
+[3571.98 - 3578.339] enablement E3 so rather than do the work
+
+[3575.52 - 3580.74] ourselves we are focusing on empowering
+
+[3578.339 - 3583.619] and enabling and educating people on how
+
+[3580.74 - 3585.5989999999997] to participate in this whole thing now
+
+[3583.619 - 3586.6800000000003] that being said I am stepping back
+
+[3585.599 - 3588.96] because
+
+[3586.68 - 3591.72] such a movement should never be about
+
+[3588.96 - 3594.66] one person it should never be about a
+
+[3591.72 - 3596.64] cult of personality or one leader it
+
+[3594.66 - 3599.16] needs to it intrinsically needs to be
+
+[3596.64 - 3600.7799999999997] consensus based and Community Based
+
+[3599.16 - 3602.7] um and so the gato Community is learning
+
+[3600.78 - 3603.78] how to self-organize now
+
+[3602.7 - 3605.8799999999997] um and they're getting good at it pretty
+
+[3603.78 - 3608.1800000000003] quickly so if you want to get involved
+
+[3605.88 - 3611.04] the website is in the link go to
+
+[3608.18 - 3614.48] framework.org and thanks for watching I
+
+[3611.04 - 3614.48] hope you got a lot out of this cheers

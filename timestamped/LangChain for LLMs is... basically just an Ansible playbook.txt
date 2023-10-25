@@ -1,0 +1,435 @@
+[0.78 - 5.5200000000000005] foreign
+
+[2.36 - 6.839] okay this is going to be a spicy take
+
+[5.52 - 9.0] but
+
+[6.839 - 11.940000000000001] um and this is also not a criticism of
+
+[9.0 - 15.54] Lang chain because they are new right
+
+[11.94 - 15.54] it's a 0.0.75
+
+[15.599 - 19.14] um
+
+[16.619 - 21.18] as a sis admin
+
+[19.14 - 22.92] I am not impressed by Lang chain and I
+
+[21.18 - 26.4] know that a lot of people that are
+
+[22.92 - 28.859] coming from the AI and ml place are
+
+[26.4 - 31.799999999999997] super impressed by this but this is
+
+[28.859 - 34.38] fundamentally just a Playbook or a run
+
+[31.8 - 38.82] book and so what I mean by that is it is
+
+[34.38 - 40.800000000000004] a it is a configuration of tools that
+
+[38.82 - 44.399] allows you to create
+
+[40.8 - 47.16] um a workflow a very simple workflow so
+
+[44.399 - 49.26] you know you can choose an llm you can
+
+[47.16 - 52.26] choose you know a few
+
+[49.26 - 54.66] um like tools to go reach for and then
+
+[52.26 - 56.82] you can chain them together and then it
+
+[54.66 - 59.57899999999999] can make some choices as it goes but
+
+[56.82 - 62.039] guys this is an ansible Playbook this is
+
+[59.579 - 66.6] this is ancient history for CIS admins
+
+[62.039 - 70.92] like like yes ansible is not like native
+
+[66.6 - 73.55999999999999] to uh uh to to language models yet but
+
+[70.92 - 75.659] in terms of like configurability and
+
+[73.56 - 78.54] reaching out to API endpoints and
+
+[75.659 - 81.06] automation Lang chain is basically an
+
+[78.54 - 83.34] ansible play book that is language model
+
+[81.06 - 86.159] Centric first now that being said
+
+[83.34 - 88.74000000000001] ansible is incredibly powerful for
+
+[86.159 - 91.32000000000001] automation for process automation it's
+
+[88.74 - 95.64] also really super simple uh like it's
+
+[91.32 - 97.439] yaml it's super human readable uh so I'm
+
+[95.64 - 99.6] super not impressed by Lang chain they
+
+[97.439 - 102.119] should probably move to yaml copy
+
+[99.6 - 103.19999999999999] success right where if you want a run
+
+[102.119 - 105.6] book
+
+[103.2 - 107.88] just go ahead and just go ahead and copy
+
+[105.6 - 109.979] you know old stuff that works yaml Json
+
+[107.88 - 112.979] probably
+
+[109.979 - 114.84] um it's also like so then here's the
+
+[112.979 - 117.53999999999999] other thing that is super not impressive
+
+[114.84 - 121.04] uh to me is that okay you've got a run
+
+[117.54 - 123.36000000000001] book great don't care uh
+
+[121.04 - 126.119] it's been done
+
+[123.36 - 128.28] um you need a lot more stuff so it needs
+
+[126.119 - 131.099] to run in loops and it also needs to run
+
+[128.28 - 133.319] in parallel because
+
+[131.099 - 135.83999999999997] what Lang chain does if you look at
+
+[133.319 - 137.22] ansible Tower which is it's just this
+
+[135.84 - 138.84] part
+
+[137.22 - 142.5] like you need the rest of this
+
+[138.84 - 144.72] architecture before Lang chain is to me
+
+[142.5 - 146.76] useful or compelling
+
+[144.72 - 148.92] um so if anyone from Lang chain wants to
+
+[146.76 - 150.72] talk to a veteran sis admin and a
+
+[148.92 - 153.23899999999998] veteran automation engineer my name is
+
+[150.72 - 155.76] Dave shop automator uh happy to talk to
+
+[153.239 - 158.81900000000002] you uh but yeah so like you've got the
+
+[155.76 - 161.519] playbooks that's great it's a start but
+
+[158.819 - 164.33999999999997] then you need rules you need triggers
+
+[161.519 - 166.37900000000002] you need data collection you need
+
+[164.34 - 167.81900000000002] monitoring like you need a full platform
+
+[166.379 - 169.79999999999998] and I'll talk about a couple of Open
+
+[167.819 - 171.89999999999998] Source platforms that are uh good
+
+[169.8 - 173.519] Alternatives that you could integrate
+
+[171.9 - 175.8] with
+
+[173.519 - 178.56] um but basically what I mean by a
+
+[175.8 - 182.4] workflow or a run book is this is a
+
+[178.56 - 185.28] graphical representation of of a lang
+
+[182.4 - 188.459] chain or a language prompt chaining
+
+[185.28 - 191.58] um this is the same as this this is just
+
+[188.459 - 194.099] a yaml uh definition of something like
+
+[191.58 - 196.98000000000002] this and this is nothing new process
+
+[194.099 - 199.26] orchestration has has been around for a
+
+[196.98 - 202.01899999999998] while so here's another example of a
+
+[199.26 - 204.48] graphical process uh orchestrator or
+
+[202.019 - 207.36] workflow orchestrator uh engine which
+
+[204.48 - 209.39999999999998] again like this is nothing new workflow
+
+[207.36 - 211.8] or a business business process
+
+[209.4 - 213.18] orchestrators and and automation
+
+[211.8 - 216.42000000000002] orchestrators have been around since
+
+[213.18 - 218.09900000000002] like at least the 90s so again like we
+
+[216.42 - 219.95899999999997] don't need to reinvent the wheel which
+
+[218.099 - 222.11999999999998] is why I'm I have not been impressed by
+
+[219.959 - 223.86] Lang chain yet because it's basically
+
+[222.12 - 226.37900000000002] Reinventing the wheel for stuff that has
+
+[223.86 - 230.22000000000003] existed for literally decades in some
+
+[226.379 - 231.42] cases it's just for language models
+
+[230.22 - 233.64] um and so what I mean by that let's
+
+[231.42 - 234.17999999999998] let's go through this so like
+
+[233.64 - 235.73899999999998] um
+
+[234.18 - 239.519] you know some of the some of the stuff
+
+[235.739 - 242.159] like okay uh we can do we can do agents
+
+[239.519 - 244.5] um actually where did it go uh okay so
+
+[242.159 - 246.17999999999998] like chat Bots you know like where
+
+[244.5 - 248.4] you've got a little bit of memory and
+
+[246.18 - 250.37900000000002] variables you can pipe in
+
+[248.4 - 252.54] um oh yeah templates so like you know
+
+[250.379 - 255.06] you piping in templates and saying okay
+
+[252.54 - 256.56] grab this like this has all been done
+
+[255.06 - 259.32] before
+
+[256.56 - 261.299] um so oh here's another example of
+
+[259.32 - 264.419] node-based workflows
+
+[261.299 - 266.15999999999997] um this is from blender right and so the
+
+[264.419 - 268.56] biggest problem with all this is that
+
+[266.16 - 271.68] even if you have choices even if you
+
+[268.56 - 273.72] have if you can design a workflow that's
+
+[271.68 - 276.24] like okay get to a decision point and
+
+[273.72 - 279.0] then picks pick you know a b or c or
+
+[276.24 - 281.40000000000003] even if you have 20 options right it's
+
+[279.0 - 283.68] still an intrinsically linear workflow
+
+[281.4 - 286.44] it does one thing which means that you
+
+[283.68 - 288.66] need to do it by hand manually
+
+[286.44 - 290.28] that is not the correct way to use
+
+[288.66 - 291.96000000000004] language models you need to use the
+
+[290.28 - 294.0] language model to design this whole
+
+[291.96 - 296.15999999999997] thing that is what I am working on
+
+[294.0 - 298.32] that's what I wrote about in Symphony of
+
+[296.16 - 300.90000000000003] thought which is let's break down the
+
+[298.32 - 303.18] process of creating tracking and
+
+[300.9 - 305.58] completing tasks and have the language
+
+[303.18 - 307.259] model do all of it so I'm not really
+
+[305.58 - 309.12] interested in hard-coding workflows
+
+[307.259 - 312.78000000000003] which is why I'm like I don't really
+
+[309.12 - 315.12] care about uh uh uh Lang chain now that
+
+[312.78 - 317.15999999999997] being said if Lang chain gets to the
+
+[315.12 - 320.34000000000003] point where it can dynamically compose
+
+[317.16 - 321.24] tasks and track tasks that would be
+
+[320.34 - 323.28] great
+
+[321.24 - 326.28000000000003] so there's two platforms that I want to
+
+[323.28 - 328.02] introduce you to one is stackstorm so
+
+[326.28 - 331.67999999999995] stack storm is like an open source
+
+[328.02 - 334.19899999999996] alternative to uh ansible Tower and so
+
+[331.68 - 336.66] one of the one of the huge benefits of
+
+[334.199 - 338.88] stackstorm is that you have event
+
+[336.66 - 340.56] triggers and there's all kind there's
+
+[338.88 - 342.12] like web hooks there's timers there's
+
+[340.56 - 345.419] all kinds of ways that you can trigger
+
+[342.12 - 348.24] these and then uh there's rules that
+
+[345.419 - 350.21999999999997] they can follow in terms of uh what runs
+
+[348.24 - 353.28000000000003] when what it connects to
+
+[350.22 - 355.97900000000004] and so on and then then you trigger the
+
+[353.28 - 359.52] workflow right the set of instructions
+
+[355.979 - 361.44] this is the uh just that's all that
+
+[359.52 - 363.18] that's all that Lang chain does is okay
+
+[361.44 - 364.68] you have one workflow so what you need
+
+[363.18 - 366.419] to do is you have to have a bunch of
+
+[364.68 - 368.22] different workflows that can be
+
+[366.419 - 372.18] dynamically modified and dynamically
+
+[368.22 - 374.03900000000004] kicked off with those um deep chains uh
+
+[372.18 - 376.62] and then of course there's the actual
+
+[374.039 - 377.58] final action the final output that comes
+
+[376.62 - 379.8] from it
+
+[377.58 - 381.84] uh and then of course uh stack storm
+
+[379.8 - 383.88] like ansible has plenty of Integrations
+
+[381.84 - 385.75899999999996] with all kinds of things whether it's
+
+[383.88 - 389.4] databases cloud service providers
+
+[385.759 - 392.28000000000003] servers networks you name it it has the
+
+[389.4 - 393.59999999999997] integration another one is run deck
+
+[392.28 - 395.15999999999997] which I have used extensively because
+
+[393.6 - 398.88] rundex a little bit simpler than
+
+[395.16 - 400.97900000000004] stackstorm but run deck is uh it's it's
+
+[398.88 - 404.34] basically the same thing where you've
+
+[400.979 - 405.96] got a really good web GUI so here's an
+
+[404.34 - 409.44] example of the web GUI and then you've
+
+[405.96 - 412.38] got jobs you've got nodes it can be
+
+[409.44 - 415.039] decentralized it stores the data and the
+
+[412.38 - 419.46] results and can go talk to
+
+[415.039 - 421.8] databases or whatever so anyways uh yeah
+
+[419.46 - 424.02] I I do appreciate when people say like
+
+[421.8 - 425.94] oh you should use Lang chain but from
+
+[424.02 - 428.58] assist admin perspective langchain is
+
+[425.94 - 430.5] ultra primitive so
+
+[428.58 - 431.88] um if I were to if I were to use an
+
+[430.5 - 434.819] existing
+
+[431.88 - 437.15999999999997] um project for a cognitive architecture
+
+[434.819 - 439.62] it would almost certainly be stack storm
+
+[437.16 - 442.319] because it is an automation engine right
+
+[439.62 - 444.72] Lang chain is an is a is a workflow
+
+[442.319 - 446.759] orchestrator uh or a run really it's
+
+[444.72 - 449.16] just a run book provider and a runbook
+
+[446.759 - 450.84000000000003] provider is just a tiny component of a
+
+[449.16 - 453.78000000000003] fully fledged cognitive architecture
+
+[450.84 - 456.0] what you need is parallelism you need
+
+[453.78 - 458.17999999999995] triggers you need rules and then you
+
+[456.0 - 461.88] also need to collect and store that data
+
+[458.18 - 464.16] in a really meaningful way so with all
+
+[461.88 - 466.039] that said I do appreciate it uh it's
+
+[464.16 - 468.59900000000005] it's it's a
+
+[466.039 - 471.18] there they'll get there put it that way
+
+[468.599 - 473.28] they'll get there but as of right now
+
+[471.18 - 476.28000000000003] I'm not particularly interested in Lang
+
+[473.28 - 477.539] chain if I were to put in the energy I
+
+[476.28 - 480.599] would like I said I would use stack
+
+[477.539 - 482.28] storm or run deck and then just build
+
+[480.599 - 485.039] all the functions in here because you
+
+[482.28 - 486.71999999999997] can just run python functions out of
+
+[485.039 - 489.12] either of these
+
+[486.72 - 492.53900000000004] um and then pull data you can pipe data
+
+[489.12 - 495.06] in which these these two engines have
+
+[492.539 - 496.8] pretty sophisticated ways of populating
+
+[495.06 - 499.02] variables
+
+[496.8 - 502.8] um and then from there you create very
+
+[499.02 - 504.9] granular uh workflows or run books and
+
+[502.8 - 507.90000000000003] then you call them dynamically to
+
+[504.9 - 509.58] perform individual cognitive functions
+
+[507.9 - 511.85999999999996] um but this is not this is not there yet
+
+[509.58 - 513.36] it's not quite sophisticated enough so
+
+[511.86 - 515.4590000000001] with that said I'm rambling I'm
+
+[513.36 - 517.74] repeating myself thanks for watching I
+
+[515.459 - 520.56] hope this was valuable if anyone from
+
+[517.74 - 523.14] langchain wants to reach out feel free
+
+[520.56 - 525.66] um but yeah number one lesson copy
+
+[523.14 - 528.74] success ansible stack storm run deck
+
+[525.66 - 528.74] they already have this figured out

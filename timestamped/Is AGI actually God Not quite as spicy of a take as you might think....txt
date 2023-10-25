@@ -1,0 +1,1395 @@
+[0.539 - 3.72] hey everybody David Shapiro here with a
+
+[2.879 - 5.4] video
+
+[3.72 - 7.319000000000001] um so first I want to address the OBS
+
+[5.4 - 10.38] thing some of you suggest that I use
+
+[7.319 - 11.519] hotkeys so that we don't show OBS like I
+
+[10.38 - 13.5] could edit it out but I'm not gonna
+
+[11.519 - 15.179] because it's part of my brand you know
+
+[13.5 - 16.5] how um Joe Scott he always starts his
+
+[15.179 - 18.48] videos with the little like drum roll
+
+[16.5 - 20.82] and he turns around this is this is my
+
+[18.48 - 22.32] shtick so like that that's just what it
+
+[20.82 - 24.539] is all right so
+
+[22.32 - 27.240000000000002] today's video is going to be super not
+
+[24.539 - 29.3] controversial let me tell you um is Agi
+
+[27.24 - 33.3] God
+
+[29.3 - 35.579] uh yeah so uh this idea is not as crazy
+
+[33.3 - 36.36] as it sounds and let me unpack this for
+
+[35.579 - 38.399] you
+
+[36.36 - 39.6] so there's this uh there's a few people
+
+[38.399 - 42.96] on Twitter
+
+[39.6 - 46.379000000000005] uh and a few other people who just talk
+
+[42.96 - 48.3] about this stuff so Sonia
+
+[46.379 - 52.019999999999996] um has mentioned this a few times up
+
+[48.3 - 53.699999999999996] here in the top left and she says AGI is
+
+[52.02 - 54.84] the most credible word technocrats have
+
+[53.7 - 57.059000000000005] for God
+
+[54.84 - 58.739000000000004] and I was just like what
+
+[57.059 - 60.599999999999994] you know she said that kind of thing for
+
+[58.739 - 61.919999999999995] a while but I watched this video so one
+
+[60.6 - 63.359] of my one of my social groups they
+
+[61.92 - 65.04] recommended this video and it was
+
+[63.359 - 67.74000000000001] actually really compelling it's called
+
+[65.04 - 70.02000000000001] um Pilgrim pass is the channel God and
+
+[67.74 - 71.64] Science Why is sci-fi so religious it's
+
+[70.02 - 73.32] really good I watched most of it you can
+
+[71.64 - 75.36] actually see I watched most of it it got
+
+[73.32 - 78.0] kind of preachy at the end but it had a
+
+[75.36 - 80.28] lot of really good ideas and you know we
+
+[78.0 - 82.439] talk about simulation hypothesis we talk
+
+[80.28 - 83.88] about you know this that and the other
+
+[82.439 - 86.1] I'm not gonna I'm not gonna unpack all
+
+[83.88 - 88.259] the details watch that video
+
+[86.1 - 90.41999999999999] um if you if you if you need some
+
+[88.259 - 92.52] additional context before my video or
+
+[90.42 - 96.78] after either way and then of course
+
+[92.52 - 98.34] there's um some folks on you know with
+
+[96.78 - 100.02] various levels of credibility and
+
+[98.34 - 101.46000000000001] platforms that say like oh we're gonna
+
+[100.02 - 103.79899999999999] die it's gonna kill us all and I'm just
+
+[101.46 - 106.5] like Okay so this dude
+
+[103.799 - 108.0] um Eliezer yodkowski I had actually
+
+[106.5 - 109.56] heard about him before I had to go look
+
+[108.0 - 112.079] him up because he talked about friendly
+
+[109.56 - 113.88] Ai and I actually looked him up very
+
+[112.079 - 114.77999999999999] early on in my work with cognitive
+
+[113.88 - 116.399] architecture and I was like yeah
+
+[114.78 - 118.619] whatever this work isn't particularly
+
+[116.399 - 120.479] compelling now that being said you know
+
+[118.619 - 121.92] maybe I'm the charlatan maybe he's a
+
+[120.479 - 124.079] charlatan maybe we both had good ideas
+
+[121.92 - 125.7] don't really know there's a lot of ways
+
+[124.079 - 127.67999999999999] to skin this cat so I'm not gonna say
+
+[125.7 - 129.179] like who's wrong who's right
+
+[127.68 - 130.25900000000001] um you know there are people that I
+
+[129.179 - 132.72] disagree with and there's people that
+
+[130.259 - 134.33999999999997] disagree with me it's fine I realized
+
+[132.72 - 136.2] recently that I'm at a point where like
+
+[134.34 - 138.36] I can't have an uncontroversial opinion
+
+[136.2 - 140.94] anything I say someone's gonna take
+
+[138.36 - 142.14000000000001] issue with it so it's just like whatever
+
+[140.94 - 145.56] um so
+
+[142.14 - 147.55999999999997] yeah so I've with with the recent
+
+[145.56 - 149.879] advancements with openai
+
+[147.56 - 153.12] and Sam Altman specifically talking
+
+[149.879 - 155.57999999999998] about AGI multiple times with
+
+[153.12 - 157.44] uh nvidia's you know their pronouncement
+
+[155.58 - 159.06] that they're expecting to create AI a
+
+[157.44 - 160.85999999999999] million times more powerful than AI
+
+[159.06 - 163.26] today within 10 years
+
+[160.86 - 166.08] the conversation has shifted again right
+
+[163.26 - 166.98] so chat GPT moved the Overton window and
+
+[166.08 - 169.5] if you're not familiar with the term
+
+[166.98 - 170.879] Overton window means the the frame of
+
+[169.5 - 173.34] what you're allowed to talk about and be
+
+[170.879 - 175.67999999999998] taken seriously because until this year
+
+[173.34 - 177.48] until the last few months you couldn't
+
+[175.68 - 178.86] talk about AGI without being ridiculed
+
+[177.48 - 181.85999999999999] there's still people who will ridicule
+
+[178.86 - 183.78] you for talking about AGI
+
+[181.86 - 185.58] um and there there are people that are
+
+[183.78 - 187.26] deniers there are people that say oh
+
+[185.58 - 188.94000000000003] well nothing will ever even come close
+
+[187.26 - 191.099] to human creativity
+
+[188.94 - 193.44] but there's a lot to unpack there right
+
+[191.099 - 195.0] because uh if you take a materialist
+
+[193.44 - 197.22] view of the world then the human brain
+
+[195.0 - 199.8] is just a computer which it's three
+
+[197.22 - 201.9] pounds of mush that operates on
+
+[199.8 - 204.239] biochemical synapses we can absolutely
+
+[201.9 - 205.8] create something equal in power or more
+
+[204.239 - 208.68] powerful to the brain there's nothing
+
+[205.8 - 210.84] unique about the brain unless you go
+
+[208.68 - 213.0] into dualism or you know some kind of
+
+[210.84 - 214.68] metaphysics and say oh well the brain is
+
+[213.0 - 216.18] actually just receiving ideas from The
+
+[214.68 - 217.62] Ether somewhere and they're people that
+
+[216.18 - 219.239] believe that and sometimes you know
+
+[217.62 - 220.92000000000002] under certain circumstances it certainly
+
+[219.239 - 221.879] feels that way and if you know what I'm
+
+[220.92 - 223.2] talking about you know what I'm talking
+
+[221.879 - 226.01899999999998] about
+
+[223.2 - 228.06] um that all being said you know it's an
+
+[226.019 - 230.159] it is entirely possible that all of our
+
+[228.06 - 232.31900000000002] intelligence comes only from our brain
+
+[230.159 - 234.54] and body and so on
+
+[232.319 - 236.7] there is enough to me compelling
+
+[234.54 - 238.44] evidence of you know psychic or
+
+[236.7 - 240.42] semi-psychic phenomenon I don't mean
+
+[238.44 - 241.85999999999999] like you know telepathy ESP I can
+
+[240.42 - 244.2] communicate with whales with my brain
+
+[241.86 - 245.58] but I mean like we seem to have this
+
+[244.2 - 246.83999999999997] ability to sense things that we couldn't
+
+[245.58 - 248.519] we
+
+[246.84 - 249.36] that we can't explain yet I'll put it
+
+[248.519 - 250.98000000000002] that way
+
+[249.36 - 252.84] now just because we don't have an
+
+[250.98 - 254.78] explanation yet doesn't mean that it's
+
+[252.84 - 257.04] automatically the magical solution right
+
+[254.78 - 259.579] so that's what I want to caution against
+
+[257.04 - 265.199] so with that said
+
+[259.579 - 267.6] as this conversation has has advanced as
+
+[265.199 - 269.94] the Overton window has shifted and we
+
+[267.6 - 271.32000000000005] can talk about the stuff not quite
+
+[269.94 - 272.9] soberly yet there's still plenty of
+
+[271.32 - 276.78] people that are
+
+[272.9 - 278.21999999999997] let's say uh really energetic about
+
+[276.78 - 280.55999999999995] their opinions which is why I've
+
+[278.22 - 284.34000000000003] disabled comments Again by the way
+
+[280.56 - 286.86] um people just they they have a song in
+
+[284.34 - 288.53999999999996] their heart that they have to share and
+
+[286.86 - 290.28000000000003] they don't necessarily do it the kindest
+
+[288.54 - 292.56] way and I don't have time for that I am
+
+[290.28 - 293.21999999999997] really busy so I'm sorry
+
+[292.56 - 295.44] um
+
+[293.22 - 297.84000000000003] now that being said I posted a couple
+
+[295.44 - 300.71999999999997] polls on both on Twitter and on my
+
+[297.84 - 302.4] YouTube and I said okay because there
+
+[300.72 - 304.32000000000005] seemed to be especially with the more
+
+[302.4 - 306.59999999999997] recent news over the last week or two a
+
+[304.32 - 309.419] tremendous amount of anxiety around AGI
+
+[306.6 - 312.78000000000003] now I wanted to test that hypothesis
+
+[309.419 - 315.29999999999995] because I was like okay maybe this is
+
+[312.78 - 317.4] just the case of of a small minority
+
+[315.3 - 319.259] that are making the most noise which is
+
+[317.4 - 320.4] often the case on the internet surprise
+
+[319.259 - 321.6] surprise
+
+[320.4 - 323.69899999999996] so
+
+[321.6 - 325.02000000000004] so you know I I posted this poll this is
+
+[323.699 - 326.88] this is the most complete one where it's
+
+[325.02 - 329.639] like on a scale of one to five
+
+[326.88 - 332.88] like where one is you know we end up
+
+[329.639 - 334.8] with a with a hyper abundant Utopia or
+
+[332.88 - 337.259] on five where Skynet comes and murders
+
+[334.8 - 338.82] everyone and then in the middle is just
+
+[337.259 - 341.22] like we get a we get a pretty bad
+
+[338.82 - 345.419] dystopia like what do you expect to get
+
+[341.22 - 347.759] and so we we got mild dystopian
+
+[345.419 - 349.68] um as the most likely outcome by a long
+
+[347.759 - 352.8] shot so when we had when we had on
+
+[349.68 - 354.66] YouTube we had 40 percent of people so
+
+[352.8 - 357.3] that's a plurality not a majority but we
+
+[354.66 - 359.759] had a plurality say vaguely dystopian
+
+[357.3 - 361.919] mild dystopian but you know almost a
+
+[359.759 - 363.72] quarter say Utopia I'm in the utopian
+
+[361.919 - 366.0] Camp you know I'm I'm one of the people
+
+[363.72 - 367.91900000000004] working to make that happen fingers
+
+[366.0 - 369.9] crossed you know we'll we'll figure it
+
+[367.919 - 372.65999999999997] out
+
+[369.9 - 375.65999999999997] people so less than 20 percent you know
+
+[372.66 - 377.34000000000003] predicts some kind of AI or Uprising and
+
+[375.66 - 379.91900000000004] the impossible extinction of the human
+
+[377.34 - 383.15999999999997] race and then if you jump over to to
+
+[379.919 - 384.9] Twitter it's 15 okay so it is a minority
+
+[383.16 - 386.88000000000005] of people that are like genuinely
+
+[384.9 - 388.13899999999995] worried that this is an existential
+
+[386.88 - 391.44] crisis
+
+[388.139 - 393.78000000000003] most people though are in the utopian
+
+[391.44 - 396.6] Bliss to mild dystopia Camp which is
+
+[393.78 - 398.69899999999996] like okay that's fine so how do we
+
+[396.6 - 400.139] you know I'm not here to convince anyone
+
+[398.699 - 402.0] I'm just like kind of taking the
+
+[400.139 - 403.74] temperature of the room
+
+[402.0 - 405.66] um but you know there is something to be
+
+[403.74 - 407.34000000000003] said for like uh the wisdom of the
+
+[405.66 - 409.319] masses so
+
+[407.34 - 412.44] let's take this to the most logical
+
+[409.319 - 414.3] conclusion and I that tweet Sonia's
+
+[412.44 - 416.1] tweet mixed with some of the comments
+
+[414.3 - 418.259] that I was getting is what inspired me
+
+[416.1 - 421.199] to make this and so someone said like
+
+[418.259 - 425.16] you know uh I think this was a response
+
+[421.199 - 426.78000000000003] to um to to this on uh on on YouTube you
+
+[425.16 - 430.139] know bimodal distribution it's either
+
+[426.78 - 432.0] one or five and nothing in between oh
+
+[430.139 - 434.819] you said much more likely I didn't use
+
+[432.0 - 436.74] black and white uh Speech but
+
+[434.819 - 438.72] um but then someone else on Twitter said
+
+[436.74 - 440.699] pretty much the same thing where it's
+
+[438.72 - 443.03900000000004] going to be one or four you're not
+
+[440.699 - 444.84000000000003] really going to have anything in between
+
+[443.039 - 447.65999999999997] and I was also paying attention to the
+
+[444.84 - 450.0] way that people were talking about AGI
+
+[447.66 - 451.5] so let's start unpacking this and I and
+
+[450.0 - 452.88] this comes hot on the heels of watching
+
+[451.5 - 456.12] some of those other videos that I talked
+
+[452.88 - 459.12] about that I mentioned about how you
+
+[456.12 - 461.759] know people have some interesting ways
+
+[459.12 - 464.759] of thinking about AGI so I came up with
+
+[461.759 - 467.099] this access this is this is the the
+
+[464.759 - 468.78000000000003] perception of AGI right or I guess you
+
+[467.099 - 471.0] you could say this is where AGI could
+
+[468.78 - 473.28] end up so there's the power versus
+
+[471.0 - 476.46] alignment and this is a really simple
+
+[473.28 - 479.63899999999995] two-dimensional thing so on the vertical
+
+[476.46 - 482.94] axis this is how powerful the AI is
+
+[479.639 - 486.24] right if the AGI is ultra powerful it's
+
+[482.94 - 488.46] like Zeus or Jesus or whatever right
+
+[486.24 - 489.78000000000003] that's like maximum power level and I
+
+[488.46 - 490.85999999999996] could have sworn I had more images I
+
+[489.78 - 492.78] might have forgotten to paste some of
+
+[490.86 - 494.639] them I apologize and then you have the
+
+[492.78 - 496.73999999999995] evil to good access and so like here in
+
+[494.639 - 498.0] the in the lower left I probably should
+
+[496.74 - 500.28000000000003] have switched this actually Small
+
+[498.0 - 502.86] Soldiers probably is in the least
+
+[500.28 - 504.65999999999997] powerful but also most evil because they
+
+[502.86 - 507.12] are explicitly they're very intelligent
+
+[504.66 - 509.03900000000004] and they're adaptive and their whole
+
+[507.12 - 512.279] purpose in life is to eradicate another
+
+[509.039 - 514.14] species right that's pretty evil HK 47
+
+[512.279 - 515.399] is kind of like neutral evil right but
+
+[514.14 - 517.86] he's a little bit more powerful because
+
+[515.399 - 519.719] like he's an assassin Droid right so
+
+[517.86 - 521.76] this is but and he's he's clever enough
+
+[519.719 - 524.7] to repair himself and and so on and so
+
+[521.76 - 526.8] forth but he's not clever enough to like
+
+[524.7 - 528.72] do the Matrix right and the Matrix is
+
+[526.8 - 530.76] like and I probably should have also
+
+[528.72 - 532.26] switched um The Matrix with Ultron
+
+[530.76 - 534.12] because Ultron explicitly wanted to
+
+[532.26 - 535.8] eradicate humans
+
+[534.12 - 537.0600000000001] um whereas at least the the machines in
+
+[535.8 - 539.16] The Matrix they wanted to preserve
+
+[537.06 - 541.38] humans because they needed us right so
+
+[539.16 - 544.26] again I got some of this wrong but it's
+
+[541.38 - 546.959] a helpful graphic and then over here in
+
+[544.26 - 549.0] the in the bottom right which is the
+
+[546.959 - 552.42] most good but least powerful is Big Hero
+
+[549.0 - 555.06] 6 right where it's like you need a hug
+
+[552.42 - 556.56] right like that kind of thing and so
+
+[555.06 - 559.5] what we want
+
+[556.56 - 562.7399999999999] is or what we're talking about is what
+
+[559.5 - 564.899] are the cases where AGI is up here what
+
+[562.74 - 566.76] is the highest power level that AGI
+
+[564.899 - 569.519] could have because there are some people
+
+[566.76 - 572.22] that say like actually the maximum power
+
+[569.519 - 574.5600000000001] that AGI could have is like basically
+
+[572.22 - 576.48] right here in the middle right some
+
+[574.56 - 577.8] people think that it's up here and some
+
+[576.48 - 579.9590000000001] people think that it's down here that'll
+
+[577.8 - 582.54] that AGI will never even compare to a
+
+[579.959 - 584.0999999999999] human right and so then there's the good
+
+[582.54 - 586.3199999999999] to evil axis which again is an
+
+[584.1 - 588.899] oversimplification and it's basically
+
+[586.32 - 591.12] how destructive versus constructive it
+
+[588.899 - 594.42] is or how malevolent versus benevolent
+
+[591.12 - 597.48] it is right and you could plot deities
+
+[594.42 - 599.8199999999999] on this same graph
+
+[597.48 - 601.5] so that's where I'm gonna where I want
+
+[599.82 - 603.48] to tie it together because in some
+
+[601.5 - 606.6] spiritual dispositions
+
+[603.48 - 608.88] in Shinto and and other animistic
+
+[606.6 - 610.08] religions their Spirits everywhere and
+
+[608.88 - 611.58] some of them may be good some of them
+
+[610.08 - 615.0600000000001] may be bad but none of them are
+
+[611.58 - 617.94] omnipotent or omniscient or omnipresent
+
+[615.06 - 621.42] but in the west where we have big God
+
+[617.94 - 623.22] religions the desert Triad those are
+
+[621.42 - 625.4399999999999] where God is all encompassing where God
+
+[623.22 - 627.6] is the universe and is could the Creator
+
+[625.44 - 629.1600000000001] and master of everything right because
+
+[627.6 - 631.14] you got to remember Zeus this is
+
+[629.16 - 633.66] actually kind of a misnomer Zeus was
+
+[631.14 - 636.06] created by chaos Zeus is not the creator
+
+[633.66 - 638.519] of the universe in ancient Greek
+
+[636.06 - 640.68] religion
+
+[638.519 - 643.74] so
+
+[640.68 - 645.8389999999999] if we want to look at the top layer you
+
+[643.74 - 648.0600000000001] know the the all-powerful god
+
+[645.839 - 650.4590000000001] version of AGI what are the
+
+[648.06 - 651.8389999999999] characteristics so one there's the power
+
+[650.459 - 653.6999999999999] level right but what does it look like
+
+[651.839 - 656.4590000000001] what what contributes to that power
+
+[653.7 - 659.4590000000001] level of having a digital AGI guide so
+
+[656.459 - 661.4399999999999] one is omnipotence meaning all-powerful
+
+[659.459 - 662.399] number two is omnipresence meaning it's
+
+[661.44 - 664.0790000000001] everywhere
+
+[662.399 - 666.66] and number three is omniscience all
+
+[664.079 - 669.3] knowing and then the question becomes if
+
+[666.66 - 671.16] AGI can get to that point is it
+
+[669.3 - 674.7199999999999] malevolent or benevolent is it good or
+
+[671.16 - 674.7199999999999] bad or neutral or something else
+
+[675.899 - 680.399] quick aside as we're getting into the
+
+[677.94 - 683.7600000000001] good stuff I have to plug my patreon
+
+[680.399 - 685.62] so if um I I you can connect with me on
+
+[683.76 - 687.959] LinkedIn I try not to have conversations
+
+[685.62 - 691.38] on LinkedIn especially for people that
+
+[687.959 - 694.38] are patreons uh supporters because
+
+[691.38 - 697.2] um I have more than 1400 connections on
+
+[694.38 - 699.0] LinkedIn today and over 350 patreon
+
+[697.2 - 701.6400000000001] supporters I can't keep a track y'all
+
+[699.0 - 703.8] right you know dunbar's number is like
+
+[701.64 - 705.72] the limit the limit of number of people
+
+[703.8 - 708.0] that my brain can keep track of and
+
+[705.72 - 710.22] patreon alone is above that let alone
+
+[708.0 - 712.14] everyone else that I talk to so
+
+[710.22 - 714.779] if you want some help you want to talk
+
+[712.14 - 717.12] and when I say talk like I have talked
+
+[714.779 - 718.26] with people about getting into startups
+
+[717.12 - 721.74] um I have talked with people about
+
+[718.26 - 723.72] fine-tuning about prompt engineering of
+
+[721.74 - 725.4590000000001] even about philosophy so if you want to
+
+[723.72 - 728.339] have that one-on-one conversation hop
+
+[725.459 - 730.8] over and support me on patreon and um
+
+[728.339 - 732.1800000000001] you know that's that's the best way and
+
+[730.8 - 733.38] try and keep the conversation in there
+
+[732.18 - 735.0] because I have some people that will
+
+[733.38 - 736.5] like message me on patreon and then
+
+[735.0 - 737.279] switch over to LinkedIn I'm like who are
+
+[736.5 - 739.92] you
+
+[737.279 - 742.68] um and I apologize it causes confusion
+
+[739.92 - 744.3] so please keep it in patreon unless we
+
+[742.68 - 747.42] negotiate and say like hey send me an
+
+[744.3 - 750.54] email or whatever but uh yeah so that
+
+[747.42 - 754.86] that's that all right so jumping back
+
+[750.54 - 757.62] into the topic uh omnipotence this is
+
+[754.86 - 761.339] the idea of the AGI will be all-powerful
+
+[757.62 - 763.86] and the the the the disposition that I
+
+[761.339 - 765.36] saw people adopt and I saw this in
+
+[763.86 - 766.92] comments I've seen it on Twitter I've
+
+[765.36 - 768.72] seen it in YouTube videos I've seen it
+
+[766.92 - 770.579] in other people
+
+[768.72 - 773.1] um is basically
+
+[770.579 - 775.26] people have this this feeling this
+
+[773.1 - 778.139] belief that anything that they imagine
+
+[775.26 - 780.6] that is conceivably possible the AGI
+
+[778.139 - 782.22] will absolutely be able to do and so in
+
+[780.6 - 785.1] this case it's like well I have this one
+
+[782.22 - 787.38] example of a virus from the 1980s that
+
+[785.1 - 789.1800000000001] ended up being globally spread so
+
+[787.38 - 791.88] because that happened once AGI will be
+
+[789.18 - 793.56] able to do that or in another case it's
+
+[791.88 - 795.8389999999999] like oh well AGI will be able to just
+
+[793.56 - 798.2399999999999] transplant itself instantly into any
+
+[795.839 - 802.62] data center in the entire world without
+
+[798.24 - 804.0] further explanation so at first I
+
+[802.62 - 806.339] thought is this magical thinking like
+
+[804.0 - 808.2] that's not how computer systems work and
+
+[806.339 - 809.2790000000001] I even had security Specialists saying
+
+[808.2 - 811.2] oh it's possible it's definitely
+
+[809.279 - 812.88] possible it's like but Russia and China
+
+[811.2 - 815.399] are already trying to do that all the
+
+[812.88 - 818.16] time right with their botnets and their
+
+[815.399 - 820.92] hacking and their cyber warfare so why
+
+[818.16 - 823.68] would AGI be any different why is why
+
+[820.92 - 827.04] why do the rules of cyber security and
+
+[823.68 - 829.079] computer systems not apply to AGI and so
+
+[827.04 - 830.779] one my first thought was maybe this is
+
+[829.079 - 834.06] just magical thinking maybe
+
+[830.779 - 836.22] AGI is so scary to some people that they
+
+[834.06 - 839.3389999999999] just have to imagine that whatever
+
+[836.22 - 840.839] whatever they can imagine might be true
+
+[839.339 - 842.399] or must be true
+
+[840.839 - 844.9200000000001] and so another way of thinking about
+
+[842.399 - 847.019] this is that it is catastrophic thinking
+
+[844.92 - 850.26] or worst case thinking
+
+[847.019 - 850.92] and catastrophic thinking is
+
+[850.26 - 853.4399999999999] um
+
+[850.92 - 855.66] it is a response to
+
+[853.44 - 857.8800000000001] existential threats right it is it is a
+
+[855.66 - 859.86] normal and healthy capability this is
+
+[857.88 - 862.56] why we tell disaster stories right this
+
+[859.86 - 864.3000000000001] is why we have zombie movies this is why
+
+[862.56 - 865.92] we have Armageddon if you're that old
+
+[864.3 - 869.639] and you remember Bruce Willis blowing up
+
+[865.92 - 871.56] the asteroid right we love catastrophic
+
+[869.639 - 872.519] stories because that is how we tell
+
+[871.56 - 874.6199999999999] ourselves
+
+[872.519 - 876.6] this is the worst case scenario and this
+
+[874.62 - 878.339] is how we'll handle it and that's why we
+
+[876.6 - 879.66] keep having Skynet stories and Ultron
+
+[878.339 - 881.639] stories and all that stuff we're telling
+
+[879.66 - 884.459] ourselves these stories so that we can
+
+[881.639 - 886.5] prepare for it this is that this is from
+
+[884.459 - 888.42] a sociological and biological and
+
+[886.5 - 890.76] evolutionary purpose this is why we are
+
+[888.42 - 892.9799999999999] storytellers
+
+[890.76 - 895.86] and so then another possibility emerges
+
+[892.98 - 898.98] what if this catastrophic thinking is
+
+[895.86 - 901.0790000000001] actually a trauma response and so
+
+[898.98 - 903.12] there's a lot to unpack here in the
+
+[901.079 - 905.6389999999999] story in Age of Ultron Tony Stark
+
+[903.12 - 908.4590000000001] created Ultron as a trauma response to
+
+[905.639 - 911.1] the attack on New York from the chatari
+
+[908.459 - 914.399] from um from uh Loki and and you know
+
+[911.1 - 916.019] all that other fun stuff so he his sense
+
+[914.399 - 917.459] of safety and there's lots of videos
+
+[916.019 - 919.74] about this
+
+[917.459 - 921.899] um out there on on YouTubes
+
+[919.74 - 923.88] um his sense of safety of of knowing how
+
+[921.899 - 926.04] the universe worked was disrupted and so
+
+[923.88 - 928.92] he went into this panic mode this
+
+[926.04 - 932.04] persistent panic mode for years how do I
+
+[928.92 - 935.3389999999999] build a suit of armor around the world
+
+[932.04 - 937.139] and he created Ultron out of fear so in
+
+[935.339 - 938.339] that case his catastrophic thinking it
+
+[937.139 - 940.62] was right
+
+[938.339 - 943.8000000000001] but it was also driven by fear now
+
+[940.62 - 946.98] another example is Skynet so one of the
+
+[943.8 - 950.04] the the the the allegorical purpose of
+
+[946.98 - 951.24] Terminator was that oh because of the
+
+[950.04 - 954.12] Cold War
+
+[951.24 - 955.62] because of the Red Scare it said we are
+
+[954.12 - 957.54] going to create the means of our own
+
+[955.62 - 961.019] destruction and so it was a proxy for
+
+[957.54 - 963.4399999999999] mutually assured destruction basically
+
+[961.019 - 965.699] so the whole point of this is that
+
+[963.44 - 968.6990000000001] omnipotence is one of those things that
+
+[965.699 - 970.3199999999999] we imagine as a worst case scenario now
+
+[968.699 - 971.8199999999999] is it possible I'm not going to comment
+
+[970.32 - 974.639] on that one way or another I don't think
+
+[971.82 - 977.22] it's possible I was considering having
+
+[974.639 - 979.019] uh components of this video talk about
+
+[977.22 - 980.279] what are the actual constraints right
+
+[979.019 - 982.019] but that's not the purpose that we're
+
+[980.279 - 984.54] not we're not talking about why AGI will
+
+[982.019 - 986.639] never be God we're saying what if what
+
+[984.54 - 988.8] would it take for it to reach that
+
+[986.639 - 991.38] definition what is the absolute maximum
+
+[988.8 - 992.9399999999999] power that AGI could have how do we
+
+[991.38 - 994.74] Define that so that's all I'm doing I'm
+
+[992.94 - 997.019] not saying one way or another I'm not
+
+[994.74 - 998.339] because again like I started I was
+
+[997.019 - 999.779] saying what are these people are crazy
+
+[998.339 - 1000.9200000000001] right and then I was like actually maybe
+
+[999.779 - 1002.899] there's something going on here let's
+
+[1000.92 - 1005.54] unpack the psychology and the sociology
+
+[1002.899 - 1006.56] and the history and the storytelling
+
+[1005.54 - 1008.139] behind this all right so that's
+
+[1006.56 - 1010.04] omnipotence
+
+[1008.139 - 1012.88] omnipresent
+
+[1010.04 - 1015.98] here's the thing cyberpunk
+
+[1012.88 - 1018.74] books and magazine or comics and movies
+
+[1015.98 - 1021.019] and TV shows since the 80s and probably
+
+[1018.74 - 1024.26] even some before that have been
+
+[1021.019 - 1027.799] reconciling with the um the omnipresence
+
+[1024.26 - 1028.819] of the internet of the of of data and
+
+[1027.799 - 1031.339] information
+
+[1028.819 - 1033.5] and so again going back to the Tony
+
+[1031.339 - 1037.1599999999999] Stark the most recent popular example is
+
+[1033.5 - 1040.52] how do he deliberately wanted AGI
+
+[1037.16 - 1042.26] to be an omnipresent shield around the
+
+[1040.52 - 1045.079] world
+
+[1042.26 - 1046.819] and so this is actually kind of already
+
+[1045.079 - 1048.799] real and it's been explored in movies
+
+[1046.819 - 1050.8999999999999] like Batman uh the Christian Bale Batman
+
+[1048.799 - 1052.1] where he had the the cell phone tracking
+
+[1050.9 - 1054.98] thing I don't know if you remember that
+
+[1052.1 - 1056.7199999999998] it was kind of like you know just at the
+
+[1054.98 - 1057.679] end with Morgan Freeman he's like oh I
+
+[1056.72 - 1059.66] quit
+
+[1057.679 - 1061.16] um you know if if Christian Bale Batman
+
+[1059.66 - 1063.14] was going to activate it and he did and
+
+[1061.16 - 1066.6200000000001] then he destroyed it but basically
+
+[1063.14 - 1069.98] because of the ubiquity of smartphones
+
+[1066.62 - 1072.4399999999998] and Edge devices and iot we have we
+
+[1069.98 - 1074.9] already have billions
+
+[1072.44 - 1077.78] literally billions of cameras
+
+[1074.9 - 1079.7] microphones sensors and wireless devices
+
+[1077.78 - 1084.62] all over the world
+
+[1079.7 - 1087.02] 5G 6G starlink everything the signal is
+
+[1084.62 - 1089.059] there and it all comes down to do you
+
+[1087.02 - 1090.5] have a signal and do you have a device
+
+[1089.059 - 1092.1789999999999] I remember I was listening to Adam
+
+[1090.5 - 1094.16] Savage a few years ago
+
+[1092.179 - 1095.96] this was when Alexa was becoming really
+
+[1094.16 - 1098.299] big and I apologize for anyone who I
+
+[1095.96 - 1103.22] just triggered your Alexa Siri ha
+
+[1098.299 - 1105.1399999999999] anyways so and they were like yeah we
+
+[1103.22 - 1106.28] just added up all you know we went
+
+[1105.14 - 1108.0200000000002] around and looked at all the devices
+
+[1106.28 - 1109.76] that we have and at any given time you
+
+[1108.02 - 1111.799] have like a dozen microphones listening
+
+[1109.76 - 1115.34] to you like right now I've got this one
+
+[1111.799 - 1116.96] I've got the one on the camera and
+
+[1115.34 - 1118.039] I guess actually that's it for me right
+
+[1116.96 - 1120.44] now
+
+[1118.039 - 1123.2] um I've got my my film camera over there
+
+[1120.44 - 1125.72] but it's off so anyways point being is
+
+[1123.2 - 1128.419] we are completely saturated
+
+[1125.72 - 1130.94] with intelligent machines that are
+
+[1128.419 - 1132.919] possible endpoints for any AGI so in
+
+[1130.94 - 1134.48] some respects
+
+[1132.919 - 1136.1000000000001] the possibility of a digital
+
+[1134.48 - 1139.039] Intelligence being omnipresent is
+
+[1136.1 - 1140.48] already true when I realized this I said
+
+[1139.039 - 1143.0] ooh
+
+[1140.48 - 1145.22] maybe these people that are really
+
+[1143.0 - 1146.419] worried about this maybe there's a
+
+[1145.22 - 1147.919] little bit more something to it and
+
+[1146.419 - 1149.66] let's unpack this some more and that's
+
+[1147.919 - 1151.5800000000002] when I change the tone of this video and
+
+[1149.66 - 1154.539] it actually took me a few days to figure
+
+[1151.58 - 1154.539] out how to present this
+
+[1155.0 - 1160.4] so it's not omnipotent yet I think we
+
+[1157.94 - 1163.7] can all agree on that but
+
+[1160.4 - 1166.22] AI is it already has the potential to be
+
+[1163.7 - 1167.48] omnipresent so what's last what's the
+
+[1166.22 - 1168.98] final ingredient
+
+[1167.48 - 1170.96] omniscience
+
+[1168.98 - 1173.24] all-knowing
+
+[1170.96 - 1175.46] at this point we've probably all seen
+
+[1173.24 - 1178.66] the social dilemma and the social
+
+[1175.46 - 1178.66] network and the great hack
+
+[1178.94 - 1183.26] and
+
+[1180.74 - 1184.94] you know companies I won't say I won't
+
+[1183.26 - 1187.16] name names but certain companies out
+
+[1184.94 - 1190.8200000000002] there have developed machine learning
+
+[1187.16 - 1193.7] algorithms to get inside your head
+
+[1190.82 - 1194.96] to figure out your emotional levers and
+
+[1193.7 - 1196.52] buttons
+
+[1194.96 - 1199.1000000000001] to figure out what you want and then of
+
+[1196.52 - 1201.08] course Google Google knows all of our
+
+[1199.1 - 1203.0] searches it they model us that's how
+
+[1201.08 - 1204.98] Google predicts what your next search is
+
+[1203.0 - 1207.38] going to be
+
+[1204.98 - 1210.919] it knows your darkest Secrets all
+
+[1207.38 - 1213.679] implicitly all just by matching patterns
+
+[1210.919 - 1215.3600000000001] the algorithm knows
+
+[1213.679 - 1217.76] and this sounds a lot like something
+
+[1215.36 - 1219.9189999999999] else doesn't it
+
+[1217.76 - 1222.14] doesn't it sound like the
+
+[1219.919 - 1223.7] judeo-christian model of God who knows
+
+[1222.14 - 1225.5590000000002] your thoughts
+
+[1223.7 - 1228.16] knows your sins even if you don't
+
+[1225.559 - 1228.16] confess them
+
+[1228.38 - 1234.5] and this again this already exists today
+
+[1230.9 - 1238.2800000000002] and it's only getting more sophisticated
+
+[1234.5 - 1239.72] and if that is true which it is the
+
+[1238.28 - 1241.46] algorithm already knows and it's only
+
+[1239.72 - 1244.66] getting it's only the more the more data
+
+[1241.46 - 1244.66] we give it the better it knows
+
+[1245.419 - 1249.44] could it simulate us out to Infinity
+
+[1248.059 - 1251.66] because that's another thing that people
+
+[1249.44 - 1253.52] have said what if it is calculating
+
+[1251.66 - 1255.02] millions of years into the future and I
+
+[1253.52 - 1257.36] said Ah that's not even possible then
+
+[1255.02 - 1260.299] I'm like hold on
+
+[1257.36 - 1262.6999999999998] millions of years maybe not but
+
+[1260.299 - 1264.62] certainly relatively efficient
+
+[1262.7 - 1267.98] algorithms can already anticipate our
+
+[1264.62 - 1271.9399999999998] emotions and our needs and our thoughts
+
+[1267.98 - 1273.98] sometimes days weeks months in advance
+
+[1271.94 - 1276.02] and if they can do that and currently
+
+[1273.98 - 1277.82] they do it for profit
+
+[1276.02 - 1279.2] that's relatively benign in the grand
+
+[1277.82 - 1281.539] scheme of things
+
+[1279.2 - 1284.24] in in the in the balance of malevolence
+
+[1281.539 - 1286.1] versus benevolence
+
+[1284.24 - 1288.86] going for a profit motive is kind of
+
+[1286.1 - 1290.9599999999998] neutral it's kind of in the middle
+
+[1288.86 - 1292.6399999999999] but what if we turn that technology that
+
+[1290.96 - 1294.919] ability to anticipate to get into
+
+[1292.64 - 1297.14] people's heads towards benevolence
+
+[1294.919 - 1299.48] towards saying hey we know where you're
+
+[1297.14 - 1300.8600000000001] at in life and we know where you're
+
+[1299.48 - 1302.48] going to end up in a few months we know
+
+[1300.86 - 1305.059] the information that you need we already
+
+[1302.48 - 1306.74] know the right information that you need
+
+[1305.059 - 1309.02] let's go ahead and serve it up to you
+
+[1306.74 - 1311.179] Google could do that today in fact it
+
+[1309.02 - 1314.179] does in some respects you go to your
+
+[1311.179 - 1315.5] Google news feed it'll say hey we think
+
+[1314.179 - 1317.8400000000001] that we think that you'll find this
+
+[1315.5 - 1320.059] article interesting
+
+[1317.84 - 1323.539] so that's two out of three
+
+[1320.059 - 1326.1789999999999] AI is already omnipresent and already
+
+[1323.539 - 1327.919] slightly omniscient
+
+[1326.179 - 1331.52] so there's just one ingredient left for
+
+[1327.919 - 1331.5200000000002] it to be a god omnipotence
+
+[1331.82 - 1337.28] so this is where I got when I had to
+
+[1335.48 - 1338.78] change the tone of this video
+
+[1337.28 - 1340.039] because I made this slide and I'm like
+
+[1338.78 - 1343.94] hold on
+
+[1340.039 - 1346.039] I'm convincing myself now
+
+[1343.94 - 1347.96] the hypothetical processing power of a
+
+[1346.039 - 1349.76] cup of water
+
+[1347.96 - 1352.76] is the equivalent of billions of years
+
+[1349.76 - 1354.62] of CPU time on all computers globally
+
+[1352.76 - 1356.6589999999999] per second
+
+[1354.62 - 1362.02] so what do I mean by that an eight ounce
+
+[1356.659 - 1362.0200000000002] cup of water has 7 to the 1024 molecules
+
+[1363.02 - 1368.539] and each water molecule is shaped
+
+[1365.96 - 1371.539] roughly like that it's got 120 degree
+
+[1368.539 - 1373.22] Bend and it's a switch
+
+[1371.539 - 1374.9] that's all that's all the transistor is
+
+[1373.22 - 1376.1000000000001] and they're operating at terahertz
+
+[1374.9 - 1379.3400000000001] frequency not gigahertz they're
+
+[1376.1 - 1383.1789999999999] operating at a thousand times faster
+
+[1379.34 - 1385.1] than silicon based and they operate on
+
+[1383.179 - 1389.179] ambient temperature
+
+[1385.1 - 1393.9189999999999] if hypothetically we could use water
+
+[1389.179 - 1395.7800000000002] droplets as clusters of transistors
+
+[1393.919 - 1397.7] the power the computational power
+
+[1395.78 - 1400.58] completely destroys
+
+[1397.7 - 1402.14] all of human intelligence now
+
+[1400.58 - 1403.46] I don't know that anyone's working on
+
+[1402.14 - 1404.8400000000001] that but there are a few things that
+
+[1403.46 - 1406.52] people are working on that are getting
+
+[1404.84 - 1408.02] us closer to that so one is quantum
+
+[1406.52 - 1410.4189999999999] computing
+
+[1408.02 - 1413.539] in Quantum Computing is seemingly
+
+[1410.419 - 1415.5200000000002] magical because of how things like
+
+[1413.539 - 1417.26] superposition and entanglement change
+
+[1415.52 - 1419.12] how it computes
+
+[1417.26 - 1421.4] now Quantum Computing is still up and
+
+[1419.12 - 1424.52] coming but there are plenty of companies
+
+[1421.4 - 1426.26] Google IBM everyone else and and their
+
+[1424.52 - 1428.36] brother basically
+
+[1426.26 - 1430.039] working on deploying commercial Quantum
+
+[1428.36 - 1433.52] Computing we don't even know what the
+
+[1430.039 - 1434.78] upper bound of quantum Computing is yet
+
+[1433.52 - 1437.559] that's because we don't even know how to
+
+[1434.78 - 1437.559] use it fully yet
+
+[1437.72 - 1440.96] another thing that's up and coming is
+
+[1439.34 - 1442.76] photonic computing
+
+[1440.96 - 1446.539] Computing with light
+
+[1442.76 - 1447.74] it is itself hundreds if not thousands
+
+[1446.539 - 1449.419] of times more efficient than
+
+[1447.74 - 1451.58] silicon-based computing
+
+[1449.419 - 1454.88] it's still in its infancy
+
+[1451.58 - 1455.78] but we do have photonic transistors that
+
+[1454.88 - 1458.2990000000002] exist
+
+[1455.78 - 1460.3999999999999] Moore's law goes out the window
+
+[1458.299 - 1462.5] if we figure that out and then finally
+
+[1460.4 - 1464.299] there's neuromorphic chips so these are
+
+[1462.5 - 1466.4] Hardware chips that have that operate
+
+[1464.299 - 1468.5] based on analog rules
+
+[1466.4 - 1470.24] that have hard-coded physical neural
+
+[1468.5 - 1472.7] networks built in
+
+[1470.24 - 1476.08] and they run either on Ambient Energy or
+
+[1472.7 - 1476.0800000000002] very very low energy
+
+[1476.299 - 1479.6589999999999] so when I made this slide and I was like
+
+[1478.28 - 1484.28] you know
+
+[1479.659 - 1487.159] anything that is potentially computable
+
+[1484.28 - 1491.48] it's entirely conceivable that within a
+
+[1487.159 - 1493.8200000000002] few years any AI entity could out-think
+
+[1491.48 - 1495.559] all of humanity
+
+[1493.82 - 1498.86] so
+
+[1495.559 - 1501.32] that argument of aiming for omnipotence
+
+[1498.86 - 1502.76] seems a little bit more realistic now I
+
+[1501.32 - 1504.02] was going to go down the rabbit hole of
+
+[1502.76 - 1506.299] like oh well it's never going to be able
+
+[1504.02 - 1509.179] to like go through time or go faster
+
+[1506.299 - 1510.3799999999999] than the speed of light but I was like
+
+[1509.179 - 1511.52] I don't know if I want to make that
+
+[1510.38 - 1514.5800000000002] claim
+
+[1511.52 - 1516.3799999999999] you know Google created a Time Wormhole
+
+[1514.58 - 1518.059] something or other with their quantum
+
+[1516.38 - 1519.3200000000002] computer I was like all right well I
+
+[1518.059 - 1522.559] don't know what's impossible actually I
+
+[1519.32 - 1525.02] can't say that anything's impossible
+
+[1522.559 - 1527.299] so after working on this
+
+[1525.02 - 1530.24] the folks that said the bimodal outcome
+
+[1527.299 - 1532.82] is more likely it's either Utopia
+
+[1530.24 - 1534.5] or Extinction
+
+[1532.82 - 1536.1789999999999] it's either going to be the best thing
+
+[1534.5 - 1539.6] ever
+
+[1536.179 - 1540.98] you know our Salvation as a species or
+
+[1539.6 - 1543.74] our eradication
+
+[1540.98 - 1545.9] you know I kind of
+
+[1543.74 - 1547.64] see the argument I'm not sure that I am
+
+[1545.9 - 1550.279] committed one way or another
+
+[1547.64 - 1552.6200000000001] but I see the argument
+
+[1550.279 - 1555.26] so no wonder it's been contentious
+
+[1552.62 - 1556.82] and I will leave you all with that
+
+[1555.26 - 1560.08] there's a lot to think about and a lot
+
+[1556.82 - 1560.08] to work on so thanks for watching

@@ -1,0 +1,1029 @@
+[0.06 - 5.159999999999999] there are three particularly interesting
+
+[3.0 - 6.96] papers that are out on archive right now
+
+[5.16 - 8.88] and archive is a pre-print server so
+
+[6.96 - 10.98] these have not been formally accepted
+
+[8.88 - 12.780000000000001] however they are very interesting to me
+
+[10.98 - 15.299] and I noticed that they weren't getting
+
+[12.78 - 16.56] any traction so I am here to remedy that
+
+[15.299 - 18.48] situation
+
+[16.56 - 21.24] so today I'm going to cover three papers
+
+[18.48 - 22.859] that uh appear on archive the first one
+
+[21.24 - 25.858999999999998] is collective or sorry conversational
+
+[22.859 - 27.840000000000003] swarm intelligence CSI the second one is
+
+[25.859 - 30.060000000000002] about theory of mind and their emergence
+
+[27.84 - 32.82] in llms we've actually finally got some
+
+[30.06 - 35.699999999999996] empirical evidence about how and why
+
+[32.82 - 37.92] theory of mind is modeled in large
+
+[35.7 - 39.6] language models and then finally a paper
+
+[37.92 - 42.42] on proposing a new cognitive
+
+[39.6 - 45.059] architecture for autonomous agents
+
+[42.42 - 47.7] so first CSI conversational swarm
+
+[45.059 - 50.099999999999994] intelligence uh this is a paper it was a
+
+[47.7 - 53.399] relatively small experiment they had 25
+
+[50.1 - 57.660000000000004] people broken out into five chat rooms
+
+[53.399 - 61.199] and they used chat GPT 3.5 to basically
+
+[57.66 - 63.66] summarize and transmit the ideas from
+
+[61.199 - 66.84] one chat room to another uh once a
+
+[63.66 - 68.52] minute now this basically formed a
+
+[66.84 - 71.4] little bridge between these five
+
+[68.52 - 74.22] different chat rooms but the the result
+
+[71.4 - 76.979] was actually relatively impactful for a
+
+[74.22 - 79.2] for a somewhat low bandwidth kind of
+
+[76.979 - 81.65899999999999] summary and transmission of ideas to
+
+[79.2 - 83.36] propagate across this uh this very
+
+[81.659 - 85.74000000000001] relatively small Information Network
+
+[83.36 - 88.619] there was 30 percent more contributions
+
+[85.74 - 90.53999999999999] and then seven percent less variance so
+
+[88.619 - 92.88] why is this significant so if
+
+[90.54 - 94.68] contributions go up by a third that
+
+[92.88 - 97.439] means that people are more engaged while
+
+[94.68 - 100.38000000000001] they're problem solving and so taking a
+
+[97.439 - 103.32] big step back what like so what why well
+
+[100.38 - 105.06] imagine you're on Discord and you've got
+
+[103.32 - 106.86] a whole bunch of different channels and
+
+[105.06 - 108.72] people are all kind of scattered all
+
+[106.86 - 110.28] over the place and there's conversations
+
+[108.72 - 112.14] happening in different channels and
+
+[110.28 - 114.42] different Discord servers and you need
+
+[112.14 - 116.759] to coordinate this is the kind of thing
+
+[114.42 - 119.1] that a lot of us who are users of slack
+
+[116.759 - 121.38] Discord and Microsoft teams and pretty
+
+[119.1 - 123.65899999999999] much any other chat platform wish that
+
+[121.38 - 126.53999999999999] we could have because what this does is
+
+[123.659 - 130.14000000000001] it is in real time it surfaces the
+
+[126.54 - 132.42000000000002] primary uh like insights and decisions
+
+[130.14 - 135.23899999999998] that are being created as people
+
+[132.42 - 136.67999999999998] Converse and then propagates that across
+
+[135.239 - 139.98000000000002] a network
+
+[136.68 - 141.42000000000002] and so this uh some of the advantages of
+
+[139.98 - 144.42] this method is that it's really really
+
+[141.42 - 146.94] simple they use chat GPT 3.5 which is
+
+[144.42 - 149.48] cheap and fast in order to propagate
+
+[146.94 - 152.099] these signals these information across
+
+[149.48 - 153.84] networks so how is this going to play
+
+[152.099 - 156.23899999999998] out why do I think that this is
+
+[153.84 - 157.739] significant the biggest reason that I
+
+[156.239 - 160.56] think that this is significant is
+
+[157.739 - 162.84] because as the information landscape out
+
+[160.56 - 164.22] there accelerates and we have more
+
+[162.84 - 167.64000000000001] internet saturation more internet
+
+[164.22 - 170.94] penetration and more conversations we
+
+[167.64 - 172.5] need ways of coordinating massive uh
+
+[170.94 - 174.78] like efforts whether it's uh
+
+[172.5 - 177.42] coordinating open source planning with
+
+[174.78 - 179.7] inside companies uh or even just on
+
+[177.42 - 181.85999999999999] social media discussing social issues
+
+[179.7 - 184.01899999999998] discussing policy issues that sort of
+
+[181.86 - 186.42000000000002] thing I think that this technology will
+
+[184.019 - 189.54] fundamentally offer us new ways to
+
+[186.42 - 191.819] disseminate information and to get up to
+
+[189.54 - 193.79999999999998] speed and share ideas and also magnify
+
+[191.819 - 196.61999999999998] good ideas because imagine it this way
+
+[193.8 - 198.72] imagine that there is a Discord server
+
+[196.62 - 201.78] or subreddit or whatever where people
+
+[198.72 - 204.0] are you know workshopping ideas about
+
+[201.78 - 206.34] like how do we Implement Ubi or how do
+
+[204.0 - 208.98] we solve climate change or whatever the
+
+[206.34 - 210.599] good ideas that originate in one server
+
+[208.98 - 213.23899999999998] are going to be automatically propagated
+
+[210.599 - 215.51899999999998] to other servers or other chat rooms
+
+[213.239 - 218.09900000000002] where they can be discussed and added
+
+[215.519 - 221.22] and so it basically destroys the echo
+
+[218.099 - 223.79899999999998] chamber entirely but it's it it destroys
+
+[221.22 - 225.659] the echo chamber by mediating that
+
+[223.799 - 228.0] conversation by simply just saying hey
+
+[225.659 - 229.79899999999998] this other group you know it's not
+
+[228.0 - 231.72] personal just this other group had this
+
+[229.799 - 234.12] idea what do you think of it let's add
+
+[231.72 - 235.98] it to your conversation and so by
+
+[234.12 - 239.459] constantly cross-pollinating between
+
+[235.98 - 241.56] these chat rooms these Echo Chambers you
+
+[239.459 - 243.9] can break down those intellectual
+
+[241.56 - 246.18] barriers and those emotional barriers in
+
+[243.9 - 248.04] order to have better conversations now
+
+[246.18 - 250.14000000000001] this was a relatively small experiment
+
+[248.04 - 252.35999999999999] but I think that I think that you'll
+
+[250.14 - 254.819] probably actually see even greater
+
+[252.36 - 256.73900000000003] impacts with larger groups and more
+
+[254.819 - 258.359] sophisticated approaches now one thing
+
+[256.739 - 261.479] that I want to point out is that this
+
+[258.359 - 263.18] study is done in part by Carnegie Mellon
+
+[261.479 - 266.21999999999997] University so these are serious people
+
+[263.18 - 267.24] uh serious researchers promoting this
+
+[266.22 - 269.40000000000003] idea
+
+[267.24 - 271.74] so next up we have this is the big one
+
+[269.4 - 273.59999999999997] so this one as soon as I saw this I was
+
+[271.74 - 274.979] like okay whatever this is nothing new
+
+[273.6 - 276.18] but then I got to reading it and they
+
+[274.979 - 278.94] started referring to this thing called
+
+[276.18 - 280.5] artificial neurons okay so taking one
+
+[278.94 - 283.56] big step back what is theory of Mind
+
+[280.5 - 285.6] theory of mind is the human ability to
+
+[283.56 - 287.22] model what is going on in someone else's
+
+[285.6 - 290.28000000000003] mind we have the ability to keep track
+
+[287.22 - 291.84000000000003] of the contents beliefs and state of
+
+[290.28 - 294.35999999999996] someone else's brain
+
+[291.84 - 297.65999999999997] and so obviously theory of mind it
+
+[294.36 - 299.94] doesn't work best over text however it
+
+[297.66 - 301.74] is more of a longitudinal or it has a
+
+[299.94 - 303.24] temporal component meaning that the
+
+[301.74 - 304.86] longer you interact with someone the
+
+[303.24 - 306.78000000000003] more you can gauge kind of what they
+
+[304.86 - 309.41900000000004] believe what's going on in their head so
+
+[306.78 - 313.08] on and so forth so what this paper does
+
+[309.419 - 315.479] is they talked about applying theory of
+
+[313.08 - 317.69899999999996] Mind tests that are used on humans so
+
+[315.479 - 319.199] human-based theory of Mind tests to a
+
+[317.699 - 321.78000000000003] variety of language models including
+
+[319.199 - 323.94] Falcon and llama and a few others in
+
+[321.78 - 325.55999999999995] order to see to one measure their
+
+[323.94 - 327.479] performance which you can see by this
+
+[325.56 - 329.82] graph none of them perform as well as
+
+[327.479 - 330.96] humans yet which okay that's not what
+
+[329.82 - 332.94] we're measuring here we're not we're not
+
+[330.96 - 334.5] trying to compare their performance to
+
+[332.94 - 336.9] Human Performance we're trying to
+
+[334.5 - 338.1] characterize how these language models
+
+[336.9 - 339.84] have theory of mind and these are
+
+[338.1 - 341.94] relatively small models we have 40
+
+[339.84 - 344.06] billion parameter models and 13 billion
+
+[341.94 - 346.5] parameter models so these are very small
+
+[344.06 - 348.96] and they're still demonstrating some
+
+[346.5 - 352.5] theory of mind now the most interesting
+
+[348.96 - 354.12] thing to me is that this emergence of
+
+[352.5 - 356.28] what they call artificial neurons or
+
+[354.12 - 358.38] selective embeddings and so basically
+
+[356.28 - 359.69899999999996] what this is and this was actually a
+
+[358.38 - 362.21999999999997] little bit harder to believe because
+
+[359.699 - 363.72] there's been rumors you know from the
+
+[362.22 - 365.52000000000004] neuroscience and AI Community for
+
+[363.72 - 367.74] actually several years that there's
+
+[365.52 - 370.5] often some convergence between the way
+
+[367.74 - 372.66] that uh deep neural networks process
+
+[370.5 - 374.1] information and the way that some very
+
+[372.66 - 375.84000000000003] small circuits in the human brain
+
+[374.1 - 378.18] process information
+
+[375.84 - 381.35999999999996] and so we usually see that more in
+
+[378.18 - 383.639] visual processing so for instance in all
+
+[381.36 - 385.91900000000004] the language models uh image detection
+
+[383.639 - 388.5] and object recognition the way that
+
+[385.919 - 390.35999999999996] those surface features such as edges and
+
+[388.5 - 392.4] colors and shapes is actually really
+
+[390.36 - 395.88] similar to how the optic nerve in the
+
+[392.4 - 399.29999999999995] human brain processes uh and and and
+
+[395.88 - 400.88] breaks down images but that's okay that
+
+[399.3 - 403.44] that kind of makes sense right you know
+
+[400.88 - 405.65999999999997] human human eyes human brains through
+
+[403.44 - 407.21999999999997] the process of evolution our optic nerve
+
+[405.66 - 410.1] is going to find the most efficient way
+
+[407.22 - 412.5] of decomposing images that we take in
+
+[410.1 - 415.5] likewise you have the same problem space
+
+[412.5 - 418.08] of image decomposition you train a
+
+[415.5 - 420.12] neural network to do the same thing with
+
+[418.08 - 421.5] the same kinds of data maybe you're
+
+[420.12 - 423.06] going to have some convergence in the
+
+[421.5 - 424.979] way that they process and of course of
+
+[423.06 - 427.44] course I'm not saying that it like it
+
+[424.979 - 428.52] created a virtual optic nerve that's
+
+[427.44 - 430.039] what I'm saying that's not what I'm
+
+[428.52 - 433.74] saying at all what I'm saying is that
+
+[430.039 - 434.81899999999996] kind of what these circuits do at an
+
+[433.74 - 437.34000000000003] emergent level what they do
+
+[434.819 - 439.74] mathematically to that information is
+
+[437.34 - 442.19899999999996] there is some convergence now this is an
+
+[439.74 - 444.96000000000004] entirely new domain because it's one
+
+[442.199 - 447.66] thing to process image data it's another
+
+[444.96 - 449.65999999999997] thing to process beliefs what is a
+
+[447.66 - 452.58000000000004] belief how can you represent a belief
+
+[449.66 - 454.91900000000004] mathematically and what this paper does
+
+[452.58 - 456.78] and this is the part that is just it's
+
+[454.919 - 459.24] it's still kind of blowing my mind what
+
+[456.78 - 461.099] this paper does is it shows that there
+
+[459.24 - 463.199] are these emergent neural circuits or
+
+[461.099 - 465.96] these selective embeddings that
+
+[463.199 - 468.66] specifically pay attention to True
+
+[465.96 - 470.52] beliefs and false beliefs and whether or
+
+[468.66 - 473.09900000000005] not the information and question being
+
+[470.52 - 476.28] asked pertains to a true or false belief
+
+[473.099 - 478.919] and what they furthermore say and these
+
+[476.28 - 480.9] again I want to point out who is uh
+
+[478.919 - 484.08] promoting this this is Harvard this is
+
+[480.9 - 486.12] MIT this is um this is the health
+
+[484.08 - 487.8] sciences and technology department this
+
+[486.12 - 491.34000000000003] is the medical school and program of
+
+[487.8 - 493.02000000000004] Neuroscience so uh it's one thing if I
+
+[491.34 - 495.17999999999995] say hey there's some convergence between
+
+[493.02 - 496.74] artificial neural networks and organic
+
+[495.18 - 499.139] neural networks it's an entirely
+
+[496.74 - 501.06] different thing if Harvard Neuroscience
+
+[499.139 - 502.86] says that there's some convergence and
+
+[501.06 - 504.84] so this is why I'm like visibly excited
+
+[502.86 - 506.28000000000003] because this is something that I've been
+
+[504.84 - 508.02] thinking about for a while what is the
+
+[506.28 - 510.05999999999995] nature of super intelligence once it
+
+[508.02 - 511.56] emerges and one thing that a lot of
+
+[510.06 - 513.839] people are really skeptical of and
+
+[511.56 - 515.82] hostile about is saying ah well we have
+
+[513.839 - 516.9590000000001] no idea how super intelligence is going
+
+[515.82 - 519.36] to work it's going to be completely
+
+[516.959 - 521.8199999999999] alien it's going to basically be like
+
+[519.36 - 523.6800000000001] talking to you know the there's just
+
+[521.82 - 525.4200000000001] going to be no similarity between the
+
+[523.68 - 527.88] way that we process information and our
+
+[525.42 - 530.5799999999999] goals and you know
+
+[527.88 - 532.92] I'm not sure that I believe that I I I
+
+[530.58 - 535.32] personally think that uh that there are
+
+[532.92 - 536.64] one probably diminishing returns uh
+
+[535.32 - 538.6800000000001] because think about think of it this way
+
+[536.64 - 541.019] the human brain is 30 smaller than the
+
+[538.68 - 542.64] neander Neanderthal vein but we are
+
+[541.019 - 544.5] objectively smarter than the
+
+[542.64 - 546.48] Neanderthals were based on the
+
+[544.5 - 549.36] sophistication of our art and artifacts
+
+[546.48 - 551.339] that they left behind uh and so it's
+
+[549.36 - 553.08] size isn't always everything now these
+
+[551.339 - 555.48] are still very tiny models in the grand
+
+[553.08 - 558.0] scheme of things so they haven't quite
+
+[555.48 - 559.74] gotten up to the optimal size but at the
+
+[558.0 - 561.24] same time there's probably going to be
+
+[559.74 - 564.1800000000001] diminishing returns in terms of
+
+[561.24 - 565.6800000000001] intelligence once you have the the raw
+
+[564.18 - 567.7199999999999] materials of intelligence the raw
+
+[565.68 - 570.3] machines you can do more of it you can
+
+[567.72 - 572.1600000000001] do it faster but there's probably limits
+
+[570.3 - 574.38] to the to the way that information is
+
+[572.16 - 576.12] processed in the brain now that being
+
+[574.38 - 577.92] said there's obviously a huge variance
+
+[576.12 - 579.6] between humans there are some humans
+
+[577.92 - 581.3389999999999] that can do calculus at light speed
+
+[579.6 - 584.399] there are others that cannot do calculus
+
+[581.339 - 586.86] at all and so on and so forth so we
+
+[584.399 - 589.98] should still expect to see uh superhuman
+
+[586.86 - 591.48] abilities emerge but the point here is
+
+[589.98 - 593.58] that from a mathematical perspective
+
+[591.48 - 595.26] where all Universal Turing machines
+
+[593.58 - 597.36] we're all dealing in the same realm of
+
+[595.26 - 599.22] physics with the same underpinning laws
+
+[597.36 - 601.44] of physics matter and energy allowing us
+
+[599.22 - 604.44] to do these computations and so
+
+[601.44 - 607.1400000000001] basically the the takeaway here is that
+
+[604.44 - 608.8800000000001] maybe the human brain already found some
+
+[607.14 - 611.3389999999999] of the most efficient ways to do
+
+[608.88 - 613.98] processing and so what we're seeing here
+
+[611.339 - 615.7790000000001] is the first evidence that neural
+
+[613.98 - 618.54] networks artificial neural networks are
+
+[615.779 - 621.72] converging on processing theory of mind
+
+[618.54 - 625.5] in a similar way that human brains do so
+
+[621.72 - 627.4200000000001] the net result might be that AI thinks
+
+[625.5 - 628.44] more similarly to us than we realize or
+
+[627.42 - 630.779] at least has some of the same
+
+[628.44 - 632.8800000000001] underpinning neural capabilities now
+
+[630.779 - 634.56] obviously we can reshape artificial
+
+[632.88 - 636.24] neural networks any way that we want we
+
+[634.56 - 638.16] can slice them and dice them and
+
+[636.24 - 639.72] recombine them in in ways and structure
+
+[638.16 - 642.3] them in ways that that is not possible
+
+[639.72 - 644.7] for human brains but then again the
+
+[642.3 - 646.56] human brain has a lot of plasticity and
+
+[644.7 - 648.839] literally quadrillions of connections
+
+[646.56 - 651.8389999999999] inside of it that can create virtual
+
+[648.839 - 653.4590000000001] circuits on the fly so it remains to be
+
+[651.839 - 656.7] seen obviously don't read too much into
+
+[653.459 - 658.5] this this is a very early study but I've
+
+[656.7 - 660.779] seen this trend for several years now I
+
+[658.5 - 662.64] used to listen to this podcast called
+
+[660.779 - 665.3389999999999] neuro-inspired
+
+[662.64 - 667.74] um or brain inspired anyways they talked
+
+[665.339 - 670.019] about this kind of thing uh for the last
+
+[667.74 - 671.22] five five years or so and then finally
+
+[670.019 - 673.32] the last paper that I want to cover
+
+[671.22 - 675.26] today is the koala paper the cognitive
+
+[673.32 - 678.4200000000001] architectures for language agents paper
+
+[675.26 - 680.04] now uh the reason that I wanted to cite
+
+[678.42 - 683.2199999999999] this paper is because one it came from
+
+[680.04 - 685.62] Princeton so another uh ivy league aside
+
+[683.22 - 687.4200000000001] from Harvard but another thing that this
+
+[685.62 - 688.92] paper does really well is it introduces
+
+[687.42 - 691.019] all the background of cognitive
+
+[688.92 - 692.9399999999999] architecture and gives you some of the
+
+[691.019 - 694.5] the ground rules
+
+[692.94 - 695.6400000000001] the how and why of cognitive
+
+[694.5 - 697.98] architecture and the history of
+
+[695.64 - 698.9399999999999] cognitive architecture and so this is of
+
+[697.98 - 701.16] course something that I've talked about
+
+[698.94 - 703.86] for a long time I've written three books
+
+[701.16 - 705.66] on cognitive architecture now and but
+
+[703.86 - 707.339] this is a little bit more validation and
+
+[705.66 - 710.3389999999999] Vindication from the academic
+
+[707.339 - 712.2600000000001] establishment and you'll notice that the
+
+[710.339 - 715.8000000000001] uh the cognitive architectural diagram
+
+[712.26 - 717.54] they have here is basically the same as
+
+[715.8 - 720.7199999999999] the sore cognitive architecture which
+
+[717.54 - 722.16] has been around since what the 70s 80s
+
+[720.72 - 723.6] is when it was really kind of being
+
+[722.16 - 725.88] worked on
+
+[723.6 - 726.9590000000001] um so the book that I wrote a symphony
+
+[725.88 - 728.76] of thought and natural language
+
+[726.959 - 730.56] cognitive architecture both proposed
+
+[728.76 - 732.12] more sophisticated cognitive
+
+[730.56 - 733.92] architectures or at least some cognitive
+
+[732.12 - 735.54] architectural paradigms
+
+[733.92 - 736.62] um so this paper doesn't add too much
+
+[735.54 - 738.06] but if you're not familiar with
+
+[736.62 - 740.04] cognitive architectures it's a really
+
+[738.06 - 742.3199999999999] great entry point that's why I wanted to
+
+[740.04 - 744.36] share this one and they have a very
+
+[742.32 - 746.339] linear kind of process here
+
+[744.36 - 749.4590000000001] observation proposal evaluation
+
+[746.339 - 751.62] selection execution that's great it's a
+
+[749.459 - 753.7199999999999] relatively simple linear thing
+
+[751.62 - 755.82] um there's a few things missing from
+
+[753.72 - 758.64] this namely this paper does not address
+
+[755.82 - 761.339] ethics morality or even really decision
+
+[758.64 - 763.74] making Frameworks so you can create an
+
+[761.339 - 766.2600000000001] autonomous agent with what purpose what
+
+[763.74 - 768.839] mission they don't really talk about how
+
+[766.26 - 770.779] to deeply integrate that into the design
+
+[768.839 - 773.519] this is more of a general purpose
+
+[770.779 - 775.62] slightly biomimetic cognitive
+
+[773.519 - 777.6] architecture so I'm not particularly
+
+[775.62 - 779.82] personally impressed but I'm glad that
+
+[777.6 - 782.82] this paper exists to bring more of the
+
+[779.82 - 784.62] conversation at a high level into the
+
+[782.82 - 786.48] space of cognitive architecture and
+
+[784.62 - 789.6] large language models and autonomous
+
+[786.48 - 791.339] agents okay so those are the three
+
+[789.6 - 793.5600000000001] papers let's just do a quick recap and
+
+[791.339 - 796.2600000000001] as we wrap it up for the day
+
+[793.56 - 798.3599999999999] um so CSI the uh the the Swarm
+
+[796.26 - 800.459] intelligence uh this is going to be
+
+[798.36 - 803.1] really useful I think for open source
+
+[800.459 - 805.26] science policy and consensus what I'm
+
+[803.1 - 808.32] really looking forward to is the CSI
+
+[805.26 - 810.66] paper to be integrated as a feature into
+
+[808.32 - 813.24] Microsoft teams and slack and Discord
+
+[810.66 - 815.639] where you can just say hey automatically
+
+[813.24 - 817.74] surface the main points uh you know as
+
+[815.639 - 819.3] these threads go and share those points
+
+[817.74 - 820.8] with the rest of the of the community
+
+[819.3 - 822.24] now again this is something that's
+
+[820.8 - 825.3] relatively simple as long as you have
+
+[822.24 - 828.0] API access to chat GPT and Discord you
+
+[825.3 - 830.04] can implement this today uh and it's
+
+[828.0 - 831.959] it's super simple it's just on a minute
+
+[830.04 - 834.48] by minute basis or on a regular time
+
+[831.959 - 835.8599999999999] basis you take a roll up you summarize
+
+[834.48 - 837.72] kind of the key points that are being
+
+[835.86 - 840.6] discussed and you share it to the most
+
+[837.72 - 842.5790000000001] relevant nearby groups super brain dead
+
+[840.6 - 844.019] simple there's all kinds of ways you can
+
+[842.579 - 846.7199999999999] make it more sophisticated and more
+
+[844.019 - 848.399] complicated but the fact that you can
+
+[846.72 - 850.6800000000001] get such good results with it such a
+
+[848.399 - 853.32] simple algorithm is really encouraging
+
+[850.68 - 856.56] number two theory of mind and artificial
+
+[853.32 - 858.36] neurons this is really profound evidence
+
+[856.56 - 860.88] of neural convergence which I think is
+
+[858.36 - 863.76] going to be a really big topic as we
+
+[860.88 - 865.5] approach AGI and super intelligence we
+
+[863.76 - 867.24] might discover that human brains are
+
+[865.5 - 869.04] already the most efficient way and so
+
+[867.24 - 870.3] that as machines get more and more
+
+[869.04 - 871.68] intelligent they actually become more
+
+[870.3 - 873.779] like us
+
+[871.68 - 875.459] so uh you know there's there's
+
+[873.779 - 878.88] instrumental convergence that Nick
+
+[875.459 - 880.3199999999999] Bostrom uh proposed that maybe as uh AI
+
+[878.88 - 882.779] becomes more autonomous there's going to
+
+[880.32 - 884.639] be several goals that all AI Converge on
+
+[882.779 - 886.74] which when you take a step back it's
+
+[884.639 - 889.26] like all AI is going to want resources
+
+[886.74 - 891.36] well all humans want resources all AI is
+
+[889.26 - 893.1] going to want to self-preserve okay all
+
+[891.36 - 895.62] humans want to self-preserve so
+
+[893.1 - 897.839] basically like as more time goes by I'm
+
+[895.62 - 899.279] less and less impressed by uh by Nick
+
+[897.839 - 901.62] bostrom's work and I know that that's
+
+[899.279 - 904.079] like okay you know I'll probably catch
+
+[901.62 - 907.68] some plaque for that but if you look at
+
+[904.079 - 909.779] an at a machine as an agent in the realm
+
+[907.68 - 912.8389999999999] of physics and energy yes it's going to
+
+[909.779 - 914.88] have some same some similar uh needs as
+
+[912.839 - 916.3800000000001] us now what I'm talking about here
+
+[914.88 - 918.24] though is not just from the matter of
+
+[916.38 - 919.86] energy and material what I'm talking
+
+[918.24 - 922.5600000000001] about is the way that it processes
+
+[919.86 - 925.62] information and perhaps you know maybe
+
+[922.56 - 927.54] maybe just maybe a few billion years of
+
+[925.62 - 930.48] evolution has already discovered the
+
+[927.54 - 933.36] most energetic uh method of achieving
+
+[930.48 - 935.339] some of these things and so I anticipate
+
+[933.36 - 937.8000000000001] we will probably see a little bit more
+
+[935.339 - 939.48] convergence but like I said it's not
+
+[937.8 - 941.76] it's not that it's functionally or
+
+[939.48 - 943.86] physically processing in the same way
+
+[941.76 - 945.12] but rather some of the Transformations
+
+[943.86 - 947.339] that are happening to the information
+
+[945.12 - 948.779] and the way that it's the way that the
+
+[947.339 - 949.8000000000001] neural networks the artificial neural
+
+[948.779 - 952.32] networks are treating the information
+
+[949.8 - 954.4799999999999] that flows through them is similar
+
+[952.32 - 956.88] enough to some of the ways that various
+
+[954.48 - 958.0790000000001] brain circuits organic circuits treat
+
+[956.88 - 961.5] information
+
+[958.079 - 965.519] if this continues this will have massive
+
+[961.5 - 967.079] massive implications for the way that we
+
+[965.519 - 968.639] think of super intelligence and
+
+[967.079 - 972.4799999999999] artificial intelligence moving forward
+
+[968.639 - 974.88] now again this even as a as an I.T guy
+
+[972.48 - 977.5790000000001] as a software engineer as an architect I
+
+[974.88 - 979.5] will say that okay great even if on a on
+
+[977.579 - 981.2399999999999] a you know microscopic level you look at
+
+[979.5 - 982.8] a model under a microscope it does
+
+[981.24 - 984.66] something similar to the human brain
+
+[982.8 - 986.279] that in no way says that that they're
+
+[984.66 - 987.12] going to be agentic just like us that
+
+[986.279 - 989.04] they're going to have a sense of
+
+[987.12 - 990.24] self-preservation just like us that
+
+[989.04 - 991.74] they're going to have the same goals and
+
+[990.24 - 993.54] morals and values as us that's not what
+
+[991.74 - 994.86] I'm saying at all all I'm saying is that
+
+[993.54 - 998.42] the way that they process information
+
+[994.86 - 1000.62] the cognitive tools that are emerging in
+
+[998.42 - 1002.5999999999999] artificial neural networks are similar
+
+[1000.62 - 1005.6] enough to us that maybe there's a
+
+[1002.6 - 1006.98] possibility that um that that we will
+
+[1005.6 - 1009.5600000000001] actually be able to understand each
+
+[1006.98 - 1010.94] other uh for the foreseeable future it's
+
+[1009.56 - 1013.399] also entirely possible that they will
+
+[1010.94 - 1015.0790000000001] evolve entirely new cognitive Machinery
+
+[1013.399 - 1016.699] that we just don't comprehend that they
+
+[1015.079 - 1019.519] will come up with novel information
+
+[1016.699 - 1021.92] processing schemes that our brains are
+
+[1019.519 - 1024.079] just not capable of intuitively
+
+[1021.92 - 1026.78] understanding so one example could be
+
+[1024.079 - 1028.819] um it could be exponentials no matter
+
+[1026.78 - 1030.799] how much training you have human brains
+
+[1028.819 - 1033.559] are just simply not equipped to
+
+[1030.799 - 1035.36] intuitively grasp exponentials we live
+
+[1033.559 - 1037.3999999999999] in a geometric world
+
+[1035.36 - 1039.1989999999998] and so we're able to throw footballs
+
+[1037.4 - 1040.699] back and forth we're able to you know
+
+[1039.199 - 1042.14] kind of anticipate where something is
+
+[1040.699 - 1044.78] going to land if you throw it or if it's
+
+[1042.14 - 1047.3600000000001] dropped but if you look at an
+
+[1044.78 - 1049.6399999999999] exponentially changing thing your brain
+
+[1047.36 - 1052.1] just does not have the neural Machinery
+
+[1049.64 - 1054.2] to uh to understand that or to
+
+[1052.1 - 1056.6599999999999] intuitively grasp it no matter how much
+
+[1054.2 - 1058.52] experience and training you have and so
+
+[1056.66 - 1060.8600000000001] in that respect it's entirely possible
+
+[1058.52 - 1062.96] that artificial neural networks will
+
+[1060.86 - 1064.1] continue to evolve in that direction
+
+[1062.96 - 1066.6200000000001] where they will be able to understand
+
+[1064.1 - 1068.84] things because of the underlying neural
+
+[1066.62 - 1071.059] Machinery that they possess or that they
+
+[1068.84 - 1073.22] are able to emerge to surface in their
+
+[1071.059 - 1075.08] training regimen then we that we just
+
+[1073.22 - 1076.94] are not capable of I don't know it
+
+[1075.08 - 1078.74] remains to be seen because again there's
+
+[1076.94 - 1080.78] a huge amount of plasticity in the human
+
+[1078.74 - 1084.86] brain and it would be incredibly
+
+[1080.78 - 1087.02] premature to assume that machines that
+
+[1084.86 - 1089.12] super inefficient machines are capable
+
+[1087.02 - 1091.28] of even forming circuitry that our
+
+[1089.12 - 1093.4399999999998] brains are not already capable of and
+
+[1091.28 - 1096.02] possibly have already mastered now
+
+[1093.44 - 1098.24] either assertion requires evidence so it
+
+[1096.02 - 1100.52] remains to be seen and then finally a
+
+[1098.24 - 1102.5] quick recap of the koala paper it's
+
+[1100.52 - 1104.9] relatively simple simplistic take on
+
+[1102.5 - 1106.34] cognitive architecture but again my
+
+[1104.9 - 1107.6000000000001] biggest takeaway is I'm glad that more
+
+[1106.34 - 1109.6399999999999] people are talking about cognitive
+
+[1107.6 - 1111.74] architecture in the context of large
+
+[1109.64 - 1115.039] language models and agentic Frameworks
+
+[1111.74 - 1116.72] because like it or not autonomous AI is
+
+[1115.039 - 1118.4] coming and one thing that I want to
+
+[1116.72 - 1121.1000000000001] point out is that in the next few weeks
+
+[1118.4 - 1122.96] my paper on the autonomous cognitive
+
+[1121.1 - 1125.7199999999998] Entity framework the ace framework is
+
+[1122.96 - 1127.64] going to be finished and published and
+
+[1125.72 - 1129.74] this is going to knock your socks off so
+
+[1127.64 - 1131.419] stay tuned and thanks for watching I
+
+[1129.74 - 1135.16] hope you got a lot out of this cheers
+
+[1131.419 - 1135.16] thanks and have a good rest of your day

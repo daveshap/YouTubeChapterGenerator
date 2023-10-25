@@ -1,0 +1,399 @@
+[0.179 - 4.2] one of the questions that I get all the
+
+[2.34 - 6.8389999999999995] time is Dave how do you keep up with
+
+[4.2 - 8.879999999999999] research and how are you so productive
+
+[6.839 - 10.26] and I frequently get questions about you
+
+[8.88 - 12.96] know what's my workflow and what's my
+
+[10.26 - 15.42] process and um I I'm not going to show
+
+[12.96 - 17.580000000000002] you my full process because well it's
+
+[15.42 - 20.1] really kind of custom personalized to me
+
+[17.58 - 22.74] but what I will show you is a tool that
+
+[20.1 - 24.720000000000002] I just built that's based on you know my
+
+[22.74 - 27.18] scripting abilities and and all that
+
+[24.72 - 29.58] sort of stuff and this tool is just too
+
+[27.18 - 32.04] useful to keep private so it is already
+
+[29.58 - 34.86] public uh it's called weekly underscore
+
+[32.04 - 36.3] archive and it that's just kind of a
+
+[34.86 - 39.3] general description of what it does
+
+[36.3 - 41.699999999999996] basically what it does is it's this nice
+
+[39.3 - 44.81999999999999] handy dandy little python script that it
+
+[41.7 - 47.34] just asks you for a uh a lookup query
+
+[44.82 - 50.399] and then it goes to the uh the to the
+
+[47.34 - 53.96] archive API and we'll search for that
+
+[50.399 - 56.94] query and download the latest 200
+
+[53.96 - 58.92] abstracts and then it will format it
+
+[56.94 - 61.199] into markdown for you so let me show you
+
+[58.92 - 64.86] an example of what the the output looks
+
+[61.199 - 68.46] like so I put in just llms so llms is
+
+[64.86 - 70.86] the query and it gave me this nice uh
+
+[68.46 - 72.479] searchable document that renders nicely
+
+[70.86 - 74.76] and I've got it so that it gives you the
+
+[72.479 - 76.14] title the link to the paper list the
+
+[74.76 - 78.72] authors so if you want to search by
+
+[76.14 - 80.7] author and then the summary so for
+
+[78.72 - 83.64] instance I was doing research and I
+
+[80.7 - 86.34] wanted to learn about driving and so it
+
+[83.64 - 88.979] turns out there are four papers out in
+
+[86.34 - 90.659] the last week alone that have to do with
+
+[88.979 - 92.28] using large language models for driving
+
+[90.659 - 95.46000000000001] for autonomous driving so first is
+
+[92.28 - 96.979] language MPC so large language models as
+
+[95.46 - 99.65899999999999] decision makers for autonomous driving
+
+[96.979 - 101.22] driving with llms fusing object level
+
+[99.659 - 103.97900000000001] Vector modality for explainable
+
+[101.22 - 106.86] autonomous driving and then what was the
+
+[103.979 - 109.38] next one the next one was it did a GPT
+
+[106.86 - 111.96] driver learning to drive with GPT so
+
+[109.38 - 114.36] that's pretty cool and then finally
+
+[111.96 - 116.22] Drive gpt4 interpretable end to end
+
+[114.36 - 120.479] autonomous driving via large language
+
+[116.22 - 123.96] model so that's really cool but
+
+[120.479 - 126.84] the archive website is not necessarily
+
+[123.96 - 129.84] the most searchable thing and the reason
+
+[126.84 - 132.48] is and the primary reason is because one
+
+[129.84 - 134.04] you can only have up to 200 results per
+
+[132.48 - 137.51999999999998] page
+
+[134.04 - 139.98] um and you have to expand the abstracts
+
+[137.52 - 141.59900000000002] so I was like okay well I wanted to
+
+[139.98 - 144.42] download this page and re-render it
+
+[141.599 - 146.51999999999998] without violating you know archives
+
+[144.42 - 149.22] um thing but also I wanted it to be
+
+[146.52 - 151.5] eminently renderable so that I could
+
+[149.22 - 153.42] drop it into Claude because Claude you
+
+[151.5 - 155.76] can see where I just copy pasted a whole
+
+[153.42 - 157.73899999999998] bunch of stuff basically titles and
+
+[155.76 - 159.29999999999998] abstracts into
+
+[157.739 - 161.459] um Claude and then I'm like hey tell me
+
+[159.3 - 163.31900000000002] what the latest trends are and so for
+
+[161.459 - 164.81900000000002] instance I discovered
+
+[163.319 - 166.92] um you know many papers are focusing on
+
+[164.819 - 168.29999999999998] llm's abilities to do things like
+
+[166.92 - 170.39999999999998] reasoning planning and knowledge
+
+[168.3 - 172.26000000000002] intensive tasks and then you can scroll
+
+[170.4 - 174.78] down and say okay cool give me a list of
+
+[172.26 - 177.84] the papers that do this so instead of
+
+[174.78 - 180.06] manually scrolling through you know like
+
+[177.84 - 182.519] hundreds and hundreds of archive papers
+
+[180.06 - 185.04] uh to in order to get a feel for where
+
+[182.519 - 187.20000000000002] the trend where the industry is I just
+
+[185.04 - 189.84] like said okay hey tell me what some of
+
+[187.2 - 192.0] the trends are to Claude and oh you have
+
+[189.84 - 193.739] Claude you have to be very very explicit
+
+[192.0 - 196.019] I said please write a summary of the
+
+[193.739 - 197.58] benchmarking Trends as elucidated by the
+
+[196.019 - 199.26000000000002] text I gave you if you don't do that
+
+[197.58 - 202.14000000000001] it'll just make stuff up
+
+[199.26 - 204.72] Claude is still really really bad about
+
+[202.14 - 207.26] hallucinating and the thing is is there
+
+[204.72 - 210.12] is very clearly some archive
+
+[207.26 - 212.64] papers in its training data so it'll
+
+[210.12 - 214.14000000000001] it'll if you don't tell it only use what
+
+[212.64 - 216.54] I gave you then it'll start either
+
+[214.14 - 218.51899999999998] making up archive papers
+
+[216.54 - 221.34] um or citing papers that are much older
+
+[218.519 - 223.14000000000001] and I'm like no make sure you only pull
+
+[221.34 - 224.76] from the information I gave you in this
+
+[223.14 - 226.79899999999998] conversation
+
+[224.76 - 228.17999999999998] um and then like it will change the
+
+[226.799 - 229.44] formatting on you if you're not careful
+
+[228.18 - 231.78] and I'm like why did you change the
+
+[229.44 - 232.739] formatting on me anyways so they still
+
+[231.78 - 233.879] have a little bit of work to do on
+
+[232.739 - 235.799] Claude but that's not the point of the
+
+[233.879 - 238.85999999999999] video point of the video is that they
+
+[235.799 - 241.5] have a nice free open source search that
+
+[238.86 - 243.36] gives you this gigantic wad of XML which
+
+[241.5 - 244.86] is a nightmare
+
+[243.36 - 246.06] um but you know it is what it is it's
+
+[244.86 - 248.09900000000002] XML
+
+[246.06 - 249.959] um and it's free so you know don't look
+
+[248.099 - 252.11999999999998] a gift horse in the mouth
+
+[249.959 - 253.439] um and yeah so how you use this
+
+[252.12 - 255.06] and actually let me show you a couple
+
+[253.439 - 256.739] other ones so here's the first one that
+
+[255.06 - 259.62] I did so if you want to look at today
+
+[256.739 - 261.9] you know the the last week's uh stuff of
+
+[259.62 - 263.46] large language models click on that one
+
+[261.9 - 265.5] um I did one where I just searched for
+
+[263.46 - 266.75899999999996] bacon as a test to see what it would
+
+[265.5 - 268.199] come up with and apparently there's a
+
+[266.759 - 270.3] lot of authors named bacon but there's
+
+[268.199 - 271.979] not a whole lot of archive papers on the
+
+[270.3 - 273.41900000000004] food bacon so that was really
+
+[271.979 - 275.28] disappointing
+
+[273.419 - 276.479] um but you know whatever
+
+[275.28 - 277.85999999999996] um and then I did another one for
+
+[276.479 - 280.32] Quantum Computing because I wanted to
+
+[277.86 - 282.36] make sure that the input would be able
+
+[280.32 - 284.699] to handle uh spaces so basically it has
+
+[282.36 - 287.1] to be URL encoded which is really simple
+
+[284.699 - 289.62] you just replace it with a percent 20
+
+[287.1 - 291.66] and away it goes you can see it's taking
+
+[289.62 - 295.02] a minute to render I'm not sure why it's
+
+[291.66 - 296.96000000000004] taking so long I think I broke GitHub
+
+[295.02 - 300.18] um anyways
+
+[296.96 - 301.85999999999996] we will wait so yeah really simple tool
+
+[300.18 - 304.259] really straightforward
+
+[301.86 - 306.18] um let's do a real quick refresh
+
+[304.259 - 309.54] there we go
+
+[306.18 - 311.699] um okay so check on Quantum Computing
+
+[309.54 - 314.28000000000003] um it might not load but yeah so very
+
+[311.699 - 316.62] straightforward you just run this pie
+
+[314.28 - 317.75899999999996] um this this Pi file and so I'll walk
+
+[316.62 - 319.62] you through the script real quick just
+
+[317.759 - 321.47900000000004] in case you want to see it but it just
+
+[319.62 - 324.12] so the first thing is it takes the input
+
+[321.479 - 327.36] what you want to look up you type it in
+
+[324.12 - 331.32] it does it in lower case and replaces
+
+[327.36 - 333.6] any white space with a percent 20 it'll
+
+[331.32 - 336.18] go it'll populate the URL oh another
+
+[333.6 - 337.68] thing you can change this URL if you
+
+[336.18 - 339.6] want to search by something else if you
+
+[337.68 - 341.34000000000003] want to search for author or change the
+
+[339.6 - 343.97900000000004] Max results
+
+[341.34 - 346.67999999999995] um I I have the uh sort by last updated
+
+[343.979 - 348.84] date and sort order
+
+[346.68 - 350.58] um uh descending so this will get the
+
+[348.84 - 352.85999999999996] latest stuff because really the problem
+
+[350.58 - 354.419] I was trying to solve was
+
+[352.86 - 356.039] um all everything is moving so fast so
+
+[354.419 - 358.5] it's like I wanted to just have a way of
+
+[356.039 - 361.02] figuring out what is going on with the
+
+[358.5 - 362.16] world at a glance uh in terms of large
+
+[361.02 - 364.44] language models because it's like
+
+[362.16 - 366.0] there's Laura and Q Laura and there's
+
+[364.44 - 367.919] all these kinds of benchmarks coming out
+
+[366.0 - 369.9] and so what you can do is you can just
+
+[367.919 - 371.88] like come to this and say all right
+
+[369.9 - 373.79999999999995] let's look up benchmarks so from words
+
+[371.88 - 376.32] to watch benchmarking the energy costs
+
+[373.8 - 378.72] of large language model cool great paper
+
+[376.32 - 381.36] glad this exists uh and you can see
+
+[378.72 - 382.86] there's 115 references to benchmarks in
+
+[381.36 - 387.47900000000004] in this
+
+[382.86 - 388.8] um T dollar cubed bench benchmarking Uh
+
+[387.479 - 391.02] current progress in text to 3D
+
+[388.8 - 393.3] generation great cool now I know that
+
+[391.02 - 395.88] there that we're benchmarking uh text to
+
+[393.3 - 397.68] 3D generation
+
+[395.88 - 399.12] um let's see Shadow alignment so that
+
+[397.68 - 400.8] sounds cool it's like Shadow Banning
+
+[399.12 - 402.539] people uh do they still do that on
+
+[400.8 - 407.699] Reddit and Twitter
+
+[402.539 - 409.02] um anyways yeah so uh GPT fuzzer right
+
+[407.699 - 411.41900000000004] okay great
+
+[409.02 - 414.0] anyways idea here is that you can
+
+[411.419 - 417.18] download hundreds if not thousands of
+
+[414.0 - 419.46] the latest uh latest papers on any
+
+[417.18 - 421.74] particular topic from archive whether or
+
+[419.46 - 423.35999999999996] not it's large language models
+
+[421.74 - 424.74] um you can you can put in Quantum
+
+[423.36 - 426.78000000000003] Computing like I said but for whatever
+
+[424.74 - 427.919] reason it's not rendering directly on
+
+[426.78 - 430.85999999999996] GitHub
+
+[427.919 - 433.56] um I broke it so but yeah you can
+
+[430.86 - 435.84000000000003] download any an arbitrary number of
+
+[433.56 - 438.96] things it's sorted by date uh by release
+
+[435.84 - 440.34] date it is uh in descending order so you
+
+[438.96 - 442.79999999999995] know you've got the latest and greatest
+
+[440.34 - 444.96] yeah I think that's about it
+
+[442.8 - 448.52000000000004] um so thanks for watching cheers and yep
+
+[444.96 - 448.52] I definitely broke it have a good one

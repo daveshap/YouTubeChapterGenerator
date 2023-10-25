@@ -1,0 +1,1027 @@
+[0.539 - 4.14] hey everyone David Shapiro here with an
+
+[2.94 - 6.12] update
+
+[4.14 - 9.178999999999998] um so before we get started I will plug
+
+[6.12 - 11.7] my patreon this will take just a second
+
+[9.179 - 14.099] um I'm able to do AI full time because
+
+[11.7 - 15.78] of the support that I get on patreon so
+
+[14.099 - 18.119] if you uh want to support me jump over
+
+[15.78 - 20.46] support me on patreon also if you want
+
+[18.119 - 23.698999999999998] any direct help if you sign up for the
+
+[20.46 - 26.039] higher tiers on patreon I am happy to
+
+[23.699 - 28.26] jump in and give you advice or help you
+
+[26.039 - 30.48] solve problems and this goes as far as
+
+[28.26 - 32.399] looking at your fine tuning data talking
+
+[30.48 - 34.62] about architecture and solving whatever
+
+[32.399 - 37.2] other problems you have
+
+[34.62 - 38.339999999999996] um okay so that's it for patreon second
+
+[37.2 - 41.940000000000005] is
+
+[38.34 - 44.219] um I want to uh plug the r artificial
+
+[41.94 - 46.32] sentience subreddit so this is a
+
+[44.219 - 47.7] subreddit that I and a few other
+
+[46.32 - 50.28] um thought leaders on cognitive
+
+[47.7 - 51.899] architecture created
+
+[50.28 - 53.76] um and it's not my subreddit
+
+[51.899 - 56.46] specifically someone else created it I'm
+
+[53.76 - 58.5] just a member but the primary thing is
+
+[56.46 - 60.36] creating autonomous cognitive entities
+
+[58.5 - 62.579] we would have picked that but that is
+
+[60.36 - 64.68] too long of a subreddit title so we have
+
+[62.579 - 66.2] artificial sentience
+
+[64.68 - 68.58000000000001] um jump in over here talk about
+
+[66.2 - 70.86] artificial cognitive entities artificial
+
+[68.58 - 73.79899999999999] sentience and so on
+
+[70.86 - 75.9] um next update is uh for the Raven
+
+[73.799 - 77.159] project so I posted an update I pinned
+
+[75.9 - 80.04] it here
+
+[77.159 - 81.24000000000001] um the the tldr is that like I'm super
+
+[80.04 - 84.18] burned out
+
+[81.24 - 85.32] um and so I am slowing down that being
+
+[84.18 - 87.54] said
+
+[85.32 - 90.24] um you know this this project has almost
+
+[87.54 - 93.06] 700 stars and there's a huge amount of
+
+[90.24 - 95.69999999999999] Interest both in AGI today uh in
+
+[93.06 - 99.659] cognitive architecture and also keeping
+
+[95.7 - 102.24000000000001] it open source uh specifically so
+
+[99.659 - 104.46000000000001] um if you want to jump in uh jump in
+
+[102.24 - 107.22] here we're still getting organized we're
+
+[104.46 - 108.78] figuring out a consensus policy and I'm
+
+[107.22 - 110.7] hoping that with the correct consensus
+
+[108.78 - 112.86] policy it will be more distributed and
+
+[110.7 - 115.259] more participatory
+
+[112.86 - 118.2] um so you know it is slow that's part of
+
+[115.259 - 120.659] the design though now finally to the
+
+[118.2 - 122.82000000000001] topic of today's video if you're a chat
+
+[120.659 - 124.38000000000001] GPT user you have probably been
+
+[122.82 - 127.38] frustrated over the last few days
+
+[124.38 - 131.22] because all your chats are gone
+
+[127.38 - 133.2] and what I realized is that uh this is
+
+[131.22 - 136.8] really unfortunate because I've been
+
+[133.2 - 139.01999999999998] working on my novel and I use it um I
+
+[136.8 - 141.18] create a new chat every time I'm working
+
+[139.02 - 142.86] on a new chapter and what I do is I go
+
+[141.18 - 145.739] back to the old chapters and say write
+
+[142.86 - 147.36] an executive summary of this chapter and
+
+[145.739 - 150.72] then I can just use that to quickly copy
+
+[147.36 - 152.70000000000002] paste it into an into a new chat
+
+[150.72 - 155.58] um so that the uh the new chat can help
+
+[152.7 - 157.379] me it's caught up on the story and goes
+
+[155.58 - 159.84] right along but I'm like okay I can
+
+[157.379 - 162.959] automate that it's the same uh set of
+
+[159.84 - 165.06] procedures every time I use an executive
+
+[162.959 - 166.56] summary so that it knows about the
+
+[165.06 - 169.14000000000001] characters and the story and so on and
+
+[166.56 - 171.72] I'm like why don't I just go ahead and
+
+[169.14 - 175.5] work on this
+
+[171.72 - 178.14] um uh offline right I can I can manage
+
+[175.5 - 179.879] my own files and if you watched uh my my
+
+[178.14 - 183.83999999999997] next most recent video you know that I'm
+
+[179.879 - 186.0] working on a QA chat bot and so these
+
+[183.84 - 188.28] actually have a lot in common it has to
+
+[186.0 - 190.62] deal with organizing an arbitrarily
+
+[188.28 - 193.44] large amount of data a large Corpus of
+
+[190.62 - 197.09900000000002] data and the QA chatbot case it is
+
+[193.44 - 199.64] scientific papers in the auto Muse case
+
+[197.099 - 201.78] the auto Muse chat GPT case it is
+
+[199.64 - 204.72] organizing a story
+
+[201.78 - 206.159] and so but because of the similarity
+
+[204.72 - 209.099] right the the thing that they have in
+
+[206.159 - 210.84] common is it has to summarize and search
+
+[209.099 - 212.7] an arbitrarily large amount of memory
+
+[210.84 - 214.86] and it has to do it automatically in the
+
+[212.7 - 216.54] background so these these projects are
+
+[214.86 - 218.459] actually much more similar than you
+
+[216.54 - 221.879] might think from the perspective of
+
+[218.459 - 224.28] cognitive architecture so since chat GPT
+
+[221.879 - 225.659] is down and I can't really use it it's
+
+[224.28 - 227.58] kind of actually stalled my forward
+
+[225.659 - 229.79899999999998] progress on my novel
+
+[227.58 - 231.59900000000002] so I'm like all right well why don't I
+
+[229.799 - 235.08] just fix this
+
+[231.599 - 236.94] um so what I have done is let me just go
+
+[235.08 - 239.34] ahead and show you the file show you the
+
+[236.94 - 241.44] repo so here is the um here's what I'm
+
+[239.34 - 243.92000000000002] working on with the auto Muse chat GPT
+
+[241.44 - 243.92] project
+
+[243.959 - 247.86] so you might have remembered that I I
+
+[245.76 - 249.48] was working on auto Muse a lot last year
+
+[247.86 - 251.4] and then I stopped because I'm like I
+
+[249.48 - 253.26] don't want to hurt anybody I don't want
+
+[251.4 - 255.48000000000002] to you know unemploy my friends or
+
+[253.26 - 257.4] whatever now people are using chat gbt
+
+[255.48 - 260.28] to write like crazy and it's all garbage
+
+[257.4 - 261.78] right so or mostly garbage
+
+[260.28 - 265.25899999999996] um so I'm not I'm not worried about that
+
+[261.78 - 267.53999999999996] anymore I you know when when all the
+
+[265.259 - 270.0] publicate all the all the Publishers are
+
+[267.54 - 272.1] using AI to detect whether or not it's
+
+[270.0 - 273.96] written by AI or to detect the quality
+
+[272.1 - 276.24] speaking of if there are any Publishers
+
+[273.96 - 277.62] out there and you want to learn how to
+
+[276.24 - 281.28000000000003] use
+
+[277.62 - 283.38] um AI to to rapidly like
+
+[281.28 - 286.02] um measure the quality of someone's
+
+[283.38 - 286.74] fiction let me know
+
+[286.02 - 288.59999999999997] um
+
+[286.74 - 291.3] because that can help you quickly sift
+
+[288.6 - 293.88] through sift the uh the the the
+
+[291.3 - 298.139] um the grain from the chaff
+
+[293.88 - 300.96] um so anyways point being is there's a
+
+[298.139 - 303.36] few components of this that are that are
+
+[300.96 - 305.28] all the same right so you got the the QA
+
+[303.36 - 307.02000000000004] I will be working on this it's been
+
+[305.28 - 308.34] three days I had I was really tired over
+
+[307.02 - 310.19899999999996] the weekend
+
+[308.34 - 311.94] um burnout is real
+
+[310.199 - 313.62] um but I am recovering and everyone has
+
+[311.94 - 315.18] been very kind about that so I'm I'm
+
+[313.62 - 316.56] grateful and I said like I need some
+
+[315.18 - 317.52] time everyone's like take your time
+
+[316.56 - 319.74] buddy
+
+[317.52 - 322.44] all right anyways going down a rabbit
+
+[319.74 - 324.419] hole point being is that these projects
+
+[322.44 - 326.699] have a lot in common and so what I'm
+
+[324.419 - 329.21999999999997] working on is okay how do I create a
+
+[326.699 - 332.1] memory system that works for both of
+
+[329.22 - 334.259] these right because we humans have one
+
+[332.1 - 336.12] memory system and it works for whatever
+
+[334.259 - 338.639] task that we're doing whether you're
+
+[336.12 - 341.039] remembering you know birthdays or how to
+
+[338.639 - 343.86] do your job or whatever and I okay yes
+
+[341.039 - 345.65999999999997] it's not one memory system we have a
+
+[343.86 - 347.22] memory operating system you know the
+
+[345.66 - 349.5] hippocampus and all sorts of other
+
+[347.22 - 351.96000000000004] connections and representations and
+
+[349.5 - 354.96] abstractions but the point is is that
+
+[351.96 - 357.29999999999995] with the correct format or system of
+
+[354.96 - 358.62] abstractions and representations you we
+
+[357.3 - 360.72] should be able to create a memory system
+
+[358.62 - 363.84000000000003] that is good for an arbitrary number of
+
+[360.72 - 365.90000000000003] tasks so back in the day
+
+[363.84 - 369.17999999999995] there was this concept called temporal
+
+[365.9 - 372.29999999999995] hierarchical memory which this was like
+
+[369.18 - 374.88] back in 2005 I think people thought that
+
+[372.3 - 377.16] this was going to lead to AGI
+
+[374.88 - 379.62] um and while it didn't pan out it died
+
+[377.16 - 381.12] of quick death the concept is still very
+
+[379.62 - 383.28000000000003] helpful and it's actually coming back
+
+[381.12 - 386.039] with Neuroscience
+
+[383.28 - 388.55999999999995] um and so basically here is a simple
+
+[386.039 - 391.139] representation of what I mean so we have
+
+[388.56 - 393.9] all your all your narrative logs right
+
+[391.139 - 396.6] so you have narrative memory which is
+
+[393.9 - 399.23999999999995] the the the chronologically linear
+
+[396.6 - 401.16] series of experiences that you have
+
+[399.24 - 402.96000000000004] right and that's you know that's what a
+
+[401.16 - 404.52000000000004] chat log is right it is chronologically
+
+[402.96 - 407.75899999999996] linear
+
+[404.52 - 409.25899999999996] um but one problem with chat GPT is we
+
+[407.759 - 411.78000000000003] have no idea what is going on in the
+
+[409.259 - 413.699] background one rumor is that it uses a
+
+[411.78 - 415.919] scratch pad I don't know that that's
+
+[413.699 - 418.139] panned out someone else told me that all
+
+[415.919 - 421.02] it does is using uses a rolling window
+
+[418.139 - 423.0] of 8 000 tokens which a rolling window
+
+[421.02 - 426.06] of 8 000 tokens that's a lot of text
+
+[423.0 - 427.56] 8000 tokens is like
+
+[426.06 - 430.86] um let's see that's about it's like what
+
+[427.56 - 434.4] 3.6 characters per token on average so
+
+[430.86 - 436.44] that is over 24 000 characters
+
+[434.4 - 438.12] um which then you you think that the
+
+[436.44 - 439.259] average word is five to six characters
+
+[438.12 - 441.479] long
+
+[439.259 - 443.46000000000004] so we're looking at what can I do math
+
+[441.479 - 447.3] right now I think that's about 6 000
+
+[443.46 - 450.35999999999996] words so 6 000 words and you know 250
+
+[447.3 - 453.96000000000004] words per page uh so that's uh four
+
+[450.36 - 456.41900000000004] times six so that is 24 pages worth of
+
+[453.96 - 459.71999999999997] text that's a lot of text if that's how
+
+[456.419 - 461.639] it's working now the chat GPT API
+
+[459.72 - 463.259] um the in the documentation they say
+
+[461.639 - 465.599] that you only have four thousand tokens
+
+[463.259 - 468.18] even still four thousand tokens is 12
+
+[465.599 - 470.28] Pages you can summarize quite a bit in
+
+[468.18 - 472.979] 12 pages and this is also going to go up
+
+[470.28 - 475.79999999999995] over time right they're they're doubling
+
+[472.979 - 477.71999999999997] the window size pretty regularly all
+
+[475.8 - 480.90000000000003] right so with all that said
+
+[477.72 - 482.46000000000004] we have a linear chunk of logs and so
+
+[480.9 - 484.19899999999996] what happens sometimes when you're
+
+[482.46 - 485.88] having conversations is it's like it
+
+[484.199 - 487.56] gets something wrong and then you
+
+[485.88 - 489.78] correct it and then you're like no no no
+
+[487.56 - 492.78000000000003] that's not what I wanted and so what I'm
+
+[489.78 - 495.17999999999995] what I'm doing with this is I've got a
+
+[492.78 - 496.44] few prompts so in a in in a previous
+
+[495.18 - 498.72] chat
+
+[496.44 - 500.34] um chat uh bot project here let me bring
+
+[498.72 - 501.62] that up I'll show you real quick
+
+[500.34 - 504.17999999999995] do
+
+[501.62 - 505.86] repositories come on
+
+[504.18 - 508.919] um so in the original
+
+[505.86 - 511.379] um salience one so this this is this is
+
+[508.919 - 512.88] the the progenitor work right this is I
+
+[511.379 - 515.94] probably won't update this because this
+
+[512.88 - 518.58] repo is just for demonstration purposes
+
+[515.94 - 521.339] um but it shows you the idea of using
+
+[518.58 - 524.159] salience to summarize conversations as
+
+[521.339 - 526.5600000000001] well as anticipation to uh predict
+
+[524.159 - 529.2] what's going forward so salience is
+
+[526.56 - 531.4799999999999] memory and anticipation is going forward
+
+[529.2 - 533.7] right so that is the beginnings of a
+
+[531.48 - 535.62] cognitive architecture so then you take
+
+[533.7 - 537.899] this forward and say okay we have the
+
+[535.62 - 541.92] same exact uh salience in anticipation
+
+[537.899 - 544.68] but it is organized around
+
+[541.92 - 547.26] um writing right so in this case I'm an
+
+[544.68 - 548.6999999999999] AI named Muse my primary goal is to help
+
+[547.26 - 549.899] the user plan brainstorm outline and
+
+[548.7 - 552.0600000000001] otherwise construct their work of
+
+[549.899 - 554.04] fiction right so it's got a very clear
+
+[552.06 - 555.7199999999999] goal and I won't show you uh the
+
+[554.04 - 558.42] conversation I had because it's you know
+
+[555.72 - 560.7] it's private I'm working on my own story
+
+[558.42 - 562.9799999999999] um but having setting the decision the
+
+[560.7 - 565.019] the system go to this and then updating
+
+[562.98 - 566.279] it with the salience and the
+
+[565.019 - 569.58] anticipation
+
+[566.279 - 572.279] it is if all you do is just run this as
+
+[569.58 - 574.5] it is right now you will find that it is
+
+[572.279 - 576.54] very very helpful much more helpful than
+
+[574.5 - 578.76] than the plain vanilla
+
+[576.54 - 580.92] um chat GPT at helping you plan your
+
+[578.76 - 583.86] story and in fact
+
+[580.92 - 586.019] um it is so good that you like man it
+
+[583.86 - 588.1800000000001] won't need much help in terms of cueing
+
+[586.019 - 591.899] up the correct memories in order to make
+
+[588.18 - 595.56] it even better now all that being said
+
+[591.899 - 597.66] uh you have a a an arbitrarily long chat
+
+[595.56 - 599.279] log right because writing a novel takes
+
+[597.66 - 600.6] a long time
+
+[599.279 - 602.6] um and it's going to be way more
+
+[600.6 - 604.44] information even just you know
+
+[602.6 - 605.88] brainstorming and stuff right because
+
+[604.44 - 608.7600000000001] what happens when you're brainstorming
+
+[605.88 - 610.26] you have uh false positives right you
+
+[608.76 - 611.7] have things that you change things that
+
+[610.26 - 614.519] you say no I'm not gonna I'm not gonna
+
+[611.7 - 617.6400000000001] go that way so on and so forth and so
+
+[614.519 - 619.44] what happens is it a chat log is
+
+[617.64 - 621.18] basically like a transaction log so if
+
+[619.44 - 623.6400000000001] you're familiar with like SQL databases
+
+[621.18 - 626.459] a transaction log tracks all the changes
+
+[623.64 - 628.56] in the database but it builds on one
+
+[626.459 - 630.66] another right they're all sequential and
+
+[628.56 - 633.54] so we have to keep track of that in
+
+[630.66 - 635.9399999999999] chronological order so the the next step
+
+[633.54 - 638.399] is to summarize chunks of the
+
+[635.94 - 640.5600000000001] conversation as concisely as possible
+
+[638.399 - 642.36] while extracting the most Salient bits
+
+[640.56 - 644.64] and so that's where these two new
+
+[642.36 - 647.16] prompts come in so I have write an
+
+[644.64 - 649.019] executive summary so it's as simple as
+
+[647.16 - 650.64] it says write an executive summary of
+
+[649.019 - 653.76] the following chat log executive summary
+
+[650.64 - 655.68] so this writes a very concise just
+
+[653.76 - 658.019] here's here's a narrative sequence of
+
+[655.68 - 660.2399999999999] what happened and so this allows it to
+
+[658.019 - 662.82] keep track of okay this is this is how
+
+[660.24 - 665.1] the conversation has gone with while
+
+[662.82 - 668.1600000000001] excluding a lot of the irrelevant
+
+[665.1 - 669.839] details and then secondly story details
+
+[668.16 - 671.279] so write a summary of what we learn
+
+[669.839 - 675.24] about the story from the following chat
+
+[671.279 - 678.66] log now this should be in the long run
+
+[675.24 - 681.0] this prompt won't work for other tasks
+
+[678.66 - 682.98] right this is this is hard-coded this is
+
+[681.0 - 685.2] geared towards writing fiction because
+
+[682.98 - 687.779] it says specifically
+
+[685.2 - 689.339] extract information about the story in
+
+[687.779 - 692.279] the future the cognitive architecture
+
+[689.339 - 695.2790000000001] should design this task or or do task
+
+[692.279 - 697.38] selection to figure out what exactly is
+
+[695.279 - 700.2] most relevant to summarize that being
+
+[697.38 - 702.3] said because Auto Muse is purpose built
+
+[700.2 - 703.5] for fiction we can go ahead and hard
+
+[702.3 - 705.959] code it
+
+[703.5 - 707.16] um but what this does is it ignores the
+
+[705.959 - 709.079] conversation
+
+[707.16 - 709.92] and just says what do we know about the
+
+[709.079 - 712.1999999999999] story
+
+[709.92 - 714.4799999999999] and I tested this out and it actually
+
+[712.2 - 716.94] works really well so like you can take a
+
+[714.48 - 719.16] long conversation that's 2 000 tokens
+
+[716.94 - 720.9590000000001] long and you end up with a 200 token
+
+[719.16 - 721.86] summary of what you learn about the
+
+[720.959 - 724.56] story
+
+[721.86 - 725.88] so that those those summaries the
+
+[724.56 - 727.9799999999999] executive summary and the story
+
+[725.88 - 730.38] extraction those are going to be
+
+[727.98 - 732.3000000000001] summarized in these chunks right and so
+
+[730.38 - 733.86] you get a 10 to 1 reduction in terms of
+
+[732.3 - 736.8] files because that's how I've got it set
+
+[733.86 - 739.26] right now where every time you get to a
+
+[736.8 - 741.5999999999999] 10 dialogues back and forth and this is
+
+[739.26 - 742.8] an arbitrary number in fact I should
+
+[741.6 - 744.0600000000001] probably
+
+[742.8 - 745.8] um just have this as the the
+
+[744.06 - 747.3] conversation length
+
+[745.8 - 750.24] um I should parameterize that but
+
+[747.3 - 751.9799999999999] anyways 10 is fine because you don't
+
+[750.24 - 754.5600000000001] want to go right up to the to the window
+
+[751.98 - 756.839] limit because one you don't know how
+
+[754.56 - 759.18] long the conversation is going to be and
+
+[756.839 - 760.44] two you want to regularly summarize
+
+[759.18 - 763.5] what's going on
+
+[760.44 - 765.6600000000001] okay so then once we get and this is as
+
+[763.5 - 768.06] far as I got I tested those prompts and
+
+[765.66 - 770.399] if you look at the the two Do's
+
+[768.06 - 772.7399999999999] um the the the the very next to do is
+
+[770.399 - 774.0] I've got to actually populate the chunk
+
+[772.74 - 776.4590000000001] summaries you see there's nothing here
+
+[774.0 - 778.86] right I've got the chat logs and so now
+
+[776.459 - 781.3389999999999] I need to integrate the summaries and
+
+[778.86 - 784.32] put those summaries here
+
+[781.339 - 785.8800000000001] and for those I don't know whether or
+
+[784.32 - 789.36] not I need to use semantic embedding
+
+[785.88 - 791.76] right because the the the the primary
+
+[789.36 - 793.6800000000001] organization feature here is timestamp
+
+[791.76 - 797.1] so you see chat underscore timestamp
+
+[793.68 - 799.38] user Muse user Muse user Muse and so
+
+[797.1 - 801.72] that is probably all the organization
+
+[799.38 - 804.0] that I actually really need
+
+[801.72 - 805.8000000000001] um because again with a temporal
+
+[804.0 - 808.92] hierarchical memory
+
+[805.8 - 811.019] um uh time is the primary organizing
+
+[808.92 - 812.519] Factor not semantic search we actually
+
+[811.019 - 814.92] don't care what's in it semantically
+
+[812.519 - 817.38] because we're going to algorithmically
+
+[814.92 - 820.5] just recursively or not recursively but
+
+[817.38 - 821.9399999999999] repeatedly summarize these chat logs so
+
+[820.5 - 823.2] those are going to end up here in the
+
+[821.94 - 825.1800000000001] chunk summaries
+
+[823.2 - 828.72] and the chunk summaries are about five
+
+[825.18 - 831.4799999999999] to ten times shorter than the originals
+
+[828.72 - 833.399] so that that allows us to really kind of
+
+[831.48 - 835.44] distill down okay what is the most
+
+[833.399 - 837.48] important information and then we're
+
+[835.44 - 840.6600000000001] going to do another layer above that
+
+[837.48 - 843.36] which is we're going to extract the
+
+[840.66 - 845.459] topics from these and then the topics
+
+[843.36 - 848.339] are not going to be linear right because
+
+[845.459 - 850.6199999999999] you know you think about like okay what
+
+[848.339 - 852.4200000000001] do I know about Abraham Lincoln that is
+
+[850.62 - 854.82] not anchored to time that is detached
+
+[852.42 - 856.56] from time now your understanding of
+
+[854.82 - 858.1800000000001] Abraham Lincoln might be updated right
+
+[856.56 - 860.04] you might have like you can think of it
+
+[858.18 - 862.3199999999999] as an internal Wikipedia page in your
+
+[860.04 - 864.7199999999999] head and so what we'll do is we'll
+
+[862.32 - 867.1800000000001] transition from this temporal
+
+[864.72 - 870.0] hierarchical part to a more knowledge
+
+[867.18 - 871.8599999999999] graph or topical component and so that
+
+[870.0 - 875.04] is the third layer of abstraction So
+
+[871.86 - 877.92] eventually what I want is for an auto
+
+[875.04 - 880.92] Muse it's going to have a top like the
+
+[877.92 - 882.7199999999999] whoops yeah come back so the primary you
+
+[880.92 - 885.959] know so the chat logs that is like low
+
+[882.72 - 887.94] level uh uh raw memories then there's
+
+[885.959 - 889.459] the chunk summaries which is one layer
+
+[887.94 - 892.6800000000001] above that so you can think of that as
+
+[889.459 - 895.68] medium term memory and then long-term
+
+[892.68 - 897.5999999999999] memory is going to be this kg model this
+
+[895.68 - 898.9799999999999] knowledge graph model of topics I don't
+
+[897.6 - 900.9590000000001] know that it's actually going to be a
+
+[898.98 - 902.399] Knowledge Graph because I don't with
+
+[900.959 - 903.7199999999999] semantic search I don't really care
+
+[902.399 - 907.56] about the links
+
+[903.72 - 909.0] between it and also because because the
+
+[907.56 - 911.2199999999999] story is going to be updated and
+
+[909.0 - 913.32] summarized repeatedly I don't know that
+
+[911.22 - 916.139] we actually even need semantic search so
+
+[913.32 - 918.4200000000001] we might not do any embeddings with this
+
+[916.139 - 920.4590000000001] um just by virtue of the memories are
+
+[918.42 - 921.8389999999999] going to be so well organized and it's
+
+[920.459 - 924.3599999999999] going to be organized around one
+
+[921.839 - 926.4590000000001] specific project so here's the thing
+
+[924.36 - 928.38] when we get to the to the to a fully
+
+[926.459 - 930.4799999999999] fledged cognitive architecture like
+
+[928.38 - 932.639] Raven where it's like oh hey Raven let's
+
+[930.48 - 934.44] talk about my story you absolutely will
+
+[932.639 - 937.26] need some kind of search so that Raven
+
+[934.44 - 939.3000000000001] can locate the correct set of memories
+
+[937.26 - 942.54] um but even still we should probably
+
+[939.3 - 944.699] have some kind of hierarchical
+
+[942.54 - 946.8] um automatic organization in the
+
+[944.699 - 949.139] background ideally it's all kept in
+
+[946.8 - 951.54] natural language because again when we
+
+[949.139 - 954.0600000000001] get to the level of fully autonomous AGI
+
+[951.54 - 956.3389999999999] you want its thoughts to be entirely
+
+[954.06 - 958.8599999999999] transparent and entirely interpretable
+
+[956.339 - 960.6] by humans because like if you have your
+
+[958.86 - 962.88] AGI whether it's Raven or another one
+
+[960.6 - 964.8000000000001] thinking hey Gee maybe I should go get
+
+[962.88 - 967.019] access to nuclear launch codes you want
+
+[964.8 - 969.54] to be able to see that in clear text you
+
+[967.019 - 971.88] don't want AGI memories to be in some
+
+[969.54 - 974.16] abstract embedding or AGI specific
+
+[971.88 - 976.8] language we want it all to be in in pure
+
+[974.16 - 978.36] natural language so that one it can
+
+[976.8 - 981.3] understand us and we can understand it
+
+[978.36 - 983.04] and we'll have trust so anyways
+
+[981.3 - 984.24] that's where we're at I didn't get too
+
+[983.04 - 986.699] much further today because again
+
+[984.24 - 988.0790000000001] recovering from burnout um but I'm
+
+[986.699 - 990.06] really happy with this especially some
+
+[988.079 - 991.4399999999999] of the tests that I did and I apologize
+
+[990.06 - 992.6389999999999] I can't show it but what I encourage you
+
+[991.44 - 995.1600000000001] to do is
+
+[992.639 - 998.5790000000001] um just go ahead and clone this down and
+
+[995.16 - 1000.079] run chat it should work as it is
+
+[998.579 - 1002.12] um actually you might you might want to
+
+[1000.079 - 1004.6389999999999] comment this out because it'll reset
+
+[1002.12 - 1007.519] your conversation every uh 10 dialogues
+
+[1004.639 - 1010.519] but just with the anticipation in
+
+[1007.519 - 1013.279] salience and having it um having it
+
+[1010.519 - 1015.68] having this as the objective it's really
+
+[1013.279 - 1018.8] good already it'll help you plan out
+
+[1015.68 - 1021.3199999999999] your story it won't write Pros for you
+
+[1018.8 - 1023.66] um maybe we'll get to that one day uh
+
+[1021.32 - 1024.559] but yeah so that's that and then the QA
+
+[1023.66 - 1026.54] bot
+
+[1024.559 - 1030.5] so talking talking through the memory
+
+[1026.54 - 1033.26] here in this case the memory is abstract
+
+[1030.5 - 1036.919] it's not it's not narrative the memory
+
+[1033.26 - 1039.14] is in the form of papers right and so
+
+[1036.919 - 1041.419] this these text documents that's the
+
+[1039.14 - 1044.0590000000002] memory that we need to work on but then
+
+[1041.419 - 1046.1000000000001] we need to have other kinds of cognitive
+
+[1044.059 - 1048.86] tasks like you know what am I going to
+
+[1046.1 - 1050.1789999999999] read or um you know what am I going to
+
+[1048.86 - 1052.1599999999999] summarize or what am I going to
+
+[1050.179 - 1055.76] synthesize and so I've been thinking
+
+[1052.16 - 1058.3400000000001] through this and um and the direction
+
+[1055.76 - 1060.2] that I'm going with it is the very next
+
+[1058.34 - 1062.72] thing that's going to happen is there's
+
+[1060.2 - 1065.059] going to be a cognitive control module
+
+[1062.72 - 1067.82] and so as you're talking to it the
+
+[1065.059 - 1069.9189999999999] cognitive control module will have a
+
+[1067.82 - 1072.26] it'll have it'll have a menu of various
+
+[1069.919 - 1073.88] things that it can do one it can just
+
+[1072.26 - 1075.919] ask you a question ask you a follow-up
+
+[1073.88 - 1077.0590000000002] question say hey do I know what you're
+
+[1075.919 - 1079.88] doing
+
+[1077.059 - 1082.3999999999999] um it can read papers it can summarize
+
+[1079.88 - 1084.74] papers it can synthesize new information
+
+[1082.4 - 1087.0800000000002] based on information that it's got and
+
+[1084.74 - 1089.059] then it can generate hypotheses I think
+
+[1087.08 - 1091.76] that's those are the primary cognitive
+
+[1089.059 - 1095.12] tasks now it's going to automatically
+
+[1091.76 - 1097.22] pick which task it wants to use based on
+
+[1095.12 - 1098.4189999999999] where you're at in the conversation so
+
+[1097.22 - 1101.24] the first thing that happens in the
+
+[1098.419 - 1102.919] cognitive control module is that it will
+
+[1101.24 - 1104.36] update its task
+
+[1102.919 - 1106.64] um so it'll basically have a task log
+
+[1104.36 - 1108.9189999999999] right and so the task log will be
+
+[1106.64 - 1110.96] similar to the scratch Pad
+
+[1108.919 - 1113.24] um and it'll be like so we'll have
+
+[1110.96 - 1114.919] instead of instead of the chat log Write
+
+[1113.24 - 1117.14] a brief summary of the most Salient
+
+[1114.919 - 1118.4] points of the conversation we're going
+
+[1117.14 - 1120.7990000000002] to have
+
+[1118.4 - 1123.5590000000002] um update the task log based on task
+
+[1120.799 - 1126.3799999999999] salience right so task sailing says what
+
+[1123.559 - 1129.86] is it that we're doing and also instead
+
+[1126.38 - 1134.0] of instead of having the goal uh
+
+[1129.86 - 1136.34] uh you know I'm an AI Muse my my goal is
+
+[1134.0 - 1139.4] to plan brainstorming instead the goal
+
+[1136.34 - 1142.039] will be to advance science and so by
+
+[1139.4 - 1143.96] tell just by telling chat GPT your goal
+
+[1142.039 - 1146.48] is to advance science it will adopt a
+
+[1143.96 - 1148.6000000000001] new model and a new approach
+
+[1146.48 - 1151.039] um to what it's doing and so anyways
+
+[1148.6 - 1153.02] these projects will be there's going to
+
+[1151.039 - 1155.66] be some very distinct differences and as
+
+[1153.02 - 1157.76] I learn about it I'll be able to create
+
+[1155.66 - 1159.44] um a more pragmatic higher level
+
+[1157.76 - 1161.419] abstraction
+
+[1159.44 - 1163.16] um that can be uh more universally
+
+[1161.419 - 1166.64] applied
+
+[1163.16 - 1168.919] so anyways that's the update for today
+
+[1166.64 - 1171.0200000000002] um I know that this is probably not the
+
+[1168.919 - 1172.7] kind of update you're used to but it is
+
+[1171.02 - 1175.4189999999999] what it is and uh let me know what you
+
+[1172.7 - 1175.419] think in the comments

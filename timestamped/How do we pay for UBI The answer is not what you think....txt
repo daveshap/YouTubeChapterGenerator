@@ -1,0 +1,2423 @@
+[0.0 - 5.58] hello everybody David Shapiro here with
+
+[2.159 - 8.519] another video today's video by also
+
+[5.58 - 10.08] popular demand is many are lately is how
+
+[8.519 - 12.54] do we pay for Ubi
+
+[10.08 - 14.940000000000001] so I have made a few videos about
+
+[12.54 - 17.46] post-labor economics and you know
+
+[14.94 - 19.858999999999998] forever jobs and that sort of stuff
+
+[17.46 - 21.359] I am pretty convinced that most jobs as
+
+[19.859 - 23.039] we know them are going to go away now
+
+[21.359 - 25.92] that's not to say that there's there
+
+[23.039 - 27.660000000000004] aren't things that you can do for money
+
+[25.92 - 29.82] in the future you know post Singularity
+
+[27.66 - 32.34] post AGI whatever
+
+[29.82 - 35.52] but you know people are very critical
+
+[32.34 - 38.52] and and rightfully so there are problems
+
+[35.52 - 40.86] with Ubi so let's unpack some of those
+
+[38.52 - 42.239000000000004] problems but then let's also look at how
+
+[40.86 - 43.62] we can actually make it financially
+
+[42.239 - 45.779999999999994] feasible
+
+[43.62 - 48.959999999999994] before we jump in I want to do a quick
+
+[45.78 - 52.02] plug for my patreon uh I give away all
+
+[48.96 - 54.719] of my videos for free no ads I also have
+
+[52.02 - 57.660000000000004] uh hundreds of GitHub repos I give all
+
+[54.719 - 59.699] my code away for free uh because I want
+
+[57.66 - 62.279999999999994] to help build the future and I believe
+
+[59.699 - 64.08] that lowering friction uh by giving
+
+[62.28 - 66.119] information valuable information away
+
+[64.08 - 68.75999999999999] for free is the best way to do that with
+
+[66.119 - 71.46] that being said I have turned down a lot
+
+[68.76 - 74.10000000000001] of job offers and contract offers and I
+
+[71.46 - 76.15899999999999] refuse to sign ndas but that means that
+
+[74.1 - 78.96] my support needs to come from you people
+
+[76.159 - 81.96000000000001] so if you want to incentivize the
+
+[78.96 - 83.69999999999999] behavior you want to see sharing uh
+
+[81.96 - 85.02] valuable information please consider
+
+[83.7 - 88.14] jumping over and supporting me on
+
+[85.02 - 91.67999999999999] patreon uh all tiers get you access to
+
+[88.14 - 94.38] the exclusive Discord uh so it's it's
+
+[91.68 - 96.47900000000001] not something for nothing so yeah thanks
+
+[94.38 - 98.64] for all the support from my existing
+
+[96.479 - 102.84] patreons and with that let's get back to
+
+[98.64 - 106.619] the show uh so right now uh quick other
+
+[102.84 - 108.60000000000001] tangent uh Gatto update so I am very
+
+[106.619 - 111.38] excited and pleased to announce that the
+
+[108.6 - 114.36] gato Community has not one but two
+
+[111.38 - 116.82] submissions to the open AI Democratic
+
+[114.36 - 121.02] inputs to AI Grant challenge
+
+[116.82 - 123.119] so this is really incredible uh leaders
+
+[121.02 - 125.1] have emerged in the community and have
+
+[123.119 - 128.28] definitely stepped up so remember Step
+
+[125.1 - 130.739] Up is one of our traditions and the
+
+[128.28 - 133.2] decentralized aspect of gato is taking
+
+[130.739 - 134.76] over basically you don't need my
+
+[133.2 - 136.92] permission to do anything but the
+
+[134.76 - 139.2] community that that I have built that we
+
+[136.92 - 141.42] have built is there to support everyone
+
+[139.2 - 144.599] in whatever initiative makes most sense
+
+[141.42 - 147.11999999999998] for them to help achieve uh Global
+
+[144.599 - 149.459] consensus and alignment and to solve the
+
+[147.12 - 151.92000000000002] control problem and ultimately create
+
+[149.459 - 153.78] Utopia that is the that is the final the
+
+[151.92 - 155.72] the I don't know about final goal but
+
+[153.78 - 159.0] that's the big goal that's the mission
+
+[155.72 - 160.62] uh now we also have our first hackathon
+
+[159.0 - 162.599] coming up and so this is going to be
+
+[160.62 - 165.12] layer one of gato reinforcement learning
+
+[162.599 - 166.79999999999998] with heuristic imperatives uh I've been
+
+[165.12 - 169.44] having meetings with people I've been
+
+[166.8 - 171.0] talking with folks uh it's slowly coming
+
+[169.44 - 173.76] together I've never put on a hackathon
+
+[171.0 - 175.019] before uh so I'm talking to people the
+
+[173.76 - 176.459] but if you're interested in
+
+[175.019 - 178.37900000000002] participating or want to share any
+
+[176.459 - 181.08] insight the best place to connect with
+
+[178.379 - 183.84] me is either on LinkedIn or join the
+
+[181.08 - 186.54000000000002] gato Community the link is here
+
+[183.84 - 187.5] um go to framework.org join gotta you
+
+[186.54 - 190.14] can also find the link in the
+
+[187.5 - 192.599] description we need sponsors organizers
+
+[190.14 - 195.23899999999998] judges Partners mentors that's going to
+
+[192.599 - 196.56] be a big one team leaders
+
+[195.239 - 199.31900000000002] um so this is coming together we're
+
+[196.56 - 201.84] hoping to launch it sometime in July but
+
+[199.319 - 203.39999999999998] again this is my first rodeo so I'm
+
+[201.84 - 205.14000000000001] trying to learn everything I can up
+
+[203.4 - 207.48000000000002] front all right now let's get back to
+
+[205.14 - 209.22] Ubi how do we pay for it
+
+[207.48 - 211.85999999999999] I used to think that this was just kind
+
+[209.22 - 214.14] of a thought-stopping platitude uh but
+
+[211.86 - 216.12] when I looked into it I I really tried
+
+[214.14 - 218.099] hard to figure out okay how can we pay
+
+[216.12 - 220.44] for it with conventional means and the
+
+[218.099 - 222.29899999999998] answer is not quite what I expected and
+
+[220.44 - 224.099] maybe it's not what you expected
+
+[222.299 - 227.70000000000002] all right so here's the problem
+
+[224.099 - 228.959] uh as uh you can easily do some math in
+
+[227.7 - 231.42] a previous video where I talked about
+
+[228.959 - 233.28] life under Ubi I said let's figure out
+
+[231.42 - 235.2] how you can actually live with two
+
+[233.28 - 238.08] thousand dollars a month people I think
+
+[235.2 - 239.64] accept the premise of like if you can
+
+[238.08 - 242.28] get just two thousand dollars a month
+
+[239.64 - 244.319] just for existing great we can make that
+
+[242.28 - 246.06] work some people are unhappy with some
+
+[244.319 - 248.099] of the ideas but you know what it's not
+
+[246.06 - 249.42000000000002] perfect and also I don't have a crystal
+
+[248.099 - 252.29899999999998] ball I can't tell you how it's going to
+
+[249.42 - 254.33999999999997] work out exactly that being said
+
+[252.299 - 259.62] two thousand dollars a month in America
+
+[254.34 - 260.94] with 330 million Americans is somewhere
+
+[259.62 - 264.479] between seven trillion and eight
+
+[260.94 - 265.979] trillion dollars per year to fund a Ubi
+
+[264.479 - 268.02] so
+
+[265.979 - 270.479] how do you do this do you tax and
+
+[268.02 - 273.78] redistribute uh taxes would have to be
+
+[270.479 - 275.34] insanely High to support this uh not to
+
+[273.78 - 277.32] mention the inflation inflationary
+
+[275.34 - 279.06] problem but I'm not as worried about
+
+[277.32 - 281.639] inflation because if Ubi becomes
+
+[279.06 - 283.62] necessary the job loss is going to be
+
+[281.639 - 286.259] super deflationary and as lots of people
+
+[283.62 - 289.199] point out uh if consumers have no money
+
+[286.259 - 291.66] to spend then you know the economy
+
+[289.199 - 293.759] basically stalls so basically Ubi might
+
+[291.66 - 296.04] be necessary in order to just keep the
+
+[293.759 - 297.54] economy going but that being said it's
+
+[296.04 - 299.90000000000003] not as simple as just tax and
+
+[297.54 - 303.24] redistribute I thought that it would be
+
+[299.9 - 305.94] so there's a concept called velocity of
+
+[303.24 - 308.22] currency which is basically how often
+
+[305.94 - 309.84] does a dollar change hands and the
+
+[308.22 - 312.0] velocity of currency I think would have
+
+[309.84 - 314.35999999999996] to be three times higher than what it is
+
+[312.0 - 319.08] now just in order to have enough
+
+[314.36 - 321.02000000000004] transactions uh to to to even tax to get
+
+[319.08 - 324.12] to that two thousand dollars a month
+
+[321.02 - 326.69899999999996] so you you could either do that or you
+
+[324.12 - 329.039] could tax levy more taxes on static
+
+[326.699 - 331.91900000000004] money like any bank account over ten
+
+[329.039 - 333.78] thousand dollars or whatever but this is
+
+[331.919 - 335.039] getting really really Draconian really
+
+[333.78 - 337.67999999999995] quickly
+
+[335.039 - 339.36] you'd have to force enforce a lot more
+
+[337.68 - 341.46] circulation
+
+[339.36 - 343.08000000000004] um and so then I was like okay I keep
+
+[341.46 - 345.9] going down this rabbit hole and it's
+
+[343.08 - 347.58] just not working it doesn't make sense
+
+[345.9 - 350.21999999999997] um so I was like maybe we're putting the
+
+[347.58 - 352.139] cart before the horse maybe maybe we
+
+[350.22 - 355.5] need to look at something else before we
+
+[352.139 - 357.84000000000003] look at Ubi to make Ubi sustainable and
+
+[355.5 - 360.36] feasible and so then I was like okay
+
+[357.84 - 362.52] well money is is an abstraction of value
+
+[360.36 - 364.02000000000004] it's a it's a reserve of value and it's
+
+[362.52 - 366.84] a medium of exchange but let's look at
+
+[364.02 - 369.59999999999997] the underpinning assets what is the
+
+[366.84 - 372.71999999999997] actual value in goods and services that
+
+[369.6 - 374.16] money is meant to buy for you so that's
+
+[372.72 - 376.8] where I went next
+
+[374.16 - 378.41900000000004] but before we get into that I want to
+
+[376.8 - 380.28000000000003] kind of give a little bit of context
+
+[378.419 - 382.5] about the economic pillars and how I
+
+[380.28 - 385.55999999999995] kind of came to this conclusion that
+
+[382.5 - 388.08] just raw redistribution in our current
+
+[385.56 - 390.539] economic uh Paradigm isn't going to work
+
+[388.08 - 392.75899999999996] so basically there are four pillars of
+
+[390.539 - 394.38] the economy you've got Banks namely
+
+[392.759 - 396.12] central banks and Regional Banks and
+
+[394.38 - 397.979] federal banks that you have the
+
+[396.12 - 399.9] government particularly the federal
+
+[397.979 - 401.81899999999996] government you have businesses and
+
+[399.9 - 405.539] corporations and then you have consumers
+
+[401.819 - 409.56] so these are the primary Estates or
+
+[405.539 - 411.9] pillars of the economy and so consumers
+
+[409.56 - 414.12] is the aggregate you know all
+
+[411.9 - 416.69899999999996] individuals and households that need
+
+[414.12 - 418.86] goods and services and generally also
+
+[416.699 - 420.72] sometimes provide work usually the way
+
+[418.86 - 421.97900000000004] that they get income is in exchange for
+
+[420.72 - 424.97900000000004] labor sometimes there's also
+
+[421.979 - 426.96] entitlements or uh or Capital that they
+
+[424.979 - 428.699] own so those are the three primary ways
+
+[426.96 - 430.56] that consumers get money
+
+[428.699 - 433.44] right an entitlement might come from the
+
+[430.56 - 435.66] government such as your your pension or
+
+[433.44 - 438.06] your uh your your social security check
+
+[435.66 - 441.36] uh that sort of thing so you get money
+
+[438.06 - 443.16] that way Medicare Medicaid uh you know
+
+[441.36 - 445.68] the the government Health uh you know
+
+[443.16 - 447.18] through the VA that gives you buying
+
+[445.68 - 449.58] power which means that you can then go
+
+[447.18 - 451.699] to a business uh such as a health care
+
+[449.58 - 454.74] provider or grocery store or whatever
+
+[451.699 - 457.44] to demand goods and services such as
+
+[454.74 - 459.06] health care food education is an
+
+[457.44 - 460.199] entitlement so that is something that
+
+[459.06 - 463.5] you don't even pay for the government
+
+[460.199 - 465.36] just pays for it directly via taxes uh
+
+[463.5 - 466.62] and then but then one thing that a lot
+
+[465.36 - 468.78000000000003] of people don't know is where does the
+
+[466.62 - 470.94] money come from well what you need to
+
+[468.78 - 473.46] understand about the monetary system is
+
+[470.94 - 475.979] that the money comes from central banks
+
+[473.46 - 478.44] comes from the federal bank which uh
+
+[475.979 - 480.36] creates money by lending it but the
+
+[478.44 - 482.46] thing is is that that money then has to
+
+[480.36 - 483.72] be repaid and so that's whenever you
+
+[482.46 - 485.4] hear in the news like the FED is
+
+[483.72 - 486.47900000000004] changing the interest rate that's what
+
+[485.4 - 488.15999999999997] it that's what they're doing is they're
+
+[486.479 - 490.199] changing the fundamental interest rate
+
+[488.16 - 492.0] and when that money is repaid to the
+
+[490.199 - 493.68] central banks it's actually just taken
+
+[492.0 - 496.44] off the market entirely
+
+[493.68 - 498.96] with that being said the total supply of
+
+[496.44 - 501.0] money goes up over time it like def
+
+[498.96 - 503.63899999999995] there is it there is an optimal amount
+
+[501.0 - 506.16] of inflation that uh that they go for
+
+[503.639 - 508.68] because the idea is that if the value of
+
+[506.16 - 511.02000000000004] your dollar goes down over time then you
+
+[508.68 - 512.88] are incentivized to spend it sooner
+
+[511.02 - 514.68] rather than later which keeps the
+
+[512.88 - 516.8389999999999] economy churning because under
+
+[514.68 - 518.3389999999999] deflationary pressures you might as well
+
+[516.839 - 520.6800000000001] hold on to your money because holding on
+
+[518.339 - 522.6590000000001] to cash is an investment if your dollar
+
+[520.68 - 524.159] will go twice as far a year from now as
+
+[522.659 - 526.86] it does today you're not going to spend
+
+[524.159 - 529.019] any money you're going to wait so having
+
+[526.86 - 531.779] an optimal amount of inflation is what
+
+[529.019 - 533.88] the central banks do to ensure that you
+
+[531.779 - 535.62] are going to spend that money on labor
+
+[533.88 - 537.48] and other Investments to keep the
+
+[535.62 - 540.66] economy humming along
+
+[537.48 - 542.58] so with that being said you can't just
+
+[540.66 - 544.1999999999999] inject a lot of money like you know the
+
+[542.58 - 547.08] idea of like what if you do quantitative
+
+[544.2 - 549.0600000000001] easing which is just creating billions
+
+[547.08 - 551.22] or trillions of dollars and give it to
+
+[549.06 - 553.0189999999999] Consumers that's called hyperinflation
+
+[551.22 - 555.5400000000001] and that is super bad and I think I'm
+
+[553.019 - 559.62] actually supposed to be oh yeah sorry
+
+[555.54 - 562.8] so the if uh sorry I meant to move on to
+
+[559.62 - 564.839] a slide so if you do just quantitative
+
+[562.8 - 566.6999999999999] easing just injecting money into the
+
+[564.839 - 570.0] system that's hyperinflation which means
+
+[566.7 - 572.88] that you severely depress the value of
+
+[570.0 - 574.38] money which means that like okay the
+
+[572.88 - 577.2] money that you have today is going to be
+
+[574.38 - 579.18] worth a lot less tomorrow and so uh
+
+[577.2 - 582.3000000000001] inflation can be caused by two primary
+
+[579.18 - 585.18] things supply and demand so Supply is
+
+[582.3 - 586.92] what we're experiencing uh post pandemic
+
+[585.18 - 590.2199999999999] because of logistic and supply chain
+
+[586.92 - 592.86] issues because of supply chain issues uh
+
+[590.22 - 595.8000000000001] the supply of goods is lower which means
+
+[592.86 - 597.779] the prices go up alternatively if the
+
+[595.8 - 599.9399999999999] demand goes up the prices can also go up
+
+[597.779 - 602.88] and that's what we saw a little bit the
+
+[599.94 - 605.0400000000001] effect wasn't too pronounced but it was
+
+[602.88 - 606.8389999999999] pronounced enough to be meaningful with
+
+[605.04 - 609.3] the stimulus checks that Americans got
+
+[606.839 - 610.8000000000001] during the pandemic which caused some
+
+[609.3 - 612.06] inflation it didn't cause most of the
+
+[610.8 - 614.519] inflation that we're seeing most the
+
+[612.06 - 617.279] inflation that we're seeing is due to uh
+
+[614.519 - 620.279] geopolitics and globalism and global
+
+[617.279 - 622.5] trade uh you know namely like the war in
+
+[620.279 - 625.92] Russia and Ukraine right now
+
+[622.5 - 628.32] that is a far larger impact on inflation
+
+[625.92 - 630.5999999999999] than uh the stimulus checks that being
+
+[628.32 - 632.399] said if we were to do stimulus checks
+
+[630.6 - 634.62] for everyone every month we would
+
+[632.399 - 636.0] absolutely see hyperinflation which is
+
+[634.62 - 637.5600000000001] really bad because all you're doing is
+
+[636.0 - 640.2] injecting money
+
+[637.56 - 642.0] um into the consumer part and then okay
+
+[640.2 - 644.1] that money goes where it goes to
+
+[642.0 - 646.32] businesses and so then the businesses
+
+[644.1 - 648.1800000000001] have more aggregate demand but then how
+
+[646.32 - 651.1800000000001] do you take that money back off of the
+
+[648.18 - 653.0999999999999] table so that you uh you you basically
+
+[651.18 - 654.779] fight it with deflation you'd have to
+
+[653.1 - 657.1800000000001] have someone just hoovering up that
+
+[654.779 - 658.86] extra money and destroying it so does
+
+[657.18 - 661.079] that mean the government just then taxes
+
+[658.86 - 664.5600000000001] everyone to to take that quantitative
+
+[661.079 - 667.14] easing back off of the economy we might
+
+[664.56 - 669.3] get there especially once we get to a
+
+[667.14 - 671.579] period of hyper abundance and where like
+
+[669.3 - 674.399] nobody works and labor like human labor
+
+[671.579 - 677.0999999999999] is completely uh worthless
+
+[674.399 - 678.779] but I don't I don't see that we're there
+
+[677.1 - 681.12] yet and I and I think that such a
+
+[678.779 - 683.16] fundamental paradigm shift in economics
+
+[681.12 - 684.899] probably shouldn't be done all at once
+
+[683.16 - 687.3] we should probably work towards that
+
+[684.899 - 689.519] slowly because again the economic system
+
+[687.3 - 691.88] is huge cumbersome there's a tremendous
+
+[689.519 - 694.92] amount of inertia and so I was like okay
+
+[691.88 - 697.32] clearly like thinking about it in terms
+
+[694.92 - 700.019] of current velocity of currency and
+
+[697.32 - 702.36] circulation and Cycles uh like a
+
+[700.019 - 704.16] hydrological cycle it that's how it
+
+[702.36 - 706.62] works now but we can't fundamentally
+
+[704.16 - 708.7199999999999] change this we can't upend it uh very
+
+[706.62 - 710.64] quickly so I was like all right this
+
+[708.72 - 712.9200000000001] direction of thinking isn't working so
+
+[710.64 - 716.16] let's look at first principles
+
+[712.92 - 719.3389999999999] so supply and demand so what I mean is
+
+[716.16 - 722.9399999999999] if you can get a hyperabundance of
+
+[719.339 - 724.1400000000001] Supply right post scarcity then the
+
+[722.94 - 726.24] price goes down
+
+[724.14 - 727.86] and so then I was like okay well if we
+
+[726.24 - 731.36] really really drastically increase
+
+[727.86 - 734.399] supply of basic Goods basic Services
+
+[731.36 - 737.16] then maybe we can get the prices low
+
+[734.399 - 739.8] enough that Ubi is actually really cheap
+
+[737.16 - 741.54] overall and so what I mean by that is
+
+[739.8 - 743.519] what if we can get your cost of living
+
+[741.54 - 745.56] from four thousand dollars a month to
+
+[743.519 - 747.9590000000001] four hundred dollars a month as it is
+
+[745.56 - 750.18] today through hyperabundance through
+
+[747.959 - 754.8] post scarcity and we can get there
+
+[750.18 - 756.899] through things like uh AI solar Quantum
+
+[754.8 - 758.6999999999999] Computing and that sort of thing
+
+[756.899 - 760.8] so let's unpack this a little bit
+
+[758.7 - 761.94] further and figure out how we can make
+
+[760.8 - 764.2199999999999] that happen
+
+[761.94 - 767.8800000000001] let's take a look at the at consumer
+
+[764.22 - 769.86] expenses so this is as of 2016. so it's
+
+[767.88 - 772.4399999999999] a little bit out of date but in general
+
+[769.86 - 773.76] this pie chart doesn't change we
+
+[772.44 - 776.399] generally spend about a third of our
+
+[773.76 - 780.779] money on housing another 16 on
+
+[776.399 - 784.26] Transportation almost 13 on food 12 on
+
+[780.779 - 786.779] insurance and uh paying into pensions uh
+
+[784.26 - 788.9399999999999] or retirement plans eight percent on
+
+[786.779 - 790.68] health care so on and so forth and then
+
+[788.94 - 792.6600000000001] down to 2.5 percent on education
+
+[790.68 - 795.06] obviously the education number is much
+
+[792.66 - 797.2199999999999] larger for some people uh I've I've
+
+[795.06 - 799.8599999999999] known people that that spent more on
+
+[797.22 - 801.839] their uh their college loans than their
+
+[799.86 - 804.54] home loans which is just completely
+
+[801.839 - 807.36] insane to me but we took we take a look
+
+[804.54 - 810.66] at these top five categories right one
+
+[807.36 - 813.72] two three four five and if we can use
+
+[810.66 - 817.4399999999999] the hyperabundance of solar infusion and
+
+[813.72 - 818.88] whatever else uh wind energy
+
+[817.44 - 820.74] and then we can also use the
+
+[818.88 - 825.0] hyperabundance of cognitive labor from
+
+[820.74 - 826.44] AI we could probably reduce costs of a
+
+[825.0 - 829.8] lot of these sectors now these sectors
+
+[826.44 - 831.48] are very very different but I did find
+
+[829.8 - 832.8599999999999] some commonalities that I think we can
+
+[831.48 - 835.74] focus on
+
+[832.86 - 837.66] so first is transportation obviously
+
+[835.74 - 840.1800000000001] Elon Musk and Tesla and full
+
+[837.66 - 842.8199999999999] self-driving cars and all the EVS coming
+
+[840.18 - 845.6999999999999] onto the road this is going to have an
+
+[842.82 - 847.5600000000001] economic effect but it one thing is that
+
+[845.7 - 850.0790000000001] transportation is Central to the economy
+
+[847.56 - 852.5999999999999] because you need transportation to move
+
+[850.079 - 855.5999999999999] good services and people
+
+[852.6 - 857.339] um or to move goods and people uh and
+
+[855.6 - 860.519] then you can provide services such as
+
+[857.339 - 863.22] ride shares delivery that sort of thing
+
+[860.519 - 866.579] so right now internal combustion engine
+
+[863.22 - 868.62] cars cost about 75 cents per Rider mile
+
+[866.579 - 871.56] this varies a lot depending on the car
+
+[868.62 - 873.779] you have and where you are uh because
+
+[871.56 - 876.06] obviously if you're driving you know an
+
+[873.779 - 877.74] F-350 Dually that costs a little bit
+
+[876.06 - 881.76] more to drive per mile than you know
+
+[877.74 - 883.38] Toyota Prius but on average internal
+
+[881.76 - 885.72] combustion engine cars cost about 70
+
+[883.38 - 887.82] cents per Rider mile now what's
+
+[885.72 - 891.36] interesting is that in America because
+
+[887.82 - 894.839] of regulatory problems and technical
+
+[891.36 - 897.48] issues and supply chain issues EVS are
+
+[894.839 - 899.4590000000001] often more expensive per Rider mile the
+
+[897.48 - 901.5600000000001] total cost of ownership of EVS is
+
+[899.459 - 904.3199999999999] actually still higher than internal
+
+[901.56 - 907.68] combustion engines now that being said
+
+[904.32 - 909.72] Eevee ride sharing such as if you don't
+
+[907.68 - 912.06] own the car but instead you just you
+
+[909.72 - 913.98] know use Uber or Lyft or Waze or
+
+[912.06 - 916.38] whatever and then you know a couple
+
+[913.98 - 920.1] minutes later an autonomous car comes to
+
+[916.38 - 922.92] pick you up the the the the cost of that
+
+[920.1 - 924.5400000000001] Rider mile could be as low as six cents
+
+[922.92 - 927.3] per Rider mile
+
+[924.54 - 931.3199999999999] so we're seeing we see the possibility
+
+[927.3 - 934.62] of like a 12x reduction or more of the
+
+[931.32 - 937.1990000000001] cost of Transportation uh if we can
+
+[934.62 - 941.22] figure out full self-driving and fully
+
+[937.199 - 943.4399999999999] autonomous uh EV uh vehicles
+
+[941.22 - 945.4200000000001] and some of this will be fixed by
+
+[943.44 - 949.5600000000001] economies of scale but that being said
+
+[945.42 - 951.959] uh the if you can reduce the cost of
+
+[949.56 - 954.26] Transportation by a factor of 10 or more
+
+[951.959 - 957.06] this is going to have knock-on effects
+
+[954.26 - 959.279] across the rest of the economy and so
+
+[957.06 - 961.5] we'll unpack this effect uh throughout
+
+[959.279 - 963.42] the rest of the video so here's some of
+
+[961.5 - 965.639] the knock-on effects that we might see
+
+[963.42 - 967.8] just I want to prime your primary your
+
+[965.639 - 969.66] mind to think about the knock-on effects
+
+[967.8 - 971.2199999999999] oh and also just imagine the knock-on
+
+[969.66 - 973.98] effects of reducing the cost of energy
+
+[971.22 - 975.779] by 10x with solar with fusion and of
+
+[973.98 - 978.24] course with Fusion the cost of energy
+
+[975.779 - 980.699] goes down a thousand X it goes down 10
+
+[978.24 - 981.9590000000001] 000 x to the point that it is a trivial
+
+[980.699 - 986.2199999999999] cost
+
+[981.959 - 988.5] so the idea is that uh well first think
+
+[986.22 - 990.4200000000001] all Goods that you need right every
+
+[988.5 - 992.399] clothing every piece of clothing all the
+
+[990.42 - 995.76] food you eat all the materials that go
+
+[992.399 - 998.519] into your house literally every physical
+
+[995.76 - 1000.86] good has to be transported at least a
+
+[998.519 - 1003.8] short distance many of them have to be
+
+[1000.86 - 1006.0790000000001] transported across the entire planet so
+
+[1003.8 - 1008.779] if we can get the cost of transportation
+
+[1006.079 - 1010.959] to a fraction of what it is today that
+
+[1008.779 - 1014.48] will lower the cost of living
+
+[1010.959 - 1016.399] drastically because then you know the
+
+[1014.48 - 1017.74] supply chain is faster more efficient
+
+[1016.399 - 1020.18] cheaper
+
+[1017.74 - 1022.339] we can also use artificial intelligence
+
+[1020.18 - 1023.66] to shorten those Supply chains Quantum
+
+[1022.339 - 1026.3600000000001] Computing can probably help with
+
+[1023.66 - 1027.559] Logistics as well energy hyperabundance
+
+[1026.36 - 1029.1789999999999] will also help with that because that
+
+[1027.559 - 1031.76] means that you can have fully automated
+
+[1029.179 - 1033.14] factories in the next city over and your
+
+[1031.76 - 1035.419] stuff doesn't have to come from across
+
+[1033.14 - 1037.699] the planet you can have vertical farms
+
+[1035.419 - 1039.38] and container Farms meaning that all of
+
+[1037.699 - 1041.959] your food and exotic fruit and
+
+[1039.38 - 1044.7800000000002] everything is grown right next door you
+
+[1041.959 - 1048.319] year round with the energy abundance of
+
+[1044.78 - 1050.0] solar and wind and that sort of stuff uh
+
+[1048.319 - 1052.52] economies of scale artificial
+
+[1050.0 - 1054.86] intelligence can help us find
+
+[1052.52 - 1056.84] alternative Battery Technology so for
+
+[1054.86 - 1058.6999999999998] instance there's what is it the iron
+
+[1056.84 - 1061.34] oxygen batteries that are being worked
+
+[1058.7 - 1064.64] on and other stuff that doesn't use
+
+[1061.34 - 1066.6789999999999] risky uh minerals now I know that
+
+[1064.64 - 1069.26] lithium is hypothetically super abundant
+
+[1066.679 - 1071.24] but you know looking at the elemental
+
+[1069.26 - 1073.16] composition of the crust of the earth is
+
+[1071.24 - 1075.98] one thing looking at the mining
+
+[1073.16 - 1077.78] infrastructure and the concentration uh
+
+[1075.98 - 1080.6200000000001] that makes it economically feasible to
+
+[1077.78 - 1084.02] extract is an entirely other argument
+
+[1080.62 - 1086.7199999999998] but anyways moving stuff around the
+
+[1084.02 - 1088.6399999999999] planet is very expensive and it is a
+
+[1086.72 - 1091.52] very complicated thing so the
+
+[1088.64 - 1093.98] combination of Transport Revolution
+
+[1091.52 - 1096.5] along with energy hyperabundance is
+
+[1093.98 - 1098.6] going to really drastically drop that
+
+[1096.5 - 1100.28] so this is going to have knock-on
+
+[1098.6 - 1104.48] effects that's going to lower the cost
+
+[1100.28 - 1105.62] of everything like just full stop it's
+
+[1104.48 - 1108.76] going to lower the cost of everything
+
+[1105.62 - 1112.36] across the planet housing so the biggest
+
+[1108.76 - 1116.02] uh expense that we all have is housing
+
+[1112.36 - 1120.1999999999998] so let's assume that okay moving Timber
+
+[1116.02 - 1122.12] harvesting wood making concrete all of
+
+[1120.2 - 1123.919] these things that are very very uh
+
+[1122.12 - 1125.84] material intensive you have to move a
+
+[1123.919 - 1128.72] lot of heavy materials and they're also
+
+[1125.84 - 1131.539] very energy intensive carbon uh sorry
+
+[1128.72 - 1133.28] concrete accounts just on its own
+
+[1131.539 - 1135.2] concrete accounts for I think more than
+
+[1133.28 - 1138.3799999999999] eight percent of global carbon emissions
+
+[1135.2 - 1140.78] so like this is a very energy intensive
+
+[1138.38 - 1142.64] and very material intensive thing which
+
+[1140.78 - 1144.98] is why houses are so expensive there's
+
+[1142.64 - 1147.3200000000002] also the labor aspect it takes a lot of
+
+[1144.98 - 1150.28] Labor and expertise to build a house
+
+[1147.32 - 1153.1399999999999] so what if we can really drastically
+
+[1150.28 - 1155.6] reduce the cost of building homes
+
+[1153.14 - 1158.0590000000002] whether it's a single family home or a
+
+[1155.6 - 1159.5] duplex or a small apartment or row
+
+[1158.059 - 1161.24] houses whatever
+
+[1159.5 - 1162.559] uh there's a few ways that we can
+
+[1161.24 - 1164.6] approach this but again remember
+
+[1162.559 - 1167.96] Transportation has already lowered the
+
+[1164.6 - 1169.6399999999999] cost a lot uh things like 3D printed
+
+[1167.96 - 1172.52] houses I watched an entire documentary
+
+[1169.64 - 1174.0200000000002] to do research and 3D printed houses are
+
+[1172.52 - 1176.24] more durable
+
+[1174.02 - 1178.34] um so they're also cheaper their upfront
+
+[1176.24 - 1181.1] cost is much cheaper because it takes a
+
+[1178.34 - 1184.22] lot less labor to build them uh so you
+
+[1181.1 - 1185.8999999999999] you with with robotic automation you get
+
+[1184.22 - 1188.3600000000001] as many humans out of it as possible
+
+[1185.9 - 1190.8200000000002] which makes it faster and cheaper the
+
+[1188.36 - 1192.62] end product is better too so better
+
+[1190.82 - 1194.78] cheaper faster this is what Ai and
+
+[1192.62 - 1198.62] automation does better cheaper faster
+
+[1194.78 - 1200.72] you combine the existing innovation of
+
+[1198.62 - 1202.4599999999998] 3D printing with energy hyper abundance
+
+[1200.72 - 1205.28] and then you add even more Ai and
+
+[1202.46 - 1209.0] Automation and then suddenly you can
+
+[1205.28 - 1210.26] just 3D print houses a thousand a day if
+
+[1209.0 - 1212.9] you need to
+
+[1210.26 - 1215.96] uh now one problem is that this requires
+
+[1212.9 - 1217.88] regulatory overhaul uh this is a very
+
+[1215.96 - 1219.8600000000001] new discipline and so a lot of
+
+[1217.88 - 1222.5] Manufacturers aren't even touching this
+
+[1219.86 - 1224.12] thing uh with that being said I suspect
+
+[1222.5 - 1226.58] we're going to see a ramp up because
+
+[1224.12 - 1228.86] some of the big housing uh manufacturers
+
+[1226.58 - 1230.96] the ones that make uh gigantic
+
+[1228.86 - 1232.82] subdivisions like Lamar they're already
+
+[1230.96 - 1233.8400000000001] experimenting with this and investing in
+
+[1232.82 - 1235.82] it
+
+[1233.84 - 1237.74] um and so when the investment is there
+
+[1235.82 - 1239.6599999999999] you know that it's coming fast and I was
+
+[1237.74 - 1241.58] actually surprised to learn that there
+
+[1239.66 - 1244.16] are entire subdivisions Across America
+
+[1241.58 - 1245.4189999999999] that have already been 3D printed and I
+
+[1244.16 - 1247.88] really wish that they were here in the
+
+[1245.419 - 1249.919] South because I super want a 3D printed
+
+[1247.88 - 1252.2] house can you imagine having a castle
+
+[1249.919 - 1254.8400000000001] made of concrete that it's 3D printed
+
+[1252.2 - 1256.5800000000002] and extruded I super want that super bad
+
+[1254.84 - 1259.3999999999999] but I don't think that there's anyone
+
+[1256.58 - 1262.1] doing it here in the South we'll see
+
+[1259.4 - 1264.5590000000002] so how much is this going to actually
+
+[1262.1 - 1267.5] reduce the cost of homes
+
+[1264.559 - 1269.4189999999999] ice found evidence that some small 3D
+
+[1267.5 - 1271.52] printed homes could be as low as four
+
+[1269.419 - 1273.3200000000002] thousand dollars
+
+[1271.52 - 1276.1399999999999] um generally they're closer to ten
+
+[1273.32 - 1277.8799999999999] thousand dollars uh for a small one and
+
+[1276.14 - 1279.5] of course one thing that a lot of people
+
+[1277.88 - 1281.5390000000002] complained about when I mentioned like
+
+[1279.5 - 1283.28] moving into tiny houses and you know
+
+[1281.539 - 1284.539] portable houses and stuff like that is
+
+[1283.28 - 1286.6399999999999] people like I don't want to live in a
+
+[1284.539 - 1289.039] closet like it's not a closet it's just
+
+[1286.64 - 1291.6200000000001] a small house anyways
+
+[1289.039 - 1294.02] icon is a company that exists today and
+
+[1291.62 - 1297.26] is printing 2 000 square foot houses for
+
+[1294.02 - 1299.299] a hundred thousand dollars so my house
+
+[1297.26 - 1301.34] that I live in now is eighteen hundred
+
+[1299.299 - 1304.4] square feet on an acre of land and I
+
+[1301.34 - 1306.62] paid 200 000 for it ten years ago
+
+[1304.4 - 1309.26] so I could have something a little bit
+
+[1306.62 - 1310.76] bigger for half that price and of course
+
+[1309.26 - 1313.28] my house is worth like four hundred
+
+[1310.76 - 1316.039] thousand now uh because of you know
+
+[1313.28 - 1319.039] inflation and stuff so these these
+
+[1316.039 - 1320.48] commercial uh buildings are much cheaper
+
+[1319.039 - 1324.2] already
+
+[1320.48 - 1327.14] so if they're you know twice as cheap or
+
+[1324.2 - 1330.679] ha or sorry half as cheap or or a fifth
+
+[1327.14 - 1333.5] as as expensive as it costs to build uh
+
+[1330.679 - 1335.72] stick Built Homes then we're already on
+
+[1333.5 - 1338.6] the way to that like let's let's
+
+[1335.72 - 1343.1000000000001] collapse the price of housing now you
+
+[1338.6 - 1347.0] combine uh solar AI uh wind eventually
+
+[1343.1 - 1349.6399999999999] Fusion concrete gets much cheaper uh you
+
+[1347.0 - 1353.419] can you can also factory farm wood more
+
+[1349.64 - 1356.1200000000001] you can automate uh Timber forests
+
+[1353.419 - 1358.2800000000002] um and so then let's let's say that
+
+[1356.12 - 1362.6] we're we're working towards dropping the
+
+[1358.28 - 1366.32] uh cost of housing by at least 10x so
+
+[1362.6 - 1368.6589999999999] instead of 33 or 35 of your daily or
+
+[1366.32 - 1370.6399999999999] your monthly income it costs three and a
+
+[1368.659 - 1374.72] half percent so my twelve hundred dollar
+
+[1370.64 - 1376.039] mortgage would go down to 120 which is
+
+[1374.72 - 1377.78] pretty sustainable
+
+[1376.039 - 1380.419] that's just a couple days worth of work
+
+[1377.78 - 1382.1] for for many people uh and it's less
+
+[1380.419 - 1384.5] than an hour of work for a lot of uh
+
+[1382.1 - 1386.84] professionals that being said we're
+
+[1384.5 - 1390.039] looking at you know Ubi which is nobody
+
+[1386.84 - 1395.12] works but if you can Mass produce homes
+
+[1390.039 - 1396.32] then like hey great now also with Ubi
+
+[1395.12 - 1399.1399999999999] because one thing that people have
+
+[1396.32 - 1401.12] pointed out is that uh land is expensive
+
+[1399.14 - 1404.0] desirable land will always be expensive
+
+[1401.12 - 1406.28] but America is really really empty sorry
+
+[1404.0 - 1409.22] I have that in a future slide there is
+
+[1406.28 - 1411.02] lots and lots of land to expand into so
+
+[1409.22 - 1412.82] land is actually going to be relatively
+
+[1411.02 - 1414.98] cheap the hardest part is going to be
+
+[1412.82 - 1416.48] water but we can fix that with solar
+
+[1414.98 - 1419.299] because then you can distill and recycle
+
+[1416.48 - 1420.8600000000001] any amount of water in the long run I
+
+[1419.299 - 1423.9189999999999] think that I think the compounding
+
+[1420.86 - 1425.78] returns of robotic automation artificial
+
+[1423.919 - 1428.1200000000001] intelligence and energy hyper abundance
+
+[1425.78 - 1431.78] means that we could eventually see a
+
+[1428.12 - 1433.1589999999999] 100x drop in the cost of housing meaning
+
+[1431.78 - 1436.34] that a five hundred thousand dollar
+
+[1433.159 - 1440.419] house in today's money would cost you
+
+[1436.34 - 1443.299] five thousand dollars in 10 to 20 years
+
+[1440.419 - 1445.4] now food and other Goods so what I
+
+[1443.299 - 1447.799] realized is that okay Transportation
+
+[1445.4 - 1449.539] great you solved that problem you've
+
+[1447.799 - 1451.46] basically solved a lot of other problems
+
+[1449.539 - 1453.559] that have again those knock-on effects
+
+[1451.46 - 1456.26] you fix Transportation you make it super
+
+[1453.559 - 1457.46] cheap that makes housing cheaper uh you
+
+[1456.26 - 1458.96] get compounding returns there because
+
+[1457.46 - 1461.72] all the lessons that you learn from
+
+[1458.96 - 1463.94] robotic automation for delivery and and
+
+[1461.72 - 1465.6200000000001] that sort of stuff that makes that makes
+
+[1463.94 - 1468.5] that cheaper but those lessons also
+
+[1465.62 - 1470.6589999999999] apply directly to agriculture as well as
+
+[1468.5 - 1473.659] a bunch of other things now one thing
+
+[1470.659 - 1475.5800000000002] that I thought was that okay if these
+
+[1473.659 - 1478.0390000000002] industries get so cheap that they're not
+
+[1475.58 - 1479.36] sustainable because what happens is the
+
+[1478.039 - 1482.12] margins narrow
+
+[1479.36 - 1484.28] and so when you have no profit that can
+
+[1482.12 - 1487.4599999999998] be made you have to either become a
+
+[1484.28 - 1491.4189999999999] non-profit organization and and uh you
+
+[1487.46 - 1494.8400000000001] basically survive on uh subsidies or
+
+[1491.419 - 1498.0800000000002] donations or you can be nationalized by
+
+[1494.84 - 1500.24] the by the by the government which means
+
+[1498.08 - 1501.9189999999999] that the government then runs things but
+
+[1500.24 - 1503.9] uh
+
+[1501.919 - 1506.0] the Soviets tried to nationalize
+
+[1503.9 - 1507.38] Agriculture and it caused mass famines
+
+[1506.0 - 1509.059] that killed like millions and millions
+
+[1507.38 - 1510.38] and millions of people
+
+[1509.059 - 1513.32] um so we should not we should probably
+
+[1510.38 - 1516.44] never nationalize agriculture at least
+
+[1513.32 - 1519.5] not for a long time until it is so
+
+[1516.44 - 1521.6000000000001] thoroughly operationalized that there is
+
+[1519.5 - 1524.179] no chance for accidentally causing Mass
+
+[1521.6 - 1526.4599999999998] famine through Central management so I
+
+[1524.179 - 1528.38] am personally in the favor of keeping
+
+[1526.46 - 1530.1200000000001] private corporations but then
+
+[1528.38 - 1532.3400000000001] subsidizing their existence which we
+
+[1530.12 - 1535.4599999999998] already do by by the way we subsidize
+
+[1532.34 - 1537.559] corn and a few other uh Mass crops just
+
+[1535.46 - 1538.7] so that way we can ensure that it keeps
+
+[1537.559 - 1540.86] growing
+
+[1538.7 - 1543.14] so we're already doing that so if we
+
+[1540.86 - 1545.12] also subsidize other things like home
+
+[1543.14 - 1546.98] building so that no matter how cheap it
+
+[1545.12 - 1548.8999999999999] actually gets the corporations can keep
+
+[1546.98 - 1550.94] building them and then the government
+
+[1548.9 - 1553.88] gives them just a little bit of money to
+
+[1550.94 - 1555.98] ensure that they remain afloat uh
+
+[1553.88 - 1557.6000000000001] another possibility is changing
+
+[1555.98 - 1560.72] ownership models which I talked about in
+
+[1557.6 - 1562.4599999999998] other videos so by by creating locally
+
+[1560.72 - 1564.38] owned decentralized autonomous
+
+[1562.46 - 1568.059] organizations you could probably
+
+[1564.38 - 1570.7990000000002] incorporate uh the land you know the the
+
+[1568.059 - 1573.62] municipally owned land and then it can
+
+[1570.799 - 1576.32] be owned operated and managed by the
+
+[1573.62 - 1578.36] citizens of that city or county
+
+[1576.32 - 1579.5] so that is an ownership model that also
+
+[1578.36 - 1581.8999999999999] makes sense because then there's no
+
+[1579.5 - 1583.52] profit motive it's basically we're going
+
+[1581.9 - 1585.98] to work this land to feed our local
+
+[1583.52 - 1587.779] community and if we do have any excess
+
+[1585.98 - 1589.88] we can then sell it to neighboring
+
+[1587.779 - 1592.64] communities or whatever local sourcing
+
+[1589.88 - 1594.2600000000002] circular economies that sort of stuff AI
+
+[1592.64 - 1595.88] energy hyper abundance and robotic
+
+[1594.26 - 1598.1] automation will all make this a lot more
+
+[1595.88 - 1600.5590000000002] feasible and in fact again if those
+
+[1598.1 - 1601.8799999999999] prices collapse it'll be necessary to do
+
+[1600.559 - 1603.98] that because then you're providing a
+
+[1601.88 - 1606.0200000000002] good or a service not for profit but
+
+[1603.98 - 1608.0] just because it's needed
+
+[1606.02 - 1610.6399999999999] um so you know the best the best good is
+
+[1608.0 - 1612.32] the one that's basically free or it kind
+
+[1610.64 - 1613.64] of woven into the fabric of your
+
+[1612.32 - 1616.34] community
+
+[1613.64 - 1619.039] automated forestry as I mentioned Timber
+
+[1616.34 - 1623.4189999999999] is one of the most useful resources out
+
+[1619.039 - 1625.8799999999999] there first uh creating uh felling trees
+
+[1623.419 - 1628.3400000000001] and creating lumber from it is a carbon
+
+[1625.88 - 1630.5590000000002] sink uh actually Building Homes out of
+
+[1628.34 - 1633.62] wood permanently sequestered or
+
+[1630.559 - 1634.6399999999999] semi-permanently sequesters that into uh
+
+[1633.62 - 1637.36] into
+
+[1634.64 - 1639.5] um into the the structure of the house
+
+[1637.36 - 1642.559] concrete even though it's very energy
+
+[1639.5 - 1644.059] intensive to create now uh is also going
+
+[1642.559 - 1645.559] to be a carbon sink or a potential
+
+[1644.059 - 1647.48] carbon sink depending on the additives
+
+[1645.559 - 1650.0] that you add to it and so then you have
+
+[1647.48 - 1652.34] a permanent carbon sink so automating
+
+[1650.0 - 1654.86] forestry automating uh the the
+
+[1652.34 - 1658.1] production of concrete these things can
+
+[1654.86 - 1660.08] be probably used to one help fight
+
+[1658.1 - 1662.0] climate change because it's like okay
+
+[1660.08 - 1663.86] there's a x amount of carbon in the
+
+[1662.0 - 1665.9] atmosphere let's pull that carbon out
+
+[1663.86 - 1668.84] put it into into trees
+
+[1665.9 - 1672.14] and then we can use that to uh then
+
+[1668.84 - 1675.3799999999999] build homes and so my idea here is you
+
+[1672.14 - 1677.48] co-locate automated forests with a
+
+[1675.38 - 1679.5800000000002] modular home Factory and then you
+
+[1677.48 - 1681.5] deliver those modular uh house
+
+[1679.58 - 1683.8999999999999] components with fully automated
+
+[1681.5 - 1685.82] self-driving semi trucks and then the
+
+[1683.9 - 1688.3400000000001] final assembly and site prep is done
+
+[1685.82 - 1691.48] with robots and so you have this end to
+
+[1688.34 - 1694.279] end uh new supply chain that is 100
+
+[1691.48 - 1697.159] sustainable uh there's just a few things
+
+[1694.279 - 1699.32] that we need there energy abundance uh
+
+[1697.159 - 1701.6000000000001] better robots a little bit better Ai and
+
+[1699.32 - 1703.82] full self-driving cars but the economic
+
+[1701.6 - 1706.82] incentive is there for all of that to
+
+[1703.82 - 1708.62] happen so this these these virtuous
+
+[1706.82 - 1711.02] Cycles these compounding returns I think
+
+[1708.62 - 1714.799] will allow us to drastically drop the
+
+[1711.02 - 1716.6] prices of our most expensive asset which
+
+[1714.799 - 1719.179] is our homes
+
+[1716.6 - 1720.1999999999998] all right so let's do a quick price
+
+[1719.179 - 1723.26] check
+
+[1720.2 - 1724.5800000000002] if just for ballpark figures for
+
+[1723.26 - 1726.679] something that's kind of more reasonable
+
+[1724.58 - 1729.4399999999998] in the short term let's imagine that
+
+[1726.679 - 1730.88] within five to ten years we can uh and
+
+[1729.44 - 1734.059] it probably will take longer than that
+
+[1730.88 - 1737.2990000000002] honestly just because of uh inertia but
+
+[1734.059 - 1739.58] we drop our housing cost by 10x we drop
+
+[1737.299 - 1743.539] our food cost by 10x and we drop our
+
+[1739.58 - 1745.9399999999998] transportation by 10x so basically your
+
+[1743.539 - 1747.44] your basic living expenses for me go
+
+[1745.94 - 1750.6200000000001] from twenty one hundred and fifty
+
+[1747.44 - 1752.179] dollars a month to 250 a month your
+
+[1750.62 - 1753.62] dollar can go a lot farther with
+
+[1752.179 - 1756.3200000000002] technology
+
+[1753.62 - 1759.32] so that leaves Health Care insurance and
+
+[1756.32 - 1761.779] a few other uh big expenses like
+
+[1759.32 - 1763.34] clothing and you know fun and
+
+[1761.779 - 1764.539] entertainment and that sort of stuff but
+
+[1763.34 - 1766.52] Healthcare is one of the biggest ones
+
+[1764.539 - 1768.08] that's remaining education is also
+
+[1766.52 - 1769.8799999999999] expensive but I I actually didn't even
+
+[1768.08 - 1771.799] feel like I needed to address education
+
+[1769.88 - 1774.14] especially for the younger people who
+
+[1771.799 - 1776.0] are all you already using chat GPT to
+
+[1774.14 - 1777.14] learn everything
+
+[1776.0 - 1779.779] um and that's only going to get better
+
+[1777.14 - 1781.64] by the way uh you're going to have ai
+
+[1779.779 - 1784.34] and robotic tutors and teachers and
+
+[1781.64 - 1786.5590000000002] stuff that are going to be uh infinitely
+
+[1784.34 - 1787.8799999999999] patient fully personalized so I actually
+
+[1786.559 - 1792.2] had a really good conversation with
+
+[1787.88 - 1794.179] someone who wants to deploy AI to Africa
+
+[1792.2 - 1796.8400000000001] um to basically say we're going to take
+
+[1794.179 - 1799.159] Africa uh as an entire continent
+
+[1796.84 - 1801.5] straight into the 21st century by
+
+[1799.159 - 1803.3600000000001] providing personalized education for
+
+[1801.5 - 1804.679] literally every child in Africa so I'm
+
+[1803.36 - 1807.4399999999998] really excited to be helping out with
+
+[1804.679 - 1809.3600000000001] that project but the idea is that AI can
+
+[1807.44 - 1811.64] do that so and it's also going to be
+
+[1809.36 - 1813.6789999999999] cheap so that's why I didn't I guess I
+
+[1811.64 - 1815.72] did just address education but anyway
+
+[1813.679 - 1818.3600000000001] ways let's break down health care
+
+[1815.72 - 1819.919] because Healthcare is like the gigantic
+
+[1818.36 - 1821.84] elephant in the room particularly here
+
+[1819.919 - 1825.1000000000001] in America but it's also a contentious
+
+[1821.84 - 1827.84] issue in places with socialized medicine
+
+[1825.1 - 1829.4599999999998] such as Britain and France there's long
+
+[1827.84 - 1831.86] waiting lists
+
+[1829.46 - 1832.94] um and then of course the their private
+
+[1831.86 - 1837.1999999999998] uh
+
+[1832.94 - 1839.539] care is available but like what was I
+
+[1837.2 - 1841.1200000000001] reading like dental care in Britain is
+
+[1839.539 - 1844.1] actually kind of difficult because
+
+[1841.12 - 1845.9599999999998] dentists are required to take a certain
+
+[1844.1 - 1848.779] number of you know like they have a
+
+[1845.96 - 1851.8400000000001] quota of uh of you know government
+
+[1848.779 - 1855.32] provided ones but they will prefer to do
+
+[1851.84 - 1857.6] uh you know to do uh private uh funded
+
+[1855.32 - 1859.399] like right off the bat so like if you're
+
+[1857.6 - 1860.779] on a waiting list if you have money and
+
+[1859.399 - 1863.36] pay for it out of pocket you can get
+
+[1860.779 - 1864.919] care immediately so there are problems
+
+[1863.36 - 1866.84] with the idea of socialized medicine so
+
+[1864.919 - 1868.64] the idea is let's drive down the cost of
+
+[1866.84 - 1871.8799999999999] socialized medicine
+
+[1868.64 - 1875.96] as much as possible uh to to basically
+
+[1871.88 - 1878.179] uh avoid avoid the cost so there's an
+
+[1875.96 - 1881.24] age-old adage an ounce of prevention is
+
+[1878.179 - 1883.279] worth a pound of cure so let's focus on
+
+[1881.24 - 1885.26] lowering health care costs primarily
+
+[1883.279 - 1887.36] with prevention
+
+[1885.26 - 1889.52] um obviously we Americans were pretty
+
+[1887.36 - 1891.62] unhealthy some of it is lifestyle some
+
+[1889.52 - 1893.72] of his diet choices but a lot of it is
+
+[1891.62 - 1895.8799999999999] just age-related diseases we are living
+
+[1893.72 - 1897.8600000000001] longer which means that uh really
+
+[1895.88 - 1899.48] dangerous and expensive diseases like
+
+[1897.86 - 1902.059] heart disease and cancer are killing us
+
+[1899.48 - 1903.32] instead of accidents and treatable
+
+[1902.059 - 1905.6589999999999] infections
+
+[1903.32 - 1907.9399999999998] so therefore the focus should be on
+
+[1905.659 - 1910.88] healthy aging such as with regenerative
+
+[1907.94 - 1912.98] medicines they can get you back to full
+
+[1910.88 - 1916.0390000000002] health and then Rejuvenation therapies
+
+[1912.98 - 1918.14] that can actively lower your age and
+
+[1916.039 - 1920.419] there's been a lot of breakthroughs uh
+
+[1918.14 - 1923.0590000000002] just in the last few weeks where AI has
+
+[1920.419 - 1925.22] helped us identify uh chemical
+
+[1923.059 - 1927.98] substances enzymes many of them
+
+[1925.22 - 1930.8600000000001] naturally occurring in in nature they
+
+[1927.98 - 1933.5] can actually literally de-age your cells
+
+[1930.86 - 1934.6399999999999] so basically the the cheapest doctor the
+
+[1933.5 - 1935.659] best doctor is the one that you never
+
+[1934.64 - 1938.0590000000002] need
+
+[1935.659 - 1939.7990000000002] and then if we can replace the rest with
+
+[1938.059 - 1942.32] robots and Ai and that kind of thing
+
+[1939.799 - 1945.26] then like you know the cost of Health
+
+[1942.32 - 1947.36] Care just collapses because you know I
+
+[1945.26 - 1949.34] remember I was uh a couple years ago
+
+[1947.36 - 1951.4399999999998] before the pandemic I was visiting a bar
+
+[1949.34 - 1952.8799999999999] with a friend and the bartender she was
+
+[1951.44 - 1954.74] a little bit younger she was in her 20s
+
+[1952.88 - 1958.1000000000001] and she was like why would I have health
+
+[1954.74 - 1960.98] insurance I am healthy and I'm like just
+
+[1958.1 - 1963.1999999999998] wait till your 30s or 40s but the idea
+
+[1960.98 - 1964.3990000000001] is that you know and this was actually
+
+[1963.2 - 1966.919] one of the biggest problems with
+
+[1964.399 - 1968.12] Obamacare here in America was that young
+
+[1966.919 - 1969.38] people didn't sign up because young
+
+[1968.12 - 1971.84] people didn't care because young people
+
+[1969.38 - 1973.94] are healthy right most of our health
+
+[1971.84 - 1976.6399999999999] costs are age-related
+
+[1973.94 - 1978.74] so what I suspect in the future is that
+
+[1976.64 - 1981.14] most Healthcare is going to be so take
+
+[1978.74 - 1983.659] those self-driving cars in your robotic
+
+[1981.14 - 1985.8200000000002] doctor you call and just like hey I need
+
+[1983.659 - 1989.0590000000002] a checkup or hey I'm feeling sick and
+
+[1985.82 - 1991.52] then you know like an automated uh card
+
+[1989.059 - 1993.6789999999999] pulls up and a robot doctor comes out
+
+[1991.52 - 1995.6589999999999] and you know says okay what's wrong you
+
+[1993.679 - 1997.279] know Ted does a couple of tests and then
+
+[1995.659 - 1999.0800000000002] you know treats you on the spot and then
+
+[1997.279 - 2000.82] away they go so you can even get rid of
+
+[1999.08 - 2002.019] most Hospitals now that being said
+
+[2000.82 - 2005.08] you're still going to need Trauma
+
+[2002.019 - 2007.24] Centers for like accidents and uh there
+
+[2005.08 - 2011.32] will probably still will be some major
+
+[2007.24 - 2013.299] diseases uh things that require icus and
+
+[2011.32 - 2015.58] that sort of stuff but if we can
+
+[2013.299 - 2017.98] drastically reduce the need even just a
+
+[2015.58 - 2019.96] baseline need for edu not education for
+
+[2017.98 - 2022.179] healthcare then that's a great way to
+
+[2019.96 - 2024.46] avoid the cost because the thing is is
+
+[2022.179 - 2026.019] if you are healthy that is cheap so this
+
+[2024.46 - 2029.26] is this is an expense that we can just
+
+[2026.019 - 2031.8990000000001] hypothetically fully get rid of
+
+[2029.26 - 2034.6] so I call this Healthcare avoidance
+
+[2031.899 - 2036.82] um you know AI is going to be the
+
+[2034.6 - 2038.62] primary thing here with personalized
+
+[2036.82 - 2041.08] genetic medicine stem cell therapy
+
+[2038.62 - 2043.299] de-aging Rejuvenation that sort of stuff
+
+[2041.08 - 2044.799] one thing is that a lot of people are
+
+[2043.299 - 2047.44] like oh the elites are never going to
+
+[2044.799 - 2049.48] allow the rest of us to have
+
+[2047.44 - 2051.52] um no the thing is is that healthy
+
+[2049.48 - 2054.52] consumers are good consumers dead
+
+[2051.52 - 2057.04] consumers don't spend any money right so
+
+[2054.52 - 2059.32] yes the insurance companies and you know
+
+[2057.04 - 2061.659] the the big Pharma and stuff they want
+
+[2059.32 - 2064.179] to keep you sick but the thing is is
+
+[2061.659 - 2066.339] that's not good for the economy because
+
+[2064.179 - 2068.619] if you have to spend you know eight
+
+[2066.339 - 2070.72] percent or 16 or for people that with
+
+[2068.619 - 2075.82] dealing with chronic conditions up to
+
+[2070.72 - 2077.6189999999997] half of their money on on just Health it
+
+[2075.82 - 2079.8990000000003] would be way better for the economy the
+
+[2077.619 - 2082.4190000000003] government for Society for literally
+
+[2079.899 - 2085.659] everyone else except for the people who
+
+[2082.419 - 2087.339] profiteer off of uh uh chronic illnesses
+
+[2085.659 - 2089.26] it would be better for literally
+
+[2087.339 - 2092.2599999999998] everyone else to just get rid of those
+
+[2089.26 - 2094.48] health issues altogether
+
+[2092.26 - 2097.0800000000004] um being healthy is cheap cheap citizens
+
+[2094.48 - 2100.72] keep paying taxes uh they keep working
+
+[2097.08 - 2102.58] uh cheap or healthy consumers keep
+
+[2100.72 - 2104.2] buying goods and services and they buy
+
+[2102.58 - 2107.02] goods and services other than health
+
+[2104.2 - 2109.06] care so the economic incentive is there
+
+[2107.02 - 2110.44] so whenever people complain about like
+
+[2109.06 - 2111.88] oh well the elites are going to keep it
+
+[2110.44 - 2113.92] for themselves I don't think that's
+
+[2111.88 - 2116.56] going to be the case and one thing
+
+[2113.92 - 2118.359] another reason that I believe this is
+
+[2116.56 - 2120.16] because when you look at what it
+
+[2118.359 - 2123.04] actually takes to create regenerative
+
+[2120.16 - 2125.02] medicine uh autologous stem cells and
+
+[2123.04 - 2126.94] Rejuvenation therapies these are not
+
+[2125.02 - 2128.68] particularly expensive yeah I know
+
+[2126.94 - 2129.94] there's that that Tech bro out in
+
+[2128.68 - 2132.46] California who's spending a million
+
+[2129.94 - 2134.26] dollars a year to like quote get back to
+
+[2132.46 - 2136.78] age 18
+
+[2134.26 - 2139.78] um you know but the thing is is like
+
+[2136.78 - 2141.7000000000003] a lot of these uh yes that that is
+
+[2139.78 - 2143.32] expensive but when you look at what's
+
+[2141.7 - 2145.48] actually effective and the the
+
+[2143.32 - 2147.04] underlying principles it's not that
+
+[2145.48 - 2149.2] expensive and all we need to do is like
+
+[2147.04 - 2151.7799999999997] figure out how to mass produce some of
+
+[2149.2 - 2153.5789999999997] these things and the economics it makes
+
+[2151.78 - 2155.1400000000003] sense this is another thing where I
+
+[2153.579 - 2156.4] think government subsidies will make
+
+[2155.14 - 2158.5] sense as well
+
+[2156.4 - 2161.98] because if you cure something
+
+[2158.5 - 2164.26] permanently if the treatment is not that
+
+[2161.98 - 2167.02] expensive hypothetically but you still
+
+[2164.26 - 2169.3590000000004] need someone to do it I I think that the
+
+[2167.02 - 2171.339] pharmac and doctors and everyone else
+
+[2169.359 - 2173.98] will probably be incentivized through
+
+[2171.339 - 2176.0789999999997] subsidies like basically here's how I
+
+[2173.98 - 2178.599] might structure that incentive uh
+
+[2176.079 - 2180.3390000000004] structure where let's say let's say
+
+[2178.599 - 2182.44] someone comes to you and they've got a
+
+[2180.339 - 2183.54] chronic condition what you would do is
+
+[2182.44 - 2185.92] actually
+
+[2183.54 - 2188.079] incentivize the doctor to cure that
+
+[2185.92 - 2189.94] chronic condition by saying if you cure
+
+[2188.079 - 2191.619] this permanently you get a twenty
+
+[2189.94 - 2193.96] thousand dollar bonus for curing it
+
+[2191.619 - 2195.94] permanently so basically you incentivize
+
+[2193.96 - 2197.8] the behavior that you want to see if
+
+[2195.94 - 2199.66] it's like heart disease like oh hey like
+
+[2197.8 - 2201.099] you've got high cholesterol you've
+
+[2199.66 - 2203.2] you're starting to get heart failure
+
+[2201.099 - 2205.599] let's give you the right medicines the
+
+[2203.2 - 2207.339] right therapies the right treatments to
+
+[2205.599 - 2208.96] permanently cure this to clear all your
+
+[2207.339 - 2210.5789999999997] arteries to make sure that your health
+
+[2208.96 - 2212.619] that your heart is as healthy as it was
+
+[2210.579 - 2214.6600000000003] when you were eight years old right then
+
+[2212.619 - 2216.46] you incentivize that you incentivize The
+
+[2214.66 - 2218.5] Cure not the treatment because that's
+
+[2216.46 - 2221.56] one of the biggest problems with
+
+[2218.5 - 2223.359] medicine today is through government
+
+[2221.56 - 2225.04] subsidies and Medicare and Medicaid and
+
+[2223.359 - 2226.96] all that stuff we incentivize the
+
+[2225.04 - 2229.3] treatment which is why doctors over
+
+[2226.96 - 2231.28] diagnose but what we really need to do
+
+[2229.3 - 2233.8590000000004] is incentivize the cures
+
+[2231.28 - 2235.3] okay now one thing that I need to
+
+[2233.859 - 2237.7599999999998] address and I have addressed this in
+
+[2235.3 - 2239.92] previous videos is that even if we
+
+[2237.76 - 2241.96] create hyperabundance of energy and
+
+[2239.92 - 2244.06] Timber and uh and cognitive labor
+
+[2241.96 - 2246.7] there's still going to be a few primary
+
+[2244.06 - 2250.18] scarce inputs to the economy namely
+
+[2246.7 - 2252.9399999999996] desirable land and Rare Minerals so
+
+[2250.18 - 2255.5789999999997] to address both of these desirable land
+
+[2252.94 - 2259.18] uh as I mentioned America is super super
+
+[2255.579 - 2260.8590000000004] empty uh there is a lot of place that we
+
+[2259.18 - 2263.0789999999997] can spread to and if your job is not
+
+[2260.859 - 2265.66] tight at one if you don't have a job you
+
+[2263.079 - 2267.4] can live anywhere you want but also if
+
+[2265.66 - 2269.98] your job is not tied to a geographic
+
+[2267.4 - 2271.96] location a particular City you can also
+
+[2269.98 - 2274.42] move wherever you want remote work is on
+
+[2271.96 - 2276.16] the rise so there is a lot of space that
+
+[2274.42 - 2278.26] we can spread out into
+
+[2276.16 - 2279.52] and before you say oh well there's a
+
+[2278.26 - 2281.8590000000004] reason people don't live there that's
+
+[2279.52 - 2283.66] not necessarily true a lot of the
+
+[2281.859 - 2285.5789999999997] frontier towns were built by the
+
+[2283.66 - 2286.8999999999996] railroad companies who just said hey
+
+[2285.579 - 2289.0] we're going to build a railroad through
+
+[2286.9 - 2290.7400000000002] this area they bought all the land they
+
+[2289.0 - 2292.3] built it they literally just fabricated
+
+[2290.74 - 2294.5789999999997] a town which is why you see some of them
+
+[2292.3 - 2296.8590000000004] in straight lines right through like
+
+[2294.579 - 2298.42] Arkansas and Nebraska and stuff is
+
+[2296.859 - 2302.5] because they were literally just
+
+[2298.42 - 2304.2400000000002] fabricated out of the Great Plains where
+
+[2302.5 - 2306.88] the railroads created a train station
+
+[2304.24 - 2309.16] and then sold the land and developed it
+
+[2306.88 - 2310.2400000000002] and said look now there's a town here I
+
+[2309.16 - 2312.2799999999997] think we're going to see the same thing
+
+[2310.24 - 2314.5789999999997] again not necessarily through railroads
+
+[2312.28 - 2317.02] but point my point is that you can
+
+[2314.579 - 2320.2000000000003] create a town pretty much anywhere in
+
+[2317.02 - 2322.3] America now one the biggest problem is
+
+[2320.2 - 2324.339] water is actually the scarcest resource
+
+[2322.3 - 2326.619] but with energy hyperabundance you can
+
+[2324.339 - 2328.599] recycle water pretty easily so yeah if
+
+[2326.619 - 2329.619] you want to live out in New Mexico you
+
+[2328.599 - 2331.119] might live A little bit more like the
+
+[2329.619 - 2332.619] fremen which some people wouldn't want
+
+[2331.119 - 2334.2400000000002] to do that anyways
+
+[2332.619 - 2335.8] Rare Minerals is going to be the other
+
+[2334.24 - 2337.72] big thing but I don't know if you saw in
+
+[2335.8 - 2341.619] the news NASA and a few others are
+
+[2337.72 - 2344.4399999999996] working on sending probes uh to like uh
+
+[2341.619 - 2346.839] asteroids and meteors uh that are chock
+
+[2344.44 - 2348.4] full of really really valuable minerals
+
+[2346.839 - 2349.7799999999997] so hopefully we can end up with a
+
+[2348.4 - 2352.48] hyperabundance of minerals just by
+
+[2349.78 - 2355.48] mining asteroids in space if we can't do
+
+[2352.48 - 2356.8] that the coming age of quantum Computing
+
+[2355.48 - 2358.72] is going to help us create what's called
+
+[2356.8 - 2361.6600000000003] meta materials so these are like
+
+[2358.72 - 2363.7] nanoparticles that give us properties
+
+[2361.66 - 2365.0789999999997] that you wouldn't otherwise expect so
+
+[2363.7 - 2368.2599999999998] one of the most famous one of course is
+
+[2365.079 - 2371.32] like carbon nanotubes and um and
+
+[2368.26 - 2374.44] graphene right graphene is a single
+
+[2371.32 - 2377.8590000000004] sheet of carbon which has really really
+
+[2374.44 - 2378.78] cool properties it can be uh it can be
+
+[2377.859 - 2382.66] um
+
+[2378.78 - 2385.0600000000004] superconductive it can be a super super
+
+[2382.66 - 2386.68] fast transistor that sort of stuff So
+
+[2385.06 - 2388.0] Meta materials and Material Science will
+
+[2386.68 - 2390.04] be accelerated by artificial
+
+[2388.0 - 2391.96] intelligence and Quantum Computing so
+
+[2390.04 - 2394.119] hopefully we can just say you know what
+
+[2391.96 - 2397.42] instead of you know needing Cobalt and
+
+[2394.119 - 2398.859] and nickel and cadmium and lithium what
+
+[2397.42 - 2400.839] if we can just make everything out of
+
+[2398.859 - 2402.8199999999997] iron and carbon with met with
+
+[2400.839 - 2404.02] nanoparticles that are really cheap to
+
+[2402.82 - 2406.1800000000003] mass produce
+
+[2404.02 - 2408.82] we're not there yet but hypothetically
+
+[2406.18 - 2411.2799999999997] it's possible so we could overcome these
+
+[2408.82 - 2413.38] two major scarce bottlenecks
+
+[2411.28 - 2415.48] so I mentioned Quantum Computing I found
+
+[2413.38 - 2417.1600000000003] this interesting quotation from an
+
+[2415.48 - 2419.5] article by the US Department of energy
+
+[2417.16 - 2422.14] Quantum Computing enables unprecedented
+
+[2419.5 - 2425.38] Material Science simulations so
+
+[2422.14 - 2427.54] basically uh as Quantum Computing ramps
+
+[2425.38 - 2431.26] up and I just posted an article IBM
+
+[2427.54 - 2433.48] there are 127 qubit quantum computer is
+
+[2431.26 - 2435.579] actually doing real work now so Quantum
+
+[2433.48 - 2437.5] the age of quantum Computing is ramping
+
+[2435.579 - 2439.1800000000003] up that'll help us solve stuff like
+
+[2437.5 - 2441.52] fusion and everything else to do with
+
+[2439.18 - 2445.2999999999997] energy make better solar panels cheaper
+
+[2441.52 - 2447.28] solar panels genetics and diseases very
+
+[2445.3 - 2449.44] complex interactions and discovering new
+
+[2447.28 - 2451.2400000000002] drugs and and that sort of stuff Quantum
+
+[2449.44 - 2452.68] Computing can help with that artificial
+
+[2451.24 - 2455.2599999999998] intelligence can already help with that
+
+[2452.68 - 2457.06] but you can get a much better faster
+
+[2455.26 - 2458.5] simulation one of the most interesting
+
+[2457.06 - 2460.42] things about Quantum Computing is
+
+[2458.5 - 2462.4] because it basically magically solves
+
+[2460.42 - 2465.04] optimization problems we have a really
+
+[2462.4 - 2467.26] hard time verifying the results so
+
+[2465.04 - 2468.64] basically you run the simulation and
+
+[2467.26 - 2470.32] then you'll have to test it in reality
+
+[2468.64 - 2473.6189999999997] to see if the simulation was accurate
+
+[2470.32 - 2475.7200000000003] but they're establishing benchmarks
+
+[2473.619 - 2477.4] about how to gauge the accuracy of a
+
+[2475.72 - 2479.14] Quantum simulation
+
+[2477.4 - 2480.579] this Material Science will also
+
+[2479.14 - 2482.02] accelerate our understanding of
+
+[2480.579 - 2484.48] batteries metals and other meta
+
+[2482.02 - 2486.099] materials as I mentioned solar solar is
+
+[2484.48 - 2489.22] going to be one of the big things on top
+
+[2486.099 - 2491.98] of everything else that helps with uh
+
+[2489.22 - 2493.66] driving down the costs
+
+[2491.98 - 2495.52] um I've seen a lot of people mention
+
+[2493.66 - 2498.339] computronium
+
+[2495.52 - 2501.339] um in the comments which okay yes I know
+
+[2498.339 - 2506.38] Isaac Arthur loves talking about things
+
+[2501.339 - 2506.38] like computronium and other stuff but
+
+[2507.3 - 2511.3] this is already happening someone asked
+
+[2509.44 - 2513.94] me and I'm like neuromorphic chips exist
+
+[2511.3 - 2516.04] like so a neuromorphic chip is basically
+
+[2513.94 - 2518.56] an analog chip that in some cases just
+
+[2516.04 - 2521.079] uses Ambient Energy to do computation
+
+[2518.56 - 2523.24] it's a real thing but you can't just
+
+[2521.079 - 2525.46] magically transmute matter into
+
+[2523.24 - 2527.2599999999998] computational material you have to
+
+[2525.46 - 2530.14] create a meta material which is very
+
+[2527.26 - 2531.94] difficult right now and know the entire
+
+[2530.14 - 2534.52] light cone will not be transmuted into
+
+[2531.94 - 2536.079] computronium that is Pure Fantasy I
+
+[2534.52 - 2537.7] think
+
+[2536.079 - 2539.5600000000004] um now that being said yes I do believe
+
+[2537.7 - 2541.839] that the universe is itself a computer
+
+[2539.56 - 2544.0] so technically all matter is already
+
+[2541.839 - 2545.92] computronium it's just not Computing
+
+[2544.0 - 2547.9] something that you deliberately want it
+
+[2545.92 - 2550.599] to because of the laws of entropy and
+
+[2547.9 - 2553.599] that sort of stuff anyways getting lost
+
+[2550.599 - 2555.52] in a tangent Quantum Computing is on the
+
+[2553.599 - 2556.839] is on the ascendancy and so you have
+
+[2555.52 - 2558.94] Quantum Computing artificial
+
+[2556.839 - 2560.619] intelligence and energy hyperabundance
+
+[2558.94 - 2562.2400000000002] all coming together that are going to
+
+[2560.619 - 2563.619] continue to drive down the cost of
+
+[2562.24 - 2566.14] literally everything
+
+[2563.619 - 2568.96] so this is the Snowball Effect
+
+[2566.14 - 2572.2599999999998] uh AI is already accelerating science
+
+[2568.96 - 2573.76] and lots of other stuff for that matter
+
+[2572.26 - 2576.3390000000004] um I I think actually one of the future
+
+[2573.76 - 2577.78] hackathons that I'm going to put on is
+
+[2576.339 - 2581.2] let's automate science as much as
+
+[2577.78 - 2583.78] possible uh you you have this
+
+[2581.2 - 2585.7599999999998] compounding return where AI helps you do
+
+[2583.78 - 2588.4] science faster it helps you research AI
+
+[2585.76 - 2590.619] faster it helps you create more energy
+
+[2588.4 - 2592.54] abundance faster which all feeds back
+
+[2590.619 - 2594.04] into the system accelerating the AI
+
+[2592.54 - 2596.079] which then accelerates Material Science
+
+[2594.04 - 2598.74] what you know so you get this virtuous
+
+[2596.079 - 2601.119] cycle this Snowball Effect where
+
+[2598.74 - 2603.52] suddenly all problems seem to be
+
+[2601.119 - 2606.4] solvable faster and faster so this is
+
+[2603.52 - 2608.74] the Triple Crown uh artificial
+
+[2606.4 - 2610.42] intelligence Quantum Computing oh and
+
+[2608.74 - 2612.0989999999997] Quantum Computing I think I forgot to
+
+[2610.42 - 2614.619] mention this is that Quantum Computing
+
+[2612.099 - 2616.42] will also help us design better chips
+
+[2614.619 - 2618.7000000000003] and the materials that go into those
+
+[2616.42 - 2620.44] better chips so then the quantum
+
+[2618.7 - 2622.5989999999997] computers can help design better quantum
+
+[2620.44 - 2625.18] computers and better gpus and better
+
+[2622.599 - 2626.8590000000004] tpus which then allows us for better AI
+
+[2625.18 - 2628.54] which can then improve through Quantum
+
+[2626.859 - 2631.54] Computing infusion and so you have this
+
+[2628.54 - 2633.52] three-way interaction this Trifecta of
+
+[2631.54 - 2635.8] these three technologies that are going
+
+[2633.52 - 2638.079] to just completely spiral
+
+[2635.8 - 2640.54] and so those are the three technologies
+
+[2638.079 - 2642.46] that will lead to hard takeoff these are
+
+[2640.54 - 2644.74] the three technologies that will lead to
+
+[2642.46 - 2645.94] the singularity is artificial it's not
+
+[2644.74 - 2647.6189999999997] just artificial intelligence it's
+
+[2645.94 - 2650.319] artificial intelligence Quantum
+
+[2647.619 - 2652.7200000000003] Computing and um and energy
+
+[2650.319 - 2656.079] hyperabundance AKA solar wind Fusion
+
+[2652.72 - 2658.74] that sort of stuff the tldr is that all
+
+[2656.079 - 2662.38] material concerns basically go away
+
+[2658.74 - 2665.02] they become so cheap that the cost is
+
+[2662.38 - 2666.94] trivial that I I suspect you'll they'll
+
+[2665.02 - 2669.579] have to just subsidize those with
+
+[2666.94 - 2671.26] government subsidies and so Universal
+
+[2669.579 - 2673.54] basic income is basically going to be
+
+[2671.26 - 2676.2400000000002] paid for by virtue of we're going to
+
+[2673.54 - 2678.819] destroy the cost of living
+
+[2676.24 - 2680.9799999999996] so butterfly effect as I've talked about
+
+[2678.819 - 2682.66] there's all these kinds of interactions
+
+[2680.98 - 2685.119] and compounding returns and virtuous
+
+[2682.66 - 2687.04] Cycles this is why I give all my code
+
+[2685.119 - 2689.2000000000003] away for free so I mentioned this at the
+
+[2687.04 - 2691.3] beginning of the video with my patreon I
+
+[2689.2 - 2692.859] refuse to sign any ndas because any
+
+[2691.3 - 2695.6800000000003] problem that I solve that has the
+
+[2692.859 - 2697.2999999999997] ability to accelerate this future cannot
+
+[2695.68 - 2700.06] be locked up as intellectual property
+
+[2697.3 - 2701.5600000000004] and honestly with the way that AI is
+
+[2700.06 - 2702.94] going I think intellectual property is
+
+[2701.56 - 2705.099] probably also going the way of the
+
+[2702.94 - 2708.099] dinosaurs because if AI is generating
+
+[2705.099 - 2710.02] all intellectual property who cares
+
+[2708.099 - 2711.76] um the economic productivity that we're
+
+[2710.02 - 2713.5] going to see in the next couple of years
+
+[2711.76 - 2714.7000000000003] yes it's going to be impressive yes
+
+[2713.5 - 2718.18] we're going to have quadrillion dollar
+
+[2714.7 - 2719.98] companies but that all absolutely pales
+
+[2718.18 - 2722.0789999999997] in comparison to what's coming
+
+[2719.98 - 2724.66] decades after that
+
+[2722.079 - 2727.98] like when we have the possibility of
+
+[2724.66 - 2731.5] curing literally every disease
+
+[2727.98 - 2734.68] imaginable and live long enough to see
+
+[2731.5 - 2737.319] the stars to see the future what does
+
+[2734.68 - 2741.3999999999996] money matter like what does the
+
+[2737.319 - 2743.74] economics matter so basically solve
+
+[2741.4 - 2745.48] solve all these other problems and money
+
+[2743.74 - 2748.4799999999996] becomes irrelevant
+
+[2745.48 - 2750.52] so this is the underpinning reason for
+
+[2748.48 - 2751.839] all of my work and the axiomatic
+
+[2750.52 - 2753.7] alignment the heuristic imperatives that
+
+[2751.839 - 2755.2599999999998] I've been working on which is why I want
+
+[2753.7 - 2757.0] to equip AI with these things because
+
+[2755.26 - 2760.0600000000004] you reduce suffering by treating
+
+[2757.0 - 2762.28] diseases you reduce suffering by uh
+
+[2760.06 - 2764.74] increasing Justice by protecting
+
+[2762.28 - 2766.599] individual liberty and human rights you
+
+[2764.74 - 2769.839] increase Prosperity by accelerating
+
+[2766.599 - 2772.1800000000003] science by deploying infrastructure
+
+[2769.839 - 2774.7599999999998] by protecting ecosystems you increase
+
+[2772.18 - 2777.46] understanding by communication by
+
+[2774.76 - 2779.5] education by teaching by reinforcing
+
+[2777.46 - 2781.7200000000003] that that virtuous cycle of Science and
+
+[2779.5 - 2783.76] com and computation and artificial
+
+[2781.72 - 2786.5789999999997] intelligence all of these things work
+
+[2783.76 - 2788.619] together in compounding returns in order
+
+[2786.579 - 2791.8] to create the future that we want to see
+
+[2788.619 - 2794.319] AKA Utopia which I know Utopia is a is a
+
+[2791.8 - 2796.1800000000003] loaded term but to me Utopia means high
+
+[2794.319 - 2798.94] standard of living High individual
+
+[2796.18 - 2801.16] liberty and high social Mobility that's
+
+[2798.94 - 2804.599] the goal alright thanks for watching I
+
+[2801.16 - 2804.5989999999997] hope you got a lot out of this cheers

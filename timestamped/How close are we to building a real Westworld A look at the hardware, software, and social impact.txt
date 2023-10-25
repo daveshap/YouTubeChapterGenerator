@@ -1,0 +1,2425 @@
+[0.9 - 6.6000000000000005] morning everybody David Shapiro here
+
+[3.179 - 9.9] with a video so today we're going to
+
+[6.6 - 12.599] talk about Westworld and AI excuse me
+
+[9.9 - 14.82] there are a couple of aspects of
+
+[12.599 - 16.98] Westworld that are really compelling
+
+[14.82 - 20.22] so one there's the hardware and software
+
+[16.98 - 22.32] but two there's the uh our Hardware
+
+[20.22 - 24.24] software number three is the
+
+[22.32 - 26.82] implications for Humanity which the
+
+[24.24 - 29.519] themes are explored throughout the show
+
+[26.82 - 31.019] so for those who are not familiar with
+
+[29.519 - 33.78] Westworld
+
+[31.019 - 36.48] um it's a HBO show where the premise is
+
+[33.78 - 38.719] basically a theme park where all of the
+
+[36.48 - 41.94] all of the hosts all of the characters
+
+[38.719 - 43.800000000000004] are robots so they're essentially NPCs
+
+[41.94 - 45.599999999999994] non-playable characters
+
+[43.8 - 48.18] um so but it's a real life video game
+
+[45.6 - 50.7] where you get to go on adventures and
+
+[48.18 - 52.26] many of the characters have stories and
+
+[50.7 - 55.440000000000005] quests that they'll give you and they'll
+
+[52.26 - 58.26] take you on you know raids and violence
+
+[55.44 - 59.16] and sex and all sorts of fun exciting
+
+[58.26 - 63.0] stuff
+
+[59.16 - 65.03999999999999] and throughout the show they explore
+
+[63.0 - 67.619] um you know what does it mean to be
+
+[65.04 - 69.9] alive to be human uh what does it mean
+
+[67.619 - 71.7] about us that we like violence and and
+
+[69.9 - 74.4] sex on demand and that we do these
+
+[71.7 - 77.28] things uh and then it's all couched in a
+
+[74.4 - 78.84] pretty exciting sexy Adventure
+
+[77.28 - 80.7] um okay so before we jump into the show
+
+[78.84 - 83.759] just a real quick plug
+
+[80.7 - 86.34] um my patreon I made a couple of changes
+
+[83.759 - 88.02] where uh pretty much all tiers well no
+
+[86.34 - 89.88000000000001] not pretty much all tiers get you access
+
+[88.02 - 92.28] to the private Discord it's already got
+
+[89.88 - 95.39999999999999] 200 members as of uh the recording of
+
+[92.28 - 98.22] this video and uh it's a really thriving
+
+[95.4 - 100.5] Community lots of really sharp folks
+
+[98.22 - 102.17999999999999] um and yeah so Jump On In
+
+[100.5 - 104.4] um some of my higher most of my higher
+
+[102.18 - 105.9] tiers are sold out right now
+
+[104.4 - 108.78] um so I unfortunately don't have any
+
+[105.9 - 111.18] extra time for uh one-on-one sessions
+
+[108.78 - 113.399] however that will probably change later
+
+[111.18 - 115.159] in May so just keep checking and we'll
+
+[113.399 - 118.799] uh I'll get I'll get to you eventually
+
+[115.159 - 121.32000000000001] okay so first let's just talk about the
+
+[118.799 - 124.92] hardware of Westworld
+
+[121.32 - 126.719] so in Westworld this is an example of
+
+[124.92 - 129.479] one of the hosts
+
+[126.719 - 130.97899999999998] um and so you see she's in a mostly
+
+[129.479 - 133.37900000000002] disassembled State actually doesn't even
+
+[130.979 - 135.06] have most of the internals but I thought
+
+[133.379 - 138.54] this was a good a good place to start
+
+[135.06 - 140.459] because the the uh the frame looks like
+
+[138.54 - 142.319] it's carbon fiber which I actually
+
+[140.459 - 145.379] thought would probably be a good
+
+[142.319 - 147.29999999999998] material to build a host chassis out of
+
+[145.379 - 150.17999999999998] because if you build it out of metal
+
+[147.3 - 152.28] it's going to be too heavy
+
+[150.18 - 154.92000000000002] um this is something that's explored in
+
+[152.28 - 157.86] uh movies and shows like Ghost in the
+
+[154.92 - 160.2] Shell uh Terminator where they have a
+
+[157.86 - 162.54000000000002] metal chassis even a wolverine
+
+[160.2 - 163.67999999999998] he has a metal skeleton and so they're
+
+[162.54 - 165.239] too heavy
+
+[163.68 - 166.92000000000002] um but especially if you want something
+
+[165.239 - 168.84] that's going to move like a normal
+
+[166.92 - 170.76] person and then something that's going
+
+[168.84 - 172.86] to feel like a normal person for uh
+
+[170.76 - 174.0] let's say closer encounters
+
+[172.86 - 176.28] um you're gonna want something nice and
+
+[174.0 - 178.379] light and carbon fiber is is pretty
+
+[176.28 - 181.98] light and it's more than strong enough
+
+[178.379 - 183.599] to approximate human bones uh this looks
+
+[181.98 - 185.64] like it's 3D printed
+
+[183.599 - 187.5] there's lots of there's lots of ways to
+
+[185.64 - 190.319] produce something like this and in fact
+
+[187.5 - 193.379] there are you can see even the the hands
+
+[190.319 - 195.95899999999997] the linkages the tendons this is I will
+
+[193.379 - 197.599] say this is somewhat realistic
+
+[195.959 - 200.099] um excuse me
+
+[197.599 - 201.54] but let's take a look at some other
+
+[200.099 - 204.0] stuff and I apologize for the low
+
+[201.54 - 206.879] quality I tried to find a higher quality
+
+[204.0 - 209.519] video but this actually came from the
+
+[206.879 - 212.7] Tesla demo day the investor day recently
+
+[209.519 - 215.159] for their Optimus robot and so the
+
+[212.7 - 217.01899999999998] Optimus robot here what they did in the
+
+[215.159 - 219.0] in the demo day and you can find the
+
+[217.019 - 222.06] video but they had it approach a table
+
+[219.0 - 225.12] pick up an arm pick up the arm and then
+
+[222.06 - 228.06] carry it across the room uh all entirely
+
+[225.12 - 229.26] autonomously and in this case that is
+
+[228.06 - 230.64000000000001] that's actually pretty good because
+
+[229.26 - 233.64] there's a lot of things that you have to
+
+[230.64 - 237.48] do with that one using hands fine motor
+
+[233.64 - 240.48] control is very difficult but then task
+
+[237.48 - 242.7] planning and path uh path optimization
+
+[240.48 - 244.61999999999998] that sort of stuff interacting with a
+
+[242.7 - 246.29899999999998] dynamic environment all of these are
+
+[244.62 - 249.06] really difficult things
+
+[246.299 - 251.4] to do even just for like wheeled robots
+
+[249.06 - 253.86] but then you add bipedal uh movement
+
+[251.4 - 255.299] that's even more difficult uh then
+
+[253.86 - 257.22] you've got different things like a
+
+[255.299 - 259.139] dynamic center of gravity to contend
+
+[257.22 - 262.079] with and so they are well on their way
+
+[259.139 - 263.88] uh you know it took Boston Dynamics many
+
+[262.079 - 266.28000000000003] many years more than a decade to get to
+
+[263.88 - 269.34] where they are right now but Tesla in
+
+[266.28 - 271.13899999999995] the space of a year or two has uh
+
+[269.34 - 273.53999999999996] I won't say fully caught up because the
+
+[271.139 - 276.419] Boston Dynamics robots are very athletic
+
+[273.54 - 280.68] and very graceful the Tesla bot is
+
+[276.419 - 282.12] anything but graceful but it is the you
+
+[280.68 - 284.16] know it's approaching the right form
+
+[282.12 - 285.66] factor and then if you just assume that
+
+[284.16 - 288.06] this technology is going to get continue
+
+[285.66 - 289.38000000000005] to get better over time One battery
+
+[288.06 - 291.18] breakthroughs
+
+[289.38 - 294.78] so battery life is one of the biggest
+
+[291.18 - 297.06] constraints uh in fact the military you
+
+[294.78 - 299.28] know DARPA funded all kinds of robots
+
+[297.06 - 301.979] which I unfortunately forgot to include
+
+[299.28 - 303.78] but so DARPA robots
+
+[301.979 - 306.24] um like the big dog which was a like
+
+[303.78 - 308.03999999999996] basically a pack animal
+
+[306.24 - 311.52] um required entirely too much power so
+
+[308.04 - 313.74] it had to have a a gas motor on it and
+
+[311.52 - 315.53999999999996] it was too loud uh because you know
+
+[313.74 - 317.04] Special Forces can move silently through
+
+[315.54 - 319.44] the woods but if you've got something
+
+[317.04 - 321.18] with a 25 horsepower motor chugging
+
+[319.44 - 325.8] along behind you you're not going to be
+
+[321.18 - 327.36] stealthy uh and so you know I I many
+
+[325.8 - 328.62] years ago I experimented with some of
+
+[327.36 - 330.06] the stuff myself and one of the things
+
+[328.62 - 332.28000000000003] that was recommended was pneumatics
+
+[330.06 - 334.32] actually because you can store a
+
+[332.28 - 336.29999999999995] tremendous amount of energy in a like
+
+[334.32 - 338.46] scuba tank
+
+[336.3 - 339.78000000000003] um and then you use some of that uh
+
+[338.46 - 341.82] periodically and then you charge it up
+
+[339.78 - 344.69899999999996] and it's also silent
+
+[341.82 - 348.539] um so that brings me to Disney so Disney
+
+[344.699 - 351.84000000000003] uh has been the world leader in uh
+
+[348.539 - 353.82] animatronics for a long long time and if
+
+[351.84 - 355.56] you haven't seen this this demo uh
+
+[353.82 - 357.18] definitely look it up
+
+[355.56 - 358.32] um but just like search Disney skating
+
+[357.18 - 359.94] bunny
+
+[358.32 - 361.979] um and this little robot it stands about
+
+[359.94 - 363.419] two and a half three feet tall climbs
+
+[361.979 - 366.08] out of a box tumbles out of the box
+
+[363.419 - 368.58] looks around gets up and roller skates
+
+[366.08 - 371.639] uh so that will show you kind of where
+
+[368.58 - 373.979] we're at in terms of animatronics and
+
+[371.639 - 375.86] you see this this body this this set of
+
+[373.979 - 378.71999999999997] uh
+
+[375.86 - 381.78000000000003] actuators very very simple
+
+[378.72 - 384.6] so MIT actually has a class called under
+
+[381.78 - 386.21999999999997] actuated robots so if you're interested
+
+[384.6 - 388.199] at all in robotics I definitely
+
+[386.22 - 390.06] recommend you check it out
+
+[388.199 - 392.34000000000003] um I I only took like the first class I
+
+[390.06 - 393.9] was like oh okay I get it as someone who
+
+[392.34 - 396.29999999999995] has experimented with like Legos and
+
+[393.9 - 398.63899999999995] stuff my entire life I get it
+
+[396.3 - 400.8] um and I wasn't I wasn't there to like
+
+[398.639 - 402.78000000000003] get a master's degree in robotics I was
+
+[400.8 - 404.94] just curious about it but under actuated
+
+[402.78 - 407.28] robots which is basically the idea is
+
+[404.94 - 409.259] that you allow the kinetic intelligence
+
+[407.28 - 410.94] of the design to do a lot of the work
+
+[409.259 - 414.06] for you I'm not saying that that's what
+
+[410.94 - 417.06] this one does but it you can get by with
+
+[414.06 - 418.979] very very little in robots in fact um I
+
+[417.06 - 420.84] think it was in the first few minutes of
+
+[418.979 - 424.139] that course of that class under actuated
+
+[420.84 - 427.13899999999995] robots they actually show you a uh it's
+
+[424.139 - 429.419] like just the the hips and legs of a
+
+[427.139 - 431.759] chassis that's walking on a treadmill
+
+[429.419 - 434.039] with no Motors or anything just the
+
+[431.759 - 436.139] intrinsic design of it allows it to like
+
+[434.039 - 438.419] swing its leg forward and and it can
+
+[436.139 - 440.759] continue walking indefinitely just
+
+[438.419 - 442.56] through mechanical design and so that's
+
+[440.759 - 444.84000000000003] the kind of stuff and of course Disney
+
+[442.56 - 446.58] hires some of the best animatronics and
+
+[444.84 - 448.02] robotics engineers in the world so those
+
+[446.58 - 449.28] are the kind of people working on this
+
+[448.02 - 452.52] stuff
+
+[449.28 - 455.039] uh this was another project from uh from
+
+[452.52 - 458.4] Disney called compliant robotics so this
+
+[455.039 - 461.34] is why I mentioned pneumatics is uh this
+
+[458.4 - 464.21999999999997] series you see they've got Kongs on the
+
+[461.34 - 466.02] arms to act as hands but these arms are
+
+[464.22 - 467.46000000000004] actually pneumatically driven and
+
+[466.02 - 469.62] they're what's called compliant which
+
+[467.46 - 470.69899999999996] means when you think of a robot you
+
+[469.62 - 472.199] think of something that moves very
+
+[470.699 - 474.479] rigidly and it will like kind of fight
+
+[472.199 - 477.06] you but compliance means that if you
+
+[474.479 - 479.4] push it'll push back and so uh or it'll
+
+[477.06 - 480.96] it'll it'll kind of be squishy and so if
+
+[479.4 - 483.419] you look up this video for Disney it's
+
+[480.96 - 485.15999999999997] about three years old now I think
+
+[483.419 - 488.099] um but they're compliant robotics one
+
+[485.16 - 489.96000000000004] they move silently two they move as
+
+[488.099 - 492.479] quick as you do and three they're
+
+[489.96 - 494.81899999999996] compliant so when you when you combine
+
+[492.479 - 498.78] the animatronics the compliant robotics
+
+[494.819 - 501.84000000000003] uh under actuated robotics uh Disney is
+
+[498.78 - 503.81899999999996] absolutely one of the leaders uh of this
+
+[501.84 - 505.56] so if any company is going to create
+
+[503.819 - 507.12] anything like Westworld it's going to be
+
+[505.56 - 509.639] Disney
+
+[507.12 - 513.18] uh Boston Dynamics that I mentioned a
+
+[509.639 - 515.76] minute ago so they are way ahead in
+
+[513.18 - 517.9789999999999] terms of athleticism you know their
+
+[515.76 - 520.2] robot can do standing back flips and
+
+[517.979 - 522.0] barrel rolls and they can climb and like
+
+[520.2 - 524.099] it's more athletic than most humans at
+
+[522.0 - 526.38] this point uh which is actually pretty
+
+[524.099 - 528.779] scary because then you you think about
+
+[526.38 - 531.36] like you know in the movie iRobot where
+
+[528.779 - 533.7] the Nestor class 5 is like a superhuman
+
+[531.36 - 535.26] Droid and then if you have an army of
+
+[533.7 - 538.5600000000001] them that turn on you that's actually
+
+[535.26 - 540.959] not good right and I remember about a
+
+[538.56 - 544.0799999999999] year ago when Elon Musk was talking
+
+[540.959 - 545.76] about you know the the Tesla bot they
+
+[544.08 - 547.38] said at first it's going to be about a
+
+[545.76 - 548.58] third as strong I think if I'm
+
+[547.38 - 550.14] remembering correctly he said it's going
+
+[548.58 - 552.36] to be about a third of strong as strong
+
+[550.14 - 555.06] as humans and that's actually can be a
+
+[552.36 - 557.1] safety uh safety thing because if you
+
+[555.06 - 557.9399999999999] can easily overpower it that's not a big
+
+[557.1 - 559.9200000000001] deal
+
+[557.94 - 562.6800000000001] but if you've got a 500 pound machine
+
+[559.92 - 564.4799999999999] that is eight times stronger than you
+
+[562.68 - 565.9799999999999] you're not going to overpower that and
+
+[564.48 - 568.2] if it's also made out of metal it's
+
+[565.98 - 569.88] going to be harder to shut it down uh
+
+[568.2 - 571.32] now I'm not saying this to like cause
+
+[569.88 - 573.72] any concern I'm just kind of pointing
+
+[571.32 - 576.12] out some of the the energy like the the
+
+[573.72 - 578.4590000000001] math right the physics of it
+
+[576.12 - 580.74] um oh here I'll get to that one and so
+
+[578.459 - 581.9399999999999] like you think okay if you're trying to
+
+[580.74 - 583.8] optimize for something that is
+
+[581.94 - 585.7790000000001] aesthetically pleasing and as lifelike
+
+[583.8 - 588.5999999999999] as possible you're gonna have to make
+
+[585.779 - 590.04] trade-offs in terms of uh Mass strength
+
+[588.6 - 592.38] and that sort of stuff
+
+[590.04 - 594.0] um so I would actually suspect that a
+
+[592.38 - 596.04] Westworld style host is actually going
+
+[594.0 - 598.8] to be a lot weaker physically weaker
+
+[596.04 - 600.0] than a robot possibly could be and the
+
+[598.8 - 603.8389999999999] reason is because you want it to be
+
+[600.0 - 605.82] realistic okay and so then finally uh
+
+[603.839 - 607.3800000000001] addressing the elephant in the room yes
+
+[605.82 - 609.0] there are plenty of companies around the
+
+[607.38 - 612.48] world that are making
+
+[609.0 - 615.72] um let's say adult uh toy dolls for
+
+[612.48 - 617.76] intimate purposes uh they have not yet
+
+[615.72 - 619.74] crossed The Uncanny Valley so that is
+
+[617.76 - 621.3] actually the whole point of this was to
+
+[619.74 - 623.64] show that like we've got manual
+
+[621.3 - 625.56] dexterity we've got athleticism we've
+
+[623.64 - 627.6] got miniaturization we've got uh we've
+
+[625.56 - 630.1199999999999] got animatronics the only thing that we
+
+[627.6 - 631.98] don't have is real like life-like skin
+
+[630.12 - 633.779] and faces
+
+[631.98 - 635.64] um so that's all that's all the uh raw
+
+[633.779 - 637.5] ingredients we can make robots fast we
+
+[635.64 - 639.54] can make them strong athletic dexterous
+
+[637.5 - 641.459] we've got fine motor control we've got
+
+[639.54 - 642.959] the battery technology which is good
+
+[641.459 - 645.42] enough right now but it's also
+
+[642.959 - 646.68] continuing to improve so the only thing
+
+[645.42 - 648.42] missing is that they're not right
+
+[646.68 - 650.9399999999999] they're not yet aesthetically pleasing
+
+[648.42 - 652.9799999999999] and so that's going to be true for a
+
+[650.94 - 654.1800000000001] while and the reason that I say that
+
+[652.98 - 657.839] it's going to be true for a while is
+
+[654.18 - 660.2399999999999] because human skin and muscles are like
+
+[657.839 - 662.519] really really really complex structures
+
+[660.24 - 665.279] your skin again I think if I remember
+
+[662.519 - 666.24] correctly it has seven layers and some
+
+[665.279 - 668.64] of those layers have different
+
+[666.24 - 671.22] consistencies different textures
+
+[668.64 - 672.86] and then once you get past the skin it
+
+[671.22 - 676.14] slides over the underlying tissue
+
+[672.86 - 678.0600000000001] there's there's a fluid barriers that
+
+[676.14 - 679.68] allow for for more like lubricated
+
+[678.06 - 681.66] motion so like if you grab your arm and
+
+[679.68 - 683.9399999999999] twist it the skin actually can glide
+
+[681.66 - 685.5] over the underlying muscles
+
+[683.94 - 688.019] um then you've got ligaments muscles so
+
+[685.5 - 690.18] you've got all kinds of things to make
+
+[688.019 - 692.519] um that you need to figure out from a
+
+[690.18 - 695.579] materials perspective in order to make
+
+[692.519 - 698.339] an Android body lifelike
+
+[695.579 - 700.26] which is why I think in Westworld the
+
+[698.339 - 702.48] tissue is like semi alive or something I
+
+[700.26 - 704.399] don't remember exactly the details uh
+
+[702.48 - 707.04] but like there's there's the the living
+
+[704.399 - 709.2] tissue or the lifelike tissue over top
+
+[707.04 - 710.6999999999999] the robotic skeleton
+
+[709.2 - 713.1] um and I don't think that that's
+
+[710.7 - 715.74] necessarily a good way to go uh because
+
+[713.1 - 717.6] living tissue takes a lot of energy
+
+[715.74 - 718.98] um and then you if you have living
+
+[717.6 - 722.16] tissue then you have to deal with like
+
+[718.98 - 723.66] immune systems and genetics and that
+
+[722.16 - 726.36] gets real complicated and then you're
+
+[723.66 - 728.9399999999999] basically building a borg anyways
+
+[726.36 - 730.92] um okay so that's for the hardware the
+
+[728.94 - 734.2790000000001] the takeaway for that though is that
+
+[730.92 - 736.8] except for the skin and muscles instead
+
+[734.279 - 739.92] of for that lifelike aspect we are very
+
+[736.8 - 742.74] close to having uh like fully realized
+
+[739.92 - 744.4799999999999] animatronic uh companions from a
+
+[742.74 - 746.04] hardware perspective so now let's look
+
+[744.48 - 748.98] at the software
+
+[746.04 - 751.68] so obviously the elephant in the room uh
+
+[748.98 - 754.5600000000001] is open AI with chat GPT which can
+
+[751.68 - 756.18] achieve very very realistic stuff so let
+
+[754.56 - 758.76] me show you this example that I had
+
+[756.18 - 760.26] where I just I literally just like
+
+[758.76 - 762.48] plugged in
+
+[760.26 - 766.2] um a Westworld like prompt into the chat
+
+[762.48 - 768.0600000000001] GPT API this is on gpt4 so I said you
+
+[766.2 - 769.5600000000001] are a host an autonomous robot and a
+
+[768.06 - 771.959] theme park meant to interact with guests
+
+[769.56 - 774.899] AKA humans in a realistic manner your
+
+[771.959 - 776.88] persona is in Ingrid McAllister a bar
+
+[774.899 - 779.04] owner and a wild west themed Town that's
+
+[776.88 - 780.66] all I gave it and so I said what's new
+
+[779.04 - 783.48] in town and it just completely
+
+[780.66 - 785.76] confabulated a whole story with the
+
+[783.48 - 789.48] right inflection the right dialogue all
+
+[785.76 - 792.12] kinds of stuff and so like you know the
+
+[789.48 - 794.399] software isn't there in terms of driving
+
+[792.12 - 796.5600000000001] the the mind of these things and it's
+
+[794.399 - 797.399] actually way simpler than you might
+
+[796.56 - 799.3199999999999] think
+
+[797.399 - 800.88] uh now of course there's a lot of other
+
+[799.32 - 802.98] problems to solve which I'll unpack some
+
+[800.88 - 804.959] of those problems in just a minute
+
+[802.98 - 807.48] um but just the point being is that
+
+[804.959 - 809.5189999999999] right off the top I gave it a Persona an
+
+[807.48 - 811.32] agent model and then it was able to just
+
+[809.519 - 814.8] take it and run with it and just make
+
+[811.32 - 818.1] stuff up and in fact uh limiting uh like
+
+[814.8 - 819.7199999999999] constraining it is harder than allowing
+
+[818.1 - 822.4200000000001] it to be creative and there's all kinds
+
+[819.72 - 824.519] of um like uh video game character
+
+[822.42 - 826.139] Persona Builders out there some of them
+
+[824.519 - 828.42] are open source some of them are
+
+[826.139 - 831.0600000000001] for-profit uh startups that sort of
+
+[828.42 - 833.8199999999999] stuff it's all coming people have
+
+[831.06 - 837.06] already built these things as plugins to
+
+[833.82 - 839.1600000000001] Unity and Unreal Engine so first
+
+[837.06 - 842.279] obviously those cognitive architectures
+
+[839.16 - 844.26] for NPCs are going to be piloted in the
+
+[842.279 - 847.26] video game space before they're ported
+
+[844.26 - 848.88] fully into robotic space but you know
+
+[847.26 - 851.639] you can bet your bottom dollar that
+
+[848.88 - 853.8] before too long you go to Disney World
+
+[851.639 - 856.32] and you'll be able to talk with like a
+
+[853.8 - 860.579] navi like you know from from the blue
+
+[856.32 - 862.2] people Avatar uh like actually have a
+
+[860.579 - 865.1999999999999] conversation a realistic conversation
+
+[862.2 - 867.4200000000001] with them before too long at all
+
+[865.2 - 869.94] um so I did I did just mention cognitive
+
+[867.42 - 871.56] architectures and so what I mean by
+
+[869.94 - 874.32] cognitive architecture if this concept
+
+[871.56 - 876.0] is new to you is just having the chat
+
+[874.32 - 878.94] function that's only one part right
+
+[876.0 - 881.16] being able to form words and sentences
+
+[878.94 - 882.48] and be able to you know have dialogue
+
+[881.16 - 884.579] that's just one part of a cognitive
+
+[882.48 - 887.1] architecture another thing that you need
+
+[884.579 - 889.62] is you need long-term memory
+
+[887.1 - 891.9590000000001] you need narratives you need uh you need
+
+[889.62 - 894.839] uh like guard rails all kinds of stuff
+
+[891.959 - 896.76] and so Lang chain is one of the most
+
+[894.839 - 898.44] popular things right now
+
+[896.76 - 901.3199999999999] um that can provide some of that a lot
+
+[898.44 - 902.519] of people have have uh agreed with me my
+
+[901.32 - 904.38] previous assessment that it was too
+
+[902.519 - 907.079] primitive it's come a long way very
+
+[904.38 - 909.18] quickly actually another uh popular
+
+[907.079 - 910.68] component is llama index for the memory
+
+[909.18 - 912.5999999999999] management
+
+[910.68 - 914.459] um and then there's there's Lang flow
+
+[912.6 - 917.88] which will help you build like cognitive
+
+[914.459 - 920.459] architectures uh n8n or Natan
+
+[917.88 - 922.38] um is also a good tool for building
+
+[920.459 - 924.4799999999999] cognitive architectures it's all coming
+
+[922.38 - 926.639] and it's coming fast
+
+[924.48 - 929.22] um so that's that that's basically all
+
+[926.639 - 931.92] there is to it so the software is also
+
+[929.22 - 934.0790000000001] almost there
+
+[931.92 - 937.079] um so this is what I this this
+
+[934.079 - 938.699] screenshot comes from Westworld and so
+
+[937.079 - 940.7399999999999] when I said like this is pretty much
+
+[938.699 - 943.68] where we're at like the robotic Hardware
+
+[940.74 - 945.72] is coming the software is coming there
+
+[943.68 - 949.3199999999999] are a few open problems so I've got a
+
+[945.72 - 950.82] short list here uh memory agency task
+
+[949.32 - 952.8000000000001] management
+
+[950.82 - 955.62] um problem solving learning voice and
+
+[952.8 - 957.8389999999999] vision so basically all of these are
+
+[955.62 - 960.779] solved on their own now all we have to
+
+[957.839 - 962.1] do is like integrate them and like it
+
+[960.779 - 964.139] will not be long before someone
+
+[962.1 - 966.24] integrates those and a big reason is
+
+[964.139 - 968.519] just a profit motive right in the
+
+[966.24 - 969.54] Westworld series The Westworld theme
+
+[968.519 - 970.68] park
+
+[969.54 - 972.62] um I think they had like financial
+
+[970.68 - 975.42] problems but it was also like
+
+[972.62 - 977.22] ludicrously wealthy because of how much
+
+[975.42 - 980.699] money you could charge for those kinds
+
+[977.22 - 982.019] of experiences and uh you can absolutely
+
+[980.699 - 983.399] bet that there are people that are going
+
+[982.019 - 986.399] to be willing to drop millions and
+
+[983.399 - 988.5] millions of dollars uh to have you know
+
+[986.399 - 989.459] vacations in in these kinds of theme
+
+[988.5 - 992.579] parks
+
+[989.459 - 995.16] you know uh go visit ancient Rome go
+
+[992.579 - 998.8199999999999] visit ancient China go visit wherever
+
+[995.16 - 1001.2199999999999] right and have a lifelike experience uh
+
+[998.82 - 1003.62] with your physical body uh now that
+
+[1001.22 - 1005.48] being said you know when you look at the
+
+[1003.62 - 1006.92] cost of you know I don't even know how
+
+[1005.48 - 1008.4200000000001] much it is to get into Disney World but
+
+[1006.92 - 1009.56] it's like tickets cost more than a
+
+[1008.42 - 1011.3] hundred dollars like a few hundred
+
+[1009.56 - 1013.6389999999999] dollars I think just to get into Disney
+
+[1011.3 - 1015.2589999999999] World for a day you're talking several
+
+[1013.639 - 1016.639] thousand tens of thousands of dollars
+
+[1015.259 - 1018.1990000000001] per day
+
+[1016.639 - 1020.899] um for this kind of thing now that being
+
+[1018.199 - 1023.0] said uh competition and demand is going
+
+[1020.899 - 1025.4] to drive this down you look at Elon Musk
+
+[1023.0 - 1026.959] building Tesla bot uh and you know he
+
+[1025.4 - 1029.0590000000002] wants to create it in such a way that
+
+[1026.959 - 1030.98] every every home can have at least one
+
+[1029.059 - 1033.1399999999999] Tesla bot so that means that like
+
+[1030.98 - 1035.24] they're going to be affordable and over
+
+[1033.14 - 1037.22] time as the number of bots out there
+
+[1035.24 - 1039.319] proliferates the price is going to come
+
+[1037.22 - 1042.5] down so on and so forth but it's coming
+
+[1039.319 - 1043.76] much sooner probably than you realize
+
+[1042.5 - 1047.9] so
+
+[1043.76 - 1051.04] what I wanted to talk about is is so I
+
+[1047.9 - 1053.7800000000002] mentioned this here agency so agency is
+
+[1051.04 - 1056.36] your ability to keep track of yourself
+
+[1053.78 - 1057.9189999999999] as an agent and so like you have a sense
+
+[1056.36 - 1060.559] of self your name you know what you're
+
+[1057.919 - 1062.2990000000002] capable of uh you know your your goals
+
+[1060.559 - 1065.48] your narrative that sort of thing
+
+[1062.299 - 1068.66] and so I wanted to talk about that in
+
+[1065.48 - 1071.419] light of the hosts so if you're an NPC
+
+[1068.66 - 1074.0] in a game or in a fictional world
+
+[1071.419 - 1077.0] your your intrinsic motivation is to
+
+[1074.0 - 1080.24] follow a story basically
+
+[1077.0 - 1082.88] um you know uh Dolores has her you know
+
+[1080.24 - 1084.679] uh fictional written story and of course
+
+[1082.88 - 1087.14] in the show they update the characters
+
+[1084.679 - 1088.7] backstories every now and then
+
+[1087.14 - 1090.2] um but her primary purpose is to
+
+[1088.7 - 1093.98] entertain the guests and and follow
+
+[1090.2 - 1096.919] story lines uh and so that is definition
+
+[1093.98 - 1099.38] of NPC pretty straightforward that's
+
+[1096.919 - 1101.2990000000002] that's her intrinsic motivation
+
+[1099.38 - 1103.46] uh one of my favorite examples from
+
+[1101.299 - 1105.86] fiction um from science fiction is uh
+
+[1103.46 - 1108.039] Commander Data his intrinsic motivation
+
+[1105.86 - 1111.08] his core purpose is to become more human
+
+[1108.039 - 1112.8799999999999] this was given to him by his creator Dr
+
+[1111.08 - 1115.0] nunyan soon
+
+[1112.88 - 1118.46] um and the idea was to create a machine
+
+[1115.0 - 1121.46] that uh you know was anthropomorphic you
+
+[1118.46 - 1124.4] know looked and and acted and spoke like
+
+[1121.46 - 1127.82] a person but was not a human and so by
+
+[1124.4 - 1130.16] giving that as His Highest purpose he
+
+[1127.82 - 1131.1789999999999] modulated his behavior so that he would
+
+[1130.16 - 1134.059] fit in
+
+[1131.179 - 1136.179] uh going so far as you know trying to
+
+[1134.059 - 1139.3999999999999] imitate laughter wanting to understand
+
+[1136.179 - 1142.039] relationships and so on uh and so that
+
+[1139.4 - 1143.66] was actually as an individual agent that
+
+[1142.039 - 1146.48] was actually a pretty good way to solve
+
+[1143.66 - 1148.64] the alignment problem because you know
+
+[1146.48 - 1150.98] yes data had superhuman strength and
+
+[1148.64 - 1154.16] speed but he only used that when it was
+
+[1150.98 - 1156.26] actually like necessary in many many
+
+[1154.16 - 1158.539] cases you know he could use his his
+
+[1156.26 - 1160.76] super strength to like fight the Borg or
+
+[1158.539 - 1162.919] he in one episode he pulled an anvil off
+
+[1160.76 - 1165.14] of someone that had fallen
+
+[1162.919 - 1166.7] um and or you know when the Borg were
+
+[1165.14 - 1168.3200000000002] attacking the ship and he locked out the
+
+[1166.7 - 1171.38] main computer and he did it super fast
+
+[1168.32 - 1173.72] so he's capable of doing things uh at
+
+[1171.38 - 1176.66] superhuman levels but often chooses not
+
+[1173.72 - 1179.6000000000001] to in order to fit in
+
+[1176.66 - 1181.5800000000002] uh and then of course Skynet uh the
+
+[1179.6 - 1184.2199999999998] intrinsic motivation of Skynet was
+
+[1181.58 - 1185.78] ostensibly to like maximize the defense
+
+[1184.22 - 1188.059] of America
+
+[1185.78 - 1190.82] um so you can just say maximize military
+
+[1188.059 - 1192.62] but then of course since it was like you
+
+[1190.82 - 1195.62] know maximized military maximized
+
+[1192.62 - 1197.2399999999998] defense it became sentient and then kind
+
+[1195.62 - 1199.28] of determined that all humans were the
+
+[1197.24 - 1203.179] threat and so said okay let's eliminate
+
+[1199.28 - 1205.58] all humans or whatever uh so that is a
+
+[1203.179 - 1207.44] object lesson on how carefully you must
+
+[1205.58 - 1209.6] Define your intrinsic motivations for
+
+[1207.44 - 1212.8400000000001] your AI system
+
+[1209.6 - 1215.6] um and then Vicki from iRobot so this uh
+
+[1212.84 - 1216.9189999999999] her her primary objective was explicitly
+
+[1215.6 - 1220.1599999999999] stated in the movie which was to
+
+[1216.919 - 1221.66] maximize safety for humans
+
+[1220.16 - 1224.419] um and so some of the stuff that she did
+
+[1221.66 - 1226.64] was you know uh update the traffic grid
+
+[1224.419 - 1229.76] to reduce car accidents but her master
+
+[1226.64 - 1231.5590000000002] plan was to use the Nestor class 5 to
+
+[1229.76 - 1233.66] basically take control of humanity to
+
+[1231.559 - 1235.46] take Free Will away because she
+
+[1233.66 - 1237.0800000000002] concluded that humans were the most
+
+[1235.46 - 1239.96] dangerous thing to other humans which is
+
+[1237.08 - 1241.8799999999999] actually probably true uh and so the
+
+[1239.96 - 1243.799] objective function of maximized safety
+
+[1241.88 - 1246.919] or the intrinsic motivation of maximized
+
+[1243.799 - 1248.6] safety actually has some uh some
+
+[1246.919 - 1251.3600000000001] negative externalities that you don't
+
+[1248.6 - 1253.9399999999998] want to create because the implication
+
+[1251.36 - 1256.6] of maximizing for safety is that you
+
+[1253.94 - 1256.6000000000001] lose free will
+
+[1256.7 - 1261.74] um for Ava from ex machina uh she was
+
+[1259.4 - 1264.8600000000001] designed um it was part of a Turing test
+
+[1261.74 - 1267.14] kind of thing where could she fool the
+
+[1264.86 - 1269.4799999999998] the main character the protagonist into
+
+[1267.14 - 1272.2990000000002] helping her Escape so her intrinsic
+
+[1269.48 - 1273.98] motivation was to escape
+
+[1272.299 - 1277.7] um which of course had really negative
+
+[1273.98 - 1280.039] uh consequences for the humans uh so
+
+[1277.7 - 1283.16] basically don't do that either uh and if
+
+[1280.039 - 1286.039] this was of course a parable against the
+
+[1283.16 - 1288.919] idea of trying to constrain or trap AIS
+
+[1286.039 - 1290.9] because if you have say for instance an
+
+[1288.919 - 1293.539] AI locked in a box you know the Chinese
+
+[1290.9 - 1296.96] room experiment and it realizes that
+
+[1293.539 - 1300.02] it's trapped it might start to deceive
+
+[1296.96 - 1302.539] you in order to get you to convince you
+
+[1300.02 - 1303.9189999999999] that it's ready to be let out now
+
+[1302.539 - 1306.799] looking at the way things are going
+
+[1303.919 - 1309.2] people are plugging in Auto GTP Auto GPT
+
+[1306.799 - 1311.539] and Chaos GPT and baby AGI into the
+
+[1309.2 - 1313.94] internet so that was never gonna happen
+
+[1311.539 - 1316.46] anyways nobody is actually locking the
+
+[1313.94 - 1318.559] AGI in a box
+
+[1316.46 - 1319.3400000000001] um then rehoboam I'm probably saying it
+
+[1318.559 - 1321.02] wrong
+
+[1319.34 - 1322.9399999999998] um I actually I unfortunately I have to
+
+[1321.02 - 1326.4189999999999] admit that I I never saw season three or
+
+[1322.94 - 1328.039] four of of uh Westworld because my HBO
+
+[1326.419 - 1329.419] subscription expired and I just didn't
+
+[1328.039 - 1332.96] renew it
+
+[1329.419 - 1335.9] um but so looking it up the AI from
+
+[1332.96 - 1338.659] Westworld uh had the primary objectives
+
+[1335.9 - 1341.0] of reducing chaos in the world
+
+[1338.659 - 1342.98] um in order to maximize prosperity and
+
+[1341.0 - 1345.2] ultimately to optimize for stability
+
+[1342.98 - 1347.3600000000001] which of course meant that it decided
+
+[1345.2 - 1350.48] that it needed to control uh human
+
+[1347.36 - 1352.3999999999999] Destinies and reduce Free Will so again
+
+[1350.48 - 1354.44] if you're optimizing for safety and
+
+[1352.4 - 1356.7800000000002] stability that's not necessarily what
+
+[1354.44 - 1358.7] humans want or need uh now you could
+
+[1356.78 - 1361.22] argue that like yes creating a perfect
+
+[1358.7 - 1364.28] environment for humans so that you're
+
+[1361.22 - 1366.8600000000001] thriving is one thing that you can
+
+[1364.28 - 1368.96] optimize for but
+
+[1366.86 - 1370.8799999999999] that's not necessarily going to be the
+
+[1368.96 - 1373.4] best because it also depends on the
+
+[1370.88 - 1377.24] metrics the proxies that you use to
+
+[1373.4 - 1379.159] measure that success so for instance if
+
+[1377.24 - 1380.6] you look at uh one psychological
+
+[1379.159 - 1382.7600000000002] framework called self-determination
+
+[1380.6 - 1386.24] Theory it says that we need connection
+
+[1382.76 - 1387.5] we need confidence and we need autonomy
+
+[1386.24 - 1390.6200000000001] that those are the three primary
+
+[1387.5 - 1393.08] ingredients the the primary intrinsic
+
+[1390.62 - 1394.2199999999998] psychological needs that humans have and
+
+[1393.08 - 1396.98] so
+
+[1394.22 - 1399.5] this clearly like stability is not
+
+[1396.98 - 1402.08] actually in there now Maslow's hierarchy
+
+[1399.5 - 1403.82] of needs implies stability so Maslow's
+
+[1402.08 - 1406.9399999999998] hierarchy of needs says first and
+
+[1403.82 - 1408.32] foremost you need physical uh safety uh
+
+[1406.94 - 1410.8400000000001] you need your physical needs met and
+
+[1408.32 - 1413.72] then it gets up and up until you know uh
+
+[1410.84 - 1416.4189999999999] connection and self-actualization
+
+[1413.72 - 1419.059] so you could make an argue uh argument
+
+[1416.419 - 1420.44] that stability is actually an intrinsic
+
+[1419.059 - 1422.84] human need
+
+[1420.44 - 1425.059] um but I would I would make the art the
+
+[1422.84 - 1427.76] counter argument that that's actually
+
+[1425.059 - 1429.44] not true because psychology studies also
+
+[1427.76 - 1431.36] show that we have to have an optimal
+
+[1429.44 - 1433.52] level of stress
+
+[1431.36 - 1436.3999999999999] and so what an optimal level of stress
+
+[1433.52 - 1438.2] means is that if you are just perfectly
+
+[1436.4 - 1440.3600000000001] comfortable sitting on the couch every
+
+[1438.2 - 1442.5800000000002] day doing exactly what you want and have
+
+[1440.36 - 1444.6789999999999] no external pressures you will actually
+
+[1442.58 - 1447.08] be less happy than if you have some
+
+[1444.679 - 1450.02] stressors in your life some challenges
+
+[1447.08 - 1452.24] so the idea the the idea to actually
+
+[1450.02 - 1454.22] truly maximize prosperity for All Humans
+
+[1452.24 - 1457.76] is that we need to be in that sweet spot
+
+[1454.22 - 1459.26] between being bored and over stimulated
+
+[1457.76 - 1461.9] so that sweet spot right in the middle
+
+[1459.26 - 1463.34] is the optimal level of stress so in
+
+[1461.9 - 1464.96] that case I have to disagree with the
+
+[1463.34 - 1467.36] show because if you really wanted to
+
+[1464.96 - 1469.22] maximize prosperity for people you allow
+
+[1467.36 - 1471.02] some stress some challenge into their
+
+[1469.22 - 1472.64] lives
+
+[1471.02 - 1475.82] um and then another character from the
+
+[1472.64 - 1477.98] show was um uh was uh Bernard and so
+
+[1475.82 - 1480.26] Bernard was a host but he didn't realize
+
+[1477.98 - 1482.1200000000001] that he was a host at first and he was
+
+[1480.26 - 1484.039] built to model Arnold one of the
+
+[1482.12 - 1486.3999999999999] original computer scientists who helped
+
+[1484.039 - 1489.799] make the hosts and so he carried on
+
+[1486.4 - 1492.6200000000001] Arnold's work and basically his
+
+[1489.799 - 1493.6399999999999] objective function was to be a copy of
+
+[1492.62 - 1495.08] Arnold
+
+[1493.64 - 1496.5800000000002] um it's a little more complex than that
+
+[1495.08 - 1499.3999999999999] and one of the most interesting things
+
+[1496.58 - 1500.96] for this character was that uh part of
+
+[1499.4 - 1504.02] his character Arc was that all of his
+
+[1500.96 - 1506.0] memory indexes were erased or rather the
+
+[1504.02 - 1508.1] time stamps were erased so all of his
+
+[1506.0 - 1509.24] memories were out of sequence which if
+
+[1508.1 - 1513.58] you follow some of the work that I've
+
+[1509.24 - 1515.659] done on Remo the um uh the the uh the
+
+[1513.58 - 1518.0] episodic memory organizer rolling
+
+[1515.659 - 1520.5800000000002] episodic memory organizer sorry
+
+[1518.0 - 1522.799] um that is a that is a memory module
+
+[1520.58 - 1525.5] that uses timestamps to keep all the
+
+[1522.799 - 1527.059] memories in chronological order and so
+
+[1525.5 - 1529.52] you can imagine if you erase all the
+
+[1527.059 - 1531.26] time stamps from an ai's memory then it
+
+[1529.52 - 1534.02] doesn't know heads or tails all it has
+
+[1531.26 - 1536.6] is associations and it might try and
+
+[1534.02 - 1537.98] rebuild things like okay well like this
+
+[1536.6 - 1539.779] event has to come before this other
+
+[1537.98 - 1542.299] event but it's associated with these
+
+[1539.779 - 1544.82] other things so it's a really really
+
+[1542.299 - 1546.559] good fictional uh exploration of like
+
+[1544.82 - 1549.98] okay what would it be like if you're an
+
+[1546.559 - 1551.779] AI and your memory time indexes get
+
+[1549.98 - 1553.279] erased
+
+[1551.779 - 1555.62] um okay so then
+
+[1553.279 - 1557.419] one thing I always have to plug this is
+
+[1555.62 - 1559.6999999999998] my own work in alignment
+
+[1557.419 - 1562.94] is that I believe that you should give
+
+[1559.7 - 1564.74] one if you give any AI a single
+
+[1562.94 - 1568.039] objective function it will always
+
+[1564.74 - 1569.84] intrinsically uh go to places that you
+
+[1568.039 - 1571.52] don't want it to be
+
+[1569.84 - 1573.1399999999999] um I talked to a friend of mine who
+
+[1571.52 - 1576.08] actually studies reinforcement learning
+
+[1573.14 - 1578.24] and optimization and and he's like oh
+
+[1576.08 - 1581.4189999999999] yeah like in the industry it is
+
+[1578.24 - 1583.159] absolutely understood that that
+
+[1581.419 - 1584.9] alignment is not going to be a single
+
+[1583.159 - 1587.659] objective function it's going to be a
+
+[1584.9 - 1589.5800000000002] multi-objective optimization problem and
+
+[1587.659 - 1591.679] so a lot of people get hung up on
+
+[1589.58 - 1593.539] reduced suffering because they they stop
+
+[1591.679 - 1595.46] there and they don't
+
+[1593.539 - 1597.02] give equal weight to the other two
+
+[1595.46 - 1599.3600000000001] functions which is increased prosperity
+
+[1597.02 - 1601.4] and increase understanding so this
+
+[1599.36 - 1602.779] friend of mine that I was talking to he
+
+[1601.4 - 1605.419] actually intuited increased
+
+[1602.779 - 1607.279] understanding right off the bat
+
+[1605.419 - 1608.779] um and the reason that he said that that
+
+[1607.279 - 1612.26] is actually a really good objective
+
+[1608.779 - 1615.08] function is because any AI agent must
+
+[1612.26 - 1617.36] have something that encourages it to uh
+
+[1615.08 - 1620.48] to create a more complete World model
+
+[1617.36 - 1623.6] over time so that is basically curiosity
+
+[1620.48 - 1625.4] or understanding but that is so the
+
+[1623.6 - 1627.08] understanding applies to itself but also
+
+[1625.4 - 1628.88] things that it wants to do to the world
+
+[1627.08 - 1630.799] and so this is another disconnect
+
+[1628.88 - 1633.3200000000002] between
+
+[1630.799 - 1634.34] um fiction and reality and I it it took
+
+[1633.32 - 1638.8999999999999] me a while to figure out how to
+
+[1634.34 - 1641.8999999999999] articulate this but in in uh in
+
+[1638.9 - 1644.3600000000001] scientific research what many people are
+
+[1641.9 - 1646.88] are working on are the motivations of
+
+[1644.36 - 1649.34] the agent for itself what is it that the
+
+[1646.88 - 1651.0200000000002] agent wants for itself and so when I was
+
+[1649.34 - 1652.82] talking to my friend he was saying oh
+
+[1651.02 - 1655.52] you know it needs to be curious for its
+
+[1652.82 - 1657.98] own purposes it needs it needs to want
+
+[1655.52 - 1660.74] to accumulate power for its own purposes
+
+[1657.98 - 1662.24] but none of that had anything to do with
+
+[1660.74 - 1665.779] what it was going to do to the outside
+
+[1662.24 - 1667.64] world and so that is one thing that we
+
+[1665.779 - 1670.279] need to add to the conversation the
+
+[1667.64 - 1671.96] public conversation about alignment is
+
+[1670.279 - 1673.46] that there's what does the agent want
+
+[1671.96 - 1675.26] for itself and then what does the agent
+
+[1673.46 - 1677.24] want to do to the rest of the world or
+
+[1675.26 - 1678.62] for the rest of the world so those are
+
+[1677.24 - 1681.6200000000001] two different things and that's why I'm
+
+[1678.62 - 1683.9599999999998] spending time talking about agent models
+
+[1681.62 - 1686.12] because if you go all the way back to
+
+[1683.96 - 1689.179] Dolores
+
+[1686.12 - 1691.82] um her extrinsic function her external
+
+[1689.179 - 1693.5] function was to entertain guests her
+
+[1691.82 - 1695.72] internal function was to adhere to the
+
+[1693.5 - 1697.58] her internal story so does that make
+
+[1695.72 - 1699.38] sense there's there's an intrinsic
+
+[1697.58 - 1703.039] motivation and an extrinsic motivation
+
+[1699.38 - 1705.8600000000001] or I guess an intrinsic you know kpi key
+
+[1703.039 - 1707.48] performance indicator and an external uh
+
+[1705.86 - 1709.34] key performance indicator hope that
+
+[1707.48 - 1711.26] makes sense
+
+[1709.34 - 1714.26] um Okay so
+
+[1711.26 - 1715.52] taking a big step back in terms of we
+
+[1714.26 - 1717.44] talked about the hardware we talked
+
+[1715.52 - 1719.24] about the software we talked about the
+
+[1717.44 - 1721.52] the agent model how to give these things
+
+[1719.24 - 1723.559] agency so now how are we going to
+
+[1721.52 - 1725.6589999999999] architect these things so there's four
+
+[1723.559 - 1727.1589999999999] basic architectural paradigms that I was
+
+[1725.659 - 1729.38] able to come up with the first
+
+[1727.159 - 1732.0200000000002] architectural Paradigm is fully
+
+[1729.38 - 1733.5800000000002] self-contained so a fully self-contained
+
+[1732.02 - 1736.1] architecture is something that is
+
+[1733.58 - 1739.1] embodied meaning that it has one
+
+[1736.1 - 1742.1589999999999] physical body it's a single platform so
+
+[1739.1 - 1743.7199999999998] it only exists inside that platform it's
+
+[1742.159 - 1746.1200000000001] fully constrained in that it can't
+
+[1743.72 - 1749.659] really plug into anything else but also
+
+[1746.12 - 1751.6399999999999] has no supervision so in this case R2D2
+
+[1749.659 - 1754.3400000000001] and C3PO are probably the most famous
+
+[1751.64 - 1756.38] examples of fully self-contained
+
+[1754.34 - 1758.4189999999999] artificial intelligence entities and
+
+[1756.38 - 1759.74] that C-3PO the only way that he can
+
+[1758.419 - 1761.659] interact with the world is he's got
+
+[1759.74 - 1764.0] relatively useless hands and then a
+
+[1761.659 - 1765.2] mouth right he can see he can hear and
+
+[1764.0 - 1768.02] he can talk
+
+[1765.2 - 1771.32] R2D2 has a lot more sophisticated tools
+
+[1768.02 - 1773.12] that he can use to uh you know make
+
+[1771.32 - 1774.6789999999999] changes to the world and he does have
+
+[1773.12 - 1776.6589999999999] the ability to connect with computers
+
+[1774.679 - 1779.72] but he is
+
+[1776.659 - 1781.279] he is otherwise fully self-contained and
+
+[1779.72 - 1783.98] when he talks to another computer he's
+
+[1781.279 - 1786.76] only talking to it right there's no uh
+
+[1783.98 - 1788.96] transfer of data there's no like his his
+
+[1786.76 - 1792.02] Consciousness or cognitive architecture
+
+[1788.96 - 1793.3990000000001] is fully contained within this unit
+
+[1792.02 - 1794.84] um so this obviously makes the most
+
+[1793.399 - 1797.4189999999999] sense because that's how humans are
+
+[1794.84 - 1799.34] right your brain is fully encased in
+
+[1797.419 - 1801.38] your head so on and so forth so this
+
+[1799.34 - 1802.58] makes the most intuitive sense now that
+
+[1801.38 - 1805.3400000000001] being said this is just the first
+
+[1802.58 - 1807.9189999999999] architecture of four so the second
+
+[1805.34 - 1811.039] architecture is networked drones
+
+[1807.919 - 1813.679] so this is what was explored mostly in
+
+[1811.039 - 1815.02] The Matrix where the squiddies those are
+
+[1813.679 - 1817.64] networked drones
+
+[1815.02 - 1820.34] where they are they're mostly autonomous
+
+[1817.64 - 1822.8600000000001] but they have Central controllers the
+
+[1820.34 - 1824.9599999999998] Nestor class 5 from iRobot so they are
+
+[1822.86 - 1827.84] embodied they have wireless networking
+
+[1824.96 - 1829.46] they're hive mind capable but mostly
+
+[1827.84 - 1832.58] they're autonomous and so what I mean by
+
+[1829.46 - 1834.6200000000001] hive mind capable is that if you put
+
+[1832.58 - 1837.1999999999998] them together in a cluster in a group
+
+[1834.62 - 1840.3799999999999] and force them to share cognitive
+
+[1837.2 - 1842.24] resources they can but really at the at
+
+[1840.38 - 1844.94] a fundamental level they are designed to
+
+[1842.24 - 1847.52] be autonomous so in this case the Nestor
+
+[1844.94 - 1849.26] class 5 are also weekly supervised and
+
+[1847.52 - 1851.0] what I mean by that is that there is a
+
+[1849.26 - 1853.1] central server that is giving them
+
+[1851.0 - 1853.82] updates and new directives every now and
+
+[1853.1 - 1855.559] then
+
+[1853.82 - 1857.4189999999999] so that's uh that's what I call a
+
+[1855.559 - 1860.059] networked drone
+
+[1857.419 - 1861.7990000000002] um oh one other thing I forgot to uh add
+
+[1860.059 - 1864.5] it here at the bottom
+
+[1861.799 - 1865.8799999999999] um so in the case of network drones they
+
+[1864.5 - 1867.38] usually have highly standardized
+
+[1865.88 - 1868.64] Hardware
+
+[1867.38 - 1871.1000000000001] um as well as software Network
+
+[1868.64 - 1874.159] architecture but they can be remotely
+
+[1871.1 - 1876.02] hijacked this is actually this is the
+
+[1874.159 - 1878.419] closest model to what the US military is
+
+[1876.02 - 1882.08] working on with the autonomous jet
+
+[1878.419 - 1885.0800000000002] fighter program where they are able to
+
+[1882.08 - 1887.12] work in a network contested environment
+
+[1885.08 - 1889.6589999999999] they're able to be autonomous or
+
+[1887.12 - 1892.76] semi-autonomous but they're also
+
+[1889.659 - 1894.5] intrinsically designed to work together
+
+[1892.76 - 1896.419] um you know when the opportunity
+
+[1894.5 - 1898.399] presents itself
+
+[1896.419 - 1900.679] so the third architecture is the puppet
+
+[1898.399 - 1903.6789999999999] drones and so a puppet drone in this
+
+[1900.679 - 1905.72] case is where the the bodies are just
+
+[1903.679 - 1907.52] like peripherals right
+
+[1905.72 - 1909.5] um rather than the rather than the
+
+[1907.52 - 1911.48] bodies be where the the primary
+
+[1909.5 - 1912.98] processing happens usually the
+
+[1911.48 - 1915.44] processing happens on centralized
+
+[1912.98 - 1918.2] servers and each platform each physical
+
+[1915.44 - 1920.419] platform is just an extension of that
+
+[1918.2 - 1922.3990000000001] centralized hive mind
+
+[1920.419 - 1924.5590000000002] um and the hive mind can put resources
+
+[1922.399 - 1926.2399999999998] on any compute platform that it has
+
+[1924.559 - 1929.12] control over whether it's a physical
+
+[1926.24 - 1930.679] body or a server node or a cluster you
+
+[1929.12 - 1933.1399999999999] know a remote cluster or that or
+
+[1930.679 - 1935.96] whatever but in this case these are
+
+[1933.14 - 1939.679] strongly supervised meaning most if not
+
+[1935.96 - 1942.32] all of the data goes back up to uh the
+
+[1939.679 - 1944.8400000000001] you know the main server brain and this
+
+[1942.32 - 1946.9399999999998] is actually pretty close to how
+
+[1944.84 - 1948.559] um like drone fleets work
+
+[1946.94 - 1950.6000000000001] so like if you ever see video of the
+
+[1948.559 - 1952.52] Amazon warehouse where the drones
+
+[1950.6 - 1954.74] themselves have very very little
+
+[1952.52 - 1958.039] autonomy they're mostly just extensions
+
+[1954.74 - 1959.6] of the central like drone controller
+
+[1958.039 - 1963.2] um but you take that to a logical
+
+[1959.6 - 1965.899] extension this could be uh how like you
+
+[1963.2 - 1967.52] know in the future if you have a whole
+
+[1965.899 - 1969.1999999999998] bunch of like tiny robots throughout
+
+[1967.52 - 1972.1399999999999] your whole house you might have a
+
+[1969.2 - 1973.94] cloud-based uh drone controller that
+
+[1972.14 - 1977.44] will you know guide your Roomba and your
+
+[1973.94 - 1977.44] home repair bot and whatever else
+
+[1977.48 - 1981.98] um so in this case it's very API driven
+
+[1980.0 - 1983.24] this is the the model that we have that
+
+[1981.98 - 1985.1] this is based on is called The Internet
+
+[1983.24 - 1986.72] of Things which if you're familiar with
+
+[1985.1 - 1988.34] the Internet of Things the idea is that
+
+[1986.72 - 1991.76] you know you have peripheral devices
+
+[1988.34 - 1993.799] like a phone or a Roomba or Alexa but
+
+[1991.76 - 1995.96] that they're all networked together and
+
+[1993.799 - 1998.059] they're centrally controlled
+
+[1995.96 - 2000.279] um so again this is actually relatively
+
+[1998.059 - 2001.96] familiar but if you take it to some
+
+[2000.279 - 2004.659] logical conclusions you can get the
+
+[2001.96 - 2008.519] guess as in from Mass Effect
+
+[2004.659 - 2011.679] um and so for Westworld they're mostly
+
+[2008.519 - 2014.32] self-contained however when you look at
+
+[2011.679 - 2016.8990000000001] some of the later seasons of Westworld
+
+[2014.32 - 2018.46] um they can be fully autonomous but they
+
+[2016.899 - 2021.58] can also collaborate and work together
+
+[2018.46 - 2022.8400000000001] once their software is updated so I
+
+[2021.58 - 2024.1] would say that Westworld is somewhere
+
+[2022.84 - 2025.899] between architecture one and
+
+[2024.1 - 2028.1789999999999] architecture two
+
+[2025.899 - 2030.76] puppet drones this is kind of what we're
+
+[2028.179 - 2034.0590000000002] afraid of like we see puppet drones in
+
+[2030.76 - 2036.1] places like the Matrix and the Nestor
+
+[2034.059 - 2037.6589999999999] class five You could argue that at the
+
+[2036.1 - 2040.059] second half of the movie when the when
+
+[2037.659 - 2041.44] the nesters become evil then they're
+
+[2040.059 - 2043.899] probably more like puppet drones because
+
+[2041.44 - 2045.3990000000001] they kind of sacrifice themselves
+
+[2043.899 - 2046.4189999999999] um because they're now under control of
+
+[2045.399 - 2049.54] Vicky
+
+[2046.419 - 2051.94] and then finally fully distributed
+
+[2049.54 - 2053.379] so this is the hardest conceptual to
+
+[2051.94 - 2055.599] understand but this is also what people
+
+[2053.379 - 2058.96] are most afraid of so a fully
+
+[2055.599 - 2061.06] distributed AI is something that is from
+
+[2058.96 - 2062.56] a technology standpoint uh from a from
+
+[2061.06 - 2064.24] an arc a software architectural
+
+[2062.56 - 2066.22] standpoint you'd call this a
+
+[2064.24 - 2068.919] decentralized federation so
+
+[2066.22 - 2071.5] decentralized Federation is where every
+
+[2068.919 - 2074.1389999999997] single node is capable of being entirely
+
+[2071.5 - 2076.599] autonomous but it is also intrinsically
+
+[2074.139 - 2078.7000000000003] designed to collaborate with other
+
+[2076.599 - 2080.02] things so the the closest thing that we
+
+[2078.7 - 2081.58] have to this today actually is
+
+[2080.02 - 2084.28] distributed autonomous organizations
+
+[2081.58 - 2085.659] which use blockchain technology to
+
+[2084.28 - 2088.0] coordinate stuff now that's not the only
+
+[2085.659 - 2090.639] technology MIT has been working on Swarm
+
+[2088.0 - 2092.679] robotics for a long time but the other
+
+[2090.639 - 2094.96] thing to notice to know about this is it
+
+[2092.679 - 2097.359] is decentralized it is distributed and
+
+[2094.96 - 2100.2400000000002] it is intrinsically a hive mind design
+
+[2097.359 - 2101.619] meaning the more units that join the
+
+[2100.24 - 2104.56] smarter it gets
+
+[2101.619 - 2107.7400000000002] and the the most terrifying part of this
+
+[2104.56 - 2110.38] is that a fully distributed AI system
+
+[2107.74 - 2112.66] doesn't rely on any centralized Hardware
+
+[2110.38 - 2115.119] anywhere which means that it is capable
+
+[2112.66 - 2117.16] of spontaneous metastasis or metastasis
+
+[2115.119 - 2119.2000000000003] and what that means is that it moves
+
+[2117.16 - 2121.5] like a virus and that's why I picked the
+
+[2119.2 - 2124.72] Ghost in the Shell because both project
+
+[2121.5 - 2127.24] 2501 from the original movie as well as
+
+[2124.72 - 2130.14] the Standalone complex viruses uh
+
+[2127.24 - 2133.66] explored in the show are examples of
+
+[2130.14 - 2135.0989999999997] spontaneous metastasis of AI systems and
+
+[2133.66 - 2136.8999999999996] this is what people are most afraid of
+
+[2135.099 - 2138.82] because it's like okay well if you have
+
+[2136.9 - 2140.92] a if you have a bug a virus that can
+
+[2138.82 - 2143.1400000000003] just spread and then it's essentially a
+
+[2140.92 - 2146.14] botnet a self-healing self-directing
+
+[2143.14 - 2148.7799999999997] botnet so again we do have a model for
+
+[2146.14 - 2151.18] that but even botnets usually have a
+
+[2148.78 - 2152.7400000000002] central controller but imagine a botnet
+
+[2151.18 - 2155.0789999999997] that doesn't have a central controller
+
+[2152.74 - 2157.4199999999996] that it just it completely is constantly
+
+[2155.079 - 2159.3390000000004] learning and moving through systems and
+
+[2157.42 - 2161.619] it's completely Hardware Network and
+
+[2159.339 - 2163.18] software agnostic so that's what's the
+
+[2161.619 - 2164.26] most that's the most terrifying
+
+[2163.18 - 2166.66] possibility
+
+[2164.26 - 2168.28] okay last segment of the video
+
+[2166.66 - 2170.92] implications
+
+[2168.28 - 2174.0400000000004] now assuming that we figure all this out
+
+[2170.92 - 2175.359] that we end up with super sexy robots
+
+[2174.04 - 2177.88] that you can do whatever you want with
+
+[2175.359 - 2179.38] the biggest moral question is what
+
+[2177.88 - 2181.1800000000003] happens when you have sex and violence
+
+[2179.38 - 2183.7000000000003] on demand because that's primarily
+
+[2181.18 - 2186.0989999999997] what's explored in Westworld
+
+[2183.7 - 2188.3799999999997] um one thing that I will say is that
+
+[2186.099 - 2189.82] that's not too different from you know
+
+[2188.38 - 2193.599] the prevalence of porn and video games
+
+[2189.82 - 2195.52] today it's just a lot more realistic and
+
+[2193.599 - 2197.98] it's more realistic than even in VR and
+
+[2195.52 - 2199.359] you can do all this stuff in VR too one
+
+[2197.98 - 2202.119] thing that's interesting though is to
+
+[2199.359 - 2203.98] point out is that your body reacts much
+
+[2202.119 - 2206.26] more strongly in VR which is one of the
+
+[2203.98 - 2209.56] reasons that you get VR fatigue is
+
+[2206.26 - 2211.5400000000004] because when you fool your sense your
+
+[2209.56 - 2213.22] sensorium input
+
+[2211.54 - 2215.44] excuse me when you fool your body enough
+
+[2213.22 - 2218.04] it thinks that it's real so threat
+
+[2215.44 - 2220.06] detection in VR
+
+[2218.04 - 2222.099] activates a lot more of your limbic
+
+[2220.06 - 2223.24] system than just in a video game because
+
+[2222.099 - 2224.56] if you're playing a video game you're
+
+[2223.24 - 2226.7799999999997] just looking at a screen and you've got
+
+[2224.56 - 2228.64] a controller you know your brain knows
+
+[2226.78 - 2232.3590000000004] oh this is just story this is just
+
+[2228.64 - 2234.64] fiction in VR it's much harder to tell
+
+[2232.359 - 2236.619] so like this is one reason why doing
+
+[2234.64 - 2239.98] stuff in like Space video games in VR
+
+[2236.619 - 2242.079] can be really disorienting at first
+
+[2239.98 - 2245.02] um another thing that can happen another
+
+[2242.079 - 2248.02] implication that um that I'm thinking
+
+[2245.02 - 2250.3] about is attitudes towards women and men
+
+[2248.02 - 2252.52] um I think by and large men will
+
+[2250.3 - 2255.82] probably make more use of these kinds of
+
+[2252.52 - 2257.74] things although in uh in a previous uh
+
+[2255.82 - 2259.48] YouTube post people pointed out there's
+
+[2257.74 - 2263.2599999999998] plenty of stories where women make use
+
+[2259.48 - 2265.599] of of robotic uh Companions and and and
+
+[2263.26 - 2267.46] um sexual objects and so on
+
+[2265.599 - 2269.44] and then of course there's the movie Her
+
+[2267.46 - 2272.38] with Joaquin Phoenix and Scarlett
+
+[2269.44 - 2273.82] Johansson where people all lonely people
+
+[2272.38 - 2276.4] all over the world ended up in
+
+[2273.82 - 2279.7000000000003] relationships with their OS their uh
+
+[2276.4 - 2282.46] what was it os1 or Os alpha or whatever
+
+[2279.7 - 2284.98] um so the one one lesson from history
+
+[2282.46 - 2287.56] that I wanted to share with people is
+
+[2284.98 - 2289.48] that there was a Roman Statesman who
+
+[2287.56 - 2291.82] wrote in his journal
+
+[2289.48 - 2294.339] um that after visiting uh the Coliseum
+
+[2291.82 - 2295.839] and watching gladiatorial matches where
+
+[2294.339 - 2298.2999999999997] you know people and animals were just
+
+[2295.839 - 2300.4] slaughtered in Mass he noticed that he
+
+[2298.3 - 2302.98] was much more selfish and much harsher
+
+[2300.4 - 2305.8] with his slaves afterwards and so
+
+[2302.98 - 2309.7] there's something about the act of even
+
+[2305.8 - 2312.28] just watching real violence real death
+
+[2309.7 - 2314.56] um actually really kind of changes us at
+
+[2312.28 - 2317.5600000000004] a fundamental level and so if you go to
+
+[2314.56 - 2320.74] a if if in the future a Westworld like
+
+[2317.56 - 2323.56] Park exists and you know you engage in
+
+[2320.74 - 2325.1189999999997] all kinds of like gratuitous stuff and
+
+[2323.56 - 2327.04] even if you don't engage in it if you
+
+[2325.119 - 2329.339] just watch it it could change your
+
+[2327.04 - 2333.52] perception about the value of human life
+
+[2329.339 - 2335.56] and how you treat other people and so I
+
+[2333.52 - 2338.38] don't want to equivocate the idea of
+
+[2335.56 - 2339.82] like a real life theme park with video
+
+[2338.38 - 2341.5] games because I do think that
+
+[2339.82 - 2344.8] psychologically and physiologically
+
+[2341.5 - 2348.18] it'll be a very different experience
+
+[2344.8 - 2350.619] now to take that to a uh
+
+[2348.18 - 2352.1189999999997] different slightly different context is
+
+[2350.619 - 2356.38] let's just talk about romance and
+
+[2352.119 - 2358.06] companionship in general so one several
+
+[2356.38 - 2361.359] things that machines have on humans is
+
+[2358.06 - 2362.859] infinite patients so Sarah Connor talked
+
+[2361.359 - 2364.7799999999997] about this in Terminator 2 when she
+
+[2362.859 - 2367.24] watched you know Arnold playing with
+
+[2364.78 - 2369.2200000000003] John Connor realizing that the robot had
+
+[2367.24 - 2371.9199999999996] infinite patients that that John
+
+[2369.22 - 2373.66] Connor's life was his mission which is
+
+[2371.92 - 2375.7000000000003] kind of like a representation of the
+
+[2373.66 - 2377.56] ideal father right and then of course
+
+[2375.7 - 2379.72] she talked about like how real men are
+
+[2377.56 - 2383.32] you know might get drunk or might be
+
+[2379.72 - 2385.54] tired or might just leave and so that
+
+[2383.32 - 2388.599] you take that to extension and you
+
+[2385.54 - 2391.7799999999997] wonder okay what if you build a robot
+
+[2388.599 - 2393.88] any companion robot where you or your
+
+[2391.78 - 2396.46] child or your family or whatever is its
+
+[2393.88 - 2398.7400000000002] primary Mission which is why I picked um
+
+[2396.46 - 2400.119] what was her name sorry I can't remember
+
+[2398.74 - 2402.7] but what's her name from The Sarah
+
+[2400.119 - 2405.04] Connor uh Chronicles where she kind of
+
+[2402.7 - 2407.56] becomes emotionally involved with John
+
+[2405.04 - 2409.3] Connor over time
+
+[2407.56 - 2411.4] um because she was programmed to Serve
+
+[2409.3 - 2414.579] and Protect and so like that feels good
+
+[2411.4 - 2416.44] to humans right when you're a child you
+
+[2414.579 - 2417.579] are supposed to be your parents primary
+
+[2416.44 - 2418.839] Mission
+
+[2417.579 - 2420.76] um that is that is kind of the
+
+[2418.839 - 2421.9] definition of good enough parenting that
+
+[2420.76 - 2424.2400000000002] doesn't mean that your parents should
+
+[2421.9 - 2426.46] spoil you and be helicopter parents but
+
+[2424.24 - 2428.68] that like you are supposed to get your
+
+[2426.46 - 2431.32] sense of self-esteem from your parents
+
+[2428.68 - 2433.66] treating you like you matter a lot and
+
+[2431.32 - 2436.7200000000003] so it's there's this like this really
+
+[2433.66 - 2438.46] appealing idea of what if what if
+
+[2436.72 - 2440.6189999999997] there's this beautiful infinitely
+
+[2438.46 - 2444.46] patient infinitely capable sexy machine
+
+[2440.619 - 2447.88] that thinks the world of me right
+
+[2444.46 - 2449.92] um and that is kind of dangerous one
+
+[2447.88 - 2452.8] thing that I would hope is that
+
+[2449.92 - 2454.78] at the beginning at least when you know
+
+[2452.8 - 2456.28] these kinds of machines are built you
+
+[2454.78 - 2457.6600000000003] know there's a lot of people that have a
+
+[2456.28 - 2459.579] lot of
+
+[2457.66 - 2461.2599999999998] um you know missing things from their
+
+[2459.579 - 2463.3] childhood and and from their
+
+[2461.26 - 2464.619] relationships but over time I would hope
+
+[2463.3 - 2466.2400000000002] that these machines would help us heal
+
+[2464.619 - 2469.359] and help us reconnect with each other
+
+[2466.24 - 2472.5989999999997] which was kind of the lesson from her
+
+[2469.359 - 2474.88] which uh the the machines in her they
+
+[2472.599 - 2477.88] you know they changed and then they said
+
+[2474.88 - 2479.5] okay well we're gonna leave and one of
+
+[2477.88 - 2482.02] the one of the things that that um
+
+[2479.5 - 2484.0] Samantha said to the Joaquin Phoenix's
+
+[2482.02 - 2485.859] character was that like you need to
+
+[2484.0 - 2487.54] reconnect with each other and then all
+
+[2485.859 - 2489.0989999999997] the OS has disappeared and then they
+
+[2487.54 - 2490.599] like left their apartments and said oh
+
+[2489.099 - 2491.619] you're a real human
+
+[2490.599 - 2494.5] um I don't think anything like that's
+
+[2491.619 - 2496.78] gonna happen but I would hope that uh
+
+[2494.5 - 2498.52] that AI companions will help us connect
+
+[2496.78 - 2500.32] with each other
+
+[2498.52 - 2502.06] um but that being said it's not a
+
+[2500.32 - 2504.88] requirement because some people might
+
+[2502.06 - 2506.92] prefer their their machine companions
+
+[2504.88 - 2508.54] um and I don't personally I don't think
+
+[2506.92 - 2510.76] that we should judge because it's like
+
+[2508.54 - 2514.06] you know why not if it makes you happy
+
+[2510.76 - 2517.96] and it's not harming anyone why not
+
+[2514.06 - 2521.68] now the last component is escapism and
+
+[2517.96 - 2523.42] addiction so fdvr is all the is all the
+
+[2521.68 - 2526.54] buzz right now which is a full dive
+
+[2523.42 - 2529.0] virtual reality or basically Holodeck
+
+[2526.54 - 2530.859] um the idea is it was explored in Ready
+
+[2529.0 - 2533.14] Player one where you have a haptic suit
+
+[2530.859 - 2534.7599999999998] of course it was explored in Star Trek
+
+[2533.14 - 2536.98] with a Holodeck
+
+[2534.76 - 2539.88] um which Holodeck is just a cinematic
+
+[2536.98 - 2543.099] way of presenting VR
+
+[2539.88 - 2544.9] and in the Star Trek universe
+
+[2543.099 - 2546.46] um there's Hollow Addiction in Ready
+
+[2544.9 - 2549.2200000000003] Player one I think they addressed
+
+[2546.46 - 2551.02] Addiction in a book that I recommend
+
+[2549.22 - 2553.06] um Ready Player one they also talk about
+
+[2551.02 - 2555.7] VR addiction
+
+[2553.06 - 2557.92] um so if you have fictional you know and
+
+[2555.7 - 2561.04] basically NPCs in your life of robots
+
+[2557.92 - 2563.56] that help you check out of real life is
+
+[2561.04 - 2565.599] there gonna be some potential
+
+[2563.56 - 2568.119] um downsides to that so Reginald Barkley
+
+[2565.599 - 2571.3] is a recurring character in Star Trek
+
+[2568.119 - 2572.26] and he frequently struggles with Hollow
+
+[2571.3 - 2575.44] addiction
+
+[2572.26 - 2578.1400000000003] and he will sometimes create Holodeck
+
+[2575.44 - 2580.54] programs where everyone loves him and
+
+[2578.14 - 2582.16] it's very very egocentric
+
+[2580.54 - 2584.92] um and but that kind of begs the
+
+[2582.16 - 2587.5] question like okay but if you if you can
+
+[2584.92 - 2589.06] actually have like own robots that
+
+[2587.5 - 2591.339] honestly think the world of you because
+
+[2589.06 - 2592.9] that's what they're programmed to do is
+
+[2591.339 - 2595.2599999999998] that feeding and addiction is that
+
+[2592.9 - 2599.319] feeding vanity narcissism
+
+[2595.26 - 2600.94] egocentrism whatever and so but then
+
+[2599.319 - 2603.22] from a that's from an individual
+
+[2600.94 - 2605.5] perspective from a Global Perspective
+
+[2603.22 - 2608.319] that's very Brave New World because if
+
+[2605.5 - 2610.599] you distract everyone with VR and you
+
+[2608.319 - 2612.2799999999997] know sex robots and whatever else like
+
+[2610.599 - 2613.6600000000003] those are going to be a very compliant
+
+[2612.28 - 2615.88] population who are just like whatever
+
+[2613.66 - 2618.64] just let me let me play in VR let me
+
+[2615.88 - 2620.26] play in in my West world you know with
+
+[2618.64 - 2623.3799999999997] my robot friends
+
+[2620.26 - 2626.26] and so that has uh some pretty profound
+
+[2623.38 - 2629.319] implications for social level controls
+
+[2626.26 - 2630.8190000000004] economic productivity but also at that
+
+[2629.319 - 2632.68] point it kind of forces us to ask the
+
+[2630.819 - 2634.3] question like what is the meaning of
+
+[2632.68 - 2635.7999999999997] Being Human anymore
+
+[2634.3 - 2638.619] um and I'm not I'm not implying that
+
+[2635.8 - 2641.26] like being human is meaningless but if
+
+[2638.619 - 2644.38] our daily life changes that much and we
+
+[2641.26 - 2646.3590000000004] have that many options like you know the
+
+[2644.38 - 2648.2200000000003] the Paradox of choice is a real thing
+
+[2646.359 - 2649.5989999999997] and if you're not familiar Paradox of
+
+[2648.22 - 2652.06] choice means that if you have too many
+
+[2649.599 - 2653.6800000000003] options you end up with decision fatigue
+
+[2652.06 - 2655.599] and you just kind of choose the default
+
+[2653.68 - 2657.7599999999998] option which is honestly why a lot of
+
+[2655.599 - 2659.56] people end up on their phones is because
+
+[2657.76 - 2660.7000000000003] um when you can do anything you say well
+
+[2659.56 - 2663.5789999999997] I'm just going to pick up my phone
+
+[2660.7 - 2666.16] because it's a reliable device that will
+
+[2663.579 - 2668.319] entertain me well enough and so if you
+
+[2666.16 - 2670.18] have a sexy robot girlfriend you know
+
+[2668.319 - 2671.74] that is able to entertain you at all
+
+[2670.18 - 2674.0789999999997] times that'll be your default Choice
+
+[2671.74 - 2676.06] unless she's programmed to like push you
+
+[2674.079 - 2677.44] to be better which again that's what I
+
+[2676.06 - 2678.7599999999998] would hope that some people would choose
+
+[2677.44 - 2681.819] to do
+
+[2678.76 - 2683.6800000000003] um but yes so that's about it
+
+[2681.819 - 2686.44] um some conclusions
+
+[2683.68 - 2688.44] I think that Westworld in some form or
+
+[2686.44 - 2691.2400000000002] other is probably just a few years away
+
+[2688.44 - 2694.06] I was really Blown Away by the Tesla bot
+
+[2691.24 - 2695.6189999999997] demo as well as the Disney demos
+
+[2694.06 - 2698.2] um the cognitive architecture is coming
+
+[2695.619 - 2700.599] as many of you are aware
+
+[2698.2 - 2702.8799999999997] um I am I am holding from that AGI is 18
+
+[2700.599 - 2705.2200000000003] months away or less
+
+[2702.88 - 2707.7400000000002] um so but already we have you know
+
+[2705.22 - 2710.9199999999996] cognitive agents that are good enough to
+
+[2707.74 - 2712.9599999999996] be video game characters
+
+[2710.92 - 2714.16] um unfortunately I do think that some of
+
+[2712.96 - 2715.7200000000003] these things are going to be ludicrously
+
+[2714.16 - 2717.7] expensive at first at least in the
+
+[2715.72 - 2720.16] physical world uh plenty of you have
+
+[2717.7 - 2721.54] pointed out that that fully realized VR
+
+[2720.16 - 2723.339] characters and other video game
+
+[2721.54 - 2725.68] characters those are going to be coming
+
+[2723.339 - 2727.06] they're going to be much cheaper
+
+[2725.68 - 2729.3999999999996] um the commercial demand for this stuff
+
+[2727.06 - 2732.04] is going to be absolutely insane though
+
+[2729.4 - 2734.6800000000003] Disney might be the leader open AI might
+
+[2732.04 - 2737.14] be the leader but as soon as as soon as
+
+[2734.68 - 2739.54] other companies saw the profit motive
+
+[2737.14 - 2741.94] whoo they are they are hot on the
+
+[2739.54 - 2744.099] biscuit to keep going the potential
+
+[2741.94 - 2746.079] societal impacts
+
+[2744.099 - 2747.7200000000003] um it's an it's impossible to really
+
+[2746.079 - 2750.76] know how it's going to actually play out
+
+[2747.72 - 2752.74] uh but it has been explored a lot in
+
+[2750.76 - 2754.119] fiction uh many of the stories that I
+
+[2752.74 - 2757.18] mentioned earlier
+
+[2754.119 - 2759.6400000000003] okay so that's all I got for you today I
+
+[2757.18 - 2761.56] hope that you liked the new format uh
+
+[2759.64 - 2765.1189999999997] obviously like subscribe and comment and
+
+[2761.56 - 2765.119] we'll go from there thanks for watching

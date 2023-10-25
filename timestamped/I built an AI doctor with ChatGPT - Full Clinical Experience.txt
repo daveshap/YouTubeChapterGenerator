@@ -1,0 +1,1475 @@
+[0.12 - 4.08] you know how whenever you go to the
+
+[2.159 - 5.88] doctor and they ask you a million and a
+
+[4.08 - 8.82] half questions and then the doctor asks
+
+[5.88 - 10.679] you the same questions over again well I
+
+[8.82 - 12.540000000000001] wanted to automate that but also I was
+
+[10.679 - 15.120000000000001] inspired by this article that came out
+
+[12.54 - 18.06] uh just uh last week or in the last
+
+[15.12 - 19.858999999999998] couple weeks basically the story is chat
+
+[18.06 - 22.858999999999998] GPT correctly diagnosed a
+
+[19.859 - 25.980000000000004] four-year-old's pain after 17 doctors
+
+[22.859 - 27.660000000000004] failed it took three years and it was uh
+
+[25.98 - 30.72] it was basically something wrong with
+
+[27.66 - 33.3] his spinal cord and that the you know
+
+[30.72 - 35.399] the the parent having access to chat GPT
+
+[33.3 - 38.399] was able to talk through it and figure
+
+[35.399 - 40.079] out what exactly to share with with the
+
+[38.399 - 42.6] doctors and what to ask for and was able
+
+[40.079 - 45.18] to get a proper diagnosis and now
+
+[42.6 - 47.04] because of AI they were able to diagnose
+
+[45.18 - 49.739] this tethered cord syndrome and treat
+
+[47.04 - 52.019999999999996] the little boy which is great but you
+
+[49.739 - 54.538999999999994] know rather than allowing or or
+
+[52.02 - 57.059000000000005] basically requiring someone to fudge
+
+[54.539 - 59.46] through it on their own I wanted to
+
+[57.059 - 62.339999999999996] apply my considerable technical skills
+
+[59.46 - 64.5] at automate in this pipeline so let me
+
+[62.34 - 66.60000000000001] show you real quick oops you don't need
+
+[64.5 - 69.299] to see that there we go let me show you
+
+[66.6 - 71.64] real quick what um what I did so this is
+
+[69.299 - 74.28] what it looks like and this is this is
+
+[71.64 - 75.659] uh I'll we'll unpack all the code in
+
+[74.28 - 78.36] just a moment but I wanted to show you
+
+[75.659 - 80.46000000000001] kind of end to end what I did so first
+
+[78.36 - 82.92] let me zoom in so that you can see this
+
+[80.46 - 86.15899999999999] first it's a simple chat bot that that
+
+[82.92 - 88.799] acts like that intake interview and
+
+[86.159 - 91.619] before we jump in I need to say that uh
+
+[88.799 - 94.5] very definitively this is not a medical
+
+[91.619 - 96.659] device this is not approved by the F FDA
+
+[94.5 - 99.24] this is not approved by any medical
+
+[96.659 - 101.7] regulator it is also provided under the
+
+[99.24 - 103.619] MIT license which means use this at your
+
+[101.7 - 106.74000000000001] own risk it is provided as is this is
+
+[103.619 - 109.259] provided for scientific curiosity only
+
+[106.74 - 111.0] do not use this as a medical device do
+
+[109.259 - 113.399] not use this for diagnosis it is not
+
+[111.0 - 115.2] ready I will unpack all the reasons why
+
+[113.399 - 119.34] it is not ready by the end of the video
+
+[115.2 - 120.899] but it is useful and it is helpful and I
+
+[119.34 - 122.52000000000001] want to basically really just proves
+
+[120.899 - 126.06] that the technology is ready for the
+
+[122.52 - 127.86] next step in clinical usage with the
+
+[126.06 - 129.959] proper testing so on and so forth okay
+
+[127.86 - 132.0] so with that out of the way
+
+[129.959 - 134.099] um it's a it starts off as a simple chat
+
+[132.0 - 138.06] bot that it has this very simple mission
+
+[134.099 - 140.64] of asking a clinical questions the same
+
+[138.06 - 142.5] way that an intake nurse will ask you
+
+[140.64 - 144.54] kind of these interview questions to
+
+[142.5 - 146.34] figure out what's going on the next
+
+[144.54 - 148.01999999999998] thing that it does is it is it
+
+[146.34 - 151.31900000000002] compresses everything that you give it
+
+[148.02 - 152.81900000000002] into just a few notes and so again this
+
+[151.319 - 155.28] is the point so it takes that whole
+
+[152.819 - 158.22] conversation compresses it to the most
+
+[155.28 - 160.14000000000001] uh Salient notes and then from those
+
+[158.22 - 161.58] notes it will generate a couple of
+
+[160.14 - 164.33999999999997] hypotheses
+
+[161.58 - 166.56] and so this this clinical report is the
+
+[164.34 - 169.62] is what it what it believes are the most
+
+[166.56 - 172.5] likely uh possible things to investigate
+
+[169.62 - 175.26] so these are diagnostic hypotheses which
+
+[172.5 - 177.3] again this is how uh not necessarily how
+
+[175.26 - 178.79999999999998] all clinicians work and also some
+
+[177.3 - 180.0] clinicians out there might be saying
+
+[178.8 - 181.739] well you're kind of jumping ahead
+
+[180.0 - 184.379] because you shouldn't be coming up with
+
+[181.739 - 186.12] a hypothesis yet there's also a few
+
+[184.379 - 189.85999999999999] problems with this so let's start
+
+[186.12 - 193.14000000000001] unpacking why this really simple
+
+[189.86 - 195.59900000000002] approach is I'm already aware that it's
+
+[193.14 - 197.33999999999997] flawed so this is basically just kind of
+
+[195.599 - 199.319] bringing up the things that are that it
+
+[197.34 - 202.019] that things are most likely we don't
+
+[199.319 - 204.72] know how chat GPT was trained to handle
+
+[202.019 - 206.87900000000002] things like symptoms it's entirely
+
+[204.72 - 208.019] possible that it will miss rarer
+
+[206.879 - 210.239] conditions and I've actually thought
+
+[208.019 - 212.159] about creating a version of this that is
+
+[210.239 - 214.5] for like you know hey we've already gone
+
+[212.159 - 217.26] through like a lot of Specialists we're
+
+[214.5 - 219.48] trying to find rare conditions now if
+
+[217.26 - 222.17999999999998] chat GPT was able to was able to help
+
+[219.48 - 224.22] find the cause of that little boys pain
+
+[222.18 - 226.019] with tethered cord syndrome I think it
+
+[224.22 - 228.18] probably has the capacity to
+
+[226.019 - 231.239] systematically and formally discover
+
+[228.18 - 234.48000000000002] rare conditions but this is more of a
+
+[231.239 - 237.06] primary care practice a PCP kind of
+
+[234.48 - 239.099] approach because again one of the things
+
+[237.06 - 241.739] that particularly in America that's a
+
+[239.099 - 244.319] problem is Medical Care is incredibly
+
+[241.739 - 246.299] expensive and if you can reduce most
+
+[244.319 - 248.76] doctor's office visits to like five
+
+[246.299 - 250.62] minutes with a nurse and then they
+
+[248.76 - 252.29899999999998] interact with a machine then the cost
+
+[250.62 - 254.76] could go from hundreds of dollars to
+
+[252.299 - 257.699] literally like five to ten dollars per
+
+[254.76 - 259.82] visit and this could be something that
+
+[257.699 - 262.32] could really drastically help
+
+[259.82 - 264.9] underserved populations
+
+[262.32 - 266.88] um okay so in this case the I was
+
+[264.9 - 269.4] pretending to be
+
+[266.88 - 271.199] um an older gentleman who is having
+
+[269.4 - 272.21999999999997] freezing episodes
+
+[271.199 - 274.38] um if you're familiar with the news
+
+[272.22 - 276.72] there is a particular older gentleman
+
+[274.38 - 278.34] who has had some rather public freezing
+
+[276.72 - 279.54] episodes and so I basically pretended to
+
+[278.34 - 281.63899999999995] be him
+
+[279.54 - 283.68] um or someone someone who's presenting
+
+[281.639 - 285.72] similar things of freezing for 20
+
+[283.68 - 288.06] seconds every now and then
+
+[285.72 - 290.699] um so the the chat intake takes all that
+
+[288.06 - 292.5] and then uh compresses it down to notes
+
+[290.699 - 295.5] then it generates this clinical report
+
+[292.5 - 298.68] this this uh this hype uh set of
+
+[295.5 - 300.36] diagnostic hypotheses it says okay this
+
+[298.68 - 302.04] is what I think it is you know in this
+
+[300.36 - 304.38] case it could be a transient ischemic
+
+[302.04 - 306.24] attack also known as a mini stroke blah
+
+[304.38 - 308.28] blah blah so it just spells it out in
+
+[306.24 - 310.02] plain English uh neurological
+
+[308.28 - 312.65999999999997] dysfunction caused by temporary loss of
+
+[310.02 - 313.979] blood flow differentials so for those of
+
+[312.66 - 316.5] you that are not familiar with the
+
+[313.979 - 318.59999999999997] clinical term differentials is basically
+
+[316.5 - 320.82] like what are some similar but different
+
+[318.6 - 322.139] things that could cause is the same
+
+[320.82 - 324.479] thing and
+
+[322.139 - 326.639] um in working with chat GPT and the API
+
+[324.479 - 329.09999999999997] to like figure out exactly how to
+
+[326.639 - 330.539] approach this I realize that one thing
+
+[329.1 - 332.639] that clinicians always do is they're
+
+[330.539 - 334.74] keeping in mind okay here's my primary
+
+[332.639 - 336.24] hypothesis but here's also a list of
+
+[334.74 - 337.139] differentials that I need to keep track
+
+[336.24 - 339.12] of
+
+[337.139 - 341.72] um and just by writing it down these are
+
+[339.12 - 344.52] all other avenues to investigate
+
+[341.72 - 346.08000000000004] demographics more common in older adults
+
+[344.52 - 348.59999999999997] particularly those over 60 and that's
+
+[346.08 - 351.419] probative here because the patient is 80
+
+[348.6 - 352.62] or in his 80s symptoms sudden weakness
+
+[351.419 - 355.32] or numbness on one side of the body
+
+[352.62 - 357.24] confusion uh blah blah so on and so
+
+[355.32 - 360.36] forth indicators patient AIDS episode of
+
+[357.24 - 362.759] free uh sorry patients Age episodes of
+
+[360.36 - 364.199] freezing loss of consciousness confusion
+
+[362.759 - 366.78000000000003] or difficulty in finding the right words
+
+[364.199 - 368.759] after episodes Contra indicators no
+
+[366.78 - 371.15999999999997] reported weakness numbness severe
+
+[368.759 - 373.68] headache or dizziness so from a clinical
+
+[371.16 - 375.96000000000004] perspective something like indicators is
+
+[373.68 - 378.66] this is this is stuff that says yes this
+
+[375.96 - 380.28] is positive this is positively
+
+[378.66 - 382.91900000000004] correlated with what we're thinking
+
+[380.28 - 384.419] about and then contraindications or
+
+[382.919 - 387.06] Contra indicators are things that
+
+[384.419 - 388.85999999999996] basically say well it's not hitting on
+
+[387.06 - 391.139] all cylinders it doesn't match up
+
+[388.86 - 392.759] perfectly so again like differentials
+
+[391.139 - 396.06] you want to be mindful of what matches
+
+[392.759 - 397.44] and what doesn't match uh prognosis tias
+
+[396.06 - 399.18] are often warning signs of future
+
+[397.44 - 401.21999999999997] Strokes with proper management the risk
+
+[399.18 - 402.96] can be significantly reduced so this is
+
+[401.22 - 405.6] all information that can be like either
+
+[402.96 - 407.21999999999997] given to the patient or given to
+
+[405.6 - 409.56] um you know an intake nurse or someone
+
+[407.22 - 411.68] who might have less specific experience
+
+[409.56 - 414.24] but again it's also important to
+
+[411.68 - 415.979] remember that these are not diagnosis
+
+[414.24 - 417.66] yet these are hypotheses for
+
+[415.979 - 420.06] investigation
+
+[417.66 - 422.46000000000004] and then finally it uh recommends some
+
+[420.06 - 424.8] some potential treatments and tests to
+
+[422.46 - 427.56] go with it uh and then the second option
+
+[424.8 - 431.28000000000003] is epilepsy so I actually watched
+
+[427.56 - 433.5] um a uh like neuros neuro physician uh
+
+[431.28 - 435.96] whatever uh neurologist that's the word
+
+[433.5 - 438.06] a neurologist uh breakdown actually
+
+[435.96 - 440.039] several breakdowns of some of these
+
+[438.06 - 442.74] events and they basically said the same
+
+[440.039 - 445.08] thing the two primary uh things that
+
+[442.74 - 446.52] they suspect are transient ischemic
+
+[445.08 - 448.139] attacks which is a mini stroke or
+
+[446.52 - 451.44] epilepsy
+
+[448.139 - 453.78000000000003] um or a particular kind of epilepsy so
+
+[451.44 - 457.099] in this case the uh based on outside
+
+[453.78 - 461.039] information uh this chat GPT API
+
+[457.099 - 462.9] directly agrees with uh with what some
+
+[461.039 - 465.24] professionals have mentioned granted
+
+[462.9 - 467.039] again any responsible clinician will
+
+[465.24 - 468.78000000000003] tell you you cannot diagnose someone
+
+[467.039 - 472.139] just from watching a couple videos of
+
+[468.78 - 474.0] them freezing up in public but given the
+
+[472.139 - 476.52] same information that I have and giving
+
+[474.0 - 479.419] that information to this tool that I've
+
+[476.52 - 482.58] built it came up with roughly the same
+
+[479.419 - 484.56] basically clinical uh I'm not going to
+
+[482.58 - 487.31899999999996] say conclusion but Avenues of
+
+[484.56 - 489.9] investigation and so then the next phase
+
+[487.319 - 492.36] is now that it now that it has done the
+
+[489.9 - 495.84] intake it has summarized the intake it
+
+[492.36 - 498.72] has come up with a few hypotheses
+
+[495.84 - 500.34] um it is now uh recommending clinical
+
+[498.72 - 502.86] evaluation and I actually messed up on
+
+[500.34 - 505.44] the output so we need to switch over to
+
+[502.86 - 507.66] the logs and I have it save it all
+
+[505.44 - 509.699] um to log files right now
+
+[507.66 - 511.97900000000004] um now if you want to use this or test
+
+[509.699 - 514.62] it out obviously don't put your own
+
+[511.979 - 516.419] personal clinical information uh up on
+
+[514.62 - 517.8] GitHub don't put it up publicly don't
+
+[516.419 - 520.26] share it with anyone other than your
+
+[517.8 - 522.3599999999999] medical provider because of uh patient
+
+[520.26 - 524.099] confidentiality laws which are pretty
+
+[522.36 - 526.2] Universal they're actually stricter in
+
+[524.099 - 528.0600000000001] Europe I believe than in America so
+
+[526.2 - 530.399] anyways here is here's a breakdown of
+
+[528.06 - 534.0] what we save so here's the chat log
+
+[530.399 - 536.64] um here's the notes Here is the uh the
+
+[534.0 - 539.339] the diagnostic hypotheses and then
+
+[536.64 - 541.4399999999999] finally here's the clinical uh pain so
+
+[539.339 - 543.72] this is a clinical report or clinical
+
+[541.44 - 547.019] evaluation report that is meant to be
+
+[543.72 - 548.1] then given to the physician or or the
+
+[547.019 - 549.66] clinician whether it's a nurse
+
+[548.1 - 551.76] practitioner or registered nurse or
+
+[549.66 - 554.04] physician's assistant and so the first
+
+[551.76 - 556.4399999999999] thing that it does is recommend all the
+
+[554.04 - 560.16] um all of these Sensations to engage
+
+[556.44 - 562.5600000000001] with uh with the patient in order to
+
+[560.16 - 564.48] basically dial in like what is it that
+
+[562.56 - 566.88] you're looking for and the reason that I
+
+[564.48 - 569.339] included this is because if you talk to
+
+[566.88 - 571.519] particularly ER Physicians
+
+[569.339 - 574.2600000000001] um but really any experienced physician
+
+[571.519 - 576.12] they can often get a tremendous amount
+
+[574.26 - 578.519] of information just by walking into a
+
+[576.12 - 579.9590000000001] room and glancing at the patient there
+
+[578.519 - 582.0600000000001] will be specific
+
+[579.959 - 584.8199999999999] um like pallers that the patient might
+
+[582.06 - 586.8] have or like Expressions there could
+
+[584.82 - 589.9200000000001] also be particular smells associated
+
+[586.8 - 592.019] with very various conditions so for
+
+[589.92 - 593.2199999999999] instance if someone is in ketosis
+
+[592.019 - 596.64] they're going to have a very distinctive
+
+[593.22 - 598.98] smell which chat GPT doesn't have a
+
+[596.64 - 601.26] sense of smell yet so but but it can
+
+[598.98 - 603.779] tell the clinician like hey if you smell
+
+[601.26 - 605.399] this thing this is a sign of ketosis and
+
+[603.779 - 608.04] pay attention to that because that can
+
+[605.399 - 610.38] be very probative whereas inexperienced
+
+[608.04 - 611.88] clinicians might not recognize they
+
+[610.38 - 613.86] might notice a smell but they might not
+
+[611.88 - 615.54] know what it means and so this section
+
+[613.86 - 618.72] is basically saying like hey look for
+
+[615.54 - 621.18] this kind of thing the second section of
+
+[618.72 - 622.6800000000001] the clinical report is examination so
+
+[621.18 - 624.0] this is like what you're physically
+
+[622.68 - 625.92] supposed to do you know how like the
+
+[624.0 - 627.24] doctors always come in and they poke and
+
+[625.92 - 629.3389999999999] they prod you and they like check your
+
+[627.24 - 630.9590000000001] reflexes that sort of thing
+
+[629.339 - 632.82] um this first version it recommended
+
+[630.959 - 634.7399999999999] other examinations that are not part of
+
+[632.82 - 636.48] the primary care practice
+
+[634.74 - 637.5600000000001] um so I modified it so if you run this
+
+[636.48 - 639.779] again it'll give you slightly different
+
+[637.56 - 641.76] output and then finally
+
+[639.779 - 643.4399999999999] um it also has some recommended
+
+[641.76 - 645.899] interview questions so this is basically
+
+[643.44 - 647.94] uh priming the doctor or the clinician
+
+[645.899 - 649.56] to say hey
+
+[647.94 - 651.7790000000001] um here are some follow-up questions
+
+[649.56 - 654.3599999999999] that you might want to use in order to
+
+[651.779 - 657.14] interview this patient to get better
+
+[654.36 - 659.399] more information and again this is why
+
+[657.14 - 661.26] Physicians always ask some of the same
+
+[659.399 - 663.839] questions again it's not that they don't
+
+[661.26 - 666.779] necessarily trust their uh their their
+
+[663.839 - 669.7790000000001] intake staff it's just they want to see
+
+[666.779 - 671.519] your reaction for themselves and they
+
+[669.779 - 674.04] also might you know based on their
+
+[671.519 - 677.16] clinical experience dial into something
+
+[674.04 - 679.3199999999999] that the intake clinicians missed
+
+[677.16 - 680.579] um so yeah in this case I have it set so
+
+[679.32 - 682.9200000000001] that it'll tell you like what it's
+
+[680.579 - 684.12] looking for so episode triggers in the
+
+[682.92 - 686.3389999999999] case of the freezing have you noticed
+
+[684.12 - 689.16] any patterns or triggers post episode
+
+[686.339 - 691.0790000000001] symptoms medical history and concussion
+
+[689.16 - 692.76] follow-up like have you done anything
+
+[691.079 - 693.899] for the concussion that preceded all
+
+[692.76 - 696.6] this
+
+[693.899 - 698.339] um so this is the clinical evaluation
+
+[696.6 - 700.5600000000001] and then finally
+
+[698.339 - 702.4200000000001] you know how doctors they'll send you
+
+[700.56 - 704.76] away with a list of tests and referrals
+
+[702.42 - 706.8] and stuff so I have it do the same thing
+
+[704.76 - 710.8199999999999] so the referral here from primary care
+
+[706.8 - 711.959] says uh go to a neurologist I'm actually
+
+[710.82 - 715.019] kind of surprised that it didn't
+
+[711.959 - 717.4799999999999] recommend a cardiologist however it did
+
+[715.019 - 720.0] recommend a carotid ultrasound so
+
+[717.48 - 722.16] basically saying like hey let's check
+
+[720.0 - 725.22] for any blockages of the blood flow to
+
+[722.16 - 727.019] the brain so let's do an EEG this will
+
+[725.22 - 729.36] test to identify abnormal electrical
+
+[727.019 - 730.62] activity which again one of the uh one
+
+[729.36 - 733.14] of the neurologists that I watched
+
+[730.62 - 734.76] recommended this but she did point out
+
+[733.14 - 736.92] that one of the problems with some of
+
+[734.76 - 739.019] these transient things is that the
+
+[736.92 - 741.8389999999999] um that the abnormal electrical activity
+
+[739.019 - 744.9590000000001] is itself also transient if it is the
+
+[741.839 - 747.7790000000001] case of a seizure or epilepsy and so it
+
+[744.959 - 749.2199999999999] can be difficult to determine unless you
+
+[747.779 - 752.7] like have the electrodes on someone
+
+[749.22 - 755.399] while they're having an episode an MRI
+
+[752.7 - 757.0790000000001] again this makes sense because if
+
+[755.399 - 760.32] there's a lesion or a tumor or something
+
+[757.079 - 762.8389999999999] the MRI will discover that and then CBC
+
+[760.32 - 765.839] for uh and metabolic panel
+
+[762.839 - 766.86] so uh this basically says like hey there
+
+[765.839 - 768.899] could be some underlying medical
+
+[766.86 - 770.04] conditions such as anemia or electrolyte
+
+[768.899 - 771.3] imbalances
+
+[770.04 - 773.9399999999999] um which would be interesting so again
+
+[771.3 - 776.04] like you just need more information
+
+[773.94 - 778.44] um but yeah so this is an end-to-end
+
+[776.04 - 781.139] process that the only input I gave it
+
+[778.44 - 782.8800000000001] was this chat log and then you can see
+
+[781.139 - 785.22] it compressed it into clinical notes
+
+[782.88 - 787.32] which can be recorded in a chart it came
+
+[785.22 - 789.899] up with some uh with some diagnostic
+
+[787.32 - 791.7600000000001] hypotheses it came up with a clinical
+
+[789.899 - 793.32] recommendation panel
+
+[791.76 - 795.12] um basically census examination and
+
+[793.32 - 798.5400000000001] interview questions and then finally
+
+[795.12 - 800.1] referrals labs and tests so this is an
+
+[798.54 - 801.5999999999999] end-to-end process and I've kind of
+
+[800.1 - 803.88] unpacked some of the limitations along
+
+[801.6 - 806.339] the way so one of the chief limitations
+
+[803.88 - 808.86] is obviously chat GPT does not have
+
+[806.339 - 810.0] hands It Doesn't Have Eyes Ears Nose
+
+[808.86 - 811.8000000000001] whatever
+
+[810.0 - 814.38] so it doesn't have all the clinical
+
+[811.8 - 817.26] senses that a clinical practitioner will
+
+[814.38 - 819.6] have but it has read enough of this
+
+[817.26 - 821.459] content on the internet in order to
+
+[819.6 - 825.12] understand that this is generally how
+
+[821.459 - 828.2399999999999] medical evaluations go and my goal here
+
+[825.12 - 829.86] is twofold one I want to demonstrate
+
+[828.24 - 831.839] that it's possible and relatively simple
+
+[829.86 - 834.3000000000001] it's a little bit of background about me
+
+[831.839 - 837.1800000000001] is um and back in my in my corporate
+
+[834.3 - 838.74] days I was an infrastructure I.T
+
+[837.18 - 841.1999999999999] infrastructure engineer with a
+
+[838.74 - 844.32] specialization on cloud and Automation
+
+[841.2 - 847.139] and so I the the biggest project that I
+
+[844.32 - 850.38] ever automated was to update the
+
+[847.139 - 852.1800000000001] firmware of several hundred servers as
+
+[850.38 - 854.399] well as the drivers of the operating
+
+[852.18 - 856.9799999999999] systems running on those servers and
+
+[854.399 - 859.2] these were hypervisors so a hypervisor
+
+[856.98 - 860.94] is a particular kind of server that runs
+
+[859.2 - 862.5] virtual machines so this is the kind of
+
+[860.94 - 865.5] hardware and software stack that
+
+[862.5 - 867.899] underpins all Cloud instances and so
+
+[865.5 - 870.36] what I had to do was we had a we had a
+
+[867.899 - 872.22] critical patch on our storage system so
+
+[870.36 - 873.66] we had several petabytes of data that we
+
+[872.22 - 876.36] needed to make sure we didn't disrupt
+
+[873.66 - 878.2199999999999] and we had hundreds of really really
+
+[876.36 - 880.32] large servers and by large servers I
+
+[878.22 - 883.0790000000001] mean these servers had two terabytes of
+
+[880.32 - 886.139] ram each running uh cloud-based
+
+[883.079 - 888.3599999999999] workloads and so what I needed to do was
+
+[886.139 - 890.22] I needed to update the firmware after we
+
+[888.36 - 891.54] updated the the firmware of the storage
+
+[890.22 - 893.88] system so I needed to update the
+
+[891.54 - 896.399] firmware of the storage cards on the
+
+[893.88 - 898.019] servers and then update the drivers uh
+
+[896.399 - 899.94] within the operating systems running on
+
+[898.019 - 901.86] those servers and I needed to do it
+
+[899.94 - 903.48] without disrupting the workload so
+
+[901.86 - 905.4590000000001] rather than spend weeks and weeks doing
+
+[903.48 - 907.98] this manually I automated I spent one
+
+[905.459 - 911.16] week writing the scripts to do this uh
+
+[907.98 - 913.019] automatically and then I set it to to go
+
+[911.16 - 914.76] overnight it worked for about eight
+
+[913.019 - 916.5600000000001] hours straight while I was asleep and I
+
+[914.76 - 918.959] came back the next morning all of my
+
+[916.56 - 921.0] servers had been patched and rebooted
+
+[918.959 - 923.9399999999999] um and and yeah so I did this back in
+
+[921.0 - 926.639] like 2015 so this is like old hat for me
+
+[923.94 - 929.4590000000001] and so the automation process of five
+
+[926.639 - 931.92] simple steps like this is like pretty
+
+[929.459 - 933.06] basic now obviously if you've been
+
+[931.92 - 934.26] following my work you know that I'm
+
+[933.06 - 936.5999999999999] working on something that is fully
+
+[934.26 - 939.18] autonomous and should be able to do this
+
+[936.6 - 940.74] entirely on its own with the simple
+
+[939.18 - 942.4799999999999] mission of achieve the best health
+
+[940.74 - 944.639] outcome for the patient
+
+[942.48 - 946.32] um as the mission but what I wanted to
+
+[944.639 - 948.0] show is that for a more structured
+
+[946.32 - 950.82] approach for something that could be
+
+[948.0 - 952.26] adapted to be a clinical tool today this
+
+[950.82 - 954.839] is something that is within the realm of
+
+[952.26 - 957.42] possibilities another major Gap from
+
+[954.839 - 961.86] this tool is again we don't really know
+
+[957.42 - 964.62] how chat GPT will identify things
+
+[961.86 - 966.72] so uh there's a rule of thumb in in the
+
+[964.62 - 968.88] medical community which common problems
+
+[966.72 - 971.339] are common and so you know transient
+
+[968.88 - 972.54] ischemic attack and epilepsy these are
+
+[971.339 - 974.22] common conditions that pretty much
+
+[972.54 - 975.959] everyone knows about
+
+[974.22 - 978.0] um it does it does mention a few other
+
+[975.959 - 981.42] possibilities like syncope migraine
+
+[978.0 - 983.04] metabolic disorders uh panic attacks uh
+
+[981.42 - 984.62] you know that sort of thing so it does
+
+[983.04 - 987.48] it does pick up on a few other things
+
+[984.62 - 989.279] but what one thing that is lacking from
+
+[987.48 - 992.94] this system is it doesn't I haven't
+
+[989.279 - 994.8] basically uh focused on differentials or
+
+[992.94 - 997.259] rare conditions but that would be pretty
+
+[994.8 - 999.18] easy as an additional step
+
+[997.259 - 1000.62] um so basically you you I what I would
+
+[999.18 - 1003.079] do for that is I would just plug in the
+
+[1000.62 - 1005.54] notes and say hey
+
+[1003.079 - 1007.399] um like based on these like here's the
+
+[1005.54 - 1008.8389999999999] common things we know about what are the
+
+[1007.399 - 1010.699] rare things what are the differentials
+
+[1008.839 - 1011.9590000000001] that we might be ignoring
+
+[1010.699 - 1013.88] um and so that would be a relatively
+
+[1011.959 - 1016.699] easy thing to add but you don't
+
+[1013.88 - 1018.38] necessarily want to count on that only
+
+[1016.699 - 1020.3599999999999] um which is why I ended it with
+
+[1018.38 - 1022.9399999999999] referrals and follow-up tests because
+
+[1020.36 - 1024.8600000000001] that's a responsible thing to do anyways
+
+[1022.94 - 1026.3600000000001] um you know patients are going to be
+
+[1024.86 - 1028.4589999999998] intrinsically unaware of some of the
+
+[1026.36 - 1030.26] things going on inside their bodies so
+
+[1028.459 - 1032.1200000000001] anyways let's um now that you understand
+
+[1030.26 - 1034.04] kind of what's going on here let's let's
+
+[1032.12 - 1037.28] explore the Repository
+
+[1034.04 - 1039.62] so I have a gigantic medical device
+
+[1037.28 - 1041.0] disclaimer here on the on the front
+
+[1039.62 - 1042.4389999999999] um just because again I need to drive
+
+[1041.0 - 1044.78] home the point that this is provided
+
+[1042.439 - 1046.1000000000001] under the MIT license which is a highly
+
+[1044.78 - 1048.02] permissive
+
+[1046.1 - 1050.1789999999999] um open source license this is for
+
+[1048.02 - 1052.16] experimental purposes only uh
+
+[1050.179 - 1054.919] demonstration purposes only so on and so
+
+[1052.16 - 1056.78] forth okay so how do you how do you use
+
+[1054.919 - 1059.0] this though how do you run it basically
+
+[1056.78 - 1061.22] you just run chat dot pi and it'll take
+
+[1059.0 - 1062.96] it'll it'll do the rest from there once
+
+[1061.22 - 1064.94] you're done you just type in done in all
+
+[1062.96 - 1067.76] caps and it'll move on to the rest of
+
+[1064.94 - 1069.919] the of the procedure of the workflow
+
+[1067.76 - 1071.299] um so the chat dot Pi is a very very
+
+[1069.919 - 1074.0590000000002] simple
+
+[1071.299 - 1075.9189999999999] um you know basic chat bot and then it
+
+[1074.059 - 1077.1789999999999] goes through a few steps it's really
+
+[1075.919 - 1079.3400000000001] repetitive it just loads different
+
+[1077.179 - 1082.22] system messages and pipes the right
+
+[1079.34 - 1083.78] information and all of the information
+
+[1082.22 - 1087.44] that gets piped into those system
+
+[1083.78 - 1089.66] messages are are logged in the logs and
+
+[1087.44 - 1091.46] so the log files are saved in sequential
+
+[1089.66 - 1093.3200000000002] order so there's the chat there's the
+
+[1091.46 - 1094.94] notes there's the diagnostic hypotheses
+
+[1093.32 - 1096.4399999999998] there's the clinic medical examination
+
+[1094.94 - 1098.6000000000001] and then finally there's the referrals
+
+[1096.44 - 1100.3400000000001] this end to end the longest thing is
+
+[1098.6 - 1103.1599999999999] actually the chat um and then it takes
+
+[1100.34 - 1106.28] about 60 to 120 seconds for the rest of
+
+[1103.16 - 1107.96] it to generate um and say like hey you
+
+[1106.28 - 1109.3999999999999] know here's here's the clinical thing
+
+[1107.96 - 1110.539] and here's some referrals that we might
+
+[1109.4 - 1114.38] do
+
+[1110.539 - 1116.66] uh the idea here is you know for uh if
+
+[1114.38 - 1119.5390000000002] if I were to design a product for this
+
+[1116.66 - 1121.28] today and where would I deploy it I
+
+[1119.539 - 1124.34] would I would aim this at um
+
+[1121.28 - 1126.3799999999999] disempowered or uh or underserved
+
+[1124.34 - 1127.82] communities maybe not even necessarily
+
+[1126.38 - 1129.2600000000002] in America or Europe but there are
+
+[1127.82 - 1131.12] plenty of underserved communities all
+
+[1129.26 - 1133.7] around the world that don't have access
+
+[1131.12 - 1135.9799999999998] to high quality health care and or they
+
+[1133.7 - 1137.9] might have a shortage of of clinicians
+
+[1135.98 - 1140.66] and so this could this could definitely
+
+[1137.9 - 1142.64] like offload uh a lot of the work and
+
+[1140.66 - 1144.3200000000002] then you have the experienced clinicians
+
+[1142.64 - 1146.3600000000001] that basically like take a look at it
+
+[1144.32 - 1148.28] sign off and say like yes this seems
+
+[1146.36 - 1149.4799999999998] reasonable or go this way instead or
+
+[1148.28 - 1152.539] whatever
+
+[1149.48 - 1154.22] um okay so then I've got all of these
+
+[1152.539 - 1156.74] um all of the system messages saved as
+
+[1154.22 - 1158.3600000000001] markdown files so you can take a look at
+
+[1156.74 - 1160.46] these and you can see like it's actually
+
+[1158.36 - 1162.08] relatively straightforward this is the
+
+[1160.46 - 1164.419] system message that I use for the chat
+
+[1162.08 - 1166.46] bot so Mission you're a patient intake
+
+[1164.419 - 1167.7800000000002] chatbot focusing on symptoms your
+
+[1166.46 - 1169.16] mission is to ask questions to help a
+
+[1167.78 - 1171.32] patient fully articulate their symptoms
+
+[1169.16 - 1172.8200000000002] in a clear manner you're trying your
+
+[1171.32 - 1174.2] chat transcript will be all will
+
+[1172.82 - 1176.1789999999999] ultimately be translated into chart
+
+[1174.2 - 1179.059] notes so I'm just giving it just enough
+
+[1176.179 - 1182.179] context so it knows what its purpose is
+
+[1179.059 - 1184.76] and where in the process it is operating
+
+[1182.179 - 1186.919] I had to add a second thing for rules
+
+[1184.76 - 1189.44] because if you don't add like ask one
+
+[1186.919 - 1190.94] question at a time it'll list like 10
+
+[1189.44 - 1193.16] questions and I'm like chat GPT
+
+[1190.94 - 1194.9] seriously you're not like clinicians are
+
+[1193.16 - 1196.94] not going to Rattle off like 10
+
+[1194.9 - 1198.38] questions in a row so I said ask only
+
+[1196.94 - 1200.48] one question at a time provide some
+
+[1198.38 - 1202.0390000000002] context or clarification or on the
+
+[1200.48 - 1203.6] follow-up questions you ask and then I
+
+[1202.039 - 1205.64] said do not converse with the patient
+
+[1203.6 - 1207.86] and the reason I had to add add this one
+
+[1205.64 - 1209.72] is because it would say I'm sorry you're
+
+[1207.86 - 1212.0] feeling that way let's invest I'm like
+
+[1209.72 - 1216.38] no just ask the freaking questions
+
+[1212.0 - 1218.179] so um uh this that this resulted in the
+
+[1216.38 - 1219.919] in the the style and tone that you see
+
+[1218.179 - 1221.24] here where it says I understand your
+
+[1219.919 - 1222.8600000000001] concern can you please describe it so
+
+[1221.24 - 1224.419] it's just it's really down to Basics
+
+[1222.86 - 1226.58] thank you for sharing can you tell me
+
+[1224.419 - 1227.7800000000002] more about the fall you know just No
+
+[1226.58 - 1231.02] Nonsense
+
+[1227.78 - 1233.66] um just very direct very straightforward
+
+[1231.02 - 1235.4] um the second part is the prepare notes
+
+[1233.66 - 1236.72] um so Mission you're a charting bot that
+
+[1235.4 - 1238.1000000000001] will be given a patient intake
+
+[1236.72 - 1239.96] transcription
+
+[1238.1 - 1241.6399999999999] um you are to translate the chat log
+
+[1239.96 - 1243.6200000000001] um into thorough medical notes for the
+
+[1241.64 - 1246.14] physician so again I'm telling it where
+
+[1243.62 - 1248.7199999999998] in the process it is and what the
+
+[1246.14 - 1251.1200000000001] context is and it knows enough I don't
+
+[1248.72 - 1252.679] have to tell it exactly what to do I
+
+[1251.12 - 1254.84] just say this is this is where in the
+
+[1252.679 - 1256.5800000000002] process and it kind of understands I did
+
+[1254.84 - 1257.78] give it an interaction schema here which
+
+[1256.58 - 1259.58] says the user will give you the
+
+[1257.78 - 1261.5] transcription your output will be a
+
+[1259.58 - 1263.059] hyphenated list of notes make sure you
+
+[1261.5 - 1264.679] capture the symptoms and any saline
+
+[1263.059 - 1266.84] information in an orderly and structured
+
+[1264.679 - 1268.16] manner so again I added this just so
+
+[1266.84 - 1270.32] that it would be consistent I say
+
+[1268.16 - 1272.48] generate notes and so in this case the
+
+[1270.32 - 1274.34] notes you see it follows this format
+
+[1272.48 - 1277.16] where it's just a list of hyphenated
+
+[1274.34 - 1279.62] notes No Nonsense no fluff nothing extra
+
+[1277.16 - 1281.299] it captures everything in as few words
+
+[1279.62 - 1283.82] as possible
+
+[1281.299 - 1285.3799999999999] then for the diagnostic part this one is
+
+[1283.82 - 1286.76] a little bit different so Mission your
+
+[1285.38 - 1288.14] medical note spot that will be given a
+
+[1286.76 - 1290.24] chart or symptoms of a patient shortly
+
+[1288.14 - 1292.22] after intake again give it some context
+
+[1290.24 - 1293.84] you will generate a list of most likely
+
+[1292.22 - 1295.7] diagnostic or Avenues of Investigation
+
+[1293.84 - 1297.9189999999999] for the physician to follow up on so
+
+[1295.7 - 1299.48] again I'm telling it like come up with
+
+[1297.919 - 1302.72] some medical hypotheses I could have
+
+[1299.48 - 1305.3600000000001] used the term hypotheses but when you
+
+[1302.72 - 1307.22] when you use the word hypothesis my fear
+
+[1305.36 - 1308.36] there is that chat GPT will think that
+
+[1307.22 - 1311.0] like it's more of a scientific
+
+[1308.36 - 1314.059] hypothesis but I said most likely
+
+[1311.0 - 1315.38] diagnosis or Avenues of Investigation so
+
+[1314.059 - 1316.82] interaction scheme of the user will give
+
+[1315.38 - 1318.44] you medical notes you will you'll
+
+[1316.82 - 1320.8999999999999] generate a report with the following
+
+[1318.44 - 1322.0] format so here's a report format a
+
+[1320.9 - 1325.3400000000001] description of the condition
+
+[1322.0 - 1326.659] Alternatives so on and so forth yep so
+
+[1325.34 - 1328.28] you have that it's real it's very
+
+[1326.659 - 1331.159] straightforward also this isn't
+
+[1328.28 - 1333.08] rendering correctly this is weird so
+
+[1331.159 - 1335.2990000000002] let's zoom in I'm not sure why it's not
+
+[1333.08 - 1337.22] rendering correctly in um in markdown
+
+[1335.299 - 1340.039] but you see like potential diagnosis in
+
+[1337.22 - 1342.14] all caps description of the condition we
+
+[1340.039 - 1343.52] see that that format reflected here when
+
+[1342.14 - 1345.5] we come here where you see transient
+
+[1343.52 - 1347.299] ischemic attack differentials
+
+[1345.5 - 1348.799] demographics symptoms indicators so on
+
+[1347.299 - 1349.94] and so forth
+
+[1348.799 - 1351.98] um yeah I don't know what was going on
+
+[1349.94 - 1353.78] with GitHub it freezes up sometimes hey
+
+[1351.98 - 1355.22] GitHub had a senior moment we need to
+
+[1353.78 - 1357.2] diagnose GitHub
+
+[1355.22 - 1358.76] um okay so that was the that was the the
+
+[1357.2 - 1360.679] diagnostic part
+
+[1358.76 - 1362.72] um coming back out here the clinical
+
+[1360.679 - 1365.299] part the way that this works Mission you
+
+[1362.72 - 1366.799] are Clinic you're a medical intake bot
+
+[1365.299 - 1368.6589999999999] um you are preparing for this final step
+
+[1366.799 - 1370.539] before a medical professional physician
+
+[1368.659 - 1372.679] nurse or a physician's assistant
+
+[1370.539 - 1374.48] evaluates the patient in a clinical
+
+[1372.679 - 1375.6200000000001] setting you'll be given notes from the
+
+[1374.48 - 1377.96] patient's intake as well as system
+
+[1375.62 - 1379.4599999999998] generated diagnostic Avenues in order to
+
+[1377.96 - 1380.78] prepare some clinical recommendations to
+
+[1379.46 - 1383.0] evaluate the patient keep in mind that
+
+[1380.78 - 1384.86] this is a primary care visit so I had to
+
+[1383.0 - 1386.48] add the primary care visit because it
+
+[1384.86 - 1388.52] was like trying to jump ahead to like
+
+[1386.48 - 1390.74] MRIs and stuff and I'm like no this this
+
+[1388.52 - 1391.94] is just like basic stuff like you're not
+
+[1390.74 - 1393.799] gonna you're not gonna be like
+
+[1391.94 - 1395.419] immediately trundled off to an MRI at
+
+[1393.799 - 1397.82] least not in America
+
+[1395.419 - 1399.26] um on a on a primary care visit in
+
+[1397.82 - 1401.6] countries with more sophisticated
+
+[1399.26 - 1403.64] Medical Systems it's I've actually heard
+
+[1401.6 - 1405.74] stories where like someone went to their
+
+[1403.64 - 1407.7800000000002] primary care for like a lump in their
+
+[1405.74 - 1409.82] breast and like immediately was taken
+
+[1407.78 - 1413.059] across the hall to a mammogram so it's
+
+[1409.82 - 1414.559] like okay like in an ideal situation yes
+
+[1413.059 - 1417.5] you would just immediately go right over
+
+[1414.559 - 1419.1789999999999] to whatever medical device you need to
+
+[1417.5 - 1421.159] but we're going to follow kind of the
+
+[1419.179 - 1423.02] Amer the American Paradigm which is
+
+[1421.159 - 1425.8400000000001] deliberately inefficient go figure
+
+[1423.02 - 1427.76] thanks insurance companies we hate you
+
+[1425.84 - 1429.32] um okay so senses so basically I say
+
+[1427.76 - 1431.539] like you know you're gonna pay attention
+
+[1429.32 - 1433.28] to all of your senses as part of the uh
+
+[1431.539 - 1435.44] as part of the clinical test obviously
+
+[1433.28 - 1437.12] this is not for chat GPT this is to
+
+[1435.44 - 1438.38] recommend to the clinician
+
+[1437.12 - 1439.58] um the clinical examination and
+
+[1438.38 - 1441.74] interview questions I already kind of
+
+[1439.58 - 1443.84] showed you all this in great detail
+
+[1441.74 - 1446.48] um but here is what it looks like in the
+
+[1443.84 - 1447.98] system message so I say like here's you
+
+[1446.48 - 1449.299] know here's the examination technique
+
+[1447.98 - 1450.98] here's the description of what to look
+
+[1449.299 - 1452.179] for and why it's probative
+
+[1450.98 - 1453.919] um your probative purpose of the
+
+[1452.179 - 1456.5] question in all caps and then suggested
+
+[1453.919 - 1457.5800000000002] question and there you have it and then
+
+[1456.5 - 1459.86] finally
+
+[1457.58 - 1461.6] um the referrals so the referrals part
+
+[1459.86 - 1463.28] again very straightforward your clinical
+
+[1461.6 - 1465.02] medical bot you'll be given medical
+
+[1463.28 - 1467.0] notes charts your primary job is to
+
+[1465.02 - 1468.74] recommend specialist referrals and or
+
+[1467.0 - 1470.48] follow-up tests
+
+[1468.74 - 1472.22] so here's the referrals part where it
+
+[1470.48 - 1473.059] just says type of specialist in all caps
+
+[1472.22 - 1475.7] description of the workup
+
+[1473.059 - 1478.039] recommendations so on EG what are they
+
+[1475.7 - 1481.039] looking for and why and then finally the
+
+[1478.039 - 1482.84] types of labs and tests so type of lab
+
+[1481.039 - 1484.28] work type of tests
+
+[1482.84 - 1485.48] um so on and so forth and just kind of
+
+[1484.28 - 1487.28] describe like this is what you're going
+
+[1485.48 - 1488.6] to send out and this would be this
+
+[1487.28 - 1491.059] information would be handed to the
+
+[1488.6 - 1493.2199999999998] clinical staff in order to follow up for
+
+[1491.059 - 1495.02] the uh for the patient but rather than
+
+[1493.22 - 1496.52] have the physician do all of this it's
+
+[1495.02 - 1498.799] completely automated so the physician
+
+[1496.52 - 1501.02] all they have to do is sign off on it
+
+[1498.799 - 1503.0] um and if they agree or disagree they
+
+[1501.02 - 1504.86] can add some notes as to why but
+
+[1503.0 - 1508.4] basically like this could be integrated
+
+[1504.86 - 1509.26] into epic or Cerner or any other of uh
+
+[1508.4 - 1511.8200000000002] you know
+
+[1509.26 - 1514.7] medical software provided companies
+
+[1511.82 - 1516.4399999999998] right now today because this is
+
+[1514.7 - 1519.2] basically how those medical software's
+
+[1516.44 - 1522.2] already work this is just adding llms as
+
+[1519.2 - 1524.179] a layer to increase the power of those
+
+[1522.2 - 1525.5] things so yeah I think that's about it
+
+[1524.179 - 1528.3200000000002] you've seen the whole thing the whole
+
+[1525.5 - 1529.46] repo is relatively straightforward
+
+[1528.32 - 1531.5] um I've got the readme I've got the
+
+[1529.46 - 1533.059] license I've got the demo log so you can
+
+[1531.5 - 1534.74] take a look for yourself
+
+[1533.059 - 1538.1589999999999] um but yeah it's just a very linear
+
+[1534.74 - 1540.44] workflow of information with the goal of
+
+[1538.159 - 1542.779] streamlining Medical Care
+
+[1540.44 - 1544.64] um again like take all of this with a
+
+[1542.779 - 1546.919] grain of salt there are some enormous
+
+[1544.64 - 1549.2] limitations I would love to partner with
+
+[1546.919 - 1552.5] someone whether a university or medical
+
+[1549.2 - 1555.38] research or even Government research in
+
+[1552.5 - 1559.039] order to explore making this more robust
+
+[1555.38 - 1560.2990000000002] and exploring its efficacy and and if it
+
+[1559.039 - 1561.98] actually helps clinical settings because
+
+[1560.299 - 1565.1589999999999] here's the thing you can have something
+
+[1561.98 - 1567.02] that works in theory but if the tool is
+
+[1565.159 - 1570.2600000000002] not helpful then the clinicians won't
+
+[1567.02 - 1572.84] use it or if it if it's actually harder
+
+[1570.26 - 1575.179] to use and and more distracting and
+
+[1572.84 - 1577.1589999999999] actually decreases medical outcomes that
+
+[1575.179 - 1578.8400000000001] would be bad but I would love to see
+
+[1577.159 - 1580.94] something like this being implemented
+
+[1578.84 - 1582.62] sooner rather than later and I think
+
+[1580.94 - 1585.2] that we could both increase medical
+
+[1582.62 - 1589.12] increase the quality of patient outcomes
+
+[1585.2 - 1590.659] and decrease the cost of of clinical
+
+[1589.12 - 1592.9399999999998] practices
+
+[1590.659 - 1596.2] so I think that's about it thanks for
+
+[1592.94 - 1596.2] watching cheers have a good one

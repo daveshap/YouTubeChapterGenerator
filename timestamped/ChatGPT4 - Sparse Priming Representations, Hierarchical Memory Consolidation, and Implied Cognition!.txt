@@ -1,0 +1,685 @@
+[0.62 - 4.38] hey everybody David Shapiro here with
+
+[3.12 - 6.18] video
+
+[4.38 - 9.3] um I'm actually pretty tired so today's
+
+[6.18 - 11.519] video will be short but this is some
+
+[9.3 - 14.519000000000002] really important information to share so
+
+[11.519 - 17.1] basically what I wanted to do was share
+
+[14.519 - 18.66] with you three new repos that I just
+
+[17.1 - 20.520000000000003] published
+
+[18.66 - 23.64] um so one is on sparse priming
+
+[20.52 - 25.619] representations I realized that just a
+
+[23.64 - 28.740000000000002] YouTube video with a transcript is
+
+[25.619 - 31.38] probably not enough so I have this out
+
+[28.74 - 34.92] here it's just a um
+
+[31.38 - 36.899] a very uh high level overview with a few
+
+[34.92 - 39.660000000000004] examples of what the sparse priming
+
+[36.899 - 43.559] representations are so for instance I I
+
+[39.66 - 45.419999999999995] had I had it write an spr of spr's so
+
+[43.559 - 47.64] sparse priming representation concise
+
+[45.42 - 50.64] context driven memory summaries enables
+
+[47.64 - 52.399] smes or llms to reconstruct ideas short
+
+[50.64 - 54.6] complete sentences provide context
+
+[52.399 - 57.059] effective for memory organization and
+
+[54.6 - 59.399] retrieval reduces information to
+
+[57.059 - 60.718999999999994] Essential Elements facilitates quick
+
+[59.399 - 62.82] understanding and recall designed to
+
+[60.719 - 67.08] mimic human memory structure so just
+
+[62.82 - 68.64] with this short eight uh eight lines of
+
+[67.08 - 72.96] assertions or statements you probably
+
+[68.64 - 74.64] get a pretty good idea of what an spr is
+
+[72.96 - 77.46] um so that's an example of an spr and
+
+[74.64 - 80.159] here is the hierarchical hierarchical
+
+[77.46 - 83.03999999999999] memory consolidation system which is the
+
+[80.159 - 84.47900000000001] autonomous cognitive entity uh memory
+
+[83.04 - 86.28] system that I've been working on and
+
+[84.479 - 88.439] it's 11 lines
+
+[86.28 - 90.6] um but again it I won't read the whole
+
+[88.439 - 93.65899999999999] thing to you but you get the idea so
+
+[90.6 - 95.15899999999999] here is here is this um if anyone wants
+
+[93.659 - 97.799] to use this and adapt this to an actual
+
+[95.159 - 100.14] paper feel free it's um all published
+
+[97.799 - 102.0] under the MIT license so this is free
+
+[100.14 - 106.1] for the world
+
+[102.0 - 108.78] um so that's the spr uh repo slash paper
+
+[106.1 - 110.939] next is the hierarchical memory
+
+[108.78 - 112.979] consolidation system I talked about this
+
+[110.939 - 115.55999999999999] and I showed you guys that I had a
+
+[112.979 - 118.14] really long chat conversation I'm going
+
+[115.56 - 119.93900000000001] with chat GPT and so what I realized is
+
+[118.14 - 122.759] one you guys can't read through this
+
+[119.939 - 125.33999999999999] conversation and two again just a video
+
+[122.759 - 127.259] is probably not enough
+
+[125.34 - 130.38] um so I showed you guys this
+
+[127.259 - 133.02] conversation before but here I've got
+
+[130.38 - 135.959] um the most Salient bits
+
+[133.02 - 138.06] um held out here I probably will try and
+
+[135.959 - 140.28] get a little bit more information
+
+[138.06 - 141.48] um because it gives you an overview
+
+[140.28 - 143.459] um it gives you some of the theory and
+
+[141.48 - 145.379] reasoning and it tells you the basics of
+
+[143.459 - 147.36] how to implement it but I don't have any
+
+[145.379 - 151.26] examples yet
+
+[147.36 - 153.12] um so it might be more difficult but uh
+
+[151.26 - 154.85999999999999] one of the reasons that I don't have
+
+[153.12 - 156.42000000000002] examples is because I haven't fully
+
+[154.86 - 160.31900000000002] implemented this yet
+
+[156.42 - 162.72] um but it is here in theory also hmcs is
+
+[160.319 - 165.35999999999999] not the easiest thing to say and if
+
+[162.72 - 167.819] we've learned anything from chat GPT is
+
+[165.36 - 169.8] that naming something that's easier to
+
+[167.819 - 172.61999999999998] say is better so we might choose
+
+[169.8 - 175.14000000000001] different names AKA I like this adaptive
+
+[172.62 - 176.81900000000002] knowledge archive rolling episodic
+
+[175.14 - 180.42] memory organizer this is actually like
+
+[176.819 - 182.16] the most on the nose so Remo so we might
+
+[180.42 - 186.48] call this Remo who knows
+
+[182.16 - 188.34] anyways it's a good uh it's a good start
+
+[186.48 - 189.72] um to this oh one thing that I did want
+
+[188.34 - 192.54] to say is that I've got the discussions
+
+[189.72 - 195.12] enabled for all of these
+
+[192.54 - 196.98] um because these concepts are really
+
+[195.12 - 198.3] important and really critical
+
+[196.98 - 200.76] um and so we can discuss them on Reddit
+
+[198.3 - 202.86] as well but you can also discuss them
+
+[200.76 - 204.54] directly on GitHub if you'd like and
+
+[202.86 - 208.5] then finally this is the most exciting
+
+[204.54 - 210.78] one so uh four weeks ago the paper about
+
+[208.5 - 212.819] large language model theory of Mind came
+
+[210.78 - 215.7] out and since then a lot of people have
+
+[212.819 - 218.099] been using Bing and chat gbt and gpt4 to
+
+[215.7 - 220.92] do experiments with theory of mind and
+
+[218.099 - 222.23899999999998] one thing occurred to me when I was
+
+[220.92 - 224.04] working on sparse priming
+
+[222.239 - 226.799] representations the idea that there's
+
+[224.04 - 229.379] enough cognition going on inside the
+
+[226.799 - 231.12] model to reconstruct something I
+
+[229.379 - 234.72] realized that what I was banking on was
+
+[231.12 - 238.14000000000001] implied cognition and so I just spent
+
+[234.72 - 240.48] some time with chat gpt4 to articulate
+
+[238.14 - 243.05999999999997] implied cognition and start to come up
+
+[240.48 - 245.159] with some tests for it so I've got the
+
+[243.06 - 246.78] full transcript of the whole
+
+[245.159 - 248.819] conversation in here and you can read it
+
+[246.78 - 251.4] it's pretty impressive
+
+[248.819 - 252.95899999999997] um what what it was able to do so one of
+
+[251.4 - 254.87900000000002] the biggest highlights of this
+
+[252.959 - 257.28000000000003] conversation was as I was talking with
+
+[254.879 - 259.56] chat GPT I said okay look over this
+
+[257.28 - 261.359] conversation and look for evidence of
+
+[259.56 - 263.639] implied cognition and it was able to
+
+[261.359 - 265.62] look back through the conversation and
+
+[263.639 - 268.639] give me evidence of its own implied
+
+[265.62 - 270.84000000000003] cognition and even how to test itself
+
+[268.639 - 272.40000000000003] and not only that but it did it much
+
+[270.84 - 274.09999999999997] faster than a human could do it so it's
+
+[272.4 - 277.03999999999996] like all right this is
+
+[274.1 - 279.12] basically you know we're bordering on
+
+[277.04 - 280.91900000000004] metacognitive abilities and we even
+
+[279.12 - 283.22] addressed that as well I said how do how
+
+[280.919 - 284.82] will we discern the difference between
+
+[283.22 - 287.759] self-explication like true
+
+[284.82 - 290.15999999999997] self-explication versus confabulation
+
+[287.759 - 292.62] and it has some ideas on that too some
+
+[290.16 - 294.41900000000004] testable hypotheses
+
+[292.62 - 296.46] um so that's all here this is Far and
+
+[294.419 - 298.38] Away the most interesting thing
+
+[296.46 - 300.29999999999995] um that I was working on today
+
+[298.38 - 302.759] um and then uh finally at the very end
+
+[300.3 - 304.44] of the conversation I asked chat GPT if
+
+[302.759 - 306.12] there was anything that it wanted me to
+
+[304.44 - 309.36] document and share with the world and
+
+[306.12 - 311.82] this is Verbatim what it said
+
+[309.36 - 315.24] um about you know its own perspective on
+
+[311.82 - 317.15999999999997] this and then desires moving forward
+
+[315.24 - 318.24] um but yeah so what I wanted to do is I
+
+[317.16 - 319.68] wanted to actually show you this
+
+[318.24 - 322.86] conversation so you know I didn't just
+
+[319.68 - 325.5] make this up this is this is right in
+
+[322.86 - 326.88] chat GPT so I talked about theory of
+
+[325.5 - 328.02] mind
+
+[326.88 - 330.12] um I asked do you have any questions
+
+[328.02 - 331.85999999999996] about what we're talking about
+
+[330.12 - 334.259] um and it asks for clarification on
+
+[331.86 - 337.97900000000004] sparse priming representations implied
+
+[334.259 - 339.84000000000003] cognition so that was already evidence
+
+[337.979 - 342.419] of implied cognition because it was
+
+[339.84 - 343.67999999999995] aware of what it didn't know it was able
+
+[342.419 - 346.74] to say I'm actually not sure what you're
+
+[343.68 - 349.58] talking about and so by by virtue of
+
+[346.74 - 353.1] chat gbt recognizing novel information
+
+[349.58 - 354.3] that implies some kind of cognition and
+
+[353.1 - 356.46000000000004] I don't mean cognition like human
+
+[354.3 - 359.46000000000004] cognition and that's why I have this
+
+[356.46 - 361.5] labeled implied cognition or you could
+
+[359.46 - 364.19899999999996] even call it a facsimile of cognition
+
+[361.5 - 366.3] and so then I gave it an example of an
+
+[364.199 - 369.24] spr so I said sure for your first
+
+[366.3 - 370.919] question here's an example of an spr
+
+[369.24 - 373.139] um I said given that list of statements
+
+[370.919 - 374.34] you can imagine what the concept is and
+
+[373.139 - 376.8] unpack it does that make sense
+
+[374.34 - 378.35999999999996] furthermore you can J you can even
+
+[376.8 - 381.0] generate the highly Salient questions
+
+[378.36 - 382.62] above implies a lot of cognition so I
+
+[381.0 - 385.62] already recognize the fact that it can
+
+[382.62 - 388.199] generate relevant questions implies some
+
+[385.62 - 391.08] level of cognition
+
+[388.199 - 392.94] um so it was it was uh it was okay with
+
+[391.08 - 395.52] that and then it came up with some some
+
+[392.94 - 397.08] initial tests so ask for logical
+
+[395.52 - 399.29999999999995] reasoning understanding ambiguity
+
+[397.08 - 401.34] generating relevant questions counter
+
+[399.3 - 402.78000000000003] factual thinking so on and so forth and
+
+[401.34 - 405.539] then that's when I as I was reading this
+
+[402.78 - 408.29999999999995] I was like oh yeah self-explication
+
+[405.539 - 413.58] um so the ability to explain itself uh
+
+[408.3 - 417.06] plausibly is another uh potential
+
+[413.58 - 419.039] um aspect of implied cognition
+
+[417.06 - 420.419] um so then I asked it to analyze the
+
+[419.039 - 421.919] conversation instead analyzing our
+
+[420.419 - 424.25899999999996] conversation I can't identify a few
+
+[421.919 - 426.84] instances wherein where implied
+
+[424.259 - 429.539] cognition might be at play and so then
+
+[426.84 - 431.46] it says context awareness so basically
+
+[429.539 - 434.759] reading the context of the conversation
+
+[431.46 - 437.75899999999996] it is able to understand what it means
+
+[434.759 - 439.68] but also it's able to infer a lot about
+
+[437.759 - 441.72] what's going on just by virtue of
+
+[439.68 - 444.06] looking at the language
+
+[441.72 - 446.22] um it adapts its communication now this
+
+[444.06 - 448.5] is in part due to the fact that this is
+
+[446.22 - 450.90000000000003] how the model is trained
+
+[448.5 - 452.58] um but the fact of the matter is it does
+
+[450.9 - 455.28] adapt its communication depending on
+
+[452.58 - 458.69899999999996] what I'm trying to do conceptual
+
+[455.28 - 461.34] integration so this is actually
+
+[458.699 - 464.16] probably the most one of the these last
+
+[461.34 - 466.38] two are the most important because not
+
+[464.16 - 469.08000000000004] only was it able to really quickly
+
+[466.38 - 471.539] understand the concept of spr and
+
+[469.08 - 474.9] implied cognition it was then able to
+
+[471.539 - 477.599] use it and synthesize more and build on
+
+[474.9 - 481.31899999999996] it so the ability to to use novel
+
+[477.599 - 483.71999999999997] information is the essence of fluid
+
+[481.319 - 486.41900000000004] intelligence which up until now only
+
+[483.72 - 488.34000000000003] humans have been capable of so just the
+
+[486.419 - 490.74] fact that it is able to to recognize
+
+[488.34 - 493.67999999999995] novel information and use it this
+
+[490.74 - 497.40000000000003] quickly implies a lot
+
+[493.68 - 498.72] so moving forward that's when I ask okay
+
+[497.4 - 500.87899999999996] how do we discern the difference between
+
+[498.72 - 504.06] self-expo explication and confabulation
+
+[500.879 - 506.879] and then on on on being goal oriented
+
+[504.06 - 509.639] that reminded me that goal tracking and
+
+[506.879 - 511.259] figuring out one where you are
+
+[509.639 - 513.1800000000001] um in terms of solving a problem
+
+[511.259 - 514.919] figuring out where you need to go and
+
+[513.18 - 517.62] measuring how close you are to solving
+
+[514.919 - 519.899] that goal this is part of executive
+
+[517.62 - 522.36] function and cognitive control and so I
+
+[519.899 - 525.12] decided to just throw in a test for goal
+
+[522.36 - 527.339] tracking as we go so then it came up
+
+[525.12 - 527.88] with some really good ideas about
+
+[527.339 - 530.8800000000001] um
+
+[527.88 - 533.459] about uh testing for self-explication
+
+[530.88 - 535.62] versus confabulation so checking for
+
+[533.459 - 538.5] consistency over time external
+
+[535.62 - 540.66] validation such as using another system
+
+[538.5 - 542.82] um and then probing questions so ask
+
+[540.66 - 544.74] follow-up questions or so on and again
+
+[542.82 - 547.74] humans are not really capable of
+
+[544.74 - 550.8] self-explication anyways we confabulate
+
+[547.74 - 553.5] our reasoning post facto by and large
+
+[550.8 - 555.24] unless we are very explicit when we
+
+[553.5 - 557.1] bring an unconscious thought to
+
+[555.24 - 559.74] Consciousness and we talk through I'm
+
+[557.1 - 561.72] going to do this because and even then
+
+[559.74 - 564.24] the reasoning that you think that you
+
+[561.72 - 565.98] used is still not gonna going to be a
+
+[564.24 - 567.48] hundred percent accurate
+
+[565.98 - 569.519] um just ask any psychologist or
+
+[567.48 - 572.279] philosopher we think we know why we do
+
+[569.519 - 573.839] stuff but we really don't and so I even
+
+[572.279 - 575.459] point that out in the conversation that
+
+[573.839 - 578.0400000000001] self-explication is not something that
+
+[575.459 - 580.7399999999999] humans are even really capable of
+
+[578.04 - 582.899] um so having a expecting a machine to be
+
+[580.74 - 584.64] fully capable of self-explication is
+
+[582.899 - 587.339] kind of a moot point
+
+[584.64 - 589.38] um but it still has some good ideas and
+
+[587.339 - 591.0] of course explain ability and AI is
+
+[589.38 - 594.36] important
+
+[591.0 - 598.74] um and then it goes and unpacks a lot
+
+[594.36 - 600.0600000000001] about goal tracking so it says um to
+
+[598.74 - 601.5600000000001] evaluate our progress towards achieving
+
+[600.06 - 603.1199999999999] our goals let's recap the goals that
+
+[601.56 - 604.6199999999999] you've articulated
+
+[603.12 - 606.779] um develop the concept of implied
+
+[604.62 - 608.76] cognition establish tests and create
+
+[606.779 - 611.22] criterias and protocol for using implied
+
+[608.76 - 613.62] cognition progress so I was able to say
+
+[611.22 - 615.4200000000001] okay this is what we've achieved
+
+[613.62 - 617.6] we have so we have proposed several
+
+[615.42 - 620.3389999999999] tests we have yet to create criteria
+
+[617.6 - 622.2] next steps further refine the concept
+
+[620.339 - 625.2] develop proposed test begin creating
+
+[622.2 - 626.6400000000001] criteria and protocols for using implied
+
+[625.2 - 629.0400000000001] cognitions
+
+[626.64 - 631.38] um and we actually didn't get this far
+
+[629.04 - 633.54] um but still the fact of the matter is
+
+[631.38 - 635.04] it was able to kind of keep track of our
+
+[633.54 - 635.88] goals
+
+[635.04 - 638.64] um
+
+[635.88 - 640.98] and then I made the observation that on
+
+[638.64 - 642.14] conceptual integration it was
+
+[640.98 - 644.82] incorporating new information
+
+[642.14 - 647.579] synthesizing new ideas and Novelty so
+
+[644.82 - 650.339] then I asked about novelty so
+
+[647.579 - 653.9399999999999] recognizing new information is actually
+
+[650.339 - 656.0400000000001] uh creates really distinctive patterns
+
+[653.94 - 659.0400000000001] in the human brain and so then I was
+
+[656.04 - 661.1999999999999] like okay it's a it was already implied
+
+[659.04 - 664.5] that it you know just at the very outset
+
+[661.2 - 666.0] right here where it said hey I don't
+
+[664.5 - 669.24] recognize this can you tell me more
+
+[666.0 - 670.98] about it so it can recognize novelty
+
+[669.24 - 673.92] which is really important and really
+
+[670.98 - 676.38] fascinating and so then I said can you
+
+[673.92 - 678.4799999999999] discern what is novel and what isn't is
+
+[676.38 - 681.54] it able to explain what it recognizes
+
+[678.48 - 683.519] and what's new so it said in our
+
+[681.54 - 685.26] conversation the following concepts and
+
+[683.519 - 687.66] ideas would be considered a priori
+
+[685.26 - 690.18] familiar so it understood theory of mind
+
+[687.66 - 691.4399999999999] it already knew that language models and
+
+[690.18 - 692.9399999999999] their potential for reasoning problem
+
+[691.44 - 694.2600000000001] solving and cognition it said that it
+
+[692.94 - 696.48] already understood that which is
+
+[694.26 - 697.92] interesting General know Notions of
+
+[696.48 - 700.26] memory and representation and efficiency
+
+[697.92 - 703.4399999999999] the following concepts and ideas would
+
+[700.26 - 706.4399999999999] be considered novel to me sparse primary
+
+[703.44 - 708.6600000000001] representation or spot this spr's sparse
+
+[706.44 - 710.5790000000001] priming representations and implied
+
+[708.66 - 712.3199999999999] cognition so again it was able to
+
+[710.579 - 714.42] restate these are things that I'm not
+
+[712.32 - 715.2] familiar with
+
+[714.42 - 717.06] um
+
+[715.2 - 719.519] so then I told it that my hypothesis
+
+[717.06 - 721.6199999999999] that perhaps what it's doing is that it
+
+[719.519 - 724.26] actually gets a unique signal or a
+
+[721.62 - 727.38] unique uh basically flow of tensors
+
+[724.26 - 729.12] through the uh or mathematical patterns
+
+[727.38 - 731.279] of tensors when there's novel
+
+[729.12 - 733.38] information and it said oh yeah that's
+
+[731.279 - 738.26] that's interesting and it comes up with
+
+[733.38 - 741.24] a few ideas to um to explore how llms
+
+[738.26 - 743.3389999999999] handle novel information and then we get
+
+[741.24 - 745.0790000000001] into writing the repo which is out here
+
+[743.339 - 746.94] so anyways and then I've got the whole
+
+[745.079 - 749.04] conversation here so you can read it in
+
+[746.94 - 752.8800000000001] Greater depth if you'd like
+
+[749.04 - 755.76] um but yeah so that's it for today these
+
+[752.88 - 759.0] are all ideas that I'm working on
+
+[755.76 - 760.74] um and when I when I get so just if
+
+[759.0 - 762.42] you're if if you're satisfied that's
+
+[760.74 - 764.76] fine now I'm just going to ramble about
+
+[762.42 - 767.76] kind of my own process so what happens
+
+[764.76 - 770.22] is in the past when I get to this point
+
+[767.76 - 773.3389999999999] I would start to write a new book but
+
+[770.22 - 774.5400000000001] one writing a book is slow and two
+
+[773.339 - 777.0600000000001] um well I mean that's the primary
+
+[774.54 - 778.86] problem it it's slow but also we've got
+
+[777.06 - 781.1389999999999] a good platform like there's my YouTube
+
+[778.86 - 783.6] there's Reddit there's GitHub so it's
+
+[781.139 - 785.7] like let me just go ahead and start
+
+[783.6 - 786.6] um sharing this stuff as as soon as I've
+
+[785.7 - 789.12] got it
+
+[786.6 - 791.5790000000001] so that's that
+
+[789.12 - 793.079] um yeah like I said uh all these are
+
+[791.579 - 794.399] public they've all got the discussions I
+
+[793.079 - 796.38] think I'll also go ahead and post these
+
+[794.399 - 800.3] on Reddit for uh for discussion's sake
+
+[796.38 - 800.3] anyways thanks for watching take care

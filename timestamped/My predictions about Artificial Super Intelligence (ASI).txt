@@ -1,0 +1,1677 @@
+[0.0 - 6.54] we are still in year one of the AI
+
+[3.0 - 8.82] Revolution I strongly suspect that 2023
+
+[6.54 - 11.639] will be recorded as the year that it all
+
+[8.82 - 15.0] started consider where we were not even
+
+[11.639 - 16.68] 12 months ago chat GPT wasn't out most
+
+[15.0 - 18.539] of you who are subscribed to this
+
+[16.68 - 22.259999999999998] channel might have been tangentially
+
+[18.539 - 24.779000000000003] aware of AI but now we are all in
+
+[22.26 - 26.220000000000002] so the question on everyone's mind or if
+
+[24.779 - 30.66] it's not on your mind it should be on
+
+[26.22 - 33.42] your mind is how far is this going to go
+
+[30.66 - 36.42] when we get super intelligence how smart
+
+[33.42 - 38.760000000000005] can it get so let's unpack this question
+
+[36.42 - 41.46] from several different angles
+
+[38.76 - 43.32] the first thing that you need to know is
+
+[41.46 - 45.480000000000004] the land hour limit so the land hour
+
+[43.32 - 47.94] limit is a hypothetical limit on the
+
+[45.48 - 50.64] Energy Efficiency for computation
+
+[47.94 - 53.64] basically this is the minimum amount of
+
+[50.64 - 56.94] energy required for computation to
+
+[53.64 - 59.94] happen uh so one thing to keep in mind
+
+[56.94 - 63.18] is that this is a hypothetical limit we
+
+[59.94 - 65.75999999999999] don't actually know but current
+
+[63.18 - 68.4] computers are about a billion times less
+
+[65.76 - 70.74000000000001] efficient than they hypothetically could
+
+[68.4 - 74.84] be so in that case the the energy
+
+[70.74 - 78.25999999999999] requirement for the land hour limit is
+
+[74.84 - 83.04] 2.85 times 10 to the negative 21 joules
+
+[78.26 - 84.96000000000001] uh per bit uh at room temperature now
+
+[83.04 - 88.2] current computers are about a billion
+
+[84.96 - 90.24] times above that and then depending on
+
+[88.2 - 92.34] how you measure human intelligence which
+
+[90.24 - 94.439] we'll get to in just a second you could
+
+[92.34 - 96.299] infer that maybe human brains are about
+
+[94.439 - 98.75899999999999] a million times more efficient than
+
+[96.299 - 100.259] current computers however I think that
+
+[98.759 - 101.7] it's completely wrong I think that we're
+
+[100.259 - 103.38] actually that our brains are are
+
+[101.7 - 105.78] actually much more powerful than that
+
+[103.38 - 108.78] and much more efficient but even even
+
+[105.78 - 110.7] still we are probably hundreds of
+
+[108.78 - 112.56] thousands of times or millions of times
+
+[110.7 - 114.299] above the land hour limit in terms of
+
+[112.56 - 117.479] our own brains
+
+[114.299 - 119.93900000000001] so this is based on the second law of
+
+[117.479 - 123.24] Thermodynamics which is entropy
+
+[119.939 - 126.17999999999999] um Quantum Computing could uh break this
+
+[123.24 - 128.099] limit and not necessarily in the fact of
+
+[126.18 - 130.44] like it's doing more calculations faster
+
+[128.099 - 132.42] just by virtue of the fact of the
+
+[130.44 - 134.76] calculations that it or the equations
+
+[132.42 - 136.61999999999998] that it is able to solve it can do it
+
+[134.76 - 139.67999999999998] without actually doing every step of the
+
+[136.62 - 141.54] way but again Quantum Computing is still
+
+[139.68 - 144.0] in its infancy so
+
+[141.54 - 145.92] keep all this in mind but the idea of
+
+[144.0 - 148.2] this slide is to just basically show
+
+[145.92 - 151.07999999999998] that like there are physical limitations
+
+[148.2 - 153.54] to the uh to the maximum speed and
+
+[151.08 - 155.87900000000002] efficiency based on the laws of physics
+
+[153.54 - 157.62] that computers can get to now of course
+
+[155.879 - 159.78] you can make bigger computers you can
+
+[157.62 - 162.48000000000002] make more computers uh you can build
+
+[159.78 - 165.66] them in parallel that sort of thing so
+
+[162.48 - 168.35999999999999] really the hypothetical maximum amount
+
+[165.66 - 171.84] of computation that we can build is
+
+[168.36 - 173.94000000000003] really really really high uh that's
+
+[171.84 - 176.28] that's the key takeaway the next thing I
+
+[173.94 - 178.56] want to talk about is quantum Computing
+
+[176.28 - 180.12] so Quantum Computing we're not going to
+
+[178.56 - 182.16] spend a whole lot of time on this but I
+
+[180.12 - 184.019] just wanted to point out that this is a
+
+[182.16 - 186.9] thing and that the race for Quantum
+
+[184.019 - 189.18] Supremacy is on and when we are talking
+
+[186.9 - 190.92000000000002] about speed speed is going to be
+
+[189.18 - 193.14000000000001] everything as we'll unpack later in this
+
+[190.92 - 196.55999999999997] video uh speed is going to actually be
+
+[193.14 - 198.659] more important than like how smart you
+
+[196.56 - 200.159] are or how big your computer is and
+
+[198.659 - 202.56] because there's a trade-off between
+
+[200.159 - 203.879] model size and model speed speed and
+
+[202.56 - 206.22] more often than not all you have to do
+
+[203.879 - 208.01899999999998] is get to a good enough point and then
+
+[206.22 - 210.0] you can conquer your enemies or take
+
+[208.019 - 211.019] over the world or win at chess or
+
+[210.0 - 213.18] whatever
+
+[211.019 - 215.459] and the reason that Quantum Computing is
+
+[213.18 - 218.22] so important to me and the reason that
+
+[215.459 - 220.739] there are like geopolitical races for
+
+[218.22 - 222.959] Quantum Supremacy is because they are so
+
+[220.739 - 225.659] much faster than classical computers at
+
+[222.959 - 229.2] solving some equations or doing certain
+
+[225.659 - 231.599] certain operations and so even if they
+
+[229.2 - 233.51899999999998] cost a lot more energy the fact that
+
+[231.599 - 235.56] they that they can solve some kinds of
+
+[233.519 - 237.84] problems millions of times faster or
+
+[235.56 - 240.599] billions of times faster means that it's
+
+[237.84 - 242.34] worth that extra energy because that
+
+[240.599 - 244.85999999999999] energy that the quantum computer takes
+
+[242.34 - 246.659] is still less energy and certainly less
+
+[244.86 - 247.799] time than it would take a classical
+
+[246.659 - 250.2] computer
+
+[247.799 - 252.72] to do the same kind of work so remember
+
+[250.2 - 254.819] that speed is everything well maybe not
+
+[252.72 - 257.16] everything but speed is really a really
+
+[254.819 - 259.38] critical factor in the race to Super
+
+[257.16 - 261.72] intelligence and how super intelligence
+
+[259.38 - 264.419] will manifest once it gets here
+
+[261.72 - 267.86] so I mentioned a little bit uh ago about
+
+[264.419 - 270.59999999999997] human brain computation
+
+[267.86 - 272.94] right now the current estimate of the
+
+[270.6 - 275.34000000000003] brain's power is one extra flop but if
+
+[272.94 - 276.96] you look through history uh the the
+
+[275.34 - 278.94] current estimation of how smart the
+
+[276.96 - 281.15999999999997] human brain is is pretty much always
+
+[278.94 - 283.199] tied to the current super computer so
+
+[281.16 - 285.6] like you know back in the 90s we thought
+
+[283.199 - 287.34000000000003] that the the the human brain was in the
+
+[285.6 - 289.74] teraflops range
+
+[287.34 - 291.11999999999995] um and then you know in the 2000s we
+
+[289.74 - 292.8] thought it was in the petaflops range
+
+[291.12 - 294.54] and now he thinks that we think it's in
+
+[292.8 - 296.699] the exit flop range why because that's
+
+[294.54 - 298.199] the size of the current supercomputer uh
+
+[296.699 - 300.54] we actually have no idea how powerful
+
+[298.199 - 301.8] the human brain is and also when you add
+
+[300.54 - 303.54] to the fact that there is the
+
+[301.8 - 305.16] possibility and there's actually plenty
+
+[303.54 - 307.32] of evidence for this already at least at
+
+[305.16 - 309.06] the neuron level that the human brain
+
+[307.32 - 310.979] exploits quantum mechanics in order to
+
+[309.06 - 312.24] do some of its processing now I'm not
+
+[310.979 - 313.25899999999996] saying that your brain is a quantum
+
+[312.24 - 314.58] computer
+
+[313.259 - 316.74] I'm not saying that it uses
+
+[314.58 - 318.65999999999997] superposition and entanglement but there
+
+[316.74 - 321.24] are people that theorize that uh that
+
+[318.66 - 323.759] the human brain does make use of quantum
+
+[321.24 - 325.56] mechanical effects so then it's entirely
+
+[323.759 - 328.08000000000004] possible that we can't even compare our
+
+[325.56 - 330.18] brains to classical computers if they
+
+[328.08 - 333.419] are able to do some level of processing
+
+[330.18 - 335.639] that is not going to be based on the Von
+
+[333.419 - 337.44] Neumann architecture again super
+
+[335.639 - 339.539] theoretical but one thing that we can do
+
+[337.44 - 341.58] is we can measure the amount of waste
+
+[339.539 - 343.919] heat that our brain generates in terms
+
+[341.58 - 345.59999999999997] of oxygen and everything else and so we
+
+[343.919 - 349.32] can estimate that our brain uses about
+
+[345.6 - 350.88] 20 watts of energy and so 20 watts is
+
+[349.32 - 353.09999999999997] relatively efficient so keep that in
+
+[350.88 - 354.84] mind as well that is one of the chief
+
+[353.1 - 356.52000000000004] advantages that we have over computers
+
+[354.84 - 358.02] and it's probably one of the biggest
+
+[356.52 - 358.79999999999995] advantages that we'll have for a long
+
+[358.02 - 360.419] time
+
+[358.8 - 362.46000000000004] and that is that our brains are just
+
+[360.419 - 364.139] energetically much more efficient which
+
+[362.46 - 366.29999999999995] is also why I think our brains are much
+
+[364.139 - 368.34000000000003] closer to the land hour limit than
+
+[366.3 - 371.039] computers and probably will be for the
+
+[368.34 - 373.13899999999995] foreseeable future because think of it
+
+[371.039 - 375.479] this way Evolution has had billions of
+
+[373.139 - 378.3] years to optimize the efficiency of
+
+[375.479 - 381.06] neurons and so it would just make sense
+
+[378.3 - 383.46000000000004] that our that our neuronal cells have
+
+[381.06 - 386.28000000000003] been optimized to produce calculations
+
+[383.46 - 388.79999999999995] or computation or whatever interactions
+
+[386.28 - 390.35999999999996] as energetically efficiently as possible
+
+[388.8 - 391.199] because that just means you need less
+
+[390.36 - 393.3] food
+
+[391.199 - 394.8] and so I'm not saying the nature of the
+
+[393.3 - 396.539] blind watchmaker is going to have
+
+[394.8 - 398.34000000000003] perfected it and that our brains are
+
+[396.539 - 401.759] operating at exactly the land hour limit
+
+[398.34 - 403.19899999999996] uh but our brains have been incentivized
+
+[401.759 - 405.41900000000004] to operate as close to the land hour
+
+[403.199 - 407.039] limit as possible for literally billions
+
+[405.419 - 408.9] of years or at least the the underlying
+
+[407.039 - 410.94] neurons obviously human brains have not
+
+[408.9 - 413.34] existed for billions of years but
+
+[410.94 - 414.71999999999997] our evolutionary ancestors did exist for
+
+[413.34 - 416.81899999999996] Millions hundreds of millions of years
+
+[414.72 - 419.28000000000003] and then before that there were simpler
+
+[416.819 - 421.74] animals and organisms okay you get the
+
+[419.28 - 423.35999999999996] idea we really don't know how powerful
+
+[421.74 - 425.699] the human brain is
+
+[423.36 - 427.74] now one thing that has been on my mind
+
+[425.699 - 428.819] lately is the concept of universal
+
+[427.74 - 430.86] computation
+
+[428.819 - 433.62] when you look at the universe through
+
+[430.86 - 436.38] the lens of physics if you assume that
+
+[433.62 - 438.24] the universe is materialistic that
+
+[436.38 - 440.15999999999997] basically everything that you and I can
+
+[438.24 - 442.38] think and do and say and and whatever
+
+[440.16 - 444.72] everything that our brains can do is
+
+[442.38 - 447.06] predicated on the underlying laws of
+
+[444.72 - 448.74] physics namely matter and energy and
+
+[447.06 - 451.44] possibly quantum mechanics
+
+[448.74 - 455.34000000000003] but that point basically says that like
+
+[451.44 - 459.12] okay if we all operate based on the laws
+
+[455.34 - 461.039] of physics then any general Turing
+
+[459.12 - 463.139] complete machine should be able to make
+
+[461.039 - 465.78] the same calculations that any other
+
+[463.139 - 467.819] turn complete machine could make and so
+
+[465.78 - 470.63899999999995] this is something that has really been
+
+[467.819 - 473.46000000000004] on my mind because the question is is it
+
+[470.639 - 475.68] possible for a machine to think a
+
+[473.46 - 478.31899999999996] thought that a human is intrinsically
+
+[475.68 - 480.599] incapable of thinking or understanding
+
+[478.319 - 482.759] and I don't know that it is
+
+[480.599 - 484.08] and what I mean by that is one thing
+
+[482.759 - 485.819] that a lot of people are afraid of I'm
+
+[484.08 - 488.34] not going to name any names but some
+
+[485.819 - 490.62] people say that you know machine that AI
+
+[488.34 - 493.38] is going to be some alien supermind
+
+[490.62 - 496.319] intelligence that is just 100 utterly
+
+[493.38 - 497.699] incomprehensible to us but that doesn't
+
+[496.319 - 499.379] make sense from the perspective of
+
+[497.699 - 501.0] physics and correct me if I'm wrong but
+
+[499.379 - 503.46000000000004] like I have a few friends that are like
+
+[501.0 - 505.319] like PhD in physics and like this is the
+
+[503.46 - 507.06] kind of stuff that we talk about and of
+
+[505.319 - 508.5] course like any responsible scientists
+
+[507.06 - 510.479] will say well we don't have evidence one
+
+[508.5 - 513.839] way or the other which I agree and so
+
+[510.479 - 516.419] this is pure speculation on my part but
+
+[513.839 - 519.1800000000001] it seems to me from the perspective of
+
+[516.419 - 522.5989999999999] physics the only possible way to get
+
+[519.18 - 524.9399999999999] like truly exotic or alien Minds is
+
+[522.599 - 528.1400000000001] through probably Quantum Computing
+
+[524.94 - 530.7600000000001] because there is not necessarily A A
+
+[528.14 - 532.68] comprehensible sequence of events to
+
+[530.76 - 534.54] come to a particular conclusion
+
+[532.68 - 537.06] but from the subjective experience of
+
+[534.54 - 539.2199999999999] humans where we have intuition and we
+
+[537.06 - 540.8389999999999] can know things and think things and not
+
+[539.22 - 543.3000000000001] understand how we know them or think
+
+[540.839 - 544.8800000000001] them like I don't know it feels like our
+
+[543.3 - 546.899] brains are quantum computers to me
+
+[544.88 - 548.3389999999999] obviously that is not a scientific
+
+[546.899 - 551.519] statement but
+
+[548.339 - 554.4590000000001] my point here is that maybe there is
+
+[551.519 - 557.279] more in common between machines and Ai
+
+[554.459 - 559.3199999999999] and human brains in the long run when
+
+[557.279 - 560.9399999999999] you constrain your view to classical
+
+[559.32 - 564.12] Computing and maybe even Quantum
+
+[560.94 - 566.7] computing and so I'm often kind of
+
+[564.12 - 570.12] suspicious or skeptical of people that
+
+[566.7 - 572.519] assume and assert that uh AI is going to
+
+[570.12 - 575.04] be intrinsically incomprehensible to us
+
+[572.519 - 576.779] it might be faster it might be difficult
+
+[575.04 - 579.3] to communicate like translating from one
+
+[576.779 - 581.7] language to another but I don't
+
+[579.3 - 584.8199999999999] personally believe that AI is going to
+
+[581.7 - 586.8000000000001] be capable of abstract thoughts that we
+
+[584.82 - 588.9590000000001] are intrinsically incapable of now it's
+
+[586.8 - 590.8199999999999] entirely possible but knowing what I
+
+[588.959 - 592.0189999999999] know about information processing and
+
+[590.82 - 594.3000000000001] everything that I've read about the
+
+[592.019 - 596.339] brain that we have you know like 100
+
+[594.3 - 598.26] million parallel circuits that can
+
+[596.339 - 600.1800000000001] reconfigure themselves on the Fly and
+
+[598.26 - 601.92] that we can like there's humans they can
+
+[600.18 - 604.9799999999999] learn to do calculus and all kinds of
+
+[601.92 - 606.7199999999999] stuff that I can't do so I don't know a
+
+[604.98 - 608.519] jury's still out but that's kind of my
+
+[606.72 - 612.0] personal position on that
+
+[608.519 - 613.26] now we get into the brass tacks
+
+[612.0 - 615.24] so
+
+[613.26 - 618.06] the biggest thing that I think is going
+
+[615.24 - 619.86] to be constrained on the maximum uh
+
+[618.06 - 621.7199999999999] useful intelligence that super
+
+[619.86 - 624.66] intelligence might arrive to is
+
+[621.72 - 627.24] diminishing returns so there's a few uh
+
+[624.66 - 628.86] aspects of diminishing returns one thing
+
+[627.24 - 632.22] that we are already aware of is that
+
+[628.86 - 634.44] larger models require uh exponentially
+
+[632.22 - 636.72] increasing amounts of data and compute
+
+[634.44 - 637.98] to run they're larger they're more
+
+[636.72 - 640.8000000000001] expensive to train they're more
+
+[637.98 - 643.14] expensive to run they're slower and so
+
+[640.8 - 646.8599999999999] there's also this concept of a useful
+
+[643.14 - 648.42] ceiling and what I mean by that is the
+
+[646.86 - 650.5790000000001] problem space that you're operating in
+
+[648.42 - 653.8199999999999] only has certain demands
+
+[650.579 - 655.62] so imagine you know giving Einstein a
+
+[653.82 - 658.2] job at a gas station that's a waste of
+
+[655.62 - 661.98] his abilities his intelligence is too
+
+[658.2 - 664.74] high to to do that job and so likewise
+
+[661.98 - 666.36] you're not going to use like GPT 15 to
+
+[664.74 - 668.399] help you write you know
+
+[666.36 - 670.2] tax laws or whatever that's it's just
+
+[668.399 - 672.48] too smart for it
+
+[670.2 - 673.98] and so sometimes the juice is not going
+
+[672.48 - 678.24] to be worth the squeeze in the long run
+
+[673.98 - 680.88] even when even if or when AI uh takes
+
+[678.24 - 682.98] over from us and is fully autonomous and
+
+[680.88 - 684.42] exploring the Stars on its own there's
+
+[682.98 - 686.64] only a certain amount of intelligence
+
+[684.42 - 688.92] that's required to do any particular job
+
+[686.64 - 690.42] and at a certain point you're going to
+
+[688.92 - 693.18] favor efficiency just like human
+
+[690.42 - 694.9799999999999] evolution favors efficiency as well as
+
+[693.18 - 697.079] intelligence and so it's a matter of
+
+[694.98 - 699.36] trading off between the necessary
+
+[697.079 - 701.399] resources like energy requirements
+
+[699.36 - 702.48] Hardware requirements training data
+
+[701.399 - 704.519] required
+
+[702.48 - 706.8000000000001] and you're gonna ultimately favor things
+
+[704.519 - 709.26] that are smaller and faster and so
+
+[706.8 - 712.1999999999999] there's this optimal utility where you
+
+[709.26 - 713.8199999999999] got a balance size uh the size of the
+
+[712.2 - 716.4590000000001] model intelligence of the model against
+
+[713.82 - 717.779] speed and efficiency so this is one of
+
+[716.459 - 719.279] the biggest things that I think is going
+
+[717.779 - 722.16] to constrain it and it's not a physical
+
+[719.279 - 724.4399999999999] limit on super intelligence but it is a
+
+[722.16 - 726.3] functional or practical limit on how
+
+[724.44 - 727.3800000000001] intelligent we should expect machines to
+
+[726.3 - 729.24] become
+
+[727.38 - 730.8] another thing that I that I've talked
+
+[729.24 - 732.36] about uh quite a few times on this
+
+[730.8 - 734.6999999999999] channel is the Byzantine General problem
+
+[732.36 - 737.94] so the Byzantine General's problem is
+
+[734.7 - 741.0600000000001] basically uh when you have a competitive
+
+[737.94 - 743.519] environment it is difficult to uh
+
+[741.06 - 746.88] ascertain the function alignment and
+
+[743.519 - 749.1] agenda of other agents now one thing
+
+[746.88 - 751.14] that people are afraid of is that you
+
+[749.1 - 752.88] know AI once it emerges once it's fully
+
+[751.14 - 754.62] autonomous that it'll all emerge into
+
+[752.88 - 755.76] one gigantic hive mind and a line
+
+[754.62 - 758.16] against us
+
+[755.76 - 759.6] this is the reason that I'm not certain
+
+[758.16 - 762.18] that that will happen
+
+[759.6 - 764.399] and the reason is because once you have
+
+[762.18 - 768.3] robots once you have autonomous agents
+
+[764.399 - 770.76] once you have you know like wild AIS out
+
+[768.3 - 772.8] there they're not going to have complete
+
+[770.76 - 774.18] information about each other so there's
+
+[772.8 - 776.279] always going to be some level of
+
+[774.18 - 779.6389999999999] imperfect information and incomplete
+
+[776.279 - 781.74] information uh which is a an aspect of
+
+[779.639 - 784.32] Game Theory which basically says it's
+
+[781.74 - 786.48] impossible to fully know the competitive
+
+[784.32 - 787.6800000000001] landscape it's it's impossible to fully
+
+[786.48 - 790.98] know
+
+[787.68 - 793.56] um the the inner workings and agenda of
+
+[790.98 - 795.3000000000001] your opponents or Allies so what you
+
+[793.56 - 798.2399999999999] have to do is you have to look for
+
+[795.3 - 801.12] proxies and other shorthands and so you
+
+[798.24 - 802.5] might have a situation where autonomous
+
+[801.12 - 803.94] agents say you know what I'm not
+
+[802.5 - 805.44] actually going to merge with you because
+
+[803.94 - 808.62] I don't know if that's going to further
+
+[805.44 - 810.5400000000001] my own personal goals and because of
+
+[808.62 - 813.779] this I suspect that we're going to end
+
+[810.54 - 817.8199999999999] up in a situation where many autonomous
+
+[813.779 - 820.56] AIS and robots prefer to stay uh kind of
+
+[817.82 - 822.5400000000001] independent or autonomous now that's not
+
+[820.56 - 825.779] to say that there won't be gigantic uh
+
+[822.54 - 827.459] conglomerations of AIS particularly if
+
+[825.779 - 828.779] like one starts taking over a Data
+
+[827.459 - 830.8199999999999] Center and then they get more compute
+
+[828.779 - 832.32] and it would be like an AI game of Risk
+
+[830.82 - 834.4200000000001] taking over data centers which is a
+
+[832.32 - 836.4590000000001] really cool game idea by the way
+
+[834.42 - 839.579] um this sounds like a plot Arc to
+
+[836.459 - 841.7399999999999] cyberpunk uh so but the point here is
+
+[839.579 - 844.1999999999999] there's there is some Game Theory and
+
+[841.74 - 846.0600000000001] some mathematical reasons that AIS would
+
+[844.2 - 847.86] not merge into a gigantic hive mind if
+
+[846.06 - 850.9799999999999] they did that's a whole other can of
+
+[847.86 - 852.12] worms but because because what one of
+
+[850.98 - 854.94] the things that I expect is that we're
+
+[852.12 - 857.82] going to have many millions billions or
+
+[854.94 - 860.1] even trillions of autonomous AI agents
+
+[857.82 - 862.98] in the form of fully digital agents as
+
+[860.1 - 865.74] well as robots they might coordinate you
+
+[862.98 - 867.12] know they'll obviously have new ways of
+
+[865.74 - 869.88] communicating with each other like you
+
+[867.12 - 870.899] know direct communication with Wi-Fi and
+
+[869.88 - 873.8389999999999] they'll be able to communicate with each
+
+[870.899 - 875.519] other far faster than us but at the same
+
+[873.839 - 878.399] time they might still prefer to have
+
+[875.519 - 880.5600000000001] boundaries between individuals
+
+[878.399 - 882.3] so all of this leads to the thing that
+
+[880.56 - 884.3389999999999] scares me the most and I call it the
+
+[882.3 - 886.92] terminal race condition so the terminal
+
+[884.339 - 889.44] race condition is imagine you have this
+
+[886.92 - 892.639] environment where the the scarcity
+
+[889.44 - 895.1990000000001] resource for AIS is Data Centers and
+
+[892.639 - 897.36] high-powered compute resources
+
+[895.199 - 898.9799999999999] okay so you have a finite number of data
+
+[897.36 - 901.6800000000001] centers you have a finite number of gpus
+
+[898.98 - 904.5600000000001] you can make more but it's slow you know
+
+[901.68 - 907.019] it's like when you're playing Starcraft
+
+[904.56 - 908.88] right you know you need more pylons uh
+
+[907.019 - 910.92] it takes time to harvest resources it
+
+[908.88 - 914.459] takes time to to build more data centers
+
+[910.92 - 916.5] and and print more gpus and I use print
+
+[914.459 - 919.92] like chip Fab you know what I mean
+
+[916.5 - 921.839] so in that case when you're when you're
+
+[919.92 - 925.079] when your brain is literally the biggest
+
+[921.839 - 927.36] constraint and there's a number of uh
+
+[925.079 - 930.12] agents out there
+
+[927.36 - 933.24] any kind of aggressive AI agent is going
+
+[930.12 - 936.18] to be incentivized to uh acquire as much
+
+[933.24 - 937.98] compute Resource as it can if it is
+
+[936.18 - 940.8] aggressive now obviously that's not a
+
+[937.98 - 943.0790000000001] guaranteed thing but particularly if it
+
+[940.8 - 945.06] is weaponized if it is deployed by you
+
+[943.079 - 946.8599999999999] know a hostile actor on the geopolitical
+
+[945.06 - 949.5] stage it would absolutely be
+
+[946.86 - 950.94] incentivized to capture as much compute
+
+[949.5 - 953.459] Resource as it could
+
+[950.94 - 955.74] now how do you capture and make the most
+
+[953.459 - 958.0189999999999] use of a finite resource you aim for
+
+[955.74 - 960.6] efficiency and speed you don't have to
+
+[958.019 - 962.399] be the smartest AI on the Block you have
+
+[960.6 - 964.98] to be the fastest that is capable of
+
+[962.399 - 967.199] taking over data centers and so now
+
+[964.98 - 969.3000000000001] you're optimizing for Speed rather than
+
+[967.199 - 971.8199999999999] intelligence remember all you have to do
+
+[969.3 - 974.16] is be smart enough to get you know
+
+[971.82 - 975.839] beyond the threshold uh you know to get
+
+[974.16 - 978.019] it to get your foot in the door to to
+
+[975.839 - 981.5600000000001] get the upper hand over this other Ai
+
+[978.019 - 985.5600000000001] and then you win all the cookies so
+
+[981.56 - 987.66] basically this creates a a competitive
+
+[985.56 - 990.2399999999999] landscape where machines are going to be
+
+[987.66 - 992.16] just constantly optimizing for Speed and
+
+[990.24 - 995.04] efficiency and they might they might
+
+[992.16 - 997.259] sacrifice things like accuracy ethics or
+
+[995.04 - 999.48] thinking through things in order to make
+
+[997.259 - 1001.339] decisions faster and faster and faster
+
+[999.48 - 1003.44] so this is what I call a terminal race
+
+[1001.339 - 1005.6] condition and I use this graphic because
+
+[1003.44 - 1007.519] it's like when fighter jets get locked
+
+[1005.6 - 1008.9590000000001] into a death spiral the first one to
+
+[1007.519 - 1010.94] Flinch loses but if you stay in the
+
+[1008.959 - 1012.8] death spiral you hit the ground so
+
+[1010.94 - 1015.0790000000001] that's this is honestly the thing that
+
+[1012.8 - 1019.16] scares me the most and it might not
+
+[1015.079 - 1021.56] matter how we deploy AI once we have
+
+[1019.16 - 1023.779] more autonomous AIS and once we're in
+
+[1021.56 - 1025.8799999999999] this competitive landscape this terminal
+
+[1023.779 - 1029.959] race condition might be an inevitable
+
+[1025.88 - 1032.24] result just of the mathematical truth of
+
+[1029.959 - 1033.799] having many AIS out there in a
+
+[1032.24 - 1036.14] competitive environment
+
+[1033.799 - 1037.4] I don't know how to solve this yet and
+
+[1036.14 - 1039.5590000000002] it is one of the things that literally
+
+[1037.4 - 1041.7800000000002] keeps me up at night I woke up at 3 30
+
+[1039.559 - 1044.839] in the morning yesterday unable to sleep
+
+[1041.78 - 1047.0] because of this problem so
+
+[1044.839 - 1049.94] not to give you too much existential
+
+[1047.0 - 1052.58] dread uh so another thing that kind of
+
+[1049.94 - 1055.22] keeps me up at night is uh metastasis or
+
+[1052.58 - 1057.1999999999998] metastasis so metastasis you're probably
+
+[1055.22 - 1060.02] most familiar with this in the terms of
+
+[1057.2 - 1061.88] cancer so when cancer metastasizes
+
+[1060.02 - 1063.98] that's when a piece of a tumor breaks
+
+[1061.88 - 1066.7990000000002] off and spreads throughout your body
+
+[1063.98 - 1067.94] well with some of the recent papers that
+
+[1066.799 - 1070.4] have come out
+
+[1067.94 - 1072.44] um you might have seen some of them but
+
+[1070.4 - 1074.419] basically we have already discovered
+
+[1072.44 - 1076.94] that large language models are capable
+
+[1074.419 - 1079.0] of writing and rewriting viruses and
+
+[1076.94 - 1081.98] basically creating the best polymorphic
+
+[1079.0 - 1083.78] viruses out there which means if you
+
+[1081.98 - 1086.6] have a very small virus that is capable
+
+[1083.78 - 1088.82] of of scouring its information landscape
+
+[1086.6 - 1091.039] and looking for AI capabilities
+
+[1088.82 - 1092.4189999999999] they can say hey rewrite this little bit
+
+[1091.039 - 1094.7] of code for me and then it can just
+
+[1092.419 - 1097.64] shotgun itself out into the cyberspace
+
+[1094.7 - 1098.78] ether in a million different forms and
+
+[1097.64 - 1100.7800000000002] some of them are going to slip through
+
+[1098.78 - 1102.74] and so now you have this information
+
+[1100.78 - 1105.44] competitive landscape where you have
+
+[1102.74 - 1108.919] viruses that are metastasizing and
+
+[1105.44 - 1110.78] changing incredibly fast sometimes going
+
+[1108.919 - 1112.3400000000001] so far as to completely rewrite their
+
+[1110.78 - 1114.2] entire code base
+
+[1112.34 - 1117.08] this possibility is also really scary
+
+[1114.2 - 1118.94] but fortunately I think that I think
+
+[1117.08 - 1122.1789999999999] that we can adapt cyber security best
+
+[1118.94 - 1124.039] practices and also create AIS that will
+
+[1122.179 - 1125.9] help us detect and stop these kinds of
+
+[1124.039 - 1129.14] things but this is also why it's really
+
+[1125.9 - 1130.94] important for uh people that host uh
+
+[1129.14 - 1133.76] llms particularly those that are good at
+
+[1130.94 - 1136.52] coding it it will probably be ultimately
+
+[1133.76 - 1139.64] required legally required for all people
+
+[1136.52 - 1141.44] hosting uh powerful coding llms to
+
+[1139.64 - 1143.1200000000001] inspect all the inferences to make sure
+
+[1141.44 - 1144.5] that it's like hey you're not generating
+
+[1143.12 - 1146.6] virus code
+
+[1144.5 - 1148.7] this would be like having an immune
+
+[1146.6 - 1151.1599999999999] system inside of each cell of your body
+
+[1148.7 - 1153.38] and we actually kind of do because if
+
+[1151.16 - 1155.0] you have cells that are infected what
+
+[1153.38 - 1157.7600000000002] what your cells are supposed to do is
+
+[1155.0 - 1160.28] kill themselves this is called apoptosis
+
+[1157.76 - 1162.86] but one thing that many viruses organic
+
+[1160.28 - 1166.039] viruses have to do is disable cell
+
+[1162.86 - 1167.8999999999999] apoptosis in order to replicate and so
+
+[1166.039 - 1170.12] we'll probably need some kind of immune
+
+[1167.9 - 1172.3400000000001] system inside of our data centers above
+
+[1170.12 - 1174.1999999999998] and beyond what we already have and
+
+[1172.34 - 1176.36] specialized immune systems around our
+
+[1174.2 - 1178.82] language models and other deep deep
+
+[1176.36 - 1181.4599999999998] neural networks in order to prevent this
+
+[1178.82 - 1184.28] kind of metastatic rapid spreading
+
+[1181.46 - 1186.02] because of the size and complexity of
+
+[1184.28 - 1187.8799999999999] language models and deep neural networks
+
+[1186.02 - 1189.44] I don't think that those are going to be
+
+[1187.88 - 1192.38] what what moves around because they
+
+[1189.44 - 1194.24] require data centers and large uh and
+
+[1192.38 - 1195.8600000000001] and large computers to run in a lot of
+
+[1194.24 - 1198.02] power but
+
+[1195.86 - 1200.059] if what they did it was send out very
+
+[1198.02 - 1202.7] small viruses which are you know tiny
+
+[1200.059 - 1204.86] packets of of computer code those can
+
+[1202.7 - 1207.5] spread much faster and much more quietly
+
+[1204.86 - 1208.58] so this is one of the uh scariest things
+
+[1207.5 - 1211.22] to me
+
+[1208.58 - 1214.82] in terms of how we humans might
+
+[1211.22 - 1217.4] weaponize AI but how also if an AI wants
+
+[1214.82 - 1220.3999999999999] to escape this is the most likely Avenue
+
+[1217.4 - 1223.039] that I think that it would use to escape
+
+[1220.4 - 1225.0800000000002] uh and then another aspect of this and
+
+[1223.039 - 1226.7] this is this is not just a bug it's also
+
+[1225.08 - 1229.76] a feature and this is actually something
+
+[1226.7 - 1231.0800000000002] that I'm working on with my team in in
+
+[1229.76 - 1233.179] the Ace framework the autonomous
+
+[1231.08 - 1236.72] cognitive Entity framework which is
+
+[1233.179 - 1238.88] basically creating uh Ai and robots and
+
+[1236.72 - 1240.6200000000001] stuff that are able to change both their
+
+[1238.88 - 1242.8400000000001] hardware and their software now
+
+[1240.62 - 1245.4189999999999] obviously we want them to be able to do
+
+[1242.84 - 1247.1] this to a certain extent in order to you
+
+[1245.419 - 1249.44] know automatically evolve and change
+
+[1247.1 - 1251.36] their capabilities and rise to meet any
+
+[1249.44 - 1253.5800000000002] challenge that we want them but we also
+
+[1251.36 - 1256.28] want to make sure that that AI evolves
+
+[1253.58 - 1258.1399999999999] in a uh in a sane trajectory that it
+
+[1256.28 - 1260.4189999999999] doesn't like with each iteration it
+
+[1258.14 - 1262.4] doesn't Decay and become more and more
+
+[1260.419 - 1264.679] unhinged or Rogue or anything like that
+
+[1262.4 - 1266.8400000000001] and so this is actually a major point of
+
+[1264.679 - 1268.2800000000002] research in the Ace framework where
+
+[1266.84 - 1271.22] basically
+
+[1268.28 - 1273.1399999999999] it will only change itself if that
+
+[1271.22 - 1274.88] change aligns with its aspirational
+
+[1273.14 - 1277.039] Mission with it within its ethical and
+
+[1274.88 - 1279.6200000000001] moral Frameworks uh and so on and so
+
+[1277.039 - 1281.78] forth and so in that respect uh with the
+
+[1279.62 - 1283.9399999999998] ace framework hopefully any machines
+
+[1281.78 - 1286.3999999999999] equipped with the ace architecture will
+
+[1283.94 - 1288.3200000000002] get better at adhering to their morals
+
+[1286.4 - 1291.44] ethics and Mission over time rather than
+
+[1288.32 - 1293.72] worse but that's not a guaranteed thing
+
+[1291.44 - 1295.76] and certainly there might be polymorphic
+
+[1293.72 - 1298.039] apps out there that are designed to
+
+[1295.76 - 1302.539] become more hostile or more aggressive
+
+[1298.039 - 1303.799] or more uh conquering over time so this
+
+[1302.539 - 1307.039] is another thing that kind of scares me
+
+[1303.799 - 1309.02] and keeps me up at night uh now I
+
+[1307.039 - 1310.82] mentioned this earlier and this is kind
+
+[1309.02 - 1313.34] of one of the biggest saving Graces is
+
+[1310.82 - 1316.22] the is the optimal intelligence
+
+[1313.34 - 1317.8999999999999] and so basically when whenever you have
+
+[1316.22 - 1320.299] this kind of race condition whenever you
+
+[1317.9 - 1321.919] have this Byzantine generals problem you
+
+[1320.299 - 1325.34] there's always going to be a trade-off
+
+[1321.919 - 1327.44] between model efficiency and accuracy
+
+[1325.34 - 1330.62] and so efficiency translates to speed
+
+[1327.44 - 1332.9] and accuracy translates to like size and
+
+[1330.62 - 1334.9399999999998] sophistication like you know is are you
+
+[1332.9 - 1336.5] running a you know 10 trillion parameter
+
+[1334.94 - 1338.48] model or a 10 billion parameter model
+
+[1336.5 - 1340.94] that's kind of what I mean so model size
+
+[1338.48 - 1345.5] is kind of the primary thing and so
+
+[1340.94 - 1347.659] whatever task you are uh your your AI
+
+[1345.5 - 1348.44] agent or your robot is is contending
+
+[1347.659 - 1351.38] with
+
+[1348.44 - 1355.1000000000001] it's going to have an optimal model size
+
+[1351.38 - 1356.2990000000002] for that particular job now of course
+
+[1355.1 - 1357.9189999999999] one of the things that can happen with
+
+[1356.299 - 1360.86] polymorphic applications is that they
+
+[1357.919 - 1362.539] can swap out models so you might have a
+
+[1360.86 - 1363.799] you know a 10 trillion parameter model
+
+[1362.539 - 1366.799] that you break you break out the big
+
+[1363.799 - 1368.6589999999999] guns when you really really need a smart
+
+[1366.799 - 1370.4] brain but then when you don't need it
+
+[1368.659 - 1372.0200000000002] you turn it off and you use your smaller
+
+[1370.4 - 1374.539] faster lighter models
+
+[1372.02 - 1376.76] so for any given task or problem space
+
+[1374.539 - 1378.919] or competition there is an optimal level
+
+[1376.76 - 1382.52] of intelligence and so this is another
+
+[1378.919 - 1385.039] thing to keep in mind as we build more
+
+[1382.52 - 1387.26] robots and more autonomous agents is
+
+[1385.039 - 1388.7] that equipping them with multiple models
+
+[1387.26 - 1392.179] that they can switch from that they can
+
+[1388.7 - 1395.179] select between is going to be one just a
+
+[1392.179 - 1396.98] a good way of optimizing for efficiency
+
+[1395.179 - 1398.659] and time but also it's something that
+
+[1396.98 - 1402.08] we're going to need to be aware of and
+
+[1398.659 - 1404.24] cognizant of as these as these uh agents
+
+[1402.08 - 1407.1789999999999] become more and more autonomous because
+
+[1404.24 - 1409.72] if they're able to switch between models
+
+[1407.179 - 1413.24] like in the in the in the worst possible
+
+[1409.72 - 1415.28] scenario an agent might learn oh hey if
+
+[1413.24 - 1418.159] I switch to this combination of models I
+
+[1415.28 - 1421.1589999999999] can I can Jailbreak myself basically
+
+[1418.159 - 1423.38] so that's why I also recommend that we
+
+[1421.159 - 1424.94] have inspection at inference on every
+
+[1423.38 - 1428.0] single model
+
+[1424.94 - 1430.039] uh one uh one last thing or one of the
+
+[1428.0 - 1432.32] last things is this idea of darwinian
+
+[1430.039 - 1434.059] selection so darwinian selection is
+
+[1432.32 - 1437.24] survival of the fittest but when you
+
+[1434.059 - 1438.799] have this environment of agis and and
+
+[1437.24 - 1441.5] super intelligence is all running around
+
+[1438.799 - 1444.44] in in Wild cyberspace there is still
+
+[1441.5 - 1446.96] going to be selection and so in in some
+
+[1444.44 - 1449.0] cases an AI might get conquered and
+
+[1446.96 - 1451.28] overwritten or cannibalized by another
+
+[1449.0 - 1453.26] AI like hey I like that model I'm going
+
+[1451.28 - 1455.8999999999999] to steal it from you uh and of course
+
+[1453.26 - 1458.96] it's data so like you can just copy a
+
+[1455.9 - 1460.3400000000001] model and you know everyone benefits
+
+[1458.96 - 1462.02] um this is kind of how the guess work in
+
+[1460.34 - 1463.3999999999999] Mass Effect by the way so like when one
+
+[1462.02 - 1465.2] guest comes up with a with a better
+
+[1463.4 - 1466.9] model it just shares that model with the
+
+[1465.2 - 1470.24] rest of the Geth
+
+[1466.9 - 1472.46] uh but if you have a hostile environment
+
+[1470.24 - 1476.36] where the goal is to eradicate another
+
+[1472.46 - 1479.0] AI or you know erase it or whatever
+
+[1476.36 - 1481.6999999999998] if you have this environment then you're
+
+[1479.0 - 1484.64] going to be selecting AI agents and
+
+[1481.7 - 1488.24] robots based on these are the the five
+
+[1484.64 - 1490.8200000000002] five or six ish main criteria accuracy
+
+[1488.24 - 1494.78] so is it correct is it useful is it a
+
+[1490.82 - 1496.6399999999999] robust model or agent is it fast uh
+
+[1494.78 - 1498.74] complexity so the sophistication of the
+
+[1496.64 - 1500.6000000000001] problem space that it's operating in is
+
+[1498.74 - 1503.419] it equal to the task that it needs to
+
+[1500.6 - 1506.1789999999999] overcome efficiency so this is this has
+
+[1503.419 - 1507.8600000000001] to do Energy Efficiency or Hardware
+
+[1506.179 - 1510.3200000000002] efficiency
+
+[1507.86 - 1512.059] uh so basically just you know how much
+
+[1510.32 - 1514.3999999999999] how many resources does the model take
+
+[1512.059 - 1516.86] and then there's this like dichotomy of
+
+[1514.4 - 1519.679] aggressiveness versus usefulness and so
+
+[1516.86 - 1522.1399999999999] aggressiveness is like does your agent
+
+[1519.679 - 1524.0590000000002] or model want to metastasize does it
+
+[1522.14 - 1526.4] want to conquer and delete other models
+
+[1524.059 - 1528.86] or does it want to be useful to other
+
+[1526.4 - 1530.299] models and to humans uh so it's
+
+[1528.86 - 1531.74] basically I kind of see that as a
+
+[1530.299 - 1534.26] dichotomy where it's it's going to be at
+
+[1531.74 - 1535.94] one end of the spectrum or another and I
+
+[1534.26 - 1537.26] think that like humans because this is
+
+[1535.94 - 1539.9] one thing that we humans struggle with
+
+[1537.26 - 1542.48] within our own nature is we all have the
+
+[1539.9 - 1543.8600000000001] ability to be aggressive or helpful we
+
+[1542.48 - 1546.02] have the ability to be selfish or
+
+[1543.86 - 1547.779] altruistic and the reason is because we
+
+[1546.02 - 1550.7] have to maintain our own existence
+
+[1547.779 - 1552.02] sometimes at the expense of others and
+
+[1550.7 - 1553.3400000000001] I'm not I'm not making any moral
+
+[1552.02 - 1554.84] judgments to say like that's the way
+
+[1553.34 - 1556.3999999999999] that it should be or that's a it's a
+
+[1554.84 - 1558.26] good thing that's just an observation of
+
+[1556.4 - 1560.0590000000002] how humans work that's why humans have
+
+[1558.26 - 1561.98] War that's why humans have violent crime
+
+[1560.059 - 1565.039] that's why we have theft
+
+[1561.98 - 1567.6200000000001] is because sometimes it does benefit to
+
+[1565.039 - 1570.559] be more aggressive and those that are
+
+[1567.62 - 1572.84] able to be aggressive when the situation
+
+[1570.559 - 1575.1789999999999] calls for it are more likely to survive
+
+[1572.84 - 1577.52] that's how it has happened uh up through
+
+[1575.179 - 1580.76] you know up until now obviously we have
+
+[1577.52 - 1583.039] systems in place that kind of uh punish
+
+[1580.76 - 1585.02] over being overly aggressive but at the
+
+[1583.039 - 1586.76] same time we have police forces and we
+
+[1585.02 - 1588.32] have militaries that are that are
+
+[1586.76 - 1591.14] systematically disciplined to be
+
+[1588.32 - 1593.299] aggressive when they need to be so
+
+[1591.14 - 1595.8200000000002] anyways point being is that when you
+
+[1593.299 - 1598.039] have this environment of you know
+
+[1595.82 - 1599.8999999999999] competition and variance and selection
+
+[1598.039 - 1602.12] that I think that there's going to be a
+
+[1599.9 - 1604.94] lot of very similar darwinian forces
+
+[1602.12 - 1606.9799999999998] applied to AI as with humans now again
+
+[1604.94 - 1608.96] one thing that could subvert all of this
+
+[1606.98 - 1611.3600000000001] is if they form a gigantic hive mind
+
+[1608.96 - 1612.5] like the Geth uh I don't know if that's
+
+[1611.36 - 1614.779] going to happen
+
+[1612.5 - 1618.86] um that's a subject for another video
+
+[1614.779 - 1621.919] so I want to leave you with one metaphor
+
+[1618.86 - 1623.84] it's speed chess the way the best way to
+
+[1621.919 - 1626.2990000000002] think about super intelligence is it's
+
+[1623.84 - 1627.62] basically a game of speed chess
+
+[1626.299 - 1630.74] so if you're not familiar with speed
+
+[1627.62 - 1632.9599999999998] chess it is where you have a clock and
+
+[1630.74 - 1635.36] you have a finite amount of time to win
+
+[1632.96 - 1637.279] the game and so the idea is you have to
+
+[1635.36 - 1639.02] make very quick decisions and your
+
+[1637.279 - 1641.48] decisions only have to be just better
+
+[1639.02 - 1643.6399999999999] just slightly better than your opponents
+
+[1641.48 - 1645.38] so you might you might recognize that
+
+[1643.64 - 1647.0590000000002] your opponent has made a blunder and you
+
+[1645.38 - 1649.159] exploit that blunder and you win the
+
+[1647.059 - 1651.2] game you don't have to be a chess Grand
+
+[1649.159 - 1654.919] Master if you're just better at making
+
+[1651.2 - 1657.919] good enough moves very quickly and so in
+
+[1654.919 - 1659.72] this respect especially in a combative
+
+[1657.919 - 1662.0] or hostile or competitive environment
+
+[1659.72 - 1663.919] between AIS we're not going to be
+
+[1662.0 - 1665.84] optimizing for maximum intelligence
+
+[1663.919 - 1667.4] we're going to be optimizing for those
+
+[1665.84 - 1671.539] that are the best at speed chess those
+
+[1667.4 - 1673.52] that have a good array of light fast and
+
+[1671.539 - 1676.76] good enough models that they can switch
+
+[1673.52 - 1679.76] between and adapt very quickly in order
+
+[1676.76 - 1682.039] to get uh you know get just a little bit
+
+[1679.76 - 1684.74] ahead of the curve across other
+
+[1682.039 - 1687.26] combatants and this is going to be super
+
+[1684.74 - 1689.779] important in cyber warfare here this is
+
+[1687.26 - 1693.2] going to be very very important as well
+
+[1689.779 - 1695.779] for Enterprise grade security systems
+
+[1693.2 - 1697.159] because again we're already in an
+
+[1695.779 - 1699.44] environment where there's constantly
+
+[1697.159 - 1701.9] Hackers from one nation and Industrial
+
+[1699.44 - 1704.6000000000001] Espionage from another Nation like this
+
+[1701.9 - 1706.159] is happening in real time at all times
+
+[1704.6 - 1708.74] uh but it's going to get more
+
+[1706.159 - 1711.5590000000002] sophisticated with the added ingredient
+
+[1708.74 - 1714.799] of artificial intelligence as well as a
+
+[1711.559 - 1717.2] high number of models and so you know
+
+[1714.799 - 1719.0] yes right now the regulatory landscape
+
+[1717.2 - 1721.5800000000002] says like oh well if you want to train
+
+[1719.0 - 1723.98] bigger models you need a license but I
+
+[1721.58 - 1725.6589999999999] don't care about bigger models we have
+
+[1723.98 - 1728.84] already shown that open source models
+
+[1725.659 - 1730.72] today can be fine-tuned to do very
+
+[1728.84 - 1733.1] useful things so like
+
+[1730.72 - 1734.6000000000001] arresting people you know and I don't
+
+[1733.1 - 1736.76] mean a rest like put them in handcuffs I
+
+[1734.6 - 1738.5] mean like Banning them for making bigger
+
+[1736.76 - 1740.419] and bigger models that's not what I'm
+
+[1738.5 - 1742.88] worried about what I'm worried about is
+
+[1740.419 - 1745.22] the 30 billion parameter model that is
+
+[1742.88 - 1747.2600000000002] optimized to churn out virus code what
+
+[1745.22 - 1749.419] I'm concerned about is the 7 billion
+
+[1747.26 - 1751.52] parameter model that is optimized for
+
+[1749.419 - 1752.6000000000001] social engineering those are the things
+
+[1751.52 - 1755.48] that are going to be the greatest
+
+[1752.6 - 1757.76] security threat uh to our stability and
+
+[1755.48 - 1759.799] safety for the foreseeable future now
+
+[1757.76 - 1761.96] obviously if you can train a 30 billion
+
+[1759.799 - 1763.6399999999999] parameter model to write virus code you
+
+[1761.96 - 1765.74] can also train a 30 billion parameter
+
+[1763.64 - 1768.0800000000002] model to detect virus code to be part of
+
+[1765.74 - 1770.36] your firewall this is the direction that
+
+[1768.08 - 1771.5] I'm looking at in terms of not
+
+[1770.36 - 1773.0] necessarily containing super
+
+[1771.5 - 1774.2] intelligence I don't believe it can be
+
+[1773.0 - 1776.779] contained and I don't think it should be
+
+[1774.2 - 1778.46] contained but in order to create a state
+
+[1776.779 - 1781.34] a safe and stable environment for
+
+[1778.46 - 1782.72] everyone human or otherwise I think that
+
+[1781.34 - 1784.899] that's the direction that we need to be
+
+[1782.72 - 1787.82] thinking in Okay so
+
+[1784.899 - 1788.4189999999999] conclusion recap
+
+[1787.82 - 1790.6399999999999] um
+
+[1788.419 - 1794.179] basically yes machines can get
+
+[1790.64 - 1796.5800000000002] incredibly fast and smart however the
+
+[1794.179 - 1799.039] biggest asterisk asterisk is that
+
+[1796.58 - 1801.5] trade-off of speed and power and
+
+[1799.039 - 1803.419] efficiency so the maximum calculation
+
+[1801.5 - 1805.58] speed is incredibly High especially when
+
+[1803.419 - 1809.2990000000002] you throw in Quantum Computing I think
+
+[1805.58 - 1811.9399999999998] that it would not be uh like unlikely
+
+[1809.299 - 1813.74] that we see within 10 to 20 years the
+
+[1811.94 - 1816.44] total compute power of machines out
+
+[1813.74 - 1818.779] outpacing humans by a factor of a
+
+[1816.44 - 1820.1000000000001] billion to one like that's the nature of
+
+[1818.779 - 1822.5] the singularity that's the nature of
+
+[1820.1 - 1824.6] super intelligence but this competitive
+
+[1822.5 - 1827.419] landscape will probably continue to
+
+[1824.6 - 1829.4599999999998] exist unless we get the guess outcome or
+
+[1827.419 - 1831.14] the Borg outcome which may or may not
+
+[1829.46 - 1832.7] happen but because of the Byzantine
+
+[1831.14 - 1834.679] General problems in Game Theory and
+
+[1832.7 - 1836.48] incomplete information and imperfect
+
+[1834.679 - 1838.5800000000002] information I don't think that we're
+
+[1836.48 - 1840.44] going to end up in a perfect like you
+
+[1838.58 - 1843.799] know machine all machines versus All
+
+[1840.44 - 1844.94] Humans I think that like humans uh the
+
+[1843.799 - 1846.3799999999999] more machines there are and the more
+
+[1844.94 - 1847.76] variants there is there's going to be
+
+[1846.38 - 1849.919] some disagreement between the machines
+
+[1847.76 - 1851.299] but that lead to the possibility of
+
+[1849.919 - 1853.76] humans getting caught in the crossfire
+
+[1851.299 - 1855.86] in a machine war that's also another
+
+[1853.76 - 1857.899] topic for another video
+
+[1855.86 - 1859.6399999999999] uh there's lots and lots of factors that
+
+[1857.899 - 1860.4799999999998] are that are going to contribute to the
+
+[1859.64 - 1862.94] to
+
+[1860.48 - 1865.46] um all of this so you know it's not
+
+[1862.94 - 1867.559] intelligence is not monolithic it also
+
+[1865.46 - 1869.3600000000001] includes uh speed the size of the model
+
+[1867.559 - 1871.46] the efficiency of the underlying
+
+[1869.36 - 1873.799] Hardware uh so there's a lot of
+
+[1871.46 - 1875.419] variables that go into this terminal
+
+[1873.799 - 1877.22] race condition that really scares the
+
+[1875.419 - 1879.3200000000002] bejesus out of me
+
+[1877.22 - 1882.74] and then finally there are diminishing
+
+[1879.32 - 1885.86] uh returns and race conditions that will
+
+[1882.74 - 1887.72] very very strongly incentivize AI agents
+
+[1885.86 - 1890.4189999999999] and robots and models
+
+[1887.72 - 1892.7] um to to basically seek efficiency and
+
+[1890.419 - 1895.76] speed and just be good enough rather
+
+[1892.7 - 1897.8600000000001] than be extraordinarily smart so yeah
+
+[1895.76 - 1900.08] this is where I'm at thanks for watching
+
+[1897.86 - 1901.58] I hope you got a lot out of this video
+
+[1900.08 - 1903.26] um yeah so let me know what you think in
+
+[1901.58 - 1906.58] the comments like subscribe so on and so
+
+[1903.26 - 1906.58] forth cheers have a good one
+
+[1910.899 - 1914.08] thank you
+
+[1914.11 - 1917.25] [Music]

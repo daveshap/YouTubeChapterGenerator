@@ -1,0 +1,545 @@
+[0.64 - 4.64] hey everyone david shapiro here with
+
+[2.56 - 6.0] another video uh sorry it's been a
+
+[4.64 - 8.8] little while
+
+[6.0 - 11.84] this video is about the question
+
+[8.8 - 13.440000000000001] generator that i created for uh
+
+[11.84 - 14.96] my natural language cognitive
+
+[13.44 - 17.92] architecture
+
+[14.96 - 19.6] and first i have to
+
+[17.92 - 21.199] say like okay why do you need a question
+
+[19.6 - 23.119] generator there's a lot of reasons that
+
+[21.199 - 25.359] you might want to be able to generate
+
+[23.119 - 28.08] questions
+
+[25.359 - 30.64] the reason that i created it is because
+
+[28.08 - 34.079] natural language cognitive architecture
+
+[30.64 - 36.239000000000004] relies on generating questions in order
+
+[34.079 - 38.239000000000004] to retrieve the correct memories but
+
+[36.239 - 40.718999999999994] also asking questions is a really great
+
+[38.239 - 43.519999999999996] way to decide what to do
+
+[40.719 - 46.239000000000004] i personally believe that
+
+[43.52 - 48.559000000000005] unconscious questions are a big way that
+
+[46.239 - 50.07899999999999] humans make decisions and i have a lot
+
+[48.559 - 52.239] more details about this in my book i
+
+[50.079 - 54.8] don't need to go into details about
+
+[52.239 - 56.07899999999999] specifically cognitive architecture here
+
+[54.8 - 58.64] there's a lot of other things that you
+
+[56.079 - 60.399] could you could use when uh
+
+[58.64 - 62.719] generating questions for
+
+[60.399 - 64.159] so first i wanted to show you around the
+
+[62.719 - 66.32000000000001] repository
+
+[64.159 - 67.76] there should be a link below uh in the
+
+[66.32 - 69.439] video description
+
+[67.76 - 71.52000000000001] so first
+
+[69.439 - 74.479] what i did was i put together a whole
+
+[71.52 - 75.759] bunch of contexts there are like 55 000
+
+[74.479 - 77.67999999999999] contexts
+
+[75.759 - 79.84] in this folder you can you can download
+
+[77.68 - 82.24000000000001] them all they came from open source data
+
+[79.84 - 83.43900000000001] sets so don't don't hesitate to use
+
+[82.24 - 84.72] these
+
+[83.439 - 86.79899999999999] if you look through it you'll probably
+
+[84.72 - 89.03999999999999] recognize some of them
+
+[86.799 - 90.72000000000001] and then what i did was i used a few
+
+[89.04 - 93.43900000000001] different prompts
+
+[90.72 - 96.64] in order to generate questions
+
+[93.439 - 96.63999999999999] and those questions
+
+[96.72 - 102.24] are just like this just a set of
+
+[99.36 - 103.92] questions uh in response to
+
+[102.24 - 107.6] any given passage
+
+[103.92 - 108.88] and i used a bunch of different kinds of
+
+[107.6 - 112.079] of uh
+
+[108.88 - 113.67999999999999] of context so there's movie dialogue
+
+[112.079 - 114.55999999999999] right so you see this this is pretty
+
+[113.68 - 116.47900000000001] familiar
+
+[114.56 - 120.07900000000001] um this is a this is a really common
+
+[116.479 - 121.759] data set uh i also used let's see i used
+
+[120.079 - 124.079] medical text these are de-identified
+
+[121.759 - 126.64] medical texts um oh here let me make it
+
+[124.079 - 128.72] so you can see it all there we go um so
+
+[126.64 - 130.879] medical texts which of course there's no
+
+[128.72 - 132.8] narrative it's just information
+
+[130.879 - 136.48] um and i knew that i was onto something
+
+[132.8 - 138.87900000000002] when an earlier test um gpt3 deduced
+
+[136.48 - 140.79999999999998] that a patient probably had cancer
+
+[138.879 - 143.04] and it asks did this pa does this
+
+[140.8 - 145.04000000000002] patient have cancer and i looked up that
+
+[143.04 - 146.239] particular medical text then yeah sure
+
+[145.04 - 148.56] enough some of the test results
+
+[146.239 - 151.28] indicated the risk of cancer
+
+[148.56 - 152.48] i also used news articles
+
+[151.28 - 155.28] and then
+
+[152.48 - 157.67999999999998] i used reddit posts
+
+[155.28 - 160.56] which of course reddit is information
+
+[157.68 - 163.12] seeking and then finally i used uh stack
+
+[160.56 - 165.36] exchange posts and again these all came
+
+[163.12 - 167.84] from open source data sets you can
+
+[165.36 - 169.44000000000003] search for all of these on kaggle or
+
+[167.84 - 171.04] google data sets
+
+[169.44 - 172.959] it's all open source so i didn't i
+
+[171.04 - 174.48] didn't steal this from anyone i know
+
+[172.959 - 176.72] that some people are worried about data
+
+[174.48 - 177.51899999999998] privacy and data governance but these
+
+[176.72 - 179.92] are all
+
+[177.519 - 182.56] publicly available data sets
+
+[179.92 - 183.76] so i start with those contexts and then
+
+[182.56 - 185.519] i use
+
+[183.76 - 186.56] several prompts you can you can look in
+
+[185.519 - 188.56] the um
+
+[186.56 - 190.64000000000001] in the repository yourself
+
+[188.56 - 192.879] and and check it out
+
+[190.64 - 194.23899999999998] and i use it to generate questions and
+
+[192.879 - 196.319] these questions
+
+[194.239 - 198.0] um you could use it for anything right
+
+[196.319 - 200.39999999999998] you could use it to automatically
+
+[198.0 - 202.56] generate uh test questions for reading
+
+[200.4 - 205.04] comprehension right you could use you
+
+[202.56 - 206.64000000000001] could use these questions for other um
+
+[205.04 - 209.12] artificial intelligence things you could
+
+[206.64 - 211.04] use it for chat bots actually even just
+
+[209.12 - 213.92000000000002] having a chat bot that asks good
+
+[211.04 - 215.519] questions is a really powerful thing to
+
+[213.92 - 216.48] have right
+
+[215.519 - 219.59900000000002] so
+
+[216.48 - 221.51899999999998] with all that said uh you know just lots
+
+[219.599 - 224.07999999999998] of questions so that was the training
+
+[221.519 - 227.36] set and finally what it looked like
+
+[224.08 - 228.08] the finished product it looks like this
+
+[227.36 - 231.84] so
+
+[228.08 - 234.48000000000002] um gpt3 is trained with json l files
+
+[231.84 - 236.72] um and you see here so there's a prompt
+
+[234.48 - 238.72] these first ones are some dialogue and
+
+[236.72 - 240.799] all that you have to do is whatever
+
+[238.72 - 244.0] whatever payload you want
+
+[240.799 - 245.76000000000002] you um you add in all caps questions
+
+[244.0 - 247.2] colon that's how that's how the model
+
+[245.76 - 249.92] knows that it's done
+
+[247.2 - 252.23899999999998] and then you um you go from there so let
+
+[249.92 - 254.159] me show you what actually happens in
+
+[252.239 - 257.359] real time i think that'll help it make
+
+[254.159 - 259.59999999999997] the most sense so let's go grab a random
+
+[257.359 - 261.12] context from reddit
+
+[259.6 - 262.8] just because they tend to be narrative
+
+[261.12 - 264.639] and that one's a little bit long let me
+
+[262.8 - 267.6] grab a shorter one okay
+
+[264.639 - 270.16] this one says so this context says i'm
+
+[267.6 - 272.32000000000005] 23 and have a bs in biology and a
+
+[270.16 - 274.72] contract job ending soon what should be
+
+[272.32 - 277.28] my next move i graduated last year in
+
+[274.72 - 279.36] biology etc etc okay so this is someone
+
+[277.28 - 282.0] just asking for some career advice
+
+[279.36 - 284.56] now generating questions obviously this
+
+[282.0 - 286.32] person is looking for answers right but
+
+[284.56 - 288.72] asking questions
+
+[286.32 - 289.84] seeking more information is a perfectly
+
+[288.72 - 292.8] valid
+
+[289.84 - 295.03999999999996] response right because someone might ask
+
+[292.8 - 297.52000000000004] questions because they don't know
+
+[295.04 - 300.08000000000004] um they they need more information to
+
+[297.52 - 303.35999999999996] know how to help right so we'll put it
+
+[300.08 - 305.59999999999997] into gpd3 and i'll do
+
+[303.36 - 306.96000000000004] this to finish it off questions actually
+
+[305.6 - 310.0] you can just do one
+
+[306.96 - 311.84] space and then let's see what it says um
+
+[310.0 - 314.639] it takes a second to load it actually
+
+[311.84 - 317.67999999999995] might have unloaded um
+
+[314.639 - 320.0] one thing that i found with with uh gpt3
+
+[317.68 - 322.479] is that it takes it a minute to load
+
+[320.0 - 324.96] your um your custom models
+
+[322.479 - 327.68] um i'm not i'm not happy about that i
+
+[324.96 - 332.32] really wish that um it was as fast
+
+[327.68 - 333.759] as um as as the plain vanilla models um
+
+[332.32 - 335.52] but anyways we'll see if it loads it
+
+[333.759 - 337.36] might it might crash and i'll have to
+
+[335.52 - 339.19899999999996] come back to it i'll try it again in a
+
+[337.36 - 341.68] second um
+
+[339.199 - 343.039] yeah so let's see well while that's
+
+[341.68 - 345.199] loading
+
+[343.039 - 348.0] i'll show you around the uh the repo a
+
+[345.199 - 350.479] little bit more um let's see oh yeah
+
+[348.0 - 352.56] that's what i can show you uh so here's
+
+[350.479 - 354.88] an example of one prompt i used a
+
+[352.56 - 357.12] davinci instruct to create the synthetic
+
+[354.88 - 359.199] data set i said write a list of moral
+
+[357.12 - 361.36] and ethical questions an observer would
+
+[359.199 - 363.84000000000003] ask about the following passages
+
+[361.36 - 365.039] and then i did this to generate
+
+[363.84 - 367.52] questions
+
+[365.039 - 369.68] um the questions field
+
+[367.52 - 372.639] oh there we go okay it ran
+
+[369.68 - 374.24] so here we go so i i put in this and
+
+[372.639 - 375.36] because of the fine-tuned data set that
+
+[374.24 - 377.12] i had
+
+[375.36 - 378.88] these are the questions that spit out
+
+[377.12 - 381.12] what is the next move so for someone
+
+[378.88 - 383.12] with a bs in biology and a contract job
+
+[381.12 - 384.88] ending soon that's a perfectly valid
+
+[383.12 - 386.4] question um
+
+[384.88 - 388.4] you know it might be grad school it
+
+[386.4 - 390.08] might be another job what are the next
+
+[388.4 - 391.44] steps in becoming a researcher or
+
+[390.08 - 393.35999999999996] entrepreneur
+
+[391.44 - 394.96] what is the most important question to
+
+[393.36 - 397.199] ask oneself when considering going back
+
+[394.96 - 398.79999999999995] to school for a masters what is covid
+
+[397.199 - 401.12] and what does it do
+
+[398.8 - 404.8] gpt3 doesn't know what covid is because
+
+[401.12 - 409.44] gpt3 was trained before covet existed so
+
+[404.8 - 412.16] these questions could be used for
+
+[409.44 - 414.24] either responding to the person or
+
+[412.16 - 415.68] they could be asked internally so that's
+
+[414.24 - 417.84000000000003] how i use it in
+
+[415.68 - 421.199] natural language cognitive architecture
+
+[417.84 - 423.19899999999996] is it asks internal questions because
+
+[421.199 - 425.12] the answers to those internal questions
+
+[423.199 - 426.479] might also be helpful
+
+[425.12 - 428.08] in order to
+
+[426.479 - 429.68] help the end user
+
+[428.08 - 430.71999999999997] so yeah there you have it that's one
+
+[429.68 - 432.479] example
+
+[430.72 - 435.12] and while we've got it loaded let me go
+
+[432.479 - 437.199] ahead and give another one
+
+[435.12 - 439.68] let's see how do i stay positive during
+
+[437.199 - 441.52000000000004] the depressing stages of a job hunt i
+
+[439.68 - 443.44] think this uh this
+
+[441.52 - 445.75899999999996] these subred or these reddit posts uh
+
+[443.44 - 449.039] almost certainly came from um
+
+[445.759 - 450.47900000000004] from an academic or or job
+
+[449.039 - 451.759] job hunting
+
+[450.479 - 453.75899999999996] subreddit alright so let's see what it
+
+[451.759 - 456.24] says here one thing you'll also notice
+
+[453.759 - 457.68] is well i think it took two i let it
+
+[456.24 - 459.44] unload so it'll take a minute oh there
+
+[457.68 - 460.96] we go once it actually does load it's
+
+[459.44 - 463.52] very fast because these are based on
+
+[460.96 - 466.15999999999997] curie and curie is 10 times smaller than
+
+[463.52 - 467.599] da vinci and and is therefore very very
+
+[466.16 - 469.52000000000004] fast
+
+[467.599 - 471.919] okay so how do i stay positive six
+
+[469.52 - 473.84] months ago i left a job with a major
+
+[471.919 - 476.15999999999997] publisher due to unhealthy work
+
+[473.84 - 478.79999999999995] environment i'm a very qualified editor
+
+[476.16 - 480.96000000000004] etc etc okay so what is the writer's
+
+[478.8 - 482.639] current job title and company
+
+[480.96 - 484.479] they might be unemployed
+
+[482.639 - 486.479] what are the writers interest in hobbies
+
+[484.479 - 487.919] is the current job a good fit for the
+
+[486.479 - 489.599] writers interests and hobbies do you
+
+[487.919 - 491.84] think the current job will provide good
+
+[489.599 - 493.599] income
+
+[491.84 - 496.0] in this case
+
+[493.599 - 497.759] let's see
+
+[496.0 - 499.84] did they
+
+[497.759 - 503.36] yeah six months ago he left i knew the
+
+[499.84 - 505.75899999999996] position i accepted was only temporary
+
+[503.36 - 507.599] and this oh okay he is still in a
+
+[505.759 - 509.28000000000003] transitional position all right i was i
+
+[507.599 - 512.479] was afraid that it had misunderstood
+
+[509.28 - 514.8] anyways from reading this it seems
+
+[512.479 - 517.839] he's he is
+
+[514.8 - 519.5989999999999] he is presently working okay um although
+
+[517.839 - 521.7600000000001] it's it's a little ambiguous so maybe
+
+[519.599 - 522.719] maybe the maybe the model didn't pick up
+
+[521.76 - 524.959] on that
+
+[522.719 - 527.44] um but yeah these are
+
+[524.959 - 528.3199999999999] these are perfectly valid questions to
+
+[527.44 - 530.32] ask
+
+[528.32 - 532.88] right uh maybe they're not the most
+
+[530.32 - 535.839] salient questions but this post is also
+
+[532.88 - 538.24] a little bit all over the place right
+
+[535.839 - 540.08] but by asking follow-up questions you
+
+[538.24 - 541.6] can kind of zero in on what someone
+
+[540.08 - 544.32] actually needs
+
+[541.6 - 546.399] but again also you could put anything in
+
+[544.32 - 548.88] this you could put a newspaper article
+
+[546.399 - 551.44] you can put a wikipedia article in and
+
+[548.88 - 554.56] you'll get all kinds of um
+
+[551.44 - 556.24] all kinds of uh salient questions to ask
+
+[554.56 - 557.68] which you could use them for anything
+
+[556.24 - 559.6] you can use them for chat bots you can
+
+[557.68 - 560.64] use them for test questions
+
+[559.6 - 563.9200000000001] and again
+
+[560.64 - 566.0] this is nauka question generator it's
+
+[563.92 - 567.8389999999999] public it's available to all under the
+
+[566.0 - 570.72] mit license
+
+[567.839 - 572.0] right here so everyone can use it
+
+[570.72 - 573.839] and there you have it there's a
+
+[572.0 - 576.959] perfectly good demonstration of how to
+
+[573.839 - 579.6800000000001] how to how to use it the training file
+
+[576.959 - 581.5189999999999] is right here it's the questions.jsonl
+
+[579.68 - 584.7199999999999] you can create your own
+
+[581.519 - 587.44] you can take this it is ready to go with
+
+[584.72 - 589.6] openai's gpt3
+
+[587.44 - 593.08] yep and i think that's about it
+
+[589.6 - 593.08] thanks for watching

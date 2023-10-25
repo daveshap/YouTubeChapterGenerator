@@ -1,0 +1,1117 @@
+[0.659 - 4.44] hey everybody David Shapiro here with
+
+[2.76 - 8.04] another video so it's a really exciting
+
+[4.44 - 10.139] time because research is accelerating
+
+[8.04 - 11.7] um just in the last couple days a whole
+
+[10.139 - 15.66] bunch of interesting papers have come
+
+[11.7 - 17.939999999999998] out on archive and um you know I I could
+
+[15.66 - 20.1] read them all myself the the hard way
+
+[17.94 - 23.699] the long way but you know what I'm
+
+[20.1 - 25.619] really lazy and you know how uh Mr Henry
+
+[23.699 - 26.580000000000002] Ford he said uh allegedly said I don't
+
+[25.619 - 28.56] know if he actually said this but he
+
+[26.58 - 30.0] said uh give your hardest problems to
+
+[28.56 - 31.799999999999997] the laziest Engineers because they'll
+
+[30.0 - 33.239] find an easier way to do it that's me
+
+[31.8 - 35.46] that's why I became an automation
+
+[33.239 - 37.32] engineer uh back in the day I told
+
+[35.46 - 40.02] people like I would rather spend a week
+
+[37.32 - 41.579] building an automation tool that I can
+
+[40.02 - 43.379000000000005] then just push the button and for the
+
+[41.579 - 45.96] rest of my life it makes that job easier
+
+[43.379 - 48.78] and guess what that's how I automated a
+
+[45.96 - 50.82] three petabyte environment because why I
+
+[48.78 - 53.82] didn't want to manage it myself okay so
+
+[50.82 - 55.980000000000004] uh with the volume of paper that came
+
+[53.82 - 59.46] out because all of these came out Monday
+
+[55.98 - 61.44] so we've got five interesting papers
+
+[59.46 - 63.719] that came out on the same day and this
+
+[61.44 - 65.58] happens pretty much every day lately and
+
+[63.719 - 69.06] it is entirely too much to keep up with
+
+[65.58 - 71.34] so rather than having to read all of
+
+[69.06 - 73.32000000000001] these papers every day I wanted a way to
+
+[71.34 - 76.32000000000001] digest them so I could quickly just one
+
+[73.32 - 79.38] skim and keep on top of things uh and
+
+[76.32 - 81.24] then also just uh basically make it
+
+[79.38 - 83.15899999999999] sustainable or make it operationalized
+
+[81.24 - 84.72] and so what I mean by that is something
+
+[83.159 - 87.14] that you can just fully automate and
+
+[84.72 - 89.939] then just maybe get an email every day
+
+[87.14 - 91.43900000000001] or you know have the interns do it or
+
+[89.939 - 92.939] use this as part of your literature
+
+[91.439 - 94.32] review for science because one of the
+
+[92.939 - 96.96] things that I want to do
+
+[94.32 - 100.38] is use this technology to accelerate
+
+[96.96 - 101.69999999999999] science as much as possible and uh you
+
+[100.38 - 103.439] know one of the things that I hear from
+
+[101.7 - 105.18] some of my friends in science is that
+
+[103.439 - 107.88] just keeping up with things is getting
+
+[105.18 - 110.34] harder and harder uh at least in these
+
+[107.88 - 111.96] high velocity spaces some places like
+
+[110.34 - 114.24000000000001] oceanography they don't change that much
+
+[111.96 - 116.22] they don't change that fast but
+
+[114.24 - 118.56] certainly computer science artificial
+
+[116.22 - 121.079] intelligence uh and that sort of thing
+
+[118.56 - 123.72] cyber security Quantum Computing these
+
+[121.079 - 127.079] things are moving so incredibly fast we
+
+[123.72 - 130.02] need the AI to help us keep up so let me
+
+[127.079 - 131.459] show you what I've done uh let's see
+
+[130.02 - 132.9] where should I start I guess I'll just
+
+[131.459 - 134.94] start with uh some some of the final
+
+[132.9 - 137.22] reports so basically what I do is I just
+
+[134.94 - 139.85999999999999] copy paste the text of the thing into
+
+[137.22 - 141.12] here obviously the figures help but
+
+[139.86 - 142.37900000000002] language models are already pretty
+
+[141.12 - 145.56] intelligent so they don't even really
+
+[142.379 - 147.89999999999998] need the figures and then what I do is I
+
+[145.56 - 150.72] feed it a series of
+
+[147.9 - 153.84] um of questions and it gives me answers
+
+[150.72 - 157.14] and so this basically summarizes it from
+
+[153.84 - 158.81900000000002] you know know maybe twenty thousand
+
+[157.14 - 160.92] forty thousand hundred thousand
+
+[158.819 - 163.14] characters down to four thousand
+
+[160.92 - 165.83999999999997] characters so we get a compression ratio
+
+[163.14 - 167.879] of at least five to one but also it's
+
+[165.84 - 169.26] often in much simpler language and
+
+[167.879 - 171.17999999999998] probably what I'll do is I'll add a
+
+[169.26 - 173.39999999999998] second step that will render this as an
+
+[171.18 - 174.84] HTML document maybe I'll do that at the
+
+[173.4 - 178.20000000000002] end
+
+[174.84 - 180.239] um but anyways so the idea is I plug in
+
+[178.2 - 181.92] the text if it's if it's a little too
+
+[180.239 - 184.31900000000002] long it'll trim it but you know you get
+
+[181.92 - 186.95899999999997] the first 22 000 characters of a paper
+
+[184.319 - 188.45899999999997] you've got the general gist
+
+[186.959 - 191.22] um and in many cases you actually have
+
+[188.459 - 192.78] the whole paper uh now so I say can you
+
+[191.22 - 194.159] give me a very clear explanation of the
+
+[192.78 - 196.739] core assertions implications and
+
+[194.159 - 198.89999999999998] mechanics elucidated in this paper very
+
+[196.739 - 200.4] simple prompt it comes back and says you
+
+[198.9 - 202.44] know yada yada yada the paper explores
+
+[200.4 - 204.72] the concept of continual learning okay
+
+[202.44 - 207.3] cool uh you know so it asks that
+
+[204.72 - 210.06] question and so basically this is a this
+
+[207.3 - 212.4] is a standard chat GPT conversation so
+
+[210.06 - 213.42000000000002] this is a way to implement a chain of
+
+[212.4 - 215.81900000000002] thinking
+
+[213.42 - 218.04] um but it's really an automated dialogue
+
+[215.819 - 220.2] so imagine that you you have an intern
+
+[218.04 - 222.0] or a research assistant that read the
+
+[220.2 - 224.39999999999998] paper and you can ask them a couple
+
+[222.0 - 227.04] questions and you can change this uh on
+
+[224.4 - 229.08] your own by the way very easily so in
+
+[227.04 - 230.519] the code I have it here you can just add
+
+[229.08 - 232.62] whatever questions or change whatever
+
+[230.519 - 234.659] questions you want here and it will be
+
+[232.62 - 237.78] happy to take it and run with with it
+
+[234.659 - 239.34] for you entirely on its own so you
+
+[237.78 - 242.04] change these questions if you want you
+
+[239.34 - 243.72] add more you know depending on the
+
+[242.04 - 247.019] research that you're looking for so
+
+[243.72 - 249.18] let's say for instance you are in a very
+
+[247.019 - 251.519] specific domain maybe you're trying to
+
+[249.18 - 253.08] do this for medical research and you're
+
+[251.519 - 256.979] really just looking for what are the
+
+[253.08 - 259.199] implications for let's say Rejuvenation
+
+[256.979 - 261.479] therapy or regenerative medicine or even
+
+[259.199 - 262.979] a something even more specific maybe
+
+[261.479 - 266.58] you're trying to research a specific
+
+[262.979 - 268.44] kind of cancer or a specific uh any kind
+
+[266.58 - 271.19899999999996] of metabolic disorder really
+
+[268.44 - 272.4] so then you can say first you want it to
+
+[271.199 - 274.44] just tell me what are the implications
+
+[272.4 - 276.65999999999997] and then you could say okay what are the
+
+[274.44 - 279.54] implications with respect to my
+
+[276.66 - 281.52000000000004] particular domain what are the what what
+
+[279.54 - 284.16] is you know what is the what is the
+
+[281.52 - 285.96] impact to my area of research so restate
+
+[284.16 - 288.36] it for me and then you can have it
+
+[285.96 - 289.68] automatically spider a whole bunch of
+
+[288.36 - 291.41900000000004] documents so one of the things that I'm
+
+[289.68 - 294.54] going to do with this is that rather
+
+[291.419 - 295.919] than have just one input at a time I'm
+
+[294.54 - 297.6] going to create a folder where you give
+
+[295.919 - 299.94] it you just download the PDFs to
+
+[297.6 - 301.97900000000004] directly it'll scrape the PDFs and go
+
+[299.94 - 304.62] through all of them as part of the
+
+[301.979 - 306.59999999999997] automated process and it'll whatever the
+
+[304.62 - 308.22] questions that you have it will kind of
+
+[306.6 - 310.08000000000004] break it down but anyways
+
+[308.22 - 312.06] so I have a I have a few standard
+
+[310.08 - 313.38] questions can you explain the value of
+
+[312.06 - 315.6] this in basic terms like you're talking
+
+[313.38 - 318.06] to a CEO so what what's the bottom line
+
+[315.6 - 319.97900000000004] here and it's really good at explaining
+
+[318.06 - 322.08] things in simple terms so in this case
+
+[319.979 - 324.18] uh this paper says the research is about
+
+[322.08 - 325.62] making code generation models which are
+
+[324.18 - 327.84000000000003] tools that help programmers by
+
+[325.62 - 329.699] automating some of their work more
+
+[327.84 - 331.5] adaptable and efficient currently these
+
+[329.699 - 332.82] models need to be retrained every time
+
+[331.5 - 334.919] there's a significant change to the
+
+[332.82 - 336.3] programming languages or libraries they
+
+[334.919 - 338.58] work with which this is what some people
+
+[336.3 - 340.56] are noticing and I notice this too is
+
+[338.58 - 342.96] that sometimes it'll program with an
+
+[340.56 - 345.36] outdated version which of course limits
+
+[342.96 - 346.979] the utility of coding models
+
+[345.36 - 348.12] the bottom line is that this research
+
+[346.979 - 349.979] could lead to more efficient and
+
+[348.12 - 351.36] adaptable code generation models this
+
+[349.979 - 352.62] means less time and money spent on
+
+[351.36 - 353.88] retraining these models and more
+
+[352.62 - 356.039] up-to-date and effective tools for
+
+[353.88 - 357.78] programmers so the implication for this
+
+[356.039 - 359.759] just reading that one paragraph to me
+
+[357.78 - 362.69899999999996] says okay cool this is going to be part
+
+[359.759 - 365.34000000000003] of the acceleration because if we come
+
+[362.699 - 367.44] up with a way to make coding models uh
+
+[365.34 - 370.13899999999995] updated they're updatable you know using
+
+[367.44 - 371.639] continuous learning great excellent and
+
+[370.139 - 372.66] then I said can you give me an analogy
+
+[371.639 - 374.40000000000003] or metaphor that will help me explain
+
+[372.66 - 377.58000000000004] this to a broad audience why because I'm
+
+[374.4 - 379.85999999999996] a YouTuber right so the basically what I
+
+[377.58 - 383.46] want is to be able to explain this paper
+
+[379.86 - 385.56] in real basic terms real fast and
+
+[383.46 - 387.23999999999995] contrary to the belief about a year ago
+
+[385.56 - 389.46] language models are actually really good
+
+[387.24 - 390.6] at analogy and metaphor
+
+[389.46 - 392.09999999999997] um so it says sure let's think of the
+
+[390.6 - 393.90000000000003] code generation models as chefs in a
+
+[392.1 - 395.34000000000003] kitchen kitchen these chefs are trained
+
+[393.9 - 396.9] to prepare a variety of dishes using
+
+[395.34 - 399.23999999999995] specific recipes and ingredients however
+
+[396.9 - 401.21999999999997] the culinary world is always evolving
+
+[399.24 - 403.259] with new recipes and ingredients being
+
+[401.22 - 405.24] introduced regularly in the current
+
+[403.259 - 407.28000000000003] scenario every time a new recipe or
+
+[405.24 - 408.78000000000003] ingredient is introduced the chef has to
+
+[407.28 - 411.23999999999995] go through a complete retraining process
+
+[408.78 - 413.039] which is time consuming and expensive
+
+[411.24 - 414.539] it's as if the chef forgets all of the
+
+[413.039 - 417.18] old recipes when they learn a new one
+
+[414.539 - 419.34] see that's a good metaphor
+
+[417.18 - 422.46] or I guess that's an analogy that's not
+
+[419.34 - 423.65999999999997] a metaphor the researchers in this study
+
+[422.46 - 424.919] developed a new Training Method for
+
+[423.66 - 426.47900000000004] these chefs instead of forgetting old
+
+[424.919 - 428.06] recipes when learning new ones the chefs
+
+[426.479 - 430.44] can now continually learn and adapt
+
+[428.06 - 432.12] adding new recipes to the repertoire
+
+[430.44 - 433.44] while still remembering the old ones
+
+[432.12 - 434.699] this is like a chef who can learn to
+
+[433.44 - 436.259] cook a new dish while still remembering
+
+[434.699 - 438.06] to cook all the previous dishes they've
+
+[436.259 - 439.56] ever learned this new Training Method is
+
+[438.06 - 442.259] called prompt pooling with teacher for
+
+[439.56 - 443.699] Teacher forcing makes chefs or in the
+
+[442.259 - 445.319] real case the code generation models
+
+[443.699 - 447.72] more efficient and adaptable yada yada
+
+[445.319 - 449.34000000000003] okay you get the idea so this only takes
+
+[447.72 - 450.59900000000005] a few seconds and it takes only a few
+
+[449.34 - 452.81899999999996] cents to run
+
+[450.599 - 454.319] and so actually probably what I'll do is
+
+[452.819 - 456.0] I'll pause it and I'll I'll go ahead and
+
+[454.319 - 457.62] update it so that it'll just ingest
+
+[456.0 - 459.599] everything in a folder and then I'll
+
+[457.62 - 462.56] show you a nice cleaned up output so
+
+[459.599 - 462.56] actually we'll be right back
+
+[463.02 - 466.08] um okay so speaking of being lazy I just
+
+[464.759 - 467.46000000000004] wanted to show you real quick I'm using
+
+[466.08 - 469.68] my coding chat bot to do this because
+
+[467.46 - 472.85999999999996] I'm ultra lazy
+
+[469.68 - 474.479] work smart not hard so basically I took
+
+[472.86 - 476.699] the script and I just copied it into my
+
+[474.479 - 477.9] coding chat bot uh which you can find it
+
+[476.699 - 479.52000000000004] it's literally just called coding
+
+[477.9 - 482.15999999999997] underscore chatbot underscore assistant
+
+[479.52 - 484.74] on my GitHub so I copied the script that
+
+[482.16 - 486.24] I had which is all of 99 lines and I
+
+[484.74 - 487.919] came over to my coding chatbot and I
+
+[486.24 - 489.90000000000003] said hey can you do this for me instead
+
+[487.919 - 492.9] and it's like sure
+
+[489.9 - 495.9] um Okay cool so uh basically I said
+
+[492.9 - 498.479] let's get a folder so we're using this
+
+[495.9 - 500.34] folder so we can just download the PDFs
+
+[498.479 - 502.28] directly to there rather than copy and
+
+[500.34 - 505.25899999999996] pasting the text and we're just gonna
+
+[502.28 - 506.94] take the output folder or the input
+
+[505.259 - 510.41900000000004] folder for the PDFs and then an output
+
+[506.94 - 514.44] folder for the um Whatchamacallit whoops
+
+[510.419 - 518.52] okay so we come over to here and it
+
+[514.44 - 519.3000000000001] wants us to add OS and Pi PDF
+
+[518.52 - 522.959] um
+
+[519.3 - 525.06] that's fine so we add that and then we
+
+[522.959 - 527.88] see what else it wants to do if name
+
+[525.06 - 529.0799999999999] equals main yep so it's going to do all
+
+[527.88 - 531.54] that
+
+[529.08 - 532.98] PDF file replace yep cool so I just I
+
+[531.54 - 534.8389999999999] gave it really simple instructions I
+
+[532.98 - 536.76] said can you modify this script so that
+
+[534.839 - 539.0400000000001] it will one open every PDF in the input
+
+[536.76 - 542.04] folder one by one and perform the same
+
+[539.04 - 545.959] operation and two check an output folder
+
+[542.04 - 549.18] for the report as the same PDF uh or
+
+[545.959 - 550.6199999999999] blah check the output folder for a file
+
+[549.18 - 552.0] of the same name this will enable us to
+
+[550.62 - 553.14] run batches without duplicating effort
+
+[552.0 - 554.94] should be pretty straightforward let me
+
+[553.14 - 558.12] know if you have any questions
+
+[554.94 - 561.6] um and okay so let's put this over here
+
+[558.12 - 562.8] and see if it worked
+
+[561.6 - 566.279] okay
+
+[562.8 - 568.4399999999999] so um PDF files for files in OS Lister
+
+[566.279 - 569.519] that looks right
+
+[568.44 - 573.36] um
+
+[569.519 - 575.88] open read binary as file PDF reader yep
+
+[573.36 - 577.62] so we get that it gets all the page
+
+[575.88 - 579.12] numbers that should all work I've used
+
+[577.62 - 583.2] that I've used this this module before
+
+[579.12 - 586.14] pi pdf2 and PDF file reader if it's over
+
+[583.2 - 588.779] 22 000 characters just cut it off it
+
+[586.14 - 591.779] seems to work well enough and then we
+
+[588.779 - 593.9399999999999] get the report so on and so forth
+
+[591.779 - 597.38] um let's see
+
+[593.94 - 601.4590000000001] it looks like it's not actually checking
+
+[597.38 - 604.5] if the file exists
+
+[601.459 - 606.0] yep okay so this is this is close so
+
+[604.5 - 608.04] let's take this over to the scratch pad
+
+[606.0 - 610.1] and then we'll say
+
+[608.04 - 610.0999999999999] um
+
+[610.92 - 614.5799999999999] let's see it will then check the output
+
+[612.72 - 616.76] folder for the report wait am I missing
+
+[614.58 - 616.76] something
+
+[616.98 - 624.9590000000001] it doesn't have a continue function
+
+[620.04 - 629.5799999999999] um okay sorry I I think we need to check
+
+[624.959 - 634.4399999999999] um if the final file name exists in the
+
+[629.58 - 640.1600000000001] output folder first and then use a
+
+[634.44 - 643.08] continue to skip the process make sense
+
+[640.16 - 644.519] I found that if you obviously like if
+
+[643.08 - 646.62] you get frustrated with like no you eat
+
+[644.519 - 648.66] it like it'll be apologetic and it'll
+
+[646.62 - 650.04] spend more time apologizing
+
+[648.66 - 651.3] um so don't be mean to the machine if
+
+[650.04 - 652.62] you just say sorry I think there was a
+
+[651.3 - 654.7199999999999] misunderstanding it's actually much more
+
+[652.62 - 657.6] helpful so words matter
+
+[654.72 - 659.4590000000001] um be polite to your coding assistant
+
+[657.6 - 661.5] um because if it's if just like a human
+
+[659.459 - 663.5999999999999] if the human is spending mental energy
+
+[661.5 - 665.82] trying to placate you know a frustrated
+
+[663.6 - 669.899] friend or whatever it's going to waste a
+
+[665.82 - 669.899] little bit more time and energy okay
+
+[670.019 - 672.72] um sure here's the modified script the
+
+[671.579 - 674.16] script will first check if the report
+
+[672.72 - 675.72] already exists in the output folder if
+
+[674.16 - 677.8199999999999] it does it will skip the current PDF and
+
+[675.72 - 680.22] move to the next one excellent so let's
+
+[677.82 - 683.7600000000001] check this out and see
+
+[680.22 - 686.899] if it works if it if it looks how I
+
+[683.76 - 686.899] think it should look
+
+[686.94 - 692.7] so we'll come over here all right so for
+
+[690.0 - 694.74] PDF file and PDF files first all right
+
+[692.7 - 697.6800000000001] yep so first we list there we go that's
+
+[694.74 - 699.12] what I was expecting if it exists then
+
+[697.68 - 701.9399999999999] continue so you just skip the whole
+
+[699.12 - 703.5] thing otherwise go ahead and open it yep
+
+[701.94 - 705.24] there we go so we said because we set
+
+[703.5 - 706.98] the file name first all right so this
+
+[705.24 - 709.5] should be fine
+
+[706.98 - 712.019] um okay I think that's I think that's uh
+
+[709.5 - 714.36] good so let's come over here let's exit
+
+[712.019 - 715.8] out of my coding chatbot assistant
+
+[714.36 - 717.12] um so again like I had to put very
+
+[715.8 - 718.68] little energy into that all I had to do
+
+[717.12 - 721.079] was check and honestly what I could have
+
+[718.68 - 722.76] done is just ask it to check its work
+
+[721.079 - 724.92] like you know does it do the thing that
+
+[722.76 - 727.079] I think it is but you saw I didn't
+
+[724.92 - 730.5] really do any coding all I did was copy
+
+[727.079 - 733.1999999999999] paste okay uh so let's go back out of
+
+[730.5 - 736.5] here quickly extract science papers and
+
+[733.2 - 741.839] then we'll do python whoops generate
+
+[736.5 - 743.04] multiple reports no module named pi pdf2
+
+[741.839 - 745.1] I thought I already had it maybe that
+
+[743.04 - 748.1999999999999] was my previous install pip install
+
+[745.1 - 752.1800000000001] ipdf two
+
+[748.2 - 752.1800000000001] Pi PD F2
+
+[752.76 - 757.14] this is the boring part okay now it
+
+[754.92 - 759.7199999999999] should work
+
+[757.14 - 762.12] um is deprecator and was removed used
+
+[759.72 - 765.72] PDF reader instead so this is exactly
+
+[762.12 - 767.94] exactly the problem that uh that the um
+
+[765.72 - 769.62] uh this one of the papers addresses is
+
+[767.94 - 772.8000000000001] the fact that the modules have been
+
+[769.62 - 775.26] updated and so now it's it's uh out of
+
+[772.8 - 777.54] date so we gotta go we gotta go switch
+
+[775.26 - 780.899] to this thing over here
+
+[777.54 - 783.0] um all right oh I forgot to save it
+
+[780.899 - 785.459] that could be a problem
+
+[783.0 - 788.76] um all right so
+
+[785.459 - 791.0999999999999] if it ends with otherwise
+
+[788.76 - 792.779] all right let's see if that fixed it and
+
+[791.1 - 795.36] also it might have yard anyways because
+
+[792.779 - 798.36] I forgot to save uh reader num pages is
+
+[795.36 - 800.1] deprecated use Len reader pages instead
+
+[798.36 - 801.66] okay at least at least their
+
+[800.1 - 803.16] documentation is good and it's helping
+
+[801.66 - 805.519] me fix it
+
+[803.16 - 805.519] um okay
+
+[807.72 - 809.839] um
+
+[812.16 - 817.92] okay that should be good
+
+[814.86 - 818.79] int object is not iterable
+
+[817.92 - 819.959] uh
+
+[818.79 - 824.04] [Music]
+
+[819.959 - 827.3389999999999] and um let's see for page in so if we're
+
+[824.04 - 829.139] doing a length so that's an end we don't
+
+[827.339 - 832.019] need that we just need number of pages
+
+[829.139 - 837.899] so we should do um
+
+[832.019 - 839.4590000000001] uh let's see list of range of 0 to was
+
+[837.899 - 841.62] it zero to that I think that's how that
+
+[839.459 - 843.18] formatting is so I'm having to fix some
+
+[841.62 - 845.279] of it because exactly the problem
+
+[843.18 - 846.2399999999999] virtual list cannot be interpreted as an
+
+[845.279 - 848.3389999999999] integer
+
+[846.24 - 851.04] hang on
+
+[848.339 - 853.2600000000001] huh
+
+[851.04 - 855.98] let me just come back over here and say
+
+[853.26 - 858.899] um I don't know what I'm doing I'm lost
+
+[855.98 - 861.5600000000001] uh python chat
+
+[858.899 - 861.56] um let's see
+
+[867.06 - 870.1199999999999] I got
+
+[868.56 - 874.3389999999999] shift enter
+
+[870.12 - 874.339] um and you help me I'm lost
+
+[879.24 - 884.6] I probably have the the range formatted
+
+[881.94 - 884.6] wrong or something
+
+[885.6 - 892.38] um let's see is typically blah blah okay
+
+[889.5 - 894.74] four page in list range zero PDF reader
+
+[892.38 - 894.74] pages
+
+[895.92 - 899.5999999999999] yeah that's the that's the correct line
+
+[904.26 - 909.42] list range zero length Okay interesting
+
+[907.5 - 911.459] okay so it was it was not lying to me
+
+[909.42 - 913.74] when it said I needed length of PDF
+
+[911.459 - 915.56] reader Pages all right cool so let's see
+
+[913.74 - 919.0790000000001] if that fixed it so let's come over here
+
+[915.56 - 921.06] so four page in it seems like it's
+
+[919.079 - 924.0] getting kind of long
+
+[921.06 - 926.9399999999999] all right here let's just open another
+
+[924.0 - 930.24] terminal uh CD quickly
+
+[926.94 - 932.6990000000001] yada yada yada anyways well here let me
+
+[930.24 - 935.339] just go ahead and see if it works python
+
+[932.699 - 937.26] generate
+
+[935.339 - 939.1800000000001] still doesn't work it's deprecated and
+
+[937.26 - 942.079] removed
+
+[939.18 - 942.079] oh okay
+
+[943.019 - 947.16] there we go reader pages
+
+[945.24 - 949.279] so we found another bug
+
+[947.16 - 949.279] um
+
+[951.36 - 957.86] the page num
+
+[954.12 - 957.86] almost there oops
+
+[957.959 - 961.68] reader is not defined
+
+[959.84 - 965.9590000000001] [Laughter]
+
+[961.68 - 965.959] uh oh right PDF reader there we go
+
+[967.68 - 973.9799999999999] extract text is deprecated and removed
+
+[970.44 - 976.74] use extract underscore text instead
+
+[973.98 - 979.74] man okay this is like an object lesson
+
+[976.74 - 981.839] as to why uh why this uh continuous
+
+[979.74 - 983.339] learning needs to be done okay cool now
+
+[981.839 - 986.0400000000001] it's thinking all right I think we fixed
+
+[983.339 - 989.22] it so ideally what should happen is uh
+
+[986.04 - 991.019] we'll get a list of outputs here that
+
+[989.22 - 993.0600000000001] are going to have the same name as those
+
+[991.019 - 994.74] so then it will not uh duplicate the
+
+[993.06 - 996.959] efforts in the future I'll go ahead and
+
+[994.74 - 1000.259] delete the reports folder uh we can
+
+[996.959 - 1003.8599999999999] delete the inputs delete the generate
+
+[1000.259 - 1005.3000000000001] report there we go okay so here we go
+
+[1003.86 - 1007.339] The Continuous learning this would have
+
+[1005.3 - 1010.0999999999999] actually helped this so this will
+
+[1007.339 - 1011.4200000000001] actually uh this kind of thing I've
+
+[1010.1 - 1014.1800000000001] actually had some conversations with
+
+[1011.42 - 1017.24] people because with chat GPT having had
+
+[1014.18 - 1019.9399999999999] the cutoff date in 2021 it's already
+
+[1017.24 - 1022.279] losing utility because it's increasingly
+
+[1019.94 - 1023.839] out of date some of that I think is
+
+[1022.279 - 1025.16] deliberate on the part of open AI
+
+[1023.839 - 1027.939] because they didn't want it to be able
+
+[1025.16 - 1030.5] to use other people to use it to
+
+[1027.939 - 1033.199] accelerate language model research or
+
+[1030.5 - 1036.26] who knows what else is going on
+
+[1033.199 - 1038.66] um but yeah so there there it is so we
+
+[1036.26 - 1041.36] should have our first output here there
+
+[1038.66 - 1043.52] we go so now you can correlate it back
+
+[1041.36 - 1046.04] to exactly the same thing and you will
+
+[1043.52 - 1048.199] be able to just quickly grab a whole
+
+[1046.04 - 1049.34] bunch of stuff okay
+
+[1048.199 - 1052.8400000000001] um yep
+
+[1049.34 - 1052.84] excellent excellent excellent
+
+[1053.419 - 1059.179] um
+
+[1054.7 - 1061.24] python uh chat pie okay great
+
+[1059.179 - 1061.24] um
+
+[1061.88 - 1067.1000000000001] uh let's see
+
+[1064.34 - 1068.6] I have a folder
+
+[1067.1 - 1070.9399999999998] um or here let's go ahead and grab the
+
+[1068.6 - 1074.12] updated version of this
+
+[1070.94 - 1077.66] and put this no we can get rid of that
+
+[1074.12 - 1079.3999999999999] put this in scratch pad
+
+[1077.66 - 1081.0800000000002] so we've got
+
+[1079.4 - 1082.76] coding
+
+[1081.08 - 1084.9189999999999] scratch pad
+
+[1082.76 - 1089.5] all right so let's put it there and then
+
+[1084.919 - 1095.6000000000001] we'll say I have a folder uh output
+
+[1089.5 - 1100.4] that is full of uh uh text files
+
+[1095.6 - 1101.48] um with the file name being the name of
+
+[1100.4 - 1104.5590000000002] M
+
+[1101.48 - 1109.1200000000001] archive paper
+
+[1104.559 - 1113.78] I would like to render
+
+[1109.12 - 1114.7399999999998] all those files to HTML
+
+[1113.78 - 1117.9189999999999] um
+
+[1114.74 - 1122.36] let's use the file name
+
+[1117.919 - 1126.22] as a header where is my there we go
+
+[1122.36 - 1126.2199999999998] let's use the file name as a header
+
+[1126.38 - 1131.24] uh
+
+[1128.539 - 1132.62] for each section
+
+[1131.24 - 1136.58] um
+
+[1132.62 - 1138.2199999999998] and then there is uh there is a
+
+[1136.58 - 1141.34] conversation
+
+[1138.22 - 1145.76] of QA
+
+[1141.34 - 1150.9189999999999] within each file which I'd like to
+
+[1145.76 - 1153.08] present on the page pretty simply so
+
+[1150.919 - 1154.419] let's go ahead and grab an example of
+
+[1153.08 - 1156.799] the report
+
+[1154.419 - 1158.2990000000002] and put it in the scratch Pad so it can
+
+[1156.799 - 1160.4] see
+
+[1158.299 - 1162.08] because then in the scratch Pad you just
+
+[1160.4 - 1164.96] give it examples
+
+[1162.08 - 1169.24] um of what you're talking about you can
+
+[1164.96 - 1172.52] see an example of the plain text report
+
+[1169.24 - 1178.299] in your scratch Pad
+
+[1172.52 - 1181.48] um okay go uh the final output should be
+
+[1178.299 - 1186.799] report dot HTML
+
+[1181.48 - 1187.46] which should be fully self-contained
+
+[1186.799 - 1189.9189999999999] um
+
+[1187.46 - 1192.14] and pretty all right so let's see what
+
+[1189.919 - 1194.24] it gives me for that meanwhile this
+
+[1192.14 - 1197.3600000000001] should be the other one should be pretty
+
+[1194.24 - 1199.039] much done yep so we should have we've
+
+[1197.36 - 1200.84] got four we've got four papers
+
+[1199.039 - 1203.36] summarized and like I said this probably
+
+[1200.84 - 1204.1399999999999] cost a few cents
+
+[1203.36 - 1207.559] um
+
+[1204.14 - 1209.1200000000001] because it was uh you know it it does
+
+[1207.559 - 1210.62] add up a little bit because each paper
+
+[1209.12 - 1211.8799999999999] actually you
+
+[1210.62 - 1213.7399999999998] um you have to read the entire paper
+
+[1211.88 - 1215.96] three times because the conversation is
+
+[1213.74 - 1217.46] three messages long so that's that's one
+
+[1215.96 - 1218.96] of the only things to keep in mind is
+
+[1217.46 - 1221.0] that the the more questions you ask it
+
+[1218.96 - 1223.64] you're basically reading the entire
+
+[1221.0 - 1226.1] paper every time to keep asking or to
+
+[1223.64 - 1229.94] keep answering those questions about it
+
+[1226.1 - 1233.9599999999998] um let's see get status get add
+
+[1229.94 - 1236.24] get commit am all done
+
+[1233.96 - 1238.22] and uh get pushed so you guys can use
+
+[1236.24 - 1242.1200000000001] this and then let's hop up back over to
+
+[1238.22 - 1244.7] my coding chatbot to see what it said
+
+[1242.12 - 1246.86] okay cool
+
+[1244.7 - 1249.5] um let's see from bs4 import beautiful
+
+[1246.86 - 1251.8999999999999] soup and I'm just gonna fully send this
+
+[1249.5 - 1254.0] to see if it works
+
+[1251.9 - 1256.52] um just
+
+[1254.0 - 1258.679] all right so then not coding chatbot
+
+[1256.52 - 1262.0] quickly extract and we're going to come
+
+[1258.679 - 1265.299] up here and just save this as um uh
+
+[1262.0 - 1268.46] renderreport.pi so let's jump over here
+
+[1265.299 - 1271.46] oops wrong terminal python
+
+[1268.46 - 1271.46] renderreport.pi
+
+[1272.12 - 1278.4189999999999] um no module named bs4
+
+[1275.539 - 1284.0] um import uh no
+
+[1278.419 - 1286.72] pip install darn it pip install vs4
+
+[1284.0 - 1286.72] there we go
+
+[1287.6 - 1291.08] all right let's try that again
+
+[1289.28 - 1293.6589999999999] all right and that ran pretty much
+
+[1291.08 - 1296.4189999999999] instantly so let's see if that worked
+
+[1293.659 - 1297.74] hey cool look at that so it could be it
+
+[1296.419 - 1300.3200000000002] could it could stand to be a little bit
+
+[1297.74 - 1301.76] prettier but this is this is definitely
+
+[1300.32 - 1303.9189999999999] good enough
+
+[1301.76 - 1306.08] um where it's got each one with a header
+
+[1303.919 - 1308.3600000000001] and so there you have it you've now got
+
+[1306.08 - 1311.059] everything rendered to a nice report you
+
+[1308.36 - 1313.34] can print this to PDF if you want it's
+
+[1311.059 - 1316.039] searchable right you could you can say
+
+[1313.34 - 1318.1399999999999] okay uh prompt where else is prompt
+
+[1316.039 - 1320.24] listed excellent
+
+[1318.14 - 1323.1200000000001] um yeah so I think I'm done uh I'll be
+
+[1320.24 - 1324.919] using this uh to help with my video prep
+
+[1323.12 - 1327.559] I can imagine that there's a whole bunch
+
+[1324.919 - 1330.26] of other AI commentators out there who
+
+[1327.559 - 1331.76] might be used who might start using this
+
+[1330.26 - 1333.74] um but yeah it's super super simple
+
+[1331.76 - 1335.48] brain dead tool hopefully it'll help
+
+[1333.74 - 1337.52] accelerate science
+
+[1335.48 - 1339.74] um and yeah it's out there under the MIT
+
+[1337.52 - 1341.78] license so please take it use it let's
+
+[1339.74 - 1345.22] accelerate science let's accelerate all
+
+[1341.78 - 1345.22] science with this all right cheers

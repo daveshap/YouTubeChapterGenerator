@@ -1,0 +1,1609 @@
+[1.38 - 6.42] hey everybody David Shapiro here with a
+
+[4.14 - 8.219999999999999] video today's video is going to be a
+
+[6.42 - 9.84] slightly different flavor from what I
+
+[8.22 - 12.780000000000001] normally do still centered around
+
+[9.84 - 14.280000000000001] artificial intelligence so what I'm
+
+[12.78 - 17.46] going to do today is I'm going to talk
+
+[14.28 - 19.799999999999997] about a robot tax this is a proposal
+
+[17.46 - 21.6] that I've been kind of cooking around on
+
+[19.8 - 23.699] the back burner but I figured it's time
+
+[21.6 - 26.1] to talk about it
+
+[23.699 - 28.859] so the agenda for today's video is first
+
+[26.1 - 31.92] let's talk about the economic impact of
+
+[28.859 - 34.68] AI and automation why is it that we even
+
+[31.92 - 37.44] need to talk about redistribution and a
+
+[34.68 - 40.579] robot tax next we'll talk about what is
+
+[37.44 - 43.5] this proposed robot tax how does it work
+
+[40.579 - 45.660000000000004] uh we'll build a case for it say why we
+
+[43.5 - 48.239] need it and then we'll also look at some
+
+[45.66 - 53.16] of the objections around potential robot
+
+[48.239 - 56.64] tax and then we will recap the video so
+
+[53.16 - 59.279999999999994] automation has already destroyed a lot
+
+[56.64 - 61.739000000000004] of jobs it has created some jobs but it
+
+[59.28 - 63.96] has created fewer jobs than it has
+
+[61.739 - 65.64] destroyed this trend is only
+
+[63.96 - 68.7] accelerating
+
+[65.64 - 71.28] and this is despite what some tech CEOs
+
+[68.7 - 72.9] say for instance Sacha Nadella recently
+
+[71.28 - 76.14] said that you know Technologies like
+
+[72.9 - 76.86] being AI is going to create more jobs
+
+[76.14 - 80.46000000000001] um
+
+[76.86 - 82.68] I disagree and I think he knows that but
+
+[80.46 - 85.86] it's just a super unpopular thing to say
+
+[82.68 - 87.24000000000001] that AI is going to destroy jobs because
+
+[85.86 - 89.759] we don't have an answer yet we don't
+
+[87.24 - 91.86] have a solution and so if you say if you
+
+[89.759 - 94.08] come out and say oh yeah you know AI is
+
+[91.86 - 97.74] going to destroy 50 of jobs in the next
+
+[94.08 - 100.079] 10 years that's a super unpopular move
+
+[97.74 - 102.479] um but the bottom line is that machines
+
+[100.079 - 105.36] are cheaper than humans that's all there
+
+[102.479 - 107.52] is to it and part of capitalism part of
+
+[105.36 - 109.56] the free market economics is to find
+
+[107.52 - 111.24] efficiencies if machines are more
+
+[109.56 - 113.399] efficient than humans
+
+[111.24 - 114.78] then companies are going to use machines
+
+[113.399 - 117.84] it's that simple
+
+[114.78 - 119.88] so Industrial Automation in the form of
+
+[117.84 - 123.24000000000001] Robotics is already doing this even
+
+[119.88 - 126.17999999999999] before modern AI
+
+[123.24 - 129.47899999999998] now looking forward
+
+[126.18 - 132.59900000000002] AI has the potential of destroying more
+
+[129.479 - 134.58] than 60 percent of American jobs
+
+[132.599 - 138.89999999999998] so my personal prediction is that we're
+
+[134.58 - 140.87900000000002] going to see 70 unemployment by 2030.
+
+[138.9 - 142.92000000000002] so what happens when most Americans lose
+
+[140.879 - 144.54] their job permanently we basically have
+
+[142.92 - 147.54] two options there's going to be riot in
+
+[144.54 - 150.48] the streets or redistribution of wealth
+
+[147.54 - 151.62] and if basically the redistribution is
+
+[150.48 - 154.14] coming it's just whether or not the
+
+[151.62 - 156.84] riots happen first
+
+[154.14 - 158.64] so what we'll need to do is adopt an
+
+[156.84 - 161.28] abundance mentality and get rid of our
+
+[158.64 - 163.92] scarcity mentality basically right now
+
+[161.28 - 165.66] everything is a zero-sum game and we
+
+[163.92 - 167.28] have this crab mentality that says you
+
+[165.66 - 168.599] know what I got mine to heck with
+
+[167.28 - 171.54] everyone else
+
+[168.599 - 173.64] but instead we will need to decide
+
+[171.54 - 176.76] collectively if we want to redistribute
+
+[173.64 - 180.05999999999997] some of the value created by the rise of
+
+[176.76 - 181.98] Automation and AI
+
+[180.06 - 185.879] so what do I mean by this
+
+[181.98 - 188.64] it is forecasted that GDP will rise
+
+[185.879 - 189.599] faster than it has ever risen thanks to
+
+[188.64 - 192.35999999999999] AI
+
+[189.599 - 195.06] we're talking trillions upon trillions
+
+[192.36 - 197.58] of dollars of GDP growth
+
+[195.06 - 199.86] this is good for capitalism
+
+[197.58 - 202.26000000000002] I mean there's no other way of of
+
+[199.86 - 204.12] describing that the best thing to happen
+
+[202.26 - 205.67999999999998] to capitalism in the history of
+
+[204.12 - 208.62] capitalism will be artificial
+
+[205.68 - 211.56] intelligence the question becomes who
+
+[208.62 - 213.9] gets to capture that value and why
+
+[211.56 - 216.0] basically we have the choice of moving
+
+[213.9 - 218.28] towards a cyberpunk hell
+
+[216.0 - 220.68] or a solar Punk Utopia
+
+[218.28 - 222.9] and it's literally just a choice there's
+
+[220.68 - 225.06] nothing forcing it to go one way or the
+
+[222.9 - 227.64000000000001] other
+
+[225.06 - 230.34] so with that said
+
+[227.64 - 232.26] this is what I mean by robot tax
+
+[230.34 - 233.879] redistribution of benefits from
+
+[232.26 - 236.04] optimization Technologies or
+
+[233.879 - 237.89999999999998] alternatively redistribution of benefits
+
+[236.04 - 239.76] obtained through automation not really
+
+[237.9 - 242.81900000000002] sure if I like that a bolted on at the
+
+[239.76 - 246.599] end but the idea is we're redistributing
+
+[242.819 - 249.48] the benefits of AI and automation
+
+[246.599 - 253.319] all right so what is this robot tax
+
+[249.48 - 255.78] it is a comprehensive proposal that is
+
+[253.319 - 258.359] sort of like a Ubi a universal basic
+
+[255.78 - 260.88] income but one of the key differences
+
+[258.359 - 262.74] between a robot tax and a Ubi is that
+
+[260.88 - 265.199] it's not an entitlement
+
+[262.74 - 266.699] one problem with entitlement programs is
+
+[265.199 - 268.74] that they're not intrinsically funded
+
+[266.699 - 270.54] unless you bolt a tax on with it such as
+
+[268.74 - 272.58] like Medicare tax
+
+[270.54 - 276.36] so rather than just saying everyone is
+
+[272.58 - 278.88] entitled to a stimulus check every month
+
+[276.36 - 282.66] what if we have it so that it's actually
+
+[278.88 - 284.94] tied directly to a tax system attack
+
+[282.66 - 286.97900000000004] structure that means it is automatically
+
+[284.94 - 289.38] self-funded kind of like how we have
+
+[286.979 - 292.02] sales tax
+
+[289.38 - 294.96] um or gasoline subsidies so we've got
+
+[292.02 - 297.9] plenty of examples of taxes and
+
+[294.96 - 299.34] subsidies that are that are grafted onto
+
+[297.9 - 302.15999999999997] our economy
+
+[299.34 - 305.03999999999996] um with very specific purposes so if we
+
+[302.16 - 307.08000000000004] do it this way it's Superior to a Ubi
+
+[305.04 - 308.16] and that it's not just a fixed rate it's
+
+[307.08 - 310.85999999999996] actually going to be directly
+
+[308.16 - 313.68] proportional to how much impact AI has
+
+[310.86 - 315.90000000000003] had on the economy
+
+[313.68 - 318.3] so one thing that this does that the
+
+[315.9 - 321.29999999999995] robot tax does is it incentivizes
+
+[318.3 - 323.1] economic gains through automation Ai and
+
+[321.3 - 325.68] actually job displacement
+
+[323.1 - 328.86] so what I mean by this is that the robot
+
+[325.68 - 331.56] tax actually encourages people and
+
+[328.86 - 333.6] companies to replace human labor
+
+[331.56 - 334.74] basically this is a new paradigm of
+
+[333.6 - 338.699] thinking about it saying it's actually
+
+[334.74 - 341.16] good if we decouple economic growth from
+
+[338.699 - 343.02000000000004] the primary constraint of human labor
+
+[341.16 - 346.02000000000004] and we should reward companies for doing
+
+[343.02 - 348.12] this and then also reward people if they
+
+[346.02 - 349.68] help you know automate their jobs away
+
+[348.12 - 351.84000000000003] or if they get their job automated away
+
+[349.68 - 353.58] out from under them because then they're
+
+[351.84 - 355.82] they're liberated to work on other
+
+[353.58 - 355.82] things
+
+[356.4 - 362.21999999999997] so rather than fight this trend we
+
+[359.58 - 364.08] should embrace it right you know you may
+
+[362.22 - 367.199] there's there's no stopping a rising
+
+[364.08 - 370.5] tide there's no changing you know a
+
+[367.199 - 372.72] macro economic Trend this powerful
+
+[370.5 - 374.88] by going ahead and working on a robot
+
+[372.72 - 377.759] tax we're going to protect citizens not
+
+[374.88 - 379.62] just workers all citizens by ensuring
+
+[377.759 - 382.44] that all citizens get a slice of this
+
+[379.62 - 385.44] this rapidly growing pie and it will
+
+[382.44 - 389.28] also help Shepherd in a new way of
+
+[385.44 - 391.56] living a post-labor way of living
+
+[389.28 - 394.08] and furthermore it protects National
+
+[391.56 - 397.259] Security by incentivizing AI research
+
+[394.08 - 399.35999999999996] America is presently falling behind
+
+[397.259 - 400.68] some of our key uh geopolitical
+
+[399.36 - 402.90000000000003] competitors
+
+[400.68 - 406.02] this is dangerous for us and we should
+
+[402.9 - 408.59999999999997] be living leading the charge
+
+[406.02 - 411.12] all right so how does this robot tax
+
+[408.6 - 413.34000000000003] work it's similar to a vat or a
+
+[411.12 - 416.1] value-added tax
+
+[413.34 - 417.539] and also I need to add a caveat that
+
+[416.1 - 419.52000000000004] this is just my current way of thinking
+
+[417.539 - 421.56] and I am not a tax expert nor am I an
+
+[419.52 - 423.84] economics expert I just read some books
+
+[421.56 - 426.24] on on the topic and this is what this is
+
+[423.84 - 429.06] the idea I got
+
+[426.24 - 431.58] so basically we should Target goods and
+
+[429.06 - 434.759] services that are produced efficiently
+
+[431.58 - 436.8] with AI and automation this will raise
+
+[434.759 - 437.699] the price of those goods and services a
+
+[436.8 - 440.819] little bit
+
+[437.699 - 443.66] kind of like how um how gas subsidies or
+
+[440.819 - 447.78000000000003] gas taxes raise your price at the pump
+
+[443.66 - 449.699] but at the same time Ai and automation
+
+[447.78 - 452.039] will drive down the price of those goods
+
+[449.699 - 455.099] and services so the net effect is that
+
+[452.039 - 457.56] we'll still see lower prices for the
+
+[455.099 - 459.24] goods and services we consume that are
+
+[457.56 - 462.78000000000003] produced with AI
+
+[459.24 - 465.18] and some of that consumption-based tax
+
+[462.78 - 466.13899999999995] will then be redistributed to everyone
+
+[465.18 - 468.96] else
+
+[466.139 - 471.479] it could also include uh tariffs
+
+[468.96 - 474.78] incentives and exceptions so for
+
+[471.479 - 476.4] instance we could include uh protections
+
+[474.78 - 478.28] for small businesses and essential
+
+[476.4 - 480.9] Industries maybe those could have
+
+[478.28 - 482.81899999999996] exemptions so that they don't get
+
+[480.9 - 484.85999999999996] disproportionately impacted so for
+
+[482.819 - 486.90000000000003] instance Health Care might be one of the
+
+[484.86 - 490.44] primary industries that we accept from
+
+[486.9 - 491.88] this although I will say Healthcare is
+
+[490.44 - 493.62] one of our Prime our most expensive
+
+[491.88 - 495.96] things so maybe we should actually
+
+[493.62 - 497.52] double down on incentives in the
+
+[495.96 - 498.96] healthcare industry let's automate as
+
+[497.52 - 501.18] much of the health care industry as we
+
+[498.96 - 502.919] can to drive costs down
+
+[501.18 - 505.5] again this is there's some room for
+
+[502.919 - 508.19899999999996] discussion here another thing is we
+
+[505.5 - 510.0] could use this policy to incentivize
+
+[508.199 - 513.24] de-globalization
+
+[510.0 - 514.8] so deglobalization is a whole Trend unto
+
+[513.24 - 517.62] itself and we'll talk a little bit more
+
+[514.8 - 520.0799999999999] about deglobalization in a later slide
+
+[517.62 - 522.479] but through tariffs incentives
+
+[520.08 - 524.58] exemptions and exceptions we could also
+
+[522.479 - 526.5600000000001] advance that initiative which will
+
+[524.58 - 528.72] further reinforce National Security
+
+[526.56 - 531.5999999999999] interests
+
+[528.72 - 533.339] um and again we can reward companies
+
+[531.6 - 535.38] that Advance this initiative so for
+
+[533.339 - 538.32] instance if we give companies tax breaks
+
+[535.38 - 540.899] or other tax incentives for increasing
+
+[538.32 - 543.1800000000001] automation so for instance if they are
+
+[540.899 - 545.58] able to double their output with the
+
+[543.18 - 546.8389999999999] same head count or fewer employees they
+
+[545.58 - 549.48] should be rewarded for that because
+
+[546.839 - 552.1800000000001] again the goal is to transition from a
+
+[549.48 - 555.6] labor-based sorry labor-based economy to
+
+[552.18 - 557.9399999999999] a post-labor market
+
+[555.6 - 560.1] um so that is those are some of the
+
+[557.94 - 561.6] ideas of of how I imagine a robot tax
+
+[560.1 - 565.26] could work
+
+[561.6 - 568.019] okay so now let's talk about
+
+[565.26 - 571.3199999999999] let's let's build a case for this robot
+
+[568.019 - 573.42] tax so number one Ai and automation is
+
+[571.32 - 575.1] coming whether you like it or not
+
+[573.42 - 576.779] like there's nothing we can do to stop
+
+[575.1 - 579.0600000000001] it you can't regulate the stuff out of
+
+[576.779 - 579.899] existence it the cat is already out of
+
+[579.06 - 582.779] the bag
+
+[579.899 - 585.54] so with that in mind we have an
+
+[582.779 - 588.36] opportunity to decouple economic
+
+[585.54 - 591.86] productivity that's GDP growth from the
+
+[588.36 - 591.86] primary constraint of human labor
+
+[593.06 - 598.5] the magnitude of this is difficult to
+
+[597.42 - 600.8389999999999] overstate
+
+[598.5 - 603.18] uh but I'll try
+
+[600.839 - 603.9590000000001] um another thing is everyone needs to
+
+[603.18 - 606.42] eat
+
+[603.959 - 609.899] like we have seen what hunger and
+
+[606.42 - 612.779] Desperation does around the world and if
+
+[609.899 - 616.5] people lose their livelihood and there's
+
+[612.779 - 618.06] nothing to like save them or prop them
+
+[616.5 - 619.86] up there will be riots that's all there
+
+[618.06 - 621.54] is to it
+
+[619.86 - 624.6] we also need to stay at The Cutting Edge
+
+[621.54 - 626.88] of AI else we will fall behind and that
+
+[624.6 - 629.58] is not in anyone's interest so let's hit
+
+[626.88 - 632.459] two birds with one stone let's Shore up
+
+[629.58 - 635.0400000000001] national interests National Security and
+
+[632.459 - 638.2199999999999] corporate interests as well as the
+
+[635.04 - 640.92] private interests of all citizens
+
+[638.22 - 642.839] okay so what is the robot robot tax do
+
+[640.92 - 646.3199999999999] what is a what is a what is a case for
+
+[642.839 - 649.0790000000001] it one is it promotes innovation
+
+[646.32 - 651.6] in general we believe that Innovation is
+
+[649.079 - 653.579] good this is one of the the cornerstones
+
+[651.6 - 656.339] of free market economics of capitalism
+
+[653.579 - 657.8389999999999] and neoliberalism is that the Quest for
+
+[656.339 - 658.8800000000001] efficiency the Quest for economic
+
+[657.839 - 661.62] efficiency
+
+[658.88 - 663.54] incentivizes uh technological
+
+[661.62 - 666.3] advancement so why don't we just lean
+
+[663.54 - 669.66] into this and reward it
+
+[666.3 - 672.66] so if we reward companies for making
+
+[669.66 - 674.519] this transition for helping It Happen by
+
+[672.66 - 675.36] you know giving them tax breaks or
+
+[674.519 - 678.0600000000001] whatever
+
+[675.36 - 680.5790000000001] and displacing some of that tax burden
+
+[678.06 - 684.5999999999999] to the people consuming their goods and
+
+[680.579 - 687.3599999999999] services that will uh help reinforce
+
+[684.6 - 689.7] this cycle of decoupling economic growth
+
+[687.36 - 692.899] from Human labor because humans are
+
+[689.7 - 692.899] expensive that's all there is to it
+
+[693.0 - 696.66] I've said it again and again economic
+
+[694.86 - 699.74] growth this is the biggest carrot for
+
+[696.66 - 703.5] some people whether you're a corporation
+
+[699.74 - 707.12] or a shareholder whatever you want to
+
+[703.5 - 710.519] see GDP growth GDP growth go up sorry
+
+[707.12 - 713.279] you want to see your stocks go up
+
+[710.519 - 714.9590000000001] I get it you know
+
+[713.279 - 717.42] um I want to see the same thing I'm a
+
+[714.959 - 719.76] shareholder in my own startup I want
+
+[717.42 - 721.5] those prices to go up at the same time I
+
+[719.76 - 724.3199999999999] don't want to hurt anybody so what I'm
+
+[721.5 - 726.12] trying to do here is to uh propose
+
+[724.32 - 729.1400000000001] something that'll strike the balance and
+
+[726.12 - 729.14] meet everyone's interest
+
+[729.66 - 733.62] um I'm gonna keep ringing this Bell
+
+[731.399 - 736.8] decoupling economic growth from Human
+
+[733.62 - 738.779] Labor uh will create a economic Paradigm
+
+[736.8 - 740.279] hitherto undreamed of thanks Doctor
+
+[738.779 - 742.92] Strange
+
+[740.279 - 746.22] um it's it is difficult to imagine this
+
+[742.92 - 748.4399999999999] Paradigm um at the beginning but one
+
+[746.22 - 751.74] thing that you can do is think about how
+
+[748.44 - 753.6] fiat currency decoupled monetary policy
+
+[751.74 - 754.98] from the gold standard a lot of people
+
+[753.6 - 757.44] think that we should go back to the gold
+
+[754.98 - 761.04] standard but the the economic Convention
+
+[757.44 - 763.32] of fiat currency was brilliant and we
+
+[761.04 - 766.139] can do the same by decoupling human
+
+[763.32 - 769.86] labor from economic growth
+
+[766.139 - 771.6] National Security so this is another
+
+[769.86 - 775.139] topic that I know that a lot of Voters
+
+[771.6 - 778.139] and politicians care about and as I was
+
+[775.139 - 782.04] exploring this it occurred to me that
+
+[778.139 - 783.779] actually leaning into AI is a huge a
+
+[782.04 - 786.06] primary National Security interest we
+
+[783.779 - 787.5] already see this with the chips act uh
+
+[786.06 - 789.7199999999999] which was a bill that was recently
+
+[787.5 - 792.36] passed that had to do with um export
+
+[789.72 - 793.98] control and a few other aspects but
+
+[792.36 - 797.4590000000001] think of it this way
+
+[793.98 - 798.899] if we lean into AI then our Industrial
+
+[797.459 - 800.76] Automation capacity and our
+
+[798.899 - 801.839] manufacturing capacity goes through the
+
+[800.76 - 804.92] roof
+
+[801.839 - 808.019] and the ability to manufacture Goods
+
+[804.92 - 810.54] whether they are helicopters and tanks
+
+[808.019 - 812.88] or or even just stuff that we need cars
+
+[810.54 - 814.62] all of that it Shores up our national
+
+[812.88 - 817.079] security especially if we bring it all
+
+[814.62 - 819.42] back onshore
+
+[817.079 - 821.6389999999999] um data information and intelligence the
+
+[819.42 - 824.2199999999999] smarter our machines become the more
+
+[821.639 - 825.839] secure we are as a nation and this
+
+[824.22 - 827.4590000000001] include this is not just America that
+
+[825.839 - 829.44] I'm talking about this includes all of
+
+[827.459 - 831.06] our allies across the world
+
+[829.44 - 832.6800000000001] excuse me
+
+[831.06 - 834.779] and one thing that I need to point out
+
+[832.68 - 837.3599999999999] is that this competition already exists
+
+[834.779 - 839.82] I'm not making this up it's already out
+
+[837.36 - 843.0600000000001] there I watched a um an interview with
+
+[839.82 - 845.639] Admiral aquilino a four-star admiral of
+
+[843.06 - 848.16] the of the Pacific Theater and he like
+
+[845.639 - 850.74] you know the Department of Defense this
+
+[848.16 - 853.9399999999999] is already on their radar so the rest of
+
+[850.74 - 857.279] us also you know can participate
+
+[853.94 - 860.1600000000001] self-reliance as a nation is a rising
+
+[857.279 - 862.2] Trend as is deglobalization there are
+
+[860.16 - 864.48] three primary reasons for this one is
+
+[862.2 - 867.48] the pandemic the pandemic showed just
+
+[864.48 - 869.639] how fragile Global Supply chains are and
+
+[867.48 - 870.6] it will still take years to untangle
+
+[869.639 - 873.48] those
+
+[870.6 - 876.48] finally Russia and China
+
+[873.48 - 878.639] despite Decades of neoliberalism and
+
+[876.48 - 879.6] Global policy they're still not playing
+
+[878.639 - 881.5790000000001] nice
+
+[879.6 - 883.32] like that's all there is to it it is a
+
+[881.579 - 885.2399999999999] failed experiment Globe like
+
+[883.32 - 888.12] globalization saying bring everyone to
+
+[885.24 - 891.1800000000001] the table of democracy and and
+
+[888.12 - 893.04] liberalized free markets didn't work so
+
+[891.18 - 895.019] now the rising trend is towards
+
+[893.04 - 896.579] deglobalization which says actually
+
+[895.019 - 898.8] maybe we need to be a little bit more
+
+[896.579 - 901.26] insular and maybe we need to bring stuff
+
+[898.8 - 905.519] onshore and this is already happening by
+
+[901.26 - 908.3389999999999] the way there are huge projects of
+
+[905.519 - 910.62] bringing chip manufacturers on back onto
+
+[908.339 - 912.1800000000001] U.S and European soil
+
+[910.62 - 915.24] so this is already happening and then
+
+[912.18 - 917.76] from a more direct military uh uh
+
+[915.24 - 920.699] perspective the United States Air Force
+
+[917.76 - 922.98] recently tested a fully automated F-16
+
+[920.699 - 924.779] no pilot
+
+[922.98 - 927.4200000000001] um and then of course there's Ai and
+
+[924.779 - 930.06] drones it's coming the military is doing
+
+[927.42 - 933.0] it so the rest of the economy also needs
+
+[930.06 - 936.3] to participate and and make sure that we
+
+[933.0 - 939.42] are in lockstep on this topic
+
+[936.3 - 941.9399999999999] okay so I feel like I've outlined a
+
+[939.42 - 944.639] really compelling argument to work on a
+
+[941.94 - 947.519] robot tax to incentivize Ai and
+
+[944.639 - 950.22] advancement and also to shore up
+
+[947.519 - 951.9590000000001] um you know the citizenry now let's talk
+
+[950.22 - 955.32] about some of the potential objections
+
+[951.959 - 957.3] that you uh voters politicians and
+
+[955.32 - 959.94] companies might have so first
+
+[957.3 - 961.3199999999999] governmental overreach obviously there
+
+[959.94 - 963.4200000000001] are plenty of people out there who
+
+[961.32 - 965.519] believe that smaller government is
+
+[963.42 - 967.199] better this is classical conservatives
+
+[965.519 - 968.76] and Libertarians and some progressives
+
+[967.199 - 970.68] as well
+
+[968.76 - 972.36] um number two unintended consequences
+
+[970.68 - 974.699] what could go wrong
+
+[972.36 - 976.139] number three difficulty implementing
+
+[974.699 - 978.24] nothing like this has ever been
+
+[976.139 - 980.82] attempted so it's going to be hard
+
+[978.24 - 983.519] number four Market distort distortions
+
+[980.82 - 985.86] and inefficiencies we might accidentally
+
+[983.519 - 988.86] create problems that don't exist today
+
+[985.86 - 991.5600000000001] and then five finally moral concerns
+
+[988.86 - 993.0600000000001] around rewarding people for not working
+
+[991.56 - 996.3599999999999] basically
+
+[993.06 - 997.9799999999999] so number one governmental overreach why
+
+[996.36 - 1001.399] does the government need to be involved
+
+[997.98 - 1003.5] at all it's true that a totally free
+
+[1001.399 - 1005.839] market will reduce prices of goods and
+
+[1003.5 - 1008.32] services with AI it's happening it's
+
+[1005.839 - 1010.94] already happening you look at how cheap
+
+[1008.32 - 1012.38] Technologies like chat GPT are and how
+
+[1010.94 - 1014.72] powerful they are
+
+[1012.38 - 1017.8389999999999] for twenty dollars a month I have a tool
+
+[1014.72 - 1020.6600000000001] that accelerates everything that I do by
+
+[1017.839 - 1023.7790000000001] a factor of 4 or 10x
+
+[1020.66 - 1026.54] like so as a writer just as a as a quick
+
+[1023.779 - 1029.299] aside as a writer I use chat GPT to help
+
+[1026.54 - 1032.059] me brainstorm and plan chapters I do
+
+[1029.299 - 1034.4] that for a few minutes it is like
+
+[1032.059 - 1035.66] worth several hours of talking to other
+
+[1034.4 - 1037.2800000000002] writers
+
+[1035.66 - 1040.0400000000002] um and then I sit down and I can write a
+
+[1037.28 - 1042.1] 4500 chapter a word chapter in one
+
+[1040.04 - 1046.76] sitting with the with the help of AI
+
+[1042.1 - 1048.799] this is an entirely new paradigm so AI
+
+[1046.76 - 1050.72] is already making things cheaper better
+
+[1048.799 - 1052.34] faster and so on
+
+[1050.72 - 1055.52] so why does the government need to get
+
+[1052.34 - 1057.74] involved the problem is that many people
+
+[1055.52 - 1059.72] will be permanently unemployed
+
+[1057.74 - 1063.14] and we don't know how bad it's going to
+
+[1059.72 - 1064.76] get what if all of like what if nobody
+
+[1063.14 - 1067.8200000000002] ever makes money from writing fiction
+
+[1064.76 - 1070.8799999999999] ever again we're already seeing a huge
+
+[1067.82 - 1074.4189999999999] Trend towards AI generated art
+
+[1070.88 - 1075.5] and whether or not that's fair it kind
+
+[1074.419 - 1077.7800000000002] of sucks
+
+[1075.5 - 1080.179] and so if people become permanently
+
+[1077.78 - 1082.16] unemployed consumers will have a reduced
+
+[1080.179 - 1084.0800000000002] ability to participate in the market and
+
+[1082.16 - 1086.419] that's just bad for the economy
+
+[1084.08 - 1088.46] consumers need money in their pocket in
+
+[1086.419 - 1090.8600000000001] order to spend it that's all there is to
+
+[1088.46 - 1092.66] it if consumers don't have money they
+
+[1090.86 - 1093.5] can't spend it and the economy slows
+
+[1092.66 - 1096.02] down
+
+[1093.5 - 1099.38] so therefore we need at least some
+
+[1096.02 - 1100.94] government intervention to ensure that
+
+[1099.38 - 1102.98] um that consumers have money to spend
+
+[1100.94 - 1104.539] it's that it's that simple it can be
+
+[1102.98 - 1107.1200000000001] measured through velocity of currency
+
+[1104.539 - 1109.82] that is basically how long
+
+[1107.12 - 1111.9189999999999] um every dollar stays stationary before
+
+[1109.82 - 1115.039] it's spent so keeping the velocity of
+
+[1111.919 - 1116.96] currency up by taxing redistributing and
+
+[1115.039 - 1118.039] then putting it back in the in the hands
+
+[1116.96 - 1119.96] of people that are going to spend it
+
+[1118.039 - 1122.539] almost immediately that's generally good
+
+[1119.96 - 1125.66] for the economy and a robot tax could
+
+[1122.539 - 1128.78] help uh help with that
+
+[1125.66 - 1130.52] unintended consequences so rather than
+
+[1128.78 - 1132.62] talking about the unintended
+
+[1130.52 - 1135.26] consequences let's talk about the known
+
+[1132.62 - 1136.82] consequences of having hungry desperate
+
+[1135.26 - 1139.16] and angry citizens
+
+[1136.82 - 1141.3999999999999] the January 6th riots
+
+[1139.16 - 1144.14] a couple years ago already
+
+[1141.4 - 1146.96] demonstrate just how
+
+[1144.14 - 1148.76] angry people already are
+
+[1146.96 - 1151.82] one thing that a friend of mine pointed
+
+[1148.76 - 1154.28] out was that both sides of the political
+
+[1151.82 - 1157.039] Spectrum have been really upset
+
+[1154.28 - 1158.059] left right A lot of people are really
+
+[1157.039 - 1161.36] angry
+
+[1158.059 - 1163.16] and that's only going to get worse if we
+
+[1161.36 - 1164.84] start to see record levels of
+
+[1163.16 - 1166.8200000000002] unemployment we have record levels of
+
+[1164.84 - 1168.08] unemployment right now
+
+[1166.82 - 1171.799] but
+
+[1168.08 - 1173.1789999999999] the cost of inaction is staggering the
+
+[1171.799 - 1175.16] cost of an action is potentially
+
+[1173.179 - 1178.2800000000002] monumental
+
+[1175.16 - 1180.919] so that means we should proceed with
+
+[1178.28 - 1184.34] some kind of what I propose is the robot
+
+[1180.919 - 1186.74] tax because again the cost of doing
+
+[1184.34 - 1188.78] nothing is probably much higher than the
+
+[1186.74 - 1190.4] cost of any unintended consequences now
+
+[1188.78 - 1192.3799999999999] that being said we shouldn't be Reckless
+
+[1190.4 - 1194.48] because we absolutely could make it
+
+[1192.38 - 1197.24] worse so we should proceed cautiously
+
+[1194.48 - 1200.179] but with Clarity of intent
+
+[1197.24 - 1202.1] and finally any unintended unintended
+
+[1200.179 - 1205.5800000000002] consequences can be mitigated
+
+[1202.1 - 1208.2199999999998] by experimenting and modifying the robot
+
+[1205.58 - 1212.32] tax as we go so for instance it could be
+
+[1208.22 - 1212.32] implemented slowly and scaled over time
+
+[1212.66 - 1217.1000000000001] on the topic of how difficult it is to
+
+[1214.94 - 1219.5] implement there's a lot of problems with
+
+[1217.1 - 1221.4189999999999] this so one how do you measure the
+
+[1219.5 - 1223.76] economic impacts from Ai and automation
+
+[1221.419 - 1225.6200000000001] how do you know how much to tax these
+
+[1223.76 - 1227.72] goods and services because we don't want
+
+[1225.62 - 1230.4799999999998] to disincentivize Ai and automation
+
+[1227.72 - 1232.7] right like that would have the literally
+
+[1230.48 - 1234.32] the opposite effect if we tax it too
+
+[1232.7 - 1236.24] much then people are going to say
+
+[1234.32 - 1239.059] actually let's just keep the human
+
+[1236.24 - 1241.94] laborers and maybe that can be a
+
+[1239.059 - 1244.6399999999999] deliberate step to slow down the
+
+[1241.94 - 1247.4] deployment of AI and automation maybe we
+
+[1244.64 - 1250.94] do tax those at a certain rate and in
+
+[1247.4 - 1253.1000000000001] order to mitigate how fast the change is
+
+[1250.94 - 1254.66] but at the same time we don't want to
+
+[1253.1 - 1256.6399999999999] stifle innovation
+
+[1254.66 - 1257.96] so it's a very delicate balance to
+
+[1256.64 - 1260.0590000000002] strike there
+
+[1257.96 - 1262.52] and then how do you decide which goods
+
+[1260.059 - 1265.1] and services get taxed and how much
+
+[1262.52 - 1266.9] because if it's going to take you know
+
+[1265.1 - 1269.1789999999999] if you have to fill out forms or get
+
+[1266.9 - 1272.7800000000002] inspections and get certified this that
+
+[1269.179 - 1275.24] or the other that's a lot of work
+
+[1272.78 - 1278.8999999999999] so maybe that's why I say maybe a vat
+
+[1275.24 - 1281.299] vat tax is the is the best way so that
+
+[1278.9 - 1282.74] uh so that basically you know it's a
+
+[1281.299 - 1285.32] point of sales tax
+
+[1282.74 - 1288.32] it might also be easier or better to tax
+
+[1285.32 - 1289.8799999999999] the companies that lay off employees so
+
+[1288.32 - 1292.34] for instance if an employee gets laid
+
+[1289.88 - 1294.0200000000002] off due to getting automated out of a
+
+[1292.34 - 1296.8999999999999] job maybe that's where you tax it but
+
+[1294.02 - 1299.6589999999999] then you create an incentive to change
+
+[1296.9 - 1302.539] hiring practices and this is one place
+
+[1299.659 - 1305.0590000000002] that I agree with neoliberalism let let
+
+[1302.539 - 1306.86] the labor market shape itself but then
+
+[1305.059 - 1309.26] you you tax probably at the point of
+
+[1306.86 - 1310.58] consumption again I'm not an expert but
+
+[1309.26 - 1312.799] this is kind of the best that I've got
+
+[1310.58 - 1315.74] at this point
+
+[1312.799 - 1316.82] and finally how do you decide who gets
+
+[1315.74 - 1319.22] how much
+
+[1316.82 - 1320.48] should it be Universal and equal like
+
+[1319.22 - 1322.94] the you know the idea of a universal
+
+[1320.48 - 1324.8600000000001] basic income but then you ask a question
+
+[1322.94 - 1327.0800000000002] what if a high earner gets mechanized
+
+[1324.86 - 1329.539] mechanized out of a job isn't that a
+
+[1327.08 - 1332.12] little bit unfair like what if what if
+
+[1329.539 - 1334.22] someone who is like I was an I.T
+
+[1332.12 - 1335.84] professional making six figures what if
+
+[1334.22 - 1338.419] I got mechanized out of a job and then
+
+[1335.84 - 1339.32] it's like oh here's a you know 800 a
+
+[1338.419 - 1342.0200000000002] month
+
+[1339.32 - 1343.8799999999999] um you know as opposed to the nearly ten
+
+[1342.02 - 1346.4] thousand dollars a month uh that you got
+
+[1343.88 - 1349.3400000000001] before like that seems deeply unfair
+
+[1346.4 - 1351.88] so there are many questions around
+
+[1349.34 - 1354.1399999999999] unfairness especially as more and more
+
+[1351.88 - 1356.419] white-collar workers get mechanized out
+
+[1354.14 - 1358.5200000000002] of a job but then also look at the
+
+[1356.419 - 1360.98] artists look at the writers and graphic
+
+[1358.52 - 1362.9] artists that are already struggling and
+
+[1360.98 - 1366.08] already being harmed by this
+
+[1362.9 - 1369.0800000000002] so uh it's gonna be indiscriminate
+
+[1366.08 - 1370.9399999999998] basically uh so this is this is a this
+
+[1369.08 - 1372.5] is a pain point of implementation but
+
+[1370.94 - 1373.76] I'm not saying that this is a barrier to
+
+[1372.5 - 1377.08] implementation it's just going to take
+
+[1373.76 - 1377.08] some wrangling and negotiation
+
+[1377.24 - 1381.44] something a little bit more abstract is
+
+[1379.28 - 1382.82] the concept of market distortions and
+
+[1381.44 - 1385.78] inefficiencies
+
+[1382.82 - 1388.3999999999999] if the robot taxes improperly
+
+[1385.78 - 1391.22] implemented it could incentivize
+
+[1388.4 - 1393.02] gamifying or rigging the system one of
+
+[1391.22 - 1396.38] the best examples we have of this is
+
+[1393.02 - 1399.26] corn and oil subsidies so corn subsidies
+
+[1396.38 - 1401.9] have and soybean subsidies have meant
+
+[1399.26 - 1403.94] that a lot of farmers just keep planting
+
+[1401.9 - 1405.3200000000002] soy and corn even if it's not needed
+
+[1403.94 - 1408.039] because they they know that government
+
+[1405.32 - 1411.76] will guarantee a rate for them
+
+[1408.039 - 1414.32] ditto for oil subsidies so
+
+[1411.76 - 1416.419] creating subsidies or perverse
+
+[1414.32 - 1419.36] incentives can create a lopsided Market
+
+[1416.419 - 1421.88] that is actually kind of paralyzed and
+
+[1419.36 - 1423.74] is not adaptive so we need to be really
+
+[1421.88 - 1426.8600000000001] careful that whatever we do around a
+
+[1423.74 - 1428.6] robot tax doesn't create a lopsided or
+
+[1426.86 - 1431.0] paralyzed Market
+
+[1428.6 - 1432.559] another example of how this kind of
+
+[1431.0 - 1435.08] thing can go wrong is the
+
+[1432.559 - 1436.8799999999999] well-intentioned PPP loans the paycheck
+
+[1435.08 - 1438.98] Protection Program loans that happen
+
+[1436.88 - 1440.659] during the pandemic they were right they
+
+[1438.98 - 1442.58] were super inefficient and they were
+
+[1440.659 - 1445.1000000000001] Rife with abuse
+
+[1442.58 - 1448.3999999999999] um but an example of something that did
+
+[1445.1 - 1449.9599999999998] work were the stimulus checks so I at
+
+[1448.4 - 1451.52] the time I made too much money so I
+
+[1449.96 - 1454.28] didn't get a stimulus check but a lot of
+
+[1451.52 - 1456.02] my friends did and it was like magic
+
+[1454.28 - 1457.22] like they just woke up and there was an
+
+[1456.02 - 1458.9] eleven hundred dollar check in their
+
+[1457.22 - 1461.0] bank account or however much it was I
+
+[1458.9 - 1463.52] guess it varied from person to person so
+
+[1461.0 - 1464.72] we have a model for just depositing
+
+[1463.52 - 1466.58] money
+
+[1464.72 - 1468.559] um very efficiently into people's bank
+
+[1466.58 - 1470.4189999999999] accounts it can be done now of course
+
+[1468.559 - 1472.039] that that assumes that someone has a
+
+[1470.419 - 1473.7800000000002] bank account and not everyone does
+
+[1472.039 - 1475.7] especially the most
+
+[1473.78 - 1476.8999999999999] um uh disempowered and disenfranchised
+
+[1475.7 - 1478.7] people many of them don't have bank
+
+[1476.9 - 1481.3400000000001] accounts
+
+[1478.7 - 1483.2] um but at the at the end of the day we
+
+[1481.34 - 1485.1789999999999] will need to be very careful about
+
+[1483.2 - 1486.6200000000001] incentivizing the behavior that we
+
+[1485.179 - 1488.8400000000001] actually want to see
+
+[1486.62 - 1490.9399999999998] and I as far as I can tell there are
+
+[1488.84 - 1492.74] three primary
+
+[1490.94 - 1495.2] um places that we need to look at
+
+[1492.74 - 1497.96] Behavior one is corporations companies
+
+[1495.2 - 1500.0] what Behavior do we want to that do we
+
+[1497.96 - 1502.159] want to incentivize companies like I
+
+[1500.0 - 1503.84] said earlier in the video I think that
+
+[1502.159 - 1506.72] what we should incentivize is that
+
+[1503.84 - 1508.28] transition to a post-labor market to to
+
+[1506.72 - 1512.419] decouple
+
+[1508.28 - 1513.9189999999999] um corporate profits from Human labor
+
+[1512.419 - 1515.6000000000001] um then what do we what what do we want
+
+[1513.919 - 1517.76] to incentivize consumers to do well we
+
+[1515.6 - 1519.86] want consumers to consume right that is
+
+[1517.76 - 1522.2] just a a baseline Assumption of
+
+[1519.86 - 1524.1789999999999] neoliberalism is that you want consumers
+
+[1522.2 - 1526.159] to spend money the best way to get
+
+[1524.179 - 1527.96] consumers to spend money is for them to
+
+[1526.159 - 1529.7600000000002] feel safe and secure so that they know
+
+[1527.96 - 1532.4] that they can spend the money that they
+
+[1529.76 - 1535.039] that they have if people don't feel safe
+
+[1532.4 - 1537.799] and secure they save and that's bad for
+
+[1535.039 - 1539.0] the economy right because if you're if
+
+[1537.799 - 1540.74] you're waiting
+
+[1539.0 - 1542.419] like to get health care if you're
+
+[1540.74 - 1544.52] waiting to buy a new car if you're
+
+[1542.419 - 1547.5200000000002] waiting to fix out your home because of
+
+[1544.52 - 1550.1] uncertainty that's not good so if we can
+
+[1547.52 - 1552.9189999999999] use the robot tax to one incentivize
+
+[1550.1 - 1556.6999999999998] companies to move towards a post-labor
+
+[1552.919 - 1559.3400000000001] economy and then also give consumers the
+
+[1556.7 - 1561.26] confidence to spend and not and not need
+
+[1559.34 - 1563.6589999999999] to save imagine that the need for
+
+[1561.26 - 1565.34] retirement savings goes away permanently
+
+[1563.659 - 1567.2] that's the that's the future I want to
+
+[1565.34 - 1569.059] live in where we all have so much
+
+[1567.2 - 1571.52] Financial Security that we don't even
+
+[1569.059 - 1573.559] need to think about saving and then
+
+[1571.52 - 1575.84] finally how do we want the market as a
+
+[1573.559 - 1577.94] whole to behave and by market I mean the
+
+[1575.84 - 1579.5] goods and services markets and then also
+
+[1577.94 - 1581.299] the labor market
+
+[1579.5 - 1584.24] um there will almost certainly always be
+
+[1581.299 - 1585.98] a need for some human workers
+
+[1584.24 - 1587.539] um whether it's the AI researchers at
+
+[1585.98 - 1588.98] least until AI takes over its own
+
+[1587.539 - 1592.58] research
+
+[1588.98 - 1595.46] um you know uh Child Care education
+
+[1592.58 - 1597.4399999999998] um some aspects of medicine we will
+
+[1595.46 - 1599.9] always need to have some human workers
+
+[1597.44 - 1602.96] and so we don't want to disincentivize
+
+[1599.9 - 1604.52] all people from quitting permanently but
+
+[1602.96 - 1608.48] that being said we also want to support
+
+[1604.52 - 1612.1] the people that can no longer work
+
+[1608.48 - 1615.2] finally moral qualms one of the biggest
+
+[1612.1 - 1617.0] uh uh rejections of things like ubis
+
+[1615.2 - 1618.5] what do people deserve
+
+[1617.0 - 1620.539] you know you don't deserve anything
+
+[1618.5 - 1622.76] unless you work hard so this goes back
+
+[1620.539 - 1624.44] to the founding of America with our
+
+[1622.76 - 1627.3799999999999] Protestant work ethic which basically
+
+[1624.44 - 1628.64] says laziness is sinful I've made plenty
+
+[1627.38 - 1630.8600000000001] of other videos about this so I won't
+
+[1628.64 - 1632.179] get too too deep into it but we do need
+
+[1630.86 - 1634.1] to address the elephant in the room
+
+[1632.179 - 1635.24] there are plenty of people who say if
+
+[1634.1 - 1637.6999999999998] you don't work you don't deserve
+
+[1635.24 - 1639.679] anything that if you don't work you
+
+[1637.7 - 1641.0] should be punished for it there are I
+
+[1639.679 - 1642.679] mean there are plenty of people just go
+
+[1641.0 - 1644.299] on the internet there are people who say
+
+[1642.679 - 1646.88] that it is immoral
+
+[1644.299 - 1649.279] to be lazy to be unemployed and that it
+
+[1646.88 - 1651.6200000000001] should be uncomfortable that that the
+
+[1649.279 - 1654.38] incentive to get back to work should be
+
+[1651.62 - 1656.4799999999998] there and it should be uh painful to be
+
+[1654.38 - 1657.6200000000001] unemployed I don't think that I don't
+
+[1656.48 - 1659.3600000000001] think that that's fair I don't think
+
+[1657.62 - 1663.3799999999999] that people deserve
+
+[1659.36 - 1665.36] to be in pain or to be scared
+
+[1663.38 - 1666.3200000000002] if they lose their job to Ai and
+
+[1665.36 - 1669.26] automation
+
+[1666.32 - 1671.6] so we can talk about morality but I'm
+
+[1669.26 - 1674.179] just as eager to flip that script and
+
+[1671.6 - 1676.2199999999998] turn it around and say actually maybe it
+
+[1674.179 - 1678.44] shouldn't be maybe people shouldn't be
+
+[1676.22 - 1681.32] punished maybe people shouldn't be
+
+[1678.44 - 1683.419] scared and Afraid and hungry maybe using
+
+[1681.32 - 1685.8799999999999] maybe using those negative incentives
+
+[1683.419 - 1688.159] you know that that that threat of
+
+[1685.88 - 1690.2600000000002] Abandonment maybe that's not the kind of
+
+[1688.159 - 1691.46] society we should build
+
+[1690.26 - 1694.1] now
+
+[1691.46 - 1695.9] another argument is well if people don't
+
+[1694.1 - 1699.3799999999999] need to work won't they become lazy and
+
+[1695.9 - 1702.44] useless don't we need an occupation
+
+[1699.38 - 1704.3600000000001] to even have our identity
+
+[1702.44 - 1706.88] um from my personal experience I quit my
+
+[1704.36 - 1708.9189999999999] day job a month ago no
+
+[1706.88 - 1712.0390000000002] absolutely not
+
+[1708.919 - 1714.5] um it is an absolute myth that we need
+
+[1712.039 - 1717.3799999999999] work in order to feel
+
+[1714.5 - 1719.72] um alive or to have an identity that is
+
+[1717.38 - 1722.179] a total fabrication that the
+
+[1719.72 - 1725.059] establishment tells you because again
+
+[1722.179 - 1727.3400000000001] the economy has been driven by the need
+
+[1725.059 - 1730.039] for human labor but if we decouple human
+
+[1727.34 - 1731.36] labor from the economy then you know the
+
+[1730.039 - 1733.4] capitalists won't care it's like go do
+
+[1731.36 - 1734.7199999999998] whatever you want right as long as as
+
+[1733.4 - 1737.179] long as consumers have money and they
+
+[1734.72 - 1738.919] spend it the capitalists won't care so
+
+[1737.179 - 1740.3600000000001] the myth that you need an occupation
+
+[1738.919 - 1742.7] that you need a job to stake your
+
+[1740.36 - 1745.1589999999999] identity on total lie absolute
+
+[1742.7 - 1748.279] fabrication that being said
+
+[1745.159 - 1750.2] humans love challenges we need to feel a
+
+[1748.279 - 1752.659] sense of Mastery and competence that's
+
+[1750.2 - 1755.24] why people play so many video games a
+
+[1752.659 - 1756.38] video game is a is a carefully curated
+
+[1755.24 - 1758.24] challenge
+
+[1756.38 - 1760.5200000000002] a lot of people do gardening they learn
+
+[1758.24 - 1762.919] about gardening or they work on cars
+
+[1760.52 - 1765.62] right whoever whatever we all find stuff
+
+[1762.919 - 1768.3200000000002] that makes us feel alive and engaged and
+
+[1765.62 - 1770.4189999999999] we don't need a job to do that
+
+[1768.32 - 1772.1589999999999] that being said there will still be
+
+[1770.419 - 1773.8400000000001] economic incentives to do things like
+
+[1772.159 - 1774.919] start a business or find other ways to
+
+[1773.84 - 1777.02] contribute
+
+[1774.919 - 1779.96] it's just that it won't be absolutely
+
+[1777.02 - 1783.559] necessary to find a job in order to live
+
+[1779.96 - 1786.32] right and in fact one thing that many
+
+[1783.559 - 1788.539] Ubi Studies have found is that with that
+
+[1786.32 - 1791.0] Baseline level of security people often
+
+[1788.539 - 1792.98] get more creative and find better ways
+
+[1791.0 - 1794.84] to contribute sometimes they go get
+
+[1792.98 - 1796.52] better education
+
+[1794.84 - 1798.32] or they contribute back in their
+
+[1796.52 - 1801.02] community in various ways they volunteer
+
+[1798.32 - 1802.9399999999998] more doesn't matter the point is is that
+
+[1801.02 - 1805.399] once people have a baseline level of
+
+[1802.94 - 1807.3200000000002] security they often do more for the
+
+[1805.399 - 1809.84] economy
+
+[1807.32 - 1812.059] and because of this the market might end
+
+[1809.84 - 1813.4399999999998] up more flexible and more efficient with
+
+[1812.059 - 1816.6789999999999] the robot tax
+
+[1813.44 - 1818.539] so imagine that we allow people to leave
+
+[1816.679 - 1820.159] jobs that aren't working for them and
+
+[1818.539 - 1822.98] that incentivizes companies to replace
+
+[1820.159 - 1826.0390000000002] them with machines anyways but then if
+
+[1822.98 - 1828.5] you have a huge pool of surplus labor
+
+[1826.039 - 1830.539] whenever they're needed
+
+[1828.5 - 1833.059] that is going to be really really good
+
+[1830.539 - 1836.84] for the economy because a surplus of
+
+[1833.059 - 1839.36] Labor will drive down prices the cost of
+
+[1836.84 - 1842.299] Labor which will then provide more
+
+[1839.36 - 1844.58] benefits because cheaper labor means
+
+[1842.299 - 1845.86] more investment and also bringing more
+
+[1844.58 - 1848.96] stuff back onshore remember
+
+[1845.86 - 1851.539] deglobalization so I think if the robot
+
+[1848.96 - 1853.94] tax is implemented correctly we're going
+
+[1851.539 - 1857.36] to get compounding returns
+
+[1853.94 - 1859.94] all right so in conclusion AI is coming
+
+[1857.36 - 1862.8799999999999] that's all there is to it AI is going to
+
+[1859.94 - 1863.96] be really good for the GDP and by
+
+[1862.88 - 1865.3400000000001] extension it's going to be really good
+
+[1863.96 - 1867.799] for stocks
+
+[1865.34 - 1870.08] that being said
+
+[1867.799 - 1870.9189999999999] we probably need to figure out a way to
+
+[1870.08 - 1874.399] share
+
+[1870.919 - 1876.2] the paradigm shift that we're facing is
+
+[1874.399 - 1879.3799999999999] completely new we have never seen
+
+[1876.2 - 1881.8400000000001] anything like this and the key thing the
+
+[1879.38 - 1883.88] key fundamental aspect of this is that
+
+[1881.84 - 1886.52] we have an opportunity to decouple
+
+[1883.88 - 1888.0200000000002] economic growth and output from the
+
+[1886.52 - 1891.02] biggest constraint right now which is
+
+[1888.02 - 1893.899] human labor so with all that said thanks
+
+[1891.02 - 1894.9189999999999] for watching I hope that this resonates
+
+[1893.899 - 1899.08] with you
+
+[1894.919 - 1899.0800000000002] um and uh yeah talking in soon

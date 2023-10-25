@@ -1,0 +1,1579 @@
+[1.74 - 6.66] hello everybody David Shapiro here uh
+
+[4.14 - 9.3] with a update so we're going to cover
+
+[6.66 - 11.76] two things today real quick uh fir or
+
+[9.3 - 13.98] the big thing is I mentioned in a
+
+[11.76 - 17.039] previous uh video we need guy a global
+
+[13.98 - 20.52] AI agency and we're working towards that
+
+[17.039 - 23.160000000000004] and so I created a public repository uh
+
+[20.52 - 25.08] of news and and summaries basically
+
+[23.16 - 26.939] where I'm collecting evidence and news
+
+[25.08 - 29.278999999999996] that is very encouraging because it's
+
+[26.939 - 31.259999999999998] all moving in the right direction uh
+
+[29.279 - 33.42] we've got everything from the the future
+
+[31.26 - 36.660000000000004] of Life Institute uh open letter to
+
+[33.42 - 39.899] pause giant models uh news out of uh the
+
+[36.66 - 43.62] UK the EU which yes I know that the UK
+
+[39.899 - 46.2] left the EU I made a mistake of uh
+
+[43.62 - 48.718999999999994] forgetting about brexit in a previous
+
+[46.2 - 51.559000000000005] video the U.N Secretary General talking
+
+[48.719 - 55.14] about yes he's amenable to the idea of
+
+[51.559 - 58.019999999999996] an international AI Watchdog the United
+
+[55.14 - 61.26] States Senate they're hearing on AI the
+
+[58.02 - 65.06] EU AI act the U.S House of
+
+[61.26 - 68.03999999999999] Representatives and Senate having uh now
+
+[65.06 - 69.78] basically matched uh matched actions
+
+[68.04 - 72.54] with words so after the after the
+
+[69.78 - 74.159] hearing uh both people both the U.S
+
+[72.54 - 76.5] House of Representatives and the Senate
+
+[74.159 - 80.22] have introduced legislation or
+
+[76.5 - 81.78] commissions or you know policies uh so
+
+[80.22 - 84.72] we'll go over all those in much greater
+
+[81.78 - 86.04] detail in just a moment but before we uh
+
+[84.72 - 87.65899999999999] dive into that
+
+[86.04 - 89.759] um I've been working on this thing I had
+
+[87.659 - 92.28] this idea for a long time and it's
+
+[89.759 - 94.68] basically we can use large language
+
+[92.28 - 97.46000000000001] models like GPT because they are trained
+
+[94.68 - 100.02000000000001] on so much text Data they're trained on
+
+[97.46 - 102.479] data from around the globe granted it is
+
+[100.02 - 105.72] primarily English so there is a uh
+
+[102.479 - 108.36] there's definitely some bias uh cultural
+
+[105.72 - 110.52] bias in there however that being said it
+
+[108.36 - 113.03999999999999] has read so much about the world that it
+
+[110.52 - 116.759] knows more about religion politics
+
+[113.04 - 120.659] psychology culture history than any one
+
+[116.759 - 122.28] person so as far as having the ability
+
+[120.659 - 124.07900000000001] to take perspectives it's actually
+
+[122.28 - 126.42] pretty good
+
+[124.079 - 127.67999999999999] and so rather than you know walk you
+
+[126.42 - 129.899] through the code I'll just show you what
+
+[127.68 - 132.72] I've got working so far so basically
+
+[129.899 - 135.54] what I have it do is actually first I
+
+[132.72 - 138.72] need to make sure ah well no that's fine
+
+[135.54 - 141.239] um so basically what I what I have it I
+
+[138.72 - 142.85999999999999] I have it do what it does
+
+[141.239 - 146.09900000000002] anyways
+
+[142.86 - 149.4] um is I have it synthesize a Persona and
+
+[146.099 - 151.94] so this Persona is a whole bunch of
+
+[149.4 - 155.09900000000002] random uh stuff
+
+[151.94 - 158.34] uh like variables that it can pick to
+
+[155.099 - 160.85999999999999] basically create a synthetic person and
+
+[158.34 - 165.0] I don't mean that in in the um in the
+
+[160.86 - 167.34] manipulation way but it has Geographic
+
+[165.0 - 171.239] Origins ethnicities cultures languages
+
+[167.34 - 173.76] uh political uh dispositions uh
+
+[171.239 - 175.44] different factors about the person such
+
+[173.76 - 178.5] as their physical health their mental
+
+[175.44 - 180.35999999999999] health uh other habits preferences that
+
+[178.5 - 182.64] sort of thing and so basically what it
+
+[180.36 - 185.519] does is to create a Persona is it'll
+
+[182.64 - 188.33999999999997] grab one of one uh one of these
+
+[185.519 - 191.94] variables or one option from each set of
+
+[188.34 - 195.72] variables and then create a a profile or
+
+[191.94 - 197.819] a dossier in order to uh like take the
+
+[195.72 - 199.64] perspective of that person and then it
+
+[197.819 - 202.85999999999999] will talk through on a particular issue
+
+[199.64 - 206.22] and I picked you bi because I've been on
+
+[202.86 - 210.239] a economics and Ubi kick lately
+
+[206.22 - 213.48] and so uh I wanted to basically come up
+
+[210.239 - 216.06] with a way of automatically uh
+
+[213.48 - 218.459] understanding what the concerns that
+
+[216.06 - 221.159] everyone is going to have uh could be
+
+[218.459 - 223.86] but not just not just uh elucidate or
+
+[221.159 - 226.26] articulate the problems that they will
+
+[223.86 - 229.26000000000002] have or you know the the concerns that
+
+[226.26 - 232.22] they'll have over a policy like Ubi but
+
+[229.26 - 235.92] how do we actually arrive at consensus
+
+[232.22 - 237.18] and consensus is not necessarily so a
+
+[235.92 - 239.51899999999998] lot of people have misconception about
+
+[237.18 - 242.28] consensus consensus doesn't mean
+
+[239.519 - 244.22] unanimous agreement consensus means that
+
+[242.28 - 246.659] it gets to a point that is good enough
+
+[244.22 - 249.54] that people will kind of stop fighting
+
+[246.659 - 251.89999999999998] it it's about compromise and so anytime
+
+[249.54 - 255.29899999999998] that there's been any kind of uh
+
+[251.9 - 257.34000000000003] contentious policy or legislation even
+
+[255.299 - 259.32] including the United States Constitution
+
+[257.34 - 262.73999999999995] nobody was happy with it because they
+
+[259.32 - 264.36] had to come to consensus in order to get
+
+[262.74 - 265.68] something that everyone would tolerate
+
+[264.36 - 268.38] everyone would accept so it wasn't
+
+[265.68 - 270.54] perfect to anyone's mind but it was
+
+[268.38 - 272.94] something that they would all accept and
+
+[270.54 - 275.1] so the idea is okay let's take this
+
+[272.94 - 276.66] let's take this random profile of a
+
+[275.1 - 278.41900000000004] person so that we can get a global
+
+[276.66 - 281.759] representation of all perspectives
+
+[278.419 - 284.09999999999997] regardless of how small they are
+
+[281.759 - 286.38] because the thing is uh when you look at
+
+[284.1 - 288.72] some of these things like atheist Islam
+
+[286.38 - 291.84] Christianity Buddhist right some of
+
+[288.72 - 292.91900000000004] these are uh over represented in some
+
+[291.84 - 294.71999999999997] areas and some of them are
+
+[292.919 - 297.29999999999995] underrepresented same thing for
+
+[294.72 - 299.82000000000005] political leanings I even include uh
+
+[297.3 - 302.04] Libertarians and anarchists and statists
+
+[299.82 - 304.08] and Communists and reactionaries and
+
+[302.04 - 306.3] populists and nationalists and fashion I
+
+[304.08 - 309.53999999999996] don't know fascism is in here
+
+[306.3 - 311.16] um fascism isn't in here so fascist
+
+[309.54 - 312.56] perspectives don't get represented but
+
+[311.16 - 315.18] nationalists do so close enough
+
+[312.56 - 317.1] authoritarians get represented so the
+
+[315.18 - 319.38] idea is that we can get a very
+
+[317.1 - 321.24] well-rounded representation of all human
+
+[319.38 - 322.5] perspectives more or less there's
+
+[321.24 - 325.5] obviously going to be some flaws with
+
+[322.5 - 328.32] this because it is the first uh edition
+
+[325.5 - 332.1] first example but the idea is that you
+
+[328.32 - 335.4] can get uh a very very diverse set of
+
+[332.1 - 337.91900000000004] perspectives on a particular issue and
+
+[335.4 - 339.29999999999995] then once you get those perspectives you
+
+[337.919 - 342.419] can then work through and figure out
+
+[339.3 - 344.759] okay what kind of policy is this person
+
+[342.419 - 347.28] most likely to accept
+
+[344.759 - 349.97900000000004] and so by then generating a whole bunch
+
+[347.28 - 352.02] of potential policies you can say okay
+
+[349.979 - 353.46] well let's look at let's look at the
+
+[352.02 - 355.08] commonality between all of these and
+
+[353.46 - 357.06] let's get really creative so let me just
+
+[355.08 - 359.09999999999997] go ahead and show you how this works
+
+[357.06 - 361.5] all right so the first thing it does is
+
+[359.1 - 362.759] it grabs a random Persona so you see
+
+[361.5 - 365.46] where it's like you know heavy social
+
+[362.759 - 367.32] media user they're West Asian uh
+
+[365.46 - 369.9] cultural background is West Asian their
+
+[367.32 - 371.46] Geographic origin is from North Africa
+
+[369.9 - 372.96] um so imagine a West Asian family in
+
+[371.46 - 374.88] North Africa
+
+[372.96 - 376.919] um they're a wealthy family they're
+
+[374.88 - 381.0] heavy social media user so on and so
+
+[376.919 - 383.75899999999996] forth okay so I ask what would uh this
+
+[381.0 - 385.8] person think about Ubi and because chat
+
+[383.759 - 387.96000000000004] GPT is so heavily trained to be a
+
+[385.8 - 390.479] helpful assistant I can't I couldn't get
+
+[387.96 - 392.21999999999997] chat EPT to take that perspective but
+
+[390.479 - 394.68] what I could do is say Advocate
+
+[392.22 - 397.02000000000004] zealously on behalf of this person and
+
+[394.68 - 399.6] that got really good results so let's
+
+[397.02 - 400.68] see uh as an advocate for this Persona I
+
+[399.6 - 403.199] would say that they might have mixed
+
+[400.68 - 405.199] feelings about Ubi on one hand they are
+
+[403.199 - 408.06] wealthy and under and underemployed
+
+[405.199 - 410.88] which might lead them to see ubis
+
+[408.06 - 414.12] um uh let's see where did it go hang on
+
+[410.88 - 415.5] okay it's saved sorry uh uh let's see
+
+[414.12 - 416.819] unnecessary for themselves and
+
+[415.5 - 418.74] potentially harmful to their financial
+
+[416.819 - 420.53900000000004] status if it results in higher taxes
+
+[418.74 - 422.22] they also might be concerned about the
+
+[420.539 - 424.08] potential for Ubi to discourage work and
+
+[422.22 - 425.88000000000005] productivity given their unsuccess and
+
+[424.08 - 427.74] wealth-oriented aspirations
+
+[425.88 - 429.12] uh on the other hand their experience
+
+[427.74 - 430.68] with financial stress and their social
+
+[429.12 - 433.199] concerns might make them sympathetic to
+
+[430.68 - 435.38] the IEP idea of Ubi as a means of
+
+[433.199 - 437.46000000000004] reducing poverty poverty and inequality
+
+[435.38 - 438.65999999999997] however the Nationalist political
+
+[437.46 - 440.34] affiliation might make them more
+
+[438.66 - 441.90000000000003] inclined to support policies that
+
+[440.34 - 444.11999999999995] prioritize the needs and interests of
+
+[441.9 - 446.15999999999997] their own country and its citizens which
+
+[444.12 - 447.66] could include skepticism towards Ubi if
+
+[446.16 - 450.18] they perceive it as benefiting Outsiders
+
+[447.66 - 452.58000000000004] as a form of globalist policy so you see
+
+[450.18 - 454.74] it has a very nuanced way of saying okay
+
+[452.58 - 457.38] this person has lots of different
+
+[454.74 - 458.40000000000003] beliefs and it's pretty complex
+
+[457.38 - 460.62] um
+
+[458.4 - 462.479] let's see okay so given their wealth
+
+[460.62 - 463.68] oriented aspirations nationalist
+
+[462.479 - 465.479] political affiliation and their
+
+[463.68 - 467.28000000000003] experience with financial stress they
+
+[465.479 - 468.96] might resonate with a fiscal policy or
+
+[467.28 - 470.34] Ubi implementation that is designed to
+
+[468.96 - 472.31899999999996] stimulate economic growth and
+
+[470.34 - 473.69899999999996] productivity while also addressing
+
+[472.319 - 475.74] social inequality within their own
+
+[473.699 - 477.479] country for instance they might support
+
+[475.74 - 478.979] a Ubi program that is funded through
+
+[477.479 - 480.419] progressive taxation where the wealthy
+
+[478.979 - 482.21999999999997] pay a higher percentage of their income
+
+[480.419 - 483.479] taxes this would align with their social
+
+[482.22 - 484.8] concerns and their belief in the
+
+[483.479 - 486.24] importance of addressing inequality
+
+[484.8 - 487.8] however they would likely want
+
+[486.24 - 489.419] assurances that this would not unduly
+
+[487.8 - 491.40000000000003] burden them or negatively impact their
+
+[489.419 - 493.5] own financial status they might also
+
+[491.4 - 495.419] resonate with a Ubi program that
+
+[493.5 - 496.62] includes work incentives or requirements
+
+[495.419 - 498.84] to address their concerns about
+
+[496.62 - 500.34000000000003] discouraging work and productivity for
+
+[498.84 - 502.79999999999995] instance they might support a Ubi that
+
+[500.34 - 504.419] is conditional on recipients engaging in
+
+[502.8 - 506.039] some kind of work education or community
+
+[504.419 - 508.74] service
+
+[506.039 - 510.0] so this is uh this is a theme that keeps
+
+[508.74 - 511.979] emerging because I've run this
+
+[510.0 - 513.36] experiment a few times I don't know if
+
+[511.979 - 515.9399999999999] that's the underlying training of chat
+
+[513.36 - 518.76] GPT or if it's just this is the most
+
+[515.94 - 521.6400000000001] logical Way Forward where basically
+
+[518.76 - 523.979] either you have a requirement or an
+
+[521.64 - 527.04] incentive or reward so basically like
+
+[523.979 - 530.279] you get everyone gets a baseline Ubi but
+
+[527.04 - 532.1999999999999] if you volunteer you get more Ubi right
+
+[530.279 - 534.18] it's like a kind of adjusting your tax
+
+[532.2 - 536.1600000000001] returns uh here in America
+
+[534.18 - 538.7399999999999] uh okay so finally given their
+
+[536.16 - 540.48] nationalist policy uh they want to uh
+
+[538.74 - 543.0600000000001] Ubi that prioritizes the needs and
+
+[540.48 - 545.16] interests of their own country citizens
+
+[543.06 - 548.16] um so this could be something like a tax
+
+[545.16 - 550.92] break if you buy local uh or any any
+
+[548.16 - 552.0] number of ways so then
+
+[550.92 - 554.279] um
+
+[552.0 - 556.44] I ask it to say all right come up with
+
+[554.279 - 559.019] come up with a policy that this person
+
+[556.44 - 561.6600000000001] might like and so in this case it said
+
+[559.019 - 564.18] the national Prosperity dividend which
+
+[561.66 - 567.3] that sounds rather authoritarian but
+
+[564.18 - 569.2199999999999] okay we'll go with it uh so the NPD
+
+[567.3 - 571.8] which
+
+[569.22 - 575.1] that's also the acronym for narcissistic
+
+[571.8 - 577.38] personality disorder oh boy
+
+[575.1 - 578.76] um maybe let's Workshop that before we
+
+[577.38 - 581.519] go live with it
+
+[578.76 - 583.08] um uh anyways so the NPD is a form of
+
+[581.519 - 584.519] universal basic income that is designed
+
+[583.08 - 586.6800000000001] to stimulate economic growth reduce
+
+[584.519 - 589.2] social inequality and prioritize the
+
+[586.68 - 590.9399999999999] needs and interest okay so you get that
+
+[589.2 - 592.44] um so it's predicated on their engaging
+
+[590.94 - 594.6] in some form of work education or
+
+[592.44 - 597.3000000000001] community service part-time work
+
+[594.6 - 599.4590000000001] vocational training higher ed so on and
+
+[597.3 - 600.899] so forth you know actually like that
+
+[599.459 - 603.0] particular thing because this is a
+
+[600.899 - 604.68] recurring thing I'm not sure I'm not
+
+[603.0 - 606.6] certain that that's actually a bad idea
+
+[604.68 - 608.6999999999999] where like you incentivize people to
+
+[606.6 - 610.44] continue to better themselves even if
+
+[608.7 - 613.6800000000001] it's a small character uh carrot like
+
+[610.44 - 615.899] you know hey if you're uh in if you're
+
+[613.68 - 618.12] if you're going to higher education even
+
+[615.899 - 619.5] if you know you're the college degree
+
+[618.12 - 621.42] you're getting might not ever do
+
+[619.5 - 623.7] anything you get an extra 500 a month
+
+[621.42 - 625.9799999999999] you will at least be a better informed
+
+[623.7 - 628.2] Citizen and a better Civic uh
+
+[625.98 - 630.0600000000001] participant who knows I don't know
+
+[628.2 - 632.58] incentivize the behavior you want to see
+
+[630.06 - 636.3599999999999] uh oh here we go the NPD would also
+
+[632.58 - 638.22] include a patriotic bonus oh yikes
+
+[636.36 - 639.66] um an additional payment for those who
+
+[638.22 - 641.4590000000001] contribute significantly to the
+
+[639.66 - 644.279] country's economy culture or Society
+
+[641.459 - 646.8599999999999] okay I wouldn't call it a patriotic
+
+[644.279 - 649.2] bonus uh that's a little that's a little
+
+[646.86 - 651.24] totalitarian but I get the I get the
+
+[649.2 - 652.98] idea so this would include entrepreneurs
+
+[651.24 - 655.5600000000001] artists scientists and Community leaders
+
+[652.98 - 657.24] so actually I think Ireland
+
+[655.56 - 658.8599999999999] um already has something like this where
+
+[657.24 - 660.72] basically if you are a professional
+
+[658.86 - 663.6] artist or author or whatever A Creative
+
+[660.72 - 664.62] type you get a stipend
+
+[663.6 - 666.24] um I don't know what they call it in
+
+[664.62 - 669.0] Ireland but there is precedent for this
+
+[666.24 - 671.4590000000001] being a thing so like if you're if
+
+[669.0 - 673.62] you're a content creator or a cultural
+
+[671.459 - 677.279] commentator or whatever you could get a
+
+[673.62 - 680.1] little bit an additional stipend uh so
+
+[677.279 - 681.54] all right so there there you have it
+
+[680.1 - 683.66] um and then if we run it again so let me
+
+[681.54 - 685.92] do a clear screen if we run it again
+
+[683.66 - 687.959] let's say we get a young adult who's
+
+[685.92 - 690.5999999999999] wealthy from Eastern Europe
+
+[687.959 - 692.279] um whose culture is indigenous South
+
+[690.6 - 694.5600000000001] American interesting
+
+[692.279 - 696.36] um they like gaming they speak Spanish
+
+[694.56 - 698.16] that makes sense if they're from South
+
+[696.36 - 700.14] America
+
+[698.16 - 703.56] um they do not care about the community
+
+[700.14 - 706.22] and they are a very fragile person
+
+[703.56 - 710.16] um they're an angry fragile person who's
+
+[706.22 - 711.779] uh who is educated
+
+[710.16 - 714.12] um they've been very experienced they
+
+[711.779 - 715.86] had a good childhood sorry they've had a
+
+[714.12 - 717.42] good good life experience they're
+
+[715.86 - 719.339] presently single they're Progressive
+
+[717.42 - 721.38] atheist
+
+[719.339 - 723.24] um yeah this actually sounds
+
+[721.38 - 725.64] uh oh and they're worried about their
+
+[723.24 - 728.279] career interesting okay
+
+[725.64 - 730.1999999999999] so let's see uh I'm not going to read
+
+[728.279 - 732.3] the whole thing to you uh like I did the
+
+[730.2 - 734.399] first one you get the idea
+
+[732.3 - 736.38] um but so you see how it takes into
+
+[734.399 - 738.12] account like the last one they were
+
+[736.38 - 739.98] Nationalist and blah blah blah and this
+
+[738.12 - 741.24] one is uh Progressive given their
+
+[739.98 - 743.1] moderate intolerance they might prefer
+
+[741.24 - 745.0790000000001] Ubi that include some form of means
+
+[743.1 - 747.0600000000001] testing means testing keeps come up
+
+[745.079 - 748.9799999999999] keeps coming up as well
+
+[747.06 - 750.959] um let's see skeptical about whether
+
+[748.98 - 753.36] everyone deserves Ubi
+
+[750.959 - 756.06] ouch uh I there's some people on Reddit
+
+[753.36 - 757.32] that this sounds like
+
+[756.06 - 758.9399999999999] um and that's not to trash people on
+
+[757.32 - 763.2600000000001] Reddit I actually learn a lot from some
+
+[758.94 - 764.82] people on Reddit uh but yeah so uh Ubi
+
+[763.26 - 766.86] to reduce over consumption and promote
+
+[764.82 - 769.2] more sustainable Lifestyles yeah so this
+
+[766.86 - 772.5600000000001] actually keeps coming up as well where
+
+[769.2 - 774.72] uh for some people uh means testing um
+
+[772.56 - 777.42] sustainability so basically like you
+
+[774.72 - 780.6] might get an additional Ubi bonus if you
+
+[777.42 - 782.04] live sustainably or you know whatever so
+
+[780.6 - 784.139] basically like discourage over
+
+[782.04 - 786.54] consumption that's a that's a trend that
+
+[784.139 - 789.9590000000001] keeps coming up so okay the progressive
+
+[786.54 - 791.76] environmental you you Ubi the Pui B the
+
+[789.959 - 793.5] PB
+
+[791.76 - 794.7] would be funded primarily through a
+
+[793.5 - 796.139] progressive tax system where the
+
+[794.7 - 797.5790000000001] wealthiest individuals and okay yeah
+
+[796.139 - 800.279] blah blah
+
+[797.579 - 801.5999999999999] um I haven't seen too much in terms of
+
+[800.279 - 803.399] funding
+
+[801.6 - 805.5] um one of them did say uh fund it
+
+[803.399 - 808.2] through carbon taxes uh which I thought
+
+[805.5 - 809.459] was was an interesting uh way is you
+
+[808.2 - 811.139] partially fund it through through that
+
+[809.459 - 813.54] to align with their environmentalist
+
+[811.139 - 815.04] values would also oh here it is carbon
+
+[813.54 - 816.779] tax
+
+[815.04 - 818.76] um okay so these are some ideas that
+
+[816.779 - 821.459] keep coming up again I think that the
+
+[818.76 - 823.74] underlying uh model has a little bit of
+
+[821.459 - 827.0999999999999] bias here it would be interesting to see
+
+[823.74 - 828.44] if there is a future version of gbt that
+
+[827.1 - 831.5400000000001] is not already
+
+[828.44 - 833.5790000000001] pre-trained to be kind of on board with
+
+[831.54 - 836.16] some of these ideas uh because one thing
+
+[833.579 - 837.8389999999999] that doesn't that has come up is like if
+
+[836.16 - 839.2199999999999] you have someone who is just adamantly
+
+[837.839 - 840.6600000000001] opposed to it
+
+[839.22 - 842.5790000000001] um it doesn't say like this person will
+
+[840.66 - 844.4399999999999] never agree to this under any
+
+[842.579 - 845.6389999999999] circumstances it works really hard to
+
+[844.44 - 847.2600000000001] try and find something that they might
+
+[845.639 - 850.6800000000001] agree with
+
+[847.26 - 854.519] so anyways this is all saved out to um
+
+[850.68 - 856.38] it's saved out into the Ubi folder as a
+
+[854.519 - 858.779] yaml document so it just it basically
+
+[856.38 - 861.48] just saves the conversation
+
+[858.779 - 863.639] um as as a whole uh I think yeah it even
+
+[861.48 - 866.279] it even includes the system message
+
+[863.639 - 869.399] because the system message includes the
+
+[866.279 - 871.019] uh includes the uh the the Persona and
+
+[869.399 - 873.959] the first one it was hilarious it was a
+
+[871.019 - 876.54] radically intolerant feminist who is a
+
+[873.959 - 878.16] Scientologist which is just like wow
+
+[876.54 - 880.26] um this was this was really interesting
+
+[878.16 - 884.04] as it tried to figure out how to appease
+
+[880.26 - 886.62] a very dogmatic uh person so anyways uh
+
+[884.04 - 889.139] this is a work in progress
+
+[886.62 - 892.199] um I uh I don't know where it's going
+
+[889.139 - 893.88] exactly but the idea is that maybe you
+
+[892.199 - 895.8599999999999] could use it for policy research maybe
+
+[893.88 - 898.26] you could use it for
+
+[895.86 - 899.339] um it actually came it was precip I've
+
+[898.26 - 901.86] been thinking about it for a long time
+
+[899.339 - 904.6800000000001] but I had some inspiration after talking
+
+[901.86 - 906.72] to the gato Community about uh the
+
+[904.68 - 909.7199999999999] Democratic inputs to AI
+
+[906.72 - 911.88] because the idea of using a chat bot to
+
+[909.72 - 914.279] extract information from a person from a
+
+[911.88 - 915.959] real person is one thing but then I was
+
+[914.279 - 917.279] like you know the model already has a
+
+[915.959 - 919.92] tremendous amount of information so why
+
+[917.279 - 922.079] don't we just bootstrap it and ask the
+
+[919.92 - 924.7199999999999] model to kind of think through this so
+
+[922.079 - 926.76] this is essentially a tree of thought
+
+[924.72 - 929.519] but each branch of the tree is a
+
+[926.76 - 931.86] different Persona and then each of those
+
+[929.519 - 934.26] branches has three sub-branches where I
+
+[931.86 - 935.639] ask it those three questions like uh you
+
+[934.26 - 937.5] know what do you think this person will
+
+[935.639 - 939.42] think about Ubi what kind of fiscal
+
+[937.5 - 941.04] policy do you think would resonate and
+
+[939.42 - 942.66] then finally given the Persona in their
+
+[941.04 - 944.76] disposition can you creatively conjure
+
+[942.66 - 946.86] up a policy that has a high chance of
+
+[944.76 - 948.12] reaching consensus with this person so
+
+[946.86 - 950.22] it's you know basically you can create
+
+[948.12 - 951.54] an arbitrary number of branches and then
+
+[950.22 - 953.339] as you
+
+[951.54 - 954.66] as those branches span out and you get
+
+[953.339 - 957.1800000000001] all the leaves you gather the leaves
+
+[954.66 - 960.18] together and see what fits okay anyways
+
+[957.18 - 962.579] so you're up to date on that project so
+
+[960.18 - 964.92] let's dive back into the Gaia initiative
+
+[962.579 - 968.3389999999999] the global AI agencies
+
+[964.92 - 970.8] so I've been watching the news and I
+
+[968.339 - 973.2600000000001] realized that the number of things that
+
+[970.8 - 974.3389999999999] are piling up that make me feel good and
+
+[973.26 - 977.04] I know that there's a lot of people out
+
+[974.339 - 978.9590000000001] there that are skeptical of uh of
+
+[977.04 - 980.76] anything to do with government or
+
+[978.959 - 982.7399999999999] corporations
+
+[980.76 - 986.16] um and for those people I empathize with
+
+[982.74 - 989.94] you uh growing up I was more like that
+
+[986.16 - 993.18] where I was super skeptical of all uh
+
+[989.94 - 994.339] trappings of power and certainly my
+
+[993.18 - 996.4799999999999] friends were very like
+
+[994.339 - 998.519] disestablishmentarianism and anarcho
+
+[996.48 - 1000.5] libertarian whatever
+
+[998.519 - 1002.779] um but none of them ever did anything
+
+[1000.5 - 1004.699] with it uh so this is the world we live
+
+[1002.779 - 1007.639] in we live in a world with corporations
+
+[1004.699 - 1010.579] and governments and stuff and yes all
+
+[1007.639 - 1013.82] power needs to be scrutinized healthy
+
+[1010.579 - 1015.8599999999999] skepticism is uh absolutely fine that is
+
+[1013.82 - 1017.9590000000001] part of the democratic process that
+
+[1015.86 - 1020.12] being said if you're dogmatically
+
+[1017.959 - 1021.8] against all forms of power well I mean
+
+[1020.12 - 1023.54] wish in one hand and you know you know
+
+[1021.8 - 1026.059] what to do with the other one see which
+
+[1023.54 - 1027.319] one fills up first so anyway ways I have
+
+[1026.059 - 1028.8799999999999] been keeping track of all this stuff
+
+[1027.319 - 1031.699] because
+
+[1028.88 - 1033.7990000000002] I see the currents and the trends and it
+
+[1031.699 - 1035.059] is actually very very encouraging to me
+
+[1033.799 - 1036.98] so
+
+[1035.059 - 1039.319] I've got it all in chronological order
+
+[1036.98 - 1041.72] so first was the future of Life
+
+[1039.319 - 1043.76] Institute published there um their open
+
+[1041.72 - 1046.579] letter you know signed by everyone
+
+[1043.76 - 1048.5] including Elon Musk and yada yada yada
+
+[1046.579 - 1051.1399999999999] what I didn't realize was that it
+
+[1048.5 - 1053.299] actually came with a policy paper and so
+
+[1051.14 - 1057.039] this policy paper it's only 14 pages and
+
+[1053.299 - 1061.22] it has uh seven policy recommendations
+
+[1057.039 - 1063.86] uh so this this came out in uh let's see
+
+[1061.22 - 1066.08] uh April 12th
+
+[1063.86 - 1069.1999999999998] um I think I might have that wrong the
+
+[1066.08 - 1071.78] the pause the the big pause
+
+[1069.2 - 1074.72] um oh so the paper was published March
+
+[1071.78 - 1076.6399999999999] 22nd the uh the policy recommendations
+
+[1074.72 - 1079.28] came out a few few days later a couple
+
+[1076.64 - 1081.7990000000002] weeks later so what I did was I took all
+
+[1079.28 - 1083.539] that and then I made a very brief
+
+[1081.799 - 1086.36] summary of the whole thing
+
+[1083.539 - 1088.52] right here so you can click on the link
+
+[1086.36 - 1090.4399999999998] and see it but you know it's a few basic
+
+[1088.52 - 1092.48] things mandate robust third party
+
+[1090.44 - 1095.78] auditing regulate organizations access
+
+[1092.48 - 1097.4] to computational power uh established
+
+[1095.78 - 1100.22] capable AI agencies at the national
+
+[1097.4 - 1102.5] level establish liability for AI caused
+
+[1100.22 - 1105.14] harm uh introduce measures to prevent
+
+[1102.5 - 1107.96] and track AI model leaks expand AI
+
+[1105.14 - 1109.46] technical Safety Research and develop
+
+[1107.96 - 1111.559] standards for identifying and managing
+
+[1109.46 - 1113.419] AI generated content okay sure whatever
+
+[1111.559 - 1116.12] it's all pretty boilerplate in the grand
+
+[1113.419 - 1120.98] scheme of things but so that came out
+
+[1116.12 - 1123.9189999999999] March April uh March 29th the UK did
+
+[1120.98 - 1126.32] this uh this uh Joby which I haven't had
+
+[1123.919 - 1130.7] a chance to summarize yet but basically
+
+[1126.32 - 1132.799] the idea is uh and a pro Innovation AI
+
+[1130.7 - 1134.419] regulatory framework
+
+[1132.799 - 1136.039] Etc et cetera again you see how long
+
+[1134.419 - 1138.44] this thing is that's why it takes a
+
+[1136.039 - 1142.12] little takes a little bit of doing to
+
+[1138.44 - 1144.38] summarize with uh with a GPT API calls
+
+[1142.12 - 1147.7399999999998] so anyways
+
+[1144.38 - 1151.0390000000002] they call for a regulatory sandbox
+
+[1147.74 - 1154.22] um which so does the EA the eua good
+
+[1151.039 - 1156.2] grief e-u-a-i act also calls for
+
+[1154.22 - 1158.059] regulatory sandboxes
+
+[1156.2 - 1159.6200000000001] um so if you if you don't know a
+
+[1158.059 - 1161.539] regulatory sandbox is basically you
+
+[1159.62 - 1163.58] create a safe space where you can
+
+[1161.539 - 1167.84] experiment with AI
+
+[1163.58 - 1170.48] um you know that is uh a little bit more
+
+[1167.84 - 1172.76] permissive so and this is this is very
+
+[1170.48 - 1174.5] often the case so for instance
+
+[1172.76 - 1176.299] um one of the most familiar ones is if
+
+[1174.5 - 1178.28] you're doing medical research for
+
+[1176.299 - 1181.16] instance you're allowed to use uh
+
+[1178.28 - 1183.32] substances that are otherwise illegal uh
+
+[1181.16 - 1185.419] you just have to go through uh approval
+
+[1183.32 - 1187.58] processes that's not quite the same but
+
+[1185.419 - 1189.98] the idea is that like people have been
+
+[1187.58 - 1192.1399999999999] able to experiment with THC and LSD and
+
+[1189.98 - 1194.48] psilocybin even though it's still a
+
+[1192.14 - 1195.679] schedule two drug or whatever in the
+
+[1194.48 - 1197.96] United States
+
+[1195.679 - 1200.7800000000002] you just have to you have to be approved
+
+[1197.96 - 1203.179] to do so likewise if you are an approved
+
+[1200.78 - 1205.52] entity uh the idea of a regulatory
+
+[1203.179 - 1207.14] sandbox is that you can still do
+
+[1205.52 - 1209.36] whatever science you need to do as long
+
+[1207.14 - 1212.0] as you do so safely but also one thing
+
+[1209.36 - 1213.26] about these Pro Innovation things is and
+
+[1212.0 - 1215.36] this is a common theme that I actually
+
+[1213.26 - 1218.799] noticed which is why I was inspired to
+
+[1215.36 - 1222.62] do this so the UK and the United States
+
+[1218.799 - 1224.6] have all uh focused on protecting
+
+[1222.62 - 1226.82] Innovation and accelerating innovation
+
+[1224.6 - 1231.08] in fact
+
+[1226.82 - 1234.2] um so then uh in early May the U.N
+
+[1231.08 - 1236.299] Secretary General Antonio guterres said
+
+[1234.2 - 1240.14] that he's amenable to the idea of the
+
+[1236.299 - 1241.8799999999999] iaea for AI which also open AI I forgot
+
+[1240.14 - 1243.679] to add that but open AI basically
+
+[1241.88 - 1247.16] published a Blog calling for the same
+
+[1243.679 - 1249.74] thing uh then a few days later uh the
+
+[1247.16 - 1252.6200000000001] United States uh Senate hearing on AI
+
+[1249.74 - 1254.419] this was the one with Sam Altman
+
+[1252.62 - 1257.0] um and Christina Montgomery Montgomery
+
+[1254.419 - 1258.38] and and Gary Marcus this was almost a
+
+[1257.0 - 1260.9] three-hour talk
+
+[1258.38 - 1263.0590000000002] and I took the transcript of that and I
+
+[1260.9 - 1264.5590000000002] summarized it here so the high level
+
+[1263.059 - 1265.94] summary
+
+[1264.559 - 1268.28] um you know basically just says here's
+
+[1265.94 - 1269.72] the key points that they discussed and
+
+[1268.28 - 1271.22] then I break each one of those down
+
+[1269.72 - 1273.44] further
+
+[1271.22 - 1276.2] um so it takes you you know 20 minutes
+
+[1273.44 - 1278.66] to read this instead of three hours
+
+[1276.2 - 1281.299] um it's pretty straightforward uh you
+
+[1278.66 - 1282.74] know I there was a lot of back and forth
+
+[1281.299 - 1284.48] a lot of questions I watched pretty much
+
+[1282.74 - 1286.46] the entire hearing
+
+[1284.48 - 1288.38] um but clearly uh the United States
+
+[1286.46 - 1289.76] government was listening
+
+[1288.38 - 1292.1000000000001] um and I wonder if this whole thing was
+
+[1289.76 - 1295.1] just an orchestrated series of events or
+
+[1292.1 - 1297.98] or you know it or not
+
+[1295.1 - 1300.6789999999999] um but anyways a month later the EU AI
+
+[1297.98 - 1302.1200000000001] Act was uh proposed I don't think it's
+
+[1300.679 - 1304.4] been adopted or ratified or anything
+
+[1302.12 - 1306.08] someone explained in the comments that
+
+[1304.4 - 1306.8200000000002] um there's still quite a process to go
+
+[1306.08 - 1309.5] through
+
+[1306.82 - 1311.4189999999999] they've got to get feedback
+
+[1309.5 - 1314.96] but then more recently in just the last
+
+[1311.419 - 1317.539] couple days uh the the uh United States
+
+[1314.96 - 1320.0] House of Representatives uh by uh
+
+[1317.539 - 1321.5] representative Ted loot excuse me Ted
+
+[1320.0 - 1323.539] Lew and a few others
+
+[1321.5 - 1325.64] um introduced a bipartisan uh commission
+
+[1323.539 - 1327.44] basically it's an AI commission I
+
+[1325.64 - 1329.8400000000001] summarized it here it's pretty uh or no
+
+[1327.44 - 1331.5800000000002] sorry I didn't summarize it here I um I
+
+[1329.84 - 1333.1399999999999] copied the text here because their PDF
+
+[1331.58 - 1335.0] was garbage
+
+[1333.14 - 1337.1000000000001] um seriously like this is the United
+
+[1335.0 - 1340.58] States you can pay someone who knows how
+
+[1337.1 - 1343.1589999999999] to make a PDF good Lord so anyways
+
+[1340.58 - 1345.02] It's relatively straightforward mostly
+
+[1343.159 - 1346.7] this is just saying like let's appoint a
+
+[1345.02 - 1348.3799999999999] panel to make to come up with policy
+
+[1346.7 - 1350.299] recommendations
+
+[1348.38 - 1352.5800000000002] um it's not really they're not going to
+
+[1350.299 - 1354.799] do anything the whole basically it's
+
+[1352.58 - 1356.48] going to produce three reports
+
+[1354.799 - 1360.559] um and so this is going to recommend
+
+[1356.48 - 1363.679] what the United States Congress does uh
+
+[1360.559 - 1364.94] for AI okay great you know Congressional
+
+[1363.679 - 1366.3200000000002] commission
+
+[1364.94 - 1368.48] um they're they're interested in getting
+
+[1366.32 - 1370.1] more information which means that
+
+[1368.48 - 1370.94] they're going to solicit experts so one
+
+[1370.1 - 1373.82] thing that I thought was most
+
+[1370.94 - 1376.24] interesting was that was the the panel
+
+[1373.82 - 1378.4399999999998] um is that they that they want to have
+
+[1376.24 - 1380.48] members of the commission shall have a
+
+[1378.44 - 1383.72] demonstrated background in at least one
+
+[1380.48 - 1386.299] of the following computer science or AI
+
+[1383.72 - 1388.039] specifically Civil Society including
+
+[1386.299 - 1390.46] constitutional rights civil liberties
+
+[1388.039 - 1392.36] ethics and the creative Community
+
+[1390.46 - 1394.059] industry and Workforce and then
+
+[1392.36 - 1397.34] government including National Security
+
+[1394.059 - 1399.1399999999999] so when you get these kinds of people in
+
+[1397.34 - 1401.4189999999999] a room together it's not just engineers
+
+[1399.14 - 1403.039] and not just data scientists this is
+
+[1401.419 - 1406.4] going to be people that are in political
+
+[1403.039 - 1408.799] science uh civil rights civil liberties
+
+[1406.4 - 1410.96] industry insiders and then finally
+
+[1408.799 - 1412.58] National Security Experts so this is
+
+[1410.96 - 1413.96] going to be a pretty comprehensive set
+
+[1412.58 - 1415.22] of recommendations and I'm actually
+
+[1413.96 - 1417.6200000000001] pretty happy
+
+[1415.22 - 1419.72] um to see that that Ted Lou is leading
+
+[1417.62 - 1421.8799999999999] that and Ted Lou is um where's he is he
+
+[1419.72 - 1423.44] the Los Angeles County
+
+[1421.88 - 1425.48] um so it's not surprising that you know
+
+[1423.44 - 1426.98] California bro is going to be figuring
+
+[1425.48 - 1428.9] that out
+
+[1426.98 - 1431.1200000000001] um okay and then finally most recently
+
+[1428.9 - 1433.88] was just a couple days ago uh Chuck
+
+[1431.12 - 1437.539] Senator Chuck Schumer announced the safe
+
+[1433.88 - 1439.159] framework uh at the csis which is really
+
+[1437.539 - 1440.9] interesting
+
+[1439.159 - 1442.7600000000002] um and I don't know if this has been
+
+[1440.9 - 1445.52] ratified yet or anything I haven't been
+
+[1442.76 - 1447.919] able to find the actual text of the uh
+
+[1445.52 - 1450.1399999999999] of the of the idea but there is a
+
+[1447.919 - 1451.5800000000002] one-pager out there somewhere
+
+[1450.14 - 1453.38] um that that summarizes it very
+
+[1451.58 - 1455.6] succinctly but I took I took the
+
+[1453.38 - 1457.22] transcript from this and I summarized
+
+[1455.6 - 1461.8999999999999] the the talk here
+
+[1457.22 - 1464.48] so basically uh the the it comes down to
+
+[1461.9 - 1467.299] four uh major components uh security
+
+[1464.48 - 1471.14] which basically talks about uh National
+
+[1467.299 - 1474.08] Security uh above all else but also uh
+
+[1471.14 - 1476.24] corporate security and uh privacy of
+
+[1474.08 - 1479.96] citizens accountability which talks
+
+[1476.24 - 1481.76] about how do you uh how do you it's it's
+
+[1479.96 - 1483.74] actually pretty similar to the EU thing
+
+[1481.76 - 1486.26] where oh I forgot to mention this for
+
+[1483.74 - 1489.6200000000001] the EU AI act the primary thing that the
+
+[1486.26 - 1492.3799999999999] EU AIX does is it bans outright social
+
+[1489.62 - 1495.9189999999999] Credit Systems and surveillance
+
+[1492.38 - 1498.5] um like high uh basically Big Brother
+
+[1495.919 - 1499.76] bans Big Brother stuff and so this is
+
+[1498.5 - 1502.58] what the security and accountability
+
+[1499.76 - 1505.039] does uh an interesting part of this was
+
+[1502.58 - 1508.1] the foundations aspect of the framework
+
+[1505.039 - 1511.4] so basically uh one of the key things of
+
+[1508.1 - 1514.1] Chuck Schumer's uh framework is to
+
+[1511.4 - 1515.6000000000001] protect the foundations of democracy so
+
+[1514.1 - 1517.4599999999998] I was talking with my wife about this
+
+[1515.6 - 1521.4189999999999] and she suspects that this was a direct
+
+[1517.46 - 1523.88] reaction to the January 6th uh attempted
+
+[1521.419 - 1525.26] Insurrection at the U.S Capitol
+
+[1523.88 - 1527.96] um you know when people are breaking
+
+[1525.26 - 1529.7] into uh and and keep in mind that many
+
+[1527.96 - 1534.2] members of Congress were directly in
+
+[1529.7 - 1535.82] danger and so we suspect we being my
+
+[1534.2 - 1539.059] wife and I we suspect that this is
+
+[1535.82 - 1540.5] actually uh basically the Congress uh
+
+[1539.059 - 1541.8799999999999] you know House of Representatives and
+
+[1540.5 - 1543.26] Senators
+
+[1541.88 - 1544.94] um you know they didn't take social
+
+[1543.26 - 1547.82] media seriously
+
+[1544.94 - 1550.22] and then you know Facebook happened with
+
+[1547.82 - 1552.22] Cambridge analytica I don't think it's
+
+[1550.22 - 1555.159] controversial to say that that Facebook
+
+[1552.22 - 1558.22] uh and other social media companies
+
+[1555.159 - 1561.0800000000002] directly contributed to the widespread
+
+[1558.22 - 1562.4] abuses of misinformation
+
+[1561.08 - 1564.559] um but also just coordination of
+
+[1562.4 - 1566.779] violence it's that simple
+
+[1564.559 - 1569.12] um and so they they learned their lesson
+
+[1566.779 - 1570.38] by not taking social media seriously and
+
+[1569.12 - 1572.6589999999999] now they're taking artificial
+
+[1570.38 - 1575.179] intelligence very seriously so on a
+
+[1572.659 - 1576.7990000000002] cynical note this is basically the
+
+[1575.179 - 1579.44] establishment wanting to protect the
+
+[1576.799 - 1581.72] establishment and the status quo
+
+[1579.44 - 1583.4] that is a pretty cynical take that
+
+[1581.72 - 1584.659] doesn't mean that it's the only thing uh
+
+[1583.4 - 1586.88] because I actually listened to all of
+
+[1584.659 - 1588.8600000000001] Chuck Schumer's talk and he had a very
+
+[1586.88 - 1589.94] clear like Words matter
+
+[1588.86 - 1591.559] um he had a very clear-eyed
+
+[1589.94 - 1594.44] understanding of what's coming he even
+
+[1591.559 - 1597.1399999999999] talked about the the possibility of of
+
+[1594.44 - 1599.419] jobs dislocation he likened it to uh
+
+[1597.14 - 1601.279] globalization and offshoring because he
+
+[1599.419 - 1604.1000000000001] said like yes globalization and
+
+[1601.279 - 1606.919] offshoring did actually help the economy
+
+[1604.1 - 1608.7199999999998] because it you know allowed us to lower
+
+[1606.919 - 1610.88] the prices of goods and services but at
+
+[1608.72 - 1612.02] the same time millions of Americans lost
+
+[1610.88 - 1614.419] their job
+
+[1612.02 - 1616.1589999999999] and so the implication there was that
+
+[1614.419 - 1618.8600000000001] the United States government did not do
+
+[1616.159 - 1621.2] a good enough job to protect Americans
+
+[1618.86 - 1624.5] um while we were rabidly offshoring in
+
+[1621.2 - 1626.659] the the 90s and and 2000s
+
+[1624.5 - 1628.34] um and then finally explainability uh
+
+[1626.659 - 1629.8400000000001] some people commented that Chuck Schumer
+
+[1628.34 - 1632.059] doesn't really seem to understand how AI
+
+[1629.84 - 1633.74] Works uh because you can't just it's not
+
+[1632.059 - 1635.539] it's not a database that you can like
+
+[1633.74 - 1637.76] say oh this is where it got the data
+
+[1635.539 - 1639.74] from that being said I think that these
+
+[1637.76 - 1641.72] commissions will figure out
+
+[1639.74 - 1645.14] um you know that that you while you
+
+[1641.72 - 1646.64] can't look at the uh uh the model and
+
+[1645.14 - 1648.8600000000001] then for what was in it you can look at
+
+[1646.64 - 1650.659] the training data so what I suspect is
+
+[1648.86 - 1653.059] that there's going to be a very soon
+
+[1650.659 - 1655.5200000000002] open source standards on training data
+
+[1653.059 - 1656.779] so basically in order to be a licensed
+
+[1655.52 - 1659.24] and approved and publicly available
+
+[1656.779 - 1661.279] model the underpinning training data
+
+[1659.24 - 1662.6] will have to be publicly available or at
+
+[1661.279 - 1664.34] least inspected
+
+[1662.6 - 1665.6] um he did he did talk about Innovation
+
+[1664.34 - 1668.0] first
+
+[1665.6 - 1669.9189999999999] as well so this is a common theme that's
+
+[1668.0 - 1671.779] emerging at least in Britain and America
+
+[1669.919 - 1674.26] the EU is less concerned about
+
+[1671.779 - 1676.82] Innovation they're more concerned about
+
+[1674.26 - 1678.98] uh fundamental civil rights and
+
+[1676.82 - 1681.4399999999998] foundational human rights uh which is
+
+[1678.98 - 1684.14] good like I would I would actually like
+
+[1681.44 - 1688.039] that but as an individual Nation they
+
+[1684.14 - 1691.8200000000002] are highly highly focused on focusing on
+
+[1688.039 - 1692.96] Innovation first and then safety rights
+
+[1691.82 - 1695.059] accountability and stuff so it's
+
+[1692.96 - 1698.1200000000001] basically here's the road map of how to
+
+[1695.059 - 1700.6399999999999] innovate safely and fast and quickly uh
+
+[1698.12 - 1703.279] and the idea is there are geopolitical
+
+[1700.64 - 1705.98] competitions happening uh Vladimir Putin
+
+[1703.279 - 1707.179] said uh what I think it was 2021 the
+
+[1705.98 - 1709.039] nation that solves artificial
+
+[1707.179 - 1710.1200000000001] intelligence will own you know the next
+
+[1709.039 - 1711.2] Century
+
+[1710.12 - 1714.02] um and it's probably going to be a lot
+
+[1711.2 - 1716.24] longer than that uh Russia unfortunately
+
+[1714.02 - 1718.1589999999999] for them does not have the economy or
+
+[1716.24 - 1719.779] the uh they have brain drain so they're
+
+[1718.159 - 1721.7] not going to be a participant in
+
+[1719.779 - 1723.08] artificial intelligence uh it's
+
+[1721.7 - 1726.26] basically going to come down to America
+
+[1723.08 - 1729.26] versus China versus the EU
+
+[1726.26 - 1732.02] uh but the EU is more ideologically
+
+[1729.26 - 1733.76] aligned with America uh and vice versa
+
+[1732.02 - 1735.44] so it'll basically come down to East
+
+[1733.76 - 1737.539] versus West
+
+[1735.44 - 1739.8200000000002] um which is basically you know the same
+
+[1737.539 - 1742.1589999999999] idea of World War II and the Cold War
+
+[1739.82 - 1744.26] which was Western ideology versus
+
+[1742.159 - 1746.419] Eastern ideology so this is what the
+
+[1744.26 - 1749.24] geopolitical conflict is shaping up to
+
+[1746.419 - 1750.7990000000002] be for the next Century yay repeat of
+
+[1749.24 - 1752.96] the 20th century let's hope that it's
+
+[1750.799 - 1756.08] not as bloody uh and I say that
+
+[1752.96 - 1757.88] flippantly but I am dead serious because
+
+[1756.08 - 1759.6789999999999] um the stakes are very very high here
+
+[1757.88 - 1761.419] which is why I call this the Gaia
+
+[1759.679 - 1764.24] initiative because Gaia is Greek for
+
+[1761.419 - 1766.8200000000002] Earth or Mother Earth and also Gaia was
+
+[1764.24 - 1769.1] the goddess of monsters too so on the
+
+[1766.82 - 1770.6] topic of Malik and shogoth and all those
+
+[1769.1 - 1772.9399999999998] other things I think that Gaia is a
+
+[1770.6 - 1774.6789999999999] really appropriate name so anyways this
+
+[1772.94 - 1778.3400000000001] is out here it's just under um
+
+[1774.679 - 1779.0590000000002] github.com Dave shop guy initiative
+
+[1778.34 - 1781.8799999999999] um
+
+[1779.059 - 1783.799] I will update this as interesting news
+
+[1781.88 - 1786.5] comes out I might forget about it for a
+
+[1783.799 - 1788.779] while I tend to do that but it's up
+
+[1786.5 - 1790.76] there and I find all this news very
+
+[1788.779 - 1793.899] encouraging so thanks for watching I
+
+[1790.76 - 1793.899] hope you got a lot out of it cheers

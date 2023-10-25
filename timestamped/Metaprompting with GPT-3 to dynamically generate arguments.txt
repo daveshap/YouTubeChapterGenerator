@@ -1,0 +1,2215 @@
+[0.56 - 5.040000000000001] happy monday morning everybody um david
+
+[2.72 - 6.960000000000001] shapiro here with another video
+
+[5.04 - 9.36] uh let me go ahead and introduce today's
+
+[6.96 - 12.559000000000001] topic um so
+
+[9.36 - 14.559] i posted on the open ai forum um just
+
+[12.559 - 16.72] say hey bring me your research and
+
+[14.559 - 18.0] business problems and i'll see what i
+
+[16.72 - 21.358999999999998] can do
+
+[18.0 - 23.039] and so anna r mills is an expert in
+
+[21.359 - 26.64] constructing arguments and asked me to
+
+[23.039 - 28.32] take a look at doing this with gpt3
+
+[26.64 - 30.0] so i'll show you the data in a second
+
+[28.32 - 32.079] but the most important thing is the
+
+[30.0 - 33.76] instructions that she gives her i guess
+
+[32.079 - 36.079] students um
+
+[33.76 - 38.239] and it's it's basically teaching them
+
+[36.079 - 40.32] how to how to construct um
+
+[38.239 - 42.16] critical arguments against something
+
+[40.32 - 44.079] so write a thorough summary and critical
+
+[42.16 - 45.599999999999994] assessment of the argument the summary
+
+[44.079 - 47.52] should describe the key ideas of the
+
+[45.6 - 49.039] argument including the main claim
+
+[47.52 - 51.199000000000005] uh key reasons counter arguments
+
+[49.039 - 52.559000000000005] rebuttals and limits
+
+[51.199 - 54.48] the assessment should discuss the
+
+[52.559 - 56.32] strengths and weaknesses of the argument
+
+[54.48 - 58.879] what was compelling persuasive troubling
+
+[56.32 - 61.28] unclear or problematic choose phrases
+
+[58.879 - 62.96] like elegant argues throughout to show
+
+[61.28 - 64.32000000000001] that the writer's purpose
+
+[62.96 - 65.43900000000001] to show the writer's purpose at each
+
+[64.32 - 67.119] point
+
+[65.439 - 68.96] write most of the essay in your own
+
+[67.119 - 70.4] words but consider using the occasional
+
+[68.96 - 73.03999999999999] direct quote
+
+[70.4 - 75.04] where original word choice is critical
+
+[73.04 - 76.96000000000001] the introductory paragraph should
+
+[75.04 - 79.119] include the title of the argument the
+
+[76.96 - 80.79899999999999] author's full name the argument's main
+
+[79.119 - 82.479] claim and your overall assessment of the
+
+[80.799 - 83.60000000000001] argument's validity
+
+[82.479 - 84.79899999999999] okay
+
+[83.6 - 87.6] so
+
+[84.799 - 90.159] um this might sound like one task but
+
+[87.6 - 92.72] this is actually many many many tasks
+
+[90.159 - 94.72] and so let me show you some of the data
+
+[92.72 - 97.03999999999999] that um she sent over
+
+[94.72 - 99.439] to show you what i mean and so this is
+
+[97.04 - 101.36000000000001] this is one reason that a lot of people
+
+[99.439 - 103.119] think that like oh gpt 3 is really
+
+[101.36 - 104.479] stupid because you ask it to do like all
+
+[103.119 - 106.799] these things at once and it only does
+
+[104.479 - 108.56] one of the things
+
+[106.799 - 110.07900000000001] and that is because what we need to do
+
+[108.56 - 112.399] is we need to break these things down
+
+[110.079 - 114.32] into separate cognitive tasks
+
+[112.399 - 117.2] so here's the instructions that she
+
+[114.32 - 118.96] gives um and really this is a procedure
+
+[117.2 - 120.24000000000001] right it says do this this this this is
+
+[118.96 - 121.52] how it should look
+
+[120.24 - 123.759] um
+
+[121.52 - 125.52] gpt3 will be able to get some of this
+
+[123.759 - 127.92] but let me show you an example of one of
+
+[125.52 - 129.35999999999999] the inputs so here's one of the here's
+
+[127.92 - 133.52] one of the essays
+
+[129.36 - 136.0] um it is 1500 1600 characters long
+
+[133.52 - 138.8] and then we go get the the critique look
+
+[136.0 - 142.319] how long the critique is the critique is
+
+[138.8 - 144.08] way longer than the um
+
+[142.319 - 147.28] then the then the uh
+
+[144.08 - 149.12] actual essay it's 5800 characters long
+
+[147.28 - 150.72] okay so that's
+
+[149.12 - 153.04] that's a lot of critique
+
+[150.72 - 155.599] um unfortunately this is probably a
+
+[153.04 - 158.79999999999998] little bit too long to fit in in a
+
+[155.599 - 160.39999999999998] single prompt which is another reason um
+
+[158.8 - 163.44] so let's see how many tokens this is oh
+
+[160.4 - 164.959] only 1500 tokens okay never mind um so
+
+[163.44 - 167.44] this could actually fit in original
+
+[164.959 - 169.36] davinci however
+
+[167.44 - 170.879] what we're doing here
+
+[169.36 - 172.4] is
+
+[170.879 - 174.879] is basically i'm going to break it down
+
+[172.4 - 175.68] into prompt chaining
+
+[174.879 - 177.44] so
+
+[175.68 - 180.0] with all that said
+
+[177.44 - 182.0] we are going to i've already got the
+
+[180.0 - 183.36] repo created so let's go ahead and clone
+
+[182.0 - 184.72] this down
+
+[183.36 - 186.959] um
+
+[184.72 - 186.959] and
+
+[187.76 - 190.959] let's get clone
+
+[191.44 - 195.2] yes i fat fingered that there we go
+
+[194.319 - 197.2] okay
+
+[195.2 - 200.56] so then we've got our brand new repo
+
+[197.2 - 201.44] here critical argument yep that looks
+
+[200.56 - 204.319] good
+
+[201.44 - 206.0] and then we'll open another one
+
+[204.319 - 208.319] um
+
+[206.0 - 213.84] increasingly verbose bot
+
+[208.319 - 213.83999999999997] copy my git ignore and open ai key
+
+[214.959 - 219.12] okay
+
+[216.48 - 220.64] and then
+
+[219.12 - 223.76] increasingly verbose just go ahead and
+
+[220.64 - 225.67999999999998] copy a script over i'll rename it
+
+[223.76 - 229.04] paste
+
+[225.68 - 229.04000000000002] okay so this will be um
+
+[229.84 - 234.959] critical argument
+
+[232.4 - 236.31900000000002] um i'll just call it critical argument
+
+[234.959 - 238.08] so what we're going to do within this
+
+[236.319 - 239.28] though is we're going to set up prompt
+
+[238.08 - 242.4] chaining
+
+[239.28 - 243.36] so the first thing we need to do
+
+[242.4 - 245.36] is
+
+[243.36 - 247.36] let's look at the instructions
+
+[245.36 - 249.12] write a thorough summary and critical
+
+[247.36 - 251.59900000000002] assessment of the argument
+
+[249.12 - 253.04] that is the highest order
+
+[251.599 - 254.79899999999998] instruction
+
+[253.04 - 256.4] and then this describes the summary the
+
+[254.799 - 258.88] summary should describe the key ideas
+
+[256.4 - 261.12] including the main main claim blah blah
+
+[258.88 - 261.12] okay
+
+[263.12 - 266.72] so we'll say this is this is subordinate
+
+[265.68 - 267.6] to
+
+[266.72 - 270.24] um
+
+[267.6 - 272.24] the first instruction right
+
+[270.24 - 274.16] let's see the
+
+[272.24 - 277.46000000000004] assessment should discuss the strengths
+
+[274.16 - 278.88000000000005] and weaknesses of the argument
+
+[277.46 - 280.56] [Music]
+
+[278.88 - 282.4] what was compelling persuasive troubling
+
+[280.56 - 284.24] clear and problematic
+
+[282.4 - 288.08] throughout
+
+[284.24 - 288.08] okay so the throughout is
+
+[290.96 - 295.44] global instructions
+
+[293.84 - 299.44] write most of the essay in your own
+
+[295.44 - 299.44] words also global instructions
+
+[304.4 - 308.23999999999995] let's see
+
+[306.4 - 310.56] the introductory paragraph should
+
+[308.24 - 314.08] include the title of the argument main
+
+[310.56 - 314.08] claim in your overall okay
+
+[315.199 - 318.96000000000004] okay so basically what i'm doing here is
+
+[317.039 - 321.759] i kind of chopped up the instructions to
+
+[318.96 - 321.75899999999996] show that it's like
+
+[323.199 - 328.72] uh let's see that it like it's it's
+
+[325.919 - 330.24] separate tasks um i'm i don't i don't
+
+[328.72 - 331.84000000000003] think i'm wording this correctly but i
+
+[330.24 - 333.6] hope that by showing you
+
+[331.84 - 335.59999999999997] um so like there's an order of
+
+[333.6 - 337.44] operations basically the introductory
+
+[335.6 - 339.03900000000004] paragraph right should include this
+
+[337.44 - 342.479] choose phrases like elegant argues
+
+[339.039 - 342.479] throughout to show the writer's purpose
+
+[343.919 - 348.08] actually i wonder if this should be
+
+[345.44 - 348.08] subordinate
+
+[349.68 - 352.96] because this first instruction is kind
+
+[351.68 - 355.44] of
+
+[352.96 - 357.12] the global purpose right that is what
+
+[355.44 - 359.28] this paper is
+
+[357.12 - 362.72] um rightmost the essay in your own words
+
+[359.28 - 362.71999999999997] okay yeah i think that's good
+
+[364.4 - 367.4] um
+
+[371.44 - 374.08] and then
+
+[375.28 - 380.23999999999995] yeah okay so the reason i'm chopping it
+
+[377.52 - 382.31899999999996] up this way is just to show how the mind
+
+[380.24 - 384.16] how your mind might organize this
+
+[382.319 - 386.16] because the instructions that she gives
+
+[384.16 - 387.91900000000004] kind of talk about this part and this
+
+[386.16 - 389.6] part in this part but what what happens
+
+[387.919 - 391.68] in your mind as you build it up is
+
+[389.6 - 394.0] you're kind of constructing an image um
+
+[391.68 - 396.72] so our brains are kind of like um
+
+[394.0 - 398.639] object-oriented coding where um you know
+
+[396.72 - 400.56] it's like okay so you start with this
+
+[398.639 - 403.199] primary idea and then you attach a new
+
+[400.56 - 405.199] feature to it or a new um or a new uh
+
+[403.199 - 407.039] characteristic and then you modify that
+
+[405.199 - 408.88] characteristic and then you add a new
+
+[407.039 - 410.96] you know value or whatever or a new
+
+[408.88 - 412.8] function to it and so you keep operating
+
+[410.96 - 416.0] on this object in your mind which is
+
+[412.8 - 416.0] constructing this argument
+
+[416.479 - 419.84] now
+
+[417.599 - 421.599] before we do that let's just do an
+
+[419.84 - 423.84] experiment because right now i'm
+
+[421.599 - 426.15999999999997] operating off of intuition so it's like
+
+[423.84 - 428.31899999999996] what if i'm wrong right what if what if
+
+[426.16 - 432.08000000000004] gpt3 can handle
+
+[428.319 - 435.03900000000004] can handle this just sight unseen
+
+[432.08 - 436.96] so let's go and test that real quick
+
+[435.039 - 440.31899999999996] so write a thorough summary and critical
+
+[436.96 - 441.35999999999996] assessment um and then
+
+[440.319 - 443.36] argument
+
+[441.36 - 444.88] actually here no we don't even need that
+
+[443.36 - 448.08000000000004] just go grab it
+
+[444.88 - 448.08] essay to critique
+
+[449.039 - 453.44] add some more new lines
+
+[451.12 - 453.44] okay
+
+[455.52 - 461.75899999999996] credit uh let's see we'll say
+
+[458.16 - 461.759] summary and critical
+
+[462.84 - 468.4] assessment now this is da vincio 2 so um
+
+[470.0 - 472.8] okay
+
+[471.12 - 475.12] not bad
+
+[472.8 - 476.08] may contain sensitive content all right
+
+[475.12 - 478.479] so
+
+[476.08 - 479.44] in wouldn't we all cross the border
+
+[478.479 - 481.44] yep
+
+[479.44 - 483.12] um anna mills argues that illegal
+
+[481.44 - 484.71999999999997] immigration is not inherently wrong or
+
+[483.12 - 486.72] unethical mills points out that if most
+
+[484.72 - 487.84000000000003] people were in a situation where their
+
+[486.72 - 489.28000000000003] children were starving and they had a
+
+[487.84 - 491.35999999999996] chance to get to the us they would take
+
+[489.28 - 492.63899999999995] it regardless of the legal consequences
+
+[491.36 - 494.24] therefore mills concludes that we must
+
+[492.639 - 496.40000000000003] find a border policy that treats
+
+[494.24 - 497.84000000000003] migrants with empathy and respect this
+
+[496.4 - 501.28] is a compelling argument that highlights
+
+[497.84 - 502.87899999999996] the human side of illegal immigration
+
+[501.28 - 504.63899999999995] now that's still really hot
+
+[502.879 - 506.16] mills effectively uses hypothetical
+
+[504.639 - 507.44] situations to illustrate her point that
+
+[506.16 - 508.639] most people
+
+[507.44 - 510.71999999999997] would do whatever it takes to get their
+
+[508.639 - 512.479] families to safety however the argument
+
+[510.72 - 514.08] does not address some of the more
+
+[512.479 - 515.9190000000001] practical concerns around illegal
+
+[514.08 - 517.36] immigration such as national security
+
+[515.919 - 518.64] overall this is a thought-provoking
+
+[517.36 - 519.76] piece that challenges readers to
+
+[518.64 - 521.68] consider the issue from a different
+
+[519.76 - 525.04] perspective i would say that is a
+
+[521.68 - 526.7199999999999] phenomenal opening paragraph however
+
+[525.04 - 528.24] let me show you how long this is in
+
+[526.72 - 529.6800000000001] comparison and part of the reason that
+
+[528.24 - 531.519] it's shorter is because we're using text
+
+[529.68 - 535.4399999999999] davinci o2
+
+[531.519 - 537.6] so text davinci o2 is fine-tuned on on
+
+[535.44 - 539.0400000000001] on the instruct series data so it's
+
+[537.6 - 541.12] basically saying okay i'm going to put
+
+[539.04 - 543.519] out you know one sentence a couple
+
+[541.12 - 544.5600000000001] paragraphs sometimes you get run on
+
+[543.519 - 546.72] stuff
+
+[544.56 - 549.1999999999999] but with davinci o2 its output is
+
+[546.72 - 550.72] generally very short
+
+[549.2 - 554.48] especially compared to some other ones
+
+[550.72 - 556.9590000000001] so this is this is what gpt3 put out
+
+[554.48 - 556.9590000000001] and then
+
+[558.959 - 562.56] this was what
+
+[561.12 - 565.2] a professional wrote i don't know if
+
+[562.56 - 567.279] anna wrote it or if um
+
+[565.2 - 569.36] if a student wrote it but you see like
+
+[567.279 - 572.88] okay so we've got
+
+[569.36 - 575.2] um let's see 906 character response
+
+[572.88 - 577.36] versus
+
+[575.2 - 580.08] 5800 character response
+
+[577.36 - 583.279] so we're not quite there but the quality
+
+[580.08 - 584.08] of this response phenomenal right this
+
+[583.279 - 585.68] this
+
+[584.08 - 588.08] i would say like
+
+[585.68 - 590.399] um the construction of this it is very
+
+[588.08 - 592.72] obvious that someone is responding that
+
+[590.399 - 594.8] this author is responding directly to
+
+[592.72 - 596.64] this essay whereas you say like you know
+
+[594.8 - 598.56] the the response title was contested
+
+[596.64 - 601.279] territory okay that's not even the same
+
+[598.56 - 605.1199999999999] title right in recent years like someone
+
+[601.279 - 606.72] is just kind of summarizing it um
+
+[605.12 - 607.6] but honestly
+
+[606.72 - 609.2] uh
+
+[607.6 - 611.76] this i don't i don't think that this is
+
+[609.2 - 614.6400000000001] as good of a of an opening because
+
+[611.76 - 616.399] someone is like whoever wrote this
+
+[614.64 - 618.399] they're not actually saying that this is
+
+[616.399 - 620.48] what anna mills claims there's just
+
+[618.399 - 622.399] stating this is a fact and so it's not
+
+[620.48 - 626.32] clear that this is actually a critical
+
+[622.399 - 627.839] response just from the get-go um so
+
+[626.32 - 629.519] that's my personal opinion i'm not an
+
+[627.839 - 631.519] expert in this this is just i'm reading
+
+[629.519 - 633.2] this and if this was an art like if i
+
+[631.519 - 634.24] saw this as like a blog and someone was
+
+[633.2 - 635.839] like you know
+
+[634.24 - 637.6] critiquing someone else's blog i'd be
+
+[635.839 - 639.6] like what are you who are you like
+
+[637.6 - 641.44] contested territory
+
+[639.6 - 643.0400000000001] okay i would search for contested
+
+[641.44 - 644.399] territory like is that what you're
+
+[643.04 - 645.279] responding to
+
+[644.399 - 648.16] um
+
+[645.279 - 649.6] the second paragraph seems seems spot-on
+
+[648.16 - 651.68] uh mills questions the ethics of
+
+[649.6 - 653.12] enforcing immigration laws
+
+[651.68 - 655.4399999999999] that was you know
+
+[653.12 - 657.12] gpt-3 picked up on that as well
+
+[655.44 - 659.2790000000001] um
+
+[657.12 - 661.44] while the essay argues for empathy it
+
+[659.279 - 663.68] limits the scope of its argument to from
+
+[661.44 - 664.6400000000001] offering comprehensive vision okay
+
+[663.68 - 667.4399999999999] so we've got all the different
+
+[664.64 - 670.16] components um so for the opening
+
+[667.44 - 673.0400000000001] paragraph it seems like if we just use
+
+[670.16 - 675.76] this whole thing that's fine
+
+[673.04 - 679.12] but what i'm wondering is if we can
+
+[675.76 - 680.959] break it up into sections so first
+
+[679.12 - 682.5600000000001] let's just copy this prompt down because
+
+[680.959 - 685.04] it worked
+
+[682.56 - 685.04] so we'll do
+
+[686.88 - 690.48] essay
+
+[688.56 - 693.8389999999999] summary and critical assessment
+
+[690.48 - 696.64] um okay so we'll save this as
+
+[693.839 - 698.0790000000001] prompt01
+
+[696.64 - 699.519] so we'll use this to generate the
+
+[698.079 - 701.12] opening
+
+[699.519 - 704.64] paragraph
+
+[701.12 - 704.64] let's run it again just to see
+
+[705.279 - 709.279] if it produces something similar so i'm
+
+[707.6 - 711.279] guilty of this sometimes like i see one
+
+[709.279 - 712.24] good output i'm like oh it's good
+
+[711.279 - 716.4399999999999] um
+
+[712.24 - 716.44] this it's almost identical
+
+[716.88 - 720.639] okay yeah so the output is darn near
+
+[719.279 - 723.68] identical let's turn up the temperature
+
+[720.639 - 726.24] just to see if it gets really weird
+
+[723.68 - 727.68] um so one thing is that um the quality
+
+[726.24 - 728.8] of the instructions
+
+[727.68 - 732.6389999999999] you know you see like there's a whole
+
+[728.8 - 733.68] paragraph of instructions um whoops
+
+[732.639 - 735.6800000000001] that actually
+
+[733.68 - 738.399] can sometimes help sometimes if the
+
+[735.68 - 739.76] instructions are not clear or if you're
+
+[738.399 - 742.24] trying to do too many things it'll get
+
+[739.76 - 743.2] confused
+
+[742.24 - 745.76] okay
+
+[743.2 - 747.519] so let's see our anna mills um
+
+[745.76 - 749.04] challenges the morality
+
+[747.519 - 750.72] yeah
+
+[749.04 - 753.12] um she appeals to the reader's empathy
+
+[750.72 - 754.24] asking to them to imagine strengths is
+
+[753.12 - 756.32] delight in its emotional appeal and
+
+[754.24 - 757.44] examine examination moral implications
+
+[756.32 - 760.9590000000001] yeah okay
+
+[757.44 - 763.36] so we've got that um but
+
+[760.959 - 766.0] because we so there's a few there's a
+
+[763.36 - 767.6800000000001] few like universal rules right um so
+
+[766.0 - 769.2] what we want to do is break it down into
+
+[767.68 - 770.399] smaller parts because
+
+[769.2 - 773.6800000000001] um
+
+[770.399 - 775.68] you know i think we do have weakness
+
+[773.68 - 777.519] oh nope it didn't address the weaknesses
+
+[775.68 - 780.399] so here's what i typically do when i
+
+[777.519 - 782.8] want to deconstruct something um is i'll
+
+[780.399 - 783.839] break it down into smaller and smaller
+
+[782.8 - 787.76] parts
+
+[783.839 - 790.1600000000001] um and so what i'll do is let's
+
+[787.76 - 790.16] um
+
+[791.44 - 795.519] well here let me make sure i've got a
+
+[792.88 - 796.639] copy of the instructions
+
+[795.519 - 797.44] nah no
+
+[796.639 - 799.6] okay
+
+[797.44 - 803.6] we got the instructions here
+
+[799.6 - 803.6] and let's close that we don't need that
+
+[803.839 - 807.2790000000001] um here's where i deconstructed it i
+
+[806.0 - 808.079] actually don't like that let me close
+
+[807.279 - 809.8389999999999] that
+
+[808.079 - 812.2399999999999] i made a mess of it
+
+[809.839 - 814.24] don't need that okay
+
+[812.24 - 816.32] we'll get back to the script once we do
+
+[814.24 - 817.44] some prompt engineering
+
+[816.32 - 818.9590000000001] um
+
+[817.44 - 821.1990000000001] yes
+
+[818.959 - 821.199] so
+
+[821.839 - 825.36] uh the key ideas including the main
+
+[823.68 - 829.0] claim key reasons counter arguments
+
+[825.36 - 829.0] rebuttals and limits
+
+[831.36 - 833.839] all right
+
+[836.639 - 839.6] let me
+
+[838.32 - 843.279] now
+
+[839.6 - 844.9590000000001] copy all this into a new prompt
+
+[843.279 - 846.639] and all we're gonna do
+
+[844.959 - 847.8389999999999] is we're gonna we're gonna pare this
+
+[846.639 - 848.88] down
+
+[847.839 - 852.0790000000001] so
+
+[848.88 - 852.079] we want to summarize
+
+[854.0 - 857.68] well here i'll borrow the same language
+
+[855.839 - 860.8800000000001] that annie is so
+
+[857.68 - 860.88] um we'll say write
+
+[863.76 - 868.8389999999999] write a summary of the following
+
+[866.399 - 871.44] essay
+
+[868.839 - 874.5600000000001] um uh
+
+[871.44 - 874.5600000000001] while focusing on
+
+[875.36 - 879.6800000000001] focusing on the
+
+[878.16 - 881.6] counter arguments
+
+[879.68 - 884.3199999999999] rebuttals
+
+[881.6 - 884.32] and limits
+
+[886.72 - 891.44] assess
+
+[888.079 - 894.76] the strengths and weaknesses
+
+[891.44 - 894.7600000000001] of the argument
+
+[902.639 - 904.9590000000001] okay
+
+[910.639 - 916.16] so now let's take this
+
+[913.92 - 918.4799999999999] and we're going to
+
+[916.16 - 918.48] um
+
+[918.639 - 921.839] assessment of
+
+[922.48 - 927.76] strengths and weaknesses
+
+[925.76 - 930.24] and if it's not apparent yet what i'm
+
+[927.76 - 933.519] doing oh here let's just grab this
+
+[930.24 - 933.519] hey yeah we can grab the whole thing
+
+[933.839 - 939.12] and then we'll go grab the
+
+[936.959 - 941.8389999999999] oops i closed it didn't i
+
+[939.12 - 941.839] go back here
+
+[945.519 - 949.04] so by breaking it down into smaller
+
+[947.12 - 951.68] parts i'm basically going to say okay
+
+[949.04 - 953.04] write each section separately so let's
+
+[951.68 - 955.8389999999999] see what this does let's see if this
+
+[953.04 - 955.8389999999999] works it might not
+
+[956.56 - 962.56] let's turn this back down to 0.7
+
+[960.079 - 962.56] and here we
+
+[966.839 - 970.32] go so this is this is a little bit
+
+[969.279 - 971.92] better
+
+[970.32 - 973.6] um
+
+[971.92 - 975.279] the essays weakness is that it does not
+
+[973.6 - 977.12] offer any specific solutions to the
+
+[975.279 - 978.639] problems the author admits that open
+
+[977.12 - 981.519] borders would be dangerous but does not
+
+[978.639 - 983.6] say how um we could regulate the border
+
+[981.519 - 985.44] without criminalizing immigrants
+
+[983.6 - 987.519] this lack of specificity leaves the
+
+[985.44 - 989.519] reader wondering what exactly the author
+
+[987.519 - 990.639] is advocating for
+
+[989.519 - 992.72] not bad
+
+[990.639 - 995.759] so i pointed out on the uh on the forum
+
+[992.72 - 997.36] that gpt3 was trained
+
+[995.759 - 998.48] a lot of reddit data so it's really good
+
+[997.36 - 1000.16] at constructing arguments it's
+
+[998.48 - 1001.839] frustratingly good
+
+[1000.16 - 1005.759] let me run this again just to make sure
+
+[1001.839 - 1005.759] that it's consistent in its performance
+
+[1009.199 - 1012.959] let's see it also does not consider
+
+[1011.36 - 1014.639] are not fleeing difficult circumstances
+
+[1012.959 - 1016.7199999999999] but are instead seeking economic
+
+[1014.639 - 1017.6800000000001] opportunities not bad
+
+[1016.72 - 1019.36] okay
+
+[1017.68 - 1020.7199999999999] um
+
+[1019.36 - 1022.8000000000001] let's do a
+
+[1020.72 - 1024.4] thorough assessment let's add thorough
+
+[1022.8 - 1026.3999999999999] back in
+
+[1024.4 - 1028.16] because i'm wondering if we can get a
+
+[1026.4 - 1031.2800000000002] little bit more we can squeeze a little
+
+[1028.16 - 1031.28] bit more juice out of this
+
+[1032.72 - 1039.16] because if it writes one paragraph
+
+[1035.6 - 1039.1599999999999] oh here we go
+
+[1041.36 - 1044.24] oh much better
+
+[1042.72 - 1047.039] okay
+
+[1044.24 - 1047.039] yeah yeah
+
+[1047.679 - 1050.679] okay
+
+[1061.36 - 1065.039] all right so this will this will looks
+
+[1063.2 - 1067.1200000000001] like it'll reliably generate two to
+
+[1065.039 - 1069.28] three paragraphs sometimes one
+
+[1067.12 - 1071.76] i really like it though
+
+[1069.28 - 1074.3999999999999] so we'll update our prompt whoops where
+
+[1071.76 - 1074.4] is the prompt
+
+[1075.44 - 1079.6000000000001] go ahead and save this as prompt o2
+
+[1078.08 - 1082.24] because this is like kind of the second
+
+[1079.6 - 1084.24] part of the paragraph oh all right hang
+
+[1082.24 - 1085.84] on my dog's outside gotta let him in
+
+[1084.24 - 1086.72] okay i'm back
+
+[1085.84 - 1088.08] um
+
+[1086.72 - 1089.52] yes so
+
+[1088.08 - 1090.559] write a
+
+[1089.52 - 1092.32] summary
+
+[1090.559 - 1094.72] write a thorough summary
+
+[1092.32 - 1095.52] so it all comes down to
+
+[1094.72 - 1099.1200000000001] um
+
+[1095.52 - 1099.12] right word choice to get the uh
+
+[1099.76 - 1103.84] to get the desired effect
+
+[1101.76 - 1106.32] um so the prompto one this will generate
+
+[1103.84 - 1108.72] our introductory paragraph we remove
+
+[1106.32 - 1110.48] that verbage from this one
+
+[1108.72 - 1113.679] where we say what was compelling
+
+[1110.48 - 1115.1200000000001] persuasive troubling and actually so it
+
+[1113.679 - 1116.3200000000002] did a really good job of doing strengths
+
+[1115.12 - 1117.84] and weaknesses
+
+[1116.32 - 1120.3999999999999] um
+
+[1117.84 - 1122.3999999999999] let's actually separate prompt o2 out
+
+[1120.4 - 1125.76] into a third prompt
+
+[1122.4 - 1125.76] and we'll we'll do um
+
+[1126.48 - 1129.919] so like
+
+[1128.08 - 1132.96] this this prompto2 is going to be
+
+[1129.919 - 1135.3600000000001] strengths and weaknesses um so let's
+
+[1132.96 - 1138.0] focus on the compelling persuasive
+
+[1135.36 - 1139.36] troubling unclear or problematic parts
+
+[1138.0 - 1140.559] of this one
+
+[1139.36 - 1143.1999999999998] so
+
+[1140.559 - 1146.72] if we do um
+
+[1143.2 - 1146.72] thorough assessment of
+
+[1147.039 - 1151.679] let's see
+
+[1150.24 - 1153.44] what was
+
+[1151.679 - 1156.44] compelling
+
+[1153.44 - 1156.44] persuasive
+
+[1157.2 - 1161.76] troubling
+
+[1159.2 - 1161.76] unclear
+
+[1162.4 - 1167.679] oh whoops crap crap no
+
+[1165.36 - 1169.039] i'm modifying the wrong one
+
+[1167.679 - 1170.799] copy that
+
+[1169.039 - 1172.0] go here whoops okay
+
+[1170.799 - 1172.96] sorry
+
+[1172.0 - 1174.799] my brains are a little bit like
+
+[1172.96 - 1176.4] scrambled eggs this morning apparently
+
+[1174.799 - 1178.799] prompto3 okay
+
+[1176.4 - 1181.679] so let's leave let's leave the original
+
+[1178.799 - 1184.4] prompt as it is but then
+
+[1181.679 - 1186.3200000000002] um here we'll just
+
+[1184.4 - 1188.64] we'll just copy this
+
+[1186.32 - 1190.1599999999999] and do it all caps so someone asked why
+
+[1188.64 - 1191.8400000000001] do i do caps
+
+[1190.16 - 1193.44] um and that is because i think i've
+
+[1191.84 - 1195.1999999999998] explained it before but just in case you
+
+[1193.44 - 1197.76] haven't heard um
+
+[1195.2 - 1199.6000000000001] a caps lock version of a word looks
+
+[1197.76 - 1202.48] different to gpt3 it uses a different
+
+[1199.6 - 1204.559] set of tokens um and so gpt3 will see
+
+[1202.48 - 1205.84] like okay this is like
+
+[1204.559 - 1208.48] and it looks like a block of
+
+[1205.84 - 1211.36] instructions or something um okay
+
+[1208.48 - 1212.96] so let's just change this
+
+[1211.36 - 1214.8799999999999] and let's see if it let's see how much
+
+[1212.96 - 1216.32] just changing the final
+
+[1214.88 - 1218.159] kind of thing
+
+[1216.32 - 1222.08] you know final instruction changes the
+
+[1218.159 - 1222.0800000000002] nature of the output um
+
+[1224.24 - 1229.96] well that was short maybe maybe maybe my
+
+[1226.24 - 1229.96] intuition here was wrong
+
+[1243.28 - 1246.8799999999999] okay this is pretty similar all right i
+
+[1245.2 - 1248.72] think i think my intuition was wrong i
+
+[1246.88 - 1250.7990000000002] don't think pro i think prompt 2 is fine
+
+[1248.72 - 1251.679] as it is it looks like it got most of it
+
+[1250.799 - 1253.9189999999999] in there
+
+[1251.679 - 1258.4] um so let's go back to the original
+
+[1253.919 - 1261.1200000000001] um problematic choose phrases like okay
+
+[1258.4 - 1263.44] word choice is critical
+
+[1261.12 - 1264.4799999999998] introductory
+
+[1263.44 - 1267.6000000000001] okay
+
+[1264.48 - 1267.6] well i mean
+
+[1270.799 - 1274.4] let's just let's just start here with
+
+[1272.24 - 1276.559] prompt one and two and just kind of run
+
+[1274.4 - 1278.88] it a couple times and see what's missing
+
+[1276.559 - 1280.6399999999999] because my brain is not giving me clear
+
+[1278.88 - 1282.3200000000002] like signals as to like okay what is the
+
+[1280.64 - 1283.5200000000002] next cognitive task that we're missing
+
+[1282.32 - 1288.6789999999999] here
+
+[1283.52 - 1288.679] okay so i've got this um
+
+[1291.76 - 1295.6] let's see i don't think we need to do
+
+[1293.039 - 1297.919] chunks in this one we'll just
+
+[1295.6 - 1297.9189999999999] say
+
+[1298.559 - 1303.52] text equals open file input.txt
+
+[1301.84 - 1305.76] so that means we need to have an actual
+
+[1303.52 - 1309.039] input
+
+[1305.76 - 1311.039] so we'll do essay to critique
+
+[1309.039 - 1313.2] and we'll save this as
+
+[1311.039 - 1314.559] input.txt
+
+[1313.2 - 1316.559] all right
+
+[1314.559 - 1318.8799999999999] and then
+
+[1316.559 - 1320.0] result equals list
+
+[1318.88 - 1321.7600000000002] um
+
+[1320.0 - 1324.32] so what i what i often do when i have
+
+[1321.76 - 1326.08] like um when i have prompt chaining is
+
+[1324.32 - 1328.08] i'll do um
+
+[1326.08 - 1329.76] i'll do a variable called like prompt
+
+[1328.08 - 1332.039] files equals
+
+[1329.76 - 1335.679] and then i'll do um you know
+
+[1332.039 - 1339.12] prompto1.txt and then
+
+[1335.679 - 1340.5590000000002] prompt 02.txt
+
+[1339.12 - 1342.799] and actually there's an even easier way
+
+[1340.559 - 1344.72] since i'm following the same format
+
+[1342.799 - 1347.76] make sure i import os
+
+[1344.72 - 1347.76] so i'll do um
+
+[1348.48 - 1354.159] prompt files equals os dot lister
+
+[1352.32 - 1356.559] do the current directory
+
+[1354.159 - 1358.7990000000002] and then
+
+[1356.559 - 1361.12] actually put this in a list
+
+[1358.799 - 1363.2] comprehension so this is a fun thing
+
+[1361.12 - 1365.9189999999999] i 4 i n
+
+[1363.2 - 1367.44] os lister where
+
+[1365.919 - 1369.6000000000001] no if
+
+[1367.44 - 1369.6000000000001] if
+
+[1371.36 - 1375.76] prompt in i
+
+[1373.44 - 1377.6000000000001] so what this does so python has this fun
+
+[1375.76 - 1380.1589999999999] thing called list comprehension where
+
+[1377.6 - 1383.52] you can actually declare and and
+
+[1380.159 - 1385.3600000000001] populate a list in one go and so
+
+[1383.52 - 1387.36] i for i you would see you would
+
+[1385.36 - 1389.9189999999999] recognize this as instantiating a for
+
+[1387.36 - 1392.08] loop so it's it's um so the variable
+
+[1389.919 - 1394.24] name is going to be i and the for loop
+
+[1392.08 - 1397.1999999999998] is for i n os lister so it's going to
+
+[1394.24 - 1399.28] list all the files in this directory
+
+[1397.2 - 1401.44] and then it will include it it'll
+
+[1399.28 - 1404.3999999999999] include i so it'll include the file name
+
+[1401.44 - 1406.0800000000002] if prompt is in the file name
+
+[1404.4 - 1408.0] so this is a fun little one liner that
+
+[1406.08 - 1411.12] you can do with python
+
+[1408.0 - 1413.679] so then we'll do for
+
+[1411.12 - 1415.4399999999998] file in
+
+[1413.679 - 1418.159] prompt files
+
+[1415.44 - 1420.64] so we'll just iterate through them
+
+[1418.159 - 1422.88] um and then we'll do
+
+[1420.64 - 1425.44] prompt equals open file
+
+[1422.88 - 1428.64] um so we'll actually just replace this
+
+[1425.44 - 1430.64] with i because i is now the file name
+
+[1428.64 - 1433.2] and do sa
+
+[1430.64 - 1435.679] and then we'll replace
+
+[1433.2 - 1438.24] because we don't have any chunks anymore
+
+[1435.679 - 1440.4] so then we'll say argument equals
+
+[1438.24 - 1443.039] gpth3 completion from the prompt so
+
+[1440.4 - 1444.88] we've populated the prompt
+
+[1443.039 - 1446.72] and then the result
+
+[1444.88 - 1447.7600000000002] is we're just going to accumulate it all
+
+[1446.72 - 1448.559] together
+
+[1447.76 - 1451.44] right
+
+[1448.559 - 1452.8799999999999] and so we'll replace this with argument
+
+[1451.44 - 1454.88] argument
+
+[1452.88 - 1456.7990000000002] and then once it's done
+
+[1454.88 - 1458.4] we can get rid of all this we're just
+
+[1456.799 - 1461.039] going to save the file and we're going
+
+[1458.4 - 1462.3200000000002] to have a double new line between each
+
+[1461.039 - 1463.84] one and we're going to save it as
+
+[1462.32 - 1466.6399999999999] output.txt
+
+[1463.84 - 1468.799] so this is pretty compact
+
+[1466.64 - 1470.88] and so again what this is called is
+
+[1468.799 - 1472.48] called prompt chaining where it's like
+
+[1470.88 - 1474.64] sometimes you take the output of a
+
+[1472.48 - 1476.08] previous one i did this very extensively
+
+[1474.64 - 1478.3200000000002] with like the summarizing and novel
+
+[1476.08 - 1480.24] writing one but when you're constructing
+
+[1478.32 - 1481.6789999999999] um like especially non-fiction where
+
+[1480.24 - 1483.52] it's just kind of like one idea after
+
+[1481.679 - 1485.279] another or one kind of dissection after
+
+[1483.52 - 1487.6] another
+
+[1485.279 - 1490.24] it's much much more procedural than
+
+[1487.6 - 1492.3999999999999] especially than fiction um because each
+
+[1490.24 - 1494.32] passage or paragraph in a in a
+
+[1492.4 - 1497.44] non-fiction essay particularly if it's
+
+[1494.32 - 1498.96] an argument where you're skewering one
+
+[1497.44 - 1500.96] essay
+
+[1498.96 - 1502.159] each each paragraph can kind of stand on
+
+[1500.96 - 1503.919] its own okay
+
+[1502.159 - 1505.679] so let's just run this real quick what
+
+[1503.919 - 1508.0] is this okay i don't need that
+
+[1505.679 - 1508.0] um
+
+[1508.88 - 1512.64] yeah
+
+[1509.919 - 1512.64] and we'll actually
+
+[1512.72 - 1515.919] i will leave that in just so that you
+
+[1514.159 - 1517.6000000000001] can see that it'll it'll it'll stick
+
+[1515.919 - 1519.1200000000001] three arguments together
+
+[1517.6 - 1520.1589999999999] um okay so
+
+[1519.12 - 1523.52] cd
+
+[1520.159 - 1527.44] gpt3 critical critical argument
+
+[1523.52 - 1530.24] python critical argument dot pi
+
+[1527.44 - 1530.24] well that was fast
+
+[1532.48 - 1535.44] something is amiss
+
+[1535.76 - 1540.84] did it generate an output no
+
+[1538.32 - 1544.0] hold on hold the
+
+[1540.84 - 1547.4399999999998] phone i bet i did something wrong
+
+[1544.0 - 1547.44] i wonder i wonder if my um
+
+[1548.88 - 1551.7600000000002] i wonder if that was it
+
+[1555.2 - 1557.8400000000001] um
+
+[1562.559 - 1566.48] print
+
+[1563.76 - 1566.48] prompt files
+
+[1567.76 - 1573.039] am i not getting anything hmm i have
+
+[1570.24 - 1573.039] done something wrong
+
+[1582.48 - 1585.6] duplicate
+
+[1583.76 - 1586.799] i know i've fat fingered the syntax
+
+[1585.6 - 1591.039] somewhere
+
+[1586.799 - 1593.2] so let's just say os dot lister
+
+[1591.039 - 1595.6] and then we'll add an exit right after
+
+[1593.2 - 1595.6000000000001] that just
+
+[1597.44 - 1600.64] okay yep
+
+[1601.279 - 1604.64] okay so lister works
+
+[1604.96 - 1608.2] oh wait
+
+[1612.159 - 1617.44] hey there we go okay
+
+[1615.52 - 1620.799] just lister with nothingness with no
+
+[1617.44 - 1620.799] arguments that's how you uh
+
+[1620.96 - 1625.44] that's what i did
+
+[1622.32 - 1625.4399999999998] i is not defined
+
+[1625.76 - 1630.48] what do you mean i is not defined
+
+[1629.12 - 1631.36] oh
+
+[1630.48 - 1633.84] derp
+
+[1631.36 - 1635.84] i instantiated it here this is i so
+
+[1633.84 - 1637.36] typically here's here's what i did wrong
+
+[1635.84 - 1639.9189999999999] typically um
+
+[1637.36 - 1642.6399999999999] for shorthand is you'll say you'll use i
+
+[1639.919 - 1645.1200000000001] in a in an iterative iterable
+
+[1642.64 - 1646.3990000000001] um variable in python so it's for i an
+
+[1645.12 - 1648.4799999999998] iterable thing
+
+[1646.399 - 1650.4799999999998] um and then i copy that instead of
+
+[1648.48 - 1653.039] switching it to file
+
+[1650.48 - 1655.76] um sometimes you sometimes you'd be like
+
+[1653.039 - 1657.12] for i and prompt files um that's bad
+
+[1655.76 - 1658.96] practice though because if you reuse the
+
+[1657.12 - 1660.8799999999999] same variable name over and over again
+
+[1658.96 - 1661.679] i've run i've run afoul of that before
+
+[1660.88 - 1664.96] okay
+
+[1661.679 - 1664.96] figured it out that's what i did wrong
+
+[1666.24 - 1669.84] so let's see what it generates
+
+[1673.36 - 1679.6789999999999] no such file or directory ah darn it i
+
+[1676.0 - 1679.679] forgot to create my gbt3 logs
+
+[1679.76 - 1685.2] always something
+
+[1681.44 - 1685.2] gpt-3 logs
+
+[1688.32 - 1691.6789999999999] third or fourth time's a charm
+
+[1695.84 - 1698.1589999999999] okay
+
+[1698.48 - 1704.799] and then what we'll do is i'll post this
+
+[1700.88 - 1705.919] back on the forum and see what she says
+
+[1704.799 - 1707.9189999999999] okay
+
+[1705.919 - 1710.5590000000002] so now we've got the um
+
+[1707.919 - 1712.159] now we've got the output populated
+
+[1710.559 - 1714.72] reload it yes
+
+[1712.159 - 1717.679] okay so it's only 2 000 characters long
+
+[1714.72 - 1720.0] but that's not so bad
+
+[1717.679 - 1722.3200000000002] um anna mills argues that illegal
+
+[1720.0 - 1725.52] immigration is not unethical
+
+[1722.32 - 1727.84] um migrants with edmonton respect
+
+[1725.52 - 1729.279] okay didn't use the the title in this
+
+[1727.84 - 1730.9599999999998] one though
+
+[1729.279 - 1732.32] um all right so i
+
+[1730.96 - 1734.08] some some stuff is starting to
+
+[1732.32 - 1736.1589999999999] crystallize in my head
+
+[1734.08 - 1739.559] um let me make sure i get a copy of the
+
+[1736.159 - 1739.5590000000002] original instructions
+
+[1740.799 - 1744.399] and ideally what we would do is actually
+
+[1743.12 - 1747.1999999999998] have
+
+[1744.399 - 1749.279] gpt3 generate the prompts that it needs
+
+[1747.2 - 1752.48] so that is going to be a big thing in
+
+[1749.279 - 1754.72] the future with artificial cognition is
+
+[1752.48 - 1758.0] what's called cognitive control
+
+[1754.72 - 1760.96] but we'll get into that at another time
+
+[1758.0 - 1763.2] um okay so let's change
+
+[1760.96 - 1763.2] this
+
+[1763.52 - 1767.799] we're going to write the opening
+
+[1777.44 - 1780.44] okay
+
+[1782.64 - 1786.3200000000002] right the
+
+[1783.84 - 1786.32] um let's
+
+[1792.84 - 1796.559] see ah
+
+[1795.039 - 1799.76] no
+
+[1796.559 - 1799.76] oh this is a tough one
+
+[1800.88 - 1804.88] oh oh oh okay i know what i should do
+
+[1805.039 - 1810.1589999999999] i'm gonna pause it for a second because
+
+[1806.559 - 1810.1589999999999] i need to do a little bit of tinkering
+
+[1810.96 - 1815.52] okay we're back um
+
+[1813.279 - 1816.72] this video i realized probably seems
+
+[1815.52 - 1819.12] like it's a little bit rambling and
+
+[1816.72 - 1820.32] unfocused and i'm taking a risk here
+
+[1819.12 - 1822.0] because
+
+[1820.32 - 1824.32] this is not a problem that i've thought
+
+[1822.0 - 1826.64] about a lot and i just went in cold so
+
+[1824.32 - 1829.039] i'm showing you my whole process of like
+
+[1826.64 - 1830.7990000000002] okay let me take kind of initial stab at
+
+[1829.039 - 1832.48] it and see what happens and then we kind
+
+[1830.799 - 1835.44] of pull it apart and then
+
+[1832.48 - 1838.559] go at it again so what i've done is
+
+[1835.44 - 1840.96] rather than me design the argument i'm
+
+[1838.559 - 1842.1589999999999] asking gpt3 now to design the argument
+
+[1840.96 - 1843.679] so what i've done is i've written a
+
+[1842.159 - 1845.679] prompt that says read the following
+
+[1843.679 - 1847.6000000000001] argument and brainstorm the outline of a
+
+[1845.679 - 1849.1200000000001] critical assessment write a thorough
+
+[1847.6 - 1851.4399999999998] list of the key points in the essay with
+
+[1849.12 - 1853.1999999999998] some critical evaluation of each focus
+
+[1851.44 - 1854.559] on constructing a thorough evaluation
+
+[1853.2 - 1856.159] and deconstruction of the argument
+
+[1854.559 - 1857.279] presented below
+
+[1856.159 - 1858.72] um
+
+[1857.279 - 1860.96] so then i said thorough brainstorm
+
+[1858.72 - 1863.76] outline points um
+
+[1860.96 - 1866.559] yeah so that's that you know just
+
+[1863.76 - 1867.679] let's see let's take thorough outline of
+
+[1866.559 - 1869.44] points
+
+[1867.679 - 1871.8400000000001] um and i've ran i've run this a couple
+
+[1869.44 - 1873.6000000000001] times and it's pretty consistent
+
+[1871.84 - 1875.519] um
+
+[1873.6 - 1877.84] there we go
+
+[1875.519 - 1878.799] oh much better
+
+[1877.84 - 1880.8799999999999] okay
+
+[1878.799 - 1882.559] so then what we do so this is this is
+
+[1880.88 - 1884.24] cognitive control so what we're doing is
+
+[1882.559 - 1887.36] we're asking first
+
+[1884.24 - 1888.3990000000001] for gpthree to plan its argument
+
+[1887.36 - 1890.8799999999999] um
+
+[1888.399 - 1892.559] let's run this one more time just to be
+
+[1890.88 - 1894.88] sure
+
+[1892.559 - 1894.8799999999999] um
+
+[1899.2 - 1902.64] this is writing first person
+
+[1903.44 - 1910.72] okay i don't like how it did that
+
+[1907.6 - 1913.12] we can also increase the maximum length
+
+[1910.72 - 1913.1200000000001] um
+
+[1919.12 - 1922.6399999999999] let's see let's say
+
+[1921.12 - 1928.0] um
+
+[1922.64 - 1928.0] describe the points in your own words
+
+[1930.48 - 1935.32] um
+
+[1932.32 - 1935.32] yeah
+
+[1935.76 - 1938.32] there we go
+
+[1943.76 - 1947.44] the author argues okay
+
+[1947.679 - 1950.96] all right cool
+
+[1948.96 - 1955.2] so let's copy this this will be our new
+
+[1950.96 - 1955.2] first prompt let's just nuke this one
+
+[1956.32 - 1959.9189999999999] and i know some of you will be like ah
+
+[1957.919 - 1963.1200000000001] no save the thing
+
+[1959.919 - 1966.0] essay thorough outline of points
+
+[1963.12 - 1968.8799999999999] okay so this will be prompt01
+
+[1966.0 - 1971.6] and then prompto2
+
+[1968.88 - 1971.6000000000001] we will keep
+
+[1973.279 - 1977.84] we will keep some of the original
+
+[1975.44 - 1977.8400000000001] instructions
+
+[1980.64 - 1984.3990000000001] um and so then we will but but
+
+[1983.6 - 1987.039] but
+
+[1984.399 - 1990.559] what we will do is we will ask to focus
+
+[1987.039 - 1990.559] on a specific point
+
+[1992.64 - 1995.6000000000001] okay write a thorough summary and
+
+[1993.84 - 1998.399] critical assessment of the argument the
+
+[1995.6 - 2000.799] summary should describe the key ideas
+
+[1998.399 - 2004.76] we've already got that
+
+[2000.799 - 2004.76] the summary should
+
+[2004.799 - 2008.48] focus on the following
+
+[2010.0 - 2013.6] let's see point
+
+[2011.44 - 2016.48] and so then we'll do point and so what
+
+[2013.6 - 2016.48] we'll do is we'll
+
+[2016.799 - 2021.36] we'll copy paste the output one of these
+
+[2020.399 - 2023.039] items
+
+[2021.36 - 2024.4799999999998] so she poses the question of whether or
+
+[2023.039 - 2027.279] not illegal immigration is actually
+
+[2024.48 - 2029.2] wrong or unethical um
+
+[2027.279 - 2032.919] and so then we'll say
+
+[2029.2 - 2032.919] uh let's see
+
+[2042.88 - 2046.5590000000002] we'll put this in quotes that should be
+
+[2044.32 - 2046.559] fine
+
+[2050.159 - 2052.639] let's see
+
+[2052.879 - 2058.72] your assessment
+
+[2055.76 - 2061.5200000000004] of the argument
+
+[2058.72 - 2063.839] um your assessment of let's say of this
+
+[2061.52 - 2063.839] point
+
+[2064.32 - 2070.96] of this point should
+
+[2066.639 - 2070.96] and we'll go down to here um
+
+[2071.839 - 2075.839] discuss the strengths and weaknesses of
+
+[2073.44 - 2075.839] the argument
+
+[2076.8 - 2080.96] what was compelling persuasive troubling
+
+[2078.48 - 2082.32] unclear problematic choose phrases like
+
+[2080.96 - 2083.839] throughout to show the writer's purpose
+
+[2082.32 - 2087.04] write mostly essay in your own words but
+
+[2083.839 - 2089.119] consider using the occasional quote
+
+[2087.04 - 2092.24] there we go and then we can remove the
+
+[2089.119 - 2092.2400000000002] introductory paragraph
+
+[2094.72 - 2100.16] um actually i think we need to
+
+[2097.68 - 2103.2] bring that back
+
+[2100.16 - 2104.48] so this will actually be like
+
+[2103.2 - 2106.7999999999997] yes
+
+[2104.48 - 2108.2400000000002] okay
+
+[2106.8 - 2109.92] i know i'm jumping all over the place
+
+[2108.24 - 2110.9599999999996] and i promise there is method to my
+
+[2109.92 - 2112.56] madness
+
+[2110.96 - 2115.68] um and i'm gonna give these better
+
+[2112.56 - 2117.839] better names um okay so we'll start this
+
+[2115.68 - 2117.839] with
+
+[2118.64 - 2121.04] essay
+
+[2122.88 - 2126.96] and then we'll do we'll go back to kind
+
+[2125.119 - 2130.52] of what i originally had
+
+[2126.96 - 2130.52] which was um
+
+[2132.64 - 2135.2] i think it was something like critical
+
+[2133.92 - 2138.48] assessment
+
+[2135.2 - 2138.48] and evaluation
+
+[2139.68 - 2142.0789999999997] thorough
+
+[2143.28 - 2147.52] okay that's probably good enough okay so
+
+[2145.28 - 2150.2400000000002] this this will be prompt
+
+[2147.52 - 2151.839] um intro
+
+[2150.24 - 2154.3999999999996] and this one we're gonna rename to
+
+[2151.839 - 2156.0] prompt brainstorm so that way i can tell
+
+[2154.4 - 2159.64] what the heck it's doing
+
+[2156.0 - 2159.64] um prompt
+
+[2160.88 - 2165.839] brainstorm
+
+[2162.72 - 2168.24] and then no don't keep it in the editor
+
+[2165.839 - 2170.839] this one is going to be
+
+[2168.24 - 2173.359] um each point so prompt
+
+[2170.839 - 2176.96] point whoops i've already got it open
+
+[2173.359 - 2176.96] that's fine close all those
+
+[2178.88 - 2181.6800000000003] prompt
+
+[2180.24 - 2185.359] point
+
+[2181.68 - 2186.96] and then we probably need a conclusion
+
+[2185.359 - 2188.56] let's let's not get ahead of ourselves
+
+[2186.96 - 2190.8] because we're already breaking this down
+
+[2188.56 - 2192.4] into a meta prompt um which is the cool
+
+[2190.8 - 2194.1600000000003] thing
+
+[2192.4 - 2196.88] okay um
+
+[2194.16 - 2198.8799999999997] so let's go back into here
+
+[2196.88 - 2200.1600000000003] so now we can't just enumerate all the
+
+[2198.88 - 2202.56] prompts and just run them in order
+
+[2200.16 - 2205.68] because that won't make any sense
+
+[2202.56 - 2206.7999999999997] so we'll do prompt files equals
+
+[2205.68 - 2209.359] actually this is going to be super
+
+[2206.8 - 2211.28] procedural
+
+[2209.359 - 2215.04] so
+
+[2211.28 - 2216.4] we have to just do this one at a time
+
+[2215.04 - 2218.96] all right so
+
+[2216.4 - 2220.64] right intro
+
+[2218.96 - 2222.8] equals prompt
+
+[2220.64 - 2226.2] so what did i name this it's
+
+[2222.8 - 2226.2000000000003] prompt intro.txt
+
+[2228.56 - 2231.839] and then we will do
+
+[2234.56 - 2240.7999999999997] argument equals gpth3 completion prompt
+
+[2237.359 - 2243.119] okay and then we will do um
+
+[2240.8 - 2245.119] actually here we can just shorten this
+
+[2243.119 - 2248.0] do result
+
+[2245.119 - 2248.0] dot append
+
+[2248.72 - 2252.56] okay
+
+[2249.76 - 2256.8390000000004] and then let's do the brainstorm
+
+[2252.56 - 2256.839] brainstorm the rest of my essay
+
+[2258.64 - 2262.72] actually we'll say critique to use the
+
+[2260.16 - 2266.96] right terminology okay
+
+[2262.72 - 2266.9599999999996] and so then we do we do this and we do
+
+[2267.04 - 2270.04] brainstorm
+
+[2272.0 - 2279.92] and so in this case we'll do um
+
+[2276.48 - 2279.92] key points equals
+
+[2282.4 - 2288.079] dot split lines
+
+[2285.76 - 2290.8] okay so what we're doing here is
+
+[2288.079 - 2293.119] when gpt three re sends this back we're
+
+[2290.8 - 2295.3590000000004] going to split it into lines um so that
+
+[2293.119 - 2298.56] way then we can enumerate for each line
+
+[2295.359 - 2298.56] right for each point
+
+[2303.28 - 2305.76] let's see
+
+[2306.4 - 2310.1600000000003] and i think we need to make them stand
+
+[2308.0 - 2313.16] alone
+
+[2310.16 - 2313.16] um
+
+[2317.839 - 2321.32] that's not right
+
+[2328.32 - 2333.2000000000003] okay this is better
+
+[2330.96 - 2333.2] yeah
+
+[2333.44 - 2337.52] so this is okay when it says the author
+
+[2335.44 - 2340.8] believes
+
+[2337.52 - 2342.8] so what i'll do is i'll add the author
+
+[2340.8 - 2344.5600000000004] to the beginning of the prompt so what
+
+[2342.8 - 2347.28] especially this works especially well
+
+[2344.56 - 2348.88] with um davinci instruct if you want a
+
+[2347.28 - 2350.7200000000003] list of things and you want it to follow
+
+[2348.88 - 2352.2400000000002] a particular
+
+[2350.72 - 2354.8799999999997] format you just kind of start it and
+
+[2352.24 - 2357.2799999999997] it's like okay the author does what
+
+[2354.88 - 2359.28] and then it'll follow that pattern
+
+[2357.28 - 2361.92] so then what we do is we just add this
+
+[2359.28 - 2363.52] back the author said something
+
+[2361.92 - 2367.8] to the beginning
+
+[2363.52 - 2367.8] of um of the first one
+
+[2368.32 - 2371.3590000000004] yep that should be fine
+
+[2374.88 - 2379.2000000000003] key points
+
+[2376.56 - 2380.96] um so then we'll say
+
+[2379.2 - 2385.68] key points 0
+
+[2380.96 - 2385.68] equals key point actually we'll say
+
+[2385.76 - 2388.4] the author
+
+[2387.44 - 2389.599] plus
+
+[2388.4 - 2392.1600000000003] key points
+
+[2389.599 - 2393.3590000000004] 0. and the reason that i'm doing this
+
+[2392.16 - 2395.44] is because
+
+[2393.359 - 2396.72] this is going to get cut off
+
+[2395.44 - 2398.079] it's not going to be part of the
+
+[2396.72 - 2400.7999999999997] response
+
+[2398.079 - 2402.8] so we want each each bullet point to be
+
+[2400.8 - 2404.6400000000003] the same okay
+
+[2402.8 - 2408.079] for
+
+[2404.64 - 2408.0789999999997] point in key points
+
+[2408.56 - 2413.599] now we get back into kind of this for
+
+[2411.44 - 2416.4] loop
+
+[2413.599 - 2417.92] um prompt equals open file and we're
+
+[2416.4 - 2420.1600000000003] going to use the
+
+[2417.92 - 2421.28] um
+
+[2420.16 - 2422.839] prompt
+
+[2421.28 - 2426.1600000000003] what did i call
+
+[2422.839 - 2428.56] it the prompt point
+
+[2426.16 - 2431.2] i come up with such original names
+
+[2428.56 - 2433.359] prompt point dot text
+
+[2431.2 - 2435.839] replace essay and then the argument is
+
+[2433.359 - 2436.96] going to be gpt 3 completion we'll do
+
+[2435.839 - 2438.72] that
+
+[2436.96 - 2441.28] um
+
+[2438.72 - 2442.64] yeah okay let's run this i think i think
+
+[2441.28 - 2444.5600000000004] you guys will be surprised by this so
+
+[2442.64 - 2446.4] basically what i've done is rather than
+
+[2444.56 - 2450.319] me construct the argument i'm asking
+
+[2446.4 - 2454.96] gpt3 to construct the entire argument
+
+[2450.319 - 2457.04] because all i did was i said brainstorm
+
+[2454.96 - 2458.96] i said brainstorm you know
+
+[2457.04 - 2461.04] what the key points are and then in the
+
+[2458.96 - 2463.28] first one um
+
+[2461.04 - 2466.16] uh the intro i just said you know write
+
+[2463.28 - 2467.8390000000004] the intro
+
+[2466.16 - 2469.44] and especially so the introductory
+
+[2467.839 - 2470.96] paragraph so that's what it's writing
+
+[2469.44 - 2474.0] here
+
+[2470.96 - 2475.599] okay um
+
+[2474.0 - 2477.359] yeah so we've broken this down into
+
+[2475.599 - 2479.119] three cognitive tasks which is write the
+
+[2477.359 - 2480.88] intro brainstorm your points and then
+
+[2479.119 - 2483.28] make an argument for each point let's
+
+[2480.88 - 2486.56] see what happens
+
+[2483.28 - 2486.5600000000004] cls to clear screen
+
+[2486.96 - 2492.28] and then it blows up
+
+[2488.96 - 2492.28] always does
+
+[2504.72 - 2507.72] um
+
+[2509.28 - 2511.8390000000004] what happened
+
+[2518.96 - 2522.839] did i forget to do something
+
+[2528.0 - 2530.56] um
+
+[2531.599 - 2538.1600000000003] see 625 so did
+
+[2534.8 - 2541.28] thorough assessment and evaluation
+
+[2538.16 - 2544.72] yeah okay that looks right
+
+[2541.28 - 2549.599] thorough outline of points the author
+
+[2544.72 - 2551.2799999999997] oh that's what i did wrong i i yeah okay
+
+[2549.599 - 2553.3590000000004] oops
+
+[2551.28 - 2555.3590000000004] i used
+
+[2553.359 - 2557.92] this one got to get rid of that we want
+
+[2555.359 - 2558.96] that we want to preserve the new lines
+
+[2557.92 - 2561.2000000000003] okay
+
+[2558.96 - 2562.8] let's try that again
+
+[2561.2 - 2564.64] so what happened was i went back through
+
+[2562.8 - 2566.48] my logs this is why i keep logs and you
+
+[2564.64 - 2567.92] see the response i said the author and
+
+[2566.48 - 2569.839] then it begins by discussing but it's
+
+[2567.92 - 2571.2000000000003] all on one line it's because sometimes
+
+[2569.839 - 2572.48] what i like to do is compact the
+
+[2571.2 - 2574.16] responses
+
+[2572.48 - 2576.16] but in this case i don't want to compact
+
+[2574.16 - 2579.16] the responses okay so let's try that
+
+[2576.16 - 2579.16] again
+
+[2603.119 - 2607.839] all right that's pretty typical for what
+
+[2604.96 - 2607.839] we saw before
+
+[2609.839 - 2615.44] yep
+
+[2611.599 - 2615.44] it looks kind of repetitive
+
+[2616.96 - 2620.48] so let's see what the final output looks
+
+[2618.96 - 2621.839] like
+
+[2620.48 - 2623.2] you see there's actually quite a few
+
+[2621.839 - 2626.24] more steps
+
+[2623.2 - 2628.0] so at 627 it ran it you know there was
+
+[2626.24 - 2629.68] the introduction the brainstorm and then
+
+[2628.0 - 2630.56] there was looks like four points that it
+
+[2629.68 - 2632.3999999999996] made
+
+[2630.56 - 2635.2] so let's go back out here and look at
+
+[2632.4 - 2636.2400000000002] the output
+
+[2635.2 - 2638.0] let's see
+
+[2636.24 - 2639.5989999999997] this is a persuasive argument based on
+
+[2638.0 - 2641.04] empathy and personal experience mills
+
+[2639.599 - 2643.2000000000003] makes a compelling argument that illegal
+
+[2641.04 - 2644.88] immigration is not necessarily wrong
+
+[2643.2 - 2647.68] one weakness is that it does not offer a
+
+[2644.88 - 2649.119] specific solution
+
+[2647.68 - 2652.64] it looks like it's actually repeating
+
+[2649.119 - 2652.6400000000003] itself almost verbatim
+
+[2654.24 - 2659.7599999999998] let's take a look at some of those um
+
+[2657.839 - 2660.7999999999997] some of these logs especially these last
+
+[2659.76 - 2663.6800000000003] four because these are going to be where
+
+[2660.8 - 2666.079] each point was oh that's what i did
+
+[2663.68 - 2666.0789999999997] oops
+
+[2666.16 - 2669.92] oh no wonder they look identical i'm not
+
+[2668.4 - 2672.48] populating it
+
+[2669.92 - 2675.04] um we're not using that we gotta we also
+
+[2672.48 - 2677.119] got to replace um
+
+[2675.04 - 2678.0] replace
+
+[2677.119 - 2679.76] point
+
+[2678.0 - 2681.68] good grief
+
+[2679.76 - 2683.6800000000003] with the point
+
+[2681.68 - 2686.48] because let's go
+
+[2683.68 - 2688.16] to the gpt3 log and you see here where
+
+[2686.48 - 2689.68] it's like the summary should focus on
+
+[2688.16 - 2690.1499999999996] the following point
+
+[2689.68 - 2691.7599999999998] point
+
+[2690.15 - 2694.0] [Laughter]
+
+[2691.76 - 2694.0] okay
+
+[2695.359 - 2698.319] good grief i'm dumb
+
+[2700.319 - 2704.8] you can tell i haven't had enough
+
+[2701.599 - 2709.0] caffeine today yet
+
+[2704.8 - 2709.0] it's also still 6 30 in the morning
+
+[2719.839 - 2722.319] how long is this video while that's
+
+[2721.2 - 2724.48] running
+
+[2722.319 - 2726.88] oh this is 45 minutes yeah we're we're
+
+[2724.48 - 2728.4] calling it here uh regardless but i
+
+[2726.88 - 2731.44] think you guys get the point there we go
+
+[2728.4 - 2733.52] i think this is probably good
+
+[2731.44 - 2736.88] okay
+
+[2733.52 - 2736.88] we're generating some output
+
+[2739.359 - 2741.92] there we go
+
+[2744.079 - 2747.2400000000002] oh wow
+
+[2754.96 - 2759.56] it's kind of going back and forth but
+
+[2756.319 - 2759.56] that's fine
+
+[2760.48 - 2764.8] it is a little repetitive but this is
+
+[2762.079 - 2764.8] certainly better
+
+[2769.359 - 2772.48] okay
+
+[2770.8 - 2774.7200000000003] so now let's see what the final output
+
+[2772.48 - 2776.079] looks like reload it oh look at that
+
+[2774.72 - 2779.1189999999997] this is long
+
+[2776.079 - 2780.2400000000002] this is a 6000 character response i'm
+
+[2779.119 - 2782.0] not going to read the whole thing but
+
+[2780.24 - 2783.7599999999998] i'll save it in the output so you can
+
+[2782.0 - 2786.4] see kind of what we've done
+
+[2783.76 - 2788.2400000000002] and now you've seen meta prompting or
+
+[2786.4 - 2790.56] prompt chaining
+
+[2788.24 - 2791.7599999999998] in order to construct a very thorough
+
+[2790.56 - 2794.48] argument
+
+[2791.76 - 2796.0] i imagine with the right fine-tuning and
+
+[2794.48 - 2798.319] refinement you could do the same thing
+
+[2796.0 - 2800.16] for any kind of argument a legal
+
+[2798.319 - 2802.8] argument or otherwise
+
+[2800.16 - 2804.3999999999996] okay so i will go ahead and get this set
+
+[2802.8 - 2806.4] up and um
+
+[2804.4 - 2810.119] uploaded and uh you can check it out on
+
+[2806.4 - 2810.119] github thanks for watching

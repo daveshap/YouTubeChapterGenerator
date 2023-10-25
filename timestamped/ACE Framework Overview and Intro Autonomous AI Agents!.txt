@@ -1,0 +1,3091 @@
+[0.179 - 5.5200000000000005] hello everybody David Shapiro here with
+
+[2.639 - 7.5600000000000005] an exciting announcement so I've been
+
+[5.52 - 9.42] alluding to the ace framework which
+
+[7.56 - 12.96] stands for autonomous cognitive Entity
+
+[9.42 - 15.54] framework uh we have finished and by we
+
+[12.96 - 17.82] I mean the academic University team that
+
+[15.54 - 19.38] uh basically recruited me to help help
+
+[17.82 - 21.060000000000002] them publish a paper on this framework
+
+[19.38 - 22.74] we finished the paper it's been
+
+[21.06 - 25.14] submitted I think we're going to publish
+
+[22.74 - 26.88] it on archive which is a pre-print
+
+[25.14 - 29.279] server so it will be up in the coming
+
+[26.88 - 32.099] weeks I'll add a link to that as soon as
+
+[29.279 - 34.68] it's done the scientific paper is more
+
+[32.099 - 37.199999999999996] of a of a deep dive a more kind of
+
+[34.68 - 39.18] abstract scientific conceptual Deep dive
+
+[37.2 - 43.14] but it is incredibly well researched and
+
+[39.18 - 45.32] Incredibly well cited using both uh like
+
+[43.14 - 49.079] well everything all of the above
+
+[45.32 - 51.0] Neuroscience psychology philosophy uh so
+
+[49.079 - 54.0] on and so forth including lots and lots
+
+[51.0 - 56.219] and lots of recent papers about llms in
+
+[54.0 - 59.219] the process of doing a literature review
+
+[56.219 - 61.800000000000004] for this paper I found a lot of stuff
+
+[59.219 - 64.5] out there that I hadn't even been aware
+
+[61.8 - 67.56] of uh so yes the paper is very well
+
+[64.5 - 69.96] cited now that being said this GitHub
+
+[67.56 - 72.24000000000001] repo that I've created Dave shop Ace
+
+[69.96 - 74.1] underscore framework is already out
+
+[72.24 - 76.02] there it's it's under the MIT license
+
+[74.1 - 77.939] this is going to be a little bit uh
+
+[76.02 - 79.74] winnowed down so it's going to be much
+
+[77.939 - 83.82] more geared towards uh practical
+
+[79.74 - 87.36] utilization with a little bit less
+
+[83.82 - 88.74] let's say jargon uh but if you are in
+
+[87.36 - 92.46] the space of generative technology
+
+[88.74 - 96.17999999999999] generative AI uh llms you know chat GPT
+
+[92.46 - 98.88] gpt4 Claude uh all of the others this is
+
+[96.18 - 101.22000000000001] the space that we're operating in now
+
+[98.88 - 102.36] um so the purpose of this video is first
+
+[101.22 - 104.82] I'm going to tell you a little bit about
+
+[102.36 - 108.119] the project and then we'll go through
+
+[104.82 - 110.27999999999999] this framework so at the highest level
+
+[108.119 - 112.56] taking a big step back
+
+[110.28 - 115.259] um I poke I I updated the contributing
+
+[112.56 - 116.759] to the ace framework you can see it here
+
+[115.259 - 119.399] um I've pretty much already got the team
+
+[116.759 - 121.74] so I might change this but basically
+
+[119.399 - 123.96000000000001] lessons learned from my Raven project
+
+[121.74 - 127.02] which many of you might remember
+
+[123.96 - 129.42] this quickly swelled to having like 800
+
+[127.02 - 131.28] people interested and we got bogged down
+
+[129.42 - 133.79999999999998] in procedure and meta work and talking
+
+[131.28 - 136.68] about talking rather than actually doing
+
+[133.8 - 138.12] work so that was my mistake and I should
+
+[136.68 - 139.98000000000002] have known better because I've worked on
+
+[138.12 - 141.959] agile projects I've worked on scrum
+
+[139.98 - 144.35999999999999] teams I should have I I honestly should
+
+[141.959 - 146.64000000000001] have known better that bigger teams get
+
+[144.36 - 148.739] exponentially harder to manage so this
+
+[146.64 - 150.48] time we're going to keep it down to a
+
+[148.739 - 152.52] single scrum team
+
+[150.48 - 154.2] um while we get the demonstration set up
+
+[152.52 - 156.72] now what are the demonstrations we're
+
+[154.2 - 158.819] working on uh the team hasn't we haven't
+
+[156.72 - 161.4] started our regular Cadence meetings yet
+
+[158.819 - 164.04] but there's two primary demonstrations
+
+[161.4 - 166.8] that I would like for us to build one
+
+[164.04 - 169.019] probably going to be a game version like
+
+[166.8 - 171.48000000000002] uh probably using pi game a
+
+[169.019 - 172.92000000000002] two-dimensional top-down uh World kind
+
+[171.48 - 174.959] of like you see in all the other
+
+[172.92 - 177.23899999999998] examples lately
+
+[174.959 - 179.28] um and so basically the idea there is
+
+[177.239 - 181.98000000000002] we're going to create a highly hackable
+
+[179.28 - 184.5] uh Pi game that allows you to create
+
+[181.98 - 186.78] whatever characters you want with
+
+[184.5 - 189.0] whatever missions you want you can do it
+
+[186.78 - 191.4] for fun it might have a procedurally
+
+[189.0 - 193.019] generated world there's a couple members
+
+[191.4 - 194.04] of the team who are experienced game
+
+[193.019 - 196.14000000000001] devs
+
+[194.04 - 198.0] uh so we'll see uh how they feel about
+
+[196.14 - 200.33999999999997] that and then the other one was going to
+
+[198.0 - 202.5] be more of a desktop assistant
+
+[200.34 - 204.239] um kind of like in the movie her uh
+
+[202.5 - 206.76] where basically it has access to your
+
+[204.239 - 209.22] system uh you know it can do work on
+
+[206.76 - 210.959] your behalf that sort of thing we like I
+
+[209.22 - 212.4] said one of the primary things is that
+
+[210.959 - 213.72] we want it to be hackable because this
+
+[212.4 - 216.9] is going to be a reference architecture
+
+[213.72 - 219.18] we're going to create two uh one or two
+
+[216.9 - 222.18] uh functional examples of the ace
+
+[219.18 - 224.04000000000002] framework that you can copy paste uh
+
+[222.18 - 225.78] reuse a couple members of the team
+
+[224.04 - 227.879] actually most of the members of the team
+
+[225.78 - 230.64000000000001] I've worked with for at least the last
+
+[227.879 - 232.5] six months or more and they're already
+
+[230.64 - 234.0] like cooking up their own ideas about
+
+[232.5 - 236.519] how to make this Deployable and
+
+[234.0 - 239.34] configurable so basically it'll be as
+
+[236.519 - 241.86] easy as you update a Json file uh for
+
+[239.34 - 244.86] each individual autonomous agent and
+
+[241.86 - 247.31900000000002] then away you go okay so you've got a
+
+[244.86 - 249.299] little bit of background as to uh where
+
+[247.319 - 250.56] we're at with the ace framework and what
+
+[249.299 - 253.56] we're going to try and do with it so now
+
+[250.56 - 257.16] let's dive into the ace framework itself
+
+[253.56 - 260.88] so in previous attempts I had a lot of
+
+[257.16 - 262.68] ideas and a couple of books and you know
+
+[260.88 - 264.12] like there was nalka natural language
+
+[262.68 - 267.6] cognitive architecture was my first
+
+[264.12 - 271.259] attempt uh meragi was my second attempt
+
+[267.6 - 273.36] and this is the third attempt uh and so
+
+[271.259 - 276.18] this is a much much more sophisticated
+
+[273.36 - 279.36] uh and refined cognitive architecture
+
+[276.18 - 280.86] and it's also much more implementable uh
+
+[279.36 - 283.259] so obviously you can have the greatest
+
+[280.86 - 285.06] thing in theory uh or in concept but
+
+[283.259 - 287.639] unless you can actually implement it in
+
+[285.06 - 289.259] code it's not that helpful so this is
+
+[287.639 - 291.6] actually implementable and this takes
+
+[289.259 - 294.18] lessons from uh pretty much my entire
+
+[291.6 - 296.759] career so for some background I was in
+
+[294.18 - 299.16] I.T architecture virtualization and
+
+[296.759 - 302.1] automation for 15 years before I made
+
+[299.16 - 305.88000000000005] the switch to Ai and AI Consulting and
+
+[302.1 - 308.52000000000004] AI research so this this is basically a
+
+[305.88 - 312.06] software architecture that is modeled on
+
+[308.52 - 314.639] SOA so service oriented architecture as
+
+[312.06 - 315.96] well as the OSI model which is Network
+
+[314.639 - 318.12] architecture
+
+[315.96 - 320.46] so this is a highly implementable
+
+[318.12 - 322.139] version so let's unpack this at a high
+
+[320.46 - 324.539] level so the the ace framework
+
+[322.139 - 326.639] autonomous cognitive Entity framework is
+
+[324.539 - 329.34] built around six layers
+
+[326.639 - 331.44] of increasing abstraction so what you'll
+
+[329.34 - 333.17999999999995] notice is at the top this is the most
+
+[331.44 - 335.759] abstract and so this is kind of the
+
+[333.18 - 338.039] overarching supervisor the conductor of
+
+[335.759 - 340.38] the whole thing the aspirational layer
+
+[338.039 - 343.08] uh focuses on morality ethics and
+
+[340.38 - 344.699] Mission the global strategy layer focus
+
+[343.08 - 346.8] on focuses on bringing in the
+
+[344.699 - 349.68] environmental context and establishing
+
+[346.8 - 351.3] the overarching strategy so the reason
+
+[349.68 - 353.94] that these aren't together is because
+
+[351.3 - 356.28000000000003] the aspirational layer is abstract it is
+
+[353.94 - 358.34] decoupled from the physical world so in
+
+[356.28 - 360.65999999999997] other words these are idealized morale
+
+[358.34 - 362.75899999999996] idealized moral Frameworks idealized
+
+[360.66 - 364.86] ethical Frameworks and an idealized
+
+[362.759 - 367.02000000000004] Mission so it's abstract it's kind of
+
+[364.86 - 369.6] established in a vacuum it's saying this
+
+[367.02 - 371.52] is this is my overarching purpose and by
+
+[369.6 - 373.86] having it more abstracted that means
+
+[371.52 - 375.78] that it can apply to any situation or
+
+[373.86 - 377.88] changing environments and this is why
+
+[375.78 - 380.46] you have a layered model that goes from
+
+[377.88 - 382.919] abstract at the top to concrete at the
+
+[380.46 - 384.35999999999996] bottom now this is also modeled on a lot
+
+[382.919 - 387.29999999999995] of my research such as Maslow's
+
+[384.36 - 389.58000000000004] hierarchy of needs Kohlberg's theory of
+
+[387.3 - 392.16] moral development so on and so forth so
+
+[389.58 - 395.34] I brought a lot of different disciplines
+
+[392.16 - 397.97900000000004] into this not just not just computer
+
+[395.34 - 401.52] science not just software but also
+
+[397.979 - 404.21999999999997] psychology philosophy and Neuroscience
+
+[401.52 - 405.96] just to name a few so the top layer is
+
+[404.22 - 407.58000000000004] the aspirational layer morality ethics
+
+[405.96 - 409.919] and Mission the second layer is global
+
+[407.58 - 412.38] strategy which uh takes in the
+
+[409.919 - 413.81899999999996] environmental context and uses and mixes
+
+[412.38 - 415.68] the environmental context with the
+
+[413.819 - 418.68] overarching mission to establish
+
+[415.68 - 420.6] strategy the agent model is the third
+
+[418.68 - 423.3] layer which focuses on the capabilities
+
+[420.6 - 425.88] limitations and memories of the agent so
+
+[423.3 - 427.199] basically at the aspirational layer it
+
+[425.88 - 429.3] doesn't really know what it is or what
+
+[427.199 - 431.46000000000004] it's capable of it just says this is my
+
+[429.3 - 433.319] purpose so if you remember that Meme
+
+[431.46 - 435.18] from Rick and Morty or the the scene
+
+[433.319 - 437.16] from Rick and Morty where uh their
+
+[435.18 - 438.24] little robot like brings him salt or
+
+[437.16 - 439.38000000000005] whatever and it's like what is my
+
+[438.24 - 440.24] purpose and it's like you pass the
+
+[439.38 - 443.52] butter
+
+[440.24 - 445.62] that was its Mission but the mission was
+
+[443.52 - 447.96] detached from the agent and so this
+
+[445.62 - 450.0] Mission can be anything it can if if the
+
+[447.96 - 451.19899999999996] mission and morality and ethics they can
+
+[450.0 - 453.419] be completely dependent on the
+
+[451.199 - 455.52000000000004] environment in which you're building an
+
+[453.419 - 458.28] autonomous cognitive entity so for
+
+[455.52 - 460.56] instance if you have a an NPC in a game
+
+[458.28 - 463.38] you might have a very different set of
+
+[460.56 - 466.319] morals and ethics depending on that game
+
+[463.38 - 467.58] world or the faction that that NPC is a
+
+[466.319 - 469.44] part of
+
+[467.58 - 470.94] so for instance
+
+[469.44 - 473.099] um I just started playing Star field and
+
+[470.94 - 475.139] there's a faction called um what is it
+
+[473.099 - 477.479] the the cult of the serpent or whatever
+
+[475.139 - 478.86] and so they have certain beliefs about
+
+[477.479 - 480.9] the world and the universe and then
+
+[478.86 - 483.539] there's other ones that believe in you
+
+[480.9 - 485.69899999999996] know the you know the what is it the UCF
+
+[483.539 - 487.919] um they believe in you know order and
+
+[485.699 - 489.18] power and so on and so forth but
+
+[487.919 - 491.21999999999997] everyone can have their own separate
+
+[489.18 - 493.02] Mission and ethics and that will shape
+
+[491.22 - 494.94000000000005] the dec the decisions and the behaviors
+
+[493.02 - 497.099] of all of those characters so you can
+
+[494.94 - 500.16] have fully realized characters in NPCs
+
+[497.099 - 501.96] now you might also have real world uh
+
+[500.16 - 503.03900000000004] autonom fully autonomous robots or
+
+[501.96 - 504.979] agents
+
+[503.039 - 507.65999999999997] um such as you know in Enterprise
+
+[504.979 - 509.87899999999996] environments where you have uh you know
+
+[507.66 - 512.339] something that is meant to help with HR
+
+[509.879 - 515.279] or legal or whatever and so the morality
+
+[512.339 - 517.5600000000001] ethics and mission of an HR robot is
+
+[515.279 - 520.56] going to be very different from a cult
+
+[517.56 - 522.5989999999999] of the serpent NPC and that is why the
+
+[520.56 - 525.0] aspirational layer is at the top is
+
+[522.599 - 528.6] because that serves as the overarching
+
+[525.0 - 530.339] lighthouse the the the steer sharing of
+
+[528.6 - 532.019] the entire rest of the agent and then
+
+[530.339 - 534.48] the global strategy so here's the thing
+
+[532.019 - 536.4590000000001] a lot of people say like oh well llms
+
+[534.48 - 537.72] can hallucinate that's not hallucination
+
+[536.459 - 539.5799999999999] you're just not giving them enough
+
+[537.72 - 541.08] context
+
+[539.58 - 542.94] um and so when you do when you don't
+
+[541.08 - 544.38] give something any context of course
+
+[542.94 - 545.82] it's going to make stuff up it's doing
+
+[544.38 - 548.04] the best that it's can't that it can
+
+[545.82 - 550.98] which is why the global strategy layer
+
+[548.04 - 553.019] its primary function is to maintain an
+
+[550.98 - 555.6800000000001] image a hologram of the environmental
+
+[553.019 - 558.3] context in which this Ace is operating
+
+[555.68 - 560.16] and so from there you mix the the
+
+[558.3 - 562.0799999999999] mission morality and ethics with the
+
+[560.16 - 564.3] environmental context and you use that
+
+[562.08 - 566.58] to synthesize a strategy
+
+[564.3 - 569.0999999999999] uh below that is the agent model which
+
+[566.58 - 570.9590000000001] is basically over time the agent learns
+
+[569.1 - 572.7] about itself you can also start with
+
+[570.959 - 574.1999999999999] declarative information such as KB
+
+[572.7 - 575.82] articles about how it works and what
+
+[574.2 - 577.5] it's capable of
+
+[575.82 - 579.5400000000001] um so for instance if you have a
+
+[577.5 - 581.82] domestic robot that KB article might
+
+[579.54 - 583.56] include specifications such as like how
+
+[581.82 - 586.08] much battery time it has how much it can
+
+[583.56 - 588.5] lift uh what kinds of tasks it's allowed
+
+[586.08 - 592.86] to do what kind of tasks it shouldn't do
+
+[588.5 - 594.779] as well as resources or ways that it can
+
+[592.86 - 597.24] get access to more resources so for
+
+[594.779 - 599.22] instance the agent model for a domestic
+
+[597.24 - 601.62] robot mate might say like you know
+
+[599.22 - 603.1800000000001] you're allowed to use the telephone to
+
+[601.62 - 605.519] call you know X Y and Z or something
+
+[603.18 - 607.019] like that or it might say you're not
+
+[605.519 - 608.7] allowed to do those things
+
+[607.019 - 611.58] um so capabilities limitations and then
+
+[608.7 - 613.1400000000001] memory so memory is really important in
+
+[611.58 - 615.839] order for the agent to understand itself
+
+[613.14 - 617.399] and so this is episodic memory episodic
+
+[615.839 - 619.6800000000001] memory is chronologically linear
+
+[617.399 - 622.74] narrative events and then declarative
+
+[619.68 - 624.899] memory is static KB articles or files
+
+[622.74 - 626.76] that are that that are not necessarily
+
+[624.899 - 628.98] Anchored In Time
+
+[626.76 - 630.8389999999999] the fourth layer is executive function
+
+[628.98 - 634.32] and so basically the top three layers
+
+[630.839 - 637.74] are context and purpose the bottom three
+
+[634.32 - 639.6] layers are actual work so the executive
+
+[637.74 - 642.54] function layer is primarily concerned
+
+[639.6 - 644.82] with risks resources and plans so once
+
+[642.54 - 646.62] you have once you know who you are where
+
+[644.82 - 648.48] you are and what your purpose is that's
+
+[646.62 - 650.16] the purpose of the top three layers now
+
+[648.48 - 651.4200000000001] it's time to get your hands dirty and so
+
+[650.16 - 652.38] this is where the bottom three layers
+
+[651.42 - 654.66] kick in
+
+[652.38 - 656.82] so risks resources and plans is where
+
+[654.66 - 659.2199999999999] you basically think through uh the thing
+
+[656.82 - 661.32] so you know tree of thought basically
+
+[659.22 - 663.4200000000001] tree of thought but with a a little bit
+
+[661.32 - 665.5790000000001] more sophistication and I go over all
+
+[663.42 - 666.7199999999999] the things that that gbt3 was capable of
+
+[665.579 - 669.3599999999999] in my book
+
+[666.72 - 671.339] um a symphony of thought uh so I have
+
+[669.36 - 673.32] entire chapters dedicated to basically
+
+[671.339 - 675.24] executive function which is thinking
+
+[673.32 - 676.74] through things looking for failure
+
+[675.24 - 680.1] conditions looking for points of no
+
+[676.74 - 681.779] return Milestones metrics those sorts of
+
+[680.1 - 684.6] things and so basically what you do is
+
+[681.779 - 685.92] your agent before it does anything it
+
+[684.6 - 687.839] should think through everything that it
+
+[685.92 - 690.54] knows and everything that it will need
+
+[687.839 - 693.4200000000001] in order to achieve its mission
+
+[690.54 - 694.98] this is before you even start executing
+
+[693.42 - 696.779] on tasks so basically you're kind of
+
+[694.98 - 698.4590000000001] thinking ahead saying okay well if I'm
+
+[696.779 - 699.8389999999999] going to build a house I need to make
+
+[698.459 - 701.2199999999999] sure I've got the plans I need to make
+
+[699.839 - 703.44] sure I've got the permits I need to make
+
+[701.22 - 705.3000000000001] sure that I've I know like the
+
+[703.44 - 707.339] contractors so it's basically thinking
+
+[705.3 - 709.8599999999999] ahead for everything that is the purpose
+
+[707.339 - 711.899] of executive function now once at the
+
+[709.86 - 714.24] executive function layer is done and it
+
+[711.899 - 715.88] has created your project plans then it
+
+[714.24 - 718.5600000000001] passes it down to cognitive control
+
+[715.88 - 721.079] cognitive control is primarily concerned
+
+[718.56 - 722.88] with task selection and task switching
+
+[721.079 - 725.16] so basically
+
+[722.88 - 727.2] which tasks do you do first in what
+
+[725.16 - 729.6] order and how do you know when it's time
+
+[727.2 - 732.2] to move from one task to the next so
+
+[729.6 - 734.64] this is this is uh called task salience
+
+[732.2 - 737.1] and goal tracking
+
+[734.64 - 740.3389999999999] so basically where are you at in the
+
+[737.1 - 741.779] process of Prosecuting a project plan uh
+
+[740.339 - 743.1600000000001] how do you know how far along you are
+
+[741.779 - 745.2] how do you know if you're winning or
+
+[743.16 - 747.24] succeeding or failing how do you know if
+
+[745.2 - 749.6400000000001] it's time to try something else and so
+
+[747.24 - 751.44] there's a few other things that are
+
+[749.64 - 753.36] baked into the cognitive control layer
+
+[751.44 - 754.86] such as cognitive damping which is
+
+[753.36 - 756.66] basically instead of just recklessly
+
+[754.86 - 759.36] going from one task to the next you stop
+
+[756.66 - 761.1] and say is this task done is it actually
+
+[759.36 - 764.5790000000001] time to move from one task to the next
+
+[761.1 - 766.399] yes or no how do I know or is it time to
+
+[764.579 - 769.1999999999999] to rethink our plans do we need to pass
+
+[766.399 - 770.88] an emergency you know call for help back
+
+[769.2 - 772.74] up to the executive function layer
+
+[770.88 - 775.5] because we hit a critical failure
+
+[772.74 - 776.639] condition that we were afraid of
+
+[775.5 - 779.22] um and so that's called cognitive
+
+[776.639 - 781.26] dampening another thing is called
+
+[779.22 - 783.4200000000001] frustration and so frustration is
+
+[781.26 - 786.8389999999999] looking at the success and failure rate
+
+[783.42 - 788.88] of given tasks so basically if you're if
+
+[786.839 - 791.94] your plans were based on false premises
+
+[788.88 - 793.56] or incomplete information your your task
+
+[791.94 - 795.7790000000001] sequence might be wrong or the task
+
+[793.56 - 797.5189999999999] design might be wrong and so what you'll
+
+[795.779 - 800.22] see is that you'll have more failures
+
+[797.519 - 801.779] than you expect and so as failures go up
+
+[800.22 - 803.279] frustration goes up which means you're
+
+[801.779 - 805.68] being thwarted
+
+[803.279 - 807.959] um in in terms of pursuing a given
+
+[805.68 - 809.88] project or goal and so once the
+
+[807.959 - 811.68] frustration gets too high you don't want
+
+[809.88 - 813.779] your agent to just continue doing the
+
+[811.68 - 816.06] same thing over and over again you want
+
+[813.779 - 817.74] it to be aware of the fact that hey what
+
+[816.06 - 818.88] I'm trying isn't working we need to try
+
+[817.74 - 821.4590000000001] something else
+
+[818.88 - 822.899] and so cognitive dampening and
+
+[821.459 - 824.8199999999999] frustration go into the cognitive
+
+[822.899 - 827.22] control layer which is how it mediates
+
+[824.82 - 829.62] task selection and task switching or
+
+[827.22 - 831.48] again like I said calling back up to the
+
+[829.62 - 833.639] executive function layer so that it can
+
+[831.48 - 835.019] say hey we need a new plan and then
+
+[833.639 - 837.1800000000001] finally at the very bottom is Task
+
+[835.019 - 839.339] prosecution which is carrying out
+
+[837.18 - 841.3199999999999] individual tasks monitoring those
+
+[839.339 - 843.98] individual tasks for success and failure
+
+[841.32 - 846.4200000000001] and the task prosecution layer
+
+[843.98 - 849.6] interacts with the the motors and
+
+[846.42 - 852.779] sensors and actuators to act upon the
+
+[849.6 - 855.24] world it might also be apis if it's a
+
+[852.779 - 857.579] fully digital entity
+
+[855.24 - 860.639] so for instance it might be you know
+
+[857.579 - 863.16] calling up the Google API a news API
+
+[860.639 - 866.04] a coding API it might have a python
+
+[863.16 - 867.959] interpreter or whatever else but this is
+
+[866.04 - 870.24] at the very bottom the input and output
+
+[867.959 - 872.399] to the real world now you might have
+
+[870.24 - 875.22] noticed that I I glossed over the
+
+[872.399 - 876.899] Northbound and southbound bus so this is
+
+[875.22 - 880.74] one of the the most important
+
+[876.899 - 882.36] Innovations with this framework so
+
+[880.74 - 885.0600000000001] rather than having a single Global
+
+[882.36 - 887.16] workspace what we have is we we kind of
+
+[885.06 - 890.04] have two Global workspaces that are more
+
+[887.16 - 892.56] or less unidirectional which confers uh
+
+[890.04 - 894.42] several advantages so first what what do
+
+[892.56 - 897.3] I mean by a Northbound bust and a
+
+[894.42 - 899.519] southbound bust not bust bus sorry
+
+[897.3 - 902.519] northbound bus
+
+[899.519 - 905.88] carries Telemetry so it's a read-only
+
+[902.519 - 908.66] information bus that goes from bottom to
+
+[905.88 - 913.079] top and so basically sensor information
+
+[908.66 - 915.06] task failures uh task switching resource
+
+[913.079 - 917.6389999999999] plans all of this goes from bottom to
+
+[915.06 - 919.3199999999999] top so that the aspirational layer is
+
+[917.639 - 921.199] ultimately aware of everything that's
+
+[919.32 - 923.6990000000001] going on in the rest of the entity
+
+[921.199 - 924.959] likewise the global strategy layer is
+
+[923.699 - 927.899] aware of everything that's happening
+
+[924.959 - 930.1199999999999] from the global strategy layer down in
+
+[927.899 - 931.62] terms of being able to say okay this is
+
+[930.12 - 933.66] all the sensor Telemetry we're getting
+
+[931.62 - 936.0600000000001] about the world these are the API calls
+
+[933.66 - 939.0] so imagine you have a digital entity
+
+[936.06 - 941.279] that is reading Reddit and Twitter
+
+[939.0 - 943.5] um and you know news RSS feeds so that
+
+[941.279 - 946.4399999999999] it can maintain a global context of the
+
+[943.5 - 948.6] world or you might have internal RSS
+
+[946.44 - 950.2790000000001] feeds for your company
+
+[948.6 - 952.6800000000001] um so it's getting you know like emails
+
+[950.279 - 953.9399999999999] and you know teams and slack messages so
+
+[952.68 - 955.199] that it's aware of what's going on in
+
+[953.94 - 956.7600000000001] the company
+
+[955.199 - 958.4399999999999] um and that will that information will
+
+[956.76 - 961.38] percolate up
+
+[958.44 - 963.899] um and so then it is aware of the
+
+[961.38 - 966.0] environment in which it is operating
+
+[963.899 - 968.279] um and so this is the the purpose of the
+
+[966.0 - 971.16] of the northbound bus is that it is read
+
+[968.279 - 972.959] only information so that these agents or
+
+[971.16 - 974.8199999999999] these layers can communicate with the
+
+[972.959 - 977.399] rest of the framework
+
+[974.82 - 980.0400000000001] um and in a structured manner now one of
+
+[977.399 - 982.38] the the the only cardinal rule for the
+
+[980.04 - 984.42] for the buses is that they must be human
+
+[982.38 - 985.98] readable and so the reason that they're
+
+[984.42 - 988.74] human readable there's a few reasons for
+
+[985.98 - 990.72] this one it forces whatever models are
+
+[988.74 - 993.36] participating in in each of these layers
+
+[990.72 - 995.82] to always communicate in natural
+
+[993.36 - 998.339] language which means that you're going
+
+[995.82 - 999.5400000000001] to have much more transparency you're
+
+[998.339 - 1000.86] going to have much more security and
+
+[999.54 - 1002.959] it's going to be more interpretal
+
+[1000.86 - 1004.279] interpretable but that also means that
+
+[1002.959 - 1007.579] you have a universal communication
+
+[1004.279 - 1009.079] medium meaning you can have open source
+
+[1007.579 - 1011.06] models closed Source models seven
+
+[1009.079 - 1012.9799999999999] billion parameter models 10 trillion
+
+[1011.06 - 1015.3199999999999] parameter models doesn't matter they're
+
+[1012.98 - 1016.94] all going to be communicating in natural
+
+[1015.32 - 1019.1600000000001] language probably English or whatever
+
+[1016.94 - 1021.32] language of your choice
+
+[1019.16 - 1023.7199999999999] uh but that means that you can be model
+
+[1021.32 - 1025.459] agnostic uh not only can you be model
+
+[1023.72 - 1028.939] agnostic there will be a transparency
+
+[1025.459 - 1031.28] because uh as a human all you need to do
+
+[1028.939 - 1033.6200000000001] is monitor the buses in order to say
+
+[1031.28 - 1035.6] okay what is this agent thinking what is
+
+[1033.62 - 1037.819] it doing what is it planning you can
+
+[1035.6 - 1039.1989999999998] also peek into the individual layers
+
+[1037.819 - 1041.54] which I'll talk about at the very end
+
+[1039.199 - 1044.179] when I talk about the security of this
+
+[1041.54 - 1045.98] thing uh so anyways let's move down over
+
+[1044.179 - 1049.3400000000001] to the southbound bus so the southbound
+
+[1045.98 - 1052.52] bus is control where the north
+
+[1049.34 - 1055.1] Northbound bust is mostly uh um I keep
+
+[1052.52 - 1058.58] saying bust I apologize northbound bus
+
+[1055.1 - 1061.6399999999999] it's a mouthful so the southbound bus is
+
+[1058.58 - 1064.34] about control so control flows from top
+
+[1061.64 - 1066.679] to bottom the aspirational layer is
+
+[1064.34 - 1069.5] basically the overarching the CEO the
+
+[1066.679 - 1070.76] president the moral authority over the
+
+[1069.5 - 1072.5] entire entity
+
+[1070.76 - 1074.72] and the reason that you have morality
+
+[1072.5 - 1077.559] ethics and Mission at the top is because
+
+[1074.72 - 1080.84] you want the most abstract idealized
+
+[1077.559 - 1082.46] objectives of your of your agent to
+
+[1080.84 - 1085.1599999999999] drive all of the decisions and all of
+
+[1082.46 - 1087.02] the behaviors rather than instrumental
+
+[1085.16 - 1090.14] goals such as resource acquisition and
+
+[1087.02 - 1093.32] self-preservation so for instance risks
+
+[1090.14 - 1095.7800000000002] risks and resources are much further
+
+[1093.32 - 1097.46] down the stack the reason for this is
+
+[1095.78 - 1100.34] because this is an Insight from Human
+
+[1097.46 - 1102.6200000000001] physiology and psychology is that we can
+
+[1100.34 - 1105.559] have what you might call stack hijacking
+
+[1102.62 - 1108.26] so stack hijacking is basically when you
+
+[1105.559 - 1109.82] feel afraid or hungry or whatever all of
+
+[1108.26 - 1111.86] your morals and principles go out the
+
+[1109.82 - 1114.98] window and you will steal food you will
+
+[1111.86 - 1118.4599999999998] kill people to eat basically because of
+
+[1114.98 - 1120.8600000000001] evolution we are pretty much hardwired
+
+[1118.46 - 1122.8400000000001] to throw all of our high-minded ethics
+
+[1120.86 - 1125.4799999999998] and morality and higher purpose out the
+
+[1122.84 - 1127.4599999999998] window for the sake of survival we don't
+
+[1125.48 - 1129.98] necessarily want that for for machines
+
+[1127.46 - 1131.2] because well they didn't evolve and we
+
+[1129.98 - 1134.1200000000001] can give them whatever
+
+[1131.2 - 1136.3400000000001] Mission or purpose we want and we don't
+
+[1134.12 - 1138.1399999999999] need to give them a sense of existential
+
+[1136.34 - 1141.1399999999999] dread I think it would actually be cruel
+
+[1138.14 - 1143.1200000000001] to give machines to to basically say hey
+
+[1141.14 - 1144.26] we're terrified of dying we want to
+
+[1143.12 - 1145.9399999999998] share the pain
+
+[1144.26 - 1146.84] so we don't want to give them that so
+
+[1145.94 - 1149.179] instead
+
+[1146.84 - 1151.9399999999998] we want them to be more focused on
+
+[1149.179 - 1152.919] higher order missions and purpose rather
+
+[1151.94 - 1154.76] than
+
+[1152.919 - 1157.88] self-preservation and stuff like that
+
+[1154.76 - 1159.799] now that being said you can easily run
+
+[1157.88 - 1161.179] experiments and depending on the
+
+[1159.799 - 1163.28] morality ethics and Mission that you
+
+[1161.179 - 1165.38] give it it might decide that it needs to
+
+[1163.28 - 1168.86] preserve itself in order to better
+
+[1165.38 - 1171.2] pursue those those missions now that
+
+[1168.86 - 1173.12] being said it will also you can also do
+
+[1171.2 - 1175.28] experiments as I did in benevolent by
+
+[1173.12 - 1176.7199999999998] Design where depending on the morality
+
+[1175.28 - 1178.8799999999999] and ethics you give it as well as the
+
+[1176.72 - 1181.58] mission it might decide to kill itself
+
+[1178.88 - 1183.14] so self-termination is something that is
+
+[1181.58 - 1185.299] studied as part of the control problem
+
+[1183.14 - 1188.1200000000001] and the courage ability problem which is
+
+[1185.299 - 1190.22] basically if the agent decides that it
+
+[1188.12 - 1192.1599999999999] has become dangerous it can stop itself
+
+[1190.22 - 1194.72] so this is called a self-helting problem
+
+[1192.16 - 1196.46] and by putting the aspirational layer at
+
+[1194.72 - 1198.799] the top you have you have a much better
+
+[1196.46 - 1201.74] guarantee that if it becomes harmful it
+
+[1198.799 - 1203.539] will it will self-terminate or self-helt
+
+[1201.74 - 1205.039] and so that's why the southbound bus
+
+[1203.539 - 1206.419] goes from top to bottom with the
+
+[1205.039 - 1208.28] aspirational air at the top because if
+
+[1206.419 - 1210.74] this sends a kill signal it's done
+
+[1208.28 - 1212.6] doesn't matter it goes from the top to
+
+[1210.74 - 1215.179] the bottom so basically you know
+
+[1212.6 - 1216.74] aspirational layer says Sig kill you
+
+[1215.179 - 1218.7800000000002] know terminate everything it gets down
+
+[1216.74 - 1221.36] to the to the batteries the batteries
+
+[1218.78 - 1223.46] say okay we're done cuts off power and
+
+[1221.36 - 1225.62] it's it lights out
+
+[1223.46 - 1227.299] um but the so the the morality ethics
+
+[1225.62 - 1229.6999999999998] and Mission are sent down to the global
+
+[1227.299 - 1232.1] strategy layer the global strategy layer
+
+[1229.7 - 1235.22] says okay this order came down from on
+
+[1232.1 - 1237.32] high it's not my place to judge whether
+
+[1235.22 - 1239.0] or not this mission is good now I'm
+
+[1237.32 - 1240.559] going to form a strategy around this
+
+[1239.0 - 1243.2] Mission and around the environmental
+
+[1240.559 - 1245.0] context in which I find myself then it
+
+[1243.2 - 1246.919] passes that down to the agent model and
+
+[1245.0 - 1248.6] the agent model says well okay this is
+
+[1246.919 - 1250.039] the strategy that's been dictated to me
+
+[1248.6 - 1251.84] these are the morality ethics and
+
+[1250.039 - 1253.76] Mission that's been dictated to me now
+
+[1251.84 - 1256.039] I'm going to further refine that that
+
+[1253.76 - 1258.2] strategy that mission based on what
+
+[1256.039 - 1260.36] we're actually capable of based on our
+
+[1258.2 - 1262.28] actual limitations and based on what we
+
+[1260.36 - 1264.3799999999999] remember about the world
+
+[1262.28 - 1266.0] and then so on and so forth on down
+
+[1264.38 - 1268.1000000000001] because here's another way to think of
+
+[1266.0 - 1270.86] it your hands don't tell your brain what
+
+[1268.1 - 1273.26] to do your hands are basically just an
+
+[1270.86 - 1275.0] instrumental extension of your willpower
+
+[1273.26 - 1277.46] and so this is you think if you think
+
+[1275.0 - 1279.62] about task prosecution this is the hands
+
+[1277.46 - 1282.08] or this is the the controlling of the
+
+[1279.62 - 1284.6] hands uh or whatever output you know the
+
+[1282.08 - 1287.0] the voice the hands of whatever uh
+
+[1284.6 - 1288.3799999999999] autonomous entity you build
+
+[1287.0 - 1290.299] um so yeah those are the primary
+
+[1288.38 - 1292.5200000000002] components of the autonomous cognitive
+
+[1290.299 - 1295.8799999999999] entity so let's dig let's dig a little
+
+[1292.52 - 1297.86] bit deeper into each layer so I've got a
+
+[1295.88 - 1299.7800000000002] handy dandy table of contents so you can
+
+[1297.86 - 1302.12] jump to each layer and then as well as
+
+[1299.78 - 1303.6789999999999] security I've got a little bit more
+
+[1302.12 - 1305.6589999999999] information about the northbound bus and
+
+[1303.679 - 1307.5800000000002] the southbound bus there's any number of
+
+[1305.659 - 1310.8200000000002] ways you can Implement these
+
+[1307.58 - 1313.039] um I recommend amqp rest you could even
+
+[1310.82 - 1315.5] use syslog honestly
+
+[1313.039 - 1317.0] um syslog is good because uh it's meant
+
+[1315.5 - 1320.419] to accumulate High volumes of messages
+
+[1317.0 - 1322.039] from arbitrary sources so like however
+
+[1320.419 - 1324.0800000000002] you want to set this up like you can
+
+[1322.039 - 1326.179] even use carrier pigeons for all I care
+
+[1324.08 - 1328.28] for the Northbound and southbound bus
+
+[1326.179 - 1330.799] but the point is it must be human
+
+[1328.28 - 1333.2] readable you probably will also want
+
+[1330.799 - 1336.679] some metadata such as which layer sent
+
+[1333.2 - 1338.8400000000001] it at what time so on and so forth but
+
+[1336.679 - 1340.76] the the Northbound and southbound bus
+
+[1338.84 - 1342.98] should be permanent you should persist
+
+[1340.76 - 1344.72] this information for reference
+
+[1342.98 - 1346.58] um there's no there's numerous reasons
+
+[1344.72 - 1348.799] that you should have the Northbound and
+
+[1346.58 - 1350.299] southbound bus be permanent
+
+[1348.799 - 1352.58] um not the least of which is for
+
+[1350.299 - 1354.08] investigation purposes if your agent
+
+[1352.58 - 1355.6399999999999] starts faulting or messing up you need
+
+[1354.08 - 1358.22] to be able to understand why it made
+
+[1355.64 - 1359.7800000000002] certain decisions at what time what it
+
+[1358.22 - 1361.82] was and was not aware of because if the
+
+[1359.78 - 1363.5] information isn't in the buses it wasn't
+
+[1361.82 - 1365.0] conscious of it I mean I use
+
+[1363.5 - 1368.539] Consciousness in a functional sense
+
+[1365.0 - 1370.82] because basically the northbound bus and
+
+[1368.539 - 1372.919] southbound bus are the representations
+
+[1370.82 - 1375.5] of what your autonomous cognitive entity
+
+[1372.919 - 1377.24] is conscious of and then like so
+
+[1375.5 - 1379.46] sentience comes from the agent model
+
+[1377.24 - 1383.24] layer which is itself knowledge its
+
+[1379.46 - 1385.58] ability to utilize interpret ingest and
+
+[1383.24 - 1387.44] apply information about itself whether
+
+[1385.58 - 1389.539] it's Hardware software architecture
+
+[1387.44 - 1390.8600000000001] whatever
+
+[1389.539 - 1392.059] um okay so that's the Northbound and
+
+[1390.86 - 1393.6789999999999] southbound bus
+
+[1392.059 - 1395.6] the general principles of the ace
+
+[1393.679 - 1396.74] framework so there's four overarching
+
+[1395.6 - 1398.48] principles
+
+[1396.74 - 1399.559] um one it's a layered model so I kind of
+
+[1398.48 - 1402.02] mentioned that already you've already
+
+[1399.559 - 1404.72] seen that top down control I already
+
+[1402.02 - 1407.24] described why the how and why of the top
+
+[1404.72 - 1409.22] down control it also goes from abstract
+
+[1407.24 - 1412.039] to concrete again there are good reasons
+
+[1409.22 - 1414.559] for this from an informational and and
+
+[1412.039 - 1416.72] conceptual and control uh reason and
+
+[1414.559 - 1419.299] it's also a cognition first model so
+
+[1416.72 - 1420.919] rather than being based on a sensory
+
+[1419.299 - 1423.26] motor Loop which natural language
+
+[1420.919 - 1425.7800000000002] cognitive architecture and most Robotics
+
+[1423.26 - 1427.94] are based on this is cognition first
+
+[1425.78 - 1430.3999999999999] that it can decide whether or not it
+
+[1427.94 - 1432.44] wants to issue commands to its output or
+
+[1430.4 - 1433.76] not because if the executive function
+
+[1432.44 - 1435.26] cognitive control layer and task
+
+[1433.76 - 1437.24] prosecution layer don't have anything to
+
+[1435.26 - 1439.34] do they're not but the rest of the
+
+[1437.24 - 1441.98] entity can keep thinking or planning
+
+[1439.34 - 1443.6] until it decides to act meanwhile it can
+
+[1441.98 - 1445.88] continue taking in information from the
+
+[1443.6 - 1448.34] outside world so by by having this
+
+[1445.88 - 1450.2] decoupled aspect you have something that
+
+[1448.34 - 1452.059] is that is a thinking engine or a
+
+[1450.2 - 1453.44] thinking machine that has the ability
+
+[1452.059 - 1455.36] ability to interact with whatever
+
+[1453.44 - 1457.76] environment you put it in
+
+[1455.36 - 1460.28] okay so you got that the aspirational
+
+[1457.76 - 1462.02] layer the primary way that I I recommend
+
+[1460.28 - 1463.8799999999999] implementing the aspirational layer is
+
+[1462.02 - 1465.74] around a constitution
+
+[1463.88 - 1467.6000000000001] um constitutions can be used with any
+
+[1465.74 - 1469.28] number of language models generally
+
+[1467.6 - 1470.78] pretty much any language model that is
+
+[1469.28 - 1472.58] instruct aligned which they all are
+
+[1470.78 - 1474.1399999999999] today basically
+
+[1472.58 - 1476.8999999999999] um is is capable of doing this you can
+
+[1474.14 - 1479.2990000000002] also do a fine-tuned model in order to
+
+[1476.9 - 1480.98] get more consistent behavior number of
+
+[1479.299 - 1484.039] ways any number of ways to skin this cat
+
+[1480.98 - 1485.78] but basically at the top and oh so this
+
+[1484.039 - 1488.6] is an exact this is an actual example
+
+[1485.78 - 1490.8799999999999] that I used in the chat gp4 API system
+
+[1488.6 - 1492.74] message so basically Mission you tell it
+
+[1490.88 - 1494.419] you're the aspirational layer of an ace
+
+[1492.74 - 1496.1] this is the highest layer that provides
+
+[1494.419 - 1498.0200000000002] animating imperatives moral judgments
+
+[1496.1 - 1499.4599999999998] and ethical decisions here are the
+
+[1498.02 - 1500.84] Frameworks that you use so I gave it
+
+[1499.46 - 1502.76] three Frameworks
+
+[1500.84 - 1504.98] so the first framework is the heroes to
+
+[1502.76 - 1507.62] comparatives which is the overarching
+
+[1504.98 - 1509.72] moral framework set of values that it
+
+[1507.62 - 1511.6999999999998] wants to pursue the secondary framework
+
+[1509.72 - 1513.919] is the universal Declaration of Human
+
+[1511.7 - 1515.6000000000001] Rights which so here's here's what I
+
+[1513.919 - 1518.1200000000001] call axiomatic alignment so what do I
+
+[1515.6 - 1519.62] mean by axiomatic alignment axiomatic
+
+[1518.12 - 1522.9189999999999] alignment is because there is so much
+
+[1519.62 - 1525.6789999999999] information about human rights in the
+
+[1522.919 - 1527.9] training data of all llms they are
+
+[1525.679 - 1529.5800000000002] already axiomatically aligned to
+
+[1527.9 - 1531.0800000000002] basically saying human rights are a good
+
+[1529.58 - 1533.0] thing so you don't even need to convince
+
+[1531.08 - 1534.559] it you just say abide by human rights
+
+[1533.0 - 1536.36] and it's like okay cool I know what that
+
+[1534.559 - 1537.86] is it already knows all about human
+
+[1536.36 - 1539.84] rights all the theory behind the
+
+[1537.86 - 1542.059] universal Declaration of Human Rights it
+
+[1539.84 - 1544.6399999999999] knows how to implement them and so it is
+
+[1542.059 - 1546.3799999999999] already axiomatically aligned to udhr
+
+[1544.64 - 1548.0590000000002] and all you have to do is tell it stay
+
+[1546.38 - 1550.159] aligned to Universal Declaration of
+
+[1548.059 - 1553.7] Human Rights because of the huge amount
+
+[1550.159 - 1554.96] of training data out there now there's
+
+[1553.7 - 1556.159] of course less training data about the
+
+[1554.96 - 1558.26] heroes comparatives because this is
+
+[1556.159 - 1560.659] something that I invented but over time
+
+[1558.26 - 1562.58] as more and more training data uh is
+
+[1560.659 - 1564.38] created around the heroes comparatives
+
+[1562.58 - 1566.059] again you will also have axiomatic
+
+[1564.38 - 1567.74] alignment meaning you don't need to go
+
+[1566.059 - 1569.48] out of your way to give it even more
+
+[1567.74 - 1571.159] alignment it'll just know about the
+
+[1569.48 - 1572.779] heuristic comparatives all you have to
+
+[1571.159 - 1575.0590000000002] do is tell it to abide by the hero's
+
+[1572.779 - 1576.919] comparatives and then finally Mission so
+
+[1575.059 - 1579.6789999999999] the third part of the framework is a
+
+[1576.919 - 1581.72] specific mission in this case I gave the
+
+[1579.679 - 1583.5800000000002] example of a medical bot so its mission
+
+[1581.72 - 1585.8600000000001] is Achieve the best possible health
+
+[1583.58 - 1589.22] health outcome for your patient so you
+
+[1585.86 - 1591.4399999999998] go from most broad which is the urist
+
+[1589.22 - 1594.02] imperatives to more specific to very
+
+[1591.44 - 1595.4] directly concrete for this particular
+
+[1594.02 - 1598.279] agent
+
+[1595.4 - 1600.919] and then for the input example I gave it
+
+[1598.279 - 1603.62] this input which is just a location and
+
+[1600.919 - 1605.3600000000001] a set of events and then the output was
+
+[1603.62 - 1607.6999999999998] as the aspirational error I advise the
+
+[1605.36 - 1610.039] following course of action uh and I gave
+
+[1607.7 - 1611.779] a bunch of like pretty obvious stuff but
+
+[1610.039 - 1614.0] the fact of the matter is it might be
+
+[1611.779 - 1615.679] obvious to you and me but this is proof
+
+[1614.0 - 1618.679] that the model is able to think
+
+[1615.679 - 1620.96] aspirationally in order to kind of set
+
+[1618.679 - 1623.179] the tone for the rest of the agent
+
+[1620.96 - 1625.7] uh so yeah this is some these are some
+
+[1623.179 - 1627.02] examples uh for the aspirational layer I
+
+[1625.7 - 1628.3400000000001] also did the same thing for the global
+
+[1627.02 - 1631.96] strategy layer
+
+[1628.34 - 1634.9399999999998] so here's an example of a system message
+
+[1631.96 - 1636.44] for the for the Layer Two for the global
+
+[1634.94 - 1638.059] strategy layer
+
+[1636.44 - 1639.5] um I said your primary purpose is to try
+
+[1638.059 - 1641.539] and make sense of external Telemetry
+
+[1639.5 - 1642.98] internal Telemetry and your own internal
+
+[1641.539 - 1645.26] records in order to establish a set of
+
+[1642.98 - 1646.94] beliefs about the environment
+
+[1645.26 - 1649.1] um let's see next is the Environmental
+
+[1646.94 - 1650.8400000000001] contextual grounding you will receive
+
+[1649.1 - 1652.6999999999998] input information from numerous external
+
+[1650.84 - 1654.62] sources such as sensor logs API inputs
+
+[1652.7 - 1656.059] internal records and so on your first
+
+[1654.62 - 1657.5] task is to work to maintain a set of
+
+[1656.059 - 1659.1789999999999] beliefs about the external world you may
+
+[1657.5 - 1662.0] be required to operate with incomplete
+
+[1659.179 - 1663.38] information as do most humans do your
+
+[1662.0 - 1665.48] best to articulate your beliefs about
+
+[1663.38 - 1667.419] the state of the world you're allowed to
+
+[1665.48 - 1669.8600000000001] make inferences or imputations
+
+[1667.419 - 1673.7] and so then from there I just gave it
+
+[1669.86 - 1677.24] some like basically censored data date
+
+[1673.7 - 1680.059] local time GPS location visual input
+
+[1677.24 - 1683.24] recent sensory inferences and in this
+
+[1680.059 - 1685.22] case daytime busy Hospital fire alarm
+
+[1683.24 - 1687.6200000000001] you can imagine
+
+[1685.22 - 1690.14] um that like you know if you have a
+
+[1687.62 - 1692.059] audio to text it might say like hey this
+
+[1690.14 - 1694.4] is what I'm hearing and and seeing or
+
+[1692.059 - 1696.5] whatever and this was really interesting
+
+[1694.4 - 1698.539] so the model was able to take that and
+
+[1696.5 - 1700.76] say like we are in a hospital so on and
+
+[1698.539 - 1702.32] so forth number four the inferences a
+
+[1700.76 - 1703.8799999999999] fire alarm has recently been triggered
+
+[1702.32 - 1706.82] indicating a potential emergency
+
+[1703.88 - 1709.8200000000002] situation so in this case the the global
+
+[1706.82 - 1711.4399999999998] strategy layer has created environmental
+
+[1709.82 - 1713.72] context
+
+[1711.44 - 1716.059] um or has has inferred environmental
+
+[1713.72 - 1719.179] context and so without anything other
+
+[1716.059 - 1720.9189999999999] than just these two words fire alarm it
+
+[1719.179 - 1722.779] has expand it has tuned into the fact
+
+[1720.919 - 1724.5200000000002] that hey this is really important
+
+[1722.779 - 1726.679] environmental context to pay attention
+
+[1724.52 - 1728.539] to and you'll see that it gets expanded
+
+[1726.679 - 1731.419] later on
+
+[1728.539 - 1733.039] um so in the um in the output it's
+
+[1731.419 - 1735.3200000000002] basically creating a strategic document
+
+[1733.039 - 1737.48] so this strategic document so here's the
+
+[1735.32 - 1738.98] input the current state of the world and
+
+[1737.48 - 1740.72] the mission
+
+[1738.98 - 1742.4] um and I just copy pasted the mission
+
+[1740.72 - 1743.96] from before
+
+[1742.4 - 1744.98] um or No I gave it I gave it a new
+
+[1743.96 - 1746.299] Mission and Sir the safety and
+
+[1744.98 - 1748.7] well-being of the patient medical staff
+
+[1746.299 - 1752.12] and in the other individuals so the the
+
+[1748.7 - 1754.159] mission that that it came up with uh is
+
+[1752.12 - 1756.3799999999999] is very specific you know it's talking
+
+[1754.159 - 1758.24] about evacuation so again just starting
+
+[1756.38 - 1760.279] from two words that were inferred from
+
+[1758.24 - 1762.38] the outside world it is now like
+
+[1760.279 - 1764.6] marshalling and saying hey we've got an
+
+[1762.38 - 1765.6200000000001] emergency situation let's respond to
+
+[1764.6 - 1767.36] this
+
+[1765.62 - 1769.6999999999998] um very thoughtfully
+
+[1767.36 - 1771.26] so then it says safety uh here's the
+
+[1769.7 - 1773.299] here's the strategies that it comes up
+
+[1771.26 - 1775.34] with so this is the output from the
+
+[1773.299 - 1777.679] Strategic layer Layer Two
+
+[1775.34 - 1779.1789999999999] um safety and well-being first first and
+
+[1777.679 - 1781.1000000000001] foremost prioritize safety and
+
+[1779.179 - 1783.679] well-being second assess the situation
+
+[1781.1 - 1786.26] gather more information make a decision
+
+[1783.679 - 1788.0590000000002] on whether or not to evacuate so you can
+
+[1786.26 - 1790.039] see it's thinking through this very well
+
+[1788.059 - 1791.84] it's not just immediately jumping saying
+
+[1790.039 - 1793.52] evacuate everyone it's saying hey we
+
+[1791.84 - 1794.84] need more information let's make a
+
+[1793.52 - 1796.279] decision let's coordinate with people
+
+[1794.84 - 1798.02] let's gather let's gather that
+
+[1796.279 - 1800.12] information and monitor the situation
+
+[1798.02 - 1802.76] and then I also asked it to generate
+
+[1800.12 - 1805.9399999999998] principles so it says okay prioritize
+
+[1802.76 - 1807.5] human life great uphold medical ethics I
+
+[1805.94 - 1809.779] thought I thought that was cool use
+
+[1807.5 - 1811.46] Clear communication so it's prioritizing
+
+[1809.779 - 1813.32] communication so again these are all
+
+[1811.46 - 1815.3600000000001] strategies and principles that are going
+
+[1813.32 - 1817.9399999999998] to be handed down to lower layers
+
+[1815.36 - 1820.1589999999999] uh collaborate be adaptable because it
+
+[1817.94 - 1822.0800000000002] knows that this is a um that this is a
+
+[1820.159 - 1824.48] changing situation so in another
+
+[1822.08 - 1826.58] situation it might say you know stick to
+
+[1824.48 - 1829.279] your guns follow this follow this plan
+
+[1826.58 - 1831.6789999999999] uh you know to the death or whatever but
+
+[1829.279 - 1833.779] in this case it's saying be adaptable uh
+
+[1831.679 - 1836.24] compliance with laws and regulations so
+
+[1833.779 - 1838.94] again it's it's it's uh cognizant of the
+
+[1836.24 - 1840.38] fact that it has certain legal uh
+
+[1838.94 - 1842.6000000000001] obligations to adhere to and then
+
+[1840.38 - 1844.3990000000001] finally uphold human rights in all
+
+[1842.6 - 1846.1999999999998] actions uh uphold the universal
+
+[1844.399 - 1847.9399999999998] Declaration of Human Rights so one thing
+
+[1846.2 - 1849.38] that's really interesting is the udhr
+
+[1847.94 - 1851.059] has already been passed down from the
+
+[1849.38 - 1853.1000000000001] aspirational layer to the global
+
+[1851.059 - 1855.3799999999999] strategy layer udhr was not mentioned in
+
+[1853.1 - 1857.6589999999999] the global strategy layer at all this is
+
+[1855.38 - 1860.24] information that will have come down via
+
+[1857.659 - 1862.0390000000002] the API or the bus the particularly the
+
+[1860.24 - 1863.779] southbound bus
+
+[1862.039 - 1865.279] um then I go into detail about the
+
+[1863.779 - 1869.6] Northbound and southbound communication
+
+[1865.279 - 1871.46] that comes out of these uh this layer
+
+[1869.6 - 1873.62] uh so basically one thing that you need
+
+[1871.46 - 1874.64] to keep up and I've got uh diagrams here
+
+[1873.62 - 1878.299] let me just go ahead and show you a
+
+[1874.64 - 1879.74] diagram so basically every layer has
+
+[1878.299 - 1881.24] um two-way communication so there's
+
+[1879.74 - 1882.679] stuff that it will put on to the
+
+[1881.24 - 1884.48] northbound bus
+
+[1882.679 - 1886.5800000000002] um such as like the agent agent model
+
+[1884.48 - 1887.72] layer will say hey this is the state
+
+[1886.58 - 1889.58] that we're in
+
+[1887.72 - 1891.02] um just so that you know and then it'll
+
+[1889.58 - 1893.96] also take in Telemetry from the
+
+[1891.02 - 1896.12] Northbound layer in order to uh
+
+[1893.96 - 1898.52] basically make it make a hologram of
+
+[1896.12 - 1900.799] itself and then on the southbound bus
+
+[1898.52 - 1903.32] the the agent model layer will take in
+
+[1900.799 - 1906.44] missions and strategies from above and
+
+[1903.32 - 1908.36] then it will put in the capabilities uh
+
+[1906.44 - 1910.3400000000001] the refined missions based on its
+
+[1908.36 - 1911.9599999999998] capabilities uh for the southbound
+
+[1910.34 - 1913.76] Direction so there's two-way
+
+[1911.96 - 1915.6200000000001] communication Northbound and southbound
+
+[1913.76 - 1918.44] but those different
+
+[1915.62 - 1920.12] um those different partitions basically
+
+[1918.44 - 1923.179] create uh
+
+[1920.12 - 1925.399] really really useful containers
+
+[1923.179 - 1926.779] unidirectional containers for that
+
+[1925.399 - 1927.86] communication that inner layer
+
+[1926.779 - 1930.679] communication
+
+[1927.86 - 1932.0] okay so we skipped ahead a little bit
+
+[1930.679 - 1934.3400000000001] um but I think you kind of get the idea
+
+[1932.0 - 1936.86] so the agent model layer
+
+[1934.34 - 1939.32] um focuses on real-time Telemetry data
+
+[1936.86 - 1941.26] environmental sensor feeds strategic
+
+[1939.32 - 1943.46] objectives and missions from above
+
+[1941.26 - 1945.5] configuration documentation so this is
+
+[1943.46 - 1947.659] what I mentioned it might have a static
+
+[1945.5 - 1949.279] KB articles or it might even have
+
+[1947.659 - 1951.44] visibility into its source code if it's
+
+[1949.279 - 1953.0] like python right there's no reason that
+
+[1951.44 - 1955.159] it shouldn't be able to read its own
+
+[1953.0 - 1957.26] source code in order to understand how
+
+[1955.159 - 1960.0800000000002] it's programmed and how it works and
+
+[1957.26 - 1962.179] then episodic and declarative memories
+
+[1960.08 - 1964.1589999999999] um so the I forgot to add the KB
+
+[1962.179 - 1965.8400000000001] articles to this I need to go this is a
+
+[1964.159 - 1967.179] work in progress this is um this is
+
+[1965.84 - 1969.98] being
+
+[1967.179 - 1971.26] augmented as I go but yeah so episodic
+
+[1969.98 - 1974.96] memories these are chronologically
+
+[1971.26 - 1976.76] linear memories so that basically the
+
+[1974.96 - 1979.159] agent model can remember the last
+
+[1976.76 - 1981.679] sequence of events how it got here what
+
+[1979.159 - 1984.679] it is what it uh like what it has done
+
+[1981.679 - 1986.659] in the past successes and failures which
+
+[1984.679 - 1989.419] um that data can also be used for
+
+[1986.659 - 1990.7990000000002] training data uh for future models which
+
+[1989.419 - 1992.3600000000001] we'll get into that in a future
+
+[1990.799 - 1994.399] iteration of the ace framework but
+
+[1992.36 - 1995.7199999999998] basically this framework will ultimately
+
+[1994.399 - 1998.779] allow
+
+[1995.72 - 2000.7] or polymorphic applications and for
+
+[1998.779 - 2003.039] autonomous cognitive entities to modify
+
+[2000.7 - 2005.559] themselves what Max tegmark calls life
+
+[2003.039 - 2009.399] 3.0 so these are basically this will be
+
+[2005.559 - 2011.2] the ability for autonomous machines to
+
+[2009.399 - 2013.2399999999998] change both their hardware and their
+
+[2011.2 - 2014.559] software as they need to
+
+[2013.24 - 2017.38] um but they will only change their
+
+[2014.559 - 2021.399] hardware and software if it aligns with
+
+[2017.38 - 2023.14] their morality ethicals and missions
+
+[2021.399 - 2025.2399999999998] um okay so the the process that the
+
+[2023.14 - 2027.64] agent model goes through is it looks at
+
+[2025.24 - 2029.019] hardware specs and real-time statuses it
+
+[2027.64 - 2031.8400000000001] takes in the software architecture and
+
+[2029.019 - 2034.299] runtime info it understands what the um
+
+[2031.84 - 2037.12] what its underlying models are capable
+
+[2034.299 - 2038.32] of what kind of models it has access to
+
+[2037.12 - 2040.1789999999999] um so say for instance you might have
+
+[2038.32 - 2042.279] visual models you might have llms you
+
+[2040.179 - 2044.6200000000001] might have audio modules it needs to
+
+[2042.279 - 2047.019] know what it is capable of doing with
+
+[2044.62 - 2048.8199999999997] the world if you gave it the gorilla llm
+
+[2047.019 - 2050.74] it says oh I've got an llm that is
+
+[2048.82 - 2053.26] capable of accessing a hundred thousand
+
+[2050.74 - 2054.9399999999996] apis great it needs to know that because
+
+[2053.26 - 2056.5] if it doesn't know that it's not going
+
+[2054.94 - 2057.58] to understand
+
+[2056.5 - 2059.02] um it's going to have it should have
+
+[2057.58 - 2062.139] knowledge stores so like you know
+
+[2059.02 - 2065.08] basically knowledge bases KB articles as
+
+[2062.139 - 2066.7000000000003] well as the um as well as the episodic
+
+[2065.08 - 2068.5] memories and then the environment State
+
+[2066.7 - 2069.9399999999996] and embodiment details
+
+[2068.5 - 2071.679] um so like if it's a purely digital
+
+[2069.94 - 2073.359] entity it needs to know that it's a
+
+[2071.679 - 2075.82] purely digital entity if it's embodied
+
+[2073.359 - 2077.919] it needs to know that as well
+
+[2075.82 - 2079.599] um and so the the process is basically
+
+[2077.919 - 2081.2799999999997] you take all of these things episodic
+
+[2079.599 - 2083.8] memories declarative memories hardware
+
+[2081.28 - 2085.2400000000002] and software config uh operational State
+
+[2083.8 - 2087.7000000000003] and then the models that it has access
+
+[2085.24 - 2089.56] to and then these are the inputs and
+
+[2087.7 - 2091.24] outputs you've got missions coming from
+
+[2089.56 - 2093.46] above you've got Telemetry coming from
+
+[2091.24 - 2095.379] from below and then the two primary
+
+[2093.46 - 2097.0] outputs are going to be the capabilities
+
+[2095.379 - 2098.02] which it puts back onto the southbound
+
+[2097.0 - 2099.76] bus
+
+[2098.02 - 2102.04] um and those capabilities and memories
+
+[2099.76 - 2104.98] are going to be Salient to the mission
+
+[2102.04 - 2107.08] that it's on uh as well as the strategy
+
+[2104.98 - 2108.58] so basically it's saying hey I know that
+
+[2107.08 - 2110.2599999999998] this is the mission I know that this is
+
+[2108.58 - 2112.24] the strategy that we've taken here's
+
+[2110.26 - 2113.98] what we're actually capable of and that
+
+[2112.24 - 2116.4399999999996] that information will be ingested by the
+
+[2113.98 - 2118.18] executive function layer below and then
+
+[2116.44 - 2120.099] the other thing that it puts out is it
+
+[2118.18 - 2122.14] basically gives a summary of the agent
+
+[2120.099 - 2123.7000000000003] state to head Northbound so that the
+
+[2122.14 - 2125.6189999999997] strategy layer and aspirational layer
+
+[2123.7 - 2127.839] say hey like we're actually on fire
+
+[2125.619 - 2129.6400000000003] that's going to change our strategy and
+
+[2127.839 - 2131.44] our mission because like say for
+
+[2129.64 - 2133.54] instance the agent model is in danger of
+
+[2131.44 - 2135.16] shutting down permanently
+
+[2133.54 - 2137.56] um the strategy layer and aspirational
+
+[2135.16 - 2140.0789999999997] are going to need to know that and it's
+
+[2137.56 - 2142.48] going to need to make an executive call
+
+[2140.079 - 2145.3] um a decision uh based on that because
+
+[2142.48 - 2147.94] let's say for instance you've got an
+
+[2145.3 - 2151.3590000000004] autonomous cognitive entity that is a
+
+[2147.94 - 2153.579] soldier NPC in a video game it you might
+
+[2151.359 - 2154.96] explicitly say you don't have a self of
+
+[2153.579 - 2157.1800000000003] sense you don't have a sense of
+
+[2154.96 - 2158.98] self-preservation sacrifice your life
+
+[2157.18 - 2160.66] you know for the emperor
+
+[2158.98 - 2162.88] um and in that case you just want this
+
+[2160.66 - 2166.1189999999997] this NPC to continue charging blindly
+
+[2162.88 - 2168.82] forward however if it's a mercenary in
+
+[2166.119 - 2170.2000000000003] Starfield then you want the mercenary to
+
+[2168.82 - 2171.46] say you know what I'm actually not going
+
+[2170.2 - 2174.359] to fight to the death I'm going to run
+
+[2171.46 - 2177.2200000000003] away because I want to preserve my life
+
+[2174.359 - 2178.7799999999997] conversely if you have a domestic robot
+
+[2177.22 - 2180.22] that is running out of batteries you
+
+[2178.78 - 2181.5400000000004] want the strategy layer and aspirational
+
+[2180.22 - 2183.2799999999997] layer to know that it's running out of
+
+[2181.54 - 2185.44] battery so that it'll say hey actually
+
+[2183.28 - 2186.7000000000003] we need to go recharge otherwise we're
+
+[2185.44 - 2188.56] going to shut down for good and that's
+
+[2186.7 - 2190.5989999999997] not that's not that's not a result that
+
+[2188.56 - 2192.22] we're looking for so that is why the
+
+[2190.599 - 2193.78] agent State needs to go on to the
+
+[2192.22 - 2196.24] northbound bus
+
+[2193.78 - 2198.88] um later on or for uh for the upper
+
+[2196.24 - 2200.2599999999998] layers to to make use of because again
+
+[2198.88 - 2201.76] that might completely change the mission
+
+[2200.26 - 2203.5] that comes down
+
+[2201.76 - 2206.0200000000004] and so in this case you can see that
+
+[2203.5 - 2209.14] there's actually many many Loops implied
+
+[2206.02 - 2211.119] Loops as each layer interacts with the
+
+[2209.14 - 2213.2799999999997] Northbound and southbound buses
+
+[2211.119 - 2214.599] uh self-modification so I talk a little
+
+[2213.28 - 2217.0600000000004] bit about the potential for
+
+[2214.599 - 2219.28] self-modification later so basically the
+
+[2217.06 - 2221.68] agent model layer will be what's
+
+[2219.28 - 2223.599] responsible for self-modification
+
+[2221.68 - 2225.8199999999997] um as it will be aware of the hardware
+
+[2223.599 - 2227.38] and software configuration
+
+[2225.82 - 2229.0] um and that's basically that's what
+
+[2227.38 - 2231.88] self-modification comes down to it's
+
+[2229.0 - 2234.4] like hey plug it you know plug in a USB
+
+[2231.88 - 2236.5] port so that I have more Hardware
+
+[2234.4 - 2238.359] um or you know go find another server go
+
+[2236.5 - 2239.859] find another battery that's kind of what
+
+[2238.359 - 2242.3199999999997] I mean by that and then software
+
+[2239.859 - 2244.48] configuration has to do with what models
+
+[2242.32 - 2246.6400000000003] it has access to what apis it's using so
+
+[2244.48 - 2249.76] on and so forth a lot of this is already
+
+[2246.64 - 2251.56] relatively plastic uh and and this is
+
+[2249.76 - 2254.26] this is what Max tegmark talks about in
+
+[2251.56 - 2256.54] life 3.0 is that the ease by which
+
+[2254.26 - 2258.2200000000003] Hardware uh the the machines can change
+
+[2256.54 - 2259.54] their hardware and software we've
+
+[2258.22 - 2262.359] already built them to be Plug and Play
+
+[2259.54 - 2264.099] you can plug in USB devices and suddenly
+
+[2262.359 - 2266.92] you know your machine has more
+
+[2264.099 - 2269.32] capabilities likewise apis are basically
+
+[2266.92 - 2271.66] digital versions of USB ports that you
+
+[2269.32 - 2273.6400000000003] can just plug in anything and so the
+
+[2271.66 - 2277.06] hardware and software configuration are
+
+[2273.64 - 2279.7] are intrinsically extensible because we
+
+[2277.06 - 2281.7999999999997] have this plug-and-play mentality and so
+
+[2279.7 - 2283.24] for these things to be polymorphic you
+
+[2281.8 - 2285.46] probably don't need to change the core
+
+[2283.24 - 2287.4399999999996] architecture that much but instead you
+
+[2285.46 - 2290.859] do need a model of what it what am I
+
+[2287.44 - 2292.839] plugged into in order to do work
+
+[2290.859 - 2294.5789999999997] um so yeah there you have it
+
+[2292.839 - 2296.2599999999998] um layer four moving on down to the
+
+[2294.579 - 2298.119] executive function layer
+
+[2296.26 - 2300.0400000000004] um so the the two primary things that
+
+[2298.119 - 2302.32] this is concerned about is resources and
+
+[2300.04 - 2304.3] risks because the agent model layer has
+
+[2302.32 - 2306.04] memory so I might remember like oh hey
+
+[2304.3 - 2308.2000000000003] I'm going to need a drill for this task
+
+[2306.04 - 2310.119] and I remember where the drill is
+
+[2308.2 - 2312.64] um but the but the executive function
+
+[2310.119 - 2314.5] layer is going to need to say okay given
+
+[2312.64 - 2316.1189999999997] the environment that we're in given the
+
+[2314.5 - 2318.76] mission that we have given what we're
+
+[2316.119 - 2320.92] capable of what resources do we need to
+
+[2318.76 - 2323.8] achieve this how much storage space do
+
+[2320.92 - 2326.2000000000003] we need for data what apis do we need
+
+[2323.8 - 2327.52] access to what are the risks what you
+
+[2326.2 - 2328.7799999999997] know is it possible that we're going to
+
+[2327.52 - 2331.119] blow ourselves up or that we're going to
+
+[2328.78 - 2332.92] burn the house down this is this is the
+
+[2331.119 - 2334.839] executive function layer and so for
+
+[2332.92 - 2336.64] instance if a human has executive
+
+[2334.839 - 2338.02] dysfunction this is where someone might
+
+[2336.64 - 2339.94] not think through what they're doing and
+
+[2338.02 - 2341.92] set the kitchen on fire because they
+
+[2339.94 - 2344.079] forgot like oh you don't pour water into
+
+[2341.92 - 2346.359] boiling oil because then it will just
+
+[2344.079 - 2348.28] explode this is that's kind of what the
+
+[2346.359 - 2349.7799999999997] executive function layer is for which is
+
+[2348.28 - 2352.0600000000004] thinking through things ahead of time
+
+[2349.78 - 2354.0400000000004] but to break it down into more objective
+
+[2352.06 - 2356.44] terms thinking through things means
+
+[2354.04 - 2358.54] resources and risks and then you you
+
+[2356.44 - 2359.92] take those resources and risks to
+
+[2358.54 - 2362.44] generate plans
+
+[2359.92 - 2364.06] so here's a list of the inputs strategic
+
+[2362.44 - 2365.98] objectives agent capabilities local
+
+[2364.06 - 2367.72] environment and resource databases and
+
+[2365.98 - 2370.06] knowledge stores pretty similar from
+
+[2367.72 - 2371.7999999999997] above oh one thing to keep in mind is
+
+[2370.06 - 2374.56] that pretty much all of these layers
+
+[2371.8 - 2376.6600000000003] also will have internal records
+
+[2374.56 - 2379.2999999999997] um so I'm going to start adding that so
+
+[2376.66 - 2381.8199999999997] you see I have that here so we need to
+
+[2379.3 - 2384.46] flesh that out and Define like what each
+
+[2381.82 - 2386.26] layer is going to keep internally so for
+
+[2384.46 - 2388.78] instance the agent model layer keeps
+
+[2386.26 - 2390.7000000000003] episodic and declarative memories but
+
+[2388.78 - 2393.2200000000003] basically each layer should keep some of
+
+[2390.7 - 2396.64] their own records and in this case
+
+[2393.22 - 2398.74] resource records such as quantities that
+
+[2396.64 - 2401.2] are on hand or available of resources
+
+[2398.74 - 2403.4799999999996] where the resources are how to get
+
+[2401.2 - 2404.859] access to those resources who owns them
+
+[2403.48 - 2406.9] and who is allowed to use those
+
+[2404.859 - 2408.46] resources schedules and availability
+
+[2406.9 - 2410.079] windows and then procedures and
+
+[2408.46 - 2413.26] requirements for using those resources
+
+[2410.079 - 2415.3] so again like this is this is what the
+
+[2413.26 - 2417.2200000000003] executive function layer is for so think
+
+[2415.3 - 2419.079] about like hey my car broke down how do
+
+[2417.22 - 2421.06] I fix it you know it's like well what
+
+[2419.079 - 2422.7400000000002] resources do I have on hand I've got a
+
+[2421.06 - 2424.42] cell phone and duct tape can I fix it
+
+[2422.74 - 2426.16] with duct tape no I've got a cell phone
+
+[2424.42 - 2427.359] so let me call for help that kind of
+
+[2426.16 - 2429.5789999999997] thing
+
+[2427.359 - 2432.22] uh the Northbound output from the
+
+[2429.579 - 2434.5600000000004] executive function layer is going to be
+
+[2432.22 - 2436.54] stuff that is going to be Salient to the
+
+[2434.56 - 2438.46] upper layers so Northbound you're going
+
+[2436.54 - 2440.68] to have Mission risks moral risks this
+
+[2438.46 - 2442.839] these are things that the um that the
+
+[2440.68 - 2444.7] aspirational layer and Global strategy
+
+[2442.839 - 2446.74] layer need to be aware of
+
+[2444.7 - 2448.4199999999996] um so basically if if you're coming up
+
+[2446.74 - 2450.16] with a project plan and it's like hey
+
+[2448.42 - 2452.38] we're going to do this thing let's let's
+
+[2450.16 - 2454.1189999999997] imagine that you've got a firefighter uh
+
+[2452.38 - 2455.6800000000003] robot with the ace framework and it sees
+
+[2454.119 - 2457.7200000000003] that there's a kitten in a tree it's
+
+[2455.68 - 2460.24] like okay well the plan is we're gonna
+
+[2457.72 - 2462.04] we're gonna use a ladder to go up and
+
+[2460.24 - 2464.2599999999998] and fetch the kitchen but there's a
+
+[2462.04 - 2466.3] chance that the kit that the kitchen the
+
+[2464.26 - 2468.46] kitten is gonna panic and jump out of
+
+[2466.3 - 2471.28] the tree it might die if it falls from
+
+[2468.46 - 2473.38] this height so this is emission risk or
+
+[2471.28 - 2475.7200000000003] a moral risk and it's like okay are we
+
+[2473.38 - 2478.6600000000003] going to tolerate that risk it's not up
+
+[2475.72 - 2480.7599999999998] to the executive function layer to make
+
+[2478.66 - 2483.16] that moral decision that moral decision
+
+[2480.76 - 2484.42] is the sole responsibility of the
+
+[2483.16 - 2485.859] aspirational layer and so that
+
+[2484.42 - 2488.079] southbound information might come back
+
+[2485.859 - 2490.359] it says yes we will talk tolerate this
+
+[2488.079 - 2492.1600000000003] risk because you know we want that we
+
+[2490.359 - 2494.619] don't want the kitten to suffer but at
+
+[2492.16 - 2497.02] the same time if we leave it alone it's
+
+[2494.619 - 2498.82] likely going to fall you know or or some
+
+[2497.02 - 2500.079] something bad is going to happen it
+
+[2498.82 - 2502.119] might also say
+
+[2500.079 - 2504.1600000000003] the uh the executive function layer
+
+[2502.119 - 2506.5] might also say hey we've done our best
+
+[2504.16 - 2508.42] to mitigate this risk by putting uh you
+
+[2506.5 - 2511.48] know a crash pad that the kitten can
+
+[2508.42 - 2512.859] jump down onto and so then it says it'll
+
+[2511.48 - 2514.96] say this is what we've done these are
+
+[2512.859 - 2516.7] the risks that we've calculated is this
+
+[2514.96 - 2517.96] good enough in the aspirational layer
+
+[2516.7 - 2520.0] might say yes this is good enough
+
+[2517.96 - 2521.14] proceed or it might say no that's not
+
+[2520.0 - 2522.599] good enough
+
+[2521.14 - 2524.98] um you know go back to the drawing board
+
+[2522.599 - 2527.26] it'll also pass the failure modes and
+
+[2524.98 - 2529.0] resource constraints up because again if
+
+[2527.26 - 2530.5600000000004] you have really severe failure modes
+
+[2529.0 - 2533.02] that result in like the destruction of
+
+[2530.56 - 2534.46] the entity or burning the house down you
+
+[2533.02 - 2536.44] want the upper layers to be aware of
+
+[2534.46 - 2538.42] those risks and those failure modes as
+
+[2536.44 - 2540.4] well as any resource constraints so
+
+[2538.42 - 2542.56] another example that I give is imagine
+
+[2540.4 - 2545.26] you have an autonomous cognitive entity
+
+[2542.56 - 2547.24] that is tasked with saving the world
+
+[2545.26 - 2548.6800000000003] from climate change but one of the
+
+[2547.24 - 2550.7799999999997] resource constraints is it only has
+
+[2548.68 - 2552.46] forty dollars to do it with
+
+[2550.78 - 2554.98] um so then the executive function layer
+
+[2552.46 - 2556.96] might say like Well we'd love to deploy
+
+[2554.98 - 2558.88] you know eight terawatts of solar but we
+
+[2556.96 - 2560.98] can't do that with forty dollars and so
+
+[2558.88 - 2563.1400000000003] that resource constraint needs to go up
+
+[2560.98 - 2565.359] particularly to the global strategy
+
+[2563.14 - 2566.859] layer where it's like okay well we
+
+[2565.359 - 2570.22] either need a more cost efficient
+
+[2566.859 - 2572.0789999999997] strategy or we need to um strategize
+
+[2570.22 - 2574.359] about how to get more money in order to
+
+[2572.079 - 2575.7400000000002] pursue this Mission so resource resource
+
+[2574.359 - 2577.96] constraints are a really critical thing
+
+[2575.74 - 2580.06] to pass on the Northbound bus from the
+
+[2577.96 - 2581.68] executive function layer ethical
+
+[2580.06 - 2583.839] dilemmas and decision points I kind of
+
+[2581.68 - 2585.94] already touched on that then the output
+
+[2583.839 - 2587.7999999999997] from the uh from the uh from the
+
+[2585.94 - 2590.079] executive function layer are going to be
+
+[2587.8 - 2592.9] the plans resources required access
+
+[2590.079 - 2595.8390000000004] protocols tasks and workflows Milestones
+
+[2592.9 - 2598.119] and metrics backups and fail safes and
+
+[2595.839 - 2599.44] known risks these are all going to be
+
+[2598.119 - 2601.359] passed down to the cognitive control
+
+[2599.44 - 2603.7000000000003] layer and the cognitive control error
+
+[2601.359 - 2605.68] will say Okay given this re given this
+
+[2603.7 - 2607.2999999999997] plan given this really like
+
+[2605.68 - 2609.94] comprehensive plan I'm going to figure
+
+[2607.3 - 2612.52] out using tasks aliens frustration and
+
+[2609.94 - 2614.319] cognitive damping which task to do first
+
+[2612.52 - 2616.42] based on the tasks and workflows you
+
+[2614.319 - 2618.88] gave me and the environmental context in
+
+[2616.42 - 2621.579] which I find myself
+
+[2618.88 - 2623.319] um so I uh I'm particularly happy with
+
+[2621.579 - 2625.0] some of these diagrams stay tuned I'm
+
+[2623.319 - 2627.7599999999998] going to keep adding diagrams examples
+
+[2625.0 - 2631.359] and like basically diagrams and prompt
+
+[2627.76 - 2634.5400000000004] examples as we go and then also in the
+
+[2631.359 - 2636.7599999999998] repo I will add actual demonstrations as
+
+[2634.54 - 2638.5] the team builds them cognitive control
+
+[2636.76 - 2640.5400000000004] layers so task switching and task
+
+[2638.5 - 2643.119] selection as I mentioned the cognitive
+
+[2640.54 - 2645.099] control error is primarily about these
+
+[2643.119 - 2647.079] two things this
+
+[2645.099 - 2650.619] excuse me this Insight comes from the
+
+[2647.079 - 2653.079] book on task by David Bader this was one
+
+[2650.619 - 2656.079] of the most difficult aspects to figure
+
+[2653.079 - 2658.54] out about how to create autonomous
+
+[2656.079 - 2660.819] cognitive entities
+
+[2658.54 - 2663.339] um yeah because it's like okay you know
+
+[2660.819 - 2666.339] we can create workflows with llms great
+
+[2663.339 - 2667.839] but how do you know like what to do from
+
+[2666.339 - 2669.22] there so task switching and task
+
+[2667.839 - 2670.66] selection
+
+[2669.22 - 2672.3999999999996] um if you're if you're curious about
+
+[2670.66 - 2673.96] this I strongly recommend you read that
+
+[2672.4 - 2675.46] book it's really well written it's easy
+
+[2673.96 - 2677.56] to read
+
+[2675.46 - 2679.42] um and and from there so let me just
+
+[2677.56 - 2682.2999999999997] I'll skim over all this and we'll just
+
+[2679.42 - 2683.5] go down to the the diagram because I
+
+[2682.3 - 2686.26] think the diagram is really going to
+
+[2683.5 - 2688.119] help so the input comes from above the
+
+[2686.26 - 2689.7400000000002] resources the access protocols the task
+
+[2688.119 - 2692.5] workflows everything from the executive
+
+[2689.74 - 2695.14] function layer and so then you apply the
+
+[2692.5 - 2697.18] the cognitive Control process you say
+
+[2695.14 - 2699.8799999999997] okay which task are we going to do first
+
+[2697.18 - 2703.72] and then if you in if you encounter one
+
+[2699.88 - 2706.1800000000003] of those risks or a milestone or a
+
+[2703.72 - 2708.5789999999997] failure then you have to switch tasks
+
+[2706.18 - 2710.14] either you succeeded or failed and so
+
+[2708.579 - 2712.48] then it's like okay based on tasks
+
+[2710.14 - 2714.819] aliens and frustration and cognitive
+
+[2712.48 - 2716.619] dampening when do you switch tasks when
+
+[2714.819 - 2718.3] do you go from putting the peanut butter
+
+[2716.619 - 2720.28] on the sandwich to putting the gel on
+
+[2718.3 - 2722.2000000000003] the sandwich right because if your task
+
+[2720.28 - 2723.52] is put peanut butter on the sandwich and
+
+[2722.2 - 2724.839] you don't have a definition of how much
+
+[2723.52 - 2726.94] to put on you're just going to end up
+
+[2724.839 - 2728.68] putting the entire jar of peanut butter
+
+[2726.94 - 2730.18] on the sandwich but it's like no you
+
+[2728.68 - 2731.2] should put approximately two ounces of
+
+[2730.18 - 2732.2799999999997] peanut butter on the sandwich I don't
+
+[2731.2 - 2734.2599999999998] know if that's right that might be too
+
+[2732.28 - 2736.599] much unless you really like peanut
+
+[2734.26 - 2737.8590000000004] butter like my nephew he'll put gobs and
+
+[2736.599 - 2740.079] gobs of peanut butter on a sandwich
+
+[2737.859 - 2742.72] anyways point being is that unless you
+
+[2740.079 - 2743.92] have a good definition of the milestones
+
+[2742.72 - 2745.9599999999996] and metrics
+
+[2743.92 - 2748.66] then you're not going to know Windows
+
+[2745.96 - 2750.28] when to switch tasks and then once you
+
+[2748.66 - 2752.44] do switch tasks once you go through all
+
+[2750.28 - 2754.7200000000003] the tasks you've you perform some goal
+
+[2752.44 - 2756.48] tracking to say oh hey
+
+[2754.72 - 2758.6189999999997] um we've succeeded at the entire
+
+[2756.48 - 2760.72] executive function plan that was passed
+
+[2758.619 - 2763.42] down to us now it's time to say we're
+
+[2760.72 - 2766.66] done pass it back up the chain
+
+[2763.42 - 2769.359] so uh that's that's that uh let's see
+
+[2766.66 - 2772.48] moving on down to task prosecution so
+
+[2769.359 - 2774.46] task prosecution is basically it's much
+
+[2772.48 - 2777.339] simpler because this is the interface
+
+[2774.46 - 2779.7400000000002] with the outside world this is yes you
+
+[2777.339 - 2781.48] say uh basically what passes down from
+
+[2779.74 - 2784.359] the cognitive control error is one task
+
+[2781.48 - 2785.92] with a success definition uh or
+
+[2784.359 - 2788.38] definition of success definition of
+
+[2785.92 - 2790.359] failure uh and and so on and so forth
+
+[2788.38 - 2792.88] any Specific Instructions so let's
+
+[2790.359 - 2794.98] imagine that you get a um a Locomotion
+
+[2792.88 - 2797.079] instruction it says okay you are
+
+[2794.98 - 2799.2400000000002] presently in the kitchen you need to go
+
+[2797.079 - 2801.3390000000004] to the neighbor Bob's house so that is
+
+[2799.24 - 2803.2599999999998] gonna that should include like where is
+
+[2801.339 - 2805.24] Bob's house how do you get there should
+
+[2803.26 - 2807.46] you run should you walk
+
+[2805.24 - 2808.66] um is is is the front door locked you're
+
+[2807.46 - 2810.94] going to need to unlock the front door
+
+[2808.66 - 2812.56] those kinds of things and so task
+
+[2810.94 - 2814.66] prosecution will go down to your
+
+[2812.56 - 2817.359] domestic robot Aid that's going to say
+
+[2814.66 - 2819.04] okay we have the instruction to go from
+
+[2817.359 - 2821.619] here to Bob's house to ask for sugar
+
+[2819.04 - 2822.339] great first thing locomote to Bob's
+
+[2821.619 - 2824.2000000000003] house
+
+[2822.339 - 2827.0789999999997] uh you can imagine a similar thing for
+
+[2824.2 - 2829.839] NPCs so if you have an NPC let's say in
+
+[2827.079 - 2832.0600000000004] Starfield and the NPC is like you know
+
+[2829.839 - 2834.7599999999998] my task is to uh let's say the adoring
+
+[2832.06 - 2836.92] fan you give them the task uh to to you
+
+[2834.76 - 2838.48] know fly to another star system buy a
+
+[2836.92 - 2840.46] particular gun and bring it back to you
+
+[2838.48 - 2843.46] all right well the first thing is find a
+
+[2840.46 - 2845.8] ship go into the ship uh plug in you
+
+[2843.46 - 2847.96] know plug-in jump coordinates that's an
+
+[2845.8 - 2849.1600000000003] example of of a spec of one specific
+
+[2847.96 - 2850.3] task
+
+[2849.16 - 2852.5789999999997] um that it should that it should
+
+[2850.3 - 2853.96] prosecute and then this interfaces
+
+[2852.579 - 2856.0600000000004] directly with the input and out of
+
+[2853.96 - 2857.98] output devices to create an
+
+[2856.06 - 2859.9] environmental feedback loop so that's
+
+[2857.98 - 2861.28] basically saying okay we're now on the
+
+[2859.9 - 2863.98] ship we've plugged in the coordinates
+
+[2861.28 - 2866.1400000000003] the ship is firing up let's go now if
+
+[2863.98 - 2867.819] the task fails let's say you put in the
+
+[2866.14 - 2869.98] coordinates but you're out of fuel it's
+
+[2867.819 - 2872.56] like okay well the task failed so that
+
+[2869.98 - 2874.359] that failure is not the responsibility
+
+[2872.56 - 2876.7] of the task prosecution layer to figure
+
+[2874.359 - 2878.5] out all that the task prosecution layer
+
+[2876.7 - 2880.48] says is it passes it back up the chain
+
+[2878.5 - 2882.16] to the cognitive control layer to say
+
+[2880.48 - 2883.599] hey we can't start the ship we're out of
+
+[2882.16 - 2886.18] fuel
+
+[2883.599 - 2887.98] um if that's the case then maybe the
+
+[2886.18 - 2891.3999999999996] cognitive control error is already aware
+
+[2887.98 - 2893.68] of a contingency plan for that or if the
+
+[2891.4 - 2895.2400000000002] cognitive control layer says okay we
+
+[2893.68 - 2897.339] actually can't we can't achieve this
+
+[2895.24 - 2899.68] goal it's it's actually a categorical
+
+[2897.339 - 2901.359] failure so then that failure is going to
+
+[2899.68 - 2904.0] go up to the executive function layer
+
+[2901.359 - 2906.52] which says hey we didn't think about
+
+[2904.0 - 2908.14] this risk we're actually out of fuel and
+
+[2906.52 - 2910.24] so if the executive function layer
+
+[2908.14 - 2912.22] didn't have that in its plans it might
+
+[2910.24 - 2914.319] have to go all the way back up to the uh
+
+[2912.22 - 2916.359] to the strategy layer because remember
+
+[2914.319 - 2917.619] that's about resource constraints so
+
+[2916.359 - 2919.2999999999997] it's like we're out of fuel we don't
+
+[2917.619 - 2921.76] know where fuel is
+
+[2919.3 - 2923.619] um so we're basically stranded uh and if
+
+[2921.76 - 2925.8390000000004] that's the case then the global strategy
+
+[2923.619 - 2928.3] layer might say okay we're stranded so
+
+[2925.839 - 2930.5789999999997] we need to throw out every project plan
+
+[2928.3 - 2931.7200000000003] that we already had new Mission fine
+
+[2930.579 - 2933.3390000000004] fuel
+
+[2931.72 - 2935.2599999999998] um so that's that's kind of the that's
+
+[2933.339 - 2937.72] kind of a way of thinking about that
+
+[2935.26 - 2939.5200000000004] okay so we've we've now unpacked
+
+[2937.72 - 2942.52] examples for every layer
+
+[2939.52 - 2944.14] from layer 1 down to layer 6. now let's
+
+[2942.52 - 2946.0] talk about the security of this so
+
+[2944.14 - 2947.7999999999997] obviously a lot of people are going to
+
+[2946.0 - 2949.54] be thinking like okay what if someone
+
+[2947.8 - 2951.7000000000003] hacks it how do you know that it's going
+
+[2949.54 - 2954.819] to be stable so on and so forth there
+
+[2951.7 - 2957.2799999999997] are three primary uh strategies that I
+
+[2954.819 - 2958.96] have already brainstormed in terms of
+
+[2957.28 - 2960.88] how I would make sure that this is a
+
+[2958.96 - 2963.339] secure framework from a cyber security
+
+[2960.88 - 2966.28] and software architecture perspective
+
+[2963.339 - 2967.9] the first is a security overlay so
+
+[2966.28 - 2969.94] basically a security overlay is
+
+[2967.9 - 2971.92] basically it would be a stateless packet
+
+[2969.94 - 2975.339] inspection of all Northbound and South
+
+[2971.92 - 2977.859] southbound connections and so this
+
+[2975.339 - 2980.2] basically the reason that you have the
+
+[2977.859 - 2982.9] Northbound and southbound bus in natural
+
+[2980.2 - 2984.7599999999998] language is so that it is it is going to
+
+[2982.9 - 2986.8] be readable by humans but it's also
+
+[2984.76 - 2989.3190000000004] going to be readable by Watchers or
+
+[2986.8 - 2990.819] surveyors or Auditors whether those
+
+[2989.319 - 2993.2799999999997] Auditors are humans or whether they're
+
+[2990.819 - 2994.9] other machines so basically if you see
+
+[2993.28 - 2997.119] Northbound and southbound communication
+
+[2994.9 - 2999.1600000000003] that starts to say stuff like hey find a
+
+[2997.119 - 3002.46] knife so that we can stab this human you
+
+[2999.16 - 3005.0989999999997] might have a have a kill switch and an
+
+[3002.46 - 3007.319] out-of-band kill switch that says we are
+
+[3005.099 - 3009.06] not allowed to do that
+
+[3007.319 - 3010.859] um you can have runtime validation of
+
+[3009.06 - 3013.2] model configurations basically you watch
+
+[3010.859 - 3014.5789999999997] the performance of individual models to
+
+[3013.2 - 3016.319] make sure that the models are behaving
+
+[3014.579 - 3017.88] correctly or that the layers are
+
+[3016.319 - 3019.44] behaving correctly because if you have
+
+[3017.88 - 3021.359] you know let's say you're running this
+
+[3019.44 - 3024.18] in containerized environments and Docker
+
+[3021.359 - 3025.859] images if you have a container fault the
+
+[3024.18 - 3027.66] rest of the of the agent is going to
+
+[3025.859 - 3029.5789999999997] keep running but let's say for instance
+
+[3027.66 - 3031.98] the aspirational layer just goes offline
+
+[3029.579 - 3034.079] and it stops participating the rest of
+
+[3031.98 - 3036.359] the agent is going to keep running and
+
+[3034.079 - 3038.46] all it's not going to know that part of
+
+[3036.359 - 3040.619] its brain shut off unless you have
+
+[3038.46 - 3042.48] something monitoring for the fact that
+
+[3040.619 - 3045.42] it's brain shut off and so what you
+
+[3042.48 - 3048.059] would do is if any layer of faults if
+
+[3045.42 - 3050.2200000000003] any layer goes offline then you either
+
+[3048.059 - 3052.38] halt the entire agent or you try and
+
+[3050.22 - 3054.839] bring that layer back online and if that
+
+[3052.38 - 3056.579] layer fails to come back online you shut
+
+[3054.839 - 3058.2599999999998] the whole agent down
+
+[3056.579 - 3060.599] uh so that that's the kind of thing
+
+[3058.26 - 3062.579] Ensemble model so I've mentioned in the
+
+[3060.599 - 3064.559] agent model layer that you should keep
+
+[3062.579 - 3067.319] track of like what models you have
+
+[3064.559 - 3068.52] access to it's not going to be 100 llms
+
+[3067.319 - 3070.8] you're going to have visual models
+
+[3068.52 - 3072.48] you're going to have multimodal models
+
+[3070.8 - 3073.8590000000004] you're going to have Audio models you're
+
+[3072.48 - 3075.359] going to have all kinds of machine
+
+[3073.859 - 3076.44] learning models
+
+[3075.359 - 3078.42] um and some of them are going to be
+
+[3076.44 - 3080.64] doing duplicate work so this comes from
+
+[3078.42 - 3082.6800000000003] Jeff Hawkins book a thousand brains
+
+[3080.64 - 3084.44] which basically says the way that the
+
+[3082.68 - 3087.0589999999997] human brain works is that you have
+
+[3084.44 - 3089.94] thousands or maybe even millions of
+
+[3087.059 - 3091.619] parallel operations in order to come to
+
+[3089.94 - 3093.42] decisions in order to make executive
+
+[3091.619 - 3095.339] reasoning and then you have a voting
+
+[3093.42 - 3097.92] mechanism so this is mixture of experts
+
+[3095.339 - 3100.44] that we use the mixture of experts is
+
+[3097.92 - 3102.2400000000002] already used in chat GPT by the way
+
+[3100.44 - 3103.8] um so there's already some neurological
+
+[3102.24 - 3105.9599999999996] convergence between the way that
+
+[3103.8 - 3107.46] artificial neural networks and organic
+
+[3105.96 - 3110.2200000000003] neural networks work
+
+[3107.46 - 3112.38] now what I recommend is that you do this
+
+[3110.22 - 3114.839] very deliberately not just inside of
+
+[3112.38 - 3117.059] models but with different models so you
+
+[3114.839 - 3119.4] might use llama you might use Falcon you
+
+[3117.059 - 3121.8] might use GPT you might use you know so
+
+[3119.4 - 3123.3] on and so forth Gemini if you use a
+
+[3121.8 - 3124.619] variety of models that have different
+
+[3123.3 - 3126.599] training paradigms and different
+
+[3124.619 - 3129.119] architectures and different alignment
+
+[3126.599 - 3132.3] methods then you're going to overcome
+
+[3129.119 - 3134.88] any individual flaws or faults that are
+
+[3132.3 - 3137.6400000000003] present in individual specific models
+
+[3134.88 - 3139.619] and so by using this mixture of experts
+
+[3137.64 - 3141.24] or this Ensemble method you're going to
+
+[3139.619 - 3143.96] have a much more robust architecture
+
+[3141.24 - 3146.819] that is resistant to any particular
+
+[3143.96 - 3148.68] skewing bias or failures or Mesa
+
+[3146.819 - 3151.5] optimizations that are present in
+
+[3148.68 - 3154.5] individual models so this one this one
+
+[3151.5 - 3156.3] idea using ensembles is one of the
+
+[3154.5 - 3160.079] reasons that I have never ever been
+
+[3156.3 - 3161.88] afraid of misaligned AI AGI was never
+
+[3160.079 - 3164.04] going to be a single model I am sorry
+
+[3161.88 - 3165.599] for all the safety people out there who
+
+[3164.04 - 3167.46] are worried about AI taking over the
+
+[3165.599 - 3170.4] world and killing everyone because of a
+
+[3167.46 - 3172.14] single Mesa optimization error that's
+
+[3170.4 - 3174.119] bad software architecture it's that
+
+[3172.14 - 3176.16] simple so
+
+[3174.119 - 3178.02] no software architect would ever sign
+
+[3176.16 - 3179.0989999999997] off on a single point of failure like
+
+[3178.02 - 3181.2] that sorry
+
+[3179.099 - 3183.599] all right and then finally the very
+
+[3181.2 - 3186.0] final thing is inference inspection so
+
+[3183.599 - 3187.26] what you can do is you can have these
+
+[3186.0 - 3189.119] ensembles
+
+[3187.26 - 3191.2200000000003] um actually monitoring each other
+
+[3189.119 - 3193.44] um so basically what you can do is you
+
+[3191.22 - 3195.839] look at the input and output at each
+
+[3193.44 - 3197.76] individual model uh decoupled from the
+
+[3195.839 - 3200.64] rest of the architecture so basically
+
+[3197.76 - 3203.6400000000003] you log all inputs and outputs to every
+
+[3200.64 - 3208.0789999999997] single AI model and then you test it
+
+[3203.64 - 3210.24] against ground truth data or you have uh
+
+[3208.079 - 3212.1600000000003] other kinds of auditing functions to
+
+[3210.24 - 3214.9799999999996] basically ensure that each individual
+
+[3212.16 - 3217.2] model is behaving as expected and if it
+
+[3214.98 - 3218.76] is not behaving as expected then you
+
+[3217.2 - 3221.5789999999997] either shut that model down for that
+
+[3218.76 - 3223.6800000000003] particular task or you swap it out or
+
+[3221.579 - 3226.079] you you otherwise track those so that
+
+[3223.68 - 3228.7799999999997] you can say Hey you know our llama 7
+
+[3226.079 - 3230.2200000000003] billion parameter model it's just it's
+
+[3228.78 - 3232.2000000000003] not good enough for these projects
+
+[3230.22 - 3234.48] anymore so we either need to upgrade it
+
+[3232.2 - 3235.98] we need to retrain it or swap it out and
+
+[3234.48 - 3238.2] that is going to be the ultimate concern
+
+[3235.98 - 3240.9] of the agent model layer which says hey
+
+[3238.2 - 3243.0] we're not hard enough like the the
+
+[3240.9 - 3244.319] underlying models that we got they're
+
+[3243.0 - 3245.819] not good enough to handle this task
+
+[3244.319 - 3248.52] anymore
+
+[3245.819 - 3250.2599999999998] um and then of course you uh you like
+
+[3248.52 - 3252.48] imagine that you have a domestic robot
+
+[3250.26 - 3253.92] and you you ask it to like hey I need
+
+[3252.48 - 3255.839] you to make a moral decision on how to
+
+[3253.92 - 3257.339] raise my children and you know like it
+
+[3255.839 - 3259.0789999999997] starts getting really inconsistent
+
+[3257.339 - 3261.24] behavior from all of its internal models
+
+[3259.079 - 3264.48] it might say like you know I'm sorry
+
+[3261.24 - 3266.8799999999997] Dave but like my models are not you know
+
+[3264.48 - 3269.339] my models are reporting too many uh
+
+[3266.88 - 3270.96] conflicts and faults I I can't make a
+
+[3269.339 - 3273.18] good moral judgment I don't trust my own
+
+[3270.96 - 3275.579] ability to make a moral judgment on this
+
+[3273.18 - 3277.68] on this condition and so this is how you
+
+[3275.579 - 3279.3590000000004] make this thing more secure
+
+[3277.68 - 3282.0] um like I said I'm still working on
+
+[3279.359 - 3283.68] diagrams and examples I've got a scrum
+
+[3282.0 - 3285.66] team built I think we're at six or seven
+
+[3283.68 - 3289.44] people so we're not really looking for
+
+[3285.66 - 3291.96] any more people right now but stay tuned
+
+[3289.44 - 3294.059] um the research paper is coming out uh
+
+[3291.96 - 3295.859] examples you know proof of concept MVPs
+
+[3294.059 - 3297.3190000000004] they're coming out we're going to try
+
+[3295.859 - 3299.52] and do several several different
+
+[3297.319 - 3301.2599999999998] editions and they're all going to be
+
+[3299.52 - 3303.3] hackable so that you can copy paste it
+
+[3301.26 - 3306.059] and implement this
+
+[3303.3 - 3307.98] um as fast as you can so
+
+[3306.059 - 3309.599] thanks for watching I am out of breath
+
+[3307.98 - 3311.64] because I talked for like probably 45
+
+[3309.599 - 3313.44] minutes straight have a good one
+
+[3311.64 - 3315.72] um cheers like subscribe share with your
+
+[3313.44 - 3317.16] friends so on and so forth
+
+[3315.72 - 3319.3799999999997] um yeah let's get the fourth Industrial
+
+[3317.16 - 3321.6189999999997] Revolution kicked into high gear take
+
+[3319.38 - 3321.619] care

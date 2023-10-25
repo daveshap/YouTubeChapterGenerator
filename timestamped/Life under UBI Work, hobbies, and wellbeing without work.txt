@@ -1,0 +1,2453 @@
+[0.12 - 5.88] hello everybody David Shapiro here with
+
+[2.7 - 8.639] another video so today's video is uh by
+
+[5.88 - 10.74] popular demand uh as we talk more and
+
+[8.639 - 15.48] more about artificial intelligence and
+
+[10.74 - 18.3] the potential of Ubi and AI displacing a
+
+[15.48 - 20.22] lot of jobs uh for some people it seems
+
+[18.3 - 21.3] like it's a foregone conclusion that a
+
+[20.22 - 23.698999999999998] lot of people are going to be out of
+
+[21.3 - 26.46] work real soon probably for good
+
+[23.699 - 28.68] uh there's more and more Universal basic
+
+[26.46 - 32.279] basic income experiments going on around
+
+[28.68 - 34.62] the world uh and if you didn't see it I
+
+[32.279 - 36.300000000000004] have another video called uh post labor
+
+[34.62 - 39.18] economics which kind of talks about more
+
+[36.3 - 41.879] of the macro economic aspects of that
+
+[39.18 - 43.04] but in this case people really wanted to
+
+[41.879 - 46.379] learn about
+
+[43.04 - 48.66] Ubi on an individual level so let's get
+
+[46.379 - 50.879] right in uh just a real quick plug for
+
+[48.66 - 54.66] my patreon before we get in
+
+[50.879 - 57.839999999999996] um I do have a patreon and all tiers get
+
+[54.66 - 60.239] you into the private Discord where I am
+
+[57.84 - 62.219] often available to chat with people I
+
+[60.239 - 63.979] also there's two patreon discords so
+
+[62.219 - 66.299] there's the premium patreon Discord
+
+[63.979 - 67.79899999999999] which I prioritize make sure that I
+
+[66.299 - 69.43900000000001] answer all questions that people send me
+
+[67.799 - 72.72000000000001] on patreon if you're in the premium tier
+
+[69.439 - 75.119] and I also do have occasional office
+
+[72.72 - 77.52] hours uh where we just all kind of get
+
+[75.119 - 79.92] in a voice chat together and then I do
+
+[77.52 - 82.619] all uh have a higher tier for one-on-one
+
+[79.92 - 85.32000000000001] sessions all right back to the show
+
+[82.619 - 88.32] so first let's set the stage
+
+[85.32 - 90.29899999999999] imagine this future scenario every
+
+[88.32 - 92.52] American gets two thousand dollars a
+
+[90.299 - 94.97900000000001] month no questions asked starting at age
+
+[92.52 - 96.53999999999999] 18 let's also for the sake of this
+
+[94.979 - 100.079] thought experiment assume that Health
+
+[96.54 - 101.93900000000001] Care is either heavily subsidized or uh
+
+[100.079 - 104.579] practic for all intents and purposes
+
+[101.939 - 107.75899999999999] free if you check out my post labor
+
+[104.579 - 109.74] economics video I talk about how uh AI
+
+[107.759 - 112.14] could lower the cost of of lots of
+
+[109.74 - 115.46] things including Health Care by a factor
+
+[112.14 - 118.14] of 100x or a thousand X in the long run
+
+[115.46 - 120.24] let's also assume that the unemployment
+
+[118.14 - 122.52] rate will be about 70 percent there are
+
+[120.24 - 125.939] some people calling for more some people
+
+[122.52 - 128.42] calling for less but just looking at the
+
+[125.939 - 130.739] number of jobs that are like uh
+
+[128.42 - 133.67999999999998] vulnerable to being automated away with
+
+[130.739 - 137.09900000000002] AI today my personal estimate is that
+
+[133.68 - 139.26000000000002] it's around 70 percent uh let's also
+
+[137.099 - 142.319] assume for the sake of argument that
+
+[139.26 - 144.78] parents get a little bit of Ubi per
+
+[142.319 - 147.89999999999998] child but it also tapers per child
+
+[144.78 - 150.66] uh so basically uh you wanna you don't
+
+[147.9 - 152.4] want to necessarily hand out uh as much
+
+[150.66 - 153.9] Ubi for every child because that
+
+[152.4 - 155.70000000000002] incentivizes some people to just keep
+
+[153.9 - 157.31900000000002] having more children
+
+[155.7 - 159.23899999999998] um but on the other hand you also want
+
+[157.319 - 160.79999999999998] to ensure that uh you know you
+
+[159.239 - 162.66] incentivize the behaviors that you want
+
+[160.8 - 164.64000000000001] to see and so one thing that people are
+
+[162.66 - 166.44] concerned about some people uh are
+
+[164.64 - 168.29999999999998] concerned about is population collapse
+
+[166.44 - 171.66] actually this is what we're seeing in
+
+[168.3 - 174.54000000000002] places like Italy Japan North Korea uh
+
+[171.66 - 177.12] and other places where the population is
+
+[174.54 - 179.519] actually already slowly Contracting and
+
+[177.12 - 180.9] so you you basically need to incentivize
+
+[179.519 - 183.0] people to have children you need to
+
+[180.9 - 185.76000000000002] reward them right now
+
+[183.0 - 189.0] um you get tax breaks uh in the form of
+
+[185.76 - 191.099] uh dependent uh tax credit uh so
+
+[189.0 - 193.319] basically this is kind of like a reverse
+
+[191.099 - 195.42] or not a reverse tax credit but a tax
+
+[193.319 - 197.39999999999998] credit in the form of increased income
+
+[195.42 - 199.44] on a monthly basis to help pay for
+
+[197.4 - 201.36] children
+
+[199.44 - 204.0] um let's also assume that GDP growth is
+
+[201.36 - 206.87900000000002] going to be something like 15 uh due to
+
+[204.0 - 208.56] AI automation so the idea is that most
+
+[206.879 - 210.06] people aren't working but the GDP is
+
+[208.56 - 212.04] still growing like crazy the stock
+
+[210.06 - 214.14000000000001] market is growing like crazy so
+
+[212.04 - 216.72] corporations and politicians there's
+
+[214.14 - 218.879] plenty of wealth to go around so we're
+
+[216.72 - 222.0] basically assuming that a state exists
+
+[218.879 - 223.62] of economic abundance and then also some
+
+[222.0 - 225.48] redistribution oh and there was a
+
+[223.62 - 227.94] question someone was asking what's the
+
+[225.48 - 229.01899999999998] difference between this and socialism so
+
+[227.94 - 230.94] the difference between this and
+
+[229.019 - 233.28] socialism is that socialism is about
+
+[230.94 - 236.7] Collective ownership or state ownership
+
+[233.28 - 238.68] so in this case Ubi actually fits within
+
+[236.7 - 240.72] capitalism and neoliberalism because the
+
+[238.68 - 242.76000000000002] state isn't owning anything the state is
+
+[240.72 - 245.099] just taxing and redistributing within
+
+[242.76 - 246.35999999999999] the existing framework another
+
+[245.099 - 248.28] assumption that we're going to make and
+
+[246.36 - 251.09900000000002] I talked about this again in the post
+
+[248.28 - 252.84] labor economics video is uh we're
+
+[251.099 - 254.76] basically going to assume that inflation
+
+[252.84 - 257.4] and deflation are going to be modulated
+
+[254.76 - 259.5] by some of these Market forces
+
+[257.4 - 261.959] uh with things like quantitative easing
+
+[259.5 - 263.16] tax rates and that sort of stuff so
+
+[261.959 - 264.78000000000003] we're not going to address that further
+
+[263.16 - 267.47900000000004] in this video just assume that prices
+
+[264.78 - 271.13899999999995] are stable ish
+
+[267.479 - 273.24] okay so absolute just right off the bat
+
+[271.139 - 275.699] let's talk about budgeting you get two
+
+[273.24 - 277.139] thousand dollars a month uh no further
+
+[275.699 - 278.16] questions asked
+
+[277.139 - 280.44] um the first thing that everyone's
+
+[278.16 - 283.38000000000005] thinking is the rent is still way too
+
+[280.44 - 285.36] damn high for this uh you know my my
+
+[283.38 - 287.04] mortgage payment which is you know I
+
+[285.36 - 290.58000000000004] bought this house almost 10 years ago so
+
+[287.04 - 292.38] before things went absolutely insane uh
+
+[290.58 - 293.82] my mortgage payment is about twelve
+
+[292.38 - 295.08] hundred dollars a month which is pretty
+
+[293.82 - 296.82] good
+
+[295.08 - 299.09999999999997] um but that being said the lowest
+
+[296.82 - 300.54] mortgage payment I ever had was 325
+
+[299.1 - 303.18] dollars a month for a sixty five
+
+[300.54 - 305.82] thousand dollar uh apartment
+
+[303.18 - 307.979] um so it can be done obviously as demand
+
+[305.82 - 311.52] goes up in certain areas the prices also
+
+[307.979 - 313.25899999999996] go up uh but point being is that for
+
+[311.52 - 315.96] most people that's just these numbers
+
+[313.259 - 317.46000000000004] probably sound completely ridiculous
+
+[315.96 - 319.79999999999995] like it's not going to happen again
+
+[317.46 - 322.44] because again ten years ago the economy
+
+[319.8 - 325.199] has changed a lot inflation supply and
+
+[322.44 - 327.24] demand has changed we're facing housing
+
+[325.199 - 328.74] crunches and recessions and all that
+
+[327.24 - 331.259] kind of stuff stuff so again it's like
+
+[328.74 - 333.36] oh you know you everyone's heard like
+
+[331.259 - 335.58000000000004] you know someone uh from our parents or
+
+[333.36 - 337.32] grandparents age like oh you know I pay
+
+[335.58 - 340.32] I put a you know family through college
+
+[337.32 - 342.78] on you know a cashier's salary believe
+
+[340.32 - 345.24] me I am aware that economics change over
+
+[342.78 - 346.5] time we will address uh the housing
+
+[345.24 - 349.38] thing in just a minute I'm just kind of
+
+[346.5 - 351.24] setting the stage as to saying okay we
+
+[349.38 - 353.15999999999997] need to figure out a way to get housing
+
+[351.24 - 354.6] into six hundred dollars a month or so
+
+[353.16 - 357.3] for everyone
+
+[354.6 - 358.68] cars are another huge huge expense for
+
+[357.3 - 360.84000000000003] Americans
+
+[358.68 - 363.539] um so these are the two biggest expenses
+
+[360.84 - 365.63899999999995] for most people so you know for instance
+
+[363.539 - 367.139] I have friends that their car payment is
+
+[365.639 - 369.36] six or seven hundred dollars a month
+
+[367.139 - 371.699] that's insane
+
+[369.36 - 374.40000000000003] um you know so you combine that with uh
+
+[371.699 - 376.08000000000004] you know let's let's say I had a 600 car
+
+[374.4 - 377.82] payment on top of a twelve hundred
+
+[376.08 - 379.919] dollar mortgage that's eighteen hundred
+
+[377.82 - 381.539] dollars a month leaving 200 a month for
+
+[379.919 - 383.46] everything else that's not gonna fly
+
+[381.539 - 386.4] that's not gonna work
+
+[383.46 - 388.73999999999995] um now that being said if we can get uh
+
+[386.4 - 390.479] rent or mortgages back down to 600 a
+
+[388.74 - 392.639] month for most people that leaves
+
+[390.479 - 394.199] Fourteen and if we can get rid of cars
+
+[392.639 - 395.58] that leaves about fourteen hundred
+
+[394.199 - 397.44] dollars a month for everything else and
+
+[395.58 - 400.02] also remember in this hypothetical
+
+[397.44 - 402.84] scenario Healthcare is uh highly
+
+[400.02 - 404.039] subsidized or functionally free for most
+
+[402.84 - 407.15999999999997] people
+
+[404.039 - 408.84] okay so housing biggest expense let's
+
+[407.16 - 411.24] talk about housing first because if we
+
+[408.84 - 413.4] can get that under control the whole Ubi
+
+[411.24 - 415.259] thing looks a lot more sustainable and
+
+[413.4 - 418.25899999999996] feasible for most people
+
+[415.259 - 420.0] so the first thing is downsizing uh a
+
+[418.259 - 422.039] lot of people are already downsizing
+
+[420.0 - 424.139] tiny houses are all the rage right now
+
+[422.039 - 425.52] Katrina Cottages
+
+[424.139 - 428.34000000000003] um that kind of kick-started it because
+
+[425.52 - 429.96] after Hurricane Katrina uh of actually
+
+[428.34 - 433.5] what happened was a few celebrities got
+
+[429.96 - 436.38] together and paid for Architects to
+
+[433.5 - 439.02] design Cottages small houses that were
+
+[436.38 - 440.819] very cheap and easy to build so that
+
+[439.02 - 441.74] people that were affected by Katrina
+
+[440.819 - 443.88] could
+
+[441.74 - 447.479] recover more quickly
+
+[443.88 - 449.15999999999997] uh ever that didn't start the tiny house
+
+[447.479 - 450.539] Trend but that certainly put it on the
+
+[449.16 - 452.09900000000005] map and people are like oh Katrina
+
+[450.539 - 453.9] houses they're pretty cute because again
+
+[452.099 - 455.34] they paid for
+
+[453.9 - 456.84] um professional Architects to make
+
+[455.34 - 458.94] something that was
+
+[456.84 - 460.56] um sustainable and appealing not just
+
+[458.94 - 463.44] cheap and efficient
+
+[460.56 - 465.3] so demand for smaller houses is creating
+
+[463.44 - 466.86] new markets there's
+
+[465.3 - 468.96000000000004] um you know last time I looked up at
+
+[466.86 - 471.06] tiny houses a few years ago there were
+
+[468.96 - 473.15999999999997] not a whole lot of options now there are
+
+[471.06 - 474.96] tiny house kits there are prefabs there
+
+[473.16 - 477.36] are all kinds of stuff
+
+[474.96 - 479.81899999999996] some of the some of the cheapest DIY
+
+[477.36 - 481.91900000000004] like livable tiny houses that I could
+
+[479.819 - 484.02000000000004] find were around four thousand dollars
+
+[481.919 - 485.52] which is much much more efficient than
+
+[484.02 - 487.02] you know a two hundred thousand dollar
+
+[485.52 - 489.35999999999996] house or a four hundred thousand dollar
+
+[487.02 - 491.46] house you can also get pre-built for
+
+[489.36 - 494.039] around 12K and that's you know starting
+
+[491.46 - 495.96] price you can spend up to 200k on a
+
+[494.039 - 497.52] prefab tiny house
+
+[495.96 - 500.4] um which is still cheaper than you know
+
+[497.52 - 502.56] a half a million dollar uh Suburban
+
+[500.4 - 504.71999999999997] house uh one thing one of the biggest
+
+[502.56 - 506.52] problems with tiny houses is that um
+
+[504.72 - 510.12] regulations and zoning laws need to be
+
+[506.52 - 512.52] uh updated uh in many municipalities and
+
+[510.12 - 514.68] jurisdictions a tiny house is not
+
+[512.52 - 516.0] allowed to be the primary residence you
+
+[514.68 - 518.279] can have what's called an auxiliary
+
+[516.0 - 519.779] dwelling unit in many places which is
+
+[518.279 - 521.64] basically you can put a tiny house in
+
+[519.779 - 524.58] your backyard but then you need a
+
+[521.64 - 526.8] regular full-sized house so um my wife
+
+[524.58 - 529.32] and I we're about to downsize but even
+
+[526.8 - 531.3599999999999] in the countryside the minimum house
+
+[529.32 - 532.98] size that we're allowed to build is 1200
+
+[531.36 - 534.36] square feet so it's smaller than my
+
+[532.98 - 536.339] current house but it still doesn't
+
+[534.36 - 538.62] qualify as a tiny house we would love to
+
+[536.339 - 540.6600000000001] have built something smaller but uh
+
+[538.62 - 542.279] because of the because the County zoning
+
+[540.66 - 543.36] laws we're not allowed to build anything
+
+[542.279 - 546.3] smaller
+
+[543.36 - 548.399] so in order to accommodate a shift to a
+
+[546.3 - 550.74] Ubi we're going to need different zoning
+
+[548.399 - 553.74] laws or areas that are zoned for tiny
+
+[550.74 - 555.92] houses another option is portable tiny
+
+[553.74 - 558.48] houses such as trailers or van dwelling
+
+[555.92 - 560.3] now lots of people you know there's the
+
+[558.48 - 562.8000000000001] van dwelling subreddit there's plenty of
+
+[560.3 - 565.279] influencers on Tick Tock and YouTube and
+
+[562.8 - 568.14] uh Instagram and everywhere else
+
+[565.279 - 571.8] that either travel or live in a van full
+
+[568.14 - 573.779] time or whatever uh this is this is good
+
+[571.8 - 576.06] for some people it can be very cheap you
+
+[573.779 - 577.9399999999999] can also spend a lot of money uh pimping
+
+[576.06 - 580.38] out a van or a bus or whatever
+
+[577.94 - 582.72] there are challenges associated with
+
+[580.38 - 585.36] this such as safety where do you stay
+
+[582.72 - 587.22] permanent address it also requires a
+
+[585.36 - 588.5600000000001] vehicle which again Vehicles can be
+
+[587.22 - 591.72] really expensive
+
+[588.56 - 594.8389999999999] the last thing is micro Apartments so
+
+[591.72 - 596.76] not everyone wants to own their own home
+
+[594.839 - 598.98] or their own land so micro apartments
+
+[596.76 - 601.56] are something that is an option they're
+
+[598.98 - 603.839] increasingly popular but again there's a
+
+[601.56 - 605.9399999999999] lot of regulations particular early in
+
+[603.839 - 609.839] America that prevent us from even
+
+[605.94 - 611.7600000000001] building tiny uh Apartments usually the
+
+[609.839 - 613.8800000000001] smallest studio apartment you can get is
+
+[611.76 - 616.2] around four to five hundred square feet
+
+[613.88 - 617.16] which you know there's nothing wrong
+
+[616.2 - 619.44] with that
+
+[617.16 - 620.6999999999999] but those are often in Trendy areas and
+
+[619.44 - 624.0600000000001] so even though it's a small apartment
+
+[620.7 - 625.86] they're often very very expensive
+
+[624.06 - 628.38] um so they're not really optimized for
+
+[625.86 - 631.62] being economical that being said as I
+
+[628.38 - 634.68] mentioned as the market demand for these
+
+[631.62 - 637.08] things goes up the pressure for cities
+
+[634.68 - 638.64] to accommodate that and for the the
+
+[637.08 - 641.4590000000001] capitalist class for the for the
+
+[638.64 - 642.18] corporations to accommodate that will go
+
+[641.459 - 644.04] up
+
+[642.18 - 647.04] um and again there's lots of experiments
+
+[644.04 - 648.899] going on but there hasn't been a new
+
+[647.04 - 651.5999999999999] establishment and so one thing that I
+
+[648.899 - 654.6] want to talk about is in the context of
+
+[651.6 - 656.279] History the American suburbs those were
+
+[654.6 - 659.4590000000001] intentionally designed about 80 years
+
+[656.279 - 662.459] ago after World War II
+
+[659.459 - 665.459] um as as the the nation was beginning to
+
+[662.459 - 667.3199999999999] urbanize very quickly uh you know all
+
+[665.459 - 670.6199999999999] the regulations and patterns and
+
+[667.32 - 673.0790000000001] architectural designs and and Municipal
+
+[670.62 - 675.42] layouts that didn't exist the modern
+
+[673.079 - 678.3] suburb the subdivision was a new
+
+[675.42 - 680.64] invention and so the fact we had we
+
+[678.3 - 682.68] invented a new way of living within the
+
+[680.64 - 684.959] last century tells me that we can invent
+
+[682.68 - 687.0] a new way of living again and it
+
+[684.959 - 688.7399999999999] probably won't take that long
+
+[687.0 - 691.2] because where there's a will there's a
+
+[688.74 - 692.94] way and certainly necessity is the
+
+[691.2 - 695.519] mother of all invention and we will need
+
+[692.94 - 697.1400000000001] to figure out alternative ways of living
+
+[695.519 - 699.0] that are not centered on the American
+
+[697.14 - 700.92] suburb
+
+[699.0 - 703.079] um another option other than downsizing
+
+[700.92 - 706.56] is combining households so this is
+
+[703.079 - 708.8389999999999] called co-living or co-housing one there
+
+[706.56 - 711.4799999999999] are successful uh co-housing and
+
+[708.839 - 713.0400000000001] co-living things around the world in
+
+[711.48 - 715.74] America they're usually actually more
+
+[713.04 - 718.56] expensive because of construction costs
+
+[715.74 - 721.1] regulations red tape and so on and so
+
+[718.56 - 723.3599999999999] forth in many cases
+
+[721.1 - 725.0] particularly if you look on on Reddit
+
+[723.36 - 727.6800000000001] under the co-housing and co-living
+
+[725.0 - 729.959] subreddits there are plenty of horror
+
+[727.68 - 731.76] stories of very very dangerous
+
+[729.959 - 735.4799999999999] manipulative people building these
+
+[731.76 - 737.1] communities so I want to urge caution uh
+
+[735.48 - 738.32] before you get involved in any of those
+
+[737.1 - 741.66] kinds of things
+
+[738.32 - 743.82] now that being said there are uh
+
+[741.66 - 745.56] successful examples in America but there
+
+[743.82 - 748.74] are more successful examples around the
+
+[745.56 - 750.18] world particularly in Europe in various
+
+[748.74 - 753.1800000000001] places
+
+[750.18 - 756.3599999999999] uh there's Eco Villages which are
+
+[753.18 - 759.2399999999999] focused on sustainability uh they're
+
+[756.36 - 762.6] basically like uh Co-op Farms
+
+[759.24 - 765.66] essentially uh now that being said there
+
+[762.6 - 767.5790000000001] is uh there's a lot of rising Trends
+
+[765.66 - 769.74] around co-living in conventional houses
+
+[767.579 - 772.38] you don't necessarily need a special
+
+[769.74 - 773.7] Village or a special structure right
+
+[772.38 - 776.82] because that's where the red tape and
+
+[773.7 - 778.44] Regulation and excess cost comes in what
+
+[776.82 - 780.9590000000001] a lot of people do is actually just
+
+[778.44 - 783.9590000000001] combine finances and live in a larger
+
+[780.959 - 786.3599999999999] house and so there is a trend that
+
+[783.959 - 787.92] started a few years ago called mommunes
+
+[786.36 - 791.279] and there's actually services that can
+
+[787.92 - 794.04] help single moms find each other to join
+
+[791.279 - 797.459] forces band together and and combine
+
+[794.04 - 799.8] households uh obviously not everyone is
+
+[797.459 - 802.92] a single mother so that model doesn't
+
+[799.8 - 805.5] work for everyone but you know put it
+
+[802.92 - 808.1999999999999] this way uh some of my friends in my 20s
+
+[805.5 - 811.139] uh they got together and rented a large
+
+[808.2 - 813.3000000000001] house and so having two or three couples
+
+[811.139 - 815.7] living together or even just a few
+
+[813.3 - 818.0999999999999] friends you know three four five friends
+
+[815.7 - 820.26] living together if you combine those
+
+[818.1 - 822.139] incomes and you end up with eight or
+
+[820.26 - 824.459] twelve thousand dollars per month
+
+[822.139 - 826.32] guaranteed income from Universal based
+
+[824.459 - 828.779] income from from combining households
+
+[826.32 - 831.48] you can afford a pretty nice house for
+
+[828.779 - 832.92] that uh and so this is a pretty simple
+
+[831.48 - 834.9590000000001] model
+
+[832.92 - 837.18] um but what I will say is that finding
+
+[834.959 - 838.68] the right people can be challenging
+
+[837.18 - 841.1999999999999] um certainly there have been there are
+
+[838.68 - 842.9399999999999] plenty of cases of people having gotten
+
+[841.2 - 845.279] stuck with toxic roommates or
+
+[842.94 - 847.3800000000001] destructive uh Partners or whatever and
+
+[845.279 - 849.06] getting trapped in those situations so
+
+[847.38 - 851.22] we will need to keep in mind that some
+
+[849.06 - 853.26] people are going to be better and safer
+
+[851.22 - 855.9590000000001] living on their own certainly plenty of
+
+[853.26 - 858.42] people want want to live that way but
+
+[855.959 - 860.76] that being said the social advantages
+
+[858.42 - 862.38] that come from joining forces and
+
+[860.76 - 865.079] banding together
+
+[862.38 - 866.88] um of course we just got we're on the
+
+[865.079 - 868.079] tail end of the pandemic in which case a
+
+[866.88 - 870.0] lot of people actually were kind of
+
+[868.079 - 871.68] forced into that situation you know we
+
+[870.0 - 873.6] created our little survival groups right
+
+[871.68 - 876.12] it was like The Walking Dead
+
+[873.6 - 879.3000000000001] um you know you band together uh so
+
+[876.12 - 881.579] anyways uh whether you downsize or join
+
+[879.3 - 884.279] forces or a little bit of both those are
+
+[881.579 - 886.68] ways that you can drastically reduce uh
+
+[884.279 - 889.32] housing costs uh here in America
+
+[886.68 - 891.18] again the biggest thing is that uh
+
+[889.32 - 893.1] particularly on the downsizing we need
+
+[891.18 - 895.3199999999999] to update our zoning laws and
+
+[893.1 - 897.1800000000001] regulations to accommodate this but I
+
+[895.32 - 900.5400000000001] have no doubt that the the pressure from
+
+[897.18 - 903.5999999999999] people to do this will uh will kind of
+
+[900.54 - 905.0999999999999] force um the government's hand
+
+[903.6 - 906.779] um all right so Transportation I
+
+[905.1 - 909.0] mentioned you know cars are really
+
+[906.779 - 910.92] expensive and America is a car culture
+
+[909.0 - 912.899] so how do we how do we reduce
+
+[910.92 - 915.7199999999999] Transportation costs
+
+[912.899 - 918.0] the first thing is walkable cities so
+
+[915.72 - 919.5600000000001] most cities I don't know I don't know
+
+[918.0 - 922.38] about most but many cities in Europe
+
+[919.56 - 925.199] were designed and built and founded long
+
+[922.38 - 927.42] before cars uh and so because of that
+
+[925.199 - 929.8199999999999] walkability is kind of intrinsic to a
+
+[927.42 - 931.079] lot of European cities however whoops
+
+[929.82 - 933.5400000000001] come back
+
+[931.079 - 936.959] um a lot of American cities uh were
+
+[933.54 - 938.579] designed and built with cars in mind and
+
+[936.959 - 940.8599999999999] so because of that a lot of American
+
+[938.579 - 943.38] cities are designed around the car they
+
+[940.86 - 945.9590000000001] actually prioritize uh and privilege
+
+[943.38 - 948.48] cards over pedestrians which is super
+
+[945.959 - 951.1199999999999] super problematic now that being said
+
+[948.48 - 953.399] there are literally dozens of major
+
+[951.12 - 956.399] projects going on around the world to
+
+[953.399 - 958.5] experiment with new walkable cities uh
+
+[956.399 - 960.72] and then of course there are um you know
+
+[958.5 - 963.36] hundreds if not thousands of smaller
+
+[960.72 - 964.9200000000001] experiments uh you know of like Urban
+
+[963.36 - 968.279] revitalization
+
+[964.92 - 970.62] uh the cities near where I live all up
+
+[968.279 - 972.36] and down the east coast in the South
+
+[970.62 - 974.76] um they're they're building walkable
+
+[972.36 - 977.639] areas maybe not the entire city is
+
+[974.76 - 980.04] walkable but some of it is walkable and
+
+[977.639 - 981.6] so this focus on green spaces and
+
+[980.04 - 983.519] walkability
+
+[981.6 - 985.26] um is rising there's a couple of YouTube
+
+[983.519 - 986.699] channels I want to recommend
+
+[985.26 - 988.86] um one is City beautiful and the other
+
+[986.699 - 990.3599999999999] is not just bikes these are really great
+
+[988.86 - 992.279] channels they're really informative and
+
+[990.36 - 993.9590000000001] they will point out all of the things
+
+[992.279 - 995.22] wrong with American cities
+
+[993.959 - 997.56] um the things that some American cities
+
+[995.22 - 999.839] get right that'll compare American
+
+[997.56 - 1002.42] cities with European and Asian cities as
+
+[999.839 - 1005.0600000000001] well but for instance I've been to Paris
+
+[1002.42 - 1008.06] and I was surprised at at such a
+
+[1005.06 - 1009.8599999999999] sprawling City I was at the on the at
+
+[1008.06 - 1012.079] the Cathedral on the hill soccer tour
+
+[1009.86 - 1014.66] which means Sacred Heart and I know they
+
+[1012.079 - 1016.9399999999999] didn't say it with the right accent
+
+[1014.66 - 1018.92] um but it's literally parasite to the
+
+[1016.94 - 1020.9590000000001] Horizon you cannot see outside of the
+
+[1018.92 - 1022.579] city from the middle of the city
+
+[1020.959 - 1024.6789999999999] um but you don't need a car in Paris
+
+[1022.579 - 1026.36] it's wild and like as an American that
+
+[1024.679 - 1029.3600000000001] was the first time I had been one in a
+
+[1026.36 - 1030.799] city that big but two in a in a fully
+
+[1029.36 - 1032.12] walkable city
+
+[1030.799 - 1033.62] um some of the Metros were fully
+
+[1032.12 - 1034.8799999999999] automated which was really cool because
+
+[1033.62 - 1037.2199999999998] you could go all the way up to the front
+
+[1034.88 - 1039.679] and look out the front windows
+
+[1037.22 - 1041.72] um there's buses there's Light Rail and
+
+[1039.679 - 1043.5790000000002] then of course uh you know they have the
+
+[1041.72 - 1045.319] tgv which is the high speed rail to get
+
+[1043.579 - 1047.959] outside of the city
+
+[1045.319 - 1049.7] um anyways point being is that there are
+
+[1047.959 - 1051.5] lots of these experiments going on and
+
+[1049.7 - 1054.799] so for people that want to stay living
+
+[1051.5 - 1056.419] inside of a city if you combine those
+
+[1054.799 - 1059.0] micro apartments or those co-living
+
+[1056.419 - 1061.4] situations with walkability that will
+
+[1059.0 - 1064.039] drastically drastically reduce cost of
+
+[1061.4 - 1065.48] living from for many people it will take
+
+[1064.039 - 1067.76] some time to build this up especially
+
+[1065.48 - 1071.24] since we've got so much invested in
+
+[1067.76 - 1073.46] being a car culture but ride sharing
+
+[1071.24 - 1075.02] um and and fully automated cars are
+
+[1073.46 - 1077.059] coming and actually forgot to create a
+
+[1075.02 - 1078.98] slide for this but one of the things
+
+[1077.059 - 1080.66] that a lot of the big auto manufacturers
+
+[1078.98 - 1082.039] want to do is actually have fleets of
+
+[1080.66 - 1085.28] Robo taxis
+
+[1082.039 - 1087.679] and so rather than owning a car you'll
+
+[1085.28 - 1090.1399999999999] just use an app to summon you know you
+
+[1087.679 - 1094.16] know a Ford or a Chevy or a Toyota or
+
+[1090.14 - 1095.72] whatever and as uh competition drives
+
+[1094.16 - 1097.94] down price
+
+[1095.72 - 1101.72] um I think I did a calculation once that
+
+[1097.94 - 1104.1200000000001] the the total the total annual cost for
+
+[1101.72 - 1106.16] me if I were to if I were able to switch
+
+[1104.12 - 1109.28] to a robo taxi based on the hypothetical
+
+[1106.16 - 1112.52] Rider mile cost would probably be about
+
+[1109.28 - 1116.24] 600 a year and I'm someone who drives 20
+
+[1112.52 - 1118.82] 000 miles per year so the possibility of
+
+[1116.24 - 1120.6200000000001] doing rideshares and Robo taxis could
+
+[1118.82 - 1123.4399999999998] drastically drastically reduce the cost
+
+[1120.62 - 1125.4799999999998] of ownership for um automobiles or
+
+[1123.44 - 1127.52] rather you get rid of the ownership cost
+
+[1125.48 - 1131.059] and you just rent
+
+[1127.52 - 1132.44] uh in real time another thing is if you
+
+[1131.059 - 1133.6399999999999] don't want to live in the city because I
+
+[1132.44 - 1135.3200000000002] sure as heck don't want to live in the
+
+[1133.64 - 1138.5] city I am not a city boy I'm a country
+
+[1135.32 - 1140.0] boy is what I call coaster Villages and
+
+[1138.5 - 1141.679] these are starting to pop up they're
+
+[1140.0 - 1143.96] often just called like tiny house
+
+[1141.679 - 1146.7800000000002] communities or RV communities or
+
+[1143.96 - 1149.48] whatever but again this is one of the
+
+[1146.78 - 1151.46] things where uh where zoning laws need
+
+[1149.48 - 1153.38] to be updated but fortunately these
+
+[1151.46 - 1156.26] experiments are going but basically
+
+[1153.38 - 1157.64] think of the Shire think of hobbiton but
+
+[1156.26 - 1161.419] instead of you know underground houses
+
+[1157.64 - 1165.0200000000002] it's tiny houses and Katrina Cottages uh
+
+[1161.419 - 1168.14] and and tag along kind of um kind of
+
+[1165.02 - 1170.24] trailers basically what I anticipate is
+
+[1168.14 - 1173.0590000000002] going to happen is that in cheap rural
+
+[1170.24 - 1176.2] land a lot of that land is going to end
+
+[1173.059 - 1179.6] up being used for very very small
+
+[1176.2 - 1181.28] planned nearly self-sufficient not
+
+[1179.6 - 1183.799] necessarily fully self-sufficient I'm
+
+[1181.28 - 1185.78] not saying an Eco Village but rather
+
+[1183.799 - 1188.299] than having uh these things planned
+
+[1185.78 - 1191.24] around cars and subdivisions it'll be
+
+[1188.299 - 1192.9189999999999] planned around sustainability and so
+
+[1191.24 - 1194.36] that what I mean by coaster is someone
+
+[1192.919 - 1196.16] who decides you know what I'm just going
+
+[1194.36 - 1197.9599999999998] to Coast on Ubi I'm going to be happy
+
+[1196.16 - 1199.4] with that but I also want to live in the
+
+[1197.96 - 1202.4] countryside
+
+[1199.4 - 1203.66] uh you will need things like HOAs uh
+
+[1202.4 - 1207.0800000000002] because you know
+
+[1203.66 - 1208.7] uh good regulations and good agreements
+
+[1207.08 - 1210.86] make good neighbors
+
+[1208.7 - 1213.32] um and so you will need stuff like HOAs
+
+[1210.86 - 1214.8799999999999] still in some of these places but the
+
+[1213.32 - 1217.1599999999999] total cost of living there is going to
+
+[1214.88 - 1219.74] be much much lower because imagine if
+
+[1217.16 - 1222.44] your plot of land and your tiny house is
+
+[1219.74 - 1224.419] about forty thousand dollars total right
+
+[1222.44 - 1225.98] the mortgage payment on that is going to
+
+[1224.419 - 1229.1000000000001] be like 80 bucks a month or something
+
+[1225.98 - 1231.6200000000001] like that uh maybe well let's say 200
+
+[1229.1 - 1234.5] bucks a month you can afford that
+
+[1231.62 - 1237.2199999999998] um that's going to be a tenth of your uh
+
+[1234.5 - 1239.72] monthly two thousand dollars uh income
+
+[1237.22 - 1241.64] uh so between these two possibilities
+
+[1239.72 - 1244.82] walkable cities for those who want the
+
+[1241.64 - 1246.98] urban living and and Tiny House Villages
+
+[1244.82 - 1249.799] out in the countryside we can probably
+
+[1246.98 - 1251.9] accommodate a lot of people very
+
+[1249.799 - 1255.44] efficiently and very cheaply
+
+[1251.9 - 1256.76] Okay cool so I think uh oh and also
+
+[1255.44 - 1258.44] another advantage of these coaster
+
+[1256.76 - 1259.16] Villages is you don't necessarily need a
+
+[1258.44 - 1261.14] car
+
+[1259.16 - 1263.8400000000001] uh you know if you live like Bilbo
+
+[1261.14 - 1265.3400000000001] Baggins and and Frodo you just walk to
+
+[1263.84 - 1266.4189999999999] your neighbors it's a tiny little
+
+[1265.34 - 1268.1599999999999] village
+
+[1266.419 - 1271.5200000000002] all right now one thing that a lot of
+
+[1268.16 - 1272.78] people ask is okay yeah but what you
+
+[1271.52 - 1274.52] know what if I still want more money
+
+[1272.78 - 1276.02] what if I'm willing to work what if I'm
+
+[1274.52 - 1278.0] able to work
+
+[1276.02 - 1280.22] um what is what are the options going to
+
+[1278.0 - 1281.9] be so that I can still you know make
+
+[1280.22 - 1284.419] some money and get by
+
+[1281.9 - 1287.1200000000001] so after doing a lot of research one
+
+[1284.419 - 1289.4] thing that I found is that local goods
+
+[1287.12 - 1290.539] and services there's going to be a lot
+
+[1289.4 - 1293.8400000000001] of these that are going to stick around
+
+[1290.539 - 1295.64] and this is because even if a robot can
+
+[1293.84 - 1298.6999999999998] do it these are these are things that
+
+[1295.64 - 1300.0800000000002] you still prefer a human to do and that
+
+[1298.7 - 1302.24] most humans will be willing to pay
+
+[1300.08 - 1304.1] another human to do so the first
+
+[1302.24 - 1306.08] category is the health and wellness
+
+[1304.1 - 1308.539] stuff so this includes Fitness coaches
+
+[1306.08 - 1311.059] personal trainers massage therapists
+
+[1308.539 - 1312.919] that sort of stuff these are the these
+
+[1311.059 - 1315.799] are the kind of things that require a
+
+[1312.919 - 1317.7800000000002] human touch or human empathy or at least
+
+[1315.799 - 1320.72] those are highly preferable
+
+[1317.78 - 1322.3999999999999] so this will be things like Barbers and
+
+[1320.72 - 1323.679] dentists and massage therapists that
+
+[1322.4 - 1325.8200000000002] sort of thing
+
+[1323.679 - 1328.5800000000002] education tutoring mentoring and
+
+[1325.82 - 1332.12] coaching these are also things that uh
+
+[1328.58 - 1335.059] that could be pretty durable against uh
+
+[1332.12 - 1336.5] being automated away certainly uh some
+
+[1335.059 - 1340.3999999999999] online learning is going to be fully
+
+[1336.5 - 1342.32] replaced by things like chat gbt
+
+[1340.4 - 1344.299] excuse me many students are already
+
+[1342.32 - 1346.34] using chat GPT for Learning and
+
+[1344.299 - 1347.48] mentoring and tutoring and certainly I
+
+[1346.34 - 1349.28] mean even I use that if there's
+
+[1347.48 - 1351.74] something that I want to learn about it
+
+[1349.28 - 1354.44] is one of the best teaching resources
+
+[1351.74 - 1356.48] out there because it's interactive now
+
+[1354.44 - 1359.3600000000001] that being said there are still going to
+
+[1356.48 - 1361.28] be plenty of classes and skills that are
+
+[1359.36 - 1363.9189999999999] going to be better taught by a human
+
+[1361.28 - 1366.44] because a human has the same abilities
+
+[1363.919 - 1368.179] and capacities that you do so say for
+
+[1366.44 - 1371.539] instance you go to a painting class or a
+
+[1368.179 - 1373.3400000000001] cooking class or a carpentry class those
+
+[1371.539 - 1375.919] are the kinds of things that that you
+
+[1373.34 - 1378.02] will you will prefer to pay for a human
+
+[1375.919 - 1379.8400000000001] just for the experience of being with
+
+[1378.02 - 1383.4189999999999] other people right
+
+[1379.84 - 1385.34] another thing is going to be experiences
+
+[1383.419 - 1389.48] such as performances and entertainment
+
+[1385.34 - 1391.3999999999999] local music stage performances busking
+
+[1389.48 - 1393.559] um you know those sorts of things are
+
+[1391.4 - 1396.3200000000002] going to be pretty resilient because
+
+[1393.559 - 1397.8999999999999] again we are a social species and so we
+
+[1396.32 - 1400.3999999999999] want that connection with other people
+
+[1397.9 - 1402.3200000000002] uh Ren fairs or think are going to be
+
+[1400.4 - 1403.7] really popular
+
+[1402.32 - 1405.3799999999999] um and so you know you can go set up
+
+[1403.7 - 1407.72] your booth and do face painting at a ren
+
+[1405.38 - 1409.94] fair or or whatever kind of festival or
+
+[1407.72 - 1412.159] convention you want to go to
+
+[1409.94 - 1414.98] um caregiving grooming and hygiene these
+
+[1412.159 - 1419.0590000000002] are other things so whether it is child
+
+[1414.98 - 1420.38] care or elder care or Pet Care those
+
+[1419.059 - 1422.24] kinds of jobs are going to be very
+
+[1420.38 - 1425.2990000000002] resilient against being fully automated
+
+[1422.24 - 1426.6200000000001] away because again even if you do have a
+
+[1425.299 - 1429.1399999999999] robot that can take care of grandma
+
+[1426.62 - 1432.1399999999999] grandma probably would want to see you
+
+[1429.14 - 1434.2] rather than a robot unless you don't get
+
+[1432.14 - 1437.659] along maybe maybe it's better that way
+
+[1434.2 - 1440.0] but also like your dog right like my dog
+
+[1437.659 - 1442.0390000000002] hates machines right so he would freak
+
+[1440.0 - 1445.4] out if if a robot showed up to take him
+
+[1442.039 - 1448.1] for a walk so um you know granted I'll I
+
+[1445.4 - 1449.72] I work at home all day every day so I
+
+[1448.1 - 1450.86] don't need pet walkers but some people
+
+[1449.72 - 1453.44] would
+
+[1450.86 - 1456.34] other domestic services like gardening
+
+[1453.44 - 1458.96] Lawn Care cooking cleaning
+
+[1456.34 - 1461.299] growing and sharing food these are
+
+[1458.96 - 1464.659] things that will probably persist as
+
+[1461.299 - 1466.94] well because again local economies
+
+[1464.659 - 1469.7600000000002] circular economies these are rising in
+
+[1466.94 - 1472.4] popularity and then finally Artisan uh
+
+[1469.76 - 1474.32] and and Craftsman handmade Goods arts
+
+[1472.4 - 1476.1200000000001] and crafts these are the kinds of things
+
+[1474.32 - 1477.98] that people will really value and
+
+[1476.12 - 1478.84] cherish and it's also something that a
+
+[1477.98 - 1482.74] machine
+
+[1478.84 - 1485.24] intrinsically cannot do in the age where
+
+[1482.74 - 1487.52] machines can make all kinds of furniture
+
+[1485.24 - 1489.6200000000001] and mass produce it we still already
+
+[1487.52 - 1491.84] have Etsy where you can buy handmade
+
+[1489.62 - 1494.6589999999999] clothing and handmade furniture and
+
+[1491.84 - 1496.6399999999999] handmade tools and so the demand is
+
+[1494.659 - 1499.5200000000002] already there and one thing that that
+
+[1496.64 - 1501.6200000000001] can happen of of SP and yes they're more
+
+[1499.52 - 1503.78] expensive but these are much higher
+
+[1501.62 - 1504.9189999999999] quality goods and they're also much more
+
+[1503.78 - 1508.52] durable
+
+[1504.919 - 1510.38] uh so again even if those even if
+
+[1508.52 - 1512.36] mass-produced Goods become cheaper due
+
+[1510.38 - 1515.0590000000002] to AI there's still going to be a demand
+
+[1512.36 - 1518.6589999999999] for those high quality handmade uh
+
+[1515.059 - 1521.299] unique goods and arts and crafts
+
+[1518.659 - 1523.5200000000002] now okay so that's local uh goods and
+
+[1521.299 - 1525.9189999999999] services there's also still going to be
+
+[1523.52 - 1529.22] um online and remote so content creators
+
+[1525.919 - 1531.44] like me probably gonna stick around
+
+[1529.22 - 1533.72] um influencers streamers whether it's a
+
+[1531.44 - 1536.0] lifestyle blog or travel blog or
+
+[1533.72 - 1538.22] whatever I follow I started following
+
+[1536.0 - 1540.2] lots of Lifestyle bloggers
+
+[1538.22 - 1542.26] um usually they're attractive uh women
+
+[1540.2 - 1545.24] because you know that's just the pattern
+
+[1542.26 - 1547.52] but I also follow plenty of uh plenty of
+
+[1545.24 - 1550.22] guys who like build stuff or go on
+
+[1547.52 - 1551.4189999999999] adventures that kind of thing and the
+
+[1550.22 - 1553.46] reason that I think that these are going
+
+[1551.419 - 1556.76] to stick around is because even if you
+
+[1553.46 - 1559.46] have a fully digital Avatar your brain
+
+[1556.76 - 1562.4] knows that it's fake right some people
+
+[1559.46 - 1565.159] of course will be plenty entertained by
+
+[1562.4 - 1568.22] uh you know a digital Avatar but really
+
+[1565.159 - 1570.5590000000002] as a human I want to see another human's
+
+[1568.22 - 1573.14] experience I want to learn from that
+
+[1570.559 - 1574.1] human I want to empathize with that
+
+[1573.14 - 1577.159] person
+
+[1574.1 - 1578.7199999999998] and so content influence streamers you
+
+[1577.159 - 1580.88] know it's the personality it's the
+
+[1578.72 - 1582.2] realness the authenticity
+
+[1580.88 - 1584.3600000000001] um even if even if there is some
+
+[1582.2 - 1587.299] performance associated with it that's
+
+[1584.36 - 1589.1] what people really want to connect with
+
+[1587.299 - 1591.26] um crowdfunding platforms like patreon
+
+[1589.1 - 1593.1789999999999] only fans plenty of other alternatives
+
+[1591.26 - 1596.24] are out there those are going to stick
+
+[1593.179 - 1597.74] around uh and and so basically the two
+
+[1596.24 - 1600.14] ways that you can make money online in
+
+[1597.74 - 1602.48] the future I think are going to be ads
+
+[1600.14 - 1604.8200000000002] and crowdfunding there's also white
+
+[1602.48 - 1606.679] label services like subscription-based
+
+[1604.82 - 1608.36] services but that's essentially
+
+[1606.679 - 1610.48] crowdfunding right let's like you you
+
+[1608.36 - 1613.8799999999999] pay to get in and then you get access to
+
+[1610.48 - 1615.98] exclusive content game hosts coach
+
+[1613.88 - 1618.3200000000002] coaches and and trainers of various
+
+[1615.98 - 1621.02] kinds so one of my patreon supporters is
+
+[1618.32 - 1623.72] actually a a professional online coach
+
+[1621.02 - 1626.4189999999999] and she teaches other coaches and this
+
+[1623.72 - 1628.22] is actually a really really huge uh
+
+[1626.419 - 1629.1200000000001] Market segment I had no idea how big it
+
+[1628.22 - 1631.88] was
+
+[1629.12 - 1633.559] um but again having that one-on-one time
+
+[1631.88 - 1634.64] with someone where you can say hey this
+
+[1633.559 - 1636.1399999999999] is what I'm struggling dealing with
+
+[1634.64 - 1638.779] because we're humans we're always going
+
+[1636.14 - 1640.4] to be struggling with something right
+
+[1638.779 - 1642.32] um but then like Game host there's paid
+
+[1640.4 - 1644.9] dungeon Masters that can host uh they
+
+[1642.32 - 1647.12] can run d d campaigns for you all kinds
+
+[1644.9 - 1649.46] of stuff is possible online that are
+
+[1647.12 - 1651.26] intrinsically better done if it's a
+
+[1649.46 - 1653.179] human that being said there are plenty
+
+[1651.26 - 1656.0] of people working on using GPT
+
+[1653.179 - 1657.8600000000001] Technologies to automate uh uh you know
+
+[1656.0 - 1659.659] game hosts and that sort of stuff so
+
+[1657.86 - 1660.5] some of this is going to be is going to
+
+[1659.659 - 1662.779] change
+
+[1660.5 - 1666.799] but a lot of these things again people
+
+[1662.779 - 1668.48] are willing are are the demand for the
+
+[1666.799 - 1670.34] human is high enough that people are
+
+[1668.48 - 1673.46] going to be willing to pay for it
+
+[1670.34 - 1676.52] uh now on top of making more money on
+
+[1673.46 - 1678.32] with the Ubi uh there is also a lot that
+
+[1676.52 - 1680.72] you can do to reduce to further reduce
+
+[1678.32 - 1682.22] costs obviously the biggest things are
+
+[1680.72 - 1683.539] housing and transportation we already
+
+[1682.22 - 1685.64] talked about how to reduce the cost
+
+[1683.539 - 1687.98] there there's a lot of other stuff that
+
+[1685.64 - 1689.96] we can do to keep reducing costs in
+
+[1687.98 - 1692.059] order to make better use of the free
+
+[1689.96 - 1693.98] time that we have so for instance tool
+
+[1692.059 - 1695.4189999999999] sharing tool libraries
+
+[1693.98 - 1698.3600000000001] um there's actually I didn't realize
+
+[1695.419 - 1700.94] this but many County Libraries or or um
+
+[1698.36 - 1703.34] you know City libraries already have
+
+[1700.94 - 1705.0800000000002] tools that you can check out uh and then
+
+[1703.34 - 1707.72] of course if the demand for that goes up
+
+[1705.08 - 1710.6] then libraries you know will continue to
+
+[1707.72 - 1712.34] do that there's also maker spaces that
+
+[1710.6 - 1713.9599999999998] you can join usually with a small fee
+
+[1712.34 - 1717.08] that give you a space to build stuff and
+
+[1713.96 - 1719.08] borrow tools circular economics which is
+
+[1717.08 - 1720.799] you know reusing as much as you can
+
+[1719.08 - 1722.299] refurbishing stuff we're going to talk
+
+[1720.799 - 1723.74] about refurbishing more in a future
+
+[1722.299 - 1726.3799999999999] slide
+
+[1723.74 - 1728.96] uh clothing exchanges clothing swaps
+
+[1726.38 - 1731.779] other good swaps like one thing that I
+
+[1728.96 - 1733.76] do is that uh every now and then
+
+[1731.779 - 1735.5] um I just I have a folding card table
+
+[1733.76 - 1738.62] and I'll put it out by the road and I
+
+[1735.5 - 1740.779] just will give stuff away right and so
+
+[1738.62 - 1743.539] um by just giving stuff away and sharing
+
+[1740.779 - 1745.52] right you don't even have to worry about
+
+[1743.539 - 1748.4] um you know bartering or exchanging or
+
+[1745.52 - 1751.4] buying stuff just giving stuff away and
+
+[1748.4 - 1753.919] and making use of those um essentially
+
+[1751.4 - 1757.1000000000001] community-based donations sharing
+
+[1753.919 - 1759.2] Services as well so say for instance
+
+[1757.1 - 1760.8799999999999] um you know you might provide child care
+
+[1759.2 - 1762.919] for people in your community not
+
+[1760.88 - 1765.7990000000002] necessarily for pay but in exchange they
+
+[1762.919 - 1768.0200000000002] give you food or something right so that
+
+[1765.799 - 1771.679] goes back to bartering and trading uh
+
+[1768.02 - 1773.899] DIY skills uh repairing things fixing
+
+[1771.679 - 1775.8200000000002] things uh cleaning up whatever there's
+
+[1773.899 - 1779.0] lots and lots of value that you can get
+
+[1775.82 - 1780.62] by learning more skills and thus further
+
+[1779.0 - 1782.6] reducing costs
+
+[1780.62 - 1783.62] uh caregiving domestic stuff I already
+
+[1782.6 - 1785.899] mentioned that
+
+[1783.62 - 1787.2199999999998] okay so let's talk about the psychology
+
+[1785.899 - 1789.02] of this one thing that people are
+
+[1787.22 - 1791.6000000000001] concerned about is yeah but what do you
+
+[1789.02 - 1793.6399999999999] do for fun what do you do for a sense of
+
+[1791.6 - 1796.34] Mastery what do you do for challenge if
+
+[1793.64 - 1798.44] I lose my job you know how do I have any
+
+[1796.34 - 1801.5] sense of self-esteem so let's talk about
+
+[1798.44 - 1804.38] the psychology of living under Ubi
+
+[1801.5 - 1806.36] first we're going to talk about what
+
+[1804.38 - 1808.5800000000002] we're going to use Frameworks for this
+
+[1806.36 - 1810.74] so first one of the most famous ones is
+
+[1808.58 - 1812.48] Maslow's hierarchy of needs so if you're
+
+[1810.74 - 1814.58] not familiar with Maslow's hierarchy of
+
+[1812.48 - 1817.1] needs it is basically just this pyramid
+
+[1814.58 - 1820.52] which is color coded like the food
+
+[1817.1 - 1822.799] pyramid if you're in America but it says
+
+[1820.52 - 1825.1399999999999] you need to satisfy these needs starting
+
+[1822.799 - 1827.12] from bottom to top so physiological
+
+[1825.14 - 1829.5800000000002] needs include air water food shelter
+
+[1827.12 - 1831.5] sleep that sort of stuff safety needs
+
+[1829.58 - 1834.799] which is about you know are you in
+
+[1831.5 - 1838.159] physical danger do you feel safe at home
+
+[1834.799 - 1840.08] is is your environment quiet enough are
+
+[1838.159 - 1842.24] there any you know dangerous smells or
+
+[1840.08 - 1844.52] chemicals or whatever
+
+[1842.24 - 1847.52] above that once you have those needs met
+
+[1844.52 - 1849.44] the next most fundamental need is love
+
+[1847.52 - 1852.02] and belonging so you need friends you
+
+[1849.44 - 1854.299] need family you need to feel that human
+
+[1852.02 - 1855.74] connection and of course we're in a
+
+[1854.299 - 1857.899] loneliness crisis I think something like
+
+[1855.74 - 1860.419] 30 percent of young people today don't
+
+[1857.899 - 1862.34] have a single like best friend which is
+
+[1860.419 - 1864.8600000000001] really horrible and I'm hoping that Ubi
+
+[1862.34 - 1867.98] gives us more free time to connect with
+
+[1864.86 - 1870.1589999999999] people uh above love and belonging you
+
+[1867.98 - 1873.2] need esteem self-esteem which is
+
+[1870.159 - 1874.64] self-respect status recognition that
+
+[1873.2 - 1876.919] sort of stuff
+
+[1874.64 - 1878.1200000000001] and then finally self-actualization so
+
+[1876.919 - 1880.279] this is what a lot of people are
+
+[1878.12 - 1882.6789999999999] referring to when they when they worry
+
+[1880.279 - 1884.12] about okay well if I lose my job what am
+
+[1882.679 - 1885.5] I going to do I need some kind of
+
+[1884.12 - 1888.5] self-actualization and so
+
+[1885.5 - 1891.02] self-actualization is the impulse to
+
+[1888.5 - 1893.0] become the best version of yourself that
+
+[1891.02 - 1896.12] is the that is the version to reach your
+
+[1893.0 - 1897.559] highest level right uh and so these are
+
+[1896.12 - 1899.779] things that are still going to need to
+
+[1897.559 - 1902.24] be there and we'll talk about this
+
+[1899.779 - 1904.1] um in future slides
+
+[1902.24 - 1906.08] um in terms of how can how can you
+
+[1904.1 - 1907.299] achieve your best the best version of
+
+[1906.08 - 1910.279] yourself
+
+[1907.299 - 1912.799] another framework that I'm a big fan of
+
+[1910.279 - 1915.14] is what's called TLC or therapeutic
+
+[1912.799 - 1917.4189999999999] Lifestyle Changes this was a model that
+
+[1915.14 - 1919.5200000000002] was developed by Roger Walsh and it is
+
+[1917.419 - 1921.44] an eight-point framework that talks
+
+[1919.52 - 1922.76] about how do you make a better life for
+
+[1921.44 - 1925.1000000000001] yourself
+
+[1922.76 - 1926.84] so the framework is pretty simple pretty
+
+[1925.1 - 1928.8799999999999] straightforward one and this is in no
+
+[1926.84 - 1931.34] particular order by the way one
+
+[1928.88 - 1932.779] spirituality so being involved in some
+
+[1931.34 - 1935.059] kind of spirituality doesn't have to be
+
+[1932.779 - 1937.88] a mega church or anything like that
+
+[1935.059 - 1941.6589999999999] um you know paganism witchcraft uh Neo
+
+[1937.88 - 1943.5800000000002] Hellenism uh uh all kinds of stuff Norse
+
+[1941.659 - 1945.2] reconstructionists lots and lots of
+
+[1943.58 - 1948.5] spiritual Frameworks are kind of
+
+[1945.2 - 1951.38] becoming popular as uh certainly a lot
+
+[1948.5 - 1953.659] of us younger people are more Pagan
+
+[1951.38 - 1955.5800000000002] um giving back so volunteering and
+
+[1953.659 - 1957.5590000000002] community service is one of the things
+
+[1955.58 - 1959.72] that um you know again we kind of
+
+[1957.559 - 1962.559] alluded to this already in terms of cost
+
+[1959.72 - 1965.419] reduction but giving back volunteering
+
+[1962.559 - 1968.12] giving your time is actually a really
+
+[1965.419 - 1969.98] good way to build up self-esteem it's
+
+[1968.12 - 1971.779] deeply satisfying
+
+[1969.98 - 1974.659] um like I said one thing that I love is
+
+[1971.779 - 1977.36] just giving stuff away and if I had more
+
+[1974.659 - 1979.8200000000002] free time and and uh and energy I would
+
+[1977.36 - 1982.82] probably volunteer more because I have
+
+[1979.82 - 1985.1] certain skills and you know honestly uh
+
+[1982.82 - 1986.72] a lot of the code that I give away
+
+[1985.1 - 1989.48] because I publish all of my code under
+
+[1986.72 - 1990.98] under or open source standards to me
+
+[1989.48 - 1992.6] that is kind of like giving back and
+
+[1990.98 - 1994.519] it's very satisfying I love seeing the
+
+[1992.6 - 1997.4599999999998] little stars and forks on my GitHub
+
+[1994.519 - 1999.38] repos time in nature
+
+[1997.46 - 2001.8990000000001] um hiking walking going to the lake
+
+[1999.38 - 2003.88] whatever this is really important for
+
+[2001.899 - 2006.279] your physical and mental health I go for
+
+[2003.88 - 2008.3200000000002] a walk pretty much every day at lunch
+
+[2006.279 - 2010.659] unless the weather is bad or unless I'm
+
+[2008.32 - 2012.22] sick or too tired recreational
+
+[2010.659 - 2014.14] activities we're going to talk a lot
+
+[2012.22 - 2016.96] about recreational activities and
+
+[2014.14 - 2018.279] upcoming slides rest in relaxation if
+
+[2016.96 - 2019.659] you don't have to go to work you can
+
+[2018.279 - 2022.24] spend a lot more time resting and
+
+[2019.659 - 2024.94] relaxing diet and nutrition we've talked
+
+[2022.24 - 2027.64] a lot about uh how or we will talk more
+
+[2024.94 - 2029.6200000000001] about how all the free time that you get
+
+[2027.64 - 2031.3600000000001] from Ubi will allow you to do things
+
+[2029.62 - 2032.7399999999998] like gardening but also allow you to
+
+[2031.36 - 2034.6] learn to cook and spend more time
+
+[2032.74 - 2036.88] cooking because a lot of people don't
+
+[2034.6 - 2040.1789999999999] have time to cook good meals because
+
+[2036.88 - 2042.3990000000001] they're too busy working and resting and
+
+[2040.179 - 2044.38] so Ubi with additional free time will
+
+[2042.399 - 2047.32] help people really improve their diet
+
+[2044.38 - 2049.78] and nutrition seven exercise and
+
+[2047.32 - 2051.52] activity so this is like exercising for
+
+[2049.78 - 2053.619] the sake of exercise
+
+[2051.52 - 2055.659] um which for me I get that with time and
+
+[2053.619 - 2057.94] nature because I go for walks um and I
+
+[2055.659 - 2059.7400000000002] also uh like to do other things although
+
+[2057.94 - 2062.44] I haven't done it as much lately hiking
+
+[2059.74 - 2063.879] climbing that sort of stuff kayaking uh
+
+[2062.44 - 2065.2000000000003] relationships in connection we already
+
+[2063.879 - 2066.2799999999997] talked about relationships and
+
+[2065.2 - 2068.379] connection
+
+[2066.28 - 2070.0600000000004] um in Maslow's hierarchy of needs and
+
+[2068.379 - 2071.379] also you'll see that relationships and
+
+[2070.06 - 2074.32] connections spending time with friends
+
+[2071.379 - 2076.859] and family is is common for all
+
+[2074.32 - 2079.4190000000003] psychological well-being Frameworks
+
+[2076.859 - 2081.0989999999997] self-determination Theory this is one of
+
+[2079.419 - 2083.5] my favorite Frameworks because it is so
+
+[2081.099 - 2085.48] simple and it kind of encapsulates a lot
+
+[2083.5 - 2088.179] but it's also not a hierarchy it's you
+
+[2085.48 - 2090.06] need all three of these at all times
+
+[2088.179 - 2092.139] um and so the idea is that
+
+[2090.06 - 2093.7] self-determination theory is this is
+
+[2092.139 - 2096.099] what is this is what people are
+
+[2093.7 - 2097.8999999999996] intrinsically motivated by these are the
+
+[2096.099 - 2101.0800000000004] intrinsic psychological needs of all
+
+[2097.9 - 2103.42] humans so first is autonomy
+
+[2101.08 - 2105.64] um or individual liberty we need to feel
+
+[2103.42 - 2108.46] like we are in control of our lives and
+
+[2105.64 - 2110.92] our fate this is absolutely critical for
+
+[2108.46 - 2113.02] All Humans even humans in collectivist
+
+[2110.92 - 2116.44] societies there's always a tension
+
+[2113.02 - 2117.94] between individual needs and group needs
+
+[2116.44 - 2120.339] um but that's intrinsic to all social
+
+[2117.94 - 2123.339] species it's about balancing the self
+
+[2120.339 - 2125.98] versus the group desire for competence
+
+[2123.339 - 2127.9] and Mastery so this is this has to do
+
+[2125.98 - 2128.8] with Maslow's top hierarchy of needs
+
+[2127.9 - 2131.079] which is self-esteem and
+
+[2128.8 - 2133.54] self-actualization so competence and
+
+[2131.079 - 2135.52] Mastery the the basically feeling like
+
+[2133.54 - 2137.5] you're good at something one way to
+
+[2135.52 - 2139.96] measure this is that we Thrive with
+
+[2137.5 - 2141.46] what's called optimal stress so optimal
+
+[2139.96 - 2142.42] stress means that you need some kind of
+
+[2141.46 - 2144.64] challenge
+
+[2142.42 - 2146.859] for instance people play Elden ring
+
+[2144.64 - 2149.7999999999997] people play Dark Souls these really
+
+[2146.859 - 2152.0789999999997] frustrating impossible games that I
+
+[2149.8 - 2153.82] personally don't like but the idea is
+
+[2152.079 - 2156.099] that you try and fail and then when you
+
+[2153.82 - 2157.6600000000003] finally succeed you feel a sense of
+
+[2156.099 - 2159.1600000000003] Mastery right and of course video games
+
+[2157.66 - 2160.66] are not the only way to get Mastery but
+
+[2159.16 - 2162.64] video games are a good way to get a
+
+[2160.66 - 2164.3199999999997] sense of Mastery and as we'll talk about
+
+[2162.64 - 2166.7799999999997] once we talk about Hobbies there are
+
+[2164.32 - 2169.2400000000002] lots and lots of of other ways to get
+
+[2166.78 - 2171.3390000000004] that sense of Mastery finally desire for
+
+[2169.24 - 2173.5] relatedness and connection as a social
+
+[2171.339 - 2175.7799999999997] species we are intrinsically motivated
+
+[2173.5 - 2177.76] to seek out connection with others and
+
+[2175.78 - 2180.1600000000003] so by keeping in mind what our intrinsic
+
+[2177.76 - 2182.44] base needs are and building a life
+
+[2180.16 - 2184.5989999999997] around that we can still maintain our
+
+[2182.44 - 2187.06] psychological well-being even if we
+
+[2184.599 - 2188.44] don't have a career at least a
+
+[2187.06 - 2189.4] conventional career that we're familiar
+
+[2188.44 - 2192.579] with
+
+[2189.4 - 2193.96] okay as I promised Hobbies this is the
+
+[2192.579 - 2195.94] last section of the video and this is
+
+[2193.96 - 2197.98] honestly where I had the most fun and it
+
+[2195.94 - 2199.54] made me really realize I am looking
+
+[2197.98 - 2201.04] forward to this
+
+[2199.54 - 2203.74] um so I'm gonna do everything that I can
+
+[2201.04 - 2206.2] to help make this future State come to
+
+[2203.74 - 2208.54] fruition with my YouTube channel and my
+
+[2206.2 - 2210.9399999999996] open source research so the first thing
+
+[2208.54 - 2212.5] obviously gaming a lot of you tell me
+
+[2210.94 - 2215.14] how excited you are for the possibility
+
+[2212.5 - 2216.339] of fdvr which means full dive virtual
+
+[2215.14 - 2219.0989999999997] reality
+
+[2216.339 - 2220.9] everyone knows what fdvr is you saw it
+
+[2219.099 - 2223.839] in the Matrix the idea is that you plug
+
+[2220.9 - 2226.0] your head in and as far as you can tell
+
+[2223.839 - 2227.859] it is a hundred percent real we also
+
+[2226.0 - 2230.68] explored this with um Ready Player one
+
+[2227.859 - 2232.359] which had like a haptic suits
+
+[2230.68 - 2233.74] um I don't know if it's possible a
+
+[2232.359 - 2236.7999999999997] haptic suit seems like it's probably
+
+[2233.74 - 2238.4799999999996] more possible in the near term full dive
+
+[2236.8 - 2240.76] VR such as the what you see in the
+
+[2238.48 - 2243.04] Matrix might not be possible but you
+
+[2240.76 - 2244.96] never know people are working on brain
+
+[2243.04 - 2246.7599999999998] computer interfaces so if you can just
+
+[2244.96 - 2248.98] plug in all the sensory information
+
+[2246.76 - 2251.1400000000003] directly into your head maybe it's
+
+[2248.98 - 2252.76] possible anyways whatever you want to do
+
+[2251.14 - 2255.0989999999997] whatever experience you want to have
+
+[2252.76 - 2257.8] should hypothetically be possible with
+
+[2255.099 - 2259.839] fdvr
+
+[2257.8 - 2262.1800000000003] um a part of gaming is that it can be
+
+[2259.839 - 2264.82] social right game with friends whether
+
+[2262.18 - 2266.56] you're competing online with friends uh
+
+[2264.82 - 2267.4] or you got a guild or a clan that you've
+
+[2266.56 - 2269.38] built
+
+[2267.4 - 2271.599] um you can also uh do parallel play in
+
+[2269.38 - 2273.339] person so this is what um I do with my
+
+[2271.599 - 2274.839] wife we Heckle each other
+
+[2273.339 - 2276.099] um while she's playing Assassin's Creed
+
+[2274.839 - 2277.66] I'll be like hey did you know that
+
+[2276.099 - 2279.6600000000003] you're on fire and she's like yes Dave I
+
+[2277.66 - 2282.22] know that I'm on fire uh you know
+
+[2279.66 - 2283.96] parallel play is a great thing to do
+
+[2282.22 - 2285.3999999999996] with friends you can sit around you know
+
+[2283.96 - 2287.38] I used to do this back in my college
+
+[2285.4 - 2289.359] days with my buddies drinking a couple
+
+[2287.38 - 2292.06] beers playing Call of Duty Trolling each
+
+[2289.359 - 2293.619] other it can be a really great thing and
+
+[2292.06 - 2296.2599999999998] I'm glad to see that the younger
+
+[2293.619 - 2297.579] Generations do this still my nephew and
+
+[2296.26 - 2299.92] all of his friends they play Minecraft
+
+[2297.579 - 2301.6600000000003] together and other things
+
+[2299.92 - 2304.1800000000003] um there are what I will say is there
+
+[2301.66 - 2306.64] are some potential downsides screen time
+
+[2304.18 - 2307.8999999999996] can be detrimental to your health but if
+
+[2306.64 - 2310.2999999999997] you balance it with some of the other
+
+[2307.9 - 2311.92] things like in the therapeutic Lifestyle
+
+[2310.3 - 2313.6600000000003] Changes make sure that you go outside
+
+[2311.92 - 2315.579] touch grass as kids are saying these
+
+[2313.66 - 2317.14] days
+
+[2315.579 - 2319.96] um it can also be addictive and
+
+[2317.14 - 2323.14] isolation as possible I do suspect that
+
+[2319.96 - 2325.06] we will see legislation coming that kind
+
+[2323.14 - 2327.2799999999997] of at least provides warnings for how
+
+[2325.06 - 2329.44] addictive things are there's a book that
+
+[2327.28 - 2332.1400000000003] I refer to often called liquid rain
+
+[2329.44 - 2334.18] where they talk about how uh full dive
+
+[2332.14 - 2335.74] VR could actually be programmatically
+
+[2334.18 - 2338.0789999999997] addictive like where it could just
+
+[2335.74 - 2339.4599999999996] stimulate your dopamine and so you feel
+
+[2338.079 - 2341.26] like you're having more fun than you
+
+[2339.46 - 2342.82] actually are and then when you're not in
+
+[2341.26 - 2344.92] the full dive VR you could you could
+
+[2342.82 - 2346.7200000000003] like physically crave it and get sick if
+
+[2344.92 - 2349.0] you don't have it so we do need to be
+
+[2346.72 - 2350.7] careful with um creating gaming as a
+
+[2349.0 - 2354.82] central lifestyle
+
+[2350.7 - 2356.68] and another thing is that a gaming world
+
+[2354.82 - 2358.3] is not necessarily the real world and
+
+[2356.68 - 2360.8799999999997] most people's brains will keep track of
+
+[2358.3 - 2362.6800000000003] that difference and so it might not be
+
+[2360.88 - 2365.1400000000003] good for self-actualization for instance
+
+[2362.68 - 2366.8199999999997] if you're if you're a gamer you might
+
+[2365.14 - 2368.74] not uh get the sense that you're
+
+[2366.82 - 2370.96] reaching your full potential that being
+
+[2368.74 - 2372.3999999999996] said if you're a competitive gamer uh
+
+[2370.96 - 2374.079] maybe that is the way that you reach
+
+[2372.4 - 2376.9] your full potential
+
+[2374.079 - 2379.2400000000002] making and fixing things we humans
+
+[2376.9 - 2380.92] evolved to use our hands that is why we
+
+[2379.24 - 2384.339] have so much dexterity in our hands we
+
+[2380.92 - 2385.839] are the tool users and so one of my best
+
+[2384.339 - 2387.7599999999998] friends from back in the day is working
+
+[2385.839 - 2390.16] on rebuilding a thistle so this is a
+
+[2387.76 - 2392.5600000000004] thistle it's a small racing boat
+
+[2390.16 - 2396.04] we would be doing this all day every day
+
+[2392.56 - 2397.359] if we had Ubi and no need to uh work for
+
+[2396.04 - 2399.22] money
+
+[2397.359 - 2401.68] um because the the shop where he's
+
+[2399.22 - 2403.18] rebuilding his there's two other ones
+
+[2401.68 - 2404.98] that are just waiting for someone to
+
+[2403.18 - 2407.3199999999997] come and fix and if I had the time
+
+[2404.98 - 2409.0] that's what I'd be doing why because
+
+[2407.32 - 2411.1600000000003] it's something that my friend does and
+
+[2409.0 - 2413.14] you can then race it and do competitive
+
+[2411.16 - 2415.5989999999997] stuff but there's also skill building
+
+[2413.14 - 2417.339] right the sense of Mastery that you get
+
+[2415.599 - 2419.26] from building something from fixing it
+
+[2417.339 - 2421.9] and then having that thing that you can
+
+[2419.26 - 2424.0] show off and use this is a really great
+
+[2421.9 - 2425.26] way to get a sense of Mastery there's
+
+[2424.0 - 2427.78] plenty of other things that people do
+
+[2425.26 - 2431.7400000000002] lots of guys like rebuild Mustangs or
+
+[2427.78 - 2435.2200000000003] Corvettes fixing up old houses and other
+
+[2431.74 - 2437.9799999999996] things so reusing refurbishing fixing
+
+[2435.22 - 2440.56] building things these are really great
+
+[2437.98 - 2442.42] ways that also tap into really Primal
+
+[2440.56 - 2443.74] needs for humans
+
+[2442.42 - 2445.96] some of the things that are really
+
+[2443.74 - 2448.7799999999997] popular today particularly with young
+
+[2445.96 - 2451.18] people forging leather working sewing
+
+[2448.78 - 2454.3590000000004] other carpentry all of these things
+
+[2451.18 - 2456.8799999999997] revolve around tool use and so whatever
+
+[2454.359 - 2459.4] hobby you pick up if it uses tools
+
+[2456.88 - 2461.079] chances are there's a lot of skills
+
+[2459.4 - 2463.7200000000003] involved which can also lead to that
+
+[2461.079 - 2465.6400000000003] sense of Mastery cooking I mentioned
+
+[2463.72 - 2467.2599999999998] this earlier cooking is one of the
+
+[2465.64 - 2469.24] oldest trades one of the oldest
+
+[2467.26 - 2470.7400000000002] professions out there and everyone needs
+
+[2469.24 - 2473.56] to eat plus cooking is a good social
+
+[2470.74 - 2475.4799999999996] activity my wife and I cook together
+
+[2473.56 - 2478.2999999999997] pretty much every day or at least we
+
+[2475.48 - 2479.859] take turns some people compulsively cook
+
+[2478.3 - 2481.2400000000002] and feed other people my sister-in-law
+
+[2479.859 - 2483.88] is like that she loves cooking for
+
+[2481.24 - 2485.5789999999997] people point being is that there is
+
+[2483.88 - 2488.56] there are a lot of hobbies out there
+
+[2485.579 - 2489.88] that center around making or fixing
+
+[2488.56 - 2493.06] things
+
+[2489.88 - 2495.7000000000003] outdoor stuff hiking climbing canoeing
+
+[2493.06 - 2500.02] boating whatever there's all kinds of
+
+[2495.7 - 2502.1189999999997] stuff that we could stand to do more of
+
+[2500.02 - 2503.56] um if you uh if you had more free time
+
+[2502.119 - 2505.78] because you didn't have to work because
+
+[2503.56 - 2508.96] you didn't have to be at a desk or at an
+
+[2505.78 - 2510.7000000000003] office or at the store or whatever
+
+[2508.96 - 2512.14] um you know and it's not just fishing
+
+[2510.7 - 2514.1189999999997] obviously that's the prototypical
+
+[2512.14 - 2516.0989999999997] example where you know you know a guy
+
+[2514.119 - 2517.6600000000003] gets to retirement age and he decides
+
+[2516.099 - 2519.579] he's going to go fishing every day not
+
+[2517.66 - 2521.7999999999997] everyone wants to do that I get it
+
+[2519.579 - 2524.1400000000003] um you could do competitive fishing
+
+[2521.8 - 2525.82] um but there's also other uh kinds of
+
+[2524.14 - 2527.56] competitive outdoor stuff like
+
+[2525.82 - 2529.839] cross-country challenges I ran Tough
+
+[2527.56 - 2532.839] Mudder almost 10 years ago and I was
+
+[2529.839 - 2534.52] hungover as heck when I ran it I was not
+
+[2532.839 - 2537.7599999999998] hungover by the end of it I burned all
+
+[2534.52 - 2540.04] that all that uh all that toxins off
+
+[2537.76 - 2541.3] um skiing kayaking all kinds of really
+
+[2540.04 - 2543.2799999999997] challenging stuff that you can do
+
+[2541.3 - 2545.02] outside a lot of my friends picked up
+
+[2543.28 - 2547.3] mountain biking which you could do
+
+[2545.02 - 2550.359] practically anywhere
+
+[2547.3 - 2551.6800000000003] um uh during the pandemic uh so one
+
+[2550.359 - 2553.9] thing that I realized when I was making
+
+[2551.68 - 2555.2799999999997] this video is that if if we got Ubi
+
+[2553.9 - 2556.48] tomorrow
+
+[2555.28 - 2559.1800000000003] um I would probably go hike the
+
+[2556.48 - 2560.859] Appalachian Trail I love being outside I
+
+[2559.18 - 2562.1189999999997] love being in the mountains and that is
+
+[2560.859 - 2564.4] something that I want to do but right
+
+[2562.119 - 2566.26] now my brain is like well I'm still
+
+[2564.4 - 2567.76] gonna make YouTube I still got to do AI
+
+[2566.26 - 2569.6800000000003] stuff I still have meetings with my
+
+[2567.76 - 2571.42] patreon supporters so doing the
+
+[2569.68 - 2573.0989999999997] Appalachian Trail is not really an
+
+[2571.42 - 2575.079] option for me right now unless I were to
+
+[2573.099 - 2578.8590000000004] take like three months off which maybe I
+
+[2575.079 - 2580.9] should anyways Fitness Fitness is the
+
+[2578.859 - 2583.5989999999997] most familiar model that a lot of people
+
+[2580.9 - 2587.319] use to get Mastery whether it's yoga or
+
+[2583.599 - 2590.1400000000003] Pilates or running or cycling martial
+
+[2587.319 - 2591.46] arts uh strength training these are all
+
+[2590.14 - 2594.16] things that people
+
+[2591.46 - 2596.68] um many many people do and and it can be
+
+[2594.16 - 2598.5989999999997] a little cultish for some people there's
+
+[2596.68 - 2601.0] also Fitness based competitions like
+
+[2598.599 - 2601.78] Iron Man American Ninja that sort of
+
+[2601.0 - 2604.14] stuff
+
+[2601.78 - 2606.52] that being said there are many many many
+
+[2604.14 - 2608.6189999999997] additional benefits
+
+[2606.52 - 2611.859] um other than just you know it's
+
+[2608.619 - 2614.1400000000003] something to do uh better Fitness it
+
+[2611.859 - 2616.7799999999997] leads to reduced pain increased Health
+
+[2614.14 - 2618.64] uh cognitive benefits emotional benefits
+
+[2616.78 - 2620.619] plus you get to show off your body right
+
+[2618.64 - 2623.14] there's lots of people that love being
+
+[2620.619 - 2625.6600000000003] fit just for the sake of feeling sexy
+
+[2623.14 - 2627.819] right there are so many people that
+
+[2625.66 - 2631.18] um that I'm that I knew and have met and
+
+[2627.819 - 2632.859] and where they decided to get fit
+
+[2631.18 - 2635.44] um you know started climbing started
+
+[2632.859 - 2637.839] going to the gym and the the the
+
+[2635.44 - 2639.88] transformation that they felt as they
+
+[2637.839 - 2641.92] felt better about themselves about their
+
+[2639.88 - 2643.96] body the sense of accomplishment that
+
+[2641.92 - 2645.579] they get from that is incredible
+
+[2643.96 - 2648.04] and still not for everyone so I want to
+
+[2645.579 - 2649.3] say like okay even if you have all the
+
+[2648.04 - 2652.48] options in the world and you decide that
+
+[2649.3 - 2654.819] exercise isn't for you that's fine or or
+
+[2652.48 - 2658.0] fitness exercises for everyone Fitness
+
+[2654.819 - 2660.22] might not be for you meetups so I am a
+
+[2658.0 - 2662.38] huge fan of meetup.com I actually met my
+
+[2660.22 - 2664.1189999999997] now wife at a Meetup
+
+[2662.38 - 2666.28] um we're both writers
+
+[2664.119 - 2668.02] um so the the kinds of tools that are
+
+[2666.28 - 2670.7200000000003] out there so meetup.com is there
+
+[2668.02 - 2673.48] specifically for finding people with the
+
+[2670.72 - 2678.22] same interests challenges or whatever
+
+[2673.48 - 2680.02] right uh so meetup.com it's free to join
+
+[2678.22 - 2681.3999999999996] um I tell people about it all the time I
+
+[2680.02 - 2682.9] think more people should be on Meetup
+
+[2681.4 - 2684.599] whether
+
+[2682.9 - 2686.859] um you know you have a special interest
+
+[2684.599 - 2688.54] or if you've got something that you're
+
+[2686.859 - 2689.92] coping with there's there's uh support
+
+[2688.54 - 2692.8] groups
+
+[2689.92 - 2696.099] um on Meetup I host a local AI Meetup
+
+[2692.8 - 2698.26] I'm actually going to that later today
+
+[2696.099 - 2700.42] um let's see there's intellectual kinds
+
+[2698.26 - 2703.48] of things there's chess clubs there's
+
+[2700.42 - 2705.94] spirituality uh clubs Arts crafts
+
+[2703.48 - 2708.339] photography all kinds of stuff
+
+[2705.94 - 2710.859] whatever your interest is especially if
+
+[2708.339 - 2713.099] you live in a city you can find other
+
+[2710.859 - 2716.319] people that have that same interest
+
+[2713.099 - 2718.54] which is a really great way
+
+[2716.319 - 2720.52] um to get those that's that social
+
+[2718.54 - 2723.16] connection but then also some of these
+
+[2720.52 - 2724.42] things can lead to senses of Mastery for
+
+[2723.16 - 2728.68] instance
+
+[2724.42 - 2730.42] all right so this is life under Ubi uh I
+
+[2728.68 - 2731.859] hope that you got a lot out of this
+
+[2730.42 - 2734.319] um and like I said making this video
+
+[2731.859 - 2736.54] actually I kind of clarified a lot for
+
+[2734.319 - 2739.839] myself and it makes me personally a lot
+
+[2736.54 - 2742.119] more excited for the future and I'm
+
+[2739.839 - 2744.94] personally this was probably the most
+
+[2742.119 - 2748.44] fun that I've had making a video uh yet
+
+[2744.94 - 2748.44] so anyways cheers

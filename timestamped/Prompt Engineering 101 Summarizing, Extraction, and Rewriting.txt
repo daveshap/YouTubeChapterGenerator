@@ -1,0 +1,657 @@
+[0.96 - 4.88] hey everybody david shapiro here with a
+
+[3.36 - 8.0] video this is going to be another
+
+[4.88 - 9.76] tutorial on prompt engineering today uh
+
+[8.0 - 11.44] so in the first prompt engineering video
+
+[9.76 - 12.639] we talked about davinci which was the
+
+[11.44 - 15.28] original
+
+[12.639 - 17.119] heavy duty model right here da vinci
+
+[15.28 - 18.96] but what today we're going to talk about
+
+[17.119 - 21.119] text davinci o2 which is one of the
+
+[18.96 - 22.96] instruct series models so when i say
+
+[21.119 - 24.24] instruct series models what do i what am
+
+[22.96 - 26.080000000000002] i talking about
+
+[24.24 - 28.32] it's this right here so
+
+[26.08 - 31.839999999999996] january of this year
+
+[28.32 - 34.480000000000004] openai published this blog post about um
+
+[31.84 - 37.2] about their their uh their their
+
+[34.48 - 38.8] instruct series models and all the most
+
+[37.2 - 41.36] popular models today are the text
+
+[38.8 - 44.399] davinci text curie these are all
+
+[41.36 - 47.44] fine-tuned to follow instructions so if
+
+[44.399 - 49.039] you want to follow or to figure this out
+
+[47.44 - 52.0] you can see uh it's right here
+
+[49.039 - 55.28] openai.com blogs instruction following
+
+[52.0 - 57.199] i'll have a link in the comments as well
+
+[55.28 - 59.28] so just a little bit of background about
+
+[57.199 - 61.199] the history of where we're at so the
+
+[59.28 - 63.120000000000005] behavior of text davincio 2 is going to
+
+[61.199 - 65.03999999999999] be very very different from da vinci
+
+[63.12 - 68.479] from plain vanilla da vinci
+
+[65.04 - 71.36000000000001] almond and da vinci instruct beta
+
+[68.479 - 73.76] so the instruct series are fine-tuned um
+
+[71.36 - 75.2] to do quite a few tasks and so i just
+
+[73.76 - 77.68] took a couple quick notes about
+
+[75.2 - 79.04] different kinds of tasks so what we're
+
+[77.68 - 81.759] going to do is i just clicked on one of
+
+[79.04 - 83.759] the random wikipedia articles of the day
+
+[81.759 - 84.88] and i'll just copy this in and this will
+
+[83.759 - 87.36] be our
+
+[84.88 - 88.479] this will be our our fodder for uh for
+
+[87.36 - 92.24] today
+
+[88.479 - 95.119] um so let's start with one task which is
+
+[92.24 - 97.6] uh summarization or paraphrasing
+
+[95.119 - 99.52] um so i'll just say summarize so you
+
+[97.6 - 102.079] need an imperative verb so an imperative
+
+[99.52 - 104.56] verb is a command
+
+[102.079 - 106.63999999999999] a command or imperative tells it what to
+
+[104.56 - 107.84] do that is the instruction so i'll say
+
+[106.64 - 110.32000000000001] summarize
+
+[107.84 - 112.159] the following article and then also
+
+[110.32 - 114.72] let's turn the temperature down to zero
+
+[112.159 - 115.92] so zero makes the model deterministic
+
+[114.72 - 117.52] which means it'll give us the same
+
+[115.92 - 120.32000000000001] output every time so if you change one
+
+[117.52 - 122.32] little thing you'll see a difference
+
+[120.32 - 125.52] so what i do often is i'll do at least
+
+[122.32 - 127.52] two new lines i'll say article
+
+[125.52 - 129.759] so one thing is if you capitalize
+
+[127.52 - 131.68] something it's a different set of tokens
+
+[129.759 - 133.2] um which which kind of tells the model
+
+[131.68 - 134.8] like oh pay attention to this this is
+
+[133.2 - 136.879] not normal language this is not part of
+
+[134.8 - 139.84] the article you can also do stuff like
+
+[136.879 - 142.48] adding you know um those it kind of that
+
+[139.84 - 144.0] can cut sometimes kind of confuse it
+
+[142.48 - 146.0] so then you just say
+
+[144.0 - 150.72] then go to the very end and they say
+
+[146.0 - 150.72] summary and then we'll do control enter
+
+[153.12 - 155.68] all right
+
+[155.76 - 158.16] so
+
+[156.48 - 160.319] you see the irish bee conservation
+
+[158.16 - 161.35999999999999] project is a charitable organization etc
+
+[160.319 - 163.92] etc
+
+[161.36 - 165.519] um so let's just copy this out
+
+[163.92 - 167.04] and i'll save it and then we'll change
+
+[165.519 - 169.20000000000002] one thing at a time and i'll show you
+
+[167.04 - 170.959] what i mean so first let's run it again
+
+[169.2 - 173.599] just just to see
+
+[170.959 - 174.879] that it generates the same exact
+
+[173.599 - 176.56] um
+
+[174.879 - 178.39999999999998] uh
+
+[176.56 - 179.519] output or at least it look
+
+[178.4 - 182.56] no did it do something a little bit
+
+[179.519 - 184.48000000000002] different interesting
+
+[182.56 - 186.64000000000001] yeah it gave me a different output what
+
+[184.48 - 189.44] did i do differently it's supposed to be
+
+[186.64 - 189.44] deterministic
+
+[189.519 - 194.64000000000001] let me run this again
+
+[191.44 - 194.64] did i fat finger something
+
+[196.959 - 199.36] i wonder if i fat fingered something on
+
+[198.319 - 202.56] the first one because this looks
+
+[199.36 - 204.239] identical to the second run
+
+[202.56 - 207.799] let's do it let's do it one more time
+
+[204.239 - 207.799] just to be sure
+
+[212.72 - 216.0] okay that's a little bit different too
+
+[216.239 - 220.959] i wonder if the temperature no longer
+
+[218.319 - 223.599] has the same impact
+
+[220.959 - 224.56] okay this is the same as the first one
+
+[223.599 - 225.92] oops
+
+[224.56 - 228.64000000000001] interesting okay so it seems to be
+
+[225.92 - 231.28] flip-flopping between two outputs okay
+
+[228.64 - 232.95899999999997] so that's slightly unexpected anyways so
+
+[231.28 - 235.04] let's go so we've got that we've got
+
+[232.959 - 236.879] these instructions and we see that it
+
+[235.04 - 238.72] generates um
+
+[236.879 - 240.319] those two things so now let's let's
+
+[238.72 - 241.84] change let's do a summarize the
+
+[240.319 - 244.72] following article
+
+[241.84 - 246.879] very concisely so cons
+
+[244.72 - 249.439] using adjectives modifying the
+
+[246.879 - 250.879] instructions with adjectives will uh
+
+[249.439 - 253.84] will change the output so then we'll
+
+[250.879 - 255.35999999999999] just say concise summary so this word
+
+[253.84 - 257.519] activates
+
+[255.36 - 259.519] different parts of the gpd3 model that
+
+[257.519 - 261.68] it says okay what does concise mean it
+
+[259.519 - 264.32] means make it smaller so now let's see
+
+[261.68 - 267.52] the temperature is still zero
+
+[264.32 - 269.199] so let's see see how much shorter it is
+
+[267.52 - 270.12] uh and we'll run this a couple times so
+
+[269.199 - 273.759] we have
+
+[270.12 - 274.72] 829 characters versus 298.
+
+[273.759 - 276.0] um
+
+[274.72 - 277.28000000000003] oops
+
+[276.0 - 279.04] control
+
+[277.28 - 281.11999999999995] z redo
+
+[279.04 - 282.639] and the the first bit is is almost
+
+[281.12 - 284.96] identical right
+
+[282.639 - 287.04] you see that where it just adds more so
+
+[284.96 - 288.4] basically telling it to be concise cut
+
+[287.04 - 289.759] it off at the knees
+
+[288.4 - 292.63899999999995] um
+
+[289.759 - 292.639] let's run it again
+
+[293.759 - 297.36] looks like it's pretty much identical
+
+[295.28 - 299.28] yep okay so telling it to be concise
+
+[297.36 - 300.88] that does one thing now
+
+[299.28 - 302.63899999999995] what if we what if we take the
+
+[300.88 - 304.08] temperature and turn it up to one so
+
+[302.639 - 305.84000000000003] this is how i learned all this stuff is
+
+[304.08 - 308.4] i just said okay let me just i've got
+
+[305.84 - 310.08] this i've got this little panel of of
+
+[308.4 - 311.67999999999995] knobs and levers let me just experiment
+
+[310.08 - 312.96] with them and see what happens so now
+
+[311.68 - 316.16] that the temperature is up to one we're
+
+[312.96 - 316.15999999999997] going to see a lot more variants
+
+[318.32 - 322.479] oh it still has concise so it actually
+
+[320.56 - 324.639] gave me the same output
+
+[322.479 - 326.4] so i'll have to remove concise yeah
+
+[324.639 - 328.639] that's the same same output all right so
+
+[326.4 - 331.52] let's remove concise summary
+
+[328.639 - 333.84000000000003] uh summarize the following article
+
+[331.52 - 335.44] and also it's one thing is that's
+
+[333.84 - 337.19899999999996] important to keep in mind is that this
+
+[335.44 - 339.199] is a fine-tuned model so its output is
+
+[337.199 - 340.32] going to be much more consistent in
+
+[339.199 - 344.40000000000003] general
+
+[340.32 - 344.4] than um ordinary davinci
+
+[344.88 - 350.08] oh interesting okay
+
+[347.44 - 352.08] so this is one problem with uh with the
+
+[350.08 - 354.88] instruct series is that they do tend to
+
+[352.08 - 358.88] be a little bit more deterministic
+
+[354.88 - 358.88] or less less random
+
+[360.24 - 363.039] there we go
+
+[361.36 - 365.52000000000004] so this gave us a completely different
+
+[363.039 - 366.8] um different output also part of the
+
+[365.52 - 369.19899999999996] problem is that this is a is a
+
+[366.8 - 370.40000000000003] relatively short or um not organization
+
+[369.199 - 371.759] uh article
+
+[370.4 - 373.12] which means that there's not a whole lot
+
+[371.759 - 374.72] to do okay
+
+[373.12 - 376.0] you get the idea we've done a little bit
+
+[374.72 - 376.96000000000004] of summarization let's move on to
+
+[376.0 - 378.8] another
+
+[376.96 - 381.52] whoops cancel that
+
+[378.8 - 383.28000000000003] um let's see classification
+
+[381.52 - 384.639] rewriting
+
+[383.28 - 386.23999999999995] i'm not sure if there's any
+
+[384.639 - 388.8] classification that we can do with this
+
+[386.24 - 391.12] however there is a lot of keyword
+
+[388.8 - 396.24] extraction named entity recognition and
+
+[391.12 - 397.52] dates um so let's see uh perform
+
+[396.24 - 398.479] any r
+
+[397.52 - 400.0] uh
+
+[398.479 - 402.479] and um
+
+[400.0 - 406.16] and date extraction
+
+[402.479 - 409.919] on the following article
+
+[406.16 - 411.28000000000003] and so then we say list all named
+
+[409.919 - 413.52] entities
+
+[411.28 - 416.0] and dates
+
+[413.52 - 418.15999999999997] and then one thing i often do is because
+
+[416.0 - 419.919] i want it to be a list i'll just i'll go
+
+[418.16 - 421.36] to the new line and start with a dash
+
+[419.919 - 423.28] because that is like a final little
+
+[421.36 - 424.96000000000004] thing that says this is the list because
+
+[423.28 - 426.0] sometimes the model will get confused
+
+[424.96 - 429.44] and it'll just describe it as a
+
+[426.0 - 432.0] paragraph it's like no give me a list
+
+[429.44 - 432.0] there we go
+
+[433.039 - 436.24] hey not bad
+
+[434.56 - 438.96] so it gives me beltane living earth
+
+[436.24 - 443.36] festival southeast technology instrument
+
+[438.96 - 444.79999999999995] university 21st baron of dunsini
+
+[443.36 - 447.36] um i could have sworn there was some
+
+[444.8 - 449.52000000000004] dates in here there's 2020
+
+[447.36 - 452.08000000000004] 2021
+
+[449.52 - 453.52] so it missed a few dates but that's okay
+
+[452.08 - 454.71999999999997] if we turn the well i'm not going to
+
+[453.52 - 455.68] worry about the temperature you've seen
+
+[454.72 - 457.28000000000003] you've seen that there's different
+
+[455.68 - 459.28000000000003] things that it can do
+
+[457.28 - 462.15999999999997] but it did do a good job of extracting
+
+[459.28 - 465.11999999999995] name entities and dates
+
+[462.16 - 467.03900000000004] let's see what else can we do
+
+[465.12 - 469.039] let's go back to my list um
+
+[467.039 - 471.68] brainstorming rewriting classification
+
+[469.039 - 471.68] oh here we go
+
+[471.84 - 476.15999999999997] rewrite the following
+
+[474.24 - 477.28000000000003] wikipedia
+
+[476.16 - 478.639] article
+
+[477.28 - 479.599] um
+
+[478.639 - 482.319] uh
+
+[479.599 - 484.639] so that it's more interesting
+
+[482.319 - 486.8] from a uh
+
+[484.639 - 488.72] let's see so it's more interesting for
+
+[486.8 - 491.039] um an online
+
+[488.72 - 491.03900000000004] um
+
+[491.52 - 494.31899999999996] news article
+
+[496.639 - 501.28000000000003] so then uh
+
+[498.96 - 502.87899999999996] rewrite to be interesting
+
+[501.28 - 504.15999999999997] and so you know you might you might your
+
+[502.879 - 505.759] intuition might be like well a machine
+
+[504.16 - 507.03900000000004] doesn't know what interesting is the
+
+[505.759 - 508.879] machine doesn't need to understand what
+
+[507.039 - 511.12] interesting really means all it has to
+
+[508.879 - 512.719] do is match the pattern of what what it
+
+[511.12 - 514.08] has read in hundreds of gigabytes of
+
+[512.719 - 517.08] other text of what humans find
+
+[514.08 - 517.08] interesting
+
+[521.12 - 524.9590000000001] look at this this is great copy
+
+[526.64 - 529.6] and then if it cut off because the
+
+[528.08 - 530.64] maximum length so let's let it finish
+
+[529.6 - 534.6] its article
+
+[530.64 - 534.6] it's probably just about done
+
+[536.24 - 540.32] yeah so in this case you can see it's
+
+[538.72 - 542.88] pretty similar
+
+[540.32 - 546.08] um but it has expanded on a lot of the
+
+[542.88 - 547.92] stuff quite a bit um
+
+[546.08 - 550.72] in some cases it's kind of just
+
+[547.92 - 552.24] regurgitating what it what it um what it
+
+[550.72 - 555.279] read up top
+
+[552.24 - 557.279] um but it has definitely adopted um
+
+[555.279 - 560.08] slightly new formats rewarded it just a
+
+[557.279 - 561.76] little bit um to make it a a bit more
+
+[560.08 - 563.279] interesting a little a little less dry
+
+[561.76 - 565.279] and academic
+
+[563.279 - 566.32] so rewriting is is another thing that it
+
+[565.279 - 568.399] can do
+
+[566.32 - 569.6800000000001] um let's see
+
+[568.399 - 572.32] let's see rewrite the following
+
+[569.68 - 573.3599999999999] wikipedia article so that it is
+
+[572.32 - 578.72] let's say
+
+[573.36 - 578.72] so it is more accessible to children
+
+[578.88 - 582.64] so then let's come here rewrite
+
+[583.44 - 586.839] for children
+
+[594.24 - 597.92] so you see it's it's
+
+[596.32 - 600.1600000000001] still got really similar
+
+[597.92 - 601.5999999999999] information but instead of like pillars
+
+[600.16 - 603.8389999999999] of support it just says there are four
+
+[601.6 - 607.0400000000001] things the charity does to help bees so
+
+[603.839 - 608.5600000000001] the language has been simplified um and
+
+[607.04 - 611.4399999999999] and some of the some of the irrelevant
+
+[608.56 - 613.1199999999999] details have been have been removed um
+
+[611.44 - 615.44] let's see let's see rewrite the
+
+[613.12 - 617.44] following wikipedia article
+
+[615.44 - 620.0] let's just do something off the wall um
+
+[617.44 - 621.12] in esperanto
+
+[620.0 - 622.8] um
+
+[621.12 - 624.9590000000001] let's see if it knows esperanto it might
+
+[622.8 - 626.079] not rewrite
+
+[624.959 - 629.079] in
+
+[626.079 - 629.079] esperanto
+
+[632.399 - 636.16] i have no idea if that's actually
+
+[633.519 - 636.16] esperanto
+
+[641.76 - 648.48] um it did something okay cool
+
+[644.959 - 652.2399999999999] um let's see and uh in oh what is it
+
+[648.48 - 655.24] there's um bbc was it bbc pigeon
+
+[652.24 - 655.24] um
+
+[661.12 - 664.88] i'm pretty sure
+
+[662.48 - 666.48] they're like bbc has like a section that
+
+[664.88 - 667.8389999999999] is
+
+[666.48 - 670.24] now okay
+
+[667.839 - 670.24] um
+
+[672.64 - 675.8389999999999] oh wait hang on
+
+[679.36 - 684.88] let's see let's say a west african
+
+[681.92 - 684.88] um pigeon
+
+[686.0 - 691.12] so basically what i'm remembering sorry
+
+[688.0 - 693.44] i kind of trailed off is uh bbc started
+
+[691.12 - 693.44] um
+
+[693.68 - 697.5999999999999] yeah there it is okay so it does
+
+[695.36 - 699.36] understand pidgin so this is like a kind
+
+[697.6 - 703.519] of a simplified english
+
+[699.36 - 706.0790000000001] um that is uh that is uh popular in some
+
+[703.519 - 706.88] parts of africa um and so you see that
+
+[706.079 - 709.68] like
+
+[706.88 - 711.2] um fricatives like the has been replaced
+
+[709.68 - 712.2399999999999] with duh dat
+
+[711.2 - 714.88] um
+
+[712.24 - 718.24] way day limited by guaranteed that same
+
+[714.88 - 720.56] year e design and install yeah so it's a
+
+[718.24 - 723.519] kind of the simplified english so by by
+
+[720.56 - 725.1999999999999] saying rewrite um so
+
+[723.519 - 726.72] one thing is in that's interesting is if
+
+[725.2 - 728.5600000000001] you say translate
+
+[726.72 - 730.32] for whatever reason gpth3 often gets
+
+[728.56 - 732.399] confused when you say translate but if
+
+[730.32 - 734.1600000000001] you tell it to rewrite it says okay i'm
+
+[732.399 - 735.6] going to start from scratch and rewrite
+
+[734.16 - 738.079] it in this other way
+
+[735.6 - 740.0] let me do a quick time check
+
+[738.079 - 741.519] we're at 12 minutes okay so we didn't
+
+[740.0 - 743.44] get through too much but i showed you
+
+[741.519 - 745.279] some really cool things that you can do
+
+[743.44 - 749.12] with gpt3
+
+[745.279 - 751.68] including summarization rewriting
+
+[749.12 - 753.279] extraction and named entity recognition
+
+[751.68 - 755.5999999999999] we also did a little bit of parameter
+
+[753.279 - 757.279] tweaking so we'll call that a day thanks
+
+[755.6 - 759.36] for watching like and subscribe and
+
+[757.279 - 762.399] consider supporting me on patreon thanks
+
+[759.36 - 762.399] for watching

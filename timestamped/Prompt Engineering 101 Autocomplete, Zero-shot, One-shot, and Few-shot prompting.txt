@@ -1,0 +1,703 @@
+[1.36 - 5.6000000000000005] hey everybody david shapiro here with a
+
+[3.28 - 7.759] uh another tutorial video
+
+[5.6 - 10.16] so i know we've started with python and
+
+[7.759 - 11.679] i'll show you something in a minute but
+
+[10.16 - 14.16] um one thing that has come to my
+
+[11.679 - 16.32] attention is that uh what we really need
+
+[14.16 - 19.039] is some some basics with prompt
+
+[16.32 - 19.92] engineering so if you're new to
+
+[19.039 - 20.8] um
+
+[19.92 - 24.48] to
+
+[20.8 - 25.84] gpt3 uh and large language models the
+
+[24.48 - 27.76] first thing that you need to know is
+
+[25.84 - 29.84] that these are fundamentally just
+
+[27.76 - 31.76] autocomplete engines so you know how
+
+[29.84 - 34.079] like you have your phone and it will
+
+[31.76 - 35.52] have like the recommended next word it's
+
+[34.079 - 38.399] not much different than that it's just
+
+[35.52 - 39.84] this is infinitely more sophisticated um
+
+[38.399 - 41.76] the model i think i always get this
+
+[39.84 - 44.239000000000004] number wrong but it takes about 700
+
+[41.76 - 46.8] gigabytes of ram to run whereas your
+
+[44.239 - 48.879] keyboard takes you know a few megabytes
+
+[46.8 - 50.959999999999994] so this is like several thousand times
+
+[48.879 - 52.559] larger of an auto complete engine but at
+
+[50.96 - 53.92] the end of the day it's just an auto
+
+[52.559 - 55.12] complete engine so let me show you what
+
+[53.92 - 57.68] i mean
+
+[55.12 - 59.76] this is the original davinci model which
+
+[57.68 - 62.079] is also one of the harder ones to use
+
+[59.76 - 64.72] because it has no fine tuning in order
+
+[62.079 - 67.2] to make it more instruction friendly and
+
+[64.72 - 69.28] so in this case you usually have to do
+
+[67.2 - 71.2] you either have to allow it to auto
+
+[69.28 - 72.88] complete what you've done
+
+[71.2 - 74.4] or you have to give it a few examples
+
+[72.88 - 76.15899999999999] which is called few shot prompting so
+
+[74.4 - 78.32000000000001] we're going to start with the old stuff
+
+[76.159 - 80.08000000000001] because if you build up an intuition for
+
+[78.32 - 81.91999999999999] understanding that it's an autocomplete
+
+[80.08 - 84.0] engine and that's it you'll understand
+
+[81.92 - 85.759] how to use these models a lot better so
+
+[84.0 - 87.28] we say bbc news
+
+[85.759 - 89.52] china has tested their latest fusion
+
+[87.28 - 90.88] reactor and then we just say go and see
+
+[89.52 - 92.96] what it does
+
+[90.88 - 95.6] um oh interesting so the last time i ran
+
+[92.96 - 97.759] this it did something else um
+
+[95.6 - 99.91999999999999] it looks like in this case it's listing
+
+[97.759 - 103.04] a bunch of different news articles so
+
+[99.92 - 104.64] this if you go to like news.google.com
+
+[103.04 - 106.96000000000001] this is kind of what it looks like right
+
+[104.64 - 109.43900000000001] where it's got you know the the source
+
+[106.96 - 111.67999999999999] and then and then a title that's not
+
+[109.439 - 113.439] what i expected it to do so let's run it
+
+[111.68 - 115.2] again because this is just one way that
+
+[113.439 - 116.63999999999999] it could auto complete it let's run it
+
+[115.2 - 118.399] again and see what happens ah see now
+
+[116.64 - 120.96000000000001] it's actually writing an article so you
+
+[118.399 - 123.36] see how it seems at first bluff it might
+
+[120.96 - 124.719] be completely random but
+
+[123.36 - 126.0] what it's doing is it's matching a
+
+[124.719 - 127.52] pattern
+
+[126.0 - 129.039] let's see so china has tested their
+
+[127.52 - 130.399] latest fusion reactor and it seems to be
+
+[129.039 - 132.319] successful this will be a huge step for
+
+[130.399 - 136.08] the country in the world you know etc
+
+[132.319 - 137.51999999999998] etc and it gives me a youtube um
+
+[136.08 - 139.76000000000002] link let's see let's see if this is
+
+[137.52 - 141.59900000000002] actually a video
+
+[139.76 - 142.959] nope not available okay
+
+[141.599 - 144.79999999999998] so anyways
+
+[142.959 - 146.8] it's an auto complete engine so this is
+
+[144.8 - 148.31900000000002] what's called zero shot so zero shot is
+
+[146.8 - 151.36] when you don't give it any examples you
+
+[148.319 - 154.72] just want it to complete something
+
+[151.36 - 156.959] so this was for a news article
+
+[154.72 - 160.879] now if i give it instructions like
+
+[156.959 - 162.239] write a uh a short story about an
+
+[160.879 - 164.64] astronaut
+
+[162.239 - 165.519] going to mars this is probably not going
+
+[164.64 - 167.67999999999998] to work
+
+[165.519 - 169.59900000000002] um
+
+[167.68 - 172.64000000000001] see it's just it doesn't understand what
+
+[169.599 - 175.92] i'm asking and it's just repeating it
+
+[172.64 - 175.92] um let's do it again
+
+[176.08 - 179.28] yeah so it's like giving instructions
+
+[178.0 - 180.56] it's like no i actually wanted to write
+
+[179.28 - 181.519] something like can you write the story
+
+[180.56 - 184.72] for me
+
+[181.519 - 187.20000000000002] um but if we reframe it like um
+
+[184.72 - 188.959] we'll let's call it uh uh uh
+
+[187.2 - 190.79999999999998] um
+
+[188.959 - 192.159] uh
+
+[190.8 - 194.64000000000001] jordan's
+
+[192.159 - 196.319] mission to mars um
+
+[194.64 - 200.0] a short story
+
+[196.319 - 200.95899999999997] by uh let's say jimi hendrix
+
+[200.0 - 202.959] i don't know
+
+[200.959 - 205.2] um
+
+[202.959 - 206.879] there once
+
+[205.2 - 208.64] was a
+
+[206.879 - 210.48] an astronaut
+
+[208.64 - 213.04] named jordan
+
+[210.48 - 215.51899999999998] and then let's see what happens
+
+[213.04 - 215.519] there we go
+
+[217.28 - 220.879] so by giving it just a little bit uh to
+
+[219.519 - 221.84] start off with
+
+[220.879 - 222.72] um
+
+[221.84 - 224.56] it
+
+[222.72 - 226.799] kind of went
+
+[224.56 - 228.72] yeah the this looks like it was written
+
+[226.799 - 230.15900000000002] by a little kid there was once an
+
+[228.72 - 231.35999999999999] astronaut named jordan jordan was a
+
+[230.159 - 233.2] brave astronaut who was the first
+
+[231.36 - 235.12] astronaut on mars he was the first
+
+[233.2 - 237.28] astronaut to ever walk on mars jordan
+
+[235.12 - 239.12] was walking along the surface of mars he
+
+[237.28 - 240.879] was walking on a sandy desert the planet
+
+[239.12 - 243.519] looked so red yeah this is like written
+
+[240.879 - 243.51899999999998] by a little kid
+
+[243.68 - 246.31900000000002] so that's the best it could do to match
+
+[245.04 - 248.239] that pattern now let's run it again and
+
+[246.319 - 249.599] see what happens but you can see that
+
+[248.239 - 250.799] it's just um
+
+[249.599 - 252.64] oh this looks like a little more
+
+[250.799 - 254.959] sophisticated
+
+[252.64 - 256.799] but anyways so by cueing it up the end
+
+[254.959 - 258.799] by kayla grady
+
+[256.799 - 260.15999999999997] and it's a short story by jimi hendrix
+
+[258.799 - 261.919] so i forgot what it was talking about
+
+[260.16 - 263.52000000000004] anyways
+
+[261.919 - 265.52] all right so this is zero shot where you
+
+[263.52 - 267.12] basically you you spool it up by giving
+
+[265.52 - 269.35999999999996] it something and then you just let it
+
+[267.12 - 270.24] run like an auto complete engine
+
+[269.36 - 272.47900000000004] um
+
+[270.24 - 274.24] and so in that respect it's just a
+
+[272.479 - 275.75899999999996] statistical model
+
+[274.24 - 277.36] but what if you what if you have a very
+
+[275.759 - 280.88] specific pattern that you want it to
+
+[277.36 - 282.96000000000004] follow so you might say like um
+
+[280.88 - 287.68] uh brainstorm
+
+[282.96 - 292.79999999999995] um uh let's see a list of ideas to
+
+[287.68 - 292.8] uh let's see a list of ideas of ways to
+
+[293.36 - 297.759] survive on mars so this is something
+
+[296.0 - 299.52] that it's probably seen
+
+[297.759 - 301.6] in its training data like on reddit or
+
+[299.52 - 304.4] stack exchange or whatever and so then
+
+[301.6 - 304.40000000000003] if we do this
+
+[304.639 - 307.919] what would you need to bring so it's not
+
+[306.32 - 309.28] it's just asking questions it's not
+
+[307.919 - 311.35999999999996] actually answering them so that's no
+
+[309.28 - 312.79999999999995] good right let's do it again and see if
+
+[311.36 - 315.44] we can get it to
+
+[312.8 - 316.32] oh there we go okay
+
+[315.44 - 318.8] um
+
+[316.32 - 321.039] oh look and so then it starts
+
+[318.8 - 321.61] it goes off
+
+[321.039 - 323.59999999999997] matt damon
+
+[321.61 - 325.759] [Laughter]
+
+[323.6 - 326.72] yeah so then it completely changes topic
+
+[325.759 - 328.639] and it's like well that's not what i
+
+[326.72 - 329.68] wanted i wanted this list
+
+[328.639 - 331.199] right
+
+[329.68 - 333.199] um
+
+[331.199 - 335.84000000000003] gather water from the water crystals
+
+[333.199 - 337.44] okay get oxygen from the oxygen crystals
+
+[335.84 - 338.479] this is so random find a way to grow
+
+[337.44 - 340.88] food
+
+[338.479 - 341.68] um find a way to build a radio so that
+
+[340.88 - 342.639] okay
+
+[341.68 - 344.56] so
+
+[342.639 - 346.16] you can see where it was just like okay
+
+[344.56 - 348.479] it just kind of goes off the rails and
+
+[346.16 - 350.40000000000003] runs with it this was original da vinci
+
+[348.479 - 353.68] um so how do you get it to do what you
+
+[350.4 - 356.0] want well so what you can do then is one
+
+[353.68 - 357.759] shot um so what i've shown you up to
+
+[356.0 - 359.84] this point is zero shot where it's just
+
+[357.759 - 361.12] like let me just give you an initial
+
+[359.84 - 362.71999999999997] prompt and treat you like an
+
+[361.12 - 364.56] autocomplete engine just like you know
+
+[362.72 - 366.16] you hit the next thing on your your
+
+[364.56 - 367.12] keyboard and let it go and see what
+
+[366.16 - 368.47900000000004] happens
+
+[367.12 - 370.0] um
+
+[368.479 - 372.24] now what you can do then is what's
+
+[370.0 - 373.84] called a one shot prompt so one shot
+
+[372.24 - 376.479] prompt is where you give it one example
+
+[373.84 - 378.88] of what you want and then and then you
+
+[376.479 - 380.71999999999997] uh then you set it free so then i give
+
+[378.88 - 383.12] it an example brainstorm a list i have
+
+[380.72 - 386.47900000000004] ideas of how to survive on mars so now
+
+[383.12 - 390.0] let's brainstorm a list of ideas of ways
+
+[386.479 - 392.4] to survive on a deserted
+
+[390.0 - 392.4] island
+
+[392.96 - 396.23999999999995] okay so in this case it's called one
+
+[394.56 - 398.8] shot because i give it one example of
+
+[396.24 - 400.24] what i need and then
+
+[398.8 - 401.68] because it's basically a pattern
+
+[400.24 - 403.199] matching thing
+
+[401.68 - 405.52] it can keep going
+
+[403.199 - 406.639] so find food find water find shelter
+
+[405.52 - 408.15999999999997] find a way to communicate with the
+
+[406.639 - 411.12] outside world it basically gave me the
+
+[408.16 - 413.44] same kind of of information here
+
+[411.12 - 415.919] brainstorm a list of ideas to serve on a
+
+[413.44 - 417.759] deserted island and it repeated it so
+
+[415.919 - 420.56] you see these repetitions happening how
+
+[417.759 - 423.039] do you get that to stop here you can do
+
+[420.56 - 424.56] backslash n backslash n so that's
+
+[423.039 - 426.15999999999997] newline newline
+
+[424.56 - 429.039] so what will happen is if it gives you a
+
+[426.16 - 431.03900000000004] double new line it'll stop whoops
+
+[429.039 - 433.52] gather food and water find shelter oh
+
+[431.039 - 435.44] wait it didn't stop why didn't it stop i
+
+[433.52 - 436.639] wonder if it's um
+
+[435.44 - 438.96] rn
+
+[436.639 - 441.44] slash rn
+
+[438.96 - 444.479] so there's several ways that it can do
+
+[441.44 - 446.8] new lines so slash r is carriage return
+
+[444.479 - 450.4] and slash n is newline
+
+[446.8 - 452.56] um let's see if that works
+
+[450.4 - 455.039] nope still not stopping
+
+[452.56 - 457.919] what the actual heck
+
+[455.039 - 457.919] that's really weird
+
+[459.44 - 464.0] because the stop sequence should
+
+[462.08 - 466.8] unless it might be it might be treating
+
+[464.0 - 468.879] this like text let me do view code
+
+[466.8 - 471.52000000000004] oh yeah so see what it did is it escaped
+
+[468.879 - 473.52000000000004] my backslashes
+
+[471.52 - 475.35999999999996] so while we're here let me show you
+
+[473.52 - 477.12] something super useful if you're trying
+
+[475.36 - 479.039] to get if you if you get a result that
+
+[477.12 - 480.479] you like in here with all the settings
+
+[479.039 - 482.87899999999996] and stuff you just click view code and
+
+[480.479 - 485.039] it'll pop up and show you like oh look
+
+[482.879 - 486.56] here's the uh here's here's what you did
+
+[485.039 - 487.84] and so the stop sequence right here
+
+[486.56 - 490.96] where you see it says backslash
+
+[487.84 - 492.79999999999995] backslash n and backslash backslash n
+
+[490.96 - 494.08] that means it's escaping it so it's
+
+[492.8 - 495.91900000000004] removing it
+
+[494.08 - 498.0] as a regex so it's not evaluating it
+
+[495.919 - 500.0] like regex i want it to evaluate it like
+
+[498.0 - 501.919] regex but it's not gonna do that so
+
+[500.0 - 502.96] unfortunately that's not gonna work
+
+[501.919 - 504.479] um
+
+[502.96 - 507.599] brainstorm a list of ideas for a haunted
+
+[504.479 - 510.96] house now that's great um
+
+[507.599 - 512.88] uh okay so if we if we stick with this
+
+[510.96 - 515.279] we say all right so we're brainstorming
+
+[512.88 - 517.68] so then if we do few shot where we give
+
+[515.279 - 520.56] it a couple different examples
+
+[517.68 - 523.1999999999999] so let's go ahead and let it finish
+
+[520.56 - 523.1999999999999] finish this
+
+[523.279 - 525.519] okay
+
+[525.76 - 529.2] so then we say all right let's take out
+
+[527.6 - 530.88] survive and we're just saying this is
+
+[529.2 - 533.6800000000001] brainstorming and you notice how it's
+
+[530.88 - 536.48] doing four items for each it's copying
+
+[533.68 - 537.76] um it's copying the pattern exactly so
+
+[536.48 - 539.6] now we're going to give it two examples
+
+[537.76 - 541.4399999999999] where it's it's brainstorming entirely
+
+[539.6 - 543.6] different things brainstorm a list of
+
+[541.44 - 545.2] ideas of ways to survive on mars
+
+[543.6 - 548.5600000000001] brainstorm a list of ideas for a haunted
+
+[545.2 - 552.9590000000001] house uh let's see brainstorm a list of
+
+[548.56 - 554.959] ideas to solve climate change so
+
+[552.959 - 556.16] completely different domains
+
+[554.959 - 557.68] um
+
+[556.16 - 559.279] but i shouldn't even need to put in the
+
+[557.68 - 561.4399999999999] one because it will it will have seen
+
+[559.279 - 563.36] this pattern so remember it's
+
+[561.44 - 565.6800000000001] autocomplete it's an autocomplete engine
+
+[563.36 - 567.839] but it's also a pattern matching and
+
+[565.68 - 569.68] pattern generation engine
+
+[567.839 - 571.6800000000001] so that's how autocomplete works it says
+
+[569.68 - 573.279] oh i've seen this pattern before like if
+
+[571.68 - 575.1999999999999] you start it with a bbc news article it
+
+[573.279 - 577.6] says i've seen plenty of bbc articles
+
+[575.2 - 579.76] why because gbt3 was chained on you know
+
+[577.6 - 581.2] hundreds of gigabytes of internet data
+
+[579.76 - 582.8] um okay
+
+[581.2 - 584.399] plant trees change the way yep there you
+
+[582.8 - 586.0799999999999] go
+
+[584.399 - 588.839] um actually here i thought of a good
+
+[586.08 - 591.279] stop that we can use we can say
+
+[588.839 - 593.2790000000001] brainstorm a list
+
+[591.279 - 595.04] there that's gonna be our new stop
+
+[593.279 - 598.32] um okay
+
+[595.04 - 600.0799999999999] and so you can see like um i chose i
+
+[598.32 - 602.72] chose something that is gonna that is
+
+[600.08 - 604.88] gonna appear in a specific place and
+
+[602.72 - 606.88] that'll be my new stop so plant trees
+
+[604.88 - 608.56] change the way we produce energy change
+
+[606.88 - 611.6] the transportation system change how we
+
+[608.56 - 614.3199999999999] use energy um okay that's great these
+
+[611.6 - 616.0] are not the best the best examples um
+
+[614.32 - 617.36] because it's basically what it's copying
+
+[616.0 - 619.279] is the amount of effort put into each
+
+[617.36 - 620.72] one so like if we were to go back and
+
+[619.279 - 622.56] expand on each of these and i'll show
+
+[620.72 - 625.44] you in just a second what i mean
+
+[622.56 - 627.1999999999999] um then it would uh it would do better
+
+[625.44 - 630.5600000000001] all right so we're building up to a few
+
+[627.2 - 633.36] shot examples so in in the original
+
+[630.56 - 635.68] gpt3 what you'd have to do is in order
+
+[633.36 - 638.64] to get very consistent output you'd have
+
+[635.68 - 642.8] to give it several examples in every
+
+[638.64 - 645.04] single prompt and that gets real old
+
+[642.8 - 646.959] because you're basically training it
+
+[645.04 - 647.92] very quickly to do what you want so
+
+[646.959 - 650.399] let's do
+
+[647.92 - 652.24] brainstorm a list of
+
+[650.399 - 653.92] ideas to
+
+[652.24 - 655.76] uh let's see what are we going to try
+
+[653.92 - 656.88] and do um
+
+[655.76 - 661.279] let's see
+
+[656.88 - 663.279] something completely off the wall uh
+
+[661.279 - 667.2] build the fanciest
+
+[663.279 - 669.4399999999999] uh gaming pc ever
+
+[667.2 - 671.6800000000001] and then we'll take out that all right
+
+[669.44 - 672.839] we'll see what it does
+
+[671.68 - 675.12] okay that's not
+
+[672.839 - 676.48] particularly fascinating get the best
+
+[675.12 - 678.079] computer parts get the best gaming
+
+[676.48 - 679.9200000000001] monitor get the bet get a great gaming
+
+[678.079 - 682.7199999999999] mouse get a gaming keyboard
+
+[679.92 - 684.0] okay great whatever
+
+[682.72 - 685.76] none of these are particularly
+
+[684.0 - 687.519] impressive but the point here is to show
+
+[685.76 - 689.76] you the difference between zero shot one
+
+[687.519 - 691.519] shot and few shot prompting let me do a
+
+[689.76 - 693.519] quick time check all right we're at 11
+
+[691.519 - 695.44] minutes let's cut it off there
+
+[693.519 - 698.079] this will be a whole series but this is
+
+[695.44 - 700.0] just showing you the basics of think of
+
+[698.079 - 702.079] it as an autocomplete engine and there
+
+[700.0 - 704.8] are three primary types of problems it's
+
+[702.079 - 707.04] zero shot one shot and few shot once you
+
+[704.8 - 709.4399999999999] build up an intuition for how
+
+[707.04 - 712.079] um how these language models work then
+
+[709.44 - 714.5600000000001] you'll understand the value of like the
+
+[712.079 - 716.399] instruct series models and other ones
+
+[714.56 - 718.8] that are aligned and and how they're
+
+[716.399 - 721.2] fine-tuned and why that fine-tuning
+
+[718.8 - 723.04] makes them more useful in certain ways
+
+[721.2 - 724.5600000000001] all right thanks for watching uh like
+
+[723.04 - 726.639] and subscribe and consider supporting me
+
+[724.56 - 729.6389999999999] on patreon thanks and uh see you again
+
+[726.639 - 729.639] soon

@@ -1,0 +1,1439 @@
+[0.599 - 5.819] all right gang David Shapiro here uh we
+
+[3.48 - 10.08] are going to wrap up this uh tutorial
+
+[5.819 - 11.099] series on uh using chat GPT to code
+
+[10.08 - 14.4] um
+
+[11.099 - 16.02] so first though I need to do a couple of
+
+[14.4 - 18.060000000000002] plugs so one
+
+[16.02 - 20.939] um I just recorded a really great
+
+[18.06 - 22.32] podcast episode with Bax tea future
+
+[20.939 - 25.560000000000002] um that'll be coming out on his channel
+
+[22.32 - 28.439] uh probably later this week it was a
+
+[25.56 - 30.84] three and a half hour long conversation
+
+[28.439 - 34.38] um and uh we talked about the uh it was
+
+[30.84 - 37.44] it was in one one part was a recap of uh
+
+[34.38 - 39.78] 2022 in terms of AI and technology and
+
+[37.44 - 41.218999999999994] then we pivoted to talk about AI
+
+[39.78 - 43.079] startups because that's all the rage
+
+[41.219 - 44.76] right now
+
+[43.079 - 46.559] um yeah so look for we'll look for that
+
+[44.76 - 49.559] over on his channel
+
+[46.559 - 51.059] uh number two is I need to do a plug for
+
+[49.559 - 53.82] myself
+
+[51.059 - 55.919999999999995] um so one of my goals is to be able to
+
+[53.82 - 58.44] do this full time and I'm not going to
+
+[55.92 - 60.300000000000004] do it with ad Revenue so
+
+[58.44 - 61.98] um please consider jumping over to my
+
+[60.3 - 64.01899999999999] patreon page and supporting me on
+
+[61.98 - 66.0] patreon one person said that they were
+
+[64.019 - 67.38000000000001] confused by the levels they're they're
+
+[66.0 - 69.96] no different I just gave you different
+
+[67.38 - 72.36] options for level of support
+
+[69.96 - 74.58] um what I what I used to do was I used
+
+[72.36 - 77.28] to have where if you paid enough I would
+
+[74.58 - 78.9] like give you like one-on-one time but I
+
+[77.28 - 81.78] don't have enough time to do that so
+
+[78.9 - 83.58000000000001] instead I just added levels and and what
+
+[81.78 - 86.93900000000001] you do get if you support me on patreon
+
+[83.58 - 88.79899999999999] is access to my exclusive blog where
+
+[86.939 - 91.439] I'll give you Insider updates as to what
+
+[88.799 - 93.60000000000001] I'm up to some of my thoughts
+
+[91.439 - 95.939] um and also you get like Priority Access
+
+[93.6 - 97.74] because sometimes I'll ask my patreons
+
+[95.939 - 99.83999999999999] like hey can you connect me to something
+
+[97.74 - 101.78] or I want to talk to you guys
+
+[99.84 - 105.479] um so if you want to get on the inside
+
+[101.78 - 108.72] uh definitely hop over to patreon and
+
+[105.479 - 111.42] then lastly if you want to sync up
+
+[108.72 - 112.92] um and collaborate with me or my team
+
+[111.42 - 115.259] um please feel free to come and connect
+
+[112.92 - 117.42] with me on LinkedIn I checked LinkedIn
+
+[115.259 - 119.759] far more than Twitter or Discord
+
+[117.42 - 122.399] nowadays so with that out of the way
+
+[119.759 - 124.799] let's get back to what we were working
+
+[122.399 - 127.979] on so here's where we left off
+
+[124.799 - 131.34] uh nope you don't need to see my Spotify
+
+[127.979 - 134.459] um so we got to the point where we have
+
+[131.34 - 137.34] all of our all of our uh opinions broken
+
+[134.459 - 138.0] down into Json files
+
+[137.34 - 140.099] um
+
+[138.0 - 142.98] so let's see the biggest one is six
+
+[140.099 - 144.11999999999998] kilobytes that's not too big
+
+[142.98 - 145.98] um
+
+[144.12 - 148.37900000000002] and I got this one got cut off so it's
+
+[145.98 - 149.51999999999998] not this one's not even not even not
+
+[148.379 - 152.28] even good
+
+[149.52 - 152.94] um not even usable that's fine
+
+[152.28 - 155.94] um
+
+[152.94 - 158.57999999999998] this one got cut off as well part of
+
+[155.94 - 159.239] that was probably uh token limits
+
+[158.58 - 162.48000000000002] um
+
+[159.239 - 166.20000000000002] this one this one was finished so
+
+[162.48 - 167.819] uh yeah so a lot of this is not going to
+
+[166.2 - 170.099] be usable and remember this is like
+
+[167.819 - 171.78] rapid prototyping so
+
+[170.099 - 173.099] um I that's why I'm not that's why I'm
+
+[171.78 - 175.98] just kind of like going as fast as I can
+
+[173.099 - 177.78] and I'm not really like trying to make a
+
+[175.98 - 179.76] finished product
+
+[177.78 - 183.42] um but this is like proof of concept but
+
+[179.76 - 186.29999999999998] we do have some that are good or almost
+
+[183.42 - 190.5] really good at least so let's see what
+
+[186.3 - 193.14000000000001] we can do now I went to ask GPT chat GPT
+
+[190.5 - 195.9] uh how do we visualize it in a geffy so
+
+[193.14 - 198.659] I've seen people talk about geffy so I
+
+[195.9 - 200.4] went and downloaded it got it installed
+
+[198.659 - 203.04] um it's definitely like a free open
+
+[200.4 - 209.64000000000001] source one but unfortunately it only
+
+[203.04 - 213.72] uses gxf gex F or graphml or CSV but
+
+[209.64 - 215.94] we've got everything in in Json so if we
+
+[213.72 - 220.379] want to visualize any of these we've got
+
+[215.94 - 223.2] to do it in gex F I'm not sure what the
+
+[220.379 - 226.92] correct pronunciation is
+
+[223.2 - 228.56] um but graphic exchange or graph
+
+[226.92 - 232.26] Exchange
+
+[228.56 - 233.7] file so it's basically a type of XML so
+
+[232.26 - 237.12] let's see
+
+[233.7 - 237.83999999999997] let's talk to this guy and say Okay
+
+[237.12 - 241.08] um
+
+[237.84 - 243.36] I've got a folder called let's see what
+
+[241.08 - 245.84] did I call this folder kg underscore
+
+[243.36 - 245.84] Json
+
+[246.0 - 254.28] that is full of dot Json uh LD formatted
+
+[252.959 - 256.4] um
+
+[254.28 - 261.419] kg files
+
+[256.4 - 263.21999999999997] I need to convert them to gex F for
+
+[261.419 - 265.28] gephy
+
+[263.22 - 265.28000000000003] um
+
+[265.38 - 275.28] but here's the problem some of
+
+[270.3 - 277.199] the Json files are malformed
+
+[275.28 - 279.78] not completed
+
+[277.199 - 283.5] so we need to First
+
+[279.78 - 289.85999999999996] check if they render properly
+
+[283.5 - 294.0] if not we can ignore them and Skip them
+
+[289.86 - 297.18] but the second problem is they don't
+
+[294.0 - 297.78] all follow the same
+
+[297.18 - 301.86] um
+
+[297.78 - 305.419] the same uh let's see format
+
+[301.86 - 305.41900000000004] so let me show you what I mean
+
+[305.94 - 309.02] so for instance
+
+[310.1 - 318.86] in this one there's no graph element
+
+[314.52 - 318.85999999999996] but in others there are right
+
+[320.16 - 325.02000000000004] so there's there's no graph element in
+
+[322.139 - 327.90000000000003] this one but then we grab another one
+
+[325.02 - 330.35999999999996] um this one has similar oh and so by the
+
+[327.9 - 333.17999999999995] way this is why I say we need to keep
+
+[330.36 - 336.18] fine tuning is because when you get to
+
+[333.18 - 340.259] really specific cases like this
+
+[336.18 - 342.419] um you want a very consistent format
+
+[340.259 - 344.16] um and but just telling just telling it
+
+[342.419 - 346.62] instruct so here's here's an example
+
+[344.16 - 348.96000000000004] where there's context and like yeah they
+
+[346.62 - 350.699] there's different like methods anyways
+
+[348.96 - 352.02] so
+
+[350.699 - 353.759] um
+
+[352.02 - 357.59999999999997] foreign
+
+[353.759 - 359.96000000000004] some have let's see for instance some
+
+[357.6 - 359.96000000000004] have
+
+[361.02 - 367.919] uh graph properties and others don't
+
+[365.58 - 372.419] um we need to
+
+[367.919 - 374.82] write a python script that will
+
+[372.419 - 377.18] open them
+
+[374.82 - 381.12] validate um
+
+[377.18 - 381.78000000000003] and homogenize
+
+[381.12 - 385.759] um
+
+[381.78 - 385.75899999999996] we need the
+
+[385.86 - 390.12] the ultimate goal is to
+
+[389.4 - 394.79999999999995] um
+
+[390.12 - 398.28000000000003] output a single gex file
+
+[394.8 - 401.88] is this even possible
+
+[398.28 - 404.58] do we need to break this down into
+
+[401.88 - 407.78] multiple steps
+
+[404.58 - 407.78] all right let's see what it says
+
+[416.34 - 421.039] okay so it's going to walk through the
+
+[418.02 - 421.039] reasoning that it uses
+
+[423.06 - 430.759] okay there's a valid Pi LD uh python is
+
+[427.62 - 430.759] valid Json LD
+
+[435.96 - 441.85999999999996] Network X Library to create graph object
+
+[438.419 - 441.85999999999996] from the Json L data
+
+[450.3 - 456.24] cool okay so this just walked through
+
+[453.12 - 459.24] the entire process
+
+[456.24 - 461.34000000000003] um someone someone on the internet uh I
+
+[459.24 - 463.02] think it was on LinkedIn said uh
+
+[461.34 - 465.06] chat GPT is going to make everyone
+
+[463.02 - 467.039] dumber and lazier you should learn to do
+
+[465.06 - 469.259] it yourself and I definitely agree so
+
+[467.039 - 471.539] let's talk about this because this this
+
+[469.259 - 473.16] video is not going to take too long
+
+[471.539 - 475.199] um but let's talk about the implications
+
+[473.16 - 476.52000000000004] of this for a second I'm in this
+
+[475.199 - 479.34000000000003] headspace because I just had that
+
+[476.52 - 481.31899999999996] interview with Bax so
+
+[479.34 - 484.31899999999996] this just taught me a whole bunch of
+
+[481.319 - 487.259] stuff that I didn't know right
+
+[484.319 - 489.599] um I didn't know about the pi LD thing I
+
+[487.259 - 491.34000000000003] didn't know about Network X so I just
+
+[489.599 - 493.5] had a problem and I said help me solve
+
+[491.34 - 495.96] this problem now does that make me
+
+[493.5 - 498.479] Dumber right because I didn't go read
+
+[495.96 - 501.25899999999996] the hard way you know like I got you
+
+[498.479 - 505.02] know I downloaded uh the geffy you know
+
+[501.259 - 507.18] documentation but this is still like I
+
+[505.02 - 509.75899999999996] have to skim and and and you know it's
+
+[507.18 - 512.4590000000001] 32 Pages that's a lot of reading
+
+[509.759 - 513.659] what is ultimately valuable
+
+[512.459 - 518.159] time
+
+[513.659 - 519.539] is the most valuable uh commodity in all
+
+[518.159 - 520.8] of existence it's more precious than
+
+[519.539 - 523.26] gold
+
+[520.8 - 526.1999999999999] so the fact that this is able to help me
+
+[523.26 - 529.38] do more in less time
+
+[526.2 - 531.6600000000001] and I will learn some of the underlying
+
+[529.38 - 533.76] stuff in the wash right so here's the
+
+[531.66 - 537.6] thing is like we build machines to
+
+[533.76 - 539.279] abstract away uh uh some of our labor
+
+[537.6 - 540.72] right that's what computers do that's
+
+[539.279 - 542.9399999999999] why they have the name computer they
+
+[540.72 - 545.279] compute math that was how they started
+
+[542.94 - 547.98] was um what some of the first use cases
+
+[545.279 - 550.8] of mechanical computers was to calculate
+
+[547.98 - 553.08] firing solutions for for big navy guns
+
+[550.8 - 555.959] during World War II
+
+[553.08 - 557.58] and the women who did that who did all
+
+[555.959 - 559.26] the math they were called computers it
+
+[557.58 - 562.74] was the computer pool but it was human
+
+[559.26 - 565.98] computers anyways so we always build
+
+[562.74 - 568.44] machines to offload our mental labor so
+
+[565.98 - 570.24] this is just the next the next uh
+
+[568.44 - 572.339] iteration of that
+
+[570.24 - 575.88] um I'm now I'm not saying like this is
+
+[572.339 - 578.519] not the same as a TI-83 calculator this
+
+[575.88 - 581.3389999999999] is Miles beyond that but at the same
+
+[578.519 - 583.98] time this will ultimately allow me to do
+
+[581.339 - 586.399] more experiment faster and and generally
+
+[583.98 - 589.62] accelerate things and nobody bemoans
+
+[586.399 - 591.18] databases right like to me if someone's
+
+[589.62 - 593.22] complaining like oh this just makes you
+
+[591.18 - 594.54] lazy like that's about the same as
+
+[593.22 - 595.9200000000001] saying like oh well you should just
+
+[594.54 - 598.56] print everything out and manually
+
+[595.92 - 600.66] collate your database like no we're not
+
+[598.56 - 603.3599999999999] going to do that use SQL
+
+[600.66 - 604.92] um and so to me it's like and and I'm
+
+[603.36 - 607.2] saying this as someone who is typically
+
+[604.92 - 609.0] like a Luddite like I am the last person
+
+[607.2 - 610.6800000000001] to adopt new technologies usually
+
+[609.0 - 612.36] especially in my day job in my
+
+[610.68 - 615.779] professional life because you know what
+
+[612.36 - 618.24] new stuff fragile and it breaks and it's
+
+[615.779 - 620.88] expensive and it's difficult to
+
+[618.24 - 622.5600000000001] integrate whatever etc etc but this is
+
+[620.88 - 625.32] different Chad GPT is different because
+
+[622.56 - 627.1199999999999] this is helping me do better here I'm
+
+[625.32 - 631.019] going to give you a nice little Kudos
+
+[627.12 - 632.4590000000001] feedback this is great
+
+[631.019 - 635.1] I don't know why they have why you have
+
+[632.459 - 637.68] to like all you need is a true false all
+
+[635.1 - 641.339] right actually no I bet they're they're
+
+[637.68 - 643.3199999999999] asking you why because that is a Even
+
+[641.339 - 645.5400000000001] Better Label and they can improve it
+
+[643.32 - 647.4590000000001] further anyways
+
+[645.54 - 650.0999999999999] so
+
+[647.459 - 652.1999999999999] all right get off my soapbox that's not
+
+[650.1 - 654.5400000000001] why y'all are here let's move on excuse
+
+[652.2 - 657.9590000000001] me okay so
+
+[654.54 - 660.899] this is fine use it to to parse and load
+
+[657.959 - 662.579] it into python dictionary that's fine
+
+[660.899 - 666.899] um all right so
+
+[662.579 - 669.12] uh let's see great idea let's start with
+
+[666.899 - 673.74] the first script
+
+[669.12 - 675.12] um this first one we'll use Json module
+
+[673.74 - 678.36] to
+
+[675.12 - 683.399] try to load the Json
+
+[678.36 - 684.24] um we should use a try accept Clause
+
+[683.399 - 686.459] um
+
+[684.24 - 688.92] in case it
+
+[686.459 - 690.2399999999999] blows up
+
+[688.92 - 694.26] um
+
+[690.24 - 696.36] if the Json doesn't even load we can
+
+[694.26 - 698.76] move on
+
+[696.36 - 701.1] um okay cool
+
+[698.76 - 703.16] next
+
+[701.1 - 703.16] um
+
+[703.32 - 708.779] let's see
+
+[704.76 - 713.36] once the Json object is loaded into
+
+[708.779 - 713.36] memory then please
+
+[713.399 - 722.82] please use the pi LD
+
+[717.079 - 725.399] Library function is valid Json
+
+[722.82 - 729.8000000000001] uh LD
+
+[725.399 - 734.82] um to check if it is legit
+
+[729.8 - 736.16] assuming it passes that
+
+[734.82 - 739.399] um
+
+[736.16 - 739.399] let's see
+
+[739.86 - 742.4590000000001] yep
+
+[742.98 - 747.779] uh assuming it passes that uh well
+
+[746.16 - 749.459] actually here
+
+[747.779 - 751.56] um
+
+[749.459 - 754.26] please write
+
+[751.56 - 756.0] this script
+
+[754.26 - 758.399] um
+
+[756.0 - 760.019] yeah
+
+[758.399 - 761.339] and then while it's doing that I'm going
+
+[760.019 - 767.0600000000001] to go ahead and see if I need to install
+
+[761.339 - 767.0600000000001] anything so pip install Pi LD
+
+[776.76 - 781.62] and then let's see what else did I need
+
+[779.1 - 783.6] we need
+
+[781.62 - 786.42] um I think that's as far as we need
+
+[783.6 - 789.6800000000001] right now so let's do uh pip install
+
+[786.42 - 789.68] Network X
+
+[792.5 - 795.68] all right
+
+[798.54 - 802.74] this looks good
+
+[800.7 - 806.12] we're going to need to add the uh
+
+[802.74 - 806.12] encoding utf-8
+
+[816.56 - 821.2199999999999] okay so it'll tell us if it is valid and
+
+[820.079 - 822.899] if not
+
+[821.22 - 825.5] excellent so let's go ahead and give
+
+[822.899 - 825.5] this a try
+
+[827.519 - 833.0600000000001] um
+
+[828.72 - 833.0600000000001] so then we'll save this here as
+
+[834.0 - 839.76] step O3
+
+[835.82 - 841.62] validate Json dot pi
+
+[839.76 - 844.22] excuse me all right and then let's come
+
+[841.62 - 849.0600000000001] over here and zoom in a little bit
+
+[844.22 - 852.1800000000001] and we'll do uh CD to scotus
+
+[849.06 - 854.88] and then we'll do python
+
+[852.18 - 857.76] wow sorry my typing is horrible
+
+[854.88 - 859.5] I think I moved my keyboard around and
+
+[857.76 - 861.48] it's like just slightly to the left and
+
+[859.5 - 863.339] so like my fingers are wrong muscle
+
+[861.48 - 867.24] memory is everything man all right
+
+[863.339 - 868.98] python uh what was that step
+
+[867.24 - 871.5] I have two step threes that's that's
+
+[868.98 - 873.24] incorrect that's gonna mess with my my
+
+[871.5 - 874.56] OCD
+
+[873.24 - 876.54] sorry buddy
+
+[874.56 - 877.9799999999999] step o4
+
+[876.54 - 881.519] no don't keep it in that's the wrong
+
+[877.98 - 883.86] pile all right come back here step 04
+
+[881.519 - 887.579] my counting is off my typing is off it's
+
+[883.86 - 888.779] fine I'm doing great doing great sweetie
+
+[887.579 - 892.26] all right
+
+[888.779 - 895.32] no maitha has no is valid Json LD so it
+
+[892.26 - 897.38] just made that up okay
+
+[895.32 - 897.38] um
+
+[897.66 - 900.74] let's see
+
+[905.339 - 912.0600000000001] um let's see
+
+[907.459 - 913.199] okay we got an error
+
+[912.06 - 917.18] um
+
+[913.199 - 917.18] are you sure this is a real function
+
+[921.54 - 927.7199999999999] this might be harder than I thought
+
+[924.3 - 929.88] chat gbt loading wheel
+
+[927.72 - 930.59] I'm sorry Dave I can't let you ask that
+
+[929.88 - 935.28] question Dave
+
+[930.59 - 935.2800000000001] [Laughter]
+
+[935.399 - 938.6] it's gonna get mad at me
+
+[945.66 - 949.04] all right let's see if it works
+
+[958.32 - 963.44] we might not even need to um validate it
+
+[964.56 - 970.699] uh because if it if it does have a
+
+[967.139 - 970.699] function that allows us to convert
+
+[971.76 - 977.06] if Json LD error
+
+[974.519 - 977.0600000000001] okay
+
+[982.68 - 985.699] all right let's try this
+
+[986.459 - 990.54] oh and also I just remembered that we
+
+[988.68 - 991.9799999999999] need to replace
+
+[990.54 - 993.68] we need to do
+
+[991.98 - 996.0600000000001] um
+
+[993.68 - 999.06] encoding equals
+
+[996.06 - 999.06] utf-8
+
+[999.6 - 1004.779] anytime we have an open
+
+[1002.72 - 1004.779] um
+
+[1004.94 - 1008.6600000000001] statement we need to do that because I
+
+[1007.1 - 1011.48] encode everything in utf-8 all right
+
+[1008.66 - 1015.38] let's try this again
+
+[1011.48 - 1016.4590000000001] uh has no module validate that's fine
+
+[1015.38 - 1019.639] um
+
+[1016.459 - 1021.279] so in this case like it would be great
+
+[1019.639 - 1026.059] if it had that function but it doesn't
+
+[1021.279 - 1026.959] okay so do do do do
+
+[1026.059 - 1030.52] um
+
+[1026.959 - 1030.52] Let's ignore
+
+[1031.16 - 1036.26] it didn't work either
+
+[1033.699 - 1038.66] Let's ignore
+
+[1036.26 - 1044.36] the validate step
+
+[1038.66 - 1046.52] after all uh python pep 8 says it's or I
+
+[1044.36 - 1050.12] don't know if it's pep 8 um
+
+[1046.52 - 1052.04] uh python philosophy
+
+[1050.12 - 1055.82] says
+
+[1052.04 - 1057.6789999999999] it's better to ask forgiveness
+
+[1055.82 - 1062.539] then permission
+
+[1057.679 - 1064.22] so instead of validating let's just try
+
+[1062.539 - 1068.539] to convert it
+
+[1064.22 - 1070.16] directly to GIF X
+
+[1068.539 - 1073.24] um
+
+[1070.16 - 1073.24] is that the file type
+
+[1073.96 - 1079.419] FX yeah so let's just try and convert it
+
+[1077.48 - 1085.88] directly to GIF X
+
+[1079.419 - 1087.5200000000002] again using a try accept Clause
+
+[1085.88 - 1093.5800000000002] um
+
+[1087.52 - 1093.58] uh I'd like you to update
+
+[1096.559 - 1100.1789999999999] yeah
+
+[1097.64 - 1100.179] dude
+
+[1100.22 - 1107.6000000000001] I'd like you to update the try except
+
+[1103.46 - 1111.799] Clauses to catch the errors and print
+
+[1107.6 - 1114.6789999999999] them so I can see what happened
+
+[1111.799 - 1118.34] so in total
+
+[1114.679 - 1124.64] this script should be simpler
+
+[1118.34 - 1129.74] um try to load the Json and then try to
+
+[1124.64 - 1132.3200000000002] convert to GIF X in both steps I output
+
+[1129.74 - 1133.22] any errors
+
+[1132.32 - 1136.9399999999998] um
+
+[1133.22 - 1139.82] if it is successful
+
+[1136.94 - 1141.8600000000001] um actually yeah
+
+[1139.82 - 1145.76] uh
+
+[1141.86 - 1147.6789999999999] just print the results as we go for this
+
+[1145.76 - 1149.299] script okay
+
+[1147.679 - 1151.16] so let's see what it does so basically
+
+[1149.299 - 1152.66] what I'm doing is I'm I'm having it
+
+[1151.16 - 1153.98] write a script to do an experiment just
+
+[1152.66 - 1157.16] to see if it'll get all the way through
+
+[1153.98 - 1159.2] because since the cognitive labor is
+
+[1157.16 - 1161.3600000000001] less on me I'm like just write this
+
+[1159.2 - 1161.919] script let's see what happens right
+
+[1161.36 - 1164.4189999999999] um
+
+[1161.919 - 1166.8200000000002] as I was talking to some people about
+
+[1164.419 - 1170.0] this kind of technology I realized we
+
+[1166.82 - 1172.7] are infinitely closer to having Star
+
+[1170.0 - 1174.86] Trek level computers than anyone
+
+[1172.7 - 1176.96] realizes or maybe maybe we do realize
+
+[1174.86 - 1179.8999999999999] that's why that's why it's uh it's
+
+[1176.96 - 1182.0] exciting because with just a little bit
+
+[1179.9 - 1183.44] more logic behind this I could say
+
+[1182.0 - 1185.66] computer
+
+[1183.44 - 1187.94] um download all the Supreme Court
+
+[1185.66 - 1191.0] opinions uh about
+
+[1187.94 - 1194.1200000000001] um about uh Anti-Trust laws you know and
+
+[1191.0 - 1195.44] chat GPT says okay cool uh and I can if
+
+[1194.12 - 1197.0] you give it an internet connection it
+
+[1195.44 - 1199.64] can go find it and go find that data
+
+[1197.0 - 1201.32] download it you say okay cool uh what's
+
+[1199.64 - 1203.1200000000001] the what does the data look like you
+
+[1201.32 - 1205.52] know computer says it's in PDF format
+
+[1203.12 - 1207.3799999999999] cool scrape it and it goes from there
+
+[1205.52 - 1208.52] and it says okay now what do you want me
+
+[1207.38 - 1210.3200000000002] to do right and you just have a
+
+[1208.52 - 1212.24] conversation with the machine this is
+
+[1210.32 - 1215.0] capable of that just with a little bit
+
+[1212.24 - 1218.559] more behind the scenes
+
+[1215.0 - 1218.559] okay let's see
+
+[1226.58 - 1229.36] excellent
+
+[1231.14 - 1237.0800000000002] I love it so by it by rapidly iterating
+
+[1234.44 - 1238.94] and I have done no coding except for
+
+[1237.08 - 1240.26] adding the uh the encoding thing
+
+[1238.94 - 1240.919] actually here
+
+[1240.26 - 1243.2] um
+
+[1240.919 - 1247.419] great
+
+[1243.2 - 1251.66] I just need you to make one last change
+
+[1247.419 - 1255.919] and that is to always include
+
+[1251.66 - 1258.98] um encoding equals UTF
+
+[1255.919 - 1261.3200000000002] actually I think it's lowercase utf-8
+
+[1258.98 - 1264.94] um while
+
+[1261.32 - 1270.1399999999999] opening reading and writing files
+
+[1264.94 - 1271.22] everything is uh in UTF eight
+
+[1270.14 - 1275.9] um
+
+[1271.22 - 1278.66] so let's just set that as standard
+
+[1275.9 - 1281.5] for all our Scripts
+
+[1278.66 - 1281.5] Hello computer
+
+[1282.02 - 1286.28] would that be worth something to you
+
+[1284.12 - 1288.86] okay
+
+[1286.28 - 1290.84] so if so I was when I was talking with
+
+[1288.86 - 1293.0] Bax one of the things he said is he
+
+[1290.84 - 1295.039] suspects that chat GPT has a scratch Pad
+
+[1293.0 - 1296.48] so what does that mean in technical
+
+[1295.039 - 1297.98] terms it doesn't mean that it's writing
+
+[1296.48 - 1300.2] on a notepad although that would be cool
+
+[1297.98 - 1302.78] but what it what it what it could mean
+
+[1300.2 - 1305.179] is that if if it does have a sidebar
+
+[1302.78 - 1307.7] document where it can remember critical
+
+[1305.179 - 1311.0] pieces of information regardless of how
+
+[1307.7 - 1312.38] long the conversation gets so
+
+[1311.0 - 1314.36] um if it does have that then it's like
+
+[1312.38 - 1316.8200000000002] hey let me just keep track of you know
+
+[1314.36 - 1319.039] the top 10 most important facts about
+
+[1316.82 - 1320.48] this conversation
+
+[1319.039 - 1323.98] um
+
+[1320.48 - 1323.98] but yeah let's see if it works
+
+[1329.659 - 1332.9] all right
+
+[1331.46 - 1334.7] cool
+
+[1332.9 - 1336.74] so let's come back here
+
+[1334.7 - 1340.76] and do this
+
+[1336.74 - 1344.0] validate Json so look at this 28 lines
+
+[1340.76 - 1346.46] not bad what am I doing run the script
+
+[1344.0 - 1348.799] just run the script
+
+[1346.46 - 1350.96] error while converting
+
+[1348.799 - 1353.559] so it looked like all of them failed but
+
+[1350.96 - 1353.559] it did something
+
+[1354.44 - 1360.26] um yeah this is not bad not bad at all
+
+[1357.5 - 1363.32] uh it what might behoove us
+
+[1360.26 - 1365.96] so if I if if I were doing this project
+
+[1363.32 - 1367.3999999999999] let's say for instance I I think I got
+
+[1365.96 - 1369.38] as far as I can get but let me show you
+
+[1367.4 - 1371.0590000000002] what I would do
+
+[1369.38 - 1372.44] um so let's let's rewind a little bit
+
+[1371.059 - 1374.24] because I think I think that this is
+
+[1372.44 - 1375.26] just going to blow up
+
+[1374.24 - 1377.059] um
+
+[1375.26 - 1378.919] yeah I don't think it didn't succeed on
+
+[1377.059 - 1380.96] a single one of them
+
+[1378.919 - 1382.5800000000002] um so clearly there's some fragility
+
+[1380.96 - 1384.919] here
+
+[1382.58 - 1386.78] um we got to Json files but they're all
+
+[1384.919 - 1389.6000000000001] inconsistent and they're all different
+
+[1386.78 - 1392.12] sizes and so on so what we would need to
+
+[1389.6 - 1394.6999999999998] do is when we're extracting the the
+
+[1392.12 - 1397.82] knowledge graph what we would need to do
+
+[1394.7 - 1398.96] is probably come here and specify a
+
+[1397.82 - 1402.2] format
+
+[1398.96 - 1404.3600000000001] now the problem here is if we use few
+
+[1402.2 - 1405.799] shot so this is why I say we need fine
+
+[1404.36 - 1407.6] tuning
+
+[1405.799 - 1409.6399999999999] um if we use few shot we're going to run
+
+[1407.6 - 1412.1] out of tokens and even if they double
+
+[1409.64 - 1414.5590000000002] the token the token count we're still
+
+[1412.1 - 1416.8999999999999] gonna like the more tokens we can fit in
+
+[1414.559 - 1419.1789999999999] at once the better
+
+[1416.9 - 1420.919] um and but now so there's Pro there's
+
+[1419.179 - 1423.3200000000002] probably some intermediary steps right
+
+[1420.919 - 1425.72] because rather than just going straight
+
+[1423.32 - 1428.539] from documents to knowledge graphs which
+
+[1425.72 - 1431.059] it worked right worked rather well but
+
+[1428.539 - 1432.74] the process is fragile we might need to
+
+[1431.059 - 1435.6789999999999] have other intermediary steps such as
+
+[1432.74 - 1437.9] distilling the information down so let
+
+[1435.679 - 1439.22] me let me show you what I mean by that
+
+[1437.9 - 1442.4] um here let me pause it for just a
+
+[1439.22 - 1444.799] second as I change workspaces
+
+[1442.4 - 1446.96] okay we're right back all right so I
+
+[1444.799 - 1448.7] took one of these chunks it's 7 600
+
+[1446.96 - 1451.82] characters long
+
+[1448.7 - 1455.0] um so rather than go straight to
+
+[1451.82 - 1456.799] Knowledge Graph let's see let's do some
+
+[1455.0 - 1459.14] prompt engineering and see because like
+
+[1456.799 - 1462.98] we basically have to start over
+
+[1459.14 - 1466.1000000000001] um all right so uh there's there's a lot
+
+[1462.98 - 1467.84] of Superfluous information so
+
+[1466.1 - 1470.0] um let's see how did I word this prompt
+
+[1467.84 - 1470.78] this is a super valuable prompt by the
+
+[1470.0 - 1473.179] way
+
+[1470.78 - 1474.44] and I don't mind sharing it because I've
+
+[1473.179 - 1477.26] talked to other people and they've
+
+[1474.44 - 1479.059] figured it out so this is this is this
+
+[1477.26 - 1480.679] is the most valuable one of the most
+
+[1479.059 - 1484.94] valuable prompts I have ever figured out
+
+[1480.679 - 1486.38] so write notes about the following uh
+
+[1484.94 - 1487.22] document
+
+[1486.38 - 1491.659] um
+
+[1487.22 - 1495.44] uh let's see use bullet points
+
+[1491.659 - 1497.179] um in complete sentences
+
+[1495.44 - 1500.559] um I think that's all you need
+
+[1497.179 - 1500.5590000000002] and then you say notes
+
+[1505.039 - 1509.419] so this compression method
+
+[1508.58 - 1512.96] um
+
+[1509.419 - 1514.76] usually is like the best way to compress
+
+[1512.96 - 1517.3400000000001] anything
+
+[1514.76 - 1518.9] um yeah now one thing I don't like is
+
+[1517.34 - 1521.6] that it actually used the actual bullet
+
+[1518.9 - 1523.659] point character rather than a dash
+
+[1521.6 - 1523.6589999999999] um
+
+[1523.7 - 1527.299] use bullet points in complete sentences
+
+[1525.74 - 1529.1] use
+
+[1527.299 - 1531.679] um
+
+[1529.1 - 1535.0] hyphen uh
+
+[1531.679 - 1535.0] or the point
+
+[1535.22 - 1540.32] so this is like you know blah blah so
+
+[1538.46 - 1542.779] just it's a list of assertions Cedric
+
+[1540.32 - 1545.059] Kushner promotions does this Don King is
+
+[1542.779 - 1547.88] the president of that uh petitioner Don
+
+[1545.059 - 1551.44] King allegedly that he had done this as
+
+[1547.88 - 1551.44] a part through a RICO pattern
+
+[1551.539 - 1557.6] petitioner Sue Don King but this is not
+
+[1554.419 - 1559.159] good right this is the the so the the
+
+[1557.6 - 1561.26] reason I'm okay with sharing this is
+
+[1559.159 - 1564.6200000000001] because while this is a really powerful
+
+[1561.26 - 1565.94] prompt it's not quite Universal and the
+
+[1564.62 - 1567.559] reason that it's not Universal is
+
+[1565.94 - 1570.98] because you still lose a little bit too
+
+[1567.559 - 1573.74] much context and so you always have to
+
+[1570.98 - 1575.419] modify this prompt
+
+[1573.74 - 1578.659] um so the second circuit expressed The
+
+[1575.419 - 1580.64] View that 1862 is blah blah blah
+
+[1578.659 - 1582.7990000000002] um great so we're getting we're getting
+
+[1580.64 - 1586.159] some of this but for instance we lost
+
+[1582.799 - 1587.24] like the title right like what what is
+
+[1586.159 - 1587.96] going on
+
+[1587.24 - 1591.5] um
+
+[1587.96 - 1593.6000000000001] so we we lost this so um we need to say
+
+[1591.5 - 1595.88] like what is the document about we need
+
+[1593.6 - 1600.08] to include all details
+
+[1595.88 - 1604.159] um such as uh yeah so I'll just tell you
+
+[1600.08 - 1608.12] include all details such as uh titles
+
+[1604.159 - 1609.2] citations uh dates and so on
+
+[1608.12 - 1611.6] um
+
+[1609.2 - 1614.419] so that should work
+
+[1611.6 - 1616.82] so from the last time
+
+[1614.419 - 1618.919] um we stopped here right and then I've
+
+[1616.82 - 1620.6589999999999] doubled the length of the instruction so
+
+[1618.919 - 1622.7] I also want to point out this
+
+[1620.659 - 1625.5800000000002] instruction would not work in text
+
+[1622.7 - 1630.2] DaVinci O2 these instructions only work
+
+[1625.58 - 1633.279] now with text DaVinci 03.
+
+[1630.2 - 1633.279] all right so let's see what happens
+
+[1634.4 - 1639.2] there we go
+
+[1636.32 - 1641.96] see how the sentences are much longer
+
+[1639.2 - 1644.539] so Cedric Kushner Productions uh V King
+
+[1641.96 - 1645.679] is a case from October term 2000 which
+
+[1644.539 - 1647.9] the Supreme Court of the United States
+
+[1645.679 - 1649.3400000000001] reversed and remanded the decision of
+
+[1647.9 - 1652.4] the United States courts of appeals for
+
+[1649.34 - 1654.6789999999999] the second circuit bam perfect
+
+[1652.4 - 1656.48] perfect so this is the kind of
+
+[1654.679 - 1658.7] information it's almost even written
+
+[1656.48 - 1662.059] like a lawyer would speak right this
+
+[1658.7 - 1664.159] tells you real fast in very plain
+
+[1662.059 - 1667.1] language what happened
+
+[1664.159 - 1671.2990000000002] so this is information that that is one
+
+[1667.1 - 1673.039] useful and two could be embedded in a um
+
+[1671.299 - 1675.08] in a knowledge graph or could be used to
+
+[1673.039 - 1676.7] extract the information now let me show
+
+[1675.08 - 1678.32] you something
+
+[1676.7 - 1680.0] um
+
+[1678.32 - 1682.82] so actually this is actually a really
+
+[1680.0 - 1683.539] good prompt I'm going to save this
+
+[1682.82 - 1685.1] um
+
+[1683.539 - 1686.9] whenever you come up with a really good
+
+[1685.1 - 1688.779] prompt save it
+
+[1686.9 - 1692.8400000000001] um
+
+[1688.779 - 1694.9] prompt notes detailed
+
+[1692.84 - 1694.8999999999999] um
+
+[1695.24 - 1703.419] yeah so we took we took let me let's do
+
+[1698.72 - 1703.419] some token counts so we took uh
+
+[1706.7 - 1710.96] all right so without it it is 1966
+
+[1709.64 - 1713.2990000000002] tokens
+
+[1710.96 - 1717.38] and then we combat we compress that down
+
+[1713.299 - 1720.26] to 221 tokens so we got a um a
+
+[1717.38 - 1722.96] compression ratio of almost 10 to 1 and
+
+[1720.26 - 1725.48] we kept the most saline details and
+
+[1722.96 - 1728.48] those Salient details were were kept
+
+[1725.48 - 1730.46] with enough context that like it's still
+
+[1728.48 - 1733.46] useful like you read this and it's like
+
+[1730.46 - 1735.3400000000001] oh this is a great executive summary
+
+[1733.46 - 1737.8400000000001] um so there you go
+
+[1735.34 - 1740.02] uh so that this is probably the
+
+[1737.84 - 1742.58] direction that I would go like rewind
+
+[1740.02 - 1745.6399999999999] let's take this and instead of going to
+
+[1742.58 - 1748.6399999999999] Json let's try and do this with uh with
+
+[1745.64 - 1749.48] um uh gex F uh I think you guys get the
+
+[1748.64 - 1751.46] point
+
+[1749.48 - 1754.279] um and also we're already like at 30
+
+[1751.46 - 1756.44] minutes so we'll say that we uh we'll
+
+[1754.279 - 1758.0] call this a partial success we got
+
+[1756.44 - 1761.24] really far
+
+[1758.0 - 1764.539] um we got uh exceptional use of of chat
+
+[1761.24 - 1766.94] GPT we found a huge fragility
+
+[1764.539 - 1769.8799999999999] um it was confabulating uh modules and
+
+[1766.94 - 1772.039] functions that didn't exist now
+
+[1769.88 - 1774.2] this isn't necessarily a bad thing so
+
+[1772.039 - 1776.74] let me tell you why is because it used
+
+[1774.2 - 1779.299] its imagination and I'm anthropical and
+
+[1776.74 - 1781.82] anthropomorphizing it on purpose it used
+
+[1779.299 - 1783.62] its imagination to imagine this is what
+
+[1781.82 - 1784.8799999999999] we would need and then it just kind of
+
+[1783.62 - 1788.0] went and looked for it
+
+[1784.88 - 1789.8600000000001] now here's the thing it doesn't take a
+
+[1788.0 - 1791.659] whole lot of cognitive architecture to
+
+[1789.86 - 1793.6999999999998] find those mistakes and then say
+
+[1791.659 - 1795.3200000000002] actually this is something that would be
+
+[1793.7 - 1797.779] great if it existed why don't I go write
+
+[1795.32 - 1799.8799999999999] it right and so then it you know it
+
+[1797.779 - 1802.159] keeps track of its dependencies it could
+
+[1799.88 - 1804.38] write its own user stories right say
+
+[1802.159 - 1805.8200000000002] here actually let me just show you
+
+[1804.38 - 1809.48] um okay
+
+[1805.82 - 1813.6789999999999] um uh think about everything that didn't
+
+[1809.48 - 1816.32] work write some user stories
+
+[1813.679 - 1820.64] um to submit to various
+
+[1816.32 - 1825.799] uh projects like Pi LD
+
+[1820.64 - 1825.7990000000002] um and network x uh
+
+[1826.039 - 1831.44] um
+
+[1827.419 - 1834.22] uh that would have made this project
+
+[1831.44 - 1834.22] easier
+
+[1836.059 - 1840.44] I think this is going to work because
+
+[1837.86 - 1841.8799999999999] here's the thing by breaking it down
+
+[1840.44 - 1843.8600000000001] into steps
+
+[1841.88 - 1846.2] there we go
+
+[1843.86 - 1848.6] yes yes yes look at this look at this
+
+[1846.2 - 1850.76] look at this okay so even if something
+
+[1848.6 - 1852.62] doesn't work it doesn't have to
+
+[1850.76 - 1855.799] necessarily fix it
+
+[1852.62 - 1857.7199999999998] um live in Vivo right this is the
+
+[1855.799 - 1860.179] process that we follow as humans there's
+
+[1857.72 - 1864.799] no need to actually just like
+
+[1860.179 - 1866.8400000000001] um excuse me to to fix it live it's I
+
+[1864.799 - 1868.7] ran into a problem let's fire this off
+
+[1866.84 - 1870.08] and then have another system integrate
+
+[1868.7 - 1873.559] these
+
+[1870.08 - 1874.82] um look at this oh man oh man as a
+
+[1873.559 - 1876.5] developer I want to be able to validate
+
+[1874.82 - 1878.059] Json LD data without having to manually
+
+[1876.5 - 1880.46] Catch Air so that I can quickly identify
+
+[1878.059 - 1881.6] and fix issues with my data yes as a
+
+[1880.46 - 1883.94] developer I want to be able to easily
+
+[1881.6 - 1885.1399999999999] convert Json LD data to a standardized
+
+[1883.94 - 1886.3990000000001] format so that I can process and
+
+[1885.14 - 1889.22] visualize the data consistently
+
+[1886.399 - 1891.86] regardless of its original format yes
+
+[1889.22 - 1893.419] perfect developer story or user story as
+
+[1891.86 - 1895.039] a developer I want to have simple and
+
+[1893.419 - 1896.659] intuitive way to create and save
+
+[1895.039 - 1899.0] knowledge graphs in a variety of formats
+
+[1896.659 - 1900.2] such as gex F so that I can use the tool
+
+[1899.0 - 1902.419] that is most suitable for my needs
+
+[1900.2 - 1904.3400000000001] excellent Universal converter as a
+
+[1902.419 - 1906.14] developer I want to have access to to a
+
+[1904.34 - 1907.6399999999999] wide range of layout algorithms and
+
+[1906.14 - 1908.96] visualization options so they can create
+
+[1907.64 - 1910.5800000000002] clear and informative visuals of my
+
+[1908.96 - 1912.559] knowledge graphs that's already solved
+
+[1910.58 - 1914.0] but great as a developer I want to be
+
+[1912.559 - 1915.08] able to easily filter and analyze my
+
+[1914.0 - 1916.82] knowledge graph so that I can gain
+
+[1915.08 - 1920.12] insights into the relationships between
+
+[1916.82 - 1923.86] different nodes and edges fantastic
+
+[1920.12 - 1923.86] these first four or three
+
+[1924.32 - 1928.76] um
+
+[1926.0 - 1930.559] perfect okay I'm gonna stop here because
+
+[1928.76 - 1932.419] I'm about to go down a really deep
+
+[1930.559 - 1933.86] rabbit hole but I think I know what my
+
+[1932.419 - 1937.22] next videos are going to be and that is
+
+[1933.86 - 1939.1399999999999] using chat GPT for every aspect of the
+
+[1937.22 - 1943.279] development life cycle we're going to
+
+[1939.14 - 1946.3990000000001] explore agile cicd web native all that
+
+[1943.279 - 1949.12] because this is incredible alright
+
+[1946.399 - 1949.12] thanks for watching

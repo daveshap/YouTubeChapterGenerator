@@ -1,0 +1,2243 @@
+[1.079 - 5.22] morning everybody David Shapiro here
+
+[3.3 - 7.76] with a video
+
+[5.22 - 10.559000000000001] um so today's video is about
+
+[7.76 - 12.719] decentralized economics uh as in
+
+[10.559 - 14.879999999999999] particular with AI blockchain and
+
+[12.719 - 17.52] distributed autonomous organizations
+
+[14.88 - 19.14] now with the rapid proliferation of
+
+[17.52 - 22.02] artificial intelligence particularly
+
+[19.14 - 25.080000000000002] tools like chat gbt people are starting
+
+[22.02 - 27.84] to understand what's coming and what I
+
+[25.08 - 29.759999999999998] mean by that is that more and more
+
+[27.84 - 32.04] people are automating aspects of their
+
+[29.76 - 35.1] job including writing emails reading
+
+[32.04 - 38.64] emails tickets coding all that kind of
+
+[35.1 - 41.399] stuff and so as these agents become more
+
+[38.64 - 44.04] and more autonomous folks are waking up
+
+[41.399 - 45.84] to the fact that eventually and by
+
+[44.04 - 49.8] eventually I mean like later this month
+
+[45.84 - 52.14] probably uh AI is going to be spending
+
+[49.8 - 54.78] more time talking to other AI than it
+
+[52.14 - 57.84] will be talking to humans and in this
+
+[54.78 - 60.539] case trust and security become a major
+
+[57.84 - 62.52] issue there's comments all over the
+
+[60.539 - 63.96] place Twitter Reddit and so on people
+
+[62.52 - 66.72] are like how are we going to trust that
+
+[63.96 - 70.02] anything we read was written by a human
+
+[66.72 - 71.28] the answer is blockchained based
+
+[70.02 - 73.67999999999999] Technologies such as distributed
+
+[71.28 - 76.43900000000001] autonomous organizations and nfts we're
+
+[73.68 - 78.24000000000001] not going to get into nfts to day let me
+
+[76.439 - 80.39999999999999] know if you want that as a future topic
+
+[78.24 - 81.96] but basically I think that all human
+
+[80.4 - 84.72] content on the internet will eventually
+
+[81.96 - 86.939] be nfts and so that you'll have a chain
+
+[84.72 - 89.759] of custody of who created it when and
+
+[86.939 - 92.1] what created it uh anyways uh going down
+
+[89.759 - 94.14] that rabbit hole so this meme pretty
+
+[92.1 - 96.24] much illustrates where we're at right
+
+[94.14 - 99.06] now but just take it one step further
+
+[96.24 - 101.88] and imagine that instead of you reading
+
+[99.06 - 103.32000000000001] emails your company has an email bot
+
+[101.88 - 105.65899999999999] that generates emails that go to all
+
+[103.32 - 107.15899999999999] your customers clients and partners and
+
+[105.659 - 108.60000000000001] then they have email Bots that read it
+
+[107.159 - 113.46000000000001] and business becomes more and more
+
+[108.6 - 115.5] autonomous this is coming I'm uh I have
+
+[113.46 - 117.119] many patreon supporters who are doing
+
+[115.5 - 119.28] this kind of thing they're several
+
+[117.119 - 121.439] startups uh folks that I'm friend with
+
+[119.28 - 124.5] that are working on making autonomous
+
+[121.439 - 127.19999999999999] employees basically so it's coming
+
+[124.5 - 129.959] okay so for those of you who don't know
+
+[127.2 - 132.3] what is a blockchain
+
+[129.959 - 134.879] um first what I need to say is that yes
+
+[132.3 - 136.739] Bitcoin is the most famous use of
+
+[134.879 - 140.04] blockchain Technology but it is not the
+
+[136.739 - 142.26] only use of blockchain Technology uh so
+
+[140.04 - 145.79999999999998] basically it is a it is a dis
+
+[142.26 - 148.01999999999998] decentralized digital Ledger uh kind of
+
+[145.8 - 149.459] technology which a digital Ledger is
+
+[148.02 - 152.239] basically a kind of transactional
+
+[149.459 - 154.8] database where it keeps track of logs
+
+[152.239 - 156.54] that's what it means by ledger so like
+
+[154.8 - 157.92000000000002] if you think of like a financial Ledger
+
+[156.54 - 159.66] you're keeping track of financial
+
+[157.92 - 162.0] transactions in this case you're keeping
+
+[159.66 - 164.57999999999998] track of digital transactions it is
+
+[162.0 - 168.959] decentralized based on many many nodes
+
+[164.58 - 170.76000000000002] and it is uh made to be tamper proof and
+
+[168.959 - 173.16] so what it what I mean by tamper proof
+
+[170.76 - 176.76] is that once a block is added to the
+
+[173.16 - 179.16] chain it cannot be modified but also for
+
+[176.76 - 181.44] a block to be added to the chain the the
+
+[179.16 - 183.29999999999998] network has to give consensus and we'll
+
+[181.44 - 186.42] talk a little bit more about consensus
+
+[183.3 - 189.3] in a moment but one of the key things is
+
+[186.42 - 191.51899999999998] that one it's peer-to-peer and two it is
+
+[189.3 - 193.8] for a trustless environment so a
+
+[191.519 - 196.26] trustless environment is a cyber
+
+[193.8 - 198.65900000000002] security concept where you have no idea
+
+[196.26 - 201.29999999999998] who you're talking to everyone is on is
+
+[198.659 - 203.22] anonymous and for us humans we're used
+
+[201.3 - 204.84] to that if you get on Reddit or Twitter
+
+[203.22 - 206.819] and you're interacting with someone who
+
+[204.84 - 208.92000000000002] just has gibberish as a username you
+
+[206.819 - 210.659] have no idea who they are
+
+[208.92 - 213.599] um we get that on YouTube some YouTube
+
+[210.659 - 215.04] comments are generated by troll Farms or
+
+[213.599 - 218.819] Bots or whatever
+
+[215.04 - 220.85999999999999] and so uh blockchain is a way to engage
+
+[218.819 - 222.29899999999998] with digital information in a trustless
+
+[220.86 - 224.459] environment basically where you have no
+
+[222.299 - 227.81900000000002] idea who you're talking to or who else
+
+[224.459 - 229.44] is participating and this uh this
+
+[227.819 - 231.48] decentralized trustless peer-to-peer
+
+[229.44 - 234.0] environment is what makes cryptocurrency
+
+[231.48 - 235.79899999999998] possible now a whole bunch of other
+
+[234.0 - 237.239] things become possible with blockchain
+
+[235.799 - 239.04000000000002] technology
+
+[237.239 - 240.59900000000002] so before we go a little bit further I
+
+[239.04 - 244.379] need to talk to you a little bit about
+
+[240.599 - 247.7] consensus so consensus is a method
+
+[244.379 - 251.959] whether it's algorithms or data or other
+
+[247.7 - 254.939] techniques that you can use in order to
+
+[251.959 - 257.639] collectively decide what gets accepted
+
+[254.939 - 260.239] onto the blockchain so it has to do with
+
+[257.639 - 263.34000000000003] Collective verification
+
+[260.239 - 265.56] and it has to it also is how you can
+
+[263.34 - 268.02] establish the validity of a particular
+
+[265.56 - 269.82] transaction so there's a few algorithms
+
+[268.02 - 271.919] such as proof of work proof of stake
+
+[269.82 - 274.56] delegated proof of stake so on and so
+
+[271.919 - 278.06] forth so consensus is how the network
+
+[274.56 - 281.34] decides to accept information
+
+[278.06 - 283.68] and in a human Network say for instance
+
+[281.34 - 286.979] on Twitter or Reddit or something
+
+[283.68 - 289.86] what can happen is you see someone post
+
+[286.979 - 291.78] a link right just imagine your typical
+
+[289.86 - 293.699] Twitter thread or Reddit thread someone
+
+[291.78 - 295.25899999999996] posts a link someone looks at it and
+
+[293.699 - 297.479] says yeah but look at the source that
+
+[295.259 - 299.34000000000003] source is not verifiable and then
+
+[297.479 - 301.139] someone else says oh but look at look at
+
+[299.34 - 303.479] who said this this person is not
+
+[301.139 - 305.94] trustworthy and so the general consensus
+
+[303.479 - 307.62] through natural language it might be
+
+[305.94 - 309.71999999999997] that you know a particular post is
+
+[307.62 - 311.34000000000003] useful or useless or they might point
+
+[309.72 - 313.38000000000005] out that like hey this is a click bait
+
+[311.34 - 315.59999999999997] title so therefore it's not accurate so
+
+[313.38 - 318.139] that is a kind of like human consensus
+
+[315.6 - 320.34000000000003] algorithm now imagine Opera
+
+[318.139 - 322.56] operationalizing that with an algorithm
+
+[320.34 - 324.11999999999995] this is not exactly the way that it
+
+[322.56 - 326.52] works because if you look up the way
+
+[324.12 - 328.259] that proof of work and proof of stake uh
+
+[326.52 - 330.479] work it's not anything like that but
+
+[328.259 - 333.08000000000004] what I'm the reason that I'm using this
+
+[330.479 - 337.139] analogy is to show
+
+[333.08 - 339.35999999999996] a more familiar uh kind of format as to
+
+[337.139 - 341.46000000000004] what consensus looks and feels like now
+
+[339.36 - 343.259] the math side of that is going to be a
+
+[341.46 - 346.02] little bit different but the long story
+
+[343.259 - 348.96000000000004] short is that having a consensus
+
+[346.02 - 352.44] mechanism is what mathematically allows
+
+[348.96 - 355.5] you to have that trustless environment
+
+[352.44 - 357.78] now smart contracts so one part of
+
+[355.5 - 360.06] blockchain and decentralized autonomous
+
+[357.78 - 363.0] organizations Dows is that you need
+
+[360.06 - 364.68] smart contracts so a smart contract is a
+
+[363.0 - 366.479] bit of code that is executed
+
+[364.68 - 370.40000000000003] automatically
+
+[366.479 - 372.96] um by uh by and on the blockchain
+
+[370.4 - 374.88] technology so this can execute
+
+[372.96 - 377.15999999999997] everything from Financial transactions
+
+[374.88 - 379.979] to sending data you can even have
+
+[377.16 - 381.53900000000004] compute agreements so say for instance
+
+[379.979 - 383.52] one of the things that's being explored
+
+[381.539 - 386.15999999999997] quite extensively especially with large
+
+[383.52 - 387.71999999999997] language models is Distributing the
+
+[386.16 - 390.0] layers of those large language models
+
+[387.72 - 392.40000000000003] and so a smart contract could be you
+
+[390.0 - 394.56] agree to process this layer of this
+
+[392.4 - 396.17999999999995] piece of data and then in exchange you
+
+[394.56 - 398.22] get you know some kind of reward usually
+
+[396.18 - 400.979] cryptocurrency
+
+[398.22 - 404.16] um but basically what this this is this
+
+[400.979 - 406.919] is the this is the net result of a
+
+[404.16 - 409.259] blockchain is some smart contract gets
+
+[406.919 - 411.84] executed based on the consensus
+
+[409.259 - 415.139] algorithm uh and and everything that
+
+[411.84 - 417.96] goes into that at and so what is not
+
+[415.139 - 420.3] immediately obvious is how versatile
+
+[417.96 - 423.29999999999995] this is so I was talking with a friend
+
+[420.3 - 425.46000000000004] of mine who had been investigating a
+
+[423.3 - 427.62] fraud case that had to do with Supply
+
+[425.46 - 429.12] chains and stuff and I said imagine how
+
+[427.62 - 431.52] much easier this investigation would
+
+[429.12 - 435.539] have been if every single change order
+
+[431.52 - 437.639] and pull request and check had been on a
+
+[435.539 - 441.479] blockchain and he's like holy crap
+
+[437.639 - 443.40000000000003] you're right so and and because the the
+
+[441.479 - 446.52] reason that that is disruptive is
+
+[443.4 - 448.31899999999996] because in order for uh in order for a
+
+[446.52 - 450.29999999999995] transaction to be added to a blockchain
+
+[448.319 - 452.88] it has to be verified by all the nodes
+
+[450.3 - 455.699] so in in the cases of like fraud and
+
+[452.88 - 457.259] embezzlement one person one stakeholder
+
+[455.699 - 458.639] with the right email address and
+
+[457.259 - 461.46000000000004] connections can make a phone call or
+
+[458.639 - 463.56] send a text message to redirect you know
+
+[461.46 - 465.0] goods or services from one company to
+
+[463.56 - 468.3] another or from one account to another
+
+[465.0 - 471.419] without permission but if that company
+
+[468.3 - 473.94] or that government organization uses a
+
+[471.419 - 476.75899999999996] blockchain or a dow technology in order
+
+[473.94 - 479.34] to control everything then most of the
+
+[476.759 - 481.139] nodes will need to agree yes this is a
+
+[479.34 - 482.69899999999996] legitimate transaction and if they
+
+[481.139 - 485.40000000000003] reject it they'll say no this is
+
+[482.699 - 488.28000000000003] obviously fraudulent or you know a
+
+[485.4 - 490.46] mistake or something like that and by
+
+[488.28 - 493.13899999999995] having that that that chain of custody
+
+[490.46 - 495.5] of change requests and all that kind of
+
+[493.139 - 497.639] stuff you can really Tamp down on
+
+[495.5 - 499.74] mishandling and misappropriation of
+
+[497.639 - 501.24] resources and that's just a supply chain
+
+[499.74 - 504.06] example
+
+[501.24 - 505.5] um VMware is a company that I used to
+
+[504.06 - 507.78000000000003] work with a lot that was my favorite
+
+[505.5 - 510.419] technology back when I was in a systems
+
+[507.78 - 512.88] engineer they're working on their own
+
+[510.419 - 516.18] blockchain uh thing and one of the key
+
+[512.88 - 518.159] uh E-Business cases is supply chain so
+
+[516.18 - 521.3389999999999] that's that's a one example another
+
+[518.159 - 523.919] example is stock market trades so
+
+[521.339 - 526.08] whether you're talking about options uh
+
+[523.919 - 527.64] day trading that sort of stuff those
+
+[526.08 - 529.62] kinds of things can be executed with
+
+[527.64 - 531.0] smart contracts as well also if my voice
+
+[529.62 - 533.279] sounds a little bit hoarse it's because
+
+[531.0 - 536.1] it's still allergy season we're at like
+
+[533.279 - 538.38] 8.1 out of 10 yesterday in my local area
+
+[536.1 - 539.82] for the allergens so I'm a little bit
+
+[538.38 - 542.58] raspy
+
+[539.82 - 544.74] um okay so finally we're building up to
+
+[542.58 - 547.26] what is a dow so you take these
+
+[544.74 - 550.6800000000001] underlying Technologies uh blockchain
+
+[547.26 - 553.68] consensus mechanisms and smart contracts
+
+[550.68 - 554.9399999999999] and what you do is then you create a set
+
+[553.68 - 557.88] of rules
+
+[554.94 - 559.5600000000001] basically it can be a corporation kind
+
+[557.88 - 562.26] of thing it can be a government kind of
+
+[559.56 - 565.14] thing it can be a neighborhood but you
+
+[562.26 - 567.0] put all of that control into an
+
+[565.14 - 569.1] autonomous organization that uses
+
+[567.0 - 572.94] blockchain that uses consensus and uses
+
+[569.1 - 575.399] smart contracts in order to uh control
+
+[572.94 - 577.98] resources and so this creates an
+
+[575.399 - 581.459] algorithmic framework to allocate
+
+[577.98 - 584.16] resources to make decisions and so on
+
+[581.459 - 587.399] and so forth and so this brings that
+
+[584.16 - 590.459] trustless aspect into human
+
+[587.399 - 592.32] collaboration basically now we're going
+
+[590.459 - 594.3599999999999] to take this one step further in just a
+
+[592.32 - 596.279] second and but what I want to say before
+
+[594.36 - 599.339] we move on is you've probably heard some
+
+[596.279 - 601.38] horror stories about Dows there's this
+
+[599.339 - 603.12] phenomenon called the rug pull where
+
+[601.38 - 604.98] there's a lot of grifters out there
+
+[603.12 - 606.66] saying oh invest in this Dow it's going
+
+[604.98 - 609.36] to give you 10 there are pretty much all
+
+[606.66 - 611.76] Ponzi schemes Dows are not an investment
+
+[609.36 - 613.74] vehicle Dows are a resource management
+
+[611.76 - 615.72] vehicle so if someone just asks you to
+
+[613.74 - 618.839] put money into a dow that's not what
+
+[615.72 - 621.839] they're for now if you are part of a
+
+[618.839 - 624.3000000000001] corporation and you say hey we're going
+
+[621.839 - 627.36] to use a dow to replace the board of
+
+[624.3 - 629.3389999999999] directors or to uh you know replace this
+
+[627.36 - 631.5600000000001] layer of management that might make a
+
+[629.339 - 633.0600000000001] little bit more sense if you're in a
+
+[631.56 - 635.399] neighborhood and you want to replace
+
+[633.06 - 637.3199999999999] your HOA and run it with a dow instead
+
+[635.399 - 640.38] that makes more sense because you're a
+
+[637.32 - 642.0] stakeholder with you know enforceable
+
+[640.38 - 643.8] rights to a thing
+
+[642.0 - 645.839] but if you're just investing in a dow
+
+[643.8 - 648.5999999999999] the technology is not mature enough for
+
+[645.839 - 650.399] that yet so my uh this is not Financial
+
+[648.6 - 652.14] advice obviously do your own research
+
+[650.399 - 654.3] but what I will say is I would never
+
+[652.14 - 656.22] personally invest in a dow that are not
+
+[654.3 - 658.26] investment vehicles
+
+[656.22 - 660.9590000000001] um Okay so
+
+[658.26 - 662.399] with all that groundwork laid and I know
+
+[660.959 - 664.0189999999999] that I've been going pretty fast and I'm
+
+[662.399 - 666.0] not reading you know the description
+
+[664.019 - 668.04] word for word you can pause the video
+
+[666.0 - 670.56] and look at that if you'd like
+
+[668.04 - 674.279] What If instead of just human
+
+[670.56 - 676.38] stakeholders you have humans and AI
+
+[674.279 - 679.38] participating in a dow
+
+[676.38 - 681.8389999999999] so this to me seems like what the Dow
+
+[679.38 - 685.4399999999999] was actually invented for
+
+[681.839 - 687.839] uh and so by by saying that hey you know
+
+[685.44 - 689.8800000000001] because AI like a language model has no
+
+[687.839 - 692.0400000000001] idea what it is or who you are or
+
+[689.88 - 693.899] anything like that but a language model
+
+[692.04 - 696.0] can help you write contracts can help
+
+[693.899 - 698.16] participate with sharing information so
+
+[696.0 - 700.14] on and so forth so then if the rest of
+
+[698.16 - 702.36] the network approves the information
+
+[700.14 - 704.399] coming from that autonomous agent or
+
+[702.36 - 707.24] semi-autonomous agent and then there's
+
+[704.399 - 709.86] humans also in the loop it seems to me
+
+[707.24 - 711.3] that a that the combination of
+
+[709.86 - 714.0] blockchain distributed autonomous
+
+[711.3 - 717.3] organizations and AI is probably the way
+
+[714.0 - 719.339] to go and this can be used for uh
+
+[717.3 - 722.0999999999999] private organizations so for instance
+
+[719.339 - 724.2600000000001] corporations can use this so that no
+
+[722.1 - 727.019] matter how many autonomous agents are
+
+[724.26 - 729.48] spun up uh they all have to approve of
+
+[727.019 - 731.22] what's going on in their collaboration
+
+[729.48 - 733.5600000000001] space
+
+[731.22 - 737.0400000000001] Um this can do this can be used for a
+
+[733.56 - 740.3599999999999] few things one processing information so
+
+[737.04 - 743.2199999999999] just putting information on your Dow
+
+[740.36 - 745.92] such as like emails corporate records
+
+[743.22 - 747.839] whatever and using that information like
+
+[745.92 - 750.8389999999999] I mentioned a minute ago supply chain
+
+[747.839 - 754.1400000000001] records great example but you can also
+
+[750.839 - 757.3800000000001] use the Dow to autonomously distribute
+
+[754.14 - 759.12] tasks work items so for instance if you
+
+[757.38 - 761.579] have a factory floor
+
+[759.12 - 763.92] uh that needs to be managed or if you
+
+[761.579 - 767.2199999999999] have a larger multinational logistics
+
+[763.92 - 770.9399999999999] thing that needs to that needs to to uh
+
+[767.22 - 772.98] be organized or managed uh Dows are a
+
+[770.94 - 774.36] possible way of doing that and we're
+
+[772.98 - 776.279] going to get into some very specific
+
+[774.36 - 778.26] examples here in just a minute
+
+[776.279 - 779.9399999999999] uh before I move on with the rest of the
+
+[778.26 - 781.74] video I do want to plug my patreon real
+
+[779.94 - 784.9200000000001] quick so
+
+[781.74 - 787.2] um my patreon has been evolving I've
+
+[784.92 - 789.06] simplified the tiers especially since I
+
+[787.2 - 791.5790000000001] moved most not most but much of the
+
+[789.06 - 793.7399999999999] conversation off to Discord which has
+
+[791.579 - 797.04] really driven engagement
+
+[793.74 - 798.48] my private patreon Discord is great
+
+[797.04 - 800.519] um some of my favorite channels are the
+
+[798.48 - 801.779] off topic and the existential coping
+
+[800.519 - 803.339] channels
+
+[801.779 - 804.6] um where mostly we talk about goats
+
+[803.339 - 806.7] apparently
+
+[804.6 - 808.74] um but yeah so jump in
+
+[806.7 - 810.72] um my higher tiers are all sold out
+
+[808.74 - 812.639] right now because there's a few reasons
+
+[810.72 - 814.8000000000001] but basically I don't have enough time
+
+[812.639 - 817.92] to get to everyone so those are capped
+
+[814.8 - 820.079] but later in May once I come back
+
+[817.92 - 821.6999999999999] um I will probably raise those caps a
+
+[820.079 - 823.92] little bit because I actually do get a
+
+[821.7 - 825.779] lot out of talking with um with patreons
+
+[823.92 - 829.56] so most of the people who sign up for
+
+[825.779 - 831.12] the higher tiers are um they are usually
+
+[829.56 - 833.3389999999999] small businesses small and medium
+
+[831.12 - 835.5] businesses who just need a little bit of
+
+[833.339 - 837.6600000000001] expert guidance on how to implement some
+
+[835.5 - 840.42] like AI Vector search that kind of stuff
+
+[837.66 - 842.2199999999999] I do brainstorming sessions
+
+[840.42 - 844.26] um you know like someone will come to me
+
+[842.22 - 846.779] with a particular idea or a problem and
+
+[844.26 - 848.9399999999999] I'll help them talk through it
+
+[846.779 - 852.019] um we address all kinds of stuff from
+
+[848.94 - 856.32] legal cases to Insurance
+
+[852.019 - 858.0600000000001] Mental Health all kinds of stuff that I
+
+[856.32 - 860.279] that I'll talk with the companies about
+
+[858.06 - 862.68] and of course the liability is with them
+
+[860.279 - 865.019] I just provide you know my perspective
+
+[862.68 - 868.26] and expertise
+
+[865.019 - 870.779] um as is so moving right along
+
+[868.26 - 872.3389999999999] I mentioned that uh that you know I was
+
+[870.779 - 873.8389999999999] going to give some specific use cases
+
+[872.339 - 875.94] for dowels and I think that this will
+
+[873.839 - 877.44] help it make the most sense so what
+
+[875.94 - 879.48] we're going to do is we're gonna we're
+
+[877.44 - 881.22] gonna go on it on a user Journey so to
+
+[879.48 - 884.04] speak where we're going to start with
+
+[881.22 - 886.44] personal use what could you use a dow
+
+[884.04 - 888.7199999999999] for personally then we'll go up to Smart
+
+[886.44 - 891.9590000000001] Homes or family use cases Enterprise
+
+[888.72 - 894.779] corporate uh use cases communities such
+
+[891.959 - 896.04] as neighborhoods federal agencies and
+
+[894.779 - 897.42] then finally we'll get to Global
+
+[896.04 - 899.9399999999999] governance
+
+[897.42 - 903.54] okay so for a personal dial
+
+[899.94 - 905.7600000000001] imagine that you have you know we all
+
+[903.54 - 907.98] have electronic devices and electronic
+
+[905.76 - 910.68] accounts all over the place right you've
+
+[907.98 - 912.3000000000001] got social media you've got your news
+
+[910.68 - 913.8] feeds you've got your phone you've got
+
+[912.3 - 918.06] your smart home devices you've got your
+
+[913.8 - 919.92] car so imagine what happens when you
+
+[918.06 - 922.079] have multiple AI agents running
+
+[919.92 - 925.9799999999999] everywhere but you want that information
+
+[922.079 - 928.4399999999999] to be secure a personal area Dao is
+
+[925.98 - 930.0600000000001] probably a good place to put that right
+
+[928.44 - 932.639] because imagine that you're smart your
+
+[930.06 - 934.3199999999999] your smartphone has an AI agent an
+
+[932.639 - 936.36] autonomous AI agent it's running on your
+
+[934.32 - 937.86] phone all the time it's got some Cloud
+
+[936.36 - 940.26] connection stuff like it might back up
+
+[937.86 - 942.72] its data to the cloud but you want your
+
+[940.26 - 946.019] phone talking to your home and your TV
+
+[942.72 - 950.1600000000001] and your car but you need it to be
+
+[946.019 - 952.26] secure and autonomous and private so a
+
+[950.16 - 954.899] personal level Dow would be a good way
+
+[952.26 - 957.48] to achieve that so why what are the like
+
+[954.899 - 959.639] what are the outcomes obviously privacy
+
+[957.48 - 962.76] and security are are some of the primary
+
+[959.639 - 964.26] concern irons but then imagine all the
+
+[962.76 - 966.779] benefits that you get from just using
+
+[964.26 - 968.579] like chat GPT today like hey like what's
+
+[966.779 - 970.5] my wife up to can you send her a text
+
+[968.579 - 973.26] message real quick and then you know
+
+[970.5 - 975.899] your AI Dao can say okay like let's talk
+
+[973.26 - 978.3] to her send some message to her Dao and
+
+[975.899 - 980.699] so on and so forth one of my um I don't
+
+[978.3 - 982.3199999999999] want to like undercut anyone
+
+[980.699 - 984.3] um but one of my I had a really
+
+[982.32 - 985.62] interesting conversation with actually a
+
+[984.3 - 988.8] few people
+
+[985.62 - 991.38] um on Discord and and on patreon where
+
+[988.8 - 994.079] people are working on that kind of stuff
+
+[991.38 - 996.42] um and so like this is this is where I
+
+[994.079 - 1000.62] get some of these ideas
+
+[996.42 - 1003.079] um but like imagine that your that your
+
+[1000.62 - 1005.18] AI Dow keeps track of this kind of stuff
+
+[1003.079 - 1006.62] that you do right so instead of instead
+
+[1005.18 - 1009.2589999999999] of Google knowing everything that you do
+
+[1006.62 - 1011.9590000000001] your personal AI Dell has your records
+
+[1009.259 - 1014.0600000000001] of where you go what you do how you feel
+
+[1011.959 - 1016.699] on a day-to-day basis like even imagine
+
+[1014.06 - 1019.279] that your Fitbit is like part of your AI
+
+[1016.699 - 1021.68] Dao so then it's all your data is
+
+[1019.279 - 1023.24] self-contained it's not owned by a
+
+[1021.68 - 1026.4189999999999] corporation out there somewhere it is
+
+[1023.24 - 1029.179] owned by you but then you have multiple
+
+[1026.419 - 1032.179] possibly even dozens or even hundreds of
+
+[1029.179 - 1034.699] AI agents using that data to help you
+
+[1032.179 - 1037.1000000000001] live better so that is one example of
+
+[1034.699 - 1039.199] where a dow could be used for a personal
+
+[1037.1 - 1041.12] level and this is this is relatively
+
+[1039.199 - 1042.799] near term this is something like I said
+
+[1041.12 - 1044.2399999999998] that that I know of people who are
+
+[1042.799 - 1045.98] working on setting up this kind of thing
+
+[1044.24 - 1049.1] today
+
+[1045.98 - 1051.559] okay so take that one step further
+
+[1049.1 - 1054.32] you have your personal area Dao your
+
+[1051.559 - 1056.539] wife or boyfriend or partner or kids or
+
+[1054.32 - 1058.039] parents or whatever they also have their
+
+[1056.539 - 1060.08] personal area down
+
+[1058.039 - 1063.26] these are also connected to your smart
+
+[1060.08 - 1065.4189999999999] home devices as shared resources so say
+
+[1063.26 - 1067.76] for instance your
+
+[1065.419 - 1070.88] um your kitchen gets more automated and
+
+[1067.76 - 1074.059] so the the automated kitchen is a shared
+
+[1070.88 - 1077.1200000000001] resource that your personal Dao is forms
+
+[1074.059 - 1078.98] a hierarchy with so it or maybe maybe
+
+[1077.12 - 1082.3999999999999] hierarchy is not the right word maybe a
+
+[1078.98 - 1085.52] federation so in technology a federation
+
+[1082.4 - 1088.46] is independent nodes that form like
+
+[1085.52 - 1090.74] bilateral alliances which I mean that's
+
+[1088.46 - 1092.3600000000001] really just what a federation is
+
+[1090.74 - 1094.64] um so imagine that your personal dial
+
+[1092.36 - 1097.039] forms a federation with your home Dow
+
+[1094.64 - 1099.919] and your home Dow also has a federation
+
+[1097.039 - 1101.78] with your kids your partner any trusted
+
+[1099.919 - 1104.179] friends that are allowed to come over so
+
+[1101.78 - 1106.34] it keeps track of your identities which
+
+[1104.179 - 1108.5] can help with home security but it also
+
+[1106.34 - 1110.059] keeps track of dietary needs and health
+
+[1108.5 - 1112.52] needs and so then like your fridge will
+
+[1110.059 - 1114.799] be like hey you know it's five o'clock
+
+[1112.52 - 1115.8799999999999] maybe like let's make some stir fry
+
+[1114.799 - 1117.679] because that's your favorite thing to
+
+[1115.88 - 1120.0200000000002] eat on Wednesdays or whatever
+
+[1117.679 - 1122.66] that sort of stuff it can also work with
+
+[1120.02 - 1125.0] your children to uh form uh to formally
+
+[1122.66 - 1126.98] keep track of their education and their
+
+[1125.0 - 1128.96] tutoring and and their and their
+
+[1126.98 - 1132.8600000000001] information needs also their
+
+[1128.96 - 1134.6000000000001] entertainment right uh if you once we
+
+[1132.86 - 1136.8799999999999] get to a little bit more sophisticated
+
+[1134.6 - 1138.4399999999998] robot home robots than roombas maybe
+
+[1136.88 - 1140.66] they can even like replace your air
+
+[1138.44 - 1143.3600000000001] filters and and water filters and stuff
+
+[1140.66 - 1146.72] like that uh so by creating these
+
+[1143.36 - 1148.2199999999998] bilateral federations of dows uh that
+
+[1146.72 - 1149.66] again because Dallas are meant to be in
+
+[1148.22 - 1151.46] a trustless environment but you
+
+[1149.66 - 1152.98] establish those relationships where
+
+[1151.46 - 1156.38] there can at least be
+
+[1152.98 - 1158.72] bilateral communication then your
+
+[1156.38 - 1160.94] personal Dao which is just an array of
+
+[1158.72 - 1163.88] AI agents autonomous and semi-autonomous
+
+[1160.94 - 1165.559] AI agents whose primary job is your
+
+[1163.88 - 1169.64] health and well-being can then
+
+[1165.559 - 1171.799] collaborate with other uh uh people and
+
+[1169.64 - 1173.66] use maybe your home as a hub but again
+
+[1171.799 - 1175.6399999999999] the federations like you can you
+
+[1173.66 - 1177.679] Confederate your Dao with like your best
+
+[1175.64 - 1180.0200000000002] friends now or whatever and then you can
+
+[1177.679 - 1181.94] Federate your homes down with your best
+
+[1180.02 - 1183.98] friend's home style so then it's like oh
+
+[1181.94 - 1185.66] hey like let's let's make some plans
+
+[1183.98 - 1188.539] like for instance I have a private
+
+[1185.66 - 1190.5800000000002] Discord set up for uh my for my house
+
+[1188.539 - 1192.26] here and then my uh brother and
+
+[1190.58 - 1194.12] sister-in-law's house
+
+[1192.26 - 1196.22] um so imagine if that was automated like
+
+[1194.12 - 1197.6599999999999] hey what what's uh what's my
+
+[1196.22 - 1199.1000000000001] sister-in-law up to today let's go
+
+[1197.66 - 1200.059] gardening or let's go hiking or
+
+[1199.1 - 1202.52] something
+
+[1200.059 - 1204.799] anyways getting highly speculative there
+
+[1202.52 - 1208.28] I think you get the idea though is that
+
+[1204.799 - 1211.34] is that a Dao is a way to create these
+
+[1208.28 - 1212.96] ad hoc networks of AI agents that
+
+[1211.34 - 1215.84] support us
+
+[1212.96 - 1217.46] so going one step bigger
+
+[1215.84 - 1220.4599999999998] we already mentioned this a little bit
+
+[1217.46 - 1224.48] because uh blockchain is most interested
+
+[1220.46 - 1226.46] uh most interest use is in blockchain in
+
+[1224.48 - 1228.2] corporate use cases sorry I said that a
+
+[1226.46 - 1230.24] little bit awkwardly
+
+[1228.2 - 1233.179] um so imagine that you go a little bit
+
+[1230.24 - 1235.46] bigger not just blockchain for Supply
+
+[1233.179 - 1238.2800000000002] Chain management not just blockchain for
+
+[1235.46 - 1240.14] financial tracking but what if you have
+
+[1238.28 - 1242.4189999999999] your autonomous Workforce whether it's
+
+[1240.14 - 1245.419] robots or digital agents like you know
+
+[1242.419 - 1248.66] Auto GPT those sorts of things all
+
+[1245.419 - 1250.5800000000002] collaborating on Adele so there's been
+
+[1248.66 - 1253.4] plenty of experiments where people said
+
+[1250.58 - 1255.3799999999999] like they made chat GPT CEO right what
+
+[1253.4 - 1258.3200000000002] if you actually formalize that and so
+
+[1255.38 - 1260.2990000000002] then instead of having one agent as CEO
+
+[1258.32 - 1263.12] you have a board of hundreds or
+
+[1260.299 - 1264.58] thousands of autonomous AI agents
+
+[1263.12 - 1267.08] collaborating together
+
+[1264.58 - 1270.62] to form your your board of directors
+
+[1267.08 - 1272.1789999999999] basically uh then you can do that's at
+
+[1270.62 - 1273.9799999999998] the highest level but then at the lowest
+
+[1272.179 - 1275.66] level you can also automate your
+
+[1273.98 - 1277.7] Workforce look at the meme at the very
+
+[1275.66 - 1280.8200000000002] big beginning of the video where we
+
+[1277.7 - 1282.98] talked about using you know AI to write
+
+[1280.82 - 1284.72] and read emails putting all that
+
+[1282.98 - 1286.7] information on a dow so that it is
+
+[1284.72 - 1290.72] transparent and all the decisions that
+
+[1286.7 - 1292.7] are made can be tracked that is one of
+
+[1290.72 - 1295.039] the best ways to address that corporate
+
+[1292.7 - 1297.14] governance because explainability and
+
+[1295.039 - 1299.96] tracking who who decided what when and
+
+[1297.14 - 1302.48] why and who approved this because oh man
+
+[1299.96 - 1305.48] coming from the IT world change controls
+
+[1302.48 - 1307.34] nightmare for any I.T people out there
+
+[1305.48 - 1309.32] imagine that you're that your Change
+
+[1307.34 - 1312.9189999999999] Control meetings all done on a dow
+
+[1309.32 - 1316.1] automatically that's the way to go
+
+[1312.919 - 1318.0800000000002] um then you know because all that
+
+[1316.1 - 1320.299] information is transparent because AI
+
+[1318.08 - 1322.46] can work tirelessly imagine that your
+
+[1320.299 - 1324.2] company continuously self-optimizes
+
+[1322.46 - 1326.179] right this is getting a little bit more
+
+[1324.2 - 1328.4] speculative but this is within the realm
+
+[1326.179 - 1330.6200000000001] of possibility
+
+[1328.4 - 1334.7] going even bigger I already mentioned
+
+[1330.62 - 1337.76] the possibility of um HOAs right so if
+
+[1334.7 - 1339.14] any I have avoided HOAs like the plague
+
+[1337.76 - 1340.7] um because you always have that
+
+[1339.14 - 1342.5590000000002] Persnickety neighbor who has nothing
+
+[1340.7 - 1344.72] better to do than just be a busybody and
+
+[1342.559 - 1346.6399999999999] cause Havoc for other people often
+
+[1344.72 - 1348.74] because they're bored or lonely or just
+
+[1346.64 - 1351.5] miserly or whatever people become
+
+[1348.74 - 1354.14] regions whatever reason it is they're
+
+[1351.5 - 1356.48] they can be difficult now imagine that
+
+[1354.14 - 1358.94] you take that and instead of you know
+
+[1356.48 - 1360.98] humans having to attend meetings you
+
+[1358.94 - 1363.38] have your personal Dow go and advocate
+
+[1360.98 - 1365.419] for you on your neighborhood Dow and
+
+[1363.38 - 1367.0390000000002] it'll go and talk for you and say you
+
+[1365.419 - 1370.159] know this is what Dave's house needs
+
+[1367.039 - 1373.039] these this is our beliefs and then you
+
+[1370.159 - 1374.7800000000002] know Joanne Susan over there who is a
+
+[1373.039 - 1376.4] busybody who has nothing better to do
+
+[1374.78 - 1377.8999999999999] than spying her neighbors
+
+[1376.4 - 1379.64] she doesn't even get to go to the
+
+[1377.9 - 1382.22] meetings it's her personal to Algos and
+
+[1379.64 - 1384.5590000000002] advocates for her the AIS discuss
+
+[1382.22 - 1388.46] everything and come up with a legally
+
+[1384.559 - 1390.5] viable and and and Community accepted
+
+[1388.46 - 1392.9] solution based on the acceptance
+
+[1390.5 - 1395.419] criteria and consensus mechanisms that
+
+[1392.9 - 1398.0] everyone agrees on now that's just
+
+[1395.419 - 1400.5800000000002] replacing HOA with a doubt what if we go
+
+[1398.0 - 1402.679] one step further there's all kinds of
+
+[1400.58 - 1403.8999999999999] stuff going on like co-living Eco
+
+[1402.679 - 1407.8400000000001] Villages
+
+[1403.9 - 1410.419] resource sharing ride sharing adao is a
+
+[1407.84 - 1413.539] really good way to share those resources
+
+[1410.419 - 1414.5590000000002] whether you've got solar panels shared
+
+[1413.539 - 1417.799] water
+
+[1414.559 - 1420.1399999999999] uh shared Vehicles all those kinds of
+
+[1417.799 - 1422.72] things make a lot of sense to put on a
+
+[1420.14 - 1424.88] dow because blockchain is a good way to
+
+[1422.72 - 1427.28] track those so say for instance you know
+
+[1424.88 - 1430.5800000000002] I put solar on my house and I produce
+
+[1427.28 - 1433.34] 5000 uh extra Watts today that
+
+[1430.58 - 1435.74] information is just stored on the dowel
+
+[1433.34 - 1438.28] says Dave's house produced an extra you
+
+[1435.74 - 1441.2] know 5000 Watts on April whatever
+
+[1438.28 - 1442.8799999999999] and then everyone else like gets to
+
+[1441.2 - 1445.159] track that and it's like okay in
+
+[1442.88 - 1447.2] exchange for that and that that uh that
+
+[1445.159 - 1449.3600000000001] energy that you gave back you know you
+
+[1447.2 - 1450.32] get a few cryptocurrency tokens or
+
+[1449.36 - 1451.8799999999999] whatever
+
+[1450.32 - 1453.86] um that you can spend later in your
+
+[1451.88 - 1456.919] community say for instance for Rideshare
+
+[1453.86 - 1459.559] or you know if you want you know the
+
+[1456.919 - 1461.1200000000001] neighborhood kid to mow your your yard
+
+[1459.559 - 1463.3999999999999] um you pay him in that crypto or
+
+[1461.12 - 1465.9799999999998] whatever something like that
+
+[1463.4 - 1468.02] um so that is one way and it can go even
+
+[1465.98 - 1470.659] one step further because what happens
+
+[1468.02 - 1472.58] once you have more autonomous machine
+
+[1470.659 - 1474.919] peripherals not just autonomous agents
+
+[1472.58 - 1476.78] but autonomous machine peripherals that
+
+[1474.919 - 1478.76] can be managed by the Dow What If
+
+[1476.78 - 1481.1589999999999] instead of having the neighborhood kid
+
+[1478.76 - 1484.1] mowed the yard there's uh you use the
+
+[1481.159 - 1486.3200000000002] the most recent like John Deere uh
+
+[1484.1 - 1488.24] autonomous tractor and so then your
+
+[1486.32 - 1491.059] neighborhood or you know your your town
+
+[1488.24 - 1492.98] or whatever owns that tractor and you
+
+[1491.059 - 1495.3799999999999] can you can spend some of your solar
+
+[1492.98 - 1496.94] crypto tokens to have it mow your yard
+
+[1495.38 - 1499.64] for you automatically
+
+[1496.94 - 1500.9] fully autonomous self-managed that sort
+
+[1499.64 - 1504.6200000000001] of thing
+
+[1500.9 - 1506.72] going one step bigger what if over time
+
+[1504.62 - 1508.52] as we build trust and solve problems
+
+[1506.72 - 1510.919] because like I said at the beginning
+
+[1508.52 - 1512.78] blockchain and DOW still very immature
+
+[1510.919 - 1515.48] Technologies they are not ready for this
+
+[1512.78 - 1518.24] this is like years away so what I'm do
+
+[1515.48 - 1520.22] this is aspirational thinking but
+
+[1518.24 - 1522.74] imagine that you know 10 years from now
+
+[1520.22 - 1524.84] 20 years from now however long it takes
+
+[1522.74 - 1526.82] we build trust and we solve these
+
+[1524.84 - 1530.1789999999999] problems and we start delegating all
+
+[1526.82 - 1532.58] kinds of resources and management
+
+[1530.179 - 1534.02] two things like AI dows
+
+[1532.58 - 1536.96] tax management
+
+[1534.02 - 1540.44] so the tax tax collection is done
+
+[1536.96 - 1542.779] equitably and equally we uh we get rid
+
+[1540.44 - 1544.279] of the IRS as it is today because it is
+
+[1542.779 - 1546.44] slow and inefficient it is literally
+
+[1544.279 - 1548.9] designed to be slow
+
+[1546.44 - 1552.14] um you uh streamline Health Care
+
+[1548.9 - 1553.8200000000002] insurance providers uh you manage
+
+[1552.14 - 1555.679] education
+
+[1553.82 - 1557.6589999999999] um with all this stuff uh all the
+
+[1555.679 - 1561.02] infrastructure projects pretty much
+
+[1557.659 - 1563.48] every individual agency one by one could
+
+[1561.02 - 1565.94] either benefit from implementing
+
+[1563.48 - 1568.159] something like an AI Dow or wholesale
+
+[1565.94 - 1571.8200000000002] being replaced by an AI Dell honestly
+
+[1568.159 - 1574.0390000000002] because my prediction is that as we
+
+[1571.82 - 1576.26] figure out AI we will realize that
+
+[1574.039 - 1577.34] humans are the weakest link in all
+
+[1576.26 - 1579.559] things
+
+[1577.34 - 1582.6789999999999] um in technology we have we have a few
+
+[1579.559 - 1586.039] acronyms so there's an id10t error which
+
+[1582.679 - 1588.26] is a idiot there's a layer 8 issue so if
+
+[1586.039 - 1591.919] you're familiar with the OSI model layer
+
+[1588.26 - 1594.74] 7 is application and layer 8 is user in
+
+[1591.919 - 1596.96] most cases it's a layer 8 issue and then
+
+[1594.74 - 1599.86] there's pepcac which is a problem exists
+
+[1596.96 - 1602.659] between keyboard and chair
+
+[1599.86 - 1604.58] so you get rid of the weakest link from
+
+[1602.659 - 1607.1000000000001] all technology problems which is humans
+
+[1604.58 - 1609.9189999999999] and you replace it with AI Dows and I
+
+[1607.1 - 1612.559] think that we'll be in better shape
+
+[1609.919 - 1615.14] um now one step bigger this is the most
+
+[1612.559 - 1617.8999999999999] aspirational aspect that I have to pitch
+
+[1615.14 - 1620.1200000000001] today and this is prop this is honestly
+
+[1617.9 - 1622.52] probably decades away because one
+
+[1620.12 - 1624.5] there's they're just at the low level
+
+[1622.52 - 1626.96] there's a lot of technical problems that
+
+[1624.5 - 1630.08] we have to solve before we can get to
+
+[1626.96 - 1631.82] the possibility of a global AI dial
+
+[1630.08 - 1633.9189999999999] beyond that there's geopolitical
+
+[1631.82 - 1636.559] problems that we have to solve ain't no
+
+[1633.919 - 1639.26] way most Nations on the on the on the
+
+[1636.559 - 1642.44] planet today are going to decide to form
+
+[1639.26 - 1644.84] Dao alliances and form a hierarchy of
+
+[1642.44 - 1646.8200000000002] alliances right we just had Britain
+
+[1644.84 - 1648.1399999999999] leave the European Union
+
+[1646.82 - 1650.12] um because they didn't agree with some
+
+[1648.14 - 1651.6200000000001] of the policies no way they're going to
+
+[1650.12 - 1654.4399999999998] form a dow yet so this could be like
+
+[1651.62 - 1656.84] centuries away but it is hypothetically
+
+[1654.44 - 1659.2] within the realm of possibility and so
+
+[1656.84 - 1661.36] you take all these ideas of
+
+[1659.2 - 1663.98] consensus-based mechanisms
+
+[1661.36 - 1665.8999999999999] algorithmic participation algorithmic
+
+[1663.98 - 1669.2] decision making
+
+[1665.9 - 1671.6000000000001] um which consensus is basically the
+
+[1669.2 - 1674.299] purpose of democracy right democracy is
+
+[1671.6 - 1676.8799999999999] is uh representative democracy is a way
+
+[1674.299 - 1678.26] to arrive at political consensus What If
+
+[1676.88 - 1680.179] eventually you kind of replace that with
+
+[1678.26 - 1683.36] Dows and not just the decision-making
+
+[1680.179 - 1686.419] process in which your personal Dao
+
+[1683.36 - 1689.0] represents your interest globally but
+
+[1686.419 - 1692.179] then you also use these to autonomously
+
+[1689.0 - 1694.1] manage resources projects and all kinds
+
+[1692.179 - 1696.44] of stuff so some of the examples I came
+
+[1694.1 - 1699.02] up with is climate stewardship obviously
+
+[1696.44 - 1701.299] we can't agree on that yet so you know
+
+[1699.02 - 1704.12] we'll we'll uh we'll table that for
+
+[1701.299 - 1705.2] later ecosystem preservation so this
+
+[1704.12 - 1707.6589999999999] goes to
+
+[1705.2 - 1710.0] um to monitoring and managing
+
+[1707.659 - 1712.8200000000002] um uh indicators so for instance like
+
+[1710.0 - 1714.38] the EPA European Union all kinds of
+
+[1712.82 - 1716.4189999999999] agencies monitor things like
+
+[1714.38 - 1718.3400000000001] biodiversity and health of the
+
+[1716.419 - 1720.919] environment put all that information on
+
+[1718.34 - 1723.4399999999998] a dow it makes sense resource
+
+[1720.919 - 1726.74] optimization so this includes
+
+[1723.44 - 1729.1000000000001] um things like natural resources uh and
+
+[1726.74 - 1731.96] common resources Like Water and Air
+
+[1729.1 - 1734.6] Global health is another thing so
+
+[1731.96 - 1736.22] whether it is monitoring for future
+
+[1734.6 - 1739.0] pandemics because we know that that can
+
+[1736.22 - 1744.2] happen but also medical information
+
+[1739.0 - 1746.299] imagine uh a global medical Dow that all
+
+[1744.2 - 1748.46] of your diagnostic information is
+
+[1746.299 - 1750.679] de-identified obviously but shared on
+
+[1748.46 - 1754.22] the on the global Dow which can then be
+
+[1750.679 - 1755.48] used to train better models for Better
+
+[1754.22 - 1758.3600000000001] Health Care
+
+[1755.48 - 1760.64] and then the cut the overall cost of
+
+[1758.36 - 1763.9399999999998] healthcare continues to go down with the
+
+[1760.64 - 1766.3400000000001] aid of AI and Global AI dows
+
+[1763.94 - 1768.8600000000001] Disaster Response many of us remember
+
+[1766.34 - 1771.6789999999999] the tsunamis that hit Japan and much of
+
+[1768.86 - 1773.7199999999998] South Asia there's hurricanes there's
+
+[1771.679 - 1776.1200000000001] tornadoes there's landslides
+
+[1773.72 - 1778.3990000000001] there's all kinds of things where having
+
+[1776.12 - 1782.36] a fully autonomous AI system that can
+
+[1778.399 - 1784.4799999999998] react instantly or even proactively
+
+[1782.36 - 1786.74] that could really help save lives
+
+[1784.48 - 1788.3600000000001] peacekeeping and diplomacy so I
+
+[1786.74 - 1790.88] mentioned in a previous video that that
+
+[1788.36 - 1793.1] I've I've interviewed or no I was
+
+[1790.88 - 1796.1000000000001] interviewed by someone in the state
+
+[1793.1 - 1797.4189999999999] department he wrote about it I I don't I
+
+[1796.1 - 1799.9399999999998] don't remember where he posted I think
+
+[1797.419 - 1802.64] it was on medium but anyways
+
+[1799.94 - 1804.2] um he told me about how folks in the
+
+[1802.64 - 1807.0200000000002] state department in the Diplomatic Corps
+
+[1804.2 - 1809.96] are already using chat GPT to help them
+
+[1807.02 - 1812.24] do their work take that one logical step
+
+[1809.96 - 1813.799] further and instead of you know humans
+
+[1812.24 - 1816.2] arguing with each other and because
+
+[1813.799 - 1820.22] we're emotional we're egotistical what
+
+[1816.2 - 1821.419] if a a majority of diplomacy and
+
+[1820.22 - 1825.32] peacekeeping is actually done
+
+[1821.419 - 1827.74] algorithmically by AI take the human out
+
+[1825.32 - 1830.36] of the loop and then you know
+
+[1827.74 - 1832.34] consensuses reach proposals are adopted
+
+[1830.36 - 1834.32] so on and so forth
+
+[1832.34 - 1837.02] you know that's just one possibility
+
+[1834.32 - 1839.6] space that space exploration Universal
+
+[1837.02 - 1842.6589999999999] Prosperity Collective wisdom you put all
+
+[1839.6 - 1844.82] of human desires whether it is to get
+
+[1842.659 - 1847.7600000000002] off Planet whether it is to solve
+
+[1844.82 - 1850.7] nuclear fusion or you know however it is
+
+[1847.76 - 1854.12] that we all collectively want to live
+
+[1850.7 - 1856.5800000000002] the things that we agree on can all be
+
+[1854.12 - 1858.6789999999999] integrated into that Global Dao and then
+
+[1856.58 - 1861.5] that Dao can help us Implement those
+
+[1858.679 - 1863.0590000000002] things and then finally uh this was my
+
+[1861.5 - 1865.34] favorite one from the brainstorming
+
+[1863.059 - 1867.02] session was planetary guardianship which
+
+[1865.34 - 1869.12] is what Tony Stark tried to do with
+
+[1867.02 - 1872.12] Ultron but he needed blockchain and he
+
+[1869.12 - 1873.799] needed consensus so you know take it
+
+[1872.12 - 1876.62] with a grain of salt
+
+[1873.799 - 1877.58] okay so I walked you through a whole
+
+[1876.62 - 1879.9799999999998] bunch of
+
+[1877.58 - 1883.52] imagination imaginary possibilities
+
+[1879.98 - 1885.38] let's let's take a a little uh a little
+
+[1883.52 - 1888.44] bit more practical example
+
+[1885.38 - 1891.44] let's imagine in 2026 so just a few
+
+[1888.44 - 1893.8990000000001] years from now Franklin Township doubt
+
+[1891.44 - 1896.6000000000001] population 3200
+
+[1893.899 - 1900.86] typical rural American town
+
+[1896.6 - 1903.4399999999998] uh town is pretty much broke due to AI
+
+[1900.86 - 1905.539] layoffs that sort of stuff nobody can
+
+[1903.44 - 1907.64] afford anything the town doesn't even
+
+[1905.539 - 1910.22] have a mayor they have no full-time
+
+[1907.64 - 1912.7990000000002] police they only have like a few uh
+
+[1910.22 - 1914.539] volunteer firefighters everything is
+
+[1912.799 - 1916.34] poorly managed because the economy has
+
+[1914.539 - 1919.76] just totally collapsed
+
+[1916.34 - 1922.22] Along Comes A cloud-based AI Dow company
+
+[1919.76 - 1926.779] that says hey for five thousand dollars
+
+[1922.22 - 1929.1200000000001] a year you will get high-end AI dial
+
+[1926.779 - 1931.82] management of your entire town
+
+[1929.12 - 1934.34] they say fine we can afford that
+
+[1931.82 - 1937.1] so they sign up everyone in the in the
+
+[1934.34 - 1939.1399999999999] township gets a phone app that allows
+
+[1937.1 - 1941.4189999999999] them to connect their personal Dao or
+
+[1939.14 - 1943.159] even just use the phone app to
+
+[1941.419 - 1945.3200000000002] communicate with the entire rest of the
+
+[1943.159 - 1947.1200000000001] town in terms of what they need what are
+
+[1945.32 - 1948.74] they complaining about so say for
+
+[1947.12 - 1950.7199999999998] instance there's a pothole you just take
+
+[1948.74 - 1953.659] a picture put it in the in the uh the
+
+[1950.72 - 1955.94] township AI Dao and it says got it we
+
+[1953.659 - 1956.659] know it we'll take care of it
+
+[1955.94 - 1958.88] um
+
+[1956.659 - 1960.3200000000002] there can also be kiosks because not
+
+[1958.88 - 1962.0590000000002] everyone is going to use a phone so you
+
+[1960.32 - 1964.1589999999999] have like kiosks at like you know town
+
+[1962.059 - 1965.84] hall or the bank or whatever
+
+[1964.159 - 1968.179] um so that you and it you know uses face
+
+[1965.84 - 1970.1] tracking voice uh recognition and that
+
+[1968.179 - 1974.6000000000001] sort of thing so that you can also go
+
+[1970.1 - 1976.34] and talk to the AIS about issues say for
+
+[1974.6 - 1978.86] instance there's a safety concern
+
+[1976.34 - 1980.84] because you know there's strange people
+
+[1978.86 - 1982.76] coming through town you talk about it
+
+[1980.84 - 1985.34] you add your information and then the
+
+[1982.76 - 1988.039] town might ultimately decide hey we need
+
+[1985.34 - 1992.6] to hire a a police officer or a security
+
+[1988.039 - 1994.34] officer to patrol the streets or let's
+
+[1992.6 - 1996.019] say you know the roads are in really bad
+
+[1994.34 - 1999.08] shape so you say
+
+[1996.019 - 2000.34] do we uh get a contract to maintain the
+
+[1999.08 - 2001.84] roads or do we maintain the roads
+
+[2000.34 - 2004.12] ourselves that sort of thing that's what
+
+[2001.84 - 2007.1789999999999] I mean by consensus process
+
+[2004.12 - 2009.58] now on top of just having that
+
+[2007.179 - 2013.24] algorithmic consensus process they also
+
+[2009.58 - 2015.76] have the benefit of high highly uh ex
+
+[2013.24 - 2018.1] High expert AIS to help manage
+
+[2015.76 - 2020.2] everything because one thing that can
+
+[2018.1 - 2021.6999999999998] happen particularly in rural places and
+
+[2020.2 - 2025.419] that this is not just in America this is
+
+[2021.7 - 2026.919] globally is brain drain and so most
+
+[2025.419 - 2028.8400000000001] places will do the best that they can
+
+[2026.919 - 2030.3400000000001] but if all the smartest people leave
+
+[2028.84 - 2032.559] your town because they left for the big
+
+[2030.34 - 2034.84] city you might not have the expertise
+
+[2032.559 - 2036.279] left to do anything this is also true
+
+[2034.84 - 2038.26] for companies which we'll talk about in
+
+[2036.279 - 2040.419] just a minute companies can suffer from
+
+[2038.26 - 2042.76] brain drain too so imagine this AI
+
+[2040.419 - 2046.72] provider brings you all the expertise
+
+[2042.76 - 2049.0] that is that is embedded in gpt4 gpt5
+
+[2046.72 - 2051.399] the open source versions and the
+
+[2049.0 - 2053.5] competitors that are coming and it
+
+[2051.399 - 2057.0989999999997] algorithmically finds consensus and
+
+[2053.5 - 2060.399] manages the town with high-end expertise
+
+[2057.099 - 2063.339] so ultimately Franklin town the township
+
+[2060.399 - 2065.919] of Franklin population 3200 three years
+
+[2063.339 - 2068.7999999999997] from now they're back on track things
+
+[2065.919 - 2071.08] are are being more well managed Town
+
+[2068.8 - 2073.3590000000004] revenues are going up costs are going
+
+[2071.08 - 2074.56] down and people are happier not only
+
+[2073.359 - 2076.899] that the town is actually more
+
+[2074.56 - 2078.639] attractive so some of the tech Bros like
+
+[2076.899 - 2081.04] myself say hey why don't we move out to
+
+[2078.639 - 2082.7200000000003] Franklin uh Franklin Township because
+
+[2081.04 - 2085.139] it's cheaper and it's a pleasant little
+
+[2082.72 - 2089.1389999999997] town now
+
+[2085.139 - 2091.359] two years later Washington County where
+
+[2089.139 - 2094.179] Franklin is says hey you know what
+
+[2091.359 - 2096.58] they've been doing a really good job why
+
+[2094.179 - 2100.0] don't we uh instead of instead of
+
+[2096.58 - 2102.22] selling all of our Farmland to gigantic
+
+[2100.0 - 2104.2] corporations what if we buy back that
+
+[2102.22 - 2106.7799999999997] farmland and we manage it collectively
+
+[2104.2 - 2110.3799999999997] with a dow so the so the Washington
+
+[2106.78 - 2112.0] County Farm Dow creates a farm to table
+
+[2110.38 - 2114.1600000000003] initiative
+
+[2112.0 - 2117.04] um and also commercial initiative
+
+[2114.16 - 2119.98] but the Dow is used to purchase the land
+
+[2117.04 - 2123.099] bit by bit it controls the tractors the
+
+[2119.98 - 2125.079] equipment all the contracts and it
+
+[2123.099 - 2127.42] provides the local citizens jobs because
+
+[2125.079 - 2128.7400000000002] the Dow can't do everything say for
+
+[2127.42 - 2131.079] instance you have a tractor breakdown
+
+[2128.74 - 2133.06] and it's like oh hey uh we know that
+
+[2131.079 - 2134.619] Dave is pretty handy so let's you know
+
+[2133.06 - 2136.119] Dave will get a little notification on
+
+[2134.619 - 2138.46] his phone app saying hey you know
+
+[2136.119 - 2140.5] tractor 42b broke down can you go take a
+
+[2138.46 - 2141.88] look at it and it's like even if I can't
+
+[2140.5 - 2143.14] fix it it's like just go take some
+
+[2141.88 - 2145.54] pictures with your phone and listen to
+
+[2143.14 - 2147.2799999999997] it something like that
+
+[2145.54 - 2149.14] um and so then you know for that little
+
+[2147.28 - 2150.88] bit of work that I do I get a little bit
+
+[2149.14 - 2153.4] of extra cryptocurrency tokens which I
+
+[2150.88 - 2156.46] can spend at the bar later if I want
+
+[2153.4 - 2159.46] um then once the once the food is
+
+[2156.46 - 2160.9] planted and it's harvested we all get to
+
+[2159.46 - 2162.82] share some of the revenue because it's
+
+[2160.9 - 2164.6800000000003] going to be probably you know sold at a
+
+[2162.82 - 2167.2000000000003] co-op or at the grocery store it can
+
+[2164.68 - 2168.8199999999997] also be sold on the open market and in
+
+[2167.2 - 2171.3999999999996] that case the whole thing pays for
+
+[2168.82 - 2173.6800000000003] itself and we the residents of
+
+[2171.4 - 2176.38] Washington County are this are the
+
+[2173.68 - 2178.4199999999996] primary stake holder and owner of this
+
+[2176.38 - 2180.2200000000003] resource we cut out the middlemen no
+
+[2178.42 - 2182.92] corporations anymore
+
+[2180.22 - 2184.5989999999997] so again this is very very aspirational
+
+[2182.92 - 2186.64] I don't know if it's even possible but
+
+[2184.599 - 2188.8] it is hypothetically possible and I'd
+
+[2186.64 - 2192.46] like to see someone try it
+
+[2188.8 - 2195.52] now a few years later imagine that you
+
+[2192.46 - 2197.5] know the Washington County ISP is
+
+[2195.52 - 2200.14] organized by Adele right the farm was a
+
+[2197.5 - 2201.88] was a raging success so we moved the the
+
+[2200.14 - 2204.2799999999997] Washington County power you know the
+
+[2201.88 - 2205.7200000000003] solar array over to Adele we moved
+
+[2204.28 - 2208.599] management of the of the internet
+
+[2205.72 - 2210.9399999999996] service provider over to Adele but also
+
+[2208.599 - 2213.1600000000003] by this time by 2030 so seven years from
+
+[2210.94 - 2215.14] now lots of other people are doing this
+
+[2213.16 - 2218.02] so remember I talked about the idea of
+
+[2215.14 - 2220.66] federating dows so what if every county
+
+[2218.02 - 2222.339] in the state starts to do the same thing
+
+[2220.66 - 2225.0989999999997] and then you Federate your Dows together
+
+[2222.339 - 2229.119] to manage uh resources whether it's
+
+[2225.099 - 2231.52] power internet Farms roads all of that
+
+[2229.119 - 2234.339] stuff and eventually it gets to be a
+
+[2231.52 - 2236.32] bigger and bigger set of alliances each
+
+[2234.339 - 2238.48] of them advocating for their own needs
+
+[2236.32 - 2241.48] and that information being integrated
+
+[2238.48 - 2244.78] via consensus mechanisms and worked on
+
+[2241.48 - 2247.54] by high-end language models to discuss
+
+[2244.78 - 2248.8] it out and then one thing I want to
+
+[2247.54 - 2251.079] point out is that there's no profit mode
+
+[2248.8 - 2252.579] of here at least not from a corporate
+
+[2251.079 - 2254.92] perspective not from a shareholder
+
+[2252.579 - 2256.54] perspective the profit motive like so
+
+[2254.92 - 2258.579] say for instance the Washington County
+
+[2256.54 - 2260.98] Farm Dow there might be a profit motive
+
+[2258.579 - 2263.5] to earn revenue for the you know
+
+[2260.98 - 2265.06] citizens of Washington County but they
+
+[2263.5 - 2266.859] are also the stakeholders
+
+[2265.06 - 2268.96] and in this case for the national ISP
+
+[2266.859 - 2272.44] Dow there's absolutely no profit motive
+
+[2268.96 - 2275.2] the goal is just to provide uh consensus
+
+[2272.44 - 2276.94] which in the case of an ISP Dow is
+
+[2275.2 - 2279.3999999999996] provide everyone high-end internet
+
+[2276.94 - 2282.28] whatever it takes
+
+[2279.4 - 2284.98] then finally after a few more years
+
+[2282.28 - 2286.38] again the government is slow by Design
+
+[2284.98 - 2290.38] that's fine
+
+[2286.38 - 2293.7400000000002] many cities counties and states are all
+
+[2290.38 - 2296.1400000000003] adopting these AI Dows for all kinds of
+
+[2293.74 - 2297.8799999999997] purposes obviously there's a lot of
+
+[2296.14 - 2300.0989999999997] problems to overcome you know security
+
+[2297.88 - 2302.32] we need to figure out consensus we need
+
+[2300.099 - 2304.1800000000003] to make sure that we know we even know
+
+[2302.32 - 2306.339] how to integrate large language models
+
+[2304.18 - 2308.9199999999996] with with blockchain that is an open
+
+[2306.339 - 2311.5] area of research but imagine that we
+
+[2308.92 - 2313.599] figure out these problems and then over
+
+[2311.5 - 2316.0] time all of these things get integrated
+
+[2313.599 - 2319.78] and built into larger and larger systems
+
+[2316.0 - 2322.3] and finally just by default one agency
+
+[2319.78 - 2325.48] after another such as like the EPA or
+
+[2322.3 - 2328.42] the um or the uh what is it the national
+
+[2325.48 - 2331.0] um what is it the energy one anyways
+
+[2328.42 - 2334.839] every governmental agency is run more
+
+[2331.0 - 2337.24] and more by Dows and then ultimately we
+
+[2334.839 - 2340.48] realize like hey the entire country is
+
+[2337.24 - 2342.64] fully autonomous based on AI Dow
+
+[2340.48 - 2343.72] technology
+
+[2342.64 - 2348.8199999999997] so
+
+[2343.72 - 2351.7] I have given you quite a uh let's say as
+
+[2348.82 - 2354.94] I mentioned aspirational Journey
+
+[2351.7 - 2359.0789999999997] um one thing that occurs to me is that
+
+[2354.94 - 2361.78] by integrating uh AI with blockchain and
+
+[2359.079 - 2365.619] Dell this is probably the best path to
+
+[2361.78 - 2369.28] AGI and and not only that but safe and
+
+[2365.619 - 2373.2400000000002] controllable AGI because one thing is
+
+[2369.28 - 2375.7000000000003] that it by integrating AI with dowels
+
+[2373.24 - 2379.0] with humans that intrinsically keeps
+
+[2375.7 - 2381.0989999999997] humans in the loop for all time and this
+
+[2379.0 - 2384.0] the Dow creates a natural place for
+
+[2381.099 - 2388.3] humans and machines to collaborate
+
+[2384.0 - 2391.54] so also because of consensus mechanisms
+
+[2388.3 - 2393.3] you get Collective power basically
+
+[2391.54 - 2395.8] collective bargaining power
+
+[2393.3 - 2397.6600000000003] which also helps prevent you know
+
+[2395.8 - 2399.6400000000003] radical and Rogue decisions from being
+
+[2397.66 - 2401.68] made because if someone goes way off the
+
+[2399.64 - 2403.0] deep end the whole you know the rest of
+
+[2401.68 - 2404.74] the network the rest of the Dow is going
+
+[2403.0 - 2407.32] to say let's not do that but let's
+
+[2404.74 - 2409.359] address your concerns in another way in
+
+[2407.32 - 2412.78] a healthier more constructive way and
+
+[2409.359 - 2414.7599999999998] that is algorithmically enforced now one
+
+[2412.78 - 2417.82] thing that I do want to concede is that
+
+[2414.76 - 2421.96] this that this idea of AI Dao does not
+
+[2417.82 - 2424.3590000000004] intrinsically solve the Malik problem
+
+[2421.96 - 2427.2400000000002] um and for a quick recap the Malik
+
+[2424.359 - 2428.859] problem is that even if everything is
+
+[2427.24 - 2431.14] Opera operating
+
+[2428.859 - 2433.96] um in an optimal State you might still
+
+[2431.14 - 2436.42] be on an intrinsic uh backslide towards
+
+[2433.96 - 2438.82] dystopia or Extinction so for instance
+
+[2436.42 - 2440.44] you know if your life is going perfectly
+
+[2438.82 - 2442.6600000000003] where you've got a good job you've got a
+
+[2440.44 - 2444.579] family you've got kids and everyone else
+
+[2442.66 - 2446.0789999999997] is doing the same thing we might still
+
+[2444.579 - 2448.6600000000003] consume all the resources on the planet
+
+[2446.079 - 2450.94] so that is the that is a really short
+
+[2448.66 - 2453.64] way of explaining the Malik problem now
+
+[2450.94 - 2455.619] that being said if we have true
+
+[2453.64 - 2458.2] consensus and we achieve Global
+
+[2455.619 - 2460.599] consensus we might be able to rein in
+
+[2458.2 - 2462.8799999999997] some of the molecule driving forces like
+
+[2460.599 - 2464.92] corporate greed that are one of the
+
+[2462.88 - 2467.56] contributing factors towards you know
+
+[2464.92 - 2469.7200000000003] environmental collapse true true Global
+
+[2467.56 - 2473.32] consensus might also rein in global
+
+[2469.72 - 2476.6189999999997] conflict and disagreements in war that
+
+[2473.32 - 2478.9] also threatens to harm Humanity
+
+[2476.619 - 2481.119] also given everything that I've laid out
+
+[2478.9 - 2483.88] and a lot of this stuff is is a work in
+
+[2481.119 - 2487.06] progress one big strength of this is
+
+[2483.88 - 2490.54] that it is a very realistic path forward
+
+[2487.06 - 2492.7] so I hope that that all makes sense
+
+[2490.54 - 2495.339] um and as a final thought many of you
+
+[2492.7 - 2497.3799999999997] are aware of my research on alignment
+
+[2495.339 - 2499.06] which I call the heuristic imperatives
+
+[2497.38 - 2500.38] so the heroistic imperatives for review
+
+[2499.06 - 2502.42] in case you haven't heard of it before
+
+[2500.38 - 2504.04] is to reduce suffering in the universe
+
+[2502.42 - 2505.599] to increase prosperity in the universe
+
+[2504.04 - 2508.54] and increase understanding in the
+
+[2505.599 - 2511.119] universe so if you imbue
+
+[2508.54 - 2513.04] those values into an individual language
+
+[2511.119 - 2514.54] model that's great right it's pretty
+
+[2513.04 - 2516.339] easy to do I've done fine-tuning
+
+[2514.54 - 2518.38] experiments you can use it with system
+
+[2516.339 - 2519.82] prompts it's not a big deal
+
+[2518.38 - 2521.56] we're going to be doing more research
+
+[2519.82 - 2523.3590000000004] and Publishing more findings and data
+
+[2521.56 - 2526.72] and data sets so that it's easier to
+
+[2523.359 - 2529.839] align even open source Foundation models
+
+[2526.72 - 2532.72] to my heuristic imperatives however that
+
+[2529.839 - 2534.4] is just one agent one model in a much
+
+[2532.72 - 2537.04] larger ecosystem
+
+[2534.4 - 2540.7000000000003] if you then include the heroes to
+
+[2537.04 - 2543.22] comparatives as a consensus mechanism in
+
+[2540.7 - 2545.5] your dowels so say for instance your
+
+[2543.22 - 2547.72] personal dial the consensus mechanism
+
+[2545.5 - 2549.7] for all the eight all the AI agents that
+
+[2547.72 - 2551.2599999999998] use is that it must increase it must
+
+[2549.7 - 2552.46] reduce your suffering increase your
+
+[2551.26 - 2555.2200000000003] prosperity and increase your
+
+[2552.46 - 2558.46] understanding that can be a way to help
+
+[2555.22 - 2560.3799999999997] steer your Dow to maximize the value of
+
+[2558.46 - 2562.42] your life and I don't mean value like
+
+[2560.38 - 2565.6600000000003] economic value I mean the the subjective
+
+[2562.42 - 2568.66] personal value for you to your life and
+
+[2565.66 - 2569.92] so what I'm recommending is that we not
+
+[2568.66 - 2572.0789999999997] just recommending this is something that
+
+[2569.92 - 2574.48] we're working on in my um heuristics
+
+[2572.079 - 2575.7400000000002] imperative research Group which oh by
+
+[2574.48 - 2577.78] the way if you want to join there's a
+
+[2575.74 - 2580.1189999999997] link in the description it's a Google
+
+[2577.78 - 2582.099] form fill it out please provide detail
+
+[2580.119 - 2583.48] if you don't provide much detail we
+
+[2582.099 - 2587.02] don't have much to go on so we kind of
+
+[2583.48 - 2591.339] ignore those but basically
+
+[2587.02 - 2593.2599999999998] uh the the One Direction of research is
+
+[2591.339 - 2596.14] to use heuristic imperatives as a
+
+[2593.26 - 2598.3] consensus mechanism such that only
+
+[2596.14 - 2599.98] aligned AI
+
+[2598.3 - 2602.319] um is allowed to participate in Dallas
+
+[2599.98 - 2606.7] uh which will intrinsically exclude
+
+[2602.319 - 2609.46] malicious AI uh whatever whatever means
+
+[2606.7 - 2612.3999999999996] they use to gain their alignment right
+
+[2609.46 - 2613.599] whether you know an AI agent uses my
+
+[2612.4 - 2616.9] heroes to comparatives or not is
+
+[2613.599 - 2618.819] irrelevant if the Dow adopts the
+
+[2616.9 - 2621.2200000000003] heuristic imperatives as the gating
+
+[2618.819 - 2623.859] mechanism as the consensus mechanism to
+
+[2621.22 - 2627.7] automatically accept ideas and data from
+
+[2623.859 - 2631.24] otherwise unknown autonomous agents
+
+[2627.7 - 2633.9399999999996] um so I think that that is a pretty uh
+
+[2631.24 - 2635.9799999999996] insightful uh direction to go
+
+[2633.94 - 2638.8] um so as a quick recap there are now
+
+[2635.98 - 2640.78] three primary ways to implement uh
+
+[2638.8 - 2642.46] heuristic imperatives one is through
+
+[2640.78 - 2644.6800000000003] fine-tuning and reinforcement learning
+
+[2642.46 - 2647.38] as I mentioned research papers and data
+
+[2644.68 - 2649.839] sets are coming the second is in
+
+[2647.38 - 2652.78] blockchain and DOW technology and third
+
+[2649.839 - 2654.7599999999998] is in architectural design patterns such
+
+[2652.78 - 2656.3190000000004] as task orchestration and stuff like
+
+[2654.76 - 2658.8390000000004] that which a lot of you are familiar
+
+[2656.319 - 2662.079] with now that um cognitive architectures
+
+[2658.839 - 2663.7599999999998] are becoming more commonplace so all
+
+[2662.079 - 2665.7400000000002] that being said thank you for watching I
+
+[2663.76 - 2667.0600000000004] hope that you got a lot out of this
+
+[2665.74 - 2669.22] um please get in touch either via
+
+[2667.06 - 2671.14] patreon or the Forum or wherever else
+
+[2669.22 - 2672.52] that you can find me if you're
+
+[2671.14 - 2675.64] interested in participating or
+
+[2672.52 - 2678.18] contributing have a good one
+
+[2675.64 - 2678.18] bye

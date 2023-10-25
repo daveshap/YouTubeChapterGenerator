@@ -1,0 +1,1145 @@
+[0.0 - 5.339] hello everybody David Shapiro here with
+
+[2.34 - 8.399999999999999] a video today's video is about the topic
+
+[5.339 - 11.940000000000001] of the so-called AI Winters and the
+
+[8.4 - 13.98] Gartner hype cycle and my
+
+[11.94 - 16.02] perhaps controversial opinion that the
+
+[13.98 - 17.76] Gartner hype cycle really doesn't apply
+
+[16.02 - 19.74] here
+
+[17.76 - 21.48] so before we jump into the video as
+
+[19.74 - 24.0] always just want to do a quick plug for
+
+[21.48 - 25.98] my patreon I give all my code away for
+
+[24.0 - 28.019] free I have all my videos ad free
+
+[25.98 - 29.88] because the best way to help bring about
+
+[28.019 - 31.979999999999997] a good future is to spread the right
+
+[29.88 - 33.3] information with as little friction as
+
+[31.98 - 35.52] possible but that means I am 100
+
+[33.3 - 38.218999999999994] dependent and funded by a Grassroots
+
+[35.52 - 40.32] Movement by all of you on patreon so
+
+[38.219 - 43.5] please consider supporting me on patreon
+
+[40.32 - 47.399] and I will keep doing what I am doing
+
+[43.5 - 50.039] so the concept of AI Winters uh has
+
+[47.399 - 51.36] happened several times there are some
+
+[50.039 - 54.18] videos out there you can find them
+
+[51.36 - 56.64] pretty easily on YouTube where in the in
+
+[54.18 - 58.86] the 60s uh there are they kind of
+
+[56.64 - 60.3] expected that uh artificial intelligence
+
+[58.86 - 63.12] was going to be solved really quickly
+
+[60.3 - 66.29899999999999] there was a rather uh kind of hilarious
+
+[63.12 - 69.36] thing where uh somewhere in New England
+
+[66.299 - 71.58000000000001] um they they said oh yeah like we have
+
+[69.36 - 73.68] this new idea we're just going to get a
+
+[71.58 - 75.06] work a working group together and the
+
+[73.68 - 76.68] five of us are going to figure out
+
+[75.06 - 79.26] artificial intelligence over the course
+
+[76.68 - 81.659] of the summer that was in like 1962 or
+
+[79.26 - 85.02000000000001] something and of course uh hindsight
+
+[81.659 - 88.08000000000001] being 2020 that was a very very silly uh
+
+[85.02 - 91.02] kind of assertion to have then fast
+
+[88.08 - 94.08] forward to the 80s and expert systems uh
+
+[91.02 - 96.89999999999999] became uh all the rage and the idea of
+
+[94.08 - 99.65899999999999] an expert system was that you could uh
+
+[96.9 - 101.93900000000001] that if you have a subject matter expert
+
+[99.659 - 104.759] you could just program in all of the
+
+[101.939 - 106.619] logic and all the reasoning that a human
+
+[104.759 - 109.86] expert and you could embed that into the
+
+[106.619 - 112.56] machine somehow uh that that had some
+
+[109.86 - 114.479] benefits but it was still very limited
+
+[112.56 - 116.82000000000001] and it wasn't flexible and it was very
+
+[114.479 - 120.17999999999999] tedious and they discovered all kinds of
+
+[116.82 - 122.82] limitations and then finally uh you know
+
+[120.18 - 125.759] the modern era is machine learning
+
+[122.82 - 128.57999999999998] so it started with data mining which was
+
+[125.759 - 130.92] all the rage in the early 2000s with
+
+[128.58 - 132.3] basically you know database systems were
+
+[130.92 - 133.67999999999998] growing and so then it's like well we
+
+[132.3 - 136.37900000000002] have all this corporate data what do we
+
+[133.68 - 137.76000000000002] do with it uh and of course uh there's
+
+[136.379 - 140.64] been a few breakthroughs over the last
+
+[137.76 - 143.34] 10 or so years uh and now the
+
+[140.64 - 145.73899999999998] expectations are rising again and we
+
+[143.34 - 148.379] don't know where the top is
+
+[145.739 - 149.459] so this is the Gartner hype cycle if
+
+[148.379 - 153.54] you're not familiar with the Gartner
+
+[149.459 - 156.239] hype cycle the idea is that when uh when
+
+[153.54 - 157.79999999999998] something has a breakout moment you it
+
+[156.239 - 159.36] just keeps going up and up and up
+
+[157.8 - 161.76000000000002] because people don't know where the top
+
+[159.36 - 165.0] is and so then it's just the sky's the
+
+[161.76 - 166.98] limit right but then reality sets in and
+
+[165.0 - 170.099] it's like ah this is this actually isn't
+
+[166.98 - 172.73899999999998] that good uh maybe maybe we were just
+
+[170.099 - 175.98] completely wrong at the at the outset
+
+[172.739 - 178.26] and then over time because it takes time
+
+[175.98 - 180.0] to adapt to new technologies and learn
+
+[178.26 - 181.67999999999998] how to use them and see how they
+
+[180.0 - 183.72] interact with existing Technologies and
+
+[181.68 - 186.54000000000002] often you will have multiple
+
+[183.72 - 189.54] Technologies all at once the iPhone
+
+[186.54 - 191.76] moment is a prime example of this kind
+
+[189.54 - 193.85999999999999] of pattern where the iPhone didn't
+
+[191.76 - 196.019] invent mobile data the iPhone didn't
+
+[193.86 - 197.64000000000001] invent smartphones uh blackberries had
+
+[196.019 - 200.28] been around for years
+
+[197.64 - 202.98] but the iPhone was the correct
+
+[200.28 - 206.28] combination of Technologies and design
+
+[202.98 - 208.26] and then it's like oh we get it this is
+
+[206.28 - 210.48] this is the next wave of mobile
+
+[208.26 - 212.94] Computing and then finally the plateau
+
+[210.48 - 215.04] of productivity where you know your your
+
+[212.94 - 218.04] phone is basically as sophisticated as a
+
+[215.04 - 220.5] tricorder from Star Trek almost uh and
+
+[218.04 - 223.07999999999998] now it's nothing special but the
+
+[220.5 - 225.0] productivity part is actually so this is
+
+[223.08 - 227.70000000000002] one thing that's that I think is
+
+[225.0 - 229.5] deceptive about this is that it's right
+
+[227.7 - 232.07999999999998] in the middle but this is in terms of
+
+[229.5 - 233.459] excitement level uh but this the the
+
+[232.08 - 235.98000000000002] plateau of productivity is actually
+
+[233.459 - 238.5] where 90 plus percent of the actual
+
+[235.98 - 239.94] benefits are created so keep that in
+
+[238.5 - 243.659] mind
+
+[239.94 - 245.34] okay so my primary assertion is that you
+
+[243.659 - 248.819] haven't seen anything yet
+
+[245.34 - 250.26] and uh for for some background this is
+
+[248.819 - 252.26] where it all started the universal
+
+[250.26 - 255.29899999999998] sentence encoder paper back in 2018
+
+[252.26 - 258.18] which 2018 seems like forever ago now
+
+[255.299 - 261.54] that's only five years ago uh but this
+
+[258.18 - 265.08] is what started the entire Trend uh for
+
+[261.54 - 266.82] me at least and so uh it was only a year
+
+[265.08 - 269.28] later like almost exactly a year later
+
+[266.82 - 271.68] that gpt2 came out and then almost
+
+[269.28 - 274.85999999999996] exactly a year after that the gpt3 came
+
+[271.68 - 276.84000000000003] out and the rest is history so this is a
+
+[274.86 - 278.759] relatively new trend so keep in mind
+
+[276.84 - 280.56] that this that the the underpinning
+
+[278.759 - 282.66] technology is only like five years old
+
+[280.56 - 285.06] maximum
+
+[282.66 - 286.74] and then uh you know on the scientific
+
+[285.06 - 289.199] front uh we've all been talking about
+
+[286.74 - 291.12] the long net paper which uh creates a
+
+[289.199 - 293.16] context window of one billion tokens
+
+[291.12 - 295.259] which remember the context window of a
+
+[293.16 - 297.78000000000003] billion tokens that's roughly half a
+
+[295.259 - 300.18] lifetime worth of reading uh that it can
+
+[297.78 - 302.63899999999995] read in one shot which is pretty
+
+[300.18 - 306.12] incredible the implications of this
+
+[302.639 - 308.34000000000003] technology are impossible for us to
+
+[306.12 - 312.12] really predict and understand
+
+[308.34 - 314.21999999999997] okay so I asked chat gbt I said how can
+
+[312.12 - 317.1] you differentiate between hype and
+
+[314.22 - 318.66] substance on the Gartner hype cycle and
+
+[317.1 - 320.82000000000005] uh this is the list that it gave me one
+
+[318.66 - 323.03900000000004] you need Market proof two you need to
+
+[320.82 - 325.32] see the adoption rate three you need to
+
+[323.039 - 327.65999999999997] see actual long-term value not just the
+
+[325.32 - 329.94] excitement four you have to establish
+
+[327.66 - 332.34000000000003] what's what uh stage of the development
+
+[329.94 - 334.02] cycle you're in and then finally does it
+
+[332.34 - 336.84] actually have any practical applications
+
+[334.02 - 338.46] well on the market proof side chat GPT
+
+[336.84 - 341.75899999999996] was the market proof that we were all
+
+[338.46 - 344.58] waiting for I and others knew what gpt3
+
+[341.759 - 345.539] was capable of uh for for several years
+
+[344.58 - 349.139] now
+
+[345.539 - 351.06] but then the chat GPT ux was the
+
+[349.139 - 352.919] breakout moment that that Suddenly It's
+
+[351.06 - 355.139] on everyone's radar so the market proof
+
+[352.919 - 355.85999999999996] is there let's talk about the rest of
+
+[355.139 - 359.639] this
+
+[355.86 - 361.44] investment follow the money money is a
+
+[359.639 - 364.139] really good proxy and investment is a
+
+[361.44 - 367.32] really good proxy for adoption the fact
+
+[364.139 - 370.56] that uh that uh Global investment in AI
+
+[367.32 - 372.06] is going up exponentially that tells you
+
+[370.56 - 374.58] something because this is not just
+
+[372.06 - 376.62] exponential growth in parameter count or
+
+[374.58 - 378.84] papers this is exponential growth in
+
+[376.62 - 381.479] people being actually willing to throw
+
+[378.84 - 384.0] money at this problem uh up and to the
+
+[381.479 - 386.639] right that's all you need to know GDP
+
+[384.0 - 388.74] value this is projected future value so
+
+[386.639 - 390.84000000000003] remember part of the part of discerning
+
+[388.74 - 394.38] hype from substances what is the actual
+
+[390.84 - 396.71999999999997] value and these charts keep getting
+
+[394.38 - 398.52] revised there's a New York Times article
+
+[396.72 - 401.639] that said you know AI is going to add
+
+[398.52 - 403.44] 4.4 trillion in value to the global GDP
+
+[401.639 - 406.44] this one says it's going to be 16
+
+[403.44 - 408.78] trillion that number just keeps going up
+
+[406.44 - 411.3] and to the right so the idea that we are
+
+[408.78 - 415.13899999999995] going to have uh just a tremendous
+
+[411.3 - 417.6] amount of economic uh Boost from
+
+[415.139 - 419.34000000000003] artificial intelligence is just
+
+[417.6 - 422.1] incredible
+
+[419.34 - 423.59999999999997] uh and it's again these numbers keep
+
+[422.1 - 425.699] getting revised up so there's the value
+
+[423.6 - 426.47900000000004] there's the expect the expectation of
+
+[425.699 - 429.6] value
+
+[426.479 - 431.81899999999996] mergers and Acquisitions so you know
+
+[429.6 - 434.94] mergers and Acquisitions uh is another
+
+[431.819 - 437.40000000000003] proxy for adoption because if you
+
+[434.94 - 439.5] actually not only are you investing in
+
+[437.4 - 441.65999999999997] AI from a you know corporate standpoint
+
+[439.5 - 443.819] but if there are startups that are worth
+
+[441.66 - 445.5] buying that means that they are passing
+
+[443.819 - 448.86] muster and they are producing valuable
+
+[445.5 - 450.479] products valuable services and so we saw
+
+[448.86 - 453.3] it taper off during the pandemic
+
+[450.479 - 454.86] understandably uh and I couldn't I
+
+[453.3 - 457.139] actually couldn't find a graph that
+
+[454.86 - 459.3] shows the last couple years not sure how
+
+[457.139 - 462.0] it's shaped up but you know you
+
+[459.3 - 464.759] understand that like okay this this
+
+[462.0 - 467.46] exponential ramp up of AI
+
+[464.759 - 470.039] um Acquisitions also pretty strongly
+
+[467.46 - 472.73999999999995] into indicative of what's actually
+
+[470.039 - 475.139] happening out there so
+
+[472.74 - 478.259] what this leads you to uh to question is
+
+[475.139 - 480.599] are we in another bubble uh certainly we
+
+[478.259 - 482.16] saw a Tesla run up to be worth more than
+
+[480.599 - 484.74] like the rest of the car industry
+
+[482.16 - 487.259] altogether which is pretty typical if if
+
+[484.74 - 488.88] you look at Tesla as a tech company that
+
+[487.259 - 490.68] behavior kind of makes sense but then
+
+[488.88 - 492.599] people realized actually it's not a tech
+
+[490.68 - 494.819] company it's just a car company and now
+
+[492.599 - 496.8] the rest of the car companies are uh
+
+[494.819 - 499.44] catching up with and in many cases
+
+[496.8 - 501.12] surpassing Tesla uh particularly in
+
+[499.44 - 504.44] production numbers
+
+[501.12 - 507.18] um as well as adding new uh capabilities
+
+[504.44 - 510.66] uh working slowly towards full
+
+[507.18 - 512.88] self-driving and Robo taxis uh we saw
+
+[510.66 - 515.58] nvidia's stock price triple over the
+
+[512.88 - 518.159] last six months uh which again pretty
+
+[515.58 - 519.719] typical of tech companies and so what
+
+[518.159 - 521.459] you should expect to see in the stock
+
+[519.719 - 523.2] market is you're going to see what's
+
+[521.459 - 525.959] called a market pullback
+
+[523.2 - 528.839] and so basically this is when the
+
+[525.959 - 530.16] initial expectations cool off and you
+
+[528.839 - 532.44] have what's called a price correction
+
+[530.16 - 534.06] which is that people realize that a
+
+[532.44 - 537.7790000000001] stock is overpriced and so then it
+
+[534.06 - 539.76] corrects down uh and this is due to a uh
+
+[537.779 - 542.04] fancy term called irrational exuberance
+
+[539.76 - 544.08] uh irrational exuberance is what drove
+
+[542.04 - 546.36] up the price of Tesla it's what drove up
+
+[544.08 - 548.279] the price of Nvidia uh because people
+
+[546.36 - 549.6] are saying oh man I need to get in on
+
+[548.279 - 551.279] this and I'm just going to keep buying
+
+[549.6 - 554.22] and that and the supply and demand
+
+[551.279 - 555.48] drives up the price so one thing to keep
+
+[554.22 - 557.64] in mind though is that the stock market
+
+[555.48 - 558.9590000000001] is not the economy and the and that the
+
+[557.64 - 561.18] stock market is also not a
+
+[558.959 - 563.16] representation of productivity one thing
+
+[561.18 - 566.399] that I want to point out is that even
+
+[563.16 - 568.74] though the.com bubble popped in 2000
+
+[566.399 - 571.26] when did the Fang companies the the
+
+[568.74 - 573.839] Facebook and apple and uh and Netflix
+
+[571.26 - 576.18] and Google when did all those come to be
+
+[573.839 - 578.2790000000001] they came to market dominance more than
+
+[576.18 - 580.3199999999999] 10 years later and so that's what I
+
+[578.279 - 582.42] that's why I wanted to urge caution
+
+[580.32 - 585.6] because the uh the plateau of
+
+[582.42 - 587.0999999999999] productivity it's not it's after the
+
+[585.6 - 588.839] excitement wears off it's after the
+
+[587.1 - 591.0] bubble bursts but it's actually where
+
+[588.839 - 592.08] most of the productivity uh truly
+
+[591.0 - 594.959] happens
+
+[592.08 - 596.94] and so also I need to to caution you
+
+[594.959 - 598.8599999999999] none of this is financial advice this is
+
+[596.94 - 600.6] just some of my personal opinions and
+
+[598.86 - 603.14] observations from investing over the
+
+[600.6 - 605.76] last 20 so 20 years some so so
+
+[603.14 - 608.279] odd years
+
+[605.76 - 611.04] um okay so what will the peak of
+
+[608.279 - 614.1] inflated expectations look like in one
+
+[611.04 - 615.959] word utopianism in two words salvation
+
+[614.1 - 619.38] fantasy
+
+[615.959 - 621.1199999999999] yes AI is going to solve a lot of
+
+[619.38 - 623.76] problems it's already solving problems
+
+[621.12 - 627.12] we're already using AI to map out new
+
+[623.76 - 629.58] drugs to discover new vaccines it's
+
+[627.12 - 631.26] accelerating uh the research of quantum
+
+[629.58 - 634.74] Computing it's accelerating the research
+
+[631.26 - 635.88] of nuclear fusion uh it's it's doing all
+
+[634.74 - 637.5] kinds of stuff and then of course
+
+[635.88 - 640.62] there's the you know hundreds of
+
+[637.5 - 643.62] thousands of tools and implementations
+
+[640.62 - 647.04] that just generative AI is is doing this
+
+[643.62 - 649.62] image was an example of that where we
+
+[647.04 - 652.38] are generating images we're starting to
+
+[649.62 - 655.26] generate videos so we're still exploring
+
+[652.38 - 657.48] this blue ocean possibility but the idea
+
+[655.26 - 659.519] is we don't know where the top is and so
+
+[657.48 - 661.98] the idea is well what's the best
+
+[659.519 - 664.74] possible outcome and that is the peak of
+
+[661.98 - 668.1] inflated expectations and so as this
+
+[664.74 - 670.26] idea of you know techno optimism of a
+
+[668.1 - 672.899] Salvation fantasy that maybe technology
+
+[670.26 - 674.76] will be the Panacea for everything all
+
+[672.899 - 676.38] social ills and everyone's life is going
+
+[674.76 - 678.72] to be infinitely better
+
+[676.38 - 680.519] again yes it will solve a lot of
+
+[678.72 - 683.1] problems and a lot of suffering will be
+
+[680.519 - 684.72] alleviated by it but you need to urge
+
+[683.1 - 687.48] caution because it's not going to solve
+
+[684.72 - 690.0600000000001] all problems and in fact all new
+
+[687.48 - 692.22] technologies usually create new problems
+
+[690.06 - 695.16] so that leads to the trough of
+
+[692.22 - 697.339] disillusionment uh so what is the trough
+
+[695.16 - 700.079] of disillusionment going to look like
+
+[697.339 - 702.0600000000001] we've already told ourselves all the
+
+[700.079 - 704.579] stories about this with cyberpunk and
+
+[702.06 - 707.279] dystopian uh novels and video games and
+
+[704.579 - 709.4399999999999] movies so some of the objective things
+
+[707.279 - 710.88] that might happen and again I don't need
+
+[709.44 - 712.9200000000001] to rehash everything because we've got
+
+[710.88 - 716.9399999999999] plenty of these stories in fiction these
+
+[712.92 - 719.3389999999999] cautionary tales that we saw coming uh I
+
+[716.94 - 721.0790000000001] I suspect that we will see some Supreme
+
+[719.339 - 723.9590000000001] Court decisions in the United States
+
+[721.079 - 725.579] that erode privacy freedom of speech and
+
+[723.959 - 728.04] Denim and undermine Democratic
+
+[725.579 - 730.4399999999999] institutions I certainly hope we don't
+
+[728.04 - 733.019] have that but given the Supreme Court
+
+[730.44 - 734.8800000000001] that we have today uh I would not be
+
+[733.019 - 737.579] surprised at all
+
+[734.88 - 740.399] another thing to pay attention to is
+
+[737.579 - 741.959] stuff like corporate personhood if AI
+
+[740.399 - 743.82] starts running corporations and
+
+[741.959 - 747.42] corporate and corporations have some
+
+[743.82 - 749.22] degree of personhood uh well you know
+
+[747.42 - 751.26] then that is it that is literally a
+
+[749.22 - 753.5400000000001] direct path for AI to have legal
+
+[751.26 - 755.64] personhood now I did some research into
+
+[753.54 - 757.92] this and corporate personhood is not the
+
+[755.64 - 760.62] exact same as like a human personhood
+
+[757.92 - 763.56] but basically the idea is that you can
+
+[760.62 - 766.079] for legal intents and purposes in some
+
+[763.56 - 770.0999999999999] domains in some topics you can treat a
+
+[766.079 - 772.019] corporation uh legally similarly as as a
+
+[770.1 - 774.5400000000001] human which is going to be problematic
+
+[772.019 - 776.16] and I I hope that what we do is that
+
+[774.54 - 777.779] artificial intelligence proves that we
+
+[776.16 - 781.8] actually need to pull back on corporate
+
+[777.779 - 783.06] personhood uh because you know well yeah
+
+[781.8 - 784.4399999999999] you can imagine
+
+[783.06 - 786.779] but then the manipulation and
+
+[784.44 - 788.639] exploitation uh you know what we saw
+
+[786.779 - 790.62] with social media and botnets and troll
+
+[788.639 - 792.0] farms and that sort of thing uh that's
+
+[790.62 - 794.399] going to be termed up to 11. it's
+
+[792.0 - 797.519] already being done uh here in America
+
+[794.399 - 799.74] where uh as the presidential race uh
+
+[797.519 - 802.38] gets uh just is just getting kicked off
+
+[799.74 - 805.5600000000001] we're already seeing uh synthetic images
+
+[802.38 - 808.2] being used for manipulation and that's
+
+[805.56 - 810.0] only going to get worse and then in the
+
+[808.2 - 812.279] in the most cynical The Darkest Timeline
+
+[810.0 - 814.98] it's deliberately used by uh
+
+[812.279 - 816.8389999999999] corporations uh you know if you look at
+
+[814.98 - 819.66] the AI art generators that can create
+
+[816.839 - 821.94] the sexiest pictures of all time imagine
+
+[819.66 - 824.279] that instead of getting targeted ads
+
+[821.94 - 826.62] you're getting targeted like thirst
+
+[824.279 - 828.36] trials uh to advertise to get your
+
+[826.62 - 830.279] attention to get clicks
+
+[828.36 - 832.0790000000001] um so you know I think that I think that
+
+[830.279 - 834.48] we're going to see some Trends towards
+
+[832.079 - 836.459] uh more cyberpunk implementations of
+
+[834.48 - 838.6800000000001] artificial intelligence but then also
+
+[836.459 - 841.0189999999999] from the global scale Global
+
+[838.68 - 844.68] fragmentation geopolitical competition
+
+[841.019 - 846.48] and military use uh you know the
+
+[844.68 - 848.0999999999999] deployment of Slaughter Bots against
+
+[846.48 - 850.0790000000001] civilians
+
+[848.1 - 851.88] um the the current trends of
+
+[850.079 - 854.279] de-globalization and multi-polar chess
+
+[851.88 - 856.019] and so what I mean by that is basically
+
+[854.279 - 859.2] the world is gearing up for World War
+
+[856.019 - 862.44] III as far as I can tell uh battle lines
+
+[859.2 - 864.6] are being drawn uh people are peop by
+
+[862.44 - 867.12] people I mean nations are pulling their
+
+[864.6 - 868.139] cards and playing closer to the vest uh
+
+[867.12 - 870.6] and then of course there's the
+
+[868.139 - 872.88] possibility of synthetic biology and
+
+[870.6 - 874.74] gain a function research aided by
+
+[872.88 - 877.5] artificial intelligence that could do
+
+[874.74 - 880.44] things like create targeted bio weapons
+
+[877.5 - 882.54] this was this was the subject of uh of
+
+[880.44 - 885.0] the last uh Daniel Craig James Bond
+
+[882.54 - 886.92] movie uh no time to die where they
+
+[885.0 - 888.839] created a synthetic bio weapon that
+
+[886.92 - 891.18] could basically just Target
+
+[888.839 - 893.4590000000001] um an ethnic group or even a family or
+
+[891.18 - 895.1389999999999] an individual that sort of thing is
+
+[893.459 - 897.1199999999999] hypothetically possible
+
+[895.139 - 898.5] and so the trough of disillusionment the
+
+[897.12 - 901.139] primary thing that's going to drive this
+
+[898.5 - 904.32] is the realization the broad realization
+
+[901.139 - 906.0790000000001] that all Technologies are dual use or in
+
+[904.32 - 909.0600000000001] other words it's a double-edged sword
+
+[906.079 - 911.519] whenever you create a powerful new
+
+[909.06 - 914.0999999999999] technology you can use it for good or
+
+[911.519 - 916.86] you can use it for bad but technology is
+
+[914.1 - 920.4590000000001] by itself intrinsically neutral The
+
+[916.86 - 922.0790000000001] Darkest Hour of AI uh in this trough of
+
+[920.459 - 924.0] disillusionment is going to be the
+
+[922.079 - 925.7399999999999] darkest hour of humanity and it's one
+
+[924.0 - 927.24] that we might not survive which is why I
+
+[925.74 - 931.0790000000001] do the work that I do
+
+[927.24 - 933.3] now if we survive that then the slope of
+
+[931.079 - 935.6389999999999] Enlightenment will be a long march
+
+[933.3 - 937.92] towards Redemption and it will not be
+
+[935.639 - 940.0790000000001] clean it will not be fun and it will not
+
+[937.92 - 942.24] be perfect it's not going to be sunshine
+
+[940.079 - 944.88] and rainbows we will need to use to
+
+[942.24 - 948.24] fight we'll we'll need to learn to Fight
+
+[944.88 - 950.579] Fire with Fire And basically instead of
+
+[948.24 - 952.26] using AI to erode democracy we're going
+
+[950.579 - 955.3199999999999] to need to figure out how to use AI to
+
+[952.26 - 957.0] protect democracy and human rights we
+
+[955.32 - 960.36] are going to need to synthesize a new
+
+[957.0 - 962.639] culture and so what I mean by that is as
+
+[960.36 - 965.1] a as a civilization we will have to
+
+[962.639 - 968.339] adapt to this new paradigm so a good
+
+[965.1 - 970.26] example is think about 200 years ago 300
+
+[968.339 - 972.5400000000001] years ago when 90 plus percent of people
+
+[970.26 - 975.36] were all Farmers that was one
+
+[972.54 - 976.98] civilizational Paradigm with the rise of
+
+[975.36 - 979.62] the first and second industrial
+
+[976.98 - 981.24] revolutions which brought in steam power
+
+[979.62 - 984.24] and then eventually internal combustion
+
+[981.24 - 985.62] engines and mass production that changed
+
+[984.24 - 988.0790000000001] the paradigms and so we went from
+
+[985.62 - 991.139] primarily a rural AG agricultural
+
+[988.079 - 993.0] civilization to an urban and Suburban
+
+[991.139 - 995.699] civilization over time
+
+[993.0 - 998.16] so that's what I mean by synthesizing a
+
+[995.699 - 1000.62] new AI literate culture we are going to
+
+[998.16 - 1003.199] change again and that change is going to
+
+[1000.62 - 1005.42] be disruptive there will be social harms
+
+[1003.199 - 1006.68] and there will be upheaval it's not
+
+[1005.42 - 1009.259] going to be comfortable and it's not
+
+[1006.68 - 1011.0] going to be pleasant even if we do our
+
+[1009.259 - 1012.5600000000001] best to start trying to navigate it now
+
+[1011.0 - 1014.0] and of course we still have plenty of
+
+[1012.56 - 1017.18] people saying oh it's never going to
+
+[1014.0 - 1019.579] happen so you know the the longer we
+
+[1017.18 - 1021.4399999999999] have denialism the longer it is the more
+
+[1019.579 - 1022.8199999999999] delay there is to start adapting to
+
+[1021.44 - 1024.319] these things which again this is why I
+
+[1022.82 - 1026.9] do the work that I do
+
+[1024.319 - 1029.299] we're going and and the the hardest part
+
+[1026.9 - 1031.22] of the slope of Enlightenment where it
+
+[1029.299 - 1033.199] come where it pertains to AI is building
+
+[1031.22 - 1035.839] multi-polar piece
+
+[1033.199 - 1039.02] the 20th century mentality was there can
+
+[1035.839 - 1040.579] be only one uh you know Nazi Germany
+
+[1039.02 - 1041.9] said that they thought they honestly
+
+[1040.579 - 1043.1] thought they were going to conquer the
+
+[1041.9 - 1044.7800000000002] world
+
+[1043.1 - 1046.4589999999998] um at the beginning of the 20th century
+
+[1044.78 - 1049.82] the British Empire was the preeminent
+
+[1046.459 - 1052.7] Force they slowly lost control Nazi
+
+[1049.82 - 1054.62] Germany came up then uh then the the
+
+[1052.7 - 1057.2] cold war between the United States and
+
+[1054.62 - 1060.799] the Soviet Union the idea was there can
+
+[1057.2 - 1062.6200000000001] be only one power and now with Russia on
+
+[1060.799 - 1065.08] the decline China on the ascendancy
+
+[1062.62 - 1068.4799999999998] plenty of other places on the ascendancy
+
+[1065.08 - 1071.6] Africa and India namely we are come
+
+[1068.48 - 1074.02] we're slowly coming to realize that we
+
+[1071.6 - 1076.82] are going to have to form a multi-cla
+
+[1074.02 - 1078.98] multicultural Global identity
+
+[1076.82 - 1081.4399999999998] and that this this mentality of that
+
+[1078.98 - 1083.84] there's only going to be one is actually
+
+[1081.44 - 1086.6000000000001] not really a healthy thing to have
+
+[1083.84 - 1088.82] because if you believe that your culture
+
+[1086.6 - 1090.86] must Dominate and conquer the rest of
+
+[1088.82 - 1092.62] the planet well guess what if someone
+
+[1090.86 - 1095.4799999999998] else has that same belief that
+
+[1092.62 - 1097.3999999999999] imperialistic belief then you're
+
+[1095.48 - 1099.98] inevitably going to fight and so what we
+
+[1097.4 - 1102.3200000000002] have to realize is that the world is not
+
+[1099.98 - 1105.74] going to be 100 Western liberal
+
+[1102.32 - 1108.26] democracies or 100 Eastern uh Central
+
+[1105.74 - 1110.84] authoritarian regimes
+
+[1108.26 - 1113.059] and machine intelligence a machine-based
+
+[1110.84 - 1115.22] civilization is going to be a forcing
+
+[1113.059 - 1118.28] function and so what I mean by that is
+
+[1115.22 - 1121.039] that the the the the the black mirror
+
+[1118.28 - 1123.9189999999999] that artificial intelligence holds up to
+
+[1121.039 - 1126.2] society up to humanity is going to force
+
+[1123.919 - 1127.8200000000002] us to ask very difficult and
+
+[1126.2 - 1130.76] uncomfortable questions about ourselves
+
+[1127.82 - 1134.12] and about humanity and it's going to
+
+[1130.76 - 1135.679] push us over the edge and now when you
+
+[1134.12 - 1137.36] get pushed over the edge do you just
+
+[1135.679 - 1139.5800000000002] plummet into the abyss or do you learn
+
+[1137.36 - 1140.84] to fly that is the nature of the slope
+
+[1139.58 - 1142.34] of Enlightenment and that's why I said
+
+[1140.84 - 1144.3799999999999] it's not going to be clean it's not
+
+[1142.34 - 1147.08] going to be pretty and it is it is going
+
+[1144.38 - 1149.72] to be a long slog
+
+[1147.08 - 1152.78] the plateau of productivity is only
+
+[1149.72 - 1155.78] going to occur once we establish a new
+
+[1152.78 - 1156.86] normal after the singularity and I know
+
+[1155.78 - 1158.0] that some people think that the
+
+[1156.86 - 1161.059] singularity means that it is
+
+[1158.0 - 1162.62] intrinsically unpredictable uh I think
+
+[1161.059 - 1165.58] that that is a bad definition of
+
+[1162.62 - 1167.78] Singularity uh really the only the only
+
+[1165.58 - 1170.1789999999999] mathematical definition of singularity
+
+[1167.78 - 1173.12] in terms of technological process is
+
+[1170.179 - 1174.799] just the compounding returns of things
+
+[1173.12 - 1176.36] like artificial intelligence and Quantum
+
+[1174.799 - 1178.22] Computing and the amount of information
+
+[1176.36 - 1180.799] the amount of knowledge that we have
+
+[1178.22 - 1183.08] increasing exponentially that doesn't
+
+[1180.799 - 1184.28] mean that the fundamental laws of the
+
+[1183.08 - 1187.6999999999998] universe are going to suddenly be
+
+[1184.28 - 1190.52] shattered it just means that the rate of
+
+[1187.7 - 1192.2] progress of information and knowledge is
+
+[1190.52 - 1194.179] going to continue to accelerate which we
+
+[1192.2 - 1197.24] were already seeing the beginnings of
+
+[1194.179 - 1199.46] right now so what does that plateau look
+
+[1197.24 - 1200.9] like is it going to be Utopia is it
+
+[1199.46 - 1203.6000000000001] going to be dystopia is it going to be
+
+[1200.9 - 1205.22] something else well a couple things that
+
+[1203.6 - 1207.1399999999999] I've talked about one is post labor
+
+[1205.22 - 1209.24] economics
+
+[1207.14 - 1210.98] um AI is Paradigm shattering in the same
+
+[1209.24 - 1212.539] way that the the first and second
+
+[1210.98 - 1214.16] industrial revolutions were Paradigm
+
+[1212.539 - 1215.72] shattering so does that mean that we're
+
+[1214.16 - 1218.9] going to have Ubi post scarcity
+
+[1215.72 - 1220.64] hyperabundance who knows but the the
+
+[1218.9 - 1222.799] thing that you can count on is that our
+
+[1220.64 - 1226.7] lifestyles will be drastically different
+
+[1222.799 - 1228.26] our lifestyle uh in 10 to 20 years is
+
+[1226.7 - 1231.14] going to be as fundamentally different
+
+[1228.26 - 1233.24] as lifestyles are from 200 years ago
+
+[1231.14 - 1235.3400000000001] instead of waking up at five every five
+
+[1233.24 - 1237.32] in the morning every morning to you know
+
+[1235.34 - 1240.08] feed the cows and feed the chickens and
+
+[1237.32 - 1242.8999999999999] and you know get the plow horses ready I
+
+[1240.08 - 1245.6599999999999] wake up at 5am to make YouTube videos
+
+[1242.9 - 1247.76] and it is what it is uh now another
+
+[1245.66 - 1249.6200000000001] thing to think about is transhumanism
+
+[1247.76 - 1251.96] and post-humanism
+
+[1249.62 - 1254.36] with the rise of genetic engineering and
+
+[1251.96 - 1257.3600000000001] cybernetics and synthetic biology and
+
+[1254.36 - 1259.1] whatever else happens uh maybe some
+
+[1257.36 - 1261.74] people do merge with machines I don't
+
+[1259.1 - 1263.7199999999998] know but the key thing here is that the
+
+[1261.74 - 1265.4] definition of human might start to drift
+
+[1263.72 - 1268.16] and
+
+[1265.4 - 1270.679] that is going to be part of that plateau
+
+[1268.16 - 1273.14] of productivity where like I said 90 of
+
+[1270.679 - 1276.98] the of the value of the gain happens
+
+[1273.14 - 1281.1200000000001] after all this initial disruption so
+
+[1276.98 - 1282.679] where are we we are here we are not even
+
+[1281.12 - 1285.5] halfway up the peak of inflated
+
+[1282.679 - 1288.2] expectations we still have to get uh we
+
+[1285.5 - 1290.9] still have to jump the chasm where only
+
+[1288.2 - 1292.3400000000001] a few of us are the early adopters but
+
+[1290.9 - 1294.14] the tidal wave of artificial
+
+[1292.34 - 1296.299] intelligence that's coming
+
+[1294.14 - 1298.88] is going to be an irrepressible and
+
+[1296.299 - 1301.039] unignorable force before too long and so
+
+[1298.88 - 1303.8600000000001] keep in mind this this Gartner hype
+
+[1301.039 - 1306.32] cycle the utopianism of the of the peak
+
+[1303.86 - 1309.559] of inflated expectations the cyberpunk
+
+[1306.32 - 1310.9399999999998] and backslide towards dystopian uh
+
+[1309.559 - 1312.9189999999999] outcomes for the truff of
+
+[1310.94 - 1314.419] disillusionment and then the slope of
+
+[1312.919 - 1316.88] Enlightenment that's going to require
+
+[1314.419 - 1319.22] synthesis and emergence of something
+
+[1316.88 - 1323.6000000000001] entirely new we will have to synthesize
+
+[1319.22 - 1326.6000000000001] an entirely new paradigm of humanity of
+
+[1323.6 - 1329.78] civilization of our culture and only
+
+[1326.6 - 1331.76] then once we once we pass that gate once
+
+[1329.78 - 1334.1] we pass that threshold will we get to
+
+[1331.76 - 1336.799] the plateau of productivity where 90 of
+
+[1334.1 - 1339.32] the benefit of AI will be realized and
+
+[1336.799 - 1340.94] that's going to be around near or after
+
+[1339.32 - 1343.039] the singularity
+
+[1340.94 - 1346.24] thank you for watching I hope you got a
+
+[1343.039 - 1346.24] lot out of this cheers

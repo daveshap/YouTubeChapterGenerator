@@ -1,0 +1,2035 @@
+[1.319 - 6.72] hey gang how's it going today uh David
+
+[3.6 - 9.84] Shapiro here with another video uh today
+
+[6.72 - 12.239999999999998] we are going to talk about chat GPT and
+
+[9.84 - 15.120000000000001] uh predictions so what I mean by
+
+[12.24 - 17.94] predictions is integration uh
+
+[15.12 - 19.5] competitors and impact so for this year
+
+[17.94 - 20.880000000000003] and Beyond
+
+[19.5 - 24.3] um before we get started I just wanted
+
+[20.88 - 26.46] to remind everyone that um if I get my
+
+[24.3 - 28.619] financial goals met on patreon I can
+
+[26.46 - 29.880000000000003] disable ads I think that ads are a waste
+
+[28.619 - 32.04] of time
+
+[29.88 - 34.44] um so if you want to do that there's
+
+[32.04 - 36.12] also a link several links in the video
+
+[34.44 - 39.899] description for the Discord community
+
+[36.12 - 42.12] that I started there um my LinkedIn
+
+[39.899 - 43.559] profile Twitter and also my home page
+
+[42.12 - 46.68] where you can sign up for my mailing
+
+[43.559 - 48.36] list so with all that said uh let's get
+
+[46.68 - 51.44] started
+
+[48.36 - 54.12] all right so open AI created chat GPT
+
+[51.44 - 55.019999999999996] and you have you may or may not have
+
+[54.12 - 57.599999999999994] heard
+
+[55.02 - 60.18000000000001] um but a recent study or survey rather
+
+[57.6 - 64.199] showed that 30 percent of professionals
+
+[60.18 - 65.88] have already tried chat GPT at work
+
+[64.199 - 68.52] that is incredible it has been around
+
+[65.88 - 70.439] for a couple months so this is probably
+
+[68.52 - 73.08] the fastest adoption curve we have ever
+
+[70.439 - 77.27999999999999] seen for any new technology uh full stop
+
+[73.08 - 80.03999999999999] so that is important to keep in mind
+
+[77.28 - 81.96000000000001] so let's start with Integrations
+
+[80.04 - 83.7] and so what do I mean by Integrations
+
+[81.96 - 86.15899999999999] what companies are going to use it what
+
+[83.7 - 87.479] products apis data sources that sort of
+
+[86.159 - 90.18] thing
+
+[87.479 - 93.24] so integration number one is Microsoft
+
+[90.18 - 95.52000000000001] Office uh I had a video a week or two
+
+[93.24 - 97.74] ago talking about how Microsoft they
+
+[95.52 - 100.14] wanted entry they want to integrate chat
+
+[97.74 - 103.32] GPT with Bing and then not long after
+
+[100.14 - 104.82] that they came out with Microsoft Office
+
+[103.32 - 106.67999999999999] um so they're going to integrate it with
+
+[104.82 - 108.36] like Outlook and Microsoft Word that
+
+[106.68 - 109.799] sort of things
+
+[108.36 - 112.32] um so
+
+[109.799 - 115.74000000000001] like what do you use it for why why
+
+[112.32 - 118.5] integrate this with office well
+
+[115.74 - 120.6] the thing is is that Microsoft Office is
+
+[118.5 - 122.399] pretty Universal all lawyers use
+
+[120.6 - 124.38] Microsoft Office all authors use
+
+[122.399 - 127.259] Microsoft Office all scientists use
+
+[124.38 - 129.84] Microsoft Office right everyone uses
+
+[127.259 - 131.879] Microsoft Word for drafting any
+
+[129.84 - 134.70000000000002] manuscript or monograph
+
+[131.879 - 137.34] and so by integrating a tool directly
+
+[134.7 - 139.2] with these you get it in front of
+
+[137.34 - 143.28] millions of people
+
+[139.2 - 145.379] so PowerPoint Excel word teams Microsoft
+
+[143.28 - 147.599] teams is a big thing
+
+[145.379 - 149.57999999999998] um so by
+
+[147.599 - 151.79999999999998] it would it would make sense like
+
+[149.58 - 153.48000000000002] there's no reason not to right
+
+[151.8 - 156.54000000000002] um and they can figure out the use cases
+
+[153.48 - 158.04] over time but the fact that you can have
+
+[156.54 - 159.17999999999998] an intelligent conversation with
+
+[158.04 - 160.98] something
+
+[159.18 - 165.42000000000002] um you know I have videos where I show
+
+[160.98 - 167.34] like using chat GPT to brainstorm
+
+[165.42 - 169.14] um like writing right and then you have
+
+[167.34 - 171.78] to switch back and forth between chat
+
+[169.14 - 173.27999999999997] GPT and Microsoft Word so what if you
+
+[171.78 - 175.26] just put those together and you have a
+
+[173.28 - 176.64000000000001] little chat window on the side and then
+
+[175.26 - 178.14] you can keep writing your work of
+
+[176.64 - 180.0] fiction or your work of science or
+
+[178.14 - 183.29999999999998] whatever and then it can you know ask
+
+[180.0 - 184.62] you questions as you go and in fact uh
+
+[183.3 - 187.98000000000002] you know many of you know I have a
+
+[184.62 - 190.20000000000002] startup and the the arrival of chat GPT
+
+[187.98 - 192.29999999999998] completely derailed one of the lines of
+
+[190.2 - 194.64] products that I was working on
+
+[192.3 - 196.98000000000002] um so it is what it is I would rather
+
+[194.64 - 199.67999999999998] live in a world where there's more AI
+
+[196.98 - 200.22] than less AI so I don't really care
+
+[199.68 - 203.34] um
+
+[200.22 - 204.78] you know and uh it's interesting it also
+
+[203.34 - 207.18] moved the needle because now it's like
+
+[204.78 - 209.28] oh people understand chat GPT so when I
+
+[207.18 - 210.54000000000002] pitch something it's not it doesn't seem
+
+[209.28 - 212.159] as far-fetched it's like I've been
+
+[210.54 - 213.659] saying this for a couple years and
+
+[212.159 - 217.44] people often look at me like I have two
+
+[213.659 - 219.54] heads but now it's been proven uh so I'm
+
+[217.44 - 222.06] not as crazy as uh maybe well I am crazy
+
+[219.54 - 224.34] but I'm not as crazy in that way so
+
+[222.06 - 227.81900000000002] anyways how's it going to play out
+
+[224.34 - 230.879] so uh I suspect that they're gonna have
+
+[227.819 - 232.319] a tiered pricing structure where you
+
+[230.879 - 235.01899999999998] know you can have the basic Microsoft
+
+[232.319 - 238.07999999999998] Office that is about what like 270 a
+
+[235.019 - 239.70000000000002] year or something it's around 300 a year
+
+[238.08 - 241.31900000000002] um so you have that and then there's
+
+[239.7 - 244.5] probably going to be add-on packages
+
+[241.319 - 247.14] that give you uh different levels of
+
+[244.5 - 249.72] like chat GPT like you know you can have
+
+[247.14 - 251.22] the the the high-end package that I
+
+[249.72 - 253.739] predict will probably cost around a
+
+[251.22 - 255.72] thousand dollars a year maybe more
+
+[253.739 - 257.4] where you have unlimited access you have
+
+[255.72 - 258.479] the higher speed because openai
+
+[257.4 - 260.69899999999996] announced that they're going to have
+
+[258.479 - 262.44] like GPT profession or chat GPT pro
+
+[260.699 - 264.06] version or whatever
+
+[262.44 - 267.6] um so they're going to prioritize for
+
+[264.06 - 269.04] higher speed probably longer memory
+
+[267.6 - 270.84000000000003] um stuff like that managing multiple
+
+[269.04 - 273.06] conversations
+
+[270.84 - 276.06] um there will probably be rumor has it
+
+[273.06 - 277.38] and I say rumor this came from open AI
+
+[276.06 - 279.54] themselves where they've been working
+
+[277.38 - 281.699] with professionals subject matter
+
+[279.54 - 286.04] experts for a while
+
+[281.699 - 289.38] so I suspect that they are going to try
+
+[286.04 - 292.139] and have like you know domain specific
+
+[289.38 - 294.36] versions of chat GPT I haven't seen much
+
+[292.139 - 296.16] evidence that open AI really comprehends
+
+[294.36 - 299.40000000000003] any domains other than
+
+[296.16 - 301.44] uh deep neural networks they're a
+
+[299.4 - 303.78] relatively new company and they're not
+
+[301.44 - 307.259] that experienced as a tech company or as
+
+[303.78 - 309.11999999999995] a vendor more on that later so I suspect
+
+[307.259 - 311.639] they're going to find more success by
+
+[309.12 - 314.699] just creating a general purpose chat GPT
+
+[311.639 - 316.919] with Integrations
+
+[314.699 - 318.18] all right integration number two web
+
+[316.919 - 320.28] browsers
+
+[318.18 - 323.759] so a lot of people have already created
+
+[320.28 - 326.58] uh chat GPT extensions for Chrome and
+
+[323.759 - 328.8] Firefox and stuff so this this is
+
+[326.58 - 332.52] already here but I suspect you're going
+
+[328.8 - 335.699] to see higher end Integrations you know
+
+[332.52 - 338.29999999999995] by open AI buy Microsoft so you'll have
+
+[335.699 - 341.16] like the official subscription-based one
+
+[338.3 - 343.32] and then it'll basically be just like a
+
+[341.16 - 346.38000000000005] sidebar conversation like the little
+
+[343.32 - 348.12] chat window for all web pages so you can
+
+[346.38 - 350.88] go to any web page and say you know
+
+[348.12 - 352.259] what's going on on this webpage or you
+
+[350.88 - 353.52] know it can it can read the web page and
+
+[352.259 - 355.259] say hey it looks like you're making a
+
+[353.52 - 356.58] YouTube video you want me to write the
+
+[355.259 - 359.639] description for you do you want me to
+
+[356.58 - 363.0] write the title here's an idea and so
+
+[359.639 - 364.5] basically you're moving away from search
+
+[363.0 - 366.24] based right where you've got you know
+
+[364.5 - 368.52] your little search bar at the top to
+
+[366.24 - 370.86] chat based uh interaction with the web
+
+[368.52 - 372.78] which could be really big
+
+[370.86 - 375.47900000000004] right and that because not only can it
+
+[372.78 - 376.919] be your concierge to the internet
+
+[375.479 - 379.199] um it can help you with anything that
+
+[376.919 - 381.419] you're writing and so I think it could
+
+[379.199 - 383.88] probably replace grammarly if I was
+
+[381.419 - 385.38] grammarly I would be scared out of my
+
+[383.88 - 387.479] mind right now
+
+[385.38 - 390.96] um chat GPT is going to single-handedly
+
+[387.479 - 393.36] destroy several uh business models rumor
+
+[390.96 - 394.85999999999996] has it that Jasper is in big trouble so
+
+[393.36 - 397.68] they're going to have to Pivot away and
+
+[394.86 - 399.0] not compete directly with chat GPT
+
+[397.68 - 401.58] um I suspect Graham really is going to
+
+[399.0 - 405.539] go the way the dinosaur and a number of
+
+[401.58 - 407.81899999999996] other things but yeah so integrating
+
+[405.539 - 409.68] chat GPT with web and web browser
+
+[407.819 - 411.139] specifically this is going to change the
+
+[409.68 - 414.90000000000003] way that we interact with the internet
+
+[411.139 - 417.12] so this is huge and it's coming
+
+[414.9 - 418.38] um integration number three mobile so
+
+[417.12 - 419.699] there's been some I don't know if it's a
+
+[418.38 - 422.58] I don't know if it's a leak or if it's
+
+[419.699 - 426.41900000000004] just public information but um you know
+
+[422.58 - 429.59999999999997] open AI is already has an iPhone uh chat
+
+[426.419 - 431.4] gbt app and beta closed beta I think so
+
+[429.6 - 433.139] imagine that like you have that same
+
+[431.4 - 436.31899999999996] level of interaction where you have
+
+[433.139 - 438.419] either a text based or a voice based way
+
+[436.319 - 439.86] of interacting not just with your phone
+
+[438.419 - 441.479] because right now it's it's still a
+
+[439.86 - 443.759] brain in a jar right
+
+[441.479 - 447.539] so you can have a conversation with just
+
+[443.759 - 449.58000000000004] your just the app but smartphones have
+
+[447.539 - 451.74] lots and lots of apis and Integrations
+
+[449.58 - 454.19899999999996] and it would not be difficult to give
+
+[451.74 - 457.139] that app more Integrations so you can
+
+[454.199 - 459.06] have chat GPT connected to your calendar
+
+[457.139 - 461.039] your phone your apps your text messages
+
+[459.06 - 463.56] and so you can just say something like
+
+[461.039 - 465.96] hey write a text to Sally that's you
+
+[463.56 - 468.9] know blah blah does this or write an
+
+[465.96 - 471.78] email to work that says this or find you
+
+[468.9 - 474.23999999999995] know you know take me to the nearest uh
+
+[471.78 - 475.85999999999996] best Mediterranean place
+
+[474.24 - 478.08] um this is basically what Siri was
+
+[475.86 - 479.759] supposed to be but of course the the
+
+[478.08 - 481.08] language model was not sophisticated
+
+[479.759 - 483.24] enough
+
+[481.08 - 485.34] um and so because of this we're already
+
+[483.24 - 487.02] seeing chat GPT even though it's only a
+
+[485.34 - 489.479] couple months old it's already pivoting
+
+[487.02 - 491.039] to be a commodity or a utility level
+
+[489.479 - 493.44] tool where people are just going to
+
+[491.039 - 495.96] expect it so we're going to see all
+
+[493.44 - 498.599] every competitor right Google will
+
+[495.96 - 499.979] probably have their own uh built-in
+
+[498.599 - 501.96] version
+
+[499.979 - 503.46] um very soon you know they've got home
+
+[501.96 - 505.85999999999996] and other models that they're working on
+
+[503.46 - 509.4] so I would not be surprised if Android
+
+[505.86 - 510.599] has a native you know chat client before
+
+[509.4 - 512.6999999999999] too long
+
+[510.599 - 514.38] and again these are all Universal
+
+[512.7 - 516.719] platforms right that's the that's the
+
+[514.38 - 519.06] commonality between Microsoft Office web
+
+[516.719 - 521.7600000000001] browsers and mobile is everyone has
+
+[519.06 - 523.8599999999999] these and everyone uses them
+
+[521.76 - 527.04] um and so it would it only makes good
+
+[523.86 - 529.5] business sense for openai and Microsoft
+
+[527.04 - 531.24] to put chat GPT everywhere that they can
+
+[529.5 - 534.18] and let the rest of the world figure out
+
+[531.24 - 537.0600000000001] how to use it right and this goes for
+
+[534.18 - 538.8] competitors as well which we'll get to
+
+[537.06 - 540.3599999999999] um integration number four this one is a
+
+[538.8 - 542.0999999999999] little less obvious
+
+[540.36 - 544.5600000000001] um I picked the uh the Le cars system
+
+[542.1 - 547.5] which is the uh uh the computer system
+
+[544.56 - 549.8389999999999] from Star Trek so basically if you're if
+
+[547.5 - 551.64] you if you uh are a fan of Star Trek you
+
+[549.839 - 554.0400000000001] always see Picard saying like you know
+
+[551.64 - 556.14] computer run a system-wide diagnostic on
+
+[554.04 - 559.98] blah blah blah and plot a course to
+
+[556.14 - 562.62] Proxima Centauri and blah blah so
+
+[559.98 - 565.26] I honestly this was this was the point
+
+[562.62 - 567.779] of um of my Raven project was I wanted
+
+[565.26 - 569.8199999999999] to have a ubiquitous uh smart assistant
+
+[567.779 - 571.8] that could do anything and this is
+
+[569.82 - 574.32] basically like Jarvis right from Iron
+
+[571.8 - 576.54] Man you know uh the earlier Iron Man's
+
+[574.32 - 578.4590000000001] before Jarvis became Vision
+
+[576.54 - 580.4399999999999] um but it's like you know you could have
+
+[578.459 - 582.3599999999999] an intelligent thing that is not just
+
+[580.44 - 584.94] connected to the internet and your and
+
+[582.36 - 587.04] your smart home systems but also uh
+
+[584.94 - 590.339] integrated into more sensors and other
+
+[587.04 - 592.5] things uh that gives you a lot of home
+
+[590.339 - 594.72] automation and a lot of and Beyond home
+
+[592.5 - 596.94] automation Home Intelligence because
+
+[594.72 - 599.399] here's the thing and this is where it
+
+[596.94 - 602.339] gets really sci-fi imagine that you're
+
+[599.399 - 604.92] having like an argument with your spouse
+
+[602.339 - 606.6600000000001] or your kids and you say like computer
+
+[604.92 - 609.18] or whatever the name of the of the thing
+
+[606.66 - 611.519] is like you know can you help us figure
+
+[609.18 - 613.8] out like how to get along can you teach
+
+[611.519 - 616.08] us what we're doing wrong how do I raise
+
+[613.8 - 618.3] my kids right how do I get through this
+
+[616.08 - 620.519] argument with my spouse like how do we
+
+[618.3 - 623.04] how do we like you can have the this
+
+[620.519 - 625.2] personal thing that's around you all the
+
+[623.04 - 627.26] time and is intelligent enough to give
+
+[625.2 - 630.0600000000001] you ideas and it's always listening too
+
+[627.26 - 632.279] but this also presents a huge security
+
+[630.06 - 634.4399999999999] risk right because here's something that
+
+[632.279 - 636.54] humans do automatically that machines
+
+[634.44 - 638.8800000000001] don't do which is one speaker wrecking
+
+[636.54 - 642.06] recognition and we also maintain social
+
+[638.88 - 644.279] context and so there's various masks
+
+[642.06 - 647.16] that we put on based on who we're with
+
+[644.279 - 649.38] right your your brain automatically
+
+[647.16 - 650.8199999999999] keeps track of who knows what in your
+
+[649.38 - 653.04] life and so there's certain
+
+[650.82 - 655.019] conversations that are not appropriate
+
+[653.04 - 657.36] to have say around children or around
+
+[655.019 - 660.0600000000001] strangers and their certain facts that
+
+[657.36 - 662.519] should be kept private and so there's a
+
+[660.06 - 664.8599999999999] lot of work to do chat GPT version one
+
+[662.519 - 667.019] cannot do any of this it is built to
+
+[664.86 - 670.38] have interactions with one person right
+
+[667.019 - 673.079] which is why a a a smartphone which is
+
+[670.38 - 675.36] you know your device or your web browser
+
+[673.079 - 677.519] that makes sense but as soon as you have
+
+[675.36 - 679.62] conversations that involve
+
+[677.519 - 682.019] um more than you know the the user and
+
+[679.62 - 683.279] the chat bot you have to have a fully a
+
+[682.019 - 685.98] more fully fledged cognitive
+
+[683.279 - 688.26] architecture so that includes things
+
+[685.98 - 690.12] like speaker identification so this I
+
+[688.26 - 691.86] don't think will be in version one at
+
+[690.12 - 695.16] least not something Beyond like you know
+
+[691.86 - 696.6] Alexa blah blah like do this for me
+
+[695.16 - 698.9399999999999] um because Alexa doesn't keep track of
+
+[696.6 - 700.98] who's speaking either as far as I know
+
+[698.94 - 703.2600000000001] um actually no I think you can you can't
+
+[700.98 - 705.779] have users anyways point being is
+
+[703.26 - 707.88] there's some work to do here
+
+[705.779 - 710.399] um integration Point number five cars
+
+[707.88 - 712.98] America in particular is a car culture
+
+[710.399 - 714.72] and we love our fancy gadgets
+
+[712.98 - 716.82] um so imagine that you don't need your
+
+[714.72 - 718.74] smartphone in your car anymore that your
+
+[716.82 - 721.62] car has an agent because your car also
+
+[718.74 - 723.12] has a lot more juice to run larger
+
+[721.62 - 724.68] computers
+
+[723.12 - 727.62] um it doesn't have enough power to run
+
+[724.68 - 729.959] like chat GPT on its own right now but I
+
+[727.62 - 732.18] suspect that within a few years
+
+[729.959 - 734.16] um you know companies like Qualcomm and
+
+[732.18 - 737.2199999999999] Nvidia are going to make chips powerful
+
+[734.16 - 739.079] enough to run chat gbt locally in your
+
+[737.22 - 742.5600000000001] car and then of course a lot of cars
+
+[739.079 - 745.5] have integrated 4G and 5G and 6G once it
+
+[742.56 - 748.1999999999999] comes out so imagine just being able to
+
+[745.5 - 749.76] talk to your car to do anything you know
+
+[748.2 - 752.339] like find me a way around this traffic
+
+[749.76 - 753.72] jam or uh you know take me to my
+
+[752.339 - 756.12] favorite Indian restaurant or whatever
+
+[753.72 - 758.279] but then moreover
+
+[756.12 - 760.5] for anyone who's been in a minivan with
+
+[758.279 - 762.18] children imagine how much better it'll
+
+[760.5 - 763.98] be if your children have an intelligent
+
+[762.18 - 765.899] entity that they can talk to instead of
+
+[763.98 - 768.48] you because you got to focus on driving
+
+[765.899 - 770.1] and so they can play games they can do
+
+[768.48 - 771.6] education they have something that they
+
+[770.1 - 773.399] can interact with because I don't know
+
+[771.6 - 776.279] about you but as a kid the worst part
+
+[773.399 - 777.54] about long road trips was boredom right
+
+[776.279 - 779.579] because you're sitting there in a chair
+
+[777.54 - 781.019] and there's nothing to do the best thing
+
+[779.579 - 782.6999999999999] back in the day was to have you know
+
+[781.019 - 784.38] something you could watch but that's
+
+[782.7 - 786.1800000000001] passive right if you have something
+
+[784.38 - 787.74] that's interactive that's going to be a
+
+[786.18 - 790.019] lot more fun especially if it can help
+
+[787.74 - 792.1800000000001] you play games and and that sort of
+
+[790.019 - 794.16] thought that sort of thing so I suspect
+
+[792.18 - 796.9799999999999] that cars are going to be a huge
+
+[794.16 - 799.56] integration point for uh chat gbt and
+
+[796.98 - 801.6] again it's also Universal America has
+
+[799.56 - 804.3599999999999] like what hundreds of millions of cars
+
+[801.6 - 807.66] on the road right like it's a brain dead
+
+[804.36 - 809.519] simple business case put chat GPT in
+
+[807.66 - 811.4399999999999] there give it some Integrations and see
+
+[809.519 - 814.139] what people do with it
+
+[811.44 - 816.0790000000001] integration Point number six uh
+
+[814.139 - 819.72] Battlefield intelligence in the military
+
+[816.079 - 822.959] so one of the things that occurs to me
+
+[819.72 - 826.019] is that Technologies like chat GPT have
+
+[822.959 - 829.26] the capacity to read way faster than
+
+[826.019 - 831.72] humans and also can give you good ideas
+
+[829.26 - 834.899] and brainstorming and stuff so I'm
+
+[831.72 - 836.88] wondering if you know DARPA or other
+
+[834.899 - 840.42] things are going to be looking at at
+
+[836.88 - 842.82] these at llm Technologies in order to
+
+[840.42 - 844.38] help streamline Battlefield intelligence
+
+[842.82 - 846.36] and with recent conflicts around the
+
+[844.38 - 847.68] world it is very obvious that
+
+[846.36 - 850.2] Battlefield intelligence and
+
+[847.68 - 852.66] communication is an absolute Game
+
+[850.2 - 854.339] Changer right because you see some
+
+[852.66 - 856.38] Battlefield participants that are still
+
+[854.339 - 858.6600000000001] operating like the 20th century where
+
+[856.38 - 860.16] they barely have functioning radios and
+
+[858.66 - 863.76] they're competing against people that
+
+[860.16 - 865.1999999999999] have satellite connectivity drones and
+
+[863.76 - 869.1] and better command and control
+
+[865.2 - 871.019] structures so I suspect that this kind
+
+[869.1 - 873.12] of technology has major military
+
+[871.019 - 875.82] applique applications on and off the
+
+[873.12 - 877.079] battlefield right because uh sharing of
+
+[875.82 - 879.6600000000001] intelligence and sifting through
+
+[877.079 - 881.579] intelligence I suspect that there is a
+
+[879.66 - 884.579] lot that can happen here
+
+[881.579 - 886.56] um with chat GPT on top of just ordinary
+
+[884.579 - 888.959] office work right like all militaries
+
+[886.56 - 891.779] have clerical work which chat GPT could
+
+[888.959 - 893.699] help them with but specifically Intel
+
+[891.779 - 897.12] and Battlefield command and control I
+
+[893.699 - 899.459] suspect there's probably a use case here
+
+[897.12 - 901.8] um integration Point number seven robots
+
+[899.459 - 904.1389999999999] so everyone's probably familiar with
+
+[901.8 - 906.5999999999999] Boston Dynamics they have the best uh
+
+[904.139 - 909.6] autonomous or uh you know humanoid
+
+[906.6 - 911.6990000000001] robots right now Tesla's working on one
+
+[909.6 - 913.5600000000001] I actually applied to Tesla to work on
+
+[911.699 - 915.4799999999999] their Tesla bot because of my expertise
+
+[913.56 - 916.4399999999999] in cognitive architecture they told me
+
+[915.48 - 920.6990000000001] no
+
+[916.44 - 922.2600000000001] um their loss anyways so uh chat uh chat
+
+[920.699 - 923.699] GPT version one doesn't have any
+
+[922.26 - 926.3389999999999] Integrations and it certainly doesn't
+
+[923.699 - 928.8599999999999] know how to control a robot chassis but
+
+[926.339 - 929.8800000000001] it's a start right you could have a
+
+[928.86 - 931.44] conversation you've got the
+
+[929.88 - 932.76] conversational element figured out with
+
+[931.44 - 934.9200000000001] chat GPT
+
+[932.76 - 937.079] but you'll need a more sophisticated
+
+[934.92 - 938.9399999999999] cognitive architecture before you can
+
+[937.079 - 940.7399999999999] have a humanoid robot that you can give
+
+[938.94 - 942.3000000000001] instructions to
+
+[940.74 - 944.279] um and say like hey can you clean up the
+
+[942.3 - 947.16] house for me or can you cook dinner for
+
+[944.279 - 950.399] me but chat gbt people are already using
+
+[947.16 - 952.86] chat GPT to solve problems come up with
+
+[950.399 - 954.24] new recipes that sort of thing and so
+
+[952.86 - 956.6990000000001] it's only a matter of time before
+
+[954.24 - 958.44] someone figures out you know hey let's
+
+[956.699 - 960.959] combine this technology with robotic
+
+[958.44 - 962.5790000000001] platforms with compliant robots
+
+[960.959 - 964.079] um Disney I'm talking to you because you
+
+[962.579 - 966.12] have the best compliant robots in the
+
+[964.079 - 967.4399999999999] world you need to be working on this and
+
+[966.12 - 969.12] Disney's going to do it anyways because
+
+[967.44 - 971.82] they want lifelike animatronics in
+
+[969.12 - 974.04] Disney World right so then that's only
+
+[971.82 - 976.139] One Step Beyond that because like Disney
+
+[974.04 - 977.459] with their with their animatronics they
+
+[976.139 - 978.9590000000001] can interact that they want to be able
+
+[977.459 - 982.1389999999999] to interact with guests and children
+
+[978.959 - 984.54] that's a huge uh test bed for creating
+
+[982.139 - 986.339] safe robots and then it's only one step
+
+[984.54 - 989.16] further before you put it in every home
+
+[986.339 - 991.98] and yes I very deliberately picked uh
+
+[989.16 - 994.62] the Nestor class 5 from iRobot because
+
+[991.98 - 996.66] what could possibly go wrong there's a
+
+[994.62 - 998.94] lot of safety concerns here
+
+[996.66 - 1002.18] integration Point number eight video
+
+[998.94 - 1005.0600000000001] games so at the bare minimum we could
+
+[1002.18 - 1006.38] have really interesting NPCs
+
+[1005.06 - 1008.42] um beyond that though you could
+
+[1006.38 - 1012.079] integrate chat GPT to help video game
+
+[1008.42 - 1014.18] developers right because I I tell you if
+
+[1012.079 - 1015.9799999999999] I knew how to use unity and unreal I
+
+[1014.18 - 1017.7199999999999] would be making more video games but if
+
+[1015.98 - 1020.0600000000001] I can interact with it and just say hey
+
+[1017.72 - 1022.22] like build a world you know build a
+
+[1020.06 - 1024.02] setting here that's like in a desert and
+
+[1022.22 - 1026.66] I'm like no make it more cyberpunk no
+
+[1024.02 - 1028.28] make it more you know like this and then
+
+[1026.66 - 1031.64] I can I can have a natural language
+
+[1028.28 - 1033.6789999999999] interface to interact with game
+
+[1031.64 - 1037.3390000000002] development engines which will make game
+
+[1033.679 - 1039.439] development faster and cheaper but so
+
+[1037.339 - 1041.8999999999999] then so that's one possibility you can
+
+[1039.439 - 1043.16] have more lifelike NPCs where you have
+
+[1041.9 - 1044.959] NPCs that you can have a real
+
+[1043.16 - 1047.299] conversation with
+
+[1044.959 - 1049.64] um because chat GPT has a very clinical
+
+[1047.299 - 1051.44] Persona right now but
+
+[1049.64 - 1053.679] um you can give it any kind of persona
+
+[1051.44 - 1055.4] that you want I wrote a book about this
+
+[1053.679 - 1058.16] excuse me
+
+[1055.4 - 1060.88] um so and then Unity on unreal were
+
+[1058.16 - 1062.8400000000001] already working on gbd3 Integrations
+
+[1060.88 - 1066.8600000000001] some of those were to help with like
+
+[1062.84 - 1068.36] scripting and object behaviors but it's
+
+[1066.86 - 1070.6999999999998] only one step further to have that
+
+[1068.36 - 1073.52] integrated in real time so that you can
+
+[1070.7 - 1076.3400000000001] have realistic dialogue and again it's
+
+[1073.52 - 1078.02] only going to be a few years before your
+
+[1076.34 - 1080.78] you know gaming system is powerful
+
+[1078.02 - 1084.44] enough to run gpt3 locally and this is
+
+[1080.78 - 1087.2] before we do things like um uh do lower
+
+[1084.44 - 1090.2] Precision like int 8 and distillation
+
+[1087.2 - 1093.0800000000002] like fine-tuning smaller models which we
+
+[1090.2 - 1096.0800000000002] can already run today on on desktop
+
+[1093.08 - 1097.8799999999999] Hardware VR could also be more lifelike
+
+[1096.08 - 1099.86] and we'll we'll come back to that when
+
+[1097.88 - 1100.7] we talk about competitors in just a
+
+[1099.86 - 1103.0] minute
+
+[1100.7 - 1106.76] speaking of competitors
+
+[1103.0 - 1109.22] so Google immediately like the the rumor
+
+[1106.76 - 1111.2] let fly like within a week after chat
+
+[1109.22 - 1113.419] GPT that Google was on high alert
+
+[1111.2 - 1115.4] because of chat GPT so we'll talk about
+
+[1113.419 - 1118.039] Google we'll talk about Nvidia because
+
+[1115.4 - 1120.44] they have in terms of competitors Google
+
+[1118.039 - 1122.36] and Nvidia are probably the top because
+
+[1120.44 - 1124.3400000000001] Google has palm and their other and
+
+[1122.36 - 1125.6599999999999] deepmind and all their other Research
+
+[1124.34 - 1127.52] into neural networks in fact Google
+
+[1125.66 - 1129.44] started a lot of this with their
+
+[1127.52 - 1131.78] Universal sentence encoder and other
+
+[1129.44 - 1132.919] Technologies uh back in the day and I
+
+[1131.78 - 1135.86] say back in the day because it was like
+
+[1132.919 - 1138.5] five years ago Nvidia has their Megatron
+
+[1135.86 - 1141.4399999999998] Nemo which is a 540 billion parameter
+
+[1138.5 - 1145.7] model it's four times larger than gpt3
+
+[1141.44 - 1147.559] so like is that is it potentially more
+
+[1145.7 - 1150.38] powerful we'll see
+
+[1147.559 - 1153.08] what about meta what about IBM then
+
+[1150.38 - 1155.0] there's also startups and open source so
+
+[1153.08 - 1156.559] let's talk about competitors
+
+[1155.0 - 1159.38] all right so the first competitor is
+
+[1156.559 - 1161.299] Google so search is Google's primary
+
+[1159.38 - 1163.5200000000002] business and has been forever it's like
+
+[1161.299 - 1165.3799999999999] 70 plus percent of their revenue comes
+
+[1163.52 - 1168.1399999999999] from search and all the AI research that
+
+[1165.38 - 1169.88] they've done has branched off or has
+
+[1168.14 - 1172.76] contributed to that so Bert for instance
+
+[1169.88 - 1175.94] already helps Google search so in some
+
+[1172.76 - 1177.559] respects chat GPT is like late to the
+
+[1175.94 - 1179.179] game because Google it's like yeah we've
+
+[1177.559 - 1181.94] been using large language models for
+
+[1179.179 - 1184.94] search who cares and Bert is a more
+
+[1181.94 - 1187.8200000000002] mature technology so I have no doubt
+
+[1184.94 - 1189.799] that Google is going to come up with a
+
+[1187.82 - 1191.6599999999999] solution probably come up with a better
+
+[1189.799 - 1193.8799999999999] solution honestly because they're
+
+[1191.66 - 1196.22] they're a much more mature tech company
+
+[1193.88 - 1198.14] and they have a very very highly
+
+[1196.22 - 1200.1200000000001] developed engineering core and a huge
+
+[1198.14 - 1202.1000000000001] engineering core by the way
+
+[1200.12 - 1203.78] um so I suspect that once Google commits
+
+[1202.1 - 1205.2199999999998] its mind to something it's going to
+
+[1203.78 - 1206.96] figure it out
+
+[1205.22 - 1209.059] and so this is why I wanted to point out
+
+[1206.96 - 1210.919] look out for the Tesla effect
+
+[1209.059 - 1213.9189999999999] um Tesla has really lost its luster over
+
+[1210.919 - 1216.6200000000001] the last year as other car companies one
+
+[1213.919 - 1218.48] there's car startups like rivian and go
+
+[1216.62 - 1221.059] EV or canoe
+
+[1218.48 - 1223.82] um and then all the all the old players
+
+[1221.059 - 1225.6789999999999] four GM Volkswagen
+
+[1223.82 - 1227.84] um less of the Japanese companies which
+
+[1225.679 - 1229.64] is really interesting a lot of Japanese
+
+[1227.84 - 1232.1] car companies have been resistant to the
+
+[1229.64 - 1235.2800000000002] switch to Electric anyways point being
+
+[1232.1 - 1237.6789999999999] is that um there is a lot to be said for
+
+[1235.28 - 1239.299] larger companies that have the
+
+[1237.679 - 1240.74] experience and once they commit to
+
+[1239.299 - 1243.3799999999999] something they often do it better than
+
+[1240.74 - 1246.44] the startups so open AI is still a
+
+[1243.38 - 1248.5390000000002] startup and so I suspect that once once
+
+[1246.44 - 1250.039] companies like Google commit to
+
+[1248.539 - 1251.84] competing with openai they're not going
+
+[1250.039 - 1253.58] to be able to keep up
+
+[1251.84 - 1255.32] um so Google is an absolute Powerhouse
+
+[1253.58 - 1257.539] too we're talking about Integrations
+
+[1255.32 - 1261.2] look at look up a list of everything
+
+[1257.539 - 1263.96] that Google owns Google owns Nest Fitbit
+
+[1261.2 - 1267.94] and YouTube just for starters I noticed
+
+[1263.96 - 1270.38] that YouTube started record commending
+
+[1267.94 - 1272.72] chapters and I wonder if they based it
+
+[1270.38 - 1275.48] off my idea
+
+[1272.72 - 1277.94] anyways so you know YouTube has been
+
+[1275.48 - 1280.7] doing automatic transcripts for a while
+
+[1277.94 - 1283.16] imagine what else YouTube can do with
+
+[1280.7 - 1286.16] chat GPT like things imagine if you just
+
+[1283.16 - 1287.96] have like a little uh chat window like
+
+[1286.16 - 1290.179] where you have your YouTube concierge
+
+[1287.96 - 1292.159] button it's like hey help me find a
+
+[1290.179 - 1293.48] video about this this and this this is
+
+[1292.159 - 1295.1000000000001] what I'm in the mood for today and it's
+
+[1293.48 - 1298.28] like okay cool
+
+[1295.1 - 1300.1999999999998] um you know just off the cuff idea
+
+[1298.28 - 1302.1789999999999] um so yeah Google is going to be a major
+
+[1300.2 - 1303.98] competitor probably the biggest
+
+[1302.179 - 1307.76] competitor honestly
+
+[1303.98 - 1310.22] uh next up is NVIDIA so Nvidia has the
+
+[1307.76 - 1312.3799999999999] chips this is this is the one thing that
+
+[1310.22 - 1314.299] really sets Nvidia apart is in when you
+
+[1312.38 - 1316.64] look at the the top tech companies in
+
+[1314.299 - 1318.799] the world this is one of the only like
+
+[1316.64 - 1321.74] Hardware first companies
+
+[1318.799 - 1324.2] um they have Cuda which uh for those who
+
+[1321.74 - 1327.919] are not aware Cuda is the bindings the
+
+[1324.2 - 1329.72] Integrations that allow for AI to be
+
+[1327.919 - 1331.22] done super fast so they have the
+
+[1329.72 - 1332.3600000000001] hardware they have the underlying
+
+[1331.22 - 1333.98] hardware and they have the underlying
+
+[1332.36 - 1336.1999999999998] software they also have the best
+
+[1333.98 - 1338.419] algorithm people in the world
+
+[1336.2 - 1341.1200000000001] um which means that they are an
+
+[1338.419 - 1342.98] incredible Powerhouse and I think that
+
+[1341.12 - 1345.08] um we have just woken a sleeping giant
+
+[1342.98 - 1346.82] honestly
+
+[1345.08 - 1349.1589999999999] um and because they sell the hard the
+
+[1346.82 - 1351.3799999999999] underlying Hardware that runs AI all
+
+[1349.159 - 1354.38] over the world they don't care
+
+[1351.38 - 1356.8400000000001] who whose model it is right you're going
+
+[1354.38 - 1357.98] to put Nvidia chips in computers and
+
+[1356.84 - 1359.84] cars
+
+[1357.98 - 1362.72] um they're not as much in Mobile as like
+
+[1359.84 - 1365.12] arm and um Qualcomm and stuff but you
+
+[1362.72 - 1366.799] know where there's a will there's a way
+
+[1365.12 - 1369.1999999999998] um Nvidia really what they're focusing
+
+[1366.799 - 1371.299] on is Enterprise class server hardware
+
+[1369.2 - 1373.22] and so they might not Branch into Mobile
+
+[1371.299 - 1375.559] but they also have their gaming division
+
+[1373.22 - 1377.32] which is desktop levels so pretty much
+
+[1375.559 - 1380.12] everything from desktop and larger
+
+[1377.32 - 1383.4189999999999] Nvidia is probably going to dominate the
+
+[1380.12 - 1387.5] AI Hardware market and again whether
+
+[1383.419 - 1388.94] it's gpt3 or their own Megatron or open
+
+[1387.5 - 1392.24] source models they kind of don't care
+
+[1388.94 - 1393.799] it's like okay sure like AI is good it's
+
+[1392.24 - 1396.98] going to run on our Hardware whether or
+
+[1393.799 - 1400.039] not you use our software or our service
+
+[1396.98 - 1402.98] um so now that being said if Nvidia
+
+[1400.039 - 1404.78] decides to compete with chat GPT because
+
+[1402.98 - 1406.34] they have the best algorithm people in
+
+[1404.78 - 1408.2] the world I suspect they're going to be
+
+[1406.34 - 1410.36] able to do it more efficiently right
+
+[1408.2 - 1412.5800000000002] because chat GPT is not the fastest
+
+[1410.36 - 1414.86] right now it's also you know it is cheap
+
+[1412.58 - 1417.98] but eventually you're going to get to
+
+[1414.86 - 1419.6589999999999] economies of scale who can do it for you
+
+[1417.98 - 1422.179] know five cents an hour versus who can
+
+[1419.659 - 1423.919] do it for a penny an hour right and it's
+
+[1422.179 - 1425.659] like oh well if this company can do it
+
+[1423.919 - 1427.94] for it you know five cents versus one
+
+[1425.659 - 1429.2600000000002] cent that sounds like not a lot but
+
+[1427.94 - 1431.8400000000001] imagine that you're a company that has
+
+[1429.26 - 1434.179] 20 000 employees using chat gbt all day
+
+[1431.84 - 1435.9189999999999] every day that adds up and if it's five
+
+[1434.179 - 1437.7800000000002] times cheaper because of efficiencies
+
+[1435.919 - 1440.539] that's gonna that's gonna be a game
+
+[1437.78 - 1443.6] changer so keep your eye on Nvidia
+
+[1440.539 - 1445.82] another possible competitor is meta So
+
+[1443.6 - 1449.48] Meta has a very powerful AI research
+
+[1445.82 - 1451.7] Branch but they don't have any service
+
+[1449.48 - 1453.8600000000001] offerings so this is one of the weird
+
+[1451.7 - 1457.159] things about meta is that they've got a
+
+[1453.86 - 1459.02] really good AI research arm that
+
+[1457.159 - 1461.5390000000002] publishes a lot of Open Source stuff and
+
+[1459.02 - 1463.28] they probably consume their own uh
+
+[1461.539 - 1465.2] research but then they don't do anything
+
+[1463.28 - 1467.059] with it right it's kind of like how
+
+[1465.2 - 1469.039] Google publishes a lot of research and
+
+[1467.059 - 1470.78] then like they integrate some of it but
+
+[1469.039 - 1473.179] then they let the rose the rest be open
+
+[1470.78 - 1475.58] source the difference though is that
+
+[1473.179 - 1477.799] meta is going all in on the metaverse
+
+[1475.58 - 1480.799] and they're kind of collapsing because
+
+[1477.799 - 1484.1] of it meta also has a problematic past
+
+[1480.799 - 1486.44] with misusing machine learning which is
+
+[1484.1 - 1490.76] in my opinion one of the primary reasons
+
+[1486.44 - 1492.5] that it is uh presently uncertain is the
+
+[1490.76 - 1495.14] documentaries like the great hack and
+
+[1492.5 - 1497.24] the social dilemma came out and for me
+
+[1495.14 - 1499.5800000000002] like that one-two punch was like yeah
+
+[1497.24 - 1501.559] I'm gonna delete my Facebook account
+
+[1499.58 - 1504.02] um it was just like I I knew that it was
+
+[1501.559 - 1506.96] bad but I didn't know it was that bad
+
+[1504.02 - 1508.6399999999999] um so meta's future is uncertain and
+
+[1506.96 - 1511.3400000000001] they're doubling down on the metaverse
+
+[1508.64 - 1512.72] so who knows if they're even going to be
+
+[1511.34 - 1514.28] a competitor I don't think they're going
+
+[1512.72 - 1517.76] to be that big
+
+[1514.28 - 1520.76] um as a competitor to chat GPT
+
+[1517.76 - 1522.98] another possible competitor is IBM so
+
+[1520.76 - 1524.6589999999999] for many many years IBM had Watson which
+
+[1522.98 - 1526.88] was supposed to be you know the flagship
+
+[1524.659 - 1528.8600000000001] natural language interface that had a
+
+[1526.88 - 1531.679] nice smooth voice and then it didn't go
+
+[1528.86 - 1534.1399999999999] anywhere right and as far as I know IBM
+
+[1531.679 - 1535.76] is shuttering Watson I don't know if
+
+[1534.14 - 1537.44] it's been shut down or if they're just
+
+[1535.76 - 1541.52] not investing in it until it goes away
+
+[1537.44 - 1543.8600000000001] but IBM is all in on Quantum Computing
+
+[1541.52 - 1546.26] um they were they were originally a
+
+[1543.86 - 1547.6999999999998] hardware company I don't remember what
+
+[1546.26 - 1549.559] the name was originally but one of the
+
+[1547.7 - 1552.8600000000001] first products that that IBM's
+
+[1549.559 - 1554.779] progenitor company did was um time cards
+
+[1552.86 - 1557.7199999999998] like the physical like punching in and
+
+[1554.779 - 1560.24] punching out so they have always been a
+
+[1557.72 - 1562.22] hardware company first and foremost
+
+[1560.24 - 1565.22] um they do that's not to say that they
+
+[1562.22 - 1567.08] don't also do really good software but
+
+[1565.22 - 1569.84] when you think IBM you think like okay
+
+[1567.08 - 1571.58] you know IBM mainframes they have Lenovo
+
+[1569.84 - 1575.1789999999999] that they sold off now they're working
+
+[1571.58 - 1576.62] on Quantum Computing Hardware so you
+
+[1575.179 - 1577.88] know there are the original Blue Chip
+
+[1576.62 - 1580.58] Tech stock
+
+[1577.88 - 1582.8600000000001] so if they decide to Pivot back towards
+
+[1580.58 - 1585.02] large language models
+
+[1582.86 - 1587.4799999999998] um you know they could they certainly
+
+[1585.02 - 1589.22] have the horsepower to do it but there's
+
+[1587.48 - 1590.6] been nothing from them yet so I don't
+
+[1589.22 - 1592.52] suspect that IBM's going to be a
+
+[1590.6 - 1595.3999999999999] competitor in the large language model
+
+[1592.52 - 1597.62] space or chat GPT
+
+[1595.4 - 1600.8600000000001] um Microsoft this is the surprise
+
+[1597.62 - 1603.08] competitor so
+
+[1600.86 - 1605.24] Microsoft was an early and major
+
+[1603.08 - 1607.46] investor in open AI they do have an
+
+[1605.24 - 1608.779] exclusive license to gpt3
+
+[1607.46 - 1611.1200000000001] but
+
+[1608.779 - 1612.919] I predict and this is apropos of nothing
+
+[1611.12 - 1614.6589999999999] this is not this is I have not heard any
+
+[1612.919 - 1616.7] rumors of this I haven't seen any tweets
+
+[1614.659 - 1620.0] or leaks this is just me thinking
+
+[1616.7 - 1622.52] through okay if I am Satya Nadella the
+
+[1620.0 - 1624.74] CEO of Microsoft and I have this Golden
+
+[1622.52 - 1627.08] Goose that I'm partnered with what do I
+
+[1624.74 - 1628.4] do right Microsoft just announced that
+
+[1627.08 - 1631.9399999999998] they're going to have the an Azure
+
+[1628.4 - 1633.74] offering of gpt3 and chat GPT and a few
+
+[1631.94 - 1636.44] other uh similar products so they're
+
+[1633.74 - 1639.26] taking it away from open AI but they
+
+[1636.44 - 1642.44] have to pay open AI because it's it's a
+
+[1639.26 - 1645.98] licensing model so they probably want
+
+[1642.44 - 1647.9] the Golden Goose if I was Microsoft what
+
+[1645.98 - 1650.059] I might be doing is working on building
+
+[1647.9 - 1653.0590000000002] my own version in-house
+
+[1650.059 - 1656.48] and an alternative to gbt3 a competitor
+
+[1653.059 - 1657.98] to gpt3 because when you look across the
+
+[1656.48 - 1662.299] landscape
+
+[1657.98 - 1664.4] um Microsoft is the uh preeminent
+
+[1662.299 - 1666.5] um business software company right
+
+[1664.4 - 1668.419] they've got Azure they've got a huge
+
+[1666.5 - 1670.64] investment in AI they know that AI is
+
+[1668.419 - 1673.46] the future and so they've got this like
+
+[1670.64 - 1675.14] this this partnership with open Ai and
+
+[1673.46 - 1676.82] again open AI is not the most mature
+
+[1675.14 - 1678.3200000000002] company they're not that they're not
+
+[1676.82 - 1680.779] experienced as a vendor they're not
+
+[1678.32 - 1682.46] experienced as as a tech company until
+
+[1680.779 - 1685.22] very recently they were strictly a
+
+[1682.46 - 1687.14] non-profit doing research and when you
+
+[1685.22 - 1689.96] look at their approach to AI it is still
+
+[1687.14 - 1693.0800000000002] very much like science first research
+
+[1689.96 - 1696.08] first and product second or third
+
+[1693.08 - 1698.0] priority which is very odd
+
+[1696.08 - 1699.82] um but hey you know it's car it's
+
+[1698.0 - 1701.96] carried them this far they have
+
+[1699.82 - 1703.46] hypothetically pivoted to being a
+
+[1701.96 - 1705.14] for-profit company so we'll see if they
+
+[1703.46 - 1707.6000000000001] can pull it off
+
+[1705.14 - 1710.0590000000002] um but at the at the same time Microsoft
+
+[1707.6 - 1713.12] and other companies have a long history
+
+[1710.059 - 1715.8799999999999] of just uh acquiring
+
+[1713.12 - 1717.9189999999999] um valuable uh value valuable IP through
+
+[1715.88 - 1720.44] mergers and Acquisitions
+
+[1717.919 - 1722.419] um so I would suspect that Microsoft is
+
+[1720.44 - 1725.1200000000001] like they they did announce that they're
+
+[1722.419 - 1727.46] going to expand their uh they want
+
+[1725.12 - 1729.799] they're going to get a 49 stake in open
+
+[1727.46 - 1732.26] AI this is the rumor at least and I
+
+[1729.799 - 1734.059] guarantee you they want 51 so they will
+
+[1732.26 - 1735.98] do everything that they can to get that
+
+[1734.059 - 1737.72] last two percent so that they get a
+
+[1735.98 - 1739.58] controlling stake in open Ai and just
+
+[1737.72 - 1741.919] absorb it
+
+[1739.58 - 1744.1399999999999] um so that that that's not necessarily a
+
+[1741.919 - 1746.0] competitor but the willpower is there
+
+[1744.14 - 1747.2] that's why Microsoft is like Hey we're
+
+[1746.0 - 1748.46] going to write you a check for 10 more
+
+[1747.2 - 1751.4] billion dollars
+
+[1748.46 - 1753.32] okay so let's talk about impact what
+
+[1751.4 - 1754.94] does all this mean like if if there's
+
+[1753.32 - 1756.86] all these Integrations that are possible
+
+[1754.94 - 1759.38] and that are coming and there's all this
+
+[1756.86 - 1762.6789999999999] competition what's going to happen to us
+
+[1759.38 - 1764.179] and other other uh people so first I
+
+[1762.679 - 1767.8400000000001] know you want to know what is the impact
+
+[1764.179 - 1769.8200000000002] to our jobs so paradoxically I think the
+
+[1767.84 - 1772.52] first impact is we're actually going to
+
+[1769.82 - 1775.1] see a boost in jobs there's going to be
+
+[1772.52 - 1777.32] an entirely new category of worker just
+
+[1775.1 - 1778.8799999999999] like I had a recent uh interview with
+
+[1777.32 - 1780.9189999999999] one of the world's first professional
+
+[1778.88 - 1783.44] prompt Engineers that is a new category
+
+[1780.919 - 1784.46] of employee that did not exist a year or
+
+[1783.44 - 1786.799] two ago
+
+[1784.46 - 1789.44] uh so now we're gonna have an entirely
+
+[1786.799 - 1792.1] new another new category of people that
+
+[1789.44 - 1795.6200000000001] can use chat GPT to be the human brain
+
+[1792.1 - 1797.4189999999999] steering this really powerful tool uh we
+
+[1795.62 - 1799.82] presently have a shortfall of four to
+
+[1797.419 - 1802.3400000000001] five million knowledge workers I think
+
+[1799.82 - 1805.1589999999999] that chat GPT maybe not version one but
+
+[1802.34 - 1807.4399999999998] version 1.5 or 2 could help fill in that
+
+[1805.159 - 1809.659] jobs Gap can you imagine if we just
+
+[1807.44 - 1813.26] suddenly added four million more jobs
+
+[1809.659 - 1814.94] like more uh more people working and
+
+[1813.26 - 1818.12] these would be good like solid middle
+
+[1814.94 - 1820.76] class jobs like I'm talking 50 to 70 000
+
+[1818.12 - 1822.7399999999998] a year just for a competent chat GPT
+
+[1820.76 - 1824.419] user
+
+[1822.74 - 1827.8990000000001] um so I think that we're going to see a
+
+[1824.419 - 1831.3200000000002] very uh in the short term a big boost to
+
+[1827.899 - 1833.899] uh hiring and employment now in the long
+
+[1831.32 - 1836.1789999999999] run Automation and AI is still expected
+
+[1833.899 - 1838.399] to destroy jobs because what happens as
+
+[1836.179 - 1840.5] these Technologies mature and people get
+
+[1838.399 - 1842.539] better at them you have one person that
+
+[1840.5 - 1844.34] can do the job of 10. and then you have
+
+[1842.539 - 1846.5] another person that can do the job of a
+
+[1844.34 - 1849.1999999999998] hundred as an automator I mean this is
+
+[1846.5 - 1852.26] this is why my my Twitter LinkedIn and
+
+[1849.2 - 1854.419] YouTube handle say Dave shop automator
+
+[1852.26 - 1855.2] um I have been someone who has automated
+
+[1854.419 - 1859.159] jobs
+
+[1855.2 - 1861.6200000000001] for the better more than a decade now
+
+[1859.159 - 1864.8600000000001] um and so with when you have a good
+
+[1861.62 - 1867.26] automator you reduce head count you know
+
+[1864.86 - 1869.6589999999999] like by 10 or 20.
+
+[1867.26 - 1872.72] um and then Technologies like chat GPT
+
+[1869.659 - 1874.5800000000002] will Empower more people who are not as
+
+[1872.72 - 1877.34] knowledgeable and skilled as I am at
+
+[1874.58 - 1878.96] automation to automate more so then you
+
+[1877.34 - 1881.72] have lots and lots of people automating
+
+[1878.96 - 1883.82] jobs away and so one of the one of my
+
+[1881.72 - 1887.1200000000001] recent videos where I talked about
+
+[1883.82 - 1888.74] um you know uh I think it was um uh
+
+[1887.12 - 1890.299] Financial Times or something anyways
+
+[1888.74 - 1894.38] lots of people are predicting that like
+
+[1890.299 - 1897.3799999999999] up to 70 million jobs or more could be
+
+[1894.38 - 1899.24] destroyed in America Alone by 2030 and I
+
+[1897.38 - 1901.5200000000002] think that chat GPT is going to be one
+
+[1899.24 - 1902.96] of the technologies that that helps
+
+[1901.52 - 1905.48] facilitate that
+
+[1902.96 - 1907.76] all right impact number two a little
+
+[1905.48 - 1909.26] less gloomy Let's uh let's see how
+
+[1907.76 - 1910.46] Technologies like this will impact our
+
+[1909.26 - 1912.14] daily life
+
+[1910.46 - 1913.22] so things are going to be more
+
+[1912.14 - 1914.72] convenient
+
+[1913.22 - 1917.0] um our smartphones are so convenient
+
+[1914.72 - 1918.8600000000001] already that we are like attached to
+
+[1917.0 - 1920.659] them right so imagine if they become
+
+[1918.86 - 1922.2199999999998] even more useful right right now it's
+
+[1920.659 - 1923.779] kind of a dumb little box that just
+
+[1922.22 - 1926.419] Waits there and gives you notices
+
+[1923.779 - 1927.5] notifications that are very stressful
+
+[1926.419 - 1930.26] but
+
+[1927.5 - 1932.179] what if we can switch to more voice uh
+
+[1930.26 - 1934.64] interface and so you don't even have a
+
+[1932.179 - 1937.94] screen anymore what if the smartphone of
+
+[1934.64 - 1939.98] the future is just a headset right
+
+[1937.94 - 1942.0800000000002] um that you talk to and has no screen at
+
+[1939.98 - 1944.059] all right and maybe a little holographic
+
+[1942.08 - 1945.9189999999999] pop-up so that you can it can show you
+
+[1944.059 - 1948.86] stuff when you need to or like you know
+
+[1945.919 - 1950.539] smart glasses or whatever so daily life
+
+[1948.86 - 1952.82] I think will be a little bit more like
+
+[1950.539 - 1954.98] Star Trek where you just talk to the
+
+[1952.82 - 1956.6589999999999] thing and it does the thing for you like
+
+[1954.98 - 1957.98] Jarvis from Iron Man
+
+[1956.659 - 1960.2600000000002] um oh and by the way this was the point
+
+[1957.98 - 1962.24] of my Raven project originally was I
+
+[1960.26 - 1964.52] wanted to create a ubiquitous smart
+
+[1962.24 - 1967.34] assistant for everything
+
+[1964.52 - 1968.779] um still the goal uh because chat gbt is
+
+[1967.34 - 1971.0] obviously a long ways off from being
+
+[1968.779 - 1972.679] ubiquitous being something that you can
+
+[1971.0 - 1974.96] have a voice conversation with and that
+
+[1972.679 - 1975.799] can solve problems for you but we'll get
+
+[1974.96 - 1978.5] there
+
+[1975.799 - 1979.8799999999999] so that's uh you know within it within a
+
+[1978.5 - 1982.279] year or two you're gonna start seeing
+
+[1979.88 - 1984.98] chat gbt and chat gpt-like Technologies
+
+[1982.279 - 1986.84] being integrated into your daily life so
+
+[1984.98 - 1987.98] while jobs are going away
+
+[1986.84 - 1989.539] um at least your life will be more
+
+[1987.98 - 1991.22] convenient
+
+[1989.539 - 1992.72] um impact number three this is actually
+
+[1991.22 - 1995.299] going to be really big and I did an
+
+[1992.72 - 1998.419] entire video series or a long video on
+
+[1995.299 - 2000.46] this is education chat GPT has the
+
+[1998.419 - 2001.72] potential to completely revolutionize
+
+[2000.46 - 2003.46] education
+
+[2001.72 - 2004.8990000000001] so the first thing that people are
+
+[2003.46 - 2006.64] worried about is cheating but that is
+
+[2004.899 - 2009.6399999999999] thinking so small
+
+[2006.64 - 2012.88] uh so imagine flipping the classroom
+
+[2009.64 - 2014.6200000000001] where instead of the teacher lecturing
+
+[2012.88 - 2016.2990000000002] to a bunch of students and they're all
+
+[2014.62 - 2018.6999999999998] learning the same thing at the same time
+
+[2016.299 - 2020.3799999999999] what if you flip that around and the
+
+[2018.7 - 2022.0] students are all learning at their own
+
+[2020.38 - 2023.5590000000002] rate the things that they are most
+
+[2022.0 - 2025.48] interested in
+
+[2023.559 - 2027.279] um and the things that that resonate
+
+[2025.48 - 2029.08] with them and the teacher is there to
+
+[2027.279 - 2031.539] help and provide feedback coaching and
+
+[2029.08 - 2033.58] guidance as they need it and so the way
+
+[2031.539 - 2034.6] that um I think of it is we already have
+
+[2033.58 - 2037.36] a model for this and it's called
+
+[2034.6 - 2039.34] Montessori education my first year of
+
+[2037.36 - 2040.779] schooling was in Montessori school and
+
+[2039.34 - 2043.059] looking back on it I'm like why don't
+
+[2040.779 - 2045.34] why isn't School more like this even if
+
+[2043.059 - 2048.52] it's not 100 Montessori like what if
+
+[2045.34 - 2050.859] half of every day is self-directed for
+
+[2048.52 - 2053.2599999999998] kids so that they we don't squash their
+
+[2050.859 - 2055.96] sense of curiosity right
+
+[2053.26 - 2058.0] uh so if you integrate chat GPT with the
+
+[2055.96 - 2059.679] classroom you can have stuff like pbl
+
+[2058.0 - 2062.32] which is project-based learning on
+
+[2059.679 - 2064.419] steroids uh and a simpler way of
+
+[2062.32 - 2067.179] thinking about it is Imagine where every
+
+[2064.419 - 2068.1389999999997] classroom has one human teacher and then
+
+[2067.179 - 2071.139] 30
+
+[2068.139 - 2073.4190000000003] personalized teacher aides right let's
+
+[2071.139 - 2075.339] think of it this way like Chad GPT has
+
+[2073.419 - 2078.2799999999997] the possibility to completely overturn
+
+[2075.339 - 2079.72] education and after talking to nearly a
+
+[2078.28 - 2080.8] dozen Educators over the last couple
+
+[2079.72 - 2082.9599999999996] weeks
+
+[2080.8 - 2085.119] um there's a huge appetite to try some
+
+[2082.96 - 2087.94] of this stuff out there's also some
+
+[2085.119 - 2090.3990000000003] resistance but uh you know it's such a
+
+[2087.94 - 2091.3] compelling uh case I think it's going to
+
+[2090.399 - 2093.7] happen
+
+[2091.3 - 2096.3390000000004] all right impact number four business
+
+[2093.7 - 2099.3999999999996] and economy so one thing to think about
+
+[2096.339 - 2100.839] when you this is not just AI right
+
+[2099.4 - 2103.42] um Ai and machine learning have been
+
+[2100.839 - 2105.58] around for a while chat GPT is a new
+
+[2103.42 - 2108.94] category and so what I mean by a new
+
+[2105.58 - 2112.5989999999997] category is like the switch from horses
+
+[2108.94 - 2114.4] to cars or the switch from you know fax
+
+[2112.599 - 2117.52] machines to email right the introduction
+
+[2114.4 - 2120.2200000000003] of the internet so the the bottom line
+
+[2117.52 - 2123.16] is that the impact to GDP gross domestic
+
+[2120.22 - 2124.8999999999996] uh product is going to be massive just
+
+[2123.16 - 2127.1189999999997] by virtue of how intelligent these
+
+[2124.9 - 2129.4] agents are and how much efficiency and
+
+[2127.119 - 2132.7000000000003] how much horsepower it can inject into
+
+[2129.4 - 2135.64] the economy so GDP goes up stocks
+
+[2132.7 - 2139.0] probably go up impact to to individuals
+
+[2135.64 - 2141.46] unfortunately will probably be neutral
+
+[2139.0 - 2143.74] or negative unless we redistribute that
+
+[2141.46 - 2144.52] wealth in my other video where I talked
+
+[2143.74 - 2145.1189999999997] about
+
+[2144.52 - 2148.3] um
+
+[2145.119 - 2151.48] the economy and stuff I showed that uh
+
+[2148.3 - 2155.5600000000004] that that worker like pay and and and
+
+[2151.48 - 2157.839] the benefits that we workers reap peaked
+
+[2155.56 - 2159.52] uh in like the year 2000 and it's been
+
+[2157.839 - 2161.02] all downhill from there
+
+[2159.52 - 2162.82] um and then depending on other metrics
+
+[2161.02 - 2164.5] you look at such as the introduction of
+
+[2162.82 - 2166.48] neoliberalism
+
+[2164.5 - 2169.24] um worker quality of likes actually
+
+[2166.48 - 2170.619] peaked in 1980. so it's been depending
+
+[2169.24 - 2174.52] on how you look at it it's either been
+
+[2170.619 - 2176.98] 20 years or 40 Years of stagnation total
+
+[2174.52 - 2178.9] stagnation for workers despite the fact
+
+[2176.98 - 2181.599] that productivity has gone through the
+
+[2178.9 - 2183.82] roof so we are not redistributing the
+
+[2181.599 - 2185.6800000000003] wealth uh trickle-down Theory does not
+
+[2183.82 - 2187.06] work and yes I have a love-hate
+
+[2185.68 - 2188.859] relationship with capitalism and
+
+[2187.06 - 2191.2] neoliberalism because on the one hand
+
+[2188.859 - 2193.38] I'm all for finding efficiency on the
+
+[2191.2 - 2195.9399999999996] other hand I also want it to be fair
+
+[2193.38 - 2199.2400000000002] anyways I'll get off my soapbox
+
+[2195.94 - 2202.2400000000002] impact number five military and Industry
+
+[2199.24 - 2204.52] uh so while I suspect that there can be
+
+[2202.24 - 2206.9799999999996] some benefits of integrating chat GPT
+
+[2204.52 - 2208.72] with helicopters and tanks and warships
+
+[2206.98 - 2211.78] it's actually probably going to be
+
+[2208.72 - 2214.0] negligible because uh particularly uh
+
+[2211.78 - 2216.3390000000004] Western militaries modern militaries
+
+[2214.0 - 2219.24] already have top of the line command and
+
+[2216.339 - 2222.52] control systems they have the best
+
+[2219.24 - 2224.4399999999996] cryptographics uh teams they have laser
+
+[2222.52 - 2226.119] based Communications that cannot be
+
+[2224.44 - 2229.06] interrupted they have redundant
+
+[2226.119 - 2232.42] Communications they have autonomous uh
+
+[2229.06 - 2233.98] drones all kinds of stuff so the impact
+
+[2232.42 - 2235.2400000000002] the military is actually probably going
+
+[2233.98 - 2236.619] to be pretty small it's just going to be
+
+[2235.24 - 2238.5989999999997] another little thing that kind of
+
+[2236.619 - 2240.099] differentiates
+
+[2238.599 - 2242.38] um you know powerful militaries like the
+
+[2240.099 - 2244.6600000000003] United States a little bit more from
+
+[2242.38 - 2246.1800000000003] from developing countries and and other
+
+[2244.66 - 2249.0989999999997] competitors
+
+[2246.18 - 2251.6189999999997] also raw materials and Logistics and
+
+[2249.099 - 2253.26] bulk Goods those are heavy right Chachi
+
+[2251.619 - 2256.54] PT is not going to make them any lighter
+
+[2253.26 - 2257.92] so stuff like chat GPT is only is only
+
+[2256.54 - 2259.96] going to change so much like it's not
+
+[2257.92 - 2261.82] going to make dump trucks you know 80
+
+[2259.96 - 2264.16] percent more efficient
+
+[2261.82 - 2266.26] um that kind of thing the biggest thing
+
+[2264.16 - 2267.46] I think will be lights out factories so
+
+[2266.26 - 2269.0200000000004] if you're not familiar with the concept
+
+[2267.46 - 2270.94] of a lights out Factory a lights out
+
+[2269.02 - 2272.8] Factory is a factory that has no humans
+
+[2270.94 - 2274.78] in it it is all either completely
+
+[2272.8 - 2277.599] autonomous or robotic or remotely
+
+[2274.78 - 2279.94] controlled and so I think that chat GPT
+
+[2277.599 - 2282.46] technologies will basically make running
+
+[2279.94 - 2286.0] factories like you know like Starcraft
+
+[2282.46 - 2288.16] or or total Annihilation or command and
+
+[2286.0 - 2289.72] uh Command and Conquer where like you
+
+[2288.16 - 2291.5789999999997] have one person just like clicking on it
+
+[2289.72 - 2293.4399999999996] on a robot and you tell it like go do
+
+[2291.579 - 2295.3590000000004] this and the robot goes off and does the
+
+[2293.44 - 2298.68] thing that you told it to
+
+[2295.359 - 2300.8199999999997] um so you know I suspect that the
+
+[2298.68 - 2302.56] overall the impact of military and
+
+[2300.82 - 2304.78] Industry will probably be pretty pretty
+
+[2302.56 - 2306.5789999999997] minimal
+
+[2304.78 - 2308.02] um all right so that wraps it up thanks
+
+[2306.579 - 2310.54] for watching
+
+[2308.02 - 2312.94] um quick reminder uh if you support me
+
+[2310.54 - 2315.16] on patreon we'll uh we'll take down the
+
+[2312.94 - 2318.599] ads for good so on and so forth you know
+
+[2315.16 - 2318.5989999999997] the drill thanks for watching

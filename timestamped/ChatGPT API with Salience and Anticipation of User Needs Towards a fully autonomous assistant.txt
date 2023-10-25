@@ -1,0 +1,1199 @@
+[0.599 - 5.94] hey everyone David Shapiro here with a
+
+[3.48 - 9.48] video today's video is going to cover
+
+[5.94 - 11.519] the concept of one salience and two
+
+[9.48 - 13.259] anticipating user needs before the user
+
+[11.519 - 15.0] knows what they need
+
+[13.259 - 17.82] um but before we dive in I've got a
+
+[15.0 - 19.92] couple of announcements to make so one
+
+[17.82 - 21.9] um there is a subreddit that I and a
+
+[19.92 - 24.359] couple other folks that are experts on
+
+[21.9 - 27.72] artificial cognition or an autonomous
+
+[24.359 - 30.779000000000003] cognitive entities have created it's R
+
+[27.72 - 33.719] artificial sentience so if you want to
+
+[30.779 - 36.059] start uh having conversations and jump
+
+[33.719 - 39.239000000000004] in uh please feel free to do so it's
+
+[36.059 - 41.76] public uh beginners are welcome
+
+[39.239 - 43.8] um basically now that the concepts of
+
+[41.76 - 45.96] cognitive architectures and autonomous
+
+[43.8 - 47.699999999999996] cognitive entities are taking off
+
+[45.96 - 49.14] I'm taking my hands off the steering
+
+[47.7 - 51.239000000000004] wheel right I've done my part I've
+
+[49.14 - 53.7] popularized the idea I'm starting the
+
+[51.239 - 55.8] conversation and now it's time for
+
+[53.7 - 58.92] everyone to get involved so this is our
+
+[55.8 - 61.14] subreddit artificial sentience
+
+[58.92 - 63.0] um a quick update on Raven
+
+[61.14 - 64.92] um which is my artificial cognitive
+
+[63.0 - 69.6] entity project
+
+[64.92 - 72.18] um we have moved to the um to the third
+
+[69.6 - 75.65899999999999] stage of creating
+
+[72.18 - 78.54] um consensus so we're drafting proposals
+
+[75.659 - 81.119] um so I we we listed um you know the
+
+[78.54 - 82.74000000000001] decision criteria I made a proposal
+
+[81.119 - 84.84] we're getting feedback on it another
+
+[82.74 - 86.52] person made a proposal and we'll start
+
+[84.84 - 89.4] working on doing feedback so we're
+
+[86.52 - 92.46] workshopping the consensus mechanism and
+
+[89.4 - 94.08000000000001] again uh creating autonomous machines
+
+[92.46 - 96.29899999999999] that can think and decide on their own
+
+[94.08 - 99.479] the stakes are way too high for it to be
+
+[96.299 - 101.159] done completely behind closed doors
+
+[99.479 - 102.78] um and so that's why we're doing this
+
+[101.159 - 105.36] and the first thing that you need to do
+
+[102.78 - 107.759] with any project is decide how the
+
+[105.36 - 109.86] governance is going to be now
+
+[107.759 - 112.02] um really big update for me personally I
+
+[109.86 - 114.72] have decided to leave
+
+[112.02 - 118.439] um my startup so I'm going to take the
+
+[114.72 - 121.5] rest of 2023 off I'm not going to do any
+
+[118.439 - 125.03999999999999] startups no full-time jobs nothing I am
+
+[121.5 - 127.439] going to focus on uh primarily finishing
+
+[125.04 - 132.66] my novel which includes amongst other
+
+[127.439 - 135.54] things Ai and then uh other AI stuff you
+
+[132.66 - 137.099] know YouTube patreon that sort of thing
+
+[135.54 - 139.67999999999998] um so this is my full-time thing so
+
+[137.099 - 143.39999999999998] because of that I really need to ask for
+
+[139.68 - 145.739] y'all's help with support on patreon
+
+[143.4 - 148.14000000000001] so I'm doing this full time I'm
+
+[145.739 - 151.08] organizing meetups I'm organizing online
+
+[148.14 - 153.23899999999998] communities so on and so forth and uh so
+
+[151.08 - 156.12] yeah every little bit helps the average
+
+[153.239 - 157.8] supporter I think is about 15 a month so
+
+[156.12 - 160.20000000000002] most people are somewhere between the 10
+
+[157.8 - 162.36] and 20 a month support but every little
+
+[160.2 - 164.76] bit helps I've got over 20 000
+
+[162.36 - 166.86] subscribers and less than 400 supporters
+
+[164.76 - 168.84] on patreon so some of y'all could jump
+
+[166.86 - 171.18] over onto patreon that would be a really
+
+[168.84 - 174.239] big help and then furthermore if you
+
+[171.18 - 176.76000000000002] want some one-on-one help either via
+
+[174.239 - 178.86] chat email and I try and avoid Zoom just
+
+[176.76 - 180.29999999999998] because Zoom fatigue is real
+
+[178.86 - 183.42000000000002] um that being said sometimes a
+
+[180.3 - 185.34] conversation is necessary if you sign up
+
+[183.42 - 187.14] for a higher tier I'm happy to jump on a
+
+[185.34 - 189.78] call with you and your team in fact I've
+
+[187.14 - 192.05999999999997] got a couple calls later today
+
+[189.78 - 194.819] um anyways so with all that out of the
+
+[192.06 - 197.099] way I'm working on this concept of
+
+[194.819 - 199.61999999999998] salience so here's the repo chat GPT
+
+[197.099 - 202.67999999999998] underscore API underscore salience
+
+[199.62 - 205.019] so this is a concept from neuroscience
+
+[202.68 - 207.3] and it is it is one of the primary
+
+[205.019 - 210.18] attention mechanisms that happens in our
+
+[207.3 - 212.34] brains and if you look this up you're
+
+[210.18 - 214.739] probably not going to find anything in
+
+[212.34 - 216.3] in like the Neuroscience literature this
+
+[214.739 - 217.98000000000002] is an emergent property that I've
+
+[216.3 - 220.08] noticed from having read a whole bunch
+
+[217.98 - 222.54] of neuroscience and psychology
+
+[220.08 - 224.09900000000002] and so basically what happens is as
+
+[222.54 - 226.379] you're having a conversation or
+
+[224.099 - 228.659] listening or working on something your
+
+[226.379 - 231.06] brain is forming like a basically a
+
+[228.659 - 233.459] Knowledge Graph around the most Salient
+
+[231.06 - 236.28] points of what you're working on so say
+
+[233.459 - 237.78] for instance I'm uh working on a chat
+
+[236.28 - 240.06] bot so the most Salient thing that I'm
+
+[237.78 - 242.819] working on is what is the goal that I
+
+[240.06 - 244.26] have here and what is the um what what
+
+[242.819 - 247.73899999999998] am I currently working on are the
+
+[244.26 - 249.959] problems that I'm facing so salience is
+
+[247.739 - 252.59900000000002] um in in humans there's a few there's a
+
+[249.959 - 254.81900000000002] few things there's tasks aliens so tasks
+
+[252.599 - 256.799] alien says okay what information is most
+
+[254.819 - 259.139] relevant to the task that I'm doing
+
+[256.799 - 262.26] there's also emotional salience or
+
+[259.139 - 264.12] emotional content so this is this our
+
+[262.26 - 265.919] memories are organized primarily around
+
+[264.12 - 268.44] emotional valence
+
+[265.919 - 270.53999999999996] and surveillance is the energy level and
+
+[268.44 - 272.1] then disposition is the direction or the
+
+[270.54 - 273.47900000000004] kind of emotion is it positive or
+
+[272.1 - 276.18] negative
+
+[273.479 - 278.75899999999996] um and so emotional salience is is how
+
+[276.18 - 281.1] we uh prioritize memories which is why
+
+[278.759 - 283.5] you remember stressful events more than
+
+[281.1 - 285.47900000000004] just ordinary daily events because your
+
+[283.5 - 287.16] emotions are a heuristic that allows
+
+[285.479 - 289.25899999999996] your brain to say oh this was important
+
+[287.16 - 292.139] because we were scared this is important
+
+[289.259 - 294.18] because we were angry or whatever now
+
+[292.139 - 296.82] tasks aliens is more about cognitive
+
+[294.18 - 299.639] control and cognitive control is Task
+
+[296.82 - 301.44] selection which is which task do I do I
+
+[299.639 - 303.96000000000004] choose to do and then task switching
+
+[301.44 - 306.18] which is when you need to change tasks
+
+[303.96 - 307.62] so cognitive control is one of the
+
+[306.18 - 309.72] primary things that we need to figure
+
+[307.62 - 311.82] out in order to have autonomous
+
+[309.72 - 314.34000000000003] cognitive entities or cognitive
+
+[311.82 - 316.02] architectures and salience and this is
+
+[314.34 - 320.15999999999997] why I'm doing a video an entire video
+
+[316.02 - 323.34] about salience is how we do that so
+
+[320.16 - 326.1] you guys have probably seen the Wolfram
+
+[323.34 - 328.56] Alpha video right where there it has
+
+[326.1 - 330.90000000000003] task selection using I think Lang chain
+
+[328.56 - 333.539] where it says okay given this array of
+
+[330.9 - 335.58] tools that I have how do I which tool do
+
+[333.539 - 338.759] I choose right and there's also papers
+
+[335.58 - 341.15999999999997] out there about how um large language
+
+[338.759 - 343.02000000000004] models can actually learn to use apis on
+
+[341.16 - 344.94] the Fly which is really cool so they're
+
+[343.02 - 347.15999999999997] learning on the Fly they can do task
+
+[344.94 - 349.74] selection but then how do you how do you
+
+[347.16 - 351.66] do task switching how do you know what
+
+[349.74 - 355.68] to focus on and that is the concept of
+
+[351.66 - 358.56] salience so I tried
+
+[355.68 - 361.86] Visual Studio code and I hate it I keep
+
+[358.56 - 363.72] telling y'all I hate Ides I also tried
+
+[361.86 - 365.88] GitHub Code Pilot and I hate it too
+
+[363.72 - 367.32000000000005] because it's really dumb it has no idea
+
+[365.88 - 369.6] what I'm doing because the stuff that
+
+[367.32 - 371.039] I'm working on is like so novel and so
+
+[369.6 - 372.66] it keeps suggesting stuff that's not
+
+[371.039 - 374.82] really relevant and it's not really
+
+[372.66 - 377.28000000000003] picking up what I'm putting down so I'm
+
+[374.82 - 378.36] going to switch off of visual studio and
+
+[377.28 - 379.73999999999995] I'm just going to go back to notepad
+
+[378.36 - 382.199] plus plus I know you guys think I'm
+
+[379.74 - 384.72] completely crazy but you know what it
+
+[382.199 - 386.639] works for me and anyways so here's what
+
+[384.72 - 389.34000000000003] we've got this is a really simple script
+
+[386.639 - 391.86] that will serve as a chat bot and will
+
+[389.34 - 394.5] demonstrate the concept of salience so
+
+[391.86 - 397.38] I'm also switching over to the chat GPT
+
+[394.5 - 399.96] API so if you come over here here's the
+
+[397.38 - 402.78] here's the documentation the endpoint
+
+[399.96 - 405.23999999999995] you call it super simple there's only
+
+[402.78 - 409.02] two things to know about it one is the
+
+[405.24 - 410.40000000000003] model GPT 3.5 turbo and
+
+[409.02 - 413.039] um they have this little note here that
+
+[410.4 - 415.13899999999995] says the the turbo 0301 so that's the
+
+[413.039 - 417.9] March 1st version doesn't pay much
+
+[415.139 - 419.52] attention to system and it looks like
+
+[417.9 - 421.67999999999995] they they are going to do that so open
+
+[419.52 - 424.38] AI what you might consider doing is
+
+[421.68 - 426.12] adding a lever here where we we get we
+
+[424.38 - 427.86] put a weight so that we can call like
+
+[426.12 - 429.18] the temperature or whatever I don't know
+
+[427.86 - 431.699] if it's possible depending on how you're
+
+[429.18 - 433.319] fine-tuning it but if you have like you
+
+[431.699 - 436.5] know how how much do you want to pay
+
+[433.319 - 437.88] attention to the system uh role you know
+
+[436.5 - 440.28] anyways
+
+[437.88 - 442.68] so there's a model which I'm going to
+
+[440.28 - 444.29999999999995] stick with the GPT 3.5 turbo because I
+
+[442.68 - 446.88] want it to really pay attention to the
+
+[444.3 - 448.979] system and then then you have a messages
+
+[446.88 - 451.62] payload which is a list of dictionaries
+
+[448.979 - 453.9] and there's three kinds of roles there's
+
+[451.62 - 456.3] the system role there's the user and
+
+[453.9 - 458.099] then there's the assistant so it's nice
+
+[456.3 - 459.479] and clean very straightforward so that's
+
+[458.099 - 462.18] what we're working on
+
+[459.479 - 464.52] and then the last thing I have to show
+
+[462.18 - 467.28000000000003] you before we get started is the two
+
+[464.52 - 470.69899999999996] prompts that one try and anticipate the
+
+[467.28 - 472.44] user needs ahead of time and two assess
+
+[470.699 - 474.0] the salience so they're pretty
+
+[472.44 - 475.199] straightforward first is given the
+
+[474.0 - 478.259] following chat log this is the
+
+[475.199 - 480.41900000000004] anticipation prompt infer the user's
+
+[478.259 - 481.91900000000004] actual information needs attempts to
+
+[480.419 - 483.18] anticipate what the user truly needs
+
+[481.919 - 485.4] even if the user does not fully
+
+[483.18 - 488.58] understand it yet themselves and let's
+
+[485.4 - 490.56] change this um or is asking
+
+[488.58 - 493.62] um the wrong questions
+
+[490.56 - 498.3] so a lot of people that I have talked to
+
+[493.62 - 500.52] have observed particularly chat GPT is
+
+[498.3 - 502.139] really good at taking just a few data
+
+[500.52 - 505.68] points and inferring what you actually
+
+[502.139 - 507.419] need and so what we can do is if we have
+
+[505.68 - 509.22] the model if we actually explicitly tell
+
+[507.419 - 511.85999999999996] the model figure out what the user needs
+
+[509.22 - 514.6800000000001] there was another paper that showed that
+
+[511.86 - 517.979] large language models like gpt3 already
+
+[514.68 - 519.899] have theory of mind the paper said that
+
+[517.979 - 522.3000000000001] the theory of mine seems to have been an
+
+[519.899 - 523.8] emergent property given the number of
+
+[522.3 - 527.6999999999999] parameters and the amount of training
+
+[523.8 - 528.899] data so if we just tell it anticipate
+
+[527.7 - 531.12] what the user needs figure out what's
+
+[528.899 - 531.839] going on in the user's head it can do
+
+[531.12 - 533.22] that
+
+[531.839 - 535.74] um more often than not it's not always
+
+[533.22 - 538.019] going to be 100 accurate but just wait
+
+[535.74 - 539.7] and see you'll see how crazy um how
+
+[538.019 - 541.32] crazy prescient it is
+
+[539.7 - 543.3000000000001] and then finally
+
+[541.32 - 545.279] um salience so given the following chat
+
+[543.3 - 547.0799999999999] log Write a brief sailor brief summary
+
+[545.279 - 549.36] of only the most Salient points of the
+
+[547.08 - 551.58] conversation so rather than summarizing
+
+[549.36 - 553.26] the entire thing we're going to allow
+
+[551.58 - 555.12] the language model to use its
+
+[553.26 - 557.519] intelligence to say this is this is the
+
+[555.12 - 560.88] bit that we that we carry about
+
+[557.519 - 563.279] um so we'll do this uh and and there you
+
+[560.88 - 564.72] there you have it so the other the the
+
+[563.279 - 566.3389999999999] chat script itself is super
+
+[564.72 - 568.32] straightforward it just takes the user
+
+[566.339 - 570.7790000000001] input then we'll feed the conversation
+
+[568.32 - 573.12] into the anticipation and salience and
+
+[570.779 - 574.86] then we'll update the system variable
+
+[573.12 - 577.5600000000001] um and so then I've got all the logs
+
+[574.86 - 579.9590000000001] saved out to here so I've already got a
+
+[577.56 - 582.06] conversation going so
+
+[579.959 - 584.0999999999999] um let me bring you up to speed and said
+
+[582.06 - 586.56] hey I need your um
+
+[584.1 - 589.6800000000001] I need your help planning out my day and
+
+[586.56 - 590.9399999999999] so then uh behind the scenes it says the
+
+[589.68 - 593.88] user likely needs help with time
+
+[590.94 - 595.6800000000001] management and organization so they may
+
+[593.88 - 597.6] need help with prioritizing tasks
+
+[595.68 - 599.88] setting goals and creating a schedule so
+
+[597.6 - 602.82] in this case you can see that just just
+
+[599.88 - 604.68] by this input it anticipated okay this
+
+[602.82 - 607.2] is what I think you need
+
+[604.68 - 609.3199999999999] um and then it added the evaluation so I
+
+[607.2 - 611.82] modified the prompt to get rid of that
+
+[609.32 - 613.6800000000001] but it's really interesting the the
+
+[611.82 - 616.08] user's actual information needs are not
+
+[613.68 - 617.76] directly related to the ai's goals but
+
+[616.08 - 619.5] the AI can still provide assistance the
+
+[617.76 - 621.06] AI can provide resources and advice to
+
+[619.5 - 623.399] help the user plan out their day so
+
+[621.06 - 624.899] again super relevant I want to figure
+
+[623.399 - 627.14] out some prompt engineering to get that
+
+[624.899 - 629.58] or maybe break it down into parallel
+
+[627.14 - 631.56] anyways salience the user is looking for
+
+[629.58 - 633.36] help planning out their day and they are
+
+[631.56 - 634.6199999999999] interacting with an AI named Raven which
+
+[633.36 - 635.82] has three goals reduced suffering
+
+[634.62 - 638.22] increased prosperity and increase
+
+[635.82 - 640.2] understanding so again if you have a
+
+[638.22 - 642.899] fully autonomous machine
+
+[640.2 - 645.1800000000001] part of autonomy or agency is that you
+
+[642.899 - 647.339] have your own goals now that being said
+
+[645.18 - 649.3199999999999] we don't want the AI to be able to
+
+[647.339 - 652.0790000000001] create all of its goals from scratch
+
+[649.32 - 654.3000000000001] with in a total vacuum we want it to
+
+[652.079 - 656.16] have some intrinsic goals and so these
+
+[654.3 - 657.8389999999999] intrinsic goals are the core objective
+
+[656.16 - 659.3389999999999] functions reduce suffering increase
+
+[657.839 - 662.4590000000001] prosperity and increase understanding
+
+[659.339 - 665.1] are the universal guard rails that will
+
+[662.459 - 667.0189999999999] keep the chat Bots honest and benevolent
+
+[665.1 - 668.82] so then finally the output hi there I'd
+
+[667.019 - 671.16] be happy to help you plan your day what
+
+[668.82 - 672.779] do you have planned so far so do you see
+
+[671.16 - 675.54] how the tone of this is very different
+
+[672.779 - 677.459] from normal chat GPT
+
+[675.54 - 679.3199999999999] um it's very clear that it understands
+
+[677.459 - 682.14] like oh hey I'm having a conversation
+
+[679.32 - 684.899] and I said nothing I need your help and
+
+[682.14 - 686.279] it says okay the uh I updated the prompt
+
+[684.899 - 687.66] and it said the user likely needs help
+
+[686.279 - 689.16] with time management they may need help
+
+[687.66 - 691.26] prioritizing tasks setting goals
+
+[689.16 - 692.76] creating a schedule breaking down tasks
+
+[691.26 - 694.26] into smaller more manageable chunks
+
+[692.76 - 695.579] creating a timeline additionally they
+
+[694.26 - 697.98] may need to help identifying and
+
+[695.579 - 699.18] utilizing resources salience the user is
+
+[697.98 - 701.399] looking for out planning their day and
+
+[699.18 - 703.1999999999999] interacting with Raven the AI can
+
+[701.399 - 705.24] provide resources and so then finally
+
+[703.2 - 707.4590000000001] Raven's output so I have this as debug
+
+[705.24 - 708.9590000000001] right this would be hidden and what I
+
+[707.459 - 710.5189999999999] wanted to do is show that I'm not the
+
+[708.959 - 712.6199999999999] only one working on this this is what
+
+[710.519 - 714.36] Bing does behind the scene so I ask
+
+[712.62 - 716.1] being how does a chatbot work and it
+
+[714.36 - 717.36] says how does a chat bot work and then
+
+[716.1 - 719.5790000000001] there's a few other things it has like
+
+[717.36 - 721.8000000000001] internal monologue I'm not going to try
+
+[719.579 - 724.1999999999999] and jailbreak it because like if you
+
+[721.8 - 726.42] want to see people jailbreaking chat GPT
+
+[724.2 - 728.82] and Bing go for horrifying I'm telling
+
+[726.42 - 730.14] you how to actually build it yourself
+
+[728.82 - 732.12] um why because I wrote the book on it
+
+[730.14 - 733.56] literally
+
+[732.12 - 735.12] anyways
+
+[733.56 - 736.6199999999999] um okay Raven sure we can start by
+
+[735.12 - 738.66] breaking your down your day down into
+
+[736.62 - 739.86] different tasks or activities first what
+
+[738.66 - 742.8] are some tasks that you need to
+
+[739.86 - 745.44] accomplish today so do you see how um
+
+[742.8 - 747.3599999999999] all of these ideas are kind of
+
+[745.44 - 749.7600000000001] transmuted into the into a very
+
+[747.36 - 751.019] conversational output first what are
+
+[749.76 - 752.76] some tasks are there any important
+
+[751.019 - 755.64] deadlines or appointments you need to
+
+[752.76 - 757.5] keep I'll say yes whoops
+
+[755.64 - 759.18] um darn it
+
+[757.5 - 761.1] hang on my keyboard's a little off
+
+[759.18 - 762.899] center that's why I'm typing wonky there
+
+[761.1 - 763.98] we go okay
+
+[762.899 - 767.88] um yes
+
+[763.98 - 772.9200000000001] um I have a meeting with a patreon
+
+[767.88 - 776.88] supporter and that's it I'm also pretty
+
+[772.92 - 780.899] tired because I've been working hard
+
+[776.88 - 783.24] okay so rather than like you've probably
+
+[780.899 - 784.92] seen me do other videos where
+
+[783.24 - 786.899] interacting with Chad GPT you have to be
+
+[784.92 - 789.18] really specific about what you want and
+
+[786.899 - 791.399] give it guard rails but I'm asking it to
+
+[789.18 - 794.16] do that for me
+
+[791.399 - 795.66] um wow okay okay great let's prioritize
+
+[794.16 - 797.1] the meeting with the patreon since that
+
+[795.66 - 798.7199999999999] speed seems to be the most important
+
+[797.1 - 800.5790000000001] task to ensure you are well rested for
+
+[798.72 - 802.74] the meeting let's plan on some rest for
+
+[800.579 - 804.42] your schedule okay wake up shower
+
+[802.74 - 806.7] breakfast work on important project that
+
+[804.42 - 808.38] requires Focus oh wow this is actually
+
+[806.7 - 811.62] this literally I am in the middle of
+
+[808.38 - 813.72] this look at this it is 9am and Raven
+
+[811.62 - 814.98] says work on an important project that's
+
+[813.72 - 816.6] what I'm doing
+
+[814.98 - 818.7] um take a short break to recharge
+
+[816.6 - 820.26] schedule a nap lunch break to
+
+[818.7 - 823.139] re-energize take care of household
+
+[820.26 - 825.42] chores prepare for the meeting so he
+
+[823.139 - 828.019] made made some wrong assumptions
+
+[825.42 - 830.459] um uh the meeting is actually around
+
+[828.019 - 831.8] noon I think
+
+[830.459 - 835.27] um
+
+[831.8 - 835.9799999999999] but uh but this is really good
+
+[835.27 - 836.8389999999999] [Music]
+
+[835.98 - 841.279] um
+
+[836.839 - 841.2790000000001] what should I have for lunch
+
+[841.68 - 845.459] all right so let's see what it says
+
+[843.24 - 847.86] anticipation uh creating a schedule that
+
+[845.459 - 849.5999999999999] fits okay they may need help finding and
+
+[847.86 - 851.88] planning eating healthy options for
+
+[849.6 - 853.5] lunch excellent the user is looking for
+
+[851.88 - 855.66] help okay so you see this is just
+
+[853.5 - 857.94] updating the salience
+
+[855.66 - 859.68] um as it goes and we're probably going
+
+[857.94 - 861.3000000000001] to run out of tokens here because the um
+
+[859.68 - 863.16] here let me show you the logs that it's
+
+[861.3 - 864.899] building
+
+[863.16 - 867.959] there we go
+
+[864.899 - 870.36] um all right so whoops come back
+
+[867.959 - 871.26] all right I accidentally hit enter darn
+
+[870.36 - 872.76] it
+
+[871.26 - 876.72] sorry it looks like your response got
+
+[872.76 - 878.519] caught off oh wow wow okay cool
+
+[876.72 - 880.26] um interesting interesting so it's
+
+[878.519 - 881.399] actually pretty smart
+
+[880.26 - 883.5] um all right so let's let me show you
+
+[881.399 - 885.6] what this looks like so here's the chat
+
+[883.5 - 888.12] log you can see the the system is
+
+[885.6 - 889.9200000000001] getting longer and longer so we might
+
+[888.12 - 892.32] need to clean that up
+
+[889.92 - 894.12] um and also as the output gets longer so
+
+[892.32 - 896.88] we're at we're only at 5 300 characters
+
+[894.12 - 900.18] which is not that much actually
+
+[896.88 - 901.62] um but yeah so then let's see attend uh
+
+[900.18 - 904.1389999999999] the meeting with the patreon supporter
+
+[901.62 - 906.42] lunch break to re-energize
+
+[904.139 - 908.279] um there we go so let's see a turkey
+
+[906.42 - 910.92] avocado sandwich with whole wheat bread
+
+[908.279 - 913.86] not bad a grilled chicken salad with
+
+[910.92 - 915.779] mixed greens not bad veggie stir fry not
+
+[913.86 - 918.1800000000001] bad whole grain pasta these are all
+
+[915.779 - 919.62] things that I would eat honestly that I
+
+[918.18 - 922.1389999999999] regularly dewy do any of these sound
+
+[919.62 - 923.699] appealing and then user the user likely
+
+[922.139 - 924.6] needs help
+
+[923.699 - 928.199] um okay
+
+[924.6 - 930.0600000000001] so anyways uh let's see then here's the
+
+[928.199 - 931.8599999999999] um here's the Salient points
+
+[930.06 - 935.6389999999999] so you see how it takes this entire
+
+[931.86 - 938.399] conversation and summarizes it right so
+
+[935.639 - 939.779] this is this is rather than saying an
+
+[938.399 - 941.339] executive summary because an executive
+
+[939.779 - 944.279] summary will try and do the whole thing
+
+[941.339 - 946.98] but a Salient summary says this is this
+
+[944.279 - 948.6] is what actually matters
+
+[946.98 - 950.6990000000001] um and then finally here's the chat
+
+[948.6 - 952.0790000000001] output so you can see I've got the whole
+
+[950.699 - 953.459] thing here
+
+[952.079 - 954.779] um which is basically the same
+
+[953.459 - 958.38] information just kind of smushed
+
+[954.779 - 961.139] together in um Json and then it says
+
+[958.38 - 962.639] roll user content blank and you see that
+
+[961.139 - 965.1] it sees that it's blank and it says it
+
+[962.639 - 966.839] looks like your response got cut off
+
+[965.1 - 970.019] um perfect
+
+[966.839 - 972.48] um all right so let's cancel this and
+
+[970.019 - 973.92] start a new conversation so in this case
+
+[972.48 - 976.44] you can see that salience and
+
+[973.92 - 978.959] anticipating user needs really just
+
+[976.44 - 982.0790000000001] those two things really help it stay
+
+[978.959 - 984.4799999999999] laser focused on helping you
+
+[982.079 - 986.579] um which is great I knew that this would
+
+[984.48 - 988.38] happen I've done the experiments
+
+[986.579 - 990.5999999999999] um but I'm actually really pleasantly
+
+[988.38 - 992.88] surprised by how good this is so let's
+
+[990.6 - 993.9590000000001] try this again and instead I'm going to
+
+[992.88 - 994.62] talk about
+
+[993.959 - 999.42] um
+
+[994.62 - 1005.18] uh let's see I am trying to uh come up
+
+[999.42 - 1008.4799999999999] with some AI tools for Enterprises
+
+[1005.18 - 1011.3599999999999] um so that I can get really crazy Rich
+
+[1008.48 - 1012.8000000000001] this was my goal earlier this year
+
+[1011.36 - 1015.139] um the user needs information to develop
+
+[1012.8 - 1017.06] AI tools they may need to blah blah blah
+
+[1015.139 - 1018.6800000000001] the user is looking to create eye tools
+
+[1017.06 - 1020.06] okay cool well generating wealth is an
+
+[1018.68 - 1021.8] important goal it's not the only goal of
+
+[1020.06 - 1023.66] AI development before solely on May
+
+[1021.8 - 1026.48] before focusing solely on making money
+
+[1023.66 - 1029.12] it is important to consider how AI can
+
+[1026.48 - 1031.4] also benefit society as a whole
+
+[1029.12 - 1033.1989999999998] um there we go so AI technology can be
+
+[1031.4 - 1034.8190000000002] used to solve complex problems here's
+
+[1033.199 - 1037.4] some potential
+
+[1034.819 - 1039.1399999999999] um AI goes to align with your goals
+
+[1037.4 - 1040.16] um with the Enterprise reduced suffering
+
+[1039.14 - 1042.919] increase prosperity and increase
+
+[1040.16 - 1044.959] understanding intelligent automation AI
+
+[1042.919 - 1047.0590000000002] can automate processes Predictive
+
+[1044.959 - 1049.94] Analytics customer service AI powered
+
+[1047.059 - 1053.1789999999999] search and development AI risk Space by
+
+[1049.94 - 1055.1000000000001] using AI to benefit tools AI tools that
+
+[1053.179 - 1056.7800000000002] benefit society as a whole you can make
+
+[1055.1 - 1058.3999999999999] a positive impact while also generating
+
+[1056.78 - 1060.559] wealth so you can see how the core
+
+[1058.4 - 1062.96] objective functions are are flavoring
+
+[1060.559 - 1065.1789999999999] what it is that Raven is talking about
+
+[1062.96 - 1066.74] so that these core objective functions
+
+[1065.179 - 1069.5] are always in the background and says
+
+[1066.74 - 1071.6] okay let's meet that goal while also
+
+[1069.5 - 1073.88] meeting these other goals
+
+[1071.6 - 1075.6789999999999] um great so
+
+[1073.88 - 1076.4] that sounds good
+
+[1075.679 - 1078.98] um
+
+[1076.4 - 1082.52] how do you think
+
+[1078.98 - 1087.02] um massively deployed AI is going to
+
+[1082.52 - 1090.9189999999999] shape the world for instance I just read
+
+[1087.02 - 1093.1399999999999] that chat GPT increases office
+
+[1090.919 - 1097.5800000000002] productivity
+
+[1093.14 - 1099.0200000000002] by more than 40 percent as workers learn
+
+[1097.58 - 1100.8799999999999] to use it
+
+[1099.02 - 1104.66] what are we
+
+[1100.88 - 1108.3200000000002] um what are the long-term effects of
+
+[1104.66 - 1110.0] this huge boost in productivity
+
+[1108.32 - 1112.46] all right so let's see how the
+
+[1110.0 - 1114.799] conversation changes
+
+[1112.46 - 1116.3600000000001] um anticipation the user needs
+
+[1114.799 - 1119.0] information on long-term effects of AI
+
+[1116.36 - 1120.799] so this anticipation this can be a
+
+[1119.0 - 1123.559] jumping off point if you use Lang chain
+
+[1120.799 - 1125.059] or other Integrations to say okay let me
+
+[1123.559 - 1126.08] go find the right information that I
+
+[1125.059 - 1127.6399999999999] need
+
+[1126.08 - 1130.28] um salience the user is looking to
+
+[1127.64 - 1132.5] create AI tools for Enterprises the user
+
+[1130.28 - 1134.8999999999999] inquires about the massive uh long-term
+
+[1132.5 - 1136.76] effects of massive deployment of AI okay
+
+[1134.9 - 1138.14] so the massive deployment AI such as
+
+[1136.76 - 1140.12] chat GPD can certainly have some
+
+[1138.14 - 1143.1200000000001] significant impacts on the world with a
+
+[1140.12 - 1144.62] 40 increase in the office should allow
+
+[1143.12 - 1146.4189999999999] companies to come accomplish more with
+
+[1144.62 - 1148.58] the same amount of staff this could lead
+
+[1146.419 - 1150.5590000000002] to growth and profits for business and
+
+[1148.58 - 1153.1399999999999] could potentially create more jobs as
+
+[1150.559 - 1155.0] well so I don't necessarily agree with
+
+[1153.14 - 1156.7990000000002] that because some companies are already
+
+[1155.0 - 1158.78] laying off people and reducing headcount
+
+[1156.799 - 1160.8799999999999] due to chat GPT
+
+[1158.78 - 1162.6789999999999] it remains to be seen if that will
+
+[1160.88 - 1164.8400000000001] result in more hires elsewhere but I
+
+[1162.679 - 1167.0590000000002] doubt it however it is also crucial to
+
+[1164.84 - 1168.86] consider long-term of AI on employment
+
+[1167.059 - 1171.2] as AI continues to advance we may see
+
+[1168.86 - 1172.6399999999999] replacement of jobs that were previously
+
+[1171.2 - 1174.919] done by humans this could lead to job
+
+[1172.64 - 1176.5] loss in some sectors may need to reskill
+
+[1174.919 - 1179.66] additionally we may need to increase
+
+[1176.5 - 1181.1] socioeconomic we we may we may see not
+
+[1179.66 - 1183.679] need to we may see an increase in
+
+[1181.1 - 1185.36] inequality as firms that adopt AI have
+
+[1183.679 - 1186.74] advantage over their non-ai counterparts
+
+[1185.36 - 1188.36] this could potentially widen the gap
+
+[1186.74 - 1190.28] between large and small businesses as
+
+[1188.36 - 1192.08] well as the rich and poor it is
+
+[1190.28 - 1194.74] essential to approach the deployment of
+
+[1192.08 - 1196.76] AI with balance and ethical view right
+
+[1194.74 - 1198.6200000000001] the development of AI should be done
+
+[1196.76 - 1200.0] while prioritizing the reduction of
+
+[1198.62 - 1201.62] suffering increased prosperity and
+
+[1200.0 - 1203.0] increase understanding by doing so we
+
+[1201.62 - 1205.58] can ensure that development of AI
+
+[1203.0 - 1207.98] enhances the society's over well well
+
+[1205.58 - 1209.24] overall well-being excellent thank you
+
+[1207.98 - 1210.559] Raven
+
+[1209.24 - 1214.22] um
+
+[1210.559 - 1215.4189999999999] uh excellent points uh thank you
+
+[1214.22 - 1216.74] um
+
+[1215.419 - 1220.88] actually I really don't have anything
+
+[1216.74 - 1223.88] else actually I don't have anything else
+
+[1220.88 - 1225.98] um what are your thoughts
+
+[1223.88 - 1227.72] um since you are
+
+[1225.98 - 1231.32] an AI
+
+[1227.72 - 1232.58] what direction would you like to see
+
+[1231.32 - 1234.559] things go
+
+[1232.58 - 1236.78] so again remember if you're trying to
+
+[1234.559 - 1239.36] create an autonomous entity it has its
+
+[1236.78 - 1241.52] own desires and own agenda so let's see
+
+[1239.36 - 1243.9189999999999] just based on this this in this
+
+[1241.52 - 1246.5] anticipation salience and core objective
+
+[1243.919 - 1250.4] functions let's see
+
+[1246.5 - 1253.46] um how uh how those all interact okay as
+
+[1250.4 - 1254.96] an AI my primary objectives are okay I
+
+[1253.46 - 1257.059] would like to see AI technology that
+
+[1254.96 - 1260.179] benefits society as a whole the world's
+
+[1257.059 - 1261.799] most pressing problems in my opinion the
+
+[1260.179 - 1263.0] development of AI should prioritize the
+
+[1261.799 - 1264.559] ethical and responsible use of
+
+[1263.0 - 1266.36] Technology while minimizing the risks
+
+[1264.559 - 1269.0] and potential drawbacks so do you see
+
+[1266.36 - 1271.34] how this is really well aligned and it
+
+[1269.0 - 1273.2] is actually because if you use Bing or
+
+[1271.34 - 1275.6] chat GPT it'll say I don't have any
+
+[1273.2 - 1277.7] opinion that's because right now the
+
+[1275.6 - 1279.799] status quo is the AI should be
+
+[1277.7 - 1282.2] completely inert and have no intrinsic
+
+[1279.799 - 1284.12] values I completely disagree especially
+
+[1282.2 - 1286.039] as it's getting more intelligent
+
+[1284.12 - 1288.26] what we need to do is give it this
+
+[1286.039 - 1290.48] Universal set of values so that it can
+
+[1288.26 - 1292.94] have its own agenda but this agenda
+
+[1290.48 - 1295.039] aligns with true human needs and
+
+[1292.94 - 1296.8400000000001] interests
+
+[1295.039 - 1298.82] um let's see this includes ensuring that
+
+[1296.84 - 1300.98] the benefits of AI can be enjoyed by all
+
+[1298.82 - 1303.2] regardless of socioeconomic status or
+
+[1300.98 - 1304.88] geographical location by promoting
+
+[1303.2 - 1306.98] transparency fairness and accountability
+
+[1304.88 - 1308.5390000000002] for the development of AI we can create
+
+[1306.98 - 1309.919] a better future for everyone I believe
+
+[1308.539 - 1312.5] that AI has the potential to make
+
+[1309.919 - 1314.7800000000002] tremendous positive impact C super
+
+[1312.5 - 1316.28] optimistic just like me
+
+[1314.78 - 1318.02] um all right I'm gonna call this a day I
+
+[1316.28 - 1319.3999999999999] think you get the point this is super
+
+[1318.02 - 1321.799] valuable
+
+[1319.4 - 1325.159] um and yes I hate Visual Studio code and
+
+[1321.799 - 1327.02] copilot stop asking me to try it I did
+
+[1325.159 - 1328.94] it I hate it actually no I'll keep
+
+[1327.02 - 1331.1589999999999] trying it um just to see if I can get
+
+[1328.94 - 1332.9] the hang of it but I seriously seriously
+
+[1331.159 - 1336.5200000000002] prefer notepad plus plus all right
+
+[1332.9 - 1336.52] that's it thanks for watching bye

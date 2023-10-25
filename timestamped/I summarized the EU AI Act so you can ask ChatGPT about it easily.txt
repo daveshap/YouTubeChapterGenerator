@@ -1,0 +1,1489 @@
+[0.079 - 5.04] I think we're ready to begin
+
+[3.419 - 6.24] um he saw me look at the camera used to
+
+[5.04 - 11.04] be over there now you're over here okay
+
+[6.24 - 13.559000000000001] so I ran a poll uh 17 hours ago I asked
+
+[11.04 - 17.34] if you all wanted me to do a video on
+
+[13.559 - 19.02] the euai ACT man got names gotta get
+
+[17.34 - 20.939] better with names I'm good with acronyms
+
+[19.02 - 24.9] come to me for acronyms
+
+[20.939 - 26.82] gato Gaia Aegis okay anyways so y'all
+
+[24.9 - 28.08] were confused about what I meant by Haas
+
+[26.82 - 29.699] which is something from here in the
+
+[28.08 - 33.18] South basically Haas means just
+
+[29.699 - 36.120000000000005] something big right it's short it's a
+
+[33.18 - 38.34] southern dialect for a horse or in
+
+[36.12 - 41.339999999999996] particular a big horse
+
+[38.34 - 43.800000000000004] um so this document is a Haas because
+
+[41.34 - 46.14] look how freaking long it is
+
+[43.8 - 48.538999999999994] it just keeps going
+
+[46.14 - 52.559] so I plugged it in over here
+
+[48.539 - 56.399] and it is uh 70 000 tokens long so even
+
+[52.559 - 58.44] if I had access to uh GPT 432k which I
+
+[56.399 - 60.42] did briefly and then they revoked it I
+
+[58.44 - 63.959999999999994] think they got overwhelmed uh because I
+
+[60.42 - 65.58] used it I tried to use uh GPT uh 432k on
+
+[63.96 - 67.92] a couple things and it was just like
+
+[65.58 - 70.25999999999999] server is overloaded servers are anyways
+
+[67.92 - 72.42] so hopefully I get that back but the
+
+[70.26 - 73.92] idea was there would be I could read it
+
+[72.42 - 76.38] and you know chop it up into maybe four
+
+[73.92 - 78.0] sections uh three or four sections and
+
+[76.38 - 81.86] read the whole thing but we don't have
+
+[78.0 - 85.02] that and I do have uh GPT 3.5 turbo
+
+[81.86 - 88.32] 16k0613 so this model is actually super
+
+[85.02 - 93.06] super steerable it is actually better
+
+[88.32 - 94.67999999999999] than original gpt4 at a lot of things
+
+[93.06 - 96.78] um it's still kind of dumb especially if
+
+[94.68 - 100.4] the instructions are too complex but as
+
+[96.78 - 105.659] long as you give it just one task uh GPT
+
+[100.4 - 107.64] 3.3.5 turbo 0613 the June 13th model
+
+[105.659 - 109.97900000000001] um is more than adequate for most things
+
+[107.64 - 112.07900000000001] now that being said because I'm
+
+[109.979 - 115.88] interpreting legalese and I'm doing
+
+[112.079 - 118.619] summarization I'm going to use 04
+
+[115.88 - 120.83999999999999] 613. So the instructions that I gave it
+
+[118.619 - 123.18] just now and I know that I'm ready to
+
+[120.84 - 125.84] start the video primary purpose
+
+[123.18 - 127.97900000000001] zoom in a little bit the primary purpose
+
+[125.84 - 129.72] or the following is a chunk of
+
+[127.979 - 132.48] legislation your job is to summarize
+
+[129.72 - 135.18] this legislative legislation with two
+
+[132.48 - 137.28] primary goals one drastically reduce the
+
+[135.18 - 139.08] word count and two retain enough context
+
+[137.28 - 140.76] that it will still make sense the reason
+
+[139.08 - 142.14000000000001] for this is the current AI technology
+
+[140.76 - 144.12] can only read chunks that are so big
+
+[142.14 - 146.33999999999997] method the user will give you a chunk of
+
+[144.12 - 148.02] legislation via chat your response must
+
+[146.34 - 149.58] only be the summarized version do not
+
+[148.02 - 151.31900000000002] chat with the user engage with them or
+
+[149.58 - 154.459] offer any other commentary summarize
+
+[151.319 - 158.35999999999999] only so I copied the first hundred lines
+
+[154.459 - 161.76] of the legislation into here
+
+[158.36 - 163.62] and this is what it spit out so it took
+
+[161.76 - 166.14] all that and just said okay this is what
+
+[163.62 - 168.72] it means so the first hundred lines
+
+[166.14 - 173.05999999999997] which you can see here
+
+[168.72 - 176.22] so we've got 344 000 characters
+
+[173.06 - 177.66] 3665 lines of stuff to go through I'm
+
+[176.22 - 181.56] not going to read the whole thing I'm
+
+[177.66 - 183.48] not AI explained uh that dude just like
+
+[181.56 - 184.8] y'all are impressed with how much work I
+
+[183.48 - 187.5] can do I'm impressed with how much that
+
+[184.8 - 191.42000000000002] dude can read just honestly I'm maybe he
+
+[187.5 - 194.64] uses chat GPT I don't know anyways
+
+[191.42 - 197.78] if you're watching it's just a joke
+
+[194.64 - 201.5] um okay so anyways uh so ultimately
+
+[197.78 - 204.599] basically that that first hundred lines
+
+[201.5 - 206.64] uh was summarized and condensed down to
+
+[204.599 - 208.85999999999999] the European commission proposes a
+
+[206.64 - 210.35999999999999] regulation for harmonized rules on
+
+[208.86 - 213.12] artificial intelligence aiming to
+
+[210.36 - 215.64000000000001] balance the socioeconomic benefits of AI
+
+[213.12 - 217.92000000000002] with potential risks The Proposal seeks
+
+[215.64 - 219.72] to ensure AI systems are safe respect
+
+[217.92 - 221.28] fundamental rights provide legal
+
+[219.72 - 223.68] certainty for investment in Innovation
+
+[221.28 - 226.019] enhance governance and prevent Market
+
+[223.68 - 228.78] fragmentation so it has says nothing
+
+[226.019 - 230.459] about existential risks or prevent AI
+
+[228.78 - 232.56] from killing everyone it's sort of
+
+[230.459 - 233.94] implicit because like if AI kills
+
+[232.56 - 235.98] everyone you can't have investment in
+
+[233.94 - 239.22] Innovation but I would rather see
+
+[235.98 - 240.72] legislation that is explicit it proposes
+
+[239.22 - 242.819] a risk-based approach prohibiting
+
+[240.72 - 245.04] certain harmful AI practices and setting
+
+[242.819 - 246.95899999999997] requirements for high-risk AI systems
+
+[245.04 - 248.22] okay cool we'll see how they Define that
+
+[246.959 - 250.26] later
+
+[248.22 - 251.939] The Proposal also establishes a
+
+[250.26 - 253.62] governance system at member state level
+
+[251.939 - 255.959] and a European artificial intelligence
+
+[253.62 - 257.16] board at Union level Okay cool so this
+
+[255.959 - 260.4] is this is going to be an international
+
+[257.16 - 262.5] regulator great it is consistent with
+
+[260.4 - 264.35999999999996] existing Union legislation and policies
+
+[262.5 - 265.86] including data protection consumer
+
+[264.36 - 268.199] protection non-discrimination and gender
+
+[265.86 - 270.41900000000004] equality so these are all very low level
+
+[268.199 - 272.759] risks none of this is actually talking
+
+[270.419 - 274.25899999999996] like when they say high risk they're
+
+[272.759 - 277.62] probably meaning like the social credit
+
+[274.259 - 279.47900000000004] system uh that is used in China which
+
+[277.62 - 282.12] that is a high risk but it is not the
+
+[279.479 - 283.74] highest risk The Proposal is based on
+
+[282.12 - 285.3] article 114 of the Treaty of the
+
+[283.74 - 289.259] functioning of the European Union Union
+
+[285.3 - 290.759] the tfeu which ensures The Establishment
+
+[289.259 - 293.639] and functioning of the internal Market
+
+[290.759 - 295.8] okay so this is mostly a market-oriented
+
+[293.639 - 297.78000000000003] piece of legislation great so we know
+
+[295.8 - 299.16] that this works so let's go ahead and
+
+[297.78 - 301.19899999999996] save this out I'm going to walk you
+
+[299.16 - 303.78000000000003] through the whole process
+
+[301.199 - 305.34000000000003] um and then I'll yeah so this is this is
+
+[303.78 - 307.02] how this is how we're going to proceed
+
+[305.34 - 308.58] for those of you that are newer to my
+
+[307.02 - 310.74] channel this is actually the original
+
+[308.58 - 311.88] format that I used where I would where I
+
+[310.74 - 314.639] would walk you through the entire
+
+[311.88 - 317.34] process so just watched it on 2X and
+
+[314.639 - 319.32] you'll see the whole process of how I
+
+[317.34 - 324.11999999999995] approach these things so we'll call this
+
+[319.32 - 326.58] system summarize yes dot text
+
+[324.12 - 328.5] and so basically I give it a system a
+
+[326.58 - 331.02] system message with very very clear
+
+[328.5 - 333.18] instructions uh and and what I expect
+
+[331.02 - 334.68] and and what it should expect and then
+
+[333.18 - 338.94] it gives you very clear consistent
+
+[334.68 - 340.16] results so then we come over to
+
+[338.94 - 343.199] um
+
+[340.16 - 347.03900000000004] Step One simplify so this is I'm just re
+
+[343.199 - 348.96000000000004] I'm borrowing code uh which I always do
+
+[347.039 - 350.94] um
+
+[348.96 - 353.34] so we've got this so this is what we're
+
+[350.94 - 355.62] going to use to do that
+
+[353.34 - 357.0] um this is this is this is a KB service
+
+[355.62 - 359.88] that I'm working on so I'll show you
+
+[357.0 - 363.68] that in an upcoming video
+
+[359.88 - 363.68] um but you don't get to see that yet
+
+[364.139 - 367.68] we don't need KB functions so delete
+
+[366.539 - 369.78] that
+
+[367.68 - 371.759] flask routes we're not going to do a
+
+[369.78 - 374.58] flask app so that's also fine actually I
+
+[371.759 - 376.259] guess I just delete most of it okay cool
+
+[374.58 - 377.34] so we get rid of flask because we're not
+
+[376.259 - 379.38] going to do that we're not going to do
+
+[377.34 - 385.28] threading We're Not Gonna we don't need
+
+[379.38 - 385.28] flask or logging or Json or yaml okay
+
+[386.22 - 389.759] clean it up I probably should have done
+
+[388.199 - 392.16] that before I started the video but it's
+
+[389.759 - 393.96000000000004] good to it's good for you to see how
+
+[392.16 - 395.46000000000004] messy my process is
+
+[393.96 - 396.96] um I am the first person to tell you I
+
+[395.46 - 399.539] am not a professional developer I never
+
+[396.96 - 401.69899999999996] was my uh professional background was I
+
+[399.539 - 403.919] was uh in virtualization and automation
+
+[401.699 - 405.36] so I'm an automation engineer which is
+
+[403.919 - 408.479] why I approach things the way that I do
+
+[405.36 - 410.039] which is creating discrete steps
+
+[408.479 - 412.62] um so you notice the FI the title of
+
+[410.039 - 414.59999999999997] this is uh step one simplify
+
+[412.62 - 418.74] um Okay cool so basically what we're
+
+[414.6 - 421.97900000000004] going to do is we're going to ask this
+
+[418.74 - 425.28000000000003] handy dandy uh coding chat bot that I
+
+[421.979 - 428.4] built which you can use this it is
+
+[425.28 - 430.79999999999995] available over
+
+[428.4 - 433.02] here
+
+[430.8 - 437.039] um I had a bunch of people submitting
+
+[433.02 - 439.08] um uh uh pull requests and they kept
+
+[437.039 - 440.34] trying to like change the way that this
+
+[439.08 - 443.639] thing works so I just set it to public
+
+[440.34 - 446.69899999999996] archive so here's the thing is I welcome
+
+[443.639 - 449.40000000000003] pull requests that are like
+
+[446.699 - 451.44] simple fixes or small improvements don't
+
+[449.4 - 453.65999999999997] refactor my code just Fork it right like
+
+[451.44 - 455.28] there's 19 Forks if you want to if you
+
+[453.66 - 456.72] want to fundamentally change how it
+
+[455.28 - 458.46] works fine
+
+[456.72 - 460.08000000000004] um but I got tired of people messing up
+
+[458.46 - 462.0] my code so I just set it to public
+
+[460.08 - 463.139] archive and guess what like people you
+
+[462.0 - 466.46] can still do whatever you want with it
+
+[463.139 - 468.78000000000003] anyways so we're going to use this as a
+
+[466.46 - 472.02] co-pilot tool because I got frustrated
+
+[468.78 - 474.35999999999996] with GitHub because they're co-pilot uh
+
+[472.02 - 476.639] customer service whatever documentation
+
+[474.36 - 479.699] is garbage okay
+
+[476.639 - 483.12] uh let's see I have um here let's just
+
+[479.699 - 483.72] write a function that accepts
+
+[483.12 - 487.8] um
+
+[483.72 - 488.72] a gigantic string and returns
+
+[487.8 - 492.12] um
+
+[488.72 - 493.44000000000005] let's see and let's see splits it by
+
+[492.12 - 495.66] lines
+
+[493.44 - 501.12] and then chunks
+
+[495.66 - 502.97900000000004] um 100 lines uh together and returns uh
+
+[501.12 - 506.52] those chunks
+
+[502.979 - 507.3] as strings so
+
+[506.52 - 509.599] um
+
+[507.3 - 511.86] the final result
+
+[509.599 - 514.26] will be
+
+[511.86 - 515.94] um a list
+
+[514.26 - 520.74] of strings
+
+[515.94 - 522.44] each string represents 100 lines of the
+
+[520.74 - 525.54] original
+
+[522.44 - 528.4200000000001] okay so this is this is my coding
+
+[525.54 - 530.6999999999999] chatbot assistant that um it uses it
+
+[528.42 - 532.38] also uses gpt4
+
+[530.7 - 534.9590000000001] um you I I tried it you can actually
+
+[532.38 - 537.12] switch it to um
+
+[534.959 - 540.1199999999999] oh it's using the old one
+
+[537.12 - 543.3] hold on now I need to update that
+
+[540.12 - 545.7] hold on hold on that's the wrong model
+
+[543.3 - 547.26] coding chatbot assistant see this is
+
+[545.7 - 549.36] what I mean is someone someone updated
+
+[547.26 - 550.98] it oh no my local one uses the right one
+
+[549.36 - 552.72] so someone updated it with the wrong
+
+[550.98 - 554.94] model and made a bunch of other
+
+[552.72 - 558.48] assumptions and I was just like no this
+
+[554.94 - 562.019] is not this is not what I wanted okay
+
+[558.48 - 564.839] so here we go here's the function python
+
+[562.019 - 567.66] chunk strings line lines equals split oh
+
+[564.839 - 569.399] wow I did it in two lines cool
+
+[567.66 - 572.42] um
+
+[569.399 - 576.24] this functions first splits the string
+
+[572.42 - 579.5] into lines using the delimiter then it
+
+[576.24 - 581.339] uses a list
+
+[579.5 - 584.88] comprehension to create chunks of 100
+
+[581.339 - 586.5] lines each the range yep the result is a
+
+[584.88 - 588.54] list of strings cool
+
+[586.5 - 590.88] excellent excellent excellent so I'm
+
+[588.54 - 592.8] going to go ahead and copy this out
+
+[590.88 - 596.519] oh and another good thing is that uh
+
+[592.8 - 599.88] like well yeah you see how it works all
+
+[596.519 - 603.12] right so we'll go ahead and
+
+[599.88 - 604.92] do that so chunk strings so first we
+
+[603.12 - 607.5] want to just um
+
+[604.92 - 609.959] act equals
+
+[607.5 - 612.06] open file and I've got it named as
+
+[609.959 - 614.899] act.txt
+
+[612.06 - 614.899] just right here
+
+[614.94 - 620.7] um yep
+
+[616.2 - 623.279] oh and also this uh excuse me this this
+
+[620.7 - 624.839] uses a scratch Pad so what I can do is I
+
+[623.279 - 628.32] can actually populate the code that I'm
+
+[624.839 - 629.8800000000001] working on uh
+
+[628.32 - 631.98] over here
+
+[629.88 - 634.62] so now it's aware of what I'm working on
+
+[631.98 - 636.3000000000001] so this scratch Pad is a holdout so
+
+[634.62 - 639.3] rather than giving it the code in
+
+[636.3 - 640.74] sequence the the coding chat bot
+
+[639.3 - 643.9799999999999] actually has
+
+[640.74 - 645.6] a uh it has here let me show you the
+
+[643.98 - 646.9200000000001] system message so here's the
+
+[645.6 - 649.44] instructions your python coding
+
+[646.92 - 651.7199999999999] assistant let me turn on word wrap your
+
+[649.44 - 653.7] python coding assistant etc etc scratch
+
+[651.72 - 656.279] Pad so basically tells you the scratch
+
+[653.7 - 657.9590000000001] Pad is usable you know so that you know
+
+[656.279 - 659.3389999999999] what the user is working on
+
+[657.959 - 661.7399999999999] um so that you can talk about this and
+
+[659.339 - 664.44] this is passed to the chat bot every
+
+[661.74 - 667.6800000000001] time so whatever the conversation is
+
+[664.44 - 668.8800000000001] like that that is in the past
+
+[667.68 - 671.2199999999999] um I don't know if I'm explaining that
+
+[668.88 - 672.8389999999999] well anyways point being is that it see
+
+[671.22 - 676.5790000000001] it can see the code that you're working
+
+[672.839 - 676.5790000000001] on as long as you keep this updated
+
+[677.1 - 681.0600000000001] um okay
+
+[678.0 - 683.22] so that's the first hundred lines
+
+[681.06 - 686.16] um let's go ahead and
+
+[683.22 - 688.8000000000001] see where did it go step one simplify
+
+[686.16 - 692.399] um cool so act equals that and then
+
+[688.8 - 693.959] we'll say chunks equals uh let's see
+
+[692.399 - 697.56] chunk string
+
+[693.959 - 699.66] chunk string act all right so this this
+
+[697.56 - 701.76] basically creates the chunks that we're
+
+[699.66 - 702.42] going to be working on
+
+[701.76 - 705.24] um
+
+[702.42 - 707.64] and that is that
+
+[705.24 - 709.5] let's see I'm gonna need to watch this
+
+[707.64 - 710.88] because
+
+[709.5 - 712.38] um well here let me just show you
+
+[710.88 - 714.36] something real quick so the first
+
+[712.38 - 717.959] hundred lines
+
+[714.36 - 720.12] if we take that over to
+
+[717.959 - 722.64] playground and
+
+[720.12 - 725.94] paste it in here you see that 100 lines
+
+[722.64 - 727.62] is about four thousand tokens so that
+
+[725.94 - 732.48] would obviously be too big for text
+
+[727.62 - 735.54] davinci03 but with with gpt4 we have 8
+
+[732.48 - 737.7] 000 tokens and then with 3.5 16k we have
+
+[735.54 - 740.519] 16 000 tokens so we could actually
+
+[737.7 - 744.24] probably do more but the thing is is
+
+[740.519 - 746.16] that again 3.5 turbo is actually you
+
+[744.24 - 749.1] know what let's try it real quick heck
+
+[746.16 - 751.8] with it heck with it while we're here
+
+[749.1 - 753.899] let's go back over to chat
+
+[751.8 - 755.459] let's give it
+
+[753.899 - 757.38] this chunk
+
+[755.459 - 760.92] because if it can if I can do it faster
+
+[757.38 - 762.779] and cheaper why not why not
+
+[760.92 - 765.0] um and then we need this is our system
+
+[762.779 - 769.92] message we need to make sure that we're
+
+[765.0 - 771.3] going to use 3.5 turbo 16k so that it's
+
+[769.92 - 773.639] got enough space
+
+[771.3 - 775.4399999999999] okay turn the temperature down we do not
+
+[773.639 - 776.88] want you to be creative thank you very
+
+[775.44 - 778.9200000000001] much
+
+[776.88 - 781.88] um all right and then let's see how well
+
+[778.92 - 781.88] it summarizes it
+
+[782.1 - 789.5] um yeah so it's not this summarization
+
+[784.8 - 789.5] is not nearly as elegant or as concise
+
+[789.839 - 796.0790000000001] um but just glancing at it it's okay
+
+[794.579 - 798.66] I think I'm gonna stick with with four
+
+[796.079 - 801.3599999999999] but I'm glad I did this side by side so
+
+[798.66 - 804.36] the the the gpt4 it's a much more
+
+[801.36 - 806.22] elegant summary and it's also less wordy
+
+[804.36 - 808.98] even though so it's not quite as fast
+
+[806.22 - 810.36] and it's not quite as cheap because we
+
+[808.98 - 812.279] need to capture the essence of something
+
+[810.36 - 813.66] that's really important let's use the
+
+[812.279 - 816.6] smarter model
+
+[813.66 - 820.8] uh now that being said again 3.5 turbo
+
+[816.6 - 823.0790000000001] uh the the June 13th one plenty plenty
+
+[820.8 - 825.66] good for a lot of things
+
+[823.079 - 827.9399999999999] Okay cool so I'm glad I ran that test
+
+[825.66 - 829.86] where are we what am I doing
+
+[827.94 - 831.72] I don't know I'm lost
+
+[829.86 - 834.42] I'm always lost
+
+[831.72 - 837.4200000000001] there's this meme it's like a pug in a
+
+[834.42 - 839.579] field with a wizard hat and it says the
+
+[837.42 - 843.4799999999999] the the meme is like not all who wander
+
+[839.579 - 845.519] are lost except Dave is lost as and
+
+[843.48 - 847.74] that's me I am the pug with a wizard hat
+
+[845.519 - 849.48] does that make any sense I need more
+
+[847.74 - 851.639] coffee
+
+[849.48 - 853.26] oh
+
+[851.639 - 854.76] okay all right I hope you find this
+
+[853.26 - 856.2] entertaining because I just woke up and
+
+[854.76 - 858.12] I was like my brain's like hey we should
+
+[856.2 - 860.22] work on this
+
+[858.12 - 862.26] all right now we're back here all right
+
+[860.22 - 864.12] we've got our chunks so now what we need
+
+[862.26 - 866.76] to do so this is this is where it gets
+
+[864.12 - 870.18] fun so uh
+
+[866.76 - 872.7] four Chunk in chunks this is super
+
+[870.18 - 874.68] straightforward uh let's see
+
+[872.7 - 879.12] um messages
+
+[874.68 - 880.92] equals uh this is going to be a list and
+
+[879.12 - 884.76] then the
+
+[880.92 - 886.26] um roll will be whoops
+
+[884.76 - 889.639] user
+
+[886.26 - 889.639] and the content
+
+[890.399 - 895.92] wow I know how to type I promise it's
+
+[893.459 - 897.54] just getting it from my head to the to
+
+[895.92 - 900.36] the hands on the keyboard to the screen
+
+[897.54 - 903.7199999999999] that's too many steps right now
+
+[900.36 - 905.639] content equals chunk okay cool
+
+[903.72 - 908.0400000000001] so basically what we're doing right here
+
+[905.639 - 910.98] is we're setting it up to look exactly
+
+[908.04 - 912.779] like this so I'm I'm putting the Chunk
+
+[910.98 - 914.639] in here and then we also need to load
+
+[912.779 - 916.079] the system message so what we're going
+
+[914.639 - 920.16] to do is we're going to do
+
+[916.079 - 922.9799999999999] um system equals open file uh system
+
+[920.16 - 924.779] underscore summarize so this is this is
+
+[922.98 - 926.279] the instructions
+
+[924.779 - 928.139] um dot text
+
+[926.279 - 929.459] so system message is the new prompt
+
+[928.139 - 932.399] engineering
+
+[929.459 - 934.76] um all right cool so then we'll do uh
+
+[932.399 - 934.76] roll
+
+[935.16 - 940.279] system
+
+[938.04 - 943.079] and content
+
+[940.279 - 944.76] is system
+
+[943.079 - 947.6389999999999] all right so now we're ready to pass it
+
+[944.76 - 951.54] up to our model right here so then we'll
+
+[947.639 - 952.86] just do response equals chat bot
+
+[951.54 - 955.4399999999999] messages
+
+[952.86 - 957.6] ta-da as that simple
+
+[955.44 - 959.82] um so it's ready and so this response is
+
+[957.6 - 961.8000000000001] going to be the summary
+
+[959.82 - 963.9590000000001] and so now I need to figure out how I
+
+[961.8 - 966.899] want to save this save these summaries
+
+[963.959 - 968.399] out in a way that makes sense
+
+[966.899 - 971.3] um
+
+[968.399 - 971.3] let's see
+
+[973.079 - 977.0999999999999] let me ask my chatbot assistant okay
+
+[975.24 - 981.1800000000001] cool
+
+[977.1 - 985.1990000000001] great uh now I want to pass a list of
+
+[981.18 - 991.019] strings to a function and have that
+
+[985.199 - 992.779] function save them to a specified folder
+
+[991.019 - 999.5600000000001] as a parameter
+
+[992.779 - 1002.8389999999999] and I want it to serialize those files
+
+[999.56 - 1004.779] like so
+
+[1002.839 - 1009.74] um so it'll be like
+
+[1004.779 - 1012.68] file001 dot text file zero zero zero two
+
+[1009.74 - 1013.4590000000001] dot text and so on
+
+[1012.68 - 1018.1389999999999] um
+
+[1013.459 - 1021.9399999999999] let's see you should see the script I'm
+
+[1018.139 - 1021.94] working on all right cool
+
+[1022.339 - 1029.179] so then we're gonna we're gonna have um
+
+[1025.339 - 1031.48] summaries equals list and then summaries
+
+[1029.179 - 1034.16] dot append
+
+[1031.48 - 1036.74] response so now basically we're gonna
+
+[1034.16 - 1037.88] have the summaries all in order and what
+
+[1036.74 - 1040.339] I'm going to do is I'm going to copy and
+
+[1037.88 - 1041.8390000000002] paste this into my scratch Pad so that
+
+[1040.339 - 1044.12] the chat bot knows what I'm working on
+
+[1041.839 - 1047.4189999999999] and I'll show you how that it says oh
+
+[1044.12 - 1048.62] okay cool I probably should have told it
+
+[1047.419 - 1050.179] that I'm going to do that with the
+
+[1048.62 - 1052.82] summaries it's usually pretty good at
+
+[1050.179 - 1057.38] making the inference okay cool
+
+[1052.82 - 1059.4189999999999] um let's see def save strings if OS path
+
+[1057.38 - 1061.3400000000001] exists or if it doesn't exist make it
+
+[1059.419 - 1063.44] otherwise enumerate strings
+
+[1061.34 - 1065.84] so as long as I've been using python I'm
+
+[1063.44 - 1068.6200000000001] not entirely sure how enumerate Works
+
+[1065.84 - 1068.62] maybe I should ask
+
+[1068.72 - 1075.58] all right but let's go over here
+
+[1072.14 - 1075.5800000000002] let's go back to my script
+
+[1077.66 - 1081.74] save strings cool
+
+[1080.6 - 1086.6599999999999] um
+
+[1081.74 - 1088.039] file I 05 interesting
+
+[1086.66 - 1089.419] yeah see I'm not even sure how that
+
+[1088.039 - 1091.1] works
+
+[1089.419 - 1093.14] fantastic let's see if it let's see if
+
+[1091.1 - 1095.299] it works though
+
+[1093.14 - 1097.76] um the function first checks that the
+
+[1095.299 - 1100.82] specified folder exists excellent then
+
+[1097.76 - 1102.3799999999999] it uses it to make it then then iterates
+
+[1100.82 - 1104.4189999999999] over the list of strings using enumerate
+
+[1102.38 - 1106.0390000000002] which provides both the index and the
+
+[1104.419 - 1108.2] value oh okay so that's what enumerate
+
+[1106.039 - 1112.22] does the index is used to generate the
+
+[1108.2 - 1114.26] file name with I colon 05 in the F
+
+[1112.22 - 1118.22] string ensuring that the index is zero
+
+[1114.26 - 1119.78] padded to five digits well that was easy
+
+[1118.22 - 1121.52] cool
+
+[1119.78 - 1122.5] um right and then it uses the right
+
+[1121.52 - 1127.52] method
+
+[1122.5 - 1129.32] uh yeah so instead
+
+[1127.52 - 1132.3799999999999] um I want I was hoping it would use my
+
+[1129.32 - 1136.039] save file but that's fine
+
+[1132.38 - 1139.22] um so let's go to here and we're gonna
+
+[1136.039 - 1141.2] do summaries
+
+[1139.22 - 1143.72] and so instead
+
+[1141.2 - 1145.7] we're going to assume that that is
+
+[1143.72 - 1149.679] already there
+
+[1145.7 - 1154.299] and then we are going to do
+
+[1149.679 - 1154.299] file path equals
+
+[1156.08 - 1158.1999999999998] um
+
+[1158.24 - 1164.919] OS path join folder
+
+[1161.66 - 1164.919] yeah that works
+
+[1173.12 - 1177.86] and then
+
+[1175.88 - 1180.3200000000002] we are going to do
+
+[1177.86 - 1181.58] save file because this so my save file
+
+[1180.32 - 1185.0] function
+
+[1181.58 - 1186.799] um encodes it in utf-8 so just reuse
+
+[1185.0 - 1189.32] something rather than do it here because
+
+[1186.799 - 1190.34] you see this doesn't do it in utf-8 you
+
+[1189.32 - 1191.539] want to make sure that you have a nice
+
+[1190.34 - 1192.86] standardized thing that's what I'm doing
+
+[1191.539 - 1197.12] here
+
+[1192.86 - 1200.7199999999998] file path and S so that should be good
+
+[1197.12 - 1204.799] fine all right so save strings
+
+[1200.72 - 1205.82] um so then we do save strings uh we'll
+
+[1204.799 - 1207.559] do
+
+[1205.82 - 1210.86] summaries
+
+[1207.559 - 1213.44] no I need to do yes summaries
+
+[1210.86 - 1215.9599999999998] and then summaries
+
+[1213.44 - 1218.3600000000001] and that should work uh now that being
+
+[1215.96 - 1220.72] said I want to print the response as I
+
+[1218.36 - 1220.7199999999998] get them
+
+[1222.74 - 1226.0] um there we go and then
+
+[1226.22 - 1230.84] response
+
+[1228.2 - 1233.78] all right let's give this a whirl and
+
+[1230.84 - 1237.74] see if it works
+
+[1233.78 - 1240.32] CD what is this EU AI Act
+
+[1237.74 - 1244.0] let's zoom in a little bit
+
+[1240.32 - 1244.0] python stepo one
+
+[1245.72 - 1250.58] so this will probably take a while
+
+[1247.1 - 1254.1399999999999] because we've got three thousand line 3
+
+[1250.58 - 1254.1399999999999] 300 lines there we go cool
+
+[1254.36 - 1259.2199999999998] hmm
+
+[1255.679 - 1261.6200000000001] hold on oh right right right
+
+[1259.22 - 1262.94] forgot about this okay so this is an
+
+[1261.62 - 1264.7399999999998] important thing
+
+[1262.94 - 1266.8400000000001] um what I started doing and I forgot to
+
+[1264.74 - 1269.66] integrate this so what I started doing
+
+[1266.84 - 1272.6] is I when I whenever I called a chat bot
+
+[1269.66 - 1273.74] I return the text and the token use
+
+[1272.6 - 1275.299] um so because this is actually really
+
+[1273.74 - 1277.88] helpful if you just go ahead and return
+
+[1275.299 - 1280.7] the tokens so that you know when to
+
+[1277.88 - 1283.5200000000002] summarize it so instead what I need to
+
+[1280.7 - 1284.78] do is response tokens
+
+[1283.52 - 1287.78] um because I don't need to save I don't
+
+[1284.78 - 1290.4189999999999] need to save a tuple out here
+
+[1287.78 - 1293.48] but this otherwise looks good
+
+[1290.419 - 1295.72] and then what I'm going to do is I'm
+
+[1293.48 - 1298.34] going to go grab
+
+[1295.72 - 1300.919] uh something to make the the printout
+
+[1298.34 - 1302.98] look a little bit better
+
+[1300.919 - 1302.98] um
+
+[1303.5 - 1309.38] reflective journaling tool this one has
+
+[1306.02 - 1313.6] this one has good pretty output
+
+[1309.38 - 1313.6000000000001] so we're going to do formatted lines
+
+[1316.64 - 1322.96] yep
+
+[1318.86 - 1322.9599999999998] so take the formatted lines here
+
+[1328.58 - 1333.9189999999999] and then we'll do
+
+[1330.32 - 1338.1399999999999] rent do I knew my new line
+
+[1333.919 - 1338.14] and formatted lines
+
+[1339.44 - 1343.46] all right so that will that'll make it
+
+[1341.299 - 1345.26] that'll make it prettier and then we'll
+
+[1343.46 - 1346.76] also use
+
+[1345.26 - 1348.62] um so this this is this is why I
+
+[1346.76 - 1352.1589999999999] appreciate when people
+
+[1348.62 - 1354.6789999999999] um uh add feedback is we added uh
+
+[1352.159 - 1357.3200000000002] someone added the Halo which is a little
+
+[1354.679 - 1358.88] like thing that shows that it's thinking
+
+[1357.32 - 1361.059] so I'm going to add that real quick as
+
+[1358.88 - 1361.0590000000002] well
+
+[1362.96 - 1368.08] and the way that you use that is down
+
+[1365.659 - 1368.0800000000002] here
+
+[1374.72 - 1377.6000000000001] and so once once this is running I'll
+
+[1376.52 - 1378.679] pause the video so you don't have to
+
+[1377.6 - 1381.1399999999999] watch the whole thing so you're actually
+
+[1378.679 - 1383.26] probably closer to the end if I had to
+
+[1381.14 - 1383.26] guess
+
+[1386.12 - 1389.4399999999998] oops spinner start
+
+[1391.4 - 1396.3400000000001] so we'll say summarizing next chunk
+
+[1398.36 - 1401.3799999999999] and then spinner stop
+
+[1405.14 - 1409.48] okay so let's try this make sure it
+
+[1407.12 - 1409.4799999999998] works
+
+[1412.46 - 1416.9] summarizing next chunk hey look now it
+
+[1414.74 - 1419.48] gives us some output better user
+
+[1416.9 - 1423.22] experience it tells me what it's doing
+
+[1419.48 - 1425.059] uh text wrap is not defined whoops
+
+[1423.22 - 1428.96] what do you mean I need to import
+
+[1425.059 - 1430.8799999999999] everything that you use import text wrap
+
+[1428.96 - 1432.919] let's try that again
+
+[1430.88 - 1434.3600000000001] third time's a charm all right and if
+
+[1432.919 - 1435.7990000000002] this works then I'll go ahead and pause
+
+[1434.36 - 1437.78] it and then we'll come back once the
+
+[1435.799 - 1438.86] whole video is or once the whole thing
+
+[1437.78 - 1440.559] is done
+
+[1438.86 - 1444.86] uh why is it
+
+[1440.559 - 1447.62] in hold on hold on that's not right
+
+[1444.86 - 1450.8799999999999] why are you giving me this garbage
+
+[1447.62 - 1450.8799999999999] that's not correct
+
+[1452.6 - 1458.5] oh right I need to print out formatted
+
+[1455.059 - 1458.5] text my bad
+
+[1461.179 - 1464.679] don't give me this nonsense
+
+[1464.96 - 1468.559] because basically what you want to do is
+
+[1466.88 - 1470.3600000000001] you want to have it formatted in such a
+
+[1468.559 - 1472.8799999999999] way there we go see so now we have this
+
+[1470.36 - 1474.08] nice little Block it's easier to read
+
+[1472.88 - 1475.5800000000002] um all right cool so this is working
+
+[1474.08 - 1478.52] we'll watch it just a couple times you
+
+[1475.58 - 1481.82] see how fast it is uh the the June 13th
+
+[1478.52 - 1483.799] update is much much faster
+
+[1481.82 - 1487.039] um let's see
+
+[1483.799 - 1488.78] excellent excellent excellent so we will
+
+[1487.039 - 1491.96] I'm gonna pause the video and we'll come
+
+[1488.78 - 1494.74] back and uh and take a look at the final
+
+[1491.96 - 1494.74] result cheers
+
+[1495.32 - 1500.72] okay and we're back
+
+[1497.6 - 1501.6789999999999] so after uh running it all here let me
+
+[1500.72 - 1503.659] just show you what the results were
+
+[1501.679 - 1506.419] we've got
+
+[1503.659 - 1509.2990000000002] 37 files
+
+[1506.419 - 1510.679] um each with a summary and I wrote a
+
+[1509.299 - 1513.62] really quick I hacked together a really
+
+[1510.679 - 1515.8400000000001] quick script that uh merged them all and
+
+[1513.62 - 1518.1789999999999] so the merged result is thirty four
+
+[1515.84 - 1521.36] thousand uh characters long so we
+
+[1518.179 - 1523.7] reduced it by a factor of ten to one uh
+
+[1521.36 - 1526.039] just just shy of ten to one which when
+
+[1523.7 - 1528.98] you plug that in over here that's six
+
+[1526.039 - 1530.6] thousand tokens so we went from from
+
+[1528.98 - 1532.22] sixty thousand or seventy thousand
+
+[1530.6 - 1534.26] tokens I don't remember exactly to six
+
+[1532.22 - 1536.96] thousand tokens one of the reasons that
+
+[1534.26 - 1539.419] we had a more drastic reduction of token
+
+[1536.96 - 1541.279] count is because we removed all the
+
+[1539.419 - 1543.8600000000001] serial numbers and stuff because that's
+
+[1541.279 - 1545.84] kind of Superfluous if you if you remove
+
+[1543.86 - 1548.4799999999998] symbols and stuff like this these are
+
+[1545.84 - 1551.48] high token uh things if it's ordinary
+
+[1548.48 - 1554.6] words like Ai and each system these are
+
+[1551.48 - 1556.94] easy for the model to tokenize so that
+
+[1554.6 - 1558.559] means what we can do now is we can just
+
+[1556.94 - 1562.76] take this whole thing
+
+[1558.559 - 1563.779] and come over to chat and say um let's
+
+[1562.76 - 1569.48] see
+
+[1563.779 - 1573.2] uh uh main purpose uh here darn it
+
+[1569.48 - 1576.7] believe that you are a uh chat bot
+
+[1573.2 - 1581.659] tasked with uh discussing
+
+[1576.7 - 1583.94] uh the following uh legislation with the
+
+[1581.659 - 1587.24] user uh
+
+[1583.94 - 1589.779] make sure to well hell that I mean
+
+[1587.24 - 1593.08] that's all it is uh
+
+[1589.779 - 1596.84] use the legislation
+
+[1593.08 - 1597.9189999999999] summary below to conduct the
+
+[1596.84 - 1601.059] conversation
+
+[1597.919 - 1603.919] and that's it and so then we say uh
+
+[1601.059 - 1606.32] legislation summary
+
+[1603.919 - 1609.14] and we'll copy paste it here
+
+[1606.32 - 1612.02] and so then we move over to we could do
+
+[1609.14 - 1613.22] 16k because that'll be that'll be faster
+
+[1612.02 - 1615.2] um actually here let's try that real
+
+[1613.22 - 1617.779] quick let's try that temperature there
+
+[1615.2 - 1621.679] okay
+
+[1617.779 - 1625.36] um give me a high level overview of this
+
+[1621.679 - 1625.3600000000001] uh legislation
+
+[1628.9 - 1634.8200000000002] after five years
+
+[1631.4 - 1635.919] um how is it funded
+
+[1634.82 - 1637.82] foreign
+
+[1635.919 - 1639.5] let's see the funding and the
+
+[1637.82 - 1640.52] implementation of this legislation comes
+
+[1639.5 - 1642.98] from the multi-annual financial
+
+[1640.52 - 1644.539] framework uh blah blah blah blah the
+
+[1642.98 - 1646.4] financial impact includes allocation of
+
+[1644.539 - 1649.1] resources
+
+[1646.4 - 1649.88] um and having watch that go through how
+
+[1649.1 - 1650.74] many
+
+[1649.88 - 1652.46] um
+
+[1650.74 - 1655.48] employees
+
+[1652.46 - 1655.48] will it cost
+
+[1656.299 - 1660.08] there we go 10 full-time equivalent
+
+[1658.22 - 1664.159] employees
+
+[1660.08 - 1666.26] all right so we can clear that out
+
+[1664.159 - 1669.0200000000002] uh just because it ultimately is
+
+[1666.26 - 1672.1589999999999] Superfluous so some of the questions
+
+[1669.02 - 1677.559] um uh let's see will this legislation
+
+[1672.159 - 1677.5590000000002] hamper research and innovation
+
+[1678.44 - 1682.22] let's see the legislation aims to
+
+[1680.659 - 1683.5390000000002] balance the benefits of AI research and
+
+[1682.22 - 1685.159] Innovation with the need for safety and
+
+[1683.539 - 1686.6589999999999] respect for fundamental rights it
+
+[1685.159 - 1689.2990000000002] includes measures to support Innovation
+
+[1686.659 - 1691.4] such as AI regulatory sandboxes and
+
+[1689.299 - 1693.799] reducing the regulatory burden on smes
+
+[1691.4 - 1695.48] and startups so that smes are going to
+
+[1693.799 - 1697.34] be subject matter experts like you and I
+
+[1695.48 - 1699.26] as well as startups
+
+[1697.34 - 1701.299] the goal is to provide legal certainty
+
+[1699.26 - 1703.52] and prevent Market fragmentation which
+
+[1701.299 - 1705.02] can actually Foster Innovation by
+
+[1703.52 - 1706.52] creating a Level Playing Field for AI
+
+[1705.02 - 1708.5] developers however it imposes certain
+
+[1706.52 - 1710.24] requirements and obligations on
+
+[1708.5 - 1714.159] high-risk AI
+
+[1710.24 - 1718.1200000000001] um how does this legislation Define
+
+[1714.159 - 1718.1200000000001] higher risk AI
+
+[1719.62 - 1725.0] uh let's see the this legislation
+
+[1722.179 - 1726.919] categorizes AI systems into three risk
+
+[1725.0 - 1729.559] levels unacceptable high and low or
+
+[1726.919 - 1731.72] minimal high risk AI is based on their
+
+[1729.559 - 1733.7] intended purpose and usage while the
+
+[1731.72 - 1735.799] specific criteria may vary high risk AI
+
+[1733.7 - 1737.299] generally include those use the safety
+
+[1735.799 - 1740.179] components of products covered by Union
+
+[1737.299 - 1741.44] harmonization legislation as well as AI
+
+[1740.179 - 1743.179] used in critical infrastructure
+
+[1741.44 - 1745.8200000000002] management education vocational training
+
+[1743.179 - 1747.38] employment and workers management these
+
+[1745.82 - 1748.82] high-risk AI systems are subject to
+
+[1747.38 - 1749.72] requirements
+
+[1748.82 - 1751.7] um
+
+[1749.72 - 1754.7] what are unacceptable
+
+[1751.7 - 1754.7] types
+
+[1755.12 - 1758.4189999999999] the legislation prohibits certain AI
+
+[1757.34 - 1760.399] practices that are considered
+
+[1758.419 - 1762.8600000000001] unacceptable due to their potential to
+
+[1760.399 - 1764.559] violate fundamental rights while the
+
+[1762.86 - 1767.299] specific types may vary some examples
+
+[1764.559 - 1769.1589999999999] include manipulate human behavior
+
+[1767.299 - 1771.32] exploit vulnerabilities or enable social
+
+[1769.159 - 1773.659] scoring by public authorities right so
+
+[1771.32 - 1776.26] as I mentioned uh social credit system
+
+[1773.659 - 1779.2990000000002] these practices are deemed harmful
+
+[1776.26 - 1781.179] Freedom dignity democracy quality and
+
+[1779.299 - 1785.2] fundamental rights okay cool
+
+[1781.179 - 1789.14] does this legislation address
+
+[1785.2 - 1794.74] existential risk at all
+
+[1789.14 - 1794.74] um does it address autonomous AI
+
+[1795.02 - 1799.34] the legislation does not explicitly
+
+[1797.299 - 1804.08] address existential risk or autonomous
+
+[1799.34 - 1805.76] AI systems wow okay now one thing that I
+
+[1804.08 - 1808.0] will say is that if you look at the
+
+[1805.76 - 1811.22] legislation it does talk about like
+
+[1808.0 - 1814.94] basically human supervision
+
+[1811.22 - 1819.14] um yeah so like AI regulatory sandbox by
+
+[1814.94 - 1821.779] one or more member stages no like here
+
+[1819.14 - 1824.24] um it where was it it talked about not
+
+[1821.779 - 1826.159] supervision of the sandboxes but like AI
+
+[1824.24 - 1828.14] systems basically need to be steerable
+
+[1826.159 - 1832.0390000000002] it's in there somewhere
+
+[1828.14 - 1833.48] um okay but let's see it does not
+
+[1832.039 - 1834.919] specifically address a potential risk
+
+[1833.48 - 1836.72] associated with highly autonomous or
+
+[1834.919 - 1838.279] super intelligent AI systems that could
+
+[1836.72 - 1839.779] pose existential threats however the
+
+[1838.279 - 1841.58] legislation's emphasis on risk
+
+[1839.779 - 1842.96] management human oversight oh that's
+
+[1841.58 - 1844.58] what it was oversight not supervision
+
+[1842.96 - 1846.46] and robustness requirements for
+
+[1844.58 - 1848.4189999999999] high-risk AI systems indirectly
+
+[1846.46 - 1850.3400000000001] contributes to addressing the safety
+
+[1848.419 - 1852.5590000000002] concerns associated with AI Technologies
+
+[1850.34 - 1854.299] it is important to note that addressing
+
+[1852.559 - 1856.1589999999999] existential risks related to AI may
+
+[1854.299 - 1857.899] require further research discussions on
+
+[1856.159 - 1861.0800000000002] potentially additional regular
+
+[1857.899 - 1864.4399999999998] regulations in the future okay cool
+
+[1861.08 - 1867.32] so there you have it this file is saved
+
+[1864.44 - 1869.3200000000002] as merged.txt
+
+[1867.32 - 1869.32] um
+
+[1869.96 - 1875.3600000000001] let me go ahead and send that up to git
+
+[1872.6 - 1880.6589999999999] so you can all use it uh let's see get
+
+[1875.36 - 1883.6399999999999] status get add get commit am all done
+
+[1880.659 - 1887.5390000000002] get push all right so there you have it
+
+[1883.64 - 1891.0200000000002] you have a uh a much much condensed
+
+[1887.539 - 1893.84] version of of the EU act here and merged
+
+[1891.02 - 1896.539] you can plug it into the playground and
+
+[1893.84 - 1898.34] ask questions to your heart's content if
+
+[1896.539 - 1900.559] you have access to it but otherwise you
+
+[1898.34 - 1901.76] can at least just read it here
+
+[1900.559 - 1904.24] um yeah I think we're all done thanks
+
+[1901.76 - 1904.24] for watching

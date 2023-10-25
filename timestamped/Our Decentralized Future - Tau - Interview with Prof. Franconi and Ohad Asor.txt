@@ -1,0 +1,4871 @@
+[1.02 - 8.46] hey everybody David Shapiro here we have
+
+[4.259 - 11.34] a very very special podcast today for
+
+[8.46 - 13.920000000000002] our decentralized future in this podcast
+
+[11.34 - 19.92] episode I interview professor franconi
+
+[13.92 - 22.259999999999998] and Ohad asor uh from Tao now tau is a
+
+[19.92 - 25.019000000000002] company it is a startup well it's been
+
+[22.26 - 27.3] around since 2015 and they are working
+
+[25.019 - 29.22] on decentralized artificial intelligence
+
+[27.3 - 30.66] but it's a kind of artificial
+
+[29.22 - 33.3] intelligence that you might not be
+
+[30.66 - 37.26] familiar with it is incredibly
+
+[33.3 - 39.12] disruptive and uh it's pretty it's
+
+[37.26 - 41.879] pretty complex and that's why this
+
+[39.12 - 44.28] episode is so long but just to give you
+
+[41.879 - 47.82] kind of a preview as to what this
+
+[44.28 - 51.6] technology does is that it decentralizes
+
+[47.82 - 54.6] the development of software now that
+
+[51.6 - 56.34] might sound very simple and conceptually
+
+[54.6 - 58.379000000000005] it is simple there's a lot of problems
+
+[56.34 - 61.86] that go into that but the other thing
+
+[58.379 - 64.32] that it does is it creates a store for
+
+[61.86 - 67.439] all human knowledge as it develops
+
+[64.32 - 69.53999999999999] software and solves problems and so
+
+[67.439 - 71.46] because of that the network gets more
+
+[69.54 - 73.68] intelligent over time and gains new
+
+[71.46 - 75.29899999999999] capabilities over time
+
+[73.68 - 78.659] and that
+
+[75.299 - 80.759] has a just absolutely profound
+
+[78.659 - 82.68] astounding implications which we get to
+
+[80.759 - 84.72] by the end of the episode so I just
+
+[82.68 - 87.06] wanted to give a brief introduction and
+
+[84.72 - 89.46] then and then we can go ahead and dive
+
+[87.06 - 91.5] into the episode so I hope you enjoy
+
+[89.46 - 94.759] this interview with professor franconi
+
+[91.5 - 94.759] and Ohad of Tau
+
+[95.7 - 101.759] thanks everyone for joining this episode
+
+[98.759 - 104.22] of our decentralized future uh today's
+
+[101.759 - 106.619] episode is really exciting we've been
+
+[104.22 - 108.6] looking forward to it for quite a while
+
+[106.619 - 111.78] um I've got with me Professor Enrico
+
+[108.6 - 114.53999999999999] franconi and Ohad osor
+
+[111.78 - 117.42] um from Tau now these folks have been
+
+[114.54 - 119.28] working on the Tau Network for since uh
+
+[117.42 - 122.399] 2015 I believe
+
+[119.28 - 125.04] and uh this is an incredible technology
+
+[122.399 - 128.459] it took me a little while to understand
+
+[125.04 - 130.56] it and once I did I realized this is the
+
+[128.459 - 132.66] way of the future and so when they
+
+[130.56 - 134.28] reached out to me and asked me to uh to
+
+[132.66 - 135.959] host this episode I said yes absolutely
+
+[134.28 - 138.18] let's do it
+
+[135.959 - 139.98] um so without further Ado I'd like to
+
+[138.18 - 142.34] introduce my guest today so first we
+
+[139.98 - 145.61999999999998] have um Professor Enrico francone
+
+[142.34 - 147.06] who is uh
+
+[145.62 - 150.92000000000002] welcome
+
+[147.06 - 153.3] um who has been uh like myself a uh
+
+[150.92 - 154.98] lifelong Problem Solver
+
+[153.3 - 156.78] um and our in our introductory
+
+[154.98 - 159.48] discussion he told me all about how he
+
+[156.78 - 161.76] just loves solving tough problems and
+
+[159.48 - 163.56] here we are working on very difficult
+
+[161.76 - 165.89999999999998] ones so uh Professor would you like to
+
+[163.56 - 168.72] give us a couple words about yourself to
+
+[165.9 - 171.59900000000002] introduce yourself okay thank you
+
+[168.72 - 173.519] um well I am a professor in computer
+
+[171.599 - 175.79999999999998] science in general but most specifically
+
+[173.519 - 178.28] in Ai and another representation since
+
+[175.8 - 181.92000000000002] more than 30 years now
+
+[178.28 - 184.44] and what I like to do and what I believe
+
+[181.92 - 189.72] is the right thing to do in in the field
+
+[184.44 - 192.3] of AI is to provide technologies that
+
+[189.72 - 195.239] um make sure that whatever system you
+
+[192.3 - 199.20000000000002] build based on AI can be trusted
+
+[195.239 - 202.20000000000002] so and we know that the the science of
+
+[199.2 - 206.33999999999997] trust since 2000 years is logic
+
+[202.2 - 208.5] and so basically this is leading to a
+
+[206.34 - 211.14000000000001] scientific field research field which is
+
+[208.5 - 212.819] called computational logic and the
+
+[211.14 - 215.33999999999997] computational logic applied it to AI
+
+[212.819 - 218.04] brings to what is called now logical AI
+
+[215.34 - 221.4] which is what I'm doing and and I found
+
+[218.04 - 223.739] in Tau a group of people there is a
+
+[221.4 - 226.26000000000002] smart group of people that have the same
+
+[223.739 - 229.20000000000002] ideas made the same goals as my research
+
+[226.26 - 231.84] goals they of course want to make a real
+
+[229.2 - 233.159] world system and while I'm just a
+
+[231.84 - 235.14000000000001] professor from the University doing
+
+[233.159 - 238.739] research so I think that joining these
+
+[235.14 - 241.01899999999998] efforts is something very interesting
+
+[238.739 - 244.58] excellent thank you so much for the
+
+[241.019 - 244.58] introduction and for being here today
+
+[253.939 - 262.62] in early 2015 after someone from from
+
+[259.26 - 266.12] the internet and they told me someone
+
+[262.62 - 269.1] Anonymous told me about an idea and how
+
+[266.12 - 271.5] about the necessity and the idea for a
+
+[269.1 - 273.72] blockchain to be controlled by its users
+
+[271.5 - 276.72] and he came up with some initial design
+
+[273.72 - 279.96000000000004] but it changed a lot since then
+
+[276.72 - 283.74] and that's how it all started
+
+[279.96 - 285.29999999999995] excellent yeah so speaking of blockchain
+
+[283.74 - 287.699] um that will be a that is one of the
+
+[285.3 - 289.259] major Technologies uh underpinning the
+
+[287.699 - 291.24] Tau Network
+
+[289.259 - 294.0] um but before we get into some of the
+
+[291.24 - 296.16] technical details in the history of Tau
+
+[294.0 - 299.46] um let's hit on let's ask the big
+
+[296.16 - 301.62] question uh for our for our viewers what
+
+[299.46 - 303.479] is the what is the general goal is to
+
+[301.62 - 305.58] create this decentralized network can
+
+[303.479 - 307.44] you guys give us a little bit like a
+
+[305.58 - 311.46] high level overview what is the goal of
+
+[307.44 - 313.5] Tau and and and of decentralization
+
+[311.46 - 315.29999999999995] um who would anyone who can who would
+
+[313.5 - 317.66] like to go first uh Professor franconi
+
+[315.3 - 317.66] or Ohio
+
+[317.699 - 323.52000000000004] hahaha
+
+[320.52 - 325.25899999999996] in all existing decentralized networks
+
+[323.52 - 327.9] there is some
+
+[325.259 - 330.06] big elephant in the room of something
+
+[327.9 - 332.28] very centralized everyone somehow
+
+[330.06 - 333.18] ignores maybe maybe not everyone which
+
+[332.28 - 336.539] is
+
+[333.18 - 339.06] the centralized development team
+
+[336.539 - 340.56] how can we seriously take a
+
+[339.06 - 342.479] decentralized economy like I don't know
+
+[340.56 - 344.699] Bitcoin
+
+[342.479 - 347.3] controlled by a bunch of computer geeks
+
+[344.699 - 347.3] like me
+
+[347.46 - 355.44] how can how can it be any wide enough
+
+[352.199 - 357.62] shoulders to carry the whole the whole
+
+[355.44 - 357.62] world
+
+[357.72 - 361.97900000000004] the centralized control of the
+
+[360.24 - 363.78000000000003] development team
+
+[361.979 - 366.71999999999997] he's a big bottleneck
+
+[363.78 - 368.58] for adoption and it is a problem by its
+
+[366.72 - 370.199] own who promises that
+
+[368.58 - 372.419] the centralized development team will
+
+[370.199 - 374.34000000000003] take the right economic decisions and
+
+[372.419 - 376.62] indeed they themselves know this and
+
+[374.34 - 378.65999999999997] therefore they avoid taking economic
+
+[376.62 - 380.88] decisions
+
+[378.66 - 383.46000000000004] I'll give you the centralized in a sound
+
+[380.88 - 386.819] way in a constructive way
+
+[383.46 - 389.06] that how the network itself should be
+
+[386.819 - 389.06] like
+
+[389.759 - 392.96000000000004] and that's what we do
+
+[393.78 - 399.419] so to say that in another way the goal
+
+[397.5 - 402.06] is as you said
+
+[399.419 - 404.46] um to take control away but not from
+
+[402.06 - 407.28000000000003] from everyone but to take control away
+
+[404.46 - 408.78] from any kind of centralization and
+
+[407.28 - 410.63899999999995] distribute it to everyone who
+
+[408.78 - 412.25899999999996] participates in a network and the
+
+[410.639 - 414.539] example that you gave is like Bitcoin or
+
+[412.259 - 417.72] other economic networks so that that way
+
+[414.539 - 419.94] everyone has a stake in deciding not
+
+[417.72 - 422.46000000000004] just what the network does or what the
+
+[419.94 - 425.52] organization does but how it is coded
+
+[422.46 - 427.79999999999995] correctly even participating in the in
+
+[425.52 - 429.56] the development and building of that
+
+[427.8 - 434.12] Network true
+
+[429.56 - 434.12] that's height you can look at it
+
+[438.18 - 443.58] software is there for one and only one
+
+[441.36 - 445.039] thing which is the users software is
+
+[443.58 - 449.15999999999997] only for the users
+
+[445.039 - 452.81899999999996] but somehow the users have
+
+[449.16 - 455.09900000000005] little to no voice or influence on how
+
+[452.819 - 457.62] the software should be like next time
+
+[455.099 - 459.84] your phones ask to update itself how
+
+[457.62 - 463.199] does it feel who knows what they put
+
+[459.84 - 465.479] them ah if it doesn't feel good
+
+[463.199 - 467.039] but it's all for the users you are the
+
+[465.479 - 469.199] user why you don't have control over
+
+[467.039 - 472.86] this
+
+[469.199 - 475.8] well there are very serious
+
+[472.86 - 477.599] um theoretical practical social problems
+
+[475.8 - 480.479] associated with it
+
+[477.599 - 482.52] you can ask how can a large group of
+
+[480.479 - 485.58] people the whole audience
+
+[482.52 - 488.039] take any collaborative decision whether
+
+[485.58 - 490.25899999999996] it's blockchain also for anything that's
+
+[488.039 - 492.479] a big problem by its own
+
+[490.259 - 495.72] and then you have an even bigger problem
+
+[492.479 - 497.639] how can a large group of people not only
+
+[495.72 - 499.86] take a decision together but even have a
+
+[497.639 - 503.72] discussion how can one million people
+
+[499.86 - 503.72] have a meaningful discussion altogether
+
+[504.24 - 509.879] and those are indeed problems that we
+
+[506.879 - 511.56] address upon the theoretical problems
+
+[509.879 - 513.599] there are some very deep theoretical
+
+[511.56 - 514.86] problems here that we can speak about
+
+[513.599 - 516.479] right
+
+[514.86 - 519.0600000000001] and
+
+[516.479 - 520.5600000000001] yes in methodological problems and we
+
+[519.06 - 521.64] can speak about everything
+
+[520.56 - 524.6999999999999] yes
+
+[521.64 - 526.14] yeah so the the conceptual problems like
+
+[524.7 - 527.58] you said it's it's a matter of
+
+[526.14 - 531.12] organization
+
+[527.58 - 532.62] um is is one thing is for for anyone in
+
+[531.12 - 535.14] the audience who has ever participated
+
+[532.62 - 539.22] in any kind of software development or
+
+[535.14 - 540.36] or any kind of um uh concerted group
+
+[539.22 - 542.58] effort
+
+[540.36 - 545.339] um organization becomes intractable once
+
+[542.58 - 547.26] the group gets too big but with
+
+[545.339 - 549.1800000000001] technology platforms today that affect
+
+[547.26 - 551.76] everyone to your example you know
+
+[549.18 - 553.1999999999999] everyone uses phones computers uh you
+
+[551.76 - 555.06] know whatever you're watching this this
+
+[553.2 - 557.58] video on today
+
+[555.06 - 559.1999999999999] um that has there's a lot of control and
+
+[557.58 - 561.0] management that goes into that but then
+
+[559.2 - 563.339] countless hundreds thousands of
+
+[561.0 - 567.42] developers that go into that uh that
+
+[563.339 - 569.1] effort and organizing that is uh not a
+
+[567.42 - 571.1999999999999] solved problem and as you mentioned
+
+[569.1 - 573.1800000000001] there's conceptual and methodological
+
+[571.2 - 575.1] um topics that we'll delve into in just
+
+[573.18 - 577.7399999999999] a little bit about how to solve those
+
+[575.1 - 578.76] problems uh Professor franconi did you
+
+[577.74 - 580.38] have any
+
+[578.76 - 583.62] um anything to add to kind of the
+
+[580.38 - 587.519] overall goal of the Tau Network well uh
+
+[583.62 - 590.76] when you have this goal of involving so
+
+[587.519 - 593.4590000000001] many agents participating to this uh to
+
+[590.76 - 596.7] this effort then something that you have
+
+[593.459 - 599.459] to uh somehow
+
+[596.7 - 601.5600000000001] something you have to think about is how
+
+[599.459 - 604.0189999999999] these agents this one million people or
+
+[601.56 - 607.0189999999999] whatever even more than 10 people can
+
+[604.019 - 609.24] trust the system uh that is taking this
+
+[607.019 - 612.0] helping them to take decisions and
+
+[609.24 - 614.22] clearly the good old way of discussing
+
+[612.0 - 615.959] so I hear to you I hear you you hear me
+
+[614.22 - 617.7] I try to understand what you're saying
+
+[615.959 - 620.0999999999999] if I don't understand I ask you to for
+
+[617.7 - 622.2] clarification you you reply you
+
+[620.1 - 624.2] meanwhile understand what I'm saying so
+
+[622.2 - 626.399] there is a protocol in communication
+
+[624.2 - 628.38] that help us to understand each other
+
+[626.399 - 631.92] and to reach an agreement
+
+[628.38 - 634.399] and and this protocol follows as we know
+
+[631.92 - 637.0799999999999] since 2000 years logical rules so the
+
+[634.399 - 639.54] say the notion of argumentation and
+
+[637.08 - 641.279] syllogism studies from the ancient Greek
+
+[639.54 - 643.92] philosophers and so on and rhodesians in
+
+[641.279 - 647.579] 19th century and the 20th century
+
+[643.92 - 648.899] however when we want to scale up you and
+
+[647.579 - 651.3] then you want to say well we can't
+
+[648.899 - 652.76] really imagine a protocol
+
+[651.3 - 655.079] that
+
+[652.76 - 658.26] involves discussion and trying to
+
+[655.079 - 660.3] understanding and so many agents even
+
+[658.26 - 662.7] just more than 10 whatever we realized
+
+[660.3 - 664.26] our everyday life if we try to make a
+
+[662.7 - 667.44] meeting with more than 10 people I mean
+
+[664.26 - 670.86] unless you have a major coordinator
+
+[667.44 - 673.019] that tries to understand everyone and
+
+[670.86 - 674.82] try to mediate then this this discussion
+
+[673.019 - 677.579] is not is not going anywhere however
+
+[674.82 - 679.9200000000001] even this mediator cannot do anything if
+
+[677.579 - 683.16] there are 100 people in the room
+
+[679.92 - 685.3199999999999] uh so how do we reach agreement how can
+
+[683.16 - 687.36] we trust and how the user can trust this
+
+[685.32 - 690.12] agreement then this is where logic comes
+
+[687.36 - 691.88] in so this new protocol of argumentation
+
+[690.12 - 695.279] and discussion and finding agreement is
+
+[691.88 - 697.8] in my opinion has to be granted on Logic
+
+[695.279 - 699.959] on on the idea that whatever decision
+
+[697.8 - 702.54] the system takes is
+
+[699.959 - 704.16] uh can be trusted and what is
+
+[702.54 - 706.38] interesting I guess this will be
+
+[704.16 - 709.4399999999999] discussed in depth later
+
+[706.38 - 712.8] is that in the logical language of Tau
+
+[709.44 - 715.2600000000001] uh allows also to discuss
+
+[712.8 - 718.3199999999999] the protocol on how we reach agreements
+
+[715.26 - 721.74] and and we can Define so user can agree
+
+[718.32 - 724.38] on how they will agree from now on
+
+[721.74 - 726.1800000000001] again an understanding fully and and
+
+[724.38 - 727.56] entrust on this new form of agreement
+
+[726.18 - 731.519] potentially
+
+[727.56 - 733.26] and so that's my perspective on whatever
+
+[731.519 - 735.6] I had said before
+
+[733.26 - 738.42] so my my contribution my interest is in
+
+[735.6 - 740.22] this logical Foundation of all these
+
+[738.42 - 743.579] things
+
+[740.22 - 747.36] okay excellent thank you so much so to
+
+[743.579 - 750.959] to summarize uh another function of Tau
+
+[747.36 - 753.72] so one one part is developing software
+
+[750.959 - 755.5189999999999] in a decentralized manner but the other
+
+[753.72 - 758.399] part of that or I guess a problem that
+
+[755.519 - 760.26] you have to solve to do that is coming
+
+[758.399 - 762.18] to consensus with large groups of people
+
+[760.26 - 764.3389999999999] how do you collaborate and come to
+
+[762.18 - 765.3599999999999] consensus with arbitrarily large groups
+
+[764.339 - 768.72] and that's what you're talking about
+
+[765.36 - 772.0790000000001] with coming up with logical uh protocols
+
+[768.72 - 774.12] uh and and such in order to arrive at
+
+[772.079 - 776.2199999999999] those agreements or arrive at consensus
+
+[774.12 - 778.2] is that is that a good summary
+
+[776.22 - 779.88] yes yeah
+
+[778.2 - 782.1600000000001] okay yeah I would say that your
+
+[779.88 - 784.68] perspective of Ohio just to mention to
+
+[782.16 - 786.36] to specify this summary so in a sense
+
+[784.68 - 789.12] also this protocol is a piece of
+
+[786.36 - 790.44] software is a procedure that regulates
+
+[789.12 - 792.9590000000001] this this conversation these
+
+[790.44 - 795.139] argumentations and as such it will be
+
+[792.959 - 797.88] subject to the same
+
+[795.139 - 800.94] ways of being developed and understood
+
+[797.88 - 805.68] and agreed upon as the general software
+
+[800.94 - 808.5] development or consensual finding in Tao
+
+[805.68 - 811.1999999999999] okay excellent yes and we will we will
+
+[808.5 - 813.24] delve into um into tau's particular
+
+[811.2 - 815.0400000000001] Solutions here in just a moment
+
+[813.24 - 816.72] um but a quick preview for the audience
+
+[815.04 - 818.6999999999999] so some of the things that they've
+
+[816.72 - 820.2] worked on and this is not an exhaustive
+
+[818.7 - 822.0600000000001] list of of the breakthroughs that
+
+[820.2 - 825.1800000000001] they've had one is the Tau metal
+
+[822.06 - 827.399] language the Tau language and the Agora
+
+[825.18 - 828.66] token but we'll get into those in just a
+
+[827.399 - 831.12] little bit
+
+[828.66 - 832.98] um so well thank you for helping get us
+
+[831.12 - 835.2] oriented as to what are the problems
+
+[832.98 - 837.0600000000001] that Tao is trying to solve
+
+[835.2 - 839.1600000000001] um but let's take
+
+[837.06 - 841.1999999999999] a step to the side just for a second
+
+[839.16 - 843.36] because
+
+[841.2 - 844.5] um what I want to do is is just spend a
+
+[843.36 - 846.12] few minutes
+
+[844.5 - 847.38] um informing the audience for anyone who
+
+[846.12 - 849.12] doesn't know what a Dao is a
+
+[847.38 - 851.279] decentralized autonomous organization
+
+[849.12 - 853.92] and how that relates to other existing
+
+[851.279 - 855.36] Technologies like blockchain Ohad would
+
+[853.92 - 858.8] you like to kind of introduce the
+
+[855.36 - 858.8000000000001] concept of the Dow and the blockchain
+
+[860.66 - 866.519] I am
+
+[863.22 - 870.6] though isn't it something that
+
+[866.519 - 873.0] um intended to to be an organization
+
+[870.6 - 874.74] that is controlled by the users that is
+
+[873.0 - 879.06] decentralized
+
+[874.74 - 881.4590000000001] and and typically they do so by
+
+[879.06 - 883.0189999999999] um very basic means so remember that I
+
+[881.459 - 887.76] asked before how can a large group of
+
+[883.019 - 889.86] people can reach agreement well voting
+
+[887.76 - 892.68] that's the method that comes to mind and
+
+[889.86 - 896.339] that's what existing doubts basically do
+
+[892.68 - 900.2399999999999] and but maybe to take a step ahead there
+
+[896.339 - 902.2790000000001] is one fundamental problem with voting
+
+[900.24 - 904.5600000000001] the problem is that
+
+[902.279 - 907.4399999999999] even though everyone
+
+[904.56 - 910.1389999999999] have equal I to vote it is still not the
+
+[907.44 - 914.1600000000001] case that everyone have effectively
+
+[910.139 - 916.5600000000001] equalized to propose what to vote over
+
+[914.16 - 918.36] because even if you have the right to
+
+[916.56 - 920.16] propose
+
+[918.36 - 923.0600000000001] who is going to even read a million
+
+[920.16 - 923.06] proposals a day
+
+[923.22 - 928.5600000000001] so even if everyone have right to
+
+[925.199 - 931.8599999999999] proposities by no means effective
+
+[928.56 - 933.7399999999999] so what people do is create hierarchies
+
+[931.86 - 936.6] that in particular
+
+[933.74 - 938.699] determine what to vote over
+
+[936.6 - 940.44] but then you get huge loss of
+
+[938.699 - 942.8389999999999] information it
+
+[940.44 - 945.1800000000001] your opinion no matter how good it is or
+
+[942.839 - 947.899] correct it is will most likely not be
+
+[945.18 - 947.899] incorporated
+
+[948.36 - 955.0790000000001] and these fundamental real life problem
+
+[950.76 - 957.26] is also reflected in the Taos as we know
+
+[955.079 - 957.26] them
+
+[961.68 - 965.579] the the
+
+[963.779 - 967.4399999999999] one of the chief well so there's there's
+
+[965.579 - 969.18] a few problems that you elucidated here
+
+[967.44 - 971.639] so one is is
+
+[969.18 - 973.62] at present one of the one of the ways
+
+[971.639 - 975.3] that everyone is familiar with in terms
+
+[973.62 - 977.579] of making group decisions larger
+
+[975.3 - 979.4399999999999] decisions is voting but there are some
+
+[977.579 - 980.399] problems with voting and we'll get into
+
+[979.44 - 982.2600000000001] that
+
+[980.399 - 984.06] um but then also as you said
+
+[982.26 - 985.98] even just integrating everyone's
+
+[984.06 - 988.26] feedback that's a huge problem and that
+
+[985.98 - 990.1800000000001] goes to to the problem of anytime you
+
+[988.26 - 992.22] have more than 10 people in a room you
+
+[990.18 - 994.1389999999999] can't hear everyone you can't get
+
+[992.22 - 996.5400000000001] everyone's opinion but then if you get
+
+[994.139 - 998.16] to the scale of thousands millions
+
+[996.54 - 999.5999999999999] whatever
+
+[998.16 - 1001.42] um you have to as you say create you
+
+[999.6 - 1005.0] have to delegate or create hierarchies
+
+[1001.42 - 1006.68] and and one of your points is that Dows
+
+[1005.0 - 1008.72] have not have not fully solved this
+
+[1006.68 - 1010.6389999999999] problem yet so this is this is something
+
+[1008.72 - 1013.22] that differentiates the Tau network from
+
+[1010.639 - 1016.54] an ordinary decentralized autonomous
+
+[1013.22 - 1016.5400000000001] organization correct
+
+[1016.699 - 1022.06] and yes yes very much so so you can you
+
+[1020.24 - 1025.22] can look at it as
+
+[1022.06 - 1026.54] using the economical term of diminishing
+
+[1025.22 - 1028.459] returns
+
+[1026.54 - 1031.1] so in economy
+
+[1028.459 - 1034.64] um diminishing returns means uh like a
+
+[1031.1 - 1036.579] typical example is that each a new team
+
+[1034.64 - 1039.439] member in a company
+
+[1036.579 - 1040.6989999999998] contributes less than the next one so if
+
+[1039.439 - 1042.799] you have 10 people and you add another
+
+[1040.699 - 1044.78] one it's not going to be 10 tradition
+
+[1042.799 - 1048.02] it's going to be less
+
+[1044.78 - 1050.12] similarly in discussions
+
+[1048.02 - 1051.86] um if you double the number of
+
+[1050.12 - 1053.12] participants you are not going to get
+
+[1051.86 - 1056.7199999999998] double
+
+[1053.12 - 1061.6] the outcome and at some point you are
+
+[1056.72 - 1061.6000000000001] even going to get Negative outcome
+
+[1061.82 - 1067.28] and indeed our solution solves this
+
+[1064.7 - 1069.5] problem completely in the sense that if
+
+[1067.28 - 1072.3799999999999] you will have 100 times more people you
+
+[1069.5 - 1075.1] will have 100 times more utility
+
+[1072.38 - 1075.1000000000001] at least
+
+[1075.32 - 1079.1599999999999] that is a big claim but uh I believe it
+
+[1077.78 - 1081.2] and hopefully by the end of the episode
+
+[1079.16 - 1082.46] our users or our viewers will believe it
+
+[1081.2 - 1085.52] too
+
+[1082.46 - 1087.14] um Professor franconi um previously we
+
+[1085.52 - 1089.48] talked about some of the some of the
+
+[1087.14 - 1092.96] specific problems uh conceptual problems
+
+[1089.48 - 1094.34] with this in terms of and also Ohad
+
+[1092.96 - 1096.919] um either of you feel free to jump in
+
+[1094.34 - 1099.1999999999998] but the limitations of language of
+
+[1096.919 - 1100.88] English language or German French you
+
+[1099.2 - 1103.76] know any naturally can conceived
+
+[1100.88 - 1106.94] language there are limitations that that
+
+[1103.76 - 1109.76] also help or I guess prevent
+
+[1106.94 - 1112.52] um you know agreement or that utility
+
+[1109.76 - 1114.86] um so what uh what I would like to do is
+
+[1112.52 - 1116.12] ask what are some of those what are some
+
+[1114.86 - 1118.4599999999998] of those limitations and what are some
+
+[1116.12 - 1120.86] of the solutions conceptual solutions to
+
+[1118.46 - 1121.58] the limitations of human language or
+
+[1120.86 - 1124.1599999999999] even
+
+[1121.58 - 1126.32] um uh formal logic as well
+
+[1124.16 - 1127.88] okay I would not say that the language
+
+[1126.32 - 1129.4399999999998] natural language is limited is actually
+
+[1127.88 - 1132.0800000000002] I would say they're all deposites so the
+
+[1129.44 - 1134.8400000000001] natural language is too powerful indeed
+
+[1132.08 - 1136.34] I can say whatever kind of concept I'll
+
+[1134.84 - 1138.1999999999998] ask that as it could be in natural
+
+[1136.34 - 1140.4189999999999] language and explain it to you
+
+[1138.2 - 1143.3600000000001] so the problem is exactly this one if
+
+[1140.419 - 1146.48] you want to translate a communication so
+
+[1143.36 - 1148.3999999999999] a a movement of information from an
+
+[1146.48 - 1150.16] engine to another one from an agent to
+
+[1148.4 - 1153.14] the centralized system whatever
+
+[1150.16 - 1158.02] we need to be sure that we understand
+
+[1153.14 - 1160.3400000000001] each other and in the context of
+
+[1158.02 - 1162.26] Concepts which are known so when we
+
+[1160.34 - 1163.8799999999999] communicate say as human natural
+
+[1162.26 - 1166.76] language for example
+
+[1163.88 - 1168.44] uh we need to know two things we need to
+
+[1166.76 - 1169.94] speak the same language both English
+
+[1168.44 - 1171.8600000000001] speaker for example
+
+[1169.94 - 1173.8400000000001] but also we need to have the same
+
+[1171.86 - 1175.6999999999998] conceptualization of the world so we
+
+[1173.84 - 1177.08] have to not only to understand English
+
+[1175.7 - 1180.32] but you have to understand the meaning
+
+[1177.08 - 1182.4189999999999] of words when I say elephant I want I
+
+[1180.32 - 1184.52] need you to be sure that you know what
+
+[1182.419 - 1187.16] an elephant means maybe if you are a
+
+[1184.52 - 1190.16] child that never left your your village
+
+[1187.16 - 1191.96] whatever in Northern Carolina then maybe
+
+[1190.16 - 1193.64] you never you never seen an elephant
+
+[1191.96 - 1195.08] maybe you never know you don't even know
+
+[1193.64 - 1197.179] what an elephant is so it's not only a
+
+[1195.08 - 1199.76] problem of knowing English is having
+
+[1197.179 - 1203.3600000000001] Concepts Associated to words
+
+[1199.76 - 1205.8799999999999] and if you talk if you put a an agent
+
+[1203.36 - 1209.539] which is a computer in in this game
+
+[1205.88 - 1211.5200000000002] of course I may try to teach the
+
+[1209.539 - 1213.32] computer the grammar the language the
+
+[1211.52 - 1215.299] English language for example it's very
+
+[1213.32 - 1218.8999999999999] hard because it's uh there are so many
+
+[1215.299 - 1220.7] variations but the heartbeat is to be
+
+[1218.9 - 1223.2800000000002] sure that the computer the agent
+
+[1220.7 - 1226.46] understands the concepts and for example
+
+[1223.28 - 1229.96] this is the major limitation of language
+
+[1226.46 - 1232.76] models in in AI based on neural networks
+
+[1229.96 - 1235.22] nowadays like gpt3 and stuff so they
+
+[1232.76 - 1237.98] they circumvent the problem of the
+
+[1235.22 - 1240.74] complexity of lung of the syntax of the
+
+[1237.98 - 1243.46] fact that that the language is very many
+
+[1240.74 - 1245.539] things can be seen as many many any any
+
+[1243.46 - 1247.88] concept from the express is many more
+
+[1245.539 - 1249.44] different in many different ways and and
+
+[1247.88 - 1252.14] it's very hard to enumerate all of them
+
+[1249.44 - 1254.24] so what gpt3 does and all this language
+
+[1252.14 - 1255.44] natural language models based on deep
+
+[1254.24 - 1258.6200000000001] learning AI
+
+[1255.44 - 1259.6000000000001] uh they were just digest all the
+
+[1258.62 - 1262.2399999999998] possible
+
+[1259.6 - 1264.74] sentences ever uttered on the internet
+
+[1262.24 - 1266.6] so that statistically they they
+
+[1264.74 - 1268.76] basically get an idea on how the
+
+[1266.6 - 1270.559] language is built but the major
+
+[1268.76 - 1273.3799999999999] limitation which is a center of very
+
+[1270.559 - 1277.34] interesting debate in AI with Gary Marks
+
+[1273.38 - 1279.679] and stuff is what what the computer
+
+[1277.34 - 1282.3799999999999] understands about the concepts which are
+
+[1279.679 - 1285.6200000000001] embedded in the words so you can connect
+
+[1282.38 - 1288.0200000000002] words in apparently meaningful sentences
+
+[1285.62 - 1290.8999999999999] because they resonate well to our
+
+[1288.02 - 1292.1589999999999] cognition but they they really the agent
+
+[1290.9 - 1295.2800000000002] would never understand exactly the
+
+[1292.159 - 1298.5200000000002] content so that's why when we deal with
+
+[1295.28 - 1301.6399999999999] natural language we have to focus on
+
+[1298.52 - 1303.559] on meaningful fragments of it so we we
+
+[1301.64 - 1307.419] will never allow complete natural
+
+[1303.559 - 1310.58] language freely spoken
+
+[1307.419 - 1312.38] so because we want to be certain that we
+
+[1310.58 - 1314.8999999999999] understand hundred percent
+
+[1312.38 - 1317.919] of what any agent or any of the million
+
+[1314.9 - 1323.1200000000001] ages is going to say so this means that
+
+[1317.919 - 1325.039] the the computer eventually the the say
+
+[1323.12 - 1327.3799999999999] the software that controls
+
+[1325.039 - 1329.72] um Tau this communication which is also
+
+[1327.38 - 1331.46] generated by discussion in Tau Etc but
+
+[1329.72 - 1334.34] this is not the story but we have to be
+
+[1331.46 - 1336.679] sure that the definition the meaning of
+
+[1334.34 - 1338.4189999999999] all the concepts and the words is
+
+[1336.679 - 1341.48] present in the agent in the main agent
+
+[1338.419 - 1343.22] itself and so this means that maybe at
+
+[1341.48 - 1345.2] the beginning Tau will be very stupid
+
+[1343.22 - 1347.3600000000001] we'll understand very few Concepts and
+
+[1345.2 - 1350.179] the conversation among agents will teach
+
+[1347.36 - 1352.34] the computer more Concepts but in the
+
+[1350.179 - 1354.5] real sense right so definitions what is
+
+[1352.34 - 1357.1399999999999] an elephant well is an animal that lives
+
+[1354.5 - 1359.72] in some countries it's gray as a trunk
+
+[1357.14 - 1361.88] whatever and then of course we'll we'll
+
+[1359.72 - 1363.98] I don't know we will have some some
+
+[1361.88 - 1366.3200000000002] notion about
+
+[1363.98 - 1368.059] the object the concepts that people may
+
+[1366.32 - 1370.3999999999999] want to talk about
+
+[1368.059 - 1373.28] in this way we have realized we have
+
+[1370.4 - 1375.02] limited the focus in communication to
+
+[1373.28 - 1377.12] what we call what has been called what
+
+[1375.02 - 1379.58] is called normally in in research and
+
+[1377.12 - 1382.9399999999998] application computer science uh control
+
+[1379.58 - 1385.82] natural language so we limit the syntax
+
+[1382.94 - 1388.8200000000002] to be usable Enough by everybody so we
+
+[1385.82 - 1390.1399999999999] cannot speak freely it's just like me as
+
+[1388.82 - 1391.76] a foreigner not as a native English
+
+[1390.14 - 1394.159] speaker I would speak English so I
+
+[1391.76 - 1396.919] subject verb object right it's a very
+
+[1394.159 - 1399.5] simple sentences not so simple but again
+
+[1396.919 - 1400.8200000000002] somehow a language is sort of this
+
+[1399.5 - 1402.38] International English that everybody
+
+[1400.82 - 1403.34] would understand and would be able to
+
+[1402.38 - 1405.88] use
+
+[1403.34 - 1408.26] plus the fact that
+
+[1405.88 - 1411.2] we understand all the words all the
+
+[1408.26 - 1414.02] concepts that are embedded in this uh in
+
+[1411.2 - 1416.539] this in this natural language so uh
+
+[1414.02 - 1418.22] somehow unlike we were saying is the
+
+[1416.539 - 1421.96] limitation of the natural language that
+
+[1418.22 - 1421.96] is unlimited and we want to limit
+
+[1422.419 - 1429.2] yes yeah so the the because it's so
+
+[1426.5 - 1430.94] powerful you and you introduce problems
+
+[1429.2 - 1432.679] like the the flexibility is
+
+[1430.94 - 1434.1200000000001] computationally difficult but also the
+
+[1432.679 - 1436.3400000000001] ambiguity
+
+[1434.12 - 1439.039] um is a major problem of not just syntax
+
+[1436.34 - 1441.799] but the meaning of individual words and
+
+[1439.039 - 1444.799] um and and Ohad I remember
+
+[1441.799 - 1447.32] um you had mentioned previously
+
+[1444.799 - 1449.78] um the the mathematical aspect of
+
+[1447.32 - 1451.46] language versus controlled language
+
+[1449.78 - 1453.98] um would you would you like to add a
+
+[1451.46 - 1456.32] little bit to uh what Professor franconi
+
+[1453.98 - 1459.32] just just shared
+
+[1456.32 - 1459.32] and
+
+[1459.44 - 1465.74] maybe just one thing because Professor
+
+[1462.86 - 1470.36] Franklin basically covered the log and
+
+[1465.74 - 1473.48] which is the concept of decidability
+
+[1470.36 - 1475.28] that is the question
+
+[1473.48 - 1477.679] when you have
+
+[1475.28 - 1480.799] a computational task
+
+[1477.679 - 1484.8200000000002] for example the task for finding a
+
+[1480.799 - 1488.6] contradiction among statements
+
+[1484.82 - 1490.3999999999999] it turns out that there are many many
+
+[1488.6 - 1493.3999999999999] computational tasks
+
+[1490.4 - 1495.38] that cannot be solved in finite time
+
+[1493.4 - 1499.48] they need infinite time
+
+[1495.38 - 1499.48] to be correct those taxes be correct
+
+[1499.78 - 1504.2] because you can do a finite computation
+
+[1502.159 - 1505.6000000000001] and be incorrect right
+
+[1504.2 - 1509.44] yes
+
+[1505.6 - 1509.4399999999998] and and
+
+[1509.72 - 1513.98] in this case is called undecidability
+
+[1511.82 - 1516.6399999999999] the things that you cannot solve in
+
+[1513.98 - 1516.64] finite time
+
+[1517.46 - 1521.14] now
+
+[1519.14 - 1521.14] um
+
+[1521.2 - 1527.72] what people in the field of logic do
+
+[1524.48 - 1530.059] they Define languages and they ask
+
+[1527.72 - 1532.24] whether determining
+
+[1530.059 - 1535.279] whether any statement in this language
+
+[1532.24 - 1538.1] contains a contradiction is decidable or
+
+[1535.279 - 1539.6] not and then if yes then you call the
+
+[1538.1 - 1541.8799999999999] whole language decide the bell and if
+
+[1539.6 - 1544.039] not you call it undecidable
+
+[1541.88 - 1546.679] it turns out that even very simple
+
+[1544.039 - 1548.779] languages are already undecidable
+
+[1546.679 - 1549.74] for example
+
+[1548.779 - 1552.14] um
+
+[1549.74 - 1553.64] the language of arithmetic the natural
+
+[1552.14 - 1555.44] numbers one to three with addition
+
+[1553.64 - 1558.88] multiplication
+
+[1555.44 - 1558.88] is already on the side open
+
+[1559.1 - 1563.299] okay this was this is the famous
+
+[1561.08 - 1565.039] Gathering completeness building from a
+
+[1563.299 - 1566.9] hundred years ago
+
+[1566.9 - 1572.539] there is the trade-off between
+
+[1569.559 - 1574.1589999999999] expressiveness and decidability the more
+
+[1572.539 - 1576.74] you are able to sing the language the
+
+[1574.159 - 1578.419] less recyclable it becomes
+
+[1576.74 - 1580.22] and in particular natural language
+
+[1578.419 - 1581.72] because we can express arithmetic
+
+[1580.22 - 1585.7] natural language and of course natural
+
+[1581.72 - 1585.7] languages and decidable
+
+[1586.94 - 1593.179] there is another problem which
+
+[1589.88 - 1596.1200000000001] which is about consistency
+
+[1593.179 - 1598.88] some languages can
+
+[1596.12 - 1600.6789999999999] um contain a contradiction in the very
+
+[1598.88 - 1603.44] definition of the language or let's say
+
+[1600.679 - 1606.5] you can construct sentences that are not
+
+[1603.44 - 1608.299] true and not false
+
+[1606.5 - 1609.32] any natural language you can do so
+
+[1608.299 - 1611.4189999999999] indeed
+
+[1609.32 - 1614.059] maybe that's a typical example is the
+
+[1611.419 - 1615.8600000000001] liar paradox
+
+[1614.059 - 1618.2] the sentence that cannot be true and
+
+[1615.86 - 1620.059] cannot be false
+
+[1618.2 - 1622.159] so you want a language that is
+
+[1620.059 - 1625.3999999999999] consistent
+
+[1622.159 - 1628.1000000000001] and is decidable
+
+[1625.4 - 1630.74] in the programming language World there
+
+[1628.1 - 1632.84] is the concept of curing completeness
+
+[1630.74 - 1636.02] a language that can express anything
+
+[1632.84 - 1640.299] that the theoretical construction of
+
+[1636.02 - 1640.299] what is called the turing machine can do
+
+[1641.48 - 1648.919] and indeed programming languages try on
+
+[1645.98 - 1651.98] purpose to beat you incomplete and for
+
+[1648.919 - 1655.279] people who remember how ethereum began
+
+[1651.98 - 1658.76] their main
+
+[1655.279 - 1662.919] goal was to have Smart contracts in a
+
+[1658.76 - 1662.919] language which is during complete
+
+[1663.46 - 1667.22] but
+
+[1665.179 - 1668.659] during complete languages are
+
+[1667.22 - 1671.6000000000001] undecidable
+
+[1668.659 - 1673.5800000000002] the task of asking questions
+
+[1671.6 - 1676.8799999999999] about statements including complete
+
+[1673.58 - 1679.279] languages in particular asking whether
+
+[1676.88 - 1682.1000000000001] two programs will return the same output
+
+[1679.279 - 1684.76] but the two problems are equivalent is
+
+[1682.1 - 1684.76] undecidable
+
+[1685.46 - 1688.1000000000001] now
+
+[1687.08 - 1691.34] um
+
+[1688.1 - 1692.9599999999998] one thing that sometimes people neglect
+
+[1691.34 - 1696.3799999999999] is that
+
+[1692.96 - 1698.1200000000001] you don't need to be curing complete
+
+[1696.38 - 1701.679] if you need your incompleteness no more
+
+[1698.12 - 1701.6789999999999] than I need shampoo
+
+[1701.72 - 1707.419] because
+
+[1703.82 - 1710.5] Turing machines they are mathematically
+
+[1707.419 - 1713.24] equivalent to ordinary computers
+
+[1710.5 - 1715.34] completely except one point
+
+[1713.24 - 1716.779] they have infinite memory
+
+[1715.34 - 1719.12] are equivalent to computers with
+
+[1716.779 - 1722.299] infinite memory
+
+[1719.12 - 1725.4399999999998] so you are never going to have real
+
+[1722.299 - 1725.44] Turing machines anyway
+
+[1725.539 - 1729.679] and taking the example of arithmetic I
+
+[1728.36 - 1732.74] said before
+
+[1729.679 - 1735.919] there are Infinity many numbers
+
+[1732.74 - 1737.779] but guess what only mathematicians care
+
+[1735.919 - 1740.9] that there are infinitely many numbers
+
+[1737.779 - 1743.12] there are but no one cares physics
+
+[1740.9 - 1744.6200000000001] physicists don't need them programmers
+
+[1743.12 - 1746.2399999999998] don't need them no one cares that there
+
+[1744.62 - 1748.279] are Infinity many numbers when did you
+
+[1746.24 - 1750.44] ever run out of numbers
+
+[1748.279 - 1753.38] you don't care
+
+[1750.44 - 1755.6000000000001] you don't need it it is true that there
+
+[1753.38 - 1757.779] are infinitely novels but you don't need
+
+[1755.6 - 1757.779] it
+
+[1759.159 - 1765.74] I'm not going to say that the way we
+
+[1762.679 - 1767.6000000000001] achieve the side ability is by limiting
+
+[1765.74 - 1770.0] The Machine's memory or by assuming
+
+[1767.6 - 1771.4399999999998] finitely many numbers we are doing it
+
+[1770.0 - 1774.62] differently we achieve the side ability
+
+[1771.44 - 1776.96] while maintaining the infinite
+
+[1774.62 - 1780.9189999999999] but I am pointing out
+
+[1776.96 - 1782.8400000000001] that you don't need to go to undecidable
+
+[1780.919 - 1784.5800000000002] languages
+
+[1782.84 - 1787.82] stay within the set of languages and
+
+[1784.58 - 1790.9399999999998] enjoy the decidability of being able to
+
+[1787.82 - 1793.399] get answers to your questions
+
+[1790.94 - 1796.94] another way to put it
+
+[1793.399 - 1800.12] there is an algorithm that gives answers
+
+[1796.94 - 1803.779] to questions and decidability one way to
+
+[1800.12 - 1806.4189999999999] say it is to say there is no algorithm
+
+[1803.779 - 1808.52] you want languages with algorithms that
+
+[1806.419 - 1810.88] tell you whether something is true or
+
+[1808.52 - 1810.8799999999999] false
+
+[1812.899 - 1818.059] Yeah by by just uh
+
+[1815.899 - 1820.12] picking another side of the argument of
+
+[1818.059 - 1822.74] Ohad
+
+[1820.12 - 1824.779] this is important to have a decidable
+
+[1822.74 - 1827.6] language with an algorithm that actually
+
+[1824.779 - 1829.159] exists and then terminates which has to
+
+[1827.6 - 1832.1589999999999] be correct so in all the notion of
+
+[1829.159 - 1834.6200000000001] disadability is based on the fact you
+
+[1832.159 - 1838.0390000000002] want an algorithm that does exactly
+
+[1834.62 - 1840.08] finds exactly a solution to your problem
+
+[1838.039 - 1842.24] and and maybe for that particular
+
+[1840.08 - 1845.299] problem such an argument terminates
+
+[1842.24 - 1847.58] doesn't exist so now now we want to have
+
+[1845.299 - 1848.96] decidable languages anomaly that the
+
+[1847.58 - 1851.72] language for which such angle
+
+[1848.96 - 1854.779] determinates exists and this argument
+
+[1851.72 - 1856.88] has to find the the right the correct
+
+[1854.779 - 1859.64] answer to your problem and the only way
+
+[1856.88 - 1861.2] to do that is not to let programmers in
+
+[1859.64 - 1863.3600000000001] a software house to build these programs
+
+[1861.2 - 1865.46] but always determinate but to employ
+
+[1863.36 - 1869.24] mathematicians logicians
+
+[1865.46 - 1871.76] that generates algorithms with together
+
+[1869.24 - 1873.559] with a mathematical proof that this
+
+[1871.76 - 1875.72] argument does do the right thing and
+
+[1873.559 - 1878.1789999999999] this algories terminate and exactly with
+
+[1875.72 - 1880.58] the right answer so I go back to my very
+
+[1878.179 - 1883.8200000000002] first statement about trust so if you
+
+[1880.58 - 1885.1999999999998] employ logic in this whole Endeavor you
+
+[1883.82 - 1887.539] actually guarantee that this the
+
+[1885.2 - 1890.1200000000001] algorithms do the right thing there is a
+
+[1887.539 - 1892.279] theorem proving that so you have not to
+
+[1890.12 - 1895.6999999999998] worry about whatever the computer tells
+
+[1892.279 - 1897.679] back to you moreover you can decide what
+
+[1895.7 - 1901.1200000000001] the the process that the computer takes
+
+[1897.679 - 1901.1200000000001] to give you an answer
+
+[1902.059 - 1906.799] excellent thank you guys for that
+
+[1904.34 - 1908.72] um that answer this these topics are so
+
+[1906.799 - 1910.52] fascinating to me and and I think that
+
+[1908.72 - 1911.84] they'll be fascinating to to our
+
+[1910.52 - 1914.6] audience as well
+
+[1911.84 - 1917.12] so we've we've set up two pillars right
+
+[1914.6 - 1919.039] uh collaboration and consensus and the
+
+[1917.12 - 1920.539] problems with that and then we've also
+
+[1919.039 - 1922.94] talked about language controlled
+
+[1920.539 - 1925.1589999999999] language uh decidability and and
+
+[1922.94 - 1927.6200000000001] completeness versus incompleteness so
+
+[1925.159 - 1930.0800000000002] now let's link the two conceptually how
+
+[1927.62 - 1932.899] do how do the problems of
+
+[1930.08 - 1936.02] um completeness or intractability relate
+
+[1932.899 - 1938.84] to collaboration and consensus and this
+
+[1936.02 - 1941.4189999999999] will also lead into Tao's Solutions how
+
+[1938.84 - 1943.6999999999998] have you guys solved these problems and
+
+[1941.419 - 1946.179] brought everything together Ohad would
+
+[1943.7 - 1946.179] you like to start
+
+[1946.539 - 1951.799] and yes in fact there is one big problem
+
+[1949.64 - 1954.26] that we didn't speak about because the
+
+[1951.799 - 1957.3799999999999] problems that we did speak about up
+
+[1954.26 - 1959.72] until now have Solutions in the
+
+[1957.38 - 1962.419] literature of mathematical Logic the
+
+[1959.72 - 1964.22] other side of the languages and
+
+[1962.419 - 1966.6200000000001] there are solutions
+
+[1964.22 - 1968.419] but there is one big big problem that
+
+[1966.62 - 1970.279] has no solution and we had to invent the
+
+[1968.419 - 1972.679] solution
+
+[1970.279 - 1975.5] and the problem is
+
+[1972.679 - 1978.94] a language that can speak about truth of
+
+[1975.5 - 1978.94] other sentences in the language
+
+[1978.98 - 1983.659] the logicians proved that in a certain
+
+[1981.799 - 1986.059] form
+
+[1983.659 - 1988.5800000000002] and such a language cannot be consistent
+
+[1986.059 - 1992.98] it must contain a contradiction this is
+
+[1988.58 - 1992.98] called tarsky's undefinability of Truth
+
+[1993.58 - 2000.22] but there is
+
+[1996.32 - 2001.6] a serious real-life need in being able
+
+[2000.22 - 2004.659] to do so
+
+[2001.6 - 2005.6789999999999] so we need to find we needed to find a
+
+[2004.659 - 2008.5] way
+
+[2005.679 - 2010.0] to have maybe a more limited setting not
+
+[2008.5 - 2012.1] exactly the setting the task he
+
+[2010.0 - 2015.72] considered but still allowing us to
+
+[2012.1 - 2015.7199999999998] speak about rules of other sentences
+
+[2015.94 - 2022.0] and this we can relate it to with two
+
+[2020.2 - 2024.76] examples to
+
+[2022.0 - 2029.98] well maybe three examples to blockchain
+
+[2024.76 - 2032.019] to Ai and to real world law
+
+[2029.98 - 2033.7] so we spoke about
+
+[2032.019 - 2035.019] blockchain that is controlled by its
+
+[2033.7 - 2039.22] users
+
+[2035.019 - 2043.659] taking it more down to earth
+
+[2039.22 - 2046.8990000000001] so in each block you are gonna have
+
+[2043.659 - 2051.159] the code of the network itself a
+
+[2046.899 - 2054.22] definition of what the network should do
+
+[2051.159 - 2055.179] the whole point in blockchain is a
+
+[2054.22 - 2057.8199999999997] condition
+
+[2055.179 - 2060.0] of accepting or rejecting a proposed
+
+[2057.82 - 2060.0] block
+
+[2060.339 - 2064.2999999999997] but for example in proof of world you
+
+[2062.08 - 2067.02] accept it if the harsh satisfy certain
+
+[2064.3 - 2067.02] conditions
+
+[2068.139 - 2073.839] but if the code contains if the block
+
+[2071.44 - 2075.399] contains statement of the
+
+[2073.839 - 2077.32] them
+
+[2075.399 - 2079.359] Network itself
+
+[2077.32 - 2081.159] and the current Network need to speak
+
+[2079.359 - 2083.919] about this
+
+[2081.159 - 2085.48] those statements ask questions about
+
+[2083.919 - 2086.859] those statements all in the same
+
+[2085.48 - 2089.679] language otherwise you're going to need
+
+[2086.859 - 2092.5] Infinity many languages
+
+[2089.679 - 2094.839] and get an answer
+
+[2092.5 - 2097.599] so that's a blockchain example
+
+[2094.839 - 2099.82] take an AI example there are the three
+
+[2097.599 - 2101.92] laws of robotics by Asimov
+
+[2099.82 - 2104.1400000000003] that the robot will never harm humans
+
+[2101.92 - 2105.88] and so on
+
+[2104.14 - 2108.8199999999997] I say that you need a fourth law for
+
+[2105.88 - 2111.28] boutiques which is that
+
+[2108.82 - 2114.28] any future software update of the robot
+
+[2111.28 - 2117.52] will also admit a lot of robotics
+
+[2114.28 - 2119.619] you don't want to plug in a USB key to
+
+[2117.52 - 2121.9] the robot with software update and it
+
+[2119.619 - 2124.119] starts killing people you want the robot
+
+[2121.9 - 2126.2200000000003] to reject this update if it does not
+
+[2124.119 - 2128.38] admit the rules of robotics
+
+[2126.22 - 2129.8199999999997] this is the same problem that the
+
+[2128.38 - 2132.4] current field of mathematical logic
+
+[2129.82 - 2134.7400000000002] cannot handle
+
+[2132.4 - 2137.079] the update is written in the same
+
+[2134.74 - 2139.4199999999996] language that the robot is written and
+
+[2137.079 - 2141.3390000000004] you need the same language to ask
+
+[2139.42 - 2144.2200000000003] whether another statement in that
+
+[2141.339 - 2146.14] language is consistent
+
+[2144.22 - 2147.5789999999997] with another statement being the laws of
+
+[2146.14 - 2149.5789999999997] robotics
+
+[2147.579 - 2149.579] um
+
+[2149.8 - 2156.82] self example the law of changing the law
+
+[2154.359 - 2159.7] you have law or height now you also need
+
+[2156.82 - 2161.02] laws of changing the laws because if you
+
+[2159.7 - 2164.339] don't have a lot of changing materials
+
+[2161.02 - 2164.339] then either you cannot change them
+
+[2164.92 - 2167.98] or
+
+[2166.119 - 2169.48] there are no conditions of changing the
+
+[2167.98 - 2171.099] law energize me English you can always
+
+[2169.48 - 2174.04] change it
+
+[2171.099 - 2176.1400000000003] so you need loss of changing the laws
+
+[2174.04 - 2178.3] but then you are going to need
+
+[2176.14 - 2179.6189999999997] laws of changing the laws of changing
+
+[2178.3 - 2181.3] the laws
+
+[2179.619 - 2183.2200000000003] because if you don't have lots of change
+
+[2181.3 - 2184.42] with a lot of strange the laws then you
+
+[2183.22 - 2186.52] cannot change the law of changing the
+
+[2184.42 - 2188.14] law and so on
+
+[2186.52 - 2190.599] so we are going to need infinitely many
+
+[2188.14 - 2193.42] loss just to begin with
+
+[2190.599 - 2195.88] what are we gonna do well
+
+[2193.42 - 2199.44] you need the laws of changing the laws
+
+[2195.88 - 2199.44] to refer also to themselves
+
+[2199.96 - 2204.82] for example imagine Constitution that
+
+[2203.32 - 2206.32] says
+
+[2204.82 - 2209.82] if
+
+[2206.32 - 2212.5] a proposed law
+
+[2209.82 - 2215.5] contradicts the Constitution
+
+[2212.5 - 2218.94] then it needs 60 majority otherwise it
+
+[2215.5 - 2218.94] needs 50 majority
+
+[2221.079 - 2225.099] those three examples are all about the
+
+[2223.3 - 2227.26] same thing languages can speak about
+
+[2225.099 - 2229.599] truth and contradiction of its own
+
+[2227.26 - 2234.099] sentences
+
+[2229.599 - 2237.04] and thus this was our biggest
+
+[2234.099 - 2239.32] theoretical effort and we achieved that
+
+[2237.04 - 2241.48] and then we have to move on to the
+
+[2239.32 - 2243.099] second theoretical effort which is after
+
+[2241.48 - 2246.52] we achieve that
+
+[2243.099 - 2248.38] this is software it is a language has to
+
+[2246.52 - 2250.24] be able to be a software specification
+
+[2248.38 - 2251.92] language because we are all about
+
+[2250.24 - 2255.06] software control by its users production
+
+[2251.92 - 2255.06] controlled by its users
+
+[2255.88 - 2260.32] it's not for specification language as
+
+[2258.04 - 2261.64] are characterized by having a temporal
+
+[2260.32 - 2265.56] dimension
+
+[2261.64 - 2265.56] first do this then do that
+
+[2266.8 - 2270.6400000000003] so we took us another
+
+[2269.079 - 2272.98] quiet way
+
+[2270.64 - 2274.839] to turn this language into a software
+
+[2272.98 - 2277.38] specification language but we achieve
+
+[2274.839 - 2277.38] that as well
+
+[2278.079 - 2282.76] and that what what is that that is
+
+[2280.78 - 2285.7000000000003] something you have actually achieved and
+
+[2282.76 - 2290.26] is ready or nearly ready correct
+
+[2285.7 - 2293.0789999999997] yes yes it is the the ready on paper
+
+[2290.26 - 2294.579] and we are now implementing it luckily
+
+[2293.079 - 2297.76] we don't need to implement it from
+
+[2294.579 - 2300.52] scratch because we already implemented
+
+[2297.76 - 2302.5600000000004] maybe all the Machinery necessary to
+
+[2300.52 - 2305.44] implement this language
+
+[2302.56 - 2306.88] and hopefully in the next month we can
+
+[2305.44 - 2308.68] see fine
+
+[2306.88 - 2310.2400000000002] excellent
+
+[2308.68 - 2312.52] um yeah tell us a little bit more now
+
+[2310.24 - 2315.04] that we've we've you've done such a
+
+[2312.52 - 2316.599] great job of outlining the problems and
+
+[2315.04 - 2318.52] now we're getting to the solutions that
+
+[2316.599 - 2321.099] you that you've engineered and and and
+
+[2318.52 - 2323.619] begun engineering and and implementing
+
+[2321.099 - 2325.0] so let's delve in those um so some of
+
+[2323.619 - 2326.98] the some of the solutions and I
+
+[2325.0 - 2328.42] apologize if I miss them but some of the
+
+[2326.98 - 2331.2400000000002] big solutions that you've come up with
+
+[2328.42 - 2333.579] is the Tau language The Tao meta
+
+[2331.24 - 2335.6189999999997] language and the Agora token so would
+
+[2333.579 - 2337.54] you like to walk us through each of
+
+[2335.619 - 2340.32] those Solutions and also any that I
+
+[2337.54 - 2340.32] missed I apologize
+
+[2341.64 - 2347.46] yeah so what I described now is the
+
+[2344.98 - 2347.46] tower language
+
+[2348.54 - 2353.92] it serves several purposes
+
+[2351.52 - 2356.28] first it is a very powerful execution
+
+[2353.92 - 2358.48] engine for logical tasks
+
+[2356.28 - 2360.579] it is
+
+[2358.48 - 2364.0] um in many senses equivalent to
+
+[2360.579 - 2367.54] relational algebra relational algebra is
+
+[2364.0 - 2369.76] the famous SQL that virtually all
+
+[2367.54 - 2372.099] databases or SQL database or relational
+
+[2369.76 - 2375.46] databases work with
+
+[2372.099 - 2377.76] it is not SQL but there is a deep
+
+[2375.46 - 2377.76] connection
+
+[2377.8 - 2380.079] but
+
+[2379.48 - 2381.2400000000002] um
+
+[2380.079 - 2385.0600000000004] it
+
+[2381.24 - 2387.2799999999997] implements relational algebra in in a
+
+[2385.06 - 2390.7599999999998] compressed way
+
+[2387.28 - 2393.1600000000003] and this kind of representation
+
+[2390.76 - 2395.2000000000003] allows you to
+
+[2393.16 - 2397.42] um to be a powerful logical solver by
+
+[2395.2 - 2400.72] its own
+
+[2397.42 - 2404.14] and the Technologies from tml will
+
+[2400.72 - 2406.6189999999997] indeed be used across all our logical
+
+[2404.14 - 2406.6189999999997] tools
+
+[2408.3 - 2413.8] is also and this gives it its name meta
+
+[2412.54 - 2417.22] language
+
+[2413.8 - 2419.44] is intended to be a compiler compiler a
+
+[2417.22 - 2421.48] tool to write translators from one
+
+[2419.44 - 2424.119] language to another
+
+[2421.48 - 2426.72] so it contains a very powerful parser
+
+[2424.119 - 2430.119] maybe the best passer
+
+[2426.72 - 2433.06] that exists on the market
+
+[2430.119 - 2436.7200000000003] and tools that allow you to take the
+
+[2433.06 - 2440.64] past three and manipulate it
+
+[2436.72 - 2440.64] and by that great translators
+
+[2440.98 - 2448.0] so to sum up tmn main three things is a
+
+[2446.02 - 2449.44] certain kind of database of compressed
+
+[2448.0 - 2452.859] database
+
+[2449.44 - 2456.94] that in certain tasks it is orders of
+
+[2452.859 - 2459.0989999999997] magnitudes faster than other databases
+
+[2456.94 - 2461.28] second is a powerful execution engine
+
+[2459.099 - 2464.2200000000003] which also incorporates both
+
+[2461.28 - 2467.8] execution I will explain it in a moment
+
+[2464.22 - 2470.74] and language for writing translators now
+
+[2467.8 - 2474.96] for proof of execution
+
+[2470.74 - 2474.9599999999996] that's something that we walk on
+
+[2475.359 - 2480.0989999999997] if if I
+
+[2478.119 - 2481.9] if you give me a program you ask me to
+
+[2480.099 - 2485.38] run the program let's let's say the
+
+[2481.9 - 2486.82] program we can say so no let's say
+
+[2485.38 - 2488.5] um so I come back to you I tell you the
+
+[2486.82 - 2491.079] program returned yes
+
+[2488.5 - 2492.579] how do you know I didn't make it up how
+
+[2491.079 - 2495.54] do you know I really
+
+[2492.579 - 2495.54] end the program
+
+[2499.119 - 2504.7000000000003] in absolute sense there is no way to
+
+[2502.54 - 2506.2599999999998] convince accept something that is
+
+[2504.7 - 2508.54] equivalent for you running the program
+
+[2506.26 - 2510.6600000000003] yourself again
+
+[2508.54 - 2512.8] but then what's the point
+
+[2510.66 - 2515.2] then we could just run it without giving
+
+[2512.8 - 2518.7400000000002] it away
+
+[2515.2 - 2520.1189999999997] turns out that other under cryptographic
+
+[2518.74 - 2523.0] assumptions
+
+[2520.119 - 2525.339] I can give you a cryptographic proof
+
+[2523.0 - 2527.38] that dialing was correct
+
+[2525.339 - 2529.66] the cryptographic means it's not a
+
+[2527.38 - 2531.9] logical proof but it is a very hard to
+
+[2529.66 - 2531.8999999999996] fake
+
+[2533.579 - 2540.6400000000003] so why don't you say that everywhere
+
+[2537.339 - 2543.16] why you cannot write now give program to
+
+[2540.64 - 2546.339] other people and get
+
+[2543.16 - 2548.859] a cryptographic certificate well
+
+[2546.339 - 2552.099] because it requires to convert the
+
+[2548.859 - 2555.5789999999997] program into a very specific form
+
+[2552.099 - 2559.06] and that's a big headache
+
+[2555.579 - 2561.46] and in tml because it is converted to
+
+[2559.06 - 2564.099] the binary decision diagram form it is
+
+[2561.46 - 2565.96] already in the form that suits this kind
+
+[2564.099 - 2568.1800000000003] of algorithm
+
+[2565.96 - 2570.4] so for tml program you are able to give
+
+[2568.18 - 2572.74] a short certificate
+
+[2570.4 - 2575.8] and this gives rise to
+
+[2572.74 - 2577.319] important blockchain feature
+
+[2575.8 - 2580.0600000000004] foreign
+
+[2577.319 - 2581.98] existing blockchain networks with smart
+
+[2580.06 - 2582.52] contracts
+
+[2581.98 - 2585.099] um
+
+[2582.52 - 2587.2] all nodes in the network need to earn
+
+[2585.099 - 2588.9] the smart contracts as part of the block
+
+[2587.2 - 2591.7599999999998] verification process
+
+[2588.9 - 2593.44] so the computational capacity of the
+
+[2591.76 - 2597.3] whole network
+
+[2593.44 - 2597.3] is as of one home computer
+
+[2597.339 - 2604.359] and all the work is repeated
+
+[2599.98 - 2606.94] why not one node runs the contracts and
+
+[2604.359 - 2609.64] supplies proof to the other nodes
+
+[2606.94 - 2611.7400000000002] that this is the correct answer
+
+[2609.64 - 2613.24] and that's indeed yet another aspect of
+
+[2611.74 - 2615.3999999999996] how
+
+[2613.24 - 2619.14] the proof of execution of contracts all
+
+[2615.4 - 2619.14] things in or other things in general
+
+[2620.14 - 2627.46] and so the town metal language is what
+
+[2623.56 - 2630.16] enables this distribution of not just
+
+[2627.46 - 2632.5] computation but also the proofs
+
+[2630.16 - 2635.44] um and then and that that relates to the
+
+[2632.5 - 2637.42] logic and the trust so uh Professor
+
+[2635.44 - 2639.94] franconi earlier you mentioned how do
+
+[2637.42 - 2642.579] you how do you trust right how do you
+
+[2639.94 - 2645.339] how do you arrive at that uh at that
+
+[2642.579 - 2647.079] place where there's agreement
+
+[2645.339 - 2649.72] um and that's that's a bit of what Ohad
+
+[2647.079 - 2654.28] is mentioning what is what is your uh
+
+[2649.72 - 2655.9599999999996] your take or uh reaction to some of
+
+[2654.28 - 2658.1800000000003] those some of the solutions that you
+
+[2655.96 - 2659.44] guys have come up with with the Tao meta
+
+[2658.18 - 2661.1189999999997] language
+
+[2659.44 - 2665.44] uh well
+
+[2661.119 - 2669.099] if I can go back with other examples or
+
+[2665.44 - 2671.98] I'd mentioned SQL and tml an assembling
+
+[2669.099 - 2674.079] SQL and based with uh this very powerful
+
+[2671.98 - 2681.66] data structures Etc
+
+[2674.079 - 2681.6600000000003] so SQL database technology is basically
+
+[2683.16 - 2689.2] making a business of 17 percent of all
+
+[2686.14 - 2691.48] ID so 70 of all ID money goes to
+
+[2689.2 - 2693.3999999999996] relational database technology that's
+
+[2691.48 - 2694.48] what companies do that's what is really
+
+[2693.4 - 2696.64] needed
+
+[2694.48 - 2700.839] and
+
+[2696.64 - 2702.0] Banks use SQL Technologies and and Banks
+
+[2700.839 - 2705.16] don't want
+
+[2702.0 - 2707.38] their technology to fail they want their
+
+[2705.16 - 2709.2999999999997] systems to always tell the truth about
+
+[2707.38 - 2710.8] how much money do they have and how much
+
+[2709.3 - 2711.94] money do they have to give to other
+
+[2710.8 - 2714.46] people and so on and so forth
+
+[2711.94 - 2717.88] transaction have to be transferred
+
+[2714.46 - 2720.04] now SQL is based on logic so SQL
+
+[2717.88 - 2724.839] technology is logic it's personal logic
+
+[2720.04 - 2727.9] is when it was created in the early 70s
+
+[2724.839 - 2730.48] it was created as a formal system
+
+[2727.9 - 2732.52] and SQL is a language where you can
+
+[2730.48 - 2734.26] actually access the data and update the
+
+[2732.52 - 2737.04] data and manage the data
+
+[2734.26 - 2740.44] and it's all based on on the notion that
+
+[2737.04 - 2742.839] the answer is always to any query or the
+
+[2740.44 - 2744.76] impact of any update the data is always
+
+[2742.839 - 2746.5] trustable because there are formal
+
+[2744.76 - 2748.9] proofs mathematical proofs that tells
+
+[2746.5 - 2751.44] you that that's one aspect and well I
+
+[2748.9 - 2754.839] have this joke they always make that
+
+[2751.44 - 2757.119] even Microsoft but these are a joke that
+
+[2754.839 - 2759.46] is good for people of my age
+
+[2757.119 - 2761.859] when Microsoft was just a nightmare
+
+[2759.46 - 2764.8] right with Windows crashing all the time
+
+[2761.859 - 2766.18] etc etc and then then you would say you
+
+[2764.8 - 2768.52] and
+
+[2766.18 - 2771.819] the question is how comes that Microsoft
+
+[2768.52 - 2773.8] as a reliable uh related SQL relational
+
+[2771.819 - 2776.68] engine this is SQL Server which is very
+
+[2773.8 - 2779.26] popular still nowadays it always gets
+
+[2776.68 - 2781.0] the correct answer so it never fails why
+
+[2779.26 - 2784.0200000000004] is that because well Microsoft have to
+
+[2781.0 - 2788.079] implement SQL their own SQL Server
+
+[2784.02 - 2790.24] engine by following The Logical rules
+
+[2788.079 - 2793.3] and they could not do anything else so
+
+[2790.24 - 2796.1189999999997] that's that's why another example joke
+
+[2793.3 - 2798.1600000000003] that involves Microsoft is would you
+
+[2796.119 - 2800.5] trust an airplane which is run by
+
+[2798.16 - 2803.44] Windows would you ever fly on that
+
+[2800.5 - 2805.9] airplane well probably not but you do
+
+[2803.44 - 2807.64] fly on airplanes why because the soft so
+
+[2805.9 - 2811.06] we are not so the software in Airplane
+
+[2807.64 - 2813.7599999999998] has not been by Tau but still there is a
+
+[2811.06 - 2816.52] major technology which uses logic to
+
+[2813.76 - 2818.619] verify the correctness of programs in
+
+[2816.52 - 2821.619] complex systems in safety critical
+
+[2818.619 - 2824.619] systems like Railways airplanes and
+
+[2821.619 - 2826.78] stuff so you you can transform your
+
+[2824.619 - 2828.2200000000003] program in some logical form your
+
+[2826.78 - 2831.4] software in some logical form and then
+
+[2828.22 - 2834.0989999999997] you ask to Theory improvers uh questions
+
+[2831.4 - 2835.9] something like it will ever be possible
+
+[2834.099 - 2838.839] that in sometimes in the future there
+
+[2835.9 - 2841.359] will be a configuration of labs engines
+
+[2838.839 - 2842.98] air conditioning whatever failing
+
+[2841.359 - 2844.48] batteries and stuff so that at some
+
+[2842.98 - 2846.94] point this airplane will fall down
+
+[2844.48 - 2848.92] because of the software of course you
+
+[2846.94 - 2850.42] want this the answer to be no but you
+
+[2848.92 - 2851.6800000000003] want to trust this answer you want to
+
+[2850.42 - 2854.6800000000003] ask this question
+
+[2851.68 - 2857.68] and you want to ask to trust the answer
+
+[2854.68 - 2860.2599999999998] by by the system that gives that that
+
+[2857.68 - 2862.2999999999997] tries to to answer this question and the
+
+[2860.26 - 2865.0] system are based on logic they do logic
+
+[2862.3 - 2868.48] based software verification which is a
+
+[2865.0 - 2872.4] very small part we also do this this is
+
+[2868.48 - 2872.4] somehow similar to the idea of
+
+[2872.619 - 2878.079] of proof that was talking was said by a
+
+[2876.28 - 2879.7000000000003] lot before but it's it's very limited to
+
+[2878.079 - 2882.88] that particular contest
+
+[2879.7 - 2885.5789999999997] so the notion of trust is what logic
+
+[2882.88 - 2888.1600000000003] gives you for free and another example
+
+[2885.579 - 2890.319] that it's what what is why logic is that
+
+[2888.16 - 2892.06] I would I would claim the logic is the
+
+[2890.319 - 2895.24] only thing that gives you that
+
+[2892.06 - 2898.14] it's uh well when we communicate and we
+
+[2895.24 - 2900.9399999999996] start to argue about one something
+
+[2898.14 - 2902.56] we may argue as much as you wish but
+
+[2900.94 - 2904.42] there are some things that I may say
+
+[2902.56 - 2906.7] that you can never counter argue right
+
+[2904.42 - 2908.44] there is no way that you cannot trust
+
+[2906.7 - 2911.46] what I say because I'm following a
+
+[2908.44 - 2914.64] logical argumentation and following some
+
+[2911.46 - 2918.28] patterns of reasoning which are
+
+[2914.64 - 2919.72] necessarily correct right and then of
+
+[2918.28 - 2921.6400000000003] course there are ways they can fool you
+
+[2919.72 - 2925.359] so I can
+
+[2921.64 - 2927.5789999999997] um I can build an argumentation that is
+
+[2925.359 - 2929.98] not really correct in terms of logical
+
+[2927.579 - 2932.319] steps but you don't fully understand it
+
+[2929.98 - 2933.64] because I confuse you with words
+
+[2932.319 - 2936.2799999999997] Etc and so you believe that the
+
+[2933.64 - 2939.16] argumentation is correct right and the
+
+[2936.28 - 2940.8390000000004] point is logic is exactly the study on
+
+[2939.16 - 2943.0] which kind of reasoning paths are
+
+[2940.839 - 2946.24] corrected which not so once you have
+
+[2943.0 - 2949.0] done this study you can build the ideal
+
+[2946.24 - 2951.339] discussion in any discussion or you can
+
+[2949.0 - 2954.099] build a logical Theory improver a
+
+[2951.339 - 2956.5] logical system that that guarantee that
+
+[2954.099 - 2959.44] whatever thing you ask them it's it's
+
+[2956.5 - 2962.319] correct and you cannot really disagree
+
+[2959.44 - 2965.44] with it so that's the notion of of why
+
+[2962.319 - 2967.839] this is random logic
+
+[2965.44 - 2971.079] excellent thank you for that it's always
+
+[2967.839 - 2972.819] oh go ahead odd I I need the one maybe
+
+[2971.079 - 2975.599] go take the charger
+
+[2972.819 - 2975.599] excuse me
+
+[2979.96 - 2985.42] let's see I don't think we can stop or
+
+[2982.9 - 2986.859] pause the uh the the video I can stop it
+
+[2985.42 - 2989.14] but I don't want to have to restart so
+
+[2986.859 - 2991.2] I'll just cut this one section out
+
+[2989.14 - 2991.2] um
+
+[2991.599 - 2997.6600000000003] uh but yeah uh this is this is great you
+
+[2994.9 - 2999.52] guys are are really phenomenal um at
+
+[2997.66 - 3001.6189999999997] explaining these
+
+[2999.52 - 3004.38] um and we're building up to
+
+[3001.619 - 3006.0] we're building up to the um one of the
+
+[3004.38 - 3008.88] key points um so what I'm going to ask
+
+[3006.0 - 3011.22] next is about how does how does the Tau
+
+[3008.88 - 3014.099] meta language help with building the
+
+[3011.22 - 3016.5] software and translating meaning between
+
+[3014.099 - 3018.3] languages whether it's natural language
+
+[3016.5 - 3020.7] or controlled language or you know
+
+[3018.3 - 3023.6400000000003] machine language and how does that also
+
+[3020.7 - 3025.56] relate to software specifications
+
+[3023.64 - 3027.66] um because that's that's kind of the
+
+[3025.56 - 3030.7799999999997] heart of what Tau the Tau Network
+
+[3027.66 - 3032.46] produces right that's the output or if
+
+[3030.78 - 3034.44] you disagree that's
+
+[3032.46 - 3036.48] um I'm curious to how like how would you
+
+[3034.44 - 3038.099] define the output of the town now I
+
+[3036.48 - 3039.72] guess that the metaphor the way I
+
+[3038.099 - 3042.54] understand because I'm just in part of
+
+[3039.72 - 3044.64] it tml is the assembler of the old
+
+[3042.54 - 3046.2599999999998] Endeavor so there is this these high
+
+[3044.64 - 3048.42] level languages like what this could be
+
+[3046.26 - 3050.8190000000004] the control natural language but or the
+
+[3048.42 - 3052.619] Tau language itself then then is
+
+[3050.819 - 3056.339] executed over tml
+
+[3052.619 - 3057.839] so it's uh it can be understood as such
+
+[3056.339 - 3059.88] you can do whatever you want of course
+
+[3057.839 - 3062.04] it's very low level so the thing that
+
+[3059.88 - 3064.6800000000003] you can do in tml have to be very
+
+[3062.04 - 3066.42] specific and again it is guaranteed that
+
+[3064.68 - 3069.24] whatever it does it does it correctly
+
+[3066.42 - 3070.8] but it's it's too fine grained right
+
+[3069.24 - 3073.4399999999996] somehow
+
+[3070.8 - 3075.599] then tau is a much more abstract
+
+[3073.44 - 3078.42] language and it's much closer to the
+
+[3075.599 - 3080.52] cognition of people using them so they
+
+[3078.42 - 3083.819] are the notion of Concepts and relations
+
+[3080.52 - 3086.46] and then and Transitions and programs
+
+[3083.819 - 3090.42] so that you can actually
+
+[3086.46 - 3092.099] express your your consonant software in
+
+[3090.42 - 3094.44] the tower that then will be compiled
+
+[3092.099 - 3096.059] into email that's my understanding but
+
+[3094.44 - 3097.859] probably oh and there's a better way to
+
+[3096.059 - 3100.3190000000004] say it
+
+[3097.859 - 3103.14] yeah well The Tao language is also very
+
+[3100.319 - 3105.599] low level yes okay but it's more idea to
+
+[3103.14 - 3108.66] make it I guess
+
+[3105.599 - 3110.94] even more yes yeah
+
+[3108.66 - 3113.5789999999997] the layer to convert from control
+
+[3110.94 - 3116.46] natural language or natural language
+
+[3113.579 - 3118.559] to the Tau language that would be a
+
+[3116.46 - 3123.0] different layer
+
+[3118.559 - 3125.4] but our language had to overcome the
+
+[3123.0 - 3127.92] theoretical difficulties of speaking
+
+[3125.4 - 3129.839] about rules of sentences in the same
+
+[3127.92 - 3131.7000000000003] language and having the temporal
+
+[3129.839 - 3133.5] Dimension to allow it to be sort of
+
+[3131.7 - 3135.48] specification language
+
+[3133.5 - 3138.48] and it achieves this in a mathematical
+
+[3135.48 - 3141.3] way if you see that our language
+
+[3138.48 - 3144.48] it will make little sense to you because
+
+[3141.3 - 3146.28] it is a mathematical thing
+
+[3144.48 - 3148.26] but you can
+
+[3146.28 - 3151.2200000000003] build on top of it something that
+
+[3148.26 - 3151.2200000000003] relates to real life
+
+[3153.72 - 3158.4599999999996] so by building
+
+[3155.66 - 3160.319] what I guess uh can you expand on that
+
+[3158.46 - 3161.94] like building building something on top
+
+[3160.319 - 3163.2] of the Tau language the town metal
+
+[3161.94 - 3164.46] language
+
+[3163.2 - 3168.1189999999997] um how does that how does that connect
+
+[3164.46 - 3170.88] to the original purpose of Tau which was
+
+[3168.119 - 3172.319] that collaboration the consensus and the
+
+[3170.88 - 3174.1800000000003] construction of software in a
+
+[3172.319 - 3177.18] decentralized manner because this is
+
+[3174.18 - 3178.5] this is the the underlying
+
+[3177.18 - 3180.0589999999997] um I don't want to say operating system
+
+[3178.5 - 3182.4] because it's it's different but it's the
+
+[3180.059 - 3185.28] underpinning technology that facilitates
+
+[3182.4 - 3187.02] that correct that goal of distributed
+
+[3185.28 - 3190.619] software development
+
+[3187.02 - 3192.119] yes but there is one important point to
+
+[3190.619 - 3196.28] understand here which is the difference
+
+[3192.119 - 3196.28] between code and specification
+
+[3198.0 - 3205.619] to give an example suppose you
+
+[3203.16 - 3207.24] you're a new city you want to reach from
+
+[3205.619 - 3211.38] point A to point B and you don't know
+
+[3207.24 - 3213.9599999999996] how to how to do that so you ask someone
+
+[3211.38 - 3216.559] and I tell you
+
+[3213.96 - 3219.48] you go straight third
+
+[3216.559 - 3220.92] turn to the right second third turn to
+
+[3219.48 - 3223.319] the left and so on they don't tell you
+
+[3220.92 - 3227.1800000000003] how many meters but I tell you the
+
+[3223.319 - 3230.16] second third first term and so on
+
+[3227.18 - 3231.5989999999997] and and you ask another one
+
+[3230.16 - 3233.2799999999997] and they give you completely different
+
+[3231.599 - 3236.339] directions
+
+[3233.28 - 3238.6800000000003] that hopefully lead to the same place
+
+[3236.339 - 3241.44] how can you compare and make sure that
+
+[3238.68 - 3244.6189999999997] those two sets of instructions lead you
+
+[3241.44 - 3247.28] to the same place well you cannot
+
+[3244.619 - 3247.28] you cannot
+
+[3249.119 - 3254.52] at the same way
+
+[3250.92 - 3256.079] it is impossible to say that whether two
+
+[3254.52 - 3257.94] programs are equivalent as we spoke
+
+[3256.079 - 3259.8590000000004] before and programs are indeed
+
+[3257.94 - 3263.42] instructions where the computer has to
+
+[3259.859 - 3263.42] turn at each moment
+
+[3263.7 - 3265.8799999999997] foreign
+
+[3268.04 - 3274.079] specification the requirements level of
+
+[3271.619 - 3277.6400000000003] different nature your requirement is to
+
+[3274.079 - 3277.6400000000003] age 1.8 to 0.3
+
+[3277.68 - 3283.0789999999997] and this is not written in the language
+
+[3279.9 - 3285.059] of instructions you will need eventually
+
+[3283.079 - 3288.8590000000004] to get the instructions
+
+[3285.059 - 3288.8590000000004] but that's not what you really want
+
+[3289.319 - 3292.5589999999997] software is still in the Stone Age In
+
+[3291.48 - 3295.02] This sense
+
+[3292.559 - 3297.0] you'll need to call the instructions
+
+[3295.02 - 3300.0] why can't you
+
+[3297.0 - 3302.78] like let your Google Maps calculate the
+
+[3300.0 - 3302.78] instructions for you
+
+[3302.819 - 3309.42] in the software analogy
+
+[3305.22 - 3313.5789999999997] why can't you just write the word
+
+[3309.42 - 3313.579] that the computer figure out the how
+
+[3315.599 - 3322.079] another limitation of traditional coding
+
+[3319.92 - 3325.6800000000003] is that
+
+[3322.079 - 3327.8390000000004] you cannot have Global statements for
+
+[3325.68 - 3330.0589999999997] example I don't know I want to reach
+
+[3327.839 - 3331.5] somewhere and go to a supermarket in the
+
+[3330.059 - 3334.8590000000004] middle
+
+[3331.5 - 3337.5] or a more software example never send
+
+[3334.859 - 3339.119] private data over the network
+
+[3337.5 - 3341.339] never center with that over the network
+
+[3339.119 - 3345.1800000000003] is not something you can code there is
+
+[3341.339 - 3347.7] no command that says never do that
+
+[3345.18 - 3350.339] you need to go over your whole code or
+
+[3347.7 - 3352.0789999999997] places that you send data and or places
+
+[3350.339 - 3354.119] that you declared data as private and
+
+[3352.079 - 3356.2200000000003] make sure that all pipes are
+
+[3354.119 - 3359.28] connected correctly
+
+[3356.22 - 3361.4399999999996] why can't you say just you don't survive
+
+[3359.28 - 3365.1800000000003] that over the report and that's it let's
+
+[3361.44 - 3365.18] let it figure it out automatically
+
+[3367.98 - 3370.88] another point
+
+[3370.98 - 3376.619] if we take the two uh
+
+[3374.46 - 3379.819] um directions instructions of how to
+
+[3376.619 - 3379.819] reach one point A to point B
+
+[3380.28 - 3385.2000000000003] you want to ask the question maybe
+
+[3382.619 - 3386.579] download the same but where do they
+
+[3385.2 - 3390.2599999999998] agree
+
+[3386.579 - 3390.26] well that's a meaningless question
+
+[3390.839 - 3395.4] but the same way if you have two
+
+[3392.819 - 3397.98] different programs and ask where do
+
+[3395.4 - 3401.42] those two programs agree
+
+[3397.98 - 3401.42] that's a meaningless question
+
+[3401.46 - 3405.96] but if you have two requirements
+
+[3403.98 - 3409.099] then ask well those two requirements
+
+[3405.96 - 3409.099] agree that's meaningful
+
+[3411.359 - 3417.359] the way to see the mathematical way that
+
+[3413.88 - 3419.88] we look at it is each requirement is
+
+[3417.359 - 3422.839] really the set of all programs that meet
+
+[3419.88 - 3422.839] those requirements
+
+[3423.619 - 3428.48] is mathematically the set of all
+
+[3425.88 - 3428.48] programs
+
+[3431.94 - 3435.3] and then you come up with another
+
+[3433.26 - 3437.579] requirement and which will be another
+
+[3435.3 - 3441.8] set and the agreement would be any
+
+[3437.579 - 3441.8] program that is in both sets
+
+[3442.079 - 3449.42] so we have to move from programs
+
+[3445.98 - 3449.42] to sets of programs
+
+[3449.7 - 3456.2999999999997] and to your question how
+
+[3452.839 - 3459.599] coordination takes place indeed
+
+[3456.3 - 3461.2200000000003] so every everyone can say whatever they
+
+[3459.599 - 3463.8590000000004] want to say about the software like
+
+[3461.22 - 3468.0789999999997] levels and public data over the network
+
+[3463.859 - 3471.24] and we look for programs that meet
+
+[3468.079 - 3474.119] everyone's requirements
+
+[3471.24 - 3476.4599999999996] if everyone each user would come up with
+
+[3474.119 - 3478.38] the whole program then you ask where to
+
+[3476.46 - 3480.92] programs agree as we said that's
+
+[3478.38 - 3480.92] meaningless
+
+[3481.319 - 3486.42] cannot have programming by consensus
+
+[3484.26 - 3487.619] programming by agreement which is what
+
+[3486.42 - 3491.099] we do
+
+[3487.619 - 3494.839] if you stick to code and programs you
+
+[3491.099 - 3494.839] must move to the requirements level
+
+[3499.92 - 3502.46] so
+
+[3502.5 - 3507.559] tying it into layers and the procedures
+
+[3508.14 - 3513.0589999999997] how do we get from
+
+[3511.319 - 3516.24] discussing
+
+[3513.059 - 3517.98] if I if I express my requirements you
+
+[3516.24 - 3520.0789999999997] know don't send my data over the network
+
+[3517.98 - 3522.119] as as one example and of course there's
+
+[3520.079 - 3524.46] plenty plenty of requirements so a
+
+[3522.119 - 3527.339] software requirement or specification is
+
+[3524.46 - 3529.559] as you said the what not the how I tell
+
+[3527.339 - 3532.319] I tell you what I want the outcome that
+
+[3529.559 - 3535.26] I want to achieve so how do we get from
+
+[3532.319 - 3537.24] me expressing that in English
+
+[3535.26 - 3539.1600000000003] or any other French Italian German
+
+[3537.24 - 3541.9799999999996] whatever any language how do we get from
+
+[3539.16 - 3543.24] groups of people expressing that
+
+[3541.98 - 3545.46] to
+
+[3543.24 - 3546.9599999999996] finding that agreement because we've
+
+[3545.46 - 3550.2] said that we've set up all these the the
+
+[3546.96 - 3553.2] pillars of these problems so
+
+[3550.2 - 3555.4199999999996] um Ohad and and Professor franconi I'd
+
+[3553.2 - 3558.4199999999996] like to now that we've set the stage
+
+[3555.42 - 3561.059] let's let's watch the play how do you
+
+[3558.42 - 3562.7400000000002] take those natural language discussions
+
+[3561.059 - 3564.96] that you you know the three of us have
+
+[3562.74 - 3567.72] about our requirements what are the
+
+[3564.96 - 3570.54] layers of abstraction that we that that
+
+[3567.72 - 3572.5789999999997] need to happen that you have solved to
+
+[3570.54 - 3574.14] then get from my my natural language
+
+[3572.579 - 3576.119] conversation your natural language
+
+[3574.14 - 3577.859] conversation to get to those
+
+[3576.119 - 3579.96] requirements and specifications can you
+
+[3577.859 - 3581.88] walk us through that I couldn't touch
+
+[3579.96 - 3585.7200000000003] the first step which is another language
+
+[3581.88 - 3588.78] but to logic so this is uh something
+
+[3585.72 - 3591.359] that is well known in people studying
+
+[3588.78 - 3594.6600000000003] languages so linguists and philosophers
+
+[3591.359 - 3596.22] and psychologists psychologists in
+
+[3594.66 - 3597.72] particular more formally which is the
+
+[3596.22 - 3599.5989999999997] aspect we are interested in
+
+[3597.72 - 3602.339] uh there are
+
+[3599.599 - 3605.4] scientists that in the 60s and the 70s
+
+[3602.339 - 3609.119] from montagues to Chomsky that
+
+[3605.4 - 3612.0] completely gratified how and why natural
+
+[3609.119 - 3615.2400000000002] language is related to a logical
+
+[3612.0 - 3617.7] specification of it so any sentence that
+
+[3615.24 - 3620.7599999999998] we utter in a language in English at
+
+[3617.7 - 3622.52] this point has a very precise meaning in
+
+[3620.76 - 3626.2200000000003] some logic
+
+[3622.52 - 3627.78] and as we say it's even too powerful
+
+[3626.22 - 3630.0] because we can express paradoxes
+
+[3627.78 - 3633.059] something like this sentence is false
+
+[3630.0 - 3635.28] right so then then I can't express this
+
+[3633.059 - 3637.94] but I don't want to clearly transform
+
+[3635.28 - 3640.559] this into logic because
+
+[3637.94 - 3642.839] explained to us before that this will
+
+[3640.559 - 3644.4] lead to an undecidable or a paradoxical
+
+[3642.839 - 3646.98] logic which would be meaningless to
+
+[3644.4 - 3648.299] foreign usage and indeed such a sentence
+
+[3646.98 - 3650.52] is also meaningless for us as a
+
+[3648.299 - 3652.74] communication mean so we want to focus
+
+[3650.52 - 3654.78] on as I mentioned before to the fragment
+
+[3652.74 - 3657.359] to the very large fragment of meaningful
+
+[3654.78 - 3658.98] sentences that people sentences that we
+
+[3657.359 - 3661.0789999999997] as a when we communicate we can
+
+[3658.98 - 3663.54] understand each other now how to
+
+[3661.079 - 3665.28] translate this in into logical form this
+
+[3663.54 - 3669.7799999999997] is a well-known process
+
+[3665.28 - 3671.6400000000003] and uh it's again it's uh again I guess
+
+[3669.78 - 3674.1600000000003] we inspired ourselves to the Montague
+
+[3671.64 - 3677.16] work but it's it can be done with
+
+[3674.16 - 3680.04] current Technologies it's what in a sort
+
+[3677.16 - 3683.64] of uh no positive way has been called
+
+[3680.04 - 3685.98] good old uh fashion AI right the golf I
+
+[3683.64 - 3687.54] think which people doing the neural
+
+[3685.98 - 3689.76] networks don't lie because this is
+
+[3687.54 - 3691.619] useless right well I don't know because
+
+[3689.76 - 3694.5] understanding language is probably not
+
+[3691.619 - 3697.44] useless and the way people in need an
+
+[3694.5 - 3699.599] Echoes understand language is uh they
+
+[3697.44 - 3701.16] don't understand language and if you
+
+[3699.599 - 3702.839] don't if you really want to do that you
+
+[3701.16 - 3705.299] have to go that the other way the way
+
+[3702.839 - 3708.299] that that philosophers and linguists and
+
+[3705.299 - 3711.599] and psychologists went through so we can
+
+[3708.299 - 3713.7599999999998] have a logical counterpart of of natural
+
+[3711.599 - 3715.559] language sentences it's not easy in
+
+[3713.76 - 3718.2000000000003] terms of capturing their own General
+
+[3715.559 - 3720.8390000000004] generality that's why that's why somehow
+
+[3718.2 - 3725.339] in terms of real world application this
+
+[3720.839 - 3728.16] this endeavor failed of the golf I did
+
+[3725.339 - 3731.099] not really deliver robust natural
+
+[3728.16 - 3734.0989999999997] language system as the Deep Learning
+
+[3731.099 - 3735.6600000000003] Community provides because it's much
+
+[3734.099 - 3737.52] harder because we want to understand
+
+[3735.66 - 3741.5] what the language says as opposed to
+
+[3737.52 - 3741.5] just statistically generate
+
+[3742.4 - 3747.42] non-understood sentences okay so we kind
+
+[3745.5 - 3749.52] of have this logical counterpart so in
+
+[3747.42 - 3751.02] indeed then we by using logic for
+
+[3749.52 - 3753.78] example we can replicate this is what
+
+[3751.02 - 3755.7] Aristotle did in 2000 years ago he
+
+[3753.78 - 3758.7000000000003] created the logic of syllogism
+
+[3755.7 - 3761.46] that corresponds to the argumentation uh
+
+[3758.7 - 3762.839] in certain particular patterns and and
+
+[3761.46 - 3764.64] then once you have this language
+
+[3762.839 - 3767.5789999999997] translated into logic we can employ
+
+[3764.64 - 3772.92] logic to check whether whatever we are
+
+[3767.579 - 3775.079] saying is is correct is whatever if you
+
+[3772.92 - 3776.4] counter argue something against me I can
+
+[3775.079 - 3778.38] check well your counter argument is
+
+[3776.4 - 3780.26] false so I can easily check right so and
+
+[3778.38 - 3781.94] that's somehow what our cognition does
+
+[3780.26 - 3784.559] hiddenly
+
+[3781.94 - 3786.839] and that's a really interesting uh
+
+[3784.559 - 3789.1400000000003] cognitive psychology problem why do we
+
+[3786.839 - 3791.5789999999997] trust
+
+[3789.14 - 3795.48] a good argumentation
+
+[3791.579 - 3798.0] and why logic well logic formula is just
+
+[3795.48 - 3800.16] this is the logic is just a way to
+
+[3798.0 - 3802.68] understand why this is true it's very
+
+[3800.16 - 3804.7799999999997] well understood why logic is the right
+
+[3802.68 - 3806.8799999999997] way to make a documentation which is has
+
+[3804.78 - 3810.799] to do with the notion of
+
+[3806.88 - 3813.059] uh entailment being ground on
+
+[3810.799 - 3815.22] model Theory let's say something like
+
+[3813.059 - 3819.6800000000003] this but yeah
+
+[3815.22 - 3819.68] so now we have logic and what can go on
+
+[3819.799 - 3824.52] pass the torch
+
+[3823.02 - 3826.2599999999998] oh hi
+
+[3824.52 - 3829.5] yeah so
+
+[3826.26 - 3831.48] um from a convenience natural language
+
+[3829.5 - 3834.42] interface
+
+[3831.48 - 3836.579] um or control natural language it will
+
+[3834.42 - 3838.02] it will not be full natural language you
+
+[3836.579 - 3840.2400000000002] will not speak to the computer the way
+
+[3838.02 - 3842.22] you speak with other people but in a
+
+[3840.24 - 3844.8799999999997] more limited way
+
+[3842.22 - 3847.5] from there it should be translated to
+
+[3844.88 - 3850.38] formal logic
+
+[3847.5 - 3853.44] which is a mathematical expression
+
+[3850.38 - 3855.9] and from there all logical reasoning
+
+[3853.44 - 3859.02] tasks like detecting contradictions or
+
+[3855.9 - 3862.02] consensus and so on
+
+[3859.02 - 3865.4] will be done automatically by the very
+
+[3862.02 - 3865.4] algorithms that we develop
+
+[3865.64 - 3870.7799999999997] to show that the language is decidable
+
+[3868.44 - 3874.26] which is what we do
+
+[3870.78 - 3876.599] we come up with algorithm that decides
+
+[3874.26 - 3879.3590000000004] the language
+
+[3876.599 - 3881.88] and maybe
+
+[3879.359 - 3885.7799999999997] um it is a point to mention
+
+[3881.88 - 3889.5] a major difficulty in this whole field
+
+[3885.78 - 3892.8590000000004] and which is the necessity the rare
+
+[3889.5 - 3895.619] necessity to very much combine Theory
+
+[3892.859 - 3900.66] with engineering
+
+[3895.619 - 3903.42] logic is a very deep Theory and it's it
+
+[3900.66 - 3906.1189999999997] is also very computationally intensive
+
+[3903.42 - 3907.799] naive implementation of logic is not
+
+[3906.119 - 3910.619] going to work in real life
+
+[3907.799 - 3912.66] you need extremely good engineering as
+
+[3910.619 - 3915.54] well as extremely good theory and
+
+[3912.66 - 3917.16] surprisingly or not this combination is
+
+[3915.54 - 3919.46] very rare in the software development
+
+[3917.16 - 3919.46] world
+
+[3920.46 - 3925.98] and I guess this is one of our strength
+
+[3924.78 - 3931.94] points
+
+[3925.98 - 3931.94] and indeed we invest a lot in both forms
+
+[3935.22 - 3940.68] so once you once you said well thank you
+
+[3938.76 - 3942.2990000000004] both for for helping break that that
+
+[3940.68 - 3944.64] down from
+
+[3942.299 - 3948.54] um you know from language controlled
+
+[3944.64 - 3950.819] language formal logic and so on
+
+[3948.54 - 3953.819] so let's
+
+[3950.819 - 3956.94] let's expand this or maybe look at it
+
+[3953.819 - 3958.14] from a different angle in terms of
+
+[3956.94 - 3959.94] um so we've you know we've talked about
+
+[3958.14 - 3961.5589999999997] the the talmata language the Tau
+
+[3959.94 - 3964.2000000000003] language we've talked about the problems
+
+[3961.559 - 3966.7200000000003] of uh of distributed development of
+
+[3964.2 - 3969.0] software and as you mentioned getting
+
+[3966.72 - 3971.5789999999997] getting to those specifications those
+
+[3969.0 - 3974.22] those purely logical Expressions as to
+
+[3971.579 - 3975.7200000000003] what you know the what we want it to do
+
+[3974.22 - 3977.7599999999998] but
+
+[3975.72 - 3979.9199999999996] that's not where the Tau Network ends
+
+[3977.76 - 3982.619] right that's actually just kind of step
+
+[3979.92 - 3985.799] one and after that as you talked about
+
+[3982.619 - 3988.28] before how do we get to the to the how
+
+[3985.799 - 3992.16] how does it do that how does the network
+
+[3988.28 - 3994.7400000000002] arrive at the actual new software that
+
+[3992.16 - 3996.359] you know once once people have expressed
+
+[3994.74 - 3997.68] their requirements
+
+[3996.359 - 4000.14] um and then you know as you also
+
+[3997.68 - 4001.819] mentioned uh you fight you find the
+
+[4000.14 - 4003.6189999999997] points of agreement right where do the
+
+[4001.819 - 4005.7799999999997] requirements overlap where do they agree
+
+[4003.619 - 4008.299] so then what's the next step once you
+
+[4005.78 - 4010.28] find those specifications
+
+[4008.299 - 4012.559] how do we how do we get to the how of
+
+[4010.28 - 4015.619] the software
+
+[4012.559 - 4019.1600000000003] yeah so starting with the
+
+[4015.619 - 4020.6600000000003] directions analogy
+
+[4019.16 - 4022.3999999999996] um so
+
+[4020.66 - 4025.2799999999997] one says
+
+[4022.4 - 4028.579] I want to go to a supermarket and the
+
+[4025.28 - 4030.92] other says I want to go to a restaurant
+
+[4028.579 - 4033.619] they see this to the computer so Google
+
+[4030.92 - 4036.26] Maps prepares a route that goes to a
+
+[4033.619 - 4039.94] supermarket and through a restaurant
+
+[4036.26 - 4042.8590000000004] and then the self-driving car
+
+[4039.94 - 4044.42] execute the South
+
+[4042.859 - 4046.2799999999997] so indeed
+
+[4044.42 - 4048.38] after people say what they have to say
+
+[4046.28 - 4051.44] we automatically calculate the agreement
+
+[4048.38 - 4054.559] we get some kind of specification we
+
+[4051.44 - 4056.42] automatically run the specification so
+
+[4054.559 - 4059.299] that's yet another point
+
+[4056.42 - 4062.299] the specification is executable indeed
+
+[4059.299 - 4062.299] automatically
+
+[4064.16 - 4070.0389999999998] so this the specification is Excel it is
+
+[4067.64 - 4072.44] itself already executable it doesn't
+
+[4070.039 - 4074.48] need to be translated to python or C or
+
+[4072.44 - 4076.599] anything like that
+
+[4074.48 - 4079.52] that's right well
+
+[4076.599 - 4081.7000000000003] there should be some program that takes
+
+[4079.52 - 4084.44] the specification and runs it
+
+[4081.7 - 4089.299] so you can look at it implicitly as
+
+[4084.44 - 4091.64] translating it to machine code okay but
+
+[4089.299 - 4093.14] just like you know Java python that you
+
+[4091.64 - 4095.0589999999997] mentioned
+
+[4093.14 - 4098.3589999999995] they're also not compiled languages
+
+[4095.059 - 4100.64] there's some interpreter the constant
+
+[4098.359 - 4103.46] same here we will be interpreter that
+
+[4100.64 - 4106.6990000000005] runs the Tau language
+
+[4103.46 - 4108.7390000000005] excellent I guess excellent by pushing
+
+[4106.699 - 4110.599999999999] the Google Maps metaphor right this is
+
+[4108.739 - 4113.299] exactly what the AI does
+
+[4110.6 - 4116.0] so you really say I want to go from A to
+
+[4113.299 - 4117.92] B or even take a robot or Google Maps
+
+[4116.0 - 4120.58] whatever and that's all you have to say
+
+[4117.92 - 4124.16] then the system
+
+[4120.58 - 4125.48] finds the execution path so this is the
+
+[4124.16 - 4127.4] path and this path there are many
+
+[4125.48 - 4129.678999999999] possibly infinite paths different
+
+[4127.4 - 4131.9] different programs that execute
+
+[4129.679 - 4133.279] your desires right your desirada your
+
+[4131.9 - 4136.58] specification
+
+[4133.279 - 4138.7390000000005] so you may give preferences you can say
+
+[4136.58 - 4141.3189999999995] well I want to have the shortest one or
+
+[4138.739 - 4143.7789999999995] the fastest one or the cheaper one in
+
+[4141.319 - 4146.660000000001] terms of fuel they need to to use
+
+[4143.779 - 4148.1] whatever so you have a sort of among all
+
+[4146.66 - 4149.3589999999995] the possible realization of this
+
+[4148.1 - 4151.1] specification because of course there
+
+[4149.359 - 4153.5] are many there'll be there will be
+
+[4151.1 - 4156.319] reason to prefer some over others
+
+[4153.5 - 4159.319] and and so this is a typical AI problem
+
+[4156.319 - 4162.5] which in the naive way is implemented as
+
+[4159.319 - 4165.38] a search problem so you have you want to
+
+[4162.5 - 4166.819] do things in terms of a robot I start a
+
+[4165.38 - 4168.4400000000005] certain position I know I have to go
+
+[4166.819 - 4170.779] there first of all I can have some
+
+[4168.44 - 4173.239] heuristics I can have some some way to
+
+[4170.779 - 4175.339000000001] to try first so I know if I have to go
+
+[4173.239 - 4176.9] to to the city center or to the
+
+[4175.339 - 4179.7789999999995] supermarket and know that it's in that
+
+[4176.9 - 4182.0] direction because you see the tower
+
+[4179.779 - 4184.160000000001] and that however well I go in that
+
+[4182.0 - 4186.14] direction but then maybe I hit against
+
+[4184.16 - 4189.5599999999995] the wall okay maybe this is not really
+
+[4186.14 - 4191.359] smart so well I backtrack and I try to
+
+[4189.56 - 4192.679] go slightly on the left and then it I
+
+[4191.359 - 4195.26] keep going trying to go in that
+
+[4192.679 - 4198.86] direction so I have some driving force
+
+[4195.26 - 4200.84] which is the heuristics I search for for
+
+[4198.86 - 4203.36] diff for the solution my party
+
+[4200.84 - 4204.8] potentially failing and backtracking and
+
+[4203.36 - 4207.199] then eventually I find the goal that's
+
+[4204.8 - 4210.320000000001] how Google Maps find the the the the the
+
+[4207.199 - 4212.419999999999] the your paths the best one the cheaper
+
+[4210.32 - 4215.0599999999995] one Whatever using these kind of
+
+[4212.42 - 4218.2390000000005] principles now what is also quite
+
+[4215.06 - 4222.320000000001] special in in the technology employed by
+
+[4218.239 - 4224.659] Tau which is fully an idea of rad is
+
+[4222.32 - 4226.099999999999] that we don't rely these arguments on
+
+[4224.659 - 4228.379999999999] third we don't base these algorithms on
+
+[4226.1 - 4229.52] search but we use them based on a
+
+[4228.38 - 4232.34] different kind of technology which is
+
+[4229.52 - 4237.14] Boolean algebras and automata so in this
+
+[4232.34 - 4239.719] sense we avoid also hopefully somehow uh
+
+[4237.14 - 4241.76] in in most of the cases the hopefully
+
+[4239.719 - 4243.679] means that is you cannot guarantee that
+
+[4241.76 - 4245.3] the solution will be fined always found
+
+[4243.679 - 4248.14] in always in the fastest possible way
+
+[4245.3 - 4251.3] but you can approximate the optimality
+
+[4248.14 - 4253.52] by by minimizing the time that you waste
+
+[4251.3 - 4255.4400000000005] by doing wrong choices somehow right and
+
+[4253.52 - 4257.780000000001] then you try to find the best program
+
+[4255.44 - 4261.259999999999] the best implementation of your
+
+[4257.78 - 4263.92] specification uh in in a reasonable
+
+[4261.26 - 4263.92] amount of time
+
+[4264.739 - 4271.659] yes excellent
+
+[4267.5 - 4274.28] um okay so we have
+
+[4271.659 - 4276.5599999999995] uh well I guess before I declare this
+
+[4274.28 - 4278.54] are there any other
+
+[4276.56 - 4281.2390000000005] um components or topics before we break
+
+[4278.54 - 4283.94] into the the result what is the final
+
+[4281.239 - 4285.98] result of Tau and how are people going
+
+[4283.94 - 4287.96] to interact with it and you know okay we
+
+[4285.98 - 4289.639999999999] have a way you have you have described a
+
+[4287.96 - 4292.28] way to
+
+[4289.64 - 4293.84] um to develop software in a
+
+[4292.28 - 4295.759999999999] decentralized manner with this
+
+[4293.84 - 4297.5] interpreted language
+
+[4295.76 - 4299.56] um but kind of the question then is like
+
+[4297.5 - 4301.58] okay so what what can we do with
+
+[4299.56 - 4303.620000000001] decentralized development of software
+
+[4301.58 - 4305.96] what is the what is the long-term
+
+[4303.62 - 4308.42] outcome of this and how is it going to
+
+[4305.96 - 4310.219] change my life your life how is it going
+
+[4308.42 - 4312.52] to change the world
+
+[4310.219 - 4312.52] foreign
+
+[4313.9 - 4321.44] aspect one thing that happens at the
+
+[4318.62 - 4322.94] beginning is everyone just saying what
+
+[4321.44 - 4325.219] they have to say
+
+[4322.94 - 4327.139999999999] everyone Express their opinion that
+
+[4325.219 - 4330.04] Mario may not reflect on how the
+
+[4327.14 - 4330.04] software should be like
+
+[4330.86 - 4336.32] and as a byproduct
+
+[4334.4 - 4339.86] you are going to have
+
+[4336.32 - 4341.719] the most powerful AI in the world
+
+[4339.86 - 4344.42] controlled by the people
+
+[4341.719 - 4346.46] that belongs to the people
+
+[4344.42 - 4349.219] not belong to one entity that who knows
+
+[4346.46 - 4351.86] what their intentions are and it will be
+
+[4349.219 - 4355.28] the most powerful because
+
+[4351.86 - 4359.179] so many people train this AI they just
+
+[4355.28 - 4362.3] speak like they speak in social networks
+
+[4359.179 - 4365.0] I will say that we already uploaded our
+
+[4362.3 - 4367.04] mind to the cyber
+
+[4365.0 - 4369.02] we just didn't do it in machine
+
+[4367.04 - 4371.6] comprehensible languages
+
+[4369.02 - 4373.400000000001] now that you will re-uploid your mind to
+
+[4371.6 - 4376.06] the Cyber in a way that machine can
+
+[4373.4 - 4376.0599999999995] understand you
+
+[4377.3 - 4382.6] the consequences of this are bigger than
+
+[4380.0 - 4382.6] imagination
+
+[4384.739 - 4390.04] so that's one big deal that is going to
+
+[4386.84 - 4390.04] happen from this technology
+
+[4390.32 - 4393.86] and then
+
+[4392.48 - 4396.5] um
+
+[4393.86 - 4399.86] suppose after you expressed a lot of
+
+[4396.5 - 4402.28] opinions now your Tau client knows what
+
+[4399.86 - 4402.28] you want
+
+[4402.5 - 4410.54] and knows ways to achieve what you want
+
+[4406.4 - 4414.339999999999] can automatically organize stuff as long
+
+[4410.54 - 4414.34] as the staff live in the computer world
+
+[4414.86 - 4421.58] to give you what you want
+
+[4417.8 - 4422.78] whether it is Taylor for me a good deal
+
+[4421.58 - 4426.62] that
+
+[4422.78 - 4429.44] takes into account my abilities my
+
+[4426.62 - 4431.0599999999995] skills my assets and other people bids
+
+[4429.44 - 4433.4] and so on
+
+[4431.06 - 4437.14] or how the
+
+[4433.4 - 4437.139999999999] how Society should be like
+
+[4439.76 - 4443.659000000001] and so long well you cannot just go to
+
+[4441.98 - 4444.62] Google and tell Google give me what I
+
+[4443.659 - 4447.08] want
+
+[4444.62 - 4450.28] but you will be able to go to Tao and
+
+[4447.08 - 4450.28] tell it give me what I want
+
+[4451.219 - 4455.96] so this this is why when I when I got
+
+[4455.0 - 4458.54] this
+
+[4455.96 - 4459.86] in our earlier conversations it it
+
+[4458.54 - 4462.98] completely
+
+[4459.86 - 4465.0199999999995] blew my mind because for me the
+
+[4462.98 - 4467.839999999999] difficulty was connecting okay formal
+
+[4465.02 - 4470.84] logic software specifications natural
+
+[4467.84 - 4472.46] language but what you're saying is once
+
+[4470.84 - 4474.92] you have that full stack all those
+
+[4472.46 - 4476.42] layers of abstraction and and then
+
+[4474.92 - 4478.1] because it's not just it's not just an
+
+[4476.42 - 4480.7390000000005] individual it's not just me talking to
+
+[4478.1 - 4483.5] Tao and it and it deriving
+
+[4480.739 - 4485.0599999999995] um specifications from my words but it's
+
+[4483.5 - 4487.58] also doing the same thing for everyone
+
+[4485.06 - 4490.52] who's participating in Tau and finding
+
+[4487.58 - 4493.219] those points of agreement and then it's
+
+[4490.52 - 4494.26] allowing the Tau Network to update
+
+[4493.219 - 4497.0] itself
+
+[4494.26 - 4498.92] automatically and so everyone who
+
+[4497.0 - 4500.3] participates in a tel Network and we'll
+
+[4498.92 - 4502.34] talk a little bit about how that's going
+
+[4500.3 - 4504.56] to be implemented and deployed in just a
+
+[4502.34 - 4507.4400000000005] moment but I just want to reiterate for
+
+[4504.56 - 4508.52] our audience this is this is this is the
+
+[4507.44 - 4511.4] key
+
+[4508.52 - 4513.9800000000005] um Innovation here where by interacting
+
+[4511.4 - 4515.12] with with your Tau client and as I
+
+[4513.98 - 4516.5] mentioned we'll get into the
+
+[4515.12 - 4518.599999999999] implementation and deployment in a
+
+[4516.5 - 4522.32] moment but by interacting with the Tau
+
+[4518.6 - 4524.42] client over time time it will learn what
+
+[4522.32 - 4526.82] you want what you need and it's all
+
+[4524.42 - 4529.34] recorded based on those expressions of
+
+[4526.82 - 4531.44] opinions and needs through from our
+
+[4529.34 - 4534.08] natural language correct
+
+[4531.44 - 4535.82] um so it will take that and then for uh
+
+[4534.08 - 4537.86] translate it into the controlled
+
+[4535.82 - 4539.9] language and then further and further
+
+[4537.86 - 4542.179] abstract it down into formal logic and
+
+[4539.9 - 4544.099999999999] specifications but then everyone who's
+
+[4542.179 - 4546.26] participating in Tau
+
+[4544.1 - 4549.4400000000005] will do the same thing and as you
+
+[4546.26 - 4552.1990000000005] mentioned everyone's ideas and needs and
+
+[4549.44 - 4554.599999999999] requirements and and knowledge will
+
+[4552.199 - 4556.639999999999] become embedded in the whole Tau Network
+
+[4554.6 - 4559.64] and that means that the town network
+
+[4556.64 - 4562.280000000001] will be as intelligent as everyone
+
+[4559.64 - 4565.400000000001] participating in it but not just as as
+
+[4562.28 - 4568.34] as individuals it will record those
+
+[4565.4 - 4570.799999999999] ideas abilities in any new capabilities
+
+[4568.34 - 4573.26] of the network over time and it will
+
+[4570.8 - 4575.719] continue to get smarter is that a good
+
+[4573.26 - 4579.679] summary of kind of how the Tau network
+
+[4575.719 - 4583.04] is alive in in some respects yes just
+
+[4579.679 - 4585.26] with one kevia I don't want the audience
+
+[4583.04 - 4587.84] to think that you're going to give a
+
+[4585.26 - 4589.88] natural language sentence and it will
+
+[4587.84 - 4592.9400000000005] understand you and that's it for natural
+
+[4589.88 - 4595.34] language to formal language it will be
+
+[4592.94 - 4597.259999999999] an interactive process but the user will
+
+[4595.34 - 4599.0] have to eventually approve the formal
+
+[4597.26 - 4602.2390000000005] statement
+
+[4599.0 - 4603.739] but other than that yes that's where the
+
+[4602.239 - 4605.718999999999] system is heading to in the long term
+
+[4603.739 - 4610.0] yes excellent
+
+[4605.719 - 4610.0] and so how does this
+
+[4610.42 - 4616.159] help me help me explain to our our
+
+[4613.699 - 4617.96] audience because I have I have an idea
+
+[4616.159 - 4620.0599999999995] in my head of what this Collective
+
+[4617.96 - 4623.4800000000005] Network intelligence has because it's
+
+[4620.06 - 4625.219] it's it forms a layer not just for
+
+[4623.48 - 4627.44] machines to communicate like you know
+
+[4625.219 - 4630.7390000000005] with with a blockchain right blockchain
+
+[4627.44 - 4633.678999999999] is is is how machines can can work
+
+[4630.739 - 4636.259999999999] together uh maintain consensus but this
+
+[4633.679 - 4638.36] also allows for humans to communicate
+
+[4636.26 - 4641.3] uh seamlessly not just with each other
+
+[4638.36 - 4643.4] but also with the machine layer
+
+[4641.3 - 4645.8] and then ultimately what are the kinds
+
+[4643.4 - 4648.32] of things that the Tau Network can be
+
+[4645.8 - 4650.78] endowed with what are the abilities or
+
+[4648.32 - 4654.08] capabilities or the extensibility of the
+
+[4650.78 - 4655.46] Tau Network like you know okay like we
+
+[4654.08 - 4656.48] talked about like Google Maps and stuff
+
+[4655.46 - 4659.06] but that's
+
+[4656.48 - 4661.759999999999] that's not even the beginning of what we
+
+[4659.06 - 4663.4400000000005] what what you could do with Tau so what
+
+[4661.76 - 4665.12] are what is the high end what is the
+
+[4663.44 - 4666.86] long-term
+
+[4665.12 - 4668.239] um set of capabilities that you can
+
+[4666.86 - 4670.159] imagine and like you said some of it is
+
+[4668.239 - 4672.739] beyond imagination but how do we get
+
+[4670.159 - 4674.96] from where we are today to the limits of
+
+[4672.739 - 4676.58] our imagination of the Tau Network walk
+
+[4674.96 - 4678.44] us through that
+
+[4676.58 - 4680.42] thank you
+
+[4678.44 - 4682.46] so indeed the main thing is beyond the
+
+[4680.42 - 4684.56] imagination but the few things we can
+
+[4682.46 - 4685.88] imagine
+
+[4684.56 - 4688.04] and
+
+[4685.88 - 4690.7390000000005] one thing is
+
+[4688.04 - 4692.6] combining brain power
+
+[4690.739 - 4693.86] so I will say that I can give you a
+
+[4692.6 - 4694.58] solution to all probabilities in the
+
+[4693.86 - 4696.92] world
+
+[4694.58 - 4698.48] we have a problem you take the one
+
+[4696.92 - 4700.58] million smartest people in the world you
+
+[4698.48 - 4701.419999999999] put them in one room until they show the
+
+[4700.58 - 4703.64] problem
+
+[4701.42 - 4705.32] well but it doesn't work because how can
+
+[4703.64 - 4709.46] one million people combine the brain
+
+[4705.32 - 4711.0199999999995] power it's just impossible as for now
+
+[4709.46 - 4712.82] but
+
+[4711.02 - 4713.900000000001] if the computer understands them what
+
+[4712.82 - 4718.0] they say
+
+[4713.9 - 4718.0] it can help in combining the brain power
+
+[4718.04 - 4725.92] so that's one thing combining brain
+
+[4722.179 - 4725.92] power large scale for the first time
+
+[4726.92 - 4732.8] another thing which is something that we
+
+[4730.1 - 4735.860000000001] also work on actually implementing but
+
+[4732.8 - 4738.8] this is going to be a part of Tau and
+
+[4735.86 - 4739.94] a big part of what our course token is
+
+[4738.8 - 4741.8] about
+
+[4739.94 - 4744.62] is
+
+[4741.8 - 4746.900000000001] um creating an economy of knowledge
+
+[4744.62 - 4749.78] you can trade
+
+[4746.9 - 4752.0] single pieces of knowledge directly
+
+[4749.78 - 4755.54] and indeed we spoke about training the
+
+[4752.0 - 4758.3] machine formalizing knowledge and so on
+
+[4755.54 - 4759.739] if there is also a financial incentive
+
+[4758.3 - 4761.6] to do so
+
+[4759.739 - 4764.44] you can expect other such magnitude
+
+[4761.6 - 4764.4400000000005] small activity
+
+[4766.94 - 4772.5199999999995] and that is the the Agra token that
+
+[4769.76 - 4776.2390000000005] you're referring to yeah
+
+[4772.52 - 4778.34] so well another thing
+
+[4776.239 - 4782.36] is as soon as people are very worried
+
+[4778.34 - 4784.400000000001] about AI doing the bad stuff
+
+[4782.36 - 4786.94] and as we said before about the laws of
+
+[4784.4 - 4786.94] robotics
+
+[4787.46 - 4791.78] the existing field of mathematical logic
+
+[4790.4 - 4793.759999999999] does not know
+
+[4791.78 - 4796.28] how to make sure that the next software
+
+[4793.76 - 4797.900000000001] update will maintain a lot of robotics
+
+[4796.28 - 4800.599999999999] and that's a very serious problem
+
+[4797.9 - 4803.12] concerning AI safety
+
+[4800.6 - 4805.84] but how far of this problem
+
+[4803.12 - 4809.679] and how you will be able to reject
+
+[4805.84 - 4809.679] undesired future Behavior
+
+[4811.88 - 4818.78] and so the the the to get to that point
+
+[4815.36 - 4821.42] all the users of Tau will at some point
+
+[4818.78 - 4823.4] Express that opinion through controlled
+
+[4821.42 - 4825.02] language through through that process
+
+[4823.4 - 4826.879999999999] that you mentioned of
+
+[4825.02 - 4829.0] you know working with the machine to
+
+[4826.88 - 4831.7390000000005] express your desire but say for instance
+
+[4829.0 - 4834.08] we we collectively
+
+[4831.739 - 4837.44] uh put in a requirement into the town
+
+[4834.08 - 4838.64] Network like don't ever launch nuclear
+
+[4837.44 - 4840.919999999999] missiles right that's the Skynet
+
+[4838.64 - 4844.1] solution that everyone is afraid of so
+
+[4840.92 - 4845.84] is is that some is can we literally work
+
+[4844.1 - 4847.52] on that with Tau like don't ever launch
+
+[4845.84 - 4849.14] nuclear weapons or or something along
+
+[4847.52 - 4851.2390000000005] those lines like you said the
+
+[4849.14 - 4854.179] contradictions or the restraints the
+
+[4851.239 - 4856.94] rejecting of instructions or coding or
+
+[4854.179 - 4858.14] other things how is is is that how that
+
+[4856.94 - 4860.96] works
+
+[4858.14 - 4863.54] yes whatever you are able to say in the
+
+[4860.96 - 4866.3] language will happen for sure
+
+[4863.54 - 4868.4] but the difficulty is to say what you
+
+[4866.3 - 4870.8] want to say in the language indeed right
+
+[4868.4 - 4874.04] and to write
+
+[4870.8 - 4876.1990000000005] a whole design a whole book in natural
+
+[4874.04 - 4877.82] language is also how
+
+[4876.199 - 4880.099999999999] it's not because it's logic then it
+
+[4877.82 - 4882.86] becomes hard itself also the natural
+
+[4880.1 - 4884.179] language this difficulty is not going to
+
+[4882.86 - 4886.82] disappear
+
+[4884.179 - 4889.9400000000005] maybe it cannot be spread among many
+
+[4886.82 - 4893.659] people because of the combining brain
+
+[4889.94 - 4896.54] power aspect we spoke about but
+
+[4893.659 - 4899.799999999999] it's not going to be fully automatic
+
+[4896.54 - 4899.8] fully easy no
+
+[4905.3 - 4910.34] so
+
+[4907.04 - 4912.26] let's take that example of creating a
+
+[4910.34 - 4913.82] constraint a limitation on the Tau
+
+[4912.26 - 4916.400000000001] Network something that it must not do
+
+[4913.82 - 4921.32] right you know expressed in formal logic
+
+[4916.4 - 4923.9] but let's look more uh more beneficial
+
+[4921.32 - 4926.44] more utopian what if we were to say
+
+[4923.9 - 4928.639999999999] something like
+
+[4926.44 - 4929.9] how would it go about implementing
+
+[4928.64 - 4933.02] something like let's say everyone on the
+
+[4929.9 - 4935.54] town networks had uh defined the hat or
+
+[4933.02 - 4937.52] the what right the specification of make
+
+[4935.54 - 4939.679] sure everyone is fed make sure that
+
+[4937.52 - 4941.3] there's no hunger on the planet is that
+
+[4939.679 - 4943.82] something that could be expressed in the
+
+[4941.3 - 4945.9800000000005] towel language Town meta language and
+
+[4943.82 - 4947.239] then implement it and how would that
+
+[4945.98 - 4948.5] work or how would that look and
+
+[4947.239 - 4950.718999999999] obviously it'll take a little while to
+
+[4948.5 - 4952.58] get to something like that but is that
+
+[4950.719 - 4954.7390000000005] the kind of thing you know because
+
+[4952.58 - 4956.12] that's something I can imagine is that
+
+[4954.739 - 4958.459999999999] the is that the kind of thing that is
+
+[4956.12 - 4962.0199999999995] possible or feasible
+
+[4958.46 - 4962.02] you know in the next five to ten years
+
+[4962.36 - 4967.179] well to just Express that of course you
+
+[4965.06 - 4970.34] can express but you will need to express
+
+[4967.179 - 4974.62] so much more to reach a level that the
+
+[4970.34 - 4974.62] system knows how to achieve it okay
+
+[4975.98 - 4981.139999999999] so there's there's implicit
+
+[4978.5 - 4983.3] uh prerequisites in order to achieve
+
+[4981.14 - 4985.6990000000005] that outcome but that outcome could be
+
+[4983.3 - 4989.900000000001] expressed in the Tau Network and then
+
+[4985.699 - 4992.96] through the process of uh conversation
+
+[4989.9 - 4995.239] um or negotiation or or exploring those
+
+[4992.96 - 4997.82] other requirements to work up to
+
+[4995.239 - 5000.4] something along those lines
+
+[4997.82 - 5001.179] um or or all the prerequisite steps
+
+[5000.4 - 5005.259999999999] rather
+
+[5001.179 - 5009.34] yes that will take what you tell it as
+
+[5005.26 - 5012.6990000000005] is with no modification and no guessing
+
+[5009.34 - 5015.52] and automatically draw the conclusions
+
+[5012.699 - 5017.919999999999] so as long as you gave it the means
+
+[5015.52 - 5019.84] whether explicitly or implicitly to
+
+[5017.92 - 5022.0] achieve what you want it will achieve it
+
+[5019.84 - 5025.0] well with the small caveat of the time
+
+[5022.0 - 5025.96] it takes the computer to compute such
+
+[5025.0 - 5029.98] stuff
+
+[5025.96 - 5033.76] but ignoring this caveat it will achieve
+
+[5029.98 - 5036.28] okay so the go ahead yeah yeah so just
+
+[5033.76 - 5038.62] to compliment then I guess similarly to
+
+[5036.28 - 5041.38] what to the success of current deep
+
+[5038.62 - 5044.44] neural networks that basically they do
+
+[5041.38 - 5047.5] this analysis statistical analysis of so
+
+[5044.44 - 5049.9] many things that were said in the past
+
+[5047.5 - 5052.179] so that they can have an idea what could
+
+[5049.9 - 5055.299999999999] be meaningful or what is not having a
+
+[5052.179 - 5056.62] look what is this similarly here but in
+
+[5055.3 - 5059.5] a completely different levels because
+
+[5056.62 - 5062.44] again with the notion of trust added
+
+[5059.5 - 5064.12] is that in order to achieve interesting
+
+[5062.44 - 5065.08] conclusion the system has to have
+
+[5064.12 - 5067.239] knowledge
+
+[5065.08 - 5071.0199999999995] so I can imagine that the beginning Tau
+
+[5067.239 - 5072.879999999999] will be quite stupid in the sense that
+
+[5071.02 - 5075.1] it does not have a lot of common sense
+
+[5072.88 - 5077.56] knowledge to to reach interesting
+
+[5075.1 - 5079.179] conclusion for us humans in certain
+
+[5077.56 - 5081.219] fields for example if we focus on
+
+[5079.179 - 5083.4400000000005] software engineering well yes because
+
+[5081.219 - 5085.84] they don't really need Common Sense
+
+[5083.44 - 5087.699] there but if you make these examples of
+
+[5085.84 - 5089.7390000000005] nuclear weapons or whatever then that's
+
+[5087.699 - 5092.86] another level of thing however what is
+
+[5089.739 - 5097.678999999999] interesting is that people by talking by
+
+[5092.86 - 5100.42] using Tau will uh will add knowledge
+
+[5097.679 - 5102.04] that since the common sense knowledge is
+
+[5100.42 - 5103.84] the knowledge that we all of us have
+
+[5102.04 - 5106.12] even that even though we don't know that
+
+[5103.84 - 5107.5] we have but it's this all of us it's
+
+[5106.12 - 5108.699] interesting because somehow it's all
+
+[5107.5 - 5110.26] this knowledge that we already have an
+
+[5108.699 - 5112.419999999999] agreement about
+
+[5110.26 - 5115.54] we all know that elephants don't fly
+
+[5112.42 - 5118.96] right and at some point possibly I guess
+
+[5115.54 - 5121.12] because of this consensus mechanism this
+
+[5118.96 - 5122.86] will be just a fact for Tau right and so
+
+[5121.12 - 5124.659] it will build slowly all these Common
+
+[5122.86 - 5126.339999999999] Sense knowledge because everybody agrees
+
+[5124.659 - 5128.44] on this implicitly
+
+[5126.34 - 5130.54] and against this because since we are
+
+[5128.44 - 5132.28] using logic then all this implicit facts
+
+[5130.54 - 5133.6] are also important so whatever whenever
+
+[5132.28 - 5136.179] you make a statement that does something
+
+[5133.6 - 5137.679] implicit well this is it's not
+
+[5136.179 - 5140.52] exclusively said but it's true anyway
+
+[5137.679 - 5144.46] because it's implicit
+
+[5140.52 - 5146.1990000000005] uh and so you will that will grow up and
+
+[5144.46 - 5147.46] and and acquire all this Common Sense
+
+[5146.199 - 5150.04] knowledge the other thing I wanted to
+
+[5147.46 - 5152.62] mention is is the idea of the law of
+
+[5150.04 - 5154.54] Robotics because Tau can also take a
+
+[5152.62 - 5157.9] very nasty direction if if people want
+
+[5154.54 - 5159.699] so maybe the majority wants to vote
+
+[5157.9 - 5161.62] for having a dictator
+
+[5159.699 - 5163.178999999999] so since they can change the rules they
+
+[5161.62 - 5164.679] can change the agreement rules they can
+
+[5163.179 - 5167.56] change how the system evolves they can
+
+[5164.679 - 5170.62] say Well only if we get the approval by
+
+[5167.56 - 5173.080000000001] or your preferred dictator so you have
+
+[5170.62 - 5175.719] this person that because everybody
+
+[5173.08 - 5177.58] agrees that they want to pass all the
+
+[5175.719 - 5179.76] agreements through this person or to
+
+[5177.58 - 5182.92] this agent whatever just mention example
+
+[5179.76 - 5184.719] now this means that from now since now
+
+[5182.92 - 5186.46] this is the new mechanism of agreement
+
+[5184.719 - 5189.46] you cannot change this right because
+
+[5186.46 - 5191.56] it's a it's a law for this sort of it's
+
+[5189.46 - 5194.32] a constitution and to change this
+
+[5191.56 - 5196.42] uh you have to apply this rule itself so
+
+[5194.32 - 5198.28] only with the approval of the dictator
+
+[5196.42 - 5200.02] you can change the rule that he is the
+
+[5198.28 - 5202.12] dictator
+
+[5200.02 - 5204.46] that's if that gets approved in the
+
+[5202.12 - 5206.0199999999995] first place yes yes indeed but it might
+
+[5204.46 - 5208.36] not ever get approved so that's why I
+
+[5206.02 - 5211.6] also conceive that there may be branches
+
+[5208.36 - 5213.099999999999] different realities of Tau that the one
+
+[5211.6 - 5214.659000000001] which has a dictatorship or some
+
+[5213.1 - 5216.88] something like countries right people
+
+[5214.659 - 5218.739] that create their own majority religious
+
+[5216.88 - 5221.02] subgroups that create a religious
+
+[5218.739 - 5223.718999999999] reality or whatever right so that's also
+
+[5221.02 - 5225.88] interesting I guess
+
+[5223.719 - 5228.52] um so you what you're saying is that
+
+[5225.88 - 5231.28] that could be a a smaller implementation
+
+[5228.52 - 5233.7390000000005] or an isolated Tau Network might end up
+
+[5231.28 - 5234.82] with that set of rules
+
+[5233.739 - 5237.699] okay
+
+[5234.82 - 5239.62] now but what if so here's here's where I
+
+[5237.699 - 5241.839999999999] after learning about this and I was just
+
+[5239.62 - 5243.219] thinking about it
+
+[5241.84 - 5245.02] um
+
+[5243.219 - 5248.62] what if
+
+[5245.02 - 5251.320000000001] what if Tau ends up much broader
+
+[5248.62 - 5253.96] like across entire nations or continents
+
+[5251.32 - 5255.639] or or Global is that is that part of the
+
+[5253.96 - 5257.8] vision is that part of the dream where
+
+[5255.639 - 5259.84] everyone is interacting with the same
+
+[5257.8 - 5263.4400000000005] town Network and it becomes collectively
+
+[5259.84 - 5265.2390000000005] more intelligent and and and has the
+
+[5263.44 - 5267.879999999999] knowledge and capabilities of all humans
+
+[5265.239 - 5269.259999999999] across the whole planet is that is that
+
+[5267.88 - 5270.9400000000005] part of the dream because that's that's
+
+[5269.26 - 5273.34] to me that's that's where my imagination
+
+[5270.94 - 5276.0] goes with the technology that you guys
+
+[5273.34 - 5276.0] have outlined
+
+[5278.58 - 5285.28] well I believe that anyone should have a
+
+[5282.76 - 5288.6990000000005] significant voice
+
+[5285.28 - 5290.739] and in Tao is indeed a voice amplifier
+
+[5288.699 - 5292.719] and you may ask well if you amplify
+
+[5290.739 - 5295.239] everyone's voice then what's the point
+
+[5292.719 - 5297.219] then you remain with the noise but when
+
+[5295.239 - 5302.099999999999] it does the magic of amplifying all
+
+[5297.219 - 5302.1] voices without having the noise
+
+[5302.32 - 5306.46] and I personally yes I want to see
+
+[5305.38 - 5309.28] everyone
+
+[5306.46 - 5311.62] saying their opinion in society takes
+
+[5309.28 - 5314.28] everyone into account
+
+[5311.62 - 5316.96] whether
+
+[5314.28 - 5320.32] governments want that or will go this
+
+[5316.96 - 5322.4800000000005] direction I don't know
+
+[5320.32 - 5324.46] right it wouldn't even have to be like I
+
+[5322.48 - 5326.739] guess a government could adopt it right
+
+[5324.46 - 5328.9] like one one early step and I've
+
+[5326.739 - 5331.36] discussed this concept with other folks
+
+[5328.9 - 5333.28] is using using Dao's distributed
+
+[5331.36 - 5335.199] autonomous organizations or like
+
+[5333.28 - 5337.42] townships or homeowners associations
+
+[5335.199 - 5339.159] that could be a first step
+
+[5337.42 - 5341.5] um but yeah it wouldn't necessarily need
+
+[5339.159 - 5343.599999999999] to be adopted by governments but if it's
+
+[5341.5 - 5345.94] if it's if it's by voluntary
+
+[5343.6 - 5349.120000000001] participation
+
+[5345.94 - 5351.219] right if if I can decide to set up a
+
+[5349.12 - 5353.44] town node on my phone and then I'm
+
+[5351.219 - 5355.12] participating in the town Network it's
+
+[5353.44 - 5357.94] almost like nobody could stop it either
+
+[5355.12 - 5359.8] is that is that a possible possible
+
+[5357.94 - 5361.599999999999] future is is that's one of the the
+
+[5359.8 - 5365.04] natures the robust Natures of blockchain
+
+[5361.6 - 5365.04] is that it's difficult to turn off
+
+[5365.62 - 5370.12] yes just like
+
+[5368.46 - 5372.46] the the
+
+[5370.12 - 5375.239] most evolutionary thing ever happened in
+
+[5372.46 - 5375.2390000000005] history is the internet
+
+[5375.82 - 5380.32] and indeed people say what they say in
+
+[5378.34 - 5382.4800000000005] the internet they try to stop it yes we
+
+[5380.32 - 5383.739] now we have a lot of censorship
+
+[5382.48 - 5386.138999999999] but
+
+[5383.739 - 5388.36] people still to a large extent able to
+
+[5386.139 - 5390.219] say what they have to say
+
+[5388.36 - 5392.62] although it is propagated only for
+
+[5390.219 - 5395.7390000000005] people who read them there is a limit to
+
+[5392.62 - 5397.8] how many people you can read every day
+
+[5395.739 - 5397.799999999999] um
+
+[5398.1 - 5405.120000000001] you are going to see a summarized map of
+
+[5402.04 - 5405.12] what everyone says
+
+[5405.52 - 5408.9400000000005] because it can be that two people have
+
+[5407.44 - 5411.46] three opinions
+
+[5408.94 - 5413.138999999999] but in a million people they will not be
+
+[5411.46 - 5415.12] a million opinions there will be a lot
+
+[5413.139 - 5417.12] of overlap
+
+[5415.12 - 5417.12] um
+
+[5417.4 - 5422.739] so you can you can Aggregate and
+
+[5419.92 - 5424.9] summarize and cluster not just people as
+
+[5422.739 - 5426.759999999999] a whole but but their opinions and so it
+
+[5424.9 - 5429.159] says you overlap with this group over
+
+[5426.76 - 5432.42] here and and that's part of that finding
+
+[5429.159 - 5435.239] consensus or finding agreement in
+
+[5432.42 - 5438.58] arbitrarily large populations
+
+[5435.239 - 5441.58] this is what we call the opinion map
+
+[5438.58 - 5441.58] shows
+
+[5443.739 - 5448.839999999999] so you can think about the Twitter feed
+
+[5445.96 - 5452.02] or Facebook feed they look like this
+
+[5448.84 - 5455.4400000000005] user said that this user said that
+
+[5452.02 - 5458.860000000001] imagine you could say it this opinion
+
+[5455.44 - 5461.94] is held by those Industries
+
+[5458.86 - 5461.94] the other way up
+
+[5463.179 - 5469.659] so let me throw a hypothetical into the
+
+[5466.06 - 5472.780000000001] into this is let's imagine a future
+
+[5469.659 - 5475.0599999999995] where there's millions of Tau users and
+
+[5472.78 - 5477.04] there are opinions that are
+
+[5475.06 - 5478.6] diametrically opposed that are mutually
+
+[5477.04 - 5481.239] exclusive
+
+[5478.6 - 5482.8] does the Tau Network try to reconcile
+
+[5481.239 - 5485.08] that or is the answer it just doesn't
+
+[5482.8 - 5487.3] address that issue if there's if there's
+
+[5485.08 - 5489.219] that level of antagonism how does that
+
+[5487.3 - 5492.159000000001] work in the network
+
+[5489.219 - 5494.62] Tau will never guess and will never put
+
+[5492.159 - 5497.739] words in your mouth it will always be
+
+[5494.62 - 5501.659] exactly what you told it that's the
+
+[5497.739 - 5504.339999999999] whole point of using logic okay
+
+[5501.659 - 5507.5199999999995] but I guess maybe not how but let's say
+
+[5504.34 - 5509.5] let's say if my opinion is is we should
+
+[5507.52 - 5511.719] feed everyone and that you know I
+
+[5509.5 - 5513.58] express that opinion and you're in your
+
+[5511.719 - 5515.62] opinion is we shouldn't feed anyone
+
+[5513.58 - 5518.0199999999995] people should feed themselves and so
+
+[5515.62 - 5520.719] from if those two opinions are expressed
+
+[5518.02 - 5522.639] in formal logic at least to my you know
+
+[5520.719 - 5526.179] amateur brain they seem like they're
+
+[5522.639 - 5527.92] mutually exclusive right is that right
+
+[5526.179 - 5529.54] and so what how would how would that be
+
+[5527.92 - 5531.88] reconciled in the town Network or would
+
+[5529.54 - 5533.739] it not be reconciled it will not be it
+
+[5531.88 - 5537.04] is a contradiction there is a
+
+[5533.739 - 5539.98] disagreement okay to do so there are
+
+[5537.04 - 5542.739] ways to mitigate it you can if you think
+
+[5539.98 - 5545.199] about creating a mechanism of debate
+
+[5542.739 - 5548.199] which is kind of again debate is kind of
+
+[5545.199 - 5549.5199999999995] a game another thing is
+
+[5548.199 - 5554.46] um
+
+[5549.52 - 5554.46] who how what consensus means
+
+[5554.56 - 5558.580000000001] so we can say this thing that everyone
+
+[5556.42 - 5562.32] agrees on or the majority algorithm and
+
+[5558.58 - 5562.32] so on and this can also change with time
+
+[5563.02 - 5568.0] bottom line the users will have to
+
+[5565.9 - 5571.78] Define how to address these situations
+
+[5568.0 - 5575.38] there is no out-of-the-box solution
+
+[5571.78 - 5577.179] I see so to to to walk through a
+
+[5575.38 - 5579.52] hypothetical where there's any any any
+
+[5577.179 - 5582.219] point of contention
+
+[5579.52 - 5584.139] um whatever the topic is if if there can
+
+[5582.219 - 5587.44] be no agreement on any particular
+
+[5584.139 - 5589.54] solution part of part of what happens
+
+[5587.44 - 5591.46] moving forward is there might be a
+
+[5589.54 - 5594.04] discussion about even how to make the
+
+[5591.46 - 5596.08] decision what are the decision criteria
+
+[5594.04 - 5597.4] or what are the other
+
+[5596.08 - 5599.98] um like there might be a debate
+
+[5597.4 - 5601.42] mechanism as you said or there could be
+
+[5599.98 - 5604.599999999999] um maybe the rule is set that you only
+
+[5601.42 - 5607.06] need 98 majority vote and if two percent
+
+[5604.6 - 5611.02] disagree they get ignored or you know
+
+[5607.06 - 5613.4800000000005] but anything any rules can be uh
+
+[5611.02 - 5614.92] conjured up and eventually applied
+
+[5613.48 - 5617.08] um through the Tau Network
+
+[5614.92 - 5619.84] that's why you need to change the laws
+
+[5617.08 - 5622.0599999999995] of changing the laws that's why exactly
+
+[5619.84 - 5625.84] exactly
+
+[5622.06 - 5628.3] um that's it this is phenomenal I
+
+[5625.84 - 5630.34] it's still it still blows my mind when I
+
+[5628.3 - 5635.1990000000005] when I sit and think about the potential
+
+[5630.34 - 5638.32] power of this network because it is a
+
+[5635.199 - 5640.299999999999] Learning Network it is a new kind of
+
+[5638.32 - 5642.34] kind of collective intelligence or or
+
+[5640.3 - 5645.58] hive mind almost
+
+[5642.34 - 5647.8] um between humans and machines so just I
+
+[5645.58 - 5649.719] want to then of course I'm excited about
+
+[5647.8 - 5652.179] this and I'll continue rambling about it
+
+[5649.719 - 5654.58] forever but I want to hear
+
+[5652.179 - 5656.7390000000005] um uh Professor franconi um you haven't
+
+[5654.58 - 5660.28] said much in the last uh 10 minutes or
+
+[5656.739 - 5661.599999999999] so where do you see Tau going like you
+
+[5660.28 - 5663.94] know obviously you're committed to this
+
+[5661.6 - 5666.54] project what is your personal dream what
+
+[5663.94 - 5671.138999999999] do you want to see happen
+
+[5666.54 - 5674.38] uh well I tend to be more pragmatic and
+
+[5671.139 - 5676.2390000000005] less of a dreamer in the sense of uh
+
+[5674.38 - 5679.32] well dreaming does not mean it does not
+
+[5676.239 - 5683.739] mean unachievable means longer term ring
+
+[5679.32 - 5686.62] I have a shorter time dream uh and I
+
+[5683.739 - 5689.199] really see this already applicable as it
+
+[5686.62 - 5691.78] was mentioned before in these small
+
+[5689.199 - 5693.699] communities I mean like that we have
+
+[5691.78 - 5695.44] several blockchain systems maybe each
+
+[5693.699 - 5697.599999999999] one working with different kind of rules
+
+[5695.44 - 5699.28] smart counters for example the area of
+
+[5697.6 - 5701.1] smart contracts I think is as a natural
+
+[5699.28 - 5703.12] application here
+
+[5701.1 - 5705.1] is a piece of code that nobody
+
+[5703.12 - 5706.96] understands and you can be fooled by
+
+[5705.1 - 5708.400000000001] anybody because you give a directive to
+
+[5706.96 - 5710.52] do something and then the weight is
+
+[5708.4 - 5713.0199999999995] actually implemented is completely
+
+[5710.52 - 5714.76] disconnected from from what was my
+
+[5713.02 - 5716.8] specification of what this Smart Control
+
+[5714.76 - 5719.9800000000005] should be so just this small area of
+
+[5716.8 - 5722.320000000001] application where you have to negotiate
+
+[5719.98 - 5726.04] an agreement between the all the parties
+
+[5722.32 - 5728.739] involved in the contract is is a major
+
+[5726.04 - 5730.84] area of application to me so I I'm much
+
+[5728.739 - 5733.178999999999] more for experimenting but that's just
+
+[5730.84 - 5735.900000000001] me right experimenting this small uh
+
+[5733.179 - 5739.3] confined areas where you can actually
+
+[5735.9 - 5740.98] understand and focus potentially also on
+
+[5739.3 - 5743.1990000000005] problems and make some app in particular
+
+[5740.98 - 5748.0599999999995] social problems that have to be
+
+[5743.199 - 5750.78] understood to to to potentially solve
+
+[5748.06 - 5753.52] the bottlenecks that may arise etc etc
+
+[5750.78 - 5755.32] I'm very fond of all the technical
+
+[5753.52 - 5758.56] solution that we have found that the
+
+[5755.32 - 5761.92] oadden is genius group is is really
+
+[5758.56 - 5764.26] working hard on this uh that is uh the
+
+[5761.92 - 5766.2390000000005] the open problem which is not a problem
+
+[5764.26 - 5768.400000000001] there there is the goal to start
+
+[5766.239 - 5769.718999999999] applying and see these things really in
+
+[5768.4 - 5771.9] the real world deployed in the real
+
+[5769.719 - 5771.9] world
+
+[5772.12 - 5774.4] excellent
+
+[5773.199 - 5776.678999999999] yeah
+
+[5774.4 - 5781.08] um Ohad what's what's your dream short
+
+[5776.679 - 5781.08] short or long-term dream for for Tau
+
+[5782.8 - 5789.28] the cow is all about truth
+
+[5786.42 - 5791.56] it is for people
+
+[5789.28 - 5793.599999999999] like me like us
+
+[5791.56 - 5796.7390000000005] who like the tools who prefer the truth
+
+[5793.6 - 5796.7390000000005] of the false
+
+[5797.02 - 5799.92] um
+
+[5797.62 - 5802.36] I hope to
+
+[5799.92 - 5805.06] that I will bring a little bit more
+
+[5802.36 - 5807.5199999999995] truth to this world to this full of
+
+[5805.06 - 5811.120000000001] life's world
+
+[5807.52 - 5814.719] excellent excellent okay
+
+[5811.12 - 5816.5199999999995] um so we're nearing the end of this
+
+[5814.719 - 5821.38] conversation
+
+[5816.52 - 5822.580000000001] um what are the next steps for for Tau
+
+[5821.38 - 5824.46] um what's what's coming down the
+
+[5822.58 - 5827.0199999999995] pipeline where are we at
+
+[5824.46 - 5829.179] and then how do people get involved
+
+[5827.02 - 5830.9800000000005] let's talk about let's talk about from
+
+[5829.179 - 5833.1990000000005] this day forward what's what's happening
+
+[5830.98 - 5835.419999999999] with Tau and and what is what is the
+
+[5833.199 - 5838.678999999999] level of involvement for people like me
+
+[5835.42 - 5838.679] and and people in our audience
+
+[5842.32 - 5847.0] and for your environment we have a
+
+[5844.42 - 5850.719] community mainly taking place on
+
+[5847.0 - 5852.82] telegram we also have a monthly update
+
+[5850.719 - 5856.659] every every month on YouTube
+
+[5852.82 - 5860.0199999999995] and people can submit their questions
+
+[5856.659 - 5862.659] and for the next steps we are now moving
+
+[5860.02 - 5866.4400000000005] to a finalize and implement the Tau
+
+[5862.659 - 5868.839999999999] language and in parallel and see how to
+
+[5866.44 - 5872.0199999999995] put it as a block acceptance condition
+
+[5868.84 - 5872.860000000001] on a blockchain and finally to start
+
+[5872.02 - 5876.4800000000005] having
+
+[5872.86 - 5876.48] a cell phone ending blockchain
+
+[5876.94 - 5881.138999999999] and so those are the next steps
+
+[5879.82 - 5882.4] excellent
+
+[5881.139 - 5884.92] excellent
+
+[5882.4 - 5888.04] um yeah and and so it's it's it's coming
+
+[5884.92 - 5889.0] to fruition it's about to be uh live on
+
+[5888.04 - 5891.58] the network
+
+[5889.0 - 5893.62] um what are the just as a final question
+
+[5891.58 - 5895.48] what are the what are the key problems
+
+[5893.62 - 5900.28] left to solve if any
+
+[5895.48 - 5901.78] um are there any hurdles or Frank uh it
+
+[5900.28 - 5904.239] seems like you have an idea of what are
+
+[5901.78 - 5905.739] the major problems left to solve well uh
+
+[5904.239 - 5908.138999999999] well it depends on the meaning of the
+
+[5905.739 - 5909.94] word problem so I see interesting
+
+[5908.139 - 5912.28] challenges to still be sold and make
+
+[5909.94 - 5915.0] time making Tau even more powerful
+
+[5912.28 - 5919.12] so I think we have cracked down the main
+
+[5915.0 - 5921.699] issues the main quests by having this
+
+[5919.12 - 5924.099999999999] language that is able in a logic fashion
+
+[5921.699 - 5925.839999999999] to talk about itself to talk about laws
+
+[5924.1 - 5929.1990000000005] that to change the laws the dynamic
+
+[5925.84 - 5931.54] aspects to model software to be very
+
+[5929.199 - 5933.04] powerful and still being decidable so
+
+[5931.54 - 5935.92] that we have terminating correct
+
+[5933.04 - 5938.699] algorithms there are new things that we
+
+[5935.92 - 5942.4] can add to this language new aspects
+
+[5938.699 - 5945.339999999999] to add is on its exclusivity so we
+
+[5942.4 - 5947.199] mentioned I guess briefly that the
+
+[5945.34 - 5948.76] language if we take the most powerful
+
+[5947.199 - 5950.62] language then this would be undecidable
+
+[5948.76 - 5955.4800000000005] so we cannot really hope to implement it
+
+[5950.62 - 5958.659] but we uh taking the the the decidable
+
+[5955.48 - 5961.299999999999] fragment is sort of arbitrary so we took
+
+[5958.659 - 5964.719] One Direction and so we can still hope
+
+[5961.3 - 5968.08] to to give it more potential and
+
+[5964.719 - 5970.06] and then somehow making more interesting
+
+[5968.08 - 5973.239] for several aspects for example to model
+
+[5970.06 - 5975.280000000001] formally the notion of argumentation I
+
+[5973.239 - 5977.199] know there are some aspects in this to
+
+[5975.28 - 5979.54] this sort of game theory that will be
+
+[5977.199 - 5980.799999999999] involved in argumentation could be a
+
+[5979.54 - 5982.54] possible extension of the language there
+
+[5980.8 - 5984.6990000000005] are many many interesting challenges
+
+[5982.54 - 5986.56] which does not mean that we have problem
+
+[5984.699 - 5989.44] these are these are just new things we
+
+[5986.56 - 5991.92] want to to add to the language
+
+[5989.44 - 5994.659] uh so that's okay so just
+
+[5991.92 - 5996.6990000000005] levels of achievement but no there's no
+
+[5994.659 - 5999.04] technical hurdles preventing you from
+
+[5996.699 - 6002.46] moving forward at this point
+
+[5999.04 - 6005.1] well or are there details to be ironed
+
+[6002.46 - 6006.42] out but yeah I guess the main things are
+
+[6005.1 - 6009.42] there yes
+
+[6006.42 - 6009.42] excellent
+
+[6009.84 - 6015.78] and yes I agree indeed
+
+[6012.9 - 6018.0] um you know ongoing effort but we know
+
+[6015.78 - 6020.5199999999995] mathematically that will never end
+
+[6018.0 - 6023.219] is to enhance the expressiveness of the
+
+[6020.52 - 6024.0] language and to have
+
+[6023.219 - 6026.88] um
+
+[6024.0 - 6030.9] a more efficient algorithms
+
+[6026.88 - 6033.2390000000005] okay so expanding expanding expressions
+
+[6030.9 - 6034.799999999999] and optimization
+
+[6033.239 - 6036.839999999999] um but as you said those those that will
+
+[6034.8 - 6039.78] never end that is just part of the
+
+[6036.84 - 6042.4800000000005] ongoing work excellent
+
+[6039.78 - 6044.28] um as any final thoughts um you know one
+
+[6042.48 - 6045.599999999999] or two sentences from from each of you
+
+[6044.28 - 6048.48] any final thoughts that you would like
+
+[6045.6 - 6051.659000000001] the world to know about Tau before we uh
+
+[6048.48 - 6054.9] we close our conversation for the day
+
+[6051.659 - 6057.239] well I can see my my perspective is a
+
+[6054.9 - 6059.638999999999] very uh
+
+[6057.239 - 6062.339999999999] very focused on the technical aspect so
+
+[6059.639 - 6065.159000000001] I'm not really the one that has the the
+
+[6062.34 - 6067.02] the conquer in the world and changing
+
+[6065.159 - 6067.92] the world and pushing for truth in the
+
+[6067.02 - 6069.540000000001] world
+
+[6067.92 - 6072.3] from from that perspective I really
+
+[6069.54 - 6075.42] think that what we have done is really
+
+[6072.3 - 6079.320000000001] magic is a major technical advances in
+
+[6075.42 - 6082.1990000000005] logic and computational logic and this
+
+[6079.32 - 6085.0199999999995] gives the company A major advantage
+
+[6082.199 - 6087.839999999999] business Advantage too because we are
+
+[6085.02 - 6089.52] the only owner so Tau the company is the
+
+[6087.84 - 6091.8] only owner of this technology and so
+
+[6089.52 - 6093.540000000001] they they can do these things and nobody
+
+[6091.8 - 6094.8] still knows how they will get these
+
+[6093.54 - 6097.0199999999995] results
+
+[6094.8 - 6100.619000000001] and which is interesting as well so
+
+[6097.02 - 6103.1990000000005] that's uh and then yeah I really keep
+
+[6100.619 - 6104.099999999999] like to keep going working on with the
+
+[6103.199 - 6107.339999999999] group
+
+[6104.1 - 6110.900000000001] and then to meet these new challenges
+
+[6107.34 - 6110.900000000001] and extensions of the language
+
+[6110.94 - 6117.0199999999995] excellent thank you oh hard any any
+
+[6113.4 - 6117.0199999999995] final thoughts for uh for the world
+
+[6117.9 - 6123.42] um that's how to take it more than 12.
+
+[6121.5 - 6125.58] we want to take software development to
+
+[6123.42 - 6127.7390000000005] the next level
+
+[6125.58 - 6130.38] that much more complex will be able to
+
+[6127.739 - 6133.86] be programmed and controlled by users
+
+[6130.38 - 6135.2390000000005] bring software back to the people
+
+[6133.86 - 6137.759999999999] wonderful
+
+[6135.239 - 6140.339999999999] wonderful well thank you both so very
+
+[6137.76 - 6143.04] much for bringing me into the Tau group
+
+[6140.34 - 6145.4400000000005] and having your folks reach out this has
+
+[6143.04 - 6148.56] been a remarkable set of conversations
+
+[6145.44 - 6150.54] leading up to this and I I get chills
+
+[6148.56 - 6152.639] just thinking about what it is that
+
+[6150.54 - 6154.98] you're doing and and and the the
+
+[6152.639 - 6157.56] long-term implications and just How
+
+[6154.98 - 6160.08] Deeply fascinating and complex it is so
+
+[6157.56 - 6163.139] again thank you for for the The Talk
+
+[6160.08 - 6164.639] today and I look forward to continuing
+
+[6163.139 - 6166.02] those conversations and seeing where
+
+[6164.639 - 6169.1990000000005] everything goes
+
+[6166.02 - 6172.1990000000005] um so thank you thank you to you
+
+[6169.199 - 6174.86] thank you so much cheers
+
+[6172.199 - 6174.86] cheers

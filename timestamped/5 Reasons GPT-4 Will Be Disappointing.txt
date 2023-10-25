@@ -1,0 +1,945 @@
+[1.319 - 6.779] morning everybody David Shapiro here
+
+[3.419 - 9.42] with another video by popular demand we
+
+[6.779 - 13.5] are going to explore the reasons five
+
+[9.42 - 15.299] reasons that gpt4 will probably be
+
+[13.5 - 18.9] disappointing
+
+[15.299 - 22.14] so where did all this start Sam Altman
+
+[18.9 - 24.84] uh the CEO and co-founder of openai was
+
+[22.14 - 27.18] recently on an interview and straight
+
+[24.84 - 29.88] from his own mouth he said uh you know
+
+[27.18 - 31.38] the gpt4 rumor mill is a ridiculous
+
+[29.88 - 34.559] thing I don't know where it all comes
+
+[31.38 - 36.6] from it's obviously pretty silly uh
+
+[34.559 - 38.879999999999995] people are begging to be disappointed
+
+[36.6 - 41.399] and they will be the hype is just like
+
+[38.88 - 43.620000000000005] we don't have an actual AGI and that's
+
+[41.399 - 46.26] sort of what's expected of us
+
+[43.62 - 47.579] so this was kind of like the shot heard
+
+[46.26 - 50.219] around the world
+
+[47.579 - 52.14] so what's he referring to First there's
+
+[50.219 - 54.300000000000004] this meme that has been circulating on
+
+[52.14 - 56.12] Twitter for probably at least a year in
+
+[54.3 - 59.16] various formats
+
+[56.12 - 62.699] basically the claim is that gpt4 will be
+
+[59.16 - 64.37899999999999] 100 trillion parameters and there's all
+
+[62.699 - 66.36] kinds of jokes like people have just
+
+[64.379 - 68.10000000000001] taken it and run with it one of my
+
+[66.36 - 69.6] favorite ones was someone said something
+
+[68.1 - 72.78] to the effect of like my wife's
+
+[69.6 - 76.38] boyfriend's boss has seen gpt4 and it
+
+[72.78 - 78.18] blah blah you know so on and so forth uh
+
+[76.38 - 80.33999999999999] still you know straight from straight
+
+[78.18 - 82.2] from the man himself Sam Altman he said
+
+[80.34 - 84.06] that it will be disappointing or people
+
+[82.2 - 85.74000000000001] are begging to be disappointed and that
+
+[84.06 - 88.68] he doesn't have and that and that they
+
+[85.74 - 91.19999999999999] don't have AGI so let's let's unpack
+
+[88.68 - 93.78] this what's going on
+
+[91.2 - 95.46000000000001] where you know okay why why would he use
+
+[93.78 - 99.119] that word disappointing
+
+[95.46 - 102.119] so first it seems like the 100 trillion
+
+[99.119 - 104.22] parameters is just that's not happening
+
+[102.119 - 106.799] um I even had someone point out that uh
+
+[104.22 - 109.259] chinchilla uh a competing large language
+
+[106.799 - 110.88000000000001] model outperforms gpt3 on some
+
+[109.259 - 113.34] benchmarks but it's only 70 billion
+
+[110.88 - 116.28] parameters so it's entirely possible
+
+[113.34 - 118.43900000000001] that gpt4 could be smaller it could be
+
+[116.28 - 120.6] it could be data optimized and compute
+
+[118.439 - 121.91999999999999] optimized so it might be smaller who
+
+[120.6 - 124.259] knows
+
+[121.92 - 126.06] um so the parameter count we have no
+
+[124.259 - 128.039] idea but that's only that's only one
+
+[126.06 - 130.38] component of
+
+[128.039 - 131.94] what makes a large language model good
+
+[130.38 - 134.879] or useful
+
+[131.94 - 138.0] so his comment about AGI was was
+
+[134.879 - 140.04] actually to me more interesting
+
+[138.0 - 141.9] um rather than commenting on memes or or
+
+[140.04 - 144.0] param or implying you know something
+
+[141.9 - 146.87900000000002] about parameter counts so let's go
+
+[144.0 - 150.3] through five reasons that I personally
+
+[146.879 - 154.319] think that gpt4 might be disappointing
+
+[150.3 - 156.12] to me and probably to you uh hence why
+
+[154.319 - 158.28] why are you watching this
+
+[156.12 - 161.959] so reason number one
+
+[158.28 - 166.98] is that uh development is slowing down
+
+[161.959 - 169.019] gpt1 first came out in June 2018. so
+
+[166.98 - 171.23899999999998] it's been less than four years it's been
+
+[169.019 - 173.28] about three and a half years since this
+
+[171.239 - 174.84] whole thing got started which in the
+
+[173.28 - 176.239] grand scheme of things is a very short
+
+[174.84 - 180.06] period of time
+
+[176.239 - 182.64000000000001] gpt2 came out nine months later
+
+[180.06 - 186.3] so in the span of nine months they went
+
+[182.64 - 188.94] up one entire generation uh gpt3 came
+
+[186.3 - 192.59900000000002] out 16 months after that so roughly
+
+[188.94 - 196.85999999999999] doubled right nine months 16 months and
+
+[192.599 - 200.51899999999998] then so that was June of 2020 and here
+
+[196.86 - 203.76000000000002] we are where GPT 3.5 and chat gbt came
+
+[200.519 - 205.86] out at the end of last year which was a
+
+[203.76 - 208.07999999999998] total of 30 months of development time
+
+[205.86 - 211.92000000000002] and that's not even to get to gpt4
+
+[208.08 - 213.9] that's just GPT 3.5 so that was a very
+
+[211.92 - 216.23899999999998] small in the grand scheme of things a
+
+[213.9 - 219.18] very small incremental change
+
+[216.239 - 222.12] uh or Improvement rather with no
+
+[219.18 - 225.239] structural or or new unique capabilities
+
+[222.12 - 227.459] now that being said those incremental
+
+[225.239 - 230.09900000000002] improvements enabled a technology like
+
+[227.459 - 232.739] chat GPT they got better at fine-tuning
+
+[230.099 - 236.099] the window size got bigger uh and so
+
+[232.739 - 238.44] that that makes it more useful but it's
+
+[236.099 - 240.42] not fundamentally any different
+
+[238.44 - 243.799] so with
+
+[240.42 - 246.54] this slowing down of development time
+
+[243.799 - 249.299] this leads to the possibility that maybe
+
+[246.54 - 252.54] AI is not growing exponentially maybe it
+
+[249.299 - 255.42000000000002] follows an S curve or a sigmoid curve
+
+[252.54 - 257.639] which if that is true then we are at a
+
+[255.42 - 259.799] point of diminishing returns and the
+
+[257.639 - 262.079] whole thing is slowing down which by the
+
+[259.799 - 264.71999999999997] way all of science is slowing down
+
+[262.079 - 267.6] uh you know I have quite a few science
+
+[264.72 - 269.58000000000004] friends and they will say like yeah you
+
+[267.6 - 273.0] know we publish papers today that are
+
+[269.58 - 274.32] tiny tiny improvements over uh past
+
+[273.0 - 276.6] papers
+
+[274.32 - 278.88] um science as a whole is slowing down uh
+
+[276.6 - 282.06] and it's entirely possible that AI is
+
+[278.88 - 284.88] also slowing down so the takeaway from
+
+[282.06 - 286.68] this is what if the advancement of AI is
+
+[284.88 - 289.74] more like in the Star Wars Universe
+
+[286.68 - 292.32] where droids are smart but they're never
+
+[289.74 - 294.78000000000003] going to be human level smart even after
+
+[292.32 - 296.52] thousands of years of development if we
+
+[294.78 - 298.79999999999995] have a sigmoid growth curve of the
+
+[296.52 - 300.479] advancement of machine intelligence we
+
+[298.8 - 302.04] could be looking at that future it's
+
+[300.479 - 304.68] entirely possible
+
+[302.04 - 307.139] now this is extrapolating a really big
+
+[304.68 - 308.699] thing from just a couple data points so
+
+[307.139 - 310.08] obviously take this with a big giant
+
+[308.699 - 313.32] grain of salt
+
+[310.08 - 315.35999999999996] reason number two the gpt4 might be
+
+[313.32 - 316.68] disappointing is that it's still only
+
+[315.36 - 318.97900000000004] text
+
+[316.68 - 321.66] when you look at the the the the
+
+[318.979 - 324.12] proportions that we take in you and me
+
+[321.66 - 326.52000000000004] humans and other animals and even robots
+
+[324.12 - 328.56] right that take in information about the
+
+[326.52 - 331.979] world the vast majority of our
+
+[328.56 - 334.62] information is Visual and then hearing
+
+[331.979 - 338.21999999999997] and then touch and taste and smell right
+
+[334.62 - 341.699] so we have all kinds of Senses which GPT
+
+[338.22 - 344.639] doesn't even really touch GPT only has a
+
+[341.699 - 347.759] hypothetical understanding of these
+
+[344.639 - 350.16] senses uh and so we have you know
+
+[347.759 - 354.06] whisper and Dolly and you know they
+
+[350.16 - 356.52000000000004] announce that video is coming uh but
+
+[354.06 - 358.74] there is so much information about the
+
+[356.52 - 360.0] world that is not being integrated by
+
+[358.74 - 361.8] these models
+
+[360.0 - 363.479] and so we're basically just getting more
+
+[361.8 - 365.699] of the same that's kind of all there is
+
+[363.479 - 366.84] to say about it and I know that way back
+
+[365.699 - 369.96000000000004] in my first book natural language
+
+[366.84 - 372.59999999999997] cognitive architecture I did say that uh
+
+[369.96 - 376.13899999999995] that natural language was sufficient for
+
+[372.6 - 379.68] AGI but the implication is that you also
+
+[376.139 - 382.44] have other models to help integrate uh
+
+[379.68 - 386.639] real world information such as vision
+
+[382.44 - 388.86] and audio into that because the the
+
+[386.639 - 391.44] natural language cognition a new term
+
+[388.86 - 393.96000000000004] that I just invented NLC is able to
+
+[391.44 - 395.699] perform cognitive operations on that
+
+[393.96 - 398.09999999999997] information but you still need to get
+
+[395.699 - 400.979] that information in to the model from
+
+[398.1 - 402.90000000000003] the outside world that being said we do
+
+[400.979 - 404.94] still need better models we do need
+
+[402.9 - 407.52] better Vision models and Audio models
+
+[404.94 - 409.319] both for in inferencing the world but
+
+[407.52 - 411.06] also generating
+
+[409.319 - 414.12] um you know we're getting pretty good
+
+[411.06 - 417.06] with uh voice synthesis but there's
+
+[414.12 - 419.46] still a long ways to go anyways I'm I'm
+
+[417.06 - 421.74] chasing down rabbits
+
+[419.46 - 423.59999999999997] so another way of looking at this it's
+
+[421.74 - 425.52] not just a matter of Senses it's a
+
+[423.6 - 427.44] matter of also just
+
+[425.52 - 430.74] humans are the most intelligent thing
+
+[427.44 - 432.9] that we have so if you just look at how
+
+[430.74 - 436.74] we process information in our brain
+
+[432.9 - 439.15999999999997] language is only one part of that right
+
+[436.74 - 442.38] and it's not even
+
+[439.16 - 444.24] you know it's not even on this uh this
+
+[442.38 - 446.88] this pie chart that being said language
+
+[444.24 - 451.38] is an important and diffuse part of uh
+
+[446.88 - 454.199] of our uh neural uh processing that
+
+[451.38 - 456.419] being said there is so much other kinds
+
+[454.199 - 459.84000000000003] of processing that happens in our brains
+
+[456.419 - 462.24] that gives us general intelligence right
+
+[459.84 - 464.21999999999997] and so when you look at that like you
+
+[462.24 - 465.72] say Okay humans are our best model of
+
+[464.22 - 468.59900000000005] strong intelligence
+
+[465.72 - 471.18] what does the llm do right there is some
+
+[468.599 - 473.94] evidence that llms have uh you know
+
+[471.18 - 476.34000000000003] theory of mind and planning and
+
+[473.94 - 479.16] anticipation and that sort of stuff but
+
+[476.34 - 482.58] these are only very small components of
+
+[479.16 - 484.5] a greater whole and so this is another
+
+[482.58 - 486.479] reason that I think gbt4 will be
+
+[484.5 - 488.699] disappointing specifically it doesn't
+
+[486.479 - 490.139] add up to AGI
+
+[488.699 - 493.02000000000004] reason number three that it's
+
+[490.139 - 495.66] disappointing it's not R2D2 yet thanks
+
+[493.02 - 498.65999999999997] to fiction uh specifically science
+
+[495.66 - 502.44] fiction we all have pretty good ideas as
+
+[498.66 - 505.259] to what we want robots and AGI to look
+
+[502.44 - 509.039] like now whether or not you classify
+
+[505.259 - 511.86] R2D2 as an AGI is entirely up to you
+
+[509.039 - 513.899] um AGI is a terrible definition uh it's
+
+[511.86 - 515.94] a pretty useless term
+
+[513.899 - 517.44] um and you know I say that often
+
+[515.94 - 521.58] whatever don't need to get on that
+
+[517.44 - 523.979] soapbox but point being is that gpt4 no
+
+[521.58 - 525.6600000000001] matter how powerful it is it would only
+
+[523.979 - 528.839] be a component
+
+[525.66 - 531.66] of AGI it would only be a component of
+
+[528.839 - 533.519] R2D2 you still need the body you still
+
+[531.66 - 535.1999999999999] need an architecture you still need blah
+
+[533.519 - 537.48] blah blah you know there's all kinds of
+
+[535.2 - 539.519] stuff that you still need
+
+[537.48 - 541.44] so with big picture thinking like let's
+
+[539.519 - 542.76] take a really big step back for just a
+
+[541.44 - 545.8800000000001] second
+
+[542.76 - 548.1] um you know you and I the people that
+
+[545.88 - 550.5] are lost in the weeds of large language
+
+[548.1 - 552.899] models in AI we kind of sometimes forget
+
+[550.5 - 556.2] to look at the forest for the trees
+
+[552.899 - 558.12] and so what is the goal here right you
+
+[556.2 - 559.32] know if you if you you take a big step
+
+[558.12 - 562.14] back it's like okay you have a language
+
+[559.32 - 564.4200000000001] model that's certainly not Ai No matter
+
+[562.14 - 566.279] how good the language model or not AGI
+
+[564.42 - 569.64] sorry no matter how good the language
+
+[566.279 - 572.519] model is it will never be AGI in and of
+
+[569.64 - 574.5] itself so the rhetorical question is
+
+[572.519 - 577.44] like what is what is the goal here like
+
+[574.5 - 579.42] what do we actually want to achieve and
+
+[577.44 - 582.3000000000001] the reason that I keep saying that AGI
+
+[579.42 - 584.88] is a useless term is because one it's
+
+[582.3 - 586.8] poorly defined and the goal posts keep
+
+[584.88 - 588.8389999999999] moving some people seem to expect it
+
+[586.8 - 589.9799999999999] it's not going to be AGI until it is a
+
+[588.839 - 592.9200000000001] world brain
+
+[589.98 - 595.32] and supersedes every single human on the
+
+[592.92 - 597.8389999999999] planet to me that would be ASI or
+
+[595.32 - 599.7600000000001] artificial super intelligence
+
+[597.839 - 602.8800000000001] um and that that's not criticizing any
+
+[599.76 - 606.12] individual uh but you know just I want
+
+[602.88 - 608.399] to make the observation that AGI is like
+
+[606.12 - 609.54] a unicorn right we're just we're chasing
+
+[608.399 - 611.76] something that doesn't exist we're
+
+[609.54 - 613.8] chasing the dragon
+
+[611.76 - 616.26] um so it's kind of a useless term which
+
+[613.8 - 617.5799999999999] is another reason like gpt4 will be
+
+[616.26 - 619.8] disappointing because nothing will ever
+
+[617.58 - 621.12] achieve AGI because the goal posts keep
+
+[619.8 - 623.519] moving
+
+[621.12 - 625.38] reason number four that gpt4 will be
+
+[623.519 - 627.18] disappointing this is probably my
+
+[625.38 - 630.6] spiciest take depending on what your uh
+
+[627.18 - 633.2399999999999] profession is scale is not all you need
+
+[630.6 - 635.279] um so for those not in the know there
+
+[633.24 - 637.14] was there's been this um this like
+
+[635.279 - 639.24] Battle Cry almost for the last couple
+
+[637.14 - 642.42] years especially with the progression
+
+[639.24 - 644.399] from GPT one to two to three where it's
+
+[642.42 - 646.5] like scale is all you need that's what
+
+[644.399 - 648.24] people were saying because it just
+
+[646.5 - 650.04] seemed like the more parameters you
+
+[648.24 - 652.74] added and the more data you threw at it
+
+[650.04 - 655.62] the smarter it got well
+
+[652.74 - 657.9590000000001] here's the thing gpt3 was already
+
+[655.62 - 659.519] trained on like 200 lifetimes worth of
+
+[657.959 - 661.38] text
+
+[659.519 - 663.0600000000001] so there's only so much more text you
+
+[661.38 - 664.74] can read right before it starts becoming
+
+[663.06 - 666.42] redundant
+
+[664.74 - 668.7] um sure there's probably a little bit
+
+[666.42 - 671.279] newer news that it can read maybe some
+
+[668.7 - 673.62] updated Wikipedia articles a few new
+
+[671.279 - 675.899] scientific papers but once you have a
+
+[673.62 - 678.36] really good understanding of the world
+
+[675.899 - 680.94] doubling the amount of data isn't going
+
+[678.36 - 682.86] to change that much there's only so much
+
+[680.94 - 684.9590000000001] fundamental information about the
+
+[682.86 - 687.9590000000001] universe that is available through text
+
+[684.959 - 690.2399999999999] right as we as I pointed out earlier
+
+[687.959 - 692.6999999999999] there's other modalities that have we
+
+[690.24 - 694.5600000000001] haven't even begun to integrate and so
+
+[692.7 - 696.24] scale is not all you need
+
+[694.56 - 698.0999999999999] furthermore
+
+[696.24 - 699.66] people have not really put that much
+
+[698.1 - 702.4200000000001] research into cognitive architecture
+
+[699.66 - 705.7199999999999] there is a reason that me little old me
+
+[702.42 - 708.5999999999999] and individual independent researcher is
+
+[705.72 - 710.64] playing in the same sandbox as like
+
+[708.6 - 712.8000000000001] young lacun and that is because there
+
+[710.64 - 715.14] are so few people working on the concept
+
+[712.8 - 717.18] of cognitive architecture
+
+[715.14 - 718.5] um and the the biggest part of the
+
+[717.18 - 720.3] problem this is this will be a little
+
+[718.5 - 723.42] bit so boxy
+
+[720.3 - 725.399] so one of the biggest problems is that
+
+[723.42 - 727.68] there are there's a little bit of ego
+
+[725.399 - 729.36] and you know yeah pot calls kettle black
+
+[727.68 - 733.56] I know that I'm egotistical about this
+
+[729.36 - 735.66] but you know the the purists
+
+[733.56 - 737.88] um or pure that's that's too much of a
+
+[735.66 - 739.56] loaded term the people the Specialists
+
+[737.88 - 741.779] I'll use that word the people who
+
+[739.56 - 744.7199999999999] specialize in algorithmic improvements
+
+[741.779 - 747.06] and math and loss functions and uh deep
+
+[744.72 - 749.339] neural network design they don't see
+
+[747.06 - 750.899] cognitive architecture as a legitimate
+
+[749.339 - 752.8800000000001] field of research they say oh well
+
+[750.899 - 754.56] that's just an integration problem I'm
+
+[752.88 - 756.06] not a systems engineer you're a systems
+
+[754.56 - 757.3199999999999] engineer you go integrate it with other
+
+[756.06 - 759.5999999999999] systems
+
+[757.32 - 761.1] um and I actually literally had a
+
+[759.6 - 762.9590000000001] researcher
+
+[761.1 - 764.1] um at a major university tell me like
+
+[762.959 - 765.42] when I was talking about cognitive
+
+[764.1 - 767.519] architecture he's like oh that's just an
+
+[765.42 - 768.899] ensemble of experts he just brushed it
+
+[767.519 - 770.519] off like oh that's that's not even
+
+[768.899 - 773.16] useful
+
+[770.519 - 774.66] um and it's like no cognitive
+
+[773.16 - 776.88] architecture is actually a much more
+
+[774.66 - 780.42] complete Theory and so there's this
+
+[776.88 - 782.399] really really deep Schism uh one people
+
+[780.42 - 783.959] aren't just not putting in the effort to
+
+[782.399 - 785.7] cognitive architecture but also there's
+
+[783.959 - 787.1999999999999] a lot of prejudice against it for
+
+[785.7 - 789.899] whatever reason
+
+[787.2 - 792.6600000000001] and so because of that and because we're
+
+[789.899 - 795.54] seeing these diminishing returns for uh
+
+[792.66 - 797.6999999999999] scale scale is not all you need a
+
+[795.54 - 801.8389999999999] monolithic deep neural network will
+
+[797.7 - 802.8000000000001] never be AGI like I stake my career on
+
+[801.839 - 804.6600000000001] that
+
+[802.8 - 807.12] um it could get you know it could end up
+
+[804.66 - 809.88] with really really impressive abilities
+
+[807.12 - 811.8] but you need specialized motor control
+
+[809.88 - 813.42] systems you need specialized memory
+
+[811.8 - 815.579] systems you need offline Learning
+
+[813.42 - 817.5] Systems there's all kinds of problems
+
+[815.579 - 819.7199999999999] you need semantic search there's all
+
+[817.5 - 823.139] kinds of problems that you just cannot
+
+[819.72 - 825.24] solve just with a deep neural network uh
+
+[823.139 - 828.0] and so this is the biggest thing that's
+
+[825.24 - 829.86] missing in in my mind from the active
+
+[828.0 - 830.7] research okay I'll get off my soapbox
+
+[829.86 - 833.94] now
+
+[830.7 - 835.38] reason number five over promising and
+
+[833.94 - 838.5600000000001] under delivering
+
+[835.38 - 841.139] so if you go to the openai website and
+
+[838.56 - 842.8199999999999] look at their about right at the top it
+
+[841.139 - 845.1] says our mission is to ensure that
+
+[842.82 - 848.399] artificial general intelligence benefits
+
+[845.1 - 849.779] all of humanity and then Sam Altman on
+
+[848.399 - 851.639] an interview says we don't have an
+
+[849.779 - 853.56] actual AGI and that's sort of what's
+
+[851.639 - 855.1800000000001] expected of us
+
+[853.56 - 857.5189999999999] it's like well yeah but that's because
+
+[855.18 - 859.5] that's what you said like you you set
+
+[857.519 - 861.899] that expectation
+
+[859.5 - 865.019] um and now that being said I know that
+
+[861.899 - 866.459] uh I and others are you know critical of
+
+[865.019 - 867.3] open AI
+
+[866.459 - 870.899] um
+
+[867.3 - 873.0] I don't want to undersell the value that
+
+[870.899 - 876.0] they have added to the world with their
+
+[873.0 - 877.5] Research into large language models but
+
+[876.0 - 880.139] that being said there is a disconnect
+
+[877.5 - 882.36] between what Sam said on stage or in an
+
+[880.139 - 884.82] interview and what the official mission
+
+[882.36 - 886.639] statement of open AI is
+
+[884.82 - 889.2600000000001] so to unpack that a little bit further
+
+[886.639 - 891.54] Microsoft is the biggest partner of
+
+[889.26 - 893.0] openai and Microsoft is a mature
+
+[891.54 - 897.18] Enterprise
+
+[893.0 - 899.459] business software company so they you
+
+[897.18 - 902.279] know as as a as a publicly traded
+
+[899.459 - 905.04] company they put profit and adding value
+
+[902.279 - 908.579] to the market Above All Else researches
+
+[905.04 - 911.399] the means to that end open AI started as
+
+[908.579 - 912.8389999999999] a non-profit where they kind of stumbled
+
+[911.399 - 915.66] into
+
+[912.839 - 917.519] creating value and then they pivoted to
+
+[915.66 - 921.06] trying to be a for-profit company
+
+[917.519 - 923.279] so they have not fully in my opinion uh
+
+[921.06 - 925.8] you know take it for what it's worth I
+
+[923.279 - 927.959] you know I'm not a uh venture capitalist
+
+[925.8 - 930.5999999999999] or anything I'm just a dude with an
+
+[927.959 - 934.0189999999999] internet connection in my opinion open
+
+[930.6 - 936.0600000000001] AI has not yet figured out how to be an
+
+[934.019 - 938.699] Enterprise company they're small they're
+
+[936.06 - 941.3389999999999] growing I think uh Sam said uh recently
+
+[938.699 - 942.8389999999999] there's like 375 employees in the grand
+
+[941.339 - 945.7790000000001] scheme of things that is a small company
+
+[942.839 - 948.48] open AI is a tiny company compared to
+
+[945.779 - 950.3389999999999] the like tens of thousands of employees
+
+[948.48 - 953.519] that Microsoft and Google and Amazon
+
+[950.339 - 956.1] have and so they are very very small
+
+[953.519 - 959.279] they are still learning to be a
+
+[956.1 - 961.5600000000001] for-profit company and so the open AI
+
+[959.279 - 963.8389999999999] the non-profit still exists and the
+
+[961.56 - 966.2399999999999] for-profit open AI version is a wholly
+
+[963.839 - 968.2790000000001] owned subsidiary of the non-profit and
+
+[966.24 - 971.22] it's a capped profit company not sure
+
+[968.279 - 974.04] about the details of that anyways point
+
+[971.22 - 976.98] being is that Microsoft their their
+
+[974.04 - 980.0999999999999] their primary partner puts creating
+
+[976.98 - 982.98] customer value Above All Else
+
+[980.1 - 986.399] that is how Microsoft got big and stays
+
+[982.98 - 989.4590000000001] big is by creating value for customers
+
+[986.399 - 992.579] open AI they are still focused on
+
+[989.459 - 994.199] more lofty idealistic Ambitions and not
+
+[992.579 - 996.7199999999999] necessarily creating value for
+
+[994.199 - 999.7199999999999] individuals and that's because their
+
+[996.72 - 1001.759] goal is as I said earlier to create AGI
+
+[999.72 - 1005.0] but that's kind of like chasing a
+
+[1001.759 - 1007.339] unicorn so this is where I think a big
+
+[1005.0 - 1010.22] part of the disappointment comes in is
+
+[1007.339 - 1012.019] open AI like the left hand isn't really
+
+[1010.22 - 1013.1] fully talking to the right hand so to
+
+[1012.019 - 1016.639] speak
+
+[1013.1 - 1018.88] so in conclusion gpt4 is just going to
+
+[1016.639 - 1021.86] be more of the same as we got with gpt3
+
+[1018.88 - 1024.26] just a little bit better and so to recap
+
+[1021.86 - 1027.079] the five reasons uh the development of
+
+[1024.26 - 1028.699] llms is clearly slowing down indicating
+
+[1027.079 - 1030.6789999999999] that we've hit a point of diminishing
+
+[1028.699 - 1032.66] returns meaning we're going to need to
+
+[1030.679 - 1035.24] switch to multimodal models or different
+
+[1032.66 - 1037.4] kinds of models or in my opinion invest
+
+[1035.24 - 1040.76] more in cognitive architectures
+
+[1037.4 - 1042.799] number two gpt4 will be text only sorry
+
+[1040.76 - 1044.419] I kind of bled these two together which
+
+[1042.799 - 1046.819] still leaves out the vast majority of
+
+[1044.419 - 1049.0590000000002] information about the World visual
+
+[1046.819 - 1052.28] auditory sense of touch sense of balance
+
+[1049.059 - 1054.799] all kinds of of information streams are
+
+[1052.28 - 1058.16] just not available yet until we have
+
+[1054.799 - 1060.26] more kinds of models number three uh
+
+[1058.16 - 1062.539] it's a it's only a component
+
+[1060.26 - 1064.76] of you know the droids or whatever it is
+
+[1062.539 - 1066.679] that we want it's not you know it's a
+
+[1064.76 - 1069.799] necessary but not sufficient component
+
+[1066.679 - 1071.539] right if you want a Ferrari you need the
+
+[1069.799 - 1073.94] engine but you also need the body and
+
+[1071.539 - 1075.919] the wheels so the way that I look at it
+
+[1073.94 - 1078.3200000000002] is that large language models are just
+
+[1075.919 - 1081.1000000000001] the engine or part of the engine for
+
+[1078.32 - 1083.8999999999999] what will eventually be considered AGI
+
+[1081.1 - 1086.059] uh reason number four scale is not all
+
+[1083.9 - 1088.16] you need you also need a theory of
+
+[1086.059 - 1089.78] cognition or a cognitive architecture to
+
+[1088.16 - 1094.1000000000001] wrap around it there's a common theme
+
+[1089.78 - 1096.26] here and number five is open AI just
+
+[1094.1 - 1099.26] simply needs more business Acumen right
+
+[1096.26 - 1101.72] uh they need like you definitely keep
+
+[1099.26 - 1104.66] your core values I will be the first one
+
+[1101.72 - 1108.2] to say that having a lofty and ambitious
+
+[1104.66 - 1109.88] purpose is absolutely necessary but you
+
+[1108.2 - 1111.44] also need to support that with Better
+
+[1109.88 - 1112.8200000000002] Business acumen
+
+[1111.44 - 1114.74] okay
+
+[1112.82 - 1115.8799999999999] thank you for watching
+
+[1114.74 - 1117.679] um feel free to connect with me on
+
+[1115.88 - 1119.179] LinkedIn or patreon you might have
+
+[1117.679 - 1120.3200000000002] noticed that I disabled comments and
+
+[1119.179 - 1121.94] that's just because people on the
+
+[1120.32 - 1123.32] internet can be mean and it's not a good
+
+[1121.94 - 1124.5800000000002] use of my time
+
+[1123.32 - 1127.1599999999999] um so if you really have something
+
+[1124.58 - 1129.1399999999999] meaningful to say uh connect with me on
+
+[1127.16 - 1131.0] LinkedIn or patreon I pay much more
+
+[1129.14 - 1133.2990000000002] attention to those platforms thanks for
+
+[1131.0 - 1133.299] watching

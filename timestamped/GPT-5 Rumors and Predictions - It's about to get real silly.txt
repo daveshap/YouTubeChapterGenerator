@@ -1,0 +1,1057 @@
+[0.84 - 6.8389999999999995] good morning everybody David Shapiro
+
+[3.24 - 9.36] here with another spicy video things are
+
+[6.839 - 13.019] getting real interesting real fast
+
+[9.36 - 15.299] so uh my gbt4 predictions video
+
+[13.019 - 17.698999999999998] um was pretty popular so let's
+
+[15.299 - 21.0] do the same thing but first let's do a
+
+[17.699 - 25.080000000000002] quick recap for GPT for uh before
+
+[21.0 - 27.599] jumping into GPT 5.
+
+[25.08 - 30.119] so perhaps the spiciest thing that
+
+[27.599 - 32.66] happened after the release of chat gpt4
+
+[30.119 - 37.079] which is not the foundation model of of
+
+[32.66 - 39.0] current gpt4 but Microsoft research this
+
+[37.079 - 42.42] is Microsoft this is not some Podunk
+
+[39.0 - 46.559] shop this is Microsoft says uh the gpt4
+
+[42.42 - 49.92] represents the first Sparks of AGI and
+
+[46.559 - 51.78] that it performs uh strikingly close to
+
+[49.92 - 52.92] human level performance on many many
+
+[51.78 - 55.8] tasks
+
+[52.92 - 57.36] uh so given the breadth and depth of its
+
+[55.8 - 61.31999999999999] capabilities it could be reasonably
+
+[57.36 - 64.5] viewed as an early yet incomplete AGI
+
+[61.32 - 66.24] so that was the the kind of the thing
+
+[64.5 - 67.799] that the shot heard around the world so
+
+[66.24 - 69.65899999999999] to speak
+
+[67.799 - 73.10000000000001] um there's been a little bit other news
+
+[69.659 - 77.159] or numbers and features sorry about gpt4
+
+[73.1 - 80.28] so uh the the the base model of chat
+
+[77.159 - 81.84] gpt4 has an 8 000 token window which
+
+[80.28 - 83.46000000000001] that alone has been a game changer
+
+[81.84 - 85.759] doubling from four thousand to eight
+
+[83.46 - 88.13999999999999] thousand tokens unlocks a lot of
+
+[85.759 - 90.299] capabilities they already have an
+
+[88.14 - 93.18] officially announced 32 000 token window
+
+[90.299 - 94.56] so that is eight times larger than GPT
+
+[93.18 - 98.52000000000001] 3.
+
+[94.56 - 100.86] uh which a 32 000 token window is gonna
+
+[98.52 - 102.17999999999999] be a even larger Game Changer there's
+
+[100.86 - 103.799] going to be so many things that you can
+
+[102.18 - 106.86000000000001] unlock with that
+
+[103.799 - 109.56] now in terms of parameter count we don't
+
+[106.86 - 111.84] really know but if I had to give you a
+
+[109.56 - 114.36] best guess looking at the scale of speed
+
+[111.84 - 117.119] because you look at Curie versus DaVinci
+
+[114.36 - 118.86] which are you know gpt3 models
+
+[117.119 - 121.799] um the dis the difference was about a
+
+[118.86 - 124.38] 10x uh difference right and so then you
+
+[121.799 - 126.899] look at the relative speed of chat gpt4
+
+[124.38 - 129.959] versus chat gpt3 and it's like okay
+
+[126.899 - 133.8] maybe it's about 10 times again so if I
+
+[129.959 - 136.98] had to guess maybe chat gpt4 is about
+
+[133.8 - 140.4] you know in the 1 trillion parameter uh
+
+[136.98 - 142.56] range who knows but it is definitely
+
+[140.4 - 143.87900000000002] slower and the fact that it is slower
+
+[142.56 - 146.7] indicates that it's doing more
+
+[143.879 - 149.879] processing which means more parameters
+
+[146.7 - 152.819] or more layers a deeper larger model now
+
+[149.879 - 155.099] one other thing about gpt4 that most of
+
+[152.819 - 157.85999999999999] us haven't seen yet but they did
+
+[155.099 - 160.379] demonstrate it is that it is multimodal
+
+[157.86 - 163.739] it's not just text anymore it supports
+
+[160.379 - 165.48] images another thing about chatgvt4 is
+
+[163.739 - 167.34] it passed the bar exam and the 90th
+
+[165.48 - 169.319] percentile it has passed some other
+
+[167.34 - 170.76] tests in the 99th percentile so it's
+
+[169.319 - 172.92] pretty smart
+
+[170.76 - 176.519] um on some benchmarks it outperforms
+
+[172.92 - 179.45899999999997] most humans already and then from using
+
+[176.519 - 181.8] chat gpt4 it is qualitatively better at
+
+[179.459 - 183.84] pretty much everything it is a step
+
+[181.8 - 188.70000000000002] Improvement above everything that chat
+
+[183.84 - 191.04] GPT or the gpt3 and chat gpt3 can do and
+
+[188.7 - 193.67999999999998] then of course MIT released a study
+
+[191.04 - 196.379] showing that even just chat GPT 3.5
+
+[193.68 - 200.34] increased White Collar productivity by
+
+[196.379 - 202.319] 40 percent and gpt4 is going to do the
+
+[200.34 - 204.0] same thing again so these models are
+
+[202.319 - 206.879] coming they're already having a huge
+
+[204.0 - 208.92] impact and people are just beginning to
+
+[206.879 - 213.239] learn how to use them so that's that's
+
+[208.92 - 217.85999999999999] all three GPT 3.5 and 4 just as a recap
+
+[213.239 - 219.659] before we jump into GPT 5. now I believe
+
+[217.86 - 221.81900000000002] this is the last slide of kind of
+
+[219.659 - 225.42] recapping the way that things are right
+
+[221.819 - 227.51899999999998] now so as many of you have heard there
+
+[225.42 - 228.89999999999998] has been an open letter signed by a
+
+[227.519 - 231.239] whole bunch of people calling that's
+
+[228.9 - 233.519] being dubbed the great pause people are
+
+[231.239 - 236.09900000000002] are calling for the great pause which is
+
+[233.519 - 239.84] a six-month moratorium on building
+
+[236.099 - 242.76] anything more powerful than gpt4
+
+[239.84 - 245.34] uh the reasons are safety ethics
+
+[242.76 - 249.0] regulations so on and so forth there's
+
+[245.34 - 250.26] also been a call for a a public uh
+
+[249.0 - 253.08] version
+
+[250.26 - 255.959] um basically the the CERN of AI which
+
+[253.08 - 257.94] when you look at how much uh money goes
+
+[255.959 - 259.56] into CERN it's billions and billions of
+
+[257.94 - 260.28] dollars a year
+
+[259.56 - 263.58] um
+
+[260.28 - 265.919] funding AI research at just one percent
+
+[263.58 - 268.139] of that is a drop in the bucket and
+
+[265.919 - 272.58] could probably produce public versions
+
+[268.139 - 275.1] you know uh uh common uh commonly owned
+
+[272.58 - 276.18] or fully open source versions
+
+[275.1 - 278.52000000000004] um just kind of like how the internet
+
+[276.18 - 281.34000000000003] was was developed
+
+[278.52 - 282.96] um you know actually at CERN or at least
+
+[281.34 - 285.59999999999997] the the World Wide Web
+
+[282.96 - 288.0] um HTML and so on
+
+[285.6 - 289.38] um there have been no major regulatory
+
+[288.0 - 290.58] movements yet which is really
+
+[289.38 - 293.34] interesting
+
+[290.58 - 296.34] so no governments as far as they know
+
+[293.34 - 298.08] even in the even in Europe have gone so
+
+[296.34 - 300.53999999999996] far as to say hey let's let's put the
+
+[298.08 - 303.3] kibosh on this for a little while which
+
+[300.54 - 306.24] usually uh the European Union and
+
+[303.3 - 307.8] European nations are a little bit more
+
+[306.24 - 309.90000000000003] um kind of ahead of the curve because
+
+[307.8 - 311.88] America is very reactionary I can't
+
+[309.9 - 315.29999999999995] remember the name of this uh Paradigm
+
+[311.88 - 317.759] but American politics and legislation is
+
+[315.3 - 320.22] is very deliberately only going to react
+
+[317.759 - 322.97900000000004] to things once they happen rather than
+
+[320.22 - 325.5] preemptively legislate whereas Germany
+
+[322.979 - 327.96] and the EU and France and other places
+
+[325.5 - 329.4] are much more likely to proactively
+
+[327.96 - 332.039] legislate things just on the
+
+[329.4 - 334.25899999999996] anticipation of a problem but even
+
+[332.039 - 336.84] Europe as far as I know has not put any
+
+[334.259 - 339.6] restrictions on language models and deep
+
+[336.84 - 342.419] learning so that's very interesting
+
+[339.6 - 344.84000000000003] according to uh some rumors this
+
+[342.419 - 348.35999999999996] ricocheted around read it a while ago
+
+[344.84 - 350.58] gpt5 is already being trained on 25
+
+[348.36 - 353.34000000000003] 000 Nvidia gpus
+
+[350.58 - 355.74] um the the estimate was over 200 million
+
+[353.34 - 358.25899999999996] dollars worth of Nvidia Hardware is
+
+[355.74 - 359.759] being used to train gpt5 again that's a
+
+[358.259 - 361.86] rumor
+
+[359.759 - 363.84000000000003] um another big piece of news was Sam
+
+[361.86 - 367.5] Altman was recently on the Lex Friedman
+
+[363.84 - 369.479] podcast and what he said and this this
+
+[367.5 - 372.18] to me was from a technical perspective
+
+[369.479 - 374.15999999999997] the most interesting thing he said that
+
+[372.18 - 376.62] gpd4 did not come about from any
+
+[374.16 - 378.47900000000004] Paradigm shifts it was not a new
+
+[376.62 - 381.24] architecture or anything but that it
+
+[378.479 - 383.34] came about from hundreds and hundreds of
+
+[381.24 - 385.919] small incremental improvements that had
+
+[383.34 - 389.4] a multiplicative effect across the whole
+
+[385.919 - 391.68] thing which resulted in you know new new
+
+[389.4 - 394.67999999999995] ways of processing and preparing data
+
+[391.68 - 397.56] better algorithms so on and so forth and
+
+[394.68 - 400.139] so if gpt4 came about from incremental
+
+[397.56 - 402.18] improvements and nothing major maybe we
+
+[400.139 - 404.28000000000003] can expect more of the same for gpt5
+
+[402.18 - 407.759] that it's going to be uh ongoing
+
+[404.28 - 410.28] improvements of data pre-processing
+
+[407.759 - 412.38] um training patterns so on and so forth
+
+[410.28 - 415.919] so that's in the news
+
+[412.38 - 418.62] so now let's skip ahead to GPT 5
+
+[415.919 - 421.62] predictions and some rumors
+
+[418.62 - 424.02] uh all right so first top of mind when
+
+[421.62 - 426.3] is it going to come out uh obviously the
+
+[424.02 - 428.94] internet is Rife with rumors some of it
+
+[426.3 - 431.1] has more validity than others
+
+[428.94 - 432.9] um according to one website and I found
+
+[431.1 - 435.24] some of this with uh the help of Bing
+
+[432.9 - 438.12] actually ironically enough
+
+[435.24 - 441.24] um one website said that they expect GPT
+
+[438.12 - 442.5] 4.5 to come out this September so that
+
+[441.24 - 444.12] would be a little bit quicker of a
+
+[442.5 - 446.52] turnaround
+
+[444.12 - 450.479] um another uh blog said that we should
+
+[446.52 - 453.29999999999995] expect gpt5 by the end of 2024 or early
+
+[450.479 - 455.71999999999997] 2025 just given the the historical
+
+[453.3 - 458.52000000000004] pattern that seems pretty reasonable
+
+[455.72 - 461.58000000000004] when you consider that the testing cycle
+
+[458.52 - 463.85999999999996] for gpt4 was six to nine months so they
+
+[461.58 - 466.38] had it like rumor has it that um that
+
+[463.86 - 468.539] they had gpt4 like last summer or last
+
+[466.38 - 471.84] fall so maybe our predictions about when
+
+[468.539 - 474.12] gpt4 was completed was correct but the
+
+[471.84 - 477.599] but they they delayed it the release due
+
+[474.12 - 480.3] to testing who knows
+
+[477.599 - 481.979] um uh one Twitter user said that I I
+
+[480.3 - 484.259] don't know if this was in response to
+
+[481.979 - 487.199] the leaked Morgan Stanley document
+
+[484.259 - 488.94] um but basically you know uh and of
+
+[487.199 - 492.06] course it's on Twitter so take it with a
+
+[488.94 - 495.18] grant salt but basically that uh he said
+
+[492.06 - 498.599] that gpt5 is scheduled to be finished
+
+[495.18 - 501.66] with its training this December so that
+
+[498.599 - 504.419] kind of lines up with late 2023 early
+
+[501.66 - 506.879] 2024 and then you add the training cycle
+
+[504.419 - 509.34] of six to nine months that puts it at
+
+[506.879 - 511.02000000000004] Mid 2024.
+
+[509.34 - 514.14] um so another thing that was interesting
+
+[511.02 - 517.0799999999999] is in the documentation openai has a few
+
+[514.14 - 519.959] snapshots of of the current models that
+
+[517.08 - 521.159] are set to expire in June which is
+
+[519.959 - 523.7399999999999] really interesting because they've never
+
+[521.159 - 525.3] done that before so my interpretation is
+
+[523.74 - 527.58] that they're going to say okay we're
+
+[525.3 - 529.5] going to expire these models
+
+[527.58 - 532.019] um but you can use them because they're
+
+[529.5 - 533.22] probably testing new ideas
+
+[532.019 - 535.74] um and then they're gonna you know
+
+[533.22 - 537.9590000000001] recycle those uh models or replace them
+
+[535.74 - 539.279] or upgrade them or some something
+
+[537.959 - 541.8] so
+
+[539.279 - 544.38] either way all of this all of these
+
+[541.8 - 545.459] rumors and some of the facts that we're
+
+[544.38 - 547.4399999999999] gleaning
+
+[545.459 - 550.14] really kind of point to a shorter
+
+[547.44 - 552.1800000000001] testing and release cycle which
+
+[550.14 - 554.76] considering open ai's close partnership
+
+[552.18 - 556.9799999999999] with Microsoft Microsoft is very
+
+[554.76 - 559.68] familiar with a regular Cadence right
+
+[556.98 - 562.26] you've got Patch Tuesday with Microsoft
+
+[559.68 - 564.899] server and Microsoft desktop they
+
+[562.26 - 567.6] regularly release new versions uh major
+
+[564.899 - 569.7] and minor versions of Windows and other
+
+[567.6 - 571.98] software so they're probably being
+
+[569.7 - 574.8000000000001] pushed to be more like a conventional
+
+[571.98 - 576.839] software vendor and of course that's the
+
+[574.8 - 578.88] direction it's all going right now large
+
+[576.839 - 581.1600000000001] language models and AI are new and shiny
+
+[578.88 - 582.779] but before long it's going to be a
+
+[581.16 - 584.2199999999999] commodity just like anything else just
+
+[582.779 - 587.459] like your smartphone just like your
+
+[584.22 - 590.1] laptop whatever so I think that I think
+
+[587.459 - 591.779] that the we we probably can't expect
+
+[590.1 - 594.74] some more traction by the end of this
+
+[591.779 - 599.12] year even if it's an incremental update
+
+[594.74 - 602.279] but certainly gpt5 I think that probably
+
+[599.12 - 604.8] mid 2024 at the earliest if I had to
+
+[602.279 - 606.8389999999999] guess but I think that the end of 2024
+
+[604.8 - 608.6999999999999] that's seems to be where the consensus
+
+[606.839 - 611.0400000000001] is right now I wouldn't put money on it
+
+[608.7 - 612.36] you never know but that seems to be the
+
+[611.04 - 615.54] consensus
+
+[612.36 - 618.1800000000001] window size so one of the biggest
+
+[615.54 - 621.66] functional changes of the jump from GPT
+
+[618.18 - 624.5999999999999] 3 to 4 was going from a 4000 token
+
+[621.66 - 627.54] window up to an 8 000 token window with
+
+[624.6 - 630.0600000000001] being teased with a 32 000 token window
+
+[627.54 - 631.92] the amount of problems that I have been
+
+[630.06 - 635.0999999999999] able to solve and address just by
+
+[631.92 - 637.019] doubling the token window incredible so
+
+[635.1 - 639.5400000000001] if that pattern continues where it
+
+[637.019 - 641.82] either you know it goes up 2X or 8X or
+
+[639.54 - 645.0] whatever if you extrapolate that pattern
+
+[641.82 - 649.32] out then gpt5 could have anywhere from
+
+[645.0 - 652.86] 64 000 tokens to 256 000 tokens so that
+
+[649.32 - 654.9590000000001] is roughly 42 000 words up to 170 000
+
+[652.86 - 657.42] words to put that into perspective I
+
+[654.959 - 658.8599999999999] think that Dune the original Dune was a
+
+[657.42 - 661.56] hundred and eighty thousand words so it
+
+[658.86 - 663.779] could read all of Dune in one go
+
+[661.56 - 666.3] um Couldn't Write it but when you
+
+[663.779 - 669.06] consider that most novels are 50 to 70
+
+[666.3 - 671.9399999999999] 000 words that is more than enough uh
+
+[669.06 - 674.2199999999999] token window to read an entire novel and
+
+[671.94 - 677.0400000000001] write an another draft of it
+
+[674.22 - 680.0600000000001] so just digest that for a minute and
+
+[677.04 - 683.0999999999999] think about how much information that is
+
+[680.06 - 686.2199999999999] the number of scientific papers that
+
+[683.1 - 690.0600000000001] that could be so on and so forth now
+
+[686.22 - 691.8000000000001] when we talk about window size if we
+
+[690.06 - 693.4799999999999] assume that they overcome any
+
+[691.8 - 694.74] diminishing returns on memory
+
+[693.48 - 696.779] performance and compute because it's
+
+[694.74 - 698.7] going to be a trade-off right the the
+
+[696.779 - 700.56] larger those internal vectors are the
+
+[698.7 - 702.0] more memory it's going to take and that
+
+[700.56 - 704.279] one thing that I didn't include in this
+
+[702.0 - 706.76] because it looked a little too dry but
+
+[704.279 - 709.86] people are basically predicting that
+
+[706.76 - 712.38] gpt4 takes 10 to 40 times as much
+
+[709.86 - 714.36] compute as gpt3 and then if you
+
+[712.38 - 716.3389999999999] extrapolate that out again gpt5 will
+
+[714.36 - 718.98] take another 10 to 40 times as much
+
+[716.339 - 721.44] compute so the amount of compute is
+
+[718.98 - 724.86] ramping up exponentially possibly we
+
+[721.44 - 726.9590000000001] don't know but what if there's going to
+
+[724.86 - 729.42] be diminishing returns on an algorithmic
+
+[726.959 - 731.399] level so for instance maybe
+
+[729.42 - 735.959] um when you get the vectors that large
+
+[731.399 - 737.7] you might get a dilution which uh for
+
+[735.959 - 739.7399999999999] for rnns and other things basically
+
+[737.7 - 741.899] dilution I'm probably using the wrong
+
+[739.74 - 743.76] word but it kind of forgets what it was
+
+[741.899 - 745.68] talking about at the end of it so do we
+
+[743.76 - 748.4399999999999] need new attention mechanisms are we
+
+[745.68 - 750.8389999999999] going to need a new architecture or just
+
+[748.44 - 752.7600000000001] hundreds of more kinds of algorithmic
+
+[750.839 - 753.899] and incremental optimizations we don't
+
+[752.76 - 755.579] know
+
+[753.899 - 757.74] one other thing that we need to be
+
+[755.579 - 760.9799999999999] asking ourselves is how many tokens do
+
+[757.74 - 764.639] we actually need right because chat GPT
+
+[760.98 - 766.98] with 8 000 tokens is able to serve
+
+[764.639 - 769.6800000000001] ninety percent of our needs right now
+
+[766.98 - 771.66] only with very long conversations does
+
+[769.68 - 773.579] it forget the original like at the
+
+[771.66 - 775.1999999999999] beginning and also I think there's some
+
+[773.579 - 777.12] evidence that they have other memory
+
+[775.2 - 778.9200000000001] stuff going on because I've had some
+
+[777.12 - 780.9590000000001] pretty long conversations with chat GPT
+
+[778.92 - 782.0999999999999] now and I and I ask it like okay what
+
+[780.959 - 784.3199999999999] was the first thing that we talked about
+
+[782.1 - 785.639] and it remembers so I don't know if
+
+[784.32 - 788.0400000000001] they've got some search and retrieval
+
+[785.639 - 789.0] going on or some good summarization not
+
+[788.04 - 790.74] sure
+
+[789.0 - 792.839] but the point is
+
+[790.74 - 795.24] there's probably a diminishing returns
+
+[792.839 - 798.0] in terms of utility value in terms of
+
+[795.24 - 799.62] functional value to us the end user and
+
+[798.0 - 802.079] that includes um you know ordinary
+
+[799.62 - 803.94] citizens and civilians like us as well
+
+[802.079 - 806.399] as corporations in business and
+
+[803.94 - 808.8000000000001] Enterprise use cases more is not always
+
+[806.399 - 811.44] better so there might be a trade-off in
+
+[808.8 - 815.04] terms of speed cost and intelligence
+
+[811.44 - 817.5600000000001] right because what if what if they find
+
+[815.04 - 820.92] out that like okay 8 000 tokens actually
+
+[817.56 - 823.079] satisfies 95 of all use cases so let's
+
+[820.92 - 826.1999999999999] just make that 8 000 token
+
+[823.079 - 829.459] um model make it faster cheaper and
+
+[826.2 - 832.5600000000001] smarter and then you know maybe we have
+
+[829.459 - 835.1999999999999] uh models that are optimized for much
+
+[832.56 - 838.0189999999999] larger windows for specific kinds of
+
+[835.2 - 840.48] tasks like summarizing you know half a
+
+[838.019 - 841.38] million uh scientific papers not really
+
+[840.48 - 843.899] sure
+
+[841.38 - 846.42] but it is interesting because honestly
+
+[843.899 - 849.24] if they came out with a 256 000 token
+
+[846.42 - 851.0999999999999] model tomorrow I think that 99 of people
+
+[849.24 - 853.6800000000001] are never going to use that many tokens
+
+[851.1 - 855.5400000000001] could be wrong you know I probably sound
+
+[853.68 - 857.3389999999999] like some of the people who said like oh
+
+[855.54 - 858.959] nobody's ever going to use a desktop
+
+[857.339 - 861.6600000000001] computer so maybe I'm completely wrong
+
+[858.959 - 863.3389999999999] you know I I'm the first to admit I
+
+[861.66 - 864.959] frequently am wrong when I make some of
+
+[863.339 - 867.5400000000001] these predictions and sometimes I'm
+
+[864.959 - 870.0] hilariously wrong
+
+[867.54 - 872.9399999999999] um okay so moving on modality
+
+[870.0 - 874.62] for me the biggest shock of gpt4 was
+
+[872.94 - 876.9590000000001] that it was multimodal I didn't think
+
+[874.62 - 879.3] they were going to go there yet but gpt4
+
+[876.959 - 880.92] they demonstrated it it can you can give
+
+[879.3 - 883.019] it pictures it can spit out pictures
+
+[880.92 - 884.8199999999999] most people don't have access to that
+
+[883.019 - 886.92] yet it probably requires some work on
+
+[884.82 - 889.32] the API because if you're just sending
+
+[886.92 - 891.779] text over a Json you know a rest API
+
+[889.32 - 893.4590000000001] that's one thing sending images it's a
+
+[891.779 - 894.66] little bit different so I suspect that
+
+[893.459 - 897.1199999999999] they're probably working on the
+
+[894.66 - 898.68] Integrations with that
+
+[897.12 - 900.18] um which that's a lot to figure out I
+
+[898.68 - 902.8199999999999] don't envy them that problem it sounds
+
+[900.18 - 904.9799999999999] very tedious but when you look at the
+
+[902.82 - 908.519] fact that that open AI has Dolly they
+
+[904.98 - 911.279] have whisper gpt4 has images you do the
+
+[908.519 - 913.5] math I suspect oh and then you look at
+
+[911.279 - 915.959] um at how uh how much like text to video
+
+[913.5 - 918.66] and video to text is coming out I
+
+[915.959 - 921.959] suspect that gpt5 will be audio video
+
+[918.66 - 924.54] images and text if not more
+
+[921.959 - 927.0] uh but even still that would be a great
+
+[924.54 - 929.16] start so I was talking with some people
+
+[927.0 - 931.5] about this and what does that mean for
+
+[929.16 - 936.18] for vectors because if you can represent
+
+[931.5 - 938.459] an image or audio or video or text in
+
+[936.18 - 940.68] vectors those vectors are going to have
+
+[938.459 - 942.3] a lot more Nuance to them and so the
+
+[940.68 - 944.579] vector is the embedding right that is
+
+[942.3 - 946.8] the mathematical representation of the
+
+[944.579 - 949.1389999999999] input which is then used to generate the
+
+[946.8 - 951.66] output of these models so if you have
+
+[949.139 - 953.5790000000001] these multimodal vectors it's entirely
+
+[951.66 - 955.92] possible that these vectors are going to
+
+[953.579 - 958.68] be more abstract and human-like thoughts
+
+[955.92 - 960.42] inside the model which that has all
+
+[958.68 - 961.9799999999999] kinds of potential implications and I'm
+
+[960.42 - 964.62] not saying that it's going to magically
+
+[961.98 - 967.0790000000001] become sentient or or self-aware or
+
+[964.62 - 969.3] anything like that just that if you have
+
+[967.079 - 972.959] a more nuanced way of of representing
+
+[969.3 - 974.399] information about you know reality it's
+
+[972.959 - 979.4399999999999] entirely possible that that will unlock
+
+[974.399 - 981.899] entirely new capabilities Within gpt5
+
+[979.44 - 984.0] so one other big question is where are
+
+[981.899 - 985.68] they getting the data uh one of the
+
+[984.0 - 987.36] rumors was that they actually ran out of
+
+[985.68 - 988.9799999999999] high quality internet Text data that
+
+[987.36 - 991.26] they actually downloaded the entire
+
+[988.98 - 992.4590000000001] internet and after they filtered out the
+
+[991.26 - 994.079] garbage
+
+[992.459 - 995.459] um they realized there's not any more
+
+[994.079 - 997.2589999999999] text Data out there we need other
+
+[995.459 - 999.3599999999999] modalities and that's why they worked on
+
+[997.259 - 1001.5790000000001] whisper that's why they worked on on
+
+[999.36 - 1003.1990000000001] Dolly and so if that's the case then
+
+[1001.579 - 1005.899] maybe they're working on downloading all
+
+[1003.199 - 1008.0] of YouTube all the podcasts all of every
+
+[1005.899 - 1009.519] you know uh was it Dailymotion or
+
+[1008.0 - 1011.72] whatever you know like basically every
+
+[1009.519 - 1014.6] content provider out there that they can
+
+[1011.72 - 1016.82] get their hands on and um legally and
+
+[1014.6 - 1018.6800000000001] ethically get that data if it's under
+
+[1016.82 - 1021.139] Creative Commons or other
+
+[1018.68 - 1022.88] um open open licensing
+
+[1021.139 - 1025.699] um so anyways
+
+[1022.88 - 1028.04] this is it's really difficult to
+
+[1025.699 - 1031.04] anticipate but just the fact that gpt3
+
+[1028.04 - 1032.959] was was single modal and gpt4 is
+
+[1031.04 - 1034.3999999999999] multimodal I think we should at least
+
+[1032.959 - 1035.9] assume that that trend is going to
+
+[1034.4 - 1037.939] continue again there might be
+
+[1035.9 - 1040.4] diminishing returns they might find that
+
+[1037.939 - 1041.9] most people don't need multimodal models
+
+[1040.4 - 1043.22] and so then we might end up with a
+
+[1041.9 - 1045.919] branching
+
+[1043.22 - 1048.439] um kind of schema Nvidia does this by
+
+[1045.919 - 1049.8200000000002] the way Nvidia publishes hundreds and
+
+[1048.439 - 1052.0400000000002] hundreds of different models that have
+
+[1049.82 - 1054.1399999999999] different specializations
+
+[1052.04 - 1056.78] um and Nvidia is really good at cranking
+
+[1054.14 - 1059.7800000000002] out very specific models for specific
+
+[1056.78 - 1061.76] tasks whereas at least right now open at
+
+[1059.78 - 1065.059] open AI seems to be focusing on one
+
+[1061.76 - 1066.679] Flagship model that that uh that
+
+[1065.059 - 1068.78] business model might change over time
+
+[1066.679 - 1070.64] not sure
+
+[1068.78 - 1072.5] um okay so intelligence and capabilities
+
+[1070.64 - 1075.919] this is where I kind of really dive off
+
+[1072.5 - 1078.32] into sci-fi land so if we look at the
+
+[1075.919 - 1083.1200000000001] the relative performance of gpt3 versus
+
+[1078.32 - 1085.22] gpt3 gpt4 sorry three versus four it was
+
+[1083.12 - 1088.4599999999998] a huge jump in intelligence where it
+
+[1085.22 - 1089.9] went from you know I think GPT 3.5 was
+
+[1088.46 - 1092.059] able to pass the bar in the 10th
+
+[1089.9 - 1095.0] percentile and then four was able to
+
+[1092.059 - 1097.7] pass in a 90th percentile so that's a
+
+[1095.0 - 1099.5] that's a Quantum Leap Forward so if we
+
+[1097.7 - 1101.9] extrapolate that out then we could
+
+[1099.5 - 1104.6] probably assume that gpt5 is going to
+
+[1101.9 - 1106.16] pass all tests and all benchmarks in the
+
+[1104.6 - 1108.559] 99th percentile
+
+[1106.16 - 1112.3400000000001] or or greater
+
+[1108.559 - 1113.72] um if it if it's that smart then with
+
+[1112.34 - 1115.76] the correct Integrations which are
+
+[1113.72 - 1117.8600000000001] already working on Integrations chat GPT
+
+[1115.76 - 1121.1] uh plugins right with the correct
+
+[1117.86 - 1123.9189999999999] Integrations gpt5 could then outperform
+
+[1121.1 - 1125.84] humans at 99 of all other tasks
+
+[1123.919 - 1128.24] that includes stem jobs science
+
+[1125.84 - 1130.6399999999999] technology engineering and math and so
+
+[1128.24 - 1133.22] the the idea that I had was basically
+
+[1130.64 - 1136.2800000000002] given the right Integrations and enough
+
+[1133.22 - 1138.26] time you could ask gpt5 to design a
+
+[1136.28 - 1139.6399999999999] spaceship and it will do it and then if
+
+[1138.26 - 1141.5] you give it the right robotics it could
+
+[1139.64 - 1143.8400000000001] build the thing too
+
+[1141.5 - 1146.24] um so
+
+[1143.84 - 1147.62] like I when I when I wrote that down I
+
+[1146.24 - 1149.9] was like this is absurd then I'm like
+
+[1147.62 - 1151.8799999999999] you know if we take out the the Quantum
+
+[1149.9 - 1152.7800000000002] Leap from three to four and do that
+
+[1151.88 - 1154.46] again
+
+[1152.78 - 1156.3799999999999] this is actually within the realm of
+
+[1154.46 - 1158.24] possibility I think and then another
+
+[1156.38 - 1160.94] probably even more controversial
+
+[1158.24 - 1163.1] prediction is that um it will be able to
+
+[1160.94 - 1165.14] surpass humans in most Artistic
+
+[1163.1 - 1167.6] Endeavors as well such as writing
+
+[1165.14 - 1170.539] Symphonies uh composing stories
+
+[1167.6 - 1172.58] um and even acting on stage given uh the
+
+[1170.539 - 1174.679] correct rigging and framework so like
+
+[1172.58 - 1176.96] maybe it can control a virtual actor
+
+[1174.679 - 1178.7] like in the Unreal Engine or a robotic
+
+[1176.96 - 1181.039] actor because you look at Disney Disney
+
+[1178.7 - 1182.96] is making very very very life-like
+
+[1181.039 - 1185.9] animatronics
+
+[1182.96 - 1187.76] um so I suspect that one way or another
+
+[1185.9 - 1190.039] human actors are going the way of the
+
+[1187.76 - 1191.24] dinosaurs just full stop
+
+[1190.039 - 1192.5] um why because human actors are
+
+[1191.24 - 1193.1] expensive
+
+[1192.5 - 1195.38] um
+
+[1193.1 - 1197.84] and most actors have signed away writes
+
+[1195.38 - 1199.7600000000002] their likenesses by now anyways uh many
+
+[1197.84 - 1202.58] of them unwittingly this this came up in
+
+[1199.76 - 1204.14] conversation where uh voice actors and
+
+[1202.58 - 1206.0] even some actors that are getting older
+
+[1204.14 - 1207.38] have very deliberately signed away their
+
+[1206.0 - 1209.78] likeness so that they can be
+
+[1207.38 - 1214.46] immortalized in AI
+
+[1209.78 - 1216.9189999999999] um so if if any of this is remotely what
+
+[1214.46 - 1219.38] happens with gpt5 I can understand why
+
+[1216.919 - 1220.8200000000002] people are calling for a moratorium
+
+[1219.38 - 1223.4] um but it's going to happen because
+
+[1220.82 - 1224.96] competition is there right if open AI
+
+[1223.4 - 1226.7] doesn't do it someone else is going to
+
+[1224.96 - 1228.32] and if America doesn't do it some other
+
+[1226.7 - 1229.88] country is going to do it and nobody
+
+[1228.32 - 1231.26] wants to fall behind so I really don't
+
+[1229.88 - 1233.24] think a moratorium is going to happen
+
+[1231.26 - 1236.12] but that begs the question what does
+
+[1233.24 - 1238.1] happen is this AGI is this Singularity
+
+[1236.12 - 1239.6] is this you know are we going to get
+
+[1238.1 - 1241.1599999999999] regulation is it are we going to get
+
+[1239.6 - 1242.7199999999998] competition and of course if you're
+
+[1241.16 - 1246.14] familiar with my channel you saw that I
+
+[1242.72 - 1249.26] predicted AGI within 18 months if GPT 5
+
+[1246.14 - 1254.3200000000002] qualifies we could have gpt5
+
+[1249.26 - 1254.32] mid 2024 so the timing is is there
+
+[1254.6 - 1260.6599999999999] so all that being said buckle up as a
+
+[1258.26 - 1263.48] commenter said in a previous video it's
+
+[1260.66 - 1265.22] about to get silly yes that's pretty
+
+[1263.48 - 1266.96] much all we can really guarantee right
+
+[1265.22 - 1270.52] now is that it's about to get real silly
+
+[1266.96 - 1270.52] real fast thanks for watching

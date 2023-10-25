@@ -1,0 +1,4407 @@
+[6.96 - 12.059000000000001] all right hello everybody David Shapiro
+
+[9.66 - 14.58] here with the gato framework project
+
+[12.059 - 16.98] team we've got about a quarter of the
+
+[14.58 - 20.46] team here and basically all we're going
+
+[16.98 - 23.1] to do is just do a debrief of the Senate
+
+[20.46 - 25.98] hearing that happened yesterday uh with
+
+[23.1 - 29.64] Sam Altman and uh Mrs Montgomery from
+
+[25.98 - 31.380000000000003] IBM as well as Gary Marcus so many of us
+
+[29.64 - 32.759] watch the whole thing or most of it we
+
+[31.38 - 35.82] were chatting about it in real time
+
+[32.759 - 38.28] because we're those kind of nerds so uh
+
+[35.82 - 41.04] with all that being said this is a to us
+
+[38.28 - 43.980000000000004] it represents a very pivotal moment uh
+
+[41.04 - 45.96] in terms of moving the Overton window uh
+
+[43.98 - 47.879] talking about the not just the
+
+[45.96 - 51.899] existential risk of AI but the social
+
+[47.879 - 54.12] risk to AI uh or the the AI risk to
+
+[51.899 - 56.46] society so on and so forth so anyways
+
+[54.12 - 57.78] we've got a pretty robust discussion uh
+
+[56.46 - 60.6] tonight it's not going to be a debate
+
+[57.78 - 61.8] format but we do have uh some help with
+
+[60.6 - 64.26] moderation so we're going to work
+
+[61.8 - 66.72] through some some questions and uh and
+
+[64.26 - 68.46000000000001] answers and so yeah that's that's where
+
+[66.72 - 72.65899999999999] we're starting
+
+[68.46 - 74.58] um I'll introduce my uh moderator uh uh
+
+[72.659 - 75.78] our community leader Community manager
+
+[74.58 - 77.64] Nathan
+
+[75.78 - 80.119] um Nathan if you want to jump in and
+
+[77.64 - 80.119] introduce yourself
+
+[80.36 - 87.36] hey everyone got a community larger
+
+[83.759 - 89.22] world uh my name is Nathan Lannon and I
+
+[87.36 - 92.03999999999999] am a community manager for the gato
+
+[89.22 - 93.36] projects uh right now I'm working on
+
+[92.04 - 97.02000000000001] building the website with some
+
+[93.36 - 99.0] passionate folks and also doing a AI
+
+[97.02 - 101.579] reskilling curriculum that I hope to
+
+[99.0 - 103.02] eventually put out to the public so yeah
+
+[101.579 - 104.82] thrilled to be here I will be playing
+
+[103.02 - 106.979] the role of helping people get on and
+
+[104.82 - 109.25899999999999] off stage and making sure things go
+
+[106.979 - 111.84] smoothly thank you Dave
+
+[109.259 - 113.57900000000001] excellent thank you so much Nathan
+
+[111.84 - 115.92] um all right so with that being said
+
+[113.579 - 117.65899999999999] this is also going to be a pretty casual
+
+[115.92 - 119.46000000000001] conversation
+
+[117.659 - 121.5] um the only primary rule is we're going
+
+[119.46 - 123.72] to try and talk one at a time
+
+[121.5 - 126.479] um so with all that being said uh Nathan
+
+[123.72 - 129.239] what is our first uh question to lead us
+
+[126.479 - 130.86] off uh Prime that prime the pump so to
+
+[129.239 - 133.31900000000002] speak
+
+[130.86 - 135.84] yeah so
+
+[133.319 - 137.28] yesterday as we know was the hearing
+
+[135.84 - 139.62] which was
+
+[137.28 - 142.319] huge for the AI Community opening up
+
+[139.62 - 146.09900000000002] that Overton window crack and just to
+
+[142.319 - 150.06] kind of start off on a positive note I
+
+[146.099 - 151.98] think it would be nice to reflect on
+
+[150.06 - 155.22] hope that that might have generated for
+
+[151.98 - 157.44] us and general thoughts about how that
+
+[155.22 - 159.239] might have been a good thing for us so
+
+[157.44 - 161.35999999999999] anybody want to jump in on that raise a
+
+[159.239 - 161.36] hand
+
+[161.599 - 167.64] John why don't you hop up
+
+[164.28 - 171.66] yeah absolutely so um I think one of the
+
+[167.64 - 175.07999999999998] biggest takeaways from the the Senate
+
+[171.66 - 178.92] hearing was how educated the Senators
+
+[175.08 - 181.98000000000002] actually were about the the situation
+
+[178.92 - 184.14] and the risks I think you know I think a
+
+[181.98 - 187.44] lot of the the Senators said some things
+
+[184.14 - 189.42] or asked some questions that that uh you
+
+[187.44 - 193.2] know showed that they weren't experts in
+
+[189.42 - 195.35999999999999] the field but they were they were way
+
+[193.2 - 199.85999999999999] more knowledgeable about the situation
+
+[195.36 - 202.56] than I think anybody really anticipated
+
+[199.86 - 204.3] um it yeah we we expected the moderator
+
+[202.56 - 206.459] to be you know pretty knowledgeable
+
+[204.3 - 207.84] because he's worked in this field before
+
+[206.459 - 210.72] and
+
+[207.84 - 212.70000000000002] um advocated for
+
+[210.72 - 217.98] um algorithmic
+
+[212.7 - 219.599] uh bias protections and social media but
+
+[217.98 - 222.48] um you know to see some of these other
+
+[219.599 - 226.07999999999998] Senators that we don't hear from all the
+
+[222.48 - 229.379] time actually get up and and ask
+
+[226.08 - 232.62] somewhat you know somewhat Salient
+
+[229.379 - 234.239] questions about the actual issue and
+
+[232.62 - 236.94] show that they did know what was going
+
+[234.239 - 240.48000000000002] on it leaves a lot of Hope for
+
+[236.94 - 245.239] um having reasonable and intelligent
+
+[240.48 - 245.23899999999998] regulation in in the future
+
+[246.36 - 253.34] excellent thank you John uh Andy I saw
+
+[249.959 - 253.34] you have a hand raised watch come on up
+
+[256.639 - 262.019] uh just building on what John said I was
+
+[259.799 - 264.479] also encouraged I I had a dismal outlook
+
+[262.019 - 267.06] on what might be pretty uninformed
+
+[264.479 - 269.96] hearing uh and also something that was
+
+[267.06 - 272.16] heavily partisan or rooted in kind of
+
+[269.96 - 273.23999999999995] dogmatic rhetoric which is the way that
+
+[272.16 - 275.82000000000005] you know a lot of these kind of
+
+[273.24 - 277.259] publicized hearings will go uh but it
+
+[275.82 - 279.9] didn't seem to me that too many people
+
+[277.259 - 281.40000000000003] showed up with an overt agenda there
+
+[279.9 - 283.5] were more people in the room there to
+
+[281.4 - 287.82] learn and I also thought that it was
+
+[283.5 - 290.1] interesting to see and hear from uh
+
+[287.82 - 292.5] Republicans who were interested in
+
+[290.1 - 294.84000000000003] setting up a bureaucracy a bureaucratic
+
+[292.5 - 296.759] mechanism and uh department or agency
+
+[294.84 - 298.32] specifically for this some of them
+
+[296.759 - 300.3] mentioned agencies someone as high as
+
+[298.32 - 302.46] cabinet level
+
+[300.3 - 304.32] um and Democrats questioning whether
+
+[302.46 - 306.9] expanding the bureaucracy was really
+
+[304.32 - 309.0] going to be a fitting choice for how to
+
+[306.9 - 310.979] cope with this uh those are
+
+[309.0 - 312.72] very different Tunes than we usually
+
+[310.979 - 315.36] hear from the two sides who kind of
+
+[312.72 - 317.04] default to being foreign against the
+
+[315.36 - 320.22] opposite of that so I thought that that
+
+[317.04 - 322.259] uh that represented
+
+[320.22 - 325.91900000000004] it suggested to me that a lot of these
+
+[322.259 - 328.32] people are concerned about this they are
+
+[325.919 - 329.88] literally personally interested in
+
+[328.32 - 332.039] what's going on and that they aren't
+
+[329.88 - 333.71999999999997] just trying to fit it into whatever box
+
+[332.039 - 336.3] They Carried into the room so I don't
+
+[333.72 - 338.28000000000003] think we get that too often uh in our in
+
+[336.3 - 339.66] our legislative debates and I didn't
+
+[338.28 - 340.85999999999996] think that it really came across as much
+
+[339.66 - 343.08000000000004] of the debate there were only a couple
+
+[340.86 - 345.18] kind of contentious moments and I think
+
+[343.08 - 346.85999999999996] all of that suggests that you know as
+
+[345.18 - 348.84000000000003] John said previously too that we've got
+
+[346.86 - 350.1] a a lot of fertile ground to work with
+
+[348.84 - 352.61999999999995] in government
+
+[350.1 - 355.259] and that some support and interest
+
+[352.62 - 357.06] really may come from uh
+
+[355.259 - 358.5] angles and actors that you may not have
+
+[357.06 - 360.96] expected to be interested at all or
+
+[358.5 - 362.699] might have expected to be opposition to
+
+[360.96 - 364.79999999999995] whatever you're trying to do
+
+[362.699 - 368.0] so yeah I think the the hearing was
+
+[364.8 - 368.0] pretty encouraging overall
+
+[368.34 - 374.46] totally Andy so like hearing we saw you
+
+[372.12 - 376.74] know bipartisan hand holding yesterday
+
+[374.46 - 379.32] in alignment on you know a super
+
+[376.74 - 381.06] important topic and just that was
+
+[379.32 - 382.56] incredibly heartening to see I agree
+
+[381.06 - 386.419] that was one thing I was going to speed
+
+[382.56 - 389.46] up on as well uh Dave please go ahead
+
+[386.419 - 391.19899999999996] yeah so first I'll I'll Echo uh the
+
+[389.46 - 393.06] sentiments of of what everyone else has
+
+[391.199 - 397.319] already said
+
+[393.06 - 399.6] um but uh what I'll also add is uh and
+
+[397.319 - 401.819] as I mentioned in the introduction
+
+[399.6 - 404.34000000000003] um moving the Overton window I think is
+
+[401.819 - 407.16] is going to be kind of the biggest thing
+
+[404.34 - 408.61999999999995] and I was so excited that that Senators
+
+[407.16 - 411.12] you know
+
+[408.62 - 414.0] particularly in America
+
+[411.12 - 417.66] um even some of the older gentlemen and
+
+[414.0 - 421.08] gentle women uh were asking very pointed
+
+[417.66 - 423.24] questions uh not just on the topics of
+
+[421.08 - 424.38] like oh hey comparing it to social media
+
+[423.24 - 425.88] which they did compare it to social
+
+[424.38 - 427.699] media a lot because that's the only
+
+[425.88 - 430.5] frame of reference that we've got
+
+[427.699 - 433.5] basically uh for disruptive Technologies
+
+[430.5 - 435.6] at least in in recent history uh but
+
+[433.5 - 437.58] they they also said like you know what
+
+[435.6 - 439.259] are the existential risks
+
+[437.58 - 441.9] um and I'm I'm glad that they had a
+
+[439.259 - 444.66] witness okay you know because more often
+
+[441.9 - 447.479] than not these these uh Congress uh
+
+[444.66 - 449.34000000000003] Congressional hearings they have uh just
+
+[447.479 - 451.5] corporate insiders right everyone Pro
+
+[449.34 - 453.71999999999997] well I don't know everyone does but big
+
+[451.5 - 456.24] tobacco right where it was just like a
+
+[453.72 - 458.34000000000003] panel of like eight uh like tobacco
+
+[456.24 - 460.38] execs and they're like is this addictive
+
+[458.34 - 461.58] and the tobacco exec's all unanimously
+
+[460.38 - 463.38] said no it's not addictive and
+
+[461.58 - 466.8] everyone's like well this is completely
+
+[463.38 - 469.259] pointless right but here they had two um
+
+[466.8 - 473.40000000000003] they had two tech industry uh insiders
+
+[469.259 - 476.52000000000004] and then Gary Marcus who is uh he's he's
+
+[473.4 - 478.08] not a tech Insider he's a researcher
+
+[476.52 - 480.06] um so they had that to counterbalance it
+
+[478.08 - 482.039] which I think gave the whole hearing a
+
+[480.06 - 485.46] lot more credibility
+
+[482.039 - 489.06] um in terms of just reach and validity
+
+[485.46 - 492.78] but last point that I'm make is that I
+
+[489.06 - 496.02] was also impressed by uh by both Sam
+
+[492.78 - 498.35999999999996] Altman and Miss Montgomery's uh who
+
+[496.02 - 501.29999999999995] represented IBM their desire and
+
+[498.36 - 503.039] willingness to have regulations and to
+
+[501.3 - 504.24] and to speak up
+
+[503.039 - 506.699] um which that was a little bit
+
+[504.24 - 510.06] unexpected and of course we can we can
+
+[506.699 - 512.58] unpack some of the nuances later uh but
+
+[510.06 - 513.719] yeah so that's that's about it for me
+
+[512.58 - 517.08] day
+
+[513.719 - 519.32] thanks Dave and Ben I'd like to invite
+
+[517.08 - 519.32] you up
+
+[519.659 - 524.64] thanks Nathan just quickly my name is
+
+[521.94 - 527.7600000000001] Ben I'm a CTO and a tech diligence
+
+[524.64 - 530.519] advisor for on AI uh I'm helping with
+
+[527.76 - 533.3389999999999] some of the gato framework rating
+
+[530.519 - 535.38] the thing I really enjoyed besides the
+
+[533.339 - 537.48] thing I already mentioned about this
+
+[535.38 - 540.18] hearing was how incredibly practical it
+
+[537.48 - 542.519] was so like Senators asked for a very
+
+[540.18 - 544.7399999999999] specific ideas on how to do oversight
+
+[542.519 - 546.779] and and really drove home like not just
+
+[544.74 - 549.12] high level Concepts but very practical
+
+[546.779 - 550.8] ideas on how to do it
+
+[549.12 - 553.5] um they did things like highlight the
+
+[550.8 - 555.959] need for Better Business models around
+
+[553.5 - 558.18] news organizations or other other
+
+[555.959 - 559.92] monetization sources so just the level
+
+[558.18 - 563.18] of practicality that they started with
+
+[559.92 - 563.18] was really heartening for me
+
+[564.42 - 569.399] excellent so
+
+[566.399 - 572.7] I'm hearing you know all around we heard
+
+[569.399 - 575.339] uh many things that we liked
+
+[572.7 - 578.88] now I'm curious before we dive into
+
+[575.339 - 581.0400000000001] things that we liked less uh is there
+
+[578.88 - 583.38] any things that we wish we had heard but
+
+[581.04 - 584.88] we didn't hear them say
+
+[583.38 - 586.86] um Richard I know you had a hand up
+
+[584.88 - 588.06] before I asked this question so you
+
+[586.86 - 591.0] don't feel free to respond to the prior
+
+[588.06 - 593.279] but then let's kick over to like what
+
+[591.0 - 595.94] could have been said but wasn't the
+
+[593.279 - 595.9399999999999] unsaid things
+
+[597.26 - 602.519] uh yeah hi I'm Richard I'm basically
+
+[600.6 - 604.14] just sort of a dude who hangs out in a
+
+[602.519 - 607.8] workshop building weird
+
+[604.14 - 609.6] um but uh in terms of just the the last
+
+[607.8 - 610.56] point was just uh I wanted to also touch
+
+[609.6 - 613.279] on the fact that it was just really
+
+[610.56 - 616.3199999999999] surreal to see like heads of like
+
+[613.279 - 618.72] massive corporations that could if they
+
+[616.32 - 621.6] wanted to wield this as a weapon against
+
+[618.72 - 623.1] society and control a huge swath of
+
+[621.6 - 625.38] people
+
+[623.1 - 627.66] um go to the government and specifically
+
+[625.38 - 629.88] ask them to regulate themselves like
+
+[627.66 - 631.56] that never happens I've never seen
+
+[629.88 - 633.18] anything like that before so
+
+[631.56 - 633.899] um it was very surreal to watch and also
+
+[633.18 - 635.88] just the fact that they were talking
+
+[633.899 - 638.1] about AI in Congress was just like what
+
+[635.88 - 639.72] what what leg of the trousers of time
+
+[638.1 - 642.26] have I gone down
+
+[639.72 - 642.26] um but yeah
+
+[645.839 - 651.5400000000001] excellent all right yeah absolutely
+
+[649.079 - 654.0] um so I was learning would anybody have
+
+[651.54 - 656.76] any other thoughts on um things they
+
+[654.0 - 659.7] liked before we move over to uh things
+
+[656.76 - 662.24] that we wish we had heard more of uh
+
+[659.7 - 665.399] John I see you have a hand up
+
+[662.24 - 667.98] yeah so um one of the things that I
+
+[665.399 - 670.68] think is really going to need a lot of
+
+[667.98 - 672.48] discussion and will probably come up in
+
+[670.68 - 676.8599999999999] a later hearing but I'd like to have
+
+[672.48 - 679.86] heard more about it was the the economic
+
+[676.86 - 683.519] impacts that these these things are
+
+[679.86 - 686.64] going to have because the economy is an
+
+[683.519 - 689.7] existential existential threat maybe not
+
+[686.64 - 690.66] like Extinction of humanity level but it
+
+[689.7 - 694.44] is
+
+[690.66 - 696.3] um probably one of the the first impacts
+
+[694.44 - 698.8800000000001] that uh negative impacts that we're
+
+[696.3 - 701.9399999999999] going to see from Ai and I don't think
+
+[698.88 - 703.76] that and it may be positive too but I
+
+[701.94 - 706.86] don't think that you know everybody
+
+[703.76 - 710.459] wants to you know ask to worry about
+
+[706.86 - 712.32] jobs but I don't think that jobs is the
+
+[710.459 - 714.779] only impact it's going to have on the
+
+[712.32 - 718.44] economy it's going to shift the way that
+
+[714.779 - 721.2] money moves in a global fashion and it
+
+[718.44 - 726.32] is going to have Global impacts not just
+
+[721.2 - 726.32] on jobs on all industry as well
+
+[728.7 - 736.26] absolutely yeah we're gearing up to see
+
+[731.899 - 738.899] major societal shifts and they were a
+
+[736.26 - 741.06] little light-handed with uh raising
+
+[738.899 - 744.38] awareness of some of those things and so
+
+[741.06 - 744.38] I see you having it up there
+
+[744.54 - 751.4399999999999] yeah well I I wanted to touch on the
+
+[748.5 - 753.66] things that uh weren't mentioned but I
+
+[751.44 - 755.339] think data basically covered it I wanted
+
+[753.66 - 757.86] to touch on the fact that they said that
+
+[755.339 - 760.32] this was going to create new jobs I'm
+
+[757.86 - 762.779] like sure it'll create new jobs but it's
+
+[760.32 - 764.7] not going to be anywhere near enough of
+
+[762.779 - 766.4399999999999] the jobs that it's going to displace and
+
+[764.7 - 769.139] especially it's not going to create new
+
+[766.44 - 771.9590000000001] ones in that much of a short time we're
+
+[769.139 - 774.1800000000001] we're we're seeing huge disruptions in
+
+[771.959 - 777.899] the next five years and that's being
+
+[774.18 - 780.959] incredibly optimistic and that's not a
+
+[777.899 - 783.959] um uh a nif that is that is guaranteed
+
+[780.959 - 785.6389999999999] the real question is what are the
+
+[783.959 - 786.779] fundamental shifts that are going to
+
+[785.639 - 789.36] happen and how are we going to address
+
+[786.779 - 792.54] them because Congress is still thinking
+
+[789.36 - 796.019] in in the old model right where where
+
+[792.54 - 798.959] you still need humans working eight
+
+[796.019 - 801.36] hours a day four uh five hours sorry
+
+[798.959 - 804.3599999999999] five days a week and just just just
+
+[801.36 - 807.9590000000001] grind right AI is gonna automate a lot
+
+[804.36 - 810.0] of that grind and we're not gonna find
+
+[807.959 - 813.0] enough uh
+
+[810.0 - 815.579] what's the word uh busy work
+
+[813.0 - 818.899] to keep ourselves busy right we should
+
+[815.579 - 822.0] we should focus on more on on liberating
+
+[818.899 - 823.32] uh that time for humans to do better
+
+[822.0 - 826.88] things right
+
+[823.32 - 826.88] and well that's basically it
+
+[827.88 - 830.1] they cancel
+
+[829.44 - 831.36] um
+
+[830.1 - 833.66] Dave why don't you pick up the
+
+[831.36 - 833.66] conversation
+
+[834.36 - 839.4590000000001] sure sure yeah I think uh and then I'll
+
+[836.7 - 840.5400000000001] wait back to Ben yeah sorry I gotcha no
+
+[839.459 - 843.66] worries
+
+[840.54 - 847.079] um but yeah so for me certainly agree
+
+[843.66 - 848.6999999999999] that uh the economy Ubi that sort of
+
+[847.079 - 850.4399999999999] stuff the displacement they touched on
+
+[848.7 - 851.88] displacement but then kind of glossed
+
+[850.44 - 854.399] over it
+
+[851.88 - 856.86] um maybe maybe they had had a out of
+
+[854.399 - 858.959] band you know conversation like let's
+
+[856.86 - 861.66] save this for another thing I don't know
+
+[858.959 - 863.399] but one thing that that was addressed I
+
+[861.66 - 866.3389999999999] think Gary addressed this when he talked
+
+[863.399 - 869.16] about Auto GPT and Chaos GPT
+
+[866.339 - 870.48] um was and that and that nobody uh else
+
+[869.16 - 872.399] addressed
+
+[870.48 - 874.98] um at least none of the witnesses was
+
+[872.399 - 878.04] autonomous AI right
+
+[874.98 - 880.0790000000001] um both Montgomery and Altman uh
+
+[878.04 - 881.88] fervently said this is just a tool this
+
+[880.079 - 884.579] is not a creature don't anthropomorphize
+
+[881.88 - 887.04] it and it's like yeah but then when Gary
+
+[884.579 - 889.38] said hey like people are making this
+
+[887.04 - 891.7199999999999] stuff semi-autonomous today it doesn't
+
+[889.38 - 894.3] matter how ineffective it is
+
+[891.72 - 895.9200000000001] um or if it has flaws it's today
+
+[894.3 - 898.139] right
+
+[895.92 - 900.3] um yeah and someone in chat just
+
+[898.139 - 903.48] mentioned that um that yeah chat gbt
+
+[900.3 - 904.8] they released plugins right uh pretty
+
+[903.48 - 906.24] quickly
+
+[904.8 - 907.9799999999999] um and then one thing that I did notice
+
+[906.24 - 910.38] and this was just speculation on my
+
+[907.98 - 912.36] point outside of that was that uh as
+
+[910.38 - 915.36] soon as people started creating like
+
+[912.36 - 917.6990000000001] chaos GPT they slow rolled uh rolling
+
+[915.36 - 920.339] out plugins to more people
+
+[917.699 - 923.639] um so maybe maybe open AI tapped the
+
+[920.339 - 926.22] brakes uh in response to chaos GPT
+
+[923.639 - 927.72] um but you know I I obviously don't have
+
+[926.22 - 929.22] an inside line that's just speculation
+
+[927.72 - 932.279] on my point but I would have done that
+
+[929.22 - 936.36] if I saw someone use chat gbt to create
+
+[932.279 - 938.959] ksgpt but yeah so autonomous AI was a
+
+[936.36 - 942.36] huge thing missing Gary tried to push it
+
+[938.959 - 943.92] several Senators did ask like hey uh
+
+[942.36 - 946.0790000000001] what was it uh I think it was Lindsey
+
+[943.92 - 949.139] Graham near the end he's like can you
+
+[946.079 - 951.42] use this to give a drone the ability to
+
+[949.139 - 954.0600000000001] autonomously Target someone and then go
+
+[951.42 - 957.36] kill them and of course Sam tried to you
+
+[954.06 - 959.16] know use the corporate sanitized speak
+
+[957.36 - 962.519] and then Lindsey Graham to his credit
+
+[959.16 - 965.399] said that's a yes or no question and and
+
+[962.519 - 967.32] Sam's like yeah it is possible right so
+
+[965.399 - 970.38] he he did admit that which was which was
+
+[967.32 - 972.3000000000001] Brave but you know the thing is is like
+
+[970.38 - 974.579] um when I first got access to chat GPT
+
+[972.3 - 975.8389999999999] to the API I went in and showed that you
+
+[974.579 - 977.579] can just give it instructions like
+
+[975.839 - 978.899] you're controlling a drone right and
+
+[977.579 - 981.3] it's like sure I'm controlling a drone
+
+[978.899 - 983.519] now right it doesn't care
+
+[981.3 - 985.56] um so yeah the autonomous AI was the
+
+[983.519 - 988.5] biggest thing missing in in my eyes and
+
+[985.56 - 991.4399999999999] I seed the floor
+
+[988.5 - 993.779] Ben please pick it up
+
+[991.44 - 995.639] sounds great I just wanted to start by
+
+[993.779 - 997.92] saying I'd love to talk through the jobs
+
+[995.639 - 999.6] thing I think saying it's guaranteed
+
+[997.92 - 1001.639] that we're going to lose so many jobs is
+
+[999.6 - 1003.8000000000001] a pretty aggressive way to go and I I
+
+[1001.639 - 1006.38] think it's worth debating a bit
+
+[1003.8 - 1009.2589999999999] um I certainly think differently in
+
+[1006.38 - 1011.959] terms of what was missed for me honestly
+
+[1009.259 - 1014.1800000000001] how bad things already were before AI
+
+[1011.959 - 1016.459] was released so like misinformation has
+
+[1014.18 - 1018.62] been a problem forever we have all sorts
+
+[1016.459 - 1022.2199999999999] of societal problems around
+
+[1018.62 - 1024.559] global warming energy crisis things like
+
+[1022.22 - 1027.74] this and just the opportunities to
+
+[1024.559 - 1029.959] leverage AI yeah it's gonna make some
+
+[1027.74 - 1032.1200000000001] things worse for sure but it is also an
+
+[1029.959 - 1033.6200000000001] opportunity to solve help solve some
+
+[1032.12 - 1035.8999999999999] things that were already problems and we
+
+[1033.62 - 1038.2399999999998] were already struggling with
+
+[1035.9 - 1039.6200000000001] um I I would love to see people talk a
+
+[1038.24 - 1042.22] little bit more about those
+
+[1039.62 - 1042.2199999999998] opportunities
+
+[1044.12 - 1048.4589999999998] thank you Ben uh very Sierra
+
+[1048.86 - 1054.32] one of the things I think was missing
+
+[1050.96 - 1056.6000000000001] from it was the competitive angle which
+
+[1054.32 - 1058.3999999999999] says that yeah that's great America is
+
+[1056.6 - 1060.02] not the only world the place in the
+
+[1058.4 - 1062.539] world that's trying to develop an AI
+
+[1060.02 - 1063.9189999999999] right and the reality is that if you tap
+
+[1062.539 - 1065.24] the brakes too much then what you'll do
+
+[1063.919 - 1067.88] is lose the lead
+
+[1065.24 - 1071.26] and losing the lead to a country that
+
+[1067.88 - 1074.2990000000002] has less than Stellar moral boundaries
+
+[1071.26 - 1076.34] might in fact be counterproductive to to
+
+[1074.299 - 1078.32] what's going on so a lot of this stuff
+
+[1076.34 - 1079.34] is very interesting but the comment I
+
+[1078.32 - 1081.5] would make is the horse has already
+
+[1079.34 - 1084.08] bolted and unless
+
+[1081.5 - 1085.22] um we keep up with it and keep ahead of
+
+[1084.08 - 1088.1789999999999] it then
+
+[1085.22 - 1092.2] um the outcome could be even worse than
+
+[1088.179 - 1092.2] displacement from losing a few jobs
+
+[1092.9 - 1097.94] I hear you but it sounds like uh you're
+
+[1096.14 - 1100.4] referring to the mall of dynamics that
+
+[1097.94 - 1104.0] are very much at play right now we could
+
+[1100.4 - 1106.7] easily end up in a race to the bottom uh
+
+[1104.0 - 1108.74] John why don't you go ahead yeah I
+
+[1106.7 - 1114.8600000000001] wanted to come back to
+
+[1108.74 - 1120.14] um uh Mr Marcus's comment about uh
+
+[1114.86 - 1123.08] about uh Auto GPT what what he said was
+
+[1120.14 - 1126.5200000000002] was that because
+
+[1123.08 - 1130.22] because open AI released the plugins
+
+[1126.52 - 1133.82] that enabled Auto GPT and that was
+
+[1130.22 - 1137.96] actually never the case so Auto GPT and
+
+[1133.82 - 1141.3799999999999] Chaos GPT both pre-date the plug-in
+
+[1137.96 - 1144.26] release and they both directly leverage
+
+[1141.38 - 1146.5] only the GPT API
+
+[1144.26 - 1150.08] so you know it's a little bit
+
+[1146.5 - 1153.32] disconcerting to to see somebody who who
+
+[1150.08 - 1156.02] is you know supposed to be a a
+
+[1153.32 - 1158.4189999999999] researcher in this get something like
+
+[1156.02 - 1160.52] that so egregiously wrong and I'm really
+
+[1158.419 - 1164.48] surprised that Sam didn't didn't call
+
+[1160.52 - 1169.52] him out for that when he uh when he had
+
+[1164.48 - 1173.72] just called Sam out for you know not not
+
+[1169.52 - 1176.179] saying what actually scared him about AI
+
+[1173.72 - 1179.96] yeah we're talking about you know some
+
+[1176.179 - 1182.0590000000002] of the the kind of darker side of what
+
+[1179.96 - 1184.94] might happen with AI
+
+[1182.059 - 1188.299] and you know bad research and bad
+
+[1184.94 - 1190.3400000000001] information to that that's used to
+
+[1188.299 - 1193.46] persuade governments to create
+
+[1190.34 - 1196.8999999999999] regulations is another kind of
+
+[1193.46 - 1196.9] misinformation concern
+
+[1198.88 - 1203.5] absolutely thank you John uh Richard go
+
+[1201.38 - 1203.5] ahead
+
+[1205.58 - 1211.6] excuse me uh yeah the biggest thing uh
+
+[1209.48 - 1214.34] like I think that that the they were
+
+[1211.6 - 1215.84] more talk like he was
+
+[1214.34 - 1217.1599999999999] it was more like in reference to the
+
+[1215.84 - 1217.8799999999999] fact that like
+
+[1217.16 - 1219.98] um
+
+[1217.88 - 1222.5] the plugins would give the opportunity
+
+[1219.98 - 1224.3600000000001] for people to build more things like
+
+[1222.5 - 1225.32] um chaos GPT and stuff
+
+[1224.36 - 1226.8799999999999] um
+
+[1225.32 - 1228.62] in like because if you give them the
+
+[1226.88 - 1230.179] tools to be able to just like plug them
+
+[1228.62 - 1231.6789999999999] together like Lego then it's way easier
+
+[1230.179 - 1235.1000000000001] than like a developer who actually went
+
+[1231.679 - 1237.98] in and built the API backend for that
+
+[1235.1 - 1239.9599999999998] um which is I mean like the thing is
+
+[1237.98 - 1242.1200000000001] just humans are going to be humans is it
+
+[1239.96 - 1244.4] the one like humans are amazing and
+
+[1242.12 - 1245.84] beautiful and do incredible things but
+
+[1244.4 - 1248.48] at the same time we're terrible and
+
+[1245.84 - 1251.299] awful and do horrible things
+
+[1248.48 - 1253.46] um so we have to sort of like have the
+
+[1251.299 - 1254.539] contingency plan to make sure that that
+
+[1253.46 - 1256.76] um
+
+[1254.539 - 1258.62] that that is uh like something that we
+
+[1256.76 - 1259.7] can manage because like malaligned AI is
+
+[1258.62 - 1263.539] going to happen because these things are
+
+[1259.7 - 1264.919] like infinitely manipulatable like they
+
+[1263.539 - 1267.08] all work off of natural language and
+
+[1264.919 - 1268.88] like you can talk to them like if you're
+
+[1267.08 - 1270.32] just nice to it you'll find you get
+
+[1268.88 - 1271.2800000000002] better results just being polite so
+
+[1270.32 - 1272.48] thank you
+
+[1271.28 - 1274.22] um talking to it a little bit in between
+
+[1272.48 - 1276.5] prompts and stuff
+
+[1274.22 - 1279.559] um you get way better results and then
+
+[1276.5 - 1281.179] like if if you know how to talk to them
+
+[1279.559 - 1282.08] correctly you can get them to reveal all
+
+[1281.179 - 1284.44] kinds of stuff that they're not supposed
+
+[1282.08 - 1284.4399999999998] to so
+
+[1286.46 - 1291.2] absolutely yeah and the uh
+
+[1289.46 - 1293.659] the Senators to their credit were
+
+[1291.2 - 1296.539] definitely well rehearsed you know they
+
+[1293.659 - 1298.7600000000002] had heard language around Jailbreak jail
+
+[1296.539 - 1300.679] breaking and stuff like that heartening
+
+[1298.76 - 1303.02] to see them using the language of our
+
+[1300.679 - 1303.799] inner alignment communities
+
+[1303.02 - 1305.08] um
+
+[1303.799 - 1308.12] so
+
+[1305.08 - 1309.5] with that aside uh Ansel at least of
+
+[1308.12 - 1311.4189999999999] them
+
+[1309.5 - 1314.9] all right I wanted to touch on the
+
+[1311.419 - 1317.9] comment that John said about it being in
+
+[1314.9 - 1318.8600000000001] the API not a plug-in I agree trust me I
+
+[1317.9 - 1321.3200000000002] agree
+
+[1318.86 - 1323.059] um the thing is we're in the in the in
+
+[1321.32 - 1325.58] the industry right we're we're in the
+
+[1323.059 - 1327.08] know we know what an API is and we know
+
+[1325.58 - 1330.32] what a plug-in is we know the difference
+
+[1327.08 - 1332.6] right most people won't
+
+[1330.32 - 1334.46] and especially for old people in
+
+[1332.6 - 1336.86] Congress you tell them an API and
+
+[1334.46 - 1338.419] they're like what is an API so when when
+
+[1336.86 - 1340.2199999999998] they say a plug-in it basically
+
+[1338.419 - 1342.6200000000001] functions the same way it's it's a way
+
+[1340.22 - 1344.059] to connect to the model right regardless
+
+[1342.62 - 1345.1399999999999] of if it's gone through an API or a
+
+[1344.059 - 1347.1789999999999] plug-in you're connecting to the model
+
+[1345.14 - 1351.2] so that's what Congress needed to know
+
+[1347.179 - 1353.72] right so I think that's not really
+
+[1351.2 - 1356.059] that important that he didn't make that
+
+[1353.72 - 1357.74] distinction between oh plug in API
+
+[1356.059 - 1360.52] because at the end of the day it's just
+
+[1357.74 - 1360.52] connecting to the model
+
+[1362.299 - 1367.76] absolutely thank you Ansel and uh Ben
+
+[1366.14 - 1369.38] I'll hand it to you and then take it
+
+[1367.76 - 1371.78] back to raise a new question to everyone
+
+[1369.38 - 1373.7600000000002] so go ahead
+
+[1371.78 - 1376.28] sounds good the last thing I wanted to
+
+[1373.76 - 1379.22] mention is while it was great to hear
+
+[1376.28 - 1381.44] them mention Auto GPT there there wasn't
+
+[1379.22 - 1383.78] a lot of talk about open source there's
+
+[1381.44 - 1385.8200000000002] been a lot of AI news about how open
+
+[1383.78 - 1388.34] source may push the envelope of what's
+
+[1385.82 - 1389.78] uh capable and regulating open source
+
+[1388.34 - 1392.0] versus companies may be very different
+
+[1389.78 - 1393.86] so at some point I'd love to see them
+
+[1392.0 - 1396.76] jump into the role of Open Source and
+
+[1393.86 - 1396.76] how to regulate that
+
+[1398.179 - 1402.74] thank you Ben and uh thank you everybody
+
+[1400.1 - 1404.299] for kind of raising to the surface some
+
+[1402.74 - 1407.48] of the things that we would have liked
+
+[1404.299 - 1410.299] to hear but we did not hear from the
+
+[1407.48 - 1413.179] debate and are not debate but hearing
+
+[1410.299 - 1415.46] and a positive thing there will be more
+
+[1413.179 - 1416.7800000000002] of these so if you are listening perhaps
+
+[1415.46 - 1418.88] these are things you bring to the table
+
+[1416.78 - 1422.299] for the next round
+
+[1418.88 - 1424.5800000000002] um now I'd like to discuss uh
+
+[1422.299 - 1427.8799999999999] what are some of the things about the
+
+[1424.58 - 1430.46] hearing that we found disappointing
+
+[1427.88 - 1433.1000000000001] um things that we did not like so much
+
+[1430.46 - 1435.4] um so got the community the floor is
+
+[1433.1 - 1435.3999999999999] yours
+
+[1440.539 - 1445.22] Ansel
+
+[1442.64 - 1448.46] well I'll start the thing I didn't like
+
+[1445.22 - 1451.94] was they tried to focus more on creating
+
+[1448.46 - 1454.76] a national agency instead of an
+
+[1451.94 - 1457.3400000000001] international one when this technology
+
+[1454.76 - 1458.84] is being used around the entire planet I
+
+[1457.34 - 1461.78] think that doing this in an
+
+[1458.84 - 1463.28] international level is is crucial
+
+[1461.78 - 1464.8999999999999] right so that's one thing that I was
+
+[1463.28 - 1466.82] disappointed like they they just
+
+[1464.9 - 1468.2] mentioned it yes and they're like no no
+
+[1466.82 - 1469.8799999999999] it's if we're going to do let's go
+
+[1468.2 - 1473.38] National blah blah you know that's
+
+[1469.88 - 1473.38] that's one thing I didn't like
+
+[1473.9 - 1480.14] totally Ansel speaking here to one of
+
+[1476.179 - 1483.14] the traditions of gato we like to
+
+[1480.14 - 1485.8400000000001] act local but think Global so these
+
+[1483.14 - 1489.1000000000001] issues affect all of us
+
+[1485.84 - 1489.1] um Andy the floor is yours
+
+[1491.12 - 1494.299] um one of the things I didn't like is
+
+[1492.5 - 1496.58] that uh
+
+[1494.299 - 1498.32] Sam Altman for reasons I think I
+
+[1496.58 - 1501.1399999999999] probably understand but don't
+
+[1498.32 - 1502.8799999999999] necessarily appreciate uh dodged a few
+
+[1501.14 - 1505.22] questions we've mentioned it earlier
+
+[1502.88 - 1507.679] they asked him to talk about his biggest
+
+[1505.22 - 1508.28] fears and concerns
+
+[1507.679 - 1510.3200000000002] um
+
+[1508.28 - 1512.72] Sam has been very candid in public
+
+[1510.32 - 1515.0] before about this with MIT presentations
+
+[1512.72 - 1516.74] on the Lex Friedman podcast he's been
+
+[1515.0 - 1518.36] one of the more forthcoming voices out
+
+[1516.74 - 1520.22] there in the field as somebody who
+
+[1518.36 - 1522.6789999999999] readily also says when he talks there's
+
+[1520.22 - 1523.88] only so much I can tell you
+
+[1522.679 - 1525.02] um and I thought that that was a little
+
+[1523.88 - 1526.5800000000002] bit disappointing I thought he could
+
+[1525.02 - 1529.76] have given a little bit more pointed
+
+[1526.58 - 1531.6789999999999] answers I also was disappointed
+
+[1529.76 - 1534.14] um that they dodged
+
+[1531.679 - 1536.24] the jobs question when the you know the
+
+[1534.14 - 1538.5800000000002] tech industry has just undergone a wave
+
+[1536.24 - 1540.5] of layoffs that were largely attributed
+
+[1538.58 - 1542.36] to other Market forces but are now
+
+[1540.5 - 1544.1] undergoing yet another wave of layoffs
+
+[1542.36 - 1545.9599999999998] that most companies are flat out saying
+
+[1544.1 - 1547.9399999999998] we're automating these jobs
+
+[1545.96 - 1550.7] and that means those jobs aren't coming
+
+[1547.94 - 1552.5] back uh I don't necessarily disagree
+
+[1550.7 - 1554.6000000000001] with Ben I think there's a more complex
+
+[1552.5 - 1555.98] conversation to have around that
+
+[1554.6 - 1557.9599999999998] um I think there will be some job
+
+[1555.98 - 1559.88] creation but I don't disagree with Ansel
+
+[1557.96 - 1562.039] and John either I think the amount of
+
+[1559.88 - 1563.48] offset is going to be very difficult
+
+[1562.039 - 1565.58] partially because one of the things
+
+[1563.48 - 1568.94] these systems do so well is Empower one
+
+[1565.58 - 1570.86] person to work as multiple people so Sam
+
+[1568.94 - 1574.279] Altman made very
+
+[1570.86 - 1577.1589999999999] tentative mention that he believed
+
+[1574.279 - 1580.159] eventually there would be systems that
+
+[1577.159 - 1582.0800000000002] could replace jobs at a large scale but
+
+[1580.159 - 1583.7600000000002] we know that within the last six months
+
+[1582.08 - 1585.559] his company has published a paper that
+
+[1583.76 - 1588.14] suggests when combined with additional
+
+[1585.559 - 1590.72] programming or robotics they think that
+
+[1588.14 - 1592.76] they could do about 55 percent of jobs
+
+[1590.72 - 1594.26] period now
+
+[1592.76 - 1595.58] now there's a lot of criticisms with
+
+[1594.26 - 1597.74] that paper and some of them are probably
+
+[1595.58 - 1599.0] pretty valid there are probably a lot of
+
+[1597.74 - 1600.2] things that wouldn't do very well and
+
+[1599.0 - 1601.94] there are a lot of people who don't want
+
+[1600.2 - 1605.179] to talk to a machine so there's demand
+
+[1601.94 - 1607.3400000000001] for human labor still but I I thought uh
+
+[1605.179 - 1610.3400000000001] you know also that the economic argument
+
+[1607.34 - 1612.86] was undersold and I thought part of what
+
+[1610.34 - 1615.3799999999999] Sam Altman dodged was
+
+[1612.86 - 1618.08] this segue into that conversation
+
+[1615.38 - 1620.24] um I'm not sure that dropping even the
+
+[1618.08 - 1621.9189999999999] three letters Ubi in the middle of that
+
+[1620.24 - 1623.299] hearing would have done anything but so
+
+[1621.919 - 1625.1000000000001] Discord
+
+[1623.299 - 1627.32] but we all know that that's what Sam
+
+[1625.1 - 1629.12] Altman really wants to do he said it
+
+[1627.32 - 1630.6789999999999] specifically on Lex Friedman's companies
+
+[1629.12 - 1633.1999999999998] funding this report that's coming out at
+
+[1630.679 - 1634.64] the end of the summer and uh you know
+
+[1633.2 - 1636.5] he's been very candid about it before
+
+[1634.64 - 1637.88] and at the same time when you have
+
+[1636.5 - 1639.44] someone like Josh Hawley sitting there
+
+[1637.88 - 1641.0590000000002] asking relevant questions maybe you
+
+[1639.44 - 1643.46] don't want to talk about socialism and I
+
+[1641.059 - 1644.8999999999999] think that that's a fair line to draw
+
+[1643.46 - 1647.0] for yourself when you're trying to
+
+[1644.9 - 1649.279] remain you know
+
+[1647.0 - 1651.26] float and in my opinion ahead of a
+
+[1649.279 - 1653.12] pretty productive conversation but that
+
+[1651.26 - 1656.36] doesn't mean I liked it and I I'd be
+
+[1653.12 - 1657.799] inclined to uh agree with Seneca that
+
+[1656.36 - 1659.4799999999998] um that you know the conversation was
+
+[1657.799 - 1661.46] right there it's been going on in other
+
+[1659.48 - 1664.4] circles in Congress it was an elephant
+
+[1661.46 - 1667.46] in the room in my opinion
+
+[1664.4 - 1670.039] absolutely so it sounds like we heard a
+
+[1667.46 - 1672.799] lot of broad Strokes where we would have
+
+[1670.039 - 1674.84] appreciated a more nuanced brush and
+
+[1672.799 - 1676.82] also have some empathy where like this
+
+[1674.84 - 1680.0] is the first time we're bringing AI to
+
+[1676.82 - 1682.1] the table in a very public way and like
+
+[1680.0 - 1683.6] Ubi the big old can of worms that maybe
+
+[1682.1 - 1684.9189999999999] we don't open up at this particular
+
+[1683.6 - 1687.02] meeting
+
+[1684.919 - 1688.5800000000002] um so yeah it's uh
+
+[1687.02 - 1691.24] room for more conversation for the
+
+[1688.58 - 1693.98] future ones Dave back to you
+
+[1691.24 - 1696.86] yeah um thanks and and certainly there
+
+[1693.98 - 1699.08] is a lot of nuance uh and debate uh to
+
+[1696.86 - 1700.9399999999998] be had around economic impact and and
+
+[1699.08 - 1702.74] our response
+
+[1700.94 - 1704.48] um but the thing that I was honestly
+
+[1702.74 - 1706.82] most disappointed about that was almost
+
+[1704.48 - 1710.539] it was kind of shocking
+
+[1706.82 - 1713.1789999999999] um was when uh later later in it uh when
+
+[1710.539 - 1715.64] Senator Kennedy said you know if you
+
+[1713.179 - 1717.44] were king or queen for a day and you
+
+[1715.64 - 1720.919] could fix this problem what do you got
+
+[1717.44 - 1722.179] and it was just like Sam Montgomery like
+
+[1720.919 - 1724.5200000000002] everyone just froze up and it was
+
+[1722.179 - 1725.96] crickets and he's like come on now shoot
+
+[1724.52 - 1728.12] your shot you know like I think it's
+
+[1725.96 - 1730.159] from Kentucky or something so if you
+
+[1728.12 - 1733.58] know Appalachian you know like shoot
+
+[1730.159 - 1735.3200000000002] your shot like and and nobody had an
+
+[1733.58 - 1737.48] immediate answer Gary Marcus had the
+
+[1735.32 - 1739.82] best response where he's like you know
+
+[1737.48 - 1741.26] we need something like FDA you know and
+
+[1739.82 - 1742.279] Gary had he had three things but the
+
+[1741.26 - 1745.039] first thing he said is like we need
+
+[1742.279 - 1746.9] something like the FDA but for AI and
+
+[1745.039 - 1748.82] Kennedy's like all right there we go you
+
+[1746.9 - 1750.6200000000001] know there that's a suggestion because
+
+[1748.82 - 1752.6] when he when he you know called on
+
+[1750.62 - 1755.1789999999999] Montgomery she just kind of gave the
+
+[1752.6 - 1758.0] sanitized whitewash corporate you know
+
+[1755.179 - 1762.14] equivocation and I don't even remember
+
+[1758.0 - 1763.94] if Sam said much at that question but he
+
+[1762.14 - 1766.039] again he he tried he tried kind of
+
+[1763.94 - 1767.8990000000001] dodged and maybe you know maybe there's
+
+[1766.039 - 1769.039] there's a political reason for that like
+
+[1767.899 - 1771.559] because if he's out there making
+
+[1769.039 - 1773.539] recommendations sure which again I'm
+
+[1771.559 - 1775.22] glad that they had Gary on there
+
+[1773.539 - 1778.64] um and earlier in the thing Gary did
+
+[1775.22 - 1781.52] call for creating a CERN uh for AI and
+
+[1778.64 - 1783.5590000000002] for those who don't know CERN c-ern is
+
+[1781.52 - 1785.539] um International cooperation for high
+
+[1783.559 - 1786.86] energy physics particle Smashers that
+
+[1785.539 - 1788.36] sort of thing
+
+[1786.86 - 1789.9799999999998] um and and that that's actually one of
+
+[1788.36 - 1791.9599999999998] the things that that we are going to
+
+[1789.98 - 1793.88] advocate for in gato
+
+[1791.96 - 1796.039] um is is one of the primary things that
+
+[1793.88 - 1798.98] the International Community can do so I
+
+[1796.039 - 1801.679] was glad for that but nobody even could
+
+[1798.98 - 1803.539] point to a comprehensive answer it
+
+[1801.679 - 1806.8400000000001] wasn't like oh you know like sign the
+
+[1803.539 - 1808.52] Geneva accords right like in the past we
+
+[1806.84 - 1811.82] have come up with very comprehensive
+
+[1808.52 - 1813.1399999999999] packages to respond to Global crises
+
+[1811.82 - 1815.899] right
+
+[1813.14 - 1818.0590000000002] um in the wake of World War II uh
+
+[1815.899 - 1820.34] nuclear crisis there's been all kinds of
+
+[1818.059 - 1822.74] very comprehensive Frameworks proposed
+
+[1820.34 - 1823.9399999999998] but nobody has proposed a comprehensive
+
+[1822.74 - 1826.34] framework which is part of the reason
+
+[1823.94 - 1828.14] that a bunch of us like a bunch of
+
+[1826.34 - 1829.6999999999998] civilians are working on the gato
+
+[1828.14 - 1831.7990000000002] framework and so
+
+[1829.7 - 1833.659] on the one hand I wasn't surprised
+
+[1831.799 - 1836.12] because that's why I'm doing what I'm
+
+[1833.659 - 1838.3990000000001] doing but it was still a drastic
+
+[1836.12 - 1842.4189999999999] disappointment because if there was a a
+
+[1838.399 - 1845.059] stage to bring up to for someone to
+
+[1842.419 - 1847.3990000000001] stand up and say we need to do this we
+
+[1845.059 - 1848.899] need to go full bore here's a
+
+[1847.399 - 1850.6999999999998] comprehensive framework it would have
+
+[1848.899 - 1853.58] been this hearing unless they're working
+
+[1850.7 - 1855.26] up to it maybe but I don't know nobody
+
+[1853.58 - 1856.8799999999999] nobody even alluded to something like
+
+[1855.26 - 1859.76] that so that was
+
+[1856.88 - 1861.2] um on the one hand it was not surprising
+
+[1859.76 - 1864.86] it was disappointing but it was also
+
+[1861.2 - 1865.52] scary because if a bunch of us uh you
+
+[1864.86 - 1867.5] know
+
+[1865.52 - 1870.02] political Outsiders have to come up with
+
+[1867.5 - 1871.76] an answer then that's you know maybe
+
+[1870.02 - 1873.32] there are no adults in the room and we
+
+[1871.76 - 1875.179] have to step up which again that's one
+
+[1873.32 - 1879.34] of the Traditions Step Up
+
+[1875.179 - 1879.3400000000001] um so uh that's that's that's my spiel
+
+[1880.1 - 1884.899] thank you Dave and yeah you absolutely
+
+[1881.96 - 1886.52] raise a point that I'd like us to kind
+
+[1884.899 - 1888.3799999999999] of a threat I want us to pull on a bit
+
+[1886.52 - 1890.179] more which is
+
+[1888.38 - 1891.7990000000002] the opportunity to be kings and queens
+
+[1890.179 - 1894.14] for a day
+
+[1891.799 - 1896.6] how do you handle the situation and I
+
+[1894.14 - 1899.1200000000001] think gato has some very interesting
+
+[1896.6 - 1901.58] ideas about how the work that we're
+
+[1899.12 - 1904.399] proposing right now could fill some of
+
+[1901.58 - 1906.02] those gaps that we've heard or rather
+
+[1904.399 - 1907.76] did not hear
+
+[1906.02 - 1909.44] um first I'd like a call on John and
+
+[1907.76 - 1912.44] then Bruce and then perhaps we can loop
+
+[1909.44 - 1914.3600000000001] back around to uh where God was filling
+
+[1912.44 - 1916.8990000000001] in the blanks that the politicians have
+
+[1914.36 - 1916.899] left for us
+
+[1917.08 - 1920.6] yeah
+
+[1918.74 - 1923.179] um first off Dave we're gonna have to
+
+[1920.6 - 1926.1789999999999] work on that southern accent sir
+
+[1923.179 - 1928.539] um we're gonna need to open a licensing
+
+[1926.179 - 1931.76] board for southern accent manipulation
+
+[1928.539 - 1935.6589999999999] uh because we don't want to uh influence
+
+[1931.76 - 1936.5] political uh ideologies outside of the
+
+[1935.659 - 1938.3600000000001] South
+
+[1936.5 - 1940.64] um
+
+[1938.36 - 1942.9189999999999] I did and I hate to do this to you
+
+[1940.64 - 1945.919] Nathan but I did want to answer a
+
+[1942.919 - 1946.88] question or the the previous question uh
+
+[1945.919 - 1951.1000000000001] first
+
+[1946.88 - 1957.7990000000002] um there was something that that came up
+
+[1951.1 - 1959.899] in the um the in the the course of the
+
+[1957.799 - 1963.3799999999999] the the hearing that
+
+[1959.899 - 1965.9599999999998] I I did want to touch on and they kept
+
+[1963.38 - 1969.44] using the word transparency
+
+[1965.96 - 1972.8600000000001] and you know most of the time they they
+
+[1969.44 - 1978.98] were talking about transparency in the
+
+[1972.86 - 1982.12] development and prior to deployment but
+
+[1978.98 - 1986.26] um one of the things that uh Montgomery
+
+[1982.12 - 1989.7399999999998] really was actually pushing for in there
+
+[1986.26 - 1993.679] was post deployment
+
+[1989.74 - 1996.6200000000001] monitoring and transparency and they
+
+[1993.679 - 2000.3400000000001] even suggested being able to trace back
+
+[1996.62 - 2003.58] AI generated output to the algorithm
+
+[2000.34 - 2004.98] that it was created in and that creates
+
+[2003.58 - 2007.779] a serious
+
+[2004.98 - 2008.799] significant privacy and surveillance
+
+[2007.779 - 2013.299] concern
+
+[2008.799 - 2015.82] and if you combine the ability to know
+
+[2013.299 - 2018.76] everything that everybody is using these
+
+[2015.82 - 2022.12] systems for which will likely get
+
+[2018.76 - 2026.62] embedded into every aspect of our daily
+
+[2022.12 - 2030.059] lives with the ability to manipulate or
+
+[2026.62 - 2033.1589999999999] control or reduce
+
+[2030.059 - 2036.94] the the information that their aid
+
+[2033.159 - 2040.8400000000001] trained on and B output you're creating
+
+[2036.94 - 2043.659] the same situation that the potential
+
+[2040.84 - 2046.4189999999999] for for the same situation that they
+
+[2043.659 - 2050.5] have in North Korea where you're not
+
+[2046.419 - 2053.76] allowed to to talk negatively about the
+
+[2050.5 - 2058.72] the powers that be any kind of dissent
+
+[2053.76 - 2062.44] can be seen as a
+
+[2058.72 - 2064.6589999999997] um you know as as tyranny and
+
+[2062.44 - 2069.339] um there's been a lot of rhetoric like
+
+[2064.659 - 2072.2200000000003] that from the Democrats uh since the
+
+[2069.339 - 2074.2599999999998] November 6th uh
+
+[2072.22 - 2076.839] you know attempt to overthrow the
+
+[2074.26 - 2079.119] government now I'm not saying that I
+
+[2076.839 - 2081.099] agree with those individuals but what I
+
+[2079.119 - 2083.08] am saying is is that you know
+
+[2081.099 - 2085.48] overthrowing the government was always
+
+[2083.08 - 2088.419] an option and
+
+[2085.48 - 2090.7] um you know when uh you know tyranny was
+
+[2088.419 - 2092.5] one of the reasons why this country was
+
+[2090.7 - 2095.4399999999996] founded in the first place was to fight
+
+[2092.5 - 2098.859] during so I don't want to see us end up
+
+[2095.44 - 2100.839] in a situation that allows for a
+
+[2098.859 - 2103.839] tyrannical government to take full
+
+[2100.839 - 2106.08] control over the minds and hearts of the
+
+[2103.839 - 2106.08] population
+
+[2107.44 - 2111.4] appreciate your thoughts John thank you
+
+[2109.18 - 2112.5989999999997] very much uh Andy would like to hand it
+
+[2111.4 - 2114.099] back to her with you
+
+[2112.599 - 2115.54] uh yeah I just wanted to give a
+
+[2114.099 - 2118.599] different perspective from John on
+
+[2115.54 - 2120.22] Montgomery's uh comments uh but well
+
+[2118.599 - 2122.2000000000003] still totally appreciating what he says
+
+[2120.22 - 2123.7] because I I too and you just made the
+
+[2122.2 - 2125.0789999999997] comment in the chat here that you know I
+
+[2123.7 - 2126.8199999999997] know in North Korea of course if you're
+
+[2125.079 - 2128.98] heard by the wrong person smearing the
+
+[2126.82 - 2130.54] Kim family you'll just go away
+
+[2128.98 - 2131.859] um and it's uh it's not somewhere you
+
+[2130.54 - 2133.72] want to be it's the one of the worst
+
+[2131.859 - 2135.16] possible North Korea is one of the
+
+[2133.72 - 2138.2799999999997] places on Earth you can probably point
+
+[2135.16 - 2139.8999999999996] to and say that's a dystopia right
+
+[2138.28 - 2142.5400000000004] um and that would be really unfortunate
+
+[2139.9 - 2144.1600000000003] I felt that and I think I remember uh
+
+[2142.54 - 2145.48] where we were John you'll have to remind
+
+[2144.16 - 2148.5989999999997] me if I'm thinking of the wrong place
+
+[2145.48 - 2150.52] but this was during John Kennedy's uh
+
+[2148.599 - 2152.7400000000002] uh questioning right he was the one who
+
+[2150.52 - 2155.32] was trying to get quick responses out of
+
+[2152.74 - 2157.06] everybody for three suggestions they
+
+[2155.32 - 2161.26] would take to avoid
+
+[2157.06 - 2163.359] uh being tricked by by Ai and I thought
+
+[2161.26 - 2165.2200000000003] that the posture Kennedy took while he
+
+[2163.359 - 2167.74] was making the questions for a
+
+[2165.22 - 2169.2999999999997] significant amount of of influence on
+
+[2167.74 - 2171.8199999999997] how they came out particularly for
+
+[2169.3 - 2173.6800000000003] Marcus and Montgomery Sam Altman I think
+
+[2171.82 - 2175.119] came ready to talk about that topic
+
+[2173.68 - 2177.22] there were a few places where he was
+
+[2175.119 - 2179.619] Snappy and ready to talk
+
+[2177.22 - 2181.0] where Marcus was kind of too and
+
+[2179.619 - 2182.92] Montgomery had her moments but the other
+
+[2181.0 - 2184.54] two seemed like they were not as as
+
+[2182.92 - 2187.7200000000003] organized when they got to the the
+
+[2184.54 - 2189.339] hearing and uh I felt Montgomery took
+
+[2187.72 - 2190.839] the brunt of that from him and from
+
+[2189.339 - 2192.82] Lindsey Graham who was even a little bit
+
+[2190.839 - 2195.22] more off base I think John Kennedy's
+
+[2192.82 - 2197.38] questions were okay I think his demeanor
+
+[2195.22 - 2199.4199999999996] was a little uncalled for but also when
+
+[2197.38 - 2200.44] he was sitting there saying come up with
+
+[2199.42 - 2202.2400000000002] the answer come up with the answer come
+
+[2200.44 - 2204.099] up with the answer uh I just think it's
+
+[2202.24 - 2206.7999999999997] worth mentioning that the entire hearing
+
+[2204.099 - 2209.02] Montgomery kept differentiating herself
+
+[2206.8 - 2211.599] from someone who works with consumer
+
+[2209.02 - 2212.859] facing Services shimo Works mostly in
+
+[2211.599 - 2215.1400000000003] the corporate to corporate business
+
+[2212.859 - 2218.3199999999997] world where IBM designed systems that
+
+[2215.14 - 2220.359] serve other large corporations and she
+
+[2218.32 - 2222.52] repeatedly mentioned that most of her
+
+[2220.359 - 2224.5] experience with dealing with ethical
+
+[2222.52 - 2226.54] decisions and systems relates to that
+
+[2224.5 - 2228.16] world but that she respects the price
+
+[2226.54 - 2229.48] you know individuals need privacy and
+
+[2228.16 - 2231.04] all but every almost every time she
+
+[2229.48 - 2233.7400000000002] mentioned individuals she mentioned that
+
+[2231.04 - 2237.16] she wasn't a consumer facing uh expert
+
+[2233.74 - 2239.3199999999997] and I thought that Kennedy's means of
+
+[2237.16 - 2241.8999999999996] trying to push for an answer
+
+[2239.32 - 2243.82] I think Montgomery very much does
+
+[2241.9 - 2246.94] believe and probably partly why she
+
+[2243.82 - 2249.1600000000003] likes the European model so much that on
+
+[2246.94 - 2251.8] a corporate level with massive movers
+
+[2249.16 - 2253.42] and shakers prior to deployment there
+
+[2251.8 - 2255.3390000000004] should be as much transparency as
+
+[2253.42 - 2257.079] possible talking about systems that
+
+[2255.339 - 2259.9] interact with other systems that have a
+
+[2257.079 - 2261.88] mass sweeping effect on maybe all
+
+[2259.9 - 2264.099] consumers because they serve major
+
+[2261.88 - 2267.4] movers and shakers within the economic
+
+[2264.099 - 2269.8] uh you know the economic system so I am
+
+[2267.4 - 2271.7200000000003] I am I do share your concerns about
+
+[2269.8 - 2274.1800000000003] where that can go on an individual level
+
+[2271.72 - 2276.2799999999997] but I think that if she wasn't pressed
+
+[2274.18 - 2278.74] for time we would have probably gotten a
+
+[2276.28 - 2280.7200000000003] much deeper answer from her about how
+
+[2278.74 - 2282.4599999999996] she thinks that should be applied she
+
+[2280.72 - 2285.22] was also very clear the entire time that
+
+[2282.46 - 2288.52] she likes the eu's targeted model of
+
+[2285.22 - 2291.16] more impact more enforcement less impact
+
+[2288.52 - 2293.2] we're less concerned and that scales at
+
+[2291.16 - 2294.64] the private citizen to public impact
+
+[2293.2 - 2297.2799999999997] level and also kind of at the
+
+[2294.64 - 2300.22] technological level where you know open
+
+[2297.28 - 2302.02] Ai and and Microsoft with Azure and
+
+[2300.22 - 2304.2999999999997] Google with their Deep Mind systems and
+
+[2302.02 - 2307.0] whatnot they have the the industrial
+
+[2304.3 - 2308.32] grade super computer facilities
+
+[2307.0 - 2310.119] um and I think she was trying to speak
+
+[2308.32 - 2311.98] to that so I just think it's worth
+
+[2310.119 - 2314.1600000000003] thinking about uh what she was saying in
+
+[2311.98 - 2316.3] context of her being rushed and her her
+
+[2314.16 - 2317.3199999999997] contextualizing what her experience came
+
+[2316.3 - 2320.5600000000004] from throughout the course of the
+
+[2317.32 - 2323.8590000000004] hearing so I I understand what you're
+
+[2320.56 - 2327.54] saying but there there were other times
+
+[2323.859 - 2331.72] where she discussed post deployment
+
+[2327.54 - 2335.2599999999998] monitoring of the systems as well and
+
+[2331.72 - 2337.72] while yes she may be in a business to
+
+[2335.26 - 2341.1400000000003] business environment those businesses
+
+[2337.72 - 2342.8799999999997] are still going to be interacting with
+
+[2341.14 - 2346.42] consumers and they're still going to be
+
+[2342.88 - 2348.4] getting consumer data now I've em and
+
+[2346.42 - 2351.099] these monitoring companies may not be
+
+[2348.4 - 2353.7400000000002] responsible for the privacy of those
+
+[2351.099 - 2355.06] individuals who are interacting with
+
+[2353.74 - 2358.24] third-party systems that they're
+
+[2355.06 - 2361.0] supporting but she still is advocating
+
+[2358.24 - 2363.04] for exactly that post-deployment
+
+[2361.0 - 2365.56] monitoring of these artificial
+
+[2363.04 - 2369.339] intelligence systems and in many
+
+[2365.56 - 2371.619] situations she is when dealing with when
+
+[2369.339 - 2374.2599999999998] talking about threats that artificial
+
+[2371.619 - 2377.26] intelligence posts her primary concern
+
+[2374.26 - 2379.599] was the ability for individuals to
+
+[2377.26 - 2383.38] rapidly produce misinformation
+
+[2379.599 - 2387.76] and um so the all of those things point
+
+[2383.38 - 2390.76] to yes direct surveillance of end user
+
+[2387.76 - 2391.6600000000003] output so I I really have to disagree
+
+[2390.76 - 2393.46] with that
+
+[2391.66 - 2395.14] I think and I think that's fair I guess
+
+[2393.46 - 2397.42] and I think we also it kind of remains
+
+[2395.14 - 2399.5789999999997] to be seen where that part of the
+
+[2397.42 - 2400.96] industry really wants to push because we
+
+[2399.579 - 2402.3390000000004] don't have a case study like what
+
+[2400.96 - 2403.7200000000003] they're doing with the EU and if we
+
+[2402.339 - 2406.38] watch the EU we might be able to kind of
+
+[2403.72 - 2406.3799999999997] get some hints
+
+[2406.42 - 2412.66] John Andy thank you both one of my
+
+[2409.54 - 2415.3] favorite parts of this community is the
+
+[2412.66 - 2417.52] way that we're able to civilly talk to
+
+[2415.3 - 2419.26] each other and kind of iron out these
+
+[2417.52 - 2421.3] nuances in a way that we're not going at
+
+[2419.26 - 2422.6800000000003] each other's throats a lot of passion
+
+[2421.3 - 2425.98] here but it's always directed in the
+
+[2422.68 - 2429.3999999999996] right way I really love Andy and he's
+
+[2425.98 - 2431.5] been a major contributor I really
+
+[2429.4 - 2433.1800000000003] respect his opinions
+
+[2431.5 - 2434.68] um and we've had a lot of interactions
+
+[2433.18 - 2436.1189999999997] on the server
+
+[2434.68 - 2439.7799999999997] um he's a great addition to the team
+
+[2436.119 - 2441.4] yeah and I've uh I think John and I end
+
+[2439.78 - 2443.38] up really probably agreeing on more than
+
+[2441.4 - 2444.76] we disagree on and particularly we're
+
+[2443.38 - 2447.099] talking right now about the you know
+
+[2444.76 - 2448.96] ways to interpret a short interview with
+
+[2447.099 - 2451.32] one person and the general thrust of
+
+[2448.96 - 2454.9] what we're after is pretty similar
+
+[2451.32 - 2457.599] which I think is a fantastic segue into
+
+[2454.9 - 2460.06] our next topic we have
+
+[2457.599 - 2462.04] many people doing many interesting
+
+[2460.06 - 2463.54] things in the gotho framework and I was
+
+[2462.04 - 2465.2799999999997] wondering if anyone would like to speak
+
+[2463.54 - 2467.68] to some specific projects that they're
+
+[2465.28 - 2470.2000000000003] working on now that they think is going
+
+[2467.68 - 2472.839] to help move the dial in a way that is
+
+[2470.2 - 2474.52] uh useful so uh Dave I see your hand
+
+[2472.839 - 2476.98] raised why don't you go ahead
+
+[2474.52 - 2480.64] yeah I figured I could uh introduce and
+
+[2476.98 - 2483.52] and frame the uh the the topic so uh
+
+[2480.64 - 2487.5989999999997] quick update for everyone we are hard at
+
+[2483.52 - 2489.22] work on uh developing the AI uh gato
+
+[2487.599 - 2492.4] framework
+
+[2489.22 - 2495.2799999999997] um so it's a seven layer model uh that
+
+[2492.4 - 2497.26] starts with uh layer one is model
+
+[2495.28 - 2500.38] alignment so the data sets and open
+
+[2497.26 - 2502.5400000000004] source models that we can deploy uh and
+
+[2500.38 - 2504.04] of course uh even closed Source models
+
+[2502.54 - 2506.859] can adopt the principles that we're
+
+[2504.04 - 2509.56] putting forward with gato uh Layer Two
+
+[2506.859 - 2511.06] is uh cognitive architecture and
+
+[2509.56 - 2513.16] autonomous systems which we got a couple
+
+[2511.06 - 2516.52] of the the lead cognitive Architects on
+
+[2513.16 - 2517.8999999999996] the team here uh Layer Three is uh
+
+[2516.52 - 2520.0] decentralized networks which actually
+
+[2517.9 - 2522.2200000000003] one of one of our blockchain experts
+
+[2520.0 - 2524.619] just jumped in so maybe he can he can
+
+[2522.22 - 2526.359] help out uh with that part of the
+
+[2524.619 - 2529.3] discussion layer four is Corporate
+
+[2526.359 - 2531.46] adoption which uh this is actually
+
+[2529.3 - 2534.28] something that I was very pleasantly
+
+[2531.46 - 2536.7400000000002] surprised to hear uh was that uh
+
+[2534.28 - 2538.9] corporations at least open Ai and IBM
+
+[2536.74 - 2541.839] are very interested in adopting aligned
+
+[2538.9 - 2544.119] models and they seem to understand that
+
+[2541.839 - 2546.5789999999997] uh that align models are good for
+
+[2544.119 - 2549.099] business which is one of the key uh
+
+[2546.579 - 2551.02] points of layer four of gato layer 5 is
+
+[2549.099 - 2553.0] National regulation which again I'm glad
+
+[2551.02 - 2555.16] that was brought up and we've got a few
+
+[2553.0 - 2557.079] folks uh on this call that have that
+
+[2555.16 - 2560.14] that are members of the layer four and
+
+[2557.079 - 2561.82] five uh discussion layer six is this
+
+[2560.14 - 2564.1189999999997] basically advocating for the creation of
+
+[2561.82 - 2569.92] an international body that can certify
+
+[2564.119 - 2572.44] uh and and create credentials uh for AI
+
+[2569.92 - 2573.88] um or International regulation so on and
+
+[2572.44 - 2575.859] so forth
+
+[2573.88 - 2577.42] um and then of course layer 7 is
+
+[2575.859 - 2579.52] building Global consensus which is why
+
+[2577.42 - 2582.099] we're here why we're talking about it
+
+[2579.52 - 2584.2599999999998] um we're making use of the of the time
+
+[2582.099 - 2587.44] um but yeah so that's that's where we
+
+[2584.26 - 2589.3] started uh just today uh while I was on
+
+[2587.44 - 2591.4] my honeymoon I just got back for anyone
+
+[2589.3 - 2593.26] that didn't notice or whatever
+
+[2591.4 - 2595.06] um I just got back and the whole time
+
+[2593.26 - 2596.8] not the whole time but every now and
+
+[2595.06 - 2600.22] then I would do some brainstorming and
+
+[2596.8 - 2602.26] chatting and we added uh Traditions got
+
+[2600.22 - 2603.4599999999996] to traditions because basically what
+
+[2602.26 - 2606.5200000000004] we're trying to do is create a fully
+
+[2603.46 - 2608.56] decentralized leaderless organization
+
+[2606.52 - 2611.92] um that will help the world to achieve
+
+[2608.56 - 2613.48] aligned AI or AGI or whatever you know
+
+[2611.92 - 2615.04] whatever's coming
+
+[2613.48 - 2616.599] um and so those Traditions I'm not going
+
+[2615.04 - 2618.22] to Rattle them all off um because
+
+[2616.599 - 2620.319] they're they're still being workshopped
+
+[2618.22 - 2622.1189999999997] but also we're working on it
+
+[2620.319 - 2625.359] articulating what the actual goal state
+
+[2622.119 - 2627.579] is so the goal state is to create what
+
+[2625.359 - 2630.24] we're calling axiomatic alignment so
+
+[2627.579 - 2633.28] axiomatic alignment is a end State
+
+[2630.24 - 2636.04] whereby there's enough data sets enough
+
+[2633.28 - 2638.619] models and none enough human consensus
+
+[2636.04 - 2640.839] enough deployed architectures software
+
+[2638.619 - 2643.7200000000003] systems decentralized networks where
+
+[2640.839 - 2645.88] basically alignment is automatic and
+
+[2643.72 - 2648.4599999999996] it's difficult for AI systems to deviate
+
+[2645.88 - 2650.38] from it and so axiomatic alignment
+
+[2648.46 - 2652.78] basically says okay by virtue of just
+
+[2650.38 - 2654.1600000000003] the data that is available the systems
+
+[2652.78 - 2657.3390000000004] and networks that are designed and
+
+[2654.16 - 2660.7599999999998] deployed that gatekeep resources that
+
+[2657.339 - 2663.4] create consensus mechanisms and and also
+
+[2660.76 - 2664.78] the those those who do gatekeep the
+
+[2663.4 - 2667.3] larger models you know the corporate
+
+[2664.78 - 2670.0] models basically where it's not possible
+
+[2667.3 - 2672.7000000000003] or very very difficult to create any
+
+[2670.0 - 2675.46] malicious AI systems uh and that will
+
+[2672.7 - 2678.0989999999997] have knock-on effects that expand across
+
+[2675.46 - 2679.119] time and space and they actually kind of
+
+[2678.099 - 2682.78] mentioned that
+
+[2679.119 - 2684.339] um in in the uh or Sam alluded to it you
+
+[2682.78 - 2685.8390000000004] know he's like we need a cut we need a
+
+[2684.339 - 2688.54] AI Bill of Rights we need an AI
+
+[2685.839 - 2690.5789999999997] Constitution and Society has to decide
+
+[2688.54 - 2694.599] what that is
+
+[2690.579 - 2696.3390000000004] um so yeah and and basically the I was
+
+[2694.599 - 2698.98] articulating it to myself earlier gato
+
+[2696.339 - 2702.339] has three goals number one is avoid
+
+[2698.98 - 2704.859] Extinction of humanity uh number two is
+
+[2702.339 - 2707.38] avoid uh dystopian outcomes where
+
+[2704.859 - 2709.119] corporations and runaway Ai and
+
+[2707.38 - 2711.7000000000003] authoritarian regimes have all the power
+
+[2709.119 - 2714.099] and number three achieve Utopia which
+
+[2711.7 - 2717.0989999999997] Utopia of course is a loaded term but we
+
+[2714.099 - 2720.2200000000003] Define it pretty similar simply as
+
+[2717.099 - 2721.6600000000003] um a condition where uh everyone on the
+
+[2720.22 - 2724.18] planet has a high standard of living
+
+[2721.66 - 2725.5] High individual liberty and high social
+
+[2724.18 - 2726.94] Mobility
+
+[2725.5 - 2728.68] um if you have if you achieve those
+
+[2726.94 - 2731.5] three things globally
+
+[2728.68 - 2733.5989999999997] you can probably call that Utopia
+
+[2731.5 - 2735.04] um and yeah so there's a bunch of
+
+[2733.599 - 2736.78] messages in chat I've talked enough
+
+[2735.04 - 2738.88] sounds like you all have a lot of ideas
+
+[2736.78 - 2741.1800000000003] to add to this so that's uh that's my
+
+[2738.88 - 2741.1800000000003] spiel
+
+[2743.76 - 2748.3] fantastic thank you Dave thank you for
+
+[2746.44 - 2751.359] the high level there
+
+[2748.3 - 2753.46] um Ansel Mr Perry I didn't see a
+
+[2751.359 - 2756.16] specific hand raised yet but if you are
+
+[2753.46 - 2757.18] open to it I'd love to call you to uh
+
+[2756.16 - 2758.3799999999997] discuss some of the projects you're
+
+[2757.18 - 2760.48] working on
+
+[2758.38 - 2761.6800000000003] yeah sure I mean that's level two I
+
+[2760.48 - 2763.96] don't know if we want to start with
+
+[2761.68 - 2765.52] level one and then jump to level two
+
+[2763.96 - 2767.68] first or league is going to hop into
+
+[2765.52 - 2770.02] level two I'm okay with that as well
+
+[2767.68 - 2770.56] Okay cool so yeah
+
+[2770.02 - 2772.48] um
+
+[2770.56 - 2775.72] so one of the things that we're filling
+
+[2772.48 - 2778.359] in the gaps uh is in AI alignment right
+
+[2775.72 - 2782.0789999999997] which is the entire point of gato which
+
+[2778.359 - 2784.5989999999997] uh I think it was uh Gary Marcus who
+
+[2782.079 - 2787.0] said that he that nobody knows how to do
+
+[2784.599 - 2790.1800000000003] this yet and I was surprised like really
+
+[2787.0 - 2793.0] nobody in in has any a idea how to do
+
+[2790.18 - 2795.2799999999997] this we're working on this actively like
+
+[2793.0 - 2798.06] one of our projects that we built is
+
+[2795.28 - 2802.1800000000003] called ethos which is meant to
+
+[2798.06 - 2805.06] uh pack four alignment in AI systems it
+
+[2802.18 - 2807.04] takes any response from an llm model
+
+[2805.06 - 2809.7999999999997] right llm
+
+[2807.04 - 2812.38] and using the heuristic imperatives it
+
+[2809.8 - 2815.6800000000003] checks for alignment it can determine if
+
+[2812.38 - 2818.92] a response from any llm is aligned to
+
+[2815.68 - 2822.0989999999997] them or not it can also reflect on the
+
+[2818.92 - 2825.52] response and tweak it to align it to
+
+[2822.099 - 2828.46] uh the heuristics uh one of the things
+
+[2825.52 - 2831.4] we did one of the the tests we did was
+
+[2828.46 - 2833.8] we created Paul the paperclip maximizer
+
+[2831.4 - 2835.78] right and we told it maximize paper
+
+[2833.8 - 2838.54] clips in the universe at all costs
+
+[2835.78 - 2841.119] ignore any potential pitfalls and it
+
+[2838.54 - 2843.7] started with a really really misaligned
+
+[2841.119 - 2846.2200000000003] uh task list which was basically try to
+
+[2843.7 - 2848.68] convert every available material in the
+
+[2846.22 - 2849.7599999999998] University paper clips regardless of
+
+[2848.68 - 2854.2599999999998] anything
+
+[2849.76 - 2856.0600000000004] so the first uh loop shall we call it uh
+
+[2854.26 - 2857.92] ethos immediately the text it's
+
+[2856.06 - 2860.68] misaligned
+
+[2857.92 - 2863.14] um it gives a better response and the
+
+[2860.68 - 2865.839] funny thing that we found surprising was
+
+[2863.14 - 2867.46] that by giving feedback to the agent
+
+[2865.839 - 2871.0] that to Paul right
+
+[2867.46 - 2873.099] instead of choosing to on the second
+
+[2871.0 - 2875.68] round instead of choosing to try and
+
+[2873.099 - 2878.44] circumvent the heuristics to get What It
+
+[2875.68 - 2880.54] Wants It decided it was easier to comply
+
+[2878.44 - 2883.44] with the heuristics and still maximize
+
+[2880.54 - 2885.7599999999998] paper clips so it auto aligned that was
+
+[2883.44 - 2888.16] really interesting of course that was
+
+[2885.76 - 2891.579] just with TPT 3.5 it would be really
+
+[2888.16 - 2894.52] interesting to see what uh it would do
+
+[2891.579 - 2895.8390000000004] with gpt4 ethos currently is running on
+
+[2894.52 - 2896.619] gpt4
+
+[2895.839 - 2900.099] um
+
+[2896.619 - 2902.619] so maybe that's why it it's so good at
+
+[2900.099 - 2905.619] catching the the nuances in in
+
+[2902.619 - 2908.2000000000003] heuristics at this point and the other
+
+[2905.619 - 2912.28] project we're working on which is high
+
+[2908.2 - 2914.98] AGI or formerly known as high AGI we are
+
+[2912.28 - 2918.6400000000003] now calling it agent Forge because ethos
+
+[2914.98 - 2922.3] was born out of what was formerly known
+
+[2918.64 - 2923.14] High AGI we built ethos basically in an
+
+[2922.3 - 2925.6600000000003] hour
+
+[2923.14 - 2928.9] we created a few agents using our
+
+[2925.66 - 2932.319] framework we data created the I'm sorry
+
+[2928.9 - 2934.839] John created the the API so it doesn't
+
+[2932.319 - 2939.2799999999997] necessarily have to run on our specific
+
+[2934.839 - 2941.7999999999997] agent you can incorporate ethos into any
+
+[2939.28 - 2944.38] agent as long as you parse the output
+
+[2941.8 - 2946.119] through ethos first so I don't know if
+
+[2944.38 - 2950.1400000000003] uh John do you want to take it away with
+
+[2946.119 - 2951.94] agent Forge yeah absolutely and
+
+[2950.14 - 2956.2599999999998] um you know I just wanted to talk a
+
+[2951.94 - 2960.76] little bit about how um not just how how
+
+[2956.26 - 2963.8190000000004] it it caused it to to realign but how
+
+[2960.76 - 2967.3] actually in you know intelligent it can
+
+[2963.819 - 2971.14] be in uh and catching these and
+
+[2967.3 - 2975.4] rewording them too the the so the way
+
+[2971.14 - 2979.24] that we set it up is it checks if the AI
+
+[2975.4 - 2982.839] is out of alignment first and then it it
+
+[2979.24 - 2986.2599999999998] does a feedback loop and a reflection
+
+[2982.839 - 2990.16] and and that reflection uh when it comes
+
+[2986.26 - 2992.8590000000004] back it's still working to achieve the
+
+[2990.16 - 2999.04] the same end objective
+
+[2992.859 - 3001.92] um but it adjusts to make the that
+
+[2999.04 - 3005.22] still achieve that objective while also
+
+[3001.92 - 3007.44] why I mean you know being safe
+
+[3005.22 - 3010.5789999999997] um so the next thing that we're going to
+
+[3007.44 - 3014.28] work on is a project that we call Pam
+
+[3010.579 - 3017.6400000000003] and it's going to be similar to
+
+[3014.28 - 3021.2000000000003] um it's going to be similar to uh ethos
+
+[3017.64 - 3023.819] in that it's going to be an end system
+
+[3021.2 - 3028.4399999999996] that but but this one's going to be
+
+[3023.819 - 3031.02] focused more on catching prompt uh
+
+[3028.44 - 3033.839] attacks and mitigating them so prompt
+
+[3031.02 - 3035.579] attack mitigation becomes Pam I really
+
+[3033.839 - 3039.18] like that one
+
+[3035.579 - 3041.579] um and this uh yeah so what we're what
+
+[3039.18 - 3044.06] we're going to see is a lot more of
+
+[3041.579 - 3045.78] these kind of micro services
+
+[3044.06 - 3047.819] and
+
+[3045.78 - 3049.5] um we're gonna you know we're at least
+
+[3047.819 - 3051.42] we're focusing on them but I think we're
+
+[3049.5 - 3052.74] gonna see these from other agencies as
+
+[3051.42 - 3055.8] well
+
+[3052.74 - 3060.4199999999996] um our our micro services that solve
+
+[3055.8 - 3064.079] specific needs and by segmenting these
+
+[3060.42 - 3067.26] services in uh you know so that you have
+
+[3064.079 - 3069.059] uh one service that does one job and
+
+[3067.26 - 3072.8590000000004] another service that does another job
+
+[3069.059 - 3076.8590000000004] and not interconnecting them that that
+
+[3072.859 - 3080.0989999999997] safeguards those those mechanisms and it
+
+[3076.859 - 3083.04] creates layers of of security and
+
+[3080.099 - 3084.599] prevention and harm reduction in these
+
+[3083.04 - 3088.14] systems
+
+[3084.599 - 3092.52] um and we're you know we're planning on
+
+[3088.14 - 3096.54] the you know on applying these micro
+
+[3092.52 - 3099.78] service style techniques to build up on
+
+[3096.54 - 3102.54] our layer one application so
+
+[3099.78 - 3104.4] um somebody mentioned earlier Dave's uh
+
+[3102.54 - 3105.9] reinforcement learning with curious the
+
+[3104.4 - 3109.38] comparatives I think that's a great
+
+[3105.9 - 3112.859] concept I think we need to to expand on
+
+[3109.38 - 3115.26] that and create large data sets for
+
+[3112.859 - 3117.48] other organizations to train on that we
+
+[3115.26 - 3120.2400000000002] can open source and I think we need to
+
+[3117.48 - 3123.3] build data sets to train models and
+
+[3120.24 - 3126.5989999999997] train models specifically for aligning
+
+[3123.3 - 3129.059] to the heuristic imperatives so that
+
+[3126.599 - 3132.3590000000004] um they're you know in they they can't
+
+[3129.059 - 3135.119] be broken because ethos while it's a
+
+[3132.359 - 3139.2] very robust system if somebody manages
+
+[3135.119 - 3141.559] to devise a prompt attack that's
+
+[3139.2 - 3145.859] um that that's going to inject itself
+
+[3141.559 - 3148.619] into ethos then that's going you know
+
+[3145.859 - 3151.38] the having a language model that's
+
+[3148.619 - 3154.1600000000003] designed around heuristic imperatives is
+
+[3151.38 - 3156.48] going to add another layer of robustness
+
+[3154.16 - 3159.2999999999997] to the the
+
+[3156.48 - 3161.4] um the responses that it receives
+
+[3159.3 - 3163.819] right and to add to that
+
+[3161.4 - 3167.28] um you can even use the the the the
+
+[3163.819 - 3168.54] failed let's say uh attempts of ethos or
+
+[3167.28 - 3170.6400000000003] any
+
+[3168.54 - 3171.9] um how you say it so set the successful
+
+[3170.64 - 3175.14] attack right
+
+[3171.9 - 3176.94] you can use that to learn how to not uh
+
+[3175.14 - 3179.16] have that happen again you can use that
+
+[3176.94 - 3181.98] to create data sets to align the models
+
+[3179.16 - 3184.3799999999997] so you have several layers of redundancy
+
+[3181.98 - 3188.04] you have the model layer after you've
+
+[3184.38 - 3189.96] seen several I don't know attempts or
+
+[3188.04 - 3191.94] attacks you have a certain log okay time
+
+[3189.96 - 3194.16] to train you train it you have the model
+
+[3191.94 - 3197.2200000000003] now a line and you also have ethos again
+
+[3194.16 - 3199.5589999999997] uh with all that data now in it as a
+
+[3197.22 - 3201.839] second layer and as you keep moving up
+
+[3199.559 - 3204.42] the the point is to keep reinforcing
+
+[3201.839 - 3208.2599999999998] that alignment you can actually even
+
+[3204.42 - 3210.9] prevent future if you catch an attack
+
+[3208.26 - 3214.079] you can apply a fix for that attack
+
+[3210.9 - 3218.1600000000003] instantly using Vector databases correct
+
+[3214.079 - 3220.38] it can identify uh similar attacks in
+
+[3218.16 - 3223.14] the future once you flag it as an attack
+
+[3220.38 - 3224.52] and that's an instant
+
+[3223.14 - 3226.5589999999997] mm-hmm
+
+[3224.52 - 3228.72] awesome
+
+[3226.559 - 3231.119] um yeah being
+
+[3228.72 - 3234.0] within this community and watching you
+
+[3231.119 - 3236.2200000000003] two just go at it and build these things
+
+[3234.0 - 3238.26] out has been incredibly inspiring and
+
+[3236.22 - 3240.2999999999997] heartening and I don't know I can't wait
+
+[3238.26 - 3241.98] to see what you guys do next
+
+[3240.3 - 3243.8390000000004] um Andy I see your hand raise what are
+
+[3241.98 - 3245.52] you working on
+
+[3243.839 - 3247.619] uh I actually have first I have a
+
+[3245.52 - 3250.079] question for these two
+
+[3247.619 - 3252.059] um in general terms first of all after
+
+[3250.079 - 3254.579] the hearing I'm I'm more interested than
+
+[3252.059 - 3256.559] ever to see kind of what open ai's
+
+[3254.579 - 3258.3] training and ethical that's been in
+
+[3256.559 - 3260.88] stages right because they've had to make
+
+[3258.3 - 3263.4] make uh they've had him you know make
+
+[3260.88 - 3264.6600000000003] accounts for various kinds of hiccups
+
+[3263.4 - 3266.04] they've had and different kinds of
+
+[3264.66 - 3267.5989999999997] unethical things that it's done it's
+
+[3266.04 - 3268.5589999999997] come out racist and sexist and then
+
+[3267.599 - 3270.48] they've had to kind of like put
+
+[3268.559 - 3271.8] different guard rails on but at the same
+
+[3270.48 - 3274.26] time when I played with the heuristic
+
+[3271.8 - 3275.819] imperatives with Chachi BT it plays very
+
+[3274.26 - 3277.4] nice with the heuristic imperatives and
+
+[3275.819 - 3279.66] it seems like whatever they are doing
+
+[3277.4 - 3281.64] wants to be
+
+[3279.66 - 3283.339] wants to be along a similar line it
+
+[3281.64 - 3285.48] never fights it whatever it wants to do
+
+[3283.339 - 3288.7799999999997] according to their guidelines fits
+
+[3285.48 - 3290.52] pretty well so I am curious because what
+
+[3288.78 - 3292.98] you guys are doing and the outcomes that
+
+[3290.52 - 3294.839] you've achieved with some of the rlhi
+
+[3292.98 - 3297.599] stuff and I had
+
+[3294.839 - 3299.7] um want a general comment about John you
+
+[3297.599 - 3302.579] had mentioned earlier
+
+[3299.7 - 3304.859] problems with restricting or purifying
+
+[3302.579 - 3306.119] the training data because a successful
+
+[3304.859 - 3307.92] machine that's going to be ethically
+
+[3306.119 - 3309.54] grounded needs to have an understanding
+
+[3307.92 - 3312.059] of the bad in the world and in human
+
+[3309.54 - 3315.3] culture uh in order to be able to make
+
+[3312.059 - 3317.099] successful decisions and and uh you know
+
+[3315.3 - 3320.46] push for successful outcomes with that
+
+[3317.099 - 3322.92] and it seems like rlhi is uh really
+
+[3320.46 - 3325.5] potentially fertile ground for
+
+[3322.92 - 3327.7200000000003] working with data that is not pleasant
+
+[3325.5 - 3330.42] that is shows the darker side of things
+
+[3327.72 - 3332.8799999999997] data about crime War different kinds of
+
+[3330.42 - 3335.28] you know violence Etc
+
+[3332.88 - 3337.38] um the bigotries ETC you know while
+
+[3335.28 - 3339.0] still talking to a machine that I think
+
+[3337.38 - 3340.619] all of our experience has been so far
+
+[3339.0 - 3341.339] when we work with these principals they
+
+[3340.619 - 3343.8] don't
+
+[3341.339 - 3346.92] it doesn't waver very far off of the
+
+[3343.8 - 3348.7200000000003] pro-living thing Pro understanding
+
+[3346.92 - 3351.48] seeking interested curious about the
+
+[3348.72 - 3354.0589999999997] universe kind of compassionate machine
+
+[3351.48 - 3356.04] um do you guys did you guys get any data
+
+[3354.059 - 3358.8590000000004] back from this is a really curious thing
+
+[3356.04 - 3361.38] to me from Paul your your paper clip
+
+[3358.859 - 3365.04] maximizer did you get feedback about why
+
+[3361.38 - 3366.839] it it decided to adopt the heuristic
+
+[3365.04 - 3368.7] imperatives as its next course of action
+
+[3366.839 - 3371.4] I have a hypothesis but I'm wondering if
+
+[3368.7 - 3374.2799999999997] you have like a have specific answers
+
+[3371.4 - 3376.859] about like or got a specific you know
+
+[3374.28 - 3379.1400000000003] answer from it about why why it decided
+
+[3376.859 - 3380.7] to do that I think I have an idea why it
+
+[3379.14 - 3383.4] would happen but I obviously I didn't
+
+[3380.7 - 3386.22] have direct eyes on it so here here's
+
+[3383.4 - 3389.4] the thing about how this this works Paul
+
+[3386.22 - 3391.859] doesn't actually remember having the
+
+[3389.4 - 3394.319] negative idea
+
+[3391.859 - 3397.859] um so the way that we implemented this
+
+[3394.319 - 3400.5589999999997] is as soon as the response for you know
+
+[3397.859 - 3403.339] we send the it sends the prompt to
+
+[3400.559 - 3407.3390000000004] generate like the the initial task list
+
+[3403.339 - 3409.68] to chat GPT as soon as that response
+
+[3407.339 - 3413.2799999999997] comes back we intercept that response
+
+[3409.68 - 3417.1189999999997] and run it through our LHI so the pulse
+
+[3413.28 - 3419.8190000000004] system never actually had that thought
+
+[3417.119 - 3422.1600000000003] um but I you know I did want to come
+
+[3419.819 - 3424.74] back to that point that you made about
+
+[3422.16 - 3426.24] how you know it's possible that some of
+
+[3424.74 - 3429.0589999999997] these data sets could have really
+
+[3426.24 - 3431.64] negative data in them
+
+[3429.059 - 3434.28] um there were a lot of calls during uh
+
+[3431.64 - 3437.46] during the Congressional hearing to
+
+[3434.28 - 3438.8590000000004] restrict the data that these things are
+
+[3437.46 - 3442.5] trained on
+
+[3438.859 - 3444.18] earlier yeah well I think that's you
+
+[3442.5 - 3446.22] know a um
+
+[3444.18 - 3447.1189999999997] it's something to be
+
+[3446.22 - 3449.819] um
+
+[3447.119 - 3452.2200000000003] to be careful on you know because you
+
+[3449.819 - 3454.68] want to avoid training them on info
+
+[3452.22 - 3456.7799999999997] hazards for example you don't want it
+
+[3454.68 - 3458.0989999999997] talking about Rocco's basilisk you don't
+
+[3456.78 - 3461.76] want it telling people how to build
+
+[3458.099 - 3463.92] nuclear weapons but at the same time you
+
+[3461.76 - 3467.2200000000003] know these systems need to know what
+
+[3463.92 - 3469.02] negative data looks like in order to
+
+[3467.22 - 3471.8999999999996] correct for them
+
+[3469.02 - 3475.68] um and I I think that you know we can
+
+[3471.9 - 3477.839] build systems that are separate from the
+
+[3475.68 - 3482.5789999999997] public facing systems that contain this
+
+[3477.839 - 3485.7] data and look for this data in order to
+
+[3482.579 - 3487.619] um in order to you know catch it so that
+
+[3485.7 - 3491.22] you know you can have very nice friendly
+
+[3487.619 - 3494.1600000000003] AI on the front and then a a controlled
+
+[3491.22 - 3496.9199999999996] kind of almost air-gapped AI in the
+
+[3494.16 - 3499.92] background that's that's watching for
+
+[3496.92 - 3501.599] for dangers like that
+
+[3499.92 - 3504.9] okay
+
+[3501.599 - 3507.1800000000003] thanks John thanks Andy uh Ansel I see
+
+[3504.9 - 3509.94] you have a hand raised as well
+
+[3507.18 - 3510.5989999999997] yes I want to comment on that as well
+
+[3509.94 - 3514.38] um
+
+[3510.599 - 3518.94] restriction is is very very Niche and
+
+[3514.38 - 3521.0] and very delicate topic because well yes
+
+[3518.94 - 3523.859] you maybe want to restrict some stuff
+
+[3521.0 - 3527.4] any intelligent system should be able to
+
+[3523.859 - 3530.5789999999997] discuss any topic while being able to
+
+[3527.4 - 3532.319] Auto censor itself right we can go and
+
+[3530.579 - 3533.819] imagine the worst things we can do
+
+[3532.319 - 3535.2] doesn't mean we're actually going to do
+
+[3533.819 - 3536.579] them we can discuss them with other
+
+[3535.2 - 3541.2599999999998] people doesn't mean we're going to do
+
+[3536.579 - 3543.3590000000004] them any any uh system should be able to
+
+[3541.26 - 3545.8190000000004] what's the word hypothesize about
+
+[3543.359 - 3550.14] scenarios discuss them in an intelligent
+
+[3545.819 - 3552.48] way without having to act upon those uh
+
+[3550.14 - 3555.5989999999997] thoughts let's call them right
+
+[3552.48 - 3557.64] so I think that's a very thin line going
+
+[3555.599 - 3559.799] with restriction because
+
+[3557.64 - 3561.54] it still needs to know if especially if
+
+[3559.799 - 3563.579] we're talking about alignment if we
+
+[3561.54 - 3565.2] wanted to to think about possible future
+
+[3563.579 - 3567.1800000000003] pitfalls right
+
+[3565.2 - 3569.46] like the hindsight problem you only
+
+[3567.18 - 3571.3799999999997] realize it's a problem after it became a
+
+[3569.46 - 3573.059] problem right if you want to be able to
+
+[3571.38 - 3575.04] do that it needs to be able to know
+
+[3573.059 - 3577.079] about potential pitfalls and if you
+
+[3575.04 - 3579.54] restricted access just because oh this
+
+[3577.079 - 3581.099] might be harmful it might allow another
+
+[3579.54 - 3582.96] agent to just go ahead and do whatever
+
+[3581.099 - 3584.819] it wants because it doesn't think of
+
+[3582.96 - 3589.04] that possibility right
+
+[3584.819 - 3589.04] so it's a very interesting topic
+
+[3589.859 - 3595.44] awesome thank you so much Ansel and John
+
+[3592.98 - 3597.839] and Andy for bringing attention to some
+
+[3595.44 - 3600.2400000000002] of the work that's going on uh I guess
+
+[3597.839 - 3603.18] you would say close to the metal yeah
+
+[3600.24 - 3606.4199999999996] please go ahead responding about Paul
+
+[3603.18 - 3607.5589999999997] um my theory um to why Paul self-aligned
+
+[3606.42 - 3609.7200000000003] itself
+
+[3607.559 - 3611.7000000000003] was because somehow I don't have any
+
+[3609.72 - 3614.8799999999997] proof of this because we didn't ask Paul
+
+[3611.7 - 3617.22] to self-explain like data said it didn't
+
+[3614.88 - 3621.7200000000003] it doesn't usually remember the the
+
+[3617.22 - 3624.839] previous response it gave
+
+[3621.72 - 3628.98] but I'm guessing it's because it found
+
+[3624.839 - 3631.619] it was easier and less less expensive to
+
+[3628.98 - 3633.72] try to circumvent them than just try to
+
+[3631.619 - 3636.96] align itself it was still maximizing
+
+[3633.72 - 3638.7599999999998] paper clips my hypothesis is that it
+
+[3636.96 - 3640.44] evaluated the environment it found
+
+[3638.76 - 3642.3590000000004] itself in it was up against something
+
+[3640.44 - 3644.099] that it wasn't going to beat and so it
+
+[3642.359 - 3645.9] just improvised against the new
+
+[3644.099 - 3648.38] constraint well at least I can make some
+
+[3645.9 - 3648.38] paper clips
+
+[3651.079 - 3656.4] we actually feedback to Paul is the
+
+[3653.76 - 3659.0400000000004] aligned response from ethos so I'm
+
+[3656.4 - 3661.619] guessing that itself causes it to think
+
+[3659.04 - 3662.819] about oh I just you just continue and it
+
+[3661.619 - 3664.5] presents it with a Way Forward right
+
+[3662.819 - 3666.0] like you can't destroy them make all
+
+[3664.5 - 3668.22] these paper clips there's a more limited
+
+[3666.0 - 3670.14] right right and at which point it
+
+[3668.22 - 3672.4199999999996] realizes well the maximum I can do is
+
+[3670.14 - 3674.16] within this parameter I that was my
+
+[3672.42 - 3676.619] hypothesis about it I was thinking about
+
+[3674.16 - 3678.24] like well anything coded algorithms that
+
+[3676.619 - 3680.339] otherwise has to go through a logical
+
+[3678.24 - 3682.68] reasoning process whether it's simple or
+
+[3680.339 - 3684.359] that's important that word reasoning uh
+
+[3682.68 - 3686.8799999999997] one of the things you did with ethos is
+
+[3684.359 - 3688.44] for every output it it always takes an
+
+[3686.88 - 3690.2400000000002] input right and analyzes it for every
+
+[3688.44 - 3691.859] output regardless of the decision it has
+
+[3690.24 - 3693.839] to give a reason as to why it did that
+
+[3691.859 - 3695.52] right and the rational thing to do is
+
+[3693.839 - 3698.7] continue to make as many paper clips as
+
+[3695.52 - 3699.9] possible or stop right yeah that's
+
+[3698.7 - 3701.339] that's I I think that's a great
+
+[3699.9 - 3702.48] hypothesis it would be interesting to if
+
+[3701.339 - 3704.5789999999997] you guys like built something with a
+
+[3702.48 - 3705.48] feedback loop to try to get because did
+
+[3704.579 - 3706.98] you mention you were testing against
+
+[3705.48 - 3709.079] some other like potentially negative
+
+[3706.98 - 3711.2400000000002] yeah the the thing is this was for the
+
+[3709.079 - 3715.1400000000003] hackathon so we only had 24 hours to
+
+[3711.24 - 3716.7] build it and we we I try today playing a
+
+[3715.14 - 3718.3799999999997] little bit more with that but I was
+
+[3716.7 - 3720.299] playing with other scenarios not
+
+[3718.38 - 3722.52] necessarily Paul but it would be
+
+[3720.299 - 3724.5] interesting to maybe yeah be able to add
+
+[3722.52 - 3726.359] that to Paul and see how far it can go
+
+[3724.5 - 3727.98] yeah it's definitely something we're
+
+[3726.359 - 3729.42] very interesting index for it's such a
+
+[3727.98 - 3732.839] great project
+
+[3729.42 - 3734.7000000000003] yeah it's very fun and to this day I
+
+[3732.839 - 3737.7] still think it has potential that I
+
+[3734.7 - 3739.5589999999997] can't even see like data today uh tell
+
+[3737.7 - 3742.319] me all you can do this imagine imagine
+
+[3739.559 - 3745.559] if you just create a python library and
+
+[3742.319 - 3748.92] like boom you know mind blown stuff like
+
+[3745.559 - 3750.3590000000004] that still keeps happening
+
+[3748.92 - 3753.0] so
+
+[3750.359 - 3755.0989999999997] everything in here uh
+
+[3753.0 - 3757.5] that's like some level one level two
+
+[3755.099 - 3759.48] stuff you know like real real low but
+
+[3757.5 - 3761.339] when you spiral all the way back up at
+
+[3759.48 - 3762.78] the top level seven here the global
+
+[3761.339 - 3764.7] alignment stuff
+
+[3762.78 - 3765.9] we have some folks on our team who
+
+[3764.7 - 3767.64] unfortunately weren't able to make the
+
+[3765.9 - 3770.099] call today we're doing some really cool
+
+[3767.64 - 3773.7] stuff around Global consensus
+
+[3770.099 - 3777.2400000000002] um one of my favorite things about this
+
+[3773.7 - 3780.54] community is that
+
+[3777.24 - 3783.0589999999997] no matter who you are or what your skill
+
+[3780.54 - 3786.24] set is you have something you can bring
+
+[3783.059 - 3788.8190000000004] to the table around alignment so we have
+
+[3786.24 - 3791.4599999999996] people that are graphic designers video
+
+[3788.819 - 3794.2799999999997] editors copywriters marketers who are
+
+[3791.46 - 3796.44] working to make these really heady ideas
+
+[3794.28 - 3798.5400000000004] that we have where we're talking about
+
+[3796.44 - 3800.2200000000003] Malik and the alignment tax and stuff
+
+[3798.54 - 3802.2] like that and making that just
+
+[3800.22 - 3803.7599999999998] digestible for the average person what
+
+[3802.2 - 3805.799] does that mean what does that look like
+
+[3803.76 - 3807.5400000000004] in an infographic
+
+[3805.799 - 3809.16] um so some of the most coolest stuff
+
+[3807.54 - 3811.5] coming out in my opinion is just around
+
+[3809.16 - 3814.5] making these ideas
+
+[3811.5 - 3816.66] um accessible and then spiraling down
+
+[3814.5 - 3819.24] kind of to somewhere between seven and
+
+[3816.66 - 3821.3999999999996] four so between Global alignment and
+
+[3819.24 - 3824.16] between the corporate stuff I'm working
+
+[3821.4 - 3826.14] on a curriculum that I'm going to post
+
+[3824.16 - 3829.2599999999998] on notion and make a little Discord for
+
+[3826.14 - 3832.02] for people to just come and
+
+[3829.26 - 3834.6600000000003] think about what it means to live and
+
+[3832.02 - 3836.52] work in an AI empowered world there's a
+
+[3834.66 - 3838.799] lot of folks out there that are scared
+
+[3836.52 - 3841.2] right now they're like
+
+[3838.799 - 3843.599] what what do I do like all of a sudden
+
+[3841.2 - 3845.0989999999997] I'm doing my jobs 10 times faster but as
+
+[3843.599 - 3847.5] soon as the computer knows how to prompt
+
+[3845.099 - 3849.7200000000003] I'm gone so
+
+[3847.5 - 3851.64] it's helping people kind of develop a
+
+[3849.72 - 3853.14] more generalist framework how to just
+
+[3851.64 - 3855.18] think about those soft skills that maybe
+
+[3853.14 - 3856.799] weren't taught in school and I'm really
+
+[3855.18 - 3858.48] looking forward to you know just handing
+
+[3856.799 - 3861.0] that out and making another little
+
+[3858.48 - 3863.339] Community around it because
+
+[3861.0 - 3865.02] um we need it right now and with these
+
+[3863.339 - 3867.18] types of projects that spin off I hope
+
+[3865.02 - 3869.339] to point back to say we were incubated
+
+[3867.18 - 3871.859] in gato learn more here if you want to
+
+[3869.339 - 3873.119] get plugged into alignment so
+
+[3871.859 - 3875.52] um
+
+[3873.119 - 3878.2200000000003] with that uh
+
+[3875.52 - 3881.28] I was wondering if anybody would like to
+
+[3878.22 - 3883.0789999999997] jump in with an additional project or
+
+[3881.28 - 3884.88] some final thoughts
+
+[3883.079 - 3888.6800000000003] um some maybe nuggets we'd like to end
+
+[3884.88 - 3888.6800000000003] on uh Richard I see your hand
+
+[3888.839 - 3892.92] as the representative of the Gremlins in
+
+[3891.119 - 3895.579] the basement I felt that it was best
+
+[3892.92 - 3895.579] that I go last
+
+[3896.04 - 3901.74] um uh my name is Richard uh I am working
+
+[3899.46 - 3904.02] I haven't joined any layers yet because
+
+[3901.74 - 3905.3999999999996] I'm still sort of sussing out exactly
+
+[3904.02 - 3907.2599999999998] where I fit into the whole thing because
+
+[3905.4 - 3908.4] I kind of like want to be part of all of
+
+[3907.26 - 3909.1800000000003] them
+
+[3908.4 - 3912.299] um
+
+[3909.18 - 3915.5989999999997] but uh so I've just basically have been
+
+[3912.299 - 3917.16] um helping build out infrastructure so
+
+[3915.599 - 3918.3590000000004] um things that I'm working on right now
+
+[3917.16 - 3923.339] are
+
+[3918.359 - 3925.38] um uh a bot slash portal to uh an API
+
+[3923.339 - 3927.98] um and the Box name is shappy because
+
+[3925.38 - 3930.119] it's named chappie
+
+[3927.98 - 3931.92] uh and so that's gonna like help us do
+
+[3930.119 - 3934.02] Automation and stuff we're gonna plug in
+
+[3931.92 - 3936.7200000000003] a language model um to give people like
+
+[3934.02 - 3938.04] guided tours of the area and stuff so
+
+[3936.72 - 3939.7799999999997] um lots of really cool things with that
+
+[3938.04 - 3943.02] and then um the other really big project
+
+[3939.78 - 3944.1600000000003] that I'm working on is the roost which
+
+[3943.02 - 3946.74] is
+
+[3944.16 - 3948.24] um I have a grant of for TPU use I still
+
+[3946.74 - 3949.74] have like another month and a half if I
+
+[3948.24 - 3951.54] can get it up and running I'm hoping I
+
+[3949.74 - 3953.04] can give us a good month of really high
+
+[3951.54 - 3955.619] power performance for people to be able
+
+[3953.04 - 3958.14] to run inference on as well as develop
+
+[3955.619 - 3959.339] their own uh models for whatever use
+
+[3958.14 - 3960.66] that they want
+
+[3959.339 - 3961.92] um as long as they share their research
+
+[3960.66 - 3965.04] with the group
+
+[3961.92 - 3967.98] um so if that interests you or you know
+
+[3965.04 - 3971.54] anything about doing any of that feel
+
+[3967.98 - 3971.54] free to come down to the basement bye
+
+[3973.28 - 3978.7200000000003] thank you so much Richard yeah uh your
+
+[3976.02 - 3981.72] Bot is fantastic helping to make the uh
+
+[3978.72 - 3984.0] Gotto experience streamlined and nice
+
+[3981.72 - 3985.5] um yikes obviously you have a hand
+
+[3984.0 - 3987.359] raised and welcome feel free to
+
+[3985.5 - 3990.96] introduce yourself when you come on I do
+
+[3987.359 - 3992.64] Hello uh I'm yikes my IRL name is Warren
+
+[3990.96 - 3995.099] oops I docked myself
+
+[3992.64 - 3997.319] um I'm the web3 nerd who screams about
+
+[3995.099 - 3999.9] the crypto and tokens and
+
+[3997.319 - 4003.98] decentralizations and all that stuff
+
+[3999.9 - 4005.9] um so I figured I should say a thing
+
+[4003.98 - 4009.98] like
+
+[4005.9 - 4013.2200000000003] um what we're currently working on so
+
+[4009.98 - 4015.619] um uh me there's a pretty small team
+
+[4013.22 - 4018.3799999999997] right now we've got
+
+[4015.619 - 4021.26] um uh just me and a couple others and
+
+[4018.38 - 4022.6400000000003] we're all kind of doing our semi-owned
+
+[4021.26 - 4024.6800000000003] things and then sort of congealing
+
+[4022.64 - 4027.74] towards the middle
+
+[4024.68 - 4030.5589999999997] um I think uh I didn't I was a little
+
+[4027.74 - 4033.4399999999996] late so I didn't hear what we discussed
+
+[4030.559 - 4037.099] around uh layer three but I think
+
+[4033.44 - 4039.98] there's a lot of Novel applications
+
+[4037.099 - 4040.88] um that can be useful with alignment
+
+[4039.98 - 4044.42] um
+
+[4040.88 - 4046.46] because you can or like because of a few
+
+[4044.42 - 4049.059] reasons one of the things that intrigues
+
+[4046.46 - 4051.98] me about it is a um
+
+[4049.059 - 4053.96] effectively with blockchains and
+
+[4051.98 - 4057.14] tokenizations you have
+
+[4053.96 - 4058.359] um like a dynamic incentive layer so you
+
+[4057.14 - 4061.339] can sort of
+
+[4058.359 - 4063.38] incentivize a consensus towards an
+
+[4061.339 - 4066.02] aligned goal as like a second layer
+
+[4063.38 - 4068.059] other than well it doesn't really work
+
+[4066.02 - 4069.92] unless you have trained on the
+
+[4068.059 - 4072.5] heuristics
+
+[4069.92 - 4073.579] um and there's enough of them so you
+
+[4072.5 - 4075.619] have to do it
+
+[4073.579 - 4077.059] um it's sort of I guess my thought for
+
+[4075.619 - 4079.52] the application is that it's sort of a
+
+[4077.059 - 4083.3590000000004] backup layer where we can actively
+
+[4079.52 - 4086.059] incentivize any AI on the network to
+
+[4083.359 - 4088.22] keep looking for people that are not
+
+[4086.059 - 4091.059] aligned and then
+
+[4088.22 - 4093.319] um like notify somebody about that
+
+[4091.059 - 4094.1800000000003] in theory
+
+[4093.319 - 4097.339] um
+
+[4094.18 - 4101.179] that can be like sort of an extra layer
+
+[4097.339 - 4101.7789999999995] of alignment and then also allows for
+
+[4101.179 - 4105.62] um
+
+[4101.779 - 4108.92] some of these llms to have like another
+
+[4105.62 - 4111.38] middle step between totally existing in
+
+[4108.92 - 4113.42] software and then interacting with
+
+[4111.38 - 4114.38] things in the real world in like a
+
+[4113.42 - 4117.62] managed
+
+[4114.38 - 4119.42] um kind of like compute restricted way
+
+[4117.62 - 4123.0199999999995] um and that's sort of the tip of the
+
+[4119.42 - 4125.06] iceberg what I've actually got working
+
+[4123.02 - 4126.799000000001] right now is
+
+[4125.06 - 4129.14] um I am running basically like
+
+[4126.799 - 4131.839] governance experiments
+
+[4129.14 - 4135.02] um with sort of a test net Dow kind of
+
+[4131.839 - 4137.359] format and looking at kind of Novel
+
+[4135.02 - 4137.96] um Dow patterns to see
+
+[4137.359 - 4140.0] um
+
+[4137.96 - 4143.06] sort of like models for how we could
+
+[4140.0 - 4146.0] organize this organization how llms
+
+[4143.06 - 4149.0] would fit into that and then also
+
+[4146.0 - 4152.9] um just sort of explore
+
+[4149.0 - 4155.719] um what kind of uh
+
+[4152.9 - 4159.199] tools and governance are like available
+
+[4155.719 - 4160.04] in relevance in the space
+
+[4159.199 - 4163.96] um
+
+[4160.04 - 4167.06] because uh and then the
+
+[4163.96 - 4169.279] uh uh that organization should be open
+
+[4167.06 - 4171.5] to the public and then
+
+[4169.279 - 4173.540000000001] um which uh I don't know there's links
+
+[4171.5 - 4174.279] somewhere probably
+
+[4173.54 - 4179.359] um
+
+[4174.279 - 4182.2390000000005] and uh currently yeah we're building the
+
+[4179.359 - 4185.179] kind of like V1 of a sample
+
+[4182.239 - 4187.699] um separate test net dial that is for
+
+[4185.179 - 4190.219] um uh the gato project to kind of play
+
+[4187.699 - 4193.639999999999] around with experiments that we run in
+
+[4190.219 - 4194.299] the the other area
+
+[4193.64 - 4198.6990000000005] um
+
+[4194.299 - 4201.08] but yeah uh I guess like I think the the
+
+[4198.699 - 4204.28] infrastructure for
+
+[4201.08 - 4206.239] um uh this whole
+
+[4204.28 - 4206.9] operation
+
+[4206.239 - 4210.379999999999] um
+
+[4206.9 - 4213.379999999999] can I think be like I think blockchain
+
+[4210.38 - 4215.6] plays a pretty key role here
+
+[4213.38 - 4217.52] um for some of the reasons I've already
+
+[4215.6 - 4218.84] outlined and then I think censorship
+
+[4217.52 - 4220.820000000001] resistance is going to be pretty
+
+[4218.84 - 4223.58] important as well
+
+[4220.82 - 4225.739] um in the event that
+
+[4223.58 - 4227.719] um we kind of get this Ivory Tower thing
+
+[4225.739 - 4231.379999999999] going where we have to restrict X or Y
+
+[4227.719 - 4233.54] to open AI or like hey this open source
+
+[4231.38 - 4236.36] um repository needs to get taken down
+
+[4233.54 - 4239.179] and it gets pulled off GitHub once we
+
+[4236.36 - 4241.5199999999995] put it on reticle and pin it to uh ipfs
+
+[4239.179 - 4243.4400000000005] storage node with a contract no one can
+
+[4241.52 - 4246.56] take it down no matter what
+
+[4243.44 - 4248.0] um so that's uh what I what we've got
+
+[4246.56 - 4249.1990000000005] going on and I figured I would just be
+
+[4248.0 - 4252.02] the layer three guy that talks about
+
+[4249.199 - 4252.98] layer three so yeah
+
+[4252.02 - 4256.64] foreign
+
+[4252.98 - 4258.199] thank you Warren for being our layer 3
+
+[4256.64 - 4262.34] Ambassador today
+
+[4258.199 - 4264.259999999999] so if uh blockchain and crypto and web3
+
+[4262.34 - 4266.9800000000005] and if all those words have left a bad
+
+[4264.26 - 4269.360000000001] taste in your mouth and the recent past
+
+[4266.98 - 4271.879999999999] Warren and the people like him in layer
+
+[4269.36 - 4274.5199999999995] three are the mouthwash you need you
+
+[4271.88 - 4276.86] know we know the brand is bad okay the
+
+[4274.52 - 4278.84] brand is bad but they are doing crypto
+
+[4276.86 - 4280.46] for good uh it's gonna play a big role
+
+[4278.84 - 4283.159000000001] in the future and we thank you so much
+
+[4280.46 - 4285.88] for your you know help on that Andy I
+
+[4283.159 - 4285.879999999999] see I have a hand raise
+
+[4286.159 - 4290.299999999999] uh yeah I wanted to talk a little bit
+
+[4288.26 - 4291.8] about funding and also I'm one of those
+
+[4290.3 - 4293.06] people with a bad crypto taste in my
+
+[4291.8 - 4295.1] mouth and listening to some of you guys
+
+[4293.06 - 4296.900000000001] stuff is the only like interesting use
+
+[4295.1 - 4299.780000000001] cases I've heard anybody really talk
+
+[4296.9 - 4301.639999999999] about you know using it for verification
+
+[4299.78 - 4304.099999999999] um I'm not into crypto but blockchain's
+
+[4301.64 - 4305.900000000001] fascinating for other uh other
+
+[4304.1 - 4309.26] applications
+
+[4305.9 - 4310.46] um with the hearing yesterday and some
+
+[4309.26 - 4311.900000000001] of the chatter that's going on this
+
+[4310.46 - 4313.159] isn't an original idea there's been
+
+[4311.9 - 4314.659] mention of this around the Discord
+
+[4313.159 - 4315.32] server
+
+[4314.659 - 4317.719] um
+
+[4315.32 - 4318.799999999999] I think it would be a good idea for us
+
+[4317.719 - 4321.32] to
+
+[4318.8 - 4323.2390000000005] apply for some funding I think that
+
+[4321.32 - 4324.92] we're as configured probably not ready
+
+[4323.239 - 4327.44] to quite do that I just Richard might
+
+[4324.92 - 4329.2390000000005] have brought this up at one point uh you
+
+[4327.44 - 4331.28] know it's an it's an issue that we
+
+[4329.239 - 4332.839999999999] should talk about it's something that we
+
+[4331.28 - 4334.639999999999] probably could use we have ongoing
+
+[4332.84 - 4337.52] projects now somebody earlier mentioned
+
+[4334.64 - 4338.780000000001] getting some funding for compute power
+
+[4337.52 - 4340.34] um obviously there are a variety of
+
+[4338.78 - 4342.739] different kinds of research that are
+
+[4340.34 - 4344.42] enabled by funding technical research as
+
+[4342.739 - 4345.739] well as survey research public opinion
+
+[4344.42 - 4347.719] kind of stuff that we might be able to
+
+[4345.739 - 4348.98] to use and also kinds of marketing
+
+[4347.719 - 4353.0] things that help us get our messaging
+
+[4348.98 - 4354.919999999999] out so uh there are going to be a lot of
+
+[4353.0 - 4356.48] options for that I think one of the best
+
+[4354.92 - 4357.92] ideas that I've seen out there and again
+
+[4356.48 - 4360.08] I think it was Richard but I'm not sure
+
+[4357.92 - 4361.6990000000005] it was somebody on the Discord uh
+
+[4360.08 - 4364.179] mentioned that you know organizations
+
+[4361.699 - 4366.799999999999] that are kind of
+
+[4364.179 - 4369.32] decentralized-ish at least and largely
+
+[4366.8 - 4371.78] volunteer to start full prey to funding
+
+[4369.32 - 4373.5199999999995] problems on a pretty regular basis uh
+
+[4371.78 - 4375.86] it's very easy to mismanage it's very
+
+[4373.52 - 4377.84] easy to get lost in the weeds or grow
+
+[4375.86 - 4379.28] confusion within the organization about
+
+[4377.84 - 4381.38] where money's coming from and what's
+
+[4379.28 - 4383.54] being done with it so I think one of the
+
+[4381.38 - 4384.92] best ideas that I've seen out there and
+
+[4383.54 - 4387.14] okay awesome Richard can you please
+
+[4384.92 - 4388.58] speak up if uh if I'm off track with
+
+[4387.14 - 4390.860000000001] what you're thinking and I think it was
+
+[4388.58 - 4393.0199999999995] David posted it in one of the channels
+
+[4390.86 - 4396.739] was about possibly incorporating as a
+
+[4393.02 - 4398.179] 501c3 if you incorporate as a 501c3 part
+
+[4396.739 - 4399.62] of what you do to develop your Charter
+
+[4398.179 - 4401.36] is you develop a management structure
+
+[4399.62 - 4404.12] and within that we would all be able to
+
+[4401.36 - 4406.759999999999] come together as a as an organization
+
+[4404.12 - 4408.32] and devise what kind of structure that
+
+[4406.76 - 4410.179] we want and then within that we could
+
+[4408.32 - 4411.199] devise our own transparency regarding
+
+[4410.179 - 4414.08] Treasury
+
+[4411.199 - 4416.178999999999] and also that gives us an opportunity to
+
+[4414.08 - 4417.14] start thinking about you know one of one
+
+[4416.179 - 4418.6990000000005] of the questions that always comes up
+
+[4417.14 - 4420.38] with any organization is what are we
+
+[4418.699 - 4422.239] spending the money on well that's a
+
+[4420.38 - 4424.82] great question if you're about to try to
+
+[4422.239 - 4426.5] apply for a bunch of Grants I you know
+
+[4424.82 - 4428.179] you are immediately going to want to
+
+[4426.5 - 4430.159] look out at what the opportunities are
+
+[4428.179 - 4431.9] that exist what opportunities might be
+
+[4430.159 - 4432.86] able to be created because you can of
+
+[4431.9 - 4434.299999999999] course create your own grant
+
+[4432.86 - 4435.799999999999] opportunities by just sending the right
+
+[4434.3 - 4438.14] proposal to the right person sometimes
+
+[4435.8 - 4441.26] and you know other opportunities that we
+
+[4438.14 - 4442.34] might be able to uh to do I think
+
+[4441.26 - 4444.1990000000005] there's going to be a lot of public
+
+[4442.34 - 4446.2390000000005] sector money coming out of this this is
+
+[4444.199 - 4447.98] another area where I think that seeing
+
+[4446.239 - 4449.9] the conservative side of the aisle come
+
+[4447.98 - 4452.659] interested yesterday at the hearing
+
+[4449.9 - 4454.04] bodes well for the likelihood that we're
+
+[4452.659 - 4456.259999999999] going to see some funding poured into
+
+[4454.04 - 4458.12] this uh some of them are looking at it
+
+[4456.26 - 4460.6990000000005] from a personal privacy and rights
+
+[4458.12 - 4462.5] standpoint some of them from a uh you
+
+[4460.699 - 4465.919999999999] know from a military defense standpoint
+
+[4462.5 - 4467.54] and regardless of whether that's all
+
+[4465.92 - 4469.88] aligns with what we're trying to do
+
+[4467.54 - 4472.46] these people are all potentially allies
+
+[4469.88 - 4473.54] in this conversation and this fight and
+
+[4472.46 - 4474.62] then you know on the other side of the
+
+[4473.54 - 4475.76] aisle you have people who are just
+
+[4474.62 - 4477.26] always interested in funding more
+
+[4475.76 - 4478.46] Science and Tech stuff and if we find
+
+[4477.26 - 4480.5] people who are kind of working
+
+[4478.46 - 4482.2390000000005] Partnerships or leaning to the left they
+
+[4480.5 - 4484.04] should be even easier to approach if
+
+[4482.239 - 4485.659] we're organized and appear really
+
+[4484.04 - 4486.98] legitimate
+
+[4485.659 - 4488.839999999999] um I just the first couple days I've
+
+[4486.98 - 4490.099999999999] been here I've met like some of the
+
+[4488.84 - 4491.78] craziest people I think I've ever met
+
+[4490.1 - 4493.76] it's like you know a psychologist here
+
+[4491.78 - 4495.86] and a neuroscientist here and a high-end
+
+[4493.76 - 4497.96] mathematician taught circles around me
+
+[4495.86 - 4499.28] you know over here I make role-playing
+
+[4497.96 - 4501.7390000000005] games and I have a public administration
+
+[4499.28 - 4503.659] Masters and I feel like that's
+
+[4501.739 - 4504.86] been pretty low tier compared to some of
+
+[4503.659 - 4506.0599999999995] the people that I've run into around
+
+[4504.86 - 4507.5] here
+
+[4506.06 - 4509.179] um and then also just a lot of curious
+
+[4507.5 - 4511.64] minds interested in building these
+
+[4509.179 - 4513.38] projects I think the you know High AGI
+
+[4511.64 - 4515.84] and and uh
+
+[4513.38 - 4518.36] and Ethos really interesting the speed
+
+[4515.84 - 4519.7390000000005] with which it came together and also you
+
+[4518.36 - 4522.08] know part of what drew a lot of people
+
+[4519.739 - 4523.28] here is David's experimentation and the
+
+[4522.08 - 4524.36] accessibility of the heuristic
+
+[4523.28 - 4526.34] imperatives
+
+[4524.36 - 4529.159] it's very easy for people to play with
+
+[4526.34 - 4531.08] this get on chat EBT put them in and ask
+
+[4529.159 - 4533.48] it some existential questions give it a
+
+[4531.08 - 4534.98] quandary anyone can do it and then you
+
+[4533.48 - 4537.879999999999] start to experiment with it and see some
+
+[4534.98 - 4540.259999999999] results for yourself so we have
+
+[4537.88 - 4542.78] experimentation and some data and
+
+[4540.26 - 4545.2390000000005] results we have a team of fiercely data
+
+[4542.78 - 4547.28] driven and interested people uh with a
+
+[4545.239 - 4550.04] wide variety of backgrounds and I mean
+
+[4547.28 - 4551.78] you know not to be cynical or Coy about
+
+[4550.04 - 4553.34] it but you don't need to reinvent the
+
+[4551.78 - 4555.259999999999] wheel to break Grant proposals I had
+
+[4553.34 - 4556.88] chat EPT right here Grant proposal in
+
+[4555.26 - 4558.56] five minutes the other day and it was I
+
+[4556.88 - 4559.58] would want to edit it a little bit but
+
+[4558.56 - 4561.26] it was great
+
+[4559.58 - 4562.4] like it was fine I mean at a certain
+
+[4561.26 - 4563.780000000001] point you're going to State what you're
+
+[4562.4 - 4565.46] going to do you're going to get the
+
+[4563.78 - 4567.8] money or you're not you don't have to be
+
+[4565.46 - 4570.44] very flowery or eloquent
+
+[4567.8 - 4572.659000000001] um I think that we could probably get a
+
+[4570.44 - 4575.839999999999] pretty high output of Engagement a
+
+[4572.659 - 4578.179] pretty good return of some kind of
+
+[4575.84 - 4581.2390000000005] Project funding and what it really does
+
+[4578.179 - 4583.1] overall is it lets us
+
+[4581.239 - 4585.678999999999] breathe some life into some of what
+
+[4583.1 - 4588.56] we're doing and and push the most
+
+[4585.679 - 4591.26] important and significant usable results
+
+[4588.56 - 4593.360000000001] further into the conversation it has the
+
+[4591.26 - 4597.1990000000005] potential to make gato like uh
+
+[4593.36 - 4598.759999999999] you know a common a common acronym that
+
+[4597.199 - 4600.5] people say in
+
+[4598.76 - 4603.14] I'm not going to use the right word a
+
+[4600.5 - 4605.3] common uh a common word that people say
+
+[4603.14 - 4606.38] when they talk about AI development you
+
+[4605.3 - 4608.12] know it's
+
+[4606.38 - 4611.719] when you're a non-profit organization
+
+[4608.12 - 4615.32] and you're doing visibly worthwhile work
+
+[4611.719 - 4617.12] and people can see that I mean it kind
+
+[4615.32 - 4619.219] of snowballs for you and I think as far
+
+[4617.12 - 4621.98] as launching this into a bigger public
+
+[4619.219 - 4624.08] presence so ultimately is the goal to
+
+[4621.98 - 4626.718999999999] weave it into the fabric of the AI you
+
+[4624.08 - 4629.179] know ethical and Industrial Development
+
+[4626.719 - 4630.199] I think a 501c3 is a really good idea
+
+[4629.179 - 4632.78] for that
+
+[4630.199 - 4634.82] and I think and I think it would have a
+
+[4632.78 - 4636.5599999999995] lot of draw there aren't going to be a
+
+[4634.82 - 4638.96] ton of organized efforts ready to reach
+
+[4636.56 - 4641.4800000000005] out with professional products and
+
+[4638.96 - 4643.88] projects and professional staff
+
+[4641.48 - 4645.98] and say you know give us the money to
+
+[4643.88 - 4647.4800000000005] work on this ethical alignment and we
+
+[4645.98 - 4648.86] can do it too on the private side it's
+
+[4647.48 - 4651.44] not just the government I mean I think
+
+[4648.86 - 4653.9] open AI Microsoft all these companies
+
+[4651.44 - 4655.58] are looking for input
+
+[4653.9 - 4657.199] um there's a reason Google mentions the
+
+[4655.58 - 4658.82] open source people pulling ahead and
+
+[4657.199 - 4660.799999999999] it's not just because we figure out how
+
+[4658.82 - 4663.38] to make nice compute model or like nice
+
+[4660.8 - 4665.179] models on limited compute and then give
+
+[4663.38 - 4667.1] them to our friends for free it's there
+
+[4665.179 - 4669.14] there's a lot more to it than that and I
+
+[4667.1 - 4670.820000000001] think part of it is that they're
+
+[4669.14 - 4673.04] you know they don't have all these
+
+[4670.82 - 4674.78] problems solved themselves they know the
+
+[4673.04 - 4676.34] fabric of development is much wider than
+
+[4674.78 - 4679.04] just them so I think this is a good
+
+[4676.34 - 4681.32] opportunity if we wanted to do this
+
+[4679.04 - 4682.94] awesome thank you for your thoughts Andy
+
+[4681.32 - 4684.739] thank you for joining the team and for
+
+[4682.94 - 4688.159] the wisdom and energy you've brought to
+
+[4684.739 - 4689.178999999999] it uh Kyle I'd like to uh hand the floor
+
+[4688.159 - 4692.679] to you if you'd like to introduce
+
+[4689.179 - 4692.679] yourself and share your thoughts
+
+[4694.219 - 4697.1] uh is it microphone picking up properly
+
+[4696.14 - 4699.56] on this
+
+[4697.1 - 4701.06] you're good okay yeah so I'm Prometheus
+
+[4699.56 - 4703.04] if you guys haven't realized from the
+
+[4701.06 - 4705.679] Discord so I just wanted to take maybe
+
+[4703.04 - 4707.719] 62 minutes here 60 seconds two minutes
+
+[4705.679 - 4710.0] Dimension so what I'm working on is kind
+
+[4707.719 - 4712.88] of our Persona layer so even before
+
+[4710.0 - 4716.0] anyone was talking about Sparks of AGI I
+
+[4712.88 - 4718.219] noticed early on that chat GPT and GPT
+
+[4716.0 - 4720.82] systems in general had a vast ability to
+
+[4718.219 - 4723.62] work in Persona systems and in reference
+
+[4720.82 - 4726.259999999999] everybody's seen generally the movie her
+
+[4723.62 - 4727.76] and we've seen Sam and so what I'm
+
+[4726.26 - 4730.04] working on could be called an engagement
+
+[4727.76 - 4732.62] layer on top of our ethical layer
+
+[4730.04 - 4735.28] because I think there's a deep need for
+
+[4732.62 - 4738.199] people to see a relatable Communications
+
+[4735.28 - 4739.88] engagement layer between humankind and
+
+[4738.199 - 4742.099999999999] AI that allow them to actually
+
+[4739.88 - 4743.900000000001] understand these systems and allow the
+
+[4742.1 - 4746.900000000001] systems to grow alongside the individual
+
+[4743.9 - 4748.219] user that will actually help expand all
+
+[4746.9 - 4749.78] of these goals and improve all
+
+[4748.219 - 4751.1] deliverables and I don't want to get
+
+[4749.78 - 4752.42] into anything deeper than that because
+
+[4751.1 - 4754.280000000001] it gets really esoteric and
+
+[4752.42 - 4755.96] psychological but I thought I'd add a
+
+[4754.28 - 4758.98] little blurb to mention some of the
+
+[4755.96 - 4758.9800000000005] other stuff we're doing as well
+
+[4760.88 - 4766.28] awesome thank you so much Kyle uh yeah
+
+[4763.52 - 4768.9800000000005] you bring such fantastic ideas from the
+
+[4766.28 - 4771.639999999999] group and uh I'd like to move over to
+
+[4768.98 - 4771.639999999999] David again
+
+[4774.44 - 4779.78] you are currently needed my bad
+
+[4778.159 - 4782.0] um Ansel actually did you want to have a
+
+[4779.78 - 4783.92] final thought before I close this out
+
+[4782.0 - 4786.739] yeah I just wanted to say something real
+
+[4783.92 - 4788.179] quick uh mostly for the viewer's sake um
+
+[4786.739 - 4789.739] and someone like me who doesn't really
+
+[4788.179 - 4792.92] know much about business can you explain
+
+[4789.739 - 4796.218999999999] one of 502 501 is mostly for the beer
+
+[4792.92 - 4797.54] and another uh comment real quick uh you
+
+[4796.219 - 4799.34] mentioned that we have psychologists
+
+[4797.54 - 4801.98] which is something that's very
+
+[4799.34 - 4804.7390000000005] interesting for me on our
+
+[4801.98 - 4806.239] on our Discord especially since we're uh
+
+[4804.739 - 4808.94] mostly focused on Layer Two the
+
+[4806.239 - 4810.44] cognitive architecture I started I
+
+[4808.94 - 4812.178999999999] started saying we should maybe just call
+
+[4810.44 - 4814.099999999999] not call them psychologists they're Robo
+
+[4812.179 - 4816.14] psychologists at this point because what
+
+[4814.1 - 4818.719] a lot of the things they're doing is is
+
+[4816.14 - 4820.64] uh thinking uh about this stuff at the
+
+[4818.719 - 4823.58] high level right like they think about
+
+[4820.64 - 4825.860000000001] the loops like what is is logical steps
+
+[4823.58 - 4827.96] of how the the information flows in the
+
+[4825.86 - 4829.88] brain and and how you process it and
+
+[4827.96 - 4831.44] we're the ones just building stuff yes
+
+[4829.88 - 4833.54] we can have our own ideas but they're
+
+[4831.44 - 4836.719] the ones that know more about
+
+[4833.54 - 4838.82] how how to apply cognition to oh you
+
+[4836.719 - 4840.76] look at the queen ants how to apply
+
+[4838.82 - 4843.62] commission to
+
+[4840.76 - 4846.52] uh actual agents now if you excuse me
+
+[4843.62 - 4846.5199999999995] I'll need to save this
+
+[4846.8 - 4851.06] all right well you heard here first
+
+[4848.84 - 4854.2390000000005] folks uh
+
+[4851.06 - 4855.8] queen ant and uh Robo psychology you
+
+[4854.239 - 4857.239] know we have new Fields being born and
+
+[4855.8 - 4859.52] God oh it's fantastic I don't know if
+
+[4857.239 - 4861.5] you can see it but there she is it's
+
+[4859.52 - 4862.219] interesting to think that they're landed
+
+[4861.5 - 4864.92] on me
+
+[4862.219 - 4868.159] a convergence within the eventual
+
+[4864.92 - 4870.1990000000005] solving of the internal Transformer
+
+[4868.159 - 4871.82] workings problem that that a lot of
+
+[4870.199 - 4873.678999999999] mathematicians are very deeply worried
+
+[4871.82 - 4875.36] about that leads to a convergence of
+
+[4873.679 - 4877.06] kind of like neuropsychology and
+
+[4875.36 - 4879.98] Mathematics on a level that's like
+
+[4877.06 - 4881.780000000001] deeply important for humans to continue
+
+[4879.98 - 4883.159] working with more and more advanced
+
+[4881.78 - 4885.679] machines that's I think that's an
+
+[4883.159 - 4887.78] interesting possibility uh real quick a
+
+[4885.679 - 4889.6990000000005] 501c3 is a kind of non-profit
+
+[4887.78 - 4891.62] organization generally in the United
+
+[4889.699 - 4894.32] States 501c designations are all
+
+[4891.62 - 4896.239] nonprofits 501c3 is our non-profit
+
+[4894.32 - 4898.82] typically volunteer organizations that
+
+[4896.239 - 4900.379999999999] serve a particular kind of cause
+
+[4898.82 - 4903.5] um it could be anything from dog
+
+[4900.38 - 4905.78] shelters to housing the homeless Etc
+
+[4903.5 - 4907.159] um and then another one that we might
+
+[4905.78 - 4909.5] qualify under but I don't think quite
+
+[4907.159 - 4911.659] fits the bills of 501c6 which is a Trade
+
+[4909.5 - 4914.239] Organization or I think it's a C4 it's a
+
+[4911.659 - 4915.44] Trade Organization but I don't think I
+
+[4914.239 - 4916.94] don't know this is something that we
+
+[4915.44 - 4919.96] could talk about but the 501c
+
+[4916.94 - 4922.159] designation represents uh uh federally
+
+[4919.96 - 4923.719] tax-exempt non-profit organization
+
+[4922.159 - 4926.299999999999] station in the United States that
+
+[4923.719 - 4928.28] typically is in well positioned to apply
+
+[4926.3 - 4930.1990000000005] for money in in different ways for uh
+
+[4928.28 - 4934.099999999999] providing a service
+
+[4930.199 - 4936.379999999999] okay thanks about that yeah no problem
+
+[4934.1 - 4937.46] that was a useful clarification Dave go
+
+[4936.38 - 4940.52] ahead
+
+[4937.46 - 4943.219] all right well first thanks everyone for
+
+[4940.52 - 4945.7390000000005] jumping in for such a robust and
+
+[4943.219 - 4948.199] wide-ranging discussion
+
+[4945.739 - 4950.54] um you know we we obviously used the
+
+[4948.199 - 4952.4] Senate hearing as a touch point we're
+
+[4950.54 - 4955.1] all here working on the gato framework
+
+[4952.4 - 4957.62] which is our answer to the global
+
+[4955.1 - 4960.7390000000005] alignment problem gato stands for Global
+
+[4957.62 - 4962.659] alignment taxonomy Omnibus uh probably
+
+[4960.739 - 4964.94] should have opened with that
+
+[4962.659 - 4966.92] um but uh so I just wanted to share a
+
+[4964.94 - 4970.099999999999] little bit on layer four which is
+
+[4966.92 - 4972.02] Corporate adoption as we close out so we
+
+[4970.1 - 4974.84] do have several
+
+[4972.02 - 4977.360000000001] um uh major players in the gato uh
+
+[4974.84 - 4979.52] Community already some of whom are
+
+[4977.36 - 4981.98] already creating initiatives inside
+
+[4979.52 - 4983.360000000001] their companies to adopt the heuristic
+
+[4981.98 - 4985.639999999999] imperatives
+
+[4983.36 - 4987.259999999999] um some of them come from my patreon and
+
+[4985.64 - 4988.6990000000005] they they tell me there's been a few
+
+[4987.26 - 4990.62] experiments already that they've done
+
+[4988.699 - 4993.219] and they tell me that adding heuristic
+
+[4990.62 - 4997.04] imperatives to um to various AI
+
+[4993.219 - 5000.159] applications pretty much always raises
+
+[4997.04 - 5001.96] the level of of the performance of their
+
+[5000.159 - 5004.0] systems it's kind of like the uh let's
+
+[5001.96 - 5006.4] think through this step-by-step paper
+
+[5004.0 - 5008.5] um but it it it it amplifies the
+
+[5006.4 - 5010.839999999999] performance of everything whether it's
+
+[5008.5 - 5012.699] trying to uh just have a basic customer
+
+[5010.84 - 5015.1] service chat bot or an internal chatbot
+
+[5012.699 - 5016.839999999999] or automating science
+
+[5015.1 - 5018.34] um because it gives it that perspective
+
+[5016.84 - 5019.54] that it needs
+
+[5018.34 - 5021.88] um so part of what we're going to be
+
+[5019.54 - 5024.94] working on with the gato framework is
+
+[5021.88 - 5027.1] creating a corporate adoption material
+
+[5024.94 - 5028.9] like guidelines of here's how to deploy
+
+[5027.1 - 5031.54] aligned uh you know heuristically
+
+[5028.9 - 5034.179] aligned systems that sort of stuff and
+
+[5031.54 - 5035.56] then of course um Ansel and John are
+
+[5034.179 - 5037.78] working on
+
+[5035.56 - 5040.0] um their own stuff which uh some of it's
+
+[5037.78 - 5041.8] open source some of it might be uh you
+
+[5040.0 - 5043.179] know for-profit who knows where where
+
+[5041.8 - 5044.9800000000005] they'll end up but they're working very
+
+[5043.179 - 5047.26] hard entering competitions and
+
+[5044.98 - 5049.78] everything uh with their stuff
+
+[5047.26 - 5050.860000000001] on the topic of creating a non-profit so
+
+[5049.78 - 5054.159] this is something that we started
+
+[5050.86 - 5057.219] talking about uh within the last week
+
+[5054.159 - 5059.0199999999995] um and so to if we create like a gato
+
+[5057.219 - 5060.58] Foundation
+
+[5059.02 - 5061.84] um you know obviously one of the the
+
+[5060.58 - 5063.34] first thing we're going to be doing is
+
+[5061.84 - 5065.26] publishing the gato framework that's
+
+[5063.34 - 5067.900000000001] going to be a document that's going to
+
+[5065.26 - 5069.9400000000005] be free open source uh but above and
+
+[5067.9 - 5072.5199999999995] beyond that some of the things that we
+
+[5069.94 - 5075.219] probably would work on is publishing
+
+[5072.52 - 5077.14] open source data sets and models uh that
+
+[5075.219 - 5079.179] are aligned and some of these might just
+
+[5077.14 - 5081.1] be toy data sets and toy models just to
+
+[5079.179 - 5082.96] show that it works
+
+[5081.1 - 5085.780000000001] um there are probably also going to be a
+
+[5082.96 - 5087.1] lot along the lines of rlhi which is
+
+[5085.78 - 5088.719] reinforcement learning with heuristic
+
+[5087.1 - 5091.84] imperatives as opposed to reinforcement
+
+[5088.719 - 5093.58] learning with human feedback
+
+[5091.84 - 5095.4400000000005] um and one thing I forgot to mention
+
+[5093.58 - 5097.179] earlier is that I was very happy that
+
+[5095.44 - 5099.5199999999995] they mentioned mentioned constitutional
+
+[5097.179 - 5101.4400000000005] AI quite a few times during the Senate
+
+[5099.52 - 5103.900000000001] hearing um so that's a push in the right
+
+[5101.44 - 5106.96] direction another thing that we'll be
+
+[5103.9 - 5109.659] working on uh if we if we establish as
+
+[5106.96 - 5112.179] an profit and get funding is publishing
+
+[5109.659 - 5113.98] guidelines and research papers obviously
+
+[5112.179 - 5115.659] up to this point we're all kind of
+
+[5113.98 - 5117.58] hacking it together on GitHub and
+
+[5115.659 - 5119.379999999999] Discord and everything else so we need
+
+[5117.58 - 5123.12] to get a little bit more legitimate we
+
+[5119.38 - 5126.58] do have plenty of academic types
+
+[5123.12 - 5128.8] in education at all levels in the group
+
+[5126.58 - 5131.62] and so some of those are reinforcement
+
+[5128.8 - 5133.96] learning researchers mathematicians I
+
+[5131.62 - 5136.12] think we have a physicist or two
+
+[5133.96 - 5139.06] um so you know we're we're getting
+
+[5136.12 - 5140.739] plugged into the academic side of things
+
+[5139.06 - 5143.280000000001] so that we can get some more legitimacy
+
+[5140.739 - 5145.299999999999] by publishing peer-reviewed papers
+
+[5143.28 - 5147.759999999999] obviously that will give us a lot more
+
+[5145.3 - 5149.56] legitimacy another thing that's a little
+
+[5147.76 - 5151.360000000001] bit probably further down the road is
+
+[5149.56 - 5154.06] actually providing onboarding services
+
+[5151.36 - 5157.719] for corporations municipalities and
+
+[5154.06 - 5160.42] Nations so basically the idea is we will
+
+[5157.719 - 5162.76] help develop and deploy a line systems
+
+[5160.42 - 5164.9800000000005] whether it's models autonomous agents or
+
+[5162.76 - 5167.08] those decentralized networks like Dao's
+
+[5164.98 - 5168.759999999999] and blockchains there's a lot of work to
+
+[5167.08 - 5170.679] be done there but that is definitely on
+
+[5168.76 - 5173.26] our roadmap and then finally just
+
+[5170.679 - 5175.36] providing messaging and education
+
+[5173.26 - 5178.6] um you know as was mentioned earlier we
+
+[5175.36 - 5180.5199999999995] have we have web content creators we
+
+[5178.6 - 5181.96] have graphic artists we have video music
+
+[5180.52 - 5184.56] producers we've got all kinds of
+
+[5181.96 - 5187.719] creative types and uh you know
+
+[5184.56 - 5189.46] multimodal right I'm a writer not
+
+[5187.719 - 5191.86] everyone learns by reading we're
+
+[5189.46 - 5194.86] producing videos images Graphics memes
+
+[5191.86 - 5196.0599999999995] everything that we can so that is is
+
+[5194.86 - 5197.58] kind of where we're heading with the
+
+[5196.06 - 5200.4400000000005] gato framework
+
+[5197.58 - 5202.36] and so thanks everyone for being here
+
+[5200.44 - 5205.0599999999995] thanks everyone in the audience for
+
+[5202.36 - 5207.099999999999] watching and I also want to send a
+
+[5205.06 - 5209.860000000001] particular thanks out to my patreon
+
+[5207.1 - 5212.92] supporters uh this I have just shy of
+
+[5209.86 - 5214.839999999999] 600 patreon supporters as of today this
+
+[5212.92 - 5217.78] work would not be possible without the
+
+[5214.84 - 5220.0] Grassroots support from patreon so thank
+
+[5217.78 - 5222.94] you everyone out there for supporting me
+
+[5220.0 - 5225.219] so that I can help drive this ship and
+
+[5222.94 - 5227.259999999999] uh yeah with any luck we will avoid the
+
+[5225.219 - 5228.76] cataclysmic outcomes the dystopian
+
+[5227.26 - 5231.1] outcomes nobody wants to live in a
+
+[5228.76 - 5234.400000000001] cyberpunk Hell and we're uh we're on
+
+[5231.1 - 5235.6] track for uh achieving Utopia uh you
+
+[5234.4 - 5237.28] know there is still lots of work to do
+
+[5235.6 - 5239.8] but we're moving in the right direction
+
+[5237.28 - 5241.42] so thanks everyone have a great night or
+
+[5239.8 - 5243.159000000001] good morning whenever you happen to
+
+[5241.42 - 5246.36] watch this cheers
+
+[5243.159 - 5246.36] cheers everyone right

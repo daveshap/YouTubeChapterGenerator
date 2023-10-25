@@ -1,0 +1,1089 @@
+[0.12 - 5.64] hello everybody David Shapiro here with
+
+[2.46 - 8.46] another video so today's video is about
+
+[5.64 - 11.76] uh measuring machine autonomy rather
+
+[8.46 - 15.420000000000002] than intelligence as a road map or set
+
+[11.76 - 17.279] of Milestones towards AGI uh you know
+
+[15.42 - 19.5] for a long time I've been using the term
+
+[17.279 - 22.56] autonomous cognitive entity Ace rather
+
+[19.5 - 25.019] than AGI because general intelligence uh
+
+[22.56 - 26.759999999999998] is one idea but you know general
+
+[25.019 - 29.519] intelligence doesn't necessarily apply
+
+[26.76 - 31.64] agency and what we're realizing is that
+
+[29.519 - 34.86] agency is actually very very important
+
+[31.64 - 37.26] to talk about and research and it's not
+
+[34.86 - 38.94] actually getting enough research uh
+
+[37.26 - 40.62] because a lot of people say oh well
+
+[38.94 - 41.879] either it'll never happen or we
+
+[40.62 - 43.739] shouldn't do it but the thing is is
+
+[41.879 - 46.26] people are doing it anyways so we need
+
+[43.739 - 47.82] to talk about it before we dive in I
+
+[46.26 - 50.399] just want to do a quick plug for my
+
+[47.82 - 52.8] patreon I give away all my code for free
+
+[50.399 - 56.039] all my videos are ad free and that is
+
+[52.8 - 58.86] because I am supported by a Grassroots
+
+[56.039 - 61.86] movement of support so if you want to
+
+[58.86 - 63.78] help keep the show alive keep it going
+
+[61.86 - 65.939] and support me so that I can keep doing
+
+[63.78 - 68.46000000000001] this work I would prefer to do this than
+
+[65.939 - 71.46] ever take a corporate job ever again so
+
+[68.46 - 73.979] jump over to patreon all tiers get you
+
+[71.46 - 75.17999999999999] access to the private Discord server and
+
+[73.979 - 77.58] then of course there's several higher
+
+[75.18 - 80.04] tiers but really every little bit helps
+
+[77.58 - 82.92] another quick update is the gato
+
+[80.04 - 85.74000000000001] community so as a decentralized
+
+[82.92 - 87.24000000000001] community uh we're right now one of the
+
+[85.74 - 89.33999999999999] biggest things is we're developing an
+
+[87.24 - 91.38] organizational roadmap so basically
+
+[89.34 - 93.799] we're setting up various Milestones such
+
+[91.38 - 96.83999999999999] as uh governments Community engagement
+
+[93.799 - 98.34] legal and financial Milestones so that
+
+[96.84 - 101.159] it can become fully autonomous and
+
+[98.34 - 102.659] therefore not even dependent upon me I
+
+[101.159 - 104.7] had a good talk with some members of the
+
+[102.659 - 106.14] community who were concerned that I'm
+
+[104.7 - 108.479] going to be like the benevolent dictator
+
+[106.14 - 109.979] for life but like I am phobic of control
+
+[108.479 - 112.259] like I actually don't want to control
+
+[109.979 - 114.24] something I want to create a system that
+
+[112.259 - 115.86] is self-sustaining without me I mean
+
+[114.24 - 118.439] heck that's what all my research does
+
+[115.86 - 119.759] around AI so I want to do the same thing
+
+[118.439 - 121.38] with people because if I can't do the
+
+[119.759 - 122.579] same thing with people then I sure as
+
+[121.38 - 125.69999999999999] heck probably can't do the same thing
+
+[122.579 - 127.79899999999999] with AI so the goal is for gato to
+
+[125.7 - 129.899] ultimately be leaderless and operate by
+
+[127.799 - 131.94] consensus as a you know as a dow and
+
+[129.899 - 134.64] that sort of stuff we're working towards
+
+[131.94 - 136.07999999999998] it uh the the doors are open for anyone
+
+[134.64 - 138.35999999999999] to join which we do have a steady
+
+[136.08 - 140.28] trickle of people coming in uh but yeah
+
+[138.36 - 143.04000000000002] so that's a quick update on gato and now
+
+[140.28 - 145.2] back to the show so I got this idea
+
+[143.04 - 146.879] after talking with a few of my patreons
+
+[145.2 - 149.879] who were saying like what's the road map
+
+[146.879 - 151.62] towards AGI and you know I I've I've
+
+[149.879 - 153.78] alluded to autonomy for quite a while
+
+[151.62 - 155.34] autonomous cognitive architectures but I
+
+[153.78 - 156.9] figured let me actually tell you guys
+
+[155.34 - 160.08] where I got that idea
+
+[156.9 - 163.08] and the idea comes from levels of uh car
+
+[160.08 - 166.14000000000001] autonomy so uh the SAE the international
+
+[163.08 - 169.5] uh what was it the the something of
+
+[166.14 - 173.39999999999998] Automotive Engineers anyways uh the SAE
+
+[169.5 - 175.44] uh created the levels of uh car autonomy
+
+[173.4 - 177.48000000000002] so level zero no driving all the way up
+
+[175.44 - 180.42] to level five full self-driving
+
+[177.48 - 182.89999999999998] capability uh to my knowledge we haven't
+
+[180.42 - 186.66] had anything get above level three yet
+
+[182.9 - 190.019] uh because there are numerous problems
+
+[186.66 - 191.879] around making executive decisions uh and
+
+[190.019 - 193.31900000000002] also there's a lot of sensory problems
+
+[191.879 - 195.72] like if you're driving in a whiteout
+
+[193.319 - 197.159] blizzard uh you know if there's a fire
+
+[195.72 - 199.08] right because there's very little
+
+[197.159 - 201.959] training data of like how to drive
+
+[199.08 - 204.3] around a forest fire for instance
+
+[201.959 - 207.0] um now that being said I do suspect
+
+[204.3 - 208.92000000000002] it'll be solved eventually uh some
+
+[207.0 - 210.239] people have have recently started saying
+
+[208.92 - 212.51899999999998] maybe you should integrate large
+
+[210.239 - 214.44] language models into the executive
+
+[212.519 - 215.58] function and I fully agree with that you
+
+[214.44 - 216.72] don't want it making all of the
+
+[215.58 - 219.48000000000002] decisions you want some things to be
+
+[216.72 - 220.62] just completely robotically automated so
+
+[219.48 - 222.599] for instance if you have a
+
+[220.62 - 224.42000000000002] forward-looking radar and it detects
+
+[222.599 - 226.73899999999998] that you're you know heading towards a
+
+[224.42 - 228.54] non-moving object at 60 miles an hour
+
+[226.739 - 230.09900000000002] slam on the brakes regardless of
+
+[228.54 - 231.78] whatever else is going on right there
+
+[230.099 - 233.39999999999998] are a few things that you can do just
+
+[231.78 - 235.26] fully automatically
+
+[233.4 - 237.54] but then for those higher order
+
+[235.26 - 239.34] executive reasons like say for instance
+
+[237.54 - 241.2] you hear that the occupant is like
+
+[239.34 - 243.0] screaming and gurgling and you know
+
+[241.2 - 244.5] struggling to breathe maybe the car
+
+[243.0 - 247.019] should make a decision to go to the
+
+[244.5 - 250.92] hospital instead of you know going to
+
+[247.019 - 253.26] Grandma's house not sure uh anyways
+
+[250.92 - 255.72] point being is that this is a very
+
+[253.26 - 258.06] useful framework for kind of tracking
+
+[255.72 - 259.739] our progress towards uh full stealth
+
+[258.06 - 262.86] driving cars and I realize let's use the
+
+[259.739 - 264.78] same thing for uh for uh the path
+
+[262.86 - 265.8] towards AGI or autonomous cognitive
+
+[264.78 - 268.02] entities
+
+[265.8 - 270.90000000000003] so we need this road map but there's a
+
+[268.02 - 273.0] few problems so first of all AGI means
+
+[270.9 - 275.69899999999996] different things to different people uh
+
+[273.0 - 277.259] there's no consistent definition a lot
+
+[275.699 - 279.12] of people assume that it means that it
+
+[277.259 - 280.97900000000004] has to be embodied or that it can do
+
+[279.12 - 282.06] things that humans can't do or this that
+
+[280.979 - 284.09999999999997] or the other
+
+[282.06 - 285.72] also a lot of conventional benchmarks
+
+[284.1 - 287.22] just don't apply to artificial
+
+[285.72 - 289.08000000000004] intelligence anymore they're actually
+
+[287.22 - 292.02000000000004] having to publish papers and research
+
+[289.08 - 293.69899999999996] new benchmarks in order to measure large
+
+[292.02 - 295.79999999999995] language models
+
+[293.699 - 298.44] the idea of you know oh well it'll be
+
+[295.8 - 301.199] AGI once it has self-improvement okay
+
+[298.44 - 303.3] sure but we can already automate some of
+
+[301.199 - 305.04] that anyways with reinforcement learning
+
+[303.3 - 306.6] and that sort of thing so it's like this
+
+[305.04 - 308.699] is all really squishy
+
+[306.6 - 311.3] uh so basically how do you get from chat
+
+[308.699 - 313.979] gbt to Skynet or something like that
+
+[311.3 - 315.54] intelligence is not necessarily the best
+
+[313.979 - 318.71999999999997] Benchmark and the reason that I say that
+
+[315.54 - 321.06] is because chat GPT or gpt4 rather is
+
+[318.72 - 323.46000000000004] already superhuman in a lot of respects
+
+[321.06 - 325.02] by any objective measure it's better at
+
+[323.46 - 327.35999999999996] test taking and a lot of other tasks
+
+[325.02 - 329.639] than humans and it's also faster which
+
+[327.36 - 333.06] means that depending on how you measure
+
+[329.639 - 334.68] its intelligence its IQ is like 145. uh
+
+[333.06 - 336.84] now that being said it does still make
+
+[334.68 - 338.34000000000003] some really brain dead mistakes those
+
+[336.84 - 340.13899999999995] are going to be solved if especially if
+
+[338.34 - 342.479] you look at the trend line
+
+[340.139 - 343.979] modality so another thing that a lot of
+
+[342.479 - 346.25899999999996] people point out is that it's just text
+
+[343.979 - 348.479] right but text is the best kind of
+
+[346.259 - 350.34000000000003] symbolic AI because you can literally
+
+[348.479 - 352.5] represent pretty much anything with text
+
+[350.34 - 354.23999999999995] that being said I've started to Pivot
+
+[352.5 - 356.94] and I believe that we're going to see
+
+[354.24 - 359.639] another gigantic leap as we introduce
+
+[356.94 - 361.62] more multimodal models and the reason is
+
+[359.639 - 363.0] because I got this idea when I was
+
+[361.62 - 364.68] thinking about the fact that if you
+
+[363.0 - 366.539] cross train a language model on multiple
+
+[364.68 - 368.34000000000003] languages it gets better at all tasks
+
+[366.539 - 370.02] and that is because different languages
+
+[368.34 - 372.78] have different strengths in terms of how
+
+[370.02 - 375.24] they represent uh facts of the real
+
+[372.78 - 377.46] world and you also get broader ideas
+
+[375.24 - 379.139] about how the world works that are
+
+[377.46 - 381.539] embedded in language because there are
+
+[379.139 - 384.419] terms that just do not translate from
+
+[381.539 - 385.44] one language to another likewise I think
+
+[384.419 - 387.12] that there's going to be some
+
+[385.44 - 389.46] information that just does not translate
+
+[387.12 - 392.819] from one modality to another where
+
+[389.46 - 396.23999999999995] whether it's images video text spatial
+
+[392.819 - 397.97900000000004] data audio data that sort of stuff and
+
+[396.24 - 399.479] so I think that by creating multimodal
+
+[397.979 - 401.4] models they're going to have a much more
+
+[399.479 - 403.039] nuanced under understanding of
+
+[401.4 - 405.65999999999997] everything that they're talking about
+
+[403.039 - 407.09999999999997] that being said a multimodal model is
+
+[405.66 - 408.90000000000003] still not going to be enough right
+
+[407.1 - 411.06] necessary but not sufficient because a
+
+[408.9 - 412.919] model sitting on a shelf doesn't really
+
+[411.06 - 416.94] matter
+
+[412.919 - 418.919] so the two primary uh ingredients that I
+
+[416.94 - 421.38] see to machine autonomy which is going
+
+[418.919 - 424.68] to be the best like proxy the best
+
+[421.38 - 427.44] Benchmark is agency and dependency and
+
+[424.68 - 430.08] so what I mean by agency is the ability
+
+[427.44 - 433.1] for an entity a self-contained entity to
+
+[430.08 - 436.38] set goals and objectives to task switch
+
+[433.1 - 439.259] and Implement cognitive control and
+
+[436.38 - 441.71999999999997] pursue self-determination because agency
+
+[439.259 - 443.699] or agentic behavior is the ability to
+
+[441.72 - 445.8] just be fully self-directed and
+
+[443.699 - 448.86] self-contained make independent decision
+
+[445.8 - 450.12] decisions and that sort of thing uh you
+
+[448.86 - 453.24] know whenever you think of like an
+
+[450.12 - 455.699] example of a of a robot right you might
+
+[453.24 - 456.90000000000003] think of uh the the robots from iRobot
+
+[455.699 - 458.28000000000003] where they don't really have that much
+
+[456.9 - 461.21999999999997] agency they just kind of wait they're
+
+[458.28 - 463.25899999999996] like the physical embodiment of chat gbt
+
+[461.22 - 465.3] um until they're given an update and
+
+[463.259 - 469.8] then they have a lot more agency
+
+[465.3 - 472.74] so agency is is a multi-dimensional kind
+
+[469.8 - 475.02000000000004] of proxy or Benchmark for level of
+
+[472.74 - 478.38] intelligence and of course you can
+
+[475.02 - 480.35999999999996] already give the reins over to like gpt4
+
+[478.38 - 482.58] and stuff like that uh that being said
+
+[480.36 - 485.22] there is a lot that uh in the cognitive
+
+[482.58 - 487.31899999999996] architecture that has to be figured out
+
+[485.22 - 490.199] in order for agency to make more sense
+
+[487.319 - 492.36] in the long run so for instance agency
+
+[490.199 - 493.86] implies that you remember what your
+
+[492.36 - 496.68] purpose is and where you are and where
+
+[493.86 - 498.24] you're going and then dependency so this
+
+[496.68 - 499.68] is the other dimension and remember it's
+
+[498.24 - 503.039] both of these you need both of these
+
+[499.68 - 505.919] ingredients so uh basically dependency
+
+[503.039 - 508.139] is how dependent uh on humans the
+
+[505.919 - 510.9] machine is so the more independent it is
+
+[508.139 - 513.24] for all needs and the more decisions it
+
+[510.9 - 515.039] can make the better the closer it is to
+
+[513.24 - 516.9590000000001] full AGI and so but when I mean
+
+[515.039 - 519.18] dependencies uh need for human
+
+[516.959 - 520.8] programming need for hardware and
+
+[519.18 - 524.52] physical infrastructure provided by
+
+[520.8 - 526.9799999999999] humans data architecture design patterns
+
+[524.52 - 528.959] and then finally solving problems and
+
+[526.98 - 531.54] just keeping itself going and
+
+[528.959 - 534.899] self-improving over the long run uh
+
+[531.54 - 537.779] without human Aid so as agency goes up
+
+[534.899 - 538.92] and as uh dependency goes down that's
+
+[537.779 - 541.98] how you know that we're going to be
+
+[538.92 - 543.24] closer and closer to AGI and we can we
+
+[541.98 - 545.64] can easily measure those things right
+
+[543.24 - 547.44] now because chat GPT for instance it has
+
+[545.64 - 550.14] to run on gigantic data centers that are
+
+[547.44 - 552.5400000000001] run entirely by humans uh or mostly by
+
+[550.14 - 554.3389999999999] humans rather so these are the two
+
+[552.54 - 558.3] primary ingredients that I think and I
+
+[554.339 - 561.12] uh I basically built it into a framework
+
+[558.3 - 563.88] uh very similar to the self-driving Cars
+
+[561.12 - 566.519] one so level zero is reactive basically
+
+[563.88 - 568.4399999999999] it has no agency it's a tool level one
+
+[566.519 - 570.12] is some autonomy so it has a little bit
+
+[568.44 - 572.1600000000001] of agency to make some executive
+
+[570.12 - 574.08] decisions Lang chain is a really good
+
+[572.16 - 576.42] example of this where it it basically
+
+[574.08 - 578.7] has the ability to choose between a set
+
+[576.42 - 580.9799999999999] of tools but that's about it still
+
+[578.7 - 583.5600000000001] requires significant human oversight and
+
+[580.98 - 584.839] is also still very very much dependent
+
+[583.56 - 586.8] upon humans
+
+[584.839 - 589.5] semi-autonomy is what a lot of people
+
+[586.8 - 590.88] are working on with like Auto GPT where
+
+[589.5 - 594.18] it can choose like what kind of
+
+[590.88 - 596.22] information it needs to go find uh or it
+
+[594.18 - 599.12] can also even start to rewrite some of
+
+[596.22 - 602.64] its own code or come up with other ideas
+
+[599.12 - 605.16] uh you know some directives then High
+
+[602.64 - 608.04] autonomy as far as I know has not been
+
+[605.16 - 609.899] achieved yet anywhere in the world which
+
+[608.04 - 612.7199999999999] is basically that
+
+[609.899 - 616.62] it is able to pick some of its own
+
+[612.72 - 619.019] directives uh and and more more
+
+[616.62 - 621.54] completely modify itself basically if
+
+[619.019 - 624.3] you if you were to have what baby AGI
+
+[621.54 - 626.64] and auto GPT tried to be which is they
+
+[624.3 - 628.92] can rewrite their entire code base and
+
+[626.64 - 631.4399999999999] change their their own directives and
+
+[628.92 - 633.3] are not dependent upon a whole heck of a
+
+[631.44 - 635.0400000000001] lot of human infrastructure that would
+
+[633.3 - 637.8599999999999] be level three and then level four is
+
+[635.04 - 640.38] full autonomy meaning they have
+
+[637.86 - 643.62] absolutely no need for humans uh
+
+[640.38 - 645.3] whatsoever they're 100 self-determined
+
+[643.62 - 647.399] in terms of what they do when where and
+
+[645.3 - 650.579] why and how they do it and then of
+
+[647.399 - 652.68] course on a physical level uh they will
+
+[650.579 - 654.2399999999999] continue to exist in perpetuity without
+
+[652.68 - 655.7399999999999] human intervention
+
+[654.24 - 659.64] all right so
+
+[655.74 - 661.26] level zero inner reactive agency zero
+
+[659.64 - 664.68] percent dependency one hundred percent
+
+[661.26 - 666.3] basically it's a wrench uh chat GPT as
+
+[664.68 - 668.279] it is right now mid journey and a whole
+
+[666.3 - 670.14] bunch of other AI tools they just sit
+
+[668.279 - 671.82] there waiting for a human to push the
+
+[670.14 - 673.68] button and they do their thing and then
+
+[671.82 - 676.86] they switch back off so these are Level
+
+[673.68 - 678.8389999999999] zero in terms of uh AGI score even
+
+[676.86 - 680.94] though they're intelligent so again like
+
+[678.839 - 683.2790000000001] I said intelligence is not necessarily A
+
+[680.94 - 686.0400000000001] good measure of AGI for something to be
+
+[683.279 - 688.56] AGI or an autonomous cognitive entity it
+
+[686.04 - 691.62] also needs agency and Independence which
+
+[688.56 - 695.16] chat GPT has none of so even even if you
+
+[691.62 - 696.779] have gpt5 right that could be a billion
+
+[695.16 - 699.3] times more intelligent than every human
+
+[696.779 - 701.459] combined if it doesn't have agency and
+
+[699.3 - 703.4399999999999] Independence it's not an AGI
+
+[701.459 - 705.779] so that's that's why that's why I'm like
+
+[703.44 - 707.7600000000001] AGI is not a good good measurement for
+
+[705.779 - 710.279] some of these things level one some
+
+[707.76 - 711.72] autonomy like I said Lang chain is a
+
+[710.279 - 713.88] really good example because it can pick
+
+[711.72 - 715.98] and choose between a few options and not
+
+[713.88 - 718.56] much else a few other examples are like
+
+[715.98 - 720.54] roombas Amazon's warehouse robots the
+
+[718.56 - 722.3389999999999] Mars rovers they have a little bit of
+
+[720.54 - 724.079] autonomy but basically they mostly wait
+
+[722.339 - 726.5400000000001] for a human command and then the human
+
+[724.079 - 728.399] command says drive over there and it'll
+
+[726.54 - 731.04] figure out how to get you know 10 feet
+
+[728.399 - 733.32] that way on its own uh some Advanced
+
+[731.04 - 735.18] chat Bots also have some autonomy
+
+[733.32 - 738.36] again anything that incorporates Lang
+
+[735.18 - 742.5] chain or similar uh very basic kind of
+
+[738.36 - 745.32] uh in uh obfuscated choices uh that's
+
+[742.5 - 748.22] gonna be that's gonna have some autonomy
+
+[745.32 - 751.1400000000001] um let's see next is semi-autonomy so
+
+[748.22 - 753.0] semi-autonomous is where uh its
+
+[751.14 - 754.8] directive still primarily come from
+
+[753.0 - 757.38] humans but it might be more of a mission
+
+[754.8 - 760.8599999999999] rather than like a directive or a rule
+
+[757.38 - 763.8] and so with a mission the idea is that
+
+[760.86 - 765.54] here's a general objective you have some
+
+[763.8 - 768.12] autonomy to figure out how to get there
+
+[765.54 - 769.86] or how to do it on your own and so this
+
+[768.12 - 771.42] is the autonomous drones that uh
+
+[769.86 - 773.22] militaries around the world are building
+
+[771.42 - 775.8] where it's like your mission is to
+
+[773.22 - 777.48] destroy you know that Sam site or your
+
+[775.8 - 781.019] mission is to get the passenger from A
+
+[777.48 - 783.9590000000001] to B or uh you know in video games the
+
+[781.019 - 785.88] NPC's Mission might be like uh you know
+
+[783.959 - 788.04] you're gonna try and you know capture
+
+[785.88 - 790.4399999999999] the castle or whatever so they still
+
+[788.04 - 792.7199999999999] operate within a relatively constrained
+
+[790.44 - 794.399] environment meaning they can't change
+
+[792.72 - 796.9200000000001] their own in environment or their own
+
+[794.399 - 799.8] fundamental operation they still have a
+
+[796.92 - 801.66] clearly defined uh they're not general
+
+[799.8 - 804.0] purpose put it that way
+
+[801.66 - 805.74] a full self-driving car no matter how
+
+[804.0 - 807.899] intelligent it is it's still just a car
+
+[805.74 - 810.42] a drone no matter how intelligent it is
+
+[807.899 - 812.279] is still just a drone in Ditto for a
+
+[810.42 - 814.9799999999999] video game and PC so this is kind of the
+
+[812.279 - 816.72] Midway point where anything above that
+
+[814.98 - 818.639] they're they're basically saying okay
+
+[816.72 - 820.5] given these constraints and given this
+
+[818.639 - 822.1800000000001] environment you have free reign to do
+
+[820.5 - 824.94] whatever it takes to get that job done
+
+[822.18 - 826.8] uh whereas you know the sum autonomy
+
+[824.94 - 829.0790000000001] they basically can only pick and choose
+
+[826.8 - 831.4799999999999] from a very short menu of options
+
+[829.079 - 835.1389999999999] whereas semi-autonomy is they can figure
+
+[831.48 - 837.779] it out themselves then High autonomy so
+
+[835.139 - 840.72] this is this is like uh Cortana in the
+
+[837.779 - 844.62] early days commander data and the Nestor
+
+[840.72 - 847.62] class 5 from iRobot so they're almost
+
+[844.62 - 849.54] entirely self-directing uh you know data
+
+[847.62 - 851.16] can make up his own mind on things but
+
+[849.54 - 853.56] he still has a lot of limitations just
+
+[851.16 - 855.959] due to the form factor that he's in
+
+[853.56 - 858.899] likewise Cortana at least in the early
+
+[855.959 - 861.18] days is basically designed to be a
+
+[858.899 - 862.74] weapon a military aid and So within
+
+[861.18 - 865.1999999999999] those constraints she still has a
+
+[862.74 - 867.779] tremendous amount of autonomy and able
+
+[865.2 - 869.639] to uh change the way she does things but
+
+[867.779 - 871.68] in both cases of data and Cortana
+
+[869.639 - 873.0600000000001] they're still very much dependent on
+
+[871.68 - 875.579] their human Companions and human
+
+[873.06 - 880.0189999999999] counterparts to continue operating so
+
+[875.579 - 882.0] most fictional examples of AI at least
+
+[880.019 - 884.1] many of the the friendly ones are what
+
+[882.0 - 887.519] we would call High autonomy and then
+
+[884.1 - 889.9200000000001] full autonomy so this is where the they
+
+[887.519 - 891.66] are they can can completely ignore
+
+[889.92 - 893.2199999999999] humans if they want to and are
+
+[891.66 - 897.12] completely independent of humans so the
+
+[893.22 - 899.5790000000001] examples here are Skynet Ultron the Geth
+
+[897.12 - 901.86] in Mass Effect Cortana after Guardians
+
+[899.579 - 903.54] uh the Reapers from Mass Effect so these
+
+[901.86 - 905.4590000000001] are these are the the kind of nightmare
+
+[903.54 - 908.0999999999999] scenario scenario where it's like okay
+
+[905.459 - 909.54] it has no need for us anymore so then
+
+[908.1 - 911.1] what does it do
+
+[909.54 - 914.8199999999999] and that's what we're kind of most
+
+[911.1 - 916.32] afraid of uh but again like this is the
+
+[914.82 - 917.82] work that I and other people are doing
+
+[916.32 - 920.279] and I one I think that this is
+
+[917.82 - 923.6990000000001] inevitable uh that it'll get to that
+
+[920.279 - 926.04] level of level four full autonomy uh but
+
+[923.699 - 927.66] I'm also not afraid of it because
+
+[926.04 - 929.88] I don't know I haven't seen any reason
+
+[927.66 - 931.38] to be yet now that that being said I'm
+
+[929.88 - 933.36] not saying that it is inevitable that it
+
+[931.38 - 934.4399999999999] will be safe no we could absolutely do
+
+[933.36 - 937.139] this wrong and it could kill everyone
+
+[934.44 - 939.0] I'm not denying that at all
+
+[937.139 - 941.88] um and I think it's coming sooner than a
+
+[939.0 - 943.62] lot of uh researchers realize uh that
+
+[941.88 - 946.4399999999999] being said I do have a few more videos
+
+[943.62 - 948.72] planned about okay if we're if we're
+
+[946.44 - 952.1990000000001] aiming for and building level four full
+
+[948.72 - 953.76] autonomous AGI how do we make it safe or
+
+[952.199 - 955.199] what will It ultimately choose to do
+
+[953.76 - 956.8199999999999] which you know you've seen some of my
+
+[955.199 - 959.0999999999999] other videos
+
+[956.82 - 962.1600000000001] okay so how do we get from where we're
+
+[959.1 - 964.32] at to level four because like I said the
+
+[962.16 - 967.62] the the best that we have is we're
+
+[964.32 - 970.32] approaching level two semi-autonomy in a
+
+[967.62 - 974.22] few cases right people are experimenting
+
+[970.32 - 975.899] with it uh but you know there's a lot of
+
+[974.22 - 978.0] problems so all the work that I've done
+
+[975.899 - 979.38] on cognitive architecture is going to
+
+[978.0 - 981.6] help get us there but there's still a
+
+[979.38 - 983.88] few other problems so first is
+
+[981.6 - 985.8000000000001] algorithmic breakthroughs that uh need
+
+[983.88 - 988.079] to happen namely like I mentioned at the
+
+[985.8 - 990.06] beginning multimodal models I think will
+
+[988.079 - 991.079] very very much Advance us towards that
+
+[990.06 - 993.899] just because they're going to have a
+
+[991.079 - 996.18] much more nuanced understanding of how
+
+[993.899 - 997.98] to pursue any goal they're going to have
+
+[996.18 - 999.3599999999999] a much better World model by being able
+
+[997.98 - 1001.339] to integrate multiple kinds of
+
+[999.36 - 1003.74] information and data
+
+[1001.339 - 1006.0790000000001] a contact size parameter count those
+
+[1003.74 - 1008.36] those kinds of things uh Mesa
+
+[1006.079 - 1010.2199999999999] optimization loss functions that's all
+
+[1008.36 - 1012.0790000000001] the math which you know that's not to
+
+[1010.22 - 1015.0790000000001] that's not to demean or diminish the
+
+[1012.079 - 1016.7589999999999] value of mathematical researchers uh and
+
+[1015.079 - 1018.8] and the computer scientists and the data
+
+[1016.759 - 1021.38] scientists who really build these new
+
+[1018.8 - 1024.1989999999998] architectures but like it's kind of it's
+
+[1021.38 - 1025.819] kind of like Moore's law where like you
+
+[1024.199 - 1028.939] can you can predict with a pretty
+
+[1025.819 - 1031.04] regular Cadence how uh models become
+
+[1028.939 - 1033.26] more sophisticated over time there
+
+[1031.04 - 1035.299] doesn't seem to be any major blockers
+
+[1033.26 - 1037.64] right if you pay attention to chip
+
+[1035.299 - 1038.959] design every year people are like oh
+
+[1037.64 - 1041.0590000000002] well this is going to be the end of
+
+[1038.959 - 1042.919] Moore's law but then inevitably someone
+
+[1041.059 - 1044.8999999999999] figures out another way of approaching
+
+[1042.919 - 1047.7800000000002] the problem likewise I see the same
+
+[1044.9 - 1050.3600000000001] thing the same pattern happening with um
+
+[1047.78 - 1052.76] with language models
+
+[1050.36 - 1055.4599999999998] um and then another big thing that we're
+
+[1052.76 - 1057.5] seeing is online learning memory systems
+
+[1055.46 - 1060.14] uh and and those sorts of things like
+
+[1057.5 - 1062.96] recurrent neural networks and other ways
+
+[1060.14 - 1064.7] of like in managing in context learning
+
+[1062.96 - 1066.02] and that sort of stuff but one thing
+
+[1064.7 - 1069.02] that people have started noticing for
+
+[1066.02 - 1070.6399999999999] instance is that chat GPT with uh even
+
+[1069.02 - 1073.28] even just over the last couple of days
+
+[1070.64 - 1076.1000000000001] or a couple weeks rather
+
+[1073.28 - 1079.46] because its data is uh two years old
+
+[1076.1 - 1082.039] almost and and growing it's actually its
+
+[1079.46 - 1084.14] utility is already dropping because it's
+
+[1082.039 - 1085.94] more and more out of date and so we're
+
+[1084.14 - 1087.919] realizing very quickly that you're going
+
+[1085.94 - 1089.24] to need to have continuous learning in
+
+[1087.919 - 1091.2800000000002] these models so that they can stay
+
+[1089.24 - 1093.74] relevant uh and then there's the
+
+[1091.28 - 1096.02] software architecture such as cognitive
+
+[1093.74 - 1098.0] architectures orchestrating and training
+
+[1096.02 - 1099.86] millions of models so one thing that
+
+[1098.0 - 1101.78] I've started telling people is that AGI
+
+[1099.86 - 1105.62] was never ever going to be a single
+
+[1101.78 - 1108.02] model it is a huge gigantic Monumental
+
+[1105.62 - 1111.7399999999998] mistake to think that one model whether
+
+[1108.02 - 1114.02] it's gpt5 or GPT 18 or whatever is going
+
+[1111.74 - 1116.419] to be responsible for AGI you're going
+
+[1114.02 - 1118.6399999999999] to have at a bare minimum probably
+
+[1116.419 - 1121.4] dozens if not hundreds or thousands of
+
+[1118.64 - 1123.5] models required to achieve level four
+
+[1121.4 - 1124.94] autonomy these are models that are going
+
+[1123.5 - 1127.46] to be doing things like handling Vision
+
+[1124.94 - 1130.039] handling motor control uh they're going
+
+[1127.46 - 1131.539] to be performing task orchestration
+
+[1130.039 - 1133.94] you're going to have models that are
+
+[1131.539 - 1136.4] dedicated to ethics and reasoning
+
+[1133.94 - 1138.559] long-term planning and you're also going
+
+[1136.4 - 1140.96] to have multiple models of every single
+
+[1138.559 - 1143.299] kind that work in conjunction this is
+
+[1140.96 - 1146.539] called an ensemble of experts which is
+
+[1143.299 - 1148.94] an old school method of basically saying
+
+[1146.539 - 1150.98] okay you know you have a dozen models
+
+[1148.94 - 1152.059] that are similar but there they might be
+
+[1150.98 - 1153.98] slightly different architectures
+
+[1152.059 - 1155.66] different training data that sort of
+
+[1153.98 - 1157.4] stuff and so each one has strength and
+
+[1155.66 - 1159.919] weaknesses and you get them all to work
+
+[1157.4 - 1162.5590000000002] together and then you overcome any flaws
+
+[1159.919 - 1164.0] or faults in any single model and so
+
+[1162.559 - 1165.9189999999999] this is why I'm also really really
+
+[1164.0 - 1168.2] skeptical of any research that tries to
+
+[1165.919 - 1170.539] align a single model like that's kind of
+
+[1168.2 - 1172.3400000000001] pointless no it's not pointless research
+
+[1170.539 - 1174.3799999999999] but it would be a mistake to think that
+
+[1172.34 - 1178.76] aligning a single model is going to be
+
+[1174.38 - 1181.7600000000002] the solution because you know any any uh
+
+[1178.76 - 1183.26] roboticist and old school ml data
+
+[1181.76 - 1186.14] scientists will say oh yeah Ensemble of
+
+[1183.26 - 1187.8799999999999] experts you know those this is very much
+
+[1186.14 - 1189.38] the way and also there's an entire book
+
+[1187.88 - 1191.0] about it called a thousand brains by
+
+[1189.38 - 1193.1000000000001] Jeff Hawkins
+
+[1191.0 - 1195.44] um yeah so the software architecture to
+
+[1193.1 - 1198.1999999999998] do all this in a fully automated way
+
+[1195.44 - 1200.66] that can that is you know stable and
+
+[1198.2 - 1202.3400000000001] self-sustaining that you know the AGI
+
+[1200.66 - 1204.14] can tune and manipulate and you know
+
+[1202.34 - 1206.6] spin up another copy of itself and test
+
+[1204.14 - 1208.4] it self testing and self-correction are
+
+[1206.6 - 1212.539] going to be some of the hardest things
+
+[1208.4 - 1214.5800000000002] to uh to achieve with uh with uh getting
+
+[1212.539 - 1217.039] to level four full autonomy
+
+[1214.58 - 1218.8999999999999] so anyways that's it for this video it
+
+[1217.039 - 1220.1] was pretty short I just wanted to lay
+
+[1218.9 - 1222.2] this out because I thought it was a
+
+[1220.1 - 1224.78] really valuable idea uh to talk about
+
+[1222.2 - 1227.6000000000001] like okay how do we actually get to AGI
+
+[1224.78 - 1229.46] from here so I laid out five levels of
+
+[1227.6 - 1231.6789999999999] of autonomy based on agency and
+
+[1229.46 - 1233.419] dependency I hope this helps it make
+
+[1231.679 - 1236.179] sense and kind of get a much clearer
+
+[1233.419 - 1237.8600000000001] idea of what AGI or autonomous cognitive
+
+[1236.179 - 1240.039] entities will actually look like so
+
+[1237.86 - 1240.039] thanks for

@@ -1,0 +1,1147 @@
+[0.659 - 4.74] all right so there's a bit to unpack
+
+[2.76 - 7.02] here but before we get started I want to
+
+[4.74 - 9.780000000000001] uh profess this whole thing with take it
+
+[7.02 - 12.12] with a gigantic grain of salt uh my
+
+[9.78 - 16.32] methods are highly dubious and my data
+
+[12.12 - 17.46] quality is uh abysmal let's say but it's
+
+[16.32 - 18.9] an interesting thought experiment so
+
+[17.46 - 20.039] let's dive in
+
+[18.9 - 22.38] um all right so we'll start with the
+
+[20.039 - 26.519000000000002] conclusion and then work backwards
+
+[22.38 - 29.099] so right now at least May 2022 so just
+
+[26.519 - 33.6] over a year ago 13 months ago America
+
+[29.099 - 37.94] had 147 million employees ish 148
+
+[33.6 - 41.879000000000005] million now based on the current
+
+[37.94 - 43.68] capabilities of AI what this includes
+
+[41.879 - 45.86] all machine automation robotics
+
+[43.68 - 49.44] artificial intelligence
+
+[45.86 - 54.0] my estimate is that we could automate
+
+[49.44 - 58.32] away almost 25 million jobs today
+
+[54.0 - 60.3] now that requires the deployment of new
+
+[58.32 - 62.879] products and services so those products
+
+[60.3 - 65.64] and services do not exist yet but the
+
+[62.879 - 68.15899999999999] underpinning technology does which means
+
+[65.64 - 70.74] that the only thing preventing us from
+
+[68.159 - 73.08000000000001] from getting that employment is just
+
+[70.74 - 75.29899999999999] inertia the time that it takes to
+
+[73.08 - 77.82] develop the products and software
+
+[75.299 - 79.43900000000001] the time to get it approved and the time
+
+[77.82 - 83.52] to implement it and then make those
+
+[79.439 - 85.86] changes so as of right now almost 25
+
+[83.52 - 89.22] million jobs are vulnerable to AI with
+
+[85.86 - 92.1] the capabilities of GPT 3.5 turbo and
+
+[89.22 - 94.74] gpt4 and then of course all the other
+
+[92.1 - 97.439] open source uh and and Commercial
+
+[94.74 - 101.88] competitors that are near peer
+
+[97.439 - 105.0] adversaries now that being said if you
+
+[101.88 - 107.479] look at the jobs that uh based on a
+
+[105.0 - 110.579] job's intrinsic requirement for humans
+
+[107.479 - 112.14] uh basically you look at the the kinds
+
+[110.579 - 114.65899999999999] of jobs that you're going to pay to have
+
+[112.14 - 117.06] a person doing regardless of what the AI
+
+[114.659 - 118.43900000000001] is capable of this is these are the jobs
+
+[117.06 - 120.259] that are going to be vulnerable just by
+
+[118.439 - 123.89899999999999] virtue of the fact that you don't really
+
+[120.259 - 126.6] necessarily need a human doing it the
+
+[123.899 - 128.819] numbers become a little bit scarier and
+
+[126.6 - 133.01999999999998] uh my estimate this is worst case
+
+[128.819 - 135.72] scenario is that in the near future 77
+
+[133.02 - 138.12] million jobs out of the 140 seven
+
+[135.72 - 139.62] million jobs are vulnerable to be to
+
+[138.12 - 142.92000000000002] being automated away
+
+[139.62 - 145.68] basically this calculation is a rough
+
+[142.92 - 147.83999999999997] estimate on market demand how much do
+
+[145.68 - 149.4] you actually want a human doing that
+
+[147.84 - 151.14000000000001] particular job
+
+[149.4 - 154.8] which means that in the worst case
+
+[151.14 - 158.45899999999997] scenario we go from 148 million employed
+
+[154.8 - 161.4] to 70 million employed that is more than
+
+[158.459 - 163.739] 50 percent lost so I have been
+
+[161.4 - 166.5] repeatedly saying you know we could face
+
+[163.739 - 168.59900000000002] 70 unemployment 80 and other people say
+
+[166.5 - 170.459] 80 unemployment here's the numbers to
+
+[168.599 - 172.07999999999998] back it up all right now
+
+[170.459 - 174.36] since I got your attention let me tell
+
+[172.08 - 176.87900000000002] you how I did this and again remember
+
+[174.36 - 178.86] this is incredibly dubious so take it
+
+[176.879 - 182.17999999999998] with a huge grain of salt but basically
+
+[178.86 - 185.09900000000002] what I did was I took the
+
+[182.18 - 187.31900000000002] gpt40613 model
+
+[185.099 - 190.44] and I gave it instructions I said you
+
+[187.319 - 192.89999999999998] are a BLS chat bot and you're trying to
+
+[190.44 - 193.85999999999999] assess the risk of having jobs automated
+
+[192.9 - 197.519] away
+
+[193.86 - 202.44000000000003] uh yada yada yada the tldr is that I
+
+[197.519 - 204.9] asked it to uh judge jobs or occupations
+
+[202.44 - 207.72] based on job activities and I had it
+
+[204.9 - 209.81900000000002] break it down into percentages uh based
+
+[207.72 - 212.64] on three categories so the first
+
+[209.819 - 215.7] category is is dexterity so this is high
+
+[212.64 - 218.64] friction uh in in physical space that
+
+[215.7 - 220.67999999999998] requires compliance uh manual dexterity
+
+[218.64 - 223.319] uh kinetic intelligence that sort of
+
+[220.68 - 225.72] stuff because yes we do have a few
+
+[223.319 - 227.64] robots that can do this but there are as
+
+[225.72 - 230.099] of right now no general purpose robots
+
+[227.64 - 232.319] that are capable of operating anywhere
+
+[230.099 - 234.54] near human level in terms of dexterity
+
+[232.319 - 236.22] there are no general purpose surgical
+
+[234.54 - 240.06] robots there are no general purpose
+
+[236.22 - 242.4] labor robots uh just doesn't exist
+
+[240.06 - 244.379] now that being said you can robotically
+
+[242.4 - 246.48000000000002] automate like a skid steer or a tractor
+
+[244.379 - 248.159] or something that's fine that's not what
+
+[246.48 - 250.07999999999998] I'm talking about
+
+[248.159 - 252.54] um I'm talking about what a human can do
+
+[250.08 - 254.459] with your hands and body and then the
+
+[252.54 - 256.079] second category is solo work so this is
+
+[254.459 - 259.139] work that can be done in front of a
+
+[256.079 - 261.959] computer or otherwise electronically by
+
+[259.139 - 264.12] yourself uh you know on your phone on a
+
+[261.959 - 266.1] computer that sort of thing and then the
+
+[264.12 - 267.9] third category of job activities is
+
+[266.1 - 270.54] group stuff so this is communication
+
+[267.9 - 271.79999999999995] collaboration face-to-face time with
+
+[270.54 - 274.04] other humans
+
+[271.8 - 277.62] and so those three categories break down
+
+[274.04 - 280.38] and and kind of Judge the that's part of
+
+[277.62 - 283.56] what I use to judge the vulnerability of
+
+[280.38 - 285.96] a job so if it if it has low dexterity
+
+[283.56 - 288.419] it is much at much greater risk of being
+
+[285.96 - 292.08] automated away uh just with today's
+
+[288.419 - 294.12] technology uh if it is mostly solo work
+
+[292.08 - 296.4] it is much higher risk of being
+
+[294.12 - 298.199] automated away and if it's a high group
+
+[296.4 - 300.479] activity then it's a much lower risk
+
+[298.199 - 302.58000000000004] because that indicates that the human
+
+[300.479 - 304.68] com the human connection component is a
+
+[302.58 - 306.71999999999997] big part of it and then finally the
+
+[304.68 - 311.54] vulnerability score is a standalone
+
+[306.72 - 314.46000000000004] score which is used to uh basically uh
+
+[311.54 - 316.91900000000004] assess how how much you want a human
+
+[314.46 - 318.78] doing that job what is the intrinsic uh
+
+[316.919 - 320.69899999999996] need for that job and if the number is
+
+[318.78 - 323.4] lower if that means it's less vulnerable
+
+[320.699 - 325.56] which means you're more likely to really
+
+[323.4 - 327.84] want to have a human in that job and
+
+[325.56 - 330.0] you're willing to pay for that whereas
+
+[327.84 - 331.61999999999995] if it's a high vulnerability score then
+
+[330.0 - 334.5] that means that there's no intrinsic
+
+[331.62 - 336.9] economic or personal or whatever there's
+
+[334.5 - 338.6] no intrinsic demand to have a human in
+
+[336.9 - 342.17999999999995] that job if you could automate it away
+
+[338.6 - 344.699] then you might as well and so this is
+
+[342.18 - 346.02] like machine shop workers right you
+
+[344.699 - 348.479] don't need a whole heck of a lot of
+
+[346.02 - 349.74] empathy or communication skills and I
+
+[348.479 - 350.9] can hear all the machinists saying yeah
+
+[349.74 - 354.0] like hell
+
+[350.9 - 355.62] because machine is a machinists actually
+
+[354.0 - 358.74] do have to do a tremendous amount of
+
+[355.62 - 361.08] communication that being said the actual
+
+[358.74 - 362.82] Hands-On machine stuff that that part
+
+[361.08 - 364.919] could be automated away
+
+[362.82 - 366.71999999999997] if of course the machines become more
+
+[364.919 - 367.979] dexterous right because dexterity is a
+
+[366.72 - 369.6] huge component of that so that's why I
+
+[367.979 - 373.5] broke it down into these four categories
+
+[369.6 - 375.66] of vulnerability and I had chat GPT just
+
+[373.5 - 378.96] kind of do these rough estimates
+
+[375.66 - 382.68] and it did a pretty good job using gpt4
+
+[378.96 - 386.69899999999996] so I ran I downloaded the data from BLS
+
+[382.68 - 388.5] and I excluded the detail in Broad ones
+
+[386.699 - 390.84000000000003] because they're they're they're very
+
+[388.5 - 393.3] very highly specific and I noticed that
+
+[390.84 - 395.75899999999996] it was like okay the job duties really
+
+[393.3 - 397.86] didn't change so I only focused on the
+
+[395.759 - 399.41900000000004] minor and major categories which ended
+
+[397.86 - 404.16] up being
+
+[399.419 - 407.81899999999996] um let's see that was 116 categories so
+
+[404.16 - 409.86] that's still 116 categories uh that it
+
+[407.819 - 411.84000000000003] was used to estimate
+
+[409.86 - 413.639] um in terms of vulnerability and I've
+
+[411.84 - 417.35999999999996] got it all color coded so I'll tell you
+
+[413.639 - 418.979] how to interpret the data in a second
+
+[417.36 - 421.56] um here's the here's the thing so the
+
+[418.979 - 422.88] first thing uh the first sorry good
+
+[421.56 - 425.819] grief I'm going too fast here's the
+
+[422.88 - 428.699] repository the first step of this is to
+
+[425.819 - 430.68] break it down uh it just it's very very
+
+[428.699 - 434.34000000000003] simple you open the data
+
+[430.68 - 437.52] the CSV data pipe it in you get the
+
+[434.34 - 439.44] result it pipes it back out in Json and
+
+[437.52 - 442.4] I can show you an example of the debug
+
+[439.44 - 444.9] here so I just it captures everything
+
+[442.4 - 447.12] occupation code description and
+
+[444.9 - 448.56] employment so that's what it gives it so
+
+[447.12 - 450.3] that it understands and of course chat
+
+[448.56 - 452.28000000000003] GPT already knows what all the
+
+[450.3 - 454.5] occupation codes actually mean because
+
+[452.28 - 456.78] it's baked into the training data and so
+
+[454.5 - 459.08] if you go and talk to like chat gbt and
+
+[456.78 - 462.11999999999995] say like hey what is BLS occupation code
+
+[459.08 - 463.62] 17-1000 mean give me some examples and
+
+[462.12 - 468.78000000000003] it'll it can give you a good explanation
+
+[463.62 - 472.8] now one thing that I had it do was to in
+
+[468.78 - 474.539] the output it actually tells me why it
+
+[472.8 - 476.58] made the judgments that it did so this
+
+[474.539 - 479.81899999999996] is where explainability comes in
+
+[476.58 - 482.65999999999997] so uh here's an example of the final
+
+[479.819 - 484.91900000000004] output for uh code
+
+[482.66 - 488.03900000000004] 41-3000 sales representatives and
+
+[484.919 - 491.52] services total current employment is 2.1
+
+[488.039 - 493.74] million uh dexterity rather low you know
+
+[491.52 - 495.599] you got to call some people
+
+[493.74 - 497.099] um you know a significant portion of
+
+[495.599 - 499.02] their work can be done solo on a
+
+[497.099 - 500.94] computer such as managing customer
+
+[499.02 - 503.039] databases and orders which make it
+
+[500.94 - 504.9] susceptible to automation however a
+
+[503.039 - 506.34] large part of their job about 60 percent
+
+[504.9 - 507.599] involves group collaboration and
+
+[506.34 - 509.81899999999996] communication such as face-to-face
+
+[507.599 - 511.979] meetings negotiations which is difficult
+
+[509.819 - 514.26] to automate the intrinsic technological
+
+[511.979 - 517.1999999999999] vulnerability is estimated at 40 so it's
+
+[514.26 - 519.18] a relatively low vulnerability uh job
+
+[517.2 - 522.5390000000001] because yes there are some things that
+
+[519.18 - 524.279] you can automate away but in general you
+
+[522.539 - 526.62] want to be talking to a human sales rep
+
+[524.279 - 529.4399999999999] it to close the deal
+
+[526.62 - 531.779] so in this case uh the the numbers kind
+
+[529.44 - 534.6600000000001] of all come together to say okay uh
+
+[531.779 - 536.58] let's see we uh this estimated that we
+
+[534.66 - 538.8] might lose about twenty six thousand
+
+[536.58 - 542.64] jobs
+
+[538.8 - 545.6999999999999] um or no sorry uh 255 000 jobs uh
+
+[542.64 - 547.8] leaving 1.86 million instead of the 2.1
+
+[545.7 - 550.38] million because again if you can
+
+[547.8 - 553.68] automate if you can automate away a
+
+[550.38 - 555.42] third or you know a quarter or a half of
+
+[553.68 - 558.06] a job that reduces the demand for people
+
+[555.42 - 559.74] doing that and if you have tools that
+
+[558.06 - 562.56] can accelerate it and make it easier
+
+[559.74 - 564.6] then you uh then of course you have less
+
+[562.56 - 565.92] demand for someone in that role now that
+
+[564.6 - 568.019] being said this vulnerability score
+
+[565.92 - 570.24] means that in general you still want to
+
+[568.019 - 572.4590000000001] have a human there even if you have less
+
+[570.24 - 573.779] demand for humans overall aggregate
+
+[572.459 - 575.279] demand so think of it in terms of
+
+[573.779 - 580.5] aggregates
+
+[575.279 - 583.2] okay so uh that is how I achieved that
+
+[580.5 - 584.64] and um let's see I kind of lost my train
+
+[583.2 - 586.2] of thought okay I guess we can go over
+
+[584.64 - 588.18] the code it's all pretty straightforward
+
+[586.2 - 590.519] I've got it documented
+
+[588.18 - 592.62] um it it dumps it all out into the yaml
+
+[590.519 - 594.92] files here so you can look at all
+
+[592.62 - 597.3] however many there are
+
+[594.92 - 599.16] 116 so you can look at the reasoning
+
+[597.3 - 600.7199999999999] that it used for each one and you can
+
+[599.16 - 603.0] you can monkey around with this if you
+
+[600.72 - 606.0600000000001] want uh you can rerun it all the code is
+
+[603.0 - 610.8] there to regenerate this data but then I
+
+[606.06 - 612.06] got it all into this and so this is uh
+
+[610.8 - 615.66] the total data and I've got it color
+
+[612.06 - 618.2399999999999] coded so I have total number of jobs
+
+[615.66 - 620.399] lost and this is color coded so that the
+
+[618.24 - 622.98] the higher the number the darker or the
+
+[620.399 - 624.6] more red it is and of course it's not
+
+[622.98 - 628.019] proportionate so I added a percentage
+
+[624.6 - 629.82] lost and so this is this column here the
+
+[628.019 - 632.94] jobs lost in percentage loss this is
+
+[629.82 - 637.08] most likely based on some really rough
+
+[632.94 - 638.94] numbers uh based on what AI what I know
+
+[637.08 - 641.58] AI is capable of today and so remember
+
+[638.94 - 643.6800000000001] here's my credibility I was an I.T
+
+[641.58 - 646.0790000000001] automation engineer I've deployed
+
+[643.68 - 649.079] servers and software and cloud and
+
+[646.079 - 651.66] everything to automate uh and and
+
+[649.079 - 653.04] support businesses and and I've
+
+[651.66 - 655.079] integrated all these systems I know what
+
+[653.04 - 657.779] it takes to run these systems and to do
+
+[655.079 - 660.12] the job of like a DBA and business
+
+[657.779 - 662.519] analyst and you know Financial you know
+
+[660.12 - 665.04] comptroller I I talked to everyone when
+
+[662.519 - 667.32] I was in a corporate job so
+
+[665.04 - 668.8199999999999] that being said remember like I'm
+
+[667.32 - 672.779] basically throwing wet spaghetti at the
+
+[668.82 - 675.0] wall so this is a educated guess uh as
+
+[672.779 - 677.04] to percentage of jobs that could be
+
+[675.0 - 679.2] automated away obviously I'm less
+
+[677.04 - 681.18] familiar with uh blue collar jobs with
+
+[679.2 - 683.7] manual labor jobs I have done them in
+
+[681.18 - 685.8599999999999] the past uh I've I've worked nights in
+
+[683.7 - 688.38] in stores and warehouses so I kind of
+
+[685.86 - 689.94] have a feel for that that being said
+
+[688.38 - 693.0] um you know I have poured concrete but
+
+[689.94 - 694.98] not professionally so you know take some
+
+[693.0 - 696.72] of that with a grain of salt now percent
+
+[694.98 - 698.279] loss you see some of the higher ones
+
+[696.72 - 700.5600000000001] computer and mathematical operations
+
+[698.279 - 702.24] okay yeah that makes sense
+
+[700.56 - 703.7399999999999] um stuff with a low percentage loss
+
+[702.24 - 706.44] occupational therapy and physical
+
+[703.74 - 709.92] therapists assistance and AIDS this is
+
+[706.44 - 713.82] at a very very very low risk of being
+
+[709.92 - 717.42] automated away because it is one it's a
+
+[713.82 - 720.0600000000001] highly dexterous job and you also very
+
+[717.42 - 722.959] much want a human I've dated a physical
+
+[720.06 - 725.3389999999999] therapist before and it is an intensely
+
+[722.959 - 727.8] emotional job and it has to do with
+
+[725.339 - 730.8000000000001] communication verbal and non-verbal
+
+[727.8 - 732.779] communication there's tremendous amount
+
+[730.8 - 735.12] of human connection involved in that so
+
+[732.779 - 737.82] I totally agree with the result here
+
+[735.12 - 740.1] where you know health support and stuff
+
+[737.82 - 742.6800000000001] so all these numbers are jobs that are
+
+[740.1 - 745.38] at very very low vulnerability
+
+[742.68 - 746.9399999999999] uh for being automated away
+
+[745.38 - 750.18] um and then you see oh wait here's a big
+
+[746.94 - 753.0600000000001] chunk here so Communications uh clerks
+
+[750.18 - 755.88] information uh handling material
+
+[753.06 - 758.9399999999999] recording secretaries uh other office
+
+[755.88 - 760.5] and admin all at high very high risk of
+
+[758.94 - 762.24] getting automated away because again
+
+[760.5 - 763.579] these are things that you primarily do
+
+[762.24 - 766.74] in front of a computer
+
+[763.579 - 768.5999999999999] agricultural workers this is uh you know
+
+[766.74 - 770.7] eight and a half percent because again
+
+[768.6 - 773.519] you know some of it will be automated
+
+[770.7 - 776.7] away and you see most of them are around
+
+[773.519 - 778.8] kind of like the 10 to 12 percent range
+
+[776.7 - 781.26] um you know with a few few categories
+
+[778.8 - 782.459] being much much more vulnerable to
+
+[781.26 - 786.54] automation
+
+[782.459 - 788.16] now that being said there is uh I have a
+
+[786.54 - 789.899] second sheet and in the second sheet
+
+[788.16 - 791.639] what I did was I removed all the major
+
+[789.899 - 793.88] categories
+
+[791.639 - 796.82] um so you see like it's
+
+[793.88 - 799.74] 11-10011-2000 so I removed
+
+[796.82 - 803.639] 11-000 so that we would have a finer
+
+[799.74 - 806.5790000000001] grain view to look at the total data for
+
+[803.639 - 808.8] each of the the the minor categories
+
+[806.579 - 810.7199999999999] and so here
+
+[808.8 - 812.2199999999999] um it's it's the same same pattern
+
+[810.72 - 813.779] obviously I just removed some of the
+
+[812.22 - 815.279] stuff so that we'd have more accurate in
+
+[813.779 - 818.88] terms of total numbers
+
+[815.279 - 820.98] now what I did was I uh you know I
+
+[818.88 - 823.32] estimated total jobs lost that could be
+
+[820.98 - 826.019] automated away right now so that's right
+
+[823.32 - 828.6] here uh so that's that's how I arrived
+
+[826.019 - 831.12] at that data is okay based on all these
+
+[828.6 - 833.399] vulnerabilities scores and stuff what is
+
+[831.12 - 835.68] the what is the maximum jobs loss that
+
+[833.399 - 837.899] we could anticipate here
+
+[835.68 - 840.4799999999999] uh and then of course you just take that
+
+[837.899 - 841.56] away from you know total remaining etc
+
+[840.48 - 845.76] etc
+
+[841.56 - 847.7399999999999] simple simple arithmetic now over here I
+
+[845.76 - 850.2] said okay let's ignore what Ai and
+
+[847.74 - 853.74] Robotics are capable of today and let's
+
+[850.2 - 856.62] just look at the uh the aggregate demand
+
+[853.74 - 858.54] for humans in a particular job and so
+
+[856.62 - 861.3] for instance in computer occupations
+
+[858.54 - 863.16] there's not really a strong need to have
+
+[861.3 - 865.8] humans doing that to do most of those
+
+[863.16 - 869.16] jobs uh you know if the computer works
+
+[865.8 - 871.5] nobody cares uh as as an example and as
+
+[869.16 - 875.04] a former I.T specialist I can tell you
+
+[871.5 - 876.899] that my Humanity didn't really matter uh
+
+[875.04 - 878.76] it was as long as as long as the lights
+
+[876.899 - 880.86] were on and the you know the registers
+
+[878.76 - 883.98] were running nobody cares
+
+[880.86 - 885.72] uh drafters engineering techs a little
+
+[883.98 - 887.279] bit less demand
+
+[885.72 - 889.86] um let's see
+
+[887.279 - 892.4399999999999] there's some yeah so what are these
+
+[889.86 - 894.779] uh Communications operation operators
+
+[892.44 - 896.6990000000001] clerks these are at super high risk
+
+[894.779 - 898.079] agricultural workers so this is this is
+
+[896.699 - 901.139] one of the ones that's kind of a paradox
+
+[898.079 - 904.7399999999999] because on the one hand right now it's
+
+[901.139 - 907.6800000000001] at a very low risk because it requires a
+
+[904.74 - 909.48] tremendous amount of dexterity but
+
+[907.68 - 911.459] as long as the food gets on the table it
+
+[909.48 - 913.62] doesn't matter who put it there so in
+
+[911.459 - 915.899] terms of intrinsic vulnerability it is a
+
+[913.62 - 916.8] very high intrinsic vulnerability so
+
+[915.899 - 918.899] that's why I've got all these color
+
+[916.8 - 921.899] coded here
+
+[918.899 - 924.0] um let's see uh yep so there that's that
+
+[921.899 - 925.74] and so what I used there was to say like
+
+[924.0 - 928.92] what is the maximum possible attrition
+
+[925.74 - 930.9590000000001] we could see based on you know okay if
+
+[928.92 - 932.2199999999999] we can get rid of 20 of Executives
+
+[930.959 - 934.7399999999999] that's so that's basically what this
+
+[932.22 - 937.74] means is that the aggregate demand for
+
+[934.74 - 940.32] uh Executives for top Executives goes
+
+[937.74 - 943.019] down by 20 because we can automate away
+
+[940.32 - 945.24] a lot of it and you know make the things
+
+[943.019 - 947.1] easier and faster and so on and so forth
+
+[945.24 - 949.62] so that means we could have an attrition
+
+[947.1 - 952.639] of seven hundred thousand Executives
+
+[949.62 - 955.5600000000001] leaving us with 2.9 Million Executives
+
+[952.639 - 956.88] uh and you know but then you go down and
+
+[955.56 - 958.26] because this is Imagining the future
+
+[956.88 - 960.12] where it's like okay
+
+[958.26 - 963.54] let's take the Farm Workers the
+
+[960.12 - 967.199] agricultural workers uh for example and
+
+[963.54 - 970.62] so right now we have uh looks like we've
+
+[967.199 - 973.3199999999999] got a total employment of 390 000.
+
+[970.62 - 976.26] um but there's only so much demand for
+
+[973.32 - 979.6800000000001] that so imagine we put AI in every John
+
+[976.26 - 982.4399999999999] Deere tractor every combine every Hopper
+
+[979.68 - 984.7199999999999] system and you basically have you know
+
+[982.44 - 986.94] Farm entire Farms with no humans that's
+
+[984.72 - 990.24] what this .85 means so we'd have an
+
+[986.94 - 993.9590000000001] attrition rate of 85 percent leaving
+
+[990.24 - 995.5790000000001] only 58 000 farmers in America total now
+
+[993.959 - 998.899] of course this does not include seasonal
+
+[995.579 - 1001.279] labor so that's uh slightly different
+
+[998.899 - 1003.259] construction workers this is another
+
+[1001.279 - 1005.06] example where
+
+[1003.259 - 1007.16] um the it's kind of it's kind of a mixed
+
+[1005.06 - 1009.38] bag so the attrition rate here would be
+
+[1007.16 - 1011.3] expected to be about 40 percent but then
+
+[1009.38 - 1013.639] again like this is a super highly
+
+[1011.3 - 1016.9399999999999] dexterous thing with with that is
+
+[1013.639 - 1018.6800000000001] primarily uh collaborative work so this
+
+[1016.94 - 1020.1800000000001] is going to be a very very very
+
+[1018.68 - 1022.9399999999999] difficult one to automate away because
+
+[1020.18 - 1024.74] it's very high risks if a robot makes a
+
+[1022.94 - 1026.839] mistake an I-beam gets dropped on
+
+[1024.74 - 1028.16] someone and they get killed right and so
+
+[1026.839 - 1031.28] it actually you'll probably have a
+
+[1028.16 - 1033.26] threshold where it'll be safer and
+
+[1031.28 - 1036.9189999999999] cheaper to just take humans off the job
+
+[1033.26 - 1038.72] site entirely now that being said we are
+
+[1036.919 - 1042.0200000000002] already seeing that a little bit with
+
+[1038.72 - 1043.88] like the 3D printing home printers where
+
+[1042.02 - 1045.439] it's like a robotic Gantry that just
+
+[1043.88 - 1047.0] sits over there it's got its pile of
+
+[1045.439 - 1049.4] material and it just builds the house
+
+[1047.0 - 1051.02] with no humans involved at all and so
+
+[1049.4 - 1053.1200000000001] that's what we have to look out for is
+
+[1051.02 - 1054.799] that in some of these cases there's
+
+[1053.12 - 1056.4799999999998] going to be this saltatory leap where it
+
+[1054.799 - 1058.94] goes from you know four and a half
+
+[1056.48 - 1060.799] million employees to zero very quickly
+
+[1058.94 - 1062.299] because as these new technologies rolled
+
+[1060.799 - 1064.34] out you're going to replace them all
+
+[1062.299 - 1065.48] wholesale there is some things are not
+
+[1064.34 - 1067.82] going to lend themselves to being
+
+[1065.48 - 1069.5] gradualistically replaced truckers are
+
+[1067.82 - 1071.96] going to be the same thing once we
+
+[1069.5 - 1073.64] figure out how to automate trucks truck
+
+[1071.96 - 1075.8600000000001] driving it's just not going to make
+
+[1073.64 - 1077.9] sense to have truck drivers now that
+
+[1075.86 - 1079.82] being said that's a very high threshold
+
+[1077.9 - 1081.44] but once to reach that threshold it's a
+
+[1079.82 - 1083.36] step change so that's what I mean by
+
+[1081.44 - 1085.4] saltatory leaps that's that's a step
+
+[1083.36 - 1087.02] change it's a more common term versus
+
+[1085.4 - 1088.6000000000001] gradualistic where you kind of replace
+
+[1087.02 - 1090.98] people slowly
+
+[1088.6 - 1092.8999999999999] in some cases where you replace people
+
+[1090.98 - 1093.919] slowly that could be like I.T staff
+
+[1092.9 - 1096.5590000000002] right
+
+[1093.919 - 1098.179] as a former automation engineer I can
+
+[1096.559 - 1101.0] tell you that I have personally reduced
+
+[1098.179 - 1103.3400000000001] head count in infrastructure departments
+
+[1101.0 - 1105.919] by automating away jobs which reduce the
+
+[1103.34 - 1107.4189999999999] demand but it was over time right it was
+
+[1105.919 - 1109.22] like okay well we can do more with less
+
+[1107.419 - 1110.8400000000001] let me automate a little bit more and
+
+[1109.22 - 1112.22] then we can do more with less and so on
+
+[1110.84 - 1114.02] and so forth and then eventually it was
+
+[1112.22 - 1115.7] basically just me running the whole
+
+[1114.02 - 1118.1] department by myself as an automation
+
+[1115.7 - 1120.5] engineer not everything lends itself to
+
+[1118.1 - 1122.24] that but that being said the amount of
+
+[1120.5 - 1125.0] logic that goes into making decisions
+
+[1122.24 - 1127.1] even financial decisions or executive
+
+[1125.0 - 1129.1] decisions or HR decisions a lot of this
+
+[1127.1 - 1133.6399999999999] is now within the realm of possibility
+
+[1129.1 - 1136.1] of GPT Technologies so when I say that
+
+[1133.64 - 1138.8600000000001] we could we could get rid of almost 25
+
+[1136.1 - 1141.3799999999999] million jobs right now
+
+[1138.86 - 1143.299] that's a number that I will stand behind
+
+[1141.38 - 1145.7] again it's going to take time because
+
+[1143.299 - 1148.58] there's inertia but then in terms of
+
+[1145.7 - 1151.7] total risk of jobs that might go away
+
+[1148.58 - 1154.28] for good looking at 77 million jobs in
+
+[1151.7 - 1156.14] America leaving us with only 70 million
+
+[1154.28 - 1158.78] jobs and we have a population of what
+
+[1156.14 - 1160.46] 350 million or 400 million right now so
+
+[1158.78 - 1162.32] that's an employment rate that is very
+
+[1160.46 - 1165.679] very low that's a very high unemployment
+
+[1162.32 - 1168.2] rate if if that comes to pass and again
+
+[1165.679 - 1170.179] some of these things are dependent upon
+
+[1168.2 - 1172.5800000000002] robotic advancements that are actively
+
+[1170.179 - 1175.039] being worked on construction robots
+
+[1172.58 - 1178.34] surgical robots general purpose domestic
+
+[1175.039 - 1181.039] robots so that the aggregate demand for
+
+[1178.34 - 1184.1] human labor is going to fall off a
+
+[1181.039 - 1187.82] freaking Cliff that being said like okay
+
+[1184.1 - 1190.52] you know what happens with when you have
+
+[1187.82 - 1192.98] 70 million people which is less than a
+
+[1190.52 - 1194.9] third of uh the Americans out there
+
+[1192.98 - 1196.7] let's see what is it
+
+[1194.9 - 1198.4] um I don't remember the population but
+
+[1196.7 - 1202.3400000000001] let's say we have 380
+
+[1198.4 - 1205.64] million Americans right now and
+
+[1202.34 - 1209.1999999999998] we end up with only 70 million jobs
+
+[1205.64 - 1209.2] um oh wait uh
+
+[1209.6 - 1215.84] where's the invert there we go so that
+
+[1212.0 - 1217.82] is a that is only 18 of our current
+
+[1215.84 - 1221.48] employment so that means we'd be having
+
+[1217.82 - 1225.559] an unemployment rate of about 82 percent
+
+[1221.48 - 1228.679] um yeah so we go if if we end up with an
+
+[1225.559 - 1230.84] unemployment rate of 82 percent uh that
+
+[1228.679 - 1232.64] is not good uh based on current
+
+[1230.84 - 1234.62] paradigms and so when people say oh well
+
+[1232.64 - 1235.88] you know Dave you keep advocating for
+
+[1234.62 - 1238.52] Universal basic income and that's
+
+[1235.88 - 1240.3200000000002] socialism well if one out of if only one
+
+[1238.52 - 1243.2] out of five people have a job
+
+[1240.32 - 1244.82] we got to do something right if there
+
+[1243.2 - 1246.44] it's that simple
+
+[1244.82 - 1248.1789999999999] um now one thing that I wanted to point
+
+[1246.44 - 1249.44] out is that people are like well where's
+
+[1248.179 - 1251.96] the money going to come from where does
+
+[1249.44 - 1254.3600000000001] money already come from money is created
+
+[1251.96 - 1256.76] through uh through minting money and
+
+[1254.36 - 1258.4399999999998] giving loans to central banks and who do
+
+[1256.76 - 1259.7] the central banks give money to they
+
+[1258.44 - 1261.799] lend it out to other Banks and
+
+[1259.7 - 1263.48] corporations that's where money comes
+
+[1261.799 - 1265.94] down from it doesn't come from the
+
+[1263.48 - 1267.74] bottom up money is created at the center
+
+[1265.94 - 1270.559] of the economic system and then it
+
+[1267.74 - 1272.9] percolates outwards so when I when I
+
+[1270.559 - 1275.299] mention in another video recently that
+
+[1272.9 - 1276.8600000000001] uh B2B transactions are going to be what
+
+[1275.299 - 1280.28] drives the economy that's what I'm
+
+[1276.86 - 1282.1999999999998] referring to uh because you know if a
+
+[1280.28 - 1284.72] company lends money to another company
+
+[1282.2 - 1287.059] or bank or whatever and then they have
+
+[1284.72 - 1289.039] goods and products and services the
+
+[1287.059 - 1291.74] aggregate consumer demand is only part
+
+[1289.039 - 1293.179] of that uh part of that equation uh
+
+[1291.74 - 1294.32] because if if you have a lights out
+
+[1293.179 - 1295.88] company that's selling goods and
+
+[1294.32 - 1298.28] services to another lights out company
+
+[1295.88 - 1300.919] the economy is going to be red hot even
+
+[1298.28 - 1303.58] though there's no humans involved so
+
+[1300.919 - 1305.72] that's why I mentioned in my in my uh
+
+[1303.58 - 1307.6999999999998] macroeconomics or sorry post labor
+
+[1305.72 - 1308.96] economics video that we're going to need
+
+[1307.7 - 1310.4] new kpi
+
+[1308.96 - 1313.039] and we're also going to need to
+
+[1310.4 - 1314.539] redistribute that because right now the
+
+[1313.039 - 1317.6589999999999] only way that money gets into the hands
+
+[1314.539 - 1320.0] of consumers is through either the the
+
+[1317.659 - 1323.5390000000002] very few uh entitlement programs that we
+
+[1320.0 - 1325.94] do have uh which are relatively weak or
+
+[1323.539 - 1329.24] through uh employment through money
+
+[1325.94 - 1330.919] coming by force of extraction downwards
+
+[1329.24 - 1333.74] uh through the through the grapevine
+
+[1330.919 - 1335.7800000000002] from the central banks to the regional
+
+[1333.74 - 1338.78] Banks to the corporations and then
+
+[1335.78 - 1341.24] finally to us but if we if we reverse
+
+[1338.78 - 1343.8799999999999] that if instead so this is basically
+
+[1341.24 - 1347.48] what Universal basic income is to me if
+
+[1343.88 - 1349.5200000000002] instead of lending money to from uh from
+
+[1347.48 - 1351.74] you know the Federal Reserve to the
+
+[1349.52 - 1354.44] central banks to the regional Banks what
+
+[1351.74 - 1356.6] if we instead uh take about half of that
+
+[1354.44 - 1358.52] and just give it instead of lending it
+
+[1356.6 - 1360.1399999999999] out to Banks we just give it to
+
+[1358.52 - 1361.8799999999999] Consumers
+
+[1360.14 - 1365.24] and you just you just flip the the
+
+[1361.88 - 1367.46] system uh on its head and so then the
+
+[1365.24 - 1368.96] total amount of economic change is
+
+[1367.46 - 1370.4] pretty much identical you're not
+
+[1368.96 - 1371.419] printing any more money than you already
+
+[1370.4 - 1374.6000000000001] were
+
+[1371.419 - 1377.8400000000001] anyways this is all very uh getting very
+
+[1374.6 - 1379.4599999999998] abstract point is uh there's a lot of
+
+[1377.84 - 1382.48] change coming and here's some numbers to
+
+[1379.46 - 1382.48] back it up thanks for watching

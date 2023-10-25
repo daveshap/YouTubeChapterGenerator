@@ -1,0 +1,2523 @@
+[0.12 - 4.68] good morning everybody David Shapiro
+
+[2.34 - 6.54] here with another video so today's video
+
+[4.68 - 9.66] is going to be a little bit less about
+
+[6.54 - 10.679] the narratives around Ai and that sort
+
+[9.66 - 13.679] of stuff and it's going to be a little
+
+[10.679 - 16.32] bit more uh down to Basics uh let's talk
+
+[13.679 - 18.72] let's talk business with artificial
+
+[16.32 - 19.8] intelligence uh particularly generative
+
+[18.72 - 22.02] AI
+
+[19.8 - 24.84] uh real quick plug before we get started
+
+[22.02 - 28.198999999999998] uh I am available for one-on-one
+
+[24.84 - 31.14] consultations on patreon and I'm also
+
+[28.199 - 33.18] available uh for for different kinds of
+
+[31.14 - 35.399] engagements uh reach out to me on
+
+[33.18 - 36.36] LinkedIn if you'd like to talk about any
+
+[35.399 - 37.739000000000004] of the things that I'm talking about
+
+[36.36 - 39.839999999999996] here
+
+[37.739 - 43.099999999999994] all right so getting right into the show
+
+[39.84 - 45.120000000000005] let's talk about generative AI for CEOs
+
+[43.1 - 46.980000000000004] and we're going to look at it at a very
+
+[45.12 - 48.3] high level so first we're going to look
+
+[46.98 - 51.898999999999994] at it through the lens of people
+
+[48.3 - 54.059] processes and tools uh all organizations
+
+[51.899 - 56.039] go through Transformations and one of
+
+[54.059 - 58.68] the ways to look at organizational
+
+[56.039 - 61.32] transitions is through people processes
+
+[58.68 - 63.12] and tools what kinds of people do you
+
+[61.32 - 65.46] need and how does that how does that
+
+[63.12 - 67.67999999999999] change what kind of expertise training
+
+[65.46 - 69.83999999999999] that sort of stuff how do your processes
+
+[67.68 - 72.72000000000001] change uh within the business and then
+
+[69.84 - 74.76] what tools do you use so this is just
+
+[72.72 - 76.74] kind of the the the background framing
+
+[74.76 - 78.479] we're not going to unpack these in any
+
+[76.74 - 80.69999999999999] particular order we're just going to
+
+[78.479 - 82.439] kind of talk about generative AI through
+
+[80.7 - 84.24000000000001] this particular lens
+
+[82.439 - 87.17999999999999] so one thing that you can think about
+
+[84.24 - 88.19999999999999] generative AI is that it's just more
+
+[87.18 - 90.78] software
+
+[88.2 - 92.759] at a fundamental level generative AI is
+
+[90.78 - 94.68] just a new kind of software but it is
+
+[92.759 - 97.68] still just software
+
+[94.68 - 100.2] one thing to keep in mind is that uh
+
+[97.68 - 101.82000000000001] technology you know computers uh
+
+[100.2 - 103.68] software that sort of stuff has
+
+[101.82 - 105.83999999999999] automated and accelerated business for
+
+[103.68 - 108.07900000000001] decades this is nothing new it's nothing
+
+[105.84 - 111.24000000000001] different this is just the next flavor
+
+[108.079 - 113.0] for those of you in the technology space
+
+[111.24 - 115.67999999999999] you might remember how virtualization
+
+[113.0 - 118.32] was a very disruptive technology for the
+
+[115.68 - 120.2] data center and that ultimately led to
+
+[118.32 - 123.05999999999999] uh the the
+
+[120.2 - 125.159] preeminence of cloud computing which is
+
+[123.06 - 128.28] now pretty much standard and so the
+
+[125.159 - 131.16] combination of virtualization and apis
+
+[128.28 - 133.26] and stuff that made cloud computing uh
+
+[131.16 - 135.84] you know the viable business model that
+
+[133.26 - 138.379] it is today this is no different from
+
+[135.84 - 140.58] how Oracle and SQL Technologies
+
+[138.379 - 142.85999999999999] transformed uh the way that businesses
+
+[140.58 - 144.9] handled data and then of course there's
+
+[142.86 - 146.52] everything that Microsoft did for for
+
+[144.9 - 148.92000000000002] business productivity from their office
+
+[146.52 - 150.78] suite to Microsoft Windows and
+
+[148.92 - 152.879] everything else team Foundation
+
+[150.78 - 154.14000000000001] everything
+
+[152.879 - 155.94] so
+
+[154.14 - 159.11999999999998] from that perspective from a software
+
+[155.94 - 162.0] perspective you can think of a
+
+[159.12 - 164.519] generative AI in two primary categories
+
+[162.0 - 166.62] the first category is that generative AI
+
+[164.519 - 169.14000000000001] is a new kind of automation
+
+[166.62 - 172.92000000000002] and so you know again business
+
+[169.14 - 175.01899999999998] automation nothing new uh and business
+
+[172.92 - 177.66] automation is also it doesn't really
+
+[175.019 - 179.70000000000002] change the idea is that you just do more
+
+[177.66 - 183.18] with less you do it faster and you do it
+
+[179.7 - 185.879] more reliably so looking at generative
+
+[183.18 - 188.16] AI through the lens of automation the
+
+[185.879 - 190.5] idea is that it can take some of the
+
+[188.16 - 193.14] workload off of humans and put it onto
+
+[190.5 - 196.379] machines and then it can allow you to
+
+[193.14 - 198.42] get more done faster with less and more
+
+[196.379 - 200.099] reliably that is the entire point of
+
+[198.42 - 202.07999999999998] automation
+
+[200.099 - 203.76] another thing that you can look at it is
+
+[202.08 - 207.18] and this is kind of the fundamentally
+
+[203.76 - 209.64] new aspect is it has to do with decision
+
+[207.18 - 211.94] enhancement and what I mean by that is
+
+[209.64 - 215.099] that the particularly language models
+
+[211.94 - 217.98] they can Aid with all kinds of things
+
+[215.099 - 221.099] whether it's judgment creativity
+
+[217.98 - 223.379] appraisal brainstorming drafting they
+
+[221.099 - 224.7] can also read a tremendous amount in
+
+[223.379 - 227.159] very short periods of time which can
+
+[224.7 - 230.28] allow you to make better decisions by
+
+[227.159 - 232.379] ingesting more data than ever before
+
+[230.28 - 235.739] so by thinking of generative Ai and
+
+[232.379 - 238.319] these two uh like I guess categories
+
+[235.739 - 240.48000000000002] Automation and decision enhancement that
+
+[238.319 - 242.099] can really help you target where in your
+
+[240.48 - 246.0] corporation where in your organization
+
+[242.099 - 247.61999999999998] to look at using generative AI again the
+
+[246.0 - 250.04] idea of automation is that you get more
+
+[247.62 - 252.18] done faster and of course time is money
+
+[250.04 - 253.5] another thing is that you can do it with
+
+[252.18 - 255.65900000000002] less you might be able to do it with
+
+[253.5 - 257.22] less head count or you can take the
+
+[255.659 - 258.239] ideally you take the head count that you
+
+[257.22 - 260.459] do have because we don't want to see
+
+[258.239 - 263.69899999999996] anyone get laid off if we can avoid it
+
+[260.459 - 266.759] and then you you Empower your existing
+
+[263.699 - 269.699] staff to do twice as much four times as
+
+[266.759 - 270.90000000000003] much 10 times as much so that is and
+
+[269.699 - 273.66] then of course you can also use
+
+[270.9 - 276.12] generative AI to perform checks and
+
+[273.66 - 279.06] interlocks which can raise the quality
+
+[276.12 - 280.919] of work and make it more consistent so
+
+[279.06 - 282.18] those are a few uh kind of off the cuff
+
+[280.919 - 284.82] ways to think about it like yes
+
+[282.18 - 286.86] generative AI is just more software but
+
+[284.82 - 289.08] there's it does give us a couple new
+
+[286.86 - 291.84000000000003] capabilities of this software
+
+[289.08 - 294.35999999999996] So speaking of new capabilities uh
+
+[291.84 - 296.21999999999997] generative AI mostly right now is text
+
+[294.36 - 299.58000000000004] and images but there's other modalities
+
+[296.22 - 301.86] coming soon namely video audio and a few
+
+[299.58 - 303.96] other things so what are the what are
+
+[301.86 - 306.36] the Baseline capabilities that this
+
+[303.96 - 308.88] technology has first of all as a
+
+[306.36 - 311.52000000000004] language model it is primarily based on
+
+[308.88 - 313.82] text which means it can read everything
+
+[311.52 - 316.38] it can ingest email chat papers
+
+[313.82 - 319.08] scientific papers articles laws
+
+[316.38 - 322.139] protocols reports logs tribal knowledge
+
+[319.08 - 323.58] in the form of KB articles documentation
+
+[322.139 - 325.38] that sort of stuff
+
+[323.58 - 327.65999999999997] so when you think when you have a
+
+[325.38 - 330.6] machine that can read at a thousand
+
+[327.66 - 332.46000000000004] times faster than any human think of the
+
+[330.6 - 335.1] text Heavy aspects of your business
+
+[332.46 - 338.21999999999997] whether that is combing through
+
+[335.1 - 341.28000000000003] financial reports or consolidating
+
+[338.22 - 343.68] Knowledge from from chat logs customer
+
+[341.28 - 345.23999999999995] feedback there's all kinds of stuff that
+
+[343.68 - 347.46] is text based or could easily be
+
+[345.24 - 349.74] rendered as text that you can then just
+
+[347.46 - 352.62] read and get a tremendous amount of
+
+[349.74 - 354.06] information from now the problem there
+
+[352.62 - 356.34000000000003] of course is you have to be asking the
+
+[354.06 - 358.68] right questions and there are also still
+
+[356.34 - 360.06] technical limits namely the window size
+
+[358.68 - 362.699] of some of these things
+
+[360.06 - 364.08] you can summarize and transform text and
+
+[362.699 - 365.82] information and so what I mean by that
+
+[364.08 - 368.94] is you can take a large block of text
+
+[365.82 - 370.5] and you can either make it smaller or
+
+[368.94 - 372.96] change the formatting or that sort of
+
+[370.5 - 375.3] thing which again this is one of the two
+
+[372.96 - 377.88] one of the new tools in the toolbox
+
+[375.3 - 379.979] that allows you to engage with the data
+
+[377.88 - 382.5] that you do have in a different manner
+
+[379.979 - 385.139] uh brainstorming and planning so this is
+
+[382.5 - 387.66] one of the most powerful aspects of
+
+[385.139 - 389.34000000000003] tools such as chat gbt it's like hey I'm
+
+[387.66 - 391.86] addressing this problem help me
+
+[389.34 - 394.31899999999996] brainstorm how to approach it uh I've
+
+[391.86 - 396.18] used brainstorming everything for uh
+
+[394.319 - 398.52000000000004] writing fiction you know it's like hey
+
+[396.18 - 400.259] I'm working on this scene uh help me
+
+[398.52 - 402.479] brainstorm a few ways to approach the
+
+[400.259 - 404.58000000000004] scene so that it you know ticks these
+
+[402.479 - 406.979] boxes right you give it you give it some
+
+[404.58 - 409.25899999999996] constraints and Technologies like chat
+
+[406.979 - 411.12] GPT will absolutely surprise you in
+
+[409.259 - 414.3] terms of what they're capable of helping
+
+[411.12 - 415.979] you brainstorm because they it has a lot
+
+[414.3 - 417.6] more information than than you will ever
+
+[415.979 - 419.15999999999997] have and so if you give it the right
+
+[417.6 - 421.38] constraints and the right problem space
+
+[419.16 - 423.72] it will surprise you and it'll add
+
+[421.38 - 425.88] information to uh what you're trying to
+
+[423.72 - 427.68] do planning one of the things that's
+
+[425.88 - 429.96] really good at is helping you think
+
+[427.68 - 432.539] through every step of a plan
+
+[429.96 - 434.63899999999995] brainstorming and planning are among the
+
+[432.539 - 436.979] most cognitively demanding tasks and
+
+[434.639 - 439.56] we'll talk about cognitive demands and
+
+[436.979 - 441.599] cognitive offload in just a moment but
+
+[439.56 - 443.46] basically you know there are some things
+
+[441.599 - 446.21999999999997] that chat GPT and similar Technologies
+
+[443.46 - 448.38] can do that can save you a tremendous
+
+[446.22 - 450.59900000000005] amount of mental energy which then you
+
+[448.38 - 452.88] can allocate to other things other
+
+[450.599 - 454.62] problems that AI is not yet capable of
+
+[452.88 - 457.259] doing and then finally Drafting and
+
+[454.62 - 459.06] revising uh you know whether you're
+
+[457.259 - 461.88] writing a legal document or an agreement
+
+[459.06 - 464.34] or a contract or even just drafting an
+
+[461.88 - 466.62] email I mean I use chat GPD it's like
+
+[464.34 - 468.23999999999995] hey I need to respond to this email I
+
+[466.62 - 470.94] want to do it diplomatically and explain
+
+[468.24 - 473.039] it clearly and you know like yes I am
+
+[470.94 - 475.139] good at writing but it's just easier to
+
+[473.039 - 478.139] have the machine write the first draft
+
+[475.139 - 480.06] for me and then I can clean it up and
+
+[478.139 - 481.8] then revisions as well
+
+[480.06 - 484.5] in some of my previous videos you might
+
+[481.8 - 486.78000000000003] have seen where I use uh the chat GPT
+
+[484.5 - 489.3] API to provide feedback on my fiction
+
+[486.78 - 491.94] and and plenty of other things I often
+
+[489.3 - 494.52000000000004] use chat GPT for uh helping actually
+
+[491.94 - 495.78] even make these slide decks although I'm
+
+[494.52 - 497.75899999999996] getting better at making these slide
+
+[495.78 - 499.31899999999996] decks so I actually need it less which
+
+[497.759 - 501.41900000000004] is a really interesting phenomenon it's
+
+[499.319 - 503.52000000000004] like okay I've actually gained new
+
+[501.419 - 505.02] skills by using this tool and I am
+
+[503.52 - 507.18] better at communicating now and I need
+
+[505.02 - 508.31899999999996] this tool less really fascinating I
+
+[507.18 - 511.259] don't know if that's going to keep up
+
+[508.319 - 514.32] but anyway so here these are four basic
+
+[511.259 - 516.3000000000001] categories of new capabilities that you
+
+[514.32 - 518.219] can think of in terms of okay what is it
+
+[516.3 - 520.74] that generative AI is actually capable
+
+[518.219 - 521.94] of right now and then from there these
+
+[520.74 - 524.76] are kind of the low level building
+
+[521.94 - 527.1600000000001] blocks that you can slot into other
+
+[524.76 - 528.899] products other services whether it's
+
+[527.16 - 531.18] internal or external right because you
+
+[528.899 - 533.339] might have internal facing tools you
+
+[531.18 - 534.5999999999999] might have external facing tools and
+
+[533.339 - 536.58] these are things that you can just kind
+
+[534.6 - 539.16] of pipe into existing Frameworks
+
+[536.58 - 541.08] existing processes to make them better
+
+[539.16 - 543.7199999999999] you can also think about these when
+
+[541.08 - 546.74] creating new products and services
+
+[543.72 - 550.44] okay so as I promised cognitive offload
+
+[546.74 - 552.6] most humans are capable of two to maybe
+
+[550.44 - 555.6] four hours of high performance cognitive
+
+[552.6 - 557.16] labor per day many people less so an
+
+[555.6 - 558.36] average a rule of thumb is about two
+
+[557.16 - 561.36] hours
+
+[558.36 - 562.92] so the idea of cognitive offload is that
+
+[561.36 - 566.16] it's like okay whatever it is that's
+
+[562.92 - 568.26] difficult you uh delegate that to
+
+[566.16 - 569.8199999999999] someone else you delegate it to a
+
+[568.26 - 571.9399999999999] machine
+
+[569.82 - 575.0400000000001] excuse me you delegate it to a machine
+
+[571.94 - 578.339] you uh you do something to make it
+
+[575.04 - 580.4399999999999] easier you create a process or you
+
+[578.339 - 582.0] offshore it or whatever
+
+[580.44 - 584.1800000000001] so what are some things that are
+
+[582.0 - 586.38] cognitively demanding decision making
+
+[584.18 - 589.62] there's a phenomenon called decision
+
+[586.38 - 591.959] fatigue if you follow hbr uh and or
+
+[589.62 - 593.519] scitec daily or whatever there's plenty
+
+[591.959 - 595.38] of research that goes into decision
+
+[593.519 - 598.44] fatigue and basically what this means is
+
+[595.38 - 601.08] that the cognitive demand of making
+
+[598.44 - 603.12] decisions all day is very very taxing
+
+[601.08 - 605.4590000000001] it's very draining and so what happens
+
+[603.12 - 608.22] is that after making too many decisions
+
+[605.459 - 609.779] once decision fatigue takes over people
+
+[608.22 - 611.519] will just kind of go with the default
+
+[609.779 - 613.74] answer or whatever they're most
+
+[611.519 - 616.019] comfortable with or they'll use simpler
+
+[613.74 - 618.72] and simpler heuristics and objectively
+
+[616.019 - 621.72] speaking decisions get worse with with
+
+[618.72 - 625.38] time and fatigue so any place that you
+
+[621.72 - 627.1800000000001] can use generative AI to offload some of
+
+[625.38 - 629.399] the decision-making process from humans
+
+[627.18 - 630.899] or to augment it right because it
+
+[629.399 - 633.6] doesn't necessarily mean taking it from
+
+[630.899 - 635.88] Human but instead instead of having to
+
+[633.6 - 637.74] have a human synthesize all the things
+
+[635.88 - 639.8389999999999] and think through it you can have the AI
+
+[637.74 - 641.04] generator report like okay based on the
+
+[639.839 - 643.5600000000001] problem space that you're addressing
+
+[641.04 - 645.18] here's the top three choices you know
+
+[643.56 - 646.8] think through this and again this is
+
+[645.18 - 648.54] something that I use chat GPT for all
+
+[646.8 - 649.8599999999999] the time it's like okay help me think
+
+[648.54 - 651.36] through what you know what are the
+
+[649.86 - 654.24] questions that I'm forgetting to ask
+
+[651.36 - 655.6800000000001] myself that sort of thing and by by
+
+[654.24 - 657.899] having the machine do some of the
+
+[655.68 - 659.88] thinking for me it preserves my
+
+[657.899 - 662.459] cognitive energy for other problems
+
+[659.88 - 665.16] speaking of problem solving
+
+[662.459 - 667.92] problem solving is also very very
+
+[665.16 - 669.6] cognitively demanding whether you're
+
+[667.92 - 671.12] trying to solve a financial problem a
+
+[669.6 - 673.62] legal problem a technology problem
+
+[671.12 - 676.62] having something that you can bounce
+
+[673.62 - 679.2] ideas off of or ideally actually just
+
+[676.62 - 681.839] pipe it into your existing products and
+
+[679.2 - 684.0] services and platforms where either it
+
+[681.839 - 686.519] can solve the problem for you or it can
+
+[684.0 - 690.12] help you solve problems again this is
+
+[686.519 - 691.5] going to be a high value ad where the
+
+[690.12 - 693.72] overall intelligence of your
+
+[691.5 - 695.7] organization will go up if you use
+
+[693.72 - 698.339] generative AI to help your organization
+
+[695.7 - 700.44] solve problems better but it also save
+
+[698.339 - 702.24] your employees brain power for the
+
+[700.44 - 703.1400000000001] problems that AI is not yet capable of
+
+[702.24 - 706.019] solving
+
+[703.14 - 707.76] learning learning is something that uh
+
+[706.019 - 709.86] All Humans Do it's natural it's
+
+[707.76 - 711.66] instinctive it's reflective sorry
+
+[709.86 - 713.76] reflexive you don't even need to think
+
+[711.66 - 715.56] about doing it but when you put yourself
+
+[713.76 - 717.6] in a position where you're deliberately
+
+[715.56 - 720.1199999999999] learning and stretching your mind that
+
+[717.6 - 722.22] is very exhausting it's very taxing uh
+
+[720.12 - 725.579] and so what you can do is you can use
+
+[722.22 - 727.38] these tools to help streamline your
+
+[725.579 - 730.3199999999999] training your learning
+
+[727.38 - 732.06] and what that does is that you uh can
+
+[730.32 - 734.7] meet everyone where they are for your
+
+[732.06 - 736.56] training programs and you can also often
+
+[734.7 - 738.36] learn faster because then you have an
+
+[736.56 - 740.459] interactive modality and you can
+
+[738.36 - 743.04] basically create an internal uh
+
+[740.459 - 744.899] customized tutor that says okay here's
+
+[743.04 - 746.579] the company's training material let's
+
+[744.899 - 748.68] get through it and then instead of just
+
+[746.579 - 750.54] like watching a brain dead boring video
+
+[748.68 - 753.3] that nobody actually cares about anyways
+
+[750.54 - 755.3389999999999] you can have an interactive experience
+
+[753.3 - 758.0999999999999] which one will make the training more
+
+[755.339 - 760.2600000000001] engaging uh and that that level of
+
+[758.1 - 762.839] Engagement means that people will enjoy
+
+[760.26 - 764.7] it more and they'll retain it better
+
+[762.839 - 766.139] and then of course that's you know
+
+[764.7 - 768.12] corporate training is one thing but
+
+[766.139 - 771.0600000000001] there's also there's also the uh
+
+[768.12 - 772.68] acquisition of new skills so let's say
+
+[771.06 - 774.899] you're bringing you're onboarding a new
+
+[772.68 - 776.399] product or a new service or you're
+
+[774.899 - 778.38] shipping a new product and service and
+
+[776.399 - 779.94] you need to teach people about it so
+
+[778.38 - 782.279] remember that learning is very
+
+[779.94 - 784.5600000000001] cognitively demanding and AI chat Bots
+
+[782.279 - 786.72] are already good at tutoring and
+
+[784.56 - 788.6389999999999] teaching and so this again is a way
+
+[786.72 - 791.0400000000001] where you can use the AI not to replace
+
+[788.639 - 792.42] humans but to augment humans and bring
+
+[791.04 - 795.5999999999999] them to the next level
+
+[792.42 - 797.519] creativity synthesizing new ideas is
+
+[795.6 - 800.5790000000001] also very very difficult it's very
+
+[797.519 - 802.98] cognitively demanding and while
+
+[800.579 - 804.8389999999999] Technologies like chat GPT and others
+
+[802.98 - 806.76] are not technically creating anything
+
+[804.839 - 808.74] new most humans don't create anything
+
+[806.76 - 810.48] new anyways we just remix stuff that
+
+[808.74 - 812.16] we've experienced which is not any
+
+[810.48 - 814.62] different from what generative AI does
+
+[812.16 - 816.36] and also within the context of business
+
+[814.62 - 819.66] you don't necessarily need to create
+
+[816.36 - 821.7] anything entirely 100 new what you do
+
+[819.66 - 825.12] need to do is take the things that you
+
+[821.7 - 827.82] know and then deploy them with with good
+
+[825.12 - 829.44] application you need to find the right
+
+[827.82 - 830.4590000000001] solution for the problem that you're
+
+[829.44 - 832.8000000000001] facing
+
+[830.459 - 834.66] whether it's a marketing problem legal
+
+[832.8 - 837.66] Finance HR right if you need to come up
+
+[834.66 - 840.779] with a creative solution for an HR issue
+
+[837.66 - 842.9399999999999] again chat GPT knows enough about the
+
+[840.779 - 844.079] human condition and emotions and all
+
+[842.94 - 845.7600000000001] this other stuff to help you think
+
+[844.079 - 848.3389999999999] through and come up with Creative
+
+[845.76 - 850.4399999999999] Solutions uh whatever it is that you're
+
+[848.339 - 852.5400000000001] doing and then finally planning as I
+
+[850.44 - 854.399] mentioned planning is very cognitively
+
+[852.54 - 856.86] demanding and this is this includes
+
+[854.399 - 859.2] forecasting anticipation or even
+
+[856.86 - 860.7] predicting the future and so basically
+
+[859.2 - 864.36] one thing that you can do is you can ask
+
+[860.7 - 865.9200000000001] chat gbt say like hey uh you know the
+
+[864.36 - 867.839] these are the business trends that I'm
+
+[865.92 - 869.88] seeing this is what the Market's doing
+
+[867.839 - 871.74] help me think through this and it it's
+
+[869.88 - 874.079] not necessarily going to be 100 right
+
+[871.74 - 875.7] but that's not the point what I'm saying
+
+[874.079 - 877.1389999999999] is you're not using it to replace your
+
+[875.7 - 879.36] ability to plan you're using it to
+
+[877.139 - 881.519] augment your ability to plan
+
+[879.36 - 883.5] so the golden rule for all of this one
+
+[881.519 - 885.779] of the best ways you can use generative
+
+[883.5 - 888.18] AI this Golden Rule is preserve human
+
+[885.779 - 891.42] cognition for when you really need it so
+
+[888.18 - 894.06] this design principle goes uh it one
+
+[891.42 - 895.9799999999999] it's it's relatively old this is one of
+
+[894.06 - 898.26] the chief design principles in the Unix
+
+[895.98 - 901.32] operating system which treats human
+
+[898.26 - 903.54] cognition as a scarce resource but also
+
+[901.32 - 906.4200000000001] this is how jet fighters work so the
+
+[903.54 - 909.12] avionics research industry uh for
+
+[906.42 - 911.3389999999999] particularly for military realized that
+
+[909.12 - 913.98] you needed to treat a pilot's cognitive
+
+[911.339 - 916.74] attention as the scare as a very scarce
+
+[913.98 - 919.74] resource and so the avionics in jet
+
+[916.74 - 921.6] fighters only gets their attention when
+
+[919.74 - 923.82] they absolutely need it
+
+[921.6 - 925.0790000000001] and so if you watch the top gun Maverick
+
+[923.82 - 926.6990000000001] movie
+
+[925.079 - 928.7399999999999] um one of the scenes where the plane is
+
+[926.699 - 930.42] like spiraling towards the ground and it
+
+[928.74 - 932.88] the alarm starts where it's like you
+
+[930.42 - 935.0999999999999] know pull up pull up pull you know and
+
+[932.88 - 938.639] then as the uh as the level of danger
+
+[935.1 - 941.519] Rises the alarm changes right and so
+
+[938.639 - 943.139] that change in tone uh what that does is
+
+[941.519 - 945.24] it calls the Pilot's attention to
+
+[943.139 - 947.699] something that is at that they need to
+
+[945.24 - 950.399] pay attention to immediately uh and so
+
+[947.699 - 952.92] that is an example of how uh attention
+
+[950.399 - 954.18] engineering can be used for good rather
+
+[952.92 - 957.0] than the way that it's used in social
+
+[954.18 - 960.12] media and this is just an example but if
+
+[957.0 - 962.579] you the the whole point here is that the
+
+[960.12 - 965.22] the point of cognitive offload is to
+
+[962.579 - 966.959] treat your employees brain power those
+
+[965.22 - 968.88] those two hours of high performance
+
+[966.959 - 971.579] cognitive labor as a very scarce
+
+[968.88 - 973.98] resource so that instead of you know
+
+[971.579 - 976.56] using their raw brain power to do the
+
+[973.98 - 978.36] work manually instead they use a machine
+
+[976.56 - 980.76] to offload as much of that as possible
+
+[978.36 - 983.279] so that then they can protect their
+
+[980.76 - 985.68] productivity for or elsewhere
+
+[983.279 - 987.48] so here's some questions to ask so these
+
+[985.68 - 990.899] are based on questions that I often ask
+
+[987.48 - 992.5790000000001] when I'm Consulting uh and this is these
+
+[990.899 - 995.519] are the questions that I ask to zoom
+
+[992.579 - 997.7399999999999] into and find okay where is it that you
+
+[995.519 - 999.9590000000001] need to use generative Ai and how do you
+
+[997.74 - 1001.699] employ it so the first question what
+
+[999.959 - 1004.16] activities are the most menial tedious
+
+[1001.699 - 1006.8599999999999] and time consuming what do you avoid
+
+[1004.16 - 1009.86] doing because it's just too painful
+
+[1006.86 - 1011.24] so this is a really good question I
+
+[1009.86 - 1013.399] usually start with something like this
+
+[1011.24 - 1015.32] especially if if uh you know my client
+
+[1013.399 - 1016.759] or whatever doesn't really know what
+
+[1015.32 - 1018.32] they need or know how to deploy
+
+[1016.759 - 1020.24] generative AI it's like okay what are
+
+[1018.32 - 1021.98] your pain points and of course this is a
+
+[1020.24 - 1023.9590000000001] business practice that is as old as
+
+[1021.98 - 1025.64] business itself what are your pain
+
+[1023.959 - 1028.579] points let's see if we can address those
+
+[1025.64 - 1030.6200000000001] pain points with generative AI
+
+[1028.579 - 1032.1789999999999] and you know the the way that it can
+
+[1030.62 - 1033.9799999999998] address it is you know look at cognitive
+
+[1032.179 - 1036.02] offload and new capabilities
+
+[1033.98 - 1038.6] the second question is what activities
+
+[1036.02 - 1040.579] actually add value what is the
+
+[1038.6 - 1042.3799999999999] objectively uh beneficial business
+
+[1040.579 - 1044.72] output of a given activity or in other
+
+[1042.38 - 1046.3390000000002] words what is the value proposition what
+
+[1044.72 - 1048.38] is what is the activity that you're
+
+[1046.339 - 1050.6599999999999] doing that is actually giving something
+
+[1048.38 - 1052.5200000000002] to your customers what are you getting
+
+[1050.66 - 1054.5] paid to do what is the outcome that
+
+[1052.52 - 1056.78] they're looking for because if you apply
+
+[1054.5 - 1058.72] generative AI directly to your outputs
+
+[1056.78 - 1061.46] to the things that bring in Revenue
+
+[1058.72 - 1063.02] obviously that's good for business what
+
+[1061.46 - 1064.94] a lot of startups are doing right now is
+
+[1063.02 - 1067.4] trying to invent new products and new
+
+[1064.94 - 1069.02] services to create entirely new revenue
+
+[1067.4 - 1071.6000000000001] streams but there's plenty of existing
+
+[1069.02 - 1074.179] businesses out there that could probably
+
+[1071.6 - 1077.26] help their Top Line you know get the get
+
+[1074.179 - 1080.419] the net uh income up by
+
+[1077.26 - 1083.179] providing more goods and services either
+
+[1080.419 - 1084.76] at a cheaper price or adding some novel
+
+[1083.179 - 1087.679] features to their products and services
+
+[1084.76 - 1090.919] but by by actually paying attention to
+
+[1087.679 - 1092.66] the objective business value of any
+
+[1090.919 - 1094.46] activity and this it doesn't necessarily
+
+[1092.66 - 1096.44] have to be the business outputs it could
+
+[1094.46 - 1098.299] be the outputs of a given Department the
+
+[1096.44 - 1099.8600000000001] HR department your legal department your
+
+[1098.299 - 1101.9] it Department your marketing department
+
+[1099.86 - 1103.6399999999999] right because one of the what is the
+
+[1101.9 - 1105.799] output of the marketing department you
+
+[1103.64 - 1107.0590000000002] generate you generate leads which can
+
+[1105.799 - 1108.9189999999999] lead to revenue
+
+[1107.059 - 1111.74] so that's what I mean by outputs what is
+
+[1108.919 - 1114.0800000000002] the objective value added number three
+
+[1111.74 - 1115.16] how do you know that an activity is
+
+[1114.08 - 1118.76] successful
+
+[1115.16 - 1120.8600000000001] whether it's a kpi intuition experience
+
+[1118.76 - 1123.26] what is it that you actually pay
+
+[1120.86 - 1126.08] attention to to know that you have been
+
+[1123.26 - 1128.419] successful the reason that this is a
+
+[1126.08 - 1130.52] good question for generative AI is
+
+[1128.419 - 1132.38] because sometimes it's not obvious how
+
+[1130.52 - 1135.08] generative AI can help you be more
+
+[1132.38 - 1136.64] successful so if they're like you know
+
+[1135.08 - 1138.5] if you're looking for an intangible
+
+[1136.64 - 1141.2] right like maybe you need to build
+
+[1138.5 - 1144.2] customer trust or build rapport that is
+
+[1141.2 - 1145.76] something that uh that might surprise
+
+[1144.2 - 1147.2] you but chat GPT and other similar
+
+[1145.76 - 1150.919] Technologies can actually help you with
+
+[1147.2 - 1153.98] you say like uh hey I you know I'm gonna
+
+[1150.919 - 1155.72] I've got a customer that I'm cultivating
+
+[1153.98 - 1157.52] um let me feed you in the profile for
+
+[1155.72 - 1158.9] this customer let's talk about this
+
+[1157.52 - 1160.8799999999999] customer and let's connect with what
+
+[1158.9 - 1162.5590000000002] they actually need right how can I how
+
+[1160.88 - 1164.96] can I make this customer trust me how
+
+[1162.559 - 1167.539] can I earn their trust right and so
+
+[1164.96 - 1170.66] that's just one example of where if it's
+
+[1167.539 - 1173.2] a marketing a sales sales team
+
+[1170.66 - 1176.179] it can generative AI can help them
+
+[1173.2 - 1177.799] increase their level of success if you
+
+[1176.179 - 1179.66] pay attention to what it is that
+
+[1177.799 - 1180.9189999999999] actually makes them successful and it
+
+[1179.66 - 1182.299] does not necessarily have to be
+
+[1180.919 - 1184.88] something that you can put a number on
+
+[1182.299 - 1186.44] in fact a lot of business is something
+
+[1184.88 - 1189.98] that is very difficult to measure
+
+[1186.44 - 1192.44] objectively now that being said chat GPT
+
+[1189.98 - 1193.88] doesn't necessarily need metrics this is
+
+[1192.44 - 1195.38] one of the biggest differences between
+
+[1193.88 - 1197.24] conventional machine learning and
+
+[1195.38 - 1200.24] artificial intelligence and generative
+
+[1197.24 - 1202.4] AI it operates in qualitative space not
+
+[1200.24 - 1204.919] quantitative space this is the biggest
+
+[1202.4 - 1206.419] fundamental difference between data
+
+[1204.919 - 1209.3600000000001] science in the past and data science
+
+[1206.419 - 1212.179] today is that pivot from quantitative
+
+[1209.36 - 1214.3999999999999] data numbers forecast linear regression
+
+[1212.179 - 1216.38] that sort of thing to qualitative
+
+[1214.4 - 1218.419] information what is it that this person
+
+[1216.38 - 1220.88] likes and why and how do you earn their
+
+[1218.419 - 1223.2800000000002] trust and finally question number four
+
+[1220.88 - 1226.22] what activities are the highest priority
+
+[1223.28 - 1228.08] or highest stakes in other words where
+
+[1226.22 - 1230.48] would having an extra brain or an extra
+
+[1228.08 - 1233.72] set of eyes make the most difference
+
+[1230.48 - 1234.919] so this is something where uh often if
+
+[1233.72 - 1237.14] something is high priority or high
+
+[1234.919 - 1239.1200000000001] stakes that is where that's like the
+
+[1237.14 - 1240.3200000000002] sweet spot right that is that is the
+
+[1239.12 - 1242.78] meat and potatoes of your business
+
+[1240.32 - 1245.4189999999999] because that is the that is the set of
+
+[1242.78 - 1247.8799999999999] tasks that only humans can do right now
+
+[1245.419 - 1250.039] and they are they're going to be the
+
+[1247.88 - 1252.2600000000002] bottleneck right so what I mean by that
+
+[1250.039 - 1255.44] is uh I used to work at managed service
+
+[1252.26 - 1258.44] providers and so you know one of the
+
+[1255.44 - 1260.539] biggest things was uptime if the if the
+
+[1258.44 - 1263.059] data center goes down or a service goes
+
+[1260.539 - 1264.799] down that's money out the door so that
+
+[1263.059 - 1267.08] means that's a very high priority task
+
+[1264.799 - 1268.4] and so if I were Consulting for a
+
+[1267.08 - 1270.62] managed service provider and they said
+
+[1268.4 - 1272.24] Dave how can we use generative AI to
+
+[1270.62 - 1274.34] help our bottom line I said what are the
+
+[1272.24 - 1276.44] what are the biggest uh priorities that
+
+[1274.34 - 1278.78] you have and it's like well if we have a
+
+[1276.44 - 1281.48] severity one let's you know we need to
+
+[1278.78 - 1282.9189999999999] all hands on deck and one thing this is
+
+[1281.48 - 1284.72] just from my experience in technology
+
+[1282.919 - 1286.16] one thing is that a lot of people are
+
+[1284.72 - 1288.14] very reactive
+
+[1286.16 - 1290.419] I actually had to leave a job because my
+
+[1288.14 - 1292.64] boss did not understand the value of
+
+[1290.419 - 1294.8600000000001] eliminating technical debt and so he's
+
+[1292.64 - 1296.659] just like oh well we have fire alarms on
+
+[1294.86 - 1298.039] a daily basis and that's just the way
+
+[1296.659 - 1300.3200000000002] things are and I said no the hell it
+
+[1298.039 - 1302.48] isn't like prevention is what we should
+
+[1300.32 - 1303.98] be doing right if if your fire
+
+[1302.48 - 1305.96] department is over taxed because
+
+[1303.98 - 1308.179] everything is burning down maybe you
+
+[1305.96 - 1310.94] need new fire code he didn't get that so
+
+[1308.179 - 1313.22] I left that job but my point is is that
+
+[1310.94 - 1315.74] there there are going to be key risks
+
+[1313.22 - 1318.08] and key business activities that are
+
+[1315.74 - 1320.0] responsible for a good chunk of the
+
+[1318.08 - 1321.6789999999999] money coming in and the money going out
+
+[1320.0 - 1323.84] so that's what I mean by high priority
+
+[1321.679 - 1325.64] and high stakes you pay attention to
+
+[1323.84 - 1328.82] those things first and you fix them as
+
+[1325.64 - 1331.64] much as you can by adding generative AI
+
+[1328.82 - 1333.26] uh to make you know to to change those
+
+[1331.64 - 1336.3200000000002] ratios so they got more coming in and
+
+[1333.26 - 1339.14] less going out uh you know you can ask
+
+[1336.32 - 1341.78] and as a CEO you can ask these questions
+
+[1339.14 - 1343.46] of every department head you can also
+
+[1341.78 - 1345.44] look at it from an internal perspective
+
+[1343.46 - 1347.179] or an external perspective how do you
+
+[1345.44 - 1349.4] engage with your customer your vendors
+
+[1347.179 - 1351.0800000000002] your clients how do you engage with your
+
+[1349.4 - 1353.0590000000002] internal stakeholders how do you engage
+
+[1351.08 - 1354.3799999999999] with your uh your financial stakeholders
+
+[1353.059 - 1357.74] your shareholders
+
+[1354.38 - 1359.179] these are you can generative AI can
+
+[1357.74 - 1360.6200000000001] apply to literally every level of
+
+[1359.179 - 1363.5590000000002] business
+
+[1360.62 - 1365.299] okay so on the tool side so we talked
+
+[1363.559 - 1366.799] about the people in the processes let's
+
+[1365.299 - 1370.1589999999999] talk about the tools
+
+[1366.799 - 1371.84] uh first one thing that you can do the
+
+[1370.159 - 1374.9] best one of the approaches is that you
+
+[1371.84 - 1376.6399999999999] can create drop-in tools so one thing is
+
+[1374.9 - 1378.14] that a lot of people get wrong is
+
+[1376.64 - 1380.24] they're trying is they try and build
+
+[1378.14 - 1381.919] tools that require a fundamentally
+
+[1380.24 - 1383.1200000000001] different workflow and it's a
+
+[1381.919 - 1385.76] fundamentally different approach to
+
+[1383.12 - 1387.9189999999999] business and I this is something that I
+
+[1385.76 - 1389.6] often talk about with uh for startups
+
+[1387.919 - 1391.22] where they're like oh we've got this
+
+[1389.6 - 1393.08] great new tool that we're building it's
+
+[1391.22 - 1395.24] you know based on generative Ai and I'm
+
+[1393.08 - 1398.0] like okay great but how are businesses
+
+[1395.24 - 1400.64] going to use it is this gonna is is this
+
+[1398.0 - 1402.86] gonna require them to adopt an entirely
+
+[1400.64 - 1406.5800000000002] new workflow is it going to replace
+
+[1402.86 - 1408.62] existing tools or ideally it's a drop-in
+
+[1406.58 - 1410.84] tool that just goes in alongside every
+
+[1408.62 - 1412.039] other tool in their toolbox so for
+
+[1410.84 - 1414.3799999999999] instance in the marketing department
+
+[1412.039 - 1417.2] they already use file servers they
+
+[1414.38 - 1419.5390000000002] already use Photoshop they use Adobe and
+
+[1417.2 - 1422.1200000000001] and image services
+
+[1419.539 - 1424.039] stock image services so in that case
+
+[1422.12 - 1426.1] image generators like stable diffusion
+
+[1424.039 - 1429.26] and mid-journey and adobe's Firefly
+
+[1426.1 - 1431.059] these are all drop-in tools where they
+
+[1429.26 - 1433.7] fit into the existing workflows
+
+[1431.059 - 1435.6789999999999] perfectly and so when you're whether
+
+[1433.7 - 1438.559] you're looking at adopting a generative
+
+[1435.679 - 1441.38] AI tool or service make sure that it
+
+[1438.559 - 1442.6399999999999] will fit into your existing workflows
+
+[1441.38 - 1444.5590000000002] because that's where you're going to get
+
+[1442.64 - 1446.0590000000002] the most value out of it if it's a tool
+
+[1444.559 - 1449.059] that requires a fundamentally different
+
+[1446.059 - 1451.7] approach the the path to adoption is
+
+[1449.059 - 1453.86] just that much harder and I you know I
+
+[1451.7 - 1456.0800000000002] saw this on the back in my it
+
+[1453.86 - 1457.28] infrastructure days all the time where
+
+[1456.08 - 1459.5] it's like yeah there's a great new
+
+[1457.28 - 1461.12] powerful tool but like we can't really
+
+[1459.5 - 1462.919] use it because it doesn't integrate with
+
+[1461.12 - 1464.4799999999998] anything else that we do and it's going
+
+[1462.919 - 1466.5200000000002] to fundamentally change the way we do
+
+[1464.48 - 1468.679] business which just means it's not a
+
+[1466.52 - 1471.44] good fit and this is this is something
+
+[1468.679 - 1474.2] for startup CEOs to keep in mind it's
+
+[1471.44 - 1477.559] also something for CEOs that are not
+
+[1474.2 - 1479.0] Tech Centric or AI Centric when adopting
+
+[1477.559 - 1480.74] AI tools
+
+[1479.0 - 1483.32] make sure that you make sure that you
+
+[1480.74 - 1484.64] get those drop-in tools one another
+
+[1483.32 - 1486.62] thing to keep in mind is that general
+
+[1484.64 - 1488.9] purpose tools like chat GPT are often
+
+[1486.62 - 1490.6399999999999] the hardest to use because you have to
+
+[1488.9 - 1492.26] know a lot about the tool you have to
+
+[1490.64 - 1493.7] know a lot about what it is that you're
+
+[1492.26 - 1495.2] trying to do and you have to interact
+
+[1493.7 - 1496.3400000000001] with it in a very fundamentally
+
+[1495.2 - 1499.3400000000001] different way than you've ever
+
+[1496.34 - 1500.539] interacted with any uh technology tool
+
+[1499.34 - 1503.539] in the past
+
+[1500.539 - 1505.58] so because of that part of what makes a
+
+[1503.539 - 1507.559] a drop-in tool is going to be the
+
+[1505.58 - 1510.1399999999999] affordances and user experience design
+
+[1507.559 - 1512.1789999999999] that says oh this is just like this
+
+[1510.14 - 1514.2800000000002] other piece of software that I use this
+
+[1512.179 - 1516.679] other app that I use all the time it
+
+[1514.28 - 1518.48] just has some AI baked into it and it's
+
+[1516.679 - 1520.88] really easy to use this is one of the
+
+[1518.48 - 1521.96] things that I consulted with in the
+
+[1520.88 - 1523.4] early days
+
+[1521.96 - 1526.1000000000001] was there was a lot of people just
+
+[1523.4 - 1528.02] putting together generic dashboards of
+
+[1526.1 - 1530.9599999999998] AI tools and I'm like you have no
+
+[1528.02 - 1533.4189999999999] coherent strategy there's nothing about
+
+[1530.96 - 1536.059] this that just stands out and says Ah I
+
+[1533.419 - 1538.64] know exactly what this tool is for and
+
+[1536.059 - 1540.5] you know so basically what you're trying
+
+[1538.64 - 1542.96] to optimize for is make your generative
+
+[1540.5 - 1544.4] AI tool as intuitive as possible where
+
+[1542.96 - 1546.38] you can just pick someone off the street
+
+[1544.4 - 1549.5590000000002] put them in front of the app and they
+
+[1546.38 - 1551.1200000000001] say oh I know I one I know exactly what
+
+[1549.559 - 1554.059] this does and I know exactly how to use
+
+[1551.12 - 1555.9799999999998] it just by guessing if you can if you
+
+[1554.059 - 1557.96] can do that then you uh almost certainly
+
+[1555.98 - 1559.88] have a drop in tool
+
+[1557.96 - 1562.52] now the other thing that you can do is
+
+[1559.88 - 1564.5590000000002] you can improve existing systems so this
+
+[1562.52 - 1566.24] could be you know if you've got teams if
+
+[1564.559 - 1569.12] you've got slack if you've got exchange
+
+[1566.24 - 1570.679] you know or or even log services or
+
+[1569.12 - 1573.32] whatever and of course that's just all
+
+[1570.679 - 1575.2] looking at it from the I.T side there's
+
+[1573.32 - 1577.7] plenty of other business platforms
+
+[1575.2 - 1579.7] whether it's your financial workflows
+
+[1577.7 - 1582.8600000000001] your marketing workflows
+
+[1579.7 - 1585.02] whether if you if you if you're not
+
+[1582.86 - 1588.1399999999999] trying to add a new tool what you can do
+
+[1585.02 - 1590.0] is if you have access to the code base
+
+[1588.14 - 1592.94] uh for you know your internally
+
+[1590.0 - 1596.419] developed tools you can add generative
+
+[1592.94 - 1598.88] AI uh for at some of these uh decision
+
+[1596.419 - 1601.159] points in order to make it just a little
+
+[1598.88 - 1602.659] bit better a little bit faster so the
+
+[1601.159 - 1604.64] primary example I have in my head is
+
+[1602.659 - 1606.44] servicenow and other
+
+[1604.64 - 1609.14] um internal management things like that
+
+[1606.44 - 1611.6000000000001] so let's say you have ticket routing
+
+[1609.14 - 1614.0] you've got uh follow-ups you've got
+
+[1611.6 - 1617.0] emails so basically like you know
+
+[1614.0 - 1619.159] instead of having uh humans do a lot of
+
+[1617.0 - 1620.539] the work you can have the machine do a
+
+[1619.159 - 1622.5800000000002] lot of the work for the humans and to
+
+[1620.539 - 1624.799] say hey which one of these emails do you
+
+[1622.58 - 1627.86] want to send to this customer as a
+
+[1624.799 - 1629.779] follow-up uh or if there's a if there's
+
+[1627.86 - 1632.12] a ticketing system you can have the
+
+[1629.779 - 1634.039] ticketing system ask a few obvious
+
+[1632.12 - 1636.32] questions before a human even looks at
+
+[1634.039 - 1637.94] it so that there's by the time your
+
+[1636.32 - 1640.82] ticket gets escalated to an actual
+
+[1637.94 - 1642.14] engineer or whoever it gets to a few
+
+[1640.82 - 1644.24] questions have already been asked
+
+[1642.14 - 1647.419] immediately and so there's more context
+
+[1644.24 - 1649.58] which can reduce your mttx
+
+[1647.419 - 1653.179] another place that you can look at it is
+
+[1649.58 - 1654.62] human intervention where in uh and it
+
+[1653.179 - 1656.0] can either be routing to the correct
+
+[1654.62 - 1658.1] human so I was actually just talking to
+
+[1656.0 - 1660.2] a friend about this on the medical side
+
+[1658.1 - 1662.6589999999999] uh who's at a startup trying to use
+
+[1660.2 - 1664.52] generative AI which is uh if there's a
+
+[1662.659 - 1666.3200000000002] if there's a patient need how do you
+
+[1664.52 - 1668.9] write it to the route it to the correct
+
+[1666.32 - 1670.52] medical provider that is a that is a
+
+[1668.9 - 1673.52] great use case because you can feed a
+
+[1670.52 - 1675.559] whole patient chart into the llm and say
+
+[1673.52 - 1677.36] what what exactly competency what
+
+[1675.559 - 1678.32] competencies does this person need right
+
+[1677.36 - 1679.6999999999998] now
+
+[1678.32 - 1681.1399999999999] um and then you get the you get the
+
+[1679.7 - 1683.8400000000001] exact right thing and then you make sure
+
+[1681.14 - 1686.659] that uh that that uh you know nurse or
+
+[1683.84 - 1689.059] or specialist also gets the exact notes
+
+[1686.659 - 1690.7990000000002] that they need uh without having to go
+
+[1689.059 - 1693.3799999999999] talk to a you know a bunch of other
+
+[1690.799 - 1695.12] people because I mean heck one of my one
+
+[1693.38 - 1696.98] of my patreons several of my patreon
+
+[1695.12 - 1698.6] supporters are in the medical field and
+
+[1696.98 - 1700.7] they talk about just how annoying it is
+
+[1698.6 - 1703.1589999999999] when charts aren't updated correctly and
+
+[1700.7 - 1704.9] when uh Physicians and nurses don't talk
+
+[1703.159 - 1707.419] to each other or they you know forget to
+
+[1704.9 - 1710.48] pass something on so again you can
+
+[1707.419 - 1711.5590000000002] reduce human interaction uh or sorry you
+
+[1710.48 - 1713.6] can reduce the need for human
+
+[1711.559 - 1715.46] intervention by having some of these
+
+[1713.6 - 1717.98] interactions automated
+
+[1715.46 - 1719.539] and then finally cognitive offload if
+
+[1717.98 - 1720.919] you if you go hunting across your
+
+[1719.539 - 1723.32] organization for the things that are
+
+[1720.919 - 1725.2990000000002] really demanding those are ways that you
+
+[1723.32 - 1727.34] can improve existing systems because you
+
+[1725.299 - 1728.96] know you reduce the frustration that
+
+[1727.34 - 1731.24] will increase productivity increase
+
+[1728.96 - 1733.22] satisfaction and that also just all
+
+[1731.24 - 1735.74] speaks to the bottom line
+
+[1733.22 - 1737.96] okay so that was people processes and
+
+[1735.74 - 1740.659] tools let's talk about better faster and
+
+[1737.96 - 1742.279] cheaper otherwise uh how do you get the
+
+[1740.659 - 1744.0200000000002] best return on investment from any
+
+[1742.279 - 1745.22] generative AI initiative whether it's a
+
+[1744.02 - 1746.779] product or service that you're thinking
+
+[1745.22 - 1748.76] about adopting or one that you're
+
+[1746.779 - 1751.58] building uh internally
+
+[1748.76 - 1754.1] so the the primary three questions here
+
+[1751.58 - 1756.02] that you should ask yourself is uh what
+
+[1754.1 - 1758.24] can generative AI do better than humans
+
+[1756.02 - 1760.34] what can it do faster than humans and
+
+[1758.24 - 1761.659] what can it do cheaper than humans and
+
+[1760.34 - 1764.059] so this is what I mean where it's like
+
+[1761.659 - 1767.48] okay if you can offset some of the labor
+
+[1764.059 - 1769.46] costs uh you can ideally hopefully you
+
+[1767.48 - 1771.08] preserve your existing head count but
+
+[1769.46 - 1772.94] you take your organization to the next
+
+[1771.08 - 1775.6999999999998] level and you can double triple
+
+[1772.94 - 1777.799] quadruple productivity while also doing
+
+[1775.7 - 1780.44] cognitive offload so your your human
+
+[1777.799 - 1782.779] employees are happier
+
+[1780.44 - 1785.24] so this is a universal truth of
+
+[1782.779 - 1788.179] technology technology has always been a
+
+[1785.24 - 1790.46] force multiplier so you know the the
+
+[1788.179 - 1792.14] Industrial Revolution example that I
+
+[1790.46 - 1794.0] always love to give is the tractor
+
+[1792.14 - 1796.159] tractors are very complicated they're
+
+[1794.0 - 1798.32] expensive heavy pieces of equipment but
+
+[1796.159 - 1800.779] we still use them because they have the
+
+[1798.32 - 1803.779] physical power output of literally
+
+[1800.779 - 1805.46] hundreds of horses uh and so you get rid
+
+[1803.779 - 1807.559] of the you instead of feeding and
+
+[1805.46 - 1809.6000000000001] providing veterinary care for hundreds
+
+[1807.559 - 1811.76] of horses you have a tractor that all it
+
+[1809.6 - 1813.1399999999999] does is drink gasoline need some oil and
+
+[1811.76 - 1813.98] some replacement parts every now and
+
+[1813.14 - 1817.1000000000001] then
+
+[1813.98 - 1819.5] generative AI is a cognitive Force
+
+[1817.1 - 1821.36] multiplier so let me say that again the
+
+[1819.5 - 1823.899] the first industrial or the first three
+
+[1821.36 - 1826.6399999999999] industrial revolutions were more about
+
+[1823.899 - 1829.36] uh communication Force multiplication
+
+[1826.64 - 1832.88] and physical Force multiplication
+
+[1829.36 - 1835.039] generative AI is the first example of a
+
+[1832.88 - 1837.0200000000002] cognitive Force multiplier it doesn't
+
+[1835.039 - 1838.76] just send email faster right because you
+
+[1837.02 - 1840.5] know email came around in the 80s or
+
+[1838.76 - 1842.6589999999999] whatever which is like okay cool
+
+[1840.5 - 1845.84] communication now happens faster that's
+
+[1842.659 - 1847.94] not really cognitive labor or crunching
+
+[1845.84 - 1850.22] numbers right math definitely very
+
+[1847.94 - 1852.5] cognitively demanding but this is a new
+
+[1850.22 - 1855.919] era of of cognitive labor force
+
+[1852.5 - 1858.38] multiplication so that's why this video
+
+[1855.919 - 1860.779] has cognitive offload as a central
+
+[1858.38 - 1862.64] lesson as something to look for when
+
+[1860.779 - 1864.62] you're trying to integrate generative AI
+
+[1862.64 - 1865.5800000000002] into your business
+
+[1864.62 - 1869.5] better
+
+[1865.58 - 1872.6] so uh keep your ear to the ground but
+
+[1869.5 - 1875.0] you know basically chat GPT has already
+
+[1872.6 - 1876.98] demonstrated Superior uh clinical
+
+[1875.0 - 1879.5] judgment than many doctors and this is
+
+[1876.98 - 1881.539] according to Harvard research it also
+
+[1879.5 - 1884.48] has better uh executive judgment
+
+[1881.539 - 1886.84] executive reasoning uh than many people
+
+[1884.48 - 1889.7] and this includes managers and some CEOs
+
+[1886.84 - 1891.5] and so in this case look for the
+
+[1889.7 - 1894.98] activities where generative AI is
+
+[1891.5 - 1896.419] demonstrably superior to humans this
+
+[1894.98 - 1898.1] will give you obviously a competitive
+
+[1896.419 - 1901.279] Advantage but if it is better than you
+
+[1898.1 - 1903.3799999999999] use the machine right humans can go use
+
+[1901.279 - 1906.2] a rake and a hoe and and and and and
+
+[1903.38 - 1907.88] plow uh the field but we don't have
+
+[1906.2 - 1909.799] humans doing it by hand anymore because
+
+[1907.88 - 1911.48] the machine is better so just because
+
+[1909.799 - 1913.58] you can do something doesn't mean that
+
+[1911.48 - 1915.5] you should especially if the machine is
+
+[1913.58 - 1918.1399999999999] better than you at it now again this
+
+[1915.5 - 1920.48] doesn't necessarily mean get handed over
+
+[1918.14 - 1922.5200000000002] to the machine entirely but you should
+
+[1920.48 - 1925.58] be using the machine to augment your
+
+[1922.52 - 1928.7] abilities so in the case of doctors if
+
+[1925.58 - 1930.799] there is any room for doubt maybe
+
+[1928.7 - 1933.799] doctors should be required or maybe not
+
+[1930.799 - 1935.6] required but you know as part of the the
+
+[1933.799 - 1937.34] medical resourcing system like you know
+
+[1935.6 - 1939.32] epic and Cerner and stuff
+
+[1937.34 - 1941.0] you integrate some uh some language
+
+[1939.32 - 1943.1] model technology into that where it's
+
+[1941.0 - 1945.08] like okay cool uh based on this
+
+[1943.1 - 1947.48] patient's chart and test results have
+
+[1945.08 - 1949.22] you thought of X Y and Z uh just enough
+
+[1947.48 - 1951.02] just enough to clue in that the
+
+[1949.22 - 1953.419] physician on the direction that maybe
+
+[1951.02 - 1955.399] they need to go in order to augment
+
+[1953.419 - 1958.039] human judgment and augment human
+
+[1955.399 - 1961.8799999999999] executive reasoning now one thing about
+
+[1958.039 - 1963.74] this is that unless you have a you know
+
+[1961.88 - 1966.38] a product or service where they've done
+
+[1963.74 - 1968.36] the work and they can say look this this
+
+[1966.38 - 1970.64] AI service that we've built is
+
+[1968.36 - 1971.84] demonstrably better than humans you're
+
+[1970.64 - 1973.279] going to need to figure that out for
+
+[1971.84 - 1975.1399999999999] yourself through experimentation and
+
+[1973.279 - 1975.86] consultation
+
+[1975.14 - 1978.14] um
+
+[1975.86 - 1979.4599999999998] and also as I mentioned earlier you will
+
+[1978.14 - 1981.679] need to start measuring some things
+
+[1979.46 - 1985.22] qualitatively rather than quantitatively
+
+[1981.679 - 1987.74] so if if the objective is patient
+
+[1985.22 - 1989.779] satisfaction or customer satisfaction or
+
+[1987.74 - 1991.82] trust or any number of those other
+
+[1989.779 - 1993.919] intangible things they can be a lot
+
+[1991.82 - 1996.32] harder to measure but fortunately
+
+[1993.919 - 1999.38] language models can help you measure
+
+[1996.32 - 2001.12] those things through approximations
+
+[1999.38 - 2002.6200000000001] and so what I mean by that is just ask
+
+[2001.12 - 2004.059] chat GPT
+
+[2002.62 - 2006.399] um you know how can I measure customer
+
+[2004.059 - 2007.96] satisfaction or trust or whatever and
+
+[2006.399 - 2009.8799999999999] it'll give you some cool ideas about how
+
+[2007.96 - 2010.8990000000001] you can measure that and then you say
+
+[2009.88 - 2013.0590000000002] well what's the difference between
+
+[2010.899 - 2014.3799999999999] quantitative and qualitative trust me if
+
+[2013.059 - 2015.46] you do that experiment you'll see what
+
+[2014.38 - 2017.919] I'm talking about
+
+[2015.46 - 2020.019] uh but again this is no different from
+
+[2017.919 - 2023.019] using machines to do things that humans
+
+[2020.019 - 2025.659] either couldn't or shouldn't do uh you
+
+[2023.019 - 2027.7] know a forklift right yes a human could
+
+[2025.659 - 2029.2600000000002] you know unpack a pallet and put
+
+[2027.7 - 2030.5800000000002] everything in the you know on a new
+
+[2029.26 - 2032.3799999999999] palette in the truck but it's easier to
+
+[2030.58 - 2034.12] just use the forklift to pick up the
+
+[2032.38 - 2036.46] pallet as a whole and put it in the
+
+[2034.12 - 2038.559] truck for you likewise there's going to
+
+[2036.46 - 2040.539] be some things that generative AI it can
+
+[2038.559 - 2042.22] just do that a human can't
+
+[2040.539 - 2044.679] um or that would take a human way too
+
+[2042.22 - 2046.3600000000001] long to do so just offload those things
+
+[2044.679 - 2048.339] and let the machine do it because it's
+
+[2046.36 - 2053.08] already better than the human
+
+[2048.339 - 2057.04] faster so generative AI is super super
+
+[2053.08 - 2059.859] fast it can read literally like 20 pages
+
+[2057.04 - 2062.56] of text in a few seconds no human is
+
+[2059.859 - 2063.94] capable of that and then it can use that
+
+[2062.56 - 2066.58] text it can either summarize it
+
+[2063.94 - 2068.859] brainstorm extend it it can draft a new
+
+[2066.58 - 2070.419] version all of this happens really
+
+[2068.859 - 2073.179] really fast and of course time is money
+
+[2070.419 - 2074.6189999999997] right velocity is speed plus Direction
+
+[2073.179 - 2077.379] so you got to make sure you're going in
+
+[2074.619 - 2078.76] the right direction but basically so
+
+[2077.379 - 2081.46] this is another thing that I do when I'm
+
+[2078.76 - 2084.0400000000004] Consulting is I say what takes the
+
+[2081.46 - 2086.139] longest you know so when I consult with
+
+[2084.04 - 2089.2] scientists and academics it's like oh
+
+[2086.139 - 2090.639] well you know writing grants is takes
+
+[2089.2 - 2092.379] forever
+
+[2090.639 - 2095.56] um you know Grant proposals Grant
+
+[2092.379 - 2097.359] reviews that takes forever or writing
+
+[2095.56 - 2099.4] research papers and revising research
+
+[2097.359 - 2102.339] papers takes a long time
+
+[2099.4 - 2105.46] whatever business activities take the
+
+[2102.339 - 2107.98] longest those might be good targets uh
+
+[2105.46 - 2110.099] for generative AI uh not related to
+
+[2107.98 - 2113.5] generative AI but many many years ago
+
+[2110.099 - 2115.3] earlier in my it infrastructure days I
+
+[2113.5 - 2118.78] was working at a small uh medical
+
+[2115.3 - 2120.6400000000003] startup medical software startup and I I
+
+[2118.78 - 2122.2000000000003] we got a couple new servers and I added
+
+[2120.64 - 2125.14] these new servers to their build Network
+
+[2122.2 - 2127.839] and so then their software builds took
+
+[2125.14 - 2129.64] went from 26 hours to two and they said
+
+[2127.839 - 2131.98] well Dave you threw off our entire
+
+[2129.64 - 2133.54] workflow because instead of kicking off
+
+[2131.98 - 2135.46] a build and then just coming back the
+
+[2133.54 - 2137.579] next day we just go to lunch and come
+
+[2135.46 - 2140.68] back and now we have to keep working
+
+[2137.579 - 2142.3] but again if you can I mean and
+
+[2140.68 - 2145.1189999999997] Technology can do this you can shorten
+
+[2142.3 - 2146.619] things by a factor of 10x or 100x I
+
+[2145.119 - 2149.32] usually look at the things that can
+
+[2146.619 - 2151.48] happen that we can shorten by 100x say
+
+[2149.32 - 2153.88] okay what takes the longest here
+
+[2151.48 - 2155.2] we've got some lawyer friends right the
+
+[2153.88 - 2156.579] you know there's there's a bunch of
+
+[2155.2 - 2159.7] active lawsuits out there and I said
+
+[2156.579 - 2161.7400000000002] okay given that we have generative AI
+
+[2159.7 - 2164.2599999999998] that can read and summarize you know
+
+[2161.74 - 2167.0789999999997] hundreds of pages of legal documents
+
+[2164.26 - 2169.1800000000003] really fast how can I build a tool that
+
+[2167.079 - 2171.6400000000003] is going to really help you get to the
+
+[2169.18 - 2174.3999999999996] bottom of these things really quick uh
+
+[2171.64 - 2176.98] so again looking looking at ways that
+
+[2174.4 - 2179.44] generative AI can speed up really basic
+
+[2176.98 - 2181.599] stuff just reading right don't
+
+[2179.44 - 2183.52] underestimate the power of speeding up
+
+[2181.599 - 2186.88] really basic tasks
+
+[2183.52 - 2189.64] uh so another example is that I have I
+
+[2186.88 - 2192.46] I've built my own tools that I use for
+
+[2189.64 - 2194.56] uh for helping revise my writing
+
+[2192.46 - 2195.7] um Chad GPT still sucks at writing by
+
+[2194.56 - 2197.5] the way
+
+[2195.7 - 2199.54] um but so I don't use it for writing I
+
+[2197.5 - 2200.8] use it for revisions and providing
+
+[2199.54 - 2202.42] feedback because that's something that
+
+[2200.8 - 2204.04] is really good at it says Hey I just
+
+[2202.42 - 2205.839] read this whole chapter let me give you
+
+[2204.04 - 2207.4] some feedback on it and it gives really
+
+[2205.839 - 2208.96] good feedback
+
+[2207.4 - 2211.78] I know because I've paid a professional
+
+[2208.96 - 2213.76] editor and it gives me uh feedback at a
+
+[2211.78 - 2216.099] very similar level as a professional
+
+[2213.76 - 2218.6800000000003] editor now that being said it does miss
+
+[2216.099 - 2221.02] a lot of stuff but instead of a two
+
+[2218.68 - 2223.2999999999997] month turnaround I get a 30 minute
+
+[2221.02 - 2224.98] turnaround so that's what I mean by look
+
+[2223.3 - 2227.98] for things that you can accelerate by a
+
+[2224.98 - 2230.52] factor of 10x or 100x so let's see going
+
+[2227.98 - 2234.579] from two months or 60 days to 30 minutes
+
+[2230.52 - 2236.92] that's you know 60x and then instead of
+
+[2234.579 - 2240.7000000000003] hours it's minutes like so I mean you're
+
+[2236.92 - 2244.78] looking at a 200x speed up by using chat
+
+[2240.7 - 2248.02] GPT API for getting uh feedback rather
+
+[2244.78 - 2250.599] than using a human so again like you
+
+[2248.02 - 2252.52] know those that level of speed up is
+
+[2250.599 - 2254.1400000000003] absolutely possible with generative AI
+
+[2252.52 - 2256.3] look for those and you're going to
+
+[2254.14 - 2257.92] really make a a very good difference in
+
+[2256.3 - 2260.8] some departments
+
+[2257.92 - 2264.2200000000003] and then finally cheaper uh here's the
+
+[2260.8 - 2266.2000000000003] thing is that a lot of stuff costs a lot
+
+[2264.22 - 2269.68] and human labor is one of the most
+
+[2266.2 - 2272.2599999999998] expensive parts of of uh many businesses
+
+[2269.68 - 2275.0789999999997] and the best expense is no expense so
+
+[2272.26 - 2276.88] what I mean by that is unfortunately we
+
+[2275.079 - 2279.2200000000003] are seeing where like many many
+
+[2276.88 - 2281.079] companies are doing huge huge layoffs as
+
+[2279.22 - 2282.7] they pivot and I don't know if those
+
+[2281.079 - 2284.26] jobs are ever coming back but that kind
+
+[2282.7 - 2286.1189999999997] of goes outside of the scope of this
+
+[2284.26 - 2288.28] video but
+
+[2286.119 - 2290.6800000000003] what I mean by that is that if there is
+
+[2288.28 - 2294.4] something that you can do cheaper with
+
+[2290.68 - 2296.5] AI than paying a human or you can
+
+[2294.4 - 2298.9] Empower a human to do some to do the
+
+[2296.5 - 2301.18] same task faster and therefore cheaper
+
+[2298.9 - 2303.52] that is kind of the direction to look at
+
+[2301.18 - 2305.56] so where can you lower costs with
+
+[2303.52 - 2306.94] generative AI this one is actually a lot
+
+[2305.56 - 2310.42] harder to do
+
+[2306.94 - 2312.04] because uh again it's it's better at
+
+[2310.42 - 2313.96] some things and it's certainly faster at
+
+[2312.04 - 2316.06] some things uh but you still need human
+
+[2313.96 - 2318.2200000000003] oversight you still need human uh you
+
+[2316.06 - 2321.099] know guess and check or whatever uh you
+
+[2318.22 - 2323.2599999999998] need experts supervising these systems
+
+[2321.099 - 2325.06] um but with that being said there are
+
+[2323.26 - 2327.94] ways that you can probably lower costs
+
+[2325.06 - 2329.98] because again chat gbt has a 20 a month
+
+[2327.94 - 2331.7200000000003] assistant it can do the work of
+
+[2329.98 - 2333.82] literally like thousands of dollars
+
+[2331.72 - 2334.7799999999997] worth of cognitive labor for you per
+
+[2333.82 - 2336.1600000000003] month
+
+[2334.78 - 2337.7200000000003] um so that you don't need to hire like a
+
+[2336.16 - 2339.7] research assistant or that sort of thing
+
+[2337.72 - 2342.64] which then frees up the you know
+
+[2339.7 - 2345.0989999999997] cognitive labor of other humans but
+
+[2342.64 - 2347.0789999999997] again look at where it's cheaper uh
+
+[2345.099 - 2348.94] generative AI in the form of image
+
+[2347.079 - 2350.44] generators much much cheaper than
+
+[2348.94 - 2352.359] graphic artists which is really really
+
+[2350.44 - 2354.16] unfortunate for the graphics artists out
+
+[2352.359 - 2356.3199999999997] there and I don't have a solution but
+
+[2354.16 - 2358.72] from a business perspective this says
+
+[2356.32 - 2362.079] like okay hey we can get a lot more art
+
+[2358.72 - 2364.06] done uh much faster and much cheaper uh
+
+[2362.079 - 2365.7400000000002] than than with the humans you still
+
+[2364.06 - 2367.42] often need humans to do touch-ups and
+
+[2365.74 - 2370.1189999999997] and that sort of thing and to even Drive
+
+[2367.42 - 2371.619] the machines but again much cheaper
+
+[2370.119 - 2374.859] because it is faster
+
+[2371.619 - 2376.599] you can also use it to do a SWOT
+
+[2374.859 - 2377.8199999999997] analyzes and that sort of thing again
+
+[2376.599 - 2380.44] that goes back to the cognitive
+
+[2377.82 - 2382.9] reasoning where you can use generative
+
+[2380.44 - 2384.88] AI to help look at and control those
+
+[2382.9 - 2387.82] outflows
+
+[2384.88 - 2390.1600000000003] and then so this is uh we're closing in
+
+[2387.82 - 2391.48] on the end of the video one thing that I
+
+[2390.16 - 2393.7599999999998] really want to point out particularly
+
+[2391.48 - 2396.76] for the for the managers middle managers
+
+[2393.76 - 2398.7400000000002] and the executives watching is that you
+
+[2396.76 - 2400.599] need to be using generative AI to
+
+[2398.74 - 2402.5789999999997] augment yourself
+
+[2400.599 - 2404.92] um whether this is using tools like chat
+
+[2402.579 - 2408.579] GPT to develop your sense of empathy and
+
+[2404.92 - 2410.619] to be more diplomatic uh to even be more
+
+[2408.579 - 2413.44] vulnerable to learn to be more
+
+[2410.619 - 2416.1400000000003] vulnerable with your customers your
+
+[2413.44 - 2419.02] employees uh your star players that sort
+
+[2416.14 - 2421.359] of thing you use that and you will
+
+[2419.02 - 2423.88] develop better relationships and and
+
+[2421.359 - 2426.4] you'll develop more trust and have a lot
+
+[2423.88 - 2429.6400000000003] more of that intangible benefit of
+
+[2426.4 - 2431.619] working with your employees and but
+
+[2429.64 - 2433.02] employees inside the company and then
+
+[2431.619 - 2436.599] customers outside the company
+
+[2433.02 - 2439.54] introspection so this is one of the most
+
+[2436.599 - 2443.38] unsung things that all leaders need to
+
+[2439.54 - 2445.42] do is using these tools whether it's
+
+[2443.38 - 2447.9] chat GPT or the reflective journaling
+
+[2445.42 - 2450.46] tool that I built or anything else
+
+[2447.9 - 2453.04] understanding how your own mind works
+
+[2450.46 - 2455.38] and What Makes You tick is absolutely
+
+[2453.04 - 2456.82] critical to being a good leader because
+
+[2455.38 - 2458.859] if you're doing things for the wrong
+
+[2456.82 - 2460.1800000000003] reason you need to be aware of that so
+
+[2458.859 - 2461.7599999999998] that you can fix that and make sure that
+
+[2460.18 - 2463.7799999999997] you're doing things for the right reason
+
+[2461.76 - 2466.119] introspection and the way that
+
+[2463.78 - 2468.579] generative AI can help with that is
+
+[2466.119 - 2470.619] really really good and then finally
+
+[2468.579 - 2473.44] smarter if you're not using generative
+
+[2470.619 - 2475.42] AI to learn more faster to make sure
+
+[2473.44 - 2478.42] that you have good understanding you
+
+[2475.42 - 2480.28] will be left behind and so this is
+
+[2478.42 - 2482.32] something like I know I'm saying that
+
+[2480.28 - 2484.0600000000004] like really bluntly but the fact of the
+
+[2482.32 - 2485.8590000000004] matter is if you're not using generative
+
+[2484.06 - 2488.92] AI to make yourself smarter to make
+
+[2485.859 - 2490.9] smarter decisions your competition is so
+
+[2488.92 - 2493.7200000000003] it's that simple
+
+[2490.9 - 2495.579] and then lastly ethics and courage
+
+[2493.72 - 2497.3799999999997] I've mentioned a few times during this
+
+[2495.579 - 2499.78] video that in some cases I think
+
+[2497.38 - 2502.6800000000003] generative AI will inevitably lead to
+
+[2499.78 - 2504.94] layoffs job loss and that sort of thing
+
+[2502.68 - 2508.2999999999997] uh there's going to be really tough
+
+[2504.94 - 2511.839] decisions ahead for a lot of people and
+
+[2508.3 - 2513.3] the competition May undercut you and you
+
+[2511.839 - 2515.92] might feel like you have to compromise
+
+[2513.3 - 2519.04] your principles and your values in order
+
+[2515.92 - 2521.079] to stay competitive the thing is it's a
+
+[2519.04 - 2522.94] foregone conclusion that technology will
+
+[2521.079 - 2525.2200000000003] will disrupt markets do you remember
+
+[2522.94 - 2527.32] borders borders imploded because of
+
+[2525.22 - 2529.72] Amazon that's just the name of the game
+
+[2527.32 - 2531.579] so if you need to close the doors and
+
+[2529.72 - 2533.68] pivot maybe that's what you need to do
+
+[2531.579 - 2535.1800000000003] and it really sucks because nobody wants
+
+[2533.68 - 2537.22] to go out of business nobody wants to
+
+[2535.18 - 2539.2] lay off you know hundreds or thousands
+
+[2537.22 - 2541.72] of employees because you're going out of
+
+[2539.2 - 2543.54] business that being said it's probably
+
+[2541.72 - 2545.8799999999997] going to happen
+
+[2543.54 - 2548.38] now even if you don't go out of business
+
+[2545.88 - 2550.119] layoffs and pivots are coming they're
+
+[2548.38 - 2551.26] actively happening
+
+[2550.119 - 2553.48] um you know like you remember telephone
+
+[2551.26 - 2556.0600000000004] operators telephone industry didn't go
+
+[2553.48 - 2557.7400000000002] away telephone operators did and so
+
+[2556.06 - 2560.32] going through these pivots is going to
+
+[2557.74 - 2561.64] be very difficult and and very painful
+
+[2560.32 - 2563.6800000000003] for some people
+
+[2561.64 - 2565.96] so what I want to leave you with is this
+
+[2563.68 - 2567.8199999999997] idea that there are three guiding
+
+[2565.96 - 2571.96] principles that you should probably keep
+
+[2567.82 - 2575.079] in mind as you Embrace generative Ai and
+
+[2571.96 - 2577.18] that is Trust dignity and respect so
+
+[2575.079 - 2580.1800000000003] first make decisions that prioritize
+
+[2577.18 - 2582.04] earning and keeping trust once trust is
+
+[2580.18 - 2583.4199999999996] lost it is very difficult to get back
+
+[2582.04 - 2585.16] and if you look at some of the
+
+[2583.42 - 2588.099] technology or tech companies out there
+
+[2585.16 - 2589.54] that have abused the markets trust abuse
+
+[2588.099 - 2592.3] their customer trust by violating
+
+[2589.54 - 2593.74] privacy and that sort of stuff I gotta
+
+[2592.3 - 2595.119] tell you like I'm never going back to
+
+[2593.74 - 2598.0] those platforms I don't know I don't
+
+[2595.119 - 2600.4] care what they do and so if you sell
+
+[2598.0 - 2602.5] your trust if you if you sell your
+
+[2600.4 - 2604.9] trustworthiness in the age of generative
+
+[2602.5 - 2607.54] AI you will probably not be able to get
+
+[2604.9 - 2609.339] that back because Above All Else a lot
+
+[2607.54 - 2611.859] of people are are caring more and more
+
+[2609.339 - 2614.7999999999997] about privacy and not being abused and
+
+[2611.859 - 2616.839] manipulated uh by the corporations that
+
+[2614.8 - 2618.3390000000004] we engage with if you watch my my
+
+[2616.839 - 2620.5] channel you know that I am very very
+
+[2618.339 - 2622.54] skeptical of corporations that being
+
+[2620.5 - 2624.64] said I also understand that corporations
+
+[2622.54 - 2627.94] are here for a reason and they provide
+
+[2624.64 - 2628.96] uh critical goods and services to all of
+
+[2627.94 - 2631.96] us
+
+[2628.96 - 2633.88] so make sure that you put trust front
+
+[2631.96 - 2636.28] and center with the way that you deploy
+
+[2633.88 - 2638.079] and use uh generative Ai and the
+
+[2636.28 - 2639.8190000000004] decisions that you make a strategic
+
+[2638.079 - 2642.88] decisions you make around generative AI
+
+[2639.819 - 2645.18] dignity so this is something that is one
+
+[2642.88 - 2647.5] of those more intangible things which is
+
+[2645.18 - 2649.5989999999997] you know how do you prioritize human
+
+[2647.5 - 2651.22] dignity this means
+
+[2649.599 - 2653.619] um this means treating people with
+
+[2651.22 - 2656.3799999999997] respect respecting the Dignity of their
+
+[2653.619 - 2659.079] time off respecting the Dignity of their
+
+[2656.38 - 2661.119] competence Their Fear so this is another
+
+[2659.079 - 2663.099] thing A lot of people are absolutely
+
+[2661.119 - 2666.2200000000003] Paralyzed by fear because they don't
+
+[2663.099 - 2667.48] know what's coming and as a CEO you
+
+[2666.22 - 2669.339] might not know what's coming either but
+
+[2667.48 - 2670.96] if you treat people with dignity and you
+
+[2669.339 - 2673.42] say you know what I'm not going to
+
+[2670.96 - 2674.5] compromise on this value then they're
+
+[2673.42 - 2676.119] gonna like you more they're gonna
+
+[2674.5 - 2678.16] they're gonna give you more of the
+
+[2676.119 - 2680.38] benefit of the doubt and and trust you
+
+[2678.16 - 2682.96] to see it through and then finally
+
+[2680.38 - 2684.94] respect respect for human rights respect
+
+[2682.96 - 2687.819] for privacy respect for the way that
+
+[2684.94 - 2690.819] people feel if you prioritize respect as
+
+[2687.819 - 2692.92] well as trust and dignity then you know
+
+[2690.819 - 2694.9] even if your company implodes or even if
+
+[2692.92 - 2697.06] you have to lay off people you're not
+
+[2694.9 - 2699.88] gonna you're you're you won't regret it
+
+[2697.06 - 2702.7] put it that way you will not ever regret
+
+[2699.88 - 2704.92] prioritizing trust dignity and respect
+
+[2702.7 - 2709.54] no matter what else happens
+
+[2704.92 - 2712.0] and so with this my my caution to all
+
+[2709.54 - 2713.44] Executives and leaders out there in the
+
+[2712.0 - 2715.78] age of generative AI is do not
+
+[2713.44 - 2718.48] compromise your ethics and principles
+
+[2715.78 - 2719.98] but also be courageous and make some
+
+[2718.48 - 2723.4] bold decisions because if you're not
+
+[2719.98 - 2725.859] making bold decisions other people will
+
+[2723.4 - 2727.2400000000002] so for a quick recap we talked about the
+
+[2725.859 - 2730.359] people processes and Tools around
+
+[2727.24 - 2732.22] generative AI this is you know
+
+[2730.359 - 2734.52] generative AI is just like any other
+
+[2732.22 - 2737.339] software it provides new capabilities
+
+[2734.52 - 2739.3] new opportunities but also new threats
+
+[2737.339 - 2741.339] one of the key ways to look at
+
+[2739.3 - 2743.5] generative AI is look at where it's
+
+[2741.339 - 2745.06] better faster and or cheaper than humans
+
+[2743.5 - 2746.44] this is where you're going to get the
+
+[2745.06 - 2748.599] most bang for your buck when you're
+
+[2746.44 - 2751.06] either building your own generative AI
+
+[2748.599 - 2754.48] tools or you're buying or procuring
+
+[2751.06 - 2756.94] generative AI goods and services
+
+[2754.48 - 2759.16] uh and then second to last with
+
+[2756.94 - 2761.319] self-improvement as an executive leader
+
+[2759.16 - 2764.2] if you're not using generative AI to
+
+[2761.319 - 2765.64] improve yourself somebody else is namely
+
+[2764.2 - 2768.0989999999997] your competition and you're gonna get
+
+[2765.64 - 2769.7799999999997] left behind and then lastly the slide
+
+[2768.099 - 2772.54] that we just did was ethics and courage
+
+[2769.78 - 2775.2400000000002] which means whatever happens whatever's
+
+[2772.54 - 2776.859] coming if you if you compromise your
+
+[2775.24 - 2778.2999999999997] ethics you might regret it but if you
+
+[2776.859 - 2780.2799999999997] don't compromise your ethics you will
+
+[2778.3 - 2782.319] not regret it so choose the path of
+
+[2780.28 - 2784.6600000000003] least regret this is um actually a
+
+[2782.319 - 2787.18] mantra that I live by is what decision
+
+[2784.66 - 2788.5] will I regret least in the long run and
+
+[2787.18 - 2791.2] then be courageous about it because
+
+[2788.5 - 2793.42] again this is a bold time with a
+
+[2791.2 - 2795.52] tremendous amount of opportunity but uh
+
+[2793.42 - 2797.56] you know fortune favors the Bold so
+
+[2795.52 - 2799.78] thanks for watching I hope you got a lot
+
+[2797.56 - 2801.88] out of this thank you very much and uh
+
+[2799.78 - 2803.44] again reach out on LinkedIn or patreon
+
+[2801.88 - 2804.819] and let's talk if you want to if you
+
+[2803.44 - 2807.42] want to talk about any of these topics
+
+[2804.819 - 2807.42] cheers

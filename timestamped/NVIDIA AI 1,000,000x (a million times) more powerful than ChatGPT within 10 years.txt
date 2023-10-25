@@ -1,0 +1,389 @@
+[0.539 - 6.2989999999999995] hey everyone David Shapiro here with a
+
+[3.48 - 9.179] weekly update for project Raven but
+
+[6.299 - 9.72] before we jump into that I wanted to
+
+[9.179 - 13.5] um
+
+[9.72 - 15.540000000000001] share this with you guys so Nvidia is a
+
+[13.5 - 18.0] company that I'm working with
+
+[15.54 - 19.858999999999998] public information we had a my startup
+
+[18.0 - 23.22] had a press release that we're in the
+
+[19.859 - 25.8] Nvidia Inception program and I saw this
+
+[23.22 - 27.119] article just now and I said yes we need
+
+[25.8 - 30.3] to talk about this
+
+[27.119 - 32.82] so Nvidia predicts that AI models one
+
+[30.3 - 36.480000000000004] million times more powerful than chat
+
+[32.82 - 40.68] GPT will be here within 10 years
+
+[36.48 - 42.839999999999996] and this is why projects like Raven are
+
+[40.68 - 45.48] so important
+
+[42.84 - 48.0] so the tldr
+
+[45.48 - 51.12] is that as
+
+[48.0 - 53.399] uh neural networks get bigger they get
+
+[51.12 - 56.16] deeper more training data we get better
+
+[53.399 - 59.34] optimizations so on and so forth and as
+
+[56.16 - 61.31999999999999] also the underlying Hardware is getting
+
+[59.34 - 63.359] better really quick
+
+[61.32 - 67.26] so you look at the way that things are
+
+[63.359 - 70.26] scaling up and it just goes keeps going
+
+[67.26 - 73.799] this is why I am confident when I say we
+
+[70.26 - 76.74000000000001] will be facing 70 unemployment by 2030
+
+[73.799 - 80.159] because you think of how useful chat GPT
+
+[76.74 - 83.33999999999999] is right now imagine chat gpt2 three
+
+[80.159 - 86.759] four five six versions later
+
+[83.34 - 89.28] with Hardware that is 10 000 times more
+
+[86.759 - 91.08] powerful on models that are ten thousand
+
+[89.28 - 95.28] times more sophisticated
+
+[91.08 - 97.32] this is coming and it's coming fast so
+
+[95.28 - 98.22] with all that said
+
+[97.32 - 100.79899999999999] thank you
+
+[98.22 - 103.259] let's talk about how to make sure that
+
+[100.799 - 104.93900000000001] once artificial general intelligence and
+
+[103.259 - 106.92] then artificial super intelligence and
+
+[104.939 - 108.96] Global intelligence whatever you want to
+
+[106.92 - 111.18] call it as it's coming
+
+[108.96 - 113.69999999999999] how do we make sure that it's safe
+
+[111.18 - 115.259] how do we make sure that it isn't going
+
+[113.7 - 118.22] to kill us all and that it does what we
+
+[115.259 - 118.22] want etc etc
+
+[118.56 - 124.56] so there's a few components of this
+
+[120.899 - 126.38] problem one is just the software how do
+
+[124.56 - 128.88] you write the code how do you even
+
+[126.38 - 132.18] generalize the principles of
+
+[128.88 - 134.4] intelligence into code into language so
+
+[132.18 - 137.81900000000002] that a machine can do it
+
+[134.4 - 139.98000000000002] so that is that is the first PR uh
+
+[137.819 - 142.14] problem of developing a cognitive
+
+[139.98 - 145.73899999999998] architecture like Raven and so if you're
+
+[142.14 - 147.95899999999997] new Raven is my open source project for
+
+[145.739 - 150.18] creating an artificial cognitive entity
+
+[147.959 - 152.18] or autonomous cognitive entity that's
+
+[150.18 - 155.22] actually what we're pivoting to Ace
+
+[152.18 - 157.86] autonomous cognitive entity is a machine
+
+[155.22 - 161.16] that can think on its own
+
+[157.86 - 162.59900000000002] uh indefinitely and ideally will be safe
+
+[161.16 - 164.42] I've written a few books on this topic
+
+[162.599 - 167.57999999999998] so on and so forth
+
+[164.42 - 170.64] so that is
+
+[167.58 - 174.06] the purpose of this project and with
+
+[170.64 - 176.819] that I have a whole bunch of stuff code
+
+[174.06 - 180.06] experiments books so on and so forth but
+
+[176.819 - 183.66] as you can see we have 541 Stars 58
+
+[180.06 - 185.34] Forks uh 69 Watchers
+
+[183.66 - 189.239] what we are working on with this project
+
+[185.34 - 191.70000000000002] right now we're on consensus Step 2 to
+
+[189.239 - 193.8] define a consensus policy
+
+[191.7 - 196.61999999999998] and so for some background
+
+[193.8 - 200.76000000000002] the idea is that
+
+[196.62 - 202.20000000000002] something as important as AGI artificial
+
+[200.76 - 203.51899999999998] Global intelligence or autonomous
+
+[202.2 - 205.73899999999998] cognitive entities
+
+[203.519 - 208.5] whatever digital super intelligence
+
+[205.739 - 210.48000000000002] something like this is entirely too
+
+[208.5 - 214.14] important for it to be developed
+
+[210.48 - 216.29999999999998] entirely behind closed doors
+
+[214.14 - 219.23899999999998] so one of the chief goals one of the
+
+[216.3 - 220.799] foremost goals of my project is to have
+
+[219.239 - 223.799] the development be completely
+
+[220.799 - 226.62] transparent and as participatory as
+
+[223.799 - 229.739] possible that's what we're working on
+
+[226.62 - 232.62] and so consensus Capital C consensus is
+
+[229.739 - 234.18] a method of inviting more people to the
+
+[232.62 - 236.459] table now
+
+[234.18 - 239.64000000000001] we're learning lessons as we go so for
+
+[236.459 - 241.799] instance not everyone is qualified to uh
+
+[239.64 - 243.89999999999998] contribute but everyone's voice should
+
+[241.799 - 245.87900000000002] be heard and so we're working on the
+
+[243.9 - 247.44] nuances of of that
+
+[245.879 - 250.5] so for instance one of the tools that
+
+[247.44 - 253.019] we're looking at is using chialo so I
+
+[250.5 - 254.7] did a test uh chialo here where it's
+
+[253.019 - 257.04] basically like you have a you have a
+
+[254.7 - 259.38] problem you have a few proposals and
+
+[257.04 - 261.23900000000003] then you pick apart those proposals and
+
+[259.38 - 262.8] so this is a way of organizing and
+
+[261.239 - 264.78] formalizing debate I don't know if this
+
+[262.8 - 267.78000000000003] is the way that we'll go certainly not
+
+[264.78 - 270.9] in public not fully in public we're
+
+[267.78 - 272.52] working through the process of consensus
+
+[270.9 - 275.4] so we're basing it on a book called
+
+[272.52 - 277.62] consensus through conversation which is
+
+[275.4 - 279.84] has a five-step process five or six step
+
+[277.62 - 283.08] process
+
+[279.84 - 286.38] um and we are on step two which is set
+
+[283.08 - 289.19899999999996] the decision criteria which is a list of
+
+[286.38 - 291.419] criteria that whatever proposal you end
+
+[289.199 - 293.28000000000003] up coming with uh or coming to or
+
+[291.419 - 294.9] decision that you come to these are the
+
+[293.28 - 296.75899999999996] criteria that must be met in order for
+
+[294.9 - 299.34] it to be considered successful
+
+[296.759 - 301.86] so I use gpt3 to summarize all the
+
+[299.34 - 304.73999999999995] conversations into a list of must-haves
+
+[301.86 - 306.84000000000003] nice to haves and must not haves and
+
+[304.74 - 309.66] people seem to like that summary so we
+
+[306.84 - 311.69899999999996] have we have some boundaries for our
+
+[309.66 - 314.28000000000003] consensus policy that we're working on
+
+[311.699 - 317.04] so then the question is okay why what do
+
+[314.28 - 321.0] we use consensus for
+
+[317.04 - 323.40000000000003] consensus will likely be used for making
+
+[321.0 - 325.8] architectural decisions on how to deploy
+
+[323.4 - 327.539] Raven so this will be things like you
+
+[325.8 - 330.24] know what kind of containers to use what
+
+[327.539 - 333.539] kind of cloud services to use
+
+[330.24 - 335.88] um the the definitions around you know
+
+[333.539 - 338.15999999999997] release one the MVP release two that
+
+[335.88 - 340.74] sort of thing
+
+[338.16 - 342.72] it probably oh we'll also use it to make
+
+[340.74 - 344.039] decisions around like what communication
+
+[342.72 - 345.78000000000003] channels should we use should we use
+
+[344.039 - 346.62] like a shared Google Calendar should we
+
+[345.78 - 350.58] use
+
+[346.62 - 354.84000000000003] you know Discord or slack or whatever
+
+[350.58 - 356.4] it probably will not extend into the
+
+[354.84 - 360.419] full governance
+
+[356.4 - 362.46] of of the whole Raven project so my
+
+[360.419 - 367.79999999999995] startup is is almost certainly going to
+
+[362.46 - 369.59999999999997] own the the product the overall process
+
+[367.8 - 373.02000000000004] um we're talking with various uh
+
+[369.6 - 374.88] potential investors and customers
+
+[373.02 - 378.479] um in order to figure that out talking
+
+[374.88 - 379.68] to the CTO of my startup we will
+
+[378.479 - 381.0] probably
+
+[379.68 - 383.16] or at least where we're looking right
+
+[381.0 - 385.74] now is we will probably uh
+
+[383.16 - 388.74] professionally code the Nexus service
+
+[385.74 - 390.96000000000004] and the conductor service and then as
+
+[388.74 - 392.94] once we establish
+
+[390.96 - 394.44] all those guidelines all the all the
+
+[392.94 - 397.62] standards all the apis and the
+
+[394.44 - 399.96] deployments and stuff then
+
+[397.62 - 401.819] as there's as there's a common framework
+
+[399.96 - 405.0] then everyone else will be able to
+
+[401.819 - 408.12] contribute microservices as they wish
+
+[405.0 - 409.62] and we'll probably have templates so
+
+[408.12 - 411.539] that if you have an idea for a micro
+
+[409.62 - 414.18] service that you want to create you can
+
+[411.539 - 415.919] just copy a baseline repository throw it
+
+[414.18 - 418.34000000000003] in and it'll have all the all the you
+
+[415.919 - 420.9] know basic authentication and other
+
+[418.34 - 423.419] Telemetry Bells whistles and knobs and
+
+[420.9 - 426.35999999999996] levers that you need to get started but
+
+[423.419 - 428.81899999999996] we will probably own fully owned
+
+[426.36 - 431.039] the Nexus and the conductor maybe a
+
+[428.819 - 432.24] couple other Baseline Services we'll see
+
+[431.039 - 433.979] that's the direction that we're going
+
+[432.24 - 435.66] right now
+
+[433.979 - 438.18] um so it is getting organized it is
+
+[435.66 - 440.09900000000005] coming together my startup is also uh
+
+[438.18 - 441.36] we're in crunch time for releasing our
+
+[440.099 - 445.8] first product
+
+[441.36 - 447.72] so that's why again uh uh progress is
+
+[445.8 - 450.84000000000003] slow but this is also part of consensus
+
+[447.72 - 453.3] too something this important deserves
+
+[450.84 - 456.96] the time that it's going to take
+
+[453.3 - 460.08] so with all that said we are in the
+
+[456.96 - 462.65999999999997] middle of step two of consensus this
+
+[460.08 - 463.62] time next week next Friday we will uh
+
+[462.66 - 466.38000000000005] call
+
+[463.62 - 468.12] um consensus step two we'll bring that
+
+[466.38 - 470.88] to a close and then we'll start
+
+[468.12 - 473.28000000000003] workshopping the actual proposal
+
+[470.88 - 475.44] uh for our consensus so I'll probably
+
+[473.28 - 477.539] draft something a bunch of other people
+
+[475.44 - 479.699] will contribute and we will get to
+
+[477.539 - 481.08] something where
+
+[479.699 - 481.8] um you know the community will vote on
+
+[481.08 - 485.099] it
+
+[481.8 - 489.08] so that's where we're at those are the
+
+[485.099 - 489.08] stakes and thanks for watching

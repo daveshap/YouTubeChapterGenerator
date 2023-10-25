@@ -1,0 +1,541 @@
+[1.319 - 6.18] all right gang David Shapiro here with
+
+[3.72 - 9.72] another video good morning uh today's
+
+[6.18 - 13.2] video was uh uh Community selected it is
+
+[9.72 - 14.759] learn AI step by step this is how I did
+
+[13.2 - 16.139] it
+
+[14.759 - 17.580000000000002] um so the first thing that you need to
+
+[16.139 - 20.099999999999998] know is
+
+[17.58 - 22.32] um follow the 80 20 rule so the 80 20
+
+[20.1 - 26.039] rule is you learn 80 of the material
+
+[22.32 - 28.38] with 20 of the time or effort uh for me
+
+[26.039 - 29.82] it's more like the 9010 but I understand
+
+[28.38 - 31.08] that not everyone's brain works like
+
+[29.82 - 33.78] mine
+
+[31.08 - 36.599999999999994] um so follow the 80 20 rule systematize
+
+[33.78 - 40.379000000000005] your learning process create your your
+
+[36.6 - 43.82] own learning plan and objectives invest
+
+[40.379 - 46.379] in learning methods learn how to learn
+
+[43.82 - 48.719] this will pay dividends because if you
+
+[46.379 - 51.18] learn if you understand how learning
+
+[48.719 - 53.760000000000005] happens you can optimize your effort for
+
+[51.18 - 55.26] Learning and then another rule of thumb
+
+[53.76 - 56.399] it's better to move on prematurely
+
+[55.26 - 58.379] because you can always go back and
+
+[56.399 - 60.120000000000005] review if needed if you don't know what
+
+[58.379 - 61.919999999999995] you're doing and you're just spinning
+
+[60.12 - 64.559] your wheels on one thing you're not
+
+[61.92 - 66.96000000000001] stretching yourself so the idea is to
+
+[64.559 - 69.119] stretch yourself and challenge yourself
+
+[66.96 - 71.28] and keep moving forward
+
+[69.119 - 75.299] this is the way
+
+[71.28 - 77.34] all right so step one Learn Python
+
+[75.299 - 78.9] um I recommend I actually recommend that
+
+[77.34 - 82.14] you learn you start with something more
+
+[78.9 - 84.42] basic like C or C plus plus I started
+
+[82.14 - 87.0] with Pascal back in high school
+
+[84.42 - 88.74000000000001] um then we moved to C plus plus
+
+[87.0 - 91.259] um you know my cousin and I built robots
+
+[88.74 - 93.78] using basic stamps back in the day you
+
+[91.259 - 97.5] can do Arduino but at the very least
+
+[93.78 - 99.54] Learn Python and I recommend taking a
+
+[97.5 - 101.579] multimodal approach
+
+[99.54 - 103.92] um so I started on Udacity many years
+
+[101.579 - 107.15899999999999] ago I was in one of the first users of
+
+[103.92 - 108.6] Udacity after Sebastian Throne launched
+
+[107.159 - 109.86] it because he did an experiment at
+
+[108.6 - 111.6] Stanford
+
+[109.86 - 113.479] um and was like okay yeah online
+
+[111.6 - 117.17999999999999] learning is is the way
+
+[113.479 - 120.67999999999999] there's any number of choices for uh
+
+[117.18 - 123.06] moocs many are free many are not anymore
+
+[120.68 - 126.47900000000001] don't worry about certifications nobody
+
+[123.06 - 127.14] cares like everybody knows python today
+
+[126.479 - 132.66] um
+
+[127.14 - 133.98] so uh yeah so just uh oh and the the
+
+[132.66 - 138.29999999999998] reason that you're doing this is to get
+
+[133.98 - 141.48] oriented just to have a curated uh way
+
+[138.3 - 142.8] to to quickly learn it and also books
+
+[141.48 - 144.959] um there are plenty of books out there
+
+[142.8 - 146.87900000000002] for for python
+
+[144.959 - 148.92000000000002] um there there is like python for
+
+[146.879 - 151.07999999999998] dummies but these are more like general
+
+[148.92 - 153.29999999999998] purpose like
+
+[151.08 - 155.09900000000002] um you know here's here's a broad thing
+
+[153.3 - 158.04000000000002] whereas
+
+[155.099 - 160.56] um deep learning by Francois Chalet
+
+[158.04 - 163.14] um this is this is where I learned uh
+
+[160.56 - 165.48] started uh not not with python but where
+
+[163.14 - 167.33999999999997] I started with with AI and because it's
+
+[165.48 - 168.959] very focused on a particular topic it's
+
+[167.34 - 171.599] actually a little bit better so I
+
+[168.959 - 174.78] recommend uh topical focused uh books
+
+[171.599 - 176.879] that happen to also teach you python
+
+[174.78 - 180.0] um so like computer vision is a good
+
+[176.879 - 182.04] topic NLP is a good topic
+
+[180.0 - 184.14] um but I also wanted to recommend the
+
+[182.04 - 185.76] rule of two so the rule of two is you
+
+[184.14 - 187.2] always read two books from different
+
+[185.76 - 190.07999999999998] authors so that you get different
+
+[187.2 - 193.01899999999998] perspectives I actually usually do like
+
+[190.08 - 195.48000000000002] three books now but if you do these two
+
+[193.019 - 197.519] if you do at least one mooc and one book
+
+[195.48 - 200.76] you probably will be pretty oriented to
+
+[197.519 - 202.92000000000002] python the goal is to get the basics and
+
+[200.76 - 206.7] get oriented not to master it
+
+[202.92 - 209.28] so remember 80 20 rule get get oriented
+
+[206.7 - 211.2] you know and then and then move on I've
+
+[209.28 - 213.54] never finished a mooc put it that way
+
+[211.2 - 215.879] like I've never finished one I go about
+
+[213.54 - 218.04] halfway and I'm like okay I get it this
+
+[215.879 - 222.42] is this is all I needed
+
+[218.04 - 224.599] step two practical projects many moocs
+
+[222.42 - 227.39999999999998] do have a Capstone project
+
+[224.599 - 229.92] but if it's not aligned with your
+
+[227.4 - 231.959] interest like I kind of don't care
+
+[229.92 - 234.95899999999997] um so once I learned enough python I
+
+[231.959 - 237.36] moved over to scikit-learn or sklearn to
+
+[234.959 - 239.76] model stock market data
+
+[237.36 - 242.12] um so basically pick something that you
+
+[239.76 - 245.04] actively care about and want to solve
+
+[242.12 - 247.86] whether it's home automation or
+
+[245.04 - 249.84] Raspberry Pi products projects or robots
+
+[247.86 - 252.78] or whatever don't care pick something
+
+[249.84 - 254.70000000000002] that you actually care about now the
+
+[252.78 - 256.139] thing is whatever you do
+
+[254.7 - 258.06] it has to be something that you care
+
+[256.139 - 260.1] enough about that you will be able to
+
+[258.06 - 262.44] get through failure setbacks and
+
+[260.1 - 266.46000000000004] frustration the key thing here the point
+
+[262.44 - 268.38] here is not to change the world the the
+
+[266.46 - 269.82] point here is to learn to carry projects
+
+[268.38 - 272.46] through to completion
+
+[269.82 - 274.979] and now some moocs will do that
+
+[272.46 - 276.71999999999997] um but I found that things that
+
+[274.979 - 279.479] resonated with me
+
+[276.72 - 281.28000000000003] um were were more important and uh so
+
+[279.479 - 283.139] there is no such thing as failure only
+
+[281.28 - 285.65999999999997] learning I don't remember who said that
+
+[283.139 - 289.02] but some some industrialist or whatever
+
+[285.66 - 291.78000000000003] in the late 19th century said that
+
+[289.02 - 293.34] um yeah so pick something it's not going
+
+[291.78 - 295.19899999999996] to change the world
+
+[293.34 - 297.11999999999995] um I also uh so I modeled stock market
+
+[295.199 - 299.34000000000003] data and then I took those lessons and
+
+[297.12 - 301.68] and automatically traded
+
+[299.34 - 303.35999999999996] um uh cryptocurrency on coinbase this
+
+[301.68 - 305.639] was years ago I don't do that anymore
+
+[303.36 - 306.96000000000004] but I made about 600 automatically
+
+[305.639 - 309.36] trading
+
+[306.96 - 311.28] um currency uh because of projects like
+
+[309.36 - 312.68] this so have something that has
+
+[311.28 - 316.919] measurable
+
+[312.68 - 318.12] tangible results and then work towards
+
+[316.919 - 322.08] that
+
+[318.12 - 324.18] step three build a deep neural network I
+
+[322.08 - 326.46] started with Keras it was brand new back
+
+[324.18 - 328.199] when I was coming up
+
+[326.46 - 329.69899999999996] um but I think Pi torch is all the rage
+
+[328.199 - 331.979] right now
+
+[329.699 - 333.96000000000004] um but anyways point being is build a
+
+[331.979 - 336.84] deep neural network of any kind from
+
+[333.96 - 338.63899999999995] scratch solve a real problem
+
+[336.84 - 340.5] um you will you will benefit by
+
+[338.639 - 342.02] understanding things like different
+
+[340.5 - 345.419] kinds of layers
+
+[342.02 - 348.12] parameters density uh loss functions all
+
+[345.419 - 349.639] that kind of fun stuff it's good to have
+
+[348.12 - 352.8] in your back pocket
+
+[349.639 - 354.66] so one thing that I did was I entered a
+
+[352.8 - 357.18] kaggle competition and this was before
+
+[354.66 - 358.5] there was any guidance on it and I was
+
+[357.18 - 361.16] like I have no idea what what
+
+[358.5 - 363.9] architecture of neural network to use
+
+[361.16 - 367.38000000000005] and so I created an evolutionary
+
+[363.9 - 369.65999999999997] algorithm that would uh start randomly
+
+[367.38 - 371.699] and then systematically find the best
+
+[369.66 - 373.68] neural network architecture for a given
+
+[371.699 - 376.199] kaggle problem it was probably going to
+
+[373.68 - 377.94] overfit but it was pretty cool
+
+[376.199 - 379.74] so build a deep neural network from
+
+[377.94 - 382.699] scratch again there are books out there
+
+[379.74 - 384.90000000000003] there's guides but the key thing is
+
+[382.699 - 387.0] understanding how to compose layers and
+
+[384.9 - 388.25899999999996] how that changes the Network's behavior
+
+[387.0 - 390.36] and so that you get an intuitive
+
+[388.259 - 393.06] understanding of what it means to have
+
+[390.36 - 394.91900000000004] information embedded in a network
+
+[393.06 - 397.319] step four
+
+[394.919 - 400.5] inner competitions
+
+[397.319 - 401.88] um I cut my teeth on kaggle there are
+
+[400.5 - 404.639] plenty of other competitions out there
+
+[401.88 - 407.1] that are some some are focused on on
+
+[404.639 - 410.40000000000003] machine learning others there are other
+
+[407.1 - 412.319] kinds of competitions there's plenty the
+
+[410.4 - 415.79999999999995] thing is competitions will force you to
+
+[412.319 - 417.36] grow in new ways because it's like oh
+
+[415.8 - 419.699] here's a here's a real world challenge
+
+[417.36 - 423.06] that I've never seen before the data is
+
+[419.699 - 425.94] messy the goal is not clear but again
+
+[423.06 - 429.0] the point is not to win it's to learn I
+
+[425.94 - 430.68] never want a single kaggle competition
+
+[429.0 - 433.02] um so basically I just said oh that
+
+[430.68 - 434.52] looks interesting I want to learn that
+
+[433.02 - 437.039] um another thing you can do I never did
+
+[434.52 - 439.02] this but uh join a team I've joined a
+
+[437.039 - 443.479] team now I'm learning to work with
+
+[439.02 - 443.479] people is a non-trivial problem
+
+[443.52 - 447.29999999999995] um step five Master language this is not
+
+[445.979 - 449.639] a joke
+
+[447.3 - 451.979] um learn to write and study language and
+
+[449.639 - 455.039] I am sorry for all you die hard computer
+
+[451.979 - 457.25899999999996] science people out there no math is not
+
+[455.039 - 459.71999999999997] the be-all end-all of everything I know
+
+[457.259 - 461.58000000000004] you like to think it is but it's not
+
+[459.72 - 464.03900000000004] um I say this often and that this is
+
+[461.58 - 465.78] that purists computer science and math
+
+[464.039 - 468.06] purists often can't see the forest for
+
+[465.78 - 471.17999999999995] the trees you need to take a step back
+
+[468.06 - 472.86] and look at the whole Forest since large
+
+[471.18 - 474.72] language models are all the rage right
+
+[472.86 - 477.72] now it behooves you to understand
+
+[474.72 - 478.68] language and not just language for its
+
+[477.72 - 481.139] own sake
+
+[478.68 - 483.84000000000003] was a mathematical concept language as
+
+[481.139 - 487.199] it is uh to the human brain
+
+[483.84 - 489.11999999999995] and also be creative there is plenty of
+
+[487.199 - 492.12] science out there if you are a die-hard
+
+[489.12 - 494.46] scientist go read some science on the
+
+[492.12 - 497.099] value of cross-training your brain by
+
+[494.46 - 500.46] doing science and art do something
+
+[497.099 - 504.06] creative I'm an author I write science
+
+[500.46 - 507.84] fiction and I would not be here if it if
+
+[504.06 - 513.06] I had not also been an artist of some
+
+[507.84 - 515.8199999999999] kind and so I will say this uh again and
+
+[513.06 - 518.64] again reading is a superpower
+
+[515.82 - 520.74] bookcase that's how I got here
+
+[518.64 - 523.1999999999999] remember that dude Ty what's his name
+
+[520.74 - 526.08] here I am in my garage I have a lot of
+
+[523.2 - 529.6800000000001] books right like I don't like that dude
+
+[526.08 - 532.9200000000001] but but he wasn't wrong so yes read a
+
+[529.68 - 535.8599999999999] lot write a lot learn language study
+
+[532.92 - 539.04] language it is critical all right
+
+[535.86 - 541.8000000000001] step six follow your purpose
+
+[539.04 - 544.019] everyone has a higher purpose some
+
+[541.8 - 546.18] reason that they were born and I don't
+
+[544.019 - 547.5] just mean like the biological reasons
+
+[546.18 - 550.14] that you were born because your mom was
+
+[547.5 - 551.339] pregnant and that here you are
+
+[550.14 - 554.459] um
+
+[551.339 - 558.36] you weren't born to make money
+
+[554.459 - 561.2399999999999] you have some higher purpose and if you
+
+[558.36 - 562.2] align your choices with that higher
+
+[561.24 - 564.48] purpose
+
+[562.2 - 566.1600000000001] things will work out this is called
+
+[564.48 - 567.9590000000001] alignment and I don't mean alignment in
+
+[566.16 - 570.3] machine learning terms I mean like
+
+[567.959 - 571.9799999999999] spiritual alignment or philosophical
+
+[570.3 - 573.8389999999999] alignment or alignment with the Stars
+
+[571.98 - 575.4590000000001] however you want to think of it there's
+
+[573.839 - 577.8000000000001] a book called the Genius myth by Michael
+
+[575.459 - 583.0189999999999] Mead that talks about this
+
+[577.8 - 586.26] everyone had something that
+
+[583.019 - 589.5] really mattered to them and it and it's
+
+[586.26 - 592.5] never going to be like oh you know like
+
+[589.5 - 594.36] God told me I am going to be this
+
+[592.5 - 595.98] um that's not how it works
+
+[594.36 - 598.5600000000001] um it's more like you know what you have
+
+[595.98 - 600.66] to be doing right I don't know where I'm
+
+[598.56 - 602.5189999999999] going to end up I just know that
+
+[600.66 - 605.64] that what I'm doing
+
+[602.519 - 608.279] aligns with my purpose and that's how I
+
+[605.64 - 611.1] got where I am I have spent more than a
+
+[608.279 - 614.1] decade tinkering with machine learning
+
+[611.1 - 616.5] and Python and all these experiments
+
+[614.1 - 619.44] with no expectation that it would ever
+
+[616.5 - 622.26] pay off that wasn't the point there is
+
+[619.44 - 625.86] no substitute for passion there is no
+
+[622.26 - 628.5] substitute for that that immutable drive
+
+[625.86 - 631.08] that we all have now it can take a while
+
+[628.5 - 633.18] to ReDiscover it but think of the thing
+
+[631.08 - 635.1] that you would do anyways think of the
+
+[633.18 - 636.959] thing that you care so much about you
+
+[635.1 - 638.94] just want to do it that's your purpose
+
+[636.959 - 640.7399999999999] and also another way to find your
+
+[638.94 - 642.12] purpose is it's often the thing that
+
+[640.74 - 643.8] you're most afraid of
+
+[642.12 - 645.779] it's the thing that you're so afraid of
+
+[643.8 - 648.0] failing at because it's so important to
+
+[645.779 - 649.26] you that you're not even going to start
+
+[648.0 - 650.64] that's the thing that you should be
+
+[649.26 - 654.86] doing
+
+[650.64 - 654.86] this is the way thanks for watching

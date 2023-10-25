@@ -1,0 +1,1227 @@
+[0.12 - 5.12] one question that I get a lot is Dave
+
+[3.04 - 7.319] you have made literally hundreds of
+
+[5.12 - 9.96] videos and you know you've written a few
+
+[7.319 - 12.759] books but the books are out of date and
+
+[9.96 - 15.16] I want to use a chatbot to talk with you
+
+[12.759 - 18.08] or you know otherwise use all all your
+
+[15.16 - 20.4] material and so if you saw this video
+
+[18.08 - 22.198999999999998] yesterday Matt wolf produced this video
+
+[20.4 - 24.439] where he basically made a Mr Beast
+
+[22.199 - 27.400000000000002] chatbot by downloading I think it was
+
+[24.439 - 29.72] like 11 or 12 uh transcripts which is a
+
+[27.4 - 32.599] really phenomenal idea but also I've
+
+[29.72 - 35.0] been talking about mgpt and other ways
+
+[32.599 - 38.48] of uh basically organizing arbitrarily
+
+[35.0 - 41.44] large uh data sets so I went to one of
+
+[38.48 - 44.48] my old repos where I had my YouTube
+
+[41.44 - 47.239] chapter generator so uh if you've seen
+
+[44.48 - 48.718999999999994] some of my older videos I I generated
+
+[47.239 - 51.038999999999994] this thing where it would you know just
+
+[48.719 - 53.719] download and and download the transcript
+
+[51.039 - 55.32] from a video and make a uh set of
+
+[53.719 - 56.76] YouTube chapters this is done
+
+[55.32 - 58.559] automatically there's other services
+
+[56.76 - 60.44] that do this now even YouTube will
+
+[58.559 - 62.32] sometimes generate chapters for you
+
+[60.44 - 64.36] so this project is kind of you know
+
+[62.32 - 65.88] whatever um but if you want to see how
+
+[64.36 - 69.159] it's done this is how it's done and this
+
+[65.88 - 72.0] was back with gpt3 so with gp4 it's
+
+[69.159 - 74.32000000000001] probably infinitely easier but in the
+
+[72.0 - 75.72] service of doing this I wrote a script
+
+[74.32 - 78.479] that literally it's just called download
+
+[75.72 - 80.52] all transcripts and all it does is it
+
+[78.479 - 82.159] goes to my channel and you can you can
+
+[80.52 - 83.79899999999999] change it so that it will go to any
+
+[82.159 - 86.43900000000001] channel you just change the channel ID
+
+[83.799 - 89.43900000000001] here um and it will download literally
+
+[86.439 - 93.39899999999999] every transcript um so here you can see
+
+[89.439 - 95.96] that I have 270 plus transcripts from
+
+[93.399 - 98.64] all of my videos this is obviously a
+
+[95.96 - 101.19999999999999] potentially highly valuable uh Corpus of
+
+[98.64 - 102.64] training data now one thing is that I
+
+[101.2 - 105.07900000000001] think people are coming to terms with
+
+[102.64 - 107.64] the fact that fine tuning is not useful
+
+[105.079 - 109.63999999999999] for uh knowledge representation we're
+
+[107.64 - 113.24] now in the age of retrieval augmented
+
+[109.64 - 115.64] generation and basically mgpt is just a
+
+[113.24 - 117.88] retrieval system it's not a particularly
+
+[115.64 - 119.36] sophisticated memory system and one
+
+[117.88 - 121.56] thing that I want to address is like yes
+
+[119.36 - 123.52] I can be very highly critical of
+
+[121.56 - 125.2] scientific papers I'm notoriously
+
+[123.52 - 127.32] difficult to impress I'm sorry if this
+
+[125.2 - 129.31900000000002] frustrates some people um another thing
+
+[127.32 - 130.51999999999998] that I wanted to address is that some
+
+[129.319 - 132.56] members of the audience are more
+
+[130.52 - 134.68] scientifically minded and some members
+
+[132.56 - 136.44] of the audience are more engineering and
+
+[134.68 - 139.12] coding minded where they just want
+
+[136.44 - 140.4] practical results so sometimes I'll be
+
+[139.12 - 142.31900000000002] talking about things from a more
+
+[140.4 - 144.64000000000001] scientific lens and sometimes I'll be
+
+[142.319 - 147.11999999999998] talking from a more pragmatic lens so my
+
+[144.64 - 150.319] criticism of mgpt is is more from the
+
+[147.12 - 152.8] pragmatic lens um and yes I'm aware that
+
+[150.319 - 154.44] there are AB testing and all sorts of
+
+[152.8 - 156.56] more scientifically rigorous things that
+
+[154.44 - 160.519] I can do and I apologize again if that
+
+[156.56 - 162.48] frustrates you anyways moving on so the
+
+[160.519 - 164.64000000000001] uh basically we've got this huge Corpus
+
+[162.48 - 166.599] of valuable data here so if you want to
+
+[164.64 - 167.83999999999997] understand how my mind works and all
+
+[166.599 - 170.04] that stuff you can download these
+
+[167.84 - 172.879] transcripts it's all free um and do
+
+[170.04 - 175.44] whatever you want with it um just don't
+
+[172.879 - 178.64] you know do anything creepy uh not that
+
+[175.44 - 182.8] anyone would I don't think anyways so
+
+[178.64 - 185.48] now yesterday I created a video about uh
+
+[182.8 - 186.959] latent space activation um so a few
+
+[185.48 - 189.67999999999998] recent Concepts that I've been working
+
+[186.959 - 192.159] on I made another video talking about
+
+[189.68 - 193.87900000000002] sparse priming representations so if you
+
+[192.159 - 197.04] haven't seen that a sparse priming
+
+[193.879 - 199.07999999999998] representation is a way of activating
+
+[197.04 - 201.959] certain aspects of a large language
+
+[199.08 - 204.08] model without having the full bulk of it
+
+[201.959 - 206.31900000000002] and so this this banks on the fact that
+
+[204.08 - 208.76000000000002] large language models are associative
+
+[206.319 - 210.56] just like human memory is however large
+
+[208.76 - 212.84] language models have read literally
+
+[210.56 - 214.76] hundreds of lifetimes worth of text so
+
+[212.84 - 217.04] you only need to remind them of a few
+
+[214.76 - 218.79899999999998] key facts or features or assertions
+
+[217.04 - 221.159] about stuff even things that are outside
+
+[218.799 - 224.0] of its training uh distribution and it
+
+[221.159 - 225.879] can then adopt and use new Concepts you
+
+[224.0 - 228.4] can teach it new terms you can teach it
+
+[225.879 - 231.159] new events all sorts of stuff using
+
+[228.4 - 233.28] sparse priming representations and you
+
+[231.159 - 235.67999999999998] can compress relatively large things I
+
+[233.28 - 237.76] actually took um my systems thinking
+
+[235.68 - 240.0] book that I'm working on and gave it to
+
+[237.76 - 241.56] Claude And I asked Claude to create a
+
+[240.0 - 243.64] sparse priming representation of my
+
+[241.56 - 245.48] systems thinking book and it was able to
+
+[243.64 - 248.55999999999997] compress it down to about a page and
+
+[245.48 - 250.56] then unpack most of it now this is
+
+[248.56 - 252.92000000000002] basically a form of semantic compression
+
+[250.56 - 254.959] or you might say uh from a mathematical
+
+[252.92 - 258.71999999999997] perspective it's like a semantic PCA
+
+[254.959 - 261.32] principal uh component analysis um but
+
+[258.72 - 264.40000000000003] anyways the idea here is that it is a
+
+[261.32 - 266.199] form of lossy verbal compression um but
+
+[264.4 - 267.79999999999995] because llms have the ability to
+
+[266.199 - 271.12] confabulate which means that they can
+
+[267.8 - 273.0] infer or impute uh or kind of guess um
+
+[271.12 - 275.32] sparse priming representations are super
+
+[273.0 - 277.0] useful uh and then yesterday I talked
+
+[275.32 - 278.52] about lat and space Activation so lat
+
+[277.0 - 280.96] and space activation is kind of the
+
+[278.52 - 283.639] broader concept of what's going on
+
+[280.96 - 286.4] behind the scenes inside of the model
+
+[283.639 - 288.08] and then uh also yesterday I mentioned
+
+[286.4 - 290.59999999999997] uh something that I was working on which
+
+[288.08 - 293.84] is what I call the Basher Loop or bshr
+
+[290.6 - 296.8] so bshr is the point of today's video
+
+[293.84 - 300.0] and this stands for brainstorm search
+
+[296.8 - 302.24] hypothesize and refine so I'm married a
+
+[300.0 - 304.8] librarian um so this basically
+
+[302.24 - 307.16] constitutes dinner conversation for us
+
+[304.8 - 309.88] but in the field of information and uh
+
+[307.16 - 311.56] librar science uh people have
+
+[309.88 - 313.36] information needs this is why you go to
+
+[311.56 - 315.36] Google this is why you go to Wikipedia
+
+[313.36 - 318.56] or even you search Reddit or
+
+[315.36 - 320.68] YouTube now there are tools out there
+
+[318.56 - 324.919] like perplexity like the chatbot that
+
+[320.68 - 326.40000000000003] Matt wolf built um but there's one thing
+
+[324.919 - 328.479] a few things missing from all of these
+
+[326.4 - 331.19899999999996] tools and that is information literacy
+
+[328.479 - 332.8] and information for strategies so I am
+
+[331.199 - 335.28000000000003] here to teach you about that and we are
+
+[332.8 - 338.8] also here to um introduce the Basher
+
+[335.28 - 340.79999999999995] Loop uh repo which is brand new um but
+
+[338.8 - 344.84000000000003] basically the ultimate goal here is to
+
+[340.8 - 347.039] create a Basher Loop uh Search tool
+
+[344.84 - 350.0] chatbot that will allow you to search
+
+[347.039 - 351.479] literally all of my videos um so there's
+
+[350.0 - 353.28] a lot of steps to do we're not going to
+
+[351.479 - 355.8] finish it today but I wanted to take
+
+[353.28 - 357.4] this time to one introduce the repo
+
+[355.8 - 360.24] introduce the concepts and show you the
+
+[357.4 - 361.88] work that I've already done so so uh
+
+[360.24 - 365.12] when you first get to the repo it's just
+
+[361.88 - 367.8] Dave shap bshr Loop or Basher loop as I
+
+[365.12 - 371.12] as I say it out loud um so the Basher
+
+[367.8 - 373.72] Loop welcome to the uh you know uh the
+
+[371.12 - 376.24] repo uh it allows you to search for AR
+
+[373.72 - 378.28000000000003] arbitrarily large information domains um
+
+[376.24 - 379.88] this is what it means the overview so
+
+[378.28 - 382.15999999999997] the overview of the loop first
+
+[379.88 - 385.759] brainstorm it accepts a query from the
+
+[382.16 - 387.199] user it brainstorms a list of of of
+
+[385.759 - 388.44] questions which I showed you yesterday
+
+[387.199 - 391.199] and I'll show you the prompt that I used
+
+[388.44 - 393.52] to do it uh today in just a little bit
+
+[391.199 - 396.16] then you use uh search functionality
+
+[393.52 - 398.31899999999996] whether it's you know apis or vector
+
+[396.16 - 400.52000000000004] database or whatever the queries that
+
+[398.319 - 402.47900000000004] you start with are then basically just
+
+[400.52 - 404.75899999999996] piped to whatever your information tap
+
+[402.479 - 408.56] is or if you have multiple information
+
+[404.759 - 410.91900000000004] TS you can use that then hypothesize so
+
+[408.56 - 412.96] you take the information that is
+
+[410.919 - 415.68] retrieved from your data source whether
+
+[412.96 - 418.479] it is wikkipedia or a vector database or
+
+[415.68 - 421.36] just a general internet search um and
+
+[418.479 - 423.68] then you have the llm read all of it and
+
+[421.36 - 426.759] form a hypothesis based on that
+
+[423.68 - 429.479] information this hypothesis is an answer
+
+[426.759 - 431.199] to the potential question it says okay
+
+[429.479 - 432.71999999999997] based on everything that you're seeing
+
+[431.199 - 435.40000000000003] this is the answer and if you want to
+
+[432.72 - 437.0] try this this is basically what uh
+
+[435.4 - 439.039] perplexity does but it does it as a
+
+[437.0 - 441.24] single step where it just searches and
+
+[439.039 - 443.84] summarizes it doesn't really form a
+
+[441.24 - 446.039] hypothesis uh nor does it actually write
+
+[443.84 - 448.31899999999996] good queries which is my chief complaint
+
+[446.039 - 451.52] and why I canceled my perplexity
+
+[448.319 - 455.0] subscription um and then finally refine
+
+[451.52 - 457.12] so this is refine or recurse or whatever
+
+[455.0 - 459.84] but the idea is you don't just do one
+
+[457.12 - 461.16] information search you like think about
+
+[459.84 - 463.479] the last time that you had a really
+
+[461.16 - 465.12] challenging problem what do you do you
+
+[463.479 - 467.24] do a Google search you open a bunch of
+
+[465.12 - 468.84000000000003] tabs you read a few things you read a
+
+[467.24 - 470.68] few more things and then you learn about
+
+[468.84 - 472.52] the space and then you go write a better
+
+[470.68 - 474.96] information query you write a better
+
+[472.52 - 477.599] search query so this is the loop this is
+
+[474.96 - 479.479] why it is a loop is because finding and
+
+[477.599 - 482.039] using the correct information is not not
+
+[479.479 - 483.56] a singl step process when you go to the
+
+[482.039 - 485.87899999999996] library whether it's the University
+
+[483.56 - 487.12] library or the local city library you
+
+[485.879 - 489.03900000000004] what do you do you go you talk to a
+
+[487.12 - 490.52] librar and they ask you a bunch of
+
+[489.039 - 493.56] questions about what you're trying to
+
+[490.52 - 495.08] achieve and then you uh you know you go
+
+[493.56 - 496.599] look at a book and you take some notes
+
+[495.08 - 499.19899999999996] and it's like okay cool I liked this
+
+[496.599 - 502.599] book but now that you're informed you go
+
+[499.199 - 505.24] from a naive query to an informed query
+
+[502.599 - 507.12] real quick Dave here with a request so
+
+[505.24 - 508.919] You' probably noticed that I'm cranking
+
+[507.12 - 511.159] out videos and I'm really getting my
+
+[508.919 - 513.88] content dialed into what is adding the
+
+[511.159 - 516.24] most value to you guys and so I'm really
+
+[513.88 - 518.599] doubling down on subscriber growth and
+
+[516.24 - 520.279] just really serving the community now
+
+[518.599 - 521.88] the reason that I've been able to
+
+[520.279 - 523.599] increase the quality of my videos and
+
+[521.88 - 526.16] the frequency is because I've stepped
+
+[523.599 - 528.1600000000001] away from Consulting more than half my
+
+[526.16 - 529.8] income came from Consulting so I'm
+
+[528.16 - 532.0799999999999] really kind of hurting for cash right
+
+[529.8 - 534.16] now however I have been largely
+
+[532.08 - 536.5600000000001] supported by a Grassroots movement so my
+
+[534.16 - 539.6] request is Hop on over to my patreon
+
+[536.56 - 541.64] page and sign up the lowest tier is $5 a
+
+[539.6 - 542.88] month and that gets you access to
+
+[541.64 - 545.16] Discord which I'll show you in just a
+
+[542.88 - 546.56] moment but I also have a premium Discord
+
+[545.16 - 549.3199999999999] tier which gives you access to some
+
+[546.56 - 551.959] private channels some live streams and
+
+[549.32 - 554.2] QA sessions and that sort of thing so if
+
+[551.959 - 556.16] you could help me out and you'll get
+
+[554.2 - 557.8000000000001] access to this community uh and it's a
+
+[556.16 - 559.68] great Community we've got almost 600
+
+[557.8 - 561.959] people right now and we talk about all
+
+[559.68 - 564.1999999999999] kinds of stuff not just AI we talk about
+
+[561.959 - 566.279] the future of humanity we have artistic
+
+[564.2 - 568.279] uh interest we talk about economics we
+
+[566.279 - 570.12] talk about existential coping post-
+
+[568.279 - 572.16] labor economics all of the above and
+
+[570.12 - 575.12] then finally I also have some premium
+
+[572.16 - 577.7199999999999] channels for the high tier subscribers
+
+[575.12 - 580.16] so thanks for watching and uh yeah thank
+
+[577.72 - 582.8000000000001] you you go from a naive query to an
+
+[580.16 - 584.04] informed query so in this is where I'll
+
+[582.8 - 585.519] go down and I'm not going to read all of
+
+[584.04 - 587.24] these to you verbatim but I'm just
+
+[585.519 - 588.6] pointing out that this information is
+
+[587.24 - 590.399] here in the repost so that you can get
+
+[588.6 - 592.0400000000001] familiar because I'm assuming that most
+
+[590.399 - 593.399] of you are not familiar with librarian
+
+[592.04 - 595.16] information science so here's some
+
+[593.399 - 597.48] critical things that I can teach you so
+
+[595.16 - 599.16] that you can make informed queries so
+
+[597.48 - 601.0790000000001] first of all what we're talking about is
+
+[599.16 - 603.56] information foraging information
+
+[601.079 - 605.88] foraging is when you go into an unknown
+
+[603.56 - 607.4399999999999] or incomplete information domain where
+
+[605.88 - 609.0] you have an information need but you
+
+[607.44 - 611.1600000000001] don't necessarily even know what
+
+[609.0 - 613.2] questions to ask so you have to go in
+
+[611.16 - 614.3199999999999] search of information by basically
+
+[613.2 - 617.12] starting out
+
+[614.32 - 618.88] guessing information literacy is one of
+
+[617.12 - 621.079] the primary things that I complain about
+
+[618.88 - 623.959] both with uh these tools and humans in
+
+[621.079 - 626.8] general um so information literacy is
+
+[623.959 - 629.079] basically understanding uh how to engage
+
+[626.8 - 631.5999999999999] with sources of information um in order
+
+[629.079 - 633.64] order to find correct information or
+
+[631.6 - 634.76] validate the information that you have
+
+[633.64 - 636.68] and this is something that I talked
+
+[634.76 - 638.959] about yesterday and we'll also show you
+
+[636.68 - 641.079] in just a moment where the way that I
+
+[638.959 - 643.88] build information literacy into this
+
+[641.079 - 645.7199999999999] tool is by telling the llm during the
+
+[643.88 - 648.0] brainstorm phase to generate
+
+[645.72 - 649.44] counterfactual questions basically it's
+
+[648.0 - 651.88] trying to prove itself wrong and it's
+
+[649.44 - 654.0790000000001] trying to find all sides of Any Given
+
+[651.88 - 658.12] information problem which will result in
+
+[654.079 - 660.3599999999999] a better uh recall um with recall is a
+
+[658.12 - 662.279] very specific term from library science
+
+[660.36 - 664.0790000000001] where basically are you getting all of
+
+[662.279 - 667.519] the information that is relevant that is
+
+[664.079 - 670.12] Salient to your query um so next up is
+
+[667.519 - 674.519] satisficing so satisficing is a
+
+[670.12 - 677.44] portmanto of um sufficing and satisfying
+
+[674.519 - 679.32] so when you satisfy an information query
+
+[677.44 - 681.6] the idea is that you have found you have
+
+[679.32 - 683.36] gotten to the level of good enough it's
+
+[681.6 - 685.88] not perfect it's not complete but you
+
+[683.36 - 689.0790000000001] have the information that you imminently
+
+[685.88 - 691.16] need and you're ready to move on so one
+
+[689.079 - 693.079] example that you can use for satisficing
+
+[691.16 - 695.399] is when you're looking for a restaurant
+
+[693.079 - 697.2399999999999] to go to there are that you might have
+
+[695.399 - 698.72] in your mind the perfect restaurant but
+
+[697.24 - 700.8] the perfect restaurant might not be
+
+[698.72 - 702.6800000000001] available it might be too far uh it
+
+[700.8 - 704.16] might just not even exist and so what
+
+[702.68 - 706.8389999999999] you do is you look for something that is
+
+[704.16 - 708.92] good enough and so the idea is that
+
+[706.839 - 711.0790000000001] within information foraging within
+
+[708.92 - 713.88] search you need to satisfice from time
+
+[711.079 - 715.3599999999999] to time which means that the information
+
+[713.88 - 717.48] the exact information that you need
+
+[715.36 - 719.44] might not be available a definitive
+
+[717.48 - 721.279] answer to your question might not even
+
+[719.44 - 723.0790000000001] be possible if you watch the video that
+
+[721.279 - 725.6] I made yesterday one of the things that
+
+[723.079 - 728.079] I asked was what is the exact Coastline
+
+[725.6 - 730.9590000000001] of Britain and the answer that it gave
+
+[728.079 - 732.8389999999999] me was well that's really hard to
+
+[730.959 - 735.16] determine but here's how you could go
+
+[732.839 - 736.6800000000001] about it and so that the answer to the
+
+[735.16 - 738.76] information query that I had the
+
+[736.68 - 741.519] information need was not a definitive
+
+[738.76 - 743.519] answer but rather uh this is how you
+
+[741.519 - 745.9590000000001] approach that information problem so in
+
+[743.519 - 748.04] that case the what what it needed to do
+
+[745.959 - 750.76] was outside of the scope of information
+
+[748.04 - 752.76] foraging um information needs so I've
+
+[750.76 - 755.0] referred to this before but basically
+
+[752.76 - 757.48] all problems are a form of information
+
+[755.0 - 760.56] need so an information need is I have
+
+[757.48 - 763.0790000000001] some sort of problem solution query
+
+[760.56 - 765.5999999999999] whatever and I need information in order
+
+[763.079 - 768.4399999999999] to be able to tackle this whether you're
+
+[765.6 - 771.1990000000001] a CEO making making strategic decisions
+
+[768.44 - 772.8800000000001] about AI whether you're uh you know a
+
+[771.199 - 775.3199999999999] broke college student whose car is
+
+[772.88 - 777.16] making funny noises whether you're in a
+
+[775.32 - 778.6800000000001] relationship and you want to know like
+
+[777.16 - 780.7199999999999] how do I navigate this fight that we
+
+[778.68 - 783.6389999999999] just just had literally everything you
+
+[780.72 - 785.6] do in life isn't has information needs
+
+[783.639 - 788.16] um and this is why libraries are super
+
+[785.6 - 789.519] underrated as well as Librarians um but
+
+[788.16 - 794.199] of course I am biased because I married
+
+[789.519 - 795.9590000000001] a librarian now um this is a term that I
+
+[794.199 - 797.88] invent at least as far as I know that I
+
+[795.959 - 800.2399999999999] invented so there's what's called a
+
+[797.88 - 801.959] naive query so a naive query is
+
+[800.24 - 803.88] something that everyone does where you
+
+[801.959 - 805.4399999999999] go to Google and you you don't even know
+
+[803.88 - 808.399] the right questions to ask so you just
+
+[805.44 - 810.639] kind of guess you just launch your best
+
+[808.399 - 812.279] guess out into the ether and then Google
+
+[810.639 - 813.839] gives you back some stuff that it you
+
+[812.279 - 816.16] know Google has a lot of really good
+
+[813.839 - 818.8800000000001] algorithms so it can kind of infer what
+
+[816.16 - 820.199] you're actually looking for um and and
+
+[818.88 - 822.399] the reason that it can do this is
+
+[820.199 - 825.56] because lots of other people before you
+
+[822.399 - 827.279] have have launched those naive queries
+
+[825.56 - 828.88] and Google Tracks where they ultimately
+
+[827.279 - 830.959] end up and it says okay based on what
+
+[828.88 - 833.079] you're looking for based on what you put
+
+[830.959 - 835.16] in I'm predicting that this is actually
+
+[833.079 - 837.199] the page that you're looking for so you
+
+[835.16 - 839.6] launch a naive query because you don't
+
+[837.199 - 841.3599999999999] know what you don't know once you know a
+
+[839.6 - 843.1990000000001] little bit more then you can write an
+
+[841.36 - 845.72] informed query because like let's say
+
+[843.199 - 846.88] for instance you start with you know the
+
+[845.72 - 849.72] one of the questions that I asked
+
+[846.88 - 852.079] yesterday which was uh who were the
+
+[849.72 - 855.6] important Senators during the uh peak of
+
+[852.079 - 857.6389999999999] Roman power right you might not know
+
+[855.6 - 859.6] that there is a thing called Pax Romana
+
+[857.639 - 861.759] so part of the part of what you would
+
+[859.6 - 863.9590000000001] find during that query is you know the
+
+[861.759 - 866.32] Pax Romana or as someone pointed out in
+
+[863.959 - 868.7589999999999] the comments Rome was a kingdom first
+
+[866.32 - 871.1990000000001] then a republic then an Empire so
+
+[868.759 - 873.759] depends on how you define like you know
+
+[871.199 - 875.92] Empire versus Senate you know where how
+
+[873.759 - 878.1990000000001] do you define the peak of Roman power
+
+[875.92 - 881.079] and so you can then integrate all of
+
+[878.199 - 884.199] those bits of information to ask better
+
+[881.079 - 886.519] questions like uh you know was Rome more
+
+[884.199 - 888.399] powerful as a republic was Rome more
+
+[886.519 - 890.16] powerful as an Empire now of course
+
+[888.399 - 892.079] large language models already know most
+
+[890.16 - 893.68] of these things um which is why the
+
+[892.079 - 895.4399999999999] Basher Loop can actually work in a
+
+[893.68 - 897.3199999999999] vacuum for things particularly
+
+[895.44 - 899.639] historical information that have been
+
+[897.32 - 901.12] discussed to death but but as other
+
+[899.639 - 902.88] people pointed out in the comments
+
+[901.12 - 904.88] there's lots of data out there that is
+
+[902.88 - 906.8] just not in the training distribution
+
+[904.88 - 910.36] like your personal data like my YouTube
+
+[906.8 - 913.199] transcripts like corporate data um so
+
+[910.36 - 915.6] once you have your naive query you you
+
+[913.199 - 917.7589999999999] you know a little bit more then you can
+
+[915.6 - 920.639] dial into an information sent which is
+
+[917.759 - 922.04] like okay here are some Clues to what
+
+[920.639 - 924.24] I'm actually looking for and then you
+
+[922.04 - 925.959] can write an informed query and then I
+
+[924.24 - 927.639] already mentioned uh precision versus
+
+[925.959 - 930.5999999999999] recall I'm not going to read that one to
+
+[927.639 - 933.5600000000001] you and finally there's some use cases
+
+[930.6 - 935.279] um so I've kind of alluded to all these
+
+[933.56 - 937.279] you could apply the Basher Loop to the
+
+[935.279 - 939.12] business data Lake to an internet search
+
+[937.279 - 941.319] to a University Library system or a
+
+[939.12 - 943.68] personal archive in the case of my
+
+[941.319 - 945.4399999999999] transcripts so I've got all the
+
+[943.68 - 947.399] transcripts saved here you can go
+
+[945.44 - 951.12] through them all there's obviously quite
+
+[947.399 - 954.079] a few uh yeah so there's that and then
+
+[951.12 - 956.519] finally or not finally but next is
+
+[954.079 - 957.519] contributing so I've got uh there's
+
+[956.519 - 959.16] there's three ways that you can
+
+[957.519 - 961.0] contribute or participate
+
+[959.16 - 963.4399999999999] and the order is listed so please make
+
+[961.0 - 966.36] sure you check the contributing uh file
+
+[963.44 - 968.36] before jumping in first is join the
+
+[966.36 - 970.72] discussions um this is where everyone
+
+[968.36 - 972.5600000000001] should start um don't just jump in
+
+[970.72 - 975.0790000000001] immediately submitting issues and PLL
+
+[972.56 - 976.319] requests um if they're not if they don't
+
+[975.079 - 979.2399999999999] follow the guidelines here they'll be
+
+[976.319 - 981.88] closed and rejected um but yeah so check
+
+[979.24 - 983.04] out the contributing markdown file um if
+
+[981.88 - 984.639] you're not familiar with this the
+
+[983.04 - 986.16] discussions tab is up here so you can
+
+[984.639 - 988.24] jump in there's no discussions yet cuz I
+
+[986.16 - 990.04] just created the repo there's issues
+
+[988.24 - 991.839] here uh again no issues have been
+
+[990.04 - 993.8] created and there's no PLL uh there's no
+
+[991.839 - 998.399] poll requests yet either all
+
+[993.8 - 1000.8] right so then I've created demo 01 so
+
+[998.399 - 1003.959] this one will be um before we get all
+
+[1000.8 - 1005.88] the way into uh you know building our
+
+[1003.959 - 1008.56] own local repository our own local
+
+[1005.88 - 1009.639] database on my YouTube transcripts um
+
+[1008.56 - 1012.279] first we're just going to use an
+
+[1009.639 - 1015.0790000000001] existing information Source specifically
+
+[1012.279 - 1018.0] Wikipedia so I've got the pro the the
+
+[1015.079 - 1020.8389999999999] project defined here um I showed a very
+
+[1018.0 - 1023.0] naive uh like initial test yesterday
+
+[1020.839 - 1025.28] I've got the code copied here it doesn't
+
+[1023.0 - 1026.959] work yet so don't you know don't lower
+
+[1025.28 - 1028.72] your expectations we are still very
+
+[1026.959 - 1031.64] early in the process but what I did want
+
+[1028.72 - 1033.799] to show you was that demo1 is here it's
+
+[1031.64 - 1036.0] got its own read me and I also the the
+
+[1033.799 - 1038.24] work that I did do is that I already
+
+[1036.0 - 1040.48] wrote the system prompts so let me let's
+
+[1038.24 - 1042.76] go through these one at a time so this
+
+[1040.48 - 1044.88] is the system prompt for for 01 the
+
+[1042.76 - 1047.64] brainstorming one now what I had
+
+[1044.88 - 1049.679] yesterday was just this bit so you're a
+
+[1047.64 - 1051.4] search query generator yada yada
+
+[1049.679 - 1053.919] basically it generates a list of
+
+[1051.4 - 1056.2] questions um in a Json object that can
+
+[1053.919 - 1058.919] be used to do Google searches or
+
+[1056.2 - 1061.3600000000001] Wikipedia searches or whatever uh and so
+
+[1058.919 - 1064.6000000000001] this is the first part of the process
+
+[1061.36 - 1066.6789999999999] that will be used to generate uh the the
+
+[1064.6 - 1069.6789999999999] brainstorm step of the Basher Loop so
+
+[1066.679 - 1072.8400000000001] brainstorm a list of questions um but
+
+[1069.679 - 1076.0] then what I added was refine queries so
+
+[1072.84 - 1077.8799999999999] this in this integrates that idea of
+
+[1076.0 - 1080.84] whatever information you give the chat
+
+[1077.88 - 1082.4] GPT API um if you don't give it any
+
+[1080.84 - 1085.559] previous queries it'll be like okay
+
+[1082.4 - 1087.039] whatever but if you do it will integrate
+
+[1085.559 - 1089.12] it if these materials are present you
+
+[1087.039 - 1090.799] are to generate informed queries more
+
+[1089.12 - 1092.84] specific search queries that aim to zero
+
+[1090.799 - 1094.8799999999999] in on the correct information domain Do
+
+[1092.84 - 1096.72] Not Duplicate previously asked questions
+
+[1094.88 - 1099.0390000000002] use the notes and other information to
+
+[1096.72 - 1101.44] write better questions basically so this
+
+[1099.039 - 1102.96] one prompt will be will be part of the
+
+[1101.44 - 1104.72] Basher Loop so whether it's the first
+
+[1102.96 - 1106.96] time you're running it or subsequent
+
+[1104.72 - 1109.6000000000001] times it will generate recur uh
+
+[1106.96 - 1112.64] recursively better uh search
+
+[1109.6 - 1116.52] queries so that's the first bit um so I
+
+[1112.64 - 1118.64] wrote that and then going back to uh
+
+[1116.52 - 1121.039] system O2 so the second part is
+
+[1118.64 - 1123.24] hypothesize obviously the the search
+
+[1121.039 - 1125.48] part that's to be handled by an API or
+
+[1123.24 - 1127.6] chroma DB or whatever so you don't need
+
+[1125.48 - 1129.6] a system prompt for that because uh
+
+[1127.6 - 1132.1589999999999] basically the that that's that's an
+
+[1129.6 - 1134.0] algorithmic thing that is just a script
+
+[1132.159 - 1137.88] um so the next step that is handled by
+
+[1134.0 - 1140.36] the llm is the hypothesis generator so
+
+[1137.88 - 1142.159] like like the like the brainstorming the
+
+[1140.36 - 1143.799] query generator you're an information
+
+[1142.159 - 1145.679] needs hypothesis generator you'll be
+
+[1143.799 - 1147.8799999999999] given a main information need or user
+
+[1145.679 - 1149.4] query as well as a variety of materials
+
+[1147.88 - 1150.8400000000001] such as search results previous
+
+[1149.4 - 1152.159] hypotheses and notes whatever
+
+[1150.84 - 1153.48] information you receive your output
+
+[1152.159 - 1155.88] should be a revised refined or an
+
+[1153.48 - 1157.559] improved hypothesis in this case the
+
+[1155.88 - 1160.0800000000002] hypothesis is a comprehensive answer to
+
+[1157.559 - 1161.3999999999999] the user question etc etc etc basically
+
+[1160.08 - 1163.48] I'm just giving in instructions that
+
+[1161.4 - 1166.039] whatever I give you generate a
+
+[1163.48 - 1168.3600000000001] hypothesis that answers the user query
+
+[1166.039 - 1169.84] as comprehensively as possible I tell it
+
+[1168.36 - 1173.559] to worry about citations because we'll
+
+[1169.84 - 1174.76] hold that out as metadata um and so
+
+[1173.559 - 1177.36] that's some that's a problem that we
+
+[1174.76 - 1181.1589999999999] need to work out um okay and then
+
+[1177.36 - 1182.6789999999999] finally the satisficing check so I'm
+
+[1181.159 - 1184.3200000000002] guessing that this is probably the first
+
+[1182.679 - 1186.6000000000001] time that most of you have heard about
+
+[1184.32 - 1188.48] satisficing um so here's the instruction
+
+[1186.6 - 1191.1589999999999] that I wrote In order to produce this
+
+[1188.48 - 1192.6] and I'll explain why um but the the very
+
+[1191.159 - 1195.5590000000002] short answer is I'm going to give you a
+
+[1192.6 - 1198.6] bunch of information and then you judge
+
+[1195.559 - 1200.28] you being the llm uh GPT you judge
+
+[1198.6 - 1202.4399999999998] whether or not the information need has
+
+[1200.28 - 1203.9189999999999] been satisfied and then I tell it like
+
+[1202.44 - 1205.919] you're to make this judgment by virtue
+
+[1203.919 - 1208.44] of several factors amount and quality of
+
+[1205.919 - 1210.64] searches specific specificity and
+
+[1208.44 - 1212.0800000000002] comprehensiveness of the hypothesis and
+
+[1210.64 - 1214.48] the notes about the information domain
+
+[1212.08 - 1217.12] and foraging if present so basically we
+
+[1214.48 - 1219.919] can include notes from the search part
+
+[1217.12 - 1221.6399999999999] to say hey we've exhausted all the
+
+[1219.919 - 1224.0] search like we're not finding anything
+
+[1221.64 - 1226.159] else and you can see that we've run you
+
+[1224.0 - 1228.48] know 30 queries and this is the best
+
+[1226.159 - 1229.64] information we've got um so you know
+
+[1228.48 - 1231.679] several things to keep in mind the
+
+[1229.64 - 1234.039] user's information need might not be
+
+[1231.679 - 1235.76] answerable so in the in the case of you
+
+[1234.039 - 1238.559] know asking what is the exact Coastline
+
+[1235.76 - 1240.679] of Britain um you might want to see a
+
+[1238.559 - 1242.32] specific number um or it might be
+
+[1240.679 - 1243.919] partially answerable which is like you
+
+[1242.32 - 1246.36] know it's generally estimated to be
+
+[1243.919 - 1249.5590000000002] about I think it was like 12,000 kilm or
+
+[1246.36 - 1252.24] something like that um or given the
+
+[1249.559 - 1254.0] information uh available for the problem
+
+[1252.24 - 1256.4] basically some things are outside of the
+
+[1254.0 - 1258.919] scope of information needs for instance
+
+[1256.4 - 1261.5590000000002] if you need to uh to actually do
+
+[1258.919 - 1263.44] something in the physical world right so
+
+[1261.559 - 1265.0] like you might go to the library and say
+
+[1263.44 - 1266.96] like I need to file my taxes and it's
+
+[1265.0 - 1268.84] like well I'm a librarian I can't file
+
+[1266.96 - 1270.08] your taxes but I can give you all the
+
+[1268.84 - 1273.3999999999999] information that you will need to be
+
+[1270.08 - 1275.1999999999998] able to file your taxes so tool use and
+
+[1273.4 - 1277.88] acting upon the world is outside of the
+
+[1275.2 - 1280.0] scope of the Basher Loop but the idea is
+
+[1277.88 - 1281.6000000000001] if the information is available we will
+
+[1280.0 - 1283.2] give you all the information that we can
+
+[1281.6 - 1286.0] get we will basically act like a
+
+[1283.2 - 1287.52] librarian and be your information coner
+
+[1286.0 - 1289.72] to get you the information that you need
+
+[1287.52 - 1291.52] that you can then go take and you know
+
+[1289.72 - 1293.159] give to another AI or a chatbot or a
+
+[1291.52 - 1294.12] robot or your best friend or do it
+
+[1293.159 - 1297.0390000000002] yourself or
+
+[1294.12 - 1300.08] whatever anyways finally the output
+
+[1297.039 - 1301.84] format is a Json object so there's two
+
+[1300.08 - 1303.799] things that I put in the Json object one
+
+[1301.84 - 1306.799] is feedback which is basically it
+
+[1303.799 - 1309.6] unpacking what its perception is and the
+
+[1306.799 - 1311.52] reason that I do this first is because
+
+[1309.6 - 1313.559] as language models kind of talk through
+
+[1311.52 - 1315.279] things it'll be able to triangulate and
+
+[1313.559 - 1317.279] make a judgment or a decision a little
+
+[1315.279 - 1320.279] bit better because as you might have
+
+[1317.279 - 1322.799] seen on a I explains videos if you have
+
+[1320.279 - 1325.08] a language model just output an answer
+
+[1322.799 - 1327.08] like if if you give it a whole list of
+
+[1325.08 - 1329.6] stuff and then just ask it to say true
+
+[1327.08 - 1332.36] or false it's going to be kind of random
+
+[1329.6 - 1335.24] but as I demonstrated in uh yesterday's
+
+[1332.36 - 1336.799] video with sequential reasoning um large
+
+[1335.24 - 1339.159] language models because you get more
+
+[1336.799 - 1341.2] latent space activation with sequential
+
+[1339.159 - 1344.2] activation this is also a form of
+
+[1341.2 - 1345.6000000000001] sequential activation wherein it talks
+
+[1344.2 - 1347.48] through the evidence that you've
+
+[1345.6 - 1349.9599999999998] presented and then it will make a better
+
+[1347.48 - 1352.279] judgment as to whether or not the user
+
+[1349.96 - 1354.48] uh information need has been satisfied
+
+[1352.279 - 1356.64] that's the tldr of all of this and I
+
+[1354.48 - 1360.2] think that brings us to a the conclusion
+
+[1356.64 - 1363.3600000000001] for today so that's where we're at this
+
+[1360.2 - 1365.279] is where we're starting um I'm probably
+
+[1363.36 - 1367.24] going to be working on this for a little
+
+[1365.279 - 1369.279] bit this project isn't going to live too
+
+[1367.24 - 1372.36] terribly long um it's probably going to
+
+[1369.279 - 1374.24] be a three or four part series we'll see
+
+[1372.36 - 1375.9599999999998] um but yeah so thanks for tuning in I
+
+[1374.24 - 1378.78] hope you got a lot out of this like
+
+[1375.96 - 1381.93] subscribe etc etc you know the drill
+
+[1378.78 - 1381.93] [Music]
+
+[1385.0 - 1388.0] cheers

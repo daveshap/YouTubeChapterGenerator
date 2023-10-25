@@ -1,0 +1,2679 @@
+[0.56 - 5.4399999999999995] good morning everybody david shapiro
+
+[2.24 - 7.2] here with a new video about gpt 3.
+
+[5.44 - 10.24] so in this one
+
+[7.2 - 12.599] we are going to address a common problem
+
+[10.24 - 16.0] that people have which is the gp
+
+[12.599 - 17.759999999999998] gpt-3 there you go will make stuff up so
+
+[16.0 - 19.279] this is called hallucinating or
+
+[17.76 - 20.400000000000002] confabulation
+
+[19.279 - 22.64] um
+
+[20.4 - 24.479999999999997] really from a from a neurological
+
+[22.64 - 27.359] standpoint it's actually confabulation
+
+[24.48 - 29.039] because it's making up facts based on a
+
+[27.359 - 31.199] few data points it's not fully
+
+[29.039 - 33.28] hallucinating
+
+[31.199 - 35.52] but some people call it hallucination i
+
+[33.28 - 37.6] call it confabulation
+
+[35.52 - 39.440000000000005] i was recently given a challenge where
+
+[37.6 - 40.559000000000005] someone said that they were working on a
+
+[39.44 - 43.519999999999996] problem
+
+[40.559 - 47.039] of having like a chat bot look at a
+
+[43.52 - 49.2] patient's um texts or uh graphs
+
+[47.039 - 51.199] and it was just making up medications
+
+[49.2 - 52.800000000000004] like you ask like what what medication
+
+[51.199 - 55.039] is grandma on and it'll just make stuff
+
+[52.8 - 56.718999999999994] up and i said oh that's an easy problem
+
+[55.039 - 60.079] and they're like
+
+[56.719 - 61.760000000000005] go on um and i said well so the way that
+
+[60.079 - 64.0] humans do that
+
+[61.76 - 66.79899999999999] is that if i ask you a question
+
+[64.0 - 68.64] um your brain will give you a signal i
+
+[66.799 - 70.32000000000001] have that answer or no i don't have that
+
+[68.64 - 72.24] answer you get different wave of
+
+[70.32 - 74.08] different brain waves depending on
+
+[72.24 - 76.56] whether or not you know something
+
+[74.08 - 78.479] because what happens is while you're
+
+[76.56 - 80.4] talking with someone every little clue
+
+[78.479 - 82.4] that you're given your brain is like
+
+[80.4 - 83.52000000000001] going you know squirreling away trying
+
+[82.4 - 85.92] to find
+
+[83.52 - 88.72] um where that information is stored and
+
+[85.92 - 91.119] if it gets if if it gets a 404 not found
+
+[88.72 - 93.36] error you get that signal so what we
+
+[91.119 - 95.68] have to do is we have to train gpt3 to
+
+[93.36 - 98.24] recognize that it doesn't know something
+
+[95.68 - 101.119] that something is not present in a text
+
+[98.24 - 104.0] so i happen to have whoops
+
+[101.119 - 106.479] i happen to have um
+
+[104.0 - 109.759] about oh how many is this
+
+[106.479 - 111.67999999999999] a whole bunch of medical texts
+
+[109.759 - 114.0] from a previous project i have over 4
+
+[111.68 - 116.47900000000001] 000 medical texts we only need 200 to
+
+[114.0 - 117.439] get started so what i'm going to do is
+
+[116.479 - 121.52] i'm going to
+
+[117.439 - 121.52] go ahead and create a new repo
+
+[121.759 - 124.96] and we're going to call this
+
+[127.2 - 134.08] medical question answering okay we'll
+
+[131.12 - 137.20000000000002] leave it public add a readme
+
+[134.08 - 138.239] and a license mit because sharing is
+
+[137.2 - 140.0] caring
+
+[138.239 - 142.959] create repo
+
+[140.0 - 145.36] medical question answering copy
+
+[142.959 - 147.68] i get clone
+
+[145.36 - 150.0] so start brand new
+
+[147.68 - 153.44] hot off the press context
+
+[150.0 - 157.4] so from this old one um we will just go
+
+[153.44 - 157.4] ahead and copy in this information
+
+[157.599 - 162.64] oh yeah this this folder contains like
+
+[159.68 - 165.36] 50 000 context um this is like my
+
+[162.64 - 167.599] default like hey i want to train on a
+
+[165.36 - 169.28] whole bunch of different scenarios
+
+[167.599 - 171.51899999999998] i scraped this data together from a
+
+[169.28 - 173.44] whole bunch of different sources
+
+[171.519 - 175.76] unfortunately i didn't write them all
+
+[173.44 - 178.48] down which is bad
+
+[175.76 - 180.879] but i got them all from the internet
+
+[178.48 - 182.64] i got them from kaggle mostly kaggle and
+
+[180.879 - 184.79999999999998] google data sets
+
+[182.64 - 186.64] so if you go to while this is copying
+
+[184.8 - 188.48000000000002] let me just show you
+
+[186.64 - 191.27999999999997] so that way you know this thing
+
+[188.48 - 193.84] kaggle.com
+
+[191.28 - 196.159] so you go to kaggle.com datasets and
+
+[193.84 - 197.599] then you can just do like medical i was
+
+[196.159 - 199.599] probably here
+
+[197.599 - 201.2] medical images medical transcriptions i
+
+[199.599 - 203.28] think it was this one
+
+[201.2 - 205.76] um
+
+[203.28 - 206.879] 2300 unique values maybe not
+
+[205.76 - 210.0] anyways
+
+[206.879 - 211.51899999999998] this this kind of thing
+
+[210.0 - 214.519] and then you can also go to
+
+[211.519 - 214.519] datasets.google.com
+
+[217.84 - 221.84] or maybe not
+
+[219.519 - 224.159] google datasets
+
+[221.84 - 225.76] data search data set search okay here
+
+[224.159 - 227.599] you get it here it is and then you can
+
+[225.76 - 229.28] just do like medical
+
+[227.599 - 232.48] um
+
+[229.28 - 235.28] healthcare patient records for nlp yeah
+
+[232.48 - 237.28] so you can get all kinds of stuff here
+
+[235.28 - 238.799] you can also search for legal like if
+
+[237.28 - 242.4] you want to fine-tune something that's
+
+[238.799 - 244.239] going to do like a lawyer bot um so yeah
+
+[242.4 - 246.56] those are those are your too far and
+
+[244.239 - 248.239] away your best sources anyways let me
+
+[246.56 - 250.08] this has taken a while so let me pause
+
+[248.239 - 251.84] this real quick and we'll get back i'm
+
+[250.08 - 255.72] not gonna do anything we're just gonna
+
+[251.84 - 255.72] pause wait for this to finish
+
+[255.76 - 261.15999999999997] okay and we're back we have finished
+
+[259.04 - 264.24] we've got a folder of
+
+[261.16 - 266.16] 3060 medical texts i deleted the ones
+
+[264.24 - 268.08] that were too big and too small
+
+[266.16 - 270.47900000000004] some of them were like 18 kilobytes
+
+[268.08 - 273.35999999999996] which is you know 15 000 characters too
+
+[270.479 - 276.24] long to fit in uh in a gpt3 prompt
+
+[273.36 - 278.88] um so the biggest one is now
+
+[276.24 - 280.56] um 3 800 characters which is that's on
+
+[278.88 - 283.28] the that's on the bigger side
+
+[280.56 - 286.479] um but then also on the smaller side
+
+[283.28 - 287.28] we've got uh 1200 characters
+
+[286.479 - 288.479] so
+
+[287.28 - 290.63899999999995] i've already
+
+[288.479 - 292.32] done a little bit of of prompt
+
+[290.639 - 293.44] engineering so i apologize for not
+
+[292.32 - 294.479] showing you that but let me show you
+
+[293.44 - 296.479] what i did
+
+[294.479 - 297.919] so here's the input or here's the
+
+[296.479 - 299.12] instruction the following is a patient
+
+[297.919 - 300.96] chart determine whether or not
+
+[299.12 - 304.479] medications
+
+[300.96 - 306.32] in parentheses were prescribed was
+
+[304.479 - 309.28] let's say we're prescribed
+
+[306.32 - 311.12] um and then so i tested was a medication
+
+[309.28 - 313.11999999999995] prescribed yes or no
+
+[311.12 - 316.16] so basically we have to break this down
+
+[313.12 - 318.16] into several cognitive tasks
+
+[316.16 - 320.8] for for creating the training data
+
+[318.16 - 322.16] because gpt3 is just a prediction
+
+[320.8 - 323.84000000000003] machine
+
+[322.16 - 326.40000000000003] it does not have
+
+[323.84 - 328.71999999999997] it i mean it has the ability to do
+
+[326.4 - 331.12] thousands of tasks right but unless you
+
+[328.72 - 333.36] train it on which one to do it's going
+
+[331.12 - 334.639] to get confused because it says oh i'm
+
+[333.36 - 337.12] looking for medication let me just spit
+
+[334.639 - 339.68] it out yes um
+
+[337.12 - 341.68] so what happens is oh also i turn the
+
+[339.68 - 343.68] temperature down to zero so if you turn
+
+[341.68 - 345.6] the temperature down to zero that means
+
+[343.68 - 347.52] it becomes deterministic
+
+[345.6 - 350.40000000000003] meaning it will always spit out the same
+
+[347.52 - 352.71999999999997] answer which if you want um just a yes
+
+[350.4 - 353.919] or no answer a temperature of zero is
+
+[352.72 - 355.36] the way to go
+
+[353.919 - 358.4] because that'll also give you the most
+
+[355.36 - 360.40000000000003] reliable performance okay it says yes
+
+[358.4 - 362.23999999999995] okay then list
+
+[360.4 - 364.71999999999997] medications
+
+[362.24 - 368.639] prescribed
+
+[364.72 - 370.0] decadron and so we see like okay what is
+
+[368.639 - 372.08] that
+
+[370.0 - 374.319] and oh look it's right there she is also
+
+[372.08 - 375.52] on a short course of decadron
+
+[374.319 - 377.03900000000004] perfect
+
+[375.52 - 378.84] um
+
+[377.039 - 382.31899999999996] and then if we do a quick search for
+
+[378.84 - 383.59999999999997] decadron um we see like
+
+[382.319 - 385.36] used to treat conditions such as
+
+[383.6 - 388.0] arthritis blood hormone disorders
+
+[385.36 - 390.47900000000004] allergic reactions skin disease wow
+
+[388.0 - 392.479] this can treat like everything
+
+[390.479 - 394.08] this is like this is like a hypo spray
+
+[392.479 - 396.24] for star trek isn't it this can it's
+
+[394.08 - 397.919] just like oh dr crusher's like here
+
+[396.24 - 400.88] you're all better now
+
+[397.919 - 403.12] okay so it accurately said decadron
+
+[400.88 - 404.4] excellent we're off to a good start
+
+[403.12 - 406.96] um
+
+[404.4 - 410.63899999999995] but let's see what happens larry let me
+
+[406.96 - 415.44] copy this because this is a good prompt
+
+[410.639 - 415.44] so if we just say uh let's see
+
+[416.4 - 419.75899999999996] list
+
+[417.36 - 421.199] any medications
+
+[419.759 - 423.199] prescribed
+
+[421.199 - 425.44] so this doesn't always work but so in
+
+[423.199 - 427.84000000000003] this case there was a medication
+
+[425.44 - 429.68] um prescribed but if there isn't one and
+
+[427.84 - 431.75899999999996] we'll show you that in a second it might
+
+[429.68 - 434.88] not work
+
+[431.759 - 436.639] so in this case it's it's wrong because
+
+[434.88 - 438.56] the morphine
+
+[436.639 - 440.56] sorry my voice kind of cracked morphine
+
+[438.56 - 442.56] i sounded a little bit like i'm not i'm
+
+[440.56 - 444.72] not going to pick on anyone actually
+
+[442.56 - 447.12] local conscious sedation with morphine
+
+[444.72 - 448.96000000000004] and versed so that was during so that's
+
+[447.12 - 451.12] not that's not a prescription
+
+[448.96 - 452.71999999999997] that is used during it right so you see
+
+[451.12 - 454.4] it's like okay this isn't exactly right
+
+[452.72 - 456.0] we're looking for what has been
+
+[454.4 - 458.479] prescribed
+
+[456.0 - 459.36] we're also going to
+
+[458.479 - 463.039] um
+
+[459.36 - 465.759] do a few other questions so like
+
+[463.039 - 467.36] uh let's see
+
+[465.759 - 468.879] let's bring this back
+
+[467.36 - 470.879] so just just showing you that it
+
+[468.879 - 472.639] depending on how you change the prompt
+
+[470.879 - 473.91900000000004] you get different results the following
+
+[472.639 - 476.879] is a patient
+
+[473.919 - 479.84] patient chart sorry struggling drink
+
+[476.879 - 479.84000000000003] some water
+
+[480.56 - 483.759] determine whether or not
+
+[485.28 - 488.15999999999997] prognosis
+
+[489.039 - 493.28] whether or not a prognosis
+
+[491.52 - 495.68] was given
+
+[493.28 - 495.67999999999995] okay
+
+[497.199 - 501.199] um
+
+[498.24 - 504.08] was a prognosis given
+
+[501.199 - 511.24] yes or no
+
+[504.08 - 511.24] yes okay what is the prognosis prognosis
+
+[513.039 - 518.24] prognosis is excellent was that word
+
+[515.68 - 518.2399999999999] used
+
+[519.039 - 524.959] her prognosis is indeed excellent
+
+[522.24 - 524.9590000000001] word for word
+
+[525.44 - 527.7600000000001] okay
+
+[528.56 - 530.88] um
+
+[531.839 - 537.0400000000001] so we would probably in an ideal world
+
+[534.64 - 537.92] we'd want to capture this comment
+
+[537.04 - 539.12] um
+
+[537.92 - 541.519] but anyways
+
+[539.12 - 543.2] uh still the fact of the matter is it is
+
+[541.519 - 545.2] directly getting information so by
+
+[543.2 - 547.36] breaking this and by breaking this
+
+[545.2 - 550.24] problem into two tasks
+
+[547.36 - 551.519] we are um we're making it better and so
+
+[550.24 - 553.839] what i'm going to do is i'll show you
+
+[551.519 - 556.32] how to fine-tune this so that that way
+
+[553.839 - 558.8800000000001] you can just do it in one go
+
+[556.32 - 558.88] excuse me
+
+[559.519 - 562.9590000000001] okay
+
+[561.279 - 564.72] um although i guess there's nothing
+
+[562.959 - 566.399] wrong with just having multiple prompts
+
+[564.72 - 568.48] because like if you just do if you just
+
+[566.399 - 570.8] do this and you do a search on the
+
+[568.48 - 572.399] output yes or no um then you can run it
+
+[570.8 - 574.399] again however
+
+[572.399 - 577.2] you will still get some variants and if
+
+[574.399 - 578.8] you if you fine-tune a model and you you
+
+[577.2 - 581.0400000000001] pick and choose the kinds of responses
+
+[578.8 - 582.64] that you want you'll get far better more
+
+[581.04 - 584.0799999999999] consistent results
+
+[582.64 - 585.12] so this is where fine tuning really
+
+[584.08 - 587.0400000000001] shines
+
+[585.12 - 589.04] because fine-tuned models tend to be
+
+[587.04 - 590.959] less creative and if you're just
+
+[589.04 - 593.1999999999999] answering questions you don't want
+
+[590.959 - 595.68] creativity that's the whole point right
+
+[593.2 - 598.399] confabulation or hallucination
+
+[595.68 - 601.1999999999999] um so a little bit of neuroscience there
+
+[598.399 - 604.24] are um disorders out there where people
+
+[601.2 - 606.1600000000001] will just confabulate everything um
+
+[604.24 - 609.04] there was one story that i read i think
+
+[606.16 - 610.56] it was in um i think it was in
+
+[609.04 - 612.959] phantoms in the brain
+
+[610.56 - 615.76] where um a little girl
+
+[612.959 - 619.1199999999999] was like her iq was super low like she
+
+[615.76 - 621.519] was she had severe like mental handicaps
+
+[619.12 - 623.92] but her she was verbally brilliant her
+
+[621.519 - 626.0] brain just understood language and so
+
+[623.92 - 628.24] she would just confabulate entire
+
+[626.0 - 630.079] stories about her life and she would
+
+[628.24 - 631.519] tell these eloquent stories about this
+
+[630.079 - 632.56] wonderful day that she had with her
+
+[631.519 - 634.48] boyfriend
+
+[632.56 - 636.3199999999999] and how he proposed on the banks of a
+
+[634.48 - 638.0790000000001] river and it's like this is like an
+
+[636.32 - 640.0] eight-year-old girl she has no idea what
+
+[638.079 - 642.3199999999999] she's talking about so her brain was
+
+[640.0 - 644.24] just completely confabulating and if you
+
+[642.32 - 646.0790000000001] read that passage and phantoms in the
+
+[644.24 - 649.6] brain it almost looks like something
+
+[646.079 - 651.76] that gpt-3 would spit out um so
+
+[649.6 - 653.6] yeah so gpt3 has a neurological disorder
+
+[651.76 - 656.24] where it just confabulates language so
+
+[653.6 - 658.399] we have to train it to have what is
+
+[656.24 - 660.32] called information literacy or theory of
+
+[658.399 - 662.24] mind so i made another video talking
+
+[660.32 - 663.9200000000001] about theory of mind where theory of
+
+[662.24 - 666.24] mind is where you're consciously aware
+
+[663.92 - 667.92] of what you what what is in your head so
+
+[666.24 - 670.16] like if you have theory of mind you say
+
+[667.92 - 672.8] oh i'm experiencing this emotion or i
+
+[670.16 - 674.64] have this knowledge or i don't right
+
+[672.8 - 676.3199999999999] gpt3 doesn't have that by default it
+
+[674.64 - 678.8] doesn't know what it doesn't know or it
+
+[676.32 - 680.6400000000001] doesn't know what it knows um it has no
+
+[678.8 - 681.76] idea it has no mental index like you or
+
+[680.64 - 683.36] i have
+
+[681.76 - 684.88] so what we have to do is we have to fine
+
+[683.36 - 687.2] tune that in so that's what we're going
+
+[684.88 - 690.16] to do next um
+
+[687.2 - 692.5600000000001] so we're gonna have a few um
+
+[690.16 - 694.959] we're gonna have a few prompts
+
+[692.56 - 697.4399999999999] and so let's start cleaning this up
+
+[694.959 - 699.5189999999999] so we're gonna we're gonna call this
+
+[697.44 - 702.24] the context
+
+[699.519 - 703.68] um we'll remove the rest of this
+
+[702.24 - 705.2] actually here let's save that because
+
+[703.68 - 707.519] that'll be a second one
+
+[705.2 - 707.519] um
+
+[710.72 - 714.1600000000001] all right so then we'll just remove the
+
+[712.56 - 715.8389999999999] rest of this
+
+[714.16 - 718.3199999999999] um
+
+[715.839 - 721.44] so we'll do that we'll call this one
+
+[718.32 - 721.44] um prompt
+
+[721.68 - 726.399] boolean
+
+[723.519 - 729.399] and then we'll do medication
+
+[726.399 - 729.399] okay
+
+[732.0 - 735.839] and then we'll say
+
+[733.519 - 735.839] um
+
+[742.8 - 746.8] all right so then we'll do this
+
+[744.959 - 748.56] so assuming that it passes we'll just
+
+[746.8 - 751.279] leave this here
+
+[748.56 - 753.1199999999999] um so that way you know the the rest
+
+[751.279 - 755.4399999999999] that when we fine tune it it'll say okay
+
+[753.12 - 759.44] i'm supposed to give you a list
+
+[755.44 - 761.6800000000001] um and then we'll say prompt list
+
+[759.44 - 763.839] medication okay so basically we're
+
+[761.68 - 765.519] breaking the problem down into a bool
+
+[763.839 - 766.8800000000001] boolean which is true or false and then
+
+[765.519 - 769.6] a list problem
+
+[766.88 - 770.8] so this is two separate cognitive tasks
+
+[769.6 - 772.48] but what we're going to do is we're
+
+[770.8 - 774.56] going to fine tune a model to do both of
+
+[772.48 - 776.72] those in one go
+
+[774.56 - 778.399] this is a relatively straightforward
+
+[776.72 - 780.9590000000001] thing so i have a very high degree of
+
+[778.399 - 783.2] confidence that it will work
+
+[780.959 - 785.5189999999999] but we want to we we don't want to we
+
+[783.2 - 787.44] don't want to fine-tune an entire model
+
+[785.519 - 789.839] just to find medications sure there's
+
+[787.44 - 792.24] value in that but you know the context
+
+[789.839 - 794.8800000000001] that i was given for this problem was
+
+[792.24 - 797.839] imagine you've got um an app right on
+
+[794.88 - 799.6] your phone that is meant to be um like
+
+[797.839 - 801.839] to help you coordinate it's like a
+
+[799.6 - 803.76] single source of truth for your home
+
+[801.839 - 805.7600000000001] care team and it's also an interface
+
+[803.76 - 807.36] with your professional care team
+
+[805.76 - 809.8389999999999] so say for instance
+
+[807.36 - 811.76] you know grandma's sick you've got 20
+
+[809.839 - 814.24] family members trying to look after her
+
+[811.76 - 815.8389999999999] plus 20 doctors and nurses you all need
+
+[814.24 - 818.48] a single source of truth without having
+
+[815.839 - 820.8800000000001] to call each other up so the the problem
+
+[818.48 - 823.12] here is like okay you need to just say
+
+[820.88 - 825.04] like what medications is grandma on and
+
+[823.12 - 827.199] it's got to go through like
+
+[825.04 - 828.399] many many records right to figure that
+
+[827.199 - 830.16] out
+
+[828.399 - 832.079] because ideally you want to figure this
+
+[830.16 - 833.92] out automatically as far as i know this
+
+[832.079 - 836.16] is not commercially available yet this
+
+[833.92 - 836.88] is still being like worked on i don't
+
+[836.16 - 838.7199999999999] know
+
+[836.88 - 840.079] anyways this is how i would approach it
+
+[838.72 - 842.5600000000001] um
+
+[840.079 - 844.399] okay so then what we'll do is we'll just
+
+[842.56 - 846.88] take this base prompt
+
+[844.399 - 848.72] and we'll go back to
+
+[846.88 - 852.0] what i said determine whether or not a
+
+[848.72 - 852.0] prognosis was given
+
+[853.6 - 860.399] and then we will do the same thing
+
+[859.36 - 862.399] here
+
+[860.399 - 864.88] okay
+
+[862.399 - 866.8] was a prognosis given yes or no so we'll
+
+[864.88 - 868.8389999999999] do prompt bull
+
+[866.8 - 872.079] prognosis
+
+[868.839 - 875.2790000000001] prognosis there we go
+
+[872.079 - 876.56] and then we will do
+
+[875.279 - 878.16] this
+
+[876.56 - 879.1199999999999] with
+
+[878.16 - 884.199] that
+
+[879.12 - 884.199] and probably what i'll do is um
+
+[885.68 - 889.519] i'll probably pause the video because
+
+[887.839 - 891.2790000000001] some of this data
+
+[889.519 - 893.519] we would benefit from having someone
+
+[891.279 - 894.72] manually look at this but you know what
+
+[893.519 - 896.399] just for the sake of like
+
+[894.72 - 898.0790000000001] experimentation no i'm not going to
+
+[896.399 - 899.36] manually clean it up i'm going to test
+
+[898.079 - 901.04] and see if i can do this whole thing
+
+[899.36 - 902.72] automatically
+
+[901.04 - 903.92] so most of the videos that i've done up
+
+[902.72 - 906.32] until this point have been with
+
+[903.92 - 908.24] synthetic data sets so this is the first
+
+[906.32 - 910.399] one that will be
+
+[908.24 - 912.639] with actual real world data
+
+[910.399 - 914.079] so synthetic data sets are one thing
+
+[912.639 - 916.0790000000001] but um
+
+[914.079 - 918.88] uh
+
+[916.079 - 920.3199999999999] real world data is a whole other animal
+
+[918.88 - 922.32] um
+
+[920.32 - 926.5600000000001] so let's get rid of that
+
+[922.32 - 929.7600000000001] okay so medication prognosis let's do
+
+[926.56 - 929.76] diagnosis as well
+
+[932.48 - 938.72] diagnosis
+
+[934.959 - 941.4399999999999] was a diagnosis given
+
+[938.72 - 943.1990000000001] um
+
+[941.44 - 945.519] prompt bool
+
+[943.199 - 947.92] diagnosis
+
+[945.519 - 947.92] um
+
+[949.279 - 952.4399999999999] and then
+
+[954.079 - 957.079] diagnosis
+
+[958.72 - 962.639] what is the diagnosis yes
+
+[962.72 - 967.48] prompt list
+
+[964.48 - 967.48] diagnosis
+
+[968.24 - 973.6] okay and let's let's imagine what's a
+
+[970.72 - 977.0400000000001] fourth task that we could do with this
+
+[973.6 - 978.639] um prognosis diagnosis medication
+
+[977.04 - 980.3199999999999] tests that was the other one because in
+
+[978.639 - 983.6800000000001] a lot of these um
+
+[980.32 - 986.48] you know in this case no medical tests
+
+[983.68 - 987.7589999999999] no follow-up tests were
+
+[986.48 - 990.88] ordered so
+
+[987.759 - 996.44] determine whether or not um
+
+[990.88 - 996.4399999999999] follow-up medical tests were ordered
+
+[997.36 - 1000.0790000000001] so let's see
+
+[1000.88 - 1004.399] was they follow
+
+[1002.959 - 1006.4799999999999] let's see
+
+[1004.399 - 1008.079] were follow up
+
+[1006.48 - 1009.36] tests
+
+[1008.079 - 1010.959] ordered
+
+[1009.36 - 1014.24] yes or no
+
+[1010.959 - 1014.2399999999999] okay in this case no
+
+[1014.72 - 1016.9590000000001] hmm
+
+[1017.519 - 1020.9590000000001] list
+
+[1019.68 - 1023.3599999999999] follow-up
+
+[1020.959 - 1023.3599999999999] tests
+
+[1023.6 - 1027.3600000000001] ct scan wait really
+
+[1028.079 - 1033.6789999999999] the patient will be subjected to it oh
+
+[1031.439 - 1033.679] oh
+
+[1034.16 - 1039.28] all right i was wrong it was right look
+
+[1036.16 - 1041.3600000000001] at that look at that okay
+
+[1039.28 - 1043.839] see gpt3 is smarter than me thank you
+
+[1041.36 - 1045.4389999999999] gpt3 i shouldn't make that voice that's
+
+[1043.839 - 1046.8799999999999] insensitive to people with speech
+
+[1045.439 - 1049.3600000000001] impediments
+
+[1046.88 - 1053.48] okay so
+
+[1049.36 - 1053.4799999999998] let's go let's go
+
+[1054.08 - 1058.08] or as the young people to say lfg
+
+[1059.84 - 1063.36] um okay so then we'll do
+
+[1064.84 - 1070.559] context or follow up tests ordered yes
+
+[1068.16 - 1070.559] or no
+
+[1071.52 - 1074.0] dang
+
+[1074.16 - 1077.8400000000001] dang
+
+[1075.52 - 1078.8799999999999] um no this will be list
+
+[1077.84 - 1081.039] um
+
+[1078.88 - 1082.48] tests
+
+[1081.039 - 1084.08] and then what we'll do is we'll just
+
+[1082.48 - 1086.72] copy that
+
+[1084.08 - 1089.52] and then remove that and we'll say the
+
+[1086.72 - 1091.6000000000001] save this is prompt bool
+
+[1089.52 - 1093.6] tests
+
+[1091.6 - 1096.559] okay there we have it
+
+[1093.6 - 1099.039] okay so now we've got eight prompts am i
+
+[1096.559 - 1101.12] counting right
+
+[1099.039 - 1103.12] yes we've got eight different prompts
+
+[1101.12 - 1104.08] that we are going to
+
+[1103.12 - 1105.9189999999999] um
+
+[1104.08 - 1107.4399999999998] that we're gonna do
+
+[1105.919 - 1109.2800000000002] um
+
+[1107.44 - 1110.88] i don't want to bore you to death with
+
+[1109.28 - 1112.799] writing up a script that will just go
+
+[1110.88 - 1115.1200000000001] through and do these um so i'm going to
+
+[1112.799 - 1117.039] pause the video i'll write a script to
+
+[1115.12 - 1118.559] generate this input and output and then
+
+[1117.039 - 1120.48] we'll be back
+
+[1118.559 - 1123.6789999999999] excuse me that'll just be less pressure
+
+[1120.48 - 1126.0] on me and less boring for you so
+
+[1123.679 - 1128.0] time will pass and you will come back to
+
+[1126.0 - 1130.0] see a finished script and we'll watch it
+
+[1128.0 - 1131.679] run with um generating some of these
+
+[1130.0 - 1133.36] outputs for the training data and
+
+[1131.679 - 1134.96] honestly we're most of the way done
+
+[1133.36 - 1138.559] already
+
+[1134.96 - 1141.44] the the the data so as um as a senior
+
+[1138.559 - 1144.16] data scientist i i he jokes that he is
+
+[1141.44 - 1147.2] senior both in experience and age um
+
+[1144.16 - 1149.44] told me once the hardest job for this is
+
+[1147.2 - 1151.28] always getting the data the second
+
+[1149.44 - 1153.2] hardest job once we're now that we're in
+
+[1151.28 - 1155.6] the the realm of llms is prompt
+
+[1153.2 - 1158.64] engineering once you have the data and
+
+[1155.6 - 1160.32] the prompt engineers are engineered um
+
+[1158.64 - 1162.16] you're 90 of the way done now it's just
+
+[1160.32 - 1164.559] a matter of synthesizing it all and
+
+[1162.16 - 1168.0] training the model and away you go so
+
+[1164.559 - 1168.0] sit tight we're almost done
+
+[1168.32 - 1173.039] okay i lied it's not quite as
+
+[1170.16 - 1175.679] straightforward as i promised um
+
+[1173.039 - 1177.52] it happens so basically what we have to
+
+[1175.679 - 1179.2800000000002] do is we have to do some noodling to
+
+[1177.52 - 1181.2] figure out how do we want the final
+
+[1179.28 - 1183.9189999999999] product to look
+
+[1181.2 - 1186.0] um and so what we're going to do
+
+[1183.919 - 1187.3600000000001] is we're going to do
+
+[1186.0 - 1188.72] just kind of like
+
+[1187.36 - 1190.8799999999999] rough sketch
+
+[1188.72 - 1192.4] so this is what's called a mock-up like
+
+[1190.88 - 1194.24] if you're if you ever do agile or
+
+[1192.4 - 1196.24] whatever you can use like you know
+
+[1194.24 - 1198.4] crayons or whatever to design how you
+
+[1196.24 - 1200.0] want a website to look but you can do
+
+[1198.4 - 1201.3600000000001] the same thing for data so what i'm
+
+[1200.0 - 1203.28] doing now is i'm planning how do i want
+
+[1201.36 - 1206.8799999999999] the data to look
+
+[1203.28 - 1206.8799999999999] um and so the example will be
+
+[1207.039 - 1209.44] prompt
+
+[1210.08 - 1215.1999999999998] and so it'll be like
+
+[1213.36 - 1216.799] medical text
+
+[1215.2 - 1219.52] and then
+
+[1216.799 - 1222.08] new line new line
+
+[1219.52 - 1225.76] diagnosis
+
+[1222.08 - 1225.76] and then that'll be the end of the
+
+[1227.76 - 1233.039] oh yeah i guess json l is double quotes
+
+[1230.64 - 1234.7990000000002] not single quotes
+
+[1233.039 - 1236.4] and so then it'll be
+
+[1234.799 - 1238.72] completion
+
+[1236.4 - 1238.72] um
+
+[1239.919 - 1243.5200000000002] and so what the completion will look
+
+[1241.679 - 1245.679] like is either
+
+[1243.52 - 1248.96] um
+
+[1245.679 - 1250.159] none found
+
+[1248.96 - 1252.4] or
+
+[1250.159 - 1252.4] um
+
+[1252.64 - 1256.4] or list of medications
+
+[1257.84 - 1265.6789999999999] so basically we're trying to um
+
+[1262.32 - 1265.6789999999999] kind of consolidate it down
+
+[1265.84 - 1271.28] and what i mean by that is
+
+[1267.919 - 1273.039] if the boolean comes back as no then
+
+[1271.28 - 1276.0] it's over then it's just the answer is
+
+[1273.039 - 1278.799] none if it comes back yes then what we
+
+[1276.0 - 1280.559] have to do is get that answer
+
+[1278.799 - 1281.52] so
+
+[1280.559 - 1284.559] we will
+
+[1281.52 - 1286.4] have to record that as we go
+
+[1284.559 - 1287.84] so that will be
+
+[1286.4 - 1289.52] medical text so this will be another
+
+[1287.84 - 1291.4399999999998] example n
+
+[1289.52 - 1293.52] um
+
+[1291.44 - 1296.0800000000002] oh wait diagnosis
+
+[1293.52 - 1298.799] or list or
+
+[1296.08 - 1298.799] diagnosis
+
+[1300.48 - 1304.76] um and then
+
+[1301.76 - 1304.76] medications
+
+[1305.039 - 1310.08] and then we will
+
+[1306.799 - 1312.4] say completion
+
+[1310.08 - 1312.3999999999999] is
+
+[1312.64 - 1316.64] none
+
+[1314.48 - 1319.2] found
+
+[1316.64 - 1320.0800000000002] or list of meds
+
+[1319.2 - 1322.72] okay
+
+[1320.08 - 1324.559] so this is the goal and i guess actually
+
+[1322.72 - 1326.0] um
+
+[1324.559 - 1328.0] yeah i think this is the format that
+
+[1326.0 - 1329.919] json l follows i always have the script
+
+[1328.0 - 1331.28] to generate it for me okay so this is
+
+[1329.919 - 1333.3600000000001] what we're trying to do
+
+[1331.28 - 1335.36] so since i got started let me go ahead
+
+[1333.36 - 1337.6] and show you where we're at
+
+[1335.36 - 1339.84] okay so this is super simple so far this
+
+[1337.6 - 1343.12] is this is my standard approach so i've
+
+[1339.84 - 1344.72] got a function open file save file it's
+
+[1343.12 - 1347.28] very straightforward it's just
+
+[1344.72 - 1349.84] reusable code i've got another function
+
+[1347.28 - 1351.52] to handle the gpt3 completion and what
+
+[1349.84 - 1354.48] it does is it strips off
+
+[1351.52 - 1354.48] any excess
+
+[1354.799 - 1358.72] and then
+
+[1356.4 - 1360.0800000000002] it also saves it out to a log file
+
+[1358.72 - 1361.3600000000001] because this is really helpful
+
+[1360.08 - 1363.1999999999998] especially since i've got a whole bunch
+
+[1361.36 - 1365.84] of stuff running in the background
+
+[1363.2 - 1367.76] that i'm not necessarily watching
+
+[1365.84 - 1369.52] it helps to be able to see like what it
+
+[1367.76 - 1371.84] actually spit out
+
+[1369.52 - 1372.6399999999999] um okay
+
+[1371.84 - 1374.6399999999999] so
+
+[1372.64 - 1378.3200000000002] let's see
+
+[1374.64 - 1381.44] get the boolean answer
+
+[1378.32 - 1383.6789999999999] and what we'll do here is
+
+[1381.44 - 1383.679] um
+
+[1384.4 - 1388.5590000000002] and so notice here it says it does the
+
+[1386.64 - 1391.2800000000002] strip so if
+
+[1388.559 - 1393.36] if it's no if it's no then that then the
+
+[1391.28 - 1394.48] answer is done so let's actually go
+
+[1393.36 - 1396.9599999999998] ahead and do
+
+[1394.48 - 1400.159] result equals list so this is where
+
+[1396.96 - 1402.88] we'll accumulate the final data
+
+[1400.159 - 1405.1200000000001] okay so
+
+[1402.88 - 1408.1200000000001] boolean equals
+
+[1405.12 - 1408.12] completion.lower
+
+[1408.4 - 1411.2] so if
+
+[1411.44 - 1415.44] boolean
+
+[1413.28 - 1416.559] is
+
+[1415.44 - 1418.72] yes
+
+[1416.559 - 1421.039] actually no we'll say no because that's
+
+[1418.72 - 1422.24] the that's the easier answer so if it's
+
+[1421.039 - 1424.8799999999999] no
+
+[1422.24 - 1426.32] then we'll say um
+
+[1424.88 - 1427.6000000000001] info
+
+[1426.32 - 1429.52] equals
+
+[1427.6 - 1431.6789999999999] actually we can just do result dot
+
+[1429.52 - 1435.039] append
+
+[1431.679 - 1436.96] and the answer will be
+
+[1435.039 - 1438.24] so let's say
+
+[1436.96 - 1440.559] prompt
+
+[1438.24 - 1441.84] equals
+
+[1440.559 - 1443.36] um
+
+[1441.84 - 1444.9599999999998] actually i should probably just go ahead
+
+[1443.36 - 1446.7199999999998] and open this
+
+[1444.96 - 1448.4] medical text since we're going to use it
+
+[1446.72 - 1451.279] twice
+
+[1448.4 - 1451.279] equals choice
+
+[1453.52 - 1457.52] um
+
+[1455.44 - 1458.72] here let's break this up into several
+
+[1457.52 - 1461.84] parts
+
+[1458.72 - 1464.4] file and then we'll say medical text
+
+[1461.84 - 1467.1999999999998] equals and we'll just copy this out
+
+[1464.4 - 1467.2] open file
+
+[1470.96 - 1475.279] medical text
+
+[1473.2 - 1476.72] okay
+
+[1475.279 - 1478.559] um
+
+[1476.72 - 1480.159] read the medical file
+
+[1478.559 - 1482.3999999999999] there we go
+
+[1480.159 - 1484.4] uh okay
+
+[1482.4 - 1487.8400000000001] and so if it's no then we know that it's
+
+[1484.4 - 1487.8400000000001] done and so we'll say
+
+[1488.48 - 1491.919] so the final result will be
+
+[1493.279 - 1497.6] percent s which allows us to swap out a
+
+[1495.76 - 1499.039] um a variable
+
+[1497.6 - 1500.7199999999998] and then we'll go
+
+[1499.039 - 1502.8799999999999] line new line
+
+[1500.72 - 1504.4] um and then we'll say
+
+[1502.88 - 1507.6000000000001] um
+
+[1504.4 - 1509.279] oh i got to know which one it is hmm
+
+[1507.6 - 1511.6] yeah because of what i do is i have a
+
+[1509.279 - 1515.279] list of booleans a list of folders here
+
+[1511.6 - 1517.12] or files so if if it's diagnosis
+
+[1515.279 - 1519.44] okay so here's what we can do
+
+[1517.12 - 1519.4399999999998] um
+
+[1519.52 - 1523.76] yeah i gotcha this will be fine
+
+[1522.08 - 1525.52] um
+
+[1523.76 - 1529.24] where can i do this
+
+[1525.52 - 1529.24] i'll just do it here
+
+[1530.96 - 1533.919] so we'll call this the um
+
+[1532.96 - 1535.039] the
+
+[1533.919 - 1537.2] d mark
+
+[1535.039 - 1540.8799999999999] so the demarcator is let me show you
+
+[1537.2 - 1543.1200000000001] what i mean by dmark so this right here
+
+[1540.88 - 1546.0] is the demarcation so this tells this
+
+[1543.12 - 1549.1999999999998] tells the model that the input is done
+
+[1546.0 - 1551.44] right and it's time to do something else
+
+[1549.2 - 1551.44] um
+
+[1552.08 - 1556.96] yep
+
+[1553.84 - 1558.72] so what i'll do is i'll do dmarc equals
+
+[1556.96 - 1560.48] filename dot
+
+[1558.72 - 1563.44] replace
+
+[1560.48 - 1566.08] and what we're replacing is
+
+[1563.44 - 1566.0800000000002] this part
+
+[1567.679 - 1569.76] with
+
+[1568.64 - 1572.0] nothing
+
+[1569.76 - 1574.32] and we're also replacing
+
+[1572.0 - 1576.08] the dot text at the end
+
+[1574.32 - 1577.52] with nothing and then we're gonna do
+
+[1576.08 - 1579.76] upper
+
+[1577.52 - 1582.559] so that way like it'll end up with like
+
+[1579.76 - 1585.12] diagnosis all caps and medication all
+
+[1582.559 - 1586.48] caps and prognosis all caps and tests
+
+[1585.12 - 1587.4399999999998] all caps
+
+[1586.48 - 1590.4] okay
+
+[1587.44 - 1595.1200000000001] so then the prompt what we'll do what i
+
+[1590.4 - 1595.1200000000001] like to do is actually have um
+
+[1596.799 - 1601.84] have uh like
+
+[1599.2 - 1602.799] have the instructions before and after
+
+[1601.84 - 1604.559] um
+
+[1602.799 - 1607.039] but let's try it without i think it'll
+
+[1604.559 - 1607.039] be fine
+
+[1607.6 - 1610.8799999999999] okay
+
+[1608.48 - 1610.88] so
+
+[1611.279 - 1616.4] also one advantage of having an all caps
+
+[1613.52 - 1618.96] demarcator is that it's very distinct
+
+[1616.4 - 1622.159] like if you look at
+
+[1618.96 - 1624.24] some of these medical contexts
+
+[1622.159 - 1625.8400000000001] if you see something in all caps it's
+
+[1624.24 - 1628.72] very obvious
+
+[1625.84 - 1631.039] oh but this could be a problem
+
+[1628.72 - 1631.039] yeah
+
+[1634.88 - 1639.1200000000001] because it will have seen this token
+
+[1636.64 - 1640.48] before so it might mistakenly
+
+[1639.12 - 1642.559] um
+
+[1640.48 - 1644.88] say like oh you're done so this is this
+
+[1642.559 - 1649.2] is the diagnosis
+
+[1644.88 - 1649.2] let's think about this for a second um
+
+[1650.64 - 1655.5200000000002] so we'll actually do
+
+[1652.72 - 1657.679] the prompt we'll call will be list all
+
+[1655.52 - 1660.0] um
+
+[1657.679 - 1662.0800000000002] and i think it'll be important to so
+
+[1660.0 - 1663.919] this will be like list all diagnosis or
+
+[1662.08 - 1665.6] list all um
+
+[1663.919 - 1668.96] list all medication or list all
+
+[1665.6 - 1671.12] prognosis or list all tests um
+
+[1668.96 - 1673.6000000000001] yeah okay so that will that'll give us a
+
+[1671.12 - 1676.32] much more unique demarcator and so it'll
+
+[1673.6 - 1678.8799999999999] know to look for the list all as well
+
+[1676.32 - 1680.799] um because this is this is also where uh
+
+[1678.88 - 1682.48] where it's helpful to include
+
+[1680.799 - 1685.44] plain text instructions at the end of
+
+[1682.48 - 1686.88] fine tuning data especially for multiple
+
+[1685.44 - 1689.039] multiple tasks
+
+[1686.88 - 1692.5590000000002] okay so list all
+
+[1689.039 - 1694.399] and then we're going to populate it with
+
+[1692.559 - 1696.32] the first one is going to be
+
+[1694.399 - 1697.1999999999998] the medical
+
+[1696.32 - 1701.6789999999999] text
+
+[1697.2 - 1703.919] and the second one will be the d mark
+
+[1701.679 - 1706.159] and so if you have two
+
+[1703.919 - 1708.3200000000002] dollar s so basically this says put the
+
+[1706.159 - 1710.88] variable in the string as or put this
+
+[1708.32 - 1712.8799999999999] variable here as a string
+
+[1710.88 - 1715.919] so if it sees two then you need to have
+
+[1712.88 - 1718.7990000000002] a tuple that's what this is called
+
+[1715.919 - 1722.0800000000002] um okay so that's the prompt
+
+[1718.799 - 1722.08] as populated
+
+[1722.64 - 1725.8400000000001] and then the completion
+
+[1727.12 - 1732.399] will be
+
+[1729.44 - 1733.3600000000001] the boolean dot
+
+[1732.399 - 1735.1999999999998] upper
+
+[1733.36 - 1737.36] because we want it to just do the all
+
+[1735.2 - 1739.3600000000001] caps thing
+
+[1737.36 - 1741.1999999999998] um
+
+[1739.36 - 1742.559] okay so basically what this if if the
+
+[1741.2 - 1745.039] answer is no
+
+[1742.559 - 1746.1589999999999] if whatever the question was
+
+[1745.039 - 1747.279] is no
+
+[1746.159 - 1748.3200000000002] we're done
+
+[1747.279 - 1750.96] um
+
+[1748.32 - 1752.6399999999999] just append the data and move on
+
+[1750.96 - 1753.76] if boolean
+
+[1752.64 - 1755.039] is
+
+[1753.76 - 1756.8799999999999] yes
+
+[1755.039 - 1758.799] then we need another we need another
+
+[1756.88 - 1760.88] step
+
+[1758.799 - 1764.08] and so what we're going to do is we're
+
+[1760.88 - 1765.3600000000001] going to um
+
+[1764.08 - 1767.84] we need that we need to keep this
+
+[1765.36 - 1769.4399999999998] medical file and the medical text
+
+[1767.84 - 1772.9599999999998] and so what we need to do is that we
+
+[1769.44 - 1772.96] actually need to get another answer
+
+[1774.08 - 1778.799] so we'll say okay we actually need to
+
+[1776.48 - 1778.799] get
+
+[1778.84 - 1782.72] um so we're going to replace the file
+
+[1781.36 - 1786.08] name
+
+[1782.72 - 1788.08] file name equals file name dot replace
+
+[1786.08 - 1789.039] and we're going to replace the bool
+
+[1788.08 - 1791.36] with
+
+[1789.039 - 1791.36] list
+
+[1792.84 - 1798.32] um and so because what you see is like
+
+[1795.76 - 1800.32] the diagnosis this is part one and then
+
+[1798.32 - 1801.6789999999999] the list diagnosis is part two so we're
+
+[1800.32 - 1803.6] just going to assume that this is what
+
+[1801.679 - 1805.3600000000001] it looks like but instead of having all
+
+[1803.6 - 1808.24] this other junk around it we just want
+
+[1805.36 - 1810.7199999999998] the answer what is the diagnosis
+
+[1808.24 - 1813.36] sound good okay
+
+[1810.72 - 1815.76] and then also what we'll do is we will
+
+[1813.36 - 1815.76] add
+
+[1817.12 - 1821.279] we'll add a space here so that way there
+
+[1818.96 - 1821.279] will be
+
+[1821.52 - 1824.6399999999999] actually no i think you're supposed to
+
+[1822.64 - 1826.3990000000001] have a space before
+
+[1824.64 - 1828.24] so we'll just do
+
+[1826.399 - 1829.84] space plus
+
+[1828.24 - 1832.799] so basically what that'll do is it'll
+
+[1829.84 - 1834.799] add a space between the answer
+
+[1832.799 - 1836.559] and that last colon
+
+[1834.799 - 1838.559] um i think that's the the right way to
+
+[1836.559 - 1840.24] do it you could probably do both
+
+[1838.559 - 1842.48] um
+
+[1840.24 - 1843.919] yeah let's do both why not
+
+[1842.48 - 1845.3600000000001] okay so
+
+[1843.919 - 1847.279] we're replacing the file name so we're
+
+[1845.36 - 1849.279] gonna grab if the answer is yes if the
+
+[1847.279 - 1851.44] job isn't done right yes it's like oh
+
+[1849.279 - 1853.84] there is it is here okay what is the
+
+[1851.44 - 1854.799] diagnosis
+
+[1853.84 - 1856.32] okay
+
+[1854.799 - 1859.36] so then
+
+[1856.32 - 1860.32] we will want to do the same thing
+
+[1859.36 - 1863.279] where
+
+[1860.32 - 1864.96] um prompt equals open file name context
+
+[1863.279 - 1866.24] so yeah we're this is this will
+
+[1864.96 - 1868.32] basically be the same where we just put
+
+[1866.24 - 1870.0] the context back and we ask it again
+
+[1868.32 - 1871.4399999999998] also i want to point out i changed the
+
+[1870.0 - 1873.279] temperature to zero because we want this
+
+[1871.44 - 1875.519] to be deterministic
+
+[1873.279 - 1877.84] we don't want any creativity um just
+
+[1875.519 - 1879.44] give me the answer yes or no
+
+[1877.84 - 1882.399] let me add
+
+[1879.44 - 1886.3200000000002] update the prompt file name
+
+[1882.399 - 1888.1589999999999] to find the answer
+
+[1886.32 - 1891.399] okay so then
+
+[1888.159 - 1891.3990000000001] the completion
+
+[1894.559 - 1900.72] you get the list answer
+
+[1897.6 - 1902.9599999999998] okay and so then whatever this is
+
+[1900.72 - 1904.32] should be done now
+
+[1902.96 - 1905.519] um
+
+[1904.32 - 1908.48] we'll leave it
+
+[1905.519 - 1912.559] whatever it comes back with upper lower
+
+[1908.48 - 1912.559] so then we will do this
+
+[1912.72 - 1916.08] we'll copy this because it's mostly the
+
+[1914.32 - 1918.399] same
+
+[1916.08 - 1918.399] um
+
+[1918.64 - 1923.519] so but instead we'll say
+
+[1920.64 - 1926.3990000000001] completion equals
+
+[1923.519 - 1926.3990000000001] that plus
+
+[1928.0 - 1930.64] completion
+
+[1932.0 - 1938.0] okay i think that's it
+
+[1935.6 - 1940.399] i think that i think that'll do it
+
+[1938.0 - 1942.159] um but what we should do
+
+[1940.399 - 1945.279] is
+
+[1942.159 - 1948.48] um actually print this as we go
+
+[1945.279 - 1950.88] um so so that we can actually see it
+
+[1948.48 - 1952.72] so let's split this out this is this is
+
+[1950.88 - 1955.1200000000001] why so if you you notice in my code i
+
+[1952.72 - 1957.279] tend to be very procedural this is why
+
+[1955.12 - 1960.1589999999999] because yes you can stack stuff up but
+
+[1957.279 - 1964.399] then it makes it harder to um
+
+[1960.159 - 1966.72] to diagnose and print so like print info
+
+[1964.399 - 1966.7199999999998] um
+
+[1968.559 - 1973.6] and oh actually if it's if it's not
+
+[1971.12 - 1976.2399999999998] found we know that it's no so actually
+
+[1973.6 - 1978.7199999999998] this the completion should just be see
+
+[1976.24 - 1980.48] and this is also why um completion
+
+[1978.72 - 1983.3600000000001] should be
+
+[1980.48 - 1985.2] none found
+
+[1983.36 - 1986.1589999999999] um so we want something very specific
+
+[1985.2 - 1988.559] there
+
+[1986.159 - 1991.44] okay print info
+
+[1988.559 - 1994.8799999999999] print result that happened okay
+
+[1991.44 - 1997.1200000000001] and so then we'll do the same thing here
+
+[1994.88 - 1998.72] info equals
+
+[1997.12 - 2000.08] that
+
+[1998.72 - 2000.88] we'll
+
+[2000.08 - 2002.32] print
+
+[2000.88 - 2005.279] info
+
+[2002.32 - 2006.24] and then we will um
+
+[2005.279 - 2008.32] we will
+
+[2006.24 - 2011.44] brain what are you doing
+
+[2008.32 - 2011.4399999999998] we will append the info
+
+[2012.24 - 2015.84] sometimes my brain just says what were
+
+[2013.6 - 2016.6399999999999] we doing huh huh i want to do something
+
+[2015.84 - 2018.32] else
+
+[2016.64 - 2020.64] i know you're probably thinking that's a
+
+[2018.32 - 2022.6399999999999] sign of adhd um
+
+[2020.64 - 2025.1200000000001] probably whatever
+
+[2022.64 - 2027.039] okay i think this is good um let's do it
+
+[2025.12 - 2029.6789999999999] a quick test i know you all like to see
+
+[2027.039 - 2033.36] when things blow up um you like to see
+
+[2029.679 - 2035.6000000000001] uh see my diagnosis
+
+[2033.36 - 2038.1589999999999] my troubleshooting process
+
+[2035.6 - 2039.4399999999998] so let's do this cd what is this called
+
+[2038.159 - 2040.5590000000002] medical
+
+[2039.44 - 2042.559] python
+
+[2040.559 - 2044.72] generate
+
+[2042.559 - 2047.84] well there's your first problem medical
+
+[2044.72 - 2047.84] texts um
+
+[2051.679 - 2056.32] oh there's no comma there let's see what
+
+[2054.0 - 2059.28] line is this line 55.
+
+[2056.32 - 2061.839] i only drive 55
+
+[2059.28 - 2061.8390000000004] okay
+
+[2065.679 - 2068.0] okay
+
+[2068.639 - 2072.839] did you mean a literal sure
+
+[2075.44 - 2079.839] oh huh there's a really important step i
+
+[2078.24 - 2081.839] missed here did you catch it you
+
+[2079.839 - 2084.0789999999997] actually have to save your data
+
+[2081.839 - 2086.24] um so what we'll do is
+
+[2084.079 - 2088.3990000000003] with all the data there all the stuff is
+
+[2086.24 - 2089.919] going to be saved actually you know what
+
+[2088.399 - 2092.0789999999997] i have
+
+[2089.919 - 2096.879] we don't need these these extraneous
+
+[2092.079 - 2096.8790000000004] folders let me open a previous project
+
+[2097.44 - 2100.0] and i'll just copy the function that i
+
+[2098.96 - 2101.2] use
+
+[2100.0 - 2102.72] to
+
+[2101.2 - 2106.16] format the data
+
+[2102.72 - 2106.16] because this is kind of an all-in-one
+
+[2113.44 - 2118.88] with
+
+[2114.839 - 2120.72] medical.json l as out file for i n
+
+[2118.88 - 2123.6800000000003] result
+
+[2120.72 - 2125.839] json dump i out file out file write
+
+[2123.68 - 2127.68] slash n
+
+[2125.839 - 2129.839] that should be good i think that's the
+
+[2127.68 - 2131.359] same format
+
+[2129.839 - 2134.96] yeah because this is
+
+[2131.359 - 2134.96] prompt completion prompt completion
+
+[2135.119 - 2138.56] okay so let's close that
+
+[2141.2 - 2146.3199999999997] rapid prototyping man it's a it's it's a
+
+[2143.359 - 2146.3199999999997] special kind of drug
+
+[2146.56 - 2149.68] okay
+
+[2147.839 - 2152.64] python
+
+[2149.68 - 2152.64] generate data
+
+[2153.599 - 2160.2400000000002] and hey look at that
+
+[2155.839 - 2160.24] completion mesothelioma that was fast
+
+[2163.599 - 2167.7200000000003] chief complaint i need refills
+
+[2175.839 - 2180.56] why are you going so slow
+
+[2178.72 - 2183.839] so while that's running we can also
+
+[2180.56 - 2185.2] check our logs
+
+[2183.839 - 2186.72] whoa
+
+[2185.2 - 2188.64] hold on it is doing stuff but it's not
+
+[2186.72 - 2191.68] showing me
+
+[2188.64 - 2191.68] what's going on
+
+[2192.72 - 2196.3199999999997] the following is a patient chart whether
+
+[2194.4 - 2199.32] diagnosis was given what is the
+
+[2196.32 - 2199.32] diagnosis
+
+[2204.079 - 2208.32] am i grabbing the wrong
+
+[2205.92 - 2212.079] prompts
+
+[2208.32 - 2212.079] it kind of looks like i am
+
+[2212.56 - 2216.56] yeah because this is this is jumping
+
+[2214.16 - 2219.92] ahead
+
+[2216.56 - 2222.7999999999997] hmm i have done something wrong
+
+[2219.92 - 2222.8] this always happens
+
+[2225.28 - 2229.8] the prompt is open the file name
+
+[2230.16 - 2234.0789999999997] hang on we're going to need to open a
+
+[2231.44 - 2234.079] few of these
+
+[2234.72 - 2241.0789999999997] let's open a few in sequence because it
+
+[2237.04 - 2241.079] should be one after the other
+
+[2250.079 - 2254.1600000000003] okay so this one is
+
+[2255.28 - 2256.6800000000003] dot 234.99
+
+[2266.0 - 2268.8] let's see two
+
+[2268.88 - 2274.4] two three four four dot nine okay so
+
+[2270.64 - 2274.4] these two are one right after the other
+
+[2281.76 - 2287.92] was a die why isn't this working i have
+
+[2284.48 - 2287.92] done something seriously wrong
+
+[2289.599 - 2293.2400000000002] it's like it's
+
+[2297.12 - 2300.46] [Music]
+
+[2304.16 - 2308.48] let's do a little bit more
+
+[2306.24 - 2310.3999999999996] let's see print
+
+[2308.48 - 2311.68] we're going to say
+
+[2310.4 - 2313.76] we're going to print out the medical
+
+[2311.68 - 2317.1189999999997] file so that we can see that and then
+
+[2313.76 - 2317.119] we're going to print out the boolean
+
+[2318.4 - 2323.1600000000003] and so then we will do
+
+[2327.599 - 2334.4] yeah
+
+[2329.599 - 2337.28] we're also going to print out the um
+
+[2334.4 - 2337.28] the file name
+
+[2337.599 - 2340.96] oh that's what's happening i changed the
+
+[2339.68 - 2343.2] file name
+
+[2340.96 - 2345.599] and it's not re-initialized
+
+[2343.2 - 2347.68] damn it
+
+[2345.599 - 2351.119] okay
+
+[2347.68 - 2354.3999999999996] so what we need to do is do
+
+[2351.119 - 2356.88] new file name
+
+[2354.4 - 2358.1600000000003] i bet that's what it was
+
+[2356.88 - 2360.48] so then we'll say
+
+[2358.16 - 2361.92] file name
+
+[2360.48 - 2363.839] yeah because if you change it then it's
+
+[2361.92 - 2365.2000000000003] only going to do the wrong one every
+
+[2363.839 - 2366.72] time
+
+[2365.2 - 2368.0789999999997] yeah don't mess with don't mess with
+
+[2366.72 - 2369.7599999999998] your important variables when in the
+
+[2368.079 - 2372.079] loop
+
+[2369.76 - 2373.6800000000003] okay i think i fixed it i think it's
+
+[2372.079 - 2376.7200000000003] good now
+
+[2373.68 - 2376.72] python generate data
+
+[2377.76 - 2380.32] yes
+
+[2378.96 - 2383.32] yes
+
+[2380.32 - 2383.32] yes
+
+[2383.76 - 2386.079] yes
+
+[2386.8 - 2392.32] these are all positives
+
+[2388.96 - 2392.32] intramuscular lipoma
+
+[2393.52 - 2399.33] epididym
+
+[2396.22 - 2399.33] [Music]
+
+[2403.04 - 2407.44] hey if it's all yes that's fine you know
+
+[2405.28 - 2408.88] i would like to see some that have no
+
+[2407.44 - 2411.359] but given the fact that these are
+
+[2408.88 - 2412.96] medical records there's probably gonna
+
+[2411.359 - 2415.52] be
+
+[2412.96 - 2418.4] well child check
+
+[2415.52 - 2418.4] malnutrition
+
+[2418.48 - 2424.2400000000002] diagnosis yes
+
+[2421.52 - 2426.16] okay this is running so rather than
+
+[2424.24 - 2427.839] watch all the data go i'll go ahead and
+
+[2426.16 - 2430.24] pause the video and we'll explore the
+
+[2427.839 - 2432.24] data once it's done um let me just show
+
+[2430.24 - 2434.72] you while it's running in the background
+
+[2432.24 - 2437.04] so we've got um for file name and bools
+
+[2434.72 - 2438.3999999999996] so we've got um
+
+[2437.04 - 2440.4] we've got four
+
+[2438.4 - 2442.88] different prompts and we're going to do
+
+[2440.4 - 2445.04] each one 50 times
+
+[2442.88 - 2447.28] and then so we do a seed and then we do
+
+[2445.04 - 2450.079] a random choice so i've got up here
+
+[2447.28 - 2451.92] import random seed and choice so out of
+
+[2450.079 - 2455.119] those 3 000 contacts we're just going to
+
+[2451.92 - 2456.7200000000003] pick a random one every time
+
+[2455.119 - 2458.48] so that's better than doing shuffle or
+
+[2456.72 - 2460.72] whatever so we're going to get 50
+
+[2458.48 - 2462.56] choices this is also good because you
+
+[2460.72 - 2464.72] don't want to ask the same question
+
+[2462.56 - 2468.16] against like the same four questions
+
+[2464.72 - 2470.3999999999996] against one medical text you wanna you
+
+[2468.16 - 2472.56] wanna show different pro or different
+
+[2470.4 - 2474.64] contexts with different questions
+
+[2472.56 - 2476.24] because that forces gpt three to think a
+
+[2474.64 - 2478.72] little bit harder so that means we'll
+
+[2476.24 - 2481.1189999999997] have 200 different
+
+[2478.72 - 2482.64] different samples to pull from
+
+[2481.119 - 2484.0] and then we'll look at the final data
+
+[2482.64 - 2486.0789999999997] once it's done
+
+[2484.0 - 2487.76] and uh yeah so like i said we're almost
+
+[2486.079 - 2490.079] there
+
+[2487.76 - 2494.6400000000003] sit tight
+
+[2490.079 - 2496.079] i've made a critical mistake
+
+[2494.64 - 2497.359] i broke one of my own rules which is
+
+[2496.079 - 2498.1600000000003] you're supposed to save your work as you
+
+[2497.359 - 2501.359] go
+
+[2498.16 - 2505.359] and this is why it got to the very end
+
+[2501.359 - 2505.359] error name json is not defined
+
+[2506.56 - 2511.2799999999997] it's fine it's fine okay so let's fix
+
+[2510.079 - 2513.8390000000004] this real quick and then we'll run it
+
+[2511.28 - 2517.0400000000004] again import json and then what we want
+
+[2513.839 - 2519.599] to do is regardless of what the what the
+
+[2517.04 - 2520.839] result is we want to save it
+
+[2519.599 - 2523.839] so we
+
+[2520.839 - 2525.68] will um
+
+[2523.839 - 2528.319] how should we name this
+
+[2525.68 - 2530.64] we'll probably just do
+
+[2528.319 - 2530.64] um
+
+[2531.28 - 2535.3590000000004] let's see
+
+[2533.28 - 2536.5600000000004] out file name
+
+[2535.359 - 2539.2] equals
+
+[2536.56 - 2540.88] let's see how do i usually do it um
+
+[2539.2 - 2542.7999999999997] we'll just say
+
+[2540.88 - 2545.119] completion
+
+[2542.8 - 2546.1600000000003] underscore that dot
+
+[2545.119 - 2547.44] um
+
+[2546.16 - 2549.04] now we'll say
+
+[2547.44 - 2552.16] json l
+
+[2549.04 - 2552.16] just json that's fine
+
+[2553.359 - 2557.44] and then we'll do
+
+[2555.2 - 2557.4399999999996] time
+
+[2558.16 - 2561.2799999999997] and then we will do
+
+[2562.72 - 2566.0789999999997] with
+
+[2563.76 - 2566.079] open
+
+[2566.16 - 2570.7999999999997] and then we'll say um
+
+[2569.04 - 2573.2799999999997] i'll just say data
+
+[2570.8 - 2575.52] slash
+
+[2573.28 - 2575.52] that
+
+[2576.72 - 2579.839] out file name
+
+[2581.92 - 2585.04] because if i got to this point and it
+
+[2583.359 - 2587.04] blew up i could have just
+
+[2585.04 - 2589.04] merged it all together but let's fix it
+
+[2587.04 - 2589.92] let's do it right save your data as you
+
+[2589.04 - 2591.7599999999998] go
+
+[2589.92 - 2593.76] actually i suppose you know what i do
+
+[2591.76 - 2595.92] have it saved i've got it all saved in
+
+[2593.76 - 2599.6800000000003] the gpt3 logs
+
+[2595.92 - 2599.6800000000003] um but rather than
+
+[2599.839 - 2602.96] clean all this stuff up
+
+[2603.119 - 2606.2400000000002] um
+
+[2604.88 - 2608.48] let's just do it the right way let's
+
+[2606.24 - 2610.24] just do it the right way
+
+[2608.48 - 2615.119] write
+
+[2610.24 - 2615.1189999999997] and that should be enough as out file
+
+[2615.52 - 2618.52] json.dump
+
+[2619.44 - 2623.68] info
+
+[2620.88 - 2623.6800000000003] to outfile
+
+[2625.68 - 2628.48] that should be good
+
+[2628.96 - 2632.2400000000002] okay
+
+[2630.24 - 2634.24] this was self-inflicted 100
+
+[2632.24 - 2636.0789999999997] self-inflicted
+
+[2634.24 - 2637.68] let's run this again
+
+[2636.079 - 2639.92] and watching it run it worked
+
+[2637.68 - 2642.56] beautifully
+
+[2639.92 - 2644.0] oh wait wait wait wait wait
+
+[2642.56 - 2648.359] yeah
+
+[2644.0 - 2648.359] i need a data file or folder
+
+[2649.04 - 2653.04] yep
+
+[2651.2 - 2657.2799999999997] it probably said
+
+[2653.04 - 2657.2799999999997] not found or maybe i cancelled it before
+
+[2661.44 - 2667.52] okay so it should be saving
+
+[2664.64 - 2667.52] yeah look at that
+
+[2671.68 - 2678.2799999999997] so list all diagnosis
+
+[2674.0 - 2678.28] completion laparoscopic cholestectomy
+
+[2679.119 - 2682.48] okay so we're saving all the data there
+
+[2680.72 - 2685.1189999999997] it's kind of funny that um
+
+[2682.48 - 2686.96] i haven't used notepad plus plus always
+
+[2685.119 - 2690.0] for json
+
+[2686.96 - 2692.319] um completion left plural effusion
+
+[2690.0 - 2695.119] okay
+
+[2692.319 - 2697.839] last time i swear you can see it working
+
+[2695.119 - 2700.96] the data is here it's accumulating we've
+
+[2697.839 - 2703.04] got 17 out of 200 done
+
+[2700.96 - 2705.839] so all right pausing the video one last
+
+[2703.04 - 2705.839] time
+
+[2706.24 - 2710.16] and then i guess we have to do the fine
+
+[2707.52 - 2710.16] tuning test
+
+[2711.359 - 2714.7999999999997] and we're done
+
+[2712.64 - 2716.319] uh we are done with not the whole thing
+
+[2714.8 - 2721.3590000000004] but most of it
+
+[2716.319 - 2723.04] so let me show you we now have 199
+
+[2721.359 - 2724.88] samples out here
+
+[2723.04 - 2727.52] um
+
+[2724.88 - 2729.359] some of them say like none found
+
+[2727.52 - 2730.64] um let's see list all tests the patient
+
+[2729.359 - 2732.24] will go home with vicodin for pain and
+
+[2730.64 - 2733.68] follow up postoperatively in the office
+
+[2732.24 - 2734.72] where we will review the path report
+
+[2733.68 - 2737.1189999999997] with her
+
+[2734.72 - 2739.68] that is a great output look at that so
+
+[2737.119 - 2741.119] that's not necessarily a test though
+
+[2739.68 - 2743.7599999999998] so
+
+[2741.119 - 2745.359] okay that's basically a follow-up
+
+[2743.76 - 2746.7200000000003] this is another good reason that i
+
+[2745.359 - 2749.04] should have followed my own rules which
+
+[2746.72 - 2750.48] is just accumulate the data separately
+
+[2749.04 - 2752.96] because then you can go through and
+
+[2750.48 - 2754.2400000000002] manually fix these
+
+[2752.96 - 2756.8] so i'm not going to worry about that
+
+[2754.24 - 2758.3999999999996] this time but also what you can do is if
+
+[2756.8 - 2760.8] you accumulate the data like this you
+
+[2758.4 - 2762.88] can run it multiple times and so because
+
+[2760.8 - 2765.28] this is just 200 samples but what if you
+
+[2762.88 - 2768.0] want like 10 000 samples to train on
+
+[2765.28 - 2769.44] that'll be better um
+
+[2768.0 - 2771.359] so yeah
+
+[2769.44 - 2773.04] so now i've got a separate function or a
+
+[2771.359 - 2775.44] script just to format the data so we'll
+
+[2773.04 - 2777.52] do python format
+
+[2775.44 - 2783.0] and that should create
+
+[2777.52 - 2783.0] a little guy here called medical.jsonl
+
+[2784.56 - 2789.16] why is it all in quotes that's not right
+
+[2793.599 - 2797.599] man i'm having a rough day of it trying
+
+[2795.76 - 2799.2000000000003] something new like i said playing with
+
+[2797.599 - 2800.839] real world data is a whole different
+
+[2799.2 - 2802.72] animal
+
+[2800.839 - 2805.7599999999998] um
+
+[2802.72 - 2808.0] oh i think i know what i did
+
+[2805.76 - 2810.4] right because i didn't read it i just
+
+[2808.0 - 2812.72] read it as a string
+
+[2810.4 - 2814.7200000000003] so we actually don't need to do a json
+
+[2812.72 - 2817.839] dump we just need to
+
+[2814.72 - 2817.839] out file right
+
+[2819.119 - 2824.7200000000003] content plus n
+
+[2822.079 - 2827.6800000000003] so let's try this again
+
+[2824.72 - 2827.68] and then it should
+
+[2828.319 - 2833.7599999999998] reload it yes
+
+[2830.96 - 2836.48] there we go that looks right
+
+[2833.76 - 2838.5600000000004] yeah yeah okay so then if we do a search
+
+[2836.48 - 2840.96] for like none found
+
+[2838.56 - 2843.119] you see it's got plenty of examples so
+
+[2840.96 - 2844.8] counterexamples it'll know to say none
+
+[2843.119 - 2847.28] found so here's another thing with fine
+
+[2844.8 - 2849.92] tuning you can have some errors in the
+
+[2847.28 - 2851.28] training data um like you know like that
+
+[2849.92 - 2853.2000000000003] last one that i showed you i think it's
+
+[2851.28 - 2854.88] the very last one yeah so the patient
+
+[2853.2 - 2857.04] will go home with vicodin and pain
+
+[2854.88 - 2858.8] because that's not really a test
+
+[2857.04 - 2861.359] but because there's
+
+[2858.8 - 2863.599] almost 200 other examples it will kind
+
+[2861.359 - 2866.16] of like smooth that out it'll be like oh
+
+[2863.599 - 2867.28] maybe that was the wrong wrong answer
+
+[2866.16 - 2869.359] so
+
+[2867.28 - 2871.28] now we've got fine tune so because this
+
+[2869.359 - 2872.48] is a relatively straightforward problem
+
+[2871.28 - 2874.48] i'm going to try and fine tune it on
+
+[2872.48 - 2877.119] curie which is 10 times cheaper to
+
+[2874.48 - 2878.88] fine-tune and use than davinci
+
+[2877.119 - 2881.44] which so this is like you know
+
+[2878.88 - 2884.559] operational costs so let's go ahead and
+
+[2881.44 - 2887.76] do python fine tune
+
+[2884.559 - 2892.1600000000003] dot pi make sure it goes
+
+[2887.76 - 2892.1600000000003] file uploaded and it's pending okay
+
+[2894.559 - 2898.3190000000004] pending um
+
+[2896.48 - 2900.88] okay so we'll pause it one last time and
+
+[2898.319 - 2903.2] once it's done we'll go test it
+
+[2900.88 - 2904.6400000000003] it's almost over sorry this video is so
+
+[2903.2 - 2907.2799999999997] long
+
+[2904.64 - 2908.64] alright gang it's all done
+
+[2907.28 - 2910.96] um
+
+[2908.64 - 2913.04] the uh the fine tune is done
+
+[2910.96 - 2914.4] fine tune david shapiro medical
+
+[2913.04 - 2917.359] questions
+
+[2914.4 - 2919.76] so let's give it a test
+
+[2917.359 - 2922.72] let's open up a random
+
+[2919.76 - 2925.44] context so we'll just
+
+[2922.72 - 2928.16] completely random feet and hand cramping
+
+[2925.44 - 2929.599] so what we'll do is we'll just grab this
+
+[2928.16 - 2930.72] one whoops you don't need to see my
+
+[2929.599 - 2932.0] spotify
+
+[2930.72 - 2933.9199999999996] and we will
+
+[2932.0 - 2938.24] try each of those endpoints or each of
+
+[2933.92 - 2941.2400000000002] those tasks so list all medications
+
+[2938.24 - 2941.24] medications
+
+[2942.559 - 2947.28] and you see i've got the temperature set
+
+[2943.92 - 2947.96] to zero maximum length 256.
+
+[2947.28 - 2950.1600000000003] hmm
+
+[2947.96 - 2953.839] [Laughter]
+
+[2950.16 - 2955.04] hiv lots of hiv
+
+[2953.839 - 2956.72] uh
+
+[2955.04 - 2959.2799999999997] that could be because we fine-tuned on
+
+[2956.72 - 2960.319] curie that's funny um
+
+[2959.28 - 2963.76] all right
+
+[2960.319 - 2966.079] but let's see was this even used
+
+[2963.76 - 2966.079] yes
+
+[2966.24 - 2971.5989999999997] it takes insulin bacitracium
+
+[2968.96 - 2973.839] yeah okay so
+
+[2971.599 - 2975.52] we'll call that a partial success again
+
+[2973.839 - 2977.7599999999998] this started on davinci and we
+
+[2975.52 - 2980.4] fine-tuned it on curie so
+
+[2977.76 - 2983.7200000000003] might not might not work okay um list
+
+[2980.4 - 2983.7200000000003] all tests
+
+[2984.8 - 2987.8] non-specified
+
+[2990.24 - 2992.8799999999997] yeah
+
+[2991.28 - 2995.119] see it's getting it's getting super
+
+[2992.88 - 2995.92] super repetitive
+
+[2995.119 - 2999.839] yep
+
+[2995.92 - 2999.839] does the patient have hiv
+
+[3000.48 - 3005.2] the patient has a history of hiv for 21
+
+[3002.8 - 3006.4] years yeah okay
+
+[3005.2 - 3008.0789999999997] um
+
+[3006.4 - 3010.079] but yeah okay so it was correct and that
+
+[3008.079 - 3012.0] it said and unspecified
+
+[3010.079 - 3013.599] um it's interesting that it keeps
+
+[3012.0 - 3015.52] spitting out more i'm wondering if
+
+[3013.599 - 3017.28] that's just because we we fine-tuned it
+
+[3015.52 - 3018.96] on curie i'm not going to worry about
+
+[3017.28 - 3021.6800000000003] refined tuning this the data's out there
+
+[3018.96 - 3023.2] you can test it yourself on davinci we
+
+[3021.68 - 3025.1189999999997] can all you can also just take the
+
+[3023.2 - 3027.1189999999997] script and just run it again and get
+
+[3025.119 - 3029.76] more data um
+
+[3027.119 - 3031.92] yeah okay so tests
+
+[3029.76 - 3033.599] let's let's also shorten the output
+
+[3031.92 - 3034.8] length to like
+
+[3033.599 - 3036.8] 20.
+
+[3034.8 - 3038.88] um list all
+
+[3036.8 - 3041.04] prognosis
+
+[3038.88 - 3043.52] so what did i do diagnosis prognosis
+
+[3041.04 - 3046.96] medication
+
+[3043.52 - 3046.96] none found none found found
+
+[3047.2 - 3052.96] this thing is glitchy okay so this we'll
+
+[3050.16 - 3055.839] we'll say that this is only a
+
+[3052.96 - 3055.839] mild success
+
+[3056.079 - 3061.6800000000003] um so maybe maybe this task is too
+
+[3058.319 - 3061.68] complex for curie
+
+[3061.92 - 3066.839] yeah okay so
+
+[3064.079 - 3070.2400000000002] i diagnosed this with
+
+[3066.839 - 3072.0789999999997] broke i diagnose you with dead um okay
+
+[3070.24 - 3074.3999999999996] so curie doesn't work don't waste your
+
+[3072.079 - 3076.6400000000003] time on that um let's try a different
+
+[3074.4 - 3079.2000000000003] one just to see
+
+[3076.64 - 3080.16] so we'll grab another neighbor of this
+
+[3079.2 - 3081.68] one
+
+[3080.16 - 3084.0] four thousand
+
+[3081.68 - 3085.5989999999997] actinic neoplasm
+
+[3084.0 - 3087.92] that sounds painful
+
+[3085.599 - 3087.92] um
+
+[3088.48 - 3092.4] nan
+
+[3089.44 - 3092.4] why does it say nan
+
+[3094.16 - 3098.5589999999997] okay
+
+[3095.04 - 3101.44] um list all medication
+
+[3098.559 - 3106.0] wow i misspelled it the same way um okay
+
+[3101.44 - 3106.0] list all medication maximum length 20.
+
+[3108.64 - 3111.839] bacitracin ointment
+
+[3112.48 - 3116.48] and then what is the element radio
+
+[3114.48 - 3117.92] frequency
+
+[3116.48 - 3120.0] then shave
+
+[3117.92 - 3121.44] shave excised for the upper dermal layer
+
+[3120.0 - 3123.359] with the element radio frequency wave
+
+[3121.44 - 3125.839] unit
+
+[3123.359 - 3125.839] interesting
+
+[3126.24 - 3129.359] i don't know if that's actually a
+
+[3127.2 - 3132.16] medication but it looks like a a process
+
+[3129.359 - 3133.92] was done 50 trike
+
+[3132.16 - 3135.839] let's make this a little bit longer
+
+[3133.92 - 3137.119] let's go 40.
+
+[3135.839 - 3139.2] okay
+
+[3137.119 - 3141.52] so yeah it looks it looks like a pretty
+
+[3139.2 - 3144.0789999999997] definitive um
+
+[3141.52 - 3146.559] curious not up to this task
+
+[3144.079 - 3149.04] list all diagnosis
+
+[3146.559 - 3153.6800000000003] enlarging skin neoplasm actinic neoplasm
+
+[3149.04 - 3154.96] left after left upper cheek that's fine
+
+[3153.68 - 3157.9199999999996] and then we'll do
+
+[3154.96 - 3157.92] prognosis
+
+[3161.44 - 3165.76] oh that's not bad
+
+[3163.119 - 3168.4] and then it starts repeating itself yeah
+
+[3165.76 - 3170.3190000000004] um and then
+
+[3168.4 - 3172.559] what was it tests
+
+[3170.319 - 3174.4] let's all test
+
+[3172.559 - 3175.2000000000003] for a recheck yeah okay that's the same
+
+[3174.4 - 3177.28] thing
+
+[3175.2 - 3179.2799999999997] okay um
+
+[3177.28 - 3181.3590000000004] i was hoping this would do better but
+
+[3179.28 - 3182.8] again right at the last minute i decided
+
+[3181.359 - 3184.0] to try and experiment and run it on
+
+[3182.8 - 3186.2400000000002] curie
+
+[3184.0 - 3187.599] i think this is definitive that
+
+[3186.24 - 3189.68] the curie is
+
+[3187.599 - 3191.28] meh probably with more training data
+
+[3189.68 - 3193.839] curie could work better because remember
+
+[3191.28 - 3196.0] 200 is the minimum
+
+[3193.839 - 3196.72] so if i were to do this again i would
+
+[3196.0 - 3199.119] say
+
+[3196.72 - 3200.3999999999996] let's double triple quadruple the number
+
+[3199.119 - 3202.079] of samples
+
+[3200.4 - 3204.079] let's manually check the samples to make
+
+[3202.079 - 3206.96] sure they're good
+
+[3204.079 - 3208.96] and then also let's try it on davinci
+
+[3206.96 - 3210.96] i will let you the audience try this
+
+[3208.96 - 3214.319] because the scripts are here so all you
+
+[3210.96 - 3215.92] have to do is just run generate data and
+
+[3214.319 - 3218.319] it will just accumulate more data in
+
+[3215.92 - 3220.7200000000003] here and because it'll pull from four
+
+[3218.319 - 3223.7599999999998] thousand or three thousand medical texts
+
+[3220.72 - 3225.4399999999996] um and then so you generate more data
+
+[3223.76 - 3228.4] then you format the data it'll replace
+
+[3225.44 - 3230.7200000000003] the medical.json file so this is 503
+
+[3228.4 - 3231.92] kilobytes and then you run fine tune and
+
+[3230.72 - 3234.16] away you go
+
+[3231.92 - 3236.0] um thanks for watching uh this was
+
+[3234.16 - 3240.0789999999997] really informative i hoped you liked it
+
+[3236.0 - 3240.079] and got a lot out of it

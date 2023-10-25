@@ -1,0 +1,1405 @@
+[0.12 - 5.1000000000000005] good morning everybody David Shapiro
+
+[2.04 - 8.280000000000001] here with another video so
+
+[5.1 - 9.84] you know me I am deeply optimistic and
+
+[8.28 - 12.178999999999998] one of the things that I've done is I've
+
+[9.84 - 15.120000000000001] created uh gato which is the global
+
+[12.179 - 17.6] alignment taxonomy Omnibus which is a
+
+[15.12 - 21.24] decentralized movement to help achieve
+
+[17.6 - 25.019000000000002] uh alignment of of digital super
+
+[21.24 - 26.939] intelligence before it emerges uh it has
+
+[25.019 - 30.18] to do with corporate adoption
+
+[26.939 - 31.8] International regulation studying models
+
+[30.18 - 34.5] decentralized networks that sort of
+
+[31.8 - 36.719] thing and so of course I keep my finger
+
+[34.5 - 39.18] on the pulse of the current conversation
+
+[36.719 - 41.160000000000004] I watch uh pretty much all the
+
+[39.18 - 44.28] Congressional hearings on the control of
+
+[41.16 - 46.339999999999996] AI and safety uh International I'm
+
+[44.28 - 50.760000000000005] connecting with all kinds of people
+
+[46.34 - 53.879000000000005] across LinkedIn across the world United
+
+[50.76 - 56.579] States Europe Britain pretty much anyone
+
+[53.879 - 59.099999999999994] in the space of AI governance and safety
+
+[56.579 - 61.14] as well as people leading the charge in
+
+[59.1 - 63.239000000000004] research now
+
+[61.14 - 68.34] there are two papers that just came out
+
+[63.239 - 70.56] that for me signal that uh obviously
+
+[68.34 - 72.96000000000001] it's not a foregone conclusion
+
+[70.56 - 75.659] uh it's not over till it's over
+
+[72.96 - 77.58] but one of the complaints one of the
+
+[75.659 - 80.04] criticisms that I often have is that it
+
+[77.58 - 82.5] feels like up until this point uh there
+
+[80.04 - 85.259] were no adults in the room and the
+
+[82.5 - 89.939] adults were not taking it seriously
+
+[85.259 - 92.28] uh well that has changed in a big way uh
+
+[89.939 - 95.03999999999999] so the first paper is this one Frontier
+
+[92.28 - 97.92] AI regulation managing emerging risks to
+
+[95.04 - 100.28] Public Safety now that sounds pretty dry
+
+[97.92 - 103.56] but if you listen to
+
+[100.28 - 106.259] Eleazar yukowski's Ted Talk which is a
+
+[103.56 - 110.759] pretty fiery indictment of the failures
+
+[106.259 - 112.92] of uh the academy uh
+
+[110.759 - 115.68] pretty much any any criticism that I
+
+[112.92 - 117.84] have of the institutions uh is mild in
+
+[115.68 - 121.02000000000001] comparison to his
+
+[117.84 - 125.399] um now okay so taking a step back though
+
+[121.02 - 127.38] when you look at who wrote this paper uh
+
+[125.399 - 128.94] there's a there's a bunch of names some
+
+[127.38 - 131.94] of them jump right off the page miles
+
+[128.94 - 134.099] Brundage from openai and a few other
+
+[131.94 - 137.64] people that I'm just becoming familiar
+
+[134.099 - 140.22] with uh for the first time uh but when
+
+[137.64 - 142.07999999999998] you look at the institutions Center for
+
+[140.22 - 144.56] governance of AI Center for New American
+
+[142.08 - 146.76000000000002] Security Google deepmind open AI
+
+[144.56 - 148.739] Brookings Institute so Brookings
+
+[146.76 - 151.07999999999998] Institute is a is an interesting one
+
+[148.739 - 152.81900000000002] Center for long-term resilience center
+
+[151.08 - 155.04000000000002] for the study of existential risk the
+
+[152.819 - 157.01999999999998] University of Cambridge University of
+
+[155.04 - 160.14] Washington conversion convergence
+
+[157.02 - 163.26000000000002] analysis Center Center for international
+
+[160.14 - 165.95899999999997] governance Innovation uh let's see who
+
+[163.26 - 169.56] else Harvard University of Toronto
+
+[165.959 - 173.099] Vector Institute cohere Microsoft
+
+[169.56 - 175.8] uh University UCLA so these are Big
+
+[173.099 - 177.17999999999998] names these and this is this obviously
+
+[175.8 - 180.18] it's not Global this is pretty much
+
+[177.18 - 182.64000000000001] entirely uh America and Europe but
+
+[180.18 - 185.58] America and Europe are currently you
+
+[182.64 - 188.33999999999997] know world leaders in terms of uh uh
+
+[185.58 - 193.20000000000002] polarity of of power
+
+[188.34 - 195.0] so this paper outlines a few things
+
+[193.2 - 197.819] and they've got it pretty pretty well
+
+[195.0 - 199.739] outlined so first they just say
+
+[197.819 - 201.35999999999999] self-regulation is unlikely to provide
+
+[199.739 - 203.81900000000002] sufficient protection against the risks
+
+[201.36 - 205.8] from Frontier ai ai models government
+
+[203.819 - 208.79999999999998] intervention will be needed so just
+
+[205.8 - 210.54000000000002] unequivocally we need to do this so we
+
+[208.8 - 213.239] explore how to do this mechanisms to
+
+[210.54 - 214.62] create and update safety standards uh so
+
+[213.239 - 217.31900000000002] that's that's pretty generic that's
+
+[214.62 - 219.42000000000002] pretty out there uh or you know like a
+
+[217.319 - 222.35999999999999] boilerplate mechanisms to give
+
+[219.42 - 224.819] Regulators visibility so visibility of
+
+[222.36 - 227.15900000000002] course like if you need to uh see
+
+[224.819 - 229.73899999999998] something there you go so disclosure
+
+[227.159 - 232.2] regimes monitoring processes and
+
+[229.739 - 234.78] whistleblower protections
+
+[232.2 - 237.29899999999998] um yep these equip Regulators to address
+
+[234.78 - 239.58] the appropriate regulatory targets so
+
+[237.299 - 241.20000000000002] basically uh establishing that
+
+[239.58 - 243.84] governments and international bodies
+
+[241.2 - 245.57999999999998] have the rights and access to see into
+
+[243.84 - 248.64000000000001] things and of course this is well
+
+[245.58 - 251.87900000000002] established in many Industries whether
+
+[248.64 - 254.939] you're dealing with toxic waste nuclear
+
+[251.879 - 257.03999999999996] power uh and the financial industry of
+
+[254.939 - 258.54] course like you know the the financial
+
+[257.04 - 261.06] industry is one of the most heavily
+
+[258.54 - 262.26000000000005] regulated and visible and of course many
+
+[261.06 - 264.3] people will argue that it's not
+
+[262.26 - 266.52] regulated invisible enough and others
+
+[264.3 - 268.199] will argue that it is overly transparent
+
+[266.52 - 270.25899999999996] and overly regulated
+
+[268.199 - 273.3] I'm not here to to
+
+[270.259 - 275.82] debate about uh
+
+[273.3 - 277.08] regulate Regulatory Compliance um in
+
+[275.82 - 278.15999999999997] other Industries just pointing out that
+
+[277.08 - 280.68] there is a tremendous amount of
+
+[278.16 - 282.47900000000004] precedent uh let's see mechanisms to
+
+[280.68 - 284.699] ensure compliance with safety standards
+
+[282.479 - 286.82] uh self-regulatory efforts such as
+
+[284.699 - 290.639] voluntary certification may go some way
+
+[286.82 - 291.65999999999997] uh uh however this seems likely to be
+
+[290.639 - 294.0] insufficient without government
+
+[291.66 - 295.86] intervention for example by by
+
+[294.0 - 298.919] empowering a supervisory authority to
+
+[295.86 - 300.41900000000004] identify and sanction non-compliance or
+
+[298.919 - 301.85999999999996] by licensing the deployment and
+
+[300.419 - 303.06] potentially the development of Frontier
+
+[301.86 - 307.199] AI
+
+[303.06 - 310.08] uh and so what they mean here is not
+
+[307.199 - 312.3] Joe Schmo making an open source model
+
+[310.08 - 315.3] what they're talking about is people
+
+[312.3 - 317.1] working on gpt5 people working on the
+
+[315.3 - 318.96000000000004] next-gen stuff the people that literally
+
+[317.1 - 321.36] have billions of dollars to throw at it
+
+[318.96 - 323.69899999999996] so in terms of the regulatory burden I'm
+
+[321.36 - 326.16] not really worried about that so those
+
+[323.699 - 328.62] are three overall categories
+
+[326.16 - 330.24] now we I now we describe an initial set
+
+[328.62 - 332.4] of State safety standards that if
+
+[330.24 - 334.199] adopted would provide some guard rails
+
+[332.4 - 336.29999999999995] okay conducting thorough risk
+
+[334.199 - 337.5] assessments informed by evaluations of
+
+[336.3 - 339.36] dangerous capabilities and control
+
+[337.5 - 341.82] abilities so part of what they're
+
+[339.36 - 345.12] talking about is establishing a battery
+
+[341.82 - 347.88] of tests uh you know whenever whenever
+
+[345.12 - 350.16] the uh MSDS sheets come out for a
+
+[347.88 - 352.02] substance it has gone through a rigorous
+
+[350.16 - 354.12] set of tests and the Underwriters
+
+[352.02 - 356.15999999999997] Laboratory rigorously tests all new
+
+[354.12 - 358.5] products that go in your home if you
+
+[356.16 - 360.90000000000003] ever see the UL underwriter laboratory
+
+[358.5 - 362.699] uh stamp on anything and it's it's
+
+[360.9 - 364.56] pretty much on every product if you look
+
+[362.699 - 367.139] it's usually on the sticker on the cord
+
+[364.56 - 368.94] or whatever basically it had the the
+
+[367.139 - 370.979] products in your home have been tested
+
+[368.94 - 373.139] to failure and they have been tested to
+
+[370.979 - 375.539] failure in such a way that we know that
+
+[373.139 - 377.34000000000003] they won't kill you or that if they if
+
+[375.539 - 379.38] they do burst into flames that it you
+
+[377.34 - 382.19899999999996] know is only under certain circumstances
+
+[379.38 - 383.94] that sort of thing so it's essentially
+
+[382.199 - 386.16] what they're what they're doing is is
+
+[383.94 - 389.28] saying okay we need to rigorously test
+
+[386.16 - 391.38000000000005] these products for safety and danger and
+
+[389.28 - 394.25899999999996] and establish a standard a set of
+
+[391.38 - 396.71999999999997] Standards tests uh engaging external
+
+[394.259 - 399.72] experts to apply independent scrutiny
+
+[396.72 - 402.6] yes so you don't want the fox guarding
+
+[399.72 - 405.41900000000004] the hen house it's that simple uh you
+
+[402.6 - 408.6] know with the release of gpt4
+
+[405.419 - 410.58] open AI they did engage some external
+
+[408.6 - 412.38] red teaming but they really didn't do
+
+[410.58 - 414.479] enough but also and and also they were
+
+[412.38 - 417.78] guessing and it was not transparent it
+
+[414.479 - 420.59999999999997] was entirely uh private it was their
+
+[417.78 - 422.21999999999997] decision uh and and their dime and they
+
+[420.6 - 423.90000000000003] were not required to do it and there was
+
+[422.22 - 426.78000000000003] no established standard because well
+
+[423.9 - 428.69899999999996] they're one of the first to do it so and
+
+[426.78 - 430.25899999999996] again like that's not an indictment it's
+
+[428.699 - 433.979] good that they took the initiative to do
+
+[430.259 - 437.639] it but there is a correct way of going
+
+[433.979 - 439.44] about uh independent uh scrutiny
+
+[437.639 - 442.319] um and from a from a technology
+
+[439.44 - 443.699] perspective I have worked with Auditors
+
+[442.319 - 445.5] um and I'm not saying that you know a
+
+[443.699 - 448.91900000000004] sarbanes-oxley auditor is the right way
+
+[445.5 - 451.319] to go about it but that being said uh
+
+[448.919 - 453.71999999999997] there are there's lots and lots of
+
+[451.319 - 455.639] models on how to do this uh follow
+
+[453.72 - 457.56] standardized protocols for how Frontier
+
+[455.639 - 460.139] AI models can be deployed based on their
+
+[457.56 - 462.18] assessed risk so this kind of dovetails
+
+[460.139 - 465.12] with the EU AI act where you kind of
+
+[462.18 - 466.08] categorize AI based into several buckets
+
+[465.12 - 472.199] of
+
+[466.08 - 474.539] um of risk profiles uh and that uh that
+
+[472.199 - 476.039] that idea had some backlash there was an
+
+[474.539 - 478.56] open letter signed by more than 100
+
+[476.039 - 481.74] Executives in Europe saying that the uh
+
+[478.56 - 484.4] EU AI safety act or the EU AI Act was
+
+[481.74 - 488.46000000000004] going to be uh to onerous on businesses
+
+[484.4 - 490.44] and uh you know what I I disagree
+
+[488.46 - 492.78] um you know but it's an ongoing
+
+[490.44 - 493.919] conversation and ultimately there's
+
+[492.78 - 495.65999999999997] enough attention there's enough
+
+[493.919 - 497.4] International attention and enough
+
+[495.66 - 501.84000000000003] political willpower to solve this
+
+[497.4 - 503.46] problem that uh yes I suspect that uh
+
+[501.84 - 507.479] that there will be some regulatory
+
+[503.46 - 510.35999999999996] burden but uh as per the the Senate
+
+[507.479 - 512.399] hearing where uh Dr Roman uh Chowdhury
+
+[510.36 - 513.659] spoke one of the things that they've
+
+[512.399 - 516.0] pointed out
+
+[513.659 - 518.58] uh and they being the researchers some
+
+[516.0 - 520.62] of the people on this paper is that good
+
+[518.58 - 523.0200000000001] regulation and good oversight can
+
+[520.62 - 524.4590000000001] actually accelerate research because it
+
+[523.02 - 526.56] can de-risk it
+
+[524.459 - 528.5999999999999] and when you de-risk something and you
+
+[526.56 - 530.1199999999999] increase the quality of information you
+
+[528.6 - 533.4590000000001] can actually increase investor
+
+[530.12 - 536.399] confidence and where the money goes the
+
+[533.459 - 540.2399999999999] research goes and having talked to
+
+[536.399 - 543.6] people in finance uh particularly uh you
+
+[540.24 - 546.839] know uh Venture Capital uh and big big
+
+[543.6 - 549.12] Finance big Banks uh particularly over
+
+[546.839 - 550.2600000000001] in Europe what I will say is that yes
+
+[549.12 - 552.54] there is a tremendous amount of
+
+[550.26 - 555.779] excitement but there's also a tremendous
+
+[552.54 - 559.26] amount of trepidation and having this
+
+[555.779 - 562.26] third party uh level of scrutiny and
+
+[559.26 - 565.14] certification and and governance and
+
+[562.26 - 567.959] oversight is really going to boost the
+
+[565.14 - 569.9399999999999] confidence of venture capital and
+
+[567.959 - 571.1999999999999] investors which of course that means
+
+[569.94 - 572.82] that more money is going to come in
+
+[571.2 - 576.4200000000001] which means that the companies get built
+
+[572.82 - 578.279] faster and safer and so by creating a
+
+[576.42 - 580.14] safe container you're actually going to
+
+[578.279 - 583.56] accelerate a business I know that it's
+
+[580.14 - 585.18] not uh it's not an intuitive thing but
+
+[583.56 - 587.2199999999999] if you talk to if you talk to people
+
+[585.18 - 589.4399999999999] inside the finance industry that's
+
+[587.22 - 591.1800000000001] that's generally how it works now that
+
+[589.44 - 592.62] being said if you are in finance if you
+
+[591.18 - 594.4799999999999] are in VC
+
+[592.62 - 597.12] uh and you want to talk to me I'm happy
+
+[594.48 - 599.1] to uh talk to you reach out we can
+
+[597.12 - 600.42] either do a podcast episode or just talk
+
+[599.1 - 602.279] privately
+
+[600.42 - 605.16] um so that I better understand the
+
+[602.279 - 607.98] intersection of safety regulation
+
+[605.16 - 609.6] compliance and investment uh and then
+
+[607.98 - 610.9200000000001] finally the fourth thing is monitoring
+
+[609.6 - 613.44] and responding to new information on
+
+[610.92 - 616.62] model capabilities uh basically it's
+
+[613.44 - 618.48] changing fast and so uh we need they
+
+[616.62 - 622.92] need they recognize the need to keep up
+
+[618.48 - 626.279] and then they uh let's see oh here I
+
+[622.92 - 629.2199999999999] used my thing image job over here to
+
+[626.279 - 630.899] talk with the model about it
+
+[629.22 - 633.12] um let's see this is the international
+
+[630.899 - 635.04] institutions one so I ask a few
+
+[633.12 - 637.38] questions
+
+[635.04 - 639.54] let's see this paper focuses on
+
+[637.38 - 643.62] regulation of Frontier AI
+
+[639.54 - 646.0999999999999] etc etc yep so certainly the paper
+
+[643.62 - 648.36] identifies three key challenges so
+
+[646.1 - 650.519] basically I had it read read the whole
+
+[648.36 - 653.22] paper and kind of summarize uh very
+
+[650.519 - 654.66] succinctly so the unexpected
+
+[653.22 - 656.64] capabilities problem that's what this
+
+[654.66 - 658.1999999999999] paper talks about
+
+[656.64 - 659.76] um unexpected capabilities this
+
+[658.2 - 661.44] challenge arises from the fact that the
+
+[659.76 - 663.48] capabilities of AI models can improve
+
+[661.44 - 665.2790000000001] rapidly and unpredictably and they also
+
+[663.48 - 666.72] actually they have some charts on on
+
+[665.279 - 669.779] this too
+
+[666.72 - 672.0600000000001] um unexpected capabilities let's see
+
+[669.779 - 674.1] where is it here we go so they're just
+
+[672.06 - 676.92] talking about let's see certain
+
+[674.1 - 679.32] capabilities seem to emerge suddenly
+
+[676.92 - 682.1999999999999] now I have talked about how the fact
+
+[679.32 - 684.12] that the sudden emergence is partially
+
+[682.2 - 686.7] due to the measurement problem which is
+
+[684.12 - 688.98] when gpt3 came out nobody knew how to
+
+[686.7 - 691.74] measure these things and so then if you
+
+[688.98 - 694.2] retroactively go back and and test gpt3
+
+[691.74 - 696.42] under the correct circumstances for
+
+[694.2 - 698.6400000000001] things like theory of mind and planning
+
+[696.42 - 701.2199999999999] it already had that I demonstrated and
+
+[698.64 - 704.76] documented it in my books going back two
+
+[701.22 - 706.5] years more than two years now but so one
+
+[704.76 - 708.6] thing to keep in mind is that some of
+
+[706.5 - 710.519] this is like it's kind of like how a
+
+[708.6 - 713.7] diagnosis of autism went up after the
+
+[710.519 - 715.079] diagnostic criteria changed so when you
+
+[713.7 - 717.0600000000001] start measuring something and you start
+
+[715.079 - 719.279] finding more of it that's not
+
+[717.06 - 724.079] necessarily a surprise now that being
+
+[719.279 - 726.0] said I do agree that that training more
+
+[724.079 - 728.399] data on larger models with still
+
+[726.0 - 729.959] fundamentally the same Paradigm of large
+
+[728.399 - 732.779] language models just predicting the next
+
+[729.959 - 735.7199999999999] token I will agree that it does seem
+
+[732.779 - 737.1] like some capabilities do spontaneously
+
+[735.72 - 738.899] emerge and from an infant information
+
+[737.1 - 741.779] perspective we don't really know how or
+
+[738.899 - 744.18] why that happens so
+
+[741.779 - 746.88] the unexpected capabilities problem oh
+
+[744.18 - 751.4399999999999] also I suspect that this will go up
+
+[746.88 - 753.24] 10x once we have more multimodal models
+
+[751.44 - 755.94] um but anyways from a regulatory
+
+[753.24 - 757.62] standpoint this makes it difficult to
+
+[755.94 - 760.0790000000001] reliably prevent deployed models from
+
+[757.62 - 761.88] point from posing severe risks you don't
+
+[760.079 - 763.5] know what you don't know you create a
+
+[761.88 - 765.0] black box and you push a button and you
+
+[763.5 - 767.579] don't know what's going to happen
+
+[765.0 - 770.54] that's kind of scary from a regulatory
+
+[767.579 - 773.16] standpoint and a safety standpoint
+
+[770.54 - 774.779] the deployment safety problem so this is
+
+[773.16 - 776.3389999999999] what we talked about already a little
+
+[774.779 - 778.38] bit The Challenge relates to the
+
+[776.339 - 780.0600000000001] difficulty of ensuring that deployed AI
+
+[778.38 - 782.1] models do not cause harm while
+
+[780.06 - 784.4399999999999] developers Implement measures to prevent
+
+[782.1 - 786.48] misuse these measures may not always be
+
+[784.44 - 789.0] foolproof and malicious users may find
+
+[786.48 - 790.6800000000001] ways to circumvent them additionally the
+
+[789.0 - 791.94] unexpected capabilities problem means
+
+[790.68 - 793.8] that developers may not know all
+
+[791.94 - 796.3800000000001] potential harms that need to be guarded
+
+[793.8 - 798.54] against during deployment
+
+[796.38 - 799.92] and then finally oh and that so this is
+
+[798.54 - 801.24] what I'm what I was talking about is
+
+[799.92 - 803.519] like you don't know what you don't know
+
+[801.24 - 806.339] and so for instance
+
+[803.519 - 808.079] um you know a small team is not going to
+
+[806.339 - 810.9590000000001] be as creative as the rest of the world
+
+[808.079 - 813.06] as we have seen when people got access
+
+[810.959 - 815.8199999999999] to chat GPT and then immediately created
+
+[813.06 - 818.279] chaos GPT uh and then there's the you
+
+[815.82 - 821.3000000000001] know people using it to research Anthrax
+
+[818.279 - 823.68] and coronavirus and and gain a function
+
+[821.3 - 827.6999999999999] research which is synthetic biology
+
+[823.68 - 829.3199999999999] which is AKA the lab leak hypothesis
+
+[827.7 - 830.5790000000001] and then finally the proliferation
+
+[829.32 - 832.5] problem and this is something that I've
+
+[830.579 - 834.12] been talking about this challenge refers
+
+[832.5 - 836.7] to the rapid proliferation of Frontier
+
+[834.12 - 838.92] AI models which can make accountability
+
+[836.7 - 840.899] difficult models can be open sourced
+
+[838.92 - 842.88] reproduced or stolen allowing access to
+
+[840.899 - 844.74] their capabilities by unregulated actors
+
+[842.88 - 846.12] this means the dangerous capabilities
+
+[844.74 - 848.339] could quickly become accessible to
+
+[846.12 - 849.899] criminals or uh adversarial governments
+
+[848.339 - 850.98] I actually have a video coming out about
+
+[849.899 - 854.579] this
+
+[850.98 - 856.32] uh that specifically which the the tldr
+
+[854.579 - 857.9399999999999] is that we're going to need fight to
+
+[856.32 - 860.7] we're going to need to Fight Fire with
+
+[857.94 - 862.86] Fire the only way to keep up in this
+
+[860.7 - 865.019] kind of arms race is to use the AI to
+
+[862.86 - 866.88] defeat other AI
+
+[865.019 - 868.92] um and then I ask the paper like okay
+
+[866.88 - 871.019] what are the building blocks
+
+[868.92 - 872.399] um and so it was able to read it and
+
+[871.019 - 874.339] kind of synthesize it down into three
+
+[872.399 - 876.42] primary uh building blocks
+
+[874.339 - 878.339] institutionalized Frontier AI safety
+
+[876.42 - 879.7199999999999] standards development
+
+[878.339 - 880.62] um so this includes the development of
+
+[879.72 - 882.36] safety standards through
+
+[880.62 - 884.16] multi-stakeholder processes that's kind
+
+[882.36 - 887.399] of what we're talking about with uh
+
+[884.16 - 890.42] Regulators compliance uh that that sort
+
+[887.399 - 893.16] of thing but it also they talk about
+
+[890.42 - 895.62] enforceable legal requirements
+
+[893.16 - 897.0] so basically this is the governments
+
+[895.62 - 899.699] have the right to shut down a data
+
+[897.0 - 902.279] center if it is going rogue the more
+
+[899.699 - 904.38] extreme position is it uh like Eleazar
+
+[902.279 - 906.42] yukowski said like we should just stride
+
+[904.38 - 908.399] out bomb data centers uh if they're
+
+[906.42 - 910.3199999999999] non-compliant which uh you know
+
+[908.399 - 913.56] escalating to a shooting War
+
+[910.32 - 916.32] he's not an international geopolitics
+
+[913.56 - 917.8199999999999] military strategist so if you escalate
+
+[916.32 - 919.94] to a shooting War I don't know that
+
+[917.82 - 924.1800000000001] that's actually going to be beneficial
+
+[919.94 - 925.74] uh and prevention is worth an ounce of
+
+[924.18 - 926.88] prevention is worth a pound of cure put
+
+[925.74 - 928.74] it that way
+
+[926.88 - 931.74] um so a heavy-handed approach like that
+
+[928.74 - 934.019] probably not good now increasing
+
+[931.74 - 935.76] regulatory visibility also we kind of
+
+[934.019 - 938.22] talked about that and ensuring
+
+[935.76 - 940.4399999999999] compliance with standards Okay cool so
+
+[938.22 - 943.5600000000001] this lays out this paper lays out a
+
+[940.44 - 946.5] pretty comprehensive like okay here is a
+
+[943.56 - 949.199] regulatory framework so this paper will
+
+[946.5 - 952.019] then kind of hand it off to uh or or
+
+[949.199 - 954.4799999999999] begin the conversation with politicians
+
+[952.019 - 956.579] with think tanks with all the people
+
+[954.48 - 958.399] that are going to be working on creating
+
+[956.579 - 960.899] these programs and that sort of thing
+
+[958.399 - 963.24] now the second paper that I want to go
+
+[960.899 - 964.62] over is this one which is even more
+
+[963.24 - 966.72] interesting to me
+
+[964.62 - 969.139] International institutions for advanced
+
+[966.72 - 973.74] AI now if you remember
+
+[969.139 - 976.82] I have uh vociferously advocated for the
+
+[973.74 - 979.5600000000001] creation of new research and Regulatory
+
+[976.82 - 982.8000000000001] institutions uh I called one of them
+
+[979.56 - 984.42] Gaia Global AI agency and the other one
+
+[982.8 - 987.42] uh this actually came from the YouTube
+
+[984.42 - 989.18] comments was Aegis the um what was it
+
+[987.42 - 992.9399999999999] the alignment enforcement for Global
+
+[989.18 - 994.62] intelligence systems uh now obviously
+
+[992.94 - 998.5790000000001] they're not this paper isn't going to
+
+[994.62 - 1000.68] name them but we collectively uh came up
+
+[998.579 - 1004.16] with this idea and now this idea has
+
+[1000.68 - 1006.079] been officially endorsed by many of the
+
+[1004.16 - 1007.519] same players so when you look at the
+
+[1006.079 - 1010.16] when you look at the names here Google
+
+[1007.519 - 1012.019] deepmind uh blavatnik School of
+
+[1010.16 - 1014.3] government so these are policy people
+
+[1012.019 - 1016.639] University of Oxford in a center for
+
+[1014.3 - 1020.74] governance of AI University of Montreal
+
+[1016.639 - 1024.98] and Milan cfar openai Columbia Harvard
+
+[1020.74 - 1026.78] Toronto open AI again Stanford new field
+
+[1024.98 - 1029.419] and Oxford again
+
+[1026.78 - 1030.76] okay so what does this paper do
+
+[1029.419 - 1033.76] this paper
+
+[1030.76 - 1037.819] advocates for four
+
+[1033.76 - 1040.72] kinds of approaches to this so a
+
+[1037.819 - 1042.9189999999999] commission on Frontier AI
+
+[1040.72 - 1046.1000000000001] Advanced AI governance organization
+
+[1042.919 - 1048.38] which sounds really like a guy or Aegis
+
+[1046.1 - 1050.24] a frontier AI collaborative so this is
+
+[1048.38 - 1051.8600000000001] about research and public-private
+
+[1050.24 - 1055.16] Partnerships and then an AI Safety
+
+[1051.86 - 1059.0] project so they proposed these four
+
+[1055.16 - 1061.28] International uh entities these four
+
+[1059.0 - 1064.0] International bodies and you see here
+
+[1061.28 - 1068.6] that they're citing stuff like ipcc
+
+[1064.0 - 1072.5] the ipbs iaea the international Atomic
+
+[1068.6 - 1075.26] agency CERN either uh you know so they
+
+[1072.5 - 1077.84] are citing the existence of plenty of
+
+[1075.26 - 1080.059] other International agencies much like I
+
+[1077.84 - 1082.4599999999998] did in my video just a couple days ago
+
+[1080.059 - 1085.94] and so then they break it down into this
+
+[1082.46 - 1089.96] nice table so the function is broken
+
+[1085.94 - 1092.3600000000001] down into research and enforcement or or
+
+[1089.96 - 1096.52] regulation so research and Regulation
+
+[1092.36 - 1098.4799999999998] and then they have the four
+
+[1096.52 - 1099.98] objectives right
+
+[1098.48 - 1102.08] and then they've got some some sub
+
+[1099.98 - 1104.0] behaviors so under the function under
+
+[1102.08 - 1105.98] the research function there is uh
+
+[1104.0 - 1109.64] conduct or support AI Safety Research
+
+[1105.98 - 1111.919] build consensus so remember a consensus
+
+[1109.64 - 1115.7] is a big part of uh the gato framework
+
+[1111.919 - 1117.38] building Global consensus about AI is
+
+[1115.7 - 1118.7] actually really critical because we all
+
+[1117.38 - 1120.6200000000001] need to be having this conversation
+
+[1118.7 - 1123.02] because as I tell plenty of other people
+
+[1120.62 - 1124.8799999999999] whether or not you are involved in AI
+
+[1123.02 - 1126.74] you are a stakeholder because it will
+
+[1124.88 - 1128.6000000000001] affect you just like how whether or not
+
+[1126.74 - 1130.64] you know anything about nuclear weapons
+
+[1128.6 - 1132.3999999999999] or bioweapons you are a stakeholder
+
+[1130.64 - 1134.8400000000001] because guess what they can kill you
+
+[1132.4 - 1136.2800000000002] likewise artificial intelligence is
+
+[1134.84 - 1137.6599999999999] going to affect the way that you live
+
+[1136.28 - 1139.94] it's going to affect your safety it's
+
+[1137.66 - 1141.679] going to affect your prosperity it's
+
+[1139.94 - 1144.5] going to affect your personal security
+
+[1141.679 - 1146.8400000000001] so you are a stakeholder in AI whether
+
+[1144.5 - 1150.52] or not you care or acknowledge its
+
+[1146.84 - 1153.32] existence or participate in research
+
+[1150.52 - 1155.179] the third thing is develop Frontier AI
+
+[1153.32 - 1156.86] so this is something that I would have
+
+[1155.179 - 1160.64] been advocating when I talked about
+
+[1156.86 - 1164.24] eater and CERN we which is that uh the
+
+[1160.64 - 1166.94] the incentives of a for-profit company
+
+[1164.24 - 1169.22] when a Forefront profit company develops
+
+[1166.94 - 1171.14] something like gpt4 they have the
+
+[1169.22 - 1172.46] incentive to keep as much of its secret
+
+[1171.14 - 1176.96] as possible
+
+[1172.46 - 1179.48] which stands in contrast to what is in
+
+[1176.96 - 1180.6200000000001] the best interest of the public good uh
+
+[1179.48 - 1182.299] now that being said I know that Sam
+
+[1180.62 - 1184.1599999999999] Altman has said that he would prefer to
+
+[1182.299 - 1186.3799999999999] democratize access to all AI for
+
+[1184.16 - 1189.44] everyone uh time will tell I know that
+
+[1186.38 - 1191.72] right now open at open AI has uh
+
+[1189.44 - 1194.059] obligations to Microsoft and once they
+
+[1191.72 - 1197.24] hit that 100 billion dollar Mark we will
+
+[1194.059 - 1200.299] see I really hope that Sam Altman and
+
+[1197.24 - 1202.64] the rest of openai uh hold you know that
+
+[1200.299 - 1204.679] that they honor their word and that once
+
+[1202.64 - 1206.6000000000001] they earn Microsoft 100 billion dollars
+
+[1204.679 - 1208.8200000000002] they will open source everything and
+
+[1206.6 - 1211.34] that they will open source it safely if
+
+[1208.82 - 1214.34] they do great Sam Altman deserves a
+
+[1211.34 - 1217.8799999999999] freaking Nobel Peace Prize now time will
+
+[1214.34 - 1220.039] tell because open AI has pivoted in the
+
+[1217.88 - 1222.74] past open AI has said one thing and then
+
+[1220.039 - 1224.6] done another so remember actions speak
+
+[1222.74 - 1227.86] louder than words but
+
+[1224.6 - 1230.9599999999998] if a international research organization
+
+[1227.86 - 1233.9599999999998] uh that is funded by the people
+
+[1230.96 - 1236.179] and and controlled by the governments of
+
+[1233.96 - 1238.58] the people is responsible for developing
+
+[1236.179 - 1240.6200000000001] the frontier AI then maybe their
+
+[1238.58 - 1241.9399999999998] incentive uh structure is a little bit
+
+[1240.62 - 1244.28] different
+
+[1241.94 - 1247.039] and this is uh you saw this with a Brit
+
+[1244.28 - 1248.72] GPT right the UK has decided that
+
+[1247.039 - 1251.0] they're going to train their own uh
+
+[1248.72 - 1253.76] version of GPT which is great because
+
+[1251.0 - 1255.679] that means that uh then then the
+
+[1253.76 - 1257.0] incentive structure for what they do
+
+[1255.679 - 1260.419] with that is going to be very different
+
+[1257.0 - 1263.059] and also it costs like what I think one
+
+[1260.419 - 1266.0590000000002] paper estimated that it cost 63 million
+
+[1263.059 - 1268.22] dollars to train gpt4 that's a drop in
+
+[1266.059 - 1270.6789999999999] the bucket for a country like Germany
+
+[1268.22 - 1272.1200000000001] and Britain and America who cares that's
+
+[1270.679 - 1274.3400000000001] a trivial amount of money in the grand
+
+[1272.12 - 1276.86] scheme of things we waste more uh
+
+[1274.34 - 1278.36] anyways not gonna not gonna rant about
+
+[1276.86 - 1280.9399999999998] uh
+
+[1278.36 - 1283.1599999999999] government waste here that's not the
+
+[1280.94 - 1284.299] point uh distribute and enable access to
+
+[1283.16 - 1286.9] AI
+
+[1284.299 - 1290.6589999999999] so again democratizing access
+
+[1286.9 - 1292.7] so these are four kind of behaviors or
+
+[1290.659 - 1294.5] functions under the research and you can
+
+[1292.7 - 1296.0] see that um they've kind of got this
+
+[1294.5 - 1298.1] nice little it's almost like a racy
+
+[1296.0 - 1300.32] chart or a racy Matrix to say who's
+
+[1298.1 - 1301.8799999999999] going to do what and then under the
+
+[1300.32 - 1304.1589999999999] regulation the rule making and
+
+[1301.88 - 1307.3400000000001] enforcement uh set safety norms and
+
+[1304.159 - 1309.98] standards uh support implementation of
+
+[1307.34 - 1312.9189999999999] Standards monitor compliance and then
+
+[1309.98 - 1316.039] control the inputs so by control inputs
+
+[1312.919 - 1318.14] I think what they mean is the uh the the
+
+[1316.039 - 1320.96] um the data the hardware and the
+
+[1318.14 - 1323.14] software so and then they have over here
+
+[1320.96 - 1325.3400000000001] a spreading beneficial technology
+
+[1323.14 - 1328.1000000000001] harmonizing regulation so this is
+
+[1325.34 - 1330.559] solving the coordination problem that uh
+
+[1328.1 - 1332.78] Daniel schmachtenberger talks about and
+
+[1330.559 - 1335.12] solving coordination is actually why I
+
+[1332.78 - 1339.44] created the gato alignment framework
+
+[1335.12 - 1339.9799999999998] because uh what I realized is that
+
+[1339.44 - 1343.7] um
+
+[1339.98 - 1346.7] without some sort of global consensus
+
+[1343.7 - 1349.46] without that uh you know everyone
+
+[1346.7 - 1351.2] operating more or less in lockstep then
+
+[1349.46 - 1352.94] you're going to have coordination
+
+[1351.2 - 1354.8600000000001] failures and you're going to end up with
+
+[1352.94 - 1357.799] that terminal race condition that I
+
+[1354.86 - 1360.9189999999999] talked about in a previous video so by
+
+[1357.799 - 1363.26] harmonizing regulation across the world
+
+[1360.919 - 1366.14] that is how you prevent a race condition
+
+[1363.26 - 1368.6589999999999] and this is this is how you keep uh the
+
+[1366.14 - 1371.0590000000002] comp the competitive landscape sane but
+
+[1368.659 - 1372.6200000000001] also predictable ensuring safe
+
+[1371.059 - 1375.3799999999999] development and use and then finally
+
+[1372.62 - 1378.08] managing geopolitical risk factors so
+
+[1375.38 - 1380.24] this is slaughterbots this is uh
+
+[1378.08 - 1381.3799999999999] military race conditions and that sort
+
+[1380.24 - 1384.98] of thing
+
+[1381.38 - 1386.6000000000001] and so uh by this is it's great that
+
+[1384.98 - 1389.419] they're including all this existing
+
+[1386.6 - 1392.9599999999998] International institutions and so they
+
+[1389.419 - 1396.14] have a whole bunch of um of examples uh
+
+[1392.96 - 1397.7] now the problem is that uh that there's
+
+[1396.14 - 1400.159] a few gaps here
+
+[1397.7 - 1402.679] so you see there's only a few
+
+[1400.159 - 1404.8400000000001] that exists so like semiconductor export
+
+[1402.679 - 1408.38] controls is one of the things that can
+
+[1404.84 - 1411.6789999999999] manage the geopolitical risk factors now
+
+[1408.38 - 1414.38] then they recommend some new uh agencies
+
+[1411.679 - 1416.48] which is great so they're AI Safety
+
+[1414.38 - 1419.6000000000001] project their Commission on Frontier AI
+
+[1416.48 - 1422.419] Frontier AI collaborative and then the
+
+[1419.6 - 1426.28] advanced AI government agency again
+
+[1422.419 - 1426.2800000000002] super sounds a lot like Gaia
+
+[1426.32 - 1430.039] um yeah so
+
+[1427.82 - 1431.24] the you know this this paper it's kind
+
+[1430.039 - 1432.559] of more or less what you know what you
+
+[1431.24 - 1434.0] see is what you get
+
+[1432.559 - 1435.44] um they kind of break it down which is
+
+[1434.0 - 1438.5] great
+
+[1435.44 - 1441.3200000000002] um now but really the thing is the thing
+
+[1438.5 - 1443.12] that is most important to me is that the
+
+[1441.32 - 1444.5] adults are in the room
+
+[1443.12 - 1448.6999999999998] that we've got people like miles
+
+[1444.5 - 1450.26] Brundage of open AI we've got uh Roman
+
+[1448.7 - 1453.26] choudhary who have heard her speak she
+
+[1450.26 - 1456.08] spoke directly to Congress so these are
+
+[1453.26 - 1458.96] people that are uh very serious about
+
+[1456.08 - 1461.72] this and the the fact that they are
+
+[1458.96 - 1464.3600000000001] proposing these things that a bunch of
+
+[1461.72 - 1467.179] us independently came to tells me that
+
+[1464.36 - 1469.8799999999999] there's a tremendous amount of consensus
+
+[1467.179 - 1471.5590000000002] already uh I don't know if my YouTube
+
+[1469.88 - 1473.48] channel had anything to do with that I
+
+[1471.559 - 1474.98] hope it does but you know I'm here to
+
+[1473.48 - 1478.58] report the good news
+
+[1474.98 - 1480.98] so long story short when I look at the
+
+[1478.58 - 1481.78] array of what is happening and who is
+
+[1480.98 - 1485.0] talking
+
+[1481.78 - 1489.5] I strongly believe that the existential
+
+[1485.0 - 1493.039] risk of AI is we are well on the way to
+
+[1489.5 - 1495.919] mitigating those risks we're also
+
+[1493.039 - 1497.299] looking at shorter term dangers and
+
+[1495.919 - 1501.14] harms so one of the things mentioned in
+
+[1497.299 - 1504.02] these papers is using as I mentioned
+
+[1501.14 - 1507.3200000000002] earlier the using these models to for
+
+[1504.02 - 1509.36] instance create new pandemics synthetic
+
+[1507.32 - 1511.3999999999999] biology is one of the the biggest thing
+
+[1509.36 - 1513.559] let's see did it was it mentioned in
+
+[1511.4 - 1515.3600000000001] this one yes so here we go
+
+[1513.559 - 1516.799] severe arrest of Public Safety a general
+
+[1515.36 - 1518.4189999999999] purpose personal assistant that is
+
+[1516.799 - 1520.52] capable of designing an autonomously
+
+[1518.419 - 1522.98] ordering the manufacture of Novel
+
+[1520.52 - 1525.44] pathogens capable of causing a coveted
+
+[1522.98 - 1527.299] level pandemic so this is this is
+
+[1525.44 - 1529.22] rapidly percolated up to being one of
+
+[1527.299 - 1530.6589999999999] the greatest risks
+
+[1529.22 - 1532.58] um and of course it's fresh in people's
+
+[1530.659 - 1535.64] mind because we just all survived a
+
+[1532.58 - 1537.62] pandemic but the idea that you can
+
+[1535.64 - 1540.26] create something in a lab that can then
+
+[1537.62 - 1543.559] hurt the entire world and you can't stop
+
+[1540.26 - 1546.08] it uh you know that's that's kind of one
+
+[1543.559 - 1548.8999999999999] of the one of the big things uh you know
+
+[1546.08 - 1551.779] military is okay deployment to power and
+
+[1548.9 - 1555.2] weapons and nuclear stuff already exists
+
+[1551.779 - 1557.419] but the the cost the intellectual and
+
+[1555.2 - 1560.779] monetary cost of creating pathogens is
+
+[1557.419 - 1563.24] pretty low and that's getting lower with
+
+[1560.779 - 1564.26] uh artificial intelligence going the way
+
+[1563.24 - 1566.84] that it is
+
+[1564.26 - 1569.779] um let's see was it mentioned here yes
+
+[1566.84 - 1570.3799999999999] so they also cited that paper here
+
+[1569.779 - 1573.14] um
+
+[1570.38 - 1574.46] and uh or or no this is a different
+
+[1573.14 - 1575.96] paper what is an advanced Market
+
+[1574.46 - 1579.08] commitment and how could it help it be
+
+[1575.96 - 1583.279] coveted uh so anyways these two papers
+
+[1579.08 - 1585.799] uh are great news uh I think that uh I
+
+[1583.279 - 1589.52] think that it will be uh read the world
+
+[1585.799 - 1592.46] over uh particularly by governments all
+
+[1589.52 - 1594.679] over the world and you know these these
+
+[1592.46 - 1596.179] ideas have some teeth they've clearly
+
+[1594.679 - 1598.3400000000001] done their homework they dotted their
+
+[1596.179 - 1600.919] eyes and crossed their T's
+
+[1598.34 - 1605.6589999999999] um and yeah so this really helps me
+
+[1600.919 - 1609.2] relax uh with respect to Ai and you know
+
+[1605.659 - 1611.659] two I I did watch yukowski's Ted Talk
+
+[1609.2 - 1614.539] which came out yesterday I think
+
+[1611.659 - 1617.48] um and you know he has a pretty fiery
+
+[1614.539 - 1619.22] indictment of like you know I have been
+
+[1617.48 - 1621.8600000000001] doing this for two decades and nobody
+
+[1619.22 - 1624.2] listened and and I tried to avoid being
+
+[1621.86 - 1626.1789999999999] here where we are and nobody's putting
+
+[1624.2 - 1628.94] in any effort and or not enough effort
+
+[1626.179 - 1631.3400000000001] or whatever and I'm like okay I get it
+
+[1628.94 - 1633.98] but like is he not paying attention
+
+[1631.34 - 1636.9189999999999] anymore like is he just banging this
+
+[1633.98 - 1639.2] drum because it's fun to Bang the Drum
+
+[1636.919 - 1641.1200000000001] um but like what these papers tell me is
+
+[1639.2 - 1643.1000000000001] that one the adults are in the room and
+
+[1641.12 - 1645.559] two they are taking it seriously and
+
+[1643.1 - 1647.36] three it's got teeth like the money is
+
+[1645.559 - 1649.039] coming the legislation is coming the
+
+[1647.36 - 1650.779] regular regulation is coming the
+
+[1649.039 - 1653.299] research is coming
+
+[1650.779 - 1654.919] um and so it's like I don't know it
+
+[1653.299 - 1656.84] seemed it seems like he's got an ax to
+
+[1654.919 - 1658.8200000000002] grind and I'm not sure with whom
+
+[1656.84 - 1660.9189999999999] um but you know and and the thing is
+
+[1658.82 - 1663.86] here's the thing is I don't disagree
+
+[1660.919 - 1665.9] with Eliezer in terms of when you
+
+[1663.86 - 1667.6999999999998] scientifically look at the risk of super
+
+[1665.9 - 1670.88] intelligence
+
+[1667.7 - 1673.4] um but I don't agree that it is not
+
+[1670.88 - 1675.5] being taken seriously anymore so anyways
+
+[1673.4 - 1676.94] uh with all that being said thanks for
+
+[1675.5 - 1679.4] watching I hope you got a lot out of
+
+[1676.94 - 1680.48] this I hope that you feel like uh huh
+
+[1679.4 - 1681.679] we're moving in the right direction
+
+[1680.48 - 1683.6] again I'm not going to say it's a
+
+[1681.679 - 1686.8400000000001] foregone conclusion it's not over till
+
+[1683.6 - 1689.62] it's over but this gives me a lot of
+
+[1686.84 - 1689.62] Hope cheers

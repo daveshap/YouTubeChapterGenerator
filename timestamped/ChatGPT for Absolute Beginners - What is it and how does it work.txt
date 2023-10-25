@@ -1,0 +1,957 @@
+[1.14 - 5.7589999999999995] hey everybody David Shapiro here with
+
+[3.3 - 7.08] another video uh it occurred to me that
+
+[5.759 - 9.72] there's a lot of people that are new to
+
+[7.08 - 11.639] GPT and chat GPT and uh so you might
+
+[9.72 - 13.86] have questions about how it works
+
+[11.639 - 15.299] uh before we get started in the video I
+
+[13.86 - 17.82] wanted to direct your attention to my
+
+[15.299 - 19.619] patreon page now I put a lot of content
+
+[17.82 - 22.92] out entirely for free I want to help
+
+[19.619 - 25.439] make the world a better place uh by
+
+[22.92 - 27.42] um by sharing my knowledge
+
+[25.439 - 30.66] um and in exchange I'm hoping that I can
+
+[27.42 - 32.579] get a little bit more support for uh for
+
+[30.66 - 34.079] the work that I do so if you find my
+
+[32.579 - 37.2] content valuable please jump over to
+
+[34.079 - 39.120000000000005] patreon and consider supporting me one
+
+[37.2 - 40.739000000000004] advantage that you get or there's two
+
+[39.12 - 42.839999999999996] advantages that you get for supporting
+
+[40.739 - 45.18] me on patreon one you get access to my
+
+[42.84 - 47.82000000000001] exclusive blog and two I've started
+
+[45.18 - 50.64] uploading uh patreon exclusive videos
+
+[47.82 - 53.579] so with all that being said let's go
+
+[50.64 - 57.239000000000004] ahead and jump into today's presentation
+
+[53.579 - 59.699] what is chat GPT and how does it work
+
+[57.239 - 62.94] so Chad gbt was built by a company
+
+[59.699 - 65.519] called openai openai was established a
+
+[62.94 - 67.86] few years back as an open source
+
+[65.519 - 69.96000000000001] Consortium or not really a Consortium
+
+[67.86 - 73.56] just a company an open source company
+
+[69.96 - 75.83999999999999] with the goal of creating safe AGI that
+
+[73.56 - 79.14] is the primary was the primary original
+
+[75.84 - 82.02000000000001] purpose of open AI now it has since
+
+[79.14 - 83.82] changed it is now closed source and it
+
+[82.02 - 85.32] is also for profit
+
+[83.82 - 86.46] so
+
+[85.32 - 89.69999999999999] um obviously it has gotten some
+
+[86.46 - 92.22] criticism for this uh because it's kind
+
+[89.7 - 93.60000000000001] of runs contrary to its uh founding
+
+[92.22 - 95.939] purpose
+
+[93.6 - 99.479] um but they do still release open source
+
+[95.939 - 102.53999999999999] um uh code every now and then
+
+[99.479 - 104.46] okay well first before we get into chat
+
+[102.54 - 105.96000000000001] GPT we have to answer the question what
+
+[104.46 - 108.05999999999999] is GPT
+
+[105.96 - 109.259] GPT means generative pre-trained
+
+[108.06 - 111.78] Transformer
+
+[109.259 - 115.02] it is a technology that basically just
+
+[111.78 - 117.36] reads and generates text that is the the
+
+[115.02 - 119.34] long and short of what GPT does
+
+[117.36 - 121.02] it was trained it's a deep neural
+
+[119.34 - 123.78] network that is trained to predict the
+
+[121.02 - 126.6] next token now a token is just a fancy
+
+[123.78 - 128.58] way of saying a few characters
+
+[126.6 - 131.16] um and of course you you put characters
+
+[128.58 - 133.44000000000003] together to make words you uh every
+
+[131.16 - 135.29999999999998] everything that you read on a page is a
+
+[133.44 - 139.22] series of characters new line periods
+
+[135.3 - 139.22] spaces letters and so on
+
+[139.379 - 144.66] so it was it it's a little bit deceptive
+
+[142.56 - 147.12] that it was only trained to predict the
+
+[144.66 - 149.04] next character now
+
+[147.12 - 151.02] you might say okay well how is it so
+
+[149.04 - 153.17999999999998] powerful if that's all that it does
+
+[151.02 - 156.18] so the reason that it's so powerful is
+
+[153.18 - 158.76000000000002] that because enable in order to predict
+
+[156.18 - 160.02] the next character accurately you need
+
+[158.76 - 162.239] to have a lot of knowledge and other
+
+[160.02 - 164.09900000000002] capabilities and that is what it has
+
+[162.239 - 165.239] learned to embed in its neural network
+
+[164.099 - 167.16] over time
+
+[165.239 - 169.20000000000002] and so you might hear that word embedded
+
+[167.16 - 172.019] you might also hear latent space we'll
+
+[169.2 - 174.35999999999999] talk about that in a couple slides
+
+[172.019 - 176.519] so for instance it knows how to write a
+
+[174.36 - 178.8] checklist by virtue of having read
+
+[176.519 - 180.48000000000002] millions of checklists it also knows how
+
+[178.8 - 182.87900000000002] to write code because it's read lots of
+
+[180.48 - 186.11999999999998] code and so just by virtue of predicting
+
+[182.879 - 188.34] what comes next it learns to figure out
+
+[186.12 - 190.44] what comes next it was trained on
+
+[188.34 - 193.26] billions and billions of tokens
+
+[190.44 - 195.599] now the easiest way to think about it is
+
+[193.26 - 197.28] that it is an autocomplete engine like
+
+[195.599 - 199.01899999999998] what you might have on your phone but
+
+[197.28 - 201.92] it's on steroids it doesn't just predict
+
+[199.019 - 204.36] the next word kind of you know
+
+[201.92 - 207.05999999999997] stochastically some people do say that
+
+[204.36 - 208.68] it's a stochastic engine not really it's
+
+[207.06 - 209.76] it's a little bit more complicated than
+
+[208.68 - 211.62] that
+
+[209.76 - 213.84] um so but it is an autocomplete engine
+
+[211.62 - 215.22] on steroids now you might say that a
+
+[213.84 - 216.84] human brain is an autocomplete engine
+
+[215.22 - 219.239] too because we have the ability to
+
+[216.84 - 222.239] predict and generate patterns but that's
+
+[219.239 - 224.09900000000002] a that's a topic for another video
+
+[222.239 - 226.5] the next thing that you need to know is
+
+[224.099 - 229.26] that GPT comes in flavors so there's two
+
+[226.5 - 231.36] kinds of flavors that it comes in one is
+
+[229.26 - 233.159] that it comes in different sizes so
+
+[231.36 - 234.239] there's uh there's larger ones and
+
+[233.159 - 236.159] they're smaller ones and it's all
+
+[234.239 - 238.44] measured by the parameter count
+
+[236.159 - 240.89999999999998] so the parameter count is basically the
+
+[238.44 - 242.159] number of connections inside of that
+
+[240.9 - 244.31900000000002] neural network
+
+[242.159 - 246.72] and there was a paper that came out a
+
+[244.319 - 248.7] year or two ago that said that for these
+
+[246.72 - 251.34] neural networks it's roughly a thousand
+
+[248.7 - 253.379] parameters in a deep neural network are
+
+[251.34 - 255.9] equivalent to the processing power of
+
+[253.379 - 259.019] one human neuron
+
+[255.9 - 261.419] so with GPT the largest model that we
+
+[259.019 - 265.02] know of being 176 billion parameters
+
+[261.419 - 267.29999999999995] this is roughly equivalent to 176
+
+[265.02 - 269.4] million neurons in a human brain so it's
+
+[267.3 - 271.919] still much smaller than a human brain in
+
+[269.4 - 274.919] terms of raw processing power and that
+
+[271.919 - 277.68] of course is if that paper holds up we
+
+[274.919 - 280.34] uh we typically adjust how we think of
+
+[277.68 - 284.16] human brain power over time
+
+[280.34 - 286.67999999999995] now GPT you know okay 176 billion
+
+[284.16 - 288.12] parameters how much uh compute power
+
+[286.68 - 291.479] does it take to run
+
+[288.12 - 294.54] it takes roughly 700 gigabytes of vram I
+
+[291.479 - 297.71999999999997] think it's 768 or something like that uh
+
+[294.54 - 301.38] so that's roughly 90 Xboxes or maybe up
+
+[297.72 - 304.199] to 100 Xbox Ones in order to run chat
+
+[301.38 - 305.94] GPT or GPT now that's not necessarily
+
+[304.199 - 307.91900000000004] what they're using
+
+[305.94 - 309.78] um but that's just a rough approximation
+
+[307.919 - 311.75899999999996] again you know take it with a grain of
+
+[309.78 - 315.9] salt it could be could be more could be
+
+[311.759 - 318.0] less oops so there's flavors in terms of
+
+[315.9 - 319.919] size but there's also flavors in terms
+
+[318.0 - 322.199] of what they are trained to do or
+
+[319.919 - 324.12] fine-tuned to do
+
+[322.199 - 326.1] so what I mean by that is that the
+
+[324.12 - 328.08] original model that was pre that was
+
+[326.1 - 330.47900000000004] trained just to predict the next token
+
+[328.08 - 333.12] is what we call the vanilla model or the
+
+[330.479 - 336.0] foundation model now Foundation models
+
+[333.12 - 338.28000000000003] are really powerful but they also tend
+
+[336.0 - 340.44] to go off the rails
+
+[338.28 - 342.96] um and that is because they just predict
+
+[340.44 - 345.479] the next token and it's very haphazard
+
+[342.96 - 347.15999999999997] they're not they're not uh they're not
+
+[345.479 - 349.199] trained to do any one thing they just
+
+[347.16 - 353.1] predict the next tokens and it allows
+
+[349.199 - 356.039] them to uh confabulate very deeply or
+
+[353.1 - 359.52000000000004] kind of invent their own tasks and so
+
+[356.039 - 362.4] what we've done is we've had uh
+
+[359.52 - 365.21999999999997] fine-tuned data sets that have given us
+
+[362.4 - 366.65999999999997] codex instruct and now chat GPT and
+
+[365.22 - 368.16] we'll talk about how these fine-tuned
+
+[366.66 - 370.08000000000004] data sets are created in just a moment
+
+[368.16 - 373.02000000000004] but the key thing to know about fine
+
+[370.08 - 374.69899999999996] tuning is that it's like it's it's based
+
+[373.02 - 377.75899999999996] on a technology called transfer learning
+
+[374.699 - 380.40000000000003] where you have the pre-trained model and
+
+[377.759 - 382.91900000000004] you take it apart and you slap a new
+
+[380.4 - 385.79999999999995] layer or two on the end
+
+[382.919 - 388.31899999999996] um and then you train it on that one new
+
+[385.8 - 389.699] task with a new data set but here's the
+
+[388.319 - 392.03900000000004] thing rather than training it on
+
+[389.699 - 394.319] billions of tokens it only takes a few
+
+[392.039 - 396.84] thousand to train it on one specific new
+
+[394.319 - 399.91900000000004] task thousands or Millions
+
+[396.84 - 399.919] give me just a moment
+
+[400.8 - 405.18] sorry I've been sick and I'm recovering
+
+[402.539 - 406.8] so I'm drinking Pedialyte okay so it
+
+[405.18 - 410.819] comes in flavors
+
+[406.8 - 414.72] now how is the chat GPT flavor created
+
+[410.819 - 416.03900000000004] the chat GPT flavor uses rlhf or
+
+[414.72 - 417.3] reinforcement learning with human
+
+[416.039 - 420.36] feedback
+
+[417.3 - 422.24] so the way that this is trained is that
+
+[420.36 - 425.16] you have a reinforcement learning model
+
+[422.24 - 427.5] that uses a signal from humans that
+
+[425.16 - 430.86] basically say like it gives it it tries
+
+[427.5 - 433.08] uh it tries a generation it generates
+
+[430.86 - 435.0] some text and asks you did you like this
+
+[433.08 - 436.199] yes or no and people say yes or no good
+
+[435.0 - 439.199] or bad
+
+[436.199 - 441.90000000000003] and the the rlhf model then learns to
+
+[439.199 - 444.06] predict what people will want
+
+[441.9 - 445.5] and so then once you have a
+
+[444.06 - 447.9] reinforcement learning model that can
+
+[445.5 - 449.759] accurately predict what people will want
+
+[447.9 - 452.46] it'll it basically just says will you
+
+[449.759 - 454.97900000000004] like this yes or no that allows you to
+
+[452.46 - 458.039] then label lots and lots and lots of
+
+[454.979 - 460.44] data automatically very quickly
+
+[458.039 - 463.44] and so what they did was they used that
+
+[460.44 - 466.38] this method rlhf to create a new data
+
+[463.44 - 468.78] set so above and beyond instruct and
+
+[466.38 - 470.479] codecs which are what most people are
+
+[468.78 - 474.0] familiar with
+
+[470.479 - 476.039] now there's a data set for chat GPT and
+
+[474.0 - 478.139] so basically I've got it right here at
+
+[476.039 - 480.539] the end people preferred long thorough
+
+[478.139 - 483.24] responses and so that's how chat GPT
+
+[480.539 - 485.58] learn to communicate just by virtue of
+
+[483.24 - 488.28000000000003] it gave a response and people gave it a
+
+[485.58 - 490.979] thumbs up or a thumbs down and that is
+
+[488.28 - 492.29999999999995] the direction that it went
+
+[490.979 - 495.599] thank you
+
+[492.3 - 497.52000000000004] now how does its memory work because one
+
+[495.599 - 500.58] of the most remarkable things about chat
+
+[497.52 - 503.099] GPT is that you can have pretty long
+
+[500.58 - 504.9] conversations with it and it seems like
+
+[503.099 - 505.86] it has a pretty long memory this is one
+
+[504.9 - 507.479] of the things that makes it very
+
+[505.86 - 509.039] powerful
+
+[507.479 - 511.62] so one thing to know about GPT
+
+[509.039 - 513.899] Technologies is it has a window size and
+
+[511.62 - 516.539] so the window size is the total amount
+
+[513.899 - 520.979] of text that it can read and generate
+
+[516.539 - 522.36] so for instance text DaVinci 03 one of
+
+[520.979 - 524.76] the larger models right now has a window
+
+[522.36 - 527.64] size of 4000 tokens
+
+[524.76 - 530.399] chat GPT is rumored to have a tokens
+
+[527.64 - 532.62] window size of 8 000 tokens
+
+[530.399 - 535.08] So when you say that it's when you when
+
+[532.62 - 538.08] you think that it's uh three to four
+
+[535.08 - 540.24] tokens per word on average
+
+[538.08 - 542.58] um that includes spaces and hyphens and
+
+[540.24 - 544.6800000000001] and and white space
+
+[542.58 - 547.26] um that equates to about 10 pages of
+
+[544.68 - 548.7199999999999] text give or take could be 15 depends on
+
+[547.26 - 553.4399999999999] what's on the page
+
+[548.72 - 556.38] so the most obvious way is that chat GPT
+
+[553.44 - 559.2600000000001] just has what's called a rolling window
+
+[556.38 - 561.24] where it reads the last 10 pages of your
+
+[559.26 - 562.98] chat which if you have a short chat that
+
+[561.24 - 566.04] means it can read the entire chat log
+
+[562.98 - 568.5600000000001] and continue the conversation just as
+
+[566.04 - 571.0799999999999] the same with um with the same Paradigm
+
+[568.56 - 574.3199999999999] of of Auto autocomplete of just
+
+[571.08 - 576.36] predicting the next text uh because it
+
+[574.32 - 578.4590000000001] has read lots and lots of chat logs and
+
+[576.36 - 580.44] it has a particular pattern that it
+
+[578.459 - 581.8199999999999] follows where it gives very very verbose
+
+[580.44 - 584.339] responses
+
+[581.82 - 587.82] now there's a couple other possibilities
+
+[584.339 - 589.9200000000001] of how its memory works again open AI is
+
+[587.82 - 591.839] no longer open this is closed source and
+
+[589.92 - 594.36] so it's proprietary technology it's also
+
+[591.839 - 597.6600000000001] for-profit technology so this last part
+
+[594.36 - 599.88] is is pure speculation on the part of
+
+[597.66 - 603.18] the AI community
+
+[599.88 - 605.9399999999999] it might use search or a scratch pad
+
+[603.18 - 608.0999999999999] so what we mean by search is that every
+
+[605.94 - 611.1] chat log that you give it is searchable
+
+[608.1 - 613.32] so and once you have very long chat
+
+[611.1 - 615.4200000000001] conversations it's not going to fit in
+
+[613.32 - 617.1600000000001] the window anymore but based on what's
+
+[615.42 - 619.74] going on currently in the conversation
+
+[617.16 - 621.8389999999999] it could use that to queue up and look
+
+[619.74 - 624.1800000000001] back in older messages in the
+
+[621.839 - 626.58] conversation to figure out what's going
+
+[624.18 - 629.6999999999999] on it could also use what's called a
+
+[626.58 - 633.4200000000001] scratch Pad which is basically a running
+
+[629.7 - 635.58] summary that holds out on the side
+
+[633.42 - 636.8389999999999] uh or an ongoing summarization that it
+
+[635.58 - 639.48] holds on the side that it can use to
+
+[636.839 - 641.7] keep track of information regardless of
+
+[639.48 - 643.5600000000001] how far back it goes again this is
+
+[641.7 - 646.019] entirely hypothetical
+
+[643.56 - 647.6999999999999] um we're not sure if that's what it does
+
+[646.019 - 649.74] um there's another possibility that I
+
+[647.7 - 652.019] didn't put on here that um I want to try
+
+[649.74 - 654.0600000000001] and Implement which is that it can build
+
+[652.019 - 656.279] a knowledge graph of the conversation as
+
+[654.06 - 660.3599999999999] you go which means that it's constantly
+
+[656.279 - 662.22] updating and uh and keeping track of new
+
+[660.36 - 663.48] topics and stuff and then it can
+
+[662.22 - 665.88] Traverse that Knowledge Graph and
+
+[663.48 - 667.26] extract information from it as it goes I
+
+[665.88 - 670.74] don't think that it does that but a
+
+[667.26 - 674.519] future version absolutely could
+
+[670.74 - 677.4590000000001] now why is this so powerful why is chat
+
+[674.519 - 679.38] GPT so incredibly powerful that it has
+
+[677.459 - 681.66] taken the Internet by storm
+
+[679.38 - 684.3] well one of the things to keep in mind
+
+[681.66 - 686.459] is that it has a lot of latent Space by
+
+[684.3 - 688.5] virtue of the fact that it has read a
+
+[686.459 - 690.779] significant chunk of the internet means
+
+[688.5 - 692.82] that we don't even know what it knows we
+
+[690.779 - 694.4399999999999] have a good idea of what it knows but we
+
+[692.82 - 697.2] don't even have good benchmarks about
+
+[694.44 - 699.24] how to measure the power of these models
+
+[697.2 - 702.9590000000001] in fact there are new benchmarks coming
+
+[699.24 - 705.24] out all the time because old NLP
+
+[702.959 - 706.92] benchmarks don't really matter it
+
+[705.24 - 708.72] doesn't it doesn't measure intelligence
+
+[706.92 - 710.64] the right way
+
+[708.72 - 713.339] um because what we have now those are
+
+[710.64 - 715.62] those those old benchmarks were for NLP
+
+[713.339 - 717.0] natural language processing what we're
+
+[715.62 - 718.5] doing now is called natural language
+
+[717.0 - 720.68] understanding and natural language
+
+[718.5 - 724.86] generation so it's an entirely different
+
+[720.68 - 726.54] Paradigm uh category of Technology
+
+[724.86 - 728.519] so this latent space are these
+
+[726.54 - 730.98] embeddings is what I mentioned earlier
+
+[728.519 - 733.8] in that by virtue of figuring out what
+
+[730.98 - 736.019] it takes to predict the next token it
+
+[733.8 - 739.56] has also embedded a lot of knowledge or
+
+[736.019 - 742.26] has a lot a lot of latent capabilities
+
+[739.56 - 744.2399999999999] so that is one aspect of why it's so
+
+[742.26 - 747.48] powerful another aspect of why it's so
+
+[744.24 - 749.339] powerful is because your brain is
+
+[747.48 - 751.5600000000001] interacting with a machine
+
+[749.339 - 753.5600000000001] so it's kind of like a utility Droid
+
+[751.56 - 755.9399999999999] which is why I picked a picture of R2D2
+
+[753.56 - 759.06] R2D2 on his own doesn't really do that
+
+[755.94 - 761.7] much but he has capabilities that you
+
+[759.06 - 763.4399999999999] don't and similarly chat GPT has
+
+[761.7 - 764.94] capabilities that you don't and so you
+
+[763.44 - 767.5790000000001] complement each other
+
+[764.94 - 769.62] and so your brain has better faster
+
+[767.579 - 771.8389999999999] memory than chat GPT so you can remember
+
+[769.62 - 773.519] what's going on in the conversation you
+
+[771.839 - 775.8000000000001] also have the ability to spontaneously
+
+[773.519 - 776.94] come up with directives chat GPT does
+
+[775.8 - 779.399] not
+
+[776.94 - 781.5600000000001] so chat GPT does a different kind of
+
+[779.399 - 783.839] work than you do but it does it faster
+
+[781.56 - 786.06] and so by doing that different kind of
+
+[783.839 - 787.6800000000001] work and doing it faster it takes a lot
+
+[786.06 - 791.16] of mental work off your shoulders which
+
+[787.68 - 793.1999999999999] is why it is so powerful same idea of
+
+[791.16 - 795.06] behind having a utility Droid is it can
+
+[793.2 - 797.22] do something that you can't like R2D2
+
+[795.06 - 799.5] can hack into computers it does it much
+
+[797.22 - 800.94] faster than any human can and then R2D2
+
+[799.5 - 803.519] will follow you around
+
+[800.94 - 806.7] so is chat GPT going to evolve into R2D2
+
+[803.519 - 808.019] maybe that'd be kind of cool
+
+[806.7 - 809.76] now
+
+[808.019 - 811.44] let's talk about what is chat GPT
+
+[809.76 - 814.98] changed for us
+
+[811.44 - 816.899] the biggest thing is that chat gbt is
+
+[814.98 - 819.36] the first AI technology to take the
+
+[816.899 - 822.0] World by storm it is the biggest proof
+
+[819.36 - 823.38] that AI is ready so the first thing
+
+[822.0 - 824.519] that's going to happen is a lot of
+
+[823.38 - 826.62] investment
+
+[824.519 - 828.54] so what I mean by this is that once a
+
+[826.62 - 831.54] technology is commercially ready once
+
+[828.54 - 833.9399999999999] it's commercially viable then you get a
+
+[831.54 - 835.8] lot of money being put into it we saw
+
+[833.94 - 838.62] the same thing with electric vehicles
+
+[835.8 - 842.04] and solar power because for the longest
+
+[838.62 - 844.74] time things like EVs and solar were not
+
+[842.04 - 846.18] cost effective but now they are
+
+[844.74 - 847.74] and of course there's a little bit of
+
+[846.18 - 849.2399999999999] debate over whether or not EVS are
+
+[847.74 - 851.5790000000001] actually cost effective but solar
+
+[849.24 - 854.279] absolutely is which is why the rate of
+
+[851.579 - 858.0] of investment in solar is accelerating
+
+[854.279 - 862.5] and so now that the world knows that AI
+
+[858.0 - 865.62] is real and it works because chat GPT is
+
+[862.5 - 867.36] easy to use and the value is obvious the
+
+[865.62 - 869.7] money is coming
+
+[867.36 - 871.38] okay so that's that's the first thing
+
+[869.7 - 873.0600000000001] that it changes
+
+[871.38 - 875.22] um it will take a little while to prove
+
+[873.06 - 877.56] it out and it will take a little while
+
+[875.22 - 879.72] to implement and deploy it because chat
+
+[877.56 - 882.0] GPT is just a prototype it's not ready
+
+[879.72 - 885.1800000000001] for commercial purposes yet it's very
+
+[882.0 - 887.279] useful as it is I use it all the time
+
+[885.18 - 890.3389999999999] um so and this is just version one
+
+[887.279 - 892.32] imagine version two or version 10. it's
+
+[890.339 - 894.6] going to get exponentially more powerful
+
+[892.32 - 897.72] now there's a lot of other problems to
+
+[894.6 - 900.36] solve though mostly safety how do we use
+
+[897.72 - 902.1600000000001] it correctly how do we how do we use it
+
+[900.36 - 904.26] without doing any harm
+
+[902.16 - 906.779] how do we make sure that it is not going
+
+[904.26 - 908.3389999999999] to do more damage than good
+
+[906.779 - 909.899] so there's a lot of improvements that
+
+[908.339 - 912.12] need to be made that this is the big
+
+[909.899 - 914.04] thing that changes is so there's the
+
+[912.12 - 915.12] window size the length of memory some of
+
+[914.04 - 916.5] the some of those topics I already
+
+[915.12 - 917.399] mentioned
+
+[916.5 - 919.44] um it needs to be able to follow
+
+[917.399 - 921.899] instructions a little bit better because
+
+[919.44 - 923.1] sometimes if you use chat GPT you might
+
+[921.899 - 925.62] notice that it kind of gets stuck in a
+
+[923.1 - 927.36] rut still where you can you can correct
+
+[925.62 - 929.4590000000001] it and say no this isn't the way to do
+
+[927.36 - 931.1990000000001] it sometimes it'll listen sometimes it
+
+[929.459 - 932.699] won't
+
+[931.199 - 934.3199999999999] um and one of the biggest things is
+
+[932.699 - 936.899] going to be Integrations with external
+
+[934.32 - 939.1800000000001] sources of information or other apis
+
+[936.899 - 941.22] because right now it's self-contained in
+
+[939.18 - 942.4799999999999] a tiny little bottle
+
+[941.22 - 944.5790000000001] um but one of the biggest things that
+
+[942.48 - 946.5] Technologies like chat GPT could could
+
+[944.579 - 949.56] change is that everything might go
+
+[946.5 - 952.32] faster all science all education all
+
+[949.56 - 954.06] creativity all business everything could
+
+[952.32 - 958.22] go faster because of the cognitive
+
+[954.06 - 958.2199999999999] offload that this technology offers
+
+[958.32 - 963.3000000000001] all right so what are the limitations
+
+[960.42 - 965.8199999999999] and downsides of chat GPT first and
+
+[963.3 - 967.5] foremost it's expensive to run
+
+[965.82 - 969.779] um as we mentioned earlier it would
+
+[967.5 - 971.779] require about 90 Xbox Ones to run it
+
+[969.779 - 974.04] obviously that's not what they're using
+
+[971.779 - 975.38] the computers to run these are very
+
+[974.04 - 978.7199999999999] expensive though
+
+[975.38 - 982.8] and open AI is not open about it that's
+
+[978.72 - 985.139] another big downside but because this
+
+[982.8 - 987.899] technology is so valuable there are many
+
+[985.139 - 990.66] many up and coming competitors
+
+[987.899 - 993.36] um so that is that is we're going to see
+
+[990.66 - 996.36] a huge investment in 2023 in people
+
+[993.36 - 997.86] trying to make clones of chat GPT
+
+[996.36 - 999.54] um I have a video series where I started
+
+[997.86 - 1002.0600000000001] this and there's dozens hundreds of
+
+[999.54 - 1003.92] other people already working on chat GPT
+
+[1002.06 - 1006.699] clones
+
+[1003.92 - 1010.519] there is a huge potential for disruption
+
+[1006.699 - 1014.18] such as lost jobs new jobs coming out
+
+[1010.519 - 1015.8] too and even new ways of living and the
+
+[1014.18 - 1018.399] biggest downside is probably going to be
+
+[1015.8 - 1020.54] safety and privacy such as data security
+
+[1018.399 - 1023.18] the conversations that you have with
+
+[1020.54 - 1025.76] chat GPT if they get leaked it could be
+
+[1023.18 - 1027.86] used against you or if at the very least
+
+[1025.76 - 1032.059] it could be very embarrassing
+
+[1027.86 - 1034.579] all right last slide what's next in 2023
+
+[1032.059 - 1036.62] well We're Off to the Races
+
+[1034.579 - 1038.6] um 2023 is going to be the first year of
+
+[1036.62 - 1041.2399999999998] the singularity mark my words we are
+
+[1038.6 - 1043.28] going to remember 2023 is the year that
+
+[1041.24 - 1044.9] the singularity began
+
+[1043.28 - 1047.0] um another more boring term for that is
+
+[1044.9 - 1048.199] the fourth Industrial Revolution
+
+[1047.0 - 1050.059] um there's going to be lots of money
+
+[1048.199 - 1052.76] being invested in these Technologies
+
+[1050.059 - 1054.559] lots of new products and services we're
+
+[1052.76 - 1056.72] going to see a lot of change very
+
+[1054.559 - 1059.12] quickly because we're at a Tipping Point
+
+[1056.72 - 1061.7] right so if you look back through time
+
+[1059.12 - 1064.6599999999999] from the introduction of mass-produced
+
+[1061.7 - 1066.8600000000001] cars it took I think it was 14 years
+
+[1064.66 - 1069.02] from from the introduction of
+
+[1066.86 - 1070.6599999999999] mass-produced cars to where like
+
+[1069.02 - 1073.4] basically horses were not used anymore
+
+[1070.66 - 1074.8400000000001] we're going to see change even faster
+
+[1073.4 - 1076.88] than that
+
+[1074.84 - 1079.1] um because we're at a Tipping Point and
+
+[1076.88 - 1081.0800000000002] because these Technologies are very
+
+[1079.1 - 1082.3999999999999] quick and easy to deploy relatively
+
+[1081.08 - 1084.3799999999999] speaking
+
+[1082.4 - 1086.66] um you know building building a million
+
+[1084.38 - 1088.94] cars takes a long time getting a million
+
+[1086.66 - 1092.6000000000001] users on chat GPT took three days
+
+[1088.94 - 1094.3400000000001] so uh the the rate of change is going to
+
+[1092.6 - 1095.7199999999998] be very fast and it's very difficult to
+
+[1094.34 - 1098.059] predict where we're going to be a year
+
+[1095.72 - 1099.799] from now at in the first week of January
+
+[1098.059 - 1102.1399999999999] in 2024.
+
+[1099.799 - 1103.28] all right well that's it thanks for
+
+[1102.14 - 1105.98] watching
+
+[1103.28 - 1107.66] um again please uh consider supporting
+
+[1105.98 - 1109.9] me on patreon
+
+[1107.66 - 1112.16] um it's patreon.com
+
+[1109.9 - 1113.8400000000001] my goal is to be able to do this full
+
+[1112.16 - 1116.0] time so that I can continue putting out
+
+[1113.84 - 1118.48] content for free thanks for watching and
+
+[1116.0 - 1118.48] have a good one

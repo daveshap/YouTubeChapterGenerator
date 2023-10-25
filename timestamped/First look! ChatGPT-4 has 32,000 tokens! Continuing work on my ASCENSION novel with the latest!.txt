@@ -1,0 +1,1325 @@
+[0.42 - 3.6] hey everyone David Shapiro here
+
+[3.06 - 5.04] um
+
+[3.6 - 8.76] who I don't know when I'm gonna post
+
+[5.04 - 12.620000000000001] this video but gpt4 just dropped and um
+
+[8.76 - 12.62] so I'm already experimenting with it
+
+[12.84 - 19.32] um now the biggest thing that I noticed
+
+[15.78 - 22.799999999999997] in the live stream demo was that the
+
+[19.32 - 24.240000000000002] chat gpt4 has a token count of 32 000
+
+[22.8 - 27.3] tokens
+
+[24.24 - 29.4] and the ratio of tokens to words is
+
+[27.3 - 30.48] roughly two-thirds so that's about 20
+
+[29.4 - 34.739] 000 words
+
+[30.48 - 37.44] twenty thousand words is a lot that is
+
+[34.739 - 39.599999999999994] about a hundred Pages uh just shy of 100
+
+[37.44 - 42.959999999999994] pages of text
+
+[39.6 - 45.18] um which is enough working memory
+
+[42.96 - 47.1] to do basically any human task almost
+
+[45.18 - 48.6] any human task especially when you
+
+[47.1 - 50.1] consider the amount of intrinsic
+
+[48.6 - 52.82] knowledge or background knowledge or
+
+[50.1 - 58.079] latent knowledge that the model has
+
+[52.82 - 60.899] so we just hit a new era of AI so the
+
+[58.079 - 64.619] the only way you can use gpt4 right now
+
+[60.899 - 67.2] is if you're on chat GPT plus
+
+[64.619 - 70.2] um and I already signed up for the API
+
+[67.2 - 72.72] of course but it looks like it'll be a
+
+[70.2 - 74.46000000000001] minute so anyways so I'm going back to
+
+[72.72 - 76.2] Ascension so here's the notes that I had
+
+[74.46 - 76.86] for Ascension
+
+[76.2 - 80.22] um
+
+[76.86 - 82.5] and then I also have the previous uh uh
+
+[80.22 - 85.02] one right here
+
+[82.5 - 87.299] um so what I'm doing is I'm adding in
+
+[85.02 - 90.02] some of the information that I was
+
+[87.299 - 93.18] brainstorming last time
+
+[90.02 - 94.74] Okay so
+
+[93.18 - 97.68] let's see what are the specific
+
+[94.74 - 100.86] Milestones there we go all right so
+
+[97.68 - 103.92] let me add some of these notes
+
+[100.86 - 107.82] and we're just gonna we're just gonna go
+
+[103.92 - 112.02] refresh Ascension part two uh great here
+
+[107.82 - 115.27999999999999] are some other notes we worked on in
+
+[112.02 - 115.28] another session
+
+[117.72 - 123.03] um here actually let me
+
+[119.34 - 123.60000000000001] just grab this as a whole
+
+[123.03 - 125.6] [Music]
+
+[123.6 - 125.6] um
+
+[127.92 - 131.4] because the uh the context window is so
+
+[130.619 - 135.12] long
+
+[131.4 - 139.81900000000002] great here are some notes from
+
+[135.12 - 139.81900000000002] another session we worked on
+
+[141.0 - 145.56] um
+
+[142.14 - 147.48] wait there's more are you ready
+
+[145.56 - 149.459] so one thing I've noticed already is
+
+[147.48 - 151.5] that gpt4 is a little bit more hot on
+
+[149.459 - 153.959] the biscuit ready to go so you got to
+
+[151.5 - 155.7] tell it like wait
+
+[153.959 - 157.8] um
+
+[155.7 - 160.73899999999998] of course I am here to help take your
+
+[157.8 - 162.72] time okay blah blah blah I don't want to
+
+[160.739 - 164.459] interrupt it so you'll notice that gpt4
+
+[162.72 - 166.379] is a little bit slower
+
+[164.459 - 168.0] so that's fine all right so then we'll
+
+[166.379 - 172.92] come up here
+
+[168.0 - 173.879] um let's see I just got uh this one
+
+[172.92 - 178.01899999999998] um
+
+[173.879 - 178.01899999999998] here are some possible milestones
+
+[179.94 - 184.4] here actually let's just let's just grab
+
+[182.04 - 184.4] all this
+
+[185.7 - 188.17999999999998] great
+
+[190.8 - 193.76000000000002] um actually no that's fine
+
+[204.48 - 207.01899999999998] oops
+
+[213.48 - 218.39999999999998] let me check if there's more so
+
+[216.659 - 220.07999999999998] basically sorry for the silence I was
+
+[218.4 - 220.739] just kind of thinking
+
+[220.08 - 223.56] um
+
+[220.739 - 225.299] so I'm giving it everything and this is
+
+[223.56 - 230.34] let's just oops
+
+[225.299 - 230.34] let's just copy paste everything
+
+[230.459 - 234.72] into a new word document and see how
+
+[232.56 - 238.31900000000002] many words this is
+
+[234.72 - 242.28] so this is only 2300 words so this is
+
+[238.319 - 244.61999999999998] about a tenth of the context window
+
+[242.28 - 246.659] so we're we're already planning the
+
+[244.62 - 247.62] entire story
+
+[246.659 - 249.78] um
+
+[247.62 - 251.22] basically copy pasting everything that
+
+[249.78 - 255.48] I've already got
+
+[251.22 - 258.12] let's see there it is okay
+
+[255.48 - 259.38] there we go okay great so now that we've
+
+[258.12 - 260.22] got this okay
+
+[259.38 - 262.139] um
+
+[260.22 - 265.5] I think
+
+[262.139 - 269.88] that is the grand total of all the
+
+[265.5 - 271.8] information we've got about story so far
+
+[269.88 - 276.84] please
+
+[271.8 - 278.96000000000004] um recap everything in totality
+
+[276.84 - 278.96] um
+
+[279.24 - 282.66] uh
+
+[280.62 - 286.08] about this story
+
+[282.66 - 289.259] please capture all details
+
+[286.08 - 290.03999999999996] um in a complete report
+
+[289.259 - 292.46000000000004] um
+
+[290.04 - 294.68] I will be using
+
+[292.46 - 299.34] this document
+
+[294.68 - 300.90000000000003] to some uh uh let's see two uh what's
+
+[299.34 - 302.82] the word um
+
+[300.9 - 305.69899999999996] let's see as a
+
+[302.82 - 308.94] as the main uh let's see there's a
+
+[305.699 - 310.38] there's a term for it in in fiction
+
+[308.94 - 311.46] um where you use it like it's your main
+
+[310.38 - 313.32] Bible
+
+[311.46 - 313.919] what's the main Bible for
+
+[313.32 - 315.36] um
+
+[313.919 - 317.21999999999997] story
+
+[315.36 - 319.91900000000004] okay so while that's going let's talk
+
+[317.22 - 322.08000000000004] about gbt4
+
+[319.919 - 326.69899999999996] um so I watched the whole live stream
+
+[322.08 - 328.68] gpt4 is multimodal it can accept images
+
+[326.699 - 331.46000000000004] um if you look at
+
+[328.68 - 331.46] product
+
+[332.88 - 338.9] um they mention
+
+[335.46 - 338.9] I think they mentioned videos
+
+[339.66 - 345.84000000000003] um did they
+
+[342.419 - 348.0] no okay so basically it has it can
+
+[345.84 - 350.34] understand images which means that it
+
+[348.0 - 352.139] can look at a screen right it can look
+
+[350.34 - 354.11999999999995] at your code it can look at what you're
+
+[352.139 - 356.1] doing and understand what it's doing so
+
+[354.12 - 357.6] it's multimodal on the input I don't
+
+[356.1 - 360.3] think it's multimodal on the output
+
+[357.6 - 361.91900000000004] that's fine
+
+[360.3 - 364.62] um and you can see okay here it is it's
+
+[361.919 - 367.21999999999997] going a little bit slower
+
+[364.62 - 367.22] um there we go
+
+[368.039 - 373.199] um
+
+[369.0 - 376.68] yeah but you know so in terms of the
+
+[373.199 - 378.78000000000003] cognitive performance of gpt4 it looks
+
+[376.68 - 382.56] like it's an incremental
+
+[378.78 - 385.55999999999995] um improvement over GPT 3.5
+
+[382.56 - 387.36] um so that is that is the that is like
+
+[385.56 - 390.96] where we're starting
+
+[387.36 - 394.38] um but on top of the incremental
+
+[390.96 - 396.06] improvements there is uh there's this
+
+[394.38 - 397.68] the cognitive Improvement and so if you
+
+[396.06 - 398.22] look on this
+
+[397.68 - 400.56] um
+
+[398.22 - 402.3] it they talk about like how much it has
+
+[400.56 - 405.12] improved on benchmarks
+
+[402.3 - 407.16] so the uniform bar exam Chad gbt placed
+
+[405.12 - 409.919] in the 10th percentile so it passed the
+
+[407.16 - 412.08000000000004] bar gpt4 placed in the 90th percentile
+
+[409.919 - 415.38] so that means that
+
+[412.08 - 417.9] um gpt4 now outperforms 90 percent of
+
+[415.38 - 421.86] lawyers on the bar exam
+
+[417.9 - 423.71999999999997] and then the biology Olympiad it was in
+
+[421.86 - 425.46000000000004] the 31st percentile now it is in the
+
+[423.72 - 428.34000000000003] 99th percentile
+
+[425.46 - 430.79999999999995] so uh
+
+[428.34 - 433.85999999999996] to say that this is a Quantum Leap
+
+[430.8 - 435.90000000000003] Forward is not an exaggeration so I just
+
+[433.86 - 439.319] posted a um
+
+[435.9 - 441.84] a uh uh a poll
+
+[439.319 - 444.0] a couple days ago
+
+[441.84 - 447.11999999999995] um I guess it was actually one day ago I
+
+[444.0 - 452.28] I said will we achieve AGI this year and
+
+[447.12 - 454.44] 20 19 say yes AGI this year 73 so almost
+
+[452.28 - 456.84] three quarters of people say no AGI in
+
+[454.44 - 459.71999999999997] the future and then um nine percent say
+
+[456.84 - 461.75899999999996] AGI already happened I suspect this is
+
+[459.72 - 465.62] going to change after people see what
+
+[461.759 - 465.62] what gpt4 is capable of
+
+[465.78 - 473.78] okay cool
+
+[468.479 - 473.78] um disentangling from Power there we go
+
+[474.3 - 477.44] Moment of Truth
+
+[478.02 - 480.56] great
+
+[481.86 - 485.88] um okay this is not quite as detailed as
+
+[484.259 - 487.91900000000004] I had hoped but that's okay because all
+
+[485.88 - 492.3] the information is here
+
+[487.919 - 493.979] um let's see you seem to be missing Act
+
+[492.3 - 496.02000000000004] One
+
+[493.979 - 499.039] um plot Beats
+
+[496.02 - 499.039] so let's see what it says
+
+[502.08 - 507.31899999999996] okay so
+
+[505.259 - 507.319] um
+
+[508.139 - 514.32] I was just talking to my fiance about
+
+[510.08 - 517.4399999999999] the scale of 32 of a 32 000 token memory
+
+[514.32 - 519.0] so that's about 20 000 Words which when
+
+[517.44 - 520.5600000000001] you combine that twenty thousand words
+
+[519.0 - 522.18] with the intrinsic knowledge that the
+
+[520.56 - 523.38] model already has so that means that you
+
+[522.18 - 526.3199999999999] only need to give it the relevant
+
+[523.38 - 528.6] updated details like the documentation
+
+[526.32 - 530.6400000000001] that you're working on or
+
+[528.6 - 532.74] um some episodic memory or whatever and
+
+[530.64 - 534.42] it can kind of confabulate or
+
+[532.74 - 536.4590000000001] triangulate the rest of the of the
+
+[534.42 - 538.62] missing information so for instance I
+
+[536.459 - 541.1999999999999] don't need to describe Rome to the model
+
+[538.62 - 542.42] when I'm talking about Rome
+
+[541.2 - 546.6] um
+
+[542.42 - 549.5] so that is pretty interesting not only
+
+[546.6 - 552.3000000000001] that it is it surpasses human abilities
+
+[549.5 - 554.16] uh in a lot of things and so here I'm
+
+[552.3 - 556.74] just giving it a little bit of steering
+
+[554.16 - 558.6] and off it goes to the races and I'm
+
+[556.74 - 559.38] like okay great
+
+[558.6 - 560.64] um
+
+[559.38 - 561.3] great
+
+[560.64 - 562.98] um
+
+[561.3 - 568.0799999999999] what do you think
+
+[562.98 - 572.22] um should we try to write act one or uh
+
+[568.08 - 574.32] plot the rest of act two and three
+
+[572.22 - 575.339] so let's see what it says I'm as a
+
+[574.32 - 578.0400000000001] language model I'm happy to help you
+
+[575.339 - 580.98] with either option okay
+
+[578.04 - 582.18] um so that's actually good I did say at
+
+[580.98 - 584.22] the beginning that it seems like it's a
+
+[582.18 - 586.26] little bit hot on the biscuit so I would
+
+[584.22 - 587.519] have expected it to say let's rate
+
+[586.26 - 589.92] um but it seems like it's taking a
+
+[587.519 - 592.399] little bit more balanced uh uh proposal
+
+[589.92 - 592.399] right now
+
+[595.08 - 598.2] yeah
+
+[596.339 - 600.0] um you know what
+
+[598.2 - 601.44] we don't know exactly where the story is
+
+[600.0 - 602.76] going to end up
+
+[601.44 - 605.2790000000001] um so
+
+[602.76 - 608.459] I would say
+
+[605.279 - 611.519] Let's uh because 20 000 words that's
+
+[608.459 - 613.3199999999999] going to basically be the first act so
+
+[611.519 - 614.88] well let's see what it let's see what it
+
+[613.32 - 615.899] says okay
+
+[614.88 - 618.24] um
+
+[615.899 - 620.279] I think we should
+
+[618.24 - 623.7] go ahead and
+
+[620.279 - 627.8389999999999] plan and write act one in a bit more
+
+[623.7 - 630.1800000000001] detail uh most novels are 30 to 50
+
+[627.839 - 634.08] chapters
+
+[630.18 - 638.3389999999999] um so act one should be
+
+[634.08 - 644.3000000000001] um eight to uh what's that about 15.
+
+[638.339 - 647.899] 8 to 15 chapters or so uh can you
+
+[644.3 - 650.8389999999999] take those main plot Beats
+
+[647.899 - 656.16] we discussed
+
+[650.839 - 660.1800000000001] and map those onto about a dozen
+
+[656.16 - 663.779] chapters or so please include
+
+[660.18 - 665.459] details about what happens in each
+
+[663.779 - 669.56] chapter
+
+[665.459 - 675.0189999999999] um be sure to include information about
+
+[669.56 - 675.0189999999999] plot advancement character development
+
+[675.3 - 683.64] um world building
+
+[678.3 - 685.079] um and uh and themes for each chapter so
+
+[683.64 - 688.38] one thing that I have found in using
+
+[685.079 - 690.959] chat GPT to help me write is you can
+
+[688.38 - 694.32] weave together all four of those pillars
+
+[690.959 - 697.0189999999999] of Storytelling in one go plot character
+
+[694.32 - 698.7600000000001] setting theme those are the four primary
+
+[697.019 - 701.64] ingredients you put those together you
+
+[698.76 - 703.62] tell chat GPT that's what you want and I
+
+[701.64 - 705.6] won't say nine times out of ten about
+
+[703.62 - 707.88] fifty percent of the time it does pretty
+
+[705.6 - 709.5] good A couple other times you have to
+
+[707.88 - 711.48] say let's look at this from a slightly
+
+[709.5 - 713.459] different perspective
+
+[711.48 - 715.8000000000001] um and that's where I use jungian
+
+[713.459 - 717.8389999999999] archetypes and Joseph Campbell so that
+
+[715.8 - 719.3389999999999] it's so that it basically adopts like oh
+
+[717.839 - 721.2600000000001] actually I know what I'm talking about
+
+[719.339 - 723.5400000000001] when we talk about constructing a story
+
+[721.26 - 724.3199999999999] you could also use Save the cat or any
+
+[723.54 - 727.5] other
+
+[724.32 - 729.3000000000001] um models uh for storytelling so you can
+
+[727.5 - 732.019] say like let's do a five act structure
+
+[729.3 - 735.12] like a Shakespeare or a or a four act TV
+
+[732.019 - 737.339] structure so anyways let's see what it
+
+[735.12 - 739.62] does with this so
+
+[737.339 - 742.019] one of the one of the common rules is
+
+[739.62 - 744.54] less is more
+
+[742.019 - 746.94] um and so this is becoming increasingly
+
+[744.54 - 749.459] true as these models become smarter you
+
+[746.94 - 751.3800000000001] give it just enough information
+
+[749.459 - 754.279] um to to know what your goal is and then
+
+[751.38 - 754.279] you kind of set it free
+
+[756.779 - 761.279] all right so introduction selling the
+
+[758.76 - 763.56] heirloom
+
+[761.279 - 765.0] there we go chapter three exploring Rome
+
+[763.56 - 766.279] experiencing the city's vibrant
+
+[765.0 - 768.779] atmosphere
+
+[766.279 - 770.76] Rome's Landmark social classes daily
+
+[768.779 - 772.2] life themes Discovery contrast between
+
+[770.76 - 774.3] rich and poor
+
+[772.2 - 777.38] chapter four a chance encounter I love
+
+[774.3 - 777.38] these not these titles
+
+[779.94 - 783.9200000000001] okay so because
+
+[784.92 - 790.9399999999999] let's see I don't think I think the
+
+[787.2 - 790.94] first Patron that's too soon
+
+[793.98 - 799.74] because also she's like a teenager
+
+[797.1 - 801.86] I don't know well I guess if she's 16 or
+
+[799.74 - 801.86] whatever
+
+[802.38 - 807.06] so
+
+[805.2 - 809.0400000000001] yeah explores the city a public event
+
+[807.06 - 810.2399999999999] meets an influential woman confronts her
+
+[809.04 - 813.899] mother
+
+[810.24 - 817.279] yeah that was act yeah hold on hold on
+
+[813.899 - 817.279] stop stop stop stop stop
+
+[818.04 - 823.92] hold on a second
+
+[819.839 - 826.9200000000001] so in this case it clearly lost the plot
+
+[823.92 - 828.899] um so because we we had five plot beats
+
+[826.92 - 829.86] here so
+
+[828.899 - 833.7] um
+
+[829.86 - 836.04] let's see uh let's see please expand the
+
+[833.7 - 841.139] five plot beats
+
+[836.04 - 842.88] um listed below into 12 chapters
+
+[841.139 - 844.8] um
+
+[842.88 - 847.16] because right now it's confabulating
+
+[844.8 - 847.16] stuff
+
+[847.8 - 854.16] so we can see that this this task
+
+[850.62 - 857.3] complexity is not quite up to Snuff it
+
+[854.16 - 857.3] needs a little bit more help
+
+[862.139 - 865.639] um yep there we go
+
+[866.339 - 870.1800000000001] all right so let's try again
+
+[868.44 - 871.8000000000001] here's a detailed breakdown of Act One
+
+[870.18 - 874.5] expanding the five plot beats into 12
+
+[871.8 - 876.3] chapters okay so it was off to an okay
+
+[874.5 - 878.339] start I probably should have saved that
+
+[876.3 - 880.68] but when I saw that it was It was kind
+
+[878.339 - 883.019] of rushing through the story and to be
+
+[880.68 - 885.66] fair rushing through the story like that
+
+[883.019 - 888.72] is pretty typical for amateur writers
+
+[885.66 - 892.019] actually is it takes a lot of discipline
+
+[888.72 - 894.62] to slow down and say we'll get there
+
+[892.019 - 894.62] um there we go
+
+[896.279 - 900.66] I like how we're kind of starting off
+
+[898.62 - 905.16] nice and slow the sale of the heirloom
+
+[900.66 - 907.3199999999999] Cornelia explores Rome the public event
+
+[905.16 - 912.019] so
+
+[907.32 - 912.019] public event is there a new mentor
+
+[912.899 - 918.899] Court Intrigue and social climbing
+
+[915.8 - 921.5999999999999] she's the first major Patron okay so
+
+[918.899 - 924.12] it's really hell-bent on just jumping
+
+[921.6 - 927.48] the gun okay so this this is an example
+
+[924.12 - 928.62] of what I mean by hot on the biscuit
+
+[927.48 - 932.22] um
+
+[928.62 - 937.26] hang on you're getting to the
+
+[932.22 - 938.88] um to the end game now uh let's uh let's
+
+[937.26 - 940.74] say too fast
+
+[938.88 - 942.36] um let's slow
+
+[940.74 - 943.98] this down
+
+[942.36 - 946.92] um
+
+[943.98 - 952.38] think through everything
+
+[946.92 - 957.38] that uh that happens in act one
+
+[952.38 - 958.92] of a story based on the three Act
+
+[957.38 - 962.519] structure
+
+[958.92 - 963.42] or Joseph Campbell's
+
+[962.519 - 966.5600000000001] um
+
+[963.42 - 966.56] hero's journey
+
+[970.139 - 973.399] now
+
+[971.519 - 976.079] based on that
+
+[973.399 - 977.579] let's brainstorm so telling it to
+
+[976.079 - 980.459] brainstorm rather than just go ahead and
+
+[977.579 - 982.26] write let's brainstorm
+
+[980.459 - 989.779] um
+
+[982.26 - 989.779] 12 chapters that only adhere to act one
+
+[989.88 - 996.899] therefore act one must end with the
+
+[994.459 - 1000.2589999999999] Crossing the Rubicon
+
+[996.899 - 1004.399] moment of no return
+
+[1000.259 - 1006.259] maybe we need to discuss that before
+
+[1004.399 - 1008.48] proceeding
+
+[1006.259 - 1010.519] okay let's see what it says
+
+[1008.48 - 1013.4590000000001] you're right I may have progressed too
+
+[1010.519 - 1015.259] quickly through act one again pretty
+
+[1013.459 - 1018.56] typical amateur
+
+[1015.259 - 1020.1800000000001] um uh uh move since I know better I can
+
+[1018.56 - 1021.8599999999999] keep it on track I was hoping that it
+
+[1020.18 - 1024.339] would be able to figure that out but
+
+[1021.86 - 1027.02] that's fine
+
+[1024.339 - 1028.4589999999998] okay for the Crossing the Rubicon moment
+
+[1027.02 - 1029.78] this could be when Cornelia makes a
+
+[1028.459 - 1032.48] decision that commits her to the path of
+
+[1029.78 - 1034.579] becoming a courtesan there we go so the
+
+[1032.48 - 1037.4] refusal will actually probably be
+
+[1034.579 - 1040.299] refusing the mentor the mysterious
+
+[1037.4 - 1040.299] influential woman
+
+[1040.76 - 1044.24] okay so since it's since I gave it a
+
+[1043.04 - 1045.74] little bit of feedback and guidance
+
+[1044.24 - 1049.52] let's see
+
+[1045.74 - 1051.5] if it's able to figure out that okay so
+
+[1049.52 - 1054.74] she's exploring Rome the sale of the
+
+[1051.5 - 1056.96] family heirloom okay there we go there
+
+[1054.74 - 1060.44] we go so it's slowing it down so she
+
+[1056.96 - 1062.96] discovers the heirloom in chapter two
+
+[1060.44 - 1064.52] um then she explores Rome she's she's
+
+[1062.96 - 1068.059] exploring she doesn't know what's going
+
+[1064.52 - 1071.72] on then she sells it she decides to sell
+
+[1068.059 - 1073.6399999999999] it because she realizes oh here we go
+
+[1071.72 - 1076.16] um and then okay so the mysterious
+
+[1073.64 - 1078.8600000000001] figure gets there uh better life and
+
+[1076.16 - 1080.419] loyalty to the family oh here we go a
+
+[1078.86 - 1084.32] chance encounter she meets her future
+
+[1080.419 - 1084.98] Mentor who introduces her to the War uh
+
+[1084.32 - 1086.96] um
+
+[1084.98 - 1089.539] world of courtesans
+
+[1086.96 - 1091.039] she attends a public event where she'll
+
+[1089.539 - 1093.26] make important connections allies and
+
+[1091.039 - 1096.02] enemies
+
+[1093.26 - 1098.96] um among the events guests ooh so a lot
+
+[1096.02 - 1100.34] happens at this event the mentors offer
+
+[1098.96 - 1101.9] there we go
+
+[1100.34 - 1103.28] the mentor offers her guidance and
+
+[1101.9 - 1104.6000000000001] assistance in becoming a successful
+
+[1103.28 - 1105.9189999999999] courtesan there we go the mentor
+
+[1104.6 - 1107.8999999999999] provides her with resources and
+
+[1105.919 - 1109.94] connections to get started family
+
+[1107.9 - 1112.539] tension she faces disapproval and
+
+[1109.94 - 1114.919] concern yes that is the debate perfect
+
+[1112.539 - 1117.2] weighing the options Cornelia considers
+
+[1114.919 - 1118.8200000000002] the consequences and the values she
+
+[1117.2 - 1120.44] crosses the Rubicon she accepts her
+
+[1118.82 - 1124.3999999999999] mentor's offer
+
+[1120.44 - 1128.6000000000001] there we go much better
+
+[1124.4 - 1133.1000000000001] excellent much better okay let's take
+
+[1128.6 - 1135.02] that exact outline of 12 chapters and
+
+[1133.1 - 1139.82] expand on
+
+[1135.02 - 1141.2] um the details uh for each one let's
+
+[1139.82 - 1142.34] start
+
+[1141.2 - 1144.679] um
+
+[1142.34 - 1148.1599999999999] uh let's start by so this is what I
+
+[1144.679 - 1149.96] found chat GPT has the best is once you
+
+[1148.16 - 1152.179] have the chapter then you say give me
+
+[1149.96 - 1153.8600000000001] the scenes in the chapter and honestly
+
+[1152.179 - 1155.3200000000002] this is not a bad way for humans to
+
+[1153.86 - 1158.539] outline it too
+
+[1155.32 - 1159.3799999999999] let's start by expanding
+
+[1158.539 - 1164.24] um
+
+[1159.38 - 1168.7990000000002] uh the list uh with scenes so each
+
+[1164.24 - 1173.32] chapter should be between one and uh
+
+[1168.799 - 1178.4] let's say three or four uh scenes
+
+[1173.32 - 1180.02] I think most chapters in novels are
+
+[1178.4 - 1182.0] one to three
+
+[1180.02 - 1182.9] so that's fine
+
+[1182.0 - 1184.58] um
+
+[1182.9 - 1186.2] so given
+
+[1184.58 - 1187.48] this
+
+[1186.2 - 1192.38] please
+
+[1187.48 - 1196.039] restate the chapters but expand upon
+
+[1192.38 - 1197.8400000000001] them by listing listing out and
+
+[1196.039 - 1200.62] describing
+
+[1197.84 - 1200.62] scenes
+
+[1201.26 - 1205.0] um yeah all right let's see if it can
+
+[1202.64 - 1205.0] handle that
+
+[1205.82 - 1212.72] do yeah so again you can tell that there
+
+[1209.299 - 1214.6399999999999] is that I as an expert am providing a
+
+[1212.72 - 1217.179] lot of structure and guidance to this so
+
+[1214.64 - 1217.179] that's fine
+
+[1219.26 - 1221.72] Cornelia and her family are shown
+
+[1220.52 - 1224.0] struggling in their daily life
+
+[1221.72 - 1225.799] showcasing this blah blah okay so it's
+
+[1224.0 - 1227.12] just defaulting to two scenes that's
+
+[1225.799 - 1230.48] fine
+
+[1227.12 - 1232.52] um certainly uh for for more amateur
+
+[1230.48 - 1234.559] writers just following something more
+
+[1232.52 - 1236.72] algorithmic like this is perfectly fine
+
+[1234.559 - 1238.1] I mean you hear me talking about you
+
+[1236.72 - 1240.5] know the three-act structure and Joseph
+
+[1238.1 - 1242.9599999999998] Campbell and and that so on and so forth
+
+[1240.5 - 1245.799] so I can I there there was someone had
+
+[1242.96 - 1248.799] it wrote a comment like was it my my my
+
+[1245.799 - 1251.179] University literature Professor
+
+[1248.799 - 1253.16] complained that they have spent the last
+
+[1251.179 - 1255.919] 30 years trying to undo the damage that
+
+[1253.16 - 1257.72] Joseph Campbell did and it's like you
+
+[1255.919 - 1260.66] know what Joseph Campbell's work has
+
+[1257.72 - 1261.8600000000001] produced many billion dollar movies so
+
+[1260.66 - 1263.6000000000001] you know
+
+[1261.86 - 1266.36] um if you watch the special features of
+
+[1263.6 - 1268.3999999999999] Avengers end game actually there's a or
+
+[1266.36 - 1270.74] maybe it was um Iron Man
+
+[1268.4 - 1273.0800000000002] one of them anyways so in the special
+
+[1270.74 - 1275.24] features of some of the MCU movies near
+
+[1273.08 - 1277.3999999999999] the end of phase four
+
+[1275.24 - 1280.28] um they had a round table with all of
+
+[1277.4 - 1282.74] the directors and they kept alluding to
+
+[1280.28 - 1284.72] the old book and I'm like hmm I wonder
+
+[1282.74 - 1286.52] if that's the hero's journey
+
+[1284.72 - 1288.08] because if you if you're familiar with
+
+[1286.52 - 1290.179] the hero's journey and Joseph Campbell's
+
+[1288.08 - 1292.3999999999999] work you watch
+
+[1290.179 - 1294.74] um you know particularly
+
+[1292.4 - 1296.0] um the Iron Man movies and the Avenger
+
+[1294.74 - 1299.72] movies
+
+[1296.0 - 1302.0] um they very very algorithmically follow
+
+[1299.72 - 1306.98] um those kinds of things
+
+[1302.0 - 1309.32] oh okay so there we go we're almost done
+
+[1306.98 - 1310.76] we've got two scenes for each one that's
+
+[1309.32 - 1312.559] fine
+
+[1310.76 - 1314.059] she confides on a close friend or
+
+[1312.559 - 1315.62] sibling so it's still it's still kind of
+
+[1314.059 - 1320.24] waffling like it's it's being kind of
+
+[1315.62 - 1321.799] generic but given how long this is and
+
+[1320.24 - 1323.24] and the fact that it's it's staying on
+
+[1321.799 - 1325.8799999999999] the plot
+
+[1323.24 - 1327.919] um is is pretty impressive
+
+[1325.88 - 1330.7600000000002] um I really like this
+
+[1327.919 - 1330.76] okay cool
+
+[1331.82 - 1334.7] um
+
+[1333.02 - 1339.2] I'm gonna go ahead and copy this out
+
+[1334.7 - 1342.799] actually because this is really good
+
+[1339.2 - 1344.96] so we come back here so act one
+
+[1342.799 - 1347.9189999999999] um so then we'll do uh let's see
+
+[1344.96 - 1347.919] chapters
+
+[1349.78 - 1356.12] uh let's see
+
+[1353.02 - 1357.5] unformatted text there we go
+
+[1356.12 - 1359.36] um let's see how long are we at we're
+
+[1357.5 - 1361.1] only at 22 minutes we can keep going we
+
+[1359.36 - 1363.32] can keep going
+
+[1361.1 - 1367.52] um let's see where should we go next
+
+[1363.32 - 1371.36] okay where should we go next
+
+[1367.52 - 1375.26] um what do you think what typically goes
+
+[1371.36 - 1377.24] into planning scenes all right so let's
+
+[1375.26 - 1378.679] see let's see if it knows now that you
+
+[1377.24 - 1380.9] have a detailed outline for act one you
+
+[1378.679 - 1382.46] can consider moving on to planning Act 2
+
+[1380.9 - 1384.44] and act three however if you prefer to
+
+[1382.46 - 1386.24] focus on act one for now you can delve
+
+[1384.44 - 1388.1000000000001] in deeper into the planning of the
+
+[1386.24 - 1389.6] scenes
+
+[1388.1 - 1391.1589999999999] um let's see when planning scenes
+
+[1389.6 - 1393.32] consider the following aspect's purpose
+
+[1391.159 - 1394.7600000000002] ensure each scene has a clear purpose in
+
+[1393.32 - 1397.1589999999999] advancing the plot developing characters
+
+[1394.76 - 1399.5] or building the world
+
+[1397.159 - 1402.3400000000001] um setting okay yep choose an
+
+[1399.5 - 1402.34] appropriate setting
+
+[1403.58 - 1408.799] characters okay so this is this is
+
+[1406.1 - 1411.5] pretty generic but it's good in order to
+
+[1408.799 - 1413.6589999999999] remind itself because there's um so
+
+[1411.5 - 1416.84] there's this concept in Neuroscience
+
+[1413.659 - 1419.0590000000002] called priming I'm actually reading
+
+[1416.84 - 1421.1] this book behave
+
+[1419.059 - 1423.2] um it is a very dense book but it's
+
+[1421.1 - 1425.299] actually hilarious the dude who wrote it
+
+[1423.2 - 1429.98] is sarcastic as hell
+
+[1425.299 - 1432.74] um anyways so even just reading words of
+
+[1429.98 - 1434.6] a particular tone can really drastically
+
+[1432.74 - 1436.94] change your cognition and decisions and
+
+[1434.6 - 1439.2199999999998] behavior the same is also true of
+
+[1436.94 - 1441.14] language models just by priming it with
+
+[1439.22 - 1443.659] some ideas like when I said think about
+
+[1441.14 - 1445.46] Joseph Campbell and what goes into an
+
+[1443.659 - 1448.88] act one and you saw how much it improved
+
+[1445.46 - 1452.539] so this is called priming so a big part
+
+[1448.88 - 1456.38] of using language models is priming
+
+[1452.539 - 1456.3799999999999] um great cool so
+
+[1456.74 - 1460.46] um
+
+[1458.419 - 1461.96] I like that
+
+[1460.46 - 1466.1000000000001] uh
+
+[1461.96 - 1470.299] let's start with chapter one please
+
+[1466.1 - 1473.0] write out a much more detailed outline
+
+[1470.299 - 1475.12] of chapter one
+
+[1473.0 - 1475.12] um
+
+[1478.4 - 1482.7800000000002] after one the desperate decision
+
+[1480.62 - 1484.1589999999999] scene one introducing Cornelia the story
+
+[1482.78 - 1485.299] opens with Cornelia and her family's
+
+[1484.159 - 1487.0390000000002] modest home providing a brief
+
+[1485.299 - 1490.22] description of her parents and
+
+[1487.039 - 1491.96] personality again this is all kind of uh
+
+[1490.22 - 1494.72] algorithmic
+
+[1491.96 - 1497.3600000000001] um if you open it this way like so if
+
+[1494.72 - 1500.3600000000001] you if you describe the main character's
+
+[1497.36 - 1502.8799999999999] personality or show it right off the bat
+
+[1500.36 - 1505.1] that's going to be a little bit like
+
+[1502.88 - 1507.44] kind of on the nose
+
+[1505.1 - 1509.62] um whereas like you you definitely
+
+[1507.44 - 1512.059] should demonstrate your main character
+
+[1509.62 - 1514.3999999999999] in the first chapter
+
+[1512.059 - 1517.1] but if you just describe it with an info
+
+[1514.4 - 1519.7] dump that's not the best
+
+[1517.1 - 1519.6999999999998] um let's see
+
+[1521.9 - 1528.8200000000002] I moved on to Scene Three
+
+[1525.14 - 1528.8200000000002] deciding to sell the heirloom
+
+[1533.059 - 1539.12] yeah we didn't we didn't go that far
+
+[1536.72 - 1540.679] I like that it invented the name okay
+
+[1539.12 - 1542.539] well searching for something valuable to
+
+[1540.679 - 1544.279] sell she discovers the family's heirloom
+
+[1542.539 - 1547.059] okay but that doesn't happen until
+
+[1544.279 - 1547.059] chapter two
+
+[1547.46 - 1549.64] um
+
+[1555.86 - 1560.74] so it looks like it looks like we need
+
+[1557.779 - 1560.74] to prime it again
+
+[1562.7 - 1568.82] here so we'll do we'll come back here
+
+[1565.299 - 1570.08] and say uh out after outline of chapter
+
+[1568.82 - 1572.0] one
+
+[1570.08 - 1575.84] um as a reminder
+
+[1572.0 - 1580.419] here is the grand totality of chapter
+
+[1575.84 - 1580.4189999999999] one that we've discussed so far
+
+[1581.679 - 1588.64] please stay Within
+
+[1584.6 - 1588.6399999999999] the bounds of chapter one
+
+[1591.74 - 1601.46] okay now please expand this brief
+
+[1596.779 - 1603.08] outline into a more detailed outline so
+
+[1601.46 - 1605.24] you might have noticed that sometimes
+
+[1603.08 - 1607.52] what I'm doing is I'm rewriting the last
+
+[1605.24 - 1609.02] one because what you want is if it gets
+
+[1607.52 - 1611.0] something catastrophically wrong like
+
+[1609.02 - 1612.679] this you want to remove it from the chat
+
+[1611.0 - 1614.36] history because otherwise you end up
+
+[1612.679 - 1616.52] with what's called prompt contamination
+
+[1614.36 - 1618.9799999999998] remember how I just talked about priming
+
+[1616.52 - 1620.9] priming works both ways it can be
+
+[1618.98 - 1623.0] positive in that you can prime the model
+
+[1620.9 - 1625.4] to think in the way that you want it to
+
+[1623.0 - 1627.08] but if it has wrong information in the
+
+[1625.4 - 1629.96] history that's going to continue
+
+[1627.08 - 1631.58] polluting it and human like humans can
+
+[1629.96 - 1633.8600000000001] get stuck in a rut like this too right
+
+[1631.58 - 1635.1789999999999] remember like if you're ever having a
+
+[1633.86 - 1637.039] discussion or you're in a meeting or
+
+[1635.179 - 1638.3600000000001] whatever and you get the wrong idea in
+
+[1637.039 - 1640.52] your head it can be really hard to get
+
+[1638.36 - 1642.5] out of that rut so in that case it's
+
+[1640.52 - 1644.059] actually kind of similar to humans one
+
+[1642.5 - 1645.74] advantage that these models have is you
+
+[1644.059 - 1649.0] can just flat out erase the wrong
+
+[1645.74 - 1649.0] information from its memory
+
+[1649.4 - 1655.9] okay so let's see if it does a little
+
+[1651.559 - 1655.8999999999999] bit better this time also I'm uh
+
+[1657.2 - 1662.539] uh I'm still contending with burnout
+
+[1658.82 - 1664.039] myself and so I um I probably shouldn't
+
+[1662.539 - 1665.9] be doing this right now but it's just
+
+[1664.039 - 1668.84] too exciting
+
+[1665.9 - 1670.76] okay I like this description of the
+
+[1668.84 - 1671.6589999999999] modest home with her family highlighting
+
+[1670.76 - 1673.76] contrast between their current
+
+[1671.659 - 1676.159] circumstances and their once prosperous
+
+[1673.76 - 1677.779] past there we go Cornell helps her
+
+[1676.159 - 1679.1000000000001] mother with chores revealing her dutiful
+
+[1677.779 - 1682.58] nature and her desire to contribute to
+
+[1679.1 - 1685.1] the family oh that's good so this is
+
+[1682.58 - 1687.86] showing instead of telling much much
+
+[1685.1 - 1689.4189999999999] better so remember when it when the last
+
+[1687.86 - 1692.059] time it was like oh we're just gonna
+
+[1689.419 - 1694.64] tell you about her personality no wrong
+
+[1692.059 - 1696.3799999999999] you show their personality and so you
+
+[1694.64 - 1698.3600000000001] you show that she's helping her mother
+
+[1696.38 - 1701.0] with chores you show that she's
+
+[1698.36 - 1703.3999999999999] bickering with her siblings
+
+[1701.0 - 1704.659] um you show them talking about how
+
+[1703.4 - 1706.1000000000001] things used to be
+
+[1704.659 - 1707.6000000000001] great
+
+[1706.1 - 1709.1] um Cornelius father returns looking
+
+[1707.6 - 1711.5] weary and defeated the family gathers
+
+[1709.1 - 1714.08] for a simple Frugal meal highlighting
+
+[1711.5 - 1715.64] their financial difficulties this is
+
+[1714.08 - 1717.6789999999999] phenomenal
+
+[1715.64 - 1719.9] um I'm gonna call this a day because
+
+[1717.679 - 1722.48] holy crap
+
+[1719.9 - 1725.3600000000001] um this is this is exciting and just to
+
+[1722.48 - 1727.52] think that chat GPT just came out a few
+
+[1725.36 - 1730.82] months ago that was what four months ago
+
+[1727.52 - 1734.84] and we're already what quadrupling going
+
+[1730.82 - 1738.32] from 8 000 tokens to 32 000 tokens
+
+[1734.84 - 1741.02] uh this this poll that I did AGI this
+
+[1738.32 - 1746.26] year yeah tell me what you think now
+
+[1741.02 - 1746.26] all right that's it wrapping it up bye

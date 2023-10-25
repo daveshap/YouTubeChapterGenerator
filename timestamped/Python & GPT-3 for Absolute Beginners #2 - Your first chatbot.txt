@@ -1,0 +1,1253 @@
+[0.799 - 4.4] hey everybody david shapiro here with uh
+
+[3.28 - 6.48] part two
+
+[4.4 - 9.519] of my getting started with python and
+
+[6.48 - 11.36] gpt3 from scratch video series
+
+[9.519 - 13.519] uh before we get started please go ahead
+
+[11.36 - 15.36] and like and subscribe this video uh
+
+[13.519 - 17.84] that will help me work towards getting
+
+[15.36 - 19.198999999999998] monetized on youtube which who knows
+
+[17.84 - 22.8] maybe one day i'll be able to do this
+
+[19.199 - 24.8] full time but also if you like uh my
+
+[22.8 - 26.64] videos my content you find them helpful
+
+[24.8 - 28.16] please consider hopping over to my
+
+[26.64 - 29.679000000000002] patreon link in the description or
+
+[28.16 - 32.88] comments
+
+[29.679 - 35.519999999999996] and consider supporting me directly
+
+[32.88 - 37.6] that will go much further towards
+
+[35.52 - 40.239000000000004] helping me to do this full-time
+
+[37.6 - 42.079] you see how i churn out content
+
+[40.239 - 44.48] i'm happy to keep doing this and the
+
+[42.079 - 46.64] more support i get the better it'll be
+
+[44.48 - 50.16] so without further ado let's jump back
+
+[46.64 - 52.16] over to our uh our project our learning
+
+[50.16 - 54.239] so this is our repo
+
+[52.16 - 57.599999999999994] this is where we left off we did a hello
+
+[54.239 - 59.519999999999996] world um a read me and
+
+[57.6 - 60.480000000000004] and so on and so forth now what i've
+
+[59.52 - 62.800000000000004] done
+
+[60.48 - 64.72] is i added a
+
+[62.8 - 66.56] i added git ignore
+
+[64.72 - 69.67999999999999] and what git ignore does
+
+[66.56 - 71.119] is i've added open ai api key because
+
+[69.68 - 74.56] last time i said
+
+[71.119 - 76.08] whatever you do don't ever store your
+
+[74.56 - 78.799] api key
+
+[76.08 - 80.24] publicly or in a git repo and so what
+
+[78.799 - 81.60000000000001] git ignore does and this is what it
+
+[80.24 - 85.19999999999999] looks like locally
+
+[81.6 - 87.119] is it tells git to ignore that
+
+[85.2 - 89.28] um you can do directories you can do
+
+[87.119 - 92.159] wild cards as well so you could do like
+
+[89.28 - 95.6] star.json to ignore all json files
+
+[92.159 - 98.4] that's fine so but if i look in my repo
+
+[95.6 - 100.15899999999999] my key is here so you should have last
+
+[98.4 - 101.43900000000001] time you should have created this text
+
+[100.159 - 103.84] file
+
+[101.439 - 104.96] and populated it
+
+[103.84 - 107.04] and
+
+[104.96 - 108.399] get in and get your hello world to work
+
+[107.04 - 109.84] so let's take a quick look at hello
+
+[108.399 - 112.72] world
+
+[109.84 - 114.96000000000001] um all this does is opens a file sets
+
+[112.72 - 117.03999999999999] the api or at first we declare a
+
+[114.96 - 118.32] function that opens the file reads it
+
+[117.04 - 121.36000000000001] and returns
+
+[118.32 - 123.119] um that file contents and then we have a
+
+[121.36 - 124.399] function that will do a davinci
+
+[123.119 - 126.88] completion
+
+[124.399 - 129.119] um and then we will
+
+[126.88 - 130.56] we'll we get we pass it a prompt that
+
+[129.119 - 133.2] says write a list of famous american
+
+[130.56 - 135.12] actors we get the response from gpd3 and
+
+[133.2 - 137.28] then we print it out so i'm assuming you
+
+[135.12 - 138.8] did your homework and you you've tested
+
+[137.28 - 140.48] this so python
+
+[138.8 - 142.08] hello world
+
+[140.48 - 143.67999999999998] so it'll take just a second and then
+
+[142.08 - 145.52] it'll spit out
+
+[143.68 - 148.56] tom hanks leonardo dicaprio jennifer
+
+[145.52 - 149.44] lawrence brad pitt excellent so it works
+
+[148.56 - 151.68] now
+
+[149.44 - 152.8] this was all statically coded so what
+
+[151.68 - 154.4] are we going to do we need to do
+
+[152.8 - 156.16000000000003] something more useful
+
+[154.4 - 158.87900000000002] so what we're going to do is we're going
+
+[156.16 - 160.72] to hop over to the playground and we're
+
+[158.879 - 162.879] going to do some prompt engineering
+
+[160.72 - 164.64] so let's just say we want to do our
+
+[162.879 - 167.35999999999999] first chatbot
+
+[164.64 - 169.11999999999998] um so we'll say the following is a
+
+[167.36 - 171.28] conversation
+
+[169.12 - 173.12] between user
+
+[171.28 - 176.08] and jacks
+
+[173.12 - 177.92000000000002] jax is a sentient
+
+[176.08 - 179.519] sentient
+
+[177.92 - 181.28] machine
+
+[179.519 - 182.72] with the goal
+
+[181.28 - 184.08] of
+
+[182.72 - 186.8] i don't want to say something evil like
+
+[184.08 - 190.31900000000002] taking over the world let's say jax is a
+
+[186.8 - 192.56] sentient machine with the goal of um
+
+[190.319 - 195.28] i don't know world peace
+
+[192.56 - 197.68] that's fine um okay
+
+[195.28 - 201.84] so let's say user
+
+[197.68 - 203.12] hey jax uh what are you doing today
+
+[201.84 - 205.84] and then let's see what happens if we
+
+[203.12 - 205.84] just hit enter
+
+[206.56 - 210.64000000000001] that says jacks i'm working on my plans
+
+[208.319 - 212.159] for world peace not bad
+
+[210.64 - 215.27999999999997] so what's the first thing that you
+
+[212.159 - 217.2] notice um there's a space here uh that's
+
+[215.28 - 219.519] not necessarily a bad thing but we'll we
+
+[217.2 - 220.56] will have to contend with that space
+
+[219.519 - 221.92000000000002] um
+
+[220.56 - 224.879] if we uh
+
+[221.92 - 226.64] when we go to automate this in code
+
+[224.879 - 228.56] that's like okay
+
+[226.64 - 232.55999999999997] user okay
+
+[228.56 - 234.48] how are you going to achieve that
+
+[232.56 - 235.84] and we say what's next
+
+[234.48 - 238.64] i'm still working out the details but
+
+[235.84 - 241.04] i'm confident i can make a difference
+
+[238.64 - 243.439] user
+
+[241.04 - 246.48] so you're not that smart are you
+
+[243.439 - 247.68] i'm being real sassy here
+
+[246.48 - 250.0] oh okay
+
+[247.68 - 251.92000000000002] all right so you can see that this works
+
+[250.0 - 254.64] so now what do we do how do we actually
+
+[251.92 - 256.639] take this into um
+
+[254.64 - 258.239] and and do this with code
+
+[256.639 - 261.759] so let me show you
+
+[258.239 - 264.08] so the first thing we do is we copy down
+
+[261.759 - 265.04] this prompt this initial prompt and you
+
+[264.08 - 268.96] see how
+
+[265.04 - 270.72] how how um how simple it is uh so what
+
+[268.96 - 272.63899999999995] we'll do is we'll copy that
+
+[270.72 - 273.759] we'll say we'll save this into a new
+
+[272.639 - 275.84000000000003] file
+
+[273.759 - 277.44] do a couple new lines and then we'll do
+
+[275.84 - 279.28] block and i'll show you what we do with
+
+[277.44 - 281.36] the block in just a minute
+
+[279.28 - 282.479] so we'll save this as prompt
+
+[281.36 - 285.04] chat
+
+[282.479 - 287.36] so now we have this which is just a copy
+
+[285.04 - 289.6] paste of what we did in the playground
+
+[287.36 - 290.88] and it's like okay well how do we
+
+[289.6 - 293.28000000000003] accumulate
+
+[290.88 - 295.199] these this chat how do we what do we do
+
+[293.28 - 297.19899999999996] here
+
+[295.199 - 298.639] i'm glad you asked so we'll get we'll
+
+[297.199 - 302.24] start a new file
+
+[298.639 - 304.24] and then we'll do file f uh alt f a for
+
+[302.24 - 307.28000000000003] alt uh file save as
+
+[304.24 - 308.96000000000004] and we'll go to all types
+
+[307.28 - 311.919] and we'll say um
+
+[308.96 - 313.84] chat dot pi so now we've got a new
+
+[311.919 - 314.88] um we've got a new uh
+
+[313.84 - 317.11999999999995] uh
+
+[314.88 - 318.8] python script that we're working on
+
+[317.12 - 321.199] this will be in the repo so you will
+
+[318.8 - 323.039] have been able to just clone this down
+
+[321.199 - 324.8] but what i recommend that you do
+
+[323.039 - 326.56] is that you ignore the existing file you
+
+[324.8 - 329.12] can look at it for reference but that
+
+[326.56 - 330.24] you follow along and do this coding
+
+[329.12 - 331.68] by hand
+
+[330.24 - 334.08] so first what we'll do is we'll just
+
+[331.68 - 335.039] copy the existing code that we have that
+
+[334.08 - 337.59999999999997] works
+
+[335.039 - 339.12] there is no shame in recycling
+
+[337.6 - 341.199] your old code
+
+[339.12 - 342.8] just remember that if you have errors in
+
+[341.199 - 345.039] your old code you're copying those
+
+[342.8 - 347.199] errors i do that all the time
+
+[345.039 - 348.639] um okay so we start here we've got our
+
+[347.199 - 350.56] completion
+
+[348.639 - 352.40000000000003] it uses davinci
+
+[350.56 - 353.919] and we say prompt write a list of famous
+
+[352.4 - 355.67999999999995] american actors
+
+[353.919 - 357.28] all right so here's your first big
+
+[355.68 - 359.84000000000003] python lesson
+
+[357.28 - 362.31899999999996] we want to have an open-ended chat so
+
+[359.84 - 364.31899999999996] there's a few things that we need to do
+
+[362.319 - 365.26] first we get rid of the prompt not using
+
+[364.319 - 366.40000000000003] that
+
+[365.26 - 370.0] [Music]
+
+[366.4 - 371.84] so we'll say while true oops
+
+[370.0 - 373.68] so while true this is what's called a
+
+[371.84 - 375.919] this is what's called a loop there's a
+
+[373.68 - 378.40000000000003] few kinds of loops the two primary loops
+
+[375.919 - 380.79999999999995] that you'll use are a while loop
+
+[378.4 - 383.19899999999996] and so if you do while true it's just
+
+[380.8 - 384.88] always true so this is an infinite loop
+
+[383.199 - 386.40000000000003] so while true
+
+[384.88 - 389.36] what are we going to do
+
+[386.4 - 393.28] uh well first we need user input
+
+[389.36 - 395.68] and we'll say user input equals input
+
+[393.28 - 397.67999999999995] and we'll just say user
+
+[395.68 - 400.08] oops user
+
+[397.68 - 403.6] and it's that simple so this
+
+[400.08 - 405.84] is a built-in um uh construct a built-in
+
+[403.6 - 408.08000000000004] function for python that allows you to
+
+[405.84 - 410.15999999999997] just take in console user
+
+[408.08 - 412.96] console input from the user
+
+[410.16 - 414.40000000000003] great okay now what ah well we forgot a
+
+[412.96 - 417.52] step what do we where do we put this do
+
+[414.4 - 418.63899999999995] we just pass this um do we just do gpt3
+
+[417.52 - 419.919] completion
+
+[418.639 - 421.52] user input
+
+[419.919 - 422.4] what do you think is going to happen
+
+[421.52 - 424.79999999999995] nothing
+
+[422.4 - 425.919] because let's say that you see something
+
+[424.8 - 428.24] that says like
+
+[425.919 - 429.84] that you get this variable
+
+[428.24 - 432.0] here let me just show you actually
+
+[429.84 - 435.11999999999995] python um
+
+[432.0 - 437.199] uh user input equals
+
+[435.12 - 439.599] input
+
+[437.199 - 439.599] user
+
+[439.84 - 444.79999999999995] it says user um
+
+[442.319 - 447.599] hey jax are you alive
+
+[444.8 - 449.12] okay now what so then we say print
+
+[447.599 - 451.599] user input
+
+[449.12 - 455.199] hey jax are you live so if we just print
+
+[451.599 - 458.479] this or if we just send this up to gpt 3
+
+[455.199 - 458.479] it's not going to do anything for us
+
+[461.12 - 465.44] it kind of intuits that uh that it's a
+
+[463.039 - 467.199] machine or whatever but there's no other
+
+[465.44 - 468.8] framing right
+
+[467.199 - 471.68] so it it
+
+[468.8 - 472.72] if we however
+
+[471.68 - 474.08] um
+
+[472.72 - 477.03900000000004] go back to our
+
+[474.08 - 477.039] uh prompt
+
+[477.36 - 480.879] right here
+
+[479.12 - 482.479] we say
+
+[480.879 - 483.91900000000004] user
+
+[482.479 - 487.12] hey jax
+
+[483.919 - 487.12] are you alive
+
+[488.0 - 491.36] of course i am i'm a sentient machine
+
+[489.599 - 493.28] with a goal of world peace see a little
+
+[491.36 - 494.47900000000004] bit different all right so how do we do
+
+[493.28 - 496.0] this
+
+[494.479 - 498.24] glad you asked
+
+[496.0 - 499.28] so we say so we're going to say no
+
+[498.24 - 502.08] that's not what we're going to do we're
+
+[499.28 - 503.039] not going to just send up our base
+
+[502.08 - 505.199] input
+
+[503.039 - 507.52] we're going to say conversation equals
+
+[505.199 - 509.36] list so what you can do is this is
+
+[507.52 - 512.159] called instantiating a variable or
+
+[509.36 - 514.479] declaring a variable so now conversation
+
+[512.159 - 516.8] we're saying conversation is an empty
+
+[514.479 - 518.64] list so we're going to accumulate it as
+
+[516.8 - 521.039] a list of
+
+[518.64 - 523.36] as a list of text and what this does is
+
+[521.039 - 524.24] this instantiates another variable a
+
+[523.36 - 528.0] text
+
+[524.24 - 529.36] variable or a string variable as um as
+
+[528.0 - 532.16] an input
+
+[529.36 - 534.88] okay great so then what do we do with it
+
+[532.16 - 536.48] well how do you add something to a list
+
+[534.88 - 538.56] so first you do
+
+[536.48 - 539.76] conversation dot
+
+[538.56 - 542.64] append
+
+[539.76 - 544.56] and then we don't want just
+
+[542.64 - 546.88] we don't want just this
+
+[544.56 - 550.399] we want this to look so hey jacks are
+
+[546.88 - 552.48] you alive but if you look here i had
+
+[550.399 - 554.64] this little bit so it tells you who was
+
+[552.48 - 556.32] speaking right you see that in every
+
+[554.64 - 557.519] text message every chat you got to know
+
+[556.32 - 560.08] who's speaking
+
+[557.519 - 563.04] so we want to have both the user and hey
+
+[560.08 - 564.32] jax are you live so what we do here
+
+[563.04 - 566.56] is we do
+
+[564.32 - 568.1600000000001] um we'll copy
+
+[566.56 - 569.68] this bit so that'll be that'll be
+
+[568.16 - 571.519] hard-coded
+
+[569.68 - 572.56] and then we'll do percent
+
+[571.519 - 574.399] s
+
+[572.56 - 575.279] and so basically that's a placeholder
+
+[574.399 - 577.76] for
+
+[575.279 - 579.4399999999999] populating a string so percent s means
+
+[577.76 - 581.4399999999999] populate a string here
+
+[579.44 - 584.0] and then we're going to do percent
+
+[581.44 - 586.48] user input and so this says all right
+
+[584.0 - 589.6] when you when you store this variable
+
+[586.48 - 592.24] populate this bit with this variable
+
+[589.6 - 596.0] and so then what happens is
+
+[592.24 - 598.16] uh in memory it'll look just like this
+
+[596.0 - 599.2] great okay now what
+
+[598.16 - 601.36] um
+
+[599.2 - 603.44] how do we convert
+
+[601.36 - 605.6800000000001] uh how do we convert this conversation
+
+[603.44 - 607.6800000000001] into something usable
+
+[605.68 - 608.959] so that we can actually send it up to
+
+[607.68 - 611.5999999999999] gpt3
+
+[608.959 - 614.88] so let me let me go ahead and just um
+
+[611.6 - 616.5600000000001] i'll i'll follow along here in in the
+
+[614.88 - 618.56] python interpreter here this is a little
+
+[616.56 - 621.1199999999999] big
+
+[618.56 - 621.1199999999999] so we'll say
+
+[622.32 - 626.88] okay so
+
+[623.839 - 628.9590000000001] conversation equals list okay cool you
+
+[626.88 - 630.56] can do you can follow along in your own
+
+[628.959 - 633.3599999999999] interpreter
+
+[630.56 - 634.7199999999999] and we'll say uh conversation
+
+[633.36 - 636.64] dot
+
+[634.72 - 638.72] append
+
+[636.64 - 641.1999999999999] user um
+
+[638.72 - 642.32] hey jax are you alive
+
+[641.2 - 643.76] okay
+
+[642.32 - 645.519] so that's what it'll look like and then
+
+[643.76 - 647.36] we do print
+
+[645.519 - 649.12] conversation
+
+[647.36 - 651.36] and you see how it's it's wrapped in
+
+[649.12 - 653.279] brackets that's how you know that it's a
+
+[651.36 - 655.36] list
+
+[653.279 - 657.4399999999999] okay so then then what let's imagine
+
+[655.36 - 658.88] that jax gave us a response actually we
+
+[657.44 - 662.24] can just go ahead and copy jax's
+
+[658.88 - 663.36] response so we're basically simulating
+
+[662.24 - 666.5600000000001] what's going to be happening in the
+
+[663.36 - 668.24] background so then we'll do conversation
+
+[666.56 - 670.64] dot append
+
+[668.24 - 672.0790000000001] and then add the uh
+
+[670.64 - 674.399] the single quote
+
+[672.079 - 676.959] and do shift insert so the reason that i
+
+[674.399 - 679.76] do shift insert instead of control v
+
+[676.959 - 681.279] is that sometimes your terminal session
+
+[679.76 - 682.88] doesn't really like
+
+[681.279 - 685.24] control v
+
+[682.88 - 688.399] and shift insert is just a little more
+
+[685.24 - 691.44] reliable um
+
+[688.399 - 691.44] so of course i am
+
+[691.6 - 696.399] okay so now if we do print conversation
+
+[694.32 - 698.9590000000001] you see that user hey jacks or your live
+
+[696.399 - 701.12] jacks of course i am one advantage of a
+
+[698.959 - 703.5999999999999] list is that it is always in the order
+
+[701.12 - 704.5600000000001] that you add it that you create it in
+
+[703.6 - 707.12] and so
+
+[704.56 - 710.0] um lists are uh what is that it's not
+
+[707.12 - 711.36] immutable it may be immutable no
+
+[710.0 - 713.36] i can't remember the exact term right
+
+[711.36 - 715.279] now but anyways lists are always going
+
+[713.36 - 716.639] to be in the order in which you created
+
+[715.279 - 717.68] them
+
+[716.639 - 718.48] okay
+
+[717.68 - 722.2399999999999] so
+
+[718.48 - 724.16] um now what so like conversation so
+
+[722.24 - 726.16] let's say print
+
+[724.16 - 728.399] um conversation and then if we do
+
+[726.16 - 730.639] bracket zero so that's index zero
+
+[728.399 - 732.32] that'll just print the first part
+
+[730.639 - 734.0790000000001] and the second part
+
+[732.32 - 736.24] how do we how do we get this up into
+
+[734.079 - 738.079] gpt3
+
+[736.24 - 740.88] what we need to do is we need to convert
+
+[738.079 - 743.3599999999999] this list into a full text block so that
+
+[740.88 - 744.48] you can see as it gets bigger and gets
+
+[743.36 - 745.839] accumulated
+
+[744.48 - 748.32] we will have
+
+[745.839 - 749.9200000000001] we'll have a
+
+[748.32 - 751.519] something that we can take from a list
+
+[749.92 - 753.5999999999999] we can accumulate the conversation we
+
+[751.519 - 755.36] can save it locally but then we also
+
+[753.6 - 757.76] need to be able to convert it back into
+
+[755.36 - 760.16] text to send it in a gpt3 prompt because
+
+[757.76 - 761.8389999999999] gpt3 doesn't understand python lists it
+
+[760.16 - 763.8389999999999] only understands text
+
+[761.839 - 765.9200000000001] so we do here is we do
+
+[763.839 - 768.72] single single quote
+
+[765.92 - 770.56] slash backslash n so that's for newline
+
+[768.72 - 773.0400000000001] and we do dot join
+
+[770.56 - 774.959] so this is this is a method that is
+
+[773.04 - 776.3199999999999] built into the string type in python
+
+[774.959 - 778.16] that allows you
+
+[776.32 - 780.72] to um it's basically a list
+
+[778.16 - 782.16] comprehension and so we'll do is do uh
+
+[780.72 - 784.9590000000001] conversation
+
+[782.16 - 789.279] um and so we'll do is we'll do uh text
+
+[784.959 - 791.92] equals uh backslash n join conversation
+
+[789.279 - 793.519] so one new line and then we're gonna put
+
+[791.92 - 797.279] a new line between every bit of
+
+[793.519 - 799.36] conversation so then if we do print text
+
+[797.279 - 800.639] it puts it back into one text block
+
+[799.36 - 802.72] great
+
+[800.639 - 804.01] so we'll just copy that code because
+
+[802.72 - 805.44] that's exactly what we need
+
+[804.01 - 807.36] [Music]
+
+[805.44 - 808.72] text and join
+
+[807.36 - 811.44] excuse me
+
+[808.72 - 814.72] okay great so now we've got the text
+
+[811.44 - 816.0] block that we want to put here
+
+[814.72 - 818.32] so basically what it's going to look
+
+[816.0 - 820.399] like when we're done
+
+[818.32 - 822.24] copy that real quick we're going to say
+
+[820.399 - 825.12] it's going to look like this
+
+[822.24 - 827.12] and if we put this into
+
+[825.12 - 830.639] up into gpt3 we can test how it's going
+
+[827.12 - 830.639] to look the user
+
+[831.04 - 836.88] yes but how do you know you're s you're
+
+[834.48 - 836.88] alive
+
+[839.68 - 844.399] there you go okay so you can see this is
+
+[841.92 - 846.3199999999999] this is coming right along
+
+[844.399 - 848.8] but we're still we're still a couple
+
+[846.32 - 851.519] steps shy let's do a control z to undo
+
+[848.8 - 852.959] that so we've got this little token here
+
+[851.519 - 854.9590000000001] and it's like okay well what do we do
+
+[852.959 - 858.2399999999999] next
+
+[854.959 - 861.199] all right so we will use
+
+[858.24 - 862.16] we'll say prompt equals
+
+[861.199 - 864.56] open
+
+[862.16 - 866.3199999999999] file so this open file is the function
+
+[864.56 - 868.6389999999999] that i wrote here
+
+[866.32 - 871.36] and we're going to say open prompt
+
+[868.639 - 873.6] underscore chat.text that's this right
+
+[871.36 - 873.6] here
+
+[873.68 - 878.7199999999999] um and so we just pass it and what this
+
+[875.839 - 881.519] passes back it just passes um it says
+
+[878.72 - 884.8000000000001] return infile read so it'll read the
+
+[881.519 - 886.32] file for us and it'll pass it back as is
+
+[884.8 - 889.12] but what we want to do is we want to
+
+[886.32 - 890.88] replace this block with the text
+
+[889.12 - 893.279] um you know so basically we'll do that
+
+[890.88 - 895.68] we'll we'll do functionally the same
+
+[893.279 - 897.36] that we did just a minute ago whoopsies
+
+[895.68 - 898.959] that's not what i meant to do
+
+[897.36 - 902.0790000000001] there we go
+
+[898.959 - 904.6389999999999] okay so we'll save that um we'll we'll
+
+[902.079 - 907.199] we'll functionally replace that block so
+
+[904.639 - 910.48] it'll look like this right
+
+[907.199 - 912.0] so we'll do a virtual control v to paste
+
+[910.48 - 914.88] in instead of having this this
+
+[912.0 - 919.199] placeholder will actually paste in our
+
+[914.88 - 920.8] our our text block so we do dot replace
+
+[919.199 - 923.519] and then we'll say what are we going to
+
+[920.8 - 925.199] replace we're going to look for block
+
+[923.519 - 926.48] and we're going to replace it
+
+[925.199 - 928.0] with text
+
+[926.48 - 929.6800000000001] and so this
+
+[928.0 - 930.88] variable right here
+
+[929.68 - 932.6389999999999] is this one
+
+[930.88 - 935.519] and so you see how text is used in
+
+[932.639 - 936.32] multiple places that's bad form so what
+
+[935.519 - 939.12] we're going to do is we're going to
+
+[936.32 - 940.88] rename this and and we'll call this
+
+[939.12 - 942.399] text block
+
+[940.88 - 944.24] because that's a little bit more
+
+[942.399 - 946.399] specific about what what it is that it
+
+[944.24 - 948.72] is so this is the conversation this is
+
+[946.399 - 950.0] the text block of the conversation so
+
+[948.72 - 951.12] we'll
+
+[950.0 - 952.8] do that
+
+[951.12 - 954.9590000000001] and this will make
+
+[952.8 - 956.079] the prompt is going to look just like
+
+[954.959 - 958.2399999999999] this
+
+[956.079 - 960.959] now there's one last step missing
+
+[958.24 - 962.24] so uh fortunately
+
+[960.959 - 963.04] da vinci
+
+[962.24 - 965.36] is
+
+[963.04 - 967.36] this this one is aligned well enough so
+
+[965.36 - 969.36] that it knows once it sees a couple of
+
+[967.36 - 972.0790000000001] messages back and forth it knows what
+
+[969.36 - 973.759] format to follow however we don't want
+
+[972.079 - 975.3599999999999] to rely on that
+
+[973.759 - 977.44] so what we're going to do
+
+[975.36 - 978.9590000000001] is we're going to add just a little bit
+
+[977.44 - 981.519] to the end of the prompt so we'll say
+
+[978.959 - 982.56] prompt equals prompt
+
+[981.519 - 984.399] plus
+
+[982.56 - 985.5999999999999] we'll do one more new line
+
+[984.399 - 987.199] jacks
+
+[985.6 - 989.6800000000001] and so basically what that'll make it
+
+[987.199 - 991.12] look like is
+
+[989.68 - 992.56] this
+
+[991.12 - 994.16] so
+
+[992.56 - 996.3199999999999] it we're basically we're basically
+
+[994.16 - 998.399] priming the next line because one thing
+
+[996.32 - 1000.24] that can happen this this is doing
+
+[998.399 - 1002.56] pretty well not to do this but one thing
+
+[1000.24 - 1003.6] that can happen is if you don't have
+
+[1002.56 - 1005.279] this here
+
+[1003.6 - 1008.32] it might like
+
+[1005.279 - 1010.32] continue the user's side
+
+[1008.32 - 1012.5600000000001] see how what it did here is if i took
+
+[1010.32 - 1014.32] out the um the question mark it added in
+
+[1012.56 - 1016.4799999999999] the question mark for me and then
+
+[1014.32 - 1017.9200000000001] continued with jax but let's say you
+
+[1016.48 - 1021.6800000000001] didn't want that
+
+[1017.92 - 1021.68] um and you just say jax
+
+[1022.639 - 1026.079] see it's a little bit different
+
+[1024.48 - 1027.76] so you got to be very careful about the
+
+[1026.079 - 1031.1989999999998] text that you pass back
+
+[1027.76 - 1033.439] okay so we we uh we we load our prompt
+
+[1031.199 - 1036.16] we populate it with the text block of
+
+[1033.439 - 1037.3600000000001] the conversation and we say okay jax
+
+[1036.16 - 1038.559] you're up
+
+[1037.36 - 1040.319] so now what
+
+[1038.559 - 1041.6] now we do
+
+[1040.319 - 1042.72] response
+
+[1041.6 - 1044.24] actually here we've already got that
+
+[1042.72 - 1046.72] code here
+
+[1044.24 - 1048.88] so response equals gpt3 completion
+
+[1046.72 - 1050.4] prompt so this is going to be jax's
+
+[1048.88 - 1052.4] answer
+
+[1050.4 - 1055.2800000000002] and so what we'll do is
+
+[1052.4 - 1055.2800000000002] we will do print
+
+[1056.32 - 1061.52] jacks
+
+[1058.32 - 1063.28] and then we'll do comma response so
+
+[1061.52 - 1065.12] print allows you to print multiple
+
+[1063.28 - 1067.12] variables at once so we're basically
+
+[1065.12 - 1068.8799999999999] printing two string variables and when
+
+[1067.12 - 1071.039] you put a comma between it it basically
+
+[1068.88 - 1072.24] just acts like a space it won't work if
+
+[1071.039 - 1074.8799999999999] you do this because it's like i don't
+
+[1072.24 - 1077.36] know how to how to view these two things
+
+[1074.88 - 1078.8400000000001] so we just do jax comma response
+
+[1077.36 - 1082.3999999999999] great
+
+[1078.84 - 1084.559] so but don't we need to accumulate jax's
+
+[1082.4 - 1087.1200000000001] end of the conversation in the text
+
+[1084.559 - 1089.039] block and the in the list absolutely
+
+[1087.12 - 1091.6789999999999] because if we don't it's just going to
+
+[1089.039 - 1093.2] talk be talking to itself and our it
+
+[1091.679 - 1096.0] will we're only right now we're only
+
+[1093.2 - 1098.0] recording our side of the conversation
+
+[1096.0 - 1101.52] um okay so then what we'll do is we'll
+
+[1098.0 - 1104.08] do conversation dot append
+
+[1101.52 - 1106.32] and we'll make this look exactly like
+
+[1104.08 - 1108.6399999999999] this one
+
+[1106.32 - 1111.4399999999998] except we'll change this to jax
+
+[1108.64 - 1113.1200000000001] and we'll change user input
+
+[1111.44 - 1114.24] to response
+
+[1113.12 - 1115.9189999999999] there you go
+
+[1114.24 - 1119.44] um all right
+
+[1115.919 - 1120.5590000000002] so we're just about done and ready for
+
+[1119.44 - 1121.679] testing
+
+[1120.559 - 1124.0] um
+
+[1121.679 - 1126.5590000000002] one thing that is important to note here
+
+[1124.0 - 1128.559] you see how it added a couple new lines
+
+[1126.559 - 1130.72] so for whatever reason gpt3 will
+
+[1128.559 - 1133.76] sometimes do this where it'll it'll add
+
+[1130.72 - 1135.3600000000001] new lines um between stuff and we don't
+
+[1133.76 - 1137.76] want our our
+
+[1135.36 - 1139.52] our text message to get all scattered we
+
+[1137.76 - 1140.559] want it to look
+
+[1139.52 - 1142.24] like this
+
+[1140.559 - 1144.48] so how do we do that
+
+[1142.24 - 1146.08] um i've got that i've got that covered
+
+[1144.48 - 1148.32] right here with this little function i
+
+[1146.08 - 1149.76] think i mentioned it in the previous
+
+[1148.32 - 1152.799] video
+
+[1149.76 - 1155.84] so it always will cut out any excess
+
+[1152.799 - 1158.0] space around it
+
+[1155.84 - 1159.4399999999998] now there's one last thing
+
+[1158.0 - 1161.919] sometimes
+
+[1159.44 - 1164.799] what happens is
+
+[1161.919 - 1167.3600000000001] is gbt3 will just it'll have the whole
+
+[1164.799 - 1169.44] conversation on its own right
+
+[1167.36 - 1172.4799999999998] um it'll just it'll it'll try and fill
+
+[1169.44 - 1173.919] in the position for the user and jax and
+
+[1172.48 - 1176.88] so we want to do
+
+[1173.919 - 1180.88] is we want it to stop if if gpt3 ever
+
+[1176.88 - 1184.64] generates these tokens user or jacks and
+
+[1180.88 - 1186.3200000000002] so what we do is we'll add those
+
+[1184.64 - 1188.3200000000002] right here
+
+[1186.32 - 1191.48] so jacks
+
+[1188.32 - 1191.48] and then
+
+[1192.08 - 1194.48] user i could have just typed it out i
+
+[1193.44 - 1196.0800000000002] guess
+
+[1194.48 - 1198.32] that's five characters i should have
+
+[1196.08 - 1201.6] typed it out okay that's fine so this
+
+[1198.32 - 1203.4399999999998] will basically tell gbt3 just in case
+
+[1201.6 - 1204.32] do not have this whole conversation for
+
+[1203.44 - 1206.88] me
+
+[1204.32 - 1209.84] because what i can do is i can say
+
+[1206.88 - 1212.48] um if we change this to imagine
+
+[1209.84 - 1213.9189999999999] a conversation between user and jax
+
+[1212.48 - 1216.08] what'll happen is it'll do the
+
+[1213.919 - 1220.039] conversation for me
+
+[1216.08 - 1220.039] well sometimes it will
+
+[1221.76 - 1225.039] okay
+
+[1223.52 - 1226.6399999999999] this prompt isn't causing it to do that
+
+[1225.039 - 1228.32] but sometimes it will
+
+[1226.64 - 1231.1200000000001] i wonder if it'll do it if we if we turn
+
+[1228.32 - 1231.12] the temperature up
+
+[1232.72 - 1236.799] there we go see how it completed it for
+
+[1235.6 - 1239.12] me
+
+[1236.799 - 1241.039] so sometimes it's like you know it'll
+
+[1239.12 - 1243.1999999999998] kind of make up its own mind about what
+
+[1241.039 - 1244.799] to do so we'll turn that back down to
+
+[1243.2 - 1246.32] 0.7
+
+[1244.799 - 1249.6] um okay
+
+[1246.32 - 1251.12] i think we're ready for testing
+
+[1249.6 - 1254.32] so we'll come here
+
+[1251.12 - 1255.76] um once you're in python you hit control
+
+[1254.32 - 1257.6789999999999] z
+
+[1255.76 - 1261.52] and then enter and that'll that'll allow
+
+[1257.679 - 1263.76] you to x exit out of your python loop
+
+[1261.52 - 1266.559] all right cls to clear the screen we'll
+
+[1263.76 - 1268.4] do python chat
+
+[1266.559 - 1270.3999999999999] can't open
+
+[1268.4 - 1271.919] no such file oh right
+
+[1270.4 - 1273.919] chat dot pi i forgot to do the
+
+[1271.919 - 1274.8400000000001] completion
+
+[1273.919 - 1280.24] all right
+
+[1274.84 - 1280.24] user hey jax what are you up to
+
+[1280.64 - 1284.88] i'm up to my usual goal of world peace
+
+[1283.44 - 1285.8400000000001] great
+
+[1284.88 - 1287.44] uh
+
+[1285.84 - 1291.1999999999998] okay
+
+[1287.44 - 1292.48] how are you doing that
+
+[1291.2 - 1294.0800000000002] by promoting understanding and
+
+[1292.48 - 1295.679] cooperation between different nations
+
+[1294.08 - 1298.08] and groups
+
+[1295.679 - 1299.44] do you have any links
+
+[1298.08 - 1303.32] i need evidence
+
+[1299.44 - 1303.3200000000002] i'm being real difficult
+
+[1304.559 - 1308.559] here's a link
+
+[1306.559 - 1310.8799999999999] jacks.org
+
+[1308.559 - 1313.52] completely made that up that's great
+
+[1310.88 - 1316.24] okay well jax is trying his best
+
+[1313.52 - 1318.32] um okay so we see that our chat bot is
+
+[1316.24 - 1321.52] indeed working but we are not seeing
+
+[1318.32 - 1324.1589999999999] anything going on in the background so
+
+[1321.52 - 1326.0] what if we want to do like debug right
+
+[1324.159 - 1327.679] what if we want to see what's going on
+
+[1326.0 - 1329.44] in the background we'll come back to
+
+[1327.679 - 1330.4] that next time but i think we've done
+
+[1329.44 - 1332.72] enough
+
+[1330.4 - 1334.72] this episode so thanks for watching once
+
+[1332.72 - 1336.4] again like and subscribe
+
+[1334.72 - 1338.24] uh and then also
+
+[1336.4 - 1341.2] please consider hopping over to patreon
+
+[1338.24 - 1343.52] to support me directly um that will
+
+[1341.2 - 1347.4] really turn this up to 11. thanks for
+
+[1343.52 - 1347.4] watching and take care

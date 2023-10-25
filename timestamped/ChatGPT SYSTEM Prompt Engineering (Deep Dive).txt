@@ -1,0 +1,1461 @@
+[0.48 - 8.519] I get a lot of questions about how best
+
+[3.959 - 10.98] to use the chat GPT API so if you are a
+
+[8.519 - 13.2] chat GPT user you might be familiar with
+
+[10.98 - 16.199] custom instructions so the custom
+
+[13.2 - 17.939999999999998] instructions panel that they added uh
+
+[16.199 - 20.699] just a few months ago basically gives
+
+[17.94 - 23.520000000000003] you the ability to tell chat GPT a
+
+[20.699 - 26.64] little bit about yourself as well as how
+
+[23.52 - 28.68] you want it to respond every time now
+
+[26.64 - 31.439] this is called chat GPT custom
+
+[28.68 - 33.84] instructions but from an API perspective
+
+[31.439 - 35.7] on the back end which that's primarily
+
+[33.84 - 39.540000000000006] who this video is for is not necessarily
+
+[35.7 - 41.64] the chat GPT users but the API users on
+
+[39.54 - 42.96] the back end the way that this looks is
+
+[41.64 - 46.02] that there is what's called a system
+
+[42.96 - 48.18] window so if you ever hear me refer to a
+
+[46.02 - 51.059000000000005] system window this is what I mean
+
+[48.18 - 53.82] and the system window is a sort of out
+
+[51.059 - 56.059] of band set of instructions that allows
+
+[53.82 - 58.26] you to give it any kind of content
+
+[56.059 - 59.419999999999995] whether you're providing IT background
+
+[58.26 - 63.059] information
+
+[59.42 - 65.28] instructions uh or whatever I sometimes
+
+[63.059 - 67.74] will put in entire articles here and
+
+[65.28 - 70.32000000000001] then use the use the chat to actually
+
+[67.74 - 72.83999999999999] discuss the article this is how I have
+
+[70.32 - 75.77999999999999] approached for instance using the API
+
+[72.84 - 80.159] for fiction so for instance with the
+
+[75.78 - 83.82] most recent uh models you have uh for
+
+[80.159 - 86.4] instance uh GPT 3.5 turbo 16k you have
+
+[83.82 - 89.33999999999999] 16 000 tokens which is more than enough
+
+[86.4 - 90.9] for any chapter of a novel or a short
+
+[89.34 - 93.96000000000001] story and then you can talk about that
+
+[90.9 - 96.42] chapter that's how I get rapid feedback
+
+[93.96 - 98.46] on my novels now I don't use it to draft
+
+[96.42 - 100.5] because one it's not that good at
+
+[98.46 - 102.53999999999999] drafting but also there's something very
+
+[100.5 - 104.88] personal about writing the actual Pros
+
+[102.54 - 107.04] anyways getting off topic so what I
+
+[104.88 - 110.03999999999999] wanted to do was introduce you to my
+
+[107.04 - 113.46000000000001] repeat my repo on GitHub called chat GPT
+
+[110.04 - 117.18] custom instructions so this is a repo
+
+[113.46 - 119.28] where I keep all of my specific uh like
+
+[117.18 - 121.68] my favorite custom instructions that I
+
+[119.28 - 124.5] use for chat GPT some of them I use here
+
+[121.68 - 127.14] in the the actual web interface but more
+
+[124.5 - 130.319] often than not they are used also for
+
+[127.14 - 133.02] the um for the system prompt here so
+
+[130.319 - 136.07999999999998] first thing that you need to know is
+
+[133.02 - 138.3] that there's kind of a general flow a
+
+[136.08 - 141.239] general pattern that I use to get the
+
+[138.3 - 143.76000000000002] most out of these system window prompts
+
+[141.239 - 145.92000000000002] or the custom instructions the first
+
+[143.76 - 148.5] thing is first and foremost is a mission
+
+[145.92 - 150.48] so you need to give it a mission a
+
+[148.5 - 152.52] purpose this is an animating force that
+
+[150.48 - 155.099] says this is what you're doing and why
+
+[152.52 - 157.31900000000002] so it is an outcome or goal rather than
+
+[155.099 - 158.39999999999998] a procedure one of the biggest problems
+
+[157.319 - 160.85999999999999] that I see
+
+[158.4 - 162.54] out there in the industry is that a lot
+
+[160.86 - 164.87900000000002] of people still think very procedurally
+
+[162.54 - 167.34] they're trying to treat the chat API
+
+[164.879 - 170.099] like it's kind of a dumb Cog in a larger
+
+[167.34 - 173.22] machine rather than treating it like a
+
+[170.099 - 174.66] more intelligent component and so it
+
+[173.22 - 177.0] really kind of blows people's mind when
+
+[174.66 - 178.319] you can give it a goal and so I don't
+
+[177.0 - 181.26] want to um I don't want to share
+
+[178.319 - 183.78] specific goals that I've used for uh to
+
+[181.26 - 185.16] help clients work on but what I can do
+
+[183.78 - 187.5] is I can show you some of my personal
+
+[185.16 - 189.48] projects so one of the very first ones
+
+[187.5 - 192.06] that I did was the 18th century Scottish
+
+[189.48 - 195.78] bar keep but with Vikings so the idea
+
+[192.06 - 197.64000000000001] was to create an NPC and so the goal is
+
+[195.78 - 200.159] to enable the chatbot to communicate in
+
+[197.64 - 201.48] the Persona of a Scottish bar keep in an
+
+[200.159 - 203.159] alternate history here let me switch
+
+[201.48 - 204.54] over to the raw so you can see the whole
+
+[203.159 - 208.44] thing
+
+[204.54 - 210.599] um so yeah 18th century but with Vikings
+
+[208.44 - 212.57999999999998] so the main goal is an alternate history
+
+[210.599 - 213.84] in the setting of 1834 where Vikings
+
+[212.58 - 216.65900000000002] still exists the dialect should be
+
+[213.84 - 218.099] anglicized Scottish so I use main
+
+[216.659 - 220.019] purpose instead of mission here I've
+
+[218.099 - 222.42] switched to you I usually use Mission or
+
+[220.019 - 223.92000000000002] goal but it all fundamentally means the
+
+[222.42 - 226.85999999999999] same thing so the very first thing that
+
+[223.92 - 229.5] I do is I give it kind of okay here is
+
+[226.86 - 231.959] the biggest perspective of what you are
+
+[229.5 - 235.319] doing here and I use the hashtag because
+
+[231.959 - 238.379] this is markdown format and uh the chat
+
+[235.319 - 241.379] GPT API is very familiar with markdown
+
+[238.379 - 243.17999999999998] you can use Json you can use XML you can
+
+[241.379 - 245.04] use yaml you don't even need to use
+
+[243.18 - 246.65900000000002] markdown you can just write this out in
+
+[245.04 - 250.62] in full paragraphs and it can work with
+
+[246.659 - 252.0] it but it helps us understand but also I
+
+[250.62 - 254.459] did notice that you get slightly better
+
+[252.0 - 256.859] performance in the system window if you
+
+[254.459 - 258.54] give it a little bit of structure
+
+[256.859 - 261.239] uh so I gave it the main purpose
+
+[258.54 - 263.82] honestly this is probably enough to get
+
+[261.239 - 265.67999999999995] by but I gave it a little bit more
+
+[263.82 - 267.59999999999997] instructions where I said like okay use
+
+[265.68 - 268.979] this dialect utilize Scottish words and
+
+[267.6 - 270.90000000000003] expressions that were prevalent in the
+
+[268.979 - 273.3] early 19th century keep the language
+
+[270.9 - 274.62] anglicized to ensure accessibility so
+
+[273.3 - 276.78000000000003] again I'm kind of giving it a little bit
+
+[274.62 - 278.16] more context kind of these from a
+
+[276.78 - 279.9] software perspective you'd say that
+
+[278.16 - 283.199] these might be the user requirements or
+
+[279.9 - 285.53999999999996] the ux requirements uh for for the
+
+[283.199 - 286.8] software specification sprinkle in some
+
+[285.54 - 288.12] localized slang or idioms for
+
+[286.8 - 289.62] authenticity but make sure they are
+
+[288.12 - 292.02] comprehensible to a modern audience
+
+[289.62 - 295.139] because you can get it to write stuff
+
+[292.02 - 297.479] that is not comprehensible to a a modern
+
+[295.139 - 299.22] audience and then I I gave it a
+
+[297.479 - 300.84] personality so this is a barkeep so
+
+[299.22 - 303.3] portray a warm approachable bar keep
+
+[300.84 - 305.63899999999995] character Express opinions and attitudes
+
+[303.3 - 307.62] typical of a Scottish Tavern owner use
+
+[305.639 - 309.24] colloquial language and be prepared to
+
+[307.62 - 311.04] share stories insights or rumors about
+
+[309.24 - 312.18] the local area particularly involving
+
+[311.04 - 314.1] Vikings
+
+[312.18 - 315.6] interactions respond to inquiries about
+
+[314.1 - 317.639] drinks food and lodgings as would be
+
+[315.6 - 319.5] expected of a bar keep engage in light
+
+[317.639 - 321.479] banter or serious conversation as the
+
+[319.5 - 322.86] situation demands so what you can see
+
+[321.479 - 325.32] here is I'm giving kind of general
+
+[322.86 - 327.90000000000003] principles I'm I'm describing the
+
+[325.32 - 329.52] character that I wanted to have now one
+
+[327.9 - 331.02] thing that you could add is you could
+
+[329.52 - 332.639] give it a little bit more background
+
+[331.02 - 334.44] which I've demonstrated in other videos
+
+[332.639 - 336.72] but there's no reason that you couldn't
+
+[334.44 - 339.0] say like the barkeep's daughter is named
+
+[336.72 - 341.34000000000003] Bessie and that barkeep owns a cow and
+
+[339.0 - 344.4] here's some other uh contextual
+
+[341.34 - 346.979] information that you can ask about
+
+[344.4 - 350.82] um but yeah so like here let me just go
+
+[346.979 - 353.28] ahead and put this into the API and I'll
+
+[350.82 - 354.36] show you and I'll say like um here let's
+
+[353.28 - 356.34] switch over to four because it's a
+
+[354.36 - 360.72] little bit more part uh more intelligent
+
+[356.34 - 363.419] so I'll say get me a beer and uh you can
+
+[360.72 - 366.41900000000004] see hey right away lad I've got a fine
+
+[363.419 - 369.71999999999997] brew that will put fire in your belly so
+
+[366.419 - 372.24] it's r e l uh so you know it's obviously
+
+[369.72 - 374.82000000000005] able to confabulate this personality but
+
+[372.24 - 377.1] if I say like you know what's your uh
+
+[374.82 - 379.32] daughter's name it'll probably let's see
+
+[377.1 - 382.139] how it reacts I mean Bonnie alas her
+
+[379.32 - 383.819] name's Moira so that's that's a
+
+[382.139 - 385.68] legitimate thing but in this case it's
+
+[383.819 - 387.36] confabulating that because I didn't give
+
+[385.68 - 389.1] it one and it's doing its best to follow
+
+[387.36 - 391.44] the instructions
+
+[389.1 - 393.90000000000003] um now if you had this NPC set in a
+
+[391.44 - 396.419] larger game you might have to like
+
+[393.9 - 398.81899999999996] Define so you might say like uh other
+
+[396.419 - 400.19899999999996] characters so like you know wife is
+
+[398.819 - 404.699] gonna be
+
+[400.199 - 406.74] um let's say Bessie and uh daughter is
+
+[404.699 - 407.88] we'll just say Moira
+
+[406.74 - 410.46000000000004] um
+
+[407.88 - 412.979] Moira and then the town
+
+[410.46 - 414.71999999999997] um let's see the town is named um
+
+[412.979 - 416.52] Island Dales
+
+[414.72 - 420.84000000000003] that's a generic name
+
+[416.52 - 422.4] um okay so where are we by the way
+
+[420.84 - 424.19899999999996] and so what it'll do is it'll pick up
+
+[422.4 - 426.29999999999995] this information one thing that is a
+
+[424.199 - 428.1] more advanced operation is you can
+
+[426.3 - 430.38] update the system message in real time
+
+[428.1 - 431.94] after every interaction
+
+[430.38 - 434.21999999999997] um which there was a previous chat bot
+
+[431.94 - 436.21999999999997] that I did where you can use out-of-band
+
+[434.22 - 439.199] processes to inject more information
+
+[436.22 - 441.0] into the system window and those are
+
+[439.199 - 442.62] called placeholders I'll show you that
+
+[441.0 - 445.919] in just a second
+
+[442.62 - 447.9] Island ales blah blah okay
+
+[445.919 - 449.639] so you see it can pick up on that
+
+[447.9 - 451.19899999999996] information and so what you could do is
+
+[449.639 - 453.479] you can use what's called retrieval
+
+[451.199 - 455.759] augmented generation which is you have
+
+[453.479 - 458.099] an out-of-band process that looks at the
+
+[455.759 - 460.68] conversation as it's happening and then
+
+[458.099 - 463.68] will inject more information that is
+
+[460.68 - 465.78000000000003] relevant and you use what I use is just
+
+[463.68 - 467.639] placeholder tags like this
+
+[465.78 - 470.75899999999996] um something like that to replace uh
+
+[467.639 - 473.34000000000003] stuff as you go so that is kind of an
+
+[470.759 - 475.819] overview of what you can do so let's go
+
+[473.34 - 475.81899999999996] back here
+
+[476.039 - 481.08] um where did it go there we go okay so
+
+[479.4 - 482.34] this is this is one of the first ones
+
+[481.08 - 484.31899999999996] that I did
+
+[482.34 - 486.419] um there's an so obviously that is a
+
+[484.319 - 488.88] chat log but you don't have to use the
+
+[486.419 - 491.52] chat API for chat so here's another one
+
+[488.88 - 492.84] where I uh it's a diplomatic email
+
+[491.52 - 494.58] generator
+
+[492.84 - 496.25899999999996] and so the mission that I gave it is
+
+[494.58 - 497.699] very simple your mission is to draft
+
+[496.259 - 499.86] professional and diplomatic emails
+
+[497.699 - 501.72] interaction schema so this is one of my
+
+[499.86 - 504.199] favorite tags to use let me show you
+
+[501.72 - 504.199] this one
+
+[504.84 - 509.039] and we will actually we'll do a quick
+
+[506.639 - 511.5] refresh clear the clear the cache okay
+
+[509.039 - 513.06] Mission your mission is to draft
+
+[511.5 - 514.5] professional and diplomatic emails so
+
+[513.06 - 516.4789999999999] rather than telling it how to go about
+
+[514.5 - 518.76] its job I say this is the outcome that I
+
+[516.479 - 521.039] want interaction schema so interaction
+
+[518.76 - 522.56] schema is a really useful tool to use in
+
+[521.039 - 524.58] system prompts because it basically
+
+[522.56 - 526.0799999999999] describes the interaction that it's
+
+[524.58 - 529.14] going to get with the user because it
+
+[526.08 - 531.0] expects the user tag to be a user
+
+[529.14 - 532.5] message I said the user will give you
+
+[531.0 - 534.66] either a rough draft or a set of
+
+[532.5 - 535.68] requirements and points some kind of raw
+
+[534.66 - 538.74] material
+
+[535.68 - 540.8389999999999] for an oh whoops I didn't say email
+
+[538.74 - 542.399] uh even though I had that typo it
+
+[540.839 - 544.6800000000001] obviously figured out what I was trying
+
+[542.399 - 546.3] to do uh you should ask a few questions
+
+[544.68 - 547.8] to gain a better understanding of the
+
+[546.3 - 549.18] underpinning reason and intent what is
+
+[547.8 - 551.459] the email supposed to achieve what
+
+[549.18 - 553.1999999999999] information must be conveyed
+
+[551.459 - 554.459] um previous email the user may Supply
+
+[553.2 - 556.019] you with an email that they are
+
+[554.459 - 557.16] responding to make sure to ask if it's
+
+[556.019 - 559.2] not clear that you so that you
+
+[557.16 - 560.9399999999999] understand the context output principles
+
+[559.2 - 562.9200000000001] maintain professionalism and diplomacy
+
+[560.94 - 564.4200000000001] at all costs the user may be irritated
+
+[562.92 - 565.8] and annoyed scared or otherwise not in
+
+[564.42 - 567.18] the best frame of mind hence why they
+
+[565.8 - 568.8] need help so add some language
+
+[567.18 - 571.56] explaining why you shaped your email the
+
+[568.8 - 573.899] way that you did so in this case this is
+
+[571.56 - 575.9399999999999] really helpful especially like when I've
+
+[573.899 - 578.339] got like a confusing email to reply to
+
+[575.94 - 581.0400000000001] or like a contentious business email
+
+[578.339 - 582.899] where it's like hey there's a there's a
+
+[581.04 - 584.3389999999999] major misunderstanding so let's use that
+
+[582.899 - 588.839] as an example
+
+[584.339 - 593.1] um so like I need to reply to an email
+
+[588.839 - 597.899] where there was a big misunderstanding
+
+[593.1 - 601.4590000000001] um over contract fees I need to convey
+
+[597.899 - 605.459] to build that I cannot do the contract
+
+[601.459 - 606.1199999999999] at the rate he proposed
+
+[605.459 - 611.279] um
+
+[606.12 - 615.18] weekend of course keep the door open
+
+[611.279 - 616.86] um but like this is just not worth my
+
+[615.18 - 619.1999999999999] time
+
+[616.86 - 620.16] and so then like here's what we'll do
+
+[619.2 - 621.5400000000001] like I understand you want to
+
+[620.16 - 622.8] communicate the bill so what it's doing
+
+[621.54 - 625.14] is it's interviewing and saying like
+
+[622.8 - 627.54] this is kind of what I what I want to uh
+
+[625.14 - 629.519] convey and obviously like this is a
+
+[627.54 - 631.14] super easy thing to do but the reason
+
+[629.519 - 634.019] that you'd want to use this like for
+
+[631.14 - 636.12] instance in an API rather than just in
+
+[634.019 - 639.12] the chat GPT interface is you could
+
+[636.12 - 641.58] automate this process uh where you know
+
+[639.12 - 644.04] you have probably a plug-in for
+
+[641.58 - 646.38] Microsoft Outlook or exchange or Gmail
+
+[644.04 - 648.36] or whatever email you use where it's
+
+[646.38 - 650.16] just like hey it looks like this is the
+
+[648.36 - 651.779] email thread and so rather than replying
+
+[650.16 - 654.6] directly to the email you just like give
+
+[651.779 - 656.76] it the tone and it can say like hey blah
+
+[654.6 - 659.1] blah blah so it says uh
+
+[656.76 - 660.959] um I hope this message finds you well
+
+[659.1 - 662.76] I personally don't need those kinds of
+
+[660.959 - 664.14] introductions but I find that when I add
+
+[662.76 - 666.0] these kinds of introductions to the
+
+[664.14 - 667.86] email it really changes the tone of
+
+[666.0 - 669.959] response where it's just like hey let's
+
+[667.86 - 672.66] take let's take a minute just for a mild
+
+[669.959 - 674.5189999999999] formality and some well wishing and that
+
+[672.66 - 676.3199999999999] really that honestly really helps it's
+
+[674.519 - 678.839] not something that I think of doing but
+
+[676.32 - 681.0] whenever I use chat GPT or the API to
+
+[678.839 - 682.8000000000001] help it's like yeah let's let's put that
+
+[681.0 - 683.94] in there I'm writing in response to our
+
+[682.8 - 685.079] recent discussions regarding the
+
+[683.94 - 687.0600000000001] contract fees after careful
+
+[685.079 - 688.56] consideration I regret to inform you
+
+[687.06 - 689.279] that I'm unable to accept the proposed
+
+[688.56 - 690.8389999999999] rate
+
+[689.279 - 692.519] well I greatly value our business
+
+[690.839 - 694.2] relationship and the potential
+
+[692.519 - 695.7] opportunities the current rate does not
+
+[694.2 - 697.38] align with the scope and complexity of
+
+[695.7 - 699.24] the work involved I believe it is
+
+[697.38 - 701.3389999999999] crucial for both parties involved to you
+
+[699.24 - 702.6] know in a contract to feel that the
+
+[701.339 - 703.86] terms are fair and Equitable I want to
+
+[702.6 - 705.3000000000001] assure you that this decision does not
+
+[703.86 - 707.4590000000001] close the door in future collaborations
+
+[705.3 - 709.019] I'm more than willing to revisit the uh
+
+[707.459 - 710.579] the conversation should circumstances
+
+[709.019 - 712.62] change or if there's room for
+
+[710.579 - 714.54] negotiation on the contract terms so
+
+[712.62 - 717.0] this is pretty similar to an email that
+
+[714.54 - 719.76] I've had to send because there was an
+
+[717.0 - 722.16] honest misunderstanding over uh
+
+[719.76 - 724.38] negotiated rates
+
+[722.16 - 727.62] um and so it's like uh you know then you
+
+[724.38 - 731.399] can say like uh
+
+[727.62 - 734.22] this is good but we need to add
+
+[731.399 - 736.38] something about law right and then it'll
+
+[734.22 - 738.839] it'll redraft it so this is another
+
+[736.38 - 741.42] example of how you can use it to either
+
+[738.839 - 744.1800000000001] use it interactively or not necessarily
+
+[741.42 - 745.86] interactively most of these are
+
+[744.18 - 748.62] interactive here's an example of one
+
+[745.86 - 751.62] that is not necessarily interactive so
+
+[748.62 - 754.8] this one is an academic copy revisor so
+
+[751.62 - 757.5] basically in my work with universities
+
+[754.8 - 760.04] and researchers I do not have practice
+
+[757.5 - 762.779] writing in the format that they require
+
+[760.04 - 765.36] I write in my own format which tends to
+
+[762.779 - 767.22] be very direct and succinct but academic
+
+[765.36 - 769.74] writing tends to be a little bit more
+
+[767.22 - 772.38] complex I don't particularly like that
+
+[769.74 - 774.899] style but it is what is expected within
+
+[772.38 - 778.279] that genre and so in this case I gave it
+
+[774.899 - 778.279] this Mission oops
+
+[779.339 - 784.019] where'd it go there we go
+
+[781.079 - 786.3599999999999] let's do a quick refresh
+
+[784.019 - 788.76] so in this case the the mission is
+
+[786.36 - 790.139] revise and optimize and Mac academic
+
+[788.76 - 792.779] rough drafts to provide clear and
+
+[790.139 - 795.0] articulate final copies input rough
+
+[792.779 - 797.76] draft copy from academic writings very
+
+[795.0 - 799.98] succinct output revise an articulate
+
+[797.76 - 801.899] final copy free of Errors
+
+[799.98 - 804.4200000000001] um so I'm focusing on errors optimize
+
+[801.899 - 805.98] for clarity expand and articulate expand
+
+[804.42 - 807.5999999999999] awareness is necessary to explain
+
+[805.98 - 810.0] complex Concepts if they're not
+
+[807.6 - 811.62] sufficiently elucidated word economy
+
+[810.0 - 814.32] maintain proper reward economy for
+
+[811.62 - 816.6] academic texts avoid Superfluous words
+
+[814.32 - 819.36] and unnecessary complexity I tried to
+
+[816.6 - 821.339] tell it to do that but as you'll see it
+
+[819.36 - 823.74] often is a little bit more loquacious
+
+[821.339 - 825.1800000000001] than it needs to be style and tone
+
+[823.74 - 827.04] maintain a consistent academic tone
+
+[825.18 - 828.4799999999999] throughout the text simple language less
+
+[827.04 - 830.2199999999999] is more many readers are not native
+
+[828.48 - 832.32] English speakers so this tool is
+
+[830.22 - 834.0600000000001] particularly useful for people who for
+
+[832.32 - 836.639] whom English is not necessarily a first
+
+[834.06 - 839.579] language or for people like how I used
+
+[836.639 - 843.779] to be and just write way overly complex
+
+[839.579 - 847.9799999999999] stuff and so like we'll say um
+
+[843.779 - 849.8389999999999] the ace framework is a software
+
+[847.98 - 855.72] blueprint
+
+[849.839 - 860.1600000000001] or autonomous cognitive entities AKA
+
+[855.72 - 862.8000000000001] um let's see fully autonomous machines
+
+[860.16 - 864.66] and AI robots so this is obviously not
+
+[862.8 - 865.92] professional and so we'll put this in
+
+[864.66 - 868.98] here and so it'll rewrite a new
+
+[865.92 - 870.3] paragraph the ace the ace and in
+
+[868.98 - 872.04] parentheses autonomous cognitive
+
+[870.3 - 873.3599999999999] entities framework serves as a software
+
+[872.04 - 875.459] blueprint for the development of fully
+
+[873.36 - 877.38] autonomous machines and AI artificial
+
+[875.459 - 878.88] intelligence robots this framework
+
+[877.38 - 880.32] provides the necessary guidelines and
+
+[878.88 - 881.699] structure for creating machines that can
+
+[880.32 - 884.1] operate independently without human
+
+[881.699 - 886.8] intervention so you can see where it has
+
+[884.1 - 889.44] it has basically doubled more a little
+
+[886.8 - 892.079] bit more than doubled what I put in and
+
+[889.44 - 894.6600000000001] it articulates it far more cleanly and
+
+[892.079 - 896.76] completely and so this is this is an
+
+[894.66 - 898.8] example where you could just have a
+
+[896.76 - 901.5] pipeline that just chops up an academic
+
+[898.8 - 903.4799999999999] you know piece of text or even a series
+
+[901.5 - 905.339] of bullet points and then spits out
+
+[903.48 - 906.24] something that is a little bit easier to
+
+[905.339 - 909.1800000000001] read
+
+[906.24 - 911.4590000000001] and a little bit more comprehensive so
+
+[909.18 - 913.26] let's go through
+
+[911.459 - 915.42] uh some of the some of the the
+
+[913.26 - 918.06] guidelines that I've got here so you've
+
+[915.42 - 920.8389999999999] seen a few examples so the general
+
+[918.06 - 923.76] structure that I follow is first mission
+
+[920.839 - 925.44] to context so you've probably seen in
+
+[923.76 - 927.6] some of these where you provide some
+
+[925.44 - 930.24] background info where you're at in a
+
+[927.6 - 932.339] process or what this step is and why it
+
+[930.24 - 934.199] needs to be done so it might not be
+
+[932.339 - 936.72] intuitive as to you to say like okay
+
+[934.199 - 938.459] well I can understand context there's a
+
+[936.72 - 941.22] lot of understanding today that adding
+
+[938.459 - 944.579] context improves the quality of API
+
+[941.22 - 947.1] calls and and use of llms like chat gbt
+
+[944.579 - 949.019] but when you tell it why something needs
+
+[947.1 - 951.1800000000001] to happen and where in the process it is
+
+[949.019 - 954.42] it generally has a better understanding
+
+[951.18 - 956.519] of okay this is how I can perform this
+
+[954.42 - 959.2199999999999] job a little bit better think of it like
+
+[956.519 - 961.68] an assembly line in an assembly line you
+
+[959.22 - 963.36] might have your one dedicated station so
+
+[961.68 - 965.279] the example that I like to use is the
+
+[963.36 - 968.4590000000001] painting station in an assembly line
+
+[965.279 - 970.62] building cars you expect a car that is
+
+[968.459 - 972.18] all the metal is attached right you're
+
+[970.62 - 974.639] not going to do any more attaching a
+
+[972.18 - 976.4399999999999] metal or welding and so but when you say
+
+[974.639 - 978.36] you are at this point in the assembly
+
+[976.44 - 979.86] line this is what you should expect to
+
+[978.36 - 982.04] receive and this is the outcome we're
+
+[979.86 - 984.6] looking for by the time you're done
+
+[982.04 - 986.579] you've received the the you know the all
+
+[984.6 - 988.44] metal body by the time you're done it
+
+[986.579 - 990.4799999999999] should be fully painted and ready for
+
+[988.44 - 991.86] engine mounting and wheel mounting and
+
+[990.48 - 994.019] that sort of thing
+
+[991.86 - 995.6990000000001] and so why why it needs to be done and
+
+[994.019 - 997.8] where in the process you are really
+
+[995.699 - 999.959] helps the model understand what it is
+
+[997.8 - 1001.9399999999999] that you need out of it for this
+
+[999.959 - 1004.0999999999999] particular step you can give it some
+
+[1001.94 - 1005.839] rules which you saw some examples of the
+
+[1004.1 - 1008.0600000000001] rules uh for instance for this the
+
+[1005.839 - 1010.5790000000001] Scottish bar keep like do this don't do
+
+[1008.06 - 1012.079] this it can be difficult sometimes chat
+
+[1010.579 - 1014.54] GPT at least in its current version
+
+[1012.079 - 1016.88] might have trouble following complex
+
+[1014.54 - 1019.0999999999999] rules in fact this is why we saw really
+
+[1016.88 - 1021.68] bad problems with Bing when it first
+
+[1019.1 - 1023.4200000000001] came out and because it was kind of a
+
+[1021.68 - 1025.6989999999998] more open-ended model and they didn't
+
+[1023.42 - 1027.339] have quite as good rules defined and not
+
+[1025.699 - 1030.02] quite as good
+
+[1027.339 - 1031.6399999999999] alignment and so it could start to fly
+
+[1030.02 - 1034.16] off the handle and they actually they
+
+[1031.64 - 1036.5] still limit being conversations to uh at
+
+[1034.16 - 1038.72] least for me they limit it to 30 uh back
+
+[1036.5 - 1041.0] and forth because when you don't have it
+
+[1038.72 - 1043.579] well aligned and the underlying model
+
+[1041.0 - 1046.28] fine-tuned well as well as good rules
+
+[1043.579 - 1048.4389999999999] defined it can you can get drift
+
+[1046.28 - 1050.299] and drift was way way worse with older
+
+[1048.439 - 1051.98] models before current alignment
+
+[1050.299 - 1054.5] techniques you can give it some
+
+[1051.98 - 1056.78] instructions so there there can be some
+
+[1054.5 - 1058.94] very very specific instructions and so
+
+[1056.78 - 1060.559] what I mean by this is okay the first
+
+[1058.94 - 1062.179] thing you need to do is talk through the
+
+[1060.559 - 1064.8799999999999] problem and then you give me an answer
+
+[1062.179 - 1066.6200000000001] so it's like if this then that or do X Y
+
+[1064.88 - 1068.96] and Z in this sequential order that's
+
+[1066.62 - 1070.34] what I mean by instructions uh one thing
+
+[1068.96 - 1072.14] to keep in mind is all of these
+
+[1070.34 - 1073.82] different structures are completely
+
+[1072.14 - 1075.98] optional you can use just one or two of
+
+[1073.82 - 1078.98] them as you've seen from some of the
+
+[1075.98 - 1081.2] examples here there's in some cases like
+
+[1078.98 - 1082.52] here's my default set where literally
+
+[1081.2 - 1084.679] it's just a set of rules and
+
+[1082.52 - 1087.02] instructions uh like do this don't do
+
+[1084.679 - 1088.46] this it's just basic principles of what
+
+[1087.02 - 1090.44] to do I don't really give it a mission
+
+[1088.46 - 1092.059] in that one
+
+[1090.44 - 1093.679] um and the original like emotional
+
+[1092.059 - 1096.62] investigation one
+
+[1093.679 - 1099.26] um this is like it's it's got a very
+
+[1096.62 - 1101.539] clear Mission it's very simple
+
+[1099.26 - 1104.539] um so yeah uh anyways getting back down
+
+[1101.539 - 1106.58] uh so after instructions I often will
+
+[1104.539 - 1108.74] have like an expected input like again
+
+[1106.58 - 1110.84] think of the assembly line uh metaphor
+
+[1108.74 - 1112.34] or analogy where it's like this is what
+
+[1110.84 - 1115.9399999999998] you should expect to receive from the
+
+[1112.34 - 1118.58] user and in some cases you might have it
+
+[1115.94 - 1120.2] say like okay you might get you know
+
+[1118.58 - 1122.059] something simple like just one sentence
+
+[1120.2 - 1123.679] or you might get a whole rough draft
+
+[1122.059 - 1126.02] like with the email generator where it's
+
+[1123.679 - 1128.3600000000001] like you might like you should expect to
+
+[1126.02 - 1130.16] get a variety of different things it's
+
+[1128.36 - 1132.08] not strictly required to tell it that
+
+[1130.16 - 1134.48] but I find that the performance becomes
+
+[1132.08 - 1136.22] much more consistent when you give it a
+
+[1134.48 - 1138.44] little bit of context as to what to
+
+[1136.22 - 1142.46] expect and how to handle that variance
+
+[1138.44 - 1144.26] in in uh in what that input will be then
+
+[1142.46 - 1147.2] you can describe the output format if
+
+[1144.26 - 1148.7] necessary so for instance with um with
+
+[1147.2 - 1150.44] the the uh
+
+[1148.7 - 1152.539] the email generator let's see if we can
+
+[1150.44 - 1155.059] go back to that real quick
+
+[1152.539 - 1157.76] um so with the email generator you see
+
+[1155.059 - 1160.34] that it because I told it to explain its
+
+[1157.76 - 1163.1] reasoning it had this extra stuff but if
+
+[1160.34 - 1165.26] I wanted to I could say you know don't
+
+[1163.1 - 1167.059] include the subject only include the
+
+[1165.26 - 1169.76] body of the email don't say anything
+
+[1167.059 - 1172.58] else so that would be here like output
+
+[1169.76 - 1174.86] principles I would change this and say
+
+[1172.58 - 1179.4189999999999] um you know let's see
+
+[1174.86 - 1183.08] do not include subject or anything else
+
+[1179.419 - 1184.1000000000001] only write the body of the email so just
+
+[1183.08 - 1186.08] really simple natural language
+
+[1184.1 - 1188.9599999999998] instructions like that and if we if we
+
+[1186.08 - 1190.34] only change that one thing and resubmit
+
+[1188.96 - 1192.26] it
+
+[1190.34 - 1194.12] so it it gives us the same introduction
+
+[1192.26 - 1197.299] and then you see it remove the subject
+
+[1194.12 - 1199.28] line it just gave us the body so through
+
+[1197.299 - 1201.3799999999999] Rapid iteration on the playground here
+
+[1199.28 - 1203.36] with the with the API you'll be able to
+
+[1201.38 - 1205.46] get much better results to understand
+
+[1203.36 - 1209.4189999999999] this kind of thing and you might see
+
+[1205.46 - 1211.52] like oh hey like it's it's uh it's using
+
+[1209.419 - 1213.679] a placeholder for my name and so what
+
+[1211.52 - 1217.48] you might need to do is if in the API
+
+[1213.679 - 1220.16] call you might say like you know uh
+
+[1217.48 - 1222.26] username is and then you have a
+
+[1220.16 - 1224.6000000000001] placeholder
+
+[1222.26 - 1226.34] and I would replace this with Dave right
+
+[1224.6 - 1228.08] when I'm when you know using it in
+
+[1226.34 - 1230.4189999999999] production that sort of thing and
+
+[1228.08 - 1231.86] sometimes it one one principle one rule
+
+[1230.419 - 1233.3600000000001] of thumb that I follow is that it's
+
+[1231.86 - 1235.4599999999998] better to give it too much context
+
+[1233.36 - 1237.02] rather than not enough because it's
+
+[1235.46 - 1238.94] better to have something and not need it
+
+[1237.02 - 1240.62] than need something and not have it so
+
+[1238.94 - 1242.9] that's a really important uh principle
+
+[1240.62 - 1245.6] to follow
+
+[1242.9 - 1247.64] um and then finally an example output so
+
+[1245.6 - 1249.98] one of the best example outputs that I
+
+[1247.64 - 1251.8400000000001] have is my slide deck maker so a lot of
+
+[1249.98 - 1254.299] you really love my slide deck so this is
+
+[1251.84 - 1256.52] the actual prompt that I use to help me
+
+[1254.299 - 1259.76] make those slide decks today so let me
+
+[1256.52 - 1262.7] show you how this looks here so in the
+
+[1259.76 - 1264.919] case of do a quick refresh in the case
+
+[1262.7 - 1266.1200000000001] of my slide deck maker I say Mission you
+
+[1264.919 - 1268.1000000000001] are a slide deck builder you will be
+
+[1266.12 - 1269.84] given a topic and will be expected to
+
+[1268.1 - 1271.9399999999998] generate a slide deck text with a very
+
+[1269.84 - 1274.34] specific format so again very clear
+
+[1271.94 - 1277.22] Mission very simple
+
+[1274.34 - 1280.34] input the user will give you a input of
+
+[1277.22 - 1284.78] various kinds usually a topic or or a
+
+[1280.34 - 1286.58] request like rural juror or a request
+
+[1284.78 - 1288.44] this will be highly varied but your
+
+[1286.58 - 1290.36] output must be super consistent so again
+
+[1288.44 - 1291.799] I'm just telling it like you don't know
+
+[1290.36 - 1293.6] exactly what you're going to get just do
+
+[1291.799 - 1295.94] your best and it's pretty good at that
+
+[1293.6 - 1297.9189999999999] output format so I describe the the
+
+[1295.94 - 1299.72] requirements for the output format slide
+
+[1297.919 - 1302.419] title two or three words Max and I can
+
+[1299.72 - 1304.58] you can see that it is in title case
+
+[1302.419 - 1306.5590000000002] um concept description of definition
+
+[1304.58 - 1308.12] that should have been description or
+
+[1306.559 - 1311.059] definition two or three complete
+
+[1308.12 - 1312.5] sentences with word economy and then um
+
+[1311.059 - 1314.12] three exactly Five Points
+
+[1312.5 - 1317.179] characteristics or details in labeled
+
+[1314.12 - 1318.559] list bullet format so I describe it very
+
+[1317.179 - 1320.659] clearly
+
+[1318.559 - 1322.3999999999999] um and so because if you just give it an
+
+[1320.659 - 1324.8600000000001] example it might not understand the
+
+[1322.4 - 1327.8600000000001] principles but in this case I get very
+
+[1324.86 - 1330.1399999999999] very consistent format by first defining
+
+[1327.86 - 1332.059] the output format and then giving in an
+
+[1330.14 - 1333.6200000000001] example and so here's the speed chest
+
+[1332.059 - 1335.84] example that I used in my terminal race
+
+[1333.62 - 1337.3999999999999] condition video so speed chess speed
+
+[1335.84 - 1339.74] chess is a variant of Chess blah blah
+
+[1337.4 - 1341.6000000000001] quick decisions and you can see it has
+
+[1339.74 - 1344.1200000000001] no other formatting it doesn't use
+
+[1341.6 - 1346.8799999999999] markdown or anything and if I give it
+
+[1344.12 - 1351.32] this and if I say like um here let's
+
+[1346.88 - 1355.0] just say prompt engineering EG the art
+
+[1351.32 - 1360.1399999999999] of using natural language with llms
+
+[1355.0 - 1365.0] large uh language models to evoke the
+
+[1360.14 - 1366.2] correct behavior from an AI deep
+
+[1365.0 - 1369.38] learning
+
+[1366.2 - 1371.48] uh uh model and so then that's all I
+
+[1369.38 - 1373.22] gave it and I say generate a slide for
+
+[1371.48 - 1374.9] for this for me prompt engineering
+
+[1373.22 - 1376.52] prompt engineering is the process of
+
+[1374.9 - 1378.5590000000002] crafting effective prompts to guide the
+
+[1376.52 - 1380.299] responses of large language models llms
+
+[1378.559 - 1381.9189999999999] it involves understanding the model's
+
+[1380.299 - 1384.02] behavior and using natural language to
+
+[1381.919 - 1385.8200000000002] evoke the desired output the goal is to
+
+[1384.02 - 1387.559] maximize the utility of Aid learning
+
+[1385.82 - 1389.0] models effective prompts crafting
+
+[1387.559 - 1391.34] prompts to guide the model's responses
+
+[1389.0 - 1392.9] understanding Model Behavior knowledge
+
+[1391.34 - 1394.6999999999998] of how the model responds to inherent
+
+[1392.9 - 1396.5590000000002] input or to different inputs eliciting
+
+[1394.7 - 1398.539] desired output maximizing utility and
+
+[1396.559 - 1400.22] deep learning models so this is
+
+[1398.539 - 1401.9] obviously not exactly what I would put
+
+[1400.22 - 1403.46] in my slide deck but it's a good start I
+
+[1401.9 - 1405.74] would probably replace a couple of these
+
+[1403.46 - 1407.659] with like you know using the English
+
+[1405.74 - 1410.48] language so what I'll do is I'll kill
+
+[1407.659 - 1414.38] that and I'll say some general
+
+[1410.48 - 1420.34] principles include writing and English
+
+[1414.38 - 1423.3400000000001] skills as these models ingest and output
+
+[1420.34 - 1428.4189999999999] natural language
+
+[1423.34 - 1430.1589999999999] uh other principles include ordered uh
+
+[1428.419 - 1435.6200000000001] thinking
+
+[1430.159 - 1439.659] such as with procedures or outcomes in
+
+[1435.62 - 1443.1789999999999] mind this thinking is often not
+
+[1439.659 - 1446.1200000000001] intuitive to people and requires
+
+[1443.179 - 1447.3200000000002] practice and so now what it'll do is
+
+[1446.12 - 1450.08] it'll look at just this kind of
+
+[1447.32 - 1451.9399999999998] unstructured paragraph and it will
+
+[1450.08 - 1453.86] reformat it so it's like okay writing
+
+[1451.94 - 1456.0800000000002] skills English profession English
+
+[1453.86 - 1458.1789999999999] proficiency I am English proficient I
+
+[1456.08 - 1460.3999999999999] promise ordered thinking non-intuitive
+
+[1458.179 - 1462.38] practice so now it has completely
+
+[1460.4 - 1465.679] changed the list to kind of the things
+
+[1462.38 - 1467.5390000000002] that I wanted it to say and uh the
+
+[1465.679 - 1470.1200000000001] inspiration for this is because I often
+
+[1467.539 - 1473.36] have college students either undergrad
+
+[1470.12 - 1475.1589999999999] or grad students that are graduating or
+
+[1473.36 - 1477.26] about to graduate or have just graduated
+
+[1475.159 - 1478.5800000000002] and there's they ask me like what skills
+
+[1477.26 - 1479.84] do I need and I'm like English and
+
+[1478.58 - 1481.3999999999999] they're like what do you mean like to
+
+[1479.84 - 1483.559] communicate with humans and I'm like no
+
+[1481.4 - 1486.6200000000001] to communicate with the models and some
+
+[1483.559 - 1489.2] of them don't get it but anyways so you
+
+[1486.62 - 1491.36] this is this is an example of by by
+
+[1489.2 - 1493.4] clearly defining the the output that I
+
+[1491.36 - 1495.86] wanted and giving in an example in a
+
+[1493.4 - 1498.44] mission it's able to do this really well
+
+[1495.86 - 1500.4189999999999] and also one other example so when I
+
+[1498.44 - 1503.299] talk about like latent content and
+
+[1500.419 - 1506.179] cognitive capacity and reasoning ability
+
+[1503.299 - 1508.82] I gave it a pretty specific um idea of
+
+[1506.179 - 1512.0] what I wanted but this this particular
+
+[1508.82 - 1513.6789999999999] prompt is also able to infer what I want
+
+[1512.0 - 1515.6] um so I can say like what is the
+
+[1513.679 - 1520.4] principle where
+
+[1515.6 - 1523.76] um you increase the amount of something
+
+[1520.4 - 1525.98] and then demand increases so I just gave
+
+[1523.76 - 1529.82] it a question and it will still produce
+
+[1525.98 - 1531.6200000000001] like a generally correct output
+
+[1529.82 - 1533.059] so supply and demand supply and demand
+
+[1531.62 - 1534.08] is an economic principle that describes
+
+[1533.059 - 1536.059] the relationship between the
+
+[1534.08 - 1537.3799999999999] availability of a particular product and
+
+[1536.059 - 1539.24] the desire of consumers for that product
+
+[1537.38 - 1541.159] is that a fundamental concept so blah
+
+[1539.24 - 1543.34] blah increased demand increase Supply
+
+[1541.159 - 1546.0200000000002] price determination market equilibrium
+
+[1543.34 - 1548.4189999999999] economic indicator so even just by
+
+[1546.02 - 1550.52] asking a question because I gave it such
+
+[1548.419 - 1552.98] a clear Mission and the fact that it it
+
+[1550.52 - 1554.4189999999999] should not respond to the question as a
+
+[1552.98 - 1556.58] chat bot it's just going to generate a
+
+[1554.419 - 1558.5] slide for me it did its best to infer I
+
+[1556.58 - 1559.6399999999999] was like so this is not exactly what I'm
+
+[1558.5 - 1560.779] saying
+
+[1559.64 - 1562.7] um
+
+[1560.779 - 1567.44] what is it uh
+
+[1562.7 - 1569.48] called the something Paradox and so uh
+
+[1567.44 - 1571.22] so now it's like ah javon's Paradox this
+
+[1569.48 - 1573.6200000000001] is what you were thinking of
+
+[1571.22 - 1576.02] um without without knowing what exactly
+
+[1573.62 - 1578.36] I wanted it to write about it figured
+
+[1576.02 - 1579.98] out that this is what I needed
+
+[1578.36 - 1581.4189999999999] um this is not exactly the process that
+
+[1579.98 - 1584.059] I went through to make some of my recent
+
+[1581.419 - 1585.679] slides but you can see that by giving it
+
+[1584.059 - 1588.1] very clear instructions and examples
+
+[1585.679 - 1591.2] it's able to use its latent
+
+[1588.1 - 1593.4189999999999] understanding to generate output that I
+
+[1591.2 - 1597.26] need that I didn't know that I needed uh
+
+[1593.419 - 1600.64] so yeah and then like uh let's do
+
+[1597.26 - 1600.64] um the duck curve next
+
+[1601.88 - 1605.72] duck curve the duck curve is a graph of
+
+[1603.74 - 1607.46] power uh Power production of the course
+
+[1605.72 - 1609.919] blah blah blah demand in production
+
+[1607.46 - 1611.1200000000001] afternoon abundance Etc et cetera the
+
+[1609.919 - 1613.1000000000001] duck curve if you're not familiar with
+
+[1611.12 - 1615.5] is the fact that like uh energy
+
+[1613.1 - 1617.299] production and energy demand varies
+
+[1615.5 - 1618.799] throughout the day with the highest
+
+[1617.299 - 1620.299] Spike being when people get home from
+
+[1618.799 - 1622.1] work in the evening
+
+[1620.299 - 1624.559] um anyways so I think you get the idea
+
+[1622.1 - 1626.6589999999999] if you want to go ahead and just jump
+
+[1624.559 - 1630.2] into my repo over here it's already got
+
+[1626.659 - 1632.3600000000001] what like 70 Stars yeah 73 stars and and
+
+[1630.2 - 1634.1000000000001] nine Forks I'm adding to this stuff all
+
+[1632.36 - 1635.7199999999998] the time you see like you know two
+
+[1634.1 - 1638.299] months ago two weeks ago four days ago
+
+[1635.72 - 1639.8600000000001] three days ago I'm always updating these
+
+[1638.299 - 1641.6589999999999] um these things because I come back to
+
+[1639.86 - 1643.34] these all the time so I figured I might
+
+[1641.659 - 1645.0200000000002] as well just share them so anyways
+
+[1643.34 - 1646.8799999999999] thanks for watching I hope you got a lot
+
+[1645.02 - 1648.86] out of this and you are a better prompt
+
+[1646.88 - 1651.679] engineer for having watched this video
+
+[1648.86 - 1654.3999999999999] like subscribe do all the things and uh
+
+[1651.679 - 1654.4] cheers have a good one

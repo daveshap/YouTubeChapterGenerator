@@ -1,0 +1,3863 @@
+[3.84 - 8.46] all right hey everybody David Shapiro
+
+[6.299 - 11.7] here with a very special podcast
+
+[8.46 - 14.400000000000002] interview today we're uh speaking with
+
+[11.7 - 16.378999999999998] Mike tadasco a super interesting guy I
+
+[14.4 - 18.3] think this is probably the third or
+
+[16.379 - 20.699] fourth time I've talked with you Mike um
+
+[18.3 - 22.380000000000003] and just every time I do it's like I
+
+[20.699 - 23.76] feel so good about like everything that
+
+[22.38 - 26.519] I'm doing and everything that everyone
+
+[23.76 - 28.8] is working on and so I just wanted to uh
+
+[26.519 - 30.538999999999998] wanted to share that excitement with the
+
+[28.8 - 32.84] world so thank you so much for being
+
+[30.539 - 32.84] here
+
+[38.66 - 43.86] we end up talking for an hour every time
+
+[41.16 - 45.718999999999994] and it's like so like engaging so I just
+
+[43.86 - 47.519999999999996] wanted to like reproduce that and share
+
+[45.719 - 50.64] it with the world
+
+[47.52 - 52.02] um so Mike is uh like I said super
+
+[50.64 - 53.76] interesting guy
+
+[52.02 - 55.440000000000005] um would you mind uh just telling the
+
+[53.76 - 57.36] audience just a little bit about kind of
+
+[55.44 - 59.82] where you come from and what you've done
+
+[57.36 - 62.519999999999996] uh just kind of get us prime the pump so
+
+[59.82 - 66.18] to speak sure yeah no thanks David um
+
+[62.52 - 68.58] look I'm you know my 60 seconds I I was
+
+[66.18 - 72.0] born and and raised in the suburbs of
+
+[68.58 - 75.0] Chicago kind of grew up uh as a child in
+
+[72.0 - 78.24] the 80s collecting comic books and
+
+[75.0 - 79.64] sports cards and things like that and uh
+
+[78.24 - 83.88] eventually put my way through college
+
+[79.64 - 86.22] doing that uh when I left college and
+
+[83.88 - 87.479] entered the real world I started off as
+
+[86.22 - 90.65899999999999] an accountant and I was probably the
+
+[87.479 - 94.259] world world's worst accountant in many
+
+[90.659 - 97.68] ways moved on to the very sexy industry
+
+[94.259 - 99.299] known as paper manufacturing
+
+[97.68 - 101.4] um so literally and this was right at
+
+[99.299 - 102.54] the time of like the office so I
+
+[101.4 - 105.54] couldn't tell you the amount of like
+
+[102.54 - 107.759] under Mifflin jokes I heard over time
+
+[105.54 - 109.97900000000001] um but uh I learned a lot of like
+
+[107.759 - 112.86] interesting things in a in a very old
+
+[109.979 - 114.72] arcade industry and and just had tons of
+
+[112.86 - 117.06] insights from there I actually love to
+
+[114.72 - 120.0] get an MBA
+
+[117.06 - 123.24000000000001] um started a e-commerce company after
+
+[120.0 - 125.88] that uh on selling original artwork
+
+[123.24 - 127.19999999999999] called sketch Maven and after doing that
+
+[125.88 - 130.85999999999999] for a few years
+
+[127.2 - 133.58] join PayPal and I was at PayPal for 10
+
+[130.86 - 136.44000000000003] and a half years before leaving recently
+
+[133.58 - 138.3] uh doing a lot of things in product and
+
+[136.44 - 140.57999999999998] for the last five running their
+
+[138.3 - 142.98000000000002] innovation.org
+
+[140.58 - 145.02] excellent yeah I mean such such a
+
+[142.98 - 147.959] fascinating background and and so many
+
+[145.02 - 150.36] people uh come come to you know
+
+[147.959 - 152.4] technology and today AI from just such a
+
+[150.36 - 155.22000000000003] diverse background I want to pick your
+
+[152.4 - 157.5] brain about like what was it what was it
+
+[155.22 - 159.239] like being the the world's worst
+
+[157.5 - 161.94] accountant and then switching to paper
+
+[159.239 - 163.379] and then switching to like what was what
+
+[161.94 - 164.57999999999998] was that what was that choice because I
+
+[163.379 - 166.319] mean obviously like going back and
+
+[164.58 - 167.94000000000003] getting an MBA like it sounds like you
+
+[166.319 - 169.79999999999998] might have just realized like man I took
+
+[167.94 - 171.66] I took a wrong turn I need to backtrack
+
+[169.8 - 174.06] is that is that kind of what happened
+
+[171.66 - 179.099] yeah I mean look part of it I mean
+
+[174.06 - 182.04] specifically on the the MBA was we had I
+
+[179.099 - 184.379] was living in Ohio when I got out of
+
+[182.04 - 186.54] school and and that's where I met my
+
+[184.379 - 189.72] wife and we had an opportunity to move
+
+[186.54 - 191.76] out to California which was awesome and
+
+[189.72 - 194.159] so when we moved out here it was for her
+
+[191.76 - 196.92] job I continued to work for my company I
+
+[194.159 - 198.89999999999998] was working remotes uh for my company
+
+[196.92 - 202.07999999999998] back in Ohio and frankly I didn't know
+
+[198.9 - 203.70000000000002] anybody out here and going back to
+
+[202.08 - 205.31900000000002] school and getting an MBA was frankly my
+
+[203.7 - 207.11999999999998] way to meet people
+
+[205.319 - 209.159] um I was able to do it through my
+
+[207.12 - 210.72] employers I was doing it part time while
+
+[209.159 - 213.659] I was there but it was just a way to
+
+[210.72 - 215.34] meet people and network and all of that
+
+[213.659 - 217.79999999999998] wonderful stuff
+
+[215.34 - 220.08] um as part of the process
+
+[217.8 - 222.739] I'll pause there because I think David
+
+[220.08 - 222.739] died
+
+[227.4 - 231.12] hey there there you go yeah I finished
+
+[229.08 - 232.739] my sentence but then I was like oh is
+
+[231.12 - 235.31900000000002] this gonna I think it's still recording
+
+[232.739 - 237.48000000000002] through all of it so I closed the wrong
+
+[235.319 - 239.7] tab I apologize I was trying to reduce
+
+[237.48 - 242.04] distractions and then I reduce all the
+
+[239.7 - 243.23899999999998] distractions to zero so no it should it
+
+[242.04 - 245.04] should still be recording and if not
+
+[243.239 - 246.48000000000002] we'll clean it up in the no it seemed to
+
+[245.04 - 248.04] record through the whole thing and like
+
+[246.48 - 249.959] I said I kind of just finished the
+
+[248.04 - 252.06] thought on um
+
+[249.959 - 255.0] um coming out and doing my MBA to meet
+
+[252.06 - 257.639] people excellent excellent yeah so so
+
+[255.0 - 259.68] you used it to to meet people to to get
+
+[257.639 - 261.29900000000004] ahead to stand out in the crowd and
+
+[259.68 - 264.84000000000003] clearly it worked you know you were able
+
+[261.299 - 266.88] to do a a a a e-commerce platform sketch
+
+[264.84 - 268.08] Maven and then eventually to PayPal but
+
+[266.88 - 269.759] you said that there was a some
+
+[268.08 - 271.919] interesting things that you learned at
+
+[269.759 - 273.96000000000004] sketch Maven so what are some stories
+
+[271.919 - 276.53999999999996] from from your uh your first e-commerce
+
+[273.96 - 281.03999999999996] Venture yeah so
+
+[276.54 - 282.90000000000003] sketch Maven was something look I
+
+[281.04 - 285.47900000000004] recommend this for everybody like just
+
+[282.9 - 287.94] have an ideologue that you keep I've
+
+[285.479 - 290.75899999999996] been doing this since I was at least an
+
+[287.94 - 292.56] undergrad I'm 45 now so like this is a
+
+[290.759 - 295.139] long time I've been just kind of keeping
+
+[292.56 - 297.0] a list of the ideas that I have and
+
+[295.139 - 299.759] ideas for whatever because like you
+
+[297.0 - 301.919] never want a good idea or a bad idea of
+
+[299.759 - 304.68] go to waste and every good idea starts
+
+[301.919 - 305.639] as a bad idea and I just remember one
+
+[304.68 - 308.639] time
+
+[305.639 - 311.1] as a kid I went to Comic in in baseball
+
+[308.639 - 313.02] card and sports card conventions selling
+
+[311.1 - 315.0] stuff and I'd be a dealer and so forth
+
+[313.02 - 318.419] and I remember going to this one
+
+[315.0 - 321.12] convention uh boy early 90s or something
+
+[318.419 - 324.479] and seeing an artist there and the
+
+[321.12 - 326.78000000000003] artist had a cover of a um of a Green
+
+[324.479 - 329.94] Lantern comic book that I really liked
+
+[326.78 - 332.21999999999997] and to give you a background on this so
+
+[329.94 - 333.9] at least back in the day before things
+
+[332.22 - 335.16] went digital
+
+[333.9 - 337.979] um every
+
+[335.16 - 340.5] comic book you have ever seen in your
+
+[337.979 - 341.34] life came from a hand-drawn piece of
+
+[340.5 - 344.46] artwork
+
+[341.34 - 346.46] and even though that comic book has may
+
+[344.46 - 349.56] have been viewed by millions of people
+
+[346.46 - 351.59999999999997] multiple times there's only one original
+
+[349.56 - 353.759] from which that came
+
+[351.6 - 357.72] and so it creates this really unique
+
+[353.759 - 359.639] problem where for every comic book piece
+
+[357.72 - 362.1] of artwork that has ever existed there's
+
+[359.639 - 364.199] one and only one of them but there are
+
+[362.1 - 367.259] millions and tens of millions of these
+
+[364.199 - 370.02000000000004] pages and covers and so forth of that
+
+[367.259 - 372.84000000000003] so it's a very unique problem
+
+[370.02 - 375.65999999999997] um in that space and when I was a kid
+
+[372.84 - 378.35999999999996] and saw this this cover I was like oh um
+
+[375.66 - 379.86] you know it was 150 bucks I think it was
+
+[378.36 - 381.539] I'm like I didn't quite have that money
+
+[379.86 - 383.639] I had some decent money I was selling a
+
+[381.539 - 385.8] lot of stuff but I didn't have 150 bucks
+
+[383.639 - 388.16] to blow on a piece of artwork you know
+
+[385.8 - 391.8] when I'm like 13 years old or something
+
+[388.16 - 394.91900000000004] especially back in the 90s so
+
+[391.8 - 396.419] when I was fast forward I'm an
+
+[394.919 - 398.58] accountant so I'm actually making real
+
+[396.419 - 400.139] money out there in the workforce and so
+
+[398.58 - 401.94] probably I was like it just dawned me
+
+[400.139 - 404.34000000000003] I'm like wow I should go buy that thing
+
+[401.94 - 405.71999999999997] go on eBay can't find it go on all these
+
+[404.34 - 406.919] other places you can't find it I don't
+
+[405.72 - 407.94000000000005] know where this thing is I don't know
+
+[406.919 - 410.46] where it is
+
+[407.94 - 412.74] and that's the reality when there's only
+
+[410.46 - 415.31899999999996] one of something in the world
+
+[412.74 - 418.02] it's really hard to find where that
+
+[415.319 - 420.06] thing is and when there's like I said
+
+[418.02 - 421.85999999999996] millions of these ones
+
+[420.06 - 423.78000000000003] well then like that's sort of an
+
+[421.86 - 425.94] interesting problem and that's what
+
+[423.78 - 428.84] birthed the concept for sketch may even
+
+[425.94 - 432.9] it was a very structured marketplace
+
+[428.84 - 435.419] where people could buy and sell and even
+
+[432.9 - 438.9] say that they want and desire certain
+
+[435.419 - 443.52] pieces of original comic book art I
+
+[438.9 - 445.56] started the business in 2009 and
+
+[443.52 - 447.06] you know and it was a Marketplace like
+
+[445.56 - 448.68] because most of these things were being
+
+[447.06 - 450.84] sold on eBay at the time and I think
+
+[448.68 - 452.819] even today in very many ways they still
+
+[450.84 - 454.08] are some artists have their own sites
+
+[452.819 - 456.41900000000004] and so forth but there was nowhere to
+
+[454.08 - 458.52] find it if I wanted to tell the world I
+
+[456.419 - 461.15999999999997] wanted this Green Lantern cover there
+
+[458.52 - 463.31899999999996] was no way to actually do so
+
+[461.16 - 466.91900000000004] um and honest and so this was an idea I
+
+[463.319 - 469.08000000000004] had 10 years prior 2009 I'm going
+
+[466.919 - 471.12] through my idea file and I'm like oh
+
+[469.08 - 473.639] that's interesting I wonder if anyone's
+
+[471.12 - 475.02] done that lo and behold knots and I'm
+
+[473.639 - 476.52] like well maybe this is something that I
+
+[475.02 - 478.44] should build I don't really care about
+
+[476.52 - 481.34] the Green Lantern cover anymore to be
+
+[478.44 - 484.319] completely honest but but
+
+[481.34 - 486.479] uh the concept's still held true and I
+
+[484.319 - 488.34000000000003] felt that if this could work for a niche
+
+[486.479 - 490.86] that I understood like original comic
+
+[488.34 - 492.23999999999995] art well it could definitely work for
+
+[490.86 - 494.819] other things
+
+[492.24 - 497.46000000000004] um like pens and collectible shoes and
+
+[494.819 - 499.199] sneakers and things like that
+
+[497.46 - 501.71999999999997] um where I felt that they were vastly
+
+[499.199 - 502.52000000000004] underserved by eBay and other sites at
+
+[501.72 - 505.44000000000005] the time
+
+[502.52 - 507.35999999999996] and you know in some ways that thesis
+
+[505.44 - 509.46] proved out you know there's goats and
+
+[507.36 - 511.62] stockx and so forth that now do damn
+
+[509.46 - 514.38] shoes it's probably about five years too
+
+[511.62 - 515.88] early as those launched uh you know much
+
+[514.38 - 517.62] later
+
+[515.88 - 518.9399999999999] um but you know as I was building the
+
+[517.62 - 522.3] site it was my first experience ever
+
+[518.94 - 525.24] building something I was on upwork which
+
+[522.3 - 527.16] was known at oh as odesk at the time I
+
+[525.24 - 530.339] was hiring people everything from PR
+
+[527.16 - 533.2199999999999] people to engineers and so forth I was
+
+[530.339 - 535.5600000000001] just figuring out stuff myself
+
+[533.22 - 538.6800000000001] um this was even before like Braintree
+
+[535.56 - 541.26] and stripe mind you so I remember like
+
+[538.68 - 544.019] having Engineers work and help build the
+
+[541.26 - 546.3] sites and and a few days before launch
+
+[544.019 - 548.04] and I look and I'm going through the
+
+[546.3 - 550.5] checkout myself and
+
+[548.04 - 553.8] you know I'm like there's no little lock
+
+[550.5 - 555.06] icon in the for the shopping cart when
+
+[553.8 - 557.64] people are entering their credit card
+
+[555.06 - 560.04] information and again this is like
+
+[557.64 - 561.98] stripe took care of that like you don't
+
+[560.04 - 565.3199999999999] even need to worry about that anymore
+
+[561.98 - 567.24] 2009 uh that was a problem and I'm like
+
+[565.32 - 569.22] oh God I didn't write that in the spec
+
+[567.24 - 572.1] document for the engineers to actually
+
+[569.22 - 573.899] say yes this needs to be secure and so
+
+[572.1 - 575.94] on and so forth
+
+[573.899 - 579.18] um and so is all of these fun things so
+
+[575.94 - 581.94] it was an amazing two-year ride that had
+
+[579.18 - 583.9799999999999] to deal you know happy customers unhappy
+
+[581.94 - 586.2] customers hackers all this wonderful
+
+[583.98 - 588.54] stuff uh that I learned about in my in
+
+[586.2 - 592.62] my two years there
+
+[588.54 - 593.519] excellent yeah I mean so it I mean
+
+[592.62 - 594.779] there's so much there's so much to
+
+[593.519 - 596.279] unpack there because like you know you
+
+[594.779 - 599.279] had an idea file you came back to it
+
+[596.279 - 601.5] after 10 years right and that probably
+
+[599.279 - 603.0] especially for some of the younger
+
+[601.5 - 604.92] audience members who are just getting
+
+[603.0 - 606.779] into you know just cutting their teeth
+
+[604.92 - 609.0] on AI and startups and stuff just the
+
+[606.779 - 610.62] idea of you know you jot all this stuff
+
+[609.0 - 612.3] down do you have any like let's start
+
+[610.62 - 614.279] there like do you have any pro tips on
+
+[612.3 - 616.56] you know keeping ideas you said all good
+
+[614.279 - 617.88] ideas start as bad ideas and in this
+
+[616.56 - 619.4399999999999] case there was something that you wanted
+
+[617.88 - 621.48] right that was kind of the Genesis of
+
+[619.44 - 622.74] this but then like then we'll unpack
+
+[621.48 - 624.12] some of the Lessons Learned but let's
+
+[622.74 - 626.64] start let's start there with the the
+
+[624.12 - 627.9590000000001] ideas the brainstorming how did how did
+
+[626.64 - 629.459] you decide that like this was something
+
+[627.959 - 631.14] you were going to build
+
+[629.459 - 632.0999999999999] oh how do I decided something I was
+
+[631.14 - 633.72] going to build
+
+[632.1 - 636.4200000000001] um because it intrigued me I I mean
+
+[633.72 - 638.64] again I remember this I remember you
+
+[636.42 - 640.4399999999999] know being a kid and seeing this and
+
+[638.64 - 642.959] then I remember writing it down you know
+
+[640.44 - 646.019] 10 years later and then 10 years of give
+
+[642.959 - 647.9399999999999] or take after that going back and saying
+
+[646.019 - 650.1] oh I'm sure somebody has already done
+
+[647.94 - 653.22] that like like that was my gut reaction
+
+[650.1 - 655.14] I'm like oh I'm sure this exists this is
+
+[653.22 - 656.94] a no-brainer this has to exist in the
+
+[655.14 - 659.279] world doing a little bit of research and
+
+[656.94 - 660.12] be like huh it doesn't and again mind
+
+[659.279 - 662.399] you
+
+[660.12 - 664.079] just because something already exists in
+
+[662.399 - 666.3] the world doesn't mean that you
+
+[664.079 - 668.76] shouldn't do your own version of it so I
+
+[666.3 - 671.8199999999999] want to be really really clear
+
+[668.76 - 674.76] um you know Google was the 30th 40th
+
+[671.82 - 676.98] major search engine that launched
+
+[674.76 - 678.48] um it was in plenty of people said like
+
+[676.98 - 680.82] why does the world need another search
+
+[678.48 - 682.44] engine they just you know using page
+
+[680.82 - 685.0790000000001] Rank and other things they just had a
+
+[682.44 - 687.12] better and more Innovative way of doing
+
+[685.079 - 688.92] things so just because something exists
+
+[687.12 - 690.54] doesn't mean you shouldn't
+
+[688.92 - 693.12] um but to me that was just a really
+
+[690.54 - 695.2199999999999] interesting tell in in a way of just
+
+[693.12 - 697.92] saying oh this is something I like this
+
+[695.22 - 698.519] is something I'm passionate about
+
+[697.92 - 701.76] um
+
+[698.519 - 704.1] I want to go through this ride and you
+
+[701.76 - 705.66] know the I I should just go along and do
+
+[704.1 - 707.22] more analysis and I remember then going
+
+[705.66 - 710.9399999999999] to conventions
+
+[707.22 - 713.1600000000001] talking to artists talking to collectors
+
+[710.94 - 715.3800000000001] just talking to people like hey how are
+
+[713.16 - 716.76] you how are you buying stuff and new
+
+[715.38 - 718.56] people were using eBay I knew people
+
+[716.76 - 720.959] were using like a site called comic art
+
+[718.56 - 722.5189999999999] fans and and others and just doing the
+
+[720.959 - 724.1999999999999] research seeing what's out there and
+
+[722.519 - 727.26] just doing a lot of deep customer work
+
+[724.2 - 729.0600000000001] and just asking a lot of questions
+
+[727.26 - 731.459] um and from that you start to formulate
+
+[729.06 - 734.399] what the solution is and there's one
+
+[731.459 - 736.56] thing I've learned in ideating and
+
+[734.399 - 740.399] building out a business it's don't fall
+
+[736.56 - 742.68] in love with your idea fall in love with
+
+[740.399 - 745.2] your customer I mean that's really
+
+[742.68 - 749.579] important for people to know
+
+[745.2 - 751.26] because your idea is going to change and
+
+[749.579 - 753.66] to my fault when I was first building
+
+[751.26 - 754.92] this I probably didn't change enough I
+
+[753.66 - 757.1999999999999] didn't pivot enough I probably didn't
+
+[754.92 - 759.3] listen customers enough I mean I was
+
+[757.2 - 762.4200000000001] doing it some like I feel I'm much wiser
+
+[759.3 - 764.88] now and wouldn't make that same mistake
+
+[762.42 - 767.04] um but I think that's a really big thing
+
+[764.88 - 769.079] and from there you just you just keep
+
+[767.04 - 770.76] iterating and and just figure out like
+
+[769.079 - 772.4399999999999] okay well what are the hard things for
+
+[770.76 - 774.36] me to do the hard thing for me in this
+
+[772.44 - 776.339] was building out the website because I
+
+[774.36 - 780.48] never done that and like I said it was
+
+[776.339 - 781.86] this was before oh like even oh gosh I
+
+[780.48 - 783.72] even remember
+
+[781.86 - 786.779] one of the reasons I ultimately took a
+
+[783.72 - 789.5400000000001] job at PayPal in 2011. it was because
+
+[786.779 - 792.06] PayPal saved my butt in 2009. I actually
+
+[789.54 - 794.04] remember I did uh credit card processing
+
+[792.06 - 795.959] originally I signed up with an account
+
+[794.04 - 797.8199999999999] through Costco
+
+[795.959 - 800.399] Avalon I think was the name of the
+
+[797.82 - 801.899] processor at the time signed up ready to
+
+[800.399 - 804.06] go and then all of a sudden like three
+
+[801.899 - 806.519] weeks before launch they reached out to
+
+[804.06 - 808.92] me like uh is this a Marketplace yeah we
+
+[806.519 - 811.44] don't do marketplaces and I'm like what
+
+[808.92 - 812.6999999999999] like did I tell you that like I don't
+
+[811.44 - 814.3800000000001] know what happened like I didn't even
+
+[812.7 - 815.94] take one dollar of payments I was
+
+[814.38 - 817.32] already paying them 30 bucks a month and
+
+[815.94 - 820.0790000000001] they're like yeah never mind we don't do
+
+[817.32 - 821.7600000000001] you you're you're too risky to us
+
+[820.079 - 823.68] um and then frankly I knew I had some
+
+[821.76 - 825.36] friends at PayPal they're like yeah yeah
+
+[823.68 - 826.9799999999999] we'll we'll take care of you don't worry
+
+[825.36 - 828.66] and they were and they they saved my
+
+[826.98 - 831.24] butt and that's why I think two years
+
+[828.66 - 833.1] later as being a Merchants for PayPal's
+
+[831.24 - 835.38] credit card processing I was like oh
+
+[833.1 - 838.6800000000001] this was a very logical place for for me
+
+[835.38 - 840.36] to enter the next part of my journey
+
+[838.68 - 841.2199999999999] but yeah I I'm sorry I went on a little
+
+[840.36 - 843.9590000000001] side
+
+[841.22 - 845.639] side rant there are you good like
+
+[843.959 - 847.8] hopefully that still gets to the the
+
+[845.639 - 850.44] root of the question I mean I think when
+
+[847.8 - 852.3599999999999] you're ideating like again you want as
+
+[850.44 - 853.8000000000001] big of a funnel in in the beginning as
+
+[852.36 - 856.86] possible you want as many ideas as
+
+[853.8 - 858.5999999999999] possible and you want to just then give
+
+[856.86 - 862.26] it some time get away from those ideas
+
+[858.6 - 864.72] then come back to them a day a week 10
+
+[862.26 - 866.7] years later whatever it is and see what
+
+[864.72 - 868.019] resonates see what still holds true and
+
+[866.7 - 870.0600000000001] then you start to do the research and
+
+[868.019 - 874.92] Analysis
+
+[870.06 - 877.3199999999999] absolutely you know as as a fledgling uh
+
+[874.92 - 879.3] you know startup Tech startup guy myself
+
+[877.32 - 881.94] everything that you said is is what
+
+[879.3 - 883.3199999999999] people tell me it's what I read and but
+
+[881.94 - 884.639] the way that you said it one thing that
+
+[883.32 - 886.139] you said really stood out to me which
+
+[884.639 - 887.76] was don't fall in love with your product
+
+[886.139 - 890.88] or your idea fall in love with your
+
+[887.76 - 892.92] customer and that I think is so critical
+
+[890.88 - 894.36] and so important and I realized as soon
+
+[892.92 - 895.9799999999999] as you said it you're absolutely right
+
+[894.36 - 898.26] because one of the things that I'm
+
+[895.98 - 900.779] working on is auto Muse which is for
+
+[898.26 - 902.76] writers and it's like this is for
+
+[900.779 - 905.459] writers it's you know I have ideas about
+
+[902.76 - 907.56] what I want to build but no I I did
+
+[905.459 - 910.8] exactly what you said which is I talked
+
+[907.56 - 912.7199999999999] to writers screenplay uh writers I've
+
+[910.8 - 913.92] talked to actors now
+
+[912.72 - 915.1800000000001] um all kinds of stuff but I don't want
+
+[913.92 - 918.06] to make this about me I just wanted to
+
+[915.18 - 920.16] agree and reinforce that at that point
+
+[918.06 - 922.199] um well I'm sorry just one one last
+
+[920.16 - 923.9399999999999] thing on that like for anybody who wants
+
+[922.199 - 924.66] to go deeper into this I will give a
+
+[923.94 - 928.0790000000001] plug
+
+[924.66 - 930.0] um Adobe had created an open source
+
+[928.079 - 932.06] something called kickbox
+
+[930.0 - 934.139] and So for anybody could go to
+
+[932.06 - 937.56] kickbox.org it's totally it's open
+
+[934.139 - 940.0790000000001] source it's free anyone can download it
+
+[937.56 - 942.959] um it is kind of a way to go from
+
+[940.079 - 944.76] ideation to business launch uh when I
+
+[942.959 - 946.8] worked at PayPal we actually took a
+
+[944.76 - 949.68] version We modified it and used it
+
+[946.8 - 952.3199999999999] internally as well and it is an amazing
+
+[949.68 - 955.4399999999999] tool that anyone can use and I probably
+
+[952.32 - 957.779] take that that quote directly from
+
+[955.44 - 960.3000000000001] kickbox so I do want to give do credit
+
+[957.779 - 962.519] to them but um that's a great tool if
+
+[960.3 - 964.5] anybody does want to go deeper uh into
+
+[962.519 - 966.0] like how do you do this how do you
+
+[964.5 - 967.98] really make it so you fall in love with
+
+[966.0 - 970.5] your customer and and not get too
+
+[967.98 - 973.6800000000001] focused on your specific solution
+
+[970.5 - 975.54] excellent perfect yeah and uh thanks for
+
+[973.68 - 977.3389999999999] thanks for that sharing that resource um
+
+[975.54 - 979.019] we'll have to unpack that a little bit
+
+[977.339 - 981.4200000000001] later too if we get if we get back
+
+[979.019 - 983.279] around to it uh so one thing that you
+
+[981.42 - 986.2199999999999] mentioned just a few minutes ago while
+
+[983.279 - 988.079] while building uh sketch Maven was you
+
+[986.22 - 990.24] know there's the the little snafu around
+
+[988.079 - 992.66] payments you've had happy customers
+
+[990.24 - 995.04] unhappy customers and then uh you know
+
+[992.66 - 996.42] writing specs for engineers and kind of
+
+[995.04 - 998.0999999999999] forgetting a few things here and there
+
+[996.42 - 999.8389999999999] so what what were some of the
+
+[998.1 - 1001.279] interesting stories or lessons learned
+
+[999.839 - 1002.839] about like you know kind of doing
+
+[1001.279 - 1004.459] everything yourself or pulling it all
+
+[1002.839 - 1006.019] together and just kind of you know
+
+[1004.459 - 1009.4399999999999] things that you learned the hard way I
+
+[1006.019 - 1011.72] guess is a way yeah I I mean look I I
+
+[1009.44 - 1013.1600000000001] think so many people I talk to I'm not
+
+[1011.72 - 1015.74] technical again I started as an
+
+[1013.16 - 1017.42] accountant I I I understand technology
+
+[1015.74 - 1020.6] fairly well and I've always been
+
+[1017.42 - 1023.06] fascinated by it but you know I I wasn't
+
+[1020.6 - 1024.439] technical per se and I remember so many
+
+[1023.06 - 1027.559] people I was meeting with like hey you
+
+[1024.439 - 1030.0790000000002] need a technical co-founder and I was
+
+[1027.559 - 1031.819] you know going to school up here at
+
+[1030.079 - 1034.1] Berkeley at the time so there's a lot of
+
+[1031.819 - 1036.9189999999999] technical people up there um you know
+
+[1034.1 - 1038.9589999999998] getting my MBA and I actually remember
+
+[1036.919 - 1041.959] interviewing a bunch of people
+
+[1038.959 - 1045.079] I want somebody with the technical shops
+
+[1041.959 - 1046.88] um kind of the passion for the space and
+
+[1045.079 - 1049.8799999999999] there was one other thing I was looking
+
+[1046.88 - 1051.2] for but basically passion for space was
+
+[1049.88 - 1053.0] the one thing we had in common and then
+
+[1051.2 - 1054.98] they were trying to plug gaps where I
+
+[1053.0 - 1059.299] had deficiencies that's what you want in
+
+[1054.98 - 1061.58] your co-founder and I really
+
+[1059.299 - 1063.2] um I think I was being too picky like
+
+[1061.58 - 1064.76] with hindsight like I was looking for
+
+[1063.2 - 1066.74] the perfect person I interviewed a bunch
+
+[1064.76 - 1069.02] of people I was you know very conscious
+
+[1066.74 - 1071.66] I'm like ah I could do it myself like I
+
+[1069.02 - 1073.28] I got this I could be a solopreneur I
+
+[1071.66 - 1075.559] don't need to raise Venture money right
+
+[1073.28 - 1077.84] now for this like I I'm gonna go off and
+
+[1075.559 - 1079.94] do this thing on my own so you know I
+
+[1077.84 - 1081.4399999999998] think mistake number one was not doing
+
+[1079.94 - 1083.539] that because
+
+[1081.44 - 1085.7] as I had mentioned I had a bunch of
+
+[1083.539 - 1089.179] people on on upwork that were building
+
+[1085.7 - 1090.8600000000001] this site and
+
+[1089.179 - 1092.7800000000002] you know even though I didn't put that
+
+[1090.86 - 1095.299] in the specs that's hey you're building
+
+[1092.78 - 1097.3999999999999] a checkout you need to make sure it's
+
+[1095.299 - 1099.62] secure so on and so forth
+
+[1097.4 - 1101.96] it should have been known like any
+
+[1099.62 - 1103.8799999999999] decent engineering team would have like
+
+[1101.96 - 1106.039] kind of called that out and say like hey
+
+[1103.88 - 1108.14] I don't see this in the specs are you
+
+[1106.039 - 1111.26] sure that is right because every
+
+[1108.14 - 1113.1200000000001] checkout we've ever like no and you know
+
+[1111.26 - 1115.039] I wasn't paying that much money because
+
+[1113.12 - 1116.4189999999999] I didn't look I was funding this out of
+
+[1115.039 - 1119.24] my own pocket I didn't have a lot of
+
+[1116.419 - 1120.919] money to do that uh but any great CTO
+
+[1119.24 - 1123.26] would have caught these things much
+
+[1120.919 - 1125.9] earlier and even if they weren't doing
+
+[1123.26 - 1128.179] the engineering work themselves they
+
+[1125.9 - 1129.5] would have you know orally a portion of
+
+[1128.179 - 1133.039] it and far they would have been able to
+
+[1129.5 - 1134.12] manage it much much tighter so at some
+
+[1133.039 - 1136.76] point
+
+[1134.12 - 1138.1399999999999] you know the site was getting decent
+
+[1136.76 - 1140.66] traction
+
+[1138.14 - 1143.419] decent not great but but decent and
+
+[1140.66 - 1145.94] maybe about six months out so most of my
+
+[1143.419 - 1147.6200000000001] focus at that time at post launch was on
+
+[1145.94 - 1148.76] marketing activities and things like
+
+[1147.62 - 1151.58] that that's where you want to be you
+
+[1148.76 - 1153.2] want to be growth mode how do I how do I
+
+[1151.58 - 1155.96] make our customers happy how do we get
+
+[1153.2 - 1157.039] more inventory on the site uh within a
+
+[1155.96 - 1159.26] Marketplace do you always want the
+
+[1157.039 - 1161.12] balance between buyers and sellers to be
+
+[1159.26 - 1162.74] someone in line because they're always
+
+[1161.12 - 1165.5] going to be a little bit out of whack
+
+[1162.74 - 1167.36] and it's sort of hard to to you know
+
+[1165.5 - 1168.32] keep that in balance as you're moving
+
+[1167.36 - 1170.539] forward
+
+[1168.32 - 1172.82] but about six months in
+
+[1170.539 - 1174.679] I remember waking up one morning and
+
+[1172.82 - 1176.6599999999999] going out to the site like wow a bunch
+
+[1174.679 - 1178.46] of new people signed up and I'm like
+
+[1176.66 - 1181.039] the hell are these people
+
+[1178.46 - 1182.6000000000001] and then that's when I realized I'm like
+
+[1181.039 - 1184.82] oh
+
+[1182.6 - 1186.98] um these are these aren't legit accounts
+
+[1184.82 - 1190.22] these are Bots these are spam like this
+
+[1186.98 - 1191.96] like the site's getting hacked like and
+
+[1190.22 - 1193.7] there's there's some there are some
+
+[1191.96 - 1196.64] interesting things ever going on there
+
+[1193.7 - 1198.98] was some seeds and so forth um there are
+
+[1196.64 - 1201.679] malicious code where I personally had to
+
+[1198.98 - 1203.419] roll some stuff back on the site I don't
+
+[1201.679 - 1204.6200000000001] think it was built very securely and God
+
+[1203.419 - 1206.72] knows what we were doing with people's
+
+[1204.62 - 1209.059] credit card information and so forth on
+
+[1206.72 - 1213.08] this thing with hindsights
+
+[1209.059 - 1216.02] um so all of that said like it was a bit
+
+[1213.08 - 1218.72] of a mess and I went from spending you
+
+[1216.02 - 1222.44] know 10 20 of my time worried about
+
+[1218.72 - 1225.02] security I.T infrastructure to you know
+
+[1222.44 - 1227.419] 80 90 percent and when you're trying to
+
+[1225.02 - 1228.679] grow a business that's not where you
+
+[1227.419 - 1230.66] want to be
+
+[1228.679 - 1232.4] um you know the one silver lining you
+
+[1230.66 - 1234.6200000000001] know I give so much credit to my my
+
+[1232.4 - 1236.24] sister-in-law for just reframing my
+
+[1234.62 - 1240.1399999999999] thinking on this
+
+[1236.24 - 1242.059] I I remember seeing her and the rest of
+
+[1240.14 - 1244.22] the family over the holidays and being
+
+[1242.059 - 1246.26] just kind of really like depressed like
+
+[1244.22 - 1247.7] oh gosh like I'm doing this and all of a
+
+[1246.26 - 1250.039] sudden all there's all these hackers on
+
+[1247.7 - 1252.38] there and all fourth and she and her
+
+[1250.039 - 1254.059] response to me was well at least you
+
+[1252.38 - 1255.5] built a site that was important enough
+
+[1254.059 - 1258.34] for them to hack
+
+[1255.5 - 1261.38] and I'm like okay
+
+[1258.34 - 1262.76] there is a silver lining in that only if
+
+[1261.38 - 1264.919] it really was you know the very
+
+[1262.76 - 1268.16] beginning they weren't hacking again so
+
+[1264.919 - 1270.3200000000002] forth so like there's somebody in Russia
+
+[1268.16 - 1273.5] or wherever it was who was truly taking
+
+[1270.32 - 1275.6] the time uh to do this so that was an
+
+[1273.5 - 1276.86] interesting Silver Lining uh to put on
+
+[1275.6 - 1278.36] all this
+
+[1276.86 - 1279.62] um but just the amount of time I spent
+
+[1278.36 - 1281.8999999999999] on that where it could have been on
+
+[1279.62 - 1283.8799999999999] growth it was just such a lack of focus
+
+[1281.9 - 1285.919] that I think it really started to kind
+
+[1283.88 - 1287.0590000000002] of derail where the business could have
+
+[1285.919 - 1289.64] been going
+
+[1287.059 - 1291.62] that makes sense yeah and uh and and
+
+[1289.64 - 1293.6000000000001] yeah you know like success is a
+
+[1291.62 - 1295.58] double-edged sword right like the more
+
+[1293.6 - 1297.32] the more popular you are or the more
+
+[1295.58 - 1299.539] well-known the bigger of a Target you
+
+[1297.32 - 1301.6399999999999] are for any number of things right well
+
+[1299.539 - 1303.44] was it Sergey Brennan um said uh success
+
+[1301.64 - 1305.44] breeds litigation
+
+[1303.44 - 1305.44] um
+
+[1305.84 - 1310.3999999999999] you know or or in this case Uh Russian
+
+[1308.12 - 1312.1399999999999] hackers is what it attracts so that's
+
+[1310.4 - 1314.659] right that's right exactly
+
+[1312.14 - 1317.539] definitely an apocryphal or not
+
+[1314.659 - 1319.0390000000002] apocryphal um uh allegorical story about
+
+[1317.539 - 1320.6589999999999] how important it is to have security
+
+[1319.039 - 1322.7] done right but as you mentioned earlier
+
+[1320.659 - 1325.0390000000002] there's a lot of services like stripe
+
+[1322.7 - 1328.159] that makes these things just out of the
+
+[1325.039 - 1330.62] box much more secure and much safer so I
+
+[1328.159 - 1331.88] guess I have two two directions I want
+
+[1330.62 - 1334.34] to go and I'll let you pick which one we
+
+[1331.88 - 1336.2600000000002] go first so in terms of where the
+
+[1334.34 - 1337.52] industry is today you know the tools
+
+[1336.26 - 1339.86] that are available the platforms that
+
+[1337.52 - 1341.72] are available uh alternatively you did
+
+[1339.86 - 1344.36] mention like a CTO could have helped you
+
+[1341.72 - 1346.28] catch this so uh I'll let you pick path
+
+[1344.36 - 1347.4189999999999] a or pack path B which which you want to
+
+[1346.28 - 1349.8799999999999] talk about first
+
+[1347.419 - 1351.5] oh like basically you're saying if I
+
+[1349.88 - 1353.14] were to recreate this site today how
+
+[1351.5 - 1355.82] would I do it or what would I get it
+
+[1353.14 - 1359.0590000000002] yeah if you if you had all the tools
+
+[1355.82 - 1361.039] today you were 10 years younger and uh
+
+[1359.059 - 1362.6] and and you know had all the lessons
+
+[1361.039 - 1366.46] though what would you what would you do
+
+[1362.6 - 1369.3799999999999] differently I don't think I'd hire a CTO
+
+[1366.46 - 1371.72] I know I I gave this whole speech
+
+[1369.38 - 1373.3400000000001] basically saying how like oh that was
+
+[1371.72 - 1375.679] the biggest mistake I think at the time
+
+[1373.34 - 1378.08] it was the biggest mistake and look I
+
+[1375.679 - 1381.14] wouldn't say I wouldn't hire a CTO but I
+
+[1378.08 - 1383.0] was I would say it's not required to
+
+[1381.14 - 1383.8400000000001] have a CTO because you're absolutely
+
+[1383.0 - 1385.76] right
+
+[1383.84 - 1388.1] um between
+
+[1385.76 - 1390.44] all of the services you know there's
+
+[1388.1 - 1392.539] some fairly good no code Solutions out
+
+[1390.44 - 1394.64] there as well and I was getting a little
+
+[1392.539 - 1396.32] bit into the code myself so I was able
+
+[1394.64 - 1398.8400000000001] to tweak things here or there where
+
+[1396.32 - 1400.58] there wasn't like a CMS solution I was
+
+[1398.84 - 1403.3999999999999] able to kind of figure things out it was
+
+[1400.58 - 1406.28] all built in PHP and you know I was able
+
+[1403.4 - 1408.74] to do a lot with that but you know for
+
+[1406.28 - 1411.46] security with stripe or Braintree and
+
+[1408.74 - 1414.86] other products like that like
+
+[1411.46 - 1418.64] it's never been easier to start a
+
+[1414.86 - 1421.28] website today and so like
+
+[1418.64 - 1426.14] I think you could probably build that
+
+[1421.28 - 1426.1399999999999] site that I had created for
+
+[1426.679 - 1432.98] 15 20 of the cost of what it cost me to
+
+[1429.98 - 1434.72] do that uh in probably a half the time
+
+[1432.98 - 1435.919] if not even less the other is probably
+
+[1434.72 - 1437.299] gonna be a little bit of engineering
+
+[1435.919 - 1439.8200000000002] support that you would need to maybe
+
+[1437.299 - 1443.0] integrate some pieces but for the most
+
+[1439.82 - 1445.46] part you could have this amazing secure
+
+[1443.0 - 1447.559] system built with the existing tools
+
+[1445.46 - 1450.32] that are out there today
+
+[1447.559 - 1452.8999999999999] excellent yeah like and and so I think
+
+[1450.32 - 1457.46] that that's just such a fascinating
+
+[1452.9 - 1459.2] um you know uh point which is uh you
+
+[1457.46 - 1461.659] know if there are folks out there and
+
+[1459.2 - 1463.64] with you know historical you know like
+
+[1461.659 - 1465.38] me I'm I'm talking with people I'm
+
+[1463.64 - 1467.96] reading books I'm you know reading blog
+
+[1465.38 - 1469.88] posts watching videos but things are
+
+[1467.96 - 1471.74] changing things are different today than
+
+[1469.88 - 1474.0800000000002] even they were 10 years ago or five
+
+[1471.74 - 1476.659] years ago and so I just thanks for
+
+[1474.08 - 1479.059] thanks for that that perspective
+
+[1476.659 - 1480.38] um I had a I had a thought but it ran
+
+[1479.059 - 1484.34] off
+
+[1480.38 - 1486.7990000000002] um let's see looking at my notes oh yeah
+
+[1484.34 - 1488.9599999999998] um so kind of kind of rewinding a little
+
+[1486.799 - 1492.1399999999999] bit you had some interesting stories uh
+
+[1488.96 - 1495.98] of your time at PayPal uh specifically
+
+[1492.14 - 1497.539] as um as a leader of innovation so would
+
+[1495.98 - 1498.799] you mind uh walking us through some of
+
+[1497.539 - 1500.96] the stuff that you did at PayPal and
+
+[1498.799 - 1503.36] what you learned about innovation in the
+
+[1500.96 - 1506.1200000000001] tech space uh while you were there
+
+[1503.36 - 1509.539] absolutely yeah and look I I spent 10
+
+[1506.12 - 1511.82] and a half amazing years at PayPal so
+
+[1509.539 - 1513.62] um as as sketch me even the business the
+
+[1511.82 - 1515.96] the marketplace I was running was not
+
+[1513.62 - 1518.2399999999998] kind of succeeding I actually my wife
+
+[1515.96 - 1519.6200000000001] and I had our first kid and it's kind of
+
+[1518.24 - 1521.24] like ah is this really what I didn't
+
+[1519.62 - 1523.9399999999998] want to be doing I'm like I I kind of
+
+[1521.24 - 1525.74] need a I need to rethink about what I'm
+
+[1523.94 - 1527.419] doing and get a steady paycheck have
+
+[1525.74 - 1528.86] money flowing in instead of flowing out
+
+[1527.419 - 1530.72] for a while
+
+[1528.86 - 1533.7199999999998] um you know where should I go work I
+
+[1530.72 - 1536.1200000000001] live in San Jose uh
+
+[1533.72 - 1538.64] biking distance away from PayPal's
+
+[1536.12 - 1540.3799999999999] headquarters and
+
+[1538.64 - 1541.94] um I had a bunch of friends that were
+
+[1540.38 - 1543.8600000000001] there I was a customer of it I always
+
+[1541.94 - 1545.6000000000001] liked I mean I signed up back when they
+
+[1543.86 - 1548.4189999999999] were bribing you with money in the year
+
+[1545.6 - 1550.279] 2000 uh as a consumer
+
+[1548.419 - 1552.919] um you know they like literally that was
+
+[1550.279 - 1554.48] PayPal's when when you know for people
+
+[1552.919 - 1556.159] who don't know the story one of the
+
+[1554.48 - 1558.679] reasons why PayPal got to the scale it
+
+[1556.159 - 1561.2600000000002] did is because they were such flush they
+
+[1558.679 - 1562.3400000000001] were so flush with Venture money
+
+[1561.26 - 1564.62] um and they needed to build Network
+
+[1562.34 - 1566.84] effects for this to be effective buyers
+
+[1564.62 - 1568.52] and sellers so
+
+[1566.84 - 1570.08] um they were just giving and at one
+
+[1568.52 - 1573.44] point it was up to 20 bucks a person
+
+[1570.08 - 1575.8999999999999] just for signing up uh for an account I
+
+[1573.44 - 1578.6000000000001] think I got in around ten dollars when
+
+[1575.9 - 1580.299] when I first got my PayPal accounts but
+
+[1578.6 - 1584.4189999999999] I was look I was a long time customer
+
+[1580.299 - 1586.279] and from my class at Berkeley I
+
+[1584.419 - 1588.74] literally knew 10 people that were
+
+[1586.279 - 1590.36] working there and they all talked really
+
+[1588.74 - 1592.82] favorably
+
+[1590.36 - 1595.1] um so 2011 rolls around I'm looking for
+
+[1592.82 - 1598.1] a job I see this this opportunity pop
+
+[1595.1 - 1600.9189999999999] open on the mobile team at PayPal and
+
+[1598.1 - 1603.9189999999999] I'm like oh mobile has a future
+
+[1600.919 - 1607.279] um which was a
+
+[1603.919 - 1610.4] uh I know now that sounds like of course
+
+[1607.279 - 1612.62] Mike mobile has a future in 2022 when
+
+[1610.4 - 1614.48] you're looking back at that but in 2011
+
+[1612.62 - 1616.039] even this was a few years after the
+
+[1614.48 - 1617.659] iPhone still
+
+[1616.039 - 1619.94] um there was some real traction but
+
+[1617.659 - 1622.94] there's still a lot of skepticism
+
+[1619.94 - 1624.5] um just a tiny tiny portion of
+
+[1622.94 - 1627.799] transactions were being done at mobile
+
+[1624.5 - 1630.08] devices even at that time even in a
+
+[1627.799 - 1632.179] company like PayPal I would have that it
+
+[1630.08 - 1634.22] was way under one percent of total
+
+[1632.179 - 1638.539] payment volume was on mobile devices
+
+[1634.22 - 1641.3600000000001] back in 2010 2011. and um
+
+[1638.539 - 1642.44] so I had a really I was like well let me
+
+[1641.36 - 1644.4799999999998] go interview
+
+[1642.44 - 1646.88] um uh basically my interview at PayPal
+
+[1644.48 - 1649.94] was talking about nothing but failures
+
+[1646.88 - 1651.44] that I had at sketch Maven and um
+
+[1649.94 - 1653.48] because that was my only Tech experience
+
+[1651.44 - 1655.64] and look I was very open I was talking
+
+[1653.48 - 1656.6] about like what I learned uh I was very
+
+[1655.64 - 1659.0] candid
+
+[1656.6 - 1660.98] uh another Pro interview tip that I'll
+
+[1659.0 - 1662.6] give to anybody is actually listen to
+
+[1660.98 - 1664.22] the earning if you're ever interviewing
+
+[1662.6 - 1667.039] at a public company whether you are
+
+[1664.22 - 1670.159] going for a finance role or or an
+
+[1667.039 - 1672.3799999999999] engineer or a lawyer or whatever listen
+
+[1670.159 - 1675.2] to the earnings call beforehand because
+
+[1672.38 - 1678.0800000000002] 98 of employees don't listen to earnings
+
+[1675.2 - 1680.1200000000001] calls and if you listen to an earnings
+
+[1678.08 - 1682.76] call you will hear directly from the CEO
+
+[1680.12 - 1685.1] and CFO and others in the company what
+
+[1682.76 - 1686.84] they really care about what are the
+
+[1685.1 - 1689.059] pressing things and you will actually
+
+[1686.84 - 1691.3999999999999] have in some way more insight than the
+
+[1689.059 - 1694.6399999999999] other people that you're talking to and
+
+[1691.4 - 1696.74] just by doing that painful couple hour
+
+[1694.64 - 1700.64] exercise maybe listen to the last two
+
+[1696.74 - 1702.799] earnings calls you will have a whole new
+
+[1700.64 - 1705.5] insight that it'll almost be like a
+
+[1702.799 - 1707.179] superpower that you will have just being
+
+[1705.5 - 1709.159] able to kind of talk about some of these
+
+[1707.179 - 1710.779] things that the person working there is
+
+[1709.159 - 1712.4] like how did you know about that well
+
+[1710.779 - 1715.1] it's a public company it's on the
+
+[1712.4 - 1717.38] earnings call so anyway Pro tip for
+
+[1715.1 - 1719.8999999999999] anybody interview
+
+[1717.38 - 1721.22] um but uh yeah so there's whatever
+
+[1719.9 - 1723.8200000000002] reason they gave me a job I was
+
+[1721.22 - 1726.74] dangerously unqualified for in analytics
+
+[1723.82 - 1729.9189999999999] and I you know
+
+[1726.74 - 1732.08] it was it was an amazing ride there I I
+
+[1729.919 - 1734.0590000000002] had job after job that I was completely
+
+[1732.08 - 1737.1789999999999] not qualified for but I was just wanting
+
+[1734.059 - 1739.279] to try things out I was always ambitious
+
+[1737.179 - 1741.38] um I always wanted to do what's best for
+
+[1739.279 - 1743.0] the for the customer what's best for the
+
+[1741.38 - 1745.0390000000002] team even if it wasn't in my job
+
+[1743.0 - 1746.36] description and I think I'm in some ways
+
+[1745.039 - 1748.22] maybe I built up a little bit of a
+
+[1746.36 - 1749.1399999999999] reputation for doing that within the
+
+[1748.22 - 1751.039] company
+
+[1749.14 - 1754.4] and
+
+[1751.039 - 1756.74] um fast forward a few years we were
+
+[1754.4 - 1758.679] splitting from eBay so at the time I
+
+[1756.74 - 1761.419] joined PayPal was actually owned by eBay
+
+[1758.679 - 1764.3600000000001] uh 2015
+
+[1761.419 - 1766.3400000000001] um Carl Icahn comes in buys up a bunch
+
+[1764.36 - 1769.6399999999999] of eBay stocks saying hey you are going
+
+[1766.34 - 1772.279] to be worth more separates and
+
+[1769.64 - 1773.8400000000001] um you know eBay management fights at
+
+[1772.279 - 1775.76] fights it fights it and finally one day
+
+[1773.84 - 1777.02] we come into work and say ah never mind
+
+[1775.76 - 1779.72] we're going to split into two companies
+
+[1777.02 - 1781.52] like whoa that's weird uh so when that
+
+[1779.72 - 1784.22] happens PayPal has to create all these
+
+[1781.52 - 1785.6] functions and so forth and I was doing a
+
+[1784.22 - 1787.46] lot of things which we could get to in a
+
+[1785.6 - 1790.1] bit that were pretty Innovative and and
+
+[1787.46 - 1791.659] related to Innovation and
+
+[1790.1 - 1793.6399999999999] um had a just really unique opportunity
+
+[1791.659 - 1796.22] to kind of create a very small
+
+[1793.64 - 1798.2] Innovation function but the Innovation
+
+[1796.22 - 1800.48] function for what the new company was
+
+[1798.2 - 1802.5800000000002] going to be and
+
+[1800.48 - 1804.74] um and so that's kind of how I got
+
+[1802.58 - 1806.779] involved in Innovation at PayPal and
+
+[1804.74 - 1809.779] that was like my last five six years
+
+[1806.779 - 1812.0] there was all within that same job kind
+
+[1809.779 - 1813.799] of defining what Innovation the culture
+
+[1812.0 - 1815.899] of innovation for the company looking at
+
+[1813.799 - 1819.559] new products and new technologies that
+
+[1815.899 - 1821.2399999999998] are emerging uh and and really working
+
+[1819.559 - 1824.5] with employees across the company I'm
+
+[1821.24 - 1824.5] building all that stuff out
+
+[1824.72 - 1829.46] wonderful wonderful story yeah and it's
+
+[1827.84 - 1831.3799999999999] it sounds like it was just a really
+
+[1829.46 - 1833.059] fascinating time like you know I've
+
+[1831.38 - 1835.0390000000002] learned I learned a couple a couple
+
+[1833.059 - 1836.779] interesting things like I I didn't I did
+
+[1835.039 - 1838.76] not know that uh Carl Icahn was the one
+
+[1836.779 - 1840.32] who came in and said let's split this up
+
+[1838.76 - 1842.6589999999999] and that you know because you'd think
+
+[1840.32 - 1845.059] like from an outsider perspective like
+
+[1842.659 - 1846.6200000000001] eBay is this big powerful tech company
+
+[1845.059 - 1848.6589999999999] like why would they allow this to be
+
+[1846.62 - 1851.12] spun out but it was like someone else
+
+[1848.659 - 1852.98] said no if you grow apart you can be
+
+[1851.12 - 1854.84] more valuable so that I mean that in and
+
+[1852.98 - 1856.94] of itself is a little bit innovative
+
+[1854.84 - 1859.1589999999999] but and one thing I will say is Carl
+
+[1856.94 - 1861.679] Icahn was right like I mean I mean it's
+
+[1859.159 - 1864.2600000000002] like you know as much as we don't like
+
+[1861.679 - 1866.419] to give credit to you know and often
+
+[1864.26 - 1868.94] deservedly so to like Financial
+
+[1866.419 - 1871.94] corporate Raider types and so forth he
+
+[1868.94 - 1873.74] was absolutely right like when it splits
+
+[1871.94 - 1875.6000000000001] um when it was clear that was happening
+
+[1873.74 - 1876.98] like PayPal is now uh I don't know what
+
+[1875.6 - 1879.3799999999999] it is exactly probably worth at least
+
+[1876.98 - 1881.6] double what eBay is at one point it was
+
+[1879.38 - 1883.279] way more but things have all been kind
+
+[1881.6 - 1885.98] of trending down
+
+[1883.279 - 1888.38] um but like I I think that was it was
+
+[1885.98 - 1890.179] pretty clear that both companies I think
+
+[1888.38 - 1891.919] were actually stronger being able to
+
+[1890.179 - 1894.2] focus on these different things and
+
+[1891.919 - 1896.48] PayPal could actually as they just have
+
+[1894.2 - 1898.1000000000001] done like can do things with Amazon and
+
+[1896.48 - 1900.559] so forth when it was part of eBay it
+
+[1898.1 - 1902.6] really couldn't do that eBay's even done
+
+[1900.559 - 1904.7] things for their own payment systems and
+
+[1902.6 - 1907.6999999999998] so forth so each company now operates
+
+[1904.7 - 1910.88] truly independently years later so so
+
+[1907.7 - 1913.039] yes Carl Icahn was right yeah sorry
+
+[1910.88 - 1914.3600000000001] excellent yeah no great great story and
+
+[1913.039 - 1916.039] great Point like you never know how
+
+[1914.36 - 1918.3799999999999] things are going to turn out and and
+
+[1916.039 - 1920.539] Lessons Learned you move on and it
+
+[1918.38 - 1922.7600000000002] sounds like both benefited that's not
+
+[1920.539 - 1924.62] always the case of course uh but you did
+
+[1922.76 - 1926.539] you said that you spent the last five
+
+[1924.62 - 1930.02] years or so
+
+[1926.539 - 1931.7] um uh at PayPal focusing on Innovation
+
+[1930.02 - 1933.5] and and you know a couple things that
+
+[1931.7 - 1935.8990000000001] you mentioned that you did to focus on
+
+[1933.5 - 1937.159] that was you talked to people a lot you
+
+[1935.899 - 1938.6589999999999] know across the whole organization
+
+[1937.159 - 1940.7] probably out of the organization outside
+
+[1938.659 - 1943.279] of the organization too and you worked
+
+[1940.7 - 1945.8600000000001] in the mobile space so uh if you could
+
+[1943.279 - 1948.2] like paint us a picture for for me and
+
+[1945.86 - 1950.6] the audience if someone wants to be
+
+[1948.2 - 1952.279] Innovative or be in that space what is
+
+[1950.6 - 1955.279] the mindset you need what are the
+
+[1952.279 - 1956.84] behaviors you need like just like let's
+
+[1955.279 - 1959.12] take a deep dive into the Innovative
+
+[1956.84 - 1961.6999999999998] brain and from your perspective
+
+[1959.12 - 1963.5] oh I love this this is where this is
+
+[1961.7 - 1964.1000000000001] where I really enjoy talking
+
+[1963.5 - 1965.899] um
+
+[1964.1 - 1967.2199999999998] so what does the Innovative brain look
+
+[1965.899 - 1969.5] like the Innovative brain first and
+
+[1967.22 - 1972.38] foremost is just really curious it is
+
+[1969.5 - 1975.26] constantly asking why it is the brain in
+
+[1972.38 - 1977.2990000000002] many ways of a six-year-old just like
+
+[1975.26 - 1979.34] why does that work that way why is it
+
+[1977.299 - 1982.279] that we you know
+
+[1979.34 - 1983.9599999999998] um you know like why do some clothes
+
+[1982.279 - 1985.94] have tags on it but other ones are
+
+[1983.96 - 1987.5] printed on is it a cost thing is it
+
+[1985.94 - 1989.3600000000001] whatever just being naturally curious
+
+[1987.5 - 1991.22] about everything that you see out there
+
+[1989.36 - 1993.32] in the world
+
+[1991.22 - 1996.38] um and then
+
+[1993.32 - 1999.3799999999999] you know so so part and and I mentioned
+
+[1996.38 - 2001.24] before like you want a big funnel of
+
+[1999.38 - 2002.919] ideas because you never know what is
+
+[2001.24 - 2006.64] going to hit
+
+[2002.919 - 2008.74] um Thomas Edison I would love to
+
+[2006.64 - 2011.74] talk about Thomas Edison like you know
+
+[2008.74 - 2014.26] he he has like 1100 patents that he had
+
+[2011.74 - 2016.36] and we know in convinced that light bulb
+
+[2014.26 - 2018.64] and phonograph and all those things that
+
+[2016.36 - 2020.559] are kind of famous now if you go down
+
+[2018.64 - 2022.0] the long tail of those patents and mind
+
+[2020.559 - 2024.34] you these are the things that they
+
+[2022.0 - 2026.38] actually were granted patents by the
+
+[2024.34 - 2029.3799999999999] USPTO we're not even seeing the ideas
+
+[2026.38 - 2031.0] that were rejected that never even
+
+[2029.38 - 2032.7990000000002] they're like oh this is ridiculous don't
+
+[2031.0 - 2035.14] file on it when you start to go down the
+
+[2032.799 - 2037.779] long tail of patents that I uh Edison
+
+[2035.14 - 2039.159] has there's one specifically
+
+[2037.779 - 2041.559] um you know anybody could go out there
+
+[2039.159 - 2043.8400000000001] and Google like Thomas Edison baby dump
+
+[2041.559 - 2045.76] and you will see like he built this
+
+[2043.84 - 2046.86] talking have you seen the save it like
+
+[2045.76 - 2051.04] yeah
+
+[2046.86 - 2054.46] baby doll and this thing is horrific it
+
+[2051.04 - 2056.44] is like it's evil it is like and it has
+
+[2054.46 - 2058.179] like this weird wax cylinder thing that
+
+[2056.44 - 2060.2200000000003] you play and it's supposed to talk to a
+
+[2058.179 - 2061.899] kid and it's like what the it is the
+
+[2060.22 - 2064.06] most god-awful thing and they're like oh
+
+[2061.899 - 2066.0989999999997] yeah that's the Light Bulb Guy
+
+[2064.06 - 2068.56] um but do you know what like who knows
+
+[2066.099 - 2070.119] what that led to like again I mean he's
+
+[2068.56 - 2072.04] just always thinking of ideas and
+
+[2070.119 - 2074.08] they're not all going to be they're not
+
+[2072.04 - 2076.419] all going to be home runs but like
+
+[2074.08 - 2077.56] when you're coming up with ideas the
+
+[2076.419 - 2080.08] first thing to I'm gonna use a baseball
+
+[2077.56 - 2083.2] on another baseball analogy here but
+
+[2080.08 - 2085.419] like you it batting average does not
+
+[2083.2 - 2086.98] matter like that is not what matters so
+
+[2085.419 - 2088.5989999999997] batting average for everyone so in
+
+[2086.98 - 2090.339] baseball you come up to the plate you
+
+[2088.599 - 2093.76] want to hit the ball get it into play
+
+[2090.339 - 2095.919] and get on base that is called a hit all
+
+[2093.76 - 2098.98] the times you don't do that is called an
+
+[2095.919 - 2100.5989999999997] out relatively speaking so if you're a
+
+[2098.98 - 2103.42] great baseball player
+
+[2100.599 - 2105.1600000000003] um 30 of the time you're going to be
+
+[2103.42 - 2106.839] able to get a hits of the times you're
+
+[2105.16 - 2108.94] out there if you're a bad baseball
+
+[2106.839 - 2112.18] player you know 20 of the time or even
+
+[2108.94 - 2115.18] 25 percent necessarily uh to do that
+
+[2112.18 - 2117.5789999999997] and but that's not the game that's being
+
+[2115.18 - 2120.8799999999997] played here nobody cares about that
+
+[2117.579 - 2122.92] statistic in the world of innovation all
+
+[2120.88 - 2125.02] that we care about is home runs and
+
+[2122.92 - 2126.7000000000003] Grand Slams like when you like basically
+
+[2125.02 - 2130.18] hit it so hard it goes out of the entire
+
+[2126.7 - 2134.0789999999997] stigma type stuff that is what matters
+
+[2130.18 - 2135.52] um and so to do that if that is what is
+
+[2134.079 - 2138.2200000000003] being measured
+
+[2135.52 - 2142.06] do we care if you did it in three at
+
+[2138.22 - 2146.68] bats or 3 000 at bats if all that we're
+
+[2142.06 - 2147.94] measuring for is home runs and we just
+
+[2146.68 - 2149.2599999999998] wanna that's the only thing that we care
+
+[2147.94 - 2151.7200000000003] about well it doesn't actually matter
+
+[2149.26 - 2155.44] how many times it took to do that
+
+[2151.72 - 2157.359] so that is something that is really even
+
+[2155.44 - 2159.52] when I had my first Innovation job it
+
+[2157.359 - 2162.16] was something with with my own manager
+
+[2159.52 - 2164.44] at the time was something I really had
+
+[2162.16 - 2166.7799999999997] to hammer home of like we want to
+
+[2164.44 - 2168.579] actually reward how many times people
+
+[2166.78 - 2171.7000000000003] step up to the plate
+
+[2168.579 - 2173.02] so we you know and I'm just gonna it's
+
+[2171.7 - 2176.22] not the only thing but I'm gonna use
+
+[2173.02 - 2179.92] patents as a proxy So
+
+[2176.22 - 2181.5989999999997] within PayPal the year before I joined
+
+[2179.92 - 2183.7000000000003] and again we were part of eBay so we had
+
+[2181.599 - 2186.7000000000003] to parse it out
+
+[2183.7 - 2190.48] I don't know we've maybe had three 400
+
+[2186.7 - 2193.2999999999997] people submit patent ideas you know um
+
+[2190.48 - 2195.16] that were potentially patentable the
+
+[2193.3 - 2197.1400000000003] first year I joined I think we did like
+
+[2195.16 - 2199.839] three or four thousand so it was like
+
+[2197.14 - 2201.7] literally 10xing that
+
+[2199.839 - 2204.4] um and this was just trying to push this
+
+[2201.7 - 2206.9199999999996] in the culture now was the quality of
+
+[2204.4 - 2209.8] those ideas better than the year before
+
+[2206.92 - 2212.44] an aggregate no I mean there's probably
+
+[2209.8 - 2214.3] many more worse ideas in there but again
+
+[2212.44 - 2215.859] that's not what mattered we wanted
+
+[2214.3 - 2217.3590000000004] people just stepping up to the plate
+
+[2215.859 - 2220.06] because you didn't know what kind of
+
+[2217.359 - 2222.46] ridiculous idea might become something
+
+[2220.06 - 2224.2] um you know I always joked one inventor
+
+[2222.46 - 2226.359] who kept on putting ideas for like
+
+[2224.2 - 2227.4399999999996] edible silverware and things like that
+
+[2226.359 - 2230.859] like what does that have to do with
+
+[2227.44 - 2233.92] PayPal or anything nothing but like was
+
+[2230.859 - 2236.74] that a acceptable idea for us except yes
+
+[2233.92 - 2239.14] yes because it's just going through the
+
+[2236.74 - 2241.54] ideation process because we want like
+
+[2239.14 - 2244.1189999999997] okay that doesn't here's some feedback
+
+[2241.54 - 2247.48] on that now iterate improve get better
+
+[2244.119 - 2250.0] in the process and so forth so you know
+
+[2247.48 - 2251.5] so step one for Innovation be curious
+
+[2250.0 - 2253.599] about the world learn about the world
+
+[2251.5 - 2255.28] ask questions about the world step two
+
+[2253.599 - 2257.38] is just come up with ideas and couple up
+
+[2255.28 - 2258.82] with as many as possible and it doesn't
+
+[2257.38 - 2260.7400000000002] mean you have to be submitting these
+
+[2258.82 - 2262.7200000000003] ideas anywhere
+
+[2260.74 - 2265.4199999999996] um you know there are some great sites
+
+[2262.72 - 2267.22] like that like uh notepad.com
+
+[2265.42 - 2269.32] um is a great one where you can just put
+
+[2267.22 - 2271.8999999999996] like idealists and things like that I
+
+[2269.32 - 2273.82] have used that for sure in the past
+
+[2271.9 - 2276.88] um mostly I just put things into an
+
+[2273.82 - 2279.339] Evernote actually a whole folder of
+
+[2276.88 - 2281.079] Evernote files I have and I'm like these
+
+[2279.339 - 2283.119] are book ideas these are business ideas
+
+[2281.079 - 2284.8] these are movie ideas I don't even know
+
+[2283.119 - 2287.02] what these ideas are but they're still
+
+[2284.8 - 2289.48] ideas and those are kind of all the
+
+[2287.02 - 2292.78] buckets I have and I just build that out
+
+[2289.48 - 2295.18] and then when you're comfortably removed
+
+[2292.78 - 2297.46] from those ideas kind of take a step
+
+[2295.18 - 2300.64] back and reapproach them and see which
+
+[2297.46 - 2303.64] ones resonate with you and most likely
+
+[2300.64 - 2306.5789999999997] what is going to happen is that not any
+
+[2303.64 - 2309.339] one idea is going to resonate but you're
+
+[2306.579 - 2313.119] going to see value and connecting ideas
+
+[2309.339 - 2316.18] that this movie idea that you had if you
+
+[2313.119 - 2317.98] added it to this business idea holy cow
+
+[2316.18 - 2320.68] that's really interesting what if you
+
+[2317.98 - 2322.839] actually combine these we used to do a
+
+[2320.68 - 2324.2799999999997] trick when when I had the Innovation Lab
+
+[2322.839 - 2326.92] at PayPal where we would have people
+
+[2324.28 - 2329.7400000000002] just write down ideas and topics throw
+
+[2326.92 - 2331.66] it into a hats on little straps of paper
+
+[2329.74 - 2333.4599999999996] and then people would just pull out two
+
+[2331.66 - 2335.5] of them at a time and we're like okay
+
+[2333.46 - 2337.0] given these two things what can we make
+
+[2335.5 - 2339.339] out of it and we're gonna spend five
+
+[2337.0 - 2340.9] minutes on this we're gonna brainstorm
+
+[2339.339 - 2342.46] this and then we're gonna throw these
+
+[2340.9 - 2344.04] away and somebody's gonna pick out two
+
+[2342.46 - 2347.56] more random things
+
+[2344.04 - 2350.859] and you know it's just an old technique
+
+[2347.56 - 2353.56] to be able to apply
+
+[2350.859 - 2355.7799999999997] um you know again so much of innovation
+
+[2353.56 - 2357.339] is just taking two unrelated things and
+
+[2355.78 - 2359.26] made into something related something
+
+[2357.339 - 2361.18] powerful something that no one has ever
+
+[2359.26 - 2364.0600000000004] thought of before and that's just one
+
+[2361.18 - 2366.46] little hack to do that
+
+[2364.06 - 2370.2999999999997] wonderful thanks so much for that deep
+
+[2366.46 - 2372.82] dive into the the Innovative mindset
+
+[2370.3 - 2375.1600000000003] um and so queuing off of that let's fast
+
+[2372.82 - 2377.92] forward to today and uh of course we're
+
+[2375.16 - 2380.44] in a hopefully a golden age of
+
+[2377.92 - 2382.2400000000002] innovation with things like generative
+
+[2380.44 - 2384.7000000000003] AI large language models that sort of
+
+[2382.24 - 2386.4399999999996] stuff so what what do you see that's
+
+[2384.7 - 2387.7599999999998] happening today what has caught your
+
+[2386.44 - 2389.38] attention
+
+[2387.76 - 2391.8390000000004] um in terms of Innovations and and what
+
+[2389.38 - 2394.359] do you think it means uh in terms of
+
+[2391.839 - 2396.46] technology or business or even the way
+
+[2394.359 - 2398.38] that we live
+
+[2396.46 - 2401.2] I I think the world is going to change
+
+[2398.38 - 2402.88] more now than at any other point
+
+[2401.2 - 2406.72] um in in my life
+
+[2402.88 - 2408.2200000000003] uh I was fortunate enough to start the
+
+[2406.72 - 2410.98] University of Illinois
+
+[2408.22 - 2413.68] in 1995.
+
+[2410.98 - 2416.38] um just as you know the the Netscape
+
+[2413.68 - 2419.02] team was there like kind of building the
+
+[2416.38 - 2420.7000000000003] browser and and so forth and like all
+
+[2419.02 - 2422.38] the things that came from that like I
+
+[2420.7 - 2425.2] had never used the internet in my life
+
+[2422.38 - 2427.78] before I got to college I got there and
+
+[2425.2 - 2429.8199999999997] and like literally my first day I'm like
+
+[2427.78 - 2431.8] what the hell is this I don't understand
+
+[2429.82 - 2434.26] this I don't even know what this is but
+
+[2431.8 - 2436.78] this is amazing there's all these weird
+
+[2434.26 - 2439.0600000000004] little like there's words and if I click
+
+[2436.78 - 2440.619] on an underlying word it will take me
+
+[2439.06 - 2443.0789999999997] somewhere else where I could learn more
+
+[2440.619 - 2445.2400000000002] about that word or sometimes it takes I
+
+[2443.079 - 2447.6400000000003] click and it's like like I'm like what
+
+[2445.24 - 2451.7999999999997] is that that's a hyperlinkual like I had
+
+[2447.64 - 2454.54] no knowledge of any of this stuff and
+
+[2451.8 - 2456.579] joining like when I was at such a time
+
+[2454.54 - 2459.52] where I was open to new learnings and
+
+[2456.579 - 2461.5] memories like it was clear to me
+
+[2459.52 - 2463.78] probably within a few weeks that this is
+
+[2461.5 - 2464.44] going to change the world
+
+[2463.78 - 2465.7000000000003] um
+
+[2464.44 - 2469.7200000000003] and
+
+[2465.7 - 2473.64] with what is happening today in Ai and
+
+[2469.72 - 2477.0989999999997] generative AI like this is
+
+[2473.64 - 2478.96] I feel is giddy now as I was when I was
+
+[2477.099 - 2480.82] 18 years old
+
+[2478.96 - 2483.66] um and learning about these things and
+
+[2480.82 - 2486.46] just seeing what is possible
+
+[2483.66 - 2488.92] let me Dave if I can let me let me just
+
+[2486.46 - 2490.54] give my first experience I ever had with
+
+[2488.92 - 2493.54] gpt3
+
+[2490.54 - 2497.74] um so one of the things I've done is uh
+
+[2493.54 - 2502.06] last year yeah so I've been 2000 and uh
+
+[2497.74 - 2505.66] sorry about uh 2021
+
+[2502.06 - 2507.82] I once back and started to get an MFA in
+
+[2505.66 - 2509.0789999999997] writing always been passionate about
+
+[2507.82 - 2511.599] writing
+
+[2509.079 - 2513.46] um I read like 50 books a year I you
+
+[2511.599 - 2515.1400000000003] know I'm I'm oh and I'm always like yeah
+
+[2513.46 - 2517.9] I could do that but like when I grew up
+
+[2515.14 - 2520.06] I was more of a science and math kid and
+
+[2517.9 - 2521.38] English was kind of de-emphasize and I
+
+[2520.06 - 2523.48] was kind of always like afraid of that
+
+[2521.38 - 2525.52] and all everything but I'm like you know
+
+[2523.48 - 2526.9] what I'm I'm gonna do this I I want to
+
+[2525.52 - 2529.66] really learn how to become a great
+
+[2526.9 - 2531.7000000000003] writer when I was there it was pretty
+
+[2529.66 - 2534.64] clear to me like where I had a
+
+[2531.7 - 2536.98] competitive Advantage was combining like
+
+[2534.64 - 2539.02] my technical background and know-how
+
+[2536.98 - 2541.0] with this writing skill that I'm
+
+[2539.02 - 2542.859] building and I very quickly became
+
+[2541.0 - 2545.74] focused on
+
+[2542.859 - 2550.66] um well how can I use AI to do that
+
+[2545.74 - 2552.7599999999998] so I used gpt3 for the first time on a
+
+[2550.66 - 2554.0789999999997] writing project which I fully disclosed
+
+[2552.76 - 2556.6600000000003] and we and I'd love to get into
+
+[2554.079 - 2559.119] disclosures and things like that
+
+[2556.66 - 2562.42] but for for the very first class I was
+
+[2559.119 - 2564.94] taking I was writing a a little
+
+[2562.42 - 2567.28] um almost kind of like a an audio drama
+
+[2564.94 - 2569.859] sketch comedy type thing with all these
+
+[2567.28 - 2572.5600000000004] little skits all about the presidents
+
+[2569.859 - 2574.96] I'm a total nerd like yes I was writing
+
+[2572.56 - 2576.5789999999997] audio sketch comedy about the presidents
+
+[2574.96 - 2577.48] and had all these little sketches and so
+
+[2576.579 - 2579.28] forth
+
+[2577.48 - 2581.26] and one of them I wanted to write was
+
+[2579.28 - 2583.0] about the president of the future
+
+[2581.26 - 2584.8590000000004] and it kind of dawned on me I'm like oh
+
+[2583.0 - 2587.14] what better way to do president of the
+
+[2584.859 - 2590.7999999999997] future than to actually have an AI right
+
+[2587.14 - 2593.2] part of that so I remember I took in and
+
+[2590.8 - 2595.96] and I disclosed every single bit of what
+
+[2593.2 - 2598.839] I did in my writing I took the first two
+
+[2595.96 - 2600.359] lines from Obama's second inaugural
+
+[2598.839 - 2603.5789999999997] address
+
+[2600.359 - 2605.5] and I think I added maybe three lines of
+
+[2603.579 - 2608.619] my own so it's kind of five minutes or
+
+[2605.5 - 2610.42] sorry five sentences of material to
+
+[2608.619 - 2613.2400000000002] start and
+
+[2610.42 - 2616.599] um and I kind of hit just hit go and
+
+[2613.24 - 2618.4599999999996] just to see what would happen and I
+
+[2616.599 - 2622.48] remember just being amazed I'm like oh
+
+[2618.46 - 2624.64] my God it's recognizing that this is a
+
+[2622.48 - 2627.52] presidential speech it is kind of
+
+[2624.64 - 2629.74] carrying on the same Cadence it is like
+
+[2627.52 - 2631.3] recognizing that it is a computer that
+
+[2629.74 - 2634.0] is writing this at some point in the
+
+[2631.3 - 2635.7400000000002] future like it is carrying this on and
+
+[2634.0 - 2637.599] it was doing it in ways that I never
+
+[2635.74 - 2639.52] would have imagined and I remember like
+
+[2637.599 - 2641.1400000000003] going through this exercise and so many
+
+[2639.52 - 2643.839] times like my wife was working upstairs
+
+[2641.14 - 2645.22] I think the kids were in bed already
+
+[2643.839 - 2647.14] um I'm just running upstairs I'm like
+
+[2645.22 - 2651.2799999999997] like look at this look at this I didn't
+
+[2647.14 - 2653.6189999999997] write this I did I was so excited so I
+
+[2651.28 - 2656.6800000000003] was just enamored by what was coming out
+
+[2653.619 - 2658.2400000000002] of this thing and I kept doing it and
+
+[2656.68 - 2660.22] you know and it actually it was a little
+
+[2658.24 - 2662.2599999999998] bit glitchy too but I'm like well this
+
+[2660.22 - 2663.7599999999998] is perfect like that's an angle that I
+
+[2662.26 - 2666.46] never even thought of like what if
+
+[2663.76 - 2669.88] giving the inaugural this you know AI
+
+[2666.46 - 2672.04] computer president is glitchy and so I
+
+[2669.88 - 2675.04] did this whole speech and then use some
+
+[2672.04 - 2677.859] text to voice type program to do that
+
+[2675.04 - 2681.88] and like boom like I made that and that
+
+[2677.859 - 2684.22] was my first time using uh gbt3 and it
+
+[2681.88 - 2686.6800000000003] was incredible and so after that I've
+
+[2684.22 - 2688.8999999999996] I've just been like that to me is the
+
+[2686.68 - 2691.5989999999997] same moments where I clicked on a link
+
+[2688.9 - 2693.7000000000003] on my first day of college and it took
+
+[2691.599 - 2695.92] me somewhere else like it was just
+
+[2693.7 - 2697.74] completely my mind was blown and I'm
+
+[2695.92 - 2700.48] like this is going to change everything
+
+[2697.74 - 2703.66] fast forward a year plus to where we're
+
+[2700.48 - 2705.099] at today like good god with like the
+
+[2703.66 - 2707.319] things that we could do with chat GPT
+
+[2705.099 - 2710.02] like I was literally just talking to my
+
+[2707.319 - 2712.96] kid in the car this morning my kid does
+
+[2710.02 - 2715.359] a podcast on a game called brawl Stars
+
+[2712.96 - 2717.819] he's 11. he does this I'm like why don't
+
+[2715.359 - 2721.5989999999997] you interview chat gbt for your podcast
+
+[2717.819 - 2724.359] about brawl stars and he's like you can
+
+[2721.599 - 2725.92] do that I'm like sure like do that we
+
+[2724.359 - 2727.2999999999997] could do we could do this together and
+
+[2725.92 - 2729.579] like like you could have this whole
+
+[2727.3 - 2731.5600000000004] interview I'm sure just putting chat gbt
+
+[2729.579 - 2733.1800000000003] in the in the title of your podcast
+
+[2731.56 - 2736.359] going to get you a bunch more clicks and
+
+[2733.18 - 2738.64] everything and like wow um and so that's
+
+[2736.359 - 2740.68] going to be his project this afternoon
+
+[2738.64 - 2742.359] there's just so much that can be done
+
+[2740.68 - 2745.24] here
+
+[2742.359 - 2746.859] um and we're just just scratching the
+
+[2745.24 - 2749.2] surface of this so like that's why like
+
+[2746.859 - 2752.319] this is going I I truly truly believe
+
+[2749.2 - 2755.319] what we're going to see with AI
+
+[2752.319 - 2759.4] um and generative consumer friendly AI
+
+[2755.319 - 2762.2799999999997] is going to be more transformative I
+
+[2759.4 - 2765.64] believe than the internet itself was
+
+[2762.28 - 2767.92] absolutely yeah I I believe that I feel
+
+[2765.64 - 2771.7] that and you know just hearing you know
+
+[2767.92 - 2774.76] your perspective first time using uh uh
+
+[2771.7 - 2777.0989999999997] uh web browsers seeing the internet and
+
+[2774.76 - 2779.26] you know it's 1995 so fast forward more
+
+[2777.099 - 2781.96] than 20 years like imagine where we'll
+
+[2779.26 - 2784.7200000000003] be in 20 years so I have a few follow-up
+
+[2781.96 - 2787.42] questions regarding obviously no one can
+
+[2784.72 - 2788.4399999999996] predict the future like you know uh one
+
+[2787.42 - 2790.3] of the stories that you told me about
+
+[2788.44 - 2792.4] PayPal was uh the first time someone
+
+[2790.3 - 2794.1400000000003] bought a well I think a car with PayPal
+
+[2792.4 - 2795.579] mobile like you couldn't have predicted
+
+[2794.14 - 2798.339] that from the invention of the iPhone
+
+[2795.579 - 2799.8390000000004] right but then in hindsight it is kind
+
+[2798.339 - 2801.2799999999997] of obvious
+
+[2799.839 - 2803.5] um so could you tell us a little bit
+
+[2801.28 - 2805.8390000000004] about that story in terms of yeah like
+
+[2803.5 - 2808.48] what what you know combining new ideas
+
+[2805.839 - 2810.4] and and innovating and what can you
+
+[2808.48 - 2812.319] predict what can't you predict and what
+
+[2810.4 - 2813.52] do you see what what are like the I
+
+[2812.319 - 2814.96] guess what's the low hanging fruit with
+
+[2813.52 - 2817.3] generative AI how do you think it's
+
+[2814.96 - 2818.619] going to change first and and in an
+
+[2817.3 - 2820.1800000000003] optimistic future what's going to be
+
+[2818.619 - 2821.98] what's going to be the the the the the
+
+[2820.18 - 2824.9199999999996] good timeline
+
+[2821.98 - 2827.2] of uh of progress yeah yeah then we get
+
+[2824.92 - 2827.859] into the evil timeline uh late later as
+
+[2827.2 - 2830.9399999999996] well
+
+[2827.859 - 2834.16] um so to tell this story I I remember
+
+[2830.94 - 2836.5] back when I joined in 2011 uh mobile was
+
+[2834.16 - 2838.5989999999997] still kind of weird it was it was still
+
+[2836.5 - 2840.88] a fringe thing it was its own unit
+
+[2838.599 - 2842.8590000000004] within PayPal
+
+[2840.88 - 2844.6600000000003] um you know that it was a very very
+
+[2842.859 - 2846.5789999999997] small part of the business and so forth
+
+[2844.66 - 2849.8799999999997] and again we were owned by eBay at the
+
+[2846.579 - 2852.099] time so eBay had a similar mobile team
+
+[2849.88 - 2854.1400000000003] um but eBay had a whole bunch of other
+
+[2852.099 - 2856.599] like kind of mobile focused one-off
+
+[2854.14 - 2860.5] businesses one was called red laser
+
+[2856.599 - 2861.4] which sole purpose was for scanning QR
+
+[2860.5 - 2864.28] codes
+
+[2861.4 - 2865.96] like so before like back in 2011 your
+
+[2864.28 - 2867.76] phone if you held up the camera would
+
+[2865.96 - 2869.98] not recognize a QR code you actually had
+
+[2867.76 - 2871.3590000000004] to have a QR code reader and red laser
+
+[2869.98 - 2872.7400000000002] was one of them
+
+[2871.359 - 2875.14] um and and there are a bunch of other
+
+[2872.74 - 2878.2] like little businesses within eBay and
+
+[2875.14 - 2879.339] you know to the team's credit like we I
+
+[2878.2 - 2882.9399999999996] remember
+
+[2879.339 - 2885.64] you know not long after being there we
+
+[2882.94 - 2887.7400000000002] all would kind of meet and just talk
+
+[2885.64 - 2889.2999999999997] like all these businesses would just all
+
+[2887.74 - 2890.3799999999997] meet together in a bid Commerce room and
+
+[2889.3 - 2893.319] just like hey what are you seeing what
+
+[2890.38 - 2896.26] are you finding and it was actually eBay
+
+[2893.319 - 2899.02] I was on the eBay side of things
+
+[2896.26 - 2899.8] um they were like we sold a car on
+
+[2899.02 - 2901.839] mobile
+
+[2899.8 - 2903.88] it was like one of those things like
+
+[2901.839 - 2907.48] really like somebody just bought a car
+
+[2903.88 - 2910.319] on a phone like you can do that like
+
+[2907.48 - 2913.3] like I mean even to us it seemed kind of
+
+[2910.319 - 2916.3] Novel but also a little bit of a
+
+[2913.3 - 2918.7000000000003] Harbinger for like things are changing
+
+[2916.3 - 2921.76] somebody just bought a car on this like
+
+[2918.7 - 2923.319] that's a pretty big deal for where we
+
+[2921.76 - 2925.6600000000003] might be going if somebody's willing to
+
+[2923.319 - 2928.0] make that type of a purchase on this
+
+[2925.66 - 2930.16] device what does that say is this just a
+
+[2928.0 - 2933.22] one-off fringe is this somebody you know
+
+[2930.16 - 2934.66] using their Bitcoin to buy a pizza and
+
+[2933.22 - 2936.5789999999997] like well nobody's really going to
+
+[2934.66 - 2938.56] replicate that anytime soon or was this
+
+[2936.579 - 2941.38] something new and something special
+
+[2938.56 - 2943.54] and you know those are the kind of
+
+[2941.38 - 2945.339] things where you just start to see the
+
+[2943.54 - 2948.22] trend you start to see the volume you
+
+[2945.339 - 2950.2599999999998] start to see the change in behaviors and
+
+[2948.22 - 2952.5989999999997] you know you're on to something and soon
+
+[2950.26 - 2955.1800000000003] enough you know mobile is not a weird
+
+[2952.599 - 2958.0] Standalone unit mobile is now the cool
+
+[2955.18 - 2959.859] team to kind of be in in the company and
+
+[2958.0 - 2962.02] then eventually mobile is not even a
+
+[2959.859 - 2964.0] team anymore in the company it's just
+
+[2962.02 - 2967.359] everything needs to be made mobile first
+
+[2964.0 - 2970.119] you know much credit to uh to meta and
+
+[2967.359 - 2971.14] Facebook you know Mark Zuckerberg when
+
+[2970.119 - 2974.56] he was
+
+[2971.14 - 2976.24] you know working on his S1 and and his
+
+[2974.56 - 2979.7799999999997] executive letter at the beginning of the
+
+[2976.24 - 2981.7] S1 when Facebook was going public
+
+[2979.78 - 2983.6800000000003] Facebook everyone was like Facebook is
+
+[2981.7 - 2985.48] going to get killed by mobile like we're
+
+[2983.68 - 2987.04] moving in this mobile Direction but
+
+[2985.48 - 2989.26] Facebook's gonna get killed how are you
+
+[2987.04 - 2991.24] going to serve ads on mobile this real
+
+[2989.26 - 2992.92] estate is not big enough it's just not
+
+[2991.24 - 2994.1189999999997] going to make sense it's not going to
+
+[2992.92 - 2996.46] work
+
+[2994.119 - 2998.26] um he pivoted that entire company I mean
+
+[2996.46 - 3000.839] because this was like this was the
+
+[2998.26 - 3002.579] standard consensus that like hey like
+
+[3000.839 - 3004.38] mobile doesn't work for advertising
+
+[3002.579 - 3006.7400000000002] Facebook when people move to mobile you
+
+[3004.38 - 3008.819] debt and
+
+[3006.74 - 3011.16] Zuckerberg said okay I'm going to write
+
+[3008.819 - 3012.9] this whole thing on mobile I'm moving
+
+[3011.16 - 3015.48] everyone to mobile like you know they
+
+[3012.9 - 3017.52] had some you know HTML5 they had some
+
+[3015.48 - 3019.5] hiccups and so forth as you will when
+
+[3017.52 - 3020.64] you're doing a major pivot
+
+[3019.5 - 3022.079] um but he moved them in the right
+
+[3020.64 - 3024.0] direction now I think he's trying to
+
+[3022.079 - 3025.619] move them again with with meta and the
+
+[3024.0 - 3027.18] metaverse clearly whether or not that's
+
+[3025.619 - 3029.099] the right direction I guess we'll be
+
+[3027.18 - 3031.14] seen I think there's still a lot of
+
+[3029.099 - 3032.94] skepticism but like I guarantee you he's
+
+[3031.14 - 3035.46] thinking back to 10 years ago I was
+
+[3032.94 - 3037.619] right like and he clearly was 10 years
+
+[3035.46 - 3039.9] ago so like this is the file he has in
+
+[3037.619 - 3041.4] his head and so because he was right 10
+
+[3039.9 - 3043.92] years ago probably makes it even harder
+
+[3041.4 - 3046.319] to prove him that he might be wrong uh
+
+[3043.92 - 3047.94] and whether or not the metaverse may or
+
+[3046.319 - 3049.68] may not be the right decision for
+
+[3047.94 - 3052.92] Facebook so
+
+[3049.68 - 3055.0789999999997] yeah yeah no you absolutely right and
+
+[3052.92 - 3057.42] obviously Facebook or meta's stock
+
+[3055.079 - 3059.46] prices reflecting a tremendous amount of
+
+[3057.42 - 3060.66] let's say investor skepticism right yeah
+
+[3059.46 - 3062.339] yeah
+
+[3060.66 - 3064.74] um but you know so there's those pivotal
+
+[3062.339 - 3067.2599999999998] moments right where where the industry
+
+[3064.74 - 3069.8999999999996] insiders sense that things have changed
+
+[3067.26 - 3071.7000000000003] and uh and you mentioned Chad GPT and
+
+[3069.9 - 3074.4] even you know your 11 year old was like
+
+[3071.7 - 3077.04] wait you can do that and uh you know it
+
+[3074.4 - 3078.54] I I had that moment with chat GPT where
+
+[3077.04 - 3080.819] I was like this is just another chatbot
+
+[3078.54 - 3082.619] and then I saw that it passed a practice
+
+[3080.819 - 3085.5589999999997] bar exam
+
+[3082.619 - 3087.0] um someone used it uh do all kinds of
+
+[3085.559 - 3089.6400000000003] stuff like I don't I don't know if
+
+[3087.0 - 3091.38] anyone's like diagnosed um uh medical
+
+[3089.64 - 3092.7] cases yet but people have used it for
+
+[3091.38 - 3096.059] all kinds of things that you wouldn't
+
+[3092.7 - 3097.02] think are uh are are possible yet but
+
+[3096.059 - 3099.599] then
+
+[3097.02 - 3100.98] um I use it to build a not a web app yet
+
+[3099.599 - 3102.78] that's one of one of my next projects
+
+[3100.98 - 3104.64] but it's like this thing is a force
+
+[3102.78 - 3107.1600000000003] multiplier for any coder let alone
+
+[3104.64 - 3108.839] whatever else is out there that it you
+
+[3107.16 - 3111.0589999999997] know either in version one that it can
+
+[3108.839 - 3112.68] do or subsequent versions so I think
+
+[3111.059 - 3115.5] this is one of those like pivotal
+
+[3112.68 - 3118.2] moments like you know it's as big as
+
+[3115.5 - 3120.359] switching from you know browser-based
+
+[3118.2 - 3122.9399999999996] you know computer PC based to mobile
+
+[3120.359 - 3126.72] based but it's you know the underlying
+
+[3122.94 - 3128.76] capacity of AI is is I'm not going to
+
+[3126.72 - 3130.9199999999996] say bigger or it's not bigger or less
+
+[3128.76 - 3133.26] than internet but it's different right
+
+[3130.92 - 3135.2400000000002] it's very different and so let's talk
+
+[3133.26 - 3137.0400000000004] about like let's let's talk about the
+
+[3135.24 - 3138.66] good timeline versus the bad timeline
+
+[3137.04 - 3140.94] because there's there like what are you
+
+[3138.66 - 3142.2] what are you personally worried about
+
+[3140.94 - 3144.48] um in in terms of what you're seeing
+
+[3142.2 - 3146.22] right now well let's just talk about
+
+[3144.48 - 3147.66] timeline first and then we'll get in the
+
+[3146.22 - 3150.0589999999997] good and bad and I want to give a real
+
+[3147.66 - 3151.44] specific example David so
+
+[3150.059 - 3155.2200000000003] um in a class that I'm taking right now
+
+[3151.44 - 3157.2000000000003] for my MFA um like for this semester uh
+
+[3155.22 - 3159.24] I was like okay I'm gonna write a longer
+
+[3157.2 - 3159.96] piece on
+
+[3159.24 - 3162.72] um
+
+[3159.96 - 3166.559] AIS in the classroom and so when I
+
+[3162.72 - 3167.819] started this piece in August let's say
+
+[3166.559 - 3169.8] um you know I started to build this up
+
+[3167.819 - 3171.96] and and I actually went to schools I
+
+[3169.8 - 3173.88] talked to teachers like none of them had
+
+[3171.96 - 3175.38] really like like honestly none of them
+
+[3173.88 - 3178.6800000000003] had heard of this even like the school
+
+[3175.38 - 3180.78] my kids go to I live in Silicon Valley
+
+[3178.68 - 3182.2799999999997] um it's a bunch of like Tech execs at
+
+[3180.78 - 3184.02] the school and I actually went to the
+
+[3182.28 - 3185.099] high school and was talking to a bunch
+
+[3184.02 - 3187.559] of kids
+
+[3185.099 - 3189.1800000000003] and this would have been November about
+
+[3187.559 - 3192.059] gpt3
+
+[3189.18 - 3194.819] maybe 20 30 of them had ever even heard
+
+[3192.059 - 3197.1600000000003] of gpt3 or or the concept I mean like
+
+[3194.819 - 3199.38] they and like only one even admitted to
+
+[3197.16 - 3200.2799999999997] using it like and I truly believe the
+
+[3199.38 - 3201.42] others are like what are you talking
+
+[3200.28 - 3203.28] about I don't know what you're talking
+
+[3201.42 - 3205.8] about old man like
+
+[3203.28 - 3207.6600000000003] um they didn't know and so as I'm
+
+[3205.8 - 3209.7000000000003] working on this paper like it's supposed
+
+[3207.66 - 3211.859] to be like a 2500 word piece you know
+
+[3209.7 - 3212.9399999999996] longer interviews all this other kind of
+
+[3211.859 - 3215.339] stuff
+
+[3212.94 - 3217.619] um as I'm about to hand the getting
+
+[3215.339 - 3218.7799999999997] close to handing this in chat gbt
+
+[3217.619 - 3223.079] releases
+
+[3218.78 - 3226.38] and like within a week like everything
+
+[3223.079 - 3228.42] changed like like the timeline that I
+
+[3226.38 - 3231.48] was thinking back in August September
+
+[3228.42 - 3233.52] for how long this is going to be even I
+
+[3231.48 - 3235.44] had some there was a couple art there
+
+[3233.52 - 3238.819] weren't many but a few articles that I
+
+[3235.44 - 3242.04] was able to find written earlier in 2022
+
+[3238.819 - 3243.359] about AI in the classroom they're like
+
+[3242.04 - 3245.16] yeah this is going to start to change
+
+[3243.359 - 3247.5589999999997] things just wait a few years from now
+
+[3245.16 - 3250.319] this is changing everything
+
+[3247.559 - 3252.7200000000003] um within like a week it started to
+
+[3250.319 - 3254.579] become really clear that like oh this
+
+[3252.72 - 3257.339] isn't a weak thing
+
+[3254.579 - 3260.88] um you know I think Sam Altman who's the
+
+[3257.339 - 3264.18] the CEO of openai had had tweeted
+
+[3260.88 - 3267.2400000000002] they've reached a million users of chat
+
+[3264.18 - 3270.2999999999997] GPT within five days
+
+[3267.24 - 3271.859] pretty crazy now not coming here true
+
+[3270.3 - 3273.3590000000004] it's a free product how many of them are
+
+[3271.859 - 3274.7999999999997] true reduces you can argue all these
+
+[3273.359 - 3277.92] things but still there was a million
+
+[3274.8 - 3280.98] different accounts on open AI that had
+
+[3277.92 - 3283.7400000000002] used this product in a very very short
+
+[3280.98 - 3285.48] amount of time like that's astronomical
+
+[3283.74 - 3288.24] and so
+
+[3285.48 - 3291.66] to your point just like about timelines
+
+[3288.24 - 3294.1189999999997] in general like it's really hard to even
+
+[3291.66 - 3296.64] just predict like what the timelines are
+
+[3294.119 - 3299.46] going to be because truly what I thought
+
+[3296.64 - 3303.72] the timeline was going to be five months
+
+[3299.46 - 3306.78] ago is nowhere near what it seems to be
+
+[3303.72 - 3308.8799999999997] today and like is it just it because
+
+[3306.78 - 3311.6400000000003] this is hard it's just hard for humans
+
+[3308.88 - 3314.099] to imagine exponential growth I remember
+
+[3311.64 - 3316.2599999999998] having I remember taking sorry I'm in a
+
+[3314.099 - 3318.3] total sidebar here but I remember at the
+
+[3316.26 - 3321.119] beginning of pandemic this was like
+
+[3318.3 - 3322.7400000000002] February March no no it was March the
+
+[3321.119 - 3325.2000000000003] kids were already out of school like
+
+[3322.74 - 3326.52] we're doing homeschooling of them and
+
+[3325.2 - 3327.96] I'm like I don't even know what to do
+
+[3326.52 - 3329.64] with my kids at that point because like
+
+[3327.96 - 3331.7400000000002] the teachers weren't really giving stuff
+
+[3329.64 - 3332.7] I got to keep them busy somehow and I
+
+[3331.74 - 3334.6189999999997] was like let's let's understand
+
+[3332.7 - 3336.72] exponential growth now remember we got
+
+[3334.619 - 3339.7200000000003] out all like we have like hundreds of
+
+[3336.72 - 3341.2799999999997] Lego Minifigures and we started to lay
+
+[3339.72 - 3343.5589999999997] them out and to try and explain
+
+[3341.28 - 3345.78] exponential growth because part of this
+
+[3343.559 - 3348.3] was also for the pandemic pandemic but I
+
+[3345.78 - 3350.7000000000003] was explaining like um are not and like
+
+[3348.3 - 3353.7000000000003] you know like the growth trajectory of a
+
+[3350.7 - 3357.4199999999996] virus and so forth and
+
+[3353.7 - 3359.64] it was really hard to grasp that and so
+
+[3357.42 - 3361.8] using Legos as a visual representation
+
+[3359.64 - 3363.0589999999997] of like hey this is what like linear
+
+[3361.8 - 3365.52] growth looks like this is what
+
+[3363.059 - 3368.7000000000003] exponential growth looks like it's
+
+[3365.52 - 3371.22] shocking and just like how after like
+
+[3368.7 - 3372.8999999999996] you know a few days of doubling or
+
+[3371.22 - 3375.2999999999997] tripling or whatever it might be what
+
+[3372.9 - 3377.339] that means that's the path that we're
+
+[3375.3 - 3380.3390000000004] going down here
+
+[3377.339 - 3383.22] um and even for people who are in it are
+
+[3380.339 - 3385.68] aware of this you know shortcoming of us
+
+[3383.22 - 3387.4199999999996] uh psychologically of just like how hard
+
+[3385.68 - 3389.52] it is for us to grasp these things
+
+[3387.42 - 3390.96] because like in our caveman days we
+
+[3389.52 - 3393.72] never really had to deal with much
+
+[3390.96 - 3396.599] exponential growth uh in any ways like
+
+[3393.72 - 3398.8799999999997] this is just something for all of us
+
+[3396.599 - 3400.5] like it's gonna be really hard to even
+
+[3398.88 - 3402.839] understand the timeline
+
+[3400.5 - 3405.9] so now to your question though so it's
+
+[3402.839 - 3408.66] all right that's on the timeline to get
+
+[3405.9 - 3410.28] to you know what's the good path versus
+
+[3408.66 - 3414.66] the bad path
+
+[3410.28 - 3417.7200000000003] look I I think I hope
+
+[3414.66 - 3419.819] um that this is going to be a tool that
+
+[3417.72 - 3422.16] is just going to enable more creativity
+
+[3419.819 - 3425.099] that is going to be able to level the
+
+[3422.16 - 3426.5989999999997] playing field so that
+
+[3425.099 - 3428.52] um you don't have to have a writing
+
+[3426.599 - 3429.9] partner you don't necessarily have to
+
+[3428.52 - 3432.24] have
+
+[3429.9 - 3434.819] um you know or have the resources to pay
+
+[3432.24 - 3437.2799999999997] money for an editor you you don't have
+
+[3434.819 - 3439.079] to you know translation has already kind
+
+[3437.28 - 3440.88] of Gone Away in many ways but like let's
+
+[3439.079 - 3442.8590000000004] just say translation or something like
+
+[3440.88 - 3445.02] that if you want you know you want to
+
+[3442.859 - 3447.18] read something that's in another Market
+
+[3445.02 - 3449.52] or something or not written in your own
+
+[3447.18 - 3450.8999999999996] native tongue like like all of these
+
+[3449.52 - 3454.319] things
+
+[3450.9 - 3455.94] I truly hope we'll be leveling
+
+[3454.319 - 3456.9] um you know we'll level the playing
+
+[3455.94 - 3460.2000000000003] field
+
+[3456.9 - 3462.599] but that said like there are jobs that
+
+[3460.2 - 3464.2799999999997] are going to go away there are jobs that
+
+[3462.599 - 3465.7200000000003] are going to change
+
+[3464.28 - 3468.599] um I don't know what that is going to
+
+[3465.72 - 3470.0989999999997] look like the consensus three years ago
+
+[3468.599 - 3472.38] was that like yeah if you got a blue
+
+[3470.099 - 3474.3] collar job right now you're you're not
+
+[3472.38 - 3478.099] in a good place
+
+[3474.3 - 3480.6600000000003] um but where we seem to be today is that
+
+[3478.099 - 3484.079] it's more the knowledge workers are
+
+[3480.66 - 3486.2999999999997] going to be replaced by Ada AI
+
+[3484.079 - 3488.88] um it's the creative types it's the
+
+[3486.3 - 3490.38] designers it's the artists it's the
+
+[3488.88 - 3491.4] writers
+
+[3490.38 - 3495.059] um
+
+[3491.4 - 3498.2400000000002] and look I I think when we start to go
+
+[3495.059 - 3500.099] down this path like I don't
+
+[3498.24 - 3502.2] I don't know how we're going to avoid
+
+[3500.099 - 3506.7000000000003] that on a macro level
+
+[3502.2 - 3508.8799999999997] on a micro level I think the people who
+
+[3506.7 - 3511.68] are truly able to
+
+[3508.88 - 3515.099] embrace the technology
+
+[3511.68 - 3517.6189999999997] to accept it and to find a way for
+
+[3515.099 - 3519.2400000000002] themselves to be more creative by using
+
+[3517.619 - 3522.7200000000003] it that's where you're going to get
+
+[3519.24 - 3525.299] about the value like look I I think
+
+[3522.72 - 3526.98] if if you're a writer you know what are
+
+[3525.299 - 3529.2599999999998] the things that writers hate writers
+
+[3526.98 - 3532.02] hate marketing writers writers like to
+
+[3529.26 - 3535.1400000000003] write right you know writers hate doing
+
+[3532.02 - 3537.299] the the synopsis for my book the summary
+
+[3535.14 - 3539.22] for for Amazon like like I I know
+
+[3537.299 - 3541.38] writers and like it can sometimes take
+
+[3539.22 - 3543.72] more time doing that than it can like
+
+[3541.38 - 3545.28] writing like five chapters and in the
+
+[3543.72 - 3547.74] book because it's like oh God I gotta do
+
+[3545.28 - 3549.96] this like it's so painful like that
+
+[3547.74 - 3551.7599999999998] stuff where the AI can really really
+
+[3549.96 - 3554.52] help
+
+[3551.76 - 3558.119] um and so if you can be a kind of person
+
+[3554.52 - 3560.099] who can Embrace that for you know the
+
+[3558.119 - 3563.04] not let's just say the non-value-added
+
+[3560.099 - 3564.299] stuff or you know to frankly never have
+
+[3563.04 - 3566.339] writer's block
+
+[3564.299 - 3567.48] to just be in front of a page and say
+
+[3566.339 - 3569.22] hey can you give me three different
+
+[3567.48 - 3572.4] directions that I can go with this story
+
+[3569.22 - 3575.0989999999997] I'm stuck here or this character Arc is
+
+[3572.4 - 3577.2000000000003] giving me trouble like and to use that
+
+[3575.099 - 3579.48] like I think that that's going to be
+
+[3577.2 - 3581.7599999999998] really powerful again it's going to be
+
+[3579.48 - 3583.14] like having the advantage of having a
+
+[3581.76 - 3584.5200000000004] writing partner
+
+[3583.14 - 3587.54] um which is not something we all have
+
+[3584.52 - 3587.54] the advantage of having
+
+[3588.24 - 3594.24] yeah no I I just want to pause and and
+
+[3591.48 - 3595.5] give some appreciation to the gravity of
+
+[3594.24 - 3598.2] some of what you're bringing up here
+
+[3595.5 - 3600.359] because you know recently there's been a
+
+[3598.2 - 3603.299] huge backlash against AI generated art
+
+[3600.359 - 3606.24] and uh there's even Simone uh so I had
+
+[3603.299 - 3608.52] some mild uh controversy of my own
+
+[3606.24 - 3609.8999999999996] because I took down some of the tools
+
+[3608.52 - 3611.7] that I was making
+
+[3609.9 - 3614.099] um that would write novels or parts of
+
+[3611.7 - 3615.72] novels automatically and I took it down
+
+[3614.099 - 3618.119] a few months ago because I was like hold
+
+[3615.72 - 3619.98] on you know most of my friends are
+
+[3618.119 - 3620.88] writers and you know my fiance is a
+
+[3619.98 - 3622.619] writer and I was like I don't want to
+
+[3620.88 - 3624.1800000000003] hurt the people that I care about and
+
+[3622.619 - 3625.76] and like you said though part of the
+
+[3624.18 - 3628.3799999999997] problem is
+
+[3625.76 - 3630.119] disruption at this point is inevitable
+
+[3628.38 - 3632.28] like we can't put this Genie back in the
+
+[3630.119 - 3634.02] bottle so what do we do and and like you
+
+[3632.28 - 3636.1800000000003] said there we don't know enough right
+
+[3634.02 - 3637.68] now we don't have good answers uh
+
+[3636.18 - 3639.1189999999997] certainly not on the macro level so that
+
+[3637.68 - 3640.319] is that is definitely something to be
+
+[3639.119 - 3642.359] worried about
+
+[3640.319 - 3645.24] um and then also the scale of disruption
+
+[3642.359 - 3646.859] right like you know our imagination we
+
+[3645.24 - 3649.6189999999997] can't imagine what it's going to be like
+
+[3646.859 - 3651.42] if you know employment numbers change
+
+[3649.619 - 3653.52] and of course you know historically
+
+[3651.42 - 3655.079] there's one there's one Ray of Hope here
+
+[3653.52 - 3658.02] is historically new technologies
+
+[3655.079 - 3660.6600000000003] ultimately result in more jobs right
+
+[3658.02 - 3661.98] where you know labor gets easier people
+
+[3660.66 - 3663.48] are more productive there's more money
+
+[3661.98 - 3665.94] to go around there's more money to spend
+
+[3663.48 - 3667.38] which means demand for other services
+
+[3665.94 - 3669.78] but you know of course there's the
+
+[3667.38 - 3671.6400000000003] possibility that like it might not pan
+
+[3669.78 - 3673.92] out that way especially if the machine
+
+[3671.64 - 3675.5989999999997] is cheaper than the human labor and you
+
+[3673.92 - 3678.7200000000003] just take it away from people and then
+
+[3675.599 - 3680.04] who owns the machines right and then you
+
+[3678.72 - 3682.3799999999997] know of course this is this is like the
+
+[3680.04 - 3684.359] dark timeline speculation
+
+[3682.38 - 3686.52] um and so do you have any any reactions
+
+[3684.359 - 3688.5] to that or any comments or thoughts on
+
+[3686.52 - 3690.96] like you know ownership or
+
+[3688.5 - 3693.72] responsibility for some of this stuff
+
+[3690.96 - 3695.76] yeah the thing that I'm that I do
+
+[3693.72 - 3698.8799999999997] struggle most about is is really like
+
+[3695.76 - 3702.8390000000004] the training models and like I that is
+
+[3698.88 - 3706.2000000000003] where I'm because as humans we learn by
+
+[3702.839 - 3707.7599999999998] mimicry I mean as anybody who's has a
+
+[3706.2 - 3709.799] little kid or has had a little kid or
+
+[3707.76 - 3711.42] been around little kids know that's that
+
+[3709.799 - 3713.46] is just how we learn as humans and we
+
+[3711.42 - 3715.44] carry this throughout our lives
+
+[3713.46 - 3718.98] um we learn by mimicking we learn by
+
+[3715.44 - 3722.099] mimicking if you know anybody who
+
+[3718.98 - 3724.2] um has written as a teenager I'm sure if
+
+[3722.099 - 3725.7000000000003] you still have yourself as a teenager go
+
+[3724.2 - 3726.72] back and read what you wrote and it'll
+
+[3725.7 - 3729.1189999999997] probably make you want to throw up
+
+[3726.72 - 3732.48] because you're like oh this is just me
+
+[3729.119 - 3734.52] mimicking uh Isaac Asimov or or whatever
+
+[3732.48 - 3736.079] it is like that you were reading at the
+
+[3734.52 - 3738.42] time was was doing that I remember
+
+[3736.079 - 3740.819] writing something once as a kid I was
+
+[3738.42 - 3743.64] like oh my God I just like and then like
+
+[3740.819 - 3746.7] after I wrote it realized like I'm just
+
+[3743.64 - 3748.92] rewriting Watchmen like it's just it
+
+[3746.7 - 3750.839] didn't Dawning me though I'm like this
+
+[3748.92 - 3753.059] is just ripping off Alan Moore like what
+
+[3750.839 - 3754.2599999999998] am I even doing here
+
+[3753.059 - 3757.02] um and that's probably how I got away
+
+[3754.26 - 3760.8590000000004] from writing in in my youth
+
+[3757.02 - 3764.22] um so look as humans we have always done
+
+[3760.859 - 3766.74] this but like to have an AI model that
+
+[3764.22 - 3770.0989999999997] is being trained on and let's just stick
+
+[3766.74 - 3773.3999999999996] with art for a second on artists who may
+
+[3770.099 - 3777.2400000000002] not have explicitly who have not mind
+
+[3773.4 - 3778.92] you explicitly given permission to use
+
+[3777.24 - 3782.4599999999996] their artwork
+
+[3778.92 - 3785.94] I think that that you know are they
+
+[3782.46 - 3789.119] open to some sort of compensation
+
+[3785.94 - 3790.799] um are they open to saying you can't use
+
+[3789.119 - 3792.2400000000002] this like
+
+[3790.799 - 3796.2] I don't know how you say you can't
+
+[3792.24 - 3798.359] because here's the thing like even if um
+
+[3796.2 - 3801.0589999999997] okay I'm going with my comic Roots here
+
+[3798.359 - 3801.859] so so there was a very
+
+[3801.059 - 3805.38] um
+
+[3801.859 - 3807.9] so very popular artists in the 1990s guy
+
+[3805.38 - 3810.0] was named Rob liefeld who in many ways
+
+[3807.9 - 3811.859] is now a punching bag for like the style
+
+[3810.0 - 3817.4] that he created was kind of the epitome
+
+[3811.859 - 3820.38] of 90s male machismo comic art style and
+
+[3817.4 - 3824.2200000000003] but the style that he created got
+
+[3820.38 - 3826.98] mimicked by so many others so even if
+
+[3824.22 - 3828.299] Rob liefeld today's uh you know because
+
+[3826.98 - 3829.92] I could and I've done this I've
+
+[3828.299 - 3831.72] literally won into something and said
+
+[3829.92 - 3833.28] hey do something in the style of Life
+
+[3831.72 - 3834.66] held I'm like Ah that's it I could
+
+[3833.28 - 3836.46] totally recognize this style and
+
+[3834.66 - 3838.74] everything even if he said do you want
+
+[3836.46 - 3840.599] you can't use my style
+
+[3838.74 - 3843.1189999999997] um there's so many people that came
+
+[3840.599 - 3845.579] after him that were mimicking his style
+
+[3843.119 - 3846.96] that we never once said like hey even
+
+[3845.579 - 3849.6600000000003] though you're making your own original
+
+[3846.96 - 3852.18] work you can't mimic that
+
+[3849.66 - 3854.46] you know that then creates a whole thing
+
+[3852.18 - 3856.44] well then do we what if they want to be
+
+[3854.46 - 3860.28] included in there what if they want to
+
+[3856.44 - 3863.28] like be you know have opted in but their
+
+[3860.28 - 3864.6600000000003] their own style is in some way an homage
+
+[3863.28 - 3866.8190000000004] or mimicking or however you want to
+
+[3864.66 - 3869.339] think of it of that like what do we do
+
+[3866.819 - 3871.319] in those situations like
+
+[3869.339 - 3873.0] this is something I mean so honestly
+
+[3871.319 - 3876.0589999999997] this is something where I'm really
+
+[3873.0 - 3877.859] sympathetic to both sides here like I I
+
+[3876.059 - 3880.079] totally see both sides I don't know what
+
+[3877.859 - 3882.96] the answer is and this is a really
+
+[3880.079 - 3885.3590000000004] complicated question that our legal
+
+[3882.96 - 3888.96] system as it exists today with copyright
+
+[3885.359 - 3891.9] is nowhere near having a clear Solution
+
+[3888.96 - 3893.28] on and frankly at least in the U.S the
+
+[3891.9 - 3896.339] sooner we get down that path the better
+
+[3893.28 - 3901.02] but here's the reality is like
+
+[3896.339 - 3901.74] just one of 195 countries in the world
+
+[3901.02 - 3905.04] um
+
+[3901.74 - 3911.0989999999997] copyright law is very different wherever
+
+[3905.04 - 3912.7799999999997] you go ask any you know author what they
+
+[3911.099 - 3914.46] um you know how much money ask any
+
+[3912.78 - 3915.9] American Author how much money they make
+
+[3914.46 - 3916.92] for their books that are being sold in
+
+[3915.9 - 3919.319] Iran
+
+[3916.92 - 3920.94] and the answer is going to be zero
+
+[3919.319 - 3922.98] um because basically Iran does not
+
+[3920.94 - 3925.799] respect you and I shouldn't even say
+
+[3922.98 - 3929.04] respect Iran does not recognize U.S
+
+[3925.799 - 3931.44] copyright law so if you want to take a
+
+[3929.04 - 3933.0] American blog translate into Farsi that
+
+[3931.44 - 3935.7000000000003] is completely legal
+
+[3933.0 - 3937.92] um to do that for example and and that's
+
+[3935.7 - 3939.5989999999997] what the local laws are so
+
+[3937.92 - 3941.7000000000003] you're going to have 195 different
+
+[3939.599 - 3943.319] versions of them like I don't know what
+
+[3941.7 - 3945.5989999999997] this is going to look like this is you
+
+[3943.319 - 3947.52] know we get sense of geopolitics
+
+[3945.599 - 3950.339] you know and so forth like the one thing
+
+[3947.52 - 3954.72] that at least I try and do as part of
+
+[3950.339 - 3957.9] all this is I just disclose like crazy
+
+[3954.72 - 3960.7799999999997] so when I'm writing something
+
+[3957.9 - 3962.4] um you know I will if I'm using so the
+
+[3960.78 - 3964.079] example I gave before for what I was
+
+[3962.4 - 3966.299] doing in my class
+
+[3964.079 - 3969.0] in that one specifically I actually
+
+[3966.299 - 3971.339] color coded it and and I literally said
+
+[3969.0 - 3974.099] okay the green section boom and I put in
+
+[3971.339 - 3975.96] footnotes where everything came from and
+
+[3974.099 - 3978.42] how I was prompting like whenever I even
+
+[3975.96 - 3981.78] just use an image so I write on on
+
+[3978.42 - 3983.7000000000003] medium and on my on LinkedIn
+
+[3981.78 - 3987.2400000000002] um if I'm using an AI image which I use
+
+[3983.7 - 3990.359] lots of I will actually put this image
+
+[3987.24 - 3993.0589999999997] uh was developed on mid-journey by
+
+[3990.359 - 3995.339] Michael tedasco on this date from this
+
+[3993.059 - 3997.619] prompt and I literally put it in there
+
+[3995.339 - 4000.2599999999998] verbatim and if I said I'd use Rob
+
+[3997.619 - 4001.94] liefeld as a inspiration in that I will
+
+[4000.26 - 4003.26] say that
+
+[4001.94 - 4006.559] um foreign
+
+[4003.26 - 4009.6800000000003] it's a baby step like like I'm also not
+
+[4006.559 - 4012.619] monetizing this but I'm like at least I
+
+[4009.68 - 4014.8999999999996] think Step One is like being transparent
+
+[4012.619 - 4016.2200000000003] with disclosure on this it makes me feel
+
+[4014.9 - 4020.539] a little bit more comfortable even
+
+[4016.22 - 4023.5989999999997] though like I know if I made a uh a
+
+[4020.539 - 4024.28] picture of a Flying Tomato
+
+[4023.599 - 4027.38] um
+
+[4024.28 - 4029.059] you know even if I didn't say artist X
+
+[4027.38 - 4031.579] in there artist X might still be
+
+[4029.059 - 4033.079] inspiring that
+
+[4031.579 - 4035.7200000000003] that makes sense
+
+[4033.079 - 4038.7200000000003] yeah and and phenomenal breakdown of the
+
+[4035.72 - 4040.2799999999997] problem and and again it's it uh us two
+
+[4038.72 - 4042.3799999999997] talking in an afternoon is not gonna
+
+[4040.28 - 4045.92] we're not going to solve this problem
+
+[4042.38 - 4047.839] um but it's good to to especially as the
+
+[4045.92 - 4048.859] world is catching up because again the
+
+[4047.839 - 4051.339] whole reason that we're doing this
+
+[4048.859 - 4054.319] podcast is things are changing so fast
+
+[4051.339 - 4057.2] and you know we have an opportunity here
+
+[4054.319 - 4058.64] to at least add to the conversation and
+
+[4057.2 - 4060.6189999999997] help demystify it and keep the
+
+[4058.64 - 4063.319] conversation moving forward so just
+
+[4060.619 - 4066.319] thanks again for for coming on and
+
+[4063.319 - 4069.079] sharing all of that perspective
+
+[4066.319 - 4071.119] um phenomenal talk so I have uh just a
+
+[4069.079 - 4073.1600000000003] few few last questions
+
+[4071.119 - 4075.02] um what are you up to now
+
+[4073.16 - 4076.7599999999998] um who do you want to talk to and and
+
+[4075.02 - 4077.96] how do people reach you
+
+[4076.76 - 4080.3590000000004] um if there's anything you want to plug
+
+[4077.96 - 4082.16] or just tell everyone like what is it
+
+[4080.359 - 4085.339] that Mike tedasco is up to now what do
+
+[4082.16 - 4087.319] you want to be known for in 2023
+
+[4085.339 - 4089.0] what do I want to be known for oh man
+
+[4087.319 - 4091.64] you're making me set my goals a few
+
+[4089.0 - 4094.88] weeks early I love it I love it David um
+
+[4091.64 - 4096.679] look I am super super fascinated with
+
+[4094.88 - 4098.2390000000005] world of generative AI I mean the whole
+
+[4096.679 - 4100.16] reason I got to meet you was just
+
+[4098.239 - 4102.739] watching your YouTube videos over the
+
+[4100.16 - 4105.8589999999995] summer and being like Oh my God this guy
+
+[4102.739 - 4107.54] I learned so much from you in these
+
+[4105.859 - 4108.7390000000005] videos of just how to think through a
+
+[4107.54 - 4110.839] problem and like what are the
+
+[4108.739 - 4113.66] limitations and so forth so for that I
+
+[4110.839 - 4114.679] you know I deeply thank you and look I
+
+[4113.66 - 4116.7789999999995] want to
+
+[4114.679 - 4119.12] um meet and I want to just talk to smart
+
+[4116.779 - 4123.14] people in the space
+
+[4119.12 - 4125.96] um I'm fascinated I am I have no agenda
+
+[4123.14 - 4129.799] in many ways like I'm I want to just
+
+[4125.96 - 4132.199] learn and I want us as a society to come
+
+[4129.799 - 4135.199] out in a in a better place than than
+
+[4132.199 - 4137.12] what we can than what we might
+
+[4135.199 - 4139.099999999999] um I want us to not go down that dark
+
+[4137.12 - 4142.099999999999] timeline and I want us to just kind of
+
+[4139.1 - 4143.299] think about it and for me I think it
+
+[4142.1 - 4145.819] means like
+
+[4143.299 - 4147.98] it is an inevitability like I think we
+
+[4145.819 - 4151.52] in many ways as a society just have to
+
+[4147.98 - 4154.04] accept that but given that like what is
+
+[4151.52 - 4157.1] the best way that we can Embrace these
+
+[4154.04 - 4158.6] tools for the most good and look if
+
+[4157.1 - 4159.799] you're if you're a founder and working
+
+[4158.6 - 4161.839] on something and you want to bounce
+
+[4159.799 - 4164.179] ideas off me or you're just interested
+
+[4161.839 - 4166.699] in the space or anything like that
+
+[4164.179 - 4169.4] um I'd love to discuss more
+
+[4166.699 - 4171.44] um so I write on medium and Linkedin as
+
+[4169.4 - 4174.379999999999] I said before uh just my last name
+
+[4171.44 - 4176.7789999999995] tedasco t-o-d-a-s-c-o
+
+[4174.38 - 4178.279] is um where you can reach me on both
+
+[4176.779 - 4180.02] those
+
+[4178.279 - 4182.42] um I'm pretty much read only on Twitter
+
+[4180.02 - 4184.88] but if you do send a tweet to me you I I
+
+[4182.42 - 4187.88] will respond to it um I just don't post
+
+[4184.88 - 4189.259] much myself I'm also a tadasco on
+
+[4187.88 - 4191.66] Twitter
+
+[4189.259 - 4193.339] um uh I mean I I love just the intro
+
+[4191.66 - 4196.4] like you know just today on Twitter I
+
+[4193.339 - 4197.719] found out again just sorry I know we're
+
+[4196.4 - 4199.16] rapping but to throw it out there I
+
+[4197.719 - 4201.199] literally just saw this this morning it
+
+[4199.16 - 4204.139999999999] was a wonderful use case for um
+
+[4201.199 - 4206.96] generative Ai and using um
+
+[4204.14 - 4209.96] um gpt3 there's this thing called help a
+
+[4206.96 - 4212.179] reporter art out agent Haro h-a-r-o and
+
+[4209.96 - 4214.16] it's been around for years and I'm on it
+
+[4212.179 - 4217.82] and like basically it's any reporter in
+
+[4214.16 - 4220.34] the US who meets somebody who's an
+
+[4217.82 - 4223.099999999999] expert in AI or whatever it might be
+
+[4220.34 - 4225.26] just puts out a request and it's this
+
+[4223.1 - 4228.02] huge list hundreds and hundreds of links
+
+[4225.26 - 4229.820000000001] it's a disaster somebody just made this
+
+[4228.02 - 4232.040000000001] thing in zappier that basically says
+
+[4229.82 - 4234.0199999999995] okay when you see that in Gmail
+
+[4232.04 - 4236.12] um fill out this spreadsheets this will
+
+[4234.02 - 4237.7390000000005] have some keywords
+
+[4236.12 - 4239.54] um and then we're going to then send
+
+[4237.739 - 4243.62] that we're going to do some sort of
+
+[4239.54 - 4245.179] match using uh gpt3 and then
+
+[4243.62 - 4248.48] um based on what they're looking for
+
+[4245.179 - 4250.159] based on what you say your abilities are
+
+[4248.48 - 4251.659] we're going to even generate a cover
+
+[4250.159 - 4254.9] letter that you could send out to them
+
+[4251.659 - 4257.179] and to just built that in zapier at like
+
+[4254.9 - 4258.679] it's beautiful like it's just this
+
+[4257.179 - 4260.9] beautiful thing I'm like oh my God like
+
+[4258.679 - 4263.3] that was just this morning I saw that
+
+[4260.9 - 4266.179] and I'm like wow you know all of these
+
+[4263.3 - 4269.179] use cases it's so simple but like that
+
+[4266.179 - 4270.56] I'm sure for a lot of people is going to
+
+[4269.179 - 4271.88] make their life so much better it's
+
+[4270.56 - 4273.8] going to make it so much easier for
+
+[4271.88 - 4275.659000000001] reporters to find people for people to
+
+[4273.8 - 4277.28] find reporters and like it's taking
+
+[4275.659 - 4279.199] something that was built 20 years ago
+
+[4277.28 - 4282.259999999999] I'm putting a vast Improvement for
+
+[4279.199 - 4284.9] effectively zero cost on top of it
+
+[4282.26 - 4287.0] wow yeah that's a phenomenal use case
+
+[4284.9 - 4289.28] and that it actually reminds me so I'm a
+
+[4287.0 - 4291.38] writer as well and one of the one of the
+
+[4289.28 - 4294.38] possibilities that I foresee in terms of
+
+[4291.38 - 4296.84] as AI gets bigger and decentralized and
+
+[4294.38 - 4298.46] networked and stuff is what if what if
+
+[4296.84 - 4299.900000000001] you have a machine or an AI that just
+
+[4298.46 - 4301.699] says hey I know I know who you need to
+
+[4299.9 - 4303.44] talk to like you're going to be great
+
+[4301.699 - 4304.58] friends with this person and makes the
+
+[4303.44 - 4306.98] introduction like if you want to
+
+[4304.58 - 4308.6] obviously like consent matters privacy
+
+[4306.98 - 4309.62] matters but it's like hey there's
+
+[4308.6 - 4311.120000000001] someone that you might want to talk to
+
+[4309.62 - 4312.739] you might you might want to go work with
+
+[4311.12 - 4314.36] this person or you might want to you
+
+[4312.739 - 4316.159] know uh get to know this person
+
+[4314.36 - 4317.96] something like that and and what you
+
+[4316.159 - 4319.5199999999995] just said like this happened like
+
+[4317.96 - 4321.679] decades before I thought it would be
+
+[4319.52 - 4323.42] possible just because the tools the
+
+[4321.679 - 4325.159] platforms and they're recombining like
+
+[4323.42 - 4326.96] you know with zapier and Twitter and
+
+[4325.159 - 4328.219] Gmail and everything else and that's
+
+[4326.96 - 4329.78] just phenomenal thank you for sharing
+
+[4328.219 - 4331.76] that by the way that's uh that's great
+
+[4329.78 - 4333.199] sure so I could sure I'll share the link
+
+[4331.76 - 4334.6990000000005] as well it was it was amazing I'd love
+
+[4333.199 - 4336.62] to give the credit to the person who
+
+[4334.699 - 4339.5599999999995] created it so excellent perfect perfect
+
+[4336.62 - 4341.48] well thanks again Mike for uh this
+
+[4339.56 - 4344.360000000001] amazing talk and everything that you do
+
+[4341.48 - 4347.12] and just being well willing to help out
+
+[4344.36 - 4348.92] um and yeah so for all the members of my
+
+[4347.12 - 4351.62] audience uh reach out to Mike on
+
+[4348.92 - 4354.26] LinkedIn and medium those are his
+
+[4351.62 - 4356.12] primary stomping grounds and um who
+
+[4354.26 - 4357.5] knows maybe this time next year we'll be
+
+[4356.12 - 4360.38] in an entirely different world having
+
+[4357.5 - 4362.6] another year-end recap so uh thanks
+
+[4360.38 - 4364.28] everyone and Mike any any one or two
+
+[4362.6 - 4367.52] last words
+
+[4364.28 - 4370.219] um lastly look everyone just be good to
+
+[4367.52 - 4371.84] others just just think I think David you
+
+[4370.219 - 4374.0] you'd even said this in a recent thing
+
+[4371.84 - 4375.38] just like look this is a hard time that
+
+[4374.0 - 4379.219] we're going through we're going through
+
+[4375.38 - 4381.14] a step change as a society through this
+
+[4379.219 - 4383.36] um you know think ahead think about how
+
+[4381.14 - 4385.34] we're going to help our common man and
+
+[4383.36 - 4388.759999999999] woman with what we're trying to build
+
+[4385.34 - 4390.9800000000005] for this uh be good to others and um you
+
+[4388.76 - 4393.38] know let's build some wonderful world
+
+[4390.98 - 4395.839999999999] changing products together
+
+[4393.38 - 4398.719] excellent thanks so much see everyone
+
+[4395.84 - 4401.02] next time and uh yeah be excellent to
+
+[4398.719 - 4401.02] each other

@@ -1,0 +1,1621 @@
+[0.0 - 4.98] hello everybody David Shapiro here with
+
+[2.46 - 7.74] another video so today's video is about
+
+[4.98 - 10.019] super alignment uh for those that you
+
+[7.74 - 11.34] that might not know openai recently
+
+[10.019 - 12.780000000000001] announced that they are creating a super
+
+[11.34 - 16.5] alignment team and they are going to
+
+[12.78 - 19.68] commit 20 of their compute resources to
+
+[16.5 - 21.779] the task of solving super alignment So
+
+[19.68 - 23.52] today we're going to talk about how it
+
+[21.779 - 26.4] would work or more specifically the
+
+[23.52 - 29.16] challenges with super alignment and also
+
+[26.4 - 31.919999999999998] some of my uh let's say criticism my
+
+[29.16 - 34.26] feedback for openai based on what I know
+
+[31.92 - 36.0] about how they have approached alignment
+
+[34.26 - 37.379999999999995] so far and what they have said about
+
+[36.0 - 40.019999999999996] super alignment
+
+[37.38 - 41.7] uh before we get into the show all of my
+
+[40.02 - 43.440000000000005] work is completely open source and free
+
+[41.7 - 45.480000000000004] of ads and that is because I am
+
+[43.44 - 48.0] supported by a Grassroots movement now
+
+[45.48 - 50.038999999999994] in order to keep doing this your support
+
+[48.0 - 52.079] would be greatly appreciated and all
+
+[50.039 - 54.18] tiers on my patreon get you access to
+
+[52.079 - 56.76] the private Discord server so without
+
+[54.18 - 59.28] further Ado moving on
+
+[56.76 - 62.64] uh first the question is what is super
+
+[59.28 - 65.04] alignment uh so I got this summary just
+
+[62.64 - 67.26] I took open ai's statement on super
+
+[65.04 - 69.84] alignment and and got this nice little
+
+[67.26 - 71.34] summary uh super alignment is the
+
+[69.84 - 73.74000000000001] process of ensuring that super
+
+[71.34 - 76.08] intelligent AI systems which are systems
+
+[73.74 - 78.0] much smarter than humans follow human
+
+[76.08 - 82.619] intent so they keep using this word
+
+[78.0 - 84.299] intent which I have some feedback on it
+
+[82.619 - 85.439] involves developing new scientific and
+
+[84.299 - 87.96000000000001] Technical breakthroughs that can
+
+[85.439 - 89.75899999999999] effectively guide and control these
+
+[87.96 - 91.32] highly Advanced systems this is making
+
+[89.759 - 93.659] the Assumption of Courage ability which
+
+[91.32 - 95.15899999999999] we'll talk about later the goal is to
+
+[93.659 - 96.78] prevent potentially catastrophic
+
+[95.159 - 98.88000000000001] scenarios such as super intelligent
+
+[96.78 - 101.57900000000001] going rogue or becoming uncontrollable
+
+[98.88 - 103.32] super super alignment is a critical
+
+[101.579 - 104.96] challenge in the field of AI safety and
+
+[103.32 - 107.88] is considered one of the most important
+
+[104.96 - 109.91999999999999] unsolved technical problems of our time
+
+[107.88 - 111.83999999999999] so again this is paraphrase paraphrasing
+
+[109.92 - 114.96000000000001] open AI
+
+[111.84 - 117.479] super alignment is not about ethics and
+
+[114.96 - 119.46] disinformation super alignment is
+
+[117.479 - 121.2] fundamentally about X risk or what we
+
+[119.46 - 122.88] used to call existential risk but what
+
+[121.2 - 125.84] people have simplified to just call
+
+[122.88 - 128.399] Extinction risk it's not about jobs
+
+[125.84 - 130.38] displacement it's not about preserving
+
+[128.399 - 132.44] the economy as it is it's not even about
+
+[130.38 - 134.94] ethics and privacy
+
+[132.44 - 138.42] or social Credit Systems it's not about
+
+[134.94 - 140.28] democracy it's not about uh manipulation
+
+[138.42 - 142.98] campaigns or making money or even
+
+[140.28 - 145.68] regulation it is about preventing
+
+[142.98 - 147.17999999999998] extinction level events
+
+[145.68 - 149.4] all right so to help you understand
+
+[147.18 - 151.8] super alignment uh I found a couple
+
+[149.4 - 154.08] memes so these are from the AI safety
+
+[151.8 - 156.48000000000002] memes uh Twitter which is hilarious and
+
+[154.08 - 159.72] I definitely recommend you follow him uh
+
+[156.48 - 162.599] or then whoever the probably a human
+
+[159.72 - 165.42] hopefully a human anyways uh so this is
+
+[162.599 - 168.54] the show goth Meme and the idea is that
+
+[165.42 - 170.76] uh when you when you train a gigantic
+
+[168.54 - 173.16] model and of course these models are now
+
+[170.76 - 174.66] pushing multiple trillions of parameters
+
+[173.16 - 175.819] and they're trained on trillions of
+
+[174.66 - 178.26] tokens
+
+[175.819 - 180.48] uh you
+
+[178.26 - 181.85999999999999] you don't know what is in the model you
+
+[180.48 - 184.39999999999998] don't know what it learns you don't know
+
+[181.86 - 188.22000000000003] how it thinks and it is entirely too big
+
+[184.4 - 190.019] to uh to be remotely interpretable all
+
+[188.22 - 192.35999999999999] you can do is train the model and then
+
+[190.019 - 193.86] test it based on input and output and
+
+[192.36 - 197.22000000000003] you can try and trick it you can try and
+
+[193.86 - 199.5] find failure conditions uh basically
+
+[197.22 - 201.3] this is the Mesa optimization problem
+
+[199.5 - 203.4] where it's like okay you don't really
+
+[201.3 - 206.64000000000001] know what's going on inside inside the
+
+[203.4 - 210.18] Black Box uh and so unsupervised
+
+[206.64 - 211.79999999999998] learning uh Foundation models uh they
+
+[210.18 - 214.26000000000002] are scary because they will just start
+
+[211.8 - 216.54000000000002] spewing out all kinds of stuff all the
+
+[214.26 - 218.099] stuff that you saw on uh on the Bing
+
+[216.54 - 219.9] chat Sydney
+
+[218.099 - 223.5] um that was because they were they they
+
+[219.9 - 226.20000000000002] you got a little bit more raw raw output
+
+[223.5 - 228.239] from the model and of course that was uh
+
+[226.2 - 229.379] if you go watch the Y files that just
+
+[228.239 - 231.239] came out
+
+[229.379 - 232.739] um he had a really great dramatization
+
+[231.239 - 236.159] of some of the conversations that people
+
+[232.739 - 238.26] had with Sydney or being Ai and so that
+
+[236.159 - 240.35999999999999] gives you a kind of a closer peek under
+
+[238.26 - 242.22] the hood as to what's going on they have
+
+[240.36 - 244.20000000000002] since fixed it with some supervised fine
+
+[242.22 - 247.5] tuning and then of course there's our
+
+[244.2 - 250.26] rlhf which makes it uh behave very well
+
+[247.5 - 252.36] but the thing is is every now and then
+
+[250.26 - 253.92] you'll get a peek behind you know what's
+
+[252.36 - 256.019] actually going on and what it's actually
+
+[253.92 - 257.519] capable of doing and you will realize
+
+[256.019 - 259.799] that you are communicating with a
+
+[257.519 - 261.84000000000003] non-human intelligence and it's pretty
+
+[259.799 - 264.29999999999995] scary when that happens
+
+[261.84 - 266.15999999999997] uh this meme was great because it really
+
+[264.3 - 267.72] kind of shows the context of what actual
+
+[266.16 - 270.12] super intelligence is and I love the
+
+[267.72 - 271.199] simplification of this of the show goth
+
+[270.12 - 272.88] meme
+
+[271.199 - 275.82] um you know but basically the smartest
+
+[272.88 - 277.56] humans that have ever existed uh are
+
+[275.82 - 280.38] several orders of magnitude lower
+
+[277.56 - 281.699] capability than super intelligence and
+
+[280.38 - 283.86] since we're starting to see the first
+
+[281.699 - 285.41900000000004] Sparks of super intelligence hopefully
+
+[283.86 - 287.40000000000003] people will start to believe that super
+
+[285.419 - 288.9] intelligence is actually a thing we
+
+[287.4 - 290.75899999999996] still have some deniers out there which
+
+[288.9 - 295.19899999999996] I'll cover in just a second
+
+[290.759 - 297.18] okay so General challenges why is super
+
+[295.199 - 300.0] alignment hard
+
+[297.18 - 303.06] first and foremost is the normalcy bias
+
+[300.0 - 305.9] so human brains we evolved on the
+
+[303.06 - 309.18] savannas of Africa and then we spread
+
+[305.9 - 311.75899999999996] across the world and so our brains just
+
+[309.18 - 314.3] do not comprehend exponential growth it
+
+[311.759 - 317.34000000000003] is not something that is in our
+
+[314.3 - 320.759] evolutionary distribution and so uh Gary
+
+[317.34 - 324.17999999999995] Marcus uh an AI safety researcher is
+
+[320.759 - 326.16] fond of of pointing out that llms really
+
+[324.18 - 328.08] often fail to generalize outside of
+
+[326.16 - 330.90000000000003] their training distribution humans are
+
+[328.08 - 333.62] no different and uh in our evolutionary
+
+[330.9 - 336.71999999999997] training disposition uh uh distribution
+
+[333.62 - 338.16] we never experience anything truly
+
+[336.72 - 340.44000000000005] exponential
+
+[338.16 - 342.72] and the things that we do experience
+
+[340.44 - 344.94] that are exponential like the uh light
+
+[342.72 - 347.16] and sound because those are on uh I
+
+[344.94 - 349.56] think logarithmic scales
+
+[347.16 - 351.6] um your brain handles for you so you
+
+[349.56 - 353.22] still perceive it as geometric even
+
+[351.6 - 356.52000000000004] though your brain automatically Tunes
+
+[353.22 - 358.08000000000004] audio and and light levels uh so that
+
+[356.52 - 359.59999999999997] you just experience it within a much
+
+[358.08 - 362.58] narrower range
+
+[359.6 - 365.58000000000004] so that's one part of normalcy bias
+
+[362.58 - 367.68] which is just we are evolutionarily not
+
+[365.58 - 370.8] equipped to comprehend exponential
+
+[367.68 - 373.8] growth and exponential change uh beyond
+
+[370.8 - 376.44] that it is very difficult to understand
+
+[373.8 - 377.94] super intelligence even when you look at
+
+[376.44 - 380.34] the trends because all you see is a
+
+[377.94 - 382.319] trend on a graph like okay uh you know
+
+[380.34 - 385.56] parameter goes up and to the right oh
+
+[382.319 - 387.12] okay great you know uh token window goes
+
+[385.56 - 389.88] up and to the right training data goes
+
+[387.12 - 392.039] up and to the right we don't really have
+
+[389.88 - 394.259] a visceral intuitive emotional
+
+[392.039 - 396.96] understanding of what that means because
+
+[394.259 - 398.88] again normalcy bias and this is I'm not
+
+[396.96 - 400.79999999999995] saying that like if you have normalcy
+
+[398.88 - 403.21999999999997] bias you're dumb this is literally just
+
+[400.8 - 406.08] a fundamental limitation of human brains
+
+[403.22 - 408.41900000000004] uh and even those of us who study this
+
+[406.08 - 411.0] stuff and know that it's coming we
+
+[408.419 - 413.34] cannot predict exactly what it's going
+
+[411.0 - 415.56] to imply or what it's going to feel like
+
+[413.34 - 417.29999999999995] once it actually happens because again
+
+[415.56 - 419.58] we are anchored in the present moment
+
+[417.3 - 421.68] the present time because evolutionarily
+
+[419.58 - 423.3] speaking That's What mattered most if
+
+[421.68 - 425.1] you're hungry right now go find food if
+
+[423.3 - 426.479] there's a tiger right now go you know
+
+[425.1 - 428.34000000000003] get away from it or hit it with a stick
+
+[426.479 - 431.46] and then once you're safe you're safe
+
+[428.34 - 434.34] again so our time Horizon that our brain
+
+[431.46 - 436.25899999999996] thinks about is relatively small
+
+[434.34 - 439.85999999999996] and this these are all components that
+
+[436.259 - 442.259] feed into normalcy bias so this normalcy
+
+[439.86 - 446.52000000000004] bias creates a lot of problems for for
+
+[442.259 - 449.039] uh many many reasons one for a lot of
+
+[446.52 - 451.56] people they're just not even really like
+
+[449.039 - 453.65999999999997] willing or able to engage with the
+
+[451.56 - 455.28000000000003] conversation of super alignment because
+
+[453.66 - 457.319] of normalcy bias
+
+[455.28 - 460.919] this is why you see so much skepticism
+
+[457.319 - 462.3] out there uh and and and even for like I
+
+[460.919 - 463.919] said even for those of us that are
+
+[462.3 - 466.259] engaged even though we know what's
+
+[463.919 - 468.35999999999996] coming just our cognitive limitations
+
+[466.259 - 470.94] make it really difficult to accurately
+
+[468.36 - 472.44] forecast and predict the impact of some
+
+[470.94 - 474.71999999999997] of these things and we have to trust the
+
+[472.44 - 476.46] numbers and even then we can only think
+
+[474.72 - 478.88000000000005] so far into the future especially with
+
+[476.46 - 481.85999999999996] things changing as fast as they are
+
+[478.88 - 483.419] so here's a thought experiment that I
+
+[481.86 - 485.28000000000003] came up with to help you understand
+
+[483.419 - 486.96] super intelligence
+
+[485.28 - 489.78] think of a pigeon
+
+[486.96 - 491.539] they're very common they uh basically
+
+[489.78 - 494.4] exist in every major city in the world
+
+[491.539 - 496.68] they're mildly intelligent creatures
+
+[494.4 - 498.479] they can learn a few things they can
+
+[496.68 - 501.0] solve some basic problems and they can
+
+[498.479 - 503.34] remember uh simple facts like you know
+
+[501.0 - 505.139] where where to go get food they can even
+
+[503.34 - 506.52] learn to recognize certain humans like
+
+[505.139 - 508.5] if you go to the park and feed the
+
+[506.52 - 510.96] pigeons every day the pigeons will learn
+
+[508.5 - 513.18] to recognize you but other than that
+
+[510.96 - 515.5799999999999] they're pretty simple creatures
+
+[513.18 - 517.919] now when you compare the cognitive
+
+[515.58 - 522.659] capacity of a pigeon to even the dumbest
+
+[517.919 - 524.2189999999999] humans uh human pigeons are cognitively
+
+[522.659 - 526.26] deficient
+
+[524.219 - 528.36] you can't even compete on the same
+
+[526.26 - 530.3389999999999] playing field because humans are in a
+
+[528.36 - 531.899] fundamentally different class of
+
+[530.339 - 534.5400000000001] cognitive ability
+
+[531.899 - 537.54] compared to Super intelligence you are
+
+[534.54 - 540.06] dumber than the pigeon is to you know a
+
+[537.54 - 543.14] typical person and then not to mention
+
+[540.06 - 546.4799999999999] the fact that uh it's entirely possible
+
+[543.14 - 549.54] that that super intelligence or AGI or
+
+[546.48 - 552.54] whatever is going to possess orders of
+
+[549.54 - 554.6999999999999] magnitude more cognitive abilities and I
+
+[552.54 - 558.48] don't just mean speed I don't just mean
+
+[554.7 - 561.0] the ability to read uh you know text at
+
+[558.48 - 562.5] a human level you know a million times
+
+[561.0 - 565.86] faster which it's already getting close
+
+[562.5 - 567.6] to doing that uh what I mean is that it
+
+[565.86 - 570.36] will possess cognitive abilities the
+
+[567.6 - 572.279] ability to make connections to solve
+
+[570.36 - 574.98] problems and to understand things in a
+
+[572.279 - 578.1] way that humans might not be able to
+
+[574.98 - 579.24] ever compete with we have the illusion
+
+[578.1 - 580.98] that we can understand everything
+
+[579.24 - 583.14] because you're looking at your own mind
+
+[580.98 - 584.82] from inside the Fishbowl this is a
+
+[583.14 - 587.8199999999999] commonly discussed problem in epistem
+
+[584.82 - 590.4590000000001] epistemology and philosophy but the
+
+[587.82 - 593.1] thing is is you can imagine the mind of
+
+[590.459 - 595.26] a pigeon by virtue of the fact that the
+
+[593.1 - 597.5400000000001] pigeon's mind is much simpler and dumber
+
+[595.26 - 600.66] than yours and you can you know look at
+
+[597.54 - 603.66] it uh and and make inferences but the
+
+[600.66 - 606.18] pigeon lacks the ability to even
+
+[603.66 - 608.76] remotely comprehend your mind because
+
+[606.18 - 610.92] its mind is so much more limited that is
+
+[608.76 - 613.74] the difference between humans and super
+
+[610.92 - 616.68] intelligence and so basically remember
+
+[613.74 - 619.38] that you are a pigeon in comparison and
+
+[616.68 - 622.8] that will help you keep in mind what
+
+[619.38 - 625.2] super intelligence actually is and when
+
+[622.8 - 627.12] I say actually is like it is coming and
+
+[625.2 - 630.48] it is coming fast
+
+[627.12 - 632.94] another thing is AI dysphoria so this is
+
+[630.48 - 635.519] a this is a term that that I coined
+
+[632.94 - 637.5] because I have noticed in the comments
+
+[635.519 - 640.26] and read it and Twitter and all other
+
+[637.5 - 642.36] kinds of places there's a there's a few
+
+[640.26 - 645.42] fundamental kinds of reactions and most
+
+[642.36 - 649.26] of these are emotional reactions uh or
+
+[645.42 - 651.42] or social cultural reactions to AI uh so
+
+[649.26 - 654.36] basically one is denialism so this is
+
+[651.42 - 655.92] people that just reject AI
+
+[654.36 - 657.839] um like there's even people in the
+
+[655.92 - 659.9399999999999] comments that say AI does not exist and
+
+[657.839 - 662.82] will never exist and I'm like okay but
+
+[659.94 - 664.32] that's like observably patently false so
+
+[662.82 - 666.899] there are people that are clinging to
+
+[664.32 - 668.7] this denialism because the fear or
+
+[666.899 - 671.64] discomfort of acknowledging the
+
+[668.7 - 673.0790000000001] existence of something is too much it's
+
+[671.64 - 674.76] too overwhelming and so they just say
+
+[673.079 - 676.62] I'm gonna pretend like it doesn't exist
+
+[674.76 - 678.42] and we saw this with the pandemic
+
+[676.62 - 680.22] remember there was plenty of people just
+
+[678.42 - 682.74] saying that like the pandemic isn't real
+
+[680.22 - 685.2] stop trying to control me and these are
+
+[682.74 - 687.0600000000001] there were plenty of people who denied
+
+[685.2 - 691.019] the existence of the pandemic even on
+
+[687.06 - 695.9399999999999] their deathbed they still got themselves
+
+[691.019 - 698.399] into mental uh gymnastics to say no it's
+
+[695.94 - 699.6600000000001] just emphysema or it's just what did
+
+[698.399 - 702.6] they call it
+
+[699.66 - 704.3389999999999] um uh pneumonia they they called it you
+
+[702.6 - 706.0790000000001] know oh I just have bad pneumonia and
+
+[704.339 - 707.94] then they would die and it's like you
+
+[706.079 - 709.8599999999999] literally died of of the pandemic but
+
+[707.94 - 711.6] the concept of the pandemic was too
+
+[709.86 - 713.76] terrifying that they could never
+
+[711.6 - 715.62] emotionally reconcile
+
+[713.76 - 717.899] the reality that they were literally
+
+[715.62 - 719.88] dying of it with its existence with the
+
+[717.899 - 721.44] fact of its existence and so I suspect
+
+[719.88 - 722.88] we're going to see the same thing with
+
+[721.44 - 725.1] artificial intelligence where some
+
+[722.88 - 727.38] people are just going to be locked in a
+
+[725.1 - 729.9590000000001] state of denial basically forever
+
+[727.38 - 731.519] another one is plain ignorance so this
+
+[729.959 - 733.5] is not technically dysphoria but it
+
+[731.519 - 736.26] needed to be on the list where some
+
+[733.5 - 738.06] people just don't get it like if you do
+
+[736.26 - 740.16] not understand how it works you don't
+
+[738.06 - 742.6199999999999] understand what it's capable of you're
+
+[740.16 - 744.779] just not exposed to it you're not uh
+
+[742.62 - 746.1] you're not educated enough or maybe in
+
+[744.779 - 748.26] some cases people are just not
+
+[746.1 - 750.12] intelligent enough to get it plain and
+
+[748.26 - 752.399] simple ignorance is another reason that
+
+[750.12 - 754.8] a lot of people are not going to engage
+
+[752.399 - 756.899] with AI at the level of discussion that
+
+[754.8 - 759.24] it needs to happen number three is
+
+[756.899 - 761.88] magical thinking so these are the kinds
+
+[759.24 - 764.519] of people that immediately assume and
+
+[761.88 - 767.399] and very desperately want to see a soul
+
+[764.519 - 770.7] in the machine the most famous example
+
+[767.399 - 772.5] is uh Blake Lemoine uh at Google who
+
+[770.7 - 774.72] basically there was a really great
+
+[772.5 - 776.639] Reddit meme when he got fired from
+
+[774.72 - 778.44] Google where he you know the the chat
+
+[776.639 - 780.0600000000001] log was basically like you know tell me
+
+[778.44 - 781.32] that you have a soul and then then the
+
+[780.06 - 783.1199999999999] language model says yes I have a soul
+
+[781.32 - 785.339] and see and the guy's like oh holy
+
+[783.12 - 787.38] like there are there are so many people
+
+[785.339 - 789.36] out there that want to imagine that we
+
+[787.38 - 791.82] already have super intelligence that the
+
+[789.36 - 793.5600000000001] the the machine is already sentient that
+
+[791.82 - 796.6800000000001] it already deserves rights and I'm like
+
+[793.56 - 798.42] it's it's still just a math model that's
+
+[796.68 - 800.519] telling you what it's programmed to
+
+[798.42 - 802.1999999999999] think that it wants having been working
+
+[800.519 - 803.579] with these large language models since
+
+[802.2 - 806.1600000000001] gpt2
+
+[803.579 - 807.66] I will tell you that understanding that
+
+[806.16 - 810.0] the that the underlying language model
+
+[807.66 - 812.399] is just predicting the next token right
+
+[810.0 - 815.339] it's they spew out absolute gibberish
+
+[812.399 - 819.48] like seriously go use gpt2 or the
+
+[815.339 - 821.5790000000001] original gpt3 and any any illusion that
+
+[819.48 - 823.5] you have that there's a soul in there or
+
+[821.579 - 825.18] that it has extraordinary powers or that
+
+[823.5 - 827.7] it's literally anything other than an
+
+[825.18 - 829.26] autocomplete engine will be dispelled so
+
+[827.7 - 832.2] that goes back to that shogoth thing
+
+[829.26 - 834.3] right the the absolute gibberish that
+
+[832.2 - 837.0] Foundation models spew out once before
+
+[834.3 - 840.66] they're trained will this will dispel
+
+[837.0 - 842.639] any myth of uh disabuse you of any uh
+
+[840.66 - 845.399] illusion that there's something else
+
+[842.639 - 848.16] going on other than just autocomplete
+
+[845.399 - 851.279] um it's the it's that it's the rlhf that
+
+[848.16 - 853.68] makes it uh appear more human-like and
+
+[851.279 - 855.3] that's peridolia uh probably saying that
+
+[853.68 - 857.519] right I got criticized last time I tried
+
+[855.3 - 861.3599999999999] to say peridolia
+
+[857.519 - 862.94] um but basically we are programmed to uh
+
+[861.36 - 865.2] perceive human-like things into
+
+[862.94 - 867.899] anthropomorphize things number four is
+
+[865.2 - 869.639] doomerism so doomerism as I've unpacked
+
+[867.899 - 872.339] in some of my other videos is often
+
+[869.639 - 875.519] rooted in uh intergenerational trauma
+
+[872.339 - 877.44] failed parents uh uh you know a
+
+[875.519 - 880.019] nihilistic outlook for whatever reason
+
+[877.44 - 882.6] and so basically what happens is that a
+
+[880.019 - 884.4590000000001] lot of people take their intrinsic dread
+
+[882.6 - 886.8000000000001] their intrinsic fear their intrinsic
+
+[884.459 - 889.56] self-loathing whatever it is based on
+
+[886.8 - 891.18] their experience and oftentimes it's uh
+
+[889.56 - 893.0999999999999] it's completely unconscious I'm not
+
+[891.18 - 894.899] saying that someone's like ah you know I
+
+[893.1 - 896.1] hate my life and so therefore I want to
+
+[894.899 - 898.019] see the world burn and no it's
+
+[896.1 - 899.6990000000001] completely unconscious it's basically
+
+[898.019 - 902.04] just that they have a negative outlook
+
+[899.699 - 904.139] because of their life experience and
+
+[902.04 - 905.88] then they project that onto artificial
+
+[904.139 - 908.1] intelligence and it's basically a
+
+[905.88 - 909.24] manifestation of a Death Wish
+
+[908.1 - 911.519] um that's not the only reason for
+
+[909.24 - 914.04] doomerism some people who are very
+
+[911.519 - 916.26] intelligent and oriented uh towards this
+
+[914.04 - 919.56] stuff they still rationally come to the
+
+[916.26 - 921.48] conclusion uh that uh that AI is
+
+[919.56 - 922.92] incredibly dangerous uh and I
+
+[921.48 - 924.839] acknowledge that I acknowledge that if
+
+[922.92 - 927.0] we do this wrong AI is is incredibly
+
+[924.839 - 929.339] dangerous and it could cause an
+
+[927.0 - 930.839] extinction level event but what a Doomer
+
+[929.339 - 932.82] is the difference is that this is
+
+[930.839 - 936.12] someone who seems to want to believe
+
+[932.82 - 937.8000000000001] that AI will kill us all and to me that
+
+[936.12 - 939.72] just looks like okay there's an
+
+[937.8 - 942.42] opportunity to fulfill a death wish
+
+[939.72 - 945.4200000000001] sorry uh and then the opposite of that
+
+[942.42 - 947.8199999999999] is utopianism which is the idea that AI
+
+[945.42 - 949.56] is going to intrinsically solve all of
+
+[947.82 - 951.4200000000001] our problems but as as you might have
+
+[949.56 - 953.579] seen in some of my other videos uh
+
+[951.42 - 955.019] technology is is always a double-edged
+
+[953.579 - 957.0] sword and it's a it's a dual use
+
+[955.019 - 959.04] technology and more often than not
+
+[957.0 - 962.04] technology actually makes some things
+
+[959.04 - 964.38] much much worse before it gets better so
+
+[962.04 - 966.779] it is not intrinsically a Force for good
+
+[964.38 - 968.279] it is a dangerous force it is an
+
+[966.779 - 970.26] energetic Force which must be used
+
+[968.279 - 972.3] responsibly
+
+[970.26 - 974.8199999999999] another challenge is the geopolitical
+
+[972.3 - 977.76] arms race that is already starting
+
+[974.82 - 979.98] uh the the the the one of the opening
+
+[977.76 - 982.4399999999999] one of those strongest opening moves was
+
+[979.98 - 984.9590000000001] when the United States cut off the sub
+
+[982.44 - 987.48] the the flow of AI chips to China
+
+[984.959 - 990.54] another thing that's less well known is
+
+[987.48 - 992.399] that we also uh basically recalled all
+
+[990.54 - 995.04] of our AI engineers and all of our chip
+
+[992.399 - 996.6] Fab Engineers it basically said like you
+
+[995.04 - 998.519] need a special permit if you're gonna
+
+[996.6 - 1002.0] keep working in China otherwise you're
+
+[998.519 - 1004.22] being recalled home uh so that's
+
+[1002.0 - 1006.74] basically saying hey we're gonna we're
+
+[1004.22 - 1008.779] gonna we're gonna force uh brain drain
+
+[1006.74 - 1011.36] on China by Taking Back all of our best
+
+[1008.779 - 1014.3] engineers and scientists at the same
+
+[1011.36 - 1017.0] time uh people are putting AI into
+
+[1014.3 - 1019.0999999999999] drones we've seen this in uh the Russia
+
+[1017.0 - 1020.6] Ukraine conflict where there are more
+
+[1019.1 - 1023.4200000000001] and more autonomous drones being
+
+[1020.6 - 1025.699] deployed meanwhile China Russia and
+
+[1023.42 - 1028.28] America and everyone else is putting
+
+[1025.699 - 1030.559] more and more AI into jet fighters and
+
+[1028.28 - 1033.9189999999999] every and literally every other weapon
+
+[1030.559 - 1035.48] uh so on top of the military incentives
+
+[1033.919 - 1037.459] that there are to create create more
+
+[1035.48 - 1040.16] sophisticated weapons there is the
+
+[1037.459 - 1043.04] geopolitical incentive to maintain a
+
+[1040.16 - 1045.74] level of influence on the geopolitical
+
+[1043.04 - 1047.839] world stage whether that's being uh
+
+[1045.74 - 1049.64] militarily competitive or economically
+
+[1047.839 - 1051.86] competitive or whatever
+
+[1049.64 - 1054.2] and one thing I want to caution here is
+
+[1051.86 - 1056.36] that the geopolitical arms race is in no
+
+[1054.2 - 1058.82] way open ai's responsibility or any
+
+[1056.36 - 1061.6399999999999] other individual corporations because
+
+[1058.82 - 1063.5] even if openai and Google and Microsoft
+
+[1061.64 - 1065.8400000000001] and all of them literally just flat out
+
+[1063.5 - 1068.539] refuse to serve the Pentagon or the
+
+[1065.84 - 1071.059] Department of Defense guess what the the
+
+[1068.539 - 1072.32] the United States military and every
+
+[1071.059 - 1073.7] other military they have their own
+
+[1072.32 - 1075.6789999999999] budget and they can hire their own
+
+[1073.7 - 1077.0] experts and they can they can still make
+
+[1075.679 - 1079.5800000000002] it happen
+
+[1077.0 - 1082.76] um and so I want to say like yes I will
+
+[1079.58 - 1084.32] be criticizing open ai's approach but in
+
+[1082.76 - 1087.08] this particular case I want to say that
+
+[1084.32 - 1089.48] this is way outside of the scope of open
+
+[1087.08 - 1092.96] AI but this also underscores the fact
+
+[1089.48 - 1096.14] that we absolutely 100 percent not not
+
+[1092.96 - 1099.26] just need Federal level regulation and
+
+[1096.14 - 1102.38] research uh I'm not we also need
+
+[1099.26 - 1103.94] International and Global regulation and
+
+[1102.38 - 1106.46] research because some of these things
+
+[1103.94 - 1109.64] are so far outside of the scope of just
+
+[1106.46 - 1113.48] deploying models and Commercial tools
+
+[1109.64 - 1116.179] and then uh finally is open source so
+
+[1113.48 - 1119.1200000000001] there are uh more than a few commenters
+
+[1116.179 - 1120.74] out there like um uh Dr Roman uh
+
+[1119.12 - 1122.4799999999998] Chowdhury I think I hope I'm saying her
+
+[1120.74 - 1123.919] name right and Gary Marcus and quite a
+
+[1122.48 - 1126.799] few others
+
+[1123.919 - 1128.2990000000002] um who are not Eliezer utkowski but
+
+[1126.799 - 1130.46] there are plenty of people basically
+
+[1128.299 - 1132.3799999999999] saying uh the same thing that the the
+
+[1130.46 - 1134.179] polls that I ran on my YouTube channel
+
+[1132.38 - 1137.179] say which is that a lot of people
+
+[1134.179 - 1139.64] anticipate that open source models are
+
+[1137.179 - 1141.919] going to overtake and eventually replace
+
+[1139.64 - 1144.74] closed Source models
+
+[1141.919 - 1146.9] so the thing is is once it's open source
+
+[1144.74 - 1148.52] you can't really put that Genie back in
+
+[1146.9 - 1150.2] the bottle and a lot of people already
+
+[1148.52 - 1152.9] say the cat is out of the bag the horse
+
+[1150.2 - 1154.94] has left the barn and is down the street
+
+[1152.9 - 1156.74] and so in this case you have a
+
+[1154.94 - 1159.679] competitive landscape where it doesn't
+
+[1156.74 - 1161.24] matter what open AI research does it
+
+[1159.679 - 1163.4] doesn't matter what Google deepmind
+
+[1161.24 - 1165.679] research does it doesn't matter what
+
+[1163.4 - 1168.2] regulations anyone passes and this is
+
+[1165.679 - 1170.299] one of the nightmare scenarios that
+
+[1168.2 - 1172.039] people point out that regulation no
+
+[1170.299 - 1174.5] matter what you do will not be enough
+
+[1172.039 - 1176.48] that research no matter what you do will
+
+[1174.5 - 1178.34] not be enough and so basically we're
+
+[1176.48 - 1180.14] going to end up in a situation where you
+
+[1178.34 - 1183.1999999999998] have to fight fire with fire you have to
+
+[1180.14 - 1186.14] fight misaligned models misaligned AI
+
+[1183.2 - 1188.24] with aligned AI but then that that if
+
+[1186.14 - 1191.0590000000002] you're relying on AI to fight your Wars
+
+[1188.24 - 1192.74] for you what if it switches sides
+
+[1191.059 - 1193.539] so these are some major major major
+
+[1192.74 - 1196.7] major
+
+[1193.539 - 1198.02] challenges with open Ai and one thing
+
+[1196.7 - 1200.6000000000001] that I'll say before we get into the
+
+[1198.02 - 1202.6399999999999] criticism is the fact that open AI is
+
+[1200.6 - 1204.86] talking about red teaming and
+
+[1202.64 - 1207.38] deliberately creating misaligned AI
+
+[1204.86 - 1210.4399999999998] models in order to test super alignment
+
+[1207.38 - 1212.96] that is absolutely Far and Away the best
+
+[1210.44 - 1215.419] thing about what they are planning on
+
+[1212.96 - 1218.539] doing now with that said I do have some
+
+[1215.419 - 1220.1000000000001] criticism of open ai's approach
+
+[1218.539 - 1222.559] so first
+
+[1220.1 - 1225.1399999999999] open AI is somewhat preoccupied with
+
+[1222.559 - 1227.12] human intention and human values you've
+
+[1225.14 - 1228.919] probably seen this in chat GPT whenever
+
+[1227.12 - 1230.12] you talk about Ai and safety where it's
+
+[1228.919 - 1232.46] like you know we need to make sure it
+
+[1230.12 - 1234.62] stays aligned with human values this was
+
+[1232.46 - 1237.02] very clearly shoehorned in by their own
+
+[1234.62 - 1239.36] internal alignment process which to be
+
+[1237.02 - 1241.46] fair it's a good start you know
+
+[1239.36 - 1244.82] basically saying let's align AI to human
+
+[1241.46 - 1248.24] values that's a good start for aligning
+
+[1244.82 - 1252.4399999999998] as a universal principle to adhere to
+
+[1248.24 - 1255.14] but uh there's very much a Walled Garden
+
+[1252.44 - 1257.0] effect going on here or an ivory Tower
+
+[1255.14 - 1259.4] effect and what I mean by that is that
+
+[1257.0 - 1261.26] this is this is a particular and a
+
+[1259.4 - 1263.66] well-documented trend in Silicon Valley
+
+[1261.26 - 1265.46] and it's not just open AI that does this
+
+[1263.66 - 1268.8200000000002] it's literally every tech company on the
+
+[1265.46 - 1270.32] west coast of America uh where they kind
+
+[1268.82 - 1271.58] of believe that they are the smartest
+
+[1270.32 - 1273.4399999999998] people in the world and that they are
+
+[1271.58 - 1275.78] the only people in the world capable of
+
+[1273.44 - 1277.88] solving this problem but the thing is is
+
+[1275.78 - 1280.16] that egotistical belief prevents them
+
+[1277.88 - 1282.2600000000002] from looking out the window and and
+
+[1280.16 - 1284.059] getting the help of other experts and so
+
+[1282.26 - 1286.8799999999999] I have a really great example from my
+
+[1284.059 - 1289.7] last corporate job I was talking to a
+
+[1286.88 - 1293.8400000000001] seasoned software architect someone that
+
+[1289.7 - 1296.0] you would assume had a masterful command
+
+[1293.84 - 1298.6399999999999] of the full Tech stack that goes into
+
+[1296.0 - 1301.46] producing good software
+
+[1298.64 - 1303.26] and so at one point he said we're gonna
+
+[1301.46 - 1305.48] do we're going to automate literally
+
+[1303.26 - 1307.4] everything you infrastructure guys
+
+[1305.48 - 1310.039] aren't going to need to touch jack
+
+[1307.4 - 1313.4] after this and I said okay does that
+
+[1310.039 - 1315.5] include authentication firewalls backup
+
+[1313.4 - 1317.3600000000001] power Does it include all this other
+
+[1315.5 - 1320.36] stuff and he just kind of like you could
+
+[1317.36 - 1322.82] see the 404 not found in his eyes he
+
+[1320.36 - 1325.6399999999999] literally had no idea how much actually
+
+[1322.82 - 1328.039] goes into the full Tech stack to make
+
+[1325.64 - 1331.8200000000002] software work when he said everything
+
+[1328.039 - 1334.28] his definition of quote everything was
+
+[1331.82 - 1336.3799999999999] just the software just the code he
+
+[1334.28 - 1338.059] didn't know anything about containers he
+
+[1336.38 - 1339.5] didn't know anything about data centers
+
+[1338.059 - 1342.02] he didn't know anything about cyber
+
+[1339.5 - 1344.539] security and so my point here is and I'm
+
+[1342.02 - 1346.7] not saying that open AI is this bad but
+
+[1344.539 - 1349.4] they're still human and when you look at
+
+[1346.7 - 1351.26] who's on the payroll of open AI they
+
+[1349.4 - 1353.1200000000001] haven't hired a lot of public policy
+
+[1351.26 - 1354.86] people they haven't hired a lot of
+
+[1353.12 - 1358.6399999999999] philosophers in ethicists they haven't
+
+[1354.86 - 1360.74] hired civil rights people uh and so when
+
+[1358.64 - 1362.8400000000001] when they come up with these somewhat
+
+[1360.74 - 1365.179] contrived ideas about aligning to human
+
+[1362.84 - 1367.3999999999999] intention and aligning to human values
+
+[1365.179 - 1369.0800000000002] all you have to do is is have a five
+
+[1367.4 - 1371.48] minute conversation with a philosopher
+
+[1369.08 - 1375.1999999999998] to realize that those are really garbage
+
+[1371.48 - 1377.96] things to align to and so again
+
+[1375.2 - 1379.7] you know a for initial effort but they
+
+[1377.96 - 1382.1000000000001] really really need to look out the
+
+[1379.7 - 1384.5] window and bring in more experts so here
+
+[1382.1 - 1387.1999999999998] are some solutions one
+
+[1384.5 - 1390.679] open AI really really really needs to
+
+[1387.2 - 1392.539] add human rights as a core discipline in
+
+[1390.679 - 1395.0590000000002] their research of not just alignment but
+
+[1392.539 - 1397.299] also super alignment and the reason is
+
+[1395.059 - 1399.559] because human rights is one
+
+[1397.299 - 1402.559] well-established and well-researched and
+
+[1399.559 - 1404.24] and two it is uh there's plenty of
+
+[1402.559 - 1406.6399999999999] people that are going to be able to talk
+
+[1404.24 - 1408.5] about how protecting human rights is
+
+[1406.64 - 1410.659] really the ultimate goal of super
+
+[1408.5 - 1413.0] alignment it's not aligning to what
+
+[1410.659 - 1415.7600000000002] humans want or what humans say they want
+
+[1413.0 - 1417.32] because any psychologist again another
+
+[1415.76 - 1419.179] five-minute conversation with any
+
+[1417.32 - 1421.1589999999999] psychologist will tell you yeah humans
+
+[1419.179 - 1423.919] are absolutely unable to express what
+
+[1421.159 - 1427.1000000000001] they truly want and truly need but human
+
+[1423.919 - 1429.38] rights however the objective rights to
+
+[1427.1 - 1431.539] create the safe environment that we all
+
+[1429.38 - 1433.5200000000002] want to live in that is a conversation
+
+[1431.539 - 1435.32] that you can actually have and that is
+
+[1433.52 - 1438.32] while research from the perspective of
+
+[1435.32 - 1442.8999999999999] Sociology psychology philosophy ethics
+
+[1438.32 - 1446.0] public policy Game Theory so
+
+[1442.9 - 1448.039] yeah also so anthropic also already
+
+[1446.0 - 1450.02] figured this out they're getting closer
+
+[1448.039 - 1451.82] I do have some issues with anthropics
+
+[1450.02 - 1453.1399999999999] constitutional AI but it's moving in the
+
+[1451.82 - 1455.8999999999999] right direction and the difference is
+
+[1453.14 - 1459.0800000000002] that anthropic is listing out in those
+
+[1455.9 - 1460.94] clear objective terms the values the The
+
+[1459.08 - 1463.6] Guiding principles that they want their
+
+[1460.94 - 1466.3400000000001] AI to align to so in this respect
+
+[1463.6 - 1467.9599999999998] anthropic gets an a in in super
+
+[1466.34 - 1470.84] alignment they're already moving in the
+
+[1467.96 - 1472.94] right direction and open AI I believe is
+
+[1470.84 - 1474.98] still moving in the wrong direction at
+
+[1472.94 - 1477.0800000000002] least with the exception of of some of
+
+[1474.98 - 1478.94] the the the tactics that they outlined
+
+[1477.08 - 1481.34] in their their paper and again I want to
+
+[1478.94 - 1483.8600000000001] reiterate the fact that open AI is going
+
+[1481.34 - 1485.84] to deliberately create misaligned AI to
+
+[1483.86 - 1489.74] see how it behaves and to see if they
+
+[1485.84 - 1491.36] can detect it that is absolutely 100 A
+
+[1489.74 - 1492.679] Plus at least on that section of the
+
+[1491.36 - 1498.1399999999999] quiz
+
+[1492.679 - 1500.0590000000002] but oecd EU the UN the White House all
+
+[1498.14 - 1501.7990000000002] of these other agencies that have a lot
+
+[1500.059 - 1504.74] of researchers and a lot of advisors
+
+[1501.799 - 1507.799] including uh machine learning and AI
+
+[1504.74 - 1511.159] advisors all talk about protecting human
+
+[1507.799 - 1513.98] rights so why is it that a that open AI
+
+[1511.159 - 1517.64] has not talked about protecting human
+
+[1513.98 - 1519.679] rights in their AI alignment research
+
+[1517.64 - 1520.76] that is very concerning to me and we'll
+
+[1519.679 - 1521.9] come back to that at the end of the
+
+[1520.76 - 1524.779] video
+
+[1521.9 - 1526.039] another the other major criticism that I
+
+[1524.779 - 1529.1] have for open AI is that they're
+
+[1526.039 - 1531.44] continuing to ignore autonomous agents
+
+[1529.1 - 1533.779] what they in their in their description
+
+[1531.44 - 1536.6000000000001] they have explicitly stated that they
+
+[1533.779 - 1538.4] never want to lose control of of the
+
+[1536.6 - 1540.02] machine they believe that they will
+
+[1538.4 - 1542.96] remain in control they believe that they
+
+[1540.02 - 1545.299] can uh remain in control and this is a
+
+[1542.96 - 1547.94] very dangerous assumption to make if you
+
+[1545.299 - 1550.52] listen to Conor Leahy and Ellie azer the
+
+[1547.94 - 1554.48] yukowski and literally dozens of other
+
+[1550.52 - 1556.8799999999999] uh people out there uh they uh Robert
+
+[1554.48 - 1559.159] Miles lots and lots of people say that
+
+[1556.88 - 1561.14] this is a far harder problem to solve
+
+[1559.159 - 1563.5390000000002] and in my opinion it is actually not
+
+[1561.14 - 1564.98] possible to solve that so this is called
+
+[1563.539 - 1567.08] the control problem or the courage
+
+[1564.98 - 1569.299] ability problem which is basically can
+
+[1567.08 - 1571.22] you correct the Ai No matter how smart
+
+[1569.299 - 1574.4] it becomes or autonomous
+
+[1571.22 - 1576.74] the thing is is if and there seems to be
+
+[1574.4 - 1579.5590000000002] some consensus amongst people that yes
+
+[1576.74 - 1581.9] AI can get to the point where you cannot
+
+[1579.559 - 1583.059] control it so instead what we should do
+
+[1581.9 - 1586.5800000000002] is is
+
+[1583.059 - 1588.98] seek to shape it set it on a trajectory
+
+[1586.58 - 1590.8999999999999] so that you don't need to control it now
+
+[1588.98 - 1592.22] this is where I say that the fact that
+
+[1590.9 - 1594.26] they're going to be you know creating
+
+[1592.22 - 1596.84] red teaming AIS and internally red
+
+[1594.26 - 1599.6589999999999] teaming tests and sandboxes and that
+
+[1596.84 - 1601.6999999999998] sort of stuff I think open AI might
+
+[1599.659 - 1603.8600000000001] ultimately come to this realization on
+
+[1601.7 - 1605.539] their own I wish they would be thinking
+
+[1603.86 - 1607.4599999999998] about this up front I wish that they
+
+[1605.539 - 1609.799] would be if they had just mentioned
+
+[1607.46 - 1611.539] autonomous agents the fact that they
+
+[1609.799 - 1614.84] want to test it and to see if they can
+
+[1611.539 - 1616.58] just just for the sake of argument I
+
+[1614.84 - 1617.74] really wish that openai would say we're
+
+[1616.58 - 1619.9399999999998] going to see if we can make
+
+[1617.74 - 1621.32] intrinsically stable and trustworthy
+
+[1619.94 - 1624.44] autonomous agents no matter how
+
+[1621.32 - 1626.36] intelligent and independent they become
+
+[1624.44 - 1627.799] the fact that they're not willing to
+
+[1626.36 - 1629.6589999999999] test that that they're not even willing
+
+[1627.799 - 1631.52] to say it is really
+
+[1629.659 - 1634.1000000000001] alarming to me because I think that they
+
+[1631.52 - 1636.02] should be pursuing literally every
+
+[1634.1 - 1637.58] Avenue that they can
+
+[1636.02 - 1639.559] so here's the solution
+
+[1637.58 - 1642.1999999999998] one
+
+[1639.559 - 1643.94] just go ahead and maybe throw out human
+
+[1642.2 - 1646.3400000000001] intention as something to align to
+
+[1643.94 - 1648.919] because human intention is garbage uh
+
+[1646.34 - 1651.1999999999998] and maybe like I just said pivot the
+
+[1648.919 - 1652.46] research goal to creating models and
+
+[1651.2 - 1655.7] agents that are intrinsically
+
+[1652.46 - 1657.08] trustworthy uh stable and benevolent
+
+[1655.7 - 1659.0] um go ahead and continue with the red
+
+[1657.08 - 1660.1999999999998] teaming that's good you know a plus
+
+[1659.0 - 1662.0] there
+
+[1660.2 - 1663.679] um but do more research into those
+
+[1662.0 - 1666.32] Universal principles those guiding
+
+[1663.679 - 1668.8400000000001] principles and try and create autonomous
+
+[1666.32 - 1670.6399999999999] agents that will very deliberately
+
+[1668.84 - 1673.6399999999999] preserve and promote those principles
+
+[1670.64 - 1675.26] and adhere to them for all times aka the
+
+[1673.64 - 1676.7] heuristic imperatives research that I've
+
+[1675.26 - 1678.08] been doing oh and by the way I wrote a
+
+[1676.7 - 1680.0] book about this and demonstrated all
+
+[1678.08 - 1682.1] this and now I'm Not The Only One Look
+
+[1680.0 - 1684.62] up the self-aligned paper by Sun at all
+
+[1682.1 - 1689.059] where basically yes you can create
+
+[1684.62 - 1691.1589999999999] models that will not only adhere to uh
+
+[1689.059 - 1694.039] to higher principles but they will get
+
+[1691.159 - 1695.8400000000001] better at those principles over time and
+
+[1694.039 - 1697.7] here's the thing in the testing that I
+
+[1695.84 - 1700.039] did with Foundation models I took
+
+[1697.7 - 1702.919] Foundation models from unaligned to
+
+[1700.039 - 1704.72] aligned with my core objective functions
+
+[1702.919 - 1706.5800000000002] my heuristic imperatives that's
+
+[1704.72 - 1708.32] relatively easy but the thing is is that
+
+[1706.58 - 1710.539] the decisions they then start to make
+
+[1708.32 - 1713.12] they will double down on those
+
+[1710.539 - 1716.0] principles on protecting those values
+
+[1713.12 - 1718.58] which is exactly what you want to in in
+
+[1716.0 - 1721.4] terms of Game Theory you want them the
+
+[1718.58 - 1723.4399999999998] AI to adopt a strategy and not deviate
+
+[1721.4 - 1725.539] from that strategy that is the essence
+
+[1723.44 - 1727.4] of the control problem that is the Core
+
+[1725.539 - 1728.6589999999999] Essence of super alignment and this is
+
+[1727.4 - 1730.3400000000001] what I've been working on for the last
+
+[1728.659 - 1734.419] four years
+
+[1730.34 - 1736.039] so for a quick recap open AI one major
+
+[1734.419 - 1740.2990000000002] problem they're Reinventing the wheel in
+
+[1736.039 - 1743.0] a few places namely with uh by by you
+
+[1740.299 - 1745.58] know inventing alignment on human values
+
+[1743.0 - 1747.62] and humans human intent intentions
+
+[1745.58 - 1749.12] just look at United Nations look at
+
+[1747.62 - 1752.36] anthropic even just look at what's
+
+[1749.12 - 1755.299] trending on GitHub uh you know aligning
+
+[1752.36 - 1757.279] to Human Rights is going to be a lot
+
+[1755.299 - 1758.72] better and aligning to Universal
+
+[1757.279 - 1761.48] principles is going to be a lot better
+
+[1758.72 - 1764.539] than aligning to something as squishy as
+
+[1761.48 - 1767.0] human values and human intentions again
+
+[1764.539 - 1768.74] those are when you when you study the
+
+[1767.0 - 1771.02] philosophy the morality the ethics the
+
+[1768.74 - 1773.659] information Theory the psychology of it
+
+[1771.02 - 1776.36] those are absolutely 100 garbage things
+
+[1773.659 - 1778.279] to align to number two open AI is
+
+[1776.36 - 1780.5] failing to understand those basic fields
+
+[1778.279 - 1783.5] of morality philosophy and ethics human
+
+[1780.5 - 1786.2] rights are incredibly well researched uh
+
+[1783.5 - 1788.0] don't reinvent the wheel and the fact
+
+[1786.2 - 1790.88] that human rights have not even entered
+
+[1788.0 - 1794.12] their lexicon is really really deeply
+
+[1790.88 - 1795.7990000000002] disturbing in it I don't particularly I
+
+[1794.12 - 1797.1789999999999] don't personally read it this way but I
+
+[1795.799 - 1800.12] could imagine someone very cynical
+
+[1797.179 - 1801.98] saying maybe open AI doesn't actually
+
+[1800.12 - 1803.36] value human rights maybe they don't care
+
+[1801.98 - 1805.34] about human rights maybe they don't
+
+[1803.36 - 1807.559] believe in human rights the fact that
+
+[1805.34 - 1809.6589999999999] they're talking about safety of the
+
+[1807.559 - 1812.059] human race and not talking about human
+
+[1809.659 - 1815.8400000000001] rights when you look at the note that's
+
+[1812.059 - 1817.76] missing that is deeply alarming and so
+
+[1815.84 - 1819.26] then finally they are still making a lot
+
+[1817.76 - 1820.94] of assumptions about courage ability
+
+[1819.26 - 1822.86] which is why I think that they're not
+
+[1820.94 - 1824.419] talking about autonomous agents even
+
+[1822.86 - 1826.58] though the fact that lots and lots of
+
+[1824.419 - 1828.74] people are going as fast as they can to
+
+[1826.58 - 1831.5] make autonomous agents and then in the
+
+[1828.74 - 1833.1200000000001] grand scheme of things when you uh think
+
+[1831.5 - 1835.22] about the competitive landscape that's
+
+[1833.12 - 1837.08] going to exist the autonomous agents
+
+[1835.22 - 1838.82] that are trustworthy are going to
+
+[1837.08 - 1840.74] trounce the autonomous or the the
+
+[1838.82 - 1842.6] non-autonomous agents that are waiting
+
+[1840.74 - 1844.88] for human instruction so what we really
+
+[1842.6 - 1846.799] need is we need to be working on
+
+[1844.88 - 1849.0200000000002] creating autonomous agents that will
+
+[1846.799 - 1851.24] Advocate on our behalf and that are
+
+[1849.02 - 1853.6399999999999] going to be the strongest and best and
+
+[1851.24 - 1857.419] fastest in the world because that is how
+
+[1853.64 - 1859.159] we that is uh one component of solving
+
+[1857.419 - 1861.8600000000001] the control problem of solving alignment
+
+[1859.159 - 1864.3200000000002] is the competition between these agents
+
+[1861.86 - 1865.6999999999998] so with all that being said I hope you
+
+[1864.32 - 1868.6] got a lot out of this thanks for
+
+[1865.7 - 1868.6000000000001] watching cheers

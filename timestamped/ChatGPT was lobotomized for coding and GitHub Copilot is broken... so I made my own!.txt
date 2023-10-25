@@ -1,0 +1,483 @@
+[0.42 - 8.58] okay so you know how chat GPT has been
+
+[4.74 - 10.5] slightly let's say lobotomized lately it
+
+[8.58 - 13.74] seems to not really handle coding that
+
+[10.5 - 15.96] well and uh if you're like me I tried
+
+[13.74 - 19.259999999999998] GitHub co-pilot and I really don't like
+
+[15.96 - 21.900000000000002] it uh I applied for the GitHub co-pilot
+
+[19.26 - 24.660000000000004] chat and then like a few days later I
+
+[21.9 - 26.519] tried to go use it and it says oh well
+
+[24.66 - 27.72] the beta has expired or you know you've
+
+[26.519 - 30.06] been kicked out or whatever I was like
+
+[27.72 - 31.979999999999997] okay whatever so
+
+[30.06 - 34.44] um I realized that like all right I have
+
+[31.98 - 36.96] the power to fix this myself because
+
+[34.44 - 39.239] I've been shying away from doing my
+
+[36.96 - 42.3] coding experiments because chat GPT is
+
+[39.239 - 44.339999999999996] broken or lobotomized or whatever and
+
+[42.3 - 45.36] GitHub co-pilot and you know I know
+
+[44.34 - 48.059000000000005] there's lots of other tools there's
+
+[45.36 - 49.68] Amazon and blah blah but you know like I
+
+[48.059 - 51.48] can fix this I can I can do the thing
+
+[49.68 - 54.539] that I want to do and I can make a thing
+
+[51.48 - 55.919999999999995] that is specific so I came over to the
+
+[54.539 - 59.160000000000004] playground and I was like all right
+
+[55.92 - 60.42] let's try this so I um I just want to
+
+[59.16 - 62.76] show you real quick
+
+[60.42 - 63.899] uh you know I gave a really simple
+
+[62.76 - 65.64] prompt
+
+[63.899 - 66.659] system message you or python coding
+
+[65.64 - 68.88] assistant the user will give you
+
+[66.659 - 70.68] instructions to help write functions uh
+
+[68.88 - 72.29899999999999] you may ask for clarification if needed
+
+[70.68 - 74.22000000000001] but otherwise you should only output
+
+[72.299 - 75.799] python code and of course you can change
+
+[74.22 - 78.29899999999999] this to whatever language you want
+
+[75.799 - 81.9] adhere to pep 8 so that's the python
+
+[78.299 - 83.64] enhancement program uh version 8 which
+
+[81.9 - 86.46000000000001] is basically sets all the standards for
+
+[83.64 - 88.38] how to write python pythonically provide
+
+[86.46 - 90.41999999999999] explanations of the code only if the
+
+[88.38 - 92.58] user asks for them
+
+[90.42 - 94.86] um so you know how like chat GPT will be
+
+[92.58 - 96.78] super overly verbose
+
+[94.86 - 98.579] um and then I I gave it a copy of the
+
+[96.78 - 99.9] script that I was working on
+
+[98.579 - 101.46] um and so then I said write a function
+
+[99.9 - 103.74000000000001] that loads all files into a given folder
+
+[101.46 - 105.05999999999999] returns a list of uh list of lists and
+
+[103.74 - 107.52] groups of five include the full file
+
+[105.06 - 109.5] path and it just bam did it I was like
+
+[107.52 - 111.65899999999999] cool that's exactly what I wanted and I
+
+[109.5 - 113.159] was like wait that worked really well so
+
+[111.659 - 115.34] why don't I just make a chat bot that
+
+[113.159 - 118.2] does it so coding chatbot assistant
+
+[115.34 - 120.479] since chat GPT has been lobotomized and
+
+[118.2 - 121.07900000000001] GitHub co-pilot is broken
+
+[120.479 - 123.72] um
+
+[121.079 - 127.13999999999999] I got it set up here here's an example
+
+[123.72 - 130.319] of the output so for instance I was um
+
+[127.14 - 132.12] I'm working on uh you know my recent
+
+[130.319 - 134.879] projects have been chat Bots with
+
+[132.12 - 136.86] long-term memories and uh KB articles
+
+[134.879 - 138.72] and stuff so I was like okay I've got
+
+[136.86 - 140.64000000000001] this far just write the function for me
+
+[138.72 - 142.56] so I told it how I want to write the
+
+[140.64 - 146.04] function you know it's a KB article with
+
+[142.56 - 147.599] a yaml file so on and so forth now that
+
+[146.04 - 150.239] being said I want to show you a really
+
+[147.599 - 152.819] cool cool bit so this is the output you
+
+[150.239 - 155.76] can see it's pretty familiar so it gives
+
+[152.819 - 158.39999999999998] you like okay uh you know you need to
+
+[155.76 - 160.01999999999998] import this let's do this here's a
+
+[158.4 - 162.9] couple functions and it thought through
+
+[160.02 - 164.459] it and gave it a very very very specific
+
+[162.9 - 166.62] output
+
+[164.459 - 168.599] um I haven't tested this code yet but
+
+[166.62 - 170.70000000000002] like this is very much the behavior that
+
+[168.599 - 173.39999999999998] I want to see so now let me explain to
+
+[170.7 - 176.64] you how the chat bot works so we'll go
+
+[173.4 - 179.16] through the code uh real quick it's
+
+[176.64 - 180.77999999999997] pretty straightforward it's 105 lines of
+
+[179.16 - 182.22] code so like not not the most
+
+[180.78 - 184.04] complicated thing and actually some of
+
+[182.22 - 186.239] this is Superfluous
+
+[184.04 - 188.879] I actually think that I don't use the
+
+[186.239 - 190.14000000000001] yaml functions anywhere yeah so I could
+
+[188.879 - 193.5] probably delete that and make it even
+
+[190.14 - 195.42] shorter all right so ignore those helper
+
+[193.5 - 199.5] functions here's the uh here's the
+
+[195.42 - 202.07999999999998] called a GPT super simple you just call
+
+[199.5 - 204.36] it you get the text response and then
+
+[202.08 - 207.48000000000002] what I started doing is I just passed
+
+[204.36 - 210.3] back the token count so that I can
+
+[207.48 - 212.28] manage the conversation internally but
+
+[210.3 - 214.98000000000002] pretty much this whole thing here is
+
+[212.28 - 217.56] just if there's an error it will give
+
+[214.98 - 220.26] you some output so for instance if the
+
+[217.56 - 221.81900000000002] content context length is too long it'll
+
+[220.26 - 224.76] trim the conversation and try again
+
+[221.819 - 227.879] it'll let you know what happened if
+
+[224.76 - 230.04] another error happened it'll put it'll
+
+[227.879 - 231.35999999999999] output that the whole thing sometimes
+
+[230.04 - 233.28] the you know it's not available or
+
+[231.36 - 235.5] whatever open AI has gotten a lot better
+
+[233.28 - 237.599] but sometimes you'll have uh you know
+
+[235.5 - 239.7] network errors and other stuff and what
+
+[237.599 - 240.599] this does is it uses exponential back
+
+[239.7 - 243.83999999999997] off
+
+[240.599 - 245.94] so every time it retries it doubles the
+
+[243.84 - 247.379] amount of time that it'll wait
+
+[245.94 - 249.9] um to try again and it'll it'll give you
+
+[247.379 - 251.459] debug output the whole time uh and then
+
+[249.9 - 254.159] I've got this function so this is a
+
+[251.459 - 255.659] multi-line input function uh which it
+
+[254.159 - 257.88] will switch into this mode if you want
+
+[255.659 - 260.88] to update a scratch Pad so in this case
+
+[257.88 - 263.46] uh the scratch pad is just a plain text
+
+[260.88 - 265.44] file that it uses to load into the
+
+[263.46 - 267.18] system message so I've got that system
+
+[265.44 - 268.919] message that I showed you and then a
+
+[267.18 - 271.44] description of the below code scratch
+
+[268.919 - 273.96] Pad may be provided by the user blah
+
+[271.44 - 276.36] blah and so then it I wrap it in the
+
+[273.96 - 278.21999999999997] comment so that way knows like hey this
+
+[276.36 - 280.56] is Python and then it'll copy paste the
+
+[278.22 - 283.58000000000004] you know your code into it from the
+
+[280.56 - 286.5] scratch pad and so what you can do is
+
+[283.58 - 289.58] first it'll take you know input from the
+
+[286.5 - 292.08] user and then if you type in scratch pad
+
+[289.58 - 294.419] it will give you a chance to update the
+
+[292.08 - 295.979] scratch Pad which is you can put
+
+[294.419 - 298.85999999999996] anything in you can put in code you can
+
+[295.979 - 301.44] put in comments these whatever you can
+
+[298.86 - 302.94] put in a file system description
+
+[301.44 - 305.699] whatever you want
+
+[302.94 - 307.979] uh but the point is is that it will use
+
+[305.699 - 313.199] this function so that it will continue
+
+[307.979 - 315.78] to accept uh new lines of input without
+
+[313.199 - 318.06] um without breaking uh and so then when
+
+[315.78 - 320.69899999999996] if you type end at the very end then it
+
+[318.06 - 324.419] says okay cool save exit
+
+[320.699 - 325.979] um I strip that out of of the uh end
+
+[324.419 - 330.84] um and so on and so forth so there you
+
+[325.979 - 333.06] go uh let's see it should be about it
+
+[330.84 - 334.61999999999995] um oh and then if you accidentally hit
+
+[333.06 - 335.94] um enter twice because you know that can
+
+[334.62 - 338.34000000000003] happen
+
+[335.94 - 340.979] um it'll just go like it says you know
+
+[338.34 - 343.08] enter um
+
+[340.979 - 345.24] whoops ah crap I accidentally typed
+
+[343.08 - 347.69899999999996] something so that's going to break it
+
+[345.24 - 350.039] um yeah it was very confused
+
+[347.699 - 351.41900000000004] um yep
+
+[350.039 - 353.21999999999997] okay
+
+[351.419 - 355.02] um let's see so then the other thing
+
+[353.22 - 358.74] that I do is I accumulate all the
+
+[355.02 - 362.15999999999997] messages the uh the user input and the
+
+[358.74 - 364.979] chat bot response in a list called all
+
+[362.16 - 367.02000000000004] messages and I keep that separate from
+
+[364.979 - 368.75899999999996] the conversation object that I passed to
+
+[367.02 - 371.039] chat GPT
+
+[368.759 - 374.52000000000004] did I pass to the API and the reason is
+
+[371.039 - 378.0] because I actually just had a um had a a
+
+[374.52 - 379.68] a patreon uh supporter give me this
+
+[378.0 - 381.96] really powerful tip which is that if you
+
+[379.68 - 383.819] put the system message at the end rather
+
+[381.96 - 385.68] than at the beginning it is much more
+
+[383.819 - 387.66] likely to continue to adhere to the
+
+[385.68 - 389.34000000000003] instructions that you gave it rather
+
+[387.66 - 391.5] than drift
+
+[389.34 - 392.94] um so apparently this I haven't I
+
+[391.5 - 394.8] haven't spent too much time testing it
+
+[392.94 - 396.71999999999997] but you know how sometimes like chat
+
+[394.8 - 398.699] gpt's Behavior will change over time
+
+[396.72 - 400.74] especially as the conversation gets
+
+[398.699 - 402.24] longer it'll continue to kind of modify
+
+[400.74 - 404.699] Its Behavior and it'll usually kind of
+
+[402.24 - 406.259] default back to its default Behavior if
+
+[404.699 - 409.62] you put the system message at the very
+
+[406.259 - 412.8] end so what I do is I I say you know
+
+[409.62 - 414.72] conversation is an empty list I add all
+
+[412.8 - 417.18] messages and then I append the system
+
+[414.72 - 418.5] message at the very end and then I get
+
+[417.18 - 420.66] the response
+
+[418.5 - 423.479] and so then once I get the response it
+
+[420.66 - 425.46000000000004] passes back the tokens if it's uh if the
+
+[423.479 - 427.5] token count is over 7 500 because we've
+
+[425.46 - 430.38] got a limit of 8 000. I just remember
+
+[427.5 - 431.28] the I remember I removed the oldest
+
+[430.38 - 433.199] message
+
+[431.28 - 435.71999999999997] um so pop zero
+
+[433.199 - 438.6] um and then I append the assistant
+
+[435.72 - 440.88000000000005] response to all messages so remember all
+
+[438.6 - 442.56] messages is kept separate
+
+[440.88 - 445.979] um so that I can just tack on the com
+
+[442.56 - 448.259] the system message separately and then I
+
+[445.979 - 450.3] get the output and here it goes
+
+[448.259 - 453.36] um so what I what I realized is that if
+
+[450.3 - 455.40000000000003] you use text wrap it will it'll nullify
+
+[453.36 - 458.40000000000003] all of the new lines so what I do is I
+
+[455.4 - 460.25899999999996] split the new lines and then text wrap
+
+[458.4 - 462.65999999999997] it so that if there's comments then it
+
+[460.259 - 465.66] won't be too long so anyways there you
+
+[462.66 - 467.639] have it the repo is up here it's working
+
+[465.66 - 469.62] um the only thing that it's pretty well
+
+[467.639 - 471.539] documented I got in the habit of just
+
+[469.62 - 473.16] using chat GPT to produce the
+
+[471.539 - 475.08] documentation
+
+[473.16 - 476.22] um because that makes it easier for
+
+[475.08 - 478.199] everybody
+
+[476.22 - 482.24] um setup is super simple you just need
+
+[478.199 - 484.44] to open AI you need your openai API key
+
+[482.24 - 486.3] and then the biggest thing that you need
+
+[484.44 - 488.699] to know is to use a scratch pad I do
+
+[486.3 - 490.199] have instructions in the console output
+
+[488.699 - 491.46000000000004] so it'll tell you how to get into the
+
+[490.199 - 494.479] scratch pad and then how to get out of
+
+[491.46 - 496.919] it and then the the
+
+[494.479 - 498.18] console will tell you what what mode
+
+[496.919 - 499.85999999999996] you're in
+
+[498.18 - 502.379] um you can tell I was an infrastructure
+
+[499.86 - 503.22] engineer who used Cisco switches
+
+[502.379 - 504.90000000000003] um
+
+[503.22 - 508.379] because I'm just like hey this this
+
+[504.9 - 510.29999999999995] model Works uh anyways so yeah I think
+
+[508.379 - 511.5] that's about it so this is this is my
+
+[510.3 - 514.2] new
+
+[511.5 - 516.12] um chat bot coding assistant and uh yeah
+
+[514.2 - 518.6400000000001] I hope that you find it useful super
+
+[516.12 - 521.339] simple super straightforward
+
+[518.64 - 523.26] um yeah uh let me know if you have any
+
+[521.339 - 525.1800000000001] thoughts about how to improve it but I
+
+[523.26 - 527.64] think honestly the scratch Pad is like
+
+[525.18 - 530.2199999999999] all you need uh because then you can you
+
+[527.64 - 532.56] can update this out of band as well uh
+
+[530.22 - 534.36] if you want to you know
+
+[532.56 - 536.5189999999999] um whatever you want to put in it right
+
+[534.36 - 538.5600000000001] you can you can even put multiple
+
+[536.519 - 540.3] scripts in it or multiple files or
+
+[538.56 - 542.64] whatever
+
+[540.3 - 544.4399999999999] um but yeah so thanks for watching I
+
+[542.64 - 547.3389999999999] hope you liked it and I'm gonna get back
+
+[544.44 - 547.339] to coding bye

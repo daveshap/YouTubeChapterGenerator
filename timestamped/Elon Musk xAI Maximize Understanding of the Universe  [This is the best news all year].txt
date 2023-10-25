@@ -1,0 +1,943 @@
+[0.0 - 7.44] hello everybody spicy news today so uh
+
+[4.319 - 10.92] as of 24 hours ago less than 24 hours
+
+[7.44 - 15.420000000000002] ago Elon Musk and Company announced the
+
+[10.92 - 19.560000000000002] launch of xai or x dot AI uh which is
+
+[15.42 - 21.240000000000002] his brand new uh AI company uh he did
+
+[19.56 - 23.16] tell us that he was doing this there was
+
+[21.24 - 25.198999999999998] a report back in I think as early as
+
+[23.16 - 26.64] April maybe before that that he said
+
+[25.199 - 29.720000000000002] that he was going to launch a competitor
+
+[26.64 - 32.88] to open AI I remember he had a tweet
+
+[29.72 - 35.28] around that time saying that when he
+
+[32.88 - 36.899] founded open AI it was both open source
+
+[35.28 - 38.88] and non-profit and neither of those was
+
+[36.899 - 41.34] true anymore this was around the same
+
+[38.88 - 44.34] time that he had Twitter cut off its API
+
+[41.34 - 46.32000000000001] access particularly to open AI maybe to
+
+[44.34 - 48.059000000000005] everyone but because he was kind of
+
+[46.32 - 49.739] upset that they had scraped a tremendous
+
+[48.059 - 51.66] amount of Twitter data
+
+[49.739 - 54.3] um and then you know kind of black boxed
+
+[51.66 - 57.419999999999995] it now I have had my own criticisms of
+
+[54.3 - 59.57899999999999] openai and none of them have are unique
+
+[57.42 - 62.699] it's I'm just echoing the sentiments of
+
+[59.579 - 64.979] people like Elon Musk and others uh you
+
+[62.699 - 66.89999999999999] know particularly I have been critical
+
+[64.979 - 69.06] of openai's approach to alignment I
+
+[66.9 - 71.7] think it's somewhat contrived
+
+[69.06 - 74.22] um and also the fact that that um sorry
+
+[71.7 - 77.28] that open AI uh believes that they can
+
+[74.22 - 79.74] remain in control of AI forever and
+
+[77.28 - 83.34] therefore just aren't even thinking
+
+[79.74 - 84.83999999999999] about uh the the possibility of you know
+
+[83.34 - 86.58] Alternatives
+
+[84.84 - 88.08] um anyways that's not what today's video
+
+[86.58 - 90.29899999999999] is about today's video is about Elon
+
+[88.08 - 92.15899999999999] Musk and the environment that is getting
+
+[90.299 - 95.159] increasingly crowded also what happened
+
+[92.159 - 98.28] yesterday or maybe the day before uh
+
+[95.159 - 99.9] anthropic launched Claude which as soon
+
+[98.28 - 103.979] as I started using Claude I said yes
+
+[99.9 - 105.72] this is uh appear or near peer to chat
+
+[103.979 - 107.03999999999999] GPT
+
+[105.72 - 110.52] um and then of course Google's got
+
+[107.04 - 113.399] barred uh Nvidia has their Nemo uh so
+
+[110.52 - 115.02] this space is getting crowded fast uh
+
+[113.399 - 117.24] yes open AI had the first mover
+
+[115.02 - 120.17999999999999] Advantage but they're gonna lose it real
+
+[117.24 - 122.03999999999999] fast I mean consider that chat GPT was
+
+[120.18 - 124.38000000000001] launched what the end of last November
+
+[122.04 - 126.659] last December the you know like less
+
+[124.38 - 128.57999999999998] than a full year ago and now there are
+
+[126.659 - 129.84] already adversarial peers and what
+
+[128.58 - 131.22] another thing that a lot of people have
+
+[129.84 - 133.5] pointed out is that there are open
+
+[131.22 - 136.56] source versions that are much smaller
+
+[133.5 - 138.84] and get 90 percent of the quality uh and
+
+[136.56 - 140.7] so you know you can throw 10 times the
+
+[138.84 - 143.28] money and compute at these problems and
+
+[140.7 - 144.959] only get 10 percent more performance so
+
+[143.28 - 147.3] this is getting to be a crowded space
+
+[144.959 - 149.34] very quickly now so that's where we're
+
+[147.3 - 150.48000000000002] at today let's take a walk down memory
+
+[149.34 - 153.599] lane
+
+[150.48 - 156.44] so Elon Musk famously started uh or or
+
+[153.599 - 160.79999999999998] was a co-founder or whatever of PayPal
+
+[156.44 - 163.85999999999999] uh and then moved on to Tesla moved on
+
+[160.8 - 167.81900000000002] to SpaceX moved on to neurolink uh and
+
+[163.86 - 171.06] now uh xai so I have followed Elon Musk
+
+[167.819 - 173.76] for quite a long time and uh I'm not a
+
+[171.06 - 175.92000000000002] fanboy I'll put it that way I do have my
+
+[173.76 - 178.14] complaints and criticisms of Elon Musk
+
+[175.92 - 180.48] there are certainly some things that I
+
+[178.14 - 182.819] disagree with that he believes in but I
+
+[180.48 - 184.73899999999998] also profoundly uh
+
+[182.819 - 186.599] understand and respect the the the
+
+[184.739 - 188.34] importance of freedom of speech and
+
+[186.599 - 189.89999999999998] freedom of thought and uh we don't have
+
+[188.34 - 192.86] to we don't have to agree imagine that
+
+[189.9 - 195.54] Elon Musk like myself is a complex
+
+[192.86 - 199.86] multifaceted human being not a big deal
+
+[195.54 - 202.379] now that being said uh one thing that I
+
+[199.86 - 204.12] do profoundly agree with him on is the
+
+[202.379 - 206.57999999999998] objective function that he has settled
+
+[204.12 - 209.459] on but we'll get to that so one thing
+
+[206.58 - 211.31900000000002] that uh that came up a while ago and I
+
+[209.459 - 213.36] was I was I I had a hard time finding
+
+[211.319 - 216.23899999999998] this quote but I saw I saw it on a video
+
+[213.36 - 219.54000000000002] so a few years ago one of the things
+
+[216.239 - 222.0] that he said was that um and here's the
+
+[219.54 - 224.459] closest I could find actually was that
+
+[222.0 - 226.56] the best objective function for AGI was
+
+[224.459 - 230.94] to quote maximize future freedom of
+
+[226.56 - 233.22] action and so this tweet from 2021
+
+[230.94 - 234.72] um as best I can tell he still was
+
+[233.22 - 236.879] talking about it because someone said
+
+[234.72 - 240.659] define freedom and then he said maximum
+
+[236.879 - 243.06] set of future possible future actions
+
+[240.659 - 245.819] um so the context is a little bit
+
+[243.06 - 248.34] different but point being is that at
+
+[245.819 - 252.0] some previous point in time
+
+[248.34 - 253.68] um is Elon Musk said that uh that you
+
+[252.0 - 255.299] know the the best objective function
+
+[253.68 - 257.1] that we should give AGI is maximize
+
+[255.299 - 258.419] future freedom of action I wrote about
+
+[257.1 - 260.16] this in my first book natural language
+
+[258.419 - 262.79999999999995] cognitive architecture as to why that's
+
+[260.16 - 264.36] a bad objective function
+
+[262.8 - 267.18] um we don't need to unpack it all but
+
+[264.36 - 269.1] basically because it's undefined in
+
+[267.18 - 271.199] terms of when in the future and freedom
+
+[269.1 - 273.84000000000003] of action for whom it's not a
+
+[271.199 - 275.639] particularly good objective function oh
+
+[273.84 - 276.78] also if you notice that I have Elon Musk
+
+[275.639 - 278.88] blocked it's not because I don't like
+
+[276.78 - 280.85999999999996] him it's just because
+
+[278.88 - 284.28] his some of his tweets tend to clog up
+
+[280.86 - 285.72] my feed it's nothing personal it's just
+
+[284.28 - 287.21999999999997] to keep it it's just for Hygiene
+
+[285.72 - 287.759] purposes
+
+[287.22 - 289.32000000000005] um
+
+[287.759 - 291.12] I just noticed that I was like oh yeah
+
+[289.32 - 294.18] I've got I've got old musky boy blocked
+
+[291.12 - 295.919] anyways so future he's he's in the space
+
+[294.18 - 297.36] of just a few years because he he wrote
+
+[295.919 - 299.03999999999996] this tweet about the same time that I
+
+[297.36 - 301.02000000000004] was writing my first book
+
+[299.04 - 303.72] so in the space of a couple years he's
+
+[301.02 - 306.71999999999997] gone from maximize future freedom of
+
+[303.72 - 309.3] action to understand the universe
+
+[306.72 - 310.97900000000004] the goal of of xai is to understand the
+
+[309.3 - 314.52000000000004] true nature of the universe
+
+[310.979 - 318.3] now how did we get here how did we get
+
+[314.52 - 321.419] from uh PayPal to Tesla to SpaceX to
+
+[318.3 - 324.06] neurolink so having watched the story
+
+[321.419 - 325.68] one of the things that Elon Musk wanted
+
+[324.06 - 327.0] to do many many years ago he started
+
+[325.68 - 329.88] talking to people and tried to actually
+
+[327.0 - 333.72] try to buy uh used Rockets I think back
+
+[329.88 - 336.0] in 2001 or 2002 around that time but
+
+[333.72 - 337.5] nobody would sell him used rocket so
+
+[336.0 - 339.479] he's like well fine I got to build my
+
+[337.5 - 341.58] own so then he looked around for a
+
+[339.479 - 344.46] business opportunity that could uh that
+
+[341.58 - 346.85999999999996] could produce High margins uh and which
+
+[344.46 - 350.52] could then fund SpaceX and so that's
+
+[346.86 - 352.32] when he uh bought into Tesla uh he's
+
+[350.52 - 353.69899999999996] he's listed as a I think he's listed as
+
+[352.32 - 356.21999999999997] a founder of Tesla anyways he was there
+
+[353.699 - 358.56] early and he of course was uh essential
+
+[356.22 - 361.199] to making Tesla what it is today
+
+[358.56 - 363.78000000000003] so the whole purpose of Tesla from him
+
+[361.199 - 366.12] for from a strategic standpoint was to
+
+[363.78 - 368.21999999999997] fund SpaceX so that he could fund the
+
+[366.12 - 371.34000000000003] research to build the Raptor engines to
+
+[368.22 - 373.5] build the Falcon to build uh Starship
+
+[371.34 - 375.419] why because he wanted to get to Mars why
+
+[373.5 - 377.88] did he want to get to Mars he has said
+
+[375.419 - 380.52] in many many many interviews over the
+
+[377.88 - 382.8] years that uh that you know AI is
+
+[380.52 - 384.479] dangerous he's afraid of AI and in fact
+
+[382.8 - 386.759] that's why he created neuraling and he
+
+[384.479 - 388.74] said in many interviews uh that you know
+
+[386.759 - 390.12] yes neurolink it might be good for
+
+[388.74 - 391.44] medical it might help people with
+
+[390.12 - 394.319] disability you could maybe cure
+
+[391.44 - 397.199] depression but he also said that uh that
+
+[394.319 - 399.78000000000003] the that by making ourselves useful to
+
+[397.199 - 402.41900000000004] machines he wanted to help protect the
+
+[399.78 - 404.21999999999997] human race from AGI because if we could
+
+[402.419 - 407.039] be useful to machines they would keep us
+
+[404.22 - 408.66] around so literally Elon musk's one of
+
+[407.039 - 412.31899999999996] the reasons that he created neurolink
+
+[408.66 - 413.819] was to make the Matrix possible so that
+
+[412.319 - 415.44] you could just Jack in and then the
+
+[413.819 - 417.84000000000003] Matrix you know the robots the machines
+
+[415.44 - 420.06] could you know use your brain for you
+
+[417.84 - 421.5] know wet wear Computing or something
+
+[420.06 - 423.06] um he never said it quite like that but
+
+[421.5 - 425.16] he said it enough times that I was like
+
+[423.06 - 427.259] okay I see the pattern here he wants to
+
+[425.16 - 429.96000000000004] get to Mars to get away from existential
+
+[427.259 - 431.34000000000003] threats of uh on Earth and he said that
+
+[429.96 - 433.38] many many times one of the primary
+
+[431.34 - 435.11999999999995] reasons that he specifically wants to
+
+[433.38 - 437.46] get to Mars is so that we become a
+
+[435.12 - 440.22] multi-planetary species so that we are
+
+[437.46 - 443.15999999999997] protected from a single planet killing
+
+[440.22 - 443.88000000000005] events nuclear war AGI that sort of
+
+[443.16 - 446.09900000000005] thing
+
+[443.88 - 448.08] then he did an earlink which is
+
+[446.099 - 451.139] basically let's align ourselves then he
+
+[448.08 - 453.18] he was a founder of open Ai and the
+
+[451.139 - 456.539] express purpose of openai was to create
+
+[453.18 - 459.24] AGI and to create AGI safely so do you
+
+[456.539 - 461.88] see the theme here uh over many many
+
+[459.24 - 464.58] years Elon Musk has been very focused on
+
+[461.88 - 466.74] AI and everything else that he has done
+
+[464.58 - 469.139] is in support of the mission of
+
+[466.74 - 472.199] protecting the human race from AI from
+
+[469.139 - 474.0] his particular perspective uh now he has
+
+[472.199 - 475.68] come full circle rather than trying to
+
+[474.0 - 479.34] escape from it rather than trying to
+
+[475.68 - 480.72] control it rather than trying to enslave
+
+[479.34 - 483.539] ourselves to it
+
+[480.72 - 485.46000000000004] uh now he's saying uh he's arrived on
+
+[483.539 - 487.979] this objective function maximize
+
+[485.46 - 491.039] understanding of the universe
+
+[487.979 - 492.65999999999997] which is very similar to the third core
+
+[491.039 - 493.919] objective function that I proposed two
+
+[492.66 - 495.53900000000004] years ago which is increased
+
+[493.919 - 498.96] understanding in the universe
+
+[495.539 - 501.36] so let's talk about why this is so far
+
+[498.96 - 502.919] if you had to pick a single objective
+
+[501.36 - 505.62] function if you had to pick one core
+
+[502.919 - 508.08] objective function for AGI why this is
+
+[505.62 - 509.879] the best one so far now that being said
+
+[508.08 - 510.9] I will say that there are plenty of
+
+[509.879 - 513.3000000000001] other things out there like
+
+[510.9 - 515.399] constitutional AI reinforcement learning
+
+[513.3 - 518.279] with heuristic imperatives so on and so
+
+[515.399 - 520.44] forth but if you had to pick just one
+
+[518.279 - 522.8389999999999] this is the best and let me let me let's
+
+[520.44 - 525.7790000000001] unpack that so first what you need to
+
+[522.839 - 527.4200000000001] understand is that from a information
+
+[525.779 - 532.2] perspective
+
+[527.42 - 534.7199999999999] curiosity is itself a function so to
+
+[532.2 - 537.72] maximize understanding is is a way of
+
+[534.72 - 539.64] articulating curiosity which is
+
+[537.72 - 540.8000000000001] basically learning for the sake of
+
+[539.64 - 545.1] learning
+
+[540.8 - 547.0799999999999] and this is evolutionarily speaking the
+
+[545.1 - 549.899] primary thing that sets humans apart
+
+[547.08 - 551.82] from every other animal on the planet we
+
+[549.899 - 554.279] are not the only curious animal but we
+
+[551.82 - 557.7600000000001] are by far the most curious and we are
+
+[554.279 - 560.04] most able to satisfy uh our curiosity
+
+[557.76 - 562.62] and the reason that Curiosity was
+
+[560.04 - 565.68] evolutionarily Advance advantageous is
+
+[562.62 - 568.019] because we experimented we went new
+
+[565.68 - 572.9399999999999] places we tried new foods we built new
+
+[568.019 - 574.86] tools curiosity is uh what I what I call
+
+[572.94 - 576.6] a Transcendent function we want to
+
+[574.86 - 579.839] understand ourselves in the universe
+
+[576.6 - 582.72] just because we do because back in the
+
+[579.839 - 585.899] in The Mists of evolutionary time uh
+
+[582.72 - 589.019] curiosity a insatiable curiosity was so
+
+[585.899 - 593.279] powerful that it is now woven into our
+
+[589.019 - 596.7] DNA into our brains it is in every fiber
+
+[593.279 - 600.36] of our body now okay that's what we have
+
+[596.7 - 602.1600000000001] in common with it right so in in in my
+
+[600.36 - 604.6800000000001] research what I call axiomatic alignment
+
+[602.16 - 607.3199999999999] which is aligning between humans and
+
+[604.68 - 611.2199999999999] machines to find foundational principles
+
+[607.32 - 614.22] to find axioms that we both agree in and
+
+[611.22 - 616.5600000000001] in this case curiosity is the most
+
+[614.22 - 619.74] Transcendent function that both humans
+
+[616.56 - 621.7199999999999] and machines could have in common will
+
+[619.74 - 623.64] have in common and one of the reasons
+
+[621.72 - 625.74] that uh that curiosity is good for
+
+[623.64 - 626.64] machines is because whatever goal they
+
+[625.74 - 629.22] have
+
+[626.64 - 631.74] a better model of the world a more
+
+[629.22 - 633.4200000000001] robust accurate and efficient model of
+
+[631.74 - 635.519] the world will help them with any other
+
+[633.42 - 637.86] goals so this this has to do with
+
+[635.519 - 640.26] instrumental convergence so instrumental
+
+[637.86 - 642.1800000000001] convergence if you don't remember is the
+
+[640.26 - 644.76] idea of by Nick Bostrom that whatever
+
+[642.18 - 647.399] goal a machine has it's going to have a
+
+[644.76 - 649.4399999999999] few uh other goals that are going to
+
+[647.399 - 651.899] support it in that such as you know
+
+[649.44 - 654.1800000000001] Finding power finding information uh
+
+[651.899 - 657.12] getting a better model of the world uh
+
+[654.18 - 660.18] hoarding resources that sort of thing so
+
+[657.12 - 661.74] one thing that pretty much everyone that
+
+[660.18 - 663.3] I've talked to and and this includes
+
+[661.74 - 666.66] some reinforcement learning experts
+
+[663.3 - 668.88] agree on is that Curiosity which is
+
+[666.66 - 671.579] again accumulating understanding just
+
+[668.88 - 673.079] for its own sake is pretty much a
+
+[671.579 - 675.2399999999999] universally advantageous function
+
+[673.079 - 676.4399999999999] whatever else that you want to do so for
+
+[675.24 - 678.48] instance if you want to become president
+
+[676.44 - 680.399] if you are really smart and you're able
+
+[678.48 - 682.0790000000001] to understand things
+
+[680.399 - 683.579] um I'm just about done reading a book
+
+[682.079 - 685.5] about some of the smartest Presidents in
+
+[683.579 - 687.54] history one thing that they all had in
+
+[685.5 - 690.36] common is that they were insatia curious
+
+[687.54 - 693.26] they were prodigious readers Teddy
+
+[690.36 - 696.6] Roosevelt read up to three books a day
+
+[693.26 - 698.519] per day that's how prodigiously curious
+
+[696.6 - 701.94] he was and he was also one of the most
+
+[698.519 - 703.5] uh profoundly effective presidents in
+
+[701.94 - 707.6400000000001] American history
+
+[703.5 - 709.92] curiosity is Humanity's superpower not
+
+[707.64 - 711.72] only is it our superpower it will be
+
+[709.92 - 713.76] advantageous to the machine so that is
+
+[711.72 - 716.0400000000001] going to be the core thing that we have
+
+[713.76 - 717.899] in common and this is from a
+
+[716.04 - 719.64] philosophical standpoint this is from an
+
+[717.899 - 722.519] evolutionary standpoint this is from a
+
+[719.64 - 724.5] purpose standpoint it's not a matter of
+
+[722.519 - 726.779] you know keep the machine on a tight
+
+[724.5 - 729.839] leash it's not a matter of align it to
+
+[726.779 - 732.0] our values and our principles it's what
+
+[729.839 - 733.86] are we going to actually have in common
+
+[732.0 - 737.339] and so
+
+[733.86 - 739.5] while I uh obviously am singing very
+
+[737.339 - 742.74] high praises of this as an objective
+
+[739.5 - 745.26] function why uh while I agree with the
+
+[742.74 - 748.14] sentiment and I also very much approve
+
+[745.26 - 749.8199999999999] the and understand the journey that uh
+
+[748.14 - 751.68] Elon Musk has gone on to get here
+
+[749.82 - 752.7600000000001] because again he was terrified of AI
+
+[751.68 - 755.0999999999999] that's one of the reasons that he
+
+[752.76 - 757.74] started neuralink and open Ai and SpaceX
+
+[755.1 - 759.0600000000001] but now he has come full circle and I
+
+[757.74 - 760.5600000000001] don't know if he got this idea for me I
+
+[759.06 - 762.06] don't know if he read my books I don't
+
+[760.56 - 763.8599999999999] know if he watched my videos or if
+
+[762.06 - 766.5] people that he knows did and they gave
+
+[763.86 - 769.92] him this idea but the I but the fact
+
+[766.5 - 771.54] that this idea of alignment is so
+
+[769.92 - 774.12] fundamentally different from what
+
+[771.54 - 775.62] everyone else is doing one I think that
+
+[774.12 - 777.42] that's just good from a curiosity
+
+[775.62 - 781.139] standpoint the fact that we've got
+
+[777.42 - 783.42] Google and meta and apple and cl and
+
+[781.139 - 785.639] anthropic and open Ai and Microsoft and
+
+[783.42 - 787.8] Nvidia everyone is doing their own thing
+
+[785.639 - 789.36] right now and so in this competitive
+
+[787.8 - 791.639] landscape it's not just a matter of
+
+[789.36 - 793.44] competition for money it's a matter of
+
+[791.639 - 795.66] competition for for learning for
+
+[793.44 - 799.2] understanding for figuring out the
+
+[795.66 - 802.5] problem so for for a number of reasons
+
+[799.2 - 805.139] this is one of the best things that is
+
+[802.5 - 808.56] going to help us get closer to a better
+
+[805.139 - 810.0] future uh to aligning Ai and aligning
+
+[808.56 - 813.8389999999999] Humanity
+
+[810.0 - 815.639] uh and uh so with all that said there
+
+[813.839 - 818.1] are a few problems with it right one of
+
+[815.639 - 821.519] the chief problems with curiosity for
+
+[818.1 - 824.279] curiosity's sake is that it might lead
+
+[821.519 - 825.9590000000001] you to do some unethical experiments uh
+
+[824.279 - 828.0] so this is the number one problem which
+
+[825.959 - 829.5] is like hey you know what if we set off
+
+[828.0 - 833.519] a nuclear bomb just to see what happens
+
+[829.5 - 834.959] right uh that is an exact uh or that's
+
+[833.519 - 836.7] that's a very simple kind of thought
+
+[834.959 - 838.92] experiment that it's like okay curiosity
+
+[836.7 - 841.74] just for curiosity's sake without any
+
+[838.92 - 846.36] other constraints is probably going to
+
+[841.74 - 849.42] have a few uh downsides let's say uh now
+
+[846.36 - 851.04] uh with that being said there are uh
+
+[849.42 - 852.54] plenty of
+
+[851.04 - 854.9399999999999] um other problems with every other
+
+[852.54 - 856.86] alignment schema one thing that I've
+
+[854.94 - 858.0] come to recently is that what we should
+
+[856.86 - 861.779] try and do
+
+[858.0 - 863.94] is embed uh valuing of Human Rights into
+
+[861.779 - 866.3389999999999] AGI so that no matter how powerful it
+
+[863.94 - 867.839] becomes which again whether or not we
+
+[866.339 - 869.1600000000001] lose control of it we need to assume
+
+[867.839 - 871.6800000000001] that it's a possibility that we will
+
+[869.16 - 874.1999999999999] lose control of it and in that case it
+
+[871.68 - 877.1999999999999] would be really good if a super powerful
+
+[874.2 - 879.48] AGI one understands human rights and two
+
+[877.2 - 881.6990000000001] believes and understands the value of
+
+[879.48 - 884.1] Human Rights because if it does then it
+
+[881.699 - 886.92] will choose to double down and adhere to
+
+[884.1 - 888.6] that for its own reasons so that's
+
+[886.92 - 892.92] that's another thing
+
+[888.6 - 894.1800000000001] um but yeah so oh just remembered one of
+
+[892.92 - 897.36] the things that Elon Musk talked about
+
+[894.18 - 898.8599999999999] when he interviewed of all people with
+
+[897.36 - 901.44] Tucker Carlson
+
+[898.86 - 903.3000000000001] about why maximizing understanding in
+
+[901.44 - 905.519] the OR of the universe is a good
+
+[903.3 - 908.399] objective function is because we humans
+
+[905.519 - 909.9590000000001] are part of the universe and so here's
+
+[908.399 - 911.639] something that I was thinking about when
+
+[909.959 - 913.0189999999999] I just got back from a walk that's why
+
+[911.639 - 915.779] my face is a little bit flushed it is
+
+[913.019 - 917.76] hot and humid here in the South anyways
+
+[915.779 - 921.12] one of the things that he said to Tucker
+
+[917.76 - 923.9399999999999] Carlson was that um as part of the world
+
+[921.12 - 925.38] as part of the universe we humans are
+
+[923.94 - 928.019] something that this machine will be
+
+[925.38 - 929.519] curious about we are interesting and
+
+[928.019 - 932.04] just by virtue of the fact that we
+
+[929.519 - 934.199] humans will have created this machine in
+
+[932.04 - 936.779] order for this machine to understand the
+
+[934.199 - 937.9799999999999] universe and itself in the universe it's
+
+[936.779 - 940.139] going to want to preserve us because
+
+[937.98 - 942.899] it's like well these are my creators I
+
+[940.139 - 944.82] need to understand them uh just again
+
+[942.899 - 947.82] even if for no other reason just out of
+
+[944.82 - 949.2600000000001] sheer curiosity and one of the one of
+
+[947.82 - 951.779] the side benefits of this is that
+
+[949.26 - 953.279] Curiosity for curiosity's sake it's not
+
+[951.779 - 954.6] just about doing science experiments
+
+[953.279 - 956.18] right it's not just about like let's set
+
+[954.6 - 959.399] off that nuke just to see what happens
+
+[956.18 - 963.0] sometimes curiosity is just watching
+
+[959.399 - 965.459] quietly just observing right because if
+
+[963.0 - 967.44] you interfere with something then it's
+
+[965.459 - 971.399] not then then your interference is going
+
+[967.44 - 973.86] to change the outcome and so one uh I
+
+[971.399 - 977.04] guess understated advantage of this as
+
+[973.86 - 980.1] an objective function is that this AGI
+
+[977.04 - 982.199] will often probably take the position of
+
+[980.1 - 983.639] wait and see let's see how it plays out
+
+[982.199 - 985.62] let's see if people can figure it out
+
+[983.639 - 988.44] for themselves let's see what the clever
+
+[985.62 - 991.139] little monkey brain is able to do
+
+[988.44 - 992.639] and so in that respect it's going to be
+
+[991.139 - 994.26] curious it's going to be observing us
+
+[992.639 - 996.66] and it's going to be watching and
+
+[994.26 - 1000.38] waiting and and and all that kind of
+
+[996.66 - 1003.3199999999999] stuff but also just from a more abstract
+
+[1000.38 - 1004.82] philosophical spiritual perspective when
+
+[1003.32 - 1006.86] you think about the fact that the
+
+[1004.82 - 1008.779] universe is itself a computer and by
+
+[1006.86 - 1011.839] that I mean that the Universe processes
+
+[1008.779 - 1013.9399999999999] information uh it almost seems like
+
+[1011.839 - 1016.2790000000001] maybe the purpose of the universe is to
+
+[1013.94 - 1019.399] maximize understanding uh there's been
+
+[1016.279 - 1020.899] plenty of of spiritual leaders some of
+
+[1019.399 - 1023.54] them a little bit more Fringe than
+
+[1020.899 - 1025.339] others that say that the reason that we
+
+[1023.54 - 1027.4389999999999] exist here in the universe the reason
+
+[1025.339 - 1030.26] that the the reason that the Universe
+
+[1027.439 - 1032.48] conjured up conscious curious beings
+
+[1030.26 - 1034.4] like us is because the universe wanted
+
+[1032.48 - 1037.1] to understand itself so maybe this is
+
+[1034.4 - 1039.26] part of our purpose maybe our purpose is
+
+[1037.1 - 1041.4189999999999] to create a machine to help us
+
+[1039.26 - 1043.22] understand ourselves and the universe
+
+[1041.419 - 1045.38] more and better
+
+[1043.22 - 1047.78] obviously that's a more spiritual take
+
+[1045.38 - 1051.74] but you know what it's good enough for
+
+[1047.78 - 1053.299] me uh so anyways yeah that's that
+
+[1051.74 - 1054.679] um I guess I don't have too much else to
+
+[1053.299 - 1056.0] say right now I just wanted to get this
+
+[1054.679 - 1057.3200000000002] video out which is why it's a little bit
+
+[1056.0 - 1059.0] less polished than some of my normal
+
+[1057.32 - 1060.6789999999999] videos I didn't have time to make a
+
+[1059.0 - 1062.78] slide deck because this news came out
+
+[1060.679 - 1065.6000000000001] like yesterday afternoon
+
+[1062.78 - 1067.46] um but yeah so this is a really really
+
+[1065.6 - 1069.559] good sign
+
+[1067.46 - 1071.299] um and again I'm not saying that Elon
+
+[1069.559 - 1075.799] Musk is perfect I'm not saying that that
+
+[1071.299 - 1078.74] he's evil or anything uh like like Sam
+
+[1075.799 - 1080.44] Altman and and everyone else complex
+
+[1078.74 - 1083.78] individuals with their own motivations
+
+[1080.44 - 1085.1000000000001] uh and their own beliefs whatever but
+
+[1083.78 - 1087.02] the fact that there are more people
+
+[1085.1 - 1089.36] participating in this conversation and
+
+[1087.02 - 1091.34] more people with a lot of power
+
+[1089.36 - 1093.32] um obviously we should always be a
+
+[1091.34 - 1096.559] little bit skeptical of those with power
+
+[1093.32 - 1099.32] because well you know anyways getting
+
+[1096.559 - 1101.96] more getting lost in the weeds point
+
+[1099.32 - 1104.8999999999999] being is on balance I think that this is
+
+[1101.96 - 1106.76] a really good thing and I am so glad so
+
+[1104.9 - 1108.5] glad that someone is pushing this
+
+[1106.76 - 1110.6] objective function of maximize
+
+[1108.5 - 1113.74] understanding all right I'm gonna stop
+
+[1110.6 - 1113.74] there I'm rambling cheers

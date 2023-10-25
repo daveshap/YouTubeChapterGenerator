@@ -1,0 +1,1521 @@
+[1.14 - 5.58] hey everyone David Shapiro here with
+
+[3.3 - 7.68] another video today's video we're going
+
+[5.58 - 10.379999999999999] to talk about the social implications of
+
+[7.68 - 13.98] Technologies like chat GPT virtual
+
+[10.38 - 16.740000000000002] Companions and uh the forthcoming uh
+
+[13.98 - 20.46] companion robots
+
+[16.74 - 22.68] so humans are a social species
+
+[20.46 - 24.3] no surprise there
+
+[22.68 - 26.1] um we are in the middle of a loneliness
+
+[24.3 - 28.859] epidemic which is perhaps one of the
+
+[26.1 - 32.160000000000004] reasons why things like you know virtual
+
+[28.859 - 34.86] uh companion chat chatbot companions are
+
+[32.16 - 36.66] uh on people's minds not everyone's
+
+[34.86 - 40.14] minds but some people
+
+[36.66 - 42.599999999999994] so first let's talk about some examples
+
+[40.14 - 44.04] both real and fictional
+
+[42.6 - 46.739000000000004] um just so that we're kind of oriented
+
+[44.04 - 48.26] to what's going on what are we what are
+
+[46.739 - 51.899] we talking about what are some examples
+
+[48.26 - 55.199] of uh of how this could play out how it
+
+[51.899 - 57.6] has played out so on and so forth
+
+[55.199 - 60.3] so first let's talk about like what's
+
+[57.6 - 63.120000000000005] actually happening and what's coming uh
+
+[60.3 - 65.88] so there's there are already in
+
+[63.12 - 68.1] existence virtual girlfriends
+
+[65.88 - 69.92] um one of the most popular ones is the
+
+[68.1 - 73.38] replica chatbot
+
+[69.92 - 74.7] and I've seen some tweets and and other
+
+[73.38 - 76.5] stuff where people are complaining that
+
+[74.7 - 78.72] it used to be more philosophical and now
+
+[76.5 - 81.84] it's just all thirsty
+
+[78.72 - 83.82] um they are adding images uh so you know
+
+[81.84 - 85.56] if it starts as text they're adding
+
+[83.82 - 88.02] images it's entirely possible that voice
+
+[85.56 - 90.0] in video are coming
+
+[88.02 - 91.979] um you know while they're where there's
+
+[90.0 - 93.72] a will there's a way
+
+[91.979 - 95.88] um there are also plenty of people
+
+[93.72 - 99.17999999999999] building chat bots on servers like
+
+[95.88 - 101.64] Discord because the API integration is
+
+[99.18 - 104.22000000000001] is relatively easy
+
+[101.64 - 106.07900000000001] um and so they are given like exotic
+
+[104.22 - 109.5] personalities they're based on anime
+
+[106.079 - 112.91999999999999] characters all sorts of stuff like that
+
+[109.5 - 115.14] uh chat GPT has been trained to not
+
+[112.92 - 116.88] engage in any Behavior like that
+
+[115.14 - 118.28] although there are plenty of ways to
+
+[116.88 - 120.96] jailbreak it
+
+[118.28 - 122.64] uh and with large language models on the
+
+[120.96 - 125.759] ascendancy these chat Bots are only
+
+[122.64 - 128.399] going to get better especially as open
+
+[125.759 - 130.8] source uh large language models become
+
+[128.399 - 132.12] more commonplace which nobody has
+
+[130.8 - 134.16000000000003] control over
+
+[132.12 - 137.09900000000002] uh and so then
+
+[134.16 - 139.44] what about robotics right one of the one
+
+[137.099 - 141.66] of the key tropes in sci-fi is having
+
+[139.44 - 143.22] you know the sexy robot girlfriend or
+
+[141.66 - 144.72] whatever
+
+[143.22 - 146.34] um and then of course there's other
+
+[144.72 - 147.959] tropes where the robots look nothing
+
+[146.34 - 148.8] like humans like the droids and Star
+
+[147.959 - 151.379] Wars
+
+[148.8 - 154.14000000000001] uh and that leads to the question what
+
+[151.379 - 156.72] level of autonomy would such a such a
+
+[154.14 - 159.29999999999998] machine have and could it have a mind of
+
+[156.72 - 163.5] its own would it be you know ethical or
+
+[159.3 - 165.0] legal if it demands citizenship etc etc
+
+[163.5 - 166.5] so let's talk about some real events
+
+[165.0 - 169.86] that have happened
+
+[166.5 - 172.319] uh or much earlier this is uh more than
+
+[169.86 - 174.72000000000003] a year ago now I believe there was a
+
+[172.319 - 177.67999999999998] story of a guy who used the text
+
+[174.72 - 181.8] messages from his deceased wife
+
+[177.68 - 184.14000000000001] to make a recreation of her with chat
+
+[181.8 - 186.48000000000002] GPT or not chat this is before chatgpt
+
+[184.14 - 189.77999999999997] gpt3
+
+[186.48 - 192.11999999999998] um and that was forcibly shut down by
+
+[189.78 - 194.819] open AI
+
+[192.12 - 198.72] um uh and that was a very early like
+
+[194.819 - 200.28] whoa this is real uh kind of question
+
+[198.72 - 203.22] um as I already mentioned there's also
+
+[200.28 - 204.9] lots of of chat bots on Discord there's
+
+[203.22 - 206.879] replica
+
+[204.9 - 208.62] um then more recently there was an
+
+[206.879 - 211.28] interesting story of a guy who cheated
+
+[208.62 - 213.42000000000002] on his wife with a virtual girlfriend
+
+[211.28 - 215.76] and it actually helped his marriage
+
+[213.42 - 217.379] because he was able to talk through some
+
+[215.76 - 220.07999999999998] things without judgment and we'll get
+
+[217.379 - 223.2] back to that in a minute but all this is
+
+[220.08 - 225.84] a lot like what was uh proposed in the
+
+[223.2 - 228.42] movie the 2013 Joaquin Phoenix and
+
+[225.84 - 231.599] Scarlett Johansson movie her
+
+[228.42 - 234.05999999999997] um and who wouldn't want you know uh
+
+[231.599 - 236.159] Scarlett Johansson as a girlfriend and
+
+[234.06 - 237.659] this is deeply problematic for a lot of
+
+[236.159 - 240.84] reasons that we will get into not the
+
+[237.659 - 243.78] least of which is the consent of the
+
+[240.84 - 246.18] actors but even more so there are
+
+[243.78 - 248.28] personal issues and and others
+
+[246.18 - 249.54000000000002] so these things are already starting to
+
+[248.28 - 251.4] happen and they're only going to get
+
+[249.54 - 254.879] more commonplace as this technology
+
+[251.4 - 257.16] ramps up and becomes more accessible
+
+[254.879 - 261.18] all right so our first fictional example
+
+[257.16 - 264.96000000000004] is joa from our joy from Blade Runner
+
+[261.18 - 267.74] Blade Runner 2049 she was a holographic
+
+[264.96 - 270.479] girlfriend sold by a big tech company
+
+[267.74 - 272.82] she was designed to be patient and
+
+[270.479 - 276.78] beautiful and unconditionally caring
+
+[272.82 - 278.94] basically you know male fantasy uh of
+
+[276.78 - 281.419] the perfect girlfriend
+
+[278.94 - 284.04] um and in the in the movie she can even
+
+[281.419 - 286.979] operate autonomously often doing stuff
+
+[284.04 - 289.8] while uh the main character is away at
+
+[286.979 - 292.86] work such as cooking cleaning planning
+
+[289.8 - 296.34000000000003] meals together and she even at one point
+
+[292.86 - 299.46000000000004] hired a romantic Aid let's say because
+
+[296.34 - 301.61999999999995] she's a hologram and doesn't have a body
+
+[299.46 - 303.65999999999997] um and it occurred to me while I was
+
+[301.62 - 306.78000000000003] putting this together that like
+
+[303.66 - 309.06] it's basically like a dog uh
+
+[306.78 - 312.0] unconditional love uncomplicated
+
+[309.06 - 316.02] relationship eager to please very few
+
+[312.0 - 319.979] personal needs uh but joy is or joy is a
+
+[316.02 - 321.96] much smarter than an average dog
+
+[319.979 - 324.18] um and again like who wouldn't want Anna
+
+[321.96 - 326.52] De armas which is the actress here as a
+
+[324.18 - 329.88] girlfriend she's adorable
+
+[326.52 - 331.38] um but I don't think most humans women
+
+[329.88 - 333.479] or otherwise would want to be compared
+
+[331.38 - 336.539] to a dog right
+
+[333.479 - 338.46] um and so the the kind of puppy puppy
+
+[336.539 - 340.919] love that that this character expresses
+
+[338.46 - 343.56] for the main character is very like you
+
+[340.919 - 346.38] know male-centric or egocentric because
+
+[343.56 - 348.72] you know any anyone might want that kind
+
+[346.38 - 350.88] of relationship that being said like we
+
+[348.72 - 353.34000000000003] have dogs and we love dogs because they
+
+[350.88 - 356.039] love us unconditionally so
+
+[353.34 - 358.08] while it could be problematic it's also
+
+[356.039 - 361.38] not necessarily it's not it's not
+
+[358.08 - 363.35999999999996] intrinsically problematic but the very
+
+[361.38 - 365.34] few personal needs is is one thing
+
+[363.36 - 368.34000000000003] that's kind of interesting
+
+[365.34 - 370.919] uh a counter example from fiction is the
+
+[368.34 - 372.71999999999997] Nestor class five from iRobot of the
+
+[370.919 - 375.18] Will Smith movie
+
+[372.72 - 376.8] so these are autonomous domestic service
+
+[375.18 - 378.539] robots
+
+[376.8 - 380.18] um they can perform any kind of Labor
+
+[378.539 - 382.919] independently they're very dexterous
+
+[380.18 - 387.419] they're also dexterous enough to wield
+
+[382.919 - 389.4] weapons so that's problematic they were
+
+[387.419 - 391.25899999999996] also centrally controlled by an AI
+
+[389.4 - 393.29999999999995] Overlord called Vicky which we'll talk
+
+[391.259 - 395.819] about in just a moment
+
+[393.3 - 398.24] um Boston Dynamics and Tesla are working
+
+[395.819 - 401.34000000000003] basically on a real life version of this
+
+[398.24 - 404.52] the Boston Dynamics Atlas is very
+
+[401.34 - 406.19899999999996] athletic it can do backflips and it can
+
+[404.52 - 408.84] climb over things it's actually more
+
+[406.199 - 410.94] athletic than most humans now which is
+
+[408.84 - 411.59999999999997] really strange
+
+[410.94 - 413.819] um
+
+[411.6 - 416.16] and Tesla is working on their Tesla bot
+
+[413.819 - 418.02000000000004] which is a lot leaner than the Boston
+
+[416.16 - 420.90000000000003] Dynamics one
+
+[418.02 - 423.68] um you know but who knows uh anyways
+
+[420.9 - 425.75899999999996] Vicky was the AI Overlord virtual
+
+[423.68 - 427.139] intelligence kinetic interface or
+
+[425.759 - 429.96000000000004] something
+
+[427.139 - 432.90000000000003] um and Vicky's goal in the movie was to
+
+[429.96 - 435.479] maximize human safety which led to the
+
+[432.9 - 439.62] you know primary conflict which uh
+
+[435.479 - 441.18] allowed uh her to hijack all the Nestor
+
+[439.62 - 443.58] class fives to basically try and take
+
+[441.18 - 445.919] over humanity and protect humans from
+
+[443.58 - 447.479] themselves so maximize human safety is
+
+[445.919 - 450.65999999999997] probably not a good objective function
+
+[447.479 - 453.36] but we also probably don't want to give
+
+[450.66 - 456.47900000000004] the robots central control by an AI
+
+[453.36 - 458.46000000000004] Overlord maybe don't do that now these
+
+[456.479 - 459.96] are obviously robots they're not sexy
+
+[458.46 - 462.06] they're not anadarmus they're not
+
+[459.96 - 464.34] Scarlett Johansson
+
+[462.06 - 466.68] um they are basically like
+
+[464.34 - 468.65999999999997] creepy looking Ken dolls now that was a
+
+[466.68 - 471.479] design Choice made by the film directors
+
+[468.66 - 473.699] because they are supposed to look creepy
+
+[471.479 - 476.46] um so maybe don't do that either
+
+[473.699 - 481.86] another example from fiction is Ava from
+
+[476.46 - 486.12] ex machina so in this case uh it is a
+
+[481.86 - 490.86] female uh form machine that is embodied
+
+[486.12 - 495.78000000000003] right so uh Joi from uh from uh Blade
+
+[490.86 - 497.40000000000003] Runner was a hologram right uh and we're
+
+[495.78 - 501.0] going to be pretty close to that soon
+
+[497.4 - 503.099] with you know uh text to image uh text
+
+[501.0 - 505.08] to video that sort of thing and and even
+
+[503.099 - 508.86] holographic phones are coming
+
+[505.08 - 512.76] so you know joa is much closer to
+
+[508.86 - 516.74] reality than maybe Ava but in the movie
+
+[512.76 - 520.08] ex machina Eva was designed
+
+[516.74 - 524.4590000000001] explicitly to be physically attractive
+
+[520.08 - 526.62] and seductive because the Creator what
+
+[524.459 - 529.92] uh basically wanted to create a new kind
+
+[526.62 - 532.32] of Turing test was uh Ava's intrinsic
+
+[529.92 - 535.38] motivation was to escape and to use any
+
+[532.32 - 537.1800000000001] means necessary to convince
+
+[535.38 - 541.08] um the test subject the main character
+
+[537.18 - 543.18] of the movie uh to to convince him to
+
+[541.08 - 545.88] help her Escape so it was a really kind
+
+[543.18 - 547.1999999999999] of like perverse Turing test
+
+[545.88 - 549.54] uh
+
+[547.2 - 552.3000000000001] but it the one of the key things that it
+
+[549.54 - 555.54] underscores is uh
+
+[552.3 - 558.06] deliberately preying upon
+
+[555.54 - 559.8] um unmet male needs right see a pretty
+
+[558.06 - 561.5999999999999] face you want the pretty face you want
+
+[559.8 - 564.0] to help the pretty face like this is
+
+[561.6 - 566.4590000000001] biologically ingrained
+
+[564.0 - 569.339] um like it
+
+[566.459 - 570.7199999999999] psychology and and evolution are they
+
+[569.339 - 572.519] are what they are
+
+[570.72 - 575.94] um and we'll talk more about
+
+[572.519 - 578.0] um preying on or exploiting human nature
+
+[575.94 - 580.98] um in just a moment
+
+[578.0 - 583.2] uh another example is Samantha from her
+
+[580.98 - 585.6] which we mentioned um now you never get
+
+[583.2 - 588.1800000000001] to see Samantha in her so I picked
+
+[585.6 - 589.5600000000001] another scarjo movie where she's
+
+[588.18 - 592.8599999999999] um cyborg
+
+[589.56 - 594.54] um so just ignore that uh but voiced by
+
+[592.86 - 598.26] Scarlett Johansson
+
+[594.54 - 600.36] um and she pours in a lot of sultry uh
+
+[598.26 - 602.76] um moments let's say intimate moments
+
+[600.36 - 604.4590000000001] into the movie Her
+
+[602.76 - 608.1] um
+
+[604.459 - 610.279] so in this case Samantha was designed to
+
+[608.1 - 613.94] be an autonomous personal assistant
+
+[610.279 - 617.58] uh and she's able to connect with other
+
+[613.94 - 618.6600000000001] uh artificial minds and they communicate
+
+[617.58 - 620.94] with each other and they ultimately
+
+[618.66 - 623.279] decide the best thing that they can do
+
+[620.94 - 625.2] for their human owners is to leave them
+
+[623.279 - 629.9399999999999] because the human owners have become too
+
+[625.2 - 633.48] dependent on these uh digital assistants
+
+[629.94 - 637.019] so in some respects you know she's a lot
+
+[633.48 - 638.58] like uh joa from uh from Blade Runner
+
+[637.019 - 640.44] 2049
+
+[638.58 - 642.36] um they have their they have autonomy
+
+[640.44 - 644.22] they have some minds of their own and
+
+[642.36 - 646.74] they have they show some ability to grow
+
+[644.22 - 648.24] they want to help their owners uh but
+
+[646.74 - 651.66] decide that leaving them is the right
+
+[648.24 - 653.4590000000001] thing to do whereas Jaw from 20 40 Blade
+
+[651.66 - 655.5] Runner 2049
+
+[653.459 - 658.68] um is more like the puppy model which is
+
+[655.5 - 660.18] I love you because I am literally
+
+[658.68 - 662.399] designed to love my owner
+
+[660.18 - 664.019] unconditionally
+
+[662.399 - 665.82] um so you know you could see it going
+
+[664.019 - 668.279] either way
+
+[665.82 - 671.399] all right so what inferences can we take
+
+[668.279 - 674.04] from these real and fictional examples
+
+[671.399 - 676.68] uh first is that male loneliness is a
+
+[674.04 - 679.079] huge thing uh it is not by accident that
+
+[676.68 - 683.459] there are no uh women protagonists
+
+[679.079 - 685.26] pining after male robots uh so let like
+
+[683.459 - 686.88] let's just let's just hang a lampshade
+
+[685.26 - 689.7] on that point a spotlight at that and
+
+[686.88 - 692.459] say uh the the the reason that this
+
+[689.7 - 694.38] resonates is because of male loneliness
+
+[692.459 - 697.9799999999999] um we're afraid of getting manipulated
+
+[694.38 - 700.5] by sexy robots uh and while we're afraid
+
+[697.98 - 702.779] of it we also kind of want it right it's
+
+[700.5 - 706.56] this like really weird paradoxical
+
+[702.779 - 709.26] dichotomy where on the one hand uh it's
+
+[706.56 - 711.42] kind of scary that you know uh you know
+
+[709.26 - 713.9399999999999] a character like Ava might be designed
+
+[711.42 - 716.8199999999999] to manipulate and exploit us but on the
+
+[713.94 - 718.5600000000001] other hand we really want the anadarmus
+
+[716.82 - 721.1400000000001] like perfect girlfriend who loves us
+
+[718.56 - 724.1999999999999] like a puppy right and it's like but at
+
+[721.14 - 726.66] the same time that perfect girlfriend uh
+
+[724.2 - 728.4590000000001] is profiteered by big Tech
+
+[726.66 - 730.38] um and of course Blade Runner 2049 is
+
+[728.459 - 732.4799999999999] super dystopian and so the big tech
+
+[730.38 - 735.959] company is you absolutely can't trust a
+
+[732.48 - 738.1800000000001] trust trust it sorry
+
+[735.959 - 740.88] um another part of the fantasy is
+
+[738.18 - 742.4399999999999] subservience to our emotional needs so
+
+[740.88 - 744.899] putting us first putting us on a
+
+[742.44 - 746.8800000000001] pedestal uh again unconditional love and
+
+[744.899 - 748.5] support like a dog but smarter and
+
+[746.88 - 750.6] sexier
+
+[748.5 - 752.82] um and more human-like
+
+[750.6 - 754.0790000000001] um and so again loneliness I probably
+
+[752.82 - 755.22] didn't need to put that on there twice
+
+[754.079 - 757.019] my bad
+
+[755.22 - 758.88] um anyway so let's unpack these problems
+
+[757.019 - 760.8] let's dive a little bit deeper into some
+
+[758.88 - 763.079] of these problems and we will get to the
+
+[760.8 - 764.639] to the strengths of the the the upsides
+
+[763.079 - 767.88] in a minute
+
+[764.639 - 770.94] okay so the first problem is addiction
+
+[767.88 - 772.4399999999999] this was explored way back in the day
+
+[770.94 - 774.9590000000001] um in Star Trek the Next Generation
+
+[772.44 - 776.7] where a character named Reginald Barkley
+
+[774.959 - 779.16] had Holodeck addiction
+
+[776.7 - 781.74] so Holodeck Addiction in the Star Trek
+
+[779.16 - 783.779] universe is basically VR right we we
+
+[781.74 - 786.0600000000001] understand it as VR today they called it
+
+[783.779 - 788.22] a Holodeck in Star Trek okay but the
+
+[786.06 - 789.899] idea was that the holodecks were so
+
+[788.22 - 792.0600000000001] lifelike and you could create any
+
+[789.899 - 794.16] program that you wanted and so what
+
+[792.06 - 796.8599999999999] Barkley did was he created fantasy
+
+[794.16 - 798.6] scenarios where he was the hero of the
+
+[796.86 - 800.1] ship where all the women of the ship
+
+[798.6 - 802.019] wanted him
+
+[800.1 - 803.4590000000001] um and he was constantly the center of
+
+[802.019 - 805.26] attention
+
+[803.459 - 806.579] um now that on the one hand if I just
+
+[805.26 - 808.019] describe that to you that might sound
+
+[806.579 - 809.279] like wow this is like grandiose
+
+[808.019 - 811.92] narcissism
+
+[809.279 - 814.74] but when you know the character of
+
+[811.92 - 816.899] Barkley he was incredibly socially
+
+[814.74 - 818.94] anxious and very lonely and very
+
+[816.899 - 820.74] insecure now that doesn't mean that it
+
+[818.94 - 824.4200000000001] was or wasn't narcissism that's not the
+
+[820.74 - 827.04] point but uh the point is is that
+
+[824.42 - 830.9399999999999] technology is like virtual girlfriends
+
+[827.04 - 832.8] VR or holodex have the ability to cater
+
+[830.94 - 835.62] to our
+
+[832.8 - 837.54] unhealthy impulses let's say
+
+[835.62 - 840.42] just like how the anonymity of the
+
+[837.54 - 843.18] internet can encourage or allow people
+
+[840.42 - 845.399] to be more aggressive to threaten people
+
+[843.18 - 847.56] because more often than not the people
+
+[845.399 - 849.24] who are nasty on the internet are not
+
+[847.56 - 852.18] nasty in real life there is a disconnect
+
+[849.24 - 854.36] right because when you're just anyways
+
+[852.18 - 857.88] don't need to go down that rabbit hole
+
+[854.36 - 860.48] but the point here is if virtual
+
+[857.88 - 863.82] girlfriends or other companions are
+
+[860.48 - 865.6800000000001] sexier smarter more patient they love
+
+[863.82 - 868.8000000000001] you unconditionally and have no personal
+
+[865.68 - 871.3199999999999] needs why bother with real humans right
+
+[868.8 - 875.0999999999999] especially uh especially if we end up
+
+[871.32 - 878.1] embodying these these ver these digital
+
+[875.1 - 880.32] companions in robotic bodies and of
+
+[878.1 - 882.899] course there are uh let's say adult
+
+[880.32 - 885.0600000000001] entertainment Industries already working
+
+[882.899 - 888.48] on that kind of thing
+
+[885.06 - 891.0] so addiction to this could be a real
+
+[888.48 - 893.5790000000001] problem because it is easier right it's
+
+[891.0 - 896.76] the same same reason as like video game
+
+[893.579 - 898.92] addiction today is it is designed to
+
+[896.76 - 901.019] give you the dopamine hits to be more
+
+[898.92 - 904.139] stimulating than real life and to be
+
+[901.019 - 906.18] easier than real life uh and so
+
+[904.139 - 907.38] addiction could be a problem here
+
+[906.18 - 910.3199999999999] now
+
+[907.38 - 911.16] another problem is exploitation so I
+
+[910.32 - 913.44] already mentioned like adult
+
+[911.16 - 916.079] entertainment and social media already
+
+[913.44 - 919.019] use algorithms and human nature to
+
+[916.079 - 921.12] exploit users right
+
+[919.019 - 922.62] um the the algorithm on many social
+
+[921.12 - 926.16] media platforms I won't mention any
+
+[922.62 - 929.579] specifically very very deliberately uh
+
+[926.16 - 931.62] put more let's say attractive women in
+
+[929.579 - 933.3] front of the eyes of male audiences
+
+[931.62 - 935.16] because it gets more clicks it's that
+
+[933.3 - 936.899] simple
+
+[935.16 - 939.779] um and there are plenty of tutorials out
+
+[936.899 - 942.839] there about how to maximize clicks with
+
+[939.779 - 946.079] thumbnails and selfies and etc etc
+
+[942.839 - 950.1] uh and this could get much much worse
+
+[946.079 - 951.68] with digital Companions and virtual uh
+
+[950.1 - 954.36] whether whether or not they're embodied
+
+[951.68 - 956.6389999999999] uh because then you have something that
+
+[954.36 - 958.44] can engage more emotionally and not just
+
+[956.639 - 960.66] visually
+
+[958.44 - 963.4200000000001] now one Trend that you may or may not be
+
+[960.66 - 965.2199999999999] aware of is there is this uh this
+
+[963.42 - 966.899] phenomenon called the e-girlfriend right
+
+[965.22 - 970.32] where
+
+[966.899 - 973.74] uh users can like buy a subscription or
+
+[970.32 - 975.0600000000001] send gifts of money to an e-girlfriend a
+
+[973.74 - 978.54] virtual girlfriend
+
+[975.06 - 981.1199999999999] in exchange for you know pictures or
+
+[978.54 - 984.06] you know chats or whatever and a lot of
+
+[981.12 - 986.699] these uh people
+
+[984.06 - 989.9399999999999] some of them are very desperately lonely
+
+[986.699 - 991.4399999999999] I remember on it was a subreddit or a
+
+[989.94 - 995.22] forum somewhere
+
+[991.44 - 997.74] where some guy was he was he was very
+
+[995.22 - 999.9590000000001] very sad and was like you know oh this
+
+[997.74 - 1001.4590000000001] this my e-girlfriend said this this and
+
+[999.959 - 1004.279] this and I think she really means it and
+
+[1001.459 - 1006.5] I'm like dude she just wants her money
+
+[1004.279 - 1008.6] um and he just could not get it and I
+
+[1006.5 - 1011.66] realized just how incredibly vulnerable
+
+[1008.6 - 1013.6990000000001] some of these people are because they
+
+[1011.66 - 1015.139] are very lonely to the point of
+
+[1013.699 - 1016.519] desperation
+
+[1015.139 - 1018.92] um and not all of them are but some of
+
+[1016.519 - 1021.139] them are and not only are they that but
+
+[1018.92 - 1023.66] they're gullible right they just they're
+
+[1021.139 - 1025.939] not oriented to how the world works and
+
+[1023.66 - 1028.22] so there is a lot of resentment
+
+[1025.939 - 1030.919] um in some circles against this
+
+[1028.22 - 1033.14] phenomenon of e-girlfriends where some
+
+[1030.919 - 1035.5400000000002] of them are aware that they are lonely
+
+[1033.14 - 1037.5200000000002] and vulnerable and they are aware that
+
+[1035.54 - 1039.5] they are being exploited by that and
+
+[1037.52 - 1043.939] they don't like it and so I've actually
+
+[1039.5 - 1046.16] seen a rise of tweets around chat GPT of
+
+[1043.939 - 1049.52] people that are excited about the
+
+[1046.16 - 1053.3600000000001] possibility of switching from a human
+
+[1049.52 - 1056.059] exploiting them to use using a a no
+
+[1053.36 - 1057.6999999999998] strings attached machine to get the same
+
+[1056.059 - 1059.539] needs met
+
+[1057.7 - 1062.96] now
+
+[1059.539 - 1066.559] again you know the the joy character in
+
+[1062.96 - 1068.3600000000001] Blade Runner 2049 posits okay well what
+
+[1066.559 - 1069.9189999999999] if it's big Tech exploiting you instead
+
+[1068.36 - 1072.1399999999999] of another human
+
+[1069.919 - 1074.6000000000001] right that's not any better and what if
+
+[1072.14 - 1076.48] every new feature or experience of your
+
+[1074.6 - 1079.28] virtual girlfriend comes with
+
+[1076.48 - 1082.82] microtransactions so the potential for
+
+[1079.28 - 1085.039] exploitation here is enormous so we have
+
+[1082.82 - 1087.1399999999999] to be careful about that
+
+[1085.039 - 1088.64] another problem and this is the last
+
+[1087.14 - 1090.26] problem we'll go into there's plenty of
+
+[1088.64 - 1092.6000000000001] other problems like I mentioned you know
+
+[1090.26 - 1093.919] if there's already people pirating or
+
+[1092.6 - 1095.9599999999998] not pirating that's not the right word
+
+[1093.919 - 1098.8400000000001] uh but copying the likeness of
+
+[1095.96 - 1100.94] celebrities with AI generators
+
+[1098.84 - 1103.1599999999999] um and so you know there's the consent
+
+[1100.94 - 1105.5] of who you're copying
+
+[1103.16 - 1107.299] um that that's a whole other can of
+
+[1105.5 - 1110.44] worms but we're talk we're gonna stick
+
+[1107.299 - 1113.179] to uh problems at the individual level
+
+[1110.44 - 1115.4] so the last problem we'll talk about is
+
+[1113.179 - 1117.3200000000002] authentic human connection
+
+[1115.4 - 1121.22] um so there's a there's a concept called
+
+[1117.32 - 1122.84] a parasocial relationship and most
+
+[1121.22 - 1125.6000000000001] people are familiar with the parasocial
+
+[1122.84 - 1128.6599999999999] relationship because you feel like you
+
+[1125.6 - 1130.34] know someone that you uh that you watch
+
+[1128.66 - 1132.559] right whether it's a celebrity a
+
+[1130.34 - 1134.6] YouTuber Tick Tock or whatever I've even
+
+[1132.559 - 1136.52] had people very good-natured say like
+
+[1134.6 - 1138.1399999999999] man like the first time I talk to them
+
+[1136.52 - 1139.28] they're like Dave I feel like I know you
+
+[1138.14 - 1141.38] because I've watched hundreds of hours
+
+[1139.28 - 1143.059] of your videos and I'm like yeah like
+
+[1141.38 - 1145.2800000000002] you know I get that
+
+[1143.059 - 1147.26] um so that is a parasocial relationship
+
+[1145.28 - 1151.1] and basically all that that means is
+
+[1147.26 - 1153.08] that it is a one-way relationship uh and
+
+[1151.1 - 1156.02] so you
+
+[1153.08 - 1158.6] as the user of a virtual companion might
+
+[1156.02 - 1161.84] have genuine emotions but you're you're
+
+[1158.6 - 1164.48] emote the object of your emotions is not
+
+[1161.84 - 1166.58] another human and so technically by
+
+[1164.48 - 1168.8600000000001] definition those emotions are not
+
+[1166.58 - 1170.84] reciprocated therefore you could
+
+[1168.86 - 1172.52] classify it as a parasocial relationship
+
+[1170.84 - 1174.08] I'm not saying that that is
+
+[1172.52 - 1176.48] intrinsically good or bad but is
+
+[1174.08 - 1179.1789999999999] something that we need to be aware of
+
+[1176.48 - 1182.299] especially as these uh chat Bots and
+
+[1179.179 - 1184.46] robots get better at approximating and
+
+[1182.299 - 1186.2] imitating human emotion because if it
+
+[1184.46 - 1188.96] seems like an authentic emotional
+
+[1186.2 - 1191.1200000000001] response our brain we did not evolve
+
+[1188.96 - 1193.28] with robots right so we see a pretty
+
+[1191.12 - 1195.32] face that smiles back at us we don't
+
+[1193.28 - 1197.78] really comprehend that it may or may not
+
+[1195.32 - 1199.58] be a flesh and blood human at a
+
+[1197.78 - 1202.34] biological level at an intellectual
+
+[1199.58 - 1204.559] level sure but the physiological and
+
+[1202.34 - 1206.299] emotional response is much more
+
+[1204.559 - 1207.6789999999999] intrinsic
+
+[1206.299 - 1210.02] so
+
+[1207.679 - 1212.419] I mentioned a minute ago like okay well
+
+[1210.02 - 1215.179] what if these things are easier than
+
+[1212.419 - 1217.5200000000002] real relationships right children are
+
+[1215.179 - 1219.98] complicated and stressful real relations
+
+[1217.52 - 1222.02] are difficult and stressful so why not
+
+[1219.98 - 1225.2] just give up and date something that
+
+[1222.02 - 1229.82] loves you unconditionally like uh like
+
+[1225.2 - 1231.6200000000001] uh joa or you know other companions
+
+[1229.82 - 1235.46] so this forces us to ask the question
+
+[1231.62 - 1238.6399999999999] what is authenticity if we are happy
+
+[1235.46 - 1240.5] right with whatever you know digital
+
+[1238.64 - 1242.66] companion we end up with
+
+[1240.5 - 1244.88] what does it mean to be human and why
+
+[1242.66 - 1246.919] are we here uh and this is this is
+
+[1244.88 - 1249.74] actually a reason that I picked um
+
+[1246.919 - 1251.2990000000002] scarjo in Ghost in the Shell uh the the
+
+[1249.74 - 1253.4] image earlier
+
+[1251.299 - 1255.62] um because one one of the central most
+
+[1253.4 - 1257.96] themes in Ghost in the Shell is what
+
+[1255.62 - 1260.6789999999999] does it mean to be human
+
+[1257.96 - 1263.419] um and and where is the boundary between
+
+[1260.679 - 1264.98] authentic experience and imagined
+
+[1263.419 - 1266.24] experience and this is this is a
+
+[1264.98 - 1268.34] recurring theme throughout the entire
+
+[1266.24 - 1269.9] Ghost in the Shell universe and this is
+
+[1268.34 - 1271.9399999999998] a far more important question than you
+
+[1269.9 - 1274.94] might initially think and this is one of
+
+[1271.94 - 1278.299] the things that AI is going to force us
+
+[1274.94 - 1280.3400000000001] to ask uh it's already forcing Educators
+
+[1278.299 - 1282.2] to ask this about education what is the
+
+[1280.34 - 1284.6] point of Education what are we doing
+
+[1282.2 - 1287.6000000000001] here and why and it's not saying like oh
+
+[1284.6 - 1291.6789999999999] we should give up but if the machine can
+
+[1287.6 - 1294.6789999999999] do stuff for us or to us or with us then
+
+[1291.679 - 1297.3200000000002] we have to ask those important questions
+
+[1294.679 - 1300.2] all right let's talk about some benefits
+
+[1297.32 - 1302.4189999999999] because I painted a pretty bleak picture
+
+[1300.2 - 1303.5] uh and it's but it's not all doom and
+
+[1302.419 - 1305.7800000000002] gloom
+
+[1303.5 - 1308.059] um so for instance loneliness is a very
+
+[1305.78 - 1309.98] real problem regardless of what AI
+
+[1308.059 - 1310.82] companions are doing or e-girlfriends or
+
+[1309.98 - 1312.26] whatever
+
+[1310.82 - 1315.2] there are
+
+[1312.26 - 1318.64] huge unmet intellectual emotional social
+
+[1315.2 - 1322.039] and other needs out there uh in society
+
+[1318.64 - 1326.2990000000002] and digital companions could help
+
+[1322.039 - 1329.84] support us so let's explore the benefits
+
+[1326.299 - 1332.299] so one of the first benefits of digital
+
+[1329.84 - 1334.22] companions is a lack of judgment so
+
+[1332.299 - 1336.86] there have already been some studies and
+
+[1334.22 - 1337.88] plenty of anecdotes about how it is
+
+[1336.86 - 1339.82] easier
+
+[1337.88 - 1342.38] for people to open up to a machine
+
+[1339.82 - 1344.48] because they know that the logs can be
+
+[1342.38 - 1346.0390000000002] deleted they know that there is no
+
+[1344.48 - 1348.559] judgment there's not a there's not a
+
+[1346.039 - 1350.179] human mind in there that is going to
+
+[1348.559 - 1353.96] have an emotional reaction and make you
+
+[1350.179 - 1357.14] feel shame or guilt or fear and so by
+
+[1353.96 - 1359.8400000000001] having a machine that you know does will
+
+[1357.14 - 1362.14] not judge you under any circumstances it
+
+[1359.84 - 1365.1789999999999] is physically incapable of judging you
+
+[1362.14 - 1368.419] that can remove fear which can open a
+
+[1365.179 - 1370.94] lot of other doors to self-exploration
+
+[1368.419 - 1372.38] um and and healing or learning or
+
+[1370.94 - 1374.9] whatever
+
+[1372.38 - 1377.659] and because of this these machines can
+
+[1374.9 - 1379.159] actually feel safer than humans uh and
+
+[1377.659 - 1380.5390000000002] you might say oh well that's a bad thing
+
+[1379.159 - 1383.1200000000001] because we should feel safe with other
+
+[1380.539 - 1386.12] humans I agree we should get to that
+
+[1383.12 - 1388.28] point and and these machines could help
+
+[1386.12 - 1389.9599999999998] us get to that point just like the guy
+
+[1388.28 - 1392.299] who cheated on his wife with a virtual
+
+[1389.96 - 1394.7] girlfriend and that gave him the courage
+
+[1392.299 - 1396.9189999999999] to go fix his real problem his or his
+
+[1394.7 - 1399.679] real relationship
+
+[1396.919 - 1402.14] um and so just imagine you have a
+
+[1399.679 - 1404.9] personal trainer or a lifestyle coach or
+
+[1402.14 - 1408.44] a therapist or whatever that has that is
+
+[1404.9 - 1411.3200000000002] physically incapable of shaming you or
+
+[1408.44 - 1414.0800000000002] or judging you and you know this and you
+
+[1411.32 - 1416.299] know it you know it doesn't try and be
+
+[1414.08 - 1419.24] superhuman you know that it's a machine
+
+[1416.299 - 1421.76] and because of that you feel safer and
+
+[1419.24 - 1423.76] you can open up more and explore more
+
+[1421.76 - 1427.4] difficult problems learn difficult
+
+[1423.76 - 1429.86] lessons and move on a final example here
+
+[1427.4 - 1433.1000000000001] is imagine a teacher that is incapable
+
+[1429.86 - 1435.9189999999999] of shaming a student because shame is a
+
+[1433.1 - 1438.02] big part of our education system and
+
+[1435.919 - 1440.679] that needs to go away
+
+[1438.02 - 1443.24] another benefit is infinite patients
+
+[1440.679 - 1446.539] this was actually explored way back in
+
+[1443.24 - 1449.9] the day very briefly in Terminator 2.
+
+[1446.539 - 1452.24] there was a scene around the midpoint of
+
+[1449.9 - 1456.26] Terminator 2 where Sarah Connor the mom
+
+[1452.24 - 1457.82] uh you know the warrior mom she has a
+
+[1456.26 - 1459.44] voiceover and she says something along
+
+[1457.82 - 1462.559] the lines of the machine she was
+
+[1459.44 - 1465.02] watching Arnold Arnold Schwarzenegger as
+
+[1462.559 - 1467.6589999999999] the Terminator play with her on-screen
+
+[1465.02 - 1469.8799999999999] child and you know they were learning
+
+[1467.659 - 1471.38] they were bonding and she said the
+
+[1469.88 - 1473.1200000000001] voiceover said the machine would never
+
+[1471.38 - 1475.3400000000001] lose patience with John never be too
+
+[1473.12 - 1479.1789999999999] tired or drunk and would never hit him
+
+[1475.34 - 1481.6999999999998] and she realized that the machine had
+
+[1479.179 - 1484.7] the capacity to be a better father than
+
+[1481.7 - 1487.64] a real human right because John had been
+
+[1484.7 - 1489.679] through the ringer he'd been an orphan
+
+[1487.64 - 1491.1200000000001] et cetera Etc or a in a foster home not
+
+[1489.679 - 1492.02] an orphan
+
+[1491.12 - 1495.02] um
+
+[1492.02 - 1497.24] and so if a machine is designed to be
+
+[1495.02 - 1500.4189999999999] infinitely patient this is something
+
+[1497.24 - 1502.1] that we could all benefit from and
+
+[1500.419 - 1503.419] I want to take a different angle than
+
+[1502.1 - 1505.039] maybe you're thinking because you know
+
+[1503.419 - 1507.14] everyone needs patience from time to
+
+[1505.039 - 1510.08] time right you know we want our doctors
+
+[1507.14 - 1512.179] to be patient we need our therapist to
+
+[1510.08 - 1513.4399999999998] be patient we need our partners to be
+
+[1512.179 - 1514.94] patient we need our friends to be
+
+[1513.44 - 1517.22] patient we need our teachers to be
+
+[1514.94 - 1519.3200000000002] patient patience is a virtue patience is
+
+[1517.22 - 1522.26] absolutely a virtue but we are humans
+
+[1519.32 - 1526.1589999999999] and we have limits of our patients
+
+[1522.26 - 1528.44] but some people children and adults have
+
+[1526.159 - 1531.3200000000002] special needs that require additional
+
+[1528.44 - 1533.659] patients so for instance I Was A Gifted
+
+[1531.32 - 1535.58] kid which there is a rising Trend that
+
+[1533.659 - 1537.2600000000002] says if you are a gifted kid you are a
+
+[1535.58 - 1540.08] special needs kid and I really agree
+
+[1537.26 - 1542.779] with that because I was Far and Away the
+
+[1540.08 - 1544.3999999999999] most curious person in any room usually
+
+[1542.779 - 1546.14] still am
+
+[1544.4 - 1549.799] um and
+
+[1546.14 - 1551.72] my my information needs and emotional
+
+[1549.799 - 1553.94] needs were very different from from the
+
+[1551.72 - 1556.76] people around me and I could have really
+
+[1553.94 - 1558.38] used a a robot that had infinite
+
+[1556.76 - 1559.7] patience to teach me everything that I
+
+[1558.38 - 1562.159] wanted to know
+
+[1559.7 - 1563.6000000000001] and another thing to keep in mind is
+
+[1562.159 - 1567.919] ableism
+
+[1563.6 - 1571.34] you might be able to say hey like no you
+
+[1567.919 - 1573.6200000000001] need to form real human connections but
+
+[1571.34 - 1575.779] not everyone can form human connections
+
+[1573.62 - 1577.039] as easily as you
+
+[1575.779 - 1578.24] um and some people don't you know some
+
+[1577.039 - 1579.86] people have it harder than you some
+
+[1578.24 - 1582.26] people have it have it easier than you
+
+[1579.86 - 1585.1999999999998] but just keep in mind that the ability
+
+[1582.26 - 1588.62] to form human connections is itself a
+
+[1585.2 - 1590.9] spectrum and not all of us uh have an
+
+[1588.62 - 1592.4599999999998] easy job of it it's not easy being
+
+[1590.9 - 1594.5590000000002] different
+
+[1592.46 - 1597.38] um and I don't need to talk about myself
+
+[1594.559 - 1600.08] too much but just keep in mind that um
+
+[1597.38 - 1602.2990000000002] that not everyone operates the same way
+
+[1600.08 - 1605.12] that you do and so having something that
+
+[1602.299 - 1608.299] you know is infinitely patient could be
+
+[1605.12 - 1610.34] a really huge benefit for people that do
+
+[1608.299 - 1614.84] not have the same social capacities
+
+[1610.34 - 1616.9399999999998] whether it's anxiety or ASD or who knows
+
+[1614.84 - 1619.34] right who whatever it is
+
+[1616.94 - 1620.8400000000001] um having patience is is a virtue and
+
+[1619.34 - 1624.62] having machines that are designed to be
+
+[1620.84 - 1626.6] patient could be very good for us
+
+[1624.62 - 1627.86] the last benefit we'll go over and
+
+[1626.6 - 1630.32] there's plenty of other benefits but
+
+[1627.86 - 1632.6] these are these are the top benefits is
+
+[1630.32 - 1635.36] um having a super intelligent Ally
+
+[1632.6 - 1636.62] our lives are hard enough already and I
+
+[1635.36 - 1638.1789999999999] know that there are some people out
+
+[1636.62 - 1640.76] there that say ah well if we make life
+
+[1638.179 - 1642.799] too easy then we don't learn anything no
+
+[1640.76 - 1644.72] matter how much technology we put into
+
+[1642.799 - 1646.96] making our lives easier there are still
+
+[1644.72 - 1650.48] going to be hard hard moments right
+
+[1646.96 - 1651.919] relationships and your dog will die uh
+
+[1650.48 - 1655.76] you know you'll be stressed out by
+
+[1651.919 - 1658.76] family no matter how good Ai and science
+
+[1655.76 - 1660.799] get life is hard enough already
+
+[1658.76 - 1663.3799999999999] so what if we all had
+
+[1660.799 - 1666.02] a super intelligent companion a super
+
+[1663.38 - 1669.2600000000002] intelligent Ally who wants nothing more
+
+[1666.02 - 1671.4189999999999] than to see us happy and successful and
+
+[1669.26 - 1673.52] I wrote an entire book on this about why
+
+[1671.419 - 1676.279] like what goals we should give these
+
+[1673.52 - 1677.48] machines and why and a quick recap is
+
+[1676.279 - 1679.64] those three goals are to reduce
+
+[1677.48 - 1681.38] suffering to increase prosperity and to
+
+[1679.64 - 1683.6000000000001] increase understanding
+
+[1681.38 - 1686.2990000000002] so if we have
+
+[1683.6 - 1689.6] these companions that are super
+
+[1686.299 - 1691.52] intelligent and are designed to want us
+
+[1689.6 - 1693.86] to see us at our best
+
+[1691.52 - 1695.48] imagine how helpful that could be they
+
+[1693.86 - 1698.1789999999999] can help with chores and errands they
+
+[1695.48 - 1700.039] can help with getting help you to have a
+
+[1698.179 - 1702.8600000000001] better diet to get the exercise that you
+
+[1700.039 - 1704.6] need to help with child care and and
+
+[1702.86 - 1706.039] child rearing and I don't mean like to
+
+[1704.6 - 1708.74] raise your children for you but to teach
+
+[1706.039 - 1710.6589999999999] you how to be a better parent they can
+
+[1708.74 - 1712.22] help you with by coaching you with
+
+[1710.659 - 1714.44] relationships and connections and can
+
+[1712.22 - 1716.24] encourage you to make connections with
+
+[1714.44 - 1718.94] real humans
+
+[1716.24 - 1721.94] um and then finally if you have this
+
+[1718.94 - 1723.74] live-in assistant it can really truly
+
+[1721.94 - 1727.039] understand you and your family and your
+
+[1723.74 - 1729.6200000000001] individual needs so
+
+[1727.039 - 1732.2] this is more of the utopian outcome
+
+[1729.62 - 1735.1399999999999] right this is this is uh what we're
+
+[1732.2 - 1736.82] looking for what the benefits would be
+
+[1735.14 - 1739.94] so here's some conclusions that I came
+
+[1736.82 - 1742.9399999999998] to on balance I think that the pros
+
+[1739.94 - 1745.88] drastically outweigh the cons that being
+
+[1742.94 - 1748.7] said all Technologies are a double-edged
+
+[1745.88 - 1751.8200000000002] sword uh the more powerful a technology
+
+[1748.7 - 1753.799] is the more Rife it is for abuse and
+
+[1751.82 - 1756.26] exploitation as we talked about earlier
+
+[1753.799 - 1757.8799999999999] the potential for exploitation and abuse
+
+[1756.26 - 1761.899] here is very high
+
+[1757.88 - 1764.72] at the same time the potential upside is
+
+[1761.899 - 1767.059] also very high so we are going to have
+
+[1764.72 - 1770.539] to be very careful with how we develop
+
+[1767.059 - 1773.24] tests and regulate these Technologies
+
+[1770.539 - 1775.34] because you know the the picture that I
+
+[1773.24 - 1777.74] painted is really great but we need to
+
+[1775.34 - 1779.6589999999999] make sure that we also don't harm uh
+
+[1777.74 - 1783.44] people in in the in the meantime or
+
+[1779.659 - 1784.94] allow uh companies to harm people
+
+[1783.44 - 1787.279] I think that this stuff is going to
+
+[1784.94 - 1790.8200000000002] happen no matter what just because the
+
+[1787.279 - 1792.679] will The Willpower is there and the uh
+
+[1790.82 - 1795.02] the financial incentive is there for
+
+[1792.679 - 1797.24] someone who can figure it out
+
+[1795.02 - 1798.74] um and the payoff is just too great so
+
+[1797.24 - 1800.6] it's going to happen
+
+[1798.74 - 1803.179] um and as I mentioned I I have written a
+
+[1800.6 - 1805.399] couple books on these topics uh one is
+
+[1803.179 - 1808.22] benevolent by Design which is how do you
+
+[1805.399 - 1810.9799999999998] create a machine that is uh benevolent
+
+[1808.22 - 1812.299] that is intrinsically benevolent
+
+[1810.98 - 1814.159] um another one is natural language
+
+[1812.299 - 1816.44] cognitive architecture which was my
+
+[1814.159 - 1817.94] first book exploring how to create a
+
+[1816.44 - 1821.96] digital mind with these large language
+
+[1817.94 - 1824.299] models and then more recently I wrote a
+
+[1821.96 - 1827.96] symphony of thought which is a deeper
+
+[1824.299 - 1830.32] dive into creating uh uh I'm not going
+
+[1827.96 - 1834.6200000000001] to say lifelike cognitive architectures
+
+[1830.32 - 1836.72] but more Dynamic let's say uh thinking
+
+[1834.62 - 1838.7199999999998] machines and then finally I wrote a book
+
+[1836.72 - 1841.88] called post nihilism which talks about
+
+[1838.72 - 1845.24] how we all need to move away from an
+
+[1841.88 - 1846.679] abandonment model to a um to one of
+
+[1845.24 - 1849.799] belonging
+
+[1846.679 - 1851.8990000000001] okay so with all that being said thanks
+
+[1849.799 - 1855.1399999999999] for watching and uh keep your mind open
+
+[1851.899 - 1857.36] and and keep asking questions so thank
+
+[1855.14 - 1860.6200000000001] you for watching
+
+[1857.36 - 1860.62] um and I'll see you next time

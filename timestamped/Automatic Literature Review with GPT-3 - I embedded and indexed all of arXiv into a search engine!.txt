@@ -1,0 +1,3107 @@
+[1.14 - 5.52] hey everyone David Shapiro here before
+
+[3.06 - 8.34] we get started I just wanted to say that
+
+[5.52 - 11.879999999999999] I have updated my patreon page
+
+[8.34 - 14.34] um with new tiers and um clarified what
+
+[11.88 - 17.4] each tier gets you a lot of folks ask
+
+[14.34 - 20.759999999999998] for some time and help and so what I did
+
+[17.4 - 22.56] was I created the two higher tiers will
+
+[20.76 - 25.5] entitle you to a little bit of uh
+
+[22.56 - 27.659999999999997] dedicated one-on-one time with me each
+
+[25.5 - 28.8] month so go check out my patreon page
+
+[27.66 - 30.72] and
+
+[28.8 - 34.02] um consider uh supporting me on patreon
+
+[30.72 - 35.46] and if you want any one-on-one time I'm
+
+[34.02 - 38.160000000000004] happy to talk to with you and your team
+
+[35.46 - 40.2] and you know just provide a little bit
+
+[38.16 - 42.059] of insight and guidance so anyways
+
+[40.2 - 44.7] thanks for watching and I hope you enjoy
+
+[42.059 - 48.26] this video about automated literature
+
+[44.7 - 48.260000000000005] review for scientific papers thanks
+
+[50.34 - 55.379000000000005] good morning everybody David Shapiro
+
+[52.44 - 59.099999999999994] here with a video I have created an
+
+[55.379 - 61.379] automated literature review engine it is
+
+[59.1 - 63.120000000000005] broken up into two parts there is the
+
+[61.379 - 66.24] search engine which searches all of
+
+[63.12 - 69.36] archive with semantic embedding and then
+
+[66.24 - 70.79899999999999] the second part is a gpt3 script that
+
+[69.36 - 73.74] will take whatever papers you have
+
+[70.799 - 76.32000000000001] selected and create literature reviews
+
+[73.74 - 78.67999999999999] for them let's show let me show you how
+
+[76.32 - 78.67999999999999] it's done
+
+[80.479 - 85.2] hey everybody David Shapiro here with a
+
+[83.58 - 88.14] video
+
+[85.2 - 90.24000000000001] um okay so ignore this I haven't updated
+
+[88.14 - 92.28] it yet this repo has gone through a few
+
+[90.24 - 94.67999999999999] iterations
+
+[92.28 - 96.78] um I was talking to my fiance who's a
+
+[94.68 - 99.659] librarian and I was like okay I've got
+
+[96.78 - 101.159] this idea I posted on Twitter all kinds
+
+[99.659 - 103.92] of people gave me all kinds of ideas
+
+[101.159 - 105.659] like research assistant Knowledge Graph
+
+[103.92 - 108.06] interactive data fine tune generation
+
+[105.659 - 109.2] teaching Aid someone was saying like you
+
+[108.06 - 111.60000000000001] know it'd be great if you could help
+
+[109.2 - 113.64] write Grant proposals there's all kinds
+
+[111.6 - 115.32] of scientific papers there's academic
+
+[113.64 - 118.43900000000001] text and I'm like okay what does all
+
+[115.32 - 119.69999999999999] this have in common and she asked me she
+
+[118.439 - 120.83999999999999] said what what do you want to achieve
+
+[119.7 - 121.799] with this what's the output and I was
+
+[120.84 - 124.32000000000001] like well I want it to be something
+
+[121.799 - 126.119] useful right one it's got to be
+
+[124.32 - 128.34] something useful but it's also gotta
+
+[126.119 - 129.539] like be attention grabbing
+
+[128.34 - 131.81900000000002] um you know it's got to make a good
+
+[129.539 - 132.95899999999997] YouTube video and um she's like well it
+
+[131.819 - 135.0] sounds like what you're trying to do is
+
+[132.959 - 137.16] a literature review like automatic
+
+[135.0 - 139.379] literature review and I was like that's
+
+[137.16 - 142.26] it so that's what we're doing
+
+[139.379 - 143.64] all right so uh obviously there's a lot
+
+[142.26 - 145.62] of data here I'm not going to get to all
+
+[143.64 - 148.2] of it but let's start with something
+
+[145.62 - 151.62] simple so there's a data set called the
+
+[148.2 - 155.33999999999997] archive data set up on kaggle and it is
+
+[151.62 - 157.87900000000002] a metadata of everything on archive so
+
+[155.34 - 162.54] 1.7 million articles
+
+[157.879 - 166.2] here's an example of an archive uh paper
+
+[162.54 - 167.76] so this was published uh 2020 battery
+
+[166.2 - 170.22] draining attacks against Edge Computing
+
+[167.76 - 172.2] nodes and iot networks okay super techy
+
+[170.22 - 173.819] right and obviously not everything in
+
+[172.2 - 176.099] archive is like this but we've got all
+
+[173.819 - 178.61999999999998] the metadata so like the metadata is
+
+[176.099 - 181.98] basically what you see on this page
+
+[178.62 - 183.9] title date authors that kind of stuff so
+
+[181.98 - 186.66] let me show you what it looks like so I
+
+[183.9 - 189.36] went ahead and downloaded it and you get
+
+[186.66 - 192.35999999999999] um 2.1 million lines
+
+[189.36 - 195.06] of Json l
+
+[192.36 - 197.70000000000002] and here is what one entry looks like so
+
+[195.06 - 201.9] you get the ID so the ID is what you can
+
+[197.7 - 204.42] use to go to Archive and just plug it in
+
+[201.9 - 207.18] right here so like you describe any
+
+[204.42 - 209.879] archive or any like use this is the base
+
+[207.18 - 213.48000000000002] URL and then you can also get the PDF
+
+[209.879 - 216.35999999999999] which is just archive.org PDF slash the
+
+[213.48 - 218.28] ID dot PDF download it directly you can
+
+[216.36 - 219.42000000000002] get the full text
+
+[218.28 - 220.319] um we're not going to go quite that far
+
+[219.42 - 222.95899999999997] yet
+
+[220.319 - 225.17999999999998] so we'll see how far we get with this
+
+[222.959 - 227.64000000000001] um but what we're gonna do is we're
+
+[225.18 - 229.37900000000002] going to index
+
+[227.64 - 232.379] um with a semantic Vector we're going to
+
+[229.379 - 233.94] index all uh all of the abstracts and
+
+[232.379 - 236.099] titles together
+
+[233.94 - 238.26] so I was going to borrow a code from my
+
+[236.099 - 240.0] my quadrant stress test which also means
+
+[238.26 - 244.98] I need to go ahead and fire up Docker
+
+[240.0 - 244.98] with the with the quadrant container
+
+[245.34 - 249.959] so oh it's starting okay so anyways uh
+
+[248.4 - 252.54] as a quick review in case you don't know
+
+[249.959 - 253.92000000000002] what quadrant is it is a vector-based
+
+[252.54 - 255.29899999999998] um search engine a semantic search
+
+[253.92 - 257.28] engine
+
+[255.299 - 258.299] um it runs in a container it's very
+
+[257.28 - 261.65999999999997] small
+
+[258.299 - 266.15999999999997] so we'll go ahead and fire this up it is
+
+[261.66 - 268.38000000000005] connected to this um this data store
+
+[266.16 - 270.06] um actually hang on I might need to
+
+[268.38 - 272.1] start it
+
+[270.06 - 276.84] a different method
+
+[272.1 - 278.82000000000005] um where is the uh here we go
+
+[276.84 - 281.21999999999997] um let's see
+
+[278.82 - 283.86] Docker run here we go so I need to start
+
+[281.22 - 285.08000000000004] it with this so we'll do
+
+[283.86 - 287.699] that
+
+[285.08 - 290.28] okay because this command actually tells
+
+[287.699 - 292.199] it what storage to map
+
+[290.28 - 294.05999999999995] um and it says it's listening so that's
+
+[292.199 - 297.12] good
+
+[294.06 - 299.04] um okay I think we should be good there
+
+[297.12 - 301.74] all right so
+
+[299.04 - 302.34000000000003] we've got this data which I've got
+
+[301.74 - 306.66] um
+
+[302.34 - 308.82] so under uh archive so here's here's the
+
+[306.66 - 312.90000000000003] uh here's that file it's showing you so
+
+[308.82 - 314.52] it's 3.4 gigabytes of metadata that's a
+
+[312.9 - 316.79999999999995] lot of science
+
+[314.52 - 319.139] um it's all in one file that may or may
+
+[316.8 - 321.6] not be problematic we will see
+
+[319.139 - 323.22] um so let's go ahead and just get
+
+[321.6 - 324.84000000000003] started
+
+[323.22 - 326.82000000000005] um I've got
+
+[324.84 - 328.61999999999995] so that's the quadrant demo and then
+
+[326.82 - 330.36] I've got my literature review bot we got
+
+[328.62 - 331.62] nothing going on in here so we're going
+
+[330.36 - 333.84000000000003] to
+
+[331.62 - 335.88] um we're going to start a new file and
+
+[333.84 - 337.44] let's just let's just play around with
+
+[335.88 - 338.88] this data let's see what we can get out
+
+[337.44 - 342.24] of it
+
+[338.88 - 344.1] um so let's go ahead and just copy my
+
+[342.24 - 345.66] quadrant stress test
+
+[344.1 - 347.03900000000004] and we'll do
+
+[345.66 - 348.74] um we'll save this under literature
+
+[347.039 - 351.65999999999997] review bot
+
+[348.74 - 355.34000000000003] excuse me I just ate lunch I'm a little
+
+[351.66 - 355.34000000000003] gonna wash it down
+
+[356.1 - 359.3] all right so we will do
+
+[358.32 - 361.62] um
+
+[359.3 - 364.02000000000004] uh what are we trying to do we're trying
+
+[361.62 - 366.479] to load um
+
+[364.02 - 367.74] we're trying to load it so let's uh
+
+[366.479 - 368.94] let's do
+
+[367.74 - 370.68] um
+
+[368.94 - 372.96] index
+
+[370.68 - 374.90000000000003] archive
+
+[372.96 - 377.4] I know how to spell archive
+
+[374.9 - 381.419] metadata dot pi
+
+[377.4 - 384.539] okay so we got Json numpy
+
+[381.419 - 387.84] um stress test
+
+[384.539 - 390.24] right so oh that's what I did so what I
+
+[387.84 - 393.29999999999995] might actually do is break it up because
+
+[390.24 - 394.74] in my stress test experiment I broke it
+
+[393.3 - 396.539] up into two steps where I prepared the
+
+[394.74 - 398.52] data and then I uploaded it so that's
+
+[396.539 - 401.52] probably let's go that way let me open
+
+[398.52 - 404.46] up that file real quick
+
+[401.52 - 406.979] um quadrant demo
+
+[404.46 - 409.38] um okay prepared data there we go
+
+[406.979 - 410.28] so in this one we did
+
+[409.38 - 412.86] um
+
+[410.28 - 416.28] yeah we'll use we'll use tensorflow Hub
+
+[412.86 - 417.90000000000003] and I've actually got a um Anaconda
+
+[416.28 - 421.67999999999995] environment
+
+[417.9 - 425.34] um was it in base Anaconda Navigator so
+
+[421.68 - 426.78000000000003] for uh I know I'm going so fast actually
+
+[425.34 - 429.71999999999997] I'll like it because y'all y'all all
+
+[426.78 - 431.58] watch my video on 1.5 x or 2x anyways so
+
+[429.72 - 434.03900000000004] this is probably perfect speed
+
+[431.58 - 435.71999999999997] okay so quick recap if you're not
+
+[434.039 - 438.65999999999997] familiar with Anaconda it is a python
+
+[435.72 - 440.699] virtual environment that allows you to
+
+[438.66 - 442.86] have uh yeah here we go so I've got
+
+[440.699 - 444.90000000000003] tensorflow GPU
+
+[442.86 - 447.36] um environment ready to go and so what
+
+[444.9 - 450.12] this does is it allows you to use GPU
+
+[447.36 - 454.08000000000004] acceleration to run
+
+[450.12 - 457.02] um run your tensorflow uh instance in
+
+[454.08 - 460.02] this case I'm going to be using uh using
+
+[457.02 - 462.0] Universal sentence encoder version 5.
+
+[460.02 - 462.78] in order to
+
+[462.0 - 465.24] um
+
+[462.78 - 467.65999999999997] in order to do this so all right so
+
+[465.24 - 471.90000000000003] we're going to do um this is going to be
+
+[467.66 - 473.639] generate embeddings dot pi
+
+[471.9 - 476.099] Okay so
+
+[473.639 - 478.8] we'll come so the the file is going to
+
+[476.099 - 481.74] be here so let's just open a new uh
+
+[478.8 - 484.199] Explorer that's not it automus blogger
+
+[481.74 - 486.539] that's not it either we need
+
+[484.199 - 488.34000000000003] literature review bot all right so we
+
+[486.539 - 492.539] will we'll have a folder and we'll call
+
+[488.34 - 496.5] this um embeddings I guess and then let
+
+[492.539 - 499.919] me take a quick look at how I did the um
+
+[496.5 - 501.96] the quadrant demo because how did I
+
+[499.919 - 503.52] format the data yeah it's just in a
+
+[501.96 - 506.81899999999996] bunch of Json files
+
+[503.52 - 508.5] okay yep embedding and string perfect
+
+[506.819 - 510.12] okay that's probably how I was going to
+
+[508.5 - 511.56] do it anyways
+
+[510.12 - 515.039] um so what I'm going to do is I'm going
+
+[511.56 - 517.5] to take each entry of this guy because
+
+[515.039 - 520.1999999999999] each entry is one is one Json
+
+[517.5 - 522.06] um it's Json L right so basically what
+
+[520.2 - 523.44] I'm going to do is I'm going to take the
+
+[522.06 - 525.3599999999999] abstract
+
+[523.44 - 526.62] and the title I'm going to smush them
+
+[525.36 - 530.339] together so that they're going to be one
+
+[526.62 - 533.279] long string and generate a 512 Dimension
+
+[530.339 - 535.44] embedding like this guy
+
+[533.279 - 538.019] um so that's what I'll do and we'll see
+
+[535.44 - 539.7600000000001] how fast it goes all right so let's do
+
+[538.019 - 542.4590000000001] some coding we've got prepared data here
+
+[539.76 - 544.8] this one is in the quadrant demo
+
+[542.459 - 545.8199999999999] um and I've got a copy of it here so
+
+[544.8 - 547.8] let's see what do we need to do
+
+[545.82 - 549.6600000000001] different we've got Universal sentence
+
+[547.8 - 551.5799999999999] encoder five here let me close this one
+
+[549.66 - 554.279] because that's Superfluous we're not
+
+[551.58 - 556.019] doing that one yet we've got
+
+[554.279 - 559.56] um Docker running here I'll just copy
+
+[556.019 - 562.14] this over into the new readme so that I
+
+[559.56 - 564.42] can keep track of that literature review
+
+[562.14 - 565.92] bot read me
+
+[564.42 - 567.66] um
+
+[565.92 - 570.66] foreign
+
+[567.66 - 572.5799999999999] just a little reminder okay so that's a
+
+[570.66 - 575.279] sample generate embeddings curl command
+
+[572.58 - 579.1800000000001] close that stress test close that we'll
+
+[575.279 - 582.66] keep this open just for reference okay
+
+[579.18 - 585.5999999999999] um yes generate embeddings okay
+
+[582.66 - 589.38] we can delete this comment
+
+[585.6 - 591.1800000000001] files equals OS Lister uh actually no so
+
+[589.38 - 593.82] we need to go ahead and change that
+
+[591.18 - 595.5] because we're going to be opening this
+
+[593.82 - 597.6600000000001] and we're going to do it as split lines
+
+[595.5 - 599.519] that's going to be oh that's going to be
+
+[597.66 - 602.54] messy
+
+[599.519 - 602.54] um Okay so
+
+[603.24 - 609.899] archive equals open file
+
+[607.2 - 611.88] um that was C
+
+[609.899 - 613.38] archive
+
+[611.88 - 617.779] um
+
+[613.38 - 617.779] and it's called well here I'll just copy
+
+[618.72 - 623.6] copy this guy all right so first let's
+
+[621.12 - 626.7] make sure that um
+
+[623.6 - 628.08] that we can just open the file as is and
+
+[626.7 - 630.6600000000001] do
+
+[628.08 - 634.38] split lines all right so that means
+
+[630.66 - 637.14] archive will be a list of Json strings
+
+[634.38 - 641.279] for everything that we want so then
+
+[637.14 - 642.959] we'll do print length of archive and
+
+[641.279 - 645.42] then we'll do exit so let's just see if
+
+[642.959 - 647.279] this works let's see if it works if it
+
+[645.42 - 649.86] blows up because I mean I've got 32 gigs
+
+[647.279 - 651.54] of RAM on my on this PC so it should be
+
+[649.86 - 653.339] okay
+
+[651.54 - 656.959] um and then let's see literature review
+
+[653.339 - 660.44] bot all right so we'll just do python
+
+[656.959 - 660.4399999999999] generated embeddings
+
+[661.74 - 666.12] oh right I don't yeah okay
+
+[664.079 - 668.279] so what it's doing right now oh here let
+
+[666.12 - 669.48] me make this bigger
+
+[668.279 - 672.0] yeah
+
+[669.48 - 674.88] I'm not surprised that that blew up
+
+[672.0 - 676.98] so let's do properties so that you can
+
+[674.88 - 679.38] see what I'm doing all right so what it
+
+[676.98 - 682.38] does is saved model does not exist this
+
+[679.38 - 683.82] always freaking happens
+
+[682.38 - 685.88] where
+
+[683.82 - 685.88] um
+
+[686.16 - 689.24] for whatever reason
+
+[689.64 - 693.899] it can't find the model but anyways what
+
+[692.339 - 694.9200000000001] I need to do is come in here and start
+
+[693.899 - 697.98] it with
+
+[694.92 - 697.9799999999999] um GPU
+
+[698.579 - 702.54] come on wake up
+
+[700.92 - 705.06] what's the matter of you there we go all
+
+[702.54 - 707.64] right so we'll start
+
+[705.06 - 711.54] this conda environment all right so CD
+
+[707.64 - 713.64] CD uh uh literature review bot python
+
+[711.54 - 714.66] generate embeddings so now what it's
+
+[713.64 - 716.399] going to do it's going to have to
+
+[714.66 - 718.019] download
+
+[716.399 - 720.54] um Universal sentence encoder version
+
+[718.019 - 723.48] five and so oh so something to tell you
+
+[720.54 - 726.3] Universal sentence encoder is Google's
+
+[723.48 - 729.12] um deep neural network that does it all
+
+[726.3 - 732.06] it does is it generates embeddings
+
+[729.12 - 734.1] um and they're 512 uh Dimension
+
+[732.06 - 735.8389999999999] embeddings but they're ideally for
+
+[734.1 - 740.279] something that is sentenced to paragraph
+
+[735.839 - 742.5600000000001] length and that's about the length of
+
+[740.279 - 744.72] an abstract it might be a little bit
+
+[742.56 - 746.76] long but this is this is enough to get a
+
+[744.72 - 749.4590000000001] good solid embedding and one advantage
+
+[746.76 - 752.399] over something like gpt3 embeddings is
+
+[749.459 - 754.92] this is free and it's also stupid fast
+
+[752.399 - 757.68] so there we go
+
+[754.92 - 760.1999999999999] um yep tensorflow libraries deep network
+
+[757.68 - 763.8] with the following instructions AVX and
+
+[760.2 - 766.98] avx2 build it but okay so it's spotted
+
+[763.8 - 768.0] here's my Nvidia GeForce RTX 270 there
+
+[766.98 - 770.82] we go
+
+[768.0 - 772.92] so it's still loading the model the what
+
+[770.82 - 774.0790000000001] I'm going to use for the embedding in
+
+[772.92 - 776.279] the background
+
+[774.079 - 779.04] so then
+
+[776.279 - 780.0] this is the length so actually I
+
+[779.04 - 781.2199999999999] probably should have had some more
+
+[780.0 - 783.72] output so
+
+[781.22 - 785.82] 2.131 million
+
+[783.72 - 787.8000000000001] um things so it loaded it all just fine
+
+[785.82 - 790.139] actually I probably should have had um
+
+[787.8 - 792.42] had my performance monitor up so I could
+
+[790.139 - 794.16] see how much CPU and memory it took
+
+[792.42 - 796.74] let's see what's using all my memory
+
+[794.16 - 799.98] right now Notepad
+
+[796.74 - 801.12] notepad and the uh and the um the uh
+
+[799.98 - 803.279] quadrant
+
+[801.12 - 806.4590000000001] quadrant think of my job all right so
+
+[803.279 - 809.459] first let's go ahead so I'm glad I'm
+
+[806.459 - 811.1999999999999] glad that python was able to um to run
+
+[809.459 - 814.68] that
+
+[811.2 - 817.019] um I think I have here let's close this
+
+[814.68 - 818.9399999999999] okay so that was a big chunk of no I
+
+[817.019 - 822.44] still have something running python
+
+[818.94 - 822.44] what else is running python
+
+[823.139 - 828.2] I got that guy and that guy okay
+
+[825.42 - 828.1999999999999] whatever
+
+[829.2 - 831.9590000000001] all right
+
+[830.7 - 833.639] all right so we want something that's
+
+[831.959 - 835.26] going to end up looking basically like
+
+[833.639 - 837.3] this
+
+[835.26 - 839.04] um
+
+[837.3 - 840.18] I'm not going to worry about the start
+
+[839.04 - 842.9399999999999] time
+
+[840.18 - 845.399] let's see
+
+[842.94 - 848.0400000000001] articles loaded We'll add a little bit
+
+[845.399 - 850.38] of debug output oh I need to set an
+
+[848.04 - 852.66] alarm because I have a meeting here soon
+
+[850.38 - 854.519] I've got an alarm set
+
+[852.66 - 856.68] all right there we go
+
+[854.519 - 858.0600000000001] fix it in post
+
+[856.68 - 860.3389999999999] all right
+
+[858.06 - 862.5] don't care about times print files
+
+[860.339 - 864.899] overall start time whatever
+
+[862.5 - 867.24] for file and files no so we'll go say
+
+[864.899 - 869.519] for
+
+[867.24 - 872.24] article in
+
+[869.519 - 872.24] archive
+
+[872.459 - 878.5999999999999] we don't need the chunks we just need
+
+[875.88 - 878.6] the title
+
+[879.24 - 886.88] so we'll say
+
+[881.04 - 889.38] um let's see info equals uh Json
+
+[886.88 - 892.92] dot load
+
+[889.38 - 896.459] loads load s so because that that tells
+
+[892.92 - 898.26] it to load string so we'll say article
+
+[896.459 - 900.899] um so that means info should then
+
+[898.26 - 903.779] contain something like ID
+
+[900.899 - 906.5] um title and Abstract so let's just
+
+[903.779 - 906.5] start there
+
+[906.6 - 912.9590000000001] um okay so print
+
+[908.42 - 914.399] info dot no not DOT it'll be
+
+[912.959 - 916.92] title
+
+[914.399 - 918.66] and then info
+
+[916.92 - 922.399] abstract
+
+[918.66 - 922.399] and then we'll do exit here
+
+[925.26 - 929.12] all right let's make sure that works
+
+[929.16 - 934.4399999999999] and also for now I will comment out
+
+[931.459 - 936.3599999999999] tensorflow hub
+
+[934.44 - 939.3000000000001] so now it's loading let's see how much
+
+[936.36 - 942.72] how much juice we use oh yeah look at
+
+[939.3 - 945.5] that we're chewing up memory
+
+[942.72 - 949.1600000000001] name archive oop
+
+[945.5 - 949.16] I misspelled it
+
+[949.5 - 954.779] don't do that kids but yeah we surged up
+
+[952.44 - 956.82] to um
+
+[954.779 - 958.699] yeah we use most of my memory so because
+
+[956.82 - 961.1990000000001] I'm running I'm running an index engine
+
+[958.699 - 963.0] and loading a three and a half gigabyte
+
+[961.199 - 965.399] file
+
+[963.0 - 968.04] um and I'm running a um
+
+[965.399 - 970.139] uh a uh well I guess this model is going
+
+[968.04 - 971.699] to be in in my GPU
+
+[970.139 - 975.5600000000001] so yeah I'm doing a lot on this
+
+[971.699 - 975.56] Workhorse all right let's try this again
+
+[976.26 - 981.54] very high power usage yeah boy
+
+[979.74 - 984.0600000000001] there we go all right it's going up
+
+[981.54 - 987.8389999999999] going up going up going back down
+
+[984.06 - 991.079] Okay cool so articles loaded 2.1 million
+
+[987.839 - 993.36] calculation of uh prompt diphoton
+
+[991.079 - 996.0] production across sections at tivatron
+
+[993.36 - 999.899] and LHC energies a fully differential
+
+[996.0 - 1002.48] calculator Okay blah blah it works good
+
+[999.899 - 1005.48] um yes we are in good shape
+
+[1002.48 - 1007.94] so so far so good so now what we need to
+
+[1005.48 - 1011.54] do is
+
+[1007.94 - 1014.12] um chunks equals wrap text wrap okay
+
+[1011.54 - 1016.2199999999999] probably what would be faster is if we
+
+[1014.12 - 1018.139] pass
+
+[1016.22 - 1020.12] um
+
+[1018.139 - 1022.639] pass it a list
+
+[1020.12 - 1024.14] now whatever
+
+[1022.639 - 1025.64] um
+
+[1024.14 - 1029.199] because I don't know how many how many
+
+[1025.64 - 1029.199] how much you can pass it once
+
+[1030.14 - 1037.16] but we'll just comment that out
+
+[1033.86 - 1041.4189999999999] so we've got all the information we need
+
+[1037.16 - 1042.26] so then we'll just do embedding equals
+
+[1041.419 - 1047.24] um
+
+[1042.26 - 1048.74] uh we'll do a list that contains
+
+[1047.24 - 1051.26] um
+
+[1048.74 - 1054.52] well here the uh
+
+[1051.26 - 1059.02] string equals
+
+[1054.52 - 1059.02] these two info title
+
+[1059.96 - 1064.46] um
+
+[1061.28 - 1066.5] plus a nice little space
+
+[1064.46 - 1069.559] plus that guy
+
+[1066.5 - 1073.1] and we'll then we'll say string equals
+
+[1069.559 - 1074.059] string dot replace actually I probably
+
+[1073.1 - 1075.08] need
+
+[1074.059 - 1076.76] um
+
+[1075.08 - 1079.1599999999999] import read
+
+[1076.76 - 1081.08] and so then we'll say
+
+[1079.16 - 1082.16] so what I'm doing here is um because
+
+[1081.08 - 1084.799] there's a lot there's a lot of
+
+[1082.16 - 1088.299] Superfluous new lines so I'll say string
+
+[1084.799 - 1091.4] equals re sub and we'll replace
+
+[1088.299 - 1094.46] backslash S Plus
+
+[1091.4 - 1095.6000000000001] with just a space and we'll do that on
+
+[1094.46 - 1097.82] string
+
+[1095.6 - 1100.039] all right so this will clean it up make
+
+[1097.82 - 1103.9399999999998] it a nice clean string and so then we'll
+
+[1100.039 - 1107.62] do embeddings equals embed string
+
+[1103.94 - 1111.8600000000001] and so then the vector
+
+[1107.62 - 1115.1] will be embeddings numpy to list so then
+
+[1111.86 - 1118.6999999999998] we'll get that as just one
+
+[1115.1 - 1120.799] and then all we do is
+
+[1118.7 - 1123.44] save data
+
+[1120.799 - 1126.86] so the save data file we pass it a
+
+[1123.44 - 1130.46] payload and it will save it into
+
+[1126.86 - 1132.02] we'll call that the embeddings
+
+[1130.46 - 1133.64] folder I think that's what I called it
+
+[1132.02 - 1136.039] this is going faster than I thought
+
+[1133.64 - 1138.2] something is going to go wrong wow I've
+
+[1136.039 - 1140.86] got a lot of tabs open
+
+[1138.2 - 1140.8600000000001] okay
+
+[1141.26 - 1145.82] um yes
+
+[1142.58 - 1148.3999999999999] so embeddings embed so the vector equals
+
+[1145.82 - 1151.1] that so the string
+
+[1148.4 - 1153.38] equals so we'll just call this the
+
+[1151.1 - 1154.76] article
+
+[1153.38 - 1156.44] actually I guess it's more like the
+
+[1154.76 - 1158.72] abstract
+
+[1156.44 - 1161.66] um no we should yeah so we'll we'll have
+
+[1158.72 - 1164.78] the title we'll keep the title separate
+
+[1161.66 - 1166.7] uh so the title equals info title
+
+[1164.78 - 1168.5] because why not
+
+[1166.7 - 1171.679] um no reason to smush it together but
+
+[1168.5 - 1173.539] we're just going to index them together
+
+[1171.679 - 1174.919] um so that way you search when you
+
+[1173.539 - 1177.2] search you're searching the title as
+
+[1174.919 - 1182.539] well as the abstract and then we'll do
+
+[1177.2 - 1182.539] abstract is info abstract
+
+[1183.02 - 1187.94] okay
+
+[1185.059 - 1191.4189999999999] and then
+
+[1187.94 - 1194.419] I really need to plan on this bombing
+
+[1191.419 - 1196.4] like because if it blows up
+
+[1194.419 - 1198.74] or if it fails
+
+[1196.4 - 1201.6200000000001] I'm not gonna
+
+[1198.74 - 1204.76] do any time keeping
+
+[1201.62 - 1204.76] um but I what I will do
+
+[1204.98 - 1212.38] is we'll do one exit here real quick
+
+[1209.24 - 1212.38] go ahead and load this
+
+[1214.76 - 1218.2] and let's do a quick run
+
+[1219.44 - 1224.38] and this should spit out a folder or a
+
+[1221.9 - 1224.38] file here
+
+[1237.919 - 1241.9] and then we watch the GPU catch on fire
+
+[1242.9 - 1248.919] there it goes GPU memory is loaded up so
+
+[1246.08 - 1248.9189999999999] it has loaded the model
+
+[1252.86 - 1257.9599999999998] articles loaded there it goes
+
+[1255.2 - 1262.48] and now we'll watch
+
+[1257.96 - 1262.48] vectors is not defined oh my God
+
+[1264.919 - 1269.66] embedding vector
+
+[1268.64 - 1272.919] okay
+
+[1269.66 - 1272.919] that's fine it's fine
+
+[1273.02 - 1275.799] um that should be good
+
+[1278.24 - 1280.96] let's try again
+
+[1281.6 - 1285.8799999999999] and then we will fix this in post as
+
+[1283.76 - 1285.8799999999999] well
+
+[1314.299 - 1317.1399999999999] here it comes
+
+[1318.02 - 1324.5] yeah yep yep
+
+[1320.96 - 1325.7] and then it exits and we should in
+
+[1324.5 - 1327.38] theory
+
+[1325.7 - 1329.9] come here
+
+[1327.38 - 1334.2990000000002] where is my folder
+
+[1329.9 - 1334.299] embeddings why is it not showing up
+
+[1336.559 - 1343.1] there we go okay
+
+[1339.32 - 1346.3999999999999] hey look at this so we've got abstract
+
+[1343.1 - 1348.799] um it did not replace oh I didn't okay
+
+[1346.4 - 1351.3200000000002] yeah I need to replace both but
+
+[1348.799 - 1352.82] we did get it okay so we need to do a
+
+[1351.32 - 1355.22] little bit more cleanup so you got the
+
+[1352.82 - 1357.32] backslash n next so I want to clean that
+
+[1355.22 - 1359.179] up and just make that a space and I also
+
+[1357.32 - 1362.059] want to trim these
+
+[1359.179 - 1365.24] um okay so what I'll do is let's fix it
+
+[1362.059 - 1366.74] we can fix it go away
+
+[1365.24 - 1368.48] silence
+
+[1366.74 - 1370.58] I get you
+
+[1368.48 - 1373.88] that's how old I am I remember when uh
+
+[1370.58 - 1376.3999999999999] Jeff Dunham was live and popular I
+
+[1373.88 - 1378.679] watched him while hanging out in the
+
+[1376.4 - 1381.5800000000002] dorm room of one of my friends many
+
+[1378.679 - 1381.5800000000002] years ago okay
+
+[1381.679 - 1384.5590000000002] um all right so first what we're going
+
+[1383.0 - 1389.24] to do
+
+[1384.559 - 1391.72] is we'll just do title equals info Dot
+
+[1389.24 - 1391.72] no
+
+[1395.32 - 1401.4189999999999] info.title dot strip
+
+[1398.9 - 1404.0800000000002] and then we will do we will also wrap
+
+[1401.419 - 1404.0800000000002] that in
+
+[1404.299 - 1407.08] resub
+
+[1410.24 - 1415.6] yep and we'll do the same treatment for
+
+[1413.48 - 1418.1] abstract
+
+[1415.6 - 1419.059] abstract so then we're only touching it
+
+[1418.1 - 1420.26] once because here's the thing when
+
+[1419.059 - 1422.8999999999999] you're doing something a million times
+
+[1420.26 - 1425.12] literally millions of times you kind of
+
+[1422.9 - 1427.94] want to if you if you have to do a an
+
+[1425.12 - 1429.5] operation on it you do it once if you're
+
+[1427.94 - 1431.539] only doing it a few times you can afford
+
+[1429.5 - 1434.24] to be less efficient
+
+[1431.539 - 1438.14] um but for for this in this case you
+
+[1434.24 - 1439.46] want to be as efficient as possible and
+
+[1438.14 - 1441.44] so
+
+[1439.46 - 1444.32] um what we're doing here is we're going
+
+[1441.44 - 1446.8400000000001] to do idle Plus
+
+[1444.32 - 1448.6] space Plus
+
+[1446.84 - 1451.039] abstract
+
+[1448.6 - 1453.559] abstract and so we're doing the we're
+
+[1451.039 - 1458.179] doing the regex on the title and
+
+[1453.559 - 1459.74] Abstract once and then we'll also just
+
+[1458.179 - 1461.8400000000001] because we called it out into a variable
+
+[1459.74 - 1465.14] so rather than like modified a couple
+
+[1461.84 - 1467.78] times we modify it once
+
+[1465.14 - 1468.5590000000002] and away we go
+
+[1467.78 - 1473.059] um
+
+[1468.559 - 1476.059] so this should be a little bit better
+
+[1473.059 - 1478.34] all right all right
+
+[1476.059 - 1481.039] try it again
+
+[1478.34 - 1483.1399999999999] and then okay so while this is loading
+
+[1481.039 - 1485.84] let me tell you what we're gonna do so
+
+[1483.14 - 1488.6000000000001] by having a semantic search engine that
+
+[1485.84 - 1490.34] allows you to to measure the semantic
+
+[1488.6 - 1492.6789999999999] similarity between
+
+[1490.34 - 1495.02] um basically titles and abstracts across
+
+[1492.679 - 1497.96] a million articles it will allow you to
+
+[1495.02 - 1500.4189999999999] find things that are similar that you
+
+[1497.96 - 1502.3400000000001] might not find just through other
+
+[1500.419 - 1504.679] conventional means so basically what
+
+[1502.34 - 1506.6589999999999] you'll put in is you'll uh what I'll
+
+[1504.679 - 1508.3400000000001] ultimately do is say there's an article
+
+[1506.659 - 1511.64] like you find one that's like yes give
+
+[1508.34 - 1513.559] me every other article like this one and
+
+[1511.64 - 1515.48] it will find you every single article
+
+[1513.559 - 1517.8799999999999] like that one
+
+[1515.48 - 1519.02] um and from there there's all kinds of
+
+[1517.88 - 1522.0200000000002] things that you can do you can create a
+
+[1519.02 - 1523.7] semantic meaning graph you can do blah
+
+[1522.02 - 1526.6399999999999] blah blah um okay so we got some more
+
+[1523.7 - 1528.5] embeddings so 238 so this should be the
+
+[1526.64 - 1530.539] next one there we go that's a little bit
+
+[1528.5 - 1536.179] prettier see how there's no there's no
+
+[1530.539 - 1538.22] uh uh markup or anything so abstract
+
+[1536.179 - 1540.2] title and oh so another thing that I did
+
+[1538.22 - 1542.539] let me show you this
+
+[1540.2 - 1545.48] um with the with the file save I say out
+
+[1542.539 - 1548.32] file ensure ASCII equals false so that
+
+[1545.48 - 1552.38] allows it to use utf-8 which is nice
+
+[1548.32 - 1554.84] sort Keys equals true so what sort Keys
+
+[1552.38 - 1557.1200000000001] equals true does is it always puts them
+
+[1554.84 - 1558.559] in the same order which that's not
+
+[1557.12 - 1560.059] necessary for the machine but it's it's
+
+[1558.559 - 1561.3799999999999] nice for the human so that you know that
+
+[1560.059 - 1563.4189999999999] the abstract will always be first
+
+[1561.38 - 1565.4] because and I don't know what the logic
+
+[1563.419 - 1567.38] is but sometimes when you save a
+
+[1565.4 - 1569.96] dictionary out to Json it'll be all
+
+[1567.38 - 1572.72] garbled up so it'll always be abstract
+
+[1569.96 - 1574.1000000000001] embedding and then title uh which is
+
+[1572.72 - 1575.779] nice for us
+
+[1574.1 - 1577.2199999999998] um so then you see title here at the end
+
+[1575.779 - 1579.44] calculation of prompt diphoton
+
+[1577.22 - 1582.38] production cross sections at tivatron
+
+[1579.44 - 1584.6000000000001] and LHC energies wow okay
+
+[1582.38 - 1586.0390000000002] um so then you put this abstract into
+
+[1584.6 - 1588.98] the search engine that we're gonna
+
+[1586.039 - 1591.98] eventually produce and uh we'll see
+
+[1588.98 - 1593.779] where it goes anyways so we've uh we've
+
+[1591.98 - 1595.52] got this so pretty much all I have to do
+
+[1593.779 - 1598.46] is remove
+
+[1595.52 - 1599.48] this exit here and just let it go and it
+
+[1598.46 - 1600.26] will produce
+
+[1599.48 - 1603.5] um
+
+[1600.26 - 1606.919] uh millions of these so what I'm going
+
+[1603.5 - 1609.279] to do is I'm going to add one last thing
+
+[1606.919 - 1609.279] um try
+
+[1609.74 - 1612.58] accept
+
+[1612.74 - 1614.74] um
+
+[1615.02 - 1619.039] and then what I'll do is
+
+[1617.539 - 1623.059] errors
+
+[1619.039 - 1625.46] and so errors equals list and then if it
+
+[1623.059 - 1626.8999999999999] blows up I will just say
+
+[1625.46 - 1629.6200000000001] um
+
+[1626.9 - 1632.419] let's see error errors dot append
+
+[1629.62 - 1635.779] article so that if there's any problems
+
+[1632.419 - 1639.0200000000002] I can at least have an archive of the
+
+[1635.779 - 1641.84] ones that that mess up and so then what
+
+[1639.02 - 1643.6399999999999] I'll do is I'll at the very end I'll do
+
+[1641.84 - 1645.08] save data and so I'm going to save
+
+[1643.64 - 1649.1000000000001] errors
+
+[1645.08 - 1651.26] um wait no I uh it's the payload
+
+[1649.1 - 1652.6589999999999] I need that to go to a different place
+
+[1651.26 - 1656.419] though
+
+[1652.659 - 1659.0200000000002] so I'll just do
+
+[1656.419 - 1659.0200000000002] whoops
+
+[1661.58 - 1667.1789999999999] so I'll do with open and this will be
+
+[1669.46 - 1674.24] errors.json there we go
+
+[1671.72 - 1675.8600000000001] as out file
+
+[1674.24 - 1680.1200000000001] um we'll do
+
+[1675.86 - 1682.34] errors okay so this this is just so I'm
+
+[1680.12 - 1684.08] going to save however many blow up and
+
+[1682.34 - 1687.32] but we'll just let it run
+
+[1684.08 - 1688.8799999999999] all right so CLS
+
+[1687.32 - 1691.34] um I actually probably ought to have
+
+[1688.88 - 1693.0200000000002] some kind of output here we'll just
+
+[1691.34 - 1694.6999999999998] print the title
+
+[1693.02 - 1695.72] there we go that way I'll know it's
+
+[1694.7 - 1696.8600000000001] working because there's nothing worse
+
+[1695.72 - 1698.059] than just a command prompt they're
+
+[1696.86 - 1699.799] blinking and not telling you anything
+
+[1698.059 - 1701.8999999999999] granted I guess I could check in the
+
+[1699.799 - 1704.539] embeddings folder but it's nice to see
+
+[1701.9 - 1705.679] it actually working okay so let's get
+
+[1704.539 - 1707.6] this running
+
+[1705.679 - 1709.279] make sure it works and then I'll pause
+
+[1707.6 - 1711.3799999999999] the video and we'll come back once it's
+
+[1709.279 - 1713.779] done and actually probably I'll need to
+
+[1711.38 - 1717.7990000000002] come back to this later
+
+[1713.779 - 1719.9] um and we will continue this work later
+
+[1717.799 - 1723.02] tonight or tomorrow but for you watching
+
+[1719.9 - 1724.8200000000002] it'll just all be one continuous video
+
+[1723.02 - 1727.4] um but at the end we will have something
+
+[1724.82 - 1729.1399999999999] that you put in an example article and
+
+[1727.4 - 1731.299] it will spit out
+
+[1729.14 - 1733.4] a literature review
+
+[1731.299 - 1734.96] that's the goal at least
+
+[1733.4 - 1737.179] all right let's see how hot this gets
+
+[1734.96 - 1740.14] all right we got the GPU spun up we got
+
+[1737.179 - 1740.14] our memory climbing
+
+[1742.34 - 1747.32] oh this is going to take a while
+
+[1745.4 - 1748.3400000000001] because even even at this speed it's
+
+[1747.32 - 1750.559] gonna
+
+[1748.34 - 1753.9189999999999] oh boy it's gonna take
+
+[1750.559 - 1758.1789999999999] well to do a million uh what 2.1 million
+
+[1753.919 - 1760.159] of these yeah so we're only at 200 300
+
+[1758.179 - 1762.2] okay this is gonna be running for a few
+
+[1760.159 - 1763.7] days
+
+[1762.2 - 1765.919] I wonder if there's a way I can speed
+
+[1763.7 - 1767.179] this up anyways you don't need to watch
+
+[1765.919 - 1769.159] all that
+
+[1767.179 - 1773.26] um if I'll if I find a way to speed it
+
+[1769.159 - 1773.2600000000002] up I will come back and show you
+
+[1775.159 - 1782.0] okay so um yeah it wasn't going fast
+
+[1778.22 - 1783.799] enough for me so this should work
+
+[1782.0 - 1786.26] um but yeah so what I was working on was
+
+[1783.799 - 1790.76] I made the prop well all right so a few
+
+[1786.26 - 1793.1] things first loading 2.1 million or 2.3
+
+[1790.76 - 1795.3799999999999] however many millions of chunks are
+
+[1793.1 - 1798.26] things and processing them one at a time
+
+[1795.38 - 1801.5590000000002] is slow especially when your model can
+
+[1798.26 - 1803.24] do batching so I'm creating batches of a
+
+[1801.559 - 1805.46] thousand and we're feeding it in in
+
+[1803.24 - 1807.38] chunks and then we're processing each
+
+[1805.46 - 1809.659] chunk as a batch and you can look at the
+
+[1807.38 - 1811.279] code if you want but it's it's pretty
+
+[1809.659 - 1814.7] straightforward but the the the the
+
+[1811.279 - 1818.0] secret sauce is here is where
+
+[1814.7 - 1820.88] um you do the 100 or a thousand in
+
+[1818.0 - 1823.7] batches and it should go a little bit
+
+[1820.88 - 1827.679] faster so instead of
+
+[1823.7 - 1827.679] um uh let's see what just happened
+
+[1828.32 - 1832.9399999999998] oh I ran out of memory okay so I can't
+
+[1830.179 - 1834.5590000000002] do batches of a thousand
+
+[1832.94 - 1837.0800000000002] um
+
+[1834.559 - 1839.299] yeah that's not working
+
+[1837.08 - 1842.36] okay so that's too big so let's go back
+
+[1839.299 - 1845.0] down to 100 because that did work
+
+[1842.36 - 1846.559] um so we'll do uh that of a thousand so
+
+[1845.0 - 1848.84] there's no embeddings and this is
+
+[1846.559 - 1851.1789999999999] filling up the error directory yes okay
+
+[1848.84 - 1853.279] so delete that okay so we'll do a batch
+
+[1851.179 - 1855.02] of a hundred so rather than doing one
+
+[1853.279 - 1856.58] embedding at a time we'll do a hundred
+
+[1855.02 - 1857.299] at a time
+
+[1856.58 - 1860.6] um
+
+[1857.299 - 1864.1399999999999] yeah and we'll go from there uh okay
+
+[1860.6 - 1865.6399999999999] so clear that out so generate embeddings
+
+[1864.14 - 1866.8990000000001] so the reason that I'm doing this is
+
+[1865.64 - 1868.3990000000001] because
+
+[1866.899 - 1869.4799999999998] um I was doing it one at a time and I
+
+[1868.399 - 1870.5] was like okay you know I've got a small
+
+[1869.48 - 1872.8990000000001] GPU
+
+[1870.5 - 1874.279] um but it was like 36 hours that it was
+
+[1872.899 - 1876.02] going to take and I'm like I'm not going
+
+[1874.279 - 1877.7] to let this thing run for 36 hours
+
+[1876.02 - 1879.799] straight I can do better than that I'm
+
+[1877.7 - 1881.72] gonna challenge myself to do better
+
+[1879.799 - 1883.7] so I'm gonna see make sure that this
+
+[1881.72 - 1886.34] works and make sure that it's filling up
+
+[1883.7 - 1888.0800000000002] my um not errors directly my embeddings
+
+[1886.34 - 1889.399] directory
+
+[1888.08 - 1892.9399999999998] um oh and another thing that I forgot
+
+[1889.399 - 1895.039] was you need to have the um you need to
+
+[1892.94 - 1896.48] have the article ID in there if you want
+
+[1895.039 - 1899.179] to be able to find the full article
+
+[1896.48 - 1902.24] later so all right so there we go that
+
+[1899.179 - 1904.46] looks a little bit better so we have
+
+[1902.24 - 1906.2] yeah look at that so doing it in chunks
+
+[1904.46 - 1908.24] rather than
+
+[1906.2 - 1911.419] um rather than doing it one at a time
+
+[1908.24 - 1912.98] we're down to 3.3 hours so it looks like
+
+[1911.419 - 1914.8990000000001] it'll take about three hours to do it in
+
+[1912.98 - 1917.1200000000001] in chunks this big
+
+[1914.899 - 1920.059] um do I want to
+
+[1917.12 - 1922.399] hey I'm going to be bold let's see let's
+
+[1920.059 - 1925.34] see and okay so here it's already
+
+[1922.399 - 1927.5] processed 4 600.
+
+[1925.34 - 1929.899] are these articles by doing it in
+
+[1927.5 - 1932.779] batches of a hundred rather than one at
+
+[1929.899 - 1934.4599999999998] a time so yeah this is this is how you
+
+[1932.779 - 1936.919] do it and there's the ID so you got the
+
+[1934.46 - 1939.32] article ID so you can go get it from the
+
+[1936.919 - 1941.419] original the original location but let's
+
+[1939.32 - 1943.8799999999999] try let's just be a little bit Bolder
+
+[1941.419 - 1946.279] just just a little bit
+
+[1943.88 - 1948.2600000000002] delete these because if we can do them
+
+[1946.279 - 1950.539] once we can do them again so let's do a
+
+[1948.26 - 1952.64] chunk size of
+
+[1950.539 - 1955.1] 300.
+
+[1952.64 - 1957.6200000000001] and if this works you know so we're at
+
+[1955.1 - 1959.12] down to 2.8 hours
+
+[1957.62 - 1960.26] um remaining
+
+[1959.12 - 1965.2399999999998] thank you
+
+[1960.26 - 1966.3799999999999] CLS all right so if we do chunks of 300
+
+[1965.24 - 1968.299] I don't think it'll be three times
+
+[1966.38 - 1970.3400000000001] faster and it also might run out of
+
+[1968.299 - 1972.26] memory but we'll see
+
+[1970.34 - 1975.74] um so the batch size has to do with how
+
+[1972.26 - 1977.6] much memory your GPU has and so you know
+
+[1975.74 - 1981.6200000000001] you go to Performance click on the GPU
+
+[1977.6 - 1983.779] tab it'll pre-load all the memory as
+
+[1981.62 - 1985.58] it's spooling up the model but then
+
+[1983.779 - 1987.38] there's a certain amount of I'm not sure
+
+[1985.58 - 1990.26] how the inner workings are but so you
+
+[1987.38 - 1992.179] see it shoots up to use like seven and a
+
+[1990.26 - 1993.62] half gigabytes all right let's see what
+
+[1992.179 - 1996.019] happens
+
+[1993.62 - 1999.0189999999998] if we see if we see it blow up with that
+
+[1996.019 - 2002.2] you know oom so now we're down to 7 000
+
+[1999.019 - 2004.96] chunks total rather than 2.1 million
+
+[2002.2 - 2007.6000000000001] individually okay so we're doing larger
+
+[2004.96 - 2008.98] chunks the time is coming down and so
+
+[2007.6 - 2010.9599999999998] what I'm doing in the background is I'm
+
+[2008.98 - 2012.64] averaging out like how long is it taking
+
+[2010.96 - 2015.76] overall
+
+[2012.64 - 2018.8200000000002] so we're down to 3.5 3.4 and so it's
+
+[2015.76 - 2021.279] because there's some inefficiencies or
+
+[2018.82 - 2023.1399999999999] whatever you're you know like the time
+
+[2021.279 - 2025.2] bar however long it's going to take so
+
+[2023.14 - 2028.0590000000002] it looks like you don't get much faster
+
+[2025.2 - 2030.279] by doing larger chunks because it's down
+
+[2028.059 - 2031.539] to about you know uh just about three
+
+[2030.279 - 2033.1] hours so it looks like that's kind of
+
+[2031.539 - 2036.1] the optimal because you know you do
+
+[2033.1 - 2039.039] bigger chunks you marginal whatever okay
+
+[2036.1 - 2041.1999999999998] so two hours much better or three hours
+
+[2039.039 - 2043.24] much better than 36 hours so it's 12
+
+[2041.2 - 2044.559] times faster if not a little bit more
+
+[2043.24 - 2047.38] because you see this number still coming
+
+[2044.559 - 2048.94] down pretty quick all right so we will
+
+[2047.38 - 2052.06] uh go ahead and let this run and then
+
+[2048.94 - 2056.5] pretty soon we will have 2.1 million
+
+[2052.06 - 2058.179] embedded archive things this is this is
+
+[2056.5 - 2061.859] going on data hoarder I think the folks
+
+[2058.179 - 2061.859] on data hoarder will love this all right
+
+[2063.639 - 2069.94] and we're back
+
+[2066.04 - 2072.7] um okay so quickly to bring you up to
+
+[2069.94 - 2075.04] Speedos to what I have achieved and what
+
+[2072.7 - 2077.98] I'm working on next
+
+[2075.04 - 2079.72] um let's see so we well here let me show
+
+[2077.98 - 2080.7400000000002] you the code
+
+[2079.72 - 2083.4399999999996] um
+
+[2080.74 - 2085.7799999999997] okay generate embeddings so I do things
+
+[2083.44 - 2088.7200000000003] in stages modularize it
+
+[2085.78 - 2092.26] so this is the final form of of the
+
+[2088.72 - 2094.48] generate embeddings and so we load our
+
+[2092.26 - 2097.78] embedding engine which is um tensorflow
+
+[2094.48 - 2098.98] hubs Universal sentence encoder five
+
+[2097.78 - 2100.3590000000004] um you've been watching so you know that
+
+[2098.98 - 2102.099] I'm just bringing myself back up to
+
+[2100.359 - 2104.02] speed because this is you know the
+
+[2102.099 - 2105.7000000000003] following day
+
+[2104.02 - 2108.339] um okay so we break it into chunks of
+
+[2105.7 - 2110.74] 300 that took the processing time from
+
+[2108.339 - 2113.32] 36 hours down to less than three so we
+
+[2110.74 - 2115.18] got a factor of 12 more than 12
+
+[2113.32 - 2117.46] Improvement
+
+[2115.18 - 2122.14] um and then I also just broke it out
+
+[2117.46 - 2123.76] into a chunk now I had a try accept so
+
+[2122.14 - 2125.3799999999997] that it would handle errors and we
+
+[2123.76 - 2126.46] actually ended up we did get a few
+
+[2125.38 - 2128.38] errors
+
+[2126.46 - 2131.5] um so we had four chunks so that's 1200
+
+[2128.38 - 2134.02] articles that didn't get um indexed but
+
+[2131.5 - 2134.68] when you compare that to
+
+[2134.02 - 2139.359] um
+
+[2134.68 - 2141.8199999999997] you know the 20 20 2.1 million articles
+
+[2139.359 - 2143.5] that did get indexed
+
+[2141.82 - 2145.119] um or embedded rather we haven't done
+
+[2143.5 - 2147.04] the indexing yet
+
+[2145.119 - 2150.6400000000003] um we'll say that that's a pretty good
+
+[2147.04 - 2151.24] pretty good uh uh average
+
+[2150.64 - 2153.4] um
+
+[2151.24 - 2155.02] so I'm not going to worry about those
+
+[2153.4 - 2156.28] um you know yeah 1200 articles is
+
+[2155.02 - 2157.78] nothing to shake a stick at and they
+
+[2156.28 - 2159.88] could be 1200 of the most important
+
+[2157.78 - 2161.38] articles but chances are you know
+
+[2159.88 - 2162.579] whatever
+
+[2161.38 - 2165.94] um if you want to go back through this
+
+[2162.579 - 2168.94] and fix it yourself feel free okay so
+
+[2165.94 - 2171.7000000000003] looking at the directory
+
+[2168.94 - 2173.8] um let's come back up here so I took all
+
+[2171.7 - 2175.359] the embeddings which is about 29
+
+[2173.8 - 2177.28] gigabytes
+
+[2175.359 - 2179.2] um and I seven zipped it so that it's
+
+[2177.28 - 2180.82] now nine gigabytes
+
+[2179.2 - 2183.52] and so that you don't have to redo this
+
+[2180.82 - 2186.1600000000003] yourself I put it up on kaggle so the
+
+[2183.52 - 2188.02] the URL is kaggle.com dataset slash
+
+[2186.16 - 2189.7] Lieutenant Commander Data because I'm
+
+[2188.02 - 2192.579] That Kind of nerd
+
+[2189.7 - 2195.0989999999997] um and slash archive embeddings so you
+
+[2192.579 - 2196.2400000000002] can download this yourself and
+
+[2195.099 - 2198.46] um so there's two things that I'm going
+
+[2196.24 - 2201.3999999999996] to do from here well three actually so
+
+[2198.46 - 2203.68] first we have to
+
+[2201.4 - 2205.96] um I've got to update this and I'm not
+
+[2203.68 - 2207.339] going to show you I'll just do this and
+
+[2205.96 - 2208.66] show you once it's done you don't need
+
+[2207.339 - 2210.22] to watch me code this stuff this is
+
+[2208.66 - 2213.5789999999997] boring
+
+[2210.22 - 2215.3199999999997] um so we're going to uh index all of
+
+[2213.579 - 2219.46] this into quadrant
+
+[2215.32 - 2221.82] and so quadrant is uh is a semantic
+
+[2219.46 - 2225.099] search engine it's very lightweight
+
+[2221.82 - 2229.9] and we'll see how well it handles
+
+[2225.099 - 2231.6400000000003] um you know 2.1 million articles uh yeah
+
+[2229.9 - 2233.619] this will be a this will definitely be a
+
+[2231.64 - 2235.359] stress test for that because I only
+
+[2233.619 - 2239.859] tested it I think when I did my stress
+
+[2235.359 - 2244.839] test I did like uh well I did less than
+
+[2239.859 - 2245.56] that let's see quadrant demo data
+
+[2244.839 - 2248.56] um
+
+[2245.56 - 2250.7799999999997] I did 88 000. so we're doing a few
+
+[2248.56 - 2252.64] orders of magnitude more data now
+
+[2250.78 - 2255.52] granted it handled that much data very
+
+[2252.64 - 2258.16] very well it only took about I think uh
+
+[2255.52 - 2259.48] less than three minutes to index all of
+
+[2258.16 - 2262.0] that
+
+[2259.48 - 2264.82] um so yeah that's gonna be next and then
+
+[2262.0 - 2266.2] once I've got it all hosted in a search
+
+[2264.82 - 2269.7400000000002] server
+
+[2266.2 - 2273.22] we will then I'm gonna build a a flask
+
+[2269.74 - 2275.02] web client to do the search for us so
+
+[2273.22 - 2278.14] that way I can you'll just there will be
+
+[2275.02 - 2280.54] a payload window where uh you put in
+
+[2278.14 - 2282.7599999999998] like you know find me abstracts like
+
+[2280.54 - 2285.16] this and then it'll give you like the
+
+[2282.76 - 2287.619] top 50 results or whatever
+
+[2285.16 - 2289.42] um of similar articles
+
+[2287.619 - 2292.54] um I mean heck we could even do the top
+
+[2289.42 - 2295.3] 500 and just you know scroll down
+
+[2292.54 - 2297.46] through it so that way you can just see
+
+[2295.3 - 2301.6600000000003] that the search works and we can look at
+
+[2297.46 - 2303.359] how good this method methodology is
+
+[2301.66 - 2305.5] um and you can also see how fast it is
+
+[2303.359 - 2308.56] and then the last thing that I'm going
+
+[2305.5 - 2310.66] to do is actually do like a um so we'll
+
+[2308.56 - 2314.44] do like to do
+
+[2310.66 - 2318.52] um actually generate a literature review
+
+[2314.44 - 2319.839] so like given like basically the excuse
+
+[2318.52 - 2323.56] me the input
+
+[2319.839 - 2325.839] will be you give it like an article or
+
+[2323.56 - 2328.0] an abstract and it says okay find me
+
+[2325.839 - 2330.04] every abstract like this one you know
+
+[2328.0 - 2332.16] within a certain boundary
+
+[2330.04 - 2335.32] um and then generate a literature review
+
+[2332.16 - 2337.8999999999996] based on those
+
+[2335.32 - 2340.839] um yeah so that's where we're going from
+
+[2337.9 - 2342.7000000000003] here go ahead and save this just so you
+
+[2340.839 - 2344.339] can see what I'm doing
+
+[2342.7 - 2347.98] um and then we'll say generate
+
+[2344.339 - 2349.9] literature review dot Pi okay so I've
+
+[2347.98 - 2352.56] got to do this this and this we'll see
+
+[2349.9 - 2352.56] how far I get
+
+[2353.859 - 2359.7999999999997] okay so I got it running
+
+[2357.099 - 2361.839] um we you can see I've got it going up
+
+[2359.8 - 2363.82] in batches
+
+[2361.839 - 2365.14] um and it's just kind of running in the
+
+[2363.82 - 2368.079] background
+
+[2365.14 - 2369.46] um I've got a doing batches of 256 at a
+
+[2368.079 - 2372.82] time
+
+[2369.46 - 2374.26] um and we're at 22 000 out of 2.1
+
+[2372.82 - 2375.94] million
+
+[2374.26 - 2379.48] um the time that it's going to take
+
+[2375.94 - 2381.64] keeps slowly ticking up we're at two and
+
+[2379.48 - 2385.359] a half hours now
+
+[2381.64 - 2387.22] um part of that is the delay of
+
+[2385.359 - 2388.839] uploading the record so it's like
+
+[2387.22 - 2392.3199999999997] there's a little bit of marginal cost
+
+[2388.839 - 2393.04] baked in but then there's also
+
+[2392.32 - 2395.38] um
+
+[2393.04 - 2397.359] I'm not sure but I think quadrant slows
+
+[2395.38 - 2399.88] down a little bit the bigger that it
+
+[2397.359 - 2402.04] goes the bigger that it gets but we'll
+
+[2399.88 - 2404.079] see if this takes too long I might have
+
+[2402.04 - 2405.94] to try a different
+
+[2404.079 - 2407.44] thing
+
+[2405.94 - 2410.079] um
+
+[2407.44 - 2411.76] but yeah so so far so good
+
+[2410.079 - 2413.8590000000004] um actually what I might do is update it
+
+[2411.76 - 2415.9] so that it's not giving me that much
+
+[2413.859 - 2418.24] output because there's a little bit of
+
+[2415.9 - 2420.52] marginal overhead for each output and I
+
+[2418.24 - 2422.859] also might do bigger batches yeah let's
+
+[2420.52 - 2425.68] do that so let me show you what I mean
+
+[2422.859 - 2428.2599999999998] so we'll cancel this so this this script
+
+[2425.68 - 2430.72] what it does is it starts the client you
+
+[2428.26 - 2432.7000000000003] recreate collections so this I looked up
+
+[2430.72 - 2435.22] I looked up what the uh what the client
+
+[2432.7 - 2439.1189999999997] does so recreate collection it dumps
+
+[2435.22 - 2440.74] whatever's there and recreates it so if
+
+[2439.119 - 2442.78] you're doing testing it's great you just
+
+[2440.74 - 2444.4599999999996] start from scratch and then I updated
+
+[2442.78 - 2447.46] this function load data so it just
+
+[2444.46 - 2449.68] starts here it gets all the files you
+
+[2447.46 - 2452.8] instantiate vectors and payloads and I
+
+[2449.68 - 2454.839] do a little bit of numbers math and so
+
+[2452.8 - 2456.94] then what I wanted to do
+
+[2454.839 - 2459.7] was let's just
+
+[2456.94 - 2461.68] have all this come up here so if the
+
+[2459.7 - 2465.7599999999998] length of vectors is greater than or
+
+[2461.68 - 2467.74] equal to let's do chunks of a thousand
+
+[2465.76 - 2470.0200000000004] at a time
+
+[2467.74 - 2470.9199999999996] um so then we're going to be sending
+
+[2470.02 - 2473.859] um
+
+[2470.92 - 2476.56] when we we do send a batch
+
+[2473.859 - 2478.2999999999997] um we're sending a batch of a thousand
+
+[2476.56 - 2480.2799999999997] vectors and a thousand payloads up to
+
+[2478.3 - 2483.579] the client and all that this does is
+
+[2480.28 - 2487.599] uploads records and this will send it in
+
+[2483.579 - 2489.46] chunks of 256 at a time and it'll allow
+
+[2487.599 - 2493.0] the machine to figure out the IDS in the
+
+[2489.46 - 2496.48] background uploads it to the archive so
+
+[2493.0 - 2498.579] yeah so this will hopefully keep it a
+
+[2496.48 - 2500.56] little bit faster because there's going
+
+[2498.579 - 2504.04] to be a little bit of overhead cost one
+
+[2500.56 - 2505.2999999999997] of even just doing a print screen and so
+
+[2504.04 - 2507.82] we're only going to be do we're only
+
+[2505.3 - 2511.92] going to be calculating times and stuff
+
+[2507.82 - 2515.8] every 1000 rather than every single Loop
+
+[2511.92 - 2518.619] but then so all we're doing here is for
+
+[2515.8 - 2520.2400000000002] for every file we will uh we'll
+
+[2518.619 - 2524.26] increment our counter
+
+[2520.24 - 2526.72] and then we will open the Json and we'll
+
+[2524.26 - 2528.6400000000003] have uh we'll you know info equals
+
+[2526.72 - 2530.5] json.load in file and then we're going
+
+[2528.64 - 2532.5989999999997] to spool up the vectors and payloads
+
+[2530.5 - 2534.94] because for whatever reason with
+
+[2532.599 - 2537.339] quadrant you have those as separate
+
+[2534.94 - 2541.38] um separate uh lists and you send them
+
+[2537.339 - 2541.38] independently excuse me I gotta sneeze
+
+[2542.26 - 2547.0600000000004] I'll fix that in post
+
+[2544.18 - 2549.22] um anyways sorry uh okay
+
+[2547.06 - 2553.7999999999997] but yeah so anyways let's restart this
+
+[2549.22 - 2553.7999999999997] and see if we're going to go any faster
+
+[2555.94 - 2559.56] uploading records
+
+[2561.76 - 2565.3590000000004] so you can see here it looks like it
+
+[2564.099 - 2567.46] might actually be a little bit faster
+
+[2565.359 - 2570.16] because instead of creeping up to like
+
+[2567.46 - 2572.56] two and a half hours it's sitting at
+
+[2570.16 - 2574.1189999999997] 1.17 and it looks like it's holding
+
+[2572.56 - 2575.7999999999997] steady
+
+[2574.119 - 2577.42] um 1.18
+
+[2575.8 - 2579.819] yeah it looks like it looks like this
+
+[2577.42 - 2580.48] method's a bit faster
+
+[2579.819 - 2581.74] um
+
+[2580.48 - 2583.9] cool
+
+[2581.74 - 2586.4199999999996] and I can probably even remove the
+
+[2583.9 - 2587.98] uploading records because that's just
+
+[2586.42 - 2589.359] extra noise like of course we know
+
+[2587.98 - 2591.88] you're uploading records that's what we
+
+[2589.359 - 2594.0] programmed you to do okay so it looks
+
+[2591.88 - 2597.46] like this will take about an hour to run
+
+[2594.0 - 2599.859] and then in the meantime we can see you
+
+[2597.46 - 2600.88] know vmm is using that I wonder if
+
+[2599.859 - 2602.52] there's any
+
+[2600.88 - 2605.6800000000003] um
+
+[2602.52 - 2607.72] volumes yeah so this is the Vault we'll
+
+[2605.68 - 2610.1189999999997] see the volume size go up
+
+[2607.72 - 2612.339] um so this is the actual storage that
+
+[2610.119 - 2615.579] quadrant is using
+
+[2612.339 - 2618.04] um for 98 quadrant is really efficient
+
+[2615.579 - 2619.599] I'm not sure how it
+
+[2618.04 - 2620.859] what kind of compression it does so
+
+[2619.599 - 2623.2000000000003] we'll see what that gets to at the end
+
+[2620.859 - 2625.24] anyways uh probably what I'm going to do
+
+[2623.2 - 2627.2799999999997] is while this is running is I'll work on
+
+[2625.24 - 2628.2999999999997] the flask app and I'll give you an
+
+[2627.28 - 2631.2000000000003] update
+
+[2628.3 - 2631.2000000000003] um here in just a minute
+
+[2633.46 - 2637.839] okay so I've made some progress
+
+[2636.4 - 2640.359] um I've got the search server up and
+
+[2637.839 - 2643.06] running it's pretty straightforward
+
+[2640.359 - 2645.2799999999997] um let's close out that comment
+
+[2643.06 - 2649.06] um so basically it's just a super simple
+
+[2645.28 - 2650.8] flask server I've got some some basic
+
+[2649.06 - 2652.2999999999997] HTML
+
+[2650.8 - 2655.26] um actually I realize that I need to
+
+[2652.3 - 2659.26] close out the HTML so then we'll do
+
+[2655.26 - 2660.4] let's see HTML equals HTML plus and then
+
+[2659.26 - 2661.3590000000004] we'll do
+
+[2660.4 - 2668.56] um
+
+[2661.359 - 2668.56] do HTML uh close equals
+
+[2668.74 - 2674.9199999999996] and we'll say um slash body and then
+
+[2672.16 - 2676.54] slash HTML it's not strictly required
+
+[2674.92 - 2680.14] because most browsers will still render
+
+[2676.54 - 2682.359] it properly but if you want to uh be
+
+[2680.14 - 2685.14] nice
+
+[2682.359 - 2690.04] you will you will do this
+
+[2685.14 - 2691.66] HTML plus HTML close okay anyways
+
+[2690.04 - 2693.099] um yeah so here it is it's up and
+
+[2691.66 - 2697.18] running
+
+[2693.099 - 2700.78] um it uses the same embedding engine
+
+[2697.18 - 2702.64] um that is running uh that generated the
+
+[2700.78 - 2704.38] 512 Dimension
+
+[2702.64 - 2707.92] um whatchamacallit
+
+[2704.38 - 2710.44] embeddings vectors it's still uploading
+
+[2707.92 - 2711.819] um so but we're at you know to about two
+
+[2710.44 - 2714.339] and a half hours left and you see it's
+
+[2711.819 - 2716.319] pretty stable it was creeping up but now
+
+[2714.339 - 2718.839] it's creeping back down
+
+[2716.319 - 2720.4] um so I've uploaded half a million
+
+[2718.839 - 2723.099] um and yeah it's a really simple thing
+
+[2720.4 - 2726.94] so you just put in a search term so like
+
+[2723.099 - 2729.88] you might say like pancreatic cancer in
+
+[2726.94 - 2733.44] mice and then you do a search
+
+[2729.88 - 2733.44] that was faster than before
+
+[2733.599 - 2738.4] um
+
+[2734.2 - 2740.859] yep and so semantic similarity 0.17 so
+
+[2738.4 - 2743.2000000000003] that's really low so that must mean that
+
+[2740.859 - 2745.24] we don't have anything in here or that
+
+[2743.2 - 2747.2799999999997] maybe um
+
+[2745.24 - 2749.68] but yeah so still you're getting like
+
+[2747.28 - 2753.76] proton cancer therapy let's see if it
+
+[2749.68 - 2756.7] mice so there's nothing pancreatic
+
+[2753.76 - 2759.5400000000004] yep so there's nothing uh well here
+
+[2756.7 - 2759.54] let's just do cancer
+
+[2759.64 - 2764.98] why is this search so much faster
+
+[2763.06 - 2767.619] um okay automatic tumor segmentation
+
+[2764.98 - 2769.359] whole images of the pancreas so it's
+
+[2767.619 - 2773.1600000000003] interesting that that didn't come up so
+
+[2769.359 - 2773.16] I'm wondering um so basically
+
+[2773.56 - 2777.88] I don't know I don't know I'm using a
+
+[2776.14 - 2780.0989999999997] relatively low dimension thing but you
+
+[2777.88 - 2781.78] see how fast the search is
+
+[2780.099 - 2784.119] um I have no idea why it's so much
+
+[2781.78 - 2785.079] faster right now
+
+[2784.119 - 2786.76] um
+
+[2785.079 - 2787.96] is this still running okay that is still
+
+[2786.76 - 2791.0200000000004] running
+
+[2787.96 - 2792.52] um but yeah so
+
+[2791.02 - 2794.619] um
+
+[2792.52 - 2796.78] and also I have no idea how this is only
+
+[2794.619 - 2797.38] still at half a gigabyte
+
+[2796.78 - 2799.2400000000002] um
+
+[2797.38 - 2800.859] the container that's running it it says
+
+[2799.24 - 2803.14] it's using
+
+[2800.859 - 2804.46] um like if I click on this volume it's
+
+[2803.14 - 2806.68] it's using it it's the one that's
+
+[2804.46 - 2808.48] running see it's quadrant storage or
+
+[2806.68 - 2811.48] quadrant storage
+
+[2808.48 - 2812.5] um I'm afraid that it might be running
+
+[2811.48 - 2815.079] um
+
+[2812.5 - 2816.819] somewhere else anyways so let's say
+
+[2815.079 - 2820.0] let's see
+
+[2816.819 - 2822.579] if you copy so like I've got one that I
+
+[2820.0 - 2824.8] like so okay let's just copy this
+
+[2822.579 - 2826.8390000000004] and we'll put that in there and we'll do
+
+[2824.8 - 2828.579] a search and you see how the more
+
+[2826.839 - 2831.4] information you give it the better it
+
+[2828.579 - 2834.4] gets and that's because the embeddings
+
+[2831.4 - 2838.06] that um are that are are that I use
+
+[2834.4 - 2839.92] include the title and the
+
+[2838.06 - 2841.599] um and the abstract so the more
+
+[2839.92 - 2843.52] information you give it the closer the
+
+[2841.599 - 2845.2000000000003] embedding will be to what you're looking
+
+[2843.52 - 2846.64] for and you see how these scores go way
+
+[2845.2 - 2850.06] up
+
+[2846.64 - 2851.7999999999997] um and so it's the the whole idea is if
+
+[2850.06 - 2853.72] you find one abstract that you like or
+
+[2851.8 - 2855.579] if you can think of kind of the title of
+
+[2853.72 - 2857.2] what you're looking for you just kind of
+
+[2855.579 - 2859.3590000000004] keep typing and you give it as much as
+
+[2857.2 - 2861.46] you can and it will generate a more
+
+[2859.359 - 2863.14] accurate embedding and so then I've got
+
+[2861.46 - 2865.54] it where it just you know here's the
+
+[2863.14 - 2868.1189999999997] title here's the score and then here's a
+
+[2865.54 - 2870.4] link directly to the archive so it'll
+
+[2868.119 - 2871.42] just take you straight to it I suppose I
+
+[2870.4 - 2873.52] could have had a little bit more
+
+[2871.42 - 2875.619] metadata in here like the date and
+
+[2873.52 - 2877.599] authors and stuff but I didn't include
+
+[2875.619 - 2880.0] that like because I was like why
+
+[2877.599 - 2881.7400000000002] duplicate effort like I just got the
+
+[2880.0 - 2884.14] bare minimum that was required which is
+
+[2881.74 - 2885.16] the title abstract and ID which allows
+
+[2884.14 - 2888.0989999999997] you to come straight here and then you
+
+[2885.16 - 2888.94] can say okay this is when that was
+
+[2888.099 - 2892.06] um
+
+[2888.94 - 2896.5] but yeah so then like I did uh what was
+
+[2892.06 - 2898.839] it like uh Large Hadron Collider is that
+
+[2896.5 - 2901.06] one where LR2
+
+[2898.839 - 2903.16] um Higgs vacuum Decay from particle
+
+[2901.06 - 2907.06] collisions and so it's just like okay
+
+[2903.16 - 2908.859] cool everything related to colliders and
+
+[2907.06 - 2912.04] etc etc
+
+[2908.859 - 2914.14] um bigger better faster more at the LHC
+
+[2912.04 - 2917.079] um and you see the the semantic
+
+[2914.14 - 2920.2] similarity score of 0.54
+
+[2917.079 - 2922.54] um and yeah so I think probably the next
+
+[2920.2 - 2924.7] thing that I'll do is I might add a tab
+
+[2922.54 - 2926.92] or another function where it's like okay
+
+[2924.7 - 2929.74] you know if you have the results that
+
+[2926.92 - 2932.56] you want like generate a literature
+
+[2929.74 - 2934.5989999999997] review but you see how fast this is and
+
+[2932.56 - 2937.2999999999997] and the quality of the results and this
+
+[2934.599 - 2940.1800000000003] is using a very low dimensional Vector
+
+[2937.3 - 2942.28] um relatively speaking because 512 is
+
+[2940.18 - 2943.7799999999997] pretty small you can go up to 12 000
+
+[2942.28 - 2947.26] with DaVinci that would be really
+
+[2943.78 - 2949.78] expensive to embed 2.1 million things
+
+[2947.26 - 2951.88] with da Vinci but anyway so let's just
+
+[2949.78 - 2954.2200000000003] grab this
+
+[2951.88 - 2956.5] um and so we'll do
+
+[2954.22 - 2958.839] here actually let's
+
+[2956.5 - 2961.3] copy the
+
+[2958.839 - 2964.18] both the title
+
+[2961.3 - 2967.1400000000003] and the embedding and then we'll just
+
+[2964.18 - 2967.14] put this in our search
+
+[2967.24 - 2973.72] um okay so this gives us even higher
+
+[2969.88 - 2976.2400000000002] results so hadron spectroscopy structure
+
+[2973.72 - 2979.2999999999997] so the if you put if you put the title
+
+[2976.24 - 2980.859] and the abstract for a paper
+
+[2979.3 - 2983.079] um you'll you're going to get all the
+
+[2980.859 - 2984.88] most similar papers
+
+[2983.079 - 2986.619] um and so then it's just you know you
+
+[2984.88 - 2988.78] saw how fast that was and you don't have
+
+[2986.619 - 2990.339] to put in keywords you put in this big
+
+[2988.78 - 2992.619] huge thing and it will say okay let's
+
+[2990.339 - 2993.94] find let's find the payloads that are
+
+[2992.619 - 2996.76] the most
+
+[2993.94 - 2999.76] um semantically similar
+
+[2996.76 - 3001.8590000000004] um which could lead to like this is just
+
+[2999.76 - 3004.8590000000004] the first step in automated research
+
+[3001.859 - 3007.74] right because if you can find
+
+[3004.859 - 3009.5989999999997] all the right research then you can you
+
+[3007.74 - 3013.3799999999997] know go from there there's obviously a
+
+[3009.599 - 3016.44] few keywords like hadron Higgs LHC that
+
+[3013.38 - 3017.7000000000003] keep popping up but you you see that one
+
+[3016.44 - 3019.02] advantage that you get with semantic
+
+[3017.7 - 3021.0] similarity is that you're not looking
+
+[3019.02 - 3022.859] for keywords
+
+[3021.0 - 3024.96] um you're it will actually kind of get
+
+[3022.859 - 3027.359] an understanding and with a with a low
+
+[3024.96 - 3029.04] dimensional embedding like 512 you lose
+
+[3027.359 - 3031.5] a lot right because there's so much
+
+[3029.04 - 3033.66] specific domain information like you
+
+[3031.5 - 3035.28] know the Randall sundrome model I
+
+[3033.66 - 3037.819] guarantee you that a low dimensional
+
+[3035.28 - 3040.5600000000004] model or a low dimensional um
+
+[3037.819 - 3043.68] embedding doesn't fully understand that
+
+[3040.56 - 3046.02] but we keep talking about equations and
+
+[3043.68 - 3049.0789999999997] motion and black holes and standard
+
+[3046.02 - 3052.7599999999998] model and so all of these things go into
+
+[3049.079 - 3054.7200000000003] creating that 512 Dimension excuse me uh
+
+[3052.76 - 3056.3390000000004] embedding I'm out of coffee that's
+
+[3054.72 - 3058.2] unfortunate
+
+[3056.339 - 3061.5] um anyways so we're off to a good start
+
+[3058.2 - 3064.98] and you see uh the top you know 0.7
+
+[3061.5 - 3067.74] sorry the top ten they start at 0.75 and
+
+[3064.98 - 3071.099] go down to 0.62
+
+[3067.74 - 3073.14] and so what you can do is uh easily just
+
+[3071.099 - 3076.819] come in here to the search server and
+
+[3073.14 - 3080.24] change the um change the result query
+
+[3076.819 - 3082.5] from limit for to 10 to let's say 100
+
+[3080.24 - 3084.359] and so let's do that and then restart
+
+[3082.5 - 3087.44] our
+
+[3084.359 - 3087.44] um our server here
+
+[3088.02 - 3091.859] and so then because obviously if you're
+
+[3089.819 - 3093.48] doing a literature review and you might
+
+[3091.859 - 3095.819] be looking for things that are a little
+
+[3093.48 - 3097.2] more distal from your your core search
+
+[3095.819 - 3099.3] because if you're trying to Branch out
+
+[3097.2 - 3101.46] you don't want to focus on just the
+
+[3099.3 - 3103.079] things just the closest cluster you want
+
+[3101.46 - 3106.2] to like okay let's find everything
+
+[3103.079 - 3107.819] that's vaguely related and so then let's
+
+[3106.2 - 3110.52] do um
+
+[3107.819 - 3113.42] let's see if let's see if open AI um
+
+[3110.52 - 3113.42] gpt3
+
+[3114.119 - 3117.7200000000003] and one thing that I found that's
+
+[3115.5 - 3120.9] interesting is that um
+
+[3117.72 - 3124.02] oh it it the fewer Search terms you you
+
+[3120.9 - 3125.099] use the lower the the slower it is I
+
+[3124.02 - 3127.74] think it's because it has to search
+
+[3125.099 - 3129.119] further whereas like if you have if
+
+[3127.74 - 3130.3799999999997] you've got a good Vector it's just
+
+[3129.119 - 3133.099] really fast
+
+[3130.38 - 3135.48] um so let's do deep neural network
+
+[3133.099 - 3137.52] computer vision
+
+[3135.48 - 3140.4] so that's much faster good lore that was
+
+[3137.52 - 3142.44] faster okay
+
+[3140.4 - 3144.119] um okay so then let's just grab a whole
+
+[3142.44 - 3146.339] abstract
+
+[3144.119 - 3148.079] um from one of these guys and so then
+
+[3146.339 - 3150.48] you scroll down and it's like okay cool
+
+[3148.079 - 3152.579] we've got all kinds of stuff and you see
+
+[3150.48 - 3154.2] that there's kind of there's going to be
+
+[3152.579 - 3155.579] a whole lot that are at like point five
+
+[3154.2 - 3158.22] point four
+
+[3155.579 - 3160.619] um so you can just keep going
+
+[3158.22 - 3162.839] um yeah and you'll find everything that
+
+[3160.619 - 3164.4] is vaguely related
+
+[3162.839 - 3165.9] um and it's all kind of in the same
+
+[3164.4 - 3167.2200000000003] space
+
+[3165.9 - 3169.14] um so there's a few things that we can
+
+[3167.22 - 3170.64] do to improve this which I'm not going
+
+[3169.14 - 3172.3799999999997] to do right now I'm just doing this as a
+
+[3170.64 - 3174.66] proof of concept
+
+[3172.38 - 3178.92] um is you can do you can use a higher
+
+[3174.66 - 3181.0989999999997] dimensional Vector such as Ada from open
+
+[3178.92 - 3184.02] AI which is a 1024
+
+[3181.099 - 3185.28] or you can go up from there right but
+
+[3184.02 - 3187.44] you're going to spend a lot of money
+
+[3185.28 - 3189.6600000000003] whereas Universal sentence encoder
+
+[3187.44 - 3192.66] version five is free and it's fast it
+
+[3189.66 - 3194.46] only took like three hours to embed all
+
+[3192.66 - 3196.5589999999997] all of these
+
+[3194.46 - 3199.319] um and so then once you're on the page
+
+[3196.559 - 3202.26] you could search for you know open AI
+
+[3199.319 - 3202.92] okay there's no papers from open AI here
+
+[3202.26 - 3205.98] um
+
+[3202.92 - 3207.96] yeah but and you see how fast it is and
+
+[3205.98 - 3209.94] it's just okay cool and I've got it nice
+
+[3207.96 - 3212.099] and simple so it's it's easily readable
+
+[3209.94 - 3214.68] you've got the abstract here you got a
+
+[3212.099 - 3217.079] link that's very obvious
+
+[3214.68 - 3218.7] um I'll probably shorten this because
+
+[3217.079 - 3220.8] that's a little bit that's that's a
+
+[3218.7 - 3224.339] little bit of visual noise
+
+[3220.8 - 3225.2400000000002] um so in terms of we'll just do
+
+[3224.339 - 3227.4] um
+
+[3225.24 - 3229.5] score
+
+[3227.4 - 3231.119] uh yeah because you reduce you reduce
+
+[3229.5 - 3233.22] visual noise so that it's easier to
+
+[3231.119 - 3235.079] parse because this if it's the same
+
+[3233.22 - 3237.48] thing it doesn't matter what you really
+
+[3235.079 - 3239.94] care about is this
+
+[3237.48 - 3242.16] um so you know but you've got different
+
+[3239.94 - 3244.2000000000003] um sizes colors and shapes to really
+
+[3242.16 - 3247.2599999999998] draw your eyes so you've got a really
+
+[3244.2 - 3249.18] reliable pattern so this blue helps
+
+[3247.26 - 3250.6800000000003] break up so you know like okay there's a
+
+[3249.18 - 3252.18] link if I want that one I just click
+
+[3250.68 - 3253.7999999999997] there
+
+[3252.18 - 3256.319] um honestly actually probably what I
+
+[3253.8 - 3259.079] ought to do is have oh I can simplify it
+
+[3256.319 - 3260.2799999999997] we can do the title is the link and then
+
+[3259.079 - 3262.619] just get rid of the link there because
+
+[3260.28 - 3267.26] why duplicate it yeah let's do that real
+
+[3262.619 - 3267.26] quick okay so we will move
+
+[3267.54 - 3274.2799999999997] um we'll move this
+
+[3270.359 - 3274.2799999999997] up to
+
+[3275.22 - 3278.839] let's see a haref
+
+[3280.44 - 3288.14] and so instead
+
+[3283.74 - 3288.14] I guess here I'll do a href
+
+[3288.66 - 3295.339] okay and then we'll grab payload ID and
+
+[3292.859 - 3295.339] title
+
+[3295.38 - 3299.28] there we go
+
+[3296.88 - 3302.2200000000003] and so now we'll have
+
+[3299.28 - 3305.7000000000003] a little bit less noise
+
+[3302.22 - 3307.7999999999997] so now now it'll be this will be the
+
+[3305.7 - 3309.18] link so you just click on the title
+
+[3307.8 - 3311.6400000000003] instead of having a separate link which
+
+[3309.18 - 3314.7599999999998] is smaller so that's a smaller Target so
+
+[3311.64 - 3317.2799999999997] I have title score and then the abstract
+
+[3314.76 - 3319.5] and that's that's it so it's
+
+[3317.28 - 3321.78] can't get much simpler than that
+
+[3319.5 - 3326.359] and so this is the most like cut down
+
+[3321.78 - 3326.3590000000004] basic Search tool you can possibly have
+
+[3327.599 - 3331.2000000000003] um okay
+
+[3328.859 - 3334.22] so then let's go back in let's wait for
+
+[3331.2 - 3334.22] this to finish loading
+
+[3336.18 - 3341.839] come on there we go okay so do a quick
+
+[3339.3 - 3341.8390000000004] reload
+
+[3344.04 - 3347.7599999999998] all right cool so now you see the
+
+[3346.5 - 3351.18] format's a little bit different where
+
+[3347.76 - 3353.5200000000004] you've got this it's a little bit
+
+[3351.18 - 3356.22] it's not quite as pretty I might change
+
+[3353.52 - 3358.2599999999998] the the style so that it's well I guess
+
+[3356.22 - 3360.359] that's okay and then you got the score
+
+[3358.26 - 3362.099] and then the abstract
+
+[3360.359 - 3364.0789999999997] um so there's a little bit less noise I
+
+[3362.099 - 3365.94] don't know if I like this as much
+
+[3364.079 - 3367.619] I don't know what do you think
+
+[3365.94 - 3370.26] um
+
+[3367.619 - 3372.059] it is nice to have the score just here
+
+[3370.26 - 3374.3390000000004] so you can get a quick view of like okay
+
+[3372.059 - 3376.44] how close is this image quality
+
+[3374.339 - 3378.599] assessment I guess when you when you pay
+
+[3376.44 - 3380.28] attention I wonder I wonder if it's the
+
+[3378.599 - 3382.98] underline
+
+[3380.28 - 3385.1400000000003] that's making it a little harder to read
+
+[3382.98 - 3387.599] anyways I'll fiddle around with it um
+
+[3385.14 - 3389.7599999999998] we've still got a couple hours left so
+
+[3387.599 - 3392.6400000000003] two two and a quarter hours so two hours
+
+[3389.76 - 3394.1400000000003] 15 minutes of these uploading
+
+[3392.64 - 3396.359] um probably one reason that we're not
+
+[3394.14 - 3398.0989999999997] getting uh good results is because it's
+
+[3396.359 - 3399.48] not done uploading
+
+[3398.099 - 3401.46] um so we're getting the best that we can
+
+[3399.48 - 3402.54] with what's here
+
+[3401.46 - 3405.839] um
+
+[3402.54 - 3407.819] but yeah so uh okay I guess I'll stop
+
+[3405.839 - 3409.619] the video here we've got this
+
+[3407.819 - 3411.7799999999997] um what am I working on next oh generate
+
+[3409.619 - 3413.6400000000003] literature review
+
+[3411.78 - 3415.559] um you know what I'll probably just
+
+[3413.64 - 3417.24] integrate the literature review into
+
+[3415.559 - 3418.8590000000004] this server
+
+[3417.24 - 3421.0989999999997] I think that's what I'll do
+
+[3418.859 - 3421.0989999999997] okay
+
+[3423.599 - 3429.0] okay we're still making progress
+
+[3426.48 - 3431.76] um however I was looking at archives
+
+[3429.0 - 3434.7] bulk download stuff and you know Open
+
+[3431.76 - 3438.2400000000002] Access yes but they also ask users to
+
+[3434.7 - 3440.339] play nice and you know be be good with
+
+[3438.24 - 3442.319] harvesting so I'm not going to add a
+
+[3440.339 - 3444.119] bulk download function to my web
+
+[3442.319 - 3445.44] interface
+
+[3444.119 - 3446.94] um this is this will run strictly
+
+[3445.44 - 3448.98] locally because I want I mean you know
+
+[3446.94 - 3450.2400000000002] they're providing a huge service for
+
+[3448.98 - 3452.94] free
+
+[3450.24 - 3456.5989999999997] um so let's not abuse the you know the
+
+[3452.94 - 3459.599] the free service but what you can do is
+
+[3456.599 - 3462.1800000000003] once you use this tool to find the
+
+[3459.599 - 3464.339] papers that you want you can go manually
+
+[3462.18 - 3467.22] download them and so what I've done is
+
+[3464.339 - 3469.44] I'll I have a folder so you just
+
+[3467.22 - 3472.14] accumulate whatever papers you want
+
+[3469.44 - 3475.079] reviewed in this folder and so what I'm
+
+[3472.14 - 3478.859] working on now is
+
+[3475.079 - 3481.6800000000003] um is a script to do the to do the um
+
+[3478.859 - 3482.7599999999998] literature review part separately
+
+[3481.68 - 3485.7599999999998] um so I'll take that out of the web
+
+[3482.76 - 3487.3190000000004] interface it's pretty straightforward
+
+[3485.76 - 3488.76] so here's the prompt it just says
+
+[3487.319 - 3491.04] summarize the following paper for
+
+[3488.76 - 3493.6800000000003] literature review paper literature
+
+[3491.04 - 3496.02] review summary and this is what it looks
+
+[3493.68 - 3498.0] like so you take a big chunk and then
+
+[3496.02 - 3499.859] you have here and it does a really good
+
+[3498.0 - 3501.54] job of just kind of distilling it down
+
+[3499.859 - 3504.0589999999997] so what I'm going to do is I'm going to
+
+[3501.54 - 3506.839] break it into chunks and uh well here
+
+[3504.059 - 3510.6800000000003] I'll just show you so I've got it here
+
+[3506.839 - 3514.5589999999997] uh let's see so we take out the print
+
+[3510.68 - 3518.22] and so then we do chunks equals text
+
+[3514.559 - 3520.5] wrap dot wrap and then we'll do paper
+
+[3518.22 - 3522.66] and we'll say 6000 because that's
+
+[3520.5 - 3524.16] usually about the size that you can get
+
+[3522.66 - 3528.24] and we'll say
+
+[3524.16 - 3530.7599999999998] um okay uh let's see result equals that
+
+[3528.24 - 3532.68] and so then we'll say four Chunk in
+
+[3530.76 - 3533.88] chunks
+
+[3532.68 - 3537.18] um
+
+[3533.88 - 3538.92] prompt equals open file and we'll say
+
+[3537.18 - 3543.299] prompt
+
+[3538.92 - 3543.299] summary dot text replace
+
+[3543.839 - 3547.859] paper
+
+[3545.04 - 3549.599] with chunk
+
+[3547.859 - 3550.5589999999997] and we'll do
+
+[3549.599 - 3555.54] um
+
+[3550.559 - 3560.3390000000004] summary equals gpt3 completion prompt
+
+[3555.54 - 3563.0589999999997] and so result equals result plus and
+
+[3560.339 - 3565.5] we'll say add a nice little space
+
+[3563.059 - 3569.7000000000003] and we'll add summary
+
+[3565.5 - 3573.839] okay so then for each of these though
+
+[3569.7 - 3576.5589999999997] there will be a um a literature review
+
+[3573.839 - 3576.5589999999997] um for each paper
+
+[3576.599 - 3580.799] um
+
+[3577.799 - 3581.88] and then we will just save it out to
+
+[3580.799 - 3584.94] file
+
+[3581.88 - 3587.04] uh okay so
+
+[3584.94 - 3588.66] probably the way that we'll make this
+
+[3587.04 - 3593.22] look
+
+[3588.66 - 3597.5989999999997] um because we'll see output equals list
+
+[3593.22 - 3602.16] and so then we'll have uh
+
+[3597.599 - 3604.079] so then we'll say info equals file
+
+[3602.16 - 3605.8799999999997] and we'll do file
+
+[3604.079 - 3609.299] and then
+
+[3605.88 - 3610.619] um summary equals
+
+[3609.299 - 3613.2] result
+
+[3610.619 - 3616.38] okay so that will be that and then
+
+[3613.2 - 3619.7599999999998] output dot append
+
+[3616.38 - 3623.6400000000003] info and so then when we're finally done
+
+[3619.76 - 3627.5] at the very end of all things
+
+[3623.64 - 3627.5] we'll save it out as a Json
+
+[3627.599 - 3632.579] actually no let's not save it like that
+
+[3629.579 - 3633.7200000000003] we will just do
+
+[3632.579 - 3637.1600000000003] um
+
+[3633.72 - 3637.16] we'll do uh
+
+[3638.04 - 3640.22] um
+
+[3641.46 - 3648.98] uh I'll uh
+
+[3643.799 - 3653.359] text equals we'll do new line new line
+
+[3648.98 - 3653.359] dot join output
+
+[3654.66 - 3656.7799999999997] um
+
+[3656.88 - 3661.2000000000003] no because that'll still be this like
+
+[3659.4 - 3665.339] formatted like this
+
+[3661.2 - 3667.14] uh okay why don't we do it this way
+
+[3665.339 - 3670.319] instead then
+
+[3667.14 - 3672.859] so final output will do
+
+[3670.319 - 3672.859] text
+
+[3675.96 - 3681.359] so output equals
+
+[3679.859 - 3686.52] um output
+
+[3681.359 - 3687.839] plus and we'll do new line new line and
+
+[3686.52 - 3688.5] then we'll do
+
+[3687.839 - 3690.7799999999997] um
+
+[3688.5 - 3693.26] that'll be the file name
+
+[3690.78 - 3696.2000000000003] and then we'll also just do the summary
+
+[3693.26 - 3700.92] yeah that'll work okay so then we'll do
+
+[3696.2 - 3702.48] file and then resulting summary
+
+[3700.92 - 3704.28] um yeah because then you can then you
+
+[3702.48 - 3706.38] can do whatever you want but the point
+
+[3704.28 - 3709.38] is is that it will it will give you kind
+
+[3706.38 - 3711.7200000000003] of a compact summary with the file name
+
+[3709.38 - 3714.2400000000002] and again there's lots of little things
+
+[3711.72 - 3717.66] we can do to clean this up
+
+[3714.24 - 3720.5989999999997] um okay so then save file and then I
+
+[3717.66 - 3722.5789999999997] have file path and then content so the
+
+[3720.599 - 3727.02] file path will be
+
+[3722.579 - 3729.1800000000003] um literature review dot text and the
+
+[3727.02 - 3731.339] content will be the output
+
+[3729.18 - 3733.5789999999997] all right and then let's run this real
+
+[3731.339 - 3733.5789999999997] quick
+
+[3734.46 - 3739.7400000000002] so I've got five files that are related
+
+[3737.16 - 3744.359] oh I guess it's not um
+
+[3739.74 - 3746.7] yep I forgot to put the logs no
+
+[3744.359 - 3748.74] okay so first
+
+[3746.7 - 3750.24] we will print
+
+[3748.74 - 3751.799] file
+
+[3750.24 - 3754.68] and then
+
+[3751.799 - 3756.299] we will print
+
+[3754.68 - 3758.2799999999997] results
+
+[3756.299 - 3762.619] and we'll let it go
+
+[3758.28 - 3762.619] okay let me come back here
+
+[3762.72 - 3768.0789999999997] GPT three logs do this every darn time
+
+[3772.38 - 3776.28] all right so I've got a handful of files
+
+[3774.42 - 3778.6800000000003] that I want to generate a literature
+
+[3776.28 - 3780.5400000000004] review for
+
+[3778.68 - 3782.16] and so what it's going to do is it's
+
+[3780.54 - 3784.859] going to go through and extract the text
+
+[3782.16 - 3787.859] from those PDFs and then break that the
+
+[3784.859 - 3789.24] whole chunk or the whole PDF into chunks
+
+[3787.859 - 3791.2799999999997] and then it's going to do a quick
+
+[3789.24 - 3794.66] summary for each of those
+
+[3791.28 - 3794.6600000000003] should be running in the background
+
+[3794.7 - 3801.0789999999997] yeah here we go
+
+[3796.74 - 3801.0789999999997] so summarize the paper there we go
+
+[3801.599 - 3806.52] so it is running
+
+[3804.48 - 3809.2400000000002] oh here we go
+
+[3806.52 - 3809.24] yeah
+
+[3809.46 - 3814.92] and so what it'll do is it'll give me
+
+[3811.799 - 3818.7] the file name and then the the full
+
+[3814.92 - 3821.579] summary which you can then use to just
+
+[3818.7 - 3823.6189999999997] plug and play into your paper and
+
+[3821.579 - 3826.2000000000003] obviously there's there's all kinds of
+
+[3823.619 - 3829.2000000000003] formatting and official stuff and I'm
+
+[3826.2 - 3831.18] not a research scientist but this once
+
+[3829.2 - 3833.04] you get this far you're uh it's pretty
+
+[3831.18 - 3835.68] easy to clean up
+
+[3833.04 - 3839.099] um but yeah I think we're almost done
+
+[3835.68 - 3841.74] so this is exciting
+
+[3839.099 - 3843.54] um now obviously like this has this is
+
+[3841.74 - 3845.8799999999997] only halfway done it's got an hour and a
+
+[3843.54 - 3849.9] half left but you can run this on your
+
+[3845.88 - 3852.48] own to index all of archive yourself and
+
+[3849.9 - 3855.599] so actually I was thinking through this
+
+[3852.48 - 3857.96] um this is a pretty useful service so
+
+[3855.599 - 3862.079] um tell me what you guys think should I
+
+[3857.96 - 3865.619] should I set this up as a
+
+[3862.079 - 3868.5] um like an actual website like should I
+
+[3865.619 - 3870.359] try and Market this and monetize it and
+
+[3868.5 - 3872.88] um would that be valuable and maybe I
+
+[3870.359 - 3875.64] could do a Kickstarter uh or or
+
+[3872.88 - 3877.559] something just set this up and and so
+
+[3875.64 - 3879.48] then like you just plug and play and
+
+[3877.559 - 3881.4] you've got your own literature review
+
+[3879.48 - 3882.66] engine
+
+[3881.4 - 3883.619] um so let me know what you think in the
+
+[3882.66 - 3885.48] comments
+
+[3883.619 - 3886.98] um but yeah I'm gonna call this I'm
+
+[3885.48 - 3888.78] gonna call this done we'll wait for this
+
+[3886.98 - 3891.359] to finish spitting out
+
+[3888.78 - 3894.02] um you know it's it's review
+
+[3891.359 - 3894.02] um but yeah

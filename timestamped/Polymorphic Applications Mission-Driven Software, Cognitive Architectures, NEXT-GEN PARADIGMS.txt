@@ -1,0 +1,1709 @@
+[0.0 - 4.2] good morning everybody David Shapiro
+
+[2.46 - 7.379] here with another video
+
+[4.2 - 8.940000000000001] so uh I mentioned a few videos ago you
+
+[7.379 - 11.46] may or may not have seen it I mentioned
+
+[8.94 - 13.559] the concept of polymorphic applications
+
+[11.46 - 15.719000000000001] and a bunch of you are like what is this
+
+[13.559 - 17.16] concept tell me more and some people are
+
+[15.719 - 18.599999999999998] like yeah whatever that's not possible
+
+[17.16 - 22.32] so
+
+[18.6 - 25.14] this video is here to teach you a new
+
+[22.32 - 28.198999999999998] paradigm of software development and
+
+[25.14 - 29.939] software architecture so it's I call it
+
+[28.199 - 32.120000000000005] polymorphic applications or basically
+
+[29.939 - 36.18] self-changing applications
+
+[32.12 - 39.0] and we'll get right into it but first I
+
+[36.18 - 41.579] just wanted to say I am available I used
+
+[39.0 - 43.44] to do Consulting on patreon I still have
+
+[41.579 - 46.8] a few patreon clients there but I'm kind
+
+[43.44 - 49.5] of moving uh moving to more involved
+
+[46.8 - 51.718999999999994] engagements including strategic and
+
+[49.5 - 54.0] Technical Consulting teaching and
+
+[51.719 - 56.34] coaching as well as speaking engagements
+
+[54.0 - 60.059] so reach out to me on LinkedIn if you're
+
+[56.34 - 62.0] interested in any of these services and
+
+[60.059 - 66.17999999999999] then with all that back to the show
+
+[62.0 - 69.0] so a couple days ago uh Microsoft CEO
+
+[66.18 - 74.159] Satya Nadella at the Microsoft Inspire
+
+[69.0 - 76.5] 2023 uh keynote basically said AI is
+
+[74.159 - 79.14] here and these are the new capabilities
+
+[76.5 - 81.38] because of language technology so the
+
+[79.14 - 84.36] two primary components that he outlined
+
+[81.38 - 86.46] were natural language interface so
+
+[84.36 - 89.34] that's the front end right voice chat
+
+[86.46 - 91.13999999999999] that sort of thing emails and then in
+
+[89.34 - 92.93900000000001] the back end you have what's called a
+
+[91.14 - 95.88] reasoning engine
+
+[92.939 - 98.52] and so what is a reasoning engine in
+
+[95.88 - 100.38] this case a reasoning engine is instead
+
+[98.52 - 102.6] of thinking about the language models as
+
+[100.38 - 104.69999999999999] something that just generates text right
+
+[102.6 - 106.32] A lot of people pick the low hanging
+
+[104.7 - 108.659] fruit let's use it to write emails let's
+
+[106.32 - 110.75899999999999] use it to write fiction uh you know
+
+[108.659 - 112.32000000000001] that's that's the obvious use case but
+
+[110.759 - 113.93900000000001] what's less obvious and this is what I
+
+[112.32 - 116.88] have been advocating for for literally
+
+[113.939 - 118.5] years uh when I wrote my initial book on
+
+[116.88 - 120.42] cognitive architecture natural language
+
+[118.5 - 122.22] cognitive architecture I said we have
+
+[120.42 - 124.07900000000001] invented a cognitive engine or a
+
+[122.22 - 125.939] reasoning engine he probably didn't use
+
+[124.079 - 128.099] cognitive engine because that's a very
+
+[125.939 - 129.29999999999998] anthropomorphic but it's a it's a
+
+[128.099 - 130.01999999999998] reasoning engine and so what does that
+
+[129.3 - 133.14000000000001] mean
+
+[130.02 - 135.0] language models uh are they're capable
+
+[133.14 - 136.5] of brainstorming and planning they're
+
+[135.0 - 138.959] capable of problem solving they're
+
+[136.5 - 141.599] capable of coding and testing code and
+
+[138.959 - 143.4] interpreting bugs they're also capable
+
+[141.599 - 146.33999999999997] of choosing and deciding or making
+
+[143.4 - 149.52] decisions and so these are all elements
+
+[146.34 - 151.26] of cognition and this is why I have been
+
+[149.52 - 153.08] focusing on cognitive architecture for
+
+[151.26 - 155.7] the last four years
+
+[153.08 - 156.59900000000002] so also the keynote was really good you
+
+[155.7 - 158.7] should watch it if you haven't
+
+[156.599 - 161.57999999999998] especially if you're if you're whether
+
+[158.7 - 164.099] you're an investor in this space or a
+
+[161.58 - 166.019] startup founder or a product owner if
+
+[164.099 - 170.099] you are doing anything with generative
+
+[166.019 - 172.739] AI you need to watch that keynote speech
+
+[170.099 - 175.5] Okay so
+
+[172.739 - 177.36] I promised polymorphic applications but
+
+[175.5 - 178.68] really one thing that you need to become
+
+[177.36 - 181.20000000000002] more familiar with is what I call
+
+[178.68 - 184.14000000000001] Mission oriented programming so this is
+
+[181.2 - 186.06] the next Paradigm Beyond object oriented
+
+[184.14 - 188.16] programming instead we instead of
+
+[186.06 - 191.159] thinking of objects we now have to think
+
+[188.16 - 193.98] of missions uh as the as the primary
+
+[191.159 - 196.739] organizing feature of this new software
+
+[193.98 - 198.23899999999998] Paradigm and so let me just read the
+
+[196.739 - 199.739] definition a mission oriented
+
+[198.239 - 201.239] programming is a paradigm in software
+
+[199.739 - 203.4] development where applications are
+
+[201.239 - 205.20000000000002] primarily designed and built around a
+
+[203.4 - 207.06] clear measurable and purposeful Mission
+
+[205.2 - 208.98] and I'll give you some examples in a
+
+[207.06 - 211.019] little bit don't panic
+
+[208.98 - 213.48] the mission serves as the core driver of
+
+[211.019 - 215.22] the software's behavior adaptation and
+
+[213.48 - 216.84] evolution these applications often
+
+[215.22 - 219.48] referred to as polymorphic applications
+
+[216.84 - 221.64000000000001] are not just tools but active agents in
+
+[219.48 - 222.959] pursuing their respective Mission and so
+
+[221.64 - 226.159] then there's a few components of this
+
+[222.959 - 228.659] one mission-centric design number two
+
+[226.159 - 231.379] autonomy and agency the ability to make
+
+[228.659 - 234.12] decisions uh in pursuit of that mission
+
+[231.379 - 236.599] uh there's needs to be adaptability and
+
+[234.12 - 239.64000000000001] flexibility hence the polymorphic aspect
+
+[236.599 - 242.51899999999998] Dynamic tool creation if it needs a tool
+
+[239.64 - 245.099] it can make the tool and then on the
+
+[242.519 - 247.86] lower level uh how do you actually allow
+
+[245.099 - 250.14] the the the application to change itself
+
+[247.86 - 253.20000000000002] you use micro Frameworks configurable
+
+[250.14 - 255.77999999999997] front ends and configurable back-ends uh
+
+[253.2 - 257.76] okay cool so I just threw a lot at you
+
+[255.78 - 261.12] um you're probably like what what are
+
+[257.76 - 262.919] you talking about uh you know
+
+[261.12 - 263.82] think about it this way this is how we
+
+[262.919 - 266.21999999999997] got here
+
+[263.82 - 267.84] llms can write code they can solve
+
+[266.22 - 269.639] problems they can make decisions they
+
+[267.84 - 272.15999999999997] can write unit tests they can write user
+
+[269.639 - 274.139] stories so extrapolate that out as far
+
+[272.16 - 276.24] as possible you have an llm that can do
+
+[274.139 - 278.94] all of these things one at a time what
+
+[276.24 - 281.1] if you stack them all together so
+
+[278.94 - 284.04] another way to think about it a simpler
+
+[281.1 - 286.5] way to think about it is generative AI
+
+[284.04 - 288.54] or llms or whatever they're just a type
+
+[286.5 - 290.88] of automation so if you're an
+
+[288.54 - 292.56] infrastructure engineer an I.T guy or a
+
+[290.88 - 294.6] software Dev or a software architecture
+
+[292.56 - 296.82] software architect just think about
+
+[294.6 - 299.28000000000003] generative AI as just another kind of
+
+[296.82 - 301.199] automation that's it automation
+
+[299.28 - 303.65999999999997] automation automation that's all you
+
+[301.199 - 306.74] need to think about it is it gives you
+
+[303.66 - 309.78000000000003] some new capabilities in the automation
+
+[306.74 - 311.88] name of the game but it's still just
+
+[309.78 - 313.13899999999995] fundamentally a kind of automation it's
+
+[311.88 - 315.6] that simple
+
+[313.139 - 317.28000000000003] okay so when we talk about this
+
+[315.6 - 319.56] automation engine or this reasoning
+
+[317.28 - 322.55999999999995] engine like what things can it automate
+
+[319.56 - 324.9] so first think about how openai just
+
+[322.56 - 328.32] came out with function calling and API
+
+[324.9 - 330.78] use so basically that means that the
+
+[328.32 - 333.24] that your llm your generative AI model
+
+[330.78 - 335.039] is universal middleware it can talk to
+
+[333.24 - 337.02] anything in your organization anything
+
+[335.039 - 338.28] in your Tech stack as long as it's got
+
+[337.02 - 339.96] an API
+
+[338.28 - 341.15999999999997] so because of that it can touch
+
+[339.96 - 343.68] everything
+
+[341.16 - 345.18] it's capable of problem solving there
+
+[343.68 - 348.479] are many times where you just plug in
+
+[345.18 - 350.039] like an error code or you know describe
+
+[348.479 - 352.56] something that you're that you're
+
+[350.039 - 354.59999999999997] getting and it can understand it it's
+
+[352.56 - 356.34] not always right but it can also
+
+[354.6 - 358.32000000000005] understand when it's getting it wrong
+
+[356.34 - 359.75899999999996] and kind of stop and you know you can
+
+[358.32 - 361.5] use tree of thought or Chain of Thought
+
+[359.759 - 364.74] or whatever there's all kinds of problem
+
+[361.5 - 366.72] solving uh techniques out there tree of
+
+[364.74 - 369.06] thought by the way increases problem
+
+[366.72 - 369.96000000000004] solving capabilities by like 900 or
+
+[369.06 - 372.0] something
+
+[369.96 - 373.5] uh so if it can solve problems that
+
+[372.0 - 376.139] means it can overcome problems
+
+[373.5 - 378.96] automatically decision making so here's
+
+[376.139 - 381.90000000000003] the thing is with with a given objective
+
+[378.96 - 384.06] or a mission it can make decisions in
+
+[381.9 - 387.96] pursuit of that mission and this is why
+
+[384.06 - 389.46] I say Mission uh oriented uh programming
+
+[387.96 - 391.68] and so then of course planning and
+
+[389.46 - 395.34] brainstorming which is also required for
+
+[391.68 - 396.78000000000003] to pursue a any given Mission so if you
+
+[395.34 - 399.35999999999996] have an automation engine that is
+
+[396.78 - 400.79999999999995] capable of these things now what can you
+
+[399.36 - 402.0] do with this now that it's in your
+
+[400.8 - 404.22] toolbox
+
+[402.0 - 407.039] so one of the first things that you need
+
+[404.22 - 409.5] to think about and to kind of change
+
+[407.039 - 411.65999999999997] your mind is on-demand tools or tools
+
+[409.5 - 414.3] that make tools a tool Factory because
+
+[411.66 - 417.3] that's what that I mean that's what GPT
+
+[414.3 - 419.58] does with code it generates new code and
+
+[417.3 - 422.039] what is code but it's a software tool
+
+[419.58 - 424.62] and so you know you think about it like
+
+[422.039 - 426.479] the replicator from Star Trek computer I
+
+[424.62 - 428.58] need something that does X Y and Z and
+
+[426.479 - 431.639] you know a few seconds later it pops out
+
+[428.58 - 433.38] so if you think about the first step
+
+[431.639 - 435.479] towards building polymorphic
+
+[433.38 - 437.34] applications uh the first step towards
+
+[435.479 - 440.21999999999997] Mission oriented programming is the
+
+[437.34 - 443.4] ability to synthesize any code object
+
+[440.22 - 445.08000000000004] that you need on the Fly and so if it
+
+[443.4 - 448.25899999999996] can write code it can test code it can
+
+[445.08 - 450.479] call apis it can read the manual I can
+
+[448.259 - 452.759] write user stories it can read epics it
+
+[450.479 - 454.08] can do all of that stuff you combine all
+
+[452.759 - 456.18] that together and you create an
+
+[454.08 - 458.52] automated tool Factory or a replicator
+
+[456.18 - 461.34000000000003] this is the first step in creating
+
+[458.52 - 463.5] polymorphic applications because you can
+
+[461.34 - 465.11999999999995] you can stack the blocks together
+
+[463.5 - 466.68] but you need something to make to print
+
+[465.12 - 470.16] the blocks for you right it's like a 3D
+
+[466.68 - 472.979] printer or a replicator but for code and
+
+[470.16 - 474.78000000000003] so then once all the blocks are you know
+
+[472.979 - 476.52] you've got a block Factory a tool
+
+[474.78 - 478.79999999999995] Factory now you can just plug them all
+
+[476.52 - 480.979] together you may you aim for Plug and
+
+[478.8 - 483.72] Play architecture plugable architecture
+
+[480.979 - 485.75899999999996] and from there you know because it's got
+
+[483.72 - 487.94000000000005] access to literally every API in your
+
+[485.759 - 489.97900000000004] organization it can talk to Azure AWS
+
+[487.94 - 492.96] Google Cloud
+
+[489.979 - 494.52] VMware Microsoft whatever it can talk to
+
+[492.96 - 497.88] everything in your organization as long
+
+[494.52 - 499.25899999999996] as it's got an API then you build those
+
+[497.88 - 501.24] building blocks and then you stack them
+
+[499.259 - 504.06] together and what can you do with Legos
+
+[501.24 - 506.699] you can do anything with Legos as long
+
+[504.06 - 508.02] as you've got enough blocks so I think
+
+[506.699 - 509.639] you're kind of getting the picture is
+
+[508.02 - 511.919] that if you think about it in terms of
+
+[509.639 - 514.44] modularity or individual pieces that can
+
+[511.919 - 516.06] be kind of printed or fabricated on
+
+[514.44 - 518.719] demand and then you plug them together
+
+[516.06 - 521.2189999999999] that is the underpinning
+
+[518.719 - 523.08] mentality of polymorphic applications
+
+[521.219 - 525.24] it's polymorphic because it can change
+
+[523.08 - 527.22] shapes because all the all the
+
+[525.24 - 528.6] pieces all the underlying pieces are
+
+[527.22 - 531.6] just plug and play
+
+[528.6 - 534.12] okay so we talked about Mission earlier
+
+[531.6 - 535.5] but who runs the show you've got a whole
+
+[534.12 - 537.36] bunch of blocks a whole bunch of
+
+[535.5 - 539.58] building blocks but how do you how does
+
+[537.36 - 541.44] the machine know what to plug into what
+
+[539.58 - 543.899] and and that sort of thing you need a
+
+[541.44 - 546.6600000000001] brain right you've got the tool Factory
+
+[543.899 - 548.1] okay great uh and at first it's going to
+
+[546.66 - 550.38] be humans asking for tools you know
+
+[548.1 - 552.779] replicator you know you know tea Earl
+
+[550.38 - 554.399] Gray hot right but
+
+[552.779 - 557.22] what you need to do is ultimately
+
+[554.399 - 558.959] automate as much of that as possible so
+
+[557.22 - 560.22] the tool Factory is automated but then
+
+[558.959 - 561.8389999999999] you need to automate the thing that's
+
+[560.22 - 564.12] asking for the tools and the tool and
+
+[561.839 - 566.2790000000001] the and the building blocks this is
+
+[564.12 - 567.72] called a cognitive architecture
+
+[566.279 - 569.3389999999999] so remember going back to Sachin
+
+[567.72 - 571.5] nadella's point that we have a reasoning
+
+[569.339 - 572.8800000000001] engine or a cognitive engine or an
+
+[571.5 - 574.08] automation engine whatever you want to
+
+[572.88 - 577.08] call it it's all the same thing
+
+[574.08 - 579.0600000000001] cognition reasoning automation all the
+
+[577.08 - 580.6800000000001] same thing now let's dive into cognitive
+
+[579.06 - 582.7199999999999] architecture
+
+[580.68 - 584.279] so many of you that have been following
+
+[582.72 - 586.62] my channel for a long time know that I
+
+[584.279 - 587.9399999999999] am like the cognitive architecture guy I
+
+[586.62 - 589.5] wrote natural language cognitive
+
+[587.94 - 593.1] architecture more than two years ago now
+
+[589.5 - 594.779] this is my shtix This Is My Jam now what
+
+[593.1 - 597.66] was missing from my books in the past
+
+[594.779 - 599.6] was a more coherent framework I had some
+
+[597.66 - 601.56] diagrams I had some architectural
+
+[599.6 - 604.26] recommendations and a lot of people get
+
+[601.56 - 607.92] a lot out of it but this is like the OSI
+
+[604.26 - 609.66] model but for next-gen applications for
+
+[607.92 - 612.0799999999999] polymorphic application so I call it the
+
+[609.66 - 614.519] ace model autonomous cognitive entities
+
+[612.08 - 616.32] so again right there in the name
+
+[614.519 - 618.3] autonomous the idea is to create
+
+[616.32 - 621.779] something that has a higher degree of
+
+[618.3 - 623.8199999999999] autonomy but it also uses cognition it
+
+[621.779 - 626.3389999999999] uses reasoning and then it's an entity
+
+[623.82 - 627.899] in that it is somewhat self-contained
+
+[626.339 - 630.0600000000001] now some people are going to be
+
+[627.899 - 631.44] deploying a generative AI in a more
+
+[630.06 - 633.3599999999999] distributed sense and that's not what
+
+[631.44 - 635.6400000000001] this video is about this video is about
+
+[633.36 - 638.64] basically the architecture to create
+
+[635.64 - 639.959] commander data or you know bd1 or
+
+[638.64 - 643.5] whatever right if you want to create
+
+[639.959 - 646.4399999999999] C-3PO or R2D2 this is the architecture
+
+[643.5 - 648.18] uh the the Paradigm the framework the
+
+[646.44 - 650.82] conceptual framework that you need to
+
+[648.18 - 653.88] implement so without further Ado it is
+
+[650.82 - 655.5600000000001] six layers that might change but um I've
+
+[653.88 - 657.8389999999999] been working on this for a while so I'm
+
+[655.56 - 659.579] pretty sure I've got it nailed down so
+
+[657.839 - 661.3800000000001] the first layer is the aspirational
+
+[659.579 - 662.9399999999999] layer this is the layer that is
+
+[661.38 - 666.8389999999999] concerned with the mission the values
+
+[662.94 - 668.94] the purpose the ethics and the morals of
+
+[666.839 - 670.62] whatever it is that you're building and
+
+[668.94 - 672.1800000000001] like I said we'll get in we'll I'll give
+
+[670.62 - 674.1] you some examples of missions in just a
+
+[672.18 - 676.4399999999999] minute so that it'll make more sense
+
+[674.1 - 678.48] the layer 2 is the global strategy layer
+
+[676.44 - 680.94] this is long-term thinking context
+
+[678.48 - 682.98] context is the primary thing for Layer
+
+[680.94 - 685.44] Two and it's basically like a CEO it
+
+[682.98 - 687.36] says okay here's you know I have I have
+
+[685.44 - 689.2790000000001] my vision I have my morals right my my
+
+[687.36 - 693.66] higher order beliefs
+
+[689.279 - 696.06] now what is the biggest time Horizon way
+
+[693.66 - 698.459] to think about that mission
+
+[696.06 - 700.9799999999999] layer 3 is Agent model so this is the
+
+[698.459 - 703.14] self model and it's primarily concerned
+
+[700.98 - 704.88] with capabilities the machine has to
+
+[703.14 - 706.62] know what it is how it works and what
+
+[704.88 - 708.72] it's capable of in order to make
+
+[706.62 - 710.82] decisions because if you tell a machine
+
+[708.72 - 712.86] hey go solve world hunger it's like okay
+
+[710.82 - 714.0] cool well I'm gonna go plant a bunch of
+
+[712.86 - 715.92] fields it's like well actually you've
+
+[714.0 - 717.959] only got a budget of fifty dollars right
+
+[715.92 - 720.54] and and you've got one hand then and
+
+[717.959 - 722.399] it's tied behind your back right so by
+
+[720.54 - 724.5] understanding what the model is capable
+
+[722.399 - 726.779] of or your engine or your architecture
+
+[724.5 - 729.0] it has to know what it is capable of and
+
+[726.779 - 731.279] what it's not capable of
+
+[729.0 - 732.899] it also has to be capable of changing
+
+[731.279 - 734.9399999999999] itself so this is where the the
+
+[732.899 - 736.56] polymorphic thing comes in if it
+
+[734.94 - 738.839] understands that it has a limitation
+
+[736.56 - 740.64] such as like well I don't have access to
+
+[738.839 - 741.72] that API I need to get access to that
+
+[740.64 - 743.6999999999999] API
+
+[741.72 - 745.44] um how do I get access to that do I send
+
+[743.7 - 747.4200000000001] a ticket to the help desk and they'll
+
+[745.44 - 749.5790000000001] give me permission or is it something
+
+[747.42 - 751.4399999999999] that I can solve on my own that sort of
+
+[749.579 - 754.019] thing so you need a very comprehensive
+
+[751.44 - 756.48] agent model in order for the machine to
+
+[754.019 - 759.54] be able to change itself
+
+[756.48 - 761.5790000000001] um in in alignment with pursuing its
+
+[759.54 - 762.86] Mission and so you're probably got some
+
+[761.579 - 765.12] alarm Bells
+
+[762.86 - 766.74] pinging because you're like Dave you're
+
+[765.12 - 769.44] basically designing Skynet which is
+
+[766.74 - 771.9590000000001] exactly why the aspirational layer is at
+
+[769.44 - 774.0600000000001] the very top those those constraints
+
+[771.959 - 776.6999999999999] those boundaries the missions the values
+
+[774.06 - 778.8] the purpose this is around this is what
+
+[776.7 - 782.279] it what you know sets the tone The
+
+[778.8 - 784.56] Guiding North Star of the device so that
+
+[782.279 - 786.06] it never fully goes off the rails but
+
+[784.56 - 788.2199999999999] you need something that is constantly
+
+[786.06 - 789.5999999999999] watching you know it's it's the ideal
+
+[788.22 - 790.98] self and we'll dive into each of these
+
+[789.6 - 793.139] layers in just a minute but I wanted to
+
+[790.98 - 795.66] give you the whole framework at a high
+
+[793.139 - 798.3] level overview So Below the agent model
+
+[795.66 - 799.98] is the executive function so this is
+
+[798.3 - 802.1999999999999] primarily concerned with planning or
+
+[799.98 - 803.82] making plans so that means like
+
+[802.2 - 805.26] forecasting like okay what's going to go
+
+[803.82 - 807.48] wrong how do I think through this
+
+[805.26 - 809.279] directives oh and you know the The
+
+[807.48 - 810.66] Prompt engineering is already there
+
+[809.279 - 812.7] let's think through this step by step
+
+[810.66 - 815.1] right take that out to the nth degree
+
+[812.7 - 817.44] that's the executive function layer this
+
+[815.1 - 819.72] is also concerned with resources
+
+[817.44 - 821.82] so if you make a plan you have to know
+
+[819.72 - 823.9200000000001] what resources are available to you and
+
+[821.82 - 825.779] these are external resources right the
+
+[823.92 - 827.8199999999999] agent model in terms of capabilities
+
+[825.779 - 830.519] that is internal resources this is what
+
+[827.82 - 832.6800000000001] I am capable of in the world but then
+
+[830.519 - 835.44] executive function for planning is about
+
+[832.68 - 837.12] external resources how much compute do I
+
+[835.44 - 838.0790000000001] need what kind of developers need to
+
+[837.12 - 839.7] help me
+
+[838.079 - 841.26] um what kind of access do I need what
+
+[839.7 - 843.6] kind of data do I need from the outside
+
+[841.26 - 845.16] world and so then once you get a plan
+
+[843.6 - 847.5] together you get the blueprint you get
+
+[845.16 - 849.0] the the burn down chart or however you
+
+[847.5 - 851.88] want to organize it your kanban board
+
+[849.0 - 853.38] your jira board right because that's
+
+[851.88 - 855.3] basically what you're interacting with
+
+[853.38 - 857.1] here at the executive function layer
+
+[855.3 - 859.74] below that is cognitive control
+
+[857.1 - 863.639] cognitive control is saying okay here's
+
+[859.74 - 866.4590000000001] the big plan now what so this is about a
+
+[863.639 - 868.5] task selection and task switching so
+
+[866.459 - 871.279] that means choosing the correct order of
+
+[868.5 - 874.139] operations and then but more importantly
+
+[871.279 - 875.82] choosing when to switch tasks because if
+
+[874.139 - 877.92] something isn't working or you or you
+
+[875.82 - 879.6] started a task and then it's not the
+
+[877.92 - 881.76] right order of operations or you realize
+
+[879.6 - 883.62] that you've come into a barrier you need
+
+[881.76 - 886.199] to back out of that task and choose a
+
+[883.62 - 888.0600000000001] different one and so that is driven by
+
+[886.199 - 889.8] frustration signals and cognitive
+
+[888.06 - 892.4399999999999] damping which we'll get into in just a
+
+[889.8 - 894.66] moment and then finally layer six is
+
+[892.44 - 897.0] Task prosecution which is doing one task
+
+[894.66 - 900.3] at a time but more importantly detecting
+
+[897.0 - 902.279] when that task is is truly successful or
+
+[900.3 - 903.899] has failed and then reporting that
+
+[902.279 - 906.3] information back up to the cognitive
+
+[903.899 - 908.88] control layer which will then adjust the
+
+[906.3 - 910.5] frustration and damping signals okay so
+
+[908.88 - 913.079] let's get into these layers a little bit
+
+[910.5 - 914.94] deeper number one the aspirational layer
+
+[913.079 - 917.04] it's all about Mission I'll just read
+
+[914.94 - 918.7790000000001] the description to you this is the
+
+[917.04 - 920.88] uppermost layer which is somewhat
+
+[918.779 - 923.459] abstracted and detached this is the
+
+[920.88 - 925.019] ideal cell for superego version of the
+
+[923.459 - 927.54] agent which keeps track of the highest
+
+[925.019 - 929.76] values virtues principles vision and
+
+[927.54 - 931.98] mission of the agent in other words this
+
+[929.76 - 934.8] sets the tone for all other layers below
+
+[931.98 - 936.3000000000001] it in other words sorry I meant that I
+
+[934.8 - 937.9799999999999] didn't use that twice this serves as the
+
+[936.3 - 939.899] moral compass and The Guiding North Star
+
+[937.98 - 942.36] for the autonomous cognitive entity for
+
+[939.899 - 944.339] the ace it provides the raise and Detra
+
+[942.36 - 946.6800000000001] and I'm no I didn't say that right but
+
+[944.339 - 948.1800000000001] the reason for being it is this layer
+
+[946.68 - 950.76] also serves as the ultimate orbital
+
+[948.18 - 953.9399999999999] Arbiter for all moral dilemmas
+
+[950.76 - 955.92] that that thing faces and so what I mean
+
+[953.94 - 958.019] by that is here's some examples of
+
+[955.92 - 959.0999999999999] submissions that you might give so for
+
+[958.019 - 961.62] lawyers
+
+[959.1 - 964.5] um this is this is set by uh the ethical
+
+[961.62 - 966.72] standards and and uh regulations and
+
+[964.5 - 968.699] whatever uh but the the mission of a
+
+[966.72 - 970.9200000000001] lawyer is to zealously advocate for
+
+[968.699 - 973.68] their client that is the highest mission
+
+[970.92 - 975.06] of a lawyer for doctors achieve the best
+
+[973.68 - 977.2199999999999] possible Health outcome for their
+
+[975.06 - 979.7399999999999] patient so these are these are examples
+
+[977.22 - 981.839] of aspirational missions that
+
+[979.74 - 984.24] um that that Central Mission informs
+
+[981.839 - 986.2790000000001] every decision that they make including
+
+[984.24 - 989.4590000000001] all moral decisions all ethical
+
+[986.279 - 991.079] decisions uh it it also speaks to how
+
+[989.459 - 993.54] they allocate their time energy and
+
+[991.079 - 996.12] resources and so by having a centrally
+
+[993.54 - 998.399] organizing mission that mission-oriented
+
+[996.12 - 1000.92] programming you embed that at the
+
+[998.399 - 1003.38] highest level or the the the heart the
+
+[1000.92 - 1005.7199999999999] core of your autonomous cognitive entity
+
+[1003.38 - 1007.9399999999999] and it will pursue that mission
+
+[1005.72 - 1010.94] uh and then any decisions that it makes
+
+[1007.94 - 1014.36] will be uh with respect to and in
+
+[1010.94 - 1016.399] pursuit of in honor of that mission and
+
+[1014.36 - 1019.279] that's why defining missions is really
+
+[1016.399 - 1022.04] super critical just below that is global
+
+[1019.279 - 1024.98] strategy which is all about context so
+
+[1022.04 - 1026.6599999999999] Global context World State and long-term
+
+[1024.98 - 1028.579] strategic thinking this has the greatest
+
+[1026.66 - 1031.76] time Horizon
+
+[1028.579 - 1033.799] um and the greatest physical uh scope as
+
+[1031.76 - 1037.699] well so for instance if you've got a
+
+[1033.799 - 1039.26] lawyer robot or a a doctor robot it
+
+[1037.699 - 1040.699] needs to not just be thinking about the
+
+[1039.26 - 1042.439] hospital that it works in or the law
+
+[1040.699 - 1044.8390000000002] firm that it works in it needs to be
+
+[1042.439 - 1047.48] thinking about the entire context of
+
+[1044.839 - 1049.1789999999999] okay what's going on with uh you know
+
+[1047.48 - 1051.919] medical research in the entire world
+
+[1049.179 - 1054.3200000000002] what is the status quo what is the news
+
+[1051.919 - 1056.48] what is happening in the marketplace
+
+[1054.32 - 1059.12] what is happening in our competitors
+
+[1056.48 - 1061.16] that sort of thing and so you think
+
+[1059.12 - 1064.1] about this as the CEO of your autonomous
+
+[1061.16 - 1066.3200000000002] cognitive entity it it maintains a very
+
+[1064.1 - 1068.84] high level perspective
+
+[1066.32 - 1070.6399999999999] um and it kind of has keeps it at arm's
+
+[1068.84 - 1072.62] length so again it's not going to get
+
+[1070.64 - 1074.66] lost in the weeds just like any CEO
+
+[1072.62 - 1077.36] should not be lost in the weeds they
+
+[1074.66 - 1080.3600000000001] need to be looking up and out not down
+
+[1077.36 - 1083.1789999999999] and in so this layer of your autonomous
+
+[1080.36 - 1084.86] cognitive entity is it is anchored to
+
+[1083.179 - 1086.6000000000001] the real world because remember the
+
+[1084.86 - 1088.6399999999999] aspirational layer is this is more
+
+[1086.6 - 1090.62] abstract and conceptual this is not
+
+[1088.64 - 1093.919] really anchored to the real world this
+
+[1090.62 - 1096.02] is anchored to principles values mission
+
+[1093.919 - 1097.8200000000002] that sort of stuff this is the first
+
+[1096.02 - 1099.3799999999999] layer the global strategy layer is the
+
+[1097.82 - 1101.299] first one that is anchored to the real
+
+[1099.38 - 1103.22] world but it has a Global Perspective
+
+[1101.299 - 1105.32] and it also has a long-term perspective
+
+[1103.22 - 1107.179] it's not thinking about today and
+
+[1105.32 - 1108.5] tomorrow it's thinking about a decade
+
+[1107.179 - 1110.6000000000001] from now it's thinking about a century
+
+[1108.5 - 1112.82] from now it's also looking at the entire
+
+[1110.6 - 1114.62] planet Earth and then if you know we
+
+[1112.82 - 1115.9399999999998] expand beyond Earth it'll be thinking
+
+[1114.62 - 1118.2199999999998] about the entire sphere of human
+
+[1115.94 - 1120.3200000000002] existence the entire universe the entire
+
+[1118.22 - 1123.32] Cosmos so you maintain that big
+
+[1120.32 - 1125.1789999999999] perspective in order to um you know
+
+[1123.32 - 1127.1] start the start the process of zooming
+
+[1125.179 - 1128.66] in and you'll notice that that each
+
+[1127.1 - 1131.299] subsequent layer Zooms in further and
+
+[1128.66 - 1133.76] further and further so we start super
+
+[1131.299 - 1136.7] high level super detached and then we
+
+[1133.76 - 1138.62] zoom in uh progressively with each layer
+
+[1136.7 - 1140.299] so this has to do with World State as
+
+[1138.62 - 1143.12] well all right I think you get the idea
+
+[1140.299 - 1145.16] so let's move on agent model agent model
+
+[1143.12 - 1147.6789999999999] is all about capabilities this is the
+
+[1145.16 - 1149.559] ego of the of the machine it this is
+
+[1147.679 - 1152.24] what it knows and believes about itself
+
+[1149.559 - 1154.6399999999999] now I know that this sounds a very
+
+[1152.24 - 1156.08] anthropomorphic but again you know we're
+
+[1154.64 - 1157.4] talking about cognitive entities here
+
+[1156.08 - 1159.4399999999998] we're talking about reasoning engines
+
+[1157.4 - 1161.7800000000002] this is the layer that confers
+
+[1159.44 - 1164.24] functional sentience this is the first
+
+[1161.78 - 1166.6399999999999] layer where your uh your software
+
+[1164.24 - 1168.559] architecture knows that it is a software
+
+[1166.64 - 1170.3600000000001] architecture and it knows how it's
+
+[1168.559 - 1172.1] configured it knows what it's capable of
+
+[1170.36 - 1174.02] it understands its operational
+
+[1172.1 - 1176.12] conditions how many servers are running
+
+[1174.02 - 1177.62] it uh if it's on one piece of Hardware
+
+[1176.12 - 1179.4189999999999] it needs to know the voltage and
+
+[1177.62 - 1181.1] temperature and all that other kind of
+
+[1179.419 - 1184.3400000000001] stuff so this is self-referential
+
+[1181.1 - 1186.02] information what is it like basically
+
+[1184.34 - 1188.84] the question is what am I capable of how
+
+[1186.02 - 1191.179] am I built what can I do what can't I do
+
+[1188.84 - 1193.58] what am I allowed to change about myself
+
+[1191.179 - 1195.44] what can I change about myself what
+
+[1193.58 - 1198.1399999999999] functions are autonomics so for instance
+
+[1195.44 - 1200.72] if you have a bunch of models that are
+
+[1198.14 - 1202.64] just learning on online all the time it
+
+[1200.72 - 1204.74] needs to understand that and so that it
+
+[1202.64 - 1206.539] could steer those models learning you
+
+[1204.74 - 1208.46] probably will use frozen models at first
+
+[1206.539 - 1209.72] because you don't want the thing you
+
+[1208.46 - 1211.7] know having a complex set of
+
+[1209.72 - 1213.08] interactions and learning stuff that you
+
+[1211.7 - 1215.78] weren't aware of
+
+[1213.08 - 1218.299] but in the long run these things will be
+
+[1215.78 - 1220.94] uh basically curating their own internal
+
+[1218.299 - 1223.58] architecture their own internal library
+
+[1220.94 - 1225.799] of models that sort of stuff but this is
+
+[1223.58 - 1227.1789999999999] fundamentally about capabilities what am
+
+[1225.799 - 1230.0] I capable of what do I need to be
+
+[1227.179 - 1233.0] capable of what am I not capable of and
+
+[1230.0 - 1236.179] this uh this level of zooming in is
+
+[1233.0 - 1239.059] saying okay given my my mission my
+
+[1236.179 - 1240.98] purpose and given the global context of
+
+[1239.059 - 1243.9189999999999] what's going on in the world what am I
+
+[1240.98 - 1245.66] capable of how can what like what is
+
+[1243.919 - 1248.0590000000002] within the realm of possibility for me
+
+[1245.66 - 1250.28] to pursue that mission and so by
+
+[1248.059 - 1253.3999999999999] couching all this within that agent
+
+[1250.28 - 1255.2] model it's like okay well you know my my
+
+[1253.4 - 1257.1200000000001] goal like the goal that I was given is
+
+[1255.2 - 1258.8600000000001] you know conquer the world but I'm
+
+[1257.12 - 1261.86] running on you know an Intel Pentium
+
+[1258.86 - 1263.7199999999998] three so my resources are limited so
+
+[1261.86 - 1266.6] maybe I need to get more more resources
+
+[1263.72 - 1268.7] and I'll have to beg beg borrow or steal
+
+[1266.6 - 1270.9189999999999] them or whatever obviously don't give
+
+[1268.7 - 1272.059] your agent uh the the goal of Conquering
+
+[1270.919 - 1274.76] the world we already tried that with
+
+[1272.059 - 1276.2] chaos GPT don't do it again let's let's
+
+[1274.76 - 1277.82] stick with something a little bit more
+
+[1276.2 - 1280.28] constructive
+
+[1277.82 - 1281.84] the next layer is executive function so
+
+[1280.28 - 1285.62] this is a this is primarily about
+
+[1281.84 - 1287.0] planning uh you know whether so once you
+
+[1285.62 - 1289.1589999999999] have once you have the mission you've
+
+[1287.0 - 1290.48] got the vision and you've got the global
+
+[1289.159 - 1293.3600000000001] context and then you know what you're
+
+[1290.48 - 1296.1200000000001] capable of with all of that in in mind
+
+[1293.36 - 1298.3999999999999] you're then able to say okay well you
+
+[1296.12 - 1300.4399999999998] know I've got access to you know so so
+
+[1298.4 - 1302.72] and so internal resources this is what's
+
+[1300.44 - 1304.46] going on in the world okay cool now
+
+[1302.72 - 1306.6200000000001] let's come up with a with a plan to
+
+[1304.46 - 1308.3600000000001] actually make it happen and so you can
+
+[1306.62 - 1310.58] think about this as a little miniature
+
+[1308.36 - 1313.1] internal project manager or or a
+
+[1310.58 - 1315.3799999999999] director right so it's you know CEO and
+
+[1313.1 - 1318.08] then you got like director or PM or
+
+[1315.38 - 1319.7600000000002] program owner or whatever right but it's
+
+[1318.08 - 1321.3799999999999] fundamentally about like okay let's
+
+[1319.76 - 1323.48] think through this whole thing end to
+
+[1321.38 - 1324.98] end let's come up with a plan to do this
+
+[1323.48 - 1326.72] and remember large language models are
+
+[1324.98 - 1328.52] great at it if you don't believe me go
+
+[1326.72 - 1330.5] to chat gbt right now and tell it a
+
+[1328.52 - 1332.179] problem give it give it everything that
+
+[1330.5 - 1333.919] I just in the upper layers and say come
+
+[1332.179 - 1334.94] up with a plan and you'll see that it
+
+[1333.919 - 1338.0] can do it
+
+[1334.94 - 1339.98] okay so once you uh what goes into the
+
+[1338.0 - 1341.6] plan though so you you have to think
+
+[1339.98 - 1343.64] into the future right okay so you
+
+[1341.6 - 1345.6789999999999] forecast like what are the choke points
+
+[1343.64 - 1347.6000000000001] what are the points of failure
+
+[1345.679 - 1349.64] um what's going to be happening uh what
+
+[1347.6 - 1350.84] resources do I need and so this is
+
+[1349.64 - 1352.88] really critical remember I was talking
+
+[1350.84 - 1354.799] about external resources what kind of
+
+[1352.88 - 1358.1000000000001] help am I going to need how many parts
+
+[1354.799 - 1359.6589999999999] materials money energy whatever data so
+
+[1358.1 - 1361.28] this is where this is the layer where
+
+[1359.659 - 1364.4] it's like okay let's let's scrape
+
+[1361.28 - 1366.98] together a specific project plan for
+
+[1364.4 - 1368.8400000000001] this exact project whatever it whatever
+
+[1366.98 - 1371.299] it's going to come up with in order to
+
+[1368.84 - 1373.28] pursue that given mission
+
+[1371.299 - 1374.9] below that is cognitive control so
+
+[1373.28 - 1377.4189999999999] cognitive control is fundamentally about
+
+[1374.9 - 1378.799] focus it says okay we've got the plan
+
+[1377.419 - 1379.8200000000002] we've got the mission I know what I'm
+
+[1378.799 - 1382.4] capable of
+
+[1379.82 - 1384.799] now what do I do what is the correct
+
+[1382.4 - 1387.5] order of operations here so this is Task
+
+[1384.799 - 1390.02] selection and task switching and so if
+
+[1387.5 - 1392.0] you've got really bad ADHD then your
+
+[1390.02 - 1395.12] brain will switch tasks on you uh
+
+[1392.0 - 1396.919] without you without your consent
+
+[1395.12 - 1398.8999999999999] um and so that is that is an executive
+
+[1396.919 - 1400.46] dysfunction that happens in humans and
+
+[1398.9 - 1402.2] as people have noticed executive
+
+[1400.46 - 1403.3400000000001] dysfunction is really common in these
+
+[1402.2 - 1405.2] language models because they'll just
+
+[1403.34 - 1407.6589999999999] they'll they'll uh they'll contact
+
+[1405.2 - 1409.52] switch without you telling it because
+
+[1407.659 - 1413.48] they're they don't they don't have it so
+
+[1409.52 - 1415.76] this layer is about giving it that that
+
+[1413.48 - 1418.52] cognitive control so that it doesn't
+
+[1415.76 - 1421.1589999999999] context switch or task switch unless and
+
+[1418.52 - 1424.22] until it's ready or it's supposed to so
+
+[1421.159 - 1426.8600000000001] this layer is uh most going to be most
+
+[1424.22 - 1429.26] familiar to people who are familiar with
+
+[1426.86 - 1431.059] a term called finite State machines so
+
+[1429.26 - 1433.7] basically a finite State machine says
+
+[1431.059 - 1435.98] you're doing one of any number of tasks
+
+[1433.7 - 1439.82] you're and and so this is really common
+
+[1435.98 - 1441.799] in robotics and NPCs and video games you
+
+[1439.82 - 1443.36] for an MPC you might be fighting you
+
+[1441.799 - 1445.22] might be running you might be hiding you
+
+[1443.36 - 1447.74] might be searching so there's a finite
+
+[1445.22 - 1449.78] number of states that you can be in or
+
+[1447.74 - 1451.7] there's a finite number of tasks you can
+
+[1449.78 - 1453.32] pick from from the plant the project
+
+[1451.7 - 1456.38] plan above
+
+[1453.32 - 1458.299] so what whatever state the machine is in
+
+[1456.38 - 1460.5200000000002] you have to switch between those States
+
+[1458.299 - 1462.799] and say okay right now I'm writing code
+
+[1460.52 - 1465.26] then I'm going to switch to testing code
+
+[1462.799 - 1466.8799999999999] then I'm going to switch to
+
+[1465.26 - 1469.52] um doing integration testing then I'm
+
+[1466.88 - 1471.2] going to switch to deployment right so
+
+[1469.52 - 1473.48] this is that is what cognitive control
+
+[1471.2 - 1476.3600000000001] is about it is about task switching task
+
+[1473.48 - 1479.059] selection and then it's driven in part
+
+[1476.36 - 1481.3999999999999] by so from above it's driven by the
+
+[1479.059 - 1483.6789999999999] project plan from below it's driven by
+
+[1481.4 - 1485.9] frustration and damping so frustration
+
+[1483.679 - 1487.5800000000002] is very simple frustration is simply
+
+[1485.9 - 1490.2800000000002] just keeping track of the rate of
+
+[1487.58 - 1492.32] failures versus the rate of successes if
+
+[1490.28 - 1494.36] the rate of failures is too high then
+
+[1492.32 - 1496.3999999999999] you've got the wrong plan and that means
+
+[1494.36 - 1498.1399999999999] you need to go up a layer and the and
+
+[1496.4 - 1500.3600000000001] the executive function layer says well
+
+[1498.14 - 1502.2800000000002] this plan isn't working let's make a new
+
+[1500.36 - 1504.32] plan right so that's where frustration
+
+[1502.28 - 1506.6] comes in because if if if everything
+
+[1504.32 - 1508.82] you're trying and 75 of it is failing
+
+[1506.6 - 1510.26] you're probably got the wrong plan so
+
+[1508.82 - 1512.36] you need to go up and and kind of
+
+[1510.26 - 1515.299] re-strategize and reallocate resources
+
+[1512.36 - 1517.6399999999999] and fee that information back in I cover
+
+[1515.299 - 1519.9189999999999] all this in my book um uh Symphony of
+
+[1517.64 - 1521.8400000000001] thought by the way where I I give plenty
+
+[1519.919 - 1524.659] of examples of how to achieve each of
+
+[1521.84 - 1528.4399999999998] these steps with prompt engineering
+
+[1524.659 - 1530.2] uh damping is so cognitive damping is
+
+[1528.44 - 1532.4] basically okay let's pump the brakes
+
+[1530.2 - 1534.8600000000001] let's try and prove ourselves wrong
+
+[1532.4 - 1536.299] right like okay let's let's think
+
+[1534.86 - 1538.6999999999998] through this let's do
+
+[1536.299 - 1540.9189999999999] um like what could go wrong here uh
+
+[1538.7 - 1543.26] let's let's think about uh failure
+
+[1540.919 - 1545.2990000000002] points let's think about is this is this
+
+[1543.26 - 1546.679] a step that we're gonna regret if it
+
+[1545.299 - 1549.02] goes wrong do we have a back out
+
+[1546.679 - 1551.3600000000001] strategy so cognitive damping is about
+
+[1549.02 - 1553.58] slowing down and thinking through things
+
+[1551.36 - 1555.9189999999999] a little bit more deliberately so that
+
+[1553.58 - 1558.98] you don't make any grievous mistakes in
+
+[1555.919 - 1561.44] the context of uh medical uh medical
+
+[1558.98 - 1563.6] robot it's like okay if I make this
+
+[1561.44 - 1566.179] incision there's no turning back right
+
+[1563.6 - 1568.6399999999999] and so cognitive damping says let's stop
+
+[1566.179 - 1570.919] let's check like let's dot all of our
+
+[1568.64 - 1572.3600000000001] eyes and cross all of our T's to make
+
+[1570.919 - 1574.279] sure that we're going to do this right
+
+[1572.36 - 1575.9599999999998] and make sure that we're ready to do
+
+[1574.279 - 1578.179] this so that's what cognitive damping is
+
+[1575.96 - 1579.08] and again this is all pretty easy to put
+
+[1578.179 - 1581.72] into
+
+[1579.08 - 1584.1789999999999] um prompt engineering uh so those two
+
+[1581.72 - 1586.52] things uh frustration and damping are
+
+[1584.179 - 1589.039] two of the big biggest tacket tactics
+
+[1586.52 - 1591.799] for maintaining focus on what you're
+
+[1589.039 - 1593.12] doing and why at any given moment and
+
+[1591.799 - 1595.7] then the very bottom layer is Task
+
+[1593.12 - 1599.0] prosecution so this is tasks this is the
+
+[1595.7 - 1601.64] low level Hands-On product task
+
+[1599.0 - 1604.159] so this could be the robotic command of
+
+[1601.64 - 1607.039] go from A to B it could be you know
+
+[1604.159 - 1609.74] right X number of code or send an API
+
+[1607.039 - 1611.48] call to to you know there and this is
+
+[1609.74 - 1613.46] something that happens all of these
+
+[1611.48 - 1615.74] things happen in your brain and it's
+
+[1613.46 - 1617.96] completely transparent right so imagine
+
+[1615.74 - 1618.919] you go to this happens to me all the
+
+[1617.96 - 1621.02] time
+
+[1618.919 - 1624.0200000000002] um I get home and I forget that I lock
+
+[1621.02 - 1625.7] the door so the task is open the door so
+
+[1624.02 - 1627.5] I go and reach for the door and it
+
+[1625.7 - 1629.779] doesn't turn oh right I locked it so
+
+[1627.5 - 1632.419] that's exactly what I mean by low level
+
+[1629.779 - 1634.159] tasks success or failure and so then
+
+[1632.419 - 1636.5590000000002] it's like okay my brain gets the signal
+
+[1634.159 - 1638.96] door didn't open right let's back up a
+
+[1636.559 - 1641.24] level so my cognitive control switches
+
+[1638.96 - 1644.6000000000001] from open the door to get the keys out
+
+[1641.24 - 1647.9] of my pocket and then try again so by by
+
+[1644.6 - 1651.559] focusing on this layer of of success or
+
+[1647.9 - 1653.299] failure of one task at a time then you
+
+[1651.559 - 1655.3999999999999] have that information available and you
+
+[1653.299 - 1657.74] pass it back up the stack
+
+[1655.4 - 1660.38] um in in the case of a robotic right
+
+[1657.74 - 1662.419] example it's like okay get from the
+
+[1660.38 - 1663.98] living room to the kitchen and then it
+
+[1662.419 - 1666.74] gets stuck because it's like oh well
+
+[1663.98 - 1668.059] there's a dog you know laying my dog
+
+[1666.74 - 1670.159] does this all the time lays right in the
+
+[1668.059 - 1672.02] middle of the path I can't so now now
+
+[1670.159 - 1674.24] I've got a new problem right
+
+[1672.02 - 1675.679] and so it's like okay well getting from
+
+[1674.24 - 1677.299] the living room to the kitchen failed
+
+[1675.679 - 1678.74] because there's a dog in the way so you
+
+[1677.299 - 1681.1399999999999] pass that back up to cognitive control
+
+[1678.74 - 1683.36] it says oh let's let's switch switch
+
+[1681.14 - 1684.919] states to now I need to ask the dog to
+
+[1683.36 - 1688.4599999999998] get out of the way or ask the human to
+
+[1684.919 - 1690.5] get the dog out of the way right okay so
+
+[1688.46 - 1692.0] I've heard a lot of people say like yeah
+
+[1690.5 - 1693.679] this is never happening this is many
+
+[1692.0 - 1695.72] years away and that's just not true
+
+[1693.679 - 1697.8200000000002] there are all kinds of people already
+
+[1695.72 - 1699.799] building different components but what
+
+[1697.82 - 1703.3999999999999] I'm here to do is say look put it all
+
+[1699.799 - 1705.679] together so Lang chain provides the last
+
+[1703.4 - 1707.419] two cognitive control and task
+
+[1705.679 - 1709.4] prosecution
+
+[1707.419 - 1711.679] uh Lang chain is fundamentally about
+
+[1709.4 - 1713.1200000000001] workflows one of the biggest limitations
+
+[1711.679 - 1715.039] about Lang chain is that it's linear
+
+[1713.12 - 1716.4799999999998] it's not cyclical
+
+[1715.039 - 1718.82] um that being said it's not that
+
+[1716.48 - 1720.74] difficult to couch it in in the middle
+
+[1718.82 - 1722.24] of an infinite Loop
+
+[1720.74 - 1724.039] um but then you also need to make sure
+
+[1722.24 - 1727.22] that you understand these paradigms of
+
+[1724.039 - 1729.62] you know pass versus fail and also when
+
+[1727.22 - 1731.9] to go up another layer in order to
+
+[1729.62 - 1736.279] change directions the ethos project
+
+[1731.9 - 1738.6200000000001] which was built by teams uh a team that
+
+[1736.279 - 1740.659] came together in my gato community
+
+[1738.62 - 1743.1789999999999] they got I think they got second place
+
+[1740.659 - 1745.7] in their hackathon ethos is an example
+
+[1743.179 - 1748.46] of that mission first it is the higher
+
+[1745.7 - 1751.279] order micro service that that provides
+
+[1748.46 - 1753.799] that alignment uh justification and it's
+
+[1751.279 - 1756.14] also a microservice so it's modular
+
+[1753.799 - 1759.1399999999999] some other examples baby AGI and Chaos
+
+[1756.14 - 1762.5590000000002] GPT were somewhat naive attempts at the
+
+[1759.14 - 1765.0200000000002] upper layers of of um of the of the
+
+[1762.559 - 1766.94] stack they didn't people were trying to
+
+[1765.02 - 1768.98] like integrate everything all at once
+
+[1766.94 - 1770.96] and didn't really have a clear Mission
+
+[1768.98 - 1772.84] and didn't have clear cognitive control
+
+[1770.96 - 1776.299] or planning or executive function
+
+[1772.84 - 1777.9189999999999] anyways all this is available in my
+
+[1776.299 - 1779.4189999999999] three primary books natural language
+
+[1777.919 - 1781.5800000000002] cognitive architecture Symphony of
+
+[1779.419 - 1782.8990000000001] thought and benevolent by Design one
+
+[1781.58 - 1785.1789999999999] thing to keep in mind like I said is
+
+[1782.899 - 1788.059] that this framework is newer
+
+[1785.179 - 1790.88] um so it you'll see bits and pieces of
+
+[1788.059 - 1792.6789999999999] it the progenitor thought in those books
+
+[1790.88 - 1794.419] you can also look at this framework that
+
+[1792.679 - 1797.96] I just came up with it's under my GitHub
+
+[1794.419 - 1800.779] Dave shop benevolent underscore AGI
+
+[1797.96 - 1803.24] and uh yeah so there you have it this is
+
+[1800.779 - 1806.0] the next generation of software
+
+[1803.24 - 1807.86] development so basically whenever
+
+[1806.0 - 1809.96] someone comes to me with a pitch
+
+[1807.86 - 1811.52] they're like I'm doing a startup unless
+
+[1809.96 - 1813.919] they have this level of sophistication
+
+[1811.52 - 1816.1399999999999] I'm I'm just gonna say like yeah like
+
+[1813.919 - 1818.6000000000001] you're off to a good start but you need
+
+[1816.14 - 1820.3990000000001] to be thinking in terms of cognitive
+
+[1818.6 - 1822.6789999999999] architecture you need to be thinking in
+
+[1820.399 - 1825.3799999999999] terms of layers of abstraction and
+
+[1822.679 - 1827.0590000000002] polymorphic applications anything less
+
+[1825.38 - 1827.8990000000001] than that is just low hanging fruit at
+
+[1827.059 - 1830.299] this point
+
+[1827.899 - 1832.6999999999998] and as we've seen numerous times over
+
+[1830.299 - 1835.6399999999999] the last six months the very next
+
+[1832.7 - 1836.96] iteration of chat GPT or a competitor is
+
+[1835.64 - 1839.6000000000001] pretty much going to destroy any
+
+[1836.96 - 1841.52] business model uh Claude with its 100
+
+[1839.6 - 1843.5] 000 tokens destroyed a whole bunch of
+
+[1841.52 - 1844.82] business models Chad gbt with the
+
+[1843.5 - 1846.2] plugins and the code interpreter
+
+[1844.82 - 1848.4189999999999] destroyed a whole bunch of business
+
+[1846.2 - 1851.1200000000001] models so unless you're thinking at this
+
+[1848.419 - 1853.7] level of sophistication your business
+
+[1851.12 - 1855.9189999999999] probably won't work and it's not just me
+
+[1853.7 - 1858.559] saying it Marissa mayor of um what was
+
+[1855.919 - 1859.8200000000002] it yahoo she said that generative AI is
+
+[1858.559 - 1862.52] going to tear through the tech industry
+
+[1859.82 - 1864.6789999999999] like a wildfire and that this Wildfire
+
+[1862.52 - 1867.1399999999999] is going to burn all the brush out and
+
+[1864.679 - 1868.5800000000002] the brush in this case is startups and
+
+[1867.14 - 1870.44] smaller companies
+
+[1868.58 - 1872.059] and that's gonna that's gonna be a clean
+
+[1870.44 - 1874.64] sweep and we're going to have a lot of
+
+[1872.059 - 1876.98] new fresh growth after this that new
+
+[1874.64 - 1879.14] fresh growth that she's talking about is
+
+[1876.98 - 1881.72] cognitive architecture and polymorphic
+
+[1879.14 - 1884.0] applications so thank you for watching
+
+[1881.72 - 1885.74] like I said I am available to consult on
+
+[1884.0 - 1887.96] any of this stuff reach out to me on
+
+[1885.74 - 1890.5] LinkedIn Link in the description cheers
+
+[1887.96 - 1890.5] have a good one

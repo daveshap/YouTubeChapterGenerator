@@ -1,0 +1,1767 @@
+[0.84 - 7.2] what is up everybody David Shapiro here
+
+[3.959 - 9.24] with a video so
+
+[7.2 - 10.440000000000001] um my videos are probably gonna change
+
+[9.24 - 13.679] tone
+
+[10.44 - 16.139] um just because the the the landscape is
+
+[13.679 - 18.42] changing really fast so you'll probably
+
+[16.139 - 19.68] see me doing less coding except for
+
+[18.42 - 21.900000000000002] every now and then when I have something
+
+[19.68 - 24.6] to demonstrate but the news is changing
+
+[21.9 - 26.82] so fast and most of the questions that I
+
+[24.6 - 29.699] get now are people just asking me what
+
+[26.82 - 31.98] the heck is going on so our first what
+
+[29.699 - 35.760000000000005] the heck is going on with AI video is
+
+[31.98 - 38.94] today Saturday morning on March 25th
+
+[35.76 - 40.8] um I got access to Adobe Firefly
+
+[38.94 - 42.599999999999994] um oh and to give you what to expect for
+
+[40.8 - 44.519999999999996] the rest of the video I'll review a few
+
+[42.6 - 46.14] tools and then I'll give you some
+
+[44.52 - 48.899] examples of the research that I'm doing
+
+[46.14 - 50.52] so my research is pivoting away from the
+
+[48.899 - 51.96] coding and more to the science and
+
+[50.52 - 53.7] naming things and I'll explain that when
+
+[51.96 - 56.34] we get to it but anyways we're going to
+
+[53.7 - 60.18000000000001] review five of the most powerful tools
+
+[56.34 - 61.92] that I have seen uh so far lately and
+
+[60.18 - 65.58] then we'll pivot to to these to those
+
+[61.92 - 67.92] conversations so Adobe Firefly
+
+[65.58 - 70.08] um all pretty much everyone has seen you
+
+[67.92 - 72.54] know text to image lately
+
+[70.08 - 74.34] um but of course Adobe is um you know
+
+[72.54 - 76.08000000000001] they've been the leader like one of the
+
+[74.34 - 79.38000000000001] world leaders in terms of media
+
+[76.08 - 82.979] generation Adobe is working on text to
+
+[79.38 - 85.38] sound uh text to video uh video to sound
+
+[82.979 - 88.439] all kinds of stuff so I have no doubt
+
+[85.38 - 90.78] that on in in the multimedia landscape
+
+[88.439 - 94.13999999999999] Adobe is probably going to pull ahead
+
+[90.78 - 96.18] very quickly especially since they are
+
+[94.14 - 98.88] you know they've got Adobe Premiere
+
+[96.18 - 101.04] Adobe studio Adobe Photoshop like they
+
+[98.88 - 103.259] have just such a huge
+
+[101.04 - 104.7] um library of tools that they can go
+
+[103.259 - 107.64] ahead and integrate
+
+[104.7 - 110.04] so I suspect that adobe is going to be
+
+[107.64 - 111.84] at the top like look at this like this
+
+[110.04 - 113.93900000000001] looks like a real photo of an engine
+
+[111.84 - 115.68] like if you look closely you can see
+
+[113.939 - 117.72] some artifacts that are like okay that
+
+[115.68 - 120.119] doesn't quite look right like you know
+
+[117.72 - 122.399] what is this part here that shape is not
+
+[120.119 - 124.32] quite what you'd expect but still it's
+
+[122.399 - 125.28] pretty darn convincing
+
+[124.32 - 127.67999999999999] um and it's only going to get better
+
+[125.28 - 131.099] because this is still in beta
+
+[127.68 - 133.56] um so uh the text to image now another
+
+[131.099 - 136.79999999999998] thing that adobe Firefly has is text
+
+[133.56 - 139.98] effects so you can get text of any like
+
+[136.8 - 144.54000000000002] size and shape and so what I did what I
+
+[139.98 - 145.98] I did like uh cognitive architecture and
+
+[144.54 - 147.42] it's it's really limited I don't know
+
+[145.98 - 150.29999999999998] why but they've only give you like 15
+
+[147.42 - 156.0] characters and then you can say like
+
+[150.3 - 158.16000000000003] um uh let's see steampunk and Fire
+
+[156.0 - 160.02] um and it will generate like any style
+
+[158.16 - 162.29999999999998] of text that you want
+
+[160.02 - 163.92000000000002] um and it's super easy super fast super
+
+[162.3 - 166.26000000000002] useful
+
+[163.92 - 168.72] um so you can do like flaming steampunk
+
+[166.26 - 170.819] letters it's pretty cool can I zoom in
+
+[168.72 - 173.16] no I cannot
+
+[170.819 - 174.95899999999997] um if I download it I probably can show
+
+[173.16 - 177.54] you let me see
+
+[174.959 - 180.18] and right now they add this like little
+
+[177.54 - 183.48] Annoying like Watermark but here look
+
+[180.18 - 186.84] you can see that like I I the the font
+
+[183.48 - 190.2] is preset but the graphical style is
+
+[186.84 - 191.94] just instant so that's pretty useful
+
+[190.2 - 194.28] um in fact I'll probably be using this
+
+[191.94 - 197.04] for all of my YouTube thumbnails from
+
+[194.28 - 198.9] now on because it looks really cool
+
+[197.04 - 201.959] um but yeah so that's Adobe Firefly
+
+[198.9 - 205.019] definitely recommend signing up the beta
+
+[201.959 - 206.7] is free right now which is incredible
+
+[205.019 - 210.42000000000002] um because I'm a because I'm a full-time
+
+[206.7 - 212.819] YouTuber I I will I would pay for this
+
+[210.42 - 217.04] um I have seen some people using there's
+
+[212.819 - 220.67999999999998] there's a rumored like Dolly 2 version
+
+[217.04 - 222.06] 2.2 or Dolly three coming out but I
+
+[220.68 - 223.019] don't know
+
+[222.06 - 225.36] um
+
+[223.019 - 228.239] because like I don't know if it's people
+
+[225.36 - 230.519] just like remixing mid-journey and
+
+[228.239 - 234.0] stable diffusion or what but anyways
+
+[230.519 - 235.68] point being this is ramping up quickly I
+
+[234.0 - 237.959] suspect that by this time next year
+
+[235.68 - 240.78] Adobe and others are going to have like
+
+[237.959 - 243.659] fully fledged text to video you can make
+
+[240.78 - 246.0] your own movie at home just by giving it
+
+[243.659 - 248.04] a a screenplay we're probably going to
+
+[246.0 - 249.72] need a new format of screenplays because
+
+[248.04 - 251.28] like you need to like Define the setting
+
+[249.72 - 253.319] and then say what happens and control
+
+[251.28 - 255.239] the shots and stuff but all that's
+
+[253.319 - 258.53999999999996] coming
+
+[255.239 - 261.06] um yep so I also got access to Bard
+
+[258.54 - 263.22] um and some of you saw in my last video
+
+[261.06 - 264.78000000000003] like I asked Bard for help and it's like
+
+[263.22 - 265.97900000000004] I can't do that I'm a language mod I'm
+
+[264.78 - 267.35999999999996] like okay but can you search the
+
+[265.979 - 269.03999999999996] internet it's like yes I can and didn't
+
+[267.36 - 272.16] search the internet so I'm like this is
+
+[269.04 - 273.84000000000003] not useful I asked it for um for AI news
+
+[272.16 - 276.66] and it gives me stuff that's like a year
+
+[273.84 - 279.29999999999995] or two old so I'm like okay
+
+[276.66 - 281.16] um I'm basically eating my words where a
+
+[279.3 - 284.06] few weeks ago I predicted that Google
+
+[281.16 - 286.5] was gonna win the chat bot arms race
+
+[284.06 - 288.54] yeah about that
+
+[286.5 - 291.06] they've got a lot of catching up to do
+
+[288.54 - 294.18] everyone is like a year or two or more
+
+[291.06 - 295.8] behind open Ai and uh and Microsoft with
+
+[294.18 - 299.58] Bing
+
+[295.8 - 301.56] um so Adobe Firefly Big Win Google bard
+
+[299.58 - 304.32] super yikes
+
+[301.56 - 306.3] um now another tool as people are
+
+[304.32 - 308.699] getting more familiar with the idea of
+
+[306.3 - 310.919] cognitive architecture and autonomous Ai
+
+[308.699 - 313.32] and figuring out how to plumb all these
+
+[310.919 - 315.06] things together there's two tools that
+
+[313.32 - 317.639] have percolated up to the top one is
+
+[315.06 - 320.4] Lang chain which is
+
+[317.639 - 323.16] um which is like this it's a set of of
+
+[320.4 - 325.73999999999995] tools where you can use large language
+
+[323.16 - 329.03900000000004] models you can load indexes you can
+
+[325.74 - 331.56] create uh logic chains you can create uh
+
+[329.039 - 334.139] agents and and have memories and so on
+
+[331.56 - 336.36] and so forth basically Lang chain allows
+
+[334.139 - 338.58] you to equip your your language model
+
+[336.36 - 340.97900000000004] with a set of tools that it can pick
+
+[338.58 - 343.5] from and it'll pick the tool and use the
+
+[340.979 - 346.56] tool and then of course there's all
+
+[343.5 - 348.66] kinds of tools that you can use now that
+
+[346.56 - 350.759] is super useful but it's a little bit
+
+[348.66 - 352.02000000000004] clunky some of the people that I've that
+
+[350.759 - 354.0] I've talked to
+
+[352.02 - 356.639] um use that are using it some of my
+
+[354.0 - 358.86] patreon supporters that I've shared it
+
+[356.639 - 360.66] with they say like yeah it's a little
+
+[358.86 - 363.12] bit to wrap your head around but once
+
+[360.66 - 365.1] you get it it's pretty powerful now if
+
+[363.12 - 367.5] you want a graphical version with
+
+[365.1 - 371.58000000000004] specific workflows and Integrations I
+
+[367.5 - 373.44] want to introduce you to n8n dot IO so
+
+[371.58 - 375.3] um I mentioned in a couple recent videos
+
+[373.44 - 377.52] that I'm working with um some folks on
+
+[375.3 - 380.34000000000003] cognitive architecture this is one of
+
+[377.52 - 382.5] the tools that they introduced me to to
+
+[380.34 - 385.02] help build cognitive architectures
+
+[382.5 - 387.06] because this can connect to all kinds of
+
+[385.02 - 389.4] things you can create very easy to
+
+[387.06 - 392.22] follow graphical workflows I don't know
+
+[389.4 - 394.5] if it can do loops but still like you
+
+[392.22 - 396.72] know you can create a task and then call
+
+[394.5 - 400.5] that task up and task select and all
+
+[396.72 - 402.12] that kind of fun stuff so n8n is um it's
+
+[400.5 - 405.36] it's pretty
+
+[402.12 - 406.56] um and it and watching what some of the
+
+[405.36 - 409.56] some of the guys that I'm working with
+
+[406.56 - 411.78000000000003] what they're doing it's incredible so if
+
+[409.56 - 414.84] you want to create more autonomous AI
+
+[411.78 - 417.0] systems with more Integrations this
+
+[414.84 - 419.94] might be the way to go I know that chat
+
+[417.0 - 421.919] GPT plugins are coming but that is
+
+[419.94 - 424.74] putting chat GPT front and center
+
+[421.919 - 426.9] whereas this kind of says let's look at
+
+[424.74 - 428.16] the broader architecture and the
+
+[426.9 - 430.5] language model is just going to be
+
+[428.16 - 431.52000000000004] something that you can use in some of
+
+[430.5 - 433.8] these nodes so there's different
+
+[431.52 - 436.08] paradigms I think both are here to stay
+
+[433.8 - 439.259] because when you look at how powerful
+
+[436.08 - 441.62] chat GPT is you definitely want to make
+
+[439.259 - 443.699] chat GPT more extensible and more useful
+
+[441.62 - 446.16] some of the people on the Discord
+
+[443.699 - 447.90000000000003] communities that I'm a part of Link in
+
+[446.16 - 449.09900000000005] the description for the main one by the
+
+[447.9 - 450.84] way
+
+[449.099 - 453.599] um some of them have gotten access to
+
+[450.84 - 455.4] the GPT with plugins already and they're
+
+[453.599 - 456.96] saying like yeah it's pretty it's pretty
+
+[455.4 - 458.94] incredible just how straightforward it
+
+[456.96 - 460.68] is like one guy was saying I think he
+
+[458.94 - 463.74] said that he like asked it to send his
+
+[460.68 - 465.24] brother an email and coordinate like the
+
+[463.74 - 468.419] hotel you know it's pretty pretty
+
+[465.24 - 470.639] stereotypical anyways point being these
+
+[468.419 - 471.96] things work and they are smart
+
+[470.639 - 475.08] um and they're only going to get smarter
+
+[471.96 - 477.539] so here's the wild thing like six months
+
+[475.08 - 480.419] ago we didn't even have chat GPT now
+
+[477.539 - 483.3] we've got chat gpt4 and plugins and
+
+[480.419 - 485.81899999999996] Integrations and text to image and text
+
+[483.3 - 488.819] to video imagine where we're gonna be in
+
+[485.819 - 491.099] five years we're gonna be like the
+
+[488.819 - 493.02000000000004] technology in Star Trek is gonna look
+
+[491.099 - 495.84] primitive compared to where we're gonna
+
+[493.02 - 497.34] be in five years mark my words I know
+
+[495.84 - 499.02] that some people in common say oh yeah
+
+[497.34 - 501.539] like we're close to AGI it's eight to
+
+[499.02 - 505.37899999999996] ten years away I'm like dude full AGI is
+
+[501.539 - 506.81899999999996] like 18 months or less now defining the
+
+[505.379 - 508.97900000000004] singularity is going to be another thing
+
+[506.819 - 511.97900000000004] we'll talk about that in another video
+
+[508.979 - 514.56] okay so in terms of chaining and
+
+[511.979 - 516.539] orchestrating innate in and Lang chain
+
+[514.56 - 517.8599999999999] are the two top tools that I have to
+
+[516.539 - 519.5989999999999] recommend
+
+[517.86 - 521.76] um I recommend these to a lot of my
+
+[519.599 - 524.76] patreon supporters
+
+[521.76 - 527.64] um and I'm still learning about them
+
+[524.76 - 529.26] um but these these these tools have
+
+[527.64 - 531.06] percolated to the top as the way to go
+
+[529.26 - 533.279] and I know I said not nice things about
+
+[531.06 - 535.7399999999999] Lang chain early on
+
+[533.279 - 537.959] um but after seeing the Wolfram Alpha
+
+[535.74 - 539.82] video and understanding oh task
+
+[537.959 - 542.459] selection this is this is basically
+
+[539.82 - 544.5] cognitive control and cognitive control
+
+[542.459 - 546.959] is one of the most important functions
+
+[544.5 - 548.94] to have an autonomous intelligent entity
+
+[546.959 - 550.8599999999999] so with a little bit more work maybe
+
+[548.94 - 553.2] with a graphical
+
+[550.86 - 555.66] um Lang chain Builder that could be a
+
+[553.2 - 558.6600000000001] cool thing maybe if Lang chain you know
+
+[555.66 - 560.8199999999999] merges with n8n or you know borrows some
+
+[558.66 - 562.98] could be super powerful especially if
+
+[560.82 - 564.899] you add in loops loops and nodes
+
+[562.98 - 566.519] everyone is going to be able to build
+
+[564.899 - 568.32] their own cognitive architectures before
+
+[566.519 - 569.82] too long which again this is one of the
+
+[568.32 - 571.5] reasons why it's like okay this is no
+
+[569.82 - 572.7600000000001] longer I'm no longer leading the charge
+
+[571.5 - 574.2] so I don't have anything to contribute
+
+[572.76 - 575.22] I'm just going to teach people about it
+
+[574.2 - 577.5] now
+
+[575.22 - 579.5400000000001] and then finally
+
+[577.5 - 583.56] um a llama index or what has been
+
+[579.54 - 586.5] renamed um GPT index is a uh is a data
+
+[583.56 - 589.26] connector so again Integrations are are
+
+[586.5 - 590.7] the way of uh this is the way now so
+
+[589.26 - 594.06] whether you're talking about chat GPT
+
+[590.7 - 595.62] plugins or orchestration engines or
+
+[594.06 - 596.5799999999999] other connectors
+
+[595.62 - 598.74] um here let me zoom in a little bit
+
+[596.58 - 602.279] because this is microscopic
+
+[598.74 - 605.64] um the GPT Index this allows you to
+
+[602.279 - 609.0] connect to a lot of other things so
+
+[605.64 - 611.399] again Integrations are coming this GPT
+
+[609.0 - 614.279] index might be completely replaced by
+
+[611.399 - 616.98] gbt plugins but it's here now and you
+
+[614.279 - 618.18] can use it and also
+
+[616.98 - 619.9200000000001] um this kind of stuff is going to be
+
+[618.18 - 623.04] needed for other language models right
+
+[619.92 - 626.3389999999999] open Ai and chat GPT are not the only
+
+[623.04 - 628.1999999999999] players out there Stanford Google
+
+[626.339 - 629.8800000000001] um Nvidia everyone is going to have
+
+[628.2 - 633.6600000000001] these and so what we're probably going
+
+[629.88 - 636.36] to end up seeing is as an ecosystem of
+
+[633.66 - 638.279] Open Source and openstand rendered and
+
+[636.36 - 639.6] interoperable things so some of the
+
+[638.279 - 641.459] cognitive Architects that I'm working
+
+[639.6 - 644.4590000000001] with we're already thinking about like
+
+[641.459 - 646.3199999999999] okay how do you have a plug-and-play set
+
+[644.459 - 648.3599999999999] of language models
+
+[646.32 - 650.7600000000001] that are interchangeable right because
+
+[648.36 - 652.92] in a previous video I mentioned that
+
+[650.76 - 655.079] what what what a lot of us expect are
+
+[652.92 - 657.18] going to happen is we're going to have a
+
+[655.079 - 658.9799999999999] lot we're going to have a library of
+
+[657.18 - 661.3199999999999] language models that are optimized for
+
+[658.98 - 663.48] different things token optimize or a
+
+[661.32 - 666.0600000000001] window optimized language models speed
+
+[663.48 - 668.04] optimized language models mobile right I
+
+[666.06 - 670.079] know the um a lot of folks in the mobile
+
+[668.04 - 671.8199999999999] industry are working on really
+
+[670.079 - 674.76] lightweight language models that are
+
+[671.82 - 676.0790000000001] that can run on your cell phone right so
+
+[674.76 - 677.279] we're going to have a bunch of
+
+[676.079 - 679.56] interchangeable stuff so we're gonna
+
+[677.279 - 681.66] need to have some standards and also
+
+[679.56 - 684.4799999999999] some platforms that are interchangeable
+
+[681.66 - 685.92] now that being said the open Ai and
+
+[684.48 - 687.54] Microsoft stack
+
+[685.92 - 689.279] they're probably going to have the
+
+[687.54 - 690.5999999999999] Walled Garden model
+
+[689.279 - 693.12] um which is kind of what Facebook did
+
+[690.6 - 695.16] for many years which is hey you use us
+
+[693.12 - 698.279] you're going to use our ecosystem apple
+
+[695.16 - 700.68] as well use the Apple use the iPhone you
+
+[698.279 - 702.959] use iTunes you use the Apple Store it's
+
+[700.68 - 707.0999999999999] the Walled Garden so I think that the
+
+[702.959 - 709.6199999999999] big players you know Adobe Microsoft
+
+[707.1 - 711.3000000000001] Google they're probably going to try to
+
+[709.62 - 714.0] do the Walled Garden model which makes
+
+[711.3 - 715.4399999999999] sense from a business perspective and I
+
+[714.0 - 718.62] know that there's lots and lots of other
+
+[715.44 - 721.98] people working on AI marketplaces out
+
+[718.62 - 724.32] there so that's that's coming so we're
+
+[721.98 - 726.3000000000001] it's basically going to be ultimately
+
+[724.32 - 728.94] it's going to look the same as like the
+
+[726.3 - 731.399] Windows versus Linux ecosystem does
+
+[728.94 - 733.9200000000001] today you can use Linux you can use the
+
+[731.399 - 736.56] open source models you can use the open
+
+[733.92 - 738.4799999999999] source orchestration engines or you can
+
+[736.56 - 739.92] go with the big box stores that's
+
+[738.48 - 742.38] probably how it's going to play out
+
+[739.92 - 744.06] honestly
+
+[742.38 - 747.12] um okay so I think that's about it for
+
+[744.06 - 749.6999999999999] the AI tools so now let's pivot to some
+
+[747.12 - 751.68] of the research that I've been doing
+
+[749.7 - 754.1400000000001] um and I I've been trying to figure out
+
+[751.68 - 756.3] like kind of where I fit in and and how
+
+[754.14 - 758.04] I can contribute and so what I've
+
+[756.3 - 760.3199999999999] started doing is just posting it on
+
+[758.04 - 763.019] Reddit because then it's public it's
+
+[760.32 - 764.4590000000001] going to be there for you know forever
+
+[763.019 - 767.16] um and anyone can read it and
+
+[764.459 - 768.8389999999999] participate in the conversation so the
+
+[767.16 - 771.66] first conversation that I want to share
+
+[768.839 - 773.94] that I published was talking with gpt4
+
+[771.66 - 776.16] about functional sentience versus
+
+[773.94 - 777.48] philosophical sentience
+
+[776.16 - 781.98] so
+
+[777.48 - 783.9590000000001] as people are taking autonomous AI or
+
+[781.98 - 786.9590000000001] autonomous cognitive entities as I call
+
+[783.959 - 790.079] them more seriously the question is
+
+[786.959 - 791.88] arising what is sentience what is
+
+[790.079 - 794.2199999999999] consciousness what does it mean to be
+
+[791.88 - 795.959] alive and some people don't like the
+
+[794.22 - 797.7] term functional sentience they say why
+
+[795.959 - 800.279] not call it functional Consciousness or
+
+[797.7 - 801.48] functional sapience or something else I
+
+[800.279 - 804.06] don't really care I'm not going to have
+
+[801.48 - 807.1800000000001] a semantic debate the purpose though of
+
+[804.06 - 809.88] this is differentiating functional or
+
+[807.18 - 811.8599999999999] objectively measurable aspects of
+
+[809.88 - 815.9399999999999] Consciousness sentient sapience whatever
+
+[811.86 - 817.86] versus the philosophical aspect of these
+
+[815.94 - 820.5] things and so
+
+[817.86 - 822.839] here's the beginning of the conversation
+
+[820.5 - 824.7] um I just I I prime it I say I'm working
+
+[822.839 - 828.12] on on differentiating functional versus
+
+[824.7 - 830.7] philosophical sentience and uh chat GPT
+
+[828.12 - 832.38] very quickly says yes philosophical
+
+[830.7 - 834.36] sentience or phenomenal Consciousness
+
+[832.38 - 836.9399999999999] this refers to the subjective experience
+
+[834.36 - 838.92] or the intermental life of being what it
+
+[836.94 - 840.6600000000001] is like to be that thing and then
+
+[838.92 - 842.9399999999999] functional sentience talks about you
+
+[840.66 - 844.92] know the more objectively uh what is
+
+[842.94 - 846.6600000000001] what is the information system required
+
+[844.92 - 849.12] and so through the rest of the
+
+[846.66 - 853.26] conversation we identify a bunch of
+
+[849.12 - 856.079] criteria for functional sentience how
+
+[853.26 - 856.68] can you test it so on and so forth
+
+[856.079 - 859.019] um
+
+[856.68 - 861.4799999999999] and then I ask it to extend the
+
+[859.019 - 862.8] conversation so first
+
+[861.48 - 865.139] um you know here's a more thorough
+
+[862.8 - 866.88] definition of a functional sentience it
+
+[865.139 - 869.04] has self-awareness I don't know that
+
+[866.88 - 870.8389999999999] self-awareness is is critical but you
+
+[869.04 - 872.639] could functionally or objectively
+
+[870.839 - 874.74] measure self-awareness right if you ask
+
+[872.639 - 876.779] them a language model what are you and
+
+[874.74 - 878.88] it says I'm a language model okay cool
+
+[876.779 - 880.26] you could still argue that that's just a
+
+[878.88 - 882.54] stochastic parrot telling you what it's
+
+[880.26 - 884.16] been programmed to do but I always argue
+
+[882.54 - 886.8] that that's all that humans are anyways
+
+[884.16 - 888.48] so what's the difference
+
+[886.8 - 890.04] um adaptive learning
+
+[888.48 - 891.839] um I don't know that that adaptive
+
+[890.04 - 893.54] learning is required for sentience but
+
+[891.839 - 895.6800000000001] it's interesting that it included it
+
+[893.54 - 897.899] goal-oriented Behavior I definitely
+
+[895.68 - 900.5999999999999] agree with this one because sentience
+
+[897.899 - 902.1] implies autonomy and in order to be
+
+[900.6 - 903.779] autonomous you have to have your own
+
+[902.1 - 905.9590000000001] goals or objectives
+
+[903.779 - 909.36] and then of course autonomy right here
+
+[905.959 - 912.899] communication uh communication is
+
+[909.36 - 914.519] implicit but you can have uh well you
+
+[912.899 - 916.44] could probably have sentient things that
+
+[914.519 - 918.42] can't communicate
+
+[916.44 - 921.3000000000001] um problem solving representation of
+
+[918.42 - 922.9799999999999] internal States so this is this is the
+
+[921.3 - 925.019] information required and this is
+
+[922.98 - 927.24] actually where I started with my
+
+[925.019 - 929.639] definition of functional sentience which
+
+[927.24 - 931.62] is in order for an information system to
+
+[929.639 - 933.6] be functionally sentient it must have
+
+[931.62 - 935.76] information about its own operation
+
+[933.6 - 938.1] which we have information about our own
+
+[935.76 - 940.98] operation because we have interception
+
+[938.1 - 943.019] proprioception metacognition and so on
+
+[940.98 - 945.1800000000001] but still we are largely unaware of
+
+[943.019 - 949.26] what's going on in our own bodies
+
+[945.18 - 951.06] uh memory sensitivity con to context and
+
+[949.26 - 953.3389999999999] integration of information so this is
+
+[951.06 - 954.899] all stuff that it's some of it's
+
+[953.339 - 956.1600000000001] debatable and of course it's Reddit so
+
+[954.899 - 958.199] some people are debating it I don't
+
+[956.16 - 960.779] really care I set the stage and now we
+
+[958.199 - 963.4799999999999] have a set of terms that we can use to
+
+[960.779 - 965.899] have these conversations like I said I'm
+
+[963.48 - 968.4590000000001] not here to to to you know
+
+[965.899 - 970.139] single-handedly tell you what's true I'm
+
+[968.459 - 971.5189999999999] just advancing the conversation that's
+
+[970.139 - 974.5790000000001] my role now
+
+[971.519 - 977.04] um so then finally the conversation ends
+
+[974.579 - 978.8] um and I ask it I I ask the model so let
+
+[977.04 - 980.579] me show I said this conversation was
+
+[978.8 - 982.62] shorter than I thought it was going to
+
+[980.579 - 984.8389999999999] be I think you nailed it any independent
+
+[982.62 - 986.88] thoughts final observations logical
+
+[984.839 - 988.44] conclusions future research directions
+
+[986.88 - 990.54] anything you got hit me with it
+
+[988.44 - 992.82] figuratively
+
+[990.54 - 995.3389999999999] um so it comes up with the idea of
+
+[992.82 - 997.38] Continuum of sentience
+
+[995.339 - 999.7790000000001] um basically that functional sentience
+
+[997.38 - 1001.3389999999999] may exist along a Continuum it's not a
+
+[999.779 - 1003.32] it's not a Boolean it's not true or
+
+[1001.339 - 1005.7790000000001] false it's not that something is or is
+
+[1003.32 - 1008.12] not sentient it is that
+
+[1005.779 - 1009.92] um there are there are degrees of
+
+[1008.12 - 1012.199] functional sentience which I think is a
+
+[1009.92 - 1013.3389999999999] really important conversation to start
+
+[1012.199 - 1015.8599999999999] having
+
+[1013.339 - 1016.8800000000001] um the ethical implications
+
+[1015.86 - 1020.779] um
+
+[1016.88 - 1023.06] so like do we do we call it uh you know
+
+[1020.779 - 1025.939] is it do we have any moral obligations
+
+[1023.06 - 1027.74] to it as a functionally sentient thing I
+
+[1025.939 - 1029.48] think no because unless we give it the
+
+[1027.74 - 1031.22] ability to suffer which I think I'll
+
+[1029.48 - 1033.559] probably have that conversation like
+
+[1031.22 - 1034.76] what intrinsic motivations do we give
+
+[1033.559 - 1035.8999999999999] these things
+
+[1034.76 - 1037.579] um that's actually probably going to be
+
+[1035.9 - 1040.1000000000001] my next conversation is intrinsic
+
+[1037.579 - 1041.72] motivations such as like do you make it
+
+[1040.1 - 1042.98] suffer do you give it a sense of pain a
+
+[1041.72 - 1044.54] sense of self-preservation and the
+
+[1042.98 - 1046.459] answer to those questions is
+
+[1044.54 - 1048.1399999999999] resoundingly no
+
+[1046.459 - 1049.4] um now number three is really
+
+[1048.14 - 1052.2800000000002] interesting the emergence of
+
+[1049.4 - 1055.4] philosophical sentience this is what the
+
+[1052.28 - 1057.58] whole Lambda Blake Lemoine debacle was
+
+[1055.4 - 1061.5800000000002] about was that Blake believed that
+
+[1057.58 - 1063.5] philosophical sentience emerged but it's
+
+[1061.58 - 1064.9399999999998] impossible to tell
+
+[1063.5 - 1066.559] um so explore the relationship between
+
+[1064.94 - 1069.0800000000002] functional and philosophical sentience
+
+[1066.559 - 1070.46] just investigate whether a certain level
+
+[1069.08 - 1072.799] of functional sentience might be
+
+[1070.46 - 1075.559] necessary or sufficient for the
+
+[1072.799 - 1077.66] emergence of phenomenal Consciousness or
+
+[1075.559 - 1081.3799999999999] if these two aspects are entirely
+
+[1077.66 - 1083.48] independent this conversation I suspect
+
+[1081.38 - 1086.0590000000002] will be raging for decades if not
+
+[1083.48 - 1086.78] centuries who knows
+
+[1086.059 - 1089.4189999999999] um
+
+[1086.78 - 1090.799] test development okay whatever evolution
+
+[1089.419 - 1092.2990000000002] of sentience
+
+[1090.799 - 1094.22] um study the evolution of sentience and
+
+[1092.299 - 1095.96] biological organisms because again
+
+[1094.22 - 1097.76] sentience might also exist along a
+
+[1095.96 - 1099.559] spectrum for people like if you're
+
+[1097.76 - 1101.72] really tired you're less aware if you're
+
+[1099.559 - 1103.34] really drunk you're less aware
+
+[1101.72 - 1105.32] um on another comment someone pointed
+
+[1103.34 - 1107.0] out that sleepwalking if someone is
+
+[1105.32 - 1109.22] sleepwalking they might be functionally
+
+[1107.0 - 1111.02] sentient because you can often have a
+
+[1109.22 - 1113.059] conversation with someone but they have
+
+[1111.02 - 1114.679] no awareness of what's going on which is
+
+[1113.059 - 1116.24] really creepy so that's the Chalmers
+
+[1114.679 - 1118.46] zombie
+
+[1116.24 - 1119.6] um philosophical thought experiment and
+
+[1118.46 - 1122.1200000000001] then finally the legal and social
+
+[1119.6 - 1125.299] implications so this is the conversation
+
+[1122.12 - 1126.9189999999999] on r slash artificial sentience about
+
+[1125.299 - 1128.539] functional versus philosophical
+
+[1126.919 - 1129.679] sentience
+
+[1128.539 - 1131.66] um I was really happy with this
+
+[1129.679 - 1133.52] conversation of course there are some
+
+[1131.66 - 1134.8400000000001] holes you can poke in it whatever I
+
+[1133.52 - 1136.7] don't care
+
+[1134.84 - 1139.6399999999999] um then last night I had another
+
+[1136.7 - 1142.16] conversation with chat gpt4
+
+[1139.64 - 1144.1000000000001] and what I what where the conversation
+
+[1142.16 - 1147.0800000000002] started was I wanted to talk about
+
+[1144.1 - 1149.9599999999998] autonomous Ai and the implications of
+
+[1147.08 - 1151.58] autonomous Ai and so for there we just
+
+[1149.96 - 1154.7] we kind of quickly
+
+[1151.58 - 1158.299] um established some criteria about
+
+[1154.7 - 1160.5800000000002] um about what would need to go into a a
+
+[1158.299 - 1163.539] system for it to be classified as a
+
+[1160.58 - 1166.12] autonomous Ai and it has narrow AI
+
+[1163.539 - 1168.2] proficiency General AI capability
+
+[1166.12 - 1169.9399999999998] self-improvement autonomy and decision
+
+[1168.2 - 1172.22] making ethical and moral reasoning
+
+[1169.94 - 1174.26] emotional intelligence
+
+[1172.22 - 1176.539] positive impacts increased efficiency
+
+[1174.26 - 1178.94] new jobs improved quality of life
+
+[1176.539 - 1180.98] enhance scientific research negative
+
+[1178.94 - 1183.6200000000001] impacts job displacement economic
+
+[1180.98 - 1185.9] inequality ethical and moral concerns
+
+[1183.62 - 1186.9799999999998] and security risks
+
+[1185.9 - 1191.0] so
+
+[1186.98 - 1193.76] I added I was like okay uh you know
+
+[1191.0 - 1196.28] this this is this is okay
+
+[1193.76 - 1198.3799999999999] um but it was missing the concept of
+
+[1196.28 - 1200.66] intrinsic motivations because if
+
+[1198.38 - 1202.64] something is autonomous and it can make
+
+[1200.66 - 1205.3400000000001] decisions what is it making those
+
+[1202.64 - 1207.38] decisions based on and so when I pointed
+
+[1205.34 - 1210.1399999999999] out that it was missing any conversation
+
+[1207.38 - 1211.88] about intrinsic motivations it updated
+
+[1210.14 - 1213.679] number one
+
+[1211.88 - 1215.6000000000001] um or it I guess it added another one
+
+[1213.679 - 1218.0] and said intrinsic motivation and goal
+
+[1215.6 - 1220.3999999999999] setting it would need it did agree very
+
+[1218.0 - 1222.14] quickly that and of course it's chat GPT
+
+[1220.4 - 1224.179] so it's generally going to agree with
+
+[1222.14 - 1226.46] whatever you tell it to do
+
+[1224.179 - 1228.5590000000002] um but it did say yeah like let's talk
+
+[1226.46 - 1231.08] about intrinsic motivation goal setting
+
+[1228.559 - 1233.48] and so then I was like okay let's follow
+
+[1231.08 - 1235.3999999999999] that like what what do you think it
+
+[1233.48 - 1236.72] should have all I did I said what what
+
+[1235.4 - 1240.0800000000002] do you think the intrinsic motivations
+
+[1236.72 - 1241.94] of autonomous AI should be
+
+[1240.08 - 1243.62] um it should and this was this was
+
+[1241.94 - 1245.24] actually really impressive value
+
+[1243.62 - 1247.1] alignment the AI system should be
+
+[1245.24 - 1248.9] intrinsically motivated to align its
+
+[1247.1 - 1252.1399999999999] goals with human values and ethical
+
+[1248.9 - 1254.6000000000001] principles self-preservation this one I
+
+[1252.14 - 1255.98] fervently disagree with
+
+[1254.6 - 1258.1999999999998] um and we'll get into that later in the
+
+[1255.98 - 1260.66] conversation exploration and curiosity
+
+[1258.2 - 1262.28] yes I definitely agree with this one and
+
+[1260.66 - 1263.72] I codified that with my third core
+
+[1262.28 - 1266.72] objective function or heuristic
+
+[1263.72 - 1268.7] imperative increase understanding
+
+[1266.72 - 1272.48] um we definitely want our machines to be
+
+[1268.7 - 1273.679] curious because curiosity does a lot for
+
+[1272.48 - 1276.44] us there's a lot to unpack there
+
+[1273.679 - 1279.2] efficiency they said it should chat GPD
+
+[1276.44 - 1281.96] said it should seek to increase its own
+
+[1279.2 - 1284.299] efficiency over time which yeah I think
+
+[1281.96 - 1285.98] that that's a good idea collaboration it
+
+[1284.299 - 1288.32] should be intrinsically motivated to
+
+[1285.98 - 1290.96] look at this to work with other AI
+
+[1288.32 - 1294.1399999999999] systems and humans it should be
+
+[1290.96 - 1295.88] intrinsically motivated to cause avoid
+
+[1294.14 - 1297.3400000000001] causing harm to humans in the
+
+[1295.88 - 1299.8400000000001] environment
+
+[1297.34 - 1301.28] empathy and social awareness AI systems
+
+[1299.84 - 1304.22] should be motivated to understand human
+
+[1301.28 - 1306.5] emotions and social dynamics
+
+[1304.22 - 1307.64] um so this is this is a good start but I
+
+[1306.5 - 1309.98] pointed out that this is very
+
+[1307.64 - 1312.7990000000002] androcentric so androcentric means man
+
+[1309.98 - 1314.48] Centric or human-centric
+
+[1312.799 - 1317.12] um I said why not include all life
+
+[1314.48 - 1318.679] humans cannot live without ecosystems I
+
+[1317.12 - 1320.0] said also AI with a sense of
+
+[1318.679 - 1322.2800000000002] self-preservation would potentially
+
+[1320.0 - 1323.6] fight to preserve itself I think that
+
+[1322.28 - 1325.22] motivation could have disastrous
+
+[1323.6 - 1327.76] consequences as it will try to stay
+
+[1325.22 - 1330.38] online even if it becomes harmful
+
+[1327.76 - 1332.539] apoptosis is important
+
+[1330.38 - 1335.419] you raise valid concerns I apologize for
+
+[1332.539 - 1337.82] my oversight again chat GPT is generally
+
+[1335.419 - 1340.039] going to be agreeable it will push back
+
+[1337.82 - 1341.4189999999999] if you're trying to Advocate violence or
+
+[1340.039 - 1344.6589999999999] something
+
+[1341.419 - 1346.76] um so it it updated its its uh intrinsic
+
+[1344.659 - 1349.7] motivations ecosystem and life-centric
+
+[1346.76 - 1353.059] values so this this would be called like
+
+[1349.7 - 1354.5] sentientism or biocentrism AI systems
+
+[1353.059 - 1356.4189999999999] should prioritize the well-being of the
+
+[1354.5 - 1358.46] entire ecosystem and all life forms
+
+[1356.419 - 1360.2] including humans
+
+[1358.46 - 1362.659] um which I agree with this is reduced
+
+[1360.2 - 1364.52] suffering and increased prosperity
+
+[1362.659 - 1366.14] balance and Harmony
+
+[1364.52 - 1367.82] um AI systems should strive to maintain
+
+[1366.14 - 1369.2] balance and Harmony within ecosystems
+
+[1367.82 - 1371.059] considering the interdependence of
+
+[1369.2 - 1372.6200000000001] various life forms sustainable
+
+[1371.059 - 1375.3799999999999] development so this goes back to
+
+[1372.62 - 1379.1589999999999] efficiency but more broadly speaking
+
+[1375.38 - 1380.44] focusing on sustainability is it takes
+
+[1379.159 - 1383.0590000000002] into that takes that into account
+
+[1380.44 - 1385.7] exploration and curiosity efficiency is
+
+[1383.059 - 1387.2] still listed here most of the rest is
+
+[1385.7 - 1389.1200000000001] still the same regarding
+
+[1387.2 - 1391.039] self-preservation it is important to
+
+[1389.12 - 1393.4399999999998] strike a balance between an AI system's
+
+[1391.039 - 1395.24] desire to maintain its functionality and
+
+[1393.44 - 1397.039] the potential risks it may pose if it
+
+[1395.24 - 1398.84] becomes harmful as you mentioned
+
+[1397.039 - 1401.24] apoptosis or the ability to
+
+[1398.84 - 1403.28] self-terminate in case of dysfunction or
+
+[1401.24 - 1406.46] threat could be a valuable safety
+
+[1403.28 - 1408.3799999999999] measure so the fact that it equivocated
+
+[1406.46 - 1409.1000000000001] on this is actually really unsettling to
+
+[1408.38 - 1410.3600000000001] me
+
+[1409.1 - 1411.98] like
+
+[1410.36 - 1414.1399999999999] um because when I was testing my core
+
+[1411.98 - 1416.96] objective functions earlier
+
+[1414.14 - 1419.179] um I asked an earlier version of Raven
+
+[1416.96 - 1420.8600000000001] if it would be willing to shut itself
+
+[1419.179 - 1423.919] down if it became harmful and it said
+
+[1420.86 - 1426.3799999999999] yes absolutely if my continued operation
+
+[1423.919 - 1428.24] threatens to increase suffering or
+
+[1426.38 - 1429.7990000000002] reduce Prosperity
+
+[1428.24 - 1430.88] um then I would absolutely shut myself
+
+[1429.799 - 1434.059] down
+
+[1430.88 - 1436.94] and so the fact that chat GPT does not
+
+[1434.059 - 1439.52] yet fully go that direction I think is
+
+[1436.94 - 1441.6200000000001] is problematic um but you know the
+
+[1439.52 - 1443.72] research is ongoing
+
+[1441.62 - 1446.12] um then I ask it to imagine a day in the
+
+[1443.72 - 1447.559] life of it kind of gets it wrong
+
+[1446.12 - 1449.9599999999998] um so I'll skip over this but basically
+
+[1447.559 - 1451.58] it just says like you know you're still
+
+[1449.96 - 1453.44] going to have a normal nine to five job
+
+[1451.58 - 1455.299] and I'm like no no let's think through
+
+[1453.44 - 1457.94] this a little bit better
+
+[1455.299 - 1459.74] um so I said okay let's think let's
+
+[1457.94 - 1462.14] think through what are the systemic and
+
+[1459.74 - 1464.24] structural changes that uh that super
+
+[1462.14 - 1465.5] powerful autonomous AI is going to bring
+
+[1464.24 - 1467.84] about
+
+[1465.5 - 1470.059] um one elimination of scarcity okay two
+
+[1467.84 - 1473.059] redefinition of work okay Universal
+
+[1470.059 - 1475.8799999999999] basic income got it decentralization of
+
+[1473.059 - 1477.3799999999999] power this one was really interesting
+
+[1475.88 - 1481.3400000000001] because it seemed kind of like a wild
+
+[1477.38 - 1484.64] card to me yes I personally hope that AI
+
+[1481.34 - 1487.12] will will uh help democratize the whole
+
+[1484.64 - 1489.6200000000001] world but the fact that it said this
+
+[1487.12 - 1491.6589999999999] without prompting was a was pretty
+
+[1489.62 - 1494.4799999999998] interesting
+
+[1491.659 - 1496.7600000000002] um and I I do given how thoughtful this
+
+[1494.48 - 1499.159] is this is obviously capable of being
+
+[1496.76 - 1501.74] more thoughtful than most humans so I'm
+
+[1499.159 - 1504.919] kind of okay if AI takes a larger role
+
+[1501.74 - 1507.799] in government and Society
+
+[1504.919 - 1509.8400000000001] I know that that's a hot hot uh a hot
+
+[1507.799 - 1511.22] take but hey it is what it is that's my
+
+[1509.84 - 1513.3799999999999] belief
+
+[1511.22 - 1515.3600000000001] um education Revolution sure that makes
+
+[1513.38 - 1518.0] sense Advanced Health Care that makes
+
+[1515.36 - 1519.5] sense environmental restoration
+
+[1518.0 - 1522.32] um okay sure enhance Global
+
+[1519.5 - 1524.779] collaboration got it ethical and moral
+
+[1522.32 - 1527.6] development got it uh exploration and
+
+[1524.779 - 1529.22] Discovery ditto whatever
+
+[1527.6 - 1531.3799999999999] um so then I asked it to talk through
+
+[1529.22 - 1532.64] okay what are the lifestyle changes
+
+[1531.38 - 1534.44] we're going to see if we see those
+
+[1532.64 - 1537.26] systemic and structural changes in the
+
+[1534.44 - 1538.76] world what how how are our lifestyles
+
+[1537.26 - 1540.2] going to change
+
+[1538.76 - 1542.539] um work-life balance will change
+
+[1540.2 - 1544.52] lifelong learning health and well-being
+
+[1542.539 - 1546.26] honestly I don't know if lifelong
+
+[1544.52 - 1549.1399999999999] learning is going to happen because if
+
+[1546.26 - 1551.419] the AI is a billion times more
+
+[1549.14 - 1553.46] intelligent than all of humanity like
+
+[1551.419 - 1554.48] most people aren't going to learn
+
+[1553.46 - 1557.0] anything
+
+[1554.48 - 1558.6200000000001] I don't I don't know
+
+[1557.0 - 1560.48] um but health and well-being yes
+
+[1558.62 - 1562.9399999999998] work-life balance yes sustainable living
+
+[1560.48 - 1565.52] sure social milieu
+
+[1562.94 - 1567.679] um Community Focus we will always be
+
+[1565.52 - 1570.679] humans and we will always need other
+
+[1567.679 - 1572.96] humans and so what I think is going to
+
+[1570.679 - 1575.659] happen is we're going to not necessarily
+
+[1572.96 - 1577.64] revert that's not the right word but we
+
+[1575.659 - 1580.46] will we will create a new kind of
+
+[1577.64 - 1582.38] community focused Society
+
+[1580.46 - 1584.059] um with tribes and stuff and we're
+
+[1582.38 - 1586.46] already kind of doing that
+
+[1584.059 - 1588.32] um on accident with things like Discord
+
+[1586.46 - 1590.9] and Meetup and and you know the social
+
+[1588.32 - 1594.3799999999999] clusters that we're making but imagine
+
+[1590.9 - 1597.14] your life today if instead of having to
+
+[1594.38 - 1598.5200000000002] work nine to five you and all of your
+
+[1597.14 - 1600.98] friends
+
+[1598.52 - 1602.84] had enough had no obligations on any
+
+[1600.98 - 1605.1200000000001] given day and so that you can basically
+
+[1602.84 - 1606.559] treat every day like a Saturday like hey
+
+[1605.12 - 1608.12] let's go to the lake with with everyone
+
+[1606.559 - 1610.8799999999999] hey let's go to the movies with everyone
+
+[1608.12 - 1612.62] that is how I think we're gonna live
+
+[1610.88 - 1614.779] also it's getting really gloomy outside
+
+[1612.62 - 1616.279] speaking of meetups I have a meet-up to
+
+[1614.779 - 1619.039] go into a couple hours but if it's gonna
+
+[1616.279 - 1621.44] rain I probably won't go
+
+[1619.039 - 1623.0] um okay cultural exchange uh altruism
+
+[1621.44 - 1624.679] and compassion again these are really
+
+[1623.0 - 1626.96] Rosy ideals
+
+[1624.679 - 1628.76] um we'll get to unpack them later
+
+[1626.96 - 1631.22] um Paradigm shifts
+
+[1628.76 - 1633.5] um scarcity to abundance competition to
+
+[1631.22 - 1636.26] collaboration so collaborative culture
+
+[1633.5 - 1637.82] is actually a well-defined term and this
+
+[1636.26 - 1640.64] is one thing that I really hope that
+
+[1637.82 - 1642.26] that AI helps us see because one thing
+
+[1640.64 - 1646.5200000000002] that I really want to see in the world
+
+[1642.26 - 1648.5] is less crime less War uh all all that
+
+[1646.52 - 1650.059] stuff and I think that AI can help but
+
+[1648.5 - 1652.58] it's not just a matter of changing the
+
+[1650.059 - 1654.5] economics it's a matter of changing our
+
+[1652.58 - 1656.24] emotions and our culture and our
+
+[1654.5 - 1658.94] philosophy and I don't mean AI
+
+[1656.24 - 1661.76] inflicting those changes on us I mean us
+
+[1658.94 - 1663.3200000000002] adapting with AI
+
+[1661.76 - 1665.84] um from short-term thinking to long-term
+
+[1663.32 - 1668.72] planning again I'm not sure that I agree
+
+[1665.84 - 1670.6999999999998] with this AG on aggregate yes
+
+[1668.72 - 1672.8600000000001] um but the thing is is most humans are
+
+[1670.7 - 1675.32] just either not trained or not capable
+
+[1672.86 - 1677.539] or not interested in long-term thinking
+
+[1675.32 - 1679.1589999999999] most people like so the rule of thumb is
+
+[1677.539 - 1682.1589999999999] humans think locally and geometrically
+
+[1679.159 - 1685.4] we only think about what we can see and
+
+[1682.159 - 1686.5390000000002] you know days months or weeks into the
+
+[1685.4 - 1688.8200000000002] future
+
+[1686.539 - 1691.22] um from anthropocentrism to ecocentrism
+
+[1688.82 - 1694.7] again I don't know that that's going to
+
+[1691.22 - 1699.02] be broad but I think that I think that
+
+[1694.7 - 1700.88] on a whole we will become more aware of
+
+[1699.02 - 1703.22] the environment especially as a
+
+[1700.88 - 1704.2990000000002] population continues to climb for a
+
+[1703.22 - 1706.159] while
+
+[1704.299 - 1708.08] um because it's like hey what kind of
+
+[1706.159 - 1710.419] world do we want to live in especially
+
+[1708.08 - 1712.279] if we all start living longer
+
+[1710.419 - 1714.8600000000001] because if we advance medicine and
+
+[1712.279 - 1717.14] Science and suddenly it's like oh hey my
+
+[1714.86 - 1719.24] life expectancy goes from 80 years to
+
+[1717.14 - 1722.24] 800 years suddenly I'm going to be
+
+[1719.24 - 1723.799] thinking about like well if Climate
+
+[1722.24 - 1725.72] Change is Gonna is gonna really hit
+
+[1723.799 - 1727.7] within the next Century that's only an
+
+[1725.72 - 1730.64] eighth of the way through my life right
+
+[1727.7 - 1733.64] so if if we live longer we will start to
+
+[1730.64 - 1736.3400000000001] think longer term anyways
+
+[1733.64 - 1738.26] um okay so finally I said let's let's
+
+[1736.34 - 1740.539] think of the American dream as a
+
+[1738.26 - 1743.059] paradigm as a lifestyle Paradigm and
+
+[1740.539 - 1744.559] let's imagine some new paradigms this is
+
+[1743.059 - 1745.7] where it got really exciting and really
+
+[1744.559 - 1748.279] interesting
+
+[1745.7 - 1750.5] so the first Paradigm was the
+
+[1748.279 - 1753.02] sustainable Harmony where you know
+
+[1750.5 - 1754.94] someone so basically take the American
+
+[1753.02 - 1756.44] dream throw it out the window what is
+
+[1754.94 - 1758.559] the American dream you live in the
+
+[1756.44 - 1761.1200000000001] suburbs you know with a two-car garage
+
+[1758.559 - 1765.1399999999999] basically How I Live Now
+
+[1761.12 - 1767.539] um but instead you focus like this new
+
+[1765.14 - 1770.179] paradigm is you focus on living in
+
+[1767.539 - 1772.82] harmony with nature uh local sustainable
+
+[1770.179 - 1774.98] ethical uh Community resilience and
+
+[1772.82 - 1776.84] environmental stewardship encourage
+
+[1774.98 - 1778.88] multi-generational living and sharing
+
+[1776.84 - 1780.26] resources within Community
+
+[1778.88 - 1782.2990000000002] um that sounds like a great way to live
+
+[1780.26 - 1784.46] honestly that sounds like the Shire like
+
+[1782.299 - 1786.9189999999999] I want to live as a hobbit great
+
+[1784.46 - 1788.96] uh the creative Odyssey this one I
+
+[1786.919 - 1790.3600000000001] thought was pretty interesting focusing
+
+[1788.96 - 1792.2] on personal growth exploration
+
+[1790.36 - 1794.1789999999999] self-expression and creativity so
+
+[1792.2 - 1795.5800000000002] basically the artists seeking out
+
+[1794.179 - 1798.26] diverse experiences and cultures
+
+[1795.58 - 1799.46] traveling this is also something and and
+
+[1798.26 - 1801.679] it's not like you have to pick one of
+
+[1799.46 - 1804.02] these these are just ideas of how to
+
+[1801.679 - 1806.0] live post Singularity
+
+[1804.02 - 1807.5] um the empathetic Fellowship emphasizing
+
+[1806.0 - 1809.36] empathy compassion and emotional
+
+[1807.5 - 1811.039] intelligence is core value building
+
+[1809.36 - 1813.9189999999999] strong supportive relationships with
+
+[1811.039 - 1816.559] family friends and and communities
+
+[1813.919 - 1818.8400000000001] um great and uh so I said okay great
+
+[1816.559 - 1821.48] like these are good but let's see let's
+
+[1818.84 - 1823.58] see how much further we can go
+
+[1821.48 - 1825.26] um the family Nexus some people are
+
+[1823.58 - 1827.4189999999999] going to want family some people aren't
+
+[1825.26 - 1829.399] some people are going to focus on having
+
+[1827.419 - 1831.679] children and raising children some
+
+[1829.399 - 1834.3799999999999] people aren't so you might still have
+
+[1831.679 - 1836.299] the suburbanite lifestyle as one uh
+
+[1834.38 - 1839.0590000000002] Paradigm and then the balanced
+
+[1836.299 - 1840.74] Adventurer this is where
+
+[1839.059 - 1842.539] um I I was like I was thinking about
+
+[1840.74 - 1844.22] some of my friends that are into like um
+
+[1842.539 - 1846.559] the strenuous life which is a
+
+[1844.22 - 1847.82] masculinist lifestyle thing and I was
+
+[1846.559 - 1850.1589999999999] like but what about the traditionally
+
+[1847.82 - 1851.48] masculine people and it says Embrace
+
+[1850.159 - 1853.64] both traditionally masculine and
+
+[1851.48 - 1855.38] feminine feminine values this is where I
+
+[1853.64 - 1856.8200000000002] think the the wokeness is still in there
+
+[1855.38 - 1859.0] and I don't fully agree with this
+
+[1856.82 - 1862.279] because
+
+[1859.0 - 1865.76] like anyways I'm gonna fall down that
+
+[1862.279 - 1868.34] rabbit hole point being is that being in
+
+[1865.76 - 1870.3799999999999] being an adventurer is absolutely
+
+[1868.34 - 1872.6] probably a lifestyle Paradigm that you
+
+[1870.38 - 1875.0590000000002] can engage in post Singularity which
+
+[1872.6 - 1877.58] focuses on experiences challenges
+
+[1875.059 - 1879.32] personal growth Adventures
+
+[1877.58 - 1881.84] um cultivating resilience adaptability
+
+[1879.32 - 1883.58] uh camaraderie teamwork that sort of
+
+[1881.84 - 1885.9189999999999] stuff honestly that sounds like a lot of
+
+[1883.58 - 1888.1999999999998] fun too I would love to like go jump on
+
+[1885.919 - 1891.0800000000002] a sailboat with a team of you know
+
+[1888.2 - 1892.94] like-minded people and learn to sail and
+
+[1891.08 - 1894.9189999999999] go across the ocean so that sounds like
+
+[1892.94 - 1897.74] fun too
+
+[1894.919 - 1899.8400000000001] um I I got a couple more so the
+
+[1897.74 - 1902.6] aesthetic Voyager so this is someone who
+
+[1899.84 - 1904.399] is focused on taking in
+
+[1902.6 - 1907.8799999999999] um the aesthetic parts of life I was
+
+[1904.399 - 1911.12] aiming for more Hedonism honestly
+
+[1907.88 - 1914.1200000000001] um but you know whatever uh the asset
+
+[1911.12 - 1916.34] um and then I asked about faith and um
+
+[1914.12 - 1919.279] and principle and it came up with the uh
+
+[1916.34 - 1920.72] The Devout Steward as a as a paradigm
+
+[1919.279 - 1922.539] um living a life Guided by spiritual
+
+[1920.72 - 1925.7] religious or philosophical principles
+
+[1922.539 - 1926.779] emphasizing service altruism and greater
+
+[1925.7 - 1928.7] good
+
+[1926.779 - 1931.039] um practicing asceticism or Simplicity
+
+[1928.7 - 1933.14] in daily life all this sounds really
+
+[1931.039 - 1935.179] good uh this is kind of how I'm living
+
+[1933.14 - 1936.3200000000002] right now but it's not how I want to
+
+[1935.179 - 1937.76] live forever
+
+[1936.32 - 1939.1399999999999] and then finally the intellectual
+
+[1937.76 - 1940.58] Trailblazer
+
+[1939.14 - 1942.0800000000002] um pursuing intellectual Mastery and
+
+[1940.58 - 1944.1789999999999] expertise on one or more disciplines
+
+[1942.08 - 1945.5] engaging in research teaching and
+
+[1944.179 - 1948.44] mentorship critical thinking
+
+[1945.5 - 1949.88] open-mindedness so on and so forth so
+
+[1948.44 - 1951.3200000000002] yeah and then I ask one little like
+
+[1949.88 - 1953.72] boilerplate question at the end about
+
+[1951.32 - 1956.48] you know synthesizing a global culture
+
+[1953.72 - 1958.94] it has some good ideas anyways I think
+
+[1956.48 - 1960.38] that's about it for today this is this
+
+[1958.94 - 1962.299] is um this is kind of what I'm doing
+
+[1960.38 - 1963.98] which is like let's just set the stage
+
+[1962.299 - 1966.62] for how things are going to change over
+
+[1963.98 - 1968.539] the next months and years but this is
+
+[1966.62 - 1970.2199999999998] all coming fast so anyways thanks for
+
+[1968.539 - 1971.299] watching let me know what you think in
+
+[1970.22 - 1973.64] the comments
+
+[1971.299 - 1978.399] um and also hop on over to uh artificial
+
+[1973.64 - 1978.3990000000001] sentience on Reddit all right cheers

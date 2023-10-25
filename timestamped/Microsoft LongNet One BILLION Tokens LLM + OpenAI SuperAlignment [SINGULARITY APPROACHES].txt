@@ -1,0 +1,937 @@
+[0.0 - 7.379] morning everybody David Shapiro here
+
+[2.46 - 10.920000000000002] with a surprise update so yesterday July
+
+[7.379 - 13.92] 5th this paper dropped long net scaling
+
+[10.92 - 15.36] Transformers to 1 billion
+
+[13.92 - 18.539] tokens
+
+[15.36 - 21.84] now to put this in context
+
+[18.539 - 25.92] this is a three gigapixel image which
+
+[21.84 - 28.740000000000002] you can make sense of at a glance
+
+[25.92 - 31.8] and I'm not going to dig too deep into
+
+[28.74 - 34.379999999999995] the uh the cognitive neuroscience and
+
+[31.8 - 37.14] neurological mechanisms about why you
+
+[34.38 - 38.46] can make sense of so much information so
+
+[37.14 - 40.2] quickly but if you want to learn more
+
+[38.46 - 42.239000000000004] about that I recommend the forgetting
+
+[40.2 - 45.300000000000004] machine
+
+[42.239 - 46.919999999999995] but what I want to point out is that you
+
+[45.3 - 49.559] can take a glance at this image and then
+
+[46.92 - 52.2] you can zoom in and you understand the
+
+[49.559 - 54.78] implications of every little bit of this
+
+[52.2 - 56.699000000000005] image this is clearly an arid mountain
+
+[54.78 - 58.980000000000004] range there's a road going across it
+
+[56.699 - 61.26] there's uh some Haze there's a city in
+
+[58.98 - 63.3] the background you can keep track of all
+
+[61.26 - 65.75999999999999] of that information at once just by
+
+[63.3 - 67.38] glancing at this image and then when you
+
+[65.76 - 69.659] zoom in
+
+[67.38 - 71.28] you can say oh look there's a nice house
+
+[69.659 - 73.92] on the hillside and you can keep track
+
+[71.28 - 75.979] of that information in the context of
+
+[73.92 - 80.159] this three gigapixel image
+
+[75.979 - 83.759] this is fundamentally what sparse
+
+[80.159 - 86.4] attention is and that is how this paper
+
+[83.759 - 87.6] solves the problem of reading a billion
+
+[86.4 - 90.9] tokens
+
+[87.6 - 93.72] so let's unpack this a little bit first
+
+[90.9 - 95.28] I love this chart this is this is a
+
+[93.72 - 96.72] really hilarious Flex right at the
+
+[95.28 - 99.96000000000001] beginning of this paper right under the
+
+[96.72 - 105.36] abstract they're like okay you know 512
+
+[99.96 - 107.03999999999999] uh 12K 64k tokens uh 262 a million
+
+[105.36 - 109.86] tokens and then here's us a billion
+
+[107.04 - 112.259] tokens so good job oh also I want to
+
+[109.86 - 114.42] point out this is from Microsoft this is
+
+[112.259 - 116.88] not just from some Podunk you know
+
+[114.42 - 119.22] Backwater University this is Microsoft
+
+[116.88 - 122.82] you know who's in partnership with
+
+[119.22 - 123.78] openai uh and so I saw a post somewhere
+
+[122.82 - 125.219] I think it was a tweet or something
+
+[123.78 - 127.32000000000001] someone's like Microsoft seems like
+
+[125.219 - 128.88] they're really just falling down on AI
+
+[127.32 - 130.79999999999998] research and I have no idea what rock
+
+[128.88 - 133.79999999999998] they're living under but pay attention
+
+[130.8 - 136.68] to Microsoft my money is on Microsoft
+
+[133.8 - 138.36] and Nvidia uh for for the AI race and
+
+[136.68 - 140.459] then of course there's Google
+
+[138.36 - 141.78] um but I don't understand get Google's
+
+[140.459 - 143.16] business model because they invented
+
+[141.78 - 145.02] this stuff and then sat on it for seven
+
+[143.16 - 148.07999999999998] years so I have no idea what Google's
+
+[145.02 - 153.12] doing anyways sorry I digress
+
+[148.08 - 156.36] okay billion tokens seems kind of
+
+[153.12 - 160.37900000000002] out there kind of hyperbolic right the
+
+[156.36 - 161.87900000000002] the chief uh Innovation here is one they
+
+[160.379 - 163.01899999999998] they have a training algorithm which I
+
+[161.879 - 164.76] don't care about that as much I mean
+
+[163.019 - 166.68] distributed training okay lots of people
+
+[164.76 - 168.66] have been working on that but the chief
+
+[166.68 - 172.56] Innovation here is what they call
+
+[168.66 - 174.959] dilation so let me uh bring that up uh
+
+[172.56 - 176.28] so what they do is let's see hang on
+
+[174.959 - 178.62] where did it go where did it go where's
+
+[176.28 - 180.78] the dilation diagram all right so what
+
+[178.62 - 181.86] it allows it to do a dilated attention
+
+[180.78 - 184.26] sorry
+
+[181.86 - 186.12] so what dilated attention allows it to
+
+[184.26 - 188.819] do is to zoom out
+
+[186.12 - 192.44] and take in the entire sequence all at
+
+[188.819 - 195.23899999999998] once which controls the amount of memory
+
+[192.44 - 198.54] uh and computation that it takes to take
+
+[195.239 - 201.06] in that large sequence just like you and
+
+[198.54 - 203.879] your brain zooming in and out
+
+[201.06 - 207.239] and keeping the entire context of this
+
+[203.879 - 209.94] image in mind
+
+[207.239 - 212.28] at the same time
+
+[209.94 - 215.64] and so the way that it does that is
+
+[212.28 - 218.34] actually relatively similar
+
+[215.64 - 220.5] to the way that human brains do it hang
+
+[218.34 - 223.92000000000002] on hang on where did it go I'm missing
+
+[220.5 - 226.14] the diagram okay so what they do
+
+[223.92 - 227.819] is they create sparse representations
+
+[226.14 - 229.55999999999997] and those who have been following me for
+
+[227.819 - 230.94] a while you might remember when I came
+
+[229.56 - 233.519] up with the idea of sparse priming
+
+[230.94 - 236.519] representations this is something to pay
+
+[233.519 - 238.44] attention to because what I realized is
+
+[236.519 - 240.48000000000002] that language models only need a few
+
+[238.44 - 243.659] Clues just a few breadcrumbs to remind
+
+[240.48 - 245.22] it to cue in as to what is going on in
+
+[243.659 - 247.26] the message to what's going on in the
+
+[245.22 - 249.06] memories and this is actually why it's
+
+[247.26 - 251.459] really good at you just give it a tiny
+
+[249.06 - 254.76] chunk of text and it can infer the rest
+
+[251.459 - 256.919] why because it has read so much that it
+
+[254.76 - 259.38] is able to infer what came before that
+
+[256.919 - 261.84] text and what came after and so by
+
+[259.38 - 264.3] zooming out and creating these really
+
+[261.84 - 266.82] sparse representations of larger
+
+[264.3 - 270.36] sequences it can keep track of the
+
+[266.82 - 272.88] entire thing and what it does is it will
+
+[270.36 - 273.96000000000004] take the the up to a billion token
+
+[272.88 - 277.5] sequence
+
+[273.96 - 279.9] break it up slice it up and then makes a
+
+[277.5 - 281.759] layered sparse representations of the
+
+[279.9 - 284.15999999999997] entire thing and it will therefore be
+
+[281.759 - 287.46000000000004] able to keep track of it now okay that
+
+[284.16 - 290.22] sounds really nerdy uh but here's here's
+
+[287.46 - 291.96] what it does for the performance so with
+
+[290.22 - 295.38000000000005] this sparse representation with this
+
+[291.96 - 298.68] dilation and doing it in massively in
+
+[295.38 - 301.979] parallel it solves a few problems so one
+
+[298.68 - 304.44] you see that the runtime stayed under a
+
+[301.979 - 307.08] thousand uh milliseconds under one
+
+[304.44 - 309.54] second it's more about half a second all
+
+[307.08 - 311.69899999999996] the way up to a billion tokens
+
+[309.54 - 313.56] so because of that it's basically
+
+[311.699 - 314.88] zooming in and out of the text the
+
+[313.56 - 317.46] representation of the text that it
+
+[314.88 - 319.5] creates in the same way a very similar
+
+[317.46 - 321.18] way that your brain keeps track of a
+
+[319.5 - 323.4] three gigapixel image as you zoom in and
+
+[321.18 - 325.02] out you're like okay cool okay I see a
+
+[323.4 - 325.979] bunch of cars parked on the side of the
+
+[325.02 - 327.29999999999995] road
+
+[325.979 - 330.06] um and you can just remember that fact
+
+[327.3 - 331.8] oh let's do a quick test what else do
+
+[330.06 - 333.6] you remember about this image maybe you
+
+[331.8 - 334.8] remember that the the Hollywood sign is
+
+[333.6 - 335.88] in the background over here somewhere
+
+[334.8 - 337.68] there it is
+
+[335.88 - 340.02] oh no that's not it
+
+[337.68 - 342.24] but it's somewhere in here so it's like
+
+[340.02 - 344.34] okay based on the cars and the Arid
+
+[342.24 - 347.1] desert and that I'm based I'm guessing
+
+[344.34 - 349.5] that this is Los Angeles right uh
+
+[347.1 - 351.78000000000003] anyways point being is that oh there it
+
+[349.5 - 353.699] is Hollywood uh so this is these are the
+
+[351.78 - 355.61999999999995] Hollywood Hills and you can remember oh
+
+[353.699 - 357.539] yeah there was a nice mansion over here
+
+[355.62 - 359.82] there's cars parked over here that's
+
+[357.539 - 361.68] probably downtown LA the Hollywood sign
+
+[359.82 - 364.52] is over here so by keeping by basically
+
+[361.68 - 367.38] creating a mental map this treats
+
+[364.52 - 369.71999999999997] gigantic pieces of information not
+
+[367.38 - 372.24] unlike a diffusion model
+
+[369.72 - 374.03900000000004] when and because I I got I was clued in
+
+[372.24 - 376.199] on that when I looked at the way that it
+
+[374.039 - 378.539] was it was um mapping everything and I
+
+[376.199 - 380.58000000000004] was like hold on it's creating a map of
+
+[378.539 - 382.74] the text by just breaking it down
+
+[380.58 - 384.78] algorithmically and saying okay let's
+
+[382.74 - 385.979] just make a scatter plot of all the text
+
+[384.78 - 387.78] here
+
+[385.979 - 390.24] uh or scatter plot's not the right word
+
+[387.78 - 393.419] but the it's basically making a bitmap
+
+[390.24 - 395.22] of the text of the representations of
+
+[393.419 - 397.56] what is going on in the sequence and I'm
+
+[395.22 - 399.12] like okay this is a fundamentally
+
+[397.56 - 401.639] different approach to representing text
+
+[399.12 - 403.139] and this is also really similar to some
+
+[401.639 - 404.94] of the experiments that I've done if you
+
+[403.139 - 406.68] remember Remo rolling episodic memory
+
+[404.94 - 409.08] organizer which creates layers of
+
+[406.68 - 411.84000000000003] abstraction this does it algorithmically
+
+[409.08 - 414.12] in real time so this just blows
+
+[411.84 - 417.29999999999995] everything that I've done with memory
+
+[414.12 - 421.199] research completely out of the water it
+
+[417.3 - 424.319] also has the ability to basically uh
+
+[421.199 - 426.78000000000003] kind of summarize as it goes and that's
+
+[424.319 - 428.58000000000004] not necessarily the right word because
+
+[426.78 - 430.55999999999995] summarization means that you take one
+
+[428.58 - 432.78] piece of text and create a smaller piece
+
+[430.56 - 434.58] of text but this creates a neural
+
+[432.78 - 436.919] summarization a neural network
+
+[434.58 - 438.35999999999996] summarization by creating these layers
+
+[436.919 - 441.29999999999995] of abstraction
+
+[438.36 - 443.16] and this allows it to zoom in and out as
+
+[441.3 - 445.44] it needs to so that it can cast its
+
+[443.16 - 447.36] attention around internally in order to
+
+[445.44 - 450.24] keep track of such a long sequence now
+
+[447.36 - 452.88] okay great what does this mean
+
+[450.24 - 455.94] as someone who has been using GPT since
+
+[452.88 - 458.819] gpt2 where it was basically just a
+
+[455.94 - 460.86] sentence Transformer it couldn't do a
+
+[458.819 - 464.03900000000004] whole lot more you know like in in this
+
+[460.86 - 468.0] model up here the original GPT was 512
+
+[464.039 - 469.31899999999996] tokens and gpt2 I think was what a
+
+[468.0 - 472.8] thousand I don't remember
+
+[469.319 - 475.74] maybe it was five uh 512 as well and
+
+[472.8 - 478.259] then the initial version of gpt3 was 2
+
+[475.74 - 481.979] 000 tokens we got upgraded to 4 000
+
+[478.259 - 483.3] tokens then we got GPT 3.5 and gpt4 so
+
+[481.979 - 484.979] we're at eight thousand and sixteen
+
+[483.3 - 487.44] thousand tokens
+
+[484.979 - 489.479] as these attention mechanisms get bigger
+
+[487.44 - 491.34] and as the context window gets bigger
+
+[489.479 - 493.74] one thing that I've noticed is that
+
+[491.34 - 495.11999999999995] there are one these are step changes in
+
+[493.74 - 497.94] terms of
+
+[495.12 - 501.78000000000003] algorithmic efficiencies but in terms of
+
+[497.94 - 504.419] what they are capable of doing as I tell
+
+[501.78 - 507.419] a lot of my uh my consultation clients
+
+[504.419 - 509.34] do not ever try and you know get around
+
+[507.419 - 511.979] the context window limitation because
+
+[509.34 - 513.8389999999999] one a new model is coming out within six
+
+[511.979 - 516.479] months that's going to completely blow
+
+[513.839 - 518.1590000000001] open that window and two it's just a
+
+[516.479 - 520.38] limitation of the model
+
+[518.159 - 523.8] so when you can read a billion tokens
+
+[520.38 - 525.54] which by the way humans read about one
+
+[523.8 - 527.279] to two billion words in their entire
+
+[525.54 - 529.1999999999999] lifetime
+
+[527.279 - 531.0] when you have a model that can read a
+
+[529.2 - 533.519] billion tokens in a second
+
+[531.0 - 536.279] that is almost that is half a lifetime
+
+[533.519 - 539.1] worth of reading and knowledge that this
+
+[536.279 - 540.8389999999999] model can take in in a second so when
+
+[539.1 - 543.36] you have a model that can ingest that
+
+[540.839 - 545.2790000000001] much information suddenly retraining
+
+[543.36 - 547.44] models doesn't matter you just give it
+
+[545.279 - 549.54] the log of all news all events all
+
+[547.44 - 552.12] papers whatever tasks that you're doing
+
+[549.54 - 554.279] you just give it all of it at once and
+
+[552.12 - 556.92] it can keep track of all of that text in
+
+[554.279 - 558.66] its head in its virtual head
+
+[556.92 - 560.9399999999999] um all at once and it can pay attention
+
+[558.66 - 563.279] to the bits that it needs to with those
+
+[560.94 - 566.519] sparse representations
+
+[563.279 - 570.12] it is it is impossible for me to
+
+[566.519 - 573.36] oversell the long-term ramifications of
+
+[570.12 - 576.42] these kinds of algorithmic changes and
+
+[573.36 - 578.519] so a couple months ago when I said AGI
+
+[576.42 - 580.04] within 18 months this is the kind of
+
+[578.519 - 582.839] trend that I was paying attention to
+
+[580.04 - 584.3389999999999] there is no limit to the algorithmic
+
+[582.839 - 585.9590000000001] breakthroughs we are seeing right now
+
+[584.339 - 588.7790000000001] now that doesn't mean that there won't
+
+[585.959 - 591.2399999999999] eventually be diminishing returns but at
+
+[588.779 - 594.36] the same time we are exploring this blue
+
+[591.24 - 596.399] ocean space and we've we've all right
+
+[594.36 - 599.94] for those of you that have played Skyrim
+
+[596.399 - 602.04] and other RPGs we unlocked a new map and
+
+[599.94 - 604.019] the grayed out area is this big and
+
+[602.04 - 606.8389999999999] we've explored this much of this new map
+
+[604.019 - 609.36] that is how much potential there is to
+
+[606.839 - 612.12] explore out here and the other thing is
+
+[609.36 - 613.74] this research is accelerating there's a
+
+[612.12 - 615.3] few reasons for that on one of the live
+
+[613.74 - 617.82] streams like someone asked me like how
+
+[615.3 - 620.04] do we know that this isn't an AI winter
+
+[617.82 - 622.98] and I pulled up a chart that showed an
+
+[620.04 - 625.1999999999999] exponential growth of investment where
+
+[622.98 - 626.76] the money goes the research goes and
+
+[625.2 - 629.6400000000001] because the money is flowing into the
+
+[626.76 - 631.14] research it's happening what you I mean
+
+[629.64 - 632.399] we saw the same thing with solar and
+
+[631.14 - 634.3199999999999] literally every other disruptive
+
+[632.399 - 636.18] technology is once the investment comes
+
+[634.32 - 638.1600000000001] you know that the breakthroughs are
+
+[636.18 - 639.959] going to follow it's just that simple
+
+[638.16 - 643.68] and this is one of those kinds of
+
+[639.959 - 647.2199999999999] breakthroughs so what does this mean uh
+
+[643.68 - 650.2199999999999] put it this way rather than trying to
+
+[647.22 - 652.2] you know play Tetris with memory and you
+
+[650.22 - 655.74] know trying to fit 10 pounds of stuff
+
+[652.2 - 657.899] into a five pound bag now once this
+
+[655.74 - 660.54] becomes commercially ready which it's
+
+[657.899 - 662.94] coming it's it's possible on paper they
+
+[660.54 - 664.6999999999999] did it so even if we don't get a billion
+
+[662.94 - 667.86] tokens this time next year it's coming
+
+[664.7 - 669.6600000000001] the what this allows you to do is let's
+
+[667.86 - 673.14] say for instance
+
+[669.66 - 675.6] um you are working on a medical research
+
+[673.14 - 677.459] thing and it's like okay well you know
+
+[675.6 - 680.399] we've we've got a literature review of
+
+[677.459 - 682.8599999999999] literally 2000 papers per month to read
+
+[680.399 - 684.72] put all the papers in this model and and
+
+[682.86 - 686.82] say tell me exactly which papers are
+
+[684.72 - 689.519] most relevant
+
+[686.82 - 692.7600000000001] so the the the ability for in-context
+
+[689.519 - 695.399] learning uh is incredible and it can
+
+[692.76 - 698.16] hold more in its brain in its mind than
+
+[695.399 - 700.5] any 10 humans can
+
+[698.16 - 702.6] and this is again this is not the limit
+
+[700.5 - 705.12] imagine a year from now we're six months
+
+[702.6 - 706.8000000000001] from now when uh long net two comes out
+
+[705.12 - 709.44] and it's a trillion tokens or 10
+
+[706.8 - 712.26] trillion tokens and what they say in
+
+[709.44 - 716.22] this paper is that maybe we're gonna see
+
+[712.26 - 718.26] a a point very soon where it could have
+
+[716.22 - 720.839] its context window could include
+
+[718.26 - 723.54] basically the entire internet
+
+[720.839 - 725.82] this is a step towards super
+
+[723.54 - 728.279] intelligence make no mistake that the
+
+[725.82 - 731.339] ability to held and use that much
+
+[728.279 - 734.82] information in real time to produce
+
+[731.339 - 737.82] plans to forecast to anticipate to come
+
+[734.82 - 741.0] up with insights this is a critical step
+
+[737.82 - 743.0400000000001] towards digital super intelligence I am
+
+[741.0 - 744.48] not being hyperbolic here and neither is
+
+[743.04 - 746.64] this paper when they say we could
+
+[744.48 - 748.86] conceivably build a model that can read
+
+[746.64 - 751.3199999999999] the entire internet in one go
+
+[748.86 - 754.44] so with all that being said I wanted to
+
+[751.32 - 757.32] Pivot and talk briefly about open ai's
+
+[754.44 - 759.6600000000001] announcement also yesterday that they
+
+[757.32 - 763.019] are introducing super alignment so the
+
+[759.66 - 765.24] tldr is that openai is creating a a
+
+[763.019 - 768.54] dedicated team to aligning super
+
+[765.24 - 770.639] intelligence uh which you know again I
+
+[768.54 - 771.899] am super glad that we are living in the
+
+[770.639 - 774.66] timeline where someone is doing this
+
+[771.899 - 776.16] it's about time uh you know I've got my
+
+[774.66 - 777.66] book out there benevolent by Design
+
+[776.16 - 779.399] where I talked about aligning super
+
+[777.66 - 781.3199999999999] intelligence and my solution is that you
+
+[779.399 - 784.92] really can't but one thing that I want
+
+[781.32 - 789.1800000000001] to point out is that whether or not you
+
+[784.92 - 790.92] can align one model in the lab is that's
+
+[789.18 - 792.3] part of the that's a necessary part of
+
+[790.92 - 793.9799999999999] the solution I don't want to disparage
+
+[792.3 - 796.139] the engineers and scientists at openai
+
+[793.98 - 798.839] and Microsoft and other places working
+
+[796.139 - 801.36] on this but while it is a necessary
+
+[798.839 - 803.82] component of the of the solution it is
+
+[801.36 - 806.4590000000001] not a complete solution and this is
+
+[803.82 - 809.94] where uh researchers like Gary Marcus
+
+[806.459 - 813.42] and Dr Rahman Chowdhury have testified
+
+[809.94 - 816.72] to Congress saying look you know they
+
+[813.42 - 818.639] expect that open source models will
+
+[816.72 - 821.339] reach parity with closed Source models
+
+[818.639 - 824.76] and then overtake them and so when open
+
+[821.339 - 827.4590000000001] source models who anyone can deploy are
+
+[824.76 - 830.519] aligned any which way that you want you
+
+[827.459 - 832.38] lose total control so that while I
+
+[830.519 - 834.12] definitely appreciate in value because
+
+[832.38 - 835.92] we need to know how to align super
+
+[834.12 - 838.44] intelligent models
+
+[835.92 - 842.6999999999999] the good guys right the the aligned
+
+[838.44 - 845.399] models need to be uh as powerful as all
+
+[842.7 - 847.6800000000001] the unaligned models because in the AI
+
+[845.399 - 850.079] arms race it's going to be AI versus AI
+
+[847.68 - 852.8389999999999] in the example of cyber security where
+
+[850.079 - 854.519] we already have adaptive intelligence in
+
+[852.839 - 857.2790000000001] uh in firewalls and other security
+
+[854.519 - 859.5600000000001] appliances basically you're going to
+
+[857.279 - 862.26] have you know an AI agent running in
+
+[859.56 - 864.7199999999999] your firewall versus an AI based DDOS
+
+[862.26 - 867.0] attack just as one example you're going
+
+[864.72 - 869.24] to have ai based infiltration programs
+
+[867.0 - 872.82] versus AI Hunter programs on the inside
+
+[869.24 - 875.16] so it's going to be spy versus spy and
+
+[872.82 - 877.98] so we need to make sure that the that
+
+[875.16 - 879.6] the models that we build that that do
+
+[877.98 - 882.6] remain aligned that we do remain control
+
+[879.6 - 884.94] over are as smart as possible and also
+
+[882.6 - 887.0400000000001] trustworthy absolutely needs to to
+
+[884.94 - 889.1990000000001] happen basically you fight fire with
+
+[887.04 - 890.9399999999999] fire and I know that that sounds like
+
+[889.199 - 893.0999999999999] mutually assured destruction and it kind
+
+[890.94 - 895.5] of is which is another reason that the
+
+[893.1 - 897.66] nuclear arms race metaphor is very apt
+
+[895.5 - 899.76] for the AI arms race
+
+[897.66 - 902.04] So This research absolutely needs to
+
+[899.76 - 903.66] happen but what I want to drive home is
+
+[902.04 - 906.5999999999999] that it is a necessary but not
+
+[903.66 - 908.279] sufficient set of solutions that there
+
+[906.6 - 910.32] also needs to be the adoption the
+
+[908.279 - 912.0] implementation and deployment of
+
+[910.32 - 913.9200000000001] Alliance systems and we also need to
+
+[912.0 - 915.68] make sure that those Alliance systems
+
+[913.92 - 919.019] can communicate and collaborate together
+
+[915.68 - 920.519] so with all that being said uh big steps
+
+[919.019 - 923.339] in the right direction but it is coming
+
+[920.519 - 926.94] faster than anyone realizes and I stand
+
+[923.339 - 930.24] by my assertion AGI by the end of 2024
+
+[926.94 - 933.9590000000001] actually by by the mid basically uh
+
+[930.24 - 936.0] let's see September or October 2024 any
+
+[933.959 - 938.88] definition that you have of AGI will be
+
+[936.0 - 941.279] satisfied and then from there it's a
+
+[938.88 - 943.68] very very very short period of time to
+
+[941.279 - 945.899] Super intelligence now fortunately for
+
+[943.68 - 947.6389999999999] us right now the only computer is
+
+[945.899 - 950.04] capable of running them running these
+
+[947.639 - 951.54] models and researching them are like the
+
+[950.04 - 954.779] Nvidia supercomputers that they're
+
+[951.54 - 956.8199999999999] building so that but that barrier that
+
+[954.779 - 959.16] threshold is going to start going down
+
+[956.82 - 961.74] because remember remember Nvidia at
+
+[959.16 - 963.24] their at their keynote speech and and
+
+[961.74 - 965.76] for several months they've been saying
+
+[963.24 - 967.44] hey you know our machines are literally
+
+[965.76 - 968.639] a million times more powerful in the
+
+[967.44 - 971.4590000000001] last decade and we're going to do it
+
+[968.639 - 973.62] again in the next decade well when your
+
+[971.459 - 975.3599999999999] desktop computer is as powerful as
+
+[973.62 - 977.339] today's super computers in 10 years
+
+[975.36 - 978.779] you're going to be able to run all of
+
+[977.339 - 980.339] these and then when you combine that
+
+[978.779 - 982.26] with the ongoing algorithmic
+
+[980.339 - 984.839] efficiencies everyone is going to be
+
+[982.26 - 987.06] running their own AGI within five to ten
+
+[984.839 - 988.3800000000001] years mark my words
+
+[987.06 - 990.899] so
+
+[988.38 - 992.88] time is of the essence we do need a
+
+[990.899 - 995.22] sense of urgency and I am really glad
+
+[992.88 - 999.66] that open AI is doing this
+
+[995.22 - 1002.12] again you know I'm not I would like to
+
+[999.66 - 1004.639] see more governmental participation more
+
+[1002.12 - 1007.22] universities uh I would like to see
+
+[1004.639 - 1009.92] something like a Gaia agency a global AI
+
+[1007.22 - 1012.1990000000001] agency or an Aegis agency an alignment
+
+[1009.92 - 1014.3] enforcement for Global uh Global
+
+[1012.199 - 1017.12] intelligence systems
+
+[1014.3 - 1019.42] um because the thing is is corporations
+
+[1017.12 - 1022.88] and governments are not ready for this
+
+[1019.42 - 1025.459] and uh that to me is the biggest risk
+
+[1022.88 - 1028.939] because from it from a purely scientific
+
+[1025.459 - 1030.8600000000001] standpoint I 100 believe that we can
+
+[1028.939 - 1032.959] align super intelligence I wrote a book
+
+[1030.86 - 1035.059] about it I demonstrated how you can take
+
+[1032.959 - 1036.98] unaligned models and align them to
+
+[1035.059 - 1039.079] Universal principles very very easily
+
+[1036.98 - 1040.52] I've done it plenty of times the data
+
+[1039.079 - 1042.319] sets are out there for free just search
+
+[1040.52 - 1044.36] for heuristic imperatives and core
+
+[1042.319 - 1048.1399999999999] objective functions on my GitHub
+
+[1044.36 - 1050.4799999999998] but again aligning a single model is not
+
+[1048.14 - 1052.4] the entire solution you also need the
+
+[1050.48 - 1054.2] deployment you need the the security
+
+[1052.4 - 1056.539] models we need to update things like the
+
+[1054.2 - 1058.4] OSI model and defense in depth we need
+
+[1056.539 - 1060.44] to look at the entire technology stack
+
+[1058.4 - 1063.02] but we also need to look at the entire
+
+[1060.44 - 1064.64] economic and governmental stack to make
+
+[1063.02 - 1066.9189999999999] sure that companies are aware of this
+
+[1064.64 - 1070.3400000000001] and that companies are start deploying
+
+[1066.919 - 1072.5] uh these uh systems whether it's
+
+[1070.34 - 1075.26] security checkpoints whether it's
+
+[1072.5 - 1076.82] internal policies that sort of thing
+
+[1075.26 - 1078.86] because when you've got a really
+
+[1076.82 - 1081.86] powerful Cannon you have to aim that
+
+[1078.86 - 1085.1] Cannon really really well otherwise it's
+
+[1081.86 - 1086.8999999999999] going to kill everybody uh and again you
+
+[1085.1 - 1088.6999999999998] all know me I am a very very very
+
+[1086.9 - 1090.26] optimistic person when it comes to
+
+[1088.7 - 1093.02] alignment and the future that we can
+
+[1090.26 - 1095.059] build but at the same time when you're
+
+[1093.02 - 1096.679] playing with fire like you need to make
+
+[1095.059 - 1099.02] sure that you wear the proper safety
+
+[1096.679 - 1101.0] gear uh because the the more energy
+
+[1099.02 - 1103.82] something has the more dangerous it is
+
+[1101.0 - 1104.96] and the level of energy or intelligence
+
+[1103.82 - 1106.8799999999999] or however you want to look at it
+
+[1104.96 - 1109.16] whatever metaphor you want to pick is
+
+[1106.88 - 1110.5390000000002] going up very quickly so thanks for
+
+[1109.16 - 1113.66] watching I hope you got a lot out of
+
+[1110.539 - 1115.66] this it's the long net paper and then of
+
+[1113.66 - 1119.919] course uh introducing super alignment
+
+[1115.66 - 1119.919] but yeah thanks for watching cheers

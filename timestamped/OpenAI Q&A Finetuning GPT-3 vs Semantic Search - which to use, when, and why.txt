@@ -1,0 +1,925 @@
+[1.28 - 6.12] morning everybody David Shapiro here
+
+[3.899 - 9.379999999999999] with another video so this is a question
+
+[6.12 - 14.82] that I get a lot people ask how do I
+
+[9.38 - 17.1] fine-tune uh gpt3 on my Corpus of data
+
+[14.82 - 18.48] so that I can ask questions
+
+[17.1 - 21.240000000000002] um so let's talk about fine tuning
+
+[18.48 - 22.5] versus search uh when to use which and
+
+[21.24 - 24.9] why
+
+[22.5 - 28.619] so as I just mentioned I get a lot of
+
+[24.9 - 30.72] questions about QA how do I how do I
+
+[28.619 - 32.88] train my model on legal cases or
+
+[30.72 - 36.3] statutes or contracts technical
+
+[32.88 - 39.660000000000004] documentation like apis or KB articles
+
+[36.3 - 42.18] medical records so on and so forth I get
+
+[39.66 - 44.218999999999994] this question all the time
+
+[42.18 - 45.66] um and and basically people want to be
+
+[44.219 - 48.480000000000004] able to ask questions against their
+
+[45.66 - 50.218999999999994] Corpus and they think that fine-tuning a
+
+[48.48 - 51.599999999999994] model is the way to do it that all the
+
+[50.219 - 54.120000000000005] knowledge will just be compressed into
+
+[51.6 - 55.68] the model and you'll get good answers
+
+[54.12 - 59.699] you don't
+
+[55.68 - 61.98] that's not how it works uh next question
+
+[59.699 - 63.96] uh okay fine I guess I'll explain this
+
+[61.98 - 66.24] and unpack it
+
+[63.96 - 68.4] um so first we have to talk about what
+
+[66.24 - 70.56] is fine tuning fine tuning is a type of
+
+[68.4 - 73.02000000000001] transfer learning so transfer learning
+
+[70.56 - 75.74000000000001] was was originally created a few years
+
+[73.02 - 78.89999999999999] back for uh image models
+
+[75.74 - 80.58] earlier image recommend recognition
+
+[78.9 - 83.60000000000001] models
+
+[80.58 - 86.4] um but it also applies to NLP tasks
+
+[83.6 - 87.83999999999999] now if you look up like what is fine
+
+[86.4 - 89.159] tuning good for
+
+[87.84 - 90.96000000000001] um you'll see stuff like you know
+
+[89.159 - 92.82000000000001] classification sentiment analysis and
+
+[90.96 - 94.5] named entity recognition this is old
+
+[92.82 - 96.479] school
+
+[94.5 - 99.18] um ignore all that that is like last
+
+[96.479 - 103.2] generation NLP we are not we are no
+
+[99.18 - 106.2] longer in in NLP NLP is Spacey nltk
+
+[103.2 - 107.64] stuff like that we are in nlu natural
+
+[106.2 - 109.619] language understanding and natural
+
+[107.64 - 111.479] language Generation
+
+[109.619 - 113.7] Um so pretty much if it's an NLP
+
+[111.479 - 115.74] Benchmark ignore it if it's an NLP task
+
+[113.7 - 117.96000000000001] ignore it there are cheaper faster
+
+[115.74 - 121.439] simpler ways of doing that if you're
+
+[117.96 - 123.53999999999999] using a uh a large language model for
+
+[121.439 - 125.939] named entity recognition like that's
+
+[123.54 - 127.97900000000001] using like nuclear fusion to power your
+
+[125.939 - 130.619] house uh it's it's super it's way
+
+[127.979 - 132.48] Overkill you can use smaller models like
+
+[130.619 - 134.58] Curie and Babbage to do those if they're
+
+[132.48 - 137.16] fine-tuned but we'll get into that at a
+
+[134.58 - 138.9] later date maybe if y'all want
+
+[137.16 - 141.959] um so
+
+[138.9 - 143.52] the short answer though is that you're
+
+[141.959 - 145.62] when when you find when you do fine
+
+[143.52 - 147.12] tuning you're teaching it a new task
+
+[145.62 - 148.92000000000002] you're not teaching it new information
+
+[147.12 - 150.84] you're teaching it a new task it's kind
+
+[148.92 - 152.45899999999997] of like tweaking a guitar just so that
+
+[150.84 - 154.68] the final performance is a little bit
+
+[152.459 - 155.459] better we'll unpack that more in just a
+
+[154.68 - 157.92000000000002] minute
+
+[155.459 - 159.239] what is semantic search so in order to
+
+[157.92 - 161.51899999999998] compare the two you need to understand
+
+[159.239 - 163.58] both of them so semantic search is also
+
+[161.519 - 165.66] called neural search or vector search
+
+[163.58 - 167.459] semantic search is just easier to say
+
+[165.66 - 170.28] but if you hear neural search or vector
+
+[167.459 - 173.28] searched it's the same thing and the the
+
+[170.28 - 175.08] tldr of how it works is you use a
+
+[173.28 - 176.64000000000001] semantic embedding which is just a
+
+[175.08 - 178.56] string of numbers that represents the
+
+[176.64 - 183.0] meaning of the text
+
+[178.56 - 186.3] um and it'll this it allows new uh new
+
+[183.0 - 189.36] um next-gen databases to scale very
+
+[186.3 - 192.3] large very fast and also to search not
+
+[189.36 - 194.81900000000002] just with keywords or indexes it allows
+
+[192.3 - 197.15900000000002] them to search based on the semantic
+
+[194.819 - 201.54] meaning right the actual content the
+
+[197.159 - 204.599] context and the topics discussed in the
+
+[201.54 - 206.34] actual records in your new database they
+
+[204.599 - 209.04] can scale very large they're very fast
+
+[206.34 - 212.04] and they're also very cheap at least in
+
+[209.04 - 214.98] comparison to fine-tuned models
+
+[212.04 - 216.84] so fine-tuning and semantic search sound
+
+[214.98 - 218.51899999999998] drastically different they're entirely
+
+[216.84 - 220.44] different Technologies the only
+
+[218.519 - 223.56] similarity is that at some point they
+
+[220.44 - 225.84] use semantic embeddings or or vector
+
+[223.56 - 228.12] embeddings that's the point
+
+[225.84 - 230.28] fine-tuning for QA is like using a
+
+[228.12 - 232.5] hammer when you really needed a broom it
+
+[230.28 - 233.819] is the wrong tool for the job it's that
+
+[232.5 - 236.459] simple
+
+[233.819 - 238.44] so how did we get here though why does
+
+[236.459 - 240.659] everyone think that you can use fine
+
+[238.44 - 242.459] tuning to teach it new information and
+
+[240.659 - 244.67999999999998] that you should then be able to do QA
+
+[242.459 - 246.659] just with a single model this is
+
+[244.68 - 249.54000000000002] probably the biggest misconception about
+
+[246.659 - 252.0] fine tuning because when you think like
+
+[249.54 - 253.79899999999998] oh well gpt3 was trained on Wikipedia
+
+[252.0 - 255.239] and now it knows all of Wikipedia so if
+
+[253.799 - 257.76] I just fine tune it with a little bit
+
+[255.239 - 260.88] more data then it should know that new
+
+[257.76 - 262.68] data too right no wrong the reason is
+
+[260.88 - 265.56] because it is transfer learning and so
+
+[262.68 - 267.3] it's only unfreezing a small portion of
+
+[265.56 - 268.86] the model it's not actually retraining
+
+[267.3 - 272.82] the entire model
+
+[268.86 - 274.32] there's a few other uh problems where uh
+
+[272.82 - 276.84] you and we'll get to this in the next
+
+[274.32 - 279.24] slide um where fine tuning does not
+
+[276.84 - 281.63899999999995] overrule uh confabulation or
+
+[279.24 - 283.8] hallucination it's the same thing
+
+[281.639 - 286.38] um so basically what what you're doing
+
+[283.8 - 287.88] is think of it like if you learn to tie
+
+[286.38 - 290.04] your shoes you can tie pretty much any
+
+[287.88 - 291.419] string that is an example of transfer
+
+[290.04 - 292.91900000000004] learning you're not learning any
+
+[291.419 - 294.59999999999997] fundamentally new physics you're not
+
+[292.919 - 296.46] learning how to do anything different
+
+[294.6 - 298.62] with your hands you're just saying I can
+
+[296.46 - 300.23999999999995] tie my shoes now I can tie a string or
+
+[298.62 - 302.699] if you can stack a wooden block then you
+
+[300.24 - 304.08] can also stack bricks right that is an
+
+[302.699 - 305.36] example of transfer learning where you
+
+[304.08 - 308.34] take something that you've already
+
+[305.36 - 310.44] learned to do and then you're just
+
+[308.34 - 313.19899999999996] applying it to a slightly different task
+
+[310.44 - 314.52] so fine tuning is just new tasks it's
+
+[313.199 - 317.46000000000004] not new information it's not new
+
+[314.52 - 319.02] knowledge just a new task fine-tuning is
+
+[317.46 - 321.12] not the same as taking the large
+
+[319.02 - 323.34] language model back to school
+
+[321.12 - 325.38] to do that you have to unfreeze the
+
+[323.34 - 328.25899999999996] entire model which is ludicrously
+
+[325.38 - 330.539] expensive and even then it doesn't get
+
+[328.259 - 332.94] rid of confabulation and hallucination
+
+[330.539 - 335.34] so these are just fancy uh
+
+[332.94 - 336.71999999999997] anthropomorphic terms for gaps and llm
+
+[335.34 - 340.25899999999996] abilities I talked about this in another
+
+[336.72 - 342.53900000000004] video the short the short version is
+
+[340.259 - 344.94] um llms on their own do not have an
+
+[342.539 - 346.44] episode epistemology they don't have a
+
+[344.94 - 348.71999999999997] theory of knowledge they don't even have
+
+[346.44 - 351.0] a theory of Mind really you can test it
+
+[348.72 - 353.0] and like they can talk about mind but
+
+[351.0 - 356.94] they don't they don't have in practice
+
+[353.0 - 358.74] any uh epistemological Theory or
+
+[356.94 - 360.78] abilities they don't know what they know
+
+[358.74 - 362.94] and they don't know why they know it or
+
+[360.78 - 364.979] or anything they just barf out a
+
+[362.94 - 368.1] possibility
+
+[364.979 - 370.38] um and so because of that fine tuning is
+
+[368.1 - 372.47900000000004] not good as a knowledge door period end
+
+[370.38 - 374.039] of story do not use it it is not
+
+[372.479 - 377.699] reliable
+
+[374.039 - 379.199] um now that being said you can't like so
+
+[377.699 - 382.44] if you look at if you look at chat GPT
+
+[379.199 - 384.90000000000003] like chat GPT you might say ah no chat
+
+[382.44 - 386.819] GPT has uh has you know some theory of
+
+[384.9 - 388.02] knowledge because it'll tell me like I
+
+[386.819 - 390.66] don't know that
+
+[388.02 - 393.24] um no it's just following a pattern it
+
+[390.66 - 395.40000000000003] was told it was taught that if you ask
+
+[393.24 - 397.139] certain questions it's supposed to tell
+
+[395.4 - 398.58] you that it doesn't know but then you
+
+[397.139 - 401.94] just ask a different way and it'll tell
+
+[398.58 - 403.85999999999996] you right because it it one chat GPT
+
+[401.94 - 405.6] does not have a any cognitive
+
+[403.86 - 407.28000000000003] architecture it is just a fine-tuned
+
+[405.6 - 409.91900000000004] model and this is one of the biggest
+
+[407.28 - 413.4] gaps in open ai's approach they are a
+
+[409.919 - 416.039] model only shop they don't as far as I
+
+[413.4 - 417.71999999999997] can tell openai has not invested
+
+[416.039 - 421.86] anything in understanding cognitive
+
+[417.72 - 423.72] architecture or Neuroscience they seem
+
+[421.86 - 425.819] to believe that all that they need is a
+
+[423.72 - 428.699] bigger more powerful model
+
+[425.819 - 431.03900000000004] um and and if they can do it great if
+
+[428.699 - 433.38] they can create a Model A large language
+
+[431.039 - 434.699] model that understands what it doesn't
+
+[433.38 - 435.6] know
+
+[434.699 - 437.759] um great
+
+[435.6 - 439.319] but there are mathematicians out there
+
+[437.759 - 441.72] that I've talked to that said
+
+[439.319 - 444.78000000000003] a large language model a single a single
+
+[441.72 - 446.819] model uh as we know it today will never
+
+[444.78 - 448.55999999999995] have this ability it will never be able
+
+[446.819 - 451.199] to understand what it does and does not
+
+[448.56 - 453.9] know you will have to have a system or a
+
+[451.199 - 456.259] fundamentally different kind of model in
+
+[453.9 - 460.79999999999995] order to have any sense of epistemology
+
+[456.259 - 462.599] so uh this is why fine tuning will
+
+[460.8 - 464.94] probably never
+
+[462.599 - 466.44] at least with the current Paradigm will
+
+[464.94 - 470.28] probably never be good as an information
+
+[466.44 - 472.139] store not as a reliable one at least
+
+[470.28 - 475.34] um another problem fine-tuning is slow
+
+[472.139 - 477.66] difficult and expensive I've seen really
+
+[475.34 - 479.34] boneheaded claims out there and I'm not
+
+[477.66 - 481.5] going to name names
+
+[479.34 - 483.539] um but where people have said like oh it
+
+[481.5 - 485.4] takes 200 000 samples to do fine tuning
+
+[483.539 - 487.139] and even then it doesn't work and I'm
+
+[485.4 - 490.19899999999996] like buddy that's saying more about
+
+[487.139 - 491.40000000000003] yourself than anyone else anyways
+
+[490.199 - 493.979] um that's BS
+
+[491.4 - 496.25899999999996] I have dozens of videos of fine tuning
+
+[493.979 - 498.06] and showing that it is successful but it
+
+[496.259 - 501.06] does underscore an important Point most
+
+[498.06 - 503.46] people don't get it fine tuning is is an
+
+[501.06 - 504.9] entirely new discipline you know as far
+
+[503.46 - 506.21999999999997] as I know there aren't even good books
+
+[504.9 - 508.31899999999996] out there like I've even thought about
+
+[506.22 - 509.759] writing a book on fine tuning but
+
+[508.319 - 512.039] fine-tuning is one of my most valuable
+
+[509.759 - 513.539] skills so it's like you know on the one
+
+[512.039 - 514.86] hand I want to teach the world but on
+
+[513.539 - 516.5989999999999] the other hand I also have a startup
+
+[514.86 - 519.779] right so I've got a conflict of interest
+
+[516.599 - 521.339] there but fine-tuning is difficult most
+
+[519.779 - 523.26] people do not figure it out most people
+
+[521.339 - 524.7600000000001] don't get it and even after I try and
+
+[523.26 - 527.58] teach people most people still don't get
+
+[524.76 - 529.26] it fine tuning I I what I usually say is
+
+[527.58 - 530.82] fine tuning is 100 times more difficult
+
+[529.26 - 533.64] than prompt engineering it's actually
+
+[530.82 - 535.44] more like 10 000 times more difficult it
+
+[533.64 - 537.42] is hard
+
+[535.44 - 539.1600000000001] um it's also very expensive
+
+[537.42 - 540.8389999999999] um fine tuning is so expensive that most
+
+[539.16 - 543.42] other companies have not figured out how
+
+[540.839 - 546.899] open AI does it which also means that
+
+[543.42 - 548.399] open AI like they they the open AI is in
+
+[546.899 - 549.899] the same boat as I am and I know that I
+
+[548.399 - 552.48] criticize open Ai and so does everyone
+
+[549.899 - 554.76] Elsewhere on the one hand they want to
+
+[552.48 - 557.339] help the world uh but on the other hand
+
+[554.76 - 559.8] they um they have their their profit
+
+[557.339 - 561.48] motive to to think of and so like I
+
+[559.8 - 563.76] realize I can't criticize them anymore
+
+[561.48 - 566.1] because I am withholding information for
+
+[563.76 - 568.38] my own benefit as well so I just want to
+
+[566.1 - 570.36] put that out there that uh and after
+
+[568.38 - 571.8] having some conversations with people in
+
+[570.36 - 572.94] the alignment
+
+[571.8 - 575.0999999999999] um field
+
+[572.94 - 578.6400000000001] um this is an open question how much do
+
+[575.1 - 580.86] we share and why because there are there
+
+[578.64 - 582.12] are dangerous players out there that are
+
+[580.86 - 583.8000000000001] just leeches
+
+[582.12 - 586.019] um or that are using it for nefarious
+
+[583.8 - 587.76] purposes so it's like okay maybe we
+
+[586.019 - 591.24] don't share everything this is an open
+
+[587.76 - 594.6] question so I am still uh you know a
+
+[591.24 - 596.279] little bit skeptical of open AI but it
+
+[594.6 - 598.5] is is what it is and I just wanted to
+
+[596.279 - 600.54] add that little bit to be fair because
+
+[598.5 - 601.8] like you know pot calls kettle black
+
+[600.54 - 603.66] right like I'm withholding information
+
+[601.8 - 605.279] there withholding information I can't
+
+[603.66 - 607.5] really criticize them so I just wanted
+
+[605.279 - 609.8389999999999] to address that elephant in the room
+
+[607.5 - 612.18] okay so let's compare let's do a side by
+
+[609.839 - 614.22] side of fine-tuning versus semantic
+
+[612.18 - 616.4399999999999] search fine tuning is slow difficult and
+
+[614.22 - 617.94] expensive semantic search is fast easy
+
+[616.44 - 620.58] and cheap
+
+[617.94 - 622.2600000000001] which one do you think is better
+
+[620.58 - 625.5600000000001] um fine tuning prone to confabulation
+
+[622.26 - 628.2] semantic excerpt semantic search recalls
+
+[625.56 - 629.899] exact information fine tuning just
+
+[628.2 - 632.399] teaches a new task not new information
+
+[629.899 - 634.32] whereas semantic search it is very easy
+
+[632.399 - 637.5] to add new information to your database
+
+[634.32 - 639.779] or your index fine tuning requires
+
+[637.5 - 641.16] constant retraining whenever you add a
+
+[639.779 - 642.899] new document you need to retrain the
+
+[641.16 - 646.019] entire model
+
+[642.899 - 648.24] um and that is very expensive whereas
+
+[646.019 - 651.32] with semantic search adding new elements
+
+[648.24 - 653.5790000000001] is very easy fine tuning is not scalable
+
+[651.32 - 656.1] the cost of fine tuning goes up
+
+[653.579 - 658.62] proportional to the amount of data that
+
+[656.1 - 660.839] you have whereas semantic search is I
+
+[658.62 - 663.24] say infinitely scalable and technically
+
+[660.839 - 666.899] it's not infinitely scalable but um like
+
+[663.24 - 669.42] the the F the f a i s s the Facebook AI
+
+[666.899 - 672.779] semantic search that scales to like a
+
+[669.42 - 675.3] trillion elements so that's way more
+
+[672.779 - 676.62] scalable than fine tuning
+
+[675.3 - 679.079] um and I'll say that fine tuning does
+
+[676.62 - 681.18] not work for QA with a little asterisk
+
+[679.079 - 681.8389999999999] we'll talk about that on a second
+
+[681.18 - 684.54] um
+
+[681.839 - 686.6400000000001] and then semantic search solves half of
+
+[684.54 - 688.26] QA and we'll get to the other half in
+
+[686.64 - 689.88] just a moment but first I wanted to
+
+[688.26 - 691.92] address what do I mean when I say fine
+
+[689.88 - 694.68] fine tuning doesn't work for QA with an
+
+[691.92 - 696.7199999999999] asterisk that is that you can use a
+
+[694.68 - 698.9399999999999] fine-tuned model to help with the QA
+
+[696.72 - 701.82] process so for instance when you're when
+
+[698.94 - 704.6400000000001] you're creating an answer you have a
+
+[701.82 - 706.8000000000001] question then you have a corpus or you
+
+[704.64 - 707.88] know some some reference material and
+
+[706.8 - 710.3] then the answer so there's three
+
+[707.88 - 712.92] components and so when I talk about task
+
+[710.3 - 715.74] answering a question from a given Corpus
+
+[712.92 - 720.0] is a specific task and open AI actually
+
+[715.74 - 722.1] had a QA endpoint but they deprecated it
+
+[720.0 - 723.14] because it wasn't that good and nobody
+
+[722.1 - 725.5790000000001] used it
+
+[723.14 - 727.56] but what I will say is that the current
+
+[725.579 - 729.8389999999999] instruct models are perfectly fine you
+
+[727.56 - 732.0] just say here's my question here's the
+
+[729.839 - 734.0400000000001] body of information is the answer here
+
+[732.0 - 736.8] yes or no and
+
+[734.04 - 739.38] um you know if so what is the answer
+
+[736.8 - 741.0] uh so it can it can be a component of it
+
+[739.38 - 742.079] but it's not necessary especially with
+
+[741.0 - 744.24] the latest
+
+[742.079 - 747.3599999999999] um instruct aligned models
+
+[744.24 - 749.16] so in short
+
+[747.36 - 752.4590000000001] using
+
+[749.16 - 754.74] fine tuning for QA is like using a
+
+[752.459 - 756.1199999999999] hammer to drive a screw through a board
+
+[754.74 - 758.339] on your knee
+
+[756.12 - 760.86] you could do it but you're gonna regret
+
+[758.339 - 762.4200000000001] it and it's not going to work it's a
+
+[760.86 - 764.1] wrong tool for the job
+
+[762.42 - 766.86] okay so what is fine tuning good for
+
+[764.1 - 768.66] then so I talked about how it teaches a
+
+[766.86 - 770.399] new task so the correct way to think
+
+[768.66 - 773.2199999999999] about fine-tuning is that it teaches it
+
+[770.399 - 775.38] teaches uh teaches the model a pattern
+
+[773.22 - 777.0] right what you're teaching it is not new
+
+[775.38 - 780.779] information you're teaching it a pattern
+
+[777.0 - 783.18] and so chat GPT for instance is a
+
+[780.779 - 786.779] pattern the pattern is short user query
+
+[783.18 - 789.42] long machine response writing emails is
+
+[786.779 - 791.7] a pattern all kinds of code whether it's
+
+[789.42 - 795.18] Json HTML C plus plus whatever those are
+
+[791.7 - 797.82] all patterns right and and fiction even
+
+[795.18 - 800.6389999999999] writing long form fiction is a pattern
+
+[797.82 - 802.5600000000001] um and uh yes I trained Curie to write
+
+[800.639 - 803.88] long form fiction I'm not going to show
+
+[802.56 - 807.1199999999999] you how but I will show you in a minute
+
+[803.88 - 810.42] just to prove that it's possible
+
+[807.12 - 812.4590000000001] so basically the short answer is fine
+
+[810.42 - 816.18] tuning is really good at teaching it a
+
+[812.459 - 818.3389999999999] new uh a task or a pattern based task so
+
+[816.18 - 820.3199999999999] without further Ado here is my Curie
+
+[818.339 - 823.2] based uh
+
+[820.32 - 825.5400000000001] um uh scene generator so I have a very
+
+[823.2 - 830.1600000000001] short input and then it goes and writes
+
+[825.54 - 831.5999999999999] several pages of a fictional scene
+
+[830.16 - 833.1] because if you won't believe that I did
+
+[831.6 - 835.5] this on Curie
+
+[833.1 - 837.5400000000001] I don't care
+
+[835.5 - 838.74] believe me or not I'm not going to show
+
+[837.54 - 842.0999999999999] you how because this is incredibly
+
+[838.74 - 843.72] valuable anyways okay so at this point
+
+[842.1 - 845.16] you're probably saying yeah Dave I get
+
+[843.72 - 848.5790000000001] it you know I get the point I get the
+
+[845.16 - 853.019] concept so how do we do QA
+
+[848.579 - 853.9799999999999] so there are uh well first how do you do
+
+[853.019 - 856.019] QA
+
+[853.98 - 857.639] how does a human do QA first you start
+
+[856.019 - 860.579] with a question
+
+[857.639 - 862.92] then you go forage for information then
+
+[860.579 - 864.3599999999999] as you're foraging you compile a corpus
+
+[862.92 - 866.519] of relevant data
+
+[864.36 - 868.5] then you extract the Salient bits from
+
+[866.519 - 870.8] that Corpus and then you finally produce
+
+[868.5 - 870.8] an answer
+
+[870.839 - 876.48] do you remember libraries
+
+[872.7 - 878.0400000000001] so let's use a library analogy to do QA
+
+[876.48 - 879.54] um so how do you find stuff in the
+
+[878.04 - 882.899] library you use a Dewey Decimal System
+
+[879.54 - 885.7199999999999] Dewey Decimal System is basically a
+
+[882.899 - 887.279] human readable semantic embedding the
+
+[885.72 - 889.139] Dewey Decimal System is a string of
+
+[887.279 - 891.42] numbers that tell you roughly what's
+
+[889.139 - 893.339] contained in the book
+
+[891.42 - 895.38] um and so when you have a have a
+
+[893.339 - 897.36] question you match your question to a
+
+[895.38 - 899.579] Dewey decibel number and you say usually
+
+[897.36 - 901.1990000000001] you ask a librarian what uh you know
+
+[899.579 - 902.459] what where in the library do I need to
+
+[901.199 - 903.92] go and it's like okay well you probably
+
+[902.459 - 906.5999999999999] need like
+
+[903.92 - 909.06] 541.26 and you also want some something
+
+[906.6 - 911.279] from the 900s or whatever and so then
+
+[909.06 - 913.1389999999999] you go you go get a stack of books this
+
+[911.279 - 915.54] is this is your semantic search right
+
+[913.139 - 917.1] you go get a stack of books you take
+
+[915.54 - 919.8] them back to your desk so now you have a
+
+[917.1 - 921.779] corpus you've gone from a huge amount of
+
+[919.8 - 924.0] data to a much smaller subset that
+
+[921.779 - 925.62] you're looking through then you skim
+
+[924.0 - 927.6] them you look at their appendices you
+
+[925.62 - 930.66] look at their chapters whatever
+
+[927.6 - 932.339] and you say ah you so you zoom in you
+
+[930.66 - 934.4399999999999] zoom in further and you say this page on
+
+[932.339 - 936.6] this book has what I need right that's
+
+[934.44 - 938.6990000000001] what the index is for is literally so
+
+[936.6 - 941.4590000000001] that you can just say ah I'm looking for
+
+[938.699 - 943.68] you know King George V or whatever he's
+
+[941.459 - 945.42] mentioned on page 286.
+
+[943.68 - 947.8199999999999] um so you go there you jot down some
+
+[945.42 - 949.4399999999999] notes you compile all that data together
+
+[947.82 - 951.0] you're not answering your question yet
+
+[949.44 - 954.5400000000001] you're just getting all the relevant
+
+[951.0 - 957.54] facts together finally once you get all
+
+[954.54 - 959.279] the notes together then you have a a
+
+[957.54 - 961.56] much shorter document you've gone from
+
+[959.279 - 964.26] thousands of books tens of thousands to
+
+[961.56 - 966.18] books to maybe you know a dozen books
+
+[964.26 - 968.88] and you then you distill that further
+
+[966.18 - 970.4399999999999] down into a page or two of relevant
+
+[968.88 - 973.62] information and finally you can answer
+
+[970.44 - 975.6600000000001] your excuse me answer your question
+
+[973.62 - 977.0600000000001] so let's break this down into simple
+
+[975.66 - 979.5] steps that you can do with a machine
+
+[977.06 - 980.88] first you index your corpus with
+
+[979.5 - 983.1] semantic embeddings this makes it
+
+[980.88 - 985.74] searchable and this is whatever your
+
+[983.1 - 986.6] Corpus is case law medical records
+
+[985.74 - 989.88] whatever
+
+[986.6 - 992.0400000000001] then once you have your question you use
+
+[989.88 - 993.72] your large language model to generate
+
+[992.04 - 997.3199999999999] relevant Search terms or queries
+
+[993.72 - 1000.5] relevant questions and then you also use
+
+[997.32 - 1003.139] an embedding which is a basically half
+
+[1000.5 - 1005.12] of a language model say okay here's my
+
+[1003.139 - 1008.1800000000001] search query generate a semantic
+
+[1005.12 - 1010.579] embedding and then use that to go find
+
+[1008.18 - 1012.62] use your semantic search engine to go
+
+[1010.579 - 1014.959] find the most relevant documents that
+
+[1012.62 - 1016.519] you have to that query so that's
+
+[1014.959 - 1017.779] basically matching your Dewey Decimal
+
+[1016.519 - 1020.3] System
+
+[1017.779 - 1023.0] um to pull the most relevant Resorts and
+
+[1020.3 - 1025.28] then you use the llm to quickly read and
+
+[1023.0 - 1027.319] summarize the relevant bits of those
+
+[1025.28 - 1029.78] documents and finally you compile it all
+
+[1027.319 - 1031.3999999999999] together and you have your answer oh and
+
+[1029.78 - 1032.8999999999999] by the way I already did a video on this
+
+[1031.4 - 1034.3390000000002] like six months ago
+
+[1032.9 - 1036.26] um walking you through this exact
+
+[1034.339 - 1038.36] process it's called answer complex
+
+[1036.26 - 1040.939] questions with with gpt3 and multiple
+
+[1038.36 - 1042.86] documents sounds pretty much like what
+
+[1040.939 - 1046.24] you're trying to achieve right okay
+
+[1042.86 - 1046.24] that's the end you're welcome

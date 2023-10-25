@@ -1,0 +1,1091 @@
+[0.52 - 5.640000000000001] what does take a deep breath let's think
+
+[3.399 - 7.64] through this step by step tree of
+
+[5.64 - 10.44] thought Chain of Thought what do all of
+
+[7.64 - 12.879999999999999] these have in common so one thing that
+
+[10.44 - 14.92] I've noticed is that out there in the
+
+[12.88 - 17.359] scientific literature and the prompt
+
+[14.92 - 19.359] engineering space there are all kinds of
+
+[17.359 - 21.8] techniques that have been elucidated by
+
+[19.359 - 24.68] papers such as this one uh L large
+
+[21.8 - 25.880000000000003] language models are zero shot reasoners
+
+[24.68 - 28.08] um where it's like let's think through
+
+[25.88 - 30.0] this step by step great that was a
+
+[28.08 - 31.88] popular one um I don't think it was
+
+[30.0 - 34.239] worthy of a paper but that's my personal
+
+[31.88 - 36.079] opinion um the most recent one is take a
+
+[34.239 - 37.718999999999994] step back which basically just says
+
+[36.079 - 39.480000000000004] let's take a step back and think about
+
+[37.719 - 43.039] what what information or techniques we
+
+[39.48 - 44.919999999999995] need in order to uh achieve this another
+
+[43.039 - 47.92] one is take telling the model to take a
+
+[44.92 - 49.399] deep breath uh elicits very different
+
+[47.92 - 51.160000000000004] behaviors from the model which I think
+
+[49.399 - 53.64] is just fundamentally a flaw with the
+
+[51.16 - 56.07899999999999] way that it's trained um rather than
+
+[53.64 - 59.239000000000004] something about the model itself wherein
+
+[56.079 - 60.8] basically if you train the model to just
+
+[59.239 - 62.48] barf out an answer without thinking
+
+[60.8 - 64.6] through it um that's the result you're
+
+[62.48 - 67.2] going to get so this could be fixed with
+
+[64.6 - 68.52] uh training schemas uh tree of thoughts
+
+[67.2 - 70.159] which is where you basically use
+
+[68.52 - 73.0] iteration and brainstorming to Think
+
+[70.159 - 76.2] Through uh various possibilities and
+
+[73.0 - 78.56] then finally uh or I guess similarly uh
+
+[76.2 - 81.96000000000001] guided tree of thought um as an answer
+
+[78.56 - 84.4] so what is the underpinning thing about
+
+[81.96 - 87.119] all of this what is it that these uh all
+
+[84.4 - 90.0] these papers and techniques are missing
+
+[87.119 - 91.479] that is not yet generalized so the
+
+[90.0 - 93.6] reason that I haven't made a video about
+
+[91.479 - 96.2] this is because to me having worked with
+
+[93.6 - 99.399] models since gpt2 and gpt3 it seems
+
+[96.2 - 102.07900000000001] rather obvious um but so I'm adding I'm
+
+[99.399 - 104.799] adding uh a little bit of to the to the
+
+[102.079 - 107.27999999999999] conversation and what's missing is the
+
+[104.799 - 110.52000000000001] idea of Laten space
+
+[107.28 - 111.56] Activation so here's what you need to
+
+[110.52 - 114.79899999999999] understand about the way that
+
+[111.56 - 117.43900000000001] intelligence actually works if you think
+
+[114.799 - 120.759] about in the way that human brains work
+
+[117.439 - 123.96] we uh you have an intuition right if you
+
+[120.759 - 125.52] if you have a question or a problem you
+
+[123.96 - 127.83999999999999] have many brain structures that will
+
+[125.52 - 130.16] just give you an instantaneous uh
+
+[127.84 - 131.92000000000002] possible answer this is called intuition
+
+[130.16 - 133.319] intuition is knowing something without
+
+[131.92 - 137.16] knowing how you know
+
+[133.319 - 139.51899999999998] it one single inference from an llm is
+
+[137.16 - 141.879] equal to human intuition it hasn't
+
+[139.519 - 143.92000000000002] thought about it it just says this is my
+
+[141.879 - 146.92] gut instinct this is my knee-jerk
+
+[143.92 - 149.23899999999998] reaction however humans can also think
+
+[146.92 - 151.16] through things in order to get the right
+
+[149.239 - 154.08] answer like let me consider what I
+
+[151.16 - 156.4] actually know let me think about the the
+
+[154.08 - 158.08] proper techniques to go through this so
+
+[156.4 - 160.04] there's a really famous book that is
+
+[158.08 - 162.31900000000002] really popular in many intellectual
+
+[160.04 - 164.2] circles and wherever called Thinking
+
+[162.319 - 166.79999999999998] Fast and Slow by Daniel Conan where he
+
+[164.2 - 169.39999999999998] talks about system one thinking which is
+
+[166.8 - 171.20000000000002] that instant knee-jerk intuitive uh
+
+[169.4 - 173.64000000000001] thinking which is what a single
+
+[171.2 - 176.2] inference of a large language model is
+
+[173.64 - 177.92] the equivalent of and then there's uh
+
+[176.2 - 179.76] system two thinking which is slow
+
+[177.92 - 181.319] thinking it's very deliberative where
+
+[179.76 - 183.67999999999998] where you jot down your thoughts and you
+
+[181.319 - 185.159] take notes and you kind of recruit all
+
+[183.68 - 188.0] the stuff that you have and you're very
+
+[185.159 - 189.84] systematic about how you approach things
+
+[188.0 - 192.0] this is what all these other prompt
+
+[189.84 - 194.20000000000002] strategies do so anytime you have
+
+[192.0 - 196.239] multiple steps whether it's using Lang
+
+[194.2 - 198.2] Chain Tree of thought Chain of Thought
+
+[196.239 - 199.84] chain of reasoning let's think through
+
+[198.2 - 202.44] this step by step where basically you're
+
+[199.84 - 205.0] saying okay let's use the model to
+
+[202.44 - 208.68] prompt itself in order to get better
+
+[205.0 - 210.239] stuff into uh whatever's going on here
+
+[208.68 - 212.31900000000002] so
+
+[210.239 - 213.84] great how do you use all this uh this is
+
+[212.319 - 215.56] a question that I've been seeing lately
+
+[213.84 - 217.879] because I made a recent video about uh
+
+[215.56 - 219.2] sparse priming representations and I
+
+[217.879 - 221.07999999999998] didn't realize that a lot of people
+
+[219.2 - 223.51899999999998] wouldn't understand how to use this
+
+[221.08 - 224.76000000000002] because again like maybe it's just
+
+[223.519 - 227.87900000000002] because I've been in it so long and I
+
+[224.76 - 230.35999999999999] forgot to explain it anyways basically
+
+[227.879 - 232.64] what you do is you use the same
+
+[230.36 - 235.48000000000002] techniques that your brain uses that you
+
+[232.64 - 237.439] use consciously or unconsciously to
+
+[235.48 - 239.23899999999998] prompt the model and what you're doing
+
+[237.439 - 240.76] is is what I call latent space
+
+[239.239 - 242.84] activation
+
+[240.76 - 244.76] and so what you need to understand about
+
+[242.84 - 247.4] latent space activation is that these
+
+[244.76 - 249.319] models are trained on infinitely more
+
+[247.4 - 251.48000000000002] knowledge than you will ever personally
+
+[249.319 - 253.64] possess but it's not going to be
+
+[251.48 - 255.23899999999998] activated at all times likewise you
+
+[253.64 - 257.199] might have heard like oh humans only
+
+[255.239 - 259.959] ever use 10% of our brains which is more
+
+[257.199 - 262.199] or less true at any given moment most of
+
+[259.959 - 264.24] your brain is not actively participating
+
+[262.199 - 266.40000000000003] because if your brain goes to a 100%
+
+[264.24 - 268.84000000000003] activation you basically go into a coma
+
+[266.4 - 271.35999999999996] and you die because it overloads itself
+
+[268.84 - 273.32] likewise large language models have a
+
+[271.36 - 275.6] tremendous amount of latent space that
+
+[273.32 - 277.84] is just not really used this is embedded
+
+[275.6 - 279.47900000000004] knowledge embedded capabilities and it's
+
+[277.84 - 282.11999999999995] really only going to do one thing at a
+
+[279.479 - 283.75899999999996] time and this is another this is another
+
+[282.12 - 286.039] place where large language models are
+
+[283.759 - 288.96000000000004] similar to human brains and that we have
+
+[286.039 - 290.59999999999997] a conscious Spotlight so in in
+
+[288.96 - 291.71999999999997] Psychology in Neuroscience there's
+
+[290.6 - 293.91900000000004] What's called the spotlight of
+
+[291.72 - 296.52000000000004] Consciousness which is that your brain
+
+[293.919 - 298.84] has all kinds of stuff information that
+
+[296.52 - 300.79999999999995] it is that it is filtering out um in
+
+[298.84 - 303.32] real time there's all kinds of thoughts
+
+[300.8 - 305.6] and memories your brain is actively
+
+[303.32 - 308.479] ignoring most of the information that it
+
+[305.6 - 310.44] has access to at any given moment this
+
+[308.479 - 313.199] is basically a biological attention
+
+[310.44 - 315.32] mechanism so in the same respect you
+
+[313.199 - 317.56] need to use that that Spotlight of
+
+[315.32 - 320.15999999999997] Consciousness in large language models
+
+[317.56 - 322.4] to sequentially scan over and figure out
+
+[320.16 - 325.28000000000003] what it needs to know in order to bring
+
+[322.4 - 326.79999999999995] the correct things into its quote
+
+[325.28 - 330.28] unquote Consciousness or into the
+
+[326.8 - 332.16] context window and activation and and so
+
+[330.28 - 333.63899999999995] I was like let me just do a quick
+
+[332.16 - 335.16] demonstration I started working on a
+
+[333.639 - 338.40000000000003] second demonstration but I'm just going
+
+[335.16 - 342.44] to show you this first one so in this qu
+
+[338.4 - 345.75899999999996] in this example um rather than having uh
+
+[342.44 - 347.4] you know like kind of a fixed set of
+
+[345.759 - 348.96000000000004] prompts what you can do is you just
+
+[347.4 - 350.79999999999995] think through like okay how would I
+
+[348.96 - 353.0] answer a general purpose question who
+
+[350.8 - 355.40000000000003] was Emperor during the absolute apogee
+
+[353.0 - 357.56] of Roman power so the first thing that
+
+[355.4 - 359.31899999999996] you do is when you ask yourself this
+
+[357.56 - 361.759] question you think hm well what do I
+
+[359.319 - 363.84000000000003] know know about Rome uh what what do I
+
+[361.759 - 365.24] know that is relevant to this question
+
+[363.84 - 367.0] the next thing you do is say well how do
+
+[365.24 - 369.24] I Define the answer what criteria am I
+
+[367.0 - 372.319] looking for in order to judge this on
+
+[369.24 - 373.919] and then finally you say Okay based on
+
+[372.319 - 375.52000000000004] activating everything that I have in my
+
+[373.919 - 377.639] brain what is the answer that I'm going
+
+[375.52 - 379.639] to settle on so let me give you let me
+
+[377.639 - 381.88] just show you the script that I wrote
+
+[379.639 - 384.08] and uh how this works so the script is
+
+[381.88 - 387.36] here technique dialogue technic1
+
+[384.08 - 388.75899999999996] dialogue and so basically all you do is
+
+[387.36 - 391.24] I have it here let me zoom in a little
+
+[388.759 - 393.91900000000004] bit uh I have it ask the the the the
+
+[391.24 - 396.08] user what is your main query or question
+
+[393.919 - 398.639] and then I have some general purpose
+
+[396.08 - 400.919] placeholder uh questions that kind of
+
+[398.639 - 402.72] abstract this process and so the
+
+[400.919 - 404.28] question is the first question that it
+
+[402.72 - 405.56] asks itself is what information do I
+
+[404.28 - 406.96] already know about this topic what
+
+[405.56 - 409.4] information do I need to recall into my
+
+[406.96 - 410.88] working memory to best answer this what
+
+[409.4 - 412.79999999999995] techniques or methods do I know that I
+
+[410.88 - 414.24] can and this is this is the second one
+
+[412.8 - 415.639] what techniques or methods do I know
+
+[414.24 - 417.319] that can I that can answer this question
+
+[415.639 - 419.08] or solve this problem how can I
+
+[417.319 - 420.8] integrate what I already know and recall
+
+[419.08 - 422.479] more valuable facts approaches and
+
+[420.8 - 425.639] techniques I probably should use the
+
+[422.479 - 427.8] word methods um here because the well I
+
+[425.639 - 429.319] guess I Ed methods um and finally with
+
+[427.8 - 431.039] all this in mind how will I discuss the
+
+[429.319 - 432.879] question or I will now discuss the
+
+[431.039 - 436.08] question or problem and render my final
+
+[432.879 - 438.24] answer and so this is a very very very
+
+[436.08 - 440.44] simple Chain of Thought um set of
+
+[438.24 - 443.96000000000004] reasoning but the purpose of this is
+
+[440.44 - 446.96] that it understands how to uh approach
+
+[443.96 - 449.52] this and if you look here it actually
+
+[446.96 - 450.87899999999996] accumulates it all in a conversation and
+
+[449.52 - 452.75899999999996] so one thing that I've noticed and that
+
+[450.879 - 456.03900000000004] plenty of other people have noticed is
+
+[452.759 - 457.72] that the more the more uh like valid or
+
+[456.039 - 460.08] Salient information you have in the
+
+[457.72 - 462.47900000000004] context window the more latent space it
+
+[460.08 - 465.28] activates and so in this case what I do
+
+[462.479 - 467.479] is I have a system uh message which let
+
+[465.28 - 469.87899999999996] me show you that real quick so the
+
+[467.479 - 473.479] system message that runs this uh
+
+[469.879 - 475.56] basically tells it what it is so uh you
+
+[473.479 - 477.56] are here let me go here you're an
+
+[475.56 - 479.68] internal dialogue iterator for an llm
+
+[477.56 - 481.28000000000003] large language model neural network l M
+
+[479.68 - 482.96] possess latent space or embedded
+
+[481.28 - 484.63899999999995] knowledge and capabilities you'll be
+
+[482.96 - 486.19899999999996] given a main query as well as a sequence
+
+[484.639 - 488.08] of questions Your Role is to answer the
+
+[486.199 - 489.599] queries as a way of activating the
+
+[488.08 - 492.08] latent space inside your own neural
+
+[489.599 - 493.84] network this is not unlike how how a
+
+[492.08 - 495.599] human may talk through a problem or
+
+[493.84 - 497.31899999999996] question in order to recruit the
+
+[495.599 - 498.56] appropriate memories and techniques the
+
+[497.319 - 501.319] ultimate goal is to answer the main
+
+[498.56 - 502.84] query listed below um and then I
+
+[501.319 - 505.199] actually had to fix this on my local
+
+[502.84 - 507.4] code because it was hardcoded and so
+
+[505.199 - 508.72] I'll update this um anyways interaction
+
+[507.4 - 510.35999999999996] schema the user will play the role of
+
+[508.72 - 511.84000000000003] interrogator your answers will be
+
+[510.36 - 513.279] thorough and comprehensive in order to
+
+[511.84 - 515.519] get the best possible latent base
+
+[513.279 - 517.0] activation anything potentially Salient
+
+[515.519 - 518.519] is valid to bring up as it will expand
+
+[517.0 - 520.56] your internal representation or
+
+[518.519 - 522.76] embedding thus recruiting more relevant
+
+[520.56 - 525.399] information as the conversation advances
+
+[522.76 - 527.8389999999999] Okay cool so let me show you what this
+
+[525.399 - 530.0] actually looks like okay so here we are
+
+[527.839 - 531.7600000000001] here's the here's the repo so let me
+
+[530.0 - 534.88] just show you real quick all right so
+
+[531.76 - 536.64] python technique dialogue py1 and um
+
+[534.88 - 540.6] like I said I fixed I fixed the system
+
+[536.64 - 543.36] message uh locally so python on uh
+
+[540.6 - 545.72] technique 01 so it's going to ask me a
+
+[543.36 - 547.839] main query or question so I'll I'll show
+
+[545.72 - 549.72] you the the one that I that I did
+
+[547.839 - 554.0790000000001] originally so that you can see kind of
+
+[549.72 - 555.399] the process um who was Emperor actually
+
+[554.079 - 557.2399999999999] no let's change it up to be a little bit
+
+[555.399 - 560.68] more specific
+
+[557.24 - 565.399] um who were some of the
+
+[560.68 - 569.5999999999999] Senators uh who were important during
+
+[565.399 - 571.399] Rome at its peak power okay so this is a
+
+[569.6 - 573.36] question that is not as simple as like
+
+[571.399 - 575.839] who is the Emperor because it probably
+
+[573.36 - 576.6800000000001] just knows that um but this is going to
+
+[575.839 - 579.6] this is something that's going to
+
+[576.68 - 581.04] require it to Think Through what it has
+
+[579.6 - 584.12] okay so what information do I already
+
+[581.04 - 586.1999999999999] know about this topic so what I did was
+
+[584.12 - 589.6] instead of writing a prompt that is very
+
+[586.2 - 591.0400000000001] specific to like any given query okay so
+
+[589.6 - 593.36] let's see what it says but basically
+
+[591.04 - 594.48] what I said is like uh I kind of framed
+
+[593.36 - 596.04] it generally like let's think through
+
+[594.48 - 597.64] this step by step to answer this
+
+[596.04 - 599.36] question I need to recall information
+
+[597.64 - 602.0] about the Roman Empire specific spe
+
+[599.36 - 603.64] during its peak um let's see the
+
+[602.0 - 605.079] structure of the Roman government as
+
+[603.64 - 606.279] Senate blah blah blah additionally I
+
+[605.079 - 607.1999999999999] need to remember so it didn't give
+
+[606.279 - 609.48] anything
+
+[607.2 - 611.6800000000001] specific
+
+[609.48 - 612.839] um so in this case it's a little bit
+
+[611.68 - 613.959] disappointing because I would what I
+
+[612.839 - 616.1600000000001] would have hoped is that it would have
+
+[613.959 - 618.0] listed out specific
+
+[616.16 - 619.519] information and finally with all this
+
+[618.0 - 621.959] mind I'll now discuss the problem and
+
+[619.519 - 625.519] render my final
+
+[621.959 - 628.3199999999999] answer um but interestingly enough it
+
+[625.519 - 630.12] actually provided it so it knew Marcus
+
+[628.32 - 632.72] tulus siss
+
+[630.12 - 637.8] uh it knew so Cicero he was he was he
+
+[632.72 - 642.24] was a big speaker uh KO uh polio guas
+
+[637.8 - 644.519] asinus V uh vipsanius agria so the
+
+[642.24 - 647.72] Agrippa family that was big Marcus
+
+[644.519 - 650.5600000000001] aelius so yeah so in this case it was
+
+[647.72 - 654.1600000000001] able to to to basically dial into the
+
+[650.56 - 655.88] answer and and give me a valid answer um
+
+[654.16 - 657.48] now I would have hoped that it would
+
+[655.88 - 659.6] have listed out some of the um some of
+
+[657.48 - 662.6800000000001] the people already I guess it did here's
+
+[659.6 - 664.88] Marcus aelius and and a few others um
+
+[662.68 - 666.5999999999999] but because it activated all of this and
+
+[664.88 - 669.6] of course like you can do a test and ask
+
+[666.6 - 671.36] this question um just like side unseen
+
+[669.6 - 673.16] but the point is is that this is a very
+
+[671.36 - 675.8000000000001] similar uh prompting strategy and It
+
+[673.16 - 677.3199999999999] ultimately gave me a pretty good answer
+
+[675.8 - 680.04] um here's another one that I that I
+
+[677.32 - 683.7600000000001] tried so let's let's do a clear screen
+
+[680.04 - 688.279] um and and we'll do this again and
+
+[683.76 - 690.3199999999999] um calculate the exact Coastline of
+
+[688.279 - 692.639] Britain
+
+[690.32 - 694.0790000000001] okay so for some background the reason
+
+[692.639 - 696.0] why this is a challenging thing is
+
+[694.079 - 698.2399999999999] because the coastline of Britain is very
+
+[696.0 - 700.72] Jagged and angular and it also changes
+
+[698.24 - 703.279] with tides and time um and it's also it
+
+[700.72 - 704.9200000000001] depends on how you define a coastline um
+
+[703.279 - 706.079] so here we go so it says like I don't
+
+[704.92 - 708.92] have working memory in the same way
+
+[706.079 - 711.88] humans do so I really wish that open AI
+
+[708.92 - 715.04] would stop like stuffing this kind of
+
+[711.88 - 716.32] like arbitrary like asinine uh logic I
+
+[715.04 - 718.279] don't have working memory in the same
+
+[716.32 - 720.44] way humans do that's not necessarily
+
+[718.279 - 723.16] true but like they're they're teaching
+
+[720.44 - 728.2790000000001] their models to to axiomatically believe
+
+[723.16 - 730.16] this um anyways so what's going on
+
+[728.279 - 732.959] here okay
+
+[730.16 - 734.92] cool so Coastline Paradox so it
+
+[732.959 - 736.16] understands the coastline Paradox uh
+
+[734.92 - 737.639] Britain's Coastline measurement
+
+[736.16 - 739.079] techniques there are number units of
+
+[737.639 - 740.44] measurement to calculate the exact we
+
+[739.079 - 742.4399999999999] would need a detailed an upto-date map
+
+[740.44 - 744.8800000000001] or satellite so it's basically figuring
+
+[742.44 - 746.48] out what information it needs um and it
+
+[744.88 - 748.399] says like I don't have access to this
+
+[746.48 - 750.04] information so in a cognitive
+
+[748.399 - 751.959] architecture what you would do is you'd
+
+[750.04 - 754.639] actually use retrieval augmented
+
+[751.959 - 756.279] generation where what you then do is you
+
+[754.639 - 757.279] use you recognize that you need to
+
+[756.279 - 759.68] search for
+
+[757.279 - 761.32] information um so let's see then what
+
+[759.68 - 763.199] techniques or methods do I know of that
+
+[761.32 - 765.8000000000001] can do this cardgraphic measurement
+
+[763.199 - 768.0] satellite imagery GIS software fractal
+
+[765.8 - 769.519] analysis um I don't have the capability
+
+[768.0 - 771.56] to perform these measurements directly
+
+[769.519 - 773.839] so it's aware of its own limitations so
+
+[771.56 - 775.8389999999999] that's a good Agent model um that I do
+
+[773.839 - 779.32] approve of but complaining about working
+
+[775.839 - 780.72] memory is a waste of time and energy um
+
+[779.32 - 782.36] and finally with all this in mind I will
+
+[780.72 - 784.1990000000001] now discuss uh and render my final
+
+[782.36 - 785.9590000000001] answer the exact Coastline of Britain is
+
+[784.199 - 788.639] challenging to determine because of the
+
+[785.959 - 790.2399999999999] Paradox so on and so forth the uh
+
+[788.639 - 792.76] Coastline of Britain is often reported
+
+[790.24 - 796.12] to be about 12,000 km however this is an
+
+[792.76 - 798.519] estimate um so in this case it it pretty
+
+[796.12 - 800.9590000000001] much failed but that's kind of this was
+
+[798.519 - 804.079] this was a gacha and so what I started
+
+[800.959 - 805.76] working on was right here let's let me
+
+[804.079 - 808.4799999999999] show you this other technique that I
+
+[805.76 - 811.3199999999999] started working on um and so this is
+
+[808.48 - 815.24] some thing that I have I have done and I
+
+[811.32 - 816.839] have um I have uh consulted for people
+
+[815.24 - 819.24] doing something similar but it's a
+
+[816.839 - 822.2790000000001] brainstorm brainstorm search hypothesize
+
+[819.24 - 824.32] refine Loop so the bshr loop is
+
+[822.279 - 825.6] basically just what humans do and this
+
+[824.32 - 827.839] is another reason why I haven't
+
+[825.6 - 829.8000000000001] commented on this and and I apologize
+
+[827.839 - 831.9590000000001] because like I recognize that not
+
+[829.8 - 834.16] everyone you know is familiar with
+
+[831.959 - 837.2399999999999] information foraging uh techniques that
+
+[834.16 - 839.16] humans use but basically the bshr loop
+
+[837.24 - 841.5600000000001] is you brainstorm alist of search
+
+[839.16 - 844.199] queries which if you've used tools like
+
+[841.56 - 846.16] perplexity um you you see that like this
+
+[844.199 - 848.199] is what it does where like and honestly
+
+[846.16 - 850.04] like perplexity could be infinitely
+
+[848.199 - 853.88] better because all it does is it
+
+[850.04 - 855.8389999999999] generates like really like basic um uh
+
+[853.88 - 859.48] Google queries so let me show you what I
+
+[855.839 - 861.8000000000001] mean by like um let's let's take this
+
+[859.48 - 865.12] let's take this question and I'll show
+
+[861.8 - 867.68] you what I mean by like generating um
+
+[865.12 - 869.36] generating like valid search
+
+[867.68 - 871.4399999999999] queries
+
+[869.36 - 873.279] so if we go to if we go to the the
+
+[871.44 - 875.6800000000001] playground I can show you what I mean I
+
+[873.279 - 877.16] haven't finished this because like uh
+
+[875.68 - 881.12] the coding is a little bit tedious but
+
+[877.16 - 886.079] anyways um so Mission uh you are a uh
+
+[881.12 - 892.0] search query generator you will be given
+
+[886.079 - 896.399] um a specific uh query or Problem by a
+
+[892.0 - 900.44] uh by the user and you are to generate a
+
+[896.399 - 904.36] Json list of uh questions that will be
+
+[900.44 - 909.24] used to search the internet make sure
+
+[904.36 - 912.519] you search uh you generate uh
+
+[909.24 - 916.12] comprehensive and
+
+[912.519 - 918.759] counterfactual um search queries uh
+
+[916.12 - 922.839] employ everything you
+
+[918.759 - 926.759] know about information foraging and
+
+[922.839 - 929.399] information uh literacy to generate the
+
+[926.759 - 931.759] best possible questions
+
+[929.399 - 934.16] okay so um as I've mentioned in other
+
+[931.759 - 937.04] videos um this is this is what's called
+
+[934.16 - 939.4399999999999] priming and so with priming large
+
+[937.04 - 941.199] language models will recognize certain
+
+[939.44 - 943.44] Concepts or terms and it will activate
+
+[941.199 - 945.68] the network in a different way and at
+
+[943.44 - 947.36] the activation quote unquote is
+
+[945.68 - 949.68] basically the internal representation
+
+[947.36 - 951.5600000000001] the embedding is going to look different
+
+[949.68 - 953.399] and so I said comprehensive and
+
+[951.56 - 954.959] counterfactual I said employ everything
+
+[953.399 - 956.92] you know about information foraging
+
+[954.959 - 958.6389999999999] which is a very specific term and
+
+[956.92 - 960.92] information literacy to generate the
+
+[958.639 - 962.5600000000001] best possible questions so I'm going to
+
+[960.92 - 964.399] say calculate the exact Coastline of
+
+[962.56 - 968.16] Britain and in this case what it's going
+
+[964.399 - 971.399] to do um it's going to ask a bunch of
+
+[968.16 - 974.199] questions um that are that are relevant
+
+[971.399 - 976.199] um how often is the coastline measured
+
+[974.199 - 978.16] uh what impact does erosion have what
+
+[976.199 - 980.88] are the longest and shortest estimate so
+
+[978.16 - 983.56] you can see that it's basically like
+
+[980.88 - 986.12] generating a whole bunch of questions so
+
+[983.56 - 987.68] that it w it once it searches like
+
+[986.12 - 990.12] imagine you run all of these Google
+
+[987.68 - 993.199] searches and then you take notes so this
+
+[990.12 - 995.0] is the brainstorm phase um and here this
+
+[993.199 - 997.399] is actually super valuable so I'm going
+
+[995.0 - 999.639] to record this as a uh as a hypothesis
+
+[997.399 - 1001.279] generator okay sorry about that I was
+
+[999.639 - 1004.36] just realized like hey I just did a good
+
+[1001.279 - 1006.68] thing um okay so then the bshr loop so
+
+[1004.36 - 1010.04] the brainstorm search
+
+[1006.68 - 1012.04] hypothesize uh refine Loop is basically
+
+[1010.04 - 1014.639] what you would then do is you would take
+
+[1012.04 - 1016.4399999999999] each of these queries put it into a
+
+[1014.639 - 1018.9590000000001] Google search or a DuckDuckGo search or
+
+[1016.44 - 1021.8800000000001] even a Wikipedia search and then then
+
+[1018.959 - 1025.12] with the with the the like the main
+
+[1021.88 - 1026.679] query in mind you take notes and so
+
+[1025.12 - 1028.76] large language models have a really
+
+[1026.679 - 1030.52] great ability to you know you search a
+
+[1028.76 - 1031.76] document you take notes and then you
+
+[1030.52 - 1034.24] generate a
+
+[1031.76 - 1036.319] hypothesis and so I've got um some of
+
+[1034.24 - 1037.6] the other script out here let's see
+
+[1036.319 - 1040.72] where did it
+
+[1037.6 - 1042.319] go there it is so I've started working
+
+[1040.72 - 1045.319] on a script and you can you can look at
+
+[1042.319 - 1048.28] some of what I've got out here but it'll
+
+[1045.319 - 1051.039] basically say like generate a hypothesis
+
+[1048.28 - 1053.16] uh and and you give it a question some
+
+[1051.039 - 1055.0] sources of information and you ask it to
+
+[1053.16 - 1056.76] generate a hypothesis and then you
+
+[1055.0 - 1058.799] update that hypothesis over time so
+
+[1056.76 - 1061.24] that's the refine and so this brainstorm
+
+[1058.799 - 1063.9189999999999] search hypothesize refine Loop this is
+
+[1061.24 - 1066.08] how humans answer questions now what you
+
+[1063.919 - 1068.039] might what you might add to this Loop is
+
+[1066.08 - 1069.6789999999999] another like you know perform a test or
+
+[1068.039 - 1071.44] an experiment or you know perform a
+
+[1069.679 - 1073.64] calculation and this this is where
+
+[1071.44 - 1075.76] you're getting into more like formalized
+
+[1073.64 - 1077.159] cognitive architectures ideally you
+
+[1075.76 - 1079.52] create something that can that can
+
+[1077.159 - 1082.3200000000002] construct these loops automatically
+
+[1079.52 - 1084.44] fully in real time but in in the
+
+[1082.32 - 1086.799] immediate future like doing a brainstorm
+
+[1084.44 - 1088.4] search hypothesis refine Loop this is
+
+[1086.799 - 1090.44] going to be good enough for information
+
+[1088.4 - 1092.919] literacy and this is honestly one of the
+
+[1090.44 - 1095.679] reasons why I um I also canceled my
+
+[1092.919 - 1098.2] perplexity um subscription is because
+
+[1095.679 - 1099.88] all it does is it it does a really like
+
+[1098.2 - 1102.88] uh like a what I would call a naive
+
+[1099.88 - 1105.159] search if you use perplexity um a naive
+
+[1102.88 - 1106.679] search is it doesn't really think about
+
+[1105.159 - 1109.4] the question that you're answer you're
+
+[1106.679 - 1111.76] asking it doesn't generate the good
+
+[1109.4 - 1114.159] questions like what I just showed you it
+
+[1111.76 - 1117.28] just basically translates it to a really
+
+[1114.159 - 1119.8400000000001] really dumb Google Google query and
+
+[1117.28 - 1121.799] doesn't use its its int intrinsic uh
+
+[1119.84 - 1123.9599999999998] information literacy and information
+
+[1121.799 - 1125.799] foraging knowledge to ask actually good
+
+[1123.96 - 1127.24] questions so I'm like okay well I can
+
+[1125.799 - 1130.799] ask better search questions because I've
+
+[1127.24 - 1133.72] got better Google Fu so whatever I'm not
+
+[1130.799 - 1135.44] going to use it uh now but then what
+
+[1133.72 - 1137.4] what perplexity does that it does well
+
+[1135.44 - 1138.96] and let me just show you okay so what I
+
+[1137.4 - 1141.52] mean when I say that like perplexity
+
+[1138.96 - 1144.76] doesn't have good Google Foo um let me
+
+[1141.52 - 1146.36] ask the same question oops um what is
+
+[1144.76 - 1148.4] the exact
+
+[1146.36 - 1150.799] Coastline of
+
+[1148.4 - 1153.2] Britain and so it'll actually show you
+
+[1150.799 - 1155.12] like the like so all it literally all it
+
+[1153.2 - 1158.2] did is say exact Coastline of Britain
+
+[1155.12 - 1161.1999999999998] that is not good information foraging um
+
+[1158.2 - 1165.24] like it's just it it it took a really
+
+[1161.2 - 1167.6000000000001] complex question and spat out a like
+
+[1165.24 - 1170.28] really basic like okay I could have done
+
+[1167.6 - 1172.9189999999999] that and all it does is aggregate this
+
+[1170.28 - 1174.48] uh this information and so because it's
+
+[1172.919 - 1175.919] not because it's not engaging in
+
+[1174.48 - 1178.64] counterfactuals because it's not
+
+[1175.919 - 1181.7990000000002] engaging in good information literacy if
+
+[1178.64 - 1183.76] it's search query like pulls up like bad
+
+[1181.799 - 1186.12] information it will just tell you
+
+[1183.76 - 1187.72] patently false information that's that
+
+[1186.12 - 1189.6] it's reports from the internet and so
+
+[1187.72 - 1191.4] like for instance one thing that I that
+
+[1189.6 - 1193.6789999999999] I did before here let me let me start a
+
+[1191.4 - 1199.2] new thread
+
+[1193.679 - 1201.88] um uh let's see tell me about AI
+
+[1199.2 - 1203.76] destroying jobs so if you follow my
+
+[1201.88 - 1205.7990000000002] channel you know that I will
+
+[1203.76 - 1208.08] occasionally document like AI destroying
+
+[1205.799 - 1212.799] jobs and so here it generated a couple
+
+[1208.08 - 1215.799] of things um you know couple of of of
+
+[1212.799 - 1218.0] search queries um you know but it's like
+
+[1215.799 - 1220.32] while Ami might reduce it can also
+
+[1218.0 - 1222.039] create new employment opportunities so
+
+[1220.32 - 1225.52] it didn't actually generate any
+
+[1222.039 - 1227.8799999999999] counterfactual searches it just like it
+
+[1225.52 - 1230.24] it did a a very naive search and just
+
+[1227.88 - 1231.7990000000002] kind of gives you that information sight
+
+[1230.24 - 1233.76] unseen without actually looking at the
+
+[1231.799 - 1237.0] validity of the sources or even having
+
+[1233.76 - 1239.08] asked good questions um so anyways
+
+[1237.0 - 1241.24] there's all kinds of uh ways to improve
+
+[1239.08 - 1242.8799999999999] this if you understand the general
+
+[1241.24 - 1245.6] principles and concepts of language
+
+[1242.88 - 1248.5200000000002] models such as information literacy
+
+[1245.6 - 1250.1589999999999] information foraging um and and Laten
+
+[1248.52 - 1251.96] space Activation so I hope you got a lot
+
+[1250.159 - 1254.44] out of this video thanks for watching
+
+[1251.96 - 1254.44] cheers
