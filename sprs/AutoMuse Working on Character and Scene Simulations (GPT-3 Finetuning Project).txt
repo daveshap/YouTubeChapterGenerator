@@ -1,0 +1,21 @@
+- David Shapiro continues work on Auto Muse 3.
+- Focus on fine-tuning for scene simulation.
+- Aim: create model that advances scenes given initial setup.
+- Experimentation with character and event simulations planned.
+- Prompt engineering proved frustrating, switching to conventional fine-tuning.
+- Synthetic data generation using prompts with location, time, character, and scene details.
+- UUIDs used to increase internal entropy and reduce repetition.
+- Over 600 different settings to generate scenes.
+- OpenAI's price reduction makes synthetic data generation more economical.
+- Next steps: generate basic scenes, then prompts to advance plot.
+- Fine-tune model to advance plot scene by scene.
+- Additional fine-tuning for character POV simulation.
+- Character simulation to include stream of consciousness and interiority.
+- Character traits important for simulation: backstory, beliefs, preferences, motivations, connections.
+- Agent model concept: input, processing, output loop.
+- Character simulation feeds into scene simulation, creating a cycle.
+- Character traits form the agent model for simulation.
+- Simulations can be used for fiction, AGI alignment testing, and understanding human cognition.
+- Interaction with the world varies: game world, real world, fictional world.
+- Consciousness defined as an agent interacting with an external world.
+- Video to be continued in part two with further development on character and scene simulations.

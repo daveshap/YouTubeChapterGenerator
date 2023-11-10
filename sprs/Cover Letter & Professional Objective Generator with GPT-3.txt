@@ -1,0 +1,18 @@
+- David Shapiro creates video content.
+- Recently discussed chatbot for cover letters.
+- Noticed demand for cover letter and resume assistance on subreddit.
+- Project expansion to streamline resume information entry.
+- Pre-loaded questionnaire proposed for efficiency.
+- Variables include name, company, experience, strengths, job excitement, fit, and more.
+- JSON file used to save answers.
+- David's example: Senior Cognitive Architect, 16 years experience, fast thinker, artificial cognition field creator, relaxed yet challenging work environment, flexible early hours, passion for robot creation to enable luxury living, travel aspirations, authored books on artificial cognition.
+- Code snippet: Python script to load and format JSON data.
+- Label fields added for clarity in data structure.
+- GPT-3 prompt crafted for professional cover letter generation.
+- Additional achievements added to enhance cover letter.
+- Prompt adjusted for typo correction and improved output.
+- GPT-3 used to generate cover letter and professional objective section for resume.
+- Professional objective section emphasized for its importance in resumes.
+- Iterative process to refine output, including example-based few-shot learning.
+- Final output includes a concise professional objective and detailed cover letter.
+- Instructions for others to use the script with their own API key and information.

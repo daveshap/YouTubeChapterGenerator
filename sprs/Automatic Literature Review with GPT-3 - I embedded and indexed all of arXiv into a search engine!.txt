@@ -1,0 +1,13 @@
+- David Shapiro updates Patreon with new tiers and benefits.
+- Higher tiers offer dedicated one-on-one time with David.
+- David creates an automated literature review engine for scientific papers.
+- The engine has two parts: a search engine using semantic embedding and a GPT-3 script for reviews.
+- David's fiancée, a librarian, helps refine the project's direction.
+- The project aims to be useful and attention-grabbing for YouTube content.
+- The engine indexes metadata from the arXiv dataset on Kaggle.
+- David uses TensorFlow Hub and a semantic vector for indexing abstracts and titles.
+- The project involves coding, data preparation, and testing for efficiency.
+- David considers the ethical use of arXiv's open-access data and avoids bulk downloading.
+- The final product includes a Flask web interface for semantic searches.
+- A separate script generates literature reviews from selected papers.
+- David contemplates turning the project into a commercial service.

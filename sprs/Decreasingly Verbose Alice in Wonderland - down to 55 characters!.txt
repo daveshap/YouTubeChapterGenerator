@@ -1,0 +1,10 @@
+1. Video anticipates high popularity.
+2. Content involves GPT-3 compression script.
+3. Script converts text to detailed summary.
+4. "Alice in Wonderland" summarized, reduced to 25% original length.
+5. Recursive summarization proposed, inspired by Reddit's r/decreasinglyverbose.
+6. Aim to create extremely concise "Alice in Wonderland" summary.
+7. Process iteratively shortens text, adjusting chunk size and summary prompt.
+8. Initial 45,000 characters condensed to 19,788, then to 4,735, and further.
+9. Final iterations achieve extreme conciseness, down to 55 characters.
+10. Experiment concludes with a single sentence encapsulating the story.

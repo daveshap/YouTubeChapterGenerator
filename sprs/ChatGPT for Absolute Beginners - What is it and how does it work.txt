@@ -1,0 +1,18 @@
+- David Shapiro creates video content on GPT and ChatGPT.
+- Shapiro seeks Patreon support for his educational efforts.
+- Patreon benefits: exclusive blog access, Patreon-only videos.
+- OpenAI, creator of GPT, shifted from open-source to closed-source and for-profit.
+- GPT (Generative Pre-trained Transformer) predicts text tokens.
+- GPT's power lies in its embedded knowledge from extensive training data.
+- GPT models vary in size, measured by parameter count.
+- Larger GPT models have more parameters, equating to more processing power.
+- GPT flavors: vanilla (foundation models) and fine-tuned (e.g., Codex, Instruct, ChatGPT).
+- Fine-tuning uses transfer learning, requires fewer data than initial training.
+- ChatGPT's flavor developed through RLHF (Reinforcement Learning with Human Feedback).
+- ChatGPT's memory: rolling window, speculated search or scratch pad, potential knowledge graph.
+- ChatGPT's latent space contains vast, embedded knowledge.
+- ChatGPT complements human capabilities, offloading cognitive tasks.
+- ChatGPT's impact: investment surge, proof of AI readiness, potential for rapid societal change.
+- ChatGPT's limitations: operational cost, safety, privacy concerns.
+- 2023 seen as the beginning of the singularity or fourth Industrial Revolution.
+- Rapid change anticipated due to AI technologies like ChatGPT.

@@ -1,0 +1,22 @@
+David Shapiro synthesizes emails, explores email intents, and creates a universal email generator.
+
+1. Email synthesis: Shapiro addresses demand for email synthesis tools.
+2. Diplomatic emails: Shapiro excels at writing diplomatic emails, has rules for crafting perfect emails.
+3. Email intents: Identifies email intents as crucial, includes recipient, topic, purpose.
+4. Experimentation: Shapiro conducts experiments to generate email intents using prompts.
+5. UUID usage: Incorporates UUID in prompts to increase randomness and improve output.
+6. Scenario crafting: Attempts to craft scenarios for email intents, adjusts prompts for specificity.
+7. Modifier placeholders: Uses placeholders in prompts to add entropy, rotates through them.
+8. Creative offloading: Aims to have GPT-3 generate modifiers, seeks to offload creativity.
+9. Intent generation: Shapiro uses GPT-3 to generate a list of email intents for various contexts.
+10. Category expansion: Expands intent categories to include family, friends, work, church, school.
+11. Synthetic data: Shapiro generates synthetic data, adjusts temperature for variety.
+12. Data cleanup: Cleans up intent list, prepares for scenario generation.
+13. Scenario generation: Generates detailed scenarios for emails, refines prompts for better storytelling.
+14. Output emails: Converts scenarios into perfect emails, considers subject lines.
+15. Training data: Creates training data with bullet points, conversations, messy emails, and stories.
+16. Fine-tuning: Fine-tunes GPT-3 on diverse inputs to create a universal email generator.
+17. Sample generation: Generates 400 samples across four categories for fine-tuning.
+18. Final product: Tests the email generator with various scenarios, evaluates performance.
+19. Improvement potential: Acknowledges room for improvement, suggests increasing sample size and variety.
+20. Satisfaction: Rates the universal email generator highly, with slight room for enhancement.

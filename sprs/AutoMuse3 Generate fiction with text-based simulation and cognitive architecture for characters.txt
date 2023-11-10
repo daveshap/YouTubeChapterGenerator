@@ -1,0 +1,18 @@
+- David Shapiro presents a two-video day rarity.
+- Post-project completion, Shapiro's mind prompts for the next endeavor.
+- Auto Muse revisited, a popular project aimed at writing a novel via fine-tuning.
+- Auto Muse's method: interlocking narrative chunks creating a chain of story.
+- Fine-tuning led to repetitive content, prompting exploration of cognitive architectures and simulations.
+- Simulation service and Nexus critical for artificial general intelligence in a sandboxed world.
+- Text-based simulations equated to storytelling, leading to Auto Muse 3's conception.
+- Auto Muse 3 demonstrated: summarizes story, sets scenes, dialogues, and events in cycles.
+- Repetitiveness acknowledged, adjustments made to reduce it.
+- Simulation script detailed: infinite loop, story loading from logs, summarization, scene setting, character actions, and event progression.
+- Story elements saved as chronologically sequential logs, mirroring AGI's story structure.
+- Character profiles, summaries, and recent events used to generate character actions/dialogue.
+- Event generation aimed at advancing the plot with rarity events.
+- Iterative process with separation of character, setting, and plot into individual simulations.
+- Challenges with scene momentum and event handling noted.
+- Compile story script converts logs into prose, with ongoing refinement needed.
+- Auto Muse 3's development is iterative, with no promises for continuation.
+- Shapiro contemplates the project's future sophistication and direction.

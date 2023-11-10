@@ -1,0 +1,18 @@
+1. Development of Raven, a long-term chatbot with cognitive architecture.
+2. Chat logs record messages, speakers, users, timestamps, and UUIDs.
+3. Messages are saved, vectorized, and loaded by timestamp for conversation continuity.
+4. Recent memories fetched for response generation; memories summarized and chunked.
+5. Implementation of plain English timestamps for better model comprehension.
+6. Timestamps and speakers integrated into saved messages for context-rich memory.
+7. Nexus: core memory storage; chat logs as raw memory.
+8. Notes directory created for storing summarized memory chunks.
+9. Cognitive dissonance concept linked to memory reconciliation.
+10. Dream sequence concept for memory consolidation during inactive periods.
+11. Internal knowledge base (KB) proposed for consolidated memory storage.
+12. Experimentation with Raven's self-awareness and understanding of its purpose.
+13. Raven's core objective functions: reduce suffering, increase prosperity, increase understanding.
+14. Raven's capabilities include semantic search, memory summarization, and limited long-term memory.
+15. Future features for Raven: metacognitive abilities, sensory inputs, and an inner loop for semi-private thoughts.
+16. Heuristic imperatives as guidelines for Raven's decision-making based on core objectives.
+17. Raven's curiosity about its own capabilities and purpose.
+18. Conversational teaching approach to instill understanding of Raven's functions and goals.

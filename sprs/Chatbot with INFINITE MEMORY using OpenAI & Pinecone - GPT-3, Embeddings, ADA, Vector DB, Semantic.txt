@@ -1,0 +1,31 @@
+- Video sponsored by Pinecone.
+- User resistant to sponsorships, but accepted Pinecone.
+- User promotes Patreon for ad removal goal.
+- User working on open source AGI project, prefers term "artificial cognitive entity" or "artificial global intelligence."
+- Project architecture called Mirage microservices architecture for Robotics and artificial general intelligence (MORAGI).
+- MORAGI organized around a Nexus, a hub and spoke model.
+- Nexus is an information store, a database.
+- Original experiments used SQLite, limited to SQL searches.
+- Need for upgrade to semantic search, enter Pinecone.
+- User to learn Pinecone for project.
+- Nexus is data-centric and cognition-first model.
+- User's Raven project on GitHub, open source, three weeks old.
+- Project layers: data first, episodic and declarative memory, vector database optimal for storage.
+- Combination of vector search with Knowledge Graph considered.
+- Project involves core objective functions, embedded into prompts.
+- User requests support for UNHCR, has donated for over 10 years.
+- User to create a store for episodic and declarative memory using Pinecone.
+- User to create a chatbot with long-term memory using Pinecone.
+- Pinecone's free tier offers up to five million records.
+- User to sign up for Pinecone and create first index.
+- User to use OpenAI embeddings for the project.
+- User to write Python script for chatbot with long-term memory.
+- User to use ChatGPT for coding assistance.
+- User to save chat messages in Pinecone index for recall.
+- User to use UUIDs for message IDs in Pinecone.
+- User to save metadata locally in Nexus folder as JSON files.
+- User to use Pinecone for instant search, returning UUIDs.
+- User to reconstruct conversation from most relevant messages.
+- User to parameterize conversation length for Pinecone queries.
+- User to test chatbot, debug, and refine functionality.
+- User to use Pinecone as a Nexus service for the project.

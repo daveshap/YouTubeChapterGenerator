@@ -1,0 +1,19 @@
+- David Shapiro introduces a question generator for natural language cognitive architecture.
+- Question generation is crucial for memory retrieval and decision-making in cognitive architecture.
+- Shapiro's belief: unconscious questions guide human decision-making.
+- Details on this topic are available in Shapiro's book.
+- The question generator's repository is linked in the video description.
+- Repository contains 55,000 contexts from open-source datasets for question generation.
+- Contexts include movie dialogues, medical texts, news articles, Reddit posts, and Stack Exchange posts.
+- Different prompts were used to generate questions from these contexts.
+- Questions generated can serve various purposes, including reading comprehension tests and AI chatbots.
+- The finished product uses JSONL files for training GPT-3.
+- The model is prompted with "QUESTIONS:" in all caps to generate questions.
+- Shapiro demonstrates the generator using a Reddit post for career advice.
+- GPT-3 takes time to load custom models, slower than vanilla models.
+- The repository includes examples of prompts used for generating synthetic datasets.
+- Questions generated can be used for external responses or internal cognitive processes.
+- Another demonstration uses a Reddit post about job hunting positivity.
+- The generator produces questions that can help clarify or provide insight into the user's situation.
+- The NAUCA question generator is public and available under the MIT license.
+- The training file, questions.jsonl, is compatible with OpenAI's GPT-3.

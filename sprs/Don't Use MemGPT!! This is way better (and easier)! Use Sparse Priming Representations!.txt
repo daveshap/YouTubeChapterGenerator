@@ -1,0 +1,19 @@
+- Sparse Priming Representations (SPRs) are an efficient solution for language model limitations.
+- SPRs utilize associative properties of language models, similar to human brains.
+- Dave Shap introduced SPRs 7 months ago; details available in his repository.
+- SPRs activate latent space in Large Language Models (LLMs) through semantic associations.
+- LLMs embed knowledge, abilities, concepts, reasoning, planning, theory of mind.
+- Human logic flaws parallel LLMs' imperfect logic; both use associative learning.
+- SPRs bypass complex loops in memory GPT for knowledge retrieval.
+- Teaching LLMs: initial bulk training, fine-tuning, online learning, in-context learning.
+- Retrieval Augmented Generation (RAG) uses vector databases, knowledge graphs.
+- Context window limitations are algorithmic; token count is fixed.
+- Latent space is LLMs' superpower, akin to human associative learning.
+- SPRs prime LLMs to understand complex, novel ideas outside training data.
+- SPRs compress information into token-efficient representations for in-context learning.
+- SPRs are stored in metadata and injected at inference, not human-readable data.
+- SPRs are rendered as lists of statements, assertions, associations, concepts, analogies, metaphors.
+- Example: ACE framework compressed into SPR, then unpacked to full content.
+- SPRs allow semantic compression, reconstructing ideas from minimal details.
+- SPRs can be nested in metadata, allowing for complex concept representation.
+- Dave Shap's system message guides LLMs in using SPRs for advanced NLP, NLU, NLG tasks.

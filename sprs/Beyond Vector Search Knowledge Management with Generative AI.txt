@@ -1,0 +1,16 @@
+1. David Shapiro presents a deep dive on Knowledge Management.
+2. Shapiro's expertise spans IT infrastructure engineering and AI consulting.
+3. The video addresses limitations of AI tools lacking organizational context.
+4. Challenges include window size constraints, hallucinations, and grounding AI.
+5. Shapiro's background includes 15 years in enterprise IT, focusing on automation, cloud, and virtualization.
+6. He now consults on AI products and strategy, also offering coding tutorials on YouTube.
+7. The video was inspired by recurring client questions, indicating a common issue.
+8. Shapiro's wife, a librarian, influences his approach to data and information management.
+9. Viewers are encouraged to engage with concepts to become transdisciplinary AI strategists.
+10. Concepts covered include data ontologies, reconciliation, validation, factual grounding, source of truth, axiomatic principles, data taxonomy, classification systems, data curation, ETL, and information foraging.
+11. Practical implementation involves a data-centric model, treating information as central to business processes.
+12. Generative AI can perform shrinking, translation, and expanding data transformations.
+13. Four search strategies are outlined: vector search, knowledge graphs, metadata filtering, and indexes/table of contents.
+14. A gated process for handling information needs includes querying, distilling, and formatting/delivering.
+15. Assembly lines in business processes are broken down into inputs, stations, interfaces, and outputs.
+16. Shapiro offers further assistance via LinkedIn, Patreon, and provides resources in the video description.

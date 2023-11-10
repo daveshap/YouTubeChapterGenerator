@@ -1,0 +1,20 @@
+- David Shapiro introduces co-writing with GPT-3.
+- Co-writing involves minimal framing, default settings, and story creation.
+- Example story: Steve Hadley wakes up on Martian transit vessel "The Frog Prince."
+- Alarms blare, ship falling out of orbit towards Mars.
+- Steve Hadley, a seasoned test pilot and commander, reflects on his career and the ship's innovative technology.
+- The Frog Prince's propulsion system is fusion-based, capable of 4.5% light speed.
+- Telemetry fails, Steve attempts to correct catastrophic orbital descent.
+- AI detects nosedive, deems situation non-survivable.
+- Steve recalls a training simulation for guidance.
+- Lacks propellant, considers using attitude thrusters and parachutes.
+- AI resists suicidal maneuvers, Steve insists on engineering experiment.
+- Steve's unconventional plan executed by AI, outcome uncertain until successful touchdown.
+- Steve survives, greeted by Martian ground crew, reflects on chaos theory.
+- The Frog Prince's legacy: it sparked commercial space travel interest.
+- David Shapiro's background as an aerospace engineer, writer, and family man in Seattle.
+- Co-written short story with GPT-3 is flash fiction, approximately 1000 words.
+- Writing process: started with an opening prompt, GPT-3 developed the narrative.
+- Used vanilla DaVinci engine, temperature at 0.7, frequency penalty adjusted for creativity.
+- Frequency penalty explained: prevents token repetition, affects punctuation if too high.
+- Co-writing with GPT-3 demonstrated as quick and creative.

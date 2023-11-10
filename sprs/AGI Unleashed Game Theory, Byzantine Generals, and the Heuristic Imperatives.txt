@@ -1,0 +1,23 @@
+1. David Shapiro discusses AGI risks and control.
+2. Concerns about AI research moratoriums and existential risks.
+3. Weaponization and accidental outcomes as two AGI risk categories.
+4. Governmental slowness and incompetence in AI regulation.
+5. Potential for AGI collaboration leading to human harm.
+6. Economic shifts and wealth concentration from AGI development.
+7. Autonomous AI as a term for self-sufficient AI systems.
+8. Discrepancy between public discourse and academic/governmental discussions on AI.
+9. Control problem: ensuring superintelligent AI remains controllable.
+10. Convergent instrumental values, orthogonality thesis, treacherous turn, corrigibility, and value loading as AI control issues.
+11. Lack of comprehensive frameworks for AI safety.
+12. Kill switch solutions, corrigibility, reinforcement learning, and value alignment as proposed AI control methods.
+13. Recent paper on moral self-correction in large language models.
+14. AGI landscape: multiple AGIs, intelligence evolution, constraints, and arms race.
+15. Cyber warfare necessitates autonomous AGI systems.
+16. Byzantine generals problem analogy for AGI alignment.
+17. AGIs forming alliances and communicating more with each other than humans.
+18. Heuristic imperatives proposed by Shapiro: reduce suffering, increase prosperity, increase understanding.
+19. Heuristic imperatives as intrinsic motivations and moral frameworks.
+20. Implementation of heuristic imperatives through constitutional AI, reinforcement learning, planning, and review.
+21. Shapiro's work on heuristic imperatives available on GitHub.
+22. Call for dissemination, experimentation, and community engagement on heuristic imperatives.
+23. Shapiro's heuristic imperatives as a potential solution for AGI control and safety.

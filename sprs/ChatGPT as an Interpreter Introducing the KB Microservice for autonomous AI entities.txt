@@ -1,0 +1,20 @@
+- Published book on cognitive architecture titled "Natural Language Cognitive Architecture: A Prototype Artificial General Intelligence."
+- Book available on Barnes & Noble, free Epub on Barnes & Noble and GitHub.
+- Architecture features an outer loop and inner loop.
+- Recent GPT updates (June 13th) enhance steerability, simplifying implementation.
+- Introduced Knowledge Base Service within a microservices architecture for AGIs.
+- Shift from traditional coding to model-based logic and reasoning.
+- Repository for KB microservice, initially private, will be public upon video release.
+- KB microservice powered by GPT-3.5 Turbo, suitable for chatbots, cognitive architectures, and autonomous agents.
+- Flask app chosen for simplicity over FastAPI.
+- Microservice includes create, search, and update functions; no delete function, assuming knowledge permanence.
+- System messages guide GPT to create JSON-formatted KB articles from text inputs.
+- KB articles saved as YAML for human readability.
+- Language model serves as a program interpreter, central to the programming experience.
+- Search function uses language model to return relevant KB articles based on queries.
+- Directory of files provided to language model for context in decision-making.
+- Future work includes Daily Journal for episodic memory, task management, and user dossiers.
+- Time stamps and metadata enable correlation of events, tasks, and user information.
+- Upcoming GPT-4 with larger token windows will enhance recall and decision-making capabilities.
+- Task prioritization can be embedded in the system based on various imperatives.
+- June 13th GPT update significant for the development of autonomous AI systems.

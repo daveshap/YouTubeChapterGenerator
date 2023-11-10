@@ -1,0 +1,14 @@
+- David Shapiro presents video on Raven's encyclopedia service.
+- Service provides factual information, based on Wikipedia.
+- Wikipedia acknowledged as imperfect but sufficient source.
+- Nexus running, context output microservices demonstrated.
+- Context given: various statements about bacon, highlighting its appeal and relation to pigs and dogs.
+- Encyclopedia service searches for keywords in context, uses them to query database.
+- Service adds relevant articles to Nexus for context augmentation, question answering.
+- Service activation results in injection of multiple articles.
+- Debugging reveals issues with list injection, keyword recognition.
+- Keywords like "dogs definitely like bacon" yield no Wikipedia articles.
+- Relevant articles on "bacon" found, including Francis Bacon, types of bacon, Kevin Bacon, Baconator sandwich, Bacon County.
+- Recognition of need for service improvement, particularly in semantic understanding.
+- Goal: service to discern contextually relevant articles, e.g., food-related over others.
+- Video concludes with acknowledgment of MVP status and commitment to enhancement.

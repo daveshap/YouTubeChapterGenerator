@@ -1,0 +1,20 @@
+1. Begin with GPT-3 and prompt engineering before fine-tuning.
+2. GPT-3's power exceeds expectations; it's not a simple tool like SVM or regression models.
+3. Misconception: Fine-tuning is necessary from the start without exploring GPT-3's capabilities.
+4. GPT-3 has extensive training on vast amounts of data.
+5. Fine-tuning is transfer learning, leveraging GPT-3's pre-existing knowledge.
+6. Prompt engineering requires language proficiency; humanities backgrounds excel.
+7. Computer science backgrounds may overlook language implications in GPT-3.
+8. Team composition for LLM use should include language experts.
+9. Building fine-tuning datasets is labor-intensive compared to prompt engineering.
+10. Use natural language separators for clarity in fine-tuning tasks.
+11. Semantic separators allow task differentiation without multiple fine-tuned models.
+12. Create synthetic datasets using GPT-3 for efficiency.
+13. Legal scraping of public data, like from Reddit, can provide raw material for datasets.
+14. Synthetic datasets are quicker to produce with instruct series models.
+15. Fine-tuning requires far fewer samples than traditional ML assumptions suggest.
+16. Fine-tuning increases consistency but may reduce creativity.
+17. Prompt engineering is preferable for creative tasks, fine-tuning for consistent output.
+18. Fine-tuning's cost-effectiveness is highlighted with low sample requirements.
+19. Manual cleanup of synthetic datasets is faster than manual dataset creation.
+20. Encouragement to experiment with GPT-3 and fine-tuning, and to share findings.

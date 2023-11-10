@@ -1,0 +1,11 @@
+- David Shapiro resumes YouTube video creation.
+- Shapiro acknowledges past gaps in educational approach.
+- Emphasizes transition to educator role, enhancing teaching environment.
+- Discusses synthetic data generation by GPT-3.
+- Synthetic data: benefits include selective filtering, prompt variety, task compression.
+- Fine-tuning with synthetic data can improve model performance.
+- Incorporating diverse data formats enhances model robustness.
+- Confabulation and hallucination in LLMs differ from traditional ML accuracy/precision issues.
+- Confabulation: LLMs fabricate unrelated narratives.
+- Newer LLMs reduce confabulation, but it remains a concern.
+- Shapiro commits to improving educational content delivery.

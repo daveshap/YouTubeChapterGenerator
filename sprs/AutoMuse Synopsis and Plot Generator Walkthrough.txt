@@ -1,0 +1,15 @@
+- David Shapiro discusses Auto Muse open-sourcing.
+- Conversation with Tau influenced focus on AGI development.
+- Editor feedback highlighted the expertise required in editing novels.
+- Author-editor relationship likened to a generative adversarial network (GAN).
+- GPT-3's token limits constrain its use for full-length novels.
+- Auto Muse project includes a synopsis generator.
+- Synopsis generator creates story synopses using random variables.
+- Fine-tuning GPT-3 for this task deemed too expensive.
+- Cost efficiency favors generating data over fine-tuning.
+- Plot generator creates detailed outlines using "Save the Cat" beat sheet.
+- Original DaVinci model better at fiction than Instruct series.
+- Full-length novels are currently beyond GPT-3's capabilities.
+- Auto Muse's current capabilities limited to generating synopses and plot outlines.
+- Shapiro does not believe Auto Muse will disrupt the market yet.
+- Encourages likes, subscriptions, and Patreon support.

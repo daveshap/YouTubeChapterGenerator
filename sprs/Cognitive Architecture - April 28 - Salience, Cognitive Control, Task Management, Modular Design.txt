@@ -1,0 +1,26 @@
+- Introduction to Heroistic Imperatives Discord research group.
+- Group focuses on building cognitive architecture.
+- Database, member of cognitive AI Channel, known for debates.
+- Ansel, computer science engineer, fascinated by cognitive architecture.
+- Database's recent engagement with cognitive architecture due to Auto GPT.
+- Ansel's background in C# and recent Python experience.
+- Challenges: finding a host for language model with working API.
+- Solution: Uba Booga API for hosting multiple language models.
+- Switch to OpenAI for rapid development and resource saving.
+- Development of Salience Module, a Python script for cognitive loops.
+- Salience Loop: initializes agents, processes task list, allows manual or auto mode.
+- Logic Loop: designed for quick agent and logic loop creation.
+- Salience Agent: sorts and filters task list, passes tasks to Job Agent.
+- Job Agent: summarizes related results, executes tasks, handles frustration.
+- Analyst Agent: evaluates task completion, provides feedback.
+- System designed for easy modification and extensibility.
+- Use of JSON files for prompt configuration.
+- Main loop and agents designed for simplicity and modularity.
+- Project open for collaboration, seeking contributors for new agents and features.
+- Project licensed under GNU General Public License.
+- Future goals: win hackathon, expand functionality, empower users to build AI systems.
+- Project aims to be an engine for heuristic imperatives and other AI initiatives.
+- Desire for project to be used broadly and to empower non-programmers.
+- Project's semi-autonomous capabilities and potential for full autonomy discussed.
+- Collaboration through GitHub and cognitive AI Discord.
+- Project's significance in the evolving field of cognitive architecture highlighted.

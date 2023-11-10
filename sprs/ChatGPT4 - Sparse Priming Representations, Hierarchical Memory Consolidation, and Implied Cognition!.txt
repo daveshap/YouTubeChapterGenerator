@@ -1,0 +1,34 @@
+- David Shapiro presents video, expresses fatigue.
+- Video purpose: share three new GitHub repositories.
+- Repository one: Sparse Priming Representations (SPR).
+  - SPR: concise, context-driven memory summaries.
+  - Enables SMEs, LLMs to reconstruct ideas.
+  - Short sentences provide context.
+  - Effective for memory organization, retrieval.
+  - Reduces information to essential elements.
+  - Facilitates quick understanding, recall.
+  - Mimics human memory structure.
+- Repository two: Hierarchical Memory Consolidation System (HMCS).
+  - Autonomous cognitive entity memory system.
+  - Long chat with ChatGPT, salient bits highlighted.
+  - Overview, theory, basics of implementation provided.
+  - Lacks examples, full implementation.
+  - HMCS naming may change for ease (e.g., REMO).
+- Repository three: Large Language Model Theory of Mind.
+  - Paper published four weeks ago.
+  - Experiments with Bing, ChatGPT, GPT-4.
+  - Focus on implied cognition.
+  - ChatGPT4 used to articulate, test implied cognition.
+  - ChatGPT4 demonstrates metacognitive abilities.
+  - Discerning self-explication vs. confabulation.
+- Discussions enabled on GitHub, Reddit.
+- ChatGPT conversation documented.
+  - Evidence of implied cognition.
+  - ChatGPT recognizes novel information.
+  - Generates relevant questions.
+  - Adapts communication, conceptual integration.
+  - Goal tracking, executive function, cognitive control.
+  - Self-explication vs. confabulation discussed.
+  - Novelty recognition, handling novel information.
+- Shapiro's process: sharing work on platforms instead of writing books.
+- All repositories public, under MIT license, open for discussion.

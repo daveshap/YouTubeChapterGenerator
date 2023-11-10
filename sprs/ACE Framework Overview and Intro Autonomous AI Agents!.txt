@@ -1,0 +1,27 @@
+- David Shapiro announces completion of ACE Framework paper.
+- ACE Framework: Autonomous Cognitive Entity framework.
+- Academic team collaboration; paper submission to arXiv.
+- Paper: deep dive into abstract scientific concepts.
+- Research: interdisciplinary, extensive citations, LLMs.
+- GitHub repository: DaveShapiroAce_Framework, MIT license.
+- Framework practicality: reduced jargon, generative AI focus.
+- Project overview: updated contribution guidelines, agile team size.
+- Demonstrations planned: game using Pygame, desktop assistant.
+- Hackability: reference architecture for ACE applications.
+- ACE Framework: six layers, abstract to concrete.
+- Aspirational layer: morality, ethics, mission.
+- Global strategy layer: environmental context, overarching strategy.
+- Agent model layer: capabilities, limitations, memories.
+- Executive function layer: risks, resources, plans.
+- Cognitive control layer: task selection, switching.
+- Task prosecution layer: execution of tasks, interaction with world.
+- Northbound and southbound buses: communication channels.
+- Human-readable communication: transparency, security.
+- Aspirational layer: abstract, guides entity behavior.
+- Global strategy layer: synthesizes strategy from mission and context.
+- Agent model layer: self-awareness, episodic and declarative memory.
+- Executive function layer: pre-action consideration of risks and resources.
+- Cognitive control layer: mediates task execution based on plans.
+- Task prosecution layer: actual task execution, real-world interaction.
+- Security considerations: overlays, runtime validation, ensembles, inference inspection.
+- Future work: research paper publication, practical demonstrations, framework enhancements.

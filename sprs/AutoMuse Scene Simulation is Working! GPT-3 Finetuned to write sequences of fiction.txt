@@ -1,0 +1,12 @@
+David Shapiro discusses the Auto Muse project, which generates fiction automatically. He created synthetic data, consisting of scenes and follow-up scenes, and uploaded it to GitHub. The training data includes a random scene, a demarcation token, a follow-up scene, and a stop token. He demonstrates using GPT-3 to write a high fantasy story, editing the generated text to replace common names with more unique ones and to remove copyrighted names like Gandalf. The final product is a model that continues generating a story based on the pattern of scenes and summaries.
+
+Shapiro then writes a Python script, `write_novel.py`, to automate the story generation process. The script uses a fine-tuned GPT-3 model to generate a new scene, summarizes the previous content, and then generates the next part of the story. He encounters a problem where the story generation gets stuck in a loop after a few iterations, concluding that the story reached a natural end. He suggests that adding more elements, such as multiple characters and world events, could prevent this looping and create a more dynamic story.
+
+Shapiro's process involves:
+- Generating scenes using a fine-tuned GPT-3 model.
+- Summarizing the scenes to maintain coherence.
+- Iteratively adding to the story while summarizing previous content.
+- Saving the story progress to a file.
+- Recognizing the need for more complexity to avoid repetitive loops.
+
+He concludes that while the current script can generate coherent story links, it needs to be part of a larger system with more variables to maintain an ongoing narrative. He invites viewers to like, subscribe, and consider supporting him on Patreon.

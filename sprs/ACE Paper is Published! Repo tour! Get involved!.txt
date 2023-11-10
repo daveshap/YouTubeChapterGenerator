@@ -1,0 +1,33 @@
+- Morning greeting.
+- Introduction to ACE Framework project.
+- Walkthrough of repository (repo) planned.
+- Current state: small repo, no examples, core team brainstorming.
+- Upcoming technical milestones, designs, organizational tasks.
+- Repo guide: README, framework link, participation info, resources.
+- ACE Framework architecture overview.
+- Project categories: personal assistants, companions, NPCs, employees, robots.
+- Initial focus: personal assistant/companion.
+- Autonomous cognitive entities: independent thinking, goal setting.
+- Safety and non-toxicity emphasized.
+- Repo contents: ACE Framework details, Agile chart, MVP criteria.
+- MVP: Python-based, hackable, simple, visual component, full layer and bus implementation.
+- Agile development: small teams, rapid improvement, MVP, POC.
+- Contribution methods: discussions, Discord, Patreon, consulting.
+- Core team established, open source project structure.
+- Scrum teams recommended, lead developer role.
+- Scrum Master role: process guidance, team coordination.
+- Repository as learning nexus for ACE deployment.
+- Resources document: books, concepts, frameworks, YouTube videos.
+- Publication announcement: partnership with Clemson University.
+- Paper on ACE Framework: psychology, philosophy, ethics.
+- Additional relevant publications listed.
+- Discussions tab: safety, understanding, sharing, Q&A.
+- Open invitation for community engagement.
+- LinkedIn for collaboration offers.
+- Government and business AI narratives, buy-in generation.
+- Mission: inclusive table for individuals, businesses, governments.
+- Content production shift to Medium.
+- Video team formation, production quality increase, co-host addition.
+- Focus on interviews, open source projects, education, tutorials.
+- Autonomous machine vision: helpful, safe, futuristic companions.
+- Call to action: build, collaborate, improve lives with AI.

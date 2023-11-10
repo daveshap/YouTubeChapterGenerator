@@ -1,0 +1,21 @@
+- Chat GPT API: Custom instructions panel for user preferences.
+- System window: Backend API feature for out-of-band instructions.
+- Content types: Background information, instructions, articles.
+- Use case: API for fiction, character creation, rapid feedback.
+- Token capacity: GPT-3.5 Turbo, 16k tokens for extensive content.
+- Mission: Define purpose or goal for the chatbot.
+- Avoid procedural thinking: Treat API as intelligent component.
+- Example: 18th century Scottish barkeep with Vikings persona.
+- Markdown: Preferred for structured system window content.
+- Contextual information: Enhances chatbot performance.
+- Personality traits: Define character attributes for NPC.
+- Real-time updates: System message can be modified interactively.
+- Retrieval augmented generation: Out-of-band process for dynamic content.
+- Placeholder tags: For replacing content in system window.
+- Structure for system window prompts: Mission, context, rules, instructions, expected input, output format, example output.
+- Assembly line analogy: Define expectations and outcomes at each stage.
+- Academic writing: Adjust style and tone for academic audience.
+- Slide deck builder: Define format and content for slide decks.
+- Latent understanding: Chatbot infers needs from clear instructions.
+- GitHub repo: Repository for favorite custom instructions.
+- Continuous improvement: Regular updates to the repository.

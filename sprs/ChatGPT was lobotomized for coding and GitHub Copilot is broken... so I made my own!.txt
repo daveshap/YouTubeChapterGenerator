@@ -1,0 +1,22 @@
+- ChatGPT perceived as underperforming in coding tasks.
+- Discontent with GitHub Copilot and its beta access issues.
+- User empowerment to create custom solutions.
+- Playground experimentation leads to successful Python function generation.
+- Creation of a coding chatbot assistant to compensate for perceived deficiencies in existing tools.
+- Chatbot designed to output Python code, adhere to PEP 8, and provide explanations only upon request.
+- Example provided of chatbot generating specific, desired code output.
+- Explanation of chatbot's code structure and functionality, totaling 105 lines.
+- Error handling includes context length checks, retry with exponential backoff, and debug output.
+- Introduction of a multi-line input function for updating a scratch pad.
+- Scratch pad serves as a dynamic input source for the system message.
+- Accumulation of user and chatbot messages in a list for conversation management.
+- System message placement at the end of the input list to maintain instruction adherence.
+- Token count management to stay within API limits.
+- Text wrapping implementation to maintain comment readability.
+- Repository made available, with documentation generated using ChatGPT.
+- Simple setup instructions provided, with emphasis on scratch pad usage.
+- Console output guides user through scratch pad interaction and mode status.
+- Chatbot likened to Cisco switch configuration due to user's background.
+- Open invitation for feedback and suggestions to improve the chatbot.
+- Scratch pad highlighted as a key feature for flexibility and out-of-band updates.
+- User concludes with an invitation to share thoughts and a return to coding.

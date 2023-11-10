@@ -1,0 +1,18 @@
+- Generative Adversarial Networks (GANs) for generating story synopses.
+- Synopses serve as story seeds, premises for fiction generation.
+- Removing names from synopses to create "garbage" or low-quality examples.
+- Adjusting generative models to avoid generic outputs.
+- Synopsis quality grading system from 1 (garbage) to 5 (solid).
+- Separation of variable selection and synopsis generation in code.
+- Infinite loop for generating and grading synopses until a grade 5 is achieved.
+- High temperature setting for fiction generation to increase variation.
+- Discriminator improves by setting criteria for a good synopsis.
+- Three pillars of a story: setting, plot, character.
+- Setting must include location, time period, and cultural context.
+- Characters must be named and have arcs.
+- Plot requires clear beginning, middle, end, and narrative progression.
+- Fine-tuning models to generate synopses based on input formats.
+- Input formats: list of appeal terms, reference interviews, stream of consciousness, list of comp titles.
+- Fine-tuned model generates synopses with themes and moral truths.
+- Open problem: generating names for characters and places.
+- Integration of Whisper for speech-to-text in GPT-3.

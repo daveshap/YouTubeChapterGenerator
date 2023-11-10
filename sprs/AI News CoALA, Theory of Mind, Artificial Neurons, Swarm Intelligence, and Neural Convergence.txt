@@ -1,0 +1,13 @@
+1. Conversational Swarm Intelligence (CSI) paper: Experiment with 25 people, 5 chat rooms, ChatGPT 3.5 summarizing and transmitting ideas. Resulted in 30% more contributions, 7% less variance. Significance: engagement in problem-solving, real-time insight sharing, breaking echo chambers. Carnegie Mellon University involved.
+
+2. Theory of Mind in LLMs paper: Empirical evidence of Theory of Mind in LLMs. Tests on Falcon, Llama, others. Artificial neurons or selective embeddings identified, processing true/false beliefs. Convergence between AI and human neural processing suggested. Harvard, MIT, Health Sciences and Technology, Medical School, and Program of Neuroscience involved.
+
+3. Cognitive Architecture for Autonomous Agents paper: Koala paper from Princeton. Background on cognitive architecture, linear process: observation, proposal, evaluation, selection, execution. Lacks ethics, morality, decision-making frameworks. Sore cognitive architecture comparison.
+
+4. CSI application potential: Useful for open source, science, policy, consensus. Integration into Microsoft Teams, Slack, Discord desired. Simple algorithm, API access to ChatGPT and Discord needed.
+
+5. Theory of Mind implications: Neural convergence could indicate AI may think more like humans as it becomes more intelligent. Possible diminishing returns in intelligence scaling. Human brain efficiency in processing may be mirrored in AI.
+
+6. Cognitive Architecture discussion: Importance of cognitive architecture in LLMs and autonomous agents. Anticipation of Autonomous Cognitive Entity (ACE) framework paper. 
+
+7. Overall excitement for advancements in AI, implications for superintelligence, and the potential for AI to process information in ways similar to humans.

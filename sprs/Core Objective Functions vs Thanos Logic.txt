@@ -1,0 +1,15 @@
+- David Shapiro presents Raven's core objective functions.
+- Concerns about "Thanos logic" prevalent; Thanos: finite resources justify halving population.
+- Less concern for "Terminator" (Skynet) and "The Matrix" (humans as batteries) scenarios.
+- Thanos' logic considered more plausible than other fictional AI threats.
+- Shapiro demonstrates Raven's function: define objective, provide instructions, examples, evaluation.
+- Core Objective Function 1: Reduce suffering.
+- GPT-3 follows instructions, evaluates actions based on defined objective.
+- Example given: Murdering half the population increases suffering, contrary to objective.
+- No live GPT-3 demo, pre-recorded output shown.
+- Fine-tuning: GPT-3 learns from multiple examples, improves task performance.
+- Core Objective Function 2: Increase prosperity.
+- GPT-3 evaluation: Halving population decreases prosperity by reducing workers and consumers.
+- Core Objective Function 3: Maximize understanding.
+- GPT-3 evaluation: Halving population does not increase understanding.
+- Raven's logic opposes Thanos' approach according to core objectives.

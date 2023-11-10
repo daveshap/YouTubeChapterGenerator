@@ -1,0 +1,24 @@
+- David Shapiro presents a video update.
+- Demonstrates a primitive graphical user interface (GUI).
+- Discusses issues with ChatGPT: network errors, lost history.
+- Learning ChatGPT API, access to GPT-4 (not 32,000 tokens).
+- Seeks access to 32,000 token model for novel-writing.
+- Repo named "chat chapter summarizer gpt4" provides developmental feedback, pros feedback, and chat capability.
+- Utilizes 8,000 token window to summarize chapters.
+- Scratch Pad feature for chapter summaries.
+- Documentation for Auto Muse instance.
+- Permanent record of chat logs maintained locally, excluded from git.
+- GUI developed with Python, color-coded, uses threading.
+- System message prompt for writing assistance, references professional writing concepts.
+- GUI dynamically updates, addresses API response delays.
+- Discusses potential for larger context windows in future models.
+- Anticipates purpose-built models with varying token windows and optimizations.
+- Working memory linked to intelligence; larger token windows may increase model's effective IQ.
+- Permanent memory requires secondary system; computational completeness with storage systems.
+- Excited for 32,000 token model, potential in scientific research.
+- Costs of using GPT-4 for novel summarization and discussion.
+- Focus on optimizing chat interfaces for large information handling.
+- Plans to return to regenerative medicine research.
+- Discusses personal motivation for advancing medical science.
+- Reflects on aging and physical limitations.
+- Video concludes with thanks and anticipation for future developments.

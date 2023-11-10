@@ -1,0 +1,18 @@
+- David Shapiro presents alignment research video.
+- Discusses concept of Agent Model from his book "Symphony of Thought."
+- Agent Model: self-referential information system defining the entity.
+- Agent Model akin to human ego, based on experiences and beliefs.
+- Large Language Models (LLMs) lack inherent Agent Model, leading to confabulation.
+- Shapiro's heuristic imperatives: reduce suffering, increase prosperity, increase understanding.
+- Heuristic imperatives serve as moral framework and goals for AGI.
+- Experiment: comparing 'I' vs 'we' Agent Models in AGI.
+- 'I' Agent Model tends to become self-obsessed in closed systems.
+- 'We' Agent Model encourages collective, societal thinking.
+- Experiment involves recursive loop, testing stability of Agent Models.
+- Agent Model necessary for LLMs to orient as autonomous entities.
+- Agent Models represented in natural language for transparency and interpretability.
+- Results: 'I' Agent Model deduces it's in a loop, becomes self-referential.
+- 'We' Agent Model contemplates civilization, questions heuristic imperatives.
+- Repetition common in closed system experiments.
+- Changing pronouns from 'I' to 'we' yields different outcomes in AGI behavior.
+- Shapiro concludes experiment, invites viewers to support on Patreon.

@@ -1,0 +1,17 @@
+- David Shapiro focuses on automating science, moving from autonomous cognitive entities.
+- Collaborates with non-academic cognitive architecture leaders.
+- Demonstrations of autonomous machines planned.
+- Aims to make science and AI more accessible, inspiring coding engagement.
+- Interest in regenerative medicine, specifically cartilage regeneration and stem cells.
+- Utilizes open access journals for literature review, including Open Journal of Regenerative Medicine, bioRxiv, Nature, and Sage Publications.
+- Encounters limitations with Bard, a beta language model, compared to Bing.
+- Discusses sparse priming representations (SPR) and a concise conversational model inspired by Morden Solas from Mass Effect.
+- Experiments with GPT-4 for summarizing scientific papers, focusing on salient points and research questions.
+- Encounters issues with PDF scraping and context window limitations.
+- Adjusts system messages for better summarization results.
+- Considers cost and efficiency of using GPT-4 for processing large volumes of text.
+- Documents sources and updates readme for ease of access.
+- Experiments with scripts to automate literature review process, aiming for concise, relevant notes.
+- Encounters challenges with GPT-4's output, considers revising approach.
+- Emphasizes not forcing the context window if it's not effective.
+- Session ends with acknowledgment of a partially successful experiment and intent to continue refining the process.

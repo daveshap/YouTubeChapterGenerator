@@ -1,0 +1,19 @@
+- David Shapiro presents episode on Raven AGI's encyclopedic service.
+- Encyclopedic service provides Raven with verified facts.
+- Generative models like GPT-3 lack inherent truth discernment.
+- Encyclopedic service uses Simple English Wikipedia for manageable size.
+- Wikipedia's full size: 18-19 GB compressed, 81 GB uncompressed.
+- Simple English Wikipedia: under 1 GB, simpler language, smaller subset.
+- Shapiro demonstrates cleaning Wikipedia's markup to plain text.
+- JSON format used for cleaned data, categories and links removed.
+- Script processes Wikipedia XML, extracts articles, removes unwanted markup.
+- SQLite database stores articles; unique IDs prevent duplicates.
+- Indexing improves search speeds within the database.
+- Script uses regex, HTML to text conversion, and wiki text parser for cleaning.
+- Final output: plain text articles, about half the size of original markup.
+- Raven's "brain" will be a single database file of Simple English Wikipedia.
+- Future improvements may include Apache Solr for enhanced search capabilities.
+- GPT-3 will assist Raven in parsing and summarizing documents.
+- Encyclopedic service will enhance Raven's problem-solving by providing information.
+- Raven aims to have a library of human knowledge internally accessible.
+- Code for the project available on GitHub; updates to follow on integration with Raven.
